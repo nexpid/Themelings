@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 345; continue _fun00003 }
+                        if(mike) { _fun00004_ip = 347; continue _fun00003 }
  10:
                         tango = argFoo;
                         mike = undefined;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = _closure2_slot1;
                         report = report.bind(mike)(golf);
  152: // try_end0
-                        _fun00004_ip = 342; continue _fun00003;
+                        _fun00004_ip = 344; continue _fun00003;
  157:
                         return tango;
  160: // catch_target0
@@ -226,13 +226,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = null;
                         golf = report == golf;
                         report = undefined;
-                        if(golf) { _fun00004_ip = 258; continue _fun00003 }
- 253:
+                        if(golf) { _fun00004_ip = 260; continue _fun00003 }
+ 255:
                         report = oscar.message;
- 258:
+ 260:
                         zulu = report;
-                        if(report) { _fun00004_ip = 337; continue _fun00003 }
- 264:
+                        if(report) { _fun00004_ip = 339; continue _fun00003 }
+ 266:
                         oscar = _closure1_slot0;
                         offset = _closure1_slot2;
                         report = 10;
@@ -249,11 +249,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = verify.STATUS;
                         report['statusPageURL'] = verify;
                         zulu = golf.bind(options)(oscar, report);
- 337:
+ 339:
                         zulu = tango.bind(mike)(zulu);
- 342:
+ 344:
                         return mike;
- 345:
+ 347:
                         return entity;
                     }
                 };

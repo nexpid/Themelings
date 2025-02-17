@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                                         StartGenerator();
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                        if(mike) { _fun00006_ip = 318; continue _fun00005 }
+                                        if(mike) { _fun00006_ip = 320; continue _fun00005 }
  10:
                                         mike = undefined;
                                         oscar = undefined;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                         report = _closure4_slot3;
                                         report = report.bind(mike)();
  200: // try_end0
-                                        _fun00006_ip = 315; continue _fun00005;
+                                        _fun00006_ip = 317; continue _fun00005;
  202: // try_start_1
                                         report = global;
                                         report = report.Error;
@@ -294,9 +294,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                         tango = _closure4_slot6;
                                         zulu = false;
                                         zulu = tango.bind(mike)(zulu);
- 315:
+ 317:
                                         return mike;
- 318:
+ 320:
                                         return entity;
                                     }
                                 };

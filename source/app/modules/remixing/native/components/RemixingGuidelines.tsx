@@ -178,10 +178,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             mike = entity.Group;
             entity = {};
-            if(!verify) { _fun00006_ip = 157; continue _fun00005 }
- 154:
+            if(!verify) { _fun00006_ip = 155; continue _fun00005 }
+ 152:
             oscar = options;
- 157:
+ 155:
             entity['opacity'] = oscar;
             options = _closure1_slot6;
             offset = _closure1_slot0;

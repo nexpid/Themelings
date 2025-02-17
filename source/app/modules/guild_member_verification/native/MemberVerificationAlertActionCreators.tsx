@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.bind(offset)(options);
             zulu['text'] = options;
             zulu['onPress'] = golf;
-            _fun00004_ip = 237; continue _fun00003;
+            _fun00004_ip = 239; continue _fun00003;
  152:
             golf = {};
             yankee = _closure1_slot0;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             golf['onPress'] = options;
             zulu = golf;
- 237:
+ 239:
             zulu = oscar.bind(entity)(tango, zulu);
             _closure2_slot3 = zulu;
             oscar = _closure1_slot2;

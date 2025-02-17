@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 941; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 939; continue _fun00003 }
  12:
                     zulu = argFoo;
                     mike = undefined;
@@ -336,17 +336,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['Content-Type'] = golf;
                     zulu['headers'] = oscar;
                     zulu = tango.bind(report)(zulu);
-                    SaveGenerator(address=879);
+                    SaveGenerator(address=877);
+ 875:
+                    return zulu;
  877:
-                    return zulu;
- 879:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00004_ip = 887; continue _fun00003 }
- 885: // try_end5
-                    _fun00004_ip = 938; continue _fun00003;
- 887:
+                    if(tango) { _fun00004_ip = 885; continue _fun00003 }
+ 883: // try_end5
+                    _fun00004_ip = 936; continue _fun00003;
+ 885:
                     return zulu;
- 890: // catch_target3 // catch_target4 // catch_target5
+ 888: // catch_target3 // catch_target4 // catch_target5
                     CatchBlockStart(arg_register=2);
                     report = _closure1_slot9;
                     tango = report.error;
@@ -357,9 +357,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = 'uploadAppLogFiles: upload app log files error ';
                     zulu = oscar.bind(zulu)(golf);
                     zulu = tango.bind(report)(zulu);
- 938:
+ 936:
                     return mike;
- 941:
+ 939:
                     return entity;
                 }
             };

@@ -118,8 +118,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = 1;
                 oscar = offset - oscar;
                 oscar = verify < oscar;
-                if(!oscar) { _fun00004_ip = 134; continue _fun00003 }
- 104:
+                if(!oscar) { _fun00004_ip = 132; continue _fun00003 }
+ 102:
                 yankee = _closure1_slot5;
                 offset = _closure1_slot4;
                 options = {};
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = romeo.divider;
                 options['style'] = romeo;
                 oscar = yankee.bind(mike)(offset, options);
- 134:
+ 132:
                 entity[1] = oscar;
                 zulu['children'] = entity;
                 oscar = golf.join;

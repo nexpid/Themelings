@@ -201,8 +201,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(tango)(yankee, options);
             options = new Array(4);
             options[0] = yankee;
-            if(!offset) { _fun00002_ip = 687; continue _fun00001 }
- 496:
+            if(!offset) { _fun00002_ip = 689; continue _fun00001 }
+ 498:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot0;
             echo = _closure1_slot2;
@@ -273,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['onPress'] = output;
             output = sizing.length;
             sizing = 0;
-            if(!(!(output > sizing))) { _fun00002_ip = 625; continue _fun00001 }
- 571:
+            if(!(!(output > sizing))) { _fun00002_ip = 627; continue _fun00001 }
+ 573:
             echo = _closure1_slot0;
             sizing = _closure1_slot2;
             output = sizing[source];
@@ -286,8 +286,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.t;
             sizing = sizing.uoQFIi;
             sizing = output.bind(result)(sizing);
-            _fun00002_ip = 677; continue _fun00001;
- 625:
+            _fun00002_ip = 679; continue _fun00001;
+ 627:
             update = _closure1_slot0;
             output = _closure1_slot2;
             result = output[source];
@@ -299,16 +299,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.tnE3bW;
             sizing = result.bind(echo)(output);
- 677:
+ 679:
             yankee['children'] = sizing;
             offset = backup.bind(tango)(foxtrot, yankee);
- 687:
+ 689:
             options[1] = offset;
             yankee = kilo.length;
             offset = 0;
             offset = yankee > offset;
-            if(!offset) { _fun00002_ip = 742; continue _fun00001 }
- 705:
+            if(!offset) { _fun00002_ip = 744; continue _fun00001 }
+ 707:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             yankee['flaggedContent'] = kilo;
             offset = backup.bind(tango)(foxtrot, yankee);
- 742:
+ 744:
             options[2] = offset;
             yankee = _closure1_slot6;
             offset = _closure1_slot1;

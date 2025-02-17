@@ -132,16 +132,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity == record;
             zulu = undefined;
-            if(mike) { _fun00002_ip = 240; continue _fun00001 }
- 235:
+            if(mike) { _fun00002_ip = 238; continue _fun00001 }
+ 233:
             zulu = record.guildId;
- 240:
+ 238:
             options = entity == romeo;
             mike = undefined;
-            if(options) { _fun00002_ip = 254; continue _fun00001 }
- 249:
+            if(options) { _fun00002_ip = 252; continue _fun00001 }
+ 247:
             mike = romeo.id;
- 254:
+ 252:
             context = tango.bind(oscar)(zulu, mike, backup);
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -153,16 +153,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot3 = mike;
             mike = entity == record;
             foxtrot = undefined;
-            if(mike) { _fun00002_ip = 310; continue _fun00001 }
- 305:
+            if(mike) { _fun00002_ip = 308; continue _fun00001 }
+ 303:
             foxtrot = record.application;
- 310:
+ 308:
             mike = entity == romeo;
             whiskey = undefined;
-            if(mike) { _fun00002_ip = 324; continue _fun00001 }
- 319:
+            if(mike) { _fun00002_ip = 322; continue _fun00001 }
+ 317:
             whiskey = romeo.guild_id;
- 324:
+ 322:
             _closure2_slot4 = whiskey;
             oscar = _closure1_slot3;
             tango = oscar.useMemo;
@@ -230,10 +230,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = mike.gradientFallbackBackground;
             update = mike.avatarBackground;
             verify = mike.containerBackground;
-            if(!(entity != backup)) { _fun00002_ip = 2002; continue _fun00001 }
- 530:
-            if(!(entity != equality)) { _fun00002_ip = 2002; continue _fun00001 }
- 537:
+            if(!(entity != backup)) { _fun00002_ip = 1990; continue _fun00001 }
+ 526:
+            if(!(entity != equality)) { _fun00002_ip = 1990; continue _fun00001 }
+ 533:
             target = function() { // Original name: handleCopyUsername
                 tango = _closure2_slot2;
                 zulu = {};
@@ -283,16 +283,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output['user'] = backup;
             source = entity == record;
             config = undefined;
-            if(source) { _fun00002_ip = 655; continue _fun00001 }
- 650:
+            if(source) { _fun00002_ip = 649; continue _fun00001 }
+ 644:
             config = record.guildId;
- 655:
+ 649:
             status = entity != config;
             source = undefined;
-            if(!status) { _fun00002_ip = 667; continue _fun00001 }
- 664:
+            if(!status) { _fun00002_ip = 661; continue _fun00001 }
+ 658:
             source = config;
- 667:
+ 661:
             output['guildId'] = source;
             output['backgroundColor'] = update;
             result = echo.bind(report)(result, output);
@@ -314,10 +314,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             config = entity != vacuum;
             source = 0;
-            if(config) { _fun00002_ip = 759; continue _fun00001 }
- 755:
+            if(config) { _fun00002_ip = 753; continue _fun00001 }
+ 749:
             source = _closure1_slot7;
- 759:
+ 753:
             kilo['paddingTop'] = source;
             source = _closure1_slot6;
             source = sequence + source;
@@ -398,10 +398,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['displayName'] = context;
             status = entity == record;
             context = undefined;
-            if(status) { _fun00002_ip = 934; continue _fun00001 }
- 928:
+            if(status) { _fun00002_ip = 926; continue _fun00001 }
+ 920:
             context = record.pronouns;
- 934:
+ 926:
             yankee['pronouns'] = context;
             yankee['badgeContainerBackground'] = verify;
             variable38 = _closure1_slot0;
@@ -460,8 +460,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target['maxWidth'] = yankee;
             kilo = entity != foxtrot;
             yankee = undefined;
-            if(!kilo) { _fun00002_ip = 1285; continue _fun00001 }
- 1128:
+            if(!kilo) { _fun00002_ip = 1275; continue _fun00001 }
+ 1118:
             context = _closure1_slot0;
             lima = _closure1_slot2;
             kilo = 32;
@@ -470,8 +470,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = context.canInstallApplication;
             kilo = kilo.bind(context)(foxtrot);
             yankee = undefined;
-            if(!kilo) { _fun00002_ip = 1285; continue _fun00001 }
- 1164:
+            if(!kilo) { _fun00002_ip = 1275; continue _fun00001 }
+ 1154:
             lima = _closure1_slot9;
             context = _closure1_slot1;
             variable38 = _closure1_slot2;
@@ -484,17 +484,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['botUserId'] = variable38;
             variable42 = entity == romeo;
             variable38 = undefined;
-            if(variable42) { _fun00002_ip = 1218; continue _fun00001 }
- 1213:
+            if(variable42) { _fun00002_ip = 1208; continue _fun00001 }
+ 1203:
             variable38 = romeo.id;
- 1218:
+ 1208:
             kilo['channelId'] = variable38;
             variable42 = entity != whiskey;
             variable38 = undefined;
-            if(!variable42) { _fun00002_ip = 1234; continue _fun00001 }
- 1231:
+            if(!variable42) { _fun00002_ip = 1224; continue _fun00001 }
+ 1221:
             variable38 = whiskey;
- 1234:
+ 1224:
             kilo['guildId'] = variable38;
             quebec = quebec.applicationButton;
             kilo['style'] = quebec;
@@ -506,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = quebec.hideActionSheet;
             kilo['onOpenApp'] = quebec;
             yankee = lima.bind(report)(context, kilo);
- 1285:
+ 1275:
             target['primaryButton'] = yankee;
             kilo = _closure1_slot9;
             variable38 = _closure1_slot0;
@@ -628,8 +628,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = kilo.bind(report)(yankee, verify);
             config[1] = verify;
             verify = entity != whiskey;
-            if(!verify) { _fun00002_ip = 1828; continue _fun00001 }
- 1705:
+            if(!verify) { _fun00002_ip = 1816; continue _fun00001 }
+ 1693:
             record = _closure1_slot10;
             kilo = _closure1_slot11;
             yankee = {};
@@ -660,7 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context[1] = status;
             yankee['children'] = context;
             verify = record.bind(report)(kilo, yankee);
- 1828:
+ 1816:
             config[2] = verify;
             verify = _closure1_slot9;
             yankee = _closure1_slot1;
@@ -702,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 2002:
+ 1990:
             return entity;
         }
     };

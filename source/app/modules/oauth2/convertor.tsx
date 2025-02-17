@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = zulu.guilds;
             mike = null;
             entity = zulu;
-            if(!(mike != tango)) { _fun00002_ip = 67; continue _fun00001 }
+            if(!(mike != tango)) { _fun00002_ip = 65; continue _fun00001 }
  18:
             mike = {};
             golf = mike;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = 'guilds';
             mike[zulu] = tango;
             entity = mike;
- 67:
+ 65:
             return entity;
         }
     };

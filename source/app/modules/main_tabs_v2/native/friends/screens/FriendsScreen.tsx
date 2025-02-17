@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = options + entity;
                 sizing = 0;
                 entity = null;
-                if(!(options > sizing)) { _fun00004_ip = 459; continue _fun00003 }
+                if(!(options > sizing)) { _fun00004_ip = 461; continue _fun00003 }
  72:
                 yankee = _closure1_slot7;
                 offset = _closure1_slot4;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 output = _closure2_slot4;
                 kilo = _closure2_slot5;
                 kilo = output + kilo;
-                if(!(!(kilo > sizing))) { _fun00004_ip = 354; continue _fun00003 }
+                if(!(!(kilo > sizing))) { _fun00004_ip = 356; continue _fun00003 }
  288:
                 sizing = _closure1_slot0;
                 kilo = _closure1_slot2;
@@ -420,8 +420,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update = _closure2_slot6;
                 kilo['spam'] = update;
                 kilo = output.bind(result)(sizing, kilo);
-                _fun00004_ip = 427; continue _fun00003;
- 354:
+                _fun00004_ip = 429; continue _fun00003;
+ 356:
                 output = _closure1_slot0;
                 sizing = _closure1_slot2;
                 result = sizing[control];
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 control = _closure2_slot5;
                 sizing['outgoing'] = control;
                 kilo = result.bind(update)(output, sizing);
- 427:
+ 429:
                 romeo['subLabel'] = kilo;
                 kilo = function() { // Original name: onPress
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = yankee.bind(options)(foxtrot, romeo);
                 verify['children'] = romeo;
                 entity = yankee.bind(options)(offset, verify);
- 459:
+ 461:
                 options = new Array(2);
                 options[0] = entity;
                 yankee = _closure1_slot7;

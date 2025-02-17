@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00002_ip = 432; continue _fun00001 }
+            if(!(mike != entity)) { _fun00002_ip = 436; continue _fun00001 }
  12:
             entity = _closure1_slot7;
             report = undefined;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             return entity;
- 432:
+ 436:
             update = "Cannot destructure 'undefined' or 'null'.";
             source = mike;
             entity = throwTypeError(source, update);

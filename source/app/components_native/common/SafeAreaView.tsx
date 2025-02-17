@@ -84,87 +84,87 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = foxtrot.useRef;
             golf = golf.bind(foxtrot)();
             _closure2_slot0 = golf;
-            if(!(offset == zulu)) { _fun00002_ip = 151; continue _fun00001 }
- 149:
+            if(!(offset == zulu)) { _fun00002_ip = 155; continue _fun00001 }
+ 153:
             zulu = {};
- 151:
+ 155:
             output = zulu.paddingTop;
-            if(output) { _fun00002_ip = 166; continue _fun00001 }
- 160:
+            if(output) { _fun00002_ip = 170; continue _fun00001 }
+ 164:
             output = zulu.paddingVertical;
- 166:
-            if(output) { _fun00002_ip = 171; continue _fun00001 }
- 169:
+ 170:
+            if(output) { _fun00002_ip = 175; continue _fun00001 }
+ 173:
             output = 0;
- 171:
+ 175:
             kilo = zulu.paddingBottom;
-            if(kilo) { _fun00002_ip = 186; continue _fun00001 }
- 180:
+            if(kilo) { _fun00002_ip = 190; continue _fun00001 }
+ 184:
             kilo = zulu.paddingVertical;
- 186:
-            if(kilo) { _fun00002_ip = 191; continue _fun00001 }
- 189:
+ 190:
+            if(kilo) { _fun00002_ip = 195; continue _fun00001 }
+ 193:
             kilo = 0;
- 191:
+ 195:
             foxtrot = zulu.paddingLeft;
-            if(foxtrot) { _fun00002_ip = 205; continue _fun00001 }
- 200:
+            if(foxtrot) { _fun00002_ip = 209; continue _fun00001 }
+ 204:
             foxtrot = zulu.paddingHorizontal;
- 205:
-            if(foxtrot) { _fun00002_ip = 210; continue _fun00001 }
- 208:
+ 209:
+            if(foxtrot) { _fun00002_ip = 214; continue _fun00001 }
+ 212:
             foxtrot = 0;
- 210:
+ 214:
             offset = zulu.paddingRight;
-            if(offset) { _fun00002_ip = 224; continue _fun00001 }
- 219:
+            if(offset) { _fun00002_ip = 228; continue _fun00001 }
+ 223:
             offset = zulu.paddingHorizontal;
- 224:
-            if(offset) { _fun00002_ip = 229; continue _fun00001 }
- 227:
+ 228:
+            if(offset) { _fun00002_ip = 233; continue _fun00001 }
+ 231:
             offset = 0;
- 229:
+ 233:
             oscar = new Array(5);
             oscar[0] = zulu;
             zulu = undefined;
-            if(!backup) { _fun00002_ip = 261; continue _fun00001 }
- 242:
+            if(!backup) { _fun00002_ip = 265; continue _fun00001 }
+ 246:
             backup = {};
             sizing = verify.top;
             sizing = sizing + output;
             backup['paddingTop'] = sizing;
             zulu = backup;
- 261:
+ 265:
             oscar[1] = zulu;
             zulu = undefined;
-            if(!romeo) { _fun00002_ip = 289; continue _fun00001 }
- 270:
+            if(!romeo) { _fun00002_ip = 293; continue _fun00001 }
+ 274:
             romeo = {};
             backup = verify.bottom;
             backup = backup + kilo;
             romeo['paddingBottom'] = backup;
             zulu = romeo;
- 289:
+ 293:
             oscar[2] = zulu;
             zulu = undefined;
-            if(!yankee) { _fun00002_ip = 317; continue _fun00001 }
- 298:
+            if(!yankee) { _fun00002_ip = 321; continue _fun00001 }
+ 302:
             yankee = {};
             romeo = verify.left;
             romeo = romeo + foxtrot;
             yankee['paddingLeft'] = romeo;
             zulu = yankee;
- 317:
+ 321:
             oscar[3] = zulu;
             zulu = undefined;
-            if(!options) { _fun00002_ip = 345; continue _fun00001 }
- 326:
+            if(!options) { _fun00002_ip = 349; continue _fun00001 }
+ 330:
             options = {};
             verify = verify.right;
             verify = verify + offset;
             options['paddingRight'] = verify;
             zulu = options;
- 345:
+ 349:
             oscar[4] = zulu;
             _closure2_slot1 = oscar;
             options = _closure1_slot0;
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf);
             golf = golf.bind(tango)(oscar, zulu);
             _closure2_slot2 = golf;
-            if(!golf) { _fun00002_ip = 410; continue _fun00001 }
- 403:
+            if(!golf) { _fun00002_ip = 414; continue _fun00001 }
+ 407:
             _closure2_slot1 = zulu;
             oscar = zulu;
- 410:
+ 414:
             golf = _closure1_slot2;
             zulu = golf.useInsertionEffect;
             mike = function() {

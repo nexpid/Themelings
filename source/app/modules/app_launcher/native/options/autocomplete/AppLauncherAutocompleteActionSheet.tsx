@@ -717,8 +717,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(verify, report);
             report = new Array(4);
             report[0] = verify;
-            if(!options) { _fun00008_ip = 653; continue _fun00007 }
- 618:
+            if(!options) { _fun00008_ip = 655; continue _fun00007 }
+ 620:
             output = _closure1_slot9;
             offset = _closure1_slot0;
             verify = _closure1_slot2;
@@ -727,7 +727,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.AppLauncherListEmptyState;
             verify = {};
             options = output.bind(tango)(offset, verify);
- 653:
+ 655:
             report[1] = options;
             offset = _closure1_slot9;
             verify = _closure1_slot0;
@@ -766,13 +766,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['scrollEnabled'] = yankee;
             options = offset.bind(tango)(verify, options);
             report[2] = options;
-            if(!oscar) { _fun00008_ip = 745; continue _fun00007 }
- 729:
+            if(!oscar) { _fun00008_ip = 747; continue _fun00007 }
+ 731:
             verify = _closure1_slot9;
             options = _closure1_slot14;
             golf = {};
             oscar = verify.bind(tango)(options, golf);
- 745:
+ 747:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

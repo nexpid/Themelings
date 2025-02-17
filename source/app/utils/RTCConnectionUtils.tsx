@@ -34,39 +34,39 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  14:
             mike = _closure1_slot2;
             mike = mike.CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 826; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 846; continue _fun00001 }
  34:
             mike = _closure1_slot2;
             mike = mike.AUTHENTICATING;
-            if(!(mike !== zulu)) { _fun00002_ip = 759; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 777; continue _fun00001 }
  51:
             mike = _closure1_slot2;
             mike = mike.AWAITING_ENDPOINT;
-            if(!(mike !== zulu)) { _fun00002_ip = 689; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 705; continue _fun00001 }
  68:
             mike = _closure1_slot2;
             mike = mike.RTC_CONNECTED;
-            if(!(mike !== zulu)) { _fun00002_ip = 597; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 609; continue _fun00001 }
  85:
             mike = _closure1_slot2;
             mike = mike.RTC_CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 527; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 537; continue _fun00001 }
  102:
             mike = _closure1_slot2;
             mike = mike.ICE_CHECKING;
-            if(!(mike !== zulu)) { _fun00002_ip = 457; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 465; continue _fun00001 }
  119:
             mike = _closure1_slot2;
             mike = mike.DTLS_CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 387; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 393; continue _fun00001 }
  136:
             mike = _closure1_slot2;
             mike = mike.NO_ROUTE;
-            if(!(mike !== zulu)) { _fun00002_ip = 317; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 321; continue _fun00001 }
  153:
             mike = _closure1_slot2;
             mike = mike.RTC_DISCONNECTED;
-            if(!(mike !== zulu)) { _fun00002_ip = 247; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 249; continue _fun00001 }
  167:
             mike = _closure1_slot2;
             mike = mike.DISCONNECTED;
@@ -84,8 +84,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.NLKQb2;
             mike = report.bind(oscar)(mike);
-            _fun00002_ip = 891; continue _fun00001;
- 247:
+            _fun00002_ip = 913; continue _fun00001;
+ 249:
             report = _closure1_slot3;
             zulu = report.ERROR;
             offset = _closure1_slot0;
@@ -100,8 +100,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.t;
             report = report.M7LDmJ;
             mike = golf.bind(verify)(report);
-            _fun00002_ip = 891; continue _fun00001;
- 317:
+            _fun00002_ip = 913; continue _fun00001;
+ 321:
             report = _closure1_slot3;
             zulu = report.ERROR;
             offset = _closure1_slot0;
@@ -116,8 +116,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.t;
             report = report.mGhOIi;
             mike = golf.bind(verify)(report);
-            _fun00002_ip = 891; continue _fun00001;
- 387:
+            _fun00002_ip = 913; continue _fun00001;
+ 393:
             report = _closure1_slot3;
             zulu = report.CONNECTING;
             offset = _closure1_slot0;
@@ -132,8 +132,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.t;
             report = report.UvB3gY;
             mike = golf.bind(verify)(report);
-            _fun00002_ip = 891; continue _fun00001;
- 457:
+            _fun00002_ip = 913; continue _fun00001;
+ 465:
             report = _closure1_slot3;
             zulu = report.CONNECTING;
             offset = _closure1_slot0;
@@ -148,8 +148,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.t;
             report = report.rdCyAw;
             mike = golf.bind(verify)(report);
-            _fun00002_ip = 891; continue _fun00001;
- 527:
+            _fun00002_ip = 913; continue _fun00001;
+ 537:
             report = _closure1_slot3;
             zulu = report.CONNECTING;
             offset = _closure1_slot0;
@@ -164,8 +164,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.t;
             report = report.Gp51dn;
             mike = golf.bind(verify)(report);
-            _fun00002_ip = 891; continue _fun00001;
- 597:
+            _fun00002_ip = 913; continue _fun00001;
+ 609:
             report = _closure1_slot3;
             report = report.CONNECTED;
             offset = _closure1_slot0;
@@ -178,19 +178,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = yankee[oscar];
             oscar = offset.bind(options)(oscar);
             oscar = oscar.t;
-            if(tango) { _fun00002_ip = 667; continue _fun00001 }
- 654:
+            if(tango) { _fun00002_ip = 681; continue _fun00001 }
+ 666:
             tango = oscar.daXg4+;
             tango = golf.bind(verify)(tango);
-            _fun00002_ip = 678; continue _fun00001;
- 667:
+            _fun00002_ip = 694; continue _fun00001;
+ 681:
             oscar = oscar.HtVOdX;
             tango = golf.bind(verify)(oscar);
- 678:
+ 694:
             mike = tango;
             zulu = report;
-            _fun00002_ip = 891; continue _fun00001;
- 689:
+            _fun00002_ip = 913; continue _fun00001;
+ 705:
             tango = _closure1_slot3;
             zulu = tango.CONNECTING;
             verify = _closure1_slot0;
@@ -205,8 +205,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.t;
             tango = tango.xEbu0d;
             mike = oscar.bind(golf)(tango);
-            _fun00002_ip = 891; continue _fun00001;
- 759:
+            _fun00002_ip = 913; continue _fun00001;
+ 777:
             tango = _closure1_slot3;
             zulu = tango.CONNECTING;
             verify = _closure1_slot0;
@@ -221,8 +221,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.t;
             tango = tango.GxXwEx;
             mike = oscar.bind(golf)(tango);
-            _fun00002_ip = 891; continue _fun00001;
- 826:
+            _fun00002_ip = 913; continue _fun00001;
+ 846:
             tango = _closure1_slot3;
             zulu = tango.CONNECTING;
             golf = _closure1_slot0;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.MzW9sL;
             mike = report.bind(oscar)(entity);
- 891:
+ 913:
             entity = {};
             entity['connectionStatus'] = zulu;
             entity['connectionStatusText'] = mike;

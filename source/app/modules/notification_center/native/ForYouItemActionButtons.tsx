@@ -803,7 +803,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     tango = _closure2_slot6;
                     options = report.bind(oscar)(tango);
                     tango = null;
-                    if(!(tango != options)) { _fun00016_ip = 180; continue _fun00015 }
+                    if(!(tango != options)) { _fun00016_ip = 176; continue _fun00015 }
  78:
                     oscar = _closure1_slot1;
                     report = _closure1_slot2;
@@ -825,7 +825,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     zulu = {'payload': null, 'safe': true, 'navigationReplace': false};
                     zulu['payload'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 180:
+ 176:
                     zulu = _closure2_slot4;
                     mike = _closure2_slot0;
                     mike = zulu.bind(entity)(mike);
@@ -1177,7 +1177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             };
             source = source.bind(control)(golf, update);
             golf = zulu.disable_action;
-            if(golf) { _fun00012_ip = 3404; continue _fun00011 }
+            if(golf) { _fun00012_ip = 3408; continue _fun00011 }
  570:
             control = zulu.type;
             vacuum = _closure1_slot0;
@@ -1187,7 +1187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             update = vacuum.bind(verify)(update);
             update = update.NotificationCenterLocalItems;
             update = update.INCOMING_FRIEND_REQUESTS;
-            if(!(control !== update)) { _fun00012_ip = 3058; continue _fun00011 }
+            if(!(control !== update)) { _fun00012_ip = 3062; continue _fun00011 }
  614:
             control = zulu.type;
             vacuum = _closure1_slot0;
@@ -1199,7 +1199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!(control === update)) { _fun00012_ip = 663; continue _fun00011 }
  652:
             update = kilo.bind(verify)(zulu);
-            if(update) { _fun00012_ip = 3058; continue _fun00011 }
+            if(update) { _fun00012_ip = 3062; continue _fun00011 }
  663:
             control = zulu.type;
             vacuum = _closure1_slot0;
@@ -1208,7 +1208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             update = vacuum.bind(verify)(update);
             update = update.NotificationCenterLocalItems;
             update = update.INCOMING_GAME_FRIEND_REQUESTS;
-            if(!(control !== update)) { _fun00012_ip = 3058; continue _fun00011 }
+            if(!(control !== update)) { _fun00012_ip = 3062; continue _fun00011 }
  704:
             control = zulu.type;
             vacuum = _closure1_slot0;
@@ -1220,7 +1220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!(control === update)) { _fun00012_ip = 753; continue _fun00011 }
  742:
             kilo = kilo.bind(verify)(zulu);
-            if(kilo) { _fun00012_ip = 3058; continue _fun00011 }
+            if(kilo) { _fun00012_ip = 3062; continue _fun00011 }
  753:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1229,7 +1229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterLocalItems;
             kilo = kilo.FRIEND_REQUESTS_GROUPED;
-            if(!(update !== kilo)) { _fun00012_ip = 2880; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2884; continue _fun00011 }
  794:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1238,7 +1238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.GO_LIVE_PUSH;
-            if(!(update !== kilo)) { _fun00012_ip = 2702; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2706; continue _fun00011 }
  835:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1247,7 +1247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterLocalItems;
             kilo = kilo.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-            if(!(update !== kilo)) { _fun00012_ip = 2524; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2528; continue _fun00011 }
  876:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1256,7 +1256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.DM_FRIEND_NUDGE;
-            if(!(update !== kilo)) { _fun00012_ip = 2524; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2528; continue _fun00011 }
  917:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1265,7 +1265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.FRIEND_REQUEST_ACCEPTED;
-            if(!(update !== kilo)) { _fun00012_ip = 2524; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2528; continue _fun00011 }
  958:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1274,7 +1274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.GAME_FRIEND_REQUEST_ACCEPTED;
-            if(!(update !== kilo)) { _fun00012_ip = 2524; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2528; continue _fun00011 }
  999:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1283,7 +1283,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.FRIEND_SUGGESTION_CREATED;
-            if(!(update !== kilo)) { _fun00012_ip = 2346; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2350; continue _fun00011 }
  1040:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1292,7 +1292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = control.bind(verify)(kilo);
             kilo = kilo.NotificationCenterItems;
             kilo = kilo.GUILD_SCHEDULED_EVENT_STARTED;
-            if(!(update !== kilo)) { _fun00012_ip = 2168; continue _fun00011 }
+            if(!(update !== kilo)) { _fun00012_ip = 2172; continue _fun00011 }
  1081:
             update = zulu.type;
             control = _closure1_slot0;
@@ -1435,7 +1435,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = sizing.bind(verify)(kilo);
             kilo = kilo.ItemEnum;
             kilo = kilo.UPDATE_PROFILE;
-            if(!(kilo !== result)) { _fun00012_ip = 1998; continue _fun00011 }
+            if(!(kilo !== result)) { _fun00012_ip = 2000; continue _fun00011 }
  1694:
             sizing = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -1461,7 +1461,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output = kilo.FIRST_MESSAGE;
             kilo = null;
             sizing = null;
-            if(!(output === result)) { _fun00012_ip = 2059; continue _fun00011 }
+            if(!(output === result)) { _fun00012_ip = 2063; continue _fun00011 }
  1803:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1476,7 +1476,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output = output.GuUH7+;
             kilo = result.bind(echo)(output);
             sizing = 'send_message';
-            _fun00012_ip = 2059; continue _fun00011;
+            _fun00012_ip = 2063; continue _fun00011;
  1869:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1491,7 +1491,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output = output.boL/YW;
             kilo = result.bind(echo)(output);
             sizing = 'add_friend';
-            _fun00012_ip = 2059; continue _fun00011;
+            _fun00012_ip = 2063; continue _fun00011;
  1935:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1506,8 +1506,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output = output.vwL/4u;
             kilo = result.bind(echo)(output);
             sizing = 'find_friends';
-            _fun00012_ip = 2059; continue _fun00011;
- 1998:
+            _fun00012_ip = 2063; continue _fun00011;
+ 2000:
             update = _closure1_slot0;
             source = _closure1_slot2;
             output = 14;
@@ -1521,11 +1521,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output = output.zMRcWF;
             kilo = result.bind(echo)(output);
             sizing = 'update_profile';
- 2059:
-            if(!(entity != kilo)) { _fun00012_ip = 2152; continue _fun00011 }
  2063:
-            if(!(entity != sizing)) { _fun00012_ip = 2152; continue _fun00011 }
+            if(!(entity != kilo)) { _fun00012_ip = 2156; continue _fun00011 }
  2067:
+            if(!(entity != sizing)) { _fun00012_ip = 2156; continue _fun00011 }
+ 2071:
             entity = {};
             output = {};
             output['id'] = sizing;
@@ -1547,15 +1547,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo[0] = sizing;
             entity['accessibilityActions'] = kilo;
             entity['onAccessibilityAction'] = oscar;
-            _fun00012_ip = 2166; continue _fun00011;
- 2152:
+            _fun00012_ip = 2170; continue _fun00011;
+ 2156:
             kilo = {};
             sizing = new Array(0);
             kilo['actionButtons'] = sizing;
             entity = kilo;
- 2166:
+ 2170:
             return entity;
- 2168:
+ 2172:
             entity = {};
             output = {'id': 'join_event', 'text': null, 'variant': 'secondary', 'size': 'md'};
             echo = _closure1_slot0;
@@ -1594,7 +1594,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['accessibilityActions'] = kilo;
             entity['onAccessibilityAction'] = oscar;
             return entity;
- 2346:
+ 2350:
             entity = {};
             output = {'id': 'add_friend', 'text': null, 'variant': 'secondary', 'size': 'md'};
             echo = _closure1_slot0;
@@ -1633,7 +1633,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['accessibilityActions'] = kilo;
             entity['onAccessibilityAction'] = backup;
             return entity;
- 2524:
+ 2528:
             entity = {};
             sizing = {'id': 'send_message', 'text': null, 'variant': 'secondary', 'size': 'md'};
             result = _closure1_slot0;
@@ -1672,7 +1672,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['accessibilityActions'] = backup;
             entity['onAccessibilityAction'] = options;
             return entity;
- 2702:
+ 2706:
             entity = {};
             kilo = {'id': 'join_stream', 'text': null, 'variant': 'secondary', 'size': 'md'};
             output = _closure1_slot0;
@@ -1711,7 +1711,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['accessibilityActions'] = options;
             entity['onAccessibilityAction'] = oscar;
             return entity;
- 2880:
+ 2884:
             entity = {};
             backup = {'id': 'view_friend_requests', 'text': null, 'variant': 'secondary', 'size': 'md'};
             sizing = _closure1_slot0;
@@ -1750,7 +1750,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['accessibilityActions'] = oscar;
             entity['onAccessibilityAction'] = report;
             return entity;
- 3058:
+ 3062:
             entity = {};
             options = _closure1_slot12;
             oscar = _closure1_slot22;
@@ -1770,8 +1770,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = oscar.bind(verify)(zulu);
             zulu = zulu.NotificationCenterLocalItems;
             zulu = zulu.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-            if(!(report !== zulu)) { _fun00012_ip = 3299; continue _fun00011 }
- 3150:
+            if(!(report !== zulu)) { _fun00012_ip = 3303; continue _fun00011 }
+ 3154:
             report = {};
             golf = _closure1_slot15;
             zulu = golf.ACCEPT;
@@ -1805,8 +1805,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = golf.bind(options)(oscar);
             report['label'] = oscar;
             zulu[1] = report;
-            _fun00012_ip = 3385; continue _fun00011;
- 3299:
+            _fun00012_ip = 3389; continue _fun00011;
+ 3303:
             report = {};
             oscar = _closure1_slot15;
             oscar = oscar.WAVE;
@@ -1827,7 +1827,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = new Array(1);
             tango[0] = report;
             zulu = tango;
- 3385:
+ 3389:
             entity['accessibilityActions'] = zulu;
             mike = function(argFoo) { // Original name: onAccessibilityAction
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
@@ -1867,7 +1867,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             };
             entity['onAccessibilityAction'] = mike;
             return entity;
- 3404:
+ 3408:
             entity = {};
             mike = new Array(0);
             entity['actionButtons'] = mike;

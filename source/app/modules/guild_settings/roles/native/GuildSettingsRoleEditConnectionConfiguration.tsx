@@ -123,25 +123,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             update = echo == output;
             sizing = undefined;
-            if(update) { _fun00002_ip = 432; continue _fun00001 }
- 427:
+            if(update) { _fun00002_ip = 434; continue _fun00001 }
+ 429:
             sizing = output.name;
- 432:
-            if(!(echo == sizing)) { _fun00002_ip = 467; continue _fun00001 }
- 436:
+ 434:
+            if(!(echo == sizing)) { _fun00002_ip = 469; continue _fun00001 }
+ 438:
             update = echo == result;
             output = undefined;
-            if(update) { _fun00002_ip = 464; continue _fun00001 }
- 445:
+            if(update) { _fun00002_ip = 466; continue _fun00001 }
+ 447:
             result = result.application;
             echo = echo == result;
             output = undefined;
-            if(echo) { _fun00002_ip = 464; continue _fun00001 }
- 459:
+            if(echo) { _fun00002_ip = 466; continue _fun00001 }
+ 461:
             output = result.name;
- 464:
+ 466:
             sizing = output;
- 467:
+ 469:
             romeo['platformName'] = sizing;
             romeo = backup.bind(kilo)(foxtrot, romeo);
             report['children'] = romeo;

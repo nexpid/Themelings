@@ -486,8 +486,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['onpress'] = report;
             report = new Array(1);
             report[0] = offset;
-            if(oscar) { _fun00002_ip = 698; continue _fun00001 }
- 564:
+            if(oscar) { _fun00002_ip = 706; continue _fun00001 }
+ 570:
             oscar = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -516,10 +516,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['onpress'] = golf;
             golf = new Array(1);
             golf[0] = oscar;
-            _fun00002_ip = 702; continue _fun00001;
- 698:
+            _fun00002_ip = 710; continue _fun00001;
+ 706:
             golf = new Array(0);
- 702:
+ 710:
             sizing = 1;
             result = report;
             output = golf;

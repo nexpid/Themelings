@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = argBar;
                     romeo = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 611; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 612; continue _fun00001 }
  21:
                     var _closure4_slot0 = sizing;
                     report = undefined;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  219:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 608; continue _fun00001 }
+                    if(oscar) { _fun00002_ip = 609; continue _fun00001 }
  228:
                     options = offset == kilo;
                     oscar = undefined;
@@ -107,10 +107,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = foxtrot.getHeroColors;
                     result = offset != backup;
                     oscar = tango;
-                    if(!result) { _fun00002_ip = 355; continue _fun00001 }
- 352:
+                    if(!result) { _fun00002_ip = 356; continue _fun00001 }
+ 353:
                     oscar = backup;
- 355:
+ 356:
                     oscar = yankee.bind(foxtrot)(oscar);
                     yankee = oscar.primaryColor;
                     _closure4_slot3 = yankee;
@@ -144,16 +144,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = foxtrot.bind(report)(yankee);
                     yankee = yankee.DiscordCanvasExporterOutputFormats;
                     yankee = yankee.CloudUpload;
-                    if(!(romeo === yankee)) { _fun00002_ip = 537; continue _fun00001 }
- 516:
+                    if(!(romeo === yankee)) { _fun00002_ip = 538; continue _fun00001 }
+ 517:
                     verify = verify.id;
                     offset = offset != verify;
-                    if(!offset) { _fun00002_ip = 531; continue _fun00001 }
- 528:
+                    if(!offset) { _fun00002_ip = 532; continue _fun00001 }
+ 529:
                     tango = verify;
- 531:
+ 532:
                     oscar['channelId'] = tango;
- 537:
+ 538:
                     tango = _closure1_slot0;
                     verify = _closure1_slot2;
                     zulu = 14;
@@ -188,19 +188,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['drawImage'] = golf;
                     zulu['exportConfigs'] = oscar;
                     zulu = tango.bind(report)(zulu);
-                    SaveGenerator(address=596);
- 594:
+                    SaveGenerator(address=597);
+ 595:
                     return zulu;
- 596:
+ 597:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 605; continue _fun00001 }
- 602:
+                    if(tango) { _fun00002_ip = 606; continue _fun00001 }
+ 603:
                     return zulu;
- 605:
+ 606:
                     return zulu;
- 608:
+ 609:
                     return mike;
- 611:
+ 612:
                     return entity;
                 }
             };
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = 'days';
             golf = yankee.bind(foxtrot)(verify, golf);
             sizing = 7;
-            if(!(golf <= sizing)) { _fun00006_ip = 744; continue _fun00005 }
+            if(!(golf <= sizing)) { _fun00006_ip = 746; continue _fun00005 }
  667:
             verify = offset.push;
             golf = {};
@@ -508,15 +508,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = foxtrot.bind(output)(yankee);
             golf['text'] = yankee;
             golf = verify.bind(offset)(golf);
- 744:
+ 746:
             verify = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
             verify = verify.bind(entity)(golf);
             golf = verify.isEntryNew;
             golf = golf.bind(verify)(backup);
-            if(!golf) { _fun00006_ip = 852; continue _fun00005 }
- 775:
+            if(!golf) { _fun00006_ip = 854; continue _fun00005 }
+ 777:
             verify = offset.push;
             golf = {};
             yankee = _closure1_slot15;
@@ -534,15 +534,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = foxtrot.bind(output)(yankee);
             golf['text'] = yankee;
             golf = verify.bind(offset)(golf);
- 852:
+ 854:
             verify = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
             verify = verify.bind(entity)(golf);
             golf = verify.isValidStreak;
             golf = golf.bind(verify)(backup);
-            if(!golf) { _fun00006_ip = 988; continue _fun00005 }
- 883:
+            if(!golf) { _fun00006_ip = 990; continue _fun00005 }
+ 885:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
             golf = yankee[kilo];
@@ -566,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = output.bind(result)(foxtrot, yankee);
             golf['text'] = yankee;
             golf = verify.bind(offset)(golf);
- 988:
+ 990:
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot2;
             golf = foxtrot[kilo];
@@ -578,8 +578,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = yankee.bind(entity)(golf);
             golf = golf.TrendingType;
             golf = golf.GLOBAL;
-            if(!(verify === golf)) { _fun00006_ip = 1121; continue _fun00005 }
- 1044:
+            if(!(verify === golf)) { _fun00006_ip = 1125; continue _fun00005 }
+ 1046:
             verify = offset.push;
             golf = {};
             yankee = _closure1_slot20;
@@ -597,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = foxtrot.bind(output)(yankee);
             golf['text'] = yankee;
             golf = verify.bind(offset)(golf);
- 1121:
+ 1125:
             verify = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
@@ -605,8 +605,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = verify.getResurrectedEntryLastPlayTime;
             result = golf.bind(verify)(backup);
             verify = null;
-            if(!(verify != result)) { _fun00006_ip = 1208; continue _fun00005 }
- 1155:
+            if(!(verify != result)) { _fun00006_ip = 1212; continue _fun00005 }
+ 1159:
             yankee = offset.push;
             golf = {};
             foxtrot = _closure1_slot17;
@@ -619,15 +619,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = foxtrot.bind(output)(result);
             golf['text'] = foxtrot;
             golf = yankee.bind(offset)(golf);
- 1208:
+ 1212:
             yankee = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
             yankee = yankee.bind(entity)(golf);
             golf = yankee.isEntryMarathon;
             golf = golf.bind(yankee)(backup);
-            if(!golf) { _fun00006_ip = 1301; continue _fun00005 }
- 1239:
+            if(!golf) { _fun00006_ip = 1305; continue _fun00005 }
+ 1243:
             yankee = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
@@ -635,15 +635,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = yankee.getMarathonDescription;
             golf = golf.bind(yankee)(backup);
             foxtrot = golf.text;
-            if(!(verify != foxtrot)) { _fun00006_ip = 1301; continue _fun00005 }
- 1276:
+            if(!(verify != foxtrot)) { _fun00006_ip = 1305; continue _fun00005 }
+ 1280:
             yankee = offset.push;
             golf = {};
             output = _closure1_slot16;
             golf['iconPath'] = output;
             golf['text'] = foxtrot;
             golf = yankee.bind(offset)(golf);
- 1301:
+ 1305:
             yankee = _closure1_slot0;
             golf = _closure1_slot2;
             golf = golf[kilo];
@@ -651,8 +651,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = yankee.isEntryTopGame;
             yankee = golf.bind(yankee)(backup);
             golf = offset;
-            if(!yankee) { _fun00006_ip = 1584; continue _fun00005 }
- 1338:
+            if(!yankee) { _fun00006_ip = 1588; continue _fun00005 }
+ 1342:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
             yankee = yankee[kilo];
@@ -660,8 +660,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = foxtrot.getEntryDuration;
             source = yankee.bind(foxtrot)(backup);
             golf = offset;
-            if(!(verify != source)) { _fun00006_ip = 1584; continue _fun00005 }
- 1376:
+            if(!(verify != source)) { _fun00006_ip = 1588; continue _fun00005 }
+ 1380:
             kilo = _closure1_slot0;
             yankee = _closure1_slot2;
             verify = yankee[sizing];
@@ -707,7 +707,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = offset;
             golf = verify;
- 1584:
+ 1588:
             mike = tango[mike];
             tango = zulu.bind(entity)(mike);
             zulu = tango.drawBadges;

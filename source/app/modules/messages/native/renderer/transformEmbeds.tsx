@@ -579,8 +579,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = tango.timestamp;
                 entity = report != entity;
                 echo = null;
-                if(!entity) { _fun00006_ip = 1401; continue _fun00005 }
- 1364:
+                if(!entity) { _fun00006_ip = 1399; continue _fun00005 }
+ 1362:
                 golf = _closure1_slot0;
                 options = _closure1_slot2;
                 entity = 8;
@@ -589,33 +589,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = options.calendarFormat;
                 entity = tango.timestamp;
                 echo = golf.bind(options)(entity);
- 1401:
+ 1399:
                 entity = tango.footer;
-                if(!(report == entity)) { _fun00006_ip = 1445; continue _fun00005 }
- 1411:
+                if(!(report == entity)) { _fun00006_ip = 1443; continue _fun00005 }
+ 1409:
                 entity = report != echo;
                 golf = undefined;
-                if(!entity) { _fun00006_ip = 1647; continue _fun00005 }
- 1423:
+                if(!entity) { _fun00006_ip = 1645; continue _fun00005 }
+ 1421:
                 entity = {};
                 entity['content'] = echo;
                 options = '';
                 entity['text'] = options;
                 golf = entity;
-                _fun00006_ip = 1647; continue _fun00005;
- 1445:
+                _fun00006_ip = 1645; continue _fun00005;
+ 1443:
                 entity = tango.footer;
                 result = entity.text;
                 kilo = result;
-                if(!(report != echo)) { _fun00006_ip = 1493; continue _fun00005 }
- 1463:
+                if(!(report != echo)) { _fun00006_ip = 1491; continue _fun00005 }
+ 1461:
                 entity = global;
                 entity = entity.HermesInternal;
                 output = entity.concat;
                 options = '';
                 entity = ' | ';
                 kilo = output.bind(options)(result, entity, echo);
- 1493:
+ 1491:
                 entity = {};
                 context = tango.footer;
                 papa = entity;
@@ -624,23 +624,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity[options] = kilo;
                 options = tango.footer;
                 options = options.iconProxyURL;
-                if(!(report != options)) { _fun00006_ip = 1553; continue _fun00005 }
- 1533:
+                if(!(report != options)) { _fun00006_ip = 1551; continue _fun00005 }
+ 1531:
                 options = tango.footer;
                 kilo = options.iconProxyURL;
                 options = '';
-                if(!(options === kilo)) { _fun00006_ip = 1567; continue _fun00005 }
- 1553:
+                if(!(options === kilo)) { _fun00006_ip = 1565; continue _fun00005 }
+ 1551:
                 options = tango.footer;
                 echo = options.iconURL;
-                _fun00006_ip = 1579; continue _fun00005;
- 1567:
+                _fun00006_ip = 1577; continue _fun00005;
+ 1565:
                 options = tango.footer;
                 echo = options.iconProxyURL;
- 1579:
+ 1577:
                 golf = entity;
-                if(!(report != echo)) { _fun00006_ip = 1647; continue _fun00005 }
- 1586:
+                if(!(report != echo)) { _fun00006_ip = 1645; continue _fun00005 }
+ 1584:
                 kilo = _closure1_slot1;
                 output = _closure1_slot2;
                 options = 2;
@@ -657,33 +657,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = target[output](papa, context, record, config, sequence);
                 entity['iconURL'] = options;
                 golf = entity;
- 1647:
+ 1645:
                 entity = tango.author;
                 entity = report != entity;
                 options = undefined;
-                if(!entity) { _fun00006_ip = 1821; continue _fun00005 }
- 1665:
+                if(!entity) { _fun00006_ip = 1819; continue _fun00005 }
+ 1663:
                 entity = tango.author;
                 entity = entity.iconProxyURL;
-                if(!(report != entity)) { _fun00006_ip = 1701; continue _fun00005 }
- 1681:
+                if(!(report != entity)) { _fun00006_ip = 1699; continue _fun00005 }
+ 1679:
                 entity = tango.author;
                 kilo = entity.iconProxyURL;
                 entity = '';
-                if(!(entity === kilo)) { _fun00006_ip = 1715; continue _fun00005 }
- 1701:
+                if(!(entity === kilo)) { _fun00006_ip = 1713; continue _fun00005 }
+ 1699:
                 entity = tango.author;
                 source = entity.iconURL;
-                _fun00006_ip = 1727; continue _fun00005;
- 1715:
+                _fun00006_ip = 1725; continue _fun00005;
+ 1713:
                 entity = tango.author;
                 source = entity.iconProxyURL;
- 1727:
-                if(!(report == source)) { _fun00006_ip = 1739; continue _fun00005 }
- 1731:
+ 1725:
+                if(!(report == source)) { _fun00006_ip = 1737; continue _fun00005 }
+ 1729:
                 entity = tango.author;
-                _fun00006_ip = 1818; continue _fun00005;
- 1739:
+                _fun00006_ip = 1816; continue _fun00005;
+ 1737:
                 kilo = {};
                 context = tango.author;
                 papa = kilo;
@@ -705,17 +705,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 output = 'iconURL';
                 kilo[output] = result;
                 entity = kilo;
- 1818:
+ 1816:
                 options = entity;
- 1821:
+ 1819:
                 output = _closure2_slot10;
-                if(!output) { _fun00006_ip = 1835; continue _fun00005 }
- 1828:
+                if(!output) { _fun00006_ip = 1833; continue _fun00005 }
+ 1826:
                 entity = _closure2_slot11;
                 output = !entity;
- 1835:
-                if(!output) { _fun00006_ip = 1875; continue _fun00005 }
- 1838:
+ 1833:
+                if(!output) { _fun00006_ip = 1873; continue _fun00005 }
+ 1836:
                 kilo = _closure1_slot0;
                 result = _closure1_slot2;
                 entity = 9;
@@ -724,7 +724,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 kilo = result.isPendingScanVersion;
                 entity = tango.contentScanVersion;
                 output = kilo.bind(result)(entity);
- 1875:
+ 1873:
                 update = _closure1_slot0;
                 source = _closure1_slot2;
                 entity = 9;
@@ -745,23 +745,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 source = report != update;
                 kilo = '';
                 result = kilo;
-                if(!source) { _fun00006_ip = 1967; continue _fun00005 }
- 1964:
+                if(!source) { _fun00006_ip = 1965; continue _fun00005 }
+ 1962:
                 result = update;
- 1967:
+ 1965:
                 entity['id'] = result;
                 update = tango.type;
                 source = report != update;
                 result = undefined;
-                if(!source) { _fun00006_ip = 1988; continue _fun00005 }
- 1985:
+                if(!source) { _fun00006_ip = 1986; continue _fun00005 }
+ 1983:
                 result = update;
- 1988:
+ 1986:
                 entity['type'] = result;
                 update = _closure2_slot2;
                 result = kilo;
-                if(!update) { _fun00006_ip = 2067; continue _fun00005 }
- 2002:
+                if(!update) { _fun00006_ip = 2065; continue _fun00005 }
+ 2000:
                 vacuum = _closure1_slot0;
                 sequence = _closure1_slot2;
                 update = 10;
@@ -776,11 +776,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 source = source.bind(control)(update);
                 update = source.toUpperCase;
                 result = update.bind(source)();
- 2067:
+ 2065:
                 entity['spoiler'] = result;
                 result = kilo;
-                if(!echo) { _fun00006_ip = 2133; continue _fun00005 }
- 2078:
+                if(!echo) { _fun00006_ip = 2131; continue _fun00005 }
+ 2076:
                 control = _closure1_slot0;
                 vacuum = _closure1_slot2;
                 echo = 10;
@@ -793,10 +793,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 echo = echo.t;
                 echo = echo.SpxcUV;
                 result = update.bind(source)(echo);
- 2133:
+ 2131:
                 entity['obscure'] = result;
                 if(!output) { _fun00006_ip = 2196; continue _fun00005 }
- 2141:
+ 2139:
                 echo = _closure1_slot0;
                 update = _closure1_slot2;
                 sizing = 10;

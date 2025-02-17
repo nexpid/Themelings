@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.bind(tango)();
             mike = entity.twoWayLinkCode;
             romeo = null;
-            if(!(romeo == mike)) { _fun00002_ip = 155; continue _fun00001 }
+            if(!(romeo == mike)) { _fun00002_ip = 157; continue _fun00001 }
  45:
             zulu = entity.scopes;
             mike = zulu.includes;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.SDK_SOCIAL_LAYER;
             entity = mike.bind(zulu)(entity);
             output = null;
-            if(!entity) { _fun00002_ip = 210; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 214; continue _fun00001 }
  98:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -92,8 +92,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.vBPvKy;
             output = mike.bind(zulu)(entity);
-            _fun00002_ip = 210; continue _fun00001;
- 155:
+            _fun00002_ip = 214; continue _fun00001;
+ 157:
             report = _closure1_slot0;
             golf = _closure1_slot2;
             entity = 4;
@@ -106,14 +106,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.QhATl5;
             output = mike.bind(zulu)(entity);
- 210:
+ 214:
             zulu = _closure1_slot5;
             mike = _closure1_slot6;
             entity = {};
             report = romeo != kilo;
             golf = null;
-            if(!report) { _fun00002_ip = 311; continue _fun00001 }
- 229:
+            if(!report) { _fun00002_ip = 315; continue _fun00001 }
+ 233:
             offset = _closure1_slot4;
             options = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 'contain';
             report['resizeMode'] = yankee;
             golf = offset.bind(tango)(options, report);
- 311:
+ 315:
             report = new Array(3);
             report[0] = golf;
             offset = _closure1_slot5;
@@ -173,8 +173,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = kilo;
             kilo = romeo != output;
             romeo = null;
-            if(!kilo) { _fun00002_ip = 560; continue _fun00001 }
- 487:
+            if(!kilo) { _fun00002_ip = 566; continue _fun00001 }
+ 493:
             sizing = _closure1_slot4;
             kilo = _closure1_slot0;
             result = _closure1_slot2;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = result;
             foxtrot['children'] = output;
             romeo = sizing.bind(tango)(kilo, foxtrot);
- 560:
+ 566:
             yankee[1] = romeo;
             golf['children'] = yankee;
             golf = offset.bind(tango)(options, golf);

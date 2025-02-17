@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             if(!(entity === tango)) { _fun00002_ip = 20; continue _fun00001 }
  11:
             entity = _closure1_slot0;
-            _fun00002_ip = 53; continue _fun00001;
+            _fun00002_ip = 51; continue _fun00001;
  20:
             zulu = tango.split;
             mike = '\n';
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 return entity;
             };
             entity = zulu.bind(tango)(mike);
- 53:
+ 51:
             return entity;
         }
     };

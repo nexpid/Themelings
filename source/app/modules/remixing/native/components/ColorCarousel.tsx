@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = 0;
                             mike = tango === report;
  77:
-                            if(!mike) { _fun00008_ip = 101; continue _fun00007 }
+                            if(!mike) { _fun00008_ip = 99; continue _fun00007 }
  80:
                             tango = _closure3_slot0;
                             mike = function(argFoo) {
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 }
                             };
                             mike = tango.bind(zulu)(mike);
- 101:
+ 99:
                             mike = _closure2_slot3;
                             entity = _closure3_slot1;
                             entity = mike.bind(zulu)(entity);
@@ -422,14 +422,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = foxtrot.bind(sizing)(golf);
                 golf = new Array(2);
                 golf[0] = foxtrot;
-                if(romeo) { _fun00004_ip = 615; continue _fun00003 }
- 373:
-                if(!options) { _fun00004_ip = 380; continue _fun00003 }
- 376:
+                if(romeo) { _fun00004_ip = 601; continue _fun00003 }
+ 365:
+                if(!options) { _fun00004_ip = 372; continue _fun00003 }
+ 368:
                 options = offset === yankee;
- 380:
-                if(!options) { _fun00004_ip = 610; continue _fun00003 }
- 386:
+ 372:
+                if(!options) { _fun00004_ip = 596; continue _fun00003 }
+ 378:
                 foxtrot = _closure1_slot8;
                 romeo = _closure1_slot5;
                 yankee = {};
@@ -464,10 +464,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result = result.RemixShader;
                 result = result.RAINBOW;
                 result = echo === result;
-                if(!result) { _fun00004_ip = 492; continue _fun00003 }
- 486:
+                if(!result) { _fun00004_ip = 482; continue _fun00003 }
+ 476:
                 result = kilo.selectedColor;
- 492:
+ 482:
                 output[2] = result;
                 offset['style'] = output;
                 echo = _closure1_slot8;
@@ -489,9 +489,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee['children'] = offset;
                 offset = 'RAINBOW';
                 options = foxtrot.bind(tango)(romeo, yankee, offset);
- 610:
-                _fun00004_ip = 796; continue _fun00003;
- 615:
+ 596:
+                _fun00004_ip = 782; continue _fun00003;
+ 601:
                 romeo = _closure1_slot8;
                 yankee = _closure1_slot5;
                 offset = {};
@@ -547,7 +547,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset['children'] = verify;
                 verify = 'next colors';
                 options = romeo.bind(tango)(yankee, offset, verify);
- 796:
+ 782:
                 golf[1] = options;
                 report['children'] = golf;
                 report = oscar.bind(tango)(mike, report);
@@ -755,8 +755,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo['scrollAnimationDuration'] = backup;
                 romeo = zulu.bind(tango)(foxtrot, romeo);
                 offset[1] = romeo;
-                if(!yankee) { _fun00018_ip = 561; continue _fun00017 }
- 507:
+                if(!yankee) { _fun00018_ip = 559; continue _fun00017 }
+ 505:
                 backup = _closure1_slot8;
                 foxtrot = _closure1_slot13;
                 romeo = {};
@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 kilo = kilo.length;
                 romeo['pageCount'] = kilo;
                 yankee = backup.bind(tango)(foxtrot, romeo);
- 561:
+ 559:
                 offset[2] = yankee;
                 golf['children'] = offset;
                 golf = verify.bind(tango)(options, golf);

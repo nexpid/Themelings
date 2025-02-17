@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -478,37 +478,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = yankee.bind(zulu)(oscar);
             romeo = !offset;
             oscar = zulu;
-            if(!romeo) { _fun00014_ip = 317; continue _fun00013 }
- 314:
+            if(!romeo) { _fun00014_ip = 315; continue _fun00013 }
+ 312:
             romeo = yankee;
- 317:
+ 315:
             zulu = romeo;
-            if(romeo) { _fun00014_ip = 326; continue _fun00013 }
- 323:
+            if(romeo) { _fun00014_ip = 324; continue _fun00013 }
+ 321:
             zulu = verify;
- 326:
-            if(zulu) { _fun00014_ip = 332; continue _fun00013 }
- 329:
+ 324:
+            if(zulu) { _fun00014_ip = 330; continue _fun00013 }
+ 327:
             zulu = mike;
- 332:
+ 330:
             kilo = golf;
-            if(!golf) { _fun00014_ip = 341; continue _fun00013 }
- 338:
+            if(!golf) { _fun00014_ip = 339; continue _fun00013 }
+ 336:
             kilo = options;
- 341:
-            if(!kilo) { _fun00014_ip = 362; continue _fun00013 }
- 344:
+ 339:
+            if(!kilo) { _fun00014_ip = 360; continue _fun00013 }
+ 342:
             sizing = !yankee;
-            if(sizing) { _fun00014_ip = 353; continue _fun00013 }
- 350:
+            if(sizing) { _fun00014_ip = 351; continue _fun00013 }
+ 348:
             sizing = offset;
- 353:
-            if(sizing) { _fun00014_ip = 359; continue _fun00013 }
- 356:
+ 351:
+            if(sizing) { _fun00014_ip = 357; continue _fun00013 }
+ 354:
             sizing = zulu;
- 359:
+ 357:
             kilo = sizing;
- 362:
+ 360:
             source = _closure1_slot5;
             output = source.getChannel;
             sizing = control.getChannelId;
@@ -516,24 +516,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             output = output.bind(source)(sizing);
             sizing = echo == output;
             source = undefined;
-            if(sizing) { _fun00014_ip = 420; continue _fun00013 }
- 395:
+            if(sizing) { _fun00014_ip = 418; continue _fun00013 }
+ 393:
             sizing = output.getGuildId;
             sizing = echo == sizing;
             source = undefined;
-            if(sizing) { _fun00014_ip = 420; continue _fun00013 }
- 410:
+            if(sizing) { _fun00014_ip = 418; continue _fun00013 }
+ 408:
             sizing = output.getGuildId;
             source = sizing.bind(output)();
- 420:
+ 418:
             sizing = echo != source;
             echo = null;
-            if(!sizing) { _fun00014_ip = 444; continue _fun00013 }
- 429:
+            if(!sizing) { _fun00014_ip = 442; continue _fun00013 }
+ 427:
             output = _closure1_slot6;
             sizing = output.getSelfMember;
             echo = sizing.bind(output)(source);
- 444:
+ 442:
             sizing = _closure1_slot0;
             source = _closure1_slot2;
             entity = 13;
@@ -550,37 +550,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['poll'] = result;
             entity['canTapAnswers'] = kilo;
             kilo = romeo;
-            if(!kilo) { _fun00014_ip = 519; continue _fun00013 }
- 516:
+            if(!kilo) { _fun00014_ip = 517; continue _fun00013 }
+ 514:
             kilo = golf;
- 519:
-            if(!kilo) { _fun00014_ip = 525; continue _fun00013 }
- 522:
+ 517:
+            if(!kilo) { _fun00014_ip = 523; continue _fun00013 }
+ 520:
             kilo = !verify;
- 525:
+ 523:
             entity['canRemoveVote'] = kilo;
             entity['canShowVoteCounts'] = zulu;
             kilo = !tango;
-            if(!kilo) { _fun00014_ip = 544; continue _fun00013 }
- 541:
+            if(!kilo) { _fun00014_ip = 542; continue _fun00013 }
+ 539:
             kilo = foxtrot;
- 544:
-            if(!kilo) { _fun00014_ip = 550; continue _fun00013 }
- 547:
+ 542:
+            if(!kilo) { _fun00014_ip = 548; continue _fun00013 }
+ 545:
             kilo = !romeo;
- 550:
-            if(!kilo) { _fun00014_ip = 556; continue _fun00013 }
- 553:
+ 548:
+            if(!kilo) { _fun00014_ip = 554; continue _fun00013 }
+ 551:
             kilo = golf;
- 556:
-            if(!kilo) { _fun00014_ip = 562; continue _fun00013 }
- 559:
+ 554:
+            if(!kilo) { _fun00014_ip = 560; continue _fun00013 }
+ 557:
             kilo = !output;
- 562:
-            if(!kilo) { _fun00014_ip = 568; continue _fun00013 }
- 565:
+ 560:
+            if(!kilo) { _fun00014_ip = 566; continue _fun00013 }
+ 563:
             kilo = !sizing;
- 568:
+ 566:
             entity['canSubmitVote'] = kilo;
             entity['expirationLabel'] = backup;
             entity['hasSelectedAnswer'] = foxtrot;
@@ -750,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             control = entity.canSubmitVote;
             _closure2_slot3 = control;
             mike = entity.expirationLabel;
-            if(!(kilo === mike)) { _fun00016_ip = 390; continue _fun00015 }
+            if(!(kilo === mike)) { _fun00016_ip = 392; continue _fun00015 }
  335:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -764,7 +764,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.e+J3JS;
             mike = report.bind(oscar)(zulu);
- 390:
+ 392:
             _closure2_slot4 = mike;
             options = entity.hasSelectedAnswer;
             _closure2_slot5 = options;
@@ -1028,19 +1028,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity['pollMedia'] = foxtrot;
                     entity['isSelected'] = yankee;
                     yankee = _closure2_slot7;
-                    if(!yankee) { _fun00020_ip = 628; continue _fun00019 }
- 625:
+                    if(!yankee) { _fun00020_ip = 610; continue _fun00019 }
+ 607:
                     yankee = romeo;
- 628:
+ 610:
                     entity['isVictor'] = yankee;
                     entity['didSelfVote'] = verify;
                     entity['style'] = options;
                     options = _closure2_slot10;
-                    if(!options) { _fun00020_ip = 658; continue _fun00019 }
- 651:
+                    if(!options) { _fun00020_ip = 640; continue _fun00019 }
+ 633:
                     verify = _closure2_slot1;
                     options = !verify;
- 658:
+ 640:
                     entity['shouldAnimateTransition'] = options;
                     verify = tango.Math;
                     options = verify.round;
@@ -1244,15 +1244,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike[papa];
             mike = control.bind(kilo)(mike);
             mike = mike.t;
-            if(result) { _fun00016_ip = 956; continue _fun00015 }
- 943:
+            if(result) { _fun00016_ip = 944; continue _fun00015 }
+ 929:
             result = mike.cHfFqq;
             result = zulu.bind(verify)(result);
-            _fun00016_ip = 967; continue _fun00015;
- 956:
+            _fun00016_ip = 957; continue _fun00015;
+ 944:
             mike = mike.PVATMz;
             result = zulu.bind(verify)(mike);
- 967:
+ 957:
             _closure2_slot15 = result;
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1320,17 +1320,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = zulu.bind(verify)(mike);
             mike = undefined;
-            if(!yankee) { _fun00016_ip = 1184; continue _fun00015 }
- 1094:
+            if(!yankee) { _fun00016_ip = 1170; continue _fun00015 }
+ 1078:
             mike = undefined;
-            if(report) { _fun00016_ip = 1184; continue _fun00015 }
- 1099:
+            if(report) { _fun00016_ip = 1170; continue _fun00015 }
+ 1083:
             mike = undefined;
-            if(oscar) { _fun00016_ip = 1184; continue _fun00015 }
- 1104:
+            if(oscar) { _fun00016_ip = 1170; continue _fun00015 }
+ 1088:
             mike = undefined;
-            if(entity) { _fun00016_ip = 1184; continue _fun00015 }
- 1109:
+            if(entity) { _fun00016_ip = 1170; continue _fun00015 }
+ 1093:
             entity = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             record = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1345,7 +1345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = source.bind(control)(verify);
             entity['label'] = verify;
             mike = entity;
- 1184:
+ 1170:
             verify = context.allow_multiselect;
             control = _closure1_slot0;
             source = _closure1_slot2;
@@ -1488,10 +1488,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = backup.bind(update)();
             entity['answersInteraction'] = backup;
             backup = undefined;
-            if(!echo) { _fun00016_ip = 1522; continue _fun00015 }
- 1519:
+            if(!echo) { _fun00016_ip = 1492; continue _fun00015 }
+ 1489:
             backup = result;
- 1522:
+ 1492:
             entity['answerTapAccessibilityLabel'] = backup;
             entity['layoutType'] = sizing;
             backup = _closure1_slot1;

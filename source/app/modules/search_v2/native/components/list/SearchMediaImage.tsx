@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot = report.bind(golf)(entity, tango);
             entity = null;
-            if(!(entity != foxtrot)) { _fun00008_ip = 527; continue _fun00007 }
+            if(!(entity != foxtrot)) { _fun00008_ip = 529; continue _fun00007 }
  141:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(offset)();
             if(!tango) { _fun00008_ip = 251; continue _fun00007 }
  244:
-            if(!(entity == zulu)) { _fun00008_ip = 444; continue _fun00007 }
+            if(!(entity == zulu)) { _fun00008_ip = 446; continue _fun00007 }
  251:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
             sizing = romeo;
-            if(!zulu) { _fun00008_ip = 338; continue _fun00007 }
+            if(!zulu) { _fun00008_ip = 340; continue _fun00007 }
  283:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.jes7FB;
             sizing = tango.bind(report)(zulu);
- 338:
+ 340:
             report = _closure1_slot10;
             tango = _closure1_slot7;
             zulu = {};
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['children'] = offset;
             zulu = report.bind(golf)(tango, zulu);
             return zulu;
- 444:
+ 446:
             report = _closure1_slot10;
             tango = _closure1_slot7;
             zulu = {};
@@ -350,11 +350,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['children'] = options;
             zulu = report.bind(golf)(tango, zulu);
             return zulu;
- 527:
+ 529:
             zulu = entity != oscar;
             entity = null;
-            if(!zulu) { _fun00008_ip = 562; continue _fun00007 }
- 536:
+            if(!zulu) { _fun00008_ip = 564; continue _fun00007 }
+ 538:
             report = _closure1_slot8;
             tango = _closure1_slot9;
             zulu = {};
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(mike)();
             zulu['children'] = oscar;
             entity = report.bind(mike)(tango, zulu);
- 562:
+ 564:
             return entity;
         }
     };

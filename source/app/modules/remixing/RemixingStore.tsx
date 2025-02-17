@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -531,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = offset[oscar];
             oscar = oscar.id;
             tango = tango.id;
-            if(!(oscar !== tango)) { _fun00008_ip = 264; continue _fun00007 }
+            if(!(oscar !== tango)) { _fun00008_ip = 262; continue _fun00007 }
  71:
             golf = null;
             var _closure2_slot1 = golf;
@@ -558,12 +558,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(0);
             tango = verify.bind(offset)(oscar, tango);
             oscar = _closure2_slot1;
-            if(!(golf != oscar)) { _fun00008_ip = 122; continue _fun00007 }
- 108:
+            if(!(golf != oscar)) { _fun00008_ip = 120; continue _fun00007 }
+ 106:
             oscar = tango.push;
             report = _closure2_slot1;
             report = oscar.bind(tango)(report);
- 122:
+ 120:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             report = 8;
@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.currentStep;
             entity = entity + zulu;
             mike['currentStep'] = entity;
- 264:
+ 262:
             entity = undefined;
             return entity;
         }

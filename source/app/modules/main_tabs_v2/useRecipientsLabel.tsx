@@ -95,25 +95,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = entity.name;
                 tango = '';
                 entity = null;
-                if(!(tango !== report)) { _fun00002_ip = 439; continue _fun00001 }
+                if(!(tango !== report)) { _fun00002_ip = 447; continue _fun00001 }
  25:
                 options = _closure2_slot1;
                 zulu = options.length;
                 golf = 0;
                 mike = null;
-                if(!(golf !== zulu)) { _fun00002_ip = 436; continue _fun00001 }
+                if(!(golf !== zulu)) { _fun00002_ip = 444; continue _fun00001 }
  45:
                 zulu = options.length;
                 verify = 1;
-                if(!(verify !== zulu)) { _fun00002_ip = 364; continue _fun00001 }
+                if(!(verify !== zulu)) { _fun00002_ip = 370; continue _fun00001 }
  60:
                 zulu = options.length;
                 yankee = 2;
-                if(!(yankee !== zulu)) { _fun00002_ip = 284; continue _fun00001 }
+                if(!(yankee !== zulu)) { _fun00002_ip = 288; continue _fun00001 }
  75:
                 zulu = options.length;
                 tango = 3;
-                if(!(tango !== zulu)) { _fun00002_ip = 192; continue _fun00001 }
+                if(!(tango !== zulu)) { _fun00002_ip = 194; continue _fun00001 }
  87:
                 zulu = options.length;
                 offset = zulu - tango;
@@ -137,8 +137,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu['third'] = romeo;
                 zulu['count'] = offset;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun00002_ip = 436; continue _fun00001;
- 192:
+                _fun00002_ip = 444; continue _fun00001;
+ 194:
                 offset = _closure1_slot0;
                 zulu = _closure1_slot2;
                 report = zulu[yankee];
@@ -158,8 +158,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = options[yankee];
                 zulu['third'] = offset;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun00002_ip = 436; continue _fun00001;
- 284:
+                _fun00002_ip = 444; continue _fun00001;
+ 288:
                 offset = _closure1_slot0;
                 zulu = _closure1_slot2;
                 report = zulu[yankee];
@@ -177,8 +177,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = options[verify];
                 zulu['second'] = verify;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun00002_ip = 436; continue _fun00001;
- 364:
+                _fun00002_ip = 444; continue _fun00001;
+ 370:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
                 zulu = 2;
@@ -195,9 +195,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = options[golf];
                 zulu['first'] = golf;
                 mike = report.bind(oscar)(tango, zulu);
- 436:
+ 444:
                 entity = mike;
- 439:
+ 447:
                 return entity;
             }
         };

@@ -84,10 +84,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(report)(golf);
             golf = options.isAndroid;
             golf = golf.bind(options)();
-            if(!golf) { _fun00002_ip = 153; continue _fun00001 }
- 147:
+            if(!golf) { _fun00002_ip = 149; continue _fun00001 }
+ 143:
             tango = -1;
- 153:
+ 149:
             mike['marginBottom'] = tango;
             entity['title'] = mike;
             mike = {'flexDirection': 'row', 'alignItems': 'center'};

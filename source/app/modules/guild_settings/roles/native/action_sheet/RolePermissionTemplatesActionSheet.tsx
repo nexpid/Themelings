@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot2;
                 entity = undefined;
                 entity = mike.bind(entity)(zulu);
-                _fun00002_ip = 305; continue _fun00001;
+                _fun00002_ip = 309; continue _fun00001;
  35:
                 mike = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = false;
                 entity['hideActionSheet'] = tango;
                 entity = mike.bind(zulu)(entity);
- 305:
+ 309:
                 entity = undefined;
                 return entity;
             }

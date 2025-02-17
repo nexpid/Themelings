@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 112; continue _fun00003 }
+                        if(mike) { _fun00004_ip = 110; continue _fun00003 }
  7:
                         report = _closure2_slot2;
                         zulu = undefined;
@@ -185,20 +185,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         };
                         mike = options.bind(verify)(mike);
                         mike = oscar.bind(golf)(report, mike);
-                        SaveGenerator(address=89);
- 87:
+                        SaveGenerator(address=87);
+ 85:
                         return mike;
- 89:
+ 87:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 109; continue _fun00003 }
- 95:
+                        if(report) { _fun00004_ip = 107; continue _fun00003 }
+ 93:
                         report = _closure2_slot2;
                         tango = false;
                         tango = report.bind(zulu)(tango);
                         return zulu;
- 109:
+ 107:
                         return mike;
- 112:
+ 110:
                         return entity;
                     }
                 };

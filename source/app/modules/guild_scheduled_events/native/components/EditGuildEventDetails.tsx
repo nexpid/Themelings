@@ -284,8 +284,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             golf = foxtrot != papa;
             offset = null;
-            if(!golf) { _fun00002_ip = 492; continue _fun00001 }
- 428:
+            if(!golf) { _fun00002_ip = 476; continue _fun00001 }
+ 412:
             kilo = _closure1_slot8;
             yankee = _closure1_slot0;
             control = _closure1_slot3;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = sizing;
             golf['children'] = papa;
             offset = kilo.bind(tango)(yankee, golf);
- 492:
+ 476:
             golf = new Array(2);
             golf[0] = offset;
             kilo = _closure1_slot8;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.PREVIEW;
                     zulu = tango.bind(report)(zulu);
  116: // try_end0
-                    _fun00006_ip = 222; continue _fun00005;
+                    _fun00006_ip = 224; continue _fun00005;
  118: // try_start_1
                     zulu = global;
                     tango = zulu.Error;
@@ -376,12 +376,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new verify[tango](options, golf);
                     mike = mike instanceof Object ? mike : zulu;
                     throw mike;
- 203: // try_end1 // catch_target0 // catch_target1
+ 205: // try_end1 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     zulu = _closure2_slot11;
                     mike = mike.message;
                     mike = zulu.bind(entity)(mike);
- 222:
+ 224:
                     return entity;
                 }
             };
@@ -558,8 +558,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot7;
             golf = golf.EXTERNAL;
             golf = options === golf;
-            if(!golf) { _fun00002_ip = 1168; continue _fun00001 }
- 1008:
+            if(!golf) { _fun00002_ip = 1148; continue _fun00001 }
+ 990:
             kilo = _closure1_slot8;
             source = _closure1_slot0;
             sizing = _closure1_slot3;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = echo.bind(update)(sizing);
             options['timeLabel'] = sizing;
             golf = kilo.bind(tango)(yankee, options);
- 1168:
+ 1148:
             report[3] = golf;
             yankee = _closure1_slot8;
             options = _closure1_slot0;
@@ -651,10 +651,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             kilo = foxtrot != backup;
             foxtrot = '';
-            if(!kilo) { _fun00002_ip = 1264; continue _fun00001 }
- 1261:
+            if(!kilo) { _fun00002_ip = 1242; continue _fun00001 }
+ 1239:
             foxtrot = backup;
- 1264:
+ 1242:
             golf['description'] = foxtrot;
             foxtrot = function(argFoo) { // Original name: onChange
                 zulu = _closure2_slot13;

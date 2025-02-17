@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.keyboardDuration;
             yankee['keyboardDuration'] = verify;
             verify = !options;
-            if(verify) { _fun00002_ip = 207; continue _fun00001 }
- 178:
+            if(verify) { _fun00002_ip = 205; continue _fun00001 }
+ 176:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
             romeo = 6;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(tango)(romeo);
             romeo = foxtrot.isAndroid;
             verify = romeo.bind(foxtrot)();
- 207:
+ 205:
             yankee['disabled'] = verify;
             verify = function(argFoo) { // Original name: useAnimateChanges
                 mike = argFoo;
@@ -184,8 +184,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             verify = verify.bind(tango)(yankee);
-            if(!options) { _fun00002_ip = 266; continue _fun00001 }
- 226:
+            if(!options) { _fun00002_ip = 262; continue _fun00001 }
+ 222:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
             options = 6;
@@ -193,14 +193,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(options);
             options = verify.isAndroid;
             options = options.bind(verify)();
-            if(options) { _fun00002_ip = 266; continue _fun00001 }
- 258:
+            if(options) { _fun00002_ip = 262; continue _fun00001 }
+ 254:
             options = mike.keyboardHeight;
-            _fun00002_ip = 314; continue _fun00001;
- 266:
+            _fun00002_ip = 310; continue _fun00001;
+ 262:
             verify = 0;
-            if(!offset) { _fun00002_ip = 311; continue _fun00001 }
- 271:
+            if(!offset) { _fun00002_ip = 307; continue _fun00001 }
+ 267:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
             offset = 6;
@@ -209,17 +209,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.isAndroid;
             offset = offset.bind(romeo)();
             verify = 0;
-            if(!offset) { _fun00002_ip = 311; continue _fun00001 }
- 305:
+            if(!offset) { _fun00002_ip = 307; continue _fun00001 }
+ 301:
             verify = golf.imeInsetsBottom;
- 311:
+ 307:
             options = verify;
- 314:
+ 310:
             mike = mike.keyboardHeight;
             offset = 0;
             mike = mike > offset;
-            if(!mike) { _fun00002_ip = 361; continue _fun00001 }
- 329:
+            if(!mike) { _fun00002_ip = 357; continue _fun00001 }
+ 325:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
             verify = 6;
@@ -228,10 +228,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.isAndroid;
             verify = verify.bind(yankee)();
             mike = !verify;
- 361:
+ 357:
             verify = golf.imeInsetsBottom;
-            if(!(offset !== verify)) { _fun00002_ip = 403; continue _fun00001 }
- 371:
+            if(!(offset !== verify)) { _fun00002_ip = 399; continue _fun00001 }
+ 367:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             zulu = 6;
@@ -239,11 +239,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(zulu);
             zulu = verify.isAndroid;
             zulu = zulu.bind(verify)();
-            if(zulu) { _fun00002_ip = 409; continue _fun00001 }
- 403:
+            if(zulu) { _fun00002_ip = 405; continue _fun00001 }
+ 399:
             zulu = golf;
-            if(!mike) { _fun00002_ip = 433; continue _fun00001 }
- 409:
+            if(!mike) { _fun00002_ip = 429; continue _fun00001 }
+ 405:
             mike = {};
             output = mike;
             sizing = golf;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'bottom';
             mike[golf] = options;
             zulu = mike;
- 433:
+ 429:
             mike = {};
             mike['insets'] = zulu;
             mike['scrollViewRef'] = oscar;
@@ -349,11 +349,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = _closure3_slot7;
                             tango = zulu.current;
                             zulu = _closure3_slot0;
-                            if(!(!(tango >= zulu))) { _fun00012_ip = 152; continue _fun00011 }
+                            if(!(!(tango >= zulu))) { _fun00012_ip = 148; continue _fun00011 }
  25:
                             zulu = _closure3_slot0;
                             tango = 0;
-                            if(!(tango !== zulu)) { _fun00012_ip = 152; continue _fun00011 }
+                            if(!(tango !== zulu)) { _fun00012_ip = 148; continue _fun00011 }
  35:
                             report = _closure3_slot7;
                             zulu = _closure3_slot0;
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = _closure3_slot4;
                             zulu = true;
                             tango['current'] = zulu;
-                            _fun00012_ip = 166; continue _fun00011;
+                            _fun00012_ip = 162; continue _fun00011;
  103:
                             zulu = global;
                             oscar = zulu.setTimeout;
@@ -405,11 +405,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                     };
                                     zulu = zulu.bind(tango)(mike);
                                     mike = null;
-                                    if(!(mike != zulu)) { _fun00014_ip = 64; continue _fun00013 }
- 37:
+                                    if(!(mike != zulu)) { _fun00014_ip = 60; continue _fun00013 }
+ 35:
                                     zulu = zulu.current;
-                                    if(!(mike != zulu)) { _fun00014_ip = 64; continue _fun00013 }
- 46:
+                                    if(!(mike != zulu)) { _fun00014_ip = 60; continue _fun00013 }
+ 44:
                                     mike = zulu.measure;
                                     entity = function(argFoo, argBar) {
                                         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                         }
                                     };
                                     entity = mike.bind(zulu)(entity);
- 64:
+ 60:
                                     entity = undefined;
                                     return entity;
                                 }
@@ -476,11 +476,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 return entity;
                             };
                             return mike;
- 152:
+ 148:
                             mike = _closure3_slot7;
                             entity = _closure3_slot0;
                             mike['current'] = entity;
- 166:
+ 162:
                             entity = undefined;
                             return entity;
                         }

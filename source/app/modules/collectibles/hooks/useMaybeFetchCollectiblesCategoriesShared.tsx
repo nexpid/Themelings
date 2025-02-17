@@ -115,19 +115,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     golf = report != oscar;
                     tango = 0;
-                    if(!golf) { _fun00004_ip = 64; continue _fun00003 }
- 61:
+                    if(!golf) { _fun00004_ip = 60; continue _fun00003 }
+ 57:
                     tango = oscar;
- 64:
+ 60:
                     entity[3] = tango;
                     tango = _closure1_slot6;
                     tango = tango.lastSuccessfulFetch;
                     report = report != tango;
                     zulu = 0;
-                    if(!report) { _fun00004_ip = 90; continue _fun00003 }
- 87:
+                    if(!report) { _fun00004_ip = 86; continue _fun00003 }
+ 83:
                     zulu = tango;
- 90:
+ 86:
                     entity[4] = zulu;
                     mike = _closure1_slot6;
                     mike = mike.categories;

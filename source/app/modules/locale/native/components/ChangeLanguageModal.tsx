@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 474; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 480; continue _fun00001 }
  10:
                     mike = _closure1_slot4;
                     zulu = undefined;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 471; continue _fun00001 }
+                    if(report) { _fun00002_ip = 477; continue _fun00001 }
  41:
                     oscar = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -193,9 +193,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.CHANGE_LANGUAGE_MODAL_YES_CLICKED;
                     tango = report.bind(oscar)(tango);
                     return zulu;
- 471:
+ 477:
                     return mike;
- 474:
+ 480:
                     return entity;
                 }
             };

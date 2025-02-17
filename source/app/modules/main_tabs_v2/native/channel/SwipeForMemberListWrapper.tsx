@@ -862,16 +862,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['style'] = yankee;
             romeo = !kilo;
             yankee = !romeo;
-            if(!romeo) { _fun00002_ip = 1088; continue _fun00001 }
- 1086:
+            if(!romeo) { _fun00002_ip = 1084; continue _fun00001 }
+ 1082:
             yankee = undefined;
- 1088:
+ 1084:
             offset['accessibilityElementsHidden'] = yankee;
             yankee = undefined;
-            if(!kilo) { _fun00002_ip = 1104; continue _fun00001 }
- 1098:
+            if(!kilo) { _fun00002_ip = 1100; continue _fun00001 }
+ 1094:
             yankee = 'no-hide-descendants';
- 1104:
+ 1100:
             offset['importantForAccessibility'] = yankee;
             foxtrot = _closure1_slot11;
             romeo = _closure1_slot1;
@@ -906,16 +906,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = sizing;
             yankee['style'] = backup;
             backup = !kilo;
-            if(backup) { _fun00002_ip = 1254; continue _fun00001 }
- 1252:
+            if(backup) { _fun00002_ip = 1250; continue _fun00001 }
+ 1248:
             backup = undefined;
- 1254:
+ 1250:
             yankee['accessibilityElementsHidden'] = backup;
             backup = 'no-hide-descendants';
-            if(!kilo) { _fun00002_ip = 1270; continue _fun00001 }
- 1268:
+            if(!kilo) { _fun00002_ip = 1266; continue _fun00001 }
+ 1264:
             backup = undefined;
- 1270:
+ 1266:
             yankee['importantForAccessibility'] = backup;
             sizing = _closure1_slot11;
             control = _closure1_slot1;

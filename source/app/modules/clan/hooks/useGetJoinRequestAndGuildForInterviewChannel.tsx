@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                 zulu = _closure2_slot4;
                 mike = null;
-                if(!(mike == zulu)) { _fun00006_ip = 84; continue _fun00005 }
+                if(!(mike == zulu)) { _fun00006_ip = 82; continue _fun00005 }
  13:
                 zulu = _closure2_slot0;
                 tango = undefined;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = mike.bind(zulu)(entity);
- 84:
+ 82:
                 entity = undefined;
                 return entity;
             }

@@ -1469,8 +1469,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = report.isEqual;
             zulu = _closure1_slot73;
             zulu = tango.bind(report)(zulu, oscar);
-            if(zulu) { _fun00048_ip = 159; continue _fun00047 }
- 116:
+            if(zulu) { _fun00048_ip = 161; continue _fun00047 }
+ 118:
             zulu = _closure1_slot117;
             zulu = zulu.bind(entity)();
             report = _closure1_slot132;
@@ -1480,7 +1480,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = _closure1_slot64;
             mike = zulu.setAudioInputDevice;
             mike = mike.bind(zulu)(tango);
- 159:
+ 161:
             return entity;
         }
     };
@@ -1513,8 +1513,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = report.isEqual;
             zulu = _closure1_slot74;
             zulu = tango.bind(report)(zulu, oscar);
-            if(zulu) { _fun00050_ip = 159; continue _fun00049 }
- 116:
+            if(zulu) { _fun00050_ip = 161; continue _fun00049 }
+ 118:
             zulu = _closure1_slot117;
             zulu = zulu.bind(entity)();
             report = _closure1_slot132;
@@ -1524,7 +1524,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = _closure1_slot64;
             mike = zulu.setAudioOutputDevice;
             mike = mike.bind(zulu)(tango);
- 159:
+ 161:
             return entity;
         }
     };
@@ -1555,8 +1555,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = tango.bind(entity)(report, zulu);
             _closure1_slot75 = zulu;
             zulu = _closure1_slot80;
-            if(!zulu) { _fun00052_ip = 215; continue _fun00051 }
- 103:
+            if(!zulu) { _fun00052_ip = 217; continue _fun00051 }
+ 105:
             tango = _closure1_slot1;
             report = _closure1_slot3;
             zulu = 34;
@@ -1565,8 +1565,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = report.isEqual;
             zulu = _closure1_slot75;
             zulu = tango.bind(report)(zulu, oscar);
-            if(zulu) { _fun00052_ip = 215; continue _fun00051 }
- 142:
+            if(zulu) { _fun00052_ip = 217; continue _fun00051 }
+ 144:
             tango = _closure1_slot75;
             zulu = _closure1_slot81;
             zulu = tango[zulu];
@@ -1574,26 +1574,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = _closure1_slot81;
             tango = _closure1_slot44;
             tango = report === tango;
-            if(!tango) { _fun00052_ip = 200; continue _fun00051 }
- 173:
+            if(!tango) { _fun00052_ip = 202; continue _fun00051 }
+ 175:
             report = _closure1_slot44;
             oscar = oscar[report];
             report = null;
             golf = report == oscar;
             report = undefined;
-            if(golf) { _fun00052_ip = 197; continue _fun00051 }
- 192:
+            if(golf) { _fun00052_ip = 199; continue _fun00051 }
+ 194:
             report = oscar.disabled;
- 197:
+ 199:
             tango = report;
- 200:
+ 202:
             mike = _closure1_slot121;
-            if(zulu) { _fun00052_ip = 210; continue _fun00051 }
- 207:
+            if(zulu) { _fun00052_ip = 212; continue _fun00051 }
+ 209:
             zulu = tango;
- 210:
+ 212:
             mike = mike.bind(entity)(zulu);
- 215:
+ 217:
             return entity;
         }
     };
@@ -2933,7 +2933,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  0:
                 mike = this;
                 entity = mike.started;
-                if(!entity) { _fun00090_ip = 157; continue _fun00089 }
+                if(!entity) { _fun00090_ip = 161; continue _fun00089 }
  15:
                 entity = false;
                 mike['started'] = entity;
@@ -2967,7 +2967,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 mike = zulu.dispatch;
                 entity = {'type': 'AUDIO_INPUT_DETECTED', 'inputDetected': null};
                 entity = mike.bind(zulu)(entity);
- 157:
+ 161:
                 entity = undefined;
                 return entity;
             }

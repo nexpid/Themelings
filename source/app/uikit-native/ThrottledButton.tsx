@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = zulu.current;
                         mike = tango === zulu;
  32:
-                        if(!mike) { _fun00004_ip = 89; continue _fun00003 }
+                        if(!mike) { _fun00004_ip = 87; continue _fun00003 }
  35:
                         mike = _closure3_slot0;
                         report = undefined;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         };
                         entity = tango.bind(report)(entity, zulu);
                         mike['current'] = entity;
- 89:
+ 87:
                         entity = undefined;
                         return entity;
                     }

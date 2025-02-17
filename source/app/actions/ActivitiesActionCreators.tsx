@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = mike.bind(zulu)(report);
             var _closure2_slot2 = mike;
             zulu = null;
-            if(!(zulu != mike)) { _fun00004_ip = 205; continue _fun00003 }
+            if(!(zulu != mike)) { _fun00004_ip = 201; continue _fun00003 }
  69:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             };
             entity = tango.bind(report)(mike, entity);
             return entity;
- 205:
+ 201:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00010_ip = 139; continue _fun00009 }
+                    if(mike) { _fun00010_ip = 137; continue _fun00009 }
  10:
                     tango = _closure2_slot0;
                     zulu = tango.map;
@@ -478,18 +478,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     report = false;
                     mike['rejectWithError'] = report;
                     mike = zulu.bind(tango)(mike);
-                    SaveGenerator(address=122);
- 120:
+                    SaveGenerator(address=120);
+ 118:
                     return mike;
- 122:
+ 120:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00010_ip = 136; continue _fun00009 }
- 128:
+                    if(zulu) { _fun00010_ip = 134; continue _fun00009 }
+ 126:
                     zulu = mike.body;
                     return zulu;
- 136:
+ 134:
                     return mike;
- 139:
+ 137:
                     return entity;
                 }
             };

@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = yankee.Text;
             yankee = {'variant': 'heading-xl/bold', 'accessibilityRole': 'header'};
             output = null;
-            if(!(output == kilo)) { _fun00002_ip = 396; continue _fun00001 }
+            if(!(output == kilo)) { _fun00002_ip = 398; continue _fun00001 }
  341:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.t;
             echo = echo.FpoiHR;
             kilo = update.bind(source)(echo);
- 396:
+ 398:
             yankee['children'] = kilo;
             yankee = zulu.bind(tango)(backup, yankee);
             options[1] = yankee;
@@ -165,8 +165,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(tango)(yankee);
             backup = yankee.Text;
             yankee = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            if(!(output == sizing)) { _fun00002_ip = 509; continue _fun00001 }
- 454:
+            if(!(output == sizing)) { _fun00002_ip = 513; continue _fun00001 }
+ 456:
             update = _closure1_slot0;
             source = _closure1_slot2;
             output = 11;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output./CidxM;
             sizing = result.bind(echo)(output);
- 509:
+ 513:
             yankee['children'] = sizing;
             yankee = kilo.bind(tango)(backup, yankee);
             options[2] = yankee;

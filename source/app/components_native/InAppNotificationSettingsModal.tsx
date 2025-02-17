@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = entity.channel;
                 offset = entity.isMuted;
                 entity = null;
-                if(!(entity != options)) { _fun00010_ip = 210; continue _fun00009 }
+                if(!(entity != options)) { _fun00010_ip = 212; continue _fun00009 }
  28:
                 romeo = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['children'] = oscar;
                 mike = tango.bind(report)(zulu, mike);
                 return mike;
- 210:
+ 212:
                 return entity;
             }
         };

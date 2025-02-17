@@ -200,8 +200,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(2);
             yankee[0] = romeo;
             romeo = null;
-            if(!foxtrot) { _fun00006_ip = 381; continue _fun00005 }
- 242:
+            if(!foxtrot) { _fun00006_ip = 383; continue _fun00005 }
+ 244:
             kilo = _closure1_slot14;
             backup = _closure1_slot7;
             foxtrot = {};
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result.bind(tango)(output, sizing);
             foxtrot['children'] = sizing;
             romeo = kilo.bind(tango)(backup, foxtrot);
- 381:
+ 383:
             yankee[1] = romeo;
             golf['children'] = yankee;
             golf = offset.bind(tango)(verify, golf);
@@ -1118,8 +1118,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = echo.bind(report)(offset, golf);
             oscar[2] = golf;
             golf = mike != context;
-            if(!golf) { _fun00008_ip = 1582; continue _fun00007 }
- 1520:
+            if(!golf) { _fun00008_ip = 1574; continue _fun00007 }
+ 1516:
             sequence = _closure1_slot14;
             echo = _closure1_slot0;
             offset = _closure1_slot3;
@@ -1131,11 +1131,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['style'] = papa;
             offset['children'] = context;
             golf = sequence.bind(report)(echo, offset);
- 1582:
+ 1574:
             oscar[3] = golf;
             golf = mike != foxtrot;
-            if(!golf) { _fun00008_ip = 1638; continue _fun00007 }
- 1593:
+            if(!golf) { _fun00008_ip = 1630; continue _fun00007 }
+ 1585:
             sequence = _closure1_slot14;
             echo = _closure1_slot1;
             context = _closure1_slot3;
@@ -1147,11 +1147,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['channel'] = record;
             offset['onChangeChannel'] = config;
             golf = sequence.bind(report)(echo, offset);
- 1638:
+ 1630:
             oscar[4] = golf;
             golf = null;
-            if(!options) { _fun00008_ip = 1680; continue _fun00007 }
- 1647:
+            if(!options) { _fun00008_ip = 1672; continue _fun00007 }
+ 1639:
             echo = _closure1_slot14;
             offset = _closure1_slot21;
             options = {};
@@ -1173,12 +1173,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             options['onToggle'] = update;
             golf = echo.bind(report)(offset, options);
- 1680:
+ 1672:
             oscar[5] = golf;
             options = mike != source;
             golf = null;
-            if(!options) { _fun00008_ip = 1754; continue _fun00007 }
- 1693:
+            if(!options) { _fun00008_ip = 1746; continue _fun00007 }
+ 1685:
             echo = _closure1_slot14;
             offset = _closure1_slot0;
             update = _closure1_slot3;
@@ -1193,7 +1193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = update.bind(source)();
             options['children'] = update;
             golf = echo.bind(report)(offset, options);
- 1754:
+ 1746:
             oscar[6] = golf;
             offset = _closure1_slot14;
             options = _closure1_slot1;
@@ -1202,8 +1202,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = echo[golf];
             options = options.bind(report)(golf);
             golf = {};
-            if(!(mike != result)) { _fun00008_ip = 1842; continue _fun00007 }
- 1788:
+            if(!(mike != result)) { _fun00008_ip = 1834; continue _fun00007 }
+ 1780:
             source = _closure1_slot0;
             result = _closure1_slot3;
             echo = result[vacuum];
@@ -1215,8 +1215,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.t;
             result = result.K344S0;
             result = echo.bind(update)(result);
-            _fun00008_ip = 1894; continue _fun00007;
- 1842:
+            _fun00008_ip = 1886; continue _fun00007;
+ 1834:
             control = _closure1_slot0;
             echo = _closure1_slot3;
             update = echo[vacuum];
@@ -1228,16 +1228,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.t;
             echo = echo.s8mM8P;
             result = update.bind(source)(echo);
- 1894:
+ 1886:
             golf['text'] = result;
             golf['onPress'] = output;
             output = yankee.startButton;
             golf['style'] = output;
             backup = sizing === backup;
-            if(backup) { _fun00008_ip = 1923; continue _fun00007 }
- 1919:
+            if(backup) { _fun00008_ip = 1915; continue _fun00007 }
+ 1911:
             backup = mike == kilo;
- 1923:
+ 1915:
             golf['disabled'] = backup;
             golf['loading'] = romeo;
             golf = offset.bind(report)(options, golf);
@@ -1245,8 +1245,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = oscar;
             offset = tango.bind(report)(zulu, entity);
             entity = offset;
-            if(!(mike == foxtrot)) { _fun00008_ip = 2095; continue _fun00007 }
- 1962:
+            if(!(mike == foxtrot)) { _fun00008_ip = 2087; continue _fun00007 }
+ 1954:
             tango = _closure1_slot14;
             zulu = _closure1_slot0;
             romeo = _closure1_slot3;
@@ -1277,7 +1277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 2095:
+ 2087:
             return entity;
         }
     };

@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.IS_CLIP;
                 entity = mike.bind(control)(record, entity);
                 mike = undefined;
-                if(!entity) { _fun00004_ip = 660; continue _fun00003 }
+                if(!entity) { _fun00004_ip = 662; continue _fun00003 }
  552:
                 entity = {};
                 papa = _closure1_slot0;
@@ -288,24 +288,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 control = control.clipTagTextColor;
                 entity['attachmentTagTextColor'] = control;
                 mike = entity;
- 660:
+ 662:
                 entity = {};
                 control = config;
-                if(!(yankee != romeo)) { _fun00004_ip = 704; continue _fun00003 }
- 669:
+                if(!(yankee != romeo)) { _fun00004_ip = 706; continue _fun00003 }
+ 671:
                 record = romeo.localUri;
                 control = config;
-                if(!(yankee != record)) { _fun00004_ip = 704; continue _fun00003 }
- 682:
+                if(!(yankee != record)) { _fun00004_ip = 706; continue _fun00003 }
+ 684:
                 control = config;
-                if(!vacuum) { _fun00004_ip = 704; continue _fun00003 }
- 688:
+                if(!vacuum) { _fun00004_ip = 706; continue _fun00003 }
+ 690:
                 vacuum = _closure2_slot1;
                 control = config;
-                if(!vacuum) { _fun00004_ip = 704; continue _fun00003 }
- 698:
+                if(!vacuum) { _fun00004_ip = 706; continue _fun00003 }
+ 700:
                 control = romeo.localUri;
- 704:
+ 706:
                 entity['url'] = control;
                 entity['videoUrl'] = source;
                 vacuum = _closure1_slot1;
@@ -361,15 +361,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 backup = backup[update];
                 backup = output.bind(oscar)(backup);
                 output = backup.t;
-                if(kilo) { _fun00004_ip = 975; continue _fun00003 }
- 962:
+                if(kilo) { _fun00004_ip = 981; continue _fun00003 }
+ 968:
                 backup = output.IPzNKC;
                 backup = result.bind(echo)(backup);
-                _fun00004_ip = 986; continue _fun00003;
- 975:
+                _fun00004_ip = 992; continue _fun00003;
+ 981:
                 output = output.BEWw//;
                 backup = result.bind(echo)(output);
- 986:
+ 992:
                 entity['hint'] = backup;
                 output = _closure1_slot0;
                 backup = _closure1_slot2;
@@ -380,36 +380,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 backup = backup[update];
                 backup = output.bind(oscar)(backup);
                 output = backup.t;
-                if(kilo) { _fun00004_ip = 1048; continue _fun00003 }
- 1035:
+                if(kilo) { _fun00004_ip = 1054; continue _fun00003 }
+ 1041:
                 backup = output.fKyfcX;
                 backup = result.bind(echo)(backup);
-                _fun00004_ip = 1059; continue _fun00003;
- 1048:
+                _fun00004_ip = 1065; continue _fun00003;
+ 1054:
                 output = output./SCpvr;
                 backup = result.bind(echo)(output);
- 1059:
+ 1065:
                 entity['role'] = backup;
                 backup = _closure1_slot3;
-                if(sizing) { _fun00004_ip = 1101; continue _fun00003 }
- 1071:
-                if(kilo) { _fun00004_ip = 1093; continue _fun00003 }
- 1074:
-                if(foxtrot) { _fun00004_ip = 1085; continue _fun00003 }
+                if(sizing) { _fun00004_ip = 1107; continue _fun00003 }
  1077:
+                if(kilo) { _fun00004_ip = 1099; continue _fun00003 }
+ 1080:
+                if(foxtrot) { _fun00004_ip = 1091; continue _fun00003 }
+ 1083:
                 foxtrot = backup.OTHER;
-                _fun00004_ip = 1091; continue _fun00003;
- 1085:
-                foxtrot = backup.AUDIO;
+                _fun00004_ip = 1097; continue _fun00003;
  1091:
-                _fun00004_ip = 1099; continue _fun00003;
- 1093:
-                foxtrot = backup.VIDEO;
+                foxtrot = backup.AUDIO;
+ 1097:
+                _fun00004_ip = 1105; continue _fun00003;
  1099:
-                _fun00004_ip = 1107; continue _fun00003;
- 1101:
-                foxtrot = backup.IMAGE;
+                foxtrot = backup.VIDEO;
+ 1105:
+                _fun00004_ip = 1113; continue _fun00003;
  1107:
+                foxtrot = backup.IMAGE;
+ 1113:
                 entity['attachmentType'] = foxtrot;
                 entity['id'] = offset;
                 offset = _closure2_slot4;
@@ -417,25 +417,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['isAnimated'] = offset;
                 foxtrot = yankee == romeo;
                 offset = undefined;
-                if(foxtrot) { _fun00004_ip = 1143; continue _fun00003 }
- 1137:
-                offset = romeo.uploaderId;
+                if(foxtrot) { _fun00004_ip = 1149; continue _fun00003 }
  1143:
+                offset = romeo.uploaderId;
+ 1149:
                 entity['uploaderId'] = offset;
                 foxtrot = yankee == romeo;
                 offset = undefined;
-                if(foxtrot) { _fun00004_ip = 1163; continue _fun00003 }
- 1157:
-                offset = romeo.uploaderItemId;
+                if(foxtrot) { _fun00004_ip = 1169; continue _fun00003 }
  1163:
+                offset = romeo.uploaderItemId;
+ 1169:
                 entity['uploaderItemId'] = offset;
                 offset = _closure2_slot6;
                 yankee = yankee != offset;
                 offset = undefined;
-                if(!yankee) { _fun00004_ip = 1185; continue _fun00003 }
- 1181:
+                if(!yankee) { _fun00004_ip = 1191; continue _fun00003 }
+ 1187:
                 offset = _closure2_slot6;
- 1185:
+ 1191:
                 entity['backgroundColor'] = offset;
                 entity['placeholder'] = verify;
                 entity['placeholderVersion'] = options;

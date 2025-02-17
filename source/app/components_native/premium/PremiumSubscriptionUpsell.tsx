@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.canUsePremiumGuildMemberProfile;
             mike = entity.bind(mike)(yankee);
             entity = null;
-            if(mike) { _fun00002_ip = 1248; continue _fun00001 }
+            if(mike) { _fun00002_ip = 1261; continue _fun00001 }
  114:
             tango = _closure1_slot9;
             zulu = _closure1_slot3;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.bind(report)(verify);
             verify = offset.isPremium;
             verify = verify.bind(offset)(yankee);
-            if(verify) { _fun00002_ip = 403; continue _fun00001 }
+            if(verify) { _fun00002_ip = 405; continue _fun00001 }
  287:
             yankee = _closure1_slot9;
             output = _closure1_slot0;
@@ -250,8 +250,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(sizing)(romeo);
             verify['children'] = romeo;
             offset = yankee.bind(report)(offset, verify);
-            _fun00002_ip = 652; continue _fun00001;
- 403:
+            _fun00002_ip = 658; continue _fun00001;
+ 405:
             romeo = _closure1_slot11;
             yankee = _closure1_slot10;
             verify = {};
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = sizing;
             verify['children'] = backup;
             offset = romeo.bind(report)(yankee, verify);
- 652:
+ 658:
             verify = new Array(3);
             verify[0] = offset;
             backup = _closure1_slot11;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1248:
+ 1261:
             return entity;
         }
     };

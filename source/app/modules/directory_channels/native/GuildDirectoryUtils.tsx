@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 186; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 184; continue _fun00001 }
  15:
                     romeo = mike.directoryChannelId;
                     zulu = mike.directoryGuildName;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 183; continue _fun00001 }
+                    if(report) { _fun00002_ip = 181; continue _fun00001 }
  68:
                     verify = _closure1_slot2;
                     foxtrot = _closure1_slot3;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  122:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 180; continue _fun00001 }
+                    if(golf) { _fun00002_ip = 178; continue _fun00001 }
  128:
                     oscar = oscar.bind(tango)();
                     oscar = _closure1_slot1;
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report['importer'] = options;
                     report = oscar.bind(golf)(report);
                     return tango;
- 180:
+ 178:
                     return zulu;
- 183:
+ 181:
                     return mike;
- 186:
+ 184:
                     return entity;
                 }
             };

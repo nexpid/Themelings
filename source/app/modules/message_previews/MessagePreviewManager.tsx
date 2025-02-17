@@ -674,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = argFoo;
                     report = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00016_ip = 455; continue _fun00015 }
+                    if(mike) { _fun00016_ip = 453; continue _fun00015 }
  16:
                     tango = yankee;
                     mike = undefined;
@@ -684,13 +684,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = _closure1_slot14;
                     oscar = verify.isLocalFetchNeeded;
                     oscar = oscar.bind(verify)(yankee);
-                    if(!oscar) { _fun00016_ip = 452; continue _fun00015 }
+                    if(!oscar) { _fun00016_ip = 450; continue _fun00015 }
  53:
                     yankee = report.localFetching;
                     verify = yankee.has;
                     oscar = tango;
                     oscar = verify.bind(yankee)(oscar);
-                    if(oscar) { _fun00016_ip = 452; continue _fun00015 }
+                    if(oscar) { _fun00016_ip = 450; continue _fun00015 }
  78: // try_start_0 // try_start_1
                     romeo = _closure1_slot16;
                     verify = romeo.verbose;
@@ -719,33 +719,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = null;
                     yankee = verify == oscar;
                     oscar = undefined;
-                    if(yankee) { _fun00016_ip = 218; continue _fun00015 }
+                    if(yankee) { _fun00016_ip = 216; continue _fun00015 }
  199:
                     romeo = golf;
                     yankee = romeo.getMostRecents;
                     golf = tango;
                     oscar = yankee.bind(romeo)(golf);
+ 216:
+                    SaveGenerator(address=220);
  218:
-                    SaveGenerator(address=222);
- 220:
                     return oscar;
- 222:
+ 220:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(golf) { _fun00016_ip = 343; continue _fun00015 }
- 228:
+                    if(golf) { _fun00016_ip = 341; continue _fun00015 }
+ 226:
                     offset = oscar;
                     verify = verify != oscar;
                     golf = verify;
-                    if(!verify) { _fun00016_ip = 262; continue _fun00015 }
- 241:
+                    if(!verify) { _fun00016_ip = 260; continue _fun00015 }
+ 239:
                     verify = options;
                     yankee = _closure1_slot12;
                     options = yankee.getId;
                     options = options.bind(yankee)();
                     golf = verify === options;
- 262:
-                    if(!golf) { _fun00016_ip = 341; continue _fun00015 }
- 265:
+ 260:
+                    if(!golf) { _fun00016_ip = 339; continue _fun00015 }
+ 263:
                     options = _closure1_slot1;
                     verify = _closure1_slot2;
                     golf = 16;
@@ -801,15 +801,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = yankee.bind(romeo)(offset);
                     golf['messages'] = offset;
                     golf = options.bind(verify)(golf);
- 341: // try_end0
-                    _fun00016_ip = 411; continue _fun00015;
- 343: // try_end1
+ 339: // try_end0
+                    _fun00016_ip = 409; continue _fun00015;
+ 341: // try_end1
                     verify = report.localFetching;
                     options = verify.delete;
                     golf = tango;
                     golf = options.bind(verify)(golf);
                     return oscar;
- 365: // try_start_2 // catch_target0
+ 363: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=9);
                     golf = _closure1_slot16;
                     oscar = golf.log;
@@ -820,21 +820,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = ')';
                     zulu = verify.bind(options)(offset, zulu);
                     zulu = oscar.bind(golf)(zulu);
- 411: // try_end2
+ 409: // try_end2
                     golf = report.localFetching;
                     oscar = golf.delete;
                     zulu = tango;
                     zulu = oscar.bind(golf)(zulu);
-                    _fun00016_ip = 452; continue _fun00015;
- 432: // catch_target1 // catch_target2
+                    _fun00016_ip = 450; continue _fun00015;
+ 430: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=2);
                     oscar = report.localFetching;
                     report = oscar.delete;
                     tango = report.bind(oscar)(tango);
                     throw zulu;
- 452:
+ 450:
                     return mike;
- 455:
+ 453:
                     return entity;
                 }
             };
@@ -936,7 +936,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00024_ip = 217; continue _fun00023 }
+                            if(mike) { _fun00024_ip = 221; continue _fun00023 }
  10:
                             report = _closure1_slot16;
                             zulu = report.verbose;
@@ -974,7 +974,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             return mike;
  155:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00024_ip = 214; continue _fun00023 }
+                            if(report) { _fun00024_ip = 218; continue _fun00023 }
  161:
                             golf = mike.body;
                             report = _closure1_slot1;
@@ -987,9 +987,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             tango['messages'] = golf;
                             tango = report.bind(oscar)(tango);
                             return zulu;
- 214:
+ 218:
                             return mike;
- 217:
+ 221:
                             return entity;
                         }
                     };

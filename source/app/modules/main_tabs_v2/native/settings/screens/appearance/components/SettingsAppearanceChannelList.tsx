@@ -213,8 +213,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(romeo)(oscar);
             entity['accessibilityLabel'] = oscar;
             oscar = null;
-            if(!report) { _fun00002_ip = 315; continue _fun00001 }
- 240:
+            if(!report) { _fun00002_ip = 317; continue _fun00001 }
+ 242:
             romeo = _closure1_slot5;
             options = _closure1_slot4;
             report = {};
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = romeo.bind(tango)(output, foxtrot);
             report['children'] = foxtrot;
             oscar = romeo.bind(tango)(options, report);
- 315:
+ 317:
             report = new Array(3);
             report[0] = oscar;
             options = _closure1_slot5;

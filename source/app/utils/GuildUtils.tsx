@@ -183,12 +183,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options == offset;
             tango = '';
             entity = tango;
-            if(zulu) { _fun00010_ip = 177; continue _fun00009 }
+            if(zulu) { _fun00010_ip = 179; continue _fun00009 }
  68:
             zulu = offset.length;
             verify = 0;
             entity = tango;
-            if(!(verify !== zulu)) { _fun00010_ip = 177; continue _fun00009 }
+            if(!(verify !== zulu)) { _fun00010_ip = 179; continue _fun00009 }
  82:
             zulu = _closure1_slot0;
             yankee = _closure1_slot3;
@@ -203,19 +203,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.Y6Qfjo;
             mike = {};
             oscar = offset;
-            if(!(options != golf)) { _fun00010_ip = 167; continue _fun00009 }
- 141:
+            if(!(options != golf)) { _fun00010_ip = 169; continue _fun00009 }
+ 143:
             golf = golf.truncateUsername;
             oscar = offset;
-            if(!golf) { _fun00010_ip = 167; continue _fun00009 }
- 153:
+            if(!golf) { _fun00010_ip = 169; continue _fun00009 }
+ 155:
             options = offset.slice;
             golf = 20;
             oscar = options.bind(offset)(verify, golf);
- 167:
+ 169:
             mike['username'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 177:
+ 179:
             return entity;
         }
     };

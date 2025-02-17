@@ -58,131 +58,131 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.ACTION_ROW;
-            if(!(zulu !== backup)) { _fun00002_ip = 2425; continue _fun00001 }
- 165:
+            if(!(zulu !== backup)) { _fun00002_ip = 2415; continue _fun00001 }
+ 163:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.BUTTON;
-            if(!(zulu !== backup)) { _fun00002_ip = 2260; continue _fun00001 }
- 201:
+            if(!(zulu !== backup)) { _fun00002_ip = 2248; continue _fun00001 }
+ 199:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.STRING_SELECT;
-            if(!(zulu !== backup)) { _fun00002_ip = 2122; continue _fun00001 }
- 237:
+            if(!(zulu !== backup)) { _fun00002_ip = 2114; continue _fun00001 }
+ 235:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.USER_SELECT;
-            if(!(zulu !== backup)) { _fun00002_ip = 1976; continue _fun00001 }
- 273:
+            if(!(zulu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
+ 271:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.ROLE_SELECT;
-            if(!(zulu !== backup)) { _fun00002_ip = 1976; continue _fun00001 }
- 309:
+            if(!(zulu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
+ 307:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.MENTIONABLE_SELECT;
-            if(!(zulu !== backup)) { _fun00002_ip = 1976; continue _fun00001 }
- 345:
+            if(!(zulu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
+ 343:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.CHANNEL_SELECT;
-            if(!(zulu !== backup)) { _fun00002_ip = 1976; continue _fun00001 }
- 381:
+            if(!(zulu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
+ 379:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.SECTION;
-            if(!(zulu !== backup)) { _fun00002_ip = 1825; continue _fun00001 }
- 417:
+            if(!(zulu !== backup)) { _fun00002_ip = 1821; continue _fun00001 }
+ 415:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.TEXT_DISPLAY;
-            if(!(zulu !== backup)) { _fun00002_ip = 1775; continue _fun00001 }
- 453:
+            if(!(zulu !== backup)) { _fun00002_ip = 1771; continue _fun00001 }
+ 451:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.THUMBNAIL;
-            if(!(zulu !== backup)) { _fun00002_ip = 1440; continue _fun00001 }
- 489:
+            if(!(zulu !== backup)) { _fun00002_ip = 1436; continue _fun00001 }
+ 487:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.MEDIA_GALLERY;
-            if(!(zulu !== backup)) { _fun00002_ip = 1342; continue _fun00001 }
- 525:
+            if(!(zulu !== backup)) { _fun00002_ip = 1340; continue _fun00001 }
+ 523:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.FILE;
-            if(!(zulu !== backup)) { _fun00002_ip = 1031; continue _fun00001 }
- 561:
+            if(!(zulu !== backup)) { _fun00002_ip = 1027; continue _fun00001 }
+ 559:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.SEPARATOR;
-            if(!(zulu !== backup)) { _fun00002_ip = 1029; continue _fun00001 }
- 597:
+            if(!(zulu !== backup)) { _fun00002_ip = 1025; continue _fun00001 }
+ 595:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.TEXT_INPUT;
-            if(!(zulu !== backup)) { _fun00002_ip = 1025; continue _fun00001 }
- 633:
+            if(!(zulu !== backup)) { _fun00002_ip = 1021; continue _fun00001 }
+ 631:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.CONTENT_INVENTORY_ENTRY;
-            if(!(zulu !== backup)) { _fun00002_ip = 956; continue _fun00001 }
- 669:
+            if(!(zulu !== backup)) { _fun00002_ip = 952; continue _fun00001 }
+ 667:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[offset];
             zulu = output.bind(golf)(zulu);
             zulu = zulu.ComponentType;
             zulu = zulu.CONTAINER;
-            if(!(zulu !== backup)) { _fun00002_ip = 706; continue _fun00001 }
- 702:
+            if(!(zulu !== backup)) { _fun00002_ip = 704; continue _fun00001 }
+ 700:
             zulu = null;
             return zulu;
- 706:
+ 704:
             zulu = {};
             sierra = zulu;
             status = oscar;
@@ -211,12 +211,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = null;
             output = backup != output;
             result = null;
-            if(!output) { _fun00002_ip = 818; continue _fun00001 }
- 803:
+            if(!output) { _fun00002_ip = 814; continue _fun00001 }
+ 799:
             source = _closure1_slot3;
             output = oscar.accentColor;
             result = source.bind(golf)(output);
- 818:
+ 814:
             output = 'accentColor';
             zulu[output] = result;
             result = oscar.spoiler;
@@ -224,8 +224,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu[output] = result;
             output = oscar.spoiler;
             result = null;
-            if(!output) { _fun00002_ip = 918; continue _fun00001 }
- 853:
+            if(!output) { _fun00002_ip = 914; continue _fun00001 }
+ 849:
             vacuum = _closure1_slot0;
             sequence = _closure1_slot2;
             output = 6;
@@ -240,20 +240,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = source.bind(control)(output);
             output = source.toUpperCase;
             result = output.bind(source)();
- 918:
+ 914:
             output = 'spoilerDescription';
             zulu[output] = result;
             romeo = romeo.embedBackgroundColor;
             output = backup != romeo;
             backup = null;
-            if(!output) { _fun00002_ip = 945; continue _fun00001 }
- 942:
+            if(!output) { _fun00002_ip = 941; continue _fun00001 }
+ 938:
             backup = romeo;
- 945:
+ 941:
             romeo = 'themedBackgroundColor';
             zulu[romeo] = backup;
             return zulu;
- 956:
+ 952:
             zulu = {};
             romeo = oscar.type;
             zulu['type'] = romeo;
@@ -271,12 +271,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = backup.bind(output)(romeo);
             zulu['contentInventoryEntry'] = romeo;
             return zulu;
- 1025:
+ 1021:
             zulu = null;
             return zulu;
- 1029:
+ 1025:
             return oscar;
- 1031:
+ 1027:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
             zulu = 11;
@@ -289,10 +289,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = oscar.spoiler;
             romeo = null;
             result = romeo != source;
-            if(!result) { _fun00002_ip = 1088; continue _fun00001 }
- 1085:
+            if(!result) { _fun00002_ip = 1084; continue _fun00001 }
+ 1081:
             result = source;
- 1088:
+ 1084:
             zulu['isSpoilered'] = result;
             result = report.bot;
             zulu['isAuthorBot'] = result;
@@ -309,8 +309,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             status = oscar;
             vacuum = copyDataProperties(sierra, status);
             sequence = oscar.name;
-            if(!(romeo == sequence)) { _fun00002_ip = 1225; continue _fun00001 }
- 1170:
+            if(!(romeo == sequence)) { _fun00002_ip = 1223; continue _fun00001 }
+ 1166:
             context = _closure1_slot0;
             papa = _closure1_slot2;
             vacuum = 6;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             vacuum = vacuum.t;
             vacuum = vacuum.GnuJ5u;
             sequence = config.bind(record)(vacuum);
- 1225:
+ 1223:
             vacuum = 'name';
             zulu[vacuum] = sequence;
             sequence = _closure1_slot1;
@@ -335,10 +335,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             config = oscar.size;
             record = romeo != config;
             romeo = 0;
-            if(!record) { _fun00002_ip = 1277; continue _fun00001 }
- 1274:
+            if(!record) { _fun00002_ip = 1275; continue _fun00001 }
+ 1272:
             romeo = config;
- 1277:
+ 1275:
             vacuum = vacuum.bind(sequence)(romeo);
             romeo = 'size';
             zulu[romeo] = vacuum;
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 'obscureDescription';
             zulu[romeo] = backup;
             return zulu;
- 1342:
+ 1340:
             backup = oscar.items;
             romeo = backup.map;
             zulu = function(argFoo, argBar) {
@@ -586,8 +586,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = output.length;
             romeo = 0;
             zulu = null;
-            if(!(romeo !== backup)) { _fun00002_ip = 1438; continue _fun00001 }
- 1414:
+            if(!(romeo !== backup)) { _fun00002_ip = 1434; continue _fun00001 }
+ 1410:
             romeo = {};
             sierra = romeo;
             status = oscar;
@@ -595,9 +595,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = 'items';
             romeo[backup] = output;
             zulu = romeo;
- 1438:
+ 1434:
             return zulu;
- 1440:
+ 1436:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
             zulu = 11;
@@ -610,10 +610,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             result = oscar.spoiler;
             output = null;
             output = output != result;
-            if(!output) { _fun00002_ip = 1497; continue _fun00001 }
- 1494:
+            if(!output) { _fun00002_ip = 1493; continue _fun00001 }
+ 1490:
             output = result;
- 1497:
+ 1493:
             zulu['isSpoilered'] = output;
             output = report.bot;
             zulu['isAuthorBot'] = output;
@@ -672,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 'accessibilityRole';
             zulu[romeo] = backup;
             return zulu;
- 1775:
+ 1771:
             zulu = {};
             sierra = zulu;
             status = oscar;
@@ -685,13 +685,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = 'content';
             zulu[verify] = romeo;
             return zulu;
- 1825:
+ 1821:
             zulu = oscar.accessory;
             kilo = options.bind(golf)(zulu);
             zulu = null;
             options = zulu == kilo;
-            if(options) { _fun00002_ip = 1974; continue _fun00001 }
- 1848:
+            if(options) { _fun00002_ip = 1968; continue _fun00001 }
+ 1844:
             options = {};
             sierra = options;
             status = oscar;
@@ -726,9 +726,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = 'errorText';
             options[verify] = romeo;
             zulu = options;
- 1974:
+ 1968:
             return zulu;
- 1976:
+ 1970:
             verify = _closure1_slot0;
             backup = _closure1_slot2;
             zulu = 9;
@@ -765,7 +765,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'accessibilityLabel';
             zulu[options] = verify;
             return zulu;
- 2122:
+ 2114:
             verify = _closure1_slot0;
             foxtrot = _closure1_slot2;
             zulu = 8;
@@ -818,7 +818,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'accessibilityLabel';
             zulu[options] = verify;
             return zulu;
- 2260:
+ 2248:
             options = oscar.style;
             verify = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -826,11 +826,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = verify.bind(golf)(zulu);
             zulu = zulu.ButtonStyle;
             zulu = zulu.PREMIUM;
-            if(!(options !== zulu)) { _fun00002_ip = 2305; continue _fun00001 }
- 2298:
+            if(!(options !== zulu)) { _fun00002_ip = 2293; continue _fun00001 }
+ 2286:
             verify = oscar.label;
-            _fun00002_ip = 2360; continue _fun00001;
- 2305:
+            _fun00002_ip = 2350; continue _fun00001;
+ 2293:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
             zulu = 6;
@@ -843,7 +843,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.CHa0vL;
             verify = options.bind(offset)(zulu);
- 2360:
+ 2350:
             zulu = {};
             sierra = zulu;
             status = oscar;
@@ -860,7 +860,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'label';
             zulu[options] = verify;
             return zulu;
- 2425:
+ 2415:
             options = oscar.components;
             zulu = options.map;
             mike = function(argFoo) {
@@ -901,11 +901,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
             zulu = argBar;
             entity = null;
-            if(!(entity != zulu)) { _fun00008_ip = 117; continue _fun00007 }
+            if(!(entity != zulu)) { _fun00008_ip = 119; continue _fun00007 }
  9:
             mike = zulu.length;
             entity = 0;
-            if(!(entity !== mike)) { _fun00008_ip = 117; continue _fun00007 }
+            if(!(entity !== mike)) { _fun00008_ip = 119; continue _fun00007 }
  20:
             mike = zulu.map;
             entity = argBaz;
@@ -929,7 +929,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['selections'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 117:
+ 119:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
             entity = 6;

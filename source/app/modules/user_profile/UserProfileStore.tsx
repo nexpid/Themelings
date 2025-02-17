@@ -869,19 +869,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  63:
                     zulu = _closure2_slot1;
                     report = null;
-                    if(!(report == zulu)) { _fun00020_ip = 216; continue _fun00019 }
+                    if(!(report == zulu)) { _fun00020_ip = 218; continue _fun00019 }
  79:
                     offset = mike.id;
                     oscar = offset.startsWith;
                     zulu = 'guild_booster_lvl';
                     oscar = oscar.bind(offset)(zulu);
                     zulu = mike;
-                    if(!oscar) { _fun00020_ip = 214; continue _fun00019 }
+                    if(!oscar) { _fun00020_ip = 216; continue _fun00019 }
  107:
                     offset = _closure2_slot2;
                     oscar = null;
                     zulu = mike;
-                    if(!(oscar != offset)) { _fun00020_ip = 214; continue _fun00019 }
+                    if(!(oscar != offset)) { _fun00020_ip = 216; continue _fun00019 }
  123:
                     oscar = {};
                     output = oscar;
@@ -905,9 +905,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = 'description';
                     oscar[offset] = yankee;
                     zulu = oscar;
- 214:
-                    return zulu;
  216:
+                    return zulu;
+ 218:
                     oscar = _closure1_slot0;
                     zulu = _closure1_slot2;
                     offset = 16;
@@ -923,12 +923,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = _closure2_slot1;
                     zulu['date'] = foxtrot;
                     zulu = yankee.bind(romeo)(oscar, zulu);
-                    if(!(report != entity)) { _fun00020_ip = 407; continue _fun00019 }
- 287:
+                    if(!(report != entity)) { _fun00020_ip = 409; continue _fun00019 }
+ 289:
                     oscar = entity.badgeVersion;
                     report = 2;
-                    if(!(report !== oscar)) { _fun00020_ip = 340; continue _fun00019 }
- 300:
+                    if(!(report !== oscar)) { _fun00020_ip = 342; continue _fun00019 }
+ 302:
                     oscar = _closure1_slot0;
                     report = _closure1_slot2;
                     report = report[golf];
@@ -937,8 +937,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = entity.id;
                     entity = _closure2_slot1;
                     entity = oscar.bind(golf)(report, entity);
-                    _fun00020_ip = 404; continue _fun00019;
- 340:
+                    _fun00020_ip = 406; continue _fun00019;
+ 342:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
                     oscar = tango[offset];
@@ -953,9 +953,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = _closure2_slot1;
                     tango['date'] = options;
                     entity = oscar.bind(golf)(report, tango);
- 404:
+ 406:
                     zulu = entity;
- 407:
+ 409:
                     entity = {};
                     output = entity;
                     sizing = mike;

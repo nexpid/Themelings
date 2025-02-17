@@ -230,9 +230,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = tango.canChangeNick;
             kilo = tango.canManageRoles;
             tango = tango.canModerateMembers;
-            if(!(entity != backup)) { _fun00002_ip = 1448; continue _fun00001 }
+            if(!(entity != backup)) { _fun00002_ip = 1450; continue _fun00001 }
  235:
-            if(!(entity != mike)) { _fun00002_ip = 1448; continue _fun00001 }
+            if(!(entity != mike)) { _fun00002_ip = 1450; continue _fun00001 }
  242:
             verify = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1448:
+ 1450:
             return entity;
         }
     };

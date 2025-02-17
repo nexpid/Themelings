@@ -349,27 +349,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = verify.onScroll;
             equality = verify.onScrollBeginDrag;
             whiskey = verify.onScrollEndDrag;
-            if(golf) { _fun00002_ip = 736; continue _fun00001 }
- 688:
+            if(golf) { _fun00002_ip = 728; continue _fun00001 }
+ 680:
             golf = 'animatedScrollPosition';
-            if(!(golf !== options)) { _fun00002_ip = 730; continue _fun00001 }
- 698:
+            if(!(golf !== options)) { _fun00002_ip = 722; continue _fun00001 }
+ 690:
             golf = 'animatedCallbacks';
-            if(!(golf !== options)) { _fun00002_ip = 730; continue _fun00001 }
- 708:
+            if(!(golf !== options)) { _fun00002_ip = 722; continue _fun00001 }
+ 700:
             options = _closure1_slot1;
             verify = _closure1_slot2;
             golf = 4;
             golf = verify[golf];
             verify = options.bind(report)(golf);
-            _fun00002_ip = 734; continue _fun00001;
- 730:
+            _fun00002_ip = 726; continue _fun00001;
+ 722:
             verify = _closure1_slot7;
- 734:
-            _fun00002_ip = 740; continue _fun00001;
- 736:
+ 726:
+            _fun00002_ip = 732; continue _fun00001;
+ 728:
             verify = _closure1_slot8;
- 740:
+ 732:
             options = _closure1_slot4;
             golf = {};
             golf['accessibilityLabel'] = variable41;
@@ -378,11 +378,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['insetEnd'] = variable38;
             variable38 = 'on-drag';
             variable38 = variable38 === variable40;
-            if(variable38) { _fun00002_ip = 786; continue _fun00001 }
- 778:
+            if(variable38) { _fun00002_ip = 778; continue _fun00001 }
+ 770:
             variable39 = 'interactive';
             variable38 = variable39 === variable40;
- 786:
+ 778:
             golf['keyboardDismissOnDrag'] = variable38;
             golf['onUnexpectedItemSize'] = variable37;
             golf['onLayout'] = variable36;
@@ -422,10 +422,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['sectionsVersioned'] = romeo;
             golf['wrapChildren'] = yankee;
             golf = offset.bind(report)(verify, golf);
-            if(!tango) { _fun00002_ip = 978; continue _fun00001 }
- 974:
-            if(!(entity == zulu)) { _fun00002_ip = 1022; continue _fun00001 }
- 978:
+            if(!tango) { _fun00002_ip = 970; continue _fun00001 }
+ 966:
+            if(!(entity == zulu)) { _fun00002_ip = 1014; continue _fun00001 }
+ 970:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -437,8 +437,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable51 = oscar;
             oscar = copyDataProperties(variable52, variable51);
             entity = tango.bind(report)(zulu, entity);
-            _fun00002_ip = 1054; continue _fun00001;
- 1022:
+            _fun00002_ip = 1046; continue _fun00001;
+ 1014:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;
             mike = {};
@@ -447,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1054:
+ 1046:
             return entity;
         }
     };

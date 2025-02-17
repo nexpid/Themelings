@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['discoverabilityEnabled'] = sequence;
             verify['setDiscoverabilityEnabled'] = vacuum;
             verify = yankee.bind(tango)(offset, verify);
-            _fun00004_ip = 912; continue _fun00003;
+            _fun00004_ip = 916; continue _fun00003;
  688:
             romeo = _closure1_slot16;
             result = _closure1_slot1;
@@ -577,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset['onDontAllow'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 912:
+ 916:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

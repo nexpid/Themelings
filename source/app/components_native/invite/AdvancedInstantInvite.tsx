@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure1_slot12;
                     zulu = zulu.CREATE_INSTANT_INVITE;
                     zulu = tango.bind(report)(zulu, oscar);
-                    if(zulu) { _fun00006_ip = 224; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 226; continue _fun00005 }
  58:
                     options = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -227,8 +227,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = oscar.close;
                     zulu['onConfirm'] = oscar;
                     zulu = tango.bind(report)(zulu);
-                    _fun00006_ip = 277; continue _fun00005;
- 224:
+                    _fun00006_ip = 279; continue _fun00005;
+ 226:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
                     mike = 12;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure3_slot0;
                     entity = mike.handlePressCancel;
                     entity = entity.bind(mike)();
- 277:
+ 279:
                     entity = undefined;
                     return entity;
                 }
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.props;
                 entity = entity.channel;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00012_ip = 299; continue _fun00011 }
+                if(!(zulu == entity)) { _fun00012_ip = 301; continue _fun00011 }
  22:
                 report = _closure1_slot9;
                 tango = report.getGuildId;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = oscar.getInvitableChannelForGuild;
                 report = tango.bind(oscar)(golf);
  81:
-                if(!(zulu == report)) { _fun00012_ip = 250; continue _fun00011 }
+                if(!(zulu == report)) { _fun00012_ip = 252; continue _fun00011 }
  88:
                 tango = _closure1_slot1;
                 romeo = _closure1_slot2;
@@ -405,8 +405,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.pop;
                 zulu['onConfirm'] = golf;
                 zulu = tango.bind(oscar)(zulu);
-                _fun00012_ip = 299; continue _fun00011;
- 250:
+                _fun00012_ip = 301; continue _fun00011;
+ 252:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
                 entity = 12;
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.id;
                 entity['channelId'] = report;
                 entity = zulu.bind(tango)(entity);
- 299:
+ 301:
                 entity = mike.updateHeader;
                 entity = entity.bind(mike)();
                 entity = undefined;

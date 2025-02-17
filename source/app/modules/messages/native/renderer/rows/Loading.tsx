@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['id'] = options;
             entity['button'] = oscar;
-            if(report) { _fun00002_ip = 214; continue _fun00001 }
- 206:
+            if(report) { _fun00002_ip = 212; continue _fun00001 }
+ 204:
             oscar = golf.loadButtonColor;
-            _fun00002_ip = 220; continue _fun00001;
- 214:
+            _fun00002_ip = 218; continue _fun00001;
+ 212:
             oscar = golf.loadingColor;
- 220:
+ 218:
             entity['color'] = oscar;
             entity['isLoading'] = report;
             entity = zulu.bind(tango)(mike, entity);

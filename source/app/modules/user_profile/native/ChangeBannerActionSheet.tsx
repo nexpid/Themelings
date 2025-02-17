@@ -473,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = romeo.bind(backup)(yankee);
             options['title'] = yankee;
             yankee = context;
-            if(!yankee) { _fun00006_ip = 321; continue _fun00005 }
- 283:
+            if(!yankee) { _fun00006_ip = 323; continue _fun00005 }
+ 285:
             kilo = _closure1_slot9;
             backup = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = romeo.NitroWheelIcon;
             romeo = {};
             yankee = kilo.bind(tango)(backup, romeo);
- 321:
+ 323:
             options['trailing'] = yankee;
             yankee = config.titleWrapper;
             options['titleWrapperStyle'] = yankee;
@@ -503,14 +503,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {};
             vacuum = null;
             backup = null;
-            if(context) { _fun00006_ip = 421; continue _fun00005 }
- 401:
+            if(context) { _fun00006_ip = 423; continue _fun00005 }
+ 403:
             sizing = _closure1_slot9;
             kilo = _closure1_slot13;
             romeo = {};
             romeo['user'] = result;
             backup = sizing.bind(tango)(kilo, romeo);
- 421:
+ 423:
             romeo = new Array(3);
             romeo[0] = backup;
             result = _closure1_slot9;
@@ -541,22 +541,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             whiskey = whiskey[record];
             whiskey = equality.bind(tango)(whiskey);
             equality = whiskey.t;
-            if(foxtrot) { _fun00006_ip = 561; continue _fun00005 }
- 548:
+            if(foxtrot) { _fun00006_ip = 565; continue _fun00005 }
+ 550:
             whiskey = equality.70CYsb;
             whiskey = quebec.bind(variable36)(whiskey);
-            _fun00006_ip = 572; continue _fun00005;
- 561:
+            _fun00006_ip = 578; continue _fun00005;
+ 565:
             equality = equality.N0bC3N;
             whiskey = quebec.bind(variable36)(equality);
- 572:
+ 578:
             status['text'] = whiskey;
             sierra = lima.bind(tango)(sierra, status);
             status = new Array(2);
             status[0] = sierra;
             sierra = !context;
-            if(!sierra) { _fun00006_ip = 652; continue _fun00005 }
- 596:
+            if(!sierra) { _fun00006_ip = 658; continue _fun00005 }
+ 602:
             equality = _closure1_slot9;
             whiskey = _closure1_slot0;
             quebec = _closure1_slot2;
@@ -570,7 +570,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = 'sm';
             lima['size'] = quebec;
             sierra = equality.bind(tango)(whiskey, lima);
- 652:
+ 658:
             status[1] = sierra;
             echo['children'] = status;
             echo = target.bind(tango)(papa, echo);
@@ -598,22 +598,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             whiskey = whiskey[record];
             whiskey = equality.bind(tango)(whiskey);
             equality = whiskey.t;
-            if(context) { _fun00006_ip = 784; continue _fun00005 }
- 771:
+            if(context) { _fun00006_ip = 792; continue _fun00005 }
+ 777:
             whiskey = equality.NSTmdH;
             whiskey = quebec.bind(variable36)(whiskey);
-            _fun00006_ip = 795; continue _fun00005;
- 784:
+            _fun00006_ip = 805; continue _fun00005;
+ 792:
             equality = equality.IhzZlp;
             whiskey = quebec.bind(variable36)(equality);
- 795:
+ 805:
             status['text'] = whiskey;
             sierra = lima.bind(tango)(sierra, status);
             status = new Array(2);
             status[0] = sierra;
             sierra = !context;
-            if(!sierra) { _fun00006_ip = 896; continue _fun00005 }
- 819:
+            if(!sierra) { _fun00006_ip = 906; continue _fun00005 }
+ 829:
             equality = _closure1_slot9;
             whiskey = _closure1_slot5;
             lima = {};
@@ -632,21 +632,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = variable37.bind(tango)(variable36, quebec);
             lima['children'] = quebec;
             sierra = equality.bind(tango)(whiskey, lima);
- 896:
+ 906:
             status[1] = sierra;
             echo['children'] = status;
             echo = target.bind(tango)(papa, echo);
             kilo['subLabel'] = echo;
             echo = undefined;
-            if(!context) { _fun00006_ip = 923; continue _fun00005 }
- 920:
+            if(!context) { _fun00006_ip = 933; continue _fun00005 }
+ 930:
             echo = update;
- 923:
+ 933:
             kilo['onPress'] = echo;
             kilo = result.bind(tango)(sizing, kilo);
             romeo[1] = kilo;
-            if(!foxtrot) { _fun00006_ip = 1107; continue _fun00005 }
- 943:
+            if(!foxtrot) { _fun00006_ip = 1119; continue _fun00005 }
+ 953:
             sizing = _closure1_slot9;
             echo = _closure1_slot0;
             result = _closure1_slot2;
@@ -665,8 +665,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = config.remove;
             sequence[1] = config;
             result['style'] = sequence;
-            if(!(vacuum == source)) { _fun00006_ip = 1076; continue _fun00005 }
- 1024:
+            if(!(vacuum == source)) { _fun00006_ip = 1088; continue _fun00005 }
+ 1034:
             config = _closure1_slot0;
             control = _closure1_slot2;
             vacuum = control[record];
@@ -678,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.t;
             control = control.tT9n7O;
             source = vacuum.bind(sequence)(control);
- 1076:
+ 1088:
             result['text'] = source;
             result = update.bind(tango)(echo, result);
             backup['label'] = result;
@@ -698,7 +698,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup['onPress'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 1107:
+ 1119:
             romeo[2] = foxtrot;
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);

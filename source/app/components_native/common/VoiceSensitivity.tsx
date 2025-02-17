@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             zulu = golf.bind(options)(zulu, report);
-            if(entity) { _fun00002_ip = 839; continue _fun00001 }
+            if(entity) { _fun00002_ip = 835; continue _fun00001 }
  530:
             report = _closure1_slot14;
             zulu = _closure1_slot6;
@@ -509,15 +509,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = golf;
             entity = report.bind(tango)(zulu, entity);
             return entity;
- 839:
+ 835:
             entity = _closure1_slot15;
-            if(mike) { _fun00002_ip = 854; continue _fun00001 }
- 846:
+            if(mike) { _fun00002_ip = 850; continue _fun00001 }
+ 842:
             yankee = entity.sensitivityDefault;
-            _fun00002_ip = 860; continue _fun00001;
- 854:
+            _fun00002_ip = 856; continue _fun00001;
+ 850:
             yankee = entity.sensitivitySpeaking;
- 860:
+ 856:
             zulu = _closure1_slot14;
             mike = _closure1_slot6;
             entity = {};

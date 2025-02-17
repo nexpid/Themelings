@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -238,11 +238,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00010_ip = 76; continue _fun00009;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00010_ip = 74; continue _fun00009;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = argFoo;
                     mike = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun00012_ip = 99; continue _fun00011 }
+                    if(tango) { _fun00012_ip = 97; continue _fun00011 }
  15:
                     tango = undefined;
                     if(!(mike === tango)) { _fun00012_ip = 23; continue _fun00011 }
@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00012_ip = 96; continue _fun00011 }
+                    if(report) { _fun00012_ip = 94; continue _fun00011 }
  44:
                     report = oscar.map;
                     zulu = function(argFoo) {
@@ -447,19 +447,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = zulu.Promise;
                     zulu = report.all;
                     zulu = zulu.bind(report)(oscar);
-                    SaveGenerator(address=84);
+                    SaveGenerator(address=82);
+ 80:
+                    return zulu;
  82:
-                    return zulu;
- 84:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00012_ip = 93; continue _fun00011 }
- 90:
+                    if(report) { _fun00012_ip = 91; continue _fun00011 }
+ 88:
                     return tango;
- 93:
+ 91:
                     return zulu;
- 96:
+ 94:
                     return mike;
- 99:
+ 97:
                     return entity;
                 }
             };
@@ -1046,7 +1046,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = report.bind(entity)(oscar);
                 entity = zulu.bind(tango)(entity);
                 entity = mike._aborted;
-                if(entity) { _fun00026_ip = 124; continue _fun00025 }
+                if(entity) { _fun00026_ip = 122; continue _fun00025 }
  59:
                 entity = true;
                 mike['_aborted'] = entity;
@@ -1068,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = zulu.bind(tango)(entity);
                 entity = mike._handleComplete;
                 entity = entity.bind(mike)();
- 124:
+ 122:
                 entity = undefined;
                 return entity;
             }
@@ -1087,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = argFoo;
                     tango = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00028_ip = 383; continue _fun00027 }
+                    if(mike) { _fun00028_ip = 381; continue _fun00027 }
  18:
                     var _closure4_slot0 = yankee;
                     golf = _closure1_slot10;
@@ -1111,8 +1111,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     oscar = report.bind(oscar)(zulu);
                     zulu = null;
-                    if(!(zulu != oscar)) { _fun00028_ip = 375; continue _fun00027 }
- 109:
+                    if(!(zulu != oscar)) { _fun00028_ip = 373; continue _fun00027 }
+ 107:
                     report = oscar.status;
                     options = _closure1_slot0;
                     golf = _closure1_slot1;
@@ -1122,8 +1122,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = options.bind(golf)(zulu);
                     zulu = zulu.CloudUploadStatus;
                     zulu = zulu.CANCELED;
-                    if(!(report !== zulu)) { _fun00028_ip = 375; continue _fun00027 }
- 155:
+                    if(!(report !== zulu)) { _fun00028_ip = 373; continue _fun00027 }
+ 153:
                     report = tango.files;
                     zulu = report.indexOf;
                     romeo = zulu.bind(report)(oscar);
@@ -1158,13 +1158,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.bind(golf)(mike);
                     mike = zulu.cancelGetAttachmentFile;
                     mike = mike.bind(zulu)(oscar);
-                    SaveGenerator(address=310);
- 308:
+                    SaveGenerator(address=308);
+ 306:
                     return mike;
- 310:
+ 308:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00028_ip = 380; continue _fun00027 }
- 316:
+                    if(zulu) { _fun00028_ip = 378; continue _fun00027 }
+ 314:
                     zulu = oscar.cancel;
                     zulu = zulu.bind(oscar)();
                     golf = tango.emit;
@@ -1173,16 +1173,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = golf.bind(tango)(zulu, oscar);
                     zulu = tango.files;
                     zulu = zulu.length;
-                    if(!(report === zulu)) { _fun00028_ip = 375; continue _fun00027 }
- 365:
+                    if(!(report === zulu)) { _fun00028_ip = 373; continue _fun00027 }
+ 363:
                     zulu = tango.cancel;
                     zulu = zulu.bind(tango)();
- 375:
+ 373:
                     zulu = undefined;
                     return zulu;
- 380:
+ 378:
                     return mike;
- 383:
+ 381:
                     return entity;
                 }
             };

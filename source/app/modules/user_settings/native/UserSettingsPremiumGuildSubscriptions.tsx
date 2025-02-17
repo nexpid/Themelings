@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = entity.props;
                 mike = entity.hasSlots;
                 entity = null;
-                if(!mike) { _fun00010_ip = 409; continue _fun00009 }
+                if(!mike) { _fun00010_ip = 413; continue _fun00009 }
  41:
                 tango = _closure1_slot18;
                 mike = _closure1_slot8;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar[1] = golf;
                 mike['children'] = oscar;
                 entity = tango.bind(report)(zulu, mike);
- 409:
+ 413:
                 return entity;
             }
         };

@@ -273,11 +273,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = tango.type;
                     tango = _closure1_slot23;
                     tango = tango.GUILD;
-                    if(!(tango !== oscar)) { _fun00008_ip = 290; continue _fun00007 }
+                    if(!(tango !== oscar)) { _fun00008_ip = 288; continue _fun00007 }
  82:
                     tango = _closure1_slot23;
                     tango = tango.GUILD_CHANNEL;
-                    if(!(tango !== oscar)) { _fun00008_ip = 290; continue _fun00007 }
+                    if(!(tango !== oscar)) { _fun00008_ip = 288; continue _fun00007 }
  99:
                     tango = _closure1_slot23;
                     tango = tango.DMS;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  113:
                     tango = _closure1_slot23;
                     tango = tango.CHANNEL;
-                    if(!(tango === oscar)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tango === oscar)) { _fun00008_ip = 337; continue _fun00007 }
  130:
                     options = _closure1_slot12;
                     oscar = options.getChannel;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.channelId;
                     oscar = oscar.bind(options)(tango);
                     tango = null;
-                    if(!(tango != oscar)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tango != oscar)) { _fun00008_ip = 337; continue _fun00007 }
  168:
                     verify = golf.push;
                     offset = _closure1_slot11;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = options.bind(offset)();
                     options = verify.bind(golf)(options);
                     options = oscar.recipients;
-                    if(!(tango != options)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tango != options)) { _fun00008_ip = 337; continue _fun00007 }
  205:
                     oscar = options.forEach;
                     tango = function(argFoo) {
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     tango = oscar.bind(options)(tango);
-                    _fun00008_ip = 339; continue _fun00007;
+                    _fun00008_ip = 337; continue _fun00007;
  224:
                     oscar = _closure1_slot12;
                     tango = oscar.getSortedPrivateChannels;
@@ -346,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     tango = oscar.bind(options)(tango);
-                    _fun00008_ip = 339; continue _fun00007;
- 290:
+                    _fun00008_ip = 337; continue _fun00007;
+ 288:
                     oscar = _closure1_slot20;
                     tango = oscar.getRecentMessageAuthorIds;
                     zulu = _closure3_slot0;
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     zulu = tango.bind(oscar)(zulu);
- 339:
+ 337:
                     tango = _closure1_slot1;
                     oscar = _closure1_slot2;
                     zulu = 17;

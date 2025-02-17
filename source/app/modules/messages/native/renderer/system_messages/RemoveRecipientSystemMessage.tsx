@@ -374,8 +374,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(yankee)(zulu, tango);
             entity = entity.author;
             entity = entity.id;
-            if(!(entity !== offset)) { _fun00010_ip = 310; continue _fun00009 }
- 268:
+            if(!(entity !== offset)) { _fun00010_ip = 304; continue _fun00009 }
+ 262:
             tango = _closure1_slot8;
             zulu = _closure1_slot10;
             entity = {};
@@ -385,8 +385,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['otherUserId'] = offset;
             entity['roleStyle'] = verify;
             entity = tango.bind(report)(zulu, entity);
-            _fun00010_ip = 340; continue _fun00009;
- 310:
+            _fun00010_ip = 334; continue _fun00009;
+ 304:
             tango = _closure1_slot8;
             zulu = _closure1_slot9;
             mike = {};
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['channel'] = golf;
             mike['formatProps'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 340:
+ 334:
             return entity;
         }
     };

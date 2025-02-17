@@ -56,11 +56,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             zulu = zulu == report;
             verify = undefined;
-            if(zulu) { _fun00002_ip = 173; continue _fun00001 }
- 162:
+            if(zulu) { _fun00002_ip = 169; continue _fun00001 }
+ 158:
             zulu = report.isOwner;
             verify = zulu.bind(report)(golf);
- 173:
+ 169:
             _closure2_slot2 = verify;
             golf = _closure1_slot3;
             report = golf.useMemo;
@@ -253,18 +253,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             options = tango != oscar;
             entity = null;
-            if(!options) { _fun00006_ip = 187; continue _fun00005 }
- 157:
+            if(!options) { _fun00006_ip = 183; continue _fun00005 }
+ 153:
             entity = null;
-            if(!zulu) { _fun00006_ip = 187; continue _fun00005 }
- 162:
+            if(!zulu) { _fun00006_ip = 183; continue _fun00005 }
+ 158:
             tango = _closure1_slot10;
             zulu = _closure1_slot11;
             mike = {};
             mike['row'] = golf;
             mike['channel'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 187:
+ 183:
             return entity;
         }
     };

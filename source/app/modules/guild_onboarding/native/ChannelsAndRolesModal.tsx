@@ -110,8 +110,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.screen;
             entity['style'] = verify;
             oscar = null;
-            if(!report) { _fun00002_ip = 431; continue _fun00001 }
- 359:
+            if(!report) { _fun00002_ip = 435; continue _fun00001 }
+ 363:
             romeo = _closure1_slot8;
             verify = _closure1_slot5;
             report = {};
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             report['children'] = foxtrot;
             oscar = romeo.bind(tango)(verify, report);
- 431:
+ 435:
             report = new Array(2);
             report[0] = oscar;
             oscar = _closure1_slot7;
             oscar = oscar.CUSTOMIZE;
-            if(!(options !== oscar)) { _fun00002_ip = 491; continue _fun00001 }
- 453:
+            if(!(options !== oscar)) { _fun00002_ip = 495; continue _fun00001 }
+ 457:
             verify = _closure1_slot8;
             options = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -145,8 +145,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['guildId'] = offset;
             oscar = verify.bind(tango)(options, oscar);
-            _fun00002_ip = 532; continue _fun00001;
- 491:
+            _fun00002_ip = 536; continue _fun00001;
+ 495:
             verify = _closure1_slot8;
             options = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['setTab'] = yankee;
             golf['guildId'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 532:
+ 536:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

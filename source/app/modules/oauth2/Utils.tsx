@@ -29,13 +29,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             if(!(mike != entity)) { _fun00002_ip = 28; continue _fun00001 }
  15:
             entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun00002_ip = 292; continue _fun00001 }
+            if(!(mike == entity)) { _fun00002_ip = 298; continue _fun00001 }
  28:
             entity = oscar.privacy_policy_url;
-            if(!(mike == entity)) { _fun00002_ip = 208; continue _fun00001 }
+            if(!(mike == entity)) { _fun00002_ip = 212; continue _fun00001 }
  41:
             entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun00002_ip = 124; continue _fun00001 }
+            if(!(mike == entity)) { _fun00002_ip = 126; continue _fun00001 }
  51:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -53,8 +53,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = oscar.name;
             entity['application'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun00002_ip = 206; continue _fun00001;
- 124:
+            _fun00002_ip = 210; continue _fun00001;
+ 126:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             mike = 0;
@@ -73,9 +73,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = oscar.terms_of_service_url;
             mike['termsOfServiceURL'] = golf;
             entity = tango.bind(report)(zulu, mike);
- 206:
-            _fun00002_ip = 290; continue _fun00001;
- 208:
+ 210:
+            _fun00002_ip = 296; continue _fun00001;
+ 212:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             mike = 0;
@@ -94,9 +94,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = oscar.privacy_policy_url;
             mike['privacyPolicyURL'] = golf;
             entity = tango.bind(report)(zulu, mike);
- 290:
-            _fun00002_ip = 385; continue _fun00001;
- 292:
+ 296:
+            _fun00002_ip = 393; continue _fun00001;
+ 298:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             mike = 0;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.terms_of_service_url;
             mike['termsOfServiceURL'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 385:
+ 393:
             return entity;
         }
     };

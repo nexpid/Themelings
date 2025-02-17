@@ -87,10 +87,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot2;
             tango = tango.CELLULAR;
             mike = null;
-            if(!(report === tango)) { _fun00006_ip = 74; continue _fun00005 }
+            if(!(report === tango)) { _fun00006_ip = 72; continue _fun00005 }
  66:
             mike = zulu.carrier;
- 74:
+ 72:
             entity['serviceProvider'] = mike;
             return entity;
         }

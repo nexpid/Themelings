@@ -218,15 +218,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control[source];
             control = context.bind(tango)(control);
             context = control.t;
-            if(backup) { _fun00002_ip = 468; continue _fun00001 }
+            if(backup) { _fun00002_ip = 470; continue _fun00001 }
  455:
             control = context.sO+NIy;
             control = papa.bind(target)(control);
-            _fun00002_ip = 479; continue _fun00001;
- 468:
+            _fun00002_ip = 483; continue _fun00001;
+ 470:
             context = context./OywGR;
             control = papa.bind(target)(context);
- 479:
+ 483:
             kilo['children'] = control;
             output = update.bind(tango)(output, kilo);
             kilo = new Array(5);
@@ -249,15 +249,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = context[source];
             context = papa.bind(tango)(context);
             papa = context.t;
-            if(backup) { _fun00002_ip = 606; continue _fun00001 }
- 593:
+            if(backup) { _fun00002_ip = 612; continue _fun00001 }
+ 597:
             context = papa.xI496O;
             context = target.bind(status)(context);
-            _fun00002_ip = 617; continue _fun00001;
- 606:
+            _fun00002_ip = 625; continue _fun00001;
+ 612:
             papa = papa.xCHh/v;
             context = target.bind(status)(papa);
- 617:
+ 625:
             output['children'] = context;
             output = control.bind(tango)(update, output);
             kilo[1] = output;
@@ -302,8 +302,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = control.bind(tango)(update, output);
             kilo[3] = output;
             output = null;
-            if(!echo) { _fun00002_ip = 951; continue _fun00001 }
- 845:
+            if(!echo) { _fun00002_ip = 955; continue _fun00001 }
+ 851:
             update = _closure1_slot7;
             papa = _closure1_slot0;
             control = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = record.bind(context)(control);
             result['children'] = control;
             output = update.bind(tango)(echo, result);
- 951:
+ 955:
             kilo[4] = output;
             options['children'] = kilo;
             yankee = golf.bind(tango)(yankee, options);
@@ -334,10 +334,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = _closure1_slot5;
             kilo = {};
             yankee = backup;
-            if(!yankee) { _fun00002_ip = 995; continue _fun00001 }
- 989:
+            if(!yankee) { _fun00002_ip = 999; continue _fun00001 }
+ 993:
             yankee = foxtrot.button;
- 995:
+ 999:
             kilo['style'] = yankee;
             control = _closure1_slot7;
             update = _closure1_slot0;
@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = 'primary';
             echo['variant'] = record;
             record = 'lg';
-            if(!backup) { _fun00002_ip = 1050; continue _fun00001 }
- 1046:
-            record = 'md';
+            if(!backup) { _fun00002_ip = 1054; continue _fun00001 }
  1050:
+            record = 'md';
+ 1054:
             echo['size'] = record;
             echo['text'] = config;
             config = function() { // Original name: onPress
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = result.bind(tango)(output, kilo);
             options[1] = kilo;
             offset = null;
-            if(!backup) { _fun00002_ip = 1213; continue _fun00001 }
- 1111:
+            if(!backup) { _fun00002_ip = 1219; continue _fun00001 }
+ 1115:
             kilo = _closure1_slot7;
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee['onPress'] = sizing;
             offset = kilo.bind(tango)(backup, yankee);
- 1213:
+ 1219:
             options[2] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot1;

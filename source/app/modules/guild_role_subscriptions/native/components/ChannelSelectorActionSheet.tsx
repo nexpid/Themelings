@@ -602,8 +602,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(tango)(kilo, backup);
             romeo[1] = backup;
             foxtrot = !foxtrot;
-            if(!foxtrot) { _fun00010_ip = 829; continue _fun00009 }
- 559:
+            if(!foxtrot) { _fun00010_ip = 833; continue _fun00009 }
+ 561:
             sizing = _closure1_slot13;
             kilo = _closure1_slot0;
             control = _closure1_slot2;
@@ -689,11 +689,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = control.color;
             control = source == vacuum;
             source = undefined;
-            if(control) { _fun00010_ip = 671; continue _fun00009 }
- 662:
+            if(control) { _fun00010_ip = 673; continue _fun00009 }
+ 664:
             control = vacuum.toString;
             source = control.bind(vacuum)();
- 671:
+ 673:
             output['color'] = source;
             vacuum = _closure1_slot1;
             source = _closure1_slot2;
@@ -726,7 +726,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[1] = result;
             backup['children'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 829:
+ 833:
             romeo[2] = foxtrot;
             oscar['children'] = romeo;
             oscar = yankee.bind(tango)(golf, oscar);

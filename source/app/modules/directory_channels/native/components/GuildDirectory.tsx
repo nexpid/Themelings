@@ -395,8 +395,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!options) { _fun00006_ip = 588; continue _fun00005 }
- 545:
+            if(!options) { _fun00006_ip = 592; continue _fun00005 }
+ 549:
             verify = _closure1_slot20;
             options = _closure1_slot1;
             yankee = _closure1_slot3;
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = true;
             golf['onDirectoryPage'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 588:
+ 592:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.splash;
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun00008_ip = 532; continue _fun00007 }
+            if(mike) { _fun00008_ip = 534; continue _fun00007 }
  102:
             tango = _closure1_slot21;
             zulu = _closure1_slot5;
@@ -535,7 +535,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 532:
+ 534:
             return entity;
         }
     };

@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = tango.bind(oscar)(zulu, entity);
             entity = null;
-            if(!(entity != zulu)) { _fun00006_ip = 235; continue _fun00005 }
+            if(!(entity != zulu)) { _fun00006_ip = 237; continue _fun00005 }
  112:
             mike = function() {
                 tango = _closure1_slot8;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onPress'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 235:
+ 237:
             return entity;
         }
     };
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  19:
                 entity = yankee.props;
                 entity = entity.children;
-                _fun00016_ip = 331; continue _fun00015;
+                _fun00016_ip = 337; continue _fun00015;
  34:
                 report = _closure1_slot14;
                 verify = _closure1_slot1;
@@ -531,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar[2] = golf;
                 mike['children'] = oscar;
                 entity = report.bind(tango)(zulu, mike);
- 331:
+ 337:
                 return entity;
             }
         };

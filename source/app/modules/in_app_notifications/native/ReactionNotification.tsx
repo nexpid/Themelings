@@ -451,9 +451,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             offset = offset.bind(yankee)(zulu, options);
-            if(mike) { _fun00002_ip = 1000; continue _fun00001 }
+            if(mike) { _fun00002_ip = 1006; continue _fun00001 }
  547:
-            if(entity) { _fun00002_ip = 891; continue _fun00001 }
+            if(entity) { _fun00002_ip = 895; continue _fun00001 }
  553:
             zulu = _closure1_slot13;
             mike = _closure1_slot12;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = echo.trim;
             echo = foxtrot.bind(echo)();
             foxtrot = '';
-            if(!(foxtrot === echo)) { _fun00002_ip = 693; continue _fun00001 }
+            if(!(foxtrot === echo)) { _fun00002_ip = 695; continue _fun00001 }
  628:
             echo = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -487,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {};
             foxtrot['emojiHook'] = sequence;
             foxtrot = update.bind(control)(echo, foxtrot);
-            _fun00002_ip = 756; continue _fun00001;
- 693:
+            _fun00002_ip = 760; continue _fun00001;
+ 695:
             update = _closure1_slot0;
             config = _closure1_slot2;
             echo = 21;
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = {};
             echo['emojiHook'] = sequence;
             foxtrot = control.bind(vacuum)(update, echo);
- 756:
+ 760:
             options['children'] = foxtrot;
             yankee = romeo.bind(tango)(yankee, options);
             options = new Array(2);
@@ -530,8 +530,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = yankee;
             entity['children'] = options;
             options = zulu.bind(tango)(mike, entity);
-            _fun00002_ip = 998; continue _fun00001;
- 891:
+            _fun00002_ip = 1004; continue _fun00001;
+ 895:
             zulu = _closure1_slot11;
             romeo = _closure1_slot0;
             echo = _closure1_slot2;
@@ -554,9 +554,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(backup)(romeo, yankee);
             entity['children'] = yankee;
             options = zulu.bind(tango)(mike, entity);
- 998:
-            _fun00002_ip = 1107; continue _fun00001;
- 1000:
+ 1004:
+            _fun00002_ip = 1115; continue _fun00001;
+ 1006:
             zulu = _closure1_slot11;
             romeo = _closure1_slot0;
             echo = _closure1_slot2;
@@ -579,7 +579,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(backup)(romeo, yankee);
             entity['children'] = yankee;
             options = zulu.bind(tango)(mike, entity);
- 1107:
+ 1115:
             zulu = _closure1_slot11;
             mike = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -588,8 +588,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             mike = entity.Notification;
             entity = {};
-            if(!(kilo == result)) { _fun00002_ip = 1210; continue _fun00001 }
- 1143:
+            if(!(kilo == result)) { _fun00002_ip = 1218; continue _fun00001 }
+ 1151:
             foxtrot = _closure1_slot11;
             romeo = _closure1_slot1;
             echo = _closure1_slot2;
@@ -605,8 +605,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.NORMAL;
             yankee['size'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
-            _fun00002_ip = 1297; continue _fun00001;
- 1210:
+            _fun00002_ip = 1305; continue _fun00001;
+ 1218:
             backup = _closure1_slot11;
             foxtrot = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -617,10 +617,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['user'] = result;
             result = kilo == sizing;
             kilo = undefined;
-            if(result) { _fun00002_ip = 1254; continue _fun00001 }
- 1249:
+            if(result) { _fun00002_ip = 1262; continue _fun00001 }
+ 1257:
             kilo = sizing.id;
- 1254:
+ 1262:
             romeo['guildId'] = kilo;
             sizing = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -630,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.NORMAL;
             romeo['size'] = kilo;
             yankee = backup.bind(tango)(foxtrot, romeo);
- 1297:
+ 1305:
             entity['icon'] = yankee;
             entity['label'] = offset;
             entity['labelStyle'] = golf;

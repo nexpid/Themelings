@@ -182,28 +182,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             mike = 60;
-            if(!(kilo < mike)) { _fun00002_ip = 333; continue _fun00001 }
- 285:
+            if(!(kilo < mike)) { _fun00002_ip = 345; continue _fun00001 }
+ 297:
             zulu = offset == backup;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 300; continue _fun00001 }
- 294:
+            if(zulu) { _fun00002_ip = 312; continue _fun00001 }
+ 306:
             entity = backup.seconds;
- 300:
-            if(!(offset == entity)) { _fun00002_ip = 316; continue _fun00001 }
- 304:
+ 312:
+            if(!(offset == entity)) { _fun00002_ip = 328; continue _fun00001 }
+ 316:
             entity = 'minutes';
             entity = foxtrot.bind(options)(entity, yankee);
-            _fun00002_ip = 326; continue _fun00001;
- 316:
+            _fun00002_ip = 338; continue _fun00001;
+ 328:
             zulu = 'seconds';
             entity = foxtrot.bind(options)(zulu, kilo);
- 326:
-            if(!(offset == entity)) { _fun00002_ip = 638; continue _fun00001 }
- 333:
+ 338:
+            if(!(offset == entity)) { _fun00002_ip = 650; continue _fun00001 }
+ 345:
             zulu = 3600;
-            if(!(kilo < zulu)) { _fun00002_ip = 383; continue _fun00001 }
- 343:
+            if(!(kilo < zulu)) { _fun00002_ip = 395; continue _fun00001 }
+ 355:
             tango = global;
             report = tango.Math;
             tango = report.floor;
@@ -211,11 +211,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(mike);
             mike = 'minutes';
             mike = foxtrot.bind(options)(mike, tango);
-            if(!(offset == mike)) { _fun00002_ip = 636; continue _fun00001 }
- 383:
+            if(!(offset == mike)) { _fun00002_ip = 648; continue _fun00001 }
+ 395:
             tango = 86400;
-            if(!(kilo < tango)) { _fun00002_ip = 433; continue _fun00001 }
- 393:
+            if(!(kilo < tango)) { _fun00002_ip = 445; continue _fun00001 }
+ 405:
             report = global;
             oscar = report.Math;
             report = oscar.floor;
@@ -223,11 +223,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(zulu);
             zulu = 'hours';
             zulu = foxtrot.bind(options)(zulu, report);
-            if(!(offset == zulu)) { _fun00002_ip = 634; continue _fun00001 }
- 433:
+            if(!(offset == zulu)) { _fun00002_ip = 646; continue _fun00001 }
+ 445:
             report = 2592000;
-            if(!(kilo < report)) { _fun00002_ip = 483; continue _fun00001 }
- 443:
+            if(!(kilo < report)) { _fun00002_ip = 495; continue _fun00001 }
+ 455:
             oscar = global;
             romeo = oscar.Math;
             oscar = romeo.floor;
@@ -235,11 +235,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(romeo)(tango);
             tango = 'days';
             tango = foxtrot.bind(options)(tango, oscar);
-            if(!(offset == tango)) { _fun00002_ip = 632; continue _fun00001 }
- 483:
+            if(!(offset == tango)) { _fun00002_ip = 644; continue _fun00001 }
+ 495:
             oscar = 31104000;
-            if(!(kilo < oscar)) { _fun00002_ip = 530; continue _fun00001 }
- 493:
+            if(!(kilo < oscar)) { _fun00002_ip = 542; continue _fun00001 }
+ 505:
             romeo = global;
             sizing = romeo.Math;
             romeo = sizing.floor;
@@ -247,18 +247,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = romeo.bind(sizing)(report);
             report = 'months';
             report = foxtrot.bind(options)(report, romeo);
-            if(!(offset == report)) { _fun00002_ip = 630; continue _fun00001 }
- 530:
-            if(!(kilo >= oscar)) { _fun00002_ip = 590; continue _fun00001 }
- 534:
+            if(!(offset == report)) { _fun00002_ip = 642; continue _fun00001 }
+ 542:
+            if(!(kilo >= oscar)) { _fun00002_ip = 602; continue _fun00001 }
+ 546:
             sizing = offset == backup;
             romeo = undefined;
-            if(sizing) { _fun00002_ip = 549; continue _fun00001 }
- 543:
+            if(sizing) { _fun00002_ip = 561; continue _fun00001 }
+ 555:
             romeo = backup.years;
- 549:
-            if(!(offset != romeo)) { _fun00002_ip = 590; continue _fun00001 }
- 553:
+ 561:
+            if(!(offset != romeo)) { _fun00002_ip = 602; continue _fun00001 }
+ 565:
             romeo = global;
             backup = romeo.Math;
             romeo = backup.floor;
@@ -266,8 +266,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = romeo.bind(backup)(oscar);
             oscar = 'years';
             oscar = foxtrot.bind(options)(oscar, romeo);
-            if(!(offset == oscar)) { _fun00002_ip = 628; continue _fun00001 }
- 590:
+            if(!(offset == oscar)) { _fun00002_ip = 640; continue _fun00001 }
+ 602:
             offset = _closure1_slot1;
             golf = _closure1_slot2;
             golf = golf[yankee];
@@ -277,17 +277,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = 'LL';
             golf = options.bind(verify)(golf);
             return golf;
- 628:
+ 640:
             return oscar;
- 630:
+ 642:
             return report;
- 632:
+ 644:
             return tango;
- 634:
+ 646:
             return zulu;
- 636:
+ 648:
             return mike;
- 638:
+ 650:
             return entity;
         }
     };

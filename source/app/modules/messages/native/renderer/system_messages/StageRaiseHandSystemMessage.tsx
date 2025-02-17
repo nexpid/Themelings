@@ -235,21 +235,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             zulu = options == report;
             kilo = undefined;
-            if(zulu) { _fun00004_ip = 416; continue _fun00003 }
- 395:
+            if(zulu) { _fun00004_ip = 408; continue _fun00003 }
+ 387:
             zulu = report.voiceState;
             output = options == zulu;
             kilo = undefined;
-            if(output) { _fun00004_ip = 416; continue _fun00003 }
- 410:
+            if(output) { _fun00004_ip = 408; continue _fun00003 }
+ 402:
             kilo = zulu.requestToSpeakTimestamp;
- 416:
+ 408:
             output = options != kilo;
             zulu = 0;
-            if(!output) { _fun00004_ip = 428; continue _fun00003 }
- 425:
+            if(!output) { _fun00004_ip = 420; continue _fun00003 }
+ 417:
             zulu = kilo;
- 428:
+ 420:
             kilo = sizing.prototype;
             kilo = Object.create(kilo, {constructor: {value: sizing}});
             control = kilo;
@@ -259,14 +259,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = kilo.toISOString;
             zulu = zulu.bind(kilo)();
             zulu = backup === zulu;
-            if(!golf) { _fun00004_ip = 519; continue _fun00003 }
- 468:
+            if(!golf) { _fun00004_ip = 511; continue _fun00003 }
+ 460:
             backup = options == report;
             options = undefined;
-            if(backup) { _fun00004_ip = 483; continue _fun00003 }
- 477:
+            if(backup) { _fun00004_ip = 475; continue _fun00003 }
+ 469:
             options = report.rtsState;
- 483:
+ 475:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
             report = 11;
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.RequestToSpeakStates;
             report = report.REQUESTED_TO_SPEAK;
             golf = options === report;
- 519:
-            if(!golf) { _fun00004_ip = 525; continue _fun00003 }
- 522:
+ 511:
+            if(!golf) { _fun00004_ip = 517; continue _fun00003 }
+ 514:
             golf = zulu;
- 525:
+ 517:
             report = _closure1_slot3;
             options = report.useMemo;
             zulu = new Array(5);

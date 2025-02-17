@@ -236,10 +236,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = arraySpread(verify, options, golf);
                     entity = entity.overwrites;
                     oscar = null;
-                    if(!(oscar == entity)) { _fun00004_ip = 126; continue _fun00003 }
- 122:
+                    if(!(oscar == entity)) { _fun00004_ip = 122; continue _fun00003 }
+ 118:
                     entity = new Array(0);
- 126:
+ 122:
                     verify = tango;
                     options = entity;
                     golf = report;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.setOptions;
                     entity = {};
                     tango = _closure2_slot3;
-                    if(tango) { _fun00008_ip = 192; continue _fun00007 }
+                    if(tango) { _fun00008_ip = 190; continue _fun00007 }
  183:
                     tango = function() {
                         tango = _closure1_slot8;
@@ -324,8 +324,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = tango.bind(zulu)(mike, entity);
                         return entity;
                     };
-                    _fun00008_ip = 199; continue _fun00007;
- 192:
+                    _fun00008_ip = 195; continue _fun00007;
+ 190:
                     tango = function() {
                         tango = _closure1_slot8;
                         mike = _closure1_slot0;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = tango.bind(zulu)(mike, entity);
                         return entity;
                     };
- 199:
+ 195:
                     entity['headerRight'] = tango;
                     entity = mike.bind(zulu)(entity);
                     entity = undefined;
@@ -380,8 +380,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = result.message;
             golf = backup != oscar;
             oscar = null;
-            if(!golf) { _fun00002_ip = 569; continue _fun00001 }
- 472:
+            if(!golf) { _fun00002_ip = 565; continue _fun00001 }
+ 468:
             yankee = _closure1_slot8;
             options = _closure1_slot5;
             golf = {};
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = yankee.bind(tango)(output, sizing);
             golf['children'] = sizing;
             oscar = yankee.bind(tango)(options, golf);
- 569:
+ 565:
             report[1] = oscar;
             options = _closure1_slot8;
             golf = _closure1_slot1;

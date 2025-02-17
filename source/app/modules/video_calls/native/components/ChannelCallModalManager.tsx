@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.inVoiceChannel;
                     report = oscar !== mike;
  110:
-                    if(!report) { _fun00006_ip = 167; continue _fun00005 }
+                    if(!report) { _fun00006_ip = 165; continue _fun00005 }
  113:
                     oscar = _closure1_slot1;
                     report = _closure1_slot2;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure3_slot0;
                     zulu = tango.terminate;
                     zulu = zulu.bind(tango)();
- 167:
+ 165:
                     entity = _closure3_slot0;
                     entity['inVoiceChannel'] = mike;
                     entity = undefined;

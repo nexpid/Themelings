@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = argBar;
                     verify = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 269; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 267; continue _fun00007 }
  19:
                     mike = global;
                     tango = mike.JSON;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = _closure1_slot12;
                     zulu = report.has;
                     zulu = zulu.bind(report)(tango);
-                    if(zulu) { _fun00008_ip = 252; continue _fun00007 }
+                    if(zulu) { _fun00008_ip = 250; continue _fun00007 }
  72:
                     oscar = _closure1_slot0;
                     report = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  175:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 249; continue _fun00007 }
+                    if(report) { _fun00008_ip = 247; continue _fun00007 }
  181:
                     report = zulu.body;
                     verify = report.users;
@@ -266,14 +266,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = golf.set;
                     oscar = oscar.bind(golf)(tango, report);
                     return report;
- 249:
+ 247:
                     return zulu;
- 252:
+ 250:
                     zulu = _closure1_slot12;
                     mike = zulu.get;
                     mike = mike.bind(zulu)(tango);
                     return mike;
- 269:
+ 267:
                     return entity;
                 }
             };

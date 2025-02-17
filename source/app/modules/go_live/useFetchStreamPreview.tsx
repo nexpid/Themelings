@@ -176,10 +176,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot5 = foxtrot;
             tango = mike.previewUrl;
             mike = mike.isLoading;
-            if(entity) { _fun00002_ip = 245; continue _fun00001 }
- 242:
+            if(entity) { _fun00002_ip = 237; continue _fun00001 }
+ 234:
             entity = options;
- 245:
+ 237:
             var _closure2_slot6 = entity;
             verify = _closure1_slot2;
             options = verify.useEffect;
@@ -222,21 +222,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             oscar = options.bind(verify)(oscar, golf);
-            if(report) { _fun00002_ip = 319; continue _fun00001 }
- 302:
-            if(!entity) { _fun00002_ip = 319; continue _fun00001 }
- 305:
+            if(report) { _fun00002_ip = 309; continue _fun00001 }
+ 292:
+            if(!entity) { _fun00002_ip = 309; continue _fun00001 }
+ 295:
             entity = {};
             entity['previewUrl'] = tango;
             entity['isLoading'] = mike;
-            _fun00002_ip = 336; continue _fun00001;
- 319:
+            _fun00002_ip = 326; continue _fun00001;
+ 309:
             mike = {};
             mike['previewUrl'] = zulu;
             zulu = false;
             mike['isLoading'] = zulu;
             entity = mike;
- 336:
+ 326:
             return entity;
         }
     };

@@ -120,13 +120,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         sizing = report.bind(entity)(kilo);
         kilo = sizing.isIOS;
         kilo = kilo.bind(sizing)();
-        if(kilo) { _fun00002_ip = 435; continue _fun00001 }
- 415:
+        if(kilo) { _fun00002_ip = 433; continue _fun00001 }
+ 414:
         kilo = oscar[offset];
         kilo = yankee.bind(entity)(kilo);
         kilo = kilo.spacing;
         backup = kilo.PX_16;
- 435:
+ 433:
         romeo['marginBottom'] = backup;
         tango['container'] = romeo;
         romeo = {'width': '100%', 'gap': null, 'alignItems': 'center'};
@@ -1125,7 +1125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 entity['style'] = golf;
                                 options = _closure2_slot5;
                                 golf = null;
-                                if(!(golf == options)) { _fun00022_ip = 132; continue _fun00021 }
+                                if(!(golf == options)) { _fun00022_ip = 134; continue _fun00021 }
  75:
                                 verify = _closure1_slot0;
                                 offset = _closure1_slot2;
@@ -1139,10 +1139,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 report = report.t;
                                 report = report.XAS5Pj;
                                 report = golf.bind(options)(report);
-                                _fun00022_ip = 136; continue _fun00021;
- 132:
+                                _fun00022_ip = 138; continue _fun00021;
+ 134:
                                 report = _closure2_slot5;
- 136:
+ 138:
                                 entity['children'] = report;
                                 entity = tango.bind(zulu)(mike, entity);
                                 return entity;

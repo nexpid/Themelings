@@ -42,26 +42,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(report)(zulu);
             mike = mike.length;
             report = 0;
-            if(!(!(mike > report))) { _fun00002_ip = 301; continue _fun00001 }
- 105:
+            if(!(!(mike > report))) { _fun00002_ip = 299; continue _fun00001 }
+ 103:
             oscar = zulu.hasFlag;
             mike = _closure1_slot10;
             mike = mike.IS_VOICE_MESSAGE;
             mike = oscar.bind(zulu)(mike);
-            if(mike) { _fun00002_ip = 237; continue _fun00001 }
- 129:
+            if(mike) { _fun00002_ip = 235; continue _fun00001 }
+ 127:
             mike = zulu.embeds;
             mike = mike.length;
             mike = mike > report;
-            if(mike) { _fun00002_ip = 162; continue _fun00001 }
- 147:
+            if(mike) { _fun00002_ip = 160; continue _fun00001 }
+ 145:
             zulu = zulu.attachments;
             zulu = zulu.length;
             mike = zulu > report;
- 162:
+ 160:
             oscar = undefined;
-            if(!mike) { _fun00002_ip = 363; continue _fun00001 }
- 170:
+            if(!mike) { _fun00002_ip = 361; continue _fun00001 }
+ 168:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             mike = 7;
@@ -76,8 +76,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(report)(mike);
             _closure2_slot1 = mike;
             oscar = mike;
-            _fun00002_ip = 363; continue _fun00001;
- 237:
+            _fun00002_ip = 361; continue _fun00001;
+ 235:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             mike = 7;
@@ -92,8 +92,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(report)(mike);
             _closure2_slot1 = mike;
             oscar = mike;
-            _fun00002_ip = 363; continue _fun00001;
- 301:
+            _fun00002_ip = 361; continue _fun00001;
+ 299:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             mike = 7;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(report)(mike);
             _closure2_slot1 = mike;
             oscar = mike;
- 363:
+ 361:
             report = _closure1_slot3;
             zulu = report.useMemo;
             mike = new Array(1);
@@ -304,21 +304,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = golf.bind(verify)(oscar, mike, zulu);
-            if(mike) { _fun00004_ip = 457; continue _fun00003 }
- 156:
+            if(mike) { _fun00004_ip = 453; continue _fun00003 }
+ 152:
             zulu = entity.state;
             mike = _closure1_slot5;
             mike = mike.LOADED;
-            if(!(mike !== zulu)) { _fun00004_ip = 398; continue _fun00003 }
- 178:
+            if(!(mike !== zulu)) { _fun00004_ip = 394; continue _fun00003 }
+ 174:
             mike = _closure1_slot5;
             mike = mike.NOT_LOADED;
-            if(!(mike !== zulu)) { _fun00004_ip = 320; continue _fun00003 }
- 195:
+            if(!(mike !== zulu)) { _fun00004_ip = 316; continue _fun00003 }
+ 191:
             mike = _closure1_slot5;
             mike = mike.DELETED;
-            if(!(mike !== zulu)) { _fun00004_ip = 242; continue _fun00003 }
- 209:
+            if(!(mike !== zulu)) { _fun00004_ip = 238; continue _fun00003 }
+ 205:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
             mike = 14;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.assertNever;
             mike = mike.bind(zulu)(entity);
             return tango;
- 242:
+ 238:
             oscar = _closure1_slot11;
             zulu = _closure1_slot14;
             mike = {};
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['replyHint'] = golf;
             mike = oscar.bind(tango)(zulu, mike);
             return mike;
- 320:
+ 316:
             oscar = _closure1_slot11;
             zulu = _closure1_slot14;
             mike = {};
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['replyHint'] = golf;
             mike = oscar.bind(tango)(zulu, mike);
             return mike;
- 398:
+ 394:
             golf = entity.message;
             zulu = _closure1_slot11;
             mike = _closure1_slot13;
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isMentioningReply'] = oscar;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 457:
+ 453:
             zulu = _closure1_slot11;
             mike = _closure1_slot14;
             entity = {};

@@ -229,22 +229,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             options = report == oscar;
             golf = 'No active database.';
-            if(options) { _fun00004_ip = 133; continue _fun00003 }
- 128:
+            if(options) { _fun00004_ip = 129; continue _fun00003 }
+ 124:
             golf = oscar.name;
- 133:
+ 129:
             entity['label'] = golf;
             golf = report != oscar;
             report = undefined;
-            if(!golf) { _fun00004_ip = 178; continue _fun00003 }
- 148:
+            if(!golf) { _fun00004_ip = 174; continue _fun00003 }
+ 144:
             options = oscar.handle;
             oscar = global;
             oscar = oscar.HermesInternal;
             golf = oscar.concat;
             oscar = 'Handle: ';
             report = golf.bind(oscar)(options);
- 178:
+ 174:
             entity['subLabel'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.REDUCED_MOTION;
-            if(!(mike !== zulu)) { _fun00002_ip = 97; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 99; continue _fun00001 }
  20:
             mike = _closure1_slot2;
             mike = mike.REDUCED_MOTION_STICKERS;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.2ExvRk;
             mike = zulu.bind(tango)(mike);
             return mike;
- 97:
+ 99:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 1;

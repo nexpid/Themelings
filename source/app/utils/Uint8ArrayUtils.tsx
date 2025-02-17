@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = typeof mike;
             entity = tango === zulu;
  23:
-            if(!entity) { _fun00008_ip = 44; continue _fun00007 }
+            if(!entity) { _fun00008_ip = 42; continue _fun00007 }
  26:
             zulu = mike.__tag__;
             mike = 'uint8array';
             entity = mike === zulu;
- 44:
+ 42:
             return entity;
         }
     };

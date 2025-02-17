@@ -138,10 +138,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee = yankee != oscar;
             foxtrot = '';
             romeo = foxtrot;
-            if(!yankee) { _fun00002_ip = 374; continue _fun00001 }
- 371:
+            if(!yankee) { _fun00002_ip = 370; continue _fun00001 }
+ 367:
             romeo = oscar;
- 374:
+ 370:
             oscar = global;
             oscar = oscar.HermesInternal;
             yankee = oscar.concat;

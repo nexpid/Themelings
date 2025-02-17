@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(tango)();
             zulu = _closure1_slot5;
             zulu = zulu.PUSH_TO_TALK;
-            if(!(tango === zulu)) { _fun00002_ip = 355; continue _fun00001 }
+            if(!(tango === zulu)) { _fun00002_ip = 357; continue _fun00001 }
  36:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.DismissibleContent;
             zulu = zulu.CONSOLE_PTT_DISABLE_ALERT;
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun00002_ip = 355; continue _fun00001 }
+            if(zulu) { _fun00002_ip = 357; continue _fun00001 }
  99:
             zulu = {};
             tango = _closure1_slot6;
@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[mike];
             var _closure2_slot0 = zulu;
             mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 335; continue _fun00001 }
- 298:
+            if(!(mike != zulu)) { _fun00002_ip = 337; continue _fun00001 }
+ 300:
             mike = global;
             zulu = mike.Promise;
             mike = zulu.prototype;
@@ -165,15 +165,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike;
             entity = new foxtrot[zulu](romeo, yankee);
             entity = entity instanceof Object ? entity : mike;
-            _fun00002_ip = 353; continue _fun00001;
- 335:
+            _fun00002_ip = 355; continue _fun00001;
+ 337:
             mike = global;
             zulu = mike.Promise;
             mike = zulu.resolve;
             entity = mike.bind(zulu)();
- 353:
-            return entity;
  355:
+            return entity;
+ 357:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;

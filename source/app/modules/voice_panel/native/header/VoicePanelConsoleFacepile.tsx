@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.type;
             entity = _closure1_slot4;
             entity = entity.XBOX;
-            if(!(entity !== tango)) { _fun00002_ip = 218; continue _fun00001 }
+            if(!(entity !== tango)) { _fun00002_ip = 222; continue _fun00001 }
  28:
             entity = _closure1_slot4;
             entity = entity.PLAYSTATION;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(oscar)(tango);
             entity['connectSublabel'] = tango;
             return entity;
- 218:
+ 222:
             entity = {};
             tango = _closure1_slot1;
             golf = _closure1_slot2;

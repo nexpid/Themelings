@@ -157,15 +157,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = yankee;
             zulu = _closure1_slot7;
             zulu = zulu.EQUAL;
-            if(!(zulu !== golf)) { _fun00004_ip = 316; continue _fun00003 }
+            if(!(zulu !== golf)) { _fun00004_ip = 322; continue _fun00003 }
  89:
             zulu = _closure1_slot7;
             zulu = zulu.NOT_EQUAL;
-            if(!(zulu !== golf)) { _fun00004_ip = 283; continue _fun00003 }
+            if(!(zulu !== golf)) { _fun00004_ip = 287; continue _fun00003 }
  106:
             zulu = _closure1_slot7;
             zulu = zulu.LESS_THAN;
-            if(!(zulu !== golf)) { _fun00004_ip = 217; continue _fun00003 }
+            if(!(zulu !== golf)) { _fun00004_ip = 219; continue _fun00003 }
  120:
             zulu = _closure1_slot7;
             zulu = zulu.GREATER_THAN;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             if(!(tango !== golf)) { _fun00004_ip = 147; continue _fun00003 }
  138:
             report = null;
-            if(!(report === golf)) { _fun00004_ip = 412; continue _fun00003 }
+            if(!(report === golf)) { _fun00004_ip = 422; continue _fun00003 }
  147:
             zulu = null;
             return zulu;
@@ -193,8 +193,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 0;
             romeo = backup.bind(kilo)(romeo, foxtrot);
             _closure2_slot0 = romeo;
-            _fun00004_ip = 412; continue _fun00003;
- 217:
+            _fun00004_ip = 422; continue _fun00003;
+ 219:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
             zulu = 7;
@@ -209,8 +209,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = 0;
             offset = romeo.bind(foxtrot)(offset, yankee);
             _closure2_slot0 = offset;
-            _fun00004_ip = 412; continue _fun00003;
- 283:
+            _fun00004_ip = 422; continue _fun00003;
+ 287:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
             zulu = 7;
@@ -218,8 +218,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = offset.bind(tango)(zulu);
             zulu = zulu.t;
             report = zulu.D9B/q6;
-            _fun00004_ip = 412; continue _fun00003;
- 316:
+            _fun00004_ip = 422; continue _fun00003;
+ 322:
             offset = _closure1_slot0;
             zulu = _closure1_slot2;
             yankee = 7;
@@ -230,79 +230,79 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot9;
             zulu = zulu.PAYPAL;
             zulu = verify === zulu;
-            if(!zulu) { _fun00004_ip = 378; continue _fun00003 }
- 364:
+            if(!zulu) { _fun00004_ip = 386; continue _fun00003 }
+ 372:
             romeo = _closure1_slot6;
             romeo = romeo.PAYPAL_VERIFIED;
             zulu = options === romeo;
- 378:
+ 386:
             report = offset;
-            if(!zulu) { _fun00004_ip = 412; continue _fun00003 }
- 384:
+            if(!zulu) { _fun00004_ip = 422; continue _fun00003 }
+ 392:
             offset = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[yankee];
             zulu = offset.bind(tango)(zulu);
             zulu = zulu.t;
             report = zulu.N95b+f;
- 412:
+ 422:
             zulu = null;
-            if(!(zulu != entity)) { _fun00004_ip = 421; continue _fun00003 }
- 418:
+            if(!(zulu != entity)) { _fun00004_ip = 431; continue _fun00003 }
+ 428:
             report = entity;
- 421:
+ 431:
             entity = _closure1_slot3;
             offset = report instanceof entity;
             entity = report;
-            if(!offset) { _fun00004_ip = 2124; continue _fun00003 }
- 438:
-            entity = report;
-            if(!(zulu != golf)) { _fun00004_ip = 2124; continue _fun00003 }
+            if(!offset) { _fun00004_ip = 2134; continue _fun00003 }
  448:
+            entity = report;
+            if(!(zulu != golf)) { _fun00004_ip = 2134; continue _fun00003 }
+ 458:
             golf = _closure1_slot9;
             golf = golf.REDDIT;
-            if(!(golf !== verify)) { _fun00004_ip = 1859; continue _fun00003 }
- 465:
+            if(!(golf !== verify)) { _fun00004_ip = 1869; continue _fun00003 }
+ 475:
             golf = _closure1_slot9;
             golf = golf.STEAM;
-            if(!(golf !== verify)) { _fun00004_ip = 1583; continue _fun00003 }
- 482:
+            if(!(golf !== verify)) { _fun00004_ip = 1593; continue _fun00003 }
+ 492:
             golf = _closure1_slot9;
             golf = golf.TWITTER;
-            if(!(golf !== verify)) { _fun00004_ip = 1307; continue _fun00003 }
- 499:
+            if(!(golf !== verify)) { _fun00004_ip = 1317; continue _fun00003 }
+ 509:
             golf = _closure1_slot9;
             golf = golf.PAYPAL;
-            if(!(golf !== verify)) { _fun00004_ip = 1171; continue _fun00003 }
- 516:
+            if(!(golf !== verify)) { _fun00004_ip = 1181; continue _fun00003 }
+ 526:
             golf = _closure1_slot9;
             golf = golf.EBAY;
-            if(!(golf !== verify)) { _fun00004_ip = 825; continue _fun00003 }
- 533:
+            if(!(golf !== verify)) { _fun00004_ip = 835; continue _fun00003 }
+ 543:
             golf = _closure1_slot9;
             golf = golf.TIKTOK;
-            if(!(golf !== verify)) { _fun00004_ip = 549; continue _fun00003 }
- 547:
+            if(!(golf !== verify)) { _fun00004_ip = 559; continue _fun00003 }
+ 557:
             return zulu;
- 549:
+ 559:
             golf = _closure1_slot6;
             golf = golf.TIKTOK_VERIFIED;
-            if(!(golf !== options)) { _fun00004_ip = 772; continue _fun00003 }
- 566:
+            if(!(golf !== options)) { _fun00004_ip = 782; continue _fun00003 }
+ 576:
             golf = _closure1_slot6;
             golf = golf.TIKTOK_FOLLOWER_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 719; continue _fun00003 }
- 583:
+            if(!(golf !== options)) { _fun00004_ip = 729; continue _fun00003 }
+ 593:
             golf = _closure1_slot6;
             golf = golf.TIKTOK_FOLLOWING_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 666; continue _fun00003 }
- 597:
+            if(!(golf !== options)) { _fun00004_ip = 676; continue _fun00003 }
+ 607:
             golf = _closure1_slot6;
             golf = golf.TIKTOK_LIKES_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 613; continue _fun00003 }
- 611:
+            if(!(golf !== options)) { _fun00004_ip = 623; continue _fun00003 }
+ 621:
             return zulu;
- 613:
+ 623:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -332,8 +332,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 666:
+            _fun00004_ip = 2134; continue _fun00003;
+ 676:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -363,8 +363,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 719:
+            _fun00004_ip = 2134; continue _fun00003;
+ 729:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -394,8 +394,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 772:
+            _fun00004_ip = 2134; continue _fun00003;
+ 782:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -422,30 +422,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 825:
+            _fun00004_ip = 2134; continue _fun00003;
+ 835:
             golf = _closure1_slot6;
             golf = golf.CREATED_AT;
-            if(!(golf !== options)) { _fun00004_ip = 1118; continue _fun00003 }
- 842:
+            if(!(golf !== options)) { _fun00004_ip = 1128; continue _fun00003 }
+ 852:
             golf = _closure1_slot6;
             golf = golf.EBAY_TOP_RATED_SELLER;
-            if(!(golf !== options)) { _fun00004_ip = 1065; continue _fun00003 }
- 859:
+            if(!(golf !== options)) { _fun00004_ip = 1075; continue _fun00003 }
+ 869:
             golf = _closure1_slot6;
             golf = golf.EBAY_POSITIVE_FEEDBACK_PERCENTAGE;
-            if(!(golf !== options)) { _fun00004_ip = 1012; continue _fun00003 }
- 876:
+            if(!(golf !== options)) { _fun00004_ip = 1022; continue _fun00003 }
+ 886:
             golf = _closure1_slot6;
             golf = golf.EBAY_UNIQUE_POSITIVE_FEEDBACK_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 959; continue _fun00003 }
- 890:
+            if(!(golf !== options)) { _fun00004_ip = 969; continue _fun00003 }
+ 900:
             golf = _closure1_slot6;
             golf = golf.EBAY_UNIQUE_NEGATIVE_FEEDBACK_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 906; continue _fun00003 }
- 904:
+            if(!(golf !== options)) { _fun00004_ip = 916; continue _fun00003 }
+ 914:
             return zulu;
- 906:
+ 916:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -475,8 +475,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 959:
+            _fun00004_ip = 2134; continue _fun00003;
+ 969:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -506,8 +506,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1012:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1022:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -537,8 +537,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1065:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1075:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -565,8 +565,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1118:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1128:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -596,18 +596,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1171:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1181:
             golf = _closure1_slot6;
             golf = golf.CREATED_AT;
-            if(!(golf !== options)) { _fun00004_ip = 1254; continue _fun00003 }
- 1185:
+            if(!(golf !== options)) { _fun00004_ip = 1264; continue _fun00003 }
+ 1195:
             golf = _closure1_slot6;
             golf = golf.PAYPAL_VERIFIED;
-            if(!(golf !== options)) { _fun00004_ip = 1201; continue _fun00003 }
- 1199:
+            if(!(golf !== options)) { _fun00004_ip = 1211; continue _fun00003 }
+ 1209:
             return zulu;
- 1201:
+ 1211:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -634,8 +634,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1254:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1264:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -665,26 +665,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1307:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1317:
             golf = _closure1_slot6;
             golf = golf.CREATED_AT;
-            if(!(golf !== options)) { _fun00004_ip = 1530; continue _fun00003 }
- 1324:
+            if(!(golf !== options)) { _fun00004_ip = 1540; continue _fun00003 }
+ 1334:
             golf = _closure1_slot6;
             golf = golf.TWITTER_VERIFIED;
-            if(!(golf !== options)) { _fun00004_ip = 1477; continue _fun00003 }
- 1341:
+            if(!(golf !== options)) { _fun00004_ip = 1487; continue _fun00003 }
+ 1351:
             golf = _closure1_slot6;
             golf = golf.TWITTER_FOLLOWERS_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 1424; continue _fun00003 }
- 1355:
+            if(!(golf !== options)) { _fun00004_ip = 1434; continue _fun00003 }
+ 1365:
             golf = _closure1_slot6;
             golf = golf.TWITTER_STATUSES_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 1371; continue _fun00003 }
- 1369:
+            if(!(golf !== options)) { _fun00004_ip = 1381; continue _fun00003 }
+ 1379:
             return zulu;
- 1371:
+ 1381:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -714,8 +714,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1424:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1434:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -745,8 +745,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1477:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1487:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -773,8 +773,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1530:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1540:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -804,26 +804,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1583:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1593:
             golf = _closure1_slot6;
             golf = golf.CREATED_AT;
-            if(!(golf !== options)) { _fun00004_ip = 1806; continue _fun00003 }
- 1600:
+            if(!(golf !== options)) { _fun00004_ip = 1816; continue _fun00003 }
+ 1610:
             golf = _closure1_slot6;
             golf = golf.STEAM_GAME_COUNT;
-            if(!(golf !== options)) { _fun00004_ip = 1753; continue _fun00003 }
- 1617:
+            if(!(golf !== options)) { _fun00004_ip = 1763; continue _fun00003 }
+ 1627:
             golf = _closure1_slot6;
             golf = golf.STEAM_ITEM_COUNT_TF2;
-            if(!(golf !== options)) { _fun00004_ip = 1700; continue _fun00003 }
- 1631:
+            if(!(golf !== options)) { _fun00004_ip = 1710; continue _fun00003 }
+ 1641:
             golf = _closure1_slot6;
             golf = golf.STEAM_ITEM_COUNT_DOTA2;
-            if(!(golf !== options)) { _fun00004_ip = 1647; continue _fun00003 }
- 1645:
+            if(!(golf !== options)) { _fun00004_ip = 1657; continue _fun00003 }
+ 1655:
             return zulu;
- 1647:
+ 1657:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -853,8 +853,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1700:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1710:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -884,8 +884,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1753:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1763:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -915,8 +915,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1806:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1816:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             golf = 7;
@@ -946,26 +946,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf['platformQuantityHook'] = yankee;
             entity = verify.bind(offset)(report, golf);
-            _fun00004_ip = 2124; continue _fun00003;
- 1859:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1869:
             golf = _closure1_slot6;
             golf = golf.CREATED_AT;
-            if(!(golf !== options)) { _fun00004_ip = 2076; continue _fun00003 }
- 1876:
+            if(!(golf !== options)) { _fun00004_ip = 2086; continue _fun00003 }
+ 1886:
             golf = _closure1_slot6;
             golf = golf.REDDIT_TOTAL_KARMA;
-            if(!(golf !== options)) { _fun00004_ip = 2026; continue _fun00003 }
- 1893:
+            if(!(golf !== options)) { _fun00004_ip = 2036; continue _fun00003 }
+ 1903:
             golf = _closure1_slot6;
             golf = golf.REDDIT_GOLD;
-            if(!(golf !== options)) { _fun00004_ip = 1976; continue _fun00003 }
- 1907:
+            if(!(golf !== options)) { _fun00004_ip = 1986; continue _fun00003 }
+ 1917:
             golf = _closure1_slot6;
             golf = golf.REDDIT_MOD;
-            if(!(golf !== options)) { _fun00004_ip = 1923; continue _fun00003 }
- 1921:
+            if(!(golf !== options)) { _fun00004_ip = 1933; continue _fun00003 }
+ 1931:
             return zulu;
- 1923:
+ 1933:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             zulu = 7;
@@ -992,8 +992,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['platformQuantityHook'] = verify;
             entity = golf.bind(options)(report, zulu);
-            _fun00004_ip = 2124; continue _fun00003;
- 1976:
+            _fun00004_ip = 2134; continue _fun00003;
+ 1986:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             zulu = 7;
@@ -1020,8 +1020,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['platformQuantityHook'] = verify;
             entity = golf.bind(options)(report, zulu);
-            _fun00004_ip = 2124; continue _fun00003;
- 2026:
+            _fun00004_ip = 2134; continue _fun00003;
+ 2036:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             zulu = 7;
@@ -1051,8 +1051,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['platformQuantityHook'] = verify;
             entity = golf.bind(options)(report, zulu);
-            _fun00004_ip = 2124; continue _fun00003;
- 2076:
+            _fun00004_ip = 2134; continue _fun00003;
+ 2086:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
             mike = 7;
@@ -1082,7 +1082,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike['platformQuantityHook'] = oscar;
             entity = zulu.bind(tango)(report, mike);
- 2124:
+ 2134:
             return entity;
         }
     };

@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     oscar = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 292; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 293; continue _fun00001 }
  15:
                     var _closure4_slot0 = oscar;
                     zulu = undefined;
@@ -96,19 +96,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = tango.bind(golf)(mike);
-                    SaveGenerator(address=269);
- 267:
+                    SaveGenerator(address=270);
+ 268:
                     return mike;
- 269:
+ 270:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 289; continue _fun00001 }
- 275:
+                    if(tango) { _fun00002_ip = 290; continue _fun00001 }
+ 276:
                     tango = report.setLoadingSucceeded;
                     tango = tango.bind(report)(oscar);
                     return zulu;
- 289:
+ 290:
                     return mike;
- 292:
+ 293:
                     return entity;
                 }
             };
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     report = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 204; continue _fun00005 }
+                    if(mike) { _fun00006_ip = 205; continue _fun00005 }
  13:
                     oscar = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun00006_ip = 201; continue _fun00005 }
+                    if(oscar) { _fun00006_ip = 202; continue _fun00005 }
  71:
                     oscar = new Array(0);
                     golf = 'nb';
@@ -242,9 +242,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.locale;
                     tango = tango.bind(report)(oscar);
                     return zulu;
- 201:
+ 202:
                     return mike;
- 204:
+ 205:
                     return entity;
                 }
             };

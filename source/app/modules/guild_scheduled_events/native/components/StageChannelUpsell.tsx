@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = zulu[entity];
             var _closure2_slot2 = yankee;
             entity = null;
-            if(mike) { _fun00002_ip = 723; continue _fun00001 }
+            if(mike) { _fun00002_ip = 727; continue _fun00001 }
  83:
             tango = _closure1_slot11;
             zulu = _closure1_slot5;
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[5] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 723:
+ 727:
             return entity;
         }
     };

@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = entity.bind(tango)();
             entity = _closure1_slot4;
             entity = entity.STREAM;
-            if(!(mike !== entity)) { _fun00002_ip = 132; continue _fun00001 }
+            if(!(mike !== entity)) { _fun00002_ip = 134; continue _fun00001 }
  75:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -100,8 +100,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.xzxhZW;
             yankee = zulu.bind(verify)(entity);
-            _fun00002_ip = 187; continue _fun00001;
- 132:
+            _fun00002_ip = 191; continue _fun00001;
+ 134:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
             entity = 5;
@@ -114,11 +114,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity./lFMWl;
             yankee = zulu.bind(verify)(entity);
- 187:
+ 191:
             entity = _closure1_slot4;
             entity = entity.STREAM;
-            if(!(mike !== entity)) { _fun00002_ip = 258; continue _fun00001 }
- 201:
+            if(!(mike !== entity)) { _fun00002_ip = 264; continue _fun00001 }
+ 205:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 5;
@@ -131,8 +131,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.oU1p9P;
             output = mike.bind(zulu)(entity);
-            _fun00002_ip = 313; continue _fun00001;
- 258:
+            _fun00002_ip = 321; continue _fun00001;
+ 264:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 5;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.xaOX7e;
             output = mike.bind(zulu)(entity);
- 313:
+ 321:
             zulu = _closure1_slot5;
             mike = _closure1_slot1;
             verify = _closure1_slot2;
@@ -176,10 +176,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[verify] = offset;
             verify = golf == report;
             golf = undefined;
-            if(verify) { _fun00002_ip = 448; continue _fun00001 }
- 442:
+            if(verify) { _fun00002_ip = 456; continue _fun00001 }
+ 450:
             golf = report.onClose;
- 448:
+ 456:
             report = 'onCancel';
             entity[report] = golf;
             kilo = _closure1_slot0;

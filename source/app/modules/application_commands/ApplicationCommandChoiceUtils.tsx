@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango == oscar;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun00002_ip = 56; continue _fun00001 }
+            if(report) { _fun00002_ip = 54; continue _fun00001 }
  25:
             report = oscar.find;
             zulu = function(argFoo) {
@@ -26,16 +26,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             tango = tango == zulu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 56; continue _fun00001 }
- 51:
+            if(tango) { _fun00002_ip = 54; continue _fun00001 }
+ 49:
             entity = zulu.value;
- 56:
+ 54:
             tango = 'string';
             zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun00002_ip = 69; continue _fun00001 }
- 67:
+            if(!(tango !== zulu)) { _fun00002_ip = 67; continue _fun00001 }
+ 65:
             return mike;
- 69:
+ 67:
             return entity;
         }
     };
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango == oscar;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun00004_ip = 56; continue _fun00003 }
+            if(report) { _fun00004_ip = 54; continue _fun00003 }
  25:
             report = oscar.find;
             zulu = function(argFoo) {
@@ -63,16 +63,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             tango = tango == zulu;
             entity = undefined;
-            if(tango) { _fun00004_ip = 56; continue _fun00003 }
- 51:
+            if(tango) { _fun00004_ip = 54; continue _fun00003 }
+ 49:
             entity = zulu.value;
- 56:
+ 54:
             tango = 'number';
             zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun00004_ip = 69; continue _fun00003 }
- 67:
+            if(!(tango !== zulu)) { _fun00004_ip = 67; continue _fun00003 }
+ 65:
             return mike;
- 69:
+ 67:
             return entity;
         }
     };

@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = this;
             var _closure2_slot0 = mike;
             options = null;
-            if(!(options != verify)) { _fun00002_ip = 175; continue _fun00001 }
+            if(!(options != verify)) { _fun00002_ip = 173; continue _fun00001 }
  30:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onChannelCreated'] = entity;
             entity = 'CREATE_CHANNEL_MODAL_KEY';
             entity = tango.bind(report)(zulu, mike, entity);
- 175:
+ 173:
             entity = undefined;
             return entity;
         }

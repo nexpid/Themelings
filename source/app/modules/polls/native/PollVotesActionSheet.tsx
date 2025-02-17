@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = tango.bind(oscar)(mike, zulu);
             mike = yankee.poll;
             mike = entity == mike;
-            if(mike) { _fun00004_ip = 558; continue _fun00003 }
+            if(mike) { _fun00004_ip = 556; continue _fun00003 }
  187:
             tango = _closure1_slot14;
             zulu = _closure1_slot7;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 558:
+ 556:
             return entity;
         }
     };
@@ -1083,10 +1083,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             options = new Array(2);
             options[0] = romeo;
             romeo = undefined;
-            if(!yankee) { _fun00018_ip = 290; continue _fun00017 }
- 284:
+            if(!yankee) { _fun00018_ip = 292; continue _fun00017 }
+ 286:
             romeo = backup.answerSelected;
- 290:
+ 292:
             options[1] = romeo;
             entity['style'] = options;
             options = 'tab';
@@ -1099,8 +1099,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = report.emoji;
             report = golf != report;
             options = null;
-            if(!report) { _fun00018_ip = 386; continue _fun00017 }
- 343:
+            if(!report) { _fun00018_ip = 388; continue _fun00017 }
+ 345:
             romeo = _closure1_slot13;
             yankee = _closure1_slot19;
             report = {};
@@ -1110,15 +1110,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             kilo = kilo.emoji;
             report['emoji'] = kilo;
             options = romeo.bind(tango)(yankee, report);
- 386:
+ 388:
             report = new Array(3);
             report[0] = options;
             options = foxtrot.poll_media;
             options = options.text;
             options = golf != options;
             golf = null;
-            if(!options) { _fun00018_ip = 496; continue _fun00017 }
- 414:
+            if(!options) { _fun00018_ip = 498; continue _fun00017 }
+ 416:
             romeo = _closure1_slot13;
             yankee = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -1138,7 +1138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             foxtrot = foxtrot.text;
             options['children'] = foxtrot;
             golf = romeo.bind(tango)(yankee, options);
- 496:
+ 498:
             report[1] = golf;
             options = _closure1_slot14;
             golf = _closure1_slot0;
@@ -1412,16 +1412,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sizing = output.bind(tango)(sizing, options);
             options = new Array(2);
             options[0] = sizing;
-            if(!(romeo != foxtrot)) { _fun00020_ip = 670; continue _fun00019 }
- 666:
-            if(!(!(verify > yankee))) { _fun00020_ip = 688; continue _fun00019 }
- 670:
+            if(!(romeo != foxtrot)) { _fun00020_ip = 672; continue _fun00019 }
+ 668:
+            if(!(!(verify > yankee))) { _fun00020_ip = 690; continue _fun00019 }
+ 672:
             romeo = _closure1_slot13;
             yankee = _closure1_slot22;
             verify = {};
             verify = romeo.bind(tango)(yankee, verify);
-            _fun00020_ip = 717; continue _fun00019;
- 688:
+            _fun00020_ip = 719; continue _fun00019;
+ 690:
             romeo = _closure1_slot13;
             yankee = _closure1_slot21;
             offset = {};
@@ -1429,7 +1429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             offset['messageId'] = backup;
             offset['reaction'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 717:
+ 719:
             options[1] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

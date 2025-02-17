@@ -49,8 +49,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = new Array(0);
                 kilo = tango.bind(options)(zulu, entity);
                 entity = null;
-                if(!(entity != foxtrot)) { _fun00004_ip = 284; continue _fun00003 }
- 113:
+                if(!(entity != foxtrot)) { _fun00004_ip = 282; continue _fun00003 }
+ 111:
                 tango = _closure1_slot13;
                 zulu = _closure1_slot12;
                 entity = {};
@@ -68,10 +68,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = sizing.isAndroid;
                 sizing = backup.bind(sizing)();
                 backup = undefined;
-                if(!sizing) { _fun00004_ip = 184; continue _fun00003 }
- 181:
+                if(!sizing) { _fun00004_ip = 182; continue _fun00003 }
+ 179:
                 backup = kilo;
- 184:
+ 182:
                 options['onLayout'] = backup;
                 options['onPress'] = foxtrot;
                 options['androidRippleConfig'] = yankee;
@@ -94,8 +94,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options[1] = verify;
                 entity['children'] = options;
                 entity = tango.bind(report)(zulu, entity);
-                _fun00004_ip = 322; continue _fun00003;
- 284:
+                _fun00004_ip = 320; continue _fun00003;
+ 282:
                 tango = _closure1_slot11;
                 zulu = _closure1_slot6;
                 mike = {};
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['accessibilityRole'] = golf;
                 mike['children'] = oscar;
                 entity = tango.bind(report)(zulu, mike);
- 322:
+ 320:
                 return entity;
             }
         };
@@ -477,10 +477,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         kilo = oscar.bind(entity)(backup);
         backup = kilo.isIOS;
         backup = backup.bind(kilo)();
-        if(!backup) { _fun00002_ip = 617; continue _fun00001 }
- 611:
+        if(!backup) { _fun00002_ip = 601; continue _fun00001 }
+ 595:
         foxtrot = 'baseline';
- 617:
+ 601:
         offset['alignItems'] = foxtrot;
         report['subTitleContainer'] = offset;
         offset = {'lineHeight': 16, 'flexShrink': 1};
@@ -766,8 +766,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['source'] = offset;
                 entity['onPress'] = report;
                 report = 0;
-                if(!(!(golf > report))) { _fun00018_ip = 262; continue _fun00017 }
- 205:
+                if(!(!(golf > report))) { _fun00018_ip = 258; continue _fun00017 }
+ 201:
                 foxtrot = _closure1_slot0;
                 backup = _closure1_slot2;
                 offset = 19;
@@ -780,8 +780,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = offset.t;
                 offset = offset.tlopTE;
                 offset = yankee.bind(romeo)(offset);
-                _fun00018_ip = 325; continue _fun00017;
- 262:
+                _fun00018_ip = 321; continue _fun00017;
+ 258:
                 romeo = _closure1_slot0;
                 kilo = _closure1_slot2;
                 yankee = 19;
@@ -796,16 +796,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {};
                 yankee['number'] = golf;
                 offset = foxtrot.bind(backup)(romeo, yankee);
- 325:
+ 321:
                 entity['accessibilityLabel'] = offset;
                 entity['badge'] = verify;
                 offset = golf > report;
                 verify = undefined;
-                if(!offset) { _fun00018_ip = 352; continue _fun00017 }
- 343:
+                if(!offset) { _fun00018_ip = 348; continue _fun00017 }
+ 339:
                 offset = golf.toString;
                 verify = offset.bind(golf)();
- 352:
+ 348:
                 entity['buttonText'] = verify;
                 verify = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -817,10 +817,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['hitSlop'] = options;
                 golf = golf > report;
                 report = null;
-                if(!golf) { _fun00018_ip = 408; continue _fun00017 }
- 402:
+                if(!golf) { _fun00018_ip = 404; continue _fun00017 }
+ 398:
                 report = oscar.eventsActionButtonWithText;
- 408:
+ 404:
                 entity['style'] = report;
                 entity = zulu.bind(tango)(mike, entity);
                 return entity;

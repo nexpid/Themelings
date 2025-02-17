@@ -166,10 +166,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot = foxtrot.bind(output)(mike, offset);
             mike = 0;
-            if(!golf) { _fun00002_ip = 254; continue _fun00001 }
- 251:
+            if(!golf) { _fun00002_ip = 250; continue _fun00001 }
+ 247:
             mike = report;
- 254:
+ 250:
             result = zulu + mike;
             _closure2_slot6 = result;
             control = _closure1_slot0;
@@ -236,10 +236,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = update;
             yankee = null;
-            if(!(result > echo)) { _fun00002_ip = 468; continue _fun00001 }
- 465:
+            if(!(result > echo)) { _fun00002_ip = 460; continue _fun00001 }
+ 457:
             yankee = output;
- 468:
+ 460:
             offset[1] = yankee;
             report['style'] = offset;
             yankee = _closure1_slot6;

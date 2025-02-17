@@ -88,11 +88,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot6;
             romeo = report.bind(oscar)();
             var _closure2_slot0 = romeo;
-            if(!(entity != zulu)) { _fun00002_ip = 330; continue _fun00001 }
+            if(!(entity != zulu)) { _fun00002_ip = 326; continue _fun00001 }
  63:
             report = zulu.type;
             zulu = 'breadcrumbs';
-            if(!(zulu === report)) { _fun00002_ip = 330; continue _fun00001 }
+            if(!(zulu === report)) { _fun00002_ip = 326; continue _fun00001 }
  79:
             report = _closure1_slot1;
             verify = _closure1_slot2;
@@ -169,8 +169,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot1 = offset;
             zulu = offset.length;
             mike = null;
-            if(!(tango !== zulu)) { _fun00002_ip = 328; continue _fun00001 }
- 159:
+            if(!(tango !== zulu)) { _fun00002_ip = 324; continue _fun00001 }
+ 155:
             report = _closure1_slot5;
             tango = _closure1_slot3;
             zulu = {};
@@ -266,9 +266,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             zulu['children'] = golf;
             mike = report.bind(oscar)(tango, zulu);
- 328:
+ 324:
             return mike;
- 330:
+ 326:
             return entity;
         }
     };

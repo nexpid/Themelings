@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = _closure1_slot9;
                     mike = _closure1_slot8;
                     mike = mike.NotResolved;
-                    if(!(zulu === mike)) { _fun00006_ip = 86; continue _fun00005 }
+                    if(!(zulu === mike)) { _fun00006_ip = 84; continue _fun00005 }
  21:
                     mike = _closure1_slot8;
                     mike = mike.Resolving;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     entity = mike.bind(zulu)(entity);
- 86:
+ 84:
                     entity = undefined;
                     return entity;
                 }
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     var _closure4_slot0 = options;
                     mike = _closure1_slot11;
                     mike = options in mike;
-                    if(mike) { _fun00008_ip = 238; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 236; continue _fun00007 }
  26:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf['state'] = verify;
                     tango[options] = golf;
                     _closure1_slot11 = tango;
-                    _fun00008_ip = 238; continue _fun00007;
+                    _fun00008_ip = 236; continue _fun00007;
  112:
                     tango = {};
                     yankee = _closure1_slot11;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     entity = mike.bind(zulu)(entity);
- 238:
+ 236:
                     entity = undefined;
                     return entity;
                 }

@@ -646,10 +646,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['items'] = backup;
             entity['pageWidth'] = foxtrot;
             offset = offset.STANDING;
-            if(!(romeo === offset)) { _fun00008_ip = 389; continue _fun00007 }
- 386:
+            if(!(romeo === offset)) { _fun00008_ip = 391; continue _fun00007 }
+ 388:
             oscar = golf;
- 389:
+ 391:
             entity['defaultIndex'] = oscar;
             report = function(argFoo) { // Original name: onSetActiveIndex
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {

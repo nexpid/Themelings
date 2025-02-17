@@ -221,18 +221,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = sierra.bind(lima)(papa);
             zulu['faqUrl'] = papa;
             zulu = sequence.bind(config)(vacuum, zulu);
-            if(!oscar) { _fun00002_ip = 597; continue _fun00001 }
- 591:
-            if(control) { _fun00002_ip = 719; continue _fun00001 }
- 597:
+            if(!oscar) { _fun00002_ip = 599; continue _fun00001 }
+ 593:
+            if(control) { _fun00002_ip = 723; continue _fun00001 }
+ 599:
             control = oscar;
-            if(!oscar) { _fun00002_ip = 607; continue _fun00001 }
- 603:
+            if(!oscar) { _fun00002_ip = 609; continue _fun00001 }
+ 605:
             control = options != target;
- 607:
+ 609:
             options = undefined;
-            if(!control) { _fun00002_ip = 868; continue _fun00001 }
- 615:
+            if(!control) { _fun00002_ip = 876; continue _fun00001 }
+ 617:
             vacuum = _closure1_slot0;
             papa = _closure1_slot2;
             control = papa[context];
@@ -254,10 +254,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = target.bind(status)(papa);
             control['creatorRevenuePolicyUrl'] = papa;
             options = sequence.bind(config)(vacuum, control);
-            _fun00002_ip = 868; continue _fun00001;
- 719:
-            if(!(tango !== golf)) { _fun00002_ip = 795; continue _fun00001 }
+            _fun00002_ip = 876; continue _fun00001;
  723:
+            if(!(tango !== golf)) { _fun00002_ip = 801; continue _fun00001 }
+ 727:
             control = _closure1_slot0;
             tango = _closure1_slot2;
             vacuum = tango[context];
@@ -273,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = config.GUIDELINES;
             tango['communityGuidelineUrl'] = config;
             tango = vacuum.bind(sequence)(control, tango);
-            _fun00002_ip = 865; continue _fun00001;
- 795:
+            _fun00002_ip = 873; continue _fun00001;
+ 801:
             vacuum = _closure1_slot0;
             control = _closure1_slot2;
             sequence = control[context];
@@ -290,26 +290,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = papa.GUIDELINES;
             control['communityGuidelineUrl'] = papa;
             tango = sequence.bind(config)(vacuum, control);
- 865:
+ 873:
             options = tango;
- 868:
+ 876:
             vacuum = mike;
-            if(!mike) { _fun00002_ip = 877; continue _fun00001 }
- 874:
+            if(!mike) { _fun00002_ip = 885; continue _fun00001 }
+ 882:
             vacuum = output;
- 877:
-            if(!vacuum) { _fun00002_ip = 886; continue _fun00001 }
- 880:
+ 885:
+            if(!vacuum) { _fun00002_ip = 894; continue _fun00001 }
+ 888:
             tango = false;
             vacuum = tango === source;
- 886:
+ 894:
             var _closure2_slot2 = vacuum;
             tango = mike;
-            if(!tango) { _fun00002_ip = 902; continue _fun00001 }
- 896:
+            if(!tango) { _fun00002_ip = 910; continue _fun00001 }
+ 904:
             mike = false;
             tango = mike === golf;
- 902:
+ 910:
             golf = _closure1_slot0;
             source = _closure1_slot2;
             mike = 11;
@@ -318,14 +318,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.getCreatorMonetizationAcceptTermsCheckboxText;
             mike = mike.bind(golf)();
             golf = undefined;
-            if(!oscar) { _fun00002_ip = 1002; continue _fun00001 }
- 937:
+            if(!oscar) { _fun00002_ip = 1012; continue _fun00001 }
+ 945:
             golf = undefined;
-            if(!offset) { _fun00002_ip = 1002; continue _fun00001 }
- 942:
+            if(!offset) { _fun00002_ip = 1012; continue _fun00001 }
+ 950:
             golf = undefined;
-            if(!output) { _fun00002_ip = 1002; continue _fun00001 }
- 947:
+            if(!output) { _fun00002_ip = 1012; continue _fun00001 }
+ 955:
             control = _closure1_slot0;
             source = _closure1_slot2;
             sequence = source[context];
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = source.wbVIUF;
             source = {};
             golf = sequence.bind(config)(control, source);
- 1002:
+ 1012:
             control = _closure1_slot3;
             source = control.useEffect;
             update = new Array(2);
@@ -375,14 +375,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['requestRejectedNoticeText'] = options;
             entity['reapplyNoticeText'] = golf;
             entity['showAcceptTermsFlow'] = tango;
-            if(!tango) { _fun00002_ip = 1129; continue _fun00001 }
- 1120:
-            if(report) { _fun00002_ip = 1126; continue _fun00001 }
- 1123:
+            if(!tango) { _fun00002_ip = 1139; continue _fun00001 }
+ 1130:
+            if(report) { _fun00002_ip = 1136; continue _fun00001 }
+ 1133:
             report = oscar;
- 1126:
+ 1136:
             tango = report;
- 1129:
+ 1139:
             entity['wasRejectedInV1'] = tango;
             entity['requirementsFinePrintText'] = zulu;
             entity['acceptTermsCheckboxText'] = mike;

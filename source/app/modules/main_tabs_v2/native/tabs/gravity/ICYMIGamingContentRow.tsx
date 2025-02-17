@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = zulu.bind(tango)(entity, mike);
             mike = yankee == vacuum;
             entity = null;
-            if(mike) { _fun00008_ip = 1061; continue _fun00007 }
+            if(mike) { _fun00008_ip = 1065; continue _fun00007 }
  234:
             zulu = yankee == offset;
             mike = undefined;
@@ -500,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  249:
             mike = yankee == mike;
             entity = null;
-            if(mike) { _fun00008_ip = 1061; continue _fun00007 }
+            if(mike) { _fun00008_ip = 1065; continue _fun00007 }
  261:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;
@@ -544,10 +544,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = result.bind(report)(kilo);
             result = echo.extractTimestamp;
             kilo = offset.reference_message_id;
-            if(!(yankee == kilo)) { _fun00008_ip = 462; continue _fun00007 }
- 457:
+            if(!(yankee == kilo)) { _fun00008_ip = 464; continue _fun00007 }
+ 459:
             kilo = output.id;
- 462:
+ 464:
             kilo = result.bind(echo)(kilo);
             golf['timestamp'] = kilo;
             update = _closure1_slot7;
@@ -605,10 +605,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['onHeaderPress'] = romeo;
             golf['onHeaderLongPress'] = romeo;
             offset = offset.reference_message_id;
-            if(!(yankee == offset)) { _fun00008_ip = 752; continue _fun00007 }
- 747:
+            if(!(yankee == offset)) { _fun00008_ip = 756; continue _fun00007 }
+ 751:
             offset = output.id;
- 752:
+ 756:
             golf['id'] = offset;
             offset = true;
             golf['disableInteractions'] = offset;
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1061:
+ 1065:
             return entity;
         }
     };

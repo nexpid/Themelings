@@ -377,8 +377,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = options.bind(tango)(sizing, romeo);
             romeo = new Array(2);
             romeo[0] = sizing;
-            if(!(kilo == foxtrot)) { _fun00004_ip = 495; continue _fun00003 }
- 449:
+            if(!(kilo == foxtrot)) { _fun00004_ip = 491; continue _fun00003 }
+ 445:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = {'variant': 'redesign/message-preview/medium', 'color': 'text-secondary', 'lineClamp': 2};
             backup['children'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 495:
+ 491:
             romeo[1] = foxtrot;
             offset['children'] = romeo;
             offset = options.bind(tango)(yankee, offset);

@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 376; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 378; continue _fun00007 }
  10:
                     yankee = argFoo;
                     romeo = argBar;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  204:
                     report = report.bind(mike)();
  208: // try_end0
-                    _fun00008_ip = 373; continue _fun00007;
+                    _fun00008_ip = 375; continue _fun00007;
  213:
                     return tango;
  216: // catch_target0
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.message;
  254:
                     zulu = tango;
-                    if(!(report == tango)) { _fun00008_ip = 321; continue _fun00007 }
+                    if(!(report == tango)) { _fun00008_ip = 323; continue _fun00007 }
  261:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -444,10 +444,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.t;
                     tango = tango.FMbL3t;
                     oscar = report.bind(oscar)(tango);
-                    _fun00008_ip = 324; continue _fun00007;
- 321:
+                    _fun00008_ip = 326; continue _fun00007;
+ 323:
                     oscar = zulu;
- 324:
+ 326:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 5;
@@ -459,9 +459,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['type'] = golf;
                     zulu['error'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 373:
+ 375:
                     return mike;
- 376:
+ 378:
                     return entity;
                 }
             };

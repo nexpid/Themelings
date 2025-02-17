@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.container;
             entity['style'] = golf;
             options = _closure1_slot5;
-            if(report) { _fun00002_ip = 203; continue _fun00001 }
+            if(report) { _fun00002_ip = 201; continue _fun00001 }
  100:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot1;
@@ -101,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['text'] = offset;
             report['onPress'] = verify;
             report = options.bind(tango)(golf, report);
-            _fun00002_ip = 215; continue _fun00001;
- 203:
+            _fun00002_ip = 213; continue _fun00001;
+ 201:
             golf = _closure1_slot2;
             oscar = {};
             report = options.bind(tango)(golf, oscar);
- 215:
+ 213:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

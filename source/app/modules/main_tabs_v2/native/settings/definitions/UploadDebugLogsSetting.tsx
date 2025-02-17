@@ -17,7 +17,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 403; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 405; continue _fun00001 }
  12:
                     tango = undefined;
                     mike = undefined;
@@ -69,7 +69,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     return mike;
  119:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 244; continue _fun00001 }
+                    if(report) { _fun00002_ip = 246; continue _fun00001 }
  125:
                     offset = _closure1_slot1;
                     foxtrot = _closure1_slot2;
@@ -97,9 +97,9 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     verify = offset.bind(yankee)(verify);
                     report['content'] = verify;
                     report = oscar.bind(options)(report);
- 239: // try_end0
-                    _fun00002_ip = 374; continue _fun00001;
- 244: // try_end1
+ 241: // try_end0
+                    _fun00002_ip = 376; continue _fun00001;
+ 246: // try_end1
                     report = function() { // Original name: onUploadDebugLogsRequestFinish
                         tango = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     };
                     report = report.bind(tango)();
                     return mike;
- 258: // try_start_2 // catch_target0
+ 260: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=1);
                     verify = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     golf = options.bind(verify)(golf);
                     mike['content'] = golf;
                     mike = report.bind(oscar)(mike);
- 374: // try_end2
+ 376: // try_end2
                     mike = function() { // Original name: onUploadDebugLogsRequestFinish
                         tango = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -217,7 +217,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     };
                     mike = mike.bind(tango)();
                     return tango;
- 388: // catch_target1 // catch_target2
+ 390: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     zulu = function() { // Original name: onUploadDebugLogsRequestFinish
                         tango = _closure1_slot0;
@@ -263,7 +263,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     };
                     zulu = zulu.bind(tango)();
                     throw mike;
- 403:
+ 405:
                     return entity;
                 }
             };

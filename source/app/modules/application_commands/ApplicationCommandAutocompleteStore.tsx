@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.get;
             zulu = zulu.bind(tango)(mike);
             report = null;
-            if(!(report != zulu)) { _fun00016_ip = 445; continue _fun00015 }
+            if(!(report != zulu)) { _fun00016_ip = 443; continue _fun00015 }
  41:
             oscar = _closure1_slot9;
             tango = oscar.delete;
@@ -515,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report == verify;
             options = undefined;
             oscar = undefined;
-            if(tango) { _fun00016_ip = 85; continue _fun00015 }
+            if(tango) { _fun00016_ip = 83; continue _fun00015 }
  66:
             golf = verify.map;
             tango = function(argFoo) {
@@ -538,18 +538,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             oscar = golf.bind(verify)(tango);
- 85:
-            if(!(report == oscar)) { _fun00016_ip = 93; continue _fun00015 }
- 89:
+ 83:
+            if(!(report == oscar)) { _fun00016_ip = 91; continue _fun00015 }
+ 87:
             oscar = new Array(0);
- 93:
+ 91:
             golf = _closure1_slot11;
             tango = golf.get;
             offset = tango.bind(golf)(mike);
             golf = report != offset;
             tango = 0;
-            if(!golf) { _fun00016_ip = 168; continue _fun00015 }
- 116:
+            if(!golf) { _fun00016_ip = 166; continue _fun00015 }
+ 114:
             golf = global;
             golf = golf.Date;
             verify = golf.prototype;
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = offset.getTime;
             golf = golf.bind(offset)();
             tango = verify - golf;
- 168:
+ 166:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
             golf = 7;
@@ -588,8 +588,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.get;
             golf = zulu.name;
             golf = options.bind(verify)(golf);
-            if(!(report == golf)) { _fun00016_ip = 336; continue _fun00015 }
- 286:
+            if(!(report == golf)) { _fun00016_ip = 334; continue _fun00015 }
+ 284:
             offset = entity.optionNameToAutocompleteQueries;
             verify = offset.set;
             options = zulu.name;
@@ -601,34 +601,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = new kilo[golf](backup);
             golf = golf instanceof Object ? golf : yankee;
             golf = verify.bind(offset)(options, golf);
- 336:
+ 334:
             verify = entity.optionNameToAutocompleteQueries;
             options = verify.get;
             golf = zulu.name;
             options = options.bind(verify)(golf);
-            if(!(report != options)) { _fun00016_ip = 377; continue _fun00015 }
- 361:
+            if(!(report != options)) { _fun00016_ip = 375; continue _fun00015 }
+ 359:
             golf = options.set;
             report = zulu.query;
             report = golf.bind(options)(report, oscar);
- 377:
+ 375:
             options = entity.optionNameToLastQuery;
             golf = options.get;
             report = zulu.name;
             golf = golf.bind(options)(report);
             report = zulu.query;
-            if(!(golf === report)) { _fun00016_ip = 435; continue _fun00015 }
- 407:
+            if(!(golf === report)) { _fun00016_ip = 433; continue _fun00015 }
+ 405:
             entity['lastErrored'] = tango;
             report = entity.optionNameToLastResults;
             tango = report.set;
             zulu = zulu.name;
             zulu = tango.bind(report)(zulu, oscar);
- 435:
+ 433:
             entity['lastResponseNonce'] = mike;
             entity = true;
             return entity;
- 445:
+ 443:
             entity = false;
             return entity;
         }

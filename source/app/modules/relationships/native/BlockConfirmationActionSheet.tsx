@@ -481,8 +481,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(golf)(entity, zulu);
             entity = null;
             zulu = entity == variable36;
-            if(zulu) { _fun00002_ip = 1851; continue _fun00001 }
- 387:
+            if(zulu) { _fun00002_ip = 1849; continue _fun00001 }
+ 379:
             tango = _closure1_slot16;
             golf = _closure1_slot0;
             verify = _closure1_slot2;
@@ -520,10 +520,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = true;
             oscar['scrollable'] = papa;
             verify = 485;
-            if(foxtrot) { _fun00002_ip = 476; continue _fun00001 }
- 472:
+            if(foxtrot) { _fun00002_ip = 466; continue _fun00001 }
+ 462:
             verify = _closure1_slot12;
- 476:
+ 466:
             romeo = verify + yankee;
             whiskey = _closure1_slot1;
             update = _closure1_slot2;
@@ -672,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = backup;
             foxtrot = !foxtrot;
             if(!foxtrot) { _fun00002_ip = 1536; continue _fun00001 }
- 1155:
+ 1149:
             sizing = _closure1_slot16;
             kilo = _closure1_slot6;
             backup = {};
@@ -893,11 +893,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(oscar)(tango);
                     report = _closure2_slot2;
                     tango = null;
-                    if(!(tango != report)) { _fun00008_ip = 139; continue _fun00007 }
- 131:
+                    if(!(tango != report)) { _fun00008_ip = 137; continue _fun00007 }
+ 129:
                     zulu = _closure2_slot2;
                     zulu = zulu.bind(entity)();
- 139:
+ 137:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 24;
@@ -968,7 +968,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1851:
+ 1849:
             return entity;
         }
     };

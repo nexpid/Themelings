@@ -123,10 +123,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = tango.bind(report)(zulu, mike);
                     zulu = entity != mike;
                     entity = undefined;
-                    if(!zulu) { _fun00004_ip = 69; continue _fun00003 }
- 66:
+                    if(!zulu) { _fun00004_ip = 67; continue _fun00003 }
+ 64:
                     entity = mike;
- 69:
+ 67:
                     return entity;
                 }
             };

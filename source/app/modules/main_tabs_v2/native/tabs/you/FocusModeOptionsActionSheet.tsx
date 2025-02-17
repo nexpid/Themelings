@@ -221,8 +221,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['title'] = yankee;
             kilo = null;
             yankee = null;
-            if(!options) { _fun00002_ip = 358; continue _fun00001 }
- 159:
+            if(!options) { _fun00002_ip = 360; continue _fun00001 }
+ 161:
             foxtrot = _closure1_slot2;
             output = _closure1_slot0;
             backup = _closure1_slot1;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             options['label'] = backup;
             yankee = foxtrot.bind(tango)(romeo, options);
- 358:
+ 360:
             options = new Array(2);
             options[0] = yankee;
             yankee = _closure1_slot4;

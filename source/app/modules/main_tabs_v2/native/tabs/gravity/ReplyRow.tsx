@@ -1235,7 +1235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot = tango.bind(oscar)(entity, zulu);
             entity = null;
-            if(!mike) { _fun00016_ip = 580; continue _fun00015 }
+            if(!mike) { _fun00016_ip = 576; continue _fun00015 }
  235:
             tango = _closure1_slot16;
             zulu = _closure1_slot5;
@@ -1317,7 +1317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 580:
+ 576:
             return entity;
         }
     };
@@ -1563,7 +1563,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['onPress'] = kilo;
             if(!backup) { _fun00020_ip = 283; continue _fun00019 }
  280:
-            if(offset) { _fun00020_ip = 340; continue _fun00019 }
+            if(offset) { _fun00020_ip = 342; continue _fun00019 }
  283:
             sizing = _closure1_slot0;
             echo = _closure1_slot2;
@@ -1577,8 +1577,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.zUQ1OD;
             offset = backup.bind(kilo)(offset);
-            _fun00020_ip = 395; continue _fun00019;
- 340:
+            _fun00020_ip = 397; continue _fun00019;
+ 342:
             echo = _closure1_slot0;
             update = _closure1_slot2;
             backup = 20;
@@ -1591,7 +1591,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.t;
             backup = backup.XG+2Q0;
             offset = kilo.bind(sizing)(backup);
- 395:
+ 397:
             golf['text'] = offset;
             golf = oscar.bind(tango)(options, golf);
             report['children'] = golf;

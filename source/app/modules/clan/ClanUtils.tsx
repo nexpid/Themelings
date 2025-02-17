@@ -306,15 +306,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = argBar;
             zulu = mike.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun00014_ip = 445; continue _fun00013 }
+            if(!(entity !== zulu)) { _fun00014_ip = 449; continue _fun00013 }
  20:
             zulu = mike.length;
             golf = 1;
-            if(!(golf !== zulu)) { _fun00014_ip = 439; continue _fun00013 }
+            if(!(golf !== zulu)) { _fun00014_ip = 443; continue _fun00013 }
  35:
             tango = mike.length;
             zulu = 2;
-            if(!(zulu !== tango)) { _fun00014_ip = 352; continue _fun00013 }
+            if(!(zulu !== tango)) { _fun00014_ip = 354; continue _fun00013 }
  50:
             zulu = null;
             if(!(zulu != backup)) { _fun00014_ip = 68; continue _fun00013 }
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['last'] = options;
             zulu = report.bind(oscar)(tango, zulu);
             return zulu;
- 352:
+ 354:
             options = _closure1_slot0;
             verify = _closure1_slot2;
             zulu = 6;
@@ -404,10 +404,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['item2'] = golf;
             zulu = report.bind(oscar)(tango, zulu);
             return zulu;
- 439:
+ 443:
             entity = mike[entity];
             return entity;
- 445:
+ 449:
             entity = null;
             return entity;
         }
@@ -551,27 +551,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == golf;
             mike = undefined;
-            if(options) { _fun00020_ip = 192; continue _fun00019 }
- 186:
+            if(options) { _fun00020_ip = 186; continue _fun00019 }
+ 180:
             mike = golf.primaryGuild;
- 192:
+ 186:
             mike = tango.bind(oscar)(mike);
             tango = mike.tag;
             mike = mike.guildId;
             entity = !entity;
-            if(!entity) { _fun00020_ip = 233; continue _fun00019 }
- 213:
+            if(!entity) { _fun00020_ip = 227; continue _fun00019 }
+ 207:
             mike = report != mike;
-            if(!mike) { _fun00020_ip = 224; continue _fun00019 }
- 220:
+            if(!mike) { _fun00020_ip = 218; continue _fun00019 }
+ 214:
             mike = report != tango;
- 224:
-            if(!mike) { _fun00020_ip = 230; continue _fun00019 }
- 227:
+ 218:
+            if(!mike) { _fun00020_ip = 224; continue _fun00019 }
+ 221:
             mike = !zulu;
- 230:
+ 224:
             entity = mike;
- 233:
+ 227:
             return entity;
         }
     };

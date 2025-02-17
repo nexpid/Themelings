@@ -294,10 +294,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             report = zulu == tango;
             zulu = undefined;
-            if(report) { _fun00002_ip = 281; continue _fun00001 }
- 276:
+            if(report) { _fun00002_ip = 273; continue _fun00001 }
+ 268:
             zulu = tango.channelId;
- 281:
+ 273:
             _closure2_slot7 = zulu;
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -358,16 +358,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             entity = report.bind(oscar)(mike, entity);
-            if(entity) { _fun00002_ip = 382; continue _fun00001 }
- 378:
+            if(entity) { _fun00002_ip = 370; continue _fun00001 }
+ 366:
             entity = {};
-            _fun00002_ip = 397; continue _fun00001;
- 382:
+            _fun00002_ip = 385; continue _fun00001;
+ 370:
             mike = {};
             mike['voiceState'] = tango;
             mike['voiceChannel'] = zulu;
             entity = mike;
- 397:
+ 385:
             return entity;
         }
     };

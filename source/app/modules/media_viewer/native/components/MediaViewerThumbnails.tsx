@@ -237,10 +237,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = offset.thumbnail;
             foxtrot = null;
             yankee = offset;
-            if(!(foxtrot != romeo)) { _fun00004_ip = 293; continue _fun00003 }
- 290:
+            if(!(foxtrot != romeo)) { _fun00004_ip = 289; continue _fun00003 }
+ 286:
             yankee = romeo;
- 293:
+ 289:
             report['source'] = yankee;
             yankee = false;
             report['enableAnimation'] = yankee;

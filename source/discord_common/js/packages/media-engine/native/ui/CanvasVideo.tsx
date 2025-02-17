@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = zulu.current;
                 var _closure3_slot0 = yankee;
                 zulu = _closure2_slot1;
-                if(zulu) { _fun00002_ip = 351; continue _fun00001 }
+                if(zulu) { _fun00002_ip = 349; continue _fun00001 }
  28:
                 options = null;
-                if(!(options != yankee)) { _fun00002_ip = 351; continue _fun00001 }
+                if(!(options != yankee)) { _fun00002_ip = 349; continue _fun00001 }
  37:
                 zulu = false;
                 var _closure3_slot1 = zulu;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.bind(golf)();
                 var _closure3_slot3 = report;
                 golf = report.addVideoOutputSink;
-                if(!(options == golf)) { _fun00002_ip = 323; continue _fun00001 }
+                if(!(options == golf)) { _fun00002_ip = 321; continue _fun00001 }
  104:
                 golf = global;
                 golf = golf.window;
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = golf.bind(offset)();
  176:
                 golf = 'canary';
-                if(!(golf !== verify)) { _fun00002_ip = 227; continue _fun00001 }
+                if(!(golf !== verify)) { _fun00002_ip = 225; continue _fun00001 }
  184:
                 golf = 'development';
-                if(!(golf !== verify)) { _fun00002_ip = 227; continue _fun00001 }
- 194:
+                if(!(golf !== verify)) { _fun00002_ip = 225; continue _fun00001 }
+ 192:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
                 golf = 3;
@@ -164,8 +164,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.bind(zulu)(golf);
                 golf = verify.initRenderingContext2D;
                 golf = golf.bind(verify)(yankee);
-                _fun00002_ip = 258; continue _fun00001;
- 227:
+                _fun00002_ip = 256; continue _fun00001;
+ 225:
                 offset = _closure1_slot0;
                 romeo = _closure1_slot2;
                 verify = 2;
@@ -173,10 +173,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = offset.bind(zulu)(verify);
                 verify = offset.initRenderingContextWebGL;
                 golf = verify.bind(offset)(yankee);
- 258:
+ 256:
                 var _closure3_slot4 = golf;
-                if(!(options != golf)) { _fun00002_ip = 321; continue _fun00001 }
- 266:
+                if(!(options != golf)) { _fun00002_ip = 319; continue _fun00001 }
+ 264:
                 golf = _closure1_slot1;
                 options = _closure1_slot2;
                 tango = 6;
@@ -212,9 +212,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 return tango;
- 321:
+ 319:
                 return zulu;
- 323:
+ 321:
                 tango = report.addVideoOutputSink;
                 zulu = _closure2_slot5;
                 mike = _closure2_slot0;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 return entity;
- 351:
+ 349:
                 entity = undefined;
                 return entity;
             }

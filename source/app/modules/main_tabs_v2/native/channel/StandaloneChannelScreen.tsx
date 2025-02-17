@@ -211,8 +211,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot11;
             mike = _closure1_slot0;
             offset = _closure1_slot2;
-            if(entity) { _fun00002_ip = 516; continue _fun00001 }
- 484:
+            if(entity) { _fun00002_ip = 518; continue _fun00001 }
+ 486:
             entity = 18;
             entity = offset[entity];
             entity = mike.bind(tango)(entity);
@@ -220,8 +220,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['onPress'] = backup;
             backup = zulu.bind(tango)(yankee, entity);
-            _fun00002_ip = 570; continue _fun00001;
- 516:
+            _fun00002_ip = 572; continue _fun00001;
+ 518:
             entity = 17;
             entity = offset[entity];
             entity = mike.bind(tango)(entity);
@@ -249,16 +249,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['children'] = oscar;
             backup = zulu.bind(tango)(mike, entity);
- 570:
+ 572:
             zulu = _closure1_slot12;
             mike = _closure1_slot13;
             entity = {};
             oscar = null;
-            if(!options) { _fun00002_ip = 642; continue _fun00001 }
- 585:
+            if(!options) { _fun00002_ip = 644; continue _fun00001 }
+ 587:
             oscar = null;
-            if(!report) { _fun00002_ip = 642; continue _fun00001 }
- 590:
+            if(!report) { _fun00002_ip = 644; continue _fun00001 }
+ 592:
             options = _closure1_slot11;
             golf = _closure1_slot4;
             report = {};
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             report['style'] = offset;
             oscar = options.bind(tango)(golf, report);
- 642:
+ 644:
             report = new Array(2);
             report[0] = oscar;
             options = _closure1_slot11;
@@ -287,19 +287,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(verify);
             offset = verify.LayerScope;
             verify = {};
-            if(!kilo) { _fun00002_ip = 702; continue _fun00001 }
- 699:
-            if(!control) { _fun00002_ip = 705; continue _fun00001 }
- 702:
-            if(!romeo) { _fun00002_ip = 731; continue _fun00001 }
- 705:
+            if(!kilo) { _fun00002_ip = 704; continue _fun00001 }
+ 701:
+            if(!control) { _fun00002_ip = 707; continue _fun00001 }
+ 704:
+            if(!romeo) { _fun00002_ip = 733; continue _fun00001 }
+ 707:
             echo = _closure1_slot11;
             kilo = _closure1_slot4;
             romeo = {};
             update = result.spacer;
             romeo['style'] = update;
             backup = echo.bind(tango)(kilo, romeo);
- 731:
+ 733:
             romeo = new Array(3);
             romeo[0] = backup;
             source = _closure1_slot11;

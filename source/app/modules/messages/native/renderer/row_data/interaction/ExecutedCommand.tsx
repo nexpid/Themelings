@@ -203,10 +203,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             };
             romeo = oscar.bind(options)(report, zulu);
             options = null;
-            if(!(options == romeo)) { _fun00004_ip = 278; continue _fun00003 }
- 273:
+            if(!(options == romeo)) { _fun00004_ip = 270; continue _fun00003 }
+ 265:
             romeo = yankee.user;
- 278:
+ 270:
             report = _closure1_slot0;
             output = _closure1_slot2;
             sizing = 11;
@@ -225,10 +225,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = zulu.bind(report)(mike);
             report = options == zulu;
             output = undefined;
-            if(report) { _fun00004_ip = 369; continue _fun00003 }
- 364:
+            if(report) { _fun00004_ip = 361; continue _fun00003 }
+ 356:
             output = zulu.type;
- 369:
+ 361:
             result = _closure1_slot0;
             echo = _closure1_slot2;
             report = 15;
@@ -237,10 +237,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = report.InteractionTypes;
             report = report.APPLICATION_COMMAND;
             result = undefined;
-            if(!(output === report)) { _fun00004_ip = 413; continue _fun00003 }
- 407:
+            if(!(output === report)) { _fun00004_ip = 405; continue _fun00003 }
+ 399:
             result = zulu.target_user;
- 413:
+ 405:
             _closure2_slot5 = result;
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -268,12 +268,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 }
             };
             offset = offset.bind(output)(report, zulu);
-            if(!(options == offset)) { _fun00004_ip = 507; continue _fun00003 }
- 468:
+            if(!(options == offset)) { _fun00004_ip = 497; continue _fun00003 }
+ 458:
             report = options != result;
             zulu = null;
-            if(!report) { _fun00004_ip = 504; continue _fun00003 }
- 477:
+            if(!report) { _fun00004_ip = 494; continue _fun00003 }
+ 467:
             report = _closure1_slot6;
             output = report.prototype;
             output = Object.create(output, {constructor: {value: report}});
@@ -281,9 +281,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = result;
             report = new record[report](config, sequence);
             zulu = report instanceof Object ? report : output;
- 504:
+ 494:
             offset = zulu;
- 507:
+ 497:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[sizing];
@@ -297,24 +297,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu['guildMemberAvatar'] = oscar;
             romeo = options == kilo;
             oscar = undefined;
-            if(romeo) { _fun00004_ip = 576; continue _fun00003 }
- 566:
+            if(romeo) { _fun00004_ip = 566; continue _fun00003 }
+ 556:
             romeo = kilo.getGuildId;
             oscar = romeo.bind(kilo)();
- 576:
+ 566:
             zulu['guildId'] = oscar;
             oscar = report.bind(tango)(zulu);
             report = mike.type;
             zulu = _closure1_slot9;
             zulu = zulu.CHAT_INPUT_COMMAND;
             echo = report === zulu;
-            if(echo) { _fun00004_ip = 626; continue _fun00003 }
- 607:
+            if(echo) { _fun00004_ip = 616; continue _fun00003 }
+ 597:
             report = mike.type;
             zulu = _closure1_slot9;
             zulu = zulu.INTERACTION_PREMIUM_UPSELL;
             echo = report === zulu;
- 626:
+ 616:
             _closure2_slot6 = echo;
             report = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -326,24 +326,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             _closure2_slot7 = romeo;
             zulu = mike.activityInstance;
             update = options != zulu;
-            if(!update) { _fun00004_ip = 688; continue _fun00003 }
- 678:
+            if(!update) { _fun00004_ip = 678; continue _fun00003 }
+ 668:
             zulu = mike.activityInstance;
             update = tango !== zulu;
- 688:
+ 678:
             _closure2_slot8 = update;
             result = yankee.displayName;
             _closure2_slot9 = result;
             zulu = options != kilo;
-            if(!zulu) { _fun00004_ip = 720; continue _fun00003 }
- 708:
+            if(!zulu) { _fun00004_ip = 710; continue _fun00003 }
+ 698:
             report = echo;
-            if(report) { _fun00004_ip = 717; continue _fun00003 }
- 714:
+            if(report) { _fun00004_ip = 707; continue _fun00003 }
+ 704:
             report = romeo;
- 717:
+ 707:
             zulu = report;
- 720:
+ 710:
             _closure2_slot10 = zulu;
             report = _closure1_slot3;
             output = report.useMemo;
@@ -562,43 +562,43 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             yankee = 'username';
             yankee = yankee === backup;
             romeo = verify;
-            if(!yankee) { _fun00004_ip = 998; continue _fun00003 }
- 979:
+            if(!yankee) { _fun00004_ip = 982; continue _fun00003 }
+ 963:
             kilo = _closure1_slot4;
             kilo = kilo.bind(tango)(foxtrot);
             romeo = verify;
-            if(!(options != kilo)) { _fun00004_ip = 998; continue _fun00003 }
- 995:
+            if(!(options != kilo)) { _fun00004_ip = 982; continue _fun00003 }
+ 979:
             romeo = kilo;
- 998:
+ 982:
             entity['usernameColor'] = romeo;
             romeo = _closure1_slot4;
             kilo = romeo.bind(tango)(foxtrot);
             sizing = options != kilo;
             romeo = null;
-            if(!sizing) { _fun00004_ip = 1024; continue _fun00003 }
- 1021:
+            if(!sizing) { _fun00004_ip = 1008; continue _fun00003 }
+ 1005:
             romeo = kilo;
- 1024:
+ 1008:
             entity['roleColor'] = romeo;
             romeo = 'dot';
             romeo = romeo === backup;
-            if(!romeo) { _fun00004_ip = 1044; continue _fun00003 }
- 1040:
+            if(!romeo) { _fun00004_ip = 1028; continue _fun00003 }
+ 1024:
             romeo = options != foxtrot;
- 1044:
+ 1028:
             entity['shouldShowRoleDot'] = romeo;
             entity['avatarURL'] = oscar;
             oscar = verify;
-            if(!yankee) { _fun00004_ip = 1079; continue _fun00003 }
- 1060:
+            if(!yankee) { _fun00004_ip = 1063; continue _fun00003 }
+ 1044:
             golf = _closure1_slot4;
             golf = golf.bind(tango)(offset);
             oscar = verify;
-            if(!(options != golf)) { _fun00004_ip = 1079; continue _fun00003 }
- 1076:
+            if(!(options != golf)) { _fun00004_ip = 1063; continue _fun00003 }
+ 1060:
             oscar = golf;
- 1079:
+ 1063:
             entity['targetUsernameColor'] = oscar;
             entity['content'] = report;
             entity = zulu.bind(tango)(mike, entity);
@@ -860,7 +860,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity[control] = sequence;
             zulu = kilo.bind(output)(foxtrot, entity);
  936:
-            _fun00014_ip = 1334; continue _fun00013;
+            _fun00014_ip = 1336; continue _fun00013;
  941:
             sequence = backup;
             if(!echo) { _fun00014_ip = 978; continue _fun00013 }
@@ -920,7 +920,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             vacuum = 'commandNameOnClick';
             foxtrot[vacuum] = echo;
             zulu = kilo.bind(output)(backup, foxtrot);
-            if(!(offset != result)) { _fun00014_ip = 1334; continue _fun00013 }
+            if(!(offset != result)) { _fun00014_ip = 1336; continue _fun00013 }
  1168:
             echo = _closure1_slot0;
             output = _closure1_slot2;
@@ -950,10 +950,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             output['action'] = sizing;
             echo = offset == result;
             sizing = undefined;
-            if(echo) { _fun00014_ip = 1298; continue _fun00013 }
- 1293:
+            if(echo) { _fun00014_ip = 1300; continue _fun00013 }
+ 1295:
             sizing = result.id;
- 1298:
+ 1300:
             output['userId'] = sizing;
             sizing = romeo.channel_id;
             output['messageChannelId'] = sizing;
@@ -961,7 +961,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sizing = 'targetUsernameOnClick';
             entity[sizing] = output;
             zulu = backup.bind(kilo)(foxtrot, entity);
- 1334:
+ 1336:
             entity = {};
             romeo = romeo.interaction;
             romeo = romeo.user;
@@ -972,17 +972,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             romeo = options.bind(report)(verify);
             foxtrot = offset != romeo;
             options = null;
-            if(!foxtrot) { _fun00014_ip = 1382; continue _fun00013 }
- 1379:
+            if(!foxtrot) { _fun00014_ip = 1384; continue _fun00013 }
+ 1381:
             options = romeo;
- 1382:
+ 1384:
             entity['roleColor'] = options;
             options = 'dot';
             options = options === yankee;
-            if(!options) { _fun00014_ip = 1402; continue _fun00013 }
- 1398:
+            if(!options) { _fun00014_ip = 1404; continue _fun00013 }
+ 1400:
             options = offset != verify;
- 1402:
+ 1404:
             entity['shouldShowRoleDot'] = options;
             entity['avatarURL'] = golf;
             entity['targetUsernameColor'] = oscar;

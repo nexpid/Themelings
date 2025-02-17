@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     entity['onPress'] = options;
                     entity = tango.bind(zulu)(mike, entity, report);
-                    _fun00002_ip = 218; continue _fun00001;
+                    _fun00002_ip = 220; continue _fun00001;
  118:
                     report = _closure1_slot11;
                     zulu = _closure1_slot1;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     mike['onPress'] = oscar;
                     entity = report.bind(tango)(zulu, mike);
- 218:
+ 220:
                     return entity;
                 }
             };

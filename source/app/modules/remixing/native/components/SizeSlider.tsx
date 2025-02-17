@@ -412,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['height'] = yankee;
             echo['canvasContainer'] = entity;
             entity = null;
-            if(mike) { _fun00002_ip = 1614; continue _fun00001 }
- 1052:
+            if(mike) { _fun00002_ip = 1598; continue _fun00001 }
+ 1038:
             tango = _closure1_slot9;
             zulu = _closure1_slot5;
             mike = {};
@@ -437,8 +437,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.canvasStyle;
             output['style'] = echo;
             source = null;
-            if(!update) { _fun00002_ip = 1226; continue _fun00001 }
- 1150:
+            if(!update) { _fun00002_ip = 1212; continue _fun00001 }
+ 1136:
             sierra = _closure1_slot8;
             control = _closure1_slot0;
             echo = _closure1_slot2;
@@ -457,12 +457,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             lima = 'white';
             echo['color'] = lima;
             source = sierra.bind(report)(control, echo);
- 1226:
+ 1212:
             echo = new Array(3);
             echo[0] = source;
             golf = null;
-            if(!update) { _fun00002_ip = 1307; continue _fun00001 }
- 1239:
+            if(!update) { _fun00002_ip = 1293; continue _fun00001 }
+ 1225:
             control = _closure1_slot8;
             source = _closure1_slot0;
             update = _closure1_slot2;
@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update['r'] = sequence;
             update['color'] = vacuum;
             golf = control.bind(report)(source, update);
- 1307:
+ 1293:
             echo[1] = golf;
             control = _closure1_slot9;
             context = _closure1_slot0;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1614:
+ 1598:
             return entity;
         }
     };

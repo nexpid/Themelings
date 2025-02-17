@@ -223,12 +223,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     mike = _closure2_slot4;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun00006_ip = 679; continue _fun00005 }
+                    if(!(zulu != mike)) { _fun00006_ip = 687; continue _fun00005 }
  18:
                     report = _closure1_slot0;
                     tango = _closure1_slot3;
                     golf = argFoo;
-                    if(golf) { _fun00006_ip = 642; continue _fun00005 }
+                    if(golf) { _fun00006_ip = 650; continue _fun00005 }
  38:
                     golf = 20;
                     options = tango[golf];
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.ChannelMessage;
                     verify = romeo.bind(foxtrot)(yankee, verify);
                     yankee = _closure2_slot3;
-                    if(yankee) { _fun00006_ip = 597; continue _fun00005 }
+                    if(yankee) { _fun00006_ip = 605; continue _fun00005 }
  215:
                     yankee = options.length;
                     options = 0;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = verify;
  263:
                     zulu = zulu.length;
-                    if(!(zulu > options)) { _fun00006_ip = 597; continue _fun00005 }
+                    if(!(zulu > options)) { _fun00006_ip = 605; continue _fun00005 }
  275:
                     zulu = {};
                     options = function() { // Original name: onConfirm
@@ -396,8 +396,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['hideActionSheet'] = verify;
                     zulu['isDismissable'] = verify;
                     zulu = oscar.bind(options)(zulu);
-                    _fun00006_ip = 679; continue _fun00005;
- 597:
+                    _fun00006_ip = 687; continue _fun00005;
+ 605:
                     oscar = _closure1_slot0;
                     options = _closure1_slot3;
                     zulu = 19;
@@ -408,8 +408,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure1_slot14;
                     zulu = _closure2_slot0;
                     zulu = oscar.bind(golf)(zulu);
-                    _fun00006_ip = 679; continue _fun00005;
- 642:
+                    _fun00006_ip = 687; continue _fun00005;
+ 650:
                     zulu = 19;
                     tango = tango[zulu];
                     zulu = undefined;
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure1_slot14;
                     entity = _closure2_slot0;
                     entity = mike.bind(zulu)(entity);
- 679:
+ 687:
                     entity = undefined;
                     return entity;
                 }

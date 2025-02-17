@@ -719,7 +719,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  708:
             oscar = options.length;
  713:
-            if(!(golf === oscar)) { _fun00002_ip = 1032; continue _fun00001 }
+            if(!(golf === oscar)) { _fun00002_ip = 1038; continue _fun00001 }
  720:
             options = _closure1_slot13;
             golf = _closure1_slot1;
@@ -749,7 +749,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.pYHobG;
             verify = output.bind(echo)(verify);
-            _fun00002_ip = 893; continue _fun00001;
+            _fun00002_ip = 895; continue _fun00001;
  841:
             source = _closure1_slot0;
             output = _closure1_slot3;
@@ -762,12 +762,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.Sojqsr;
             verify = echo.bind(update)(output);
- 893:
+ 895:
             oscar['title'] = verify;
             verify = _closure1_slot11;
             verify = verify.ROLE;
-            if(!(result !== verify)) { _fun00002_ip = 965; continue _fun00001 }
- 911:
+            if(!(result !== verify)) { _fun00002_ip = 969; continue _fun00001 }
+ 913:
             update = _closure1_slot0;
             verify = _closure1_slot3;
             output = verify[control];
@@ -779,8 +779,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.tuL9TU;
             verify = output.bind(echo)(verify);
-            _fun00002_ip = 1017; continue _fun00001;
- 965:
+            _fun00002_ip = 1023; continue _fun00001;
+ 969:
             source = _closure1_slot0;
             output = _closure1_slot3;
             echo = output[control];
@@ -792,11 +792,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.7gBhmJ;
             verify = echo.bind(update)(output);
- 1017:
+ 1023:
             oscar['body'] = verify;
             oscar = options.bind(tango)(golf, oscar);
-            _fun00002_ip = 1186; continue _fun00001;
- 1032:
+            _fun00002_ip = 1192; continue _fun00001;
+ 1038:
             verify = _closure1_slot13;
             options = _closure1_slot1;
             output = _closure1_slot3;
@@ -806,10 +806,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             output = _closure1_slot11;
             output = output.ROLE;
-            if(!(result === output)) { _fun00002_ip = 1075; continue _fun00001 }
- 1072:
+            if(!(result === output)) { _fun00002_ip = 1081; continue _fun00001 }
+ 1078:
             kilo = sizing;
- 1075:
+ 1081:
             golf['sections'] = kilo;
             golf['itemSize'] = backup;
             backup = 'windowSize';
@@ -833,7 +833,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = 'always';
             golf['keyboardShouldPersistTaps'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1186:
+ 1192:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

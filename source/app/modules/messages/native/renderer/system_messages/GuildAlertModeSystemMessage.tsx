@@ -418,10 +418,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = oscar;
             oscar = null;
             options = oscar != golf;
-            if(!options) { _fun00004_ip = 512; continue _fun00003 }
- 509:
+            if(!options) { _fun00004_ip = 506; continue _fun00003 }
+ 503:
             oscar = golf;
- 512:
+ 506:
             entity['usernameColor'] = oscar;
             echo = entity;
             result = report;
@@ -721,10 +721,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = oscar;
             oscar = null;
             options = oscar != golf;
-            if(!options) { _fun00010_ip = 446; continue _fun00009 }
- 443:
+            if(!options) { _fun00010_ip = 442; continue _fun00009 }
+ 439:
             oscar = golf;
- 446:
+ 442:
             entity['usernameColor'] = oscar;
             result = entity;
             output = report;

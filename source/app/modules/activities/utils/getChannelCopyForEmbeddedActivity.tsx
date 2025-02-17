@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             if(!(mike != entity)) { _fun00002_ip = 17; continue _fun00001 }
  9:
             mike = '';
-            if(!(mike === entity)) { _fun00002_ip = 76; continue _fun00001 }
+            if(!(mike === entity)) { _fun00002_ip = 78; continue _fun00001 }
  17:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.2YCamp;
             entity = zulu.bind(tango)(mike);
- 76:
+ 78:
             return entity;
         }
     };

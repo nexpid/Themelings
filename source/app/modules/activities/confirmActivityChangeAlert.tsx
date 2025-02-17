@@ -83,12 +83,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             kilo = verify == foxtrot;
             romeo = undefined;
-            if(kilo) { _fun00002_ip = 264; continue _fun00001 }
- 259:
+            if(kilo) { _fun00002_ip = 268; continue _fun00001 }
+ 263:
             romeo = foxtrot.name;
- 264:
-            if(!(verify == romeo)) { _fun00002_ip = 320; continue _fun00001 }
  268:
+            if(!(verify == romeo)) { _fun00002_ip = 326; continue _fun00001 }
+ 272:
             output = _closure1_slot0;
             foxtrot = _closure1_slot2;
             kilo = foxtrot[backup];
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.G99XFh;
             romeo = kilo.bind(sizing)(foxtrot);
- 320:
+ 326:
             report['currentApplicationName'] = romeo;
             foxtrot = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -110,21 +110,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.isNullOrEmpty;
             sizing = verify == yankee;
             romeo = undefined;
-            if(sizing) { _fun00002_ip = 367; continue _fun00001 }
- 362:
+            if(sizing) { _fun00002_ip = 373; continue _fun00001 }
+ 368:
             romeo = yankee.name;
- 367:
+ 373:
             romeo = foxtrot.bind(kilo)(romeo);
-            if(romeo) { _fun00002_ip = 391; continue _fun00001 }
- 375:
+            if(romeo) { _fun00002_ip = 397; continue _fun00001 }
+ 381:
             romeo = verify == yankee;
             verify = undefined;
-            if(romeo) { _fun00002_ip = 389; continue _fun00001 }
- 384:
+            if(romeo) { _fun00002_ip = 395; continue _fun00001 }
+ 390:
             verify = yankee.name;
- 389:
-            _fun00002_ip = 443; continue _fun00001;
- 391:
+ 395:
+            _fun00002_ip = 451; continue _fun00001;
+ 397:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[backup];
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.OGUjmp;
             verify = yankee.bind(romeo)(offset);
- 443:
+ 451:
             report['currentApplicationChannelName'] = verify;
             report = golf.bind(options)(oscar, report);
             mike['body'] = report;

@@ -77,10 +77,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = yankee;
             mike = output.messageReference;
             report = null;
-            if(!(report == mike)) { _fun00002_ip = 136; continue _fun00001 }
- 134:
+            if(!(report == mike)) { _fun00002_ip = 134; continue _fun00001 }
+ 132:
             mike = {};
- 136:
+ 134:
             foxtrot = mike.channel_id;
             _closure2_slot3 = foxtrot;
             romeo = mike.guild_id;

@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00006_ip = 345; continue _fun00005 }
+            if(mike) { _fun00006_ip = 343; continue _fun00005 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -310,10 +310,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  192:
             report = oscar;
  195:
-            if(report) { _fun00012_ip = 380; continue _fun00011 }
+            if(report) { _fun00012_ip = 378; continue _fun00011 }
  201:
             report = 0;
-            if(!(!(verify <= report))) { _fun00012_ip = 380; continue _fun00011 }
+            if(!(!(verify <= report))) { _fun00012_ip = 378; continue _fun00011 }
  210:
             report = global;
             oscar = report.Date;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity = true;
             entity = tango.bind(report)(zulu, mike, entity);
- 380:
+ 378:
             entity = undefined;
             return entity;
         }

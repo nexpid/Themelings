@@ -224,31 +224,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(3);
             golf[0] = verify;
             verify = offset;
-            if(!offset) { _fun00002_ip = 216; continue _fun00001 }
- 210:
+            if(!offset) { _fun00002_ip = 218; continue _fun00001 }
+ 212:
             verify = yankee.activeCommandOption;
- 216:
+ 218:
             golf[1] = verify;
             verify = !offset;
-            if(!verify) { _fun00002_ip = 259; continue _fun00001 }
- 226:
+            if(!verify) { _fun00002_ip = 261; continue _fun00001 }
+ 228:
             kilo = backup == romeo;
             foxtrot = undefined;
-            if(kilo) { _fun00002_ip = 256; continue _fun00001 }
- 235:
+            if(kilo) { _fun00002_ip = 258; continue _fun00001 }
+ 237:
             kilo = romeo.lastValidationResult;
             sizing = backup == kilo;
             foxtrot = undefined;
-            if(sizing) { _fun00002_ip = 256; continue _fun00001 }
- 250:
+            if(sizing) { _fun00002_ip = 258; continue _fun00001 }
+ 252:
             foxtrot = kilo.success;
- 256:
+ 258:
             verify = foxtrot;
- 259:
-            if(!verify) { _fun00002_ip = 268; continue _fun00001 }
- 262:
+ 261:
+            if(!verify) { _fun00002_ip = 270; continue _fun00001 }
+ 264:
             verify = yankee.completeCommandOption;
- 268:
+ 270:
             golf[2] = verify;
             entity['style'] = golf;
             update = entity;
@@ -266,53 +266,53 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(4);
             verify[0] = foxtrot;
             foxtrot = offset;
-            if(!foxtrot) { _fun00002_ip = 344; continue _fun00001 }
- 338:
+            if(!foxtrot) { _fun00002_ip = 346; continue _fun00001 }
+ 340:
             foxtrot = yankee.activeCommandOptionText;
- 344:
+ 346:
             verify[1] = foxtrot;
             foxtrot = !offset;
-            if(!foxtrot) { _fun00002_ip = 387; continue _fun00001 }
- 354:
+            if(!foxtrot) { _fun00002_ip = 389; continue _fun00001 }
+ 356:
             sizing = backup == romeo;
             kilo = undefined;
-            if(sizing) { _fun00002_ip = 384; continue _fun00001 }
- 363:
+            if(sizing) { _fun00002_ip = 386; continue _fun00001 }
+ 365:
             sizing = romeo.lastValidationResult;
             output = backup == sizing;
             kilo = undefined;
-            if(output) { _fun00002_ip = 384; continue _fun00001 }
- 378:
+            if(output) { _fun00002_ip = 386; continue _fun00001 }
+ 380:
             kilo = sizing.success;
- 384:
+ 386:
             foxtrot = kilo;
- 387:
-            if(!foxtrot) { _fun00002_ip = 396; continue _fun00001 }
- 390:
+ 389:
+            if(!foxtrot) { _fun00002_ip = 398; continue _fun00001 }
+ 392:
             foxtrot = yankee.completeCommandOptionText;
- 396:
+ 398:
             verify[2] = foxtrot;
             offset = !offset;
-            if(!offset) { _fun00002_ip = 442; continue _fun00001 }
- 406:
+            if(!offset) { _fun00002_ip = 444; continue _fun00001 }
+ 408:
             kilo = backup == romeo;
             foxtrot = undefined;
-            if(kilo) { _fun00002_ip = 436; continue _fun00001 }
- 415:
+            if(kilo) { _fun00002_ip = 438; continue _fun00001 }
+ 417:
             romeo = romeo.lastValidationResult;
             backup = backup == romeo;
             foxtrot = undefined;
-            if(backup) { _fun00002_ip = 436; continue _fun00001 }
- 430:
+            if(backup) { _fun00002_ip = 438; continue _fun00001 }
+ 432:
             foxtrot = romeo.success;
- 436:
+ 438:
             romeo = false;
             offset = romeo === foxtrot;
- 442:
-            if(!offset) { _fun00002_ip = 451; continue _fun00001 }
- 445:
+ 444:
+            if(!offset) { _fun00002_ip = 453; continue _fun00001 }
+ 447:
             offset = yankee.errorCommandOptionText;
- 451:
+ 453:
             verify[3] = offset;
             report['style'] = verify;
             verify = 1;
@@ -906,7 +906,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  615:
             golf[2] = options;
             options = null;
-            if(!offset) { _fun00012_ip = 853; continue _fun00011 }
+            if(!offset) { _fun00012_ip = 855; continue _fun00011 }
  627:
             sizing = _closure1_slot9;
             romeo = _closure1_slot8;
@@ -952,8 +952,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = kilo.options;
             update = result == source;
             result = undefined;
-            if(update) { _fun00012_ip = 839; continue _fun00011 }
- 822:
+            if(update) { _fun00012_ip = 841; continue _fun00011 }
+ 824:
             update = source.map;
             echo = function(argFoo) {
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
@@ -997,11 +997,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             result = update.bind(source)(echo);
- 839:
+ 841:
             output[2] = result;
             offset['children'] = output;
             options = sizing.bind(tango)(romeo, offset);
- 853:
+ 855:
             golf[3] = options;
             report['children'] = golf;
             oscar = zulu.bind(tango)(oscar, report);

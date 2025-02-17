@@ -329,53 +329,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot3;
             report = oscar.getChannel;
             oscar = report.bind(oscar)(options);
-            if(!(zulu != oscar)) { _fun00008_ip = 105; continue _fun00007 }
- 92:
+            if(!(zulu != oscar)) { _fun00008_ip = 109; continue _fun00007 }
+ 96:
             report = oscar.isPrivate;
             report = report.bind(oscar)();
-            if(report) { _fun00008_ip = 117; continue _fun00007 }
- 105:
+            if(report) { _fun00008_ip = 121; continue _fun00007 }
+ 109:
             report = _closure1_slot8;
             sizing = report.GUILD_CHANNEL;
-            _fun00008_ip = 127; continue _fun00007;
- 117:
+            _fun00008_ip = 131; continue _fun00007;
+ 121:
             report = _closure1_slot8;
             sizing = report.DM_CHANNEL;
- 127:
-            if(!(zulu != oscar)) { _fun00008_ip = 144; continue _fun00007 }
  131:
+            if(!(zulu != oscar)) { _fun00008_ip = 148; continue _fun00007 }
+ 135:
             report = oscar.isForumLikeChannel;
             report = report.bind(oscar)();
-            if(report) { _fun00008_ip = 173; continue _fun00007 }
- 144:
-            if(!(zulu != oscar)) { _fun00008_ip = 161; continue _fun00007 }
+            if(report) { _fun00008_ip = 177; continue _fun00007 }
  148:
+            if(!(zulu != oscar)) { _fun00008_ip = 165; continue _fun00007 }
+ 152:
             report = oscar.isForumPost;
             report = report.bind(oscar)();
-            if(report) { _fun00008_ip = 173; continue _fun00007 }
- 161:
+            if(report) { _fun00008_ip = 177; continue _fun00007 }
+ 165:
             report = _closure1_slot9;
             kilo = report.CHANNEL;
-            _fun00008_ip = 183; continue _fun00007;
- 173:
+            _fun00008_ip = 187; continue _fun00007;
+ 177:
             report = _closure1_slot9;
             kilo = report.FORUM_CHANNEL_POST;
- 183:
-            if(!(zulu == foxtrot)) { _fun00008_ip = 228; continue _fun00007 }
  187:
+            if(!(zulu == foxtrot)) { _fun00008_ip = 232; continue _fun00007 }
+ 191:
             oscar = _closure1_slot4;
             report = oscar.getMessage;
             oscar = report.bind(oscar)(options, verify);
             zulu = zulu == oscar;
             report = undefined;
-            if(zulu) { _fun00008_ip = 222; continue _fun00007 }
- 212:
+            if(zulu) { _fun00008_ip = 226; continue _fun00007 }
+ 216:
             zulu = oscar.isPoll;
             report = zulu.bind(oscar)();
- 222:
+ 226:
             zulu = true;
             foxtrot = zulu === report;
- 228:
+ 232:
             oscar = _closure1_slot1;
             zulu = _closure1_slot2;
             report = 17;

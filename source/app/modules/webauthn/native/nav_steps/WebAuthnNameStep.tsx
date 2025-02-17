@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00004_ip = 352; continue _fun00003 }
+                            if(mike) { _fun00004_ip = 354; continue _fun00003 }
  10: // try_start_0 // try_start_1
                             tango = _closure2_slot3;
                             report = undefined;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  78:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(oscar) { _fun00004_ip = 276; continue _fun00003 }
+                            if(oscar) { _fun00004_ip = 278; continue _fun00003 }
  87: // try_end0 // try_end1
                             golf = _closure2_slot3;
                             oscar = false;
@@ -189,32 +189,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = {};
                             tango = golf.bind(options)(oscar, tango);
                             return report;
- 276:
+ 278:
                             tango = _closure2_slot3;
                             zulu = false;
                             zulu = tango.bind(report)(zulu);
                             return mike;
- 290: // try_start_2 // catch_target0
+ 292: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
                             tango = _closure2_slot4;
                             mike = mike.body;
                             mike = mike.message;
                             report = undefined;
                             mike = tango.bind(report)(mike);
- 316: // try_end2
+ 318: // try_end2
                             tango = _closure2_slot3;
                             zulu = false;
                             zulu = tango.bind(report)(zulu);
                             mike = undefined;
                             return mike;
- 332: // catch_target1 // catch_target2
+ 334: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             report = _closure2_slot3;
                             tango = undefined;
                             zulu = false;
                             zulu = report.bind(tango)(zulu);
                             throw mike;
- 352:
+ 354:
                             return entity;
                         }
                     };

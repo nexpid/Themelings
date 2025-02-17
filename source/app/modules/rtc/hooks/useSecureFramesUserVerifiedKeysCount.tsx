@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 mike = entity == tango;
                 entity = 0;
-                if(mike) { _fun00004_ip = 78; continue _fun00003 }
+                if(mike) { _fun00004_ip = 76; continue _fun00003 }
  36:
                 mike = global;
                 zulu = mike.Object;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike = zulu.bind(tango)(mike);
                 entity = mike.length;
- 78:
+ 76:
                 return entity;
             }
         };

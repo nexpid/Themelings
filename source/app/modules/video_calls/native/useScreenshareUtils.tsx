@@ -306,21 +306,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = offset[entity];
                 entity = tango.bind(verify)(entity);
                 entity = entity.t;
-                if(report) { _fun00006_ip = 283; continue _fun00005 }
+                if(report) { _fun00006_ip = 285; continue _fun00005 }
  270:
                 tango = entity.fjBNo6;
                 tango = oscar.bind(options)(tango);
-                _fun00006_ip = 294; continue _fun00005;
- 283:
+                _fun00006_ip = 296; continue _fun00005;
+ 285:
                 entity = entity.CpkXwc;
                 tango = oscar.bind(options)(entity);
- 294:
+ 296:
                 entity = {};
                 oscar = _closure2_slot0;
-                if(!oscar) { _fun00006_ip = 309; continue _fun00005 }
- 306:
+                if(!oscar) { _fun00006_ip = 311; continue _fun00005 }
+ 308:
                 oscar = golf;
- 309:
+ 311:
                 entity['isFeatureEnabled'] = oscar;
                 entity['isActive'] = report;
                 entity['text'] = tango;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.StorageKeys;
             zulu = zulu.SCREENSHARE_ONBOARD;
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun00008_ip = 84; continue _fun00007 }
+            if(zulu) { _fun00008_ip = 82; continue _fun00007 }
  77:
             entity = function() {
                 zulu = _closure1_slot11;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = zulu.bind(entity)(mike);
                 return entity;
             };
- 84:
+ 82:
             return entity;
         }
     };

@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity.channel;
             var _closure2_slot0 = report;
             entity = null;
-            if(!(entity != report)) { _fun00004_ip = 455; continue _fun00003 }
+            if(!(entity != report)) { _fun00004_ip = 453; continue _fun00003 }
  23:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.id;
                     entity = mike.bind(zulu)(entity);
  48: // try_end0
-                    _fun00006_ip = 152; continue _fun00005;
+                    _fun00006_ip = 154; continue _fun00005;
  50: // catch_target0
                     CatchBlockStart(arg_register=0);
                     zulu = _closure1_slot1;
@@ -235,14 +235,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.YOsuT0;
                     entity = report.bind(oscar)(entity);
                     entity = zulu.bind(tango)(mike, entity);
- 152:
+ 154:
                     entity = undefined;
                     return entity;
                 }
             };
             entity['onConfirm'] = tango;
             entity = mike.bind(zulu)(entity);
- 455:
+ 453:
             entity = undefined;
             return entity;
         }

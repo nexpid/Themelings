@@ -145,19 +145,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == tango;
             entity = undefined;
-            if(zulu) { _fun00010_ip = 43; continue _fun00009 }
+            if(zulu) { _fun00010_ip = 41; continue _fun00009 }
  31:
             zulu = tango.isListenModeCapable;
             entity = zulu.bind(tango)();
- 43:
+ 41:
             entity = !entity;
-            if(entity) { _fun00010_ip = 68; continue _fun00009 }
- 49:
+            if(entity) { _fun00010_ip = 66; continue _fun00009 }
+ 47:
             tango = _closure1_slot8;
             zulu = tango.isSpeaker;
             mike = argFoo;
             entity = zulu.bind(tango)(mike, report);
- 68:
+ 66:
             return entity;
         }
     };

@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.intl;
             if(mike) { _fun00002_ip = 226; continue _fun00001 }
- 187:
+ 185:
             verify = zulu.formatToPlainString;
             mike = options[entity];
             mike = golf.bind(tango)(mike);
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['username'] = offset;
             oscar = verify.bind(zulu)(oscar, mike);
-            _fun00002_ip = 256; continue _fun00001;
+            _fun00002_ip = 258; continue _fun00001;
  226:
             mike = zulu.string;
             entity = options[entity];
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.AHoLf3;
             oscar = mike.bind(zulu)(entity);
- 256:
+ 258:
             zulu = _closure1_slot5;
             offset = _closure1_slot1;
             kilo = _closure1_slot2;

@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(mike, verify);
             report[2] = verify;
             golf = golf.length;
-            if(!(!(golf > options))) { _fun00004_ip = 1152; continue _fun00003 }
+            if(!(!(golf > options))) { _fun00004_ip = 1151; continue _fun00003 }
  975:
             verify = _closure1_slot8;
             options = _closure1_slot10;
@@ -568,8 +568,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = backup.bind(tango)(foxtrot, offset);
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
-            _fun00004_ip = 1277; continue _fun00003;
- 1152:
+            _fun00004_ip = 1275; continue _fun00003;
+ 1151:
             offset = _closure1_slot8;
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
@@ -598,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = true;
             options['wrapChildren'] = yankee;
             golf = offset.bind(tango)(verify, options);
- 1277:
+ 1275:
             report[3] = golf;
             options = _closure1_slot8;
             golf = _closure1_slot1;

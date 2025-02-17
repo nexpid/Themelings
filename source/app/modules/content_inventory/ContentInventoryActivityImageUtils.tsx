@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  60:
             entity = {};
             entity['src'] = zulu;
-            if(!(mike != oscar)) { _fun00002_ip = 139; continue _fun00001 }
+            if(!(mike != oscar)) { _fun00002_ip = 141; continue _fun00001 }
  71:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
@@ -50,8 +50,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = {};
             mike['applicationName'] = oscar;
             mike = tango.bind(report)(zulu, mike);
-            _fun00002_ip = 197; continue _fun00001;
- 139:
+            _fun00002_ip = 201; continue _fun00001;
+ 141:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
             zulu = 4;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.2B/phI;
             mike = tango.bind(report)(zulu);
- 197:
+ 201:
             entity['alt'] = mike;
             return entity;
         }

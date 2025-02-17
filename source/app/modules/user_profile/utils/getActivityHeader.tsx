@@ -466,10 +466,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['text'] = report;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun00002_ip = 931; continue _fun00001 }
- 926:
+            if(tango) { _fun00002_ip = 905; continue _fun00001 }
+ 900:
             mike = zulu.icon;
- 931:
+ 905:
             entity['platformIcon'] = mike;
             return entity;
         }

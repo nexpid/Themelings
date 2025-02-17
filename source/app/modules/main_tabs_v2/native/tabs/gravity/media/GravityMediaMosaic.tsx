@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = report;
             entity['style'] = romeo;
             oscar = backup;
-            if(!oscar) { _fun00012_ip = 484; continue _fun00011 }
+            if(!oscar) { _fun00012_ip = 488; continue _fun00011 }
  318:
             sizing = _closure1_slot11;
             kilo = _closure1_slot6;
@@ -426,27 +426,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = echo.bind(tango)(result, output);
             report['children'] = output;
             oscar = sizing.bind(tango)(kilo, report);
- 484:
+ 488:
             report = new Array(4);
             report[0] = oscar;
             oscar = foxtrot.videoURI;
             oscar = options != oscar;
-            if(!oscar) { _fun00012_ip = 508; continue _fun00011 }
- 505:
+            if(!oscar) { _fun00012_ip = 512; continue _fun00011 }
+ 509:
             oscar = !backup;
- 508:
-            if(!oscar) { _fun00012_ip = 523; continue _fun00011 }
- 511:
+ 512:
+            if(!oscar) { _fun00012_ip = 527; continue _fun00011 }
+ 515:
             kilo = _closure1_slot19;
             kilo = kilo.bind(tango)(foxtrot);
             oscar = !kilo;
- 523:
-            if(!oscar) { _fun00012_ip = 529; continue _fun00011 }
- 526:
+ 527:
+            if(!oscar) { _fun00012_ip = 533; continue _fun00011 }
+ 530:
             oscar = verify;
- 529:
-            if(!oscar) { _fun00012_ip = 672; continue _fun00011 }
- 535:
+ 533:
+            if(!oscar) { _fun00012_ip = 676; continue _fun00011 }
+ 539:
             sizing = _closure1_slot11;
             kilo = _closure1_slot6;
             verify = {};
@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = echo.bind(tango)(result, output);
             verify['children'] = output;
             oscar = sizing.bind(tango)(kilo, verify);
- 672:
+ 676:
             report[1] = oscar;
             verify = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -490,13 +490,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = foxtrot.uri;
             verify = verify.bind(sizing)(oscar);
             oscar = null;
-            if(!verify) { _fun00012_ip = 1022; continue _fun00011 }
- 721:
+            if(!verify) { _fun00012_ip = 1026; continue _fun00011 }
+ 725:
             verify = _closure1_slot19;
             verify = verify.bind(tango)(foxtrot);
             oscar = null;
-            if(verify) { _fun00012_ip = 1022; continue _fun00011 }
- 738:
+            if(verify) { _fun00012_ip = 1026; continue _fun00011 }
+ 742:
             output = _closure1_slot11;
             sizing = _closure1_slot6;
             verify = {};
@@ -513,13 +513,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = config.muteIcon;
             vacuum = new Array(2);
             vacuum[0] = sequence;
-            if(source) { _fun00012_ip = 815; continue _fun00011 }
- 807:
+            if(source) { _fun00012_ip = 819; continue _fun00011 }
+ 811:
             sequence = config.iconBgSelected;
-            _fun00012_ip = 821; continue _fun00011;
- 815:
+            _fun00012_ip = 825; continue _fun00011;
+ 819:
             sequence = config.iconBg;
- 821:
+ 825:
             vacuum[1] = sequence;
             result['style'] = vacuum;
             control = function() { // Original name: onPress
@@ -541,8 +541,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = _closure1_slot11;
             vacuum = _closure1_slot0;
             context = _closure1_slot2;
-            if(source) { _fun00012_ip = 937; continue _fun00011 }
- 870:
+            if(source) { _fun00012_ip = 941; continue _fun00011 }
+ 874:
             source = 25;
             source = context[source];
             source = vacuum.bind(tango)(source);
@@ -558,8 +558,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = 'sm';
             source['size'] = config;
             source = sequence.bind(tango)(control, source);
-            _fun00012_ip = 1002; continue _fun00011;
- 937:
+            _fun00012_ip = 1006; continue _fun00011;
+ 941:
             control = 24;
             control = context[control];
             control = vacuum.bind(tango)(control);
@@ -575,12 +575,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = 'sm';
             control['size'] = config;
             source = sequence.bind(tango)(vacuum, control);
- 1002:
+ 1006:
             result['children'] = source;
             result = update.bind(tango)(echo, result);
             verify['children'] = result;
             oscar = output.bind(tango)(sizing, verify);
- 1022:
+ 1026:
             report[2] = oscar;
             verify = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -589,15 +589,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = kilo.isVideo;
             oscar = foxtrot.uri;
             oscar = verify.bind(kilo)(oscar);
-            if(oscar) { _fun00012_ip = 1075; continue _fun00011 }
- 1063:
+            if(oscar) { _fun00012_ip = 1079; continue _fun00011 }
+ 1067:
             oscar = _closure1_slot19;
             oscar = oscar.bind(tango)(foxtrot);
-            if(!oscar) { _fun00012_ip = 1085; continue _fun00011 }
- 1075:
+            if(!oscar) { _fun00012_ip = 1089; continue _fun00011 }
+ 1079:
             oscar = foxtrot.videoURI;
-            if(!(options == oscar)) { _fun00012_ip = 1121; continue _fun00011 }
- 1085:
+            if(!(options == oscar)) { _fun00012_ip = 1125; continue _fun00011 }
+ 1089:
             verify = _closure1_slot11;
             options = _closure1_slot21;
             oscar = {};
@@ -606,8 +606,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['dimensions'] = romeo;
             oscar['isSpoiler'] = backup;
             oscar = verify.bind(tango)(options, oscar);
-            _fun00012_ip = 1174; continue _fun00011;
- 1121:
+            _fun00012_ip = 1178; continue _fun00011;
+ 1125:
             verify = _closure1_slot11;
             options = _closure1_slot20;
             golf = {};
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = !offset;
             golf['autoplay'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1174:
+ 1178:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

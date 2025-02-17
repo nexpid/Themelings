@@ -278,8 +278,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = verify;
             yankee = kilo.length;
             verify = 0;
-            if(!(verify === yankee)) { _fun00002_ip = 444; continue _fun00001 }
- 324:
+            if(!(verify === yankee)) { _fun00002_ip = 449; continue _fun00001 }
+ 327:
             romeo = _closure1_slot7;
             yankee = _closure1_slot4;
             verify = {};
@@ -307,8 +307,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = romeo.bind(tango)(output, sizing);
             verify['children'] = sizing;
             verify = romeo.bind(tango)(yankee, verify);
-            _fun00002_ip = 510; continue _fun00001;
- 444:
+            _fun00002_ip = 515; continue _fun00001;
+ 449:
             romeo = _closure1_slot7;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['getItemProps'] = backup;
             offset['getSectionProps'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 510:
+ 515:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

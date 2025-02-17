@@ -180,9 +180,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = true;
             if(!control) { _fun00002_ip = 501; continue _fun00001 }
  272:
-            if(sizing) { _fun00002_ip = 1341; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 1345; continue _fun00001 }
  278:
-            if(options) { _fun00002_ip = 1341; continue _fun00001 }
+            if(options) { _fun00002_ip = 1345; continue _fun00001 }
  284:
             backup = {'accessibilityRole': 'button', 'accessibilityActions': null, 'delayLongPress': 100, 'activeOpacity': 0.8};
             backup['accessibilityActions'] = context;
@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  979:
             result = entity != kilo;
             kilo = null;
-            if(!result) { _fun00002_ip = 1127; continue _fun00001 }
+            if(!result) { _fun00002_ip = 1129; continue _fun00001 }
  991:
             update = _closure1_slot6;
             sequence = _closure1_slot1;
@@ -543,11 +543,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = source.sparkleIcon;
             result['style'] = source;
             kilo = update.bind(report)(echo, result);
- 1127:
+ 1129:
             backup[1] = kilo;
             kilo = null;
-            if(!sizing) { _fun00002_ip = 1186; continue _fun00001 }
- 1136:
+            if(!sizing) { _fun00002_ip = 1188; continue _fun00001 }
+ 1138:
             echo = _closure1_slot6;
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = sizing.LockIcon;
             sizing = {'size': 'xxs', 'color': 'icon-secondary'};
             kilo = echo.bind(report)(result, sizing);
- 1186:
+ 1188:
             backup[2] = kilo;
             offset['children'] = backup;
             offset = romeo.bind(report)(yankee, offset);
@@ -567,8 +567,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify[foxtrot];
             offset = romeo.bind(report)(offset);
             yankee = offset.intl;
-            if(options) { _fun00002_ip = 1290; continue _fun00001 }
- 1229:
+            if(options) { _fun00002_ip = 1292; continue _fun00001 }
+ 1231:
             backup = yankee.formatToPlainString;
             options = verify[foxtrot];
             options = romeo.bind(report)(options);
@@ -582,21 +582,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(kilo)(output);
             options['count'] = kilo;
             options = backup.bind(yankee)(offset, options);
-            _fun00002_ip = 1320; continue _fun00001;
- 1290:
+            _fun00002_ip = 1324; continue _fun00001;
+ 1292:
             offset = yankee.string;
             verify = verify[foxtrot];
             verify = romeo.bind(report)(verify);
             verify = verify.t;
             verify = verify.72gF3N;
             options = offset.bind(yankee)(verify);
- 1320:
+ 1324:
             mike['subLabel'] = options;
             mike['start'] = golf;
             mike['end'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1341:
+ 1345:
             return entity;
         }
     };

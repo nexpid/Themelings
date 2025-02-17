@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike == golf;
             entity = undefined;
             zulu = undefined;
-            if(oscar) { _fun00006_ip = 52; continue _fun00005 }
+            if(oscar) { _fun00006_ip = 50; continue _fun00005 }
  35:
             oscar = golf.map;
             report = function(argFoo) {
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             zulu = oscar.bind(golf)(report);
- 52:
-            if(!(mike == zulu)) { _fun00006_ip = 60; continue _fun00005 }
- 56:
+ 50:
+            if(!(mike == zulu)) { _fun00006_ip = 58; continue _fun00005 }
+ 54:
             zulu = new Array(0);
- 60:
+ 58:
             mike = argFoo;
             tango[mike] = zulu;
             return entity;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity[tango];
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun00010_ip = 95; continue _fun00009 }
+            if(!entity) { _fun00010_ip = 93; continue _fun00009 }
  32:
             golf = _closure1_slot9;
             options = zulu.filter;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike[tango];
             mike = mike.length;
             entity = zulu !== mike;
- 95:
+ 93:
             return entity;
         }
     };
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot9;
             options = mike[report];
             zulu = null;
-            if(!(zulu != options)) { _fun00012_ip = 143; continue _fun00011 }
+            if(!(zulu != options)) { _fun00012_ip = 141; continue _fun00011 }
  29:
             mike = _closure1_slot9;
             golf = options.map;
@@ -248,15 +248,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.id;
             report = mike[entity];
             entity = zulu != report;
-            if(!entity) { _fun00012_ip = 91; continue _fun00011 }
- 74:
+            if(!entity) { _fun00012_ip = 89; continue _fun00011 }
+ 72:
             golf = _closure1_slot12;
             mike = report.id;
             mike = golf[mike];
             entity = zulu != mike;
- 91:
-            if(!entity) { _fun00012_ip = 139; continue _fun00011 }
- 94:
+ 89:
+            if(!entity) { _fun00012_ip = 137; continue _fun00011 }
+ 92:
             zulu = _closure1_slot12;
             mike = report.id;
             entity = {};
@@ -269,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango;
             tango = copyDataProperties(offset, verify);
             zulu[mike] = entity;
- 139:
+ 137:
             entity = undefined;
             return entity;
- 143:
+ 141:
             entity = false;
             return entity;
         }
@@ -564,7 +564,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu[entity];
             var _closure2_slot0 = zulu;
             entity = null;
-            if(!(entity != zulu)) { _fun00022_ip = 61; continue _fun00021 }
+            if(!(entity != zulu)) { _fun00022_ip = 59; continue _fun00021 }
  37:
             entity = global;
             zulu = entity.setImmediate;
@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = zulu.bind(entity)(mike);
             return entity;
- 61:
+ 59:
             entity = false;
             return entity;
         }
@@ -606,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu[entity];
             var _closure2_slot1 = zulu;
             entity = null;
-            if(!(entity != zulu)) { _fun00026_ip = 71; continue _fun00025 }
+            if(!(entity != zulu)) { _fun00026_ip = 69; continue _fun00025 }
  47:
             entity = global;
             zulu = entity.setImmediate;
@@ -620,7 +620,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = zulu.bind(entity)(mike);
             return entity;
- 71:
+ 69:
             entity = false;
             return entity;
         }

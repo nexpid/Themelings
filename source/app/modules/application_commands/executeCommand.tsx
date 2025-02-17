@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = verify.getCommandAttachmentDraftType;
                     update = report.bind(verify)(backup);
                     report = golf.options;
-                    if(!(offset != report)) { _fun00008_ip = 5611; continue _fun00007 }
+                    if(!(offset != report)) { _fun00008_ip = 5613; continue _fun00007 }
  394:
                     verify = _closure1_slot18;
                     report = golf.options;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     control = undefined;
                     source = undefined;
                     verify = undefined;
-                    if(report) { _fun00008_ip = 5611; continue _fun00007 }
+                    if(report) { _fun00008_ip = 5613; continue _fun00007 }
  564:
                     r112 = variable44.value;
                     variable93 = r112.type;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!(variable93 !== report)) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(!(variable93 !== report)) { _fun00008_ip = 5526; continue _fun00007 }
  679:
                     variable93 = r112.type;
                     variable94 = _closure1_slot0;
@@ -414,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!(variable93 !== report)) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(!(variable93 !== report)) { _fun00008_ip = 5526; continue _fun00007 }
  789:
                     report = r112.name;
                     report = report in variable69;
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!report) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(!report) { _fun00008_ip = 5526; continue _fun00007 }
  873:
                     r109 = oscar.autocomplete;
                     report = offset == r109;
@@ -554,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = variable94;
                     variable71 = variable93;
                     variable70 = report;
-                    if(!r107) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(!r107) { _fun00008_ip = 5526; continue _fun00007 }
  1242:
                     variable97 = _closure1_slot1;
                     variable96 = _closure1_slot3;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = variable94;
                     variable71 = variable93;
                     variable70 = report;
-                    _fun00008_ip = 5524; continue _fun00007;
+                    _fun00008_ip = 5526; continue _fun00007;
  1417:
                     variable93 = r112.type;
                     variable94 = _closure1_slot0;
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(report) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(report) { _fun00008_ip = 5526; continue _fun00007 }
  1542:
                     variable95 = _closure1_slot8;
                     variable94 = variable95.getUpload;
@@ -671,7 +671,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(variable93) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(variable93) { _fun00008_ip = 5526; continue _fun00007 }
  1652:
                     variable95 = result.length;
                     variable93 = result.push;
@@ -708,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    _fun00008_ip = 5524; continue _fun00007;
+                    _fun00008_ip = 5526; continue _fun00007;
  1779:
                     variable94 = _closure1_slot2;
                     report = _closure1_slot3;
@@ -759,7 +759,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!r107) { _fun00008_ip = 5524; continue _fun00007 }
+                    if(!r107) { _fun00008_ip = 5526; continue _fun00007 }
  1961:
                     r108 = r105[variable49];
                     r104 = r108;
@@ -774,7 +774,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.CHANNEL;
-                    if(!(report !== variable93)) { _fun00008_ip = 4807; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 4809; continue _fun00007 }
  2027:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -782,7 +782,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.ROLE;
-                    if(!(report !== variable93)) { _fun00008_ip = 4271; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 4273; continue _fun00007 }
  2063:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -790,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.USER;
-                    if(!(report !== variable93)) { _fun00008_ip = 3868; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 3870; continue _fun00007 }
  2099:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -798,7 +798,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.MENTIONABLE;
-                    if(!(report !== variable93)) { _fun00008_ip = 3119; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 3121; continue _fun00007 }
  2135:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -806,7 +806,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.BOOLEAN;
-                    if(!(report !== variable93)) { _fun00008_ip = 2979; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 2981; continue _fun00007 }
  2171:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -814,7 +814,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = variable94.bind(foxtrot)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.INTEGER;
-                    if(!(report !== variable93)) { _fun00008_ip = 2637; continue _fun00007 }
+                    if(!(report !== variable93)) { _fun00008_ip = 2638; continue _fun00007 }
  2207:
                     variable94 = _closure1_slot0;
                     report = _closure1_slot3;
@@ -852,7 +852,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
  2348:
                     r111 = r104.text;
                     r110 = r111.trim;
@@ -908,7 +908,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = r110;
-                    if(!(offset == r106)) { _fun00008_ip = 5183; continue _fun00007 }
+                    if(!(offset == r106)) { _fun00008_ip = 5185; continue _fun00007 }
  2544:
                     r113 = variable66.Number;
                     r114 = _closure1_slot2;
@@ -933,8 +933,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = r110;
-                    _fun00008_ip = 5183; continue _fun00007;
- 2637:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 2638:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -950,23 +950,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 2690:
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 2691:
                     r111 = r104.text;
                     r110 = r111.trim;
                     r110 = r110.bind(r111)();
                     r111 = r112.choices;
-                    if(!(offset == r111)) { _fun00008_ip = 2802; continue _fun00007 }
- 2715:
+                    if(!(offset == r111)) { _fun00008_ip = 2803; continue _fun00007 }
+ 2716:
                     r113 = r112.autocomplete;
                     r111 = undefined;
-                    if(!r113) { _fun00008_ip = 2837; continue _fun00007 }
- 2726:
+                    if(!r113) { _fun00008_ip = 2838; continue _fun00007 }
+ 2727:
                     r113 = oscar.autocomplete;
-                    if(!(offset != r113)) { _fun00008_ip = 2739; continue _fun00007 }
- 2736:
-                    if(r107) { _fun00008_ip = 2786; continue _fun00007 }
- 2739:
+                    if(!(offset != r113)) { _fun00008_ip = 2740; continue _fun00007 }
+ 2737:
+                    if(r107) { _fun00008_ip = 2787; continue _fun00007 }
+ 2740:
                     r114 = _closure1_slot0;
                     r113 = _closure1_slot3;
                     r113 = r113[variable52];
@@ -976,14 +976,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r114 = r113.id;
                     r113 = r112.name;
                     r113 = r115.bind(r116)(r114, r113, r110);
-                    _fun00008_ip = 2797; continue _fun00007;
- 2786:
+                    _fun00008_ip = 2798; continue _fun00007;
+ 2787:
                     r114 = oscar.autocomplete;
                     r113 = r114.query;
- 2797:
+ 2798:
                     r111 = r113;
-                    _fun00008_ip = 2837; continue _fun00007;
- 2802:
+                    _fun00008_ip = 2838; continue _fun00007;
+ 2803:
                     r114 = _closure1_slot0;
                     r113 = _closure1_slot3;
                     r113 = r113[variable52];
@@ -991,7 +991,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r114 = r115.findChoiceNumberValue;
                     r113 = r112.choices;
                     r111 = r114.bind(r115)(r113, r110);
- 2837:
+ 2838:
                     r106 = r111;
                     r103 = variable37;
                     r102 = variable36;
@@ -1006,8 +1006,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = r110;
                     report = config;
-                    if(!(offset == r106)) { _fun00008_ip = 5183; continue _fun00007 }
- 2886:
+                    if(!(offset == r106)) { _fun00008_ip = 5185; continue _fun00007 }
+ 2887:
                     r113 = variable66.Number;
                     r114 = _closure1_slot2;
                     r111 = _closure1_slot3;
@@ -1031,8 +1031,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = r110;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 2979:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 2981:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -1048,8 +1048,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 3032:
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 3034:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable52];
@@ -1072,20 +1072,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3119:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3121:
                     r110 = r104.type;
-                    if(!(variable53 !== r110)) { _fun00008_ip = 3819; continue _fun00007 }
- 3131:
+                    if(!(variable53 !== r110)) { _fun00008_ip = 3821; continue _fun00007 }
+ 3133:
                     r110 = r104.type;
-                    if(!(variable57 !== r110)) { _fun00008_ip = 3769; continue _fun00007 }
- 3143:
+                    if(!(variable57 !== r110)) { _fun00008_ip = 3771; continue _fun00007 }
+ 3145:
                     r110 = r104.type;
-                    if(!(variable54 === r110)) { _fun00008_ip = 3164; continue _fun00007 }
- 3152:
+                    if(!(variable54 === r110)) { _fun00008_ip = 3166; continue _fun00007 }
+ 3154:
                     r110 = r104.text;
-                    if(!(variable55 !== r110)) { _fun00008_ip = 3703; continue _fun00007 }
- 3164:
+                    if(!(variable55 !== r110)) { _fun00008_ip = 3705; continue _fun00007 }
+ 3166:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -1101,8 +1101,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 3217:
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 3219:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable68];
@@ -1110,8 +1110,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = r113.isSnowflake;
                     r110 = r104.text;
                     r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 3644; continue _fun00007 }
- 3256:
+                    if(r110) { _fun00008_ip = 3646; continue _fun00007 }
+ 3258:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable59];
@@ -1121,40 +1121,40 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = oscar.guild;
                     r110 = offset == r111;
                     r113 = undefined;
-                    if(r110) { _fun00008_ip = 3303; continue _fun00007 }
- 3298:
+                    if(r110) { _fun00008_ip = 3305; continue _fun00007 }
+ 3300:
                     r113 = r111.id;
- 3303:
+ 3305:
                     r110 = oscar.channel;
                     r110 = r110.id;
                     r110 = r115.bind(r116)(r114, r113, r110);
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 3334; continue _fun00007 }
- 3329:
+                    if(r114) { _fun00008_ip = 3336; continue _fun00007 }
+ 3331:
                     r113 = r110.type;
- 3334:
-                    if(!(variable53 !== r113)) { _fun00008_ip = 3595; continue _fun00007 }
- 3341:
+ 3336:
+                    if(!(variable53 !== r113)) { _fun00008_ip = 3597; continue _fun00007 }
+ 3343:
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 3355; continue _fun00007 }
- 3350:
+                    if(r114) { _fun00008_ip = 3357; continue _fun00007 }
+ 3352:
                     r113 = r110.type;
- 3355:
-                    if(!(variable57 !== r113)) { _fun00008_ip = 3545; continue _fun00007 }
- 3362:
+ 3357:
+                    if(!(variable57 !== r113)) { _fun00008_ip = 3547; continue _fun00007 }
+ 3364:
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 3376; continue _fun00007 }
- 3371:
+                    if(r114) { _fun00008_ip = 3378; continue _fun00007 }
+ 3373:
                     r113 = r110.type;
- 3376:
-                    if(!(variable54 === r113)) { _fun00008_ip = 3389; continue _fun00007 }
- 3380:
+ 3378:
+                    if(!(variable54 === r113)) { _fun00008_ip = 3391; continue _fun00007 }
+ 3382:
                     r113 = r110.text;
-                    if(!(variable55 !== r113)) { _fun00008_ip = 3479; continue _fun00007 }
- 3389:
+                    if(!(variable55 !== r113)) { _fun00008_ip = 3481; continue _fun00007 }
+ 3391:
                     r114 = _closure1_slot1;
                     r113 = _closure1_slot3;
                     r113 = r113[variable63];
@@ -1178,15 +1178,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3479:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3481:
                     r113 = oscar.guild;
                     r115 = offset == r113;
                     r114 = undefined;
-                    if(r115) { _fun00008_ip = 3498; continue _fun00007 }
- 3493:
+                    if(r115) { _fun00008_ip = 3500; continue _fun00007 }
+ 3495:
                     r114 = r113.id;
- 3498:
+ 3500:
                     r106 = r114;
                     r103 = variable37;
                     r102 = variable36;
@@ -1201,8 +1201,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = r113;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3545:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3547:
                     r106 = r110.roleId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1217,8 +1217,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3595:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3597:
                     r106 = r110.userId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1233,8 +1233,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3644:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3646:
                     r111 = r104.text;
                     r110 = r111.trim;
                     r106 = r110.bind(r111)();
@@ -1251,15 +1251,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3703:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3705:
                     r110 = oscar.guild;
                     r113 = offset == r110;
                     r111 = undefined;
-                    if(r113) { _fun00008_ip = 3722; continue _fun00007 }
- 3717:
+                    if(r113) { _fun00008_ip = 3724; continue _fun00007 }
+ 3719:
                     r111 = r110.id;
- 3722:
+ 3724:
                     r106 = r111;
                     r103 = variable37;
                     r102 = variable36;
@@ -1274,8 +1274,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3769:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3771:
                     r106 = r104.roleId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1290,8 +1290,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3819:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3821:
                     r106 = r104.userId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1306,11 +1306,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 3868:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 3870:
                     r110 = r104.type;
-                    if(!(variable53 !== r110)) { _fun00008_ip = 4222; continue _fun00007 }
- 3880:
+                    if(!(variable53 !== r110)) { _fun00008_ip = 4224; continue _fun00007 }
+ 3882:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -1326,8 +1326,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 3933:
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 3935:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable68];
@@ -1335,8 +1335,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = r113.isSnowflake;
                     r110 = r104.text;
                     r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 4163; continue _fun00007 }
- 3972:
+                    if(r110) { _fun00008_ip = 4165; continue _fun00007 }
+ 3974:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable59];
@@ -1346,10 +1346,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = oscar.guild;
                     r110 = offset == r111;
                     r114 = undefined;
-                    if(r110) { _fun00008_ip = 4019; continue _fun00007 }
- 4014:
+                    if(r110) { _fun00008_ip = 4021; continue _fun00007 }
+ 4016:
                     r114 = r111.id;
- 4019:
+ 4021:
                     r110 = oscar.channel;
                     r120 = r110.id;
                     r110 = {};
@@ -1365,10 +1365,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r115 = r114.bind(foxtrot)(r113);
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 4083; continue _fun00007 }
- 4078:
+                    if(r114) { _fun00008_ip = 4085; continue _fun00007 }
+ 4080:
                     r113 = r110.type;
- 4083:
+ 4085:
                     r116 = r104.text;
                     r114 = variable66.HermesInternal;
                     r114 = r114.concat;
@@ -1389,8 +1389,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4163:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4165:
                     r111 = r104.text;
                     r110 = r111.trim;
                     r106 = r110.bind(r111)();
@@ -1407,8 +1407,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4222:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4224:
                     r106 = r104.userId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1423,14 +1423,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4271:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4273:
                     r110 = r104.type;
-                    if(!(variable57 !== r110)) { _fun00008_ip = 4757; continue _fun00007 }
- 4283:
+                    if(!(variable57 !== r110)) { _fun00008_ip = 4759; continue _fun00007 }
+ 4285:
                     r110 = r104.type;
-                    if(!(variable58 !== r110)) { _fun00008_ip = 4467; continue _fun00007 }
- 4295:
+                    if(!(variable58 !== r110)) { _fun00008_ip = 4469; continue _fun00007 }
+ 4297:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -1446,8 +1446,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable54 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 4348:
+                    if(!(variable54 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 4350:
                     r110 = r104.text;
                     r106 = undefined;
                     r103 = variable37;
@@ -1463,15 +1463,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable55 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 4401:
+                    if(!(variable55 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 4403:
                     r110 = oscar.guild;
                     r113 = offset == r110;
                     r111 = undefined;
-                    if(r113) { _fun00008_ip = 4420; continue _fun00007 }
- 4415:
+                    if(r113) { _fun00008_ip = 4422; continue _fun00007 }
+ 4417:
                     r111 = r110.id;
- 4420:
+ 4422:
                     r106 = r111;
                     r103 = variable37;
                     r102 = variable36;
@@ -1486,8 +1486,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4467:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4469:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable68];
@@ -1495,8 +1495,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = r113.isSnowflake;
                     r110 = r104.text;
                     r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 4698; continue _fun00007 }
- 4506:
+                    if(r110) { _fun00008_ip = 4700; continue _fun00007 }
+ 4508:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable59];
@@ -1506,10 +1506,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = oscar.guild;
                     r110 = offset == r111;
                     r114 = undefined;
-                    if(r110) { _fun00008_ip = 4553; continue _fun00007 }
- 4548:
+                    if(r110) { _fun00008_ip = 4555; continue _fun00007 }
+ 4550:
                     r114 = r111.id;
- 4553:
+ 4555:
                     r110 = oscar.channel;
                     r120 = r110.id;
                     r110 = {};
@@ -1525,10 +1525,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r115 = r114.bind(foxtrot)(r113);
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 4617; continue _fun00007 }
- 4612:
+                    if(r114) { _fun00008_ip = 4619; continue _fun00007 }
+ 4614:
                     r113 = r110.type;
- 4617:
+ 4619:
                     r116 = r104.text;
                     r114 = variable66.HermesInternal;
                     r114 = r114.concat;
@@ -1549,8 +1549,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4698:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4700:
                     r111 = r104.text;
                     r110 = r111.trim;
                     r106 = r110.bind(r111)();
@@ -1567,8 +1567,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4757:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4759:
                     r106 = r104.roleId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1583,11 +1583,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 4807:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 4809:
                     r110 = r104.type;
-                    if(!(variable60 !== r110)) { _fun00008_ip = 5139; continue _fun00007 }
- 4819:
+                    if(!(variable60 !== r110)) { _fun00008_ip = 5141; continue _fun00007 }
+ 4821:
                     r110 = r104.type;
                     r106 = undefined;
                     r103 = variable37;
@@ -1603,8 +1603,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5183; continue _fun00007 }
- 4872:
+                    if(!(variable58 === r110)) { _fun00008_ip = 5185; continue _fun00007 }
+ 4874:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable68];
@@ -1612,8 +1612,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = r113.isSnowflake;
                     r110 = r104.text;
                     r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 5083; continue _fun00007 }
- 4911:
+                    if(r110) { _fun00008_ip = 5085; continue _fun00007 }
+ 4913:
                     r111 = _closure1_slot0;
                     r110 = _closure1_slot3;
                     r110 = r110[variable59];
@@ -1623,10 +1623,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r111 = oscar.guild;
                     r110 = offset == r111;
                     r113 = undefined;
-                    if(r110) { _fun00008_ip = 4958; continue _fun00007 }
- 4953:
+                    if(r110) { _fun00008_ip = 4960; continue _fun00007 }
+ 4955:
                     r113 = r111.id;
- 4958:
+ 4960:
                     r110 = oscar.channel;
                     r110 = r110.id;
                     r110 = r115.bind(r116)(r114, r113, r110);
@@ -1636,10 +1636,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     r115 = r114.bind(foxtrot)(r113);
                     r114 = offset == r110;
                     r113 = undefined;
-                    if(r114) { _fun00008_ip = 5006; continue _fun00007 }
- 5001:
+                    if(r114) { _fun00008_ip = 5008; continue _fun00007 }
+ 5003:
                     r113 = r110.type;
- 5006:
+ 5008:
                     r116 = r104.text;
                     r114 = variable66.HermesInternal;
                     r114 = r114.concat;
@@ -1660,8 +1660,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 5083:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 5085:
                     r111 = r104.text;
                     r110 = r111.trim;
                     r106 = r110.bind(r111)();
@@ -1678,8 +1678,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
-                    _fun00008_ip = 5183; continue _fun00007;
- 5139:
+                    _fun00008_ip = 5185; continue _fun00007;
+ 5141:
                     r106 = r104.channelId;
                     r103 = variable37;
                     r102 = variable36;
@@ -1694,17 +1694,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable94 = context;
                     variable93 = record;
                     report = config;
- 5183:
+ 5185:
                     r110 = variable62 !== r106;
-                    if(r110) { _fun00008_ip = 5200; continue _fun00007 }
- 5190:
+                    if(r110) { _fun00008_ip = 5202; continue _fun00007 }
+ 5192:
                     r111 = oscar.autocomplete;
                     r110 = offset == r111;
- 5200:
-                    if(r110) { _fun00008_ip = 5206; continue _fun00007 }
- 5203:
+ 5202:
+                    if(r110) { _fun00008_ip = 5208; continue _fun00007 }
+ 5205:
                     r110 = r107;
- 5206:
+ 5208:
                     variable92 = r109;
                     variable91 = r108;
                     variable90 = r107;
@@ -1728,18 +1728,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!r110) { _fun00008_ip = 5524; continue _fun00007 }
- 5281:
+                    if(!r110) { _fun00008_ip = 5526; continue _fun00007 }
+ 5283:
                     r111 = _closure1_slot1;
                     r110 = _closure1_slot3;
                     r110 = r110[variable63];
                     r113 = r111.bind(foxtrot)(r110);
                     r110 = oscar.autocomplete;
                     r111 = offset != r110;
-                    if(r111) { _fun00008_ip = 5315; continue _fun00007 }
- 5311:
+                    if(r111) { _fun00008_ip = 5317; continue _fun00007 }
+ 5313:
                     r111 = offset != r106;
- 5315:
+ 5317:
                     r114 = r112.name;
                     r110 = variable66.HermesInternal;
                     r110 = r110.concat;
@@ -1768,8 +1768,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
-                    if(!(offset != r106)) { _fun00008_ip = 5524; continue _fun00007 }
- 5416:
+                    if(!(offset != r106)) { _fun00008_ip = 5526; continue _fun00007 }
+ 5418:
                     r111 = sequence.push;
                     r110 = {};
                     r113 = r112.type;
@@ -1802,7 +1802,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable72 = control;
                     variable71 = source;
                     variable70 = verify;
- 5524:
+ 5526:
                     variable93 = variable67.bind(foxtrot)();
                     report = variable93.done;
                     variable43 = variable92;
@@ -1830,11 +1830,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = variable70;
                     variable44 = variable93;
                     if(!report) { _fun00008_ip = 564; continue _fun00007 }
- 5611:
+ 5613:
                     verify = golf.subCommandPath;
                     report = sequence;
-                    if(!(offset != verify)) { _fun00008_ip = 5710; continue _fun00007 }
- 5624:
+                    if(!(offset != verify)) { _fun00008_ip = 5712; continue _fun00007 }
+ 5626:
                     verify = golf.subCommandPath;
                     verify = verify.length;
                     vacuum = 1;
@@ -1842,8 +1842,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     source = 0;
                     verify = sequence;
                     report = verify;
-                    if(!(control >= source)) { _fun00008_ip = 5710; continue _fun00007 }
- 5654:
+                    if(!(control >= source)) { _fun00008_ip = 5712; continue _fun00007 }
+ 5656:
                     sequence = golf.subCommandPath;
                     record = sequence[control];
                     sequence = record.name;
@@ -1857,11 +1857,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     control = control - vacuum;
                     verify = sequence;
                     report = verify;
-                    if(control >= source) { _fun00008_ip = 5654; continue _fun00007 }
- 5710:
+                    if(control >= source) { _fun00008_ip = 5656; continue _fun00007 }
+ 5712:
                     verify = golf.execute;
                     if(!(offset == verify)) { _fun00008_ip = 6179; continue _fun00007 }
- 5723:
+ 5725:
                     source = golf.inputType;
                     control = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -1871,7 +1871,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN;
                     if(!(source !== verify)) { _fun00008_ip = 6176; continue _fun00007 }
- 5768:
+ 5770:
                     source = golf.inputType;
                     control = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -1880,7 +1880,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN_TEXT;
                     if(!(source !== verify)) { _fun00008_ip = 6176; continue _fun00007 }
- 5810:
+ 5812:
                     source = golf.inputType;
                     control = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -1889,53 +1889,53 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN_INTEGRATION;
                     if(!(source !== verify)) { _fun00008_ip = 6176; continue _fun00007 }
- 5852:
+ 5854:
                     verify = {};
                     source = golf.version;
                     verify['version'] = source;
                     control = golf.rootCommand;
                     vacuum = offset == control;
                     source = undefined;
-                    if(vacuum) { _fun00008_ip = 5885; continue _fun00007 }
- 5880:
+                    if(vacuum) { _fun00008_ip = 5887; continue _fun00007 }
+ 5882:
                     source = control.id;
- 5885:
-                    if(!(offset == source)) { _fun00008_ip = 5894; continue _fun00007 }
- 5889:
+ 5887:
+                    if(!(offset == source)) { _fun00008_ip = 5896; continue _fun00007 }
+ 5891:
                     source = golf.id;
- 5894:
+ 5896:
                     verify['id'] = source;
                     source = golf.guildId;
                     verify['guild_id'] = source;
                     control = golf.rootCommand;
                     vacuum = offset == control;
                     source = undefined;
-                    if(vacuum) { _fun00008_ip = 5927; continue _fun00007 }
- 5922:
+                    if(vacuum) { _fun00008_ip = 5929; continue _fun00007 }
+ 5924:
                     source = control.name;
- 5927:
-                    if(!(offset == source)) { _fun00008_ip = 5937; continue _fun00007 }
- 5931:
+ 5929:
+                    if(!(offset == source)) { _fun00008_ip = 5939; continue _fun00007 }
+ 5933:
                     source = golf.untranslatedName;
- 5937:
+ 5939:
                     verify['name'] = source;
                     source = golf.type;
                     verify['type'] = source;
                     verify['options'] = report;
                     source = golf.rootCommand;
                     verify['application_command'] = source;
-                    if(!(offset != echo)) { _fun00008_ip = 5975; continue _fun00007 }
- 5969:
+                    if(!(offset != echo)) { _fun00008_ip = 5977; continue _fun00007 }
+ 5971:
                     verify['target_id'] = echo;
- 5975:
-                    if(!options) { _fun00008_ip = 5988; continue _fun00007 }
- 5978:
+ 5977:
+                    if(!options) { _fun00008_ip = 5990; continue _fun00007 }
+ 5980:
                     options = true;
                     verify['client_supports_contextless_activity_launch'] = options;
- 5988:
+ 5990:
                     options = oscar.autocomplete;
                     if(!(offset == options)) { _fun00008_ip = 6143; continue _fun00007 }
- 6001:
+ 6003:
                     offset = _closure1_slot1;
                     echo = _closure1_slot3;
                     options = 20;
@@ -2127,7 +2127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = argBar;
                     offset = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun00012_ip = 684; continue _fun00011 }
+                    if(report) { _fun00012_ip = 674; continue _fun00011 }
  21:
                     var _closure4_slot0 = mike;
                     var _closure4_slot1 = tango;
@@ -2136,7 +2136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     var _closure4_slot2 = oscar;
                     report = tango.channel;
                     sizing = null;
-                    if(!(sizing != report)) { _fun00012_ip = 679; continue _fun00011 }
+                    if(!(sizing != report)) { _fun00012_ip = 669; continue _fun00011 }
  51:
                     verify = _closure1_slot2;
                     yankee = _closure1_slot3;
@@ -2153,7 +2153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = mike.applicationId;
                     golf = romeo.bind(foxtrot)(yankee, verify, golf);
                     options = golf;
-                    if(!(sizing != golf)) { _fun00012_ip = 674; continue _fun00011 }
+                    if(!(sizing != golf)) { _fun00012_ip = 664; continue _fun00011 }
  126:
                     golf = options;
                     golf = golf.application;
@@ -2397,13 +2397,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     mike['onFailure'] = zulu;
                     return mike;
+ 664:
+                    mike = {};
+                    return mike;
+ 669:
+                    mike = {};
+                    return mike;
  674:
-                    mike = {};
-                    return mike;
- 679:
-                    mike = {};
-                    return mike;
- 684:
                     return entity;
                 }
             };
@@ -2688,7 +2688,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = argFoo;
                     mike = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00022_ip = 484; continue _fun00021 }
+                    if(zulu) { _fun00022_ip = 482; continue _fun00021 }
  18:
                     golf = mike;
                     var _closure4_slot0 = mike;
@@ -2758,13 +2758,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure1_slot25;
                     zulu = false;
                     mike = mike.bind(oscar)(options, zulu);
-                    SaveGenerator(address=111);
- 109:
+                    SaveGenerator(address=109);
+ 107:
                     return mike;
- 111:
+ 109:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(options) { _fun00022_ip = 481; continue _fun00021 }
- 120:
+                    if(options) { _fun00022_ip = 479; continue _fun00021 }
+ 118:
                     yankee = mike.totalSize;
                     verify = mike.largestUploadedFileSize;
                     tango = verify;
@@ -2773,8 +2773,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = kilo.max;
                     options = _closure1_slot15;
                     options = foxtrot.bind(kilo)(sizing, options);
-                    if(!(!(verify > options))) { _fun00022_ip = 473; continue _fun00021 }
- 165:
+                    if(!(!(verify > options))) { _fun00022_ip = 471; continue _fun00021 }
+ 163:
                     verify = yankee;
                     kilo = _closure1_slot0;
                     options = _closure1_slot3;
@@ -2782,8 +2782,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options[foxtrot];
                     options = kilo.bind(oscar)(options);
                     options = options.MAX_TOTAL_ATTACHMENT_SIZE;
-                    if(!(!(verify > options))) { _fun00022_ip = 473; continue _fun00021 }
- 201: // try_start_0
+                    if(!(!(verify > options))) { _fun00022_ip = 471; continue _fun00021 }
+ 199: // try_start_0
                     verify = _closure1_slot0;
                     kilo = _closure1_slot3;
                     options = 35;
@@ -2792,17 +2792,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = kilo.stageAttachmentFiles;
                     options = backup;
                     options = verify.bind(kilo)(options);
-                    SaveGenerator(address=239);
+                    SaveGenerator(address=237);
+ 235:
+                    return options;
  237:
-                    return options;
- 239:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00022_ip = 247; continue _fun00021 }
- 245: // try_end0
+                    if(verify) { _fun00022_ip = 245; continue _fun00021 }
+ 243: // try_end0
                     _fun00022_ip = 354; continue _fun00021;
- 247:
+ 245:
                     return options;
- 250: // catch_target0
+ 248: // catch_target0
                     CatchBlockStart(arg_register=7);
                     verify = _closure1_slot2;
                     echo = _closure1_slot3;
@@ -2837,7 +2837,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return golf;
  373:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(options) { _fun00022_ip = 470; continue _fun00021 }
+                    if(options) { _fun00022_ip = 468; continue _fun00021 }
  379:
                     yankee = golf.totalSize;
                     tango = golf.largestUploadedFileSize;
@@ -2853,33 +2853,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     romeo = backup.bind(kilo)(romeo);
                     verify = romeo;
-                    if(romeo) { _fun00022_ip = 445; continue _fun00021 }
- 418:
+                    if(romeo) { _fun00022_ip = 443; continue _fun00021 }
+ 416:
                     romeo = _closure1_slot0;
                     offset = _closure1_slot3;
                     offset = offset[foxtrot];
                     offset = romeo.bind(oscar)(offset);
                     offset = offset.MAX_TOTAL_ATTACHMENT_SIZE;
                     verify = yankee > offset;
- 445:
+ 443:
                     verify = !verify;
                     options = verify;
-                    if(verify) { _fun00022_ip = 467; continue _fun00021 }
- 454:
+                    if(verify) { _fun00022_ip = 465; continue _fun00021 }
+ 452:
                     offset = report;
                     verify = tango;
                     verify = offset.bind(oscar)(verify);
                     options = false;
- 467:
+ 465:
                     return options;
- 470:
+ 468:
                     return golf;
- 473:
+ 471:
                     tango = report.bind(oscar)(tango);
                     return zulu;
- 481:
+ 479:
                     return mike;
- 484:
+ 482:
                     return entity;
                 }
             };
@@ -3028,8 +3028,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.bind(zulu)(entity);
             mike = tango.length;
             entity = 0;
-            if(!(mike > entity)) { _fun00026_ip = 104; continue _fun00025 }
- 52:
+            if(!(mike > entity)) { _fun00026_ip = 102; continue _fun00025 }
+ 50:
             zulu = _closure1_slot1;
             mike = _closure1_slot3;
             entity = 10;
@@ -3042,7 +3042,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['type'] = report;
             entity['emojiUsed'] = tango;
             entity = mike.bind(zulu)(entity);
- 104:
+ 102:
             entity = undefined;
             return entity;
         }
@@ -3153,7 +3153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = entity;
             report = zulu.channel;
             verify = null;
-            if(!(verify != report)) { _fun00032_ip = 412; continue _fun00031 }
+            if(!(verify != report)) { _fun00032_ip = 408; continue _fun00031 }
  85:
             report = zulu.channel;
             zulu = zulu.guild;
@@ -3223,7 +3223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  355:
             tango = _closure1_slot21;
             tango = tango.bind(entity)(zulu, options);
-            _fun00032_ip = 412; continue _fun00031;
+            _fun00032_ip = 408; continue _fun00031;
  367:
             control = zulu.nonce;
             zulu = function() { // Original name: stageAttachments
@@ -3259,7 +3259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = zulu.bind(tango)(mike);
- 412:
+ 408:
             return entity;
         }
     };

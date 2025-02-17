@@ -293,14 +293,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['buttonPrimaryText'] = kilo;
             entity['buttonPrimaryOnPress'] = backup;
             entity['buttonPrimaryDisabled'] = golf;
-            if(offset) { _fun00002_ip = 452; continue _fun00001 }
- 449:
-            offset = romeo;
- 452:
             if(offset) { _fun00002_ip = 458; continue _fun00001 }
  455:
-            offset = yankee;
+            offset = romeo;
  458:
+            if(offset) { _fun00002_ip = 464; continue _fun00001 }
+ 461:
+            offset = yankee;
+ 464:
             entity['buttonPrimaryLoading'] = offset;
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
@@ -316,10 +316,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['buttonSecondaryText'] = verify;
             entity['buttonSecondaryOnPress'] = options;
             entity['buttonSecondaryDisabled'] = golf;
-            if(report) { _fun00002_ip = 536; continue _fun00001 }
- 533:
+            if(report) { _fun00002_ip = 544; continue _fun00001 }
+ 541:
             report = oscar;
- 536:
+ 544:
             entity['buttonSecondaryLoading'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

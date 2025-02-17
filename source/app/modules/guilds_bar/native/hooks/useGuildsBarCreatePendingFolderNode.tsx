@@ -283,11 +283,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(oscar)(entity, mike);
             mike = tango.length;
             entity = 0;
-            if(!(!(mike > entity))) { _fun00008_ip = 177; continue _fun00007 }
+            if(!(!(mike > entity))) { _fun00008_ip = 173; continue _fun00007 }
  161:
             entity = {'expanded': false, 'pendingFolderNode': null};
             return entity;
- 177:
+ 173:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
             oscar = 7;
@@ -319,8 +319,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = entity.bind(golf)(tango);
             tango = report.bind(golf)();
             entity = tango.done;
-            if(entity) { _fun00008_ip = 391; continue _fun00007 }
- 322:
+            if(entity) { _fun00008_ip = 387; continue _fun00007 }
+ 318:
             foxtrot = tango.value;
             offset = mike.children;
             verify = offset.push;
@@ -335,8 +335,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = report.bind(golf)();
             entity = verify.done;
             tango = verify;
-            if(!entity) { _fun00008_ip = 322; continue _fun00007 }
- 391:
+            if(!entity) { _fun00008_ip = 318; continue _fun00007 }
+ 387:
             entity = {};
             entity['expanded'] = zulu;
             entity['pendingFolderNode'] = mike;

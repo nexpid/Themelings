@@ -105,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 0;
             verify = options > report;
             report = undefined;
-            if(!verify) { _fun00002_ip = 208; continue _fun00001 }
- 192:
+            if(!verify) { _fun00002_ip = 210; continue _fun00001 }
+ 194:
             golf = options < golf;
             report = undefined;
-            if(!golf) { _fun00002_ip = 208; continue _fun00001 }
- 201:
+            if(!golf) { _fun00002_ip = 210; continue _fun00001 }
+ 203:
             report = function() {
                 tango = _closure1_slot3;
                 mike = _closure1_slot1;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = tango.bind(zulu)(mike, entity);
                 return entity;
             };
- 208:
+ 210:
             entity['renderEndComponent'] = report;
             report = true;
             entity['fullWidth'] = report;

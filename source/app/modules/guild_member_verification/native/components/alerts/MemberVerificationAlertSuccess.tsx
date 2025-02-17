@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             kilo = options.bind(verify)(tango, zulu);
-            if(!(entity != echo)) { _fun00002_ip = 629; continue _fun00001 }
+            if(!(entity != echo)) { _fun00002_ip = 635; continue _fun00001 }
  174:
             options = function() { // Original name: onConfirm
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[oscar] = golf;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 629:
+ 635:
             return entity;
         }
     };

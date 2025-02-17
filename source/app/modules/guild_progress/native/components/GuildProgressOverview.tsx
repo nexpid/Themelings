@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun00008_ip = 139; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 141; continue _fun00007 }
  13:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango[0] = report;
                     entity['options'] = tango;
                     entity = mike.bind(zulu)(entity);
- 139:
+ 141:
                     entity = undefined;
                     return entity;
                 }
@@ -331,11 +331,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  234:
             golf = options.o3HK3d;
             golf = verify.bind(offset)(golf);
-            _fun00002_ip = 258; continue _fun00001;
+            _fun00002_ip = 260; continue _fun00001;
  247:
             options = options.NzxWjY;
             golf = verify.bind(offset)(options);
- 258:
+ 260:
             entity['title'] = golf;
             entity['subtitle'] = oscar;
             entity['percentComplete'] = report;

@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.gradientFallbackBackground;
             romeo = mike.avatarBackground;
             update = mike.containerBackground;
-            if(!(entity != control)) { _fun00002_ip = 912; continue _fun00001 }
+            if(!(entity != control)) { _fun00002_ip = 908; continue _fun00001 }
  343:
             context = function() { // Original name: handleCopyUsername
                 tango = _closure2_slot0;
@@ -185,16 +185,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['user'] = control;
             sequence = entity == source;
             config = undefined;
-            if(sequence) { _fun00002_ip = 461; continue _fun00001 }
- 456:
+            if(sequence) { _fun00002_ip = 459; continue _fun00001 }
+ 454:
             config = source.guildId;
- 461:
+ 459:
             papa = entity != config;
             sequence = undefined;
-            if(!papa) { _fun00002_ip = 473; continue _fun00001 }
- 470:
+            if(!papa) { _fun00002_ip = 471; continue _fun00001 }
+ 468:
             sequence = config;
- 473:
+ 471:
             verify['guildId'] = sequence;
             verify['backgroundColor'] = romeo;
             config = true;
@@ -235,18 +235,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['user'] = control;
             target = entity == echo;
             papa = undefined;
-            if(target) { _fun00002_ip = 642; continue _fun00001 }
- 637:
+            if(target) { _fun00002_ip = 640; continue _fun00001 }
+ 635:
             papa = echo.guild_id;
- 642:
+ 640:
             sizing['guildId'] = papa;
             sizing['displayName'] = vacuum;
             papa = entity == source;
             vacuum = undefined;
-            if(papa) { _fun00002_ip = 665; continue _fun00001 }
- 659:
+            if(papa) { _fun00002_ip = 663; continue _fun00001 }
+ 657:
             vacuum = source.pronouns;
- 665:
+ 663:
             sizing['pronouns'] = vacuum;
             sizing['badgeContainerBackground'] = update;
             sierra = _closure1_slot0;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 912:
+ 908:
             return entity;
         }
     };

@@ -449,13 +449,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.bind(tango)(verify, options);
             report[1] = options;
             options = _closure1_slot5;
-            if(golf) { _fun00004_ip = 511; continue _fun00003 }
- 505:
+            if(golf) { _fun00004_ip = 523; continue _fun00003 }
+ 517:
             golf = _closure1_slot11;
-            _fun00004_ip = 515; continue _fun00003;
- 511:
+            _fun00004_ip = 527; continue _fun00003;
+ 523:
             golf = _closure1_slot10;
- 515:
+ 527:
             oscar = {};
             oscar = options.bind(tango)(golf, oscar);
             report[2] = oscar;

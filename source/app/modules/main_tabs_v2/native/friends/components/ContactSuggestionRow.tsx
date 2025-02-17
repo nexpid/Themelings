@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             var _closure2_slot4 = tango;
             report = yankee.friendSuggestionName;
-            if(!(echo != report)) { _fun00002_ip = 109; continue _fun00001 }
- 94:
+            if(!(echo != report)) { _fun00002_ip = 105; continue _fun00001 }
+ 90:
             report = yankee.friendSuggestionName;
             report = report.length;
-            if(!(!(report > mike))) { _fun00002_ip = 150; continue _fun00001 }
- 109:
+            if(!(!(report > mike))) { _fun00002_ip = 146; continue _fun00001 }
+ 105:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
             report = 4;
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.getName;
             report = yankee.user;
             foxtrot = oscar.bind(options)(report);
-            _fun00002_ip = 156; continue _fun00001;
- 150:
+            _fun00002_ip = 152; continue _fun00001;
+ 146:
             foxtrot = yankee.friendSuggestionName;
- 156:
+ 152:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
             offset = 5;
@@ -210,21 +210,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar.bind(romeo)(entity, zulu);
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 351; continue _fun00001 }
- 345:
+            if(zulu) { _fun00002_ip = 347; continue _fun00001 }
+ 341:
             entity = yankee.mutualFriendsCount;
- 351:
+ 347:
             romeo = echo != entity;
-            if(!romeo) { _fun00002_ip = 377; continue _fun00001 }
- 358:
+            if(!romeo) { _fun00002_ip = 373; continue _fun00001 }
+ 354:
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 373; continue _fun00001 }
- 367:
+            if(zulu) { _fun00002_ip = 369; continue _fun00001 }
+ 363:
             entity = yankee.mutualFriendsCount;
- 373:
+ 369:
             romeo = entity > mike;
- 377:
+ 373:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
             entity = 9;
@@ -232,8 +232,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.getSuggestedContactNameForSuggestion;
             output = entity.bind(mike)(foxtrot, yankee);
-            if(!(echo == output)) { _fun00002_ip = 451; continue _fun00001 }
- 413:
+            if(!(echo == output)) { _fun00002_ip = 447; continue _fun00001 }
+ 409:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 4;
@@ -242,8 +242,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getUserTag;
             entity = yankee.user;
             oscar = mike.bind(zulu)(entity);
-            _fun00002_ip = 517; continue _fun00001;
- 451:
+            _fun00002_ip = 513; continue _fun00001;
+ 447:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 4;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = '';
             entity = ' · ';
             oscar = zulu.bind(mike)(sizing, entity, output);
- 517:
+ 513:
             zulu = _closure1_slot8;
             mike = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -298,8 +298,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['actioned'] = offset;
             backup['label'] = oscar;
             oscar = undefined;
-            if(!romeo) { _fun00002_ip = 755; continue _fun00001 }
- 678:
+            if(!romeo) { _fun00002_ip = 751; continue _fun00001 }
+ 674:
             sizing = _closure1_slot0;
             update = _closure1_slot2;
             romeo = 6;
@@ -314,13 +314,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             update = echo == yankee;
             echo = undefined;
-            if(update) { _fun00002_ip = 745; continue _fun00001 }
- 739:
+            if(update) { _fun00002_ip = 741; continue _fun00001 }
+ 735:
             echo = yankee.mutualFriendsCount;
- 745:
+ 741:
             romeo['count'] = echo;
             oscar = output.bind(result)(sizing, romeo);
- 755:
+ 751:
             backup['secondaryLabel'] = oscar;
             oscar = _closure1_slot0;
             romeo = _closure1_slot2;

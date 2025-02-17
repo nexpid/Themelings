@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  372:
             options = entity;
  375:
-            _fun00002_ip = 598; continue _fun00001;
+            _fun00002_ip = 600; continue _fun00001;
  380:
             entity = 1;
             if(!(!(foxtrot > entity))) { _fun00002_ip = 532; continue _fun00001 }
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['hours'] = offset;
             entity = report.bind(oscar)(zulu, mike);
  530:
-            _fun00002_ip = 595; continue _fun00001;
+            _fun00002_ip = 597; continue _fun00001;
  532:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -238,22 +238,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['days'] = foxtrot;
             entity = report.bind(oscar)(zulu, mike);
- 595:
+ 597:
             options = entity;
- 598:
+ 600:
             zulu = _closure1_slot6;
             mike = _closure1_slot3;
             entity = {};
             oscar = golf.root;
             report = new Array(2);
             report[0] = oscar;
-            if(yankee) { _fun00002_ip = 633; continue _fun00001 }
- 625:
+            if(yankee) { _fun00002_ip = 635; continue _fun00001 }
+ 627:
             oscar = golf.backgroundLightMode;
-            _fun00002_ip = 639; continue _fun00001;
- 633:
+            _fun00002_ip = 641; continue _fun00001;
+ 635:
             oscar = golf.backgroundDarkMode;
- 639:
+ 641:
             report[1] = oscar;
             entity['style'] = report;
             golf = _closure1_slot6;
@@ -265,10 +265,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Text;
             report = {};
             offset = 'white';
-            if(!yankee) { _fun00002_ip = 689; continue _fun00001 }
- 685:
+            if(!yankee) { _fun00002_ip = 691; continue _fun00001 }
+ 687:
             offset = 'black';
- 689:
+ 691:
             report['color'] = offset;
             offset = 'text-xs/bold';
             report['variant'] = offset;

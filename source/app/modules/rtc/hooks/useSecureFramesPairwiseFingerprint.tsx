@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         StartGenerator();
                         oscar = argBaz;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00002_ip = 233; continue _fun00001 }
+                        if(mike) { _fun00002_ip = 231; continue _fun00001 }
  13:
                         report = _closure1_slot7;
                         tango = report.supports;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  165:
                         tango = _closure2_slot8;
                         tango = tango.bind(report)(zulu);
-                        _fun00002_ip = 228; continue _fun00001;
+                        _fun00002_ip = 226; continue _fun00001;
  179:
                         return zulu;
  182:
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = tango.getRTCConnection;
                         report = zulu.bind(tango)();
                         zulu = null;
-                        if(!(zulu != report)) { _fun00002_ip = 228; continue _fun00001 }
+                        if(!(zulu != report)) { _fun00002_ip = 226; continue _fun00001 }
  202:
                         tango = report.getMLSPairwiseFingerprint;
                         zulu = _closure1_slot9;
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return entity;
                         };
                         mike = tango.bind(report)(zulu, oscar, mike);
- 228:
+ 226:
                         mike = undefined;
                         return mike;
- 233:
+ 231:
                         return entity;
                     }
                 };
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.current;
                 zulu = report == tango;
  42:
-                if(!zulu) { _fun00004_ip = 91; continue _fun00003 }
+                if(!zulu) { _fun00004_ip = 89; continue _fun00003 }
  45:
                 tango = _closure2_slot5;
                 golf = undefined;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = 0;
                 zulu = oscar.bind(golf)(report, zulu);
                 tango['current'] = zulu;
- 91:
+ 89:
                 mike = _closure2_slot10;
                 mike = mike.current;
                 var _closure3_slot0 = mike;

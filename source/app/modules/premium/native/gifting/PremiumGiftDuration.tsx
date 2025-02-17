@@ -374,8 +374,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = options;
             control = null;
             options = control != source;
-            if(!options) { _fun00004_ip = 434; continue _fun00003 }
- 199:
+            if(!options) { _fun00004_ip = 438; continue _fun00003 }
+ 201:
             yankee = _closure1_slot7;
             offset = _closure1_slot3;
             verify = {};
@@ -420,10 +420,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = sizing.qGQDio;
             sizing = {};
             update = source.globalName;
-            if(!(control == update)) { _fun00004_ip = 400; continue _fun00003 }
- 395:
+            if(!(control == update)) { _fun00004_ip = 404; continue _fun00003 }
+ 399:
             update = source.username;
- 400:
+ 404:
             sizing['username'] = update;
             sizing = result.bind(echo)(output, sizing);
             foxtrot['children'] = sizing;
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = foxtrot;
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 434:
+ 438:
             report[1] = options;
             options = _closure1_slot8;
             golf = options.map;

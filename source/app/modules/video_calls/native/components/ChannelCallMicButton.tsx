@@ -168,21 +168,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = false;
             entity['disableTint'] = yankee;
             romeo = _closure1_slot3;
-            if(options) { _fun00002_ip = 323; continue _fun00001 }
- 314:
+            if(options) { _fun00002_ip = 325; continue _fun00001 }
+ 316:
             verify = 10;
             verify = romeo[verify];
-            _fun00002_ip = 330; continue _fun00001;
- 323:
+            _fun00002_ip = 332; continue _fun00001;
+ 325:
             yankee = 9;
             verify = romeo[yankee];
- 330:
+ 332:
             verify = offset.bind(tango)(verify);
             entity['source'] = verify;
-            if(golf) { _fun00002_ip = 345; continue _fun00001 }
- 342:
+            if(golf) { _fun00002_ip = 347; continue _fun00001 }
+ 344:
             golf = options;
- 345:
+ 347:
             entity['isActive'] = golf;
             entity['isSmallSize'] = oscar;
             entity['lottieComponent'] = report;

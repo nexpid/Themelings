@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.SDK_SOCIAL_LAYER;
             entity = mike.bind(zulu)(entity);
             backup = undefined;
-            if(!entity) { _fun00004_ip = 461; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 471; continue _fun00003 }
  76:
             kilo = _closure1_slot0;
             sizing = _closure1_slot1;
@@ -223,13 +223,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = zulu;
             output = mike;
             mike = source[options](update, echo, result, output, sizing);
- 461:
+ 471:
             mike = romeo.length;
             yankee = null;
             foxtrot = 0;
             entity = null;
-            if(!(foxtrot !== mike)) { _fun00004_ip = 682; continue _fun00003 }
- 479:
+            if(!(foxtrot !== mike)) { _fun00004_ip = 690; continue _fun00003 }
+ 489:
             tango = _closure1_slot5;
             zulu = _closure1_slot6;
             mike = {};
@@ -239,13 +239,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = verify;
             verify = yankee != backup;
             offset = null;
-            if(!verify) { _fun00004_ip = 581; continue _fun00003 }
- 514:
+            if(!verify) { _fun00004_ip = 591; continue _fun00003 }
+ 524:
             verify = backup.length;
             verify = verify > foxtrot;
             offset = null;
-            if(!verify) { _fun00004_ip = 581; continue _fun00003 }
- 528:
+            if(!verify) { _fun00004_ip = 591; continue _fun00003 }
+ 538:
             foxtrot = _closure1_slot4;
             yankee = _closure1_slot0;
             kilo = _closure1_slot1;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
             verify['children'] = backup;
             offset = foxtrot.bind(report)(yankee, verify);
- 581:
+ 591:
             verify = new Array(2);
             verify[0] = offset;
             yankee = romeo.map;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 682:
+ 690:
             return entity;
         }
     };

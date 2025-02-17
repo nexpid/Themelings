@@ -708,15 +708,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(2);
             yankee[0] = romeo;
             romeo = null;
-            if(offset) { _fun00004_ip = 955; continue _fun00003 }
- 949:
+            if(offset) { _fun00004_ip = 957; continue _fun00003 }
+ 951:
             romeo = foxtrot.center;
- 955:
+ 957:
             yankee[1] = romeo;
             golf['style'] = yankee;
             foxtrot = _closure1_slot13;
-            if(offset) { _fun00004_ip = 1114; continue _fun00003 }
- 973:
+            if(offset) { _fun00004_ip = 1116; continue _fun00003 }
+ 975:
             source = _closure1_slot0;
             output = _closure1_slot2;
             offset = 28;
@@ -746,8 +746,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(tango)(backup, romeo);
             offset['children'] = romeo;
             offset = foxtrot.bind(tango)(yankee, offset);
-            _fun00004_ip = 1198; continue _fun00003;
- 1114:
+            _fun00004_ip = 1200; continue _fun00003;
+ 1116:
             romeo = _closure1_slot1;
             backup = _closure1_slot2;
             yankee = 27;
@@ -767,7 +767,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             yankee['text'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 1198:
+ 1200:
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
             oscar[4] = golf;

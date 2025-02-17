@@ -68,37 +68,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = offset;
             mike = zulu.onResolved;
             tango = undefined;
-            if(!(mike === tango)) { _fun00002_ip = 34; continue _fun00001 }
+            if(!(mike === tango)) { _fun00002_ip = 32; continue _fun00001 }
  27:
             mike = function() { // Original name: I
                 entity = undefined;
                 return entity;
             };
- 34:
+ 32:
             var _closure2_slot1 = mike;
             entity = zulu.onRejected;
-            if(!(entity === tango)) { _fun00002_ip = 55; continue _fun00001 }
- 48:
+            if(!(entity === tango)) { _fun00002_ip = 51; continue _fun00001 }
+ 46:
             entity = function() { // Original name: f
                 entity = undefined;
                 return entity;
             };
- 55:
+ 51:
             var _closure2_slot2 = entity;
             oscar = zulu.cancelable;
-            if(!(oscar === tango)) { _fun00002_ip = 71; continue _fun00001 }
- 69:
+            if(!(oscar === tango)) { _fun00002_ip = 67; continue _fun00001 }
+ 65:
             oscar = false;
- 71:
+ 67:
             var _closure2_slot3 = oscar;
             zulu = zulu.onDismissed;
-            if(!(zulu === tango)) { _fun00002_ip = 92; continue _fun00001 }
- 85:
+            if(!(zulu === tango)) { _fun00002_ip = 86; continue _fun00001 }
+ 81:
             zulu = function() { // Original name: N
                 entity = undefined;
                 return entity;
             };
- 92:
+ 86:
             var _closure2_slot4 = zulu;
             var _closure2_slot5 = tango;
             var _closure2_slot6 = tango;

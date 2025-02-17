@@ -167,10 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity[zulu];
             tango = output.length;
             entity = null;
-            if(!(golf !== tango)) { _fun00002_ip = 526; continue _fun00001 }
+            if(!(golf !== tango)) { _fun00002_ip = 524; continue _fun00001 }
  187:
             entity = null;
-            if(!mike) { _fun00002_ip = 526; continue _fun00001 }
+            if(!mike) { _fun00002_ip = 524; continue _fun00001 }
  195:
             tango = _closure1_slot8;
             backup = _closure1_slot0;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 526:
+ 524:
             return entity;
         }
     };

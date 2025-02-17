@@ -320,10 +320,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 golf = entity == oscar;
                 entity = undefined;
-                if(golf) { _fun00004_ip = 137; continue _fun00003 }
- 132:
+                if(golf) { _fun00004_ip = 135; continue _fun00003 }
+ 130:
                 entity = oscar.id;
- 137:
+ 135:
                 entity = report.bind(tango)(zulu, mike, entity);
                 return entity;
             }

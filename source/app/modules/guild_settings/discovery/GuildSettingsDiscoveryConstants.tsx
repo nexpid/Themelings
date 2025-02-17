@@ -2592,7 +2592,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity['label'] = mike;
                 mike = undefined;
                 entity['image'] = mike;
-                _fun00002_ip = 117; continue _fun00001;
+                _fun00002_ip = 119; continue _fun00001;
  40:
                 mike = {};
                 mike['value'] = zulu;
@@ -2612,7 +2612,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 mike['label'] = tango;
                 mike['image'] = zulu;
                 entity = mike;
- 117:
+ 119:
                 return entity;
             }
         };

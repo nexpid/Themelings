@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[1] = golf;
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun00002_ip = 925; continue _fun00001;
+            _fun00002_ip = 929; continue _fun00001;
  765:
             tango = _closure1_slot16;
             zulu = _closure1_slot5;
@@ -798,20 +798,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot[verify];
             verify = romeo.bind(report)(verify);
             verify = verify.t;
-            if(options) { _fun00002_ip = 894; continue _fun00001 }
+            if(options) { _fun00002_ip = 896; continue _fun00001 }
  881:
             options = verify.fmyaWF;
             options = offset.bind(yankee)(options);
-            _fun00002_ip = 905; continue _fun00001;
- 894:
+            _fun00002_ip = 909; continue _fun00001;
+ 896:
             verify = verify.rhqcbG;
             options = offset.bind(yankee)(verify);
- 905:
+ 909:
             oscar['body'] = options;
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 925:
+ 929:
             return entity;
         }
     };

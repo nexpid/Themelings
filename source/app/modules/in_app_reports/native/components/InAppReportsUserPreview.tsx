@@ -146,8 +146,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.globalName;
             verify = null;
             yankee = verify != yankee;
-            if(!yankee) { _fun00002_ip = 393; continue _fun00001 }
- 337:
+            if(!yankee) { _fun00002_ip = 395; continue _fun00001 }
+ 339:
             kilo = _closure1_slot4;
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = foxtrot.globalName;
             verify['children'] = sizing;
             yankee = kilo.bind(tango)(romeo, verify);
- 393:
+ 395:
             verify = new Array(2);
             verify[0] = yankee;
             romeo = _closure1_slot4;

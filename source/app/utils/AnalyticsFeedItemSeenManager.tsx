@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -757,7 +757,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                         mike = _closure3_slot0;
                         mike = mike._paused;
-                        if(mike) { _fun00034_ip = 63; continue _fun00033 }
+                        if(mike) { _fun00034_ip = 61; continue _fun00033 }
  16:
                         mike = _closure3_slot0;
                         entity = mike.getVisibleFeedItemIds;
@@ -786,7 +786,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = true;
                         mike['_paused'] = zulu;
                         mike['_pausedFeedItemIds'] = entity;
- 63:
+ 61:
                         entity = undefined;
                         return entity;
                     }
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                         mike = _closure3_slot0;
                         mike = mike._paused;
-                        if(!mike) { _fun00036_ip = 63; continue _fun00035 }
+                        if(!mike) { _fun00036_ip = 61; continue _fun00035 }
  16:
                         mike = _closure3_slot0;
                         entity = false;
@@ -826,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         entity = zulu.bind(tango)(entity);
                         entity = mike.clearPausedFeedItemIds;
                         entity = entity.bind(mike)();
- 63:
+ 61:
                         entity = undefined;
                         return entity;
                     }
@@ -893,10 +893,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu['_pausedFeedItemIds'] = tango;
                 tango = null;
                 tango = tango != report;
-                if(!tango) { _fun00016_ip = 286; continue _fun00015 }
- 283:
+                if(!tango) { _fun00016_ip = 260; continue _fun00015 }
+ 257:
                 tango = report;
- 286:
+ 260:
                 zulu['_paused'] = tango;
                 tango = true;
                 zulu['_isReactNavigationFocused'] = tango;
@@ -926,7 +926,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = options._lastFlushTimeMillis;
                 zulu = zulu - mike;
                 mike = 60000;
-                if(!(!(zulu < mike))) { _fun00042_ip = 298; continue _fun00041 }
+                if(!(!(zulu < mike))) { _fun00042_ip = 294; continue _fun00041 }
  54:
                 mike = _closure1_slot5;
                 mike = mike.IMMEDIATE_WITH_COOLDOWN;
@@ -939,12 +939,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = options._lastFlushTimeMillis;
                 verify = verify - report;
                 report = 3000;
-                if(!(!(verify < report))) { _fun00042_ip = 280; continue _fun00041 }
+                if(!(!(verify < report))) { _fun00042_ip = 276; continue _fun00041 }
  111:
                 report = options.createFlushSeenItemsFunction;
                 report = report.bind(options)(oscar);
                 var _closure3_slot0 = report;
-                if(!(golf != report)) { _fun00042_ip = 260; continue _fun00041 }
+                if(!(golf != report)) { _fun00042_ip = 256; continue _fun00041 }
  133:
                 report = global;
                 verify = report.Date;
@@ -953,11 +953,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options['_lastFlushTimeMillis'] = golf;
                 golf = _closure1_slot5;
                 golf = golf.IMMEDIATE;
-                if(!(oscar !== golf)) { _fun00042_ip = 219; continue _fun00041 }
+                if(!(oscar !== golf)) { _fun00042_ip = 217; continue _fun00041 }
  170:
                 zulu = _closure1_slot5;
                 zulu = zulu.IMMEDIATE_WITH_COOLDOWN;
-                if(!(oscar !== zulu)) { _fun00042_ip = 219; continue _fun00041 }
+                if(!(oscar !== zulu)) { _fun00042_ip = 217; continue _fun00041 }
  184:
                 golf = report.Promise;
                 zulu = golf.prototype;
@@ -1006,8 +1006,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 yankee = oscar;
                 zulu = new yankee[golf](offset, verify);
                 zulu = zulu instanceof Object ? zulu : oscar;
-                _fun00042_ip = 258; continue _fun00041;
- 219:
+                _fun00042_ip = 254; continue _fun00041;
+ 217:
                 oscar = report.Promise;
                 report = function() {
                     tango = _closure1_slot2;
@@ -1062,21 +1062,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 yankee = report;
                 tango = new yankee[oscar](offset, verify);
                 zulu = tango instanceof Object ? tango : report;
- 258:
-                _fun00042_ip = 278; continue _fun00041;
- 260:
+ 254:
+                _fun00042_ip = 274; continue _fun00041;
+ 256:
                 tango = global;
                 report = tango.Promise;
                 tango = report.resolve;
                 zulu = tango.bind(report)();
- 278:
+ 274:
                 return zulu;
- 280:
+ 276:
                 zulu = mike.Promise;
                 mike = zulu.resolve;
                 mike = mike.bind(zulu)();
                 return mike;
- 298:
+ 294:
                 mike = entity.Promise;
                 entity = mike.resolve;
                 entity = entity.bind(mike)();

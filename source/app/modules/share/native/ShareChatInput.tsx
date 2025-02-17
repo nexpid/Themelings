@@ -113,10 +113,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = foxtrot.isAndroid;
         romeo = romeo.bind(foxtrot)();
         offset = 0;
-        if(!romeo) { _fun00002_ip = 515; continue _fun00001 }
- 512:
+        if(!romeo) { _fun00002_ip = 511; continue _fun00001 }
+ 508:
         offset = yankee;
- 515:
+ 511:
         verify['paddingBottom'] = offset;
         tango['emojiButton'] = verify;
         tango = golf.bind(options)(tango);

@@ -141,8 +141,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = oscar;
             oscar = null;
             oscar = oscar != yankee;
-            if(!oscar) { _fun00002_ip = 448; continue _fun00001 }
- 358:
+            if(!oscar) { _fun00002_ip = 452; continue _fun00001 }
+ 362:
             verify = _closure1_slot4;
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(romeo)(offset);
             golf['text'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 448:
+ 452:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

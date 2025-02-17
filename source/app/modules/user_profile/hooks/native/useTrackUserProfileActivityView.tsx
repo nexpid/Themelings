@@ -75,10 +75,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options[golf];
             var _closure2_slot2 = golf;
             oscar = !oscar;
-            if(!oscar) { _fun00002_ip = 133; continue _fun00001 }
- 130:
+            if(!oscar) { _fun00002_ip = 131; continue _fun00001 }
+ 128:
             oscar = !tango;
- 133:
+ 131:
             _closure2_slot3 = oscar;
             tango = _closure1_slot3;
             zulu = new Array(2);

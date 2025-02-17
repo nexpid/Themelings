@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(report);
             update = mike.length;
             echo = 3;
-            if(!(!(update <= echo))) { _fun00002_ip = 1004; continue _fun00001 }
+            if(!(!(update <= echo))) { _fun00002_ip = 1008; continue _fun00001 }
  539:
             report = function() { // Original name: handleDismiss
                 zulu = _closure2_slot3;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 1004:
+ 1008:
             entity = null;
             return entity;
         }

@@ -668,11 +668,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf - source;
                     golf = options[golf];
                     options = offset.blocked;
-                    if(options) { _fun00018_ip = 1684; continue _fun00017 }
- 526:
+                    if(options) { _fun00018_ip = 1680; continue _fun00017 }
+ 522:
                     options = offset.ignored;
-                    if(options) { _fun00018_ip = 1449; continue _fun00017 }
- 538:
+                    if(options) { _fun00018_ip = 1445; continue _fun00017 }
+ 534:
                     options = _closure1_slot10;
                     output = options.bind(entity)(yankee);
                     yankee = output.bind(entity)();
@@ -681,8 +681,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     kilo = 11;
                     backup = 9;
                     romeo = 10;
-                    if(options) { _fun00018_ip = 1911; continue _fun00017 }
- 577:
+                    if(options) { _fun00018_ip = 1907; continue _fun00017 }
+ 573:
                     config = yankee.value;
                     status = config !== offset;
                     sequence = _closure1_slot4;
@@ -691,12 +691,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     control = options.id;
                     options = config.id;
                     record = vacuum.bind(sequence)(control, options);
-                    if(record) { _fun00018_ip = 632; continue _fun00017 }
- 619:
+                    if(record) { _fun00018_ip = 628; continue _fun00017 }
+ 615:
                     control = _closure2_slot3;
                     options = config.id;
                     record = control === options;
- 632:
+ 628:
                     sequence = _closure1_slot3;
                     vacuum = sequence.getPushFeedback;
                     control = config.channel_id;
@@ -714,8 +714,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     control = control.bind(entity)(options);
                     options = _closure2_slot4;
                     context = control.bind(entity)(config, options);
-                    if(!context) { _fun00018_ip = 754; continue _fun00017 }
- 719:
+                    if(!context) { _fun00018_ip = 750; continue _fun00017 }
+ 715:
                     control = _closure1_slot0;
                     options = _closure1_slot2;
                     options = options[kilo];
@@ -724,41 +724,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = _closure2_slot0;
                     options = control.bind(vacuum)(options);
                     context = !options;
- 754:
+ 750:
                     vacuum = _closure2_slot23;
                     control = vacuum.hasOwnProperty;
                     options = config.id;
                     options = control.bind(vacuum)(options);
-                    if(options) { _fun00018_ip = 789; continue _fun00017 }
- 777:
+                    if(options) { _fun00018_ip = 785; continue _fun00017 }
+ 773:
                     options = _closure2_slot27;
                     sequence = options.bind(entity)(config, update);
-                    _fun00018_ip = 817; continue _fun00017;
- 789:
+                    _fun00018_ip = 813; continue _fun00017;
+ 785:
                     control = _closure2_slot23;
                     options = config.id;
                     vacuum = control[options];
                     control = _closure2_slot8;
                     options = control.determineChangeTypeForUploadProgress;
                     sequence = options.bind(control)(vacuum);
- 817:
+ 813:
                     options = _closure2_slot7;
                     options = verify != options;
-                    if(!options) { _fun00018_ip = 847; continue _fun00017 }
- 828:
+                    if(!options) { _fun00018_ip = 843; continue _fun00017 }
+ 824:
                     control = _closure2_slot7;
                     vacuum = control.endId;
                     control = config.id;
                     options = vacuum === control;
- 847:
-                    if(!options) { _fun00018_ip = 863; continue _fun00017 }
- 850:
+ 843:
+                    if(!options) { _fun00018_ip = 859; continue _fun00017 }
+ 846:
                     control = _closure2_slot7;
                     control = control.count;
                     options = control > source;
- 863:
-                    if(!options) { _fun00018_ip = 934; continue _fun00017 }
- 866:
+ 859:
+                    if(!options) { _fun00018_ip = 930; continue _fun00017 }
+ 862:
                     vacuum = _closure2_slot22;
                     control = vacuum.push;
                     options = {};
@@ -774,16 +774,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['summary'] = sierra;
                     options['isBeforeContent'] = echo;
                     options = control.bind(vacuum)(options);
- 934:
+ 930:
                     options = _closure2_slot16;
-                    if(!(verify == options)) { _fun00018_ip = 954; continue _fun00017 }
- 942:
+                    if(!(verify == options)) { _fun00018_ip = 950; continue _fun00017 }
+ 938:
                     options = _closure2_slot1;
                     lima = options.jumpType;
-                    _fun00018_ip = 958; continue _fun00017;
- 954:
+                    _fun00018_ip = 954; continue _fun00017;
+ 950:
                     lima = _closure2_slot16;
- 958:
+ 954:
                     vacuum = _closure2_slot22;
                     control = vacuum.push;
                     options = {};
@@ -798,24 +798,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['isFirst'] = sierra;
                     options['isEditing'] = record;
                     record = !status;
-                    if(status) { _fun00018_ip = 1028; continue _fun00017 }
- 1021:
+                    if(status) { _fun00018_ip = 1024; continue _fun00017 }
+ 1017:
                     status = _closure2_slot18;
                     record = !status;
- 1028:
-                    if(!record) { _fun00018_ip = 1049; continue _fun00017 }
- 1031:
+ 1024:
+                    if(!record) { _fun00018_ip = 1045; continue _fun00017 }
+ 1027:
                     status = tango;
-                    if(status) { _fun00018_ip = 1040; continue _fun00017 }
- 1037:
+                    if(status) { _fun00018_ip = 1036; continue _fun00017 }
+ 1033:
                     status = zulu;
- 1040:
-                    if(status) { _fun00018_ip = 1046; continue _fun00017 }
- 1043:
+ 1036:
+                    if(status) { _fun00018_ip = 1042; continue _fun00017 }
+ 1039:
                     status = mike;
- 1046:
+ 1042:
                     record = status;
- 1049:
+ 1045:
                     options['separatorBefore'] = record;
                     record = _closure2_slot6;
                     options['canAddNewReactions'] = record;
@@ -825,11 +825,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['scrollTo'] = record;
                     record = config.id;
                     record = record === status;
-                    if(!record) { _fun00018_ip = 1136; continue _fun00017 }
- 1093:
+                    if(!record) { _fun00018_ip = 1132; continue _fun00017 }
+ 1089:
                     status = _closure2_slot5;
-                    if(status) { _fun00018_ip = 1133; continue _fun00017 }
- 1100:
+                    if(status) { _fun00018_ip = 1129; continue _fun00017 }
+ 1096:
                     whiskey = _closure1_slot0;
                     sierra = _closure1_slot2;
                     sierra = sierra[sizing];
@@ -837,9 +837,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     sierra = sierra.JumpTypes;
                     sierra = sierra.INSTANT;
                     status = lima === sierra;
- 1133:
+ 1129:
                     record = !status;
- 1136:
+ 1132:
                     options['animated'] = record;
                     status = config.id;
                     record = _closure2_slot15;
@@ -854,24 +854,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['renderContentOnly'] = record;
                     status = verify == target;
                     record = undefined;
-                    if(status) { _fun00018_ip = 1206; continue _fun00017 }
- 1200:
+                    if(status) { _fun00018_ip = 1202; continue _fun00017 }
+ 1196:
                     record = target.pushType;
- 1206:
+ 1202:
                     options['pushFeedbackType'] = record;
                     record = _closure2_slot18;
                     record = !record;
-                    if(!record) { _fun00018_ip = 1224; continue _fun00017 }
- 1221:
+                    if(!record) { _fun00018_ip = 1220; continue _fun00017 }
+ 1217:
                     record = papa;
- 1224:
+ 1220:
                     options['canReply'] = record;
                     record = _closure2_slot18;
                     record = !record;
-                    if(!record) { _fun00018_ip = 1242; continue _fun00017 }
- 1239:
+                    if(!record) { _fun00018_ip = 1238; continue _fun00017 }
+ 1235:
                     record = context;
- 1242:
+ 1238:
                     options['canEdit'] = record;
                     record = _closure1_slot8;
                     record = record.MESSAGE;
@@ -880,32 +880,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     sequence = _closure2_slot21;
                     record = verify == sequence;
                     sequence = undefined;
-                    if(record) { _fun00018_ip = 1299; continue _fun00017 }
- 1280:
+                    if(record) { _fun00018_ip = 1295; continue _fun00017 }
+ 1276:
                     papa = _closure2_slot21;
                     context = papa.has;
                     record = config.id;
                     sequence = context.bind(papa)(record);
- 1299:
+ 1295:
                     options['showContentInventoryEntryFallbackEmbed'] = sequence;
                     options = control.bind(vacuum)(options);
                     options = _closure2_slot7;
                     options = verify != options;
-                    if(!options) { _fun00018_ip = 1339; continue _fun00017 }
- 1320:
+                    if(!options) { _fun00018_ip = 1335; continue _fun00017 }
+ 1316:
                     control = _closure2_slot7;
                     vacuum = control.startId;
                     control = config.id;
                     options = vacuum === control;
- 1339:
-                    if(!options) { _fun00018_ip = 1355; continue _fun00017 }
- 1342:
+ 1335:
+                    if(!options) { _fun00018_ip = 1351; continue _fun00017 }
+ 1338:
                     control = _closure2_slot7;
                     control = control.count;
                     options = control > source;
- 1355:
-                    if(!options) { _fun00018_ip = 1426; continue _fun00017 }
- 1358:
+ 1351:
+                    if(!options) { _fun00018_ip = 1422; continue _fun00017 }
+ 1354:
                     vacuum = _closure2_slot22;
                     control = vacuum.push;
                     options = {};
@@ -921,38 +921,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['summary'] = sequence;
                     options['isBeforeContent'] = update;
                     options = control.bind(vacuum)(options);
- 1426:
+ 1422:
                     control = output.bind(entity)();
                     options = control.done;
                     yankee = control;
-                    if(options) { _fun00018_ip = 1911; continue _fun00017 }
- 1444:
-                    _fun00018_ip = 577; continue _fun00017;
+                    if(options) { _fun00018_ip = 1907; continue _fun00017 }
+ 1440:
+                    _fun00018_ip = 573; continue _fun00017;
+ 1445:
+                    if(!(verify != golf)) { _fun00018_ip = 1475; continue _fun00017 }
  1449:
-                    if(!(verify != golf)) { _fun00018_ip = 1479; continue _fun00017 }
- 1453:
                     romeo = golf.rowType;
                     options = _closure1_slot8;
                     options = options.IGNORED_GROUP;
                     yankee = golf;
-                    if(!(romeo !== options)) { _fun00018_ip = 1593; continue _fun00017 }
- 1479:
+                    if(!(romeo !== options)) { _fun00018_ip = 1589; continue _fun00017 }
+ 1475:
                     options = _closure2_slot27;
                     backup = options.bind(entity)(offset);
                     options = _closure1_slot6;
                     options = options.NOOP;
                     options = backup === options;
-                    if(!options) { _fun00018_ip = 1523; continue _fun00017 }
- 1508:
+                    if(!options) { _fun00018_ip = 1519; continue _fun00017 }
+ 1504:
                     sizing = _closure2_slot8;
                     kilo = sizing.getIgnored;
                     options = kilo.bind(sizing)(offset);
- 1523:
-                    if(!options) { _fun00018_ip = 1536; continue _fun00017 }
- 1526:
+ 1519:
+                    if(!options) { _fun00018_ip = 1532; continue _fun00017 }
+ 1522:
                     options = _closure1_slot6;
                     backup = options.INSERT;
- 1536:
+ 1532:
                     options = {};
                     quebec = options;
                     equality = foxtrot;
@@ -967,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = backup.push;
                     romeo = romeo.bind(backup)(options);
                     yankee = options;
- 1593:
+ 1589:
                     options = report.bind(entity)(yankee);
                     romeo = _closure1_slot0;
                     sizing = _closure1_slot2;
@@ -986,31 +986,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['count'] = sizing;
                     options = backup.bind(kilo)(romeo, options);
                     yankee['text'] = options;
-                    _fun00018_ip = 1911; continue _fun00017;
+                    _fun00018_ip = 1907; continue _fun00017;
+ 1680:
+                    if(!(verify != golf)) { _fun00018_ip = 1707; continue _fun00017 }
  1684:
-                    if(!(verify != golf)) { _fun00018_ip = 1711; continue _fun00017 }
- 1688:
                     yankee = golf.rowType;
                     options = _closure1_slot8;
                     options = options.BLOCKED_GROUP;
-                    if(!(yankee !== options)) { _fun00018_ip = 1825; continue _fun00017 }
- 1711:
+                    if(!(yankee !== options)) { _fun00018_ip = 1821; continue _fun00017 }
+ 1707:
                     options = _closure2_slot27;
                     romeo = options.bind(entity)(offset);
                     options = _closure1_slot6;
                     options = options.NOOP;
                     options = romeo === options;
-                    if(!options) { _fun00018_ip = 1755; continue _fun00017 }
- 1740:
+                    if(!options) { _fun00018_ip = 1751; continue _fun00017 }
+ 1736:
                     kilo = _closure2_slot8;
                     backup = kilo.getBlocked;
                     options = backup.bind(kilo)(offset);
- 1755:
-                    if(!options) { _fun00018_ip = 1768; continue _fun00017 }
- 1758:
+ 1751:
+                    if(!options) { _fun00018_ip = 1764; continue _fun00017 }
+ 1754:
                     options = _closure1_slot6;
                     romeo = options.INSERT;
- 1768:
+ 1764:
                     options = {};
                     quebec = options;
                     equality = foxtrot;
@@ -1025,7 +1025,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = romeo.push;
                     yankee = yankee.bind(romeo)(options);
                     golf = options;
- 1825:
+ 1821:
                     report = report.bind(entity)(golf);
                     options = _closure1_slot0;
                     foxtrot = _closure1_slot2;
@@ -1044,21 +1044,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['count'] = foxtrot;
                     report = yankee.bind(romeo)(options, report);
                     golf['text'] = report;
- 1911:
-                    if(!tango) { _fun00018_ip = 2054; continue _fun00017 }
- 1917:
+ 1907:
+                    if(!tango) { _fun00018_ip = 2050; continue _fun00017 }
+ 1913:
                     tango = _closure2_slot18;
-                    if(tango) { _fun00018_ip = 2054; continue _fun00017 }
- 1927:
+                    if(tango) { _fun00018_ip = 2050; continue _fun00017 }
+ 1923:
                     tango = _closure2_slot27;
                     yankee = tango.bind(entity)(offset);
                     tango = _closure1_slot6;
                     tango = tango.UPDATE;
-                    if(!(yankee === tango)) { _fun00018_ip = 1963; continue _fun00017 }
- 1953:
+                    if(!(yankee === tango)) { _fun00018_ip = 1959; continue _fun00017 }
+ 1949:
                     tango = _closure1_slot6;
                     yankee = tango.NOOP;
- 1963:
+ 1959:
                     report = _closure1_slot0;
                     golf = _closure1_slot2;
                     tango = 8;
@@ -1079,14 +1079,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['roleStyle'] = yankee;
                     tango['text'] = options;
                     tango = report.bind(golf)(tango);
- 2054:
-                    if(!zulu) { _fun00018_ip = 2064; continue _fun00017 }
- 2057:
+ 2050:
+                    if(!zulu) { _fun00018_ip = 2060; continue _fun00017 }
+ 2053:
                     tango = _closure2_slot18;
                     zulu = !tango;
- 2064:
-                    if(!zulu) { _fun00018_ip = 2251; continue _fun00017 }
- 2070:
+ 2060:
+                    if(!zulu) { _fun00018_ip = 2249; continue _fun00017 }
+ 2066:
                     report = _closure2_slot22;
                     tango = report.push;
                     zulu = {};
@@ -1115,33 +1115,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['text'] = golf;
                     golf = _closure2_slot10;
                     golf = !golf;
-                    if(golf) { _fun00018_ip = 2205; continue _fun00017 }
- 2201:
+                    if(golf) { _fun00018_ip = 2203; continue _fun00017 }
+ 2199:
                     golf = _closure2_slot19;
- 2205:
-                    if(!golf) { _fun00018_ip = 2222; continue _fun00017 }
- 2208:
+ 2203:
+                    if(!golf) { _fun00018_ip = 2220; continue _fun00017 }
+ 2206:
                     options = _closure2_slot1;
                     options = options.jumpTargetId;
                     golf = verify == options;
- 2222:
+ 2220:
                     zulu['scrollTo'] = golf;
                     golf = _closure2_slot11;
-                    if(!golf) { _fun00018_ip = 2241; continue _fun00017 }
- 2234:
+                    if(!golf) { _fun00018_ip = 2239; continue _fun00017 }
+ 2232:
                     options = _closure2_slot5;
                     golf = !options;
- 2241:
+ 2239:
                     zulu['animated'] = golf;
                     zulu = tango.bind(report)(zulu);
- 2251:
-                    if(!mike) { _fun00018_ip = 2261; continue _fun00017 }
- 2254:
+ 2249:
+                    if(!mike) { _fun00018_ip = 2259; continue _fun00017 }
+ 2252:
                     zulu = _closure2_slot18;
                     mike = !zulu;
- 2261:
-                    if(!mike) { _fun00018_ip = 2414; continue _fun00017 }
- 2267:
+ 2259:
+                    if(!mike) { _fun00018_ip = 2412; continue _fun00017 }
+ 2265:
                     tango = _closure2_slot22;
                     zulu = tango.push;
                     mike = {};
@@ -1150,13 +1150,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike['rowType'] = golf;
                     golf = _closure2_slot12;
                     options = _closure1_slot6;
-                    if(golf) { _fun00018_ip = 2315; continue _fun00017 }
- 2307:
+                    if(golf) { _fun00018_ip = 2313; continue _fun00017 }
+ 2305:
                     golf = options.NOOP;
-                    _fun00018_ip = 2321; continue _fun00017;
- 2315:
+                    _fun00018_ip = 2319; continue _fun00017;
+ 2313:
                     golf = options.UPDATE;
- 2321:
+ 2319:
                     mike['changeType'] = golf;
                     golf = _closure2_slot9;
                     mike['roleStyle'] = golf;
@@ -1177,7 +1177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = oscar.bind(golf)(report);
                     mike['text'] = report;
                     mike = zulu.bind(tango)(mike);
- 2414:
+ 2412:
                     return entity;
                 }
             };

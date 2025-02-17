@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.bind(report)();
             sizing = null;
             entity = null;
-            if(!(report !== result)) { _fun00002_ip = 304; continue _fun00001 }
+            if(!(report !== result)) { _fun00002_ip = 306; continue _fun00001 }
  39:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -49,11 +49,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             output = sizing == result;
             sizing = undefined;
-            if(output) { _fun00002_ip = 168; continue _fun00001 }
- 159:
+            if(output) { _fun00002_ip = 170; continue _fun00001 }
+ 161:
             output = result.toString;
             sizing = output.bind(result)();
- 168:
+ 170:
             romeo['name'] = sizing;
             romeo = backup.bind(kilo)(foxtrot, romeo);
             oscar['accessibilityLabel'] = romeo;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['actions'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 304:
+ 306:
             return entity;
         }
     };
@@ -285,8 +285,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = options;
             verify = offset.length;
             options = 0;
-            if(!(options !== verify)) { _fun00004_ip = 357; continue _fun00003 }
- 336:
+            if(!(options !== verify)) { _fun00004_ip = 361; continue _fun00003 }
+ 340:
             verify = offset.map;
             options = function(argFoo) {
                 entity = argFoo;
@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             options = verify.bind(offset)(options);
-            _fun00004_ip = 471; continue _fun00003;
- 357:
+            _fun00004_ip = 477; continue _fun00003;
+ 361:
             yankee = _closure1_slot7;
             offset = _closure1_slot3;
             verify = {};
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(tango)(foxtrot, romeo);
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 471:
+ 477:
             oscar['children'] = options;
             oscar = golf.bind(tango)(mike, oscar);
             report[1] = oscar;

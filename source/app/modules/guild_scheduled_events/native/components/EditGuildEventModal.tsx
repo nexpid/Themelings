@@ -146,10 +146,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             offset = mike == foxtrot;
             mike = undefined;
-            if(offset) { _fun00002_ip = 248; continue _fun00001 }
- 243:
+            if(offset) { _fun00002_ip = 246; continue _fun00001 }
+ 241:
             mike = foxtrot.id;
- 248:
+ 246:
             mike = golf.bind(tango)(kilo, mike, backup);
             _closure2_slot6 = mike;
             offset = _closure1_slot1;

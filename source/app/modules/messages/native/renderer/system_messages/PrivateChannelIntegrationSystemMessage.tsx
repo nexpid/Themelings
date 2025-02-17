@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             oscar = oscar == romeo;
             foxtrot = undefined;
-            if(oscar) { _fun00002_ip = 167; continue _fun00001 }
- 161:
+            if(oscar) { _fun00002_ip = 165; continue _fun00001 }
+ 159:
             foxtrot = romeo.bot;
- 167:
+ 165:
             _closure2_slot6 = foxtrot;
             options = _closure1_slot3;
             yankee = options.useMemo;

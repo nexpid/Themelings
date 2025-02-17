@@ -111,10 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.isAndroid;
             foxtrot = yankee.bind(foxtrot)();
             yankee = 0;
-            if(!foxtrot) { _fun00002_ip = 238; continue _fun00001 }
- 235:
+            if(!foxtrot) { _fun00002_ip = 234; continue _fun00001 }
+ 231:
             yankee = 16;
- 238:
+ 234:
             yankee = romeo + yankee;
             offset['paddingBottom'] = yankee;
             golf['contentContainerStyle'] = offset;

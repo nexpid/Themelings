@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 276; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 270; continue _fun00001 }
  10:
                     options = argFoo;
                     tango = undefined;
@@ -43,11 +43,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 221; continue _fun00001 }
+                    if(oscar) { _fun00002_ip = 217; continue _fun00001 }
  95:
                     zulu = mike;
                     oscar = mike.ok;
-                    if(oscar) { _fun00002_ip = 154; continue _fun00001 }
+                    if(oscar) { _fun00002_ip = 152; continue _fun00001 }
  107:
                     golf = _closure1_slot1;
                     options = _closure1_slot2;
@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_FAILURE';
                     oscar['type'] = verify;
                     oscar = golf.bind(options)(oscar);
- 149: // try_end0
+ 147: // try_end0
                     oscar = false;
                     return oscar;
- 154: // try_start_1
+ 152: // try_start_1
                     zulu = zulu.body;
                     zulu = zulu.eligible;
                     zulu = !zulu;
@@ -78,11 +78,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['type'] = options;
                     report['eligible'] = zulu;
                     report = oscar.bind(golf)(report);
- 218: // try_end1
+ 214: // try_end1
                     return zulu;
- 221:
+ 217:
                     return mike;
- 224: // catch_target0 // catch_target1
+ 220: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     zulu = _closure1_slot1;
                     report = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = zulu.bind(tango)(mike);
                     mike = false;
                     return mike;
- 276:
+ 270:
                     return entity;
                 }
             };

@@ -460,15 +460,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = sizing.bind(output)(oscar);
             entity['accessibilityLabel'] = oscar;
             oscar = romeo;
-            if(!golf) { _fun00002_ip = 919; continue _fun00001 }
- 862:
+            if(!golf) { _fun00002_ip = 921; continue _fun00001 }
+ 864:
             golf = null;
             oscar = romeo;
-            if(!(golf == options)) { _fun00002_ip = 919; continue _fun00001 }
- 871:
+            if(!(golf == options)) { _fun00002_ip = 921; continue _fun00001 }
+ 873:
             oscar = romeo;
-            if(report) { _fun00002_ip = 919; continue _fun00001 }
- 877:
+            if(report) { _fun00002_ip = 921; continue _fun00001 }
+ 879:
             options = _closure1_slot5;
             golf = _closure1_slot1;
             report = _closure1_slot2;
@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['style'] = backup;
             report['children'] = romeo;
             oscar = options.bind(tango)(golf, report);
- 919:
+ 921:
             report = new Array(2);
             report[0] = oscar;
             options = _closure1_slot5;
@@ -501,10 +501,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.AvatarSizes;
             offset = verify.EDIT_AVATAR_DECORATION;
             verify = 'xs';
-            if(!(yankee === offset)) { _fun00002_ip = 1015; continue _fun00001 }
- 1011:
+            if(!(yankee === offset)) { _fun00002_ip = 1017; continue _fun00001 }
+ 1013:
             verify = 'sm';
- 1015:
+ 1017:
             oscar['size'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

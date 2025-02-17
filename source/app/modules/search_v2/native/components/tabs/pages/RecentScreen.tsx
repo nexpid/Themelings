@@ -391,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = _closure2_slot6;
                 entity = entity.length;
                 verify = 0;
-                if(!(entity > verify)) { _fun00004_ip = 178; continue _fun00003 }
+                if(!(entity > verify)) { _fun00004_ip = 180; continue _fun00003 }
  31:
                 mike = tango.push;
                 entity = {};
@@ -442,12 +442,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = mike.bind(oscar)(entity);
- 178:
+ 180:
                 oscar = _closure2_slot2;
                 mike = null;
                 entity = tango;
-                if(!(mike != oscar)) { _fun00004_ip = 225; continue _fun00003 }
- 191:
+                if(!(mike != oscar)) { _fun00004_ip = 227; continue _fun00003 }
+ 193:
                 mike = new Array(0);
                 output = mike;
                 sizing = tango;
@@ -458,11 +458,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = arraySpread(output, sizing, kilo);
                 _closure3_slot0 = mike;
                 entity = mike;
- 225:
+ 227:
                 mike = _closure2_slot8;
                 mike = mike.length;
-                if(!(mike > verify)) { _fun00004_ip = 442; continue _fun00003 }
- 241:
+                if(!(mike > verify)) { _fun00004_ip = 444; continue _fun00003 }
+ 243:
                 zulu = entity.push;
                 mike = {};
                 tango = _closure1_slot12;
@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango['animate'] = report;
                 mike['props'] = tango;
                 mike = zulu.bind(entity)(mike);
- 442:
+ 444:
                 return entity;
             }
         };

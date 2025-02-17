@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = entity.username;
             oscar = entity.usernameOnClick;
             entity = null;
-            if(!(entity == golf)) { _fun00002_ip = 99; continue _fun00001 }
+            if(!(entity == golf)) { _fun00002_ip = 101; continue _fun00001 }
  25:
             report = _closure1_slot0;
             verify = _closure1_slot1;
@@ -46,8 +46,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['username'] = options;
             entity['usernameOnClick'] = oscar;
             entity = zulu.bind(tango)(mike, entity);
-            _fun00002_ip = 181; continue _fun00001;
- 99:
+            _fun00002_ip = 185; continue _fun00001;
+ 101:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
             mike = 0;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['applicationName'] = golf;
             mike['usernameOnClick'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 181:
+ 185:
             return entity;
         }
     };

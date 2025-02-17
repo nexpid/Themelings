@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 output = tango;
                 sizing = zulu;
                 mike = copyDataProperties(result, output, sizing);
-                if(!(entity != options)) { _fun00004_ip = 86; continue _fun00003 }
- 69:
+                if(!(entity != options)) { _fun00004_ip = 90; continue _fun00003 }
+ 73:
                 entity = _closure1_slot5;
                 entity = entity.THUMBHASH;
-                if(!(golf !== entity)) { _fun00004_ip = 193; continue _fun00003 }
- 86:
+                if(!(golf !== entity)) { _fun00004_ip = 197; continue _fun00003 }
+ 90:
                 yankee = _closure1_slot3;
                 report = _closure1_slot2;
                 tango = {};
@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = 'children';
                 tango[romeo] = foxtrot;
                 entity = yankee.bind(entity)(report, tango);
-                _fun00004_ip = 266; continue _fun00003;
- 193:
+                _fun00004_ip = 270; continue _fun00003;
+ 197:
                 report = _closure1_slot3;
                 tango = _closure1_slot6;
                 zulu = {};
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu[mike] = oscar;
                 mike = undefined;
                 entity = report.bind(mike)(tango, zulu);
- 266:
+ 270:
                 return entity;
             }
         };

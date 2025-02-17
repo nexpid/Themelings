@@ -206,34 +206,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Image;
             report = {};
             report['layout'] = backup;
-            if(!(offset == options)) { _fun00002_ip = 329; continue _fun00001 }
- 307:
+            if(!(offset == options)) { _fun00002_ip = 327; continue _fun00001 }
+ 305:
             output = _closure1_slot1;
             result = _closure1_slot2;
             kilo = 9;
             kilo = result[kilo];
             kilo = output.bind(tango)(kilo);
-            _fun00002_ip = 339; continue _fun00001;
- 329:
+            _fun00002_ip = 337; continue _fun00001;
+ 327:
             output = {};
             output['uri'] = options;
             kilo = output;
- 339:
+ 337:
             report['source'] = kilo;
-            if(!(offset == options)) { _fun00002_ip = 355; continue _fun00001 }
- 347:
+            if(!(offset == options)) { _fun00002_ip = 353; continue _fun00001 }
+ 345:
             kilo = sizing.streamPreviewImagePlaceholder;
-            _fun00002_ip = 361; continue _fun00001;
- 355:
+            _fun00002_ip = 359; continue _fun00001;
+ 353:
             kilo = sizing.streamPreviewImage;
- 361:
+ 359:
             report['style'] = kilo;
             offset = offset != options;
             options = 'contain';
-            if(!offset) { _fun00002_ip = 380; continue _fun00001 }
- 376:
+            if(!offset) { _fun00002_ip = 378; continue _fun00001 }
+ 374:
             options = 'cover';
- 380:
+ 378:
             report['resizeMode'] = options;
             oscar = golf.bind(tango)(oscar, report);
             report = new Array(2);

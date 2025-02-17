@@ -1444,10 +1444,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = {};
             quebec = context == papa;
             context = undefined;
-            if(quebec) { _fun00020_ip = 834; continue _fun00019 }
- 829:
+            if(quebec) { _fun00020_ip = 833; continue _fun00019 }
+ 828:
             context = papa.name;
- 834:
+ 833:
             vacuum['text'] = context;
             sequence['accessibilityValue'] = vacuum;
             vacuum = 'button';

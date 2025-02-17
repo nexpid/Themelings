@@ -170,11 +170,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'useFriendRequestActions';
             mike = verify.bind(romeo)(mike);
             verify = null;
-            if(!(verify == oscar)) { _fun00008_ip = 177; continue _fun00007 }
+            if(!(verify == oscar)) { _fun00008_ip = 175; continue _fun00007 }
  119:
-            if(!options) { _fun00008_ip = 177; continue _fun00007 }
+            if(!options) { _fun00008_ip = 175; continue _fun00007 }
  122:
-            if(!mike) { _fun00008_ip = 177; continue _fun00007 }
+            if(!mike) { _fun00008_ip = 175; continue _fun00007 }
  125:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['onCancel'] = offset;
             mike = options.bind(verify)(mike);
             return zulu;
- 177:
+ 175:
             mike = _closure1_slot4;
             entity = {};
             entity['userId'] = golf;

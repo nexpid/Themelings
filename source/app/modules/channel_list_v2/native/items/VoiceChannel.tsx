@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['channelInfo'] = oscar;
             oscar = backup.length;
             report = null;
-            if(!(golf !== oscar)) { _fun00004_ip = 933; continue _fun00003 }
+            if(!(golf !== oscar)) { _fun00004_ip = 929; continue _fun00003 }
  687:
             if(foxtrot) { _fun00004_ip = 771; continue _fun00003 }
  690:
@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.bind(tango)(romeo, offset);
             oscar['children'] = offset;
             report = options.bind(tango)(golf, oscar);
-            _fun00004_ip = 933; continue _fun00003;
+            _fun00004_ip = 929; continue _fun00003;
  771:
             golf = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.bind(tango)(offset, verify);
             oscar['children'] = verify;
             report = options.bind(tango)(golf, oscar);
- 933:
+ 929:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

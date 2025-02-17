@@ -100,44 +100,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = mike.bind(report)(oscar);
             report = null;
             mike = report == kilo;
-            if(entity) { _fun00002_ip = 335; continue _fun00001 }
- 322:
+            if(entity) { _fun00002_ip = 333; continue _fun00001 }
+ 320:
             golf = undefined;
-            if(mike) { _fun00002_ip = 333; continue _fun00001 }
- 327:
+            if(mike) { _fun00002_ip = 331; continue _fun00001 }
+ 325:
             golf = kilo.overlay;
+ 331:
+            _fun00002_ip = 347; continue _fun00001;
  333:
-            _fun00002_ip = 349; continue _fun00001;
- 335:
             entity = undefined;
-            if(mike) { _fun00002_ip = 346; continue _fun00001 }
- 340:
+            if(mike) { _fun00002_ip = 344; continue _fun00001 }
+ 338:
             entity = kilo.overlaySyncedWithUserTheme;
- 346:
+ 344:
             golf = entity;
- 349:
+ 347:
             entity = tango;
-            if(!(report != options)) { _fun00002_ip = 562; continue _fun00001 }
- 359:
+            if(!(report != options)) { _fun00002_ip = 560; continue _fun00001 }
+ 357:
             entity = tango;
-            if(!(report != backup)) { _fun00002_ip = 562; continue _fun00001 }
- 369:
+            if(!(report != backup)) { _fun00002_ip = 560; continue _fun00001 }
+ 367:
             entity = tango;
-            if(!(report != kilo)) { _fun00002_ip = 562; continue _fun00001 }
- 379:
+            if(!(report != kilo)) { _fun00002_ip = 560; continue _fun00001 }
+ 377:
             entity = tango;
-            if(!(report != golf)) { _fun00002_ip = 562; continue _fun00001 }
- 389:
+            if(!(report != golf)) { _fun00002_ip = 560; continue _fun00001 }
+ 387:
             mike = {};
             result = mike;
             output = tango;
             tango = copyDataProperties(result, output);
             tango = report == kilo;
             oscar = undefined;
-            if(tango) { _fun00002_ip = 416; continue _fun00001 }
- 410:
+            if(tango) { _fun00002_ip = 414; continue _fun00001 }
+ 408:
             oscar = kilo.sectionBox;
- 416:
+ 414:
             tango = 'containerBackground';
             mike[tango] = oscar;
             foxtrot = _closure1_slot0;
@@ -151,10 +151,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = foxtrot.calculateOverlayedColor;
             sizing = report == kilo;
             report = undefined;
-            if(sizing) { _fun00002_ip = 481; continue _fun00001 }
- 475:
+            if(sizing) { _fun00002_ip = 479; continue _fun00001 }
+ 473:
             report = kilo.overlay;
- 481:
+ 479:
             report = romeo.bind(foxtrot)(backup, report);
             oscar = oscar.bind(yankee)(report);
             report = 'gradientSecondaryBackground';
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = 'avatarBackground';
             mike[zulu] = tango;
             entity = mike;
- 562:
+ 560:
             return entity;
         }
     };

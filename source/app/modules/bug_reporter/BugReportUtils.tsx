@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = argFoo;
                     yankee = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 1012; continue _fun00003 }
+                    if(zulu) { _fun00004_ip = 1013; continue _fun00003 }
  16:
                     options = mike;
                     verify = argBaz;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = zulu.bind(tango)(mike);
  549:
                     mike = yankee.overridePlatformInformation;
-                    if(!mike) { _fun00004_ip = 791; continue _fun00003 }
+                    if(!mike) { _fun00004_ip = 792; continue _fun00003 }
  561:
                     tango = report;
                     zulu = tango.push;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = yankee.locale;
                     mike['value'] = yankee;
                     mike = zulu.bind(tango)(mike);
- 791:
+ 792:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
                     mike = 6;
@@ -293,15 +293,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = yankee.isIOS;
                     mike = mike.bind(yankee)();
                     yankee = _closure1_slot5;
-                    if(mike) { _fun00004_ip = 854; continue _fun00003 }
- 846:
+                    if(mike) { _fun00004_ip = 855; continue _fun00003 }
+ 847:
                     mike = yankee.ANDROID_APP;
-                    _fun00004_ip = 860; continue _fun00003;
- 854:
+                    _fun00004_ip = 861; continue _fun00003;
+ 855:
                     mike = yankee.IOS_APP;
- 860:
+ 861:
                     mike = zulu.bind(tango)(mike);
- 865: // try_start_0
+ 866: // try_start_0
                     zulu = _closure1_slot1;
                     yankee = _closure1_slot2;
                     mike = 8;
@@ -331,20 +331,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = false;
                     mike['rejectWithError'] = report;
                     mike = zulu.bind(tango)(mike);
-                    SaveGenerator(address=995);
- 993:
+                    SaveGenerator(address=996);
+ 994:
                     return mike;
- 995:
+ 996:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 1004; continue _fun00003 }
- 1001: // try_end0
+                    if(zulu) { _fun00004_ip = 1005; continue _fun00003 }
+ 1002: // try_end0
                     return mike;
- 1004:
+ 1005:
                     return mike;
- 1007: // catch_target0
+ 1008: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return mike;
- 1012:
+ 1013:
                     return entity;
                 }
             };

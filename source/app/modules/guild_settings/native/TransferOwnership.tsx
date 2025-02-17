@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00004_ip = 236; continue _fun00003 }
+                            if(mike) { _fun00004_ip = 234; continue _fun00003 }
  10:
                             mike = _closure2_slot3;
                             mike = mike.mfaEnabled;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = _closure1_slot10;
                             tango = tango.CONFIRM_EMAIL_CODE;
                             tango = report.bind(oscar)(tango);
-                            _fun00004_ip = 231; continue _fun00003;
+                            _fun00004_ip = 229; continue _fun00003;
  123:
                             return mike;
  126:
@@ -224,10 +224,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 return entity;
                             };
                             mike = tango.bind(report)(mike, zulu);
- 231:
+ 229:
                             mike = undefined;
                             return mike;
- 236:
+ 234:
                             return entity;
                         }
                     };
@@ -439,10 +439,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = offset.Text;
             offset = {'variant': 'text-md/medium', 'color': 'header-secondary'};
             backup = null;
-            if(!(backup == output)) { _fun00002_ip = 711; continue _fun00001 }
- 612:
-            if(options) { _fun00002_ip = 711; continue _fun00001 }
- 615:
+            if(!(backup == output)) { _fun00002_ip = 703; continue _fun00001 }
+ 602:
+            if(options) { _fun00002_ip = 703; continue _fun00001 }
+ 605:
             backup = _closure1_slot0;
             control = _closure1_slot2;
             options = 21;
@@ -464,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.bind(source)(config);
             options['user'] = echo;
             options = output.bind(result)(backup, options);
-            _fun00002_ip = 819; continue _fun00001;
- 711:
+            _fun00002_ip = 811; continue _fun00001;
+ 703:
             output = _closure1_slot0;
             control = _closure1_slot2;
             backup = 21;
@@ -566,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup['AKAHook'] = update;
             options = result.bind(echo)(output, backup);
- 819:
+ 811:
             offset['children'] = options;
             options = 'transfer-ownership-details';
             options = foxtrot.bind(tango)(yankee, offset, options);

@@ -71,8 +71,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = romeo.container;
             entity['style'] = report;
             oscar = null;
-            if(foxtrot) { _fun00002_ip = 348; continue _fun00001 }
- 277:
+            if(foxtrot) { _fun00002_ip = 352; continue _fun00001 }
+ 281:
             options = _closure1_slot9;
             sizing = _closure1_slot1;
             output = _closure1_slot2;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = romeo.icon;
             report['style'] = kilo;
             oscar = options.bind(tango)(golf, report);
- 348:
+ 352:
             report = new Array(3);
             report[0] = oscar;
             options = _closure1_slot9;
@@ -108,13 +108,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = offset.length;
             kilo = 1;
             offset = backup;
-            if(!(sizing > kilo)) { _fun00002_ip = 430; continue _fun00001 }
- 421:
+            if(!(sizing > kilo)) { _fun00002_ip = 434; continue _fun00001 }
+ 425:
             offset = backup;
-            if(!foxtrot) { _fun00002_ip = 430; continue _fun00001 }
- 427:
+            if(!foxtrot) { _fun00002_ip = 434; continue _fun00001 }
+ 431:
             offset = yankee;
- 430:
+ 434:
             oscar['children'] = offset;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 1;
             zulu = zulu > entity;
             entity = null;
-            if(zulu) { _fun00004_ip = 184; continue _fun00003 }
+            if(zulu) { _fun00004_ip = 188; continue _fun00003 }
  135:
             tango = _closure1_slot9;
             zulu = _closure1_slot0;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 184:
+ 188:
             return entity;
         }
     };

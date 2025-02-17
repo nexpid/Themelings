@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 277; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 271; continue _fun00001 }
  15:
                     var _closure4_slot0 = mike;
                     zulu = argBar;
@@ -84,13 +84,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                    if(zulu) { _fun00004_ip = 170; continue _fun00003 }
+                                    if(zulu) { _fun00004_ip = 168; continue _fun00003 }
  12:
                                     zulu = argFoo;
                                     var _closure7_slot0 = zulu;
                                     report = _closure4_slot4;
                                     tango = _closure1_slot7;
-                                    if(!(!(report >= tango))) { _fun00004_ip = 97; continue _fun00003 }
+                                    if(!(!(report >= tango))) { _fun00004_ip = 95; continue _fun00003 }
  37:
                                     tango = global;
                                     report = tango.Promise;
@@ -108,20 +108,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                                     verify = tango;
                                     mike = new verify[report](options, golf);
                                     tango = mike instanceof Object ? mike : tango;
-                                    SaveGenerator(address=76);
- 74:
+                                    SaveGenerator(address=74);
+ 72:
                                     return tango;
- 76:
+ 74:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=1);
-                                    if(mike) { _fun00004_ip = 94; continue _fun00003 }
- 82:
+                                    if(mike) { _fun00004_ip = 92; continue _fun00003 }
+ 80:
                                     report = _closure4_slot6;
                                     mike = undefined;
                                     mike = report.bind(mike)();
-                                    _fun00004_ip = 167; continue _fun00003;
- 94:
+                                    _fun00004_ip = 165; continue _fun00003;
+ 92:
                                     return tango;
- 97:
+ 95:
                                     golf = _closure4_slot7;
                                     tango = {};
                                     report = true;
@@ -140,9 +140,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                                     oscar = _closure4_slot0;
                                     zulu['target'] = oscar;
                                     mike = tango.bind(report)(zulu);
- 167:
+ 165:
                                     return mike;
- 170:
+ 168:
                                     return entity;
                                 }
                             };
@@ -348,17 +348,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     _closure4_slot7 = tango;
                     mike = mike.bind(zulu)();
-                    SaveGenerator(address=265);
- 263:
+                    SaveGenerator(address=259);
+ 257:
                     return mike;
- 265:
+ 259:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 274; continue _fun00001 }
- 271:
+                    if(tango) { _fun00002_ip = 268; continue _fun00001 }
+ 265:
                     return zulu;
- 274:
+ 268:
                     return mike;
- 277:
+ 271:
                     return entity;
                 }
             };

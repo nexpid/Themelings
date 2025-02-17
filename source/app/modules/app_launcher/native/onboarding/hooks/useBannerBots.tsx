@@ -396,10 +396,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             romeo = tango == yankee;
             offset = undefined;
-            if(romeo) { _fun00008_ip = 173; continue _fun00007 }
- 168:
+            if(romeo) { _fun00008_ip = 169; continue _fun00007 }
+ 164:
             offset = yankee.guild_id;
- 173:
+ 169:
             report['guildId'] = offset;
             report['fetchesShelf'] = verify;
             report = oscar.bind(golf)(report);
@@ -421,12 +421,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = verify.bind(offset)(golf, oscar);
             verify = tango != oscar;
             golf = null;
-            if(!verify) { _fun00008_ip = 261; continue _fun00007 }
- 246:
+            if(!verify) { _fun00008_ip = 257; continue _fun00007 }
+ 242:
             verify = backup.get;
             oscar = oscar.applicationId;
             golf = verify.bind(backup)(oscar);
- 261:
+ 257:
             _closure2_slot0 = golf;
             mike = _closure1_slot5;
             romeo = mike.bind(kilo)(zulu);
@@ -438,46 +438,46 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             golf = yankee;
             offset = undefined;
-            if(mike) { _fun00008_ip = 443; continue _fun00007 }
- 304:
+            if(mike) { _fun00008_ip = 439; continue _fun00007 }
+ 300:
             sizing = verify.value;
             mike = foxtrot.get;
             mike = mike.bind(foxtrot)(sizing);
             sizing = yankee;
             output = oscar;
-            if(!(tango != mike)) { _fun00008_ip = 414; continue _fun00007 }
- 329:
+            if(!(tango != mike)) { _fun00008_ip = 410; continue _fun00007 }
+ 325:
             result = backup.get;
             mike = mike.applicationId;
             mike = result.bind(backup)(mike);
             sizing = yankee;
             output = oscar;
             zulu = mike;
-            if(!(tango != mike)) { _fun00008_ip = 414; continue _fun00007 }
+            if(!(tango != mike)) { _fun00008_ip = 410; continue _fun00007 }
+ 353:
+            if(!(tango != yankee)) { _fun00008_ip = 397; continue _fun00007 }
  357:
-            if(!(tango != yankee)) { _fun00008_ip = 401; continue _fun00007 }
- 361:
             echo = mike.id;
             update = tango == yankee;
             result = undefined;
-            if(update) { _fun00008_ip = 380; continue _fun00007 }
- 375:
+            if(update) { _fun00008_ip = 376; continue _fun00007 }
+ 371:
             result = yankee.id;
- 380:
+ 376:
             sizing = yankee;
             output = sizing;
             zulu = mike;
             golf = output;
             offset = zulu;
-            if(!(echo === result)) { _fun00008_ip = 443; continue _fun00007 }
- 399:
-            _fun00008_ip = 414; continue _fun00007;
- 401:
+            if(!(echo === result)) { _fun00008_ip = 439; continue _fun00007 }
+ 395:
+            _fun00008_ip = 410; continue _fun00007;
+ 397:
             _closure2_slot0 = mike;
             sizing = mike;
             output = oscar;
             zulu = sizing;
- 414:
+ 410:
             result = romeo.bind(kilo)();
             mike = result.done;
             yankee = sizing;
@@ -485,14 +485,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = result;
             golf = yankee;
             offset = undefined;
-            if(!mike) { _fun00008_ip = 304; continue _fun00007 }
+            if(!mike) { _fun00008_ip = 300; continue _fun00007 }
+ 439:
+            if(!(tango != golf)) { _fun00008_ip = 475; continue _fun00007 }
  443:
-            if(!(tango != golf)) { _fun00008_ip = 479; continue _fun00007 }
- 447:
             oscar = golf;
             mike = offset;
-            if(!(tango == offset)) { _fun00008_ip = 526; continue _fun00007 }
- 457:
+            if(!(tango == offset)) { _fun00008_ip = 522; continue _fun00007 }
+ 453:
             verify = options.find;
             zulu = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -513,42 +513,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = verify.bind(options)(zulu);
             oscar = golf;
-            _fun00008_ip = 526; continue _fun00007;
- 479:
+            _fun00008_ip = 522; continue _fun00007;
+ 475:
             verify = options.length;
             zulu = 0;
-            if(!(verify > zulu)) { _fun00008_ip = 501; continue _fun00007 }
- 490:
+            if(!(verify > zulu)) { _fun00008_ip = 497; continue _fun00007 }
+ 486:
             zulu = options[zulu];
             _closure2_slot0 = zulu;
             golf = zulu;
- 501:
+ 497:
             verify = options.length;
             zulu = 1;
             oscar = golf;
             mike = offset;
-            if(!(verify > zulu)) { _fun00008_ip = 526; continue _fun00007 }
- 519:
+            if(!(verify > zulu)) { _fun00008_ip = 522; continue _fun00007 }
+ 515:
             mike = options[zulu];
             oscar = golf;
+ 522:
+            if(!(tango != oscar)) { _fun00008_ip = 544; continue _fun00007 }
  526:
-            if(!(tango != oscar)) { _fun00008_ip = 548; continue _fun00007 }
- 530:
             zulu = oscar;
-            if(!(tango == mike)) { _fun00008_ip = 568; continue _fun00007 }
- 537:
+            if(!(tango == mike)) { _fun00008_ip = 564; continue _fun00007 }
+ 533:
             tango = 0;
             mike = report[tango];
             zulu = oscar;
-            _fun00008_ip = 568; continue _fun00007;
- 548:
+            _fun00008_ip = 564; continue _fun00007;
+ 544:
             tango = 0;
             tango = report[tango];
             _closure2_slot0 = tango;
             entity = 1;
             mike = report[entity];
             zulu = tango;
- 568:
+ 564:
             entity = {};
             entity['firstBotApplication'] = zulu;
             entity['secondBotApplication'] = mike;

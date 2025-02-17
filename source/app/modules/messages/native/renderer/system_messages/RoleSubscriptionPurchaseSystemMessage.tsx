@@ -238,22 +238,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             oscar = entity == golf;
             tango = undefined;
-            if(oscar) { _fun00004_ip = 115; continue _fun00003 }
- 105:
+            if(oscar) { _fun00004_ip = 113; continue _fun00003 }
+ 103:
             oscar = golf.getGuildId;
             tango = oscar.bind(golf)();
- 115:
+ 113:
             golf = entity != tango;
             oscar = undefined;
-            if(!golf) { _fun00004_ip = 127; continue _fun00003 }
- 124:
+            if(!golf) { _fun00004_ip = 125; continue _fun00003 }
+ 122:
             oscar = tango;
- 127:
+ 125:
             golf = zulu.roleSubscriptionData;
             zulu = entity == golf;
             entity = null;
-            if(zulu) { _fun00004_ip = 172; continue _fun00003 }
- 142:
+            if(zulu) { _fun00004_ip = 170; continue _fun00003 }
+ 140:
             tango = _closure1_slot7;
             zulu = _closure1_slot8;
             mike = {};
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['roleSubscriptionData'] = golf;
             mike['guildId'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 172:
+ 170:
             return entity;
         }
     };

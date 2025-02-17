@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 307; continue _fun00003 }
+                        if(mike) { _fun00004_ip = 311; continue _fun00003 }
  10:
                         mike = undefined;
                         report = undefined;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  69:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(oscar) { _fun00004_ip = 144; continue _fun00003 }
+                        if(oscar) { _fun00004_ip = 146; continue _fun00003 }
  75:
                         oscar = _closure1_slot12;
                         offset = _closure1_slot0;
@@ -198,11 +198,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.2bO4d3;
                         tango = golf.bind(verify)(tango);
                         tango = oscar.bind(mike)(tango);
- 139: // try_end0
-                        _fun00004_ip = 304; continue _fun00003;
- 144:
+ 141: // try_end0
+                        _fun00004_ip = 308; continue _fun00003;
+ 146:
                         return zulu;
- 147: // catch_target0
+ 149: // catch_target0
                         CatchBlockStart(arg_register=6);
                         oscar = _closure1_slot0;
                         verify = _closure1_slot2;
@@ -221,15 +221,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = null;
                         verify = golf == oscar;
                         oscar = undefined;
-                        if(verify) { _fun00004_ip = 232; continue _fun00003 }
- 219:
+                        if(verify) { _fun00004_ip = 234; continue _fun00003 }
+ 221:
                         verify = options;
                         options = verify.getAnyErrorMessage;
                         oscar = options.bind(verify)();
- 232:
+ 234:
                         report = oscar;
-                        if(!(golf == oscar)) { _fun00004_ip = 296; continue _fun00003 }
- 239:
+                        if(!(golf == oscar)) { _fun00004_ip = 300; continue _fun00003 }
+ 241:
                         options = _closure1_slot0;
                         verify = _closure1_slot2;
                         zulu = 13;
@@ -242,14 +242,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = zulu.t;
                         zulu = zulu.FPzC5+;
                         zulu = oscar.bind(golf)(zulu);
-                        _fun00004_ip = 299; continue _fun00003;
- 296:
+                        _fun00004_ip = 303; continue _fun00003;
+ 300:
                         zulu = report;
- 299:
+ 303:
                         zulu = tango.bind(mike)(zulu);
- 304:
+ 308:
                         return mike;
- 307:
+ 311:
                         return entity;
                     }
                 };
@@ -458,8 +458,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = zulu.bind(tango)(romeo, yankee);
             options[4] = yankee;
             verify = verify != backup;
-            if(!verify) { _fun00002_ip = 726; continue _fun00001 }
- 657:
+            if(!verify) { _fun00002_ip = 732; continue _fun00001 }
+ 663:
             romeo = _closure1_slot9;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(backup)();
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 726:
+ 732:
             options[5] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

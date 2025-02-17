@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     var _closure3_slot1 = mike;
                     mike = mike.length;
                     entity = entity.length;
-                    if(!(mike !== entity)) { _fun00006_ip = 366; continue _fun00005 }
+                    if(!(mike !== entity)) { _fun00006_ip = 370; continue _fun00005 }
  50:
                     mike = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.RED;
                     entity['confirmColor'] = tango;
                     entity = mike.bind(zulu)(entity);
- 366:
+ 370:
                     entity = undefined;
                     return entity;
                 }
@@ -565,7 +565,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['style'] = verify;
             foxtrot = null;
-            if(!golf) { _fun00002_ip = 782; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 784; continue _fun00001 }
  569:
             output = _closure1_slot9;
             backup = _closure1_slot5;
@@ -616,12 +616,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result[1] = echo;
             golf['children'] = result;
             foxtrot = output.bind(tango)(backup, golf);
- 782:
+ 784:
             golf = new Array(3);
             golf[0] = foxtrot;
             verify = null;
-            if(romeo) { _fun00002_ip = 953; continue _fun00001 }
- 798:
+            if(romeo) { _fun00002_ip = 955; continue _fun00001 }
+ 800:
             foxtrot = _closure1_slot8;
             result = _closure1_slot0;
             echo = _closure1_slot2;
@@ -658,7 +658,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo === backup;
             yankee['end'] = backup;
             verify = foxtrot.bind(tango)(romeo, yankee);
- 953:
+ 955:
             golf[1] = verify;
             verify = offset.map;
             options = function(argFoo, argBar) {

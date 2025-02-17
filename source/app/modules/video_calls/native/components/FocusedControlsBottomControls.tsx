@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['__initData'] = golf;
             oscar = tango.bind(oscar)(entity);
             entity = null;
-            if(!zulu) { _fun00004_ip = 393; continue _fun00003 }
+            if(!zulu) { _fun00004_ip = 395; continue _fun00003 }
  172:
             tango = _closure1_slot14;
             golf = _closure1_slot1;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 393:
+ 395:
             return entity;
         }
     };

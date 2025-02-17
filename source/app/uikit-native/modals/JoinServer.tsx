@@ -251,13 +251,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo.bind(tango)(options);
             options = options.spacing;
             options = options.PX_16;
-            if(offset) { _fun00002_ip = 273; continue _fun00001 }
- 267:
+            if(offset) { _fun00002_ip = 272; continue _fun00001 }
+ 266:
             golf = golf + options;
-            _fun00002_ip = 276; continue _fun00001;
- 273:
+            _fun00002_ip = 275; continue _fun00001;
+ 272:
             golf = options;
- 276:
+ 275:
             oscar['paddingBottom'] = golf;
             report[1] = oscar;
             entity['contentContainerStyle'] = report;
@@ -267,8 +267,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot7;
             options = verify <= options;
             verify = null;
-            if(options) { _fun00002_ip = 556; continue _fun00001 }
- 316:
+            if(options) { _fun00002_ip = 557; continue _fun00001 }
+ 315:
             romeo = _closure1_slot10;
             offset = _closure1_slot11;
             options = {};
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = output;
             options['children'] = backup;
             verify = romeo.bind(tango)(offset, options);
- 556:
+ 557:
             options = new Array(3);
             options[0] = verify;
             romeo = _closure1_slot9;

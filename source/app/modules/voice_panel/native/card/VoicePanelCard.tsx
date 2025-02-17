@@ -2831,7 +2831,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             entity['style'] = golf;
             entity['layout'] = yankee;
-            if(!(report != sizing)) { _fun00054_ip = 636; continue _fun00053 }
+            if(!(report != sizing)) { _fun00054_ip = 632; continue _fun00053 }
  439:
             if(!offset) { _fun00054_ip = 446; continue _fun00053 }
  442:
@@ -2856,7 +2856,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = _closure1_slot20;
             romeo = _closure1_slot1;
             output = _closure1_slot2;
-            if(offset) { _fun00054_ip = 566; continue _fun00053 }
+            if(offset) { _fun00054_ip = 562; continue _fun00053 }
  516:
             offset = 23;
             offset = output[offset];
@@ -2866,8 +2866,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = verify.image;
             offset['style'] = kilo;
             offset = foxtrot.bind(tango)(yankee, offset);
-            _fun00054_ip = 624; continue _fun00053;
- 566:
+            _fun00054_ip = 620; continue _fun00053;
+ 562:
             kilo = 17;
             yankee = output[kilo];
             romeo = romeo.bind(tango)(yankee);
@@ -2881,11 +2881,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['size'] = kilo;
             yankee['avatarDecoration'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 624:
+ 620:
             report['children'] = offset;
             report = options.bind(tango)(golf, report);
-            _fun00054_ip = 678; continue _fun00053;
- 636:
+            _fun00054_ip = 674; continue _fun00053;
+ 632:
             options = _closure1_slot20;
             golf = _closure1_slot1;
             offset = _closure1_slot2;
@@ -2896,7 +2896,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.avatarPlaceholder;
             oscar['style'] = verify;
             report = options.bind(tango)(golf, oscar);
- 678:
+ 674:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

@@ -193,10 +193,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['buttonPrimaryOnPress'] = yankee;
             entity['buttonPrimaryDisabled'] = oscar;
-            if(verify) { _fun00002_ip = 479; continue _fun00001 }
- 476:
+            if(verify) { _fun00002_ip = 483; continue _fun00001 }
+ 480:
             verify = offset;
- 479:
+ 483:
             entity['buttonPrimaryLoading'] = verify;
             verify = 'destructive';
             entity['buttonPrimaryVariant'] = verify;

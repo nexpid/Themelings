@@ -497,8 +497,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['label'] = result;
             result = yankee == output;
             output = undefined;
-            if(!result) { _fun00002_ip = 862; continue _fun00001 }
- 810:
+            if(!result) { _fun00002_ip = 866; continue _fun00001 }
+ 812:
             control = _closure1_slot0;
             result = _closure1_slot2;
             update = result[echo];
@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.t;
             result = result.fbKwSk;
             output = update.bind(source)(result);
- 862:
+ 866:
             options['description'] = output;
             output = true;
             options['autoFocus'] = output;
@@ -554,13 +554,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify['onPress'] = backup;
             yankee = yankee != romeo;
-            if(yankee) { _fun00002_ip = 1047; continue _fun00001 }
- 1029:
+            if(yankee) { _fun00002_ip = 1051; continue _fun00001 }
+ 1033:
             romeo = foxtrot.trim;
             foxtrot = romeo.bind(foxtrot)();
             romeo = '';
             yankee = romeo === foxtrot;
- 1047:
+ 1051:
             verify['disabled'] = yankee;
             verify = options.bind(tango)(offset, verify);
             oscar['children'] = verify;

@@ -149,15 +149,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             var _closure2_slot7 = options;
-            if(foxtrot) { _fun00004_ip = 113; continue _fun00003 }
- 108:
+            if(foxtrot) { _fun00004_ip = 111; continue _fun00003 }
+ 106:
             foxtrot = yankee.disabled;
- 113:
+ 111:
             _closure2_slot8 = foxtrot;
             mike = yankee.collapsibleContent;
             entity = null;
-            if(!(entity == mike)) { _fun00004_ip = 189; continue _fun00003 }
- 129:
+            if(!(entity == mike)) { _fun00004_ip = 187; continue _fun00003 }
+ 127:
             zulu = _closure1_slot5;
             mike = _closure1_slot15;
             entity = {};
@@ -172,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['indicatorLeft'] = golf;
             entity['showIndicator'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun00004_ip = 288; continue _fun00003;
- 189:
+            _fun00004_ip = 284; continue _fun00003;
+ 187:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
             mike = {};
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 288:
+ 284:
             return entity;
         }
     };

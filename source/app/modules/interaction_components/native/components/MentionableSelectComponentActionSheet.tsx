@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.bind(oscar)(entity);
                     entity = entity.SelectOptionType;
                     entity = entity.USER;
-                    if(!(zulu !== entity)) { _fun00010_ip = 159; continue _fun00009 }
+                    if(!(zulu !== entity)) { _fun00010_ip = 161; continue _fun00009 }
  49:
                     zulu = verify.type;
                     tango = _closure1_slot0;
@@ -539,17 +539,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['roleName'] = golf;
                     entity = tango.bind(report)(zulu, entity);
                     return entity;
- 159:
+ 161:
                     tango = _closure1_slot7;
                     zulu = tango.getUser;
                     entity = verify.value;
                     golf = zulu.bind(tango)(entity);
                     options = null;
-                    if(!(options != golf)) { _fun00010_ip = 194; continue _fun00009 }
- 185:
+                    if(!(options != golf)) { _fun00010_ip = 196; continue _fun00009 }
+ 187:
                     entity = golf.bot;
-                    if(entity) { _fun00010_ip = 283; continue _fun00009 }
- 194:
+                    if(entity) { _fun00010_ip = 287; continue _fun00009 }
+ 196:
                     zulu = _closure1_slot0;
                     offset = _closure1_slot2;
                     entity = 23;
@@ -566,14 +566,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['username'] = offset;
                     yankee = options == golf;
                     offset = undefined;
-                    if(yankee) { _fun00010_ip = 270; continue _fun00009 }
- 264:
+                    if(yankee) { _fun00010_ip = 274; continue _fun00009 }
+ 268:
                     offset = golf.discriminator;
- 270:
+ 274:
                     entity['discriminator'] = offset;
                     entity = tango.bind(report)(zulu, entity);
-                    _fun00010_ip = 370; continue _fun00009;
- 283:
+                    _fun00010_ip = 376; continue _fun00009;
+ 287:
                     zulu = _closure1_slot0;
                     offset = _closure1_slot2;
                     mike = 23;
@@ -590,13 +590,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['username'] = verify;
                     options = options == golf;
                     oscar = undefined;
-                    if(options) { _fun00010_ip = 359; continue _fun00009 }
- 353:
-                    oscar = golf.discriminator;
+                    if(options) { _fun00010_ip = 365; continue _fun00009 }
  359:
+                    oscar = golf.discriminator;
+ 365:
                     mike['discriminator'] = oscar;
                     entity = tango.bind(report)(zulu, mike);
- 370:
+ 376:
                     return entity;
                 }
             };

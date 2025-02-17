@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar;
             golf = oscar.length;
             oscar = 0;
-            if(!(oscar !== golf)) { _fun00006_ip = 258; continue _fun00005 }
+            if(!(oscar !== golf)) { _fun00006_ip = 252; continue _fun00005 }
  196:
             golf = report;
             oscar = golf.forEach;
@@ -247,12 +247,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             zulu = oscar.bind(golf)(zulu, report);
-            _fun00006_ip = 261; continue _fun00005;
- 258:
+            _fun00006_ip = 255; continue _fun00005;
+ 252:
             zulu = entity;
- 261: // try_end0
+ 255: // try_end0
             return zulu;
- 263: // catch_target0
+ 257: // catch_target0
             CatchBlockStart(arg_register=4);
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

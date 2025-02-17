@@ -987,7 +987,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = golf.length;
             report = 0;
             backup = entity > report;
-            if(backup) { _fun00018_ip = 169; continue _fun00017 }
+            if(backup) { _fun00018_ip = 171; continue _fun00017 }
  79:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1008,8 +1008,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = options.bind(verify)(zulu, entity);
             options = new Array(1);
             options[0] = entity;
-            _fun00018_ip = 214; continue _fun00017;
- 169:
+            _fun00018_ip = 216; continue _fun00017;
+ 171:
             zulu = golf.map;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -1025,7 +1025,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 1;
             mike = zulu + mike;
             options = entity;
- 214:
+ 216:
             zulu = _closure1_slot11;
             mike = _closure1_slot6;
             entity = {};
@@ -1045,10 +1045,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = offset.WarningIcon;
             offset = {};
             foxtrot = 'text-warning';
-            if(!backup) { _fun00018_ip = 301; continue _fun00017 }
- 295:
+            if(!backup) { _fun00018_ip = 303; continue _fun00017 }
+ 297:
             foxtrot = 'text-danger';
- 301:
+ 303:
             offset['color'] = foxtrot;
             yankee = romeo.bind(tango)(yankee, offset);
             offset = new Array(2);
@@ -1067,16 +1067,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             output = update[kilo];
             output = sizing.bind(tango)(output);
             result = output.intl;
-            if(backup) { _fun00018_ip = 422; continue _fun00017 }
- 390:
+            if(backup) { _fun00018_ip = 426; continue _fun00017 }
+ 392:
             output = result.string;
             backup = update[kilo];
             backup = sizing.bind(tango)(backup);
             backup = backup.t;
             backup = backup.YstzGB;
             backup = output.bind(result)(backup);
-            _fun00018_ip = 477; continue _fun00017;
- 422:
+            _fun00018_ip = 483; continue _fun00017;
+ 426:
             output = result.formatToPlainString;
             kilo = update[kilo];
             kilo = sizing.bind(tango)(kilo);
@@ -1088,7 +1088,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             echo = echo.gameTitle;
             kilo['gameTitle'] = echo;
             backup = output.bind(result)(sizing, kilo);
- 477:
+ 483:
             yankee['children'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             offset[1] = yankee;

@@ -217,10 +217,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = romeo.imageContainerEmpty;
             report[2] = oscar;
             oscar = golf;
-            if(!oscar) { _fun00004_ip = 325; continue _fun00003 }
- 320:
+            if(!oscar) { _fun00004_ip = 327; continue _fun00003 }
+ 322:
             oscar = romeo.disabled;
- 325:
+ 327:
             report[3] = oscar;
             report[4] = echo;
             entity['style'] = report;
@@ -232,8 +232,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify[report];
             verify = oscar.bind(tango)(report);
             oscar = null;
-            if(!(oscar == options)) { _fun00004_ip = 404; continue _fun00003 }
- 371:
+            if(!(oscar == options)) { _fun00004_ip = 406; continue _fun00003 }
+ 373:
             report = {};
             report['resizeMode'] = foxtrot;
             kilo = _closure1_slot1;
@@ -242,8 +242,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = source[foxtrot];
             foxtrot = kilo.bind(tango)(foxtrot);
             report['source'] = foxtrot;
-            _fun00004_ip = 459; continue _fun00003;
- 404:
+            _fun00004_ip = 461; continue _fun00003;
+ 406:
             foxtrot = {};
             kilo = new Array(3);
             kilo[0] = update;
@@ -252,36 +252,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = kilo;
             result = oscar != output;
             kilo = 'cover';
-            if(!result) { _fun00004_ip = 440; continue _fun00003 }
- 437:
+            if(!result) { _fun00004_ip = 442; continue _fun00003 }
+ 439:
             kilo = output;
- 440:
+ 442:
             foxtrot['resizeMode'] = kilo;
             kilo = {};
             kilo['uri'] = sizing;
             foxtrot['source'] = kilo;
             report = foxtrot;
- 459:
+ 461:
             verify = offset.bind(tango)(verify, report);
             report = new Array(2);
             report[0] = verify;
             oscar = oscar != options;
-            if(!oscar) { _fun00004_ip = 483; continue _fun00003 }
- 480:
+            if(!oscar) { _fun00004_ip = 485; continue _fun00003 }
+ 482:
             oscar = !golf;
- 483:
-            if(!oscar) { _fun00004_ip = 627; continue _fun00003 }
- 489:
+ 485:
+            if(!oscar) { _fun00004_ip = 629; continue _fun00003 }
+ 491:
             verify = _closure1_slot6;
             options = _closure1_slot5;
             golf = {};
             foxtrot = romeo.editImageIcon;
             offset = new Array(2);
             offset[0] = foxtrot;
-            if(!yankee) { _fun00004_ip = 522; continue _fun00003 }
- 516:
+            if(!yankee) { _fun00004_ip = 524; continue _fun00003 }
+ 518:
             yankee = romeo.standaloneIcon;
- 522:
+ 524:
             offset[1] = yankee;
             golf['style'] = offset;
             romeo = _closure1_slot6;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 627:
+ 629:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot8;
             tango = undefined;
             result = mike.bind(tango)();
-            if(!(entity != yankee)) { _fun00008_ip = 152; continue _fun00007 }
+            if(!(entity != yankee)) { _fun00008_ip = 154; continue _fun00007 }
  95:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -451,8 +451,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.0KOidn;
             control = mike.bind(zulu)(entity);
-            _fun00008_ip = 207; continue _fun00007;
- 152:
+            _fun00008_ip = 211; continue _fun00007;
+ 154:
             report = _closure1_slot0;
             golf = _closure1_slot2;
             entity = 9;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.bGPfSk;
             control = mike.bind(zulu)(entity);
- 207:
+ 211:
             zulu = _closure1_slot7;
             mike = _closure1_slot5;
             entity = {};

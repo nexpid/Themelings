@@ -310,8 +310,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = report.bind(oscar)(zulu);
                     entity['description'] = zulu;
                     zulu = _closure2_slot0;
-                    if(!zulu) { _fun00012_ip = 174; continue _fun00011 }
- 134:
+                    if(!zulu) { _fun00012_ip = 176; continue _fun00011 }
+ 136:
                     report = _closure2_slot6;
                     oscar = _closure1_slot0;
                     options = _closure1_slot2;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.DismissibleContent;
                     tango = tango.DONUT_MOBILE_NUX;
                     zulu = report === tango;
- 174:
+ 176:
                     entity['visible'] = zulu;
                     zulu = function() { // Original name: renderImgComponent
                         tango = _closure1_slot9;

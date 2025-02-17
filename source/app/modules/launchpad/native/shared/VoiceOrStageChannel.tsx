@@ -882,8 +882,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = oscar != source;
             golf['live'] = source;
             source = config.length;
-            if(!(!(source > verify))) { _fun00012_ip = 1117; continue _fun00011 }
- 1068:
+            if(!(!(source > verify))) { _fun00012_ip = 1118; continue _fun00011 }
+ 1069:
             vacuum = _closure1_slot14;
             control = _closure1_slot0;
             sequence = _closure1_slot2;
@@ -895,8 +895,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source['channel'] = backup;
             source['voiceStates'] = options;
             source = vacuum.bind(zulu)(control, source);
-            _fun00012_ip = 1175; continue _fun00011;
- 1117:
+            _fun00012_ip = 1176; continue _fun00011;
+ 1118:
             sequence = _closure1_slot14;
             vacuum = _closure1_slot1;
             record = _closure1_slot2;
@@ -910,7 +910,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = config.gameSize;
             control['size'] = config;
             source = sequence.bind(zulu)(vacuum, control);
- 1175:
+ 1176:
             golf['end'] = source;
             golf['connected'] = update;
             golf['fontScale'] = echo;
@@ -924,8 +924,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.length;
             options = options > verify;
             oscar = null;
-            if(!options) { _fun00012_ip = 1341; continue _fun00011 }
- 1233:
+            if(!options) { _fun00012_ip = 1342; continue _fun00011 }
+ 1234:
             offset = _closure1_slot14;
             verify = _closure1_slot5;
             options = {};
@@ -951,7 +951,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = offset.bind(zulu)(romeo, yankee);
             options['children'] = yankee;
             oscar = offset.bind(zulu)(verify, options);
- 1341:
+ 1342:
             golf[1] = oscar;
             oscar = 'children';
             entity[oscar] = golf;

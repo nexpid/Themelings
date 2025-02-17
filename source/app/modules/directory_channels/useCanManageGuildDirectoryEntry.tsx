@@ -113,15 +113,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['isEntryAdmin'] = mike;
             tango = mike;
-            if(mike) { _fun00002_ip = 201; continue _fun00001 }
- 198:
+            if(mike) { _fun00002_ip = 193; continue _fun00001 }
+ 190:
             tango = zulu;
- 201:
+ 193:
             entity['canEdit'] = tango;
-            if(mike) { _fun00002_ip = 212; continue _fun00001 }
- 209:
+            if(mike) { _fun00002_ip = 204; continue _fun00001 }
+ 201:
             mike = zulu;
- 212:
+ 204:
             entity['canRemove'] = mike;
             return entity;
         }

@@ -454,10 +454,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             result = sizing == output;
             sizing = undefined;
-            if(result) { _fun00002_ip = 597; continue _fun00001 }
- 591:
+            if(result) { _fun00002_ip = 605; continue _fun00001 }
+ 599:
             sizing = output.email;
- 597:
+ 605:
             romeo['email'] = sizing;
             romeo = backup.bind(kilo)(foxtrot, romeo);
             verify['children'] = romeo;

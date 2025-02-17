@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
-            if(zulu) { _fun00002_ip = 293; continue _fun00001 }
+            if(zulu) { _fun00002_ip = 301; continue _fun00001 }
  14:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -158,8 +158,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['onConfirm'] = oscar;
             zulu = tango.bind(report)(zulu);
-            _fun00002_ip = 367; continue _fun00001;
- 293:
+            _fun00002_ip = 375; continue _fun00001;
+ 301:
             report = _closure1_slot0;
             tango = _closure1_slot2;
             zulu = 8;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
- 367:
+ 375:
             entity = undefined;
             return entity;
         }

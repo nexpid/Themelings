@@ -484,8 +484,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = null;
             zulu = control == variable39;
             entity = null;
-            if(zulu) { _fun00002_ip = 1867; continue _fun00001 }
- 338:
+            if(zulu) { _fun00002_ip = 1866; continue _fun00001 }
+ 330:
             tango = _closure1_slot14;
             offset = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -549,10 +549,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             config = control != variable37;
             control = undefined;
-            if(!config) { _fun00002_ip = 604; continue _fun00001 }
- 601:
+            if(!config) { _fun00002_ip = 595; continue _fun00001 }
+ 592:
             control = variable37;
- 604:
+ 595:
             kilo['guildId'] = control;
             kilo['user'] = variable39;
             kilo['animate'] = source;
@@ -868,11 +868,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(oscar)(tango);
                     report = _closure2_slot2;
                     tango = null;
-                    if(!(tango != report)) { _fun00008_ip = 115; continue _fun00007 }
- 107:
+                    if(!(tango != report)) { _fun00008_ip = 113; continue _fun00007 }
+ 105:
                     zulu = _closure2_slot2;
                     zulu = zulu.bind(entity)();
- 115:
+ 113:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 21;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1867:
+ 1866:
             return entity;
         }
     };

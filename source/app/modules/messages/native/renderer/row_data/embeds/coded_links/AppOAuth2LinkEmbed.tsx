@@ -211,8 +211,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.colors;
             offset = entity.baseColors;
             entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 864; continue _fun00001 }
- 302:
+            if(!(entity != verify)) { _fun00002_ip = 858; continue _fun00001 }
+ 296:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
             foxtrot = 12;
@@ -227,23 +227,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = tango.bind(options)(zulu);
             tango = 'number';
             zulu = typeof romeo;
-            if(!(tango !== zulu)) { _fun00002_ip = 393; continue _fun00001 }
- 364:
+            if(!(tango !== zulu)) { _fun00002_ip = 387; continue _fun00001 }
+ 358:
             options = romeo;
-            if(!(entity == options)) { _fun00002_ip = 414; continue _fun00001 }
- 371:
+            if(!(entity == options)) { _fun00002_ip = 408; continue _fun00001 }
+ 365:
             tango = _closure1_slot1;
             kilo = _closure1_slot2;
             zulu = 14;
             zulu = kilo[zulu];
             options = tango.bind(report)(zulu);
-            _fun00002_ip = 414; continue _fun00001;
- 393:
+            _fun00002_ip = 408; continue _fun00001;
+ 387:
             tango = _closure1_slot5;
             zulu = tango.resolveAssetSource;
             zulu = zulu.bind(tango)(romeo);
             options = zulu.uri;
- 414:
+ 408:
             kilo = verify.bot;
             tango = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -252,18 +252,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(zulu);
             zulu = tango.isEmbeddedApp;
             zulu = zulu.bind(tango)(verify);
-            if(zulu) { _fun00002_ip = 541; continue _fun00001 }
- 454:
+            if(zulu) { _fun00002_ip = 535; continue _fun00001 }
+ 448:
             tango = entity == kilo;
             zulu = undefined;
-            if(tango) { _fun00002_ip = 469; continue _fun00001 }
- 463:
+            if(tango) { _fun00002_ip = 463; continue _fun00001 }
+ 457:
             zulu = kilo.banner;
- 469:
+ 463:
             zulu = entity != zulu;
             romeo = undefined;
-            if(!zulu) { _fun00002_ip = 546; continue _fun00001 }
- 478:
+            if(!zulu) { _fun00002_ip = 540; continue _fun00001 }
+ 472:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[foxtrot];
@@ -278,10 +278,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = false;
             zulu['canAnimate'] = backup;
             romeo = tango.bind(foxtrot)(zulu);
-            _fun00002_ip = 546; continue _fun00001;
- 541:
+            _fun00002_ip = 540; continue _fun00001;
+ 535:
             romeo = mike.url;
- 546:
+ 540:
             tango = _closure1_slot10;
             zulu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -323,10 +323,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.isAndroid;
             offset = offset.bind(foxtrot)();
             foxtrot = undefined;
-            if(!offset) { _fun00002_ip = 728; continue _fun00001 }
- 726:
+            if(!offset) { _fun00002_ip = 722; continue _fun00001 }
+ 720:
             foxtrot = null;
- 728:
+ 722:
             offset = 'headerText';
             mike[offset] = foxtrot;
             foxtrot = golf.bodyTextColor;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[oscar] = golf;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 864:
+ 858:
             return entity;
         }
     };

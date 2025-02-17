@@ -22,14 +22,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.state;
             mike = _closure1_slot18;
             mike = mike.RESOLVED;
-            if(!(report === mike)) { _fun00002_ip = 678; continue _fun00001 }
+            if(!(report === mike)) { _fun00002_ip = 680; continue _fun00001 }
  65:
             mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 410; continue _fun00001 }
+            if(!(mike == entity)) { _fun00002_ip = 412; continue _fun00001 }
  74:
-            if(!(mike == zulu)) { _fun00002_ip = 239; continue _fun00001 }
+            if(!(mike == zulu)) { _fun00002_ip = 241; continue _fun00001 }
  81:
-            if(!(mike != verify)) { _fun00002_ip = 237; continue _fun00001 }
+            if(!(mike != verify)) { _fun00002_ip = 239; continue _fun00001 }
  88:
             oscar = _closure1_slot21;
             options = _closure1_slot1;
@@ -65,10 +65,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.getFormattedName;
             zulu = true;
             foxtrot = options.bind(offset)(verify, zulu);
-            _fun00002_ip = 502; continue _fun00001;
- 237:
-            return mike;
+            _fun00002_ip = 504; continue _fun00001;
  239:
+            return mike;
+ 241:
             options = _closure1_slot1;
             offset = _closure1_slot2;
             zulu = 17;
@@ -108,8 +108,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(tango)(mike);
             mike = options.getFormattedName;
             foxtrot = mike.bind(options)(verify);
-            _fun00002_ip = 502; continue _fun00001;
- 410:
+            _fun00002_ip = 504; continue _fun00001;
+ 412:
             report = _closure1_slot21;
             zulu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.3rE1Pz;
             result = report.bind(options)(mike);
             foxtrot = entity.name;
- 502:
+ 504:
             zulu = _closure1_slot22;
             mike = _closure1_slot4;
             entity = {};
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 678:
+ 680:
             entity = null;
             return entity;
         }
@@ -359,24 +359,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = update.bind(tango)(echo, sizing);
             romeo[1] = sizing;
             sizing = null;
-            if(!result) { _fun00004_ip = 465; continue _fun00003 }
- 444:
+            if(!result) { _fun00004_ip = 467; continue _fun00003 }
+ 446:
             update = _closure1_slot21;
             echo = _closure1_slot25;
             result = {};
             result['invite'] = source;
             sizing = update.bind(tango)(echo, result);
- 465:
+ 467:
             romeo[2] = sizing;
             foxtrot = null;
-            if(!kilo) { _fun00004_ip = 495; continue _fun00003 }
- 474:
+            if(!kilo) { _fun00004_ip = 497; continue _fun00003 }
+ 476:
             sizing = _closure1_slot21;
             kilo = _closure1_slot26;
             backup = {};
             backup['guildTemplate'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 495:
+ 497:
             romeo[3] = foxtrot;
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
@@ -788,7 +788,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar.bind(golf)(report);
             if(!zulu) { _fun00006_ip = 431; continue _fun00005 }
  425:
-            if(mike) { _fun00006_ip = 921; continue _fun00005 }
+            if(mike) { _fun00006_ip = 923; continue _fun00005 }
  431:
             vacuum = _closure1_slot0;
             sequence = _closure1_slot2;
@@ -946,7 +946,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = report.bind(tango)(zulu, mike);
             return mike;
- 921:
+ 923:
             zulu = _closure1_slot21;
             mike = _closure1_slot1;
             report = _closure1_slot2;

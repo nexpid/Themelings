@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = report.delete;
             zulu = argFoo;
             zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun00002_ip = 113; continue _fun00001 }
+            if(!zulu) { _fun00002_ip = 111; continue _fun00001 }
  73:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
- 113:
+ 111:
             entity = undefined;
             return entity;
         }

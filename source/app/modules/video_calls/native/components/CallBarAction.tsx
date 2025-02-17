@@ -221,10 +221,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = romeo;
             romeo = {};
             foxtrot = 1;
-            if(!echo) { _fun00002_ip = 378; continue _fun00001 }
- 368:
+            if(!echo) { _fun00002_ip = 376; continue _fun00001 }
+ 366:
             foxtrot = 0.25;
- 378:
+ 376:
             romeo['opacity'] = foxtrot;
             options[2] = romeo;
             report['style'] = options;
@@ -242,10 +242,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = 45;
             options['cutoutPositionInDegrees'] = update;
             offset = null;
-            if(!(offset == kilo)) { _fun00002_ip = 455; continue _fun00001 }
- 451:
+            if(!(offset == kilo)) { _fun00002_ip = 453; continue _fun00001 }
+ 449:
             kilo = _closure1_slot9;
- 455:
+ 453:
             options['circleFillColor'] = kilo;
             romeo = foxtrot.bind(tango)(romeo, options);
             options = new Array(4);
@@ -261,37 +261,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control['height'] = vacuum;
             source[1] = control;
             romeo['style'] = source;
-            if(!(offset == config)) { _fun00002_ip = 568; continue _fun00001 }
- 520:
-            if(!(offset == sequence)) { _fun00002_ip = 550; continue _fun00001 }
- 524:
+            if(!(offset == config)) { _fun00002_ip = 566; continue _fun00001 }
+ 518:
+            if(!(offset == sequence)) { _fun00002_ip = 548; continue _fun00001 }
+ 522:
             vacuum = _closure1_slot7;
             control = _closure1_slot4;
             source = {};
             source['source'] = papa;
             source['style'] = context;
             source = vacuum.bind(tango)(control, source);
-            _fun00002_ip = 566; continue _fun00001;
- 550:
+            _fun00002_ip = 564; continue _fun00001;
+ 548:
             vacuum = _closure1_slot7;
             control = {};
             control['style'] = context;
             source = vacuum.bind(tango)(sequence, control);
+ 564:
+            _fun00002_ip = 588; continue _fun00001;
  566:
-            _fun00002_ip = 590; continue _fun00001;
- 568:
             sequence = _closure1_slot3;
             vacuum = sequence.cloneElement;
             control = {};
             control['color'] = record;
             source = vacuum.bind(sequence)(config, control);
- 590:
+ 588:
             romeo['children'] = source;
             romeo = kilo.bind(tango)(foxtrot, romeo);
             options[1] = romeo;
             offset = null;
-            if(!yankee) { _fun00002_ip = 754; continue _fun00001 }
- 612:
+            if(!yankee) { _fun00002_ip = 752; continue _fun00001 }
+ 610:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot5;
             yankee = {};
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = kilo;
             yankee['style'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 754:
+ 752:
             options[2] = offset;
             options[3] = verify;
             report['children'] = options;

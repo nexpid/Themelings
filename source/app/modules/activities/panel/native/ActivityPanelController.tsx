@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar > report;
             entity = _closure1_slot11;
             entity = entity.LANDSCAPE;
-            if(!(entity !== golf)) { _fun00006_ip = 254; continue _fun00005 }
+            if(!(entity !== golf)) { _fun00006_ip = 250; continue _fun00005 }
  43:
             entity = _closure1_slot11;
             entity = entity.PORTRAIT;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(golf)();
             if(!entity) { _fun00006_ip = 144; continue _fun00005 }
  141:
-            if(mike) { _fun00006_ip = 212; continue _fun00005 }
+            if(mike) { _fun00006_ip = 208; continue _fun00005 }
  144:
             entity = {'width': null, 'height': null, 'isLandscape': false, 'isLetterboxed': false, 'isWindowLandscape': false};
             golf = global;
@@ -308,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(options)(report, oscar);
             golf = golf - tango;
             entity['height'] = golf;
-            _fun00006_ip = 252; continue _fun00005;
- 212:
+            _fun00006_ip = 248; continue _fun00005;
+ 208:
             golf = {};
             options = _closure1_slot12;
             options = report * options;
@@ -321,9 +321,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['isLetterboxed'] = options;
             golf['isWindowLandscape'] = mike;
             entity = golf;
- 252:
+ 248:
             return entity;
- 254:
+ 250:
             options = _closure1_slot0;
             golf = _closure1_slot2;
             entity = 12;
@@ -332,10 +332,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(entity)(golf);
             entity = golf.isIpadOS;
             entity = entity.bind(golf)();
-            if(!entity) { _fun00006_ip = 333; continue _fun00005 }
- 289:
-            if(mike) { _fun00006_ip = 333; continue _fun00005 }
- 292:
+            if(!entity) { _fun00006_ip = 329; continue _fun00005 }
+ 285:
+            if(mike) { _fun00006_ip = 329; continue _fun00005 }
+ 288:
             entity = {};
             entity['width'] = oscar;
             zulu = _closure1_slot13;
@@ -346,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isLandscape'] = zulu;
             entity['isLetterboxed'] = zulu;
             entity['isWindowLandscape'] = mike;
-            _fun00006_ip = 398; continue _fun00005;
- 333:
+            _fun00006_ip = 394; continue _fun00005;
+ 329:
             mike = {'width': null, 'height': null, 'isLetterboxed': false, 'isLandscape': true, 'isWindowLandscape': true};
             zulu = global;
             golf = zulu.Math;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(report, oscar);
             mike['height'] = zulu;
             entity = mike;
- 398:
+ 394:
             return entity;
         }
     };

@@ -304,8 +304,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['style'] = foxtrot;
             foxtrot = null;
             foxtrot = foxtrot != backup;
-            if(!foxtrot) { _fun00002_ip = 644; continue _fun00001 }
- 508:
+            if(!foxtrot) { _fun00002_ip = 642; continue _fun00001 }
+ 504:
             sizing = _closure1_slot9;
             kilo = _closure1_slot6;
             backup = {};
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = sizing.bind(tango)(result, output);
             backup['children'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 644:
+ 642:
             yankee['children'] = foxtrot;
             yankee = zulu.bind(tango)(romeo, yankee);
             offset[1] = yankee;

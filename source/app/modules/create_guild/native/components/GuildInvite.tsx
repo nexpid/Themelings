@@ -726,9 +726,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             oscar = tango.bind(oscar)(mike, zulu);
-            if(!(entity != offset)) { _fun00004_ip = 1444; continue _fun00003 }
+            if(!(entity != offset)) { _fun00004_ip = 1448; continue _fun00003 }
  577:
-            if(!(entity != context)) { _fun00004_ip = 1444; continue _fun00003 }
+            if(!(entity != context)) { _fun00004_ip = 1448; continue _fun00003 }
  584:
             golf = verify;
             if(!golf) { _fun00004_ip = 621; continue _fun00003 }
@@ -795,8 +795,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(report)(offset, options);
             oscar[1] = options;
             options = !verify;
-            if(verify) { _fun00004_ip = 945; continue _fun00003 }
- 886:
+            if(verify) { _fun00004_ip = 949; continue _fun00003 }
+ 890:
             yankee = _closure1_slot19;
             offset = _closure1_slot5;
             verify = {};
@@ -811,7 +811,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.headerImage;
             verify['style'] = romeo;
             options = yankee.bind(report)(offset, verify);
- 945:
+ 949:
             oscar[2] = options;
             offset = _closure1_slot20;
             verify = _closure1_slot6;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1444:
+ 1448:
             return entity;
         }
     };

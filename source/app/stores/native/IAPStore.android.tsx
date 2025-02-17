@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     zulu = _closure1_slot13;
                     mike = null;
-                    if(!(mike == zulu)) { _fun00006_ip = 60; continue _fun00005 }
+                    if(!(mike == zulu)) { _fun00006_ip = 58; continue _fun00005 }
  13:
                     zulu = _closure1_slot11;
-                    if(!(mike != zulu)) { _fun00006_ip = 58; continue _fun00005 }
+                    if(!(mike != zulu)) { _fun00006_ip = 56; continue _fun00005 }
  21: // try_start_0
                     report = _closure1_slot11;
                     tango = report.map;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                             entity = argFoo;
                             mike = null;
-                            if(!(mike != entity)) { _fun00008_ip = 174; continue _fun00007 }
+                            if(!(mike != entity)) { _fun00008_ip = 175; continue _fun00007 }
  12:
                             report = _closure1_slot0;
                             tango = _closure1_slot1;
@@ -231,21 +231,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             zulu = mike.identifier;
                             zulu = tango.bind(report)(zulu, mike);
                             return mike;
- 174:
+ 175:
                             return entity;
                         }
                     };
                     zulu = tango.bind(report)(zulu);
                     _closure1_slot13 = zulu;
- 48: // try_end0
+ 46: // try_end0
                     return zulu;
- 50: // catch_target0
+ 48: // catch_target0
                     CatchBlockStart(arg_register=2);
                     zulu = _closure1_slot11;
                     return zulu;
- 58:
+ 56:
                     return mike;
- 60:
+ 58:
                     entity = _closure1_slot13;
                     return entity;
                 }
@@ -394,8 +394,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             _closure1_slot11 = zulu;
             mike = null;
-            if(!(mike != zulu)) { _fun00014_ip = 89; continue _fun00013 }
- 72:
+            if(!(mike != zulu)) { _fun00014_ip = 85; continue _fun00013 }
+ 70:
             mike = zulu.map;
             entity = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  16:
                     tango = zulu.offerIds;
  22:
-                    if(!(mike != tango)) { _fun00016_ip = 45; continue _fun00015 }
+                    if(!(mike != tango)) { _fun00016_ip = 43; continue _fun00015 }
  26:
                     zulu = tango.forEach;
                     mike = function(argFoo) {
@@ -420,12 +420,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 45:
+ 43:
                     return entity;
                 }
             };
             entity = mike.bind(zulu)(entity);
- 89:
+ 85:
             entity = undefined;
             return entity;
         }

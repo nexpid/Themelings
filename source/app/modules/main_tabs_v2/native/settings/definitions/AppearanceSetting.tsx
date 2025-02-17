@@ -102,7 +102,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             if(!(options !== report)) { _fun00002_ip = 393; continue _fun00001 }
  387:
             entity = entity[tango];
-            _fun00002_ip = 445; continue _fun00001;
+            _fun00002_ip = 447; continue _fun00001;
  393:
             options = _closure1_slot0;
             mike = _closure1_slot2;
@@ -115,29 +115,29 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.wFpwSk;
             entity = tango.bind(report)(mike);
- 445:
+ 447:
             report = null;
             mike = report == oscar;
             tango = undefined;
-            if(mike) { _fun00002_ip = 481; continue _fun00001 }
- 456:
+            if(mike) { _fun00002_ip = 483; continue _fun00001 }
+ 458:
             mike = oscar.getName;
             mike = report == mike;
             tango = undefined;
-            if(mike) { _fun00002_ip = 481; continue _fun00001 }
- 471:
+            if(mike) { _fun00002_ip = 483; continue _fun00001 }
+ 473:
             mike = oscar.getName;
             tango = mike.bind(oscar)();
- 481:
+ 483:
             mike = entity;
-            if(!(report != tango)) { _fun00002_ip = 491; continue _fun00001 }
- 488:
+            if(!(report != tango)) { _fun00002_ip = 493; continue _fun00001 }
+ 490:
             mike = tango;
- 491:
-            if(!zulu) { _fun00002_ip = 497; continue _fun00001 }
- 494:
+ 493:
+            if(!zulu) { _fun00002_ip = 499; continue _fun00001 }
+ 496:
             entity = mike;
- 497:
+ 499:
             return entity;
         }
     };

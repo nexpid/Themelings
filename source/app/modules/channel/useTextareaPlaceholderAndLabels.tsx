@@ -57,29 +57,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = false;
             verify = oscar.bind(golf)(entity, report);
             report = null;
-            if(!(report != entity)) { _fun00002_ip = 931; continue _fun00001 }
+            if(!(report != entity)) { _fun00002_ip = 943; continue _fun00001 }
  91:
-            if(!(report != foxtrot)) { _fun00002_ip = 931; continue _fun00001 }
+            if(!(report != foxtrot)) { _fun00002_ip = 943; continue _fun00001 }
  98:
-            if(tango) { _fun00002_ip = 816; continue _fun00001 }
+            if(tango) { _fun00002_ip = 828; continue _fun00001 }
  104:
-            if(mike) { _fun00002_ip = 701; continue _fun00001 }
+            if(mike) { _fun00002_ip = 713; continue _fun00001 }
  110:
             mike = entity.isForumPost;
             mike = mike.bind(entity)();
-            if(mike) { _fun00002_ip = 572; continue _fun00001 }
+            if(mike) { _fun00002_ip = 580; continue _fun00001 }
  126:
             mike = _closure1_slot4;
             report = mike.THREADS;
             tango = report.has;
             mike = entity.type;
             mike = tango.bind(report)(mike);
-            if(mike) { _fun00002_ip = 440; continue _fun00001 }
+            if(mike) { _fun00002_ip = 446; continue _fun00001 }
  157:
             mike = entity.type;
             entity = _closure1_slot3;
             entity = entity.DM;
-            if(!(mike !== entity)) { _fun00002_ip = 308; continue _fun00001 }
+            if(!(mike !== entity)) { _fun00002_ip = 310; continue _fun00001 }
  179:
             entity = {};
             tango = _closure1_slot0;
@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['channel'] = verify;
             mike = report.bind(oscar)(tango, mike);
             entity['accessibilityLabel'] = mike;
-            _fun00002_ip = 435; continue _fun00001;
- 308:
+            _fun00002_ip = 441; continue _fun00001;
+ 310:
             mike = {};
             report = _closure1_slot0;
             offset = _closure1_slot2;
@@ -140,9 +140,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(options)(report, tango);
             mike['accessibilityLabel'] = tango;
             entity = mike;
- 435:
-            _fun00002_ip = 567; continue _fun00001;
- 440:
+ 441:
+            _fun00002_ip = 575; continue _fun00001;
+ 446:
             mike = {};
             report = _closure1_slot0;
             offset = _closure1_slot2;
@@ -172,9 +172,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(options)(report, tango);
             mike['accessibilityLabel'] = tango;
             entity = mike;
- 567:
-            _fun00002_ip = 699; continue _fun00001;
- 572:
+ 575:
+            _fun00002_ip = 711; continue _fun00001;
+ 580:
             mike = {};
             report = _closure1_slot0;
             offset = _closure1_slot2;
@@ -204,9 +204,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(options)(report, tango);
             mike['accessibilityLabel'] = tango;
             entity = mike;
- 699:
-            _fun00002_ip = 814; continue _fun00001;
- 701:
+ 711:
+            _fun00002_ip = 826; continue _fun00001;
+ 713:
             mike = {};
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -232,9 +232,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango);
             mike['accessibilityLabel'] = tango;
             entity = mike;
- 814:
-            _fun00002_ip = 929; continue _fun00001;
- 816:
+ 826:
+            _fun00002_ip = 941; continue _fun00001;
+ 828:
             mike = {};
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -260,9 +260,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango);
             mike['accessibilityLabel'] = tango;
             entity = mike;
- 929:
-            _fun00002_ip = 1044; continue _fun00001;
- 931:
+ 941:
+            _fun00002_ip = 1056; continue _fun00001;
+ 943:
             mike = {};
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             mike['accessibilityLabel'] = zulu;
             entity = mike;
- 1044:
+ 1056:
             return entity;
         }
     };

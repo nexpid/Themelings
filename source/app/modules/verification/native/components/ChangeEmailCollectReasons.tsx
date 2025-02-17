@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             mike = kilo == entity;
             entity = null;
-            if(mike) { _fun00002_ip = 804; continue _fun00001 }
+            if(mike) { _fun00002_ip = 808; continue _fun00001 }
  255:
             tango = _closure1_slot12;
             backup = _closure1_slot0;
@@ -382,14 +382,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = output;
             output = new Array(2);
             output[0] = control;
-            if(!echo) { _fun00002_ip = 496; continue _fun00001 }
- 482:
+            if(!echo) { _fun00002_ip = 498; continue _fun00001 }
+ 484:
             control = _closure1_slot8;
             control = control.SOMETHING_ELSE;
             echo = sizing === control;
- 496:
-            if(!echo) { _fun00002_ip = 642; continue _fun00001 }
- 502:
+ 498:
+            if(!echo) { _fun00002_ip = 646; continue _fun00001 }
+ 504:
             vacuum = _closure1_slot12;
             sierra = _closure1_slot0;
             papa = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = vacuum.bind(report)(config, sequence);
             update['children'] = sequence;
             echo = vacuum.bind(report)(control, update);
- 642:
+ 646:
             output[1] = echo;
             foxtrot['children'] = output;
             foxtrot = offset.bind(report)(backup, foxtrot);
@@ -455,7 +455,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 804:
+ 808:
             return entity;
         }
     };

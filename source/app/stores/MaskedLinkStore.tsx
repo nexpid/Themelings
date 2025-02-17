@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = zulu.bind(tango)(mike);
                 mike = !mike;
                 var _closure2_slot0 = mike;
- 72: // try_end0
-                _fun00006_ip = 76; continue _fun00005;
- 74: // catch_target0
+ 70: // try_end0
+                _fun00006_ip = 74; continue _fun00005;
+ 72: // catch_target0
                 CatchBlockStart(arg_register=1);
- 76:
+ 74:
                 mike = function() { // Original name: _isNativeReflectConstruct
                     entity = _closure2_slot0;
                     entity = !entity;
@@ -219,13 +219,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = null;
         options = mike == yankee;
         mike = undefined;
-        if(options) { _fun00002_ip = 315; continue _fun00001 }
- 294:
+        if(options) { _fun00002_ip = 307; continue _fun00001 }
+ 286:
         offset = yankee.replace;
         verify = '//';
         options = '';
         mike = offset.bind(yankee)(verify, options);
- 315:
+ 307:
         var _closure1_slot11 = mike;
         mike = 9;
         mike = oscar[mike];

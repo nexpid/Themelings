@@ -41,88 +41,88 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = romeo[tango];
             tango = yankee.bind(offset)(tango);
             tango = tango.t;
-            if(verify) { _fun00002_ip = 157; continue _fun00001 }
+            if(verify) { _fun00002_ip = 165; continue _fun00001 }
  90:
-            if(entity) { _fun00002_ip = 122; continue _fun00001 }
+            if(entity) { _fun00002_ip = 126; continue _fun00001 }
  93:
-            if(mike) { _fun00002_ip = 109; continue _fun00001 }
+            if(mike) { _fun00002_ip = 111; continue _fun00001 }
  96:
             entity = tango.BoQUFR;
             entity = report.bind(oscar)(entity);
-            _fun00002_ip = 120; continue _fun00001;
- 109:
+            _fun00002_ip = 124; continue _fun00001;
+ 111:
             verify = tango.oU/lsr;
             entity = report.bind(oscar)(verify);
- 120:
-            _fun00002_ip = 152; continue _fun00001;
- 122:
-            if(mike) { _fun00002_ip = 138; continue _fun00001 }
- 125:
+ 124:
+            _fun00002_ip = 160; continue _fun00001;
+ 126:
+            if(mike) { _fun00002_ip = 144; continue _fun00001 }
+ 129:
             verify = tango.sigPER;
             verify = report.bind(oscar)(verify);
-            _fun00002_ip = 149; continue _fun00001;
- 138:
+            _fun00002_ip = 157; continue _fun00001;
+ 144:
             offset = tango.UxmnHx;
             verify = report.bind(oscar)(offset);
- 149:
-            entity = verify;
- 152:
-            _fun00002_ip = 286; continue _fun00001;
  157:
-            if(mike) { _fun00002_ip = 221; continue _fun00001 }
+            entity = verify;
  160:
-            if(options) { _fun00002_ip = 208; continue _fun00001 }
- 163:
-            if(golf) { _fun00002_ip = 195; continue _fun00001 }
- 166:
-            if(zulu) { _fun00002_ip = 182; continue _fun00001 }
- 169:
+            _fun00002_ip = 310; continue _fun00001;
+ 165:
+            if(mike) { _fun00002_ip = 237; continue _fun00001 }
+ 168:
+            if(options) { _fun00002_ip = 222; continue _fun00001 }
+ 171:
+            if(golf) { _fun00002_ip = 207; continue _fun00001 }
+ 174:
+            if(zulu) { _fun00002_ip = 192; continue _fun00001 }
+ 177:
             mike = tango.H39rER;
             mike = report.bind(oscar)(mike);
-            _fun00002_ip = 193; continue _fun00001;
- 182:
+            _fun00002_ip = 205; continue _fun00001;
+ 192:
             verify = tango.f4gmra;
             mike = report.bind(oscar)(verify);
- 193:
-            _fun00002_ip = 206; continue _fun00001;
- 195:
+ 205:
+            _fun00002_ip = 220; continue _fun00001;
+ 207:
             verify = tango.FdPNr6;
             mike = report.bind(oscar)(verify);
- 206:
-            _fun00002_ip = 219; continue _fun00001;
- 208:
+ 220:
+            _fun00002_ip = 235; continue _fun00001;
+ 222:
             verify = tango.Mnvc3N;
             mike = report.bind(oscar)(verify);
- 219:
-            _fun00002_ip = 283; continue _fun00001;
- 221:
-            if(options) { _fun00002_ip = 269; continue _fun00001 }
- 224:
-            if(golf) { _fun00002_ip = 256; continue _fun00001 }
- 227:
-            if(zulu) { _fun00002_ip = 243; continue _fun00001 }
- 230:
+ 235:
+            _fun00002_ip = 307; continue _fun00001;
+ 237:
+            if(options) { _fun00002_ip = 291; continue _fun00001 }
+ 240:
+            if(golf) { _fun00002_ip = 276; continue _fun00001 }
+ 243:
+            if(zulu) { _fun00002_ip = 261; continue _fun00001 }
+ 246:
             zulu = tango.lxTgPz;
             zulu = report.bind(oscar)(zulu);
-            _fun00002_ip = 254; continue _fun00001;
- 243:
+            _fun00002_ip = 274; continue _fun00001;
+ 261:
             golf = tango.mJyBio;
             zulu = report.bind(oscar)(golf);
- 254:
-            _fun00002_ip = 267; continue _fun00001;
- 256:
+ 274:
+            _fun00002_ip = 289; continue _fun00001;
+ 276:
             golf = tango.TJQcNj;
             zulu = report.bind(oscar)(golf);
- 267:
-            _fun00002_ip = 280; continue _fun00001;
- 269:
+ 289:
+            _fun00002_ip = 304; continue _fun00001;
+ 291:
             tango = tango.N85DCg;
             zulu = report.bind(oscar)(tango);
- 280:
+ 304:
             mike = zulu;
- 283:
+ 307:
             entity = mike;
- 286:
+ 310:
             return entity;
         }
     };

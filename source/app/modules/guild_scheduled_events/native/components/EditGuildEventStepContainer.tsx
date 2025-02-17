@@ -146,20 +146,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(3);
             golf[0] = verify;
             verify = !backup;
-            if(!verify) { _fun00002_ip = 222; continue _fun00001 }
- 216:
+            if(!verify) { _fun00002_ip = 218; continue _fun00001 }
+ 212:
             verify = sizing.paddedContainer;
- 222:
+ 218:
             golf[1] = verify;
             verify = !backup;
-            if(!verify) { _fun00002_ip = 249; continue _fun00001 }
- 232:
+            if(!verify) { _fun00002_ip = 245; continue _fun00001 }
+ 228:
             offset = {};
             kilo = 16;
             kilo = output + kilo;
             offset['paddingBottom'] = kilo;
             verify = offset;
- 249:
+ 245:
             golf[2] = verify;
             report['style'] = golf;
             offset = _closure1_slot8;
@@ -189,20 +189,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(3);
             foxtrot[0] = kilo;
             kilo = !backup;
-            if(!kilo) { _fun00002_ip = 375; continue _fun00001 }
- 369:
+            if(!kilo) { _fun00002_ip = 371; continue _fun00001 }
+ 365:
             kilo = sizing.paddedContainer;
- 375:
+ 371:
             foxtrot[1] = kilo;
             backup = !backup;
-            if(!backup) { _fun00002_ip = 402; continue _fun00001 }
- 385:
+            if(!backup) { _fun00002_ip = 398; continue _fun00001 }
+ 381:
             kilo = {};
             sizing = 16;
             sizing = output + sizing;
             kilo['paddingBottom'] = sizing;
             backup = kilo;
- 402:
+ 398:
             foxtrot[2] = backup;
             options['style'] = foxtrot;
             options['onLayout'] = romeo;

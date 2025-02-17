@@ -329,18 +329,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = entity.length;
                     entity = '';
                     offset = 0;
-                    if(!(offset !== mike)) { _fun00010_ip = 423; continue _fun00009 }
+                    if(!(offset !== mike)) { _fun00010_ip = 432; continue _fun00009 }
  25:
                     mike = _closure2_slot1;
                     mike = mike.length;
                     romeo = 1;
-                    if(!(romeo !== mike)) { _fun00010_ip = 318; continue _fun00009 }
+                    if(!(romeo !== mike)) { _fun00010_ip = 325; continue _fun00009 }
  44:
                     mike = _closure2_slot1;
                     zulu = mike.length;
                     mike = 2;
-                    if(!(mike !== zulu)) { _fun00010_ip = 180; continue _fun00009 }
- 60:
+                    if(!(mike !== zulu)) { _fun00010_ip = 185; continue _fun00009 }
+ 63:
                     zulu = _closure1_slot0;
                     yankee = _closure1_slot2;
                     mike = 13;
@@ -367,8 +367,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = oscar - romeo;
                     mike['count'] = oscar;
                     mike = tango.bind(report)(zulu, mike);
-                    _fun00010_ip = 316; continue _fun00009;
- 180:
+                    _fun00010_ip = 323; continue _fun00009;
+ 185:
                     tango = _closure1_slot0;
                     backup = _closure1_slot2;
                     zulu = 13;
@@ -398,9 +398,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = verify.bind(yankee)(options);
                     zulu['username2'] = options;
                     mike = report.bind(oscar)(tango, zulu);
- 316:
-                    _fun00010_ip = 420; continue _fun00009;
- 318:
+ 323:
+                    _fun00010_ip = 429; continue _fun00009;
+ 325:
                     tango = _closure1_slot0;
                     romeo = _closure1_slot2;
                     zulu = 13;
@@ -424,9 +424,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = options.bind(verify)(golf);
                     zulu['username'] = golf;
                     mike = report.bind(oscar)(tango, zulu);
- 420:
+ 429:
                     entity = mike;
- 423:
+ 432:
                     return entity;
                 }
             };

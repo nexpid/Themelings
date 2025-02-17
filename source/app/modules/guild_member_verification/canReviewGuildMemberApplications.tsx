@@ -93,29 +93,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             entity = entity.KICK_MEMBERS;
             zulu = zulu.bind(oscar)(entity, tango);
-            if(zulu) { _fun00004_ip = 119; continue _fun00003 }
- 93:
+            if(zulu) { _fun00004_ip = 117; continue _fun00003 }
+ 91:
             golf = _closure1_slot3;
             oscar = golf.can;
             entity = _closure1_slot5;
             entity = entity.MANAGE_GUILD;
             zulu = oscar.bind(golf)(entity, tango);
- 119:
+ 117:
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun00004_ip = 149; continue _fun00003 }
- 128:
+            if(!entity) { _fun00004_ip = 147; continue _fun00003 }
+ 126:
             golf = tango.hasFeature;
             oscar = _closure1_slot4;
             oscar = oscar.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             entity = golf.bind(tango)(oscar);
- 149:
-            if(!entity) { _fun00004_ip = 155; continue _fun00003 }
- 152:
+ 147:
+            if(!entity) { _fun00004_ip = 153; continue _fun00003 }
+ 150:
             entity = zulu;
- 155:
-            if(!entity) { _fun00004_ip = 189; continue _fun00003 }
- 158:
+ 153:
+            if(!entity) { _fun00004_ip = 187; continue _fun00003 }
+ 156:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
             mike = 4;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(mike);
             mike = zulu.guildHasVerificationGate;
             entity = mike.bind(zulu)(tango);
- 189:
+ 187:
             return entity;
         }
     };

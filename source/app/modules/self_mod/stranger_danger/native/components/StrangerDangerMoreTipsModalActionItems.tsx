@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot5;
-                if(entity) { _fun00002_ip = 282; continue _fun00001 }
+                if(entity) { _fun00002_ip = 284; continue _fun00001 }
  13:
                 mike = {};
                 entity = _closure2_slot7;
@@ -399,19 +399,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = _closure2_slot6;
                 entity['username'] = yankee;
                 entity = options.bind(verify)(golf, entity);
-                _fun00002_ip = 117; continue _fun00001;
+                _fun00002_ip = 119; continue _fun00001;
  95:
                 golf = report.5/IaBg;
                 report = {};
                 yankee = _closure2_slot6;
                 report['username'] = yankee;
                 entity = options.bind(verify)(golf, report);
- 117:
+ 119:
                 mike['title'] = entity;
                 report = _closure2_slot7;
                 entity = undefined;
-                if(report) { _fun00002_ip = 182; continue _fun00001 }
- 130:
+                if(report) { _fun00002_ip = 184; continue _fun00001 }
+ 132:
                 verify = _closure1_slot0;
                 report = _closure1_slot2;
                 golf = report[offset];
@@ -423,39 +423,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.t;
                 report = report.yM/+AA;
                 entity = golf.bind(options)(report);
- 182:
+ 184:
                 mike['description'] = entity;
                 entity = _closure2_slot7;
-                if(entity) { _fun00002_ip = 199; continue _fun00001 }
- 193:
+                if(entity) { _fun00002_ip = 201; continue _fun00001 }
+ 195:
                 entity = _closure2_slot12;
-                _fun00002_ip = 203; continue _fun00001;
- 199:
+                _fun00002_ip = 205; continue _fun00001;
+ 201:
                 entity = _closure2_slot13;
- 203:
+ 205:
                 mike['onClick'] = entity;
                 report = _closure1_slot9;
                 entity = _closure2_slot7;
                 golf = _closure1_slot0;
                 options = _closure1_slot2;
-                if(entity) { _fun00002_ip = 247; continue _fun00001 }
- 227:
+                if(entity) { _fun00002_ip = 249; continue _fun00001 }
+ 229:
                 entity = 16;
                 entity = options[entity];
                 entity = golf.bind(oscar)(entity);
                 tango = entity.BellSlashIcon;
-                _fun00002_ip = 265; continue _fun00001;
- 247:
+                _fun00002_ip = 267; continue _fun00001;
+ 249:
                 entity = 15;
                 entity = options[entity];
                 entity = golf.bind(oscar)(entity);
                 tango = entity.BellIcon;
- 265:
+ 267:
                 entity = {};
                 entity = report.bind(oscar)(tango, entity);
                 mike['icon'] = entity;
-                _fun00002_ip = 557; continue _fun00001;
- 282:
+                _fun00002_ip = 563; continue _fun00001;
+ 284:
                 entity = {};
                 tango = _closure2_slot10;
                 options = _closure1_slot0;
@@ -469,26 +469,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar[yankee];
                 oscar = options.bind(golf)(oscar);
                 oscar = oscar.t;
-                if(tango) { _fun00002_ip = 364; continue _fun00001 }
- 340:
+                if(tango) { _fun00002_ip = 368; continue _fun00001 }
+ 342:
                 options = oscar.QiyPaG;
                 tango = {};
                 romeo = _closure2_slot6;
                 tango['username'] = romeo;
                 tango = verify.bind(offset)(options, tango);
-                _fun00002_ip = 386; continue _fun00001;
- 364:
+                _fun00002_ip = 392; continue _fun00001;
+ 368:
                 options = oscar.ZLIKgI;
                 oscar = {};
                 romeo = _closure2_slot6;
                 oscar['username'] = romeo;
                 tango = verify.bind(offset)(options, oscar);
- 386:
+ 392:
                 entity['title'] = tango;
                 oscar = _closure2_slot10;
                 tango = undefined;
-                if(oscar) { _fun00002_ip = 451; continue _fun00001 }
- 399:
+                if(oscar) { _fun00002_ip = 457; continue _fun00001 }
+ 405:
                 offset = _closure1_slot0;
                 oscar = _closure1_slot2;
                 options = oscar[yankee];
@@ -500,41 +500,41 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.t;
                 oscar = oscar.naWE6e;
                 tango = options.bind(verify)(oscar);
- 451:
+ 457:
                 entity['description'] = tango;
                 tango = _closure2_slot10;
-                if(tango) { _fun00002_ip = 468; continue _fun00001 }
- 462:
-                tango = _closure2_slot14;
-                _fun00002_ip = 472; continue _fun00001;
+                if(tango) { _fun00002_ip = 474; continue _fun00001 }
  468:
+                tango = _closure2_slot14;
+                _fun00002_ip = 478; continue _fun00001;
+ 474:
                 tango = _closure2_slot15;
- 472:
+ 478:
                 entity['onClick'] = tango;
                 oscar = _closure1_slot9;
                 tango = _closure2_slot10;
                 options = _closure1_slot0;
                 verify = _closure1_slot2;
-                if(tango) { _fun00002_ip = 516; continue _fun00001 }
- 496:
+                if(tango) { _fun00002_ip = 522; continue _fun00001 }
+ 502:
                 tango = 18;
                 tango = verify[tango];
                 tango = options.bind(golf)(tango);
                 report = tango.EyeSlashIcon;
-                _fun00002_ip = 534; continue _fun00001;
- 516:
+                _fun00002_ip = 540; continue _fun00001;
+ 522:
                 tango = 17;
                 tango = verify[tango];
                 tango = options.bind(golf)(tango);
                 report = tango.EyeIcon;
- 534:
+ 540:
                 tango = {};
                 tango = oscar.bind(golf)(report, tango);
                 entity['icon'] = tango;
                 tango = _closure2_slot9;
                 entity['disabled'] = tango;
                 mike = entity;
- 557:
+ 563:
                 entity = new Array(2);
                 entity[0] = mike;
                 mike = {};
@@ -550,26 +550,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar[yankee];
                 oscar = options.bind(golf)(oscar);
                 oscar = oscar.t;
-                if(report) { _fun00002_ip = 647; continue _fun00001 }
- 623:
+                if(report) { _fun00002_ip = 655; continue _fun00001 }
+ 629:
                 options = oscar.gc/wxc;
                 report = {};
                 romeo = _closure2_slot6;
                 report['username'] = romeo;
                 report = verify.bind(offset)(options, report);
-                _fun00002_ip = 669; continue _fun00001;
- 647:
+                _fun00002_ip = 679; continue _fun00001;
+ 655:
                 options = oscar.bluEjI;
                 oscar = {};
                 romeo = _closure2_slot6;
                 oscar['username'] = romeo;
                 report = verify.bind(offset)(options, oscar);
- 669:
+ 679:
                 mike['title'] = report;
                 oscar = _closure2_slot9;
                 report = undefined;
-                if(oscar) { _fun00002_ip = 734; continue _fun00001 }
- 682:
+                if(oscar) { _fun00002_ip = 744; continue _fun00001 }
+ 692:
                 offset = _closure1_slot0;
                 oscar = _closure1_slot2;
                 options = oscar[yankee];
@@ -581,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.t;
                 oscar = oscar.G08MKi;
                 report = options.bind(verify)(oscar);
- 734:
+ 744:
                 mike['description'] = report;
                 report = _closure2_slot3;
                 mike['onClick'] = report;

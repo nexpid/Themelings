@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(options)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.NEEDS_COMMUNITY;
-            if(!(entity !== report)) { _fun00002_ip = 245; continue _fun00001 }
+            if(!(entity !== report)) { _fun00002_ip = 249; continue _fun00001 }
  73:
             oscar = _closure1_slot0;
             entity = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['onCtaClicked'] = oscar;
             return entity;
- 245:
+ 249:
             entity = {};
             entity['visibility'] = report;
             golf = _closure1_slot0;

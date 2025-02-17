@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, __, argPlugh) {
             report = 0;
             foxtrot = foxtrot[report];
             report = '/';
-            if(!(report === foxtrot)) { _fun00002_ip = 948; continue _fun00001 }
+            if(!(report === foxtrot)) { _fun00002_ip = 947; continue _fun00001 }
  152:
             report = zulu;
             kilo = _closure1_slot0;
@@ -238,54 +238,54 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, __, argPlugh) {
             verify = yankee[verify];
             verify = offset.bind(entity)(verify);
             romeo = verify.bind(entity)();
-            if(!(report != romeo)) { _fun00002_ip = 567; continue _fun00001 }
- 547:
+            if(!(report != romeo)) { _fun00002_ip = 568; continue _fun00001 }
+ 548:
             yankee = zulu;
             offset = yankee.set;
             verify = 'X-Discord-Timezone';
             verify = offset.bind(yankee)(verify, romeo);
- 567:
+ 568:
             verify = oscar.getDebugOptionsHeaderValue;
             romeo = verify.bind(oscar)();
             verify = report != romeo;
-            if(!verify) { _fun00002_ip = 592; continue _fun00001 }
- 584:
+            if(!verify) { _fun00002_ip = 593; continue _fun00001 }
+ 585:
             offset = '';
             verify = offset !== romeo;
- 592:
-            if(!verify) { _fun00002_ip = 615; continue _fun00001 }
- 595:
+ 593:
+            if(!verify) { _fun00002_ip = 616; continue _fun00001 }
+ 596:
             yankee = zulu;
             offset = yankee.set;
             verify = 'X-Debug-Options';
             verify = offset.bind(yankee)(verify, romeo);
- 615:
+ 616:
             oscar = oscar.isTracingRequests;
-            if(!oscar) { _fun00002_ip = 948; continue _fun00001 }
- 629:
+            if(!oscar) { _fun00002_ip = 947; continue _fun00001 }
+ 628:
             oscar = options.getCurrentUser;
             oscar = oscar.bind(options)();
             verify = _closure1_slot7;
             options = verify.generate;
             yankee = report == oscar;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 662; continue _fun00001 }
- 657:
+            if(yankee) { _fun00002_ip = 661; continue _fun00001 }
+ 656:
             offset = oscar.id;
- 662:
+ 661:
             yankee = report != offset;
             oscar = '0';
-            if(!yankee) { _fun00002_ip = 678; continue _fun00001 }
- 675:
+            if(!yankee) { _fun00002_ip = 677; continue _fun00001 }
+ 674:
             oscar = offset;
- 678:
+ 677:
             offset = options.bind(verify)(oscar);
             golf = offset;
             verify = zulu;
             options = verify.set;
             oscar = 'x-client-trace-id';
             oscar = options.bind(verify)(oscar, offset);
- 706: // try_start_0
+ 705: // try_start_0
             oscar = global;
             offset = oscar.URL;
             options = zulu;
@@ -299,8 +299,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, __, argPlugh) {
             verify = _closure1_slot8;
             options = verify.test;
             options = options.bind(verify)(offset);
-            if(options) { _fun00002_ip = 944; continue _fun00001 }
- 768:
+            if(options) { _fun00002_ip = 943; continue _fun00001 }
+ 767:
             romeo = golf;
             golf = oscar.URLSearchParams;
             options = golf.prototype;
@@ -334,15 +334,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, __, argPlugh) {
             golf = golf.bind(oscar)(offset);
             oscar = 'https://datadog.discord.tools/apm/';
             oscar = options.bind(verify)(golf, oscar);
-            if(!(report != oscar)) { _fun00002_ip = 944; continue _fun00001 }
- 935:
+            if(!(report != oscar)) { _fun00002_ip = 943; continue _fun00001 }
+ 934:
             report = oscar.toString;
             report = report.bind(oscar)();
- 944: // try_end0
-            _fun00002_ip = 948; continue _fun00001;
- 946: // catch_target0
+ 943: // try_end0
+            _fun00002_ip = 947; continue _fun00001;
+ 945: // catch_target0
             CatchBlockStart(arg_register=4);
- 948:
+ 947:
             report = _closure1_slot2;
             oscar = _closure1_slot3;
             tango = 15;

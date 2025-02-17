@@ -239,15 +239,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = _closure1_slot4;
             report = {};
             sizing = _closure1_slot2;
-            if(offset) { _fun00004_ip = 360; continue _fun00003 }
- 351:
+            if(offset) { _fun00004_ip = 368; continue _fun00003 }
+ 359:
             offset = 12;
             offset = sizing[offset];
-            _fun00004_ip = 367; continue _fun00003;
- 360:
+            _fun00004_ip = 375; continue _fun00003;
+ 368:
             backup = 11;
             offset = sizing[backup];
- 367:
+ 375:
             offset = foxtrot.bind(tango)(offset);
             report['source'] = offset;
             offset = romeo.art;
@@ -282,13 +282,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = offset.bind(tango)(verify, oscar);
             report[2] = oscar;
             oscar = null;
-            if(options) { _fun00004_ip = 546; continue _fun00003 }
- 530:
+            if(options) { _fun00004_ip = 554; continue _fun00003 }
+ 538:
             verify = _closure1_slot6;
             options = _closure1_slot10;
             golf = {};
             oscar = verify.bind(tango)(options, golf);
- 546:
+ 554:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

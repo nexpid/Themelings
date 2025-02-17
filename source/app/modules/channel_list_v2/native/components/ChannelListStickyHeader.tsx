@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = verify;
             oscar = null;
-            if(!options) { _fun00002_ip = 779; continue _fun00001 }
+            if(!options) { _fun00002_ip = 775; continue _fun00001 }
  729:
             verify = _closure1_slot5;
             options = _closure1_slot1;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
             golf['guild'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 779:
+ 775:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

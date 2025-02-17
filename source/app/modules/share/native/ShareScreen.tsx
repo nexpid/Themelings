@@ -486,10 +486,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  457:
             sizing = offset != update;
             options = null;
-            if(!sizing) { _fun00002_ip = 622; continue _fun00001 }
+            if(!sizing) { _fun00002_ip = 624; continue _fun00001 }
  469:
             options = null;
-            if(!(verify !== update)) { _fun00002_ip = 622; continue _fun00001 }
+            if(!(verify !== update)) { _fun00002_ip = 624; continue _fun00001 }
  478:
             sizing = _closure1_slot11;
             control = _closure1_slot0;
@@ -523,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['disableConstantNumberOfLines'] = result;
             verify['showBorder'] = output;
             options = sizing.bind(tango)(offset, verify);
- 622:
+ 624:
             golf[2] = options;
             offset = _closure1_slot11;
             output = _closure1_slot1;
@@ -975,7 +975,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = kilo;
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
-            _fun00012_ip = 880; continue _fun00011;
+            _fun00012_ip = 882; continue _fun00011;
  703:
             romeo = _closure1_slot11;
             sizing = _closure1_slot1;
@@ -1016,7 +1016,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.emptyTitle;
             offset['titleStyle'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 880:
+ 882:
             options[1] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

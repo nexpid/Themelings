@@ -126,14 +126,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == yankee;
             entity = null;
-            if(mike) { _fun00002_ip = 242; continue _fun00001 }
+            if(mike) { _fun00002_ip = 238; continue _fun00001 }
  105:
             mike = yankee.entries;
             tango = mike.length;
             mike = 1;
             mike = tango < mike;
             entity = null;
-            if(mike) { _fun00002_ip = 242; continue _fun00001 }
+            if(mike) { _fun00002_ip = 238; continue _fun00001 }
  128:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 242:
+ 238:
             return entity;
         }
     };

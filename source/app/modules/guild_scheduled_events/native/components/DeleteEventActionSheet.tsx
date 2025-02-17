@@ -211,12 +211,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = output.bind(tango)(yankee, verify);
             options[1] = verify;
             verify = sizing;
-            if(!verify) { _fun00002_ip = 501; continue _fun00001 }
- 498:
+            if(!verify) { _fun00002_ip = 503; continue _fun00001 }
+ 500:
             verify = !backup;
- 501:
-            if(!verify) { _fun00002_ip = 613; continue _fun00001 }
- 504:
+ 503:
+            if(!verify) { _fun00002_ip = 617; continue _fun00001 }
+ 506:
             output = _closure1_slot8;
             update = _closure1_slot0;
             result = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = vacuum.bind(sequence)(update, result);
             offset['children'] = result;
             verify = output.bind(tango)(yankee, offset);
- 613:
+ 617:
             options[2] = verify;
             yankee = _closure1_slot8;
             result = _closure1_slot1;
@@ -278,10 +278,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.Colors;
             output = output.RED;
             verify['color'] = output;
-            if(!sizing) { _fun00002_ip = 850; continue _fun00001 }
- 793:
-            if(backup) { _fun00002_ip = 850; continue _fun00001 }
- 796:
+            if(!sizing) { _fun00002_ip = 856; continue _fun00001 }
+ 797:
+            if(backup) { _fun00002_ip = 856; continue _fun00001 }
+ 800:
             result = _closure1_slot0;
             backup = _closure1_slot2;
             sizing = backup[echo];
@@ -293,8 +293,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.t;
             backup = backup.8ZsNv7;
             backup = sizing.bind(output)(backup);
-            _fun00002_ip = 902; continue _fun00001;
- 850:
+            _fun00002_ip = 908; continue _fun00001;
+ 856:
             result = _closure1_slot0;
             kilo = _closure1_slot2;
             sizing = kilo[echo];
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.t;
             kilo = kilo.B9sJLS;
             backup = sizing.bind(output)(kilo);
- 902:
+ 908:
             verify['text'] = backup;
             verify['loading'] = foxtrot;
             romeo = function() { // Original name: onPress

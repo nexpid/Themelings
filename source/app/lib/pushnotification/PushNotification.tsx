@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 var _closure2_slot0 = mike;
                 entity = null;
                 mike = entity == mike;
-                if(mike) { _fun00004_ip = 119; continue _fun00003 }
+                if(mike) { _fun00004_ip = 103; continue _fun00003 }
  18:
                 mike = {};
                 tango = function() { // Original name: getData
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike['finish'] = zulu;
                 entity = mike;
- 119:
+ 103:
                 return entity;
             }
         };
@@ -157,15 +157,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot3 = options;
         mike = null;
         options = mike != options;
-        if(!options) { _fun00002_ip = 139; continue _fun00001 }
- 113:
+        if(!options) { _fun00002_ip = 137; continue _fun00001 }
+ 111:
         romeo = golf.PushNotificationAndroid;
         options = verify.prototype;
         options = Object.create(options, {constructor: {value: verify}});
         foxtrot = options;
         golf = new foxtrot[verify](romeo, yankee);
         mike = golf instanceof Object ? golf : options;
- 139:
+ 137:
         var _closure1_slot4 = mike;
         mike = {};
         golf = function() { // Original name: getInitialNotification
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)(entity);
                 entity = mike.getInitialNotification;
                 entity = entity.bind(mike)();
-                _fun00008_ip = 106; continue _fun00007;
+                _fun00008_ip = 104; continue _fun00007;
  69:
                 mike = global;
                 tango = mike.Promise;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = zulu;
                 mike = new oscar[tango](report, tango);
                 entity = mike instanceof Object ? mike : zulu;
- 106:
+ 104:
                 return entity;
             }
         };
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = zulu.requestPermissions;
                 entity = argFoo;
                 entity = mike.bind(zulu)(entity);
-                _fun00030_ip = 110; continue _fun00029;
+                _fun00030_ip = 108; continue _fun00029;
  73:
                 mike = global;
                 tango = mike.Promise;
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = zulu;
                 mike = new oscar[tango](report, tango);
                 entity = mike instanceof Object ? mike : zulu;
- 110:
+ 108:
                 return entity;
             }
         };
@@ -568,10 +568,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(entity)(report);
                 report = oscar.addEventListener;
                 report = report.bind(oscar)(tango, golf);
-                _fun00032_ip = 162; continue _fun00031;
+                _fun00032_ip = 158; continue _fun00031;
  83:
                 options = 'notification';
-                if(!(options === tango)) { _fun00032_ip = 114; continue _fun00031 }
+                if(!(options === tango)) { _fun00032_ip = 112; continue _fun00031 }
  91:
                 golf = _closure1_slot4;
                 oscar = golf.addListener;
@@ -592,10 +592,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     }
                 };
                 report = oscar.bind(golf)(options, report);
- 114:
+ 112:
                 golf = 'localNotification';
-                if(!(golf === tango)) { _fun00032_ip = 147; continue _fun00031 }
- 124:
+                if(!(golf === tango)) { _fun00032_ip = 143; continue _fun00031 }
+ 122:
                 oscar = _closure1_slot4;
                 report = oscar.addListener;
                 zulu = function(argFoo) {
@@ -615,11 +615,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     }
                 };
                 zulu = report.bind(oscar)(golf, zulu);
- 147:
+ 143:
                 zulu = _closure1_slot3;
                 mike = zulu.registerEventListener;
                 mike = mike.bind(zulu)(tango);
- 162:
+ 158:
                 return entity;
             }
         };
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.addEventListener;
                 tango = 'register';
                 tango = report.bind(oscar)(tango, golf);
-                _fun00038_ip = 126; continue _fun00037;
+                _fun00038_ip = 124; continue _fun00037;
  84:
                 oscar = _closure1_slot4;
                 report = oscar.addListener;
@@ -664,7 +664,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot3;
                 mike = zulu.registerEventListener;
                 mike = mike.bind(zulu)(tango);
- 126:
+ 124:
                 return entity;
             }
         };
@@ -691,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun00040_ip = 86; continue _fun00039;
+                    _fun00040_ip = 84; continue _fun00039;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getSoundsEnabled;
@@ -705,7 +705,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -737,7 +737,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun00042_ip = 86; continue _fun00041;
+                    _fun00042_ip = 84; continue _fun00041;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getVibrationsEnabled;
@@ -751,7 +751,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -783,7 +783,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun00044_ip = 86; continue _fun00043;
+                    _fun00044_ip = 84; continue _fun00043;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getLightsEnabled;
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -917,7 +917,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun00054_ip = 88; continue _fun00053;
+                    _fun00054_ip = 86; continue _fun00053;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.shouldNotifyEveryTime;
@@ -931,7 +931,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 88:
+ 86:
                     return entity;
                 }
             };

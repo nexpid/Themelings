@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = argFoo;
                 entity = mike[entity];
                 mike = null;
-                if(!(mike == entity)) { _fun00006_ip = 34; continue _fun00005 }
+                if(!(mike == entity)) { _fun00006_ip = 30; continue _fun00005 }
  20:
                 entity = {'mostRecentQuery': '', 'fetching': false};
- 34:
+ 30:
                 return entity;
             }
         };
@@ -366,12 +366,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  43:
             golf = oscar.mostRecentQuery;
  49:
-            if(!(zulu != golf)) { _fun00012_ip = 153; continue _fun00011 }
+            if(!(zulu != golf)) { _fun00012_ip = 151; continue _fun00011 }
  53:
             oscar = _closure1_slot9;
             oscar = oscar[tango];
             golf = oscar[golf];
-            if(!(zulu != golf)) { _fun00012_ip = 153; continue _fun00011 }
+            if(!(zulu != golf)) { _fun00012_ip = 151; continue _fun00011 }
  69:
             oscar = golf.results;
             zulu = oscar.filter;
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report[golf] = options;
             mike[oscar] = report;
             zulu[tango] = mike;
- 153:
+ 151:
             return entity;
         }
     };

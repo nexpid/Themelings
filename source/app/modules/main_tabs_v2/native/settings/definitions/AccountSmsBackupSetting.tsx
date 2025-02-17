@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['reason'] = oscar;
             entity = _closure1_slot5;
             entity = tango.bind(report)(zulu, mike, entity);
-            _fun00004_ip = 525; continue _fun00003;
+            _fun00004_ip = 527; continue _fun00003;
  148:
             options = _closure1_slot0;
             report = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report[entity];
             entity = tango.bind(zulu)(entity);
             entity = entity.bind(zulu)(mike);
-            _fun00004_ip = 525; continue _fun00003;
+            _fun00004_ip = 527; continue _fun00003;
  339:
             options = _closure1_slot0;
             report = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report[entity];
             entity = tango.bind(zulu)(entity);
             entity = entity.bind(zulu)(mike);
- 525:
+ 527:
             entity = undefined;
             return entity;
         }

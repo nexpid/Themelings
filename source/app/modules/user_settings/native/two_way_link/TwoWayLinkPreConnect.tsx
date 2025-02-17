@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00006_ip = 174; continue _fun00005 }
+                        if(mike) { _fun00006_ip = 172; continue _fun00005 }
  10:
                         zulu = undefined;
                         oscar = undefined;
@@ -228,15 +228,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return entity;
                         };
                         tango = tango.bind(zulu)(report);
-                        SaveGenerator(address=50);
- 48:
+                        SaveGenerator(address=48);
+ 46:
                         return tango;
- 50:
+ 48:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00006_ip = 156; continue _fun00005 }
- 56:
+                        if(report) { _fun00006_ip = 154; continue _fun00005 }
+ 54:
                         oscar = tango;
- 59: // try_end0
+ 57: // try_end0
                         golf = _closure2_slot3;
                         report = false;
                         report = golf.bind(zulu)(report);
@@ -259,15 +259,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = _closure2_slot4;
                         report['current'] = oscar;
                         return zulu;
- 156:
+ 154:
                         return tango;
- 159: // catch_target0
+ 157: // catch_target0
                         CatchBlockStart(arg_register=3);
                         mike = _closure2_slot1;
                         mike = mike.bind(zulu)();
                         mike = undefined;
                         return mike;
- 174:
+ 172:
                         return entity;
                     }
                 };
@@ -364,10 +364,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = golf;
             golf = null;
             sizing = golf != result;
-            if(!sizing) { _fun00004_ip = 334; continue _fun00003 }
- 331:
+            if(!sizing) { _fun00004_ip = 328; continue _fun00003 }
+ 325:
             sizing = result;
- 334:
+ 328:
             romeo[1] = sizing;
             oscar['style'] = romeo;
             options = offset.bind(tango)(options, oscar);
@@ -396,8 +396,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = sizing.bind(tango)(romeo, offset);
             oscar[2] = offset;
             golf = golf != echo;
-            if(!golf) { _fun00004_ip = 597; continue _fun00003 }
- 480:
+            if(!golf) { _fun00004_ip = 593; continue _fun00003 }
+ 474:
             romeo = _closure1_slot9;
             sizing = _closure1_slot0;
             update = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = output.bind(result)(sizing, kilo);
             options['children'] = kilo;
             golf = romeo.bind(tango)(offset, options);
- 597:
+ 593:
             oscar[3] = golf;
             report['children'] = oscar;
             oscar = zulu.bind(tango)(mike, report);

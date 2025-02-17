@@ -353,12 +353,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             mike = oscar == zulu;
             options = null;
-            if(mike) { _fun00014_ip = 108; continue _fun00013 }
- 94:
+            if(mike) { _fun00014_ip = 106; continue _fun00013 }
+ 92:
             mike = tango.getTime;
             mike = mike.bind(tango)();
             options = mike - zulu;
- 108:
+ 106:
             zulu = _closure1_slot1;
             backup = _closure1_slot2;
             mike = 14;
@@ -377,23 +377,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['type'] = romeo;
             foxtrot = oscar == golf;
             romeo = undefined;
-            if(foxtrot) { _fun00014_ip = 190; continue _fun00013 }
- 184:
+            if(foxtrot) { _fun00014_ip = 188; continue _fun00013 }
+ 182:
             romeo = golf.dismissAction;
- 190:
-            if(!(oscar == romeo)) { _fun00014_ip = 204; continue _fun00013 }
- 194:
+ 188:
+            if(!(oscar == romeo)) { _fun00014_ip = 202; continue _fun00013 }
+ 192:
             foxtrot = _closure1_slot12;
             romeo = foxtrot.UNKNOWN;
- 204:
+ 202:
             mike['action'] = romeo;
             mike['content_count'] = offset;
             romeo = oscar == golf;
             offset = undefined;
-            if(romeo) { _fun00014_ip = 228; continue _fun00013 }
- 222:
+            if(romeo) { _fun00014_ip = 226; continue _fun00013 }
+ 220:
             offset = golf.groupName;
- 228:
+ 226:
             mike['group_name'] = offset;
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -406,18 +406,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['bypass_fatigue'] = verify;
             offset = oscar == golf;
             verify = undefined;
-            if(offset) { _fun00014_ip = 288; continue _fun00013 }
- 283:
+            if(offset) { _fun00014_ip = 286; continue _fun00013 }
+ 281:
             verify = golf.guildId;
- 288:
+ 286:
             mike['guild_id'] = verify;
             mike['shown_duration'] = options;
             options = oscar == golf;
             oscar = undefined;
-            if(options) { _fun00014_ip = 314; continue _fun00013 }
- 308:
+            if(options) { _fun00014_ip = 310; continue _fun00013 }
+ 304:
             oscar = golf.version;
- 314:
+ 310:
             mike['version'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return entity;
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  54:
             zulu = golf;
  57:
-            if(zulu) { _fun00020_ip = 169; continue _fun00019 }
+            if(zulu) { _fun00020_ip = 167; continue _fun00019 }
  60:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -702,10 +702,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             golf = report == oscar;
             report = undefined;
-            if(golf) { _fun00020_ip = 149; continue _fun00019 }
- 143:
+            if(golf) { _fun00020_ip = 147; continue _fun00019 }
+ 141:
             report = oscar.groupName;
- 149:
+ 147:
             mike['groupName'] = report;
             tango = function() { // Original name: onAdded
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
@@ -748,11 +748,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     offset = report == verify;
                     verify = undefined;
-                    if(offset) { _fun00022_ip = 173; continue _fun00021 }
- 163:
+                    if(offset) { _fun00022_ip = 171; continue _fun00021 }
+ 161:
                     offset = _closure2_slot1;
                     verify = offset.groupName;
- 173:
+ 171:
                     zulu['group_name'] = verify;
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -767,42 +767,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = _closure2_slot1;
                     verify = report == options;
                     options = undefined;
-                    if(verify) { _fun00022_ip = 245; continue _fun00021 }
- 236:
+                    if(verify) { _fun00022_ip = 243; continue _fun00021 }
+ 234:
                     verify = _closure2_slot1;
                     options = verify.guildId;
- 245:
+ 243:
                     zulu['guild_id'] = options;
                     options = _closure2_slot1;
                     verify = report == options;
                     options = undefined;
-                    if(verify) { _fun00022_ip = 272; continue _fun00021 }
- 262:
+                    if(verify) { _fun00022_ip = 270; continue _fun00021 }
+ 260:
                     verify = _closure2_slot1;
                     options = verify.version;
- 272:
+ 270:
                     zulu['version'] = options;
                     zulu = oscar.bind(golf)(tango, zulu);
                     zulu = _closure2_slot1;
                     zulu = report == zulu;
-                    if(zulu) { _fun00022_ip = 308; continue _fun00021 }
- 294:
+                    if(zulu) { _fun00022_ip = 306; continue _fun00021 }
+ 292:
                     tango = _closure2_slot1;
                     tango = tango.onShown;
                     zulu = report == tango;
- 308:
-                    if(zulu) { _fun00022_ip = 325; continue _fun00021 }
- 311:
+ 306:
+                    if(zulu) { _fun00022_ip = 323; continue _fun00021 }
+ 309:
                     zulu = _closure2_slot1;
                     mike = zulu.onShown;
                     mike = mike.bind(zulu)();
- 325:
+ 323:
                     return entity;
                 }
             };
             mike['onAdded'] = tango;
             mike = zulu.bind(entity)(mike);
- 169:
+ 167:
             return entity;
         }
     };

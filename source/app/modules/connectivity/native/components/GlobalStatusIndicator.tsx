@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityRole'] = verify;
             golf = oscar != golf;
             oscar = undefined;
-            if(!golf) { _fun00002_ip = 405; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 407; continue _fun00001 }
  350:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.t;
             golf = golf.GaCMgY;
             oscar = verify.bind(offset)(golf);
- 405:
+ 407:
             entity['accessibilityHint'] = oscar;
             entity['onPress'] = report;
             golf = _closure1_slot12;

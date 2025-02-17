@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity == mike)) { _fun00002_ip = 120; continue _fun00001 }
+                if(!(entity == mike)) { _fun00002_ip = 122; continue _fun00001 }
  13:
                 mike = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -80,8 +80,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = oscar.bind(golf)(report);
                 entity['helpdeskArticle'] = report;
                 entity = zulu.bind(tango)(mike, entity);
-                _fun00002_ip = 239; continue _fun00001;
- 120:
+                _fun00002_ip = 243; continue _fun00001;
+ 122:
                 zulu = _closure1_slot0;
                 offset = _closure1_slot2;
                 mike = 3;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike['applicationName'] = oscar;
                 entity = tango.bind(report)(zulu, mike);
- 239:
+ 243:
                 return entity;
             }
         };

@@ -18,18 +18,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 115; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 113; continue _fun00001 }
  10:
                     report = null;
                     tango = report != mike;
                     zulu = null;
-                    if(!tango) { _fun00002_ip = 109; continue _fun00001 }
+                    if(!tango) { _fun00002_ip = 107; continue _fun00001 }
  21:
                     oscar = mike.paymentGateway;
                     tango = _closure1_slot4;
                     tango = tango.BRAINTREE;
                     zulu = null;
-                    if(!(oscar === tango)) { _fun00002_ip = 109; continue _fun00001 }
+                    if(!(oscar === tango)) { _fun00002_ip = 107; continue _fun00001 }
  46:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -44,20 +44,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 112; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 110; continue _fun00001 }
  88:
                     tango = report != mike;
                     zulu = null;
-                    if(!tango) { _fun00002_ip = 109; continue _fun00001 }
+                    if(!tango) { _fun00002_ip = 107; continue _fun00001 }
  97:
                     tango = {};
                     tango['braintree_device_data'] = mike;
                     zulu = tango;
- 109:
+ 107:
                     return zulu;
- 112:
+ 110:
                     return mike;
- 115:
+ 113:
                     return entity;
                 }
             };

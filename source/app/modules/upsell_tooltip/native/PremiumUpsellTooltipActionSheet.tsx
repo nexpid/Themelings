@@ -188,8 +188,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             options = foxtrot != romeo;
             verify = null;
-            if(!options) { _fun00002_ip = 250; continue _fun00001 }
- 208:
+            if(!options) { _fun00002_ip = 248; continue _fun00001 }
+ 206:
             yankee = _closure1_slot6;
             offset = _closure1_slot3;
             options = {};
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['style'] = kilo;
             options['source'] = romeo;
             verify = yankee.bind(tango)(offset, options);
- 250:
+ 248:
             options = new Array(4);
             options[0] = verify;
             yankee = _closure1_slot7;
@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['onPress'] = output;
             control = foxtrot == source;
             output = undefined;
-            if(control) { _fun00002_ip = 530; continue _fun00001 }
- 526:
+            if(control) { _fun00002_ip = 526; continue _fun00001 }
+ 522:
             output = source.bind(tango)();
- 530:
+ 526:
             romeo['icon'] = output;
             output = 'lg';
             romeo['size'] = output;
@@ -289,8 +289,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = foxtrot != echo;
             foxtrot = null;
-            if(!kilo) { _fun00002_ip = 627; continue _fun00001 }
- 565:
+            if(!kilo) { _fun00002_ip = 621; continue _fun00001 }
+ 561:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['onPress'] = result;
             backup['size'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 627:
+ 621:
             romeo[1] = foxtrot;
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);

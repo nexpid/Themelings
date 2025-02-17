@@ -609,7 +609,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = entity.item;
                     zulu = _closure2_slot7;
                     entity = 1;
-                    if(!(entity !== zulu)) { _fun00006_ip = 63; continue _fun00005 }
+                    if(!(entity !== zulu)) { _fun00006_ip = 61; continue _fun00005 }
  22:
                     report = _closure1_slot10;
                     tango = _closure1_slot14;
@@ -637,8 +637,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['handleItemPress'] = entity;
                     entity = undefined;
                     entity = report.bind(entity)(tango, zulu);
-                    _fun00006_ip = 108; continue _fun00005;
- 63:
+                    _fun00006_ip = 106; continue _fun00005;
+ 61:
                     report = _closure1_slot10;
                     tango = _closure1_slot13;
                     zulu = {};
@@ -649,7 +649,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['directoryChannelId'] = mike;
                     mike = undefined;
                     entity = report.bind(mike)(tango, zulu);
- 108:
+ 106:
                     return entity;
                 }
             };
@@ -704,8 +704,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             romeo = tango.bind(options)(mike, zulu);
             tango = _closure1_slot10;
-            if(entity) { _fun00002_ip = 553; continue _fun00001 }
- 419:
+            if(entity) { _fun00002_ip = 539; continue _fun00001 }
+ 405:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
             entity = 25;
@@ -737,8 +737,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(report)(options, zulu);
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun00002_ip = 591; continue _fun00001;
- 553:
+            _fun00002_ip = 577; continue _fun00001;
+ 539:
             zulu = _closure1_slot5;
             mike = {};
             golf = golf.loadingContainer;
@@ -748,7 +748,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 591:
+ 577:
             return entity;
         }
     };

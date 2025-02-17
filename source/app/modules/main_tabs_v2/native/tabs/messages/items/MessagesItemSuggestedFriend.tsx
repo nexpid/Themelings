@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(tango)(sizing);
             output = sizing.Text;
             sizing = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(!verify) { _fun00002_ip = 566; continue _fun00001 }
- 511:
+            if(!verify) { _fun00002_ip = 570; continue _fun00001 }
+ 515:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
             echo = 12;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.t;
             echo = echo.Kzyxm5;
             result = update.bind(source)(echo);
- 566:
+ 570:
             sizing['children'] = result;
             sizing = zulu.bind(tango)(output, sizing);
             foxtrot[1] = sizing;
@@ -473,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot9;
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot2;
-            if(verify) { _fun00002_ip = 704; continue _fun00001 }
- 609:
+            if(verify) { _fun00002_ip = 708; continue _fun00001 }
+ 613:
             verify = 19;
             verify = foxtrot[verify];
             verify = yankee.bind(tango)(verify);
@@ -493,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = sizing;
             verify['onPress'] = kilo;
             verify = romeo.bind(tango)(offset, verify);
-            _fun00002_ip = 741; continue _fun00001;
- 704:
+            _fun00002_ip = 745; continue _fun00001;
+ 708:
             offset = 20;
             offset = foxtrot[offset];
             offset = yankee.bind(tango)(offset);
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['marginHorizontal'] = backup;
             offset['style'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 741:
+ 745:
             options[2] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

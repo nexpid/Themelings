@@ -201,12 +201,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 467; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 472; continue _fun00005 }
  13:
                     report = mike.guild_scheduled_event_entity_type;
                     tango = _closure1_slot13;
                     tango = tango.STAGE_INSTANCE;
-                    if(!(tango !== report)) { _fun00006_ip = 407; continue _fun00005 }
+                    if(!(tango !== report)) { _fun00006_ip = 412; continue _fun00005 }
  41:
                     tango = _closure1_slot13;
                     tango = tango.VOICE;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  217:
                     golf = mike.channel_id;
                     tango = null;
-                    if(!(tango != golf)) { _fun00006_ip = 286; continue _fun00005 }
+                    if(!(tango != golf)) { _fun00006_ip = 289; continue _fun00005 }
  228:
                     tango = _closure1_slot16;
                     options = undefined;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return report;
  242:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=3);
-                    if(tango) { _fun00006_ip = 283; continue _fun00005 }
+                    if(tango) { _fun00006_ip = 286; continue _fun00005 }
  248:
                     oscar = _closure1_slot1;
                     verify = _closure1_slot3;
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.selectVoiceChannel;
                     tango = tango.bind(oscar)(golf);
                     tango = undefined;
-                    _fun00006_ip = 404; continue _fun00005;
- 283:
-                    return report;
+                    _fun00006_ip = 409; continue _fun00005;
  286:
+                    return report;
+ 289:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot3;
                     report = 9;
@@ -314,36 +314,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['icon'] = verify;
                     oscar = golf.bind(options)(oscar);
                     tango = undefined;
- 404:
+ 409:
                     return tango;
- 407:
+ 412:
                     oscar = mike.channel_id;
                     tango = null;
-                    if(!(tango != oscar)) { _fun00006_ip = 452; continue _fun00005 }
- 418:
+                    if(!(tango != oscar)) { _fun00006_ip = 457; continue _fun00005 }
+ 423:
                     report = _closure1_slot17;
                     tango = mike.guild_id;
                     mike = undefined;
                     tango = report.bind(mike)(tango, oscar);
-                    SaveGenerator(address=439);
- 437:
+                    SaveGenerator(address=444);
+ 442:
                     return tango;
- 439:
+ 444:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 449; continue _fun00005 }
- 445:
+                    if(mike) { _fun00006_ip = 454; continue _fun00005 }
+ 450:
                     mike = undefined;
-                    _fun00006_ip = 464; continue _fun00005;
- 449:
+                    _fun00006_ip = 469; continue _fun00005;
+ 454:
                     return tango;
- 452:
+ 457:
                     tango = _closure1_slot15;
                     zulu = undefined;
                     tango = tango.bind(zulu)();
                     mike = undefined;
- 464:
+ 469:
                     return mike;
- 467:
+ 472:
                     return entity;
                 }
             };

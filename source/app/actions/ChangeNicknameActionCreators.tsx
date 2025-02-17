@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  66:
                 golf = _closure2_slot1;
                 mike = '';
-                if(!(mike === golf)) { _fun00002_ip = 135; continue _fun00001 }
+                if(!(mike === golf)) { _fun00002_ip = 137; continue _fun00001 }
  78:
                 verify = _closure1_slot0;
                 yankee = _closure1_slot2;
@@ -86,8 +86,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.t;
                 mike = mike.Vhpd9P;
                 mike = golf.bind(options)(mike);
-                _fun00002_ip = 203; continue _fun00001;
- 135:
+                _fun00002_ip = 207; continue _fun00001;
+ 137:
                 golf = _closure1_slot0;
                 yankee = _closure1_slot2;
                 oscar = 3;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = _closure2_slot1;
                 oscar['nick'] = offset;
                 mike = options.bind(verify)(golf, oscar);
- 203:
+ 207:
                 mike = tango.bind(report)(zulu, mike);
                 return entity;
             }

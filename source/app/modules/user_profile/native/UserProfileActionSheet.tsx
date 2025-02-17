@@ -201,10 +201,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             oscar = offset == mike;
             options = undefined;
-            if(oscar) { _fun00002_ip = 356; continue _fun00001 }
- 351:
+            if(oscar) { _fun00002_ip = 352; continue _fun00001 }
+ 347:
             options = mike.guild_id;
- 356:
+ 352:
             _closure2_slot12 = options;
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -239,19 +239,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.bind(report)(mike);
             mike = offset == equality;
             oscar = undefined;
-            if(mike) { _fun00002_ip = 441; continue _fun00001 }
- 436:
+            if(mike) { _fun00002_ip = 435; continue _fun00001 }
+ 430:
             oscar = equality.id;
- 441:
-            if(!(offset == oscar)) { _fun00002_ip = 449; continue _fun00001 }
- 445:
+ 435:
+            if(!(offset == oscar)) { _fun00002_ip = 443; continue _fun00001 }
+ 439:
             oscar = _closure1_slot12;
- 449:
+ 443:
             mike = undefined;
-            if(!variable41) { _fun00002_ip = 457; continue _fun00001 }
- 454:
+            if(!variable41) { _fun00002_ip = 451; continue _fun00001 }
+ 448:
             mike = options;
- 457:
+ 451:
             quebec = golf.bind(report)(oscar, mike);
             _closure2_slot14 = quebec;
             kilo = _closure1_slot1;
@@ -315,19 +315,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot19 = papa;
             context = oscar.pendingProfileEffectId;
             _closure2_slot20 = context;
-            if(!status) { _fun00002_ip = 723; continue _fun00001 }
- 716:
+            if(!status) { _fun00002_ip = 715; continue _fun00001 }
+ 708:
             kilo = context;
-            if(!(report === kilo)) { _fun00002_ip = 741; continue _fun00001 }
- 723:
+            if(!(report === kilo)) { _fun00002_ip = 733; continue _fun00001 }
+ 715:
             golf = offset == quebec;
             oscar = undefined;
-            if(golf) { _fun00002_ip = 738; continue _fun00001 }
- 732:
+            if(golf) { _fun00002_ip = 730; continue _fun00001 }
+ 724:
             oscar = quebec.profileEffectId;
- 738:
+ 730:
             kilo = oscar;
- 741:
+ 733:
             golf = _closure1_slot1;
             verify = _closure1_slot2;
             oscar = 17;
@@ -337,10 +337,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['user'] = equality;
             oscar['displayProfile'] = quebec;
             verify = undefined;
-            if(!status) { _fun00002_ip = 780; continue _fun00001 }
- 777:
+            if(!status) { _fun00002_ip = 772; continue _fun00001 }
+ 769:
             verify = foxtrot;
- 780:
+ 772:
             oscar['pendingThemeColors'] = verify;
             oscar = golf.bind(report)(oscar);
             output = oscar.theme;
@@ -381,22 +381,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.INTERACTIVE_HOVER;
             record = echo.bind(record)(result, output);
             result = offset == verify;
-            if(zulu) { _fun00002_ip = 965; continue _fun00001 }
- 952:
+            if(zulu) { _fun00002_ip = 955; continue _fun00001 }
+ 942:
             echo = undefined;
-            if(result) { _fun00002_ip = 963; continue _fun00001 }
- 957:
+            if(result) { _fun00002_ip = 953; continue _fun00001 }
+ 947:
             echo = verify.overlay;
- 963:
-            _fun00002_ip = 979; continue _fun00001;
- 965:
+ 953:
+            _fun00002_ip = 969; continue _fun00001;
+ 955:
             zulu = undefined;
-            if(result) { _fun00002_ip = 976; continue _fun00001 }
- 970:
+            if(result) { _fun00002_ip = 966; continue _fun00001 }
+ 960:
             zulu = verify.overlaySyncedWithUserTheme;
- 976:
+ 966:
             echo = zulu;
- 979:
+ 969:
             result = _closure1_slot0;
             zulu = _closure1_slot2;
             foxtrot = zulu[foxtrot];
@@ -409,14 +409,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.ACTION_SHEET_GRADIENT_BG;
             zulu = foxtrot.bind(result)(zulu, lima);
             sierra = zulu;
-            if(!(offset != oscar)) { _fun00002_ip = 1105; continue _fun00001 }
- 1039:
+            if(!(offset != oscar)) { _fun00002_ip = 1095; continue _fun00001 }
+ 1029:
             sierra = zulu;
-            if(!(offset != verify)) { _fun00002_ip = 1105; continue _fun00001 }
- 1046:
+            if(!(offset != verify)) { _fun00002_ip = 1095; continue _fun00001 }
+ 1036:
             sierra = zulu;
-            if(!(offset != echo)) { _fun00002_ip = 1105; continue _fun00001 }
- 1053:
+            if(!(offset != echo)) { _fun00002_ip = 1095; continue _fun00001 }
+ 1043:
             result = _closure1_slot0;
             zulu = _closure1_slot2;
             verify = 21;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = result.calculateOverlayedColor;
             zulu = zulu.bind(result)(oscar, echo);
             sierra = verify.bind(foxtrot)(zulu);
- 1105:
+ 1095:
             result = _closure1_slot1;
             echo = _closure1_slot2;
             zulu = 22;
@@ -835,8 +835,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             _closure2_slot28 = entity;
-            if(!(offset != equality)) { _fun00002_ip = 2496; continue _fun00001 }
- 1707:
+            if(!(offset != equality)) { _fun00002_ip = 2468; continue _fun00001 }
+ 1679:
             tango = _closure1_slot14;
             sizing = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -859,16 +859,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             kilo['value'] = verify;
             output = offset == options;
-            if(output) { _fun00002_ip = 1822; continue _fun00001 }
- 1803:
+            if(output) { _fun00002_ip = 1794; continue _fun00001 }
+ 1775:
             echo = offset == romeo;
             result = undefined;
-            if(echo) { _fun00002_ip = 1818; continue _fun00001 }
- 1812:
+            if(echo) { _fun00002_ip = 1790; continue _fun00001 }
+ 1784:
             result = romeo.fullProfileLoadedTimestamp;
- 1818:
+ 1790:
             output = offset != result;
- 1822:
+ 1794:
             kilo['shouldTrackViewOnMount'] = output;
             echo = _closure1_slot15;
             result = _closure1_slot0;
@@ -882,8 +882,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = variable38.noPadding;
             output['contentStyles'] = update;
             update = undefined;
-            if(!status) { _fun00002_ip = 2027; continue _fun00001 }
- 1892:
+            if(!status) { _fun00002_ip = 2001; continue _fun00001 }
+ 1864:
             context = _closure1_slot14;
             variable43 = _closure1_slot0;
             variable44 = _closure1_slot2;
@@ -912,7 +912,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             lima = context.bind(report)(quebec, lima);
             source['children'] = lima;
             update = context.bind(report)(control, source);
- 2027:
+ 2001:
             output['backdropChildren'] = update;
             control = _closure1_slot14;
             source = _closure1_slot0;
@@ -932,10 +932,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update['style'] = config;
             config = {};
             context = undefined;
-            if(!status) { _fun00002_ip = 2107; continue _fun00001 }
- 2103:
+            if(!status) { _fun00002_ip = 2081; continue _fun00001 }
+ 2077:
             context = 'none';
- 2107:
+ 2081:
             config['pointerEvents'] = context;
             update['contentContainerStyle'] = config;
             update['ref'] = vacuum;
@@ -1025,14 +1025,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['showUserProfileActionSheet'] = mike;
                     mike = entity.isNonUserBot;
                     zulu = mike.bind(entity)();
-                    if(zulu) { _fun00020_ip = 240; continue _fun00019 }
- 151:
+                    if(zulu) { _fun00020_ip = 236; continue _fun00019 }
+ 147:
                     entity = entity.bot;
                     golf = _closure1_slot14;
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
-                    if(entity) { _fun00020_ip = 206; continue _fun00019 }
- 172:
+                    if(entity) { _fun00020_ip = 202; continue _fun00019 }
+ 168:
                     entity = 45;
                     entity = report[entity];
                     options = undefined;
@@ -1042,8 +1042,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = oscar;
                     verify = copyDataProperties(yankee, offset);
                     entity = golf.bind(options)(zulu, entity);
-                    _fun00020_ip = 238; continue _fun00019;
- 206:
+                    _fun00020_ip = 234; continue _fun00019;
+ 202:
                     zulu = 44;
                     zulu = report[zulu];
                     report = undefined;
@@ -1053,9 +1053,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = oscar;
                     options = copyDataProperties(yankee, offset);
                     entity = golf.bind(report)(tango, zulu);
- 238:
-                    _fun00020_ip = 284; continue _fun00019;
- 240:
+ 234:
+                    _fun00020_ip = 280; continue _fun00019;
+ 236:
                     report = _closure1_slot14;
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -1068,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = oscar;
                     oscar = copyDataProperties(yankee, offset);
                     entity = report.bind(tango)(zulu, mike);
- 284:
+ 280:
                     return entity;
                 }
             };
@@ -1077,13 +1077,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             whiskey[0] = equality;
             quebec = offset == variable41;
             equality = undefined;
-            if(quebec) { _fun00002_ip = 2237; continue _fun00001 }
- 2232:
+            if(quebec) { _fun00002_ip = 2209; continue _fun00001 }
+ 2204:
             equality = variable41.id;
- 2237:
+ 2209:
             equality = offset != equality;
-            if(!equality) { _fun00002_ip = 2310; continue _fun00001 }
- 2244:
+            if(!equality) { _fun00002_ip = 2282; continue _fun00001 }
+ 2216:
             variable37 = _closure1_slot14;
             variable36 = _closure1_slot1;
             variable40 = _closure1_slot2;
@@ -1093,16 +1093,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = {};
             variable42 = offset == variable41;
             variable40 = undefined;
-            if(variable42) { _fun00002_ip = 2284; continue _fun00001 }
- 2279:
+            if(variable42) { _fun00002_ip = 2256; continue _fun00001 }
+ 2251:
             variable40 = variable41.id;
- 2284:
+ 2256:
             quebec['profileEffectId'] = variable40;
             quebec['bannerAdjustment'] = variable39;
             variable38 = variable38.profileEffect;
             quebec['style'] = variable38;
             equality = variable37.bind(report)(variable36, quebec);
- 2310:
+ 2282:
             whiskey[1] = equality;
             lima['children'] = whiskey;
             lima = status.bind(report)(target, lima);
@@ -1143,8 +1143,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun00002_ip = 2754; continue _fun00001;
- 2496:
+            _fun00002_ip = 2726; continue _fun00001;
+ 2468:
             tango = _closure1_slot14;
             golf = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -1159,16 +1159,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['value'] = verify;
             options = offset == options;
-            if(options) { _fun00002_ip = 2576; continue _fun00001 }
- 2557:
+            if(options) { _fun00002_ip = 2548; continue _fun00001 }
+ 2529:
             foxtrot = offset == romeo;
             verify = undefined;
-            if(foxtrot) { _fun00002_ip = 2572; continue _fun00001 }
- 2566:
+            if(foxtrot) { _fun00002_ip = 2544; continue _fun00001 }
+ 2538:
             verify = romeo.fullProfileLoadedTimestamp;
- 2572:
+ 2544:
             options = offset != verify;
- 2576:
+ 2548:
             oscar['shouldTrackViewOnMount'] = options;
             offset = _closure1_slot14;
             sizing = _closure1_slot0;
@@ -1210,7 +1210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 2754:
+ 2726:
             return entity;
         }
     };

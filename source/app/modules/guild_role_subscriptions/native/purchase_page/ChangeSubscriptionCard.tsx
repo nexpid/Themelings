@@ -221,8 +221,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = golf.bind(tango)(romeo, verify);
             options[2] = verify;
             verify = null;
-            if(!(yankee !== offset)) { _fun00002_ip = 771; continue _fun00001 }
- 613:
+            if(!(yankee !== offset)) { _fun00002_ip = 779; continue _fun00001 }
+ 619:
             romeo = _closure1_slot8;
             yankee = _closure1_slot9;
             offset = {};
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[1] = backup;
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 771:
+ 779:
             options[3] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

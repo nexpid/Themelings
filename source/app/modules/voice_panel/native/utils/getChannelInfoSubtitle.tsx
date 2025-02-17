@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  20:
             mike = oscar.length;
             entity = 0;
-            if(!(entity !== mike)) { _fun00002_ip = 365; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 369; continue _fun00001 }
  34:
             offset = 1;
-            if(!(offset !== mike)) { _fun00002_ip = 326; continue _fun00001 }
+            if(!(offset !== mike)) { _fun00002_ip = 330; continue _fun00001 }
  44:
             foxtrot = 2;
-            if(!(foxtrot !== mike)) { _fun00002_ip = 200; continue _fun00001 }
+            if(!(foxtrot !== mike)) { _fun00002_ip = 202; continue _fun00001 }
  54:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['numPeople'] = yankee;
             mike = options.bind(verify)(zulu, mike);
             return mike;
- 200:
+ 202:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;
             mike = yankee[offset];
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['user2'] = offset;
             mike = options.bind(verify)(zulu, mike);
             return mike;
- 326:
+ 330:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
             mike = mike[entity];
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar[entity];
             entity = mike.bind(zulu)(report, tango, entity);
             return entity;
- 365:
+ 369:
             entity = null;
             return entity;
         }

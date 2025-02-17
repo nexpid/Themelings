@@ -310,13 +310,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 18;
             entity = entity[sizing];
             entity = options.bind(tango)(entity);
-            if(mike) { _fun00002_ip = 436; continue _fun00001 }
- 428:
+            if(mike) { _fun00002_ip = 426; continue _fun00001 }
+ 418:
             mike = entity.GuildEventCardPrimaryAction;
-            _fun00002_ip = 442; continue _fun00001;
- 436:
+            _fun00002_ip = 432; continue _fun00001;
+ 426:
             mike = entity.HubGuildEventCardPrimaryAction;
- 442:
+ 432:
             entity = {};
             entity['event'] = romeo;
             options = function() { // Original name: handleCloseAction
@@ -451,12 +451,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[4] = oscar;
             oscar = null;
             options = oscar != record;
-            if(!options) { _fun00002_ip = 1004; continue _fun00001 }
- 1001:
+            if(!options) { _fun00002_ip = 992; continue _fun00001 }
+ 989:
             options = result;
- 1004:
-            if(!options) { _fun00002_ip = 1233; continue _fun00001 }
- 1010:
+ 992:
+            if(!options) { _fun00002_ip = 1221; continue _fun00001 }
+ 998:
             echo = _closure1_slot12;
             backup = _closure1_slot4;
             verify = {};
@@ -605,7 +605,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update[1] = control;
             verify['children'] = update;
             options = echo.bind(tango)(backup, verify);
- 1233:
+ 1221:
             report[5] = options;
             backup = _closure1_slot11;
             verify = _closure1_slot0;
@@ -627,8 +627,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = new Array(3);
             kilo[0] = output;
             output = null;
-            if(!result) { _fun00002_ip = 1390; continue _fun00001 }
- 1324:
+            if(!result) { _fun00002_ip = 1378; continue _fun00001 }
+ 1312:
             update = _closure1_slot11;
             vacuum = _closure1_slot0;
             control = _closure1_slot2;
@@ -643,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['iconSize'] = control;
             result['event'] = romeo;
             output = update.bind(tango)(echo, result);
- 1390:
+ 1378:
             kilo[1] = output;
             result = _closure1_slot11;
             update = _closure1_slot0;
@@ -665,8 +665,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = backup.bind(tango)(verify, options);
             report[7] = options;
             oscar = oscar != foxtrot;
-            if(!oscar) { _fun00002_ip = 1563; continue _fun00001 }
- 1490:
+            if(!oscar) { _fun00002_ip = 1549; continue _fun00001 }
+ 1478:
             verify = _closure1_slot11;
             options = _closure1_slot1;
             backup = _closure1_slot2;
@@ -689,7 +689,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['onRecurrencePress'] = yankee;
             golf['activeRecurrenceId'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1563:
+ 1549:
             report[8] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

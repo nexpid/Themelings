@@ -528,10 +528,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.bind(tango)(verify);
             verify = verify.spacing;
             verify = verify.PX_16;
-            if(!(offset === romeo)) { _fun00002_ip = 602; continue _fun00001 }
- 599:
+            if(!(offset === romeo)) { _fun00002_ip = 601; continue _fun00001 }
+ 598:
             offset = yankee;
- 602:
+ 601:
             verify = verify + offset;
             oscar['insetEnd'] = verify;
             oscar = options.bind(tango)(golf, oscar);

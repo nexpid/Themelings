@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = options[mike];
             zulu = zulu.bind(report)(mike);
             mike = null;
-            if(golf) { _fun00002_ip = 191; continue _fun00001 }
- 188:
+            if(golf) { _fun00002_ip = 189; continue _fun00001 }
+ 186:
             mike = oscar;
- 191:
+ 189:
             mike = zulu.bind(report)(tango, mike);
             return entity;
         }

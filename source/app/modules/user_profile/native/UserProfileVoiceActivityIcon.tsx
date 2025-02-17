@@ -85,57 +85,57 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(options)(zulu, mike);
             zulu = oscar.isDM;
             zulu = zulu.bind(oscar)();
-            if(zulu) { _fun00002_ip = 404; continue _fun00001 }
- 108:
+            if(zulu) { _fun00002_ip = 402; continue _fun00001 }
+ 106:
             zulu = oscar.isGroupDM;
             zulu = zulu.bind(oscar)();
-            if(zulu) { _fun00002_ip = 404; continue _fun00001 }
- 124:
+            if(zulu) { _fun00002_ip = 402; continue _fun00001 }
+ 122:
             zulu = oscar.isGuildStageVoice;
             zulu = zulu.bind(oscar)();
             mike = !mike;
-            if(mike) { _fun00002_ip = 165; continue _fun00001 }
- 140:
+            if(mike) { _fun00002_ip = 163; continue _fun00001 }
+ 138:
             options = _closure1_slot1;
             verify = _closure1_slot2;
             golf = 6;
             golf = verify[golf];
             golf = options.bind(tango)(golf);
             mike = golf.bind(tango)(oscar);
- 165:
-            if(!zulu) { _fun00002_ip = 174; continue _fun00001 }
- 168:
-            if(mike) { _fun00002_ip = 354; continue _fun00001 }
- 174:
-            if(zulu) { _fun00002_ip = 304; continue _fun00001 }
- 180:
+ 163:
+            if(!zulu) { _fun00002_ip = 172; continue _fun00001 }
+ 166:
+            if(mike) { _fun00002_ip = 352; continue _fun00001 }
+ 172:
+            if(zulu) { _fun00002_ip = 302; continue _fun00001 }
+ 178:
             zulu = oscar.isNSFW;
             zulu = zulu.bind(oscar)();
             golf = _closure1_slot5;
             oscar = _closure1_slot0;
             options = _closure1_slot2;
-            if(zulu) { _fun00002_ip = 266; continue _fun00001 }
- 205:
-            if(mike) { _fun00002_ip = 228; continue _fun00001 }
- 208:
+            if(zulu) { _fun00002_ip = 264; continue _fun00001 }
+ 203:
+            if(mike) { _fun00002_ip = 226; continue _fun00001 }
+ 206:
             mike = 11;
             mike = options[mike];
             mike = oscar.bind(tango)(mike);
             zulu = mike.VoiceNormalIcon;
-            _fun00002_ip = 246; continue _fun00001;
- 228:
+            _fun00002_ip = 244; continue _fun00001;
+ 226:
             mike = 10;
             mike = options[mike];
             mike = oscar.bind(tango)(mike);
             zulu = mike.VoiceLockIcon;
- 246:
+ 244:
             mike = {};
             romeo = mike;
             yankee = report;
             verify = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(zulu, mike);
-            _fun00002_ip = 302; continue _fun00001;
- 266:
+            _fun00002_ip = 300; continue _fun00001;
+ 264:
             zulu = 9;
             zulu = options[zulu];
             zulu = oscar.bind(tango)(zulu);
@@ -145,9 +145,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = report;
             options = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(oscar, zulu);
+ 300:
+            _fun00002_ip = 350; continue _fun00001;
  302:
-            _fun00002_ip = 352; continue _fun00001;
- 304:
             golf = _closure1_slot5;
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -160,9 +160,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = report;
             options = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(oscar, zulu);
+ 350:
+            _fun00002_ip = 400; continue _fun00001;
  352:
-            _fun00002_ip = 402; continue _fun00001;
- 354:
             golf = _closure1_slot5;
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -175,9 +175,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = report;
             options = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(oscar, zulu);
- 402:
+ 400:
             return mike;
- 404:
+ 402:
             zulu = _closure1_slot5;
             mike = _closure1_slot0;
             oscar = _closure1_slot2;

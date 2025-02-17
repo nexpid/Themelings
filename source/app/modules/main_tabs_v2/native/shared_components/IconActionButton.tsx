@@ -129,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         output = golf.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 392; continue _fun00001 }
- 386:
+        if(!sizing) { _fun00002_ip = 390; continue _fun00001 }
+ 384:
         kilo = -2;
- 392:
+ 390:
         romeo['marginTop'] = kilo;
         oscar['actionText'] = romeo;
         romeo = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};
@@ -213,18 +213,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 entity = golf.bind(options)(entity, zulu);
                 zulu = null;
-                if(!(zulu == report)) { _fun00006_ip = 96; continue _fun00005 }
- 90:
+                if(!(zulu == report)) { _fun00006_ip = 94; continue _fun00005 }
+ 88:
                 entity = entity.bind(tango)();
-                _fun00006_ip = 120; continue _fun00005;
- 96:
+                _fun00006_ip = 118; continue _fun00005;
+ 94:
                 zulu = _closure1_slot4;
                 mike = {};
                 golf = 'sm';
                 mike['size'] = golf;
                 mike['color'] = oscar;
                 entity = zulu.bind(tango)(report, mike);
- 120:
+ 118:
                 return entity;
             }
         };

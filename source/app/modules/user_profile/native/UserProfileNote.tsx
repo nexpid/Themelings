@@ -133,30 +133,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[sizing];
             mike = golf.bind(tango)(mike);
             mike = mike.t;
-            if(options) { _fun00002_ip = 362; continue _fun00001 }
+            if(options) { _fun00002_ip = 366; continue _fun00001 }
  333:
-            if(entity) { _fun00002_ip = 349; continue _fun00001 }
+            if(entity) { _fun00002_ip = 351; continue _fun00001 }
  336:
             golf = mike.Dglxra;
             golf = zulu.bind(kilo)(golf);
-            _fun00002_ip = 360; continue _fun00001;
- 349:
+            _fun00002_ip = 364; continue _fun00001;
+ 351:
             sizing = mike.1ZZttr;
             golf = zulu.bind(kilo)(sizing);
- 360:
-            _fun00002_ip = 392; continue _fun00001;
- 362:
-            if(entity) { _fun00002_ip = 378; continue _fun00001 }
- 365:
+ 364:
+            _fun00002_ip = 398; continue _fun00001;
+ 366:
+            if(entity) { _fun00002_ip = 382; continue _fun00001 }
+ 369:
             entity = mike.sHHsOD;
             entity = zulu.bind(kilo)(entity);
-            _fun00002_ip = 389; continue _fun00001;
- 378:
+            _fun00002_ip = 395; continue _fun00001;
+ 382:
             mike = mike.gs+qcH;
             entity = zulu.bind(kilo)(mike);
- 389:
+ 395:
             golf = entity;
- 392:
+ 398:
             zulu = _closure1_slot3;
             mike = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -170,10 +170,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityHint'] = golf;
             golf = oscar != romeo;
             oscar = undefined;
-            if(!golf) { _fun00002_ip = 449; continue _fun00001 }
- 446:
+            if(!golf) { _fun00002_ip = 455; continue _fun00001 }
+ 452:
             oscar = romeo;
- 449:
+ 455:
             entity['accessibilityLabel'] = oscar;
             report = function() { // Original name: onPress
                 zulu = _closure1_slot1;
@@ -219,21 +219,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = yankee;
             yankee = !options;
-            if(options) { _fun00002_ip = 528; continue _fun00001 }
- 517:
+            if(options) { _fun00002_ip = 532; continue _fun00001 }
+ 521:
             backup = {};
             kilo = 0;
             backup['marginBottom'] = kilo;
             yankee = backup;
- 528:
+ 532:
             offset[1] = yankee;
             report['titleStyle'] = offset;
             yankee = _closure1_slot3;
             offset = {'size': 'xs', 'color': 'interactive-normal'};
             offset = yankee.bind(tango)(foxtrot, offset);
             report['titleIcon'] = offset;
-            if(!options) { _fun00002_ip = 622; continue _fun00001 }
- 569:
+            if(!options) { _fun00002_ip = 626; continue _fun00001 }
+ 573:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {'variant': 'text-md/normal', 'color': 'text-normal'};
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 622:
+ 626:
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

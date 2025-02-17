@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             zulu = entity.invites;
             mike = null;
-            if(!(mike != zulu)) { _fun00012_ip = 40; continue _fun00011 }
+            if(!(mike != zulu)) { _fun00012_ip = 38; continue _fun00011 }
  15:
             tango = entity.invites;
             zulu = tango.forEach;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             entity = zulu.bind(tango)(entity);
- 40:
+ 38:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             entity = 7;
@@ -408,10 +408,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(entity)(tango);
             report = mike != tango;
             mike = null;
-            if(!report) { _fun00012_ip = 143; continue _fun00011 }
- 140:
+            if(!report) { _fun00012_ip = 141; continue _fun00011 }
+ 138:
             mike = tango;
- 143:
+ 141:
             _closure1_slot9 = mike;
             mike = false;
             _closure1_slot15 = mike;
@@ -572,10 +572,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(mike);
             mike = null;
             report = mike != tango;
-            if(!report) { _fun00018_ip = 137; continue _fun00017 }
- 134:
+            if(!report) { _fun00018_ip = 135; continue _fun00017 }
+ 132:
             mike = tango;
- 137:
+ 135:
             _closure1_slot9 = mike;
             mike = false;
             _closure1_slot14 = mike;

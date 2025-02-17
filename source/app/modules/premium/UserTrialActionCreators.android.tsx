@@ -121,12 +121,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 243; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 247; continue _fun00003 }
  10:
                     mike = _closure2_slot0;
                     zulu = mike.expires_at;
                     mike = null;
-                    if(!(mike == zulu)) { _fun00004_ip = 238; continue _fun00003 }
+                    if(!(mike == zulu)) { _fun00004_ip = 242; continue _fun00003 }
  32: // try_start_0
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -166,14 +166,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['userTrialOffer'] = oscar;
                     zulu = tango.bind(report)(zulu);
  171: // try_end0
-                    _fun00004_ip = 238; continue _fun00003;
+                    _fun00004_ip = 242; continue _fun00003;
  173:
                     return mike;
  176: // catch_target0
                     CatchBlockStart(arg_register=1);
                     zulu = mike.status;
                     mike = 404;
-                    if(!(mike === zulu)) { _fun00004_ip = 238; continue _fun00003 }
+                    if(!(mike === zulu)) { _fun00004_ip = 242; continue _fun00003 }
  193:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = tango.dispatch;
                     mike = {'type': 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'userTrialOffer': null};
                     mike = zulu.bind(tango)(mike);
- 238:
+ 242:
                     mike = undefined;
                     return mike;
- 243:
+ 247:
                     return entity;
                 }
             };

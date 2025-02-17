@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 122; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 124; continue _fun00001 }
  7:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  46:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 119; continue _fun00001 }
+                    if(report) { _fun00002_ip = 121; continue _fun00001 }
  52:
                     report = _closure1_slot8;
                     options = _closure1_slot0;
@@ -143,9 +143,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(golf)(tango);
                     tango = report.bind(zulu)(tango);
                     return zulu;
- 119:
+ 121:
                     return mike;
- 122:
+ 124:
                     return entity;
                 }
             };

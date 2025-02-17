@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.useFocusModeEnabled;
             zulu = entity.bind(zulu)();
             entity = undefined;
-            if(!zulu) { _fun00004_ip = 95; continue _fun00003 }
+            if(!zulu) { _fun00004_ip = 97; continue _fun00003 }
  40:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.cIRG0t;
             entity = zulu.bind(tango)(mike);
- 95:
+ 97:
             return entity;
         }
     };

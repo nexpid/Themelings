@@ -81,7 +81,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = 0;
             mike = backup <= entity;
             entity = null;
-            if(mike) { _fun00002_ip = 240; continue _fun00001 }
+            if(mike) { _fun00002_ip = 242; continue _fun00001 }
  83:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
@@ -155,7 +155,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 240:
+ 242:
             return entity;
         }
     };

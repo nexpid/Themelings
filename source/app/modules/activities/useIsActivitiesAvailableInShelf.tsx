@@ -99,10 +99,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             zulu = report.bind(oscar)(zulu, tango);
-            if(!entity) { _fun00002_ip = 160; continue _fun00001 }
- 157:
+            if(!entity) { _fun00002_ip = 158; continue _fun00001 }
+ 155:
             entity = mike;
- 160:
+ 158:
             return entity;
         }
     };

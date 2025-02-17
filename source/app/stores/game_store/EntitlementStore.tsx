@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00006_ip = 345; continue _fun00005 }
+            if(mike) { _fun00006_ip = 343; continue _fun00005 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -968,7 +968,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure1_slot13;
                 tango = tango.bind(report)(zulu);
                 zulu = null;
-                if(!(zulu != tango)) { _fun00030_ip = 93; continue _fun00029 }
+                if(!(zulu != tango)) { _fun00030_ip = 91; continue _fun00029 }
  76:
                 zulu = tango.forEach;
                 mike = function(argFoo) {
@@ -1008,7 +1008,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     }
                 };
                 mike = zulu.bind(tango)(mike);
- 93:
+ 91:
                 return entity;
             }
         };
@@ -1027,7 +1027,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure1_slot13;
                 tango = tango.bind(report)(zulu);
                 zulu = null;
-                if(!(zulu != tango)) { _fun00034_ip = 54; continue _fun00033 }
+                if(!(zulu != tango)) { _fun00034_ip = 52; continue _fun00033 }
  37:
                 zulu = tango.forEach;
                 mike = function(argFoo) {
@@ -1060,7 +1060,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     }
                 };
                 mike = zulu.bind(tango)(mike);
- 54:
+ 52:
                 return entity;
             }
         };

@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot5;
             zulu = zulu.FOCUS_CHAT_BUTTON;
             zulu = tango.bind(report)(zulu);
-            _fun00004_ip = 140; continue _fun00003;
+            _fun00004_ip = 138; continue _fun00003;
  117:
             zulu = global;
             tango = zulu.setTimeout;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = 0;
             mike = tango.bind(entity)(zulu, mike);
- 140:
+ 138:
             return entity;
         }
     };

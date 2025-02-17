@@ -64,21 +64,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             entity = report == golf;
             zulu = undefined;
-            if(entity) { _fun00002_ip = 97; continue _fun00001 }
- 91:
+            if(entity) { _fun00002_ip = 95; continue _fun00001 }
+ 89:
             zulu = golf.application_id;
- 97:
+ 95:
             entity = new Array(2);
             entity[0] = zulu;
             yankee = options.extra;
             zulu = 'application_id';
             yankee = zulu in yankee;
             zulu = undefined;
-            if(!yankee) { _fun00002_ip = 136; continue _fun00001 }
- 124:
+            if(!yankee) { _fun00002_ip = 134; continue _fun00001 }
+ 122:
             options = options.extra;
             zulu = options.application_id;
- 136:
+ 134:
             entity[1] = zulu;
             zulu = mike.bind(verify)(entity);
             mike = _closure1_slot3;
@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.bind(options)(oscar, tango);
             entity['embeddedActivity'] = tango;
             tango = mike;
-            if(!(report != zulu)) { _fun00002_ip = 244; continue _fun00001 }
- 241:
+            if(!(report != zulu)) { _fun00002_ip = 240; continue _fun00001 }
+ 237:
             tango = zulu;
- 244:
+ 240:
             entity['anyMatchingApplication'] = tango;
             entity['activityApplication'] = zulu;
             entity['fallbackApplication'] = mike;

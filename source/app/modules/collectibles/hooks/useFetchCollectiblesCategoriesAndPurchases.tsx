@@ -221,16 +221,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot7;
             verify = entity == options;
             mike = undefined;
-            if(verify) { _fun00006_ip = 193; continue _fun00005 }
+            if(verify) { _fun00006_ip = 191; continue _fun00005 }
  185:
             mike = options.stalePurchasesOK;
- 193:
+ 191:
             verify = entity == options;
             entity = undefined;
-            if(verify) { _fun00006_ip = 207; continue _fun00005 }
- 202:
+            if(verify) { _fun00006_ip = 205; continue _fun00005 }
+ 200:
             entity = options.location;
- 207:
+ 205:
             mike = tango.bind(report)(mike, entity);
             options = mike.isClaiming;
             report = mike.fetchPurchasesError;
@@ -238,10 +238,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = mike.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun00006_ip = 248; continue _fun00005 }
- 245:
+            if(yankee) { _fun00006_ip = 246; continue _fun00005 }
+ 243:
             yankee = verify;
- 248:
+ 246:
             entity['isFetching'] = yankee;
             entity['isFetchingCategories'] = offset;
             entity['isFetchingPurchases'] = verify;

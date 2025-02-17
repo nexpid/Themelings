@@ -350,15 +350,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = vacuum[echo];
             echo = control.bind(tango)(echo);
             echo = echo.t;
-            if(result) { _fun00002_ip = 655; continue _fun00001 }
+            if(result) { _fun00002_ip = 657; continue _fun00001 }
  642:
             result = echo.Yplnt7;
             result = update.bind(source)(result);
-            _fun00002_ip = 666; continue _fun00001;
- 655:
+            _fun00002_ip = 670; continue _fun00001;
+ 657:
             echo = echo.GQ+4bm;
             result = update.bind(source)(echo);
- 666:
+ 670:
             yankee['accessibilityLabel'] = result;
             yankee = zulu.bind(tango)(backup, yankee);
             options['children'] = yankee;

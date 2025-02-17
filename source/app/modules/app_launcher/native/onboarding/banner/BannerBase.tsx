@@ -296,10 +296,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = verify;
             verify = {};
             echo = result > foxtrot;
-            if(!echo) { _fun00002_ip = 449; continue _fun00001 }
- 446:
+            if(!echo) { _fun00002_ip = 448; continue _fun00001 }
+ 445:
             foxtrot = sizing;
- 449:
+ 448:
             verify['opacity'] = foxtrot;
             verify['width'] = backup;
             oscar[1] = verify;

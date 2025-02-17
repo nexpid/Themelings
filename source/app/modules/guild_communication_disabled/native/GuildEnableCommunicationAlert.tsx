@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00004_ip = 188; continue _fun00003 }
+                            if(mike) { _fun00004_ip = 190; continue _fun00003 }
  10:
                             tango = _closure1_slot1;
                             zulu = _closure1_slot2;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  62:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun00004_ip = 185; continue _fun00003 }
+                            if(tango) { _fun00004_ip = 187; continue _fun00003 }
  68:
                             options = _closure1_slot1;
                             verify = _closure1_slot2;
@@ -203,9 +203,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango['icon'] = golf;
                             tango = report.bind(oscar)(tango);
                             return zulu;
- 185:
+ 187:
                             return mike;
- 188:
+ 190:
                             return entity;
                         }
                     };
@@ -263,10 +263,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[options] = verify;
             verify = update == report;
             options = undefined;
-            if(verify) { _fun00002_ip = 334; continue _fun00001 }
- 328:
+            if(verify) { _fun00002_ip = 332; continue _fun00001 }
+ 326:
             options = report.onClose;
- 334:
+ 332:
             report = 'onClose';
             entity[report] = options;
             report = 'onCancel';

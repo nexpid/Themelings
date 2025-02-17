@@ -139,13 +139,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot14;
             entity = undefined;
             zulu = zulu.bind(entity)();
-            if(!zulu) { _fun00008_ip = 157; continue _fun00007 }
+            if(!zulu) { _fun00008_ip = 159; continue _fun00007 }
  19:
             report = _closure1_slot10;
             zulu = report.getCurrentClientVoiceChannelId;
             tango = null;
             options = zulu.bind(report)(tango);
-            if(!(tango != options)) { _fun00008_ip = 157; continue _fun00007 }
+            if(!(tango != options)) { _fun00008_ip = 159; continue _fun00007 }
  40:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(entity)(mike);
             mike = zulu.selectVoiceChannel;
             mike = mike.bind(zulu)(tango);
- 157:
+ 159:
             return entity;
         }
     };

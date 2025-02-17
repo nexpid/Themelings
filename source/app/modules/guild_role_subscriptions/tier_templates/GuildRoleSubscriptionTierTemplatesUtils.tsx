@@ -831,7 +831,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  41:
             tango = report.usedTemplate;
  47:
-            if(!(golf != tango)) { _fun00034_ip = 658; continue _fun00033 }
+            if(!(golf != tango)) { _fun00034_ip = 654; continue _fun00033 }
  54:
             zulu = _closure1_slot7;
             mike = zulu.getTemplateWithCategory;
@@ -1008,7 +1008,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  642:
             entity = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return entity;
- 658:
+ 654:
             entity = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return entity;
         }

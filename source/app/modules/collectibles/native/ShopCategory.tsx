@@ -330,13 +330,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = sizing.categoryHeader;
             output = new Array(2);
             output[0] = vacuum;
-            if(echo) { _fun00002_ip = 598; continue _fun00001 }
- 590:
+            if(echo) { _fun00002_ip = 594; continue _fun00001 }
+ 586:
             echo = sizing.categoryHeaderBorderLight;
-            _fun00002_ip = 604; continue _fun00001;
- 598:
+            _fun00002_ip = 600; continue _fun00001;
+ 594:
             echo = sizing.categoryHeaderBorderDark;
- 604:
+ 600:
             output[1] = echo;
             offset['style'] = output;
             vacuum = _closure1_slot0;
@@ -380,8 +380,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset['onPress'] = output;
             yankee = yankee != record;
-            if(!yankee) { _fun00002_ip = 782; continue _fun00001 }
- 745:
+            if(!yankee) { _fun00002_ip = 780; continue _fun00001 }
+ 743:
             sequence = _closure1_slot8;
             vacuum = _closure1_slot4;
             output = {};
@@ -391,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = sizing.imageBackground;
             output['style'] = config;
             yankee = sequence.bind(tango)(vacuum, output);
- 782:
+ 780:
             vacuum = new Array(2);
             vacuum[0] = yankee;
             yankee = _closure1_slot8;
@@ -419,8 +419,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = output[offset];
             offset = sizing.bind(tango)(offset);
             offset = offset.FlashList;
-            if(verify) { _fun00002_ip = 1084; continue _fun00001 }
- 919:
+            if(verify) { _fun00002_ip = 1082; continue _fun00001 }
+ 917:
             verify = {};
             sizing = true;
             verify['horizontal'] = sizing;
@@ -502,8 +502,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = _closure1_slot12;
             verify['ItemSeparatorComponent'] = sizing;
             verify['initialScrollIndex'] = romeo;
-            _fun00002_ip = 1216; continue _fun00001;
- 1084:
+            _fun00002_ip = 1214; continue _fun00001;
+ 1082:
             romeo = {};
             sizing = true;
             romeo['horizontal'] = sizing;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['ListHeaderComponent'] = foxtrot;
             romeo['ItemSeparatorComponent'] = foxtrot;
             verify = romeo;
- 1216:
+ 1214:
             verify = yankee.bind(tango)(offset, verify);
             options[1] = verify;
             report['children'] = options;

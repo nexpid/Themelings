@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  32:
             options = tango.guildAndChannels;
  38:
-            if(!(zulu != options)) { _fun00008_ip = 111; continue _fun00007 }
+            if(!(zulu != options)) { _fun00008_ip = 109; continue _fun00007 }
  42:
             report = _closure1_slot14;
             tango = report.overwriteHistory;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.pendingUsages;
             mike = tango.bind(report)(zulu, mike);
             return entity;
- 111:
+ 109:
             entity = false;
             return entity;
         }
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot10;
                 zulu = oscar.bind(tango)(report, zulu);
                 zulu = null;
-                if(!(zulu != mike)) { _fun00014_ip = 70; continue _fun00013 }
+                if(!(zulu != mike)) { _fun00014_ip = 68; continue _fun00013 }
  35:
                 oscar = mike.pendingUsages;
                 report = oscar.filter;
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = report.bind(oscar)(zulu);
                 mike['pendingUsages'] = zulu;
                 _closure1_slot17 = mike;
- 70:
+ 68:
                 zulu = tango.syncWith;
                 report = _closure1_slot7;
                 mike = new Array(1);

@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.bind(tango)(zulu);
             zulu = zulu.CollectiblesItemType;
             zulu = zulu.BUNDLE;
-            if(!(options === zulu)) { _fun00002_ip = 535; continue _fun00001 }
+            if(!(options === zulu)) { _fun00002_ip = 537; continue _fun00001 }
  413:
             zulu = control.bundledProducts;
             if(!(update == zulu)) { _fun00002_ip = 429; continue _fun00001 }
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.name;
             zulu['pfxName'] = offset;
             context = golf.bind(options)(oscar, zulu);
- 535:
+ 537:
             oscar = _closure1_slot4;
             golf = oscar.useEffect;
             zulu = new Array(2);
@@ -482,11 +482,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = yankee.bind(tango)(backup, kilo);
             kilo = new Array(3);
             kilo[0] = sequence;
-            if(result) { _fun00002_ip = 1139; continue _fun00001 }
- 1094:
+            if(result) { _fun00002_ip = 1141; continue _fun00001 }
+ 1096:
             sizing = !sizing;
-            if(!sizing) { _fun00002_ip = 1137; continue _fun00001 }
- 1100:
+            if(!sizing) { _fun00002_ip = 1139; continue _fun00001 }
+ 1102:
             config = _closure1_slot8;
             sequence = _closure1_slot1;
             record = _closure1_slot2;
@@ -496,9 +496,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = {};
             result['product'] = control;
             sizing = config.bind(tango)(sequence, result);
- 1137:
-            _fun00002_ip = 1236; continue _fun00001;
  1139:
+            _fun00002_ip = 1238; continue _fun00001;
+ 1141:
             sequence = _closure1_slot8;
             papa = _closure1_slot0;
             target = _closure1_slot2;
@@ -518,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = record.bind(context)(config);
             output['children'] = config;
             sizing = sequence.bind(tango)(result, output);
- 1236:
+ 1238:
             kilo[1] = sizing;
             result = _closure1_slot8;
             output = _closure1_slot0;

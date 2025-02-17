@@ -144,13 +144,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = offset[options];
             options = verify.bind(tango)(options);
             options = options.colors;
-            if(golf) { _fun00002_ip = 355; continue _fun00001 }
- 347:
+            if(golf) { _fun00002_ip = 357; continue _fun00001 }
+ 349:
             golf = options.INTERACTIVE_NORMAL;
-            _fun00002_ip = 361; continue _fun00001;
- 355:
+            _fun00002_ip = 363; continue _fun00001;
+ 357:
             golf = options.WHITE;
- 361:
+ 363:
             report['color'] = golf;
             report = zulu.bind(tango)(oscar, report);
             entity['children'] = report;

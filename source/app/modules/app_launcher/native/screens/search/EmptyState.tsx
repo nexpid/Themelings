@@ -137,15 +137,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = kilo[yankee];
             yankee = backup.bind(tango)(yankee);
             yankee = yankee.t;
-            if(offset) { _fun00002_ip = 338; continue _fun00001 }
+            if(offset) { _fun00002_ip = 340; continue _fun00001 }
  325:
             offset = yankee.LSNOYW;
             offset = romeo.bind(foxtrot)(offset);
-            _fun00002_ip = 349; continue _fun00001;
- 338:
+            _fun00002_ip = 353; continue _fun00001;
+ 340:
             yankee = yankee.aOkFv7;
             offset = romeo.bind(foxtrot)(yankee);
- 349:
+ 353:
             options['children'] = offset;
             options = golf.bind(tango)(verify, options);
             oscar['children'] = options;

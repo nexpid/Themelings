@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 461; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 467; continue _fun00001 }
  10: // try_start_0
                     zulu = _closure2_slot3;
                     oscar = undefined;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['twoWayLinkCode'] = golf;
                     zulu = report.bind(oscar)(zulu);
  153: // try_end0
-                    _fun00002_ip = 456; continue _fun00001;
+                    _fun00002_ip = 462; continue _fun00001;
  158:
                     return mike;
  161: // catch_target0
@@ -130,13 +130,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = report.status;
  194:
                     report = 429;
-                    if(!(report !== options)) { _fun00002_ip = 347; continue _fun00001 }
+                    if(!(report !== options)) { _fun00002_ip = 351; continue _fun00001 }
  207:
                     report = 404;
-                    if(!(report !== options)) { _fun00002_ip = 287; continue _fun00001 }
+                    if(!(report !== options)) { _fun00002_ip = 289; continue _fun00001 }
  217:
                     report = 400;
-                    if(!(report !== options)) { _fun00002_ip = 287; continue _fun00001 }
+                    if(!(report !== options)) { _fun00002_ip = 289; continue _fun00001 }
  227:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot1;
@@ -150,8 +150,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.t;
                     report = report.JNQRU1;
                     report = options.bind(verify)(report);
-                    _fun00002_ip = 345; continue _fun00001;
- 287:
+                    _fun00002_ip = 349; continue _fun00001;
+ 289:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot1;
                     options = 4;
@@ -164,9 +164,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.aWa1Pz;
                     report = verify.bind(offset)(options);
- 345:
-                    _fun00002_ip = 405; continue _fun00001;
- 347:
+ 349:
+                    _fun00002_ip = 411; continue _fun00001;
+ 351:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot1;
                     options = 4;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.BPmZvr;
                     report = verify.bind(offset)(options);
- 405:
+ 411:
                     report = golf.bind(zulu)(report);
                     golf = _closure2_slot3;
                     report = false;
@@ -187,19 +187,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = tango;
                     oscar = oscar == report;
                     report = undefined;
-                    if(oscar) { _fun00002_ip = 438; continue _fun00001 }
- 433:
+                    if(oscar) { _fun00002_ip = 444; continue _fun00001 }
+ 439:
                     report = tango.status;
- 438:
+ 444:
                     tango = 401;
-                    if(!(tango === report)) { _fun00002_ip = 456; continue _fun00001 }
- 448:
+                    if(!(tango === report)) { _fun00002_ip = 462; continue _fun00001 }
+ 454:
                     mike = _closure2_slot2;
                     mike = mike.bind(zulu)();
- 456:
+ 462:
                     mike = undefined;
                     return mike;
- 461:
+ 467:
                     return entity;
                 }
             };

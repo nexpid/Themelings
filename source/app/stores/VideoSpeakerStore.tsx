@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             oscar = golf == tango;
             tango = null;
-            if(oscar) { _fun00006_ip = 551; continue _fun00005 }
+            if(oscar) { _fun00006_ip = 541; continue _fun00005 }
  42:
             verify = _closure1_slot10;
             options = verify.getSelectedParticipantId;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options;
  278:
             tango = oscar;
-            if(!(golf == tango)) { _fun00006_ip = 551; continue _fun00005 }
+            if(!(golf == tango)) { _fun00006_ip = 541; continue _fun00005 }
  288:
             options = _closure1_slot12;
             oscar = options.getId;
@@ -320,50 +320,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options.bind(offset)(report);
             options = golf == offset;
             report = undefined;
-            if(options) { _fun00006_ip = 472; continue _fun00005 }
- 466:
+            if(options) { _fun00006_ip = 462; continue _fun00005 }
+ 456:
             options = 0;
             report = offset[options];
- 472:
+ 462:
             tango = report;
-            if(!(golf == tango)) { _fun00006_ip = 551; continue _fun00005 }
- 479:
+            if(!(golf == tango)) { _fun00006_ip = 541; continue _fun00005 }
+ 469:
             report = _closure1_slot4;
-            if(!(golf != report)) { _fun00006_ip = 504; continue _fun00005 }
- 487:
+            if(!(golf != report)) { _fun00006_ip = 494; continue _fun00005 }
+ 477:
             options = verify.has;
             report = _closure1_slot4;
             report = options.bind(verify)(report);
-            if(report) { _fun00006_ip = 547; continue _fun00005 }
- 504:
+            if(report) { _fun00006_ip = 537; continue _fun00005 }
+ 494:
             report = oscar.first;
             oscar = report.bind(oscar)();
             options = golf == oscar;
             report = undefined;
-            if(options) { _fun00006_ip = 542; continue _fun00005 }
- 523:
+            if(options) { _fun00006_ip = 532; continue _fun00005 }
+ 513:
             oscar = oscar.user;
             golf = golf == oscar;
             report = undefined;
-            if(golf) { _fun00006_ip = 542; continue _fun00005 }
- 537:
+            if(golf) { _fun00006_ip = 532; continue _fun00005 }
+ 527:
             report = oscar.id;
- 542:
+ 532:
             tango = report;
-            _fun00006_ip = 551; continue _fun00005;
- 547:
+            _fun00006_ip = 541; continue _fun00005;
+ 537:
             tango = _closure1_slot4;
- 551:
+ 541:
             report = _closure1_slot4;
-            if(!(report !== tango)) { _fun00006_ip = 580; continue _fun00005 }
- 559:
+            if(!(report !== tango)) { _fun00006_ip = 570; continue _fun00005 }
+ 549:
             var _closure1_slot4 = tango;
-            if(!zulu) { _fun00006_ip = 580; continue _fun00005 }
- 566:
+            if(!zulu) { _fun00006_ip = 570; continue _fun00005 }
+ 556:
             zulu = _closure1_slot17;
             mike = zulu.emitChange;
             mike = mike.bind(zulu)();
- 580:
+ 570:
             return entity;
         }
     };

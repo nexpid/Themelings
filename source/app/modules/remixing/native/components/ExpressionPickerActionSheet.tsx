@@ -138,8 +138,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = -1;
             offset = mike.bind(zulu)(entity);
             entity = null;
-            if(!(report !== output)) { _fun00002_ip = 528; continue _fun00001 }
- 244:
+            if(!(report !== output)) { _fun00002_ip = 518; continue _fun00001 }
+ 240:
             tango = _closure1_slot12;
             zulu = _closure1_slot11;
             mike = {};
@@ -150,8 +150,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(report)(oscar);
             oscar = golf.isIOS;
             golf = oscar.bind(golf)();
-            if(!golf) { _fun00002_ip = 324; continue _fun00001 }
- 287:
+            if(!golf) { _fun00002_ip = 320; continue _fun00001 }
+ 283:
             verify = _closure1_slot10;
             options = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['animatedSheetIndex'] = offset;
             golf = verify.bind(report)(options, oscar);
- 324:
+ 320:
             oscar = new Array(2);
             oscar[0] = golf;
             verify = _closure1_slot10;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 528:
+ 518:
             return entity;
         }
     };

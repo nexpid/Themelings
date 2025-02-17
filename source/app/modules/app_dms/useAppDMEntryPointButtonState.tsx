@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     zulu = _closure2_slot0;
                     entity = null;
-                    if(!(entity == zulu)) { _fun00004_ip = 75; continue _fun00003 }
+                    if(!(entity == zulu)) { _fun00004_ip = 77; continue _fun00003 }
  13:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -123,8 +123,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.t;
                     entity = entity.3xjX0d;
                     entity = zulu.bind(tango)(entity);
-                    _fun00004_ip = 120; continue _fun00003;
- 75:
+                    _fun00004_ip = 122; continue _fun00003;
+ 77:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
                     zulu = 7;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot0;
                     mike = mike.displayName;
                     entity = zulu.bind(tango)(mike);
- 120:
+ 122:
                     return entity;
                 }
             };

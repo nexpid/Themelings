@@ -654,10 +654,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = romeo.View;
             romeo = {'style': null, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             backup = null;
-            if(!source) { _fun00002_ip = 1323; continue _fun00001 }
- 1320:
+            if(!source) { _fun00002_ip = 1327; continue _fun00001 }
+ 1324:
             backup = kilo;
- 1323:
+ 1327:
             romeo['style'] = backup;
             sizing = _closure1_slot5;
             kilo = _closure1_slot1;
@@ -667,10 +667,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = backup.View;
             backup = {};
             echo = null;
-            if(!source) { _fun00002_ip = 1365; continue _fun00001 }
- 1362:
+            if(!source) { _fun00002_ip = 1369; continue _fun00001 }
+ 1366:
             echo = update;
- 1365:
+ 1369:
             backup['style'] = echo;
             result = function(argFoo) { // Original name: onLayout
                 entity = argFoo;

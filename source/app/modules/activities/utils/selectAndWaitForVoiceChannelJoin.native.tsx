@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golf) { _fun00006_ip = 175; continue _fun00005 }
+                    if(golf) { _fun00006_ip = 173; continue _fun00005 }
  15:
                     options = mike.channelId;
                     oscar = options;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  56:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golf) { _fun00006_ip = 172; continue _fun00005 }
+                    if(golf) { _fun00006_ip = 170; continue _fun00005 }
  62:
                     golf = global;
                     options = golf.Promise;
@@ -175,32 +175,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = options.bind(verify)(golf);
                     golf = options.selectVoiceChannel;
                     oscar = golf.bind(options)(oscar);
- 131: // try_start_0
-                    SaveGenerator(address=135);
- 133:
+ 129: // try_start_0
+                    SaveGenerator(address=133);
+ 131:
                     return report;
- 135:
+ 133:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun00006_ip = 146; continue _fun00005 }
- 141: // try_end0
+                    if(oscar) { _fun00006_ip = 144; continue _fun00005 }
+ 139: // try_end0
                     oscar = true;
                     return oscar;
- 146:
+ 144:
                     return report;
- 149: // catch_target0
+ 147: // catch_target0
                     CatchBlockStart(arg_register=4);
                     zulu = report;
                     tango = _closure1_slot10;
                     tango = report instanceof tango;
-                    if(tango) { _fun00006_ip = 167; continue _fun00005 }
- 165:
+                    if(tango) { _fun00006_ip = 165; continue _fun00005 }
+ 163:
                     throw zulu;
- 167:
+ 165:
                     zulu = false;
                     return zulu;
- 172:
+ 170:
                     return mike;
- 175:
+ 173:
                     return entity;
                 }
             };

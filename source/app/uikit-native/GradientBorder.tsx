@@ -101,14 +101,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.END;
             mike = zulu != offset;
             entity = null;
-            if(!mike) { _fun00002_ip = 420; continue _fun00001 }
- 155:
+            if(!mike) { _fun00002_ip = 424; continue _fun00001 }
+ 159:
             tango = _closure1_slot3;
             mike = tango.isValidElement;
             mike = mike.bind(tango)(offset);
             entity = null;
-            if(!mike) { _fun00002_ip = 420; continue _fun00001 }
- 181:
+            if(!mike) { _fun00002_ip = 424; continue _fun00001 }
+ 185:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -130,8 +130,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = copyDataProperties(echo, result);
             options = offset.type;
             golf = _closure1_slot4;
-            if(!(options === golf)) { _fun00002_ip = 371; continue _fun00001 }
- 264:
+            if(!(options === golf)) { _fun00002_ip = 375; continue _fun00001 }
+ 268:
             golf = _closure1_slot3;
             options = golf.Children;
             golf = options.only;
@@ -156,8 +156,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = 'style';
             golf[backup] = kilo;
             golf = options.bind(verify)(yankee, golf);
-            _fun00002_ip = 405; continue _fun00001;
- 371:
+            _fun00002_ip = 409; continue _fun00001;
+ 375:
             verify = _closure1_slot7;
             options = _closure1_slot4;
             oscar = {};
@@ -167,11 +167,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = yankee;
             oscar['children'] = offset;
             golf = verify.bind(report)(options, oscar);
- 405:
+ 409:
             oscar = 'children';
             mike[oscar] = golf;
             entity = tango.bind(report)(zulu, mike);
- 420:
+ 424:
             return entity;
         }
     };

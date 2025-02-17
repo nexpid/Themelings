@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(entity)(tango);
                     tango = report.isIOS;
                     tango = tango.bind(report)();
-                    if(tango) { _fun00002_ip = 145; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 143; continue _fun00001 }
  69:
                     tango = _closure1_slot3;
                     golf = tango.CameraRollUtils;
@@ -167,16 +167,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     tango = report.bind(golf)(tango);
-                    _fun00002_ip = 254; continue _fun00001;
- 145:
+                    _fun00002_ip = 252; continue _fun00001;
+ 143:
                     golf = _closure1_slot1;
                     tango = _closure1_slot2;
                     report = 5;
                     tango = tango[report];
                     golf = golf.bind(entity)(tango);
                     tango = null;
-                    if(!(tango != golf)) { _fun00002_ip = 254; continue _fun00001 }
- 171:
+                    if(!(tango != golf)) { _fun00002_ip = 252; continue _fun00001 }
+ 169:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
                     zulu = zulu[report];
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
- 254:
+ 252:
                     return entity;
                 }
             };
@@ -381,9 +381,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = tango.hasReachedEnd;
                     oscar = tango.endCursor;
                     tango = null;
-                    if(!(tango != entity)) { _fun00006_ip = 446; continue _fun00005 }
+                    if(!(tango != entity)) { _fun00006_ip = 444; continue _fun00005 }
  81:
-                    if(zulu) { _fun00006_ip = 446; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 444; continue _fun00005 }
  87:
                     zulu = entity.edges;
                     entity = entity.edges;
@@ -412,10 +412,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.bind(report)();
                     if(!zulu) { _fun00006_ip = 200; continue _fun00005 }
  180:
-                    if(!(tango != verify)) { _fun00006_ip = 444; continue _fun00005 }
+                    if(!(tango != verify)) { _fun00006_ip = 442; continue _fun00005 }
  187:
                     zulu = verify.uri;
-                    if(!(tango != zulu)) { _fun00006_ip = 444; continue _fun00005 }
+                    if(!(tango != zulu)) { _fun00006_ip = 442; continue _fun00005 }
  200:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -423,7 +423,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(entity)(zulu);
                     zulu = report.isIOS;
                     zulu = zulu.bind(report)();
-                    if(zulu) { _fun00006_ip = 326; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 324; continue _fun00005 }
  230:
                     zulu = _closure1_slot3;
                     options = zulu.CameraRollUtils;
@@ -473,15 +473,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     zulu = report.bind(options)(zulu);
-                    _fun00006_ip = 442; continue _fun00005;
- 326:
+                    _fun00006_ip = 440; continue _fun00005;
+ 324:
                     options = _closure1_slot1;
                     zulu = _closure1_slot2;
                     report = 5;
                     zulu = zulu[report];
                     zulu = options.bind(entity)(zulu);
-                    if(!(tango != zulu)) { _fun00006_ip = 442; continue _fun00005 }
- 350:
+                    if(!(tango != zulu)) { _fun00006_ip = 440; continue _fun00005 }
+ 348:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
                     zulu = zulu[report];
@@ -528,11 +528,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = zulu.bind(tango)(mike);
+ 440:
+                    return entity;
  442:
                     return entity;
  444:
-                    return entity;
- 446:
                     entity = undefined;
                     return entity;
                 }

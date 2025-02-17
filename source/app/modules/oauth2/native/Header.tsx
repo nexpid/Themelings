@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
             yankee = verify.length;
             verify = 0;
-            if(!(!(yankee > verify))) { _fun00002_ip = 705; continue _fun00001 }
+            if(!(!(yankee > verify))) { _fun00002_ip = 707; continue _fun00001 }
  648:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
@@ -254,8 +254,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.X+Fdpq;
             verify = yankee.bind(romeo)(verify);
-            _fun00002_ip = 760; continue _fun00001;
- 705:
+            _fun00002_ip = 764; continue _fun00001;
+ 707:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
             offset = 11;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.jFbDnJ;
             verify = yankee.bind(romeo)(offset);
- 760:
+ 764:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[2] = oscar;

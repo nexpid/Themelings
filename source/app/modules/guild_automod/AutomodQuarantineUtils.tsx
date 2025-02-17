@@ -154,9 +154,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = golf.getGuild;
                 yankee = report.bind(golf)(tango);
                 options = tango;
-                if(!(offset != yankee)) { _fun00004_ip = 462; continue _fun00003 }
+                if(!(offset != yankee)) { _fun00004_ip = 468; continue _fun00003 }
  72:
-                if(!(offset != options)) { _fun00004_ip = 462; continue _fun00003 }
+                if(!(offset != options)) { _fun00004_ip = 468; continue _fun00003 }
  79:
                 report = _closure1_slot4;
                 tango = report.getId;
@@ -179,16 +179,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.bind(golf)(tango);
                 golf = report.size;
                 tango = 0;
-                if(!(tango !== golf)) { _fun00004_ip = 460; continue _fun00003 }
+                if(!(tango !== golf)) { _fun00004_ip = 466; continue _fun00003 }
  168:
                 golf = report.has;
                 tango = _closure1_slot11;
                 tango = tango.AUTOMOD_QUARANTINED_USERNAME_OR_GUILD_NICKNAME;
                 tango = golf.bind(report)(tango);
-                if(!tango) { _fun00004_ip = 366; continue _fun00003 }
+                if(!tango) { _fun00004_ip = 370; continue _fun00003 }
  194:
                 zulu = _closure2_slot0;
-                if(!(offset != zulu)) { _fun00004_ip = 267; continue _fun00003 }
+                if(!(offset != zulu)) { _fun00004_ip = 269; continue _fun00003 }
  202:
                 options = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -204,8 +204,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.bind(golf)(zulu);
                 zulu = new Array(1);
                 zulu[0] = tango;
-                _fun00004_ip = 360; continue _fun00003;
- 267:
+                _fun00004_ip = 364; continue _fun00003;
+ 269:
                 golf = _closure1_slot0;
                 romeo = _closure1_slot2;
                 tango = 11;
@@ -221,24 +221,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = yankee.name;
                 romeo = offset != yankee;
                 offset = '';
-                if(!romeo) { _fun00004_ip = 338; continue _fun00003 }
- 335:
+                if(!romeo) { _fun00004_ip = 342; continue _fun00003 }
+ 339:
                 offset = yankee;
- 338:
+ 342:
                 tango['guildName'] = offset;
                 golf = options.bind(verify)(golf, tango);
                 tango = new Array(1);
                 tango[0] = golf;
                 zulu = tango;
- 360:
+ 364:
                 entity['nick'] = zulu;
- 366:
+ 370:
                 tango = report.has;
                 zulu = _closure1_slot11;
                 zulu = zulu.AUTOMOD_QUARANTINED_BIO;
                 zulu = tango.bind(report)(zulu);
-                if(!zulu) { _fun00004_ip = 458; continue _fun00003 }
- 389:
+                if(!zulu) { _fun00004_ip = 464; continue _fun00003 }
+ 393:
                 report = _closure1_slot0;
                 golf = _closure1_slot2;
                 mike = 11;
@@ -254,11 +254,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = new Array(1);
                 mike[0] = zulu;
                 entity['bio'] = mike;
- 458:
+ 464:
                 return entity;
- 460:
+ 466:
                 return entity;
- 462:
+ 468:
                 return entity;
             }
         };

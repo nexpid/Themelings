@@ -2463,9 +2463,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  2807:
             foxtrot = _closure1_slot8;
  2811:
-            if(zulu) { _fun00006_ip = 3956; continue _fun00005 }
+            if(zulu) { _fun00006_ip = 3966; continue _fun00005 }
  2817:
-            if(!(mike != romeo)) { _fun00006_ip = 3933; continue _fun00005 }
+            if(!(mike != romeo)) { _fun00006_ip = 3943; continue _fun00005 }
  2824:
             if(entity) { _fun00006_ip = 2858; continue _fun00005 }
  2827:
@@ -2475,7 +2475,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['command'] = romeo;
             entity['onPressBack'] = yankee;
             golf = zulu.bind(tango)(mike, entity);
-            _fun00006_ip = 3931; continue _fun00005;
+            _fun00006_ip = 3941; continue _fun00005;
  2858:
             zulu = _closure1_slot22;
             mike = _closure1_slot23;
@@ -2608,7 +2608,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  3187:
             source = control;
  3190:
-            if(!source) { _fun00006_ip = 3337; continue _fun00005 }
+            if(!source) { _fun00006_ip = 3339; continue _fun00005 }
  3196:
             papa = _closure1_slot21;
             context = _closure1_slot6;
@@ -2640,11 +2640,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             status = equality.bind(tango)(sierra, status);
             sequence['children'] = status;
             source = papa.bind(tango)(context, sequence);
- 3337:
+ 3339:
             backup[2] = source;
             source = !control;
-            if(control) { _fun00006_ip = 3487; continue _fun00005 }
- 3350:
+            if(control) { _fun00006_ip = 3495; continue _fun00005 }
+ 3352:
             context = _closure1_slot21;
             sequence = _closure1_slot6;
             control = {};
@@ -2675,10 +2675,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = sierra.bind(tango)(status, papa);
             control['children'] = papa;
             source = context.bind(tango)(sequence, control);
- 3487:
+ 3495:
             backup[3] = source;
-            if(!kilo) { _fun00006_ip = 3814; continue _fun00005 }
- 3497:
+            if(!kilo) { _fun00006_ip = 3824; continue _fun00005 }
+ 3505:
             sequence = _closure1_slot22;
             control = _closure1_slot23;
             source = {};
@@ -2835,7 +2835,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config[2] = record;
             source['children'] = config;
             kilo = sequence.bind(tango)(control, source);
- 3814:
+ 3824:
             backup[4] = kilo;
             control = _closure1_slot21;
             source = _closure1_slot1;
@@ -2863,22 +2863,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = foxtrot;
             entity['children'] = options;
             golf = zulu.bind(tango)(mike, entity);
- 3931:
-            _fun00006_ip = 3954; continue _fun00005;
- 3933:
+ 3941:
+            _fun00006_ip = 3964; continue _fun00005;
+ 3943:
             zulu = _closure1_slot21;
             mike = _closure1_slot33;
             entity = {};
             entity['onPressBack'] = yankee;
             golf = zulu.bind(tango)(mike, entity);
- 3954:
-            _fun00006_ip = 3972; continue _fun00005;
- 3956:
+ 3964:
+            _fun00006_ip = 3982; continue _fun00005;
+ 3966:
             zulu = _closure1_slot21;
             mike = _closure1_slot32;
             entity = {};
             golf = zulu.bind(tango)(mike, entity);
- 3972:
+ 3982:
             zulu = _closure1_slot22;
             mike = _closure1_slot6;
             entity = {};
@@ -3213,11 +3213,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     mike = mike.fetchState;
                     mike = mike.fetching;
-                    if(mike) { _fun00044_ip = 778; continue _fun00043 }
- 766:
+                    if(mike) { _fun00044_ip = 774; continue _fun00043 }
+ 762:
                     zulu = zulu.fetchState;
                     mike = zulu.fetching;
- 778:
+ 774:
                     entity['loading'] = mike;
                     return entity;
                 }

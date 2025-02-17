@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  55:
             if(!report) { _fun00002_ip = 64; continue _fun00001 }
  58:
-            if(oscar) { _fun00002_ip = 479; continue _fun00001 }
+            if(oscar) { _fun00002_ip = 465; continue _fun00001 }
  64:
             zulu = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -183,13 +183,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = {};
             options = !report;
-            if(!options) { _fun00002_ip = 361; continue _fun00001 }
- 355:
+            if(!options) { _fun00002_ip = 347; continue _fun00001 }
+ 341:
             report = null;
             options = report != kilo;
- 361:
-            if(!options) { _fun00002_ip = 404; continue _fun00001 }
- 364:
+ 347:
+            if(!options) { _fun00002_ip = 390; continue _fun00001 }
+ 350:
             foxtrot = _closure1_slot4;
             verify = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -200,12 +200,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['icon'] = kilo;
             report['style'] = backup;
             options = foxtrot.bind(tango)(verify, report);
- 404:
+ 390:
             report = new Array(2);
             report[0] = options;
             oscar = !oscar;
-            if(!oscar) { _fun00002_ip = 463; continue _fun00001 }
- 418:
+            if(!oscar) { _fun00002_ip = 449; continue _fun00001 }
+ 404:
             verify = _closure1_slot4;
             options = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -217,12 +217,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['maxFontSizeMultiplier'] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 463:
+ 449:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 479:
+ 465:
             entity = null;
             return entity;
         }

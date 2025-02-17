@@ -686,10 +686,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = foxtrot.nextButton;
             offset = new Array(2);
             offset[0] = kilo;
-            if(!yankee) { _fun00006_ip = 1324; continue _fun00005 }
- 1318:
+            if(!yankee) { _fun00006_ip = 1332; continue _fun00005 }
+ 1326:
             yankee = foxtrot.nextButtonFloating;
- 1324:
+ 1332:
             offset[1] = yankee;
             oscar['style'] = offset;
             yankee = _closure1_slot21;
@@ -1179,10 +1179,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = yankee.nextButton;
             verify = new Array(2);
             verify[0] = sizing;
-            if(!offset) { _fun00012_ip = 661; continue _fun00011 }
- 655:
+            if(!offset) { _fun00012_ip = 665; continue _fun00011 }
+ 659:
             offset = yankee.nextButtonFloating;
- 661:
+ 665:
             verify[1] = offset;
             oscar['style'] = verify;
             yankee = _closure1_slot21;
@@ -1206,11 +1206,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = sizing;
             verify['onPress'] = kilo;
             romeo = romeo === backup;
-            if(romeo) { _fun00012_ip = 773; continue _fun00011 }
- 765:
+            if(romeo) { _fun00012_ip = 779; continue _fun00011 }
+ 771:
             foxtrot = _closure1_slot15;
             romeo = backup > foxtrot;
- 773:
+ 779:
             verify['disabled'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
             oscar['children'] = verify;

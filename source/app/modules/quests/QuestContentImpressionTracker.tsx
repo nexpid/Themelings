@@ -414,8 +414,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = report.isEligibleForQuestsClientMonitoring;
                         zulu = 'QuestImpressionTracker';
                         zulu = tango.bind(report)(zulu);
-                        if(!zulu) { _fun00010_ip = 331; continue _fun00009 }
- 198:
+                        if(!zulu) { _fun00010_ip = 327; continue _fun00009 }
+ 194:
                         tango = _closure1_slot1;
                         verify = _closure1_slot2;
                         zulu = 8;
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar[0] = golf;
                         zulu['tags'] = oscar;
                         zulu = tango.bind(report)(zulu);
- 331:
+ 327:
                         zulu = _closure3_slot0;
                         mike = true;
                         zulu['isRunning'] = mike;
@@ -503,12 +503,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = golf.isArray;
                 golf = oscar.bind(golf)(options);
                 oscar = options;
-                if(golf) { _fun00004_ip = 286; continue _fun00003 }
- 275:
+                if(golf) { _fun00004_ip = 274; continue _fun00003 }
+ 263:
                 golf = new Array(1);
                 golf[0] = options;
                 oscar = golf;
- 286:
+ 274:
                 zulu['quests'] = oscar;
                 zulu['trackGuildAndChannelMetadata'] = report;
                 zulu['triggeredByStatusChange'] = tango;
@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             if(mike) { _fun00014_ip = 31; continue _fun00013 }
  24:
             report = zulu.id;
-            _fun00014_ip = 74; continue _fun00013;
+            _fun00014_ip = 72; continue _fun00013;
  31:
             mike = zulu.sort;
             tango = mike.bind(zulu)();
@@ -571,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.join;
             mike = '_';
             report = zulu.bind(tango)(mike);
- 74:
+ 72:
             entity = entity.HermesInternal;
             tango = entity.concat;
             zulu = '';

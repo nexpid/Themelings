@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     oscar = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 561; continue _fun00005 }
+                    if(mike) { _fun00006_ip = 557; continue _fun00005 }
  13:
                     tango = undefined;
                     if(!(oscar === tango)) { _fun00006_ip = 21; continue _fun00005 }
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 558; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 554; continue _fun00005 }
  34:
                     report = global;
                     golf = report.Date;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  88:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golf) { _fun00006_ip = 555; continue _fun00005 }
+                    if(golf) { _fun00006_ip = 551; continue _fun00005 }
  97:
                     verify = report.Date;
                     golf = verify.now;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = backup.bind(foxtrot)(kilo, verify);
                     verify = romeo.bind(tango)(verify);
                     verify = offset.bind(yankee)(verify);
-                    _fun00006_ip = 552; continue _fun00005;
+                    _fun00006_ip = 548; continue _fun00005;
  196:
                     verify = _closure1_slot13;
                     if(verify) { _fun00006_ip = 265; continue _fun00005 }
@@ -338,20 +338,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = verify.bind(tango)(oscar);
                     oscar = verify.getMemoryUsageElectronRenderer;
                     oscar = oscar.bind(verify)();
-                    if(!(golf != oscar)) { _fun00006_ip = 387; continue _fun00005 }
- 379:
+                    if(!(golf != oscar)) { _fun00006_ip = 385; continue _fun00005 }
+ 377:
                     yankee['client_heartbeat_renderer_memory'] = oscar;
- 387:
+ 385:
                     verify = _closure1_slot1;
                     oscar = _closure1_slot2;
                     oscar = oscar[offset];
                     verify = verify.bind(tango)(oscar);
                     oscar = verify.getMemoryUsageElectronRendererUsedHeapSize;
                     oscar = oscar.bind(verify)();
-                    if(!(golf != oscar)) { _fun00006_ip = 428; continue _fun00005 }
- 420:
+                    if(!(golf != oscar)) { _fun00006_ip = 424; continue _fun00005 }
+ 416:
                     yankee['client_heartbeat_renderer_memory_used_heap'] = oscar;
- 428:
+ 424:
                     verify = _closure1_slot1;
                     golf = _closure1_slot2;
                     oscar = 10;
@@ -379,13 +379,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(tango)(report);
                     report = oscar.drainClickstream;
                     report = report.bind(oscar)();
- 552:
+ 548:
                     return tango;
- 555:
+ 551:
                     return zulu;
- 558:
+ 554:
                     return mike;
- 561:
+ 557:
                     return entity;
                 }
             };

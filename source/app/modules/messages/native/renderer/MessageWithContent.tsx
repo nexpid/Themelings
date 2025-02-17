@@ -145,24 +145,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = verify.bind(record)(report, mike);
             report = {};
             mike = undefined;
-            if(!sequence) { _fun00002_ip = 430; continue _fun00001 }
- 427:
+            if(!sequence) { _fun00002_ip = 424; continue _fun00001 }
+ 421:
             mike = zulu;
- 430:
+ 424:
             report['_jumpSequenceId'] = mike;
             verify = null;
-            if(!(verify == entity)) { _fun00002_ip = 471; continue _fun00001 }
- 443:
+            if(!(verify == entity)) { _fun00002_ip = 465; continue _fun00001 }
+ 437:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 13;
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             zulu = entity.Message;
-            _fun00002_ip = 475; continue _fun00001;
- 471:
+            _fun00002_ip = 469; continue _fun00001;
+ 465:
             zulu = _closure1_slot12;
- 475:
+ 469:
             mike = _closure1_slot9;
             entity = {};
             entity['canAddNewReactions'] = papa;
@@ -227,10 +227,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['scrollTo'] = record;
             record = result.id;
             record = record === target;
-            if(!record) { _fun00002_ip = 824; continue _fun00001 }
- 782:
-            if(context) { _fun00002_ip = 821; continue _fun00001 }
- 785:
+            if(!record) { _fun00002_ip = 818; continue _fun00001 }
+ 776:
+            if(context) { _fun00002_ip = 815; continue _fun00001 }
+ 779:
             sierra = _closure1_slot0;
             lima = _closure1_slot2;
             target = 15;
@@ -239,9 +239,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = target.JumpTypes;
             target = target.INSTANT;
             context = status === target;
- 821:
+ 815:
             record = !context;
- 824:
+ 818:
             entity['animated'] = record;
             entity['jumped'] = sequence;
             sequence = result.id;
@@ -266,8 +266,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['truncation'] = echo;
             entity['addReactionLabel'] = backup;
             entity['alwaysShowAddReaction'] = foxtrot;
-            if(!(verify == options)) { _fun00002_ip = 996; continue _fun00001 }
- 944:
+            if(!(verify == options)) { _fun00002_ip = 990; continue _fun00001 }
+ 938:
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
             verify = 16;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['isEditing'] = sizing;
             verify['isAutomodBlockedMessage'] = kilo;
             options = foxtrot.bind(backup)(verify);
- 996:
+ 990:
             entity['backgroundHighlight'] = options;
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -289,14 +289,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.bind(tango)(golf);
             options = verify.createSwipeActions;
             golf = offset;
+            if(!offset) { _fun00002_ip = 1030; continue _fun00001 }
+ 1027:
+            golf = romeo;
+ 1030:
             if(!offset) { _fun00002_ip = 1036; continue _fun00001 }
  1033:
-            golf = romeo;
- 1036:
-            if(!offset) { _fun00002_ip = 1042; continue _fun00001 }
- 1039:
             offset = yankee;
- 1042:
+ 1036:
             golf = options.bind(verify)(golf, offset);
             entity['swipeActions'] = golf;
             variable38 = entity;

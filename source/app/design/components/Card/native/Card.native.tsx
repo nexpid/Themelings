@@ -110,11 +110,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity = 'onPress';
             entity = entity in oscar;
             golf = tango;
-            if(!entity) { _fun00004_ip = 186; continue _fun00003 }
- 177:
+            if(!entity) { _fun00004_ip = 190; continue _fun00003 }
+ 181:
             entity = oscar.onPress;
-            if(!(zulu == entity)) { _fun00004_ip = 223; continue _fun00003 }
- 186:
+            if(!(zulu == entity)) { _fun00004_ip = 227; continue _fun00003 }
+ 190:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;
             entity = {};
@@ -124,8 +124,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             yankee = 'style';
             entity[yankee] = options;
             entity = tango.bind(report)(zulu, entity);
-            _fun00004_ip = 293; continue _fun00003;
- 223:
+            _fun00004_ip = 297; continue _fun00003;
+ 227:
             tango = _closure1_slot5;
             zulu = _closure1_slot11;
             mike = {};
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = 'variant';
             mike[oscar] = golf;
             entity = tango.bind(report)(zulu, mike);
- 293:
+ 297:
             return entity;
         }
     };

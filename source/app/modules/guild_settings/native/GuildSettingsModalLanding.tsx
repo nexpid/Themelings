@@ -937,7 +937,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.length;
             tango = 0;
             entity = null;
-            if(!(tango !== golf)) { _fun00008_ip = 975; continue _fun00007 }
+            if(!(tango !== golf)) { _fun00008_ip = 977; continue _fun00007 }
  888:
             tango = _closure1_slot16;
             offset = _closure1_slot0;
@@ -958,7 +958,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['title'] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 975:
+ 977:
             return entity;
         }
     };

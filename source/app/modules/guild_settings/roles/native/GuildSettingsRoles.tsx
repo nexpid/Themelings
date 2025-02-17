@@ -1082,12 +1082,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = oscar;
                     offset = _closure2_slot15;
                     verify = null;
-                    if(offset) { _fun00032_ip = 535; continue _fun00031 }
- 225:
+                    if(offset) { _fun00032_ip = 537; continue _fun00031 }
+ 227:
                     offset = _closure2_slot13;
                     verify = null;
-                    if(offset) { _fun00032_ip = 535; continue _fun00031 }
- 237:
+                    if(offset) { _fun00032_ip = 537; continue _fun00031 }
+ 239:
                     foxtrot = _closure1_slot21;
                     control = _closure1_slot0;
                     echo = _closure1_slot3;
@@ -1152,7 +1152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     kilo[1] = sizing;
                     offset['children'] = kilo;
                     verify = foxtrot.bind(entity)(romeo, offset);
- 535:
+ 537:
                     options[1] = verify;
                     report['children'] = options;
                     options = tango.bind(entity)(zulu, report);
@@ -1160,8 +1160,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report[0] = options;
                     options = _closure2_slot15;
                     oscar = null;
-                    if(!options) { _fun00032_ip = 679; continue _fun00031 }
- 566:
+                    if(!options) { _fun00032_ip = 683; continue _fun00031 }
+ 568:
                     verify = _closure1_slot20;
                     foxtrot = _closure1_slot0;
                     offset = _closure1_slot3;
@@ -1184,7 +1184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = yankee.bind(romeo)(offset);
                     golf['children'] = offset;
                     oscar = verify.bind(entity)(options, golf);
- 679:
+ 683:
                     report[1] = oscar;
                     mike['children'] = report;
                     entity = tango.bind(entity)(zulu, mike);
@@ -1244,7 +1244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  121:
                     entity = _closure2_slot19;
                     tango = _closure1_slot21;
-                    if(entity) { _fun00034_ip = 649; continue _fun00033 }
+                    if(entity) { _fun00034_ip = 653; continue _fun00033 }
  135:
                     mike = _closure1_slot6;
                     entity = {};
@@ -1358,8 +1358,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu[2] = oscar;
                     entity['children'] = zulu;
                     entity = tango.bind(report)(mike, entity);
-                    _fun00034_ip = 837; continue _fun00033;
- 649:
+                    _fun00034_ip = 841; continue _fun00033;
+ 653:
                     zulu = _closure1_slot22;
                     mike = {};
                     verify = _closure1_slot20;
@@ -1400,7 +1400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar[1] = golf;
                     mike['children'] = oscar;
                     entity = tango.bind(report)(zulu, mike);
- 837:
+ 841:
                     return entity;
                 }
             };
@@ -1856,12 +1856,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot22;
             entity = {};
             golf = null;
-            if(foxtrot) { _fun00002_ip = 1215; continue _fun00001 }
+            if(foxtrot) { _fun00002_ip = 1214; continue _fun00001 }
  1064:
             report = 10;
             report = options < report;
             golf = null;
-            if(report) { _fun00002_ip = 1215; continue _fun00001 }
+            if(report) { _fun00002_ip = 1214; continue _fun00001 }
  1079:
             verify = _closure1_slot20;
             options = _closure1_slot6;
@@ -1871,7 +1871,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[0] = yankee;
             yankee = {};
             source = 0;
-            if(!target) { _fun00002_ip = 1141; continue _fun00001 }
+            if(!target) { _fun00002_ip = 1140; continue _fun00001 }
  1110:
             status = _closure1_slot1;
             sierra = _closure1_slot3;
@@ -1880,7 +1880,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = status.bind(tango)(context);
             context = context.spacing;
             source = context.PX_16;
- 1141:
+ 1140:
             yankee['paddingBottom'] = source;
             offset[1] = yankee;
             report['style'] = offset;
@@ -1898,15 +1898,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = source.bind(tango)(yankee, offset);
             report['children'] = offset;
             golf = verify.bind(tango)(options, report);
- 1215:
+ 1214:
             report = new Array(4);
             report[0] = golf;
             verify = _closure1_slot20;
             options = _closure1_slot6;
             golf = {};
             offset = null;
-            if(!foxtrot) { _fun00002_ip = 1495; continue _fun00001 }
- 1241:
+            if(!foxtrot) { _fun00002_ip = 1494; continue _fun00001 }
+ 1240:
             control = _closure1_slot21;
             source = _closure1_slot22;
             yankee = {};
@@ -1914,8 +1914,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = new Array(2);
             context[0] = status;
             status = null;
-            if(record) { _fun00002_ip = 1481; continue _fun00001 }
- 1271:
+            if(record) { _fun00002_ip = 1480; continue _fun00001 }
+ 1270:
             whiskey = _closure1_slot20;
             variable39 = _closure1_slot0;
             variable40 = _closure1_slot3;
@@ -1961,11 +1961,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             equality = whiskey.bind(tango)(quebec, equality);
             sierra['label'] = equality;
             status = whiskey.bind(tango)(lima, sierra);
- 1481:
+ 1480:
             context[1] = status;
             yankee['children'] = context;
             offset = control.bind(tango)(source, yankee);
- 1495:
+ 1494:
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
             report[1] = golf;
@@ -1982,33 +1982,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             offset['ref'] = echo;
             echo = null;
-            if(foxtrot) { _fun00002_ip = 1622; continue _fun00001 }
- 1559:
+            if(foxtrot) { _fun00002_ip = 1621; continue _fun00001 }
+ 1558:
             control = _closure1_slot21;
             source = _closure1_slot22;
             update = {};
             context = null;
-            if(target) { _fun00002_ip = 1578; continue _fun00001 }
- 1574:
+            if(target) { _fun00002_ip = 1577; continue _fun00001 }
+ 1573:
             context = vacuum.bind(tango)();
- 1578:
+ 1577:
             vacuum = new Array(3);
             vacuum[0] = context;
             context = null;
-            if(target) { _fun00002_ip = 1595; continue _fun00001 }
- 1591:
+            if(target) { _fun00002_ip = 1594; continue _fun00001 }
+ 1590:
             context = papa.bind(tango)();
- 1595:
+ 1594:
             vacuum[1] = context;
             sequence = null;
-            if(!record) { _fun00002_ip = 1608; continue _fun00001 }
- 1604:
+            if(!record) { _fun00002_ip = 1607; continue _fun00001 }
+ 1603:
             sequence = config.bind(tango)();
- 1608:
+ 1607:
             vacuum[2] = sequence;
             update['children'] = vacuum;
             echo = control.bind(tango)(source, update);
- 1622:
+ 1621:
             offset['header'] = echo;
             echo = output.container;
             offset['wrapperStyles'] = echo;

@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     golf = report == golf;
                     report = undefined;
-                    if(golf) { _fun00004_ip = 109; continue _fun00003 }
- 100:
+                    if(golf) { _fun00004_ip = 105; continue _fun00003 }
+ 96:
                     oscar = _closure2_slot0;
                     report = oscar.guild_id;
- 109:
+ 105:
                     mike['guildId'] = report;
                     mike = zulu.bind(tango)(mike);
                     return entity;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.bind(tango)(options, report);
             report = new Array(2);
             report[0] = options;
-            if(!oscar) { _fun00002_ip = 390; continue _fun00001 }
+            if(!oscar) { _fun00002_ip = 392; continue _fun00001 }
  293:
             verify = _closure1_slot15;
             foxtrot = _closure1_slot0;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(romeo)(offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 390:
+ 392:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

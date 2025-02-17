@@ -58,7 +58,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
-                if(!entity) { _fun00002_ip = 154; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 156; continue _fun00001 }
  13:
                 mike = _closure1_slot1;
                 verify = _closure1_slot2;
@@ -91,7 +91,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = report.bind(oscar)(tango);
                 entity['body'] = tango;
                 entity = mike.bind(zulu)(entity);
- 154:
+ 156:
                 entity = undefined;
                 return entity;
             }

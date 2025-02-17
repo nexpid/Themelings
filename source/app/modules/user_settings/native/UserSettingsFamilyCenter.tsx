@@ -291,12 +291,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             options = new Array(0);
             options = yankee.bind(romeo)(offset, options);
-            if(!golf) { _fun00002_ip = 739; continue _fun00001 }
- 684:
-            if(!(entity != tango)) { _fun00002_ip = 739; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 743; continue _fun00001 }
  688:
-            if(zulu) { _fun00002_ip = 739; continue _fun00001 }
- 691:
+            if(!(entity != tango)) { _fun00002_ip = 743; continue _fun00001 }
+ 692:
+            if(zulu) { _fun00002_ip = 743; continue _fun00001 }
+ 695:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
             zulu = 29;
@@ -307,8 +307,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.FAMILY_CENTER;
             zulu = tango.bind(golf)(zulu);
             entity = null;
-            _fun00002_ip = 1020; continue _fun00001;
- 739:
+            _fun00002_ip = 1024; continue _fun00001;
+ 743:
             tango = _closure1_slot15;
             echo = _closure1_slot0;
             control = _closure1_slot2;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1020:
+ 1024:
             return entity;
         }
     };

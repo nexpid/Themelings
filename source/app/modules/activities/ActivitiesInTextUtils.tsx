@@ -283,10 +283,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == golf;
             mike = undefined;
-            if(options) { _fun00010_ip = 132; continue _fun00009 }
- 127:
+            if(options) { _fun00010_ip = 128; continue _fun00009 }
+ 123:
             mike = golf.guild_id;
- 132:
+ 128:
             report = report != mike;
             mike = _closure1_slot0;
             golf = _closure1_slot1;
@@ -304,19 +304,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(golf)(mike, entity);
             entity = entity.enabled;
             entity = !entity;
-            if(!entity) { _fun00010_ip = 221; continue _fun00009 }
- 203:
+            if(!entity) { _fun00010_ip = 217; continue _fun00009 }
+ 199:
             mike = tango;
-            if(!report) { _fun00010_ip = 218; continue _fun00009 }
- 209:
-            if(!zulu) { _fun00010_ip = 215; continue _fun00009 }
- 212:
+            if(!report) { _fun00010_ip = 214; continue _fun00009 }
+ 205:
+            if(!zulu) { _fun00010_ip = 211; continue _fun00009 }
+ 208:
             zulu = tango;
- 215:
+ 211:
             mike = zulu;
- 218:
+ 214:
             entity = mike;
- 221:
+ 217:
             return entity;
         }
     };

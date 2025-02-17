@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     options = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 467; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 473; continue _fun00003 }
  15:
                     var _closure4_slot0 = options;
                     mike = undefined;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  182:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(!tango) { _fun00004_ip = 464; continue _fun00003 }
+                    if(!tango) { _fun00004_ip = 470; continue _fun00003 }
  191:
                     return zulu;
  194:
@@ -245,15 +245,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = verify[romeo];
                     verify = offset.bind(mike)(verify);
                     offset = verify.t;
-                    if(options) { _fun00004_ip = 282; continue _fun00003 }
+                    if(options) { _fun00004_ip = 284; continue _fun00003 }
  269:
                     verify = offset.q29xJy;
                     verify = yankee.bind(foxtrot)(verify);
-                    _fun00004_ip = 293; continue _fun00003;
- 282:
+                    _fun00004_ip = 297; continue _fun00003;
+ 284:
                     offset = offset.DRFN1N;
                     verify = yankee.bind(foxtrot)(offset);
- 293:
+ 297:
                     zulu['title'] = verify;
                     foxtrot = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -264,15 +264,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = verify[romeo];
                     verify = foxtrot.bind(mike)(verify);
                     verify = verify.t;
-                    if(options) { _fun00004_ip = 354; continue _fun00003 }
- 341:
+                    if(options) { _fun00004_ip = 360; continue _fun00003 }
+ 345:
                     options = verify.E66FQk;
                     options = offset.bind(yankee)(options);
-                    _fun00004_ip = 365; continue _fun00003;
- 354:
+                    _fun00004_ip = 373; continue _fun00003;
+ 360:
                     verify = verify.y015ZW;
                     options = offset.bind(yankee)(verify);
- 365:
+ 373:
                     zulu['subtitle'] = options;
                     yankee = _closure1_slot0;
                     options = _closure1_slot2;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(mike) { _fun00006_ip = 54; continue _fun00005 }
+                                if(mike) { _fun00006_ip = 52; continue _fun00005 }
  7:
                                 report = _closure1_slot9;
                                 tango = _closure4_slot0;
@@ -315,17 +315,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                                     return entity;
                                 };
                                 mike = report.bind(zulu)(tango, mike);
-                                SaveGenerator(address=42);
+                                SaveGenerator(address=40);
+ 38:
+                                return mike;
  40:
-                                return mike;
- 42:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(tango) { _fun00006_ip = 51; continue _fun00005 }
- 48:
+                                if(tango) { _fun00006_ip = 49; continue _fun00005 }
+ 46:
                                 return zulu;
- 51:
+ 49:
                                 return mike;
- 54:
+ 52:
                                 return entity;
                             }
                         };
@@ -345,9 +345,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     zulu['onConfirm'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 464:
+ 470:
                     return mike;
- 467:
+ 473:
                     return entity;
                 }
             };

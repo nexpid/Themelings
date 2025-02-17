@@ -355,8 +355,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = update[kilo];
             result = control.bind(tango)(foxtrot);
             foxtrot = {};
-            if(offset) { _fun00002_ip = 674; continue _fun00001 }
- 473:
+            if(offset) { _fun00002_ip = 678; continue _fun00001 }
+ 477:
             offset = 17;
             offset = update[offset];
             offset = control.bind(tango)(offset);
@@ -412,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = source;
             romeo['children'] = offset;
             offset = romeo;
-            _fun00002_ip = 870; continue _fun00001;
- 674:
+            _fun00002_ip = 874; continue _fun00001;
+ 678:
             source = 16;
             source = update[source];
             source = control.bind(tango)(source);
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[1] = kilo;
             romeo['children'] = foxtrot;
             offset = romeo;
- 870:
+ 874:
             offset = golf.bind(tango)(yankee, offset);
             options[1] = offset;
             yankee = _closure1_slot11;

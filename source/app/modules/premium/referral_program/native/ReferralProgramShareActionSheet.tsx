@@ -805,7 +805,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config[1] = record;
             report['children'] = config;
             report = source.bind(tango)(result, report);
-            if(romeo) { _fun00002_ip = 1536; continue _fun00001 }
+            if(romeo) { _fun00002_ip = 1540; continue _fun00001 }
  1195:
             mike = mike.length;
             mike = zulu === mike;
@@ -814,7 +814,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.length;
             mike = yankee > zulu;
  1216:
-            if(!mike) { _fun00002_ip = 1845; continue _fun00001 }
+            if(!mike) { _fun00002_ip = 1853; continue _fun00001 }
  1222:
             romeo = _closure1_slot14;
             yankee = _closure1_slot7;
@@ -883,8 +883,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result[2] = source;
             mike['children'] = result;
             report = romeo.bind(tango)(yankee, mike);
-            _fun00002_ip = 1845; continue _fun00001;
- 1536:
+            _fun00002_ip = 1853; continue _fun00001;
+ 1540:
             romeo = _closure1_slot14;
             yankee = _closure1_slot7;
             mike = {};
@@ -952,7 +952,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result[2] = echo;
             mike['children'] = result;
             report = romeo.bind(tango)(yankee, mike);
- 1845:
+ 1853:
             mike = options.trim;
             mike = mike.bind(options)();
             mike = mike.length;
@@ -967,10 +967,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(0);
             mike['actions'] = yankee;
             yankee = undefined;
-            if(romeo) { _fun00002_ip = 1912; continue _fun00001 }
- 1906:
+            if(romeo) { _fun00002_ip = 1920; continue _fun00001 }
+ 1914:
             yankee = update.searchBarRowContainer;
- 1912:
+ 1920:
             mike['style'] = yankee;
             mike = zulu.bind(options)(mike);
             romeo = mike.renderHeader;
@@ -1054,10 +1054,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = result;
             golf = null;
-            if(!output) { _fun00002_ip = 2197; continue _fun00001 }
- 2194:
+            if(!output) { _fun00002_ip = 2205; continue _fun00001 }
+ 2202:
             golf = options;
- 2197:
+ 2205:
             report[1] = golf;
             options = _closure1_slot13;
             golf = _closure1_slot0;

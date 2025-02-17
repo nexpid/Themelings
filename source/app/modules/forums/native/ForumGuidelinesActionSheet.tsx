@@ -590,8 +590,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun00002_ip = 1513; continue _fun00001 }
- 1393:
+            if(!oscar) { _fun00002_ip = 1515; continue _fun00001 }
+ 1395:
             verify = _closure1_slot7;
             options = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -620,7 +620,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['text'] = yankee;
             golf['onPress'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1513:
+ 1515:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

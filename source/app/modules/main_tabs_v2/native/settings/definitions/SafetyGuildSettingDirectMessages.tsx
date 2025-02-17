@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(oscar)();
             zulu = entity.selectedGuildId;
             entity = _closure1_slot6;
-            if(!(zulu !== entity)) { _fun00002_ip = 84; continue _fun00001 }
+            if(!(zulu !== entity)) { _fun00002_ip = 86; continue _fun00001 }
  27:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -79,8 +79,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.4ckVu7;
             entity = zulu.bind(tango)(entity);
-            _fun00002_ip = 139; continue _fun00001;
- 84:
+            _fun00002_ip = 143; continue _fun00001;
+ 86:
             report = _closure1_slot0;
             golf = _closure1_slot2;
             mike = 7;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.wbYDfX;
             entity = zulu.bind(tango)(mike);
- 139:
+ 143:
             return entity;
         }
     };

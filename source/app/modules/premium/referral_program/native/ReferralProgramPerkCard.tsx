@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  55:
             entity = mike.USo4s7;
             entity = zulu.bind(tango)(entity);
-            _fun00002_ip = 79; continue _fun00001;
+            _fun00002_ip = 81; continue _fun00001;
  68:
             mike = mike.M47CJS;
             entity = zulu.bind(tango)(mike);
- 79:
+ 81:
             return entity;
         }
     };
@@ -50,10 +50,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.REFERRAL_PROGRAM;
             oscar = zulu.bind(tango)(entity);
             entity = argBar;
-            if(entity) { _fun00004_ip = 244; continue _fun00003 }
+            if(entity) { _fun00004_ip = 248; continue _fun00003 }
  58:
             entity = 0;
-            if(!(!(offset > entity))) { _fun00004_ip = 152; continue _fun00003 }
+            if(!(!(offset > entity))) { _fun00004_ip = 154; continue _fun00003 }
  64:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -74,8 +74,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['numFriends'] = options;
             entity['helpdeskArticle'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun00004_ip = 242; continue _fun00003;
- 152:
+            _fun00004_ip = 246; continue _fun00003;
+ 154:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
             zulu = 5;
@@ -96,9 +96,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['numFriends'] = verify;
             zulu['helpdeskArticle'] = oscar;
             entity = report.bind(options)(tango, zulu);
- 242:
-            _fun00004_ip = 307; continue _fun00003;
- 244:
+ 246:
+            _fun00004_ip = 313; continue _fun00003;
+ 248:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['helpdeskArticle'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 307:
+ 313:
             return entity;
         }
     };

@@ -213,10 +213,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         backup = romeo.bind(foxtrot)();
         romeo = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
         foxtrot = romeo;
-        if(!backup) { _fun00002_ip = 568; continue _fun00001 }
- 562:
+        if(!backup) { _fun00002_ip = 558; continue _fun00001 }
+ 552:
         foxtrot = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
- 568:
+ 558:
         tango['APP_STORE'] = foxtrot;
         tango['IOS_APP_STORE'] = romeo;
         tango = options.bind(yankee)(tango);

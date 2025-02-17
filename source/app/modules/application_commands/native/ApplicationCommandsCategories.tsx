@@ -160,21 +160,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset[golf];
             golf = options.bind(report)(golf);
             options = golf.t;
-            if(yankee) { _fun00002_ip = 258; continue _fun00001 }
+            if(yankee) { _fun00002_ip = 260; continue _fun00001 }
  232:
             offset = options.9uqD4O;
             golf = {};
             kilo = entity.name;
             golf['applicationName'] = kilo;
             golf = foxtrot.bind(backup)(offset, golf);
-            _fun00002_ip = 282; continue _fun00001;
- 258:
+            _fun00002_ip = 286; continue _fun00001;
+ 260:
             offset = options.yl24GR;
             options = {};
             kilo = entity.name;
             options['applicationName'] = kilo;
             golf = foxtrot.bind(backup)(offset, options);
- 282:
+ 286:
             mike['accessibilityLabel'] = golf;
             options = _closure1_slot9;
             golf = _closure1_slot4;
@@ -182,13 +182,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = romeo.item;
             offset = new Array(2);
             offset[0] = foxtrot;
-            if(yankee) { _fun00002_ip = 320; continue _fun00001 }
- 312:
+            if(yankee) { _fun00002_ip = 324; continue _fun00001 }
+ 316:
             yankee = romeo.fadedItem;
-            _fun00002_ip = 326; continue _fun00001;
- 320:
+            _fun00002_ip = 330; continue _fun00001;
+ 324:
             yankee = romeo.activeItem;
- 326:
+ 330:
             offset[1] = yankee;
             oscar['style'] = offset;
             oscar['children'] = verify;

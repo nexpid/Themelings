@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot18;
             entity = {};
             options = zulu.bind(tango)(mike, entity);
-            _fun00002_ip = 553; continue _fun00001;
+            _fun00002_ip = 555; continue _fun00001;
  354:
             zulu = _closure1_slot13;
             mike = _closure1_slot14;
@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = golf;
             entity['children'] = report;
             options = zulu.bind(tango)(mike, entity);
- 553:
+ 555:
             zulu = _closure1_slot12;
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -611,8 +611,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['transferring'] = output;
             backup = backup != foxtrot;
             foxtrot = undefined;
-            if(!backup) { _fun00002_ip = 616; continue _fun00001 }
- 609:
+            if(!backup) { _fun00002_ip = 618; continue _fun00001 }
+ 611:
             foxtrot = function() { // Original name: handleTransferVoice
                 entity = undefined;
                 tango = _closure2_slot7;
@@ -623,7 +623,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.bind(tango)(entity, mike);
                 return entity;
             };
- 616:
+ 618:
             report['onPress'] = foxtrot;
             report = yankee.bind(tango)(golf, report);
             entity['footer'] = report;
@@ -650,10 +650,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = _closure1_slot6;
             backup = {};
             yankee = offset;
-            if(yankee) { _fun00002_ip = 733; continue _fun00001 }
- 730:
+            if(yankee) { _fun00002_ip = 737; continue _fun00001 }
+ 734:
             yankee = output;
- 733:
+ 737:
             backup['disabled'] = yankee;
             oscar = function() { // Original name: onPress
                 zulu = _closure1_slot0;
@@ -702,15 +702,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             yankee = romeo.container;
             report['contentContainerStyle'] = yankee;
-            if(!offset) { _fun00002_ip = 940; continue _fun00001 }
- 914:
+            if(!offset) { _fun00002_ip = 946; continue _fun00001 }
+ 920:
             yankee = _closure1_slot12;
             offset = _closure1_slot9;
             verify = {};
             romeo = romeo.loading;
             verify['style'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 940:
+ 946:
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

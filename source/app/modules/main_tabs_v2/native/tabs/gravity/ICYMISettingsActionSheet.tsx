@@ -288,8 +288,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['title'] = romeo;
             sequence = null;
             romeo = null;
-            if(!yankee) { _fun00004_ip = 518; continue _fun00003 }
- 400:
+            if(!yankee) { _fun00004_ip = 522; continue _fun00003 }
+ 402:
             kilo = _closure1_slot11;
             config = _closure1_slot0;
             output = _closure1_slot2;
@@ -310,10 +310,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['label'] = output;
             result = control.showNSFW;
             output = sequence != result;
-            if(!output) { _fun00004_ip = 496; continue _fun00003 }
- 493:
+            if(!output) { _fun00004_ip = 500; continue _fun00003 }
+ 497:
             output = result;
- 496:
+ 500:
             yankee['value'] = output;
             output = function() { // Original name: onValueChange
                 zulu = _closure1_slot1;
@@ -341,12 +341,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee['onValueChange'] = output;
             romeo = kilo.bind(tango)(backup, yankee);
- 518:
+ 522:
             yankee = new Array(6);
             yankee[0] = romeo;
             romeo = null;
-            if(!foxtrot) { _fun00004_ip = 649; continue _fun00003 }
- 531:
+            if(!foxtrot) { _fun00004_ip = 655; continue _fun00003 }
+ 535:
             output = _closure1_slot11;
             record = _closure1_slot0;
             result = _closure1_slot2;
@@ -367,10 +367,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['label'] = result;
             vacuum = control.negativeContentOnly;
             result = sequence != vacuum;
-            if(!result) { _fun00004_ip = 627; continue _fun00003 }
- 624:
+            if(!result) { _fun00004_ip = 633; continue _fun00003 }
+ 630:
             result = vacuum;
- 627:
+ 633:
             backup['value'] = result;
             result = function() { // Original name: onValueChange
                 zulu = _closure1_slot1;
@@ -398,11 +398,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup['onValueChange'] = result;
             romeo = output.bind(tango)(kilo, backup);
- 649:
+ 655:
             yankee[1] = romeo;
             romeo = null;
-            if(!foxtrot) { _fun00004_ip = 776; continue _fun00003 }
- 658:
+            if(!foxtrot) { _fun00004_ip = 784; continue _fun00003 }
+ 664:
             output = _closure1_slot11;
             record = _closure1_slot0;
             result = _closure1_slot2;
@@ -423,10 +423,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['label'] = result;
             vacuum = control.filterStaffContent;
             result = sequence != vacuum;
-            if(!result) { _fun00004_ip = 754; continue _fun00003 }
- 751:
+            if(!result) { _fun00004_ip = 762; continue _fun00003 }
+ 759:
             result = vacuum;
- 754:
+ 762:
             backup['value'] = result;
             result = function() { // Original name: onValueChange
                 zulu = _closure1_slot1;
@@ -454,11 +454,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup['onValueChange'] = result;
             romeo = output.bind(tango)(kilo, backup);
- 776:
+ 784:
             yankee[2] = romeo;
             romeo = null;
-            if(!foxtrot) { _fun00004_ip = 932; continue _fun00003 }
- 788:
+            if(!foxtrot) { _fun00004_ip = 940; continue _fun00003 }
+ 796:
             kilo = _closure1_slot13;
             backup = _closure1_slot12;
             foxtrot = {};
@@ -583,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00010_ip = 284; continue _fun00009 }
+                        if(mike) { _fun00010_ip = 280; continue _fun00009 }
  10:
                         zulu = _closure1_slot7;
                         mike = zulu.getDehydratedItems;
@@ -676,7 +676,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  82:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun00010_ip = 281; continue _fun00009 }
+                        if(zulu) { _fun00010_ip = 277; continue _fun00009 }
  91:
                         tango = _closure1_slot1;
                         zulu = _closure1_slot2;
@@ -685,39 +685,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = report.fetchDehydrated;
                         zulu = {'isReloading': true, 'forceRefresh': true};
                         zulu = tango.bind(report)(zulu);
-                        SaveGenerator(address=137);
- 135:
+                        SaveGenerator(address=133);
+ 131:
                         return zulu;
- 137:
+ 133:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun00010_ip = 278; continue _fun00009 }
- 146:
+                        if(tango) { _fun00010_ip = 274; continue _fun00009 }
+ 142:
                         report = _closure1_slot1;
                         tango = _closure1_slot2;
                         tango = tango[golf];
                         report = report.bind(oscar)(tango);
                         tango = report.reloadICYMITab;
                         tango = tango.bind(report)();
-                        SaveGenerator(address=177);
- 175:
+                        SaveGenerator(address=173);
+ 171:
                         return tango;
- 177:
+ 173:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00010_ip = 275; continue _fun00009 }
- 183:
+                        if(report) { _fun00010_ip = 271; continue _fun00009 }
+ 179:
                         options = _closure1_slot1;
                         report = _closure1_slot2;
                         report = report[golf];
                         options = options.bind(oscar)(report);
                         report = options.getGuildChannelScores;
                         report = report.bind(options)();
-                        SaveGenerator(address=214);
- 212:
+                        SaveGenerator(address=210);
+ 208:
                         return report;
- 214:
+ 210:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                        if(options) { _fun00010_ip = 272; continue _fun00009 }
- 220:
+                        if(options) { _fun00010_ip = 268; continue _fun00009 }
+ 216:
                         options = _closure1_slot1;
                         verify = _closure1_slot2;
                         golf = verify[golf];
@@ -730,15 +730,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = options.hideActionSheet;
                         golf = golf.bind(options)();
                         return oscar;
- 272:
+ 268:
                         return report;
- 275:
+ 271:
                         return tango;
- 278:
+ 274:
                         return zulu;
- 281:
+ 277:
                         return mike;
- 284:
+ 280:
                         return entity;
                     }
                 };
@@ -750,11 +750,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[1] = result;
             foxtrot['children'] = output;
             romeo = kilo.bind(tango)(backup, foxtrot);
- 932:
+ 940:
             yankee[3] = romeo;
             romeo = golf;
-            if(!golf) { _fun00004_ip = 1128; continue _fun00003 }
- 945:
+            if(!golf) { _fun00004_ip = 1136; continue _fun00003 }
+ 953:
             kilo = _closure1_slot11;
             result = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -811,8 +811,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {};
             vacuum = _closure1_slot15;
             control = control.doubleTapBehavior;
-            if(!(sequence == control)) { _fun00004_ip = 1102; continue _fun00003 }
- 1070:
+            if(!(sequence == control)) { _fun00004_ip = 1110; continue _fun00003 }
+ 1078:
             config = _closure1_slot0;
             record = _closure1_slot2;
             sequence = 9;
@@ -820,13 +820,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = config.bind(tango)(sequence);
             sequence = sequence.GravityICYMIDoubleTapBehavior;
             control = sequence.DEFAULT;
- 1102:
+ 1110:
             control = vacuum.bind(tango)(control);
             output['text'] = control;
             output = kilo.bind(tango)(result, output);
             foxtrot['trailing'] = output;
             romeo = kilo.bind(tango)(backup, foxtrot);
- 1128:
+ 1136:
             yankee[4] = romeo;
             backup = _closure1_slot11;
             control = _closure1_slot0;
@@ -895,8 +895,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = zulu.bind(tango)(offset, report);
             report = new Array(3);
             report[0] = offset;
-            if(!golf) { _fun00004_ip = 1646; continue _fun00003 }
- 1257:
+            if(!golf) { _fun00004_ip = 1658; continue _fun00003 }
+ 1267:
             yankee = _closure1_slot13;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -999,7 +999,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = foxtrot;
             options['children'] = romeo;
             golf = yankee.bind(tango)(offset, options);
- 1646:
+ 1658:
             report[1] = golf;
             options = _closure1_slot11;
             golf = _closure1_slot5;

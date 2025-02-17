@@ -45,9 +45,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = options.useInappropriateConversationWarningsForChannel;
             oscar = argFoo;
             oscar = golf.bind(options)(oscar);
-            if(!report) { _fun00002_ip = 129; continue _fun00001 }
+            if(!report) { _fun00002_ip = 127; continue _fun00001 }
  100:
-            if(!tango) { _fun00002_ip = 129; continue _fun00001 }
+            if(!tango) { _fun00002_ip = 127; continue _fun00001 }
  103:
             report = oscar.filter;
             tango = function(argFoo) {
@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             tango = report.bind(oscar)(tango);
             report = tango.length;
-            if(!(mike === report)) { _fun00002_ip = 131; continue _fun00001 }
- 129:
+            if(!(mike === report)) { _fun00002_ip = 129; continue _fun00001 }
+ 127:
             return zulu;
- 131:
+ 129:
             zulu = tango.sort;
             entity = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

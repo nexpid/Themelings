@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)();
             report = zulu.length;
             zulu = 0;
-            if(!(zulu !== report)) { _fun00012_ip = 140; continue _fun00011 }
+            if(!(zulu !== report)) { _fun00012_ip = 136; continue _fun00011 }
  59:
             report = null;
             if(!(report == tango)) { _fun00012_ip = 71; continue _fun00011 }
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango.recipients;
  77:
             zulu = _closure1_slot17;
-            if(!(report != zulu)) { _fun00012_ip = 136; continue _fun00011 }
+            if(!(report != zulu)) { _fun00012_ip = 132; continue _fun00011 }
  85:
             options = _closure1_slot17;
             golf = options.setQuery;
@@ -419,18 +419,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = options;
             yankee = verify;
             zulu = backup[golf](foxtrot, romeo, yankee, offset, verify);
- 136:
+ 132:
             zulu = false;
             return zulu;
- 140:
+ 136:
             report = _closure1_slot17;
             zulu = null;
-            if(!(zulu != report)) { _fun00012_ip = 164; continue _fun00011 }
- 150:
+            if(!(zulu != report)) { _fun00012_ip = 160; continue _fun00011 }
+ 146:
             report = _closure1_slot17;
             zulu = report.clearQuery;
             zulu = zulu.bind(report)();
- 164:
+ 160:
             zulu = function(argFoo) { // Original name: getDefaultResults
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:

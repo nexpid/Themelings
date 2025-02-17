@@ -290,10 +290,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = !offset;
             entity['snapToCorners'] = report;
             report = undefined;
-            if(!offset) { _fun00002_ip = 563; continue _fun00001 }
- 559:
+            if(!offset) { _fun00002_ip = 557; continue _fun00001 }
+ 553:
             report = _closure1_slot8;
- 563:
+ 557:
             entity['onPress'] = report;
             entity = mike.bind(zulu)(entity);
             romeo = entity.gesture;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun00004_ip = 47; continue _fun00003 }
+                    if(!(mike != zulu)) { _fun00004_ip = 45; continue _fun00003 }
  18:
                     entity = _closure2_slot3;
                     zulu = entity.current;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                         return entity;
                     };
                     entity = mike.bind(zulu)(entity);
- 47:
+ 45:
                     entity = undefined;
                     return entity;
                 }
@@ -380,10 +380,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             foxtrot = sizing.isIOS;
             sizing = foxtrot.bind(sizing)();
             foxtrot = undefined;
-            if(!sizing) { _fun00002_ip = 792; continue _fun00001 }
- 786:
+            if(!sizing) { _fun00002_ip = 784; continue _fun00001 }
+ 778:
             foxtrot = kilo.elevationShadow;
- 792:
+ 784:
             romeo[1] = foxtrot;
             verify['style'] = romeo;
             foxtrot = _closure1_slot10;

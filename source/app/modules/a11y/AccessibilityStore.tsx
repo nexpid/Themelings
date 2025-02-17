@@ -300,26 +300,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  39:
                 report = zulu.isFontScaledUp;
                 mike = global;
-                if(report) { _fun00008_ip = 94; continue _fun00007 }
- 52:
+                if(report) { _fun00008_ip = 90; continue _fun00007 }
+ 50:
                 zulu = zulu.isFontScaledDown;
                 report = mike.HermesInternal;
                 report = report.concat;
-                if(zulu) { _fun00008_ip = 81; continue _fun00007 }
- 74:
+                if(zulu) { _fun00008_ip = 77; continue _fun00007 }
+ 70:
                 entity = report.bind(entity)(tango);
-                _fun00008_ip = 92; continue _fun00007;
- 81:
+                _fun00008_ip = 88; continue _fun00007;
+ 77:
                 zulu = 'a11y-font-scaled-down ';
                 entity = report.bind(zulu)(tango);
- 92:
-                _fun00008_ip = 116; continue _fun00007;
- 94:
+ 88:
+                _fun00008_ip = 112; continue _fun00007;
+ 90:
                 mike = mike.HermesInternal;
                 zulu = mike.concat;
                 mike = 'a11y-font-scaled-up ';
                 entity = zulu.bind(mike)(tango);
- 116:
+ 112:
                 return entity;
             }
         };
@@ -912,11 +912,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  3: // try_start_0
             mike = entity;
             mike = delete mike.disableVoiceBackgrounds;
- 13: // try_end0
-            _fun00024_ip = 17; continue _fun00023;
- 15: // catch_target0
+ 11: // try_end0
+            _fun00024_ip = 15; continue _fun00023;
+ 13: // catch_target0
             CatchBlockStart(arg_register=1);
- 17:
+ 15:
             return entity;
         }
     };

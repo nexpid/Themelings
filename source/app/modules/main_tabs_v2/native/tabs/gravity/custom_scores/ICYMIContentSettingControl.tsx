@@ -537,8 +537,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(tango)(verify, options);
             report[1] = options;
             options = null;
-            if(echo) { _fun00008_ip = 472; continue _fun00007 }
- 416:
+            if(echo) { _fun00008_ip = 476; continue _fun00007 }
+ 420:
             romeo = _closure1_slot8;
             yankee = _closure1_slot5;
             verify = {};
@@ -552,16 +552,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(tango)(kilo, backup);
             verify['children'] = backup;
             options = romeo.bind(tango)(yankee, verify);
- 472:
+ 476:
             report[2] = options;
             backup = _closure1_slot8;
             yankee = _closure1_slot5;
             options = {};
             verify = echo;
-            if(!verify) { _fun00008_ip = 498; continue _fun00007 }
- 492:
+            if(!verify) { _fun00008_ip = 502; continue _fun00007 }
+ 496:
             verify = offset.muted;
- 498:
+ 502:
             options['style'] = verify;
             output = _closure1_slot8;
             romeo = _closure1_slot0;
@@ -851,8 +851,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(tango)(verify, options);
             report[1] = options;
             options = null;
-            if(source) { _fun00014_ip = 585; continue _fun00013 }
- 525:
+            if(source) { _fun00014_ip = 587; continue _fun00013 }
+ 527:
             romeo = _closure1_slot8;
             yankee = _closure1_slot5;
             verify = {};
@@ -867,16 +867,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(tango)(kilo, backup);
             verify['children'] = backup;
             options = romeo.bind(tango)(yankee, verify);
- 585:
+ 587:
             report[2] = options;
             backup = _closure1_slot8;
             yankee = _closure1_slot5;
             options = {};
             verify = source;
-            if(!verify) { _fun00014_ip = 611; continue _fun00013 }
- 605:
+            if(!verify) { _fun00014_ip = 613; continue _fun00013 }
+ 607:
             verify = offset.muted;
- 611:
+ 613:
             options['style'] = verify;
             output = _closure1_slot8;
             romeo = _closure1_slot0;

@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report == options;
             zulu = undefined;
-            if(mike) { _fun00002_ip = 54; continue _fun00001 }
+            if(mike) { _fun00002_ip = 52; continue _fun00001 }
  37:
             oscar = options.find;
             mike = function(argFoo) {
@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = oscar.bind(options)(mike);
- 54:
-            if(!(report == zulu)) { _fun00002_ip = 76; continue _fun00001 }
- 58:
+ 52:
+            if(!(report == zulu)) { _fun00002_ip = 74; continue _fun00001 }
+ 56:
             oscar = _closure1_slot0;
             mike = oscar.getApplication;
             zulu = mike.bind(oscar)(golf);
- 76:
+ 74:
             mike = tango.find;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -63,17 +63,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(tango)(entity);
             mike = report == tango;
             entity = null;
-            if(mike) { _fun00002_ip = 125; continue _fun00001 }
- 102:
+            if(mike) { _fun00002_ip = 121; continue _fun00001 }
+ 98:
             mike = report == zulu;
             entity = null;
-            if(mike) { _fun00002_ip = 125; continue _fun00001 }
- 111:
+            if(mike) { _fun00002_ip = 121; continue _fun00001 }
+ 107:
             mike = {};
             mike['activity'] = tango;
             mike['application'] = zulu;
             entity = mike;
- 125:
+ 121:
             return entity;
         }
     };

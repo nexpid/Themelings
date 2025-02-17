@@ -271,8 +271,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = foxtrot.length;
-            if(!(result !== oscar)) { _fun00004_ip = 606; continue _fun00003 }
- 447:
+            if(!(result !== oscar)) { _fun00004_ip = 607; continue _fun00003 }
+ 449:
             options = _closure1_slot10;
             golf = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -295,10 +295,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = source.PX_12;
             output['paddingTop'] = source;
             result = 0;
-            if(!update) { _fun00004_ip = 545; continue _fun00003 }
- 542:
+            if(!update) { _fun00004_ip = 546; continue _fun00003 }
+ 543:
             result = echo;
- 545:
+ 546:
             output['paddingBottom'] = result;
             oscar['contentContainerStyle'] = output;
             backup = function(argFoo) { // Original name: renderItem
@@ -468,8 +468,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'always';
             oscar['keyboardShouldPersistTaps'] = verify;
             oscar = options.bind(tango)(golf, oscar);
-            _fun00004_ip = 797; continue _fun00003;
- 606:
+            _fun00004_ip = 798; continue _fun00003;
+ 607:
             verify = _closure1_slot10;
             options = _closure1_slot1;
             output = _closure1_slot2;
@@ -485,8 +485,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['Illustration'] = foxtrot;
             romeo = romeo.emptyStateText;
             golf['bodyStyle'] = romeo;
-            if(!(offset === kilo)) { _fun00004_ip = 728; continue _fun00003 }
- 674:
+            if(!(offset === kilo)) { _fun00004_ip = 729; continue _fun00003 }
+ 675:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
             romeo = offset[sizing];
@@ -498,8 +498,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.oB9gra;
             offset = romeo.bind(foxtrot)(offset);
-            _fun00004_ip = 787; continue _fun00003;
- 728:
+            _fun00004_ip = 788; continue _fun00003;
+ 729:
             romeo = _closure1_slot0;
             yankee = _closure1_slot2;
             foxtrot = yankee[sizing];
@@ -513,10 +513,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             yankee['query'] = kilo;
             offset = foxtrot.bind(backup)(romeo, yankee);
- 787:
+ 788:
             golf['body'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 797:
+ 798:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

@@ -1406,7 +1406,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             oscar = _closure1_slot14;
             verify = _closure1_slot11;
-            if(oscar) { _fun00006_ip = 1312; continue _fun00005 }
+            if(oscar) { _fun00006_ip = 1308; continue _fun00005 }
  1233:
             options = _closure1_slot7;
             oscar = {'ref': null, 'style': null, 'automaticallyAdjustContentInsets': false, 'showsHorizontalScrollIndicator': false, 'showsVerticalScrollIndicator': false, 'minimumZoomScale': 1, 'maximumZoomScale': null, 'centerContent': true, 'scrollEventThrottle': 16};
@@ -1418,15 +1418,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['maximumZoomScale'] = romeo;
             oscar['onScroll'] = yankee;
             output = 'auto';
-            if(!result) { _fun00006_ip = 1295; continue _fun00005 }
- 1291:
+            if(!result) { _fun00006_ip = 1291; continue _fun00005 }
+ 1287:
             output = 'none';
- 1295:
+ 1291:
             oscar['pointerEvents'] = output;
             oscar['children'] = offset;
             oscar = verify.bind(tango)(options, oscar);
-            _fun00006_ip = 1377; continue _fun00005;
- 1312:
+            _fun00006_ip = 1373; continue _fun00005;
+ 1308:
             options = _closure1_slot1;
             output = _closure1_slot2;
             golf = 14;
@@ -1443,7 +1443,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['onZoomChanged'] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1377:
+ 1373:
             report['children'] = oscar;
             report = zulu.bind(tango)(mike, report);
             entity['children'] = report;

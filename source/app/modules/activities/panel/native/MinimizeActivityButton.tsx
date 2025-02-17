@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             if(!(report !== options)) { _fun00002_ip = 79; continue _fun00001 }
  68:
             entity = '';
-            if(!(entity === options)) { _fun00002_ip = 215; continue _fun00001 }
+            if(!(entity === options)) { _fun00002_ip = 211; continue _fun00001 }
  79:
             zulu = _closure1_slot6;
             romeo = _closure1_slot0;
@@ -100,8 +100,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityLabel'] = tango;
             entity['onPress'] = verify;
             entity = zulu.bind(report)(mike, entity);
-            _fun00002_ip = 391; continue _fun00001;
- 215:
+            _fun00002_ip = 387; continue _fun00001;
+ 211:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
             mike = {};
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 391:
+ 387:
             return entity;
         }
     };

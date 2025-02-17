@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     var _closure3_slot0 = zulu;
                     tango = _closure2_slot0;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun00004_ip = 85; continue _fun00003 }
+                    if(!(zulu != tango)) { _fun00004_ip = 83; continue _fun00003 }
  28:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         }
                     };
                     entity = mike.bind(zulu)(entity);
- 85:
+ 83:
                     entity = undefined;
                     return entity;
                 }

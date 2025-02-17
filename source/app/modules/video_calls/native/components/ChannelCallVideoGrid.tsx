@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = true;
             entity['removeClippedSubviews'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun00002_ip = 638; continue _fun00001;
+            _fun00002_ip = 634; continue _fun00001;
  504:
             tango = _closure1_slot13;
             zulu = _closure1_slot1;
@@ -508,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['initialNumToRender'] = golf;
             mike['windowSize'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 638:
+ 634:
             return entity;
         }
     };

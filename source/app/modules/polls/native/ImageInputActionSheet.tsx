@@ -229,15 +229,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result[echo];
             result = update.bind(tango)(result);
             update = result.t;
-            if(foxtrot) { _fun00002_ip = 598; continue _fun00001 }
+            if(foxtrot) { _fun00002_ip = 600; continue _fun00001 }
  585:
             result = update.dzcU1d;
             result = source.bind(control)(result);
-            _fun00002_ip = 609; continue _fun00001;
- 598:
+            _fun00002_ip = 613; continue _fun00001;
+ 600:
             update = update.CZeRhY;
             result = source.bind(control)(update);
- 609:
+ 613:
             verify['label'] = result;
             result = function() { // Original name: onPress
                 zulu = _closure2_slot6;
@@ -253,8 +253,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = sizing;
             sizing = offset != kilo;
             kilo = null;
-            if(!sizing) { _fun00002_ip = 741; continue _fun00001 }
- 647:
+            if(!sizing) { _fun00002_ip = 747; continue _fun00001 }
+ 651:
             result = _closure1_slot6;
             vacuum = _closure1_slot0;
             update = _closure1_slot2;
@@ -298,11 +298,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             sizing['onPress'] = update;
             kilo = result.bind(tango)(output, sizing);
- 741:
+ 747:
             verify[1] = kilo;
             offset = null;
-            if(!foxtrot) { _fun00002_ip = 844; continue _fun00001 }
- 750:
+            if(!foxtrot) { _fun00002_ip = 852; continue _fun00001 }
+ 756:
             foxtrot = _closure1_slot6;
             result = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee['onPress'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 844:
+ 852:
             verify[2] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

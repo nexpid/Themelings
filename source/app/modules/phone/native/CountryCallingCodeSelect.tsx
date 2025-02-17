@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'always';
             oscar['keyboardShouldPersistTaps'] = verify;
             oscar = options.bind(tango)(golf, oscar);
-            _fun00008_ip = 497; continue _fun00007;
+            _fun00008_ip = 499; continue _fun00007;
  394:
             verify = _closure1_slot7;
             romeo = _closure1_slot1;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(romeo)(offset);
             golf['text'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 497:
+ 499:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

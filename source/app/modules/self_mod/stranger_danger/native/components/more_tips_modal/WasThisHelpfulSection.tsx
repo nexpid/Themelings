@@ -299,11 +299,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     golf = report == golf;
                     report = undefined;
-                    if(golf) { _fun00008_ip = 312; continue _fun00007 }
- 303:
+                    if(golf) { _fun00008_ip = 314; continue _fun00007 }
+ 305:
                     oscar = _closure2_slot4;
                     report = oscar.type;
- 312:
+ 314:
                     mike['warningType'] = report;
                     report = argBar;
                     mike['cta'] = report;
@@ -346,13 +346,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = kilo.buttonsBackground;
             offset = new Array(2);
             offset[0] = sizing;
-            if(echo) { _fun00002_ip = 375; continue _fun00001 }
- 367:
+            if(echo) { _fun00002_ip = 377; continue _fun00001 }
+ 369:
             sizing = kilo.buttonsBackgroundInactive;
-            _fun00002_ip = 381; continue _fun00001;
- 375:
+            _fun00002_ip = 383; continue _fun00001;
+ 377:
             sizing = kilo.buttonsBackgroundActive;
- 381:
+ 383:
             offset[1] = sizing;
             golf['style'] = offset;
             golf['disabled'] = echo;
@@ -399,15 +399,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = control[update];
             update = source.bind(tango)(update);
             offset['source'] = update;
-            if(echo) { _fun00002_ip = 539; continue _fun00001 }
- 526:
+            if(echo) { _fun00002_ip = 543; continue _fun00001 }
+ 530:
             echo = kilo.buttonIconInactive;
             echo = echo.color;
-            _fun00002_ip = 550; continue _fun00001;
- 539:
+            _fun00002_ip = 554; continue _fun00001;
+ 543:
             update = kilo.buttonIconActive;
             echo = update.color;
- 550:
+ 554:
             offset['color'] = echo;
             offset = result.bind(tango)(output, offset);
             golf['children'] = offset;
@@ -420,13 +420,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = kilo.buttonsBackground;
             output = new Array(2);
             output[0] = result;
-            if(backup) { _fun00002_ip = 613; continue _fun00001 }
- 605:
+            if(backup) { _fun00002_ip = 617; continue _fun00001 }
+ 609:
             result = kilo.buttonsBackgroundInactive;
-            _fun00002_ip = 619; continue _fun00001;
- 613:
+            _fun00002_ip = 623; continue _fun00001;
+ 617:
             result = kilo.buttonsBackgroundActive;
- 619:
+ 623:
             output[1] = result;
             options['style'] = output;
             options['disabled'] = backup;
@@ -472,15 +472,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result[sizing];
             sizing = output.bind(tango)(sizing);
             yankee['source'] = sizing;
-            if(backup) { _fun00002_ip = 774; continue _fun00001 }
- 761:
+            if(backup) { _fun00002_ip = 780; continue _fun00001 }
+ 767:
             backup = kilo.buttonIconInactive;
             backup = backup.color;
-            _fun00002_ip = 785; continue _fun00001;
- 774:
+            _fun00002_ip = 791; continue _fun00001;
+ 780:
             kilo = kilo.buttonIconActive;
             backup = kilo.color;
- 785:
+ 791:
             yankee['color'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             options['children'] = yankee;

@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu * golf;
             echo = report.bind(oscar)(zulu);
             foxtrot = mike;
-            if(foxtrot) { _fun00002_ip = 667; continue _fun00001 }
- 664:
+            if(foxtrot) { _fun00002_ip = 673; continue _fun00001 }
+ 670:
             foxtrot = entity;
- 667:
+ 673:
             zulu = _closure1_slot14;
             mike = _closure1_slot5;
             entity = {};

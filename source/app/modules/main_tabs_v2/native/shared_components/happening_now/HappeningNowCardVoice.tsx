@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = argBar;
             zulu = mike.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun00004_ip = 372; continue _fun00003 }
+            if(!(entity !== zulu)) { _fun00004_ip = 376; continue _fun00003 }
  20:
             options = 1;
-            if(!(options !== zulu)) { _fun00004_ip = 326; continue _fun00003 }
+            if(!(options !== zulu)) { _fun00004_ip = 330; continue _fun00003 }
  30:
             offset = 2;
-            if(!(offset !== zulu)) { _fun00004_ip = 190; continue _fun00003 }
+            if(!(offset !== zulu)) { _fun00004_ip = 192; continue _fun00003 }
  40:
             tango = _closure1_slot0;
             backup = _closure1_slot2;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['extras'] = verify;
             zulu = oscar.bind(golf)(tango, zulu);
             return zulu;
- 190:
+ 192:
             tango = _closure1_slot0;
             foxtrot = _closure1_slot2;
             zulu = 22;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['user2'] = options;
             zulu = oscar.bind(golf)(tango, zulu);
             return zulu;
- 326:
+ 330:
             oscar = _closure1_slot1;
             tango = _closure1_slot2;
             zulu = 21;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             entity = zulu.bind(tango)(report, entity, mike);
             return entity;
- 372:
+ 376:
             entity = '';
             return entity;
         }

@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00006_ip = 290; continue _fun00005 }
+                        if(mike) { _fun00006_ip = 292; continue _fun00005 }
  10:
                         mike = undefined;
                         yankee = undefined;
@@ -292,30 +292,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = yankee;
                         romeo = romeo == oscar;
                         oscar = undefined;
-                        if(romeo) { _fun00006_ip = 174; continue _fun00005 }
- 168:
+                        if(romeo) { _fun00006_ip = 176; continue _fun00005 }
+ 170:
                         oscar = yankee.parent_id;
- 174:
+ 176:
                         kilo = report;
                         echo = verify;
                         result = golf;
                         output = offset;
                         sizing = oscar;
                         report = echo[options](result, output, sizing, kilo, backup);
-                        SaveGenerator(address=197);
- 195:
-                        return report;
+                        SaveGenerator(address=199);
  197:
+                        return report;
+ 199:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                        if(oscar) { _fun00006_ip = 213; continue _fun00005 }
- 203:
+                        if(oscar) { _fun00006_ip = 215; continue _fun00005 }
+ 205:
                         oscar = _closure2_slot4;
                         oscar = oscar.bind(mike)();
- 211: // try_end0
-                        _fun00006_ip = 276; continue _fun00005;
- 213:
+ 213: // try_end0
+                        _fun00006_ip = 278; continue _fun00005;
+ 215:
                         return report;
- 216: // catch_target0
+ 218: // catch_target0
                         CatchBlockStart(arg_register=6);
                         report = _closure2_slot7;
                         oscar = _closure1_slot0;
@@ -331,12 +331,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = new echo[tango](result, output);
                         tango = tango instanceof Object ? tango : oscar;
                         tango = report.bind(mike)(tango);
- 276:
+ 278:
                         tango = _closure2_slot6;
                         zulu = false;
                         zulu = tango.bind(mike)(zulu);
                         return mike;
- 290:
+ 292:
                         return entity;
                     }
                 };
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = zulu.bind(tango)(mike, entity);
             mike = backup == config;
             entity = null;
-            if(mike) { _fun00002_ip = 1272; continue _fun00001 }
+            if(mike) { _fun00002_ip = 1280; continue _fun00001 }
  355:
             tango = _closure1_slot9;
             zulu = _closure1_slot0;
@@ -480,12 +480,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['value'] = control;
             sequence = backup == sizing;
             control = undefined;
-            if(sequence) { _fun00002_ip = 972; continue _fun00001 }
- 957:
+            if(sequence) { _fun00002_ip = 978; continue _fun00001 }
+ 963:
             config = sizing.getFirstFieldErrorMessage;
             sequence = 'name';
             control = config.bind(sizing)(sequence);
- 972:
+ 978:
             offset['error'] = control;
             offset['onChangeText'] = source;
             offset['onSubmitEditing'] = result;
@@ -529,13 +529,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[5] = offset;
             romeo = backup != sizing;
             offset = null;
-            if(!romeo) { _fun00002_ip = 1248; continue _fun00001 }
- 1169:
+            if(!romeo) { _fun00002_ip = 1256; continue _fun00001 }
+ 1177:
             romeo = sizing.hasFieldErrors;
             romeo = romeo.bind(sizing)();
             offset = null;
-            if(!romeo) { _fun00002_ip = 1248; continue _fun00001 }
- 1184:
+            if(!romeo) { _fun00002_ip = 1256; continue _fun00001 }
+ 1192:
             foxtrot = _closure1_slot9;
             romeo = _closure1_slot1;
             output = _closure1_slot2;
@@ -547,20 +547,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['style'] = kilo;
             kilo = backup == sizing;
             backup = undefined;
-            if(kilo) { _fun00002_ip = 1238; continue _fun00001 }
- 1228:
+            if(kilo) { _fun00002_ip = 1246; continue _fun00001 }
+ 1236:
             kilo = sizing.getAnyErrorMessage;
             backup = kilo.bind(sizing)();
- 1238:
+ 1246:
             yankee['children'] = backup;
             offset = foxtrot.bind(report)(romeo, yankee);
- 1248:
+ 1256:
             verify[6] = offset;
             oscar['children'] = verify;
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1272:
+ 1280:
             return entity;
         }
     };

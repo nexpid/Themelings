@@ -286,10 +286,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     entity = _closure2_slot7;
                     golf = null;
-                    if(!(golf != entity)) { _fun00008_ip = 857; continue _fun00007 }
+                    if(!(golf != entity)) { _fun00008_ip = 859; continue _fun00007 }
  18:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun00008_ip = 857; continue _fun00007 }
+                    if(!entity) { _fun00008_ip = 859; continue _fun00007 }
  28:
                     entity = _closure2_slot5;
                     if(entity) { _fun00008_ip = 421; continue _fun00007 }
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['handlePress'] = report;
                     entity = tango;
  416:
-                    _fun00008_ip = 625; continue _fun00007;
+                    _fun00008_ip = 627; continue _fun00007;
  421:
                     tango = {};
                     verify = _closure1_slot1;
@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot2;
                     golf = golf != report;
                     report = undefined;
-                    if(!golf) { _fun00008_ip = 608; continue _fun00007 }
+                    if(!golf) { _fun00008_ip = 610; continue _fun00007 }
  544:
                     golf = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -526,12 +526,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = _closure2_slot2;
                     oscar['recipient'] = offset;
                     report = options.bind(verify)(golf, oscar);
- 608:
+ 610:
                     tango['sublabel'] = report;
                     report = _closure2_slot9;
                     tango['handlePress'] = report;
                     entity = tango;
- 625:
+ 627:
                     offset = entity.label;
                     kilo = entity.iconSource;
                     backup = entity.IconComponent;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu + mike;
                     entity['listActionHeight'] = mike;
                     return entity;
- 857:
+ 859:
                     entity = _closure1_slot12;
                     return entity;
                 }

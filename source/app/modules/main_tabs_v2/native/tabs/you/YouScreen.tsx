@@ -1297,7 +1297,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = sequence.bind(tango)(vacuum, result);
             result = new Array(3);
             result[0] = vacuum;
-            if(!update) { _fun00002_ip = 3952; continue _fun00001 }
+            if(!update) { _fun00002_ip = 3948; continue _fun00001 }
  3779:
             sequence = _closure1_slot24;
             context = _closure1_slot1;
@@ -1336,7 +1336,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config[1] = record;
             source['children'] = config;
             update = sequence.bind(tango)(vacuum, source);
- 3952:
+ 3948:
             result[1] = update;
             source = _closure1_slot23;
             update = _closure1_slot1;

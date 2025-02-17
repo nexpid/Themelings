@@ -61,9 +61,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(backup)(oscar);
             oscar = golf.isPublicSystemMessage;
             oscar = oscar.bind(golf)(entity);
-            if(oscar) { _fun00002_ip = 783; continue _fun00001 }
+            if(oscar) { _fun00002_ip = 787; continue _fun00001 }
  117:
-            if(report) { _fun00002_ip = 783; continue _fun00001 }
+            if(report) { _fun00002_ip = 787; continue _fun00001 }
  123:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -71,18 +71,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf[report];
             report = oscar.bind(backup)(report);
             report = report.bind(backup)(entity);
-            if(report) { _fun00002_ip = 707; continue _fun00001 }
+            if(report) { _fun00002_ip = 711; continue _fun00001 }
  154:
             oscar = entity.author;
             report = oscar.isClyde;
             report = report.bind(oscar)();
-            if(report) { _fun00002_ip = 629; continue _fun00001 }
+            if(report) { _fun00002_ip = 633; continue _fun00001 }
  176:
             report = entity.author;
             report = report.bot;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
-            if(report) { _fun00002_ip = 504; continue _fun00001 }
+            if(report) { _fun00002_ip = 508; continue _fun00001 }
  202:
             report = 7;
             report = output[report];
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(entity);
             romeo = _closure1_slot0;
             kilo = _closure1_slot2;
-            if(report) { _fun00002_ip = 376; continue _fun00001 }
+            if(report) { _fun00002_ip = 378; continue _fun00001 }
  239:
             report = 9;
             report = kilo[report];
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = undefined;
             tango = undefined;
             options = zulu;
-            if(!yankee) { _fun00002_ip = 856; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 860; continue _fun00001 }
  287:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -130,8 +130,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             tango = undefined;
             options = zulu;
-            _fun00002_ip = 856; continue _fun00001;
- 376:
+            _fun00002_ip = 860; continue _fun00001;
+ 378:
             yankee = 8;
             yankee = kilo[yankee];
             romeo = romeo.bind(backup)(yankee);
@@ -143,8 +143,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = undefined;
             tango = undefined;
             options = zulu;
-            if(!yankee) { _fun00002_ip = 856; continue _fun00001 }
- 417:
+            if(!yankee) { _fun00002_ip = 860; continue _fun00001 }
+ 419:
             result = _closure1_slot0;
             echo = _closure1_slot2;
             yankee = 4;
@@ -163,8 +163,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike.remixTagBackgroundColor;
             tango = undefined;
             options = zulu;
-            _fun00002_ip = 856; continue _fun00001;
- 504:
+            _fun00002_ip = 860; continue _fun00001;
+ 508:
             yankee = 4;
             romeo = output[yankee];
             romeo = sizing.bind(backup)(romeo);
@@ -181,8 +181,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = undefined;
             tango = undefined;
             options = zulu;
-            if(!options) { _fun00002_ip = 856; continue _fun00001 }
- 571:
+            if(!options) { _fun00002_ip = 860; continue _fun00001 }
+ 575:
             sizing = _closure1_slot3;
             kilo = sizing.resolveAssetSource;
             output = _closure1_slot1;
@@ -197,8 +197,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             report = undefined;
             options = zulu;
-            _fun00002_ip = 856; continue _fun00001;
- 629:
+            _fun00002_ip = 860; continue _fun00001;
+ 633:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 4;
@@ -217,8 +217,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = undefined;
             oscar = undefined;
             tango = undefined;
-            _fun00002_ip = 856; continue _fun00001;
- 707:
+            _fun00002_ip = 860; continue _fun00001;
+ 711:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 4;
@@ -237,8 +237,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             tango = undefined;
             options = zulu;
-            _fun00002_ip = 856; continue _fun00001;
- 783:
+            _fun00002_ip = 860; continue _fun00001;
+ 787:
             kilo = _closure1_slot0;
             sizing = _closure1_slot2;
             zulu = 4;
@@ -257,29 +257,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = undefined;
             oscar = undefined;
             tango = undefined;
- 856:
+ 860:
             zulu = null;
             yankee = zulu == foxtrot;
             romeo = undefined;
-            if(yankee) { _fun00002_ip = 873; continue _fun00001 }
- 867:
+            if(yankee) { _fun00002_ip = 877; continue _fun00001 }
+ 871:
             romeo = foxtrot.ownerId;
- 873:
+ 877:
             yankee = entity.author;
             yankee = yankee.id;
             yankee = romeo === yankee;
-            if(!yankee) { _fun00002_ip = 895; continue _fun00001 }
- 891:
-            yankee = zulu != foxtrot;
+            if(!yankee) { _fun00002_ip = 899; continue _fun00001 }
  895:
-            if(!yankee) { _fun00002_ip = 908; continue _fun00001 }
- 898:
+            yankee = zulu != foxtrot;
+ 899:
+            if(!yankee) { _fun00002_ip = 912; continue _fun00001 }
+ 902:
             romeo = foxtrot.isForumPost;
             yankee = romeo.bind(foxtrot)();
- 908:
+ 912:
             zulu = null;
-            if(!yankee) { _fun00002_ip = 968; continue _fun00001 }
- 913:
+            if(!yankee) { _fun00002_ip = 972; continue _fun00001 }
+ 917:
             foxtrot = _closure1_slot0;
             kilo = _closure1_slot2;
             offset = 4;
@@ -292,14 +292,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = offset.t;
             offset = offset.fyE8sL;
             zulu = yankee.bind(romeo)(offset);
- 968:
+ 972:
             offset = entity.author;
             entity = offset.isClyde;
             entity = entity.bind(offset)();
-            if(!entity) { _fun00002_ip = 993; continue _fun00001 }
- 987:
+            if(!entity) { _fun00002_ip = 997; continue _fun00001 }
+ 991:
             oscar = mike.aiBotTagColor;
- 993:
+ 997:
             entity = {};
             entity['tagText'] = verify;
             entity['tagVerified'] = options;

@@ -52,85 +52,85 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             tango = report == zulu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 81; continue _fun00001 }
- 75:
+            if(tango) { _fun00002_ip = 79; continue _fun00001 }
+ 73:
             entity = zulu.bio;
- 81:
+ 79:
             golf = '';
             entity = golf === entity;
-            if(!entity) { _fun00002_ip = 111; continue _fun00001 }
- 92:
+            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
+ 90:
             options = report == zulu;
             tango = undefined;
-            if(options) { _fun00002_ip = 107; continue _fun00001 }
- 101:
+            if(options) { _fun00002_ip = 105; continue _fun00001 }
+ 99:
             tango = zulu.pronouns;
- 107:
+ 105:
             entity = golf === tango;
- 111:
-            if(!entity) { _fun00002_ip = 133; continue _fun00001 }
- 114:
+ 109:
+            if(!entity) { _fun00002_ip = 131; continue _fun00001 }
+ 112:
             golf = report == zulu;
             tango = undefined;
-            if(golf) { _fun00002_ip = 129; continue _fun00001 }
- 123:
+            if(golf) { _fun00002_ip = 127; continue _fun00001 }
+ 121:
             tango = zulu.banner;
- 129:
+ 127:
             entity = oscar === tango;
- 133:
-            if(!entity) { _fun00002_ip = 155; continue _fun00001 }
- 136:
+ 131:
+            if(!entity) { _fun00002_ip = 153; continue _fun00001 }
+ 134:
             golf = report == zulu;
             tango = undefined;
-            if(golf) { _fun00002_ip = 151; continue _fun00001 }
- 145:
+            if(golf) { _fun00002_ip = 149; continue _fun00001 }
+ 143:
             tango = zulu.accentColor;
- 151:
+ 149:
             entity = oscar === tango;
- 155:
-            if(!entity) { _fun00002_ip = 177; continue _fun00001 }
- 158:
+ 153:
+            if(!entity) { _fun00002_ip = 175; continue _fun00001 }
+ 156:
             golf = report == zulu;
             tango = undefined;
-            if(golf) { _fun00002_ip = 173; continue _fun00001 }
- 167:
+            if(golf) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
             tango = zulu.banner;
- 173:
+ 171:
             entity = oscar === tango;
- 177:
-            if(!entity) { _fun00002_ip = 195; continue _fun00001 }
- 180:
+ 175:
+            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
+ 178:
             tango = mike.flags;
             mike = mike.publicFlags;
             entity = tango === mike;
- 195:
-            if(!entity) { _fun00002_ip = 258; continue _fun00001 }
- 198:
+ 193:
+            if(!entity) { _fun00002_ip = 256; continue _fun00001 }
+ 196:
             tango = report == zulu;
             mike = undefined;
-            if(tango) { _fun00002_ip = 213; continue _fun00001 }
- 207:
+            if(tango) { _fun00002_ip = 211; continue _fun00001 }
+ 205:
             mike = zulu.badges;
- 213:
+ 211:
             mike = report == mike;
-            if(mike) { _fun00002_ip = 255; continue _fun00001 }
- 220:
+            if(mike) { _fun00002_ip = 253; continue _fun00001 }
+ 218:
             golf = report == zulu;
             tango = undefined;
-            if(golf) { _fun00002_ip = 249; continue _fun00001 }
- 229:
+            if(golf) { _fun00002_ip = 247; continue _fun00001 }
+ 227:
             zulu = zulu.badges;
             report = report == zulu;
             tango = undefined;
-            if(report) { _fun00002_ip = 249; continue _fun00001 }
- 244:
+            if(report) { _fun00002_ip = 247; continue _fun00001 }
+ 242:
             tango = zulu.length;
- 249:
+ 247:
             zulu = 0;
             mike = zulu === tango;
- 255:
+ 253:
             entity = mike;
- 258:
+ 256:
             return entity;
         }
     };

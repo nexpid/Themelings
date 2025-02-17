@@ -161,10 +161,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             sizing = entity == foxtrot;
             zulu = undefined;
-            if(sizing) { _fun00002_ip = 327; continue _fun00001 }
- 322:
+            if(sizing) { _fun00002_ip = 323; continue _fun00001 }
+ 318:
             zulu = foxtrot.name;
- 327:
+ 323:
             tango[2] = zulu;
             zulu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -270,8 +270,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(oscar)(zulu, mike);
             mike = entity == foxtrot;
             entity = null;
-            if(mike) { _fun00002_ip = 731; continue _fun00001 }
- 416:
+            if(mike) { _fun00002_ip = 717; continue _fun00001 }
+ 406:
             tango = _closure1_slot10;
             zulu = _closure1_slot11;
             mike = {};
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 731:
+ 717:
             return entity;
         }
     };

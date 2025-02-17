@@ -300,15 +300,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = offset[oscar];
                         oscar = verify.bind(zulu)(oscar);
                         oscar = oscar.t;
-                        if(report) { _fun00006_ip = 111; continue _fun00005 }
+                        if(report) { _fun00006_ip = 113; continue _fun00005 }
  98:
                         report = oscar.zeVg5e;
                         report = golf.bind(options)(report);
-                        _fun00006_ip = 122; continue _fun00005;
- 111:
+                        _fun00006_ip = 126; continue _fun00005;
+ 113:
                         oscar = oscar./jubeH;
                         report = golf.bind(options)(oscar);
- 122:
+ 126:
                         entity['children'] = report;
                         entity = tango.bind(zulu)(mike, entity);
                         return entity;
@@ -680,11 +680,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence['placeholder'] = context;
             sequence = record.bind(tango)(config, sequence);
             kilo['label'] = sequence;
-            if(!(oscar == echo)) { _fun00002_ip = 1108; continue _fun00001 }
- 1102:
+            if(!(oscar == echo)) { _fun00002_ip = 1110; continue _fun00001 }
+ 1104:
             echo = null;
-            if(!(control !== source)) { _fun00002_ip = 1204; continue _fun00001 }
- 1108:
+            if(!(control !== source)) { _fun00002_ip = 1206; continue _fun00001 }
+ 1110:
             control = _closure1_slot11;
             source = _closure1_slot0;
             context = _closure1_slot2;
@@ -721,7 +721,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = control.bind(tango)(sequence, vacuum);
             update['children'] = vacuum;
             echo = control.bind(tango)(source, update);
- 1204:
+ 1206:
             kilo['trailing'] = echo;
             kilo = foxtrot.bind(tango)(sizing, kilo);
             report['children'] = kilo;
@@ -768,10 +768,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = echo.bind(update)(sizing);
             backup['label'] = sizing;
             sizing = oscar != result;
-            if(!sizing) { _fun00002_ip = 1421; continue _fun00001 }
- 1418:
+            if(!sizing) { _fun00002_ip = 1425; continue _fun00001 }
+ 1422:
             sizing = result;
- 1421:
+ 1425:
             backup['value'] = sizing;
             sizing = function() { // Original name: onValueChange
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -854,8 +854,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(tango)(yankee, offset);
             report[2] = offset;
             oscar = null;
-            if(verify) { _fun00002_ip = 1597; continue _fun00001 }
- 1465:
+            if(verify) { _fun00002_ip = 1601; continue _fun00001 }
+ 1469:
             verify = _closure1_slot11;
             sizing = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -964,7 +964,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1597:
+ 1601:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

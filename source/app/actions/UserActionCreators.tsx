@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.getUser;
             tango = mike.bind(zulu)(options);
             mike = null;
-            if(!(mike == tango)) { _fun00014_ip = 120; continue _fun00013 }
+            if(!(mike == tango)) { _fun00014_ip = 118; continue _fun00013 }
  33:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -651,13 +651,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
-            _fun00014_ip = 139; continue _fun00013;
- 120:
+            _fun00014_ip = 137; continue _fun00013;
+ 118:
             mike = global;
             zulu = mike.Promise;
             mike = zulu.resolve;
             entity = mike.bind(zulu)(tango);
- 139:
+ 137:
             return entity;
         }
     };

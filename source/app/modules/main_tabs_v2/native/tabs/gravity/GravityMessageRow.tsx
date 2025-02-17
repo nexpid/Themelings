@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = mike.width;
             mike = entity == sierra;
             entity = null;
-            if(mike) { _fun00008_ip = 819; continue _fun00007 }
+            if(mike) { _fun00008_ip = 821; continue _fun00007 }
  244:
             tango = _closure1_slot17;
             zulu = _closure1_slot4;
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 819:
+ 821:
             return entity;
         }
     };

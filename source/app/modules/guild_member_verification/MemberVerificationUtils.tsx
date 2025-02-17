@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun00008_ip = 131; continue _fun00007 }
+            if(!entity) { _fun00008_ip = 127; continue _fun00007 }
  12:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -208,19 +208,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = options;
             mike = oscar.bind(golf)(tango, mike);
             mike = mike.enabled;
-            if(mike) { _fun00008_ip = 107; continue _fun00007 }
- 93:
+            if(mike) { _fun00008_ip = 103; continue _fun00007 }
+ 91:
             mike = report.hasVerificationGate;
             mike = mike.bind(report)();
-            _fun00008_ip = 128; continue _fun00007;
- 107:
+            _fun00008_ip = 124; continue _fun00007;
+ 103:
             tango = report.hasFeature;
             zulu = _closure1_slot4;
             zulu = zulu.MEMBER_VERIFICATION_GATE_ENABLED;
             mike = tango.bind(report)(zulu);
- 128:
+ 124:
             entity = mike;
- 131:
+ 127:
             return entity;
         }
     };

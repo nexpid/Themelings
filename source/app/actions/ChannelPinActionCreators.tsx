@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             mike = mike[verify];
                             mike = oscar.bind(entity)(mike);
                             mike = mike.t;
-                            if(zulu) { _fun00004_ip = 106; continue _fun00003 }
+                            if(zulu) { _fun00004_ip = 108; continue _fun00003 }
  69:
                             oscar = mike.NnO1S0;
                             zulu = {};
@@ -109,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             options = _closure4_slot0;
                             zulu['channelName'] = options;
                             oscar = tango.bind(report)(oscar, zulu);
-                            _fun00004_ip = 129; continue _fun00003;
- 106:
+                            _fun00004_ip = 133; continue _fun00003;
+ 108:
                             zulu = mike.Q89oQU;
                             mike = {};
                             options = _closure1_slot6;
                             mike['maxPins'] = options;
                             oscar = tango.bind(report)(zulu, mike);
- 129:
+ 133:
                             zulu = _closure1_slot1;
                             report = _closure1_slot2;
                             mike = 6;

@@ -844,7 +844,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = 'hitSlop';
             report[source] = vacuum;
             source = undefined;
-            if(!verify) { _fun00012_ip = 776; continue _fun00011 }
+            if(!verify) { _fun00012_ip = 778; continue _fun00011 }
  721:
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -858,7 +858,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.BGMUFB;
             source = vacuum.bind(sequence)(verify);
- 776:
+ 778:
             verify = 'accessibilityHint';
             report[verify] = source;
             verify = 'collapsable';
@@ -893,19 +893,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = update;
             sizing[1] = output;
             output = undefined;
-            if(!echo) { _fun00012_ip = 928; continue _fun00011 }
- 922:
+            if(!echo) { _fun00012_ip = 930; continue _fun00011 }
+ 924:
             output = result.itemShapeSelected;
- 928:
+ 930:
             sizing[2] = output;
             options['style'] = sizing;
             options['animatedProps'] = kilo;
             options['cutouts'] = backup;
             romeo = !romeo;
-            if(!romeo) { _fun00012_ip = 955; continue _fun00011 }
- 952:
+            if(!romeo) { _fun00012_ip = 957; continue _fun00011 }
+ 954:
             romeo = foxtrot;
- 955:
+ 957:
             options['children'] = romeo;
             options = yankee.bind(tango)(offset, options);
             verify[2] = options;

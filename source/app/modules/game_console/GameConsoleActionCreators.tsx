@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 443; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 447; continue _fun00003 }
  10:
                     mike = undefined;
                     zulu = undefined;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(tango) { _fun00004_ip = 299; continue _fun00003 }
  294: // try_end0
-                    _fun00004_ip = 440; continue _fun00003;
+                    _fun00004_ip = 444; continue _fun00003;
  299:
                     return zulu;
  302: // catch_target0
@@ -196,9 +196,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = golf.bind(options)(oscar);
                     zulu['body'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 440:
+ 444:
                     return mike;
- 443:
+ 447:
                     return entity;
                 }
             };

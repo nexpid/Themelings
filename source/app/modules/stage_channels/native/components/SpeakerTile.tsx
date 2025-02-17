@@ -294,12 +294,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = zulu.bind(tango)(entity, mike);
             entity = null;
-            if(!(entity != foxtrot)) { _fun00008_ip = 1065; continue _fun00007 }
+            if(!(entity != foxtrot)) { _fun00008_ip = 1067; continue _fun00007 }
  202:
             zulu = foxtrot.type;
             mike = _closure1_slot7;
             mike = mike.USER;
-            if(!(zulu === mike)) { _fun00008_ip = 1065; continue _fun00007 }
+            if(!(zulu === mike)) { _fun00008_ip = 1067; continue _fun00007 }
  224:
             romeo = echo;
             if(echo) { _fun00008_ip = 233; continue _fun00007 }
@@ -374,13 +374,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['size'] = update;
             options['isStageCall'] = foxtrot;
             foxtrot = romeo;
-            if(!romeo) { _fun00008_ip = 550; continue _fun00007 }
- 531:
+            if(!romeo) { _fun00008_ip = 552; continue _fun00007 }
+ 533:
             update = {};
             source = 0.5;
             update['opacity'] = source;
             foxtrot = update;
- 550:
+ 552:
             options['avatarStyle'] = foxtrot;
             verify = offset.bind(report)(verify, options);
             options = new Array(3);
@@ -418,8 +418,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             offset = kilo.nameplateContainer;
             golf['style'] = offset;
-            if(!romeo) { _fun00008_ip = 962; continue _fun00007 }
- 718:
+            if(!romeo) { _fun00008_ip = 964; continue _fun00007 }
+ 720:
             sizing = _closure1_slot9;
             foxtrot = _closure1_slot5;
             offset = {};
@@ -427,14 +427,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = new Array(2);
             output[0] = update;
             update = null;
-            if(!echo) { _fun00008_ip = 753; continue _fun00007 }
- 747:
+            if(!echo) { _fun00008_ip = 755; continue _fun00007 }
+ 749:
             update = kilo.blocked;
- 753:
+ 755:
             output[1] = update;
             offset['style'] = output;
-            if(!echo) { _fun00008_ip = 864; continue _fun00007 }
- 764:
+            if(!echo) { _fun00008_ip = 866; continue _fun00007 }
+ 766:
             source = _closure1_slot8;
             vacuum = _closure1_slot1;
             sequence = _closure1_slot2;
@@ -458,11 +458,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.RED_400;
             output['color'] = control;
             echo = source.bind(report)(update, output);
- 864:
+ 866:
             output = new Array(2);
             output[0] = echo;
-            if(!result) { _fun00008_ip = 948; continue _fun00007 }
- 875:
+            if(!result) { _fun00008_ip = 950; continue _fun00007 }
+ 877:
             source = _closure1_slot8;
             vacuum = _closure1_slot1;
             sequence = _closure1_slot2;
@@ -480,11 +480,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.EXTRA_SMALL;
             echo['size'] = control;
             result = source.bind(report)(update, echo);
- 948:
+ 950:
             output[1] = result;
             offset['children'] = output;
             romeo = sizing.bind(report)(foxtrot, offset);
- 962:
+ 964:
             offset = new Array(2);
             offset[0] = romeo;
             foxtrot = _closure1_slot8;
@@ -506,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1065:
+ 1067:
             return entity;
         }
     };

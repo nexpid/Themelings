@@ -385,15 +385,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = romeo.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 1574; continue _fun00003 }
- 1561:
+            if(oscar) { _fun00004_ip = 1600; continue _fun00003 }
+ 1587:
             oscar = verify.pBNv6u;
             oscar = offset.bind(yankee)(oscar);
-            _fun00004_ip = 1585; continue _fun00003;
- 1574:
+            _fun00004_ip = 1613; continue _fun00003;
+ 1600:
             verify = verify.9TxXwc;
             oscar = offset.bind(yankee)(verify);
- 1585:
+ 1613:
             mike['title'] = oscar;
             oscar = report.showMembershipManualApprovalPermissions;
             offset = _closure1_slot0;
@@ -401,13 +401,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = offset.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 1628; continue _fun00003 }
- 1620:
+            if(oscar) { _fun00004_ip = 1658; continue _fun00003 }
+ 1648:
             oscar = verify.rwdPaG;
-            _fun00004_ip = 1634; continue _fun00003;
- 1628:
+            _fun00004_ip = 1666; continue _fun00003;
+ 1658:
             oscar = verify.hGBAn5;
- 1634:
+ 1666:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.KICK_MEMBERS;
@@ -478,15 +478,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = romeo.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 1976; continue _fun00003 }
- 1963:
+            if(oscar) { _fun00004_ip = 2012; continue _fun00003 }
+ 1999:
             oscar = verify.T32rkJ;
             oscar = offset.bind(yankee)(oscar);
-            _fun00004_ip = 1987; continue _fun00003;
- 1976:
+            _fun00004_ip = 2023; continue _fun00003;
+ 2012:
             verify = verify.S1VOwc;
             oscar = offset.bind(yankee)(verify);
- 1987:
+ 2023:
             mike['title'] = oscar;
             oscar = report.showForumPermissions;
             offset = _closure1_slot0;
@@ -494,13 +494,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = offset.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 2030; continue _fun00003 }
- 2022:
+            if(oscar) { _fun00004_ip = 2068; continue _fun00003 }
+ 2058:
             oscar = verify.qry4PT;
-            _fun00004_ip = 2036; continue _fun00003;
- 2030:
+            _fun00004_ip = 2076; continue _fun00003;
+ 2068:
             oscar = verify.prvWKi;
- 2036:
+ 2076:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.SEND_MESSAGES;
@@ -958,19 +958,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = null;
             offset = verify == report;
             oscar = undefined;
-            if(offset) { _fun00004_ip = 4188; continue _fun00003 }
- 4182:
+            if(offset) { _fun00004_ip = 4262; continue _fun00003 }
+ 4256:
             oscar = report.SOUNDBOARD_DESCRIPTION;
- 4188:
-            if(!(verify == oscar)) { _fun00004_ip = 4220; continue _fun00003 }
- 4192:
+ 4262:
+            if(!(verify == oscar)) { _fun00004_ip = 4296; continue _fun00003 }
+ 4266:
             yankee = _closure1_slot0;
             offset = _closure1_slot1;
             offset = offset[options];
             offset = yankee.bind(golf)(offset);
             offset = offset.t;
             oscar = offset.+8p+fX;
- 4220:
+ 4296:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.USE_SOUNDBOARD;
@@ -1043,19 +1043,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['title'] = oscar;
             offset = verify == report;
             oscar = undefined;
-            if(offset) { _fun00004_ip = 4562; continue _fun00003 }
- 4556:
+            if(offset) { _fun00004_ip = 4640; continue _fun00003 }
+ 4634:
             oscar = report.PRIORITY_SPEAKER_DESCRIPTION;
- 4562:
-            if(!(verify == oscar)) { _fun00004_ip = 4594; continue _fun00003 }
- 4566:
+ 4640:
+            if(!(verify == oscar)) { _fun00004_ip = 4674; continue _fun00003 }
+ 4644:
             offset = _closure1_slot0;
             verify = _closure1_slot1;
             verify = verify[options];
             verify = offset.bind(golf)(verify);
             verify = verify.t;
             oscar = verify.OJkrrq;
- 4594:
+ 4674:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.PRIORITY_SPEAKER;
@@ -1182,8 +1182,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.UJxMrK;
             verify = 'string';
             oscar = typeof oscar;
-            if(!(verify !== oscar)) { _fun00004_ip = 5242; continue _fun00003 }
- 5185:
+            if(!(verify !== oscar)) { _fun00004_ip = 5330; continue _fun00003 }
+ 5273:
             verify = _closure1_slot0;
             oscar = _closure1_slot1;
             offset = oscar[options];
@@ -1196,15 +1196,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = oscar.UJxMrK;
             oscar = {};
             oscar = offset.bind(yankee)(verify, oscar);
-            _fun00004_ip = 5270; continue _fun00003;
- 5242:
+            _fun00004_ip = 5358; continue _fun00003;
+ 5330:
             offset = _closure1_slot0;
             verify = _closure1_slot1;
             verify = verify[options];
             verify = offset.bind(golf)(verify);
             verify = verify.t;
             oscar = verify.UJxMrK;
- 5270:
+ 5358:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.ADMINISTRATOR;
@@ -1275,15 +1275,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = romeo.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 5612; continue _fun00003 }
- 5599:
+            if(oscar) { _fun00004_ip = 5704; continue _fun00003 }
+ 5691:
             oscar = verify.kEqgr6;
             oscar = offset.bind(yankee)(oscar);
-            _fun00004_ip = 5623; continue _fun00003;
- 5612:
+            _fun00004_ip = 5715; continue _fun00003;
+ 5704:
             verify = verify.QKe7Q0;
             oscar = offset.bind(yankee)(verify);
- 5623:
+ 5715:
             mike['title'] = oscar;
             oscar = report.showForumPermissions;
             offset = _closure1_slot0;
@@ -1291,13 +1291,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = offset.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 5666; continue _fun00003 }
- 5658:
+            if(oscar) { _fun00004_ip = 5760; continue _fun00003 }
+ 5750:
             oscar = verify.AKdc4O;
-            _fun00004_ip = 5672; continue _fun00003;
- 5666:
+            _fun00004_ip = 5768; continue _fun00003;
+ 5760:
             oscar = verify.QAxIIi;
- 5672:
+ 5768:
             mike['description'] = oscar;
             oscar = _closure1_slot2;
             oscar = oscar.MANAGE_THREADS;
@@ -1368,15 +1368,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[options];
             verify = romeo.bind(golf)(verify);
             verify = verify.t;
-            if(oscar) { _fun00004_ip = 6014; continue _fun00003 }
- 6001:
+            if(oscar) { _fun00004_ip = 6114; continue _fun00003 }
+ 6101:
             oscar = verify.fTE74u;
             oscar = offset.bind(yankee)(oscar);
-            _fun00004_ip = 6025; continue _fun00003;
- 6014:
+            _fun00004_ip = 6125; continue _fun00003;
+ 6114:
             verify = verify.5QlVGx;
             oscar = offset.bind(yankee)(verify);
- 6025:
+ 6125:
             mike['title'] = oscar;
             report = report.showForumPermissions;
             verify = _closure1_slot0;
@@ -1384,13 +1384,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar[options];
             oscar = verify.bind(golf)(oscar);
             oscar = oscar.t;
-            if(report) { _fun00004_ip = 6068; continue _fun00003 }
- 6060:
+            if(report) { _fun00004_ip = 6170; continue _fun00003 }
+ 6160:
             report = oscar.6pyXvr;
-            _fun00004_ip = 6074; continue _fun00003;
- 6068:
+            _fun00004_ip = 6178; continue _fun00003;
+ 6170:
             report = oscar.C2ZPEx;
- 6074:
+ 6178:
             mike['description'] = report;
             report = _closure1_slot2;
             report = report.SEND_MESSAGES_IN_THREADS;

@@ -172,10 +172,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = null;
                     romeo = offset == yankee;
                     offset = undefined;
-                    if(romeo) { _fun00004_ip = 120; continue _fun00003 }
- 115:
+                    if(romeo) { _fun00004_ip = 122; continue _fun00003 }
+ 117:
                     offset = yankee.username;
- 120:
+ 122:
                     oscar['username'] = offset;
                     oscar = options.bind(verify)(golf, oscar);
                     zulu['content'] = oscar;

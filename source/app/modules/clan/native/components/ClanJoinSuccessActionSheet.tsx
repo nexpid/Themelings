@@ -341,10 +341,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = {};
             record = yankee == config;
             sequence = undefined;
-            if(record) { _fun00002_ip = 751; continue _fun00001 }
- 746:
+            if(record) { _fun00002_ip = 753; continue _fun00001 }
+ 748:
             sequence = config.name;
- 751:
+ 753:
             update['name'] = sequence;
             update = control.bind(vacuum)(source, update);
             kilo['children'] = update;
@@ -378,17 +378,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = {};
             echo = yankee != romeo;
             result = undefined;
-            if(!echo) { _fun00002_ip = 915; continue _fun00001 }
- 912:
+            if(!echo) { _fun00002_ip = 919; continue _fun00001 }
+ 916:
             result = romeo;
- 915:
+ 919:
             backup['style'] = result;
             result = yankee != romeo;
             yankee = undefined;
-            if(!result) { _fun00002_ip = 931; continue _fun00001 }
- 928:
+            if(!result) { _fun00002_ip = 935; continue _fun00001 }
+ 932:
             yankee = romeo;
- 931:
+ 935:
             backup['textStyle'] = yankee;
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;

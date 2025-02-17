@@ -372,8 +372,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             options = verify == romeo;
             golf = undefined;
-            if(options) { _fun00006_ip = 300; continue _fun00005 }
- 283:
+            if(options) { _fun00006_ip = 294; continue _fun00005 }
+ 279:
             options = romeo.map;
             report = function(argFoo) {
                 report = _closure1_slot10;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             golf = options.bind(romeo)(report);
- 300:
+ 294:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot5;
@@ -396,10 +396,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(tango)(oscar);
             oscar = {};
             verify = verify != offset;
-            if(!verify) { _fun00006_ip = 345; continue _fun00005 }
- 341:
+            if(!verify) { _fun00006_ip = 339; continue _fun00005 }
+ 335:
             verify = yankee !== offset;
- 345:
+ 339:
             oscar['gesturing'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  381:
             mike = echo == update;
             entity = null;
-            if(mike) { _fun00002_ip = 870; continue _fun00001 }
+            if(mike) { _fun00002_ip = 874; continue _fun00001 }
  393:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
@@ -226,28 +226,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = sizing.bind(output)(romeo, oscar);
             yankee['children'] = oscar;
             oscar = yankee;
-            _fun00002_ip = 649; continue _fun00001;
+            _fun00002_ip = 653; continue _fun00001;
  560:
             control = _closure1_slot0;
             romeo = _closure1_slot2;
             romeo = romeo[kilo];
             romeo = control.bind(report)(romeo);
             romeo = romeo.t;
-            if(backup) { _fun00002_ip = 593; continue _fun00001 }
+            if(backup) { _fun00002_ip = 595; continue _fun00001 }
  585:
             backup = romeo.V15uUF;
-            _fun00002_ip = 599; continue _fun00001;
- 593:
+            _fun00002_ip = 603; continue _fun00001;
+ 595:
             backup = romeo.syHjLC;
- 599:
+ 603:
             romeo = {};
             romeo['username'] = source;
             source = echo == update;
             echo = undefined;
-            if(source) { _fun00002_ip = 619; continue _fun00001 }
- 614:
+            if(source) { _fun00002_ip = 623; continue _fun00001 }
+ 618:
             echo = update.name;
- 619:
+ 623:
             romeo['applicationName'] = echo;
             result = function() { // Original name: applicationIcon
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(output)(backup, romeo);
             yankee['children'] = romeo;
             oscar = yankee;
- 649:
+ 653:
             options = verify.bind(report)(options, oscar);
             oscar = new Array(3);
             oscar[0] = options;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 870:
+ 874:
             return entity;
         }
     };

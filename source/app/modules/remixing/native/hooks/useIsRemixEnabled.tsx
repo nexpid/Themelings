@@ -53,14 +53,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(mike);
             mike = argFoo;
             mike = tango.bind(report)(mike);
-            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
- 94:
+            if(!entity) { _fun00002_ip = 95; continue _fun00001 }
+ 92:
             entity = zulu;
- 97:
-            if(!entity) { _fun00002_ip = 103; continue _fun00001 }
- 100:
+ 95:
+            if(!entity) { _fun00002_ip = 101; continue _fun00001 }
+ 98:
             entity = mike;
- 103:
+ 101:
             return entity;
         }
     };
@@ -102,10 +102,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = tango.bind(report)(mike, zulu);
-            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
- 63:
+            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
+ 61:
             entity = mike;
- 66:
+ 64:
             return entity;
         }
     };

@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = backup[golf];
             golf = romeo.bind(report)(golf);
             echo = golf.bind(report)(target);
-            if(!(entity != oscar)) { _fun00002_ip = 1498; continue _fun00001 }
+            if(!(entity != oscar)) { _fun00002_ip = 1500; continue _fun00001 }
  288:
             romeo = function() { // Original name: handlePress
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  782:
             golf = undefined;
             oscar = undefined;
-            _fun00002_ip = 1358; continue _fun00001;
+            _fun00002_ip = 1360; continue _fun00001;
  791:
             return entity;
  793:
@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo;
             golf = undefined;
             oscar = undefined;
-            _fun00002_ip = 1358; continue _fun00001;
+            _fun00002_ip = 1360; continue _fun00001;
  979:
             kilo = _closure1_slot8;
             tango = kilo.getUser;
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = echo.bind(report)(result, tango);
             result = entity != zulu;
             zulu = undefined;
-            if(!result) { _fun00002_ip = 1342; continue _fun00001 }
+            if(!result) { _fun00002_ip = 1344; continue _fun00001 }
  1239:
             echo = {};
             result = 'viewProfile';
@@ -641,17 +641,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = {};
             config = entity == sequence;
             vacuum = undefined;
-            if(config) { _fun00002_ip = 1317; continue _fun00001 }
- 1312:
+            if(config) { _fun00002_ip = 1319; continue _fun00001 }
+ 1314:
             vacuum = sequence.tag;
- 1317:
+ 1319:
             result['username'] = vacuum;
             result = source.bind(control)(update, result);
             echo['label'] = result;
             result = new Array(1);
             result[0] = echo;
             zulu = result;
- 1342:
+ 1344:
             oscar = function(argFoo) { // Original name: G
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -684,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu;
             backup = kilo;
             foxtrot = tango;
- 1358:
+ 1360:
             tango = _closure1_slot12;
             zulu = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -708,22 +708,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['trailing'] = foxtrot;
             mike['onPress'] = romeo;
             options = entity != options;
-            if(options) { _fun00002_ip = 1459; continue _fun00001 }
- 1456:
+            if(options) { _fun00002_ip = 1461; continue _fun00001 }
+ 1458:
             options = yankee;
- 1459:
-            if(options) { _fun00002_ip = 1476; continue _fun00001 }
- 1462:
+ 1461:
+            if(options) { _fun00002_ip = 1478; continue _fun00001 }
+ 1464:
             verify = _closure1_slot11;
             verify = verify.SENT;
             options = offset === verify;
- 1476:
+ 1478:
             mike['disabled'] = options;
             mike['accessibilityActions'] = golf;
             mike['onAccessibilityAction'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1498:
+ 1500:
             return entity;
         }
     };

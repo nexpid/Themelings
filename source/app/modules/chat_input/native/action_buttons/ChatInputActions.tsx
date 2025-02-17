@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = entity.active;
                     entity = _closure1_slot7;
                     entity = entity.HIDE_CHAT_INPUT;
-                    if(!(entity !== mike)) { _fun00008_ip = 570; continue _fun00007 }
+                    if(!(entity !== mike)) { _fun00008_ip = 572; continue _fun00007 }
  39:
                     entity = _closure1_slot7;
                     entity = entity.PHOTOS;
@@ -581,10 +581,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['activeIconStyle'] = offset;
                     offset = _closure2_slot9;
                     offset = !offset;
-                    if(offset) { _fun00008_ip = 507; continue _fun00007 }
- 503:
+                    if(offset) { _fun00008_ip = 509; continue _fun00007 }
+ 505:
                     offset = _closure2_slot3;
- 507:
+ 509:
                     entity['disabled'] = offset;
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['style'] = verify;
                     entity = tango.bind(zulu)(mike, entity, report);
                     return entity;
- 570:
+ 572:
                     tango = _closure1_slot9;
                     mike = _closure1_slot1;
                     offset = _closure1_slot2;

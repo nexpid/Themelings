@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 356; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 358; continue _fun00001 }
  10:
                     verify = argFoo;
                     golf = argBar;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  76:
                     offset = _closure1_slot4;
                     offset = offset.NON_MODERATED_TAG_REQUIRED;
-                    if(!(yankee !== offset)) { _fun00002_ip = 312; continue _fun00001 }
+                    if(!(yankee !== offset)) { _fun00002_ip = 314; continue _fun00001 }
  96:
                     offset = options;
                     offset = offset.body;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  121:
                     tango = _closure1_slot4;
                     tango = tango.INVALID_FORM_BODY;
-                    if(!(offset === tango)) { _fun00002_ip = 353; continue _fun00001 }
+                    if(!(offset === tango)) { _fun00002_ip = 355; continue _fun00001 }
  138:
                     options = options.body;
                     report = options;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.errors;
                     tango = report.emoji;
  168:
-                    if(!tango) { _fun00002_ip = 353; continue _fun00001 }
+                    if(!tango) { _fun00002_ip = 355; continue _fun00001 }
  174:
                     report = _closure1_slot1;
                     foxtrot = _closure1_slot2;
@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = offset.bind(yankee)(verify);
                     tango['body'] = verify;
                     tango = report.bind(options)(tango);
-                    _fun00002_ip = 353; continue _fun00001;
- 312:
+                    _fun00002_ip = 355; continue _fun00001;
+ 314:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 2;
@@ -131,9 +131,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['title'] = golf;
                     zulu['body'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 353:
+ 355:
                     return mike;
- 356:
+ 358:
                     return entity;
                 }
             };

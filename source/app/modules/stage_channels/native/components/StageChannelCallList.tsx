@@ -467,11 +467,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = argFoo;
                 entity = _closure1_slot12;
                 entity = entity.STREAM;
-                if(!(entity !== mike)) { _fun00010_ip = 470; continue _fun00009 }
+                if(!(entity !== mike)) { _fun00010_ip = 474; continue _fun00009 }
  25:
                 entity = _closure1_slot12;
                 entity = entity.AUDIENCE;
-                if(!(entity !== mike)) { _fun00010_ip = 335; continue _fun00009 }
+                if(!(entity !== mike)) { _fun00010_ip = 337; continue _fun00009 }
  42:
                 entity = _closure1_slot12;
                 entity = entity.SPEAKER;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot10;
                 mike = 0;
                 entity = null;
-                if(!(mike !== zulu)) { _fun00010_ip = 333; continue _fun00009 }
+                if(!(mike !== zulu)) { _fun00010_ip = 335; continue _fun00009 }
  116:
                 report = _closure1_slot7;
                 zulu = _closure1_slot1;
@@ -528,8 +528,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = _closure2_slot5;
                 mike['collapsed'] = verify;
                 oscar = undefined;
-                if(!verify) { _fun00010_ip = 323; continue _fun00009 }
- 233:
+                if(!verify) { _fun00010_ip = 325; continue _fun00009 }
+ 235:
                 yankee = _closure1_slot7;
                 offset = _closure1_slot1;
                 backup = _closure1_slot2;
@@ -551,17 +551,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = _closure1_slot9;
                 verify['cutout'] = romeo;
                 oscar = yankee.bind(tango)(offset, verify);
- 323:
+ 325:
                 mike['children'] = oscar;
                 entity = report.bind(tango)(zulu, mike);
- 333:
-                return entity;
  335:
+                return entity;
+ 337:
                 zulu = _closure2_slot11;
                 mike = 0;
                 entity = null;
-                if(!(mike !== zulu)) { _fun00010_ip = 468; continue _fun00009 }
- 350:
+                if(!(mike !== zulu)) { _fun00010_ip = 472; continue _fun00009 }
+ 352:
                 report = _closure1_slot7;
                 zulu = _closure1_slot1;
                 romeo = _closure1_slot2;
@@ -596,9 +596,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure2_slot3;
                 mike['collapsed'] = oscar;
                 entity = report.bind(tango)(zulu, mike);
- 468:
+ 472:
                 return entity;
- 470:
+ 474:
                 entity = null;
                 return entity;
             }

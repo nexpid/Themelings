@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = null;
             mike = sizing == entity;
             echo = undefined;
-            if(mike) { _fun00002_ip = 94; continue _fun00001 }
- 88:
+            if(mike) { _fun00002_ip = 92; continue _fun00001 }
+ 86:
             echo = entity.privacy_level;
- 94:
+ 92:
             entity = _closure1_slot6;
             result = entity.PUBLIC;
             zulu = _closure1_slot7;
@@ -337,8 +337,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = sequence.bind(tango)(vacuum, control);
             backup[2] = control;
             sizing = null;
-            if(!(echo === result)) { _fun00002_ip = 1046; continue _fun00001 }
- 868:
+            if(!(echo === result)) { _fun00002_ip = 1054; continue _fun00001 }
+ 874:
             echo = _closure1_slot7;
             context = _closure1_slot0;
             sequence = _closure1_slot2;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = vacuum.bind(tango)(control, source);
             output['label'] = source;
             sizing = echo.bind(tango)(result, output);
- 1046:
+ 1054:
             backup[3] = sizing;
             yankee['children'] = backup;
             yankee = golf.bind(tango)(foxtrot, yankee);

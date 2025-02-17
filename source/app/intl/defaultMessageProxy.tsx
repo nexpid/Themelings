@@ -1,0 +1,35 @@
+// app/intl/defaultMessageProxy.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    verify = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    options = report.bind(entity)(mike);
+    golf = options.chainMessagesObjects;
+    mike = 1;
+    mike = oscar[mike];
+    tango = verify.bind(entity)(mike);
+    mike = 2;
+    mike = oscar[mike];
+    mike = verify.bind(entity)(mike);
+    mike = golf.bind(options)(tango, mike);
+    tango = 3;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'intl/defaultMessageProxy.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['_defaultMessages'] = mike;
+    return entity;
+})();

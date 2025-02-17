@@ -328,15 +328,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             lima = verify.bind(offset)(zulu, golf);
-            if(!control) { _fun00002_ip = 436; continue _fun00001 }
- 433:
+            if(!control) { _fun00002_ip = 424; continue _fun00001 }
+ 421:
             control = entity;
- 436:
+ 424:
             zulu = 2;
-            if(!control) { _fun00002_ip = 445; continue _fun00001 }
- 442:
+            if(!control) { _fun00002_ip = 433; continue _fun00001 }
+ 430:
             zulu = 3;
- 445:
+ 433:
             golf = _closure1_slot1;
             config = _closure1_slot2;
             entity = 15;
@@ -406,16 +406,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.bind(tango)(kilo);
             kilo = output.isIOS;
             kilo = kilo.bind(output)();
-            if(!kilo) { _fun00002_ip = 767; continue _fun00001 }
- 738:
-            if(!foxtrot) { _fun00002_ip = 767; continue _fun00001 }
- 741:
+            if(!kilo) { _fun00002_ip = 755; continue _fun00001 }
+ 726:
+            if(!foxtrot) { _fun00002_ip = 755; continue _fun00001 }
+ 729:
             output = result.uri;
             kilo = output.startsWith;
             foxtrot = 'file://';
             foxtrot = kilo.bind(output)(foxtrot);
-            if(foxtrot) { _fun00002_ip = 813; continue _fun00001 }
- 767:
+            if(foxtrot) { _fun00002_ip = 801; continue _fun00001 }
+ 755:
             output = _closure1_slot9;
             kilo = _closure1_slot4;
             foxtrot = {};
@@ -427,8 +427,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = config;
             foxtrot['source'] = result;
             kilo = output.bind(tango)(kilo, foxtrot);
-            _fun00002_ip = 902; continue _fun00001;
- 813:
+            _fun00002_ip = 890; continue _fun00001;
+ 801:
             config = _closure1_slot9;
             output = _closure1_slot0;
             status = _closure1_slot2;
@@ -450,18 +450,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['muted'] = sierra;
             foxtrot['paused'] = sierra;
             kilo = config.bind(tango)(output, foxtrot);
- 902:
+ 890:
             foxtrot = new Array(2);
             foxtrot[0] = kilo;
             kilo = null;
             kilo = kilo != lima;
-            if(!kilo) { _fun00002_ip = 927; continue _fun00001 }
- 919:
+            if(!kilo) { _fun00002_ip = 915; continue _fun00001 }
+ 907:
             output = '';
             kilo = output !== lima;
- 927:
-            if(!kilo) { _fun00002_ip = 972; continue _fun00001 }
- 930:
+ 915:
+            if(!kilo) { _fun00002_ip = 960; continue _fun00001 }
+ 918:
             status = _closure1_slot9;
             config = _closure1_slot0;
             whiskey = _closure1_slot2;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {};
             output['label'] = lima;
             kilo = status.bind(tango)(config, output);
- 972:
+ 960:
             foxtrot[1] = kilo;
             offset['children'] = foxtrot;
             yankee = verify.bind(tango)(yankee, offset);
@@ -489,8 +489,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['hasIcons'] = backup;
             result = result.filename;
             foxtrot['title'] = result;
-            if(!control) { _fun00002_ip = 1149; continue _fun00001 }
- 1044:
+            if(!control) { _fun00002_ip = 1135; continue _fun00001 }
+ 1032:
             status = _closure1_slot9;
             quebec = _closure1_slot0;
             variable36 = _closure1_slot2;
@@ -531,15 +531,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['label'] = lima;
             result['arrow'] = sierra;
             control = status.bind(tango)(config, result);
- 1149:
+ 1135:
             result = new Array(4);
             result[0] = control;
-            if(!update) { _fun00002_ip = 1163; continue _fun00001 }
- 1160:
+            if(!update) { _fun00002_ip = 1149; continue _fun00001 }
+ 1146:
             update = !source;
- 1163:
-            if(!update) { _fun00002_ip = 1259; continue _fun00001 }
- 1166:
+ 1149:
+            if(!update) { _fun00002_ip = 1245; continue _fun00001 }
+ 1152:
             config = _closure1_slot9;
             lima = _closure1_slot0;
             whiskey = _closure1_slot2;
@@ -561,11 +561,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = status.bind(sierra)(target);
             source['label'] = target;
             update = config.bind(tango)(control, source);
- 1259:
+ 1245:
             result[1] = update;
             update = !vacuum;
-            if(!update) { _fun00002_ip = 1378; continue _fun00001 }
- 1269:
+            if(!update) { _fun00002_ip = 1362; continue _fun00001 }
+ 1255:
             config = _closure1_slot9;
             status = _closure1_slot0;
             sierra = _closure1_slot2;
@@ -610,10 +610,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source['label'] = context;
             source['checked'] = record;
             update = config.bind(tango)(control, source);
- 1378:
+ 1362:
             result[2] = update;
-            if(!echo) { _fun00002_ip = 1483; continue _fun00001 }
- 1385:
+            if(!echo) { _fun00002_ip = 1467; continue _fun00001 }
+ 1369:
             control = _closure1_slot9;
             papa = _closure1_slot0;
             target = _closure1_slot2;
@@ -636,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update['onPress'] = sequence;
             update['checked'] = vacuum;
             echo = control.bind(tango)(source, update);
- 1483:
+ 1467:
             result[3] = echo;
             foxtrot['children'] = result;
             foxtrot = output.bind(tango)(kilo, foxtrot);

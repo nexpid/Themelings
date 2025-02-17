@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00002_ip = 295; continue _fun00001 }
+                        if(mike) { _fun00002_ip = 297; continue _fun00001 }
  10:
                         tango = _closure1_slot1;
                         zulu = _closure1_slot2;
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  94:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00002_ip = 292; continue _fun00001 }
+                        if(report) { _fun00002_ip = 294; continue _fun00001 }
  103:
                         backup = _closure1_slot1;
                         kilo = _closure1_slot2;
@@ -376,10 +376,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         backup = sizing.bind(output)(kilo, foxtrot, backup);
                         kilo = foxtrot != backup;
                         foxtrot = '';
-                        if(!kilo) { _fun00002_ip = 238; continue _fun00001 }
- 235:
+                        if(!kilo) { _fun00002_ip = 240; continue _fun00001 }
+ 237:
                         foxtrot = backup;
- 238:
+ 240:
                         verify['user'] = foxtrot;
                         verify = yankee.bind(romeo)(offset, verify);
                         report['content'] = verify;
@@ -393,9 +393,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = _closure2_slot2;
                         tango = tango.bind(zulu)();
                         return zulu;
- 292:
+ 294:
                         return mike;
- 295:
+ 297:
                         return entity;
                     }
                 };

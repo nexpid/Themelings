@@ -6,15 +6,15 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = global;
-    verify = mike.Object;
-    options = verify.defineProperty;
+    options = mike.Object;
+    report = options.defineProperty;
     tango = {};
-    entity = true;
-    tango['value'] = entity;
-    entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
-    yankee = {};
-    entity = function() { // Original name: fr
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(options)(zulu, mike, tango);
+    verify = {};
+    mike = function() { // Original name: fr
         report = _closure1_slot0;
         oscar = _closure1_slot1;
         entity = 0;
@@ -36,7 +36,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         entity = mike.bind(zulu)(entity);
         return entity;
     };
-    yankee['fr'] = entity;
+    verify['fr'] = mike;
     entity = function() { // Original name: en-US
         report = _closure1_slot0;
         oscar = _closure1_slot1;
@@ -59,82 +59,18 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         entity = mike.bind(zulu)(entity);
         return entity;
     };
-    yankee['en-US'] = entity;
-    tango = {};
-    entity = function(argFoo) { // Original name: uczI4u
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'uczI4u';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['uczI4u'] = entity;
-    entity = function(argFoo) { // Original name: JJ0wpK
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'JJ0wpK';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['JJ0wpK'] = entity;
-    entity = function(argFoo) { // Original name: Q+eyqq
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'Q+eyqq';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['Q+eyqq'] = entity;
-    entity = function(argFoo) { // Original name: rdfRys
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'rdfRys';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['rdfRys'] = entity;
-    entity = function(argFoo) { // Original name: HMvECw
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'HMvECw';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['HMvECw'] = entity;
-    entity = function(argFoo) { // Original name: rmps8/
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'rmps8/';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['rmps8/'] = entity;
-    entity = function(argFoo) { // Original name: XOdbAw
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'XOdbAw';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['XOdbAw'] = entity;
-    entity = 3;
-    options = golf[entity];
+    verify['en-US'] = entity;
+    tango = 3;
+    mike = golf[tango];
     entity = undefined;
-    offset = oscar.bind(entity)(options);
-    verify = offset.createLoader;
-    options = mike.Object;
-    mike = options.keys;
-    options = mike.bind(options)(tango);
+    options = oscar.bind(entity)(mike);
+    report = options.createLoader;
     mike = 'en-US';
-    mike = verify.bind(offset)(options, yankee, mike);
-    var _closure1_slot2 = mike;
+    mike = report.bind(options)(verify, mike);
+    tango = golf[tango];
+    report = oscar.bind(entity)(tango);
+    tango = report.makeMessagesProxy;
+    tango = tango.bind(report)(mike);
     report = 4;
     report = golf[report];
     golf = oscar.bind(entity)(report);

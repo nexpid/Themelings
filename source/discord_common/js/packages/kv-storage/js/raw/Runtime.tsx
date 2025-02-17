@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = tango.id;
                 mike = mike.bind(oscar)(entity);
                 entity = null;
-                if(!(entity != mike)) { _fun00008_ip = 127; continue _fun00007 }
+                if(!(entity != mike)) { _fun00008_ip = 123; continue _fun00007 }
  53:
                 verify = zulu.pending;
                 options = verify.delete;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.bind(zulu)(mike, tango, report);
                 entity = zulu.resolveOperation;
                 entity = entity.bind(zulu)(mike, tango);
- 127:
+ 123:
                 entity = undefined;
                 return entity;
             }
@@ -485,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.completionCallbacks;
                 report = mike.length;
                 mike = 0;
-                if(!(report > mike)) { _fun00014_ip = 247; continue _fun00013 }
+                if(!(report > mike)) { _fun00014_ip = 241; continue _fun00013 }
  29:
                 report = {};
                 mike = zulu.id;
@@ -525,15 +525,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike.bind(tango)(entity);
                 mike = zulu.bind(tango)();
                 entity = mike.done;
-                if(entity) { _fun00014_ip = 247; continue _fun00013 }
- 222:
+                if(entity) { _fun00014_ip = 241; continue _fun00013 }
+ 216:
                 entity = mike.value;
                 entity = entity.bind(tango)(report);
                 oscar = zulu.bind(tango)();
                 entity = oscar.done;
                 mike = oscar;
-                if(!entity) { _fun00014_ip = 222; continue _fun00013 }
- 247:
+                if(!entity) { _fun00014_ip = 216; continue _fun00013 }
+ 241:
                 entity = undefined;
                 return entity;
             }
@@ -549,7 +549,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = this;
                 var _closure3_slot0 = mike;
                 zulu = mike.initialized;
-                if(zulu) { _fun00016_ip = 132; continue _fun00015 }
+                if(zulu) { _fun00016_ip = 128; continue _fun00015 }
  18:
                 oscar = _closure1_slot0;
                 report = _closure1_slot1;
@@ -579,8 +579,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango['response'] = golf;
                 tango = report.bind(oscar)(tango);
                 zulu = _closure1_slot4;
-                if(!zulu) { _fun00016_ip = 124; continue _fun00015 }
- 90:
+                if(!zulu) { _fun00016_ip = 120; continue _fun00015 }
+ 88:
                 tango = mike.addCompletionCallback;
                 zulu = function(argFoo) {
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
@@ -677,10 +677,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 entity = zulu.bind(mike)(entity);
- 124:
+ 120:
                 entity = true;
                 mike['initialized'] = entity;
- 132:
+ 128:
                 entity = undefined;
                 return entity;
             }

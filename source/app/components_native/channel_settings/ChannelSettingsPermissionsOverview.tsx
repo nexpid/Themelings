@@ -227,19 +227,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify[sizing];
             verify = offset.bind(tango)(verify);
             verify = verify.t;
-            if(options) { _fun00002_ip = 229; continue _fun00001 }
+            if(options) { _fun00002_ip = 231; continue _fun00001 }
  208:
             offset = verify.OIhm0N;
             options = {};
             options['categoryName'] = kilo;
             options = romeo.bind(backup)(offset, options);
-            _fun00002_ip = 248; continue _fun00001;
- 229:
+            _fun00002_ip = 252; continue _fun00001;
+ 231:
             offset = verify.ETJqLi;
             verify = {};
             verify['categoryName'] = kilo;
             options = romeo.bind(backup)(offset, verify);
- 248:
+ 252:
             report['title'] = options;
             offset = _closure1_slot14;
             kilo = _closure1_slot0;
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.useNavigation;
             mike = mike.bind(zulu)();
             _closure2_slot0 = mike;
-            if(entity) { _fun00008_ip = 456; continue _fun00007 }
+            if(entity) { _fun00008_ip = 460; continue _fun00007 }
  79:
             zulu = _closure1_slot14;
             mike = _closure1_slot7;
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 456:
+ 460:
             entity = null;
             return entity;
         }

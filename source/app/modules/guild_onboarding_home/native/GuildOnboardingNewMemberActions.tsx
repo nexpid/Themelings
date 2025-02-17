@@ -641,16 +641,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = tango.bind(oscar)(mike, zulu);
             mike = options == entity;
             entity = null;
-            if(mike) { _fun00008_ip = 836; continue _fun00007 }
+            if(mike) { _fun00008_ip = 838; continue _fun00007 }
  311:
             mike = options == romeo;
             entity = null;
-            if(mike) { _fun00008_ip = 836; continue _fun00007 }
+            if(mike) { _fun00008_ip = 838; continue _fun00007 }
  323:
             zulu = romeo.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun00008_ip = 836; continue _fun00007 }
+            if(!(mike !== zulu)) { _fun00008_ip = 838; continue _fun00007 }
  339:
             tango = _closure1_slot16;
             zulu = _closure1_slot4;
@@ -738,7 +738,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.rulesChannelId;
  529:
             golf = options != golf;
-            if(!golf) { _fun00008_ip = 822; continue _fun00007 }
+            if(!golf) { _fun00008_ip = 824; continue _fun00007 }
  539:
             offset = _closure1_slot16;
             source = _closure1_slot0;
@@ -802,11 +802,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[1] = romeo;
             options['children'] = yankee;
             golf = offset.bind(report)(verify, options);
- 822:
+ 824:
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 836:
+ 838:
             return entity;
         }
     };

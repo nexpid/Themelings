@@ -162,8 +162,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango == golf;
                 verify = undefined;
                 tango = undefined;
-                if(report) { _fun00006_ip = 81; continue _fun00005 }
- 42:
+                if(report) { _fun00006_ip = 79; continue _fun00005 }
+ 40:
                 oscar = golf.map;
                 options = _closure1_slot0;
                 offset = _closure1_slot1;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = options.bind(verify)(report);
                 report = report.createInvoiceItemFromServer;
                 tango = oscar.bind(golf)(report);
- 81:
+ 79:
                 entity['invoiceItems'] = tango;
                 tango = mike.total;
                 entity['total'] = tango;

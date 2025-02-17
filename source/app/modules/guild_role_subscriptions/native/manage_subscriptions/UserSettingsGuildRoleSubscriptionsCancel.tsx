@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 597; continue _fun00003 }
+                        if(mike) { _fun00004_ip = 601; continue _fun00003 }
  10:
                         offset = _closure1_slot1;
                         yankee = _closure1_slot3;
@@ -344,22 +344,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = verify.RED;
                         mike['confirmColor'] = verify;
                         mike = report.bind(options)(mike);
-                        SaveGenerator(address=279);
- 277:
+                        SaveGenerator(address=283);
+ 281:
                         return mike;
- 279:
+ 283:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 594; continue _fun00003 }
- 288:
-                        if(!mike) { _fun00004_ip = 591; continue _fun00003 }
- 294:
+                        if(report) { _fun00004_ip = 598; continue _fun00003 }
+ 292:
+                        if(!mike) { _fun00004_ip = 595; continue _fun00003 }
+ 298:
                         options = _closure2_slot3;
                         report = true;
                         report = options.bind(zulu)(report);
- 305: // try_start_0
+ 309: // try_start_0
                         report = _closure2_slot6;
-                        if(report) { _fun00004_ip = 410; continue _fun00003 }
- 312:
+                        if(report) { _fun00004_ip = 414; continue _fun00003 }
+ 316:
                         options = _closure1_slot2;
                         report = _closure1_slot3;
                         offset = 23;
@@ -370,50 +370,50 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = report.id;
                         report = _closure2_slot4;
                         report = verify.bind(yankee)(options, report);
-                        SaveGenerator(address=361);
- 359:
+                        SaveGenerator(address=365);
+ 363:
                         return report;
- 361:
+ 365:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                        if(options) { _fun00004_ip = 407; continue _fun00003 }
- 367:
+                        if(options) { _fun00004_ip = 411; continue _fun00003 }
+ 371:
                         verify = _closure1_slot2;
                         options = _closure1_slot3;
                         options = options[offset];
                         verify = verify.bind(zulu)(options);
                         options = verify.fetchSubscriptions;
                         options = options.bind(verify)();
-                        SaveGenerator(address=398);
- 396:
+                        SaveGenerator(address=402);
+ 400:
                         return options;
- 398:
+ 402:
                         ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                        if(!verify) { _fun00004_ip = 428; continue _fun00003 }
- 404: // try_end0
+                        if(!verify) { _fun00004_ip = 432; continue _fun00003 }
+ 408: // try_end0
                         return options;
- 407:
+ 411:
                         return report;
- 410: // try_start_1
+ 414: // try_start_1
                         report = _closure2_slot5;
                         report = report.bind(zulu)();
-                        SaveGenerator(address=422);
- 420:
+                        SaveGenerator(address=426);
+ 424:
                         return report;
- 422:
+ 426:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                        if(options) { _fun00004_ip = 451; continue _fun00003 }
- 428:
+                        if(options) { _fun00004_ip = 455; continue _fun00003 }
+ 432:
                         verify = _closure2_slot2;
                         options = null;
-                        if(!(options != verify)) { _fun00004_ip = 446; continue _fun00003 }
- 438:
+                        if(!(options != verify)) { _fun00004_ip = 450; continue _fun00003 }
+ 442:
                         options = _closure2_slot2;
                         options = options.bind(zulu)();
- 446: // try_end1
-                        _fun00004_ip = 591; continue _fun00003;
- 451:
+ 450: // try_end1
+                        _fun00004_ip = 595; continue _fun00003;
+ 455:
                         return report;
- 454: // catch_target0 // catch_target1
+ 458: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=9);
                         golf = offset;
                         options = _closure2_slot3;
@@ -433,8 +433,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = yankee.bind(zulu)(options);
                         options = offset instanceof options;
                         report = options;
-                        if(!options) { _fun00004_ip = 570; continue _fun00003 }
- 532:
+                        if(!options) { _fun00004_ip = 574; continue _fun00003 }
+ 536:
                         golf = golf.code;
                         options = _closure1_slot0;
                         oscar = _closure1_slot3;
@@ -443,20 +443,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = oscar.ErrorCodes;
                         oscar = oscar.ALREADY_CANCELED;
                         report = golf === oscar;
- 570:
-                        if(!report) { _fun00004_ip = 591; continue _fun00003 }
- 573:
+ 574:
+                        if(!report) { _fun00004_ip = 595; continue _fun00003 }
+ 577:
                         oscar = _closure2_slot2;
                         report = null;
-                        if(!(report != oscar)) { _fun00004_ip = 591; continue _fun00003 }
- 583:
+                        if(!(report != oscar)) { _fun00004_ip = 595; continue _fun00003 }
+ 587:
                         tango = _closure2_slot2;
                         tango = tango.bind(zulu)();
- 591:
+ 595:
                         return zulu;
- 594:
+ 598:
                         return mike;
- 597:
+ 601:
                         return entity;
                     }
                 };
@@ -564,11 +564,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  134:
             mike = zulu == source;
             entity = null;
-            if(mike) { _fun00006_ip = 619; continue _fun00005 }
+            if(mike) { _fun00006_ip = 621; continue _fun00005 }
  146:
             mike = zulu == romeo;
             entity = null;
-            if(mike) { _fun00006_ip = 619; continue _fun00005 }
+            if(mike) { _fun00006_ip = 621; continue _fun00005 }
  158:
             tango = _closure1_slot12;
             zulu = _closure1_slot7;
@@ -677,7 +677,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 619:
+ 621:
             return entity;
         }
     };

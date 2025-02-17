@@ -170,8 +170,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = entity.verified;
                 golf = entity.style;
                 entity = null;
-                if(mike) { _fun00006_ip = 144; continue _fun00005 }
- 24:
+                if(mike) { _fun00006_ip = 149; continue _fun00005 }
+ 27:
                 report = _closure1_slot8;
                 verify = _closure1_slot0;
                 offset = _closure1_slot1;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = golf.bind(options)(oscar);
                 mike['children'] = oscar;
                 entity = report.bind(tango)(zulu, mike);
- 144:
+ 149:
                 return entity;
             }
         };

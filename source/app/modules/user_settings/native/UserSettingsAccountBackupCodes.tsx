@@ -266,8 +266,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = control.length;
             offset = 0;
             verify = verify > offset;
-            if(!verify) { _fun00004_ip = 403; continue _fun00003 }
- 267:
+            if(!verify) { _fun00004_ip = 407; continue _fun00003 }
+ 269:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot4;
             yankee = {};
@@ -311,12 +311,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(tango)(kilo, backup);
             yankee['children'] = backup;
             verify = foxtrot.bind(tango)(romeo, yankee);
- 403:
+ 407:
             options[1] = verify;
             verify = result.length;
             verify = verify > offset;
-            if(!verify) { _fun00004_ip = 558; continue _fun00003 }
- 422:
+            if(!verify) { _fun00004_ip = 564; continue _fun00003 }
+ 426:
             romeo = _closure1_slot7;
             yankee = _closure1_slot4;
             offset = {};
@@ -360,14 +360,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 558:
+ 564:
             options[2] = verify;
             verify = argFoo;
             offset = verify.onGenerate;
             verify = null;
             verify = verify !== offset;
-            if(!verify) { _fun00004_ip = 792; continue _fun00003 }
- 583:
+            if(!verify) { _fun00004_ip = 800; continue _fun00003 }
+ 589:
             romeo = _closure1_slot7;
             yankee = _closure1_slot4;
             offset = {};
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 792:
+ 800:
             options[3] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

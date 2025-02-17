@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00006_ip = 379; continue _fun00005 }
+                        if(mike) { _fun00006_ip = 380; continue _fun00005 }
  10:
                         oscar = undefined;
                         verify = undefined;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = _closure2_slot1;
                         report = golf.bind(options)(report, mike);
                         mike = null;
-                        if(!(mike == report)) { _fun00006_ip = 376; continue _fun00005 }
+                        if(!(mike == report)) { _fun00006_ip = 377; continue _fun00005 }
  53:
                         report = _closure2_slot2;
                         golf = _closure1_slot6;
@@ -310,26 +310,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = oscar.bind(golf)(tango);
                         golf = 'en-US';
                         tango = null;
-                        if(!(golf !== report)) { _fun00006_ip = 370; continue _fun00005 }
- 337:
+                        if(!(golf !== report)) { _fun00006_ip = 371; continue _fun00005 }
+ 338:
                         oscar = _closure2_slot3;
                         report = oscar.fetchChangelog;
                         zulu = _closure2_slot0;
                         zulu = report.bind(oscar)(zulu, golf);
-                        SaveGenerator(address=361);
- 359:
+                        SaveGenerator(address=362);
+ 360:
                         return zulu;
- 361:
+ 362:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                         tango = zulu;
-                        if(report) { _fun00006_ip = 373; continue _fun00005 }
- 370:
+                        if(report) { _fun00006_ip = 374; continue _fun00005 }
+ 371:
                         return tango;
- 373:
+ 374:
                         return zulu;
- 376:
+ 377:
                         return mike;
- 379:
+ 380:
                         return entity;
                     }
                 };

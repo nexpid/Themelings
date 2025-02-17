@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot0;
                 mike = zulu.bind(tango)(mike);
                 zulu = null;
-                if(!(zulu == mike)) { _fun00008_ip = 50; continue _fun00007 }
+                if(!(zulu == mike)) { _fun00008_ip = 48; continue _fun00007 }
  32:
                 oscar = _closure2_slot0;
                 tango = function(argFoo) { // Original name: createListenerState
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 zulu = undefined;
                 mike = tango.bind(zulu)(oscar);
- 50:
+ 48:
                 var _closure3_slot0 = mike;
                 oscar = mike.listeners;
                 tango = oscar.add;
@@ -268,8 +268,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = mike.listeners;
                 tango = zulu.size;
                 zulu = 1;
-                if(!(zulu === tango)) { _fun00008_ip = 225; continue _fun00007 }
- 95:
+                if(!(zulu === tango)) { _fun00008_ip = 221; continue _fun00007 }
+ 93:
                 tango = _closure1_slot5;
                 zulu = tango.set;
                 oscar = _closure2_slot0;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = mike.listenerId;
                 mike = mike.valueListener;
                 mike = tango.bind(report)(zulu, mike, oscar);
- 225:
+ 221:
                 entity = function() {
                     _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = entity.listeners;
                         tango = entity.size;
                         entity = 0;
-                        if(!(entity === tango)) { _fun00012_ip = 164; continue _fun00011 }
+                        if(!(entity === tango)) { _fun00012_ip = 162; continue _fun00011 }
  51:
                         oscar = _closure1_slot0;
                         report = _closure1_slot1;
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = _closure1_slot5;
                         entity = mike.delete;
                         entity = entity.bind(mike)(zulu);
- 164:
+ 162:
                         entity = undefined;
                         return entity;
                     }

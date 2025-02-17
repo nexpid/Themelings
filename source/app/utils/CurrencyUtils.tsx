@@ -25,73 +25,73 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  0:
             mike = argFoo;
             entity = 'brl';
-            if(!(entity !== mike)) { _fun00002_ip = 1714; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1760; continue _fun00001 }
  16:
             entity = 'pln';
-            if(!(entity !== mike)) { _fun00002_ip = 1653; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1697; continue _fun00001 }
  29:
             entity = 'try';
-            if(!(entity !== mike)) { _fun00002_ip = 1592; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1634; continue _fun00001 }
  40:
             entity = 'usd';
-            if(!(entity !== mike)) { _fun00002_ip = 1531; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1571; continue _fun00001 }
  53:
             entity = 'aud';
-            if(!(entity !== mike)) { _fun00002_ip = 1470; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1508; continue _fun00001 }
  66:
             entity = 'pen';
-            if(!(entity !== mike)) { _fun00002_ip = 1409; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1445; continue _fun00001 }
  79:
             entity = 'php';
-            if(!(entity !== mike)) { _fun00002_ip = 1348; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1382; continue _fun00001 }
  92:
             entity = 'ars';
-            if(!(entity !== mike)) { _fun00002_ip = 1287; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1319; continue _fun00001 }
  103:
             entity = 'cop';
-            if(!(entity !== mike)) { _fun00002_ip = 1226; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1256; continue _fun00001 }
  116:
             entity = 'clr';
-            if(!(entity !== mike)) { _fun00002_ip = 1165; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1193; continue _fun00001 }
  129:
             entity = 'jpy';
-            if(!(entity !== mike)) { _fun00002_ip = 1104; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1130; continue _fun00001 }
  142:
             entity = 'idr';
-            if(!(entity !== mike)) { _fun00002_ip = 1043; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1067; continue _fun00001 }
  155:
             entity = 'vnd';
-            if(!(entity !== mike)) { _fun00002_ip = 982; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 1004; continue _fun00001 }
  168:
             entity = 'thb';
-            if(!(entity !== mike)) { _fun00002_ip = 921; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 941; continue _fun00001 }
  181:
             entity = 'myr';
-            if(!(entity !== mike)) { _fun00002_ip = 860; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 878; continue _fun00001 }
  194:
             entity = 'krw';
-            if(!(entity !== mike)) { _fun00002_ip = 799; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 815; continue _fun00001 }
  207:
             entity = 'mxn';
-            if(!(entity !== mike)) { _fun00002_ip = 738; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 752; continue _fun00001 }
  220:
             entity = 'bgn';
-            if(!(entity !== mike)) { _fun00002_ip = 677; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 689; continue _fun00001 }
  233:
             entity = 'czk';
-            if(!(entity !== mike)) { _fun00002_ip = 616; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 626; continue _fun00001 }
  246:
             entity = 'dkk';
-            if(!(entity !== mike)) { _fun00002_ip = 555; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 563; continue _fun00001 }
  259:
             entity = 'huf';
-            if(!(entity !== mike)) { _fun00002_ip = 494; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 500; continue _fun00001 }
  272:
             entity = 'ron';
-            if(!(entity !== mike)) { _fun00002_ip = 433; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 437; continue _fun00001 }
  285:
             entity = 'sek';
-            if(!(entity !== mike)) { _fun00002_ip = 372; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 374; continue _fun00001 }
  295:
             entity = 'eur';
             if(!(entity !== mike)) { _fun00002_ip = 311; continue _fun00001 }
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.uhxR+f;
             entity = mike.bind(zulu)(entity);
             return entity;
- 372:
+ 374:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.Z0oztb;
             entity = mike.bind(zulu)(entity);
             return entity;
- 433:
+ 437:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.C7WDXF;
             entity = mike.bind(zulu)(entity);
             return entity;
- 494:
+ 500:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.abWUUF;
             entity = mike.bind(zulu)(entity);
             return entity;
- 555:
+ 563:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.a9hHzs;
             entity = mike.bind(zulu)(entity);
             return entity;
- 616:
+ 626:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.dWTAXV;
             entity = mike.bind(zulu)(entity);
             return entity;
- 677:
+ 689:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.EhetGB;
             entity = mike.bind(zulu)(entity);
             return entity;
- 738:
+ 752:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t2RLnp;
             entity = mike.bind(zulu)(entity);
             return entity;
- 799:
+ 815:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.20VnAw;
             entity = mike.bind(zulu)(entity);
             return entity;
- 860:
+ 878:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.MOaho6;
             entity = mike.bind(zulu)(entity);
             return entity;
- 921:
+ 941:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.9W3Gub;
             entity = mike.bind(zulu)(entity);
             return entity;
- 982:
+ 1004:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.mEwykp;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1043:
+ 1067:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.UBrRGh;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1104:
+ 1130:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.QKSoIi;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1165:
+ 1193:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.BK/Vam;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1226:
+ 1256:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity./FnP7O;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1287:
+ 1319:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.GTI3Bw;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1348:
+ 1382:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.0p6FTk;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1409:
+ 1445:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.sKR+OD;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1470:
+ 1508:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.ylmkMz;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1531:
+ 1571:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.kJGVtL;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1592:
+ 1634:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.J05KNT;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1653:
+ 1697:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.eAdNmZ;
             entity = mike.bind(zulu)(entity);
             return entity;
- 1714:
+ 1760:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;

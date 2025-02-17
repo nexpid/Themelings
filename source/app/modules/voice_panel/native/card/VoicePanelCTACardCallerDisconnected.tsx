@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = foxtrot;
             offset = offset != result;
-            if(!offset) { _fun00004_ip = 784; continue _fun00003 }
+            if(!offset) { _fun00004_ip = 786; continue _fun00003 }
  672:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(output)(kilo, backup);
             yankee['children'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 784:
+ 786:
             verify[1] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

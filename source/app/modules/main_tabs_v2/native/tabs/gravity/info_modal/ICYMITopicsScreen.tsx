@@ -776,8 +776,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[3] = options;
             oscar = oscar.size;
             oscar = oscar > golf;
-            if(!oscar) { _fun00004_ip = 837; continue _fun00003 }
- 686:
+            if(!oscar) { _fun00004_ip = 841; continue _fun00003 }
+ 690:
             verify = _closure1_slot11;
             options = _closure1_slot6;
             golf = {};
@@ -813,7 +813,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 837:
+ 841:
             report[4] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

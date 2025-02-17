@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         mike = _closure3_slot2;
                         tango = null;
-                        if(!(tango == mike)) { _fun00016_ip = 284; continue _fun00015 }
+                        if(!(tango == mike)) { _fun00016_ip = 286; continue _fun00015 }
  16:
                         mike = _closure3_slot4;
                         mike = mike.integration_type;
@@ -604,7 +604,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  146:
                         mike = report.name;
  151:
-                        if(!(tango == mike)) { _fun00016_ip = 210; continue _fun00015 }
+                        if(!(tango == mike)) { _fun00016_ip = 212; continue _fun00015 }
  155:
                         options = _closure1_slot0;
                         verify = _closure1_slot3;
@@ -618,7 +618,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.t;
                         tango = tango.n+olu7;
                         mike = report.bind(golf)(tango);
- 210:
+ 212:
                         report = _closure1_slot20;
                         tango = _closure1_slot0;
                         golf = _closure1_slot3;
@@ -634,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = mike + golf;
                         mike = report.bind(oscar)(tango, zulu, mike);
                         return mike;
- 284:
+ 286:
                         report = _closure1_slot21;
                         zulu = _closure1_slot0;
                         verify = _closure1_slot3;
@@ -659,8 +659,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = verify.isPomelo;
                         golf = golf.bind(verify)();
                         golf = !golf;
-                        if(!golf) { _fun00016_ip = 472; continue _fun00015 }
- 398:
+                        if(!golf) { _fun00016_ip = 474; continue _fun00015 }
+ 400:
                         offset = _closure1_slot20;
                         verify = _closure1_slot0;
                         yankee = _closure1_slot3;
@@ -678,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         yankee = yankee + romeo;
                         options['children'] = yankee;
                         golf = offset.bind(tango)(verify, options);
- 472:
+ 474:
                         oscar[1] = golf;
                         mike['children'] = oscar;
                         entity = _closure3_slot2;

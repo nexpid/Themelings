@@ -555,8 +555,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['size'] = control;
             yankee = source.bind(tango)(result, yankee);
             options[3] = yankee;
-            if(!offset) { _fun00004_ip = 1054; continue _fun00003 }
- 941:
+            if(!offset) { _fun00004_ip = 1060; continue _fun00003 }
+ 945:
             source = _closure1_slot14;
             vacuum = _closure1_slot0;
             control = _closure1_slot3;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = sequence.bind(config)(vacuum, control);
             yankee['children'] = control;
             offset = source.bind(tango)(result, yankee);
- 1054:
+ 1060:
             options[4] = offset;
             result = _closure1_slot14;
             yankee = _closure1_slot1;
@@ -597,10 +597,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = _closure1_slot18;
             verify = {};
             verify['templates'] = output;
-            if(kilo) { _fun00004_ip = 1116; continue _fun00003 }
- 1113:
+            if(kilo) { _fun00004_ip = 1122; continue _fun00003 }
+ 1119:
             kilo = !sizing;
- 1116:
+ 1122:
             verify['loading'] = kilo;
             verify['error'] = backup;
             verify['guildId'] = foxtrot;

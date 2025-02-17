@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.enabled;
             zulu = global;
             zulu = zulu.Promise;
-            if(entity) { _fun00006_ip = 149; continue _fun00005 }
+            if(entity) { _fun00006_ip = 147; continue _fun00005 }
  140:
             entity = function(argFoo, argBar) {
                 entity = argFoo;
@@ -252,8 +252,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.bind(report)(zulu, mike);
                 return entity;
             };
-            _fun00006_ip = 156; continue _fun00005;
- 149:
+            _fun00006_ip = 152; continue _fun00005;
+ 147:
             entity = function(argFoo, argBar) {
                 mike = argFoo;
                 var _closure3_slot0 = mike;
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = undefined;
                 return entity;
             };
- 156:
+ 152:
             mike = zulu.prototype;
             mike = Object.create(mike, {constructor: {value: zulu}});
             verify = mike;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = argFoo;
                         mike = argBar;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=7);
-                        if(options) { _fun00012_ip = 423; continue _fun00011 }
+                        if(options) { _fun00012_ip = 421; continue _fun00011 }
  18:
                         golf = report;
                         var _closure5_slot0 = report;
@@ -511,9 +511,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         offset = new output[foxtrot](sizing, kilo);
                         offset = offset instanceof Object ? offset : romeo;
                         offset = yankee.bind(mike)(offset);
-                        _fun00012_ip = 420; continue _fun00011;
+                        _fun00012_ip = 418; continue _fun00011;
  169:
-                        if(verify) { _fun00012_ip = 224; continue _fun00011 }
+                        if(verify) { _fun00012_ip = 222; continue _fun00011 }
  172:
                         yankee = _closure1_slot6;
                         offset = yankee.purchaseProductForUser;
@@ -548,8 +548,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             }
                         };
                         tango = offset.bind(yankee)(verify, report, tango);
-                        _fun00012_ip = 420; continue _fun00011;
- 224: // try_start_0
+                        _fun00012_ip = 418; continue _fun00011;
+ 222: // try_start_0
                         report = _closure1_slot0;
                         tango = _closure1_slot2;
                         offset = 6;
@@ -557,13 +557,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = report.bind(mike)(tango);
                         tango = report.clearTransactionIOS;
                         tango = tango.bind(report)();
-                        SaveGenerator(address=258);
- 256:
+                        SaveGenerator(address=256);
+ 254:
                         return tango;
- 258:
+ 256:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00012_ip = 410; continue _fun00011 }
- 267:
+                        if(report) { _fun00012_ip = 408; continue _fun00011 }
+ 265:
                         verify = _closure1_slot0;
                         report = _closure1_slot2;
                         report = report[offset];
@@ -577,19 +577,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = _closure2_slot1;
                         report['withOffer'] = yankee;
                         report = verify.bind(offset)(report);
-                        SaveGenerator(address=333);
- 331:
+                        SaveGenerator(address=331);
+ 329:
                         return report;
- 333:
+ 331:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                        if(verify) { _fun00012_ip = 407; continue _fun00011 }
- 339:
+                        if(verify) { _fun00012_ip = 405; continue _fun00011 }
+ 337:
                         oscar = report;
                         verify = global;
                         offset = verify.Object;
                         offset = report instanceof offset;
-                        if(offset) { _fun00012_ip = 391; continue _fun00011 }
- 357:
+                        if(offset) { _fun00012_ip = 389; continue _fun00011 }
+ 355:
                         yankee = verify.Error;
                         verify = yankee.prototype;
                         offset = Object.create(verify, {constructor: {value: yankee}});
@@ -598,22 +598,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         verify = new output[yankee](sizing, kilo);
                         verify = verify instanceof Object ? verify : offset;
                         throw verify;
- 391:
+ 389:
                         options = _closure1_slot9;
                         oscar = options.bind(mike)(oscar);
                         oscar = golf.bind(mike)(oscar);
- 405: // try_end0
-                        _fun00012_ip = 420; continue _fun00011;
- 407:
+ 403: // try_end0
+                        _fun00012_ip = 418; continue _fun00011;
+ 405:
                         return report;
- 410:
+ 408:
                         return tango;
- 413: // catch_target0
+ 411: // catch_target0
                         CatchBlockStart(arg_register=3);
                         zulu = zulu.bind(mike)(tango);
- 420:
+ 418:
                         return mike;
- 423:
+ 421:
                         return entity;
                     }
                 };

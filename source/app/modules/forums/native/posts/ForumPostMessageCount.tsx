@@ -152,26 +152,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = {};
                 sizing = 'xs';
                 report['size'] = sizing;
-                if(output) { _fun00004_ip = 244; continue _fun00003 }
- 236:
+                if(output) { _fun00004_ip = 246; continue _fun00003 }
+ 238:
                 sizing = romeo.iconRead;
-                _fun00004_ip = 250; continue _fun00003;
- 244:
+                _fun00004_ip = 252; continue _fun00003;
+ 246:
                 sizing = romeo.iconUnread;
- 250:
+ 252:
                 report['style'] = sizing;
                 sizing = 'interactive-muted';
-                if(!output) { _fun00004_ip = 269; continue _fun00003 }
- 263:
+                if(!output) { _fun00004_ip = 271; continue _fun00003 }
+ 265:
                 sizing = 'interactive-normal';
- 269:
+ 271:
                 report['color'] = sizing;
                 options = offset.bind(tango)(options, report);
                 report = new Array(3);
                 report[0] = options;
                 offset = _closure1_slot4;
-                if(oscar) { _fun00004_ip = 349; continue _fun00003 }
- 294:
+                if(oscar) { _fun00004_ip = 351; continue _fun00003 }
+ 296:
                 options = _closure1_slot1;
                 sizing = _closure1_slot2;
                 oscar = 10;
@@ -185,8 +185,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = false;
                 oscar['animate'] = verify;
                 oscar = offset.bind(tango)(options, oscar);
-                _fun00004_ip = 398; continue _fun00003;
- 349:
+                _fun00004_ip = 400; continue _fun00003;
+ 351:
                 verify = _closure1_slot0;
                 sizing = _closure1_slot2;
                 options = 9;
@@ -199,12 +199,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options['color'] = foxtrot;
                 options['children'] = yankee;
                 oscar = offset.bind(tango)(verify, options);
- 398:
+ 400:
                 report[1] = oscar;
                 oscar = null;
                 oscar = oscar != backup;
-                if(!oscar) { _fun00004_ip = 550; continue _fun00003 }
- 414:
+                if(!oscar) { _fun00004_ip = 554; continue _fun00003 }
+ 416:
                 verify = _closure1_slot5;
                 yankee = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset[2] = yankee;
                 golf['children'] = offset;
                 oscar = verify.bind(tango)(options, golf);
- 550:
+ 554:
                 report[2] = oscar;
                 entity['children'] = report;
                 entity = zulu.bind(tango)(mike, entity);

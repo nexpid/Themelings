@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
             mike = {};
-            if(entity) { _fun00002_ip = 262; continue _fun00001 }
+            if(entity) { _fun00002_ip = 264; continue _fun00001 }
  72:
             entity = yankee.privateChannelIcon;
             mike['style'] = entity;
@@ -118,8 +118,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[1] = oscar;
             mike['children'] = entity;
             entity = tango.bind(report)(zulu, mike);
-            _fun00002_ip = 448; continue _fun00001;
- 262:
+            _fun00002_ip = 450; continue _fun00001;
+ 264:
             oscar = yankee.channel;
             mike['style'] = oscar;
             foxtrot = _closure1_slot5;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 448:
+ 450:
             return entity;
         }
     };
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'string';
             report = typeof romeo;
             oscar = romeo;
-            if(!(verify === report)) { _fun00004_ip = 113; continue _fun00003 }
+            if(!(verify === report)) { _fun00004_ip = 109; continue _fun00003 }
  60:
             yankee = _closure1_slot5;
             options = _closure1_slot0;
@@ -415,13 +415,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
             report['children'] = romeo;
             oscar = yankee.bind(tango)(options, report);
- 113:
+ 109:
             report = new Array(2);
             report[0] = oscar;
             options = typeof offset;
             oscar = offset;
-            if(!(verify === options)) { _fun00004_ip = 184; continue _fun00003 }
- 131:
+            if(!(verify === options)) { _fun00004_ip = 180; continue _fun00003 }
+ 127:
             verify = _closure1_slot5;
             options = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {'variant': 'text-sm/normal', 'color': 'header-secondary', 'lineClamp': 1};
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 184:
+ 180:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = verify;
             report[1] = options;
             entity['style'] = report;
-            if(!golf) { _fun00002_ip = 565; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 567; continue _fun00001 }
  273:
             verify = _closure1_slot8;
             options = _closure1_slot7;
@@ -210,8 +210,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             echo = kilo.button;
             yankee['style'] = echo;
-            if(output) { _fun00002_ip = 486; continue _fun00001 }
- 434:
+            if(output) { _fun00002_ip = 488; continue _fun00001 }
+ 436:
             source = _closure1_slot0;
             output = _closure1_slot2;
             echo = output[control];
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.8x0jKS;
             sizing = echo.bind(update)(output);
- 486:
+ 488:
             yankee['text'] = sizing;
             output = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             report['children'] = offset;
             golf = verify.bind(tango)(options, report);
- 565:
+ 567:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot6;

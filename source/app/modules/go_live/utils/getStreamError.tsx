@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.isNotNullish;
             entity = report.bind(oscar)(entity);
             report = entity.length;
-            if(!(zulu !== report)) { _fun00004_ip = 228; continue _fun00003 }
+            if(!(zulu !== report)) { _fun00004_ip = 226; continue _fun00003 }
  101:
             report = entity.forEach;
             tango = function(argFoo, argBar, argBaz) {
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['resolution'] = tango;
             entity['numDatapoints'] = zulu;
             return entity;
- 228:
+ 226:
             entity = {};
             zulu = 'streamer';
             entity['type'] = zulu;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = argBar;
             oscar = argCorge;
             entity = argBaz;
-            if(entity) { _fun00010_ip = 215; continue _fun00009 }
+            if(entity) { _fun00010_ip = 217; continue _fun00009 }
  15:
             mike = null;
             if(!(mike != verify)) { _fun00010_ip = 58; continue _fun00009 }
@@ -328,13 +328,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 30;
             tango = tango.bind(report)(verify, entity);
             entity = tango.numDatapoints;
-            if(!(!(entity >= golf))) { _fun00010_ip = 159; continue _fun00009 }
+            if(!(!(entity >= golf))) { _fun00010_ip = 161; continue _fun00009 }
  58:
             entity = _closure1_slot2;
             offset = entity.BAD;
             verify = argFoo;
             entity = null;
-            if(!(verify === offset)) { _fun00010_ip = 157; continue _fun00009 }
+            if(!(verify === offset)) { _fun00010_ip = 159; continue _fun00009 }
  80:
             yankee = _closure1_slot8;
             backup = _closure1_slot0;
@@ -353,30 +353,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot7;
             golf = golf.BAD_CONNECTION;
             entity = yankee.bind(offset)(verify, golf);
- 157:
-            return entity;
  159:
+            return entity;
+ 161:
             golf = _closure1_slot11;
             verify = mike == oscar;
             entity = undefined;
-            if(verify) { _fun00010_ip = 178; continue _fun00009 }
- 172:
+            if(verify) { _fun00010_ip = 180; continue _fun00009 }
+ 174:
             entity = oscar.maxFrameRate;
- 178:
+ 180:
             entity = golf.bind(report)(options, entity);
-            if(!(mike == entity)) { _fun00010_ip = 213; continue _fun00009 }
- 188:
+            if(!(mike == entity)) { _fun00010_ip = 215; continue _fun00009 }
+ 190:
             zulu = _closure1_slot11;
             golf = mike == oscar;
             mike = undefined;
-            if(golf) { _fun00010_ip = 207; continue _fun00009 }
- 201:
+            if(golf) { _fun00010_ip = 209; continue _fun00009 }
+ 203:
             mike = oscar.maxFrameRate;
- 207:
+ 209:
             entity = zulu.bind(report)(tango, mike);
- 213:
-            return entity;
  215:
+            return entity;
+ 217:
             tango = _closure1_slot8;
             golf = _closure1_slot0;
             options = _closure1_slot1;

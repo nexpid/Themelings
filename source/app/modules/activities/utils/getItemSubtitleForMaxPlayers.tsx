@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  0:
             oscar = argFoo;
             options = 0;
-            if(!(!(oscar > options))) { _fun00002_ip = 68; continue _fun00001 }
+            if(!(!(oscar > options))) { _fun00002_ip = 70; continue _fun00001 }
  9:
             report = _closure1_slot0;
             entity = _closure1_slot1;
@@ -39,8 +39,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.s1vQIC;
             entity = mike.bind(zulu)(entity);
-            _fun00002_ip = 132; continue _fun00001;
- 68:
+            _fun00002_ip = 136; continue _fun00001;
+ 70:
             golf = _closure1_slot0;
             mike = _closure1_slot1;
             tango = mike[options];
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = {};
             mike['count'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 132:
+ 136:
             return entity;
         }
     };

@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -211,12 +211,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         golf = romeo / golf;
                         golf = verify.bind(yankee)(golf);
                         verify = null;
-                        if(!(verify != offset)) { _fun00010_ip = 174; continue _fun00009 }
+                        if(!(verify != offset)) { _fun00010_ip = 172; continue _fun00009 }
  137:
                         offset = _closure3_slot0;
                         offset = offset._file;
                         offset = offset.items;
-                        if(!(verify != offset)) { _fun00010_ip = 174; continue _fun00009 }
+                        if(!(verify != offset)) { _fun00010_ip = 172; continue _fun00009 }
  157:
                         verify = offset.forEach;
                         zulu = function(argFoo) {
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             return entity;
                         };
                         zulu = verify.bind(offset)(zulu);
- 174:
+ 172:
                         zulu = _closure3_slot0;
                         zulu['_lastUpdate'] = report;
                         zulu = _closure3_slot0;
@@ -377,15 +377,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = null;
                 report = mike == tango;
                 zulu = undefined;
-                if(report) { _fun00006_ip = 264; continue _fun00005 }
- 258:
+                if(report) { _fun00006_ip = 252; continue _fun00005 }
+ 246:
                 zulu = tango.raiseEndpointErrors;
- 264:
+ 252:
                 mike = mike != zulu;
-                if(!mike) { _fun00006_ip = 274; continue _fun00005 }
- 271:
+                if(!mike) { _fun00006_ip = 262; continue _fun00005 }
+ 259:
                 mike = zulu;
- 274:
+ 262:
                 entity['_raiseEndpointErrors'] = mike;
                 return entity;
             }
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = this;
                 entity = zulu._cancel;
                 tango = null;
-                if(!(tango == entity)) { _fun00018_ip = 142; continue _fun00017 }
+                if(!(tango == entity)) { _fun00018_ip = 146; continue _fun00017 }
  21:
                 entity = global;
                 mike = entity.Date;
@@ -531,23 +531,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = tango == report;
                 entity = undefined;
                 oscar = undefined;
-                if(golf) { _fun00018_ip = 103; continue _fun00017 }
- 98:
+                if(golf) { _fun00018_ip = 107; continue _fun00017 }
+ 102:
                 oscar = report.content;
- 103:
+ 107:
                 mike['draftContent'] = oscar;
                 oscar = tango == report;
                 tango = undefined;
-                if(oscar) { _fun00018_ip = 122; continue _fun00017 }
- 117:
+                if(oscar) { _fun00018_ip = 126; continue _fun00017 }
+ 121:
                 tango = report.channel_id;
- 122:
+ 126:
                 mike['channelId'] = tango;
                 tango = argBaz;
                 mike['items'] = tango;
                 zulu['_file'] = mike;
                 return entity;
- 142:
+ 146:
                 entity = global;
                 zulu = entity.Error;
                 entity = zulu.prototype;

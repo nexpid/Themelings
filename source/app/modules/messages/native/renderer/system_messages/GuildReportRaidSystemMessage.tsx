@@ -144,10 +144,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             output = oscar == sizing;
             kilo = undefined;
-            if(output) { _fun00002_ip = 331; continue _fun00001 }
- 326:
+            if(output) { _fun00002_ip = 325; continue _fun00001 }
+ 320:
             kilo = sizing.name;
- 331:
+ 325:
             mike[1] = kilo;
             kilo = yankee.channel_id;
             mike[2] = kilo;
@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = options;
             options = oscar != golf;
             oscar = null;
-            if(!options) { _fun00002_ip = 592; continue _fun00001 }
- 589:
+            if(!options) { _fun00002_ip = 584; continue _fun00001 }
+ 581:
             oscar = golf;
- 592:
+ 584:
             entity['usernameColor'] = oscar;
             update = entity;
             echo = report;

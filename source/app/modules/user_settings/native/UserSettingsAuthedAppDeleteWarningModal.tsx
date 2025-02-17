@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.t;
             oscar = oscar.DT39Aw;
             yankee = verify.bind(golf)(oscar);
-            _fun00002_ip = 147; continue _fun00001;
+            _fun00002_ip = 149; continue _fun00001;
  104:
             oscar = golf.formatToPlainString;
             entity = entity[kilo];
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.name;
             entity['applicationName'] = verify;
             yankee = oscar.bind(golf)(zulu, entity);
- 147:
+ 149:
             golf = _closure1_slot0;
             entity = _closure1_slot2;
             zulu = entity[kilo];
@@ -83,21 +83,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity[kilo];
             entity = golf.bind(tango)(entity);
             entity = entity.t;
-            if(mike) { _fun00002_ip = 217; continue _fun00001 }
- 191:
+            if(mike) { _fun00002_ip = 221; continue _fun00001 }
+ 193:
             golf = entity.QWGvxM;
             mike = {};
             verify = offset.name;
             mike['applicationName'] = verify;
             golf = zulu.bind(oscar)(golf, mike);
-            _fun00002_ip = 241; continue _fun00001;
- 217:
+            _fun00002_ip = 247; continue _fun00001;
+ 221:
             mike = entity.inM1Ym;
             entity = {};
             verify = offset.name;
             entity['applicationName'] = verify;
             golf = zulu.bind(oscar)(mike, entity);
- 241:
+ 247:
             zulu = _closure1_slot5;
             mike = _closure1_slot4;
             entity = {};
@@ -108,8 +108,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.bind(tango)(oscar);
             oscar = offset.id;
             verify = verify.bind(tango)(oscar);
-            if(!verify) { _fun00002_ip = 381; continue _fun00001 }
- 284:
+            if(!verify) { _fun00002_ip = 389; continue _fun00001 }
+ 290:
             backup = _closure1_slot3;
             romeo = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             sizing = result.bind(echo)(output, sizing);
             oscar['children'] = sizing;
             verify = backup.bind(tango)(romeo, oscar);
- 381:
+ 389:
             oscar = new Array(2);
             oscar[0] = verify;
             romeo = _closure1_slot1;
@@ -140,8 +140,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[foxtrot];
             verify = romeo.bind(tango)(verify);
             verify = verify.bind(tango)(offset);
-            if(!verify) { _fun00002_ip = 524; continue _fun00001 }
- 414:
+            if(!verify) { _fun00002_ip = 534; continue _fun00001 }
+ 422:
             foxtrot = _closure1_slot3;
             romeo = _closure1_slot1;
             backup = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = sizing.bind(output)(backup);
             offset['children'] = backup;
             verify = foxtrot.bind(tango)(romeo, offset);
- 524:
+ 534:
             oscar[1] = verify;
             entity['children'] = oscar;
             oscar = zulu.bind(tango)(mike, entity);

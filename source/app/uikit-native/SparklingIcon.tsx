@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun00004_ip = 632; continue _fun00003 }
+                    if(entity) { _fun00004_ip = 612; continue _fun00003 }
  13:
                     zulu = _closure1_slot5;
                     mike = zulu.loop;
@@ -316,14 +316,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.bind(zulu)(entity);
                     entity = mike.start;
                     entity = entity.bind(mike)();
- 632:
+ 612:
                     entity = undefined;
                     return entity;
                 }
             };
             romeo = backup.bind(kilo)(romeo, foxtrot);
-            if(report) { _fun00002_ip = 370; continue _fun00001 }
- 332:
+            if(report) { _fun00002_ip = 364; continue _fun00001 }
+ 326:
             output = {};
             output['opacity'] = verify;
             verify = {};
@@ -334,12 +334,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['scale'] = yankee;
             options[1] = verify;
             output['transform'] = options;
-            _fun00002_ip = 372; continue _fun00001;
- 370:
+            _fun00002_ip = 366; continue _fun00001;
+ 364:
             output = {};
- 372:
-            if(report) { _fun00002_ip = 413; continue _fun00001 }
- 375:
+ 366:
+            if(report) { _fun00002_ip = 407; continue _fun00001 }
+ 369:
             foxtrot = {};
             foxtrot['opacity'] = mike;
             mike = {};
@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['scale'] = zulu;
             entity[1] = mike;
             foxtrot['transform'] = entity;
-            _fun00002_ip = 415; continue _fun00001;
- 413:
+            _fun00002_ip = 409; continue _fun00001;
+ 407:
             foxtrot = {};
- 415:
+ 409:
             zulu = _closure1_slot8;
             mike = _closure1_slot4;
             entity = {};

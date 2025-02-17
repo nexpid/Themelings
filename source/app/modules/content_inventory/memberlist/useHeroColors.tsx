@@ -70,23 +70,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             verify = tango == options;
             zulu = undefined;
-            if(verify) { _fun00002_ip = 213; continue _fun00001 }
- 104:
+            if(verify) { _fun00002_ip = 211; continue _fun00001 }
+ 102:
             options = options.colors;
             verify = tango == options;
             zulu = undefined;
-            if(verify) { _fun00002_ip = 213; continue _fun00001 }
- 118:
+            if(verify) { _fun00002_ip = 211; continue _fun00001 }
+ 116:
             offset = options.BACKGROUND_FLOATING;
             options = tango == offset;
             zulu = undefined;
-            if(options) { _fun00002_ip = 213; continue _fun00001 }
- 133:
+            if(options) { _fun00002_ip = 211; continue _fun00001 }
+ 131:
             options = offset.resolve;
             options = tango == options;
             zulu = undefined;
-            if(options) { _fun00002_ip = 213; continue _fun00001 }
- 148:
+            if(options) { _fun00002_ip = 211; continue _fun00001 }
+ 146:
             verify = offset.resolve;
             options = {};
             romeo = _closure1_slot6;
@@ -96,22 +96,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = tango == verify;
             zulu = undefined;
-            if(options) { _fun00002_ip = 213; continue _fun00001 }
- 190:
+            if(options) { _fun00002_ip = 211; continue _fun00001 }
+ 188:
             options = verify.hex;
             options = tango == options;
             zulu = undefined;
-            if(options) { _fun00002_ip = 213; continue _fun00001 }
- 204:
+            if(options) { _fun00002_ip = 211; continue _fun00001 }
+ 202:
             options = verify.hex;
             zulu = options.bind(verify)();
- 213:
+ 211:
             options = tango != zulu;
             tango = '#000';
-            if(!options) { _fun00002_ip = 229; continue _fun00001 }
- 226:
+            if(!options) { _fun00002_ip = 227; continue _fun00001 }
+ 224:
             tango = zulu;
- 229:
+ 227:
             zulu = argFoo;
             report = report.bind(golf)(zulu, tango);
             tango = _closure1_slot3;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = report[mike];
                     mike = null;
                     report = mike == oscar;
-                    if(report) { _fun00008_ip = 115; continue _fun00007 }
+                    if(report) { _fun00008_ip = 113; continue _fun00007 }
  98:
                     report = oscar.map;
                     tango = function(argFoo) {
@@ -399,14 +399,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         }
                     };
                     entity = report.bind(oscar)(tango);
- 115:
-                    if(!(mike == entity)) { _fun00008_ip = 134; continue _fun00007 }
- 119:
+ 113:
+                    if(!(mike == entity)) { _fun00008_ip = 132; continue _fun00007 }
+ 117:
                     mike = new Array(2);
                     mike[0] = zulu;
                     mike[1] = zulu;
                     entity = mike;
- 134:
+ 132:
                     return entity;
                 }
             };
@@ -441,8 +441,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = verify;
             zulu = yankee;
             verify = romeo;
-            if(entity) { _fun00006_ip = 422; continue _fun00005 }
- 331:
+            if(entity) { _fun00006_ip = 420; continue _fun00005 }
+ 329:
             foxtrot = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[options];
@@ -454,8 +454,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.bind(foxtrot)();
             zulu = zulu + 1;
             verify = foxtrot;
-            if(!(zulu < options)) { _fun00006_ip = 422; continue _fun00005 }
- 384:
+            if(!(zulu < options)) { _fun00006_ip = 420; continue _fun00005 }
+ 382:
             backup = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[oscar];
@@ -464,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(backup)(foxtrot);
             romeo = foxtrot;
             verify = romeo;
-            if(!(entity >= offset)) { _fun00006_ip = 331; continue _fun00005 }
- 422:
+            if(!(entity >= offset)) { _fun00006_ip = 329; continue _fun00005 }
+ 420:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[oscar];
@@ -475,8 +475,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity >= offset;
             zulu = tango;
             tango = zulu;
-            if(entity) { _fun00006_ip = 554; continue _fun00005 }
- 463:
+            if(entity) { _fun00006_ip = 552; continue _fun00005 }
+ 461:
             romeo = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[options];
@@ -488,8 +488,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.bind(romeo)();
             yankee = yankee + 1;
             tango = romeo;
-            if(!(yankee < options)) { _fun00006_ip = 554; continue _fun00005 }
- 516:
+            if(!(yankee < options)) { _fun00006_ip = 552; continue _fun00005 }
+ 514:
             foxtrot = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[oscar];
@@ -498,8 +498,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(foxtrot)(romeo);
             zulu = romeo;
             tango = zulu;
-            if(!(entity >= offset)) { _fun00006_ip = 463; continue _fun00005 }
- 554:
+            if(!(entity >= offset)) { _fun00006_ip = 461; continue _fun00005 }
+ 552:
             entity = {};
             zulu = _closure1_slot0;
             mike = _closure1_slot2;

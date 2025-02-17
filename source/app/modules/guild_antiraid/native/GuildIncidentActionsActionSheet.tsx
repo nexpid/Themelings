@@ -392,10 +392,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['iconPosition'] = romeo;
             romeo = verify != offset;
             verify = '';
-            if(!romeo) { _fun00002_ip = 573; continue _fun00001 }
- 570:
+            if(!romeo) { _fun00002_ip = 575; continue _fun00001 }
+ 572:
             verify = offset;
- 573:
+ 575:
             report['text'] = verify;
             verify = function() { // Original name: onPress
                 zulu = _closure1_slot0;
@@ -459,10 +459,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = config.bind(record)(sequence);
             romeo['subLabel'] = sequence;
             sequence = source;
-            if(sequence) { _fun00002_ip = 771; continue _fun00001 }
- 768:
+            if(sequence) { _fun00002_ip = 775; continue _fun00001 }
+ 772:
             sequence = foxtrot;
- 771:
+ 775:
             romeo['value'] = sequence;
             sequence = function() { // Original name: onValueChange
                 zulu = _closure1_slot7;
@@ -477,8 +477,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = vacuum.bind(tango)(backup, romeo);
             romeo = new Array(2);
             romeo[0] = backup;
-            if(!foxtrot) { _fun00002_ip = 981; continue _fun00001 }
- 811:
+            if(!foxtrot) { _fun00002_ip = 987; continue _fun00001 }
+ 815:
             sequence = _closure1_slot13;
             papa = _closure1_slot0;
             config = _closure1_slot2;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = record.bind(context)(config);
             backup['label'] = config;
             foxtrot = sequence.bind(tango)(vacuum, backup);
- 981:
+ 987:
             romeo[1] = foxtrot;
             golf['children'] = romeo;
             golf = offset.bind(tango)(verify, golf);
@@ -686,14 +686,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = 'md';
             verify['size'] = foxtrot;
             sizing = source !== sizing;
-            if(sizing) { _fun00002_ip = 1289; continue _fun00001 }
- 1285:
-            sizing = update !== echo;
- 1289:
-            if(sizing) { _fun00002_ip = 1295; continue _fun00001 }
- 1292:
-            sizing = output;
+            if(sizing) { _fun00002_ip = 1299; continue _fun00001 }
  1295:
+            sizing = update !== echo;
+ 1299:
+            if(sizing) { _fun00002_ip = 1305; continue _fun00001 }
+ 1302:
+            sizing = output;
+ 1305:
             sizing = !sizing;
             verify['disabled'] = sizing;
             romeo = backup.bind(tango)(romeo, verify);

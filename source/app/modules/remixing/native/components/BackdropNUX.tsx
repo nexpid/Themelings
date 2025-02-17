@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     mike = _closure1_slot7;
                     mike = mike.useReducedMotion;
-                    if(!mike) { _fun00006_ip = 60; continue _fun00005 }
+                    if(!mike) { _fun00006_ip = 58; continue _fun00005 }
  18:
                     zulu = _closure2_slot8;
                     mike = global;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = 4500;
                     mike = oscar.bind(report)(tango, mike);
                     zulu['current'] = mike;
- 60:
+ 58:
                     entity = function() {
                         entity = global;
                         zulu = entity.clearTimeout;
@@ -496,8 +496,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu['onStart'] = golf;
             options = tango.bind(oscar)(zulu);
-            if(mike) { _fun00002_ip = 1596; continue _fun00001 }
- 1142:
+            if(mike) { _fun00002_ip = 1584; continue _fun00001 }
+ 1128:
             tango = _closure1_slot12;
             zulu = _closure1_slot5;
             mike = {};
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1596:
+ 1584:
             return entity;
         }
     };
@@ -675,15 +675,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = verify.bind(offset)(entity, options);
             entity = null;
-            if(!(tango !== zulu)) { _fun00008_ip = 151; continue _fun00007 }
- 125:
+            if(!(tango !== zulu)) { _fun00008_ip = 147; continue _fun00007 }
+ 121:
             tango = _closure1_slot11;
             zulu = _closure1_slot17;
             mike = {};
             mike['canvasWidth'] = golf;
             mike['canvasHeight'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 151:
+ 147:
             return entity;
         }
     };

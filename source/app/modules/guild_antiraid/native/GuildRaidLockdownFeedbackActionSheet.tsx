@@ -347,8 +347,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.RaidLockdownFeedbackType;
             offset = offset.OTHER;
             offset = yankee.bind(romeo)(offset);
-            if(!offset) { _fun00002_ip = 950; continue _fun00001 }
- 838:
+            if(!offset) { _fun00002_ip = 964; continue _fun00001 }
+ 852:
             backup = _closure1_slot6;
             echo = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee['onChange'] = kilo;
             offset = backup.bind(tango)(romeo, yankee);
- 950:
+ 964:
             options[1] = offset;
             yankee = _closure1_slot6;
             kilo = _closure1_slot0;

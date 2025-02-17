@@ -86,32 +86,32 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity['location'] = options;
             entity = tango.bind(golf)(entity);
             tango = !mike;
-            if(tango) { _fun00002_ip = 134; continue _fun00001 }
- 131:
+            if(tango) { _fun00002_ip = 132; continue _fun00001 }
+ 129:
             tango = !entity;
- 134:
+ 132:
             entity = !tango;
-            if(!tango) { _fun00002_ip = 179; continue _fun00001 }
- 140:
-            if(mike) { _fun00002_ip = 170; continue _fun00001 }
- 143:
+            if(!tango) { _fun00002_ip = 177; continue _fun00001 }
+ 138:
+            if(mike) { _fun00002_ip = 168; continue _fun00001 }
+ 141:
             tango = null;
             tango = tango == oscar;
             report = undefined;
-            if(tango) { _fun00002_ip = 164; continue _fun00001 }
- 154:
+            if(tango) { _fun00002_ip = 162; continue _fun00001 }
+ 152:
             tango = oscar.isStaff;
             report = tango.bind(oscar)();
- 164:
+ 162:
             tango = true;
             mike = tango === report;
- 170:
-            if(!mike) { _fun00002_ip = 176; continue _fun00001 }
- 173:
+ 168:
+            if(!mike) { _fun00002_ip = 174; continue _fun00001 }
+ 171:
             mike = zulu;
- 176:
+ 174:
             entity = mike;
- 179:
+ 177:
             return entity;
         }
     };

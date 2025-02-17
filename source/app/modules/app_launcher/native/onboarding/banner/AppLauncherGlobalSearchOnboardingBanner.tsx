@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = verify.bind(offset)(entity, tango);
             entity = null;
-            if(!zulu) { _fun00002_ip = 336; continue _fun00001 }
+            if(!zulu) { _fun00002_ip = 340; continue _fun00001 }
  110:
             tango = _closure1_slot7;
             romeo = _closure1_slot0;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'bottom';
             mike['position'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 336:
+ 340:
             return entity;
         }
     };

@@ -158,8 +158,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun00002_ip = 567; continue _fun00001 }
- 492:
+            if(!oscar) { _fun00002_ip = 569; continue _fun00001 }
+ 494:
             verify = _closure1_slot14;
             options = _closure1_slot5;
             golf = {};
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 567:
+ 569:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
@@ -413,8 +413,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['title'] = backup;
             backup = _closure1_slot13;
             backup = backup.FP_ONLY;
-            if(!(foxtrot !== backup)) { _fun00008_ip = 327; continue _fun00007 }
- 291:
+            if(!(foxtrot !== backup)) { _fun00008_ip = 329; continue _fun00007 }
+ 293:
             kilo = romeo.customProfile;
             backup = new Array(3);
             backup[0] = kilo;
@@ -422,27 +422,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = kilo;
             kilo = romeo.serverBoosts;
             backup[2] = kilo;
-            _fun00008_ip = 390; continue _fun00007;
- 327:
+            _fun00008_ip = 392; continue _fun00007;
+ 329:
             output = romeo.customProfile;
-            if(yankee) { _fun00008_ip = 366; continue _fun00007 }
- 336:
+            if(yankee) { _fun00008_ip = 368; continue _fun00007 }
+ 338:
             kilo = new Array(3);
             kilo[0] = output;
             sizing = romeo.clientThemes;
             kilo[1] = sizing;
             sizing = romeo.greyServerBoosts;
             kilo[2] = sizing;
-            _fun00008_ip = 387; continue _fun00007;
- 366:
+            _fun00008_ip = 389; continue _fun00007;
+ 368:
             sizing = new Array(2);
             sizing[0] = output;
             output = romeo.clientThemes;
             sizing[1] = output;
             kilo = sizing;
- 387:
+ 389:
             backup = kilo;
- 390:
+ 392:
             report['perks'] = backup;
             backup = function(argFoo) { // Original name: onItemChange
                 tango = _closure2_slot0;
@@ -550,30 +550,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['title'] = backup;
             offset = _closure1_slot13;
             offset = offset.FP_ONLY;
-            if(!(foxtrot !== offset)) { _fun00008_ip = 814; continue _fun00007 }
- 788:
+            if(!(foxtrot !== offset)) { _fun00008_ip = 822; continue _fun00007 }
+ 796:
             foxtrot = romeo.entranceSounds;
             offset = new Array(2);
             offset[0] = foxtrot;
             foxtrot = romeo.badge;
             offset[1] = foxtrot;
-            _fun00008_ip = 857; continue _fun00007;
- 814:
+            _fun00008_ip = 865; continue _fun00007;
+ 822:
             foxtrot = romeo.entranceSounds;
-            if(yankee) { _fun00008_ip = 843; continue _fun00007 }
- 823:
+            if(yankee) { _fun00008_ip = 851; continue _fun00007 }
+ 831:
             yankee = new Array(2);
             yankee[0] = foxtrot;
             romeo = romeo.greyBadge;
             yankee[1] = romeo;
-            _fun00008_ip = 854; continue _fun00007;
- 843:
+            _fun00008_ip = 862; continue _fun00007;
+ 851:
             romeo = new Array(1);
             romeo[0] = foxtrot;
             yankee = romeo;
- 854:
+ 862:
             offset = yankee;
- 857:
+ 865:
             oscar['perks'] = offset;
             verify = function(argFoo) { // Original name: onItemChange
                 tango = _closure2_slot0;

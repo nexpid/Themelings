@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             zulu = tango.bind(options)(zulu);
-            if(mike) { _fun00002_ip = 920; continue _fun00001 }
+            if(mike) { _fun00002_ip = 928; continue _fun00001 }
  272:
             update = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -322,10 +322,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             config = entity == sequence;
             vacuum = undefined;
-            if(config) { _fun00002_ip = 737; continue _fun00001 }
- 731:
-            vacuum = sequence.priceString;
+            if(config) { _fun00002_ip = 743; continue _fun00001 }
  737:
+            vacuum = sequence.priceString;
+ 743:
             kilo['price'] = vacuum;
             kilo = source.bind(control)(update, kilo);
             offset['text'] = kilo;
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 920:
+ 928:
             return entity;
         }
     };

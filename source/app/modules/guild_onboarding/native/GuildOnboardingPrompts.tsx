@@ -1307,14 +1307,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure1_slot30;
                     mike = _closure2_slot5;
                     mike = zulu.bind(report)(mike);
-                    if(!mike) { _fun00032_ip = 574; continue _fun00031 }
+                    if(!mike) { _fun00032_ip = 576; continue _fun00031 }
  374:
                     report = _closure2_slot8;
                     zulu = report.push;
                     mike = _closure1_slot15;
                     mike = mike.RULES;
                     mike = zulu.bind(report)(mike);
-                    _fun00032_ip = 574; continue _fun00031;
+                    _fun00032_ip = 576; continue _fun00031;
  403:
                     oscar = _closure2_slot8;
                     report = oscar.push;
@@ -1325,14 +1325,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = golf + options;
                     mike['currentPrompt'] = golf;
                     mike = report.bind(oscar)(zulu, mike);
-                    _fun00032_ip = 574; continue _fun00031;
+                    _fun00032_ip = 576; continue _fun00031;
  448:
                     zulu = _closure2_slot8;
                     mike = zulu.push;
                     entity = _closure1_slot15;
                     entity = entity.COMPLETED;
                     entity = mike.bind(zulu)(entity);
-                    _fun00032_ip = 574; continue _fun00031;
+                    _fun00032_ip = 576; continue _fun00031;
  474:
                     mike = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -1357,7 +1357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(oscar)(tango);
                     entity['content'] = tango;
                     entity = mike.bind(zulu)(entity);
- 574:
+ 576:
                     entity = undefined;
                     return entity;
                 }
@@ -1794,16 +1794,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = {};
             status = context == target;
             papa = undefined;
-            if(status) { _fun00006_ip = 2591; continue _fun00005 }
- 2586:
+            if(status) { _fun00006_ip = 2593; continue _fun00005 }
+ 2588:
             papa = target.name;
- 2591:
+ 2593:
             target = context != papa;
             context = '';
-            if(!target) { _fun00006_ip = 2605; continue _fun00005 }
- 2602:
+            if(!target) { _fun00006_ip = 2607; continue _fun00005 }
+ 2604:
             context = papa;
- 2605:
+ 2607:
             control['guildName'] = context;
             control = config.bind(record)(sequence, control);
             offset['children'] = control;

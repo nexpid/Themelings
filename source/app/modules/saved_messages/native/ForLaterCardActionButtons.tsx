@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.dueAt;
             golf = oscar != golf;
             oscar = null;
-            if(!golf) { _fun00002_ip = 928; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 930; continue _fun00001 }
  794:
             verify = _closure1_slot5;
             sizing = _closure1_slot0;
@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             golf['onPress'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 928:
+ 930:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

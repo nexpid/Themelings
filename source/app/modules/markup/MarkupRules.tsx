@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity.return();
  58:
             entity = golf.returnMentionIds;
-            if(entity) { _fun00022_ip = 370; continue _fun00021 }
+            if(entity) { _fun00022_ip = 372; continue _fun00021 }
  70:
             entity = _closure1_slot19;
             report = entity.bind(options)(golf);
@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = report;
             entity['content'] = zulu;
-            _fun00022_ip = 368; continue _fun00021;
+            _fun00022_ip = 370; continue _fun00021;
  274:
             zulu = {};
             report = 'text';
@@ -699,9 +699,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(tango)(oscar);
             zulu['content'] = tango;
             entity = zulu;
- 368:
-            return entity;
  370:
+            return entity;
+ 372:
             entity = {};
             zulu = 'roleMention';
             entity['type'] = zulu;

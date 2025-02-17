@@ -248,10 +248,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.name;
             zulu = mike.memo;
             mike = undefined;
-            if(!(zulu === mike)) { _fun00006_ip = 55; continue _fun00005 }
- 53:
+            if(!(zulu === mike)) { _fun00006_ip = 53; continue _fun00005 }
+ 51:
             zulu = false;
- 55:
+ 53:
             var _closure2_slot3 = mike;
             golf = _closure1_slot3;
             oscar = golf.lazy;
@@ -304,16 +304,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             entity = tango;
-            if(!zulu) { _fun00006_ip = 111; continue _fun00005 }
- 97:
+            if(!zulu) { _fun00006_ip = 109; continue _fun00005 }
+ 95:
             zulu = _closure1_slot3;
             mike = zulu.memo;
             entity = mike.bind(zulu)(tango);
- 111:
-            if(report) { _fun00006_ip = 118; continue _fun00005 }
- 114:
+ 109:
+            if(report) { _fun00006_ip = 116; continue _fun00005 }
+ 112:
             report = 'Unknown';
- 118:
+ 116:
             mike = global;
             mike = mike.HermesInternal;
             tango = mike.concat;

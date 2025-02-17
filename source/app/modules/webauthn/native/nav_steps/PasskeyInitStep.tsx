@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             _closure2_slot3 = entity;
             entity = options.length;
-            if(!(mike !== entity)) { _fun00002_ip = 283; continue _fun00001 }
+            if(!(mike !== entity)) { _fun00002_ip = 285; continue _fun00001 }
  171:
             zulu = _closure1_slot9;
             romeo = _closure1_slot0;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 283:
+ 285:
             zulu = _closure1_slot10;
             mike = _closure1_slot6;
             entity = {};

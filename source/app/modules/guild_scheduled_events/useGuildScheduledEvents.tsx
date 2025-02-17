@@ -195,13 +195,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot0;
                 tango = tango.bind(report)(zulu);
                 zulu = null;
-                if(!(zulu != tango)) { _fun00004_ip = 241; continue _fun00003 }
+                if(!(zulu != tango)) { _fun00004_ip = 237; continue _fun00003 }
  35:
                 oscar = tango.hasFeature;
                 report = _closure1_slot15;
                 report = report.HUB;
                 report = oscar.bind(tango)(report);
-                if(report) { _fun00004_ip = 127; continue _fun00003 }
+                if(report) { _fun00004_ip = 125; continue _fun00003 }
  59:
                 golf = _closure1_slot11;
                 oscar = golf.getGuildScheduledEventsByIndex;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 report = oscar.bind(golf)(report);
                 return report;
- 127:
+ 125:
                 oscar = _closure1_slot6;
                 report = oscar.getDefaultChannel;
                 tango = tango.id;
@@ -250,17 +250,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu == tango;
                 oscar = undefined;
                 golf = undefined;
-                if(report) { _fun00004_ip = 163; continue _fun00003 }
- 158:
+                if(report) { _fun00004_ip = 161; continue _fun00003 }
+ 156:
                 golf = tango.id;
- 163:
+ 161:
                 report = _closure1_slot4;
                 tango = report.getEventDirectoryEntries;
                 tango = tango.bind(report)(golf);
-                if(!(zulu == tango)) { _fun00004_ip = 186; continue _fun00003 }
- 182:
+                if(!(zulu == tango)) { _fun00004_ip = 184; continue _fun00003 }
+ 180:
                 tango = new Array(0);
- 186:
+ 184:
                 zulu = tango.map;
                 mike = function(argFoo) {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.isNotNullish;
                 mike = zulu.bind(tango)(mike);
                 return mike;
- 241:
+ 237:
                 entity = _closure1_slot17;
                 return entity;
             }
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun00016_ip = 42; continue _fun00015 }
+                    if(!(mike != zulu)) { _fun00016_ip = 40; continue _fun00015 }
  13:
                     tango = _closure2_slot1;
                     zulu = tango.reduce;
@@ -508,10 +508,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     entity = {};
                     entity = zulu.bind(tango)(mike, entity);
-                    _fun00016_ip = 44; continue _fun00015;
- 42:
+                    _fun00016_ip = 42; continue _fun00015;
+ 40:
                     entity = {};
- 44:
+ 42:
                     return entity;
                 }
             };
@@ -532,33 +532,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = tango.bind(report)(zulu, mike);
             golf = null;
             mike = golf != report;
-            if(!mike) { _fun00014_ip = 235; continue _fun00013 }
- 211:
+            if(!mike) { _fun00014_ip = 227; continue _fun00013 }
+ 203:
             tango = report.hasFeature;
             zulu = _closure1_slot15;
             zulu = zulu.COMMUNITY;
             zulu = tango.bind(report)(zulu);
             mike = !zulu;
- 235:
-            if(!mike) { _fun00014_ip = 259; continue _fun00013 }
- 238:
+ 227:
+            if(!mike) { _fun00014_ip = 251; continue _fun00013 }
+ 230:
             tango = report.hasFeature;
             zulu = _closure1_slot15;
             zulu = zulu.INTERNAL_EMPLOYEE_ONLY;
             mike = tango.bind(report)(zulu);
- 259:
-            if(!(golf != yankee)) { _fun00014_ip = 389; continue _fun00013 }
- 266:
-            if(!(golf != options)) { _fun00014_ip = 389; continue _fun00013 }
- 270:
-            if(!mike) { _fun00014_ip = 389; continue _fun00013 }
- 273:
+ 251:
+            if(!(golf != yankee)) { _fun00014_ip = 381; continue _fun00013 }
+ 258:
+            if(!(golf != options)) { _fun00014_ip = 381; continue _fun00013 }
+ 262:
+            if(!mike) { _fun00014_ip = 381; continue _fun00013 }
+ 265:
             mike = yankee.length;
             oscar = 0;
             mike = oscar < mike;
             report = 15;
-            if(!mike) { _fun00014_ip = 389; continue _fun00013 }
- 290:
+            if(!mike) { _fun00014_ip = 381; continue _fun00013 }
+ 282:
             zulu = yankee[oscar];
             mike = zulu.id;
             kilo = offset[mike];
@@ -567,10 +567,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.id;
             mike = options[mike];
             foxtrot = golf != mike;
-            if(!foxtrot) { _fun00014_ip = 331; continue _fun00013 }
- 328:
+            if(!foxtrot) { _fun00014_ip = 323; continue _fun00013 }
+ 320:
             foxtrot = mike;
- 331:
+ 323:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
             mike = mike[report];
@@ -582,14 +582,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = backup;
             sizing = foxtrot;
             mike = update[mike](echo, result, output, sizing, kilo);
-            if(!(golf == mike)) { _fun00014_ip = 391; continue _fun00013 }
- 377:
+            if(!(golf == mike)) { _fun00014_ip = 383; continue _fun00013 }
+ 369:
             oscar = oscar + 1;
             tango = yankee.length;
-            if(oscar < tango) { _fun00014_ip = 290; continue _fun00013 }
- 389:
+            if(oscar < tango) { _fun00014_ip = 282; continue _fun00013 }
+ 381:
             return entity;
- 391:
+ 383:
             entity = {};
             entity['upcomingEvent'] = zulu;
             entity['noticeType'] = mike;
@@ -741,10 +741,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 report = entity == tango;
                 entity = undefined;
-                if(report) { _fun00020_ip = 84; continue _fun00019 }
- 79:
+                if(report) { _fun00020_ip = 82; continue _fun00019 }
+ 77:
                 entity = tango.channel_id;
- 84:
+ 82:
                 entity = mike.bind(zulu)(entity);
                 return entity;
             }

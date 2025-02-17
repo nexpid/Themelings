@@ -440,13 +440,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun00014_ip = 374; continue _fun00013 }
+                        if(zulu) { _fun00014_ip = 370; continue _fun00013 }
  12:
                         report = undefined;
                         yankee = undefined;
                         oscar = _closure2_slot0;
                         tango = _closure2_slot1;
-                        if(tango) { _fun00014_ip = 51; continue _fun00013 }
+                        if(tango) { _fun00014_ip = 49; continue _fun00013 }
  30:
                         golf = _closure2_slot0;
                         tango = golf.filter;
@@ -536,12 +536,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             }
                         };
                         oscar = tango.bind(golf)(zulu);
- 51:
+ 49:
                         zulu = oscar;
                         tango = zulu.length;
                         zulu = 0;
-                        if(!(tango > zulu)) { _fun00014_ip = 304; continue _fun00013 }
- 68:
+                        if(!(tango > zulu)) { _fun00014_ip = 300; continue _fun00013 }
+ 66:
                         options = _closure1_slot1;
                         tango = _closure1_slot2;
                         golf = 5;
@@ -554,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = oscar;
                         tango['applicationIds'] = romeo;
                         tango = options.bind(verify)(tango);
- 119: // try_start_0
+ 117: // try_start_0
                         options = _closure1_slot0;
                         verify = _closure1_slot2;
                         tango = 6;
@@ -590,15 +590,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         offset = false;
                         tango['rejectWithError'] = offset;
                         tango = options.bind(verify)(tango);
-                        SaveGenerator(address=248);
- 246:
+                        SaveGenerator(address=244);
+ 242:
                         return tango;
- 248:
+ 244:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                        if(options) { _fun00014_ip = 307; continue _fun00013 }
- 254:
+                        if(options) { _fun00014_ip = 303; continue _fun00013 }
+ 250:
                         yankee = tango;
- 257: // try_end0
+ 253: // try_end0
                         verify = _closure1_slot1;
                         options = _closure1_slot2;
                         options = options[golf];
@@ -610,17 +610,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = yankee.body;
                         options['applications'] = yankee;
                         options = verify.bind(offset)(options);
- 304:
+ 300:
                         return report;
- 307:
+ 303:
                         return tango;
- 310: // catch_target0
+ 306: // catch_target0
                         CatchBlockStart(arg_register=3);
                         mike = tango;
                         options = tango.status;
                         tango = 429;
-                        if(!(tango !== options)) { _fun00014_ip = 372; continue _fun00013 }
- 330:
+                        if(!(tango !== options)) { _fun00014_ip = 368; continue _fun00013 }
+ 326:
                         tango = _closure1_slot1;
                         zulu = _closure1_slot2;
                         zulu = zulu[golf];
@@ -631,9 +631,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu['type'] = golf;
                         zulu['applicationIds'] = oscar;
                         zulu = tango.bind(report)(zulu);
- 372:
+ 368:
                         throw mike;
- 374:
+ 370:
                         return entity;
                     }
                 };

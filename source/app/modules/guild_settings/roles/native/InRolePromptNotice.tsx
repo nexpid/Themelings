@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.IN_PROMPT;
             mike = zulu.bind(report)(mike, entity);
             entity = null;
-            if(!mike) { _fun00002_ip = 499; continue _fun00001 }
+            if(!mike) { _fun00002_ip = 503; continue _fun00001 }
  77:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 7;
             golf = kilo[golf];
             verify = foxtrot.bind(oscar)(golf);
-            if(mike) { _fun00002_ip = 316; continue _fun00001 }
+            if(mike) { _fun00002_ip = 318; continue _fun00001 }
  158:
             mike = {};
             golf = yankee.icon;
@@ -136,8 +136,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = golf;
             zulu['children'] = mike;
             mike = report.bind(oscar)(tango, zulu);
-            _fun00002_ip = 496; continue _fun00001;
- 316:
+            _fun00002_ip = 500; continue _fun00001;
+ 318:
             golf = {};
             romeo = yankee.icon;
             golf['style'] = romeo;
@@ -179,9 +179,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             zulu['children'] = golf;
             mike = report.bind(oscar)(tango, zulu);
- 496:
+ 500:
             entity = mike;
- 499:
+ 503:
             return entity;
         }
     };

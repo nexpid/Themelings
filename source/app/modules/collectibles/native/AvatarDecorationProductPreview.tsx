@@ -210,10 +210,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = {};
             backup = offset == yankee;
             offset = undefined;
-            if(backup) { _fun00002_ip = 294; continue _fun00001 }
- 289:
+            if(backup) { _fun00002_ip = 296; continue _fun00001 }
+ 291:
             offset = yankee.name;
- 294:
+ 296:
             report['avatarDecoration'] = offset;
             report = golf.bind(verify)(oscar, report);
             entity['accessibilityLabel'] = report;

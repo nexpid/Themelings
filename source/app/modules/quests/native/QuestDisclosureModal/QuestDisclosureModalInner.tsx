@@ -255,8 +255,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['children'] = backup;
             options = romeo.bind(tango)(offset, options);
             report[1] = options;
-            if(!golf) { _fun00002_ip = 574; continue _fun00001 }
- 505:
+            if(!golf) { _fun00002_ip = 580; continue _fun00001 }
+ 511:
             romeo = _closure1_slot6;
             offset = _closure1_slot0;
             backup = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = backup.bind(kilo)(foxtrot);
             options['children'] = foxtrot;
             golf = romeo.bind(tango)(offset, options);
- 574:
+ 580:
             report[2] = golf;
             options = _closure1_slot6;
             kilo = _closure1_slot0;

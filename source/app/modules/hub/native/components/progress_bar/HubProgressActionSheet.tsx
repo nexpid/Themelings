@@ -218,15 +218,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[result];
             mike = oscar.bind(tango)(mike);
             mike = mike.t;
-            if(verify) { _fun00002_ip = 274; continue _fun00001 }
+            if(verify) { _fun00002_ip = 276; continue _fun00001 }
  261:
             oscar = mike.hRVjpa;
             romeo = zulu.bind(report)(oscar);
-            _fun00002_ip = 285; continue _fun00001;
- 274:
+            _fun00002_ip = 289; continue _fun00001;
+ 276:
             mike = mike.zQ4gGh;
             romeo = zulu.bind(report)(mike);
- 285:
+ 289:
             report = _closure1_slot15;
             zulu = _closure1_slot4;
             mike = {};
@@ -493,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[0] = yankee;
             golf['style'] = offset;
             romeo = _closure1_slot14;
-            if(verify) { _fun00002_ip = 1084; continue _fun00001 }
- 947:
+            if(verify) { _fun00002_ip = 1088; continue _fun00001 }
+ 951:
             echo = _closure1_slot0;
             kilo = _closure1_slot2;
             verify = 26;
@@ -523,8 +523,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = romeo.bind(tango)(backup, yankee);
             verify['children'] = yankee;
             verify = romeo.bind(tango)(offset, verify);
-            _fun00002_ip = 1168; continue _fun00001;
- 1084:
+            _fun00002_ip = 1172; continue _fun00001;
+ 1088:
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
             offset = 25;
@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['text'] = backup;
             offset['onPress'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 1168:
+ 1172:
             golf['children'] = verify;
             golf = options.bind(tango)(zulu, golf);
             oscar[4] = golf;

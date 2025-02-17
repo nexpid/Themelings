@@ -454,8 +454,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['source'] = romeo;
             update[2] = mike;
             tango = _closure1_slot6;
-            if(entity) { _fun00004_ip = 1662; continue _fun00003 }
- 989:
+            if(entity) { _fun00004_ip = 1678; continue _fun00003 }
+ 1005:
             mike = _closure1_slot4;
             entity = {};
             options = _closure1_slot5;
@@ -604,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[5] = oscar;
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun00004_ip = 1894; continue _fun00003;
- 1662:
+            _fun00004_ip = 1910; continue _fun00003;
+ 1678:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
             mike = 15;
@@ -729,7 +729,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1894:
+ 1910:
             return entity;
         }
     };

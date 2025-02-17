@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.saveData;
             yankee = offset.dueAt;
             offset = null;
-            if(!(offset == yankee)) { _fun00002_ip = 297; continue _fun00001 }
+            if(!(offset == yankee)) { _fun00002_ip = 299; continue _fun00001 }
  240:
             kilo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -73,8 +73,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.o572FR;
             offset = yankee.bind(backup)(offset);
-            _fun00002_ip = 352; continue _fun00001;
- 297:
+            _fun00002_ip = 356; continue _fun00001;
+ 299:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 12;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.t;
             yankee = yankee.wuQm+v;
             offset = backup.bind(kilo)(yankee);
- 352:
+ 356:
             oscar['children'] = offset;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

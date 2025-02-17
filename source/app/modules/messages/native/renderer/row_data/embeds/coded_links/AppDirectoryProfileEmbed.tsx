@@ -412,32 +412,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             tango = options.bind(verify)(tango, golf);
-            if(zulu) { _fun00006_ip = 169; continue _fun00005 }
- 120:
-            if(entity) { _fun00006_ip = 151; continue _fun00005 }
- 123:
+            if(zulu) { _fun00006_ip = 165; continue _fun00005 }
+ 116:
+            if(entity) { _fun00006_ip = 147; continue _fun00005 }
+ 119:
             entity = null;
-            if(!(entity != oscar)) { _fun00006_ip = 151; continue _fun00005 }
- 129:
+            if(!(entity != oscar)) { _fun00006_ip = 147; continue _fun00005 }
+ 125:
             tango = _closure1_slot7;
             zulu = _closure1_slot10;
             entity = {};
             entity['application'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun00006_ip = 167; continue _fun00005;
- 151:
+            _fun00006_ip = 163; continue _fun00005;
+ 147:
             oscar = _closure1_slot7;
             tango = _closure1_slot8;
             zulu = {};
             entity = oscar.bind(report)(tango, zulu);
- 167:
-            _fun00006_ip = 185; continue _fun00005;
- 169:
+ 163:
+            _fun00006_ip = 181; continue _fun00005;
+ 165:
             tango = _closure1_slot7;
             zulu = _closure1_slot9;
             mike = {};
             entity = tango.bind(report)(zulu, mike);
- 185:
+ 181:
             return entity;
         }
     };

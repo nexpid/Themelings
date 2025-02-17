@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.has;
                 tango = report.bind(oscar)(golf);
  85:
-                if(tango) { _fun00002_ip = 126; continue _fun00001 }
+                if(tango) { _fun00002_ip = 124; continue _fun00001 }
  88:
                 tango = _closure1_slot0;
                 report = _closure1_slot1;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 mike = zulu.bind(tango)(mike);
- 126:
+ 124:
                 return entity;
             }
         };

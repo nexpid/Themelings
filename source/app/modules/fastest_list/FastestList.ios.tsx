@@ -285,22 +285,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = zulu.bind(foxtrot)(entity, mike);
             mike = backup.scrollReporting;
             entity = 'animatedCallbacks';
-            if(!(entity !== mike)) { _fun00004_ip = 461; continue _fun00003 }
- 439:
+            if(!(entity !== mike)) { _fun00004_ip = 457; continue _fun00003 }
+ 435:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 4;
             entity = zulu[entity];
             zulu = mike.bind(tango)(entity);
-            _fun00004_ip = 487; continue _fun00003;
- 461:
+            _fun00004_ip = 483; continue _fun00003;
+ 457:
             mike = _closure1_slot0;
             variable41 = _closure1_slot2;
             entity = 4;
             entity = variable41[entity];
             entity = mike.bind(tango)(entity);
             zulu = entity.AnimatedFastList;
- 487:
+ 483:
             mike = _closure1_slot4;
             entity = {};
             entity['accessibilityLabel'] = variable40;
@@ -311,10 +311,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['batchesToRender'] = variable37;
             entity['chunkBase'] = quebec;
             quebec = 'disabled';
-            if(!variable36) { _fun00004_ip = 536; continue _fun00003 }
- 532:
+            if(!variable36) { _fun00004_ip = 532; continue _fun00003 }
+ 528:
             quebec = 'default';
- 536:
+ 532:
             entity['stickySectionsVariant'] = quebec;
             entity['footerSize'] = equality;
             entity['getRecyclerKey'] = whiskey;
@@ -330,10 +330,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = backup.scrollReporting;
             sizing = 'animatedScrollPosition';
             sequence = undefined;
-            if(!(sizing !== record)) { _fun00004_ip = 617; continue _fun00003 }
- 614:
+            if(!(sizing !== record)) { _fun00004_ip = 613; continue _fun00003 }
+ 610:
             sequence = config;
- 617:
+ 613:
             entity['onScroll'] = sequence;
             entity['onScrollBeginDrag'] = vacuum;
             entity['onScrollEndDrag'] = control;
@@ -350,20 +350,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['scrollIndicatorInsets'] = foxtrot;
             kilo = backup.scrollReporting;
             foxtrot = undefined;
-            if(!(sizing === kilo)) { _fun00004_ip = 699; continue _fun00003 }
- 693:
+            if(!(sizing === kilo)) { _fun00004_ip = 695; continue _fun00003 }
+ 689:
             foxtrot = backup.scrollPosition;
- 699:
+ 695:
             entity['scrollPosValue'] = foxtrot;
             entity['sections'] = romeo;
             entity['sectionSize'] = yankee;
             entity['sectionFooterSize'] = offset;
             entity['showsHorizontalScrollIndicator'] = verify;
             entity['showsVerticalScrollIndicator'] = options;
-            if(oscar) { _fun00004_ip = 735; continue _fun00003 }
- 732:
+            if(oscar) { _fun00004_ip = 731; continue _fun00003 }
+ 728:
             oscar = golf;
- 735:
+ 731:
             entity['stickyHeaderFooter'] = oscar;
             entity['style'] = report;
             entity = mike.bind(tango)(zulu, entity);

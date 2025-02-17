@@ -438,8 +438,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.bind(tango)(options, golf);
             report[1] = golf;
             oscar = oscar != foxtrot;
-            if(!oscar) { _fun00004_ip = 839; continue _fun00003 }
- 780:
+            if(!oscar) { _fun00004_ip = 843; continue _fun00003 }
+ 784:
             verify = _closure1_slot8;
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = backup;
             golf['children'] = foxtrot;
             oscar = verify.bind(tango)(options, golf);
- 839:
+ 843:
             report[2] = oscar;
             options = _closure1_slot8;
             golf = _closure1_slot5;
@@ -776,8 +776,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.bind(tango)(options, golf);
             report[1] = golf;
             oscar = oscar != foxtrot;
-            if(!oscar) { _fun00008_ip = 700; continue _fun00007 }
- 641:
+            if(!oscar) { _fun00008_ip = 702; continue _fun00007 }
+ 643:
             verify = _closure1_slot8;
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -789,7 +789,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = backup;
             golf['children'] = foxtrot;
             oscar = verify.bind(tango)(options, golf);
- 700:
+ 702:
             report[2] = oscar;
             options = _closure1_slot8;
             golf = _closure1_slot5;
@@ -1062,7 +1062,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00012_ip = 456; continue _fun00011 }
+            if(!(mike != entity)) { _fun00012_ip = 448; continue _fun00011 }
  14:
             foxtrot = function() { // Original name: onClose
                 zulu = _closure1_slot1;
@@ -1204,7 +1204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['headerBackTitle'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             return entity;
- 456:
+ 448:
             sizing = "Cannot destructure 'undefined' or 'null'.";
             output = mike;
             entity = throwTypeError(output, sizing);

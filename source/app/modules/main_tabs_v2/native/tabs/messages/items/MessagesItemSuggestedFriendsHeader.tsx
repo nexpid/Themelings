@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.headerContainer;
             entity['style'] = golf;
             golf = null;
-            if(!report) { _fun00002_ip = 324; continue _fun00001 }
+            if(!report) { _fun00002_ip = 320; continue _fun00001 }
  220:
             offset = _closure1_slot7;
             options = _closure1_slot6;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[1] = romeo;
             report['children'] = yankee;
             golf = offset.bind(tango)(options, report);
- 324:
+ 320:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot5;

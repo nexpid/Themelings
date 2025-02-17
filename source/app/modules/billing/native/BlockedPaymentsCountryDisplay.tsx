@@ -157,17 +157,17 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             verify = verify.bind(yankee)(romeo);
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
-            if(verify) { _fun00002_ip = 338; continue _fun00001 }
- 324:
+            if(verify) { _fun00002_ip = 342; continue _fun00001 }
+ 328:
             verify = 12;
             verify = romeo[verify];
             verify = yankee.bind(tango)(verify);
-            _fun00002_ip = 350; continue _fun00001;
- 338:
+            _fun00002_ip = 354; continue _fun00001;
+ 342:
             offset = 11;
             offset = romeo[offset];
             verify = yankee.bind(tango)(offset);
- 350:
+ 354:
             oscar['source'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[2] = oscar;

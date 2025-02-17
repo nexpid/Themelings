@@ -518,24 +518,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             yankee = null;
             backup = yankee != vacuum;
-            if(!backup) { _fun00008_ip = 477; continue _fun00007 }
- 456:
+            if(!backup) { _fun00008_ip = 481; continue _fun00007 }
+ 460:
             control = _closure1_slot7;
             output = _closure1_slot10;
             kilo = {};
             kilo['attachment'] = vacuum;
             backup = control.bind(tango)(output, kilo);
- 477:
+ 481:
             offset[2] = backup;
             yankee = yankee != update;
-            if(!yankee) { _fun00008_ip = 509; continue _fun00007 }
- 488:
+            if(!yankee) { _fun00008_ip = 513; continue _fun00007 }
+ 492:
             output = _closure1_slot7;
             kilo = _closure1_slot9;
             backup = {};
             backup['embed'] = update;
             yankee = output.bind(tango)(kilo, backup);
- 509:
+ 513:
             offset[3] = yankee;
             options['children'] = offset;
             verify = golf.bind(tango)(verify, options);

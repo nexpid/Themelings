@@ -328,8 +328,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = offset.bind(yankee)(entity, zulu);
             entity = null;
-            if(!(entity != verify)) { _fun00006_ip = 353; continue _fun00005 }
- 319:
+            if(!(entity != verify)) { _fun00006_ip = 345; continue _fun00005 }
+ 311:
             entity = {};
             entity['canCreateExpressions'] = options;
             entity['canCreateGuildEvent'] = golf;
@@ -337,10 +337,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['canManageAllEvents'] = report;
             entity['canManageGuildExpression'] = tango;
             entity['canManageGuildEvent'] = zulu;
-            _fun00006_ip = 357; continue _fun00005;
- 353:
+            _fun00006_ip = 349; continue _fun00005;
+ 345:
             entity = _closure1_slot12;
- 357:
+ 349:
             return entity;
         }
     };
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(verify)();
             _closure2_slot4 = entity;
             entity = null;
-            if(!(entity != options)) { _fun00008_ip = 284; continue _fun00007 }
+            if(!(entity != options)) { _fun00008_ip = 280; continue _fun00007 }
  236:
             entity = {};
             entity['canCreateExpressions'] = golf;
@@ -436,10 +436,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             entity['canManageGuildEvent'] = zulu;
-            _fun00008_ip = 288; continue _fun00007;
- 284:
+            _fun00008_ip = 284; continue _fun00007;
+ 280:
             entity = _closure1_slot12;
- 288:
+ 284:
             return entity;
         }
     };

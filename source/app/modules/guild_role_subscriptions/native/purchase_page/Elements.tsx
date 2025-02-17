@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(zulu)(mike);
             _closure2_slot4 = entity;
             oscar = foxtrot;
-            if(!oscar) { _fun00002_ip = 324; continue _fun00001 }
+            if(!oscar) { _fun00002_ip = 328; continue _fun00001 }
  174:
             zulu = _closure1_slot9;
             mike = _closure1_slot7;
@@ -162,20 +162,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = echo[kilo];
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.t;
-            if(romeo) { _fun00002_ip = 293; continue _fun00001 }
+            if(romeo) { _fun00002_ip = 295; continue _fun00001 }
  280:
             kilo = sizing.Fbrd8P;
             kilo = output.bind(result)(kilo);
-            _fun00002_ip = 304; continue _fun00001;
- 293:
+            _fun00002_ip = 308; continue _fun00001;
+ 295:
             sizing = sizing.JQX/PT;
             kilo = output.bind(result)(sizing);
- 304:
+ 308:
             options['children'] = kilo;
             options = zulu.bind(tango)(backup, options);
             entity['children'] = options;
             oscar = zulu.bind(tango)(mike, entity);
- 324:
+ 328:
             zulu = _closure1_slot10;
             mike = _closure1_slot6;
             entity = {};
@@ -200,10 +200,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = options;
             options = 'togglebutton';
             entity['accessibilityRole'] = options;
-            if(!foxtrot) { _fun00002_ip = 368; continue _fun00001 }
- 358:
+            if(!foxtrot) { _fun00002_ip = 372; continue _fun00001 }
+ 362:
             golf = 0.8;
- 368:
+ 372:
             entity['activeOpacity'] = golf;
             options = _closure1_slot9;
             golf = _closure1_slot0;
@@ -217,13 +217,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = yankee;
             yankee = copyDataProperties(control, source);
             yankee = undefined;
-            if(!foxtrot) { _fun00002_ip = 427; continue _fun00001 }
- 419:
+            if(!foxtrot) { _fun00002_ip = 431; continue _fun00001 }
+ 423:
             yankee = undefined;
-            if(romeo) { _fun00002_ip = 427; continue _fun00001 }
- 424:
+            if(romeo) { _fun00002_ip = 431; continue _fun00001 }
+ 428:
             yankee = offset;
- 427:
+ 431:
             offset = 'lineClamp';
             report[offset] = yankee;
             offset = function(argFoo) { // Original name: onTextLayout

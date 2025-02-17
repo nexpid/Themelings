@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 133; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 135; continue _fun00001 }
  10:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -83,21 +83,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = false;
                     mike['rejectWithError'] = oscar;
                     mike = tango.bind(report)(mike);
-                    SaveGenerator(address=102);
- 100:
-                    return mike;
+                    SaveGenerator(address=104);
  102:
+                    return mike;
+ 104:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 130; continue _fun00001 }
- 108:
+                    if(tango) { _fun00002_ip = 132; continue _fun00001 }
+ 110:
                     report = mike.body;
                     tango = report.map;
                     zulu = _closure1_slot10;
                     zulu = tango.bind(report)(zulu);
                     return zulu;
- 130:
+ 132:
                     return mike;
- 133:
+ 135:
                     return entity;
                 }
             };

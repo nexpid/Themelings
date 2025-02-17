@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -375,12 +375,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(entity)(tango);
                     tango = report.isAndroid;
                     tango = tango.bind(report)();
-                    if(tango) { _fun00010_ip = 205; continue _fun00009 }
- 148:
+                    if(tango) { _fun00010_ip = 203; continue _fun00009 }
+ 146:
                     tango = _closure1_slot8;
                     tango = tango.DCDHomeIndicator;
-                    if(!tango) { _fun00010_ip = 241; continue _fun00009 }
- 161:
+                    if(!tango) { _fun00010_ip = 239; continue _fun00009 }
+ 159:
                     tango = _closure1_slot8;
                     golf = tango.DCDHomeIndicator;
                     report = golf.setPrefersAutoHidden;
@@ -388,8 +388,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = tango.DCDHomeIndicator;
                     tango = report.setPrefersDeferringSystemGestures;
                     tango = tango.bind(report)(oscar);
-                    _fun00010_ip = 241; continue _fun00009;
- 205:
+                    _fun00010_ip = 239; continue _fun00009;
+ 203:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 10;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.setNavigationBarVisible;
                     mike = !mike;
                     mike = zulu.bind(tango)(mike);
- 241:
+ 239:
                     return entity;
                 }
             };

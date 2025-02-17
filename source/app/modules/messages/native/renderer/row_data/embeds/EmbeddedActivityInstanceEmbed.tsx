@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  55:
             report = tango == oscar;
             entity = null;
-            if(report) { _fun00002_ip = 101; continue _fun00001 }
+            if(report) { _fun00002_ip = 99; continue _fun00001 }
  64:
             report = golf.findActivity;
             zulu = function(argFoo) {
@@ -41,12 +41,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(golf)(oscar, zulu);
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun00002_ip = 98; continue _fun00001 }
- 92:
+            if(tango) { _fun00002_ip = 96; continue _fun00001 }
+ 90:
             mike = zulu.details;
- 98:
+ 96:
             entity = mike;
- 101:
+ 99:
             return entity;
         }
     };
@@ -128,30 +128,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             zulu = foxtrot == echo;
             options = undefined;
-            if(zulu) { _fun00004_ip = 117; continue _fun00003 }
- 112:
+            if(zulu) { _fun00004_ip = 115; continue _fun00003 }
+ 110:
             options = echo.guild_id;
- 117:
+ 115:
             zulu = kilo;
-            if(!(foxtrot != echo)) { _fun00004_ip = 171; continue _fun00003 }
- 124:
+            if(!(foxtrot != echo)) { _fun00004_ip = 169; continue _fun00003 }
+ 122:
             report = echo.isThread;
             zulu = kilo;
-            if(!(foxtrot != report)) { _fun00004_ip = 171; continue _fun00003 }
- 137:
+            if(!(foxtrot != report)) { _fun00004_ip = 169; continue _fun00003 }
+ 135:
             report = echo.isThread;
             report = report.bind(echo)();
             zulu = kilo;
-            if(!report) { _fun00004_ip = 171; continue _fun00003 }
- 153:
+            if(!report) { _fun00004_ip = 169; continue _fun00003 }
+ 151:
             oscar = foxtrot == echo;
             report = undefined;
-            if(oscar) { _fun00004_ip = 168; continue _fun00003 }
- 162:
+            if(oscar) { _fun00004_ip = 166; continue _fun00003 }
+ 160:
             report = echo.parent_id;
- 168:
+ 166:
             zulu = report;
- 171:
+ 169:
             _closure2_slot3 = zulu;
             report = _closure1_slot0;
             offset = _closure1_slot2;
@@ -280,15 +280,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[sizing];
             zulu = update.bind(tango)(zulu);
             zulu = zulu.t;
-            if(offset) { _fun00004_ip = 462; continue _fun00003 }
- 449:
+            if(offset) { _fun00004_ip = 456; continue _fun00003 }
+ 443:
             offset = zulu.cX9uLS;
             offset = report.bind(echo)(offset);
-            _fun00004_ip = 473; continue _fun00003;
- 462:
+            _fun00004_ip = 467; continue _fun00003;
+ 456:
             zulu = zulu.JBnc7O;
             offset = report.bind(echo)(zulu);
- 473:
+ 467:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
             zulu = zulu[result];
@@ -318,50 +318,50 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = report.bind(result)(zulu, mike);
             report = foxtrot != mike;
-            if(!report) { _fun00004_ip = 533; continue _fun00003 }
- 527:
+            if(!report) { _fun00004_ip = 525; continue _fun00003 }
+ 519:
             report = mike.isLaunching;
- 533:
-            if(!report) { _fun00004_ip = 551; continue _fun00003 }
- 536:
+ 525:
+            if(!report) { _fun00004_ip = 543; continue _fun00003 }
+ 528:
             mike = mike.componentId;
             entity = entity.id;
             report = mike === entity;
- 551:
+ 543:
             zulu = _closure1_slot6;
             mike = _closure1_slot7;
             entity = {};
             result = foxtrot == backup;
             echo = undefined;
-            if(result) { _fun00004_ip = 575; continue _fun00003 }
- 570:
+            if(result) { _fun00004_ip = 567; continue _fun00003 }
+ 562:
             echo = backup.id;
- 575:
+ 567:
             update = foxtrot != echo;
             backup = '';
             result = backup;
-            if(!update) { _fun00004_ip = 592; continue _fun00003 }
- 589:
+            if(!update) { _fun00004_ip = 584; continue _fun00003 }
+ 581:
             result = echo;
- 592:
+ 584:
             entity['applicationId'] = result;
             entity['channelId'] = kilo;
             result = foxtrot == output;
             kilo = undefined;
-            if(result) { _fun00004_ip = 614; continue _fun00003 }
- 609:
+            if(result) { _fun00004_ip = 606; continue _fun00003 }
+ 601:
             kilo = output.id;
- 614:
+ 606:
             output = foxtrot != kilo;
-            if(!output) { _fun00004_ip = 624; continue _fun00003 }
- 621:
+            if(!output) { _fun00004_ip = 616; continue _fun00003 }
+ 613:
             backup = kilo;
- 624:
+ 616:
             entity['instanceId'] = backup;
-            if(verify) { _fun00004_ip = 691; continue _fun00003 }
- 632:
-            if(!(foxtrot == yankee)) { _fun00004_ip = 688; continue _fun00003 }
- 636:
+            if(verify) { _fun00004_ip = 683; continue _fun00003 }
+ 624:
+            if(!(foxtrot == yankee)) { _fun00004_ip = 680; continue _fun00003 }
+ 628:
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;
             foxtrot = romeo[sizing];
@@ -373,27 +373,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.t;
             romeo = romeo.oQn0h4;
             yankee = foxtrot.bind(backup)(romeo);
- 688:
+ 680:
             offset = yankee;
- 691:
+ 683:
             entity['statusText'] = offset;
-            if(!verify) { _fun00004_ip = 703; continue _fun00003 }
- 699:
+            if(!verify) { _fun00004_ip = 695; continue _fun00003 }
+ 691:
             options = new Array(0);
- 703:
+ 695:
             entity['participantAvatarUris'] = options;
             options = oscar.disabled;
             entity['buttonDisabled'] = options;
             options = oscar.text;
             entity['buttonLabelText'] = options;
             oscar = oscar.isJoinAction;
-            if(oscar) { _fun00004_ip = 745; continue _fun00003 }
- 737:
+            if(oscar) { _fun00004_ip = 737; continue _fun00003 }
+ 729:
             oscar = golf.acceptLabelActiveBackgroundColor;
-            _fun00004_ip = 751; continue _fun00003;
- 745:
+            _fun00004_ip = 743; continue _fun00003;
+ 737:
             oscar = golf.acceptLabelGreenBackgroundColor;
- 751:
+ 743:
             entity['buttonBackgroundColor'] = oscar;
             entity['submitting'] = report;
             entity = zulu.bind(tango)(mike, entity);
@@ -495,16 +495,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = foxtrot.id;
             oscar = verify.bind(yankee)(oscar, romeo);
             verify = report != oscar;
-            if(!verify) { _fun00014_ip = 303; continue _fun00013 }
- 297:
+            if(!verify) { _fun00014_ip = 301; continue _fun00013 }
+ 295:
             verify = oscar.isLaunching;
- 303:
-            if(!verify) { _fun00014_ip = 321; continue _fun00013 }
- 306:
+ 301:
+            if(!verify) { _fun00014_ip = 319; continue _fun00013 }
+ 304:
             oscar = oscar.componentId;
             entity = entity.id;
             verify = oscar === entity;
- 321:
+ 319:
             oscar = _closure1_slot0;
             backup = _closure1_slot2;
             entity = 6;
@@ -534,17 +534,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = oscar.text;
             entity['buttonLabelText'] = offset;
             offset = oscar.isJoinAction;
-            if(offset) { _fun00014_ip = 459; continue _fun00013 }
- 451:
+            if(offset) { _fun00014_ip = 457; continue _fun00013 }
+ 449:
             offset = yankee.acceptLabelActiveBackgroundColor;
-            _fun00014_ip = 465; continue _fun00013;
- 459:
+            _fun00014_ip = 463; continue _fun00013;
+ 457:
             offset = yankee.acceptLabelGreenBackgroundColor;
- 465:
+ 463:
             entity['buttonBackgroundColor'] = offset;
             entity['submitting'] = verify;
-            if(!(report == golf)) { _fun00014_ip = 570; continue _fun00013 }
- 479:
+            if(!(report == golf)) { _fun00014_ip = 568; continue _fun00013 }
+ 477:
             oscar = oscar.disabled;
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -556,24 +556,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = romeo[golf];
             golf = yankee.bind(options)(golf);
             golf = golf.t;
-            if(oscar) { _fun00014_ip = 544; continue _fun00013 }
- 531:
+            if(oscar) { _fun00014_ip = 542; continue _fun00013 }
+ 529:
             oscar = golf.cX9uLS;
             oscar = verify.bind(offset)(oscar);
-            _fun00014_ip = 555; continue _fun00013;
- 544:
+            _fun00014_ip = 553; continue _fun00013;
+ 542:
             golf = golf.JBnc7O;
             oscar = verify.bind(offset)(golf);
- 555:
-            if(!(report != zulu)) { _fun00014_ip = 562; continue _fun00013 }
- 559:
+ 553:
+            if(!(report != zulu)) { _fun00014_ip = 560; continue _fun00013 }
+ 557:
             oscar = zulu;
- 562:
+ 560:
             entity['statusText'] = oscar;
-            _fun00014_ip = 641; continue _fun00013;
- 570:
-            if(!(report == zulu)) { _fun00014_ip = 629; continue _fun00013 }
- 574:
+            _fun00014_ip = 639; continue _fun00013;
+ 568:
+            if(!(report == zulu)) { _fun00014_ip = 627; continue _fun00013 }
+ 572:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
             tango = 8;
@@ -586,10 +586,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.t;
             tango = tango.oQn0h4;
             zulu = report.bind(oscar)(tango);
- 629:
+ 627:
             entity['statusText'] = zulu;
             entity['participantAvatarUris'] = mike;
- 641:
+ 639:
             return entity;
         }
     };

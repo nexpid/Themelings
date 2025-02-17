@@ -61,16 +61,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             golf = oscar == offset;
             report = undefined;
-            if(golf) { _fun00002_ip = 103; continue _fun00001 }
- 98:
+            if(golf) { _fun00002_ip = 101; continue _fun00001 }
+ 96:
             report = offset.guild_id;
- 103:
+ 101:
             golf = oscar != report;
             foxtrot = null;
-            if(!golf) { _fun00002_ip = 115; continue _fun00001 }
- 112:
+            if(!golf) { _fun00002_ip = 113; continue _fun00001 }
+ 110:
             foxtrot = report;
- 115:
+ 113:
             var _closure2_slot1 = foxtrot;
             golf = _closure1_slot1;
             verify = _closure1_slot2;
@@ -79,22 +79,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = golf.bind(options)(report);
             golf = oscar == offset;
             report = undefined;
-            if(golf) { _fun00002_ip = 153; continue _fun00001 }
- 148:
+            if(golf) { _fun00002_ip = 151; continue _fun00001 }
+ 146:
             report = offset.guild_id;
- 153:
+ 151:
             romeo = oscar != report;
             golf = null;
-            if(!romeo) { _fun00002_ip = 165; continue _fun00001 }
- 162:
+            if(!romeo) { _fun00002_ip = 163; continue _fun00001 }
+ 160:
             golf = report;
- 165:
+ 163:
             romeo = oscar == offset;
             report = undefined;
-            if(romeo) { _fun00002_ip = 179; continue _fun00001 }
- 174:
+            if(romeo) { _fun00002_ip = 177; continue _fun00001 }
+ 172:
             report = offset.id;
- 179:
+ 177:
             golf = verify.bind(options)(golf, report);
             verify = _closure1_slot0;
             report = _closure1_slot2;
@@ -116,22 +116,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = yankee.bind(romeo)(verify, mike, report);
             verify = oscar == report;
             mike = undefined;
-            if(verify) { _fun00002_ip = 256; continue _fun00001 }
- 250:
+            if(verify) { _fun00002_ip = 252; continue _fun00001 }
+ 246:
             mike = report.afkChannelId;
- 256:
+ 252:
             report = oscar == offset;
             verify = undefined;
-            if(report) { _fun00002_ip = 275; continue _fun00001 }
- 265:
+            if(report) { _fun00002_ip = 271; continue _fun00001 }
+ 261:
             report = offset.isGuildVoice;
             verify = report.bind(offset)();
- 275:
+ 271:
             report = oscar != verify;
-            if(!report) { _fun00002_ip = 285; continue _fun00001 }
- 282:
+            if(!report) { _fun00002_ip = 281; continue _fun00001 }
+ 278:
             report = verify;
- 285:
+ 281:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
             verify = 5;
@@ -139,10 +139,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = yankee.bind(options)(verify);
             yankee = oscar == offset;
             oscar = undefined;
-            if(yankee) { _fun00002_ip = 319; continue _fun00001 }
- 314:
+            if(yankee) { _fun00002_ip = 315; continue _fun00001 }
+ 310:
             oscar = offset.id;
- 319:
+ 315:
             oscar = verify.bind(options)(oscar);
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -150,27 +150,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = offset[tango];
             tango = verify.bind(options)(tango);
             tango = tango.bind(options)();
-            if(!entity) { _fun00002_ip = 354; continue _fun00001 }
- 351:
+            if(!entity) { _fun00002_ip = 350; continue _fun00001 }
+ 347:
             entity = golf;
- 354:
-            if(!entity) { _fun00002_ip = 366; continue _fun00001 }
- 357:
-            if(report) { _fun00002_ip = 363; continue _fun00001 }
- 360:
+ 350:
+            if(!entity) { _fun00002_ip = 362; continue _fun00001 }
+ 353:
+            if(report) { _fun00002_ip = 359; continue _fun00001 }
+ 356:
             report = oscar;
- 363:
+ 359:
             entity = report;
- 366:
-            if(!entity) { _fun00002_ip = 372; continue _fun00001 }
- 369:
+ 362:
+            if(!entity) { _fun00002_ip = 368; continue _fun00001 }
+ 365:
             entity = !tango;
- 372:
-            if(!entity) { _fun00002_ip = 382; continue _fun00001 }
- 375:
+ 368:
+            if(!entity) { _fun00002_ip = 378; continue _fun00001 }
+ 371:
             mike = mike === zulu;
             entity = !mike;
- 382:
+ 378:
             return entity;
         }
     };

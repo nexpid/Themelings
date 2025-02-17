@@ -497,10 +497,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = foxtrot.Freeze;
             foxtrot = {};
             output = !update;
-            if(!output) { _fun00002_ip = 819; continue _fun00001 }
- 816:
+            if(!output) { _fun00002_ip = 815; continue _fun00001 }
+ 812:
             output = result;
- 819:
+ 815:
             foxtrot['freeze'] = output;
             result = _closure1_slot12;
             output = _closure1_slot1;

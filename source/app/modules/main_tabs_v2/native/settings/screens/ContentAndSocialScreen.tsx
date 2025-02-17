@@ -38,8 +38,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(golf)(entity);
             mike['label'] = entity;
             entity = oscar;
-            if(tango) { _fun00002_ip = 179; continue _fun00001 }
- 127:
+            if(tango) { _fun00002_ip = 181; continue _fun00001 }
+ 129:
             tango = new Array(0);
             output = 0;
             echo = tango;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = tango;
             report = arraySpread(echo, result, output);
             entity = tango;
- 179:
+ 181:
             mike['settings'] = entity;
             entity = new Array(7);
             entity[0] = mike;

@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         var _closure4_slot1 = entity;
                         zulu = 2;
                         zulu = zulu & tango;
-                        if(!zulu) { _fun00008_ip = 83; continue _fun00007 }
+                        if(!zulu) { _fun00008_ip = 81; continue _fun00007 }
  76:
                         entity = function(argFoo) {
                             tango = _closure4_slot1;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             entity = zulu.bind(tango)(mike, entity);
                             return entity;
                         };
- 83:
+ 81:
                         return entity;
                     }
                 };

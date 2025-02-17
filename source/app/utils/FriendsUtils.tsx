@@ -100,23 +100,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INCOMING_DISABLED;
-            if(!(mike !== zulu)) { _fun00004_ip = 452; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 458; continue _fun00003 }
  23:
             mike = _closure1_slot4;
             mike = mike.TOO_MANY_FRIENDS;
-            if(!(mike !== zulu)) { _fun00004_ip = 393; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 397; continue _fun00003 }
  40:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_ALREADY_FRIENDS;
-            if(!(mike !== zulu)) { _fun00004_ip = 334; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 336; continue _fun00003 }
  57:
             mike = _closure1_slot4;
             mike = mike.USER_QUARANTINED;
-            if(!(mike !== zulu)) { _fun00004_ip = 275; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 277; continue _fun00003 }
  74:
             mike = _closure1_slot4;
             mike = mike.USER_FRIEND_REQUEST_LIMITED_ACCESS;
-            if(!(mike !== zulu)) { _fun00004_ip = 275; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 277; continue _fun00003 }
  91:
             mike = _closure1_slot4;
             mike = mike.TOO_MANY_BLOCKED_USERS;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.sIGo1t;
             mike = zulu.bind(tango)(mike);
             return mike;
- 275:
+ 277:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
             mike = 2;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.EouHws;
             mike = zulu.bind(tango)(mike);
             return mike;
- 334:
+ 336:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
             mike = 2;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.VNLnen;
             mike = zulu.bind(tango)(mike);
             return mike;
- 393:
+ 397:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
             mike = 2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.tnBalJ;
             mike = zulu.bind(tango)(mike);
             return mike;
- 452:
+ 458:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
             entity = 2;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(report)(tango, options);
             zulu = _closure1_slot4;
             zulu = zulu.RELATIONSHIP_INCOMING_DISABLED;
-            if(!(tango === zulu)) { _fun00006_ip = 98; continue _fun00005 }
+            if(!(tango === zulu)) { _fun00006_ip = 100; continue _fun00005 }
  35:
             tango = _closure1_slot0;
             verify = _closure1_slot2;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = {};
             zulu['discordTag'] = options;
             entity = oscar.bind(golf)(tango, zulu);
- 98:
+ 100:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
             mike = 3;

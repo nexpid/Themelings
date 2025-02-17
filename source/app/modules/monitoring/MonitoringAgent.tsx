@@ -79,18 +79,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = golf.bind(entity)(oscar);
                 oscar = golf.isAndroid;
                 oscar = oscar.bind(golf)();
-                if(oscar) { _fun00002_ip = 138; continue _fun00001 }
+                if(oscar) { _fun00002_ip = 136; continue _fun00001 }
  128:
                 zulu = zulu.MetricMonitor;
-                _fun00002_ip = 163; continue _fun00001;
- 138:
+                _fun00002_ip = 161; continue _fun00001;
+ 136:
                 oscar = _closure1_slot0;
                 golf = _closure1_slot1;
                 tango = 7;
                 tango = golf[tango];
                 tango = oscar.bind(entity)(tango);
                 zulu = tango.default;
- 163:
+ 161:
                 tango = report.prototype;
                 tango = Object.create(tango, {constructor: {value: report}});
                 yankee = tango;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike._metrics;
                 zulu = zulu.length;
                 tango = 0;
-                if(!(zulu > tango)) { _fun00010_ip = 197; continue _fun00009 }
+                if(!(zulu > tango)) { _fun00010_ip = 193; continue _fun00009 }
  29:
                 offset = mike._metrics;
                 golf = new Array(0);
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = options.env;
                 options = options.BUILT_AT;
                 golf['built_at'] = options;
-                options = '3673';
+                options = '3677';
                 golf['build_number'] = options;
                 oscar['client_info'] = golf;
                 zulu['body'] = oscar;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     }
                 };
                 entity = zulu.bind(tango)(entity);
- 197:
+ 193:
                 entity = new Array(0);
                 mike['_metrics'] = entity;
                 entity = undefined;

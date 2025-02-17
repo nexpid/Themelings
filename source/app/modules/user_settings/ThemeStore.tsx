@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  34:
                 zulu = _closure1_slot15;
                 mike = null;
-                if(!(mike == zulu)) { _fun00008_ip = 279; continue _fun00007 }
+                if(!(mike == zulu)) { _fun00008_ip = 277; continue _fun00007 }
  47:
                 mike = _closure1_slot10;
                 tango = mike.useSystemTheme;
@@ -123,30 +123,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(!(tango === mike)) { _fun00008_ip = 135; continue _fun00007 }
  124:
                 mike = _closure1_slot19;
-                if(!(zulu == mike)) { _fun00008_ip = 273; continue _fun00007 }
+                if(!(zulu == mike)) { _fun00008_ip = 271; continue _fun00007 }
  135:
                 tango = _closure1_slot9;
                 mike = tango.getAppearanceSettings;
                 tango = mike.bind(tango)();
                 report = zulu == tango;
                 mike = undefined;
-                if(report) { _fun00008_ip = 166; continue _fun00007 }
- 160:
+                if(report) { _fun00008_ip = 164; continue _fun00007 }
+ 158:
                 mike = tango.theme;
- 166:
-                if(!(zulu == mike)) { _fun00008_ip = 271; continue _fun00007 }
- 170:
+ 164:
+                if(!(zulu == mike)) { _fun00008_ip = 269; continue _fun00007 }
+ 168:
                 tango = _closure1_slot11;
                 tango = tango.settings;
                 report = tango.appearance;
                 golf = zulu == report;
                 tango = undefined;
-                if(golf) { _fun00008_ip = 201; continue _fun00007 }
- 195:
+                if(golf) { _fun00008_ip = 199; continue _fun00007 }
+ 193:
                 tango = report.theme;
- 201:
-                if(!(zulu != tango)) { _fun00008_ip = 265; continue _fun00007 }
- 205:
+ 199:
+                if(!(zulu != tango)) { _fun00008_ip = 263; continue _fun00007 }
+ 203:
                 report = _closure1_slot0;
                 golf = _closure1_slot2;
                 zulu = 14;
@@ -154,26 +154,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = report.bind(oscar)(zulu);
                 zulu = zulu.Theme;
                 zulu = zulu.LIGHT;
-                if(!(tango !== zulu)) { _fun00008_ip = 253; continue _fun00007 }
- 241:
+                if(!(tango !== zulu)) { _fun00008_ip = 251; continue _fun00007 }
+ 239:
                 zulu = _closure1_slot13;
                 zulu = zulu.DARK;
-                _fun00008_ip = 263; continue _fun00007;
- 253:
+                _fun00008_ip = 261; continue _fun00007;
+ 251:
                 tango = _closure1_slot13;
                 zulu = tango.LIGHT;
+ 261:
+                _fun00008_ip = 267; continue _fun00007;
  263:
-                _fun00008_ip = 269; continue _fun00007;
- 265:
                 zulu = _closure1_slot17;
- 269:
+ 267:
                 return zulu;
- 271:
+ 269:
                 return mike;
- 273:
+ 271:
                 mike = _closure1_slot19;
                 return mike;
- 279:
+ 277:
                 entity = _closure1_slot15;
                 return entity;
             }
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = oscar[tango];
                 tango = report.bind(entity)(tango);
                 tango = tango.isPlatformEmbedded;
-                if(!tango) { _fun00014_ip = 239; continue _fun00013 }
+                if(!tango) { _fun00014_ip = 237; continue _fun00013 }
  44:
                 golf = new Array(0);
                 report = _closure1_slot0;
@@ -302,11 +302,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.bind(entity)(mike);
                 mike = zulu.setApplicationBackgroundColor;
                 mike = mike.bind(zulu)(tango);
- 235: // try_end0
-                _fun00014_ip = 239; continue _fun00013;
- 237: // catch_target0
+ 233: // try_end0
+                _fun00014_ip = 237; continue _fun00013;
+ 235: // catch_target0
                 CatchBlockStart(arg_register=1);
- 239:
+ 237:
                 return entity;
             }
         };

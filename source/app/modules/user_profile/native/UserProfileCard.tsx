@@ -142,8 +142,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = entity;
             golf = copyDataProperties(echo, result);
             golf = oscar != backup;
-            if(!golf) { _fun00002_ip = 263; continue _fun00001 }
- 146:
+            if(!golf) { _fun00002_ip = 267; continue _fun00001 }
+ 150:
             verify = _closure1_slot7;
             options = _closure1_slot4;
             oscar = {};
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             oscar['children'] = offset;
             golf = verify.bind(tango)(options, oscar);
- 263:
+ 267:
             oscar = new Array(2);
             oscar[0] = golf;
             oscar[1] = report;

@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 225; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 223; continue _fun00001 }
  15:
                     var _closure4_slot0 = verify;
                     report = _closure1_slot1;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  168:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 222; continue _fun00001 }
+                    if(report) { _fun00002_ip = 220; continue _fun00001 }
  174:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -106,9 +106,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['importer'] = golf;
                     tango = report.bind(oscar)(tango);
                     return zulu;
- 222:
+ 220:
                     return mike;
- 225:
+ 223:
                     return entity;
                 }
             };

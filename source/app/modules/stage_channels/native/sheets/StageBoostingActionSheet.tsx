@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  295:
             mike = _closure1_slot7;
             mike = mike.TIER_3;
-            if(!(zulu !== mike)) { _fun00002_ip = 382; continue _fun00001 }
+            if(!(zulu !== mike)) { _fun00002_ip = 384; continue _fun00001 }
  309:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -251,13 +251,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  356:
             options = mike.7FHbPD;
             yankee = zulu.bind(report)(options);
-            _fun00002_ip = 380; continue _fun00001;
+            _fun00002_ip = 382; continue _fun00001;
  369:
             mike = mike.8/uDSE;
             yankee = zulu.bind(report)(mike);
- 380:
-            _fun00002_ip = 456; continue _fun00001;
  382:
+            _fun00002_ip = 460; continue _fun00001;
+ 384:
             zulu = _closure1_slot0;
             verify = _closure1_slot2;
             mike = 11;
@@ -268,17 +268,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = verify[mike];
             mike = zulu.bind(tango)(mike);
             zulu = mike.t;
-            if(golf) { _fun00002_ip = 442; continue _fun00001 }
- 429:
+            if(golf) { _fun00002_ip = 444; continue _fun00001 }
+ 431:
             mike = zulu.7FHbPD;
             mike = report.bind(options)(mike);
-            _fun00002_ip = 453; continue _fun00001;
- 442:
+            _fun00002_ip = 457; continue _fun00001;
+ 444:
             zulu = zulu.tJmOu7;
             mike = report.bind(options)(zulu);
- 453:
+ 457:
             yankee = mike;
- 456:
+ 460:
             backup = function() { // Original name: handleClose
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -374,15 +374,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = foxtrot.bind(tango)(report);
             report = {};
             result = _closure1_slot2;
-            if(golf) { _fun00002_ip = 643; continue _fun00001 }
- 634:
+            if(golf) { _fun00002_ip = 647; continue _fun00001 }
+ 638:
             offset = 20;
             offset = result[offset];
-            _fun00002_ip = 650; continue _fun00001;
- 643:
+            _fun00002_ip = 654; continue _fun00001;
+ 647:
             kilo = 19;
             offset = result[kilo];
- 650:
+ 654:
             offset = foxtrot.bind(tango)(offset);
             report['source'] = offset;
             options = verify.bind(tango)(options, report);
@@ -410,23 +410,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[echo];
             kilo = result.bind(tango)(kilo);
             update = kilo.t;
-            if(oscar) { _fun00002_ip = 783; continue _fun00001 }
- 770:
+            if(oscar) { _fun00002_ip = 789; continue _fun00001 }
+ 774:
             kilo = update.pqPQLy;
             kilo = source.bind(control)(kilo);
-            _fun00002_ip = 813; continue _fun00001;
- 783:
-            if(golf) { _fun00002_ip = 799; continue _fun00001 }
- 786:
+            _fun00002_ip = 823; continue _fun00001;
+ 789:
+            if(golf) { _fun00002_ip = 807; continue _fun00001 }
+ 792:
             result = update.XVL8LC;
             result = source.bind(control)(result);
-            _fun00002_ip = 810; continue _fun00001;
- 799:
+            _fun00002_ip = 820; continue _fun00001;
+ 807:
             update = update.T+zF9P;
             result = source.bind(control)(update);
- 810:
+ 820:
             kilo = result;
- 813:
+ 823:
             options['children'] = kilo;
             options = offset.bind(tango)(verify, options);
             report[1] = options;
@@ -444,16 +444,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['children'] = yankee;
             options = offset.bind(tango)(verify, options);
             report[2] = options;
-            if(golf) { _fun00002_ip = 1084; continue _fun00001 }
- 892:
+            if(golf) { _fun00002_ip = 1094; continue _fun00001 }
+ 902:
             options = _closure1_slot12;
             verify = _closure1_slot1;
             golf = _closure1_slot2;
             yankee = 24;
             golf = golf[yankee];
             golf = verify.bind(tango)(golf);
-            if(oscar) { _fun00002_ip = 983; continue _fun00001 }
- 919:
+            if(oscar) { _fun00002_ip = 993; continue _fun00001 }
+ 929:
             oscar = {};
             foxtrot = _closure1_slot0;
             verify = _closure1_slot2;
@@ -468,8 +468,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(romeo)(verify);
             oscar['text'] = verify;
             oscar['onPress'] = backup;
-            _fun00002_ip = 1073; continue _fun00001;
- 983:
+            _fun00002_ip = 1083; continue _fun00001;
+ 993:
             verify = {};
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -490,10 +490,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = offset;
             verify['onPress'] = backup;
             oscar = verify;
- 1073:
+ 1083:
             oscar = options.bind(tango)(golf, oscar);
-            _fun00002_ip = 1306; continue _fun00001;
- 1084:
+            _fun00002_ip = 1316; continue _fun00001;
+ 1094:
             verify = _closure1_slot14;
             options = _closure1_slot13;
             golf = {};
@@ -577,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1306:
+ 1316:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

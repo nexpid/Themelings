@@ -266,18 +266,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = 7;
             entity['maxDaysOld'] = verify;
             entity = report.bind(oscar)(options, entity, golf);
+            if(!entity) { _fun00004_ip = 170; continue _fun00003 }
+ 167:
+            entity = !tango;
+ 170:
             if(!entity) { _fun00004_ip = 176; continue _fun00003 }
  173:
-            entity = !tango;
+            entity = !zulu;
  176:
             if(!entity) { _fun00004_ip = 182; continue _fun00003 }
  179:
-            entity = !zulu;
- 182:
-            if(!entity) { _fun00004_ip = 188; continue _fun00003 }
- 185:
             entity = !mike;
- 188:
+ 182:
             return entity;
         }
     };

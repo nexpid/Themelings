@@ -86,10 +86,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot9;
             sizing = yankee.NUMERIC;
             yankee = 'default';
-            if(!(result === sizing)) { _fun00002_ip = 323; continue _fun00001 }
- 317:
+            if(!(result === sizing)) { _fun00002_ip = 325; continue _fun00001 }
+ 319:
             yankee = 'number-pad';
- 323:
+ 325:
             report['keyboardType'] = yankee;
             yankee = function(argFoo) { // Original name: onChange
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -155,10 +155,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['onPress'] = kilo;
             romeo = romeo.length;
             romeo = romeo !== backup;
-            if(romeo) { _fun00002_ip = 507; continue _fun00001 }
- 504:
+            if(romeo) { _fun00002_ip = 509; continue _fun00001 }
+ 506:
             romeo = foxtrot;
- 507:
+ 509:
             verify['disabled'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
             oscar['children'] = verify;

@@ -269,15 +269,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = vacuum.type;
             entity = _closure1_slot7;
             entity = entity.GUILD_CATEGORY;
-            if(!(entity !== tango)) { _fun00006_ip = 2314; continue _fun00005 }
+            if(!(entity !== tango)) { _fun00006_ip = 2318; continue _fun00005 }
  312:
             entity = _closure1_slot7;
             entity = entity.GUILD_VOICE;
-            if(!(entity !== tango)) { _fun00006_ip = 1769; continue _fun00005 }
+            if(!(entity !== tango)) { _fun00006_ip = 1773; continue _fun00005 }
  329:
             entity = _closure1_slot7;
             entity = entity.GUILD_STAGE_VOICE;
-            if(!(entity !== tango)) { _fun00006_ip = 1235; continue _fun00005 }
+            if(!(entity !== tango)) { _fun00006_ip = 1239; continue _fun00005 }
  346:
             entity = _closure1_slot7;
             entity = entity.GUILD_FORUM;
@@ -399,27 +399,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[echo];
             entity = yankee.bind(offset)(entity);
             entity = entity.t;
-            if(mike) { _fun00006_ip = 811; continue _fun00005 }
+            if(mike) { _fun00006_ip = 813; continue _fun00005 }
  798:
             yankee = entity.TS7CnZ;
             foxtrot = tango.bind(verify)(yankee);
-            _fun00006_ip = 822; continue _fun00005;
- 811:
+            _fun00006_ip = 826; continue _fun00005;
+ 813:
             entity = entity.aSjPg4;
             foxtrot = tango.bind(verify)(entity);
- 822:
+ 826:
             tango = _closure1_slot0;
             entity = _closure1_slot3;
             entity = entity[echo];
             entity = tango.bind(offset)(entity);
             entity = entity.t;
-            if(mike) { _fun00006_ip = 855; continue _fun00005 }
- 847:
+            if(mike) { _fun00006_ip = 861; continue _fun00005 }
+ 851:
             vacuum = entity.1MTnqa;
-            _fun00006_ip = 861; continue _fun00005;
- 855:
-            vacuum = entity.YjJTtL;
+            _fun00006_ip = 869; continue _fun00005;
  861:
+            vacuum = entity.YjJTtL;
+ 869:
             verify = _closure1_slot2;
             mike = _closure1_slot3;
             tango = 15;
@@ -458,8 +458,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.generateChannelTextSection;
             mike = {'showPrivateThreads': false, 'showCreateThreads': false};
             backup = undefined;
-            if(!kilo) { _fun00006_ip = 1099; continue _fun00005 }
- 1052:
+            if(!kilo) { _fun00006_ip = 1103; continue _fun00005 }
+ 1056:
             source = _closure1_slot0;
             update = _closure1_slot3;
             update = update[echo];
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             update['setUpAutomod'] = sequence;
             backup = source.bind(control)(vacuum, update);
- 1099:
+ 1103:
             mike['sectionDescription'] = backup;
             mike['showClydeAIPermissions'] = result;
             mike['inSoundmojiExperiment'] = output;
@@ -550,7 +550,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = entity;
             mike = arraySpread(papa, context, record);
             return entity;
- 1235:
+ 1239:
             report = _closure1_slot2;
             mike = _closure1_slot3;
             tango = 15;
@@ -644,8 +644,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(yankee)(mike);
             mike = {};
             yankee = undefined;
-            if(!kilo) { _fun00006_ip = 1746; continue _fun00005 }
- 1679:
+            if(!kilo) { _fun00006_ip = 1750; continue _fun00005 }
+ 1683:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot3;
             sizing = foxtrot[update];
@@ -673,13 +673,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot['setUpAutomod'] = update;
             yankee = sizing.bind(echo)(backup, foxtrot);
- 1746:
+ 1750:
             mike['sectionDescription'] = yankee;
             mike['inSoundmojiExperiment'] = output;
             mike = report.bind(verify)(oscar, tango, mike);
             entity[5] = mike;
             return entity;
- 1769:
+ 1773:
             verify = _closure1_slot2;
             mike = _closure1_slot3;
             tango = 15;
@@ -745,8 +745,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(foxtrot)(mike);
             mike = {};
             foxtrot = undefined;
-            if(!kilo) { _fun00006_ip = 2141; continue _fun00005 }
- 2074:
+            if(!kilo) { _fun00006_ip = 2145; continue _fun00005 }
+ 2078:
             sizing = _closure1_slot0;
             kilo = _closure1_slot3;
             echo = kilo[backup];
@@ -774,7 +774,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             kilo['setUpAutomod'] = source;
             foxtrot = echo.bind(update)(sizing, kilo);
- 2141:
+ 2145:
             mike['sectionDescription'] = foxtrot;
             mike['inSoundmojiExperiment'] = output;
             mike = verify.bind(yankee)(oscar, report, mike);
@@ -811,7 +811,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(oscar, mike);
             entity[5] = mike;
             return entity;
- 2314:
+ 2318:
             report = _closure1_slot2;
             yankee = _closure1_slot3;
             tango = 15;

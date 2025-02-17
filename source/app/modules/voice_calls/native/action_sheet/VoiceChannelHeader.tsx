@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.isPrivate;
             mike = mike.bind(romeo)();
             echo = zulu;
-            if(!mike) { _fun00004_ip = 353; continue _fun00003 }
+            if(!mike) { _fun00004_ip = 355; continue _fun00003 }
  246:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.bind(tango)(mike, entity);
                 return entity;
             };
- 353:
+ 355:
             zulu = _closure1_slot10;
             mike = _closure1_slot3;
             entity = {};
@@ -337,17 +337,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(tango)(romeo);
             backup = _closure1_slot1;
             kilo = _closure1_slot2;
-            if(options) { _fun00004_ip = 465; continue _fun00003 }
- 451:
+            if(options) { _fun00004_ip = 467; continue _fun00003 }
+ 453:
             options = 22;
             options = kilo[options];
             options = backup.bind(tango)(options);
-            _fun00004_ip = 477; continue _fun00003;
- 465:
+            _fun00004_ip = 479; continue _fun00003;
+ 467:
             romeo = 21;
             romeo = kilo[romeo];
             options = backup.bind(tango)(romeo);
- 477:
+ 479:
             report['source'] = options;
             options = true;
             report['disableColor'] = options;
@@ -364,8 +364,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 'string';
             romeo = typeof echo;
             backup = echo;
-            if(!(sizing === romeo)) { _fun00004_ip = 599; continue _fun00003 }
- 546:
+            if(!(sizing === romeo)) { _fun00004_ip = 601; continue _fun00003 }
+ 548:
             output = _closure1_slot9;
             kilo = _closure1_slot0;
             update = _closure1_slot2;
@@ -376,13 +376,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-md/semibold', 'color': 'always-white'};
             romeo['children'] = echo;
             backup = output.bind(tango)(kilo, romeo);
- 599:
+ 601:
             romeo = new Array(2);
             romeo[0] = backup;
             kilo = typeof result;
             backup = result;
-            if(!(sizing === kilo)) { _fun00004_ip = 670; continue _fun00003 }
- 617:
+            if(!(sizing === kilo)) { _fun00004_ip = 672; continue _fun00003 }
+ 619:
             output = _closure1_slot9;
             sizing = _closure1_slot0;
             echo = _closure1_slot2;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-xs/medium', 'color': 'always-white'};
             kilo['children'] = result;
             backup = output.bind(tango)(sizing, kilo);
- 670:
+ 672:
             romeo[1] = backup;
             oscar['children'] = romeo;
             oscar = options.bind(tango)(golf, oscar);
@@ -404,14 +404,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.icons;
             oscar['style'] = yankee;
             verify = verify != foxtrot;
-            if(!verify) { _fun00004_ip = 735; continue _fun00003 }
- 715:
+            if(!verify) { _fun00004_ip = 737; continue _fun00003 }
+ 717:
             romeo = _closure1_slot9;
             yankee = _closure1_slot13;
             offset = {};
             offset['onPress'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 735:
+ 737:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[2] = oscar;

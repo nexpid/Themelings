@@ -120,11 +120,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = new Array(7);
                     tango[0] = zulu;
                     mike = _closure2_slot2;
-                    if(mike) { _fun00004_ip = 256; continue _fun00003 }
- 247:
+                    if(mike) { _fun00004_ip = 258; continue _fun00003 }
+ 249:
                     mike = new Array(0);
-                    _fun00004_ip = 435; continue _fun00003;
- 256:
+                    _fun00004_ip = 439; continue _fun00003;
+ 258:
                     report = {};
                     verify = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = new Array(1);
                     zulu[0] = report;
                     mike = zulu;
- 435:
+ 439:
                     report = 1;
                     control = tango;
                     source = mike;

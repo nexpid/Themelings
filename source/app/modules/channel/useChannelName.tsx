@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = zulu.type;
             verify = _closure1_slot7;
             verify = verify.DM;
-            if(!(verify !== offset)) { _fun00002_ip = 599; continue _fun00001 }
+            if(!(verify !== offset)) { _fun00002_ip = 601; continue _fun00001 }
  60:
             verify = _closure1_slot7;
             verify = verify.GROUP_DM;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  374:
             verify = zulu.name;
             oscar = '';
-            if(!(oscar === verify)) { _fun00002_ip = 592; continue _fun00001 }
+            if(!(oscar === verify)) { _fun00002_ip = 594; continue _fun00001 }
  390:
             offset = zulu.recipients;
             verify = offset.map;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = oscar.bind(verify)(report);
             oscar = offset.length;
             report = 0;
-            if(!(!(oscar > report))) { _fun00002_ip = 574; continue _fun00001 }
+            if(!(!(oscar > report))) { _fun00002_ip = 576; continue _fun00001 }
  474:
             oscar = _closure1_slot0;
             backup = _closure1_slot2;
@@ -190,17 +190,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = foxtrot.bind(backup)(romeo);
             report['name'] = romeo;
             report = verify.bind(yankee)(oscar, report);
-            _fun00002_ip = 590; continue _fun00001;
- 574:
+            _fun00002_ip = 592; continue _fun00001;
+ 576:
             verify = offset.join;
             oscar = ', ';
             report = verify.bind(offset)(oscar);
- 590:
-            return report;
  592:
+            return report;
+ 594:
             report = zulu.name;
             return report;
- 599:
+ 601:
             report = zulu.recipients;
             zulu = report.map;
             entity = entity.getUser;
@@ -219,13 +219,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = 0;
             oscar = zulu[entity];
             zulu = null;
-            if(!(zulu != oscar)) { _fun00002_ip = 779; continue _fun00001 }
- 682:
+            if(!(zulu != oscar)) { _fun00002_ip = 781; continue _fun00001 }
+ 684:
             report = options.getNickname;
             entity = oscar.id;
             entity = report.bind(options)(entity);
-            if(!(zulu == entity)) { _fun00002_ip = 733; continue _fun00001 }
- 702:
+            if(!(zulu == entity)) { _fun00002_ip = 735; continue _fun00001 }
+ 704:
             report = _closure1_slot1;
             options = _closure1_slot2;
             tango = 6;
@@ -233,24 +233,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(golf)(tango);
             tango = report.getName;
             entity = tango.bind(report)(oscar);
- 733:
+ 735:
             zulu = zulu != entity;
             tango = '???';
-            if(!zulu) { _fun00002_ip = 749; continue _fun00001 }
- 746:
+            if(!zulu) { _fun00002_ip = 751; continue _fun00001 }
+ 748:
             tango = entity;
- 749:
+ 751:
             entity = tango;
-            if(!mike) { _fun00002_ip = 777; continue _fun00001 }
- 755:
+            if(!mike) { _fun00002_ip = 779; continue _fun00001 }
+ 757:
             mike = global;
             mike = mike.HermesInternal;
             zulu = mike.concat;
             mike = '@';
             entity = zulu.bind(mike)(tango);
- 777:
-            return entity;
  779:
+            return entity;
+ 781:
             entity = '???';
             return entity;
         }

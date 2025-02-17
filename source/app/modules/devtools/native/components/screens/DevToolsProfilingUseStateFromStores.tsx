@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(verify, report);
             report = new Array(2);
             report[0] = verify;
-            if(!options) { _fun00002_ip = 1356; continue _fun00001 }
+            if(!options) { _fun00002_ip = 1352; continue _fun00001 }
  553:
             verify = _closure1_slot6;
             sequence = _closure1_slot0;
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[3] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1356:
+ 1352:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

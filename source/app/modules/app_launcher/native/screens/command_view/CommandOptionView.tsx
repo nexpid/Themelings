@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['collapsable'] = sequence;
             verify['style'] = kilo;
             kilo = romeo;
-            if(!kilo) { _fun00002_ip = 723; continue _fun00001 }
+            if(!kilo) { _fun00002_ip = 719; continue _fun00001 }
  653:
             result = _closure1_slot5;
             sizing = _closure1_slot0;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = source.displayName;
             romeo['children'] = vacuum;
             kilo = result.bind(tango)(sizing, romeo);
- 723:
+ 719:
             romeo = new Array(4);
             romeo[0] = kilo;
             result = _closure1_slot5;
@@ -388,8 +388,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['children'] = config;
             kilo = result.bind(tango)(sizing, kilo);
             romeo[2] = kilo;
-            if(!foxtrot) { _fun00002_ip = 1130; continue _fun00001 }
- 924:
+            if(!foxtrot) { _fun00002_ip = 1126; continue _fun00001 }
+ 920:
             sizing = _closure1_slot6;
             context = _closure1_slot1;
             result = _closure1_slot2;
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[1] = result;
             backup['children'] = output;
             foxtrot = sizing.bind(tango)(kilo, backup);
- 1130:
+ 1126:
             romeo[3] = foxtrot;
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);

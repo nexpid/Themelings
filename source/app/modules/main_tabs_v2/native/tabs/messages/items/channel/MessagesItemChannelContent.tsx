@@ -462,11 +462,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = zulu.bind(tango)(mike, report);
             report = new Array(2);
             report[0] = yankee;
-            if(verify) { _fun00004_ip = 1165; continue _fun00003 }
+            if(verify) { _fun00004_ip = 1167; continue _fun00003 }
  854:
             verify = result.isDM;
             verify = verify.bind(result)();
-            if(verify) { _fun00004_ip = 1056; continue _fun00003 }
+            if(verify) { _fun00004_ip = 1058; continue _fun00003 }
  870:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -476,7 +476,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = result.id;
             yankee = yankee.bind(tango)(verify);
             verify = null;
-            if(!yankee) { _fun00004_ip = 1054; continue _fun00003 }
+            if(!yankee) { _fun00004_ip = 1056; continue _fun00003 }
  908:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot0;
@@ -514,9 +514,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = control.bind(vacuum)(source);
             yankee['children'] = source;
             verify = foxtrot.bind(tango)(romeo, yankee);
- 1054:
-            _fun00004_ip = 1163; continue _fun00003;
  1056:
+            _fun00004_ip = 1165; continue _fun00003;
+ 1058:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot1;
             source = _closure1_slot2;
@@ -526,13 +526,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             source = 'MessagesItemChannelContent';
             yankee['location'] = source;
-            if(backup) { _fun00004_ip = 1103; continue _fun00003 }
- 1095:
+            if(backup) { _fun00004_ip = 1105; continue _fun00003 }
+ 1097:
             source = update.activityText;
-            _fun00004_ip = 1109; continue _fun00003;
- 1103:
+            _fun00004_ip = 1111; continue _fun00003;
+ 1105:
             source = update.activityTextMuted;
- 1109:
+ 1111:
             yankee['textStyle'] = source;
             update = update.statusIcon;
             yankee['activityIconStyle'] = update;
@@ -541,15 +541,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['userId'] = update;
             source = oscar == result;
             update = undefined;
-            if(source) { _fun00004_ip = 1153; continue _fun00003 }
- 1148:
+            if(source) { _fun00004_ip = 1155; continue _fun00003 }
+ 1150:
             update = result.guild_id;
- 1153:
+ 1155:
             yankee['guildId'] = update;
             verify = foxtrot.bind(tango)(romeo, yankee);
- 1163:
-            _fun00004_ip = 1278; continue _fun00003;
  1165:
+            _fun00004_ip = 1280; continue _fun00003;
+ 1167:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot0;
             update = _closure1_slot2;
@@ -560,15 +560,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             yankee['message'] = echo;
             yankee['channel'] = result;
-            if(sizing) { _fun00004_ip = 1226; continue _fun00003 }
- 1208:
+            if(sizing) { _fun00004_ip = 1228; continue _fun00003 }
+ 1210:
             sizing = 'text-muted';
-            if(!output) { _fun00004_ip = 1223; continue _fun00003 }
- 1217:
+            if(!output) { _fun00004_ip = 1225; continue _fun00003 }
+ 1219:
             sizing = 'header-primary';
- 1223:
+ 1225:
             kilo = sizing;
- 1226:
+ 1228:
             yankee['color'] = kilo;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -580,7 +580,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['layout'] = kilo;
             yankee['muted'] = backup;
             verify = foxtrot.bind(tango)(romeo, yankee);
- 1278:
+ 1280:
             report[1] = verify;
             entity['children'] = report;
             verify = zulu.bind(tango)(mike, entity);
@@ -590,8 +590,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = verify;
             oscar = null;
-            if(!options) { _fun00004_ip = 1352; continue _fun00003 }
- 1315:
+            if(!options) { _fun00004_ip = 1354; continue _fun00003 }
+ 1317:
             verify = _closure1_slot7;
             options = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -601,7 +601,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             golf['wavePressed'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1352:
+ 1354:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

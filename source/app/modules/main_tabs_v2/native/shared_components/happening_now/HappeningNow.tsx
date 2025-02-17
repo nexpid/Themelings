@@ -550,12 +550,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot6;
             entity = {};
             entity = report.bind(oscar)(tango, entity);
-            _fun00004_ip = 1123; continue _fun00003;
+            _fun00004_ip = 1125; continue _fun00003;
  718:
             report = _closure1_slot12;
-            if(mike) { _fun00004_ip = 1092; continue _fun00003 }
+            if(mike) { _fun00004_ip = 1094; continue _fun00003 }
  728:
-            if(yankee) { _fun00004_ip = 1005; continue _fun00003 }
+            if(yankee) { _fun00004_ip = 1007; continue _fun00003 }
  734:
             mike = _closure1_slot13;
             tango = mike.Provider;
@@ -617,29 +617,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.bind(oscar)(offset, golf);
             mike['children'] = golf;
             mike = report.bind(oscar)(tango, mike);
-            _fun00004_ip = 1090; continue _fun00003;
- 1005:
+            _fun00004_ip = 1092; continue _fun00003;
+ 1007:
             golf = _closure1_slot6;
             tango = {};
             verify = verify.loading;
             tango['style'] = verify;
             offset = _closure1_slot15;
             verify = options.length;
-            if(!(!(verify > romeo))) { _fun00004_ip = 1050; continue _fun00003 }
- 1034:
+            if(!(!(verify > romeo))) { _fun00004_ip = 1052; continue _fun00003 }
+ 1036:
             verify = {'kind': 'placeholder', 'index': 0};
-            _fun00004_ip = 1054; continue _fun00003;
- 1050:
+            _fun00004_ip = 1056; continue _fun00003;
+ 1052:
             verify = options[romeo];
- 1054:
+ 1056:
             options = {'index': 0, 'loading': null, 'fullwidth': true, 'panelVariant': true};
             options['loading'] = yankee;
             options = offset.bind(oscar)(verify, options);
             tango['children'] = options;
             mike = report.bind(oscar)(golf, tango);
- 1090:
-            _fun00004_ip = 1120; continue _fun00003;
  1092:
+            _fun00004_ip = 1122; continue _fun00003;
+ 1094:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
             zulu = 24;
@@ -647,9 +647,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(oscar)(zulu);
             zulu = {};
             mike = report.bind(oscar)(tango, zulu);
- 1120:
+ 1122:
             entity = mike;
- 1123:
+ 1125:
             return entity;
         }
     };

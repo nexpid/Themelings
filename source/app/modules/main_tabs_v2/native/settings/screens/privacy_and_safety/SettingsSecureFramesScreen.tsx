@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun00008_ip = 539; continue _fun00007 }
+            if(!(mike !== zulu)) { _fun00008_ip = 541; continue _fun00007 }
  159:
             tango = _closure1_slot9;
             zulu = _closure1_slot4;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 539:
+ 541:
             return entity;
         }
     };

@@ -370,11 +370,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {};
             sizing = config.locationContainer;
             foxtrot['style'] = sizing;
-            if(!(update == echo)) { _fun00002_ip = 1191; continue _fun00001 }
- 1106:
+            if(!(update == echo)) { _fun00002_ip = 1187; continue _fun00001 }
+ 1102:
             output = update != sierra;
-            if(!output) { _fun00002_ip = 1189; continue _fun00001 }
- 1113:
+            if(!output) { _fun00002_ip = 1185; continue _fun00001 }
+ 1109:
             context = _closure1_slot10;
             target = _closure1_slot1;
             status = _closure1_slot2;
@@ -392,16 +392,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['style'] = papa;
             sizing['disableColor'] = vacuum;
             output = context.bind(tango)(result, sizing);
- 1189:
-            _fun00002_ip = 1217; continue _fun00001;
- 1191:
+ 1185:
+            _fun00002_ip = 1213; continue _fun00001;
+ 1187:
             result = _closure1_slot10;
             sizing = {};
             sizing['size'] = record;
             config = config.eventsChannelIcon;
             sizing['style'] = config;
             output = result.bind(tango)(echo, sizing);
- 1217:
+ 1213:
             sizing = new Array(2);
             sizing[0] = output;
             echo = _closure1_slot10;
@@ -413,8 +413,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {'lineClamp': 2, 'variant': 'text-xs/normal', 'color': 'text-muted'};
             control = update != sequence;
             update = null;
-            if(!control) { _fun00002_ip = 1306; continue _fun00001 }
- 1274:
+            if(!control) { _fun00002_ip = 1302; continue _fun00001 }
+ 1270:
             control = _closure1_slot0;
             config = _closure1_slot2;
             source = 23;
@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.bind(tango)(source);
             source = control.guildEventDetailsParser;
             update = source.bind(control)(sequence, vacuum);
- 1306:
+ 1302:
             output['children'] = update;
             output = echo.bind(tango)(result, output);
             sizing[1] = output;

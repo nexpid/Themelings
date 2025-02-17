@@ -630,11 +630,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = romeo.attachments;
             zulu = entity.length;
             entity = null;
-            if(!(oscar !== zulu)) { _fun00002_ip = 1003; continue _fun00001 }
+            if(!(oscar !== zulu)) { _fun00002_ip = 999; continue _fun00001 }
  596:
             tango = _closure1_slot19;
             zulu = _closure1_slot5;
-            if(!(!(mike > oscar))) { _fun00002_ip = 894; continue _fun00001 }
+            if(!(!(mike > oscar))) { _fun00002_ip = 890; continue _fun00001 }
  611:
             mike = {};
             offset = _closure1_slot18;
@@ -686,12 +686,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = _closure1_slot17;
             control = control.DEFAULT;
             kilo['type'] = control;
-            if(!(update == echo)) { _fun00002_ip = 845; continue _fun00001 }
+            if(!(update == echo)) { _fun00002_ip = 841; continue _fun00001 }
  824:
             update = {'id': '0', 'avatar': null, 'discriminator': '0000'};
             update['username'] = source;
             echo = update;
- 845:
+ 841:
             kilo['author'] = echo;
             echo = romeo.content;
             kilo['content'] = echo;
@@ -702,8 +702,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(report)(verify, golf);
             oscar[1] = golf;
             mike['children'] = oscar;
-            _fun00002_ip = 997; continue _fun00001;
- 894:
+            _fun00002_ip = 993; continue _fun00001;
+ 890:
             oscar = {};
             offset = _closure1_slot18;
             verify = _closure1_slot8;
@@ -805,9 +805,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             oscar['children'] = golf;
             mike = oscar;
- 997:
+ 993:
             entity = tango.bind(report)(zulu, mike);
- 1003:
+ 999:
             return entity;
         }
     };

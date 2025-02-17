@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 466; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 468; continue _fun00001 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.icymiEnabled;
                     zulu = 'customScores';
                     zulu = tango.bind(report)(zulu);
-                    if(!zulu) { _fun00002_ip = 463; continue _fun00001 }
+                    if(!zulu) { _fun00002_ip = 465; continue _fun00001 }
  58: // try_start_0
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  191:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 360; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 362; continue _fun00001 }
  200:
                     report = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -138,11 +138,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = verify.bind(offset)(options);
                     tango['content'] = options;
                     tango = report.bind(golf)(tango);
- 358: // try_end0
-                    _fun00002_ip = 463; continue _fun00001;
- 360:
+ 360: // try_end0
+                    _fun00002_ip = 465; continue _fun00001;
+ 362:
                     return zulu;
- 363: // catch_target0
+ 365: // catch_target0
                     CatchBlockStart(arg_register=2);
                     tango = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -166,9 +166,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = golf.bind(options)(oscar);
                     zulu['content'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 463:
+ 465:
                     return mike;
- 466:
+ 468:
                     return entity;
                 }
             };

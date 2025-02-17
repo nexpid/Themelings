@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot16;
             verify = tango.bind(golf)(zulu);
             tango = _closure1_slot13;
-            if(entity) { _fun00008_ip = 260; continue _fun00007 }
+            if(entity) { _fun00008_ip = 262; continue _fun00007 }
  64:
             golf = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -220,12 +220,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun00008_ip = 284; continue _fun00007;
- 260:
+            _fun00008_ip = 286; continue _fun00007;
+ 262:
             zulu = _closure1_slot10;
             mike = {'animating': true, 'size': 'small'};
             entity = tango.bind(report)(zulu, mike);
- 284:
+ 286:
             return entity;
         }
     };
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  76:
                 entity = record != sizing;
                 result = undefined;
-                if(!entity) { _fun00010_ip = 302; continue _fun00009 }
+                if(!entity) { _fun00010_ip = 304; continue _fun00009 }
  88:
                 zulu = _closure1_slot14;
                 mike = _closure1_slot8;
@@ -555,11 +555,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report[1] = golf;
                 entity['children'] = report;
                 result = zulu.bind(tango)(mike, entity);
- 302:
+ 304:
                 mike = context.type;
                 entity = 'youtube';
-                if(!(entity !== mike)) { _fun00010_ip = 457; continue _fun00009 }
- 320:
+                if(!(entity !== mike)) { _fun00010_ip = 463; continue _fun00009 }
+ 322:
                 zulu = context.name;
                 entity = global;
                 entity = entity.HermesInternal;
@@ -589,15 +589,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = oscar.handleToggleEmotes;
                 entity['onPress'] = options;
                 verify = golf.bind(tango)(report, entity);
-                _fun00010_ip = 557; continue _fun00009;
- 457:
+                _fun00010_ip = 567; continue _fun00009;
+ 463:
                 entity = context.account;
                 mike = record == entity;
                 zulu = undefined;
-                if(mike) { _fun00010_ip = 477; continue _fun00009 }
- 472:
+                if(mike) { _fun00010_ip = 483; continue _fun00009 }
+ 478:
                 zulu = entity.name;
- 477:
+ 483:
                 report = _closure1_slot0;
                 golf = _closure1_slot2;
                 entity = 10;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 status = entity.7lNtcX;
                 control = zulu;
                 verify = undefined;
- 557:
+ 567:
                 mike = _closure1_slot1;
                 zulu = _closure1_slot2;
                 entity = 18;
@@ -627,8 +627,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = mike.bind(zulu)(entity);
                 entity = record != offset;
                 source = null;
-                if(!entity) { _fun00010_ip = 707; continue _fun00009 }
- 601:
+                if(!entity) { _fun00010_ip = 717; continue _fun00009 }
+ 611:
                 zulu = _closure1_slot13;
                 mike = _closure1_slot9;
                 entity = {};
@@ -644,19 +644,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = romeo.isThemeDark;
                 report = report.bind(romeo)(backup);
                 offset = offset.icon;
-                if(report) { _fun00010_ip = 676; continue _fun00009 }
- 668:
+                if(report) { _fun00010_ip = 686; continue _fun00009 }
+ 678:
                 report = offset.lightPNG;
-                _fun00010_ip = 682; continue _fun00009;
- 676:
+                _fun00010_ip = 692; continue _fun00009;
+ 686:
                 report = offset.darkPNG;
- 682:
+ 692:
                 report = golf.bind(options)(report);
                 entity['source'] = report;
                 report = target.integrationIcon;
                 entity['style'] = report;
                 source = zulu.bind(tango)(mike, entity);
- 707:
+ 717:
                 entity = function() { // Original name: getSubGracePeriodOptions
                     zulu = [1, 3, 7, 14, 30];
                     mike = zulu.map;
@@ -725,11 +725,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 lima = context.user;
                 sierra = record == lima;
                 target = undefined;
-                if(sierra) { _fun00010_ip = 891; continue _fun00009 }
- 882:
+                if(sierra) { _fun00010_ip = 901; continue _fun00009 }
+ 892:
                 sierra = lima.toString;
                 target = sierra.bind(lima)();
- 891:
+ 901:
                 vacuum['text'] = target;
                 vacuum = config.bind(tango)(sequence, vacuum);
                 sizing['label'] = vacuum;
@@ -797,10 +797,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 vacuum = {};
                 target = context.syncing;
                 record = record != target;
-                if(!record) { _fun00010_ip = 1204; continue _fun00009 }
- 1201:
+                if(!record) { _fun00010_ip = 1218; continue _fun00009 }
+ 1215:
                 record = target;
- 1204:
+ 1218:
                 vacuum['isSyncing'] = record;
                 record = oscar.handleSync;
                 vacuum['onPress'] = record;

@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.bind(tango)();
                     _closure4_slot3 = zulu;
                     zulu = null;
-                    if(!(zulu == offset)) { _fun00002_ip = 378; continue _fun00001 }
+                    if(!(zulu == offset)) { _fun00002_ip = 376; continue _fun00001 }
  300:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['onBack'] = oscar;
                     zulu = tango.bind(report)(zulu);
                     _fun00002_ip = 523; continue _fun00001;
- 378:
+ 376:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
                     zulu = 5;

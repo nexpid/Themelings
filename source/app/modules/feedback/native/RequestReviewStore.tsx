@@ -369,10 +369,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot14;
                 zulu = tango.bind(oscar)(zulu);
                 tango = null;
-                if(!(tango == zulu)) { _fun00012_ip = 68; continue _fun00011 }
+                if(!(tango == zulu)) { _fun00012_ip = 64; continue _fun00011 }
  54:
                 zulu = {'firstUse': 0, 'revision': 0};
- 68:
+ 64:
                 _closure1_slot18 = zulu;
                 tango = report.waitFor;
                 zulu = _closure1_slot8;

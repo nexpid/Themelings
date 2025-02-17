@@ -240,8 +240,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = tango.bind(golf)(zulu, entity);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun00002_ip = 940; continue _fun00001 }
- 308:
+            if(mike) { _fun00002_ip = 938; continue _fun00001 }
+ 304:
             tango = _closure1_slot12;
             zulu = _closure1_slot7;
             mike = {'style': null, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 940:
+ 938:
             return entity;
         }
     };

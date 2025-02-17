@@ -135,8 +135,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.bind(mike)(golf);
                 golf = verify.isAndroid;
                 golf = golf.bind(verify)();
-                if(!golf) { _fun00002_ip = 189; continue _fun00001 }
- 136:
+                if(!golf) { _fun00002_ip = 187; continue _fun00001 }
+ 134:
                 offset = _closure1_slot5;
                 verify = _closure2_slot2;
                 options = {};
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {'opacity': 0, 'height': 0, 'width': 0};
                 options['style'] = yankee;
                 golf = offset.bind(mike)(verify, options);
- 189:
+ 187:
                 oscar[1] = golf;
                 zulu['children'] = oscar;
                 verify = entity.src;

@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf[0] = options;
             options = null;
             offset = options != romeo;
-            if(!offset) { _fun00002_ip = 199; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 195; continue _fun00001 }
  149:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 199:
+ 195:
             golf[1] = options;
             oscar['children'] = golf;
             oscar = zulu.bind(tango)(mike, oscar);

@@ -84,9 +84,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(golf)(options);
             if(!report) { _fun00002_ip = 159; continue _fun00001 }
  152:
-            if(!(tango == oscar)) { _fun00002_ip = 530; continue _fun00001 }
+            if(!(tango == oscar)) { _fun00002_ip = 518; continue _fun00001 }
  159:
-            if(!(tango == entity)) { _fun00002_ip = 459; continue _fun00001 }
+            if(!(tango == entity)) { _fun00002_ip = 447; continue _fun00001 }
  166:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -94,9 +94,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = offset[report];
             report = verify.bind(golf)(report);
             report = report.bind(golf)(options);
-            if(report) { _fun00002_ip = 421; continue _fun00001 }
+            if(report) { _fun00002_ip = 409; continue _fun00001 }
  200:
-            if(!(tango != oscar)) { _fun00002_ip = 417; continue _fun00001 }
+            if(!(tango != oscar)) { _fun00002_ip = 405; continue _fun00001 }
  207:
             report = _closure1_slot0;
             verify = _closure1_slot2;
@@ -327,12 +327,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = tango.bind(report)(zulu);
-            _fun00002_ip = 419; continue _fun00001;
- 417:
+            _fun00002_ip = 407; continue _fun00001;
+ 405:
             zulu = {};
- 419:
+ 407:
             return zulu;
- 421:
+ 409:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
             entity = 4;
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['text'] = zulu;
             entity['tooltip'] = zulu;
             return entity;
- 459:
+ 447:
             report = _closure1_slot0;
             options = _closure1_slot2;
             entity = 2;
@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['text'] = zulu;
             entity['tooltip'] = zulu;
             return entity;
- 530:
+ 518:
             entity = {};
             zulu = _closure1_slot0;
             options = _closure1_slot2;

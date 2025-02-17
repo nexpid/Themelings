@@ -277,8 +277,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu = _closure2_slot14;
                     zulu = zulu.sectionsId;
-                    if(!(tango === zulu)) { _fun00006_ip = 1842; continue _fun00005 }
- 135:
+                    if(!(tango === zulu)) { _fun00006_ip = 1840; continue _fun00005 }
+ 133:
                     zulu = _closure2_slot16;
                     zulu = zulu.current;
                     zulu = zulu.keyIndex;
@@ -330,27 +330,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     whiskey = undefined;
                     lima = undefined;
                     options = undefined;
-                    if(!variable48) { _fun00006_ip = 739; continue _fun00005 }
- 343:
+                    if(!variable48) { _fun00006_ip = 737; continue _fun00005 }
+ 341:
                     variable53 = _closure2_slot4;
                     variable52 = variable38;
                     variable51 = equality;
                     variable50 = whiskey;
                     variable49 = lima;
                     variable48 = options;
-                    if(variable53) { _fun00006_ip = 714; continue _fun00005 }
- 368:
+                    if(variable53) { _fun00006_ip = 712; continue _fun00005 }
+ 366:
                     variable55 = 0;
-                    if(!(variable42 === output)) { _fun00006_ip = 377; continue _fun00005 }
- 374:
+                    if(!(variable42 === output)) { _fun00006_ip = 375; continue _fun00005 }
+ 372:
                     variable55 = offset;
- 377:
+ 375:
                     variable54 = verify;
-                    if(!(variable42 !== sizing)) { _fun00006_ip = 392; continue _fun00005 }
- 384:
+                    if(!(variable42 !== sizing)) { _fun00006_ip = 390; continue _fun00005 }
+ 382:
                     variable53 = sierra[variable42];
                     variable54 = variable53 - golf;
- 392:
+ 390:
                     variable53 = variable55;
                     variable41 = variable53;
                     variable52 = variable38;
@@ -360,55 +360,55 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable48 = options;
                     variable39 = variable41;
                     variable40 = variable54;
-                    if(!(variable39 <= variable40)) { _fun00006_ip = 714; continue _fun00005 }
- 426:
+                    if(!(variable39 <= variable40)) { _fun00006_ip = 712; continue _fun00005 }
+ 424:
                     variable56 = _closure2_slot8;
                     variable61 = variable56.bind(result)(variable42, variable53);
                     variable56 = variable53;
-                    if(variable45) { _fun00006_ip = 458; continue _fun00005 }
- 442:
+                    if(variable45) { _fun00006_ip = 456; continue _fun00005 }
+ 440:
                     variable57 = variable46[variable42];
                     variable57 = variable57.sizes;
                     variable60 = variable57[variable56];
-                    _fun00006_ip = 472; continue _fun00005;
- 458:
+                    _fun00006_ip = 470; continue _fun00005;
+ 456:
                     variable57 = variable46[yankee];
                     variable57 = variable57.sizes;
                     variable60 = variable57[yankee];
- 472:
-                    if(target) { _fun00006_ip = 490; continue _fun00005 }
- 475:
+ 470:
+                    if(target) { _fun00006_ip = 488; continue _fun00005 }
+ 473:
                     variable57 = variable47[variable42];
                     variable57 = variable57.keys;
                     variable59 = variable57[variable56];
-                    _fun00006_ip = 503; continue _fun00005;
- 490:
+                    _fun00006_ip = 501; continue _fun00005;
+ 488:
                     variable57 = variable47[yankee];
                     variable57 = variable57.keys;
                     variable59 = variable57[yankee];
- 503:
+ 501:
                     variable58 = variable59;
-                    if(!(backup === variable59)) { _fun00006_ip = 528; continue _fun00005 }
- 510:
+                    if(!(backup === variable59)) { _fun00006_ip = 526; continue _fun00005 }
+ 508:
                     variable57 = update.HermesInternal;
                     variable57 = variable57.concat;
                     variable58 = variable57.bind(variable44)(variable42, variable43, variable56);
- 528:
+ 526:
                     variable57 = update.HermesInternal;
                     variable57 = variable57.concat;
                     variable58 = variable57.bind(backup)(papa, foxtrot, variable58);
                     variable57 = variable37.get;
                     variable57 = variable57.bind(variable37)(variable58);
-                    if(!(romeo == variable57)) { _fun00006_ip = 588; continue _fun00005 }
- 560:
+                    if(!(romeo == variable57)) { _fun00006_ip = 586; continue _fun00005 }
+ 558:
                     variable63 = variable36.push;
                     variable62 = {};
                     variable62['keyId'] = variable58;
                     variable62['item'] = variable61;
                     variable62['itemSize'] = variable60;
                     variable62 = variable63.bind(variable36)(variable62);
-                    _fun00006_ip = 680; continue _fun00005;
- 588:
+                    _fun00006_ip = 678; continue _fun00005;
+ 586:
                     variable62 = tango.set;
                     variable62 = variable62.bind(tango)(variable58, variable57);
                     variable62 = variable37.delete;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable62 = variable62.bind(backup)(variable57);
                     variable62 = variable66.bind(result)(variable65, variable64, variable62);
                     variable62 = variable63.bind(report)(variable62);
- 680:
+ 678:
                     variable53 = variable56 + 1;
                     variable41 = variable55;
                     variable40 = variable54;
@@ -438,31 +438,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable49 = variable58;
                     variable48 = variable57;
                     variable39 = variable53;
-                    if(variable39 <= variable54) { _fun00006_ip = 426; continue _fun00005 }
- 714:
+                    if(variable39 <= variable54) { _fun00006_ip = 424; continue _fun00005 }
+ 712:
                     variable42 = variable42 + 1;
                     variable38 = variable52;
                     equality = variable51;
                     whiskey = variable50;
                     lima = variable49;
                     options = variable48;
-                    if(variable42 <= sizing) { _fun00006_ip = 343; continue _fun00005 }
- 739:
+                    if(variable42 <= sizing) { _fun00006_ip = 341; continue _fun00005 }
+ 737:
                     options = variable36.length;
                     options = yankee < options;
                     equality = 'key-';
                     whiskey = zulu;
                     lima = 0;
                     zulu = whiskey;
-                    if(!options) { _fun00006_ip = 1044; continue _fun00005 }
- 768:
+                    if(!options) { _fun00006_ip = 1042; continue _fun00005 }
+ 766:
                     options = variable36[lima];
                     variable45 = options.keyId;
                     variable44 = options.item;
                     options = options.itemSize;
                     variable38 = variable37.size;
-                    if(!(!(variable38 > yankee))) { _fun00006_ip = 895; continue _fun00005 }
- 798:
+                    if(!(!(variable38 > yankee))) { _fun00006_ip = 893; continue _fun00005 }
+ 796:
                     variable39 = parseFloat(whiskey);
                     variable38 = variable39 + 1;
                     variable46 = equality + variable39;
@@ -483,8 +483,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable39 = variable39.bind(backup)(variable46);
                     variable39 = variable43.bind(result)(variable42, variable41, variable39);
                     variable39 = variable40.bind(report)(variable39);
-                    _fun00006_ip = 1023; continue _fun00005;
- 895:
+                    _fun00006_ip = 1021; continue _fun00005;
+ 893:
                     variable39 = variable37.keys;
                     variable40 = variable39.bind(variable37)();
                     variable39 = variable40.next;
@@ -512,48 +512,48 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = variable42.bind(result)(variable41, variable40, options);
                     options = variable39.bind(report)(options);
                     variable38 = whiskey;
- 1023:
+ 1021:
                     lima = lima + 1;
                     options = variable36.length;
                     whiskey = variable38;
                     zulu = whiskey;
-                    if(lima < options) { _fun00006_ip = 768; continue _fun00005 }
- 1044:
+                    if(lima < options) { _fun00006_ip = 766; continue _fun00005 }
+ 1042:
                     options = _closure2_slot10;
-                    if(!(romeo != options)) { _fun00006_ip = 1213; continue _fun00005 }
- 1055:
-                    if(!(quebec > yankee)) { _fun00006_ip = 1213; continue _fun00005 }
- 1062:
+                    if(!(romeo != options)) { _fun00006_ip = 1211; continue _fun00005 }
+ 1053:
+                    if(!(quebec > yankee)) { _fun00006_ip = 1211; continue _fun00005 }
+ 1060:
                     options = _closure2_slot3;
-                    if(options) { _fun00006_ip = 1119; continue _fun00005 }
- 1069:
+                    if(options) { _fun00006_ip = 1117; continue _fun00005 }
+ 1067:
                     lima = _closure2_slot4;
                     options = false;
-                    if(lima) { _fun00006_ip = 1116; continue _fun00005 }
- 1078:
+                    if(lima) { _fun00006_ip = 1114; continue _fun00005 }
+ 1076:
                     options = false;
-                    if(!(yankee === offset)) { _fun00006_ip = 1116; continue _fun00005 }
- 1084:
+                    if(!(yankee === offset)) { _fun00006_ip = 1114; continue _fun00005 }
+ 1082:
                     lima = output - golf;
                     options = true;
-                    if(!(lima >= yankee)) { _fun00006_ip = 1116; continue _fun00005 }
- 1094:
+                    if(!(lima >= yankee)) { _fun00006_ip = 1114; continue _fun00005 }
+ 1092:
                     equality = sierra[lima];
                     equality = equality > yankee;
                     options = false;
-                    if(equality) { _fun00006_ip = 1116; continue _fun00005 }
- 1107:
+                    if(equality) { _fun00006_ip = 1114; continue _fun00005 }
+ 1105:
                     lima = lima - 1;
                     options = true;
-                    if(lima >= yankee) { _fun00006_ip = 1094; continue _fun00005 }
- 1116:
-                    if(!options) { _fun00006_ip = 1213; continue _fun00005 }
- 1119:
+                    if(lima >= yankee) { _fun00006_ip = 1092; continue _fun00005 }
+ 1114:
+                    if(!options) { _fun00006_ip = 1211; continue _fun00005 }
+ 1117:
                     whiskey = 'lh';
-                    if(!(backup !== oscar)) { _fun00006_ip = 1132; continue _fun00005 }
- 1129:
+                    if(!(backup !== oscar)) { _fun00006_ip = 1130; continue _fun00005 }
+ 1127:
                     whiskey = oscar;
- 1132:
+ 1130:
                     options = report.push;
                     lima = _closure1_slot5;
                     offset = _closure1_slot0;
@@ -571,51 +571,51 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['children'] = equality;
                     oscar = lima.bind(result)(offset, oscar, whiskey);
                     oscar = options.bind(report)(oscar);
- 1213:
+ 1211:
                     oscar = _closure2_slot9;
-                    if(!(romeo != oscar)) { _fun00006_ip = 1423; continue _fun00005 }
- 1224:
-                    if(!(status > yankee)) { _fun00006_ip = 1423; continue _fun00005 }
- 1231:
+                    if(!(romeo != oscar)) { _fun00006_ip = 1421; continue _fun00005 }
+ 1222:
+                    if(!(status > yankee)) { _fun00006_ip = 1421; continue _fun00005 }
+ 1229:
                     oscar = _closure2_slot2;
-                    if(oscar) { _fun00006_ip = 1329; continue _fun00005 }
- 1238:
+                    if(oscar) { _fun00006_ip = 1327; continue _fun00005 }
+ 1236:
                     options = _closure2_slot4;
                     oscar = false;
-                    if(options) { _fun00006_ip = 1326; continue _fun00005 }
- 1247:
+                    if(options) { _fun00006_ip = 1324; continue _fun00005 }
+ 1245:
                     whiskey = update.Math;
                     lima = whiskey.max;
                     options = sierra[sizing];
                     options = options - golf;
                     options = lima.bind(whiskey)(options, yankee);
                     oscar = false;
-                    if(!(verify === options)) { _fun00006_ip = 1326; continue _fun00005 }
- 1278:
+                    if(!(verify === options)) { _fun00006_ip = 1324; continue _fun00005 }
+ 1276:
                     verify = sizing + golf;
                     golf = sierra.length;
                     golf = verify < golf;
                     oscar = true;
-                    if(!golf) { _fun00006_ip = 1326; continue _fun00005 }
- 1296:
+                    if(!golf) { _fun00006_ip = 1324; continue _fun00005 }
+ 1294:
                     golf = sierra[verify];
                     golf = golf > yankee;
                     oscar = false;
-                    if(golf) { _fun00006_ip = 1326; continue _fun00005 }
- 1309:
+                    if(golf) { _fun00006_ip = 1324; continue _fun00005 }
+ 1307:
                     verify = verify + 1;
                     golf = sierra.length;
                     golf = verify < golf;
                     oscar = true;
-                    if(golf) { _fun00006_ip = 1296; continue _fun00005 }
- 1326:
-                    if(!oscar) { _fun00006_ip = 1423; continue _fun00005 }
- 1329:
+                    if(golf) { _fun00006_ip = 1294; continue _fun00005 }
+ 1324:
+                    if(!oscar) { _fun00006_ip = 1421; continue _fun00005 }
+ 1327:
                     oscar = 'lf';
-                    if(!(backup !== mike)) { _fun00006_ip = 1342; continue _fun00005 }
- 1339:
+                    if(!(backup !== mike)) { _fun00006_ip = 1340; continue _fun00005 }
+ 1337:
                     oscar = mike;
- 1342:
+ 1340:
                     mike = update.HermesInternal;
                     mike = mike.concat;
                     verify = mike.bind(backup)(papa, foxtrot, oscar);
@@ -633,7 +633,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['children'] = offset;
                     mike = options.bind(result)(golf, mike, verify);
                     mike = oscar.bind(report)(mike);
- 1423:
+ 1421:
                     status = output <= sizing;
                     offset = 'sh';
                     verify = 'sf';
@@ -641,41 +641,41 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = undefined;
                     oscar = undefined;
                     mike = undefined;
-                    if(!status) { _fun00006_ip = 1824; continue _fun00005 }
- 1449:
+                    if(!status) { _fun00006_ip = 1822; continue _fun00005 }
+ 1447:
                     lima = _closure2_slot4;
                     sierra = golf;
                     status = mike;
-                    if(lima) { _fun00006_ip = 1808; continue _fun00005 }
- 1465:
-                    if(record) { _fun00006_ip = 1474; continue _fun00005 }
- 1468:
+                    if(lima) { _fun00006_ip = 1806; continue _fun00005 }
+ 1463:
+                    if(record) { _fun00006_ip = 1472; continue _fun00005 }
+ 1466:
                     quebec = config[output];
-                    _fun00006_ip = 1478; continue _fun00005;
- 1474:
+                    _fun00006_ip = 1476; continue _fun00005;
+ 1472:
                     quebec = config[yankee];
- 1478:
+ 1476:
                     equality = golf;
-                    if(!(quebec > yankee)) { _fun00006_ip = 1623; continue _fun00005 }
- 1488:
+                    if(!(quebec > yankee)) { _fun00006_ip = 1621; continue _fun00005 }
+ 1486:
                     lima = _closure2_slot11;
                     equality = golf;
-                    if(!(romeo != lima)) { _fun00006_ip = 1623; continue _fun00005 }
- 1502:
-                    if(target) { _fun00006_ip = 1511; continue _fun00005 }
- 1505:
+                    if(!(romeo != lima)) { _fun00006_ip = 1621; continue _fun00005 }
+ 1500:
+                    if(target) { _fun00006_ip = 1509; continue _fun00005 }
+ 1503:
                     lima = context[output];
-                    _fun00006_ip = 1515; continue _fun00005;
- 1511:
+                    _fun00006_ip = 1513; continue _fun00005;
+ 1509:
                     lima = context[yankee];
- 1515:
+ 1513:
                     variable36 = lima;
-                    if(!(backup === lima)) { _fun00006_ip = 1538; continue _fun00005 }
- 1522:
+                    if(!(backup === lima)) { _fun00006_ip = 1536; continue _fun00005 }
+ 1520:
                     whiskey = update.HermesInternal;
                     whiskey = whiskey.concat;
                     variable36 = whiskey.bind(verify)(output);
- 1538:
+ 1536:
                     whiskey = update.HermesInternal;
                     whiskey = whiskey.concat;
                     variable39 = whiskey.bind(backup)(papa, foxtrot, variable36);
@@ -694,41 +694,41 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     whiskey = variable38.bind(result)(variable37, whiskey, variable39);
                     whiskey = variable36.bind(report)(whiskey);
                     equality = lima;
- 1623:
-                    if(vacuum) { _fun00006_ip = 1632; continue _fun00005 }
- 1626:
+ 1621:
+                    if(vacuum) { _fun00006_ip = 1630; continue _fun00005 }
+ 1624:
                     whiskey = control[output];
-                    _fun00006_ip = 1636; continue _fun00005;
- 1632:
+                    _fun00006_ip = 1634; continue _fun00005;
+ 1630:
                     whiskey = control[yankee];
- 1636:
+ 1634:
                     options = quebec;
                     sierra = equality;
                     status = mike;
                     oscar = whiskey;
-                    if(!(oscar > yankee)) { _fun00006_ip = 1808; continue _fun00005 }
- 1655:
+                    if(!(oscar > yankee)) { _fun00006_ip = 1806; continue _fun00005 }
+ 1653:
                     lima = _closure2_slot12;
                     options = quebec;
                     sierra = equality;
                     oscar = whiskey;
                     status = mike;
-                    if(!(romeo != lima)) { _fun00006_ip = 1808; continue _fun00005 }
- 1678:
-                    if(target) { _fun00006_ip = 1687; continue _fun00005 }
- 1681:
+                    if(!(romeo != lima)) { _fun00006_ip = 1806; continue _fun00005 }
+ 1676:
+                    if(target) { _fun00006_ip = 1685; continue _fun00005 }
+ 1679:
                     lima = sequence[output];
-                    _fun00006_ip = 1691; continue _fun00005;
- 1687:
+                    _fun00006_ip = 1689; continue _fun00005;
+ 1685:
                     lima = sequence[yankee];
- 1691:
+ 1689:
                     variable37 = lima;
-                    if(!(backup === lima)) { _fun00006_ip = 1714; continue _fun00005 }
- 1698:
+                    if(!(backup === lima)) { _fun00006_ip = 1712; continue _fun00005 }
+ 1696:
                     variable36 = update.HermesInternal;
                     variable36 = variable36.concat;
                     variable37 = variable36.bind(offset)(output);
- 1714:
+ 1712:
                     variable36 = update.HermesInternal;
                     variable36 = variable36.concat;
                     variable40 = variable36.bind(backup)(papa, foxtrot, variable37);
@@ -750,18 +750,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sierra = equality;
                     oscar = whiskey;
                     status = lima;
- 1808:
+ 1806:
                     output = output + 1;
                     golf = sierra;
                     mike = status;
-                    if(output <= sizing) { _fun00006_ip = 1449; continue _fun00005 }
- 1824:
+                    if(output <= sizing) { _fun00006_ip = 1447; continue _fun00005 }
+ 1822:
                     mike = {};
                     mike['items'] = report;
                     mike['keys'] = tango;
                     mike['keyIndex'] = zulu;
                     return mike;
- 1842:
+ 1840:
                     entity = _closure2_slot16;
                     entity = entity.current;
                     return entity;

@@ -71,14 +71,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(tango)(entity);
             mike = zulu.ensureAvatarSource;
             entity = null;
-            if(!(entity != backup)) { _fun00002_ip = 177; continue _fun00001 }
- 173:
-            if(!(entity == foxtrot)) { _fun00002_ip = 190; continue _fun00001 }
- 177:
+            if(!(entity != backup)) { _fun00002_ip = 175; continue _fun00001 }
+ 171:
+            if(!(entity == foxtrot)) { _fun00002_ip = 188; continue _fun00001 }
+ 175:
             entity = romeo.getAvatarSource;
             entity = entity.bind(romeo)(tango);
-            _fun00002_ip = 242; continue _fun00001;
- 190:
+            _fun00002_ip = 240; continue _fun00001;
+ 188:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
             oscar = 7;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['guildMemberAvatar'] = backup;
             oscar['guildId'] = foxtrot;
             entity = verify.bind(yankee)(oscar, romeo);
- 242:
+ 240:
             oscar = mike.bind(zulu)(entity);
             zulu = _closure1_slot7;
             mike = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  116:
             foxtrot = mike.product_name;
  122:
-            if(!(entity != foxtrot)) { _fun00004_ip = 510; continue _fun00003 }
+            if(!(entity != foxtrot)) { _fun00004_ip = 512; continue _fun00003 }
  129:
             mike = report.message;
             golf = mike.author;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = mike;
             zulu = copyDataProperties(echo, result);
             return mike;
- 510:
+ 512:
             return entity;
         }
     };
@@ -337,34 +337,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity == oscar;
             zulu = undefined;
-            if(tango) { _fun00006_ip = 145; continue _fun00005 }
- 135:
+            if(tango) { _fun00006_ip = 143; continue _fun00005 }
+ 133:
             tango = oscar.getGuildId;
             zulu = tango.bind(oscar)();
- 145:
+ 143:
             tango = entity != zulu;
             oscar = undefined;
-            if(!tango) { _fun00006_ip = 157; continue _fun00005 }
- 154:
+            if(!tango) { _fun00006_ip = 155; continue _fun00005 }
+ 152:
             oscar = zulu;
- 157:
+ 155:
             zulu = options.message;
             zulu = zulu.purchaseNotification;
             tango = entity == zulu;
             golf = undefined;
-            if(tango) { _fun00006_ip = 198; continue _fun00005 }
- 177:
+            if(tango) { _fun00006_ip = 196; continue _fun00005 }
+ 175:
             zulu = zulu.guild_product_purchase;
             tango = entity == zulu;
             golf = undefined;
-            if(tango) { _fun00006_ip = 198; continue _fun00005 }
- 192:
+            if(tango) { _fun00006_ip = 196; continue _fun00005 }
+ 190:
             golf = zulu.product_name;
- 198:
+ 196:
             zulu = entity == golf;
             entity = null;
-            if(zulu) { _fun00006_ip = 237; continue _fun00005 }
- 207:
+            if(zulu) { _fun00006_ip = 235; continue _fun00005 }
+ 205:
             tango = _closure1_slot7;
             zulu = _closure1_slot8;
             mike = {};
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['productName'] = golf;
             mike['guildId'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 237:
+ 235:
             return entity;
         }
     };

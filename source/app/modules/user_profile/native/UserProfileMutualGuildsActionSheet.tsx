@@ -226,11 +226,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             verify = foxtrot.container;
             report['style'] = verify;
-            if(!(options != backup)) { _fun00004_ip = 307; continue _fun00003 }
+            if(!(options != backup)) { _fun00004_ip = 303; continue _fun00003 }
  161:
             verify = backup.length;
             options = 0;
-            if(!(options !== verify)) { _fun00004_ip = 237; continue _fun00003 }
+            if(!(options !== verify)) { _fun00004_ip = 233; continue _fun00003 }
  172:
             offset = _closure1_slot5;
             verify = _closure1_slot0;
@@ -275,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             options['renderItem'] = yankee;
             options = offset.bind(tango)(verify, options);
-            _fun00004_ip = 305; continue _fun00003;
- 237:
+            _fun00004_ip = 301; continue _fun00003;
+ 233:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;
             verify = {};
@@ -293,9 +293,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(tango)(kilo, backup);
             verify['children'] = backup;
             options = yankee.bind(tango)(offset, verify);
- 305:
-            _fun00004_ip = 353; continue _fun00003;
- 307:
+ 301:
+            _fun00004_ip = 349; continue _fun00003;
+ 303:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;
             verify = {};
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(tango)(foxtrot, romeo);
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 353:
+ 349:
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

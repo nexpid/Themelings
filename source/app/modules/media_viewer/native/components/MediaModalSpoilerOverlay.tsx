@@ -79,13 +79,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = oscar[backup];
         backup = kilo.bind(entity)(backup);
         backup = backup.unsafe_rawColors;
-        if(foxtrot) { _fun00002_ip = 358; continue _fun00001 }
- 350:
+        if(foxtrot) { _fun00002_ip = 353; continue _fun00001 }
+ 345:
         foxtrot = backup.PRIMARY_600;
-        _fun00002_ip = 364; continue _fun00001;
- 358:
+        _fun00002_ip = 359; continue _fun00001;
+ 353:
         foxtrot = backup.PRIMARY_800;
- 364:
+ 359:
         offset['backgroundColor'] = foxtrot;
         offset['flexGrow'] = romeo;
         offset['justifyContent'] = yankee;

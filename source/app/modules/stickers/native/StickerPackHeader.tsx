@@ -274,8 +274,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot5;
             mike = _closure1_slot6;
             entity = {};
-            if(!oscar) { _fun00002_ip = 752; continue _fun00001 }
- 694:
+            if(!oscar) { _fun00002_ip = 754; continue _fun00001 }
+ 696:
             verify = _closure1_slot4;
             options = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -289,12 +289,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = romeo.banner;
             report['style'] = backup;
             oscar = verify.bind(tango)(options, report);
- 752:
+ 754:
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!(oscar == yankee)) { _fun00002_ip = 809; continue _fun00001 }
- 766:
+            if(!(oscar == yankee)) { _fun00002_ip = 811; continue _fun00001 }
+ 768:
             verify = _closure1_slot4;
             options = _closure1_slot3;
             oscar = {};
@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = backup;
             oscar['children'] = offset;
             oscar = verify.bind(tango)(options, oscar);
-            _fun00002_ip = 884; continue _fun00001;
- 809:
+            _fun00002_ip = 886; continue _fun00001;
+ 811:
             verify = _closure1_slot4;
             options = _closure1_slot0;
             backup = _closure1_slot2;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['accessibilityRole'] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 884:
+ 886:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

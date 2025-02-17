@@ -292,12 +292,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = null;
             options = sizing == backup;
             oscar = undefined;
-            if(options) { _fun00002_ip = 629; continue _fun00001 }
- 623:
-            oscar = backup.showMentionToggle;
+            if(options) { _fun00002_ip = 635; continue _fun00001 }
  629:
-            if(!oscar) { _fun00002_ip = 1112; continue _fun00001 }
+            oscar = backup.showMentionToggle;
  635:
+            if(!oscar) { _fun00002_ip = 1126; continue _fun00001 }
+ 641:
             verify = _closure1_slot10;
             control = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -331,15 +331,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot[echo];
             foxtrot = vacuum.bind(tango)(foxtrot);
             foxtrot = foxtrot.t;
-            if(romeo) { _fun00002_ip = 801; continue _fun00001 }
- 788:
+            if(romeo) { _fun00002_ip = 809; continue _fun00001 }
+ 794:
             romeo = foxtrot.+LXBxc;
             romeo = update.bind(control)(romeo);
-            _fun00002_ip = 812; continue _fun00001;
- 801:
+            _fun00002_ip = 822; continue _fun00001;
+ 809:
             foxtrot = foxtrot.PBgTSE;
             romeo = update.bind(control)(foxtrot);
- 812:
+ 822:
             golf['accessibilityHint'] = romeo;
             golf['activeOpacity'] = yankee;
             golf['onPress'] = offset;
@@ -365,10 +365,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[0] = update;
             source = backup.shouldMention;
             update = null;
-            if(!source) { _fun00002_ip = 931; continue _fun00001 }
- 925:
+            if(!source) { _fun00002_ip = 941; continue _fun00001 }
+ 935:
             update = output.replyMentionIconActive;
- 931:
+ 941:
             foxtrot[1] = update;
             offset['style'] = foxtrot;
             yankee = romeo.bind(tango)(yankee, offset);
@@ -383,10 +383,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {'variant': 'text-sm/bold', 'color': 'text-muted'};
             result = backup.shouldMention;
             sizing = null;
-            if(!result) { _fun00002_ip = 1010; continue _fun00001 }
- 1004:
+            if(!result) { _fun00002_ip = 1020; continue _fun00001 }
+ 1014:
             sizing = output.replyMentionButtonActive;
- 1010:
+ 1020:
             yankee['style'] = sizing;
             backup = backup.shouldMention;
             result = _closure1_slot0;
@@ -398,21 +398,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[echo];
             kilo = result.bind(tango)(kilo);
             kilo = kilo.t;
-            if(backup) { _fun00002_ip = 1077; continue _fun00001 }
- 1064:
+            if(backup) { _fun00002_ip = 1089; continue _fun00001 }
+ 1074:
             backup = kilo.U7f3bG;
             backup = sizing.bind(output)(backup);
-            _fun00002_ip = 1088; continue _fun00001;
- 1077:
+            _fun00002_ip = 1102; continue _fun00001;
+ 1089:
             kilo = kilo.p9jC2t;
             backup = sizing.bind(output)(kilo);
- 1088:
+ 1102:
             yankee['children'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             offset[1] = yankee;
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1112:
+ 1126:
             report[2] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

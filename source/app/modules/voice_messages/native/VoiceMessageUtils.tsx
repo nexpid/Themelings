@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 163; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 159; continue _fun00007 }
  10:
                     tango = _closure1_slot11;
                     mike = tango.getState;
@@ -280,26 +280,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.REQUESTED;
                     tango = golf === oscar;
  62:
-                    if(!tango) { _fun00008_ip = 89; continue _fun00007 }
+                    if(!tango) { _fun00008_ip = 85; continue _fun00007 }
  65:
                     oscar = _closure1_slot25;
                     tango = undefined;
                     tango = oscar.bind(tango)();
                     report = {'filename': '', 'durationSecs': 0, 'waveform': ''};
+ 85:
+                    if(!(mike == report)) { _fun00008_ip = 112; continue _fun00007 }
  89:
-                    if(!(mike == report)) { _fun00008_ip = 116; continue _fun00007 }
- 93:
                     tango = _closure1_slot25;
                     mike = undefined;
                     mike = tango.bind(mike)();
-                    SaveGenerator(address=107);
- 105:
+                    SaveGenerator(address=103);
+ 101:
                     return mike;
- 107:
+ 103:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     report = mike;
-                    if(tango) { _fun00008_ip = 160; continue _fun00007 }
- 116:
+                    if(tango) { _fun00008_ip = 156; continue _fun00007 }
+ 112:
                     oscar = _closure1_slot11;
                     tango = oscar.getState;
                     tango = tango.bind(oscar)();
@@ -311,9 +311,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['data'] = report;
                     zulu['startTimeMillis'] = tango;
                     return zulu;
- 160:
+ 156:
                     return mike;
- 163:
+ 159:
                     return entity;
                 }
             };

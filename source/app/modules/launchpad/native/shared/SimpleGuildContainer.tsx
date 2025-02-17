@@ -262,10 +262,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot0;
                     offset = null;
                     entity = null;
-                    if(!mike) { _fun00008_ip = 445; continue _fun00007 }
+                    if(!mike) { _fun00008_ip = 441; continue _fun00007 }
  17:
                     mike = _closure2_slot6;
-                    if(mike) { _fun00008_ip = 230; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 226; continue _fun00007 }
  30:
                     report = _closure1_slot8;
                     tango = _closure1_slot7;
@@ -309,8 +309,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar[1] = golf;
                     zulu['children'] = oscar;
                     mike = report.bind(mike)(tango, zulu);
-                    _fun00008_ip = 442; continue _fun00007;
- 230:
+                    _fun00008_ip = 438; continue _fun00007;
+ 226:
                     oscar = _closure1_slot6;
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
@@ -324,32 +324,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = _closure2_slot7;
                     yankee = offset == golf;
                     golf = undefined;
-                    if(yankee) { _fun00008_ip = 308; continue _fun00007 }
- 299:
+                    if(yankee) { _fun00008_ip = 304; continue _fun00007 }
+ 295:
                     yankee = _closure2_slot7;
                     golf = yankee.source;
- 308:
+ 304:
                     yankee = offset != golf;
                     offset = 0;
                     golf = 0;
-                    if(!yankee) { _fun00008_ip = 322; continue _fun00007 }
- 319:
+                    if(!yankee) { _fun00008_ip = 318; continue _fun00007 }
+ 315:
                     golf = 13;
- 322:
+ 318:
                     zulu['cutoutTopRightSize'] = golf;
                     golf = _closure2_slot3;
                     yankee = golf > offset;
                     golf = 13;
-                    if(yankee) { _fun00008_ip = 357; continue _fun00007 }
- 342:
+                    if(yankee) { _fun00008_ip = 353; continue _fun00007 }
+ 338:
                     yankee = _closure2_slot4;
                     offset = 0;
-                    if(!yankee) { _fun00008_ip = 354; continue _fun00007 }
- 351:
+                    if(!yankee) { _fun00008_ip = 350; continue _fun00007 }
+ 347:
                     offset = 11;
- 354:
+ 350:
                     golf = offset;
- 357:
+ 353:
                     zulu['cutoutBottomRightSize'] = golf;
                     yankee = 6;
                     golf = _closure2_slot1;
@@ -369,9 +369,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['imageBorderRadius'] = options;
                     zulu['clipInnerAmount'] = golf;
                     mike = oscar.bind(report)(tango, zulu);
- 442:
+ 438:
                     entity = mike;
- 445:
+ 441:
                     return entity;
                 }
             };

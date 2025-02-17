@@ -791,30 +791,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = output.bind(tango)(sizing, options);
             report[1] = options;
             options = !golf;
-            if(!options) { _fun00002_ip = 1562; continue _fun00001 }
- 1559:
+            if(!options) { _fun00002_ip = 1536; continue _fun00001 }
+ 1533:
             options = !foxtrot;
- 1562:
-            if(!options) { _fun00002_ip = 1577; continue _fun00001 }
- 1565:
+ 1536:
+            if(!options) { _fun00002_ip = 1551; continue _fun00001 }
+ 1539:
             sizing = _closure1_slot10;
             sizing = sizing.bind(tango)(verify);
             options = !sizing;
- 1577:
-            if(!options) { _fun00002_ip = 1592; continue _fun00001 }
- 1580:
+ 1551:
+            if(!options) { _fun00002_ip = 1566; continue _fun00001 }
+ 1554:
             sizing = _closure1_slot12;
             sizing = sizing.bind(tango)(verify);
             options = !sizing;
- 1592:
-            if(!options) { _fun00002_ip = 1607; continue _fun00001 }
- 1595:
+ 1566:
+            if(!options) { _fun00002_ip = 1581; continue _fun00001 }
+ 1569:
             sizing = _closure1_slot14;
             sizing = sizing.bind(tango)(verify);
             options = !sizing;
- 1607:
-            if(!options) { _fun00002_ip = 1672; continue _fun00001 }
- 1610:
+ 1581:
+            if(!options) { _fun00002_ip = 1646; continue _fun00001 }
+ 1584:
             echo = _closure1_slot20;
             output = _closure1_slot1;
             sierra = _closure1_slot3;
@@ -829,12 +829,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['undoRedoSaveVisible'] = update;
             sizing['onExit'] = papa;
             options = echo.bind(tango)(output, sizing);
- 1672:
+ 1646:
             report[2] = options;
             options = _closure1_slot11;
             options = options.bind(tango)(verify);
-            if(!options) { _fun00002_ip = 1738; continue _fun00001 }
- 1688:
+            if(!options) { _fun00002_ip = 1712; continue _fun00001 }
+ 1662:
             echo = _closure1_slot20;
             output = _closure1_slot1;
             papa = _closure1_slot3;
@@ -847,16 +847,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['canvasWidth'] = romeo;
             sizing['drawing'] = foxtrot;
             options = echo.bind(tango)(output, sizing);
- 1738:
+ 1712:
             report[3] = options;
             options = _closure1_slot11;
             options = options.bind(tango)(verify);
-            if(!options) { _fun00002_ip = 1757; continue _fun00001 }
- 1754:
+            if(!options) { _fun00002_ip = 1731; continue _fun00001 }
+ 1728:
             options = !foxtrot;
- 1757:
-            if(!options) { _fun00002_ip = 1878; continue _fun00001 }
- 1760:
+ 1731:
+            if(!options) { _fun00002_ip = 1852; continue _fun00001 }
+ 1734:
             output = _closure1_slot20;
             sizing = _closure1_slot1;
             echo = _closure1_slot3;
@@ -883,12 +883,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.COLOR_CAROUSEL_WIDTH;
             foxtrot['width'] = echo;
             options = output.bind(tango)(sizing, foxtrot);
- 1878:
+ 1852:
             report[4] = options;
             options = _closure1_slot12;
             options = options.bind(tango)(verify);
-            if(!options) { _fun00002_ip = 2041; continue _fun00001 }
- 1897:
+            if(!options) { _fun00002_ip = 2013; continue _fun00001 }
+ 1871:
             output = _closure1_slot20;
             sizing = _closure1_slot7;
             foxtrot = {};
@@ -932,17 +932,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = update.bind(tango)(echo, result);
             foxtrot['children'] = result;
             options = output.bind(tango)(sizing, foxtrot);
- 2041:
+ 2013:
             report[5] = options;
             golf = !golf;
-            if(!golf) { _fun00002_ip = 2063; continue _fun00001 }
- 2051:
+            if(!golf) { _fun00002_ip = 2035; continue _fun00001 }
+ 2023:
             options = _closure1_slot9;
             options = options.bind(tango)(verify);
             golf = !options;
- 2063:
-            if(!golf) { _fun00002_ip = 2135; continue _fun00001 }
- 2066:
+ 2035:
+            if(!golf) { _fun00002_ip = 2107; continue _fun00001 }
+ 2038:
             foxtrot = _closure1_slot20;
             verify = _closure1_slot1;
             sizing = _closure1_slot3;
@@ -960,7 +960,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['y'] = kilo;
             options['canvasCenterPoint'] = backup;
             golf = foxtrot.bind(tango)(verify, options);
- 2135:
+ 2107:
             report[6] = golf;
             options = _closure1_slot20;
             golf = _closure1_slot1;

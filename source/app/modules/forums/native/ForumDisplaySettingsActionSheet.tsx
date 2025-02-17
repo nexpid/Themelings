@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = zulu.bind(tango)(entity, mike);
             entity = null;
             mike = entity == yankee;
-            if(mike) { _fun00002_ip = 1455; continue _fun00001 }
+            if(mike) { _fun00002_ip = 1465; continue _fun00001 }
  262:
             tango = _closure1_slot8;
             echo = _closure1_slot0;
@@ -383,8 +383,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = yankee.isForumChannel;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun00002_ip = 1188; continue _fun00001 }
- 797:
+            if(!offset) { _fun00002_ip = 1196; continue _fun00001 }
+ 801:
             backup = _closure1_slot10;
             romeo = _closure1_slot9;
             yankee = {};
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[1] = sizing;
             yankee['children'] = kilo;
             offset = backup.bind(report)(romeo, yankee);
- 1188:
+ 1196:
             verify[1] = offset;
             romeo = _closure1_slot10;
             control = _closure1_slot0;
@@ -636,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1455:
+ 1465:
             return entity;
         }
     };

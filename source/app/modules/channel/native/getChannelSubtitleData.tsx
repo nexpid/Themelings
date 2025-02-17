@@ -25,14 +25,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 186; continue _fun00001 }
+            if(!(entity != zulu)) { _fun00002_ip = 188; continue _fun00001 }
  12:
             tango = zulu.type;
             mike = 'embedded-activities';
-            if(!(mike !== tango)) { _fun00002_ip = 163; continue _fun00001 }
+            if(!(mike !== tango)) { _fun00002_ip = 165; continue _fun00001 }
  30:
             mike = 'event';
-            if(!(mike !== tango)) { _fun00002_ip = 163; continue _fun00001 }
+            if(!(mike !== tango)) { _fun00002_ip = 165; continue _fun00001 }
  41:
             mike = 'go-live';
             if(!(mike !== tango)) { _fun00002_ip = 86; continue _fun00001 }
@@ -68,14 +68,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = zulu.type;
             mike['type'] = tango;
             return mike;
- 163:
+ 165:
             mike = {};
             tango = zulu.name;
             mike['subtitle'] = tango;
             zulu = zulu.type;
             mike['type'] = zulu;
             return mike;
- 186:
+ 188:
             return entity;
         }
     };

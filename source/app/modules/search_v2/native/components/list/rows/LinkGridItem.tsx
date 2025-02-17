@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     mike = _closure2_slot7;
                     entity = null;
-                    if(!(entity != mike)) { _fun00006_ip = 177; continue _fun00005 }
+                    if(!(entity != mike)) { _fun00006_ip = 173; continue _fun00005 }
  16:
                     oscar = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['children'] = report;
                     entity = zulu.bind(tango)(mike, entity);
                     return entity;
- 177:
+ 173:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
                     entity = 11;

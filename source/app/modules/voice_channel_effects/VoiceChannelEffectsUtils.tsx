@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = argFoo;
             entity = zulu.length;
             yankee = 1;
-            if(!(!(entity < yankee))) { _fun00010_ip = 570; continue _fun00009 }
+            if(!(!(entity < yankee))) { _fun00010_ip = 576; continue _fun00009 }
  18:
             mike = _closure1_slot7;
             options = undefined;
@@ -419,13 +419,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = romeo.length;
             mike = entity < yankee;
             entity = '';
-            if(mike) { _fun00010_ip = 568; continue _fun00009 }
+            if(mike) { _fun00010_ip = 574; continue _fun00009 }
  130:
             mike = romeo.length;
-            if(!(yankee !== mike)) { _fun00010_ip = 460; continue _fun00009 }
+            if(!(yankee !== mike)) { _fun00010_ip = 464; continue _fun00009 }
  142:
             mike = romeo.length;
-            if(!(offset !== mike)) { _fun00010_ip = 315; continue _fun00009 }
+            if(!(offset !== mike)) { _fun00010_ip = 317; continue _fun00009 }
  154:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -447,10 +447,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             kilo = oscar == backup;
             foxtrot = undefined;
-            if(kilo) { _fun00010_ip = 243; continue _fun00009 }
- 238:
+            if(kilo) { _fun00010_ip = 245; continue _fun00009 }
+ 240:
             foxtrot = backup.username;
- 243:
+ 245:
             mike['firstUsername'] = foxtrot;
             kilo = _closure1_slot3;
             backup = kilo.getUser;
@@ -458,18 +458,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = backup.bind(kilo)(foxtrot);
             backup = oscar == foxtrot;
             oscar = undefined;
-            if(backup) { _fun00010_ip = 281; continue _fun00009 }
- 276:
+            if(backup) { _fun00010_ip = 283; continue _fun00009 }
+ 278:
             oscar = foxtrot.username;
- 281:
+ 283:
             mike['secondUsername'] = oscar;
             oscar = romeo.length;
             oscar = oscar - offset;
             mike['count'] = oscar;
             mike['emojiNames'] = golf;
             mike = tango.bind(report)(zulu, mike);
-            _fun00010_ip = 458; continue _fun00009;
- 315:
+            _fun00010_ip = 462; continue _fun00009;
+ 317:
             tango = _closure1_slot0;
             offset = _closure1_slot2;
             zulu = 29;
@@ -490,10 +490,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             kilo = offset == backup;
             foxtrot = undefined;
-            if(kilo) { _fun00010_ip = 404; continue _fun00009 }
- 399:
+            if(kilo) { _fun00010_ip = 408; continue _fun00009 }
+ 403:
             foxtrot = backup.username;
- 404:
+ 408:
             zulu['firstUsername'] = foxtrot;
             backup = _closure1_slot3;
             foxtrot = backup.getUser;
@@ -501,16 +501,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = foxtrot.bind(backup)(yankee);
             foxtrot = offset == yankee;
             offset = undefined;
-            if(foxtrot) { _fun00010_ip = 442; continue _fun00009 }
- 437:
+            if(foxtrot) { _fun00010_ip = 446; continue _fun00009 }
+ 441:
             offset = yankee.username;
- 442:
+ 446:
             zulu['secondUsername'] = offset;
             zulu['emojiNames'] = golf;
             mike = report.bind(oscar)(tango, zulu);
- 458:
-            _fun00010_ip = 565; continue _fun00009;
- 460:
+ 462:
+            _fun00010_ip = 571; continue _fun00009;
+ 464:
             tango = _closure1_slot0;
             offset = _closure1_slot2;
             zulu = 29;
@@ -531,18 +531,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             offset = offset == verify;
             options = undefined;
-            if(offset) { _fun00010_ip = 549; continue _fun00009 }
- 544:
+            if(offset) { _fun00010_ip = 555; continue _fun00009 }
+ 550:
             options = verify.username;
- 549:
+ 555:
             zulu['firstUsername'] = options;
             zulu['emojiNames'] = golf;
             mike = report.bind(oscar)(tango, zulu);
- 565:
+ 571:
             entity = mike;
- 568:
+ 574:
             return entity;
- 570:
+ 576:
             entity = '';
             return entity;
         }

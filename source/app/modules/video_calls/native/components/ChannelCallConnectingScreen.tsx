@@ -428,29 +428,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options[backup];
             options = foxtrot.bind(tango)(options);
             options = options.t;
-            if(romeo) { _fun00004_ip = 586; continue _fun00003 }
+            if(romeo) { _fun00004_ip = 588; continue _fun00003 }
  541:
-            if(yankee) { _fun00004_ip = 573; continue _fun00003 }
+            if(yankee) { _fun00004_ip = 575; continue _fun00003 }
  544:
             if(oscar) { _fun00004_ip = 560; continue _fun00003 }
  547:
             oscar = options.96ANUF;
             oscar = verify.bind(offset)(oscar);
-            _fun00004_ip = 571; continue _fun00003;
+            _fun00004_ip = 573; continue _fun00003;
  560:
             yankee = options.Bd/Li4;
             oscar = verify.bind(offset)(yankee);
- 571:
-            _fun00004_ip = 584; continue _fun00003;
  573:
+            _fun00004_ip = 586; continue _fun00003;
+ 575:
             yankee = options.rZfiNj;
             oscar = verify.bind(offset)(yankee);
- 584:
-            _fun00004_ip = 597; continue _fun00003;
  586:
+            _fun00004_ip = 599; continue _fun00003;
+ 588:
             options = options.TVBCKS;
             oscar = verify.bind(offset)(options);
- 597:
+ 599:
             entity['label'] = oscar;
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -730,18 +730,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.container;
             report['style'] = offset;
             yankee = _closure1_slot15;
-            if(options) { _fun00010_ip = 282; continue _fun00009 }
- 264:
+            if(options) { _fun00010_ip = 278; continue _fun00009 }
+ 260:
             offset = _closure1_slot21;
             options = {};
             options['channel'] = romeo;
             options = yankee.bind(tango)(offset, options);
-            _fun00010_ip = 294; continue _fun00009;
- 282:
+            _fun00010_ip = 290; continue _fun00009;
+ 278:
             offset = _closure1_slot20;
             verify = {};
             options = yankee.bind(tango)(offset, verify);
- 294:
+ 290:
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

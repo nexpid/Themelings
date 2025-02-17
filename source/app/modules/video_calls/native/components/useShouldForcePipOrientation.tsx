@@ -174,41 +174,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             verify = mike != entity;
             tango = null;
-            if(!verify) { _fun00002_ip = 203; continue _fun00001 }
- 170:
+            if(!verify) { _fun00002_ip = 199; continue _fun00001 }
+ 166:
             verify = entity.user;
             offset = verify.id;
             yankee = _closure1_slot5;
             verify = yankee.getId;
             verify = verify.bind(yankee)();
             tango = null;
-            if(!(offset !== verify)) { _fun00002_ip = 203; continue _fun00001 }
- 200:
+            if(!(offset !== verify)) { _fun00002_ip = 199; continue _fun00001 }
+ 196:
             tango = entity;
- 203:
+ 199:
             entity = tango;
-            if(!(mike != options)) { _fun00002_ip = 213; continue _fun00001 }
- 210:
+            if(!(mike != options)) { _fun00002_ip = 209; continue _fun00001 }
+ 206:
             entity = options;
+ 209:
+            if(!(mike != entity)) { _fun00002_ip = 295; continue _fun00001 }
  213:
-            if(!(mike != entity)) { _fun00002_ip = 299; continue _fun00001 }
- 217:
             options = _closure1_slot7;
             options = options.bind(report)(entity);
-            if(options) { _fun00002_ip = 243; continue _fun00001 }
- 229:
+            if(options) { _fun00002_ip = 239; continue _fun00001 }
+ 225:
             options = _closure1_slot6;
             options = options.LANDSCAPE;
-            if(!(oscar === options)) { _fun00002_ip = 299; continue _fun00001 }
+            if(!(oscar === options)) { _fun00002_ip = 295; continue _fun00001 }
+ 239:
+            if(!(mike == golf)) { _fun00002_ip = 295; continue _fun00001 }
  243:
-            if(!(mike == golf)) { _fun00002_ip = 299; continue _fun00001 }
+            if(!(mike != tango)) { _fun00002_ip = 261; continue _fun00001 }
  247:
-            if(!(mike != tango)) { _fun00002_ip = 265; continue _fun00001 }
- 251:
             tango = tango.id;
             entity = entity.id;
-            if(!(tango === entity)) { _fun00002_ip = 299; continue _fun00001 }
- 265:
+            if(!(tango === entity)) { _fun00002_ip = 295; continue _fun00001 }
+ 261:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
             entity = 8;
@@ -216,17 +216,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.OrientationType;
             entity = entity.LANDSCAPE;
-            _fun00002_ip = 398; continue _fun00001;
- 299:
+            _fun00002_ip = 394; continue _fun00001;
+ 295:
             tango = _closure1_slot6;
             tango = tango.LANDSCAPE;
-            if(!(oscar !== tango)) { _fun00002_ip = 363; continue _fun00001 }
- 313:
+            if(!(oscar !== tango)) { _fun00002_ip = 359; continue _fun00001 }
+ 309:
             tango = _closure1_slot6;
             tango = tango.PORTRAIT;
             mike = null;
-            if(!(oscar === tango)) { _fun00002_ip = 361; continue _fun00001 }
- 329:
+            if(!(oscar === tango)) { _fun00002_ip = 357; continue _fun00001 }
+ 325:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
             tango = 8;
@@ -234,9 +234,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(report)(tango);
             tango = tango.OrientationType;
             mike = tango.PORTRAIT;
- 361:
-            _fun00002_ip = 395; continue _fun00001;
- 363:
+ 357:
+            _fun00002_ip = 391; continue _fun00001;
+ 359:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
             zulu = 8;
@@ -244,9 +244,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             zulu = zulu.OrientationType;
             mike = zulu.LANDSCAPE;
- 395:
+ 391:
             entity = mike;
- 398:
+ 394:
             return entity;
         }
     };

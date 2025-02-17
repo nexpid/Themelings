@@ -148,27 +148,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = verify[tango];
                     tango = options.bind(report)(tango);
                     options = tango.colors;
-                    if(mike) { _fun00004_ip = 118; continue _fun00003 }
- 110:
+                    if(mike) { _fun00004_ip = 116; continue _fun00003 }
+ 108:
                     tango = options.INPUT_BACKGROUND;
-                    _fun00004_ip = 124; continue _fun00003;
- 118:
+                    _fun00004_ip = 122; continue _fun00003;
+ 116:
                     tango = options.BG_BRAND;
- 124:
+ 122:
                     tango = oscar.bind(golf)(tango);
                     oscar = null;
                     oscar = oscar != tango;
                     options = '';
-                    if(!oscar) { _fun00004_ip = 145; continue _fun00003 }
- 142:
+                    if(!oscar) { _fun00004_ip = 143; continue _fun00003 }
+ 140:
                     options = tango;
- 145:
+ 143:
                     var _closure3_slot1 = options;
                     oscar = 0;
-                    if(!mike) { _fun00004_ip = 160; continue _fun00003 }
- 154:
+                    if(!mike) { _fun00004_ip = 158; continue _fun00003 }
+ 152:
                     oscar = 360;
- 160:
+ 158:
                     var _closure3_slot2 = oscar;
                     tango = _closure1_slot0;
                     offset = _closure1_slot2;

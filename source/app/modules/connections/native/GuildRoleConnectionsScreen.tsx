@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = oscar.bind(golf)(entity, zulu);
             entity = null;
-            if(!(entity != mike)) { _fun00002_ip = 619; continue _fun00001 }
+            if(!(entity != mike)) { _fun00002_ip = 621; continue _fun00001 }
  318:
             mike = global;
             zulu = mike.Object;
@@ -821,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 619:
+ 621:
             return entity;
         }
     };

@@ -131,8 +131,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.isValidElement;
             oscar = oscar.bind(options)(yankee);
             options = yankee;
-            if(!oscar) { _fun00002_ip = 254; continue _fun00001 }
- 201:
+            if(!oscar) { _fun00002_ip = 252; continue _fun00001 }
+ 199:
             offset = _closure1_slot3;
             verify = offset.cloneElement;
             oscar = {};
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.WHITE;
             oscar['color'] = romeo;
             options = verify.bind(offset)(yankee, oscar);
- 254:
+ 252:
             oscar = 'icon';
             entity[oscar] = options;
             oscar = 'style';

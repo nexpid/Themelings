@@ -76,14 +76,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.t;
             if(romeo) { _fun00002_ip = 319; continue _fun00001 }
- 306:
+ 304:
             kilo = sizing.laPwJS;
             kilo = output.bind(result)(kilo);
-            _fun00002_ip = 330; continue _fun00001;
+            _fun00002_ip = 332; continue _fun00001;
  319:
             sizing = sizing.JcFI/f;
             kilo = output.bind(result)(sizing);
- 330:
+ 332:
             offset['children'] = kilo;
             offset = backup.bind(tango)(foxtrot, offset);
             options[1] = offset;

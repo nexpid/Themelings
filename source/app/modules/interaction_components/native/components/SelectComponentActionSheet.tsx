@@ -921,10 +921,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 'always';
             report['keyboardShouldPersistTaps'] = options;
             options = 'radiogroup';
-            if(!verify) { _fun00012_ip = 865; continue _fun00011 }
- 861:
+            if(!verify) { _fun00012_ip = 863; continue _fun00011 }
+ 859:
             options = 'none';
- 865:
+ 863:
             report['accessibilityRole'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

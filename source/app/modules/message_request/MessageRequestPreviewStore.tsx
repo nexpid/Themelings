@@ -434,12 +434,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = argFoo;
                 zulu = _closure1_slot10;
                 zulu = mike in zulu;
-                if(zulu) { _fun00016_ip = 39; continue _fun00015 }
+                if(zulu) { _fun00016_ip = 35; continue _fun00015 }
  17:
                 tango = _closure1_slot10;
                 zulu = {'loaded': false, 'error': false, 'message': null};
                 tango[mike] = zulu;
- 39:
+ 35:
                 entity = _closure1_slot10;
                 entity = entity[mike];
                 return entity;

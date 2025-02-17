@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'text-md/medium';
             yankee['variant'] = oscar;
             oscar = null;
-            if(!(oscar == backup)) { _fun00002_ip = 241; continue _fun00001 }
+            if(!(oscar == backup)) { _fun00002_ip = 243; continue _fun00001 }
  186:
             result = _closure1_slot0;
             echo = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.t;
             kilo = kilo.mqn87+;
             backup = sizing.bind(output)(kilo);
- 241:
+ 243:
             yankee['children'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             offset[1] = yankee;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = verify;
             oscar = null;
             if(options) { _fun00002_ip = 388; continue _fun00001 }
- 278:
+ 280:
             verify = _closure1_slot5;
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;

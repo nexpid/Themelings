@@ -750,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = foxtrot.bind(report)(romeo, golf);
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun00002_ip = 1459; continue _fun00001;
+            _fun00002_ip = 1461; continue _fun00001;
  1181:
             tango = _closure1_slot10;
             zulu = _closure1_slot1;
@@ -811,7 +811,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1459:
+ 1461:
             return entity;
         }
     };

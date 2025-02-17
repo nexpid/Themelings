@@ -193,8 +193,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.isAndroid;
             offset = verify.bind(offset)();
             verify = null;
-            if(!offset) { _fun00002_ip = 555; continue _fun00001 }
- 430:
+            if(!offset) { _fun00002_ip = 561; continue _fun00001 }
+ 434:
             romeo = _closure1_slot3;
             yankee = _closure1_slot6;
             offset = {};
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             offset['render'] = foxtrot;
             verify = romeo.bind(zulu)(yankee, offset);
- 555:
+ 561:
             options[2] = verify;
             report['children'] = options;
             report = golf.bind(zulu)(oscar, report);

@@ -29,23 +29,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             oscar = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity != oscar)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(entity != oscar)) { _fun00002_ip = 76; continue _fun00001 }
  63:
             mike = oscar.isRoleSubscriptionTemplatePreviewChannel;
             mike = mike.bind(oscar)();
-            if(mike) { _fun00002_ip = 193; continue _fun00001 }
- 78:
-            if(!(entity != oscar)) { _fun00002_ip = 107; continue _fun00001 }
- 82:
+            if(mike) { _fun00002_ip = 191; continue _fun00001 }
+ 76:
+            if(!(entity != oscar)) { _fun00002_ip = 105; continue _fun00001 }
+ 80:
             zulu = tango.isChannelGated;
             mike = oscar.guild_id;
             entity = oscar.id;
             entity = zulu.bind(tango)(mike, entity);
-            if(entity) { _fun00002_ip = 116; continue _fun00001 }
- 107:
+            if(entity) { _fun00002_ip = 114; continue _fun00001 }
+ 105:
             entity = _closure1_slot6;
-            _fun00002_ip = 191; continue _fun00001;
- 116:
+            _fun00002_ip = 189; continue _fun00001;
+ 114:
             mike = {};
             zulu = true;
             mike['isSubscriptionGated'] = zulu;
@@ -53,24 +53,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(oscar)();
             report = golf.can;
             tango = _closure1_slot5;
-            if(zulu) { _fun00002_ip = 168; continue _fun00001 }
- 151:
+            if(zulu) { _fun00002_ip = 166; continue _fun00001 }
+ 149:
             zulu = tango.VIEW_CHANNEL;
             zulu = report.bind(golf)(zulu, oscar);
             zulu = !zulu;
-            _fun00002_ip = 183; continue _fun00001;
- 168:
+            _fun00002_ip = 181; continue _fun00001;
+ 166:
             tango = tango.CONNECT;
             tango = report.bind(golf)(tango, oscar);
             zulu = !tango;
- 183:
+ 181:
             mike['needSubscriptionToAccess'] = zulu;
             entity = mike;
+ 189:
+            _fun00002_ip = 201; continue _fun00001;
  191:
-            _fun00002_ip = 203; continue _fun00001;
- 193:
             entity = {'isSubscriptionGated': true, 'needSubscriptionToAccess': true};
- 203:
+ 201:
             return entity;
         }
     };

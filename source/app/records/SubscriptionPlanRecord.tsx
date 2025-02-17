@@ -345,10 +345,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(entity) { _fun00016_ip = 25; continue _fun00015 }
  17:
                 entity = mike.price;
-                _fun00016_ip = 33; continue _fun00015;
+                _fun00016_ip = 31; continue _fun00015;
  25:
                 entity = mike.giftPrice;
- 33:
+ 31:
                 return entity;
             }
         };
@@ -370,10 +370,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(entity) { _fun00018_ip = 25; continue _fun00017 }
  17:
                 entity = mike.currency;
-                _fun00018_ip = 33; continue _fun00017;
+                _fun00018_ip = 31; continue _fun00017;
  25:
                 entity = mike.giftCurrency;
- 33:
+ 31:
                 return entity;
             }
         };
@@ -395,10 +395,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(entity) { _fun00020_ip = 25; continue _fun00019 }
  17:
                 entity = mike.premiumUserPrice;
-                _fun00020_ip = 33; continue _fun00019;
+                _fun00020_ip = 31; continue _fun00019;
  25:
                 entity = mike.giftPremiumUserPrice;
- 33:
+ 31:
                 return entity;
             }
         };

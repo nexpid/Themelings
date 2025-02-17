@@ -63,10 +63,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = offset.getChannels;
             report = report.bind(offset)(romeo);
             offset = report[oscar];
-            if(!(tango == offset)) { _fun00002_ip = 124; continue _fun00001 }
- 120:
-            offset = new Array(0);
+            if(!(tango == offset)) { _fun00002_ip = 128; continue _fun00001 }
  124:
+            offset = new Array(0);
+ 128:
             report = _closure1_slot1;
             result = _closure1_slot2;
             tango = 2;

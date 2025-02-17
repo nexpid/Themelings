@@ -209,14 +209,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = undefined;
                     oscar = options.bind(mike)(oscar);
                     oscar = oscar.DENY;
-                    if(!(yankee !== oscar)) { _fun00004_ip = 235; continue _fun00003 }
+                    if(!(yankee !== oscar)) { _fun00004_ip = 239; continue _fun00003 }
  65:
                     options = _closure1_slot0;
                     oscar = _closure1_slot2;
                     oscar = oscar[golf];
                     oscar = options.bind(mike)(oscar);
                     oscar = oscar.ALLOW;
-                    if(!(yankee !== oscar)) { _fun00004_ip = 178; continue _fun00003 }
+                    if(!(yankee !== oscar)) { _fun00004_ip = 180; continue _fun00003 }
  92:
                     options = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = options.bind(mike)(oscar);
                     options = oscar.PASSTHROUGH;
                     oscar = undefined;
-                    if(!(yankee === options)) { _fun00004_ip = 176; continue _fun00003 }
+                    if(!(yankee === options)) { _fun00004_ip = 178; continue _fun00003 }
  121:
                     foxtrot = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -238,9 +238,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.ujC3ZW;
                     oscar = verify.bind(romeo)(options);
- 176:
-                    _fun00004_ip = 233; continue _fun00003;
  178:
+                    _fun00004_ip = 237; continue _fun00003;
+ 180:
                     foxtrot = _closure1_slot0;
                     backup = _closure1_slot2;
                     options = 6;
@@ -253,9 +253,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.RzDfSk;
                     oscar = verify.bind(romeo)(options);
- 233:
-                    _fun00004_ip = 290; continue _fun00003;
- 235:
+ 237:
+                    _fun00004_ip = 296; continue _fun00003;
+ 239:
                     foxtrot = _closure1_slot0;
                     backup = _closure1_slot2;
                     options = 6;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.6639Oz;
                     oscar = verify.bind(romeo)(options);
- 290:
+ 296:
                     zulu['accessibilityLabel'] = oscar;
                     oscar = {};
                     options = _closure2_slot0;
@@ -386,23 +386,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity[golf];
                     entity = oscar.bind(mike)(entity);
                     entity = entity.DENY;
-                    if(!(yankee !== entity)) { _fun00004_ip = 711; continue _fun00003 }
- 369:
+                    if(!(yankee !== entity)) { _fun00004_ip = 717; continue _fun00003 }
+ 375:
                     oscar = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[golf];
                     entity = oscar.bind(mike)(entity);
                     entity = entity.ALLOW;
-                    if(!(yankee !== entity)) { _fun00004_ip = 571; continue _fun00003 }
- 399:
+                    if(!(yankee !== entity)) { _fun00004_ip = 577; continue _fun00003 }
+ 405:
                     oscar = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[golf];
                     entity = oscar.bind(mike)(entity);
                     oscar = entity.PASSTHROUGH;
                     entity = null;
-                    if(!(yankee === oscar)) { _fun00004_ip = 566; continue _fun00003 }
- 431:
+                    if(!(yankee === oscar)) { _fun00004_ip = 572; continue _fun00003 }
+ 437:
                     options = _closure1_slot5;
                     golf = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -417,8 +417,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo.icon;
                     oscar['style'] = romeo;
                     romeo = _closure2_slot0;
-                    if(!(romeo !== yankee)) { _fun00004_ip = 525; continue _fun00003 }
- 492:
+                    if(!(romeo !== yankee)) { _fun00004_ip = 531; continue _fun00003 }
+ 498:
                     foxtrot = _closure1_slot1;
                     backup = _closure1_slot2;
                     romeo = 3;
@@ -426,8 +426,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = foxtrot.bind(mike)(romeo);
                     romeo = romeo.colors;
                     romeo = romeo.INTERACTIVE_NORMAL;
-                    _fun00004_ip = 556; continue _fun00003;
- 525:
+                    _fun00004_ip = 562; continue _fun00003;
+ 531:
                     backup = _closure1_slot1;
                     kilo = _closure1_slot2;
                     foxtrot = 3;
@@ -435,12 +435,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = backup.bind(mike)(foxtrot);
                     foxtrot = foxtrot.colors;
                     romeo = foxtrot.WHITE;
- 556:
+ 562:
                     oscar['color'] = romeo;
                     entity = options.bind(mike)(golf, oscar);
- 566:
-                    _fun00004_ip = 706; continue _fun00003;
- 571:
+ 572:
+                    _fun00004_ip = 712; continue _fun00003;
+ 577:
                     options = _closure1_slot5;
                     golf = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -455,8 +455,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo.icon;
                     oscar['style'] = romeo;
                     romeo = _closure2_slot0;
-                    if(!(romeo !== yankee)) { _fun00004_ip = 665; continue _fun00003 }
- 632:
+                    if(!(romeo !== yankee)) { _fun00004_ip = 671; continue _fun00003 }
+ 638:
                     foxtrot = _closure1_slot1;
                     backup = _closure1_slot2;
                     romeo = 3;
@@ -464,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = foxtrot.bind(mike)(romeo);
                     romeo = romeo.colors;
                     romeo = romeo.INFO_POSITIVE_FOREGROUND;
-                    _fun00004_ip = 696; continue _fun00003;
- 665:
+                    _fun00004_ip = 702; continue _fun00003;
+ 671:
                     backup = _closure1_slot1;
                     kilo = _closure1_slot2;
                     foxtrot = 3;
@@ -473,12 +473,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = backup.bind(mike)(foxtrot);
                     foxtrot = foxtrot.colors;
                     romeo = foxtrot.WHITE;
- 696:
+ 702:
                     oscar['color'] = romeo;
                     entity = options.bind(mike)(golf, oscar);
- 706:
-                    _fun00004_ip = 846; continue _fun00003;
- 711:
+ 712:
+                    _fun00004_ip = 852; continue _fun00003;
+ 717:
                     options = _closure1_slot5;
                     golf = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -493,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo.icon;
                     oscar['style'] = romeo;
                     verify = _closure2_slot0;
-                    if(!(verify !== yankee)) { _fun00004_ip = 805; continue _fun00003 }
- 772:
+                    if(!(verify !== yankee)) { _fun00004_ip = 811; continue _fun00003 }
+ 778:
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
                     verify = 3;
@@ -502,8 +502,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = yankee.bind(mike)(verify);
                     verify = verify.colors;
                     verify = verify.INFO_DANGER_FOREGROUND;
-                    _fun00004_ip = 836; continue _fun00003;
- 805:
+                    _fun00004_ip = 842; continue _fun00003;
+ 811:
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
                     offset = 3;
@@ -511,10 +511,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = yankee.bind(mike)(offset);
                     offset = offset.colors;
                     verify = offset.WHITE;
- 836:
+ 842:
                     oscar['color'] = verify;
                     entity = options.bind(mike)(golf, oscar);
- 846:
+ 852:
                     zulu['children'] = entity;
                     entity = global;
                     entity = entity.HermesInternal;

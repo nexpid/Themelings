@@ -450,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = _closure2_slot4;
                 tango = tango.length;
                 report = 0;
-                if(!(tango > report)) { _fun00014_ip = 145; continue _fun00013 }
+                if(!(tango > report)) { _fun00014_ip = 147; continue _fun00013 }
  28:
                 oscar = entity.push;
                 tango = {};
@@ -500,11 +500,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 tango = oscar.bind(golf)(tango);
- 145:
+ 147:
                 tango = _closure2_slot5;
                 tango = tango.length;
-                if(!(tango > report)) { _fun00014_ip = 275; continue _fun00013 }
- 158:
+                if(!(tango > report)) { _fun00014_ip = 279; continue _fun00013 }
+ 160:
                 oscar = entity.push;
                 tango = {};
                 golf = 'section';
@@ -553,11 +553,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 tango = oscar.bind(golf)(tango);
- 275:
+ 279:
                 tango = _closure2_slot6;
                 tango = tango.length;
-                if(!(tango > report)) { _fun00014_ip = 393; continue _fun00013 }
- 288:
+                if(!(tango > report)) { _fun00014_ip = 399; continue _fun00013 }
+ 292:
                 report = entity.push;
                 tango = {};
                 oscar = 'section';
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 mike = zulu.bind(tango)(mike);
- 393:
+ 399:
                 return entity;
             }
         };

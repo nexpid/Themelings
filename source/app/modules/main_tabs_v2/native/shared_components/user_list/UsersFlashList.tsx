@@ -1006,7 +1006,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity.index;
                     mike = options.type;
                     entity = 'header';
-                    if(!(entity !== mike)) { _fun00020_ip = 344; continue _fun00019 }
+                    if(!(entity !== mike)) { _fun00020_ip = 340; continue _fun00019 }
  35:
                     mike = options.type;
                     entity = 'section';
@@ -1039,7 +1039,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  123:
                     entity = mike;
  126:
-                    _fun00020_ip = 342; continue _fun00019;
+                    _fun00020_ip = 338; continue _fun00019;
  131:
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -1056,7 +1056,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = 0;
                     mike = mike === report;
                     mike = tango.bind(oscar)(zulu, mike);
-                    _fun00020_ip = 339; continue _fun00019;
+                    _fun00020_ip = 335; continue _fun00019;
  201:
                     report = _closure1_slot9;
                     tango = _closure1_slot5;
@@ -1066,7 +1066,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['style'] = offset;
                     offset = _closure2_slot6;
                     offset = !offset;
-                    if(!offset) { _fun00020_ip = 300; continue _fun00019 }
+                    if(!offset) { _fun00020_ip = 296; continue _fun00019 }
  238:
                     romeo = _closure1_slot8;
                     yankee = _closure1_slot1;
@@ -1080,7 +1080,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot['top'] = backup;
                     golf['componentStyles'] = foxtrot;
                     offset = romeo.bind(oscar)(yankee, golf);
- 300:
+ 296:
                     golf = new Array(2);
                     golf[0] = offset;
                     offset = _closure2_slot14;
@@ -1090,22 +1090,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf[1] = options;
                     zulu['children'] = golf;
                     mike = report.bind(oscar)(tango, zulu);
- 339:
+ 335:
                     entity = mike;
- 342:
-                    _fun00020_ip = 373; continue _fun00019;
- 344:
+ 338:
+                    _fun00020_ip = 369; continue _fun00019;
+ 340:
                     tango = _closure2_slot4;
                     mike = null;
                     tango = mike != tango;
-                    if(!tango) { _fun00020_ip = 370; continue _fun00019 }
- 360:
+                    if(!tango) { _fun00020_ip = 366; continue _fun00019 }
+ 356:
                     tango = _closure2_slot4;
                     zulu = undefined;
                     mike = tango.bind(zulu)();
- 370:
+ 366:
                     entity = mike;
- 373:
+ 369:
                     return entity;
                 }
             };
@@ -1234,10 +1234,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context['paddingTop'] = sierra;
             sierra = offset != status;
             target = 0;
-            if(!sierra) { _fun00010_ip = 1038; continue _fun00009 }
- 1035:
+            if(!sierra) { _fun00010_ip = 1036; continue _fun00009 }
+ 1033:
             target = status;
- 1038:
+ 1036:
             papa = papa + target;
             context['paddingBottom'] = papa;
             verify['contentContainerStyle'] = context;
@@ -1268,10 +1268,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['estimatedItemSize'] = echo;
             verify['estimatedListSize'] = output;
             output = undefined;
-            if(result) { _fun00010_ip = 1152; continue _fun00009 }
- 1149:
+            if(result) { _fun00010_ip = 1150; continue _fun00009 }
+ 1147:
             output = yankee;
- 1152:
+ 1150:
             verify['stickyHeaderIndices'] = output;
             output = _closure1_slot13;
             verify['getItemType'] = output;
@@ -1282,10 +1282,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = foxtrot;
             offset = offset != romeo;
-            if(!offset) { _fun00010_ip = 1206; continue _fun00009 }
- 1201:
+            if(!offset) { _fun00010_ip = 1204; continue _fun00009 }
+ 1199:
             offset = romeo.bind(tango)(yankee);
- 1206:
+ 1204:
             verify[1] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = options;
             options = null;
-            if(!verify) { _fun00002_ip = 451; continue _fun00001 }
+            if(!verify) { _fun00002_ip = 449; continue _fun00001 }
  268:
             yankee = _closure1_slot4;
             backup = _closure1_slot0;
@@ -260,11 +260,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = yankee.bind(tango)(backup, foxtrot);
             verify['icon'] = foxtrot;
             options = yankee.bind(tango)(offset, verify);
- 451:
+ 449:
             report[1] = options;
             oscar = null;
-            if(golf) { _fun00002_ip = 632; continue _fun00001 }
- 463:
+            if(golf) { _fun00002_ip = 628; continue _fun00001 }
+ 461:
             verify = _closure1_slot4;
             options = _closure1_slot5;
             golf = {};
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 632:
+ 628:
             report[2] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

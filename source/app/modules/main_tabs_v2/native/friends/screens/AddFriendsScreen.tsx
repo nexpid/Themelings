@@ -650,7 +650,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = argFoo;
                     entity = _closure1_slot18;
                     entity = entity.FIND_FRIENDS;
-                    if(!(entity !== mike)) { _fun00012_ip = 213; continue _fun00011 }
+                    if(!(entity !== mike)) { _fun00012_ip = 215; continue _fun00011 }
  23:
                     entity = _closure1_slot18;
                     entity = entity.INCOMING_REQUESTS;
@@ -704,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['title'] = zulu;
                     entity['props'] = mike;
                     return entity;
- 213:
+ 215:
                     entity = undefined;
                     return entity;
                 }

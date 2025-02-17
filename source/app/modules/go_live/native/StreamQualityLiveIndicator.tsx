@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.bind(report)(update);
             update = null;
             source = update != output;
- 396: // try_start_0
+ 394: // try_start_0
             control = _closure1_slot0;
             output = _closure1_slot2;
             output = output[echo];
@@ -261,13 +261,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = control.bind(sequence)(output);
             vacuum = output;
             _closure2_slot0 = output;
- 434: // try_end0
-            _fun00002_ip = 444; continue _fun00001;
- 436: // catch_target0
+ 432: // try_end0
+            _fun00002_ip = 442; continue _fun00001;
+ 434: // catch_target0
             CatchBlockStart(arg_register=16);
             vacuum = false;
             _closure2_slot0 = romeo;
- 444: // try_start_1
+ 442: // try_start_1
             control = _closure1_slot0;
             output = _closure1_slot2;
             output = output[echo];
@@ -277,19 +277,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = control.bind(sequence)(output);
             tango = output;
             _closure2_slot1 = output;
- 482: // try_end1
-            _fun00002_ip = 492; continue _fun00001;
- 484: // catch_target1
+ 480: // try_end1
+            _fun00002_ip = 490; continue _fun00001;
+ 482: // catch_target1
             CatchBlockStart(arg_register=16);
             tango = false;
             _closure2_slot1 = romeo;
- 492:
+ 490:
             output = vacuum;
             romeo = output;
-            if(output) { _fun00002_ip = 504; continue _fun00001 }
- 501:
+            if(output) { _fun00002_ip = 502; continue _fun00001 }
+ 499:
             romeo = tango;
- 504:
+ 502:
             sequence = romeo;
             backup = sequence;
             _closure2_slot7 = sequence;
@@ -390,8 +390,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.bind(output)(tango, mike);
             mike = !mike;
             entity = mike;
-            if(!mike) { _fun00002_ip = 713; continue _fun00001 }
- 652:
+            if(!mike) { _fun00002_ip = 707; continue _fun00001 }
+ 646:
             tango = _closure1_slot1;
             mike = _closure1_slot2;
             romeo = mike[sizing];
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.user;
             mike = romeo.bind(output)(tango, mike);
             entity = !mike;
- 713:
+ 707:
             kilo = entity;
             romeo = _closure1_slot1;
             tango = _closure1_slot2;
@@ -417,24 +417,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.TIER_1;
             zulu = romeo.bind(output)(tango, zulu);
             mike = zulu;
-            if(!zulu) { _fun00002_ip = 806; continue _fun00001 }
- 766:
+            if(!zulu) { _fun00002_ip = 800; continue _fun00001 }
+ 760:
             zulu = result;
             zulu = update == zulu;
             tango = undefined;
-            if(zulu) { _fun00002_ip = 792; continue _fun00001 }
- 778:
+            if(zulu) { _fun00002_ip = 786; continue _fun00001 }
+ 772:
             zulu = result;
             zulu = zulu.maxResolution;
             tango = zulu.type;
- 792:
+ 786:
             zulu = _closure1_slot9;
             zulu = zulu.SOURCE;
             mike = tango === zulu;
- 806:
+ 800:
             entity = mike;
-            if(!mike) { _fun00002_ip = 864; continue _fun00001 }
- 812:
+            if(!mike) { _fun00002_ip = 858; continue _fun00001 }
+ 806:
             romeo = _closure1_slot1;
             mike = _closure1_slot2;
             zulu = mike[sizing];
@@ -446,13 +446,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.HIGH;
             mike = zulu.bind(tango)(mike);
             entity = !mike;
- 864:
+ 858:
             yankee = entity;
             entity = result;
             mike = update == entity;
             entity = null;
-            if(mike) { _fun00002_ip = 1385; continue _fun00001 }
- 882:
+            if(mike) { _fun00002_ip = 1379; continue _fun00001 }
+ 876:
             tango = _closure1_slot10;
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -463,15 +463,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = backup;
             romeo = 'none';
             options = romeo;
-            if(!sizing) { _fun00002_ip = 936; continue _fun00001 }
- 923:
-            if(kilo) { _fun00002_ip = 932; continue _fun00001 }
- 926:
+            if(!sizing) { _fun00002_ip = 930; continue _fun00001 }
+ 917:
+            if(kilo) { _fun00002_ip = 926; continue _fun00001 }
+ 920:
             options = romeo;
-            if(!yankee) { _fun00002_ip = 936; continue _fun00001 }
- 932:
+            if(!yankee) { _fun00002_ip = 930; continue _fun00001 }
+ 926:
             options = 'auto';
- 936:
+ 930:
             mike['pointerEvents'] = options;
             kilo = oscar;
             oscar = new Array(2);
@@ -500,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.qualityTag;
             verify['style'] = romeo;
             romeo = backup;
-            if(!backup) { _fun00002_ip = 1121; continue _fun00001 }
- 1051:
+            if(!backup) { _fun00002_ip = 1115; continue _fun00001 }
+ 1045:
             sizing = _closure1_slot10;
             control = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -519,7 +519,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = 'contain';
             backup['resizeMode'] = output;
             romeo = sizing.bind(report)(kilo, backup);
- 1121:
+ 1115:
             backup = romeo;
             romeo = new Array(2);
             romeo[0] = backup;
@@ -536,11 +536,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = new Array(2);
             backup[0] = control;
             update = null;
-            if(!source) { _fun00002_ip = 1195; continue _fun00001 }
- 1186:
+            if(!source) { _fun00002_ip = 1189; continue _fun00001 }
+ 1180:
             source = foxtrot;
             update = source.reducedQualityTagText;
- 1195:
+ 1189:
             backup[1] = update;
             kilo['style'] = backup;
             update = _closure1_slot0;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1385:
+ 1379:
             return entity;
         }
     };

@@ -51,10 +51,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = ':pizza:';
             entity = oscar;
             if(!(tango === oscar)) { _fun00002_ip = 142; continue _fun00001 }
- 73:
+ 71:
             entity = oscar;
             if(!zulu) { _fun00002_ip = 142; continue _fun00001 }
- 79:
+ 77:
             zulu = _closure1_slot0;
             options = _closure1_slot1;
             mike = 2;

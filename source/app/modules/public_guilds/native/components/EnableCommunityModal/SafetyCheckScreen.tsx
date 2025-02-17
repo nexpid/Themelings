@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot4 = update;
             mike = entity == control;
             entity = null;
-            if(mike) { _fun00004_ip = 1427; continue _fun00003 }
+            if(mike) { _fun00004_ip = 1439; continue _fun00003 }
  286:
             tango = _closure1_slot12;
             golf = _closure1_slot0;
@@ -327,8 +327,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = romeo.bind(report)(config, echo);
             echo = new Array(2);
             echo[0] = config;
-            if(!source) { _fun00004_ip = 898; continue _fun00003 }
- 827:
+            if(!source) { _fun00004_ip = 904; continue _fun00003 }
+ 833:
             context = _closure1_slot11;
             record = _closure1_slot0;
             papa = _closure1_slot2;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             config['onPress'] = papa;
             source = context.bind(report)(record, config);
- 898:
+ 904:
             echo[1] = source;
             sizing['children'] = echo;
             sizing = result.bind(report)(output, sizing);
@@ -463,8 +463,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = romeo.bind(report)(source, echo);
             echo = new Array(2);
             echo[0] = source;
-            if(!update) { _fun00004_ip = 1281; continue _fun00003 }
- 1210:
+            if(!update) { _fun00004_ip = 1291; continue _fun00003 }
+ 1220:
             vacuum = _closure1_slot11;
             control = _closure1_slot0;
             config = _closure1_slot2;
@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             source['onPress'] = sequence;
             update = vacuum.bind(report)(control, source);
- 1281:
+ 1291:
             echo[1] = update;
             sizing['children'] = echo;
             sizing = result.bind(report)(output, sizing);
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[4] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1427:
+ 1439:
             return entity;
         }
     };

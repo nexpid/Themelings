@@ -88,8 +88,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             report['onLayout'] = options;
             verify = undefined;
-            if(!(yankee !== offset)) { _fun00002_ip = 217; continue _fun00001 }
- 170:
+            if(!(yankee !== offset)) { _fun00002_ip = 213; continue _fun00001 }
+ 166:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
             options = 12;
@@ -98,13 +98,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = foxtrot.isAndroid;
             options = options.bind(foxtrot)();
             verify = undefined;
-            if(!options) { _fun00002_ip = 217; continue _fun00001 }
- 204:
+            if(!options) { _fun00002_ip = 213; continue _fun00001 }
+ 200:
             options = {};
             options['flex'] = yankee;
             options['height'] = offset;
             verify = options;
- 217:
+ 213:
             options = new Array(1);
             options[0] = verify;
             report['style'] = options;
@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = oscar.bind(verify)(zulu, tango);
             entity = null;
-            if(!mike) { _fun00006_ip = 474; continue _fun00005 }
+            if(!mike) { _fun00006_ip = 476; continue _fun00005 }
  245:
             tango = _closure1_slot13;
             zulu = _closure1_slot6;
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 474:
+ 476:
             return entity;
         }
     };

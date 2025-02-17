@@ -460,11 +460,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.length;
             zulu = entity > variable43;
             entity = null;
-            if(!zulu) { _fun00006_ip = 1061; continue _fun00005 }
+            if(!zulu) { _fun00006_ip = 1063; continue _fun00005 }
  997:
             mike = variable36 == mike;
             entity = null;
-            if(!mike) { _fun00006_ip = 1061; continue _fun00005 }
+            if(!mike) { _fun00006_ip = 1063; continue _fun00005 }
  1006:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.84MExs;
             entity = zulu.bind(oscar)(mike);
- 1061:
+ 1063:
             _closure2_slot22 = entity;
             entity = function() { // Original name: handleBlur
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -637,10 +637,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             status = {};
             status['user'] = target;
             status['displayName'] = variable37;
-            if(!(variable36 != quebec)) { _fun00006_ip = 1683; continue _fun00005 }
- 1680:
+            if(!(variable36 != quebec)) { _fun00006_ip = 1681; continue _fun00005 }
+ 1678:
             equality = quebec;
- 1683:
+ 1681:
             status['pronouns'] = equality;
             status['badgeContainerBackground'] = whiskey;
             status = lima.bind(tango)(sierra, status);
@@ -994,12 +994,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = romeo;
             verify = !verify;
-            if(!verify) { _fun00006_ip = 1788; continue _fun00005 }
- 1785:
+            if(!verify) { _fun00006_ip = 1786; continue _fun00005 }
+ 1783:
             verify = !yankee;
- 1788:
-            if(!verify) { _fun00006_ip = 1834; continue _fun00005 }
- 1791:
+ 1786:
+            if(!verify) { _fun00006_ip = 1832; continue _fun00005 }
+ 1789:
             romeo = _closure1_slot13;
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1010,7 +1010,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             offset['isTryItOut'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 1834:
+ 1832:
             options[1] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

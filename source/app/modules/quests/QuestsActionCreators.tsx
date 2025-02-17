@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 457; continue _fun00005 }
+                    if(mike) { _fun00006_ip = 451; continue _fun00005 }
  12:
                     zulu = _closure1_slot4;
                     zulu = zulu.isFetchingCurrentQuests;
-                    if(zulu) { _fun00006_ip = 452; continue _fun00005 }
+                    if(zulu) { _fun00006_ip = 446; continue _fun00005 }
  31:
                     options = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  169:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(options) { _fun00006_ip = 329; continue _fun00005 }
+                    if(options) { _fun00006_ip = 323; continue _fun00005 }
  178:
                     options = zulu.body;
                     offset = options.quests;
@@ -418,11 +418,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = true;
                     tango['wasSuccessful'] = yankee;
                     tango = verify.bind(offset)(options, tango);
- 324: // try_end0
-                    _fun00006_ip = 452; continue _fun00005;
- 329:
+ 318: // try_end0
+                    _fun00006_ip = 446; continue _fun00005;
+ 323:
                     return zulu;
- 332: // catch_target0
+ 326: // catch_target0
                     CatchBlockStart(arg_register=11);
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -452,10 +452,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = false;
                     mike['wasSuccessful'] = oscar;
                     mike = tango.bind(report)(zulu, mike);
- 452:
+ 446:
                     mike = undefined;
                     return mike;
- 457:
+ 451:
                     return entity;
                 }
             };
@@ -1523,11 +1523,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00026_ip = 304; continue _fun00025 }
+                    if(mike) { _fun00026_ip = 302; continue _fun00025 }
  10:
                     mike = _closure1_slot4;
                     mike = mike.isFetchingClaimedQuests;
-                    if(mike) { _fun00026_ip = 299; continue _fun00025 }
+                    if(mike) { _fun00026_ip = 297; continue _fun00025 }
  29:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -1560,7 +1560,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  134:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00026_ip = 216; continue _fun00025 }
+                    if(report) { _fun00026_ip = 214; continue _fun00025 }
  140:
                     report = tango.body;
                     golf = report.quests;
@@ -1588,11 +1588,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['type'] = offset;
                     report['quests'] = verify;
                     report = oscar.bind(golf)(report);
- 214: // try_end0
-                    _fun00026_ip = 299; continue _fun00025;
- 216:
+ 212: // try_end0
+                    _fun00026_ip = 297; continue _fun00025;
+ 214:
                     return tango;
- 219: // catch_target0
+ 217: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscar = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -1613,10 +1613,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report instanceof Object ? report : oscar;
                     mike['error'] = report;
                     mike = zulu.bind(tango)(mike);
- 299:
+ 297:
                     mike = undefined;
                     return mike;
- 304:
+ 302:
                     return entity;
                 }
             };

@@ -280,17 +280,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             entity = offset == romeo;
             golf = undefined;
-            if(entity) { _fun00002_ip = 235; continue _fun00001 }
- 230:
+            if(entity) { _fun00002_ip = 231; continue _fun00001 }
+ 226:
             golf = romeo.state;
- 235:
+ 231:
             options = offset != golf;
             echo = '';
             entity = echo;
-            if(!options) { _fun00002_ip = 252; continue _fun00001 }
- 249:
+            if(!options) { _fun00002_ip = 248; continue _fun00001 }
+ 245:
             entity = golf;
- 252:
+ 248:
             mike = mike.bind(tango)(entity);
             entity = _closure1_slot3;
             yankee = 2;
@@ -305,16 +305,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.useState;
             entity = offset == romeo;
             verify = undefined;
-            if(entity) { _fun00002_ip = 315; continue _fun00001 }
- 309:
+            if(entity) { _fun00002_ip = 311; continue _fun00001 }
+ 305:
             verify = romeo.emoji;
- 315:
+ 311:
             backup = offset != verify;
             entity = null;
-            if(!backup) { _fun00002_ip = 327; continue _fun00001 }
- 324:
+            if(!backup) { _fun00002_ip = 323; continue _fun00001 }
+ 320:
             entity = verify;
- 327:
+ 323:
             entity = mike.bind(tango)(entity);
             verify = _closure1_slot3;
             entity = verify.bind(report)(entity, yankee);
@@ -643,8 +643,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity, mike);
             mike = offset == update;
             entity = null;
-            if(mike) { _fun00002_ip = 1909; continue _fun00001 }
- 677:
+            if(mike) { _fun00002_ip = 1891; continue _fun00001 }
+ 659:
             tango = _closure1_slot12;
             zulu = _closure1_slot6;
             mike = {};
@@ -730,10 +730,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = {};
             quebec = offset == sizing;
             whiskey = undefined;
-            if(quebec) { _fun00002_ip = 1062; continue _fun00001 }
- 1057:
+            if(quebec) { _fun00002_ip = 1046; continue _fun00001 }
+ 1041:
             whiskey = sizing.name;
- 1062:
+ 1046:
             context['text'] = whiskey;
             kilo['accessibilityValue'] = context;
             context = 'button';
@@ -812,18 +812,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = target.bind(report)(context, update);
             kilo[1] = update;
             sizing = offset != sizing;
-            if(sizing) { _fun00002_ip = 1423; continue _fun00001 }
- 1419:
+            if(sizing) { _fun00002_ip = 1407; continue _fun00001 }
+ 1403:
             sizing = echo !== result;
- 1423:
-            if(!sizing) { _fun00002_ip = 1446; continue _fun00001 }
- 1426:
+ 1407:
+            if(!sizing) { _fun00002_ip = 1430; continue _fun00001 }
+ 1410:
             update = _closure1_slot12;
             echo = _closure1_slot15;
             result = {};
             result['onPress'] = record;
             sizing = update.bind(report)(echo, result);
- 1446:
+ 1430:
             kilo[2] = sizing;
             backup['children'] = kilo;
             backup = options.bind(report)(golf, backup);
@@ -907,8 +907,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = sizing.bind(report)(kilo, foxtrot);
             verify[2] = foxtrot;
             offset = offset != romeo;
-            if(!offset) { _fun00002_ip = 1885; continue _fun00001 }
- 1694:
+            if(!offset) { _fun00002_ip = 1867; continue _fun00001 }
+ 1676:
             foxtrot = _closure1_slot12;
             source = _closure1_slot0;
             result = _closure1_slot2;
@@ -952,13 +952,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(report)(kilo, backup);
             yankee['children'] = backup;
             offset = foxtrot.bind(report)(romeo, yankee);
- 1885:
+ 1867:
             verify[3] = offset;
             oscar['children'] = verify;
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1909:
+ 1891:
             return entity;
         }
     };

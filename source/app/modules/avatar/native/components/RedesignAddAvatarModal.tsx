@@ -365,8 +365,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             update = offset.errorContainer;
             options['style'] = update;
-            if(!output) { _fun00002_ip = 812; continue _fun00001 }
- 718:
+            if(!output) { _fun00002_ip = 810; continue _fun00001 }
+ 716:
             source = _closure1_slot10;
             config = _closure1_slot0;
             control = _closure1_slot2;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = vacuum.bind(sequence)(control);
             echo['children'] = control;
             output = source.bind(tango)(update, echo);
- 812:
+ 810:
             options['children'] = output;
             options = backup.bind(tango)(oscar, options);
             golf[2] = options;

@@ -466,10 +466,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = options.isAndroid;
         options = golf.bind(options)();
         golf = 'discord_ios';
-        if(!options) { _fun00002_ip = 204; continue _fun00001 }
- 198:
+        if(!options) { _fun00002_ip = 186; continue _fun00001 }
+ 182:
         golf = 'discord_android';
- 204:
+ 186:
         var _closure1_slot5 = golf;
         options = 7;
         options = offset[options];

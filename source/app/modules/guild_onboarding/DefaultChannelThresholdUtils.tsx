@@ -218,12 +218,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = argBar;
                     offset = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 717; continue _fun00005 }
+                    if(mike) { _fun00006_ip = 721; continue _fun00005 }
  19:
                     mike = zulu.getGuildId;
                     golf = mike.bind(zulu)();
                     tango = null;
-                    if(!(tango != golf)) { _fun00006_ip = 712; continue _fun00005 }
+                    if(!(tango != golf)) { _fun00006_ip = 716; continue _fun00005 }
  38:
                     romeo = options;
                     if(!(tango != offset)) { _fun00006_ip = 101; continue _fun00005 }
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.removingView;
                     mike = !tango;
  513:
-                    if(mike) { _fun00006_ip = 709; continue _fun00005 }
+                    if(mike) { _fun00006_ip = 713; continue _fun00005 }
  519:
                     tango = _closure1_slot13;
                     zulu = zulu.id;
@@ -357,11 +357,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  539:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00006_ip = 706; continue _fun00005 }
+                    if(tango) { _fun00006_ip = 710; continue _fun00005 }
  548:
                     oscar = !zulu;
                     tango = !oscar;
-                    if(!oscar) { _fun00006_ip = 701; continue _fun00005 }
+                    if(!oscar) { _fun00006_ip = 705; continue _fun00005 }
  560:
                     golf = _closure1_slot1;
                     backup = _closure1_slot3;
@@ -395,17 +395,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['body'] = verify;
                     oscar = golf.bind(options)(oscar);
                     tango = false;
- 701:
+ 705:
                     mike = tango;
-                    _fun00006_ip = 709; continue _fun00005;
- 706:
+                    _fun00006_ip = 713; continue _fun00005;
+ 710:
                     return zulu;
- 709:
+ 713:
                     return mike;
- 712:
+ 716:
                     mike = true;
                     return mike;
- 717:
+ 721:
                     return entity;
                 }
             };

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf.bind(verify)(entity);
             oscar = entity.t;
             entity = argFoo;
-            if(entity) { _fun00002_ip = 167; continue _fun00001 }
+            if(entity) { _fun00002_ip = 163; continue _fun00001 }
  68:
             entity = oscar.PwknJC;
             entity = options.bind(yankee)(entity);
@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['render'] = entity;
             mike['root'] = zulu;
             entity = mike;
-            _fun00002_ip = 264; continue _fun00001;
- 167:
+            _fun00002_ip = 256; continue _fun00001;
+ 163:
             oscar = oscar.Iuzg8f;
             oscar = options.bind(yankee)(oscar);
             zulu['title'] = oscar;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['render'] = tango;
             mike['root'] = zulu;
             entity = mike;
- 264:
+ 256:
             return entity;
         }
     };

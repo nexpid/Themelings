@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -223,15 +223,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = mike.bind(tango)(oscar);
             mike = _closure1_slot5;
             mike = mike.PLAY;
-            if(!(mike !== options)) { _fun00010_ip = 2099; continue _fun00009 }
+            if(!(mike !== options)) { _fun00010_ip = 2119; continue _fun00009 }
  67:
             mike = _closure1_slot5;
             mike = mike.STREAM;
-            if(!(mike !== options)) { _fun00010_ip = 2020; continue _fun00009 }
+            if(!(mike !== options)) { _fun00010_ip = 2038; continue _fun00009 }
  84:
             mike = _closure1_slot5;
             mike = mike.WATCH_VIDEO;
-            if(!(mike !== options)) { _fun00010_ip = 1910; continue _fun00009 }
+            if(!(mike !== options)) { _fun00010_ip = 1926; continue _fun00009 }
  101:
             mike = oscar.config;
             mike = mike.messages;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.shouldUsePlayOnDesktopTask;
             options = options.bind(verify)(oscar);
-            if(options) { _fun00010_ip = 1596; continue _fun00009 }
+            if(options) { _fun00010_ip = 1612; continue _fun00009 }
  222:
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.isConsoleQuest;
             options = options.bind(verify)(oscar);
-            if(options) { _fun00010_ip = 1318; continue _fun00009 }
+            if(options) { _fun00010_ip = 1334; continue _fun00009 }
  256:
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.shouldUsePlayOnDesktopTask;
             options = options.bind(verify)(oscar);
-            if(options) { _fun00010_ip = 1035; continue _fun00009 }
+            if(options) { _fun00010_ip = 1045; continue _fun00009 }
  290:
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             options['quest'] = oscar;
             options = verify.bind(yankee)(options);
-            if(options) { _fun00010_ip = 921; continue _fun00009 }
+            if(options) { _fun00010_ip = 929; continue _fun00009 }
  331:
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.hasWatchVideoTasks;
             options = options.bind(verify)(oscar);
-            if(options) { _fun00010_ip = 765; continue _fun00009 }
+            if(options) { _fun00010_ip = 771; continue _fun00009 }
  365:
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -300,10 +300,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.hasPlayActivityTask;
             options = options.bind(verify)(oscar);
-            if(options) { _fun00010_ip = 616; continue _fun00009 }
+            if(options) { _fun00010_ip = 620; continue _fun00009 }
  399:
             options = null;
-            if(!(options == zulu)) { _fun00010_ip = 609; continue _fun00009 }
+            if(!(options == zulu)) { _fun00010_ip = 613; continue _fun00009 }
  408:
             yankee = _closure1_slot0;
             verify = _closure1_slot1;
@@ -318,23 +318,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify[sizing];
             verify = kilo.bind(offset)(verify);
             verify = verify.t;
-            if(yankee) { _fun00010_ip = 477; continue _fun00009 }
+            if(yankee) { _fun00010_ip = 479; continue _fun00009 }
  469:
             yankee = verify.BLyDvL;
-            _fun00010_ip = 483; continue _fun00009;
- 477:
+            _fun00010_ip = 487; continue _fun00009;
+ 479:
             yankee = verify.KYP2pa;
- 483:
+ 487:
             verify = _closure1_slot8;
-            if(!(options == romeo)) { _fun00010_ip = 519; continue _fun00009 }
- 491:
+            if(!(options == romeo)) { _fun00010_ip = 523; continue _fun00009 }
+ 495:
             kilo = _closure1_slot0;
             options = _closure1_slot1;
             options = options[sizing];
             options = kilo.bind(offset)(options);
             options = options.t;
             yankee = options.hkJ+Gh;
- 519:
+ 523:
             options = {};
             options['gameTitle'] = backup;
             options['streamingDurationRequirement'] = foxtrot;
@@ -354,10 +354,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['duration'] = romeo;
             options = verify.bind(offset)(yankee, options, report);
             return options;
- 609:
+ 613:
             zulu = zulu.description;
             return zulu;
- 616:
+ 620:
             verify = {};
             verify['quest'] = oscar;
             verify['taskDetails'] = golf;
@@ -389,23 +389,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['questReward'] = romeo;
             zulu = verify.bind(offset)(options, zulu, yankee);
             return zulu;
- 765:
+ 771:
             zulu = oscar.config;
             verify = zulu.videoMetadata;
             options = null;
             yankee = options == verify;
             zulu = undefined;
-            if(yankee) { _fun00010_ip = 799; continue _fun00009 }
- 787:
+            if(yankee) { _fun00010_ip = 805; continue _fun00009 }
+ 793:
             verify = verify.messages;
             zulu = verify.videoTitle;
- 799:
+ 805:
             options = options != zulu;
             romeo = 'video';
-            if(!options) { _fun00010_ip = 813; continue _fun00009 }
- 810:
+            if(!options) { _fun00010_ip = 819; continue _fun00009 }
+ 816:
             romeo = zulu;
- 813:
+ 819:
             options = _closure1_slot0;
             foxtrot = _closure1_slot1;
             zulu = 3;
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['rewardNameWithArticle'] = yankee;
             zulu = verify.bind(offset)(options, zulu, report);
             return zulu;
- 921:
+ 929:
             verify = {};
             verify['quest'] = oscar;
             verify['taskDetails'] = golf;
@@ -454,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['streamingDurationRequirement'] = romeo;
             zulu = verify.bind(offset)(options, zulu, yankee);
             return zulu;
- 1035:
+ 1045:
             options = {};
             options['quest'] = oscar;
             options['taskDetails'] = golf;
@@ -494,24 +494,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[result];
             zulu = verify.bind(offset)(zulu);
             zulu = zulu.t;
-            if(options) { _fun00010_ip = 1239; continue _fun00009 }
- 1231:
+            if(options) { _fun00010_ip = 1251; continue _fun00009 }
+ 1241:
             verify = zulu.AwuMRU;
-            _fun00010_ip = 1245; continue _fun00009;
- 1239:
+            _fun00010_ip = 1259; continue _fun00009;
+ 1251:
             verify = zulu.Lc6EpK;
- 1245:
+ 1259:
             options = _closure1_slot8;
             zulu = null;
-            if(!(zulu == foxtrot)) { _fun00010_ip = 1283; continue _fun00009 }
- 1255:
+            if(!(zulu == foxtrot)) { _fun00010_ip = 1299; continue _fun00009 }
+ 1269:
             sizing = _closure1_slot0;
             zulu = _closure1_slot1;
             zulu = zulu[result];
             zulu = sizing.bind(offset)(zulu);
             zulu = zulu.t;
             verify = zulu.FZL5Q0;
- 1283:
+ 1299:
             zulu = {};
             zulu['gameTitle'] = kilo;
             zulu['streamingDurationRequirement'] = backup;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['questReward'] = romeo;
             zulu = options.bind(offset)(verify, zulu, yankee);
             return zulu;
- 1318:
+ 1334:
             options = {};
             options['quest'] = oscar;
             options['taskDetails'] = golf;
@@ -560,24 +560,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[result];
             zulu = verify.bind(offset)(zulu);
             zulu = zulu.t;
-            if(options) { _fun00010_ip = 1522; continue _fun00009 }
- 1514:
+            if(options) { _fun00010_ip = 1538; continue _fun00009 }
+ 1530:
             verify = zulu.Ta44ur;
-            _fun00010_ip = 1528; continue _fun00009;
- 1522:
+            _fun00010_ip = 1544; continue _fun00009;
+ 1538:
             verify = zulu.fSYpaW;
- 1528:
+ 1544:
             options = _closure1_slot8;
             zulu = null;
-            if(!(zulu == romeo)) { _fun00010_ip = 1566; continue _fun00009 }
- 1538:
+            if(!(zulu == romeo)) { _fun00010_ip = 1582; continue _fun00009 }
+ 1554:
             sizing = _closure1_slot0;
             zulu = _closure1_slot1;
             zulu = zulu[result];
             zulu = sizing.bind(offset)(zulu);
             zulu = zulu.t;
             verify = zulu.NIimTk;
- 1566:
+ 1582:
             zulu = {};
             zulu['gameTitle'] = kilo;
             zulu['targetMinutes'] = backup;
@@ -585,7 +585,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['duration'] = romeo;
             zulu = options.bind(offset)(verify, zulu, yankee);
             return zulu;
- 1596:
+ 1612:
             verify = {};
             verify['quest'] = oscar;
             verify['taskDetails'] = golf;
@@ -620,14 +620,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.isCollectibleQuestRewardPremiumExtendable;
             zulu = zulu.config;
             zulu = kilo.bind(sizing)(zulu);
-            if(!zulu) { _fun00010_ip = 1777; continue _fun00009 }
- 1771:
+            if(!zulu) { _fun00010_ip = 1793; continue _fun00009 }
+ 1787:
             zulu = null;
-            if(!(zulu == yankee)) { _fun00010_ip = 1849; continue _fun00009 }
- 1777:
+            if(!(zulu == yankee)) { _fun00010_ip = 1865; continue _fun00009 }
+ 1793:
             zulu = null;
-            if(!(zulu == yankee)) { _fun00010_ip = 1816; continue _fun00009 }
- 1783:
+            if(!(zulu == yankee)) { _fun00010_ip = 1832; continue _fun00009 }
+ 1799:
             kilo = _closure1_slot0;
             sizing = _closure1_slot1;
             zulu = 2;
@@ -635,8 +635,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = kilo.bind(offset)(zulu);
             zulu = zulu.t;
             zulu = zulu.NIimTk;
-            _fun00010_ip = 1847; continue _fun00009;
- 1816:
+            _fun00010_ip = 1863; continue _fun00009;
+ 1832:
             sizing = _closure1_slot0;
             output = _closure1_slot1;
             kilo = 2;
@@ -644,9 +644,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(offset)(kilo);
             kilo = kilo.t;
             zulu = kilo.Ta44ur;
- 1847:
-            _fun00010_ip = 1880; continue _fun00009;
- 1849:
+ 1863:
+            _fun00010_ip = 1896; continue _fun00009;
+ 1865:
             kilo = _closure1_slot0;
             sizing = _closure1_slot1;
             mike = 2;
@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = kilo.bind(offset)(mike);
             mike = mike.t;
             zulu = mike.fSYpaW;
- 1880:
+ 1896:
             mike = {};
             mike['gameTitle'] = backup;
             mike['rewardNameWithArticle'] = foxtrot;
@@ -662,7 +662,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['duration'] = yankee;
             mike = options.bind(offset)(zulu, mike, verify);
             return mike;
- 1910:
+ 1926:
             options = _closure1_slot8;
             zulu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -679,21 +679,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             romeo = verify == yankee;
             offset = undefined;
-            if(romeo) { _fun00010_ip = 1992; continue _fun00009 }
- 1980:
+            if(romeo) { _fun00010_ip = 2010; continue _fun00009 }
+ 1998:
             yankee = yankee.messages;
             offset = yankee.videoTitle;
- 1992:
+ 2010:
             yankee = verify != offset;
             verify = 'video';
-            if(!yankee) { _fun00010_ip = 2006; continue _fun00009 }
- 2003:
+            if(!yankee) { _fun00010_ip = 2024; continue _fun00009 }
+ 2021:
             verify = offset;
- 2006:
+ 2024:
             mike['videoTitle'] = verify;
             mike = options.bind(tango)(zulu, mike, report);
             return mike;
- 2020:
+ 2038:
             options = _closure1_slot8;
             zulu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -711,7 +711,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['gameTitle'] = verify;
             mike = options.bind(tango)(zulu, mike, report);
             return mike;
- 2099:
+ 2119:
             zulu = _closure1_slot8;
             mike = _closure1_slot0;
             options = _closure1_slot1;
@@ -996,18 +996,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             zulu = _closure1_slot5;
             zulu = zulu.PLAY;
-            if(!(zulu !== tango)) { _fun00018_ip = 264; continue _fun00017 }
- 104:
+            if(!(zulu !== tango)) { _fun00018_ip = 266; continue _fun00017 }
+ 102:
             zulu = _closure1_slot5;
             zulu = zulu.STREAM;
             if(!(zulu !== tango)) { _fun00018_ip = 191; continue _fun00017 }
- 118:
+ 116:
             zulu = _closure1_slot5;
             zulu = zulu.WATCH_VIDEO;
-            if(!(zulu !== tango)) { _fun00018_ip = 134; continue _fun00017 }
- 132:
+            if(!(zulu !== tango)) { _fun00018_ip = 132; continue _fun00017 }
+ 130:
             return oscar;
- 134:
+ 132:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             zulu = 2;
@@ -1036,13 +1036,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  238:
             zulu = tango.l7E81t;
             zulu = report.bind(golf)(zulu);
-            _fun00018_ip = 262; continue _fun00017;
+            _fun00018_ip = 264; continue _fun00017;
  251:
             tango = tango.hyrGU1;
             zulu = report.bind(golf)(tango);
- 262:
-            return zulu;
  264:
+            return zulu;
+ 266:
             report = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 2;
@@ -1053,15 +1053,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf[mike];
             mike = report.bind(oscar)(mike);
             mike = mike.t;
-            if(entity) { _fun00018_ip = 324; continue _fun00017 }
- 311:
+            if(entity) { _fun00018_ip = 326; continue _fun00017 }
+ 313:
             entity = mike.l7E81t;
             entity = zulu.bind(tango)(entity);
-            _fun00018_ip = 335; continue _fun00017;
- 324:
+            _fun00018_ip = 339; continue _fun00017;
+ 326:
             mike = mike.Y7LIPT;
             entity = zulu.bind(tango)(mike);
- 335:
+ 339:
             return entity;
         }
     };
@@ -1106,7 +1106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.bind(oscar)(entity, mike);
             entity = null;
             if(!tango) { _fun00020_ip = 149; continue _fun00019 }
- 73:
+ 69:
             golf = _closure1_slot0;
             options = _closure1_slot1;
             zulu = 2;
@@ -1118,12 +1118,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options[zulu];
             zulu = golf.bind(oscar)(zulu);
             zulu = zulu.t;
-            if(mike) { _fun00020_ip = 135; continue _fun00019 }
- 122:
+            if(mike) { _fun00020_ip = 133; continue _fun00019 }
+ 118:
             mike = zulu.GYGb3N;
             mike = tango.bind(report)(mike);
             _fun00020_ip = 146; continue _fun00019;
- 135:
+ 133:
             zulu = zulu.hh7Rb2;
             mike = tango.bind(report)(zulu);
  146:

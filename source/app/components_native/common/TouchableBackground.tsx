@@ -153,17 +153,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             options = new Array(2);
             options[0] = offset;
-            if(!verify) { _fun00002_ip = 285; continue _fun00001 }
- 262:
+            if(!verify) { _fun00002_ip = 281; continue _fun00001 }
+ 258:
             offset = {};
-            if(!(foxtrot == yankee)) { _fun00002_ip = 278; continue _fun00001 }
- 268:
+            if(!(foxtrot == yankee)) { _fun00002_ip = 274; continue _fun00001 }
+ 264:
             romeo = romeo.default;
             yankee = romeo.backgroundColor;
- 278:
+ 274:
             offset['backgroundColor'] = yankee;
             verify = offset;
- 285:
+ 281:
             options[1] = verify;
             report['style'] = options;
             report['children'] = golf;

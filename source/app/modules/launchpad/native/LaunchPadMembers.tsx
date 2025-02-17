@@ -134,15 +134,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = zulu.bind(tango)(mike, entity);
             mike = oscar.type;
             entity = 'private';
-            if(!(entity !== mike)) { _fun00002_ip = 482; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 484; continue _fun00001 }
  84:
             mike = oscar.type;
             entity = 'thread';
-            if(!(entity !== mike)) { _fun00002_ip = 368; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 370; continue _fun00001 }
  100:
             mike = oscar.type;
             entity = 'guild';
-            if(!(entity !== mike)) { _fun00002_ip = 254; continue _fun00001 }
+            if(!(entity !== mike)) { _fun00002_ip = 256; continue _fun00001 }
  116:
             zulu = _closure1_slot6;
             mike = _closure1_slot3;
@@ -175,8 +175,8 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = zulu.bind(report)(options, tango);
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun00002_ip = 366; continue _fun00001;
- 254:
+            _fun00002_ip = 368; continue _fun00001;
+ 256:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
             mike = {};
@@ -203,9 +203,9 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = tango.bind(report)(offset, verify, options);
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
- 366:
-            _fun00002_ip = 480; continue _fun00001;
  368:
+            _fun00002_ip = 482; continue _fun00001;
+ 370:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
             mike = {};
@@ -232,9 +232,9 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = tango.bind(report)(offset, verify, options);
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
- 480:
-            _fun00002_ip = 585; continue _fun00001;
  482:
+            _fun00002_ip = 587; continue _fun00001;
+ 484:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
             mike = {};
@@ -259,7 +259,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = tango.bind(report)(options, golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 585:
+ 587:
             return entity;
         }
     };

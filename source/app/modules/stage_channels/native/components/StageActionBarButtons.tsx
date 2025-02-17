@@ -611,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             entity = 0;
-            if(!(!(golf > entity))) { _fun00012_ip = 317; continue _fun00011 }
+            if(!(!(golf > entity))) { _fun00012_ip = 319; continue _fun00011 }
  132:
             zulu = _closure1_slot14;
             mike = _closure1_slot2;
@@ -654,8 +654,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = options;
             entity['isSmallSize'] = oscar;
             entity = zulu.bind(report)(mike, entity);
-            _fun00012_ip = 509; continue _fun00011;
- 317:
+            _fun00012_ip = 513; continue _fun00011;
+ 319:
             tango = _closure1_slot14;
             zulu = _closure1_slot2;
             yankee = _closure1_slot3;
@@ -700,7 +700,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['notifications'] = golf;
             mike['isSmallSize'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 509:
+ 513:
             return entity;
         }
     };
@@ -767,15 +767,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = backup[offset];
             offset = yankee.bind(tango)(offset);
             yankee = offset.t;
-            if(verify) { _fun00014_ip = 223; continue _fun00013 }
+            if(verify) { _fun00014_ip = 225; continue _fun00013 }
  210:
             offset = yankee.hLbG5O;
             offset = romeo.bind(foxtrot)(offset);
-            _fun00014_ip = 234; continue _fun00013;
- 223:
+            _fun00014_ip = 238; continue _fun00013;
+ 225:
             yankee = yankee.GCimTk;
             offset = romeo.bind(foxtrot)(yankee);
- 234:
+ 238:
             entity['accessibilityLabel'] = offset;
             romeo = _closure1_slot1;
             yankee = _closure1_slot3;
@@ -790,10 +790,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(verify);
             verify = verify.HandRequestSpeakIcon;
             entity['IconComponent'] = verify;
-            if(!oscar) { _fun00014_ip = 301; continue _fun00013 }
- 297:
-            golf = _closure1_slot12;
+            if(!oscar) { _fun00014_ip = 305; continue _fun00013 }
  301:
+            golf = _closure1_slot12;
+ 305:
             entity['onPress'] = golf;
             entity['appearsDisabled'] = oscar;
             entity['isSmallSize'] = report;

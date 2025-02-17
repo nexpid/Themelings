@@ -123,14 +123,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.bind(romeo)(options, zulu);
             foxtrot = null;
             zulu = foxtrot == entity;
-            if(!zulu) { _fun00002_ip = 167; continue _fun00001 }
- 164:
+            if(!zulu) { _fun00002_ip = 163; continue _fun00001 }
+ 160:
             zulu = !update;
- 167:
-            if(!zulu) { _fun00002_ip = 173; continue _fun00001 }
- 170:
+ 163:
+            if(!zulu) { _fun00002_ip = 169; continue _fun00001 }
+ 166:
             zulu = !echo;
- 173:
+ 169:
             _closure2_slot1 = zulu;
             romeo = _closure1_slot4;
             backup = romeo.useEffect;
@@ -221,30 +221,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = verify.bind(offset)(zulu, mike);
             verify = foxtrot == entity;
             zulu = undefined;
-            if(verify) { _fun00002_ip = 391; continue _fun00001 }
- 386:
+            if(verify) { _fun00002_ip = 381; continue _fun00001 }
+ 376:
             zulu = entity.name;
- 391:
+ 381:
             verify = foxtrot != zulu;
             sizing = null;
-            if(!verify) { _fun00002_ip = 403; continue _fun00001 }
- 400:
+            if(!verify) { _fun00002_ip = 393; continue _fun00001 }
+ 390:
             sizing = zulu;
- 403:
+ 393:
             zulu = foxtrot == entity;
             kilo = undefined;
-            if(zulu) { _fun00002_ip = 436; continue _fun00001 }
- 412:
+            if(zulu) { _fun00002_ip = 426; continue _fun00001 }
+ 402:
             verify = entity.description;
             zulu = foxtrot == verify;
             kilo = undefined;
-            if(zulu) { _fun00002_ip = 436; continue _fun00001 }
- 426:
+            if(zulu) { _fun00002_ip = 426; continue _fun00001 }
+ 416:
             zulu = verify.trim;
             kilo = zulu.bind(verify)();
- 436:
-            if(!(foxtrot == kilo)) { _fun00002_ip = 495; continue _fun00001 }
- 440:
+ 426:
+            if(!(foxtrot == kilo)) { _fun00002_ip = 485; continue _fun00001 }
+ 430:
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
             zulu = 11;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.LQx1UF;
             kilo = verify.bind(offset)(zulu);
- 495:
+ 485:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             zulu = 12;
@@ -265,17 +265,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(zulu);
             zulu = foxtrot == entity;
             offset = undefined;
-            if(zulu) { _fun00002_ip = 530; continue _fun00001 }
- 524:
+            if(zulu) { _fun00002_ip = 520; continue _fun00001 }
+ 514:
             offset = entity.maxParticipants;
- 530:
+ 520:
             yankee = foxtrot != offset;
             control = 0;
             zulu = 0;
-            if(!yankee) { _fun00002_ip = 544; continue _fun00001 }
- 541:
+            if(!yankee) { _fun00002_ip = 534; continue _fun00001 }
+ 531:
             zulu = offset;
- 544:
+ 534:
             verify = verify.bind(tango)(zulu);
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -285,42 +285,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.getAssetIds;
             offset = _closure1_slot12;
             backup = yankee.bind(backup)(result, offset);
-            if(!(foxtrot == backup)) { _fun00002_ip = 593; continue _fun00001 }
- 589:
+            if(!(foxtrot == backup)) { _fun00002_ip = 583; continue _fun00001 }
+ 579:
             backup = new Array(0);
- 593:
+ 583:
             yankee = _closure1_slot3;
             offset = 1;
             offset = yankee.bind(tango)(backup, offset);
             backup = offset[control];
             offset = foxtrot != mike;
-            if(!offset) { _fun00002_ip = 643; continue _fun00001 }
- 617:
+            if(!offset) { _fun00002_ip = 633; continue _fun00001 }
+ 607:
             yankee = mike.isGuildVoice;
             yankee = yankee.bind(mike)();
-            if(yankee) { _fun00002_ip = 640; continue _fun00001 }
- 630:
+            if(yankee) { _fun00002_ip = 630; continue _fun00001 }
+ 620:
             source = mike.isPrivate;
             yankee = source.bind(mike)();
- 640:
+ 630:
             offset = yankee;
- 643:
+ 633:
             source = _closure1_slot1;
             vacuum = _closure1_slot2;
             yankee = 18;
             yankee = vacuum[yankee];
             source = source.bind(tango)(yankee);
             yankee = undefined;
-            if(!offset) { _fun00002_ip = 673; continue _fun00001 }
- 668:
+            if(!offset) { _fun00002_ip = 663; continue _fun00001 }
+ 658:
             yankee = mike.id;
- 673:
+ 663:
             vacuum = foxtrot == entity;
             offset = undefined;
-            if(vacuum) { _fun00002_ip = 687; continue _fun00001 }
- 682:
+            if(vacuum) { _fun00002_ip = 677; continue _fun00001 }
+ 672:
             offset = entity.id;
- 687:
+ 677:
             source = source.bind(tango)(yankee, offset);
             yankee = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -331,21 +331,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['activity'] = source;
             vacuum = foxtrot == mike;
             source = undefined;
-            if(vacuum) { _fun00002_ip = 734; continue _fun00001 }
- 729:
+            if(vacuum) { _fun00002_ip = 724; continue _fun00001 }
+ 719:
             source = mike.guild_id;
- 734:
+ 724:
             offset['guildId'] = source;
             source = yankee.bind(tango)(offset);
-            if(!(foxtrot != mike)) { _fun00002_ip = 763; continue _fun00001 }
- 747:
+            if(!(foxtrot != mike)) { _fun00002_ip = 753; continue _fun00001 }
+ 737:
             offset = mike.isPrivate;
             offset = offset.bind(mike)();
             yankee = source;
-            if(!offset) { _fun00002_ip = 767; continue _fun00001 }
- 763:
+            if(!offset) { _fun00002_ip = 757; continue _fun00001 }
+ 753:
             yankee = _closure1_slot13;
- 767:
+ 757:
             config = _closure1_slot0;
             offset = _closure1_slot2;
             record = 11;
@@ -360,10 +360,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = vacuum.bind(sequence)(offset);
             vacuum = foxtrot == mike;
             sequence = undefined;
-            if(vacuum) { _fun00002_ip = 836; continue _fun00001 }
- 831:
+            if(vacuum) { _fun00002_ip = 826; continue _fun00001 }
+ 821:
             sequence = mike.type;
- 836:
+ 826:
             config = _closure1_slot0;
             context = _closure1_slot2;
             vacuum = 14;
@@ -371,21 +371,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = config.bind(tango)(vacuum);
             vacuum = vacuum.ChannelTypes;
             vacuum = vacuum.GUILD_VOICE;
-            if(!(sequence !== vacuum)) { _fun00002_ip = 966; continue _fun00001 }
- 872:
+            if(!(sequence !== vacuum)) { _fun00002_ip = 956; continue _fun00001 }
+ 862:
             vacuum = foxtrot != mike;
-            if(!vacuum) { _fun00002_ip = 889; continue _fun00001 }
- 879:
+            if(!vacuum) { _fun00002_ip = 879; continue _fun00001 }
+ 869:
             sequence = mike.isPrivate;
             vacuum = sequence.bind(mike)();
- 889:
-            if(!vacuum) { _fun00002_ip = 1084; continue _fun00001 }
- 895:
+ 879:
+            if(!vacuum) { _fun00002_ip = 1074; continue _fun00001 }
+ 885:
             source = source.length;
             vacuum = source > control;
             source = null;
-            if(vacuum) { _fun00002_ip = 961; continue _fun00001 }
- 909:
+            if(vacuum) { _fun00002_ip = 951; continue _fun00001 }
+ 899:
             context = _closure1_slot0;
             vacuum = _closure1_slot2;
             sequence = vacuum[record];
@@ -397,13 +397,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = vacuum.t;
             vacuum = vacuum.RscU7O;
             source = sequence.bind(config)(vacuum);
- 961:
+ 951:
             offset = source;
-            _fun00002_ip = 1084; continue _fun00001;
- 966:
+            _fun00002_ip = 1074; continue _fun00001;
+ 956:
             source = yankee.length;
-            if(!(!(source > control))) { _fun00002_ip = 1029; continue _fun00001 }
- 975:
+            if(!(!(source > control))) { _fun00002_ip = 1019; continue _fun00001 }
+ 965:
             sequence = _closure1_slot0;
             source = _closure1_slot2;
             control = source[record];
@@ -415,8 +415,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = source.t;
             source = source.RscU7O;
             source = control.bind(vacuum)(source);
-            _fun00002_ip = 1081; continue _fun00001;
- 1029:
+            _fun00002_ip = 1071; continue _fun00001;
+ 1019:
             config = _closure1_slot0;
             control = _closure1_slot2;
             vacuum = control[record];
@@ -428,17 +428,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.t;
             control = control.VJlc0d;
             source = vacuum.bind(sequence)(control);
- 1081:
+ 1071:
             offset = source;
+ 1074:
+            if(!(foxtrot != entity)) { _fun00002_ip = 1176; continue _fun00001 }
+ 1078:
+            if(update) { _fun00002_ip = 1176; continue _fun00001 }
+ 1081:
+            if(echo) { _fun00002_ip = 1176; continue _fun00001 }
  1084:
-            if(!(foxtrot != entity)) { _fun00002_ip = 1186; continue _fun00001 }
+            if(!(foxtrot != mike)) { _fun00002_ip = 1176; continue _fun00001 }
  1088:
-            if(update) { _fun00002_ip = 1186; continue _fun00001 }
- 1091:
-            if(echo) { _fun00002_ip = 1186; continue _fun00001 }
- 1094:
-            if(!(foxtrot != mike)) { _fun00002_ip = 1186; continue _fun00001 }
- 1098:
             echo = _closure1_slot0;
             update = _closure1_slot2;
             mike = 15;
@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot10;
             entity = entity.EMBEDDED;
             entity = echo.bind(update)(mike, entity);
-            if(!entity) { _fun00002_ip = 1186; continue _fun00001 }
- 1148:
+            if(!entity) { _fun00002_ip = 1176; continue _fun00001 }
+ 1138:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[zulu];
@@ -458,11 +458,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getAssetImage;
             entity = 1024;
             backup = mike.bind(zulu)(result, backup, entity);
-            _fun00002_ip = 1192; continue _fun00001;
- 1186:
+            _fun00002_ip = 1182; continue _fun00001;
+ 1176:
             yankee = _closure1_slot13;
             backup = undefined;
- 1192:
+ 1182:
             zulu = _closure1_slot11;
             mike = _closure1_slot1;
             echo = _closure1_slot2;

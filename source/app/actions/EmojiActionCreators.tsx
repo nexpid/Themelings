@@ -103,15 +103,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot6;
             zulu = zulu.totalUnavailableGuilds;
             tango = 0;
-            if(!(!(zulu > tango))) { _fun00004_ip = 146; continue _fun00003 }
- 25:
+            if(!(!(zulu > tango))) { _fun00004_ip = 141; continue _fun00003 }
+ 22:
             report = _closure1_slot5;
             zulu = report.isConnected;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun00004_ip = 44; continue _fun00003 }
- 42:
+            if(zulu) { _fun00004_ip = 41; continue _fun00003 }
+ 39:
             return entity;
- 44:
+ 41:
             report = entity.map;
             zulu = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = 0;
             zulu = arraySpread(romeo, yankee, offset);
             return mike;
- 146:
+ 141:
             return entity;
         }
     };
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(tango);
             var _closure2_slot0 = report;
             tango = null;
-            if(!(tango != report)) { _fun00010_ip = 89; continue _fun00009 }
+            if(!(tango != report)) { _fun00010_ip = 87; continue _fun00009 }
  29:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -564,7 +564,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             mike = report.bind(oscar)(zulu, mike, tango);
- 89:
+ 87:
             return entity;
         }
     };
@@ -578,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(tango);
             var _closure2_slot0 = report;
             tango = null;
-            if(!(tango != report)) { _fun00014_ip = 89; continue _fun00013 }
+            if(!(tango != report)) { _fun00014_ip = 87; continue _fun00013 }
  29:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             mike = report.bind(oscar)(zulu, mike, tango);
- 89:
+ 87:
             return entity;
         }
     };

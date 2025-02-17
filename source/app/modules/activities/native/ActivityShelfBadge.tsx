@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(report)(entity);
             entity = entity.EmbeddedActivityLabelTypes;
             entity = entity.NEW;
-            if(!(zulu !== entity)) { _fun00002_ip = 266; continue _fun00001 }
+            if(!(zulu !== entity)) { _fun00002_ip = 268; continue _fun00001 }
  61:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.EmbeddedActivityLabelTypes;
             mike = entity.UPDATED;
             entity = null;
-            if(!(zulu === mike)) { _fun00002_ip = 261; continue _fun00001 }
+            if(!(zulu === mike)) { _fun00002_ip = 263; continue _fun00001 }
  99:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;
@@ -158,9 +158,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(report)(verify, golf);
             mike['children'] = golf;
             entity = tango.bind(report)(zulu, mike);
- 261:
-            _fun00002_ip = 428; continue _fun00001;
- 266:
+ 263:
+            _fun00002_ip = 430; continue _fun00001;
+ 268:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;
             mike = {};
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 428:
+ 430:
             return entity;
         }
     };

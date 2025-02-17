@@ -652,13 +652,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     entity = _closure3_slot1;
                     verify = null;
-                    if(!(verify == entity)) { _fun00018_ip = 45; continue _fun00017 }
+                    if(!(verify == entity)) { _fun00018_ip = 41; continue _fun00017 }
  13:
                     tango = _closure1_slot19;
                     zulu = tango.setState;
                     entity = {'rate': 0, 'isPlaying': false};
                     entity = zulu.bind(tango)(entity);
- 45:
+ 41:
                     oscar = _closure1_slot18;
                     report = oscar.verbose;
                     yankee = _closure3_slot2;
@@ -666,11 +666,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = verify == entity;
                     entity = undefined;
                     offset = undefined;
-                    if(tango) { _fun00018_ip = 86; continue _fun00017 }
- 77:
+                    if(tango) { _fun00018_ip = 82; continue _fun00017 }
+ 73:
                     tango = _closure3_slot1;
                     offset = tango.id;
- 86:
+ 82:
                     tango = global;
                     tango = tango.HermesInternal;
                     options = tango.concat;
@@ -692,13 +692,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure3_slot1;
                     verify = verify != tango;
                     tango = undefined;
-                    if(!verify) { _fun00018_ip = 192; continue _fun00017 }
- 188:
+                    if(!verify) { _fun00018_ip = 188; continue _fun00017 }
+ 184:
                     tango = _closure3_slot1;
- 192:
+ 188:
                     tango = report.bind(entity)(oscar, tango);
-                    if(tango) { _fun00018_ip = 256; continue _fun00017 }
- 201:
+                    if(tango) { _fun00018_ip = 252; continue _fun00017 }
+ 197:
                     oscar = _closure3_slot0;
                     report = oscar.handleMediaPlayerPlaybackSourceChanged;
                     tango = {};
@@ -713,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.bind(oscar)(tango);
                     tango = undefined;
                     return tango;
- 256:
+ 252:
                     report = _closure1_slot19;
                     tango = report.setState;
                     zulu = {};
@@ -724,16 +724,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['isPlaying'] = oscar;
                     oscar = false;
                     options = oscar === options;
-                    if(!options) { _fun00018_ip = 305; continue _fun00017 }
- 297:
+                    if(!options) { _fun00018_ip = 301; continue _fun00017 }
+ 293:
                     oscar = _closure3_slot2;
                     options = oscar > verify;
- 305:
+ 301:
                     oscar = !options;
-                    if(options) { _fun00018_ip = 314; continue _fun00017 }
- 311:
+                    if(options) { _fun00018_ip = 310; continue _fun00017 }
+ 307:
                     oscar = golf;
- 314:
+ 310:
                     zulu['wasPipClosedByUser'] = oscar;
                     zulu = tango.bind(report)(zulu);
                     zulu = _closure3_slot0;
@@ -882,29 +882,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure3_slot1;
  140:
                     tango = oscar.bind(entity)(report, tango);
-                    if(tango) { _fun00022_ip = 274; continue _fun00021 }
- 152:
+                    if(tango) { _fun00022_ip = 267; continue _fun00021 }
+ 149:
                     report = _closure1_slot19;
                     tango = report.setState;
                     zulu = {'activeMediaPlayerSource': null, 'mediaSourceMessage': null, 'progress': null, 'rate': 0, 'isPlaying': false, 'wasPipClosedByUser': false};
                     oscar = _closure3_slot1;
                     options = golf != oscar;
                     oscar = undefined;
-                    if(!options) { _fun00022_ip = 193; continue _fun00021 }
- 189:
+                    if(!options) { _fun00022_ip = 186; continue _fun00021 }
+ 182:
                     oscar = _closure3_slot1;
- 193:
+ 186:
                     zulu['activeMediaPlayerSource'] = oscar;
                     oscar = _closure3_slot1;
                     golf = golf != oscar;
                     oscar = undefined;
-                    if(!golf) { _fun00022_ip = 233; continue _fun00021 }
- 212:
+                    if(!golf) { _fun00022_ip = 226; continue _fun00021 }
+ 205:
                     verify = _closure3_slot0;
                     options = verify.getOrFetchMediaSourceMessage;
                     golf = _closure3_slot1;
                     oscar = options.bind(verify)(golf);
- 233:
+ 226:
                     zulu['mediaSourceMessage'] = oscar;
                     zulu['progress'] = entity;
                     zulu = tango.bind(report)(zulu);
@@ -913,7 +913,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike.bind(zulu)();
                     mike = zulu.updateDisplayState;
                     mike = mike.bind(zulu)();
- 274:
+ 267:
                     return entity;
                 }
             };

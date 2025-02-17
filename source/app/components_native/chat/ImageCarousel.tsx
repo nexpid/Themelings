@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sizing = _closure2_slot3;
                     sizing = offset != sizing;
                     output = null;
-                    if(!sizing) { _fun00012_ip = 605; continue _fun00011 }
+                    if(!sizing) { _fun00012_ip = 607; continue _fun00011 }
  458:
                     sizing = _closure2_slot3;
                     sizing = offset == sizing;
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sizing = 0;
                     sizing = result > sizing;
                     output = null;
-                    if(!sizing) { _fun00012_ip = 605; continue _fun00011 }
+                    if(!sizing) { _fun00012_ip = 607; continue _fun00011 }
  491:
                     echo = _closure1_slot12;
                     vacuum = _closure1_slot0;
@@ -483,13 +483,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     update = source.bind(control)(update);
                     sizing['children'] = update;
                     output = echo.bind(tango)(result, sizing);
- 605:
+ 607:
                     sizing = new Array(2);
                     sizing[0] = output;
                     result = _closure2_slot1;
                     output = null;
-                    if(!result) { _fun00012_ip = 706; continue _fun00011 }
- 622:
+                    if(!result) { _fun00012_ip = 708; continue _fun00011 }
+ 624:
                     update = _closure1_slot12;
                     echo = _closure1_slot5;
                     result = {};
@@ -507,15 +507,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     source = vacuum.bind(tango)(control, source);
                     result['children'] = source;
                     output = update.bind(tango)(echo, result);
- 706:
+ 708:
                     sizing[1] = output;
                     yankee['children'] = sizing;
                     yankee = foxtrot.bind(tango)(romeo, yankee);
                     verify[1] = yankee;
                     yankee = _closure2_slot11;
                     offset = null;
-                    if(!yankee) { _fun00012_ip = 817; continue _fun00011 }
- 733:
+                    if(!yankee) { _fun00012_ip = 819; continue _fun00011 }
+ 735:
                     foxtrot = _closure1_slot12;
                     romeo = _closure1_slot5;
                     yankee = {};
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     backup = sizing.bind(tango)(kilo, backup);
                     yankee['children'] = backup;
                     offset = foxtrot.bind(tango)(romeo, yankee);
- 817:
+ 819:
                     verify[2] = offset;
                     oscar['children'] = verify;
                     oscar = options.bind(tango)(golf, oscar);
@@ -585,10 +585,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = context.filename;
             papa = record != context;
             record = '';
-            if(!papa) { _fun00002_ip = 656; continue _fun00001 }
- 653:
+            if(!papa) { _fun00002_ip = 658; continue _fun00001 }
+ 655:
             record = context;
- 656:
+ 658:
             control['name'] = record;
             control = sequence.bind(config)(vacuum, control);
             report['accessibilityLabel'] = control;
@@ -607,19 +607,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['accessibilityActions'] = source;
             report['onAccessibilityAction'] = update;
             result = !result;
-            if(!result) { _fun00002_ip = 746; continue _fun00001 }
- 743:
+            if(!result) { _fun00002_ip = 750; continue _fun00001 }
+ 747:
             result = !echo;
- 746:
+ 750:
             report['disabled'] = result;
             report['onPress'] = sizing;
             result = kilo.pressableContainer;
             sizing = new Array(2);
             sizing[0] = result;
-            if(!output) { _fun00002_ip = 777; continue _fun00001 }
- 771:
+            if(!output) { _fun00002_ip = 781; continue _fun00001 }
+ 775:
             output = kilo.highlightedTileContainer;
- 777:
+ 781:
             sizing[1] = output;
             report['style'] = sizing;
             foxtrot = foxtrot.bind(tango)();

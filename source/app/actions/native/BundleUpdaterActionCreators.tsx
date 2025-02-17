@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 276; continue _fun00001 }
  9:
             zulu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.bind(tango)(entity);
             entity = true;
             _closure1_slot4 = entity;
- 268:
+ 276:
             entity = undefined;
             return entity;
         }

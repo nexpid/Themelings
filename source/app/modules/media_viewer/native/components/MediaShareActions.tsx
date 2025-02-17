@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot0;
                     tango = zulu.sourceURI;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun00008_ip = 116; continue _fun00007 }
+                    if(!(zulu != tango)) { _fun00008_ip = 114; continue _fun00007 }
  54:
                     zulu = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     mike['onConfirm'] = report;
                     mike = zulu.bind(tango)(mike);
- 116:
+ 114:
                     return entity;
                 }
             };
@@ -407,23 +407,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.bind(output)(report);
             report = kilo.useCanForwardMessage;
             report = report.bind(kilo)(sizing);
-            if(!report) { _fun00002_ip = 469; continue _fun00001 }
- 466:
+            if(!report) { _fun00002_ip = 455; continue _fun00001 }
+ 452:
             report = zulu;
- 469:
-            if(!report) { _fun00002_ip = 504; continue _fun00001 }
- 472:
+ 455:
+            if(!report) { _fun00002_ip = 490; continue _fun00001 }
+ 458:
             kilo = tango.attachmentId;
             zulu = null;
             zulu = zulu != kilo;
-            if(zulu) { _fun00002_ip = 501; continue _fun00001 }
- 487:
+            if(zulu) { _fun00002_ip = 487; continue _fun00001 }
+ 473:
             kilo = tango.accessoryType;
             tango = 'embed';
             zulu = tango === kilo;
- 501:
+ 487:
             report = zulu;
- 504:
+ 490:
             _closure2_slot13 = report;
             tango = _closure1_slot3;
             zulu = tango.useMemo;
@@ -571,8 +571,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['action'] = oscar;
                     mike = zulu.bind(entity)(mike);
                     mike = _closure2_slot6;
-                    if(!mike) { _fun00016_ip = 646; continue _fun00015 }
- 547:
+                    if(!mike) { _fun00016_ip = 648; continue _fun00015 }
+ 549:
                     zulu = entity.push;
                     mike = {};
                     options = _closure1_slot0;
@@ -595,7 +595,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot12;
                     mike['action'] = tango;
                     mike = zulu.bind(entity)(mike);
- 646:
+ 648:
                     return entity;
                 }
             };

@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -295,11 +295,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = entity;
             tango = entity.parent_id;
             entity = null;
-            if(!(entity != tango)) { _fun00018_ip = 110; continue _fun00017 }
+            if(!(entity != tango)) { _fun00018_ip = 108; continue _fun00017 }
  26:
             zulu = _closure1_slot6;
             oscar = zulu[tango];
-            if(!(entity != oscar)) { _fun00018_ip = 106; continue _fun00017 }
+            if(!(entity != oscar)) { _fun00018_ip = 104; continue _fun00017 }
  41:
             zulu = _closure1_slot6;
             mike = {};
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = entity == options;
             entity = undefined;
             oscar = undefined;
-            if(golf) { _fun00018_ip = 91; continue _fun00017 }
+            if(golf) { _fun00018_ip = 89; continue _fun00017 }
  74:
             golf = options.filter;
             report = function(argFoo) {
@@ -321,15 +321,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             oscar = golf.bind(options)(report);
- 91:
+ 89:
             report = 'results';
             mike[report] = oscar;
             zulu[tango] = mike;
             return entity;
- 106:
+ 104:
             entity = false;
             return entity;
- 110:
+ 108:
             entity = false;
             return entity;
         }

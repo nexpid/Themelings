@@ -268,29 +268,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argFoo;
             mike = mike[entity];
             entity = null;
-            if(!(entity != mike)) { _fun00012_ip = 92; continue _fun00011 }
+            if(!(entity != mike)) { _fun00012_ip = 88; continue _fun00011 }
  26:
-            if(!(entity != tango)) { _fun00012_ip = 46; continue _fun00011 }
+            if(!(entity != tango)) { _fun00012_ip = 44; continue _fun00011 }
  30:
             entity = mike.addGuildAvatarHash;
             entity = entity.bind(mike)(report, tango);
-            _fun00012_ip = 59; continue _fun00011;
- 46:
+            _fun00012_ip = 55; continue _fun00011;
+ 44:
             tango = mike.removeGuildAvatarHash;
             entity = tango.bind(mike)(report);
- 59:
+ 55:
             report = _closure1_slot17;
             tango = mike.id;
             report[tango] = entity;
             entity = mike !== entity;
-            if(!entity) { _fun00012_ip = 90; continue _fun00011 }
- 79:
+            if(!entity) { _fun00012_ip = 86; continue _fun00011 }
+ 75:
             mike = _closure1_slot18;
             mike = mike + 1;
             _closure1_slot18 = mike;
- 90:
+ 86:
             return entity;
- 92:
+ 88:
             entity = false;
             return entity;
         }
@@ -632,10 +632,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.getPremiumTypeActual;
             mike = mike.bind(tango)();
             zulu = _closure1_slot16;
-            if(!(entity === zulu)) { _fun00020_ip = 55; continue _fun00019 }
- 52:
+            if(!(entity === zulu)) { _fun00020_ip = 53; continue _fun00019 }
+ 50:
             entity = mike;
- 55:
+ 53:
             return entity;
         }
     };
@@ -729,8 +729,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = argFoo;
                     zulu = entity.clip_participants;
                     entity = null;
-                    if(!(entity != zulu)) { _fun00026_ip = 34; continue _fun00025 }
- 17:
+                    if(!(entity != zulu)) { _fun00026_ip = 32; continue _fun00025 }
+ 15:
                     mike = zulu.forEach;
                     entity = function(argFoo) {
                         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
@@ -749,7 +749,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         }
                     };
                     entity = mike.bind(zulu)(entity);
- 34:
+ 32:
                     entity = undefined;
                     return entity;
                 }

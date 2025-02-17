@@ -182,14 +182,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.type;
             options = _closure1_slot4;
             options = options.TRENDING_GIFS;
-            if(!(offset !== options)) { _fun00002_ip = 319; continue _fun00001 }
- 209:
+            if(!(offset !== options)) { _fun00002_ip = 317; continue _fun00001 }
+ 207:
             yankee = romeo.type;
             options = _closure1_slot4;
             options = options.FAVORITES;
             offset = null;
-            if(!(yankee === options)) { _fun00002_ip = 317; continue _fun00001 }
- 230:
+            if(!(yankee === options)) { _fun00002_ip = 315; continue _fun00001 }
+ 228:
             foxtrot = _closure1_slot5;
             yankee = _closure1_slot0;
             output = _closure1_slot2;
@@ -210,9 +210,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.WHITE;
             options['color'] = kilo;
             offset = foxtrot.bind(tango)(yankee, options);
+ 315:
+            _fun00002_ip = 404; continue _fun00001;
  317:
-            _fun00002_ip = 406; continue _fun00001;
- 319:
             foxtrot = _closure1_slot5;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.WHITE;
             options['color'] = backup;
             offset = foxtrot.bind(tango)(yankee, options);
- 406:
+ 404:
             options = new Array(2);
             options[0] = offset;
             yankee = _closure1_slot5;

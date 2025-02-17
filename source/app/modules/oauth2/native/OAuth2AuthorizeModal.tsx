@@ -204,15 +204,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing[update];
             sizing = source.bind(tango)(sizing);
             sizing = sizing.t;
-            if(kilo) { _fun00002_ip = 343; continue _fun00001 }
- 330:
+            if(kilo) { _fun00002_ip = 339; continue _fun00001 }
+ 326:
             kilo = sizing.cpT0Cg;
             kilo = result.bind(echo)(kilo);
-            _fun00002_ip = 354; continue _fun00001;
- 343:
+            _fun00002_ip = 350; continue _fun00001;
+ 339:
             sizing = sizing.13/7kZ;
             kilo = result.bind(echo)(sizing);
- 354:
+ 350:
             oscar['accessibilityLabel'] = kilo;
             backup = function() { // Original name: onPress
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = _closure1_slot5;
             sizing = _closure1_slot0;
             control = _closure1_slot2;
-            if(backup) { _fun00002_ip = 449; continue _fun00001 }
- 390:
+            if(backup) { _fun00002_ip = 443; continue _fun00001 }
+ 384:
             backup = 12;
             backup = control[backup];
             backup = sizing.bind(tango)(backup);
@@ -251,8 +251,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.INTERACTIVE_NORMAL;
             backup['color'] = echo;
             backup = result.bind(tango)(kilo, backup);
-            _fun00002_ip = 506; continue _fun00001;
- 449:
+            _fun00002_ip = 500; continue _fun00001;
+ 443:
             kilo = 11;
             kilo = control[kilo];
             kilo = sizing.bind(tango)(kilo);
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.INTERACTIVE_NORMAL;
             kilo['color'] = echo;
             backup = result.bind(tango)(sizing, kilo);
- 506:
+ 500:
             oscar['children'] = backup;
             golf = options.bind(tango)(golf, oscar);
             oscar = new Array(3);

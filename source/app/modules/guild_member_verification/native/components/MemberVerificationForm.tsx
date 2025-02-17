@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00018_ip = 577; continue _fun00017 }
+                            if(mike) { _fun00018_ip = 581; continue _fun00017 }
  10:
                             mike = undefined;
                             report = undefined;
@@ -550,7 +550,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = undefined;
                             golf = undefined;
                             tango = _closure2_slot10;
-                            if(tango) { _fun00018_ip = 457; continue _fun00017 }
+                            if(tango) { _fun00018_ip = 459; continue _fun00017 }
  35:
                             tango = _closure2_slot9;
                             options = null;
@@ -614,7 +614,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             yankee = _closure2_slot2;
                             yankee = yankee.bind(mike)(romeo);
  239: // try_end0
-                            _fun00018_ip = 574; continue _fun00017;
+                            _fun00018_ip = 578; continue _fun00017;
  244:
                             return report;
  247: // catch_target0
@@ -667,7 +667,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = golf.message;
  373:
                             report = oscar.bind(mike)(report);
-                            _fun00018_ip = 444; continue _fun00017;
+                            _fun00018_ip = 446; continue _fun00017;
  380:
                             report = _closure2_slot9;
                             options = _closure1_slot0;
@@ -683,12 +683,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = tango.PD09Sk;
                             tango = oscar.bind(golf)(tango);
                             tango = report.bind(mike)(tango);
- 444:
+ 446:
                             tango = _closure2_slot8;
                             zulu = false;
                             zulu = tango.bind(mike)(zulu);
-                            _fun00018_ip = 574; continue _fun00017;
- 457:
+                            _fun00018_ip = 578; continue _fun00017;
+ 459:
                             golf = _closure1_slot1;
                             options = _closure1_slot2;
                             zulu = 8;
@@ -715,9 +715,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = golf.bind(mike)(oscar);
                             zulu['icon'] = oscar;
                             zulu = tango.bind(report)(zulu);
- 574:
+ 578:
                             return mike;
- 577:
+ 581:
                             return entity;
                         }
                     };

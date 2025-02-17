@@ -678,8 +678,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = offset.bind(entity)(verify, options);
                     report[1] = options;
                     oscar = _closure2_slot3;
-                    if(!oscar) { _fun00018_ip = 359; continue _fun00017 }
- 279:
+                    if(!oscar) { _fun00018_ip = 361; continue _fun00017 }
+ 281:
                     verify = _closure1_slot12;
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -699,7 +699,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = yankee.bind(entity)(offset);
                     golf['source'] = offset;
                     oscar = verify.bind(entity)(options, golf);
- 359:
+ 361:
                     report[2] = oscar;
                     mike['children'] = report;
                     entity = tango.bind(entity)(zulu, mike);
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot4;
                     entity = null;
                     mike = entity == mike;
-                    if(mike) { _fun00020_ip = 487; continue _fun00019 }
+                    if(mike) { _fun00020_ip = 489; continue _fun00019 }
  19:
                     report = _closure1_slot13;
                     result = _closure1_slot0;
@@ -835,7 +835,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar[2] = golf;
                     mike['children'] = oscar;
                     entity = report.bind(tango)(zulu, mike);
- 487:
+ 489:
                     return entity;
                 }
             };

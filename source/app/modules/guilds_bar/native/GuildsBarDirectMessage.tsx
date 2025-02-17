@@ -281,11 +281,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {'selected': false, 'circle': null, 'unread': true};
             report = null;
             sizing = report != yankee;
-            if(!sizing) { _fun00002_ip = 333; continue _fun00001 }
- 323:
+            if(!sizing) { _fun00002_ip = 329; continue _fun00001 }
+ 319:
             output = yankee.isMultiUserDM;
             sizing = output.bind(yankee)();
- 333:
+ 329:
             sizing = !sizing;
             entity['circle'] = sizing;
             entity['styles'] = kilo;
@@ -294,16 +294,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['config'] = options;
             entity['cutouts'] = golf;
             entity['externalChildren'] = oscar;
-            if(!(report != yankee)) { _fun00002_ip = 387; continue _fun00001 }
- 374:
+            if(!(report != yankee)) { _fun00002_ip = 383; continue _fun00001 }
+ 370:
             oscar = yankee.isMultiUserDM;
             oscar = oscar.bind(yankee)();
-            if(oscar) { _fun00002_ip = 444; continue _fun00001 }
- 387:
+            if(oscar) { _fun00002_ip = 440; continue _fun00001 }
+ 383:
             oscar = report != romeo;
             report = null;
-            if(!oscar) { _fun00002_ip = 442; continue _fun00001 }
- 396:
+            if(!oscar) { _fun00002_ip = 438; continue _fun00001 }
+ 392:
             options = _closure1_slot9;
             golf = _closure1_slot1;
             backup = _closure1_slot2;
@@ -315,9 +315,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = foxtrot;
             oscar['source'] = romeo;
             report = options.bind(tango)(golf, oscar);
- 442:
-            _fun00002_ip = 543; continue _fun00001;
- 444:
+ 438:
+            _fun00002_ip = 539; continue _fun00001;
+ 440:
             options = _closure1_slot9;
             golf = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['pileSizeOverride'] = offset;
             oscar['animate'] = verify;
             report = options.bind(tango)(golf, oscar);
- 543:
+ 539:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

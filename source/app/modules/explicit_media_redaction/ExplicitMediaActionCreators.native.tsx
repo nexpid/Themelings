@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(golf);
             report = _closure1_slot1;
             zulu = _closure1_slot2;
-            if(tango) { _fun00002_ip = 311; continue _fun00001 }
+            if(tango) { _fun00002_ip = 315; continue _fun00001 }
  106:
             tango = 3;
             tango = zulu[tango];
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(oscar)(options, golf);
             tango = undefined;
             return tango;
- 311:
+ 315:
             tango = 6;
             tango = zulu[tango];
             oscar = report.bind(entity)(tango);

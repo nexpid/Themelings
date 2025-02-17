@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = report.bind(oscar)(tango, entity);
-            if(!zulu) { _fun00002_ip = 131; continue _fun00001 }
- 128:
+            if(!zulu) { _fun00002_ip = 127; continue _fun00001 }
+ 124:
             entity = mike;
- 131:
+ 127:
             return entity;
         }
     };

@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     tango = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 297; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 295; continue _fun00003 }
  15:
                     mike = undefined;
                     golf = undefined;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = options.bind(offset)();
                     golf = offset;
                     options = null;
-                    if(!(options != offset)) { _fun00004_ip = 265; continue _fun00003 }
+                    if(!(options != offset)) { _fun00004_ip = 263; continue _fun00003 }
  114: // try_start_0
                     yankee = _closure1_slot3;
                     offset = yankee.log;
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     kilo = golf;
                     report = new kilo[options](backup, foxtrot);
                     report = report instanceof Object ? report : golf;
-                    SaveGenerator(address=183);
- 181:
+                    SaveGenerator(address=181);
+ 179:
                     return report;
- 183:
+ 181:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golf) { _fun00004_ip = 233; continue _fun00003 }
- 189:
+                    if(golf) { _fun00004_ip = 231; continue _fun00003 }
+ 187:
                     options = _closure1_slot3;
                     golf = options.log;
                     offset = verify.id;
@@ -190,20 +190,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = 'drainQueue() Uploader complete - ';
                     oscar = verify.bind(oscar)(offset);
                     oscar = golf.bind(options)(oscar);
- 231: // try_end0
-                    _fun00004_ip = 252; continue _fun00003;
- 233:
+ 229: // try_end0
+                    _fun00004_ip = 250; continue _fun00003;
+ 231:
                     return report;
- 236: // catch_target0
+ 234: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscar = _closure1_slot3;
                     report = oscar.error;
                     report = report.bind(oscar)(golf);
- 252:
+ 250:
                     report = tango.drainQueue;
                     report = report.bind(tango)();
                     return mike;
- 265:
+ 263:
                     oscar = _closure1_slot3;
                     report = oscar.log;
                     zulu = 'drainQueue() - No uploads left, setting drainingQueue to false';
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = false;
                     tango['drainingQueue'] = zulu;
                     return mike;
- 297:
+ 295:
                     return entity;
                 }
             };

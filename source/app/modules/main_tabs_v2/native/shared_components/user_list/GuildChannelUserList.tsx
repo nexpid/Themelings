@@ -1206,7 +1206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot17;
             entity = {};
             options = null;
-            if(!report) { _fun00002_ip = 1033; continue _fun00001 }
+            if(!report) { _fun00002_ip = 1032; continue _fun00001 }
  892:
             papa = _closure1_slot18;
             verify = _closure1_slot17;
@@ -1242,7 +1242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target[1] = status;
             report['children'] = target;
             options = papa.bind(tango)(verify, report);
- 1033:
+ 1032:
             report = new Array(2);
             report[0] = options;
             verify = _closure1_slot16;
@@ -1254,10 +1254,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = golf.UsersFastList;
             golf = {};
             golf['ref'] = context;
-            if(!(record == vacuum)) { _fun00002_ip = 1127; continue _fun00001 }
- 1081:
-            if(offset) { _fun00002_ip = 1109; continue _fun00001 }
- 1084:
+            if(!(record == vacuum)) { _fun00002_ip = 1126; continue _fun00001 }
+ 1080:
+            if(offset) { _fun00002_ip = 1108; continue _fun00001 }
+ 1083:
             record = config.groups;
             config = record.map;
             control = function(argFoo) {
@@ -1266,20 +1266,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             control = config.bind(record)(control);
-            _fun00002_ip = 1125; continue _fun00001;
- 1109:
+            _fun00002_ip = 1124; continue _fun00001;
+ 1108:
             config = sequence.length;
             sequence = new Array(1);
             sequence[0] = config;
             control = sequence;
- 1125:
-            _fun00002_ip = 1143; continue _fun00001;
- 1127:
+ 1124:
+            _fun00002_ip = 1142; continue _fun00001;
+ 1126:
             sequence = vacuum.length;
             vacuum = new Array(1);
             vacuum[0] = sequence;
             control = vacuum;
- 1143:
+ 1142:
             golf['sections'] = control;
             golf['getItemProps'] = source;
             golf['getSectionProps'] = update;
@@ -1294,10 +1294,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['disableBottomSafeZone'] = yankee;
             golf['insetEnd'] = oscar;
             oscar = 'guild-channel-user-list';
-            if(!offset) { _fun00002_ip = 1223; continue _fun00001 }
- 1217:
+            if(!offset) { _fun00002_ip = 1222; continue _fun00001 }
+ 1216:
             oscar = 'guild-channel-user-list-search-results';
- 1223:
+ 1222:
             oscar = verify.bind(tango)(options, golf, oscar);
             report[1] = oscar;
             entity['children'] = report;

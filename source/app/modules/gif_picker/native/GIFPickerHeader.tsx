@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = _closure1_slot4;
             report = report.SEARCH;
-            if(!(output !== report)) { _fun00002_ip = 553; continue _fun00001 }
+            if(!(output !== report)) { _fun00002_ip = 555; continue _fun00001 }
  76:
             options = _closure1_slot6;
             backup = _closure1_slot0;
@@ -159,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {'variant': 'text-sm/semibold', 'color': 'text-normal', 'maxFontSizeMultiplier': 2};
             sizing = _closure1_slot4;
             sizing = sizing.TRENDING_GIFS;
-            if(!(output !== sizing)) { _fun00002_ip = 475; continue _fun00001 }
- 353:
+            if(!(output !== sizing)) { _fun00002_ip = 477; continue _fun00001 }
+ 355:
             sizing = _closure1_slot4;
             sizing = sizing.FAVORITES;
-            if(!(output !== sizing)) { _fun00002_ip = 421; continue _fun00001 }
- 367:
+            if(!(output !== sizing)) { _fun00002_ip = 423; continue _fun00001 }
+ 369:
             echo = _closure1_slot0;
             sizing = _closure1_slot2;
             output = sizing[source];
@@ -176,8 +176,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.t;
             sizing = sizing.5h0QOD;
             sizing = output.bind(result)(sizing);
-            _fun00002_ip = 473; continue _fun00001;
- 421:
+            _fun00002_ip = 475; continue _fun00001;
+ 423:
             update = _closure1_slot0;
             output = _closure1_slot2;
             result = output[source];
@@ -189,9 +189,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.k8fFjo;
             sizing = result.bind(echo)(output);
- 473:
-            _fun00002_ip = 527; continue _fun00001;
  475:
+            _fun00002_ip = 529; continue _fun00001;
+ 477:
             update = _closure1_slot0;
             output = _closure1_slot2;
             result = output[source];
@@ -203,14 +203,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.TsWCdX;
             sizing = result.bind(echo)(output);
- 527:
+ 529:
             foxtrot['children'] = sizing;
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             romeo[1] = foxtrot;
             report['children'] = romeo;
             report = options.bind(tango)(golf, report);
-            _fun00002_ip = 672; continue _fun00001;
- 553:
+            _fun00002_ip = 676; continue _fun00001;
+ 555:
             options = _closure1_slot5;
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = true;
             oscar['isRound'] = verify;
             report = options.bind(tango)(golf, oscar);
- 672:
+ 676:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

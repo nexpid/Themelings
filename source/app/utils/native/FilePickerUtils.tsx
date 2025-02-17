@@ -18,7 +18,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     StartGenerator();
                     mike = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 409; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 413; continue _fun00001 }
  13:
                     zulu = undefined;
                     if(!(mike === zulu)) { _fun00002_ip = 21; continue _fun00001 }
@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     return zulu;
  40:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 406; continue _fun00001 }
+                    if(report) { _fun00002_ip = 410; continue _fun00001 }
  49: // try_start_0
                     oscar = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     oscar = oscar.bind(zulu)(report);
                     report = oscar.isCancel;
                     report = report.bind(oscar)(golf);
-                    if(report) { _fun00002_ip = 403; continue _fun00001 }
+                    if(report) { _fun00002_ip = 407; continue _fun00001 }
  204:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -135,11 +135,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     tango['body'] = golf;
                     tango = report.bind(oscar)(tango);
                     return zulu;
- 403:
+ 407:
                     return zulu;
- 406:
+ 410:
                     return mike;
- 409:
+ 413:
                     return entity;
                 }
             };

@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = {};
             kilo = offset.bannerTextContainer;
             backup['style'] = kilo;
-            if(!options) { _fun00002_ip = 339; continue _fun00001 }
+            if(!options) { _fun00002_ip = 341; continue _fun00001 }
  229:
             output = _closure1_slot5;
             control = _closure1_slot0;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = update.bind(source)(result);
             kilo['children'] = result;
             options = output.bind(tango)(sizing, kilo);
- 339:
+ 341:
             kilo = new Array(2);
             kilo[0] = options;
             options = _closure1_slot5;

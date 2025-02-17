@@ -105,7 +105,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 mike = _closure2_slot3;
                 entity = _closure2_slot4;
                 entity = entity.current;
-                if(!(mike !== entity)) { _fun00002_ip = 105; continue _fun00001 }
+                if(!(mike !== entity)) { _fun00002_ip = 103; continue _fun00001 }
  27:
                 mike = _closure2_slot3;
                 report = _closure1_slot0;
@@ -116,7 +116,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 entity = report.bind(entity)(tango);
                 entity = entity.AppStates;
                 entity = entity.ACTIVE;
-                if(!(mike === entity)) { _fun00002_ip = 105; continue _fun00001 }
+                if(!(mike === entity)) { _fun00002_ip = 103; continue _fun00001 }
  72:
                 entity = function() {
                     tango = _closure1_slot3;
@@ -207,7 +207,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 zulu = _closure2_slot3;
                 tango['current'] = zulu;
                 entity = entity.bind(mike)();
- 105:
+ 103:
                 entity = undefined;
                 return entity;
             }

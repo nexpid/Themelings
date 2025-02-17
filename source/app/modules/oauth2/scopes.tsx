@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.IDENTIFY;
-            if(!(mike !== zulu)) { _fun00002_ip = 4415; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4507; continue _fun00001 }
  50:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.OPENID;
-            if(!(mike !== zulu)) { _fun00002_ip = 4351; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4441; continue _fun00001 }
  86:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.EMAIL;
-            if(!(mike !== zulu)) { _fun00002_ip = 4287; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4375; continue _fun00001 }
  122:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.BOT;
-            if(!(mike !== zulu)) { _fun00002_ip = 4223; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4309; continue _fun00001 }
  158:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.CONNECTIONS;
-            if(!(mike !== zulu)) { _fun00002_ip = 4159; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4243; continue _fun00001 }
  194:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.MESSAGES_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 4095; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4177; continue _fun00001 }
  230:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -448,7 +448,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GUILDS;
-            if(!(mike !== zulu)) { _fun00002_ip = 4031; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4111; continue _fun00001 }
  266:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GUILDS_JOIN;
-            if(!(mike !== zulu)) { _fun00002_ip = 3967; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 4045; continue _fun00001 }
  302:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GUILDS_MEMBERS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3837; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3911; continue _fun00001 }
  338:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GUILDS_CHANNELS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3773; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3845; continue _fun00001 }
  374:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GDM_JOIN;
-            if(!(mike !== zulu)) { _fun00002_ip = 3709; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3779; continue _fun00001 }
  410:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC;
-            if(!(mike !== zulu)) { _fun00002_ip = 3645; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3713; continue _fun00001 }
  446:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -496,7 +496,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_NOTIFICATIONS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3581; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3647; continue _fun00001 }
  482:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_VOICE_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 3517; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3581; continue _fun00001 }
  518:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -512,7 +512,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_VIDEO_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3453; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3515; continue _fun00001 }
  554:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_VIDEO_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 3389; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3449; continue _fun00001 }
  590:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_SCREENSHARE_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3325; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3383; continue _fun00001 }
  626:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_SCREENSHARE_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 3261; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3317; continue _fun00001 }
  662:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_VOICE_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3197; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3251; continue _fun00001 }
  698:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RPC_ACTIVITIES_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 3133; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3185; continue _fun00001 }
  734:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -560,7 +560,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_BUILDS_UPLOAD;
-            if(!(mike !== zulu)) { _fun00002_ip = 3069; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3119; continue _fun00001 }
  770:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -568,7 +568,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_BUILDS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 3005; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 3053; continue _fun00001 }
  806:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_COMMANDS;
-            if(!(mike !== zulu)) { _fun00002_ip = 2941; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2987; continue _fun00001 }
  842:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -584,7 +584,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_COMMANDS_UPDATE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2877; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2921; continue _fun00001 }
  878:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -592,7 +592,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2813; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2855; continue _fun00001 }
  914:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_STORE_UPDATE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2749; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2789; continue _fun00001 }
  950:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -608,7 +608,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.APPLICATIONS_ENTITLEMENTS;
-            if(!(mike !== zulu)) { _fun00002_ip = 2685; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2723; continue _fun00001 }
  986:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.ACTIVITIES_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 2621; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2657; continue _fun00001 }
  1022:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -624,7 +624,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.ACTIVITIES_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2557; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2591; continue _fun00001 }
  1058:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -632,7 +632,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RELATIONSHIPS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 2493; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2525; continue _fun00001 }
  1094:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -640,7 +640,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.RELATIONSHIPS_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2429; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2459; continue _fun00001 }
  1130:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -648,7 +648,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.VOICE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2365; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2393; continue _fun00001 }
  1166:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -656,7 +656,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.DM_CHANNELS_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 2301; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2327; continue _fun00001 }
  1202:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -664,7 +664,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.ROLE_CONNECTIONS_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2237; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2261; continue _fun00001 }
  1238:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -672,7 +672,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.PRESENCES_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 2173; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2195; continue _fun00001 }
  1274:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.PRESENCES_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 2109; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2129; continue _fun00001 }
  1310:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -688,7 +688,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.DM_CHANNELS_MESSAGES_READ;
-            if(!(mike !== zulu)) { _fun00002_ip = 2045; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2063; continue _fun00001 }
  1346:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -696,7 +696,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.DM_CHANNELS_MESSAGES_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 1981; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1997; continue _fun00001 }
  1382:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -704,7 +704,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.GATEWAY_CONNECT;
-            if(!(mike !== zulu)) { _fun00002_ip = 1917; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1931; continue _fun00001 }
  1418:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.PAYMENT_SOURCES_COUNTRY_CODE;
-            if(!(mike !== zulu)) { _fun00002_ip = 1853; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1865; continue _fun00001 }
  1454:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -720,7 +720,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.bind(report)(mike);
             mike = mike.OAuth2Scopes;
             mike = mike.ACTIVITIES_INVITES_WRITE;
-            if(!(mike !== zulu)) { _fun00002_ip = 1789; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1799; continue _fun00001 }
  1490:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -789,7 +789,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(options)(zulu);
             mike[4] = zulu;
             return mike;
- 1789:
+ 1799:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -805,7 +805,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 1853:
+ 1865:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -821,7 +821,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 1917:
+ 1931:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -837,7 +837,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 1981:
+ 1997:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -853,7 +853,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2045:
+ 2063:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -869,7 +869,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2109:
+ 2129:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -885,7 +885,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2173:
+ 2195:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -901,7 +901,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2237:
+ 2261:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -917,7 +917,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2301:
+ 2327:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -933,7 +933,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2365:
+ 2393:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -949,7 +949,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2429:
+ 2459:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -965,7 +965,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2493:
+ 2525:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -981,7 +981,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2557:
+ 2591:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -997,7 +997,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2621:
+ 2657:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1013,7 +1013,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2685:
+ 2723:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1029,7 +1029,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2749:
+ 2789:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1045,7 +1045,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2813:
+ 2855:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1061,7 +1061,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2877:
+ 2921:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1077,7 +1077,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 2941:
+ 2987:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1093,7 +1093,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3005:
+ 3053:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1109,7 +1109,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3069:
+ 3119:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1125,7 +1125,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3133:
+ 3185:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1141,7 +1141,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3197:
+ 3251:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1157,7 +1157,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3261:
+ 3317:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1173,7 +1173,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3325:
+ 3383:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1189,7 +1189,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3389:
+ 3449:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1205,7 +1205,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3453:
+ 3515:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1221,7 +1221,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3517:
+ 3581:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1237,7 +1237,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3581:
+ 3647:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1253,7 +1253,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3645:
+ 3713:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1269,7 +1269,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3709:
+ 3779:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1285,7 +1285,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3773:
+ 3845:
             options = _closure1_slot0;
             verify = _closure1_slot1;
             mike = 0;
@@ -1301,7 +1301,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 3837:
+ 3911:
             zulu = tango.includes;
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -1320,22 +1320,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = options[zulu];
             zulu = golf.bind(report)(zulu);
             zulu = zulu.t;
-            if(mike) { _fun00002_ip = 3943; continue _fun00001 }
- 3922:
+            if(mike) { _fun00002_ip = 4019; continue _fun00001 }
+ 3996:
             mike = zulu.o6M1aW;
             golf = tango.bind(oscar)(mike);
             mike = new Array(1);
             mike[0] = golf;
-            _fun00002_ip = 3965; continue _fun00001;
- 3943:
+            _fun00002_ip = 4043; continue _fun00001;
+ 4019:
             zulu = zulu.OSvmfH;
             tango = tango.bind(oscar)(zulu);
             zulu = new Array(1);
             zulu[0] = tango;
             mike = zulu;
- 3965:
+ 4043:
             return mike;
- 3967:
+ 4045:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1351,7 +1351,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4031:
+ 4111:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1367,7 +1367,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4095:
+ 4177:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1383,7 +1383,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4159:
+ 4243:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1399,7 +1399,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4223:
+ 4309:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1415,7 +1415,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4287:
+ 4375:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1431,7 +1431,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4351:
+ 4441:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1447,7 +1447,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = zulu;
             return mike;
- 4415:
+ 4507:
             tango = _closure1_slot0;
             oscar = _closure1_slot1;
             entity = 0;
@@ -1480,7 +1480,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.OAuth2Scopes;
             entity = entity.DM_CHANNELS_MESSAGES_WRITE;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun00004_ip = 303; continue _fun00003 }
+            if(entity) { _fun00004_ip = 307; continue _fun00003 }
  56:
             zulu = tango.includes;
             report = _closure1_slot0;
@@ -1490,7 +1490,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.OAuth2Scopes;
             entity = entity.SDK_SOCIAL_LAYER;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun00004_ip = 303; continue _fun00003 }
+            if(entity) { _fun00004_ip = 307; continue _fun00003 }
  101:
             zulu = tango.includes;
             report = _closure1_slot0;
@@ -1500,7 +1500,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.OAuth2Scopes;
             entity = entity.MESSAGES_READ;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun00004_ip = 244; continue _fun00003 }
+            if(entity) { _fun00004_ip = 246; continue _fun00003 }
  143:
             zulu = tango.includes;
             report = _closure1_slot0;
@@ -1510,7 +1510,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.OAuth2Scopes;
             entity = entity.DM_CHANNELS_MESSAGES_READ;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun00004_ip = 244; continue _fun00003 }
+            if(entity) { _fun00004_ip = 246; continue _fun00003 }
  185:
             zulu = _closure1_slot0;
             golf = _closure1_slot1;
@@ -1525,8 +1525,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.TeL+Cg;
             entity = {};
             entity = tango.bind(report)(zulu, entity);
-            _fun00004_ip = 301; continue _fun00003;
- 244:
+            _fun00004_ip = 305; continue _fun00003;
+ 246:
             tango = _closure1_slot0;
             options = _closure1_slot1;
             zulu = 0;
@@ -1540,9 +1540,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = zulu.Soy7jI;
             zulu = {};
             entity = report.bind(golf)(tango, zulu);
- 301:
-            _fun00004_ip = 360; continue _fun00003;
- 303:
+ 305:
+            _fun00004_ip = 366; continue _fun00003;
+ 307:
             zulu = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 0;
@@ -1556,7 +1556,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = mike.o0GMBA;
             mike = {};
             entity = tango.bind(report)(zulu, mike);
- 360:
+ 366:
             return entity;
         }
     };

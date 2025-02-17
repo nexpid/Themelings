@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.linkedLobby;
             mike = foxtrot == entity;
             entity = null;
-            if(mike) { _fun00002_ip = 499; continue _fun00001 }
+            if(mike) { _fun00002_ip = 503; continue _fun00001 }
  99:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
             romeo = _closure1_slot5;
             yankee = {};
-            if(!(foxtrot == result)) { _fun00002_ip = 241; continue _fun00001 }
+            if(!(foxtrot == result)) { _fun00002_ip = 243; continue _fun00001 }
  184:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -129,8 +129,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.yQqVsr;
             backup = backup.bind(kilo)(foxtrot);
-            _fun00002_ip = 309; continue _fun00001;
- 241:
+            _fun00002_ip = 313; continue _fun00001;
+ 243:
             kilo = _closure1_slot0;
             echo = _closure1_slot2;
             foxtrot = 8;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.name;
             foxtrot['applicationName'] = result;
             backup = sizing.bind(output)(kilo, foxtrot);
- 309:
+ 313:
             foxtrot = new Array(3);
             foxtrot[0] = backup;
             backup = '  •  ';
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 499:
+ 503:
             return entity;
         }
     };

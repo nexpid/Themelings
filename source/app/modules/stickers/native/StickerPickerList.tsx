@@ -817,12 +817,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = source.bind(control)(echo, update);
             echo = entity == tango;
             entity = undefined;
-            if(echo) { _fun00002_ip = 992; continue _fun00001 }
- 987:
+            if(echo) { _fun00002_ip = 970; continue _fun00001 }
+ 965:
             entity = tango.length;
- 992:
-            if(!(zulu !== entity)) { _fun00002_ip = 1198; continue _fun00001 }
- 999:
+ 970:
+            if(!(zulu !== entity)) { _fun00002_ip = 1176; continue _fun00001 }
+ 977:
             tango = _closure1_slot12;
             zulu = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -865,8 +865,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['sectionHeaderSize'] = offset;
             entity['sectionFooterSize'] = verify;
             entity = tango.bind(report)(zulu, entity);
-            _fun00002_ip = 1245; continue _fun00001;
- 1198:
+            _fun00002_ip = 1223; continue _fun00001;
+ 1176:
             tango = _closure1_slot12;
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -878,7 +878,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['insetTop'] = golf;
             mike['insetBottom'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1245:
+ 1223:
             return entity;
         }
     };

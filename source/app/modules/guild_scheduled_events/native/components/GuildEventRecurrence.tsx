@@ -134,10 +134,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             oscar = entity == offset;
             mike = undefined;
-            if(oscar) { _fun00002_ip = 151; continue _fun00001 }
- 146:
+            if(oscar) { _fun00002_ip = 149; continue _fun00001 }
+ 144:
             mike = offset.id;
- 151:
+ 149:
             mike = zulu.bind(report)(verify, mike);
             oscar = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -196,26 +196,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = yankee[tango];
             oscar = oscar.bind(report)(tango);
             tango = oscar.useManageResourcePermissions;
-            if(!(entity != golf)) { _fun00002_ip = 272; continue _fun00001 }
- 269:
+            if(!(entity != golf)) { _fun00002_ip = 266; continue _fun00001 }
+ 263:
             zulu = golf;
- 272:
+ 266:
             zulu = tango.bind(oscar)(zulu);
             zulu = zulu.canManageGuildEvent;
             zulu = zulu.bind(report)(offset);
             _closure2_slot5 = zulu;
-            if(!(entity != offset)) { _fun00002_ip = 842; continue _fun00001 }
- 299:
-            if(!(entity == mike)) { _fun00002_ip = 305; continue _fun00001 }
- 303:
+            if(!(entity != offset)) { _fun00002_ip = 834; continue _fun00001 }
+ 293:
+            if(!(entity == mike)) { _fun00002_ip = 299; continue _fun00001 }
+ 297:
             mike = {};
- 305:
+ 299:
             mike = mike.is_canceled;
             romeo = report !== mike;
-            if(!romeo) { _fun00002_ip = 321; continue _fun00001 }
- 318:
+            if(!romeo) { _fun00002_ip = 315; continue _fun00001 }
+ 312:
             romeo = mike;
- 321:
+ 315:
             _closure2_slot6 = romeo;
             tango = _closure1_slot8;
             zulu = _closure1_slot0;
@@ -256,10 +256,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = golf;
             golf = undefined;
-            if(!options) { _fun00002_ip = 401; continue _fun00001 }
- 395:
+            if(!options) { _fun00002_ip = 393; continue _fun00001 }
+ 387:
             golf = sizing.active;
- 401:
+ 393:
             oscar[1] = golf;
             mike['style'] = oscar;
             options = _closure1_slot7;
@@ -285,8 +285,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             offset = sizing.actions;
             golf['style'] = offset;
-            if(!romeo) { _fun00002_ip = 610; continue _fun00001 }
- 510:
+            if(!romeo) { _fun00002_ip = 604; continue _fun00001 }
+ 502:
             output = _closure1_slot7;
             source = _closure1_slot0;
             control = _closure1_slot2;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = echo.bind(update)(result);
             offset['children'] = result;
             romeo = output.bind(report)(foxtrot, offset);
- 610:
+ 604:
             offset = new Array(2);
             offset[0] = romeo;
             foxtrot = _closure1_slot7;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 842:
+ 834:
             return entity;
         }
     };

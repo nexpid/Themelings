@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = report.theme;
             report = null;
-            if(!(golf === oscar)) { _fun00006_ip = 402; continue _fun00005 }
+            if(!(golf === oscar)) { _fun00006_ip = 398; continue _fun00005 }
  331:
             options = _closure1_slot6;
             golf = _closure1_slot3;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.bind(tango)(offset, verify);
             oscar['children'] = verify;
             report = options.bind(tango)(golf, oscar);
- 402:
+ 398:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

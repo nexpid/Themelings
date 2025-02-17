@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1052:
             romeo = !foxtrot;
  1055:
-            if(!romeo) { _fun00002_ip = 1576; continue _fun00001 }
+            if(!romeo) { _fun00002_ip = 1572; continue _fun00001 }
  1061:
             kilo = _closure1_slot15;
             backup = _closure1_slot5;
@@ -602,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.DISCOVERABLE;
             sizing = output.bind(result)(sizing);
             output = null;
-            if(!sizing) { _fun00002_ip = 1337; continue _fun00001 }
+            if(!sizing) { _fun00002_ip = 1335; continue _fun00001 }
  1115:
             update = _closure1_slot15;
             lima = _closure1_slot0;
@@ -677,19 +677,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source[1] = sequence;
             sizing['children'] = source;
             output = update.bind(tango)(result, sizing);
- 1337:
+ 1335:
             sizing = new Array(2);
             sizing[0] = output;
             output = target.presenceCount;
             result = echo != output;
             output = null;
-            if(!result) { _fun00002_ip = 1562; continue _fun00001 }
- 1363:
+            if(!result) { _fun00002_ip = 1558; continue _fun00001 }
+ 1361:
             result = target.memberCount;
             result = echo != result;
             output = null;
-            if(!result) { _fun00002_ip = 1562; continue _fun00001 }
- 1381:
+            if(!result) { _fun00002_ip = 1558; continue _fun00001 }
+ 1379:
             update = _closure1_slot15;
             result = _closure1_slot4;
             echo = result.Fragment;
@@ -728,11 +728,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source[1] = control;
             result['children'] = source;
             output = update.bind(tango)(echo, result);
- 1562:
+ 1558:
             sizing[1] = output;
             foxtrot['children'] = sizing;
             romeo = kilo.bind(tango)(backup, foxtrot);
- 1576:
+ 1572:
             yankee[3] = romeo;
             verify['children'] = yankee;
             verify = offset.bind(tango)(golf, verify);

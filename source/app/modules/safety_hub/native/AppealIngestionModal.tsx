@@ -848,7 +848,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  578:
             options = !verify;
  581:
-            if(!options) { _fun00006_ip = 1200; continue _fun00005 }
+            if(!options) { _fun00006_ip = 1198; continue _fun00005 }
  587:
             yankee = _closure1_slot12;
             offset = _closure1_slot0;
@@ -913,7 +913,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  833:
             romeo['text'] = kilo;
             romeo = backup.bind(tango)(foxtrot, romeo);
-            _fun00006_ip = 1190; continue _fun00005;
+            _fun00006_ip = 1188; continue _fun00005;
  848:
             kilo = _closure1_slot13;
             backup = _closure1_slot14;
@@ -943,8 +943,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(3);
             sizing[0] = result;
             output = output !== control;
-            if(!output) { _fun00006_ip = 1043; continue _fun00005 }
- 983:
+            if(!output) { _fun00006_ip = 1041; continue _fun00005 }
+ 981:
             source = _closure1_slot12;
             echo = _closure1_slot0;
             result = _closure1_slot3;
@@ -956,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['style'] = vacuum;
             result['children'] = control;
             output = source.bind(tango)(echo, result);
- 1043:
+ 1041:
             sizing[1] = output;
             echo = _closure1_slot12;
             control = _closure1_slot1;
@@ -989,10 +989,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[2] = output;
             foxtrot['children'] = sizing;
             romeo = kilo.bind(tango)(backup, foxtrot);
- 1190:
+ 1188:
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 1200:
+ 1198:
             golf[1] = options;
             oscar['children'] = golf;
             oscar = zulu.bind(tango)(mike, oscar);

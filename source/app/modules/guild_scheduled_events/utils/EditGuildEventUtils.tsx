@@ -448,46 +448,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['eventExceptions'] = tango;
             tango = _closure1_slot10;
             tango = tango.bind(oscar)(report);
-            if(!tango) { _fun00012_ip = 446; continue _fun00011 }
- 417:
+            if(!tango) { _fun00012_ip = 444; continue _fun00011 }
+ 415:
             tango = mike == report;
             options = undefined;
-            if(tango) { _fun00012_ip = 432; continue _fun00011 }
- 426:
+            if(tango) { _fun00012_ip = 430; continue _fun00011 }
+ 424:
             options = report.entity_type;
- 432:
+ 430:
             tango = _closure1_slot3;
             tango = tango.EXTERNAL;
-            if(!(options !== tango)) { _fun00012_ip = 538; continue _fun00011 }
- 446:
+            if(!(options !== tango)) { _fun00012_ip = 536; continue _fun00011 }
+ 444:
             tango = entity.channelId;
             tango = mike == tango;
-            if(!tango) { _fun00012_ip = 462; continue _fun00011 }
- 458:
+            if(!tango) { _fun00012_ip = 460; continue _fun00011 }
+ 456:
             tango = mike != golf;
- 462:
-            if(!tango) { _fun00012_ip = 585; continue _fun00011 }
- 465:
+ 460:
+            if(!tango) { _fun00012_ip = 583; continue _fun00011 }
+ 463:
             tango = golf.id;
             entity['channelId'] = tango;
             tango = golf.isGuildStageVoice;
             tango = tango.bind(golf)();
-            if(tango) { _fun00012_ip = 520; continue _fun00011 }
- 489:
+            if(tango) { _fun00012_ip = 518; continue _fun00011 }
+ 487:
             tango = golf.isGuildVoice;
             tango = tango.bind(golf)();
-            if(!tango) { _fun00012_ip = 585; continue _fun00011 }
- 502:
+            if(!tango) { _fun00012_ip = 583; continue _fun00011 }
+ 500:
             tango = _closure1_slot3;
             tango = tango.VOICE;
             entity['entityType'] = tango;
-            _fun00012_ip = 585; continue _fun00011;
- 520:
+            _fun00012_ip = 583; continue _fun00011;
+ 518:
             tango = _closure1_slot3;
             tango = tango.STAGE_INSTANCE;
             entity['entityType'] = tango;
-            _fun00012_ip = 585; continue _fun00011;
- 538:
+            _fun00012_ip = 583; continue _fun00011;
+ 536:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
             zulu = 3;
@@ -495,12 +495,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(oscar)(zulu);
             zulu = tango.getLocationFromEvent;
             zulu = zulu.bind(tango)(report);
-            if(!(mike != zulu)) { _fun00012_ip = 585; continue _fun00011 }
- 573:
+            if(!(mike != zulu)) { _fun00012_ip = 583; continue _fun00011 }
+ 571:
             mike = {};
             mike['location'] = zulu;
             entity['entityMetadata'] = mike;
- 585:
+ 583:
             return entity;
         }
     };

@@ -38,11 +38,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             report = _closure1_slot0;
             report = report.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(report !== oscar)) { _fun00002_ip = 347; continue _fun00001 }
+            if(!(report !== oscar)) { _fun00002_ip = 329; continue _fun00001 }
  60:
             report = _closure1_slot0;
             report = report.GUILD_VIEWED_CLICKSTREAM;
-            if(!(report !== oscar)) { _fun00002_ip = 277; continue _fun00001 }
+            if(!(report !== oscar)) { _fun00002_ip = 265; continue _fun00001 }
  77:
             zulu = _closure1_slot0;
             zulu = zulu.FRIENDS_LIST_VIEWED_CLICKSTREAM;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.bind(tango)(zulu);
             entity['now_playing_num_cards'] = zulu;
             return entity;
- 277:
+ 265:
             entity = {};
             report = tango.map;
             zulu = function(argFoo) {
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.bind(tango)(zulu);
             entity['rtc_states'] = zulu;
             return entity;
- 347:
+ 329:
             entity = {};
             report = tango.map;
             zulu = function(argFoo) {

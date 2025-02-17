@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.getRemoteSessionId;
             zulu = zulu.bind(tango)();
             oscar = null;
-            if(!(oscar == zulu)) { _fun00004_ip = 271; continue _fun00003 }
+            if(!(oscar == zulu)) { _fun00004_ip = 269; continue _fun00003 }
  32:
             zulu = entity.guildId;
             offset = entity.channelId;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot18;
             zulu = undefined;
             zulu = tango.bind(zulu)(zulu, offset);
-            if(zulu) { _fun00004_ip = 271; continue _fun00003 }
+            if(zulu) { _fun00004_ip = 269; continue _fun00003 }
  64:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  106:
             zulu = golf.forceMultiple;
  112:
-            if(zulu) { _fun00004_ip = 162; continue _fun00003 }
+            if(zulu) { _fun00004_ip = 160; continue _fun00003 }
  115:
             verify = _closure1_slot7;
             options = verify.getAllActiveStreamsForChannel;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = options.length;
             options = _closure1_slot17;
             zulu = verify >= options;
- 162:
+ 160:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             options = 12;
@@ -110,17 +110,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['streamKey'] = tango;
             options['allowMultiple'] = zulu;
             options = verify.bind(offset)(options);
-            if(zulu) { _fun00004_ip = 231; continue _fun00003 }
- 215:
+            if(zulu) { _fun00004_ip = 229; continue _fun00003 }
+ 213:
             oscar = oscar != golf;
-            if(!oscar) { _fun00004_ip = 228; continue _fun00003 }
- 222:
+            if(!oscar) { _fun00004_ip = 226; continue _fun00003 }
+ 220:
             oscar = golf.noFocus;
- 228:
+ 226:
             zulu = oscar;
- 231:
-            if(zulu) { _fun00004_ip = 271; continue _fun00003 }
- 234:
+ 229:
+            if(zulu) { _fun00004_ip = 269; continue _fun00003 }
+ 232:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
             mike = 16;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.selectParticipant;
             entity = entity.channelId;
             entity = mike.bind(zulu)(entity, tango);
- 271:
+ 269:
             entity = undefined;
             return entity;
         }

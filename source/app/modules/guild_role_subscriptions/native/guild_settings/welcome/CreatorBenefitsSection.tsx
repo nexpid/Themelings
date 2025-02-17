@@ -221,17 +221,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(backup)(kilo);
             kilo = _closure1_slot1;
             sizing = _closure1_slot2;
-            if(foxtrot) { _fun00006_ip = 289; continue _fun00005 }
- 275:
+            if(foxtrot) { _fun00006_ip = 291; continue _fun00005 }
+ 277:
             foxtrot = 13;
             foxtrot = sizing[foxtrot];
             foxtrot = kilo.bind(tango)(foxtrot);
-            _fun00006_ip = 301; continue _fun00005;
- 289:
+            _fun00006_ip = 303; continue _fun00005;
+ 291:
             backup = 12;
             backup = sizing[backup];
             foxtrot = kilo.bind(tango)(backup);
- 301:
+ 303:
             verify['avatarSource'] = foxtrot;
             yankee = romeo.bind(tango)(yankee, verify);
             verify = new Array(3);

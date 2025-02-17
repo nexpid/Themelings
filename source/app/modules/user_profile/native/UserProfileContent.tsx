@@ -534,7 +534,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = kilo.bind(tango)(verify, report);
             options['icon'] = report;
             report = null;
-            if(!(report == golf)) { _fun00008_ip = 366; continue _fun00007 }
+            if(!(report == golf)) { _fun00008_ip = 368; continue _fun00007 }
  309:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -548,8 +548,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.s5vZlZ;
             verify = kilo.bind(echo)(verify);
-            _fun00008_ip = 421; continue _fun00007;
- 366:
+            _fun00008_ip = 425; continue _fun00007;
+ 368:
             source = _closure1_slot0;
             control = _closure1_slot2;
             kilo = 21;
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.t;
             kilo = kilo.HmFaFB;
             verify = echo.bind(update)(kilo);
- 421:
+ 425:
             options['text'] = verify;
             verify = function() { // Original name: onPress
                 tango = _closure2_slot1;
@@ -593,8 +593,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['primaryButton'] = options;
             golf = report != golf;
             report = undefined;
-            if(!golf) { _fun00008_ip = 635; continue _fun00007 }
- 466:
+            if(!golf) { _fun00008_ip = 639; continue _fun00007 }
+ 470:
             options = _closure1_slot13;
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -653,7 +653,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['onPress'] = offset;
             oscar['grow'] = verify;
             report = options.bind(tango)(golf, oscar);
- 635:
+ 639:
             entity['secondaryButton'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

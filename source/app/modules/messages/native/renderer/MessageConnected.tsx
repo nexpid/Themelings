@@ -242,18 +242,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure1_slot5;
                     zulu = entity.LOADED;
                     entity = null;
-                    if(!(tango === zulu)) { _fun00008_ip = 139; continue _fun00007 }
- 134:
+                    if(!(tango === zulu)) { _fun00008_ip = 137; continue _fun00007 }
+ 132:
                     entity = mike.message;
- 139:
+ 137:
                     return entity;
                 }
             };
             report = undefined;
             oscar = entity.bind(report)(zulu);
             entity = null;
-            if(!(entity == oscar)) { _fun00006_ip = 136; continue _fun00005 }
- 42:
+            if(!(entity == oscar)) { _fun00006_ip = 134; continue _fun00005 }
+ 40:
             tango = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 9;
@@ -261,15 +261,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(report)(entity);
             entity = entity.bind(report)(zulu);
             tango = _closure1_slot6;
-            if(entity) { _fun00006_ip = 101; continue _fun00005 }
- 77:
+            if(entity) { _fun00006_ip = 99; continue _fun00005 }
+ 75:
             zulu = _closure1_slot8;
             entity = {};
             entity['row'] = golf;
             entity['isMentioningReply'] = options;
             entity = tango.bind(report)(zulu, entity);
-            _fun00006_ip = 134; continue _fun00005;
- 101:
+            _fun00006_ip = 132; continue _fun00005;
+ 99:
             zulu = _closure1_slot1;
             options = _closure1_slot2;
             mike = 10;
@@ -278,16 +278,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['row'] = golf;
             entity = tango.bind(report)(zulu, mike);
+ 132:
+            _fun00006_ip = 163; continue _fun00005;
  134:
-            _fun00006_ip = 165; continue _fun00005;
- 136:
             tango = _closure1_slot6;
             zulu = _closure1_slot7;
             mike = {};
             mike['row'] = golf;
             mike['starterMessage'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 165:
+ 163:
             return entity;
         }
     };

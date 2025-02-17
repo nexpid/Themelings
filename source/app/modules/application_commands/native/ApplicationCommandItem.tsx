@@ -133,10 +133,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             result = verify == offset;
             output = undefined;
-            if(result) { _fun00002_ip = 184; continue _fun00001 }
- 179:
+            if(result) { _fun00002_ip = 186; continue _fun00001 }
+ 181:
             output = offset.name;
- 184:
+ 186:
             options['applicationName'] = output;
             output = echo.displayDescription;
             options['commandDescription'] = output;
@@ -148,13 +148,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = yankee.applicationCommandItem;
             control = options;
             backup = copyDataProperties(control, source);
-            if(romeo) { _fun00002_ip = 244; continue _fun00001 }
- 240:
+            if(romeo) { _fun00002_ip = 246; continue _fun00001 }
+ 242:
             romeo = {};
-            _fun00002_ip = 250; continue _fun00001;
- 244:
+            _fun00002_ip = 252; continue _fun00001;
+ 246:
             romeo = yankee.highlightedApplicationCommandItem;
- 250:
+ 252:
             control = options;
             source = romeo;
             romeo = copyDataProperties(control, source);
@@ -162,12 +162,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 'button';
             entity['accessibilityRole'] = options;
             entity['onPress'] = report;
-            if(!golf) { _fun00002_ip = 283; continue _fun00001 }
- 279:
+            if(!golf) { _fun00002_ip = 285; continue _fun00001 }
+ 281:
             golf = verify != foxtrot;
- 283:
-            if(!golf) { _fun00002_ip = 332; continue _fun00001 }
- 286:
+ 285:
+            if(!golf) { _fun00002_ip = 334; continue _fun00001 }
+ 288:
             romeo = _closure1_slot5;
             options = _closure1_slot1;
             backup = _closure1_slot2;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['style'] = backup;
             report['source'] = foxtrot;
             golf = romeo.bind(tango)(options, report);
- 332:
+ 334:
             report = new Array(3);
             report[0] = golf;
             kilo = _closure1_slot6;
@@ -221,10 +221,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun00002_ip = 548; continue _fun00001 }
- 543:
+            if(yankee) { _fun00002_ip = 550; continue _fun00001 }
+ 545:
             verify = offset.name;
- 548:
+ 550:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[2] = oscar;

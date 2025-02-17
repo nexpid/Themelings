@@ -1193,7 +1193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = oscar.length;
                     oscar = 0;
                     oscar = oscar === golf;
-                    if(!oscar) { _fun00034_ip = 276; continue _fun00033 }
+                    if(!oscar) { _fun00034_ip = 278; continue _fun00033 }
  105:
                     verify = _closure1_slot14;
                     yankee = _closure1_slot0;
@@ -1232,7 +1232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset.noCommandsImage;
                     golf['imageStyle'] = offset;
                     oscar = verify.bind(entity)(options, golf);
- 276:
+ 278:
                     report[1] = oscar;
                     mike['children'] = report;
                     entity = tango.bind(entity)(zulu, mike);

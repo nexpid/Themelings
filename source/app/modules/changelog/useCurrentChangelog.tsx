@@ -132,14 +132,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = verify.bind(offset)(entity, options);
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 250; continue _fun00001 }
+            if(!(entity != zulu)) { _fun00002_ip = 246; continue _fun00001 }
+ 161:
+            if(!(entity == mike)) { _fun00002_ip = 179; continue _fun00001 }
  165:
-            if(!(entity == mike)) { _fun00002_ip = 183; continue _fun00001 }
- 169:
             entity = _closure1_slot6;
             entity = entity.LOADED_FAILURE;
-            if(!(golf !== entity)) { _fun00002_ip = 215; continue _fun00001 }
- 183:
+            if(!(golf !== entity)) { _fun00002_ip = 211; continue _fun00001 }
+ 179:
             entity = {};
             entity['id'] = zulu;
             entity['changelog'] = mike;
@@ -147,8 +147,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.NOT_LOADED;
             mike = golf !== mike;
             entity['loaded'] = mike;
-            _fun00002_ip = 248; continue _fun00001;
- 215:
+            _fun00002_ip = 244; continue _fun00001;
+ 211:
             mike = {};
             mike['id'] = zulu;
             mike['changelog'] = oscar;
@@ -157,13 +157,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report !== tango;
             mike['loaded'] = tango;
             entity = mike;
- 248:
-            _fun00002_ip = 269; continue _fun00001;
- 250:
+ 244:
+            _fun00002_ip = 265; continue _fun00001;
+ 246:
             mike = {'id': null, 'changelog': null, 'loaded': false};
             mike['id'] = zulu;
             entity = mike;
- 269:
+ 265:
             return entity;
         }
     };
@@ -249,8 +249,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = report.bind(oscar)(zulu, entity);
             entity = null;
             oscar = entity != romeo;
-            if(!oscar) { _fun00008_ip = 173; continue _fun00007 }
- 144:
+            if(!oscar) { _fun00008_ip = 167; continue _fun00007 }
+ 138:
             zulu = global;
             report = zulu.Object;
             zulu = report.keys;
@@ -258,10 +258,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = zulu.length;
             zulu = 0;
             oscar = zulu === report;
- 173:
+ 167:
             zulu = entity != romeo;
-            if(!zulu) { _fun00008_ip = 209; continue _fun00007 }
- 180:
+            if(!zulu) { _fun00008_ip = 203; continue _fun00007 }
+ 174:
             report = global;
             verify = report.Object;
             report = verify.keys;
@@ -269,11 +269,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = report.length;
             report = 0;
             zulu = verify > report;
- 209:
-            if(!zulu) { _fun00008_ip = 216; continue _fun00007 }
- 212:
+ 203:
+            if(!zulu) { _fun00008_ip = 210; continue _fun00007 }
+ 206:
             zulu = entity == golf;
- 216:
+ 210:
             verify = _closure1_slot0;
             report = _closure1_slot2;
             report = report[yankee];
@@ -296,33 +296,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(offset)(verify, options);
             options = mike.changelog;
             mike = mike.loaded;
-            if(!(entity != verify)) { _fun00008_ip = 339; continue _fun00007 }
- 307:
-            if(!(entity == options)) { _fun00008_ip = 314; continue _fun00007 }
- 311:
-            if(mike) { _fun00008_ip = 339; continue _fun00007 }
- 314:
+            if(!(entity != verify)) { _fun00008_ip = 331; continue _fun00007 }
+ 299:
+            if(!(entity == options)) { _fun00008_ip = 306; continue _fun00007 }
+ 303:
+            if(mike) { _fun00008_ip = 331; continue _fun00007 }
+ 306:
             entity = {};
             entity['id'] = verify;
             entity['changelog'] = options;
             entity['loaded'] = mike;
             mike = false;
             entity['clientTooOld'] = mike;
-            _fun00008_ip = 375; continue _fun00007;
- 339:
+            _fun00008_ip = 367; continue _fun00007;
+ 331:
             mike = {};
             mike['id'] = golf;
             mike['changelog'] = tango;
             tango = !oscar;
             tango = !tango;
-            if(oscar) { _fun00008_ip = 362; continue _fun00007 }
- 359:
+            if(oscar) { _fun00008_ip = 354; continue _fun00007 }
+ 351:
             tango = report;
- 362:
+ 354:
             mike['loaded'] = tango;
             mike['clientTooOld'] = zulu;
             entity = mike;
- 375:
+ 367:
             return entity;
         }
     };

@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.isCallActive;
             entity = argBar;
             entity = zulu.bind(report)(tango, entity);
-            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 61; continue _fun00001 }
  28:
             zulu = _closure1_slot3;
             mike = zulu.getParticipants;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             entity = zulu.bind(tango)(mike);
- 63:
+ 61:
             return entity;
         }
     };

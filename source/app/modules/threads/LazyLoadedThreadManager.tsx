@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = argFoo;
             var _closure2_slot0 = report;
             tango = null;
-            if(!(tango != report)) { _fun00002_ip = 508; continue _fun00001 }
+            if(!(tango != report)) { _fun00002_ip = 502; continue _fun00001 }
  18:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -22,22 +22,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = undefined;
             mike = oscar.bind(golf)(mike);
             mike = mike.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
-            if(!(report !== mike)) { _fun00002_ip = 488; continue _fun00001 }
+            if(!(report !== mike)) { _fun00002_ip = 482; continue _fun00001 }
  56:
             mike = _closure1_slot10;
             mike = mike.bind(golf)(report);
-            if(mike) { _fun00002_ip = 468; continue _fun00001 }
+            if(mike) { _fun00002_ip = 462; continue _fun00001 }
  71:
             oscar = _closure1_slot6;
             mike = oscar.getChannel;
             mike = mike.bind(oscar)(report);
-            if(!(tango == mike)) { _fun00002_ip = 448; continue _fun00001 }
+            if(!(tango == mike)) { _fun00002_ip = 442; continue _fun00001 }
  92:
             mike = function() { // Original name: initialize
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot12;
-                    if(mike) { _fun00004_ip = 63; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 61; continue _fun00003 }
  10:
                     mike = true;
                     _closure1_slot12 = mike;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         }
                     };
                     entity = zulu.bind(tango)(mike, entity);
- 63:
+ 61:
                     entity = undefined;
                     return entity;
                 }
@@ -86,18 +86,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot3;
             mike = oscar.isConnected;
             mike = mike.bind(oscar)();
-            if(mike) { _fun00002_ip = 140; continue _fun00001 }
- 120:
+            if(mike) { _fun00002_ip = 138; continue _fun00001 }
+ 118:
             mike = global;
             oscar = mike.Promise;
             mike = oscar.resolve;
             mike = mike.bind(oscar)();
             return mike;
- 140:
+ 138:
             mike = _closure1_slot11;
             mike = mike[report];
-            if(!(tango == mike)) { _fun00002_ip = 407; continue _fun00001 }
- 155:
+            if(!(tango == mike)) { _fun00002_ip = 401; continue _fun00001 }
+ 153:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
             tango = 8;
@@ -245,39 +245,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['promise'] = entity;
             tango[report] = zulu;
             return entity;
- 407:
+ 401:
             zulu = mike.type;
             entity = 'LOADING';
-            if(!(entity !== zulu)) { _fun00002_ip = 440; continue _fun00001 }
- 420:
+            if(!(entity !== zulu)) { _fun00002_ip = 434; continue _fun00001 }
+ 414:
             entity = global;
             zulu = entity.Promise;
             entity = zulu.resolve;
             entity = entity.bind(zulu)();
-            _fun00002_ip = 446; continue _fun00001;
- 440:
+            _fun00002_ip = 440; continue _fun00001;
+ 434:
             entity = mike.promise;
- 446:
+ 440:
             return entity;
- 448:
+ 442:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;
             entity = entity.bind(mike)();
             return entity;
- 468:
+ 462:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;
             entity = entity.bind(mike)();
             return entity;
- 488:
+ 482:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;
             entity = entity.bind(mike)();
             return entity;
- 508:
+ 502:
             entity = global;
             mike = entity.Promise;
             entity = mike.resolve;

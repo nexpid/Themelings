@@ -2990,15 +2990,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = undefined;
             offset = undefined;
             for(sizing in echo)
- 562:
+ 564:
             {
- 574:
+ 576:
                 golf = sizing;
                 report = _closure1_slot5;
                 verify = report[golf];
                 golf = source[verify];
-                if(backup == golf) { _fun00058_ip = 562; continue _fun00057 }
- 593:
+                if(backup == golf) { _fun00058_ip = 564; continue _fun00057 }
+ 595:
                 report = _closure1_slot51;
                 options = report.bind(oscar)(golf);
                 golf = options.bind(oscar)();
@@ -3006,15 +3006,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = golf;
                 romeo = options;
                 golf = foxtrot;
-                if(report) { _fun00058_ip = 562; continue _fun00057 }
- 623:
+                if(report) { _fun00058_ip = 564; continue _fun00057 }
+ 625:
                 sequence = golf.value;
                 report = sequence.toLocaleLowerCase;
                 record = report.bind(sequence)();
                 report = _closure1_slot54;
                 config = report.bind(oscar)(record, control, vacuum);
-                if(!(config > kilo)) { _fun00058_ip = 723; continue _fun00057 }
- 653:
+                if(!(config > kilo)) { _fun00058_ip = 725; continue _fun00057 }
+ 655:
                 sequence = entity.push;
                 report = {};
                 context = _closure1_slot35;
@@ -3030,7 +3030,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report['comparator'] = record;
                 report['sortable'] = record;
                 report = sequence.bind(entity)(report);
- 723:
+ 725:
                 sequence = options.bind(oscar)();
                 report = sequence.done;
                 foxtrot = sequence;
@@ -3038,11 +3038,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = record;
                 offset = config;
                 golf = foxtrot;
-                if(report) { _fun00058_ip = 562; continue _fun00057 }
- 753:
-                _fun00058_ip = 623; continue _fun00057;
+                if(report) { _fun00058_ip = 564; continue _fun00057 }
+ 755:
+                _fun00058_ip = 625; continue _fun00057;
             }
- 758:
+ 760:
             golf = _closure1_slot37;
             report = golf.getState;
             report = report.bind(golf)();
@@ -3128,10 +3128,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(oscar)(zulu);
             zulu = tango.bind(entity)(zulu);
             zulu = entity.length;
-            if(!(zulu > mike)) { _fun00058_ip = 838; continue _fun00057 }
- 832:
+            if(!(zulu > mike)) { _fun00058_ip = 840; continue _fun00057 }
+ 834:
             entity['length'] = mike;
- 838:
+ 840:
             return entity;
         }
     };

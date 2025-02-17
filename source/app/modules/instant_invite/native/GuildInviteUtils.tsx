@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = argFoo;
                     mike = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=7);
-                    if(options) { _fun00002_ip = 557; continue _fun00001 }
+                    if(options) { _fun00002_ip = 559; continue _fun00001 }
  18:
                     report = zulu;
                     var _closure4_slot0 = zulu;
@@ -61,8 +61,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = verify.bind(offset)(foxtrot, zulu, options);
                     golf = options;
                     offset = null;
-                    if(!(offset != options)) { _fun00002_ip = 424; continue _fun00001 }
- 194:
+                    if(!(offset != options)) { _fun00002_ip = 426; continue _fun00001 }
+ 196:
                     kilo = _closure1_slot1;
                     sizing = _closure1_slot2;
                     options = 20;
@@ -85,13 +85,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf['unique'] = zulu;
                     zulu = yankee;
                     zulu = verify.bind(foxtrot)(options, golf, zulu);
-                    SaveGenerator(address=299);
- 297:
-                    return zulu;
+                    SaveGenerator(address=301);
  299:
+                    return zulu;
+ 301:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 421; continue _fun00001 }
- 305:
+                    if(golf) { _fun00002_ip = 423; continue _fun00001 }
+ 307:
                     options = _closure1_slot1;
                     kilo = _closure1_slot2;
                     foxtrot = 22;
@@ -143,16 +143,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return entity;
                     };
                     oscar = options.bind(verify)(golf, oscar);
- 416: // try_end0
-                    _fun00002_ip = 554; continue _fun00001;
- 421:
+ 418: // try_end0
+                    _fun00002_ip = 556; continue _fun00001;
+ 423:
                     return zulu;
- 424: // try_start_1
+ 426: // try_start_1
                     zulu = global;
                     zulu = zulu.Error;
                     zulu = zulu.bind(mike)();
                     throw zulu;
- 438: // try_end1 // catch_target0 // catch_target1
+ 440: // try_end1 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
                     golf = _closure1_slot12;
                     oscar = report;
@@ -178,9 +178,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.fEptJC;
                     zulu = oscar.bind(golf)(zulu);
                     zulu = tango.bind(report)(zulu);
- 554:
+ 556:
                     return mike;
- 557:
+ 559:
                     return entity;
                 }
             };

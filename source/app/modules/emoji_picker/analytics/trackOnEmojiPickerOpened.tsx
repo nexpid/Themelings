@@ -158,11 +158,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             kilo = oscar == output;
             report = undefined;
-            if(kilo) { _fun00002_ip = 556; continue _fun00001 }
- 546:
+            if(kilo) { _fun00002_ip = 554; continue _fun00001 }
+ 544:
             kilo = output.getGuildId;
             report = kilo.bind(output)();
- 556:
+ 554:
             mike['guildId'] = report;
             mike['pickerIntention'] = verify;
             mike = zulu.bind(tango)(mike);
@@ -188,15 +188,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.trackWithMetadata;
             mike = _closure1_slot8;
             mike = mike.REACTION;
-            if(!(verify !== mike)) { _fun00002_ip = 690; continue _fun00001 }
- 678:
+            if(!(verify !== mike)) { _fun00002_ip = 688; continue _fun00001 }
+ 676:
             mike = _closure1_slot7;
             zulu = mike.EXPRESSION_PICKER_OPENED;
-            _fun00002_ip = 700; continue _fun00001;
- 690:
+            _fun00002_ip = 698; continue _fun00001;
+ 688:
             mike = _closure1_slot7;
             zulu = mike.REACTION_PICKER_OPENED;
- 700:
+ 698:
             mike = {};
             mike['width'] = sizing;
             sizing = _closure1_slot9;
@@ -311,22 +311,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot8;
             golf = golf.REACTION;
             golf = verify === golf;
-            if(!golf) { _fun00002_ip = 1081; continue _fun00001 }
- 1071:
+            if(!golf) { _fun00002_ip = 1067; continue _fun00001 }
+ 1057:
             verify = {};
             verify['is_burst'] = offset;
             golf = verify;
- 1081:
+ 1067:
             sequence = mike;
             vacuum = golf;
             golf = copyDataProperties(sequence, vacuum);
             oscar = oscar != options;
-            if(!oscar) { _fun00002_ip = 1108; continue _fun00001 }
- 1098:
+            if(!oscar) { _fun00002_ip = 1094; continue _fun00001 }
+ 1084:
             golf = {};
             golf['location_object'] = options;
             oscar = golf;
- 1108:
+ 1094:
             sequence = mike;
             vacuum = oscar;
             oscar = copyDataProperties(sequence, vacuum);

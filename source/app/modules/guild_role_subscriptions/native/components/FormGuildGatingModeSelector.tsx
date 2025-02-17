@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
-                if(mike) { _fun00002_ip = 324; continue _fun00001 }
+                if(mike) { _fun00002_ip = 328; continue _fun00001 }
  13:
                 zulu = _closure1_slot1;
                 output = _closure1_slot2;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = golf.bind(options)(oscar, report);
                 mike['children'] = report;
                 mike = zulu.bind(tango)(mike);
- 324:
+ 328:
                 zulu = _closure2_slot1;
                 entity = undefined;
                 mike = true;

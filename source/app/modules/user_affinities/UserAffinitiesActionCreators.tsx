@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.Promise;
             entity = zulu.resolve;
             entity = entity.bind(zulu)();
-            _fun00002_ip = 196; continue _fun00001;
+            _fun00002_ip = 192; continue _fun00001;
  56:
             tango = _closure1_slot1;
             options = _closure1_slot2;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = tango.bind(report)(zulu, mike);
- 196:
+ 192:
             return entity;
         }
     };
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.Promise;
             entity = zulu.resolve;
             entity = entity.bind(zulu)();
-            _fun00004_ip = 224; continue _fun00003;
+            _fun00004_ip = 220; continue _fun00003;
  84:
             tango = _closure1_slot1;
             options = _closure1_slot2;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = tango.bind(report)(zulu, mike);
- 224:
+ 220:
             return entity;
         }
     };

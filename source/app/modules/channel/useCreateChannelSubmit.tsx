@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         StartGenerator();
                         mike = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun00002_ip = 666; continue _fun00001 }
+                        if(zulu) { _fun00002_ip = 670; continue _fun00001 }
  13:
                         echo = mike.overwrites;
                         sizing = mike.bitrate;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return oscar;
  77:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun00002_ip = 663; continue _fun00001 }
+                        if(zulu) { _fun00002_ip = 667; continue _fun00001 }
  86:
                         zulu = _closure1_slot9;
                         zulu = zulu.PREMIUM_CHANNEL;
@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  317:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=13);
-                        if(backup) { _fun00002_ip = 486; continue _fun00001 }
+                        if(backup) { _fun00002_ip = 488; continue _fun00001 }
  326:
                         foxtrot = zulu;
-                        if(!(romeo != zulu)) { _fun00002_ip = 481; continue _fun00001 }
+                        if(!(romeo != zulu)) { _fun00002_ip = 483; continue _fun00001 }
  336:
                         foxtrot = foxtrot.body;
                         yankee = foxtrot;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         yankee = foxtrot.id;
                         offset = yankee;
                         options = foxtrot.guild_id;
-                        if(!(romeo != yankee)) { _fun00002_ip = 481; continue _fun00001 }
+                        if(!(romeo != yankee)) { _fun00002_ip = 483; continue _fun00001 }
  372:
                         kilo = _closure1_slot0;
                         echo = _closure1_slot3;
@@ -209,18 +209,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         yankee = sizing.bind(output)(kilo, yankee);
                         yankee = foxtrot.bind(backup)(yankee);
                         yankee = _closure2_slot0;
-                        if(!(romeo != yankee)) { _fun00002_ip = 481; continue _fun00001 }
- 471:
+                        if(!(romeo != yankee)) { _fun00002_ip = 483; continue _fun00001 }
+ 473:
                         yankee = _closure2_slot0;
                         options = yankee.bind(oscar)(offset, options);
- 481: // try_end0
-                        _fun00002_ip = 634; continue _fun00001;
- 486: // try_end1
+ 483: // try_end0
+                        _fun00002_ip = 638; continue _fun00001;
+ 488: // try_end1
                         offset = _closure2_slot1;
                         options = false;
                         options = offset.bind(oscar)(options);
                         return zulu;
- 500: // try_start_2 // catch_target0
+ 502: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=2);
                         foxtrot = _closure1_slot0;
                         backup = _closure1_slot3;
@@ -246,33 +246,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = null;
                         offset = options == zulu;
                         zulu = undefined;
-                        if(offset) { _fun00002_ip = 615; continue _fun00001 }
- 609:
+                        if(offset) { _fun00002_ip = 619; continue _fun00001 }
+ 613:
                         zulu = verify.errors;
- 615:
+ 619:
                         golf = zulu;
-                        if(!(options == zulu)) { _fun00002_ip = 626; continue _fun00001 }
- 622:
-                        zulu = {};
-                        _fun00002_ip = 629; continue _fun00001;
+                        if(!(options == zulu)) { _fun00002_ip = 630; continue _fun00001 }
  626:
+                        zulu = {};
+                        _fun00002_ip = 633; continue _fun00001;
+ 630:
                         zulu = golf;
- 629:
+ 633:
                         zulu = report.bind(oscar)(zulu);
- 634: // try_end2
+ 638: // try_end2
                         report = _closure2_slot1;
                         zulu = false;
                         zulu = report.bind(oscar)(zulu);
                         return oscar;
- 648: // catch_target1 // catch_target2
+ 652: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=2);
                         report = _closure2_slot1;
                         tango = false;
                         tango = report.bind(oscar)(tango);
                         throw zulu;
- 663:
+ 667:
                         return mike;
- 666:
+ 670:
                         return entity;
                     }
                 };

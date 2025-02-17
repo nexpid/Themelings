@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             if(!(offset === golf)) { _fun00002_ip = 171; continue _fun00001 }
  159:
             golf = mike.length;
-            if(!(offset !== golf)) { _fun00002_ip = 304; continue _fun00001 }
+            if(!(offset !== golf)) { _fun00002_ip = 308; continue _fun00001 }
  171:
             options = {};
             foxtrot = _closure1_slot0;
@@ -84,10 +84,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['title'] = verify;
             options['data'] = mike;
             golf[1] = options;
-            _fun00002_ip = 308; continue _fun00001;
- 304:
-            golf = new Array(0);
+            _fun00002_ip = 312; continue _fun00001;
  308:
+            golf = new Array(0);
+ 312:
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
             options = 14;
@@ -97,16 +97,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.bottom;
             zulu = zulu.length;
             yankee = offset === zulu;
-            if(yankee) { _fun00002_ip = 358; continue _fun00001 }
- 349:
+            if(yankee) { _fun00002_ip = 362; continue _fun00001 }
+ 353:
             mike = mike.length;
             yankee = offset === mike;
- 358:
+ 362:
             _closure2_slot3 = yankee;
-            if(!(offset !== entity)) { _fun00002_ip = 369; continue _fun00001 }
- 366:
+            if(!(offset !== entity)) { _fun00002_ip = 373; continue _fun00001 }
+ 370:
             verify = entity;
- 369:
+ 373:
             zulu = _closure1_slot7;
             mike = _closure1_slot0;
             options = _closure1_slot2;
@@ -139,10 +139,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['renderItem'] = options;
             options = {};
             offset = 0;
-            if(!yankee) { _fun00002_ip = 423; continue _fun00001 }
- 420:
+            if(!yankee) { _fun00002_ip = 427; continue _fun00001 }
+ 424:
             offset = 24;
- 423:
+ 427:
             options['paddingTop'] = offset;
             options['paddingBottom'] = verify;
             entity['contentContainerStyle'] = options;

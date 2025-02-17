@@ -326,8 +326,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
             backup = romeo.centerText;
             offset['style'] = backup;
-            if(sizing) { _fun00002_ip = 599; continue _fun00001 }
- 458:
+            if(sizing) { _fun00002_ip = 593; continue _fun00001 }
+ 450:
             output = _closure1_slot13;
             kilo = _closure1_slot12;
             backup = {};
@@ -359,8 +359,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source[2] = control;
             backup['children'] = source;
             backup = output.bind(tango)(kilo, backup);
-            _fun00002_ip = 654; continue _fun00001;
- 599:
+            _fun00002_ip = 648; continue _fun00001;
+ 593:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
             kilo = 14;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.t;
             kilo = kilo.1/gpFh;
             backup = output.bind(source)(kilo);
- 654:
+ 648:
             offset['children'] = backup;
             foxtrot = zulu.bind(tango)(foxtrot, offset);
             offset = new Array(2);
@@ -406,11 +406,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(foxtrot);
             kilo = foxtrot.TableRow;
             foxtrot = {};
-            if(!sizing) { _fun00002_ip = 799; continue _fun00001 }
- 793:
+            if(!sizing) { _fun00002_ip = 793; continue _fun00001 }
+ 787:
             sequence = null;
-            if(!(sequence == record)) { _fun00002_ip = 839; continue _fun00001 }
- 799:
+            if(!(sequence == record)) { _fun00002_ip = 833; continue _fun00001 }
+ 793:
             control = _closure1_slot14;
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -420,8 +420,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = result.UserIcon;
             result = {};
             result = control.bind(tango)(source, result);
-            _fun00002_ip = 922; continue _fun00001;
- 839:
+            _fun00002_ip = 916; continue _fun00001;
+ 833:
             vacuum = _closure1_slot14;
             control = _closure1_slot1;
             target = _closure1_slot2;
@@ -438,13 +438,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source['user'] = record;
             context = sequence == config;
             sequence = undefined;
-            if(context) { _fun00002_ip = 912; continue _fun00001 }
- 907:
+            if(context) { _fun00002_ip = 906; continue _fun00001 }
+ 901:
             sequence = config.guild_id;
- 912:
+ 906:
             source['guildId'] = sequence;
             result = vacuum.bind(tango)(control, source);
- 922:
+ 916:
             foxtrot['icon'] = result;
             control = _closure1_slot0;
             result = _closure1_slot2;
@@ -461,10 +461,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = null;
             context = config == record;
             config = undefined;
-            if(context) { _fun00002_ip = 994; continue _fun00001 }
- 989:
+            if(context) { _fun00002_ip = 990; continue _fun00001 }
+ 985:
             config = record.username;
- 994:
+ 990:
             result['userName'] = config;
             result = vacuum.bind(sequence)(control, result);
             foxtrot['label'] = result;
@@ -653,13 +653,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo[source];
             echo = update.bind(tango)(echo);
             echo = echo.t;
-            if(sizing) { _fun00002_ip = 1367; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 1369; continue _fun00001 }
  1359:
             sizing = echo.Z+/hfX;
-            _fun00002_ip = 1373; continue _fun00001;
- 1367:
+            _fun00002_ip = 1377; continue _fun00001;
+ 1369:
             sizing = echo.bCcJSU;
- 1373:
+ 1377:
             sizing = output.bind(result)(sizing);
             foxtrot['text'] = sizing;
             foxtrot = kilo.bind(tango)(backup, foxtrot);

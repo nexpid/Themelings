@@ -319,16 +319,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.customRules;
             mike = mike.lheading;
             mike = typeof mike;
-            if(!(report !== mike)) { _fun00006_ip = 623; continue _fun00005 }
- 592:
+            if(!(report !== mike)) { _fun00006_ip = 617; continue _fun00005 }
+ 586:
             verify = _closure1_slot0;
             mike = _closure1_slot2;
             mike = mike[options];
             mike = verify.bind(golf)(mike);
             mike = mike.customRules;
             mike = mike.lheading;
-            _fun00006_ip = 657; continue _fun00005;
- 623:
+            _fun00006_ip = 651; continue _fun00005;
+ 617:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
             verify = verify[options];
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = verify.customRules;
             verify = offset.lheading;
             mike = verify.bind(offset)(oscar);
- 657:
+ 651:
             foxtrot = zulu;
             romeo = mike;
             mike = copyDataProperties(foxtrot, romeo);
@@ -353,16 +353,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.customRules;
             mike = mike.heading;
             mike = typeof mike;
-            if(!(report !== mike)) { _fun00006_ip = 756; continue _fun00005 }
- 725:
+            if(!(report !== mike)) { _fun00006_ip = 750; continue _fun00005 }
+ 719:
             verify = _closure1_slot0;
             mike = _closure1_slot2;
             mike = mike[options];
             mike = verify.bind(golf)(mike);
             mike = mike.customRules;
             mike = mike.heading;
-            _fun00006_ip = 790; continue _fun00005;
- 756:
+            _fun00006_ip = 784; continue _fun00005;
+ 750:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
             verify = verify[options];
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = verify.customRules;
             verify = offset.heading;
             mike = verify.bind(offset)(oscar);
- 790:
+ 784:
             foxtrot = zulu;
             romeo = mike;
             mike = copyDataProperties(foxtrot, romeo);
@@ -387,16 +387,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.customRules;
             mike = mike.blockQuote;
             mike = typeof mike;
-            if(!(report !== mike)) { _fun00006_ip = 889; continue _fun00005 }
- 858:
+            if(!(report !== mike)) { _fun00006_ip = 883; continue _fun00005 }
+ 852:
             verify = _closure1_slot0;
             mike = _closure1_slot2;
             mike = mike[options];
             mike = verify.bind(golf)(mike);
             mike = mike.customRules;
             mike = mike.blockQuote;
-            _fun00006_ip = 923; continue _fun00005;
- 889:
+            _fun00006_ip = 917; continue _fun00005;
+ 883:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
             verify = verify[options];
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = verify.customRules;
             verify = offset.blockQuote;
             mike = verify.bind(offset)(oscar);
- 923:
+ 917:
             foxtrot = zulu;
             romeo = mike;
             mike = copyDataProperties(foxtrot, romeo);
@@ -421,16 +421,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.customRules;
             mike = mike.paragraph;
             mike = typeof mike;
-            if(!(report !== mike)) { _fun00006_ip = 1022; continue _fun00005 }
- 991:
+            if(!(report !== mike)) { _fun00006_ip = 1016; continue _fun00005 }
+ 985:
             report = _closure1_slot0;
             mike = _closure1_slot2;
             mike = mike[options];
             mike = report.bind(golf)(mike);
             mike = mike.customRules;
             mike = mike.paragraph;
-            _fun00006_ip = 1056; continue _fun00005;
- 1022:
+            _fun00006_ip = 1050; continue _fun00005;
+ 1016:
             report = _closure1_slot0;
             tango = _closure1_slot2;
             tango = tango[options];
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.customRules;
             tango = report.paragraph;
             mike = tango.bind(report)(oscar);
- 1056:
+ 1050:
             foxtrot = zulu;
             romeo = mike;
             mike = copyDataProperties(foxtrot, romeo);

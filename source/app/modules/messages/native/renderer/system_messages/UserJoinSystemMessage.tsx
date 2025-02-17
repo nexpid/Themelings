@@ -97,10 +97,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             offset = mike == verify;
             mike = undefined;
-            if(offset) { _fun00002_ip = 193; continue _fun00001 }
- 188:
+            if(offset) { _fun00002_ip = 191; continue _fun00001 }
+ 186:
             mike = verify.guild_id;
- 193:
+ 191:
             offset = oscar.bind(options)(mike);
             mike = _closure1_slot1;
             verify = _closure1_slot2;

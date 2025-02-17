@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 102; continue _fun00003 }
+                        if(mike) { _fun00004_ip = 100; continue _fun00003 }
  9:
                         tango = _closure1_slot5;
                         var _closure4_slot0 = tango;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  42:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun00004_ip = 81; continue _fun00003 }
+                        if(oscar) { _fun00004_ip = 79; continue _fun00003 }
  48:
                         _closure4_slot0 = mike;
  52: // try_end0
@@ -52,15 +52,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         };
                         zulu = tango.bind(report)(zulu);
                         return zulu;
- 81:
+ 79:
                         return mike;
- 84: // catch_target0
+ 82: // catch_target0
                         CatchBlockStart(arg_register=1);
                         zulu = _closure2_slot0;
                         mike = undefined;
                         mike = zulu.bind(mike)();
                         return mike;
- 102:
+ 100:
                         return entity;
                     }
                 };
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = oscar.isAndroid;
         report = report.bind(oscar)();
         oscar = -1;
-        if(report) { _fun00002_ip = 146; continue _fun00001 }
- 134:
+        if(report) { _fun00002_ip = 144; continue _fun00001 }
+ 132:
         tango = tango.DCDBackgroundTaskManager;
         oscar = tango.backgroundTaskIdentifierInvalid;
- 146:
+ 144:
         var _closure1_slot5 = oscar;
         report = function(argFoo) { // Original name: startBackgroundTask
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

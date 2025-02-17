@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['type'] = options;
             mike['channelId'] = oscar;
             oscar = verify;
-            if(!golf) { _fun00002_ip = 96; continue _fun00001 }
+            if(!golf) { _fun00002_ip = 94; continue _fun00001 }
  77:
             options = verify.map;
             golf = function(argFoo) {
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             oscar = options.bind(verify)(golf);
- 96:
+ 94:
             mike['uploads'] = oscar;
             mike['draftType'] = report;
             mike = zulu.bind(tango)(mike);

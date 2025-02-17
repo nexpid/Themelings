@@ -157,10 +157,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             romeo = foxtrot.wumpus;
             verify['style'] = romeo;
             romeo = undefined;
-            if(!backup) { _fun00002_ip = 326; continue _fun00001 }
- 316:
+            if(!backup) { _fun00002_ip = 322; continue _fun00001 }
+ 312:
             romeo = 0.8;
- 326:
+ 322:
             verify['progress'] = romeo;
             offset = yankee.bind(tango)(offset, verify);
             verify = new Array(3);
@@ -280,15 +280,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             echo = echo[sequence];
             echo = source.bind(tango)(echo);
             source = echo.t;
-            if(output) { _fun00002_ip = 808; continue _fun00001 }
- 795:
+            if(output) { _fun00002_ip = 812; continue _fun00001 }
+ 799:
             echo = source.ZcgDJS;
             echo = control.bind(vacuum)(echo);
-            _fun00002_ip = 819; continue _fun00001;
- 808:
+            _fun00002_ip = 823; continue _fun00001;
+ 812:
             source = source.RscU7O;
             echo = control.bind(vacuum)(source);
- 819:
+ 823:
             backup['text'] = echo;
             result = function() { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -373,19 +373,19 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             echo = _closure1_slot12;
             source = _closure1_slot0;
             control = _closure1_slot2;
-            if(output) { _fun00002_ip = 871; continue _fun00001 }
- 851:
+            if(output) { _fun00002_ip = 873; continue _fun00001 }
+ 853:
             output = 21;
             output = control[output];
             output = source.bind(tango)(output);
             result = output.PauseIcon;
-            _fun00002_ip = 889; continue _fun00001;
- 871:
+            _fun00002_ip = 891; continue _fun00001;
+ 873:
             output = 20;
             output = control[output];
             output = source.bind(tango)(output);
             result = output.PlayIcon;
- 889:
+ 891:
             output = {};
             source = 'md';
             output['size'] = source;

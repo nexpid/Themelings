@@ -528,12 +528,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = entity != options;
                 tango = undefined;
                 sizing = undefined;
-                if(!mike) { _fun00012_ip = 182; continue _fun00011 }
+                if(!mike) { _fun00012_ip = 187; continue _fun00011 }
  52:
                 mike = '';
                 sizing = undefined;
-                if(!(mike !== options)) { _fun00012_ip = 182; continue _fun00011 }
- 62:
+                if(!(mike !== options)) { _fun00012_ip = 187; continue _fun00011 }
+ 65:
                 report = _closure1_slot1;
                 output = _closure1_slot2;
                 zulu = 18;
@@ -561,15 +561,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = romeo.bind(backup)(offset, verify);
                 mike['children'] = verify;
                 sizing = report.bind(tango)(zulu, mike);
- 182:
+ 187:
                 kilo = options;
-                if(yankee) { _fun00012_ip = 287; continue _fun00011 }
- 188:
-                if(!(entity != options)) { _fun00012_ip = 200; continue _fun00011 }
- 192:
+                if(yankee) { _fun00012_ip = 294; continue _fun00011 }
+ 193:
+                if(!(entity != options)) { _fun00012_ip = 205; continue _fun00011 }
+ 197:
                 mike = '';
-                if(!(mike === options)) { _fun00012_ip = 260; continue _fun00011 }
- 200:
+                if(!(mike === options)) { _fun00012_ip = 267; continue _fun00011 }
+ 205:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
                 mike = 17;
@@ -582,20 +582,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.t;
                 mike = mike.FaXGOz;
                 mike = zulu.bind(report)(mike);
-                _fun00012_ip = 284; continue _fun00011;
- 260:
+                _fun00012_ip = 291; continue _fun00011;
+ 267:
                 zulu = global;
                 zulu = zulu.HermesInternal;
                 report = zulu.concat;
                 zulu = 'discord.gg/';
                 mike = report.bind(zulu)(options);
- 284:
+ 291:
                 kilo = mike;
- 287:
+ 294:
                 mike = entity != golf;
                 result = undefined;
-                if(!mike) { _fun00012_ip = 381; continue _fun00011 }
- 296:
+                if(!mike) { _fun00012_ip = 388; continue _fun00011 }
+ 303:
                 report = _closure1_slot15;
                 zulu = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -615,31 +615,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = options.bind(verify)(golf);
                 mike['children'] = golf;
                 result = report.bind(tango)(zulu, mike);
- 381:
+ 388:
                 mike = entity == oscar;
                 zulu = undefined;
-                if(mike) { _fun00012_ip = 414; continue _fun00011 }
- 390:
+                if(mike) { _fun00012_ip = 421; continue _fun00011 }
+ 397:
                 report = oscar.hasFeature;
                 mike = _closure1_slot14;
                 mike = mike.GUILD_WEB_PAGE_VANITY_URL;
                 zulu = report.bind(oscar)(mike);
- 414:
+ 421:
                 mike = true;
                 output = mike === zulu;
-                if(!output) { _fun00012_ip = 460; continue _fun00011 }
- 423:
+                if(!output) { _fun00012_ip = 467; continue _fun00011 }
+ 430:
                 zulu = entity == oscar;
                 entity = undefined;
-                if(zulu) { _fun00012_ip = 456; continue _fun00011 }
- 432:
+                if(zulu) { _fun00012_ip = 463; continue _fun00011 }
+ 439:
                 report = oscar.hasFeature;
                 zulu = _closure1_slot14;
                 zulu = zulu.VANITY_URL;
                 entity = report.bind(oscar)(zulu);
- 456:
+ 463:
                 output = mike !== entity;
- 460:
+ 467:
                 zulu = _closure1_slot17;
                 mike = _closure1_slot8;
                 entity = {};
@@ -712,8 +712,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result['children'] = update;
                 result = golf.bind(tango)(echo, result);
                 backup[3] = result;
-                if(!output) { _fun00012_ip = 870; continue _fun00011 }
- 787:
+                if(!output) { _fun00012_ip = 885; continue _fun00011 }
+ 800:
                 update = _closure1_slot15;
                 sequence = _closure1_slot0;
                 source = _closure1_slot2;
@@ -732,7 +732,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source = control.bind(vacuum)(source);
                 result['children'] = source;
                 output = update.bind(tango)(echo, result);
- 870:
+ 885:
                 backup[4] = output;
                 backup[5] = sizing;
                 options['children'] = backup;

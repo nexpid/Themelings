@@ -188,20 +188,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 8;
             verify = _closure1_slot11;
             verify = verify.WIDE;
-            if(!(golf === verify)) { _fun00002_ip = 358; continue _fun00001 }
- 355:
+            if(!(golf === verify)) { _fun00002_ip = 362; continue _fun00001 }
+ 359:
             tango = 24;
- 358:
+ 362:
             mike['marginBottom'] = tango;
             tango = _closure1_slot11;
             tango = tango.NARROW;
             tango = golf === tango;
-            if(!tango) { _fun00002_ip = 388; continue _fun00001 }
- 379:
+            if(!tango) { _fun00002_ip = 392; continue _fun00001 }
+ 383:
             golf = {};
             golf['height'] = options;
             tango = golf;
- 388:
+ 392:
             romeo = mike;
             yankee = tango;
             tango = copyDataProperties(romeo, yankee);
@@ -979,10 +979,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.isIOS;
             verify = golf.bind(verify)();
             golf = undefined;
-            if(!verify) { _fun00006_ip = 1471; continue _fun00005 }
- 1468:
+            if(!verify) { _fun00006_ip = 1503; continue _fun00005 }
+ 1500:
             golf = options;
- 1471:
+ 1503:
             mike['buttonOnPress'] = golf;
             entity['memberPricing'] = mike;
             mike = {};

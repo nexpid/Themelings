@@ -390,11 +390,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.length;
             golf = golf.bind(verify)(mike, entity, offset);
             entity = zulu.length;
-            if(!(!(entity > tango))) { _fun00008_ip = 271; continue _fun00007 }
- 265:
+            if(!(!(entity > tango))) { _fun00008_ip = 273; continue _fun00007 }
+ 267:
             mike = new Array(0);
-            _fun00008_ip = 295; continue _fun00007;
- 271:
+            _fun00008_ip = 297; continue _fun00007;
+ 273:
             entity = new Array(1);
             entity[0] = options;
             sizing = entity;
@@ -402,18 +402,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar;
             zulu = arraySpread(sizing, kilo, backup);
             mike = entity;
- 295:
+ 297:
             entity = new Array(0);
             sizing = entity;
             kilo = mike;
             backup = 0;
             zulu = arraySpread(sizing, kilo, backup);
             mike = report.length;
-            if(!(!(mike > tango))) { _fun00008_ip = 326; continue _fun00007 }
- 320:
+            if(!(!(mike > tango))) { _fun00008_ip = 328; continue _fun00007 }
+ 322:
             mike = new Array(0);
-            _fun00008_ip = 350; continue _fun00007;
- 326:
+            _fun00008_ip = 352; continue _fun00007;
+ 328:
             tango = new Array(1);
             tango[0] = golf;
             sizing = tango;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar;
             report = arraySpread(sizing, kilo, backup);
             mike = tango;
- 350:
+ 352:
             sizing = entity;
             kilo = mike;
             backup = zulu;
@@ -1166,7 +1166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = zulu.bind(tango)(entity, mike);
             entity = null;
-            if(!(entity != backup)) { _fun00022_ip = 379; continue _fun00021 }
+            if(!(entity != backup)) { _fun00022_ip = 381; continue _fun00021 }
  226:
             mike = backup.getMaxEmojiSlots;
             golf = mike.bind(backup)();
@@ -1199,15 +1199,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = golf;
             golf = null;
-            if(verify) { _fun00022_ip = 363; continue _fun00021 }
- 360:
+            if(verify) { _fun00022_ip = 365; continue _fun00021 }
+ 362:
             golf = options;
- 363:
+ 365:
             oscar[1] = golf;
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 379:
+ 381:
             return entity;
         }
     };

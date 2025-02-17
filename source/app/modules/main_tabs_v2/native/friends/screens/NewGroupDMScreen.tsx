@@ -1379,7 +1379,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  882:
             report[1] = oscar;
             oscar = null;
-            if(!golf) { _fun00008_ip = 1027; continue _fun00007 }
+            if(!golf) { _fun00008_ip = 1029; continue _fun00007 }
  894:
             output = _closure1_slot17;
             options = _closure1_slot7;
@@ -1411,7 +1411,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = output.bind(tango)(echo, result);
             golf['children'] = result;
             oscar = output.bind(tango)(options, golf);
- 1027:
+ 1029:
             report[2] = oscar;
             options = _closure1_slot17;
             golf = _closure1_slot1;

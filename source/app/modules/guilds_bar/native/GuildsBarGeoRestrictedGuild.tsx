@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = options;
             oscar = zulu.bind(tango)(golf, oscar);
             entity['externalChildren'] = oscar;
-            if(!(report == offset)) { _fun00002_ip = 354; continue _fun00001 }
+            if(!(report == offset)) { _fun00002_ip = 350; continue _fun00001 }
  268:
             golf = _closure1_slot4;
             oscar = _closure1_slot1;
@@ -233,8 +233,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.LARGE;
             report['size'] = options;
             report = golf.bind(tango)(oscar, report);
-            _fun00002_ip = 411; continue _fun00001;
- 354:
+            _fun00002_ip = 407; continue _fun00001;
+ 350:
             options = _closure1_slot4;
             golf = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 0;
             oscar['fadeDuration'] = verify;
             report = options.bind(tango)(golf, oscar);
- 411:
+ 407:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

@@ -81,20 +81,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             report = oscar.bind(golf)(report, mike);
             mike = 88;
-            if(!tango) { _fun00002_ip = 114; continue _fun00001 }
- 110:
+            if(!tango) { _fun00002_ip = 112; continue _fun00001 }
+ 108:
             mike = _closure1_slot6;
- 114:
+ 112:
             entity = _closure1_slot5;
             mike = mike + entity;
             entity = 0;
-            if(!report) { _fun00002_ip = 135; continue _fun00001 }
- 127:
+            if(!report) { _fun00002_ip = 133; continue _fun00001 }
+ 125:
             entity = 0;
-            if(!zulu) { _fun00002_ip = 135; continue _fun00001 }
- 132:
+            if(!zulu) { _fun00002_ip = 133; continue _fun00001 }
+ 130:
             entity = 56;
- 135:
+ 133:
             entity = mike + entity;
             return entity;
         }

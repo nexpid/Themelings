@@ -94,37 +94,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         backup = null;
         offset = backup == tango;
         options = undefined;
-        if(offset) { _fun00002_ip = 140; continue _fun00001 }
- 113:
+        if(offset) { _fun00002_ip = 144; continue _fun00001 }
+ 117:
         tango = tango.DiscordNative;
         offset = backup == tango;
         options = undefined;
-        if(offset) { _fun00002_ip = 140; continue _fun00001 }
- 128:
+        if(offset) { _fun00002_ip = 144; continue _fun00001 }
+ 132:
         tango = tango.process;
         options = tango.platform;
- 140:
+ 144:
         tango = 'darwin';
         tango = tango !== options;
-        if(tango) { _fun00002_ip = 283; continue _fun00001 }
- 156:
+        if(tango) { _fun00002_ip = 287; continue _fun00001 }
+ 160:
         options = verify.window;
         yankee = backup == options;
         offset = undefined;
-        if(yankee) { _fun00002_ip = 198; continue _fun00001 }
- 171:
+        if(yankee) { _fun00002_ip = 202; continue _fun00001 }
+ 175:
         options = options.DiscordNative;
         yankee = backup == options;
         offset = undefined;
-        if(yankee) { _fun00002_ip = 198; continue _fun00001 }
- 186:
+        if(yankee) { _fun00002_ip = 202; continue _fun00001 }
+ 190:
         options = options.os;
         offset = options.arch;
- 198:
+ 202:
         options = 'arm64';
         options = options === offset;
-        if(!options) { _fun00002_ip = 280; continue _fun00001 }
- 211:
+        if(!options) { _fun00002_ip = 284; continue _fun00001 }
+ 215:
         offset = 1;
         yankee = oscar[offset];
         offset = argBaz;
@@ -133,20 +133,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         foxtrot = verify.window;
         kilo = backup == foxtrot;
         verify = undefined;
-        if(kilo) { _fun00002_ip = 274; continue _fun00001 }
- 247:
+        if(kilo) { _fun00002_ip = 278; continue _fun00001 }
+ 251:
         foxtrot = foxtrot.DiscordNative;
         backup = backup == foxtrot;
         verify = undefined;
-        if(backup) { _fun00002_ip = 274; continue _fun00001 }
- 262:
+        if(backup) { _fun00002_ip = 278; continue _fun00001 }
+ 266:
         foxtrot = foxtrot.os;
         verify = foxtrot.release;
- 274:
+ 278:
         options = offset.bind(yankee)(verify, romeo);
- 280:
+ 284:
         tango = options;
- 283:
+ 287:
         golf['encode'] = tango;
         tango = new Array(4);
         tango[0] = golf;

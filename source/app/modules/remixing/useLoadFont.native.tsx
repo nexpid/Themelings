@@ -244,10 +244,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(verify)(golf, oscar);
             report['current'] = mike;
             tango['current'] = entity;
-            if(!(zulu !== mike)) { _fun00004_ip = 210; continue _fun00003 }
- 207:
+            if(!(zulu !== mike)) { _fun00004_ip = 202; continue _fun00003 }
+ 199:
             entity = mike;
- 210:
+ 202:
             return entity;
         }
     };

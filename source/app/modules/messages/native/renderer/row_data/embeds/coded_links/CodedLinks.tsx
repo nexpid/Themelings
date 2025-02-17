@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             mike = tango == entity;
             entity = null;
-            if(mike) { _fun00004_ip = 123; continue _fun00003 }
+            if(mike) { _fun00004_ip = 121; continue _fun00003 }
  31:
             mike = golf.codedLinks;
             zulu = mike.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun00004_ip = 123; continue _fun00003 }
+            if(!(mike !== zulu)) { _fun00004_ip = 121; continue _fun00003 }
  50:
             report = _closure1_slot6;
             zulu = _closure1_slot1;
@@ -433,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.bind(options)(oscar);
             mike['children'] = oscar;
             entity = report.bind(tango)(zulu, mike);
- 123:
+ 121:
             return entity;
         }
     };
@@ -448,12 +448,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = tango;
             tango = zulu.author;
             zulu = null;
-            if(!(zulu != tango)) { _fun00008_ip = 73; continue _fun00007 }
+            if(!(zulu != tango)) { _fun00008_ip = 71; continue _fun00007 }
  31:
             zulu = mike.codedLinks;
             tango = zulu.length;
             zulu = 0;
-            if(!(zulu !== tango)) { _fun00008_ip = 73; continue _fun00007 }
+            if(!(zulu !== tango)) { _fun00008_ip = 71; continue _fun00007 }
  48:
             zulu = mike.codedLinks;
             mike = zulu.map;
@@ -784,10 +784,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             entity = mike.bind(zulu)(entity);
-            _fun00008_ip = 77; continue _fun00007;
- 73:
+            _fun00008_ip = 75; continue _fun00007;
+ 71:
             entity = new Array(0);
- 77:
+ 75:
             return entity;
         }
     };

@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             report = mike == entity;
             foxtrot = undefined;
-            if(report) { _fun00002_ip = 156; continue _fun00001 }
- 146:
+            if(report) { _fun00002_ip = 152; continue _fun00001 }
+ 142:
             report = entity.getGuildId;
             foxtrot = report.bind(entity)();
- 156:
+ 152:
             var _closure2_slot3 = foxtrot;
             verify = _closure1_slot0;
             options = _closure1_slot1;
@@ -198,8 +198,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             golf = yankee.bind(romeo)(verify, golf, options);
             mike = mike != golf;
-            if(!mike) { _fun00002_ip = 387; continue _fun00001 }
- 336:
+            if(!mike) { _fun00002_ip = 377; continue _fun00001 }
+ 326:
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
             options = 9;
@@ -211,25 +211,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.SUPPRESS_JOIN_NOTIFICATION_REPLIES;
             oscar = options.bind(verify)(golf, oscar);
             mike = !oscar;
- 387:
+ 377:
             zulu = zulu.author;
             zulu = zulu.bot;
-            if(!entity) { _fun00002_ip = 405; continue _fun00001 }
- 402:
+            if(!entity) { _fun00002_ip = 395; continue _fun00001 }
+ 392:
             entity = !report;
- 405:
-            if(!entity) { _fun00002_ip = 411; continue _fun00001 }
- 408:
+ 395:
+            if(!entity) { _fun00002_ip = 401; continue _fun00001 }
+ 398:
             entity = !tango;
- 411:
-            if(!entity) { _fun00002_ip = 417; continue _fun00001 }
- 414:
+ 401:
+            if(!entity) { _fun00002_ip = 407; continue _fun00001 }
+ 404:
             entity = !zulu;
- 417:
-            if(!entity) { _fun00002_ip = 423; continue _fun00001 }
- 420:
+ 407:
+            if(!entity) { _fun00002_ip = 413; continue _fun00001 }
+ 410:
             entity = mike;
- 423:
+ 413:
             return entity;
         }
     };

@@ -108,10 +108,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity == zulu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 92; continue _fun00001 }
- 87:
+            if(tango) { _fun00002_ip = 90; continue _fun00001 }
+ 85:
             entity = zulu.id;
- 92:
+ 90:
             var _closure2_slot2 = entity;
             entity = {};
             tango = _closure1_slot0;
@@ -218,31 +218,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             tango = report == verify;
             zulu = undefined;
-            if(tango) { _fun00010_ip = 128; continue _fun00009 }
- 107:
+            if(tango) { _fun00010_ip = 126; continue _fun00009 }
+ 105:
             options = verify.hasFeature;
             tango = _closure1_slot9;
             tango = tango.CREATOR_MONETIZABLE;
             zulu = options.bind(verify)(tango);
- 128:
-            if(zulu) { _fun00010_ip = 164; continue _fun00009 }
- 131:
+ 126:
+            if(zulu) { _fun00010_ip = 162; continue _fun00009 }
+ 129:
             options = report == verify;
             tango = undefined;
-            if(options) { _fun00010_ip = 161; continue _fun00009 }
- 140:
+            if(options) { _fun00010_ip = 159; continue _fun00009 }
+ 138:
             yankee = verify.hasFeature;
             options = _closure1_slot9;
             options = options.CREATOR_MONETIZABLE_PROVISIONAL;
             tango = yankee.bind(verify)(options);
- 161:
+ 159:
             zulu = tango;
- 164:
+ 162:
             zulu = !zulu;
-            if(zulu) { _fun00010_ip = 252; continue _fun00009 }
- 170:
-            if(mike) { _fun00010_ip = 206; continue _fun00009 }
- 173:
+            if(zulu) { _fun00010_ip = 250; continue _fun00009 }
+ 168:
+            if(mike) { _fun00010_ip = 204; continue _fun00009 }
+ 171:
             options = _closure1_slot0;
             yankee = _closure1_slot3;
             tango = 7;
@@ -250,26 +250,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(oscar)(tango);
             tango = options.isRestrictedFromShowingGuildPurchaseEntryPoints;
             tango = tango.bind(options)(offset);
-            _fun00010_ip = 249; continue _fun00009;
- 206:
+            _fun00010_ip = 247; continue _fun00009;
+ 204:
             options = report == verify;
             oscar = undefined;
-            if(options) { _fun00010_ip = 236; continue _fun00009 }
- 215:
+            if(options) { _fun00010_ip = 234; continue _fun00009 }
+ 213:
             options = verify.hasFeature;
             golf = _closure1_slot9;
             golf = golf.CREATOR_MONETIZABLE_RESTRICTED;
             oscar = options.bind(verify)(golf);
- 236:
+ 234:
             report = report == oscar;
-            if(report) { _fun00010_ip = 246; continue _fun00009 }
- 243:
+            if(report) { _fun00010_ip = 244; continue _fun00009 }
+ 241:
             report = oscar;
- 246:
+ 244:
             tango = report;
- 249:
+ 247:
             zulu = tango;
- 252:
+ 250:
             entity['shouldHideGuildPurchaseEntryPoints'] = zulu;
             entity['restrictionsLoading'] = mike;
             return entity;
@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(report)(oscar);
             golf = entity.restrictions;
             mike = entity.restrictionsLoading;
-            if(mike) { _fun00012_ip = 130; continue _fun00011 }
- 97:
+            if(mike) { _fun00012_ip = 128; continue _fun00011 }
+ 95:
             zulu = _closure1_slot0;
             options = _closure1_slot3;
             entity = 7;
@@ -314,42 +314,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(entity);
             entity = zulu.isRestrictedFromUpdatingCreatorMonetizationSettings;
             zulu = entity.bind(zulu)(golf);
-            _fun00012_ip = 175; continue _fun00011;
- 130:
+            _fun00012_ip = 173; continue _fun00011;
+ 128:
             entity = null;
             golf = entity == oscar;
             report = undefined;
-            if(golf) { _fun00012_ip = 162; continue _fun00011 }
- 141:
+            if(golf) { _fun00012_ip = 160; continue _fun00011 }
+ 139:
             options = oscar.hasFeature;
             golf = _closure1_slot9;
             golf = golf.CREATOR_MONETIZABLE_RESTRICTED;
             report = options.bind(oscar)(golf);
- 162:
+ 160:
             entity = entity == report;
-            if(entity) { _fun00012_ip = 172; continue _fun00011 }
- 169:
+            if(entity) { _fun00012_ip = 170; continue _fun00011 }
+ 167:
             entity = report;
- 172:
+ 170:
             zulu = entity;
- 175:
+ 173:
             entity = null;
             entity = entity == oscar;
-            if(entity) { _fun00012_ip = 208; continue _fun00011 }
- 184:
+            if(entity) { _fun00012_ip = 206; continue _fun00011 }
+ 182:
             report = oscar.hasFeature;
             tango = _closure1_slot9;
             tango = tango.CREATOR_MONETIZABLE_PENDING_NEW_OWNER_ONBOARDING;
             tango = report.bind(oscar)(tango);
             entity = !tango;
- 208:
+ 206:
             report = !entity;
             entity = {};
             tango = zulu;
-            if(tango) { _fun00012_ip = 222; continue _fun00011 }
- 219:
+            if(tango) { _fun00012_ip = 220; continue _fun00011 }
+ 217:
             tango = report;
- 222:
+ 220:
             entity['shouldRestrictUpdatingCreatorMonetizationSettings'] = tango;
             zulu = !zulu;
             entity['allowSelfRemoveMonetization'] = zulu;

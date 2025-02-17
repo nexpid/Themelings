@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == tango;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 40; continue _fun00001 }
+            if(zulu) { _fun00002_ip = 38; continue _fun00001 }
  23:
             zulu = tango.find;
             mike = function(argFoo) {
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = zulu.bind(tango)(mike);
- 40:
+ 38:
             return entity;
         }
     };

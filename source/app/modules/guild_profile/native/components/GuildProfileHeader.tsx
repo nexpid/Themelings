@@ -45,8 +45,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.GuildVisibility;
             entity = entity.PUBLIC;
             offset = options;
-            if(!(mike === entity)) { _fun00002_ip = 302; continue _fun00001 }
- 165:
+            if(!(mike === entity)) { _fun00002_ip = 306; continue _fun00001 }
+ 167:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
             options = entity[foxtrot];
@@ -65,24 +65,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(mike)(zulu);
             zulu = _closure1_slot1;
             golf = _closure1_slot2;
-            if(entity) { _fun00002_ip = 266; continue _fun00001 }
- 252:
+            if(entity) { _fun00002_ip = 270; continue _fun00001 }
+ 256:
             entity = 18;
             entity = golf[entity];
             entity = zulu.bind(tango)(entity);
-            _fun00002_ip = 278; continue _fun00001;
- 266:
+            _fun00002_ip = 282; continue _fun00001;
+ 270:
             mike = 17;
             mike = golf[mike];
             entity = zulu.bind(tango)(mike);
- 278:
+ 282:
             _closure2_slot0 = entity;
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 19;
             entity = zulu[entity];
             offset = mike.bind(tango)(entity);
- 302:
+ 306:
             zulu = _closure1_slot13;
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
@@ -910,10 +910,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.DISCOVERABLE;
             output = output.bind(source)(backup);
             backup = null;
-            if(!output) { _fun00004_ip = 2111; continue _fun00003 }
+            if(!output) { _fun00004_ip = 2109; continue _fun00003 }
  1877:
             backup = null;
-            if(kilo) { _fun00004_ip = 2111; continue _fun00003 }
+            if(kilo) { _fun00004_ip = 2109; continue _fun00003 }
  1885:
             output = _closure1_slot13;
             config = _closure1_slot0;
@@ -989,7 +989,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result[1] = echo;
             kilo['children'] = result;
             backup = output.bind(tango)(sizing, kilo);
- 2111:
+ 2109:
             foxtrot[2] = backup;
             offset['children'] = foxtrot;
             offset = romeo.bind(tango)(yankee, offset);

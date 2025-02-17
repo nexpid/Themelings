@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  14:
             tango = _closure1_slot11;
             mike = _closure1_slot12;
-            if(!(tango !== mike)) { _fun00010_ip = 86; continue _fun00009 }
+            if(!(tango !== mike)) { _fun00010_ip = 84; continue _fun00009 }
  29:
             mike = entity.query;
             if(!(zulu != mike)) { _fun00010_ip = 50; continue _fun00009 }
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _closure1_slot13 = mike;
             entity = undefined;
             return entity;
- 86:
+ 84:
             entity = false;
             return entity;
         }
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             if(!(mike == zulu)) { _fun00016_ip = 30; continue _fun00015 }
  21:
             zulu = new Array(0);
-            _fun00016_ip = 166; continue _fun00015;
+            _fun00016_ip = 168; continue _fun00015;
  30:
             mike = {};
             oscar = _closure1_slot7;
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = new Array(1);
             entity[0] = mike;
             zulu = entity;
- 166:
+ 168:
             mike = new Array(0);
             yankee = 0;
             foxtrot = mike;

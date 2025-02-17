@@ -281,8 +281,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['children'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             verify[2] = yankee;
-            if(!offset) { _fun00002_ip = 806; continue _fun00001 }
- 660:
+            if(!offset) { _fun00002_ip = 812; continue _fun00001 }
+ 664:
             foxtrot = _closure1_slot8;
             romeo = _closure1_slot4;
             yankee = {};
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = foxtrot.bind(tango)(kilo, backup);
             yankee['children'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 806:
+ 812:
             verify[3] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

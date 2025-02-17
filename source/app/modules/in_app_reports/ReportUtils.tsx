@@ -696,8 +696,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.MESSAGE;
-            if(!(options !== tango)) { _fun00018_ip = 1239; continue _fun00017 }
- 205:
+            if(!(options !== tango)) { _fun00018_ip = 1235; continue _fun00017 }
+ 201:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -705,8 +705,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.FIRST_DM;
-            if(!(options !== tango)) { _fun00018_ip = 1239; continue _fun00017 }
- 246:
+            if(!(options !== tango)) { _fun00018_ip = 1235; continue _fun00017 }
+ 242:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -714,8 +714,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.GUILD;
-            if(!(options !== tango)) { _fun00018_ip = 1181; continue _fun00017 }
- 287:
+            if(!(options !== tango)) { _fun00018_ip = 1177; continue _fun00017 }
+ 283:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -723,8 +723,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.GUILD_DISCOVERY;
-            if(!(options !== tango)) { _fun00018_ip = 1181; continue _fun00017 }
- 328:
+            if(!(options !== tango)) { _fun00018_ip = 1177; continue _fun00017 }
+ 324:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -732,8 +732,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.GUILD_DIRECTORY_ENTRY;
-            if(!(options !== tango)) { _fun00018_ip = 1109; continue _fun00017 }
- 369:
+            if(!(options !== tango)) { _fun00018_ip = 1105; continue _fun00017 }
+ 365:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -741,8 +741,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.STAGE_CHANNEL;
-            if(!(options !== tango)) { _fun00018_ip = 1023; continue _fun00017 }
- 410:
+            if(!(options !== tango)) { _fun00018_ip = 1019; continue _fun00017 }
+ 406:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -750,8 +750,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.GUILD_SCHEDULED_EVENT;
-            if(!(options !== tango)) { _fun00018_ip = 951; continue _fun00017 }
- 451:
+            if(!(options !== tango)) { _fun00018_ip = 947; continue _fun00017 }
+ 447:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -759,8 +759,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.ReportNames;
             tango = tango.USER;
-            if(!(options !== tango)) { _fun00018_ip = 875; continue _fun00017 }
- 492:
+            if(!(options !== tango)) { _fun00018_ip = 871; continue _fun00017 }
+ 488:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -768,8 +768,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.UnauthenticatedReportNames;
             tango = tango.USER;
-            if(!(options !== tango)) { _fun00018_ip = 790; continue _fun00017 }
- 533:
+            if(!(options !== tango)) { _fun00018_ip = 786; continue _fun00017 }
+ 529:
             options = mike.name;
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -777,8 +777,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = yankee.bind(verify)(tango);
             tango = tango.UnauthenticatedReportNames;
             tango = tango.MESSAGE;
-            if(!(options !== tango)) { _fun00018_ip = 720; continue _fun00017 }
- 574:
+            if(!(options !== tango)) { _fun00018_ip = 716; continue _fun00017 }
+ 570:
             tango = mike.name;
             options = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -787,8 +787,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = zulu.ReportNames;
             zulu = zulu.APPLICATION;
             entity = null;
-            if(!(tango === zulu)) { _fun00018_ip = 718; continue _fun00017 }
- 614:
+            if(!(tango === zulu)) { _fun00018_ip = 714; continue _fun00017 }
+ 610:
             zulu = {};
             foxtrot = zulu;
             romeo = oscar;
@@ -813,9 +813,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = 'entrypoint';
             zulu[tango] = options;
             entity = zulu;
- 718:
-            _fun00018_ip = 788; continue _fun00017;
- 720:
+ 714:
+            _fun00018_ip = 784; continue _fun00017;
+ 716:
             zulu = {};
             foxtrot = zulu;
             romeo = oscar;
@@ -833,9 +833,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = 'email_token';
             zulu[tango] = golf;
             entity = zulu;
- 788:
-            _fun00018_ip = 873; continue _fun00017;
- 790:
+ 784:
+            _fun00018_ip = 869; continue _fun00017;
+ 786:
             zulu = {};
             foxtrot = zulu;
             romeo = oscar;
@@ -856,9 +856,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = 'email_token';
             zulu[tango] = golf;
             entity = zulu;
- 873:
-            _fun00018_ip = 949; continue _fun00017;
- 875:
+ 869:
+            _fun00018_ip = 945; continue _fun00017;
+ 871:
             zulu = {};
             foxtrot = zulu;
             romeo = oscar;
@@ -877,9 +877,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = 'guild_id';
             zulu[tango] = golf;
             entity = zulu;
- 949:
+ 945:
             return entity;
- 951:
+ 947:
             entity = mike.record;
             tango = entity.id;
             golf = entity.guild_id;
@@ -898,7 +898,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = 'guild_scheduled_event_id';
             entity[zulu] = tango;
             return entity;
- 1023:
+ 1019:
             entity = mike.record;
             tango = entity.id;
             golf = entity.guild_id;
@@ -920,7 +920,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = 'stage_instance_id';
             entity[zulu] = tango;
             return entity;
- 1109:
+ 1105:
             entity = mike.record;
             tango = entity.guildId;
             golf = entity.channelId;
@@ -939,7 +939,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = 'guild_id';
             entity[zulu] = tango;
             return entity;
- 1181:
+ 1177:
             entity = mike.record;
             tango = entity.id;
             entity = {};
@@ -955,7 +955,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = 'guild_id';
             entity[zulu] = tango;
             return entity;
- 1239:
+ 1235:
             entity = mike.record;
             tango = entity.channel_id;
             zulu = entity.id;
@@ -1423,8 +1423,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 }
             };
             entity = tango.bind(golf)(entity);
-            if(entity) { _fun00030_ip = 60; continue _fun00029 }
- 42:
+            if(entity) { _fun00030_ip = 56; continue _fun00029 }
+ 40:
             tango = report.some;
             zulu = function(argFoo) {
                 _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
@@ -1467,23 +1467,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 }
             };
             entity = tango.bind(report)(zulu);
- 60:
-            if(entity) { _fun00030_ip = 131; continue _fun00029 }
- 63:
+ 56:
+            if(entity) { _fun00030_ip = 127; continue _fun00029 }
+ 59:
             zulu = null;
             report = zulu == mike;
             tango = undefined;
-            if(report) { _fun00030_ip = 80; continue _fun00029 }
- 74:
+            if(report) { _fun00030_ip = 76; continue _fun00029 }
+ 70:
             tango = mike.should_submit_data;
- 80:
+ 76:
             mike = true;
             mike = mike === tango;
-            if(!mike) { _fun00030_ip = 128; continue _fun00029 }
- 89:
+            if(!mike) { _fun00030_ip = 124; continue _fun00029 }
+ 85:
             zulu = zulu == oscar;
-            if(zulu) { _fun00030_ip = 125; continue _fun00029 }
- 96:
+            if(zulu) { _fun00030_ip = 121; continue _fun00029 }
+ 92:
             tango = global;
             report = tango.Object;
             tango = report.keys;
@@ -1491,11 +1491,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = tango.length;
             tango = 0;
             zulu = tango === report;
- 125:
+ 121:
             mike = zulu;
- 128:
+ 124:
             entity = mike;
- 131:
+ 127:
             return entity;
         }
     };

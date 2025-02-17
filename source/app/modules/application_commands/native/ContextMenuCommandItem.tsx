@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = null;
                     golf = golf == options;
                     oscar = undefined;
-                    if(golf) { _fun00004_ip = 164; continue _fun00003 }
- 155:
+                    if(golf) { _fun00004_ip = 166; continue _fun00003 }
+ 157:
                     golf = _closure2_slot1;
                     oscar = golf.name;
- 164:
+ 166:
                     entity['applicationName'] = oscar;
                     report = _closure2_slot0;
                     report = report.displayName;
@@ -210,8 +210,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.displayName;
             entity['label'] = golf;
             oscar = oscar != yankee;
-            if(!oscar) { _fun00002_ip = 216; continue _fun00001 }
- 170:
+            if(!oscar) { _fun00002_ip = 214; continue _fun00001 }
+ 168:
             offset = _closure1_slot5;
             verify = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = romeo;
             golf['source'] = yankee;
             oscar = offset.bind(tango)(verify, golf);
- 216:
+ 214:
             entity['leading'] = oscar;
             golf = _closure1_slot5;
             oscar = _closure1_slot7;

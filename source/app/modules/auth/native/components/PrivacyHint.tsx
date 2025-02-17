@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             report = undefined;
             foxtrot = mike.bind(report)();
-            if(entity) { _fun00002_ip = 187; continue _fun00001 }
+            if(entity) { _fun00002_ip = 189; continue _fun00001 }
  40:
             zulu = _closure1_slot4;
             oscar = _closure1_slot0;
@@ -98,8 +98,8 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = golf.bind(options)(oscar, tango);
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun00002_ip = 555; continue _fun00001;
- 187:
+            _fun00002_ip = 561; continue _fun00001;
+ 189:
             tango = _closure1_slot5;
             zulu = _closure1_slot2;
             mike = {};
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 555:
+ 561:
             return entity;
         }
     };

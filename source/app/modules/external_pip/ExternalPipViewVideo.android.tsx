@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup[offset];
             romeo = yankee.bind(tango)(romeo);
             foxtrot = romeo.intl;
-            if(verify) { _fun00002_ip = 244; continue _fun00001 }
+            if(verify) { _fun00002_ip = 246; continue _fun00001 }
  212:
             romeo = foxtrot.string;
             verify = backup[offset];
@@ -68,8 +68,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.Nzo5n5;
             verify = romeo.bind(foxtrot)(verify);
-            _fun00002_ip = 278; continue _fun00001;
- 244:
+            _fun00002_ip = 280; continue _fun00001;
+ 246:
             romeo = foxtrot.formatToMarkdownString;
             offset = backup[offset];
             offset = yankee.bind(tango)(offset);
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = offset.1Ww0Hh;
             offset = {};
             verify = romeo.bind(foxtrot)(yankee, offset);
- 278:
+ 280:
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
             report[1] = oscar;

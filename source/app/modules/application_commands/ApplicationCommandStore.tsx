@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  121:
             output = echo.id;
  126:
-            if(!(result !== output)) { _fun00008_ip = 323; continue _fun00007 }
+            if(!(result !== output)) { _fun00008_ip = 321; continue _fun00007 }
  133:
             foxtrot['activeCommand'] = yankee;
             foxtrot['activeCommandSection'] = sizing;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  208:
             kilo = yankee.options;
  213:
-            if(!(mike != kilo)) { _fun00008_ip = 239; continue _fun00007 }
+            if(!(mike != kilo)) { _fun00008_ip = 237; continue _fun00007 }
  217:
             sizing = yankee.options;
             kilo = sizing.forEach;
@@ -183,10 +183,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             backup = kilo.bind(sizing)(backup);
- 239:
+ 237:
             foxtrot['optionStates'] = romeo;
-            if(!(mike != yankee)) { _fun00008_ip = 319; continue _fun00007 }
- 249:
+            if(!(mike != yankee)) { _fun00008_ip = 317; continue _fun00007 }
+ 247:
             mike = _closure1_slot0;
             romeo = _closure1_slot1;
             entity = 8;
@@ -203,10 +203,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['searchResultsPosition'] = report;
             entity['source'] = tango;
             entity = mike.bind(zulu)(entity);
- 319:
+ 317:
             entity = true;
             return entity;
- 323:
+ 321:
             entity = false;
             return entity;
         }
@@ -617,12 +617,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = null;
                 report = entity == tango;
                 mike = undefined;
-                if(report) { _fun00016_ip = 71; continue _fun00015 }
+                if(report) { _fun00016_ip = 69; continue _fun00015 }
  40:
                 report = tango.options;
                 tango = entity == report;
                 mike = undefined;
-                if(tango) { _fun00016_ip = 71; continue _fun00015 }
+                if(tango) { _fun00016_ip = 69; continue _fun00015 }
  54:
                 tango = report.find;
                 zulu = function(argFoo) {
@@ -634,13 +634,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 mike = tango.bind(report)(zulu);
- 71:
+ 69:
                 zulu = entity != mike;
                 entity = null;
-                if(!zulu) { _fun00016_ip = 83; continue _fun00015 }
- 80:
+                if(!zulu) { _fun00016_ip = 81; continue _fun00015 }
+ 78:
                 entity = mike;
- 83:
+ 81:
                 return entity;
             }
         };
@@ -729,12 +729,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = null;
                 oscar = zulu == tango;
                 entity = undefined;
-                if(oscar) { _fun00018_ip = 74; continue _fun00017 }
+                if(oscar) { _fun00018_ip = 72; continue _fun00017 }
  43:
                 tango = tango.options;
                 zulu = zulu == tango;
                 entity = undefined;
-                if(zulu) { _fun00018_ip = 74; continue _fun00017 }
+                if(zulu) { _fun00018_ip = 72; continue _fun00017 }
  57:
                 zulu = tango.find;
                 mike = function(argFoo) {
@@ -745,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 entity = zulu.bind(tango)(mike);
- 74:
+ 72:
                 return entity;
             }
         };

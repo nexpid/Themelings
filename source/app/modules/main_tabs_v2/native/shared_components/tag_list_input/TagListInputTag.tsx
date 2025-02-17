@@ -169,8 +169,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify.icon;
             golf = null;
             report = golf != report;
-            if(!report) { _fun00002_ip = 285; continue _fun00001 }
- 250:
+            if(!report) { _fun00002_ip = 283; continue _fun00001 }
+ 248:
             offset = _closure1_slot4;
             options = _closure1_slot3;
             report = {};
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = verify.icon;
             report['children'] = romeo;
             golf = offset.bind(tango)(options, report);
- 285:
+ 283:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot4;
@@ -191,10 +191,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.Text;
             oscar = {'lineClamp': 1, 'variant': 'text-sm/semibold'};
             offset = 'interactive-active';
-            if(!yankee) { _fun00002_ip = 351; continue _fun00001 }
- 345:
+            if(!yankee) { _fun00002_ip = 349; continue _fun00001 }
+ 343:
             offset = 'always-white';
- 351:
+ 349:
             oscar['color'] = offset;
             verify = verify.text;
             oscar['children'] = verify;

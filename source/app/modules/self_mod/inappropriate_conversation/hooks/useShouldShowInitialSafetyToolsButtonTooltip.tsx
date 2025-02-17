@@ -55,10 +55,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike, entity);
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun00002_ip = 99; continue _fun00001 }
- 96:
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
+ 94:
             entity = !mike;
- 99:
+ 97:
             return entity;
         }
     };

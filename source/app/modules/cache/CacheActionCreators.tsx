@@ -17,7 +17,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     StartGenerator();
                     golf = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 173; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 171; continue _fun00001 }
  13:
                     report = undefined;
                     if(!(golf === report)) { _fun00002_ip = 21; continue _fun00001 }
@@ -29,23 +29,23 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     return report;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 170; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 168; continue _fun00001 }
  34:
                     oscar = _closure1_slot4;
                     zulu = oscar.canWriteCaches;
                     zulu = zulu.bind(oscar)(golf);
-                    if(!zulu) { _fun00002_ip = 161; continue _fun00001 }
+                    if(!zulu) { _fun00002_ip = 159; continue _fun00001 }
  57:
                     oscar = _closure1_slot3;
                     zulu = oscar.loadAllMissingChannels;
                     zulu = zulu.bind(oscar)();
-                    SaveGenerator(address=77);
- 75:
+                    SaveGenerator(address=75);
+ 73:
                     return zulu;
- 77:
+ 75:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 167; continue _fun00001 }
- 83:
+                    if(oscar) { _fun00002_ip = 165; continue _fun00001 }
+ 81:
                     golf = new Array(0);
                     oscar = _closure1_slot0;
                     options = _closure1_slot1;
@@ -62,21 +62,21 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     oscar = tango.Promise;
                     tango = oscar.all;
                     tango = tango.bind(oscar)(golf);
-                    SaveGenerator(address=155);
+                    SaveGenerator(address=153);
+ 151:
+                    return tango;
  153:
-                    return tango;
- 155:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 164; continue _fun00001 }
- 161:
+                    if(oscar) { _fun00002_ip = 162; continue _fun00001 }
+ 159:
                     return report;
- 164:
+ 162:
                     return tango;
- 167:
+ 165:
                     return zulu;
- 170:
+ 168:
                     return mike;
- 173:
+ 171:
                     return entity;
                 }
             };

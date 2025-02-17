@@ -92,8 +92,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(options)(entity, zulu);
             entity = null;
             mike = entity != mike;
-            if(!mike) { _fun00002_ip = 267; continue _fun00001 }
- 161:
+            if(!mike) { _fun00002_ip = 263; continue _fun00001 }
+ 157:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['header'] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 267:
+ 263:
             return entity;
         }
     };

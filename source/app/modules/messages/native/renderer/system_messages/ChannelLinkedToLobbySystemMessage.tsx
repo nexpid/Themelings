@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = yankee;
  87:
             mike = oscar.bind(offset)(mike);
-            if(!(entity != mike)) { _fun00002_ip = 445; continue _fun00001 }
+            if(!(entity != mike)) { _fun00002_ip = 447; continue _fun00001 }
  99:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = mike;
             zulu = copyDataProperties(kilo, backup);
             return mike;
- 445:
+ 447:
             return entity;
         }
     };

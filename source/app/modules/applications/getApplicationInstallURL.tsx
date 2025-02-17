@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = mike.installParams;
             verify = mike.integrationTypesConfig;
             zulu = null;
-            if(!(zulu == entity)) { _fun00004_ip = 269; continue _fun00003 }
+            if(!(zulu == entity)) { _fun00004_ip = 267; continue _fun00003 }
  35:
             mike = global;
             tango = mike.URLSearchParams;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = 'client_id';
             oscar = golf.bind(tango)(oscar, options);
             oscar = zulu != verify;
-            if(!oscar) { _fun00004_ip = 121; continue _fun00003 }
+            if(!oscar) { _fun00004_ip = 119; continue _fun00003 }
  85:
             options = mike.Object;
             golf = options.values;
@@ -124,28 +124,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 }
             };
             oscar = options.bind(verify)(golf);
- 121:
-            if(!(zulu != report)) { _fun00004_ip = 192; continue _fun00003 }
- 125:
-            if(oscar) { _fun00004_ip = 192; continue _fun00003 }
- 128:
+ 119:
+            if(!(zulu != report)) { _fun00004_ip = 190; continue _fun00003 }
+ 123:
+            if(oscar) { _fun00004_ip = 190; continue _fun00003 }
+ 126:
             options = report.permissions;
             golf = report.scopes;
-            if(!(zulu != options)) { _fun00004_ip = 159; continue _fun00003 }
- 144:
+            if(!(zulu != options)) { _fun00004_ip = 157; continue _fun00003 }
+ 142:
             oscar = tango.set;
             report = 'permissions';
             report = oscar.bind(tango)(report, options);
- 159:
-            if(!(zulu != golf)) { _fun00004_ip = 192; continue _fun00003 }
- 163:
+ 157:
+            if(!(zulu != golf)) { _fun00004_ip = 190; continue _fun00003 }
+ 161:
             oscar = tango.set;
             report = golf.join;
             zulu = ' ';
             report = report.bind(golf)(zulu);
             zulu = 'scope';
             zulu = oscar.bind(tango)(zulu, report);
- 192:
+ 190:
             zulu = mike.location;
             kilo = zulu.protocol;
             zulu = mike.location;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             yankee = '?';
             mike = sizing[report](kilo, backup, foxtrot, romeo, yankee, offset, verify);
             return mike;
- 269:
+ 267:
             return entity;
         }
     };

@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = report.bind(entity)(yankee);
         yankee = romeo.isAndroid;
         yankee = yankee.bind(romeo)();
-        if(!yankee) { _fun00002_ip = 259; continue _fun00001 }
- 253:
+        if(!yankee) { _fun00002_ip = 255; continue _fun00001 }
+ 249:
         offset = -2;
- 259:
+ 255:
         verify['marginTop'] = offset;
         tango['tagText'] = verify;
         tango = golf.bind(options)(tango);

@@ -373,16 +373,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = null;
                 report = zulu == tango;
                 mike = undefined;
-                if(report) { _fun00014_ip = 36; continue _fun00013 }
- 30:
+                if(report) { _fun00014_ip = 34; continue _fun00013 }
+ 28:
                 mike = tango.nickname;
- 36:
+ 34:
                 zulu = zulu != mike;
                 entity = undefined;
-                if(!zulu) { _fun00014_ip = 48; continue _fun00013 }
- 45:
+                if(!zulu) { _fun00014_ip = 46; continue _fun00013 }
+ 43:
                 entity = mike;
- 48:
+ 46:
                 return entity;
             }
         };

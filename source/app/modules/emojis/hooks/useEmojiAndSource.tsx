@@ -137,22 +137,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = null;
             tango = result != report;
             mike = result != report;
-            if(!mike) { _fun00002_ip = 161; continue _fun00001 }
- 140:
+            if(!mike) { _fun00002_ip = 159; continue _fun00001 }
+ 138:
             golf = report.hasFeature;
             oscar = _closure1_slot10;
             oscar = oscar.DISCOVERABLE;
             mike = golf.bind(report)(oscar);
- 161:
+ 159:
             yankee = !tango;
-            if(!tango) { _fun00002_ip = 170; continue _fun00001 }
- 167:
+            if(!tango) { _fun00002_ip = 168; continue _fun00001 }
+ 165:
             yankee = mike;
- 170:
-            if(!yankee) { _fun00002_ip = 177; continue _fun00001 }
- 173:
+ 168:
+            if(!yankee) { _fun00002_ip = 175; continue _fun00001 }
+ 171:
             yankee = result != foxtrot;
- 177:
+ 175:
             _closure2_slot2 = yankee;
             romeo = _closure1_slot4;
             mike = romeo.useState;
@@ -174,12 +174,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = result != report;
             romeo = yankee;
             kilo = null;
-            if(!options) { _fun00002_ip = 280; continue _fun00001 }
- 265:
+            if(!options) { _fun00002_ip = 278; continue _fun00001 }
+ 263:
             yankee = _closure1_slot7;
             options = yankee.createFromGuildRecord;
             kilo = options.bind(yankee)(report);
- 280:
+ 278:
             yankee = _closure1_slot4;
             options = yankee.useState;
             options = options.bind(yankee)(kilo);
@@ -313,19 +313,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = undefined;
                     mike = mike.bind(entity)();
                     tango = _closure2_slot2;
-                    if(tango) { _fun00006_ip = 81; continue _fun00005 }
- 53:
+                    if(tango) { _fun00006_ip = 79; continue _fun00005 }
+ 51:
                     tango = _closure2_slot7;
                     tango = tango.current;
-                    if(!(report != tango)) { _fun00006_ip = 85; continue _fun00005 }
- 66:
+                    if(!(report != tango)) { _fun00006_ip = 83; continue _fun00005 }
+ 64:
                     tango = _closure2_slot7;
                     zulu = tango.current;
                     zulu = zulu.bind(tango)();
-                    _fun00006_ip = 85; continue _fun00005;
- 81:
+                    _fun00006_ip = 83; continue _fun00005;
+ 79:
                     mike = mike.bind(entity)();
- 85:
+ 83:
                     return entity;
                 }
             };

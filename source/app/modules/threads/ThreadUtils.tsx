@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.collectThreadMetadata;
             echo = tango.bind(report)(offset);
             golf = null;
-            if(!(golf != echo)) { _fun00004_ip = 541; continue _fun00003 }
+            if(!(golf != echo)) { _fun00004_ip = 539; continue _fun00003 }
  51:
             tango = offset.getGuildId;
             kilo = tango.bind(offset)();
@@ -266,10 +266,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf != tango;
             foxtrot = 0;
             sizing = 0;
-            if(!report) { _fun00004_ip = 141; continue _fun00003 }
- 138:
+            if(!report) { _fun00004_ip = 139; continue _fun00003 }
+ 136:
             sizing = tango;
- 141:
+ 139:
             yankee = romeo.bind(entity)(sizing);
             update = _closure1_slot7;
             report = update.isMuted;
@@ -315,11 +315,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = 'old_thread_notification_setting';
             report[offset] = yankee;
             offset = zulu.flags;
-            if(!(golf != offset)) { _fun00004_ip = 371; continue _fun00003 }
- 361:
+            if(!(golf != offset)) { _fun00004_ip = 369; continue _fun00003 }
+ 359:
             offset = zulu.flags;
             yankee = romeo.bind(entity)(offset);
- 371:
+ 369:
             offset = 'new_thread_notification_setting';
             report[offset] = yankee;
             offset = oscar.channel_message_notification_settings;
@@ -328,17 +328,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = 'old_thread_is_muted';
             report[oscar] = verify;
             oscar = zulu.muted;
-            if(!(golf != oscar)) { _fun00004_ip = 423; continue _fun00003 }
- 420:
+            if(!(golf != oscar)) { _fun00004_ip = 421; continue _fun00003 }
+ 418:
             verify = oscar;
- 423:
+ 421:
             oscar = 'new_thread_is_muted';
             report[oscar] = verify;
             oscar = 'old_thread_muted_until';
             report[oscar] = tango;
             oscar = zulu.mute_config;
-            if(!(golf != oscar)) { _fun00004_ip = 489; continue _fun00003 }
- 455:
+            if(!(golf != oscar)) { _fun00004_ip = 487; continue _fun00003 }
+ 453:
             golf = _closure1_slot0;
             oscar = _closure1_slot2;
             oscar = oscar[options];
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf.muteConfigToTimestamp;
             zulu = zulu.mute_config;
             tango = oscar.bind(golf)(zulu);
- 489:
+ 487:
             zulu = 'new_thread_muted_until';
             report[zulu] = tango;
             tango = _closure1_slot1;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot9;
             mike = mike.THREAD_NOTIFICATION_SETTINGS_UPDATED;
             mike = zulu.bind(tango)(mike, report);
- 541:
+ 539:
             return entity;
         }
     };
@@ -390,8 +390,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             entity = tango != options;
             oscar = null;
-            if(!entity) { _fun00008_ip = 106; continue _fun00007 }
- 75:
+            if(!entity) { _fun00008_ip = 104; continue _fun00007 }
+ 73:
             golf = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 14;
@@ -399,18 +399,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(report)(entity);
             entity = golf.extractTimestamp;
             oscar = entity.bind(golf)(options);
- 106:
+ 104:
             entity = mike.threadMetadata;
             golf = tango == entity;
             options = undefined;
-            if(golf) { _fun00008_ip = 127; continue _fun00007 }
- 121:
+            if(golf) { _fun00008_ip = 125; continue _fun00007 }
+ 119:
             options = entity.createTimestamp;
- 127:
+ 125:
             golf = tango != options;
             entity = null;
-            if(!golf) { _fun00008_ip = 170; continue _fun00007 }
- 136:
+            if(!golf) { _fun00008_ip = 168; continue _fun00007 }
+ 134:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             golf = 15;
@@ -419,13 +419,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = golf.bind(report)(options);
             golf = options.valueOf;
             entity = golf.bind(options)();
- 170:
-            if(!(tango != oscar)) { _fun00008_ip = 177; continue _fun00007 }
- 174:
+ 168:
+            if(!(tango != oscar)) { _fun00008_ip = 175; continue _fun00007 }
+ 172:
             entity = oscar;
- 177:
-            if(!(tango == entity)) { _fun00008_ip = 217; continue _fun00007 }
- 181:
+ 175:
+            if(!(tango == entity)) { _fun00008_ip = 215; continue _fun00007 }
+ 179:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;
             zulu = 14;
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.extractTimestamp;
             mike = mike.id;
             entity = zulu.bind(tango)(mike);
- 217:
+ 215:
             return entity;
         }
     };

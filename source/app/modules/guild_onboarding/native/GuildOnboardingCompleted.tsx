@@ -615,9 +615,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot12;
             mike['__initData'] = oscar;
             vacuum = zulu.bind(tango)(mike);
-            if(!(entity != record)) { _fun00002_ip = 2270; continue _fun00001 }
+            if(!(entity != record)) { _fun00002_ip = 2278; continue _fun00001 }
  819:
-            if(!(entity != variable36)) { _fun00002_ip = 2270; continue _fun00001 }
+            if(!(entity != variable36)) { _fun00002_ip = 2278; continue _fun00001 }
  826:
             mike = sierra.length;
             status = 3;
@@ -713,10 +713,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = config.subtitle;
             backup['style'] = update;
             echo = entity == echo;
-            if(!echo) { _fun00002_ip = 1222; continue _fun00001 }
- 1216:
+            if(!echo) { _fun00002_ip = 1224; continue _fun00001 }
+ 1218:
             output = 'text-muted';
- 1222:
+ 1224:
             backup['color'] = output;
             update = _closure1_slot0;
             echo = _closure1_slot2;
@@ -768,8 +768,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = 0;
             update = variable39 > context;
             echo = null;
-            if(!update) { _fun00002_ip = 1571; continue _fun00001 }
- 1457:
+            if(!update) { _fun00002_ip = 1577; continue _fun00001 }
+ 1461:
             record = _closure1_slot9;
             equality = _closure1_slot0;
             papa = _closure1_slot2;
@@ -792,7 +792,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = quebec.bind(variable38)(equality, papa);
             update['children'] = papa;
             echo = record.bind(report)(source, update);
- 1571:
+ 1577:
             output[2] = echo;
             source = _closure1_slot10;
             update = _closure1_slot4;
@@ -849,8 +849,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = new Array(2);
             sequence[0] = record;
             record = null;
-            if(!(variable37 > context)) { _fun00002_ip = 1796; continue _fun00001 }
- 1686:
+            if(!(variable37 > context)) { _fun00002_ip = 1802; continue _fun00001 }
+ 1692:
             status = _closure1_slot9;
             papa = _closure1_slot4;
             context = {};
@@ -874,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = status.bind(report)(whiskey, sierra);
             context['children'] = sierra;
             record = status.bind(report)(papa, context);
- 1796:
+ 1802:
             sequence[1] = record;
             echo['children'] = sequence;
             echo = source.bind(report)(update, echo);
@@ -978,7 +978,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 2270:
+ 2278:
             return entity;
         }
     };

@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.FRIEND_REQUESTS_GROUPED;
-            if(!(tango !== report)) { _fun00004_ip = 1773; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1803; continue _fun00003 }
  187:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.MOBILE_NATIVE_UPDATE_AVAILABLE;
-            if(!(tango !== report)) { _fun00004_ip = 1687; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1717; continue _fun00003 }
  223:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterItems;
             tango = tango.FRIEND_SUGGESTION_CREATED;
-            if(!(tango !== report)) { _fun00004_ip = 1573; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1601; continue _fun00003 }
  259:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterItems;
             tango = tango.GUILD_SCHEDULED_EVENT_STARTED;
-            if(!(tango !== report)) { _fun00004_ip = 1304; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1330; continue _fun00003 }
  295:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.INCOMING_FRIEND_REQUESTS;
-            if(!(tango !== report)) { _fun00004_ip = 1162; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1182; continue _fun00003 }
  331:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-            if(!(tango !== report)) { _fun00004_ip = 1020; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 1034; continue _fun00003 }
  367:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterItems;
             tango = tango.FRIEND_REQUEST_ACCEPTED;
-            if(!(tango !== report)) { _fun00004_ip = 878; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 884; continue _fun00003 }
  403:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
-            if(!(tango !== report)) { _fun00004_ip = 747; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 751; continue _fun00003 }
  439:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = foxtrot.bind(options)(tango);
             tango = tango.NotificationCenterLocalItems;
             tango = tango.INCOMING_GAME_FRIEND_REQUESTS;
-            if(!(tango !== report)) { _fun00004_ip = 616; continue _fun00003 }
+            if(!(tango !== report)) { _fun00004_ip = 618; continue _fun00003 }
  475:
             foxtrot = _closure1_slot0;
             tango = _closure1_slot2;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  527:
             return tango;
  529:
-            if(!(zulu != romeo)) { _fun00004_ip = 609; continue _fun00003 }
+            if(!(zulu != romeo)) { _fun00004_ip = 611; continue _fun00003 }
  533:
             report = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -302,12 +302,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             tango['applicationName'] = sizing;
             tango = foxtrot.bind(backup)(report, tango);
-            _fun00004_ip = 614; continue _fun00003;
- 609:
+            _fun00004_ip = 616; continue _fun00003;
+ 611:
             tango = mike.body;
- 614:
-            return tango;
  616:
+            return tango;
+ 618:
             report = _closure1_slot1;
             sizing = _closure1_slot2;
             tango = 9;
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['applicationName'] = sizing;
             tango = foxtrot.bind(backup)(report, tango);
             return tango;
- 747:
+ 751:
             report = _closure1_slot1;
             sizing = _closure1_slot2;
             tango = 9;
@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['applicationName'] = kilo;
             tango = foxtrot.bind(backup)(report, tango);
             return tango;
- 878:
+ 884:
             report = _closure1_slot10;
             tango = {};
             tango['username'] = yankee;
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['withDefault'] = foxtrot;
             tango = report.bind(options)(tango);
             return tango;
- 1020:
+ 1034:
             report = _closure1_slot10;
             tango = {};
             tango['username'] = yankee;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['withDefault'] = foxtrot;
             tango = report.bind(options)(tango);
             return tango;
- 1162:
+ 1182:
             report = _closure1_slot10;
             tango = {};
             tango['username'] = yankee;
@@ -475,44 +475,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['withDefault'] = verify;
             tango = report.bind(options)(tango);
             return tango;
- 1304:
+ 1330:
             offset = mike.guild_scheduled_event_id;
             tango = zulu != offset;
             verify = null;
-            if(!tango) { _fun00004_ip = 1334; continue _fun00003 }
- 1319:
+            if(!tango) { _fun00004_ip = 1360; continue _fun00003 }
+ 1345:
             report = _closure1_slot3;
             tango = report.getGuildScheduledEvent;
             verify = tango.bind(report)(offset);
- 1334:
+ 1360:
             tango = zulu == verify;
             foxtrot = undefined;
-            if(tango) { _fun00004_ip = 1348; continue _fun00003 }
- 1343:
+            if(tango) { _fun00004_ip = 1374; continue _fun00003 }
+ 1369:
             foxtrot = verify.name;
- 1348:
+ 1374:
             offset = _closure1_slot5;
             report = offset.getGuild;
             romeo = zulu == verify;
             tango = undefined;
-            if(romeo) { _fun00004_ip = 1371; continue _fun00003 }
- 1366:
+            if(romeo) { _fun00004_ip = 1397; continue _fun00003 }
+ 1392:
             tango = verify.guild_id;
- 1371:
+ 1397:
             tango = report.bind(offset)(tango);
             report = zulu == tango;
             romeo = undefined;
-            if(report) { _fun00004_ip = 1390; continue _fun00003 }
- 1385:
+            if(report) { _fun00004_ip = 1416; continue _fun00003 }
+ 1411:
             romeo = tango.name;
- 1390:
+ 1416:
             report = _closure1_slot4;
             offset = zulu != verify;
             tango = undefined;
-            if(!offset) { _fun00004_ip = 1406; continue _fun00003 }
- 1403:
+            if(!offset) { _fun00004_ip = 1432; continue _fun00003 }
+ 1429:
             tango = verify;
- 1406:
+ 1432:
             tango = report.bind(options)(tango);
             verify = _closure1_slot0;
             report = _closure1_slot2;
@@ -521,18 +521,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.bind(options)(report);
             report = verify.isNullOrEmpty;
             report = report.bind(verify)(romeo);
-            if(report) { _fun00004_ip = 1549; continue _fun00003 }
- 1445:
+            if(report) { _fun00004_ip = 1577; continue _fun00003 }
+ 1471:
             verify = _closure1_slot0;
             report = _closure1_slot2;
             report = report[offset];
             verify = verify.bind(options)(report);
             report = verify.isNullOrEmpty;
             report = report.bind(verify)(foxtrot);
-            if(report) { _fun00004_ip = 1549; continue _fun00003 }
- 1476:
-            if(!tango) { _fun00004_ip = 1549; continue _fun00003 }
- 1479:
+            if(report) { _fun00004_ip = 1577; continue _fun00003 }
+ 1502:
+            if(!tango) { _fun00004_ip = 1577; continue _fun00003 }
+ 1505:
             report = _closure1_slot0;
             backup = _closure1_slot2;
             tango = 5;
@@ -548,35 +548,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['event_name'] = foxtrot;
             tango['guild_name'] = romeo;
             tango = verify.bind(offset)(report, tango);
-            _fun00004_ip = 1571; continue _fun00003;
- 1549:
+            _fun00004_ip = 1599; continue _fun00003;
+ 1577:
             verify = mike.body;
             offset = zulu != verify;
             report = '';
-            if(!offset) { _fun00004_ip = 1568; continue _fun00003 }
- 1565:
+            if(!offset) { _fun00004_ip = 1596; continue _fun00003 }
+ 1593:
             report = verify;
- 1568:
+ 1596:
             tango = report;
- 1571:
+ 1599:
             return tango;
- 1573:
+ 1601:
             report = _closure1_slot6;
             tango = report.getRelationshipType;
             report = tango.bind(report)(golf);
             tango = _closure1_slot9;
             tango = tango.PENDING_OUTGOING;
-            if(!(report !== tango)) { _fun00004_ip = 1623; continue _fun00003 }
- 1602:
+            if(!(report !== tango)) { _fun00004_ip = 1651; continue _fun00003 }
+ 1630:
             report = mike.body;
             golf = zulu != report;
             tango = '';
-            if(!golf) { _fun00004_ip = 1621; continue _fun00003 }
- 1618:
+            if(!golf) { _fun00004_ip = 1649; continue _fun00003 }
+ 1646:
             tango = report;
- 1621:
-            _fun00004_ip = 1685; continue _fun00003;
- 1623:
+ 1649:
+            _fun00004_ip = 1715; continue _fun00003;
+ 1651:
             golf = _closure1_slot0;
             romeo = _closure1_slot2;
             report = 5;
@@ -591,26 +591,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = {};
             report['user'] = yankee;
             tango = verify.bind(offset)(golf, report);
- 1685:
+ 1715:
             return tango;
- 1687:
+ 1717:
             verify = mike.local_id;
             report = zulu == verify;
             tango = undefined;
-            if(report) { _fun00004_ip = 1726; continue _fun00003 }
- 1702:
+            if(report) { _fun00004_ip = 1756; continue _fun00003 }
+ 1732:
             golf = verify.split;
             report = '_';
             golf = golf.bind(verify)(report);
             report = golf.pop;
             tango = report.bind(golf)();
- 1726:
+ 1756:
             report = zulu != tango;
             verify = 'unknown';
-            if(!report) { _fun00004_ip = 1740; continue _fun00003 }
- 1737:
+            if(!report) { _fun00004_ip = 1770; continue _fun00003 }
+ 1767:
             verify = tango;
- 1740:
+ 1770:
             tango = global;
             tango = tango.HermesInternal;
             golf = tango.concat;
@@ -618,7 +618,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = ' available!';
             tango = golf.bind(report)(verify, tango);
             return tango;
- 1773:
+ 1803:
             report = _closure1_slot1;
             tango = _closure1_slot2;
             tango = tango[oscar];
@@ -629,16 +629,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = mike.other_users;
             yankee = zulu == romeo;
             tango = undefined;
-            if(yankee) { _fun00004_ip = 1841; continue _fun00003 }
- 1821:
+            if(yankee) { _fun00004_ip = 1871; continue _fun00003 }
+ 1851:
             yankee = 0;
             yankee = romeo[yankee];
             romeo = zulu == yankee;
             tango = undefined;
-            if(romeo) { _fun00004_ip = 1841; continue _fun00003 }
- 1836:
+            if(romeo) { _fun00004_ip = 1871; continue _fun00003 }
+ 1866:
             tango = yankee.id;
- 1841:
+ 1871:
             tango = verify.bind(offset)(tango);
             golf = report.bind(golf)(tango);
             report = _closure1_slot1;
@@ -651,16 +651,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = mike.other_users;
             yankee = zulu == romeo;
             tango = undefined;
-            if(yankee) { _fun00004_ip = 1920; continue _fun00003 }
- 1899:
+            if(yankee) { _fun00004_ip = 1950; continue _fun00003 }
+ 1929:
             yankee = 1;
             yankee = romeo[yankee];
             romeo = zulu == yankee;
             tango = undefined;
-            if(romeo) { _fun00004_ip = 1920; continue _fun00003 }
- 1915:
+            if(romeo) { _fun00004_ip = 1950; continue _fun00003 }
+ 1945:
             tango = yankee.id;
- 1920:
+ 1950:
             tango = verify.bind(offset)(tango);
             oscar = report.bind(oscar)(tango);
             tango = global;
@@ -669,17 +669,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = mike.other_users;
             offset = zulu == verify;
             mike = undefined;
-            if(offset) { _fun00004_ip = 1963; continue _fun00003 }
- 1958:
+            if(offset) { _fun00004_ip = 1993; continue _fun00003 }
+ 1988:
             mike = verify.length;
- 1963:
+ 1993:
             offset = zulu != mike;
             zulu = 0;
             verify = 0;
-            if(!offset) { _fun00004_ip = 1977; continue _fun00003 }
- 1974:
+            if(!offset) { _fun00004_ip = 2007; continue _fun00003 }
+ 2004:
             verify = mike;
- 1977:
+ 2007:
             mike = 2;
             mike = verify - mike;
             report = tango.bind(report)(mike, zulu);

@@ -66,24 +66,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             options = tango.bind(golf)(zulu, mike);
             golf = null;
-            if(!(golf == romeo)) { _fun00002_ip = 156; continue _fun00001 }
- 115:
+            if(!(golf == romeo)) { _fun00002_ip = 154; continue _fun00001 }
+ 113:
             zulu = golf == backup;
             mike = undefined;
-            if(zulu) { _fun00002_ip = 153; continue _fun00001 }
- 124:
+            if(zulu) { _fun00002_ip = 151; continue _fun00001 }
+ 122:
             offset = backup.getAvatarURL;
             zulu = golf == foxtrot;
             tango = undefined;
-            if(zulu) { _fun00002_ip = 144; continue _fun00001 }
- 139:
+            if(zulu) { _fun00002_ip = 142; continue _fun00001 }
+ 137:
             tango = foxtrot.guildId;
- 144:
+ 142:
             zulu = 80;
             mike = offset.bind(backup)(tango, zulu);
- 153:
+ 151:
             romeo = mike;
- 156:
+ 154:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
             mike = 5;
@@ -107,32 +107,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = zulu[mike];
             tango = 1;
             offset = zulu[tango];
-            if(!(golf != foxtrot)) { _fun00002_ip = 270; continue _fun00001 }
- 259:
+            if(!(golf != foxtrot)) { _fun00002_ip = 268; continue _fun00001 }
+ 257:
             zulu = foxtrot.canEditThemes;
-            if(zulu) { _fun00002_ip = 291; continue _fun00001 }
- 270:
-            if(entity) { _fun00002_ip = 291; continue _fun00001 }
- 273:
+            if(zulu) { _fun00002_ip = 289; continue _fun00001 }
+ 268:
+            if(entity) { _fun00002_ip = 289; continue _fun00001 }
+ 271:
             entity = {'theme': null, 'primaryColor': null, 'secondaryColor': null};
             entity['theme'] = report;
             return entity;
- 291:
+ 289:
             zulu = golf == foxtrot;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 313; continue _fun00001 }
- 300:
+            if(zulu) { _fun00002_ip = 311; continue _fun00001 }
+ 298:
             zulu = foxtrot.getPreviewThemeColors;
             entity = zulu.bind(foxtrot)(yankee);
- 313:
+ 311:
             yankee = golf == entity;
             zulu = undefined;
-            if(yankee) { _fun00002_ip = 326; continue _fun00001 }
- 322:
+            if(yankee) { _fun00002_ip = 324; continue _fun00001 }
+ 320:
             zulu = entity[mike];
- 326:
-            if(!(golf == zulu)) { _fun00002_ip = 361; continue _fun00001 }
- 330:
+ 324:
+            if(!(golf == zulu)) { _fun00002_ip = 359; continue _fun00001 }
+ 328:
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot2;
             mike = 7;
@@ -140,15 +140,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = yankee.bind(verify)(mike);
             mike = yankee.hex2int;
             zulu = mike.bind(yankee)(romeo);
- 361:
+ 359:
             yankee = golf == entity;
             mike = undefined;
-            if(yankee) { _fun00002_ip = 374; continue _fun00001 }
- 370:
+            if(yankee) { _fun00002_ip = 372; continue _fun00001 }
+ 368:
             mike = entity[tango];
- 374:
-            if(!(golf == mike)) { _fun00002_ip = 409; continue _fun00001 }
- 378:
+ 372:
+            if(!(golf == mike)) { _fun00002_ip = 407; continue _fun00001 }
+ 376:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
             entity = 7;
@@ -156,11 +156,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(verify)(entity);
             entity = tango.hex2int;
             mike = entity.bind(tango)(offset);
- 409:
+ 407:
             entity = {};
             tango = report;
-            if(options) { _fun00002_ip = 458; continue _fun00001 }
- 417:
+            if(options) { _fun00002_ip = 456; continue _fun00001 }
+ 415:
             options = _closure1_slot0;
             offset = _closure1_slot2;
             oscar = 8;
@@ -168,12 +168,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(verify)(oscar);
             oscar = options.getProfileTheme;
             oscar = oscar.bind(options)(zulu);
-            if(!(golf != oscar)) { _fun00002_ip = 455; continue _fun00001 }
- 452:
+            if(!(golf != oscar)) { _fun00002_ip = 453; continue _fun00001 }
+ 450:
             report = oscar;
- 455:
+ 453:
             tango = report;
- 458:
+ 456:
             entity['theme'] = tango;
             entity['primaryColor'] = zulu;
             entity['secondaryColor'] = mike;

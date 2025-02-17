@@ -295,10 +295,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  122:
                     mike = _closure3_slot0;
                     mike = mike.isStreaming;
-                    if(!(mike !== golf)) { _fun00010_ip = 1051; continue _fun00009 }
+                    if(!(mike !== golf)) { _fun00010_ip = 1055; continue _fun00009 }
  139:
                     zulu = null;
-                    if(!(zulu != options)) { _fun00010_ip = 1051; continue _fun00009 }
+                    if(!(zulu != options)) { _fun00010_ip = 1055; continue _fun00009 }
  148:
                     mike = _closure3_slot0;
                     mike = mike.channelId;
@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  483:
                     oscar = zulu != backup;
                     tango = null;
-                    if(!oscar) { _fun00010_ip = 962; continue _fun00009 }
+                    if(!oscar) { _fun00010_ip = 966; continue _fun00009 }
  495:
                     oscar = {};
                     output = _closure1_slot0;
@@ -459,15 +459,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     verify = verify[result];
                     verify = echo.bind(report)(verify);
                     verify = verify.t;
-                    if(romeo) { _fun00010_ip = 785; continue _fun00009 }
- 772:
+                    if(romeo) { _fun00010_ip = 787; continue _fun00009 }
+ 774:
                     romeo = verify.w4m94+;
                     romeo = sizing.bind(output)(romeo);
-                    _fun00010_ip = 796; continue _fun00009;
- 785:
+                    _fun00010_ip = 798; continue _fun00009;
+ 787:
                     verify = verify.YqAjX1;
                     romeo = sizing.bind(output)(verify);
- 796:
+ 798:
                     verify = 'ToggleSelfMute';
                     verify = foxtrot.bind(kilo)(backup, verify, romeo);
                     options[1] = verify;
@@ -482,15 +482,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     verify = verify[result];
                     verify = output.bind(report)(verify);
                     verify = verify.t;
-                    if(yankee) { _fun00010_ip = 880; continue _fun00009 }
- 867:
+                    if(yankee) { _fun00010_ip = 882; continue _fun00009 }
+ 869:
                     yankee = verify.wjcRFR;
                     yankee = kilo.bind(sizing)(yankee);
-                    _fun00010_ip = 891; continue _fun00009;
- 880:
+                    _fun00010_ip = 895; continue _fun00009;
+ 882:
                     verify = verify.2US87+;
                     yankee = kilo.bind(sizing)(verify);
- 891:
+ 895:
                     verify = 'ToggleDeafen';
                     verify = romeo.bind(foxtrot)(backup, verify, yankee);
                     options[2] = verify;
@@ -500,18 +500,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     options = options[offset];
                     options = verify.bind(report)(options);
                     options = options.ServiceNotificationType;
-                    if(golf) { _fun00010_ip = 949; continue _fun00009 }
- 941:
+                    if(golf) { _fun00010_ip = 953; continue _fun00009 }
+ 945:
                     golf = options.VOICE_CALL;
-                    _fun00010_ip = 955; continue _fun00009;
- 949:
+                    _fun00010_ip = 959; continue _fun00009;
+ 953:
                     golf = options.SCREEN_SHARE;
- 955:
+ 959:
                     oscar['type'] = golf;
                     tango = oscar;
- 962:
-                    if(!(zulu == tango)) { _fun00010_ip = 1009; continue _fun00009 }
  966:
+                    if(!(zulu == tango)) { _fun00010_ip = 1013; continue _fun00009 }
+ 970:
                     oscar = _closure1_slot1;
                     golf = _closure1_slot2;
                     zulu = 15;
@@ -521,8 +521,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     zulu = _closure3_slot0;
                     zulu = zulu.voiceServiceHandlerId;
                     zulu = oscar.bind(golf)(zulu);
-                    _fun00010_ip = 1051; continue _fun00009;
- 1009:
+                    _fun00010_ip = 1055; continue _fun00009;
+ 1013:
                     zulu = _closure1_slot1;
                     oscar = _closure1_slot2;
                     mike = 15;
@@ -532,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     entity = _closure3_slot0;
                     entity = entity.voiceServiceHandlerId;
                     entity = mike.bind(zulu)(entity, tango);
- 1051:
+ 1055:
                     entity = undefined;
                     return entity;
                 }

@@ -316,21 +316,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = entity[backup];
                         entity = oscar.bind(tango)(entity);
                         entity = entity.t;
-                        if(mike) { _fun00010_ip = 94; continue _fun00009 }
+                        if(mike) { _fun00010_ip = 96; continue _fun00009 }
  68:
                         oscar = entity.OzB6e3;
                         mike = {};
                         golf = verify.name;
                         mike['stickerPackName'] = golf;
                         romeo = zulu.bind(report)(oscar, mike);
-                        _fun00010_ip = 118; continue _fun00009;
- 94:
+                        _fun00010_ip = 122; continue _fun00009;
+ 96:
                         mike = entity.auckX1;
                         entity = {};
                         oscar = verify.name;
                         entity['stickerPackName'] = oscar;
                         romeo = zulu.bind(report)(mike, entity);
- 118:
+ 122:
                         zulu = _closure1_slot22;
                         mike = _closure1_slot21;
                         entity = {};
@@ -376,8 +376,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = options.bind(tango)(golf, oscar);
                         report[2] = oscar;
                         oscar = _closure2_slot6;
-                        if(!oscar) { _fun00010_ip = 483; continue _fun00009 }
- 324:
+                        if(!oscar) { _fun00010_ip = 489; continue _fun00009 }
+ 328:
                         verify = _closure1_slot20;
                         romeo = _closure1_slot1;
                         foxtrot = _closure1_slot2;
@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         };
                         golf['onPress'] = offset;
                         oscar = verify.bind(tango)(options, golf);
- 483:
+ 489:
                         report[3] = oscar;
                         entity['children'] = report;
                         entity = zulu.bind(tango)(mike, entity);
@@ -688,9 +688,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = options[update];
                 golf = verify.bind(report)(golf);
                 romeo = golf.intl;
-                if(entity) { _fun00014_ip = 640; continue _fun00013 }
+                if(entity) { _fun00014_ip = 646; continue _fun00013 }
  469:
-                if(kilo) { _fun00014_ip = 576; continue _fun00013 }
+                if(kilo) { _fun00014_ip = 578; continue _fun00013 }
  472:
                 if(zulu) { _fun00014_ip = 533; continue _fun00013 }
  475:
@@ -741,7 +741,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = offset.bind(romeo)(golf, entity);
                 entity = 'Custom Sticker Popout (Soft Upsell)';
                 golf = false;
-                _fun00014_ip = 732; continue _fun00013;
+                _fun00014_ip = 744; continue _fun00013;
  533:
                 backup = romeo.string;
                 offset = options[update];
@@ -751,67 +751,67 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = backup.bind(romeo)(offset);
                 golf = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 732; continue _fun00013;
- 576:
+                _fun00014_ip = 744; continue _fun00013;
+ 578:
                 backup = romeo.string;
                 offset = options[update];
                 offset = verify.bind(report)(offset);
                 offset = offset.t;
-                if(oscar) { _fun00014_ip = 619; continue _fun00013 }
- 598:
+                if(oscar) { _fun00014_ip = 623; continue _fun00013 }
+ 600:
                 output = offset.lyD5ZW;
                 sequence = backup.bind(romeo)(output);
                 golf = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 732; continue _fun00013;
- 619:
+                _fun00014_ip = 744; continue _fun00013;
+ 623:
                 offset = offset.jNphpq;
                 sequence = backup.bind(romeo)(offset);
                 golf = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 732; continue _fun00013;
- 640:
+                _fun00014_ip = 744; continue _fun00013;
+ 646:
                 offset = romeo.string;
                 options = options[update];
                 options = verify.bind(report)(options);
                 options = options.t;
-                if(kilo) { _fun00014_ip = 691; continue _fun00013 }
- 662:
-                if(zulu) { _fun00014_ip = 678; continue _fun00013 }
- 665:
+                if(kilo) { _fun00014_ip = 699; continue _fun00013 }
+ 668:
+                if(zulu) { _fun00014_ip = 684; continue _fun00013 }
+ 671:
                 verify = options.vZaScH;
                 verify = offset.bind(romeo)(verify);
-                _fun00014_ip = 689; continue _fun00013;
- 678:
+                _fun00014_ip = 697; continue _fun00013;
+ 684:
                 backup = options.yHmoR0;
                 verify = offset.bind(romeo)(backup);
- 689:
-                _fun00014_ip = 721; continue _fun00013;
- 691:
-                if(oscar) { _fun00014_ip = 707; continue _fun00013 }
- 694:
+ 697:
+                _fun00014_ip = 733; continue _fun00013;
+ 699:
+                if(oscar) { _fun00014_ip = 717; continue _fun00013 }
+ 702:
                 oscar = options.1f6D9v;
                 oscar = offset.bind(romeo)(oscar);
-                _fun00014_ip = 718; continue _fun00013;
- 707:
+                _fun00014_ip = 730; continue _fun00013;
+ 717:
                 options = options.fZ0DiI;
                 oscar = offset.bind(romeo)(options);
- 718:
+ 730:
                 verify = oscar;
- 721:
+ 733:
                 golf = false;
                 entity = 'Custom Sticker Popout';
                 sequence = verify;
- 732:
-                output = !golf;
-                if(golf) { _fun00014_ip = 741; continue _fun00013 }
- 738:
-                output = !kilo;
- 741:
-                if(!output) { _fun00014_ip = 747; continue _fun00013 }
  744:
+                output = !golf;
+                if(golf) { _fun00014_ip = 753; continue _fun00013 }
+ 750:
+                output = !kilo;
+ 753:
+                if(!output) { _fun00014_ip = 759; continue _fun00013 }
+ 756:
                 output = zulu;
- 747:
+ 759:
                 zulu = {};
                 zulu['popoutAnalyticsConfig'] = tango;
                 zulu['popoutType'] = entity;
@@ -864,8 +864,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 entity = tango.bind(oscar)(entity, zulu);
                 entity = null;
-                if(!mike) { _fun00014_ip = 1632; continue _fun00013 }
- 832:
+                if(!mike) { _fun00014_ip = 1648; continue _fun00013 }
+ 844:
                 tango = _closure1_slot22;
                 zulu = _closure1_slot21;
                 mike = {};
@@ -918,8 +918,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = tango.bind(report)(options, oscar);
                 oscar = new Array(4);
                 oscar[0] = options;
-                if(!golf) { _fun00014_ip = 1232; continue _fun00013 }
- 1065:
+                if(!golf) { _fun00014_ip = 1244; continue _fun00013 }
+ 1077:
                 offset = _closure1_slot20;
                 backup = _closure1_slot1;
                 control = _closure1_slot2;
@@ -985,11 +985,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 options['onPress'] = romeo;
                 golf = offset.bind(report)(verify, options);
- 1232:
+ 1244:
                 oscar[1] = golf;
                 golf = output;
-                if(!golf) { _fun00014_ip = 1400; continue _fun00013 }
- 1245:
+                if(!golf) { _fun00014_ip = 1412; continue _fun00013 }
+ 1257:
                 offset = _closure1_slot20;
                 backup = _closure1_slot1;
                 control = _closure1_slot2;
@@ -1059,15 +1059,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 options['onPress'] = yankee;
                 golf = offset.bind(report)(verify, options);
- 1400:
+ 1412:
                 oscar[2] = golf;
                 golf = source != result;
-                if(golf) { _fun00014_ip = 1415; continue _fun00013 }
- 1411:
+                if(golf) { _fun00014_ip = 1427; continue _fun00013 }
+ 1423:
                 golf = source != echo;
- 1415:
-                if(!golf) { _fun00014_ip = 1618; continue _fun00013 }
- 1421:
+ 1427:
+                if(!golf) { _fun00014_ip = 1634; continue _fun00013 }
+ 1433:
                 offset = _closure1_slot22;
                 verify = _closure1_slot21;
                 options = {};
@@ -1089,10 +1089,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = control[romeo];
                 foxtrot = foxtrot.bind(report)(romeo);
                 romeo = {};
-                if(!(source != echo)) { _fun00014_ip = 1512; continue _fun00013 }
- 1509:
+                if(!(source != echo)) { _fun00014_ip = 1524; continue _fun00013 }
+ 1521:
                 result = echo;
- 1512:
+ 1524:
                 romeo['guild'] = result;
                 romeo['showingJoinGuildCta'] = output;
                 romeo['hasJoinedGuild'] = kilo;
@@ -1105,25 +1105,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = sizing[update];
                 sizing = echo.bind(report)(sizing);
                 sizing = sizing.t;
-                if(kilo) { _fun00014_ip = 1583; continue _fun00013 }
- 1570:
+                if(kilo) { _fun00014_ip = 1597; continue _fun00013 }
+ 1582:
                 kilo = sizing.pDE7GR;
                 kilo = output.bind(result)(kilo);
-                _fun00014_ip = 1594; continue _fun00013;
- 1583:
+                _fun00014_ip = 1610; continue _fun00013;
+ 1597:
                 sizing = sizing.kx6pEB;
                 kilo = output.bind(result)(sizing);
- 1594:
+ 1610:
                 romeo['title'] = kilo;
                 romeo = backup.bind(report)(foxtrot, romeo);
                 yankee[1] = romeo;
                 options['children'] = yankee;
                 golf = offset.bind(report)(verify, options);
- 1618:
+ 1634:
                 oscar[3] = golf;
                 mike['children'] = oscar;
                 entity = tango.bind(report)(zulu, mike);
- 1632:
+ 1648:
                 return entity;
             }
         };

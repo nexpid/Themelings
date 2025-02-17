@@ -245,11 +245,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  618:
             foxtrot = backup.ONG3Y2;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun00002_ip = 642; continue _fun00001;
+            _fun00002_ip = 644; continue _fun00001;
  631:
             backup = backup.COiLo6;
             foxtrot = kilo.bind(sizing)(backup);
- 642:
+ 644:
             offset['text'] = foxtrot;
             offset = romeo.bind(tango)(yankee, offset);
             oscar['label'] = offset;

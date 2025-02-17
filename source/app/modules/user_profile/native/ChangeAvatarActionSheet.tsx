@@ -183,8 +183,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.lqaIxM;
             verify = yankee.bind(foxtrot)(verify);
             report['title'] = verify;
-            if(!options) { _fun00002_ip = 283; continue _fun00001 }
- 245:
+            if(!options) { _fun00002_ip = 285; continue _fun00001 }
+ 247:
             foxtrot = _closure1_slot6;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = verify.NitroWheelIcon;
             verify = {};
             options = foxtrot.bind(tango)(yankee, verify);
- 283:
+ 285:
             report['trailing'] = options;
             options = echo.titleWrapper;
             report['titleWrapperStyle'] = options;
@@ -243,12 +243,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = foxtrot;
             foxtrot = null;
             sizing = foxtrot != vacuum;
-            if(!sizing) { _fun00002_ip = 507; continue _fun00001 }
- 504:
+            if(!sizing) { _fun00002_ip = 511; continue _fun00001 }
+ 508:
             sizing = !kilo;
- 507:
-            if(!sizing) { _fun00002_ip = 597; continue _fun00001 }
- 510:
+ 511:
+            if(!sizing) { _fun00002_ip = 601; continue _fun00001 }
+ 514:
             control = _closure1_slot6;
             context = _closure1_slot0;
             sequence = _closure1_slot2;
@@ -268,10 +268,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output['label'] = sequence;
             output['onPress'] = vacuum;
             sizing = control.bind(tango)(update, output);
- 597:
+ 601:
             verify[1] = sizing;
-            if(!kilo) { _fun00002_ip = 1049; continue _fun00001 }
- 607:
+            if(!kilo) { _fun00002_ip = 1057; continue _fun00001 }
+ 611:
             update = _closure1_slot6;
             output = _closure1_slot8;
             sizing = {};
@@ -371,11 +371,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = update.bind(tango)(vacuum, control);
             sizing['children'] = control;
             kilo = update.bind(tango)(output, sizing);
- 1049:
+ 1057:
             verify[2] = kilo;
             foxtrot = foxtrot != result;
-            if(!foxtrot) { _fun00002_ip = 1206; continue _fun00001 }
- 1063:
+            if(!foxtrot) { _fun00002_ip = 1214; continue _fun00001 }
+ 1071:
             output = _closure1_slot6;
             papa = _closure1_slot0;
             config = _closure1_slot2;
@@ -408,10 +408,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['label'] = update;
             kilo['onPress'] = result;
             foxtrot = output.bind(tango)(sizing, kilo);
- 1206:
+ 1214:
             verify[3] = foxtrot;
-            if(!offset) { _fun00002_ip = 1360; continue _fun00001 }
- 1216:
+            if(!offset) { _fun00002_ip = 1370; continue _fun00001 }
+ 1224:
             foxtrot = _closure1_slot6;
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['label'] = kilo;
             yankee['onPress'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 1360:
+ 1370:
             verify[4] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

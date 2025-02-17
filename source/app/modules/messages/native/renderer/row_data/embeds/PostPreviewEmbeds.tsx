@@ -66,8 +66,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.bind(report)(tango, zulu);
             entity = null;
             zulu = entity == oscar;
-            if(zulu) { _fun00002_ip = 181; continue _fun00001 }
- 139:
+            if(zulu) { _fun00002_ip = 177; continue _fun00001 }
+ 135:
             tango = _closure1_slot6;
             zulu = _closure1_slot1;
             golf = _closure1_slot2;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = oscar;
             oscar = copyDataProperties(foxtrot, romeo);
             entity = tango.bind(report)(zulu, mike);
- 181:
+ 177:
             return entity;
         }
     };
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  107:
             report = golf;
  110:
-            if(!report) { _fun00006_ip = 138; continue _fun00005 }
+            if(!report) { _fun00006_ip = 136; continue _fun00005 }
  113:
             options = oscar.embeds;
             golf = options.map;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             report = golf.bind(options)(oscar);
- 138:
+ 136:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar == report;
             tango = report;
  87:
-            if(zulu) { _fun00010_ip = 107; continue _fun00009 }
+            if(zulu) { _fun00010_ip = 105; continue _fun00009 }
  90:
             zulu = tango.forEach;
             mike = function(argFoo) {
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = zulu.bind(tango)(mike);
- 107:
+ 105:
             return entity;
         }
     };

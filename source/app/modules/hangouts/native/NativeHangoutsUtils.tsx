@@ -100,14 +100,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.isIOS;
                 tango = mike.bind(tango)();
                 mike = global;
-                if(tango) { _fun00006_ip = 75; continue _fun00005 }
+                if(tango) { _fun00006_ip = 71; continue _fun00005 }
  42:
                 oscar = mike.Promise;
                 report = oscar.resolve;
                 tango = {'hasActivity': false, 'hasActiveActivity': false};
                 tango = report.bind(oscar)(tango);
                 return tango;
- 75:
+ 71:
                 zulu = _closure1_slot3;
                 zulu = zulu.DCDLockscreenWidgetManager;
                 var _closure2_slot0 = zulu;
@@ -132,10 +132,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             mike['hasActivity'] = entity;
                             entity = argBaz;
                             mike['hasActiveActivity'] = entity;
-                            _fun00008_ip = 50; continue _fun00007;
+                            _fun00008_ip = 46; continue _fun00007;
  36:
                             mike = {'hasActivity': false, 'hasActiveActivity': false};
- 50:
+ 46:
                             entity = undefined;
                             mike = zulu.bind(entity)(mike);
                             return entity;

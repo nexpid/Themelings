@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  40:
             entity = undefined;
             entity = mike.bind(entity)();
-            _fun00002_ip = 325; continue _fun00001;
+            _fun00002_ip = 321; continue _fun00001;
  51:
             mike = null;
             if(!(mike != zulu)) { _fun00002_ip = 63; continue _fun00001 }
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike['onCancel'] = report;
             entity = zulu.bind(tango)(mike);
- 325:
+ 321:
             return entity;
         }
     };

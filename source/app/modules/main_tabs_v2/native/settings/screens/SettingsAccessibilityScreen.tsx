@@ -182,8 +182,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu[0] = mike;
                     tango = null;
                     mike = null;
-                    if(!romeo) { _fun00002_ip = 280; continue _fun00001 }
- 195:
+                    if(!romeo) { _fun00002_ip = 284; continue _fun00001 }
+ 197:
                     foxtrot = {};
                     backup = _closure1_slot5;
                     kilo = backup.CONTRAST_MODE;
@@ -203,11 +203,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     backup = kilo.bind(sizing)(backup);
                     foxtrot['subLabel'] = backup;
                     mike = foxtrot;
- 280:
+ 284:
                     zulu[1] = mike;
                     mike = null;
-                    if(!romeo) { _fun00002_ip = 374; continue _fun00001 }
- 289:
+                    if(!romeo) { _fun00002_ip = 380; continue _fun00001 }
+ 293:
                     romeo = {};
                     foxtrot = _closure1_slot5;
                     backup = foxtrot.REDUCE_SATURATION;
@@ -227,11 +227,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = backup.bind(kilo)(foxtrot);
                     romeo['subLabel'] = foxtrot;
                     mike = romeo;
- 374:
+ 380:
                     zulu[2] = mike;
                     mike = null;
-                    if(!options) { _fun00002_ip = 468; continue _fun00001 }
- 383:
+                    if(!options) { _fun00002_ip = 476; continue _fun00001 }
+ 389:
                     options = {};
                     romeo = _closure1_slot5;
                     foxtrot = romeo.SHOW_LINK_DECORATIONS;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = foxtrot.bind(backup)(romeo);
                     options['subLabel'] = romeo;
                     mike = options;
- 468:
+ 476:
                     zulu[3] = mike;
                     mike = {};
                     romeo = _closure1_slot0;
@@ -336,15 +336,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     options = tango != yankee;
-                    if(!options) { _fun00002_ip = 850; continue _fun00001 }
- 825:
+                    if(!options) { _fun00002_ip = 864; continue _fun00001 }
+ 839:
                     romeo = _closure1_slot1;
                     foxtrot = _closure1_slot2;
                     verify = 7;
                     verify = foxtrot[verify];
                     verify = romeo.bind(oscar)(verify);
                     options = verify.bind(oscar)(yankee);
- 850:
+ 864:
                     mike['subLabel'] = options;
                     zulu[6] = mike;
                     mike = {};
@@ -354,15 +354,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     options = tango != offset;
-                    if(!options) { _fun00002_ip = 916; continue _fun00001 }
- 891:
+                    if(!options) { _fun00002_ip = 930; continue _fun00001 }
+ 905:
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
                     verify = 7;
                     verify = romeo[verify];
                     verify = yankee.bind(oscar)(verify);
                     options = verify.bind(oscar)(offset);
- 916:
+ 930:
                     mike['subLabel'] = options;
                     zulu[7] = mike;
                     mike = {};
@@ -372,15 +372,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     tango = tango != golf;
-                    if(!tango) { _fun00002_ip = 982; continue _fun00001 }
- 957:
+                    if(!tango) { _fun00002_ip = 996; continue _fun00001 }
+ 971:
                     options = _closure1_slot1;
                     verify = _closure1_slot2;
                     report = 7;
                     report = verify[report];
                     report = options.bind(oscar)(report);
                     tango = report.bind(oscar)(golf);
- 982:
+ 996:
                     mike['subLabel'] = tango;
                     zulu[8] = mike;
                     mike = zulu.filter;

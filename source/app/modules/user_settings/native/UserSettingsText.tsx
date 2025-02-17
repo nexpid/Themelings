@@ -779,8 +779,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sizing = kilo.FormHint;
             kilo = {};
             result = null;
-            if(echo) { _fun00002_ip = 1836; continue _fun00001 }
- 1825:
+            if(echo) { _fun00002_ip = 1838; continue _fun00001 }
+ 1827:
             echo = function() { // Original name: renderNitroUpsellText
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -902,7 +902,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 }
             };
             result = echo.bind(tango)();
- 1836:
+ 1838:
             kilo['children'] = result;
             kilo = output.bind(tango)(sizing, kilo);
             romeo[2] = kilo;

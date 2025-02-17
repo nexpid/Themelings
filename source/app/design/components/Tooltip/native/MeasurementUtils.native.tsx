@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = argCorge;
                     yankee = arguments[4];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 257; continue _fun00001 }
+                    if(offset) { _fun00002_ip = 251; continue _fun00001 }
  27:
                     oscar = romeo;
                     var _closure4_slot0 = romeo;
@@ -53,10 +53,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 254; continue _fun00001 }
+                    if(offset) { _fun00002_ip = 248; continue _fun00001 }
  83:
                     offset = 3;
-                    if(!(!(yankee > offset))) { _fun00002_ip = 247; continue _fun00001 }
+                    if(!(!(yankee > offset))) { _fun00002_ip = 241; continue _fun00001 }
  93: // try_start_0
                     offset = oscar;
                     oscar = function(argFoo) { // Original name: measure
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 tango = _closure5_slot0;
                                 report = tango.current;
                                 tango = null;
-                                if(!(tango != report)) { _fun00004_ip = 65; continue _fun00003 }
+                                if(!(tango != report)) { _fun00004_ip = 63; continue _fun00003 }
  34:
                                 zulu = _closure5_slot0;
                                 tango = zulu.current;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 entity = zulu.bind(tango)(entity);
                                 entity = undefined;
                                 return entity;
- 65:
+ 63:
                                 entity = undefined;
                                 entity = mike.bind(entity)();
                                 return entity;
@@ -130,19 +130,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return entity;
                     };
                     oscar = oscar.bind(zulu)(offset);
-                    SaveGenerator(address=112);
- 110:
+                    SaveGenerator(address=110);
+ 108:
                     return oscar;
- 112:
+ 110:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 212; continue _fun00001 }
- 118:
+                    if(offset) { _fun00002_ip = 208; continue _fun00001 }
+ 116:
                     golf = oscar;
                     _closure4_slot5 = oscar;
                     yankee = verify;
                     offset = null;
-                    if(!(offset != yankee)) { _fun00002_ip = 204; continue _fun00001 }
- 134:
+                    if(!(offset != yankee)) { _fun00002_ip = 200; continue _fun00001 }
+ 132:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot1;
                     offset = 1;
@@ -151,8 +151,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee = romeo.isEqual;
                     offset = golf;
                     verify = yankee.bind(romeo)(offset, verify);
-                    if(verify) { _fun00002_ip = 204; continue _fun00001 }
- 175:
+                    if(verify) { _fun00002_ip = 200; continue _fun00001 }
+ 173:
                     verify = global;
                     yankee = verify.setTimeout;
                     offset = function() {
@@ -167,15 +167,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     verify = 500;
                     verify = yankee.bind(zulu)(offset, verify);
- 202: // try_end0
-                    _fun00002_ip = 244; continue _fun00001;
- 204: // try_start_1
+ 198: // try_end0
+                    _fun00002_ip = 238; continue _fun00001;
+ 200: // try_start_1
                     golf = options.bind(zulu)(golf);
- 209: // try_end1
+ 205: // try_end1
                     return golf;
- 212:
+ 208:
                     return oscar;
- 215: // catch_target0 // catch_target1
+ 211: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     oscar = global;
                     golf = oscar.setTimeout;
@@ -194,14 +194,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     report = 500;
                     report = golf.bind(zulu)(oscar, report);
- 244:
+ 238:
                     return zulu;
- 247:
+ 241:
                     zulu = tango.bind(zulu)();
                     return zulu;
- 254:
+ 248:
                     return mike;
- 257:
+ 251:
                     return entity;
                 }
             };

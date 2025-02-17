@@ -442,8 +442,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                             report = 0;
                             zulu = report < entity;
                             entity = undefined;
-                            if(!zulu) { _fun00012_ip = 76; continue _fun00011 }
- 47:
+                            if(!zulu) { _fun00012_ip = 78; continue _fun00011 }
+ 49:
                             golf = oscar[report];
                             zulu = function(argFoo) {
                                 zulu = _closure5_slot1;
@@ -469,8 +469,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                             zulu = tango.bind(entity)(golf, zulu);
                             report = report + 1;
                             zulu = oscar.length;
-                            if(report < zulu) { _fun00012_ip = 47; continue _fun00011 }
- 76:
+                            if(report < zulu) { _fun00012_ip = 49; continue _fun00011 }
+ 78:
                             zulu = 'LOGIN_SUCCESS';
                             mike = function() {
                                 mike = _closure5_slot0;
@@ -1489,7 +1489,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 StartGenerator();
                 oscar = argFoo;
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                if(golf) { _fun00026_ip = 1163; continue _fun00025 }
+                if(golf) { _fun00026_ip = 1161; continue _fun00025 }
  13:
                 golf = undefined;
                 mike = undefined;
@@ -1596,10 +1596,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 options = offset.constructor;
                 verify = {};
                 offset = null;
-                if(!(offset == kilo)) { _fun00026_ip = 414; continue _fun00025 }
- 412:
+                if(!(offset == kilo)) { _fun00026_ip = 412; continue _fun00025 }
+ 410:
                 kilo = {};
- 414:
+ 412:
                 offset = global;
                 backup = offset.Object;
                 foxtrot = backup.keys;
@@ -1613,7 +1613,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 backup = offset.Object;
                 foxtrot = backup.values;
                 yankee = foxtrot.bind(backup)(kilo);
- 480: // try_start_0 // try_start_1
+ 478: // try_start_0 // try_start_1
                 backup = zulu;
                 zulu = new Array(2);
                 vacuum = zulu;
@@ -1650,22 +1650,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 control = report;
                 source = undefined;
                 report = apply(vacuum, control, source);
-                SaveGenerator(address=611);
- 609:
+                SaveGenerator(address=609);
+ 607:
                 return report;
- 611:
+ 609:
                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                if(options) { _fun00026_ip = 628; continue _fun00025 }
- 617:
+                if(options) { _fun00026_ip = 626; continue _fun00025 }
+ 615:
                 zulu['result'] = report;
- 623: // try_end0
-                _fun00026_ip = 836; continue _fun00025;
- 628: // try_end1
+ 621: // try_end0
+                _fun00026_ip = 834; continue _fun00025;
+ 626: // try_end1
                 zulu = mike;
                 options = 'string';
                 zulu = typeof zulu;
-                if(!(options === zulu)) { _fun00026_ip = 788; continue _fun00025 }
- 645:
+                if(!(options === zulu)) { _fun00026_ip = 786; continue _fun00025 }
+ 643:
                 yankee = offset.fetch;
                 options = mike;
                 zulu = {};
@@ -1681,18 +1681,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 romeo['Content-Type'] = foxtrot;
                 zulu['headers'] = romeo;
                 zulu = yankee.bind(golf)(options, zulu);
-                SaveGenerator(address=717);
- 715:
+                SaveGenerator(address=715);
+ 713:
                 return zulu;
- 717:
+ 715:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                if(options) { _fun00026_ip = 791; continue _fun00025 }
- 723:
+                if(options) { _fun00026_ip = 789; continue _fun00025 }
+ 721:
                 tango = zulu;
                 options = zulu.ok;
                 romeo = _closure1_slot16;
-                if(options) { _fun00026_ip = 772; continue _fun00025 }
- 739:
+                if(options) { _fun00026_ip = 770; continue _fun00025 }
+ 737:
                 foxtrot = {};
                 options = tango;
                 options = options.status;
@@ -1700,16 +1700,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 yankee = 'error';
                 options = 'Failed to send backchannel reply';
                 options = romeo.bind(golf)(yankee, options, foxtrot);
-                _fun00026_ip = 788; continue _fun00025;
- 772:
+                _fun00026_ip = 786; continue _fun00025;
+ 770:
                 yankee = 'success';
                 options = 'Backchannel reply sent';
                 options = romeo.bind(golf)(yankee, options);
- 788:
+ 786:
                 return report;
- 791:
+ 789:
                 return zulu;
- 794: // try_start_2 // catch_target0
+ 792: // try_start_2 // catch_target0
                 CatchBlockStart(arg_register=10);
                 report = verify;
                 zulu = {};
@@ -1720,12 +1720,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 options = options.bind(golf)(yankee);
                 zulu['string'] = options;
                 report['error'] = zulu;
- 836: // try_end2
+ 834: // try_end2
                 zulu = mike;
                 report = 'string';
                 zulu = typeof zulu;
-                if(!(report === zulu)) { _fun00026_ip = 996; continue _fun00025 }
- 853:
+                if(!(report === zulu)) { _fun00026_ip = 994; continue _fun00025 }
+ 851:
                 options = offset.fetch;
                 report = mike;
                 zulu = {};
@@ -1741,18 +1741,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 yankee['Content-Type'] = romeo;
                 zulu['headers'] = yankee;
                 zulu = options.bind(golf)(report, zulu);
-                SaveGenerator(address=925);
- 923:
+                SaveGenerator(address=923);
+ 921:
                 return zulu;
- 925:
+ 923:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                if(report) { _fun00026_ip = 999; continue _fun00025 }
- 931:
+                if(report) { _fun00026_ip = 997; continue _fun00025 }
+ 929:
                 tango = zulu;
                 report = zulu.ok;
                 yankee = _closure1_slot16;
-                if(report) { _fun00026_ip = 980; continue _fun00025 }
- 947:
+                if(report) { _fun00026_ip = 978; continue _fun00025 }
+ 945:
                 romeo = {};
                 report = tango;
                 report = report.status;
@@ -1760,22 +1760,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 options = 'error';
                 report = 'Failed to send backchannel reply';
                 report = yankee.bind(golf)(options, report, romeo);
-                _fun00026_ip = 996; continue _fun00025;
- 980:
+                _fun00026_ip = 994; continue _fun00025;
+ 978:
                 options = 'success';
                 report = 'Backchannel reply sent';
                 report = yankee.bind(golf)(options, report);
- 996:
+ 994:
                 return golf;
- 999:
+ 997:
                 return zulu;
- 1002: // catch_target1 // catch_target2
+ 1000: // catch_target1 // catch_target2
                 CatchBlockStart(arg_register=2);
                 report = mike;
                 options = 'string';
                 report = typeof report;
-                if(!(options === report)) { _fun00026_ip = 1158; continue _fun00025 }
- 1021:
+                if(!(options === report)) { _fun00026_ip = 1156; continue _fun00025 }
+ 1019:
                 options = offset.fetch;
                 report = mike;
                 mike = {};
@@ -1790,34 +1790,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, _, argPlug
                 verify['Content-Type'] = offset;
                 mike['headers'] = verify;
                 mike = options.bind(golf)(report, mike);
-                SaveGenerator(address=1090);
- 1088:
+                SaveGenerator(address=1088);
+ 1086:
                 return mike;
- 1090:
+ 1088:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                if(report) { _fun00026_ip = 1160; continue _fun00025 }
- 1096:
+                if(report) { _fun00026_ip = 1158; continue _fun00025 }
+ 1094:
                 tango = mike;
                 report = mike.ok;
                 oscar = _closure1_slot16;
-                if(report) { _fun00026_ip = 1142; continue _fun00025 }
- 1112:
+                if(report) { _fun00026_ip = 1140; continue _fun00025 }
+ 1110:
                 options = {};
                 tango = tango.status;
                 options['status'] = tango;
                 report = 'error';
                 tango = 'Failed to send backchannel reply';
                 tango = oscar.bind(golf)(report, tango, options);
-                _fun00026_ip = 1158; continue _fun00025;
- 1142:
+                _fun00026_ip = 1156; continue _fun00025;
+ 1140:
                 report = 'success';
                 tango = 'Backchannel reply sent';
                 tango = oscar.bind(golf)(report, tango);
- 1158:
+ 1156:
                 throw zulu;
- 1160:
+ 1158:
                 return mike;
- 1163:
+ 1161:
                 return entity;
             }
         };

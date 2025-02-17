@@ -80,35 +80,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  141:
             mike = _closure1_slot5;
             mike = mike.IGNORE_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 772; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 788; continue _fun00001 }
  158:
             mike = _closure1_slot5;
             mike = mike.UNIGNORE_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 708; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 722; continue _fun00001 }
  175:
             mike = _closure1_slot5;
             mike = mike.BLOCK_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 644; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 656; continue _fun00001 }
  192:
             mike = _closure1_slot5;
             mike = mike.UNBLOCK_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 580; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 590; continue _fun00001 }
  209:
             mike = _closure1_slot5;
             mike = mike.MUTE_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 516; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 524; continue _fun00001 }
  226:
             mike = _closure1_slot5;
             mike = mike.UNMUTE_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 452; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 458; continue _fun00001 }
  243:
             mike = _closure1_slot5;
             mike = mike.REPORT_SUCCESS;
-            if(!(mike !== zulu)) { _fun00002_ip = 388; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 392; continue _fun00001 }
  260:
             mike = _closure1_slot5;
             mike = mike.GENERIC_ERROR;
-            if(!(mike !== zulu)) { _fun00002_ip = 331; continue _fun00001 }
+            if(!(mike !== zulu)) { _fun00002_ip = 333; continue _fun00001 }
  274:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.+c5xtb;
             mike = zulu.bind(tango)(mike);
             return mike;
- 331:
+ 333:
             golf = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.zBpoc3;
             mike = zulu.bind(tango)(mike);
             return mike;
- 388:
+ 392:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 452:
+ 458:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 516:
+ 524:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 580:
+ 590:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 644:
+ 656:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 708:
+ 722:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
             mike = 5;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['username'] = report;
             mike = tango.bind(golf)(zulu, mike);
             return mike;
- 772:
+ 788:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
             entity = 5;

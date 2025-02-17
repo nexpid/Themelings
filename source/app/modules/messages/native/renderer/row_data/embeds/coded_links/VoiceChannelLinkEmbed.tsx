@@ -155,37 +155,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             zulu = offset != foxtrot;
             entity = null;
-            if(!zulu) { _fun00002_ip = 957; continue _fun00001 }
- 265:
+            if(!zulu) { _fun00002_ip = 951; continue _fun00001 }
+ 259:
             zulu = foxtrot.isGuildVocal;
             zulu = zulu.bind(foxtrot)();
             entity = null;
-            if(!zulu) { _fun00002_ip = 957; continue _fun00001 }
- 283:
+            if(!zulu) { _fun00002_ip = 951; continue _fun00001 }
+ 277:
             zulu = offset != yankee;
             entity = null;
-            if(!zulu) { _fun00002_ip = 957; continue _fun00001 }
- 295:
+            if(!zulu) { _fun00002_ip = 951; continue _fun00001 }
+ 289:
             entity = null;
-            if(!mike) { _fun00002_ip = 957; continue _fun00001 }
- 303:
+            if(!mike) { _fun00002_ip = 951; continue _fun00001 }
+ 297:
             zulu = offset == yankee;
             mike = undefined;
-            if(zulu) { _fun00002_ip = 317; continue _fun00001 }
- 312:
+            if(zulu) { _fun00002_ip = 311; continue _fun00001 }
+ 306:
             mike = yankee.icon;
- 317:
-            if(!(offset == mike)) { _fun00002_ip = 340; continue _fun00001 }
- 321:
+ 311:
+            if(!(offset == mike)) { _fun00002_ip = 334; continue _fun00001 }
+ 315:
             mike = offset == yankee;
             verify = undefined;
-            if(mike) { _fun00002_ip = 336; continue _fun00001 }
- 330:
+            if(mike) { _fun00002_ip = 330; continue _fun00001 }
+ 324:
             verify = yankee.acronym;
- 336:
+ 330:
             options = undefined;
-            _fun00002_ip = 425; continue _fun00001;
- 340:
+            _fun00002_ip = 419; continue _fun00001;
+ 334:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
             mike = 10;
@@ -195,17 +195,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             kilo = offset == yankee;
             backup = undefined;
-            if(kilo) { _fun00002_ip = 382; continue _fun00001 }
- 377:
+            if(kilo) { _fun00002_ip = 376; continue _fun00001 }
+ 371:
             backup = yankee.id;
- 382:
+ 376:
             mike['id'] = backup;
             kilo = offset == yankee;
             backup = undefined;
-            if(kilo) { _fun00002_ip = 400; continue _fun00001 }
- 395:
+            if(kilo) { _fun00002_ip = 394; continue _fun00001 }
+ 389:
             backup = yankee.icon;
- 400:
+ 394:
             mike['icon'] = backup;
             backup = true;
             mike['canAnimate'] = backup;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['size'] = backup;
             options = zulu.bind(tango)(mike);
             verify = undefined;
- 425:
+ 419:
             tango = _closure1_slot10;
             zulu = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -231,10 +231,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.isAndroid;
             romeo = romeo.bind(backup)();
             backup = undefined;
-            if(!romeo) { _fun00002_ip = 495; continue _fun00001 }
- 491:
+            if(!romeo) { _fun00002_ip = 489; continue _fun00001 }
+ 485:
             backup = '';
- 495:
+ 489:
             romeo = 'headerText';
             mike[romeo] = backup;
             backup = golf.headerColor;
@@ -252,15 +252,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[romeo];
             backup = result.bind(report)(backup);
             backup = backup.t;
-            if(kilo) { _fun00002_ip = 589; continue _fun00001 }
- 576:
+            if(kilo) { _fun00002_ip = 583; continue _fun00001 }
+ 570:
             kilo = backup.gpqgam;
             kilo = sizing.bind(output)(kilo);
-            _fun00002_ip = 600; continue _fun00001;
- 589:
+            _fun00002_ip = 594; continue _fun00001;
+ 583:
             backup = backup.7vb2cX;
             kilo = sizing.bind(output)(backup);
- 600:
+ 594:
             backup = 'acceptLabelText';
             mike[backup] = kilo;
             backup = 'onlineText';
@@ -279,10 +279,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             sizing = offset == backup;
             kilo = undefined;
-            if(sizing) { _fun00002_ip = 692; continue _fun00001 }
- 686:
+            if(sizing) { _fun00002_ip = 686; continue _fun00001 }
+ 680:
             kilo = backup.uri;
- 692:
+ 686:
             backup = 'channelIcon';
             mike[backup] = kilo;
             backup = foxtrot.name;
@@ -293,10 +293,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[foxtrot] = backup;
             foxtrot = offset != options;
             offset = undefined;
-            if(!foxtrot) { _fun00002_ip = 742; continue _fun00001 }
- 739:
+            if(!foxtrot) { _fun00002_ip = 736; continue _fun00001 }
+ 733:
             offset = options;
- 742:
+ 736:
             options = 'thumbnailUrl';
             mike[options] = offset;
             options = 'thumbnailText';
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'inviteSplash';
             mike[oscar] = report;
             entity = tango.bind(report)(zulu, mike);
- 957:
+ 951:
             return entity;
         }
     };

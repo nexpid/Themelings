@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = yankee[golf];
                     golf = offset.bind(zulu)(golf);
                     golf = golf.t;
-                    if(entity) { _fun00008_ip = 156; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 158; continue _fun00007 }
  128:
                     entity = golf.ht2Op6;
                     entity = options.bind(verify)(entity);
@@ -256,15 +256,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot5;
                     report['onPress'] = entity;
                     entity = report;
-                    _fun00008_ip = 182; continue _fun00007;
- 156:
+                    _fun00008_ip = 186; continue _fun00007;
+ 158:
                     golf = golf.mNmH8/;
                     golf = options.bind(verify)(golf);
                     report['text'] = golf;
                     oscar = _closure2_slot4;
                     report['onPress'] = oscar;
                     entity = report;
- 182:
+ 186:
                     entity = tango.bind(zulu)(mike, entity);
                     return entity;
                 }
@@ -383,15 +383,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[update];
             backup = output.bind(tango)(backup);
             backup = backup.t;
-            if(romeo) { _fun00002_ip = 550; continue _fun00001 }
- 537:
+            if(romeo) { _fun00002_ip = 544; continue _fun00001 }
+ 529:
             romeo = backup.Un8xqq;
             romeo = kilo.bind(sizing)(romeo);
-            _fun00002_ip = 561; continue _fun00001;
- 550:
+            _fun00002_ip = 557; continue _fun00001;
+ 544:
             backup = backup.VUWdQk;
             romeo = kilo.bind(sizing)(backup);
- 561:
+ 557:
             offset['children'] = romeo;
             offset = zulu.bind(tango)(yankee, offset);
             verify[2] = offset;

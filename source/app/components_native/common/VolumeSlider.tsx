@@ -173,8 +173,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 oscar['onValueChange'] = yankee;
                 yankee = null;
-                if(!(yankee == offset)) { _fun00004_ip = 429; continue _fun00003 }
- 385:
+                if(!(yankee == offset)) { _fun00004_ip = 425; continue _fun00003 }
+ 383:
                 foxtrot = _closure1_slot0;
                 backup = _closure1_slot2;
                 yankee = 3;
@@ -183,15 +183,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = foxtrot.isAndroid;
                 foxtrot = yankee.bind(foxtrot)();
                 yankee = undefined;
-                if(!foxtrot) { _fun00004_ip = 426; continue _fun00003 }
- 419:
+                if(!foxtrot) { _fun00004_ip = 422; continue _fun00003 }
+ 417:
                 yankee = function() {
                     entity = true;
                     return entity;
                 };
- 426:
+ 422:
                 offset = yankee;
- 429:
+ 425:
                 oscar['onResponderGrant'] = offset;
                 oscar = options.bind(tango)(golf, oscar);
                 report[1] = oscar;

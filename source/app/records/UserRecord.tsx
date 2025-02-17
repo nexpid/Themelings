@@ -337,48 +337,48 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  578:
                 entity['guildMemberAvatars'] = golf;
                 options = report.has_bounced_email;
-                if(!(mike == options)) { _fun00006_ip = 602; continue _fun00005 }
- 596:
+                if(!(mike == options)) { _fun00006_ip = 600; continue _fun00005 }
+ 594:
                 options = report.hasBouncedEmail;
- 602:
+ 600:
                 golf = mike != options;
-                if(!golf) { _fun00006_ip = 612; continue _fun00005 }
- 609:
+                if(!golf) { _fun00006_ip = 610; continue _fun00005 }
+ 607:
                 golf = options;
- 612:
+ 610:
                 entity['hasBouncedEmail'] = golf;
                 options = report.personal_connection_id;
-                if(!(mike == options)) { _fun00006_ip = 634; continue _fun00005 }
- 628:
+                if(!(mike == options)) { _fun00006_ip = 632; continue _fun00005 }
+ 626:
                 options = report.personalConnectionId;
- 634:
+ 632:
                 offset = mike != options;
                 golf = null;
-                if(!offset) { _fun00006_ip = 646; continue _fun00005 }
- 643:
+                if(!offset) { _fun00006_ip = 644; continue _fun00005 }
+ 641:
                 golf = options;
- 646:
+ 644:
                 entity['personalConnectionId'] = golf;
                 golf = report.global_name;
-                if(!(mike == golf)) { _fun00006_ip = 668; continue _fun00005 }
- 662:
+                if(!(mike == golf)) { _fun00006_ip = 666; continue _fun00005 }
+ 660:
                 golf = report.globalName;
- 668:
+ 666:
                 entity['globalName'] = golf;
                 golf = report.banner;
                 entity['banner'] = golf;
                 oscar = _closure1_slot13;
                 golf = report.primary_guild;
-                if(!(mike == golf)) { _fun00006_ip = 706; continue _fun00005 }
- 700:
+                if(!(mike == golf)) { _fun00006_ip = 704; continue _fun00005 }
+ 698:
                 golf = report.primaryGuild;
- 706:
+ 704:
                 options = mike != golf;
                 report = null;
-                if(!options) { _fun00006_ip = 718; continue _fun00005 }
- 715:
+                if(!options) { _fun00006_ip = 716; continue _fun00005 }
+ 713:
                 report = golf;
- 718:
+ 716:
                 report = oscar.bind(zulu)(report);
                 entity['primaryGuild'] = report;
                 report = global;
@@ -500,14 +500,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = entity.globalName;
                 oscar = mike == report;
                 zulu = undefined;
-                if(oscar) { _fun00006_ip = 867; continue _fun00005 }
- 862:
+                if(oscar) { _fun00006_ip = 865; continue _fun00005 }
+ 860:
                 zulu = report.length;
- 867:
-                if(!(tango === zulu)) { _fun00006_ip = 877; continue _fun00005 }
- 871:
+ 865:
+                if(!(tango === zulu)) { _fun00006_ip = 875; continue _fun00005 }
+ 869:
                 entity['globalName'] = mike;
- 877:
+ 875:
                 return entity;
             }
         };
@@ -879,11 +879,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = mike[entity];
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun00028_ip = 39; continue _fun00027 }
+                if(!entity) { _fun00028_ip = 37; continue _fun00027 }
  26:
                 mike = tango.hasPurchasedFlag;
                 entity = mike.bind(tango)(zulu);
- 39:
+ 37:
                 return entity;
             }
         };
@@ -1039,18 +1039,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = this;
                 entity = tango.isSystemUser;
                 entity = entity.bind(tango)();
-                if(entity) { _fun00038_ip = 28; continue _fun00037 }
+                if(entity) { _fun00038_ip = 26; continue _fun00037 }
  16:
                 mike = tango.isLocalBot;
                 entity = mike.bind(tango)();
- 28:
-                if(entity) { _fun00038_ip = 55; continue _fun00037 }
- 31:
+ 26:
+                if(entity) { _fun00038_ip = 53; continue _fun00037 }
+ 29:
                 zulu = tango.hasFlag;
                 mike = _closure1_slot12;
                 mike = mike.VERIFIED_BOT;
                 entity = zulu.bind(tango)(mike);
- 55:
+ 53:
                 return entity;
             }
         };

@@ -186,13 +186,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             verify = _closure2_slot0;
                             romeo = verify.date;
                             verify = null;
-                            if(!(verify != romeo)) { _fun00010_ip = 166; continue _fun00009 }
- 148:
+                            if(!(verify != romeo)) { _fun00010_ip = 168; continue _fun00009 }
+ 150:
                             verify = _closure2_slot0;
                             romeo = verify.date;
                             verify = '';
-                            if(!(verify === romeo)) { _fun00010_ip = 196; continue _fun00009 }
- 166:
+                            if(!(verify === romeo)) { _fun00010_ip = 198; continue _fun00009 }
+ 168:
                             verify = global;
                             verify = verify.Date;
                             romeo = verify.prototype;
@@ -200,8 +200,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             sizing = romeo;
                             verify = new sizing[verify](kilo);
                             verify = verify instanceof Object ? verify : romeo;
-                            _fun00010_ip = 241; continue _fun00009;
- 196:
+                            _fun00010_ip = 243; continue _fun00009;
+ 198:
                             romeo = _closure1_slot1;
                             foxtrot = _closure1_slot2;
                             yankee = 31;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             yankee = yankee.bind(zulu)(offset);
                             offset = yankee.toDate;
                             verify = offset.bind(yankee)();
- 241:
+ 243:
                             report['date'] = verify;
                             report = golf.bind(options)(oscar, report);
                             entity['subtitle'] = report;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             tango = foxtrot.bind(backup)(tango, romeo);
-            if(zulu) { _fun00006_ip = 472; continue _fun00005 }
+            if(zulu) { _fun00006_ip = 474; continue _fun00005 }
  260:
             if(!(entity != options)) { _fun00006_ip = 305; continue _fun00005 }
  264:
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['screenWidth'] = verify;
             entity['changeLog'] = options;
             entity = tango.bind(report)(zulu, entity);
-            _fun00006_ip = 467; continue _fun00005;
+            _fun00006_ip = 469; continue _fun00005;
  305:
             tango = _closure1_slot14;
             zulu = _closure1_slot10;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = yankee.bind(report)(offset, verify);
             options['children'] = mike;
             mike = options;
-            _fun00006_ip = 461; continue _fun00005;
+            _fun00006_ip = 463; continue _fun00005;
  433:
             romeo = romeo.O1iRT0;
             romeo = foxtrot.bind(backup)(romeo);
@@ -317,11 +317,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.bind(report)(offset, verify);
             options['children'] = verify;
             mike = options;
- 461:
+ 463:
             entity = tango.bind(report)(zulu, mike);
- 467:
-            _fun00006_ip = 600; continue _fun00005;
- 472:
+ 469:
+            _fun00006_ip = 604; continue _fun00005;
+ 474:
             tango = _closure1_slot14;
             zulu = _closure1_slot10;
             mike = {};
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 600:
+ 604:
             return entity;
         }
     };
@@ -643,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00016_ip = 275; continue _fun00015 }
+                        if(mike) { _fun00016_ip = 271; continue _fun00015 }
  10:
                         mike = _closure3_slot0;
                         tango = mike.props;
@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = null;
                         if(!(mike == report)) { _fun00016_ip = 59; continue _fun00015 }
  52:
-                        if(!(mike != tango)) { _fun00016_ip = 272; continue _fun00015 }
+                        if(!(mike != tango)) { _fun00016_ip = 268; continue _fun00015 }
  59:
                         oscar = 36;
                         yankee = golf - oscar;
@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = oscar.bind(tango)(report);
                         tango = tango.ref;
                         golf = tango.current;
-                        if(!(mike != golf)) { _fun00016_ip = 264; continue _fun00015 }
+                        if(!(mike != golf)) { _fun00016_ip = 260; continue _fun00015 }
  133:
                         report = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -692,7 +692,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  177:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun00016_ip = 269; continue _fun00015 }
+                        if(tango) { _fun00016_ip = 265; continue _fun00015 }
  183:
                         report = zulu.openMediaModal;
                         tango = {'initialSources': null, 'muted': false, 'paused': false, 'disableDownload': true, 'shareable': false, 'analyticsSource': 'Change Log'};
@@ -711,14 +711,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options[0] = verify;
                         tango['initialSources'] = options;
                         tango = report.bind(oscar)(tango, golf);
- 264:
+ 260:
                         tango = undefined;
                         return tango;
- 269:
+ 265:
                         return zulu;
- 272:
+ 268:
                         return mike;
- 275:
+ 271:
                         return entity;
                     }
                 };

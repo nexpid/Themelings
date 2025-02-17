@@ -2735,8 +2735,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = verify.headerTitle;
             golf['style'] = romeo;
             romeo = null;
-            if(!yankee) { _fun00050_ip = 450; continue _fun00049 }
- 264:
+            if(!yankee) { _fun00050_ip = 446; continue _fun00049 }
+ 260:
             backup = _closure1_slot18;
             output = _closure1_slot0;
             control = _closure1_slot2;
@@ -2779,7 +2779,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result.bind(tango)(output, sizing);
             yankee['children'] = sizing;
             romeo = backup.bind(tango)(foxtrot, yankee);
- 450:
+ 446:
             yankee = new Array(3);
             yankee[0] = romeo;
             backup = _closure1_slot18;
@@ -2794,18 +2794,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = verify.headerActions;
             romeo['style'] = sizing;
             result = _closure1_slot18;
-            if(kilo) { _fun00050_ip = 524; continue _fun00049 }
- 510:
+            if(kilo) { _fun00050_ip = 520; continue _fun00049 }
+ 506:
             sizing = _closure1_slot29;
             kilo = {};
             sizing = result.bind(tango)(sizing, kilo);
-            _fun00050_ip = 541; continue _fun00049;
- 524:
+            _fun00050_ip = 537; continue _fun00049;
+ 520:
             output = _closure1_slot28;
             kilo = {};
             kilo['numUnreadMentions'] = echo;
             sizing = result.bind(tango)(output, kilo);
- 541:
+ 537:
             kilo = new Array(2);
             kilo[0] = sizing;
             result = _closure1_slot18;

@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(!(!(tango > zulu))) { _fun00002_ip = 33; continue _fun00001 }
  27:
                 tango = _closure2_slot1;
-                _fun00002_ip = 86; continue _fun00001;
+                _fun00002_ip = 84; continue _fun00001;
  33:
                 oscar = _closure1_slot0;
                 report = _closure1_slot1;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike = 'desc';
                 tango = oscar.bind(golf)(report, zulu, mike);
- 86:
+ 84:
                 zulu = tango.map;
                 mike = function(argFoo) {
                     zulu = _closure1_slot4;

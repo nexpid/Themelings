@@ -4310,10 +4310,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.bind(golf)(tango);
             tango = _closure1_slot24;
             tango = tango.FRECENCY_AND_FAVORITES_SETTINGS;
-            if(!(report === tango)) { _fun00156_ip = 112; continue _fun00155 }
- 79:
-            if(!zulu) { _fun00156_ip = 112; continue _fun00155 }
- 82:
+            if(!(report === tango)) { _fun00156_ip = 113; continue _fun00155 }
+ 80:
+            if(!zulu) { _fun00156_ip = 113; continue _fun00155 }
+ 83:
             tango = _closure1_slot27;
             zulu = new Array(0);
             tango['pendingUsages'] = zulu;
@@ -4321,7 +4321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(0);
             zulu['emojiReactionPendingUsages'] = mike;
             return entity;
- 112:
+ 113:
             entity = false;
             return entity;
         }

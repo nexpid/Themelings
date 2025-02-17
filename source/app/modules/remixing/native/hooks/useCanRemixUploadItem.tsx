@@ -58,29 +58,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             entity = zulu == tango;
             romeo = undefined;
-            if(entity) { _fun00002_ip = 103; continue _fun00001 }
- 98:
+            if(entity) { _fun00002_ip = 101; continue _fun00001 }
+ 96:
             romeo = tango.width;
- 103:
+ 101:
             foxtrot = zulu != romeo;
             yankee = 0;
-            if(!foxtrot) { _fun00002_ip = 115; continue _fun00001 }
- 112:
+            if(!foxtrot) { _fun00002_ip = 113; continue _fun00001 }
+ 110:
             yankee = romeo;
- 115:
+ 113:
             mike['width'] = yankee;
             romeo = zulu == tango;
             yankee = undefined;
-            if(romeo) { _fun00002_ip = 133; continue _fun00001 }
- 128:
+            if(romeo) { _fun00002_ip = 131; continue _fun00001 }
+ 126:
             yankee = tango.height;
- 133:
+ 131:
             romeo = zulu != yankee;
             entity = 0;
-            if(!romeo) { _fun00002_ip = 145; continue _fun00001 }
- 142:
+            if(!romeo) { _fun00002_ip = 143; continue _fun00001 }
+ 140:
             entity = yankee;
- 145:
+ 143:
             mike['height'] = entity;
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -90,8 +90,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CHAT_INPUT;
             entity = golf.bind(verify)(offset, mike, entity);
             mike = zulu != tango;
-            if(!mike) { _fun00002_ip = 240; continue _fun00001 }
- 189:
+            if(!mike) { _fun00002_ip = 238; continue _fun00001 }
+ 187:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
             oscar = 4;
@@ -102,21 +102,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.filename;
             tango = tango.mimeType;
             mike = options.bind(verify)(golf, oscar, tango);
- 240:
-            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
- 243:
+ 238:
+            if(!entity) { _fun00002_ip = 261; continue _fun00001 }
+ 241:
             zulu = zulu != report;
-            if(!zulu) { _fun00002_ip = 260; continue _fun00001 }
- 250:
+            if(!zulu) { _fun00002_ip = 258; continue _fun00001 }
+ 248:
             tango = report.isForumLikeChannel;
             zulu = tango.bind(report)();
- 260:
+ 258:
             entity = !zulu;
- 263:
-            if(!entity) { _fun00002_ip = 269; continue _fun00001 }
- 266:
+ 261:
+            if(!entity) { _fun00002_ip = 267; continue _fun00001 }
+ 264:
             entity = mike;
- 269:
+ 267:
             return entity;
         }
     };

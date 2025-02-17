@@ -349,10 +349,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = offset.bind(tango)(options);
             options = {'disableGradient': true, 'alwaysRespectKeyboard': false, 'setNoExtractUI': false};
             offset = true;
-            if(!(output == sizing)) { _fun00004_ip = 288; continue _fun00003 }
- 284:
+            if(!(output == sizing)) { _fun00004_ip = 284; continue _fun00003 }
+ 280:
             sizing = _closure1_slot5;
- 288:
+ 284:
             options['guildId'] = sizing;
             options['channelId'] = kilo;
             options['chatInputRef'] = backup;

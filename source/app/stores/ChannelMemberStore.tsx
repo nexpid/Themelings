@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -287,13 +287,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argFoo;
             report = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu != report)) { _fun00012_ip = 62; continue _fun00011 }
+            if(!(zulu != report)) { _fun00012_ip = 60; continue _fun00011 }
  26:
             entity = report.memberListId;
             if(!(zulu != entity)) { _fun00012_ip = 44; continue _fun00011 }
  36:
             entity = report.memberListId;
-            _fun00012_ip = 60; continue _fun00011;
+            _fun00012_ip = 58; continue _fun00011;
  44:
             tango = function(argFoo) { // Original name: computeMemberListId
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure1_slot20;
                     zulu = zulu.VIEW_CHANNEL;
                     zulu = tango.bind(report)(zulu, mike);
-                    if(zulu) { _fun00014_ip = 167; continue _fun00013 }
+                    if(zulu) { _fun00014_ip = 165; continue _fun00013 }
  53:
                     golf = _closure1_slot1;
                     options = _closure1_slot3;
@@ -384,18 +384,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.toString;
                     mike = mike.bind(zulu)();
                     return mike;
- 167:
+ 165:
                     entity = _closure1_slot21;
                     return entity;
                 }
             };
             zulu = undefined;
             entity = tango.bind(zulu)(report);
+ 58:
+            _fun00012_ip = 64; continue _fun00011;
  60:
-            _fun00012_ip = 66; continue _fun00011;
- 62:
             entity = _closure1_slot21;
- 66:
+ 64:
             return entity;
         }
     };
@@ -1086,7 +1086,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  21:
                 tango = mike._guildLists;
                 report = tango[report];
-                if(!(zulu != report)) { _fun00038_ip = 122; continue _fun00037 }
+                if(!(zulu != report)) { _fun00038_ip = 120; continue _fun00037 }
  35:
                 golf = _closure1_slot1;
                 tango = _closure1_slot3;
@@ -1096,7 +1096,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = golf.bind(zulu)(tango);
                 zulu = tango.forEach;
                 zulu = zulu.bind(tango)(report, oscar);
-                _fun00038_ip = 122; continue _fun00037;
+                _fun00038_ip = 120; continue _fun00037;
  73:
                 report = _closure1_slot1;
                 tango = _closure1_slot3;
@@ -1120,7 +1120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = zulu.bind(tango)(mike, entity);
- 122:
+ 120:
                 entity = undefined;
                 return entity;
             }

@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  426:
             offset = romeo.allNamesString;
  432:
-            if(!(yankee == offset)) { _fun00002_ip = 491; continue _fun00001 }
+            if(!(yankee == offset)) { _fun00002_ip = 493; continue _fun00001 }
  436:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.t;
             yankee = yankee.gXAN3N;
             offset = romeo.bind(foxtrot)(yankee);
- 491:
+ 493:
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
             report[1] = golf;

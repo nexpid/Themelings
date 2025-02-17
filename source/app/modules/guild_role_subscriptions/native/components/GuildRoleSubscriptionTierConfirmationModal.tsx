@@ -220,14 +220,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             lima = entity;
             sierra = oscar;
             oscar = copyDataProperties(lima, sierra);
-            if(!golf) { _fun00002_ip = 802; continue _fun00001 }
- 417:
+            if(!golf) { _fun00002_ip = 806; continue _fun00001 }
+ 421:
             yankee = _closure1_slot10;
             options = _closure1_slot9;
             oscar = {};
             foxtrot = romeo != record;
-            if(!foxtrot) { _fun00002_ip = 631; continue _fun00001 }
- 437:
+            if(!foxtrot) { _fun00002_ip = 635; continue _fun00001 }
+ 441:
             result = _closure1_slot10;
             kilo = _closure1_slot9;
             romeo = {};
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo[1] = source;
             romeo['children'] = echo;
             foxtrot = result.bind(tango)(kilo, romeo);
- 631:
+ 635:
             romeo = new Array(3);
             romeo[0] = foxtrot;
             kilo = _closure1_slot8;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[2] = foxtrot;
             oscar['children'] = romeo;
             golf = yankee.bind(tango)(options, oscar);
- 802:
+ 806:
             oscar = new Array(2);
             oscar[0] = golf;
             options = _closure1_slot8;

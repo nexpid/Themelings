@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = control[sizing];
             echo = config.bind(tango)(echo);
             echo = echo.t;
-            if(verify) { _fun00002_ip = 733; continue _fun00001 }
+            if(verify) { _fun00002_ip = 735; continue _fun00001 }
  545:
             verify = echo.DjZ+6O;
             verify = update.bind(source)(verify);
@@ -346,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = vacuum;
             backup['children'] = verify;
             verify = backup;
-            _fun00002_ip = 928; continue _fun00001;
- 733:
+            _fun00002_ip = 932; continue _fun00001;
+ 735:
             echo = echo.G3ooHB;
             echo = update.bind(source)(echo);
             backup['accessibilityLabel'] = echo;
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[1] = echo;
             backup['children'] = kilo;
             verify = backup;
- 928:
+ 932:
             romeo = options.bind(tango)(romeo, verify);
             verify = new Array(2);
             verify[0] = romeo;

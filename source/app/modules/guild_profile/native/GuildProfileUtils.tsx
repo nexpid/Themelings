@@ -79,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure2_slot0;
                 mike = tango.bind(report)(zulu, mike);
                 entity['canManageChannels'] = mike;
-                _fun00002_ip = 156; continue _fun00001;
+                _fun00002_ip = 152; continue _fun00001;
  142:
                 entity = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
- 156:
+ 152:
                 return entity;
             }
         };

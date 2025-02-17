@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 650; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 654; continue _fun00001 }
  13:
                     backup = mike.code;
                     golf = mike.options;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 647; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 651; continue _fun00001 }
  69:
                     verify = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['autoTrackExposure'] = kilo;
                     options = romeo.bind(foxtrot)(verify, options);
                     options = options.paymentsBlocked;
-                    if(options) { _fun00002_ip = 620; continue _fun00001 }
+                    if(options) { _fun00002_ip = 624; continue _fun00001 }
  135:
                     romeo = golf.channelId;
                     options = null;
@@ -198,14 +198,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = {'type': 'gift_accept', 'location': null};
                     golf = offset.bind(yankee)(verify, golf);
                     golf = oscar;
-                    if(!(options != golf)) { _fun00002_ip = 618; continue _fun00001 }
- 607:
+                    if(!(options != golf)) { _fun00002_ip = 622; continue _fun00001 }
+ 611:
                     golf = oscar;
                     oscar = report;
                     oscar = golf.bind(zulu)(oscar);
- 618:
+ 622:
                     throw report;
- 620:
+ 624:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
                     tango = 3;
@@ -213,9 +213,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.bind(zulu)(tango);
                     tango = tango.bind(zulu)();
                     return zulu;
- 647:
+ 651:
                     return mike;
- 650:
+ 654:
                     return entity;
                 }
             };

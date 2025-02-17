@@ -457,28 +457,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(entity);
             zulu = source == oscar;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 333; continue _fun00001 }
- 328:
+            if(zulu) { _fun00002_ip = 335; continue _fun00001 }
+ 330:
             entity = oscar.guild;
- 333:
+ 335:
             papa = mike;
-            if(!(source != entity)) { _fun00002_ip = 466; continue _fun00001 }
- 343:
+            if(!(source != entity)) { _fun00002_ip = 470; continue _fun00001 }
+ 345:
             entity = oscar.guild;
             zulu = entity.id;
             entity = _closure1_slot12;
             papa = mike;
-            if(!(zulu !== entity)) { _fun00002_ip = 466; continue _fun00001 }
- 364:
+            if(!(zulu !== entity)) { _fun00002_ip = 470; continue _fun00001 }
+ 366:
             zulu = source == oscar;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 379; continue _fun00001 }
- 373:
+            if(zulu) { _fun00002_ip = 381; continue _fun00001 }
+ 375:
             entity = oscar.approximate_member_count;
- 379:
+ 381:
             papa = mike;
-            if(!(source != entity)) { _fun00002_ip = 466; continue _fun00001 }
- 386:
+            if(!(source != entity)) { _fun00002_ip = 470; continue _fun00001 }
+ 388:
             entity = oscar.guild;
             golf = entity.name;
             mike = _closure1_slot0;
@@ -496,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.approximate_member_count;
             entity['count'] = oscar;
             papa = zulu.bind(report)(mike, entity);
- 466:
+ 470:
             zulu = _closure1_slot14;
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -522,13 +522,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = output.bind(tango)(yankee);
             yankee = yankee.spacing;
             yankee = yankee.PX_16;
-            if(sizing) { _fun00002_ip = 577; continue _fun00001 }
- 571:
+            if(sizing) { _fun00002_ip = 580; continue _fun00001 }
+ 574:
             offset = offset + yankee;
-            _fun00002_ip = 580; continue _fun00001;
- 577:
-            offset = yankee;
+            _fun00002_ip = 583; continue _fun00001;
  580:
+            offset = yankee;
+ 583:
             verify['paddingBottom'] = offset;
             options[1] = verify;
             report['contentContainerStyle'] = options;
@@ -657,11 +657,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['clearButtonVisibility'] = control;
             control = source == vacuum;
             source = undefined;
-            if(control) { _fun00002_ip = 1130; continue _fun00001 }
- 1120:
+            if(control) { _fun00002_ip = 1137; continue _fun00001 }
+ 1127:
             control = vacuum.getAnyErrorMessage;
             source = control.bind(vacuum)();
- 1130:
+ 1137:
             sizing['error'] = source;
             source = function() { // Original name: onFocus
                 entity = global;

@@ -495,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = tango.random;
             tango = zulu.bind(tango)();
             zulu = 0.01;
-            if(!(!(tango > zulu))) { _fun00018_ip = 910; continue _fun00017 }
+            if(!(!(tango > zulu))) { _fun00018_ip = 908; continue _fun00017 }
  40:
             tango = mike.Date;
             zulu = tango.now;
@@ -628,14 +628,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             backup = null;
             target = backup == kilo;
             foxtrot = undefined;
-            if(target) { _fun00018_ip = 260; continue _fun00017 }
- 254:
+            if(target) { _fun00018_ip = 258; continue _fun00017 }
+ 252:
             foxtrot = kilo.friends;
- 260:
-            if(!(backup == foxtrot)) { _fun00018_ip = 268; continue _fun00017 }
- 264:
+ 258:
+            if(!(backup == foxtrot)) { _fun00018_ip = 266; continue _fun00017 }
+ 262:
             foxtrot = new Array(0);
- 268:
+ 266:
             foxtrot = result.bind(papa)(foxtrot);
             foxtrot = foxtrot.length;
             entity['presences_size'] = foxtrot;
@@ -659,34 +659,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             context = backup != record;
             foxtrot = '';
             result = foxtrot;
-            if(!context) { _fun00018_ip = 393; continue _fun00017 }
- 390:
+            if(!context) { _fun00018_ip = 391; continue _fun00017 }
+ 388:
             result = record;
- 393:
+ 391:
             result = sequence.bind(config)(result);
             result = result.length;
             sequence = backup != vacuum;
-            if(!sequence) { _fun00018_ip = 413; continue _fun00017 }
- 410:
+            if(!sequence) { _fun00018_ip = 411; continue _fun00017 }
+ 408:
             foxtrot = vacuum;
- 413:
+ 411:
             foxtrot = foxtrot.length;
             foxtrot = result + foxtrot;
             entity['user_settings_size'] = foxtrot;
             result = mike.JSON;
             foxtrot = result.stringify;
-            if(!(backup == source)) { _fun00018_ip = 447; continue _fun00017 }
- 443:
+            if(!(backup == source)) { _fun00018_ip = 445; continue _fun00017 }
+ 441:
             source = new Array(0);
- 447:
+ 445:
             foxtrot = foxtrot.bind(result)(source);
             result = foxtrot.length;
             source = mike.JSON;
             foxtrot = source.stringify;
-            if(!(backup == control)) { _fun00018_ip = 477; continue _fun00017 }
- 473:
+            if(!(backup == control)) { _fun00018_ip = 475; continue _fun00017 }
+ 471:
             control = new Array(0);
- 477:
+ 475:
             foxtrot = foxtrot.bind(source)(control);
             foxtrot = foxtrot.length;
             foxtrot = result + foxtrot;
@@ -703,10 +703,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['relationships_size'] = foxtrot;
             result = mike.JSON;
             foxtrot = result.stringify;
-            if(!(backup == report)) { _fun00018_ip = 568; continue _fun00017 }
- 566:
+            if(!(backup == report)) { _fun00018_ip = 566; continue _fun00017 }
+ 564:
             report = {};
- 568:
+ 566:
             report = foxtrot.bind(result)(report);
             report = report.length;
             entity['remaining_data_size'] = report;
@@ -717,10 +717,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['guild_channels_size'] = report;
             foxtrot = mike.JSON;
             report = foxtrot.stringify;
-            if(!(backup == sizing)) { _fun00018_ip = 630; continue _fun00017 }
- 626:
+            if(!(backup == sizing)) { _fun00018_ip = 628; continue _fun00017 }
+ 624:
             sizing = new Array(0);
- 630:
+ 628:
             report = report.bind(foxtrot)(sizing);
             report = report.length;
             entity['guild_members_size'] = report;
@@ -728,14 +728,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = foxtrot.stringify;
             sizing = backup == kilo;
             tango = undefined;
-            if(sizing) { _fun00018_ip = 672; continue _fun00017 }
- 666:
+            if(sizing) { _fun00018_ip = 670; continue _fun00017 }
+ 664:
             tango = kilo.guilds;
- 672:
-            if(!(backup == tango)) { _fun00018_ip = 680; continue _fun00017 }
- 676:
+ 670:
+            if(!(backup == tango)) { _fun00018_ip = 678; continue _fun00017 }
+ 674:
             tango = new Array(0);
- 680:
+ 678:
             tango = report.bind(foxtrot)(tango);
             tango = tango.length;
             entity['guild_presences_size'] = tango;
@@ -780,7 +780,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = mike - zulu;
             entity['size_metrics_duration_ms'] = mike;
             return entity;
- 910:
+ 908:
             entity = undefined;
             return entity;
         }

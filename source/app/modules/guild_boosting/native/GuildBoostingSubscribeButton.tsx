@@ -73,10 +73,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             StartGenerator();
                             options = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00004_ip = 282; continue _fun00003 }
+                            if(mike) { _fun00004_ip = 280; continue _fun00003 }
  13:
                             mike = _closure2_slot6;
-                            if(mike) { _fun00004_ip = 173; continue _fun00003 }
+                            if(mike) { _fun00004_ip = 171; continue _fun00003 }
  29:
                             zulu = _closure1_slot0;
                             tango = _closure1_slot2;
@@ -109,13 +109,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 return entity;
                             };
                             mike = verify.bind(offset)(tango, zulu, mike);
-                            SaveGenerator(address=132);
- 130:
+                            SaveGenerator(address=130);
+ 128:
                             return mike;
- 132:
+ 130:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zulu) { _fun00004_ip = 170; continue _fun00003 }
- 138:
+                            if(zulu) { _fun00004_ip = 168; continue _fun00003 }
+ 136:
                             tango = _closure1_slot0;
                             verify = _closure1_slot2;
                             zulu = 13;
@@ -123,10 +123,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = tango.bind(report)(zulu);
                             zulu = tango.closeApplyBoostModal;
                             zulu = zulu.bind(tango)();
-                            _fun00004_ip = 277; continue _fun00003;
- 170:
+                            _fun00004_ip = 275; continue _fun00003;
+ 168:
                             return mike;
- 173:
+ 171:
                             report = _closure2_slot4;
                             tango = report.push;
                             mike = _closure1_slot8;
@@ -150,10 +150,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar['objectType'] = golf;
                             mike['location'] = oscar;
                             mike = tango.bind(report)(zulu, mike);
- 277:
+ 275:
                             mike = undefined;
                             return mike;
- 282:
+ 280:
                             return entity;
                         }
                     };
@@ -241,12 +241,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = offset.bind(foxtrot)(zulu, entity);
             var _closure2_slot6 = entity;
             offset = !entity;
-            if(!offset) { _fun00002_ip = 230; continue _fun00001 }
- 216:
+            if(!offset) { _fun00002_ip = 226; continue _fun00001 }
+ 212:
             entity = _closure1_slot9;
             entity = entity.NONE;
             offset = mike !== entity;
- 230:
+ 226:
             var _closure2_slot7 = offset;
             zulu = _closure1_slot10;
             mike = _closure1_slot1;
@@ -260,8 +260,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['loadingColorDark'] = golf;
             entity['color'] = yankee;
             yankee = undefined;
-            if(romeo) { _fun00002_ip = 291; continue _fun00001 }
- 284:
+            if(romeo) { _fun00002_ip = 285; continue _fun00001 }
+ 280:
             yankee = function() {
                 zulu = _closure2_slot3;
                 mike = function(argFoo) { // Original name: handleBoostPress
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.bind(entity)(zulu);
                 return entity;
             };
- 291:
+ 285:
             entity['onPress'] = yankee;
             entity['disabled'] = offset;
             romeo = _closure1_slot0;
@@ -291,15 +291,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot[verify];
             verify = romeo.bind(tango)(verify);
             verify = verify.t;
-            if(options) { _fun00002_ip = 359; continue _fun00001 }
- 346:
+            if(options) { _fun00002_ip = 355; continue _fun00001 }
+ 340:
             options = verify.gKmQ1N;
             options = offset.bind(yankee)(options);
-            _fun00002_ip = 370; continue _fun00001;
- 359:
+            _fun00002_ip = 366; continue _fun00001;
+ 355:
             verify = verify.Uj0md3;
             options = offset.bind(yankee)(verify);
- 370:
+ 366:
             entity['text'] = options;
             entity['style'] = oscar;
             oscar = {};

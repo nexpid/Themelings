@@ -728,10 +728,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity['onPressOut'] = golf;
                         verify = _closure2_slot7;
                         golf = null;
-                        if(!verify) { _fun00010_ip = 258; continue _fun00009 }
- 255:
+                        if(!verify) { _fun00010_ip = 252; continue _fun00009 }
+ 249:
                         golf = options;
- 258:
+ 252:
                         entity['icon'] = golf;
                         oscar = _closure2_slot1;
                         entity['variant'] = oscar;
@@ -868,10 +868,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.isAndroid;
             tango = tango.bind(oscar)();
             verify = 'tabbar';
-            if(!tango) { _fun00002_ip = 1157; continue _fun00001 }
- 1151:
+            if(!tango) { _fun00002_ip = 1135; continue _fun00001 }
+ 1129:
             verify = 'tablist';
- 1157:
+ 1135:
             yankee = _closure1_slot7;
             oscar = _closure1_slot4;
             tango = {};
@@ -898,8 +898,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['contentContainerStyle'] = offset;
             entity['children'] = oscar;
             entity = verify.bind(report)(tango, entity);
-            if(!zulu) { _fun00002_ip = 1324; continue _fun00001 }
- 1280:
+            if(!zulu) { _fun00002_ip = 1302; continue _fun00001 }
+ 1258:
             tango = _closure1_slot6;
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -910,7 +910,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['gesture'] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 1324:
+ 1302:
             return entity;
         }
     };

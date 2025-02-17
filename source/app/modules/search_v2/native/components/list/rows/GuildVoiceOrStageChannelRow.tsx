@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = report.isLayoutCompact;
                         zulu = argBar;
                         zulu = tango.bind(report)(zulu);
-                        if(zulu) { _fun00006_ip = 337; continue _fun00005 }
+                        if(zulu) { _fun00006_ip = 343; continue _fun00005 }
  54:
                         oscar = function(argFoo) { // Original name: getName
                             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -126,13 +126,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         };
                         mike = offset.length;
                         report = 0;
-                        if(!(report !== mike)) { _fun00006_ip = 333; continue _fun00005 }
+                        if(!(report !== mike)) { _fun00006_ip = 339; continue _fun00005 }
  75:
                         verify = 1;
-                        if(!(verify !== mike)) { _fun00006_ip = 264; continue _fun00005 }
+                        if(!(verify !== mike)) { _fun00006_ip = 268; continue _fun00005 }
  85:
                         yankee = 2;
-                        if(!(yankee !== mike)) { _fun00006_ip = 185; continue _fun00005 }
+                        if(!(yankee !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  92:
                         zulu = _closure1_slot0;
                         romeo = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike['n'] = offset;
                         mike = tango.bind(options)(zulu, mike);
                         return mike;
- 185:
+ 187:
                         zulu = _closure1_slot0;
                         offset = _closure1_slot2;
                         mike = 7;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike['b'] = verify;
                         mike = tango.bind(options)(zulu, mike);
                         return mike;
- 264:
+ 268:
                         mike = _closure1_slot0;
                         options = _closure1_slot2;
                         entity = 7;
@@ -191,10 +191,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity['a'] = report;
                         entity = zulu.bind(tango)(mike, entity);
                         return entity;
- 333:
+ 339:
                         entity = null;
                         return entity;
- 337:
+ 343:
                         entity = null;
                         return entity;
                     }

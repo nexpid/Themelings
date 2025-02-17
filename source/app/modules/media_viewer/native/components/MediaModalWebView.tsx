@@ -381,14 +381,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure1_slot9;
                 oscar = oscar.PLAYING;
                 oscar = options !== oscar;
-                if(!oscar) { _fun00004_ip = 686; continue _fun00003 }
- 672:
+                if(!oscar) { _fun00004_ip = 676; continue _fun00003 }
+ 662:
                 golf = _closure1_slot9;
                 golf = golf.PAUSED;
                 oscar = options !== golf;
- 686:
-                if(!oscar) { _fun00004_ip = 777; continue _fun00003 }
- 689:
+ 676:
+                if(!oscar) { _fun00004_ip = 767; continue _fun00003 }
+ 679:
                 verify = _closure1_slot6;
                 options = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = verify.bind(tango)(yankee, offset);
                 golf['children'] = offset;
                 oscar = verify.bind(tango)(options, golf);
- 777:
+ 767:
                 report[1] = oscar;
                 entity['children'] = report;
                 entity = zulu.bind(tango)(mike, entity);

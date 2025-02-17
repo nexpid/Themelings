@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot13;
             foxtrot = entity.bind(report)();
             entity = null;
-            if(!(entity != yankee)) { _fun00006_ip = 1374; continue _fun00005 }
+            if(!(entity != yankee)) { _fun00006_ip = 1378; continue _fun00005 }
  61:
             offset = yankee.record;
             tango = yankee.type;
@@ -548,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = foxtrot;
             backup = entity != result;
             foxtrot = null;
-            if(!backup) { _fun00006_ip = 1172; continue _fun00005 }
+            if(!backup) { _fun00006_ip = 1176; continue _fun00005 }
  1047:
             output = _closure1_slot10;
             update = _closure1_slot1;
@@ -565,28 +565,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = update.getFontScale;
             update = echo.bind(update)();
             echo = 1.25;
-            if(!(!(update < echo))) { _fun00006_ip = 1148; continue _fun00005 }
+            if(!(!(update < echo))) { _fun00006_ip = 1152; continue _fun00005 }
  1117:
             echo = 2;
-            if(!(!(update < echo))) { _fun00006_ip = 1136; continue _fun00005 }
+            if(!(!(update < echo))) { _fun00006_ip = 1140; continue _fun00005 }
  1124:
             echo = {'width': 16, 'height': 16};
-            _fun00006_ip = 1146; continue _fun00005;
- 1136:
+            _fun00006_ip = 1150; continue _fun00005;
+ 1140:
             echo = {'width': 12, 'height': 12};
- 1146:
-            _fun00006_ip = 1162; continue _fun00005;
- 1148:
+ 1150:
+            _fun00006_ip = 1166; continue _fun00005;
+ 1152:
             echo = {'width': 8, 'height': 8};
- 1162:
+ 1166:
             backup['style'] = echo;
             foxtrot = output.bind(report)(sizing, backup);
- 1172:
+ 1176:
             yankee[1] = foxtrot;
             backup = entity != result;
             foxtrot = null;
-            if(!backup) { _fun00006_ip = 1242; continue _fun00005 }
- 1185:
+            if(!backup) { _fun00006_ip = 1246; continue _fun00005 }
+ 1189:
             output = _closure1_slot10;
             sizing = _closure1_slot15;
             backup = {};
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.EXTRA_SMALL;
             backup['iconSize'] = result;
             foxtrot = output.bind(report)(sizing, backup);
- 1242:
+ 1246:
             yankee[2] = foxtrot;
             mike['children'] = yankee;
             yankee = tango.bind(report)(zulu, mike);
@@ -631,7 +631,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['showDivider'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1374:
+ 1378:
             return entity;
         }
     };

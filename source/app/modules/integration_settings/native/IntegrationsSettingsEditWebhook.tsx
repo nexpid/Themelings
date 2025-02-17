@@ -790,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = options.CHANNEL_FOLLOWER;
                 yankee = null;
                 romeo = null;
-                if(!(foxtrot !== options)) { _fun00018_ip = 423; continue _fun00017 }
+                if(!(foxtrot !== options)) { _fun00018_ip = 425; continue _fun00017 }
  287:
                 backup = _closure1_slot18;
                 foxtrot = _closure1_slot1;
@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = output.bind(vacuum)(sizing);
                 options['label'] = sizing;
                 romeo = backup.bind(tango)(foxtrot, options);
- 423:
+ 425:
                 options = new Array(5);
                 options[0] = romeo;
                 backup = _closure1_slot18;
@@ -879,16 +879,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update = update.ALWAYS;
                 sizing['clearButtonVisibility'] = update;
                 update = undefined;
-                if(!(tango !== source)) { _fun00018_ip = 619; continue _fun00017 }
- 597:
+                if(!(tango !== source)) { _fun00018_ip = 623; continue _fun00017 }
+ 601:
                 record = source.name;
                 update = undefined;
-                if(!(update !== record)) { _fun00018_ip = 619; continue _fun00017 }
- 608:
+                if(!(update !== record)) { _fun00018_ip = 623; continue _fun00017 }
+ 612:
                 record = source.name;
                 source = 0;
                 update = record[source];
- 619:
+ 623:
                 sizing['error'] = update;
                 sizing = backup.bind(tango)(output, sizing);
                 romeo['children'] = sizing;
@@ -961,8 +961,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options[2] = romeo;
                 romeo = yankee != control;
                 yankee = null;
-                if(!romeo) { _fun00018_ip = 1162; continue _fun00017 }
- 956:
+                if(!romeo) { _fun00018_ip = 1168; continue _fun00017 }
+ 960:
                 backup = _closure1_slot18;
                 source = _closure1_slot0;
                 config = _closure1_slot2;
@@ -1007,7 +1007,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = backup.bind(tango)(output, sizing);
                 romeo['children'] = sizing;
                 yankee = backup.bind(tango)(foxtrot, romeo);
- 1162:
+ 1168:
                 options[3] = yankee;
                 yankee = _closure1_slot18;
                 output = _closure1_slot0;

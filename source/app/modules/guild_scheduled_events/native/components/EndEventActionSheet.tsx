@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(entity);
             var _closure2_slot1 = mike;
             entity = null;
-            if(!(entity != mike)) { _fun00002_ip = 591; continue _fun00001 }
+            if(!(entity != mike)) { _fun00002_ip = 599; continue _fun00001 }
  80:
             echo = function() { // Original name: handleClose
                 report = _closure1_slot1;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 591:
+ 599:
             return entity;
         }
     };

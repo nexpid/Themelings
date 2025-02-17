@@ -906,11 +906,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     backup[3] = options;
                     offset = _closure2_slot17;
                     options = null;
-                    if(!offset) { _fun00020_ip = 897; continue _fun00019 }
+                    if(!offset) { _fun00020_ip = 901; continue _fun00019 }
  706:
                     offset = _closure2_slot24;
                     options = null;
-                    if(offset) { _fun00020_ip = 897; continue _fun00019 }
+                    if(offset) { _fun00020_ip = 901; continue _fun00019 }
  718:
                     output = _closure1_slot15;
                     sizing = _closure1_slot1;
@@ -923,7 +923,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset['channelId'] = result;
                     result = _closure2_slot19;
                     result = result.jumpReturnTargetId;
-                    if(!(echo == result)) { _fun00020_ip = 823; continue _fun00019 }
+                    if(!(echo == result)) { _fun00020_ip = 825; continue _fun00019 }
  766:
                     source = _closure1_slot0;
                     control = _closure1_slot2;
@@ -937,8 +937,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     result = result.t;
                     result = result.gpoQsL;
                     result = echo.bind(update)(result);
-                    _fun00020_ip = 878; continue _fun00019;
- 823:
+                    _fun00020_ip = 882; continue _fun00019;
+ 825:
                     control = _closure1_slot0;
                     vacuum = _closure1_slot2;
                     echo = 18;
@@ -951,12 +951,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     echo = echo.t;
                     echo = echo.dpjpOj;
                     result = update.bind(source)(echo);
- 878:
+ 882:
                     offset['accessibilityLabel'] = result;
                     result = _closure2_slot34;
                     offset['didTapJump'] = result;
                     options = output.bind(tango)(sizing, offset);
- 897:
+ 901:
                     backup[4] = options;
                     options = _closure1_slot15;
                     sizing = _closure1_slot0;

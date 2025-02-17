@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = zulu[mike];
             entity = 1;
             entity = zulu[entity];
-            if(entity) { _fun00002_ip = 326; continue _fun00001 }
+            if(entity) { _fun00002_ip = 330; continue _fun00001 }
  78:
             backup = null;
             zulu = backup == kilo;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing[offset];
             romeo = yankee.bind(tango)(romeo);
             foxtrot = romeo.intl;
-            if(golf) { _fun00002_ip = 246; continue _fun00001 }
+            if(golf) { _fun00002_ip = 248; continue _fun00001 }
  207:
             romeo = foxtrot.string;
             golf = sizing[offset];
@@ -133,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = romeo.bind(foxtrot)(golf);
             verify['children'] = golf;
             golf = verify;
-            _fun00002_ip = 308; continue _fun00001;
- 246:
+            _fun00002_ip = 312; continue _fun00001;
+ 248:
             romeo = foxtrot.format;
             offset = sizing[offset];
             offset = yankee.bind(tango)(offset);
@@ -143,20 +143,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             sizing = backup == kilo;
             backup = undefined;
-            if(sizing) { _fun00002_ip = 288; continue _fun00001 }
- 282:
+            if(sizing) { _fun00002_ip = 292; continue _fun00001 }
+ 286:
             backup = kilo.guildsFollowing;
- 288:
+ 292:
             offset['numGuildsFollowing'] = backup;
             offset = romeo.bind(foxtrot)(yankee, offset);
             verify['children'] = offset;
             golf = verify;
- 308:
+ 312:
             golf = zulu.bind(tango)(options, golf);
             entity['children'] = golf;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 326:
+ 330:
             zulu = _closure1_slot6;
             mike = _closure1_slot4;
             entity = {};

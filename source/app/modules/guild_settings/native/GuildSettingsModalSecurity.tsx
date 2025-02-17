@@ -314,15 +314,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = offset;
             romeo = foxtrot != output;
             offset = null;
-            if(!romeo) { _fun00002_ip = 807; continue _fun00001 }
- 687:
+            if(!romeo) { _fun00002_ip = 812; continue _fun00001 }
+ 690:
             backup = output.hasFeature;
             romeo = _closure1_slot9;
             romeo = romeo.DISCOVERABLE;
             romeo = backup.bind(output)(romeo);
             offset = null;
-            if(!romeo) { _fun00002_ip = 807; continue _fun00001 }
- 713:
+            if(!romeo) { _fun00002_ip = 812; continue _fun00001 }
+ 716:
             foxtrot = _closure1_slot11;
             echo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = output.bind(result)(backup);
             yankee['children'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 807:
+ 812:
             verify[2] = offset;
             options['children'] = verify;
             verify = zulu.bind(tango)(golf, options);

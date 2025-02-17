@@ -871,7 +871,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = argFoo;
                 entity = _closure1_slot9;
                 entity = entity.PLAYSTATION;
-                if(!(entity !== report)) { _fun00020_ip = 186; continue _fun00019 }
+                if(!(entity !== report)) { _fun00020_ip = 188; continue _fun00019 }
  23:
                 entity = _closure1_slot9;
                 entity = entity.XBOX;
@@ -913,7 +913,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['theme'] = golf;
                 entity = tango.bind(entity)(zulu, mike, report);
                 return entity;
- 186:
+ 188:
                 tango = _closure1_slot13;
                 zulu = _closure1_slot21;
                 mike = {};

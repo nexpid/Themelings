@@ -796,8 +796,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = offset.OqccVl;
                 offset = {};
                 romeo = null;
-                if(!(romeo == echo)) { _fun00020_ip = 215; continue _fun00019 }
- 161:
+                if(!(romeo == echo)) { _fun00020_ip = 217; continue _fun00019 }
+ 163:
                 control = _closure1_slot0;
                 result = _closure1_slot3;
                 update = result[vacuum];
@@ -809,10 +809,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result = result.t;
                 result = result.GSfOoq;
                 result = update.bind(source)(result);
-                _fun00020_ip = 220; continue _fun00019;
- 215:
+                _fun00020_ip = 222; continue _fun00019;
+ 217:
                 result = echo.name;
- 220:
+ 222:
                 offset['categoryName'] = result;
                 offset = sizing.bind(output)(foxtrot, offset);
                 report['title'] = offset;
@@ -821,13 +821,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report[0] = oscar;
                 verify = romeo != yankee;
                 oscar = null;
-                if(!verify) { _fun00020_ip = 361; continue _fun00019 }
- 258:
+                if(!verify) { _fun00020_ip = 363; continue _fun00019 }
+ 260:
                 offset = yankee.id;
                 verify = 'null';
                 oscar = null;
-                if(!(verify === offset)) { _fun00020_ip = 361; continue _fun00019 }
- 273:
+                if(!(verify === offset)) { _fun00020_ip = 363; continue _fun00019 }
+ 275:
                 offset = _closure1_slot19;
                 foxtrot = _closure1_slot0;
                 romeo = _closure1_slot3;
@@ -854,7 +854,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = offset.bind(tango)(foxtrot, romeo, yankee);
                 options['children'] = yankee;
                 oscar = offset.bind(tango)(verify, options);
- 361:
+ 363:
                 report[1] = oscar;
                 oscar = golf.renderCategories;
                 oscar = oscar.bind(golf)();

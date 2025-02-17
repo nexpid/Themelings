@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  550:
                 foxtrot = status.presenceCount;
                 romeo = null;
-                if(!(romeo == foxtrot)) { _fun00004_ip = 664; continue _fun00003 }
+                if(!(romeo == foxtrot)) { _fun00004_ip = 662; continue _fun00003 }
  562:
                 backup = _closure1_slot5;
                 control = _closure1_slot0;
@@ -268,8 +268,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 kilo = sizing.bind(source)(kilo);
                 romeo['children'] = kilo;
                 romeo = backup.bind(tango)(foxtrot, romeo);
-                _fun00004_ip = 1102; continue _fun00003;
- 664:
+                _fun00004_ip = 1088; continue _fun00003;
+ 662:
                 kilo = _closure1_slot7;
                 backup = _closure1_slot6;
                 foxtrot = {};
@@ -303,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source['style'] = context;
                 source = vacuum.bind(tango)(control, source);
                 sizing[1] = source;
-                if(update) { _fun00004_ip = 994; continue _fun00003 }
+                if(update) { _fun00004_ip = 982; continue _fun00003 }
+ 819:
+                if(output) { _fun00004_ip = 982; continue _fun00003 }
  825:
-                if(output) { _fun00004_ip = 994; continue _fun00003 }
- 831:
                 source = _closure1_slot5;
                 update = _closure1_slot6;
                 output = {};
@@ -352,8 +352,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 control = source.bind(tango)(vacuum, control);
                 output['children'] = control;
                 output = source.bind(tango)(update, output);
-                _fun00004_ip = 1088; continue _fun00003;
- 994:
+                _fun00004_ip = 1074; continue _fun00003;
+ 982:
                 update = _closure1_slot5;
                 sequence = _closure1_slot0;
                 source = _closure1_slot2;
@@ -372,11 +372,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source = control.bind(vacuum)(source);
                 result['children'] = source;
                 output = update.bind(tango)(echo, result);
- 1088:
+ 1074:
                 sizing[2] = output;
                 foxtrot['children'] = sizing;
                 romeo = kilo.bind(tango)(backup, foxtrot);
- 1102:
+ 1088:
                 offset['children'] = romeo;
                 offset = yankee.bind(tango)(mike, offset);
                 verify[1] = offset;

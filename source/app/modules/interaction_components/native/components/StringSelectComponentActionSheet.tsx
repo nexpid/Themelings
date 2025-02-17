@@ -355,12 +355,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = null;
                     mike = tango != entity;
                     entity = null;
-                    if(!mike) { _fun00010_ip = 116; continue _fun00009 }
+                    if(!mike) { _fun00010_ip = 112; continue _fun00009 }
  19:
                     zulu = oscar.description;
                     mike = '';
                     entity = null;
-                    if(!(mike !== zulu)) { _fun00010_ip = 116; continue _fun00009 }
+                    if(!(mike !== zulu)) { _fun00010_ip = 112; continue _fun00009 }
  34:
                     report = _closure1_slot5;
                     zulu = _closure1_slot0;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = oscar.description;
                     mike['children'] = oscar;
                     entity = report.bind(tango)(zulu, mike);
- 116:
+ 112:
                     return entity;
                 }
             };
@@ -435,10 +435,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = report.emoji;
                     options = null;
                     options = options == golf;
-                    if(options) { _fun00012_ip = 80; continue _fun00011 }
- 75:
+                    if(options) { _fun00012_ip = 82; continue _fun00011 }
+ 77:
                     oscar = golf.name;
- 80:
+ 82:
                     entity['emojiName'] = oscar;
                     oscar = report.label;
                     entity['optionName'] = oscar;

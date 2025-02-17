@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = oscar.bind(zulu)(report);
                 zulu = null;
                 tango['current'] = zulu;
-                _fun00002_ip = 100; continue _fun00001;
+                _fun00002_ip = 98; continue _fun00001;
  61:
                 tango = _closure2_slot5;
                 zulu = global;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = 1000;
                 zulu = golf.bind(oscar)(report, zulu);
                 tango['current'] = zulu;
- 100:
+ 98:
                 mike = _closure2_slot5;
                 mike = mike.current;
                 var _closure3_slot0 = mike;

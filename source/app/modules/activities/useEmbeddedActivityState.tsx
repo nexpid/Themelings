@@ -79,37 +79,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = null;
                 golf = mike == oscar;
                 zulu = undefined;
-                if(golf) { _fun00002_ip = 76; continue _fun00001 }
- 70:
+                if(golf) { _fun00002_ip = 74; continue _fun00001 }
+ 68:
                 zulu = oscar.participants;
- 76:
-                if(!(mike == zulu)) { _fun00002_ip = 126; continue _fun00001 }
- 80:
+ 74:
+                if(!(mike == zulu)) { _fun00002_ip = 124; continue _fun00001 }
+ 78:
                 golf = mike == oscar;
                 zulu = undefined;
-                if(golf) { _fun00002_ip = 95; continue _fun00001 }
- 89:
+                if(golf) { _fun00002_ip = 93; continue _fun00001 }
+ 87:
                 zulu = oscar.userIds;
- 95:
+ 93:
                 golf = mike != zulu;
                 zulu = false;
-                if(!golf) { _fun00002_ip = 171; continue _fun00001 }
- 104:
+                if(!golf) { _fun00002_ip = 167; continue _fun00001 }
+ 102:
                 verify = oscar.userIds;
                 golf = verify.has;
                 entity = _closure2_slot1;
                 zulu = golf.bind(verify)(entity);
-                _fun00002_ip = 171; continue _fun00001;
- 126:
+                _fun00002_ip = 167; continue _fun00001;
+ 124:
                 golf = mike == oscar;
                 entity = undefined;
-                if(golf) { _fun00002_ip = 167; continue _fun00001 }
- 135:
+                if(golf) { _fun00002_ip = 163; continue _fun00001 }
+ 133:
                 golf = oscar.participants;
                 oscar = mike == golf;
                 entity = undefined;
-                if(oscar) { _fun00002_ip = 167; continue _fun00001 }
- 150:
+                if(oscar) { _fun00002_ip = 163; continue _fun00001 }
+ 148:
                 oscar = golf.find;
                 report = function(argFoo) {
                     zulu = _closure1_slot0;
@@ -124,16 +124,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 entity = oscar.bind(golf)(report);
- 167:
+ 163:
                 zulu = mike != entity;
- 171:
+ 167:
                 entity = {};
                 entity['userActivity'] = tango;
                 mike = mike != zulu;
-                if(!mike) { _fun00002_ip = 188; continue _fun00001 }
- 185:
+                if(!mike) { _fun00002_ip = 184; continue _fun00001 }
+ 181:
                 mike = zulu;
- 188:
+ 184:
                 entity['inActivity'] = mike;
                 return entity;
             }

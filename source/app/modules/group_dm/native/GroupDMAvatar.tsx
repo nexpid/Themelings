@@ -45,11 +45,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             echo = verify.bind(kilo)(zulu, options);
             verify = null;
-            if(!(verify == foxtrot)) { _fun00002_ip = 150; continue _fun00001 }
- 142:
+            if(!(verify == foxtrot)) { _fun00002_ip = 148; continue _fun00001 }
+ 140:
             zulu = _closure1_slot10;
             foxtrot = zulu[report];
- 150:
+ 148:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
             mike = report[mike];
@@ -145,20 +145,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['guildId'] = tango;
             report['cutout'] = options;
             report['animate'] = offset;
-            if(!(verify != yankee)) { _fun00002_ip = 336; continue _fun00001 }
- 322:
+            if(!(verify != yankee)) { _fun00002_ip = 332; continue _fun00001 }
+ 318:
             options = {};
             echo = 0;
             echo = yankee[echo];
             options['user'] = echo;
-            _fun00002_ip = 351; continue _fun00001;
- 336:
+            _fun00002_ip = 347; continue _fun00001;
+ 332:
             echo = {};
             update = 0;
             update = romeo[update];
             echo['source'] = update;
             options = echo;
- 351:
+ 347:
             control = report;
             source = options;
             options = copyDataProperties(control, source);
@@ -181,20 +181,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['size'] = foxtrot;
             oscar['guildId'] = tango;
             oscar['animate'] = offset;
-            if(!(verify != yankee)) { _fun00002_ip = 464; continue _fun00001 }
- 449:
+            if(!(verify != yankee)) { _fun00002_ip = 460; continue _fun00001 }
+ 445:
             verify = {};
             offset = 1;
             offset = yankee[offset];
             verify['user'] = offset;
-            _fun00002_ip = 480; continue _fun00001;
- 464:
+            _fun00002_ip = 476; continue _fun00001;
+ 460:
             offset = {};
             yankee = 1;
             yankee = romeo[yankee];
             offset['source'] = yankee;
             verify = offset;
- 480:
+ 476:
             control = oscar;
             source = verify;
             verify = copyDataProperties(control, source);
@@ -385,20 +385,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = tango.bind(backup)(zulu, entity);
             zulu = verify.icon;
             entity = null;
-            if(!(entity == zulu)) { _fun00004_ip = 299; continue _fun00003 }
- 122:
+            if(!(entity == zulu)) { _fun00004_ip = 297; continue _fun00003 }
+ 120:
             entity = verify.recipients;
             entity = entity.length;
             backup = 0;
-            if(!(backup !== entity)) { _fun00004_ip = 299; continue _fun00003 }
- 142:
+            if(!(backup !== entity)) { _fun00004_ip = 297; continue _fun00003 }
+ 140:
             entity = kilo.length;
-            if(!(backup !== entity)) { _fun00004_ip = 299; continue _fun00003 }
- 154:
+            if(!(backup !== entity)) { _fun00004_ip = 297; continue _fun00003 }
+ 152:
             zulu = kilo.length;
             entity = 1;
-            if(!(entity !== zulu)) { _fun00004_ip = 220; continue _fun00003 }
- 166:
+            if(!(entity !== zulu)) { _fun00004_ip = 218; continue _fun00003 }
+ 164:
             tango = _closure1_slot7;
             zulu = _closure1_slot12;
             entity = {};
@@ -411,8 +411,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessible'] = golf;
             entity['accessibilityLabel'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun00004_ip = 297; continue _fun00003;
- 220:
+            _fun00004_ip = 295; continue _fun00003;
+ 218:
             foxtrot = _closure1_slot7;
             tango = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -432,9 +432,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['accessible'] = golf;
             zulu['accessibilityLabel'] = oscar;
             entity = foxtrot.bind(report)(tango, zulu);
+ 295:
+            _fun00004_ip = 366; continue _fun00003;
  297:
-            _fun00004_ip = 368; continue _fun00003;
- 299:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -452,7 +452,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['accessible'] = golf;
             mike['accessibilityLabel'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 368:
+ 366:
             return entity;
         }
     };

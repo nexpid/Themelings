@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.isStickerPackAnimated;
             mike = argFoo;
             mike = zulu.bind(report)(mike);
-            if(!mike) { _fun00002_ip = 125; continue _fun00001 }
+            if(!mike) { _fun00002_ip = 127; continue _fun00001 }
  46:
             zulu = entity.push;
             mike = {};
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(oscar)(tango);
             mike['description'] = tango;
             mike = zulu.bind(entity)(mike);
- 125:
+ 127:
             return entity;
         }
     };

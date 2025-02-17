@@ -123,8 +123,8 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = options.length;
             zulu = 0;
             entity = null;
-            if(!(zulu !== tango)) { _fun00002_ip = 225; continue _fun00001 }
- 184:
+            if(!(zulu !== tango)) { _fun00002_ip = 215; continue _fun00001 }
+ 176:
             tango = _closure1_slot4;
             zulu = _closure1_slot2;
             mike = {};
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = golf.bind(options)(oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 225:
+ 215:
             return entity;
         }
     };

@@ -164,8 +164,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu['value'] = tango;
             entity[6] = zulu;
             zulu = argFoo;
-            if(!zulu) { _fun00002_ip = 615; continue _fun00001 }
- 526:
+            if(!zulu) { _fun00002_ip = 631; continue _fun00001 }
+ 540:
             tango = entity.push;
             zulu = {};
             options = _closure1_slot0;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.SPEAKERPHONE;
             zulu['value'] = report;
             zulu = tango.bind(entity)(zulu);
- 615:
+ 631:
             tango = entity.push;
             zulu = {};
             verify = _closure1_slot0;

@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useHasMaxConnections;
             mike = entity.bind(mike)();
             entity = null;
-            if(mike) { _fun00002_ip = 128; continue _fun00001 }
+            if(mike) { _fun00002_ip = 130; continue _fun00001 }
  40:
             tango = _closure1_slot7;
             zulu = _closure1_slot9;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike['onPress'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 128:
+ 130:
             return entity;
         }
     };
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.useHasMaxConnections;
             entity = entity.bind(mike)();
-            if(entity) { _fun00004_ip = 139; continue _fun00003 }
+            if(entity) { _fun00004_ip = 141; continue _fun00003 }
  40:
             entity = function(argFoo) { // Original name: handleQrCodeScanSucess
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 139:
+ 141:
             entity = null;
             return entity;
         }

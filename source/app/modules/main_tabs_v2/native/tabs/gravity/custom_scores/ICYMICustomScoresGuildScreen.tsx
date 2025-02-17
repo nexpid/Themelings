@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = zulu.bind(tango)(entity, mike);
             entity = null;
-            if(!(entity != result)) { _fun00008_ip = 650; continue _fun00007 }
+            if(!(entity != result)) { _fun00008_ip = 646; continue _fun00007 }
  252:
             source = _closure1_slot0;
             echo = _closure1_slot2;
@@ -459,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             if(options) { _fun00008_ip = 408; continue _fun00007 }
  398:
             options = result.name;
-            _fun00008_ip = 584; continue _fun00007;
+            _fun00008_ip = 580; continue _fun00007;
  408:
             foxtrot = _closure1_slot12;
             romeo = _closure1_slot5;
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = kilo;
             verify['children'] = backup;
             options = foxtrot.bind(report)(romeo, verify);
- 584:
+ 580:
             mike['label'] = options;
             verify = _closure1_slot11;
             options = _closure1_slot0;
@@ -515,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onPress'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 650:
+ 646:
             return entity;
         }
     };
@@ -855,7 +855,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = undefined;
                     oscar = undefined;
                     report = undefined;
-                    if(mike) { _fun00022_ip = 976; continue _fun00021 }
+                    if(mike) { _fun00022_ip = 978; continue _fun00021 }
  133:
                     record = romeo.value;
                     mike = _closure1_slot3;
@@ -869,7 +869,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = golf;
                     context = oscar;
                     record = report;
-                    if(!(result !== mike)) { _fun00022_ip = 937; continue _fun00021 }
+                    if(!(result !== mike)) { _fun00022_ip = 939; continue _fun00021 }
  184:
                     whiskey = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -883,7 +883,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = golf;
                     context = oscar;
                     record = report;
-                    if(!(equality !== mike)) { _fun00022_ip = 937; continue _fun00021 }
+                    if(!(equality !== mike)) { _fun00022_ip = 939; continue _fun00021 }
  235:
                     mike = _closure2_slot5;
                     mike = mike.voiceChannelsSectionNumber;
@@ -894,7 +894,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = golf;
                     context = oscar;
                     record = report;
-                    if(!(equality !== mike)) { _fun00022_ip = 937; continue _fun00021 }
+                    if(!(equality !== mike)) { _fun00022_ip = 939; continue _fun00021 }
  273:
                     whiskey = _closure2_slot5;
                     mike = whiskey.getCategoryFromSection;
@@ -928,7 +928,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = golf;
                     context = oscar;
                     record = report;
-                    if(!(kilo != variable38)) { _fun00022_ip = 937; continue _fun00021 }
+                    if(!(kilo != variable38)) { _fun00022_ip = 939; continue _fun00021 }
  352:
                     mike = variable38.length;
                     lima = variable39;
@@ -938,7 +938,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = golf;
                     context = oscar;
                     record = report;
-                    if(!(result !== mike)) { _fun00022_ip = 937; continue _fun00021 }
+                    if(!(result !== mike)) { _fun00022_ip = 939; continue _fun00021 }
  385:
                     quebec = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike[foxtrot];
                     mike = quebec.bind(control)(mike);
                     mike = mike.SECTION_INDEX_FAVORITES;
-                    if(!(equality !== mike)) { _fun00022_ip = 644; continue _fun00021 }
+                    if(!(equality !== mike)) { _fun00022_ip = 646; continue _fun00021 }
  459:
                     quebec = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -971,7 +971,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable37 = whiskey;
                     variable36 = options;
                     quebec = golf;
-                    if(!(equality >= mike)) { _fun00022_ip = 702; continue _fun00021 }
+                    if(!(equality >= mike)) { _fun00022_ip = 704; continue _fun00021 }
  525:
                     whiskey = _closure2_slot5;
                     mike = whiskey.getNamedCategoryFromSection;
@@ -992,7 +992,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable37 = variable40;
                     variable36 = whiskey;
                     quebec = mike;
-                    _fun00022_ip = 702; continue _fun00021;
+                    _fun00022_ip = 704; continue _fun00021;
  584:
                     variable41 = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -1007,8 +1007,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable37 = whiskey.bind(variable40)(mike);
                     variable36 = options;
                     quebec = golf;
-                    _fun00022_ip = 702; continue _fun00021;
- 644:
+                    _fun00022_ip = 704; continue _fun00021;
+ 646:
                     variable41 = _closure1_slot0;
                     mike = _closure1_slot2;
                     whiskey = mike[sizing];
@@ -1022,7 +1022,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     variable37 = whiskey.bind(variable40)(mike);
                     variable36 = options;
                     quebec = golf;
- 702:
+ 704:
                     whiskey = entity.push;
                     mike = {};
                     mike['kind'] = update;
@@ -1043,8 +1043,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = quebec;
                     context = whiskey;
                     record = equality;
-                    if(mike) { _fun00022_ip = 937; continue _fun00021 }
- 784:
+                    if(mike) { _fun00022_ip = 939; continue _fun00021 }
+ 786:
                     variable40 = whiskey.value;
                     mike = _closure1_slot3;
                     mike = mike.bind(control)(variable40, echo);
@@ -1081,8 +1081,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     papa = quebec;
                     context = whiskey;
                     record = equality;
-                    if(!mike) { _fun00022_ip = 784; continue _fun00021 }
- 937:
+                    if(!mike) { _fun00022_ip = 786; continue _fun00021 }
+ 939:
                     whiskey = source.bind(control)();
                     mike = whiskey.done;
                     yankee = lima;
@@ -1094,16 +1094,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = record;
                     romeo = whiskey;
                     if(!mike) { _fun00022_ip = 133; continue _fun00021 }
- 976:
+ 978:
                     mike = entity.length;
                     mike = mike - zulu;
                     zulu = entity[mike];
                     mike = zulu.kind;
-                    if(!(tango === mike)) { _fun00022_ip = 1006; continue _fun00021 }
- 998:
+                    if(!(tango === mike)) { _fun00022_ip = 1008; continue _fun00021 }
+ 1000:
                     mike = true;
                     zulu['end'] = mike;
- 1006:
+ 1008:
                     return entity;
                 }
             };
@@ -1200,12 +1200,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['children'] = oscar;
                     entity = report.bind(mike)(tango, zulu);
  295:
-                    _fun00024_ip = 658; continue _fun00023;
+                    _fun00024_ip = 659; continue _fun00023;
  300:
                     zulu = _closure2_slot3;
                     mike = null;
                     zulu = mike != zulu;
-                    if(!zulu) { _fun00024_ip = 655; continue _fun00023 }
+                    if(!zulu) { _fun00024_ip = 656; continue _fun00023 }
  319:
                     oscar = _closure1_slot12;
                     report = _closure1_slot13;
@@ -1279,9 +1279,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf[2] = options;
                     tango['children'] = golf;
                     mike = oscar.bind(zulu)(report, tango);
- 655:
+ 656:
                     entity = mike;
- 658:
+ 659:
                     return entity;
                 }
             };

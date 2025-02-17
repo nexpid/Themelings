@@ -124,25 +124,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar[verify];
             oscar = golf.bind(options)(oscar);
             golf = oscar.colors;
-            if(report) { _fun00002_ip = 325; continue _fun00001 }
- 303:
+            if(report) { _fun00002_ip = 321; continue _fun00001 }
+ 299:
             oscar = argBar;
-            if(oscar) { _fun00002_ip = 317; continue _fun00001 }
- 309:
+            if(oscar) { _fun00002_ip = 313; continue _fun00001 }
+ 305:
             oscar = golf.TEXT_MUTED;
-            _fun00002_ip = 323; continue _fun00001;
- 317:
+            _fun00002_ip = 319; continue _fun00001;
+ 313:
             oscar = golf.TEXT_PRIMARY;
- 323:
-            _fun00002_ip = 331; continue _fun00001;
- 325:
+ 319:
+            _fun00002_ip = 327; continue _fun00001;
+ 321:
             oscar = golf.INTERACTIVE_MUTED;
- 331:
+ 327:
             mike['tintColor'] = oscar;
-            if(report) { _fun00002_ip = 343; continue _fun00001 }
- 339:
+            if(report) { _fun00002_ip = 339; continue _fun00001 }
+ 335:
             zulu = _closure1_slot7;
- 343:
+ 339:
             mike['opacity'] = zulu;
             entity['icon'] = mike;
             return entity;
@@ -491,10 +491,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['needSubscriptionToAccess'] = foxtrot;
             oscar['showGuildBadgeIcon'] = romeo;
             verify = null;
-            if(!yankee) { _fun00004_ip = 1194; continue _fun00003 }
- 1191:
+            if(!yankee) { _fun00004_ip = 1195; continue _fun00003 }
+ 1192:
             verify = offset;
- 1194:
+ 1195:
             oscar['end'] = verify;
             oscar = options.bind(zulu)(oscar);
             golf[1] = oscar;

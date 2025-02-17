@@ -60,11 +60,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  57:
                 golf = oscar == tango;
                 entity = null;
-                if(golf) { _fun00002_ip = 121; continue _fun00001 }
+                if(golf) { _fun00002_ip = 119; continue _fun00001 }
  66:
                 zulu = oscar == zulu;
                 entity = null;
-                if(zulu) { _fun00002_ip = 121; continue _fun00001 }
+                if(zulu) { _fun00002_ip = 119; continue _fun00001 }
  75:
                 zulu = oscar == tango;
                 report = undefined;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = oscar == tango;
                 report = tango;
  97:
-                if(zulu) { _fun00002_ip = 117; continue _fun00001 }
+                if(zulu) { _fun00002_ip = 115; continue _fun00001 }
  100:
                 tango = report.forEach;
                 zulu = function(argFoo) {
@@ -99,9 +99,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     }
                 };
                 zulu = tango.bind(report)(zulu);
- 117:
+ 115:
                 entity = _closure3_slot0;
- 121:
+ 119:
                 return entity;
             }
         };

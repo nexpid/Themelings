@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  492:
             oscar = options;
  495:
-            if(!oscar) { _fun00002_ip = 631; continue _fun00001 }
+            if(!oscar) { _fun00002_ip = 633; continue _fun00001 }
  501:
             romeo = _closure1_slot13;
             sizing = _closure1_slot0;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = result.bind(source)(sizing, kilo);
             options['children'] = kilo;
             oscar = romeo.bind(tango)(verify, options);
- 631:
+ 633:
             entity['children'] = oscar;
             options = report.bind(tango)(mike, entity);
             verify = _closure1_slot1;
@@ -417,12 +417,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(2);
             sizing[0] = result;
             result = undefined;
-            if(echo) { _fun00002_ip = 814; continue _fun00001 }
- 804:
+            if(echo) { _fun00002_ip = 816; continue _fun00001 }
+ 806:
             echo = {};
             echo['paddingTop'] = update;
             result = echo;
- 814:
+ 816:
             sizing[1] = result;
             verify['style'] = sizing;
             echo = _closure1_slot13;
@@ -479,8 +479,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = verify;
             report[2] = options;
             verify = _closure1_slot13;
-            if(oscar) { _fun00002_ip = 1044; continue _fun00001 }
- 908:
+            if(oscar) { _fun00002_ip = 1048; continue _fun00001 }
+ 910:
             options = _closure1_slot1;
             result = _closure1_slot3;
             oscar = 24;
@@ -511,8 +511,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(sizing)(backup, foxtrot);
             oscar['body'] = foxtrot;
             oscar = verify.bind(tango)(options, oscar);
-            _fun00002_ip = 1125; continue _fun00001;
- 1044:
+            _fun00002_ip = 1129; continue _fun00001;
+ 1048:
             options = _closure1_slot8;
             golf = {};
             golf['sections'] = romeo;
@@ -703,7 +703,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['keyboardDismissMode'] = yankee;
             golf['contentContainerStyle'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 1125:
+ 1129:
             report[3] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

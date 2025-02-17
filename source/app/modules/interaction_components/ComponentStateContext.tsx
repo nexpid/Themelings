@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot2;
                 zulu = mike.validators;
                 mike = null;
-                if(!(mike != zulu)) { _fun00002_ip = 42; continue _fun00001 }
- 32:
+                if(!(mike != zulu)) { _fun00002_ip = 40; continue _fun00001 }
+ 30:
                 mike = zulu.add;
                 mike = mike.bind(zulu)(tango);
- 42:
+ 40:
                 entity = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -152,10 +152,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot14;
             mike = backup.channel_id;
             golf = golf.bind(report)(mike);
-            if(golf) { _fun00006_ip = 142; continue _fun00005 }
- 139:
+            if(golf) { _fun00006_ip = 138; continue _fun00005 }
+ 135:
             golf = entity;
- 142:
+ 138:
             entity = _closure1_slot16;
             entity = entity.bind(report)(oscar, verify);
             mike = entity.error;
@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = romeo;
             foxtrot = backup.applicationId;
             entity = null;
-            if(!(entity == foxtrot)) { _fun00006_ip = 189; continue _fun00005 }
- 178:
+            if(!(entity == foxtrot)) { _fun00006_ip = 185; continue _fun00005 }
+ 174:
             entity = backup.author;
             foxtrot = entity.id;
- 189:
+ 185:
             var _closure2_slot3 = foxtrot;
             entity = {};
             entity['state'] = verify;
@@ -725,10 +725,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             yankee = zulu == oscar;
             mike = undefined;
-            if(yankee) { _fun00014_ip = 216; continue _fun00013 }
- 211:
+            if(yankee) { _fun00014_ip = 210; continue _fun00013 }
+ 205:
             mike = oscar.guild_id;
- 216:
+ 210:
             offset = options.bind(offset)(mike);
             options = _closure1_slot3;
             mike = 2;
@@ -743,42 +743,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = options.useCanUnarchiveThread;
             tango = tango.bind(options)(oscar);
             entity = !entity;
+            if(entity) { _fun00014_ip = 275; continue _fun00013 }
+ 272:
+            entity = golf;
+ 275:
             if(entity) { _fun00014_ip = 281; continue _fun00013 }
  278:
-            entity = golf;
- 281:
-            if(entity) { _fun00014_ip = 287; continue _fun00013 }
- 284:
             entity = report;
- 287:
-            if(entity) { _fun00014_ip = 310; continue _fun00013 }
- 290:
+ 281:
+            if(entity) { _fun00014_ip = 304; continue _fun00013 }
+ 284:
             report = zulu != oscar;
-            if(!report) { _fun00014_ip = 307; continue _fun00013 }
- 297:
+            if(!report) { _fun00014_ip = 301; continue _fun00013 }
+ 291:
             golf = oscar.isLockedThread;
             report = golf.bind(oscar)();
- 307:
+ 301:
             entity = report;
- 310:
-            if(entity) { _fun00014_ip = 339; continue _fun00013 }
- 313:
+ 304:
+            if(entity) { _fun00014_ip = 333; continue _fun00013 }
+ 307:
             zulu = zulu != oscar;
-            if(!zulu) { _fun00014_ip = 330; continue _fun00013 }
- 320:
+            if(!zulu) { _fun00014_ip = 324; continue _fun00013 }
+ 314:
             report = oscar.isArchivedThread;
             zulu = report.bind(oscar)();
- 330:
-            if(!zulu) { _fun00014_ip = 336; continue _fun00013 }
- 333:
+ 324:
+            if(!zulu) { _fun00014_ip = 330; continue _fun00013 }
+ 327:
             zulu = !tango;
- 336:
+ 330:
             entity = zulu;
- 339:
-            if(entity) { _fun00014_ip = 345; continue _fun00013 }
- 342:
+ 333:
+            if(entity) { _fun00014_ip = 339; continue _fun00013 }
+ 336:
             entity = mike;
- 345:
+ 339:
             entity = !entity;
             entity = !entity;
             return entity;

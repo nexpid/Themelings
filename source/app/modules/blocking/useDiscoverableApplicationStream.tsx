@@ -220,15 +220,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             report = golf.bind(options)(report, oscar);
-            if(!zulu) { _fun00002_ip = 265; continue _fun00001 }
- 249:
+            if(!zulu) { _fun00002_ip = 259; continue _fun00001 }
+ 243:
             entity = _closure1_slot7;
             zulu = entity.BLOCKED;
             entity = null;
-            if(!(tango !== zulu)) { _fun00002_ip = 268; continue _fun00001 }
- 265:
+            if(!(tango !== zulu)) { _fun00002_ip = 262; continue _fun00001 }
+ 259:
             entity = mike;
- 268:
+ 262:
             return entity;
         }
     };

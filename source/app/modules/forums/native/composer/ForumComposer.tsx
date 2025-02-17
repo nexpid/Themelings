@@ -999,28 +999,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = record[result];
             result = config.bind(tango)(result);
             result = result.t;
-            if(sizing) { _fun00016_ip = 1408; continue _fun00015 }
+            if(sizing) { _fun00016_ip = 1410; continue _fun00015 }
  1395:
             sizing = result.pIuQIy;
             sizing = vacuum.bind(sequence)(sizing);
-            _fun00016_ip = 1419; continue _fun00015;
- 1408:
+            _fun00016_ip = 1421; continue _fun00015;
+ 1410:
             result = result.R3BPHx;
             sizing = vacuum.bind(sequence)(result);
- 1419:
+ 1421:
             offset['text'] = sizing;
             result = _closure1_slot0;
             sizing = _closure1_slot2;
             sizing = sizing[control];
             sizing = result.bind(tango)(sizing);
             result = sizing.ButtonLooks;
-            if(kilo) { _fun00016_ip = 1457; continue _fun00015 }
- 1449:
+            if(kilo) { _fun00016_ip = 1459; continue _fun00015 }
+ 1451:
             sizing = result.OUTLINED;
-            _fun00016_ip = 1463; continue _fun00015;
- 1457:
+            _fun00016_ip = 1465; continue _fun00015;
+ 1459:
             sizing = result.FILLED;
- 1463:
+ 1465:
             offset['look'] = sizing;
             sizing = true;
             offset['shrink'] = sizing;
@@ -1030,28 +1030,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = result;
             result = {};
             echo = 0;
-            if(!source) { _fun00016_ip = 1515; continue _fun00015 }
- 1501:
+            if(!source) { _fun00016_ip = 1517; continue _fun00015 }
+ 1503:
             source = _closure1_slot28;
             update = -1;
             echo = update * source;
- 1515:
+ 1517:
             result['marginTop'] = echo;
             sizing[1] = result;
             offset['style'] = sizing;
-            if(kilo) { _fun00016_ip = 1538; continue _fun00015 }
- 1530:
+            if(kilo) { _fun00016_ip = 1540; continue _fun00015 }
+ 1532:
             sizing = output.postButtonTextDisabled;
-            _fun00016_ip = 1544; continue _fun00015;
- 1538:
+            _fun00016_ip = 1546; continue _fun00015;
+ 1540:
             sizing = output.postButtonText;
- 1544:
+ 1546:
             offset['textStyle'] = sizing;
             offset['loading'] = backup;
-            if(backup) { _fun00016_ip = 1560; continue _fun00015 }
- 1557:
+            if(backup) { _fun00016_ip = 1562; continue _fun00015 }
+ 1559:
             backup = !kilo;
- 1560:
+ 1562:
             offset['disabled'] = backup;
             backup = function() { // Original name: renderIcon
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
@@ -2817,7 +2817,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = mike;
  2399:
             _closure2_slot38 = papa;
-            if(!(entity != papa)) { _fun00030_ip = 4187; continue _fun00029 }
+            if(!(entity != papa)) { _fun00030_ip = 4197; continue _fun00029 }
  2410:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -3089,8 +3089,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence[0] = record;
             variable41 = entity != variable44;
             record = null;
-            if(!variable41) { _fun00030_ip = 3047; continue _fun00029 }
- 3001:
+            if(!variable41) { _fun00030_ip = 3049; continue _fun00029 }
+ 3003:
             variable43 = _closure1_slot31;
             variable42 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -3102,7 +3102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable41['style'] = variable45;
             variable41['children'] = variable44;
             record = variable43.bind(report)(variable42, variable41);
- 3047:
+ 3049:
             sequence[1] = record;
             variable43 = _closure1_slot32;
             variable42 = _closure1_slot9;
@@ -3110,8 +3110,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = lima.editor;
             variable41['style'] = record;
             record = entity != variable50;
-            if(!record) { _fun00030_ip = 3283; continue _fun00029 }
- 3081:
+            if(!record) { _fun00030_ip = 3287; continue _fun00029 }
+ 3083:
             variable46 = _closure1_slot31;
             variable45 = _closure1_slot7;
             variable44 = {};
@@ -3163,17 +3163,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable47['user'] = variable50;
             variable51 = entity == kilo;
             variable60 = undefined;
-            if(variable51) { _fun00030_ip = 3176; continue _fun00029 }
- 3166:
+            if(variable51) { _fun00030_ip = 3178; continue _fun00029 }
+ 3168:
             variable51 = kilo.getGuildId;
             variable60 = variable51.bind(kilo)();
- 3176:
+ 3178:
             variable62 = entity != variable60;
             variable51 = undefined;
-            if(!variable62) { _fun00030_ip = 3188; continue _fun00029 }
- 3185:
+            if(!variable62) { _fun00030_ip = 3190; continue _fun00029 }
+ 3187:
             variable51 = variable60;
- 3188:
+ 3190:
             variable47['guildId'] = variable51;
             variable50 = variable50.avatarDecoration;
             variable47['avatarDecoration'] = variable50;
@@ -3194,7 +3194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable47 = variable49.bind(report)(variable48, variable47);
             variable44['children'] = variable47;
             record = variable46.bind(report)(variable45, variable44);
- 3283:
+ 3287:
             variable44 = new Array(2);
             variable44[0] = record;
             variable47 = _closure1_slot32;
@@ -3265,8 +3265,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable48[0] = record;
             variable49 = entity != variable58;
             record = null;
-            if(!variable49) { _fun00030_ip = 3654; continue _fun00029 }
- 3608:
+            if(!variable49) { _fun00030_ip = 3662; continue _fun00029 }
+ 3616:
             variable51 = _closure1_slot31;
             variable50 = _closure1_slot1;
             variable60 = _closure1_slot2;
@@ -3278,7 +3278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             variable49['style'] = variable60;
             variable49['children'] = variable58;
             record = variable51.bind(report)(variable50, variable49);
- 3654:
+ 3662:
             variable48[1] = record;
             variable51 = _closure1_slot31;
             variable58 = _closure1_slot0;
@@ -3454,12 +3454,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot25;
             golf = golf.SYSTEM;
             golf = echo !== golf;
-            if(!golf) { _fun00030_ip = 4101; continue _fun00029 }
- 4098:
+            if(!golf) { _fun00030_ip = 4111; continue _fun00029 }
+ 4108:
             golf = !verify;
- 4101:
-            if(!golf) { _fun00030_ip = 4171; continue _fun00029 }
- 4104:
+ 4111:
+            if(!golf) { _fun00030_ip = 4181; continue _fun00029 }
+ 4114:
             offset = _closure1_slot31;
             verify = _closure1_slot39;
             options = {};
@@ -3483,12 +3483,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['onPressSticker'] = romeo;
             options['onBackspace'] = yankee;
             golf = offset.bind(report)(verify, options);
- 4171:
+ 4181:
             oscar[2] = golf;
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 4187:
+ 4197:
             return entity;
         }
     };

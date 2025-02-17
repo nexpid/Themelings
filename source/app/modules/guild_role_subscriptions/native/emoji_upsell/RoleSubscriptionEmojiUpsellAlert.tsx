@@ -114,10 +114,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             verify = entity == mike;
             entity = undefined;
-            if(verify) { _fun00002_ip = 151; continue _fun00001 }
- 146:
+            if(verify) { _fun00002_ip = 147; continue _fun00001 }
+ 142:
             entity = mike.name;
- 151:
+ 147:
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {

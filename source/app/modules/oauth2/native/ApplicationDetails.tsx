@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = update;
             report = oscar != report;
             golf = null;
-            if(!report) { _fun00004_ip = 378; continue _fun00003 }
+            if(!report) { _fun00004_ip = 380; continue _fun00003 }
  272:
             foxtrot = _closure1_slot4;
             options = _closure1_slot7;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(output)(kilo, backup);
             report['text'] = backup;
             golf = foxtrot.bind(tango)(options, report);
- 378:
+ 380:
             report = new Array(6);
             report[0] = golf;
             options = _closure1_slot4;
@@ -256,12 +256,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.BOT;
             options = options.bind(offset)(golf);
             golf = null;
-            if(!options) { _fun00004_ip = 713; continue _fun00003 }
- 601:
+            if(!options) { _fun00004_ip = 719; continue _fun00003 }
+ 605:
             options = oscar != result;
             golf = null;
-            if(!options) { _fun00004_ip = 713; continue _fun00003 }
- 610:
+            if(!options) { _fun00004_ip = 719; continue _fun00003 }
+ 614:
             foxtrot = _closure1_slot4;
             offset = _closure1_slot7;
             options = {};
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(output)(kilo, backup);
             options['text'] = backup;
             golf = foxtrot.bind(tango)(offset, options);
- 713:
+ 719:
             report[3] = golf;
             offset = _closure1_slot4;
             options = _closure1_slot7;
@@ -302,8 +302,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[4] = golf;
             golf = oscar != verify;
             oscar = null;
-            if(!golf) { _fun00004_ip = 800; continue _fun00003 }
- 781:
+            if(!golf) { _fun00004_ip = 804; continue _fun00003 }
+ 787:
             options = verify.map;
             golf = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             oscar = options.bind(verify)(golf);
- 800:
+ 804:
             report[5] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

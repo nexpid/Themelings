@@ -404,33 +404,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = yankee.bind(kilo)(verify, offset);
             verify = entity == options;
             result = undefined;
-            if(verify) { _fun00002_ip = 677; continue _fun00001 }
- 672:
+            if(verify) { _fun00002_ip = 663; continue _fun00001 }
+ 658:
             result = options.applicationId;
- 677:
+ 663:
             zulu = !zulu;
-            if(zulu) { _fun00002_ip = 702; continue _fun00001 }
- 683:
+            if(zulu) { _fun00002_ip = 688; continue _fun00001 }
+ 669:
             verify = entity == control;
             options = undefined;
-            if(verify) { _fun00002_ip = 698; continue _fun00001 }
- 692:
+            if(verify) { _fun00002_ip = 684; continue _fun00001 }
+ 678:
             options = control.launchId;
- 698:
+ 684:
             zulu = entity == options;
- 702:
-            if(zulu) { _fun00002_ip = 708; continue _fun00001 }
- 705:
+ 688:
+            if(zulu) { _fun00002_ip = 694; continue _fun00001 }
+ 691:
             zulu = golf;
- 708:
-            if(zulu) { _fun00002_ip = 715; continue _fun00001 }
- 711:
+ 694:
+            if(zulu) { _fun00002_ip = 701; continue _fun00001 }
+ 697:
             zulu = entity == result;
- 715:
-            if(zulu) { _fun00002_ip = 722; continue _fun00001 }
- 718:
+ 701:
+            if(zulu) { _fun00002_ip = 708; continue _fun00001 }
+ 704:
             zulu = entity == echo;
- 722:
+ 708:
             _closure2_slot11 = zulu;
             offset = _closure1_slot4;
             verify = offset.useLayoutEffect;
@@ -457,58 +457,58 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             golf = verify.bind(offset)(golf, options);
-            if(zulu) { _fun00002_ip = 1228; continue _fun00001 }
- 767:
+            if(zulu) { _fun00002_ip = 1210; continue _fun00001 }
+ 751:
             golf = entity == control;
             zulu = undefined;
-            if(golf) { _fun00002_ip = 782; continue _fun00001 }
- 776:
+            if(golf) { _fun00002_ip = 766; continue _fun00001 }
+ 760:
             zulu = control.launchId;
- 782:
-            if(!(entity != zulu)) { _fun00002_ip = 1228; continue _fun00001 }
- 789:
-            if(!(entity != echo)) { _fun00002_ip = 1228; continue _fun00001 }
- 796:
-            if(mike) { _fun00002_ip = 1226; continue _fun00001 }
- 802:
+ 766:
+            if(!(entity != zulu)) { _fun00002_ip = 1210; continue _fun00001 }
+ 773:
+            if(!(entity != echo)) { _fun00002_ip = 1210; continue _fun00001 }
+ 780:
+            if(mike) { _fun00002_ip = 1208; continue _fun00001 }
+ 786:
             sizing = {};
             zulu = control.compositeInstanceId;
-            if(!(entity == zulu)) { _fun00002_ip = 820; continue _fun00001 }
- 814:
+            if(!(entity == zulu)) { _fun00002_ip = 804; continue _fun00001 }
+ 798:
             zulu = control.launchId;
- 820:
+ 804:
             options = entity != zulu;
             golf = '';
             mike = golf;
-            if(!options) { _fun00002_ip = 837; continue _fun00001 }
- 834:
+            if(!options) { _fun00002_ip = 821; continue _fun00001 }
+ 818:
             mike = zulu;
- 837:
+ 821:
             sizing['instance_id'] = mike;
             mike = vacuum.id;
             sizing['channel_id'] = mike;
             zulu = control.location;
             options = entity == zulu;
             mike = undefined;
-            if(options) { _fun00002_ip = 870; continue _fun00001 }
- 865:
+            if(options) { _fun00002_ip = 854; continue _fun00001 }
+ 849:
             mike = zulu.id;
- 870:
+ 854:
             sizing['location_id'] = mike;
             mike = control.launchId;
             sizing['launch_id'] = mike;
             mike = vacuum.guild_id;
             mike = entity != mike;
-            if(!mike) { _fun00002_ip = 909; continue _fun00001 }
- 900:
+            if(!mike) { _fun00002_ip = 893; continue _fun00001 }
+ 884:
             zulu = vacuum.guild_id;
             mike = golf !== zulu;
- 909:
-            if(!mike) { _fun00002_ip = 923; continue _fun00001 }
- 912:
+ 893:
+            if(!mike) { _fun00002_ip = 907; continue _fun00001 }
+ 896:
             mike = vacuum.guild_id;
             sizing['guild_id'] = mike;
- 923:
+ 907:
             golf = _closure1_slot13;
             zulu = _closure1_slot12;
             mike = {};
@@ -569,20 +569,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.has;
             sizing = kilo.bind(sizing)(result);
             kilo = 'origin';
-            if(!sizing) { _fun00002_ip = 1121; continue _fun00001 }
- 1115:
+            if(!sizing) { _fun00002_ip = 1103; continue _fun00001 }
+ 1097:
             kilo = 'no-referrer';
- 1121:
+ 1103:
             verify['referrerPolicy'] = kilo;
             kilo = _closure1_slot8;
             kilo = kilo.PIP;
             kilo = output === kilo;
-            if(kilo) { _fun00002_ip = 1157; continue _fun00001 }
- 1143:
+            if(kilo) { _fun00002_ip = 1139; continue _fun00001 }
+ 1125:
             sizing = _closure1_slot8;
             sizing = sizing.GRID;
             kilo = output === sizing;
- 1157:
+ 1139:
             verify['isPipOrGridMode'] = kilo;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -591,19 +591,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(tango)(kilo);
             kilo = kilo.EMBEDDED_ACTIVITY_WEB_VIEW_KEY;
             verify['webViewKey'] = kilo;
-            if(!backup) { _fun00002_ip = 1199; continue _fun00001 }
- 1196:
+            if(!backup) { _fun00002_ip = 1181; continue _fun00001 }
+ 1178:
             romeo = foxtrot;
- 1199:
+ 1181:
             verify['safeAreasConfig'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
             options[1] = verify;
             mike['children'] = options;
             mike = golf.bind(tango)(zulu, mike);
             return mike;
- 1226:
+ 1208:
             return entity;
- 1228:
+ 1210:
             zulu = _closure1_slot11;
             mike = _closure1_slot6;
             entity = {};

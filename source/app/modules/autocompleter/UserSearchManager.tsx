@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  49:
             mike = zulu.@@iterator;
  55:
-            if(mike) { _fun00002_ip = 345; continue _fun00001 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscar = report.Array;
             tango = oscar.isArray;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             return entity;
- 345:
+ 343:
             entity = mike.call;
             zulu = entity.bind(mike)(zulu);
             mike = zulu.next;
@@ -241,11 +241,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00010_ip = 76; continue _fun00009;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00010_ip = 74; continue _fun00009;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -399,13 +399,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             var _closure2_slot1 = entity;
             zulu = null;
-            if(!(zulu != tango)) { _fun00016_ip = 78; continue _fun00015 }
+            if(!(zulu != tango)) { _fun00016_ip = 76; continue _fun00015 }
  23:
             oscar = _closure1_slot9;
             report = tango.type;
             zulu = undefined;
             report = oscar.bind(zulu)(report);
-            if(!report) { _fun00016_ip = 78; continue _fun00015 }
+            if(!report) { _fun00016_ip = 76; continue _fun00015 }
  45:
             tango = tango.recipients;
             if(!(zulu === tango)) { _fun00016_ip = 59; continue _fun00015 }
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = zulu.bind(tango)(mike);
             return entity;
- 78:
+ 76:
             return entity;
         }
     };
@@ -1036,7 +1036,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = zulu.getCurrentUser;
                         zulu = entity.bind(zulu)();
                         control = null;
-                        if(!(control != zulu)) { _fun00038_ip = 391; continue _fun00037 }
+                        if(!(control != zulu)) { _fun00038_ip = 389; continue _fun00037 }
  27:
                         entity = _closure1_slot22;
                         source = undefined;
@@ -1075,13 +1075,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         config = undefined;
                         sequence = undefined;
                         for(kilo in result)
- 146:
+ 144:
                         {
                             oscar = context;
                             tango = record;
                             zulu = config;
                             mike = sequence;
- 170:
+ 168:
                             romeo = kilo;
                             offset = update[romeo];
                             context = oscar;
@@ -1093,58 +1093,58 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = config;
                             mike = sequence;
                             ForInLoopInit(obj_props_register=10, obj_register=9, iter_index_register=8, iter_size_register=7);
-                            if(yankee === undefined) { _fun00038_ip = 146; continue _fun00037 }
- 209:
+                            if(yankee === undefined) { _fun00038_ip = 144; continue _fun00037 }
+ 207:
                             context = oscar;
                             record = tango;
                             config = zulu;
                             sequence = mike;
                             ForInLoopNextIter(next_value_register=6, obj_props_register=10, obj_register=9, iter_index_register=8, iter_size_register=7);
-                            if(golf === undefined) { _fun00038_ip = 146; continue _fun00037 }
- 230:
+                            if(golf === undefined) { _fun00038_ip = 144; continue _fun00037 }
+ 228:
                             record = golf;
                             config = report[record];
                             sequence = update[romeo];
                             record = sequence[record];
                             sequence = control == record;
                             context = undefined;
-                            if(sequence) { _fun00038_ip = 260; continue _fun00037 }
- 254:
+                            if(sequence) { _fun00038_ip = 258; continue _fun00037 }
+ 252:
                             context = record.nick;
- 260:
+ 258:
                             sequence = context;
-                            if(!(control == sequence)) { _fun00038_ip = 295; continue _fun00037 }
- 267:
+                            if(!(control == sequence)) { _fun00038_ip = 293; continue _fun00037 }
+ 265:
                             target = _closure1_slot1;
                             papa = _closure1_slot3;
                             papa = papa[foxtrot];
                             target = target.bind(source)(papa);
                             papa = target.getGlobalName;
                             sequence = papa.bind(target)(config);
- 295:
+ 293:
                             oscar = context;
                             tango = record;
                             zulu = config;
                             mike = sequence;
-                            if(control == config) { _fun00038_ip = 209; continue _fun00037 }
- 311:
+                            if(control == config) { _fun00038_ip = 207; continue _fun00037 }
+ 309:
                             target = control != sequence;
                             papa = null;
-                            if(!target) { _fun00038_ip = 329; continue _fun00037 }
- 320:
+                            if(!target) { _fun00038_ip = 327; continue _fun00037 }
+ 318:
                             papa = null;
-                            if(!(backup !== sequence)) { _fun00038_ip = 329; continue _fun00037 }
- 326:
+                            if(!(backup !== sequence)) { _fun00038_ip = 327; continue _fun00037 }
+ 324:
                             papa = sequence;
- 329:
+ 327:
                             config[romeo] = papa;
                             oscar = context;
                             tango = record;
                             zulu = config;
                             mike = sequence;
-                            _fun00038_ip = 209; continue _fun00037;
+                            _fun00038_ip = 207; continue _fun00037;
                         }
- 350:
+ 348:
                         tango = _closure3_slot0;
                         zulu = tango.updateUsers;
                         mike = entity.Object;
@@ -1152,7 +1152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = entity.bind(mike)(report);
                         entity = 'connection_open';
                         entity = zulu.bind(tango)(mike, entity);
- 391:
+ 389:
                         entity = undefined;
                         return entity;
                     }
@@ -1200,7 +1200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             var _closure6_slot1 = entity;
                             tango = zulu.activity_instances;
                             zulu = null;
-                            if(!(zulu != tango)) { _fun00040_ip = 46; continue _fun00039 }
+                            if(!(zulu != tango)) { _fun00040_ip = 44; continue _fun00039 }
  29:
                             zulu = tango.forEach;
                             mike = function(argFoo) {
@@ -1239,7 +1239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 return entity;
                             };
                             mike = zulu.bind(tango)(mike);
- 46:
+ 44:
                             return entity;
                         }
                     };

@@ -407,8 +407,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf.bind(options)(oscar);
             golf = _closure2_slot0;
             oscar = null;
-            if(!(oscar != golf)) { _fun00008_ip = 130; continue _fun00007 }
- 83:
+            if(!(oscar != golf)) { _fun00008_ip = 131; continue _fun00007 }
+ 84:
             mike = _closure2_slot0;
             golf = mike.categoryId;
             oscar = mike.name;
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = options.bind(tango)(mike);
             mike = _closure1_slot15;
             mike[golf] = oscar;
- 130:
+ 131:
             _closure1_slot12 = report;
             _closure1_slot13 = tango;
             _closure1_slot14 = zulu;

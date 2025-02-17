@@ -486,19 +486,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     if(!(oscar !== entity)) { _fun00016_ip = 105; continue _fun00015 }
  89:
                     entity = {'translateX': 10, 'translateY': 4294967286};
-                    _fun00016_ip = 119; continue _fun00015;
+                    _fun00016_ip = 115; continue _fun00015;
  105:
                     entity = {'translateX': 0, 'translateY': 0};
- 119:
+ 115:
                     kilo = entity.translateX;
                     backup = entity.translateY;
                     entity = {};
                     zulu = _closure2_slot3;
                     mike = oscar;
-                    if(!zulu) { _fun00016_ip = 145; continue _fun00015 }
- 143:
+                    if(!zulu) { _fun00016_ip = 141; continue _fun00015 }
+ 139:
                     mike = 0;
- 145:
+ 141:
                     entity['zIndex'] = mike;
                     yankee = {};
                     options = _closure1_slot0;
@@ -599,12 +599,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = options.bind(tango)(zulu);
                     zulu = tango.withSpring;
                     options = _closure2_slot3;
-                    if(!options) { _fun00016_ip = 445; continue _fun00015 }
- 432:
+                    if(!options) { _fun00016_ip = 441; continue _fun00015 }
+ 428:
                     options = _closure2_slot2;
                     golf = options.get;
                     oscar = golf.bind(options)();
- 445:
+ 441:
                     mike = _closure1_slot8;
                     mike = zulu.bind(tango)(oscar, mike, report);
                     entity['opacity'] = mike;

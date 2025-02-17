@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo.DismissibleContent;
                     romeo = romeo.SUPER_REACTIONS_MOBILE_FULLSCREEN_TAP_TO_DISMISS;
                     romeo = foxtrot === romeo;
-                    if(!romeo) { _fun00010_ip = 557; continue _fun00009 }
+                    if(!romeo) { _fun00010_ip = 559; continue _fun00009 }
  389:
                     kilo = _closure1_slot10;
                     backup = _closure1_slot9;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sizing[1] = output;
                     foxtrot['children'] = sizing;
                     romeo = kilo.bind(zulu)(backup, foxtrot);
- 557:
+ 559:
                     yankee[2] = romeo;
                     options['children'] = yankee;
                     options = offset.bind(zulu)(verify, options);

@@ -156,8 +156,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.activityInstance;
             entity = tango !== zulu;
  351:
-            if(!entity) { _fun00002_ip = 474; continue _fun00001 }
- 354:
+            if(!entity) { _fun00002_ip = 479; continue _fun00001 }
+ 357:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
             entity = 9;
@@ -176,17 +176,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.interaction;
             output = offset == foxtrot;
             backup = undefined;
-            if(output) { _fun00002_ip = 441; continue _fun00001 }
- 436:
-            backup = foxtrot.user;
+            if(output) { _fun00002_ip = 446; continue _fun00001 }
  441:
+            backup = foxtrot.user;
+ 446:
             foxtrot = verify.channel;
             foxtrot = kilo.bind(sizing)(backup, foxtrot);
             foxtrot = foxtrot.nick;
             entity['username'] = foxtrot;
             entity = yankee.bind(romeo)(zulu, entity);
             mike['content'] = entity;
- 474:
+ 479:
             zulu = _closure1_slot5;
             mike = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -206,10 +206,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = verify.guild;
             kilo = offset == yankee;
             offset = undefined;
-            if(kilo) { _fun00002_ip = 558; continue _fun00001 }
- 553:
-            offset = yankee.id;
+            if(kilo) { _fun00002_ip = 563; continue _fun00001 }
  558:
+            offset = yankee.id;
+ 563:
             romeo['guildId'] = offset;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;

@@ -387,12 +387,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = mike.channelId;
                 oscar = report.bind(oscar)(tango);
                 report = null;
-                if(!(report != oscar)) { _fun00006_ip = 425; continue _fun00005 }
+                if(!(report != oscar)) { _fun00006_ip = 423; continue _fun00005 }
  40:
                 golf = oscar.type;
                 tango = _closure1_slot20;
                 tango = tango.GUILD_TEXT;
-                if(!(golf !== tango)) { _fun00006_ip = 425; continue _fun00005 }
+                if(!(golf !== tango)) { _fun00006_ip = 423; continue _fun00005 }
  62:
                 options = _closure1_slot8;
                 golf = options.getCall;
@@ -404,21 +404,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 if(!tango) { _fun00006_ip = 130; continue _fun00005 }
  101:
                 tango = mike.call;
-                if(!(report != tango)) { _fun00006_ip = 421; continue _fun00005 }
+                if(!(report != tango)) { _fun00006_ip = 419; continue _fun00005 }
  113:
                 tango = mike.call;
                 tango = tango.unavailable;
-                if(tango) { _fun00006_ip = 421; continue _fun00005 }
+                if(tango) { _fun00006_ip = 419; continue _fun00005 }
  130:
                 report = global;
                 golf = report.Set;
                 tango = oscar.isGuildVocalOrThread;
                 tango = tango.bind(oscar)();
-                if(tango) { _fun00006_ip = 161; continue _fun00005 }
- 153:
+                if(tango) { _fun00006_ip = 159; continue _fun00005 }
+ 151:
                 tango = oscar.recipients;
-                _fun00006_ip = 197; continue _fun00005;
- 161:
+                _fun00006_ip = 195; continue _fun00005;
+ 159:
                 verify = report.Object;
                 options = verify.keys;
                 yankee = _closure1_slot15;
@@ -426,7 +426,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.id;
                 oscar = offset.bind(yankee)(oscar);
                 tango = options.bind(verify)(oscar);
- 197:
+ 195:
                 oscar = golf.prototype;
                 oscar = Object.create(oscar, {constructor: {value: golf}});
                 kilo = oscar;
@@ -443,8 +443,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = tango.size;
                 oscar = 0;
                 tango = options;
-                if(!(golf > oscar)) { _fun00006_ip = 333; continue _fun00005 }
- 268:
+                if(!(golf > oscar)) { _fun00006_ip = 331; continue _fun00005 }
+ 266:
                 golf = report.Set;
                 report = new Array(0);
                 backup = report;
@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report instanceof Object ? report : oscar;
                 _closure3_slot1 = report;
                 tango = report;
- 333:
+ 331:
                 oscar = _closure1_slot6;
                 report = oscar.getAllActiveStreamsForChannel;
                 zulu = mike.channelId;
@@ -495,10 +495,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.bind(mike)();
                 entity = true;
                 return entity;
- 421:
+ 419:
                 entity = false;
                 return entity;
- 425:
+ 423:
                 entity = false;
                 return entity;
             }

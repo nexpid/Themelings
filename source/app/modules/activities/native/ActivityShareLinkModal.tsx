@@ -273,11 +273,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00006_ip = 319; continue _fun00005 }
+                        if(mike) { _fun00006_ip = 321; continue _fun00005 }
  10:
                         tango = _closure2_slot12;
                         mike = null;
-                        if(!(mike != tango)) { _fun00006_ip = 311; continue _fun00005 }
+                        if(!(mike != tango)) { _fun00006_ip = 313; continue _fun00005 }
  26:
                         mike = global;
                         oscar = mike.Promise;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  94:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun00006_ip = 316; continue _fun00005 }
+                        if(tango) { _fun00006_ip = 318; continue _fun00005 }
  103:
                         verify = mike.filter;
                         tango = _closure1_slot0;
@@ -415,12 +415,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.bind(report)(zulu);
                         zulu = tango.closeActivityShareLinkModal;
                         zulu = zulu.bind(tango)();
- 311:
+ 313:
                         zulu = undefined;
                         return zulu;
- 316:
+ 318:
                         return mike;
- 319:
+ 321:
                         return entity;
                     }
                 };
@@ -618,10 +618,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.isIOS;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun00002_ip = 755; continue _fun00001 }
- 753:
-            verify = 0;
+            if(!offset) { _fun00002_ip = 757; continue _fun00001 }
  755:
+            verify = 0;
+ 757:
             golf['headerStatusBarHeight'] = verify;
             verify = 'center';
             golf['headerTitleAlign'] = verify;
@@ -674,13 +674,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['isVisible'] = kilo;
             offset['loading'] = output;
             kilo = undefined;
-            if(output) { _fun00002_ip = 995; continue _fun00001 }
- 992:
+            if(output) { _fun00002_ip = 997; continue _fun00001 }
+ 994:
             kilo = sizing;
- 995:
+ 997:
             offset['onPress'] = kilo;
-            if(!(foxtrot !== echo)) { _fun00002_ip = 1064; continue _fun00001 }
- 1003:
+            if(!(foxtrot !== echo)) { _fun00002_ip = 1066; continue _fun00001 }
+ 1005:
             kilo = _closure1_slot0;
             foxtrot = _closure1_slot2;
             sizing = foxtrot[result];
@@ -694,8 +694,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {};
             foxtrot['count'] = echo;
             foxtrot = sizing.bind(output)(kilo, foxtrot);
-            _fun00002_ip = 1116; continue _fun00001;
- 1064:
+            _fun00002_ip = 1118; continue _fun00001;
+ 1066:
             output = _closure1_slot0;
             backup = _closure1_slot2;
             kilo = backup[result];
@@ -707,7 +707,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.t;
             backup = backup.TXNS7e;
             foxtrot = kilo.bind(sizing)(backup);
- 1116:
+ 1118:
             offset['text'] = foxtrot;
             offset = romeo.bind(tango)(yankee, offset);
             verify[2] = offset;

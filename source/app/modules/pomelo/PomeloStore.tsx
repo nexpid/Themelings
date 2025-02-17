@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['taken'] = report;
             entity['error'] = options;
             entity = mike.bind(zulu)(oscar, entity);
-            _fun00012_ip = 172; continue _fun00011;
+            _fun00012_ip = 168; continue _fun00011;
  74:
             mike = _closure1_slot8;
             report = mike.validations;
@@ -368,10 +368,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['error'] = options;
             options = golf != tango;
             golf = 7;
-            if(!options) { _fun00012_ip = 127; continue _fun00011 }
- 124:
+            if(!options) { _fun00012_ip = 123; continue _fun00011 }
+ 120:
             golf = tango;
- 127:
+ 123:
             verify = _closure1_slot0;
             options = _closure1_slot1;
             entity = 6;
@@ -382,10 +382,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.SECOND;
             entity = golf * entity;
             entity = zulu.bind(report)(oscar, mike, entity);
- 172:
+ 168:
             entity = null;
-            if(!(entity != tango)) { _fun00012_ip = 250; continue _fun00011 }
- 178:
+            if(!(entity != tango)) { _fun00012_ip = 246; continue _fun00011 }
+ 174:
             mike = _closure1_slot8;
             zulu = global;
             report = zulu.Date;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango * entity;
             entity = zulu + entity;
             mike['retryAfterTime'] = entity;
- 250:
+ 246:
             entity = undefined;
             return entity;
         }
@@ -444,15 +444,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity == report;
             entity = undefined;
             tango = undefined;
-            if(oscar) { _fun00014_ip = 71; continue _fun00013 }
- 63:
+            if(oscar) { _fun00014_ip = 67; continue _fun00013 }
+ 59:
             tango = report.invalid_current_username;
+ 67:
+            if(!(zulu === tango)) { _fun00014_ip = 81; continue _fun00013 }
  71:
-            if(!(zulu === tango)) { _fun00014_ip = 85; continue _fun00013 }
- 75:
             mike = _closure1_slot8;
             mike['currentUsernameInvalid'] = zulu;
- 85:
+ 81:
             return entity;
         }
     };

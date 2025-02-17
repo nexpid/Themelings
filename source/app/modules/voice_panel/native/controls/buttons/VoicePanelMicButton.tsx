@@ -42,11 +42,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot0;
                 golf = zulu.bind(tango)(mike);
                 report = null;
-                if(!(report == golf)) { _fun00002_ip = 46; continue _fun00001 }
+                if(!(report == golf)) { _fun00002_ip = 42; continue _fun00001 }
  30:
                 tango = {'selfMute': false, 'suppress': false, 'mute': false};
-                _fun00002_ip = 130; continue _fun00001;
- 46:
+                _fun00002_ip = 126; continue _fun00001;
+ 42:
                 oscar = _closure1_slot0;
                 zulu = _closure1_slot2;
                 mike = 12;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure1_slot6;
                 mike['impersonateStore'] = golf;
                 tango = zulu.bind(oscar)(mike);
- 130:
+ 126:
                 oscar = _closure1_slot0;
                 zulu = _closure1_slot2;
                 mike = 13;
@@ -332,11 +332,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = _closure3_slot0;
                         options = zulu.bind(tango)(mike);
                         mike = null;
-                        if(!(mike == options)) { _fun00010_ip = 46; continue _fun00009 }
+                        if(!(mike == options)) { _fun00010_ip = 42; continue _fun00009 }
  30:
                         zulu = {'selfDeaf': false, 'deaf': false};
-                        _fun00010_ip = 96; continue _fun00009;
- 46:
+                        _fun00010_ip = 92; continue _fun00009;
+ 42:
                         report = _closure1_slot0;
                         tango = _closure1_slot2;
                         mike = 14;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         foxtrot = golf;
                         romeo = options;
                         zulu = foxtrot[oscar](romeo, yankee, offset, verify, options);
- 96:
+ 92:
                         tango = _closure1_slot0;
                         mike = _closure1_slot2;
                         entity = 13;
@@ -704,13 +704,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.Q8gkVF;
             kilo = sizing.bind(output)(kilo);
             verify['accessibilityLabel'] = kilo;
-            if(result) { _fun00008_ip = 663; continue _fun00007 }
- 655:
+            if(result) { _fun00008_ip = 659; continue _fun00007 }
+ 651:
             kilo = yankee.iconBg;
-            _fun00008_ip = 669; continue _fun00007;
- 663:
+            _fun00008_ip = 665; continue _fun00007;
+ 659:
             kilo = yankee.iconBgSelected;
- 669:
+ 665:
             verify['style'] = kilo;
             output = _closure1_slot12;
             sizing = _closure1_slot0;
@@ -720,15 +720,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.MicrophoneIcon;
             kilo = {};
-            if(result) { _fun00008_ip = 721; continue _fun00007 }
- 708:
+            if(result) { _fun00008_ip = 717; continue _fun00007 }
+ 704:
             result = yankee.iconFill;
             result = result.color;
-            _fun00008_ip = 732; continue _fun00007;
- 721:
+            _fun00008_ip = 728; continue _fun00007;
+ 717:
             echo = yankee.iconFillSelected;
             result = echo.color;
- 732:
+ 728:
             kilo['color'] = result;
             result = 'lg';
             kilo['size'] = result;

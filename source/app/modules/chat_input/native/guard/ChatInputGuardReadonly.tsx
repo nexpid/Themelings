@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 romeo = oscar.bind(golf)(report, entity, mike);
                 var _closure3_slot4 = romeo;
-                if(!(offset == options)) { _fun00002_ip = 444; continue _fun00001 }
+                if(!(offset == options)) { _fun00002_ip = 446; continue _fun00001 }
  254:
                 entity = romeo.length;
                 yankee = 0;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity['handlePress'] = mike;
-                _fun00002_ip = 442; continue _fun00001;
+                _fun00002_ip = 444; continue _fun00001;
  366:
                 mike = {};
                 offset = _closure1_slot0;
@@ -356,9 +356,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike['handlePress'] = report;
                 entity = mike;
- 442:
-                _fun00002_ip = 533; continue _fun00001;
  444:
+                _fun00002_ip = 535; continue _fun00001;
+ 446:
                 mike = {};
                 report = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike['handlePress'] = zulu;
                 entity = mike;
- 533:
+ 535:
                 return entity;
             }
         };

@@ -133,10 +133,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = golf;
             golf = null;
             golf = golf != options;
-            if(!golf) { _fun00002_ip = 186; continue _fun00001 }
- 183:
+            if(!golf) { _fun00002_ip = 182; continue _fun00001 }
+ 179:
             golf = report;
- 186:
+ 182:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot4;

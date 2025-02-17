@@ -204,22 +204,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = entity.bind(report)(tango);
             entity = _closure1_slot6;
             entity = entity.MOST_RELEVANT;
-            if(!(entity !== zulu)) { _fun00010_ip = 90; continue _fun00009 }
+            if(!(entity !== zulu)) { _fun00010_ip = 94; continue _fun00009 }
  38:
             entity = _closure1_slot6;
             entity = entity.OLDEST;
-            if(!(entity !== zulu)) { _fun00010_ip = 74; continue _fun00009 }
+            if(!(entity !== zulu)) { _fun00010_ip = 78; continue _fun00009 }
  52:
             entity = _closure1_slot6;
             entity = entity.NEWEST;
             entity = {'sort_by': 'timestamp', 'sort_order': 'desc'};
-            _fun00010_ip = 104; continue _fun00009;
- 74:
+            _fun00010_ip = 108; continue _fun00009;
+ 78:
             entity = {'sort_by': 'timestamp', 'sort_order': 'asc'};
-            _fun00010_ip = 104; continue _fun00009;
- 90:
+            _fun00010_ip = 108; continue _fun00009;
+ 94:
             entity = {'sort_by': 'relevance', 'sort_order': 'desc'};
- 104:
+ 108:
             zulu = _closure1_slot7;
             mike = {};
             golf = mike;

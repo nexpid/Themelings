@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = report == options;
             report = undefined;
-            if(golf) { _fun00002_ip = 235; continue _fun00001 }
+            if(golf) { _fun00002_ip = 233; continue _fun00001 }
  218:
             golf = options.map;
             oscar = function(argFoo, argBar) {
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             report = golf.bind(options)(oscar);
- 235:
+ 233:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

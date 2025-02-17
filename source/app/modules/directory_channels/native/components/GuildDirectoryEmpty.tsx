@@ -192,8 +192,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = verify.bind(tango)(options, oscar);
             report[2] = oscar;
             oscar = null;
-            if(!golf) { _fun00002_ip = 577; continue _fun00001 }
- 452:
+            if(!golf) { _fun00002_ip = 583; continue _fun00001 }
+ 456:
             verify = _closure1_slot6;
             output = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = kilo.bind(sizing)(romeo);
             golf['title'] = romeo;
             oscar = verify.bind(tango)(options, golf);
- 577:
+ 583:
             report[3] = oscar;
             options = _closure1_slot6;
             romeo = _closure1_slot0;

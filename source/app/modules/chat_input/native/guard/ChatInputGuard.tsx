@@ -346,14 +346,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = romeo;
             entity['icon'] = golf;
             backup = null;
-            if(!(backup != kilo)) { _fun00004_ip = 741; continue _fun00003 }
+            if(!(backup != kilo)) { _fun00004_ip = 737; continue _fun00003 }
+ 733:
+            if(!(backup == romeo)) { _fun00004_ip = 811; continue _fun00003 }
  737:
-            if(!(backup == romeo)) { _fun00004_ip = 815; continue _fun00003 }
- 741:
             options = backup != sizing;
             golf = null;
-            if(!options) { _fun00004_ip = 813; continue _fun00003 }
- 750:
+            if(!options) { _fun00004_ip = 809; continue _fun00003 }
+ 746:
             yankee = _closure1_slot6;
             offset = _closure1_slot1;
             output = _closure1_slot2;
@@ -369,9 +369,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['style'] = output;
             options['deadline'] = sizing;
             golf = yankee.bind(tango)(offset, options);
- 813:
-            _fun00004_ip = 915; continue _fun00003;
- 815:
+ 809:
+            _fun00004_ip = 911; continue _fun00003;
+ 811:
             yankee = _closure1_slot6;
             offset = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -381,8 +381,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.IconButton;
             options = {};
             options['accessibilityLabel'] = kilo;
-            if(!(backup == foxtrot)) { _fun00004_ip = 893; continue _fun00003 }
- 855:
+            if(!(backup == foxtrot)) { _fun00004_ip = 889; continue _fun00003 }
+ 851:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
             output = _closure1_slot2;
@@ -392,13 +392,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = backup.ArrowSmallRightIcon;
             backup = {};
             foxtrot = sizing.bind(tango)(kilo, backup);
- 893:
+ 889:
             options['icon'] = foxtrot;
             foxtrot = 'sm';
             options['size'] = foxtrot;
             options['onPress'] = romeo;
             golf = yankee.bind(tango)(offset, options);
- 915:
+ 911:
             entity['trailing'] = golf;
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.content;
             oscar['style'] = foxtrot;
             yankee = null;
-            if(!romeo) { _fun00006_ip = 212; continue _fun00005 }
+            if(!romeo) { _fun00006_ip = 208; continue _fun00005 }
  168:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot1;
@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.bind(tango)(verify);
             verify = {'absolute': true, 'wide': true, 'tall': true, 'mix': true};
             yankee = foxtrot.bind(tango)(romeo, verify);
- 212:
+ 208:
             verify = new Array(2);
             verify[0] = yankee;
             verify[1] = offset;

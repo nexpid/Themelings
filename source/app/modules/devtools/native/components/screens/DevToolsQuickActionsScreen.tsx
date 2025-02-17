@@ -569,8 +569,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             kilo = oscar.bind(golf)(zulu, report);
-            if(mike) { _fun00008_ip = 2661; continue _fun00007 }
- 456:
+            if(mike) { _fun00008_ip = 2662; continue _fun00007 }
+ 457:
             report = _closure1_slot21;
             zulu = _closure1_slot6;
             mike = {};
@@ -1010,8 +1010,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = kilo.isAndroid;
             kilo = romeo.bind(kilo)();
             romeo = null;
-            if(!kilo) { _fun00008_ip = 2214; continue _fun00007 }
- 2101:
+            if(!kilo) { _fun00008_ip = 2216; continue _fun00007 }
+ 2103:
             sizing = _closure1_slot20;
             vacuum = _closure1_slot0;
             record = _closure1_slot2;
@@ -1042,7 +1042,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot['onValueChange'] = source;
             romeo = sizing.bind(tango)(kilo, foxtrot);
- 2214:
+ 2216:
             update[8] = romeo;
             foxtrot = _closure1_slot20;
             sizing = _closure1_slot0;
@@ -1165,7 +1165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = report.bind(tango)(zulu, mike);
             return mike;
- 2661:
+ 2662:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
             mike = 38;

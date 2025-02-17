@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun00006_ip = 2122; continue _fun00005 }
+                    if(!(entity != mike)) { _fun00006_ip = 2174; continue _fun00005 }
  18:
                     mike = _closure2_slot0;
                     kilo = mike.minimumOwnerAgeInYears;
@@ -238,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.noRecentViolations;
                     report['checked'] = mike;
                     mike = undefined;
-                    if(!oscar) { _fun00006_ip = 332; continue _fun00005 }
- 280:
+                    if(!oscar) { _fun00006_ip = 340; continue _fun00005 }
+ 286:
                     romeo = _closure1_slot0;
                     options = _closure1_slot2;
                     verify = options[backup];
@@ -251,11 +251,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.t;
                     options = options.xU2fl5;
                     mike = verify.bind(yankee)(options);
- 332:
+ 340:
                     report['actionLabel'] = mike;
                     mike = undefined;
-                    if(!oscar) { _fun00006_ip = 349; continue _fun00005 }
- 342:
+                    if(!oscar) { _fun00006_ip = 357; continue _fun00005 }
+ 350:
                     mike = function() {
                         tango = _closure1_slot1;
                         report = _closure1_slot2;
@@ -271,19 +271,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = mike.bind(zulu)(entity);
                         return entity;
                     };
- 349:
+ 357:
                     report['actionHandler'] = mike;
                     mike = new Array(1);
                     mike[0] = report;
                     report = entity != kilo;
-                    if(!report) { _fun00006_ip = 383; continue _fun00005 }
- 369:
+                    if(!report) { _fun00006_ip = 391; continue _fun00005 }
+ 377:
                     oscar = _closure2_slot0;
                     oscar = oscar.meetsOwnerAgeRequirement;
                     report = entity != oscar;
- 383:
-                    if(!report) { _fun00006_ip = 588; continue _fun00005 }
- 389:
+ 391:
+                    if(!report) { _fun00006_ip = 602; continue _fun00005 }
+ 397:
                     oscar = mike.push;
                     report = {};
                     options = 'owner_age_requirement';
@@ -326,16 +326,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.meetsOwnerAgeRequirement;
                     report['checked'] = options;
                     report = oscar.bind(mike)(report);
- 588:
+ 602:
                     report = entity != foxtrot;
-                    if(!report) { _fun00006_ip = 609; continue _fun00005 }
- 595:
+                    if(!report) { _fun00006_ip = 623; continue _fun00005 }
+ 609:
                     oscar = _closure2_slot0;
                     oscar = oscar.hasSufficientMembers;
                     report = entity != oscar;
- 609:
-                    if(!report) { _fun00006_ip = 814; continue _fun00005 }
- 615:
+ 623:
+                    if(!report) { _fun00006_ip = 834; continue _fun00005 }
+ 629:
                     oscar = mike.push;
                     report = {};
                     options = 'member_count_requirement';
@@ -378,18 +378,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.hasSufficientMembers;
                     report['checked'] = options;
                     report = oscar.bind(mike)(report);
- 814:
+ 834:
                     report = _closure2_slot0;
                     report = report.minimumAgeInDays;
                     report = entity != report;
-                    if(!report) { _fun00006_ip = 845; continue _fun00005 }
- 831:
+                    if(!report) { _fun00006_ip = 865; continue _fun00005 }
+ 851:
                     oscar = _closure2_slot0;
                     oscar = oscar.meetsServerAgeRequirement;
                     report = entity != oscar;
- 845:
-                    if(!report) { _fun00006_ip = 1079; continue _fun00005 }
- 851:
+ 865:
+                    if(!report) { _fun00006_ip = 1105; continue _fun00005 }
+ 871:
                     oscar = mike.push;
                     report = {};
                     options = 'server_age_requirement';
@@ -438,11 +438,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.meetsServerAgeRequirement;
                     report['checked'] = options;
                     report = oscar.bind(mike)(report);
- 1079:
+ 1105:
                     report = _closure2_slot0;
                     report = report.weeklyCommunicators;
-                    if(!(entity != report)) { _fun00006_ip = 1287; continue _fun00005 }
- 1096:
+                    if(!(entity != report)) { _fun00006_ip = 1319; continue _fun00005 }
+ 1122:
                     oscar = mike.push;
                     report = {};
                     options = 'weekly_communicator_count_requirement';
@@ -483,11 +483,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.weeklyCommunicators;
                     report['checked'] = options;
                     report = oscar.bind(mike)(report);
- 1287:
+ 1319:
                     report = _closure2_slot0;
                     report = report.hasMemberRetention;
-                    if(!(entity != report)) { _fun00006_ip = 1495; continue _fun00005 }
- 1304:
+                    if(!(entity != report)) { _fun00006_ip = 1533; continue _fun00005 }
+ 1336:
                     oscar = mike.push;
                     report = {};
                     options = 'member_retention_requirement';
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.hasMemberRetention;
                     report['checked'] = options;
                     report = oscar.bind(mike)(report);
- 1495:
+ 1533:
                     options = mike.push;
                     oscar = {};
                     report = 'nsfw_requirement';
@@ -570,52 +570,52 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['checked'] = verify;
                     oscar = options.bind(mike)(oscar);
                     report = report.hasEnabled2FA;
-                    if(!(entity != report)) { _fun00006_ip = 2092; continue _fun00005 }
- 1699:
+                    if(!(entity != report)) { _fun00006_ip = 2144; continue _fun00005 }
+ 1743:
                     report = _closure2_slot0;
                     report = report.hasEnabled2FA;
                     options = !report;
-                    if(!options) { _fun00006_ip = 1722; continue _fun00005 }
- 1715:
+                    if(!options) { _fun00006_ip = 1766; continue _fun00005 }
+ 1759:
                     report = _closure2_slot4;
                     options = !report;
- 1722:
-                    if(!options) { _fun00006_ip = 1752; continue _fun00005 }
- 1725:
+ 1766:
+                    if(!options) { _fun00006_ip = 1796; continue _fun00005 }
+ 1769:
                     report = _closure2_slot2;
                     oscar = entity == report;
                     report = undefined;
-                    if(oscar) { _fun00006_ip = 1748; continue _fun00005 }
- 1738:
+                    if(oscar) { _fun00006_ip = 1792; continue _fun00005 }
+ 1782:
                     oscar = _closure2_slot2;
                     report = oscar.onEnableMFAClick;
- 1748:
+ 1792:
                     options = entity != report;
- 1752:
+ 1796:
                     report = _closure2_slot0;
                     report = report.hasEnabled2FA;
                     report = !report;
-                    if(!report) { _fun00006_ip = 1775; continue _fun00005 }
- 1768:
+                    if(!report) { _fun00006_ip = 1819; continue _fun00005 }
+ 1812:
                     oscar = _closure2_slot5;
                     report = !oscar;
- 1775:
-                    if(!report) { _fun00006_ip = 1805; continue _fun00005 }
- 1778:
+ 1819:
+                    if(!report) { _fun00006_ip = 1849; continue _fun00005 }
+ 1822:
                     oscar = _closure2_slot2;
                     verify = entity == oscar;
                     oscar = undefined;
-                    if(verify) { _fun00006_ip = 1801; continue _fun00005 }
- 1791:
+                    if(verify) { _fun00006_ip = 1845; continue _fun00005 }
+ 1835:
                     verify = _closure2_slot2;
                     oscar = verify.onRequireModeratorMFAClick;
- 1801:
+ 1845:
                     report = entity != oscar;
- 1805:
-                    if(options) { _fun00006_ip = 1811; continue _fun00005 }
- 1808:
+ 1849:
+                    if(options) { _fun00006_ip = 1855; continue _fun00005 }
+ 1852:
                     options = report;
- 1811:
+ 1855:
                     oscar = mike.push;
                     report = {};
                     verify = '2fa_requirement';
@@ -659,8 +659,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.hasEnabled2FA;
                     report['checked'] = verify;
                     verify = undefined;
-                    if(!options) { _fun00006_ip = 2068; continue _fun00005 }
- 2016:
+                    if(!options) { _fun00006_ip = 2120; continue _fun00005 }
+ 2066:
                     foxtrot = _closure1_slot0;
                     offset = _closure1_slot2;
                     yankee = offset[backup];
@@ -672,20 +672,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset.t;
                     offset = offset.BU4Dio;
                     verify = yankee.bind(romeo)(offset);
- 2068:
+ 2120:
                     report['actionLabel'] = verify;
                     golf = undefined;
-                    if(!options) { _fun00006_ip = 2082; continue _fun00005 }
- 2078:
+                    if(!options) { _fun00006_ip = 2134; continue _fun00005 }
+ 2130:
                     golf = _closure2_slot6;
- 2082:
+ 2134:
                     report['actionHandler'] = golf;
                     report = oscar.bind(mike)(report);
- 2092:
+ 2144:
                     report = _closure2_slot3;
                     tango = true;
-                    if(!(tango === report)) { _fun00006_ip = 2120; continue _fun00005 }
- 2102:
+                    if(!(tango === report)) { _fun00006_ip = 2172; continue _fun00005 }
+ 2154:
                     tango = mike.sort;
                     zulu = function(argFoo) {
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -701,9 +701,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         }
                     };
                     zulu = tango.bind(mike)(zulu);
- 2120:
+ 2172:
                     return mike;
- 2122:
+ 2174:
                     return entity;
                 }
             };

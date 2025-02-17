@@ -93,9 +93,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  154:
             options = _closure1_slot6;
             options = options.PUBLIC;
-            if(!(verify !== options)) { _fun00002_ip = 421; continue _fun00001 }
+            if(!(verify !== options)) { _fun00002_ip = 430; continue _fun00001 }
  171:
-            if(mike) { _fun00002_ip = 234; continue _fun00001 }
+            if(mike) { _fun00002_ip = 236; continue _fun00001 }
  174:
             yankee = _closure1_slot0;
             romeo = _closure1_slot3;
@@ -109,10 +109,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.t;
             options = options.BOjr7u;
             options = verify.bind(offset)(options);
-            _fun00002_ip = 419; continue _fun00001;
- 234:
-            if(zulu) { _fun00002_ip = 294; continue _fun00001 }
- 237:
+            _fun00002_ip = 428; continue _fun00001;
+ 236:
+            if(zulu) { _fun00002_ip = 301; continue _fun00001 }
+ 239:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot3;
             verify = 7;
@@ -125,14 +125,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.E5T7a2;
             verify = offset.bind(yankee)(verify);
-            _fun00002_ip = 416; continue _fun00001;
- 294:
+            _fun00002_ip = 425; continue _fun00001;
+ 301:
             offset = _closure1_slot6;
             romeo = offset.PUBLIC;
             yankee = argBaz;
             offset = null;
-            if(!(yankee === romeo)) { _fun00002_ip = 413; continue _fun00001 }
- 313:
+            if(!(yankee === romeo)) { _fun00002_ip = 422; continue _fun00001 }
+ 320:
             romeo = _closure1_slot0;
             output = _closure1_slot3;
             yankee = 7;
@@ -155,13 +155,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(output)(kilo);
             yankee['articleURL'] = kilo;
             offset = foxtrot.bind(backup)(romeo, yankee);
- 413:
+ 422:
             verify = offset;
- 416:
+ 425:
             options = verify;
- 419:
-            _fun00002_ip = 476; continue _fun00001;
- 421:
+ 428:
+            _fun00002_ip = 487; continue _fun00001;
+ 430:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot3;
             verify = 7;
@@ -174,23 +174,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.GFq5Rk;
             options = offset.bind(yankee)(verify);
- 476:
+ 487:
             entity['helpText'] = options;
             golf = golf == oscar;
             report = undefined;
-            if(golf) { _fun00002_ip = 496; continue _fun00001 }
- 490:
+            if(golf) { _fun00002_ip = 507; continue _fun00001 }
+ 501:
             report = oscar.privacy_level;
- 496:
+ 507:
             tango = _closure1_slot6;
             tango = tango.PUBLIC;
             tango = report === tango;
             entity['guildOnlyDisabled'] = tango;
             mike = !mike;
-            if(mike) { _fun00002_ip = 526; continue _fun00001 }
- 523:
+            if(mike) { _fun00002_ip = 537; continue _fun00001 }
+ 534:
             mike = !zulu;
- 526:
+ 537:
             entity['publicDisabled'] = mike;
             return entity;
         }

@@ -468,10 +468,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = {};
             status = target == papa;
             target = undefined;
-            if(status) { _fun00004_ip = 874; continue _fun00003 }
- 868:
+            if(status) { _fun00004_ip = 882; continue _fun00003 }
+ 876:
             target = papa.defaultMessageNotifications;
- 874:
+ 882:
             papa = _closure1_slot16;
             papa = papa.ONLY_MENTIONS;
             papa = target === papa;
@@ -481,8 +481,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = kilo.bind(tango)(control, update);
             update = new Array(2);
             update[0] = control;
-            if(!source) { _fun00004_ip = 989; continue _fun00003 }
- 918:
+            if(!source) { _fun00004_ip = 997; continue _fun00003 }
+ 926:
             papa = _closure1_slot17;
             sequence = _closure1_slot0;
             target = _closure1_slot3;
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             control['onPress'] = target;
             source = papa.bind(tango)(sequence, control);
- 989:
+ 997:
             update[1] = source;
             sizing['children'] = update;
             sizing = zulu.bind(tango)(echo, sizing);
@@ -557,8 +557,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = sizing.bind(tango)(sequence, control);
             control = new Array(2);
             control[0] = sequence;
-            if(!vacuum) { _fun00004_ip = 1279; continue _fun00003 }
- 1208:
+            if(!vacuum) { _fun00004_ip = 1289; continue _fun00003 }
+ 1218:
             record = _closure1_slot17;
             config = _closure1_slot0;
             papa = _closure1_slot3;
@@ -581,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             sequence['onPress'] = context;
             vacuum = record.bind(tango)(config, sequence);
- 1279:
+ 1289:
             control[1] = vacuum;
             echo['children'] = control;
             echo = source.bind(tango)(update, echo);

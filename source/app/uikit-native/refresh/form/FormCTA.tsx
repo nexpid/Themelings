@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     entity = report.bind(tango)(zulu, mike);
  63:
-                    _fun00004_ip = 180; continue _fun00003;
+                    _fun00004_ip = 182; continue _fun00003;
  65:
                     report = _closure1_slot4;
                     options = _closure1_slot1;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = golf.bind(options)(oscar);
                     mike['accessibilityLabel'] = oscar;
                     entity = report.bind(tango)(zulu, mike);
- 180:
+ 182:
                     return entity;
                 }
             };

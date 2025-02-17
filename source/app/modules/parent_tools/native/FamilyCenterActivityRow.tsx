@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = 'No text for action type';
             entity = mike.bind(tango)(zulu, entity);
-            if(!(tango !== result)) { _fun00004_ip = 703; continue _fun00003 }
+            if(!(tango !== result)) { _fun00004_ip = 705; continue _fun00003 }
  132:
             mike = result.hasFeature;
             entity = _closure1_slot7;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = foxtrot;
             foxtrot = result.approximateMemberCount;
             offset = null;
-            if(!(tango !== foxtrot)) { _fun00004_ip = 673; continue _fun00003 }
+            if(!(tango !== foxtrot)) { _fun00004_ip = 675; continue _fun00003 }
  562:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = sizing.bind(output)(kilo, backup);
             yankee['children'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 673:
+ 675:
             verify[1] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
- 703:
+ 705:
             entity = null;
             return entity;
         }

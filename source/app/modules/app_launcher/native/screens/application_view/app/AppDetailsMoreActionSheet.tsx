@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.getSetting;
             romeo = romeo.bind(backup)();
             verify = null;
-            if(!romeo) { _fun00002_ip = 400; continue _fun00001 }
+            if(!romeo) { _fun00002_ip = 402; continue _fun00001 }
  303:
             romeo = _closure1_slot3;
             output = _closure1_slot0;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset['onPress'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 400:
+ 402:
             options[1] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

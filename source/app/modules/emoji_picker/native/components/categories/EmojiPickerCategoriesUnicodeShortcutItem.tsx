@@ -206,8 +206,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = tango.bind(oscar)(entity, zulu);
             entity = null;
-            if(!mike) { _fun00002_ip = 527; continue _fun00001 }
- 341:
+            if(!mike) { _fun00002_ip = 523; continue _fun00001 }
+ 335:
             tango = _closure1_slot7;
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 527:
+ 523:
             return entity;
         }
     };

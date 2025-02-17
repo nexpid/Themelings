@@ -354,10 +354,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.ChannelModes;
             offset = offset.SELECTED;
             offset = equality === offset;
-            if(!offset) { _fun00002_ip = 802; continue _fun00001 }
- 796:
+            if(!offset) { _fun00002_ip = 798; continue _fun00001 }
+ 792:
             offset = sequence.selected;
- 802:
+ 798:
             verify[1] = offset;
             oscar['style'] = verify;
             oscar['accessible'] = options;
@@ -383,15 +383,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.ChannelModes;
             options = options.SELECTED;
             verify = equality === options;
-            if(!verify) { _fun00002_ip = 938; continue _fun00001 }
- 912:
+            if(!verify) { _fun00002_ip = 934; continue _fun00001 }
+ 908:
             yankee = _closure1_slot10;
             offset = _closure1_slot4;
             options = {};
             romeo = sequence.selectedBorder;
             options['style'] = romeo;
             verify = yankee.bind(tango)(offset, options);
- 938:
+ 934:
             options = new Array(2);
             options[0] = verify;
             yankee = _closure1_slot11;
@@ -402,17 +402,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = null;
             control = kilo != sierra;
-            if(!control) { _fun00002_ip = 985; continue _fun00001 }
- 979:
+            if(!control) { _fun00002_ip = 981; continue _fun00001 }
+ 975:
             control = sequence.rowWithSubtitle;
- 985:
+ 981:
             romeo[1] = control;
             verify['style'] = romeo;
             romeo = new Array(3);
             romeo[0] = backup;
             backup = record;
-            if(!(kilo != sierra)) { _fun00002_ip = 1160; continue _fun00001 }
- 1011:
+            if(!(kilo != sierra)) { _fun00002_ip = 1152; continue _fun00001 }
+ 1007:
             vacuum = _closure1_slot11;
             control = _closure1_slot4;
             kilo = {};
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence[1] = config;
             kilo['children'] = sequence;
             backup = vacuum.bind(tango)(control, kilo);
- 1160:
+ 1152:
             romeo[1] = backup;
             kilo = _closure1_slot10;
             backup = _closure1_slot1;

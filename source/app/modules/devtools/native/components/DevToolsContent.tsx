@@ -640,7 +640,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = oscar;
             oscar = tango.bind(report)(zulu, entity);
             entity = oscar;
-            if(mike) { _fun00004_ip = 311; continue _fun00003 }
+            if(mike) { _fun00004_ip = 310; continue _fun00003 }
  229:
             tango = _closure1_slot9;
             zulu = _closure1_slot6;
@@ -661,7 +661,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['contentContainerStyle'] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 311:
+ 310:
             return entity;
         }
     };

@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike == zulu)) { _fun00006_ip = 33; continue _fun00005 }
+                    if(!(mike == zulu)) { _fun00006_ip = 31; continue _fun00005 }
  13:
                     zulu = _closure2_slot0;
                     mike = function() { // Original name: fetchNote
@@ -184,17 +184,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     entity = undefined;
                     entity = mike.bind(entity)(zulu);
- 33:
+ 31:
                     entity = undefined;
                     return entity;
                 }
             };
             mike = tango.bind(report)(mike, zulu);
             mike = null;
-            if(!(mike == entity)) { _fun00004_ip = 118; continue _fun00003 }
- 108:
+            if(!(mike == entity)) { _fun00004_ip = 114; continue _fun00003 }
+ 104:
             entity = {'loading': true, 'note': null};
- 118:
+ 114:
             return entity;
         }
     };

@@ -637,11 +637,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['channelInfo'] = backup;
             backup = update.length;
             romeo = null;
-            if(!(kilo !== backup)) { _fun00002_ip = 1180; continue _fun00001 }
+            if(!(kilo !== backup)) { _fun00002_ip = 1176; continue _fun00001 }
  941:
             kilo = _closure1_slot17;
             backup = _closure1_slot4;
-            if(!(foxtrot !== sizing)) { _fun00002_ip = 1107; continue _fun00001 }
+            if(!(foxtrot !== sizing)) { _fun00002_ip = 1103; continue _fun00001 }
  956:
             foxtrot = {};
             sizing = result.voiceStatesCollapsed;
@@ -672,8 +672,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['guildId'] = vacuum;
             sizing = control.bind(tango)(echo, sizing);
             foxtrot['children'] = sizing;
-            _fun00002_ip = 1174; continue _fun00001;
- 1107:
+            _fun00002_ip = 1170; continue _fun00001;
+ 1103:
             sizing = {};
             result = result.voiceStates;
             sizing['style'] = result;
@@ -691,9 +691,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = echo.bind(tango)(result, output);
             sizing['children'] = output;
             foxtrot = sizing;
- 1174:
+ 1170:
             romeo = kilo.bind(tango)(backup, foxtrot);
- 1180:
+ 1176:
             verify['children'] = romeo;
             verify = yankee.bind(tango)(offset, verify);
             options[2] = verify;

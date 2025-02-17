@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot3;
-                    if(entity) { _fun00004_ip = 59; continue _fun00003 }
+                    if(entity) { _fun00004_ip = 55; continue _fun00003 }
  10:
                     entity = {'localMute': null, 'localDeaf': false, 'localVideo': false};
                     tango = _closure1_slot7;
@@ -107,15 +107,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.id;
                     mike = zulu.bind(tango)(mike);
                     entity['localMute'] = mike;
-                    _fun00004_ip = 98; continue _fun00003;
- 59:
+                    _fun00004_ip = 90; continue _fun00003;
+ 55:
                     mike = {'localMute': false, 'localDeaf': false};
                     tango = _closure1_slot7;
                     zulu = tango.isVideoEnabled;
                     zulu = zulu.bind(tango)();
                     mike['localVideo'] = zulu;
                     entity = mike;
- 98:
+ 90:
                     return entity;
                 }
             };

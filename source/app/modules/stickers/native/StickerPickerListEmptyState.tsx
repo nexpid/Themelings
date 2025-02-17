@@ -92,18 +92,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             report = report.bind(oscar)(mike, zulu);
-            if(entity) { _fun00002_ip = 87; continue _fun00001 }
- 81:
+            if(entity) { _fun00002_ip = 85; continue _fun00001 }
+ 79:
             zulu = _closure1_slot4;
-            _fun00002_ip = 113; continue _fun00001;
- 87:
+            _fun00002_ip = 111; continue _fun00001;
+ 85:
             mike = _closure1_slot0;
             oscar = _closure1_slot2;
             entity = 6;
             entity = oscar[entity];
             entity = mike.bind(tango)(entity);
             zulu = entity.BottomSheetScrollView;
- 113:
+ 111:
             mike = _closure1_slot6;
             entity = {};
             entity['contentContainerStyle'] = report;

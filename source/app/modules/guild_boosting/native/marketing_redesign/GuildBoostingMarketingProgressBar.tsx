@@ -407,8 +407,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.isThemeDark;
             kilo = kilo.bind(sizing)(output);
             sizing = '#515359';
-            if(kilo) { _fun00002_ip = 796; continue _fun00001 }
- 765:
+            if(kilo) { _fun00002_ip = 792; continue _fun00001 }
+ 761:
             output = _closure1_slot1;
             result = _closure1_slot2;
             kilo = 15;
@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = output.bind(tango)(kilo);
             kilo = kilo.unsafe_rawColors;
             sizing = kilo.PRIMARY_160;
- 796:
+ 792:
             kilo = new Array(2);
             kilo[0] = sizing;
             sizing = '#AB77F2';

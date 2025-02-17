@@ -105,10 +105,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  30:
             entity = mike != zulu;
  34:
-            if(entity) { _fun00004_ip = 85; continue _fun00003 }
+            if(entity) { _fun00004_ip = 83; continue _fun00003 }
  37:
             mike = mike != report;
-            if(!mike) { _fun00004_ip = 82; continue _fun00003 }
+            if(!mike) { _fun00004_ip = 80; continue _fun00003 }
  44:
             zulu = global;
             tango = zulu.Object;
@@ -141,9 +141,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = tango.bind(report)(zulu);
- 82:
+ 80:
             entity = mike;
- 85:
+ 83:
             return entity;
         }
     };
@@ -164,9 +164,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.oauth2Callback;
             var _closure2_slot1 = entity;
             romeo = null;
-            if(!(romeo == report)) { _fun00008_ip = 464; continue _fun00007 }
+            if(!(romeo == report)) { _fun00008_ip = 458; continue _fun00007 }
  74:
-            if(!(romeo != zulu)) { _fun00008_ip = 120; continue _fun00007 }
+            if(!(romeo != zulu)) { _fun00008_ip = 118; continue _fun00007 }
  78:
             entity = global;
             mike = entity.Object;
@@ -199,10 +199,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             entity = mike.bind(zulu)(entity);
-            if(entity) { _fun00008_ip = 344; continue _fun00007 }
- 120:
-            if(!(romeo != kilo)) { _fun00008_ip = 340; continue _fun00007 }
- 127:
+            if(entity) { _fun00008_ip = 340; continue _fun00007 }
+ 118:
+            if(!(romeo != kilo)) { _fun00008_ip = 336; continue _fun00007 }
+ 125:
             mike = _closure1_slot1;
             zulu = _closure1_slot3;
             entity = 2;
@@ -228,21 +228,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['disableGuildSelect'] = oscar;
             backup = romeo == kilo;
             verify = undefined;
-            if(backup) { _fun00008_ip = 243; continue _fun00007 }
- 237:
+            if(backup) { _fun00008_ip = 241; continue _fun00007 }
+ 235:
             verify = kilo.scopes;
- 243:
+ 241:
             entity['scopes'] = verify;
             backup = romeo == kilo;
             verify = undefined;
-            if(backup) { _fun00008_ip = 263; continue _fun00007 }
- 257:
+            if(backup) { _fun00008_ip = 261; continue _fun00007 }
+ 255:
             verify = kilo.permissions;
- 263:
+ 261:
             backup = romeo != verify;
             verify = undefined;
-            if(!backup) { _fun00008_ip = 318; continue _fun00007 }
- 272:
+            if(!backup) { _fun00008_ip = 316; continue _fun00007 }
+ 270:
             backup = _closure1_slot2;
             sizing = _closure1_slot3;
             foxtrot = 6;
@@ -251,12 +251,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.deserialize;
             sizing = romeo == kilo;
             romeo = undefined;
-            if(sizing) { _fun00008_ip = 313; continue _fun00007 }
- 307:
+            if(sizing) { _fun00008_ip = 311; continue _fun00007 }
+ 305:
             romeo = kilo.permissions;
- 313:
+ 311:
             verify = foxtrot.bind(backup)(romeo);
- 318:
+ 316:
             entity['permissions'] = verify;
             verify = function(argFoo) { // Original name: callback
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -281,10 +281,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['callback'] = verify;
             entity = mike.bind(zulu)(entity);
- 340:
+ 336:
             entity = undefined;
             return entity;
- 344:
+ 340:
             verify = _closure1_slot1;
             zulu = _closure1_slot3;
             entity = 2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['callback'] = oscar;
             mike = zulu.bind(entity)(mike);
             return entity;
- 464:
+ 458:
             golf = _closure1_slot1;
             oscar = _closure1_slot3;
             mike = 2;

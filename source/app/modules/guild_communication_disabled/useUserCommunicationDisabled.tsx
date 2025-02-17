@@ -141,10 +141,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             report = mike == entity;
             mike = undefined;
-            if(report) { _fun00006_ip = 77; continue _fun00005 }
- 72:
+            if(report) { _fun00006_ip = 75; continue _fun00005 }
+ 70:
             mike = entity.id;
- 77:
+ 75:
             entity = argFoo;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

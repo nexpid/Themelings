@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.type;
             entity = _closure1_slot16;
             entity = entity.XBOX;
-            if(!(entity !== mike)) { _fun00004_ip = 155; continue _fun00003 }
+            if(!(entity !== mike)) { _fun00004_ip = 157; continue _fun00003 }
  41:
             entity = _closure1_slot16;
             entity = entity.PLAYSTATION;
@@ -183,8 +183,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.LI7BXF;
             entity = mike.bind(zulu)(entity);
             report['supertitle'] = entity;
-            _fun00004_ip = 241; continue _fun00003;
- 155:
+            _fun00004_ip = 245; continue _fun00003;
+ 157:
             entity = {};
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(oscar)(mike);
             entity['supertitle'] = mike;
             report = entity;
- 241:
+ 245:
             zulu = _closure1_slot17;
             mike = _closure1_slot21;
             entity = {};
@@ -507,11 +507,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  124:
             options = entity.WkAgPT;
             options = mike.bind(zulu)(options);
-            _fun00006_ip = 148; continue _fun00005;
+            _fun00006_ip = 150; continue _fun00005;
  137:
             entity = entity.YSGk4O;
             options = mike.bind(zulu)(entity);
- 148:
+ 150:
             zulu = _closure1_slot17;
             mike = _closure1_slot21;
             entity = {};

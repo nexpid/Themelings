@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['margin'] = result;
             report['style'] = options;
             offset = kilo.muted;
-            if(!offset) { _fun00002_ip = 459; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 461; continue _fun00001 }
  328:
             romeo = _closure1_slot6;
             source = _closure1_slot0;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['subtitle'] = kilo;
             options['onPressUnmute'] = backup;
             offset = romeo.bind(tango)(yankee, options);
- 459:
+ 461:
             options = new Array(6);
             options[0] = offset;
             romeo = _closure1_slot6;
@@ -315,8 +315,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = output.channel;
             offset = yankee.isForumLikeChannel;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun00002_ip = 691; continue _fun00001 }
- 637:
+            if(!offset) { _fun00002_ip = 693; continue _fun00001 }
+ 639:
             backup = _closure1_slot6;
             romeo = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -330,12 +330,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.channel;
             yankee['channel'] = output;
             offset = backup.bind(tango)(romeo, yankee);
- 691:
+ 693:
             options[4] = offset;
             verify = verify.inherited;
             verify = !verify;
-            if(!verify) { _fun00002_ip = 834; continue _fun00001 }
- 710:
+            if(!verify) { _fun00002_ip = 836; continue _fun00001 }
+ 712:
             romeo = _closure1_slot6;
             yankee = _closure1_slot4;
             offset = {};
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = romeo.bind(tango)(backup, foxtrot);
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 834:
+ 836:
             options[5] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

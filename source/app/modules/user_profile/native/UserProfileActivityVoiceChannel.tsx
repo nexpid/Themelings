@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar[1] = golf;
                 entity['style'] = oscar;
                 options = _closure1_slot4;
-                if(report) { _fun00004_ip = 387; continue _fun00003 }
+                if(report) { _fun00004_ip = 385; continue _fun00003 }
  263:
                 backup = _closure1_slot0;
                 kilo = _closure1_slot2;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report['children'] = golf;
                 oscar = options.bind(tango)(oscar, report);
                 _fun00004_ip = 535; continue _fun00003;
- 387:
+ 385:
                 golf = _closure1_slot3;
                 report = {};
                 offset = true;
@@ -414,12 +414,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = sizing.length;
                 kilo = 3;
                 foxtrot = sizing;
-                if(!(!(romeo <= kilo))) { _fun00004_ip = 1024; continue _fun00003 }
- 1011:
+                if(!(!(romeo <= kilo))) { _fun00004_ip = 1032; continue _fun00003 }
+ 1019:
                 backup = sizing.slice;
                 romeo = 0;
                 foxtrot = backup.bind(sizing)(romeo, kilo);
- 1024:
+ 1032:
                 romeo = foxtrot.map;
                 yankee = function(argFoo) {
                     entity = argFoo;

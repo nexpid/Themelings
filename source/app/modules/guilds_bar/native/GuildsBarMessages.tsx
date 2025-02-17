@@ -175,7 +175,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = oscar.t;
             oscar = oscar.YUU0RE;
             oscar = golf.bind(offset)(oscar);
-            _fun00002_ip = 403; continue _fun00001;
+            _fun00002_ip = 405; continue _fun00001;
  340:
             offset = _closure1_slot0;
             backup = _closure1_slot2;
@@ -191,7 +191,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf = {};
             golf['requestCount'] = foxtrot;
             oscar = yankee.bind(romeo)(offset, golf);
- 403:
+ 405:
             entity['label'] = oscar;
             entity['externalChildren'] = report;
             golf = _closure1_slot7;
@@ -208,13 +208,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             verify = yankee[verify];
             verify = offset.bind(tango)(verify);
             verify = verify.colors;
-            if(options) { _fun00002_ip = 480; continue _fun00001 }
- 472:
+            if(options) { _fun00002_ip = 482; continue _fun00001 }
+ 474:
             options = verify.INTERACTIVE_NORMAL;
-            _fun00002_ip = 486; continue _fun00001;
- 480:
+            _fun00002_ip = 488; continue _fun00001;
+ 482:
             options = verify.WHITE;
- 486:
+ 488:
             report['color'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

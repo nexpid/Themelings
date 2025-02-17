@@ -63,28 +63,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = offset.type;
             romeo = _closure1_slot8;
             romeo = romeo.GUILD_DIRECTORY;
-            if(!(romeo !== backup)) { _fun00002_ip = 728; continue _fun00001 }
- 210:
+            if(!(romeo !== backup)) { _fun00002_ip = 720; continue _fun00001 }
+ 208:
             romeo = _closure1_slot8;
             romeo = romeo.GUILD_FORUM;
-            if(!(romeo !== backup)) { _fun00002_ip = 592; continue _fun00001 }
- 227:
+            if(!(romeo !== backup)) { _fun00002_ip = 586; continue _fun00001 }
+ 225:
             romeo = _closure1_slot8;
             romeo = romeo.GUILD_MEDIA;
-            if(!(romeo !== backup)) { _fun00002_ip = 592; continue _fun00001 }
- 244:
+            if(!(romeo !== backup)) { _fun00002_ip = 586; continue _fun00001 }
+ 242:
             romeo = _closure1_slot8;
             romeo = romeo.PUBLIC_THREAD;
-            if(!(romeo !== backup)) { _fun00002_ip = 425; continue _fun00001 }
- 261:
+            if(!(romeo !== backup)) { _fun00002_ip = 421; continue _fun00001 }
+ 259:
             romeo = _closure1_slot8;
             romeo = romeo.PRIVATE_THREAD;
-            if(!(romeo !== backup)) { _fun00002_ip = 425; continue _fun00001 }
- 278:
+            if(!(romeo !== backup)) { _fun00002_ip = 421; continue _fun00001 }
+ 276:
             romeo = _closure1_slot8;
             romeo = romeo.ANNOUNCEMENT_THREAD;
-            if(!(romeo !== backup)) { _fun00002_ip = 425; continue _fun00001 }
- 295:
+            if(!(romeo !== backup)) { _fun00002_ip = 421; continue _fun00001 }
+ 293:
             backup = golf.push;
             romeo = {};
             sizing = _closure1_slot1;
@@ -200,24 +200,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(output)(kilo);
             romeo['accessibilityLabel'] = kilo;
             romeo = backup.bind(golf)(romeo);
-            _fun00002_ip = 853; continue _fun00001;
- 425:
+            _fun00002_ip = 843; continue _fun00001;
+ 421:
             romeo = offset.isForumPost;
             romeo = romeo.bind(offset)();
-            if(romeo) { _fun00002_ip = 853; continue _fun00001 }
- 441:
+            if(romeo) { _fun00002_ip = 843; continue _fun00001 }
+ 437:
             romeo = _closure1_slot1;
-            if(!(foxtrot !== yankee)) { _fun00002_ip = 462; continue _fun00001 }
- 449:
+            if(!(foxtrot !== yankee)) { _fun00002_ip = 458; continue _fun00001 }
+ 445:
             foxtrot = _closure1_slot2;
             yankee = 21;
             yankee = foxtrot[yankee];
-            _fun00002_ip = 473; continue _fun00001;
- 462:
+            _fun00002_ip = 469; continue _fun00001;
+ 458:
             backup = _closure1_slot2;
             foxtrot = 20;
             yankee = backup[foxtrot];
- 473:
+ 469:
             foxtrot = romeo.bind(tango)(yankee);
             romeo = golf.push;
             yankee = {};
@@ -254,10 +254,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(kilo)(foxtrot);
             yankee['accessibilityLabel'] = foxtrot;
             yankee = romeo.bind(golf)(yankee);
-            _fun00002_ip = 853; continue _fun00001;
+            _fun00002_ip = 843; continue _fun00001;
+ 586:
+            if(!zulu) { _fun00002_ip = 843; continue _fun00001 }
  592:
-            if(!zulu) { _fun00002_ip = 853; continue _fun00001 }
- 598:
             yankee = golf.push;
             zulu = {};
             foxtrot = _closure1_slot1;
@@ -299,8 +299,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(backup)(romeo);
             zulu['accessibilityLabel'] = romeo;
             zulu = yankee.bind(golf)(zulu);
-            _fun00002_ip = 853; continue _fun00001;
- 728:
+            _fun00002_ip = 843; continue _fun00001;
+ 720:
             yankee = golf.push;
             zulu = {};
             foxtrot = _closure1_slot1;
@@ -342,15 +342,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(backup)(romeo);
             zulu['accessibilityLabel'] = romeo;
             zulu = yankee.bind(golf)(zulu);
- 853:
-            if(!mike) { _fun00002_ip = 867; continue _fun00001 }
- 856:
+ 843:
+            if(!mike) { _fun00002_ip = 857; continue _fun00001 }
+ 846:
             yankee = golf.length;
             zulu = 0;
             mike = zulu !== yankee;
- 867:
-            if(mike) { _fun00002_ip = 996; continue _fun00001 }
- 873:
+ 857:
+            if(mike) { _fun00002_ip = 986; continue _fun00001 }
+ 863:
             zulu = {};
             zulu['channel'] = offset;
             zulu['isChannelNSFWGated'] = verify;
@@ -363,37 +363,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = offset.type;
             zulu = options.bind(romeo)(zulu);
             options = !zulu;
-            if(!options) { _fun00002_ip = 934; continue _fun00001 }
- 931:
+            if(!options) { _fun00002_ip = 924; continue _fun00001 }
+ 921:
             options = yankee;
- 934:
-            if(!options) { _fun00002_ip = 965; continue _fun00001 }
- 937:
+ 924:
+            if(!options) { _fun00002_ip = 955; continue _fun00001 }
+ 927:
             yankee = _closure1_slot9;
             foxtrot = yankee.GUILD_THREADS_ONLY;
             romeo = foxtrot.has;
             yankee = offset.type;
             yankee = romeo.bind(foxtrot)(yankee);
             options = !yankee;
- 965:
-            if(!zulu) { _fun00002_ip = 971; continue _fun00001 }
- 968:
+ 955:
+            if(!zulu) { _fun00002_ip = 961; continue _fun00001 }
+ 958:
             zulu = !verify;
- 971:
-            if(!zulu) { _fun00002_ip = 987; continue _fun00001 }
- 974:
+ 961:
+            if(!zulu) { _fun00002_ip = 977; continue _fun00001 }
+ 964:
             verify = offset.isForumLikeChannel;
             verify = verify.bind(offset)();
             zulu = !verify;
- 987:
-            if(!zulu) { _fun00002_ip = 993; continue _fun00001 }
- 990:
+ 977:
+            if(!zulu) { _fun00002_ip = 983; continue _fun00001 }
+ 980:
             zulu = options;
- 993:
+ 983:
             mike = !zulu;
- 996:
-            if(mike) { _fun00002_ip = 1128; continue _fun00001 }
- 1002:
+ 986:
+            if(mike) { _fun00002_ip = 1116; continue _fun00001 }
+ 992:
             zulu = golf.unshift;
             mike = {};
             verify = _closure1_slot1;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.bind(offset)(options);
             mike['accessibilityLabel'] = options;
             mike = zulu.bind(golf)(mike);
- 1128:
+ 1116:
             zulu = _closure1_slot13;
             mike = _closure1_slot3;
             entity = {};
@@ -500,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             zulu = tango == golf;
             entity = null;
-            if(zulu) { _fun00006_ip = 161; continue _fun00005 }
- 86:
+            if(zulu) { _fun00006_ip = 159; continue _fun00005 }
+ 84:
             options = _closure1_slot0;
             verify = _closure1_slot2;
             zulu = 33;
@@ -510,21 +510,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.shouldNSFWGateGuild;
             offset = tango == golf;
             zulu = undefined;
-            if(offset) { _fun00006_ip = 126; continue _fun00005 }
- 121:
+            if(offset) { _fun00006_ip = 124; continue _fun00005 }
+ 119:
             zulu = golf.guild_id;
- 126:
+ 124:
             zulu = options.bind(verify)(zulu);
             entity = null;
-            if(zulu) { _fun00006_ip = 161; continue _fun00005 }
- 136:
+            if(zulu) { _fun00006_ip = 159; continue _fun00005 }
+ 134:
             tango = _closure1_slot13;
             zulu = _closure1_slot15;
             mike = {};
             mike['channel'] = golf;
             mike['screenIndex'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 161:
+ 159:
             return entity;
         }
     };
@@ -675,20 +675,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot3;
             entity = {};
             entity['style'] = yankee;
-            if(options) { _fun00008_ip = 205; continue _fun00007 }
- 134:
-            if(golf) { _fun00008_ip = 167; continue _fun00007 }
- 137:
-            if(report) { _fun00008_ip = 167; continue _fun00007 }
- 140:
+            if(options) { _fun00008_ip = 203; continue _fun00007 }
+ 132:
+            if(golf) { _fun00008_ip = 165; continue _fun00007 }
+ 135:
+            if(report) { _fun00008_ip = 165; continue _fun00007 }
+ 138:
             options = _closure1_slot13;
             golf = _closure1_slot16;
             report = {};
             report['channelId'] = verify;
             report['screenIndex'] = offset;
             report = options.bind(tango)(golf, report);
-            _fun00008_ip = 203; continue _fun00007;
- 167:
+            _fun00008_ip = 201; continue _fun00007;
+ 165:
             offset = _closure1_slot13;
             options = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -698,9 +698,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             golf['channelId'] = verify;
             report = offset.bind(tango)(options, golf);
+ 201:
+            _fun00008_ip = 245; continue _fun00007;
  203:
-            _fun00008_ip = 247; continue _fun00007;
- 205:
             options = _closure1_slot13;
             golf = _closure1_slot0;
             offset = _closure1_slot2;
@@ -711,7 +711,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['channelId'] = verify;
             report = options.bind(tango)(golf, oscar);
- 247:
+ 245:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

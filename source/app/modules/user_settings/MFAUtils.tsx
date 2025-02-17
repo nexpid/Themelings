@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             mike = entity.hasAnyStaffLevel;
             mike = mike.bind(entity)();
-            if(mike) { _fun00002_ip = 117; continue _fun00001 }
+            if(mike) { _fun00002_ip = 119; continue _fun00001 }
  16:
             tango = entity.hasFlag;
             zulu = _closure1_slot6;
             zulu = zulu.PARTNER;
             zulu = tango.bind(entity)(zulu);
-            if(zulu) { _fun00002_ip = 117; continue _fun00001 }
+            if(zulu) { _fun00002_ip = 119; continue _fun00001 }
  43:
             zulu = entity.email;
             entity = null;
             zulu = entity == zulu;
-            if(!zulu) { _fun00002_ip = 115; continue _fun00001 }
+            if(!zulu) { _fun00002_ip = 117; continue _fun00001 }
  58:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -74,9 +74,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.LfCBZG;
             entity = zulu.bind(tango)(mike);
- 115:
-            _fun00002_ip = 177; continue _fun00001;
  117:
+            _fun00002_ip = 181; continue _fun00001;
+ 119:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
             mike = 4;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.Sq6Q1t;
             entity = zulu.bind(tango)(mike);
- 177:
+ 181:
             return entity;
         }
     };
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  22:
                 zulu = tango.hasAnyStaffLevel;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun00004_ip = 151; continue _fun00003 }
+                if(zulu) { _fun00004_ip = 153; continue _fun00003 }
  35:
                 tango = _closure1_slot2;
                 zulu = tango.getGuilds;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu = tango.bind(report)(zulu);
                 mike = null;
-                if(!zulu) { _fun00004_ip = 149; continue _fun00003 }
+                if(!zulu) { _fun00004_ip = 151; continue _fun00003 }
  92:
                 golf = _closure1_slot0;
                 options = _closure1_slot1;
@@ -167,9 +167,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.t;
                 zulu = zulu.HC8uSU;
                 mike = tango.bind(report)(zulu);
- 149:
-                return mike;
  151:
+                return mike;
+ 153:
                 report = _closure1_slot0;
                 oscar = _closure1_slot1;
                 entity = 4;

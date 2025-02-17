@@ -450,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.benefitType;
             entity = _closure1_slot8;
             entity = entity.CHANNEL;
-            if(!(mike !== entity)) { _fun00002_ip = 465; continue _fun00001 }
+            if(!(mike !== entity)) { _fun00002_ip = 467; continue _fun00001 }
  408:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -464,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.0rVUnJ;
             control = mike.bind(zulu)(entity);
-            _fun00002_ip = 520; continue _fun00001;
- 465:
+            _fun00002_ip = 524; continue _fun00001;
+ 467:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
             entity = 16;
@@ -478,12 +478,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.Odqwp6;
             control = mike.bind(zulu)(entity);
- 520:
+ 524:
             mike = romeo.benefitType;
             entity = _closure1_slot8;
             entity = entity.CHANNEL;
-            if(!(mike !== entity)) { _fun00002_ip = 597; continue _fun00001 }
- 540:
+            if(!(mike !== entity)) { _fun00002_ip = 601; continue _fun00001 }
+ 544:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
             entity = 16;
@@ -496,8 +496,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.kV54/f;
             config = mike.bind(zulu)(entity);
-            _fun00002_ip = 652; continue _fun00001;
- 597:
+            _fun00002_ip = 656; continue _fun00001;
+ 601:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
             entity = 16;
@@ -510,12 +510,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.GK18KC;
             config = mike.bind(zulu)(entity);
- 652:
+ 656:
             mike = romeo.benefitType;
             entity = _closure1_slot8;
             entity = entity.CHANNEL;
-            if(!(mike !== entity)) { _fun00002_ip = 729; continue _fun00001 }
- 672:
+            if(!(mike !== entity)) { _fun00002_ip = 735; continue _fun00001 }
+ 676:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
             entity = 16;
@@ -528,8 +528,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.NNqncX;
             output = mike.bind(zulu)(entity);
-            _fun00002_ip = 784; continue _fun00001;
- 729:
+            _fun00002_ip = 792; continue _fun00001;
+ 735:
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
             entity = 16;
@@ -542,12 +542,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.DDUpp6;
             output = mike.bind(zulu)(entity);
- 784:
+ 792:
             mike = romeo.benefitType;
             entity = _closure1_slot8;
             entity = entity.CHANNEL;
-            if(!(mike !== entity)) { _fun00002_ip = 977; continue _fun00001 }
- 807:
+            if(!(mike !== entity)) { _fun00002_ip = 981; continue _fun00001 }
+ 815:
             zulu = _closure1_slot11;
             golf = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -582,8 +582,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.WITH_CONTENT;
             entity['clearButtonVisibility'] = oscar;
             kilo = zulu.bind(tango)(mike, entity);
-            _fun00002_ip = 1034; continue _fun00001;
- 977:
+            _fun00002_ip = 1038; continue _fun00001;
+ 981:
             zulu = _closure1_slot11;
             mike = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['onChange'] = report;
             kilo = zulu.bind(tango)(mike, entity);
- 1034:
+ 1038:
             zulu = _closure1_slot12;
             mike = _closure1_slot5;
             entity = {};
@@ -736,14 +736,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.onDelete;
             romeo = offset == romeo;
             offset = null;
-            if(romeo) { _fun00002_ip = 1596; continue _fun00001 }
- 1575:
+            if(romeo) { _fun00002_ip = 1600; continue _fun00001 }
+ 1579:
             foxtrot = _closure1_slot11;
             romeo = _closure1_slot14;
             yankee = {};
             yankee['onDelete'] = backup;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 1596:
+ 1600:
             verify[6] = offset;
             oscar['children'] = verify;
             oscar = options.bind(tango)(golf, oscar);

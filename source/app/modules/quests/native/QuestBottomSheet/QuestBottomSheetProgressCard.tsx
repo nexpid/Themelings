@@ -193,10 +193,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
-                    if(!mike) { _fun00004_ip = 107; continue _fun00003 }
+                    if(!mike) { _fun00004_ip = 109; continue _fun00003 }
  12:
                     mike = _closure2_slot4;
-                    if(mike) { _fun00004_ip = 107; continue _fun00003 }
+                    if(mike) { _fun00004_ip = 109; continue _fun00003 }
  19:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -231,15 +231,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['date'] = golf;
                     mike = tango.bind(oscar)(zulu, mike);
                     return mike;
- 107:
+ 109:
                     mike = _closure2_slot2;
-                    if(mike) { _fun00004_ip = 571; continue _fun00003 }
- 117:
+                    if(mike) { _fun00004_ip = 581; continue _fun00003 }
+ 119:
                     mike = _closure2_slot5;
                     zulu = mike.length;
                     mike = 1;
-                    if(!(!(zulu > mike))) { _fun00004_ip = 497; continue _fun00003 }
- 136:
+                    if(!(!(zulu > mike))) { _fun00004_ip = 505; continue _fun00003 }
+ 138:
                     mike = _closure2_slot1;
                     tango = mike.taskType;
                     golf = _closure1_slot0;
@@ -250,8 +250,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = golf.bind(options)(mike);
                     mike = mike.FirstPartyQuestTaskTypes;
                     mike = mike.STREAM_ON_DESKTOP;
-                    if(!(tango !== mike)) { _fun00004_ip = 428; continue _fun00003 }
- 190:
+                    if(!(tango !== mike)) { _fun00004_ip = 434; continue _fun00003 }
+ 192:
                     mike = _closure2_slot1;
                     tango = mike.taskType;
                     golf = _closure1_slot0;
@@ -260,8 +260,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = golf.bind(options)(mike);
                     mike = mike.FirstPartyQuestTaskTypes;
                     mike = mike.PLAY_ON_DESKTOP;
-                    if(!(tango !== mike)) { _fun00004_ip = 359; continue _fun00003 }
- 236:
+                    if(!(tango !== mike)) { _fun00004_ip = 363; continue _fun00003 }
+ 238:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
                     mike = mike[oscar];
@@ -273,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.taskType;
                     tango = tango.bind(oscar)(mike);
                     mike = null;
-                    if(!tango) { _fun00004_ip = 357; continue _fun00003 }
- 290:
+                    if(!tango) { _fun00004_ip = 361; continue _fun00003 }
+ 292:
                     oscar = _closure1_slot0;
                     offset = _closure1_slot2;
                     tango = 8;
@@ -290,9 +290,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = _closure2_slot7;
                     tango['gameTitle'] = offset;
                     mike = golf.bind(verify)(oscar, tango);
- 357:
-                    _fun00004_ip = 426; continue _fun00003;
- 359:
+ 361:
+                    _fun00004_ip = 432; continue _fun00003;
+ 363:
                     oscar = _closure1_slot0;
                     offset = _closure1_slot2;
                     tango = 8;
@@ -308,9 +308,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = _closure2_slot7;
                     tango['gameName'] = offset;
                     mike = golf.bind(verify)(oscar, tango);
- 426:
-                    _fun00004_ip = 495; continue _fun00003;
- 428:
+ 432:
+                    _fun00004_ip = 503; continue _fun00003;
+ 434:
                     tango = _closure1_slot0;
                     verify = _closure1_slot2;
                     zulu = 8;
@@ -326,9 +326,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot7;
                     zulu['gameName'] = options;
                     mike = oscar.bind(golf)(tango, zulu);
- 495:
-                    _fun00004_ip = 569; continue _fun00003;
- 497:
+ 503:
+                    _fun00004_ip = 579; continue _fun00003;
+ 505:
                     options = _closure1_slot0;
                     verify = _closure1_slot2;
                     zulu = 8;
@@ -345,9 +345,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot7;
                     zulu['gameName'] = options;
                     mike = oscar.bind(golf)(tango, zulu);
- 569:
+ 579:
                     return mike;
- 571:
+ 581:
                     entity = _closure2_slot1;
                     mike = entity.targetSeconds;
                     entity = entity.progressSeconds;
@@ -446,8 +446,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun00002_ip = 744; continue _fun00001 }
- 596:
+            if(!oscar) { _fun00002_ip = 742; continue _fun00001 }
+ 592:
             verify = _closure1_slot5;
             options = _closure1_slot4;
             golf = {};
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.bind(tango)(yankee, offset);
             golf['children'] = offset;
             oscar = verify.bind(tango)(options, golf);
- 744:
+ 742:
             report[1] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

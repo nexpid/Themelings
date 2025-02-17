@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot8;
             romeo = entity.bind(tango)(mike);
             verify = oscar;
-            if(golf) { _fun00002_ip = 121; continue _fun00001 }
+            if(golf) { _fun00002_ip = 123; continue _fun00001 }
  59:
             mike = _closure1_slot0;
             options = _closure1_slot2;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['count'] = oscar;
             verify = zulu.bind(report)(mike, entity);
- 121:
+ 123:
             zulu = _closure1_slot6;
             mike = _closure1_slot3;
             entity = {};
@@ -47,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!golf) { _fun00002_ip = 156; continue _fun00001 }
- 150:
+            if(!golf) { _fun00002_ip = 158; continue _fun00001 }
+ 152:
             oscar = romeo.listenersPill;
- 156:
+ 158:
             report[1] = oscar;
             entity['style'] = report;
             options = _closure1_slot5;

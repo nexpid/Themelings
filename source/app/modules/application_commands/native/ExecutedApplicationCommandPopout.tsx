@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = sizing.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.SUB_COMMAND;
-            if(!(report !== entity)) { _fun00008_ip = 1145; continue _fun00007 }
+            if(!(report !== entity)) { _fun00008_ip = 1147; continue _fun00007 }
  210:
             report = mike.type;
             sizing = _closure1_slot0;
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = sizing.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.SUB_COMMAND_GROUP;
-            if(!(report !== entity)) { _fun00008_ip = 1145; continue _fun00007 }
+            if(!(report !== entity)) { _fun00008_ip = 1147; continue _fun00007 }
  251:
             report = function(argFoo, argBar) { // Original name: getUserComponent
                 verify = argFoo;
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             entity = mike.value;
-            if(!(oscar != entity)) { _fun00008_ip = 1143; continue _fun00007 }
+            if(!(oscar != entity)) { _fun00008_ip = 1145; continue _fun00007 }
  284:
             echo = mike.type;
             update = _closure1_slot0;
@@ -508,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = update.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.USER;
-            if(!(entity !== echo)) { _fun00008_ip = 840; continue _fun00007 }
+            if(!(entity !== echo)) { _fun00008_ip = 842; continue _fun00007 }
  325:
             update = _closure1_slot0;
             entity = _closure1_slot3;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = update.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.CHANNEL;
-            if(!(entity !== echo)) { _fun00008_ip = 695; continue _fun00007 }
+            if(!(entity !== echo)) { _fun00008_ip = 697; continue _fun00007 }
  361:
             update = _closure1_slot0;
             entity = _closure1_slot3;
@@ -524,7 +524,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = update.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.ROLE;
-            if(!(entity !== echo)) { _fun00008_ip = 629; continue _fun00007 }
+            if(!(entity !== echo)) { _fun00008_ip = 631; continue _fun00007 }
  397:
             update = _closure1_slot0;
             entity = _closure1_slot3;
@@ -532,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = update.bind(options)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.MENTIONABLE;
-            if(!(entity !== echo)) { _fun00008_ip = 533; continue _fun00007 }
+            if(!(entity !== echo)) { _fun00008_ip = 535; continue _fun00007 }
  430:
             update = _closure1_slot0;
             entity = _closure1_slot3;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.ApplicationCommandOptionType;
             entity = entity.ATTACHMENT;
             update = null;
-            if(!(entity === echo)) { _fun00008_ip = 884; continue _fun00007 }
+            if(!(entity === echo)) { _fun00008_ip = 886; continue _fun00007 }
  468:
             control = _closure1_slot0;
             vacuum = _closure1_slot3;
@@ -556,54 +556,54 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.nONJVV;
             entity = echo.bind(source)(entity);
             update = sizing.bind(options)(entity);
-            _fun00008_ip = 884; continue _fun00007;
- 533:
+            _fun00008_ip = 886; continue _fun00007;
+ 535:
             echo = mike.value;
             entity = echo.toString;
             control = entity.bind(echo)();
             echo = oscar != foxtrot;
             entity = undefined;
-            if(!echo) { _fun00008_ip = 577; continue _fun00007 }
- 556:
+            if(!echo) { _fun00008_ip = 579; continue _fun00007 }
+ 558:
             vacuum = _closure1_slot8;
             source = vacuum.getRole;
             echo = foxtrot.id;
             entity = source.bind(vacuum)(echo, control);
- 577:
-            if(!(oscar == entity)) { _fun00008_ip = 619; continue _fun00007 }
- 581:
+ 579:
+            if(!(oscar == entity)) { _fun00008_ip = 621; continue _fun00007 }
+ 583:
             source = _closure1_slot10;
             echo = source.getUser;
             echo = echo.bind(source)(control);
             source = oscar != echo;
             update = null;
-            if(!source) { _fun00008_ip = 884; continue _fun00007 }
- 608:
+            if(!source) { _fun00008_ip = 886; continue _fun00007 }
+ 610:
             update = report.bind(options)(echo, yankee);
-            _fun00008_ip = 884; continue _fun00007;
- 619:
+            _fun00008_ip = 886; continue _fun00007;
+ 621:
             update = result.bind(options)(entity);
-            _fun00008_ip = 884; continue _fun00007;
- 629:
+            _fun00008_ip = 886; continue _fun00007;
+ 631:
             echo = mike.value;
             entity = echo.toString;
             vacuum = entity.bind(echo)();
             echo = oscar != foxtrot;
             entity = undefined;
-            if(!echo) { _fun00008_ip = 673; continue _fun00007 }
- 652:
+            if(!echo) { _fun00008_ip = 675; continue _fun00007 }
+ 654:
             control = _closure1_slot8;
             source = control.getRole;
             echo = foxtrot.id;
             entity = source.bind(control)(echo, vacuum);
- 673:
+ 675:
             echo = oscar != entity;
             update = null;
-            if(!echo) { _fun00008_ip = 884; continue _fun00007 }
- 685:
+            if(!echo) { _fun00008_ip = 886; continue _fun00007 }
+ 687:
             update = result.bind(options)(entity);
-            _fun00008_ip = 884; continue _fun00007;
- 695:
+            _fun00008_ip = 886; continue _fun00007;
+ 697:
             result = mike.value;
             entity = result.toString;
             echo = entity.bind(result)();
@@ -612,8 +612,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = entity.bind(result)(echo);
             entity = oscar != control;
             update = null;
-            if(!entity) { _fun00008_ip = 884; continue _fun00007 }
- 735:
+            if(!entity) { _fun00008_ip = 886; continue _fun00007 }
+ 737:
             source = _closure1_slot20;
             result = _closure1_slot0;
             echo = _closure1_slot3;
@@ -637,8 +637,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 'optionValue-';
             entity = control.bind(entity)(vacuum);
             update = source.bind(options)(echo, result, entity);
-            _fun00008_ip = 884; continue _fun00007;
- 840:
+            _fun00008_ip = 886; continue _fun00007;
+ 842:
             result = mike.value;
             entity = result.toString;
             echo = entity.bind(result)();
@@ -647,23 +647,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(result)(echo);
             result = oscar != entity;
             update = null;
-            if(!result) { _fun00008_ip = 884; continue _fun00007 }
- 878:
+            if(!result) { _fun00008_ip = 886; continue _fun00007 }
+ 880:
             update = report.bind(options)(entity, yankee);
- 884:
+ 886:
             entity = oscar == update;
             echo = true;
-            if(!entity) { _fun00008_ip = 1013; continue _fun00007 }
- 893:
+            if(!entity) { _fun00008_ip = 1015; continue _fun00007 }
+ 895:
             entity = oscar == output;
             result = undefined;
-            if(entity) { _fun00008_ip = 934; continue _fun00007 }
- 902:
+            if(entity) { _fun00008_ip = 936; continue _fun00007 }
+ 904:
             source = output.choices;
             entity = oscar == source;
             result = undefined;
-            if(entity) { _fun00008_ip = 934; continue _fun00007 }
- 917:
+            if(entity) { _fun00008_ip = 936; continue _fun00007 }
+ 919:
             report = source.find;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -674,33 +674,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             result = report.bind(source)(entity);
- 934:
+ 936:
             report = mike.value;
             entity = report.toString;
             report = entity.bind(report)();
-            if(!(oscar != result)) { _fun00008_ip = 970; continue _fun00007 }
- 952:
+            if(!(oscar != result)) { _fun00008_ip = 972; continue _fun00007 }
+ 954:
             entity = result.name_localized;
-            if(!(oscar == entity)) { _fun00008_ip = 967; continue _fun00007 }
- 962:
+            if(!(oscar == entity)) { _fun00008_ip = 969; continue _fun00007 }
+ 964:
             entity = result.name;
- 967:
+ 969:
             report = entity;
- 970:
+ 972:
             entity = report.length;
             result = 0;
             entity = entity > result;
-            if(!entity) { _fun00008_ip = 1005; continue _fun00007 }
- 984:
+            if(!entity) { _fun00008_ip = 1007; continue _fun00007 }
+ 986:
             control = _closure1_slot13;
             source = control.test;
             result = report[result];
             result = source.bind(control)(result);
             entity = !result;
- 1005:
+ 1007:
             update = sizing.bind(options)(report);
             echo = entity;
- 1013:
+ 1015:
             report = kilo.push;
             result = _closure1_slot20;
             entity = _closure1_slot4;
@@ -714,10 +714,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = control.bind(options)(source);
             control = source.LegacyText;
             source = {};
-            if(!echo) { _fun00008_ip = 1071; continue _fun00007 }
- 1068:
+            if(!echo) { _fun00008_ip = 1073; continue _fun00007 }
+ 1070:
             echo = sequence;
- 1071:
+ 1073:
             echo = tango + echo;
             source['children'] = echo;
             config = mike.name;
@@ -733,9 +733,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = echo;
             entity = result.bind(options)(sizing, entity, verify);
             entity = report.bind(kilo)(entity);
- 1143:
-            return kilo;
  1145:
+            return kilo;
+ 1147:
             report = kilo.push;
             result = _closure1_slot19;
             entity = _closure1_slot4;
@@ -761,20 +761,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(kilo)(entity);
             report = mike.options;
             entity = kilo;
-            if(!(oscar != report)) { _fun00008_ip = 1442; continue _fun00007 }
- 1264:
+            if(!(oscar != report)) { _fun00008_ip = 1444; continue _fun00007 }
+ 1266:
             report = tango.Object;
             tango = report.fromEntries;
             result = oscar == output;
             sizing = undefined;
-            if(result) { _fun00008_ip = 1290; continue _fun00007 }
- 1285:
+            if(result) { _fun00008_ip = 1292; continue _fun00007 }
+ 1287:
             sizing = output.options;
- 1290:
-            if(!(oscar == sizing)) { _fun00008_ip = 1298; continue _fun00007 }
- 1294:
+ 1292:
+            if(!(oscar == sizing)) { _fun00008_ip = 1300; continue _fun00007 }
+ 1296:
             sizing = new Array(0);
- 1298:
+ 1300:
             oscar = sizing.map;
             zulu = function(argFoo) {
                 mike = argFoo;
@@ -793,8 +793,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.done;
             tango = kilo;
             entity = tango;
-            if(mike) { _fun00008_ip = 1442; continue _fun00007 }
- 1352:
+            if(mike) { _fun00008_ip = 1444; continue _fun00007 }
+ 1354:
             output = zulu.value;
             kilo = tango.concat;
             sizing = _closure1_slot23;
@@ -815,8 +815,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = sizing.done;
             zulu = sizing;
             entity = tango;
-            if(!mike) { _fun00008_ip = 1352; continue _fun00007 }
- 1442:
+            if(!mike) { _fun00008_ip = 1354; continue _fun00007 }
+ 1444:
             return entity;
         }
     };
@@ -1762,7 +1762,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.bind(report)(golf, zulu);
             zulu = tango.bind(romeo)(zulu);
  330:
-            if(!(entity != mike)) { _fun00024_ip = 444; continue _fun00023 }
+            if(!(entity != mike)) { _fun00024_ip = 446; continue _fun00023 }
  334:
             zulu = romeo.push;
             golf = _closure1_slot19;
@@ -1962,12 +1962,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onPress'] = options;
             mike = golf.bind(report)(tango, mike);
             mike = zulu.bind(romeo)(mike);
- 444:
+ 446:
             zulu = romeo.length;
             mike = 0;
             entity = null;
             if(!(mike !== zulu)) { _fun00024_ip = 660; continue _fun00023 }
- 460:
+ 462:
             tango = _closure1_slot20;
             options = _closure1_slot0;
             yankee = _closure1_slot3;

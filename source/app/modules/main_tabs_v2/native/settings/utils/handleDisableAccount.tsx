@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report[mike];
             mike = tango.bind(entity)(mike);
             mike = mike.bind(entity)(zulu);
-            _fun00002_ip = 226; continue _fun00001;
+            _fun00002_ip = 230; continue _fun00001;
  87:
             options = _closure1_slot0;
             tango = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['title'] = oscar;
             mike['body'] = report;
             mike = zulu.bind(tango)(mike);
- 226:
+ 230:
             return entity;
         }
     };

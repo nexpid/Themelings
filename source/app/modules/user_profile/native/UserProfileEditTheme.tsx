@@ -266,9 +266,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = false;
             mike = tango.bind(oscar)(golf, zulu, mike);
             _closure2_slot4 = mike;
-            if(!(entity != context)) { _fun00004_ip = 1023; continue _fun00003 }
+            if(!(entity != context)) { _fun00004_ip = 1029; continue _fun00003 }
  281:
-            if(!(entity != update)) { _fun00004_ip = 1023; continue _fun00003 }
+            if(!(entity != update)) { _fun00004_ip = 1029; continue _fun00003 }
  288:
             mike = function(argFoo) { // Original name: handleProfileThemeColorsChanged
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -368,8 +368,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = output.bind(report)(foxtrot, verify);
             verify = new Array(2);
             verify[0] = foxtrot;
-            if(!romeo) { _fun00004_ip = 614; continue _fun00003 }
- 459:
+            if(!romeo) { _fun00004_ip = 612; continue _fun00003 }
+ 455:
             result = _closure1_slot4;
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = control.bind(report)(source, echo);
             foxtrot['children'] = echo;
             romeo = result.bind(report)(output, foxtrot);
- 614:
+ 612:
             verify[1] = romeo;
             oscar['children'] = verify;
             golf = options.bind(report)(golf, oscar);
@@ -558,7 +558,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1023:
+ 1029:
             return entity;
         }
     };

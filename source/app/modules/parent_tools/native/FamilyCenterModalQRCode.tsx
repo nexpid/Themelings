@@ -365,15 +365,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset[verify];
                     offset = output.bind(entity)(offset);
                     offset = offset.t;
-                    if(options) { _fun00010_ip = 213; continue _fun00009 }
+                    if(options) { _fun00010_ip = 215; continue _fun00009 }
  200:
                     options = offset.10dX6e;
                     options = yankee.bind(sizing)(options);
-                    _fun00010_ip = 224; continue _fun00009;
- 213:
+                    _fun00010_ip = 228; continue _fun00009;
+ 215:
                     offset = offset.wg2xwc;
                     options = yankee.bind(sizing)(offset);
- 224:
+ 228:
                     report['text'] = options;
                     options = _closure2_slot7;
                     report['onPress'] = options;
@@ -550,15 +550,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {};
             source = 237;
             output['size'] = source;
-            if(!echo) { _fun00002_ip = 952; continue _fun00001 }
- 943:
-            if(kilo) { _fun00002_ip = 952; continue _fun00001 }
- 946:
-            kilo = null;
-            if(!(kilo == romeo)) { _fun00002_ip = 956; continue _fun00001 }
+            if(!echo) { _fun00002_ip = 958; continue _fun00001 }
+ 949:
+            if(kilo) { _fun00002_ip = 958; continue _fun00001 }
  952:
+            kilo = null;
+            if(!(kilo == romeo)) { _fun00002_ip = 962; continue _fun00001 }
+ 958:
             romeo = _closure1_slot7;
- 956:
+ 962:
             output['text'] = romeo;
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;

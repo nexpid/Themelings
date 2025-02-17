@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity != zulu;
                 entity = undefined;
-                if(!zulu) { _fun00004_ip = 41; continue _fun00003 }
+                if(!zulu) { _fun00004_ip = 39; continue _fun00003 }
  18:
                 tango = _closure2_slot2;
                 zulu = tango.find;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = zulu.bind(tango)(mike);
- 41:
+ 39:
                 return entity;
             }
         };

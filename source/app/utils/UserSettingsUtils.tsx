@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun00002_ip = 79; continue _fun00001 }
+            if(!(entity === mike)) { _fun00002_ip = 77; continue _fun00001 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = mike.bind(tango)(entity);
- 79:
+ 77:
             entity = global;
             entity = entity.Set;
             mike = entity.prototype;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun00004_ip = 79; continue _fun00003 }
+            if(!(entity === mike)) { _fun00004_ip = 77; continue _fun00003 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = mike.bind(tango)(entity);
- 79:
+ 77:
             entity = global;
             entity = entity.Set;
             mike = entity.prototype;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun00006_ip = 79; continue _fun00005 }
+            if(!(entity === mike)) { _fun00006_ip = 77; continue _fun00005 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = mike.bind(tango)(entity);
- 79:
+ 77:
             entity = global;
             entity = entity.Set;
             mike = entity.prototype;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun00008_ip = 79; continue _fun00007 }
+            if(!(entity === mike)) { _fun00008_ip = 77; continue _fun00007 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = mike.bind(tango)(entity);
- 79:
+ 77:
             entity = global;
             entity = entity.Set;
             mike = entity.prototype;

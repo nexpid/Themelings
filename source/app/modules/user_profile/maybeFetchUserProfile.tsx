@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     update = argBar;
                     mike = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 770; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 768; continue _fun00001 }
  21:
                     var _closure4_slot0 = offset;
                     zulu = undefined;
@@ -65,15 +65,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  135:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 767; continue _fun00001 }
+                    if(report) { _fun00002_ip = 765; continue _fun00001 }
  144:
                     report = '';
-                    if(!(report !== offset)) { _fun00002_ip = 764; continue _fun00001 }
+                    if(!(report !== offset)) { _fun00002_ip = 762; continue _fun00001 }
  155:
                     romeo = _closure1_slot6;
                     verify = romeo.isFetchingProfile;
                     verify = verify.bind(romeo)(offset, result);
-                    if(verify) { _fun00002_ip = 764; continue _fun00001 }
+                    if(verify) { _fun00002_ip = 762; continue _fun00001 }
  180:
                     romeo = _closure1_slot6;
                     verify = romeo.getUserProfile;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     echo = 429;
                     if(!(echo === source)) { _fun00002_ip = 337; continue _fun00001 }
  331:
-                    if(!verify) { _fun00002_ip = 764; continue _fun00001 }
+                    if(!verify) { _fun00002_ip = 762; continue _fun00001 }
  337:
                     source = _closure1_slot6;
                     echo = source.getGuildMemberProfile;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  430:
                     if(!(romeo != echo)) { _fun00002_ip = 440; continue _fun00001 }
  434:
-                    if(!verify) { _fun00002_ip = 764; continue _fun00001 }
+                    if(!verify) { _fun00002_ip = 762; continue _fun00001 }
  440:
                     echo = _closure1_slot0;
                     source = _closure1_slot2;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  714:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(!golf) { _fun00002_ip = 764; continue _fun00001 }
+                    if(!golf) { _fun00002_ip = 762; continue _fun00001 }
  720:
                     return oscar;
  723:
@@ -265,11 +265,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     tango = report.bind(oscar)(tango);
                     return tango;
- 764:
+ 762:
                     return zulu;
- 767:
+ 765:
                     return mike;
- 770:
+ 768:
                     return entity;
                 }
             };

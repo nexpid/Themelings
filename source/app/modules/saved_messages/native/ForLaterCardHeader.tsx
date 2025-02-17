@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.isDM;
             entity = entity.bind(mike)();
             verify = options;
-            if(!entity) { _fun00004_ip = 222; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 224; continue _fun00003 }
  160:
             mike = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -166,15 +166,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['username'] = options;
             verify = zulu.bind(golf)(mike, entity);
- 222:
+ 224:
             zulu = _closure1_slot6;
             mike = _closure1_slot3;
             entity = {};
             golf = offset.channelNameContainer;
             entity['style'] = golf;
             golf = null;
-            if(report) { _fun00004_ip = 277; continue _fun00003 }
- 247:
+            if(report) { _fun00004_ip = 279; continue _fun00003 }
+ 249:
             options = _closure1_slot5;
             report = {};
             romeo = offset.channelTypeIcon;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 'xxs';
             report['size'] = romeo;
             golf = options.bind(tango)(yankee, report);
- 277:
+ 279:
             report = new Array(2);
             report[0] = golf;
             options = _closure1_slot5;

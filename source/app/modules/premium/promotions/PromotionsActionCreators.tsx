@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 506; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 508; continue _fun00001 }
  12:
                     mike = undefined;
                     offset = undefined;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = undefined;
                     tango = _closure1_slot5;
                     tango = tango.isFetchingActiveOutboundPromotions;
-                    if(tango) { _fun00002_ip = 503; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 505; continue _fun00001 }
  43: // try_start_0
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -88,20 +88,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['oldFormErrors'] = romeo;
                     tango['rejectWithError'] = romeo;
                     tango = report.bind(oscar)(tango);
-                    SaveGenerator(address=242);
- 240:
-                    return tango;
+                    SaveGenerator(address=244);
  242:
+                    return tango;
+ 244:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 456; continue _fun00001 }
- 251:
+                    if(report) { _fun00002_ip = 458; continue _fun00001 }
+ 253:
                     offset = tango.body;
                     report = _closure1_slot5;
                     options = report.consumedInboundPromotionId;
                     report = _closure1_slot5;
                     report = report.hasFetchedConsumedInboundPromotionId;
-                    if(report) { _fun00002_ip = 385; continue _fun00001 }
- 279:
+                    if(report) { _fun00002_ip = 387; continue _fun00001 }
+ 281:
                     oscar = _closure1_slot0;
                     romeo = _closure1_slot2;
                     report = 8;
@@ -110,13 +110,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = romeo.fetchUserEntitlementsForApplication;
                     report = _closure1_slot6;
                     report = oscar.bind(romeo)(report, backup);
-                    SaveGenerator(address=319);
- 317:
-                    return report;
+                    SaveGenerator(address=321);
  319:
+                    return report;
+ 321:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 382; continue _fun00001 }
- 325:
+                    if(oscar) { _fun00002_ip = 384; continue _fun00001 }
+ 327:
                     romeo = report.find;
                     oscar = function(argFoo) {
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -139,22 +139,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = null;
                     backup = oscar == romeo;
                     romeo = undefined;
-                    if(backup) { _fun00002_ip = 362; continue _fun00001 }
- 356:
+                    if(backup) { _fun00002_ip = 364; continue _fun00001 }
+ 358:
                     romeo = foxtrot.promotion_id;
- 362:
+ 364:
                     yankee = romeo;
                     romeo = oscar != romeo;
                     oscar = null;
-                    if(!romeo) { _fun00002_ip = 377; continue _fun00001 }
- 374:
+                    if(!romeo) { _fun00002_ip = 379; continue _fun00001 }
+ 376:
                     oscar = yankee;
- 377:
+ 379:
                     options = oscar;
-                    _fun00002_ip = 385; continue _fun00001;
- 382: // try_end0
+                    _fun00002_ip = 387; continue _fun00001;
+ 384: // try_end0
                     return report;
- 385: // try_start_1
+ 387: // try_start_1
                     oscar = _closure1_slot1;
                     report = _closure1_slot2;
                     report = report[golf];
@@ -181,11 +181,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['activeOutboundPromotions'] = verify;
                     report['consumedInboundPromotionId'] = options;
                     report = oscar.bind(golf)(report);
- 454: // try_end1
-                    _fun00002_ip = 503; continue _fun00001;
- 456:
+ 456: // try_end1
+                    _fun00002_ip = 505; continue _fun00001;
+ 458:
                     return tango;
- 459: // catch_target0 // catch_target1
+ 461: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
@@ -197,9 +197,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = 'ACTIVE_OUTBOUND_PROMOTIONS_FETCH_FAIL';
                     zulu['type'] = oscar;
                     zulu = tango.bind(report)(zulu);
- 503:
+ 505:
                     return mike;
- 506:
+ 508:
                     return entity;
                 }
             };
@@ -289,11 +289,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 289; continue _fun00007 }
+                    if(mike) { _fun00008_ip = 291; continue _fun00007 }
  10:
                     zulu = _closure1_slot5;
                     zulu = zulu.isFetchingActiveBogoPromotion;
-                    if(zulu) { _fun00008_ip = 284; continue _fun00007 }
+                    if(zulu) { _fun00008_ip = 286; continue _fun00007 }
  31: // try_start_0
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -324,13 +324,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = true;
                     zulu['rejectWithError'] = golf;
                     zulu = report.bind(oscar)(zulu);
-                    SaveGenerator(address=151);
- 149:
-                    return zulu;
+                    SaveGenerator(address=153);
  151:
+                    return zulu;
+ 153:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 235; continue _fun00007 }
- 157:
+                    if(report) { _fun00008_ip = 237; continue _fun00007 }
+ 159:
                     verify = zulu.body;
                     report = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -348,11 +348,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf.bind(options)(verify);
                     tango['activePromotion'] = golf;
                     tango = report.bind(oscar)(tango);
- 233: // try_end0
-                    _fun00008_ip = 284; continue _fun00007;
- 235:
+ 235: // try_end0
+                    _fun00008_ip = 286; continue _fun00007;
+ 237:
                     return zulu;
- 238: // catch_target0
+ 240: // catch_target0
                     CatchBlockStart(arg_register=2);
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -365,10 +365,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = 'ACTIVE_BOGO_PROMOTION_FETCH_FAIL';
                     mike['type'] = report;
                     mike = zulu.bind(tango)(mike);
- 284:
+ 286:
                     mike = undefined;
                     return mike;
- 289:
+ 291:
                     return entity;
                 }
             };

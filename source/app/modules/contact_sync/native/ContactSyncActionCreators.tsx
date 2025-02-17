@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 490; continue _fun00001 }
+                    if(zulu) { _fun00002_ip = 488; continue _fun00001 }
  13:
                     yankee = mike.phone;
                     verify = mike.email;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  245:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 487; continue _fun00001 }
+                    if(tango) { _fun00002_ip = 485; continue _fun00001 }
  254:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -162,9 +162,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['contact_sync_enabled'] = options;
                     tango = oscar.bind(golf)(report, tango);
                     return zulu;
- 487:
+ 485:
                     return mike;
- 490:
+ 488:
                     return entity;
                 }
             };

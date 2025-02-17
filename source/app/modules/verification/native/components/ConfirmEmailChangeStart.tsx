@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[0] = oscar;
             kilo = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != golf)) { _fun00002_ip = 643; continue _fun00001 }
+            if(!(entity != golf)) { _fun00002_ip = 647; continue _fun00001 }
  185:
             echo = _closure1_slot0;
             update = _closure1_slot2;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 643:
+ 647:
             return entity;
         }
     };

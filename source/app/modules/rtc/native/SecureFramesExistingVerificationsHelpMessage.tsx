@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = mike.bind(zulu)(entity);
             mike = 0;
             entity = null;
-            if(!(mike !== romeo)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(mike !== romeo)) { _fun00002_ip = 244; continue _fun00001 }
  85:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 242:
+ 244:
             return entity;
         }
     };

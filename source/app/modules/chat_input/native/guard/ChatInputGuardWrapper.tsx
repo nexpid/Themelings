@@ -308,42 +308,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = context.bind(tango)(record);
             record = golf.id;
             record = context.bind(tango)(record);
-            if(config) { _fun00002_ip = 2204; continue _fun00001 }
+            if(config) { _fun00002_ip = 2226; continue _fun00001 }
  541:
-            if(sequence) { _fun00002_ip = 2166; continue _fun00001 }
+            if(sequence) { _fun00002_ip = 2188; continue _fun00001 }
  547:
             sequence = golf.isSystemDM;
             sequence = sequence.bind(golf)();
-            if(sequence) { _fun00002_ip = 1988; continue _fun00001 }
+            if(sequence) { _fun00002_ip = 2006; continue _fun00001 }
  563:
-            if(vacuum) { _fun00002_ip = 1951; continue _fun00001 }
+            if(vacuum) { _fun00002_ip = 1969; continue _fun00001 }
  569:
-            if(control) { _fun00002_ip = 1905; continue _fun00001 }
+            if(control) { _fun00002_ip = 1923; continue _fun00001 }
  575:
-            if(source) { _fun00002_ip = 1742; continue _fun00001 }
+            if(source) { _fun00002_ip = 1758; continue _fun00001 }
  581:
-            if(oscar) { _fun00002_ip = 1701; continue _fun00001 }
+            if(oscar) { _fun00002_ip = 1717; continue _fun00001 }
  587:
             oscar = null;
-            if(!(oscar == yankee)) { _fun00002_ip = 1659; continue _fun00001 }
+            if(!(oscar == yankee)) { _fun00002_ip = 1675; continue _fun00001 }
  596:
-            if(update) { _fun00002_ip = 1618; continue _fun00001 }
+            if(update) { _fun00002_ip = 1634; continue _fun00001 }
  602:
-            if(echo) { _fun00002_ip = 1486; continue _fun00001 }
+            if(echo) { _fun00002_ip = 1500; continue _fun00001 }
  608:
-            if(result) { _fun00002_ip = 1323; continue _fun00001 }
+            if(result) { _fun00002_ip = 1333; continue _fun00001 }
  614:
-            if(output) { _fun00002_ip = 1160; continue _fun00001 }
+            if(output) { _fun00002_ip = 1166; continue _fun00001 }
  620:
-            if(sizing) { _fun00002_ip = 1006; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 1010; continue _fun00001 }
  626:
-            if(kilo) { _fun00002_ip = 852; continue _fun00001 }
+            if(kilo) { _fun00002_ip = 854; continue _fun00001 }
  632:
-            if(!backup) { _fun00002_ip = 850; continue _fun00001 }
+            if(!backup) { _fun00002_ip = 852; continue _fun00001 }
  638:
-            if(!(oscar != offset)) { _fun00002_ip = 850; continue _fun00001 }
+            if(!(oscar != offset)) { _fun00002_ip = 852; continue _fun00001 }
  645:
-            if(report) { _fun00002_ip = 850; continue _fun00001 }
+            if(report) { _fun00002_ip = 852; continue _fun00001 }
  651:
             backup = _closure1_slot13;
             oscar = _closure1_slot1;
@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['guildId'] = offset;
             zulu['channel'] = golf;
             report = backup.bind(tango)(report, zulu);
-            _fun00002_ip = 845; continue _fun00001;
+            _fun00002_ip = 847; continue _fun00001;
  699:
             zulu = 29;
             zulu = echo[zulu];
@@ -402,11 +402,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu['buttonPrimaryOnPress'] = kilo;
             report = backup.bind(tango)(oscar, zulu);
- 845:
-            _fun00002_ip = 2240; continue _fun00001;
- 850:
-            return mike;
+ 847:
+            _fun00002_ip = 2262; continue _fun00001;
  852:
+            return mike;
+ 854:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             result = _closure1_slot2;
@@ -441,8 +441,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['message'] = backup;
             mike['countdown'] = foxtrot;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1006:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1010:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             output = _closure1_slot2;
@@ -477,8 +477,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['message'] = foxtrot;
             mike['countdown'] = romeo;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1160:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1166:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -534,8 +534,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike['buttonPrimaryOnPress'] = romeo;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1323:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1333:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -607,8 +607,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike['buttonPrimaryOnPress'] = romeo;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1486:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1500:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -638,8 +638,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(backup)(romeo);
             mike['message'] = romeo;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1618:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1634:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -649,8 +649,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['guildId'] = offset;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1659:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1675:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -660,8 +660,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['guildMember'] = yankee;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1701:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1717:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -671,8 +671,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['guildId'] = offset;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1742:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1758:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -741,8 +741,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike['buttonPrimaryOnPress'] = verify;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1905:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1923:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -753,8 +753,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['channel'] = golf;
             mike['canSendMessages'] = options;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1951:
+            _fun00002_ip = 2262; continue _fun00001;
+ 1969:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -763,8 +763,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = {};
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 1988:
+            _fun00002_ip = 2262; continue _fun00001;
+ 2006:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -804,8 +804,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.bind(offset)(options);
             mike['subtext'] = options;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 2166:
+            _fun00002_ip = 2262; continue _fun00001;
+ 2188:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -815,8 +815,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['channel'] = golf;
             report = oscar.bind(tango)(zulu, mike);
-            _fun00002_ip = 2240; continue _fun00001;
- 2204:
+            _fun00002_ip = 2262; continue _fun00001;
+ 2226:
             oscar = _closure1_slot13;
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -826,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['channel'] = golf;
             report = oscar.bind(tango)(zulu, mike);
- 2240:
+ 2262:
             zulu = _closure1_slot13;
             mike = _closure1_slot0;
             oscar = _closure1_slot2;

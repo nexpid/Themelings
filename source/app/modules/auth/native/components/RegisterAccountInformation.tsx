@@ -861,17 +861,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.isAndroid;
             report = mike.bind(report)();
             mike = 'default';
-            if(!report) { _fun00002_ip = 1079; continue _fun00001 }
- 1073:
+            if(!report) { _fun00002_ip = 1081; continue _fun00001 }
+ 1075:
             mike = 'visible-password';
- 1079:
+ 1081:
             entity['keyboardType'] = mike;
             kilo['username'] = entity;
             entity = {};
             entity['placeholder'] = tango;
             mike = undefined;
-            if(!zulu) { _fun00002_ip = 1152; continue _fun00001 }
- 1100:
+            if(!zulu) { _fun00002_ip = 1156; continue _fun00001 }
+ 1102:
             golf = _closure1_slot0;
             zulu = _closure1_slot2;
             report = zulu[lima];
@@ -883,7 +883,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.KtJgIy;
             mike = report.bind(oscar)(zulu);
- 1152:
+ 1156:
             entity['hint'] = mike;
             kilo['password'] = entity;
             zulu = _closure1_slot17;
@@ -1026,19 +1026,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['onBlur'] = foxtrot;
             target = _closure1_slot0;
             status = _closure1_slot2;
-            if(context) { _fun00002_ip = 1640; continue _fun00001 }
- 1620:
+            if(context) { _fun00002_ip = 1644; continue _fun00001 }
+ 1624:
             foxtrot = 35;
             foxtrot = status[foxtrot];
             foxtrot = target.bind(tango)(foxtrot);
             foxtrot = foxtrot.EyeIcon;
-            _fun00002_ip = 1658; continue _fun00001;
- 1640:
+            _fun00002_ip = 1662; continue _fun00001;
+ 1644:
             papa = 34;
             papa = status[papa];
             papa = target.bind(tango)(papa);
             foxtrot = papa.EyeSlashIcon;
- 1658:
+ 1662:
             verify['trailingIcon'] = foxtrot;
             foxtrot = {};
             sierra = _closure1_slot0;
@@ -1050,15 +1050,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = papa[lima];
             papa = sierra.bind(tango)(papa);
             papa = papa.t;
-            if(context) { _fun00002_ip = 1722; continue _fun00001 }
- 1709:
+            if(context) { _fun00002_ip = 1726; continue _fun00001 }
+ 1713:
             context = papa.nFzpMz;
             context = target.bind(status)(context);
-            _fun00002_ip = 1733; continue _fun00001;
- 1722:
+            _fun00002_ip = 1737; continue _fun00001;
+ 1726:
             papa = papa.Nusip6;
             context = target.bind(status)(papa);
- 1733:
+ 1737:
             foxtrot['accessibilityLabel'] = context;
             config = function() { // Original name: onPress
                 zulu = _closure2_slot4;
@@ -1083,12 +1083,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.hint;
             romeo = echo != offset;
             offset = null;
-            if(!romeo) { _fun00002_ip = 1945; continue _fun00001 }
- 1815:
+            if(!romeo) { _fun00002_ip = 1949; continue _fun00001 }
+ 1819:
             yankee = echo == yankee;
             offset = null;
-            if(!yankee) { _fun00002_ip = 1945; continue _fun00001 }
- 1824:
+            if(!yankee) { _fun00002_ip = 1949; continue _fun00001 }
+ 1828:
             foxtrot = _closure1_slot16;
             romeo = _closure1_slot0;
             config = _closure1_slot2;
@@ -1116,7 +1116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = 'children';
             yankee[kilo] = config;
             offset = foxtrot.bind(tango)(romeo, yankee);
- 1945:
+ 1949:
             verify[1] = offset;
             romeo = _closure1_slot17;
             offset = _closure1_slot1;
@@ -1143,18 +1143,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['text'] = vacuum;
             options['onPress'] = update;
             update = echo == control;
-            if(update) { _fun00002_ip = 2058; continue _fun00001 }
- 2054:
-            update = sizing === control;
+            if(update) { _fun00002_ip = 2062; continue _fun00001 }
  2058:
-            if(update) { _fun00002_ip = 2065; continue _fun00001 }
- 2061:
-            update = echo == source;
+            update = sizing === control;
+ 2062:
+            if(update) { _fun00002_ip = 2069; continue _fun00001 }
  2065:
-            if(update) { _fun00002_ip = 2072; continue _fun00001 }
- 2068:
-            update = sizing === source;
+            update = echo == source;
+ 2069:
+            if(update) { _fun00002_ip = 2076; continue _fun00001 }
  2072:
+            update = sizing === source;
+ 2076:
             options['disabled'] = update;
             options = kilo.bind(tango)(foxtrot, options);
             foxtrot = new Array(2);
@@ -1162,12 +1162,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = output.message;
             kilo = echo != options;
             options = null;
-            if(!kilo) { _fun00002_ip = 2166; continue _fun00001 }
- 2104:
+            if(!kilo) { _fun00002_ip = 2170; continue _fun00001 }
+ 2108:
             kilo = output.message;
             options = null;
-            if(!(sizing !== kilo)) { _fun00002_ip = 2166; continue _fun00001 }
- 2115:
+            if(!(sizing !== kilo)) { _fun00002_ip = 2170; continue _fun00001 }
+ 2119:
             sizing = _closure1_slot16;
             kilo = _closure1_slot1;
             echo = _closure1_slot2;
@@ -1180,7 +1180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.message;
             backup['children'] = output;
             options = sizing.bind(tango)(kilo, backup);
- 2166:
+ 2170:
             foxtrot[1] = options;
             options = 'children';
             offset[options] = foxtrot;

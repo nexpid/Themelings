@@ -58,26 +58,26 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = null;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun00002_ip = 82; continue _fun00001 }
- 77:
+            if(golf) { _fun00002_ip = 80; continue _fun00001 }
+ 75:
             report = oscar.value;
- 82:
+ 80:
             entity['profanity'] = report;
             oscar = zulu.sexualContent;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun00002_ip = 107; continue _fun00001 }
- 102:
+            if(golf) { _fun00002_ip = 105; continue _fun00001 }
+ 100:
             report = oscar.value;
- 107:
+ 105:
             entity['sexualContent'] = report;
             zulu = zulu.slurs;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun00002_ip = 132; continue _fun00001 }
- 127:
+            if(tango) { _fun00002_ip = 130; continue _fun00001 }
+ 125:
             mike = zulu.value;
- 132:
+ 130:
             entity['slurs'] = mike;
             return entity;
         }

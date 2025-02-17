@@ -100,17 +100,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getSuperPropertiesBase64;
             tango = zulu.bind(tango)();
             zulu = null;
-            if(!(zulu != tango)) { _fun00004_ip = 94; continue _fun00003 }
- 88:
+            if(!(zulu != tango)) { _fun00004_ip = 95; continue _fun00003 }
+ 89:
             entity['X-Super-Properties'] = tango;
- 94:
+ 95:
             tango = _closure1_slot4;
             mike = tango.getFingerprint;
             mike = mike.bind(tango)();
-            if(!(zulu != mike)) { _fun00004_ip = 118; continue _fun00003 }
- 112:
+            if(!(zulu != mike)) { _fun00004_ip = 119; continue _fun00003 }
+ 113:
             entity['X-Fingerprint'] = mike;
- 118:
+ 119:
             return entity;
         }
     };

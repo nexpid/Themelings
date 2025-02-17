@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.t;
                 oscar = oscar.MsUY/f;
                 oscar = golf.bind(verify)(oscar);
-                _fun00010_ip = 200; continue _fun00009;
+                _fun00010_ip = 202; continue _fun00009;
  145:
                 backup = _closure1_slot0;
                 kilo = _closure1_slot2;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.t;
                 golf = golf.VATxfX;
                 oscar = verify.bind(foxtrot)(golf);
- 200:
+ 202:
                 entity['accessibilityLabel'] = oscar;
                 entity['onPress'] = report;
                 golf = _closure1_slot12;

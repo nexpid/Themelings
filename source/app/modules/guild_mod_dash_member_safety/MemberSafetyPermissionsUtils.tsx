@@ -195,10 +195,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = report.bind(oscar)(tango, mike, zulu);
-            if(!entity) { _fun00008_ip = 96; continue _fun00007 }
- 93:
+            if(!entity) { _fun00008_ip = 94; continue _fun00007 }
+ 91:
             entity = mike;
- 96:
+ 94:
             return entity;
         }
     };

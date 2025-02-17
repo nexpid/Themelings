@@ -113,26 +113,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = tango;
             zulu = _closure1_slot8;
             zulu = zulu.STREAM_ENDED;
-            if(!(zulu !== verify)) { _fun00002_ip = 332; continue _fun00001 }
- 94:
+            if(!(zulu !== verify)) { _fun00002_ip = 338; continue _fun00001 }
+ 98:
             zulu = _closure1_slot8;
             zulu = zulu.STREAM_FAILED;
-            if(!(zulu !== verify)) { _fun00002_ip = 134; continue _fun00001 }
- 108:
+            if(!(zulu !== verify)) { _fun00002_ip = 138; continue _fun00001 }
+ 112:
             zulu = _closure1_slot8;
             zulu = zulu.NONE;
             golf = undefined;
-            if(!(zulu === verify)) { _fun00002_ip = 529; continue _fun00001 }
- 127:
+            if(!(zulu === verify)) { _fun00002_ip = 535; continue _fun00001 }
+ 131:
             golf = null;
-            _fun00002_ip = 529; continue _fun00001;
- 134:
+            _fun00002_ip = 535; continue _fun00001;
+ 138:
             verify = _closure1_slot7;
             zulu = _closure1_slot6;
             mike = {};
             backup = !romeo;
-            if(!backup) { _fun00002_ip = 202; continue _fun00001 }
- 150:
+            if(!backup) { _fun00002_ip = 206; continue _fun00001 }
+ 154:
             sizing = _closure1_slot5;
             kilo = _closure1_slot0;
             output = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.placeholderImage;
             foxtrot['style'] = output;
             backup = sizing.bind(tango)(kilo, foxtrot);
- 202:
+ 206:
             foxtrot = new Array(2);
             foxtrot[0] = backup;
             sizing = _closure1_slot5;
@@ -174,14 +174,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[1] = backup;
             mike['children'] = foxtrot;
             golf = verify.bind(tango)(zulu, mike);
-            _fun00002_ip = 529; continue _fun00001;
- 332:
+            _fun00002_ip = 535; continue _fun00001;
+ 338:
             verify = _closure1_slot7;
             zulu = _closure1_slot6;
             mike = {};
             foxtrot = !romeo;
-            if(!foxtrot) { _fun00002_ip = 400; continue _fun00001 }
- 348:
+            if(!foxtrot) { _fun00002_ip = 406; continue _fun00001 }
+ 354:
             kilo = _closure1_slot5;
             backup = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.placeholderImage;
             romeo['style'] = sizing;
             foxtrot = kilo.bind(tango)(backup, romeo);
- 400:
+ 406:
             romeo = new Array(2);
             romeo[0] = foxtrot;
             kilo = _closure1_slot5;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = foxtrot;
             mike['children'] = romeo;
             golf = verify.bind(tango)(zulu, mike);
- 529:
+ 535:
             verify = _closure1_slot0;
             zulu = _closure1_slot2;
             mike = 10;
@@ -301,8 +301,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = golf;
             report = !report;
-            if(!report) { _fun00002_ip = 829; continue _fun00001 }
- 692:
+            if(!report) { _fun00002_ip = 831; continue _fun00001 }
+ 694:
             verify = _closure1_slot5;
             foxtrot = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             golf['onPress'] = offset;
             report = verify.bind(tango)(options, golf);
- 829:
+ 831:
             oscar[1] = report;
             report = 'children';
             entity[report] = oscar;

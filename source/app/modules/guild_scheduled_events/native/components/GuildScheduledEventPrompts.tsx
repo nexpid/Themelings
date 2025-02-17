@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.canManageGuildEvent;
             mike = entity.bind(report)(mike);
             entity = null;
-            if(!mike) { _fun00004_ip = 391; continue _fun00003 }
+            if(!mike) { _fun00004_ip = 393; continue _fun00003 }
  110:
             tango = _closure1_slot3;
             yankee = _closure1_slot0;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(verify)(golf, oscar);
             mike['subtitle'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 391:
+ 393:
             return entity;
         }
     };

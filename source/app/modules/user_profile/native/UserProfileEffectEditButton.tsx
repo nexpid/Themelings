@@ -289,8 +289,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(offset)(golf);
             entity['accessibilityHint'] = golf;
             entity['onPress'] = oscar;
-            if(!(report == foxtrot)) { _fun00002_ip = 654; continue _fun00001 }
- 591:
+            if(!(report == foxtrot)) { _fun00002_ip = 656; continue _fun00001 }
+ 593:
             golf = _closure1_slot5;
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = kilo.noneIcon;
             report['style'] = options;
             report = golf.bind(tango)(oscar, report);
-            _fun00002_ip = 795; continue _fun00001;
- 654:
+            _fun00002_ip = 797; continue _fun00001;
+ 656:
             options = _closure1_slot6;
             golf = _closure1_slot4;
             oscar = {};
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = offset;
             oscar['children'] = verify;
             report = options.bind(tango)(golf, oscar);
- 795:
+ 797:
             entity['leading'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

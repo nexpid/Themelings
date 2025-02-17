@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = !mike;
             var _closure2_slot0 = mike;
- 72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00004_ip = 74; continue _fun00003;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             mike = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot6;
             zulu = zulu.userTenureRewardStatusByRewardId;
             tango['userTenureRewardStatusByRewardId'] = zulu;
-            _fun00008_ip = 86; continue _fun00007;
+            _fun00008_ip = 84; continue _fun00007;
  50:
             zulu = {};
             _closure2_slot0 = zulu;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = _closure1_slot7;
             mike['userTenureRewardStatusByRewardId'] = zulu;
- 86:
+ 84:
             tango = _closure1_slot7;
             zulu = global;
             report = zulu.Date;

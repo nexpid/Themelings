@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = options.bind(verify)(report, tango, zulu);
                 zulu = 'null';
                 zulu = golf.bind(entity)(zulu);
-                _fun00002_ip = 254; continue _fun00001;
+                _fun00002_ip = 250; continue _fun00001;
  187:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike['onRejected'] = oscar;
                 mike = tango.bind(report)(zulu, mike);
- 254:
+ 250:
                 return entity;
             }
         };

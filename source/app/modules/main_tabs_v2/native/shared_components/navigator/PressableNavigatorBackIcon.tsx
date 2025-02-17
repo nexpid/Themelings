@@ -157,11 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.GradientPercentage;
             mike = mike.START;
             result = zulu.bind(report)(mike);
-            if(!(yankee == result)) { _fun00002_ip = 208; continue _fun00001 }
- 197:
+            if(!(yankee == result)) { _fun00002_ip = 204; continue _fun00001 }
+ 193:
             mike = sizing.maskStroke;
             result = mike.backgroundColor;
- 208:
+ 204:
             report = _closure1_slot3;
             zulu = report.useCallback;
             mike = new Array(2);
@@ -212,8 +212,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'button';
             golf = 'accessibilityRole';
             report[golf] = verify;
-            if(!(!(echo > romeo))) { _fun00002_ip = 383; continue _fun00001 }
- 326:
+            if(!(!(echo > romeo))) { _fun00002_ip = 377; continue _fun00001 }
+ 320:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
             golf = 11;
@@ -226,8 +226,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.t;
             golf = golf.13/7kZ;
             verify = verify.bind(offset)(golf);
-            _fun00002_ip = 446; continue _fun00001;
- 383:
+            _fun00002_ip = 442; continue _fun00001;
+ 377:
             offset = _closure1_slot0;
             update = _closure1_slot2;
             golf = 11;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             golf['mentionCount'] = echo;
             verify = foxtrot.bind(backup)(offset, golf);
- 446:
+ 442:
             golf = 'accessibilityLabel';
             report[golf] = verify;
             golf = 'onPress';
@@ -272,8 +272,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[0] = foxtrot;
             romeo = echo > romeo;
             yankee = null;
-            if(!romeo) { _fun00002_ip = 654; continue _fun00001 }
- 569:
+            if(!romeo) { _fun00002_ip = 650; continue _fun00001 }
+ 565:
             backup = _closure1_slot8;
             foxtrot = _closure1_slot4;
             romeo = {};
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = backup.bind(tango)(sizing, kilo);
             romeo['children'] = kilo;
             yankee = backup.bind(tango)(foxtrot, romeo);
- 654:
+ 650:
             offset[1] = yankee;
             golf['children'] = offset;
             options = verify.bind(tango)(options, golf);

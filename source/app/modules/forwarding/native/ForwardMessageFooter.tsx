@@ -184,12 +184,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = context.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun00002_ip = 515; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 517; continue _fun00001 }
  411:
             entity = sizing.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun00002_ip = 515; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 517; continue _fun00001 }
  425:
             mike = _closure1_slot0;
             echo = _closure1_slot2;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = vacuum.bind(context)(echo);
             entity['channelNames'] = echo;
             oscar = zulu.bind(options)(mike, entity);
- 515:
+ 517:
             zulu = _closure1_slot7;
             mike = _closure1_slot1;
             options = _closure1_slot2;
@@ -219,8 +219,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             options = undefined;
-            if(!verify) { _fun00002_ip = 597; continue _fun00001 }
- 546:
+            if(!verify) { _fun00002_ip = 599; continue _fun00001 }
+ 548:
             vacuum = _closure1_slot7;
             echo = _closure1_slot0;
             context = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['channel'] = config;
             verify['forwardOptions'] = sequence;
             options = vacuum.bind(tango)(echo, verify);
- 597:
+ 599:
             entity['preview'] = options;
             echo = _closure1_slot7;
             verify = _closure1_slot0;
@@ -247,10 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = !source;
             options['disabled'] = source;
             source = undefined;
-            if(update) { _fun00002_ip = 665; continue _fun00001 }
- 662:
+            if(update) { _fun00002_ip = 667; continue _fun00001 }
+ 664:
             source = offset;
- 665:
+ 667:
             options['onPress'] = source;
             options['loading'] = update;
             options = echo.bind(tango)(verify, options);

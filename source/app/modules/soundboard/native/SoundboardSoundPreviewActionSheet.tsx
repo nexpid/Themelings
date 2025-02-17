@@ -77,10 +77,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = kilo.isIOS;
         kilo = backup.bind(kilo)();
         backup = undefined;
-        if(!kilo) { _fun00002_ip = 338; continue _fun00001 }
- 335:
+        if(!kilo) { _fun00002_ip = 335; continue _fun00001 }
+ 332:
         backup = 60;
- 338:
+ 335:
         verify['fontSize'] = backup;
         backup = 74;
         verify['lineHeight'] = backup;
@@ -454,10 +454,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = vacuum.border;
                 update = new Array(3);
                 update[0] = sequence;
-                if(!control) { _fun00004_ip = 961; continue _fun00003 }
- 955:
+                if(!control) { _fun00004_ip = 963; continue _fun00003 }
+ 957:
                 control = vacuum.borderPlaying;
- 961:
+ 963:
                 update[1] = control;
                 update[2] = source;
                 output['style'] = update;

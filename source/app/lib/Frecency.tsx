@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = argBar;
                 mike = this;
                 golf = null;
-                if(!(golf != tango)) { _fun00010_ip = 308; continue _fun00009 }
+                if(!(golf != tango)) { _fun00010_ip = 312; continue _fun00009 }
  18:
                 report = global;
                 entity = report.Object;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = entity.length;
                 entity = mike.maxSamples;
                 zulu = verify;
-                if(!(options > entity)) { _fun00010_ip = 288; continue _fun00009 }
+                if(!(options > entity)) { _fun00010_ip = 292; continue _fun00009 }
  200:
                 options = verify.recentUses;
                 entity = options.shift;
@@ -291,25 +291,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = verify;
                 if(options > entity) { _fun00010_ip = 200; continue _fun00009 }
  240:
-                _fun00010_ip = 288; continue _fun00009;
+                _fun00010_ip = 292; continue _fun00009;
  242:
                 entity = {'totalUses': 1, 'recentUses': null, 'frecency': 4294967295, 'score': 0};
-                if(!(golf == oscar)) { _fun00010_ip = 271; continue _fun00009 }
- 256:
+                if(!(golf == oscar)) { _fun00010_ip = 275; continue _fun00009 }
+ 260:
                 golf = report.Date;
                 report = golf.now;
                 oscar = report.bind(golf)();
- 271:
+ 275:
                 report = new Array(1);
                 report[0] = oscar;
                 entity['recentUses'] = report;
                 zulu = entity;
- 288:
+ 292:
                 entity = mike.usageHistory;
                 entity[tango] = zulu;
                 entity = mike.markDirty;
                 entity = entity.bind(mike)();
- 308:
+ 312:
                 entity = undefined;
                 return entity;
             }

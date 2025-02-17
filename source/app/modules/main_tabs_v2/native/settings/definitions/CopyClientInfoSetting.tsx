@@ -303,8 +303,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.isFabric;
             yankee = offset.bind(yankee)();
             offset = null;
-            if(!yankee) { _fun00006_ip = 772; continue _fun00005 }
- 714:
+            if(!yankee) { _fun00006_ip = 778; continue _fun00005 }
+ 720:
             kilo = _closure1_slot4;
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee['onPress'] = sizing;
             offset = kilo.bind(zulu)(foxtrot, yankee);
- 772:
+ 778:
             options[5] = offset;
             report['children'] = options;
             oscar = golf.bind(zulu)(oscar, report);

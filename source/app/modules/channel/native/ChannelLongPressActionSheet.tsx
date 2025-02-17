@@ -867,7 +867,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     vacuum = offset.isThread;
                     control = vacuum.bind(offset)();
  928:
-                    if(control) { _fun00010_ip = 1317; continue _fun00009 }
+                    if(control) { _fun00010_ip = 1321; continue _fun00009 }
  934:
                     control = result;
                     if(!control) { _fun00010_ip = 953; continue _fun00009 }
@@ -986,7 +986,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     control['onPress'] = record;
                     control = vacuum.bind(config)(control);
  1094:
-                    if(!result) { _fun00010_ip = 1317; continue _fun00009 }
+                    if(!result) { _fun00010_ip = 1321; continue _fun00009 }
  1100:
                     vacuum = report.buttons;
                     control = vacuum.push;
@@ -1001,33 +1001,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     config = context[config];
                     config = record.bind(yankee)(config);
                     config = config.t;
-                    if(sierra) { _fun00010_ip = 1263; continue _fun00009 }
+                    if(sierra) { _fun00010_ip = 1265; continue _fun00009 }
  1160:
                     if(status) { _fun00010_ip = 1176; continue _fun00009 }
  1163:
                     sierra = config.9mysCg;
                     sierra = papa.bind(target)(sierra);
-                    _fun00010_ip = 1187; continue _fun00009;
+                    _fun00010_ip = 1189; continue _fun00009;
  1176:
                     lima = config.3zySTE;
                     sierra = papa.bind(target)(lima);
- 1187:
+ 1189:
                     result['label'] = sierra;
                     lima = _closure1_slot0;
                     whiskey = _closure1_slot2;
-                    if(status) { _fun00010_ip = 1222; continue _fun00009 }
- 1202:
+                    if(status) { _fun00010_ip = 1224; continue _fun00009 }
+ 1204:
                     status = 35;
                     status = whiskey[status];
                     status = lima.bind(yankee)(status);
                     status = status.PlusLargeIcon;
-                    _fun00010_ip = 1240; continue _fun00009;
- 1222:
+                    _fun00010_ip = 1242; continue _fun00009;
+ 1224:
                     sierra = 34;
                     sierra = whiskey[sierra];
                     sierra = lima.bind(yankee)(sierra);
                     status = sierra.XSmallIcon;
- 1240:
+ 1242:
                     result['IconComponent'] = status;
                     status = function() { // Original name: onPress
                         zulu = _closure1_slot0;
@@ -1053,8 +1053,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     result['onPress'] = status;
                     status = control.bind(vacuum)(result);
-                    _fun00010_ip = 1317; continue _fun00009;
- 1263:
+                    _fun00010_ip = 1321; continue _fun00009;
+ 1265:
                     config = config.jNphKS;
                     config = papa.bind(target)(config);
                     result['label'] = config;
@@ -1096,23 +1096,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     result['onPress'] = config;
                     result = control.bind(vacuum)(result);
- 1317:
+ 1321:
                     control = _closure1_slot8;
                     result = offset.type;
                     result = control.bind(yankee)(result);
-                    if(result) { _fun00010_ip = 1348; continue _fun00009 }
- 1334:
+                    if(result) { _fun00010_ip = 1352; continue _fun00009 }
+ 1338:
                     vacuum = _closure1_slot9;
                     control = offset.type;
                     result = vacuum.bind(yankee)(control);
- 1348:
-                    if(result) { _fun00010_ip = 1361; continue _fun00009 }
- 1351:
+ 1352:
+                    if(result) { _fun00010_ip = 1365; continue _fun00009 }
+ 1355:
                     control = offset.isForumLikeChannel;
                     result = control.bind(offset)();
- 1361:
-                    if(!result) { _fun00010_ip = 1482; continue _fun00009 }
- 1364:
+ 1365:
+                    if(!result) { _fun00010_ip = 1486; continue _fun00009 }
+ 1368:
                     vacuum = report.buttons;
                     control = vacuum.push;
                     result = {};
@@ -1152,11 +1152,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     result['onPress'] = config;
                     result = control.bind(vacuum)(result);
- 1482:
+ 1486:
                     result = offset.isPrivate;
                     result = result.bind(offset)();
-                    if(!result) { _fun00010_ip = 1633; continue _fun00009 }
- 1498:
+                    if(!result) { _fun00010_ip = 1637; continue _fun00009 }
+ 1502:
                     vacuum = report.buttons;
                     control = vacuum.push;
                     result = {};
@@ -1170,15 +1170,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     config = target[config];
                     config = papa.bind(yankee)(config);
                     config = config.t;
-                    if(sequence) { _fun00010_ip = 1571; continue _fun00009 }
- 1558:
+                    if(sequence) { _fun00010_ip = 1575; continue _fun00009 }
+ 1562:
                     sequence = config.N2c/Ul;
                     sequence = record.bind(context)(sequence);
-                    _fun00010_ip = 1582; continue _fun00009;
- 1571:
+                    _fun00010_ip = 1586; continue _fun00009;
+ 1575:
                     config = config.z7I3gY;
                     sequence = record.bind(context)(config);
- 1582:
+ 1586:
                     result['label'] = sequence;
                     config = _closure1_slot0;
                     record = _closure1_slot2;
@@ -1204,14 +1204,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     result['onPress'] = sequence;
                     result = control.bind(vacuum)(result);
- 1633:
+ 1637:
                     result = {};
                     control = 'safety-warning-tooling';
                     result['sectionKey'] = control;
                     control = new Array(0);
                     result['buttons'] = control;
-                    if(!source) { _fun00010_ip = 1769; continue _fun00009 }
- 1658:
+                    if(!source) { _fun00010_ip = 1775; continue _fun00009 }
+ 1662:
                     vacuum = result.buttons;
                     control = vacuum.push;
                     source = {};
@@ -1250,9 +1250,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     source['onPress'] = sequence;
                     source = control.bind(vacuum)(source);
- 1769:
-                    if(!output) { _fun00010_ip = 1883; continue _fun00009 }
- 1772:
+ 1775:
+                    if(!output) { _fun00010_ip = 1891; continue _fun00009 }
+ 1778:
                     control = result.buttons;
                     source = control.push;
                     output = {};
@@ -1291,22 +1291,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     output['onPress'] = vacuum;
                     output = source.bind(control)(output);
- 1883:
+ 1891:
                     output = result.buttons;
                     output = output.length;
-                    if(!(output > tango)) { _fun00010_ip = 1908; continue _fun00009 }
- 1898:
+                    if(!(output > tango)) { _fun00010_ip = 1916; continue _fun00009 }
+ 1906:
                     output = entity.push;
                     output = output.bind(entity)(result);
- 1908:
-                    if(!zulu) { _fun00010_ip = 1925; continue _fun00009 }
- 1911:
+ 1916:
+                    if(!zulu) { _fun00010_ip = 1933; continue _fun00009 }
+ 1919:
                     result = _closure1_slot8;
                     output = offset.type;
                     zulu = result.bind(yankee)(output);
- 1925:
-                    if(!zulu) { _fun00010_ip = 2066; continue _fun00009 }
- 1931:
+ 1933:
+                    if(!zulu) { _fun00010_ip = 2078; continue _fun00009 }
+ 1939:
                     result = report.buttons;
                     output = result.push;
                     zulu = {};
@@ -1320,15 +1320,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     source = config[source];
                     source = sequence.bind(yankee)(source);
                     source = source.t;
-                    if(update) { _fun00010_ip = 2004; continue _fun00009 }
- 1991:
+                    if(update) { _fun00010_ip = 2014; continue _fun00009 }
+ 1999:
                     update = source.LOp2MT;
                     update = control.bind(vacuum)(update);
-                    _fun00010_ip = 2015; continue _fun00009;
- 2004:
+                    _fun00010_ip = 2027; continue _fun00009;
+ 2014:
                     source = source.n7rKhY;
                     update = control.bind(vacuum)(source);
- 2015:
+ 2027:
                     zulu['label'] = update;
                     source = _closure1_slot0;
                     control = _closure1_slot2;
@@ -1354,14 +1354,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = update;
                     zulu = output.bind(result)(zulu);
- 2066:
+ 2078:
                     zulu = report.buttons;
                     zulu = zulu.length;
-                    if(!(zulu > tango)) { _fun00010_ip = 2091; continue _fun00009 }
- 2081:
+                    if(!(zulu > tango)) { _fun00010_ip = 2103; continue _fun00009 }
+ 2093:
                     zulu = entity.push;
                     zulu = zulu.bind(entity)(report);
- 2091:
+ 2103:
                     report = {};
                     zulu = 'notifications';
                     report['sectionKey'] = zulu;
@@ -1370,22 +1370,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     output = _closure1_slot11;
                     zulu = offset.type;
                     zulu = output.bind(yankee)(zulu);
-                    if(zulu) { _fun00010_ip = 2173; continue _fun00009 }
- 2128:
+                    if(zulu) { _fun00010_ip = 2185; continue _fun00009 }
+ 2140:
                     zulu = offset.isCategory;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 2173; continue _fun00009 }
- 2141:
-                    if(!sizing) { _fun00010_ip = 2157; continue _fun00009 }
- 2144:
+                    if(zulu) { _fun00010_ip = 2185; continue _fun00009 }
+ 2153:
+                    if(!sizing) { _fun00010_ip = 2169; continue _fun00009 }
+ 2156:
                     zulu = offset.isGuildVoice;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 2173; continue _fun00009 }
- 2157:
+                    if(zulu) { _fun00010_ip = 2185; continue _fun00009 }
+ 2169:
                     zulu = offset.isForumLikeChannel;
                     zulu = zulu.bind(offset)();
-                    if(!zulu) { _fun00010_ip = 2820; continue _fun00009 }
- 2173:
+                    if(!zulu) { _fun00010_ip = 2844; continue _fun00009 }
+ 2185:
                     update = _closure1_slot0;
                     zulu = _closure1_slot2;
                     source = 20;
@@ -1396,27 +1396,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu[source];
                     zulu = update.bind(yankee)(zulu);
                     zulu = zulu.t;
-                    if(echo) { _fun00010_ip = 2524; continue _fun00009 }
- 2223:
+                    if(echo) { _fun00010_ip = 2542; continue _fun00009 }
+ 2235:
                     echo = zulu.tbeRRE;
                     update = output.bind(result)(echo);
                     echo = offset.isCategory;
                     echo = echo.bind(offset)();
-                    if(echo) { _fun00010_ip = 2403; continue _fun00009 }
- 2250:
+                    if(echo) { _fun00010_ip = 2419; continue _fun00009 }
+ 2264:
                     echo = offset.isDM;
                     echo = echo.bind(offset)();
-                    if(echo) { _fun00010_ip = 2349; continue _fun00009 }
- 2263:
+                    if(echo) { _fun00010_ip = 2363; continue _fun00009 }
+ 2277:
                     echo = offset.isGroupDM;
                     echo = echo.bind(offset)();
-                    if(echo) { _fun00010_ip = 2349; continue _fun00009 }
- 2276:
+                    if(echo) { _fun00010_ip = 2363; continue _fun00009 }
+ 2290:
                     echo = offset.isThread;
                     echo = echo.bind(offset)();
                     vacuum = update;
-                    if(!echo) { _fun00010_ip = 2455; continue _fun00009 }
- 2295:
+                    if(!echo) { _fun00010_ip = 2473; continue _fun00009 }
+ 2309:
                     sequence = _closure1_slot0;
                     echo = _closure1_slot2;
                     update = echo[source];
@@ -1428,8 +1428,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     echo = echo.t;
                     echo = echo.bUUd8v;
                     vacuum = update.bind(control)(echo);
-                    _fun00010_ip = 2455; continue _fun00009;
- 2349:
+                    _fun00010_ip = 2473; continue _fun00009;
+ 2363:
                     sequence = _closure1_slot0;
                     echo = _closure1_slot2;
                     update = echo[source];
@@ -1441,8 +1441,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     echo = echo.t;
                     echo = echo.LO3kaG;
                     vacuum = update.bind(control)(echo);
-                    _fun00010_ip = 2455; continue _fun00009;
- 2403:
+                    _fun00010_ip = 2473; continue _fun00009;
+ 2419:
                     sequence = _closure1_slot0;
                     echo = _closure1_slot2;
                     update = echo[source];
@@ -1454,7 +1454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     echo = echo.t;
                     echo = echo.pNMCg4;
                     vacuum = update.bind(control)(echo);
- 2455:
+ 2473:
                     control = report.buttons;
                     update = control.push;
                     echo = {};
@@ -1504,27 +1504,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     echo['onPress'] = vacuum;
                     echo = update.bind(control)(echo);
-                    _fun00010_ip = 2820; continue _fun00009;
- 2524:
+                    _fun00010_ip = 2844; continue _fun00009;
+ 2542:
                     zulu = zulu.OYefmZ;
                     output = output.bind(result)(zulu);
                     zulu = offset.isCategory;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 2704; continue _fun00009 }
- 2551:
+                    if(zulu) { _fun00010_ip = 2726; continue _fun00009 }
+ 2571:
                     zulu = offset.isDM;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 2650; continue _fun00009 }
- 2564:
+                    if(zulu) { _fun00010_ip = 2670; continue _fun00009 }
+ 2584:
                     zulu = offset.isGroupDM;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 2650; continue _fun00009 }
- 2577:
+                    if(zulu) { _fun00010_ip = 2670; continue _fun00009 }
+ 2597:
                     zulu = offset.isThread;
                     zulu = zulu.bind(offset)();
                     echo = output;
-                    if(!zulu) { _fun00010_ip = 2756; continue _fun00009 }
- 2596:
+                    if(!zulu) { _fun00010_ip = 2780; continue _fun00009 }
+ 2616:
                     update = _closure1_slot0;
                     zulu = _closure1_slot2;
                     output = zulu[source];
@@ -1536,8 +1536,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.t;
                     zulu = zulu.Cq/TzM;
                     echo = output.bind(result)(zulu);
-                    _fun00010_ip = 2756; continue _fun00009;
- 2650:
+                    _fun00010_ip = 2780; continue _fun00009;
+ 2670:
                     update = _closure1_slot0;
                     zulu = _closure1_slot2;
                     output = zulu[source];
@@ -1549,8 +1549,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.t;
                     zulu = zulu.s5/5fn;
                     echo = output.bind(result)(zulu);
-                    _fun00010_ip = 2756; continue _fun00009;
- 2704:
+                    _fun00010_ip = 2780; continue _fun00009;
+ 2726:
                     update = _closure1_slot0;
                     zulu = _closure1_slot2;
                     output = zulu[source];
@@ -1562,7 +1562,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.t;
                     zulu = zulu.olaBeH;
                     echo = output.bind(result)(zulu);
- 2756:
+ 2780:
                     result = report.buttons;
                     output = result.push;
                     zulu = {};
@@ -1606,36 +1606,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = echo;
                     zulu = output.bind(result)(zulu);
- 2820:
+ 2844:
                     output = _closure1_slot8;
                     zulu = offset.type;
                     zulu = output.bind(yankee)(zulu);
-                    if(zulu) { _fun00010_ip = 2847; continue _fun00009 }
- 2837:
+                    if(zulu) { _fun00010_ip = 2871; continue _fun00009 }
+ 2861:
                     output = offset.isCategory;
                     zulu = output.bind(offset)();
- 2847:
-                    if(zulu) { _fun00010_ip = 2860; continue _fun00009 }
- 2850:
+ 2871:
+                    if(zulu) { _fun00010_ip = 2884; continue _fun00009 }
+ 2874:
                     output = offset.isGuildStageVoice;
                     zulu = output.bind(offset)();
- 2860:
-                    if(zulu) { _fun00010_ip = 2879; continue _fun00009 }
- 2863:
-                    if(!sizing) { _fun00010_ip = 2876; continue _fun00009 }
- 2866:
+ 2884:
+                    if(zulu) { _fun00010_ip = 2903; continue _fun00009 }
+ 2887:
+                    if(!sizing) { _fun00010_ip = 2900; continue _fun00009 }
+ 2890:
                     output = offset.isGuildVoice;
                     sizing = output.bind(offset)();
- 2876:
+ 2900:
                     zulu = sizing;
- 2879:
-                    if(zulu) { _fun00010_ip = 2892; continue _fun00009 }
- 2882:
+ 2903:
+                    if(zulu) { _fun00010_ip = 2916; continue _fun00009 }
+ 2906:
                     sizing = offset.isForumLikeChannel;
                     zulu = sizing.bind(offset)();
- 2892:
-                    if(!zulu) { _fun00010_ip = 3013; continue _fun00009 }
- 2895:
+ 2916:
+                    if(!zulu) { _fun00010_ip = 3037; continue _fun00009 }
+ 2919:
                     output = report.buttons;
                     sizing = output.push;
                     zulu = {};
@@ -1680,14 +1680,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = result;
                     zulu = sizing.bind(output)(zulu);
- 3013:
+ 3037:
                     zulu = report.buttons;
                     zulu = zulu.length;
-                    if(!(zulu > tango)) { _fun00010_ip = 3038; continue _fun00009 }
- 3028:
+                    if(!(zulu > tango)) { _fun00010_ip = 3062; continue _fun00009 }
+ 3052:
                     zulu = entity.push;
                     zulu = zulu.bind(entity)(report);
- 3038:
+ 3062:
                     report = {};
                     zulu = 'threads';
                     report['sectionKey'] = zulu;
@@ -1695,21 +1695,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report['buttons'] = zulu;
                     zulu = offset.isThread;
                     zulu = zulu.bind(offset)();
-                    if(zulu) { _fun00010_ip = 3081; continue _fun00009 }
- 3071:
+                    if(zulu) { _fun00010_ip = 3105; continue _fun00009 }
+ 3095:
                     sizing = offset.isForumLikeChannel;
                     zulu = sizing.bind(offset)();
- 3081:
-                    if(zulu) { _fun00010_ip = 3087; continue _fun00009 }
- 3084:
+ 3105:
+                    if(zulu) { _fun00010_ip = 3111; continue _fun00009 }
+ 3108:
                     zulu = !kilo;
- 3087:
-                    if(zulu) { _fun00010_ip = 3093; continue _fun00009 }
- 3090:
+ 3111:
+                    if(zulu) { _fun00010_ip = 3117; continue _fun00009 }
+ 3114:
                     zulu = foxtrot;
- 3093:
-                    if(zulu) { _fun00010_ip = 3207; continue _fun00009 }
- 3096:
+ 3117:
+                    if(zulu) { _fun00010_ip = 3231; continue _fun00009 }
+ 3120:
                     kilo = report.buttons;
                     foxtrot = kilo.push;
                     zulu = {};
@@ -1744,14 +1744,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = sizing;
                     zulu = foxtrot.bind(kilo)(zulu);
- 3207:
+ 3231:
                     zulu = report.buttons;
                     zulu = zulu.length;
-                    if(!(zulu > tango)) { _fun00010_ip = 3232; continue _fun00009 }
- 3222:
+                    if(!(zulu > tango)) { _fun00010_ip = 3256; continue _fun00009 }
+ 3246:
                     zulu = entity.push;
                     zulu = zulu.bind(entity)(report);
- 3232:
+ 3256:
                     report = {};
                     zulu = 'voice';
                     report['sectionKey'] = zulu;
@@ -1760,12 +1760,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = _closure1_slot9;
                     zulu = offset.type;
                     zulu = foxtrot.bind(yankee)(zulu);
-                    if(!zulu) { _fun00010_ip = 3272; continue _fun00009 }
- 3269:
+                    if(!zulu) { _fun00010_ip = 3296; continue _fun00009 }
+ 3293:
                     zulu = !romeo;
- 3272:
-                    if(!zulu) { _fun00010_ip = 3413; continue _fun00009 }
- 3278:
+ 3296:
+                    if(!zulu) { _fun00010_ip = 3441; continue _fun00009 }
+ 3302:
                     foxtrot = report.buttons;
                     romeo = foxtrot.push;
                     zulu = {};
@@ -1779,15 +1779,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     kilo = echo[kilo];
                     kilo = result.bind(yankee)(kilo);
                     kilo = kilo.t;
-                    if(backup) { _fun00010_ip = 3351; continue _fun00009 }
- 3338:
+                    if(backup) { _fun00010_ip = 3377; continue _fun00009 }
+ 3362:
                     backup = kilo.LxzNio;
                     backup = sizing.bind(output)(backup);
-                    _fun00010_ip = 3362; continue _fun00009;
- 3351:
+                    _fun00010_ip = 3390; continue _fun00009;
+ 3377:
                     kilo = kilo.JYF2OT;
                     backup = sizing.bind(output)(kilo);
- 3362:
+ 3390:
                     zulu['label'] = backup;
                     kilo = _closure1_slot0;
                     sizing = _closure1_slot2;
@@ -1811,11 +1811,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = backup;
                     zulu = romeo.bind(foxtrot)(zulu);
- 3413:
+ 3441:
                     zulu = offset.isGuildVocal;
                     zulu = zulu.bind(offset)();
-                    if(!zulu) { _fun00010_ip = 3712; continue _fun00009 }
- 3429:
+                    if(!zulu) { _fun00010_ip = 3740; continue _fun00009 }
+ 3457:
                     zulu = offset.isGuildStageVoice;
                     update = zulu.bind(offset)();
                     foxtrot = report.buttons;
@@ -1831,8 +1831,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     output = sizing[backup];
                     output = kilo.bind(yankee)(output);
                     output = output.t;
-                    if(update) { _fun00010_ip = 3558; continue _fun00009 }
- 3499:
+                    if(update) { _fun00010_ip = 3586; continue _fun00009 }
+ 3527:
                     update = output.ZXxLQk;
                     update = result.bind(echo)(update);
                     zulu['label'] = update;
@@ -1859,8 +1859,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = update;
                     update = romeo.bind(foxtrot)(zulu);
-                    _fun00010_ip = 3712; continue _fun00009;
- 3558:
+                    _fun00010_ip = 3740; continue _fun00009;
+ 3586:
                     output = output.7vb2cX;
                     output = result.bind(echo)(output);
                     zulu['label'] = output;
@@ -1925,19 +1925,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = backup;
                     zulu = romeo.bind(foxtrot)(zulu);
- 3712:
+ 3740:
                     zulu = offset.isGuildStageVoice;
                     zulu = zulu.bind(offset)();
-                    if(!zulu) { _fun00010_ip = 3728; continue _fun00009 }
- 3725:
+                    if(!zulu) { _fun00010_ip = 3756; continue _fun00009 }
+ 3753:
                     zulu = options;
- 3728:
-                    if(!zulu) { _fun00010_ip = 3734; continue _fun00009 }
- 3731:
+ 3756:
+                    if(!zulu) { _fun00010_ip = 3762; continue _fun00009 }
+ 3759:
                     zulu = oscar;
- 3734:
-                    if(!zulu) { _fun00010_ip = 3855; continue _fun00009 }
- 3737:
+ 3762:
+                    if(!zulu) { _fun00010_ip = 3883; continue _fun00009 }
+ 3765:
                     options = report.buttons;
                     oscar = options.push;
                     zulu = {};
@@ -1975,21 +1975,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     zulu['onPress'] = romeo;
                     zulu = oscar.bind(options)(zulu);
- 3855:
+ 3883:
                     zulu = report.buttons;
                     zulu = zulu.length;
-                    if(!(zulu > tango)) { _fun00010_ip = 3880; continue _fun00009 }
- 3870:
+                    if(!(zulu > tango)) { _fun00010_ip = 3908; continue _fun00009 }
+ 3898:
                     zulu = entity.push;
                     zulu = zulu.bind(entity)(report);
- 3880:
+ 3908:
                     zulu = {};
                     report = 'admin-actions';
                     zulu['sectionKey'] = report;
                     report = new Array(0);
                     zulu['buttons'] = report;
-                    if(!mike) { _fun00010_ip = 4287; continue _fun00009 }
- 3908:
+                    if(!mike) { _fun00010_ip = 4319; continue _fun00009 }
+ 3936:
                     oscar = zulu.buttons;
                     report = oscar.push;
                     mike = {};
@@ -2005,15 +2005,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo[sizing];
                     romeo = kilo.bind(yankee)(romeo);
                     romeo = romeo.t;
-                    if(options) { _fun00010_ip = 3991; continue _fun00009 }
- 3978:
+                    if(options) { _fun00010_ip = 4021; continue _fun00009 }
+ 4006:
                     options = romeo.3gUsJS;
                     options = foxtrot.bind(backup)(options);
-                    _fun00010_ip = 4002; continue _fun00009;
- 3991:
+                    _fun00010_ip = 4034; continue _fun00009;
+ 4021:
                     romeo = romeo.zdPFs7;
                     options = foxtrot.bind(backup)(romeo);
- 4002:
+ 4034:
                     mike['label'] = options;
                     romeo = _closure1_slot0;
                     foxtrot = _closure1_slot2;
@@ -2046,23 +2046,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure1_slot8;
                     mike = offset.type;
                     mike = report.bind(yankee)(mike);
-                    if(mike) { _fun00010_ip = 4080; continue _fun00009 }
- 4070:
+                    if(mike) { _fun00010_ip = 4112; continue _fun00009 }
+ 4102:
                     report = offset.isForumLikeChannel;
                     mike = report.bind(offset)();
- 4080:
-                    if(mike) { _fun00010_ip = 4093; continue _fun00009 }
- 4083:
+ 4112:
+                    if(mike) { _fun00010_ip = 4125; continue _fun00009 }
+ 4115:
                     report = offset.isGuildVoice;
                     mike = report.bind(offset)();
- 4093:
-                    if(mike) { _fun00010_ip = 4106; continue _fun00009 }
- 4096:
+ 4125:
+                    if(mike) { _fun00010_ip = 4138; continue _fun00009 }
+ 4128:
                     report = offset.isCategory;
                     mike = report.bind(offset)();
- 4106:
-                    if(!mike) { _fun00010_ip = 4287; continue _fun00009 }
- 4112:
+ 4138:
+                    if(!mike) { _fun00010_ip = 4319; continue _fun00009 }
+ 4144:
                     oscar = zulu.buttons;
                     report = oscar.push;
                     mike = {};
@@ -2077,33 +2077,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = romeo[sizing];
                     romeo = kilo.bind(yankee)(romeo);
                     romeo = romeo.t;
-                    if(options) { _fun00010_ip = 4192; continue _fun00009 }
- 4179:
+                    if(options) { _fun00010_ip = 4224; continue _fun00009 }
+ 4211:
                     options = romeo.dEaPc3;
                     options = foxtrot.bind(backup)(options);
-                    _fun00010_ip = 4203; continue _fun00009;
- 4192:
+                    _fun00010_ip = 4235; continue _fun00009;
+ 4224:
                     romeo = romeo.fUYU+v;
                     options = foxtrot.bind(backup)(romeo);
- 4203:
+ 4235:
                     mike['label'] = options;
                     options = offset.isCategory;
                     options = options.bind(offset)();
                     offset = _closure1_slot0;
                     romeo = _closure1_slot2;
-                    if(options) { _fun00010_ip = 4248; continue _fun00009 }
- 4228:
+                    if(options) { _fun00010_ip = 4280; continue _fun00009 }
+ 4260:
                     options = 58;
                     options = romeo[options];
                     options = offset.bind(yankee)(options);
                     options = options.CopyIcon;
-                    _fun00010_ip = 4266; continue _fun00009;
- 4248:
+                    _fun00010_ip = 4298; continue _fun00009;
+ 4280:
                     verify = 35;
                     verify = romeo[verify];
                     verify = offset.bind(yankee)(verify);
                     options = verify.PlusLargeIcon;
- 4266:
+ 4298:
                     mike['IconComponent'] = options;
                     golf = function() { // Original name: onPress
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -2157,14 +2157,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     mike['onPress'] = golf;
                     mike = report.bind(oscar)(mike);
- 4287:
+ 4319:
                     mike = zulu.buttons;
                     mike = mike.length;
-                    if(!(mike > tango)) { _fun00010_ip = 4312; continue _fun00009 }
- 4302:
+                    if(!(mike > tango)) { _fun00010_ip = 4344; continue _fun00009 }
+ 4334:
                     mike = entity.push;
                     mike = mike.bind(entity)(zulu);
- 4312:
+ 4344:
                     return entity;
                 }
             };
@@ -2173,7 +2173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.isGroupDM;
             zulu = zulu.bind(romeo)();
             foxtrot = undefined;
-            if(!zulu) { _fun00004_ip = 1187; continue _fun00003 }
+            if(!zulu) { _fun00004_ip = 1189; continue _fun00003 }
  1106:
             oscar = _closure1_slot0;
             output = _closure1_slot2;
@@ -2193,7 +2193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = output + romeo;
             zulu['members'] = romeo;
             foxtrot = golf.bind(offset)(oscar, zulu);
- 1187:
+ 1189:
             golf = _closure1_slot4;
             oscar = golf.useEffect;
             offset = yankee.length;
@@ -2336,8 +2336,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.bind(yankee)(options);
             options = new Array(2);
             options[0] = offset;
-            if(!verify) { _fun00004_ip = 1567; continue _fun00003 }
- 1370:
+            if(!verify) { _fun00004_ip = 1569; continue _fun00003 }
+ 1372:
             romeo = _closure1_slot26;
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -2400,7 +2400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             offset['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 1567:
+ 1569:
             options[1] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

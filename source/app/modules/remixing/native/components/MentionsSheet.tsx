@@ -223,10 +223,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = null;
                 zulu = offset == mike;
                 golf = undefined;
-                if(zulu) { _fun00004_ip = 195; continue _fun00003 }
- 189:
+                if(zulu) { _fun00004_ip = 191; continue _fun00003 }
+ 185:
                 golf = mike.colorString;
- 195:
+ 191:
                 _closure2_slot4 = golf;
                 oscar = _closure1_slot4;
                 backup = oscar.useCallback;
@@ -493,10 +493,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar['size'] = romeo;
                 romeo = offset != yankee;
                 offset = undefined;
-                if(!romeo) { _fun00004_ip = 422; continue _fun00003 }
- 419:
+                if(!romeo) { _fun00004_ip = 412; continue _fun00003 }
+ 409:
                 offset = yankee;
- 422:
+ 412:
                 oscar['guildId'] = offset;
                 offset = true;
                 oscar['autoStatusCutout'] = offset;
@@ -835,12 +835,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = null;
                 verify = options != yankee;
                 options = undefined;
-                if(!verify) { _fun00010_ip = 291; continue _fun00009 }
- 282:
+                if(!verify) { _fun00010_ip = 285; continue _fun00009 }
+ 276:
                 verify = {};
                 verify['color'] = yankee;
                 options = verify;
- 291:
+ 285:
                 oscar['style'] = options;
                 options = global;
                 options = options.HermesInternal;

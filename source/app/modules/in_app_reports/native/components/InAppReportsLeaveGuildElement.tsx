@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun00004_ip = 113; continue _fun00003 }
+                    if(!(mike != zulu)) { _fun00004_ip = 111; continue _fun00003 }
  13:
                     tango = _closure2_slot1;
                     zulu = undefined;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot3;
                     entity = true;
                     entity = mike.bind(zulu)(entity);
- 113:
+ 111:
                     entity = undefined;
                     return entity;
                 }
@@ -172,10 +172,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             backup = romeo == foxtrot;
             romeo = undefined;
-            if(backup) { _fun00002_ip = 344; continue _fun00001 }
- 339:
+            if(backup) { _fun00002_ip = 346; continue _fun00001 }
+ 341:
             romeo = foxtrot.name;
- 344:
+ 346:
             options['guildName'] = romeo;
             options = offset.bind(yankee)(verify, options);
             entity['description'] = options;

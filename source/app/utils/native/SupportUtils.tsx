@@ -19,7 +19,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 270; continue _fun00001 }
+                    if(mike) { _fun00002_ip = 271; continue _fun00001 }
  10:
                     golf = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -75,18 +75,18 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     sequence = output;
                     mike = context[romeo](record, config, sequence, vacuum, control, source, update, echo, result, output);
                     mike = oscar.bind(golf)(mike);
-                    SaveGenerator(address=253);
- 251:
+                    SaveGenerator(address=254);
+ 252:
                     return mike;
- 253:
+ 254:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 267; continue _fun00001 }
- 259:
+                    if(oscar) { _fun00002_ip = 268; continue _fun00001 }
+ 260:
                     tango = tango.bind(report)(mike);
                     return zulu;
- 267:
+ 268:
                     return mike;
- 270:
+ 271:
                     return entity;
                 }
             };

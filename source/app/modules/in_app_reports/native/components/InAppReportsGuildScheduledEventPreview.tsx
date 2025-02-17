@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = zulu.bind(tango)(mike, entity);
             entity = null;
             if(!(entity != echo)) { _fun00002_ip = 547; continue _fun00001 }
- 87:
+ 85:
             offset = _closure1_slot0;
             backup = _closure1_slot2;
             mike = 7;

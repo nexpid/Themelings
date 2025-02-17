@@ -511,9 +511,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = _closure2_slot4;
  25:
                 tango = _closure2_slot0;
-                if(tango) { _fun00018_ip = 352; continue _fun00017 }
+                if(tango) { _fun00018_ip = 348; continue _fun00017 }
  35:
-                if(!(zulu != verify)) { _fun00018_ip = 352; continue _fun00017 }
+                if(!(zulu != verify)) { _fun00018_ip = 348; continue _fun00017 }
  42:
                 zulu = _closure2_slot1;
                 if(zulu) { _fun00018_ip = 60; continue _fun00017 }
@@ -695,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result = entity;
                 mike = apply(update, echo, result);
                 return entity;
- 352:
+ 348:
                 entity = new Array(0);
                 return entity;
             }

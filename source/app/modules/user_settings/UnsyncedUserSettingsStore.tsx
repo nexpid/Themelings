@@ -295,10 +295,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.displayCompactAvatars;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00008_ip = 27; continue _fun00007 }
- 24:
+                if(!entity) { _fun00008_ip = 25; continue _fun00007 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -374,11 +374,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.expressionPickerWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00016_ip = 31; continue _fun00015 }
- 21:
+                if(!(zulu == entity)) { _fun00016_ip = 29; continue _fun00015 }
+ 19:
                 mike = _closure1_slot12;
                 entity = mike.MIN;
- 31:
+ 29:
                 return entity;
             }
         };
@@ -393,10 +393,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.messageRequestSidebarWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00018_ip = 25; continue _fun00017 }
- 21:
+                if(!(zulu == entity)) { _fun00018_ip = 23; continue _fun00017 }
+ 19:
                 entity = _closure1_slot11;
- 25:
+ 23:
                 return entity;
             }
         };
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.threadSidebarWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00020_ip = 25; continue _fun00019 }
- 21:
+                if(!(zulu == entity)) { _fun00020_ip = 23; continue _fun00019 }
+ 19:
                 entity = _closure1_slot9;
- 25:
+ 23:
                 return entity;
             }
         };
@@ -429,10 +429,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.postSidebarWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00022_ip = 25; continue _fun00021 }
- 21:
+                if(!(zulu == entity)) { _fun00022_ip = 23; continue _fun00021 }
+ 19:
                 entity = _closure1_slot14;
- 25:
+ 23:
                 return entity;
             }
         };
@@ -447,10 +447,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.callChatSidebarWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00024_ip = 25; continue _fun00023 }
- 21:
+                if(!(zulu == entity)) { _fun00024_ip = 23; continue _fun00023 }
+ 19:
                 entity = _closure1_slot9;
- 25:
+ 23:
                 return entity;
             }
         };
@@ -465,11 +465,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.homeSidebarWidth;
                 tango = null;
-                if(!(tango == entity)) { _fun00026_ip = 94; continue _fun00025 }
- 21:
+                if(!(tango == entity)) { _fun00026_ip = 92; continue _fun00025 }
+ 19:
                 zulu = _closure1_slot16;
-                if(!(tango == zulu)) { _fun00026_ip = 90; continue _fun00025 }
- 29:
+                if(!(tango == zulu)) { _fun00026_ip = 88; continue _fun00025 }
+ 27:
                 zulu = global;
                 oscar = zulu.Math;
                 report = oscar.max;
@@ -482,9 +482,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot9;
                 zulu = report.bind(oscar)(tango, zulu);
                 _closure1_slot16 = zulu;
- 90:
+ 88:
                 entity = _closure1_slot16;
- 94:
+ 92:
                 return entity;
             }
         };
@@ -499,8 +499,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.callParticipantsSidebarWidth;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00028_ip = 49; continue _fun00027 }
- 21:
+                if(!(zulu == entity)) { _fun00028_ip = 47; continue _fun00027 }
+ 19:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
                 mike = 11;
@@ -508,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = undefined;
                 mike = tango.bind(mike)(zulu);
                 entity = mike.DEFAULT_PARTICIPANTS_SIDEBAR_WIDTH;
- 49:
+ 47:
                 return entity;
             }
         };
@@ -582,10 +582,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableEmbeddedActivityPopOutAlert;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00034_ip = 27; continue _fun00033 }
- 24:
+                if(!entity) { _fun00034_ip = 25; continue _fun00033 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -601,10 +601,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableActivityHardwareAccelerationPrompt;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00036_ip = 27; continue _fun00035 }
- 24:
+                if(!entity) { _fun00036_ip = 25; continue _fun00035 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -620,10 +620,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableInviteWithTextChannelActivityLaunch;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00038_ip = 27; continue _fun00037 }
- 24:
+                if(!entity) { _fun00038_ip = 25; continue _fun00037 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -658,10 +658,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.pushUpsellDismissed;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00042_ip = 27; continue _fun00041 }
- 24:
+                if(!entity) { _fun00042_ip = 25; continue _fun00041 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -677,10 +677,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableActivityHostLeftNitroUpsell;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00044_ip = 27; continue _fun00043 }
- 24:
+                if(!entity) { _fun00044_ip = 25; continue _fun00043 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -696,10 +696,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableCallUserConfirmationPrompt;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00046_ip = 27; continue _fun00045 }
- 24:
+                if(!entity) { _fun00046_ip = 25; continue _fun00045 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -715,10 +715,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.disableApplicationSubscriptionCancellationSurvey;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun00048_ip = 27; continue _fun00047 }
- 24:
+                if(!entity) { _fun00048_ip = 25; continue _fun00047 }
+ 22:
                 entity = mike;
- 27:
+ 25:
                 return entity;
             }
         };
@@ -847,11 +847,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot17;
                 entity = entity.listDensity;
                 zulu = null;
-                if(!(zulu == entity)) { _fun00062_ip = 31; continue _fun00061 }
- 21:
+                if(!(zulu == entity)) { _fun00062_ip = 29; continue _fun00061 }
+ 19:
                 mike = _closure1_slot13;
                 entity = mike.COZY;
- 31:
+ 29:
                 return entity;
             }
         };
