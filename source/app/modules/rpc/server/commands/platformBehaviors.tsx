@@ -1,38 +1,38 @@
 // app/modules/rpc/server/commands/platformBehaviors.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    tango = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(golf)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
+    michal = {};
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.RPCCommands;
-    golf = tango.GET_PLATFORM_BEHAVIORS;
-    tango = {};
-    options = function() { // Original name: handler
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RPCCommands;
+    golfie = tangon.GET_PLATFORM_BEHAVIORS;
+    tangon = {};
+    option = function() { // Original name: handler
         entity = {};
-        mike = true;
-        entity['iosKeyboardResizesView'] = mike;
+        michal = true;
+        entity['iosKeyboardResizesView'] = michal;
         return entity;
     };
-    tango['handler'] = options;
-    mike[golf] = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/server/commands/platformBehaviors.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    tangon['handler'] = option;
+    michal[golfie] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/server/commands/platformBehaviors.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,91 +1,91 @@
 // app/modules/forwarding/maybeCreateMessageRecordFromSnapshot.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forwarding/maybeCreateMessageRecordFromSnapshot.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: maybeCreateMessageRecordFromSnapshot
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forwarding/maybeCreateMessageRecordFromSnapshot.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: maybeCreateMessageRecordFromSnapshot
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBar;
+            tangon = argFoo;
+            oscard = argBar;
             report = null;
-            if(!(report == oscar)) { _fun00002_ip = 57; continue _fun00001 }
+            if(!(report == oscard)) { _fun00002_ip = 57; continue _fun00001 }
  12:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             entity = _closure1_slot1;
-            zulu = 0;
-            mike = entity[zulu];
+            zuuluu = 0;
+            michal = entity[zuuluu];
             entity = undefined;
-            mike = golf.bind(entity)(mike);
-            mike = mike.bind(entity)(tango);
-            if(!mike) { _fun00002_ip = 54; continue _fun00001 }
+            michal = golfie.bind(entity)(michal);
+            michal = michal.bind(entity)(tangon);
+            if(!michal) { _fun00002_ip = 54; continue _fun00001 }
  44:
-            mike = tango.messageSnapshots;
-            entity = mike[zulu];
+            michal = tangon.messageSnapshots;
+            entity = michal[zuuluu];
  54:
-            oscar = entity;
+            oscard = entity;
  57:
-            entity = tango;
-            if(!(report != oscar)) { _fun00002_ip = 248; continue _fun00001 }
+            entity = tangon;
+            if(!(report != oscard)) { _fun00002_ip = 248; continue _fun00001 }
  67:
-            zulu = tango.merge;
-            mike = {};
-            golf = oscar.message;
-            golf = golf.content;
-            mike['content'] = golf;
-            golf = oscar.message;
-            golf = golf.attachments;
-            mike['attachments'] = golf;
-            golf = oscar.message;
-            golf = golf.embeds;
-            mike['embeds'] = golf;
-            golf = oscar.message;
-            golf = golf.flags;
-            mike['flags'] = golf;
-            golf = oscar.message;
-            golf = golf.components;
-            mike['components'] = golf;
-            mike['editedTimestamp'] = report;
-            golf = oscar.message;
-            golf = golf.timestamp;
-            mike['timestamp'] = golf;
-            golf = oscar.message;
-            golf = golf.codedLinks;
-            mike['codedLinks'] = golf;
-            golf = new Array(0);
-            mike['reactions'] = golf;
-            golf = new Array(0);
-            mike['messageSnapshots'] = golf;
-            golf = oscar.message;
-            golf = golf.stickers;
-            mike['stickers'] = golf;
-            oscar = oscar.message;
-            oscar = oscar.stickerItems;
-            mike['stickerItems'] = oscar;
-            mike['customRenderedContent'] = report;
-            entity = zulu.bind(tango)(mike);
+            zuuluu = tangon.merge;
+            michal = {};
+            golfie = oscard.message;
+            golfie = golfie.content;
+            michal['content'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.attachments;
+            michal['attachments'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.embeds;
+            michal['embeds'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.flags;
+            michal['flags'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.components;
+            michal['components'] = golfie;
+            michal['editedTimestamp'] = report;
+            golfie = oscard.message;
+            golfie = golfie.timestamp;
+            michal['timestamp'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.codedLinks;
+            michal['codedLinks'] = golfie;
+            golfie = new Array(0);
+            michal['reactions'] = golfie;
+            golfie = new Array(0);
+            michal['messageSnapshots'] = golfie;
+            golfie = oscard.message;
+            golfie = golfie.stickers;
+            michal['stickers'] = golfie;
+            oscard = oscard.message;
+            oscard = oscard.stickerItems;
+            michal['stickerItems'] = oscard;
+            michal['customRenderedContent'] = report;
+            entity = zuuluu.bind(tangon)(michal);
  248:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

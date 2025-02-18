@@ -1,157 +1,157 @@
 // app/modules/search_v2/native/components/tabs/SearchTabsLayoutManager.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.getIsAutocompleteVisible;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.SearchTabs;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot7 = tango;
-    mike = function() {
-        tango = _closure1_slot4;
-        zulu = function(argFoo) { // Original name: SearchTabsLayoutManager
-            zulu = this;
-            var _closure3_slot0 = zulu;
-            oscar = _closure1_slot3;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.getIsAutocompleteVisible;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SearchTabs;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot7 = tangon;
+    michal = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function(argFoo) { // Original name: SearchTabsLayoutManager
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
+            oscard = _closure1_slot3;
             report = _closure2_slot0;
             entity = undefined;
-            report = oscar.bind(entity)(zulu, report);
+            report = oscard.bind(entity)(zuuluu, report);
             report = new Array(0);
-            zulu['searchTabs'] = report;
+            zuuluu['searchTabs'] = report;
             report = null;
-            zulu['displayedSearchTabCounts'] = report;
+            zuuluu['displayedSearchTabCounts'] = report;
             report = false;
-            zulu['isInitialSearchTabs'] = report;
-            tango = function(argFoo) {
+            zuuluu['isInitialSearchTabs'] = report;
+            tangon = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     report = entity.isInitialSearchQuery;
-                    tango = entity.isPendingSearchResults;
-                    zulu = entity.searchTabCounts;
-                    options = _closure1_slot5;
-                    oscar = _closure3_slot0;
-                    oscar = oscar.searchContext;
-                    golf = undefined;
-                    oscar = options.bind(golf)(oscar);
-                    if(oscar) { _fun00002_ip = 359; continue _fun00001 }
+                    tangon = entity.isPendingSearchResults;
+                    zuuluu = entity.searchTabCounts;
+                    option = _closure1_slot5;
+                    oscard = _closure3_slot0;
+                    oscard = oscard.searchContext;
+                    golfie = undefined;
+                    oscard = option.bind(golfie)(oscard);
+                    if(oscard) { _fun00002_ip = 359; continue _fun00001 }
  54:
                     if(report) { _fun00002_ip = 201; continue _fun00001 }
  60:
-                    if(tango) { _fun00002_ip = 142; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 142; continue _fun00001 }
  63:
-                    tango = _closure1_slot6;
-                    tango = tango.MESSAGES;
-                    report = zulu[tango];
-                    tango = null;
-                    if(!(tango != report)) { _fun00002_ip = 138; continue _fun00001 }
+                    tangon = _closure1_slot6;
+                    tangon = tangon.MESSAGES;
+                    report = zuuluu[tangon];
+                    tangon = null;
+                    if(!(tangon != report)) { _fun00002_ip = 138; continue _fun00001 }
  83:
                     report = _closure1_slot0;
-                    oscar = _closure1_slot2;
-                    tango = 6;
-                    tango = oscar[tango];
-                    options = report.bind(golf)(tango);
-                    report = options.getSearchResultTabs;
-                    oscar = _closure3_slot0;
-                    tango = oscar.searchContext;
-                    tango = report.bind(options)(tango, zulu);
+                    oscard = _closure1_slot2;
+                    tangon = 6;
+                    tangon = oscard[tangon];
+                    option = report.bind(golfie)(tangon);
+                    report = option.getSearchResultTabs;
+                    oscard = _closure3_slot0;
+                    tangon = oscard.searchContext;
+                    tangon = report.bind(option)(tangon, zuuluu);
                     report = false;
-                    oscar['isInitialSearchTabs'] = report;
-                    report = tango;
+                    oscard['isInitialSearchTabs'] = report;
+                    report = tangon;
                     _fun00002_ip = 252; continue _fun00001;
  138:
-                    tango = false;
-                    return tango;
+                    tangon = false;
+                    return tangon;
  142:
-                    oscar = _closure1_slot0;
-                    options = _closure1_slot2;
-                    tango = 6;
-                    tango = options[tango];
-                    offset = oscar.bind(golf)(tango);
+                    oscard = _closure1_slot0;
+                    option = _closure1_slot2;
+                    tangon = 6;
+                    tangon = option[tangon];
+                    offset = oscard.bind(golfie)(tangon);
                     verify = offset.getSearchLoadingTabs;
-                    tango = _closure3_slot0;
-                    options = tango.searchContext;
-                    oscar = tango.searchTabs;
-                    tango = tango.isInitialSearchTabs;
-                    report = verify.bind(offset)(options, oscar, tango);
-                    zulu = null;
+                    tangon = _closure3_slot0;
+                    option = tangon.searchContext;
+                    oscard = tangon.searchTabs;
+                    tangon = tangon.isInitialSearchTabs;
+                    report = verify.bind(offset)(option, oscard, tangon);
+                    zuuluu = null;
                     _fun00002_ip = 252; continue _fun00001;
  201:
-                    oscar = _closure1_slot0;
-                    options = _closure1_slot2;
-                    tango = 6;
-                    tango = options[tango];
-                    verify = oscar.bind(golf)(tango);
-                    oscar = verify.getSearchInitialTabs;
-                    options = _closure3_slot0;
-                    tango = options.searchContext;
-                    report = oscar.bind(verify)(tango);
-                    tango = true;
-                    options['isInitialSearchTabs'] = tango;
-                    zulu = null;
+                    oscard = _closure1_slot0;
+                    option = _closure1_slot2;
+                    tangon = 6;
+                    tangon = option[tangon];
+                    verify = oscard.bind(golfie)(tangon);
+                    oscard = verify.getSearchInitialTabs;
+                    option = _closure3_slot0;
+                    tangon = option.searchContext;
+                    report = oscard.bind(verify)(tangon);
+                    tangon = true;
+                    option['isInitialSearchTabs'] = tangon;
+                    zuuluu = null;
  252:
-                    tango = _closure1_slot0;
-                    options = _closure1_slot2;
+                    tangon = _closure1_slot0;
+                    option = _closure1_slot2;
                     entity = 6;
-                    oscar = options[entity];
-                    verify = tango.bind(golf)(oscar);
-                    oscar = verify.getSearchTabsKey;
-                    oscar = oscar.bind(verify)(report);
-                    entity = options[entity];
-                    golf = tango.bind(golf)(entity);
-                    tango = golf.getSearchTabsKey;
+                    oscard = option[entity];
+                    verify = tangon.bind(golfie)(oscard);
+                    oscard = verify.getSearchTabsKey;
+                    oscard = oscard.bind(verify)(report);
+                    entity = option[entity];
+                    golfie = tangon.bind(golfie)(entity);
+                    tangon = golfie.getSearchTabsKey;
                     entity = _closure3_slot0;
                     entity = entity.searchTabs;
-                    tango = tango.bind(golf)(entity);
+                    tangon = tangon.bind(golfie)(entity);
                     entity = false;
-                    if(!(oscar !== tango)) { _fun00002_ip = 331; continue _fun00001 }
+                    if(!(oscard !== tangon)) { _fun00002_ip = 331; continue _fun00001 }
  319:
-                    tango = _closure3_slot0;
-                    tango['searchTabs'] = report;
+                    tangon = _closure3_slot0;
+                    tangon['searchTabs'] = report;
                     entity = true;
  331:
-                    tango = _closure3_slot0;
-                    tango = tango.displayedSearchTabCounts;
-                    if(!(zulu !== tango)) { _fun00002_ip = 357; continue _fun00001 }
+                    tangon = _closure3_slot0;
+                    tangon = tangon.displayedSearchTabCounts;
+                    if(!(zuuluu !== tangon)) { _fun00002_ip = 357; continue _fun00001 }
  345:
-                    mike = _closure3_slot0;
-                    mike['displayedSearchTabCounts'] = zulu;
+                    michal = _closure3_slot0;
+                    michal['displayedSearchTabCounts'] = zuuluu;
                     entity = true;
  357:
                     return entity;
@@ -160,96 +160,96 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 }
             };
-            zulu['computeState'] = tango;
-            tango = argFoo;
-            zulu['searchContext'] = tango;
-            tango = _closure1_slot0;
+            zuuluu['computeState'] = tangon;
+            tangon = argFoo;
+            zuuluu['searchContext'] = tangon;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            mike = 6;
-            mike = report[mike];
-            report = tango.bind(entity)(mike);
-            tango = report.getSearchInitialTabs;
-            mike = zulu.searchContext;
-            mike = tango.bind(report)(mike);
-            zulu['searchTabs'] = mike;
+            michal = 6;
+            michal = report[michal];
+            report = tangon.bind(entity)(michal);
+            tangon = report.getSearchInitialTabs;
+            michal = zuuluu.searchContext;
+            michal = tangon.bind(report)(michal);
+            zuuluu['searchTabs'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
         report = 'getSegmentedControlItems';
         entity['key'] = report;
-        mike = function() { // Original name: value
-            zulu = this;
-            var _closure3_slot0 = zulu;
+        michal = function() { // Original name: value
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
             entity = new Array(0);
             var _closure3_slot1 = entity;
-            tango = zulu.searchTabs;
-            zulu = tango.forEach;
-            mike = function(argFoo) {
+            tangon = zuuluu.searchTabs;
+            zuuluu = tangon.forEach;
+            michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    oscar = argFoo;
-                    tango = {};
-                    golf = _closure1_slot0;
+                    oscard = argFoo;
+                    tangon = {};
+                    golfie = _closure1_slot0;
                     report = _closure1_slot2;
                     entity = 6;
-                    zulu = report[entity];
+                    zuuluu = report[entity];
                     entity = undefined;
-                    golf = golf.bind(entity)(zulu);
-                    zulu = golf.getTabTitle;
-                    zulu = zulu.bind(golf)(oscar);
-                    tango['label'] = zulu;
-                    tango['id'] = oscar;
-                    options = _closure1_slot7;
-                    zulu = _closure1_slot1;
-                    mike = 7;
-                    mike = report[mike];
-                    golf = zulu.bind(entity)(mike);
+                    golfie = golfie.bind(entity)(zuuluu);
+                    zuuluu = golfie.getTabTitle;
+                    zuuluu = zuuluu.bind(golfie)(oscard);
+                    tangon['label'] = zuuluu;
+                    tangon['id'] = oscard;
+                    option = _closure1_slot7;
+                    zuuluu = _closure1_slot1;
+                    michal = 7;
+                    michal = report[michal];
+                    golfie = zuuluu.bind(entity)(michal);
                     report = {};
-                    report['tab'] = oscar;
-                    zulu = _closure3_slot0;
-                    verify = zulu.searchContext;
+                    report['tab'] = oscard;
+                    zuuluu = _closure3_slot0;
+                    verify = zuuluu.searchContext;
                     report['searchContext'] = verify;
-                    report = options.bind(entity)(golf, report);
-                    tango['page'] = report;
-                    report = zulu.displayedSearchTabCounts;
-                    zulu = null;
-                    if(!(zulu != report)) { _fun00004_ip = 149; continue _fun00003 }
+                    report = option.bind(entity)(golfie, report);
+                    tangon['page'] = report;
+                    report = zuuluu.displayedSearchTabCounts;
+                    zuuluu = null;
+                    if(!(zuuluu != report)) { _fun00004_ip = 149; continue _fun00003 }
  117:
                     report = _closure3_slot0;
                     report = report.displayedSearchTabCounts;
-                    report = report[oscar];
-                    oscar = zulu != report;
-                    zulu = undefined;
-                    if(!oscar) { _fun00004_ip = 143; continue _fun00003 }
+                    report = report[oscard];
+                    oscard = zuuluu != report;
+                    zuuluu = undefined;
+                    if(!oscard) { _fun00004_ip = 143; continue _fun00003 }
  140:
-                    zulu = report;
+                    zuuluu = report;
  143:
-                    tango['count'] = zulu;
+                    tangon['count'] = zuuluu;
  149:
-                    zulu = _closure3_slot1;
-                    mike = zulu.push;
-                    mike = mike.bind(zulu)(tango);
+                    zuuluu = _closure3_slot1;
+                    michal = zuuluu.push;
+                    michal = michal.bind(zuuluu)(tangon);
                     return entity;
                 }
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(1);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/search_v2/native/components/tabs/SearchTabsLayoutManager.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/components/tabs/SearchTabsLayoutManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

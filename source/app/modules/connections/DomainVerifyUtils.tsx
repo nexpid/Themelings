@@ -1,45 +1,45 @@
 // app/modules/connections/DomainVerifyUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/connections/DomainVerifyUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = 'example.com';
-    zulu['EXAMPLE_DOMAIN'] = tango;
-    tango = function(argFoo) {
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/connections/DomainVerifyUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = 'example.com';
+    zuuluu['EXAMPLE_DOMAIN'] = tangon;
+    tangon = function(argFoo) {
         entity = global;
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = '_discord.';
+        zuuluu = entity.concat;
+        michal = '_discord.';
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getDnsName'] = tango;
-    mike = function(argFoo) {
+    zuuluu['getDnsName'] = tangon;
+    michal = function(argFoo) {
         entity = global;
         entity = entity.HermesInternal;
-        tango = entity.concat;
-        zulu = 'https://';
-        mike = argFoo;
+        tangon = entity.concat;
+        zuuluu = 'https://';
+        michal = argFoo;
         entity = '/.well-known/discord';
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['getHttpName'] = mike;
+    zuuluu['getHttpName'] = michal;
     return entity;
 })();

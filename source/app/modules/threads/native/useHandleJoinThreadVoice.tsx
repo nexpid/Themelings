@@ -1,96 +1,96 @@
 // app/modules/threads/native/useHandleJoinThreadVoice.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/threads/native/useHandleJoinThreadVoice.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useHandleJoinThreadVoice
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot3;
-        mike = undefined;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/threads/native/useHandleJoinThreadVoice.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useHandleJoinThreadVoice
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 356; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 356; continue _fun00001 }
  10:
-                    zulu = _closure2_slot0;
-                    mike = zulu.getGuildId;
-                    report = mike.bind(zulu)();
-                    mike = null;
-                    if(!(mike != report)) { _fun00002_ip = 75; continue _fun00001 }
+                    zuuluu = _closure2_slot0;
+                    michal = zuuluu.getGuildId;
+                    report = michal.bind(zuuluu)();
+                    michal = null;
+                    if(!(michal != report)) { _fun00002_ip = 75; continue _fun00001 }
  33:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot2;
-                    zulu = 2;
-                    zulu = tango[zulu];
-                    tango = undefined;
-                    oscar = oscar.bind(tango)(zulu);
-                    zulu = oscar.shouldShowMembershipVerificationGate;
-                    zulu = zulu.bind(oscar)(report);
-                    if(zulu) { _fun00002_ip = 291; continue _fun00001 }
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 2;
+                    zuuluu = tangon[zuuluu];
+                    tangon = undefined;
+                    oscard = oscard.bind(tangon)(zuuluu);
+                    zuuluu = oscard.shouldShowMembershipVerificationGate;
+                    zuuluu = zuuluu.bind(oscard)(report);
+                    if(zuuluu) { _fun00002_ip = 291; continue _fun00001 }
  75:
                     verify = _closure1_slot1;
-                    zulu = _closure1_slot2;
+                    zuuluu = _closure1_slot2;
                     yankee = 5;
-                    zulu = zulu[yankee];
-                    golf = undefined;
-                    offset = verify.bind(golf)(zulu);
+                    zuuluu = zuuluu[yankee];
+                    golfie = undefined;
+                    offset = verify.bind(golfie)(zuuluu);
                     verify = offset.unarchiveThreadIfNecessary;
-                    zulu = _closure2_slot0;
-                    zulu = zulu.id;
-                    zulu = verify.bind(offset)(zulu);
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.id;
+                    zuuluu = verify.bind(offset)(zuuluu);
                     SaveGenerator(address=124);
  122:
-                    return zulu;
+                    return zuuluu;
  124:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
                     if(verify) { _fun00002_ip = 288; continue _fun00001 }
  133:
-                    romeo = _closure1_slot4;
-                    offset = romeo.hasJoined;
+                    romeon = _closure1_slot4;
+                    offset = romeon.hasJoined;
                     verify = _closure2_slot0;
                     verify = verify.id;
-                    verify = offset.bind(romeo)(verify);
+                    verify = offset.bind(romeon)(verify);
                     if(verify) { _fun00002_ip = 212; continue _fun00001 }
  160:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
                     verify = verify[yankee];
-                    romeo = offset.bind(golf)(verify);
-                    yankee = romeo.joinThread;
+                    romeon = offset.bind(golfie)(verify);
+                    yankee = romeon.joinThread;
                     offset = _closure2_slot0;
                     verify = 'Join Voice';
-                    verify = yankee.bind(romeo)(offset, verify);
+                    verify = yankee.bind(romeon)(offset, verify);
                     SaveGenerator(address=203);
  201:
                     return verify;
@@ -101,61 +101,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  212:
                     offset = _closure1_slot0;
-                    oscar = _closure1_slot2;
+                    oscard = _closure1_slot2;
                     verify = 4;
-                    verify = oscar[verify];
-                    offset = offset.bind(golf)(verify);
+                    verify = oscard[verify];
+                    offset = offset.bind(golfie)(verify);
                     verify = 6;
-                    verify = oscar[verify];
-                    oscar = oscar.paths;
-                    oscar = offset.bind(golf)(verify, oscar);
+                    verify = oscard[verify];
+                    oscard = oscard.paths;
+                    oscard = offset.bind(golfie)(verify, oscard);
                     SaveGenerator(address=254);
  252:
-                    return oscar;
+                    return oscard;
  254:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
                     if(verify) { _fun00002_ip = 285; continue _fun00001 }
  260:
-                    offset = oscar.openGuildVoiceModal;
+                    offset = oscard.openGuildVoiceModal;
                     verify = _closure2_slot0;
-                    options = 'Thread Header';
-                    options = offset.bind(golf)(verify, options);
-                    return golf;
+                    option = 'Thread Header';
+                    option = offset.bind(golfie)(verify, option);
+                    return golfie;
  285:
-                    return oscar;
+                    return oscard;
  288:
-                    return zulu;
+                    return zuuluu;
  291:
-                    oscar = _closure1_slot0;
-                    mike = _closure1_slot2;
-                    zulu = 4;
-                    zulu = mike[zulu];
-                    oscar = oscar.bind(tango)(zulu);
-                    zulu = 3;
-                    zulu = mike[zulu];
-                    mike = mike.paths;
-                    mike = oscar.bind(tango)(zulu, mike);
+                    oscard = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    zuuluu = 4;
+                    zuuluu = michal[zuuluu];
+                    oscard = oscard.bind(tangon)(zuuluu);
+                    zuuluu = 3;
+                    zuuluu = michal[zuuluu];
+                    michal = michal.paths;
+                    michal = oscard.bind(tangon)(zuuluu, michal);
                     SaveGenerator(address=333);
  331:
-                    return mike;
+                    return michal;
  333:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 353; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 353; continue _fun00001 }
  339:
-                    zulu = mike.openMemberVerificationModal;
-                    zulu = zulu.bind(tango)(report);
-                    return zulu;
+                    zuuluu = michal.openMemberVerificationModal;
+                    zuuluu = zuuluu.bind(tangon)(report);
+                    return zuuluu;
  353:
-                    return mike;
+                    return michal;
  356:
                     return entity;
                 }
             };
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

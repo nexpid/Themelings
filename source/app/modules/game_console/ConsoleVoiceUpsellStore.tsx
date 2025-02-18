@@ -1,88 +1,88 @@
 // app/modules/game_console/ConsoleVoiceUpsellStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
-    tango = true;
-    report['value'] = tango;
-    tango = '__esModule';
-    tango = options.bind(verify)(zulu, tango, report);
+    tangon = true;
+    report['value'] = tangon;
+    tangon = '__esModule';
+    tangon = option.bind(verify)(zuuluu, tangon, report);
     report = entity.Object;
-    tango = report.freeze;
+    tangon = report.freeze;
     entity = {'voiceUpsellDismissed': false, 'showSparkles': false};
-    entity = tango.bind(report)(entity);
+    entity = tangon.bind(report)(entity);
     var _closure1_slot2 = entity;
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = _closure1_slot2;
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot3 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/game_console/ConsoleVoiceUpsellStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useConsoleVoiceUpsellStore'] = tango;
-    tango = function(argFoo) {
+    report = oscard.bind(golfie)(report);
+    zuuluu['useConsoleVoiceUpsellStore'] = tangon;
+    tangon = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['showSparkles'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['showSparkles'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setShowConsoleVoiceSparkles'] = tango;
-    mike = function(argFoo) {
+    zuuluu['setShowConsoleVoiceSparkles'] = tangon;
+    michal = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['voiceUpsellDismissed'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['voiceUpsellDismissed'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setVoiceUpsellDismissed'] = mike;
+    zuuluu['setVoiceUpsellDismissed'] = michal;
     return entity;
 })();

@@ -1,84 +1,84 @@
 // app/modules/potions/hooks/useDisableConfettiModeOnFocusChange.native.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/potions/hooks/useDisableConfettiModeOnFocusChange.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: _default
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/potions/hooks/useDisableConfettiModeOnFocusChange.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: _default
         report = _closure1_slot0;
-        tango = _closure1_slot2;
+        tangon = _closure1_slot2;
         entity = 2;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        golf = report.bind(entity)(tango);
-        oscar = golf.useStateFromStores;
-        tango = _closure1_slot4;
+        golfie = report.bind(entity)(tangon);
+        oscard = golfie.useStateFromStores;
+        tangon = _closure1_slot4;
         report = new Array(1);
-        report[0] = tango;
-        tango = function() {
-            mike = _closure1_slot4;
-            entity = mike.getState;
-            mike = entity.bind(mike)();
+        report[0] = tangon;
+        tangon = function() {
+            michal = _closure1_slot4;
+            entity = michal.getState;
+            michal = entity.bind(michal)();
             entity = 'active';
-            entity = entity === mike;
+            entity = entity === michal;
             return entity;
         };
-        oscar = oscar.bind(golf)(report, tango);
-        var _closure2_slot0 = oscar;
+        oscard = oscard.bind(golfie)(report, tangon);
+        var _closure2_slot0 = oscard;
         report = _closure1_slot3;
-        tango = report.useEffect;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function() {
+        tangon = report.useEffect;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 if(entity) { _fun00002_ip = 59; continue _fun00001 }
  10:
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 3;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.dispatch;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.dispatch;
                 entity = {'type': 'POTIONS_SET_CONFETTI_MODE', 'enabled': false};
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
  59:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

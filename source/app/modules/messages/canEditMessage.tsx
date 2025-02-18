@@ -1,116 +1,116 @@
 // app/modules/messages/canEditMessage.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.MessageFlags;
-    var _closure1_slot3 = golf;
-    tango = tango.MessageStates;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/canEditMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: canEditMessage
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.MessageFlags;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.MessageStates;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/canEditMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: canEditMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             yankee = argFoo;
-            zulu = argBar;
-            options = null;
-            entity = options != zulu;
+            zuuluu = argBar;
+            option = null;
+            entity = option != zuuluu;
             if(!entity) { _fun00002_ip = 248; continue _fun00001 }
  18:
-            mike = yankee.author;
-            mike = mike.id;
-            mike = mike === zulu;
-            if(!mike) { _fun00002_ip = 245; continue _fun00001 }
+            michal = yankee.author;
+            michal = michal.id;
+            michal = michal === zuuluu;
+            if(!michal) { _fun00002_ip = 245; continue _fun00001 }
  39:
-            tango = yankee.state;
-            zulu = _closure1_slot4;
-            zulu = zulu.SENT;
-            zulu = tango === zulu;
-            if(!zulu) { _fun00002_ip = 242; continue _fun00001 }
+            tangon = yankee.state;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.SENT;
+            zuuluu = tangon === zuuluu;
+            if(!zuuluu) { _fun00002_ip = 242; continue _fun00001 }
  67:
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            tango = 1;
-            tango = oscar[tango];
+            oscard = _closure1_slot2;
+            tangon = 1;
+            tangon = oscard[tangon];
             offset = undefined;
-            tango = report.bind(offset)(tango);
-            tango = tango.bind(offset)(yankee);
-            tango = !tango;
-            if(!tango) { _fun00002_ip = 239; continue _fun00001 }
+            tangon = report.bind(offset)(tangon);
+            tangon = tangon.bind(offset)(yankee);
+            tangon = !tangon;
+            if(!tangon) { _fun00002_ip = 239; continue _fun00001 }
  103:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
             report = 2;
-            report = golf[report];
-            oscar = oscar.bind(offset)(report);
-            report = oscar.canEditMessageWithStickers;
-            report = report.bind(oscar)(yankee);
-            oscar = !report;
-            report = !oscar;
-            if(oscar) { _fun00002_ip = 236; continue _fun00001 }
+            report = golfie[report];
+            oscard = oscard.bind(offset)(report);
+            report = oscard.canEditMessageWithStickers;
+            report = report.bind(oscard)(yankee);
+            oscard = !report;
+            report = !oscard;
+            if(oscard) { _fun00002_ip = 236; continue _fun00001 }
  143:
-            golf = yankee.hasFlag;
-            oscar = _closure1_slot3;
-            oscar = oscar.IS_VOICE_MESSAGE;
-            oscar = golf.bind(yankee)(oscar);
-            oscar = !oscar;
-            if(!oscar) { _fun00002_ip = 233; continue _fun00001 }
+            golfie = yankee.hasFlag;
+            oscard = _closure1_slot3;
+            oscard = oscard.IS_VOICE_MESSAGE;
+            oscard = golfie.bind(yankee)(oscard);
+            oscard = !oscard;
+            if(!oscard) { _fun00002_ip = 233; continue _fun00001 }
  170:
-            golf = yankee.referralTrialOfferId;
-            golf = options == golf;
-            if(!golf) { _fun00002_ip = 230; continue _fun00001 }
+            golfie = yankee.referralTrialOfferId;
+            golfie = option == golfie;
+            if(!golfie) { _fun00002_ip = 230; continue _fun00001 }
  183:
-            options = yankee.isPoll;
-            options = options.bind(yankee)();
-            options = !options;
-            if(!options) { _fun00002_ip = 227; continue _fun00001 }
+            option = yankee.isPoll;
+            option = option.bind(yankee)();
+            option = !option;
+            if(!option) { _fun00002_ip = 227; continue _fun00001 }
  199:
-            romeo = _closure1_slot1;
-            foxtrot = _closure1_slot2;
+            romeon = _closure1_slot1;
+            foxtra = _closure1_slot2;
             verify = 3;
-            verify = foxtrot[verify];
-            verify = romeo.bind(offset)(verify);
+            verify = foxtra[verify];
+            verify = romeon.bind(offset)(verify);
             verify = verify.bind(offset)(yankee);
-            options = !verify;
+            option = !verify;
  227:
-            golf = options;
+            golfie = option;
  230:
-            oscar = golf;
+            oscard = golfie;
  233:
-            report = oscar;
+            report = oscard;
  236:
-            tango = report;
+            tangon = report;
  239:
-            zulu = tango;
+            zuuluu = tangon;
  242:
-            mike = zulu;
+            michal = zuuluu;
  245:
-            entity = mike;
+            entity = michal;
  248:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

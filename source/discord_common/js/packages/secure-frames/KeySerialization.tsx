@@ -1,38 +1,38 @@
 // discord_common/js/packages/secure-frames/KeySerialization.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/secure-frames/KeySerialization.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: serializeKey
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/secure-frames/KeySerialization.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: serializeKey
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.fromByteArray;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.fromByteArray;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['serializeKey'] = mike;
+    zuuluu['serializeKey'] = michal;
     return entity;
 })();

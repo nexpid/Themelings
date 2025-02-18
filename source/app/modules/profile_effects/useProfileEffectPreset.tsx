@@ -1,93 +1,93 @@
 // app/modules/profile_effects/useProfileEffectPreset.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/profile_effects/useProfileEffectPreset.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
-        golf = argFoo;
-        var _closure2_slot0 = golf;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/profile_effects/useProfileEffectPreset.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
+        golfie = argFoo;
+        var _closure2_slot0 = golfie;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 2;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        oscar = report.bind(entity)(tango);
-        report = oscar.useStateFromStores;
+        oscard = report.bind(entity)(tangon);
+        report = oscard.useStateFromStores;
         entity = _closure1_slot3;
-        tango = new Array(1);
-        tango[0] = entity;
+        tangon = new Array(1);
+        tangon[0] = entity;
         entity = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.getProfileEffectById;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getProfileEffectById;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = report.bind(oscar)(tango, entity);
-        tango = null;
-        oscar = tango != entity;
-        var _closure2_slot1 = oscar;
+        entity = report.bind(oscard)(tangon, entity);
+        tangon = null;
+        oscard = tangon != entity;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot2;
-        tango = report.useEffect;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        zulu[1] = oscar;
-        mike = function() {
+        tangon = report.useEffect;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                entity = entity == zulu;
+                entity = entity == zuuluu;
                 if(entity) { _fun00002_ip = 20; continue _fun00001 }
  16:
                 entity = _closure2_slot1;
  20:
                 if(entity) { _fun00002_ip = 61; continue _fun00001 }
  23:
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 3;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.fetchUserProfileEffects;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.fetchUserProfileEffects;
                 entity = true;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
  61:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['useProfileEffectPreset'] = mike;
+    zuuluu['useProfileEffectPreset'] = michal;
     return entity;
 })();

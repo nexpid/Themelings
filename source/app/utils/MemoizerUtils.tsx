@@ -1,58 +1,58 @@
 // app/utils/MemoizerUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = function(argFoo) { // Original name: makeMemoizer
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = global;
-        mike = mike.Map;
-        zulu = mike.prototype;
-        zulu = Object.create(zulu, {constructor: {value: mike}});
-        tango = zulu;
-        mike = new tango[mike](zulu);
-        mike = mike instanceof Object ? mike : zulu;
-        var _closure2_slot1 = mike;
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = global;
+        michal = michal.Map;
+        zuuluu = michal.prototype;
+        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+        tangon = zuuluu;
+        michal = new tangon[michal](zuuluu);
+        michal = michal instanceof Object ? michal : zuuluu;
+        var _closure2_slot1 = michal;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
-                mike = _closure2_slot1;
-                entity = mike.get;
-                entity = entity.bind(mike)(report);
-                tango = undefined;
-                if(!(tango === entity)) { _fun00002_ip = 53; continue _fun00001 }
+                michal = _closure2_slot1;
+                entity = michal.get;
+                entity = entity.bind(michal)(report);
+                tangon = undefined;
+                if(!(tangon === entity)) { _fun00002_ip = 53; continue _fun00001 }
  26:
-                mike = _closure2_slot0;
-                mike = mike.bind(tango)(report);
-                tango = _closure2_slot1;
-                zulu = tango.set;
-                zulu = zulu.bind(tango)(report, mike);
-                entity = mike;
+                michal = _closure2_slot0;
+                michal = michal.bind(tangon)(report);
+                tangon = _closure2_slot1;
+                zuuluu = tangon.set;
+                zuuluu = zuuluu.bind(tangon)(report, michal);
+                entity = michal;
  53:
                 return entity;
             }
         };
         return entity;
     };
-    mike['makeMemoizer'] = entity;
-    tango = argPlugh;
+    michal['makeMemoizer'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/MemoizerUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/MemoizerUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

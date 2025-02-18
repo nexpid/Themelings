@@ -1,114 +1,114 @@
 // app/modules/forums/native/posts/hooks/useNativeForumPostContent.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageFlags;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageFlags;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {};
     offset = 'italic';
     verify['fontStyle'] = offset;
-    tango['italics'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forums/native/posts/hooks/useNativeForumPostContent.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useNativeForumPostContent
+    tangon['italics'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forums/native/posts/hooks/useNativeForumPostContent.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useNativeForumPostContent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.message;
-            tango = entity.messageContent;
+            tangon = entity.messageContent;
             report = entity.messageLoaded;
             entity = entity.isMessageDeleted;
-            mike = _closure1_slot4;
-            golf = undefined;
-            mike = mike.bind(golf)();
+            michal = _closure1_slot4;
+            golfie = undefined;
+            michal = michal.bind(golfie)();
             if(entity) { _fun00002_ip = 688; continue _fun00001 }
  45:
             entity = null;
             if(!(entity != verify)) { _fun00002_ip = 82; continue _fun00001 }
  51:
-            options = _closure1_slot1;
+            option = _closure1_slot1;
             offset = _closure1_slot2;
-            oscar = 3;
-            oscar = offset[oscar];
-            oscar = options.bind(golf)(oscar);
-            oscar = oscar.bind(golf)(verify);
-            if(oscar) { _fun00002_ip = 660; continue _fun00001 }
+            oscard = 3;
+            oscard = offset[oscard];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.bind(golfie)(verify);
+            if(oscard) { _fun00002_ip = 660; continue _fun00001 }
  82:
             if(!(entity != verify)) { _fun00002_ip = 98; continue _fun00001 }
  86:
-            oscar = verify.blocked;
-            if(oscar) { _fun00002_ip = 575; continue _fun00001 }
+            oscard = verify.blocked;
+            if(oscard) { _fun00002_ip = 575; continue _fun00001 }
  98:
-            options = entity == verify;
-            oscar = undefined;
-            if(options) { _fun00002_ip = 112; continue _fun00001 }
+            option = entity == verify;
+            oscard = undefined;
+            if(option) { _fun00002_ip = 112; continue _fun00001 }
  107:
-            oscar = verify.content;
+            oscard = verify.content;
  112:
-            options = entity == oscar;
-            if(options) { _fun00002_ip = 141; continue _fun00001 }
+            option = entity == oscard;
+            if(option) { _fun00002_ip = 141; continue _fun00001 }
  119:
-            oscar = entity == verify;
+            oscard = entity == verify;
             offset = undefined;
-            if(oscar) { _fun00002_ip = 133; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 133; continue _fun00001 }
  128:
             offset = verify.content;
  133:
-            oscar = '';
-            options = oscar === offset;
+            oscard = '';
+            option = oscard === offset;
  141:
-            if(options) { _fun00002_ip = 148; continue _fun00001 }
+            if(option) { _fun00002_ip = 148; continue _fun00001 }
  144:
-            options = entity == tango;
+            option = entity == tangon;
  148:
-            if(options) { _fun00002_ip = 159; continue _fun00001 }
+            if(option) { _fun00002_ip = 159; continue _fun00001 }
  151:
-            oscar = '';
-            options = oscar === tango;
+            oscard = '';
+            option = oscard === tangon;
  159:
-            if(options) { _fun00002_ip = 197; continue _fun00001 }
+            if(option) { _fun00002_ip = 197; continue _fun00001 }
  162:
-            oscar = global;
-            offset = oscar.Array;
-            oscar = offset.isArray;
-            oscar = oscar.bind(offset)(tango);
-            if(!oscar) { _fun00002_ip = 194; continue _fun00001 }
+            oscard = global;
+            offset = oscard.Array;
+            oscard = offset.isArray;
+            oscard = oscard.bind(offset)(tangon);
+            if(!oscard) { _fun00002_ip = 194; continue _fun00001 }
  183:
-            yankee = tango.length;
+            yankee = tangon.length;
             offset = 0;
-            oscar = offset === yankee;
+            oscard = offset === yankee;
  194:
-            options = oscar;
+            option = oscard;
  197:
-            oscar = null;
+            oscard = null;
             if(!report) { _fun00002_ip = 548; continue _fun00001 }
  205:
             if(!(entity != verify)) { _fun00002_ip = 490; continue _fun00001 }
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = _closure1_slot2;
             report = 4;
             report = yankee[report];
-            offset = offset.bind(golf)(report);
+            offset = offset.bind(golfie)(report);
             report = offset.getMessageStickers;
             report = report.bind(offset)(verify);
             report = report.length;
@@ -143,14 +143,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             if(!report) { _fun00002_ip = 374; continue _fun00001 }
  319:
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
+            romeon = _closure1_slot2;
             report = 2;
-            verify = romeo[report];
-            verify = yankee.bind(golf)(verify);
+            verify = romeon[report];
+            verify = yankee.bind(golfie)(verify);
             offset = verify.intl;
             verify = offset.string;
-            report = romeo[report];
-            report = yankee.bind(golf)(report);
+            report = romeon[report];
+            report = yankee.bind(golfie)(report);
             report = report.t;
             report = report.JAKsMz;
             entity = verify.bind(offset)(report);
@@ -158,14 +158,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _fun00002_ip = 431; continue _fun00001;
  376:
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
+            romeon = _closure1_slot2;
             report = 2;
-            verify = romeo[report];
-            verify = yankee.bind(golf)(verify);
+            verify = romeon[report];
+            verify = yankee.bind(golfie)(verify);
             offset = verify.intl;
             verify = offset.string;
-            report = romeo[report];
-            report = yankee.bind(golf)(report);
+            report = romeon[report];
+            report = yankee.bind(golfie)(report);
             report = report.t;
             report = report.6bhHra;
             entity = verify.bind(offset)(report);
@@ -173,14 +173,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _fun00002_ip = 488; continue _fun00001;
  433:
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
+            romeon = _closure1_slot2;
             report = 2;
-            verify = romeo[report];
-            verify = yankee.bind(golf)(verify);
+            verify = romeon[report];
+            verify = yankee.bind(golfie)(verify);
             offset = verify.intl;
             verify = offset.string;
-            report = romeo[report];
-            report = yankee.bind(golf)(report);
+            report = romeon[report];
+            report = yankee.bind(golfie)(report);
             report = report.t;
             report = report.7K5LmZ;
             entity = verify.bind(offset)(report);
@@ -188,25 +188,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _fun00002_ip = 545; continue _fun00001;
  490:
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
+            romeon = _closure1_slot2;
             report = 2;
-            verify = romeo[report];
-            verify = yankee.bind(golf)(verify);
+            verify = romeon[report];
+            verify = yankee.bind(golfie)(verify);
             offset = verify.intl;
             verify = offset.string;
-            report = romeo[report];
-            report = yankee.bind(golf)(report);
+            report = romeon[report];
+            report = yankee.bind(golfie)(report);
             report = report.t;
             report = report.mE3KJC;
             entity = verify.bind(offset)(report);
  545:
-            oscar = entity;
+            oscard = entity;
  548:
             entity = {'content': null, 'style': null, 'variant': 'text-sm/medium'};
-            report = tango;
-            if(!options) { _fun00002_ip = 567; continue _fun00001 }
+            report = tangon;
+            if(!option) { _fun00002_ip = 567; continue _fun00001 }
  564:
-            report = oscar;
+            report = oscard;
  567:
             entity['content'] = report;
             return entity;
@@ -215,51 +215,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             report = 2;
-            oscar = offset[report];
-            oscar = verify.bind(golf)(oscar);
-            options = oscar.intl;
-            oscar = options.string;
+            oscard = offset[report];
+            oscard = verify.bind(golfie)(oscard);
+            option = oscard.intl;
+            oscard = option.string;
             report = offset[report];
-            report = verify.bind(golf)(report);
+            report = verify.bind(golfie)(report);
             report = report.t;
             report = report.Lkp2fH;
-            report = oscar.bind(options)(report);
+            report = oscard.bind(option)(report);
             entity['content'] = report;
-            report = mike.italics;
+            report = michal.italics;
             entity['style'] = report;
             report = 'text-sm/normal';
             entity['variant'] = report;
             return entity;
  660:
             entity = {};
-            entity['content'] = tango;
-            tango = mike.italics;
-            entity['style'] = tango;
-            tango = 'text-sm/normal';
-            entity['variant'] = tango;
+            entity['content'] = tangon;
+            tangon = michal.italics;
+            entity['style'] = tangon;
+            tangon = 'text-sm/normal';
+            entity['variant'] = tangon;
             return entity;
  688:
             entity = {};
-            oscar = _closure1_slot0;
-            options = _closure1_slot2;
-            zulu = 2;
-            tango = options[zulu];
-            tango = oscar.bind(golf)(tango);
-            report = tango.intl;
-            tango = report.string;
-            zulu = options[zulu];
-            zulu = oscar.bind(golf)(zulu);
-            zulu = zulu.t;
-            zulu = zulu.U8Rr2t;
-            zulu = tango.bind(report)(zulu);
-            entity['content'] = zulu;
-            mike = mike.italics;
-            entity['style'] = mike;
-            mike = 'text-sm/normal';
-            entity['variant'] = mike;
+            oscard = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 2;
+            tangon = option[zuuluu];
+            tangon = oscard.bind(golfie)(tangon);
+            report = tangon.intl;
+            tangon = report.string;
+            zuuluu = option[zuuluu];
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.U8Rr2t;
+            zuuluu = tangon.bind(report)(zuuluu);
+            entity['content'] = zuuluu;
+            michal = michal.italics;
+            entity['style'] = michal;
+            michal = 'text-sm/normal';
+            entity['variant'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

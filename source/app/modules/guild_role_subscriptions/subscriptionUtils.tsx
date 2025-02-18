@@ -1,86 +1,86 @@
 // app/modules/guild_role_subscriptions/subscriptionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/subscriptionUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getRoleSubscriptionPlanId
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/subscriptionUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getRoleSubscriptionPlanId
         entity = argFoo;
-        mike = entity.items;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        michal = entity.items;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 0;
-        zulu = zulu[entity];
-        oscar = undefined;
-        report = tango.bind(oscar)(zulu);
-        tango = mike.length;
-        zulu = 1;
-        tango = zulu === tango;
-        zulu = 'more than 1 subscription item for role subscription';
-        zulu = report.bind(oscar)(tango, zulu);
-        entity = mike[entity];
+        zuuluu = zuuluu[entity];
+        oscard = undefined;
+        report = tangon.bind(oscard)(zuuluu);
+        tangon = michal.length;
+        zuuluu = 1;
+        tangon = zuuluu === tangon;
+        zuuluu = 'more than 1 subscription item for role subscription';
+        zuuluu = report.bind(oscard)(tangon, zuuluu);
+        entity = michal[entity];
         entity = entity.planId;
         return entity;
     };
-    zulu['getRoleSubscriptionPlanId'] = tango;
-    mike = function(argFoo) { // Original name: getRoleSubscriptionMutationPlanId
+    zuuluu['getRoleSubscriptionPlanId'] = tangon;
+    michal = function(argFoo) { // Original name: getRoleSubscriptionMutationPlanId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            tango = null;
-            report = tango == mike;
+            michal = argFoo;
+            tangon = null;
+            report = tangon == michal;
             entity = undefined;
-            zulu = undefined;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 37; continue _fun00001 }
  16:
-            mike = mike.renewalMutations;
-            report = tango == mike;
-            zulu = undefined;
+            michal = michal.renewalMutations;
+            report = tangon == michal;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 37; continue _fun00001 }
  31:
-            zulu = mike.items;
+            zuuluu = michal.items;
  37:
-            if(!(tango == zulu)) { _fun00002_ip = 43; continue _fun00001 }
+            if(!(tangon == zuuluu)) { _fun00002_ip = 43; continue _fun00001 }
  41:
             return entity;
  43:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 0;
-            report = report[mike];
-            golf = oscar.bind(entity)(report);
-            oscar = zulu.length;
+            michal = 0;
+            report = report[michal];
+            golfie = oscard.bind(entity)(report);
+            oscard = zuuluu.length;
             report = 1;
-            oscar = oscar <= report;
+            oscard = oscard <= report;
             report = 'more than 1 renewal mutation for role subscription';
-            report = golf.bind(entity)(oscar, report);
-            tango = tango == zulu;
+            report = golfie.bind(entity)(oscard, report);
+            tangon = tangon == zuuluu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 108; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 108; continue _fun00001 }
  98:
-            mike = zulu[mike];
-            entity = mike.planId;
+            michal = zuuluu[michal];
+            entity = michal.planId;
  108:
             return entity;
         }
     };
-    zulu['getRoleSubscriptionMutationPlanId'] = mike;
+    zuuluu['getRoleSubscriptionMutationPlanId'] = michal;
     return entity;
 })();

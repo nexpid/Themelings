@@ -1,150 +1,150 @@
 // app/modules/verification/VerificationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    golf = mike.UserRequiredActions;
-    var _closure1_slot3 = golf;
-    mike = mike.VerificationTypes;
-    var _closure1_slot4 = mike;
-    offset = mike.CAPTCHA;
-    foxtrot = mike.EMAIL;
-    backup = mike.PHONE;
-    romeo = mike.REVERIFY_EMAIL;
-    yankee = mike.REVERIFY_PHONE;
-    mike = {};
-    verify = golf.REQUIRE_VERIFIED_EMAIL;
-    options = new Array(1);
-    options[0] = foxtrot;
-    mike[verify] = options;
-    verify = golf.REQUIRE_VERIFIED_PHONE;
-    options = new Array(1);
-    options[0] = backup;
-    mike[verify] = options;
-    verify = golf.REQUIRE_REVERIFIED_EMAIL;
-    options = new Array(1);
-    options[0] = romeo;
-    mike[verify] = options;
-    verify = golf.REQUIRE_REVERIFIED_PHONE;
-    options = new Array(1);
-    options[0] = yankee;
-    mike[verify] = options;
-    verify = golf.REQUIRE_VERIFIED_EMAIL_OR_VERIFIED_PHONE;
-    options = new Array(2);
-    options[0] = foxtrot;
-    options[1] = backup;
-    mike[verify] = options;
-    verify = golf.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
-    options = new Array(2);
-    options[0] = backup;
-    options[1] = romeo;
-    mike[verify] = options;
-    verify = golf.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
-    options = new Array(2);
-    options[0] = foxtrot;
-    options[1] = yankee;
-    mike[verify] = options;
-    verify = golf.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
-    options = new Array(2);
-    options[0] = romeo;
-    options[1] = yankee;
-    mike[verify] = options;
-    verify = golf.REQUIRE_CAPTCHA;
-    options = new Array(1);
-    options[0] = offset;
-    mike[verify] = options;
-    options = golf.AGREEMENTS;
-    golf = new Array(0);
-    mike[options] = golf;
-    var _closure1_slot5 = mike;
-    mike = {};
-    golf = function(argFoo, argBar) { // Original name: isPhoneReverification
+    michal = report.bind(entity)(michal);
+    golfie = michal.UserRequiredActions;
+    var _closure1_slot3 = golfie;
+    michal = michal.VerificationTypes;
+    var _closure1_slot4 = michal;
+    offset = michal.CAPTCHA;
+    foxtra = michal.EMAIL;
+    backup = michal.PHONE;
+    romeon = michal.REVERIFY_EMAIL;
+    yankee = michal.REVERIFY_PHONE;
+    michal = {};
+    verify = golfie.REQUIRE_VERIFIED_EMAIL;
+    option = new Array(1);
+    option[0] = foxtra;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_VERIFIED_PHONE;
+    option = new Array(1);
+    option[0] = backup;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_REVERIFIED_EMAIL;
+    option = new Array(1);
+    option[0] = romeon;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_REVERIFIED_PHONE;
+    option = new Array(1);
+    option[0] = yankee;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_VERIFIED_EMAIL_OR_VERIFIED_PHONE;
+    option = new Array(2);
+    option[0] = foxtra;
+    option[1] = backup;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
+    option = new Array(2);
+    option[0] = backup;
+    option[1] = romeon;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+    option = new Array(2);
+    option[0] = foxtra;
+    option[1] = yankee;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+    option = new Array(2);
+    option[0] = romeon;
+    option[1] = yankee;
+    michal[verify] = option;
+    verify = golfie.REQUIRE_CAPTCHA;
+    option = new Array(1);
+    option[0] = offset;
+    michal[verify] = option;
+    option = golfie.AGREEMENTS;
+    golfie = new Array(0);
+    michal[option] = golfie;
+    var _closure1_slot5 = michal;
+    michal = {};
+    golfie = function(argFoo, argBar) { // Original name: isPhoneReverification
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = argBar;
+            zuuluu = argFoo;
+            tangon = argBar;
             entity = undefined;
-            entity = entity !== zulu;
+            entity = entity !== zuuluu;
             if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  15:
-            mike = zulu.isPhoneVerified;
-            entity = mike.bind(zulu)();
+            michal = zuuluu.isPhoneVerified;
+            entity = michal.bind(zuuluu)();
  25:
             if(!entity) { _fun00002_ip = 82; continue _fun00001 }
  28:
-            mike = _closure1_slot3;
-            mike = mike.REQUIRE_REVERIFIED_PHONE;
-            mike = tango === mike;
-            if(mike) { _fun00002_ip = 62; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.REQUIRE_REVERIFIED_PHONE;
+            michal = tangon === michal;
+            if(michal) { _fun00002_ip = 62; continue _fun00001 }
  48:
             report = _closure1_slot3;
             report = report.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
-            mike = tango === report;
+            michal = tangon === report;
  62:
-            if(mike) { _fun00002_ip = 79; continue _fun00001 }
+            if(michal) { _fun00002_ip = 79; continue _fun00001 }
  65:
-            zulu = _closure1_slot3;
-            zulu = zulu.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
-            mike = tango === zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+            michal = tangon === zuuluu;
  79:
-            entity = mike;
+            entity = michal;
  82:
             return entity;
         }
     };
-    mike['isPhoneReverification'] = golf;
-    golf = function(argFoo) { // Original name: isEmailReverification
+    michal['isPhoneReverification'] = golfie;
+    golfie = function(argFoo) { // Original name: isEmailReverification
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = _closure1_slot3;
             entity = entity.REQUIRE_REVERIFIED_EMAIL;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(entity) { _fun00004_ip = 37; continue _fun00003 }
  23:
-            tango = _closure1_slot3;
-            tango = tango.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
-            entity = zulu === tango;
+            tangon = _closure1_slot3;
+            tangon = tangon.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+            entity = zuuluu === tangon;
  37:
             if(entity) { _fun00004_ip = 54; continue _fun00003 }
  40:
-            mike = _closure1_slot3;
-            mike = mike.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
-            entity = zulu === mike;
+            michal = _closure1_slot3;
+            michal = michal.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
+            entity = zuuluu === michal;
  54:
             return entity;
         }
     };
-    mike['isEmailReverification'] = golf;
-    golf = function(argFoo) { // Original name: getVerificationTypes
+    michal['isEmailReverification'] = golfie;
+    golfie = function(argFoo) { // Original name: getVerificationTypes
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity != mike)) { _fun00006_ip = 33; continue _fun00005 }
+            if(!(entity != michal)) { _fun00006_ip = 33; continue _fun00005 }
  9:
-            zulu = 'symbol';
-            entity = typeof mike;
-            if(!(zulu !== entity)) { _fun00006_ip = 33; continue _fun00005 }
+            zuuluu = 'symbol';
+            entity = typeof michal;
+            if(!(zuuluu !== entity)) { _fun00006_ip = 33; continue _fun00005 }
  20:
             entity = _closure1_slot5;
-            entity = entity[mike];
+            entity = entity[michal];
             _fun00006_ip = 37; continue _fun00005;
  33:
             entity = new Array(0);
@@ -152,124 +152,124 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    mike['getVerificationTypes'] = golf;
-    golf = function(argFoo) { // Original name: getButtonTitle
+    michal['getVerificationTypes'] = golfie;
+    golfie = function(argFoo) { // Original name: getButtonTitle
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot4;
-            mike = mike.EMAIL;
-            if(!(mike !== zulu)) { _fun00008_ip = 315; continue _fun00007 }
+            zuuluu = argFoo;
+            michal = _closure1_slot4;
+            michal = michal.EMAIL;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 315; continue _fun00007 }
  23:
-            mike = _closure1_slot4;
-            mike = mike.PHONE;
-            if(!(mike !== zulu)) { _fun00008_ip = 254; continue _fun00007 }
+            michal = _closure1_slot4;
+            michal = michal.PHONE;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 254; continue _fun00007 }
  40:
-            mike = _closure1_slot4;
-            mike = mike.REVERIFY_EMAIL;
-            if(!(mike !== zulu)) { _fun00008_ip = 193; continue _fun00007 }
+            michal = _closure1_slot4;
+            michal = michal.REVERIFY_EMAIL;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 193; continue _fun00007 }
  57:
-            mike = _closure1_slot4;
-            mike = mike.REVERIFY_PHONE;
-            if(!(mike !== zulu)) { _fun00008_ip = 132; continue _fun00007 }
+            michal = _closure1_slot4;
+            michal = michal.REVERIFY_PHONE;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 132; continue _fun00007 }
  71:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 1;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 1;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.oF6+W1;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.oF6+W1;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  132:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 1;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 1;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.of2129;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.of2129;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  193:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 1;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 1;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.nmdPFR;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.nmdPFR;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  254:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 1;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 1;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.mjJecn;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.mjJecn;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  315:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 1;
-            mike = oscar[entity];
-            tango = undefined;
-            mike = report.bind(tango)(mike);
-            zulu = mike.intl;
-            mike = zulu.string;
-            entity = oscar[entity];
-            entity = report.bind(tango)(entity);
+            michal = oscard[entity];
+            tangon = undefined;
+            michal = report.bind(tangon)(michal);
+            zuuluu = michal.intl;
+            michal = zuuluu.string;
+            entity = oscard[entity];
+            entity = report.bind(tangon)(entity);
             entity = entity.t;
             entity = entity.1MPz29;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    mike['getButtonTitle'] = golf;
-    tango = function(argFoo, argBar) { // Original name: areVerificationTypesEqual
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['getButtonTitle'] = golfie;
+    tangon = function(argFoo, argBar) { // Original name: areVerificationTypesEqual
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.isEqual;
-        mike = argFoo;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.isEqual;
+        michal = argFoo;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    mike['areVerificationTypesEqual'] = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/verification/VerificationUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['areVerificationTypesEqual'] = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/verification/VerificationUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

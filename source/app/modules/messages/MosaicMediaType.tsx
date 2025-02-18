@@ -1,223 +1,223 @@
 // app/modules/messages/MosaicMediaType.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageAttachmentFlags;
-    var _closure1_slot2 = tango;
-    tango = /\.(mp3|m4a|ogg|opus|wav|flac)$/i;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/MosaicMediaType.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageAttachmentFlags;
+    var _closure1_slot2 = tangon;
+    tangon = /\.(mp3|m4a|ogg|opus|wav|flac)$/i;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/MosaicMediaType.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = 'IMAGE';
-            entity = entity === zulu;
+            entity = entity === zuuluu;
             if(entity) { _fun00002_ip = 22; continue _fun00001 }
  14:
-            mike = 'VIDEO';
-            entity = mike === zulu;
+            michal = 'VIDEO';
+            entity = michal === zuuluu;
  22:
             if(entity) { _fun00002_ip = 35; continue _fun00001 }
  25:
-            mike = 'CLIP';
-            entity = mike === zulu;
+            michal = 'CLIP';
+            entity = michal === zuuluu;
  35:
             if(entity) { _fun00002_ip = 46; continue _fun00001 }
  38:
-            mike = 'VISUAL_PLACEHOLDER';
-            entity = mike === zulu;
+            michal = 'VISUAL_PLACEHOLDER';
+            entity = michal === zuuluu;
  46:
             return entity;
         }
     };
-    zulu['isVisualMedia'] = tango;
-    tango = function(argFoo) {
+    zuuluu['isVisualMedia'] = tangon;
+    tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = 'IMAGE';
-            entity = entity === zulu;
+            entity = entity === zuuluu;
             if(entity) { _fun00004_ip = 22; continue _fun00003 }
  14:
-            mike = 'VIDEO';
-            entity = mike === zulu;
+            michal = 'VIDEO';
+            entity = michal === zuuluu;
  22:
             if(entity) { _fun00004_ip = 33; continue _fun00003 }
  25:
-            mike = 'VISUAL_PLACEHOLDER';
-            entity = mike === zulu;
+            michal = 'VISUAL_PLACEHOLDER';
+            entity = michal === zuuluu;
  33:
             return entity;
         }
     };
-    zulu['isGroupableMedia'] = tango;
-    tango = function(argFoo, argBar) { // Original name: getMosaicMediaTypeForAttachment
+    zuuluu['isGroupableMedia'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: getMosaicMediaTypeForAttachment
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            options = argFoo;
+            option = argFoo;
             entity = argBar;
-            oscar = options.filename;
-            zulu = options.width;
-            mike = options.height;
+            oscard = option.filename;
+            zuuluu = option.width;
+            michal = option.height;
             if(!entity) { _fun00006_ip = 45; continue _fun00005 }
  25:
             verify = null;
-            if(!(verify != zulu)) { _fun00006_ip = 45; continue _fun00005 }
+            if(!(verify != zuuluu)) { _fun00006_ip = 45; continue _fun00005 }
  31:
-            golf = 0;
-            if(!(zulu > golf)) { _fun00006_ip = 45; continue _fun00005 }
+            golfie = 0;
+            if(!(zuuluu > golfie)) { _fun00006_ip = 45; continue _fun00005 }
  37:
-            if(!(verify != mike)) { _fun00006_ip = 45; continue _fun00005 }
+            if(!(verify != michal)) { _fun00006_ip = 45; continue _fun00005 }
  41:
-            if(!(!(mike > golf))) { _fun00006_ip = 162; continue _fun00005 }
+            if(!(!(michal > golfie))) { _fun00006_ip = 162; continue _fun00005 }
  45:
-            zulu = null;
-            if(!(zulu != entity)) { _fun00006_ip = 87; continue _fun00005 }
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00006_ip = 87; continue _fun00005 }
  51:
-            mike = _closure1_slot3;
-            entity = mike.test;
-            entity = entity.bind(mike)(oscar);
+            michal = _closure1_slot3;
+            entity = michal.test;
+            entity = entity.bind(michal)(oscard);
             if(!entity) { _fun00006_ip = 87; continue _fun00005 }
  71:
-            entity = options.url;
-            mike = zulu != entity;
+            entity = option.url;
+            michal = zuuluu != entity;
             entity = 'AUDIO';
-            if(mike) { _fun00006_ip = 157; continue _fun00005 }
+            if(michal) { _fun00006_ip = 157; continue _fun00005 }
  87:
-            mike = options.url;
-            zulu = zulu != mike;
-            tango = 'OTHER';
-            mike = tango;
-            if(!zulu) { _fun00006_ip = 154; continue _fun00005 }
+            michal = option.url;
+            zuuluu = zuuluu != michal;
+            tangon = 'OTHER';
+            michal = tangon;
+            if(!zuuluu) { _fun00006_ip = 154; continue _fun00005 }
  106:
             offset = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 3;
-            report = report[zulu];
-            zulu = undefined;
-            report = offset.bind(zulu)(report);
-            zulu = report.isPlaintextPreviewableFile;
-            zulu = zulu.bind(report)(oscar);
-            mike = tango;
-            if(!zulu) { _fun00006_ip = 154; continue _fun00005 }
+            zuuluu = 3;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            report = offset.bind(zuuluu)(report);
+            zuuluu = report.isPlaintextPreviewableFile;
+            zuuluu = zuuluu.bind(report)(oscard);
+            michal = tangon;
+            if(!zuuluu) { _fun00006_ip = 154; continue _fun00005 }
  148:
-            mike = 'PLAINTEXT_PREVIEW';
+            michal = 'PLAINTEXT_PREVIEW';
  154:
-            entity = mike;
+            entity = michal;
  157:
             _fun00006_ip = 343; continue _fun00005;
  162:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             yankee = 1;
-            mike = mike[yankee];
+            michal = michal[yankee];
             offset = undefined;
-            zulu = zulu.bind(offset)(mike);
-            mike = zulu.isImageFile;
-            zulu = mike.bind(zulu)(oscar);
-            mike = 'IMAGE';
-            if(zulu) { _fun00006_ip = 340; continue _fun00005 }
+            zuuluu = zuuluu.bind(offset)(michal);
+            michal = zuuluu.isImageFile;
+            zuuluu = michal.bind(zuuluu)(oscard);
+            michal = 'IMAGE';
+            if(zuuluu) { _fun00006_ip = 340; continue _fun00005 }
  208:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[yankee];
-            report = report.bind(offset)(zulu);
-            zulu = report.isVideoFile;
-            report = zulu.bind(report)(oscar);
-            oscar = 'INVALID';
-            zulu = oscar;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[yankee];
+            report = report.bind(offset)(zuuluu);
+            zuuluu = report.isVideoFile;
+            report = zuuluu.bind(report)(oscard);
+            oscard = 'INVALID';
+            zuuluu = oscard;
             if(!report) { _fun00006_ip = 337; continue _fun00005 }
  246:
-            report = options.proxy_url;
+            report = option.proxy_url;
             report = verify != report;
-            zulu = oscar;
+            zuuluu = oscard;
             if(!report) { _fun00006_ip = 337; continue _fun00005 }
  262:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 2;
             report = yankee[report];
-            oscar = oscar.bind(offset)(report);
-            report = oscar.hasFlag;
-            options = options.flags;
-            verify = verify != options;
-            golf = 0;
+            oscard = oscard.bind(offset)(report);
+            report = oscard.hasFlag;
+            option = option.flags;
+            verify = verify != option;
+            golfie = 0;
             if(!verify) { _fun00006_ip = 305; continue _fun00005 }
  302:
-            golf = options;
+            golfie = option;
  305:
-            tango = _closure1_slot2;
-            tango = tango.IS_CLIP;
-            report = report.bind(oscar)(golf, tango);
-            tango = 'VIDEO';
+            tangon = _closure1_slot2;
+            tangon = tangon.IS_CLIP;
+            report = report.bind(oscard)(golfie, tangon);
+            tangon = 'VIDEO';
             if(!report) { _fun00006_ip = 334; continue _fun00005 }
  328:
-            tango = 'CLIP';
+            tangon = 'CLIP';
  334:
-            zulu = tango;
+            zuuluu = tangon;
  337:
-            mike = zulu;
+            michal = zuuluu;
  340:
-            entity = mike;
+            entity = michal;
  343:
             return entity;
         }
     };
-    zulu['getMosaicMediaTypeForAttachment'] = tango;
-    mike = function(argFoo) { // Original name: getMosaicMediaTypeForUnfurledMediaItem
+    zuuluu['getMosaicMediaTypeForAttachment'] = tangon;
+    michal = function(argFoo) { // Original name: getMosaicMediaTypeForUnfurledMediaItem
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
-            zulu = entity.contentType;
+            zuuluu = entity.contentType;
             report = entity.width;
-            mike = entity.height;
-            tango = null;
-            if(!(tango != report)) { _fun00008_ip = 109; continue _fun00007 }
+            michal = entity.height;
+            tangon = null;
+            if(!(tangon != report)) { _fun00008_ip = 109; continue _fun00007 }
  25:
             entity = 0;
             if(!(report > entity)) { _fun00008_ip = 109; continue _fun00007 }
  31:
-            if(!(tango != mike)) { _fun00008_ip = 109; continue _fun00007 }
+            if(!(tangon != michal)) { _fun00008_ip = 109; continue _fun00007 }
  35:
-            if(!(mike > entity)) { _fun00008_ip = 109; continue _fun00007 }
+            if(!(michal > entity)) { _fun00008_ip = 109; continue _fun00007 }
  39:
-            oscar = _closure1_slot0;
-            mike = _closure1_slot1;
+            oscard = _closure1_slot0;
+            michal = _closure1_slot1;
             report = 1;
-            mike = mike[report];
-            tango = undefined;
-            oscar = oscar.bind(tango)(mike);
-            mike = oscar.isImageContentType;
-            mike = mike.bind(oscar)(zulu);
-            if(mike) { _fun00008_ip = 121; continue _fun00007 }
+            michal = michal[report];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(michal);
+            michal = oscard.isImageContentType;
+            michal = michal.bind(oscard)(zuuluu);
+            if(michal) { _fun00008_ip = 121; continue _fun00007 }
  78:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[report];
-            mike = mike.bind(tango)(entity);
-            entity = mike.isVideoContentType;
-            entity = entity.bind(mike)(zulu);
+            michal = michal.bind(tangon)(entity);
+            entity = michal.isVideoContentType;
+            entity = entity.bind(michal)(zuuluu);
             if(entity) { _fun00008_ip = 115; continue _fun00007 }
  109:
             entity = 'VISUAL_PLACEHOLDER';
@@ -230,6 +230,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getMosaicMediaTypeForUnfurledMediaItem'] = mike;
+    zuuluu['getMosaicMediaTypeForUnfurledMediaItem'] = michal;
     return entity;
 })();

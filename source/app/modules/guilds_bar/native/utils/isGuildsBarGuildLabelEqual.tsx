@@ -1,54 +1,54 @@
 // app/modules/guilds_bar/native/utils/isGuildsBarGuildLabelEqual.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guilds_bar/native/utils/isGuildsBarGuildLabelEqual.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: isGuildsBarGuildLabelEqual
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guilds_bar/native/utils/isGuildsBarGuildLabelEqual.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: isGuildsBarGuildLabelEqual
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = argBar;
-            mike = tango.count;
-            entity = zulu.count;
-            entity = mike === entity;
+            tangon = argFoo;
+            zuuluu = argBar;
+            michal = tangon.count;
+            entity = zuuluu.count;
+            entity = michal === entity;
             if(!entity) { _fun00002_ip = 91; continue _fun00001 }
  23:
-            mike = tango.names;
-            report = mike.length;
-            mike = zulu.names;
-            mike = mike.length;
-            mike = report === mike;
-            if(!mike) { _fun00002_ip = 88; continue _fun00001 }
+            michal = tangon.names;
+            report = michal.length;
+            michal = zuuluu.names;
+            michal = michal.length;
+            michal = report === michal;
+            if(!michal) { _fun00002_ip = 88; continue _fun00001 }
  50:
-            report = tango.names;
-            tango = report.join;
-            oscar = '|';
-            tango = tango.bind(report)(oscar);
-            report = zulu.names;
-            zulu = report.join;
-            zulu = zulu.bind(report)(oscar);
-            mike = tango === zulu;
+            report = tangon.names;
+            tangon = report.join;
+            oscard = '|';
+            tangon = tangon.bind(report)(oscard);
+            report = zuuluu.names;
+            zuuluu = report.join;
+            zuuluu = zuuluu.bind(report)(oscard);
+            michal = tangon === zuuluu;
  88:
-            entity = mike;
+            entity = michal;
  91:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

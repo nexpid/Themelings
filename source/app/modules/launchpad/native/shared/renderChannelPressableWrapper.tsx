@@ -1,72 +1,72 @@
 // app/modules/launchpad/native/shared/renderChannelPressableWrapper.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot0 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot1 = tango;
-    tango = 3;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    tango = tango.bind(entity)();
-    golf = tango.layout;
-    options = golf.margin;
-    golf = new Array(2);
-    golf[0] = options;
-    options = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
-    golf[1] = options;
-    var _closure1_slot2 = golf;
-    tango = tango.layout;
-    golf = tango.marginThread;
-    tango = new Array(2);
-    tango[0] = golf;
-    golf = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
-    tango[1] = golf;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/launchpad/native/shared/renderChannelPressableWrapper.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: renderChannelPressableWrapper
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot0 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot1 = tangon;
+    tangon = 3;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = tangon.bind(entity)();
+    golfie = tangon.layout;
+    option = golfie.margin;
+    golfie = new Array(2);
+    golfie[0] = option;
+    option = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
+    golfie[1] = option;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.layout;
+    golfie = tangon.marginThread;
+    tangon = new Array(2);
+    tangon[0] = golfie;
+    golfie = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
+    tangon[1] = golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/launchpad/native/shared/renderChannelPressableWrapper.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: renderChannelPressableWrapper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = arguments[1];
-            tango = undefined;
-            if(!(entity === tango)) { _fun00002_ip = 11; continue _fun00001 }
+            tangon = undefined;
+            if(!(entity === tangon)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             entity = {};
  11:
             report = entity.isThread;
-            if(!(report === tango)) { _fun00002_ip = 23; continue _fun00001 }
+            if(!(report === tangon)) { _fun00002_ip = 23; continue _fun00001 }
  21:
             report = false;
  23:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot0;
             entity = {};
             if(report) { _fun00002_ip = 45; continue _fun00001 }
  39:
@@ -78,10 +78,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = argFoo;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

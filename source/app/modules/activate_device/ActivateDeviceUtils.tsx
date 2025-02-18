@@ -1,63 +1,63 @@
 // app/modules/activate_device/ActivateDeviceUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PlatformTypes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activate_device/ActivateDeviceUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: clientIdToActivateDevicePlatform
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PlatformTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activate_device/ActivateDeviceUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: clientIdToActivateDevicePlatform
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 1;
-            entity = entity[oscar];
+            oscard = 1;
+            entity = entity[oscard];
             report = undefined;
-            entity = zulu.bind(report)(entity);
+            entity = zuuluu.bind(report)(entity);
             entity = entity.ConsoleOAuthApplications;
             entity = entity.PLAYSTATION_APPLICATION_ID;
-            if(!(tango !== entity)) { _fun00002_ip = 91; continue _fun00001 }
+            if(!(tangon !== entity)) { _fun00002_ip = 91; continue _fun00001 }
  44:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            entity = entity[oscar];
-            entity = zulu.bind(report)(entity);
+            entity = entity[oscard];
+            entity = zuuluu.bind(report)(entity);
             entity = entity.ConsoleOAuthApplications;
-            zulu = entity.PLAYSTATION_STAGING_APPLICATION_ID;
+            zuuluu = entity.PLAYSTATION_STAGING_APPLICATION_ID;
             entity = null;
-            if(!(tango === zulu)) { _fun00002_ip = 101; continue _fun00001 }
+            if(!(tangon === zuuluu)) { _fun00002_ip = 101; continue _fun00001 }
  79:
-            zulu = _closure1_slot2;
-            entity = zulu.PLAYSTATION_STAGING;
+            zuuluu = _closure1_slot2;
+            entity = zuuluu.PLAYSTATION_STAGING;
             _fun00002_ip = 101; continue _fun00001;
  91:
-            mike = _closure1_slot2;
-            entity = mike.PLAYSTATION;
+            michal = _closure1_slot2;
+            entity = michal.PLAYSTATION;
  101:
             return entity;
         }
     };
-    zulu['clientIdToActivateDevicePlatform'] = mike;
+    zuuluu['clientIdToActivateDevicePlatform'] = michal;
     return entity;
 })();

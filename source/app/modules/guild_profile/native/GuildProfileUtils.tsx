@@ -1,84 +1,84 @@
 // app/modules/guild_profile/native/GuildProfileUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_profile/native/GuildProfileUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_profile/native/GuildProfileUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStoresObject;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStoresObject;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zulu)) { _fun00002_ip = 142; continue _fun00001 }
+                if(!(entity != zuuluu)) { _fun00002_ip = 142; continue _fun00001 }
  16:
                 entity = {};
-                golf = _closure1_slot2;
-                tango = golf.canAccessGuildSettings;
-                oscar = _closure2_slot0;
-                tango = tango.bind(golf)(oscar);
-                entity['canAccessSettings'] = tango;
-                report = golf.can;
-                tango = _closure1_slot3;
-                tango = tango.CHANGE_NICKNAME;
-                tango = report.bind(golf)(tango, oscar);
-                if(tango) { _fun00002_ip = 100; continue _fun00001 }
+                golfie = _closure1_slot2;
+                tangon = golfie.canAccessGuildSettings;
+                oscard = _closure2_slot0;
+                tangon = tangon.bind(golfie)(oscard);
+                entity['canAccessSettings'] = tangon;
+                report = golfie.can;
+                tangon = _closure1_slot3;
+                tangon = tangon.CHANGE_NICKNAME;
+                tangon = report.bind(golfie)(tangon, oscard);
+                if(tangon) { _fun00002_ip = 100; continue _fun00001 }
  70:
-                options = _closure1_slot2;
-                golf = options.can;
+                option = _closure1_slot2;
+                golfie = option.can;
                 report = _closure1_slot3;
-                oscar = report.MANAGE_NICKNAMES;
+                oscard = report.MANAGE_NICKNAMES;
                 report = _closure2_slot0;
-                tango = golf.bind(options)(oscar, report);
+                tangon = golfie.bind(option)(oscard, report);
  100:
-                entity['canEditNickname'] = tango;
+                entity['canEditNickname'] = tangon;
                 report = _closure1_slot2;
-                tango = report.can;
-                zulu = _closure1_slot3;
-                zulu = zulu.MANAGE_CHANNELS;
-                mike = _closure2_slot0;
-                mike = tango.bind(report)(zulu, mike);
-                entity['canManageChannels'] = mike;
+                tangon = report.can;
+                zuuluu = _closure1_slot3;
+                zuuluu = zuuluu.MANAGE_CHANNELS;
+                michal = _closure2_slot0;
+                michal = tangon.bind(report)(zuuluu, michal);
+                entity['canManageChannels'] = michal;
                 _fun00002_ip = 152; continue _fun00001;
  142:
                 entity = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
@@ -86,9 +86,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useGuildProfilePermissions'] = mike;
+    zuuluu['useGuildProfilePermissions'] = michal;
     return entity;
 })();

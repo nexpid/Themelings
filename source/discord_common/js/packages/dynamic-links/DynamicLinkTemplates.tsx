@@ -1,99 +1,99 @@
 // discord_common/js/packages/dynamic-links/DynamicLinkTemplates.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/dynamic-links/DynamicLinkTemplates.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getInviteDynamicLinkTemplate
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/dynamic-links/DynamicLinkTemplates.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getInviteDynamicLinkTemplate
         entity = global;
-        mike = entity.location;
-        romeo = mike.protocol;
-        mike = entity.window;
-        mike = mike.GLOBAL_ENV;
-        offset = mike.INVITE_HOST;
+        michal = entity.location;
+        romeon = michal.protocol;
+        michal = entity.window;
+        michal = michal.GLOBAL_ENV;
+        offset = michal.INVITE_HOST;
         entity = entity.HermesInternal;
         report = entity.concat;
-        foxtrot = '';
+        foxtra = '';
         yankee = '//';
         verify = '/';
-        options = argFoo;
-        entity = foxtrot[report](romeo, yankee, offset, verify, options, golf);
+        option = argFoo;
+        entity = foxtra[report](romeon, yankee, offset, verify, option, golfie);
         return entity;
     };
-    zulu['getInviteDynamicLinkTemplate'] = tango;
-    tango = function(argFoo) { // Original name: getGuildTemplateDynamicLinkTemplate
+    zuuluu['getInviteDynamicLinkTemplate'] = tangon;
+    tangon = function(argFoo) { // Original name: getGuildTemplateDynamicLinkTemplate
         entity = global;
-        mike = entity.location;
-        romeo = mike.protocol;
-        mike = entity.window;
-        mike = mike.GLOBAL_ENV;
-        offset = mike.GUILD_TEMPLATE_HOST;
+        michal = entity.location;
+        romeon = michal.protocol;
+        michal = entity.window;
+        michal = michal.GLOBAL_ENV;
+        offset = michal.GUILD_TEMPLATE_HOST;
         entity = entity.HermesInternal;
         report = entity.concat;
-        foxtrot = '';
+        foxtra = '';
         yankee = '//';
         verify = '/';
-        options = argFoo;
-        entity = foxtrot[report](romeo, yankee, offset, verify, options, golf);
+        option = argFoo;
+        entity = foxtra[report](romeon, yankee, offset, verify, option, golfie);
         return entity;
     };
-    zulu['getGuildTemplateDynamicLinkTemplate'] = tango;
-    tango = function() { // Original name: getDefaultDynamicLinkTemplate
+    zuuluu['getGuildTemplateDynamicLinkTemplate'] = tangon;
+    tangon = function() { // Original name: getDefaultDynamicLinkTemplate
         entity = global;
-        mike = entity.location;
-        offset = mike.protocol;
-        mike = entity.window;
-        mike = mike.GLOBAL_ENV;
-        options = mike.WEBAPP_ENDPOINT;
+        michal = entity.location;
+        offset = michal.protocol;
+        michal = entity.window;
+        michal = michal.GLOBAL_ENV;
+        option = michal.WEBAPP_ENDPOINT;
         entity = entity.HermesInternal;
-        tango = entity.concat;
+        tangon = entity.concat;
         yankee = '';
         verify = '//';
-        golf = '/channels/@me';
-        entity = yankee[tango](offset, verify, options, golf, oscar);
+        golfie = '/channels/@me';
+        entity = yankee[tangon](offset, verify, option, golfie, oscard);
         return entity;
     };
-    zulu['getDefaultDynamicLinkTemplate'] = tango;
-    mike = function(argFoo) { // Original name: getChannelDynamicLinkTemplate
+    zuuluu['getDefaultDynamicLinkTemplate'] = tangon;
+    michal = function(argFoo) { // Original name: getChannelDynamicLinkTemplate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             entity = global;
-            mike = entity.location;
-            oscar = mike.protocol;
-            mike = entity.window;
-            mike = mike.GLOBAL_ENV;
-            report = mike.WEBAPP_ENDPOINT;
-            if(golf) { _fun00002_ip = 44; continue _fun00001 }
+            michal = entity.location;
+            oscard = michal.protocol;
+            michal = entity.window;
+            michal = michal.GLOBAL_ENV;
+            report = michal.WEBAPP_ENDPOINT;
+            if(golfie) { _fun00002_ip = 44; continue _fun00001 }
  38:
-            golf = '@me';
+            golfie = '@me';
  44:
             entity = entity.HermesInternal;
-            tango = entity.concat;
-            foxtrot = '';
+            tangon = entity.concat;
+            foxtra = '';
             yankee = '//';
             verify = '/channels/';
-            romeo = oscar;
+            romeon = oscard;
             offset = report;
-            options = golf;
-            entity = foxtrot[tango](romeo, yankee, offset, verify, options, golf);
+            option = golfie;
+            entity = foxtra[tangon](romeon, yankee, offset, verify, option, golfie);
             return entity;
         }
     };
-    zulu['getChannelDynamicLinkTemplate'] = mike;
+    zuuluu['getChannelDynamicLinkTemplate'] = michal;
     return entity;
 })();

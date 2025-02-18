@@ -1,103 +1,103 @@
 // app/lib/LifecycleManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = function() { // Original name: LifecycleManager
-            zulu = this;
-            tango = _closure1_slot0;
-            mike = _closure2_slot0;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function() { // Original name: LifecycleManager
+            zuuluu = this;
+            tangon = _closure1_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = false;
-            zulu['isInitialized'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = false;
+            zuuluu['isInitialized'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'initialize';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = 'initialize';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = this;
-                options = 0;
-                tango = copyRestArgs(options);
-                entity = zulu.isInitialized;
+                zuuluu = this;
+                option = 0;
+                tangon = copyRestArgs(option);
+                entity = zuuluu.isInitialized;
                 if(entity) { _fun00002_ip = 61; continue _fun00001 }
  18:
                 entity = true;
-                zulu['isInitialized'] = entity;
-                mike = zulu._initialize;
+                zuuluu['isInitialized'] = entity;
+                michal = zuuluu._initialize;
                 entity = new Array(0);
-                options = entity;
-                golf = tango;
-                oscar = 0;
-                tango = arraySpread(options, golf, oscar);
-                options = mike;
-                golf = entity;
-                oscar = zulu;
-                entity = apply(options, golf, oscar);
+                option = entity;
+                golfie = tangon;
+                oscard = 0;
+                tangon = arraySpread(option, golfie, oscard);
+                option = michal;
+                golfie = entity;
+                oscard = zuuluu;
+                entity = apply(option, golfie, oscard);
  61:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'terminate';
-        entity['key'] = oscar;
+        oscard = 'terminate';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = this;
-                entity = mike.isInitialized;
+                michal = this;
+                entity = michal.isInitialized;
                 if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  12:
                 entity = false;
-                mike['isInitialized'] = entity;
-                entity = mike._terminate;
-                entity = entity.bind(mike)();
+                michal['isInitialized'] = entity;
+                entity = michal._terminate;
+                entity = entity.bind(michal)();
  30:
                 entity = undefined;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/LifecycleManager.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/LifecycleManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

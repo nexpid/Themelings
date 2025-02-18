@@ -1,82 +1,82 @@
 // app/design/components/Icon/native/redesign/generated/MagicWandIcon.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Icon/native/redesign/generated/MagicWandIcon.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Icon/native/redesign/generated/MagicWandIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            oscar = zulu.style;
-            golf = zulu.color;
-            tango = undefined;
-            if(!(golf === tango)) { _fun00002_ip = 53; continue _fun00001 }
+            zuuluu = argFoo;
+            oscard = zuuluu.style;
+            golfie = zuuluu.color;
+            tangon = undefined;
+            if(!(golfie === tangon)) { _fun00002_ip = 53; continue _fun00001 }
  19:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             report = _closure1_slot2;
             entity = 2;
             entity = report[entity];
-            entity = mike.bind(tango)(entity);
+            entity = michal.bind(tangon)(entity);
             entity = entity.colors;
-            golf = entity.INTERACTIVE_NORMAL;
+            golfie = entity.INTERACTIVE_NORMAL;
  53:
             entity = null;
-            mike = Object.create(entity);
+            michal = Object.create(entity);
             entity = 0;
-            mike['style'] = entity;
-            mike['color'] = entity;
-            foxtrot = {};
-            romeo = zulu;
-            yankee = mike;
-            romeo = copyDataProperties(foxtrot, romeo, yankee);
-            zulu = _closure1_slot3;
+            michal['style'] = entity;
+            michal['color'] = entity;
+            foxtra = {};
+            romeon = zuuluu;
+            yankee = michal;
+            romeon = copyDataProperties(foxtra, romeon, yankee);
+            zuuluu = _closure1_slot3;
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 3;
             entity = offset[entity];
-            entity = verify.bind(tango)(entity);
-            mike = entity.BaseIconImage;
+            entity = verify.bind(tangon)(entity);
+            michal = entity.BaseIconImage;
             entity = {};
-            options = 4;
-            options = offset[options];
-            options = verify.bind(tango)(options);
-            entity['source'] = options;
-            entity['color'] = golf;
-            entity['style'] = oscar;
-            foxtrot = entity;
-            report = copyDataProperties(foxtrot, romeo);
-            entity = zulu.bind(tango)(mike, entity);
+            option = 4;
+            option = offset[option];
+            option = verify.bind(tangon)(option);
+            entity['source'] = option;
+            entity['color'] = golfie;
+            entity['style'] = oscard;
+            foxtra = entity;
+            report = copyDataProperties(foxtra, romeon);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['MagicWandIcon'] = mike;
+    zuuluu['MagicWandIcon'] = michal;
     return entity;
 })();

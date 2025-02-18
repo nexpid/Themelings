@@ -1,92 +1,92 @@
 // app/modules/screen/native/useScreenDimensions.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Dimensions;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/screen/native/useScreenDimensions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useScreenDimensions
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Dimensions;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/screen/native/useScreenDimensions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useScreenDimensions
         report = _closure1_slot1;
-        tango = report.useState;
-        golf = _closure1_slot2;
-        oscar = golf.get;
-        zulu = 'screen';
-        zulu = oscar.bind(golf)(zulu);
-        oscar = tango.bind(report)(zulu);
-        tango = _closure1_slot0;
-        zulu = undefined;
+        tangon = report.useState;
+        golfie = _closure1_slot2;
+        oscard = golfie.get;
+        zuuluu = 'screen';
+        zuuluu = oscard.bind(golfie)(zuuluu);
+        oscard = tangon.bind(report)(zuuluu);
+        tangon = _closure1_slot0;
+        zuuluu = undefined;
         entity = 2;
-        tango = tango.bind(zulu)(oscar, entity);
+        tangon = tangon.bind(zuuluu)(oscard, entity);
         entity = 0;
-        entity = tango[entity];
-        zulu = 1;
-        zulu = tango[zulu];
-        var _closure2_slot0 = zulu;
-        tango = report.useEffect;
-        zulu = function() {
+        entity = tangon[entity];
+        zuuluu = 1;
+        zuuluu = tangon[zuuluu];
+        var _closure2_slot0 = zuuluu;
+        tangon = report.useEffect;
+        zuuluu = function() {
             report = _closure1_slot2;
-            tango = report.addEventListener;
-            zulu = 'change';
-            mike = function(argFoo) {
+            tangon = report.addEventListener;
+            zuuluu = 'change';
+            michal = function(argFoo) {
                 entity = argFoo;
-                zulu = entity.screen;
-                mike = _closure2_slot0;
+                zuuluu = entity.screen;
+                michal = _closure2_slot0;
                 entity = undefined;
-                mike = mike.bind(entity)(zulu);
+                michal = michal.bind(entity)(zuuluu);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot0 = mike;
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot0 = michal;
             entity = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = _closure3_slot0;
+                    zuuluu = _closure3_slot0;
                     entity = null;
-                    zulu = entity == zulu;
+                    zuuluu = entity == zuuluu;
                     entity = undefined;
-                    if(zulu) { _fun00002_ip = 32; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 32; continue _fun00001 }
  18:
-                    zulu = _closure3_slot0;
-                    mike = zulu.remove;
-                    entity = mike.bind(zulu)();
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.remove;
+                    entity = michal.bind(zuuluu)();
  32:
                     return entity;
                 }
             };
             return entity;
         };
-        mike = new Array(0);
-        mike = tango.bind(report)(zulu, mike);
+        michal = new Array(0);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

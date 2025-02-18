@@ -1,147 +1,147 @@
 // app/modules/app_database/system/AppDatabaseManager.Entry.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = function(argFoo, argBar) { // Original name: Entry
-            zulu = this;
-            tango = _closure1_slot0;
-            mike = _closure2_slot0;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function(argFoo, argBar) { // Original name: Entry
+            zuuluu = this;
+            tangon = _closure1_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = argFoo;
-            zulu['parent'] = mike;
-            mike = null;
-            zulu['module'] = mike;
-            mike = argBar;
-            zulu['definition'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = argFoo;
+            zuuluu['parent'] = michal;
+            michal = null;
+            zuuluu['module'] = michal;
+            michal = argBar;
+            zuuluu['definition'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'actions';
-        entity['key'] = mike;
-        mike = function() { // Original name: get
+        michal = 'actions';
+        entity['key'] = michal;
+        michal = function() { // Original name: get
             entity = this;
             entity = entity.definition;
             entity = entity.actions;
             return entity;
         };
-        entity['get'] = mike;
-        mike = new Array(5);
-        mike[0] = entity;
+        entity['get'] = michal;
+        michal = new Array(5);
+        michal[0] = entity;
         entity = {};
-        oscar = 'load';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'load';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = this;
-                zulu = mike.module;
+                michal = this;
+                zuuluu = michal.module;
                 entity = null;
-                if(!(entity == zulu)) { _fun00002_ip = 37; continue _fun00001 }
+                if(!(entity == zuuluu)) { _fun00002_ip = 37; continue _fun00001 }
  15:
-                zulu = mike.definition;
-                entity = zulu.require;
-                entity = entity.bind(zulu)();
-                mike['module'] = entity;
+                zuuluu = michal.definition;
+                entity = zuuluu.require;
+                entity = entity.bind(zuuluu)();
+                michal['module'] = entity;
  37:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'reset';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'reset';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = this;
-                mike = entity.module;
+                michal = entity.module;
                 entity = null;
-                if(!(entity != mike)) { _fun00004_ip = 27; continue _fun00003 }
+                if(!(entity != michal)) { _fun00004_ip = 27; continue _fun00003 }
  15:
-                entity = mike.resetInMemoryState;
-                entity = entity.bind(mike)();
+                entity = michal.resetInMemoryState;
+                entity = entity.bind(michal)();
  27:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'execute';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'execute';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 report = argFoo;
-                mike = this;
-                entity = mike.load;
-                entity = entity.bind(mike)();
-                zulu = mike.module;
+                michal = this;
+                entity = michal.load;
+                entity = entity.bind(michal)();
+                zuuluu = michal.module;
                 entity = null;
-                if(!(entity != zulu)) { _fun00006_ip = 68; continue _fun00005 }
+                if(!(entity != zuuluu)) { _fun00006_ip = 68; continue _fun00005 }
  28:
-                mike = mike.module;
-                tango = mike.actions;
-                mike = report.type;
-                zulu = tango[mike];
-                if(!(entity != zulu)) { _fun00006_ip = 68; continue _fun00005 }
+                michal = michal.module;
+                tangon = michal.actions;
+                michal = report.type;
+                zuuluu = tangon[michal];
+                if(!(entity != zuuluu)) { _fun00006_ip = 68; continue _fun00005 }
  53:
-                mike = zulu.call;
+                michal = zuuluu.call;
                 entity = argBar;
-                entity = mike.bind(zulu)(tango, report, entity);
+                entity = michal.bind(zuuluu)(tangon, report, entity);
  68:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[3] = entity;
+        entity['value'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = 'validateInDev';
-        entity['key'] = oscar;
+        oscard = 'validateInDev';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             entity = undefined;
             return entity;
         };
         entity['value'] = report;
-        mike[4] = entity;
+        michal[4] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/system/AppDatabaseManager.Entry.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['Entry'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/system/AppDatabaseManager.Entry.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['Entry'] = michal;
     return entity;
 })();

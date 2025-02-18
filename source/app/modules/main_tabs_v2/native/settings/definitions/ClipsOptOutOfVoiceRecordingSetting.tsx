@@ -1,147 +1,147 @@
 // app/modules/main_tabs_v2/native/settings/definitions/ClipsOptOutOfVoiceRecordingSetting.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    tango = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    tangon = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = tangon;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    golf = verify.defineProperty;
-    mike = {};
+    golfie = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(verify)(zulu, entity, mike);
+    entity = golfie.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = tango.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    golf = mike.MobileSetting;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    verify = mike.RendererType;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = undefined;
-        mike = function* (argFoo) {
+    michal = tangon.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    golfie = michal.MobileSetting;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    verify = michal.RendererType;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = undefined;
+        michal = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 110; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 110; continue _fun00001 }
  7:
                     report = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = report.bind(zulu)(mike);
-                    oscar = mike.ClipsAllowVoiceRecording;
-                    report = oscar.updateSetting;
-                    mike = argFoo;
-                    mike = report.bind(oscar)(mike);
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = report.bind(zuuluu)(michal);
+                    oscard = michal.ClipsAllowVoiceRecording;
+                    report = oscard.updateSetting;
+                    michal = argFoo;
+                    michal = report.bind(oscard)(michal);
                     SaveGenerator(address=56);
  54:
-                    return mike;
+                    return michal;
  56:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 107; continue _fun00001 }
  62:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 4;
-                    tango = oscar[tango];
-                    oscar = report.bind(zulu)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
-                    golf = 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE';
-                    tango['type'] = golf;
-                    tango = report.bind(oscar)(tango);
-                    return zulu;
+                    oscard = _closure1_slot2;
+                    tangon = 4;
+                    tangon = oscard[tangon];
+                    oscard = report.bind(zuuluu)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE';
+                    tangon['type'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
+                    return zuuluu;
  107:
-                    return mike;
+                    return michal;
  110:
                     return entity;
                 }
             };
             return entity;
         };
-        mike = tango.bind(zulu)(mike);
-        var _closure2_slot0 = mike;
+        michal = tangon.bind(zuuluu)(michal);
+        var _closure2_slot0 = michal;
         entity = function() {
             entity = undefined;
-            tango = _closure2_slot0;
-            zulu = tango.apply;
+            tangon = _closure2_slot0;
+            zuuluu = tangon.apply;
             entity = arguments;
-            mike = entity;
+            michal = entity;
             entity = this;
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
         return entity;
     };
-    tango = mike.bind(entity)();
-    mike = {};
+    tangon = michal.bind(entity)();
+    michal = {};
     verify = verify.TOGGLE;
-    mike['type'] = verify;
+    michal['type'] = verify;
     verify = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.AGDDkJ;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['title'] = verify;
-    options = function() { // Original name: useDescription
+    michal['title'] = verify;
+    option = function() { // Original name: useDescription
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.wW9/zc;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['useDescription'] = options;
-    golf = golf.CLIPS;
-    mike['parent'] = golf;
-    golf = 3;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.ClipsAllowVoiceRecording;
-    golf = golf.useSetting;
-    mike['useValue'] = golf;
-    mike['onValueChange'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/ClipsOptOutOfVoiceRecordingSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['useDescription'] = option;
+    golfie = golfie.CLIPS;
+    michal['parent'] = golfie;
+    golfie = 3;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.ClipsAllowVoiceRecording;
+    golfie = golfie.useSetting;
+    michal['useValue'] = golfie;
+    michal['onValueChange'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/ClipsOptOutOfVoiceRecordingSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

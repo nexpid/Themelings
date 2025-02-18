@@ -1,77 +1,77 @@
 // discord_common/js/packages/media-engine/native/ui/Camera.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
-    mike = function(argFoo) { // Original name: Camera
+    var _closure1_slot1 = oscard;
+    michal = function(argFoo) { // Original name: Camera
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.disabled;
-            golf = entity.deviceId;
-            oscar = entity.width;
-            zulu = entity.height;
+            michal = entity.disabled;
+            golfie = entity.deviceId;
+            oscard = entity.width;
+            zuuluu = entity.height;
             report = _closure1_slot2;
-            if(mike) { _fun00002_ip = 85; continue _fun00001 }
+            if(michal) { _fun00002_ip = 85; continue _fun00001 }
  34:
-            mike = _closure1_slot0;
-            tango = _closure1_slot1;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 2;
-            entity = tango[entity];
-            tango = undefined;
-            mike = mike.bind(tango)(entity);
+            entity = tangon[entity];
+            tangon = undefined;
+            michal = michal.bind(tangon)(entity);
             entity = {};
-            entity['streamId'] = golf;
-            golf = {};
-            golf['width'] = oscar;
-            golf['height'] = zulu;
-            entity['style'] = golf;
-            entity = report.bind(tango)(mike, entity);
+            entity['streamId'] = golfie;
+            golfie = {};
+            golfie['width'] = oscard;
+            golfie['height'] = zuuluu;
+            entity['style'] = golfie;
+            entity = report.bind(tangon)(michal, entity);
             _fun00002_ip = 124; continue _fun00001;
  85:
-            tango = {};
-            mike = 'media-engine-video';
-            tango['className'] = mike;
-            mike = {};
-            mike['width'] = oscar;
-            mike['height'] = zulu;
-            tango['style'] = mike;
-            zulu = undefined;
-            mike = 'div';
-            entity = report.bind(zulu)(mike, tango);
+            tangon = {};
+            michal = 'media-engine-video';
+            tangon['className'] = michal;
+            michal = {};
+            michal['width'] = oscard;
+            michal['height'] = zuuluu;
+            tangon['style'] = michal;
+            zuuluu = undefined;
+            michal = 'div';
+            entity = report.bind(zuuluu)(michal, tangon);
  124:
             return entity;
         }
     };
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = {'disabled': false, 'width': 320, 'height': 180};
-    mike['defaultProps'] = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/native/ui/Camera.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    tangon = tangon.bind(entity)(option);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = {'disabled': false, 'width': 320, 'height': 180};
+    michal['defaultProps'] = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/native/ui/Camera.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

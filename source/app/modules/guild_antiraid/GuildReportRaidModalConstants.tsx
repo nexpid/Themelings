@@ -1,18 +1,18 @@
 // app/modules/guild_antiraid/GuildReportRaidModalConstants.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     report = {};
     entity = 'DM_SPAM';
     report['DM_SPAM'] = entity;
@@ -26,130 +26,130 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report['SETTINGS_SPAM'] = entity;
     var _closure1_slot2 = report;
     entity = report.MESSAGE_SPAM;
-    tango = new Array(5);
-    tango[0] = entity;
+    tangon = new Array(5);
+    tangon[0] = entity;
     entity = report.DM_SPAM;
-    tango[1] = entity;
+    tangon[1] = entity;
     entity = report.MENTION_SPAM;
-    tango[2] = entity;
+    tangon[2] = entity;
     entity = report.SUSPICIOUS_USERS;
-    tango[3] = entity;
+    tangon[3] = entity;
     entity = report.SETTINGS_SPAM;
-    tango[4] = entity;
+    tangon[4] = entity;
     entity = 1;
-    oscar = oscar[entity];
+    oscard = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/guild_antiraid/GuildReportRaidModalConstants.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = 'https://discord.com/community/securing-your-server';
-    zulu['COMMUNITY_PORTAL_SERVER_SAFETY_PAGE'] = oscar;
-    zulu['ReportRaidTypes'] = report;
-    zulu['REPORT_RAID_OPTIONS'] = tango;
-    mike = function(argFoo) {
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/guild_antiraid/GuildReportRaidModalConstants.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = 'https://discord.com/community/securing-your-server';
+    zuuluu['COMMUNITY_PORTAL_SERVER_SAFETY_PAGE'] = oscard;
+    zuuluu['ReportRaidTypes'] = report;
+    zuuluu['REPORT_RAID_OPTIONS'] = tangon;
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot2;
-            mike = mike.DM_SPAM;
-            if(!(mike !== zulu)) { _fun00002_ip = 329; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = _closure1_slot2;
+            michal = michal.DM_SPAM;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 329; continue _fun00001 }
  23:
-            mike = _closure1_slot2;
-            mike = mike.MENTION_SPAM;
-            if(!(mike !== zulu)) { _fun00002_ip = 269; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.MENTION_SPAM;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 269; continue _fun00001 }
  40:
-            mike = _closure1_slot2;
-            mike = mike.MESSAGE_SPAM;
-            if(!(mike !== zulu)) { _fun00002_ip = 209; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.MESSAGE_SPAM;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 209; continue _fun00001 }
  57:
-            mike = _closure1_slot2;
-            mike = mike.SETTINGS_SPAM;
-            if(!(mike !== zulu)) { _fun00002_ip = 149; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.SETTINGS_SPAM;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 149; continue _fun00001 }
  71:
-            mike = _closure1_slot2;
-            mike = mike.SUSPICIOUS_USERS;
-            if(!(mike !== zulu)) { _fun00002_ip = 89; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.SUSPICIOUS_USERS;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 89; continue _fun00001 }
  85:
-            mike = null;
-            return mike;
+            michal = null;
+            return michal;
  89:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 0;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 0;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.lKXu+v;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.lKXu+v;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  149:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 0;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 0;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.ETFVFx;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.ETFVFx;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  209:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 0;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 0;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.fwloj4;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.fwloj4;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  269:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 0;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 0;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.hR/IdH;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.hR/IdH;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  329:
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             entity = 0;
-            mike = oscar[entity];
-            tango = undefined;
-            mike = report.bind(tango)(mike);
-            zulu = mike.intl;
-            mike = zulu.string;
-            entity = oscar[entity];
-            entity = report.bind(tango)(entity);
+            michal = oscard[entity];
+            tangon = undefined;
+            michal = report.bind(tangon)(michal);
+            zuuluu = michal.intl;
+            michal = zuuluu.string;
+            entity = oscard[entity];
+            entity = report.bind(tangon)(entity);
             entity = entity.t;
             entity = entity.9CYNmZ;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['getReportRaidTypeLabel'] = mike;
+    zuuluu['getReportRaidTypeLabel'] = michal;
     return entity;
 })();

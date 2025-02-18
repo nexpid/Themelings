@@ -1,90 +1,90 @@
 // app/modules/activities/useDispatchOpenActivity.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/useDispatchOpenActivity.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useDispatchOpenActivity
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/useDispatchOpenActivity.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useDispatchOpenActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.userActivity;
-            var _closure2_slot0 = oscar;
+            oscard = entity.userActivity;
+            var _closure2_slot0 = oscard;
             entity = undefined;
             var _closure2_slot1 = entity;
-            zulu = null;
-            zulu = zulu == oscar;
-            golf = undefined;
-            if(zulu) { _fun00002_ip = 37; continue _fun00001 }
+            zuuluu = null;
+            zuuluu = zuuluu == oscard;
+            golfie = undefined;
+            if(zuuluu) { _fun00002_ip = 37; continue _fun00001 }
  32:
-            golf = oscar.applicationId;
+            golfie = oscard.applicationId;
  37:
-            _closure2_slot1 = golf;
+            _closure2_slot1 = golfie;
             report = _closure1_slot2;
-            tango = report.useEffect;
-            zulu = new Array(2);
-            zulu[0] = golf;
-            zulu[1] = oscar;
-            mike = function() {
+            tangon = report.useEffect;
+            zuuluu = new Array(2);
+            zuuluu[0] = golfie;
+            zuuluu[1] = oscard;
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    zulu = null;
-                    entity = zulu != entity;
+                    zuuluu = null;
+                    entity = zuuluu != entity;
                     if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  16:
-                    mike = _closure2_slot1;
-                    entity = zulu != mike;
+                    michal = _closure2_slot1;
+                    entity = zuuluu != michal;
  24:
                     if(!entity) { _fun00004_ip = 93; continue _fun00003 }
  27:
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 1;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    zulu = zulu.bind(entity)(mike);
-                    mike = zulu.dispatch;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.dispatch;
                     entity = {};
                     report = 'EMBEDDED_ACTIVITY_OPEN';
                     entity['type'] = report;
                     report = _closure2_slot0;
                     report = report.location;
                     entity['location'] = report;
-                    tango = _closure2_slot1;
-                    entity['applicationId'] = tango;
-                    entity = mike.bind(zulu)(entity);
+                    tangon = _closure2_slot1;
+                    entity['applicationId'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
  93:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike, zulu);
+            michal = tangon.bind(report)(michal, zuuluu);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

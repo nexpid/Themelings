@@ -1,54 +1,54 @@
 // app/modules/guild_role_subscriptions/useUserRoleSubscriptionRelationship.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function() { // Original name: getUserRoleSubscriptionRelationship
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function() { // Original name: getUserRoleSubscriptionRelationship
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             entity = undefined;
             if(!(report === entity)) { _fun00002_ip = 29; continue _fun00001 }
  11:
-            tango = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = tango;
-            report = zulu;
+            tangon = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = tangon;
+            report = zuuluu;
  29:
-            zulu = report;
-            tango = zulu[Symbol.iterator];
-            zulu = tango().next;
-            oscar = zulu().value;
-            zulu = tango;
-            report = zulu === entity;
-            zulu = undefined;
+            zuuluu = report;
+            tangon = zuuluu[Symbol.iterator];
+            zuuluu = tangon().next;
+            oscard = zuuluu().value;
+            zuuluu = tangon;
+            report = zuuluu === entity;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 54; continue _fun00001 }
  51:
-            zulu = oscar;
+            zuuluu = oscard;
  54:
-            var _closure2_slot0 = zulu;
+            var _closure2_slot0 = zuuluu;
             if(report) { _fun00002_ip = 64; continue _fun00001 }
  61:
-            tango.return();
+            tangon.return();
  64:
             var _closure2_slot1 = entity;
-            entity = zulu.getGuildIdsWithPurchasableRoles;
-            entity = entity.bind(zulu)();
-            zulu = false;
-            _closure2_slot1 = zulu;
-            tango = entity.forEach;
-            zulu = function(argFoo) {
+            entity = zuuluu.getGuildIdsWithPurchasableRoles;
+            entity = entity.bind(zuuluu)();
+            zuuluu = false;
+            _closure2_slot1 = zuuluu;
+            tangon = entity.forEach;
+            zuuluu = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure2_slot0;
-                    zulu = tango.getUserSubscriptionRoles;
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.getUserSubscriptionRoles;
                     entity = argFoo;
-                    entity = zulu.bind(tango)(entity);
-                    zulu = entity.size;
+                    entity = zuuluu.bind(tangon)(entity);
+                    zuuluu = entity.size;
                     entity = 0;
-                    if(!(zulu > entity)) { _fun00004_ip = 38; continue _fun00003 }
+                    if(!(zuuluu > entity)) { _fun00004_ip = 38; continue _fun00003 }
  32:
                     entity = true;
                     _closure2_slot1 = entity;
@@ -57,79 +57,79 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 }
             };
-            zulu = tango.bind(entity)(zulu);
-            mike = _closure2_slot1;
-            if(mike) { _fun00002_ip = 151; continue _fun00001 }
+            zuuluu = tangon.bind(entity)(zuuluu);
+            michal = _closure2_slot1;
+            if(michal) { _fun00002_ip = 151; continue _fun00001 }
  110:
-            mike = entity.size;
+            michal = entity.size;
             entity = 0;
-            if(!(entity !== mike)) { _fun00002_ip = 136; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 136; continue _fun00001 }
  121:
             entity = _closure1_slot3;
             entity = entity.IN_SUBSCRIPTION_SERVER;
             _fun00002_ip = 149; continue _fun00001;
  136:
-            mike = _closure1_slot3;
-            entity = mike.NONE;
+            michal = _closure1_slot3;
+            entity = michal.NONE;
  149:
             _fun00002_ip = 164; continue _fun00001;
  151:
-            mike = _closure1_slot3;
-            entity = mike.SUBSCRIBED;
+            michal = _closure1_slot3;
+            entity = michal.SUBSCRIBED;
  164:
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.UserGuildRoleSubscriptionRelationship;
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_role_subscriptions/useUserRoleSubscriptionRelationship.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function() { // Original name: useUserRoleSubscriptionRelationship
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    report = oscard.bind(golfie)(report);
+    tangon = function() { // Original name: useUserRoleSubscriptionRelationship
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
-            zulu = _closure1_slot4;
+            zuuluu = _closure1_slot4;
             entity = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['getUserRoleSubscriptionRelationship'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getUserRoleSubscriptionRelationship'] = michal;
     return entity;
 })();

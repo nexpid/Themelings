@@ -1,28 +1,28 @@
 // app/modules/search_v2/native/components/navigator/SearchNavigatorConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'search_tabs';
-    mike['SEARCH_TABS'] = entity;
+    michal['SEARCH_TABS'] = entity;
     entity = 'search_chat_preview';
-    mike['SEARCH_CHAT_PREVIEW'] = entity;
-    tango = argPlugh;
+    michal['SEARCH_CHAT_PREVIEW'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/search_v2/native/components/navigator/SearchNavigatorConstants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['SearchNavigatorScreens'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/components/navigator/SearchNavigatorConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['SearchNavigatorScreens'] = michal;
     return entity;
 })();

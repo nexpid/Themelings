@@ -1,40 +1,40 @@
 // app/modules/soundpacks/SoundpackStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot3;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot3;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot2;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot2;
             entity = _closure1_slot8;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot3;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -43,130 +43,130 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  72: // try_end0
             _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot8 = mike;
+            _closure1_slot8 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot0 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot1 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 4;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 5;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.Soundpacks;
-    var _closure1_slot5 = options;
-    mike = {};
-    options = options.CLASSIC;
-    mike['soundpack'] = options;
-    options = null;
-    mike['lastSoundpackExperimentId'] = options;
-    var _closure1_slot6 = mike;
-    mike = 6;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    options = mike.PersistedStore;
-    mike = function(argFoo) {
-        tango = function() { // Original name: SoundpackStore
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot0 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot1 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 5;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.Soundpacks;
+    var _closure1_slot5 = option;
+    michal = {};
+    option = option.CLASSIC;
+    michal['soundpack'] = option;
+    option = null;
+    michal['lastSoundpackExperimentId'] = option;
+    var _closure1_slot6 = michal;
+    michal = 6;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    option = michal.PersistedStore;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: SoundpackStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot0;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot7;
+            oscard = _closure1_slot0;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot7;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot4;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot1;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot1;
         report = {};
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = null;
-                if(!(entity != mike)) { _fun00006_ip = 81; continue _fun00005 }
+                if(!(entity != michal)) { _fun00006_ip = 81; continue _fun00005 }
  9:
-                _closure1_slot6 = mike;
-                mike = global;
-                tango = mike.Object;
-                zulu = tango.values;
-                mike = _closure1_slot5;
-                tango = zulu.bind(tango)(mike);
-                zulu = tango.includes;
-                mike = _closure1_slot6;
-                mike = mike.soundpack;
-                mike = zulu.bind(tango)(mike);
-                if(mike) { _fun00006_ip = 81; continue _fun00005 }
+                _closure1_slot6 = michal;
+                michal = global;
+                tangon = michal.Object;
+                zuuluu = tangon.values;
+                michal = _closure1_slot5;
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.includes;
+                michal = _closure1_slot6;
+                michal = michal.soundpack;
+                michal = zuuluu.bind(tangon)(michal);
+                if(michal) { _fun00006_ip = 81; continue _fun00005 }
  61:
-                mike = _closure1_slot6;
+                michal = _closure1_slot6;
                 entity = _closure1_slot5;
                 entity = entity.CLASSIC;
-                mike['soundpack'] = entity;
+                michal['soundpack'] = entity;
  81:
                 entity = undefined;
                 return entity;
@@ -176,77 +176,77 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(4);
         entity[0] = report;
         report = {};
-        golf = 'getState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot6;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'getSoundpack';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getSoundpack';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot6;
             entity = entity.soundpack;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'getLastSoundpackExperimentId';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'getLastSoundpackExperimentId';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = _closure1_slot6;
             entity = entity.lastSoundpackExperimentId;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[3] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = mike.bind(entity)(options);
-    mike = 'SoundpackStore';
-    options['displayName'] = mike;
-    options['persistKey'] = mike;
-    mike = 7;
-    mike = oscar[mike];
-    romeo = golf.bind(entity)(mike);
-    mike = {};
-    tango = function(argFoo) { // Original name: handleSetSoundpack
+    option = michal.bind(entity)(option);
+    michal = 'SoundpackStore';
+    option['displayName'] = michal;
+    option['persistKey'] = michal;
+    michal = 7;
+    michal = oscard[michal];
+    romeon = golfie.bind(entity)(michal);
+    michal = {};
+    tangon = function(argFoo) { // Original name: handleSetSoundpack
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            entity = mike.soundpack;
-            mike = mike.forExperimentId;
-            zulu = {};
-            zulu['soundpack'] = entity;
+            michal = argFoo;
+            entity = michal.soundpack;
+            michal = michal.forExperimentId;
+            zuuluu = {};
+            zuuluu['soundpack'] = entity;
             entity = undefined;
-            if(!(entity === mike)) { _fun00008_ip = 41; continue _fun00007 }
+            if(!(entity === michal)) { _fun00008_ip = 41; continue _fun00007 }
  28:
-            tango = _closure1_slot6;
-            mike = tango.lastSoundpackExperimentId;
+            tangon = _closure1_slot6;
+            michal = tangon.lastSoundpackExperimentId;
  41:
-            zulu['lastSoundpackExperimentId'] = mike;
-            _closure1_slot6 = zulu;
+            zuuluu['lastSoundpackExperimentId'] = michal;
+            _closure1_slot6 = zuuluu;
             return entity;
         }
     };
-    mike['SET_SOUNDPACK'] = tango;
-    tango = options.prototype;
-    tango = Object.create(tango, {constructor: {value: options}});
-    foxtrot = tango;
-    yankee = mike;
-    mike = new foxtrot[options](romeo, yankee, offset);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/soundpacks/SoundpackStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['SET_SOUNDPACK'] = tangon;
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
+    foxtra = tangon;
+    yankee = michal;
+    michal = new foxtra[option](romeon, yankee, offset);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/soundpacks/SoundpackStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

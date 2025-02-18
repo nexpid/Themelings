@@ -1,119 +1,119 @@
 // app/modules/routing/native/useBackPressHandler.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    report = golf[entity];
-    mike = argCorge;
+    report = golfie[entity];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(report);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    report = mike.BackHandler;
+    michal = michal.bind(entity)(report);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    report = michal.BackHandler;
     var _closure1_slot3 = report;
-    mike = mike.NativeModules;
-    var _closure1_slot4 = mike;
-    mike = {};
+    michal = michal.NativeModules;
+    var _closure1_slot4 = michal;
+    michal = {};
     report = function() { // Original name: minimize
         entity = _closure1_slot4;
-        mike = entity.MinimizeApp;
-        entity = mike.minimizeApp;
-        entity = entity.bind(mike)();
+        michal = entity.MinimizeApp;
+        entity = michal.minimizeApp;
+        entity = entity.bind(michal)();
         entity = true;
         return entity;
     };
-    mike['minimize'] = report;
+    michal['minimize'] = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/routing/native/useBackPressHandler.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useBackPressHandler
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useBackPressHandler
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = arguments[1];
-            var _closure2_slot0 = tango;
+            tangon = argFoo;
+            oscard = arguments[1];
+            var _closure2_slot0 = tangon;
             entity = undefined;
-            if(!(oscar === entity)) { _fun00002_ip = 20; continue _fun00001 }
+            if(!(oscard === entity)) { _fun00002_ip = 20; continue _fun00001 }
  18:
-            oscar = true;
+            oscard = true;
  20:
-            var _closure2_slot1 = oscar;
+            var _closure2_slot1 = oscard;
             var _closure2_slot2 = entity;
             report = _closure1_slot2;
-            zulu = report.useRef;
-            zulu = zulu.bind(report)(tango);
-            _closure2_slot2 = zulu;
-            tango = report.useLayoutEffect;
-            zulu = function() {
-                mike = _closure2_slot2;
+            zuuluu = report.useRef;
+            zuuluu = zuuluu.bind(report)(tangon);
+            _closure2_slot2 = zuuluu;
+            tangon = report.useLayoutEffect;
+            zuuluu = function() {
+                michal = _closure2_slot2;
                 entity = _closure2_slot0;
-                mike['current'] = entity;
+                michal['current'] = entity;
                 entity = undefined;
                 return entity;
             };
-            zulu = tango.bind(report)(zulu);
-            tango = report.useEffect;
-            zulu = new Array(1);
-            zulu[0] = oscar;
-            mike = function() {
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = report.useEffect;
+            zuuluu = new Array(1);
+            zuuluu[0] = oscard;
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot0;
-                    tango = _closure1_slot1;
+                    tangon = _closure1_slot1;
                     entity = 2;
-                    tango = tango[entity];
+                    tangon = tangon[entity];
                     entity = undefined;
-                    report = report.bind(entity)(tango);
-                    tango = report.isIOS;
-                    tango = tango.bind(report)();
-                    if(tango) { _fun00004_ip = 88; continue _fun00003 }
+                    report = report.bind(entity)(tangon);
+                    tangon = report.isIOS;
+                    tangon = tangon.bind(report)();
+                    if(tangon) { _fun00004_ip = 88; continue _fun00003 }
  40:
-                    tango = _closure2_slot1;
-                    if(!tango) { _fun00004_ip = 88; continue _fun00003 }
+                    tangon = _closure2_slot1;
+                    if(!tangon) { _fun00004_ip = 88; continue _fun00003 }
  50:
-                    oscar = _closure1_slot3;
-                    report = oscar.addEventListener;
-                    tango = 'hardwareBackPress';
-                    zulu = function() {
-                        mike = _closure2_slot2;
-                        entity = mike.current;
-                        entity = entity.bind(mike)();
+                    oscard = _closure1_slot3;
+                    report = oscard.addEventListener;
+                    tangon = 'hardwareBackPress';
+                    zuuluu = function() {
+                        michal = _closure2_slot2;
+                        entity = michal.current;
+                        entity = entity.bind(michal)();
                         return entity;
                     };
-                    zulu = report.bind(oscar)(tango, zulu);
-                    var _closure3_slot0 = zulu;
-                    mike = function() {
-                        mike = _closure3_slot0;
-                        entity = mike.remove;
-                        entity = entity.bind(mike)();
+                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+                    var _closure3_slot0 = zuuluu;
+                    michal = function() {
+                        michal = _closure3_slot0;
+                        entity = michal.remove;
+                        entity = entity.bind(michal)();
                         return entity;
                     };
-                    return mike;
+                    return michal;
  88:
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike, zulu);
+            michal = tangon.bind(report)(michal, zuuluu);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['BackPressHandler'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['BackPressHandler'] = michal;
     return entity;
 })();

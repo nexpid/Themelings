@@ -1,53 +1,53 @@
 // app/modules/headless_tasks/HeadlessTaskUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.TOKEN_KEY;
-    var _closure1_slot2 = mike;
-    mike = {};
-    tango = function(argFoo) { // Original name: awaitStorage
+    michal = report.bind(entity)(michal);
+    michal = michal.TOKEN_KEY;
+    var _closure1_slot2 = michal;
+    michal = {};
+    tangon = function(argFoo) { // Original name: awaitStorage
         entity = argFoo;
         var _closure2_slot0 = entity;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        tango = report.bind(entity)(tango);
-        report = tango.Storage;
-        tango = report.asyncGet;
-        zulu = _closure1_slot2;
-        mike = function() {
-            mike = _closure2_slot0;
+        tangon = report.bind(entity)(tangon);
+        report = tangon.Storage;
+        tangon = report.asyncGet;
+        zuuluu = _closure1_slot2;
+        michal = function() {
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = mike.bind(entity)();
+            michal = michal.bind(entity)();
             return entity;
         };
-        mike = tango.bind(report)(zulu, mike);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    mike['awaitStorage'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/headless_tasks/HeadlessTaskUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['awaitStorage'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/headless_tasks/HeadlessTaskUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

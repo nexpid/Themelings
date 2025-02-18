@@ -1,113 +1,113 @@
 // app/modules/dismissible_content/VersionedDismissibleContentUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/dismissible_content/VersionedDismissibleContentUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getVersionedDismissibleContentCurrentVersion
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/dismissible_content/VersionedDismissibleContentUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getVersionedDismissibleContentCurrentVersion
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            zulu = mike[oscar];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-            if(!(zulu !== tango)) { _fun00002_ip = 211; continue _fun00001 }
+            michal = _closure1_slot1;
+            oscard = 1;
+            zuuluu = michal[oscard];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.COLLECTIBLES_SHOP_ENTRY_MARKETING;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 211; continue _fun00001 }
  47:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.GIFTING_PROMOTION_ICON;
-            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.GIFTING_PROMOTION_ICON;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 183; continue _fun00001 }
  80:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
-            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 183; continue _fun00001 }
  113:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 183; continue _fun00001 }
  146:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.GIFTING_PROMOTION_REMINDER;
-            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.GIFTING_PROMOTION_REMINDER;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 183; continue _fun00001 }
  179:
-            zulu = 0;
-            return zulu;
+            zuuluu = 0;
+            return zuuluu;
  183:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 3;
-            zulu = report[zulu];
-            zulu = tango.bind(mike)(zulu);
-            zulu = zulu.VALENTINES_2025_GIFTING_PROMOTION_VERSION;
-            return zulu;
+            zuuluu = 3;
+            zuuluu = report[zuuluu];
+            zuuluu = tangon.bind(michal)(zuuluu);
+            zuuluu = zuuluu.VALENTINES_2025_GIFTING_PROMOTION_VERSION;
+            return zuuluu;
  211:
-            tango = _closure1_slot2;
-            zulu = tango.getMarketingBySurface;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getMarketingBySurface;
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             entity = 2;
-            entity = oscar[entity];
-            entity = report.bind(mike)(entity);
+            entity = oscard[entity];
+            entity = report.bind(michal)(entity);
             entity = entity.CollectiblesMarketingSurface;
             entity = entity.MOBILE_SHOP_BUTTON;
-            zulu = zulu.bind(tango)(entity);
+            zuuluu = zuuluu.bind(tangon)(entity);
             entity = null;
-            tango = entity == zulu;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 275; continue _fun00001 }
+            tangon = entity == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 275; continue _fun00001 }
  269:
-            mike = zulu.version;
+            michal = zuuluu.version;
  275:
-            zulu = entity != mike;
+            zuuluu = entity != michal;
             entity = 0;
-            if(!zulu) { _fun00002_ip = 287; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 287; continue _fun00001 }
  284:
-            entity = mike;
+            entity = michal;
  287:
             return entity;
         }
     };
-    zulu['getVersionedDismissibleContentCurrentVersion'] = mike;
+    zuuluu['getVersionedDismissibleContentCurrentVersion'] = michal;
     return entity;
 })();

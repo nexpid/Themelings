@@ -1,251 +1,251 @@
 // app/modules/messages/native/emoji/EmojiGrid.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     yankee = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {'height': 40, 'width': 40};
     offset = 4;
-    offset = oscar[offset];
+    offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.radii;
     offset = offset.sm;
     verify['borderRadius'] = offset;
-    tango['gridEmojiFastImage'] = verify;
+    tangon['gridEmojiFastImage'] = verify;
     verify = {'fontSize': 18, 'lineHeight': 44};
-    tango['gridEmojiText'] = verify;
+    tangon['gridEmojiText'] = verify;
     verify = {'marginTop': 16, 'flexDirection': 'row'};
-    tango['emojiGridRowContainer'] = verify;
+    tangon['emojiGridRowContainer'] = verify;
     verify = {'marginTop': 8, 'alignItems': 'center'};
-    tango['emojiGridContainer'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot5 = tango;
-    tango = function(argFoo) { // Original name: Emoji
+    tangon['emojiGridContainer'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = function(argFoo) { // Original name: Emoji
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.guildEmoji;
-            mike = _closure1_slot5;
+            michal = _closure1_slot5;
             report = undefined;
-            oscar = mike.bind(report)();
-            tango = _closure1_slot4;
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 7;
-            mike = golf[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = {};
+            oscard = michal.bind(report)();
+            tangon = _closure1_slot4;
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 7;
+            michal = golfie[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = {};
             verify = entity.id;
-            golf = null;
-            if(!(golf != verify)) { _fun00002_ip = 121; continue _fun00001 }
+            golfie = null;
+            if(!(golfie != verify)) { _fun00002_ip = 121; continue _fun00001 }
  59:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            golf = 6;
-            golf = offset[golf];
-            offset = verify.bind(report)(golf);
+            golfie = 6;
+            golfie = offset[golfie];
+            offset = verify.bind(report)(golfie);
             verify = offset.getEmojiURL;
-            golf = {};
+            golfie = {};
             yankee = entity.id;
-            golf['id'] = yankee;
+            golfie['id'] = yankee;
             yankee = entity.animated;
-            golf['animated'] = yankee;
+            golfie['animated'] = yankee;
             yankee = 48;
-            golf['size'] = yankee;
-            golf = verify.bind(offset)(golf);
+            golfie['size'] = yankee;
+            golfie = verify.bind(offset)(golfie);
             _fun00002_ip = 157; continue _fun00001;
  121:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            options = 5;
-            options = offset[options];
-            offset = verify.bind(report)(options);
+            option = 5;
+            option = offset[option];
+            offset = verify.bind(report)(option);
             verify = offset.getURL;
-            options = entity.name;
-            golf = verify.bind(offset)(options);
+            option = entity.name;
+            golfie = verify.bind(offset)(option);
  157:
-            mike['src'] = golf;
-            golf = oscar.gridEmojiFastImage;
-            mike['fastImageStyle'] = golf;
-            oscar = oscar.gridEmojiText;
-            mike['textEmojiStyle'] = oscar;
-            oscar = entity.name;
-            mike['name'] = oscar;
+            michal['src'] = golfie;
+            golfie = oscard.gridEmojiFastImage;
+            michal['fastImageStyle'] = golfie;
+            oscard = oscard.gridEmojiText;
+            michal['textEmojiStyle'] = oscard;
+            oscard = entity.name;
+            michal['name'] = oscard;
             entity = entity.id;
-            entity = tango.bind(report)(zulu, mike, entity);
+            entity = tangon.bind(report)(zuuluu, michal, entity);
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/emoji/EmojiGrid.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    var _closure1_slot6 = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/emoji/EmojiGrid.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            mike = entity.expressionSourceGuild;
-            zulu = entity.doNotDisplayEmojiIds;
-            tango = undefined;
-            if(!(zulu === tango)) { _fun00004_ip = 27; continue _fun00003 }
+            michal = entity.expressionSourceGuild;
+            zuuluu = entity.doNotDisplayEmojiIds;
+            tangon = undefined;
+            if(!(zuuluu === tangon)) { _fun00004_ip = 27; continue _fun00003 }
  23:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
  27:
-            var _closure2_slot0 = zulu;
+            var _closure2_slot0 = zuuluu;
             offset = entity.numberToShow;
-            if(!(offset === tango)) { _fun00004_ip = 46; continue _fun00003 }
+            if(!(offset === tangon)) { _fun00004_ip = 46; continue _fun00003 }
  43:
             offset = 10;
  46:
-            zulu = entity.maxPerRow;
-            if(!(zulu === tango)) { _fun00004_ip = 59; continue _fun00003 }
+            zuuluu = entity.maxPerRow;
+            if(!(zuuluu === tangon)) { _fun00004_ip = 59; continue _fun00003 }
  56:
-            zulu = 5;
+            zuuluu = 5;
  59:
-            var _closure2_slot1 = tango;
-            oscar = {};
+            var _closure2_slot1 = tangon;
+            oscard = {};
             verify = _closure1_slot0;
             entity = _closure1_slot2;
-            options = 8;
-            entity = entity[options];
-            verify = verify.bind(tango)(entity);
+            option = 8;
+            entity = entity[option];
+            verify = verify.bind(tangon)(entity);
             entity = verify.useSharedMessageEmojiStyles;
-            romeo = entity.bind(verify)();
-            foxtrot = oscar;
-            entity = copyDataProperties(foxtrot, romeo);
+            romeon = entity.bind(verify)();
+            foxtra = oscard;
+            entity = copyDataProperties(foxtra, romeon);
             entity = _closure1_slot5;
-            romeo = entity.bind(tango)();
-            foxtrot = oscar;
-            entity = copyDataProperties(foxtrot, romeo);
-            _closure2_slot1 = oscar;
+            romeon = entity.bind(tangon)();
+            foxtra = oscard;
+            entity = copyDataProperties(foxtra, romeon);
+            _closure2_slot1 = oscard;
             entity = null;
-            verify = entity == mike;
+            verify = entity == michal;
             yankee = undefined;
             if(verify) { _fun00004_ip = 141; continue _fun00003 }
  135:
-            yankee = mike.emojis;
+            yankee = michal.emojis;
  141:
             if(!(entity == yankee)) { _fun00004_ip = 149; continue _fun00003 }
  145:
             yankee = new Array(0);
  149:
-            mike = yankee.slice;
+            michal = yankee.slice;
             entity = 1;
             entity = offset + entity;
             verify = 0;
-            yankee = mike.bind(yankee)(verify, entity);
-            mike = yankee.filter;
+            yankee = michal.bind(yankee)(verify, entity);
+            michal = yankee.filter;
             entity = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.includes;
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.includes;
                 entity = argFoo;
                 entity = entity.id;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = !entity;
                 return entity;
             };
-            mike = mike.bind(yankee)(entity);
-            entity = mike.slice;
-            mike = entity.bind(mike)(verify, offset);
+            michal = michal.bind(yankee)(entity);
+            entity = michal.slice;
+            michal = entity.bind(michal)(verify, offset);
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             entity = 9;
             entity = offset[entity];
-            entity = verify.bind(tango)(entity);
-            verify = entity.bind(tango)(mike, zulu);
-            zulu = _closure1_slot4;
-            mike = _closure1_slot3;
+            entity = verify.bind(tangon)(entity);
+            verify = entity.bind(tangon)(michal, zuuluu);
+            zuuluu = _closure1_slot4;
+            michal = _closure1_slot3;
             entity = {};
-            oscar = oscar.emojiGridContainer;
-            entity['style'] = oscar;
-            oscar = _closure1_slot0;
+            oscard = oscard.emojiGridContainer;
+            entity['style'] = oscard;
+            oscard = _closure1_slot0;
             report = 10;
             report = offset[report];
-            report = oscar.bind(tango)(report);
-            oscar = report.GappedList;
+            report = oscard.bind(tangon)(report);
+            oscard = report.GappedList;
             report = {};
-            report['gap'] = options;
-            options = verify.map;
-            golf = function(argFoo, argBar) {
+            report['gap'] = option;
+            option = verify.map;
+            golfie = function(argFoo, argBar) {
                 verify = argFoo;
                 report = _closure1_slot4;
-                tango = _closure1_slot3;
-                zulu = {};
-                mike = _closure2_slot1;
-                mike = mike.emojiGridRowContainer;
-                zulu['style'] = mike;
-                oscar = _closure1_slot0;
-                mike = _closure1_slot2;
+                tangon = _closure1_slot3;
+                zuuluu = {};
+                michal = _closure2_slot1;
+                michal = michal.emojiGridRowContainer;
+                zuuluu['style'] = michal;
+                oscard = _closure1_slot0;
+                michal = _closure1_slot2;
                 entity = 10;
-                entity = mike[entity];
-                mike = undefined;
-                entity = oscar.bind(mike)(entity);
-                oscar = entity.GappedList;
+                entity = michal[entity];
+                michal = undefined;
+                entity = oscard.bind(michal)(entity);
+                oscard = entity.GappedList;
                 entity = {};
-                golf = 32;
-                entity['gap'] = golf;
-                options = verify.map;
-                golf = function(argFoo) {
+                golfie = 32;
+                entity['gap'] = golfie;
+                option = verify.map;
+                golfie = function(argFoo) {
                     entity = argFoo;
                     report = _closure1_slot4;
-                    tango = _closure1_slot6;
-                    zulu = {};
-                    zulu['guildEmoji'] = entity;
-                    mike = entity.id;
+                    tangon = _closure1_slot6;
+                    zuuluu = {};
+                    zuuluu['guildEmoji'] = entity;
+                    michal = entity.id;
                     entity = undefined;
-                    entity = report.bind(entity)(tango, zulu, mike);
+                    entity = report.bind(entity)(tangon, zuuluu, michal);
                     return entity;
                 };
-                golf = options.bind(verify)(golf);
-                entity['children'] = golf;
-                entity = report.bind(mike)(oscar, entity);
-                zulu['children'] = entity;
+                golfie = option.bind(verify)(golfie);
+                entity['children'] = golfie;
+                entity = report.bind(michal)(oscard, entity);
+                zuuluu['children'] = entity;
                 entity = argBar;
-                entity = report.bind(mike)(tango, zulu, entity);
+                entity = report.bind(michal)(tangon, zuuluu, entity);
                 return entity;
             };
-            golf = options.bind(verify)(golf);
-            report['children'] = golf;
-            report = zulu.bind(tango)(oscar, report);
+            golfie = option.bind(verify)(golfie);
+            report['children'] = golfie;
+            report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['EmojiGrid'] = mike;
+    zuuluu['EmojiGrid'] = michal;
     return entity;
 })();

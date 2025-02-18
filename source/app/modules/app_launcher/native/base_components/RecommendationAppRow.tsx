@@ -1,91 +1,91 @@
 // app/modules/app_launcher/native/base_components/RecommendationAppRow.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/base_components/RecommendationAppRow.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: RecommendationAppRow
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/base_components/RecommendationAppRow.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: RecommendationAppRow
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.application;
-            options = entity.onPress;
-            golf = entity.isFirstRow;
-            tango = undefined;
-            if(!(golf === tango)) { _fun00002_ip = 27; continue _fun00001 }
+            option = entity.onPress;
+            golfie = entity.isFirstRow;
+            tangon = undefined;
+            if(!(golfie === tangon)) { _fun00002_ip = 27; continue _fun00001 }
  25:
-            golf = false;
+            golfie = false;
  27:
-            oscar = entity.isLastRow;
-            if(!(oscar === tango)) { _fun00002_ip = 39; continue _fun00001 }
+            oscard = entity.isLastRow;
+            if(!(oscard === tangon)) { _fun00002_ip = 39; continue _fun00001 }
  37:
-            oscar = false;
+            oscard = false;
  39:
             report = entity.showsPromoted;
-            if(!(report === tango)) { _fun00002_ip = 51; continue _fun00001 }
+            if(!(report === tangon)) { _fun00002_ip = 51; continue _fun00001 }
  49:
             report = false;
  51:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
-            mike = 2;
-            mike = yankee[mike];
-            verify = zulu.bind(tango)(mike);
-            zulu = verify.getApplicationIconSource;
-            mike = {};
-            romeo = offset.id;
-            mike['id'] = romeo;
-            romeo = offset.icon;
-            mike['icon'] = romeo;
-            romeo = offset.bot;
-            mike['bot'] = romeo;
-            romeo = true;
-            mike['botIconFirst'] = romeo;
-            verify = zulu.bind(verify)(mike);
-            zulu = _closure1_slot3;
-            mike = _closure1_slot0;
+            michal = 2;
+            michal = yankee[michal];
+            verify = zuuluu.bind(tangon)(michal);
+            zuuluu = verify.getApplicationIconSource;
+            michal = {};
+            romeon = offset.id;
+            michal['id'] = romeon;
+            romeon = offset.icon;
+            michal['icon'] = romeon;
+            romeon = offset.bot;
+            michal['bot'] = romeon;
+            romeon = true;
+            michal['botIconFirst'] = romeon;
+            verify = zuuluu.bind(verify)(michal);
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot0;
             entity = 3;
             entity = yankee[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.BaseAppRow;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.BaseAppRow;
             entity = {};
             entity['application'] = offset;
             entity['iconSource'] = verify;
-            entity['onPress'] = options;
-            entity['isFirstRow'] = golf;
-            entity['isLastRow'] = oscar;
+            entity['onPress'] = option;
+            entity['isFirstRow'] = golfie;
+            entity['isLastRow'] = oscard;
             entity['showsPromoted'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,115 +1,115 @@
 // app/uikit-native/OverlayView.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        golf = argBar;
-        zulu = argFred;
-        options = argPlugh;
+        golfie = argBar;
+        zuuluu = argFre;
+        option = argPlu;
         entity = global;
-        oscar = entity.Object;
-        report = oscar.defineProperty;
-        mike = {};
+        oscard = entity.Object;
+        report = oscard.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = report.bind(oscar)(zulu, entity, mike);
+        entity = report.bind(oscard)(zuuluu, entity, michal);
         entity = 0;
-        report = options[entity];
-        mike = argCorge;
+        report = option[entity];
+        michal = argCor;
         entity = undefined;
-        mike = mike.bind(entity)(report);
-        mike = 1;
-        mike = options[mike];
-        report = golf.bind(entity)(mike);
-        mike = report.View;
-        var _closure1_slot0 = mike;
+        michal = michal.bind(entity)(report);
+        michal = 1;
+        michal = option[michal];
+        report = golfie.bind(entity)(michal);
+        michal = report.View;
+        var _closure1_slot0 = michal;
         report = report.StyleSheet;
         var _closure1_slot1 = report;
         report = 2;
-        report = options[report];
-        report = golf.bind(entity)(report);
+        report = option[report];
+        report = golfie.bind(entity)(report);
         report = report.jsx;
         var _closure1_slot2 = report;
-        oscar = 3;
-        report = options[oscar];
-        verify = golf.bind(entity)(report);
+        oscard = 3;
+        report = option[oscard];
+        verify = golfie.bind(entity)(report);
         report = verify.isIOS;
         verify = report.bind(verify)();
-        report = mike;
+        report = michal;
         if(!verify) { _fun00002_ip = 157; continue _fun00001 }
  139:
         verify = 4;
-        verify = options[verify];
-        verify = golf.bind(entity)(verify);
+        verify = option[verify];
+        verify = golfie.bind(entity)(verify);
         report = verify.FullWindowOverlay;
  157:
         var _closure1_slot3 = report;
-        oscar = options[oscar];
-        verify = golf.bind(entity)(oscar);
-        oscar = verify.isIOS;
-        oscar = oscar.bind(verify)();
-        if(!oscar) { _fun00002_ip = 198; continue _fun00001 }
+        oscard = option[oscard];
+        verify = golfie.bind(entity)(oscard);
+        oscard = verify.isIOS;
+        oscard = oscard.bind(verify)();
+        if(!oscard) { _fun00002_ip = 198; continue _fun00001 }
  183:
-        oscar = 5;
-        verify = options[oscar];
-        oscar = argBaz;
-        mike = oscar.bind(entity)(verify);
+        oscard = 5;
+        verify = option[oscard];
+        oscard = argBaz;
+        michal = oscard.bind(entity)(verify);
  198:
-        oscar = 6;
-        oscar = options[oscar];
-        options = golf.bind(entity)(oscar);
-        golf = options.fileFinishedImporting;
-        oscar = 'uikit-native/OverlayView.tsx';
-        oscar = golf.bind(options)(oscar);
-        zulu['default'] = report;
-        tango = function(argFoo) { // Original name: TransitionGroupOverlayView
+        oscard = 6;
+        oscard = option[oscard];
+        option = golfie.bind(entity)(oscard);
+        golfie = option.fileFinishedImporting;
+        oscard = 'uikit-native/OverlayView.tsx';
+        oscard = golfie.bind(option)(oscard);
+        zuuluu['default'] = report;
+        tangon = function(argFoo) { // Original name: TransitionGroupOverlayView
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = argFoo;
-                options = zulu.children;
-                tango = null;
-                mike = Object.create(tango);
+                zuuluu = argFoo;
+                option = zuuluu.children;
+                tangon = null;
+                michal = Object.create(tangon);
                 report = 0;
-                mike['children'] = report;
+                michal['children'] = report;
                 yankee = {};
-                offset = zulu;
-                verify = mike;
-                mike = copyDataProperties(yankee, offset, verify);
+                offset = zuuluu;
+                verify = michal;
+                michal = copyDataProperties(yankee, offset, verify);
                 entity = global;
-                zulu = entity.Array;
-                entity = zulu.isArray;
-                zulu = entity.bind(zulu)(options);
+                zuuluu = entity.Array;
+                entity = zuuluu.isArray;
+                zuuluu = entity.bind(zuuluu)(option);
                 entity = null;
-                if(!zulu) { _fun00004_ip = 138; continue _fun00003 }
+                if(!zuuluu) { _fun00004_ip = 138; continue _fun00003 }
  54:
-                zulu = options.length;
-                zulu = zulu > report;
+                zuuluu = option.length;
+                zuuluu = zuuluu > report;
                 entity = null;
-                if(!zulu) { _fun00004_ip = 138; continue _fun00003 }
+                if(!zuuluu) { _fun00004_ip = 138; continue _fun00003 }
  68:
                 report = _closure1_slot2;
-                tango = _closure1_slot3;
-                zulu = {};
-                golf = _closure1_slot1;
-                golf = golf.absoluteFill;
-                zulu['style'] = golf;
-                golf = _closure1_slot0;
-                oscar = {};
-                yankee = oscar;
-                offset = mike;
-                mike = copyDataProperties(yankee, offset);
-                mike = 'children';
-                oscar[mike] = options;
-                mike = undefined;
-                oscar = report.bind(mike)(golf, oscar);
-                zulu['children'] = oscar;
-                entity = report.bind(mike)(tango, zulu);
+                tangon = _closure1_slot3;
+                zuuluu = {};
+                golfie = _closure1_slot1;
+                golfie = golfie.absoluteFill;
+                zuuluu['style'] = golfie;
+                golfie = _closure1_slot0;
+                oscard = {};
+                yankee = oscard;
+                offset = michal;
+                michal = copyDataProperties(yankee, offset);
+                michal = 'children';
+                oscard[michal] = option;
+                michal = undefined;
+                oscard = report.bind(michal)(golfie, oscard);
+                zuuluu['children'] = oscard;
+                entity = report.bind(michal)(tangon, zuuluu);
  138:
                 return entity;
             }
         };
-        zulu['TransitionGroupOverlayView'] = tango;
-        zulu['NonExpandingOverlayView'] = mike;
+        zuuluu['TransitionGroupOverlayView'] = tangon;
+        zuuluu['NonExpandingOverlayView'] = michal;
         return entity;
     }
 })();

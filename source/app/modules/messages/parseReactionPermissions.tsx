@@ -1,101 +1,101 @@
 // app/modules/messages/parseReactionPermissions.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/messages/parseReactionPermissions.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: parseReactionPermissions
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/messages/parseReactionPermissions.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: parseReactionPermissions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            options = entity.channel;
-            zulu = entity.canChat;
-            golf = entity.renderReactions;
-            romeo = entity.canAddNewReactions;
-            mike = entity.isLurking;
-            oscar = entity.isGuest;
+            option = entity.channel;
+            zuuluu = entity.canChat;
+            golfie = entity.renderReactions;
+            romeon = entity.canAddNewReactions;
+            michal = entity.isLurking;
+            oscard = entity.isGuest;
             report = entity.communicationDisabled;
             verify = entity.isActiveChannelOrUnarchivableThread;
-            tango = entity.isAutomodQuarantined;
-            entity = options.isPrivate;
-            yankee = entity.bind(options)();
-            entity = options.isSystemDM;
-            offset = entity.bind(options)();
-            if(zulu) { _fun00002_ip = 82; continue _fun00001 }
+            tangon = entity.isAutomodQuarantined;
+            entity = option.isPrivate;
+            yankee = entity.bind(option)();
+            entity = option.isSystemDM;
+            offset = entity.bind(option)();
+            if(zuuluu) { _fun00002_ip = 82; continue _fun00001 }
  79:
-            zulu = yankee;
+            zuuluu = yankee;
  82:
-            if(!zulu) { _fun00002_ip = 88; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 88; continue _fun00001 }
  85:
-            zulu = verify;
+            zuuluu = verify;
  88:
             entity = {};
-            golf = !golf;
-            entity['disableReactionReads'] = golf;
-            golf = mike;
-            if(mike) { _fun00002_ip = 107; continue _fun00001 }
+            golfie = !golfie;
+            entity['disableReactionReads'] = golfie;
+            golfie = michal;
+            if(michal) { _fun00002_ip = 107; continue _fun00001 }
  104:
-            golf = oscar;
+            golfie = oscard;
  107:
-            if(golf) { _fun00002_ip = 113; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 113; continue _fun00001 }
  110:
-            golf = !zulu;
+            golfie = !zuuluu;
  113:
-            if(golf) { _fun00002_ip = 143; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 143; continue _fun00001 }
  116:
-            options = true;
-            options = options === romeo;
-            if(options) { _fun00002_ip = 128; continue _fun00001 }
+            option = true;
+            option = option === romeon;
+            if(option) { _fun00002_ip = 128; continue _fun00001 }
  125:
-            options = yankee;
+            option = yankee;
  128:
-            if(!options) { _fun00002_ip = 134; continue _fun00001 }
+            if(!option) { _fun00002_ip = 134; continue _fun00001 }
  131:
-            options = !offset;
+            option = !offset;
  134:
-            if(!options) { _fun00002_ip = 140; continue _fun00001 }
+            if(!option) { _fun00002_ip = 140; continue _fun00001 }
  137:
-            options = verify;
+            option = verify;
  140:
-            golf = !options;
+            golfie = !option;
  143:
-            entity['disableReactionCreates'] = golf;
-            if(mike) { _fun00002_ip = 154; continue _fun00001 }
+            entity['disableReactionCreates'] = golfie;
+            if(michal) { _fun00002_ip = 154; continue _fun00001 }
  151:
-            mike = oscar;
+            michal = oscard;
  154:
-            if(mike) { _fun00002_ip = 160; continue _fun00001 }
+            if(michal) { _fun00002_ip = 160; continue _fun00001 }
  157:
-            mike = !zulu;
+            michal = !zuuluu;
  160:
-            if(mike) { _fun00002_ip = 169; continue _fun00001 }
+            if(michal) { _fun00002_ip = 169; continue _fun00001 }
  163:
-            zulu = true;
-            mike = zulu === report;
+            zuuluu = true;
+            michal = zuuluu === report;
  169:
-            if(mike) { _fun00002_ip = 178; continue _fun00001 }
+            if(michal) { _fun00002_ip = 178; continue _fun00001 }
  172:
-            zulu = true;
-            mike = zulu === tango;
+            zuuluu = true;
+            michal = zuuluu === tangon;
  178:
-            entity['disableReactionUpdates'] = mike;
+            entity['disableReactionUpdates'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

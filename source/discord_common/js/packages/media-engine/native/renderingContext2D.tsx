@@ -1,51 +1,51 @@
 // discord_common/js/packages/media-engine/native/renderingContext2D.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_common/js/packages/media-engine/native/renderingContext2D.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: initRenderingContext2D
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_common/js/packages/media-engine/native/renderingContext2D.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: initRenderingContext2D
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = tango.getContext;
+            tangon = argFoo;
+            michal = tangon.getContext;
             entity = '2d';
-            mike = mike.bind(tango)(entity);
-            var _closure2_slot0 = mike;
+            michal = michal.bind(tangon)(entity);
+            var _closure2_slot0 = michal;
             entity = null;
-            mike = entity == mike;
-            if(mike) { _fun00002_ip = 50; continue _fun00001 }
+            michal = entity == michal;
+            if(michal) { _fun00002_ip = 50; continue _fun00001 }
  35:
-            mike = {};
-            zulu = function(argFoo) { // Original name: render
-                tango = _closure2_slot0;
-                zulu = tango.putImageData;
-                mike = argFoo;
+            michal = {};
+            zuuluu = function(argFoo) { // Original name: render
+                tangon = _closure2_slot0;
+                zuuluu = tangon.putImageData;
+                michal = argFoo;
                 entity = 0;
-                entity = zulu.bind(tango)(mike, entity, entity);
+                entity = zuuluu.bind(tangon)(michal, entity, entity);
                 entity = undefined;
                 return entity;
             };
-            mike['render'] = zulu;
-            entity = mike;
+            michal['render'] = zuuluu;
+            entity = michal;
  50:
             return entity;
         }
     };
-    zulu['initRenderingContext2D'] = mike;
+    zuuluu['initRenderingContext2D'] = michal;
     return entity;
 })();

@@ -1,126 +1,126 @@
 // app/modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
-    tango = global;
-    verify = tango.Object;
-    options = verify.defineProperty;
-    golf = {};
+    var _closure1_slot1 = oscard;
+    tangon = global;
+    verify = tangon.Object;
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 0;
-    options = oscar[entity];
-    golf = argCorge;
+    option = oscard[entity];
+    golfie = argCor;
     entity = undefined;
-    golf = golf.bind(entity)(options);
-    var _closure1_slot2 = golf;
-    options = tango.Set;
-    golf = 1;
-    tango = oscar[golf];
-    tango = report.bind(entity)(tango);
-    tango = tango.NotificationCenterLocalItems;
-    verify = tango.INCOMING_GAME_FRIEND_REQUESTS;
-    tango = new Array(4);
-    tango[0] = verify;
-    verify = oscar[golf];
+    golfie = golfie.bind(entity)(option);
+    var _closure1_slot2 = golfie;
+    option = tangon.Set;
+    golfie = 1;
+    tangon = oscard[golfie];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NotificationCenterLocalItems;
+    verify = tangon.INCOMING_GAME_FRIEND_REQUESTS;
+    tangon = new Array(4);
+    tangon[0] = verify;
+    verify = oscard[golfie];
     verify = report.bind(entity)(verify);
     verify = verify.NotificationCenterLocalItems;
     verify = verify.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
-    tango[1] = verify;
-    verify = oscar[golf];
+    tangon[1] = verify;
+    verify = oscard[golfie];
     verify = report.bind(entity)(verify);
     verify = verify.NotificationCenterLocalItems;
     verify = verify.INCOMING_FRIEND_REQUESTS;
-    tango[2] = verify;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.NotificationCenterLocalItems;
-    golf = golf.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-    tango[3] = golf;
-    golf = options.prototype;
-    golf = Object.create(golf, {constructor: {value: options}});
-    foxtrot = golf;
-    romeo = tango;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useGetOrFetchNotificationCenterItemsApplications
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon[2] = verify;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.NotificationCenterLocalItems;
+    golfie = golfie.INCOMING_FRIEND_REQUESTS_ACCEPTED;
+    tangon[3] = golfie;
+    golfie = option.prototype;
+    golfie = Object.create(golfie, {constructor: {value: option}});
+    foxtra = golfie;
+    romeon = tangon;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useGetOrFetchNotificationCenterItemsApplications
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot2;
-        tango = report.useMemo;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function() {
+        tangon = report.useMemo;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function() {
             entity = global;
             entity = entity.Set;
-            zulu = entity.prototype;
-            zulu = Object.create(zulu, {constructor: {value: entity}});
-            oscar = zulu;
-            entity = new oscar[entity](report);
-            entity = entity instanceof Object ? entity : zulu;
+            zuuluu = entity.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
+            oscard = zuuluu;
+            entity = new oscard[entity](report);
+            entity = entity instanceof Object ? entity : zuuluu;
             var _closure3_slot0 = entity;
             entity = new Array(0);
             var _closure3_slot1 = entity;
-            tango = _closure2_slot0;
-            zulu = tango.forEach;
-            mike = function(argFoo) {
+            tangon = _closure2_slot0;
+            zuuluu = tangon.forEach;
+            michal = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    zulu = entity.applicationId;
-                    tango = entity.type;
-                    mike = _closure1_slot3;
-                    entity = mike.has;
-                    entity = entity.bind(mike)(tango);
+                    zuuluu = entity.applicationId;
+                    tangon = entity.type;
+                    michal = _closure1_slot3;
+                    entity = michal.has;
+                    entity = entity.bind(michal)(tangon);
                     if(!entity) { _fun00002_ip = 93; continue _fun00001 }
  33:
                     entity = null;
-                    entity = entity == zulu;
+                    entity = entity == zuuluu;
                     if(entity) { _fun00002_ip = 59; continue _fun00001 }
  42:
-                    tango = _closure3_slot0;
-                    mike = tango.has;
-                    entity = mike.bind(tango)(zulu);
+                    tangon = _closure3_slot0;
+                    michal = tangon.has;
+                    entity = michal.bind(tangon)(zuuluu);
  59:
                     if(entity) { _fun00002_ip = 93; continue _fun00001 }
  62:
-                    tango = _closure3_slot0;
-                    mike = tango.add;
-                    mike = mike.bind(tango)(zulu);
-                    mike = _closure3_slot1;
-                    entity = mike.push;
-                    entity = entity.bind(mike)(zulu);
+                    tangon = _closure3_slot0;
+                    michal = tangon.add;
+                    michal = michal.bind(tangon)(zuuluu);
+                    michal = _closure3_slot1;
+                    entity = michal.push;
+                    entity = entity.bind(michal)(zuuluu);
  93:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        zulu = tango.bind(report)(mike, zulu);
-        tango = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = tangon.bind(report)(michal, zuuluu);
+        tangon = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        entity = mike[entity];
-        mike = undefined;
-        entity = tango.bind(mike)(entity);
-        entity = entity.bind(mike)(zulu);
+        entity = michal[entity];
+        michal = undefined;
+        entity = tangon.bind(michal)(entity);
+        entity = entity.bind(michal)(zuuluu);
         return entity;
     };
-    zulu['useGetOrFetchNotificationCenterItemsApplications'] = mike;
+    zuuluu['useGetOrFetchNotificationCenterItemsApplications'] = michal;
     return entity;
 })();

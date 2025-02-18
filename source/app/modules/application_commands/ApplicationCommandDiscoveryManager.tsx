@@ -1,63 +1,63 @@
 // app/modules/application_commands/ApplicationCommandDiscoveryManager.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {};
-        mike = undefined;
-        entity['initialSectionId'] = mike;
+        michal = undefined;
+        entity['initialSectionId'] = michal;
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/application_commands/ApplicationCommandDiscoveryManager.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useCommandDiscoveryManager'] = tango;
-    mike = function(argFoo) { // Original name: updateInitialSectionId
+    report = oscard.bind(golfie)(report);
+    zuuluu['useCommandDiscoveryManager'] = tangon;
+    michal = function(argFoo) { // Original name: updateInitialSectionId
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = function() {
                 entity = {};
-                mike = _closure2_slot0;
-                entity['initialSectionId'] = mike;
+                michal = _closure2_slot0;
+                entity['initialSectionId'] = michal;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updateInitialSectionId'] = mike;
+    zuuluu['updateInitialSectionId'] = michal;
     return entity;
 })();

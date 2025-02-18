@@ -1,30 +1,30 @@
 // discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'block_profile_update';
-    mike['BLOCK_PROFILE_UPDATE'] = entity;
+    michal['BLOCK_PROFILE_UPDATE'] = entity;
     entity = 'quarantine_user';
-    mike['QUARANTINE_USER'] = entity;
+    michal['QUARANTINE_USER'] = entity;
     entity = 'block_guest_join';
-    mike['BLOCK_GUEST_JOIN'] = entity;
-    tango = argPlugh;
+    michal['BLOCK_GUEST_JOIN'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['AutomodQuarantineUserActionMessageEmbedKeys'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['AutomodQuarantineUserActionMessageEmbedKeys'] = michal;
     return entity;
 })();

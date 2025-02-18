@@ -1,222 +1,222 @@
 // discord_common/js/packages/media-engine/native/transformStats.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = function(argFoo) { // Original name: convertAudioLevel
-        mike = argFoo;
+        michal = argFoo;
         entity = 32768;
-        entity = mike / entity;
+        entity = michal / entity;
         return entity;
     };
     var _closure1_slot2 = entity;
     entity = function(argFoo) { // Original name: sumBytes
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = null;
-            mike = report == oscar;
+            michal = report == oscard;
             entity = undefined;
-            if(mike) { _fun00002_ip = 20; continue _fun00001 }
+            if(michal) { _fun00002_ip = 20; continue _fun00001 }
  14:
-            entity = oscar.headerBytes;
+            entity = oscard.headerBytes;
  20:
-            tango = report != entity;
-            mike = 0;
-            if(!tango) { _fun00002_ip = 32; continue _fun00001 }
+            tangon = report != entity;
+            michal = 0;
+            if(!tangon) { _fun00002_ip = 32; continue _fun00001 }
  29:
-            mike = entity;
+            michal = entity;
  32:
-            entity = report == oscar;
-            tango = undefined;
+            entity = report == oscard;
+            tangon = undefined;
             if(entity) { _fun00002_ip = 47; continue _fun00001 }
  41:
-            tango = oscar.payloadBytes;
+            tangon = oscard.payloadBytes;
  47:
-            golf = report != tango;
+            golfie = report != tangon;
             entity = 0;
-            if(!golf) { _fun00002_ip = 59; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 59; continue _fun00001 }
  56:
-            entity = tango;
+            entity = tangon;
  59:
-            mike = mike + entity;
-            entity = report == oscar;
-            tango = undefined;
+            michal = michal + entity;
+            entity = report == oscard;
+            tangon = undefined;
             if(entity) { _fun00002_ip = 78; continue _fun00001 }
  72:
-            tango = oscar.paddingBytes;
+            tangon = oscard.paddingBytes;
  78:
-            golf = report != tango;
+            golfie = report != tangon;
             entity = 0;
-            if(!golf) { _fun00002_ip = 90; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 90; continue _fun00001 }
  87:
-            entity = tango;
+            entity = tangon;
  90:
-            mike = mike + entity;
-            tango = report == oscar;
+            michal = michal + entity;
+            tangon = report == oscard;
             entity = undefined;
-            if(tango) { _fun00002_ip = 124; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 124; continue _fun00001 }
  103:
-            tango = oscar.fec;
-            golf = report == tango;
+            tangon = oscard.fec;
+            golfie = report == tangon;
             entity = undefined;
-            if(golf) { _fun00002_ip = 124; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 124; continue _fun00001 }
  118:
-            entity = tango.headerBytes;
+            entity = tangon.headerBytes;
  124:
-            golf = report != entity;
-            tango = 0;
-            if(!golf) { _fun00002_ip = 136; continue _fun00001 }
+            golfie = report != entity;
+            tangon = 0;
+            if(!golfie) { _fun00002_ip = 136; continue _fun00001 }
  133:
-            tango = entity;
+            tangon = entity;
  136:
-            entity = report == oscar;
-            golf = undefined;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 166; continue _fun00001 }
  145:
-            entity = oscar.fec;
+            entity = oscard.fec;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 166; continue _fun00001 }
  160:
-            golf = entity.payloadBytes;
+            golfie = entity.payloadBytes;
  166:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 178; continue _fun00001 }
  175:
-            entity = golf;
+            entity = golfie;
  178:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 212; continue _fun00001 }
  191:
-            entity = oscar.fec;
+            entity = oscard.fec;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 212; continue _fun00001 }
  206:
-            golf = entity.paddingBytes;
+            golfie = entity.paddingBytes;
  212:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 224; continue _fun00001 }
  221:
-            entity = golf;
+            entity = golfie;
  224:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 258; continue _fun00001 }
  237:
-            entity = oscar.retransmitted;
+            entity = oscard.retransmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 258; continue _fun00001 }
  252:
-            golf = entity.headerBytes;
+            golfie = entity.headerBytes;
  258:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 270; continue _fun00001 }
  267:
-            entity = golf;
+            entity = golfie;
  270:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 304; continue _fun00001 }
  283:
-            entity = oscar.retransmitted;
+            entity = oscard.retransmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 304; continue _fun00001 }
  298:
-            golf = entity.payloadBytes;
+            golfie = entity.payloadBytes;
  304:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 316; continue _fun00001 }
  313:
-            entity = golf;
+            entity = golfie;
  316:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 350; continue _fun00001 }
  329:
-            entity = oscar.retransmitted;
+            entity = oscard.retransmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 350; continue _fun00001 }
  344:
-            golf = entity.paddingBytes;
+            golfie = entity.paddingBytes;
  350:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 362; continue _fun00001 }
  359:
-            entity = golf;
+            entity = golfie;
  362:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 396; continue _fun00001 }
  375:
-            entity = oscar.transmitted;
+            entity = oscard.transmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 396; continue _fun00001 }
  390:
-            golf = entity.headerBytes;
+            golfie = entity.headerBytes;
  396:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 408; continue _fun00001 }
  405:
-            entity = golf;
+            entity = golfie;
  408:
-            tango = tango + entity;
-            entity = report == oscar;
-            golf = undefined;
+            tangon = tangon + entity;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00002_ip = 442; continue _fun00001 }
  421:
-            entity = oscar.transmitted;
+            entity = oscard.transmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 442; continue _fun00001 }
  436:
-            golf = entity.payloadBytes;
+            golfie = entity.payloadBytes;
  442:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00002_ip = 454; continue _fun00001 }
  451:
-            entity = golf;
+            entity = golfie;
  454:
-            entity = tango + entity;
-            golf = report == oscar;
-            tango = undefined;
-            if(golf) { _fun00002_ip = 488; continue _fun00001 }
+            entity = tangon + entity;
+            golfie = report == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00002_ip = 488; continue _fun00001 }
  467:
-            oscar = oscar.transmitted;
-            golf = report == oscar;
-            tango = undefined;
-            if(golf) { _fun00002_ip = 488; continue _fun00001 }
+            oscard = oscard.transmitted;
+            golfie = report == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00002_ip = 488; continue _fun00001 }
  482:
-            tango = oscar.paddingBytes;
+            tangon = oscard.paddingBytes;
  488:
-            report = report != tango;
-            zulu = 0;
+            report = report != tangon;
+            zuuluu = 0;
             if(!report) { _fun00002_ip = 500; continue _fun00001 }
  497:
-            zulu = tango;
+            zuuluu = tangon;
  500:
-            entity = entity + zulu;
-            entity = entity + mike;
+            entity = entity + zuuluu;
+            entity = entity + michal;
             return entity;
         }
     };
@@ -224,74 +224,74 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = function(argFoo) { // Original name: sumPackets
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = null;
-            mike = report == oscar;
+            michal = report == oscard;
             entity = undefined;
-            if(mike) { _fun00004_ip = 20; continue _fun00003 }
+            if(michal) { _fun00004_ip = 20; continue _fun00003 }
  14:
-            entity = oscar.packets;
+            entity = oscard.packets;
  20:
-            tango = report != entity;
-            mike = 0;
-            if(!tango) { _fun00004_ip = 32; continue _fun00003 }
+            tangon = report != entity;
+            michal = 0;
+            if(!tangon) { _fun00004_ip = 32; continue _fun00003 }
  29:
-            mike = entity;
+            michal = entity;
  32:
-            tango = report == oscar;
+            tangon = report == oscard;
             entity = undefined;
-            if(tango) { _fun00004_ip = 62; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 62; continue _fun00003 }
  41:
-            tango = oscar.fec;
-            golf = report == tango;
+            tangon = oscard.fec;
+            golfie = report == tangon;
             entity = undefined;
-            if(golf) { _fun00004_ip = 62; continue _fun00003 }
+            if(golfie) { _fun00004_ip = 62; continue _fun00003 }
  56:
-            entity = tango.packets;
+            entity = tangon.packets;
  62:
-            golf = report != entity;
-            tango = 0;
-            if(!golf) { _fun00004_ip = 74; continue _fun00003 }
+            golfie = report != entity;
+            tangon = 0;
+            if(!golfie) { _fun00004_ip = 74; continue _fun00003 }
  71:
-            tango = entity;
+            tangon = entity;
  74:
-            entity = report == oscar;
-            golf = undefined;
+            entity = report == oscard;
+            golfie = undefined;
             if(entity) { _fun00004_ip = 104; continue _fun00003 }
  83:
-            entity = oscar.retransmitted;
+            entity = oscard.retransmitted;
             verify = report == entity;
-            golf = undefined;
+            golfie = undefined;
             if(verify) { _fun00004_ip = 104; continue _fun00003 }
  98:
-            golf = entity.packets;
+            golfie = entity.packets;
  104:
-            verify = report != golf;
+            verify = report != golfie;
             entity = 0;
             if(!verify) { _fun00004_ip = 116; continue _fun00003 }
  113:
-            entity = golf;
+            entity = golfie;
  116:
-            entity = tango + entity;
-            golf = report == oscar;
-            tango = undefined;
-            if(golf) { _fun00004_ip = 150; continue _fun00003 }
+            entity = tangon + entity;
+            golfie = report == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00004_ip = 150; continue _fun00003 }
  129:
-            oscar = oscar.transmitted;
-            golf = report == oscar;
-            tango = undefined;
-            if(golf) { _fun00004_ip = 150; continue _fun00003 }
+            oscard = oscard.transmitted;
+            golfie = report == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00004_ip = 150; continue _fun00003 }
  144:
-            tango = oscar.packets;
+            tangon = oscard.packets;
  150:
-            report = report != tango;
-            zulu = 0;
+            report = report != tangon;
+            zuuluu = 0;
             if(!report) { _fun00004_ip = 162; continue _fun00003 }
  159:
-            zulu = tango;
+            zuuluu = tangon;
  162:
-            entity = entity + zulu;
-            entity = entity + mike;
+            entity = entity + zuuluu;
+            entity = entity + michal;
             return entity;
         }
     };
@@ -301,60 +301,60 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  0:
             offset = argFoo;
             entity = {};
-            options = offset;
-            tango = global;
-            zulu = 1000;
-            mike = null;
-            for(report in options)
+            option = offset;
+            tangon = global;
+            zuuluu = 1000;
+            michal = null;
+            for(report in option)
  29:
             {
  41:
-                romeo = report;
-                backup = offset[romeo];
-                foxtrot = mike != backup;
+                romeon = report;
+                backup = offset[romeon];
+                foxtra = michal != backup;
                 yankee = null;
-                if(!foxtrot) { _fun00006_ip = 249; continue _fun00005 }
+                if(!foxtra) { _fun00006_ip = 249; continue _fun00005 }
  60:
-                foxtrot = {};
-                output = tango.Math;
+                foxtra = {};
+                output = tangon.Math;
                 sizing = output.round;
-                kilo = backup.last;
-                kilo = zulu * kilo;
-                kilo = sizing.bind(output)(kilo);
-                foxtrot['last'] = kilo;
-                output = tango.Math;
+                kiloes = backup.last;
+                kiloes = zuuluu * kiloes;
+                kiloes = sizing.bind(output)(kiloes);
+                foxtra['last'] = kiloes;
+                output = tangon.Math;
                 sizing = output.round;
-                kilo = backup.mean;
-                kilo = zulu * kilo;
-                kilo = sizing.bind(output)(kilo);
-                foxtrot['mean'] = kilo;
-                output = tango.Math;
+                kiloes = backup.mean;
+                kiloes = zuuluu * kiloes;
+                kiloes = sizing.bind(output)(kiloes);
+                foxtra['mean'] = kiloes;
+                output = tangon.Math;
                 sizing = output.round;
-                kilo = backup.p75;
-                kilo = zulu * kilo;
-                kilo = sizing.bind(output)(kilo);
-                foxtrot['p75'] = kilo;
-                output = tango.Math;
+                kiloes = backup.p75;
+                kiloes = zuuluu * kiloes;
+                kiloes = sizing.bind(output)(kiloes);
+                foxtra['p75'] = kiloes;
+                output = tangon.Math;
                 sizing = output.round;
-                kilo = backup.p95;
-                kilo = zulu * kilo;
-                kilo = sizing.bind(output)(kilo);
-                foxtrot['p95'] = kilo;
-                output = tango.Math;
+                kiloes = backup.p95;
+                kiloes = zuuluu * kiloes;
+                kiloes = sizing.bind(output)(kiloes);
+                foxtra['p95'] = kiloes;
+                output = tangon.Math;
                 sizing = output.round;
-                kilo = backup.p99;
-                kilo = zulu * kilo;
-                kilo = sizing.bind(output)(kilo);
-                foxtrot['p99'] = kilo;
-                sizing = tango.Math;
-                kilo = sizing.round;
+                kiloes = backup.p99;
+                kiloes = zuuluu * kiloes;
+                kiloes = sizing.bind(output)(kiloes);
+                foxtra['p99'] = kiloes;
+                sizing = tangon.Math;
+                kiloes = sizing.round;
                 backup = backup.max;
-                backup = zulu * backup;
-                backup = kilo.bind(sizing)(backup);
-                foxtrot['max'] = backup;
-                yankee = foxtrot;
+                backup = zuuluu * backup;
+                backup = kiloes.bind(sizing)(backup);
+                foxtra['max'] = backup;
+                yankee = foxtra;
  249:
-                entity[romeo] = yankee;
+                entity[romeon] = yankee;
                 _fun00006_ip = 29; continue _fun00005;
             }
  258:
@@ -366,77 +366,77 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
-            romeo = argBar;
-            tango = report.substreams;
-            zulu = tango.find;
-            mike = function(argFoo) {
+            romeon = argBar;
+            tangon = report.substreams;
+            zuuluu = tangon.find;
+            michal = function(argFoo) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                    mike = argFoo;
-                    entity = mike.isRTX;
+                    michal = argFoo;
+                    entity = michal.isRTX;
                     entity = !entity;
                     if(!entity) { _fun00010_ip = 28; continue _fun00009 }
  17:
-                    mike = mike.isFlexFEC;
-                    entity = !mike;
+                    michal = michal.isFlexFEC;
+                    entity = !michal;
  28:
                     return entity;
                 }
             };
-            zulu = zulu.bind(tango)(mike);
-            tango = null;
-            if(!(tango == zulu)) { _fun00008_ip = 39; continue _fun00007 }
+            zuuluu = zuuluu.bind(tangon)(michal);
+            tangon = null;
+            if(!(tangon == zuuluu)) { _fun00008_ip = 39; continue _fun00007 }
  35:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  39:
-            options = report.substreams;
-            golf = options.reduce;
-            mike = function(argFoo, argBar) {
-                zulu = _closure1_slot3;
+            option = report.substreams;
+            golfie = option.reduce;
+            michal = function(argFoo, argBar) {
+                zuuluu = _closure1_slot3;
                 entity = argBar;
-                mike = entity.rtpStats;
+                michal = entity.rtpStats;
                 entity = undefined;
-                mike = zulu.bind(entity)(mike);
+                michal = zuuluu.bind(entity)(michal);
                 entity = argFoo;
-                entity = entity + mike;
+                entity = entity + michal;
                 return entity;
             };
-            oscar = 0;
-            options = golf.bind(options)(mike, oscar);
-            golf = report.substreams;
-            mike = golf.reduce;
+            oscard = 0;
+            option = golfie.bind(option)(michal, oscard);
+            golfie = report.substreams;
+            michal = golfie.reduce;
             entity = function(argFoo, argBar) {
-                zulu = _closure1_slot4;
+                zuuluu = _closure1_slot4;
                 entity = argBar;
-                mike = entity.rtpStats;
+                michal = entity.rtpStats;
                 entity = undefined;
-                mike = zulu.bind(entity)(mike);
+                michal = zuuluu.bind(entity)(michal);
                 entity = argFoo;
-                entity = entity + mike;
+                entity = entity + michal;
                 return entity;
             };
-            golf = mike.bind(golf)(entity, oscar);
+            golfie = michal.bind(golfie)(entity, oscard);
             entity = {};
-            mike = 'video';
-            entity['type'] = mike;
-            mike = zulu.ssrc;
-            entity['ssrc'] = mike;
+            michal = 'video';
+            entity['type'] = michal;
+            michal = zuuluu.ssrc;
+            entity['ssrc'] = michal;
             offset = _closure1_slot0;
             verify = _closure1_slot1;
-            yankee = verify[oscar];
-            mike = undefined;
-            kilo = offset.bind(mike)(yankee);
-            backup = kilo.formatSinkWantStat;
-            foxtrot = zulu.ssrc;
+            yankee = verify[oscard];
+            michal = undefined;
+            kiloes = offset.bind(michal)(yankee);
+            backup = kiloes.formatSinkWantStat;
+            foxtra = zuuluu.ssrc;
             yankee = true;
-            yankee = backup.bind(kilo)(romeo, foxtrot, yankee);
+            yankee = backup.bind(kiloes)(romeon, foxtra, yankee);
             entity['sinkWant'] = yankee;
-            verify = verify[oscar];
-            yankee = offset.bind(mike)(verify);
+            verify = verify[oscard];
+            yankee = offset.bind(michal)(verify);
             offset = yankee.formatSinkWantAsInt;
-            verify = zulu.ssrc;
-            verify = offset.bind(yankee)(romeo, verify);
+            verify = zuuluu.ssrc;
+            verify = offset.bind(yankee)(romeon, verify);
             entity['sinkWantAsInt'] = verify;
             verify = {};
             offset = report.codecPayloadType;
@@ -446,1062 +446,1062 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['codec'] = verify;
             verify = report.keyFrameInterval;
             entity['keyFrameInterval'] = verify;
-            entity['bytesSent'] = options;
-            entity['packetsSent'] = golf;
-            golf = zulu.rtcpStats;
-            verify = tango == golf;
-            options = undefined;
+            entity['bytesSent'] = option;
+            entity['packetsSent'] = golfie;
+            golfie = zuuluu.rtcpStats;
+            verify = tangon == golfie;
+            option = undefined;
             if(verify) { _fun00008_ip = 257; continue _fun00007 }
  251:
-            options = golf.packetsLost;
+            option = golfie.packetsLost;
  257:
-            verify = tango != options;
-            golf = 0;
+            verify = tangon != option;
+            golfie = 0;
             if(!verify) { _fun00008_ip = 269; continue _fun00007 }
  266:
-            golf = options;
+            golfie = option;
  269:
-            entity['packetsLost'] = golf;
-            golf = zulu.rtcpStats;
-            verify = tango == golf;
-            options = undefined;
+            entity['packetsLost'] = golfie;
+            golfie = zuuluu.rtcpStats;
+            verify = tangon == golfie;
+            option = undefined;
             if(verify) { _fun00008_ip = 295; continue _fun00007 }
  289:
-            options = golf.fractionLost;
+            option = golfie.fractionLost;
  295:
-            verify = tango != options;
-            golf = 0;
+            verify = tangon != option;
+            golfie = 0;
             if(!verify) { _fun00008_ip = 307; continue _fun00007 }
  304:
-            golf = options;
+            golfie = option;
  307:
-            entity['fractionLost'] = golf;
-            golf = report.mediaBitrate;
-            entity['bitrate'] = golf;
-            golf = report.targetMediaBitrate;
-            entity['bitrateTarget'] = golf;
-            golf = report.encoderImplementationName;
-            entity['encoderImplementationName'] = golf;
-            golf = report.encodeUsage;
-            entity['encodeUsage'] = golf;
-            golf = report.avgEncodeTime;
-            entity['averageEncodeTime'] = golf;
-            golf = {};
-            options = zulu.height;
-            golf['height'] = options;
-            options = zulu.width;
-            golf['width'] = options;
-            entity['resolution'] = golf;
-            golf = zulu.frameCounts;
-            options = golf.keyFrames;
-            golf = zulu.frameCounts;
-            golf = golf.deltaFrames;
-            golf = options + golf;
-            entity['framesSent'] = golf;
-            golf = zulu.frameCounts;
-            golf = golf.keyFrames;
-            entity['keyFramesEncoded'] = golf;
-            golf = report.framesEncoded;
-            entity['framesEncoded'] = golf;
-            golf = report.inputFrameRate;
-            entity['frameRateInput'] = golf;
-            golf = report.encodeFrameRate;
-            entity['frameRateEncode'] = golf;
-            golf = zulu.rtcpStats;
-            verify = tango == golf;
-            options = undefined;
+            entity['fractionLost'] = golfie;
+            golfie = report.mediaBitrate;
+            entity['bitrate'] = golfie;
+            golfie = report.targetMediaBitrate;
+            entity['bitrateTarget'] = golfie;
+            golfie = report.encoderImplementationName;
+            entity['encoderImplementationName'] = golfie;
+            golfie = report.encodeUsage;
+            entity['encodeUsage'] = golfie;
+            golfie = report.avgEncodeTime;
+            entity['averageEncodeTime'] = golfie;
+            golfie = {};
+            option = zuuluu.height;
+            golfie['height'] = option;
+            option = zuuluu.width;
+            golfie['width'] = option;
+            entity['resolution'] = golfie;
+            golfie = zuuluu.frameCounts;
+            option = golfie.keyFrames;
+            golfie = zuuluu.frameCounts;
+            golfie = golfie.deltaFrames;
+            golfie = option + golfie;
+            entity['framesSent'] = golfie;
+            golfie = zuuluu.frameCounts;
+            golfie = golfie.keyFrames;
+            entity['keyFramesEncoded'] = golfie;
+            golfie = report.framesEncoded;
+            entity['framesEncoded'] = golfie;
+            golfie = report.inputFrameRate;
+            entity['frameRateInput'] = golfie;
+            golfie = report.encodeFrameRate;
+            entity['frameRateEncode'] = golfie;
+            golfie = zuuluu.rtcpStats;
+            verify = tangon == golfie;
+            option = undefined;
             if(verify) { _fun00008_ip = 506; continue _fun00007 }
  500:
-            options = golf.firPackets;
+            option = golfie.firPackets;
  506:
-            verify = tango != options;
-            golf = 0;
+            verify = tangon != option;
+            golfie = 0;
             if(!verify) { _fun00008_ip = 518; continue _fun00007 }
  515:
-            golf = options;
+            golfie = option;
  518:
-            entity['firCount'] = golf;
-            golf = zulu.rtcpStats;
-            verify = tango == golf;
-            options = undefined;
+            entity['firCount'] = golfie;
+            golfie = zuuluu.rtcpStats;
+            verify = tangon == golfie;
+            option = undefined;
             if(verify) { _fun00008_ip = 544; continue _fun00007 }
  538:
-            options = golf.nackPackets;
+            option = golfie.nackPackets;
  544:
-            verify = tango != options;
-            golf = 0;
+            verify = tangon != option;
+            golfie = 0;
             if(!verify) { _fun00008_ip = 556; continue _fun00007 }
  553:
-            golf = options;
+            golfie = option;
  556:
-            entity['nackCount'] = golf;
-            options = zulu.rtcpStats;
-            verify = tango == options;
-            golf = undefined;
+            entity['nackCount'] = golfie;
+            option = zuuluu.rtcpStats;
+            verify = tangon == option;
+            golfie = undefined;
             if(verify) { _fun00008_ip = 582; continue _fun00007 }
  576:
-            golf = options.pliPackets;
+            golfie = option.pliPackets;
  582:
-            options = tango != golf;
-            oscar = 0;
-            if(!options) { _fun00008_ip = 594; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = 0;
+            if(!option) { _fun00008_ip = 594; continue _fun00007 }
  591:
-            oscar = golf;
+            oscard = golfie;
  594:
-            entity['pliCount'] = oscar;
-            oscar = report.qpSum;
-            entity['qpSum'] = oscar;
-            oscar = report.bwLimitedResolution;
-            entity['bandwidthLimitedResolution'] = oscar;
-            oscar = report.framesDroppedRateLimiter;
-            entity['framesDroppedRateLimiter'] = oscar;
-            oscar = report.framesDroppedEncoderQueue;
-            entity['framesDroppedEncoderQueue'] = oscar;
-            oscar = report.framesDroppedCongestionWindow;
-            entity['framesDroppedCongestionWindow'] = oscar;
-            oscar = report.framesDroppedEncoder;
-            entity['framesDroppedEncoder'] = oscar;
-            oscar = report.cpuLimitedResolution;
-            entity['cpuLimitedResolution'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 701; continue _fun00007 }
+            entity['pliCount'] = oscard;
+            oscard = report.qpSum;
+            entity['qpSum'] = oscard;
+            oscard = report.bwLimitedResolution;
+            entity['bandwidthLimitedResolution'] = oscard;
+            oscard = report.framesDroppedRateLimiter;
+            entity['framesDroppedRateLimiter'] = oscard;
+            oscard = report.framesDroppedEncoderQueue;
+            entity['framesDroppedEncoderQueue'] = oscard;
+            oscard = report.framesDroppedCongestionWindow;
+            entity['framesDroppedCongestionWindow'] = oscard;
+            oscard = report.framesDroppedEncoder;
+            entity['framesDroppedEncoder'] = oscard;
+            oscard = report.cpuLimitedResolution;
+            entity['cpuLimitedResolution'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 701; continue _fun00007 }
  693:
-            golf = oscar.imageQualityVmaf_v061;
+            golfie = oscard.imageQualityVmaf_v061;
  701:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 713; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 713; continue _fun00007 }
  710:
-            oscar = golf;
+            oscard = golfie;
  713:
-            entity['encoderQualityVmaf'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 741; continue _fun00007 }
+            entity['encoderQualityVmaf'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 741; continue _fun00007 }
  733:
-            golf = oscar.imageQualityWebrtcPsnrDb;
+            golfie = oscard.imageQualityWebrtcPsnrDb;
  741:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 753; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 753; continue _fun00007 }
  750:
-            oscar = golf;
+            oscard = golfie;
  753:
-            entity['encoderQualityPsnr'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 781; continue _fun00007 }
+            entity['encoderQualityPsnr'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 781; continue _fun00007 }
  773:
-            golf = oscar.decodeErrors;
+            golfie = oscard.decodeErrors;
  781:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 793; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 793; continue _fun00007 }
  790:
-            oscar = golf;
+            oscard = golfie;
  793:
-            entity['qualityDecodeErrors'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 821; continue _fun00007 }
+            entity['qualityDecodeErrors'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 821; continue _fun00007 }
  813:
-            golf = oscar.decoderReboots;
+            golfie = oscard.decoderReboots;
  821:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 833; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 833; continue _fun00007 }
  830:
-            oscar = golf;
+            oscard = golfie;
  833:
-            entity['qualityDecoderReboots'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 861; continue _fun00007 }
+            entity['qualityDecoderReboots'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 861; continue _fun00007 }
  853:
-            golf = oscar.scoreErrors;
+            golfie = oscard.scoreErrors;
  861:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 873; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 873; continue _fun00007 }
  870:
-            oscar = golf;
+            oscard = golfie;
  873:
-            entity['qualityScoreErrors'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 901; continue _fun00007 }
+            entity['qualityScoreErrors'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 901; continue _fun00007 }
  893:
-            golf = oscar.frameDrops;
+            golfie = oscard.frameDrops;
  901:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 913; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 913; continue _fun00007 }
  910:
-            oscar = golf;
+            oscard = golfie;
  913:
-            entity['qualityFrameDrops'] = oscar;
-            oscar = zulu.encoderQualityStats;
-            options = tango == oscar;
-            golf = undefined;
-            if(options) { _fun00008_ip = 941; continue _fun00007 }
+            entity['qualityFrameDrops'] = oscard;
+            oscard = zuuluu.encoderQualityStats;
+            option = tangon == oscard;
+            golfie = undefined;
+            if(option) { _fun00008_ip = 941; continue _fun00007 }
  933:
-            golf = oscar.sizeMismatches;
+            golfie = oscard.sizeMismatches;
  941:
-            options = tango != golf;
-            oscar = undefined;
-            if(!options) { _fun00008_ip = 953; continue _fun00007 }
+            option = tangon != golfie;
+            oscard = undefined;
+            if(!option) { _fun00008_ip = 953; continue _fun00007 }
  950:
-            oscar = golf;
+            oscard = golfie;
  953:
-            entity['qualitySizeMismatches'] = oscar;
-            oscar = report.filter;
-            entity['filter'] = oscar;
-            oscar = report.passthroughCount;
-            entity['passthroughCount'] = oscar;
-            oscar = report.encryptSuccessCount;
-            entity['encryptSuccessCount'] = oscar;
-            oscar = report.encryptFailureCount;
-            entity['encryptFailureCount'] = oscar;
-            oscar = report.encryptDuration;
-            entity['encryptDuration'] = oscar;
-            oscar = report.encryptAttempts;
-            entity['encryptAttempts'] = oscar;
-            oscar = report.encryptMaxAttempts;
-            entity['encryptMaxAttempts'] = oscar;
-            oscar = report.encryptMissingKeyCount;
-            entity['encryptMissingKeyCount'] = oscar;
-            oscar = report.hqSimulcastStreamEncoded;
-            entity['hqSimulcastStreamEncoded'] = oscar;
-            oscar = report.lqSimulcastStreamEncoded;
-            entity['lqSimulcastStreamEncoded'] = oscar;
+            entity['qualitySizeMismatches'] = oscard;
+            oscard = report.filter;
+            entity['filter'] = oscard;
+            oscard = report.passthroughCount;
+            entity['passthroughCount'] = oscard;
+            oscard = report.encryptSuccessCount;
+            entity['encryptSuccessCount'] = oscard;
+            oscard = report.encryptFailureCount;
+            entity['encryptFailureCount'] = oscard;
+            oscard = report.encryptDuration;
+            entity['encryptDuration'] = oscard;
+            oscard = report.encryptAttempts;
+            entity['encryptAttempts'] = oscard;
+            oscard = report.encryptMaxAttempts;
+            entity['encryptMaxAttempts'] = oscard;
+            oscard = report.encryptMissingKeyCount;
+            entity['encryptMissingKeyCount'] = oscard;
+            oscard = report.hqSimulcastStreamEncoded;
+            entity['hqSimulcastStreamEncoded'] = oscard;
+            oscard = report.lqSimulcastStreamEncoded;
+            entity['lqSimulcastStreamEncoded'] = oscard;
             report = report.bwLimitedFrameRate;
             entity['bandwidthLimitedFrameRate'] = report;
-            oscar = zulu.encoderQualityStats;
-            golf = tango == oscar;
+            oscard = zuuluu.encoderQualityStats;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00008_ip = 1100; continue _fun00007 }
+            if(golfie) { _fun00008_ip = 1100; continue _fun00007 }
  1094:
-            report = oscar.freezeCount;
+            report = oscard.freezeCount;
  1100:
             entity['freezeCount'] = report;
-            oscar = zulu.encoderQualityStats;
-            golf = tango == oscar;
+            oscard = zuuluu.encoderQualityStats;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00008_ip = 1126; continue _fun00007 }
+            if(golfie) { _fun00008_ip = 1126; continue _fun00007 }
  1120:
-            report = oscar.totalFreezesDuration;
+            report = oscard.totalFreezesDuration;
  1126:
             entity['totalFreezesDuration'] = report;
-            oscar = zulu.encoderQualityStats;
-            golf = tango == oscar;
+            oscard = zuuluu.encoderQualityStats;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00008_ip = 1152; continue _fun00007 }
+            if(golfie) { _fun00008_ip = 1152; continue _fun00007 }
  1146:
-            report = oscar.totalFramesDuration;
+            report = oscard.totalFramesDuration;
  1152:
             entity['totalFramesDuration'] = report;
-            zulu = zulu.encoderQualityStats;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00008_ip = 1180; continue _fun00007 }
+            zuuluu = zuuluu.encoderQualityStats;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00008_ip = 1180; continue _fun00007 }
  1172:
-            mike = zulu.interFrameEntropy;
+            michal = zuuluu.interFrameEntropy;
  1180:
-            entity['videoEntropy'] = mike;
+            entity['videoEntropy'] = michal;
             return entity;
         }
     };
     var _closure1_slot6 = entity;
-    entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: transformInboundVideoStats
+    entity = function(argFoo, argBar, argBaz, argCor) { // Original name: transformInboundVideoStats
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             sizing = argBar;
-            romeo = argBaz;
-            oscar = argCorge;
-            mike = _closure1_slot3;
-            entity = tango.rtpStats;
+            romeon = argBaz;
+            oscard = argCor;
+            michal = _closure1_slot3;
+            entity = tangon.rtpStats;
             report = undefined;
-            options = mike.bind(report)(entity);
-            mike = _closure1_slot4;
-            entity = tango.rtpStats;
-            mike = mike.bind(report)(entity);
+            option = michal.bind(report)(entity);
+            michal = _closure1_slot4;
+            entity = tangon.rtpStats;
+            michal = michal.bind(report)(entity);
             entity = {};
-            golf = 'video';
-            entity['type'] = golf;
-            golf = tango.ssrc;
-            entity['ssrc'] = golf;
+            golfie = 'video';
+            entity['type'] = golfie;
+            golfie = tangon.ssrc;
+            entity['ssrc'] = golfie;
             offset = _closure1_slot0;
             verify = _closure1_slot1;
-            golf = 0;
-            yankee = verify[golf];
+            golfie = 0;
+            yankee = verify[golfie];
             backup = offset.bind(report)(yankee);
-            foxtrot = backup.formatSinkWantStat;
-            yankee = tango.ssrc;
-            kilo = true;
-            yankee = foxtrot.bind(backup)(sizing, yankee, kilo);
+            foxtra = backup.formatSinkWantStat;
+            yankee = tangon.ssrc;
+            kiloes = true;
+            yankee = foxtra.bind(backup)(sizing, yankee, kiloes);
             entity['sinkWant'] = yankee;
-            yankee = verify[golf];
+            yankee = verify[golfie];
             backup = offset.bind(report)(yankee);
-            foxtrot = backup.formatSinkWantAsInt;
-            yankee = tango.ssrc;
-            yankee = foxtrot.bind(backup)(sizing, yankee);
+            foxtra = backup.formatSinkWantAsInt;
+            yankee = tangon.ssrc;
+            yankee = foxtra.bind(backup)(sizing, yankee);
             entity['sinkWantAsInt'] = yankee;
-            yankee = verify[golf];
+            yankee = verify[golfie];
             backup = offset.bind(report)(yankee);
-            foxtrot = backup.formatSinkWantStat;
-            yankee = tango.ssrc;
-            yankee = foxtrot.bind(backup)(romeo, yankee, kilo);
+            foxtra = backup.formatSinkWantStat;
+            yankee = tangon.ssrc;
+            yankee = foxtra.bind(backup)(romeon, yankee, kiloes);
             entity['sinkWantLocal'] = yankee;
-            verify = verify[golf];
+            verify = verify[golfie];
             yankee = offset.bind(report)(verify);
             offset = yankee.formatSinkWantAsInt;
-            verify = tango.ssrc;
-            verify = offset.bind(yankee)(romeo, verify);
+            verify = tangon.ssrc;
+            verify = offset.bind(yankee)(romeon, verify);
             entity['sinkWantLocalAsInt'] = verify;
             verify = {};
-            offset = tango.codecPayloadType;
+            offset = tangon.codecPayloadType;
             verify['id'] = offset;
-            offset = tango.codecName;
+            offset = tangon.codecName;
             verify['name'] = offset;
             entity['codec'] = verify;
-            entity['bytesReceived'] = options;
-            entity['packetsReceived'] = mike;
-            mike = tango.rtpStats;
-            options = mike.packetsLost;
-            mike = null;
-            if(!(mike == options)) { _fun00012_ip = 277; continue _fun00011 }
+            entity['bytesReceived'] = option;
+            entity['packetsReceived'] = michal;
+            michal = tangon.rtpStats;
+            option = michal.packetsLost;
+            michal = null;
+            if(!(michal == option)) { _fun00012_ip = 277; continue _fun00011 }
  265:
-            verify = tango.rtcpStats;
-            options = verify.packetsLost;
+            verify = tangon.rtcpStats;
+            option = verify.packetsLost;
  277:
-            entity['packetsLost'] = options;
-            options = tango.rtcpStats;
-            options = options.fractionLost;
-            entity['fractionLost'] = options;
-            options = tango.totalBitrate;
-            entity['bitrate'] = options;
-            options = tango.jitterBuffer;
-            entity['jitterBuffer'] = options;
-            options = tango.currentDelay;
-            entity['currentDelay'] = options;
-            options = tango.targetDelay;
-            entity['targetDelay'] = options;
-            options = tango.minPlayoutDelay;
-            entity['minPlayoutDelay'] = options;
-            options = tango.renderDelay;
-            entity['renderDelay'] = options;
-            options = tango.decode;
-            entity['averageDecodeTime'] = options;
-            options = {};
-            verify = tango.height;
-            options['height'] = verify;
-            verify = tango.width;
-            options['width'] = verify;
-            entity['resolution'] = options;
-            options = tango.decoderImplementationName;
-            entity['decoderImplementationName'] = options;
-            options = tango.framesDecoded;
-            entity['framesDecoded'] = options;
-            options = tango.framesDropped;
-            entity['framesDropped'] = options;
-            options = tango.framesDecodeErrors;
-            entity['framesDecodeErrors'] = options;
-            options = tango.frameCounts;
-            verify = options.keyFrames;
-            options = tango.frameCounts;
-            options = options.deltaFrames;
-            options = verify + options;
-            entity['framesReceived'] = options;
-            options = tango.networkFramesDropped;
-            verify = mike != options;
-            golf = 0;
+            entity['packetsLost'] = option;
+            option = tangon.rtcpStats;
+            option = option.fractionLost;
+            entity['fractionLost'] = option;
+            option = tangon.totalBitrate;
+            entity['bitrate'] = option;
+            option = tangon.jitterBuffer;
+            entity['jitterBuffer'] = option;
+            option = tangon.currentDelay;
+            entity['currentDelay'] = option;
+            option = tangon.targetDelay;
+            entity['targetDelay'] = option;
+            option = tangon.minPlayoutDelay;
+            entity['minPlayoutDelay'] = option;
+            option = tangon.renderDelay;
+            entity['renderDelay'] = option;
+            option = tangon.decode;
+            entity['averageDecodeTime'] = option;
+            option = {};
+            verify = tangon.height;
+            option['height'] = verify;
+            verify = tangon.width;
+            option['width'] = verify;
+            entity['resolution'] = option;
+            option = tangon.decoderImplementationName;
+            entity['decoderImplementationName'] = option;
+            option = tangon.framesDecoded;
+            entity['framesDecoded'] = option;
+            option = tangon.framesDropped;
+            entity['framesDropped'] = option;
+            option = tangon.framesDecodeErrors;
+            entity['framesDecodeErrors'] = option;
+            option = tangon.frameCounts;
+            verify = option.keyFrames;
+            option = tangon.frameCounts;
+            option = option.deltaFrames;
+            option = verify + option;
+            entity['framesReceived'] = option;
+            option = tangon.networkFramesDropped;
+            verify = michal != option;
+            golfie = 0;
             if(!verify) { _fun00012_ip = 500; continue _fun00011 }
  497:
-            golf = options;
+            golfie = option;
  500:
-            entity['networkFramesDropped'] = golf;
-            golf = tango.frameCounts;
-            golf = golf.keyFrames;
-            entity['keyFramesDecoded'] = golf;
-            golf = tango.decodeFrameRate;
-            entity['frameRateDecode'] = golf;
-            golf = tango.networkFrameRate;
-            entity['frameRateNetwork'] = golf;
-            golf = tango.renderFrameRate;
-            entity['frameRateRender'] = golf;
-            golf = tango.rtcpStats;
-            golf = golf.firPackets;
-            entity['firCount'] = golf;
-            golf = tango.rtcpStats;
-            golf = golf.nackPackets;
-            entity['nackCount'] = golf;
-            golf = tango.rtcpStats;
-            golf = golf.pliPackets;
-            entity['pliCount'] = golf;
-            golf = tango.qpSum;
-            entity['qpSum'] = golf;
-            golf = tango.freezeCount;
-            entity['freezeCount'] = golf;
-            golf = tango.pauseCount;
-            entity['pauseCount'] = golf;
-            golf = tango.totalFreezesDuration;
-            entity['totalFreezesDuration'] = golf;
-            golf = tango.totalPausesDuration;
-            entity['totalPausesDuration'] = golf;
-            golf = tango.totalFramesDuration;
-            entity['totalFramesDuration'] = golf;
-            golf = tango.sumOfSquaredFramesDurations;
-            entity['sumOfSquaredFramesDurations'] = golf;
-            golf = tango.passthroughCount;
-            entity['passthroughCount'] = golf;
-            golf = tango.decryptSuccessCount;
-            entity['decryptSuccessCount'] = golf;
-            golf = tango.decryptFailureCount;
-            entity['decryptFailureCount'] = golf;
-            golf = tango.decryptDuration;
-            entity['decryptDuration'] = golf;
-            golf = tango.decryptAttempts;
-            entity['decryptAttempts'] = golf;
-            golf = tango.decryptMissingKeyCount;
-            entity['decryptMissingKeyCount'] = golf;
-            tango = tango.decryptInvalidNonceCount;
-            entity['decryptInvalidNonceCount'] = tango;
-            if(!(mike == oscar)) { _fun00012_ip = 774; continue _fun00011 }
+            entity['networkFramesDropped'] = golfie;
+            golfie = tangon.frameCounts;
+            golfie = golfie.keyFrames;
+            entity['keyFramesDecoded'] = golfie;
+            golfie = tangon.decodeFrameRate;
+            entity['frameRateDecode'] = golfie;
+            golfie = tangon.networkFrameRate;
+            entity['frameRateNetwork'] = golfie;
+            golfie = tangon.renderFrameRate;
+            entity['frameRateRender'] = golfie;
+            golfie = tangon.rtcpStats;
+            golfie = golfie.firPackets;
+            entity['firCount'] = golfie;
+            golfie = tangon.rtcpStats;
+            golfie = golfie.nackPackets;
+            entity['nackCount'] = golfie;
+            golfie = tangon.rtcpStats;
+            golfie = golfie.pliPackets;
+            entity['pliCount'] = golfie;
+            golfie = tangon.qpSum;
+            entity['qpSum'] = golfie;
+            golfie = tangon.freezeCount;
+            entity['freezeCount'] = golfie;
+            golfie = tangon.pauseCount;
+            entity['pauseCount'] = golfie;
+            golfie = tangon.totalFreezesDuration;
+            entity['totalFreezesDuration'] = golfie;
+            golfie = tangon.totalPausesDuration;
+            entity['totalPausesDuration'] = golfie;
+            golfie = tangon.totalFramesDuration;
+            entity['totalFramesDuration'] = golfie;
+            golfie = tangon.sumOfSquaredFramesDurations;
+            entity['sumOfSquaredFramesDurations'] = golfie;
+            golfie = tangon.passthroughCount;
+            entity['passthroughCount'] = golfie;
+            golfie = tangon.decryptSuccessCount;
+            entity['decryptSuccessCount'] = golfie;
+            golfie = tangon.decryptFailureCount;
+            entity['decryptFailureCount'] = golfie;
+            golfie = tangon.decryptDuration;
+            entity['decryptDuration'] = golfie;
+            golfie = tangon.decryptAttempts;
+            entity['decryptAttempts'] = golfie;
+            golfie = tangon.decryptMissingKeyCount;
+            entity['decryptMissingKeyCount'] = golfie;
+            tangon = tangon.decryptInvalidNonceCount;
+            entity['decryptInvalidNonceCount'] = tangon;
+            if(!(michal == oscard)) { _fun00012_ip = 774; continue _fun00011 }
  770:
-            mike = {};
+            michal = {};
             _fun00012_ip = 818; continue _fun00011;
  774:
-            tango = _closure1_slot5;
-            zulu = {};
-            golf = oscar.videoJitterBuffer;
-            zulu['videoJitterBuffer'] = golf;
-            golf = oscar.videoJitterDelay;
-            zulu['videoJitterDelay'] = golf;
-            oscar = oscar.videoJitterTarget;
-            zulu['videoJitterTarget'] = oscar;
-            mike = tango.bind(report)(zulu);
+            tangon = _closure1_slot5;
+            zuuluu = {};
+            golfie = oscard.videoJitterBuffer;
+            zuuluu['videoJitterBuffer'] = golfie;
+            golfie = oscard.videoJitterDelay;
+            zuuluu['videoJitterDelay'] = golfie;
+            oscard = oscard.videoJitterTarget;
+            zuuluu['videoJitterTarget'] = oscard;
+            michal = tangon.bind(report)(zuuluu);
  818:
-            echo = entity;
-            result = mike;
-            mike = copyDataProperties(echo, result);
+            echoed = entity;
+            result = michal;
+            michal = copyDataProperties(echoed, result);
             return entity;
         }
     };
     var _closure1_slot7 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/native/transformStats.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: transformStats
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/native/transformStats.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: transformStats
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            tango = argBar;
+            tangon = argBar;
             verify = argBaz;
             var _closure2_slot0 = verify;
-            entity = argCorge;
+            entity = argCor;
             var _closure2_slot1 = entity;
-            oscar = null;
-            var _closure2_slot2 = oscar;
-            var _closure2_slot3 = oscar;
-            zulu = 'string';
-            mike = typeof tango;
-            entity = tango;
-            if(!(zulu === mike)) { _fun00014_ip = 62; continue _fun00013 }
+            oscard = null;
+            var _closure2_slot2 = oscard;
+            var _closure2_slot3 = oscard;
+            zuuluu = 'string';
+            michal = typeof tangon;
+            entity = tangon;
+            if(!(zuuluu === michal)) { _fun00014_ip = 62; continue _fun00013 }
  43:
-            mike = global;
-            zulu = mike.JSON;
-            mike = zulu.parse;
-            entity = mike.bind(zulu)(tango);
+            michal = global;
+            zuuluu = michal.JSON;
+            michal = zuuluu.parse;
+            entity = michal.bind(zuuluu)(tangon);
  62:
-            zulu = new Array(0);
-            var _closure2_slot4 = zulu;
-            mike = entity.outbound;
-            if(!(oscar != mike)) { _fun00014_ip = 612; continue _fun00013 }
+            zuuluu = new Array(0);
+            var _closure2_slot4 = zuuluu;
+            michal = entity.outbound;
+            if(!(oscard != michal)) { _fun00014_ip = 612; continue _fun00013 }
  83:
-            mike = entity.outbound;
-            offset = mike.audio;
-            golf = mike.video;
-            report = mike.videos;
-            if(!(oscar != offset)) { _fun00014_ip = 528; continue _fun00013 }
+            michal = entity.outbound;
+            offset = michal.audio;
+            golfie = michal.video;
+            report = michal.videos;
+            if(!(oscard != offset)) { _fun00014_ip = 528; continue _fun00013 }
  114:
-            mike = _closure2_slot3;
-            yankee = oscar != mike;
+            michal = _closure2_slot3;
+            yankee = oscard != michal;
             sizing = 0;
-            tango = 0;
+            tangon = 0;
             if(!yankee) { _fun00014_ip = 132; continue _fun00013 }
  129:
-            tango = mike;
+            tangon = michal;
  132:
-            mike = offset.bytesSent;
-            mike = tango + mike;
-            _closure2_slot3 = mike;
-            tango = zulu.push;
-            mike = {};
+            michal = offset.bytesSent;
+            michal = tangon + michal;
+            _closure2_slot3 = michal;
+            tangon = zuuluu.push;
+            michal = {};
             yankee = 'audio';
-            mike['type'] = yankee;
+            michal['type'] = yankee;
             yankee = offset.ssrc;
-            mike['ssrc'] = yankee;
+            michal['ssrc'] = yankee;
             backup = _closure1_slot0;
-            romeo = _closure1_slot1;
-            kilo = romeo[sizing];
-            foxtrot = undefined;
-            echo = backup.bind(foxtrot)(kilo);
-            result = echo.formatSinkWantStat;
+            romeon = _closure1_slot1;
+            kiloes = romeon[sizing];
+            foxtra = undefined;
+            echoed = backup.bind(foxtra)(kiloes);
+            result = echoed.formatSinkWantStat;
             output = offset.ssrc;
-            kilo = false;
-            kilo = result.bind(echo)(verify, output, kilo);
-            mike['sinkWant'] = kilo;
-            romeo = romeo[sizing];
-            kilo = backup.bind(foxtrot)(romeo);
-            backup = kilo.formatSinkWantAsInt;
-            romeo = offset.ssrc;
-            romeo = backup.bind(kilo)(verify, romeo);
-            mike['sinkWantAsInt'] = romeo;
-            romeo = {};
+            kiloes = false;
+            kiloes = result.bind(echoed)(verify, output, kiloes);
+            michal['sinkWant'] = kiloes;
+            romeon = romeon[sizing];
+            kiloes = backup.bind(foxtra)(romeon);
+            backup = kiloes.formatSinkWantAsInt;
+            romeon = offset.ssrc;
+            romeon = backup.bind(kiloes)(verify, romeon);
+            michal['sinkWantAsInt'] = romeon;
+            romeon = {};
             backup = offset.codecPayloadType;
-            romeo['id'] = backup;
+            romeon['id'] = backup;
             backup = offset.codecName;
-            romeo['name'] = backup;
-            mike['codec'] = romeo;
-            romeo = offset.bytesSent;
-            mike['bytesSent'] = romeo;
-            romeo = offset.packetsSent;
-            mike['packetsSent'] = romeo;
-            romeo = global;
-            kilo = romeo.Math;
-            backup = kilo.max;
-            romeo = offset.packetsLost;
-            romeo = backup.bind(kilo)(sizing, romeo);
-            mike['packetsLost'] = romeo;
+            romeon['name'] = backup;
+            michal['codec'] = romeon;
+            romeon = offset.bytesSent;
+            michal['bytesSent'] = romeon;
+            romeon = offset.packetsSent;
+            michal['packetsSent'] = romeon;
+            romeon = global;
+            kiloes = romeon.Math;
+            backup = kiloes.max;
+            romeon = offset.packetsLost;
+            romeon = backup.bind(kiloes)(sizing, romeon);
+            michal['packetsLost'] = romeon;
             backup = offset.fractionLost;
-            romeo = 100;
-            romeo = romeo * backup;
-            mike['fractionLost'] = romeo;
-            romeo = _closure1_slot2;
+            romeon = 100;
+            romeon = romeon * backup;
+            michal['fractionLost'] = romeon;
+            romeon = _closure1_slot2;
             yankee = offset.audioLevel;
-            yankee = romeo.bind(foxtrot)(yankee);
-            mike['audioLevel'] = yankee;
+            yankee = romeon.bind(foxtra)(yankee);
+            michal['audioLevel'] = yankee;
             yankee = offset.speaking;
-            mike['audioDetected'] = yankee;
+            michal['audioDetected'] = yankee;
             yankee = offset.framesCaptured;
-            mike['framesCaptured'] = yankee;
+            michal['framesCaptured'] = yankee;
             yankee = offset.framesRendered;
-            mike['framesRendered'] = yankee;
+            michal['framesRendered'] = yankee;
             yankee = offset.noiseCancellerFrames;
-            mike['noiseCancellerFrames'] = yankee;
+            michal['noiseCancellerFrames'] = yankee;
             yankee = offset.noiseCancellerProcessTime;
-            mike['noiseCancellerProcessTime'] = yankee;
+            michal['noiseCancellerProcessTime'] = yankee;
             yankee = offset.voiceActivityDetectorProcessTime;
-            mike['voiceActivityDetectorProcessTime'] = yankee;
+            michal['voiceActivityDetectorProcessTime'] = yankee;
             yankee = offset.passthroughCount;
-            mike['passthroughCount'] = yankee;
+            michal['passthroughCount'] = yankee;
             yankee = offset.encryptSuccessCount;
-            mike['encryptSuccessCount'] = yankee;
+            michal['encryptSuccessCount'] = yankee;
             yankee = offset.encryptFailureCount;
-            mike['encryptFailureCount'] = yankee;
+            michal['encryptFailureCount'] = yankee;
             yankee = offset.encryptDuration;
-            mike['encryptDuration'] = yankee;
+            michal['encryptDuration'] = yankee;
             yankee = offset.encryptAttempts;
-            mike['encryptAttempts'] = yankee;
+            michal['encryptAttempts'] = yankee;
             yankee = offset.encryptMaxAttempts;
-            mike['encryptMaxAttempts'] = yankee;
+            michal['encryptMaxAttempts'] = yankee;
             yankee = offset.encryptMissingKeyCount;
-            mike['encryptMissingKeyCount'] = yankee;
+            michal['encryptMissingKeyCount'] = yankee;
             offset = offset.pttQueueLatencyMicrosSamples;
-            mike['pttQueueLatencyMicrosSamples'] = offset;
-            mike = tango.bind(zulu)(mike);
+            michal['pttQueueLatencyMicrosSamples'] = offset;
+            michal = tangon.bind(zuuluu)(michal);
  528:
-            if(!(oscar == report)) { _fun00014_ip = 597; continue _fun00013 }
+            if(!(oscard == report)) { _fun00014_ip = 597; continue _fun00013 }
  532:
-            if(!(oscar != golf)) { _fun00014_ip = 612; continue _fun00013 }
+            if(!(oscard != golfie)) { _fun00014_ip = 612; continue _fun00013 }
  536:
-            tango = _closure1_slot6;
-            mike = undefined;
-            tango = tango.bind(mike)(golf, verify);
-            if(!(oscar != tango)) { _fun00014_ip = 612; continue _fun00013 }
+            tangon = _closure1_slot6;
+            michal = undefined;
+            tangon = tangon.bind(michal)(golfie, verify);
+            if(!(oscard != tangon)) { _fun00014_ip = 612; continue _fun00013 }
  555:
-            mike = _closure2_slot3;
-            verify = oscar != mike;
-            golf = 0;
+            michal = _closure2_slot3;
+            verify = oscard != michal;
+            golfie = 0;
             if(!verify) { _fun00014_ip = 571; continue _fun00013 }
  568:
-            golf = mike;
+            golfie = michal;
  571:
-            mike = tango.bytesSent;
-            mike = golf + mike;
-            _closure2_slot3 = mike;
-            mike = zulu.push;
-            mike = mike.bind(zulu)(tango);
+            michal = tangon.bytesSent;
+            michal = golfie + michal;
+            _closure2_slot3 = michal;
+            michal = zuuluu.push;
+            michal = michal.bind(zuuluu)(tangon);
             _fun00014_ip = 612; continue _fun00013;
  597:
-            tango = report.forEach;
-            mike = function(argFoo) {
+            tangon = report.forEach;
+            michal = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     report = _closure1_slot6;
-                    tango = _closure2_slot0;
+                    tangon = _closure2_slot0;
                     entity = undefined;
-                    zulu = argFoo;
-                    tango = report.bind(entity)(zulu, tango);
+                    zuuluu = argFoo;
+                    tangon = report.bind(entity)(zuuluu, tangon);
                     report = null;
-                    if(!(report != tango)) { _fun00016_ip = 75; continue _fun00015 }
+                    if(!(report != tangon)) { _fun00016_ip = 75; continue _fun00015 }
  31:
-                    zulu = _closure2_slot3;
-                    oscar = report != zulu;
+                    zuuluu = _closure2_slot3;
+                    oscard = report != zuuluu;
                     report = 0;
-                    if(!oscar) { _fun00016_ip = 47; continue _fun00015 }
+                    if(!oscard) { _fun00016_ip = 47; continue _fun00015 }
  44:
-                    report = zulu;
+                    report = zuuluu;
  47:
-                    zulu = tango.bytesSent;
-                    zulu = report + zulu;
-                    _closure2_slot3 = zulu;
-                    zulu = _closure2_slot4;
-                    mike = zulu.push;
-                    mike = mike.bind(zulu)(tango);
+                    zuuluu = tangon.bytesSent;
+                    zuuluu = report + zuuluu;
+                    _closure2_slot3 = zuuluu;
+                    zuuluu = _closure2_slot4;
+                    michal = zuuluu.push;
+                    michal = michal.bind(zuuluu)(tangon);
  75:
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike);
+            michal = tangon.bind(report)(michal);
  612:
-            tango = {};
-            var _closure2_slot5 = tango;
-            mike = entity.inbound;
-            if(!(oscar != mike)) { _fun00014_ip = 649; continue _fun00013 }
+            tangon = {};
+            var _closure2_slot5 = tangon;
+            michal = entity.inbound;
+            if(!(oscard != michal)) { _fun00014_ip = 649; continue _fun00013 }
  628:
-            golf = entity.inbound;
-            report = golf.forEach;
-            mike = function(argFoo) {
+            golfie = entity.inbound;
+            report = golfie.forEach;
+            michal = function(argFoo) {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                    mike = argFoo;
-                    tango = mike.id;
-                    var _closure3_slot0 = tango;
-                    offset = mike.audio;
-                    golf = mike.video;
-                    zulu = mike.videos;
-                    romeo = mike.playout;
-                    var _closure3_slot1 = romeo;
-                    oscar = _closure2_slot5;
+                    michal = argFoo;
+                    tangon = michal.id;
+                    var _closure3_slot0 = tangon;
+                    offset = michal.audio;
+                    golfie = michal.video;
+                    zuuluu = michal.videos;
+                    romeon = michal.playout;
+                    var _closure3_slot1 = romeon;
+                    oscard = _closure2_slot5;
                     report = new Array(0);
-                    oscar[tango] = report;
-                    oscar = null;
-                    if(!(oscar != offset)) { _fun00018_ip = 788; continue _fun00017 }
+                    oscard[tangon] = report;
+                    oscard = null;
+                    if(!(oscard != offset)) { _fun00018_ip = 788; continue _fun00017 }
  68:
                     report = _closure2_slot2;
-                    verify = oscar != report;
+                    verify = oscard != report;
                     sizing = 0;
-                    options = 0;
+                    option = 0;
                     if(!verify) { _fun00018_ip = 86; continue _fun00017 }
  83:
-                    options = report;
+                    option = report;
  86:
                     report = offset.bytesReceived;
-                    report = options + report;
+                    report = option + report;
                     _closure2_slot2 = report;
                     report = _closure2_slot5;
-                    verify = report[tango];
-                    options = verify.push;
+                    verify = report[tangon];
+                    option = verify.push;
                     report = {};
                     yankee = 'audio';
                     report['type'] = yankee;
                     yankee = offset.ssrc;
                     report['ssrc'] = yankee;
-                    kilo = _closure1_slot0;
-                    foxtrot = _closure1_slot1;
-                    output = foxtrot[sizing];
+                    kiloes = _closure1_slot0;
+                    foxtra = _closure1_slot1;
+                    output = foxtra[sizing];
                     backup = undefined;
-                    source = kilo.bind(backup)(output);
+                    source = kiloes.bind(backup)(output);
                     update = source.formatSinkWantStat;
                     output = _closure2_slot0;
-                    echo = offset.ssrc;
+                    echoed = offset.ssrc;
                     result = false;
-                    result = update.bind(source)(output, echo, result);
+                    result = update.bind(source)(output, echoed, result);
                     report['sinkWant'] = result;
-                    foxtrot = foxtrot[sizing];
-                    sizing = kilo.bind(backup)(foxtrot);
-                    kilo = sizing.formatSinkWantAsInt;
-                    foxtrot = offset.ssrc;
-                    foxtrot = kilo.bind(sizing)(output, foxtrot);
-                    report['sinkWantAsInt'] = foxtrot;
-                    foxtrot = {};
-                    kilo = offset.codecPayloadType;
-                    foxtrot['id'] = kilo;
-                    kilo = offset.codecName;
-                    foxtrot['name'] = kilo;
-                    report['codec'] = foxtrot;
-                    foxtrot = offset.bytesReceived;
-                    report['bytesReceived'] = foxtrot;
-                    foxtrot = offset.packetsReceived;
-                    report['packetsReceived'] = foxtrot;
-                    foxtrot = offset.packetsLost;
-                    report['packetsLost'] = foxtrot;
-                    foxtrot = offset.fractionLost;
-                    kilo = 100;
-                    foxtrot = kilo * foxtrot;
-                    report['fractionLost'] = foxtrot;
-                    foxtrot = offset.fecPacketsReceived;
-                    report['fecPacketsReceived'] = foxtrot;
-                    foxtrot = offset.fecPacketsDiscarded;
-                    report['fecPacketsDiscarded'] = foxtrot;
+                    foxtra = foxtra[sizing];
+                    sizing = kiloes.bind(backup)(foxtra);
+                    kiloes = sizing.formatSinkWantAsInt;
+                    foxtra = offset.ssrc;
+                    foxtra = kiloes.bind(sizing)(output, foxtra);
+                    report['sinkWantAsInt'] = foxtra;
+                    foxtra = {};
+                    kiloes = offset.codecPayloadType;
+                    foxtra['id'] = kiloes;
+                    kiloes = offset.codecName;
+                    foxtra['name'] = kiloes;
+                    report['codec'] = foxtra;
+                    foxtra = offset.bytesReceived;
+                    report['bytesReceived'] = foxtra;
+                    foxtra = offset.packetsReceived;
+                    report['packetsReceived'] = foxtra;
+                    foxtra = offset.packetsLost;
+                    report['packetsLost'] = foxtra;
+                    foxtra = offset.fractionLost;
+                    kiloes = 100;
+                    foxtra = kiloes * foxtra;
+                    report['fractionLost'] = foxtra;
+                    foxtra = offset.fecPacketsReceived;
+                    report['fecPacketsReceived'] = foxtra;
+                    foxtra = offset.fecPacketsDiscarded;
+                    report['fecPacketsDiscarded'] = foxtra;
                     sizing = _closure1_slot2;
-                    foxtrot = offset.audioLevel;
-                    foxtrot = sizing.bind(backup)(foxtrot);
-                    report['audioLevel'] = foxtrot;
-                    foxtrot = offset.speaking;
-                    report['audioDetected'] = foxtrot;
-                    foxtrot = offset.jitter;
-                    report['jitter'] = foxtrot;
-                    foxtrot = offset.jitterBuffer;
-                    report['jitterBuffer'] = foxtrot;
-                    foxtrot = offset.jitterBufferPreferred;
-                    report['jitterBufferPreferred'] = foxtrot;
-                    foxtrot = offset.decodingCNG;
-                    report['decodingCNG'] = foxtrot;
-                    foxtrot = offset.decodingMutedOutput;
-                    report['decodingMutedOutput'] = foxtrot;
-                    foxtrot = offset.decodingNormal;
-                    report['decodingNormal'] = foxtrot;
-                    foxtrot = offset.decodingPLC;
-                    report['decodingPLC'] = foxtrot;
-                    foxtrot = offset.decodingPLCCNG;
-                    report['decodingPLCCNG'] = foxtrot;
-                    foxtrot = offset.nackCount;
-                    report['nackCount'] = foxtrot;
-                    foxtrot = offset.accelerateRate;
-                    foxtrot = kilo * foxtrot;
-                    report['accelerateRate'] = foxtrot;
-                    foxtrot = offset.expandRate;
-                    foxtrot = kilo * foxtrot;
-                    report['expandRate'] = foxtrot;
-                    foxtrot = offset.preemptiveExpandRate;
-                    foxtrot = kilo * foxtrot;
-                    report['preemptiveExpandRate'] = foxtrot;
-                    foxtrot = offset.speechExpandRate;
-                    foxtrot = kilo * foxtrot;
-                    report['speechExpandRate'] = foxtrot;
-                    foxtrot = offset.secondaryDecodedRate;
-                    foxtrot = kilo * foxtrot;
-                    report['secondaryDecodedRate'] = foxtrot;
-                    foxtrot = offset.opSilence;
-                    report['opSilence'] = foxtrot;
-                    foxtrot = offset.opNormal;
-                    report['opNormal'] = foxtrot;
-                    foxtrot = offset.opMerge;
-                    report['opMerge'] = foxtrot;
-                    foxtrot = offset.opExpand;
-                    report['opExpand'] = foxtrot;
-                    foxtrot = offset.opAccelerate;
-                    report['opAccelerate'] = foxtrot;
-                    foxtrot = offset.opPreemptiveExpand;
-                    report['opPreemptiveExpand'] = foxtrot;
-                    foxtrot = offset.opCNG;
-                    report['opCNG'] = foxtrot;
-                    foxtrot = offset.delayEstimate;
-                    report['delayEstimate'] = foxtrot;
-                    foxtrot = offset.passthroughCount;
-                    report['passthroughCount'] = foxtrot;
-                    foxtrot = offset.decryptSuccessCount;
-                    report['decryptSuccessCount'] = foxtrot;
-                    foxtrot = offset.decryptFailureCount;
-                    report['decryptFailureCount'] = foxtrot;
-                    foxtrot = offset.decryptDuration;
-                    report['decryptDuration'] = foxtrot;
-                    foxtrot = offset.decryptAttempts;
-                    report['decryptAttempts'] = foxtrot;
-                    foxtrot = offset.decryptMissingKeyCount;
-                    report['decryptMissingKeyCount'] = foxtrot;
+                    foxtra = offset.audioLevel;
+                    foxtra = sizing.bind(backup)(foxtra);
+                    report['audioLevel'] = foxtra;
+                    foxtra = offset.speaking;
+                    report['audioDetected'] = foxtra;
+                    foxtra = offset.jitter;
+                    report['jitter'] = foxtra;
+                    foxtra = offset.jitterBuffer;
+                    report['jitterBuffer'] = foxtra;
+                    foxtra = offset.jitterBufferPreferred;
+                    report['jitterBufferPreferred'] = foxtra;
+                    foxtra = offset.decodingCNG;
+                    report['decodingCNG'] = foxtra;
+                    foxtra = offset.decodingMutedOutput;
+                    report['decodingMutedOutput'] = foxtra;
+                    foxtra = offset.decodingNormal;
+                    report['decodingNormal'] = foxtra;
+                    foxtra = offset.decodingPLC;
+                    report['decodingPLC'] = foxtra;
+                    foxtra = offset.decodingPLCCNG;
+                    report['decodingPLCCNG'] = foxtra;
+                    foxtra = offset.nackCount;
+                    report['nackCount'] = foxtra;
+                    foxtra = offset.accelerateRate;
+                    foxtra = kiloes * foxtra;
+                    report['accelerateRate'] = foxtra;
+                    foxtra = offset.expandRate;
+                    foxtra = kiloes * foxtra;
+                    report['expandRate'] = foxtra;
+                    foxtra = offset.preemptiveExpandRate;
+                    foxtra = kiloes * foxtra;
+                    report['preemptiveExpandRate'] = foxtra;
+                    foxtra = offset.speechExpandRate;
+                    foxtra = kiloes * foxtra;
+                    report['speechExpandRate'] = foxtra;
+                    foxtra = offset.secondaryDecodedRate;
+                    foxtra = kiloes * foxtra;
+                    report['secondaryDecodedRate'] = foxtra;
+                    foxtra = offset.opSilence;
+                    report['opSilence'] = foxtra;
+                    foxtra = offset.opNormal;
+                    report['opNormal'] = foxtra;
+                    foxtra = offset.opMerge;
+                    report['opMerge'] = foxtra;
+                    foxtra = offset.opExpand;
+                    report['opExpand'] = foxtra;
+                    foxtra = offset.opAccelerate;
+                    report['opAccelerate'] = foxtra;
+                    foxtra = offset.opPreemptiveExpand;
+                    report['opPreemptiveExpand'] = foxtra;
+                    foxtra = offset.opCNG;
+                    report['opCNG'] = foxtra;
+                    foxtra = offset.delayEstimate;
+                    report['delayEstimate'] = foxtra;
+                    foxtra = offset.passthroughCount;
+                    report['passthroughCount'] = foxtra;
+                    foxtra = offset.decryptSuccessCount;
+                    report['decryptSuccessCount'] = foxtra;
+                    foxtra = offset.decryptFailureCount;
+                    report['decryptFailureCount'] = foxtra;
+                    foxtra = offset.decryptDuration;
+                    report['decryptDuration'] = foxtra;
+                    foxtra = offset.decryptAttempts;
+                    report['decryptAttempts'] = foxtra;
+                    foxtra = offset.decryptMissingKeyCount;
+                    report['decryptMissingKeyCount'] = foxtra;
                     offset = offset.decryptInvalidNonceCount;
                     report['decryptInvalidNonceCount'] = offset;
-                    if(!(oscar == romeo)) { _fun00018_ip = 696; continue _fun00017 }
+                    if(!(oscard == romeon)) { _fun00018_ip = 696; continue _fun00017 }
  692:
                     offset = {};
                     _fun00018_ip = 773; continue _fun00017;
  696:
-                    foxtrot = _closure1_slot5;
+                    foxtra = _closure1_slot5;
                     yankee = {};
-                    kilo = romeo.audioJitterBuffer;
-                    yankee['audioJitterBuffer'] = kilo;
-                    kilo = romeo.audioJitterDelay;
-                    yankee['audioJitterDelay'] = kilo;
-                    kilo = romeo.audioJitterTarget;
-                    yankee['audioJitterTarget'] = kilo;
-                    kilo = romeo.audioPlayoutUnderruns;
-                    yankee['audioPlayoutUnderruns'] = kilo;
-                    kilo = romeo.relativeReceptionDelay;
-                    yankee['relativeReceptionDelay'] = kilo;
-                    kilo = romeo.relativePlayoutDelay;
-                    yankee['relativePlayoutDelay'] = kilo;
-                    offset = foxtrot.bind(backup)(yankee);
+                    kiloes = romeon.audioJitterBuffer;
+                    yankee['audioJitterBuffer'] = kiloes;
+                    kiloes = romeon.audioJitterDelay;
+                    yankee['audioJitterDelay'] = kiloes;
+                    kiloes = romeon.audioJitterTarget;
+                    yankee['audioJitterTarget'] = kiloes;
+                    kiloes = romeon.audioPlayoutUnderruns;
+                    yankee['audioPlayoutUnderruns'] = kiloes;
+                    kiloes = romeon.relativeReceptionDelay;
+                    yankee['relativeReceptionDelay'] = kiloes;
+                    kiloes = romeon.relativePlayoutDelay;
+                    yankee['relativePlayoutDelay'] = kiloes;
+                    offset = foxtra.bind(backup)(yankee);
  773:
                     config = report;
-                    sequence = offset;
-                    offset = copyDataProperties(config, sequence);
-                    report = options.bind(verify)(report);
+                    sequen = offset;
+                    offset = copyDataProperties(config, sequen);
+                    report = option.bind(verify)(report);
  788:
-                    if(!(oscar == zulu)) { _fun00018_ip = 888; continue _fun00017 }
+                    if(!(oscard == zuuluu)) { _fun00018_ip = 888; continue _fun00017 }
  792:
-                    if(!(oscar != golf)) { _fun00018_ip = 903; continue _fun00017 }
+                    if(!(oscard != golfie)) { _fun00018_ip = 903; continue _fun00017 }
  796:
                     yankee = _closure1_slot7;
-                    sequence = _closure2_slot0;
+                    sequen = _closure2_slot0;
                     vacuum = _closure2_slot1;
                     verify = undefined;
                     record = undefined;
-                    config = golf;
-                    control = romeo;
-                    report = record[yankee](config, sequence, vacuum, control, source);
-                    if(!(oscar != report)) { _fun00018_ip = 903; continue _fun00017 }
+                    config = golfie;
+                    ctrled = romeon;
+                    report = record[yankee](config, sequen, vacuum, ctrled, source);
+                    if(!(oscard != report)) { _fun00018_ip = 903; continue _fun00017 }
  829:
-                    options = _closure1_slot3;
-                    golf = golf.rtpStats;
-                    golf = options.bind(verify)(golf);
-                    options = _closure2_slot2;
-                    verify = oscar != options;
-                    oscar = 0;
+                    option = _closure1_slot3;
+                    golfie = golfie.rtpStats;
+                    golfie = option.bind(verify)(golfie);
+                    option = _closure2_slot2;
+                    verify = oscard != option;
+                    oscard = 0;
                     if(!verify) { _fun00018_ip = 860; continue _fun00017 }
  857:
-                    oscar = options;
+                    oscard = option;
  860:
-                    oscar = oscar + golf;
-                    _closure2_slot2 = oscar;
-                    mike = _closure2_slot5;
-                    tango = mike[tango];
-                    mike = tango.push;
-                    mike = mike.bind(tango)(report);
+                    oscard = oscard + golfie;
+                    _closure2_slot2 = oscard;
+                    michal = _closure2_slot5;
+                    tangon = michal[tangon];
+                    michal = tangon.push;
+                    michal = michal.bind(tangon)(report);
                     _fun00018_ip = 903; continue _fun00017;
  888:
-                    mike = zulu.forEach;
+                    michal = zuuluu.forEach;
                     entity = function(argFoo) {
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-                            oscar = argFoo;
+                            oscard = argFoo;
                             verify = _closure1_slot7;
-                            romeo = _closure2_slot0;
+                            romeon = _closure2_slot0;
                             yankee = _closure2_slot1;
                             offset = _closure3_slot1;
                             entity = undefined;
                             backup = undefined;
-                            foxtrot = oscar;
-                            tango = backup[verify](foxtrot, romeo, yankee, offset, verify);
+                            foxtra = oscard;
+                            tangon = backup[verify](foxtra, romeon, yankee, offset, verify);
                             report = null;
-                            if(!(report != tango)) { _fun00020_ip = 106; continue _fun00019 }
+                            if(!(report != tangon)) { _fun00020_ip = 106; continue _fun00019 }
  45:
-                            golf = _closure1_slot3;
-                            oscar = oscar.rtpStats;
-                            oscar = golf.bind(entity)(oscar);
-                            golf = _closure2_slot2;
-                            options = report != golf;
+                            golfie = _closure1_slot3;
+                            oscard = oscard.rtpStats;
+                            oscard = golfie.bind(entity)(oscard);
+                            golfie = _closure2_slot2;
+                            option = report != golfie;
                             report = 0;
-                            if(!options) { _fun00020_ip = 76; continue _fun00019 }
+                            if(!option) { _fun00020_ip = 76; continue _fun00019 }
  73:
-                            report = golf;
+                            report = golfie;
  76:
-                            report = report + oscar;
+                            report = report + oscard;
                             _closure2_slot2 = report;
-                            zulu = _closure2_slot5;
-                            mike = _closure3_slot0;
-                            zulu = zulu[mike];
-                            mike = zulu.push;
-                            mike = mike.bind(zulu)(tango);
+                            zuuluu = _closure2_slot5;
+                            michal = _closure3_slot0;
+                            zuuluu = zuuluu[michal];
+                            michal = zuuluu.push;
+                            michal = michal.bind(zuuluu)(tangon);
  106:
                             return entity;
                         }
                     };
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
  903:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = report.bind(golf)(mike);
+            michal = report.bind(golfie)(michal);
  649:
             offset = entity.transport;
             report = entity.clips;
             verify = {};
-            if(!(oscar != offset)) { _fun00014_ip = 870; continue _fun00013 }
+            if(!(oscard != offset)) { _fun00014_ip = 870; continue _fun00013 }
  670:
-            mike = offset.sendBandwidth;
-            verify['availableOutgoingBitrate'] = mike;
-            mike = offset.rtt;
-            verify['ping'] = mike;
-            mike = offset.decryptionFailures;
-            verify['decryptionFailures'] = mike;
-            mike = offset.routingFailures;
-            if(!(oscar != mike)) { _fun00014_ip = 730; continue _fun00013 }
+            michal = offset.sendBandwidth;
+            verify['availableOutgoingBitrate'] = michal;
+            michal = offset.rtt;
+            verify['ping'] = michal;
+            michal = offset.decryptionFailures;
+            verify['decryptionFailures'] = michal;
+            michal = offset.routingFailures;
+            if(!(oscard != michal)) { _fun00014_ip = 730; continue _fun00013 }
  718:
-            mike = offset.routingFailures;
-            verify['routingFailures'] = mike;
+            michal = offset.routingFailures;
+            verify['routingFailures'] = michal;
  730:
-            mike = offset.localAddress;
-            verify['localAddress'] = mike;
-            mike = offset.pacerDelay;
-            verify['pacerDelay'] = mike;
-            mike = offset.receiverReports;
-            if(!(oscar != mike)) { _fun00014_ip = 776; continue _fun00013 }
+            michal = offset.localAddress;
+            verify['localAddress'] = michal;
+            michal = offset.pacerDelay;
+            verify['pacerDelay'] = michal;
+            michal = offset.receiverReports;
+            if(!(oscard != michal)) { _fun00014_ip = 776; continue _fun00013 }
  764:
-            mike = offset.receiverReports;
-            verify['receiverReports'] = mike;
+            michal = offset.receiverReports;
+            verify['receiverReports'] = michal;
  776:
-            mike = offset.receiverBitrateEstimate;
-            verify['receiverBitrateEstimate'] = mike;
-            mike = offset.outboundBitrateEstimate;
-            verify['outboundBitrateEstimate'] = mike;
-            golf = offset.inboundBitrateEstimate;
-            yankee = oscar != golf;
-            mike = 0;
+            michal = offset.receiverBitrateEstimate;
+            verify['receiverBitrateEstimate'] = michal;
+            michal = offset.outboundBitrateEstimate;
+            verify['outboundBitrateEstimate'] = michal;
+            golfie = offset.inboundBitrateEstimate;
+            yankee = oscard != golfie;
+            michal = 0;
             if(!yankee) { _fun00014_ip = 818; continue _fun00013 }
  815:
-            mike = golf;
+            michal = golfie;
  818:
-            verify['inboundBitrateEstimate'] = mike;
-            mike = offset.packetsReceived;
-            verify['packetsReceived'] = mike;
-            mike = offset.packetsSent;
-            verify['packetsSent'] = mike;
-            mike = offset.secureFramesProtocolVersion;
-            if(!(oscar != mike)) { _fun00014_ip = 870; continue _fun00013 }
+            verify['inboundBitrateEstimate'] = michal;
+            michal = offset.packetsReceived;
+            verify['packetsReceived'] = michal;
+            michal = offset.packetsSent;
+            verify['packetsSent'] = michal;
+            michal = offset.secureFramesProtocolVersion;
+            if(!(oscard != michal)) { _fun00014_ip = 870; continue _fun00013 }
  858:
-            mike = offset.secureFramesProtocolVersion;
-            verify['secureFramesProtocolVersion'] = mike;
+            michal = offset.secureFramesProtocolVersion;
+            verify['secureFramesProtocolVersion'] = michal;
  870:
-            yankee = oscar == offset;
-            golf = undefined;
+            yankee = oscard == offset;
+            golfie = undefined;
             if(yankee) { _fun00014_ip = 885; continue _fun00013 }
  879:
-            golf = offset.bytesReceived;
+            golfie = offset.bytesReceived;
  885:
-            golf = oscar != golf;
-            if(golf) { _fun00014_ip = 932; continue _fun00013 }
+            golfie = oscard != golfie;
+            if(golfie) { _fun00014_ip = 932; continue _fun00013 }
  892:
             yankee = _closure2_slot2;
-            yankee = oscar != yankee;
+            yankee = oscard != yankee;
             if(!yankee) { _fun00014_ip = 929; continue _fun00013 }
  903:
-            romeo = global;
-            backup = romeo.Number;
-            foxtrot = backup.isNaN;
-            romeo = _closure2_slot2;
-            romeo = foxtrot.bind(backup)(romeo);
-            yankee = !romeo;
+            romeon = global;
+            backup = romeon.Number;
+            foxtra = backup.isNaN;
+            romeon = _closure2_slot2;
+            romeon = foxtra.bind(backup)(romeon);
+            yankee = !romeon;
  929:
-            golf = yankee;
+            golfie = yankee;
  932:
-            if(!golf) { _fun00014_ip = 976; continue _fun00013 }
+            if(!golfie) { _fun00014_ip = 976; continue _fun00013 }
  935:
-            golf = oscar == offset;
+            golfie = oscard == offset;
             yankee = undefined;
-            if(golf) { _fun00014_ip = 950; continue _fun00013 }
+            if(golfie) { _fun00014_ip = 950; continue _fun00013 }
  944:
             yankee = offset.bytesReceived;
  950:
-            if(!(oscar == yankee)) { _fun00014_ip = 958; continue _fun00013 }
+            if(!(oscard == yankee)) { _fun00014_ip = 958; continue _fun00013 }
  954:
             yankee = _closure2_slot2;
  958:
-            romeo = oscar != yankee;
-            golf = undefined;
-            if(!romeo) { _fun00014_ip = 970; continue _fun00013 }
+            romeon = oscard != yankee;
+            golfie = undefined;
+            if(!romeon) { _fun00014_ip = 970; continue _fun00013 }
  967:
-            golf = yankee;
+            golfie = yankee;
  970:
-            verify['bytesReceived'] = golf;
+            verify['bytesReceived'] = golfie;
  976:
-            yankee = oscar == offset;
-            golf = undefined;
+            yankee = oscard == offset;
+            golfie = undefined;
             if(yankee) { _fun00014_ip = 991; continue _fun00013 }
  985:
-            golf = offset.bytesSent;
+            golfie = offset.bytesSent;
  991:
-            golf = oscar != golf;
-            if(golf) { _fun00014_ip = 1038; continue _fun00013 }
+            golfie = oscard != golfie;
+            if(golfie) { _fun00014_ip = 1038; continue _fun00013 }
  998:
             yankee = _closure2_slot3;
-            yankee = oscar != yankee;
+            yankee = oscard != yankee;
             if(!yankee) { _fun00014_ip = 1035; continue _fun00013 }
  1009:
-            romeo = global;
-            backup = romeo.Number;
-            foxtrot = backup.isNaN;
-            romeo = _closure2_slot3;
-            romeo = foxtrot.bind(backup)(romeo);
-            yankee = !romeo;
+            romeon = global;
+            backup = romeon.Number;
+            foxtra = backup.isNaN;
+            romeon = _closure2_slot3;
+            romeon = foxtra.bind(backup)(romeon);
+            yankee = !romeon;
  1035:
-            golf = yankee;
+            golfie = yankee;
  1038:
-            if(!golf) { _fun00014_ip = 1082; continue _fun00013 }
+            if(!golfie) { _fun00014_ip = 1082; continue _fun00013 }
  1041:
-            yankee = oscar == offset;
-            golf = undefined;
+            yankee = oscard == offset;
+            golfie = undefined;
             if(yankee) { _fun00014_ip = 1056; continue _fun00013 }
  1050:
-            golf = offset.bytesSent;
+            golfie = offset.bytesSent;
  1056:
-            if(!(oscar == golf)) { _fun00014_ip = 1064; continue _fun00013 }
+            if(!(oscard == golfie)) { _fun00014_ip = 1064; continue _fun00013 }
  1060:
-            golf = _closure2_slot3;
+            golfie = _closure2_slot3;
  1064:
-            options = oscar != golf;
-            mike = undefined;
-            if(!options) { _fun00014_ip = 1076; continue _fun00013 }
+            option = oscard != golfie;
+            michal = undefined;
+            if(!option) { _fun00014_ip = 1076; continue _fun00013 }
  1073:
-            mike = golf;
+            michal = golfie;
  1076:
-            verify['bytesSent'] = mike;
+            verify['bytesSent'] = michal;
  1082:
-            golf = entity.screenshare;
-            options = entity.camera;
-            mike = entity.audioDevice;
+            golfie = entity.screenshare;
+            option = entity.camera;
+            michal = entity.audioDevice;
             entity = {};
             offset = argFoo;
             entity['mediaEngineConnectionId'] = offset;
             entity['transport'] = verify;
-            entity['screenshare'] = golf;
-            golf = oscar != options;
-            oscar = null;
-            if(!golf) { _fun00014_ip = 1178; continue _fun00013 }
+            entity['screenshare'] = golfie;
+            golfie = oscard != option;
+            oscard = null;
+            if(!golfie) { _fun00014_ip = 1178; continue _fun00013 }
  1129:
-            golf = {};
-            verify = options.capturedFramesDropped;
-            golf['capturedFramesDropped'] = verify;
-            verify = options.capturedFramesCount;
-            golf['capturedFramesCount'] = verify;
-            verify = options.capturedFramesMean;
-            golf['capturedFramesMean'] = verify;
-            options = options.capturedFramesStdev;
-            golf['capturedFramesStdev'] = options;
-            oscar = golf;
+            golfie = {};
+            verify = option.capturedFramesDropped;
+            golfie['capturedFramesDropped'] = verify;
+            verify = option.capturedFramesCount;
+            golfie['capturedFramesCount'] = verify;
+            verify = option.capturedFramesMean;
+            golfie['capturedFramesMean'] = verify;
+            option = option.capturedFramesStdev;
+            golfie['capturedFramesStdev'] = option;
+            oscard = golfie;
  1178:
-            entity['camera'] = oscar;
+            entity['camera'] = oscard;
             entity['clips'] = report;
-            entity['audioDevice'] = mike;
-            mike = {};
-            mike['inbound'] = tango;
-            mike['outbound'] = zulu;
-            entity['rtp'] = mike;
+            entity['audioDevice'] = michal;
+            michal = {};
+            michal['inbound'] = tangon;
+            michal['outbound'] = zuuluu;
+            entity['rtp'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

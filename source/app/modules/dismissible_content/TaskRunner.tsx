@@ -1,117 +1,117 @@
 // app/modules/dismissible_content/TaskRunner.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = function() { // Original name: TaskRunner
-            zulu = this;
-            tango = _closure1_slot0;
-            mike = _closure2_slot0;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function() { // Original name: TaskRunner
+            zuuluu = this;
+            tangon = _closure1_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = null;
-            zulu['timeoutId'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = null;
+            zuuluu['timeoutId'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'schedule';
-        entity['key'] = mike;
-        mike = function(argFoo, argBar) { // Original name: value
-            zulu = this;
-            var _closure3_slot0 = zulu;
+        michal = 'schedule';
+        entity['key'] = michal;
+        michal = function(argFoo, argBar) { // Original name: value
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
             entity = argFoo;
             var _closure3_slot1 = entity;
-            entity = zulu.unschedule;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.unschedule;
+            entity = entity.bind(zuuluu)();
             entity = global;
             report = entity.setTimeout;
             entity = undefined;
-            tango = function() {
-                zulu = _closure3_slot0;
-                mike = null;
-                zulu['timeoutId'] = mike;
-                mike = _closure3_slot1;
+            tangon = function() {
+                zuuluu = _closure3_slot0;
+                michal = null;
+                zuuluu['timeoutId'] = michal;
+                michal = _closure3_slot1;
                 entity = undefined;
-                mike = mike.bind(entity)();
+                michal = michal.bind(entity)();
                 return entity;
             };
-            mike = argBar;
-            mike = report.bind(entity)(tango, mike);
-            zulu['timeoutId'] = mike;
+            michal = argBar;
+            michal = report.bind(entity)(tangon, michal);
+            zuuluu['timeoutId'] = michal;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(3);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(3);
+        michal[0] = entity;
         entity = {};
-        oscar = 'unschedule';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'unschedule';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = this;
-                entity = mike.scheduled;
-                entity = entity.bind(mike)();
+                michal = this;
+                entity = michal.scheduled;
+                entity = entity.bind(michal)();
                 if(!entity) { _fun00002_ip = 45; continue _fun00001 }
  16:
                 entity = global;
-                tango = entity.clearTimeout;
-                zulu = mike.timeoutId;
+                tangon = entity.clearTimeout;
+                zuuluu = michal.timeoutId;
                 entity = undefined;
-                entity = tango.bind(entity)(zulu);
+                entity = tangon.bind(entity)(zuuluu);
                 entity = null;
-                mike['timeoutId'] = entity;
+                michal['timeoutId'] = entity;
  45:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'scheduled';
-        entity['key'] = oscar;
+        oscard = 'scheduled';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             entity = this;
-            mike = entity.timeoutId;
+            michal = entity.timeoutId;
             entity = null;
-            entity = entity !== mike;
+            entity = entity !== michal;
             return entity;
         };
         entity['value'] = report;
-        mike[2] = entity;
+        michal[2] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/dismissible_content/TaskRunner.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['TaskRunner'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/dismissible_content/TaskRunner.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['TaskRunner'] = michal;
     return entity;
 })();

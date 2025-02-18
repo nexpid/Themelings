@@ -1,732 +1,732 @@
 // app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _createCreatorMonetizationEnableRequest
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 94; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 94; continue _fun00001 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = tango.bind(zulu)(mike);
-                    report = mike.HTTP;
-                    tango = report.post;
-                    mike = {};
-                    options = _closure1_slot4;
-                    golf = options.CREATOR_MONETIZATION_ENABLE_REQUESTS;
-                    oscar = argFoo;
-                    oscar = golf.bind(options)(oscar);
-                    mike['url'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
+                    option = _closure1_slot4;
+                    golfie = option.CREATOR_MONETIZATION_ENABLE_REQUESTS;
+                    oscard = argFoo;
+                    oscard = golfie.bind(option)(oscard);
+                    michal['url'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=82);
  80:
-                    return mike;
+                    return michal;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 91; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 91; continue _fun00001 }
  88:
-                    return zulu;
+                    return zuuluu;
  91:
-                    return mike;
+                    return michal;
  94:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _getCreatorMonetizationEligibility
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 98; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 98; continue _fun00003 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.get;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    oscar = golf.CREATOR_MONETIZATION_ELIGIBILITY;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.get;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    oscard = golfie.CREATOR_MONETIZATION_ELIGIBILITY;
                     report = argFoo;
-                    report = oscar.bind(golf)(report);
-                    mike['url'] = report;
+                    report = oscard.bind(golfie)(report);
+                    michal['url'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=81);
  79:
-                    return mike;
+                    return michal;
  81:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 95; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 95; continue _fun00003 }
  87:
-                    zulu = mike.body;
-                    return zulu;
+                    zuuluu = michal.body;
+                    return zuuluu;
  95:
-                    return mike;
+                    return michal;
  98:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot7 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _acceptCreatorMonetizationTerms
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 98; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 98; continue _fun00005 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = tango.bind(zulu)(mike);
-                    report = mike.HTTP;
-                    tango = report.post;
-                    mike = {};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
                     verify = _closure1_slot4;
-                    options = verify.CREATOR_MONETIZATION_ACCEPT_TERMS;
-                    golf = argFoo;
-                    oscar = argBar;
-                    oscar = options.bind(verify)(golf, oscar);
-                    mike['url'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    option = verify.CREATOR_MONETIZATION_ACCEPT_TERMS;
+                    golfie = argFoo;
+                    oscard = argBar;
+                    oscard = option.bind(verify)(golfie, oscard);
+                    michal['url'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=86);
  84:
-                    return mike;
+                    return michal;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00006_ip = 95; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 95; continue _fun00005 }
  92:
-                    return zulu;
+                    return zuuluu;
  95:
-                    return mike;
+                    return michal;
  98:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot8 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot8 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _acceptCreatorMonetizationTermsV
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 94; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 94; continue _fun00007 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = tango.bind(zulu)(mike);
-                    report = mike.HTTP;
-                    tango = report.post;
-                    mike = {};
-                    options = _closure1_slot4;
-                    golf = options.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
-                    oscar = argFoo;
-                    oscar = golf.bind(options)(oscar);
-                    mike['url'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
+                    option = _closure1_slot4;
+                    golfie = option.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
+                    oscard = argFoo;
+                    oscard = golfie.bind(option)(oscard);
+                    michal['url'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=82);
  80:
-                    return mike;
+                    return michal;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00008_ip = 91; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 91; continue _fun00007 }
  88:
-                    return zulu;
+                    return zuuluu;
  91:
-                    return mike;
+                    return michal;
  94:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _getCreatorMonetizationOnboardingMarketing
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00010_ip = 98; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 98; continue _fun00009 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.get;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    oscar = golf.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.get;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    oscard = golfie.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
                     report = argFoo;
-                    report = oscar.bind(golf)(report);
-                    mike['url'] = report;
+                    report = oscard.bind(golfie)(report);
+                    michal['url'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=81);
  79:
-                    return mike;
+                    return michal;
  81:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00010_ip = 95; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 95; continue _fun00009 }
  87:
-                    zulu = mike.body;
-                    return zulu;
+                    zuuluu = michal.body;
+                    return zuuluu;
  95:
-                    return mike;
+                    return michal;
  98:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot10 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot10 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _fetchCreatorMonetizationNagActivateEligibility
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00012_ip = 170; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 170; continue _fun00011 }
  10:
-                    options = argFoo;
+                    option = argFoo;
  13: // try_start_0
-                    tango = _closure1_slot0;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 3;
-                    mike = report[mike];
+                    michal = 3;
+                    michal = report[michal];
                     report = undefined;
-                    mike = tango.bind(report)(mike);
-                    oscar = mike.HTTP;
-                    tango = oscar.get;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    golf = golf.CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY;
-                    mike['url'] = golf;
-                    golf = {};
-                    golf['nag_guild_ids'] = options;
-                    mike['query'] = golf;
-                    golf = true;
-                    mike['rejectWithError'] = golf;
-                    mike = tango.bind(oscar)(mike);
+                    michal = tangon.bind(report)(michal);
+                    oscard = michal.HTTP;
+                    tangon = oscard.get;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    golfie = golfie.CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY;
+                    michal['url'] = golfie;
+                    golfie = {};
+                    golfie['nag_guild_ids'] = option;
+                    michal['query'] = golfie;
+                    golfie = true;
+                    michal['rejectWithError'] = golfie;
+                    michal = tangon.bind(oscard)(michal);
                     SaveGenerator(address=92);
  90:
-                    return mike;
+                    return michal;
  92:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00012_ip = 160; continue _fun00011 }
+                    if(tangon) { _fun00012_ip = 160; continue _fun00011 }
  98:
-                    tango = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    zulu = 4;
-                    zulu = oscar[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    oscar = 'CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY_FETCH_SUCCESS';
-                    zulu['type'] = oscar;
-                    oscar = mike.body;
-                    oscar = oscar.eligible_guilds;
-                    zulu['eligibleGuilds'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    tangon = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    zuuluu = 4;
+                    zuuluu = oscard[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    oscard = 'CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY_FETCH_SUCCESS';
+                    zuuluu['type'] = oscard;
+                    oscard = michal.body;
+                    oscard = oscard.eligible_guilds;
+                    zuuluu['eligibleGuilds'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  158: // try_end0
                     _fun00012_ip = 165; continue _fun00011;
  160:
-                    return mike;
+                    return michal;
  163: // catch_target0
                     CatchBlockStart(arg_register=1);
  165:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  170:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot11 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot11 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _ownershipTransferOnboard
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00014_ip = 176; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 176; continue _fun00013 }
  10:
-                    zulu = _closure1_slot0;
+                    zuuluu = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 3;
-                    mike = report[mike];
-                    oscar = undefined;
-                    mike = zulu.bind(oscar)(mike);
-                    report = mike.HTTP;
-                    zulu = report.post;
-                    mike = {};
+                    michal = 3;
+                    michal = report[michal];
+                    oscard = undefined;
+                    michal = zuuluu.bind(oscard)(michal);
+                    report = michal.HTTP;
+                    zuuluu = report.post;
+                    michal = {};
                     verify = _closure1_slot4;
-                    options = verify.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
-                    golf = argFoo;
-                    golf = options.bind(verify)(golf);
-                    mike['url'] = golf;
-                    golf = {};
-                    options = argBar;
-                    golf['team_id'] = options;
-                    mike['body'] = golf;
-                    golf = false;
-                    mike['rejectWithError'] = golf;
-                    mike = zulu.bind(report)(mike);
+                    option = verify.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
+                    golfie = argFoo;
+                    golfie = option.bind(verify)(golfie);
+                    michal['url'] = golfie;
+                    golfie = {};
+                    option = argBar;
+                    golfie['team_id'] = option;
+                    michal['body'] = golfie;
+                    golfie = false;
+                    michal['rejectWithError'] = golfie;
+                    michal = zuuluu.bind(report)(michal);
                     SaveGenerator(address=99);
  97:
-                    return mike;
+                    return michal;
  99:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00014_ip = 173; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 173; continue _fun00013 }
  105:
-                    zulu = mike.body;
-                    golf = zulu.application;
+                    zuuluu = michal.body;
+                    golfie = zuuluu.application;
                     report = null;
-                    if(!(report != golf)) { _fun00014_ip = 170; continue _fun00013 }
+                    if(!(report != golfie)) { _fun00014_ip = 170; continue _fun00013 }
  121:
                     report = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    tango = 4;
-                    tango = golf[tango];
-                    oscar = report.bind(oscar)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
-                    golf = 'APPLICATION_FETCH_SUCCESS';
-                    tango['type'] = golf;
-                    golf = zulu.application;
-                    tango['application'] = golf;
-                    tango = report.bind(oscar)(tango);
+                    golfie = _closure1_slot2;
+                    tangon = 4;
+                    tangon = golfie[tangon];
+                    oscard = report.bind(oscard)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'APPLICATION_FETCH_SUCCESS';
+                    tangon['type'] = golfie;
+                    golfie = zuuluu.application;
+                    tangon['application'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
  170:
-                    return zulu;
+                    return zuuluu;
  173:
-                    return mike;
+                    return michal;
  176:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot12 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot12 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _requestRemoveMonetization
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00016_ip = 100; continue _fun00015 }
+                    if(michal) { _fun00016_ip = 100; continue _fun00015 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = tango.bind(zulu)(mike);
-                    report = mike.HTTP;
-                    tango = report.post;
-                    mike = {};
-                    options = _closure1_slot4;
-                    golf = options.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
-                    oscar = argFoo;
-                    oscar = golf.bind(options)(oscar);
-                    mike['url'] = oscar;
-                    oscar = {};
-                    mike['body'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
+                    option = _closure1_slot4;
+                    golfie = option.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
+                    oscard = argFoo;
+                    oscard = golfie.bind(option)(oscard);
+                    michal['url'] = oscard;
+                    oscard = {};
+                    michal['body'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=88);
  86:
-                    return mike;
+                    return michal;
  88:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00016_ip = 97; continue _fun00015 }
+                    if(tangon) { _fun00016_ip = 97; continue _fun00015 }
  94:
-                    return zulu;
+                    return zuuluu;
  97:
-                    return mike;
+                    return michal;
  100:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot13 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot13 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: _removeMonetization
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     StartGenerator();
-                    oscar = argFoo;
+                    oscard = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00018_ip = 113; continue _fun00017 }
+                    if(michal) { _fun00018_ip = 113; continue _fun00017 }
  10:
-                    mike = function() { // Original name: requestRemoveMonetization
+                    michal = function() { // Original name: requestRemoveMonetization
                         entity = undefined;
-                        tango = _closure1_slot13;
-                        zulu = tango.apply;
+                        tangon = _closure1_slot13;
+                        zuuluu = tangon.apply;
                         entity = arguments;
-                        mike = entity;
+                        michal = entity;
                         entity = this;
-                        entity = zulu.bind(tango)(entity, mike);
+                        entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
                     report = undefined;
-                    mike = mike.bind(report)(oscar);
+                    michal = michal.bind(report)(oscard);
                     SaveGenerator(address=30);
  28:
-                    return mike;
+                    return michal;
  30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00018_ip = 110; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 110; continue _fun00017 }
  36:
-                    tango = _closure1_slot1;
-                    options = _closure1_slot2;
-                    zulu = 5;
-                    zulu = options[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.getApplicationsForGuild;
-                    zulu = {};
-                    golf = _closure1_slot5;
-                    golf = golf.GUILD_ROLE_SUBSCRIPTIONS;
-                    zulu['type'] = golf;
-                    golf = true;
-                    zulu['includeTeam'] = golf;
-                    zulu = tango.bind(report)(oscar, zulu);
+                    tangon = _closure1_slot1;
+                    option = _closure1_slot2;
+                    zuuluu = 5;
+                    zuuluu = option[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.getApplicationsForGuild;
+                    zuuluu = {};
+                    golfie = _closure1_slot5;
+                    golfie = golfie.GUILD_ROLE_SUBSCRIPTIONS;
+                    zuuluu['type'] = golfie;
+                    golfie = true;
+                    zuuluu['includeTeam'] = golfie;
+                    zuuluu = tangon.bind(report)(oscard, zuuluu);
                     SaveGenerator(address=98);
  96:
-                    return zulu;
+                    return zuuluu;
  98:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00018_ip = 107; continue _fun00017 }
+                    if(tangon) { _fun00018_ip = 107; continue _fun00017 }
  104:
-                    return zulu;
+                    return zuuluu;
  107:
-                    return zulu;
+                    return zuuluu;
  110:
-                    return mike;
+                    return michal;
  113:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot14 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot14 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ApplicationTypes;
-    var _closure1_slot5 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: createCreatorMonetizationEnableRequest
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ApplicationTypes;
+    var _closure1_slot5 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: createCreatorMonetizationEnableRequest
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = tango.apply;
+        tangon = _closure1_slot6;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['createCreatorMonetizationEnableRequest'] = tango;
-    tango = function() { // Original name: getCreatorMonetizationEligibility
+    zuuluu['createCreatorMonetizationEnableRequest'] = tangon;
+    tangon = function() { // Original name: getCreatorMonetizationEligibility
         entity = undefined;
-        tango = _closure1_slot7;
-        zulu = tango.apply;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['getCreatorMonetizationEligibility'] = tango;
-    tango = function() { // Original name: acceptCreatorMonetizationTerms
+    zuuluu['getCreatorMonetizationEligibility'] = tangon;
+    tangon = function() { // Original name: acceptCreatorMonetizationTerms
         entity = undefined;
-        tango = _closure1_slot8;
-        zulu = tango.apply;
+        tangon = _closure1_slot8;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['acceptCreatorMonetizationTerms'] = tango;
-    tango = function() { // Original name: acceptCreatorMonetizationTermsV2
+    zuuluu['acceptCreatorMonetizationTerms'] = tangon;
+    tangon = function() { // Original name: acceptCreatorMonetizationTermsV2
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['acceptCreatorMonetizationTermsV2'] = tango;
-    tango = function() { // Original name: getCreatorMonetizationOnboardingMarketing
+    zuuluu['acceptCreatorMonetizationTermsV2'] = tangon;
+    tangon = function() { // Original name: getCreatorMonetizationOnboardingMarketing
         entity = undefined;
-        tango = _closure1_slot10;
-        zulu = tango.apply;
+        tangon = _closure1_slot10;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['getCreatorMonetizationOnboardingMarketing'] = tango;
-    tango = function() { // Original name: fetchCreatorMonetizationNagActivateEligibility
+    zuuluu['getCreatorMonetizationOnboardingMarketing'] = tangon;
+    tangon = function() { // Original name: fetchCreatorMonetizationNagActivateEligibility
         entity = undefined;
-        tango = _closure1_slot11;
-        zulu = tango.apply;
+        tangon = _closure1_slot11;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['fetchCreatorMonetizationNagActivateEligibility'] = tango;
-    tango = function() { // Original name: ownershipTransferOnboard
+    zuuluu['fetchCreatorMonetizationNagActivateEligibility'] = tangon;
+    tangon = function() { // Original name: ownershipTransferOnboard
         entity = undefined;
-        tango = _closure1_slot12;
-        zulu = tango.apply;
+        tangon = _closure1_slot12;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['ownershipTransferOnboard'] = tango;
-    tango = function(argFoo) { // Original name: acceptNewTerms
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    zuuluu['ownershipTransferOnboard'] = tangon;
+    tangon = function(argFoo) { // Original name: acceptNewTerms
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        oscar = _closure1_slot4;
-        report = oscar.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
-        tango = argFoo;
-        tango = report.bind(oscar)(tango);
-        entity['url'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        oscard = _closure1_slot4;
+        report = oscard.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
+        tangon = argFoo;
+        tangon = report.bind(oscard)(tangon);
+        entity['url'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['acceptNewTerms'] = tango;
-    tango = function(argFoo) { // Original name: acceptNewTermsDemonetized
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    zuuluu['acceptNewTerms'] = tangon;
+    tangon = function(argFoo) { // Original name: acceptNewTermsDemonetized
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        oscar = _closure1_slot4;
-        report = oscar.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
-        tango = argFoo;
-        tango = report.bind(oscar)(tango);
-        entity['url'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        oscard = _closure1_slot4;
+        report = oscard.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
+        tangon = argFoo;
+        tangon = report.bind(oscard)(tangon);
+        entity['url'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['acceptNewTermsDemonetized'] = tango;
-    mike = function() { // Original name: removeMonetization
+    zuuluu['acceptNewTermsDemonetized'] = tangon;
+    michal = function() { // Original name: removeMonetization
         entity = undefined;
-        tango = _closure1_slot14;
-        zulu = tango.apply;
+        tangon = _closure1_slot14;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['removeMonetization'] = mike;
+    zuuluu['removeMonetization'] = michal;
     return entity;
 })();

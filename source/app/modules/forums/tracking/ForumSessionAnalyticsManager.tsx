@@ -1,105 +1,105 @@
 // app/modules/forums/tracking/ForumSessionAnalyticsManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo) { // Original name: createSessionData
         entity = {};
-        mike = argFoo;
-        entity['channelId'] = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        zulu = tango.bind(mike)(zulu);
-        mike = zulu.v4;
-        mike = mike.bind(zulu)();
-        entity['sessionId'] = mike;
+        michal = argFoo;
+        entity['channelId'] = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        zuuluu = tangon.bind(michal)(zuuluu);
+        michal = zuuluu.v4;
+        michal = michal.bind(zuuluu)();
+        entity['sessionId'] = michal;
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = function() { // Original name: ForumSessionAnalyticsManager
-            tango = _closure1_slot2;
-            zulu = _closure2_slot0;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function() { // Original name: ForumSessionAnalyticsManager
+            tangon = _closure1_slot2;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            mike = this;
-            mike = tango.bind(entity)(mike, zulu);
+            michal = this;
+            michal = tangon.bind(entity)(michal, zuuluu);
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
         report = 'getForumChannelSessionId';
         entity['key'] = report;
-        mike = function(argFoo) { // Original name: value
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = argFoo;
+                tangon = argFoo;
                 entity = this;
-                zulu = entity.session;
-                mike = null;
-                if(!(mike == zulu)) { _fun00002_ip = 38; continue _fun00001 }
+                zuuluu = entity.session;
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
  18:
-                zulu = _closure1_slot4;
-                mike = undefined;
-                mike = zulu.bind(mike)(tango);
-                entity['session'] = mike;
+                zuuluu = _closure1_slot4;
+                michal = undefined;
+                michal = zuuluu.bind(michal)(tangon);
+                entity['session'] = michal;
  38:
-                mike = entity.session;
-                mike = mike.channelId;
-                if(!(mike !== tango)) { _fun00002_ip = 73; continue _fun00001 }
+                michal = entity.session;
+                michal = michal.channelId;
+                if(!(michal !== tangon)) { _fun00002_ip = 73; continue _fun00001 }
  53:
-                zulu = _closure1_slot4;
-                mike = undefined;
-                mike = zulu.bind(mike)(tango);
-                entity['session'] = mike;
+                zuuluu = _closure1_slot4;
+                michal = undefined;
+                michal = zuuluu.bind(michal)(tangon);
+                entity['session'] = michal;
  73:
                 entity = entity.session;
                 entity = entity.sessionId;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(1);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = mike.prototype;
-    tango = Object.create(tango, {constructor: {value: mike}});
-    foxtrot = tango;
-    mike = new foxtrot[mike](romeo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forums/tracking/ForumSessionAnalyticsManager.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = michal.prototype;
+    tangon = Object.create(tangon, {constructor: {value: michal}});
+    foxtra = tangon;
+    michal = new foxtra[michal](romeon);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forums/tracking/ForumSessionAnalyticsManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

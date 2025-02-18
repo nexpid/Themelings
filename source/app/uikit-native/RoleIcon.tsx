@@ -1,99 +1,99 @@
 // app/uikit-native/RoleIcon.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Image;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/RoleIcon.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: RoleIcon
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Image;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/RoleIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: RoleIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.source;
-            options = entity.unicodeEmoji;
-            mike = entity.size;
+            golfie = entity.source;
+            option = entity.unicodeEmoji;
+            michal = entity.size;
             report = undefined;
-            if(!(mike === report)) { _fun00002_ip = 28; continue _fun00001 }
+            if(!(michal === report)) { _fun00002_ip = 28; continue _fun00001 }
  25:
-            mike = 20;
+            michal = 20;
  28:
-            oscar = {};
+            oscard = {};
             entity = {};
-            entity['height'] = mike;
-            entity['width'] = mike;
-            oscar['roleIcon'] = entity;
+            entity['height'] = michal;
+            entity['width'] = michal;
+            oscard['roleIcon'] = entity;
             entity = {'fontFamily': 'System', 'fontSize': null, 'marginBottom': 4294967294};
-            entity['fontSize'] = mike;
-            oscar['unicodeEmojiRoleIcon'] = entity;
+            entity['fontSize'] = michal;
+            oscard['unicodeEmojiRoleIcon'] = entity;
             entity = null;
-            if(!(entity == golf)) { _fun00002_ip = 172; continue _fun00001 }
+            if(!(entity == golfie)) { _fun00002_ip = 172; continue _fun00001 }
  76:
-            mike = entity != options;
+            michal = entity != option;
             entity = null;
-            if(!mike) { _fun00002_ip = 170; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 170; continue _fun00001 }
  85:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot0;
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot0;
             verify = _closure1_slot1;
-            mike = 3;
-            mike = verify[mike];
-            mike = zulu.bind(report)(mike);
-            zulu = mike.LegacyText;
-            mike = {};
+            michal = 3;
+            michal = verify[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.LegacyText;
+            michal = {};
             verify = true;
-            mike['adjustsFontSizeToFit'] = verify;
-            offset = oscar.roleIcon;
+            michal['adjustsFontSizeToFit'] = verify;
+            offset = oscard.roleIcon;
             verify = new Array(2);
             verify[0] = offset;
-            offset = oscar.unicodeEmojiRoleIcon;
+            offset = oscard.unicodeEmojiRoleIcon;
             verify[1] = offset;
-            mike['style'] = verify;
-            options = options.surrogates;
-            mike['children'] = options;
-            entity = tango.bind(report)(zulu, mike);
+            michal['style'] = verify;
+            option = option.surrogates;
+            michal['children'] = option;
+            entity = tangon.bind(report)(zuuluu, michal);
  170:
             _fun00002_ip = 205; continue _fun00001;
  172:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot2;
-            mike = {};
-            mike['source'] = golf;
-            oscar = oscar.roleIcon;
-            mike['style'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot2;
+            michal = {};
+            michal['source'] = golfie;
+            oscard = oscard.roleIcon;
+            michal['style'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  205:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

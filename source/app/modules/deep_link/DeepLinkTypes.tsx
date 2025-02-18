@@ -1,30 +1,30 @@
 // app/modules/deep_link/DeepLinkTypes.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'firebase';
-    mike['Firebase'] = entity;
+    michal['Firebase'] = entity;
     entity = 'os';
-    mike['OS'] = entity;
+    michal['OS'] = entity;
     entity = 'iterable';
-    mike['Iterable'] = entity;
-    tango = argPlugh;
+    michal['Iterable'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/deep_link/DeepLinkTypes.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['DeeplinkSource'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/deep_link/DeepLinkTypes.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['DeeplinkSource'] = michal;
     return entity;
 })();

@@ -1,44 +1,44 @@
 // app/utils/getDevicePixelRatio.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PixelRatio;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/getDevicePixelRatio.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getDevicePixelRatio
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PixelRatio;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/getDevicePixelRatio.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getDevicePixelRatio
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
-            entity = mike.get;
-            mike = entity.bind(mike)();
+            michal = _closure1_slot0;
+            entity = michal.get;
+            michal = entity.bind(michal)();
             entity = null;
-            zulu = entity != mike;
+            zuuluu = entity != michal;
             entity = 1;
-            if(!zulu) { _fun00002_ip = 31; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 31; continue _fun00001 }
  28:
-            entity = mike;
+            entity = michal;
  31:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

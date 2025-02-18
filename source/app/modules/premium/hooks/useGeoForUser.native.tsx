@@ -1,141 +1,141 @@
 // app/modules/premium/hooks/useGeoForUser.native.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    options = argCorge;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    option = argCor;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, tango);
+    entity = verify.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = options.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/hooks/useGeoForUser.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useGeoForUser
-        golf = _closure1_slot0;
-        options = _closure1_slot2;
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/hooks/useGeoForUser.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useGeoForUser
+        golfie = _closure1_slot0;
+        option = _closure1_slot2;
         report = 4;
-        mike = options[report];
-        oscar = undefined;
-        offset = golf.bind(oscar)(mike);
+        michal = option[report];
+        oscard = undefined;
+        offset = golfie.bind(oscard)(michal);
         verify = offset.useStateFromStores;
-        mike = _closure1_slot6;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = function() {
+        michal = _closure1_slot6;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot6;
-                zulu = tango.getProduct;
+                tangon = _closure1_slot6;
+                zuuluu = tangon.getProduct;
                 report = _closure1_slot0;
-                mike = _closure1_slot2;
+                michal = _closure1_slot2;
                 entity = 5;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                mike = report.bind(entity)(mike);
-                mike = mike.ProductIds;
-                mike = mike.PREMIUM_TIER_2_MONTHLY;
-                mike = zulu.bind(tango)(mike);
-                zulu = null;
-                zulu = zulu == mike;
-                if(zulu) { _fun00002_ip = 67; continue _fun00001 }
+                michal = report.bind(entity)(michal);
+                michal = michal.ProductIds;
+                michal = michal.PREMIUM_TIER_2_MONTHLY;
+                michal = zuuluu.bind(tangon)(michal);
+                zuuluu = null;
+                zuuluu = zuuluu == michal;
+                if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
  61:
-                entity = mike.countryCode;
+                entity = michal.countryCode;
  67:
                 return entity;
             }
         };
-        zulu = verify.bind(offset)(zulu, mike);
-        mike = options[report];
-        yankee = golf.bind(oscar)(mike);
+        zuuluu = verify.bind(offset)(zuuluu, michal);
+        michal = option[report];
+        yankee = golfie.bind(oscard)(michal);
         offset = yankee.useStateFromStores;
-        mike = _closure1_slot5;
+        michal = _closure1_slot5;
         verify = new Array(1);
-        verify[0] = mike;
-        mike = function() {
+        verify[0] = michal;
+        michal = function() {
             entity = _closure1_slot5;
             entity = entity.ipCountryCode;
             return entity;
         };
-        mike = offset.bind(yankee)(verify, mike);
-        report = options[report];
-        options = golf.bind(oscar)(report);
-        golf = options.useStateFromStores;
+        michal = offset.bind(yankee)(verify, michal);
+        report = option[report];
+        option = golfie.bind(oscard)(report);
+        golfie = option.useStateFromStores;
         report = _closure1_slot4;
-        oscar = new Array(1);
-        oscar[0] = report;
+        oscard = new Array(1);
+        oscard[0] = report;
         report = function() {
-            mike = _closure1_slot4;
-            entity = mike.isAuthenticated;
-            entity = entity.bind(mike)();
+            michal = _closure1_slot4;
+            entity = michal.isAuthenticated;
+            entity = entity.bind(michal)();
             return entity;
         };
-        golf = golf.bind(options)(oscar, report);
-        var _closure2_slot0 = golf;
-        oscar = _closure1_slot3;
-        report = oscar.useEffect;
-        tango = new Array(2);
-        tango[0] = mike;
-        tango[1] = golf;
+        golfie = golfie.bind(option)(oscard, report);
+        var _closure2_slot0 = golfie;
+        oscard = _closure1_slot3;
+        report = oscard.useEffect;
+        tangon = new Array(2);
+        tangon[0] = michal;
+        tangon[1] = golfie;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot0;
                 if(!entity) { _fun00004_ip = 26; continue _fun00003 }
  10:
-                mike = _closure1_slot5;
-                mike = mike.ipCountryCodeLoaded;
-                entity = !mike;
+                michal = _closure1_slot5;
+                michal = michal.ipCountryCodeLoaded;
+                entity = !michal;
  26:
                 if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  29:
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 6;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                mike = zulu.bind(entity)(mike);
-                entity = mike.fetchIpCountryCode;
-                entity = entity.bind(mike)();
+                michal = zuuluu.bind(entity)(michal);
+                entity = michal.fetchIpCountryCode;
+                entity = entity.bind(michal)();
  64:
                 entity = undefined;
                 return entity;
             }
         };
-        entity = report.bind(oscar)(entity, tango);
+        entity = report.bind(oscard)(entity, tangon);
         entity = {};
-        entity['defaultBillingCountryCode'] = zulu;
-        entity['ipCountryCode'] = mike;
+        entity['defaultBillingCountryCode'] = zuuluu;
+        entity['ipCountryCode'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

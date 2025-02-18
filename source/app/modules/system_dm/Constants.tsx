@@ -1,26 +1,26 @@
 // app/modules/system_dm/Constants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/system_dm/Constants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = '643945264868098049';
-    zulu['SYSTEM_USER'] = mike;
-    mike = 'URGENT_MESSAGE_MODAL';
-    zulu['URGENT_MODAL_KEY'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/system_dm/Constants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = '643945264868098049';
+    zuuluu['SYSTEM_USER'] = michal;
+    michal = 'URGENT_MESSAGE_MODAL';
+    zuuluu['URGENT_MODAL_KEY'] = michal;
     return entity;
 })();

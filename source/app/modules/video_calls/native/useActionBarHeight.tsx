@@ -1,109 +1,109 @@
 // app/modules/video_calls/native/useActionBarHeight.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    tango = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = tango;
-    var _closure1_slot2 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    tangon = argBaz;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = tangon;
+    var _closure1_slot2 = option;
     entity = global;
     verify = entity.Object;
-    oscar = verify.defineProperty;
-    mike = {};
+    oscard = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(verify)(zulu, entity, mike);
+    entity = oscard.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = options[entity];
+    michal = option[entity];
     entity = undefined;
-    mike = tango.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = options[mike];
-    mike = golf.bind(entity)(mike);
-    mike = mike.InputModes;
-    var _closure1_slot4 = mike;
-    tango = 2;
-    mike = options[tango];
-    mike = golf.bind(entity)(mike);
-    mike = mike.ACTION_SHEET_HANDLE_SPACING;
-    var _closure1_slot5 = mike;
-    mike = 3;
-    mike = options[mike];
-    mike = golf.bind(entity)(mike);
-    mike = mike.SMALL_ACTION_BUTTON_DIMENSIONS;
-    mike = mike.buttonRadius;
-    mike = tango * mike;
-    tango = 16;
-    mike = mike + tango;
-    mike = mike + tango;
-    var _closure1_slot6 = mike;
-    oscar = 7;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/video_calls/native/useActionBarHeight.tsx';
-    oscar = golf.bind(options)(oscar);
+    michal = tangon.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = option[michal];
+    michal = golfie.bind(entity)(michal);
+    michal = michal.InputModes;
+    var _closure1_slot4 = michal;
+    tangon = 2;
+    michal = option[tangon];
+    michal = golfie.bind(entity)(michal);
+    michal = michal.ACTION_SHEET_HANDLE_SPACING;
+    var _closure1_slot5 = michal;
+    michal = 3;
+    michal = option[michal];
+    michal = golfie.bind(entity)(michal);
+    michal = michal.SMALL_ACTION_BUTTON_DIMENSIONS;
+    michal = michal.buttonRadius;
+    michal = tangon * michal;
+    tangon = 16;
+    michal = michal + tangon;
+    michal = michal + tangon;
+    var _closure1_slot6 = michal;
+    oscard = 7;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/video_calls/native/useActionBarHeight.tsx';
+    oscard = golfie.bind(option)(oscard);
     report = function(argFoo) { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 4;
-            mike = golf[mike];
+            zuuluu = argFoo;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 4;
+            michal = golfie[michal];
             report = undefined;
-            tango = oscar.bind(report)(mike);
-            mike = tango.useIsFiveButtonLayout;
-            tango = mike.bind(tango)(zulu);
-            options = _closure1_slot1;
-            mike = 5;
-            mike = golf[mike];
-            mike = options.bind(report)(mike);
-            zulu = mike.bind(report)(zulu);
-            mike = 6;
-            mike = golf[mike];
-            golf = oscar.bind(report)(mike);
-            oscar = golf.useStateFromStores;
-            mike = _closure1_slot3;
+            tangon = oscard.bind(report)(michal);
+            michal = tangon.useIsFiveButtonLayout;
+            tangon = michal.bind(tangon)(zuuluu);
+            option = _closure1_slot1;
+            michal = 5;
+            michal = golfie[michal];
+            michal = option.bind(report)(michal);
+            zuuluu = michal.bind(report)(zuuluu);
+            michal = 6;
+            michal = golfie[michal];
+            golfie = oscard.bind(report)(michal);
+            oscard = golfie.useStateFromStores;
+            michal = _closure1_slot3;
             report = new Array(1);
-            report[0] = mike;
-            mike = function() {
-                zulu = _closure1_slot3;
-                mike = zulu.getMode;
-                mike = mike.bind(zulu)();
+            report[0] = michal;
+            michal = function() {
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.getMode;
+                michal = michal.bind(zuuluu)();
                 entity = _closure1_slot4;
                 entity = entity.PUSH_TO_TALK;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            report = oscar.bind(golf)(report, mike);
-            mike = 88;
-            if(!tango) { _fun00002_ip = 112; continue _fun00001 }
+            report = oscard.bind(golfie)(report, michal);
+            michal = 88;
+            if(!tangon) { _fun00002_ip = 112; continue _fun00001 }
  108:
-            mike = _closure1_slot6;
+            michal = _closure1_slot6;
  112:
             entity = _closure1_slot5;
-            mike = mike + entity;
+            michal = michal + entity;
             entity = 0;
             if(!report) { _fun00002_ip = 133; continue _fun00001 }
  125:
             entity = 0;
-            if(!zulu) { _fun00002_ip = 133; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 133; continue _fun00001 }
  130:
             entity = 56;
  133:
-            entity = mike + entity;
+            entity = michal + entity;
             return entity;
         }
     };
-    zulu['default'] = report;
+    zuuluu['default'] = report;
     report = 88;
-    zulu['CALL_ACTION_BAR_HEIGHT'] = report;
-    zulu['FIVE_BUTTON_CONTAINER_PADDING_TOP'] = tango;
-    zulu['FIVE_BUTTON_CONTAINER_PADDING_BOTTOM'] = tango;
-    zulu['FIVE_BUTTON_LAYOUT_ACTION_BAR_HEIGHT'] = mike;
+    zuuluu['CALL_ACTION_BAR_HEIGHT'] = report;
+    zuuluu['FIVE_BUTTON_CONTAINER_PADDING_TOP'] = tangon;
+    zuuluu['FIVE_BUTTON_CONTAINER_PADDING_BOTTOM'] = tangon;
+    zuuluu['FIVE_BUTTON_LAYOUT_ACTION_BAR_HEIGHT'] = michal;
     return entity;
 })();

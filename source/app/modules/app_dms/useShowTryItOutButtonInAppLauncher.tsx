@@ -1,65 +1,65 @@
 // app/modules/app_dms/useShowTryItOutButtonInAppLauncher.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_dms/useShowTryItOutButtonInAppLauncher.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShowTryItOutButtonInAppLauncher
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_dms/useShowTryItOutButtonInAppLauncher.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShowTryItOutButtonInAppLauncher
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.context;
+            oscard = entity.context;
             verify = entity.applicationId;
-            tango = entity.botUserId;
-            zulu = _closure1_slot0;
-            golf = _closure1_slot2;
+            tangon = entity.botUserId;
+            zuuluu = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 0;
-            entity = golf[entity];
+            entity = golfie[entity];
             report = undefined;
-            options = zulu.bind(report)(entity);
-            zulu = options.useIsPrimaryAppCommandUsableInAppDM;
+            option = zuuluu.bind(report)(entity);
+            zuuluu = option.useIsPrimaryAppCommandUsableInAppDM;
             entity = {};
-            entity['context'] = oscar;
+            entity['context'] = oscard;
             entity['applicationId'] = verify;
-            entity['botUserId'] = tango;
-            entity = zulu.bind(options)(entity);
-            zulu = _closure1_slot1;
-            mike = 1;
-            mike = golf[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = {};
-            mike['context'] = oscar;
-            mike = zulu.bind(report)(mike);
+            entity['botUserId'] = tangon;
+            entity = zuuluu.bind(option)(entity);
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            michal = golfie[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = {};
+            michal['context'] = oscard;
+            michal = zuuluu.bind(report)(michal);
             if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  99:
-            zulu = null;
-            entity = zulu != tango;
+            zuuluu = null;
+            entity = zuuluu != tangon;
  105:
             if(!entity) { _fun00002_ip = 111; continue _fun00001 }
  108:
-            entity = !mike;
+            entity = !michal;
  111:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

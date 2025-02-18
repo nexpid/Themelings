@@ -1,84 +1,84 @@
 // app/modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useMemo;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = new Array(0);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useUserProfileApplicationRoleConnections
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useMemo;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = new Array(0);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useUserProfileApplicationRoleConnections
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 2;
-            mike = tango[mike];
-            tango = undefined;
-            golf = report.bind(tango)(mike);
-            oscar = golf.useStateFromStores;
-            mike = _closure1_slot3;
+            tangon = _closure1_slot1;
+            michal = 2;
+            michal = tangon[michal];
+            tangon = undefined;
+            golfie = report.bind(tangon)(michal);
+            oscard = golfie.useStateFromStores;
+            michal = _closure1_slot3;
             report = new Array(1);
-            report[0] = mike;
-            mike = function() {
-                zulu = _closure1_slot3;
-                mike = zulu.getUserProfile;
+            report[0] = michal;
+            michal = function() {
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.getUserProfile;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = oscar.bind(golf)(report, mike);
-            var _closure2_slot1 = mike;
-            zulu = _closure1_slot2;
+            michal = oscard.bind(golfie)(report, michal);
+            var _closure2_slot1 = michal;
+            zuuluu = _closure1_slot2;
             report = null;
-            oscar = report == mike;
+            oscard = report == michal;
             report = undefined;
-            if(oscar) { _fun00002_ip = 89; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
  83:
-            report = mike.applicationRoleConnections;
+            report = michal.applicationRoleConnections;
  89:
-            mike = new Array(1);
-            mike[0] = report;
+            michal = new Array(1);
+            michal[0] = report;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure2_slot1;
-                    zulu = null;
-                    tango = zulu == mike;
-                    mike = undefined;
-                    if(tango) { _fun00004_ip = 28; continue _fun00003 }
+                    michal = _closure2_slot1;
+                    zuuluu = null;
+                    tangon = zuuluu == michal;
+                    michal = undefined;
+                    if(tangon) { _fun00004_ip = 28; continue _fun00003 }
  18:
-                    tango = _closure2_slot1;
-                    mike = tango.applicationRoleConnections;
+                    tangon = _closure2_slot1;
+                    michal = tangon.applicationRoleConnections;
  28:
-                    if(!(zulu != mike)) { _fun00004_ip = 44; continue _fun00003 }
+                    if(!(zuuluu != michal)) { _fun00004_ip = 44; continue _fun00003 }
  32:
                     entity = _closure2_slot1;
                     entity = entity.applicationRoleConnections;
@@ -89,10 +89,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 }
             };
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,76 +1,76 @@
 // app/uikit-native/ThumbnailImage.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
+        zuuluu = argFre;
+        oscard = argPlu;
         entity = global;
-        options = entity.Object;
-        golf = options.defineProperty;
-        tango = {};
+        option = entity.Object;
+        golfie = option.defineProperty;
+        tangon = {};
         entity = true;
-        tango['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = golf.bind(options)(zulu, entity, tango);
+        entity = golfie.bind(option)(zuuluu, entity, tangon);
         entity = 0;
-        golf = oscar[entity];
-        tango = argCorge;
+        golfie = oscard[entity];
+        tangon = argCor;
         entity = undefined;
-        tango = tango.bind(entity)(golf);
-        tango = 1;
-        tango = oscar[tango];
-        golf = report.bind(entity)(tango);
-        tango = golf.Image;
-        options = golf.requireNativeComponent;
-        golf = 2;
-        golf = oscar[golf];
-        golf = report.bind(entity)(golf);
-        golf = golf.jsx;
-        var _closure1_slot0 = golf;
-        golf = 3;
-        golf = oscar[golf];
-        verify = report.bind(entity)(golf);
-        golf = verify.isFabric;
-        golf = golf.bind(verify)();
-        if(golf) { _fun00002_ip = 166; continue _fun00001 }
+        tangon = tangon.bind(entity)(golfie);
+        tangon = 1;
+        tangon = oscard[tangon];
+        golfie = report.bind(entity)(tangon);
+        tangon = golfie.Image;
+        option = golfie.requireNativeComponent;
+        golfie = 2;
+        golfie = oscard[golfie];
+        golfie = report.bind(entity)(golfie);
+        golfie = golfie.jsx;
+        var _closure1_slot0 = golfie;
+        golfie = 3;
+        golfie = oscard[golfie];
+        verify = report.bind(entity)(golfie);
+        golfie = verify.isFabric;
+        golfie = golfie.bind(verify)();
+        if(golfie) { _fun00002_ip = 166; continue _fun00001 }
  129:
-        golf = 5;
-        golf = oscar[golf];
-        verify = report.bind(entity)(golf);
-        golf = verify.isAndroid;
-        golf = golf.bind(verify)();
-        if(!golf) { _fun00002_ip = 164; continue _fun00001 }
+        golfie = 5;
+        golfie = oscard[golfie];
+        verify = report.bind(entity)(golfie);
+        golfie = verify.isAndroid;
+        golfie = golfie.bind(verify)();
+        if(!golfie) { _fun00002_ip = 164; continue _fun00001 }
  153:
-        golf = 'DCDLocalImageThumbnail';
-        tango = options.bind(entity)(golf);
+        golfie = 'DCDLocalImageThumbnail';
+        tangon = option.bind(entity)(golfie);
  164:
         _fun00002_ip = 183; continue _fun00001;
  166:
-        golf = 4;
-        golf = oscar[golf];
-        golf = report.bind(entity)(golf);
-        tango = golf.default;
+        golfie = 4;
+        golfie = oscard[golfie];
+        golfie = report.bind(entity)(golfie);
+        tangon = golfie.default;
  183:
-        var _closure1_slot1 = tango;
-        tango = 6;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'uikit-native/ThumbnailImage.tsx';
-        tango = report.bind(oscar)(tango);
-        mike = function(argFoo) { // Original name: _default
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = {};
+        var _closure1_slot1 = tangon;
+        tangon = 6;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'uikit-native/ThumbnailImage.tsx';
+        tangon = report.bind(oscard)(tangon);
+        michal = function(argFoo) { // Original name: _default
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = {};
             report = argFoo;
-            oscar = mike;
-            entity = copyDataProperties(oscar, report);
+            oscard = michal;
+            entity = copyDataProperties(oscard, report);
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        zulu['default'] = mike;
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

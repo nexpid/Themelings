@@ -1,77 +1,77 @@
 // app/modules/guild_role_subscriptions/useSubscriptionRole.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/useSubscriptionRole.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useSubscriptionRole
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/useSubscriptionRole.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useSubscriptionRole
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
-        zulu = 1;
-        zulu = oscar[zulu];
-        tango = undefined;
-        options = report.bind(tango)(zulu);
-        golf = options.useSubscriptionListing;
-        zulu = argBar;
-        zulu = golf.bind(options)(zulu);
-        var _closure2_slot1 = zulu;
-        zulu = 2;
-        zulu = oscar[zulu];
-        tango = report.bind(tango)(zulu);
-        zulu = tango.useStateFromStores;
+        oscard = _closure1_slot1;
+        zuuluu = 1;
+        zuuluu = oscard[zuuluu];
+        tangon = undefined;
+        option = report.bind(tangon)(zuuluu);
+        golfie = option.useSubscriptionListing;
+        zuuluu = argBar;
+        zuuluu = golfie.bind(option)(zuuluu);
+        var _closure2_slot1 = zuuluu;
+        zuuluu = 2;
+        zuuluu = oscard[zuuluu];
+        tangon = report.bind(tangon)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 report = null;
-                zulu = report != entity;
+                zuuluu = report != entity;
                 entity = undefined;
-                if(!zulu) { _fun00002_ip = 64; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 64; continue _fun00001 }
  18:
-                zulu = _closure2_slot1;
-                zulu = report != zulu;
+                zuuluu = _closure2_slot1;
+                zuuluu = report != zuuluu;
                 entity = undefined;
-                if(!zulu) { _fun00002_ip = 64; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 64; continue _fun00001 }
  31:
                 report = _closure1_slot2;
-                tango = report.getRole;
-                zulu = _closure2_slot0;
-                mike = _closure2_slot1;
-                mike = mike.role_id;
-                entity = tango.bind(report)(zulu, mike);
+                tangon = report.getRole;
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot1;
+                michal = michal.role_id;
+                entity = tangon.bind(report)(zuuluu, michal);
  64:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

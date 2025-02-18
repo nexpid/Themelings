@@ -1,216 +1,216 @@
 // app/modules/main_tabs_v2/native/settings/definitions/SystemNotificationsSetting.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _handleEnableSystemNotification
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 224; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 224; continue _fun00001 }
  10:
-                    mike = _closure1_slot4;
-                    tango = mike.NativePermissionManager;
-                    mike = tango.getNotificationAuthorizationStatus;
-                    mike = mike.bind(tango)();
+                    michal = _closure1_slot4;
+                    tangon = michal.NativePermissionManager;
+                    michal = tangon.getNotificationAuthorizationStatus;
+                    michal = michal.bind(tangon)();
                     SaveGenerator(address=37);
  35:
-                    return mike;
+                    return michal;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 221; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 221; continue _fun00001 }
  46:
-                    tango = _closure1_slot6;
-                    tango = tango.UNDETERMINED;
-                    if(!(mike !== tango)) { _fun00002_ip = 174; continue _fun00001 }
+                    tangon = _closure1_slot6;
+                    tangon = tangon.UNDETERMINED;
+                    if(!(michal !== tangon)) { _fun00002_ip = 174; continue _fun00001 }
  60:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 8;
-                    tango = oscar[tango];
-                    oscar = undefined;
-                    options = report.bind(oscar)(tango);
-                    golf = options.track;
-                    tango = _closure1_slot5;
-                    report = tango.NOTIFICATION_SETTINGS_CLICKED;
-                    tango = {};
+                    oscard = _closure1_slot2;
+                    tangon = 8;
+                    tangon = oscard[tangon];
+                    oscard = undefined;
+                    option = report.bind(oscard)(tangon);
+                    golfie = option.track;
+                    tangon = _closure1_slot5;
+                    report = tangon.NOTIFICATION_SETTINGS_CLICKED;
+                    tangon = {};
                     verify = 'os';
-                    tango['setting_type'] = verify;
+                    tangon['setting_type'] = verify;
                     verify = _closure1_slot6;
                     offset = verify.AUTHORIZED;
                     verify = 0;
-                    if(!(mike === offset)) { _fun00002_ip = 129; continue _fun00001 }
+                    if(!(michal === offset)) { _fun00002_ip = 129; continue _fun00001 }
  126:
                     verify = 1;
  129:
-                    tango['current_status'] = verify;
-                    tango = golf.bind(options)(report, tango);
+                    tangon['current_status'] = verify;
+                    tangon = golfie.bind(option)(report, tangon);
                     report = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    tango = 9;
-                    tango = golf[tango];
-                    report = report.bind(oscar)(tango);
-                    tango = report.openNotificationSettings;
-                    tango = tango.bind(report)();
+                    golfie = _closure1_slot2;
+                    tangon = 9;
+                    tangon = golfie[tangon];
+                    report = report.bind(oscard)(tangon);
+                    tangon = report.openNotificationSettings;
+                    tangon = tangon.bind(report)();
                     _fun00002_ip = 216; continue _fun00001;
  174:
                     report = _closure1_slot1;
-                    tango = _closure1_slot2;
-                    zulu = 7;
-                    tango = tango[zulu];
-                    zulu = undefined;
-                    report = report.bind(zulu)(tango);
-                    tango = report.requestPermission;
-                    zulu = function(argFoo) {
+                    tangon = _closure1_slot2;
+                    zuuluu = 7;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.requestPermission;
+                    zuuluu = function(argFoo) {
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                            zulu = argFoo;
+                            zuuluu = argFoo;
                             report = _closure1_slot1;
-                            tango = _closure1_slot2;
+                            tangon = _closure1_slot2;
                             entity = 8;
-                            tango = tango[entity];
+                            tangon = tangon[entity];
                             entity = undefined;
-                            golf = report.bind(entity)(tango);
-                            oscar = golf.track;
-                            tango = _closure1_slot5;
-                            report = tango.NOTIFICATION_PERMISSION_PREPROMPT_ACKED;
-                            tango = {};
-                            options = _closure1_slot7;
-                            options = options.ALLOW_TO_REQUEST;
-                            tango['action_type'] = options;
-                            options = _closure1_slot8;
-                            options = options.NOTIFICATION_SETTING;
-                            tango['action_location'] = options;
-                            tango['permission_granted'] = zulu;
-                            tango = oscar.bind(golf)(report, tango);
-                            if(zulu) { _fun00004_ip = 119; continue _fun00003 }
+                            golfie = report.bind(entity)(tangon);
+                            oscard = golfie.track;
+                            tangon = _closure1_slot5;
+                            report = tangon.NOTIFICATION_PERMISSION_PREPROMPT_ACKED;
+                            tangon = {};
+                            option = _closure1_slot7;
+                            option = option.ALLOW_TO_REQUEST;
+                            tangon['action_type'] = option;
+                            option = _closure1_slot8;
+                            option = option.NOTIFICATION_SETTING;
+                            tangon['action_location'] = option;
+                            tangon['permission_granted'] = zuuluu;
+                            tangon = oscard.bind(golfie)(report, tangon);
+                            if(zuuluu) { _fun00004_ip = 119; continue _fun00003 }
  89:
-                            zulu = _closure1_slot1;
-                            tango = _closure1_slot2;
-                            mike = 9;
-                            mike = tango[mike];
-                            zulu = zulu.bind(entity)(mike);
-                            mike = zulu.openNotificationSettings;
-                            mike = mike.bind(zulu)();
+                            zuuluu = _closure1_slot1;
+                            tangon = _closure1_slot2;
+                            michal = 9;
+                            michal = tangon[michal];
+                            zuuluu = zuuluu.bind(entity)(michal);
+                            michal = zuuluu.openNotificationSettings;
+                            michal = michal.bind(zuuluu)();
  119:
                             return entity;
                         }
                     };
-                    zulu = tango.bind(report)(zulu);
+                    zuuluu = tangon.bind(report)(zuuluu);
  216:
-                    zulu = undefined;
-                    return zulu;
+                    zuuluu = undefined;
+                    return zuuluu;
  221:
-                    return mike;
+                    return michal;
  224:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    mike = {};
-    tango = true;
-    mike['value'] = tango;
+    michal = {};
+    tangon = true;
+    michal['value'] = tangon;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, mike);
+    entity = verify.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = options.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.NativeModules;
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.MobileSetting;
-    mike = 3;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    verify = mike.RendererType;
-    mike = 4;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.AnalyticEvents;
-    var _closure1_slot5 = mike;
-    mike = 5;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.NotificationAuthorizationStatus;
-    var _closure1_slot6 = mike;
-    mike = 6;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    offset = mike.EventActionType;
+    michal = option.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.NativeModules;
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.MobileSetting;
+    michal = 3;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    verify = michal.RendererType;
+    michal = 4;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.AnalyticEvents;
+    var _closure1_slot5 = michal;
+    michal = 5;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.NotificationAuthorizationStatus;
+    var _closure1_slot6 = michal;
+    michal = 6;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    offset = michal.EventActionType;
     var _closure1_slot7 = offset;
-    mike = mike.EventActionLocation;
-    var _closure1_slot8 = mike;
-    mike = {};
+    michal = michal.EventActionLocation;
+    var _closure1_slot8 = michal;
+    michal = {};
     verify = verify.PRESSABLE;
-    mike['type'] = verify;
+    michal['type'] = verify;
     verify = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 10;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.nl2Dq6;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['title'] = verify;
-    options = options.NOTIFICATIONS;
-    mike['parent'] = options;
-    golf = function() { // Original name: handleEnableSystemNotification
+    michal['title'] = verify;
+    option = option.NOTIFICATIONS;
+    michal['parent'] = option;
+    golfie = function() { // Original name: handleEnableSystemNotification
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['onPress'] = golf;
-    mike['withArrow'] = tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/SystemNotificationsSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['onPress'] = golfie;
+    michal['withArrow'] = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/SystemNotificationsSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

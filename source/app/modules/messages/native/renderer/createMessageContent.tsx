@@ -1,212 +1,212 @@
 // app/modules/messages/native/renderer/createMessageContent.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
-    entity = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: createThreadEmbed
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
+    entity = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: createThreadEmbed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = argCorge;
-            mike = argBaz;
-            if(mike) { _fun00002_ip = 791; continue _fun00001 }
+            oscard = argCor;
+            michal = argBaz;
+            if(michal) { _fun00002_ip = 791; continue _fun00001 }
  15:
-            zulu = entity.hasFlag;
-            mike = _closure1_slot25;
-            mike = mike.HAS_THREAD;
-            mike = zulu.bind(entity)(mike);
-            if(!mike) { _fun00002_ip = 791; continue _fun00001 }
+            zuuluu = entity.hasFlag;
+            michal = _closure1_slot25;
+            michal = michal.HAS_THREAD;
+            michal = zuuluu.bind(entity)(michal);
+            if(!michal) { _fun00002_ip = 791; continue _fun00001 }
  45:
-            mike = null;
-            if(!(mike != oscar)) { _fun00002_ip = 791; continue _fun00001 }
+            michal = null;
+            if(!(michal != oscard)) { _fun00002_ip = 791; continue _fun00001 }
  54:
-            golf = _closure1_slot15;
-            report = golf.getMostRecentMessage;
+            golfie = _closure1_slot15;
+            report = golfie.getMostRecentMessage;
             yankee = _closure1_slot1;
             verify = _closure1_slot2;
             offset = 22;
-            zulu = verify[offset];
-            options = undefined;
-            foxtrot = yankee.bind(options)(zulu);
-            romeo = foxtrot.castMessageIdAsChannelId;
-            zulu = entity.id;
-            zulu = romeo.bind(foxtrot)(zulu);
-            golf = report.bind(golf)(zulu);
+            zuuluu = verify[offset];
+            option = undefined;
+            foxtra = yankee.bind(option)(zuuluu);
+            romeon = foxtra.castMessageIdAsChannelId;
+            zuuluu = entity.id;
+            zuuluu = romeon.bind(foxtra)(zuuluu);
+            golfie = report.bind(golfie)(zuuluu);
             report = _closure1_slot15;
-            zulu = report.getCount;
+            zuuluu = report.getCount;
             offset = verify[offset];
-            yankee = yankee.bind(options)(offset);
+            yankee = yankee.bind(option)(offset);
             offset = yankee.castMessageIdAsChannelId;
             entity = entity.id;
             entity = offset.bind(yankee)(entity);
-            zulu = zulu.bind(report)(entity);
+            zuuluu = zuuluu.bind(report)(entity);
             report = _closure1_slot0;
             entity = 23;
             entity = verify[entity];
-            verify = report.bind(options)(entity);
+            verify = report.bind(option)(entity);
             report = verify.formatMobileMessageCountLabel;
-            entity = oscar.id;
-            report = report.bind(verify)(zulu, entity);
-            if(!(mike != zulu)) { _fun00002_ip = 190; continue _fun00001 }
+            entity = oscard.id;
+            report = report.bind(verify)(zuuluu, entity);
+            if(!(michal != zuuluu)) { _fun00002_ip = 190; continue _fun00001 }
  184:
             entity = 0;
-            if(!(!(zulu > entity))) { _fun00002_ip = 278; continue _fun00001 }
+            if(!(!(zuuluu > entity))) { _fun00002_ip = 278; continue _fun00001 }
  190:
             entity = {};
-            zulu = oscar.name;
-            entity['title'] = zulu;
+            zuuluu = oscard.name;
+            entity['title'] = zuuluu;
             entity['messageCountLabel'] = report;
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
-            zulu = 24;
-            verify = romeo[zulu];
-            verify = yankee.bind(options)(verify);
+            romeon = _closure1_slot2;
+            zuuluu = 24;
+            verify = romeon[zuuluu];
+            verify = yankee.bind(option)(verify);
             offset = verify.intl;
             verify = offset.string;
-            zulu = romeo[zulu];
-            zulu = yankee.bind(options)(zulu);
-            zulu = zulu.t;
-            zulu = zulu.HYtNyM;
-            zulu = verify.bind(offset)(zulu);
-            entity['messagePreviewString'] = zulu;
-            zulu = false;
-            entity['archived'] = zulu;
+            zuuluu = romeon[zuuluu];
+            zuuluu = yankee.bind(option)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.HYtNyM;
+            zuuluu = verify.bind(offset)(zuuluu);
+            entity['messagePreviewString'] = zuuluu;
+            zuuluu = false;
+            entity['archived'] = zuuluu;
             _fun00002_ip = 789; continue _fun00001;
  278:
-            zulu = oscar.threadMetadata;
-            if(!(mike != zulu)) { _fun00002_ip = 300; continue _fun00001 }
+            zuuluu = oscard.threadMetadata;
+            if(!(michal != zuuluu)) { _fun00002_ip = 300; continue _fun00001 }
  288:
-            zulu = zulu.archived;
-            if(zulu) { _fun00002_ip = 656; continue _fun00001 }
+            zuuluu = zuuluu.archived;
+            if(zuuluu) { _fun00002_ip = 656; continue _fun00001 }
  300:
-            if(!(mike != golf)) { _fun00002_ip = 565; continue _fun00001 }
+            if(!(michal != golfie)) { _fun00002_ip = 565; continue _fun00001 }
  307:
-            zulu = golf.type;
-            mike = _closure1_slot23;
-            mike = mike.CHANNEL_NAME_CHANGE;
-            if(!(zulu !== mike)) { _fun00002_ip = 565; continue _fun00001 }
+            zuuluu = golfie.type;
+            michal = _closure1_slot23;
+            michal = michal.CHANNEL_NAME_CHANGE;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 565; continue _fun00001 }
  329:
-            zulu = golf.type;
-            mike = _closure1_slot23;
-            mike = mike.THREAD_STARTER_MESSAGE;
-            if(!(zulu !== mike)) { _fun00002_ip = 565; continue _fun00001 }
+            zuuluu = golfie.type;
+            michal = _closure1_slot23;
+            michal = michal.THREAD_STARTER_MESSAGE;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 565; continue _fun00001 }
  351:
-            mike = golf.blocked;
-            if(mike) { _fun00002_ip = 455; continue _fun00001 }
+            michal = golfie.blocked;
+            if(michal) { _fun00002_ip = 455; continue _fun00001 }
  360:
-            mike = golf.ignored;
-            if(mike) { _fun00002_ip = 455; continue _fun00001 }
+            michal = golfie.ignored;
+            if(michal) { _fun00002_ip = 455; continue _fun00001 }
  369:
-            mike = {};
-            zulu = oscar.name;
-            mike['title'] = zulu;
-            mike['messageCountLabel'] = report;
-            zulu = {};
+            michal = {};
+            zuuluu = oscard.name;
+            michal['title'] = zuuluu;
+            michal['messageCountLabel'] = report;
+            zuuluu = {};
             verify = _closure1_slot22;
             verify = verify.LOADED;
-            zulu['state'] = verify;
+            zuuluu['state'] = verify;
             offset = _closure1_slot33;
             verify = {'message': null, 'roleStyle': null, 'options': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
-            verify['message'] = golf;
+            verify['message'] = golfie;
             yankee = argBar;
             verify['roleStyle'] = yankee;
-            yankee = argGrault;
+            yankee = argGra;
             verify['options'] = yankee;
-            verify = offset.bind(options)(verify);
-            zulu['message'] = verify;
-            mike['referencedMessage'] = zulu;
+            verify = offset.bind(option)(verify);
+            zuuluu['message'] = verify;
+            michal['referencedMessage'] = zuuluu;
             _fun00002_ip = 563; continue _fun00001;
  455:
-            zulu = {};
-            verify = oscar.name;
-            zulu['title'] = verify;
-            zulu['messageCountLabel'] = report;
-            golf = golf.blocked;
-            romeo = _closure1_slot0;
-            foxtrot = _closure1_slot2;
+            zuuluu = {};
+            verify = oscard.name;
+            zuuluu['title'] = verify;
+            zuuluu['messageCountLabel'] = report;
+            golfie = golfie.blocked;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
             verify = 24;
-            offset = foxtrot[verify];
-            offset = romeo.bind(options)(offset);
+            offset = foxtra[verify];
+            offset = romeon.bind(option)(offset);
             yankee = offset.intl;
             offset = yankee.string;
-            verify = foxtrot[verify];
-            verify = romeo.bind(options)(verify);
+            verify = foxtra[verify];
+            verify = romeon.bind(option)(verify);
             verify = verify.t;
-            if(golf) { _fun00002_ip = 537; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 537; continue _fun00001 }
  524:
-            golf = verify.G7p6v7;
-            golf = offset.bind(yankee)(golf);
+            golfie = verify.G7p6v7;
+            golfie = offset.bind(yankee)(golfie);
             _fun00002_ip = 548; continue _fun00001;
  537:
             verify = verify.XAkOo6;
-            golf = offset.bind(yankee)(verify);
+            golfie = offset.bind(yankee)(verify);
  548:
-            zulu['messagePreviewString'] = golf;
-            golf = false;
-            zulu['archived'] = golf;
-            mike = zulu;
+            zuuluu['messagePreviewString'] = golfie;
+            golfie = false;
+            zuuluu['archived'] = golfie;
+            michal = zuuluu;
  563:
             _fun00002_ip = 651; continue _fun00001;
  565:
-            zulu = {};
-            golf = oscar.name;
-            zulu['title'] = golf;
-            zulu['messageCountLabel'] = report;
+            zuuluu = {};
+            golfie = oscard.name;
+            zuuluu['title'] = golfie;
+            zuuluu['messageCountLabel'] = report;
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
-            golf = 24;
-            verify = romeo[golf];
-            verify = yankee.bind(options)(verify);
+            romeon = _closure1_slot2;
+            golfie = 24;
+            verify = romeon[golfie];
+            verify = yankee.bind(option)(verify);
             offset = verify.intl;
             verify = offset.string;
-            golf = romeo[golf];
-            golf = yankee.bind(options)(golf);
-            golf = golf.t;
-            golf = golf.ZTo4HR;
-            golf = verify.bind(offset)(golf);
-            zulu['messagePreviewString'] = golf;
-            golf = false;
-            zulu['archived'] = golf;
-            mike = zulu;
+            golfie = romeon[golfie];
+            golfie = yankee.bind(option)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.ZTo4HR;
+            golfie = verify.bind(offset)(golfie);
+            zuuluu['messagePreviewString'] = golfie;
+            golfie = false;
+            zuuluu['archived'] = golfie;
+            michal = zuuluu;
  651:
             _fun00002_ip = 786; continue _fun00001;
  656:
-            zulu = {};
-            oscar = oscar.name;
-            zulu['title'] = oscar;
-            zulu['messageCountLabel'] = report;
-            oscar = _closure1_slot0;
+            zuuluu = {};
+            oscard = oscard.name;
+            zuuluu['title'] = oscard;
+            zuuluu['messageCountLabel'] = report;
+            oscard = _closure1_slot0;
             verify = _closure1_slot2;
             report = 24;
-            golf = verify[report];
-            golf = oscar.bind(options)(golf);
-            offset = golf.intl;
-            golf = offset.string;
+            golfie = verify[report];
+            golfie = oscard.bind(option)(golfie);
+            offset = golfie.intl;
+            golfie = offset.string;
             report = verify[report];
-            report = oscar.bind(options)(report);
+            report = oscard.bind(option)(report);
             report = report.t;
             report = report.ZTo4HR;
-            report = golf.bind(offset)(report);
-            zulu['messagePreviewString'] = report;
+            report = golfie.bind(offset)(report);
+            zuuluu['messagePreviewString'] = report;
             report = true;
-            zulu['archived'] = report;
+            zuuluu['archived'] = report;
             report = 25;
             report = verify[report];
-            oscar = oscar.bind(options)(report);
-            report = oscar.getAssetUriForEmbed;
-            golf = _closure1_slot1;
-            tango = 26;
-            tango = verify[tango];
-            tango = golf.bind(options)(tango);
-            tango = report.bind(oscar)(tango);
-            zulu['archivedIconUrl'] = tango;
-            mike = zulu;
+            oscard = oscard.bind(option)(report);
+            report = oscard.getAssetUriForEmbed;
+            golfie = _closure1_slot1;
+            tangon = 26;
+            tangon = verify[tangon];
+            tangon = golfie.bind(option)(tangon);
+            tangon = report.bind(oscard)(tangon);
+            zuuluu['archivedIconUrl'] = tangon;
+            michal = zuuluu;
  786:
-            entity = mike;
+            entity = michal;
  789:
             return entity;
  791:
@@ -218,173 +218,173 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     entity = function(argFoo, argBar) { // Original name: getForumPostActions
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            mike = argBar;
-            tango = zulu.id;
-            entity = zulu.channel_id;
-            if(!(tango !== entity)) { _fun00004_ip = 24; continue _fun00003 }
+            zuuluu = argFoo;
+            michal = argBar;
+            tangon = zuuluu.id;
+            entity = zuuluu.channel_id;
+            if(!(tangon !== entity)) { _fun00004_ip = 24; continue _fun00003 }
  20:
             entity = undefined;
             return entity;
  24:
-            oscar = _closure1_slot14;
-            report = oscar.hasJoined;
-            tango = zulu.channel_id;
-            golf = report.bind(oscar)(tango);
-            zulu = zulu.reactions;
-            tango = zulu.length;
-            zulu = 0;
-            oscar = zulu !== tango;
-            zulu = undefined;
+            oscard = _closure1_slot14;
+            report = oscard.hasJoined;
+            tangon = zuuluu.channel_id;
+            golfie = report.bind(oscard)(tangon);
+            zuuluu = zuuluu.reactions;
+            tangon = zuuluu.length;
+            zuuluu = 0;
+            oscard = zuuluu !== tangon;
+            zuuluu = undefined;
             report = undefined;
-            if(oscar) { _fun00004_ip = 199; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 199; continue _fun00003 }
  74:
             verify = _closure1_slot18;
-            options = verify.getChannel;
-            tango = mike.parent_id;
-            tango = options.bind(verify)(tango);
+            option = verify.getChannel;
+            tangon = michal.parent_id;
+            tangon = option.bind(verify)(tangon);
             offset = null;
-            options = offset == tango;
+            option = offset == tangon;
             yankee = undefined;
-            if(options) { _fun00004_ip = 111; continue _fun00003 }
+            if(option) { _fun00004_ip = 111; continue _fun00003 }
  105:
-            yankee = tango.defaultReactionEmoji;
+            yankee = tangon.defaultReactionEmoji;
  111:
-            options = offset == yankee;
-            tango = undefined;
-            if(options) { _fun00004_ip = 126; continue _fun00003 }
+            option = offset == yankee;
+            tangon = undefined;
+            if(option) { _fun00004_ip = 126; continue _fun00003 }
  120:
-            tango = yankee.emojiId;
+            tangon = yankee.emojiId;
  126:
-            tango = offset != tango;
+            tangon = offset != tangon;
             offset = null;
-            if(!tango) { _fun00004_ip = 156; continue _fun00003 }
+            if(!tangon) { _fun00004_ip = 156; continue _fun00003 }
  135:
             verify = _closure1_slot7;
-            options = verify.getUsableCustomEmojiById;
-            tango = yankee.emojiId;
-            offset = options.bind(verify)(tango);
+            option = verify.getUsableCustomEmojiById;
+            tangon = yankee.emojiId;
+            offset = option.bind(verify)(tangon);
  156:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             verify = _closure1_slot2;
-            tango = 27;
-            tango = verify[tango];
-            verify = options.bind(zulu)(tango);
-            options = verify.createDefaultReaction;
-            tango = {};
-            tango['defaultReactionEmoji'] = yankee;
-            tango['customGuildEmoji'] = offset;
-            report = options.bind(verify)(tango);
+            tangon = 27;
+            tangon = verify[tangon];
+            verify = option.bind(zuuluu)(tangon);
+            option = verify.createDefaultReaction;
+            tangon = {};
+            tangon['defaultReactionEmoji'] = yankee;
+            tangon['customGuildEmoji'] = offset;
+            report = option.bind(verify)(tangon);
  199:
-            options = _closure1_slot10;
-            tango = options.shouldDisplayPrompt;
-            mike = mike.id;
-            tango = tango.bind(options)(mike);
-            mike = _closure1_slot0;
-            options = _closure1_slot2;
+            option = _closure1_slot10;
+            tangon = option.shouldDisplayPrompt;
+            michal = michal.id;
+            tangon = tangon.bind(option)(michal);
+            michal = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 27;
-            entity = options[entity];
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.createForumPostActions;
+            entity = option[entity];
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.createForumPostActions;
             entity = {};
-            entity['isFollowing'] = golf;
-            entity['hasReactions'] = oscar;
+            entity['isFollowing'] = golfie;
+            entity['hasReactions'] = oscard;
             entity['defaultReaction'] = report;
-            entity['showMediaPostSharePrompt'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['showMediaPostSharePrompt'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
     var _closure1_slot32 = entity;
-    mike = function(argFoo) { // Original name: createMessageContent
+    michal = function(argFoo) { // Original name: createMessageContent
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            mike = entity.message;
+            michal = entity.message;
             variable93 = entity.messageForward;
-            kilo = entity.roleStyle;
+            kiloes = entity.roleStyle;
             backup = entity.isFirst;
-            foxtrot = entity.isEditing;
-            romeo = entity.canShowImages;
+            foxtra = entity.isEditing;
+            romeon = entity.canShowImages;
             yankee = entity.isSystemDM;
-            golf = entity.isInlineReplyPreview;
-            oscar = undefined;
-            if(!(golf === oscar)) { _fun00006_ip = 58; continue _fun00005 }
+            golfie = entity.isInlineReplyPreview;
+            oscard = undefined;
+            if(!(golfie === oscard)) { _fun00006_ip = 58; continue _fun00005 }
  56:
-            golf = false;
+            golfie = false;
  58:
-            options = entity.options;
+            option = entity.options;
             variable36 = entity.threadStarterMessageHeader;
             variable71 = entity.pushFeedbackType;
             variable56 = entity.renderContentOnly;
-            whiskey = entity.showContentInventoryEntryFallbackEmbed;
-            echo = options.renderEmbeds;
-            report = options.renderReactions;
-            tango = options.renderShortcuts;
-            output = options.inlineEmbedMedia;
-            sizing = options.inlineAttachmentMedia;
-            variable81 = options.constrainedWidth;
-            sequence = options.ignoreMentioned;
-            variable77 = options.animateEmoji;
-            variable44 = options.animatingStickerMessageId;
-            variable60 = options.gifAutoPlay;
-            variable50 = options.renderCodedLinks;
-            variable53 = options.renderGiftCode;
-            variable52 = options.renderActivityInstanceEmbed;
-            variable51 = options.renderActivityInviteEmbed;
-            variable58 = options.renderComponents;
-            source = options.renderThreadEmbeds;
-            vacuum = options.renderReplies;
-            variable39 = options.renderCommunicationDisabled;
-            variable47 = options.renderAttachments;
-            variable59 = options.renderExecutedCommands;
-            entity = options.renderPolls;
-            variable38 = options.renderForumPostActions;
-            status = options.renderInlineForwardButton;
-            update = options.forcedTheme;
-            variable37 = options.ignoreEmbedDescriptionCache;
-            variable42 = options.forceHideSimpleEmbedContent;
-            variable63 = options.shouldObscureSpoiler;
-            variable65 = options.shouldDisableInteractiveComponents;
-            config = options.useAlternateEmbedColors;
-            variable41 = options.shouldFilterKeywords;
+            whisks = entity.showContentInventoryEntryFallbackEmbed;
+            echoed = option.renderEmbeds;
+            report = option.renderReactions;
+            tangon = option.renderShortcuts;
+            output = option.inlineEmbedMedia;
+            sizing = option.inlineAttachmentMedia;
+            variable81 = option.constrainedWidth;
+            sequen = option.ignoreMentioned;
+            variable77 = option.animateEmoji;
+            variable44 = option.animatingStickerMessageId;
+            variable60 = option.gifAutoPlay;
+            variable50 = option.renderCodedLinks;
+            variable53 = option.renderGiftCode;
+            variable52 = option.renderActivityInstanceEmbed;
+            variable51 = option.renderActivityInviteEmbed;
+            variable58 = option.renderComponents;
+            source = option.renderThreadEmbeds;
+            vacuum = option.renderReplies;
+            variable39 = option.renderCommunicationDisabled;
+            variable47 = option.renderAttachments;
+            variable59 = option.renderExecutedCommands;
+            entity = option.renderPolls;
+            variable38 = option.renderForumPostActions;
+            status = option.renderInlineForwardButton;
+            update = option.forcedTheme;
+            variable37 = option.ignoreEmbedDescriptionCache;
+            variable42 = option.forceHideSimpleEmbedContent;
+            variable63 = option.shouldObscureSpoiler;
+            variable65 = option.shouldDisableInteractiveComponents;
+            config = option.useAlternateEmbedColors;
+            variable41 = option.shouldFilterKeywords;
             result = null;
             if(!(result == update)) { _fun00006_ip = 286; continue _fun00005 }
  273:
-            zulu = _closure1_slot16;
-            update = zulu.theme;
+            zuuluu = _closure1_slot16;
+            update = zuuluu.theme;
  286:
             offset = _closure1_slot1;
-            control = _closure1_slot2;
+            ctrled = _closure1_slot2;
             verify = 31;
-            verify = control[verify];
-            verify = offset.bind(oscar)(verify);
-            record = verify.bind(oscar)(update, config);
+            verify = ctrled[verify];
+            verify = offset.bind(oscard)(verify);
+            record = verify.bind(oscard)(update, config);
             verify = 32;
-            verify = control[verify];
-            papa = offset.bind(oscar)(verify);
-            context = papa.getCurrentConfig;
-            control = {};
+            verify = ctrled[verify];
+            papara = offset.bind(oscard)(verify);
+            cntext = papara.getCurrentConfig;
+            ctrled = {};
             config = 'createMessageContent';
-            control['location'] = config;
+            ctrled['location'] = config;
             verify = {};
             offset = false;
             verify['autoTrackExposure'] = offset;
-            verify = context.bind(papa)(control, verify);
-            lima = verify.enabled;
+            verify = cntext.bind(papara)(ctrled, verify);
+            limora = verify.enabled;
             verify = true;
-            variable64 = verify === romeo;
-            context = variable64;
+            variable64 = verify === romeon;
+            cntext = variable64;
             if(!variable64) { _fun00006_ip = 380; continue _fun00005 }
  377:
-            context = echo;
+            cntext = echoed;
  380:
-            if(!context) { _fun00006_ip = 402; continue _fun00005 }
+            if(!cntext) { _fun00006_ip = 402; continue _fun00005 }
  383:
-            control = mike.type;
-            echo = _closure1_slot23;
-            echo = echo.CUSTOM_GIFT;
-            context = control !== echo;
+            ctrled = michal.type;
+            echoed = _closure1_slot23;
+            echoed = echoed.CUSTOM_GIFT;
+            cntext = ctrled !== echoed;
  402:
             quebec = variable64;
             if(!variable64) { _fun00006_ip = 411; continue _fun00005 }
@@ -396,170 +396,170 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  417:
             variable43 = sizing;
  420:
-            echo = _closure1_slot18;
-            output = echo.getChannel;
-            sizing = mike.getChannelId;
-            sizing = sizing.bind(mike)();
-            control = output.bind(echo)(sizing);
-            echo = _closure1_slot18;
-            output = echo.getChannel;
-            papa = _closure1_slot1;
+            echoed = _closure1_slot18;
+            output = echoed.getChannel;
+            sizing = michal.getChannelId;
+            sizing = sizing.bind(michal)();
+            ctrled = output.bind(echoed)(sizing);
+            echoed = _closure1_slot18;
+            output = echoed.getChannel;
+            papara = _closure1_slot1;
             target = _closure1_slot2;
             sizing = 22;
             sizing = target[sizing];
-            target = papa.bind(oscar)(sizing);
-            papa = target.castMessageIdAsChannelId;
-            sizing = mike.id;
-            sizing = papa.bind(target)(sizing);
-            output = output.bind(echo)(sizing);
-            sizing = result == control;
+            target = papara.bind(oscard)(sizing);
+            papara = target.castMessageIdAsChannelId;
+            sizing = michal.id;
+            sizing = papara.bind(target)(sizing);
+            output = output.bind(echoed)(sizing);
+            sizing = result == ctrled;
             variable67 = undefined;
             if(sizing) { _fun00006_ip = 513; continue _fun00005 }
  503:
-            sizing = control.getGuildId;
-            variable67 = sizing.bind(control)();
+            sizing = ctrled.getGuildId;
+            variable67 = sizing.bind(ctrled)();
  513:
             if(!(result == variable93)) { _fun00006_ip = 548; continue _fun00005 }
  517:
-            echo = _closure1_slot0;
-            papa = _closure1_slot2;
+            echoed = _closure1_slot0;
+            papara = _closure1_slot2;
             sizing = 33;
-            sizing = papa[sizing];
-            echo = echo.bind(oscar)(sizing);
-            sizing = echo.maybeCreateSingleForwardForMessage;
-            variable93 = sizing.bind(echo)(mike);
+            sizing = papara[sizing];
+            echoed = echoed.bind(oscard)(sizing);
+            sizing = echoed.maybeCreateSingleForwardForMessage;
+            variable93 = sizing.bind(echoed)(michal);
  548:
-            variable45 = mike;
+            variable45 = michal;
             if(!(result != variable93)) { _fun00006_ip = 566; continue _fun00005 }
  555:
             sizing = variable93.messageSnapshot;
             variable45 = sizing.message;
  566:
-            echo = new Array(0);
+            echoed = new Array(0);
             if(!report) { _fun00006_ip = 616; continue _fun00005 }
  573:
-            papa = _closure1_slot1;
+            papara = _closure1_slot1;
             target = _closure1_slot2;
             sizing = 34;
             sizing = target[sizing];
-            papa = papa.bind(oscar)(sizing);
+            papara = papara.bind(oscard)(sizing);
             sizing = {};
-            target = mike.reactions;
+            target = michal.reactions;
             sizing['reactions'] = target;
             sizing['animateEmoji'] = variable77;
-            echo = papa.bind(oscar)(sizing);
+            echoed = papara.bind(oscard)(sizing);
  616:
-            target = mike.type;
+            target = michal.type;
             sizing = _closure1_slot23;
-            papa = sizing.THREAD_STARTER_MESSAGE;
+            papara = sizing.THREAD_STARTER_MESSAGE;
             sizing = null;
-            if(!(target === papa)) { _fun00006_ip = 687; continue _fun00005 }
+            if(!(target === papara)) { _fun00006_ip = 687; continue _fun00005 }
  637:
             sierra = _closure1_slot12;
             target = sierra.getMessageByReference;
-            papa = mike.messageReference;
-            target = target.bind(sierra)(papa);
-            equality = target.state;
-            papa = _closure1_slot13;
-            sierra = papa.LOADED;
-            papa = null;
-            if(!(equality === sierra)) { _fun00006_ip = 684; continue _fun00005 }
+            papara = michal.messageReference;
+            target = target.bind(sierra)(papara);
+            equals = target.state;
+            papara = _closure1_slot13;
+            sierra = papara.LOADED;
+            papara = null;
+            if(!(equals === sierra)) { _fun00006_ip = 684; continue _fun00005 }
  679:
-            papa = target.message;
+            papara = target.message;
  684:
-            sizing = papa;
+            sizing = papara;
  687:
             if(!(result == sizing)) { _fun00006_ip = 7304; continue _fun00005 }
  694:
             target = _closure1_slot1;
             sierra = _closure1_slot2;
-            papa = 35;
-            papa = sierra[papa];
-            papa = target.bind(oscar)(papa);
-            papa = papa.bind(oscar)(mike);
-            if(papa) { _fun00006_ip = 7111; continue _fun00005 }
+            papara = 35;
+            papara = sierra[papara];
+            papara = target.bind(oscard)(papara);
+            papara = papara.bind(oscard)(michal);
+            if(papara) { _fun00006_ip = 7111; continue _fun00005 }
  725:
             variable70 = !backup;
             if(variable70) { _fun00006_ip = 734; continue _fun00005 }
  731:
             variable70 = variable56;
  734:
-            variable76 = mike.author;
+            variable76 = michal.author;
             target = _closure1_slot0;
             sierra = _closure1_slot2;
-            papa = 37;
-            papa = sierra[papa];
-            sierra = target.bind(oscar)(papa);
+            papara = 37;
+            papara = sierra[papara];
+            sierra = target.bind(oscard)(papara);
             target = sierra.isMessageNewerThanImprovedMarkdownEpoch;
-            equality = mike.editedTimestamp;
-            if(!(result == equality)) { _fun00006_ip = 782; continue _fun00005 }
+            equals = michal.editedTimestamp;
+            if(!(result == equals)) { _fun00006_ip = 782; continue _fun00005 }
  776:
-            equality = mike.timestamp;
+            equals = michal.timestamp;
  782:
-            papa = equality.valueOf;
-            papa = papa.bind(equality)();
-            equality = target.bind(sierra)(papa);
-            papa = variable45.content;
-            if(!(result != papa)) { _fun00006_ip = 818; continue _fun00005 }
+            papara = equals.valueOf;
+            papara = papara.bind(equals)();
+            equals = target.bind(sierra)(papara);
+            papara = variable45.content;
+            if(!(result != papara)) { _fun00006_ip = 818; continue _fun00005 }
  805:
             target = variable45.content;
-            papa = '';
-            if(!(papa === target)) { _fun00006_ip = 831; continue _fun00005 }
+            papara = '';
+            if(!(papara === target)) { _fun00006_ip = 831; continue _fun00005 }
  818:
             target = {};
-            target['content'] = oscar;
+            target['content'] = oscard;
             target['hasSpoilerEmbeds'] = offset;
             _fun00006_ip = 921; continue _fun00005;
  831:
             sierra = _closure1_slot0;
             variable40 = _closure1_slot2;
-            papa = 38;
-            papa = variable40[papa];
-            variable40 = sierra.bind(oscar)(papa);
+            papara = 38;
+            papara = variable40[papara];
+            variable40 = sierra.bind(oscard)(papara);
             sierra = variable40.parseMessageMarkup;
             if(variable42) { _fun00006_ip = 872; continue _fun00005 }
  860:
-            papa = context;
-            if(!papa) { _fun00006_ip = 869; continue _fun00005 }
+            papara = cntext;
+            if(!papara) { _fun00006_ip = 869; continue _fun00005 }
  866:
-            papa = quebec;
+            papara = quebec;
  869:
-            variable42 = papa;
+            variable42 = papara;
  872:
-            papa = result != output;
-            if(!papa) { _fun00006_ip = 890; continue _fun00005 }
+            papara = result != output;
+            if(!papara) { _fun00006_ip = 890; continue _fun00005 }
  879:
-            variable46 = mike.isFirstMessageInForumPost;
-            papa = variable46.bind(mike)(output);
+            variable46 = michal.isFirstMessageInForumPost;
+            papara = variable46.bind(michal)(output);
  890:
             r105 = variable40;
-            r104 = mike;
+            r104 = michal;
             r103 = variable45;
             r102 = variable42;
-            r101 = golf;
-            r100 = papa;
-            variable100 = equality;
-            variable99 = equality;
+            r101 = golfie;
+            r100 = papara;
+            variable100 = equals;
+            variable99 = equals;
             variable98 = variable41;
             target = r105[sierra](r104, r103, r102, r101, r100, variable100, variable99, variable98, variable97);
  921:
-            papa = target.content;
+            papara = target.content;
             variable41 = target.hasSpoilerEmbeds;
             sierra = _closure1_slot0;
             variable40 = _closure1_slot2;
             target = 39;
             target = variable40[target];
-            sierra = sierra.bind(oscar)(target);
+            sierra = sierra.bind(oscard)(target);
             target = sierra.shouldRedactExplicitContent;
-            variable62 = target.bind(sierra)(mike);
+            variable62 = target.bind(sierra)(michal);
             sierra = undefined;
-            if(!context) { _fun00006_ip = 1144; continue _fun00005 }
+            if(!cntext) { _fun00006_ip = 1144; continue _fun00005 }
  971:
             target = _closure1_slot1;
             variable42 = _closure1_slot2;
             variable40 = 40;
             variable40 = variable42[variable40];
-            variable48 = target.bind(oscar)(variable40);
+            variable48 = target.bind(oscard)(variable40);
             variable46 = variable48.getCurrentConfig;
             variable40 = {};
             variable40['location'] = config;
@@ -569,11 +569,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable40 = config.enabled;
             config = 41;
             config = variable42[config];
-            target = target.bind(oscar)(config);
+            target = target.bind(oscard)(config);
             config = {};
             variable42 = variable45.embeds;
             config['embeds'] = variable42;
-            variable42 = mike.channel_id;
+            variable42 = michal.channel_id;
             config['channelId'] = variable42;
             config['gifAutoPlay'] = variable60;
             config['hasSpoilerEmbeds'] = variable41;
@@ -583,28 +583,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config['playInline'] = variable37;
             config['shouldInlineEmbedMedia'] = quebec;
             config['colors'] = record;
-            config['showListsAndHeaders'] = equality;
-            config['showMaskedLinks'] = equality;
-            equality = record.embedBackgroundColor;
-            config['themedBackgroundColor'] = equality;
+            config['showListsAndHeaders'] = equals;
+            config['showMaskedLinks'] = equals;
+            equals = record.embedBackgroundColor;
+            config['themedBackgroundColor'] = equals;
             config['shouldObscureExplicitMedia'] = variable62;
-            equality = mike.author;
-            equality = equality.bot;
-            config['authorIsBot'] = equality;
-            config['showContentInventoryEntryFallbackEmbed'] = whiskey;
-            sierra = target.bind(oscar)(config);
+            equals = michal.author;
+            equals = equals.bot;
+            config['authorIsBot'] = equals;
+            config['showContentInventoryEntryFallbackEmbed'] = whisks;
+            sierra = target.bind(oscard)(config);
  1144:
             target = _closure1_slot1;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             config = 42;
-            config = whiskey[config];
-            target = target.bind(oscar)(config);
+            config = whisks[config];
+            target = target.bind(oscard)(config);
             config = {};
-            config['message'] = mike;
+            config['message'] = michal;
             config['isSystemDM'] = yankee;
-            config['channel'] = control;
+            config['channel'] = ctrled;
             config['colors'] = record;
-            config = target.bind(oscar)(config);
+            config = target.bind(oscard)(config);
             variable90 = config.tagText;
             variable89 = config.tagVerified;
             variable88 = config.tagTextColor;
@@ -614,21 +614,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable84 = config.opTagText;
             variable83 = config.opTagTextColor;
             variable82 = config.opTagBackgroundColor;
-            whiskey = _closure1_slot21;
-            target = whiskey.getUploaderFileForMessageId;
-            config = mike.id;
-            target = target.bind(whiskey)(config);
+            whisks = _closure1_slot21;
+            target = whisks.getUploaderFileForMessageId;
+            config = michal.id;
+            target = target.bind(whisks)(config);
             variable42 = result != target;
-            whiskey = mike.state;
+            whisks = michal.state;
             config = _closure1_slot24;
             config = config.SEND_FAILED;
-            config = whiskey !== config;
+            config = whisks !== config;
             if(config) { _fun00006_ip = 1298; continue _fun00005 }
  1288:
-            whiskey = mike.isCommandType;
-            config = whiskey.bind(mike)();
+            whisks = michal.isCommandType;
+            config = whisks.bind(michal)();
  1298:
-            whiskey = sierra;
+            whisks = sierra;
             if(config) { _fun00006_ip = 1369; continue _fun00005 }
  1304:
             config = sierra;
@@ -636,71 +636,71 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  1311:
             config = new Array(0);
  1315:
-            equality = config.push;
+            equals = config.push;
             quebec = _closure1_slot1;
             variable37 = _closure1_slot2;
             sierra = 43;
             sierra = variable37[sierra];
-            quebec = quebec.bind(oscar)(sierra);
+            quebec = quebec.bind(oscard)(sierra);
             sierra = {};
             sierra['uploaderFile'] = target;
             sierra['useAttachmentUploadPreview'] = variable42;
             sierra['colors'] = record;
-            sierra = quebec.bind(oscar)(sierra);
-            sierra = equality.bind(config)(sierra);
-            whiskey = config;
+            sierra = quebec.bind(oscard)(sierra);
+            sierra = equals.bind(config)(sierra);
+            whisks = config;
  1369:
-            equality = _closure1_slot8;
-            sierra = equality.getMessage;
-            config = mike.id;
-            sierra = sierra.bind(equality)(config);
-            variable55 = whiskey;
+            equals = _closure1_slot8;
+            sierra = equals.getMessage;
+            config = michal.id;
+            sierra = sierra.bind(equals)(config);
+            variable55 = whisks;
             if(!(result != sierra)) { _fun00006_ip = 1468; continue _fun00005 }
  1396:
-            config = whiskey;
-            if(!(result == whiskey)) { _fun00006_ip = 1407; continue _fun00005 }
+            config = whisks;
+            if(!(result == whisks)) { _fun00006_ip = 1407; continue _fun00005 }
  1403:
             config = new Array(0);
  1407:
             variable37 = sierra.errorMessage;
-            whiskey = config.push;
-            equality = _closure1_slot0;
+            whisks = config.push;
+            equals = _closure1_slot0;
             quebec = _closure1_slot2;
             sierra = 43;
             sierra = quebec[sierra];
-            quebec = equality.bind(oscar)(sierra);
-            equality = quebec.createAutomodBlockedMessageEmbed;
+            quebec = equals.bind(oscard)(sierra);
+            equals = quebec.createAutomodBlockedMessageEmbed;
             sierra = {};
             sierra['errorMessage'] = variable37;
             sierra['colors'] = record;
-            sierra = equality.bind(quebec)(sierra);
-            sierra = whiskey.bind(config)(sierra);
+            sierra = equals.bind(quebec)(sierra);
+            sierra = whisks.bind(config)(sierra);
             variable55 = config;
  1468:
             sierra = _closure1_slot0;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             quebec = 44;
-            config = whiskey[quebec];
-            variable37 = sierra.bind(oscar)(config);
-            equality = variable37.getUserAuthor;
-            config = mike.author;
-            config = equality.bind(variable37)(config, control);
+            config = whisks[quebec];
+            variable37 = sierra.bind(oscard)(config);
+            equals = variable37.getUserAuthor;
+            config = michal.author;
+            config = equals.bind(variable37)(config, ctrled);
             variable48 = config.guildMemberAvatar;
             variable37 = config.guildMemberAvatarDecoration;
-            equality = config.iconRoleId;
+            equals = config.iconRoleId;
             config = 45;
-            config = whiskey[config];
-            whiskey = sierra.bind(oscar)(config);
-            sierra = whiskey.ensureAvatarSource;
-            config = mike.isInteractionPlaceholder;
-            config = config.bind(mike)();
+            config = whisks[config];
+            whisks = sierra.bind(oscard)(config);
+            sierra = whisks.ensureAvatarSource;
+            config = michal.isInteractionPlaceholder;
+            config = config.bind(michal)();
             if(!config) { _fun00006_ip = 1596; continue _fun00005 }
  1557:
-            config = mike.author;
+            config = michal.author;
             config = config.avatar;
             if(!(result == config)) { _fun00006_ip = 1596; continue _fun00005 }
  1573:
-            variable40 = mike.application;
+            variable40 = michal.application;
             variable41 = result == variable40;
             config = undefined;
             if(variable41) { _fun00006_ip = 1592; continue _fun00005 }
@@ -714,14 +714,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!(result == variable67)) { _fun00006_ip = 1617; continue _fun00005 }
  1604:
             config = variable76.getAvatarSource;
-            config = config.bind(variable76)(oscar);
+            config = config.bind(variable76)(oscard);
             _fun00006_ip = 1669; continue _fun00005;
  1617:
             variable41 = _closure1_slot1;
             variable46 = _closure1_slot2;
             variable40 = 46;
             variable40 = variable46[variable40];
-            variable46 = variable41.bind(oscar)(variable40);
+            variable46 = variable41.bind(oscard)(variable40);
             variable41 = variable46.getGuildMemberAvatarSource;
             variable40 = {};
             variable49 = variable76.id;
@@ -736,27 +736,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable46 = _closure1_slot2;
             variable40 = 46;
             variable40 = variable46[variable40];
-            variable46 = variable41.bind(oscar)(variable40);
+            variable46 = variable41.bind(oscard)(variable40);
             variable41 = variable46.getApplicationIconSource;
             variable40 = {};
-            variable48 = mike.application;
+            variable48 = michal.application;
             variable48 = variable48.id;
             variable40['id'] = variable48;
-            variable48 = mike.application;
+            variable48 = michal.application;
             variable48 = variable48.icon;
             variable40['icon'] = variable48;
-            variable48 = mike.application;
+            variable48 = michal.application;
             variable48 = variable48.bot;
             variable40['bot'] = variable48;
             config = variable41.bind(variable46)(variable40);
  1748:
-            variable79 = sierra.bind(whiskey)(config);
+            variable79 = sierra.bind(whisks)(config);
             sierra = _closure1_slot0;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             config = 46;
-            config = whiskey[config];
-            whiskey = sierra.bind(oscar)(config);
-            sierra = whiskey.getAvatarDecorationURL;
+            config = whisks[config];
+            whisks = sierra.bind(oscard)(config);
+            sierra = whisks.getAvatarDecorationURL;
             config = {};
             if(!(result == variable37)) { _fun00006_ip = 1791; continue _fun00005 }
  1785:
@@ -767,17 +767,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable48 = _closure1_slot2;
             variable37 = 47;
             variable37 = variable48[variable37];
-            variable41 = variable46.bind(oscar)(variable37);
+            variable41 = variable46.bind(oscard)(variable37);
             variable40 = variable41.getDecorationSizeForAvatarSize;
             variable37 = 48;
             variable37 = variable48[variable37];
-            variable37 = variable46.bind(oscar)(variable37);
+            variable37 = variable46.bind(oscard)(variable37);
             variable37 = variable37.AvatarSizes;
             variable37 = variable37.NORMAL;
             variable37 = variable40.bind(variable41)(variable37);
             config['size'] = variable37;
-            variable78 = sierra.bind(whiskey)(config);
-            config = result != equality;
+            variable78 = sierra.bind(whisks)(config);
+            config = result != equals;
             variable73 = undefined;
             if(!config) { _fun00006_ip = 1927; continue _fun00005 }
  1869:
@@ -786,46 +786,46 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!config) { _fun00006_ip = 1927; continue _fun00005 }
  1878:
             sierra = _closure1_slot0;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             config = 49;
-            config = whiskey[config];
-            whiskey = sierra.bind(oscar)(config);
-            sierra = whiskey.getRoleIcon;
+            config = whisks[config];
+            whisks = sierra.bind(oscard)(config);
+            sierra = whisks.getRoleIcon;
             config = {};
             config['guildId'] = variable67;
-            config['roleId'] = equality;
-            equality = 18;
-            config['size'] = equality;
-            variable73 = sierra.bind(whiskey)(config);
+            config['roleId'] = equals;
+            equals = 18;
+            config['size'] = equals;
+            variable73 = sierra.bind(whisks)(config);
  1927:
-            sierra = mike.hasFlag;
+            sierra = michal.hasFlag;
             config = _closure1_slot25;
             config = config.SOURCE_MESSAGE_DELETED;
-            config = sierra.bind(mike)(config);
+            config = sierra.bind(michal)(config);
             if(!config) { _fun00006_ip = 2006; continue _fun00005 }
  1951:
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 24;
             sierra = variable37[config];
-            sierra = equality.bind(oscar)(sierra);
-            whiskey = sierra.intl;
-            sierra = whiskey.string;
+            sierra = equals.bind(oscard)(sierra);
+            whisks = sierra.intl;
+            sierra = whisks.string;
             config = variable37[config];
-            config = equality.bind(oscar)(config);
+            config = equals.bind(oscard)(config);
             config = config.t;
             config = config.JOtgS0;
-            papa = sierra.bind(whiskey)(config);
+            papara = sierra.bind(whisks)(config);
  2006:
             sierra = _closure1_slot0;
             config = _closure1_slot2;
             config = config[quebec];
-            sierra = sierra.bind(oscar)(config);
+            sierra = sierra.bind(oscard)(config);
             config = sierra.getMessageAuthor;
-            config = config.bind(sierra)(mike);
+            config = config.bind(sierra)(michal);
             variable80 = config.nick;
             variable74 = config.colorString;
-            sierra = mike.type;
+            sierra = michal.type;
             config = _closure1_slot23;
             config = config.INTERACTION_PREMIUM_UPSELL;
             if(!(sierra === config)) { _fun00006_ip = 2128; continue _fun00005 }
@@ -833,19 +833,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sierra = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 24;
-            whiskey = variable37[config];
-            whiskey = sierra.bind(oscar)(whiskey);
-            equality = whiskey.intl;
-            whiskey = equality.formatToPlainString;
+            whisks = variable37[config];
+            whisks = sierra.bind(oscard)(whisks);
+            equals = whisks.intl;
+            whisks = equals.formatToPlainString;
             config = variable37[config];
-            config = sierra.bind(oscar)(config);
+            config = sierra.bind(oscard)(config);
             config = config.t;
             sierra = config.u4A+xM;
             config = {};
             config['appName'] = variable80;
-            papa = whiskey.bind(equality)(sierra, config);
+            papara = whisks.bind(equals)(sierra, config);
  2128:
-            sierra = mike.type;
+            sierra = michal.type;
             config = _closure1_slot23;
             config = config.REPLY;
             variable94 = undefined;
@@ -856,7 +856,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  2160:
             sierra = _closure1_slot12;
             config = sierra.getMessageByReference;
-            vacuum = mike.messageReference;
+            vacuum = michal.messageReference;
             vacuum = config.bind(sierra)(vacuum);
             sierra = vacuum.state;
             config = _closure1_slot13;
@@ -872,10 +872,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!(config !== sierra)) { _fun00006_ip = 2272; continue _fun00005 }
  2234:
             sierra = _closure1_slot0;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             config = 51;
-            config = whiskey[config];
-            sierra = sierra.bind(oscar)(config);
+            config = whisks[config];
+            sierra = sierra.bind(oscard)(config);
             config = sierra.assertNever;
             config = config.bind(sierra)(vacuum);
             variable94 = undefined;
@@ -888,15 +888,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
             sierra = 24;
-            whiskey = variable40[sierra];
-            whiskey = variable37.bind(oscar)(whiskey);
-            equality = whiskey.intl;
-            whiskey = equality.string;
+            whisks = variable40[sierra];
+            whisks = variable37.bind(oscard)(whisks);
+            equals = whisks.intl;
+            whisks = equals.string;
             sierra = variable40[sierra];
-            sierra = variable37.bind(oscar)(sierra);
+            sierra = variable37.bind(oscard)(sierra);
             sierra = sierra.t;
             sierra = sierra.mE3KJC;
-            sierra = whiskey.bind(equality)(sierra);
+            sierra = whisks.bind(equals)(sierra);
             config['content'] = sierra;
             variable94 = config;
             _fun00006_ip = 3467; continue _fun00005;
@@ -908,27 +908,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
             sierra = 24;
-            whiskey = variable40[sierra];
-            whiskey = variable37.bind(oscar)(whiskey);
-            equality = whiskey.intl;
-            whiskey = equality.string;
+            whisks = variable40[sierra];
+            whisks = variable37.bind(oscard)(whisks);
+            equals = whisks.intl;
+            whisks = equals.string;
             sierra = variable40[sierra];
-            sierra = variable37.bind(oscar)(sierra);
+            sierra = variable37.bind(oscard)(sierra);
             sierra = sierra.t;
             sierra = sierra.1i+hMj;
-            sierra = whiskey.bind(equality)(sierra);
+            sierra = whisks.bind(equals)(sierra);
             config['content'] = sierra;
             variable94 = config;
             _fun00006_ip = 3467; continue _fun00005;
  2438:
             vacuum = vacuum.message;
             sierra = _closure1_slot0;
-            whiskey = _closure1_slot2;
+            whisks = _closure1_slot2;
             config = 33;
-            config = whiskey[config];
-            sierra = sierra.bind(oscar)(config);
+            config = whisks[config];
+            sierra = sierra.bind(oscard)(config);
             config = sierra.maybeCreateSingleForwardForMessage;
-            whiskey = config.bind(sierra)(vacuum);
+            whisks = config.bind(sierra)(vacuum);
             sierra = _closure1_slot20;
             config = sierra.isBlockedForMessage;
             config = config.bind(sierra)(vacuum);
@@ -942,30 +942,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sierra = _closure1_slot33;
             config = {'message': null, 'messageForward': null, 'roleStyle': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
             config['message'] = vacuum;
-            config['messageForward'] = whiskey;
-            config['roleStyle'] = kilo;
-            equality = {};
-            r104 = equality;
-            r103 = options;
+            config['messageForward'] = whisks;
+            config['roleStyle'] = kiloes;
+            equals = {};
+            r104 = equals;
+            r103 = option;
             variable37 = copyDataProperties(r104, r103);
             variable37 = 'renderReplies';
-            equality[variable37] = offset;
-            config['options'] = equality;
-            sierra = sierra.bind(oscar)(config);
+            equals[variable37] = offset;
+            config['options'] = equals;
+            sierra = sierra.bind(oscard)(config);
             if(!(result != sierra)) { _fun00006_ip = 3226; continue _fun00005 }
  2585:
             config = 'username';
             config = config in sierra;
             if(!config) { _fun00006_ip = 2756; continue _fun00005 }
  2599:
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             config = _closure1_slot2;
             config = config[quebec];
-            equality = equality.bind(oscar)(config);
-            config = equality.getMessageAuthor;
-            config = config.bind(equality)(vacuum);
+            equals = equals.bind(oscard)(config);
+            config = equals.getMessageAuthor;
+            config = config.bind(equals)(vacuum);
             quebec = config.nick;
-            equality = config.colorString;
+            equals = config.colorString;
             if(!(result == quebec)) { _fun00006_ip = 2654; continue _fun00005 }
  2643:
             config = vacuum.author;
@@ -981,7 +981,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(variable70) { _fun00006_ip = 2696; continue _fun00005 }
  2675:
             config = _closure1_slot3;
-            config = config.bind(oscar)(equality);
+            config = config.bind(oscard)(equals);
             if(!(result == config)) { _fun00006_ip = 2694; continue _fun00005 }
  2688:
             config = sierra.colorString;
@@ -991,25 +991,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = sierra.colorString;
  2702:
             sierra['colorString'] = config;
-            equality = _closure1_slot1;
+            equals = _closure1_slot1;
             quebec = _closure1_slot2;
             config = 50;
             config = quebec[config];
-            config = equality.bind(oscar)(config);
-            config = config.bind(oscar)(mike, vacuum);
+            config = equals.bind(oscard)(config);
+            config = config.bind(oscard)(michal, vacuum);
             if(!config) { _fun00006_ip = 2756; continue _fun00005 }
  2737:
-            equality = sierra.username;
+            equals = sierra.username;
             config = '@';
-            config = config + equality;
+            config = config + equals;
             sierra['username'] = config;
  2756:
-            equality = result == whiskey;
+            equals = result == whisks;
             config = undefined;
-            if(equality) { _fun00006_ip = 2776; continue _fun00005 }
+            if(equals) { _fun00006_ip = 2776; continue _fun00005 }
  2765:
-            whiskey = whiskey.messageSnapshot;
-            config = whiskey.message;
+            whisks = whisks.messageSnapshot;
+            config = whisks.message;
  2776:
             quebec = vacuum;
             if(!(result != config)) { _fun00006_ip = 2786; continue _fun00005 }
@@ -1023,109 +1023,109 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = new Array(0);
             _fun00006_ip = 2834; continue _fun00005;
  2803:
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             variable37 = _closure1_slot2;
-            whiskey = 28;
-            whiskey = variable37[whiskey];
-            equality = equality.bind(oscar)(whiskey);
-            whiskey = equality.getMessageStickers;
-            config = whiskey.bind(equality)(quebec);
+            whisks = 28;
+            whisks = variable37[whisks];
+            equals = equals.bind(oscard)(whisks);
+            whisks = equals.getMessageStickers;
+            config = whisks.bind(equals)(quebec);
  2834:
             config = config.length;
-            whiskey = 0;
-            if(!(!(config > whiskey))) { _fun00006_ip = 3102; continue _fun00005 }
+            whisks = 0;
+            if(!(!(config > whisks))) { _fun00006_ip = 3102; continue _fun00005 }
  2848:
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 29;
             config = variable37[config];
-            variable40 = equality.bind(oscar)(config);
+            variable40 = equals.bind(oscard)(config);
             variable37 = variable40.hasFlag;
-            equality = quebec.flags;
+            equals = quebec.flags;
             config = _closure1_slot25;
             config = config.IS_VOICE_MESSAGE;
-            config = variable37.bind(variable40)(equality, config);
+            config = variable37.bind(variable40)(equals, config);
             if(config) { _fun00006_ip = 3045; continue _fun00005 }
  2901:
-            equality = quebec.type;
+            equals = quebec.type;
             config = _closure1_slot23;
             config = config.POLL_RESULT;
-            if(!(equality !== config)) { _fun00006_ip = 3012; continue _fun00005 }
+            if(!(equals !== config)) { _fun00006_ip = 3012; continue _fun00005 }
  2920:
             config = quebec.embeds;
             config = config.length;
-            if(!(!(config > whiskey))) { _fun00006_ip = 2955; continue _fun00005 }
+            if(!(!(config > whisks))) { _fun00006_ip = 2955; continue _fun00005 }
  2935:
             config = quebec.attachments;
             config = config.length;
-            whiskey = config > whiskey;
+            whisks = config > whisks;
             config = null;
-            if(!whiskey) { _fun00006_ip = 3010; continue _fun00005 }
+            if(!whisks) { _fun00006_ip = 3010; continue _fun00005 }
  2955:
             variable40 = _closure1_slot0;
             variable41 = _closure1_slot2;
-            whiskey = 24;
-            equality = variable41[whiskey];
-            equality = variable40.bind(oscar)(equality);
-            variable37 = equality.intl;
-            equality = variable37.string;
-            whiskey = variable41[whiskey];
-            whiskey = variable40.bind(oscar)(whiskey);
-            whiskey = whiskey.t;
-            whiskey = whiskey.JAKsMz;
-            config = equality.bind(variable37)(whiskey);
+            whisks = 24;
+            equals = variable41[whisks];
+            equals = variable40.bind(oscard)(equals);
+            variable37 = equals.intl;
+            equals = variable37.string;
+            whisks = variable41[whisks];
+            whisks = variable40.bind(oscard)(whisks);
+            whisks = whisks.t;
+            whisks = whisks.JAKsMz;
+            config = equals.bind(variable37)(whisks);
  3010:
             _fun00006_ip = 3043; continue _fun00005;
  3012:
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             variable37 = _closure1_slot2;
-            whiskey = 30;
-            whiskey = variable37[whiskey];
-            equality = equality.bind(oscar)(whiskey);
-            whiskey = equality.getPollResultsReplyPreviewMobile;
-            config = whiskey.bind(equality)(quebec);
+            whisks = 30;
+            whisks = variable37[whisks];
+            equals = equals.bind(oscard)(whisks);
+            whisks = equals.getPollResultsReplyPreviewMobile;
+            config = whisks.bind(equals)(quebec);
  3043:
             _fun00006_ip = 3100; continue _fun00005;
  3045:
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
-            whiskey = 24;
-            equality = variable40[whiskey];
-            equality = variable37.bind(oscar)(equality);
-            quebec = equality.intl;
-            equality = quebec.string;
-            whiskey = variable40[whiskey];
-            whiskey = variable37.bind(oscar)(whiskey);
-            whiskey = whiskey.t;
-            whiskey = whiskey.6bhHra;
-            config = equality.bind(quebec)(whiskey);
+            whisks = 24;
+            equals = variable40[whisks];
+            equals = variable37.bind(oscard)(equals);
+            quebec = equals.intl;
+            equals = quebec.string;
+            whisks = variable40[whisks];
+            whisks = variable37.bind(oscard)(whisks);
+            whisks = whisks.t;
+            whisks = whisks.6bhHra;
+            config = equals.bind(quebec)(whisks);
  3100:
             _fun00006_ip = 3157; continue _fun00005;
  3102:
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
-            whiskey = 24;
-            equality = variable40[whiskey];
-            equality = variable37.bind(oscar)(equality);
-            quebec = equality.intl;
-            equality = quebec.string;
-            whiskey = variable40[whiskey];
-            whiskey = variable37.bind(oscar)(whiskey);
-            whiskey = whiskey.t;
-            whiskey = whiskey.7K5LmZ;
-            config = equality.bind(quebec)(whiskey);
+            whisks = 24;
+            equals = variable40[whisks];
+            equals = variable37.bind(oscard)(equals);
+            quebec = equals.intl;
+            equals = quebec.string;
+            whisks = variable40[whisks];
+            whisks = variable37.bind(oscard)(whisks);
+            whisks = whisks.t;
+            whisks = whisks.7K5LmZ;
+            config = equals.bind(quebec)(whisks);
  3157:
-            whiskey = vacuum.type;
+            whisks = vacuum.type;
             vacuum = _closure1_slot23;
             vacuum = vacuum.POLL_RESULT;
-            if(!(whiskey === vacuum)) { _fun00006_ip = 3182; continue _fun00005 }
+            if(!(whisks === vacuum)) { _fun00006_ip = 3182; continue _fun00005 }
  3176:
             sierra['content'] = config;
  3182:
             vacuum = {};
-            whiskey = _closure1_slot22;
-            whiskey = whiskey.LOADED;
-            vacuum['state'] = whiskey;
+            whisks = _closure1_slot22;
+            whisks = whisks.LOADED;
+            vacuum['state'] = whisks;
             vacuum['message'] = sierra;
             variable94 = vacuum;
             if(!(result != config)) { _fun00006_ip = 3467; continue _fun00005 }
@@ -1138,18 +1138,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot22;
             config = config.SYSTEM;
             vacuum['state'] = config;
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             quebec = _closure1_slot2;
             config = 24;
             sierra = quebec[config];
-            sierra = equality.bind(oscar)(sierra);
-            whiskey = sierra.intl;
-            sierra = whiskey.string;
+            sierra = equals.bind(oscard)(sierra);
+            whisks = sierra.intl;
+            sierra = whisks.string;
             config = quebec[config];
-            config = equality.bind(oscar)(config);
+            config = equals.bind(oscard)(config);
             config = config.t;
             config = config.1i+hMj;
-            config = sierra.bind(whiskey)(config);
+            config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
             variable94 = vacuum;
             _fun00006_ip = 3467; continue _fun00005;
@@ -1158,18 +1158,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot22;
             config = config.SYSTEM;
             vacuum['state'] = config;
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             quebec = _closure1_slot2;
             config = 24;
             sierra = quebec[config];
-            sierra = equality.bind(oscar)(sierra);
-            whiskey = sierra.intl;
-            sierra = whiskey.string;
+            sierra = equals.bind(oscard)(sierra);
+            whisks = sierra.intl;
+            sierra = whisks.string;
             config = quebec[config];
-            config = equality.bind(oscar)(config);
+            config = equals.bind(oscard)(config);
             config = config.t;
             config = config.G7p6v7;
-            config = sierra.bind(whiskey)(config);
+            config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
             variable94 = vacuum;
             _fun00006_ip = 3467; continue _fun00005;
@@ -1178,18 +1178,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot22;
             config = config.SYSTEM;
             vacuum['state'] = config;
-            equality = _closure1_slot0;
+            equals = _closure1_slot0;
             quebec = _closure1_slot2;
             config = 24;
             sierra = quebec[config];
-            sierra = equality.bind(oscar)(sierra);
-            whiskey = sierra.intl;
-            sierra = whiskey.string;
+            sierra = equals.bind(oscard)(sierra);
+            whisks = sierra.intl;
+            sierra = whisks.string;
             config = quebec[config];
-            config = equality.bind(oscar)(config);
+            config = equals.bind(oscard)(config);
             config = config.t;
             config = config.XAkOo6;
-            config = sierra.bind(whiskey)(config);
+            config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
             variable94 = vacuum;
  3467:
@@ -1198,23 +1198,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  3472:
             source = _closure1_slot31;
             r105 = undefined;
-            r104 = mike;
-            r103 = kilo;
-            r102 = golf;
+            r104 = michal;
+            r103 = kiloes;
+            r102 = golfie;
             r101 = output;
-            r100 = options;
+            r100 = option;
             variable91 = r105[source](r104, r103, r102, r101, r100, variable100);
  3497:
             vacuum = _closure1_slot9;
             source = vacuum.getInteraction;
-            variable66 = source.bind(vacuum)(mike);
+            variable66 = source.bind(vacuum)(michal);
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
             source = 52;
             source = config[source];
-            vacuum = vacuum.bind(oscar)(source);
+            vacuum = vacuum.bind(oscard)(source);
             source = vacuum.createInteractionStatus;
-            variable57 = source.bind(vacuum)(mike, variable66);
+            variable57 = source.bind(vacuum)(michal, variable66);
             vacuum = result != variable67;
             source = null;
             if(!vacuum) { _fun00006_ip = 3574; continue _fun00005 }
@@ -1228,44 +1228,44 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sierra = _closure1_slot2;
             vacuum = 53;
             vacuum = sierra[vacuum];
-            config = config.bind(oscar)(vacuum);
+            config = config.bind(oscard)(vacuum);
             vacuum = config.isMemberCommunicationDisabled;
             variable40 = vacuum.bind(config)(source);
             vacuum = _closure1_slot4;
-            equality = vacuum.useReducedMotion;
+            equals = vacuum.useReducedMotion;
             vacuum = _closure1_slot4;
             variable69 = vacuum.alwaysShowLinkDecorations;
-            vacuum = result == control;
-            whiskey = source;
+            vacuum = result == ctrled;
+            whisks = source;
             source = undefined;
             if(vacuum) { _fun00006_ip = 3643; continue _fun00005 }
  3637:
-            source = control.parent_id;
+            source = ctrled.parent_id;
  3643:
-            sierra = control;
+            sierra = ctrled;
             if(!(result != source)) { _fun00006_ip = 3693; continue _fun00005 }
  3650:
-            sierra = control;
-            if(!(result != control)) { _fun00006_ip = 3693; continue _fun00005 }
+            sierra = ctrled;
+            if(!(result != ctrled)) { _fun00006_ip = 3693; continue _fun00005 }
  3657:
-            source = control.isThread;
-            source = source.bind(control)();
-            sierra = control;
+            source = ctrled.isThread;
+            source = source.bind(ctrled)();
+            sierra = ctrled;
             if(!source) { _fun00006_ip = 3693; continue _fun00005 }
  3673:
             config = _closure1_slot18;
             vacuum = config.getChannel;
-            source = control.parent_id;
+            source = ctrled.parent_id;
             sierra = vacuum.bind(config)(source);
  3693:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
             source = 54;
             source = config[source];
-            config = vacuum.bind(oscar)(source);
+            config = vacuum.bind(oscard)(source);
             vacuum = config.getVisibleConnectionsRole;
             source = {};
-            source['guildMember'] = whiskey;
+            source['guildMember'] = whisks;
             source['channel'] = sierra;
             source['onlyChannelConnectionRoles'] = verify;
             variable75 = vacuum.bind(config)(source);
@@ -1279,7 +1279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             source = variable42;
             if(!variable42) { _fun00006_ip = 3793; continue _fun00005 }
  3778:
-            vacuum = mike.attachments;
+            vacuum = michal.attachments;
             vacuum = vacuum.length;
             source = variable54 === vacuum;
  3793:
@@ -1291,7 +1291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             vacuum = _closure1_slot2;
             variable46 = 55;
             vacuum = vacuum[variable46];
-            vacuum = config.bind(oscar)(vacuum);
+            vacuum = config.bind(oscard)(vacuum);
             config = vacuum.ViewImageDescriptions;
             vacuum = config.getSetting;
             variable61 = vacuum.bind(config)();
@@ -1304,45 +1304,45 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sierra = _closure1_slot2;
             vacuum = 57;
             vacuum = sierra[vacuum];
-            config = config.bind(oscar)(vacuum);
+            config = config.bind(oscard)(vacuum);
             vacuum = {};
             sierra = variable45.attachments;
             vacuum['attachments'] = sierra;
             quebec = _closure1_slot21;
-            whiskey = quebec.getUploadAttachments;
-            sierra = mike.nonce;
-            sierra = whiskey.bind(quebec)(sierra);
+            whisks = quebec.getUploadAttachments;
+            sierra = michal.nonce;
+            sierra = whisks.bind(quebec)(sierra);
             vacuum['uploadAttachments'] = sierra;
             vacuum['shouldInlineAttachmentMedia'] = variable43;
             vacuum['gifAutoPlay'] = variable60;
             vacuum['viewImageDescriptions'] = variable61;
-            vacuum['useReducedMotion'] = equality;
+            vacuum['useReducedMotion'] = equals;
             vacuum['shouldObscureSpoiler'] = variable63;
             sierra = record.embedBackgroundColor;
             vacuum['themedBackgroundColor'] = sierra;
             vacuum['shouldObscureExplicitMedia'] = variable62;
             vacuum['colors'] = record;
-            variable41 = config.bind(oscar)(vacuum);
+            variable41 = config.bind(oscard)(vacuum);
             _fun00006_ip = 4021; continue _fun00005;
  3960:
             config = _closure1_slot1;
             sierra = _closure1_slot2;
             vacuum = 56;
             vacuum = sierra[vacuum];
-            config = config.bind(oscar)(vacuum);
+            config = config.bind(oscard)(vacuum);
             vacuum = {};
             vacuum['uploaderFile'] = target;
-            sierra = mike.state;
+            sierra = michal.state;
             target = _closure1_slot24;
             target = target.SEND_FAILED;
             target = sierra === target;
             vacuum['isFailedMessage'] = target;
             vacuum['shouldInlineAttachmentMedia'] = variable43;
-            variable41 = config.bind(oscar)(vacuum);
+            variable41 = config.bind(oscard)(vacuum);
  4021:
             if(!source) { _fun00006_ip = 4043; continue _fun00005 }
  4024:
-            vacuum = mike.state;
+            vacuum = michal.state;
             source = _closure1_slot24;
             source = source.SEND_FAILED;
             if(!(vacuum === source)) { _fun00006_ip = 4082; continue _fun00005 }
@@ -1351,9 +1351,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot2;
             source = 58;
             source = config[source];
-            config = vacuum.bind(oscar)(source);
+            config = vacuum.bind(oscard)(source);
             vacuum = config.calendarFormat;
-            source = mike.timestamp;
+            source = michal.timestamp;
             variable72 = vacuum.bind(config)(source);
             _fun00006_ip = 4137; continue _fun00005;
  4082:
@@ -1361,11 +1361,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sierra = _closure1_slot2;
             source = 24;
             vacuum = sierra[source];
-            vacuum = target.bind(oscar)(vacuum);
+            vacuum = target.bind(oscard)(vacuum);
             config = vacuum.intl;
             vacuum = config.string;
             source = sierra[source];
-            source = target.bind(oscar)(source);
+            source = target.bind(oscard)(source);
             source = source.t;
             source = source.yXY+5O;
             variable72 = vacuum.bind(config)(source);
@@ -1373,29 +1373,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             vacuum = _closure1_slot17;
             source = vacuum.getId;
             variable37 = source.bind(vacuum)();
-            source = mike.isUnsupported;
-            variable68 = papa;
+            source = michal.isUnsupported;
+            variable68 = papara;
             if(!source) { _fun00006_ip = 4220; continue _fun00005 }
  4163:
             target = _closure1_slot0;
             sierra = _closure1_slot2;
             source = 24;
             vacuum = sierra[source];
-            vacuum = target.bind(oscar)(vacuum);
+            vacuum = target.bind(oscard)(vacuum);
             config = vacuum.intl;
             vacuum = config.string;
             source = sierra[source];
-            source = target.bind(oscar)(source);
+            source = target.bind(oscard)(source);
             source = source.t;
             source = source.sWi5ER;
             variable68 = vacuum.bind(config)(source);
  4220:
-            source = mike.isPoll;
-            source = source.bind(mike)();
+            source = michal.isPoll;
+            source = source.bind(michal)();
             source = !source;
             if(source) { _fun00006_ip = 4248; continue _fun00005 }
  4236:
-            vacuum = !golf;
+            vacuum = !golfie;
             if(!vacuum) { _fun00006_ip = 4245; continue _fun00005 }
  4242:
             vacuum = entity;
@@ -1404,11 +1404,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  4248:
             if(source) { _fun00006_ip = 4269; continue _fun00005 }
  4251:
-            vacuum = result != papa;
+            vacuum = result != papara;
             if(!vacuum) { _fun00006_ip = 4266; continue _fun00005 }
  4258:
             config = '';
-            vacuum = config !== papa;
+            vacuum = config !== papara;
  4266:
             source = vacuum;
  4269:
@@ -1418,9 +1418,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot2;
             source = 30;
             source = config[source];
-            vacuum = vacuum.bind(oscar)(source);
+            vacuum = vacuum.bind(oscard)(source);
             source = vacuum.getPollReplyPreview;
-            variable68 = source.bind(vacuum)(mike);
+            variable68 = source.bind(vacuum)(michal);
  4303:
             source = undefined;
             if(!entity) { _fun00006_ip = 4347; continue _fun00005 }
@@ -1429,11 +1429,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot2;
             entity = 59;
             entity = config[entity];
-            vacuum = vacuum.bind(oscar)(entity);
+            vacuum = vacuum.bind(oscard)(entity);
             entity = {};
             entity['theme'] = update;
             entity['animateEmoji'] = variable77;
-            source = vacuum.bind(oscar)(mike, oscar, entity);
+            source = vacuum.bind(oscard)(michal, oscard, entity);
  4347:
             if(!status) { _fun00006_ip = 4381; continue _fun00005 }
  4350:
@@ -1441,16 +1441,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot2;
             entity = 60;
             entity = config[entity];
-            vacuum = vacuum.bind(oscar)(entity);
+            vacuum = vacuum.bind(oscard)(entity);
             entity = vacuum.canForwardMessage;
-            status = entity.bind(vacuum)(mike);
+            status = entity.bind(vacuum)(michal);
  4381:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
             variable95 = 61;
             entity = entity[variable95];
-            papa = vacuum.bind(oscar)(entity);
-            config = papa.shouldDisplayClanTag;
+            papara = vacuum.bind(oscard)(entity);
+            config = papara.shouldDisplayClanTag;
             vacuum = variable76.id;
             target = result != variable67;
             entity = undefined;
@@ -1458,22 +1458,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  4421:
             entity = variable67;
  4424:
-            entity = config.bind(papa)(vacuum, entity);
+            entity = config.bind(papara)(vacuum, entity);
             target = undefined;
-            papa = undefined;
+            papara = undefined;
             config = undefined;
             if(!entity) { _fun00006_ip = 4557; continue _fun00005 }
  4439:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[variable95];
-            sierra = vacuum.bind(oscar)(entity);
+            sierra = vacuum.bind(oscard)(entity);
             vacuum = sierra.getUserPrimaryGuild;
             entity = variable76.primaryGuild;
-            whiskey = vacuum.bind(sierra)(entity);
-            sierra = whiskey.guildId;
-            vacuum = whiskey.tag;
-            entity = whiskey.guildId;
+            whisks = vacuum.bind(sierra)(entity);
+            sierra = whisks.guildId;
+            vacuum = whisks.tag;
+            entity = whisks.guildId;
             quebec = result != entity;
             entity = undefined;
             if(!quebec) { _fun00006_ip = 4548; continue _fun00005 }
@@ -1481,25 +1481,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable92 = _closure1_slot0;
             quebec = _closure1_slot2;
             quebec = quebec[variable95];
-            variable96 = variable92.bind(oscar)(quebec);
+            variable96 = variable92.bind(oscard)(quebec);
             variable95 = variable96.getClanBadgeUrl;
-            variable92 = whiskey.guildId;
-            quebec = whiskey.badge;
-            whiskey = _closure1_slot28;
-            whiskey = whiskey.SIZE_12;
-            entity = variable95.bind(variable96)(variable92, quebec, whiskey);
+            variable92 = whisks.guildId;
+            quebec = whisks.badge;
+            whisks = _closure1_slot28;
+            whisks = whisks.SIZE_12;
+            entity = variable95.bind(variable96)(variable92, quebec, whisks);
  4548:
             config = entity;
             target = sierra;
-            papa = vacuum;
+            papara = vacuum;
  4557:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
             variable96 = 29;
             entity = entity[variable96];
-            whiskey = vacuum.bind(oscar)(entity);
-            sierra = whiskey.hasFlag;
-            entity = mike;
+            whisks = vacuum.bind(oscard)(entity);
+            sierra = whisks.hasFlag;
+            entity = michal;
             if(!(result != variable45)) { _fun00006_ip = 4593; continue _fun00005 }
  4590:
             entity = variable45;
@@ -1507,19 +1507,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             vacuum = entity.flags;
             entity = _closure1_slot25;
             entity = entity.IS_VOICE_MESSAGE;
-            sierra = sierra.bind(whiskey)(vacuum, entity);
+            sierra = sierra.bind(whisks)(vacuum, entity);
             vacuum = _closure1_slot30;
             entity = {};
             entity['currentUserId'] = variable37;
-            entity['message'] = mike;
+            entity['message'] = michal;
             entity['theme'] = update;
-            entity['referralSenderMobileXPEnabled'] = lima;
-            entity = vacuum.bind(oscar)(entity);
-            lima = entity.referralTrialOfferDataUpdated;
-            whiskey = entity.referralTrialOfferData;
+            entity['referralSenderMobileXPEnabled'] = limora;
+            entity = vacuum.bind(oscard)(entity);
+            limora = entity.referralTrialOfferDataUpdated;
+            whisks = entity.referralTrialOfferData;
             variable92 = _closure1_slot5;
             vacuum = variable92.getApplication;
-            variable95 = mike.applicationId;
+            variable95 = michal.applicationId;
             variable97 = result != variable95;
             quebec = '';
             entity = quebec;
@@ -1534,7 +1534,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable95 = _closure1_slot0;
             vacuum = _closure1_slot2;
             vacuum = vacuum[variable96];
-            variable97 = variable95.bind(oscar)(vacuum);
+            variable97 = variable95.bind(oscard)(vacuum);
             variable96 = variable97.hasFlag;
             variable95 = entity.flags;
             vacuum = _closure1_slot26;
@@ -1547,9 +1547,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             vacuum = entity.id;
  4754:
             entity = {};
-            variable92 = mike.id;
+            variable92 = michal.id;
             entity['id'] = variable92;
-            variable92 = mike.channel_id;
+            variable92 = michal.channel_id;
             entity['channelId'] = variable92;
             variable95 = result != variable67;
             variable92 = undefined;
@@ -1558,35 +1558,35 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable92 = variable67;
  4786:
             entity['guildId'] = variable92;
-            variable92 = mike;
+            variable92 = michal;
             if(!(result != variable45)) { _fun00006_ip = 4800; continue _fun00005 }
  4797:
             variable92 = variable45;
  4800:
             variable92 = variable92.flags;
             entity['flags'] = variable92;
-            variable92 = mike.type;
+            variable92 = michal.type;
             entity['type'] = variable92;
-            variable92 = mike.nonce;
+            variable92 = michal.nonce;
             if(!(result != variable92)) { _fun00006_ip = 4845; continue _fun00005 }
  4828:
-            variable92 = mike.nonce;
+            variable92 = michal.nonce;
             variable95 = 'string';
             variable92 = typeof variable92;
             if(!(variable95 === variable92)) { _fun00006_ip = 4853; continue _fun00005 }
  4845:
-            variable92 = mike.nonce;
+            variable92 = michal.nonce;
             _fun00006_ip = 4872; continue _fun00005;
  4853:
             variable95 = global;
             variable96 = variable95.String;
-            variable95 = mike.nonce;
-            variable92 = variable96.bind(oscar)(variable95);
+            variable95 = michal.nonce;
+            variable92 = variable96.bind(oscard)(variable95);
  4872:
             entity['nonce'] = variable92;
-            variable92 = mike.state;
+            variable92 = michal.state;
             entity['state'] = variable92;
-            entity['reactions'] = echo;
+            entity['reactions'] = echoed;
             variable92 = undefined;
             if(variable56) { _fun00006_ip = 4899; continue _fun00005 }
  4896:
@@ -1602,14 +1602,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable91 = variable92.bind(variable93)();
  4930:
             entity['forwardInfo'] = variable91;
-            variable91 = !sequence;
+            variable91 = !sequen;
             if(!variable91) { _fun00006_ip = 4949; continue _fun00005 }
  4943:
-            variable91 = mike.mentioned;
+            variable91 = michal.mentioned;
  4949:
             entity['mentioned'] = variable91;
-            variable91 = mike.isEdited;
-            variable92 = variable91.bind(mike)();
+            variable91 = michal.isEdited;
+            variable92 = variable91.bind(michal)();
             variable91 = quebec;
             if(!variable92) { _fun00006_ip = 5031; continue _fun00005 }
  4970:
@@ -1620,11 +1620,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable96 = _closure1_slot2;
             variable92 = 24;
             variable93 = variable96[variable92];
-            variable93 = variable95.bind(oscar)(variable93);
+            variable93 = variable95.bind(oscard)(variable93);
             variable94 = variable93.intl;
             variable93 = variable94.string;
             variable92 = variable96[variable92];
-            variable92 = variable95.bind(oscar)(variable92);
+            variable92 = variable95.bind(oscard)(variable92);
             variable92 = variable92.t;
             variable92 = variable92.C8sXIC;
             variable91 = variable93.bind(variable94)(variable92);
@@ -1632,7 +1632,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['edited'] = variable91;
             variable91 = record.editedColor;
             entity['editedColor'] = variable91;
-            variable91 = mike.isUnsupported;
+            variable91 = michal.isUnsupported;
             if(variable91) { _fun00006_ip = 5064; continue _fun00005 }
  5056:
             variable91 = record.textColor;
@@ -1683,10 +1683,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(variable70) { _fun00006_ip = 5241; continue _fun00005 }
  5212:
             variable76 = 'username';
-            if(!(variable76 === kilo)) { _fun00006_ip = 5241; continue _fun00005 }
+            if(!(variable76 === kiloes)) { _fun00006_ip = 5241; continue _fun00005 }
  5220:
             variable76 = _closure1_slot3;
-            variable76 = variable76.bind(oscar)(variable74);
+            variable76 = variable76.bind(oscard)(variable74);
             if(!(result == variable76)) { _fun00006_ip = 5239; continue _fun00005 }
  5233:
             variable76 = record.defaultUsernameColor;
@@ -1700,7 +1700,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(variable70) { _fun00006_ip = 5281; continue _fun00005 }
  5257:
             variable77 = _closure1_slot3;
-            variable78 = variable77.bind(oscar)(variable74);
+            variable78 = variable77.bind(oscard)(variable74);
             variable79 = result != variable78;
             variable77 = null;
             if(!variable79) { _fun00006_ip = 5278; continue _fun00005 }
@@ -1711,14 +1711,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  5281:
             entity['roleColor'] = variable76;
             variable76 = 'dot';
-            variable76 = variable76 === kilo;
+            variable76 = variable76 === kiloes;
             if(!variable76) { _fun00006_ip = 5301; continue _fun00005 }
  5297:
             variable76 = result != variable74;
  5301:
             entity['shouldShowRoleDot'] = variable76;
             variable76 = 'username';
-            variable76 = variable76 === kilo;
+            variable76 = variable76 === kiloes;
             if(!variable76) { _fun00006_ip = 5321; continue _fun00005 }
  5317:
             variable76 = result != variable74;
@@ -1728,7 +1728,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(variable70) { _fun00006_ip = 5355; continue _fun00005 }
  5334:
             variable69 = _closure1_slot3;
-            variable69 = variable69.bind(oscar)(variable74);
+            variable69 = variable69.bind(oscard)(variable74);
             if(!(result == variable69)) { _fun00006_ip = 5353; continue _fun00005 }
  5347:
             variable69 = record.defaultUsernameColor;
@@ -1752,7 +1752,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable76 = _closure1_slot2;
             variable73 = 62;
             variable73 = variable76[variable73];
-            variable74 = variable74.bind(oscar)(variable73);
+            variable74 = variable74.bind(oscard)(variable73);
             variable73 = variable74.createConnectionsRoleTag;
             variable69 = variable73.bind(variable74)(variable75);
  5419:
@@ -1770,27 +1770,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  5450:
             entity['timestampColor'] = variable69;
             entity['content'] = variable68;
-            entity['isEditing'] = foxtrot;
+            entity['isEditing'] = foxtra;
             entity['renderContentOnly'] = variable56;
             variable68 = undefined;
-            if(!(oscar !== variable71)) { _fun00006_ip = 5508; continue _fun00005 }
+            if(!(oscard !== variable71)) { _fun00006_ip = 5508; continue _fun00005 }
  5475:
             variable70 = _closure1_slot0;
             variable72 = _closure1_slot2;
             variable69 = 63;
             variable69 = variable72[variable69];
-            variable70 = variable70.bind(oscar)(variable69);
+            variable70 = variable70.bind(oscard)(variable69);
             variable69 = variable70.createSurveyIndication;
-            variable68 = variable69.bind(variable70)(mike, update, variable71);
+            variable68 = variable69.bind(variable70)(michal, update, variable71);
  5508:
             entity['surveyIndication'] = variable68;
             variable69 = _closure1_slot0;
             variable70 = _closure1_slot2;
             variable68 = 64;
             variable68 = variable70[variable68];
-            variable69 = variable69.bind(oscar)(variable68);
+            variable69 = variable69.bind(oscard)(variable68);
             variable68 = variable69.createEphemeralIndication;
-            variable68 = variable68.bind(variable69)(mike);
+            variable68 = variable68.bind(variable69)(michal);
             entity['ephemeralIndication'] = variable68;
             entity['interactionStatus'] = variable57;
             variable57 = undefined;
@@ -1800,13 +1800,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable69 = _closure1_slot2;
             variable59 = 65;
             variable59 = variable69[variable59];
-            variable69 = variable68.bind(oscar)(variable59);
+            variable69 = variable68.bind(oscard)(variable59);
             variable68 = variable69.createExecutedCommand;
             r100 = record.defaultUsernameColor;
             r105 = variable69;
-            r104 = mike;
-            r103 = control;
-            r102 = kilo;
+            r104 = michal;
+            r103 = ctrled;
+            r102 = kiloes;
             r101 = update;
             variable57 = r105[variable68](r104, r103, r102, r101, r100, variable100);
  5614:
@@ -1824,9 +1824,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable68 = _closure1_slot2;
             variable58 = 66;
             variable58 = variable68[variable58];
-            variable59 = variable59.bind(oscar)(variable58);
+            variable59 = variable59.bind(oscard)(variable58);
             variable58 = {};
-            variable58['message'] = mike;
+            variable58['message'] = michal;
             variable58['guildId'] = variable67;
             variable58['interaction'] = variable66;
             variable58['shouldDisableInteractiveComponents'] = variable65;
@@ -1836,7 +1836,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable58['shouldShowMosaicMediaDescriptions'] = variable61;
             variable58['shouldAutoPlayGifs'] = variable60;
             variable58['colors'] = record;
-            variable57 = variable59.bind(oscar)(variable58);
+            variable57 = variable59.bind(oscard)(variable58);
  5720:
             entity['components'] = variable57;
             variable57 = 0;
@@ -1867,9 +1867,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable56 = _closure1_slot2;
             variable54 = 67;
             variable54 = variable56[variable54];
-            variable55 = variable55.bind(oscar)(variable54);
+            variable55 = variable55.bind(oscard)(variable54);
             variable54 = variable55.createGiftCodeEmbed;
-            variable53 = variable54.bind(variable55)(mike, update);
+            variable53 = variable54.bind(variable55)(michal, update);
  5815:
             entity['giftCodes'] = variable53;
             if(variable50) { _fun00006_ip = 5829; continue _fun00005 }
@@ -1881,9 +1881,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable55 = _closure1_slot2;
             variable53 = 68;
             variable53 = variable55[variable53];
-            variable54 = variable54.bind(oscar)(variable53);
+            variable54 = variable54.bind(oscard)(variable53);
             variable53 = variable54.createCodedLinkEmbeds;
-            variable50 = variable53.bind(variable54)(mike, variable45, update);
+            variable50 = variable53.bind(variable54)(michal, variable45, update);
  5862:
             entity['codedLinks'] = variable50;
             variable50 = undefined;
@@ -1893,9 +1893,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable54 = _closure1_slot2;
             variable52 = 69;
             variable52 = variable54[variable52];
-            variable53 = variable53.bind(oscar)(variable52);
+            variable53 = variable53.bind(oscard)(variable52);
             variable52 = variable53.createActivityInstanceEmbed;
-            variable50 = variable52.bind(variable53)(mike, update);
+            variable50 = variable52.bind(variable53)(michal, update);
  5904:
             entity['activityInstanceEmbed'] = variable50;
             variable50 = undefined;
@@ -1905,9 +1905,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable53 = _closure1_slot2;
             variable51 = 70;
             variable51 = variable53[variable51];
-            variable52 = variable52.bind(oscar)(variable51);
+            variable52 = variable52.bind(oscard)(variable51);
             variable51 = variable52.createActivityInviteEmbed;
-            variable50 = variable51.bind(variable52)(mike, update);
+            variable50 = variable51.bind(variable52)(michal, update);
  5948:
             entity['activityInviteEmbed'] = variable50;
             if(!variable43) { _fun00006_ip = 5979; continue _fun00005 }
@@ -1933,7 +1933,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable41 = variable47;
             if(!variable42) { _fun00006_ip = 6035; continue _fun00005 }
  6003:
-            variable43 = mike.state;
+            variable43 = michal.state;
             variable42 = _closure1_slot24;
             variable42 = variable42.SEND_FAILED;
             variable41 = variable47;
@@ -1946,20 +1946,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable43 = _closure1_slot2;
             variable41 = 71;
             variable41 = variable43[variable41];
-            variable42 = variable42.bind(oscar)(variable41);
+            variable42 = variable42.bind(oscard)(variable41);
             variable41 = {};
             variable41['message'] = variable45;
             variable45 = _closure1_slot0;
             variable43 = variable43[variable46];
-            variable43 = variable45.bind(oscar)(variable43);
+            variable43 = variable45.bind(oscard)(variable43);
             variable45 = variable43.AnimateStickers;
             variable43 = variable45.getSetting;
             variable43 = variable43.bind(variable45)();
             variable41['animateStickersSetting'] = variable43;
-            variable43 = mike.id;
+            variable43 = michal.id;
             variable43 = variable43 === variable44;
             variable41['isUserInteracting'] = variable43;
-            variable41 = variable42.bind(oscar)(variable41);
+            variable41 = variable42.bind(oscard)(variable41);
             entity['stickers'] = variable41;
             if(!variable39) { _fun00006_ip = 6130; continue _fun00005 }
  6127:
@@ -1967,27 +1967,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  6130:
             entity['communicationDisabled'] = variable39;
             entity['threadStarterMessageHeader'] = variable36;
-            variable39 = result == control;
+            variable39 = result == ctrled;
             if(variable39) { _fun00006_ip = 6160; continue _fun00005 }
  6147:
-            variable36 = control.isForumPost;
-            variable36 = variable36.bind(control)();
+            variable36 = ctrled.isForumPost;
+            variable36 = variable36.bind(ctrled)();
             variable39 = !variable36;
  6160:
             variable36 = !variable39;
             if(variable39) { _fun00006_ip = 6180; continue _fun00005 }
  6166:
-            variable40 = mike.id;
-            variable39 = mike.channel_id;
+            variable40 = michal.id;
+            variable39 = michal.channel_id;
             variable36 = variable40 === variable39;
  6180:
             entity['isFirstForumPostMessage'] = variable36;
-            variable39 = result != control;
+            variable39 = result != ctrled;
             variable36 = undefined;
             if(!variable39) { _fun00006_ip = 6224; continue _fun00005 }
  6194:
-            variable39 = control.isForumPost;
-            variable39 = variable39.bind(control)();
+            variable39 = ctrled.isForumPost;
+            variable39 = variable39.bind(ctrled)();
             variable36 = undefined;
             if(!variable39) { _fun00006_ip = 6224; continue _fun00005 }
  6209:
@@ -1995,10 +1995,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             if(!variable38) { _fun00006_ip = 6224; continue _fun00005 }
  6214:
             variable38 = _closure1_slot32;
-            variable36 = variable38.bind(oscar)(mike, control);
+            variable36 = variable38.bind(oscard)(michal, ctrled);
  6224:
             entity['postActions'] = variable36;
-            variable36 = mike.author;
+            variable36 = michal.author;
             variable36 = variable36.id;
             variable36 = variable36 === variable37;
             entity['isCurrentUserMessageAuthor'] = variable36;
@@ -2010,20 +2010,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             variable40 = _closure1_slot2;
             variable36 = 25;
             variable38 = variable40[variable36];
-            variable42 = variable37.bind(oscar)(variable38);
+            variable42 = variable37.bind(oscard)(variable38);
             variable41 = variable42.getAssetUriForEmbed;
             variable39 = _closure1_slot1;
             variable38 = 72;
             variable38 = variable40[variable38];
-            variable38 = variable39.bind(oscar)(variable38);
+            variable38 = variable39.bind(oscard)(variable38);
             variable38 = variable41.bind(variable42)(variable38);
             entity['swipeToReplyIconUrl'] = variable38;
             variable36 = variable40[variable36];
-            variable38 = variable37.bind(oscar)(variable36);
+            variable38 = variable37.bind(oscard)(variable36);
             variable37 = variable38.getAssetUriForEmbed;
             variable36 = 73;
             variable36 = variable40[variable36];
-            variable36 = variable39.bind(oscar)(variable36);
+            variable36 = variable39.bind(oscard)(variable36);
             variable36 = variable37.bind(variable38)(variable36);
             entity['swipeToEditIconUrl'] = variable36;
             entity['showRemixButton'] = offset;
@@ -2032,54 +2032,54 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['remixButtonIconColor'] = quebec;
             quebec = record.remixButtonBackgroundColor;
             entity['remixButtonBackgroundColor'] = quebec;
-            entity['referralTrialOffer'] = whiskey;
-            entity['referralTrialOfferInfo'] = lima;
-            if(context) { _fun00006_ip = 6418; continue _fun00005 }
+            entity['referralTrialOffer'] = whisks;
+            entity['referralTrialOfferInfo'] = limora;
+            if(cntext) { _fun00006_ip = 6418; continue _fun00005 }
  6412:
-            context = new Array(0);
+            cntext = new Array(0);
             _fun00006_ip = 6450; continue _fun00005;
  6418:
-            whiskey = _closure1_slot0;
+            whisks = _closure1_slot0;
             quebec = _closure1_slot2;
-            lima = 74;
-            lima = quebec[lima];
-            whiskey = whiskey.bind(oscar)(lima);
-            lima = whiskey.createPostPreviewEmbeds;
-            context = lima.bind(whiskey)(mike, equality);
+            limora = 74;
+            limora = quebec[limora];
+            whisks = whisks.bind(oscard)(limora);
+            limora = whisks.createPostPreviewEmbeds;
+            cntext = limora.bind(whisks)(michal, equals);
  6450:
-            entity['postPreviewEmbeds'] = context;
-            lima = _closure1_slot0;
-            whiskey = _closure1_slot2;
-            context = 24;
-            equality = whiskey[context];
-            equality = lima.bind(oscar)(equality);
-            variable36 = equality.intl;
+            entity['postPreviewEmbeds'] = cntext;
+            limora = _closure1_slot0;
+            whisks = _closure1_slot2;
+            cntext = 24;
+            equals = whisks[cntext];
+            equals = limora.bind(oscard)(equals);
+            variable36 = equals.intl;
             quebec = variable36.string;
-            equality = whiskey[context];
-            equality = lima.bind(oscar)(equality);
-            equality = equality.t;
-            equality = equality.2aXnfX;
-            equality = quebec.bind(variable36)(equality);
-            entity['obscureLearnMoreLabel'] = equality;
-            equality = 75;
-            equality = whiskey[equality];
-            quebec = lima.bind(oscar)(equality);
-            equality = quebec.createSafetyPolicyNoticeEmbed;
-            equality = equality.bind(quebec)(mike);
-            entity['safetyPolicyNoticeEmbed'] = equality;
+            equals = whisks[cntext];
+            equals = limora.bind(oscard)(equals);
+            equals = equals.t;
+            equals = equals.2aXnfX;
+            equals = quebec.bind(variable36)(equals);
+            entity['obscureLearnMoreLabel'] = equals;
+            equals = 75;
+            equals = whisks[equals];
+            quebec = limora.bind(oscard)(equals);
+            equals = quebec.createSafetyPolicyNoticeEmbed;
+            equals = equals.bind(quebec)(michal);
+            entity['safetyPolicyNoticeEmbed'] = equals;
             entity['pollData'] = source;
             source = 76;
-            source = whiskey[source];
-            equality = lima.bind(oscar)(source);
-            source = equality.createSafetySystemNotificationEmbed;
-            source = source.bind(equality)(mike);
+            source = whisks[source];
+            equals = limora.bind(oscard)(source);
+            source = equals.createSafetySystemNotificationEmbed;
+            source = source.bind(equals)(michal);
             entity['safetySystemNotificationEmbed'] = source;
             source = 77;
-            source = whiskey[source];
-            whiskey = lima.bind(oscar)(source);
-            lima = whiskey.createCtaButton;
-            source = mike.id;
-            source = lima.bind(whiskey)(source, record);
+            source = whisks[source];
+            whisks = limora.bind(oscard)(source);
+            limora = whisks.createCtaButton;
+            source = michal.id;
+            source = limora.bind(whisks)(source, record);
             entity['ctaButton'] = source;
             source = undefined;
             if(!sierra) { _fun00006_ip = 6629; continue _fun00005 }
@@ -2091,73 +2091,73 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             source = _closure1_slot2;
             sierra = 78;
             sierra = source[sierra];
-            lima = record.bind(oscar)(sierra);
-            sierra = lima.createMessageAccessibilityActions;
-            sierra = sierra.bind(lima)(mike, control);
+            limora = record.bind(oscard)(sierra);
+            sierra = limora.createMessageAccessibilityActions;
+            sierra = sierra.bind(limora)(michal, ctrled);
             entity['accessibilityActions'] = sierra;
             entity['showInlineForwardButton'] = status;
             entity['clanTagGuildId'] = target;
-            entity['clanTag'] = papa;
+            entity['clanTag'] = papara;
             entity['clanBadgeUrl'] = config;
             entity['isFirst'] = backup;
             entity['gameApplicationId'] = vacuum;
-            vacuum = source[context];
-            vacuum = record.bind(oscar)(vacuum);
-            papa = vacuum.intl;
-            config = papa.string;
-            vacuum = source[context];
-            vacuum = record.bind(oscar)(vacuum);
+            vacuum = source[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            papara = vacuum.intl;
+            config = papara.string;
+            vacuum = source[cntext];
+            vacuum = record.bind(oscard)(vacuum);
             vacuum = vacuum.t;
             vacuum = vacuum.5IEsGx;
-            vacuum = config.bind(papa)(vacuum);
+            vacuum = config.bind(papara)(vacuum);
             entity['replyAccessibilityLabel'] = vacuum;
-            vacuum = source[context];
-            vacuum = record.bind(oscar)(vacuum);
-            papa = vacuum.intl;
-            config = papa.string;
-            vacuum = source[context];
-            vacuum = record.bind(oscar)(vacuum);
+            vacuum = source[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            papara = vacuum.intl;
+            config = papara.string;
+            vacuum = source[cntext];
+            vacuum = record.bind(oscard)(vacuum);
             vacuum = vacuum.t;
             vacuum = vacuum.I3ltXF;
-            vacuum = config.bind(papa)(vacuum);
+            vacuum = config.bind(papara)(vacuum);
             entity['forwardAccessibilityLabel'] = vacuum;
-            vacuum = source[context];
-            vacuum = record.bind(oscar)(vacuum);
+            vacuum = source[cntext];
+            vacuum = record.bind(oscard)(vacuum);
             config = vacuum.intl;
             vacuum = config.string;
-            source = source[context];
-            source = record.bind(oscar)(source);
+            source = source[cntext];
+            source = record.bind(oscard)(source);
             source = source.t;
             source = source.rBIGBA;
             source = vacuum.bind(config)(source);
             entity['threadAccessibilityLabel'] = source;
-            source = tango;
-            if(!tango) { _fun00006_ip = 6895; continue _fun00005 }
+            source = tangon;
+            if(!tangon) { _fun00006_ip = 6895; continue _fun00005 }
  6862:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 79;
             vacuum = record[vacuum];
-            config = config.bind(oscar)(vacuum);
+            config = config.bind(oscard)(vacuum);
             vacuum = config.canShowForwardShortcut;
-            source = vacuum.bind(config)(mike, sequence, control);
+            source = vacuum.bind(config)(michal, sequen, ctrled);
  6895:
             entity['showForwardShortcut'] = source;
-            source = tango;
-            if(!tango) { _fun00006_ip = 6941; continue _fun00005 }
+            source = tangon;
+            if(!tangon) { _fun00006_ip = 6941; continue _fun00005 }
  6908:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 79;
             vacuum = record[vacuum];
-            config = config.bind(oscar)(vacuum);
+            config = config.bind(oscard)(vacuum);
             vacuum = config.canShowReplyShortcut;
-            source = vacuum.bind(config)(mike, sequence, control);
+            source = vacuum.bind(config)(michal, sequen, ctrled);
  6941:
             entity['showReplyShortcut'] = source;
             if(report) { _fun00006_ip = 6954; continue _fun00005 }
  6951:
-            report = tango;
+            report = tangon;
  6954:
             if(!report) { _fun00006_ip = 6990; continue _fun00005 }
  6957:
@@ -2165,343 +2165,343 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             config = _closure1_slot2;
             source = 79;
             source = config[source];
-            vacuum = vacuum.bind(oscar)(source);
+            vacuum = vacuum.bind(oscard)(source);
             source = vacuum.canShowReactionShortcut;
-            report = source.bind(vacuum)(mike, sequence, control);
+            report = source.bind(vacuum)(michal, sequen, ctrled);
  6990:
             entity['showReactionShortcut'] = report;
-            if(!tango) { _fun00006_ip = 7032; continue _fun00005 }
+            if(!tangon) { _fun00006_ip = 7032; continue _fun00005 }
  7000:
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
             report = 79;
             report = vacuum[report];
-            source = source.bind(oscar)(report);
+            source = source.bind(oscard)(report);
             report = source.canShowThreadShortcut;
-            tango = report.bind(source)(mike, control);
+            tangon = report.bind(source)(michal, ctrled);
  7032:
-            entity['showThreadShortcut'] = tango;
-            tango = result == control;
+            entity['showThreadShortcut'] = tangon;
+            tangon = result == ctrled;
             report = undefined;
-            if(tango) { _fun00006_ip = 7053; continue _fun00005 }
+            if(tangon) { _fun00006_ip = 7053; continue _fun00005 }
  7048:
-            report = control.type;
+            report = ctrled.type;
  7053:
-            tango = _closure1_slot27;
-            tango = tango.GUILD_ANNOUNCEMENT;
-            tango = report === tango;
-            entity['isAnnouncementChannel'] = tango;
+            tangon = _closure1_slot27;
+            tangon = tangon.GUILD_ANNOUNCEMENT;
+            tangon = report === tangon;
+            entity['isAnnouncementChannel'] = tangon;
             report = _closure1_slot0;
             source = _closure1_slot2;
-            tango = 79;
-            tango = source[tango];
-            report = report.bind(oscar)(tango);
-            tango = report.isInMessageShortcutsExperiment;
-            tango = tango.bind(report)();
-            entity['shortcutsEnabled'] = tango;
+            tangon = 79;
+            tangon = source[tangon];
+            report = report.bind(oscard)(tangon);
+            tangon = report.isInMessageShortcutsExperiment;
+            tangon = tangon.bind(report)();
+            entity['shortcutsEnabled'] = tangon;
             return entity;
  7111:
-            tango = mike.type;
+            tangon = michal.type;
             entity = _closure1_slot23;
             entity = entity.THREAD_CREATED;
-            if(!(tango !== entity)) { _fun00006_ip = 7208; continue _fun00005 }
+            if(!(tangon !== entity)) { _fun00006_ip = 7208; continue _fun00005 }
  7130:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
             entity = 36;
             entity = report[entity];
-            report = tango.bind(oscar)(entity);
-            tango = report.createSystemMessageContent;
+            report = tangon.bind(oscard)(entity);
+            tangon = report.createSystemMessageContent;
             entity = {};
-            entity['message'] = mike;
+            entity['message'] = michal;
             entity['theme'] = update;
-            entity['reactions'] = echo;
-            entity['roleStyle'] = kilo;
-            source = result == control;
+            entity['reactions'] = echoed;
+            entity['roleStyle'] = kiloes;
+            source = result == ctrled;
             result = undefined;
             if(source) { _fun00006_ip = 7196; continue _fun00005 }
  7186:
-            source = control.isForumPost;
-            result = source.bind(control)();
+            source = ctrled.isForumPost;
+            result = source.bind(ctrled)();
  7196:
             entity['isForumPost'] = result;
-            entity = tango.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             _fun00006_ip = 7302; continue _fun00005;
  7208:
-            tango = {};
+            tangon = {};
             report = _closure1_slot31;
             r105 = undefined;
-            r104 = mike;
-            r103 = kilo;
-            r102 = golf;
+            r104 = michal;
+            r103 = kiloes;
+            r102 = golfie;
             r101 = output;
-            r100 = options;
+            r100 = option;
             report = r105[report](r104, r103, r102, r101, r100, variable100);
-            tango['threadEmbed'] = report;
+            tangon['threadEmbed'] = report;
             output = _closure1_slot0;
             result = _closure1_slot2;
             report = 36;
             report = result[report];
-            result = output.bind(oscar)(report);
+            result = output.bind(oscard)(report);
             output = result.createSystemMessageContent;
             report = {};
-            report['message'] = mike;
+            report['message'] = michal;
             report['theme'] = update;
-            report['reactions'] = echo;
-            report['roleStyle'] = kilo;
+            report['reactions'] = echoed;
+            report['roleStyle'] = kiloes;
             r103 = output.bind(result)(report);
-            r104 = tango;
+            r104 = tangon;
             report = copyDataProperties(r104, r103);
-            entity = tango;
+            entity = tangon;
  7302:
             return entity;
  7304:
-            entity = mike.activityInstance;
-            tango = undefined;
-            if(!(tango === entity)) { _fun00006_ip = 7371; continue _fun00005 }
+            entity = michal.activityInstance;
+            tangon = undefined;
+            if(!(tangon === entity)) { _fun00006_ip = 7371; continue _fun00005 }
  7316:
             result = _closure1_slot0;
-            echo = _closure1_slot2;
+            echoed = _closure1_slot2;
             entity = 24;
-            report = echo[entity];
-            report = result.bind(oscar)(report);
+            report = echoed[entity];
+            report = result.bind(oscard)(report);
             output = report.intl;
             report = output.string;
-            entity = echo[entity];
-            entity = result.bind(oscar)(entity);
+            entity = echoed[entity];
+            entity = result.bind(oscard)(entity);
             entity = entity.t;
             entity = entity.uBid4u;
-            tango = report.bind(output)(entity);
+            tangon = report.bind(output)(entity);
  7371:
             entity = {};
             report = _closure1_slot33;
-            zulu = {};
-            zulu['message'] = sizing;
-            zulu['roleStyle'] = kilo;
-            zulu['isFirst'] = backup;
-            zulu['isEditing'] = foxtrot;
-            zulu['canShowImages'] = romeo;
-            zulu['isSystemDM'] = yankee;
-            zulu['isInlineReplyPreview'] = golf;
-            golf = {};
-            r104 = golf;
-            r103 = options;
-            options = copyDataProperties(r104, r103);
-            options = 'renderThreadEmbeds';
-            golf[options] = offset;
-            options = 'renderReactions';
-            golf[options] = offset;
-            options = 'renderShortcuts';
-            golf[options] = offset;
-            options = 'shouldDisableInteractiveComponents';
-            golf[options] = verify;
-            zulu['options'] = golf;
-            r103 = report.bind(oscar)(zulu);
+            zuuluu = {};
+            zuuluu['message'] = sizing;
+            zuuluu['roleStyle'] = kiloes;
+            zuuluu['isFirst'] = backup;
+            zuuluu['isEditing'] = foxtra;
+            zuuluu['canShowImages'] = romeon;
+            zuuluu['isSystemDM'] = yankee;
+            zuuluu['isInlineReplyPreview'] = golfie;
+            golfie = {};
+            r104 = golfie;
+            r103 = option;
+            option = copyDataProperties(r104, r103);
+            option = 'renderThreadEmbeds';
+            golfie[option] = offset;
+            option = 'renderReactions';
+            golfie[option] = offset;
+            option = 'renderShortcuts';
+            golfie[option] = offset;
+            option = 'shouldDisableInteractiveComponents';
+            golfie[option] = verify;
+            zuuluu['options'] = golfie;
+            r103 = report.bind(oscard)(zuuluu);
             r104 = entity;
-            zulu = copyDataProperties(r104, r103);
-            zulu = 'threadStarterMessageHeader';
-            entity[zulu] = tango;
-            zulu = mike.id;
-            mike = 'id';
-            entity[mike] = zulu;
+            zuuluu = copyDataProperties(r104, r103);
+            zuuluu = 'threadStarterMessageHeader';
+            entity[zuuluu] = tangon;
+            zuuluu = michal.id;
+            michal = 'id';
+            entity[michal] = zuuluu;
             return entity;
         }
     };
-    var _closure1_slot33 = mike;
+    var _closure1_slot33 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, tango);
+    entity = verify.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.processColor;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot7 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot8 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot9 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot10 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot11 = tango;
-    tango = 9;
-    verify = oscar[tango];
-    verify = options.bind(entity)(verify);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.processColor;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot8 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot10 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot11 = tangon;
+    tangon = 9;
+    verify = oscard[tangon];
+    verify = option.bind(entity)(verify);
     var _closure1_slot12 = verify;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ReferencedMessageState;
-    var _closure1_slot13 = tango;
-    tango = 10;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot14 = tango;
-    tango = 11;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot15 = tango;
-    tango = 12;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot16 = tango;
-    tango = 13;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot17 = tango;
-    tango = 14;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot18 = tango;
-    tango = 15;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot19 = tango;
-    tango = 16;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot20 = tango;
-    tango = 17;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot21 = tango;
-    tango = 18;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ReferencedMessageRowState;
-    var _closure1_slot22 = tango;
-    tango = 19;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.MessageTypes;
-    var _closure1_slot23 = options;
-    options = tango.MessageStates;
-    var _closure1_slot24 = options;
-    options = tango.MessageFlags;
-    var _closure1_slot25 = options;
-    options = tango.ApplicationFlags;
-    var _closure1_slot26 = options;
-    tango = tango.ChannelTypes;
-    var _closure1_slot27 = tango;
-    tango = 20;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ClanTagBadgeSize;
-    var _closure1_slot28 = tango;
-    tango = {};
-    tango['referralTrialOfferDataUpdated'] = entity;
-    tango['referralTrialOfferData'] = entity;
-    var _closure1_slot29 = tango;
-    tango = function(argFoo) { // Original name: getReferralTrialOfferData
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ReferencedMessageState;
+    var _closure1_slot13 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot14 = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot15 = tangon;
+    tangon = 12;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot16 = tangon;
+    tangon = 13;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot17 = tangon;
+    tangon = 14;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot18 = tangon;
+    tangon = 15;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot19 = tangon;
+    tangon = 16;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot20 = tangon;
+    tangon = 17;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot21 = tangon;
+    tangon = 18;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ReferencedMessageRowState;
+    var _closure1_slot22 = tangon;
+    tangon = 19;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.MessageTypes;
+    var _closure1_slot23 = option;
+    option = tangon.MessageStates;
+    var _closure1_slot24 = option;
+    option = tangon.MessageFlags;
+    var _closure1_slot25 = option;
+    option = tangon.ApplicationFlags;
+    var _closure1_slot26 = option;
+    tangon = tangon.ChannelTypes;
+    var _closure1_slot27 = tangon;
+    tangon = 20;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ClanTagBadgeSize;
+    var _closure1_slot28 = tangon;
+    tangon = {};
+    tangon['referralTrialOfferDataUpdated'] = entity;
+    tangon['referralTrialOfferData'] = entity;
+    var _closure1_slot29 = tangon;
+    tangon = function(argFoo) { // Original name: getReferralTrialOfferData
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             verify = entity.currentUserId;
-            options = entity.message;
-            golf = entity.theme;
-            zulu = entity.referralSenderMobileXPEnabled;
-            report = options.referralTrialOfferId;
-            tango = options.type;
-            mike = _closure1_slot23;
-            mike = mike.PREMIUM_REFERRAL;
-            if(!(tango === mike)) { _fun00008_ip = 229; continue _fun00007 }
+            option = entity.message;
+            golfie = entity.theme;
+            zuuluu = entity.referralSenderMobileXPEnabled;
+            report = option.referralTrialOfferId;
+            tangon = option.type;
+            michal = _closure1_slot23;
+            michal = michal.PREMIUM_REFERRAL;
+            if(!(tangon === michal)) { _fun00008_ip = 229; continue _fun00007 }
  57:
-            oscar = null;
-            if(!(oscar != report)) { _fun00008_ip = 229; continue _fun00007 }
+            oscard = null;
+            if(!(oscard != report)) { _fun00008_ip = 229; continue _fun00007 }
  66:
-            tango = _closure1_slot11;
-            mike = tango.getRelevantUserTrialOffer;
-            tango = mike.bind(tango)(report);
-            mike = oscar != tango;
-            if(!mike) { _fun00008_ip = 107; continue _fun00007 }
+            tangon = _closure1_slot11;
+            michal = tangon.getRelevantUserTrialOffer;
+            tangon = michal.bind(tangon)(report);
+            michal = oscard != tangon;
+            if(!michal) { _fun00008_ip = 107; continue _fun00007 }
  88:
-            offset = oscar == tango;
+            offset = oscard == tangon;
             report = undefined;
             if(offset) { _fun00008_ip = 103; continue _fun00007 }
  97:
-            report = tango.user_id;
+            report = tangon.user_id;
  103:
-            mike = oscar != report;
+            michal = oscard != report;
  107:
-            if(!mike) { _fun00008_ip = 120; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 120; continue _fun00007 }
  110:
-            tango = tango.user_id;
-            mike = tango === verify;
+            tangon = tangon.user_id;
+            michal = tangon === verify;
  120:
-            if(mike) { _fun00008_ip = 177; continue _fun00007 }
+            if(michal) { _fun00008_ip = 177; continue _fun00007 }
  123:
-            if(!zulu) { _fun00008_ip = 129; continue _fun00007 }
+            if(!zuuluu) { _fun00008_ip = 129; continue _fun00007 }
  126:
-            if(!mike) { _fun00008_ip = 177; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 177; continue _fun00007 }
  129:
-            mike = {};
+            michal = {};
             report = undefined;
-            mike['referralTrialOfferDataUpdated'] = report;
-            tango = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 21;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.createReferralTrialEmbed;
-            zulu = zulu.bind(tango)(options, golf);
-            mike['referralTrialOfferData'] = zulu;
+            michal['referralTrialOfferDataUpdated'] = report;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 21;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.createReferralTrialEmbed;
+            zuuluu = zuuluu.bind(tangon)(option, golfie);
+            michal['referralTrialOfferData'] = zuuluu;
             _fun00008_ip = 227; continue _fun00007;
  177:
-            zulu = {};
-            oscar = _closure1_slot0;
+            zuuluu = {};
+            oscard = _closure1_slot0;
             report = _closure1_slot2;
-            tango = 21;
-            report = report[tango];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.createReferralTrialEmbedRedeemable;
-            report = report.bind(oscar)(options, golf, verify);
-            zulu['referralTrialOfferDataUpdated'] = report;
-            zulu['referralTrialOfferData'] = tango;
-            mike = zulu;
+            tangon = 21;
+            report = report[tangon];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.createReferralTrialEmbedRedeemable;
+            report = report.bind(oscard)(option, golfie, verify);
+            zuuluu['referralTrialOfferDataUpdated'] = report;
+            zuuluu['referralTrialOfferData'] = tangon;
+            michal = zuuluu;
  227:
-            return mike;
+            return michal;
  229:
             entity = _closure1_slot29;
             return entity;
         }
     };
-    var _closure1_slot30 = tango;
-    tango = 80;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/createMessageContent.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    var _closure1_slot30 = tangon;
+    tangon = 80;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/createMessageContent.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

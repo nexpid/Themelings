@@ -1,103 +1,103 @@
 // app/modules/guilds_bar/native/utils/transitionGuildsBarToGuildOrOpenSelectedChannel.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 4;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guilds_bar/native/utils/transitionGuildsBarToGuildOrOpenSelectedChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: transitionGuildsBarToGuildOrOpenSelectedChannel
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guilds_bar/native/utils/transitionGuildsBarToGuildOrOpenSelectedChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: transitionGuildsBarToGuildOrOpenSelectedChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            oscard = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 0;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.getRootNavigationRef;
-            verify = zulu.bind(tango)();
-            zulu = null;
-            tango = zulu == verify;
-            golf = undefined;
-            if(tango) { _fun00002_ip = 58; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.getRootNavigationRef;
+            verify = zuuluu.bind(tangon)();
+            zuuluu = null;
+            tangon = zuuluu == verify;
+            golfie = undefined;
+            if(tangon) { _fun00002_ip = 58; continue _fun00001 }
  48:
-            tango = verify.isReady;
-            golf = tango.bind(verify)();
+            tangon = verify.isReady;
+            golfie = tangon.bind(verify)();
  58:
             report = true;
-            tango = undefined;
-            if(!(report === golf)) { _fun00002_ip = 165; continue _fun00001 }
+            tangon = undefined;
+            if(!(report === golfie)) { _fun00002_ip = 165; continue _fun00001 }
  66:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
             report = 1;
-            report = options[report];
-            options = golf.bind(entity)(report);
-            golf = options.coerceGuildsRoute;
+            report = option[report];
+            option = golfie.bind(entity)(report);
+            golfie = option.coerceGuildsRoute;
             report = verify.getCurrentRoute;
             report = report.bind(verify)();
-            report = golf.bind(options)(report);
-            golf = zulu != report;
-            tango = undefined;
-            if(!golf) { _fun00002_ip = 165; continue _fun00001 }
+            report = golfie.bind(option)(report);
+            golfie = zuuluu != report;
+            tangon = undefined;
+            if(!golfie) { _fun00002_ip = 165; continue _fun00001 }
  116:
-            options = report.params;
-            verify = zulu == options;
-            golf = undefined;
+            option = report.params;
+            verify = zuuluu == option;
+            golfie = undefined;
             if(verify) { _fun00002_ip = 136; continue _fun00001 }
  131:
-            golf = options.guildId;
+            golfie = option.guildId;
  136:
-            tango = undefined;
-            if(!(golf === oscar)) { _fun00002_ip = 165; continue _fun00001 }
+            tangon = undefined;
+            if(!(golfie === oscard)) { _fun00002_ip = 165; continue _fun00001 }
  142:
-            golf = report.params;
-            options = zulu == golf;
+            golfie = report.params;
+            option = zuuluu == golfie;
             report = undefined;
-            if(options) { _fun00002_ip = 162; continue _fun00001 }
+            if(option) { _fun00002_ip = 162; continue _fun00001 }
  157:
-            report = golf.channelId;
+            report = golfie.channelId;
  162:
-            tango = report;
+            tangon = report;
  165:
-            if(!(zulu == tango)) { _fun00002_ip = 202; continue _fun00001 }
+            if(!(zuuluu == tangon)) { _fun00002_ip = 202; continue _fun00001 }
  169:
             report = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 3;
-            zulu = golf[zulu];
-            report = report.bind(entity)(zulu);
-            zulu = report.transitionToGuild;
-            zulu = zulu.bind(report)(oscar);
+            golfie = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = golfie[zuuluu];
+            report = report.bind(entity)(zuuluu);
+            zuuluu = report.transitionToGuild;
+            zuuluu = zuuluu.bind(report)(oscard);
             _fun00002_ip = 233; continue _fun00001;
  202:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 2;
-            mike = report[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.transitionToChannel;
-            mike = mike.bind(zulu)(tango);
+            michal = 2;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.transitionToChannel;
+            michal = michal.bind(zuuluu)(tangon);
  233:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

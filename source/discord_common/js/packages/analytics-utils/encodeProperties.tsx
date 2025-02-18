@@ -1,38 +1,38 @@
 // discord_common/js/packages/analytics-utils/encodeProperties.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_common/js/packages/analytics-utils/encodeProperties.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: encodeProperties
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_common/js/packages/analytics-utils/encodeProperties.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: encodeProperties
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
-            tango = global;
-            zulu = tango.Buffer;
-            mike = zulu.from;
-            report = tango.JSON;
-            tango = report.stringify;
-            entity = tango.bind(report)(entity);
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.toString;
+            tangon = global;
+            zuuluu = tangon.Buffer;
+            michal = zuuluu.from;
+            report = tangon.JSON;
+            tangon = report.stringify;
+            entity = tangon.bind(report)(entity);
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.toString;
             entity = 'base64';
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
  52: // try_end0
             return entity;
  54: // catch_target0
@@ -41,6 +41,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['encodeProperties'] = mike;
+    zuuluu['encodeProperties'] = michal;
     return entity;
 })();

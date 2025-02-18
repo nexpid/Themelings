@@ -1,105 +1,105 @@
 // app/modules/keyboard/native/initializeKeyboardListeners.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Keyboard;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/keyboard/native/initializeKeyboardListeners.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: initializeKeyboardListeners
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Keyboard;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/keyboard/native/initializeKeyboardListeners.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: initializeKeyboardListeners
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = _closure1_slot3;
-            oscar = options.addListener;
+            option = _closure1_slot3;
+            oscard = option.addListener;
             report = _closure1_slot0;
             entity = _closure1_slot2;
-            golf = 1;
-            tango = entity[golf];
+            golfie = 1;
+            tangon = entity[golfie];
             entity = undefined;
-            report = report.bind(entity)(tango);
-            tango = report.isAndroid;
-            tango = tango.bind(report)();
+            report = report.bind(entity)(tangon);
+            tangon = report.isAndroid;
+            tangon = tangon.bind(report)();
             report = 'keyboardWillShow';
-            if(!tango) { _fun00002_ip = 61; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 61; continue _fun00001 }
  55:
             report = 'keyboardDidShow';
  61:
-            tango = function(argFoo) {
+            tangon = function(argFoo) {
                 entity = argFoo;
-                oscar = entity.duration;
+                oscard = entity.duration;
                 entity = entity.endCoordinates;
                 report = entity.height;
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 2;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                tango = zulu.bind(entity)(mike);
-                zulu = tango.dispatch;
-                mike = {};
-                golf = 'KEYBOARD_CHANGE';
-                mike['type'] = golf;
-                mike['duration'] = oscar;
-                mike['height'] = report;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                golfie = 'KEYBOARD_CHANGE';
+                michal['type'] = golfie;
+                michal['duration'] = oscard;
+                michal['height'] = report;
                 report = true;
-                mike['open'] = report;
-                mike = zulu.bind(tango)(mike);
+                michal['open'] = report;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            tango = oscar.bind(options)(report, tango);
+            tangon = oscard.bind(option)(report, tangon);
             report = _closure1_slot3;
-            tango = report.addListener;
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[golf];
-            oscar = oscar.bind(entity)(zulu);
-            zulu = oscar.isAndroid;
-            oscar = zulu.bind(oscar)();
-            zulu = 'keyboardWillHide';
-            if(!oscar) { _fun00002_ip = 125; continue _fun00001 }
+            tangon = report.addListener;
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[golfie];
+            oscard = oscard.bind(entity)(zuuluu);
+            zuuluu = oscard.isAndroid;
+            oscard = zuuluu.bind(oscard)();
+            zuuluu = 'keyboardWillHide';
+            if(!oscard) { _fun00002_ip = 125; continue _fun00001 }
  119:
-            zulu = 'keyboardDidHide';
+            zuuluu = 'keyboardDidHide';
  125:
-            mike = function(argFoo) {
+            michal = function(argFoo) {
                 entity = argFoo;
                 report = entity.duration;
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 2;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                tango = zulu.bind(entity)(mike);
-                zulu = tango.dispatch;
-                mike = {'type': 'KEYBOARD_CHANGE', 'duration': null, 'height': 0, 'open': false};
-                mike['duration'] = report;
-                mike = zulu.bind(tango)(mike);
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.dispatch;
+                michal = {'type': 'KEYBOARD_CHANGE', 'duration': null, 'height': 0, 'open': false};
+                michal['duration'] = report;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,143 +1,143 @@
 // app/modules/client_themes/ClientThemesUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     verify = 0;
-    tango = oscar[verify];
+    tangon = oscard[verify];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    options = tango.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    yankee = tango.REDESIGN_STANDARD_BACKGROUND_THEMES;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ThemeTypes;
-    var _closure1_slot2 = tango;
-    tango = new Array(0);
-    romeo = tango;
+    tangon = report.bind(entity)(tangon);
+    option = tangon.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    yankee = tangon.REDESIGN_STANDARD_BACKGROUND_THEMES;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ThemeTypes;
+    var _closure1_slot2 = tangon;
+    tangon = new Array(0);
+    romeon = tangon;
     offset = 0;
-    offset = arraySpread(romeo, yankee, offset);
-    romeo = tango;
-    yankee = options;
-    golf = arraySpread(romeo, yankee, offset);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/client_themes/ClientThemesUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getThemeForColor
+    offset = arraySpread(romeon, yankee, offset);
+    romeon = tangon;
+    yankee = option;
+    golfie = arraySpread(romeon, yankee, offset);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/client_themes/ClientThemesUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getThemeForColor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.l;
+            michal = entity.l;
             entity = 0.3;
-            if(!(!(mike <= entity))) { _fun00002_ip = 37; continue _fun00001 }
+            if(!(!(michal <= entity))) { _fun00002_ip = 37; continue _fun00001 }
  22:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
             _fun00002_ip = 50; continue _fun00001;
  37:
-            mike = _closure1_slot2;
-            entity = mike.DARK;
+            michal = _closure1_slot2;
+            entity = michal.DARK;
  50:
             return entity;
         }
     };
-    zulu['getThemeForColor'] = tango;
-    tango = function(argFoo) { // Original name: getLinearGradientForBackgroundGradient
+    zuuluu['getThemeForColor'] = tangon;
+    tangon = function(argFoo) { // Original name: getLinearGradientForBackgroundGradient
         entity = argFoo;
-        oscar = entity.angle;
-        zulu = entity.colors;
-        mike = zulu.map;
+        oscard = entity.angle;
+        zuuluu = entity.colors;
+        michal = zuuluu.map;
         entity = function(argFoo) {
             entity = argFoo;
-            zulu = entity.token;
-            options = entity.stop;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = entity.token;
+            option = entity.stop;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.getColor;
-            offset = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.getColor;
+            offset = entity.bind(michal)(zuuluu);
             entity = global;
             entity = entity.HermesInternal;
-            tango = entity.concat;
+            tangon = entity.concat;
             yankee = '';
             verify = ' ';
-            golf = '%';
-            entity = yankee[tango](offset, verify, options, golf, oscar);
+            golfie = '%';
+            entity = yankee[tangon](offset, verify, option, golfie, oscard);
             return entity;
         };
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.join;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.join;
         entity = ', ';
-        options = mike.bind(zulu)(entity);
+        option = michal.bind(zuuluu)(entity);
         entity = global;
         entity = entity.HermesInternal;
-        tango = entity.concat;
+        tangon = entity.concat;
         yankee = 'linear-gradient(';
         verify = 'deg, ';
-        golf = ')';
-        offset = oscar;
-        entity = yankee[tango](offset, verify, options, golf, oscar);
+        golfie = ')';
+        offset = oscard;
+        entity = yankee[tangon](offset, verify, option, golfie, oscard);
         return entity;
     };
-    zulu['getLinearGradientForBackgroundGradient'] = tango;
-    tango = function() { // Original name: getMobileThemesPresets
+    zuuluu['getLinearGradientForBackgroundGradient'] = tangon;
+    tangon = function() { // Original name: getMobileThemesPresets
         entity = _closure1_slot3;
         return entity;
     };
-    zulu['getMobileThemesPresets'] = tango;
-    mike = function(argFoo, argBar) { // Original name: areThemesEqualForGradientThemes
+    zuuluu['getMobileThemesPresets'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: areThemesEqualForGradientThemes
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = argBar;
-            entity = oscar === report;
+            entity = oscard === report;
             if(entity) { _fun00004_ip = 87; continue _fun00003 }
  13:
-            mike = _closure1_slot2;
-            mike = mike.DARK;
-            mike = oscar === mike;
-            if(!mike) { _fun00004_ip = 47; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.DARK;
+            michal = oscard === michal;
+            if(!michal) { _fun00004_ip = 47; continue _fun00003 }
  33:
-            zulu = _closure1_slot2;
-            zulu = zulu.DARKER;
-            mike = report === zulu;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.DARKER;
+            michal = report === zuuluu;
  47:
-            if(mike) { _fun00004_ip = 84; continue _fun00003 }
+            if(michal) { _fun00004_ip = 84; continue _fun00003 }
  50:
-            zulu = _closure1_slot2;
-            zulu = zulu.DARKER;
-            zulu = oscar === zulu;
-            if(!zulu) { _fun00004_ip = 81; continue _fun00003 }
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.DARKER;
+            zuuluu = oscard === zuuluu;
+            if(!zuuluu) { _fun00004_ip = 81; continue _fun00003 }
  67:
-            tango = _closure1_slot2;
-            tango = tango.DARK;
-            zulu = report === tango;
+            tangon = _closure1_slot2;
+            tangon = tangon.DARK;
+            zuuluu = report === tangon;
  81:
-            mike = zulu;
+            michal = zuuluu;
  84:
-            entity = mike;
+            entity = michal;
  87:
             return entity;
         }
     };
-    zulu['areThemesEqualForGradientThemes'] = mike;
+    zuuluu['areThemesEqualForGradientThemes'] = michal;
     return entity;
 })();

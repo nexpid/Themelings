@@ -1,66 +1,66 @@
 // app/modules/markup/MarkupReactLinkUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/MarkupReactLinkUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isLinkTrusted
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/MarkupReactLinkUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isLinkTrusted
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            entity = oscar.target;
+            oscard = argFoo;
+            entity = oscard.target;
             verify = null;
             entity = verify != entity;
             if(!entity) { _fun00002_ip = 125; continue _fun00001 }
  18:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 0;
-            zulu = report[zulu];
-            options = undefined;
-            report = tango.bind(options)(zulu);
-            tango = report.isLinkTrusted;
-            zulu = oscar.target;
-            golf = oscar.title;
-            if(!(verify != golf)) { _fun00002_ip = 76; continue _fun00001 }
+            zuuluu = 0;
+            zuuluu = report[zuuluu];
+            option = undefined;
+            report = tangon.bind(option)(zuuluu);
+            tangon = report.isLinkTrusted;
+            zuuluu = oscard.target;
+            golfie = oscard.title;
+            if(!(verify != golfie)) { _fun00002_ip = 76; continue _fun00001 }
  63:
-            verify = oscar.title;
-            golf = '';
-            if(!(golf === verify)) { _fun00002_ip = 114; continue _fun00001 }
+            verify = oscard.title;
+            golfie = '';
+            if(!(golfie === verify)) { _fun00002_ip = 114; continue _fun00001 }
  76:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             verify = _closure1_slot1;
-            mike = 1;
-            mike = verify[mike];
-            options = golf.bind(options)(mike);
-            golf = options.astToString;
-            mike = oscar.content;
-            mike = golf.bind(options)(mike);
+            michal = 1;
+            michal = verify[michal];
+            option = golfie.bind(option)(michal);
+            golfie = option.astToString;
+            michal = oscard.content;
+            michal = golfie.bind(option)(michal);
             _fun00002_ip = 119; continue _fun00001;
  114:
-            mike = oscar.title;
+            michal = oscard.title;
  119:
-            entity = tango.bind(report)(zulu, mike);
+            entity = tangon.bind(report)(zuuluu, michal);
  125:
             return entity;
         }
     };
-    zulu['isLinkTrusted'] = mike;
+    zuuluu['isLinkTrusted'] = michal;
     return entity;
 })();

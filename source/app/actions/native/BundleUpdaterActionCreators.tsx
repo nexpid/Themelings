@@ -1,94 +1,94 @@
 // app/actions/native/BundleUpdaterActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.NativeModules;
-    var _closure1_slot3 = mike;
-    mike = false;
-    var _closure1_slot4 = mike;
-    mike = {};
-    golf = function(argFoo) { // Original name: prepareUpdate
+    michal = report.bind(entity)(michal);
+    michal = michal.NativeModules;
+    var _closure1_slot3 = michal;
+    michal = false;
+    var _closure1_slot4 = michal;
+    michal = {};
+    golfie = function(argFoo) { // Original name: prepareUpdate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             if(!entity) { _fun00002_ip = 276; continue _fun00001 }
  9:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
             entity = 1;
             entity = offset[entity];
             verify = undefined;
-            tango = zulu.bind(verify)(entity);
-            zulu = tango.show;
+            tangon = zuuluu.bind(verify)(entity);
+            zuuluu = tangon.show;
             entity = {};
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             report = 2;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            yankee = oscar.intl;
-            golf = yankee.string;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.GQZdmJ;
-            oscar = golf.bind(yankee)(oscar);
-            entity['title'] = oscar;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            yankee = oscar.intl;
-            golf = yankee.string;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.Fizu9/;
-            oscar = golf.bind(yankee)(oscar);
-            entity['body'] = oscar;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            yankee = oscar.intl;
-            golf = yankee.string;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.UefCDQ;
-            oscar = golf.bind(yankee)(oscar);
-            entity['confirmText'] = oscar;
-            oscar = offset[report];
-            oscar = options.bind(verify)(oscar);
-            golf = oscar.intl;
-            oscar = golf.string;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            yankee = oscard.intl;
+            golfie = yankee.string;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.GQZdmJ;
+            oscard = golfie.bind(yankee)(oscard);
+            entity['title'] = oscard;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            yankee = oscard.intl;
+            golfie = yankee.string;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.Fizu9/;
+            oscard = golfie.bind(yankee)(oscard);
+            entity['body'] = oscard;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            yankee = oscard.intl;
+            golfie = yankee.string;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.UefCDQ;
+            oscard = golfie.bind(yankee)(oscard);
+            entity['confirmText'] = oscard;
+            oscard = offset[report];
+            oscard = option.bind(verify)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.string;
             report = offset[report];
-            report = options.bind(verify)(report);
+            report = option.bind(verify)(report);
             report = report.t;
             report = report.1SzcGx;
-            report = oscar.bind(golf)(report);
+            report = oscard.bind(golfie)(report);
             entity['cancelText'] = report;
             report = function() { // Original name: onConfirm
                 entity = _closure1_slot3;
-                mike = entity.BundleUpdaterManager;
-                entity = mike.reload;
-                entity = entity.bind(mike)();
+                michal = entity.BundleUpdaterManager;
+                entity = michal.reload;
+                entity = entity.bind(michal)();
                 return entity;
             };
             entity['onConfirm'] = report;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = true;
             _closure1_slot4 = entity;
  276:
@@ -96,31 +96,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    mike['prepareUpdate'] = golf;
-    tango = function() { // Original name: deferUpdate
+    michal['prepareUpdate'] = golfie;
+    tangon = function() { // Original name: deferUpdate
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = _closure1_slot4;
-            if(!mike) { _fun00004_ip = 36; continue _fun00003 }
+            michal = _closure1_slot4;
+            if(!michal) { _fun00004_ip = 36; continue _fun00003 }
  10:
-            mike = false;
-            _closure1_slot4 = mike;
+            michal = false;
+            _closure1_slot4 = michal;
             entity = _closure1_slot3;
-            mike = entity.BundleUpdaterManager;
-            entity = mike.reload;
-            entity = entity.bind(mike)();
+            michal = entity.BundleUpdaterManager;
+            entity = michal.reload;
+            entity = entity.bind(michal)();
  36:
             entity = undefined;
             return entity;
         }
     };
-    mike['deferUpdate'] = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/native/BundleUpdaterActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['deferUpdate'] = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/native/BundleUpdaterActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

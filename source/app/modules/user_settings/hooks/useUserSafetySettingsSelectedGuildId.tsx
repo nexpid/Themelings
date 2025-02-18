@@ -1,102 +1,102 @@
 // app/modules/user_settings/hooks/useUserSafetySettingsSelectedGuildId.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argBaz;
+    report = golfie[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    report = tango.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
     var _closure1_slot3 = report;
-    tango = tango.useUserSafetySettingsSelectedGuildStore;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    tango = tango.GuildFeatures;
-    var _closure1_slot5 = tango;
-    tango = function() { // Original name: useUserSafetySettingsSelectedGuildId
-        mike = _closure1_slot4;
+    tangon = tangon.useUserSafetySettingsSelectedGuildStore;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.GuildFeatures;
+    var _closure1_slot5 = tangon;
+    tangon = function() { // Original name: useUserSafetySettingsSelectedGuildId
+        michal = _closure1_slot4;
         entity = undefined;
-        entity = mike.bind(entity)();
+        entity = michal.bind(entity)();
         entity = entity.selectedGuildId;
         return entity;
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/user_settings/hooks/useUserSafetySettingsSelectedGuildId.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useUserSafetySettingsSelectedGuildId'] = tango;
-    tango = function() {
-        zulu = _closure1_slot4;
-        mike = undefined;
-        mike = zulu.bind(mike)();
-        mike = mike.selectedGuildId;
+    report = oscard.bind(golfie)(report);
+    zuuluu['useUserSafetySettingsSelectedGuildId'] = tangon;
+    tangon = function() {
+        zuuluu = _closure1_slot4;
+        michal = undefined;
+        michal = zuuluu.bind(michal)();
+        michal = michal.selectedGuildId;
         entity = _closure1_slot3;
-        entity = mike === entity;
+        entity = michal === entity;
         return entity;
     };
-    zulu['useAllServersOptionSelected'] = tango;
-    mike = function() {
+    zuuluu['useAllServersOptionSelected'] = tangon;
+    michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot6;
-            mike = undefined;
-            tango = tango.bind(mike)();
-            var _closure2_slot0 = tango;
+            tangon = _closure1_slot6;
+            michal = undefined;
+            tangon = tangon.bind(michal)();
+            var _closure2_slot0 = tangon;
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
-            tango = 3;
-            tango = oscar[tango];
-            oscar = report.bind(mike)(tango);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = golf;
+            oscard = _closure1_slot1;
+            tangon = 3;
+            tangon = oscard[tangon];
+            oscard = report.bind(michal)(tangon);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = golfie;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getGuild;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getGuild;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            report = report.bind(oscar)(tango, entity);
+            report = report.bind(oscard)(tangon, entity);
             entity = null;
-            tango = entity == report;
-            if(tango) { _fun00002_ip = 99; continue _fun00001 }
+            tangon = entity == report;
+            if(tangon) { _fun00002_ip = 99; continue _fun00001 }
  78:
-            tango = report.hasFeature;
-            zulu = _closure1_slot5;
-            zulu = zulu.HUB;
-            mike = tango.bind(report)(zulu);
+            tangon = report.hasFeature;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.HUB;
+            michal = tangon.bind(report)(zuuluu);
  99:
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 109; continue _fun00001 }
  106:
-            entity = mike;
+            entity = michal;
  109:
             return entity;
         }
     };
-    zulu['useIsSelectedGuildAHub'] = mike;
+    zuuluu['useIsSelectedGuildAHub'] = michal;
     return entity;
 })();

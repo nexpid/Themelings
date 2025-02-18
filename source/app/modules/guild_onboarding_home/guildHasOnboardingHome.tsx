@@ -1,78 +1,78 @@
 // app/modules/guild_onboarding_home/guildHasOnboardingHome.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.GuildFeatures;
-    var _closure1_slot0 = golf;
-    golf = tango.FAVORITES;
-    var _closure1_slot1 = golf;
-    tango = tango.ME;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_onboarding_home/guildHasOnboardingHome.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: guildHasOnboardingHome
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.GuildFeatures;
+    var _closure1_slot0 = golfie;
+    golfie = tangon.FAVORITES;
+    var _closure1_slot1 = golfie;
+    tangon = tangon.ME;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_onboarding_home/guildHasOnboardingHome.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: guildHasOnboardingHome
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            entity = entity == tango;
+            entity = entity == tangon;
             if(entity) { _fun00002_ip = 28; continue _fun00001 }
  12:
-            zulu = tango.id;
-            mike = _closure1_slot2;
-            entity = zulu === mike;
+            zuuluu = tangon.id;
+            michal = _closure1_slot2;
+            entity = zuuluu === michal;
  28:
             if(entity) { _fun00002_ip = 47; continue _fun00001 }
  31:
-            zulu = tango.id;
-            mike = _closure1_slot1;
-            entity = zulu === mike;
+            zuuluu = tangon.id;
+            michal = _closure1_slot1;
+            entity = zuuluu === michal;
  47:
             if(entity) { _fun00002_ip = 77; continue _fun00001 }
  50:
-            zulu = tango.hasFeature;
-            mike = _closure1_slot0;
-            mike = mike.COMMUNITY;
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            zuuluu = tangon.hasFeature;
+            michal = _closure1_slot0;
+            michal = michal.COMMUNITY;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  77:
             if(entity) { _fun00002_ip = 107; continue _fun00001 }
  80:
-            zulu = tango.hasFeature;
-            mike = _closure1_slot0;
-            mike = mike.GUILD_SERVER_GUIDE;
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            zuuluu = tangon.hasFeature;
+            michal = _closure1_slot0;
+            michal = michal.GUILD_SERVER_GUIDE;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  107:
             if(entity) { _fun00002_ip = 137; continue _fun00001 }
  110:
-            zulu = tango.hasFeature;
-            mike = _closure1_slot0;
-            mike = mike.GUILD_ONBOARDING;
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            zuuluu = tangon.hasFeature;
+            michal = _closure1_slot0;
+            michal = michal.GUILD_ONBOARDING;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  137:
             entity = !entity;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

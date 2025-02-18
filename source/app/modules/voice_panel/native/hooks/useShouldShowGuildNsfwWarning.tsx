@@ -1,64 +1,64 @@
 // app/modules/voice_panel/native/hooks/useShouldShowGuildNsfwWarning.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/hooks/useShouldShowGuildNsfwWarning.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShouldShowGuildNsfwWarning
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/hooks/useShouldShowGuildNsfwWarning.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShouldShowGuildNsfwWarning
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            oscar = 3;
-            entity = options[oscar];
-            mike = undefined;
-            offset = golf.bind(mike)(entity);
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            oscard = 3;
+            entity = option[oscard];
+            michal = undefined;
+            offset = golfie.bind(michal)(entity);
             verify = offset.useStateFromStores;
             entity = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = entity;
+            tangon = new Array(1);
+            tangon[0] = entity;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getChannel;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = verify.bind(offset)(tango, entity);
-            var _closure2_slot1 = tango;
-            entity = options[oscar];
-            yankee = golf.bind(mike)(entity);
+            tangon = verify.bind(offset)(tangon, entity);
+            var _closure2_slot1 = tangon;
+            entity = option[oscard];
+            yankee = golfie.bind(michal)(entity);
             offset = yankee.useStateFromStores;
             entity = _closure1_slot3;
             verify = new Array(1);
@@ -66,67 +66,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure1_slot3;
-                    mike = zulu.didAgree;
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.didAgree;
                     report = _closure2_slot1;
                     entity = null;
                     report = entity == report;
                     entity = undefined;
                     if(report) { _fun00004_ip = 40; continue _fun00003 }
  31:
-                    tango = _closure2_slot1;
-                    entity = tango.guild_id;
+                    tangon = _closure2_slot1;
+                    entity = tangon.guild_id;
  40:
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 }
             };
             entity = offset.bind(yankee)(verify, entity);
-            oscar = options[oscar];
-            golf = golf.bind(mike)(oscar);
-            oscar = golf.useStateFromStores;
-            options = _closure1_slot4;
+            oscard = option[oscard];
+            golfie = golfie.bind(michal)(oscard);
+            oscard = golfie.useStateFromStores;
+            option = _closure1_slot4;
             report = new Array(1);
-            report[0] = options;
-            zulu = function() {
+            report[0] = option;
+            zuuluu = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    mike = _closure1_slot4;
-                    entity = mike.getCurrentUser;
-                    entity = entity.bind(mike)();
-                    mike = null;
-                    zulu = mike == entity;
-                    mike = undefined;
-                    if(zulu) { _fun00006_ip = 33; continue _fun00005 }
+                    michal = _closure1_slot4;
+                    entity = michal.getCurrentUser;
+                    entity = entity.bind(michal)();
+                    michal = null;
+                    zuuluu = michal == entity;
+                    michal = undefined;
+                    if(zuuluu) { _fun00006_ip = 33; continue _fun00005 }
  27:
-                    mike = entity.nsfwAllowed;
+                    michal = entity.nsfwAllowed;
  33:
                     entity = false;
-                    entity = entity === mike;
+                    entity = entity === michal;
                     return entity;
                 }
             };
-            zulu = oscar.bind(golf)(report, zulu);
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
             entity = !entity;
             if(entity) { _fun00002_ip = 155; continue _fun00001 }
  152:
-            entity = zulu;
+            entity = zuuluu;
  155:
             if(!entity) { _fun00002_ip = 182; continue _fun00001 }
  158:
-            zulu = null;
-            zulu = zulu == tango;
-            mike = undefined;
-            if(zulu) { _fun00002_ip = 179; continue _fun00001 }
+            zuuluu = null;
+            zuuluu = zuuluu == tangon;
+            michal = undefined;
+            if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
  169:
-            zulu = tango.isNSFW;
-            mike = zulu.bind(tango)();
+            zuuluu = tangon.isNSFW;
+            michal = zuuluu.bind(tangon)();
  179:
-            entity = mike;
+            entity = michal;
  182:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

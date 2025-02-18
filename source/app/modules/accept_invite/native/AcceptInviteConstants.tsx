@@ -1,24 +1,24 @@
 // app/modules/accept_invite/native/AcceptInviteConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/accept_invite/native/AcceptInviteConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 'accept-invite';
-    zulu['ACCEPT_INVITE_MODAL_KEY'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/accept_invite/native/AcceptInviteConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 'accept-invite';
+    zuuluu['ACCEPT_INVITE_MODAL_KEY'] = michal;
     return entity;
 })();

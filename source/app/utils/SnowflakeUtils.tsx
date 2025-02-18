@@ -1,211 +1,211 @@
 // app/utils/SnowflakeUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    tango = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    mike = argBaz;
-    var _closure1_slot0 = mike;
-    mike = argCorge;
-    var _closure1_slot1 = mike;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    tangon = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    michal = argBaz;
+    var _closure1_slot0 = michal;
+    michal = argCor;
+    var _closure1_slot1 = michal;
     var _closure1_slot2 = report;
-    mike = global;
-    options = mike.Object;
-    golf = options.defineProperty;
-    oscar = {};
-    mike = true;
-    oscar['value'] = mike;
-    mike = '__esModule';
-    mike = golf.bind(options)(zulu, mike, oscar);
-    mike = {};
-    oscar = function(argFoo) { // Original name: age
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal = global;
+    option = michal.Object;
+    golfie = option.defineProperty;
+    oscard = {};
+    michal = true;
+    oscard['value'] = michal;
+    michal = '__esModule';
+    michal = golfie.bind(option)(zuuluu, michal, oscard);
+    michal = {};
+    oscard = function(argFoo) { // Original name: age
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.age;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.age;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['age'] = oscar;
-    oscar = function(argFoo) { // Original name: extractTimestamp
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['age'] = oscard;
+    oscard = function(argFoo) { // Original name: extractTimestamp
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.extractTimestamp;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.extractTimestamp;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['extractTimestamp'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: compare
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['extractTimestamp'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: compare
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.compare;
-        mike = argFoo;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.compare;
+        michal = argFoo;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    mike['compare'] = oscar;
-    oscar = function(argFoo) { // Original name: atPreviousMillisecond
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['compare'] = oscard;
+    oscard = function(argFoo) { // Original name: atPreviousMillisecond
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.atPreviousMillisecond;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.atPreviousMillisecond;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['atPreviousMillisecond'] = oscar;
-    oscar = function(argFoo) { // Original name: fromTimestamp
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['atPreviousMillisecond'] = oscard;
+    oscard = function(argFoo) { // Original name: fromTimestamp
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.fromTimestamp;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.fromTimestamp;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['fromTimestamp'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: fromTimestampWithSequence
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['fromTimestamp'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: fromTimestampWithSequence
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.fromTimestampWithSequence;
-        mike = argFoo;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.fromTimestampWithSequence;
+        michal = argFoo;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    mike['fromTimestampWithSequence'] = oscar;
-    oscar = function(argFoo) { // Original name: keys
+    michal['fromTimestampWithSequence'] = oscard;
+    oscard = function(argFoo) { // Original name: keys
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.keys;
+        zuuluu = entity.Object;
+        michal = zuuluu.keys;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['keys'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: forEach
+    michal['keys'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: forEach
         entity = argBar;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 0;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        report = tango.bind(entity)(zulu);
-        tango = report.forEach;
-        zulu = argFoo;
-        mike = function(argFoo, argBar) {
-            tango = _closure2_slot0;
-            zulu = undefined;
-            mike = argFoo;
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.forEach;
+        zuuluu = argFoo;
+        michal = function(argFoo, argBar) {
+            tangon = _closure2_slot0;
+            zuuluu = undefined;
+            michal = argFoo;
             entity = argBar;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         };
-        mike = tango.bind(report)(zulu, mike);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    mike['forEach'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: forEachKey
+    michal['forEach'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: forEachKey
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argBar;
+            golfie = argBar;
             report = argFoo;
             entity = undefined;
-            for(mike in report)
+            for(michal in report)
  16:
             {
  25:
-                options = mike;
-                options = golf.bind(entity)(options);
+                option = michal;
+                option = golfie.bind(entity)(option);
                 _fun00002_ip = 16; continue _fun00001;
             }
  35:
             return entity;
         }
     };
-    mike['forEachKey'] = oscar;
-    oscar = function(argFoo) { // Original name: entries
+    michal['forEachKey'] = oscard;
+    oscard = function(argFoo) { // Original name: entries
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.entries;
+        zuuluu = entity.Object;
+        michal = zuuluu.entries;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['entries'] = oscar;
-    oscar = function(argFoo) { // Original name: isProbablyAValidSnowflake
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['entries'] = oscard;
+    oscard = function(argFoo) { // Original name: isProbablyAValidSnowflake
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.isProbablyAValidSnowflake;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.isProbablyAValidSnowflake;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isProbablyAValidSnowflake'] = oscar;
-    oscar = function(argFoo) { // Original name: castChannelIdAsMessageId
-        entity = argFoo;
-        return entity;
-    };
-    mike['castChannelIdAsMessageId'] = oscar;
-    oscar = function(argFoo) { // Original name: castMessageIdAsChannelId
+    michal['isProbablyAValidSnowflake'] = oscard;
+    oscard = function(argFoo) { // Original name: castChannelIdAsMessageId
         entity = argFoo;
         return entity;
     };
-    mike['castMessageIdAsChannelId'] = oscar;
-    oscar = function(argFoo) { // Original name: castGuildIdAsEveryoneGuildRoleId
+    michal['castChannelIdAsMessageId'] = oscard;
+    oscard = function(argFoo) { // Original name: castMessageIdAsChannelId
         entity = argFoo;
         return entity;
     };
-    mike['castGuildIdAsEveryoneGuildRoleId'] = oscar;
+    michal['castMessageIdAsChannelId'] = oscard;
+    oscard = function(argFoo) { // Original name: castGuildIdAsEveryoneGuildRoleId
+        entity = argFoo;
+        return entity;
+    };
+    michal['castGuildIdAsEveryoneGuildRoleId'] = oscard;
     entity = function(argFoo) { // Original name: cast
         entity = argFoo;
         return entity;
     };
-    mike['cast'] = entity;
+    michal['cast'] = entity;
     entity = 2;
-    oscar = report[entity];
+    oscard = report[entity];
     entity = undefined;
-    options = tango.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'utils/SnowflakeUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['default'] = mike;
-    mike = 1;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.DISCORD_EPOCH;
-    zulu['DISCORD_EPOCH'] = oscar;
-    mike = report[mike];
-    mike = tango.bind(entity)(mike);
-    mike = mike.SnowflakeSequence;
-    zulu['SnowflakeSequence'] = mike;
+    option = tangon.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'utils/SnowflakeUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = michal;
+    michal = 1;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.DISCORD_EPOCH;
+    zuuluu['DISCORD_EPOCH'] = oscard;
+    michal = report[michal];
+    michal = tangon.bind(entity)(michal);
+    michal = michal.SnowflakeSequence;
+    zuuluu['SnowflakeSequence'] = michal;
     return entity;
 })();

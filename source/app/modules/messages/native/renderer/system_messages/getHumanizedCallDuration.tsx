@@ -1,46 +1,46 @@
 // app/modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: getHumanizedCallDuration
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: getHumanizedCallDuration
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.call;
+            michal = argFoo;
+            zuuluu = michal.call;
             entity = null;
-            tango = entity != zulu;
-            zulu = null;
-            if(!tango) { _fun00002_ip = 29; continue _fun00001 }
+            tangon = entity != zuuluu;
+            zuuluu = null;
+            if(!tangon) { _fun00002_ip = 29; continue _fun00001 }
  19:
-            mike = mike.call;
-            zulu = mike.duration;
+            michal = michal.call;
+            zuuluu = michal.duration;
  29:
-            mike = entity != zulu;
+            michal = entity != zuuluu;
             entity = null;
-            if(!mike) { _fun00002_ip = 48; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 48; continue _fun00001 }
  38:
-            mike = zulu.humanize;
-            entity = mike.bind(zulu)();
+            michal = zuuluu.humanize;
+            entity = michal.bind(zuuluu)();
  48:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

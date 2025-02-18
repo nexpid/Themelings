@@ -1,137 +1,137 @@
 // app/modules/guild_onboarding/useSortedOnboardingPrompts.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_onboarding/useSortedOnboardingPrompts.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSortedOnboardingPrompts
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_onboarding/useSortedOnboardingPrompts.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSortedOnboardingPrompts
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        oscar = report.bind(zulu)(tango);
-        report = oscar.useStateFromStoresArray;
-        zulu = _closure1_slot3;
-        tango = new Array(1);
-        tango[0] = zulu;
-        zulu = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.getEnabledOnboardingPrompts;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        oscard = report.bind(zuuluu)(tangon);
+        report = oscard.useStateFromStoresArray;
+        zuuluu = _closure1_slot3;
+        tangon = new Array(1);
+        tangon[0] = zuuluu;
+        zuuluu = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getEnabledOnboardingPrompts;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report = report.bind(oscar)(tango, zulu);
+        report = report.bind(oscard)(tangon, zuuluu);
         var _closure2_slot1 = report;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                oscar = new Array(0);
+                oscard = new Array(0);
                 report = new Array(0);
-                tango = new Array(0);
-                zulu = new Array(0);
+                tangon = new Array(0);
+                zuuluu = new Array(0);
                 entity = _closure2_slot1;
                 entity = entity.length;
-                mike = 0;
-                entity = mike < entity;
+                michal = 0;
+                entity = michal < entity;
                 verify = 0;
-                options = 0;
+                option = 0;
                 if(!entity) { _fun00002_ip = 194; continue _fun00001 }
  46:
                 entity = _closure2_slot1;
-                romeo = entity[options];
-                entity = romeo.isNew;
+                romeon = entity[option];
+                entity = romeon.isNew;
                 if(entity) { _fun00002_ip = 156; continue _fun00001 }
  63:
-                entity = romeo.hasNewAnswers;
+                entity = romeon.hasNewAnswers;
                 if(entity) { _fun00002_ip = 113; continue _fun00001 }
  74:
-                entity = romeo.inOnboarding;
+                entity = romeon.inOnboarding;
                 if(entity) { _fun00002_ip = 98; continue _fun00001 }
  83:
-                entity = tango.push;
-                entity = entity.bind(tango)(romeo);
+                entity = tangon.push;
+                entity = entity.bind(tangon)(romeon);
                 yankee = verify;
                 _fun00002_ip = 169; continue _fun00001;
  98:
-                entity = zulu.push;
-                entity = entity.bind(zulu)(romeo);
+                entity = zuuluu.push;
+                entity = entity.bind(zuuluu)(romeon);
                 yankee = verify;
                 _fun00002_ip = 169; continue _fun00001;
  113:
                 entity = report.push;
-                entity = entity.bind(report)(romeo);
-                backup = romeo.options;
-                foxtrot = backup.filter;
+                entity = entity.bind(report)(romeon);
+                backup = romeon.options;
+                foxtra = backup.filter;
                 entity = function(argFoo) {
                     entity = argFoo;
                     entity = entity.isUnseen;
                     return entity;
                 };
-                entity = foxtrot.bind(backup)(entity);
+                entity = foxtra.bind(backup)(entity);
                 entity = entity.length;
                 yankee = verify + entity;
                 _fun00002_ip = 169; continue _fun00001;
  156:
-                entity = oscar.push;
-                entity = entity.bind(oscar)(romeo);
+                entity = oscard.push;
+                entity = entity.bind(oscard)(romeon);
                 yankee = verify;
  169:
-                options = options + 1;
+                option = option + 1;
                 entity = _closure2_slot1;
                 entity = entity.length;
                 verify = yankee;
-                mike = verify;
-                if(options < entity) { _fun00002_ip = 46; continue _fun00001 }
+                michal = verify;
+                if(option < entity) { _fun00002_ip = 46; continue _fun00001 }
  194:
                 entity = {};
-                golf = _closure2_slot1;
-                entity['onboardingPromptsRaw'] = golf;
-                entity['newOnboardingPrompts'] = oscar;
+                golfie = _closure2_slot1;
+                entity['onboardingPromptsRaw'] = golfie;
+                entity['newOnboardingPrompts'] = oscard;
                 entity['onboardingPromptsWithNewAnswers'] = report;
-                entity['newAnswersCount'] = mike;
-                mike = tango.concat;
-                mike = mike.bind(tango)(zulu);
-                entity['onboardingPrompts'] = mike;
+                entity['newAnswersCount'] = michal;
+                michal = tangon.concat;
+                michal = michal.bind(tangon)(zuuluu);
+                entity['onboardingPrompts'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

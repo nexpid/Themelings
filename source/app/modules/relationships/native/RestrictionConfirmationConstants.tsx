@@ -1,28 +1,28 @@
 // app/modules/relationships/native/RestrictionConfirmationConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/relationships/native/RestrictionConfirmationConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 'IgnoreConfirmationActionSheet';
-    zulu['IGNORE_CONFIRMATION_ACTION_SHEET_KEY'] = mike;
-    mike = 'BlockConfirmationActionSheet';
-    zulu['BLOCK_CONFIRMATION_ACTION_SHEET_KEY'] = mike;
-    mike = 600;
-    zulu['RESTRICTION_CONFIRMATION_ACTION_SHEET_HEIGHT'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/relationships/native/RestrictionConfirmationConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 'IgnoreConfirmationActionSheet';
+    zuuluu['IGNORE_CONFIRMATION_ACTION_SHEET_KEY'] = michal;
+    michal = 'BlockConfirmationActionSheet';
+    zuuluu['BLOCK_CONFIRMATION_ACTION_SHEET_KEY'] = michal;
+    michal = 600;
+    zuuluu['RESTRICTION_CONFIRMATION_ACTION_SHEET_HEIGHT'] = michal;
     return entity;
 })();

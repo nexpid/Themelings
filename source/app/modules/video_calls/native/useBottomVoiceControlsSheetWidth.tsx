@@ -1,50 +1,50 @@
 // app/modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useWindowDimensions;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.BOX_MODE_ACTIONSHEET_WIDTH;
-    var _closure1_slot1 = golf;
-    tango = tango.BOX_MODE_THRESHOLD_WIDTH;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useBottomVoiceControlsSheetWidth
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useWindowDimensions;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.BOX_MODE_ACTIONSHEET_WIDTH;
+    var _closure1_slot1 = golfie;
+    tangon = tangon.BOX_MODE_THRESHOLD_WIDTH;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useBottomVoiceControlsSheetWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = undefined;
-            entity = zulu.bind(entity)();
+            entity = zuuluu.bind(entity)();
             entity = entity.width;
-            zulu = _closure1_slot2;
-            if(!(entity > zulu)) { _fun00002_ip = 30; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            if(!(entity > zuuluu)) { _fun00002_ip = 30; continue _fun00001 }
  26:
             entity = _closure1_slot1;
  30:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

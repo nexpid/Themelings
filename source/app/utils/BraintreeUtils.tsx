@@ -1,157 +1,157 @@
 // app/utils/BraintreeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function() { // Original name: getBraintreeSDK
-        tango = _closure1_slot0;
-        oscar = _closure1_slot1;
-        mike = 2;
-        zulu = oscar[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.importWithRetry;
-        mike = {};
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function() { // Original name: getBraintreeSDK
+        tangon = _closure1_slot0;
+        oscard = _closure1_slot1;
+        michal = 2;
+        zuuluu = oscard[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.importWithRetry;
+        michal = {};
         report = function() { // Original name: createPromise
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            mike = 4;
-            mike = entity[mike];
-            tango = undefined;
-            zulu = zulu.bind(tango)(mike);
-            mike = 3;
-            mike = entity[mike];
+            michal = 4;
+            michal = entity[michal];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = 3;
+            michal = entity[michal];
             entity = entity.paths;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
-        mike['createPromise'] = report;
+        michal['createPromise'] = report;
         report = 5;
-        report = oscar[report];
-        mike['webpackId'] = report;
-        zulu = zulu.bind(tango)(mike);
-        mike = zulu.then;
+        report = oscard[report];
+        michal['webpackId'] = report;
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.then;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.default;
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = function(argFoo) { // Original name: getDeviceData
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot4;
-        mike = undefined;
-        zulu = zulu.bind(mike)();
-        mike = zulu.then;
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot4;
+        michal = undefined;
+        zuuluu = zuuluu.bind(michal)();
+        michal = zuuluu.then;
         entity = function(argFoo) {
-            mike = argFoo;
-            tango = mike.dataCollector;
-            zulu = tango.create;
-            mike = {};
+            michal = argFoo;
+            tangon = michal.dataCollector;
+            zuuluu = tangon.create;
+            michal = {};
             report = _closure2_slot0;
-            mike['client'] = report;
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.then;
-            mike = function(argFoo) {
+            michal['client'] = report;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.then;
+            michal = function(argFoo) {
                 entity = argFoo;
                 entity = entity.deviceData;
                 return entity;
             };
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.catch;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.catch;
             entity = function() {
                 entity = null;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.PaymentSettings;
     var _closure1_slot3 = report;
     report = 6;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/BraintreeUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getBraintreeSDK'] = tango;
-    mike = function() { // Original name: collectDeviceData
+    report = oscard.bind(golfie)(report);
+    zuuluu['getBraintreeSDK'] = tangon;
+    michal = function() { // Original name: collectDeviceData
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot2;
-            entity = zulu.getClient;
-            tango = entity.bind(zulu)();
+            zuuluu = _closure1_slot2;
+            entity = zuuluu.getClient;
+            tangon = entity.bind(zuuluu)();
             entity = null;
-            if(!(entity != tango)) { _fun00002_ip = 36; continue _fun00001 }
+            if(!(entity != tangon)) { _fun00002_ip = 36; continue _fun00001 }
  23:
-            zulu = _closure1_slot5;
+            zuuluu = _closure1_slot5;
             entity = undefined;
-            entity = zulu.bind(entity)(tango);
+            entity = zuuluu.bind(entity)(tangon);
             _fun00002_ip = 63; continue _fun00001;
  36:
-            zulu = _closure1_slot4;
-            mike = undefined;
-            tango = zulu.bind(mike)();
-            zulu = tango.then;
-            mike = function(argFoo) {
-                mike = argFoo;
-                tango = mike.client;
-                zulu = tango.create;
-                mike = {};
+            zuuluu = _closure1_slot4;
+            michal = undefined;
+            tangon = zuuluu.bind(michal)();
+            zuuluu = tangon.then;
+            michal = function(argFoo) {
+                michal = argFoo;
+                tangon = michal.client;
+                zuuluu = tangon.create;
+                michal = {};
                 report = _closure1_slot3;
                 report = report.BRAINTREE;
                 report = report.KEY;
-                mike['authorization'] = report;
-                tango = zulu.bind(tango)(mike);
-                zulu = tango.then;
-                mike = function(argFoo) {
-                    zulu = _closure1_slot5;
-                    mike = undefined;
+                michal['authorization'] = report;
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.then;
+                michal = function(argFoo) {
+                    zuuluu = _closure1_slot5;
+                    michal = undefined;
                     entity = argFoo;
-                    entity = zulu.bind(mike)(entity);
+                    entity = zuuluu.bind(michal)(entity);
                     return entity;
                 };
-                zulu = zulu.bind(tango)(mike);
-                mike = zulu.catch;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = zuuluu.catch;
                 entity = function() {
                     entity = null;
                     return entity;
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = zulu.bind(tango)(mike);
+            entity = zuuluu.bind(tangon)(michal);
  63:
             return entity;
         }
     };
-    zulu['collectDeviceData'] = mike;
+    zuuluu['collectDeviceData'] = michal;
     return entity;
 })();

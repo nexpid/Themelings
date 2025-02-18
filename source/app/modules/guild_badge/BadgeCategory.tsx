@@ -1,137 +1,137 @@
 // app/modules/guild_badge/BadgeCategory.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
-    tango = {};
-    golf = 0;
-    tango['PARTNERED'] = golf;
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    tangon = {};
+    golfie = 0;
+    tangon['PARTNERED'] = golfie;
     entity = 'PARTNERED';
-    tango[golf] = entity;
+    tangon[golfie] = entity;
     entity = 1;
-    tango['VERIFIED'] = entity;
-    golf = 'VERIFIED';
-    tango[entity] = golf;
-    options = 2;
-    tango['VERIFIED_AND_PARTNERED'] = options;
-    golf = 'VERIFIED_AND_PARTNERED';
-    tango[options] = golf;
-    options = 3;
-    tango['COMMUNITY'] = options;
-    golf = 'COMMUNITY';
-    tango[options] = golf;
-    options = 4;
-    tango['DISCOVERABLE'] = options;
-    golf = 'DISCOVERABLE';
-    tango[options] = golf;
-    options = 5;
-    tango['STAFF'] = options;
-    golf = 'STAFF';
-    tango[options] = golf;
-    options = 6;
-    tango['CLAN'] = options;
-    golf = 'CLAN';
-    tango[options] = golf;
-    options = 7;
-    tango['NONE'] = options;
-    golf = 'NONE';
-    tango[options] = golf;
-    var _closure1_slot2 = tango;
+    tangon['VERIFIED'] = entity;
+    golfie = 'VERIFIED';
+    tangon[entity] = golfie;
+    option = 2;
+    tangon['VERIFIED_AND_PARTNERED'] = option;
+    golfie = 'VERIFIED_AND_PARTNERED';
+    tangon[option] = golfie;
+    option = 3;
+    tangon['COMMUNITY'] = option;
+    golfie = 'COMMUNITY';
+    tangon[option] = golfie;
+    option = 4;
+    tangon['DISCOVERABLE'] = option;
+    golfie = 'DISCOVERABLE';
+    tangon[option] = golfie;
+    option = 5;
+    tangon['STAFF'] = option;
+    golfie = 'STAFF';
+    tangon[option] = golfie;
+    option = 6;
+    tangon['CLAN'] = option;
+    golfie = 'CLAN';
+    tangon[option] = golfie;
+    option = 7;
+    tangon['NONE'] = option;
+    golfie = 'NONE';
+    tangon[option] = golfie;
+    var _closure1_slot2 = tangon;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_badge/BadgeCategory.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['BadgeCategory'] = tango;
-    mike = function(argFoo) { // Original name: getBadgeCategory
+    report = oscard.bind(golfie)(report);
+    zuuluu['BadgeCategory'] = tangon;
+    michal = function(argFoo) { // Original name: getBadgeCategory
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.staff;
-            if(mike) { _fun00002_ip = 222; continue _fun00001 }
+            michal = entity.staff;
+            if(michal) { _fun00002_ip = 222; continue _fun00001 }
  15:
-            mike = entity.verified;
-            if(!mike) { _fun00002_ip = 36; continue _fun00001 }
+            michal = entity.verified;
+            if(!michal) { _fun00002_ip = 36; continue _fun00001 }
  24:
-            mike = entity.partnered;
-            if(mike) { _fun00002_ip = 207; continue _fun00001 }
+            michal = entity.partnered;
+            if(michal) { _fun00002_ip = 207; continue _fun00001 }
  36:
-            mike = entity.verified;
-            if(mike) { _fun00002_ip = 192; continue _fun00001 }
+            michal = entity.verified;
+            if(michal) { _fun00002_ip = 192; continue _fun00001 }
  48:
-            mike = entity.partnered;
-            if(mike) { _fun00002_ip = 177; continue _fun00001 }
+            michal = entity.partnered;
+            if(michal) { _fun00002_ip = 177; continue _fun00001 }
  57:
-            mike = entity.community;
-            if(!mike) { _fun00002_ip = 112; continue _fun00001 }
+            michal = entity.community;
+            if(!michal) { _fun00002_ip = 112; continue _fun00001 }
  66:
-            tango = entity.visibility;
-            oscar = _closure1_slot0;
+            tangon = entity.visibility;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 0;
-            report = report[zulu];
-            zulu = undefined;
-            zulu = oscar.bind(zulu)(report);
-            zulu = zulu.GuildVisibility;
-            zulu = zulu.PUBLIC;
-            if(!(tango !== zulu)) { _fun00002_ip = 165; continue _fun00001 }
+            zuuluu = 0;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            zuuluu = oscard.bind(zuuluu)(report);
+            zuuluu = zuuluu.GuildVisibility;
+            zuuluu = zuuluu.PUBLIC;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 165; continue _fun00001 }
  112:
-            tango = entity.clan;
-            if(tango) { _fun00002_ip = 153; continue _fun00001 }
+            tangon = entity.clan;
+            if(tangon) { _fun00002_ip = 153; continue _fun00001 }
  124:
             entity = entity.community;
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             if(entity) { _fun00002_ip = 145; continue _fun00001 }
  137:
-            entity = tango.NONE;
+            entity = tangon.NONE;
             _fun00002_ip = 151; continue _fun00001;
  145:
-            entity = tango.COMMUNITY;
+            entity = tangon.COMMUNITY;
  151:
             _fun00002_ip = 163; continue _fun00001;
  153:
-            zulu = _closure1_slot2;
-            entity = zulu.CLAN;
+            zuuluu = _closure1_slot2;
+            entity = zuuluu.CLAN;
  163:
             _fun00002_ip = 175; continue _fun00001;
  165:
-            mike = _closure1_slot2;
-            entity = mike.DISCOVERABLE;
+            michal = _closure1_slot2;
+            entity = michal.DISCOVERABLE;
  175:
             _fun00002_ip = 190; continue _fun00001;
  177:
-            mike = _closure1_slot2;
-            entity = mike.PARTNERED;
+            michal = _closure1_slot2;
+            entity = michal.PARTNERED;
  190:
             _fun00002_ip = 205; continue _fun00001;
  192:
-            mike = _closure1_slot2;
-            entity = mike.VERIFIED;
+            michal = _closure1_slot2;
+            entity = michal.VERIFIED;
  205:
             _fun00002_ip = 220; continue _fun00001;
  207:
-            mike = _closure1_slot2;
-            entity = mike.VERIFIED_AND_PARTNERED;
+            michal = _closure1_slot2;
+            entity = michal.VERIFIED_AND_PARTNERED;
  220:
             _fun00002_ip = 235; continue _fun00001;
  222:
-            mike = _closure1_slot2;
-            entity = mike.STAFF;
+            michal = _closure1_slot2;
+            entity = michal.STAFF;
  235:
             return entity;
         }
     };
-    zulu['getBadgeCategory'] = mike;
+    zuuluu['getBadgeCategory'] = michal;
     return entity;
 })();

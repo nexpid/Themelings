@@ -1,24 +1,24 @@
 // discord_assets/assets/images/consoles/mobile_background.jpg.js
-module.exports = (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_assets/assets/images/consoles/mobile_background.jpg.js';
-    mike = tango.bind(report)(mike);
-    mike = 'https://cdn.discordapp.com/assets/content/d9cf6b91365ad4ae12ccf7a06339af14feb61c71b75a681f0fec51604cad3c7a.jpg';
-    zulu['default'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_assets/assets/images/consoles/mobile_background.jpg.js';
+    michal = tangon.bind(report)(michal);
+    michal = 'https://cdn.discordapp.com/assets/content/d9cf6b91365ad4ae12ccf7a06339af14feb61c71b75a681f0fec51604cad3c7a.jpg';
+    zuuluu['default'] = michal;
     return entity;
 })();

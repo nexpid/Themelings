@@ -1,112 +1,112 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AndroidNotificationSoundsSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    golf = mike.useAndroidNotificationSoundsEnabled;
-    var _closure1_slot2 = golf;
-    golf = mike.setAndroidNotificationSoundsEnabled;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.MobileSetting;
-    mike = {};
+    michal = report.bind(entity)(michal);
+    golfie = michal.useAndroidNotificationSoundsEnabled;
+    var _closure1_slot2 = golfie;
+    golfie = michal.setAndroidNotificationSoundsEnabled;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.MobileSetting;
+    michal = {};
     verify = 2;
-    verify = oscar[verify];
+    verify = oscard[verify];
     verify = report.bind(entity)(verify);
     verify = verify.RendererType;
     verify = verify.TOGGLE;
-    mike['type'] = verify;
+    michal['type'] = verify;
     verify = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.1CWknJ;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['title'] = verify;
-    options = options.NOTIFICATIONS;
-    mike['parent'] = options;
-    options = function() { // Original name: useAndroidNotificationSoundsSettingValue
+    michal['title'] = verify;
+    option = option.NOTIFICATIONS;
+    michal['parent'] = option;
+    option = function() { // Original name: useAndroidNotificationSoundsSettingValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = undefined;
-            mike = mike.bind(entity)();
+            michal = michal.bind(entity)();
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  22:
-            entity = mike;
+            entity = michal;
  25:
             return entity;
         }
     };
-    mike['useValue'] = options;
-    mike['onValueChange'] = golf;
-    tango = function() { // Original name: useHasAndroidNotificationSoundsSetting
+    michal['useValue'] = option;
+    michal['onValueChange'] = golfie;
+    tangon = function() { // Original name: useHasAndroidNotificationSoundsSetting
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot2;
             report = undefined;
-            zulu = entity.bind(report)();
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
+            zuuluu = entity.bind(report)();
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 3;
-            entity = oscar[entity];
-            tango = tango.bind(report)(entity);
-            entity = tango.isIOS;
-            entity = entity.bind(tango)();
+            entity = oscard[entity];
+            tangon = tangon.bind(report)(entity);
+            entity = tangon.isIOS;
+            entity = entity.bind(tangon)();
             entity = !entity;
             if(!entity) { _fun00004_ip = 82; continue _fun00003 }
  49:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 4;
-            mike = oscar[mike];
-            tango = tango.bind(report)(mike);
-            mike = tango.hasAndroidNotificationChannels;
-            mike = mike.bind(tango)();
-            entity = !mike;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 4;
+            michal = oscard[michal];
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.hasAndroidNotificationChannels;
+            michal = michal.bind(tangon)();
+            entity = !michal;
  82:
             if(!entity) { _fun00004_ip = 91; continue _fun00003 }
  85:
-            mike = null;
-            entity = mike != zulu;
+            michal = null;
+            entity = michal != zuuluu;
  91:
             return entity;
         }
     };
-    mike['usePredicate'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/AndroidNotificationSoundsSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['usePredicate'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/AndroidNotificationSoundsSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

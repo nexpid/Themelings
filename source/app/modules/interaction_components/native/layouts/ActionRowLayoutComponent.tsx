@@ -1,64 +1,64 @@
 // app/modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot0 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot1 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: ActionRowLayoutComponent
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot0 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot1 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: ActionRowLayoutComponent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.components;
-            oscar = entity.renderComponents;
-            tango = null;
-            mike = tango == golf;
+            golfie = entity.components;
+            oscard = entity.renderComponents;
+            tangon = null;
+            michal = tangon == golfie;
             entity = null;
-            if(mike) { _fun00002_ip = 69; continue _fun00001 }
+            if(michal) { _fun00002_ip = 69; continue _fun00001 }
  26:
-            zulu = golf.length;
-            mike = 0;
+            zuuluu = golfie.length;
+            michal = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun00002_ip = 69; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
  39:
             report = _closure1_slot1;
-            tango = _closure1_slot0;
-            zulu = {};
-            mike = undefined;
-            oscar = oscar.bind(mike)(golf);
-            zulu['children'] = oscar;
-            entity = report.bind(mike)(tango, zulu);
+            tangon = _closure1_slot0;
+            zuuluu = {};
+            michal = undefined;
+            oscard = oscard.bind(michal)(golfie);
+            zuuluu['children'] = oscard;
+            entity = report.bind(michal)(tangon, zuuluu);
  69:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

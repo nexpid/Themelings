@@ -1,189 +1,189 @@
 // app/modules/guilds_bar/GuildsTree.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     report = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = report;
-    var _closure1_slot2 = options;
+    var _closure1_slot2 = option;
     entity = function() { // Original name: randomFolderId
         entity = global;
-        zulu = entity.Math;
-        mike = zulu.floor;
-        tango = entity.Math;
-        entity = tango.random;
-        tango = entity.bind(tango)();
+        zuuluu = entity.Math;
+        michal = zuuluu.floor;
+        tangon = entity.Math;
+        entity = tangon.random;
+        tangon = entity.bind(tangon)();
         entity = 4294967296.0;
-        entity = entity * tango;
-        entity = mike.bind(zulu)(entity);
+        entity = entity * tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
-    oscar = verify.defineProperty;
-    tango = {};
+    oscard = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(verify)(zulu, entity, tango);
+    entity = oscard.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = options[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot4 = tango;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = option[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
     report = {};
-    tango = 'root';
-    report['ROOT'] = tango;
-    tango = 'folder';
-    report['FOLDER'] = tango;
-    tango = 'guild';
-    report['GUILD'] = tango;
+    tangon = 'root';
+    report['ROOT'] = tangon;
+    tangon = 'folder';
+    report['FOLDER'] = tangon;
+    tangon = 'guild';
+    report['GUILD'] = tangon;
     var _closure1_slot5 = report;
-    tango = function() {
-        tango = _closure1_slot4;
-        zulu = function() { // Original name: GuildsTree
-            zulu = this;
+    tangon = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function() { // Original name: GuildsTree
+            zuuluu = this;
             report = _closure1_slot3;
-            mike = _closure2_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = report.bind(entity)(zulu, mike);
-            mike = {};
-            tango = _closure1_slot5;
-            tango = tango.ROOT;
-            mike['type'] = tango;
-            tango = new Array(0);
-            mike['children'] = tango;
-            zulu['root'] = mike;
-            mike = {};
-            zulu['nodes'] = mike;
-            mike = 0;
-            zulu['version'] = mike;
+            michal = report.bind(entity)(zuuluu, michal);
+            michal = {};
+            tangon = _closure1_slot5;
+            tangon = tangon.ROOT;
+            michal['type'] = tangon;
+            tangon = new Array(0);
+            michal['children'] = tangon;
+            zuuluu['root'] = michal;
+            michal = {};
+            zuuluu['nodes'] = michal;
+            michal = 0;
+            zuuluu['version'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'getSnapshot';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
+        michal = 'getSnapshot';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = this;
-                mike = {};
-                offset = tango.nodes;
-                oscar = undefined;
+                tangon = this;
+                michal = {};
+                offset = tangon.nodes;
+                oscard = undefined;
                 report = 'children';
                 entity = 'childrenIds';
-                for(golf in offset)
+                for(golfie in offset)
  31:
                 {
  40:
-                    foxtrot = golf;
-                    romeo = tango.nodes;
-                    backup = romeo[foxtrot];
-                    romeo = {};
-                    result = romeo;
+                    foxtra = golfie;
+                    romeon = tangon.nodes;
+                    backup = romeon[foxtra];
+                    romeon = {};
+                    result = romeon;
                     output = backup;
-                    kilo = copyDataProperties(result, output);
-                    romeo[report] = oscar;
+                    kiloes = copyDataProperties(result, output);
+                    romeon[report] = oscard;
                     sizing = backup.children;
-                    kilo = sizing.map;
+                    kiloes = sizing.map;
                     backup = function(argFoo) {
                         entity = argFoo;
                         entity = entity.id;
                         return entity;
                     };
-                    backup = kilo.bind(sizing)(backup);
-                    romeo[entity] = backup;
-                    mike[foxtrot] = romeo;
+                    backup = kiloes.bind(sizing)(backup);
+                    romeon[entity] = backup;
+                    michal[foxtra] = romeon;
                     _fun00002_ip = 31; continue _fun00001;
                 }
  101:
                 entity = {};
-                tango = tango.root;
-                report = tango.children;
-                tango = report.map;
-                zulu = function(argFoo) {
+                tangon = tangon.root;
+                report = tangon.children;
+                tangon = report.map;
+                zuuluu = function(argFoo) {
                     entity = argFoo;
                     entity = entity.id;
                     return entity;
                 };
-                zulu = tango.bind(report)(zulu);
-                entity['rootChildrenIds'] = zulu;
-                entity['nodes'] = mike;
+                zuuluu = tangon.bind(report)(zuuluu);
+                entity['rootChildrenIds'] = zuuluu;
+                entity['nodes'] = michal;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(15);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(15);
+        michal[0] = entity;
         entity = {};
-        oscar = 'loadSnapshot';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'loadSnapshot';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = argFoo;
-                mike = this;
-                var _closure3_slot0 = mike;
-                zulu = tango.nodes;
-                mike['nodes'] = zulu;
-                golf = mike.nodes;
-                for(zulu in golf)
+                tangon = argFoo;
+                michal = this;
+                var _closure3_slot0 = michal;
+                zuuluu = tangon.nodes;
+                michal['nodes'] = zuuluu;
+                golfie = michal.nodes;
+                for(zuuluu in golfie)
  38:
                 {
  47:
-                    offset = zulu;
-                    verify = mike.nodes;
+                    offset = zuuluu;
+                    verify = michal.nodes;
                     verify = verify[offset];
-                    romeo = verify.childrenIds;
-                    yankee = romeo.map;
+                    romeon = verify.childrenIds;
+                    yankee = romeon.map;
                     offset = function(argFoo) {
                         entity = _closure3_slot0;
-                        mike = entity.nodes;
+                        michal = entity.nodes;
                         entity = argFoo;
-                        entity = mike[entity];
+                        entity = michal[entity];
                         return entity;
                     };
-                    offset = yankee.bind(romeo)(offset);
+                    offset = yankee.bind(romeon)(offset);
                     verify['children'] = offset;
                     verify = delete verify.childrenIds;
                     _fun00004_ip = 38; continue _fun00003;
                 }
  94:
-                zulu = mike.root;
-                report = tango.rootChildrenIds;
-                tango = report.map;
+                zuuluu = michal.root;
+                report = tangon.rootChildrenIds;
+                tangon = report.map;
                 entity = function(argFoo) {
                     entity = _closure3_slot0;
-                    mike = entity.nodes;
+                    michal = entity.nodes;
                     entity = argFoo;
-                    entity = mike[entity];
+                    entity = michal[entity];
                     return entity;
                 };
-                entity = tango.bind(report)(entity);
-                zulu['children'] = entity;
-                entity = mike.version;
+                entity = tangon.bind(report)(entity);
+                zuuluu['children'] = entity;
+                entity = michal.version;
                 entity = entity + 1;
-                mike['version'] = entity;
+                michal['version'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'moveNextTo';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'moveNextTo';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 yankee = argBar;
                 report = arguments[2];
                 entity = this;
@@ -192,175 +192,175 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  18:
                 report = false;
  20:
-                mike = entity._pluckNode;
-                mike = mike.bind(entity)(zulu);
-                tango = yankee.parentId;
-                mike = null;
-                if(!(mike == tango)) { _fun00006_ip = 51; continue _fun00005 }
+                michal = entity._pluckNode;
+                michal = michal.bind(entity)(zuuluu);
+                tangon = yankee.parentId;
+                michal = null;
+                if(!(michal == tangon)) { _fun00006_ip = 51; continue _fun00005 }
  43:
-                mike = entity.root;
+                michal = entity.root;
                 _fun00006_ip = 67; continue _fun00005;
  51:
-                oscar = entity.nodes;
-                tango = yankee.parentId;
-                mike = oscar[tango];
+                oscard = entity.nodes;
+                tangon = yankee.parentId;
+                michal = oscard[tangon];
  67:
-                oscar = mike.children;
-                tango = oscar.indexOf;
-                options = tango.bind(oscar)(yankee);
-                golf = _closure1_slot1;
-                tango = _closure1_slot2;
+                oscard = michal.children;
+                tangon = oscard.indexOf;
+                option = tangon.bind(oscard)(yankee);
+                golfie = _closure1_slot1;
+                tangon = _closure1_slot2;
                 verify = 2;
-                tango = tango[verify];
-                foxtrot = golf.bind(offset)(tango);
-                golf = zulu.type;
-                tango = _closure1_slot5;
-                tango = tango.FOLDER;
-                golf = golf === tango;
-                if(!golf) { _fun00006_ip = 146; continue _fun00005 }
+                tangon = tangon[verify];
+                foxtra = golfie.bind(offset)(tangon);
+                golfie = zuuluu.type;
+                tangon = _closure1_slot5;
+                tangon = tangon.FOLDER;
+                golfie = golfie === tangon;
+                if(!golfie) { _fun00006_ip = 146; continue _fun00005 }
  127:
-                romeo = mike.type;
-                tango = _closure1_slot5;
-                tango = tango.FOLDER;
-                golf = romeo === tango;
+                romeon = michal.type;
+                tangon = _closure1_slot5;
+                tangon = tangon.FOLDER;
+                golfie = romeon === tangon;
  146:
-                control = zulu.id;
-                update = mike.id;
-                tango = global;
-                romeo = tango.HermesInternal;
-                sizing = romeo.concat;
+                ctrled = zuuluu.id;
+                update = michal.id;
+                tangon = global;
+                romeon = tangon.HermesInternal;
+                sizing = romeon.concat;
                 vacuum = '[GUILDS TREE] Tried moving a folder (';
                 source = ') inside of another folder (';
-                kilo = ')';
-                echo = kilo;
-                romeo = vacuum[sizing](control, source, update, echo, result);
-                golf = !golf;
-                golf = foxtrot.bind(offset)(golf, romeo);
-                golf = _closure1_slot1;
-                oscar = _closure1_slot2;
-                oscar = oscar[verify];
-                verify = golf.bind(offset)(oscar);
-                golf = 0;
-                oscar = options >= golf;
-                control = yankee.id;
+                kiloes = ')';
+                echoed = kiloes;
+                romeon = vacuum[sizing](ctrled, source, update, echoed, result);
+                golfie = !golfie;
+                golfie = foxtra.bind(offset)(golfie, romeon);
+                golfie = _closure1_slot1;
+                oscard = _closure1_slot2;
+                oscard = oscard[verify];
+                verify = golfie.bind(offset)(oscard);
+                golfie = 0;
+                oscard = option >= golfie;
+                ctrled = yankee.id;
                 update = yankee.parentId;
-                tango = tango.HermesInternal;
-                romeo = tango.concat;
+                tangon = tangon.HermesInternal;
+                romeon = tangon.concat;
                 vacuum = '[GUILDS TREE] target node (';
                 source = ') did not exist within its specified parent (';
-                tango = vacuum[romeo](control, source, update, echo, result);
-                tango = verify.bind(offset)(oscar, tango);
-                tango = 0;
+                tangon = vacuum[romeon](ctrled, source, update, echoed, result);
+                tangon = verify.bind(offset)(oscard, tangon);
+                tangon = 0;
                 if(!report) { _fun00006_ip = 276; continue _fun00005 }
  273:
-                tango = 1;
+                tangon = 1;
  276:
-                source = mike.children;
+                source = michal.children;
                 report = new Array(0);
-                control = report;
+                ctrled = report;
                 update = 0;
-                oscar = arraySpread(control, source, update);
-                mike['children'] = report;
-                oscar = mike.children;
-                report = oscar.splice;
-                tango = options + tango;
-                tango = report.bind(oscar)(tango, golf, zulu);
-                mike = mike.id;
-                zulu['parentId'] = mike;
-                mike = entity.version;
-                mike = mike + 1;
-                entity['version'] = mike;
+                oscard = arraySpread(ctrled, source, update);
+                michal['children'] = report;
+                oscard = michal.children;
+                report = oscard.splice;
+                tangon = option + tangon;
+                tangon = report.bind(oscard)(tangon, golfie, zuuluu);
+                michal = michal.id;
+                zuuluu['parentId'] = michal;
+                michal = entity.version;
+                michal = michal + 1;
+                entity['version'] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'moveInto';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'moveInto';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zulu = argFoo;
-                mike = argBar;
-                tango = arguments[2];
+                zuuluu = argFoo;
+                michal = argBar;
+                tangon = arguments[2];
                 entity = this;
                 report = undefined;
-                if(!(tango === report)) { _fun00008_ip = 20; continue _fun00007 }
+                if(!(tangon === report)) { _fun00008_ip = 20; continue _fun00007 }
  18:
-                tango = true;
+                tangon = true;
  20:
                 report = entity._pluckNode;
-                report = report.bind(entity)(zulu);
-                golf = 0;
-                oscar = 0;
-                if(!tango) { _fun00008_ip = 48; continue _fun00007 }
+                report = report.bind(entity)(zuuluu);
+                golfie = 0;
+                oscard = 0;
+                if(!tangon) { _fun00008_ip = 48; continue _fun00007 }
  38:
-                tango = mike.children;
-                oscar = tango.length;
+                tangon = michal.children;
+                oscard = tangon.length;
  48:
-                verify = mike.children;
-                tango = new Array(0);
-                offset = tango;
-                options = 0;
-                report = arraySpread(offset, verify, options);
-                mike['children'] = tango;
-                report = mike.children;
-                tango = report.splice;
-                tango = tango.bind(report)(oscar, golf, zulu);
-                mike = mike.id;
-                zulu['parentId'] = mike;
-                mike = entity.version;
-                mike = mike + 1;
-                entity['version'] = mike;
+                verify = michal.children;
+                tangon = new Array(0);
+                offset = tangon;
+                option = 0;
+                report = arraySpread(offset, verify, option);
+                michal['children'] = tangon;
+                report = michal.children;
+                tangon = report.splice;
+                tangon = tangon.bind(report)(oscard, golfie, zuuluu);
+                michal = michal.id;
+                zuuluu['parentId'] = michal;
+                michal = entity.version;
+                michal = michal + 1;
+                entity['version'] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[3] = entity;
+        entity['value'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = 'addNode';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'addNode';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 report = argFoo;
-                tango = arguments[1];
-                zulu = arguments[2];
-                mike = this;
-                options = undefined;
-                if(!(tango === options)) { _fun00010_ip = 24; continue _fun00009 }
+                tangon = arguments[1];
+                zuuluu = arguments[2];
+                michal = this;
+                option = undefined;
+                if(!(tangon === option)) { _fun00010_ip = 24; continue _fun00009 }
  18:
-                tango = mike.root;
+                tangon = michal.root;
  24:
-                if(!(zulu === options)) { _fun00010_ip = 30; continue _fun00009 }
+                if(!(zuuluu === option)) { _fun00010_ip = 30; continue _fun00009 }
  28:
-                zulu = true;
+                zuuluu = true;
  30:
-                golf = _closure1_slot1;
+                golfie = _closure1_slot1;
                 verify = _closure1_slot2;
                 entity = 2;
                 offset = verify[entity];
-                yankee = golf.bind(options)(offset);
+                yankee = golfie.bind(option)(offset);
                 offset = report.type;
-                oscar = _closure1_slot5;
-                oscar = oscar.ROOT;
-                offset = offset !== oscar;
-                oscar = '[GUILDS TREE] Tried adding another root node into the tree';
-                oscar = yankee.bind(options)(offset, oscar);
-                oscar = verify[entity];
-                romeo = golf.bind(options)(oscar);
+                oscard = _closure1_slot5;
+                oscard = oscard.ROOT;
+                offset = offset !== oscard;
+                oscard = '[GUILDS TREE] Tried adding another root node into the tree';
+                oscard = yankee.bind(option)(offset, oscard);
+                oscard = verify[entity];
+                romeon = golfie.bind(option)(oscard);
                 offset = report.id;
-                oscar = null;
-                yankee = oscar != offset;
+                oscard = null;
+                yankee = oscard != offset;
                 offset = '[GUILDS TREE] Tried adding a node without an id';
-                offset = romeo.bind(options)(yankee, offset);
+                offset = romeon.bind(option)(yankee, offset);
                 entity = verify[entity];
-                golf = golf.bind(options)(entity);
-                verify = mike.nodes;
+                golfie = golfie.bind(option)(entity);
+                verify = michal.nodes;
                 entity = report.id;
                 entity = verify[entity];
-                oscar = oscar == entity;
+                oscard = oscard == entity;
                 yankee = report.id;
                 entity = global;
                 entity = entity.HermesInternal;
@@ -368,446 +368,446 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 verify = '[GUILDS TREE] Tried adding a node that already exists (';
                 entity = ')';
                 entity = offset.bind(verify)(yankee, entity);
-                entity = golf.bind(options)(oscar, entity);
-                oscar = mike.nodes;
+                entity = golfie.bind(option)(oscard, entity);
+                oscard = michal.nodes;
                 entity = report.id;
-                oscar[entity] = report;
-                entity = mike.version;
+                oscard[entity] = report;
+                entity = michal.version;
                 entity = entity + 1;
-                mike['version'] = entity;
-                entity = mike.moveInto;
-                entity = entity.bind(mike)(report, tango, zulu);
+                michal['version'] = entity;
+                entity = michal.moveInto;
+                entity = entity.bind(michal)(report, tangon, zuuluu);
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[4] = entity;
+        entity['value'] = oscard;
+        michal[4] = entity;
         entity = {};
-        oscar = 'removeNode';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            mike = argFoo;
+        oscard = 'removeNode';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = argFoo;
             entity = this;
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            tango = 2;
-            golf = oscar[tango];
-            zulu = undefined;
-            verify = report.bind(zulu)(golf);
-            golf = entity.root;
-            options = mike !== golf;
-            golf = '[GUILDS TREE] Tried removing the root node from the tree';
-            golf = verify.bind(zulu)(options, golf);
-            tango = oscar[tango];
-            oscar = report.bind(zulu)(tango);
-            report = mike.id;
-            tango = null;
-            report = tango != report;
-            tango = '[GUILDS TREE] Tried removing a node without an id';
-            tango = oscar.bind(zulu)(report, tango);
-            tango = entity._pluckNode;
-            tango = tango.bind(entity)(mike);
-            mike['parentId'] = zulu;
-            zulu = entity.nodes;
-            mike = mike.id;
-            mike = delete zulu[mike];
-            mike = entity.version;
-            mike = mike + 1;
-            entity['version'] = mike;
+            oscard = _closure1_slot2;
+            tangon = 2;
+            golfie = oscard[tangon];
+            zuuluu = undefined;
+            verify = report.bind(zuuluu)(golfie);
+            golfie = entity.root;
+            option = michal !== golfie;
+            golfie = '[GUILDS TREE] Tried removing the root node from the tree';
+            golfie = verify.bind(zuuluu)(option, golfie);
+            tangon = oscard[tangon];
+            oscard = report.bind(zuuluu)(tangon);
+            report = michal.id;
+            tangon = null;
+            report = tangon != report;
+            tangon = '[GUILDS TREE] Tried removing a node without an id';
+            tangon = oscard.bind(zuuluu)(report, tangon);
+            tangon = entity._pluckNode;
+            tangon = tangon.bind(entity)(michal);
+            michal['parentId'] = zuuluu;
+            zuuluu = entity.nodes;
+            michal = michal.id;
+            michal = delete zuuluu[michal];
+            michal = entity.version;
+            michal = michal + 1;
+            entity['version'] = michal;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[5] = entity;
+        entity['value'] = oscard;
+        michal[5] = entity;
         entity = {};
-        oscar = 'replaceNode';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'replaceNode';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                mike = argFoo;
-                tango = argBar;
+                michal = argFoo;
+                tangon = argBar;
                 entity = this;
                 verify = _closure1_slot1;
                 report = _closure1_slot2;
-                options = 2;
-                golf = report[options];
-                zulu = undefined;
-                romeo = verify.bind(zulu)(golf);
-                offset = mike.id;
-                golf = null;
-                yankee = golf != offset;
+                option = 2;
+                golfie = report[option];
+                zuuluu = undefined;
+                romeon = verify.bind(zuuluu)(golfie);
+                offset = michal.id;
+                golfie = null;
+                yankee = golfie != offset;
                 offset = '[GUILDS TREE] Tried replacing a node without an id';
-                offset = romeo.bind(zulu)(yankee, offset);
-                report = report[options];
-                offset = verify.bind(zulu)(report);
-                report = tango.id;
-                verify = golf != report;
+                offset = romeon.bind(zuuluu)(yankee, offset);
+                report = report[option];
+                offset = verify.bind(zuuluu)(report);
+                report = tangon.id;
+                verify = golfie != report;
                 report = '[GUILDS TREE] Tried replacing a node with one that does not have an id';
-                report = offset.bind(zulu)(verify, report);
-                report = mike.parentId;
-                if(!(golf == report)) { _fun00012_ip = 105; continue _fun00011 }
+                report = offset.bind(zuuluu)(verify, report);
+                report = michal.parentId;
+                if(!(golfie == report)) { _fun00012_ip = 105; continue _fun00011 }
  97:
                 report = entity.root;
                 _fun00012_ip = 121; continue _fun00011;
  105:
                 verify = entity.nodes;
-                golf = mike.parentId;
-                report = verify[golf];
+                golfie = michal.parentId;
+                report = verify[golfie];
  121:
                 verify = report.children;
-                golf = verify.indexOf;
-                verify = golf.bind(verify)(mike);
-                golf = _closure1_slot1;
-                oscar = _closure1_slot2;
-                oscar = oscar[options];
-                offset = golf.bind(zulu)(oscar);
-                options = 0;
-                golf = verify >= options;
-                echo = mike.id;
-                output = mike.parentId;
-                oscar = global;
-                oscar = oscar.HermesInternal;
-                foxtrot = oscar.concat;
+                golfie = verify.indexOf;
+                verify = golfie.bind(verify)(michal);
+                golfie = _closure1_slot1;
+                oscard = _closure1_slot2;
+                oscard = oscard[option];
+                offset = golfie.bind(zuuluu)(oscard);
+                option = 0;
+                golfie = verify >= option;
+                echoed = michal.id;
+                output = michal.parentId;
+                oscard = global;
+                oscard = oscard.HermesInternal;
+                foxtra = oscard.concat;
                 update = '[GUILDS TREE] existing node (';
                 result = ') did not exist within its specified parent (';
                 sizing = ')';
-                oscar = update[foxtrot](echo, result, output, sizing, kilo);
-                oscar = offset.bind(zulu)(golf, oscar);
+                oscard = update[foxtra](echoed, result, output, sizing, kiloes);
+                oscard = offset.bind(zuuluu)(golfie, oscard);
                 result = report.children;
-                oscar = new Array(0);
-                echo = oscar;
+                oscard = new Array(0);
+                echoed = oscard;
                 output = 0;
-                golf = arraySpread(echo, result, output);
-                report['children'] = oscar;
-                options = report.children;
-                golf = options.splice;
-                oscar = 1;
-                oscar = golf.bind(options)(verify, oscar, tango);
+                golfie = arraySpread(echoed, result, output);
+                report['children'] = oscard;
+                option = report.children;
+                golfie = option.splice;
+                oscard = 1;
+                oscard = golfie.bind(option)(verify, oscard, tangon);
                 report = report.id;
-                tango['parentId'] = report;
-                mike['parentId'] = zulu;
-                zulu = entity.nodes;
-                mike = mike.id;
-                mike = delete zulu[mike];
-                zulu = entity.nodes;
-                mike = tango.id;
-                zulu[mike] = tango;
-                mike = entity.version;
-                mike = mike + 1;
-                entity['version'] = mike;
+                tangon['parentId'] = report;
+                michal['parentId'] = zuuluu;
+                zuuluu = entity.nodes;
+                michal = michal.id;
+                michal = delete zuuluu[michal];
+                zuuluu = entity.nodes;
+                michal = tangon.id;
+                zuuluu[michal] = tangon;
+                michal = entity.version;
+                michal = michal + 1;
+                entity['version'] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[6] = entity;
+        entity['value'] = oscard;
+        michal[6] = entity;
         entity = {};
-        oscar = 'cloneNode';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+        oscard = 'cloneNode';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.clone;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.clone;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[7] = entity;
+        entity['value'] = oscard;
+        michal[7] = entity;
         entity = {};
-        oscar = 'convertToFolder';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'convertToFolder';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 report = argFoo;
-                zulu = this;
+                zuuluu = this;
                 entity = _closure1_slot6;
-                golf = undefined;
-                mike = entity.bind(golf)();
-                entity = zulu.getNode;
-                entity = entity.bind(zulu)(mike);
-                oscar = null;
-                if(!(oscar != entity)) { _fun00014_ip = 62; continue _fun00013 }
+                golfie = undefined;
+                michal = entity.bind(golfie)();
+                entity = zuuluu.getNode;
+                entity = entity.bind(zuuluu)(michal);
+                oscard = null;
+                if(!(oscard != entity)) { _fun00014_ip = 62; continue _fun00013 }
  36:
                 entity = _closure1_slot6;
-                options = entity.bind(golf)();
-                entity = zulu.getNode;
-                entity = entity.bind(zulu)(options);
-                mike = options;
-                if(oscar != entity) { _fun00014_ip = 36; continue _fun00013 }
+                option = entity.bind(golfie)();
+                entity = zuuluu.getNode;
+                entity = entity.bind(zuuluu)(option);
+                michal = option;
+                if(oscard != entity) { _fun00014_ip = 36; continue _fun00013 }
  62:
                 entity = {};
-                tango = _closure1_slot5;
-                tango = tango.FOLDER;
-                entity['type'] = tango;
-                entity['id'] = mike;
-                tango = false;
-                entity['expanded'] = tango;
-                mike = new Array(0);
-                entity['children'] = mike;
-                mike = zulu.replaceNode;
-                mike = mike.bind(zulu)(report, entity);
-                mike = zulu.removeNode;
-                mike = mike.bind(zulu)(report);
-                mike = zulu.addNode;
-                mike = mike.bind(zulu)(report, entity, tango);
-                mike = zulu.version;
-                mike = mike + 1;
-                zulu['version'] = mike;
+                tangon = _closure1_slot5;
+                tangon = tangon.FOLDER;
+                entity['type'] = tangon;
+                entity['id'] = michal;
+                tangon = false;
+                entity['expanded'] = tangon;
+                michal = new Array(0);
+                entity['children'] = michal;
+                michal = zuuluu.replaceNode;
+                michal = michal.bind(zuuluu)(report, entity);
+                michal = zuuluu.removeNode;
+                michal = michal.bind(zuuluu)(report);
+                michal = zuuluu.addNode;
+                michal = michal.bind(zuuluu)(report, entity, tangon);
+                michal = zuuluu.version;
+                michal = michal + 1;
+                zuuluu['version'] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[8] = entity;
+        entity['value'] = oscard;
+        michal[8] = entity;
         entity = {};
-        oscar = 'allNodes';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'allNodes';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = global;
-            zulu = entity.Object;
-            mike = zulu.values;
+            zuuluu = entity.Object;
+            michal = zuuluu.values;
             entity = this;
             entity = entity.nodes;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[9] = entity;
+        entity['value'] = oscard;
+        michal[9] = entity;
         entity = {};
-        oscar = 'getNode';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'getNode';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             entity = this;
-            mike = entity.nodes;
+            michal = entity.nodes;
             entity = argFoo;
-            entity = mike[entity];
+            entity = michal[entity];
             return entity;
         };
-        entity['value'] = oscar;
-        mike[10] = entity;
+        entity['value'] = oscard;
+        michal[10] = entity;
         entity = {};
-        oscar = 'getRoots';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'getRoots';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = this;
             entity = entity.root;
             entity = entity.children;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[11] = entity;
+        entity['value'] = oscard;
+        michal[11] = entity;
         entity = {};
-        oscar = 'size';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
-            mike = this;
-            entity = mike.allNodes;
-            entity = entity.bind(mike)();
+        oscard = 'size';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            michal = this;
+            entity = michal.allNodes;
+            entity = entity.bind(michal)();
             entity = entity.length;
             return entity;
         };
-        entity['get'] = oscar;
-        mike[12] = entity;
+        entity['get'] = oscard;
+        michal[12] = entity;
         entity = {};
-        oscar = 'sortedGuildNodes';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
-            zulu = function(argFoo) { // Original name: collectChildren
+        oscard = 'sortedGuildNodes';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            zuuluu = function(argFoo) { // Original name: collectChildren
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                    zulu = argFoo;
-                    mike = zulu.type;
+                    zuuluu = argFoo;
+                    michal = zuuluu.type;
                     entity = _closure1_slot5;
                     entity = entity.GUILD;
-                    if(!(mike !== entity)) { _fun00016_ip = 76; continue _fun00015 }
+                    if(!(michal !== entity)) { _fun00016_ip = 76; continue _fun00015 }
  25:
-                    mike = zulu.children;
+                    michal = zuuluu.children;
                     entity = null;
-                    if(!(entity != mike)) { _fun00016_ip = 70; continue _fun00015 }
+                    if(!(entity != michal)) { _fun00016_ip = 70; continue _fun00015 }
  36:
-                    tango = zulu.children;
-                    mike = tango.map;
+                    tangon = zuuluu.children;
+                    michal = tangon.map;
                     entity = function(argFoo) {
-                        zulu = _closure3_slot0;
-                        mike = undefined;
+                        zuuluu = _closure3_slot0;
+                        michal = undefined;
                         entity = argFoo;
-                        entity = zulu.bind(mike)(entity);
+                        entity = zuuluu.bind(michal)(entity);
                         return entity;
                     };
-                    mike = mike.bind(tango)(entity);
-                    entity = mike.flat;
-                    entity = entity.bind(mike)();
+                    michal = michal.bind(tangon)(entity);
+                    entity = michal.flat;
+                    entity = entity.bind(michal)();
                     _fun00016_ip = 74; continue _fun00015;
  70:
                     entity = new Array(0);
  74:
                     _fun00016_ip = 87; continue _fun00015;
  76:
-                    mike = new Array(1);
-                    mike[0] = zulu;
-                    entity = mike;
+                    michal = new Array(1);
+                    michal[0] = zuuluu;
+                    entity = michal;
  87:
                     return entity;
                 }
             };
-            var _closure3_slot0 = zulu;
+            var _closure3_slot0 = zuuluu;
             entity = this;
-            mike = entity.root;
+            michal = entity.root;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[13] = entity;
+        entity['value'] = oscard;
+        michal[13] = entity;
         entity = {};
-        oscar = '_pluckNode';
-        entity['key'] = oscar;
+        oscard = '_pluckNode';
+        entity['key'] = oscard;
         report = function(argFoo) { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                mike = argFoo;
-                zulu = this;
-                var _closure3_slot0 = mike;
-                entity = mike.parentId;
-                options = null;
-                if(!(options == entity)) { _fun00018_ip = 32; continue _fun00017 }
+                michal = argFoo;
+                zuuluu = this;
+                var _closure3_slot0 = michal;
+                entity = michal.parentId;
+                option = null;
+                if(!(option == entity)) { _fun00018_ip = 32; continue _fun00017 }
  24:
-                report = zulu.root;
+                report = zuuluu.root;
                 _fun00018_ip = 48; continue _fun00017;
  32:
-                oscar = zulu.nodes;
-                entity = mike.parentId;
-                report = oscar[entity];
+                oscard = zuuluu.nodes;
+                entity = michal.parentId;
+                report = oscard[entity];
  48:
                 offset = _closure1_slot1;
                 yankee = _closure1_slot2;
                 verify = 2;
-                oscar = yankee[verify];
+                oscard = yankee[verify];
                 entity = undefined;
-                kilo = offset.bind(entity)(oscar);
-                romeo = options != report;
-                control = mike.id;
-                update = mike.parentId;
-                oscar = global;
-                golf = oscar.HermesInternal;
-                sizing = golf.concat;
+                kiloes = offset.bind(entity)(oscard);
+                romeon = option != report;
+                ctrled = michal.id;
+                update = michal.parentId;
+                oscard = global;
+                golfie = oscard.HermesInternal;
+                sizing = golfie.concat;
                 backup = '[GUILDS TREE] source node (';
-                foxtrot = ') had a parent id (';
-                echo = ") which doesn't exist in the tree";
+                foxtra = ') had a parent id (';
+                echoed = ") which doesn't exist in the tree";
                 vacuum = backup;
-                source = foxtrot;
-                golf = vacuum[sizing](control, source, update, echo, result);
-                golf = kilo.bind(entity)(romeo, golf);
-                golf = report.children;
+                source = foxtra;
+                golfie = vacuum[sizing](ctrled, source, update, echoed, result);
+                golfie = kiloes.bind(entity)(romeon, golfie);
+                golfie = report.children;
                 verify = yankee[verify];
                 verify = offset.bind(entity)(verify);
-                options = options != golf;
-                control = mike.id;
-                update = mike.parentId;
-                oscar = oscar.HermesInternal;
-                offset = oscar.concat;
-                echo = ') which contains no children';
+                option = option != golfie;
+                ctrled = michal.id;
+                update = michal.parentId;
+                oscard = oscard.HermesInternal;
+                offset = oscard.concat;
+                echoed = ') which contains no children';
                 vacuum = backup;
-                source = foxtrot;
-                oscar = vacuum[offset](control, source, update, echo, result);
-                oscar = verify.bind(entity)(options, oscar);
-                oscar = golf.filter;
-                tango = function(argFoo) {
-                    mike = _closure3_slot0;
+                source = foxtra;
+                oscard = vacuum[offset](ctrled, source, update, echoed, result);
+                oscard = verify.bind(entity)(option, oscard);
+                oscard = golfie.filter;
+                tangon = function(argFoo) {
+                    michal = _closure3_slot0;
                     entity = argFoo;
-                    entity = entity !== mike;
+                    entity = entity !== michal;
                     return entity;
                 };
-                tango = oscar.bind(golf)(tango);
-                report['children'] = tango;
-                mike['parentId'] = entity;
-                mike = zulu.version;
-                mike = mike + 1;
-                zulu['version'] = mike;
+                tangon = oscard.bind(golfie)(tangon);
+                report['children'] = tangon;
+                michal['parentId'] = entity;
+                michal = zuuluu.version;
+                michal = michal + 1;
+                zuuluu['version'] = michal;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[14] = entity;
+        michal[14] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    oscar = 4;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/guilds_bar/GuildsTree.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['GuildsNodeType'] = report;
-    zulu['GuildsTree'] = tango;
-    tango = function(argFoo, argBar) { // Original name: createGuildNode
+    tangon = tangon.bind(entity)();
+    oscard = 4;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/guilds_bar/GuildsTree.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['GuildsNodeType'] = report;
+    zuuluu['GuildsTree'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: createGuildNode
         entity = {};
-        mike = _closure1_slot5;
-        mike = mike.GUILD;
-        entity['type'] = mike;
-        mike = argFoo;
-        entity['id'] = mike;
-        mike = argBar;
-        entity['parentId'] = mike;
-        mike = new Array(0);
-        entity['children'] = mike;
-        mike = false;
-        entity['unavailable'] = mike;
+        michal = _closure1_slot5;
+        michal = michal.GUILD;
+        entity['type'] = michal;
+        michal = argFoo;
+        entity['id'] = michal;
+        michal = argBar;
+        entity['parentId'] = michal;
+        michal = new Array(0);
+        entity['children'] = michal;
+        michal = false;
+        entity['unavailable'] = michal;
         return entity;
     };
-    zulu['createGuildNode'] = tango;
-    mike = function(argFoo, argBar, argBaz) { // Original name: createFolderNode
+    zuuluu['createGuildNode'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: createFolderNode
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-            tango = argFoo;
-            mike = argBaz;
+            tangon = argFoo;
+            michal = argBaz;
             entity = {};
-            zulu = _closure1_slot5;
-            zulu = zulu.FOLDER;
-            entity['type'] = zulu;
-            zulu = tango.folderId;
-            entity['id'] = zulu;
-            zulu = argBar;
-            entity['parentId'] = zulu;
-            golf = tango.folderName;
-            zulu = null;
-            options = zulu != golf;
-            oscar = undefined;
-            if(!options) { _fun00020_ip = 63; continue _fun00019 }
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.FOLDER;
+            entity['type'] = zuuluu;
+            zuuluu = tangon.folderId;
+            entity['id'] = zuuluu;
+            zuuluu = argBar;
+            entity['parentId'] = zuuluu;
+            golfie = tangon.folderName;
+            zuuluu = null;
+            option = zuuluu != golfie;
+            oscard = undefined;
+            if(!option) { _fun00020_ip = 63; continue _fun00019 }
  60:
-            oscar = golf;
+            oscard = golfie;
  63:
-            entity['name'] = oscar;
-            oscar = tango.folderColor;
-            golf = zulu != oscar;
+            entity['name'] = oscard;
+            oscard = tangon.folderColor;
+            golfie = zuuluu != oscard;
             report = undefined;
-            if(!golf) { _fun00020_ip = 85; continue _fun00019 }
+            if(!golfie) { _fun00020_ip = 85; continue _fun00019 }
  82:
-            report = oscar;
+            report = oscard;
  85:
             entity['color'] = report;
-            if(!(zulu == mike)) { _fun00020_ip = 112; continue _fun00019 }
+            if(!(zuuluu == michal)) { _fun00020_ip = 112; continue _fun00019 }
  93:
-            tango = tango.expanded;
-            zulu = zulu != tango;
-            if(!zulu) { _fun00020_ip = 109; continue _fun00019 }
+            tangon = tangon.expanded;
+            zuuluu = zuuluu != tangon;
+            if(!zuuluu) { _fun00020_ip = 109; continue _fun00019 }
  106:
-            zulu = tango;
+            zuuluu = tangon;
  109:
-            mike = zulu;
+            michal = zuuluu;
  112:
-            entity['expanded'] = mike;
-            mike = new Array(0);
-            entity['children'] = mike;
+            entity['expanded'] = michal;
+            michal = new Array(0);
+            entity['children'] = michal;
             return entity;
         }
     };
-    zulu['createFolderNode'] = mike;
+    zuuluu['createFolderNode'] = michal;
     return entity;
 })();

@@ -1,83 +1,83 @@
 // app/modules/devtools/design_toggles/DesignTogglesActions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
-    tango = function(argFoo, argBar) { // Original name: toggle
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
+    tangon = function(argFoo, argBar) { // Original name: toggle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = argBar;
-            mike = 'boolean';
+            michal = 'boolean';
             entity = typeof report;
-            if(!(mike !== entity)) { _fun00002_ip = 37; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 37; continue _fun00001 }
  17:
-            mike = _closure1_slot2;
-            entity = mike.get;
-            entity = entity.bind(mike)(oscar);
+            michal = _closure1_slot2;
+            entity = michal.get;
+            entity = entity.bind(michal)(oscard);
             report = !entity;
  37:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            golf = 'DEV_TOOLS_DESIGN_TOGGLE_SET';
-            mike['type'] = golf;
-            mike['toggle'] = oscar;
-            mike['value'] = report;
-            mike = zulu.bind(tango)(mike);
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            golfie = 'DEV_TOOLS_DESIGN_TOGGLE_SET';
+            michal['type'] = golfie;
+            michal['toggle'] = oscard;
+            michal['value'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    var _closure1_slot3 = tango;
+    var _closure1_slot3 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    report = oscar[entity];
+    report = oscard[entity];
     entity = undefined;
-    report = golf.bind(entity)(report);
+    report = golfie.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 2;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/devtools/design_toggles/DesignTogglesActions.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['toggle'] = tango;
-    mike = function() { // Original name: clearAll
+    report = oscard.bind(golfie)(report);
+    zuuluu['toggle'] = tangon;
+    michal = function() { // Original name: clearAll
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = _closure1_slot2;
-            entity = mike.all;
-            golf = entity.bind(mike)();
+            michal = _closure1_slot2;
+            entity = michal.all;
+            golfie = entity.bind(michal)();
             entity = undefined;
-            mike = false;
-            for(zulu in golf)
+            michal = false;
+            for(zuuluu in golfie)
  29:
             {
  38:
-                offset = zulu;
+                offset = zuuluu;
                 verify = _closure1_slot3;
-                verify = verify.bind(entity)(offset, mike);
+                verify = verify.bind(entity)(offset, michal);
                 _fun00004_ip = 29; continue _fun00003;
             }
  53:
             return entity;
         }
     };
-    zulu['clearAll'] = mike;
+    zuuluu['clearAll'] = michal;
     return entity;
 })();

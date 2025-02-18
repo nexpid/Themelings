@@ -1,104 +1,104 @@
 // app/modules/messages/isSpam.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: isSpammer
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: isSpammer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            mike = tango.getUser;
+            tangon = _closure1_slot2;
+            michal = tangon.getUser;
             entity = argFoo;
-            report = mike.bind(tango)(entity);
+            report = michal.bind(tangon)(entity);
             entity = null;
-            tango = entity == report;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 53; continue _fun00001 }
+            tangon = entity == report;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 53; continue _fun00001 }
  32:
-            tango = report.hasFlag;
-            zulu = _closure1_slot3;
-            zulu = zulu.SPAMMER;
-            mike = tango.bind(report)(zulu);
+            tangon = report.hasFlag;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.SPAMMER;
+            michal = tangon.bind(report)(zuuluu);
  53:
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 63; continue _fun00001 }
  60:
-            entity = mike;
+            entity = michal;
  63:
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.UserFlags;
-    var _closure1_slot3 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.UserFlags;
+    var _closure1_slot3 = option;
     report = report.ChannelTypes;
     var _closure1_slot4 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/isSpam.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: isSpamSupported
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = undefined;
-            entity = entity !== mike;
+            entity = entity !== michal;
             if(!entity) { _fun00004_ip = 34; continue _fun00003 }
  12:
-            zulu = mike.type;
-            mike = _closure1_slot4;
-            mike = mike.DM;
-            entity = zulu !== mike;
+            zuuluu = michal.type;
+            michal = _closure1_slot4;
+            michal = michal.DM;
+            entity = zuuluu !== michal;
  34:
             return entity;
         }
     };
-    zulu['isSpamSupported'] = report;
-    zulu['isSpammer'] = tango;
-    mike = function(argFoo) { // Original name: isSpam
+    zuuluu['isSpamSupported'] = report;
+    zuuluu['isSpammer'] = tangon;
+    michal = function(argFoo) { // Original name: isSpam
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot5;
-            entity = tango.author;
+            tangon = argFoo;
+            zuuluu = _closure1_slot5;
+            entity = tangon.author;
             entity = entity.id;
             report = undefined;
-            entity = zulu.bind(report)(entity);
+            entity = zuuluu.bind(report)(entity);
             if(!entity) { _fun00006_ip = 65; continue _fun00005 }
  31:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 2;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.isAutomodMessageRecord;
-            mike = mike.bind(zulu)(tango);
-            entity = !mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 2;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.isAutomodMessageRecord;
+            michal = michal.bind(zuuluu)(tangon);
+            entity = !michal;
  65:
             return entity;
         }
     };
-    zulu['isSpam'] = mike;
+    zuuluu['isSpam'] = michal;
     return entity;
 })();

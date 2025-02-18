@@ -1,89 +1,89 @@
 // app/modules/reanimated/ReanimatedHelperTypes.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/reanimated/ReanimatedHelperTypes.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: createFakeSharedValue
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/reanimated/ReanimatedHelperTypes.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: createFakeSharedValue
         entity = {};
-        zulu = argFoo;
-        entity['value'] = zulu;
-        zulu = function() { // Original name: get
+        zuuluu = argFoo;
+        entity['value'] = zuuluu;
+        zuuluu = function() { // Original name: get
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'FakeSharedValue: You cannot get a value on fake shared value';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'FakeSharedValue: You cannot get a value on fake shared value';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['get'] = zulu;
-        zulu = function() { // Original name: set
+        entity['get'] = zuuluu;
+        zuuluu = function() { // Original name: set
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'FakeSharedValue: You cannot set a value on fake shared value';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'FakeSharedValue: You cannot set a value on fake shared value';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['set'] = zulu;
-        zulu = function() { // Original name: addListener
+        entity['set'] = zuuluu;
+        zuuluu = function() { // Original name: addListener
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'FakeSharedValue: You cannot add a listener to a fake shared value, please use a real one';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'FakeSharedValue: You cannot add a listener to a fake shared value, please use a real one';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['addListener'] = zulu;
-        zulu = function() { // Original name: removeListener
+        entity['addListener'] = zuuluu;
+        zuuluu = function() { // Original name: removeListener
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'FakeSharedValue: You cannot remove a listener to a fake shared value, please use a real one';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'FakeSharedValue: You cannot remove a listener to a fake shared value, please use a real one';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['removeListener'] = zulu;
-        mike = function() { // Original name: modify
+        entity['removeListener'] = zuuluu;
+        michal = function() { // Original name: modify
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'FakeSharedValue: You cannot modify a shared value, please use a real one';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'FakeSharedValue: You cannot modify a shared value, please use a real one';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['modify'] = mike;
+        entity['modify'] = michal;
         return entity;
     };
-    zulu['createFakeSharedValue'] = mike;
+    zuuluu['createFakeSharedValue'] = michal;
     return entity;
 })();

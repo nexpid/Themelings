@@ -1,74 +1,74 @@
 // app/modules/client_themes/native/useThemedHeaderOptions.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = {};
-    tango['headerBackground'] = entity;
-    tango['contentStyle'] = entity;
-    var _closure1_slot5 = tango;
-    tango = function() { // Original name: headerBackground
-        tango = _closure1_slot4;
-        mike = _closure1_slot1;
-        zulu = _closure1_slot2;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = {};
+    tangon['headerBackground'] = entity;
+    tangon['contentStyle'] = entity;
+    var _closure1_slot5 = tangon;
+    tangon = function() { // Original name: headerBackground
+        tangon = _closure1_slot4;
+        michal = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 2;
-        entity = zulu[entity];
-        zulu = undefined;
-        mike = mike.bind(zulu)(entity);
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        michal = michal.bind(zuuluu)(entity);
         entity = {'absolute': true, 'tall': true, 'wide': true};
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/client_themes/native/useThemedHeaderOptions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useThemedHeaderOptions
-        oscar = _closure1_slot1;
-        golf = _closure1_slot2;
-        zulu = 3;
-        zulu = golf[zulu];
-        tango = undefined;
-        zulu = oscar.bind(tango)(zulu);
-        report = zulu.bind(tango)();
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/client_themes/native/useThemedHeaderOptions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useThemedHeaderOptions
+        oscard = _closure1_slot1;
+        golfie = _closure1_slot2;
+        zuuluu = 3;
+        zuuluu = golfie[zuuluu];
+        tangon = undefined;
+        zuuluu = oscard.bind(tangon)(zuuluu);
+        report = zuuluu.bind(tangon)();
         var _closure2_slot0 = report;
-        zulu = 4;
-        zulu = golf[zulu];
-        zulu = oscar.bind(tango)(zulu);
-        zulu = zulu.bind(tango)();
-        oscar = zulu.top;
-        var _closure2_slot1 = oscar;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        zuuluu = 4;
+        zuuluu = golfie[zuuluu];
+        zuuluu = oscard.bind(tangon)(zuuluu);
+        zuuluu = zuuluu.bind(tangon)();
+        oscard = zuuluu.top;
+        var _closure2_slot1 = oscard;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -79,36 +79,36 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 return entity;
  19:
                 report = _closure1_slot0;
-                tango = _closure1_slot2;
+                tangon = _closure1_slot2;
                 entity = 5;
-                tango = tango[entity];
-                oscar = undefined;
-                report = report.bind(oscar)(tango);
-                tango = report.isIOS;
-                tango = tango.bind(report)();
-                if(tango) { _fun00002_ip = 82; continue _fun00001 }
+                tangon = tangon[entity];
+                oscard = undefined;
+                report = report.bind(oscard)(tangon);
+                tangon = report.isIOS;
+                tangon = tangon.bind(report)();
+                if(tangon) { _fun00002_ip = 82; continue _fun00001 }
  54:
-                tango = {};
+                tangon = {};
                 report = _closure1_slot6;
-                tango['headerBackground'] = report;
+                tangon['headerBackground'] = report;
                 report = _closure1_slot5;
                 report = report.contentStyle;
-                tango['contentStyle'] = report;
-                return tango;
+                tangon['contentStyle'] = report;
+                return tangon;
  82:
                 report = _closure2_slot1;
-                tango = 50;
-                report = report > tango;
-                tango = 0;
+                tangon = 50;
+                report = report > tangon;
+                tangon = 0;
                 if(!report) { _fun00002_ip = 101; continue _fun00001 }
  98:
-                tango = entity;
+                tangon = entity;
  101:
                 report = _closure1_slot0;
-                golf = _closure1_slot2;
+                golfie = _closure1_slot2;
                 entity = 6;
-                entity = golf[entity];
-                report = report.bind(oscar)(entity);
+                entity = golfie[entity];
+                report = report.bind(oscard)(entity);
                 entity = report.isIpadOS;
                 entity = entity.bind(report)();
                 report = 44;
@@ -117,23 +117,23 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 report = 46;
  140:
                 entity = {};
-                mike = _closure1_slot6;
-                entity['headerBackground'] = mike;
-                mike = {};
-                zulu = _closure2_slot1;
-                zulu = -zulu;
-                tango = zulu + tango;
-                zulu = 56;
-                zulu = zulu - report;
-                zulu = tango + zulu;
-                mike['marginTop'] = zulu;
-                entity['contentStyle'] = mike;
+                michal = _closure1_slot6;
+                entity['headerBackground'] = michal;
+                michal = {};
+                zuuluu = _closure2_slot1;
+                zuuluu = -zuuluu;
+                tangon = zuuluu + tangon;
+                zuuluu = 56;
+                zuuluu = zuuluu - report;
+                zuuluu = tangon + zuuluu;
+                michal['marginTop'] = zuuluu;
+                entity['contentStyle'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

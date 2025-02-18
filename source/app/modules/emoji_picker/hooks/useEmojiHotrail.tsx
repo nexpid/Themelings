@@ -1,78 +1,78 @@
 // app/modules/emoji_picker/hooks/useEmojiHotrail.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    mike = function(argFoo) { // Original name: getEmojiHotrail
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    michal = function(argFoo) { // Original name: getEmojiHotrail
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.topEmojis;
-            tango = entity.newlyAddedEmojis;
-            mike = entity.rowSize;
+            tangon = entity.newlyAddedEmojis;
+            michal = entity.rowSize;
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 34; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 34; continue _fun00001 }
  27:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
  34:
-            zulu = report.slice;
-            entity = tango.length;
-            mike = mike - entity;
+            zuuluu = report.slice;
+            entity = tangon.length;
+            michal = michal - entity;
             entity = 0;
-            zulu = zulu.bind(report)(entity, mike);
+            zuuluu = zuuluu.bind(report)(entity, michal);
             entity = {};
-            entity['visibleTopEmojis'] = zulu;
-            entity['visibleNewlyAddedEmojis'] = tango;
-            mike = zulu.concat;
-            mike = mike.bind(zulu)(tango);
-            entity['allEmojis'] = mike;
+            entity['visibleTopEmojis'] = zuuluu;
+            entity['visibleNewlyAddedEmojis'] = tangon;
+            michal = zuuluu.concat;
+            michal = michal.bind(zuuluu)(tangon);
+            entity['allEmojis'] = michal;
             return entity;
         }
     };
-    var _closure1_slot2 = mike;
+    var _closure1_slot2 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot0 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.EMOJI_ROW_SIZE;
     var _closure1_slot1 = report;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/emoji_picker/hooks/useEmojiHotrail.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useEmojiHotrail
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useEmojiHotrail
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            zulu = _closure1_slot2;
-            mike = _closure2_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure2_slot0;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['getEmojiHotrail'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getEmojiHotrail'] = michal;
     return entity;
 })();

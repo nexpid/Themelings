@@ -1,75 +1,75 @@
 // app/modules/coded_links/codedLinkQueue.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    options = tango.Logger;
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'codedLinkQueue';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    options = tango.bind(entity)(golf);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    verify = tango instanceof Object ? tango : golf;
+    tangon = report.bind(entity)(tangon);
+    option = tangon.Logger;
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'codedLinkQueue';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    option = tangon.bind(entity)(golfie);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    verify = tangon instanceof Object ? tangon : golfie;
     var _closure1_slot1 = verify;
-    options = verify.on;
-    golf = 'add';
-    tango = function() {
+    option = verify.on;
+    golfie = 'add';
+    tangon = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot1;
-            zulu = mike.size;
-            mike = 0;
-            if(!(zulu > mike)) { _fun00002_ip = 48; continue _fun00001 }
+            michal = _closure1_slot1;
+            zuuluu = michal.size;
+            michal = 0;
+            if(!(zuuluu > michal)) { _fun00002_ip = 48; continue _fun00001 }
  18:
-            tango = _closure1_slot0;
-            zulu = tango.warn;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.warn;
             entity = _closure1_slot1;
-            mike = entity.size;
+            michal = entity.size;
             entity = 'Message link fetch queue backlog:';
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
  48:
             entity = undefined;
             return entity;
         }
     };
-    tango = options.bind(verify)(golf, tango);
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/coded_links/codedLinkQueue.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: queueMessageLinkFetch
-        zulu = _closure1_slot1;
-        mike = zulu.add;
+    tangon = option.bind(verify)(golfie, tangon);
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/coded_links/codedLinkQueue.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: queueMessageLinkFetch
+        zuuluu = _closure1_slot1;
+        michal = zuuluu.add;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         entity = undefined;
         return entity;
     };
-    zulu['queueMessageLinkFetch'] = mike;
+    zuuluu['queueMessageLinkFetch'] = michal;
     return entity;
 })();

@@ -1,68 +1,68 @@
 // app/modules/user_settings/DefultGuildsRestrictedSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/DefultGuildsRestrictedSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/DefultGuildsRestrictedSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             entity = 0;
-            mike = oscar[entity];
-            zulu = undefined;
-            mike = report.bind(zulu)(mike);
-            tango = mike.DefaultGuildsRestricted;
-            mike = tango.useSetting;
-            tango = mike.bind(tango)();
-            entity = oscar[entity];
-            entity = report.bind(zulu)(entity);
-            mike = entity.DefaultGuildsRestrictedV2;
-            entity = mike.useSetting;
-            entity = entity.bind(mike)();
-            mike = 1;
-            mike = oscar[mike];
-            report = report.bind(zulu)(mike);
-            zulu = report.useIsEligibleForDMDefaultOff;
-            mike = 'useDefaultGuildsRestricted';
-            zulu = zulu.bind(report)(mike);
-            mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 125; continue _fun00001 }
+            michal = oscard[entity];
+            zuuluu = undefined;
+            michal = report.bind(zuuluu)(michal);
+            tangon = michal.DefaultGuildsRestricted;
+            michal = tangon.useSetting;
+            tangon = michal.bind(tangon)();
+            entity = oscard[entity];
+            entity = report.bind(zuuluu)(entity);
+            michal = entity.DefaultGuildsRestrictedV2;
+            entity = michal.useSetting;
+            entity = entity.bind(michal)();
+            michal = 1;
+            michal = oscard[michal];
+            report = report.bind(zuuluu)(michal);
+            zuuluu = report.useIsEligibleForDMDefaultOff;
+            michal = 'useDefaultGuildsRestricted';
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = null;
+            if(!(michal == entity)) { _fun00002_ip = 125; continue _fun00001 }
  98:
-            report = !tango;
-            mike = !report;
+            report = !tangon;
+            michal = !report;
             if(!report) { _fun00002_ip = 122; continue _fun00001 }
  107:
-            report = !zulu;
-            zulu = !report;
+            report = !zuuluu;
+            zuuluu = !report;
             if(!report) { _fun00002_ip = 119; continue _fun00001 }
  116:
-            zulu = tango;
+            zuuluu = tangon;
  119:
-            mike = zulu;
+            michal = zuuluu;
  122:
-            entity = mike;
+            entity = michal;
  125:
             return entity;
         }
     };
-    zulu['useDefaultGuildsRestricted'] = mike;
+    zuuluu['useDefaultGuildsRestricted'] = michal;
     return entity;
 })();

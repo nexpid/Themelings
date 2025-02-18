@@ -1,24 +1,24 @@
 // app/modules/go_live/utils/getStreamError.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: getWarningFrameRate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[0];
+            michal = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 12; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 12; continue _fun00001 }
  9:
-            mike = 30;
+            michal = 30;
  12:
             entity = 5;
-            if(!(!(mike <= entity))) { _fun00002_ip = 44; continue _fun00001 }
+            if(!(!(michal <= entity))) { _fun00002_ip = 44; continue _fun00001 }
  19:
             entity = 15;
-            if(!(!(mike <= entity))) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(!(michal <= entity))) { _fun00002_ip = 35; continue _fun00001 }
  26:
             entity = _closure1_slot3;
             _fun00002_ip = 42; continue _fun00001;
@@ -36,111 +36,111 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = function(argFoo, argBar) { // Original name: getAverage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
-            mike = {'packetsSentOrReceived': 0, 'packetsLost': 0, 'packetLossRate': 0, 'frameRate': 0, 'resolution': 0, 'numDatapoints': 0};
-            zulu = 0;
-            var _closure2_slot0 = mike;
-            report = oscar.slice;
-            golf = -1;
+            oscard = argFoo;
+            michal = {'packetsSentOrReceived': 0, 'packetsLost': 0, 'packetLossRate': 0, 'frameRate': 0, 'resolution': 0, 'numDatapoints': 0};
+            zuuluu = 0;
+            var _closure2_slot0 = michal;
+            report = oscard.slice;
+            golfie = -1;
             entity = argBar;
-            entity = golf * entity;
-            oscar = report.bind(oscar)(entity);
-            report = oscar.filter;
-            options = _closure1_slot0;
-            golf = _closure1_slot1;
+            entity = golfie * entity;
+            oscard = report.bind(oscard)(entity);
+            report = oscard.filter;
+            option = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 1;
-            golf = golf[entity];
+            golfie = golfie[entity];
             entity = undefined;
-            entity = options.bind(entity)(golf);
+            entity = option.bind(entity)(golfie);
             entity = entity.isNotNullish;
-            entity = report.bind(oscar)(entity);
+            entity = report.bind(oscard)(entity);
             report = entity.length;
-            if(!(zulu !== report)) { _fun00004_ip = 226; continue _fun00003 }
+            if(!(zuuluu !== report)) { _fun00004_ip = 226; continue _fun00003 }
  101:
             report = entity.forEach;
-            tango = function(argFoo, argBar, argBaz) {
+            tangon = function(argFoo, argBar, argBaz) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     verify = argBar;
-                    options = argBaz;
-                    tango = _closure2_slot0;
-                    oscar = tango.packetsSentOrReceived;
+                    option = argBaz;
+                    tangon = _closure2_slot0;
+                    oscard = tangon.packetsSentOrReceived;
                     report = 0;
-                    golf = verify > report;
-                    zulu = 0;
-                    if(!golf) { _fun00006_ip = 64; continue _fun00005 }
+                    golfie = verify > report;
+                    zuuluu = 0;
+                    if(!golfie) { _fun00006_ip = 64; continue _fun00005 }
  33:
-                    golf = options[verify];
-                    offset = golf.packetsSentOrReceived;
-                    golf = 1;
-                    golf = verify - golf;
-                    golf = options[golf];
-                    golf = golf.packetsSentOrReceived;
-                    zulu = offset - golf;
+                    golfie = option[verify];
+                    offset = golfie.packetsSentOrReceived;
+                    golfie = 1;
+                    golfie = verify - golfie;
+                    golfie = option[golfie];
+                    golfie = golfie.packetsSentOrReceived;
+                    zuuluu = offset - golfie;
  64:
-                    zulu = oscar + zulu;
-                    tango['packetsSentOrReceived'] = zulu;
-                    tango = _closure2_slot0;
-                    zulu = tango.packetsLost;
-                    oscar = verify > report;
+                    zuuluu = oscard + zuuluu;
+                    tangon['packetsSentOrReceived'] = zuuluu;
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.packetsLost;
+                    oscard = verify > report;
                     report = 0;
-                    if(!oscar) { _fun00006_ip = 124; continue _fun00005 }
+                    if(!oscard) { _fun00006_ip = 124; continue _fun00005 }
  93:
-                    oscar = options[verify];
-                    golf = oscar.packetsLost;
-                    oscar = 1;
-                    oscar = verify - oscar;
-                    oscar = options[oscar];
-                    oscar = oscar.packetsLost;
-                    report = golf - oscar;
+                    oscard = option[verify];
+                    golfie = oscard.packetsLost;
+                    oscard = 1;
+                    oscard = verify - oscard;
+                    oscard = option[oscard];
+                    oscard = oscard.packetsLost;
+                    report = golfie - oscard;
  124:
-                    zulu = zulu + report;
-                    tango['packetsLost'] = zulu;
-                    mike = _closure2_slot0;
-                    tango = mike.frameRate;
-                    zulu = entity.frameRate;
-                    zulu = tango + zulu;
-                    mike['frameRate'] = zulu;
-                    zulu = mike.resolution;
+                    zuuluu = zuuluu + report;
+                    tangon['packetsLost'] = zuuluu;
+                    michal = _closure2_slot0;
+                    tangon = michal.frameRate;
+                    zuuluu = entity.frameRate;
+                    zuuluu = tangon + zuuluu;
+                    michal['frameRate'] = zuuluu;
+                    zuuluu = michal.resolution;
                     entity = entity.resolution;
-                    entity = zulu + entity;
-                    mike['resolution'] = entity;
+                    entity = zuuluu + entity;
+                    michal['resolution'] = entity;
                     entity = undefined;
                     return entity;
                 }
             };
-            tango = report.bind(entity)(tango);
-            zulu = entity[zulu];
-            tango = zulu.type;
-            zulu = entity.length;
+            tangon = report.bind(entity)(tangon);
+            zuuluu = entity[zuuluu];
+            tangon = zuuluu.type;
+            zuuluu = entity.length;
             entity = {};
-            entity['type'] = tango;
-            tango = mike.packetsSentOrReceived;
-            entity['packetsSentOrReceived'] = tango;
-            tango = mike.packetsLost;
-            entity['packetsLost'] = tango;
-            report = mike.packetsLost;
-            oscar = mike.packetsLost;
-            tango = mike.packetsSentOrReceived;
-            tango = oscar + tango;
-            tango = report / tango;
-            entity['packetLossRate'] = tango;
-            tango = mike.frameRate;
-            tango = tango / zulu;
-            entity['frameRate'] = tango;
-            tango = mike.resolution;
-            tango = tango / zulu;
-            entity['resolution'] = tango;
-            entity['numDatapoints'] = zulu;
+            entity['type'] = tangon;
+            tangon = michal.packetsSentOrReceived;
+            entity['packetsSentOrReceived'] = tangon;
+            tangon = michal.packetsLost;
+            entity['packetsLost'] = tangon;
+            report = michal.packetsLost;
+            oscard = michal.packetsLost;
+            tangon = michal.packetsSentOrReceived;
+            tangon = oscard + tangon;
+            tangon = report / tangon;
+            entity['packetLossRate'] = tangon;
+            tangon = michal.frameRate;
+            tangon = tangon / zuuluu;
+            entity['frameRate'] = tangon;
+            tangon = michal.resolution;
+            tangon = tangon / zuuluu;
+            entity['resolution'] = tangon;
+            entity['numDatapoints'] = zuuluu;
             return entity;
  226:
             entity = {};
-            zulu = 'streamer';
-            entity['type'] = zulu;
+            zuuluu = 'streamer';
+            entity['type'] = zuuluu;
             offset = entity;
-            verify = mike;
-            mike = copyDataProperties(offset, verify);
+            verify = michal;
+            michal = copyDataProperties(offset, verify);
             return entity;
         }
     };
@@ -148,187 +148,187 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = function(argFoo, argBar) { // Original name: getPerfErrorFromStats
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            tango = argBar;
-            zulu = mike.type;
+            michal = argFoo;
+            tangon = argBar;
+            zuuluu = michal.type;
             entity = 'streamer';
-            if(!(entity !== zulu)) { _fun00008_ip = 228; continue _fun00007 }
+            if(!(entity !== zuuluu)) { _fun00008_ip = 228; continue _fun00007 }
  24:
-            zulu = mike.packetLossRate;
+            zuuluu = michal.packetLossRate;
             entity = 100;
-            report = entity * zulu;
-            zulu = _closure1_slot6;
-            if(!(!(report > zulu))) { _fun00008_ip = 149; continue _fun00007 }
+            report = entity * zuuluu;
+            zuuluu = _closure1_slot6;
+            if(!(!(report > zuuluu))) { _fun00008_ip = 149; continue _fun00007 }
  48:
-            report = mike.frameRate;
-            zulu = _closure1_slot9;
-            golf = undefined;
-            zulu = zulu.bind(golf)(tango);
-            if(!(report <= zulu)) { _fun00008_ip = 273; continue _fun00007 }
+            report = michal.frameRate;
+            zuuluu = _closure1_slot9;
+            golfie = undefined;
+            zuuluu = zuuluu.bind(golfie)(tangon);
+            if(!(report <= zuuluu)) { _fun00008_ip = 273; continue _fun00007 }
  72:
-            oscar = _closure1_slot8;
+            oscard = _closure1_slot8;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            zulu = 3;
-            report = offset[zulu];
-            report = verify.bind(golf)(report);
-            options = report.intl;
-            report = options.string;
-            zulu = offset[zulu];
-            zulu = verify.bind(golf)(zulu);
-            zulu = zulu.t;
-            zulu = zulu.BcOif3;
-            report = report.bind(options)(zulu);
-            zulu = _closure1_slot7;
-            zulu = zulu.FRAME_RATE_NETWORK;
-            zulu = oscar.bind(golf)(report, zulu);
-            return zulu;
+            zuuluu = 3;
+            report = offset[zuuluu];
+            report = verify.bind(golfie)(report);
+            option = report.intl;
+            report = option.string;
+            zuuluu = offset[zuuluu];
+            zuuluu = verify.bind(golfie)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.BcOif3;
+            report = report.bind(option)(zuuluu);
+            zuuluu = _closure1_slot7;
+            zuuluu = zuuluu.FRAME_RATE_NETWORK;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            return zuuluu;
  149:
-            oscar = _closure1_slot8;
+            oscard = _closure1_slot8;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            zulu = 3;
-            golf = offset[zulu];
+            zuuluu = 3;
+            golfie = offset[zuuluu];
             report = undefined;
-            golf = verify.bind(report)(golf);
-            options = golf.intl;
-            golf = options.string;
-            zulu = offset[zulu];
-            zulu = verify.bind(report)(zulu);
-            zulu = zulu.t;
-            zulu = zulu.BcOif3;
-            zulu = golf.bind(options)(zulu);
+            golfie = verify.bind(report)(golfie);
+            option = golfie.intl;
+            golfie = option.string;
+            zuuluu = offset[zuuluu];
+            zuuluu = verify.bind(report)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.BcOif3;
+            zuuluu = golfie.bind(option)(zuuluu);
             entity = _closure1_slot7;
             entity = entity.PACKET_LOSS;
-            entity = oscar.bind(report)(zulu, entity);
+            entity = oscard.bind(report)(zuuluu, entity);
             return entity;
  228:
-            zulu = mike.packetLossRate;
+            zuuluu = michal.packetLossRate;
             entity = 100;
-            report = entity * zulu;
-            zulu = _closure1_slot6;
-            if(!(!(report > zulu))) { _fun00008_ip = 354; continue _fun00007 }
+            report = entity * zuuluu;
+            zuuluu = _closure1_slot6;
+            if(!(!(report > zuuluu))) { _fun00008_ip = 354; continue _fun00007 }
  252:
-            zulu = mike.frameRate;
-            mike = _closure1_slot9;
+            zuuluu = michal.frameRate;
+            michal = _closure1_slot9;
             report = undefined;
-            mike = mike.bind(report)(tango);
-            if(!(!(zulu <= mike))) { _fun00008_ip = 277; continue _fun00007 }
+            michal = michal.bind(report)(tangon);
+            if(!(!(zuuluu <= michal))) { _fun00008_ip = 277; continue _fun00007 }
  273:
-            mike = null;
-            return mike;
+            michal = null;
+            return michal;
  277:
-            tango = _closure1_slot8;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 3;
-            zulu = options[mike];
-            zulu = golf.bind(report)(zulu);
-            oscar = zulu.intl;
-            zulu = oscar.string;
-            mike = options[mike];
-            mike = golf.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.1f1LHh;
-            zulu = zulu.bind(oscar)(mike);
-            mike = _closure1_slot7;
-            mike = mike.FRAME_RATE_INPUT;
-            mike = tango.bind(report)(zulu, mike);
-            return mike;
+            tangon = _closure1_slot8;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 3;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            oscard = zuuluu.intl;
+            zuuluu = oscard.string;
+            michal = option[michal];
+            michal = golfie.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.1f1LHh;
+            zuuluu = zuuluu.bind(oscard)(michal);
+            michal = _closure1_slot7;
+            michal = michal.FRAME_RATE_INPUT;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return michal;
  354:
-            tango = _closure1_slot8;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 3;
-            report = options[mike];
-            zulu = undefined;
-            report = golf.bind(zulu)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            mike = mike.1f1LHh;
-            mike = report.bind(oscar)(mike);
+            tangon = _closure1_slot8;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 3;
+            report = option[michal];
+            zuuluu = undefined;
+            report = golfie.bind(zuuluu)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            michal = michal.1f1LHh;
+            michal = report.bind(oscard)(michal);
             entity = _closure1_slot7;
             entity = entity.PACKET_LOSS;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         }
     };
     var _closure1_slot11 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.RTCConnectionQuality;
-    var _closure1_slot2 = tango;
-    tango = 15;
-    var _closure1_slot3 = tango;
-    tango = 10;
-    var _closure1_slot4 = tango;
-    golf = 3;
-    var _closure1_slot5 = golf;
-    var _closure1_slot6 = tango;
-    tango = {};
-    golf = 'Packet Loss';
-    tango['PACKET_LOSS'] = golf;
-    golf = 'Frame Rate Encode';
-    tango['FRAME_RATE_INPUT'] = golf;
-    golf = 'Frame Rate Decode';
-    tango['FRAME_RATE_NETWORK'] = golf;
-    golf = 'Soundshare Failed';
-    tango['SOUNDSHARE_FAILED'] = golf;
-    golf = 'Bad Connection';
-    tango['BAD_CONNECTION'] = golf;
-    var _closure1_slot7 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.cachedFunction;
-    tango = function(argFoo, argBar) {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RTCConnectionQuality;
+    var _closure1_slot2 = tangon;
+    tangon = 15;
+    var _closure1_slot3 = tangon;
+    tangon = 10;
+    var _closure1_slot4 = tangon;
+    golfie = 3;
+    var _closure1_slot5 = golfie;
+    var _closure1_slot6 = tangon;
+    tangon = {};
+    golfie = 'Packet Loss';
+    tangon['PACKET_LOSS'] = golfie;
+    golfie = 'Frame Rate Encode';
+    tangon['FRAME_RATE_INPUT'] = golfie;
+    golfie = 'Frame Rate Decode';
+    tangon['FRAME_RATE_NETWORK'] = golfie;
+    golfie = 'Soundshare Failed';
+    tangon['SOUNDSHARE_FAILED'] = golfie;
+    golfie = 'Bad Connection';
+    tangon['BAD_CONNECTION'] = golfie;
+    var _closure1_slot7 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.cachedFunction;
+    tangon = function(argFoo, argBar) {
         entity = {};
-        mike = argFoo;
-        entity['message'] = mike;
-        mike = argBar;
-        entity['errorType'] = mike;
+        michal = argFoo;
+        entity['message'] = michal;
+        michal = argBar;
+        entity['errorType'] = michal;
         return entity;
     };
-    tango = golf.bind(options)(tango);
-    var _closure1_slot8 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/go_live/utils/getStreamError.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getStreamError
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot8 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/go_live/utils/getStreamError.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: getStreamError
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             verify = argBar;
-            oscar = argCorge;
+            oscard = argCor;
             entity = argBaz;
             if(entity) { _fun00010_ip = 217; continue _fun00009 }
  15:
-            mike = null;
-            if(!(mike != verify)) { _fun00010_ip = 58; continue _fun00009 }
+            michal = null;
+            if(!(michal != verify)) { _fun00010_ip = 58; continue _fun00009 }
  21:
-            tango = _closure1_slot10;
+            tangon = _closure1_slot10;
             report = undefined;
-            golf = 5;
-            options = tango.bind(report)(verify, golf);
+            golfie = 5;
+            option = tangon.bind(report)(verify, golfie);
             entity = 30;
-            tango = tango.bind(report)(verify, entity);
-            entity = tango.numDatapoints;
-            if(!(!(entity >= golf))) { _fun00010_ip = 161; continue _fun00009 }
+            tangon = tangon.bind(report)(verify, entity);
+            entity = tangon.numDatapoints;
+            if(!(!(entity >= golfie))) { _fun00010_ip = 161; continue _fun00009 }
  58:
             entity = _closure1_slot2;
             offset = entity.BAD;
@@ -338,65 +338,65 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  80:
             yankee = _closure1_slot8;
             backup = _closure1_slot0;
-            kilo = _closure1_slot1;
+            kiloes = _closure1_slot1;
             verify = 3;
-            romeo = kilo[verify];
+            romeon = kiloes[verify];
             offset = undefined;
-            romeo = backup.bind(offset)(romeo);
-            foxtrot = romeo.intl;
-            romeo = foxtrot.string;
-            verify = kilo[verify];
+            romeon = backup.bind(offset)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.string;
+            verify = kiloes[verify];
             verify = backup.bind(offset)(verify);
             verify = verify.t;
             verify = verify.Ic588P;
-            verify = romeo.bind(foxtrot)(verify);
-            golf = _closure1_slot7;
-            golf = golf.BAD_CONNECTION;
-            entity = yankee.bind(offset)(verify, golf);
+            verify = romeon.bind(foxtra)(verify);
+            golfie = _closure1_slot7;
+            golfie = golfie.BAD_CONNECTION;
+            entity = yankee.bind(offset)(verify, golfie);
  159:
             return entity;
  161:
-            golf = _closure1_slot11;
-            verify = mike == oscar;
+            golfie = _closure1_slot11;
+            verify = michal == oscard;
             entity = undefined;
             if(verify) { _fun00010_ip = 180; continue _fun00009 }
  174:
-            entity = oscar.maxFrameRate;
+            entity = oscard.maxFrameRate;
  180:
-            entity = golf.bind(report)(options, entity);
-            if(!(mike == entity)) { _fun00010_ip = 215; continue _fun00009 }
+            entity = golfie.bind(report)(option, entity);
+            if(!(michal == entity)) { _fun00010_ip = 215; continue _fun00009 }
  190:
-            zulu = _closure1_slot11;
-            golf = mike == oscar;
-            mike = undefined;
-            if(golf) { _fun00010_ip = 209; continue _fun00009 }
+            zuuluu = _closure1_slot11;
+            golfie = michal == oscard;
+            michal = undefined;
+            if(golfie) { _fun00010_ip = 209; continue _fun00009 }
  203:
-            mike = oscar.maxFrameRate;
+            michal = oscard.maxFrameRate;
  209:
-            entity = zulu.bind(report)(tango, mike);
+            entity = zuuluu.bind(report)(tangon, michal);
  215:
             return entity;
  217:
-            tango = _closure1_slot8;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 3;
-            report = options[mike];
-            zulu = undefined;
-            report = golf.bind(zulu)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            mike = mike.9lcycn;
-            mike = report.bind(oscar)(mike);
+            tangon = _closure1_slot8;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 3;
+            report = option[michal];
+            zuuluu = undefined;
+            report = golfie.bind(zuuluu)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            michal = michal.9lcycn;
+            michal = report.bind(oscard)(michal);
             entity = _closure1_slot7;
             entity = entity.SOUNDSHARE_FAILED;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

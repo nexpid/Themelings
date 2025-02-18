@@ -1,56 +1,56 @@
 // app/modules/remixing/native/hooks/useTransforms.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/remixing/native/hooks/useTransforms.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: _default
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/remixing/native/hooks/useTransforms.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = argBar;
+            zuuluu = argFoo;
+            michal = argBar;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             entity = 0;
-            tango = tango[entity];
+            tangon = tangon[entity];
             entity = undefined;
-            report = report.bind(entity)(tango);
-            tango = report.useSharedValue;
+            report = report.bind(entity)(tangon);
+            tangon = report.useSharedValue;
             entity = argBaz;
-            entity = tango.bind(report)(entity);
-            report = mike[zulu];
-            tango = null;
-            tango = tango != report;
-            if(tango) { _fun00002_ip = 75; continue _fun00001 }
+            entity = tangon.bind(report)(entity);
+            report = michal[zuuluu];
+            tangon = null;
+            tangon = tangon != report;
+            if(tangon) { _fun00002_ip = 75; continue _fun00001 }
  56:
             report = global;
-            oscar = report.Object;
-            report = oscar.isFrozen;
-            tango = report.bind(oscar)(mike);
+            oscard = report.Object;
+            report = oscard.isFrozen;
+            tangon = report.bind(oscard)(michal);
  75:
-            if(tango) { _fun00002_ip = 82; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 82; continue _fun00001 }
  78:
-            mike[zulu] = entity;
+            michal[zuuluu] = entity;
  82:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,54 +1,54 @@
 // app/modules/messages/native/renderer/context/ForcedThemeContext.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = argPlugh;
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    report = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    report = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(golf)(zulu, entity, tango);
+    entity = report.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    report = oscar[entity];
-    tango = argCorge;
+    report = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    golf = tango.bind(entity)(report);
-    var _closure1_slot0 = golf;
-    tango = 1;
-    report = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot1 = tango;
-    report = golf.createContext;
-    tango = null;
-    tango = report.bind(golf)(tango);
-    var _closure1_slot2 = tango;
+    golfie = tangon.bind(entity)(report);
+    var _closure1_slot0 = golfie;
+    tangon = 1;
+    report = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot1 = tangon;
+    report = golfie.createContext;
+    tangon = null;
+    tangon = report.bind(golfie)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/native/renderer/context/ForcedThemeContext.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function() { // Original name: useMessageRendererTheme
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: useMessageRendererTheme
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = tango.useContext;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useContext;
             entity = _closure1_slot2;
-            entity = zulu.bind(tango)(entity);
-            zulu = null;
-            if(!(zulu == entity)) { _fun00002_ip = 38; continue _fun00001 }
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00002_ip = 38; continue _fun00001 }
  28:
-            mike = _closure1_slot1;
-            entity = mike.theme;
+            michal = _closure1_slot1;
+            entity = michal.theme;
  38:
             return entity;
         }
     };
-    zulu['useMessageRendererTheme'] = mike;
+    zuuluu['useMessageRendererTheme'] = michal;
     return entity;
 })();

@@ -1,36 +1,36 @@
 // app/modules/device/getDeviceMetadata.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/device/getDeviceMetadata.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getDeviceMetadata
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/device/getDeviceMetadata.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getDeviceMetadata
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.getDeviceMetadata;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.getDeviceMetadata;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

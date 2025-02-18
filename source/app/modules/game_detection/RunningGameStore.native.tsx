@@ -1,39 +1,39 @@
 // app/modules/game_detection/RunningGameStore.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    tango = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    tangon = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot3;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot3;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot2;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot2;
             entity = _closure1_slot6;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot3;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -42,93 +42,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot6 = mike;
+            _closure1_slot6 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot6 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     entity = undefined;
-    oscar = tango.bind(entity)(oscar);
-    var _closure1_slot0 = oscar;
-    oscar = 1;
-    oscar = report[oscar];
-    oscar = tango.bind(entity)(oscar);
-    var _closure1_slot1 = oscar;
-    oscar = 2;
-    oscar = report[oscar];
-    oscar = tango.bind(entity)(oscar);
-    var _closure1_slot2 = oscar;
-    oscar = 3;
-    oscar = report[oscar];
-    oscar = tango.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 4;
-    oscar = report[oscar];
-    oscar = tango.bind(entity)(oscar);
-    var _closure1_slot4 = oscar;
-    oscar = 5;
-    oscar = report[oscar];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.Store;
-    mike = function(argFoo) {
-        tango = function() { // Original name: RunningGameStore
+    oscard = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = oscard;
+    oscard = 1;
+    oscard = report[oscard];
+    oscard = tangon.bind(entity)(oscard);
+    var _closure1_slot1 = oscard;
+    oscard = 2;
+    oscard = report[oscard];
+    oscard = tangon.bind(entity)(oscard);
+    var _closure1_slot2 = oscard;
+    oscard = 3;
+    oscard = report[oscard];
+    oscard = tangon.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 4;
+    oscard = report[oscard];
+    oscard = tangon.bind(entity)(oscard);
+    var _closure1_slot4 = oscard;
+    oscard = 5;
+    oscard = report[oscard];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.Store;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: RunningGameStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot0;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot5;
+            oscard = _closure1_slot0;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot5;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot4;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot1;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot1;
         report = {};
         entity = 'initialize';
         report['key'] = entity;
@@ -140,234 +140,234 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(24);
         entity[0] = report;
         report = {};
-        golf = 'getVisibleGame';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVisibleGame';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'getCurrentGameForAnalytics';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getCurrentGameForAnalytics';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'getVisibleRunningGames';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVisibleRunningGames';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'getRunningGames';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getRunningGames';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'getRunningDiscordApplicationIds';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getRunningDiscordApplicationIds';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'getRunningVerifiedApplicationIds';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getRunningVerifiedApplicationIds';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'getGameForPID';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getGameForPID';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[7] = report;
         report = {};
-        golf = 'getLauncherForPID';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getLauncherForPID';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[8] = report;
         report = {};
-        golf = 'getOverlayOptionsForPID';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getOverlayOptionsForPID';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[9] = report;
         report = {};
-        golf = 'shouldElevateProcessForPID';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'shouldElevateProcessForPID';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[10] = report;
         report = {};
-        golf = 'shouldContinueWithoutElevatedProcessForPID';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'shouldContinueWithoutElevatedProcessForPID';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[11] = report;
         report = {};
-        golf = 'getCandidateGames';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getCandidateGames';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[12] = report;
         report = {};
-        golf = 'getGamesSeen';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getGamesSeen';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[13] = report;
         report = {};
-        golf = 'getSeenGameByName';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getSeenGameByName';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golf = 'isObservedAppRunning';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'isObservedAppRunning';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[15] = report;
         report = {};
-        golf = 'getOverlayEnabledForGame';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getOverlayEnabledForGame';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[16] = report;
         report = {};
-        golf = 'getOverrides';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getOverrides';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = new Array(0);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[17] = report;
         report = {};
-        golf = 'getOverrideForGame';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getOverrideForGame';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[18] = report;
         report = {};
-        golf = 'getGameOverlayStatus';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getGameOverlayStatus';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[19] = report;
         report = {};
-        golf = 'getObservedAppNameForWindow';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getObservedAppNameForWindow';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = null;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[20] = report;
         report = {};
-        golf = 'canShowAdminWarning';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'canShowAdminWarning';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = false;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[21] = report;
         report = {};
-        golf = 'isDetectionEnabled';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'isDetectionEnabled';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[22] = report;
         report = {};
-        golf = 'addExecutableTrackedByAnalytics';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'addExecutableTrackedByAnalytics';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[23] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    golf = mike.bind(entity)(oscar);
-    mike = 'RunningGameStore';
-    golf['displayName'] = mike;
-    mike = 6;
-    mike = report[mike];
-    yankee = tango.bind(entity)(mike);
-    mike = golf.prototype;
-    tango = Object.create(mike, {constructor: {value: golf}});
+    golfie = michal.bind(entity)(oscard);
+    michal = 'RunningGameStore';
+    golfie['displayName'] = michal;
+    michal = 6;
+    michal = report[michal];
+    yankee = tangon.bind(entity)(michal);
+    michal = golfie.prototype;
+    tangon = Object.create(michal, {constructor: {value: golfie}});
     offset = {};
-    romeo = tango;
-    mike = new romeo[golf](yankee, offset, verify);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 7;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_detection/RunningGameStore.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    romeon = tangon;
+    michal = new romeon[golfie](yankee, offset, verify);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 7;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_detection/RunningGameStore.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

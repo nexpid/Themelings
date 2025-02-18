@@ -1,135 +1,135 @@
 // app/modules/a11y/native/useIsScreenReaderEnabled.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AccessibilityInfo;
-    var _closure1_slot2 = tango;
-    tango = function(argFoo) { // Original name: SCREEN_READER_ENABLED_GETTER
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AccessibilityInfo;
+    var _closure1_slot2 = tangon;
+    tangon = function(argFoo) { // Original name: SCREEN_READER_ENABLED_GETTER
         entity = argFoo;
         entity = entity.screenReaderEnabled;
         return entity;
     };
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.create;
-    tango = function(argFoo) {
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = function(argFoo) { // Original name: updateScreenReaderEnabled
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.create;
+    tangon = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = function(argFoo) { // Original name: updateScreenReaderEnabled
             entity = argFoo;
             var _closure3_slot0 = entity;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                zulu = _closure2_slot0;
-                mike = undefined;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                zuuluu = _closure2_slot0;
+                michal = undefined;
                 entity = function(argFoo) {
                     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         entity = argFoo;
-                        tango = entity.screenReaderEnabled;
-                        mike = _closure3_slot0;
-                        if(!(tango !== mike)) { _fun00002_ip = 34; continue _fun00001 }
+                        tangon = entity.screenReaderEnabled;
+                        michal = _closure3_slot0;
+                        if(!(tangon !== michal)) { _fun00002_ip = 34; continue _fun00001 }
  20:
-                        mike = {};
-                        zulu = _closure3_slot0;
-                        mike['screenReaderEnabled'] = zulu;
-                        entity = mike;
+                        michal = {};
+                        zuuluu = _closure3_slot0;
+                        michal['screenReaderEnabled'] = zuuluu;
+                        entity = michal;
  34:
                         return entity;
                     }
                 };
-                entity = zulu.bind(mike)(entity);
+                entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        var _closure2_slot1 = tango;
-        zulu = _closure1_slot2;
-        mike = zulu.isScreenReaderEnabled;
-        report = mike.bind(zulu)();
-        mike = report.then;
-        report = mike.bind(report)(tango);
-        mike = report.catch;
+        var _closure2_slot1 = tangon;
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.isScreenReaderEnabled;
+        report = michal.bind(zuuluu)();
+        michal = report.then;
+        report = michal.bind(report)(tangon);
+        michal = report.catch;
         entity = function() {
-            zulu = _closure2_slot1;
+            zuuluu = _closure2_slot1;
             entity = undefined;
-            mike = false;
-            mike = zulu.bind(entity)(mike);
+            michal = false;
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = mike.bind(report)(entity);
-        mike = zulu.addEventListener;
+        entity = michal.bind(report)(entity);
+        michal = zuuluu.addEventListener;
         entity = 'screenReaderChanged';
-        entity = mike.bind(zulu)(entity, tango);
+        entity = michal.bind(zuuluu)(entity, tangon);
         entity = {};
-        mike = false;
-        entity['screenReaderEnabled'] = mike;
+        michal = false;
+        entity['screenReaderEnabled'] = michal;
         return entity;
     };
-    tango = golf.bind(options)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/a11y/native/useIsScreenReaderEnabled.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: addScreenReaderEnabledListener
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot4;
-        mike = zulu.subscribe;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/a11y/native/useIsScreenReaderEnabled.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: addScreenReaderEnabledListener
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot4;
+        michal = zuuluu.subscribe;
         entity = function(argFoo) {
             entity = argFoo;
-            zulu = entity.screenReaderEnabled;
-            mike = _closure2_slot0;
+            zuuluu = entity.screenReaderEnabled;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = mike.bind(entity)(zulu);
+            michal = michal.bind(entity)(zuuluu);
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['addScreenReaderEnabledListener'] = tango;
-    tango = function() { // Original name: getIsScreenReaderEnabled
-        mike = _closure1_slot4;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+    zuuluu['addScreenReaderEnabledListener'] = tangon;
+    tangon = function() { // Original name: getIsScreenReaderEnabled
+        michal = _closure1_slot4;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.screenReaderEnabled;
         return entity;
     };
-    zulu['getIsScreenReaderEnabled'] = tango;
-    mike = function() { // Original name: useIsScreenReaderEnabled
-        zulu = _closure1_slot4;
-        mike = _closure1_slot3;
+    zuuluu['getIsScreenReaderEnabled'] = tangon;
+    michal = function() { // Original name: useIsScreenReaderEnabled
+        zuuluu = _closure1_slot4;
+        michal = _closure1_slot3;
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['useIsScreenReaderEnabled'] = mike;
+    zuuluu['useIsScreenReaderEnabled'] = michal;
     return entity;
 })();

@@ -1,69 +1,69 @@
 // app/modules/activities/utils/getCoverImageFromActivity.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ACTIVITY_INVITE_COVER_IMAGE_SIZE;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/getCoverImageFromActivity.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getCoverImageFromActivity
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ACTIVITY_INVITE_COVER_IMAGE_SIZE;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/getCoverImageFromActivity.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getCoverImageFromActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = null;
-            mike = tango == zulu;
+            zuuluu = argFoo;
+            tangon = null;
+            michal = tangon == zuuluu;
             entity = null;
-            if(mike) { _fun00002_ip = 119; continue _fun00001 }
+            if(michal) { _fun00002_ip = 119; continue _fun00001 }
  14:
-            mike = zulu.assets;
-            mike = tango == mike;
+            michal = zuuluu.assets;
+            michal = tangon == michal;
             entity = null;
-            if(mike) { _fun00002_ip = 119; continue _fun00001 }
+            if(michal) { _fun00002_ip = 119; continue _fun00001 }
  29:
-            mike = zulu.assets;
-            mike = mike.large_image;
-            mike = tango == mike;
+            michal = zuuluu.assets;
+            michal = michal.large_image;
+            michal = tangon == michal;
             entity = null;
-            if(mike) { _fun00002_ip = 119; continue _fun00001 }
+            if(michal) { _fun00002_ip = 119; continue _fun00001 }
  50:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 1;
-            report = report[tango];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.getAssetImage;
-            zulu = zulu.assets;
-            tango = zulu.large_image;
-            mike = _closure1_slot2;
-            zulu = new Array(2);
-            zulu[0] = mike;
-            zulu[1] = mike;
-            mike = argBar;
-            entity = report.bind(oscar)(mike, tango, zulu);
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.getAssetImage;
+            zuuluu = zuuluu.assets;
+            tangon = zuuluu.large_image;
+            michal = _closure1_slot2;
+            zuuluu = new Array(2);
+            zuuluu[0] = michal;
+            zuuluu[1] = michal;
+            michal = argBar;
+            entity = report.bind(oscard)(michal, tangon, zuuluu);
  119:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

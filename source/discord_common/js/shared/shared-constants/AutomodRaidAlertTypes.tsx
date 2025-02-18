@@ -1,30 +1,30 @@
 // discord_common/js/shared/shared-constants/AutomodRaidAlertTypes.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'JOIN_RAID';
-    mike['JOIN_RAID'] = entity;
+    michal['JOIN_RAID'] = entity;
     entity = 'DM_RAID';
-    mike['DM_RAID'] = entity;
+    michal['DM_RAID'] = entity;
     entity = 'MENTION_RAID';
-    mike['MENTION_RAID'] = entity;
-    tango = argPlugh;
+    michal['MENTION_RAID'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/AutomodRaidAlertTypes.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['AutomodRaidAlertTypes'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/AutomodRaidAlertTypes.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['AutomodRaidAlertTypes'] = michal;
     return entity;
 })();

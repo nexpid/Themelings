@@ -1,62 +1,62 @@
 // app/utils/ErrorUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = function(argFoo) { // Original name: getUnderlyingIOSExceptionRecursively
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.userInfo;
+            michal = argFoo;
+            entity = michal.userInfo;
             entity = entity.NSUnderlyingError;
-            zulu = null;
-            if(!(zulu != entity)) { _fun00002_ip = 51; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 51; continue _fun00001 }
  21:
             report = _closure1_slot0;
-            entity = mike.userInfo;
-            tango = entity.NSUnderlyingError;
+            entity = michal.userInfo;
+            tangon = entity.NSUnderlyingError;
             entity = undefined;
-            entity = report.bind(entity)(tango);
-            if(!(zulu == entity)) { _fun00002_ip = 67; continue _fun00001 }
+            entity = report.bind(entity)(tangon);
+            if(!(zuuluu == entity)) { _fun00002_ip = 67; continue _fun00001 }
  51:
-            mike = mike.userInfo;
-            mike = mike.NSLocalizedDescription;
-            return mike;
+            michal = michal.userInfo;
+            michal = michal.NSLocalizedDescription;
+            return michal;
  67:
             return entity;
         }
     };
     var _closure1_slot0 = entity;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/ErrorUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getUnderlyingIOSError
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/ErrorUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getUnderlyingIOSError
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = undefined;
-            mike = undefined;
+            tangon = undefined;
+            michal = undefined;
  7: // try_start_0
-            zulu = _closure1_slot0;
-            zulu = zulu.bind(tango)(entity);
-            mike = zulu;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            michal = zuuluu;
             entity = null;
-            zulu = entity != zulu;
-            if(!zulu) { _fun00004_ip = 34; continue _fun00003 }
+            zuuluu = entity != zuuluu;
+            if(!zuuluu) { _fun00004_ip = 34; continue _fun00003 }
  31:
-            entity = mike;
+            entity = michal;
  34: // try_end0
             return entity;
  36: // catch_target0
@@ -65,6 +65,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getUnderlyingIOSError'] = mike;
+    zuuluu['getUnderlyingIOSError'] = michal;
     return entity;
 })();

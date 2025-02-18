@@ -1,116 +1,116 @@
 // app/utils/FlagUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = function(argFoo, argBar) { // Original name: hasFlag
-        mike = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = function(argFoo, argBar) { // Original name: hasFlag
+        michal = argBar;
         entity = argFoo;
-        entity = entity & mike;
-        entity = entity === mike;
+        entity = entity & michal;
+        entity = entity === michal;
         return entity;
     };
-    var _closure1_slot0 = oscar;
+    var _closure1_slot0 = oscard;
     report = function(argFoo, argBar) { // Original name: addFlag
-        mike = argFoo;
+        michal = argFoo;
         entity = argBar;
-        entity = mike | entity;
+        entity = michal | entity;
         return entity;
     };
     var _closure1_slot1 = report;
-    tango = function(argFoo, argBar) { // Original name: removeFlag
+    tangon = function(argFoo, argBar) { // Original name: removeFlag
         entity = argBar;
-        mike = ~entity;
+        michal = ~entity;
         entity = argFoo;
-        entity = entity & mike;
+        entity = entity & michal;
         return entity;
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
-    golf = argPlugh;
+    entity = option.bind(verify)(zuuluu, entity, golfie);
+    golfie = argPlu;
     entity = 0;
-    options = golf[entity];
-    golf = argBar;
+    option = golfie[entity];
+    golfie = argBar;
     entity = undefined;
-    verify = golf.bind(entity)(options);
-    options = verify.fileFinishedImporting;
-    golf = 'utils/FlagUtils.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['hasFlag'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: hasAnyFlag
-        mike = argFoo;
+    verify = golfie.bind(entity)(option);
+    option = verify.fileFinishedImporting;
+    golfie = 'utils/FlagUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['hasFlag'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: hasAnyFlag
+        michal = argFoo;
         entity = argBar;
-        mike = mike & entity;
+        michal = michal & entity;
         entity = 0;
-        entity = entity != mike;
+        entity = entity != michal;
         return entity;
     };
-    zulu['hasAnyFlag'] = oscar;
-    zulu['addFlag'] = report;
-    zulu['removeFlag'] = tango;
-    tango = function(argFoo, argBar) { // Original name: removeFlags
-        oscar = 1;
-        tango = copyRestArgs(oscar);
-        zulu = tango.reduce;
-        mike = function(argFoo, argBar) {
-            tango = _closure1_slot2;
-            zulu = undefined;
-            mike = argFoo;
+    zuuluu['hasAnyFlag'] = oscard;
+    zuuluu['addFlag'] = report;
+    zuuluu['removeFlag'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: removeFlags
+        oscard = 1;
+        tangon = copyRestArgs(oscard);
+        zuuluu = tangon.reduce;
+        michal = function(argFoo, argBar) {
+            tangon = _closure1_slot2;
+            zuuluu = undefined;
+            michal = argFoo;
             entity = argBar;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         };
         entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['removeFlags'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: setFlag
+    zuuluu['removeFlags'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: setFlag
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = argBar;
+            tangon = argBar;
             entity = argBaz;
             if(entity) { _fun00002_ip = 29; continue _fun00001 }
  15:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
             entity = undefined;
-            entity = zulu.bind(entity)(report, tango);
+            entity = zuuluu.bind(entity)(report, tangon);
             _fun00002_ip = 41; continue _fun00001;
  29:
-            zulu = _closure1_slot1;
-            mike = undefined;
-            entity = zulu.bind(mike)(report, tango);
+            zuuluu = _closure1_slot1;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(report, tangon);
  41:
             return entity;
         }
     };
-    zulu['setFlag'] = tango;
-    mike = function(argFoo, argBar) { // Original name: toggleFlag
+    zuuluu['setFlag'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: toggleFlag
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            tango = argBar;
+            tangon = argBar;
             entity = _closure1_slot0;
-            zulu = undefined;
-            entity = entity.bind(zulu)(report, tango);
+            zuuluu = undefined;
+            entity = entity.bind(zuuluu)(report, tangon);
             if(entity) { _fun00004_ip = 36; continue _fun00003 }
  24:
             entity = _closure1_slot1;
-            entity = entity.bind(zulu)(report, tango);
+            entity = entity.bind(zuuluu)(report, tangon);
             _fun00004_ip = 46; continue _fun00003;
  36:
-            mike = _closure1_slot2;
-            entity = mike.bind(zulu)(report, tango);
+            michal = _closure1_slot2;
+            entity = michal.bind(zuuluu)(report, tangon);
  46:
             return entity;
         }
     };
-    zulu['toggleFlag'] = mike;
+    zuuluu['toggleFlag'] = michal;
     return entity;
 })();

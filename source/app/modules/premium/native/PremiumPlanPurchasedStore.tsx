@@ -1,54 +1,54 @@
 // app/modules/premium/native/PremiumPlanPurchasedStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false};
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/native/PremiumPlanPurchasedStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['usePremiumPlanPurchasedStore'] = tango;
-    tango = function(argFoo) { // Original name: setInitiatedPurchaseFromNewFlow
+    report = oscard.bind(golfie)(report);
+    zuuluu['usePremiumPlanPurchasedStore'] = tangon;
+    tangon = function(argFoo) { // Original name: setInitiatedPurchaseFromNewFlow
         entity = argFoo;
-        zulu = entity.productId;
-        var _closure2_slot0 = zulu;
-        zulu = entity.onPaymentSuccess;
-        var _closure2_slot1 = zulu;
+        zuuluu = entity.productId;
+        var _closure2_slot0 = zuuluu;
+        zuuluu = entity.onPaymentSuccess;
+        var _closure2_slot1 = zuuluu;
         entity = entity.onPaymentDismiss;
         var _closure2_slot2 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
             report = _closure2_slot0;
             entity['productId'] = report;
@@ -56,133 +56,133 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['initiatedPurchaseFromNewFlow'] = report;
             report = _closure2_slot1;
             entity['onPaymentSuccess'] = report;
-            tango = _closure2_slot2;
-            entity['onPaymentDismiss'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot2;
+            entity['onPaymentDismiss'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setInitiatedPurchaseFromNewFlow'] = tango;
-    tango = function() { // Original name: setPaymentSuccess
+    zuuluu['setInitiatedPurchaseFromNewFlow'] = tangon;
+    tangon = function() { // Original name: setPaymentSuccess
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.getState;
-            mike = mike.bind(zulu)();
-            mike = mike.initiatedPurchaseFromNewFlow;
-            if(!mike) { _fun00002_ip = 103; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getState;
+            michal = michal.bind(zuuluu)();
+            michal = michal.initiatedPurchaseFromNewFlow;
+            if(!michal) { _fun00002_ip = 103; continue _fun00001 }
  26:
-            zulu = _closure1_slot2;
-            mike = zulu.getState;
-            mike = mike.bind(zulu)();
-            zulu = mike.productId;
-            mike = mike.onPaymentSuccess;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getState;
+            michal = michal.bind(zuuluu)();
+            zuuluu = michal.productId;
+            michal = michal.onPaymentSuccess;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             entity = 1;
-            tango = tango[entity];
+            tangon = tangon[entity];
             entity = undefined;
-            oscar = report.bind(entity)(tango);
-            report = oscar.batchUpdates;
-            tango = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.setState;
+            oscard = report.bind(entity)(tangon);
+            report = oscard.batchUpdates;
+            tangon = function() {
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = true;
-                entity['isPaymentSuccess'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = true;
+                entity['isPaymentSuccess'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            tango = null;
-            if(!(tango != mike)) { _fun00002_ip = 103; continue _fun00001 }
+            tangon = report.bind(oscard)(tangon);
+            tangon = null;
+            if(!(tangon != michal)) { _fun00002_ip = 103; continue _fun00001 }
  98:
-            entity = mike.bind(entity)(zulu);
+            entity = michal.bind(entity)(zuuluu);
  103:
             entity = undefined;
             return entity;
         }
     };
-    zulu['setPaymentSuccess'] = tango;
-    tango = function(argFoo) { // Original name: showOldPaymentFlowSuccess
+    zuuluu['setPaymentSuccess'] = tangon;
+    tangon = function(argFoo) { // Original name: showOldPaymentFlowSuccess
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.getState;
-            mike = mike.bind(zulu)();
-            mike = mike.initiatedPurchaseFromNewFlow;
-            if(mike) { _fun00004_ip = 37; continue _fun00003 }
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getState;
+            michal = michal.bind(zuuluu)();
+            michal = michal.initiatedPurchaseFromNewFlow;
+            if(michal) { _fun00004_ip = 37; continue _fun00003 }
  26:
-            zulu = argFoo;
-            mike = undefined;
-            mike = zulu.bind(mike)();
+            zuuluu = argFoo;
+            michal = undefined;
+            michal = zuuluu.bind(michal)();
             _fun00004_ip = 77; continue _fun00003;
  37:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.batchUpdates;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.batchUpdates;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.setState;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = true;
-                entity['isPaymentSuccess'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = true;
+                entity['isPaymentSuccess'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
  77:
             entity = undefined;
             return entity;
         }
     };
-    zulu['showOldPaymentFlowSuccess'] = tango;
-    mike = function() { // Original name: reset
+    zuuluu['showOldPaymentFlowSuccess'] = tangon;
+    michal = function() { // Original name: reset
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.getState;
-            zulu = mike.bind(zulu)();
-            report = zulu.productId;
-            mike = zulu.isPaymentSuccess;
-            tango = zulu.onPaymentDismiss;
-            zulu = null;
-            if(!(zulu != tango)) { _fun00006_ip = 60; continue _fun00005 }
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getState;
+            zuuluu = michal.bind(zuuluu)();
+            report = zuuluu.productId;
+            michal = zuuluu.isPaymentSuccess;
+            tangon = zuuluu.onPaymentDismiss;
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00006_ip = 60; continue _fun00005 }
  41:
-            zulu = {};
-            zulu['productId'] = report;
-            zulu['isSuccess'] = mike;
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
+            zuuluu = {};
+            zuuluu['productId'] = report;
+            zuuluu['isSuccess'] = michal;
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
  60:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                tango = _closure1_slot2;
-                zulu = tango.setState;
-                mike = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false};
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                tangon = _closure1_slot2;
+                zuuluu = tangon.setState;
+                michal = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false};
                 entity = undefined;
-                mike['onPaymentSuccess'] = entity;
-                mike['onPaymentDismiss'] = entity;
-                mike = zulu.bind(tango)(mike);
+                michal['onPaymentSuccess'] = entity;
+                michal['onPaymentDismiss'] = entity;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['reset'] = mike;
+    zuuluu['reset'] = michal;
     return entity;
 })();

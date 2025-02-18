@@ -1,36 +1,36 @@
 // app/modules/experiments/trigger_points/validateTriggerPoint.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/experiments/trigger_points/validateTriggerPoint.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: validateAllExperiments
+    tangon = tangon.bind(entity)(oscard);
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/experiments/trigger_points/validateTriggerPoint.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: validateAllExperiments
         entity = undefined;
         return entity;
     };
-    zulu['validateAllExperiments'] = tango;
-    mike = function() { // Original name: validateOneExperiment
+    zuuluu['validateAllExperiments'] = tangon;
+    michal = function() { // Original name: validateOneExperiment
         entity = undefined;
         return entity;
     };
-    zulu['validateOneExperiment'] = mike;
+    zuuluu['validateOneExperiment'] = michal;
     return entity;
 })();

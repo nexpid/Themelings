@@ -1,49 +1,49 @@
 // app/modules/game_profile/experiments/GameProfileExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     yankee = true;
-    tango['value'] = yankee;
+    tangon['value'] = yankee;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    verify = tango.CommonTriggerPoints;
-    tango = 1;
-    tango = golf[tango];
-    options = oscar.bind(entity)(tango);
-    report = options.createExperiment;
-    tango = {'kind': 'user', 'id': '2024-06_game_profile_experiment', 'label': 'Enables the Game Profile'};
+    tangon = oscard.bind(entity)(tangon);
+    verify = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = golfie[tangon];
+    option = oscard.bind(entity)(tangon);
+    report = option.createExperiment;
+    tangon = {'kind': 'user', 'id': '2024-06_game_profile_experiment', 'label': 'Enables the Game Profile'};
     offset = {};
-    romeo = false;
-    offset['enabled'] = romeo;
-    tango['defaultConfig'] = offset;
+    romeon = false;
+    offset['enabled'] = romeon;
+    tangon['defaultConfig'] = offset;
     verify = verify.CONNECTION_OPEN;
-    tango['commonTriggerPoint'] = verify;
+    tangon['commonTriggerPoint'] = verify;
     offset = {'id': 1, 'label': 'Enabled'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
-    tango['treatments'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot0 = tango;
+    tangon['treatments'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot0 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/game_profile/experiments/GameProfileExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['GameProfileRolloutExperiment'] = tango;
-    tango = function(argFoo) { // Original name: canSeeGameProfile
+    report = oscard.bind(golfie)(report);
+    zuuluu['GameProfileRolloutExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: canSeeGameProfile
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
@@ -52,20 +52,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  9:
             report = true;
  11:
-            tango = _closure1_slot0;
-            zulu = tango.getCurrentConfig;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
             entity = argFoo;
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['canSeeGameProfile'] = tango;
-    mike = function(argFoo) { // Original name: useCanSeeGameProfile
+    zuuluu['canSeeGameProfile'] = tangon;
+    michal = function(argFoo) { // Original name: useCanSeeGameProfile
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[1];
@@ -74,18 +74,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  9:
             report = true;
  11:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = argFoo;
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useCanSeeGameProfile'] = mike;
+    zuuluu['useCanSeeGameProfile'] = michal;
     return entity;
 })();

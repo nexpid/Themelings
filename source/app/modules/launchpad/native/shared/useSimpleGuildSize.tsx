@@ -1,106 +1,106 @@
 // app/modules/launchpad/native/shared/useSimpleGuildSize.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/launchpad/native/shared/useSimpleGuildSize.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSimpleGuildSize
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/launchpad/native/shared/useSimpleGuildSize.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSimpleGuildSize
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            golf = mike.size;
-            var _closure2_slot0 = golf;
-            options = mike.style;
-            var _closure2_slot1 = options;
-            mike = undefined;
-            var _closure2_slot2 = mike;
-            var _closure2_slot3 = mike;
-            mike = null;
-            mike = mike != golf;
-            tango = 48;
-            if(!mike) { _fun00002_ip = 48; continue _fun00001 }
+            michal = argFoo;
+            golfie = michal.size;
+            var _closure2_slot0 = golfie;
+            option = michal.style;
+            var _closure2_slot1 = option;
+            michal = undefined;
+            var _closure2_slot2 = michal;
+            var _closure2_slot3 = michal;
+            michal = null;
+            michal = michal != golfie;
+            tangon = 48;
+            if(!michal) { _fun00002_ip = 48; continue _fun00001 }
  45:
-            tango = golf;
+            tangon = golfie;
  48:
-            _closure2_slot2 = tango;
-            oscar = _closure1_slot0;
-            report = oscar.useMemo;
-            zulu = new Array(1);
-            zulu[0] = tango;
-            mike = function() {
+            _closure2_slot2 = tangon;
+            oscard = _closure1_slot0;
+            report = oscard.useMemo;
+            zuuluu = new Array(1);
+            zuuluu[0] = tangon;
+            michal = function() {
                 entity = {};
-                zulu = _closure2_slot2;
-                entity['width'] = zulu;
-                mike = _closure2_slot2;
-                entity['height'] = mike;
+                zuuluu = _closure2_slot2;
+                entity['width'] = zuuluu;
+                michal = _closure2_slot2;
+                entity['height'] = michal;
                 return entity;
             };
-            zulu = report.bind(oscar)(mike, zulu);
-            _closure2_slot3 = zulu;
-            report = oscar.useMemo;
-            mike = new Array(3);
-            mike[0] = options;
-            mike[1] = golf;
-            mike[2] = zulu;
+            zuuluu = report.bind(oscard)(michal, zuuluu);
+            _closure2_slot3 = zuuluu;
+            report = oscard.useMemo;
+            michal = new Array(3);
+            michal[0] = option;
+            michal[1] = golfie;
+            michal[2] = zuuluu;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = {};
+                    zuuluu = {};
                     entity = 'relative';
-                    zulu['position'] = entity;
+                    zuuluu['position'] = entity;
                     entity = _closure2_slot0;
                     report = null;
-                    oscar = report == entity;
-                    tango = 0;
-                    if(!oscar) { _fun00004_ip = 31; continue _fun00003 }
+                    oscard = report == entity;
+                    tangon = 0;
+                    if(!oscard) { _fun00004_ip = 31; continue _fun00003 }
  28:
-                    tango = 4;
+                    tangon = 4;
  31:
-                    zulu['marginLeft'] = tango;
-                    tango = _closure2_slot0;
-                    tango = report == tango;
+                    zuuluu['marginLeft'] = tangon;
+                    tangon = _closure2_slot0;
+                    tangon = report == tangon;
                     entity = 0;
-                    if(!tango) { _fun00004_ip = 52; continue _fun00003 }
+                    if(!tangon) { _fun00004_ip = 52; continue _fun00003 }
  49:
                     entity = 4;
  52:
-                    zulu['marginRight'] = entity;
+                    zuuluu['marginRight'] = entity;
                     entity = new Array(3);
-                    entity[0] = zulu;
-                    zulu = _closure2_slot3;
-                    entity[1] = zulu;
-                    mike = _closure2_slot1;
-                    entity[2] = mike;
+                    entity[0] = zuuluu;
+                    zuuluu = _closure2_slot3;
+                    entity[1] = zuuluu;
+                    michal = _closure2_slot1;
+                    entity[2] = michal;
                     return entity;
                 }
             };
-            mike = report.bind(oscar)(entity, mike);
+            michal = report.bind(oscard)(entity, michal);
             entity = {};
-            entity['containerSize'] = tango;
-            entity['containerSizeStyle'] = zulu;
-            entity['containerStyles'] = mike;
+            entity['containerSize'] = tangon;
+            entity['containerSizeStyle'] = zuuluu;
+            entity['containerStyles'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

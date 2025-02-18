@@ -1,97 +1,97 @@
 // app/modules/premium/sounds/soundmoji/utils/getSoundmojiASTFromString.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    mike = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: getSoundmojiFromMessage
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    michal = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: getSoundmojiFromMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argBar;
-            options = argBaz;
-            offset = argCorge;
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            option = argBaz;
+            offset = argCor;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 3;
-            entity = tango[entity];
-            tango = undefined;
-            entity = mike.bind(tango)(entity);
-            oscar = entity.SoundmojiRenderingExperiment;
-            report = oscar.getCurrentConfig;
-            mike = {};
+            entity = tangon[entity];
+            tangon = undefined;
+            entity = michal.bind(tangon)(entity);
+            oscard = entity.SoundmojiRenderingExperiment;
+            report = oscard.getCurrentConfig;
+            michal = {};
             entity = 'getSoundmojiASTFromString';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
-            golf = false;
-            entity['autoTrackExposure'] = golf;
-            entity = report.bind(oscar)(mike, entity);
+            golfie = false;
+            entity['autoTrackExposure'] = golfie;
+            entity = report.bind(oscard)(michal, entity);
             entity = entity.enabled;
             if(!entity) { _fun00002_ip = 139; continue _fun00001 }
  81:
-            mike = _closure1_slot3;
-            entity = mike.getSoundById;
-            entity = entity.bind(mike)(offset);
+            michal = _closure1_slot3;
+            entity = michal.getSoundById;
+            entity = entity.bind(michal)(offset);
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 4;
-            mike = oscar[mike];
-            report = report.bind(tango)(mike);
-            mike = argFoo;
-            report = report.bind(tango)(entity, mike, verify);
-            oscar = null;
-            if(!(oscar != options)) { _fun00002_ip = 136; continue _fun00001 }
+            oscard = _closure1_slot2;
+            michal = 4;
+            michal = oscard[michal];
+            report = report.bind(tangon)(michal);
+            michal = argFoo;
+            report = report.bind(tangon)(entity, michal, verify);
+            oscard = null;
+            if(!(oscard != option)) { _fun00002_ip = 136; continue _fun00001 }
  132:
-            if(!(oscar == verify)) { _fun00002_ip = 155; continue _fun00001 }
+            if(!(oscard == verify)) { _fun00002_ip = 155; continue _fun00001 }
  136:
             if(report) { _fun00002_ip = 141; continue _fun00001 }
  139:
-            return tango;
+            return tangon;
  141:
-            golf = oscar != entity;
-            mike = undefined;
-            if(!golf) { _fun00002_ip = 153; continue _fun00001 }
+            golfie = oscard != entity;
+            michal = undefined;
+            if(!golfie) { _fun00002_ip = 153; continue _fun00001 }
  150:
-            mike = entity;
+            michal = entity;
  153:
-            return mike;
+            return michal;
  155:
-            golf = _closure1_slot1;
+            golfie = _closure1_slot1;
             yankee = _closure1_slot2;
-            mike = 5;
-            mike = yankee[mike];
-            golf = golf.bind(tango)(mike);
-            romeo = argGrault;
+            michal = 5;
+            michal = yankee[michal];
+            golfie = golfie.bind(tangon)(michal);
+            romeon = argGra;
             sizing = undefined;
-            kilo = verify;
-            backup = options;
-            foxtrot = offset;
-            mike = sizing[golf](kilo, backup, foxtrot, romeo, yankee);
+            kiloes = verify;
+            backup = option;
+            foxtra = offset;
+            michal = sizing[golfie](kiloes, backup, foxtra, romeon, yankee);
             if(!report) { _fun00002_ip = 244; continue _fun00001 }
  196:
-            if(!(oscar == mike)) { _fun00002_ip = 244; continue _fun00001 }
+            if(!(oscard == michal)) { _fun00002_ip = 244; continue _fun00001 }
  200:
-            golf = _closure1_slot4;
-            report = golf.getMessage;
-            report = report.bind(golf)(verify, options);
-            oscar = oscar == report;
-            tango = undefined;
-            if(oscar) { _fun00002_ip = 230; continue _fun00001 }
+            golfie = _closure1_slot4;
+            report = golfie.getMessage;
+            report = report.bind(golfie)(verify, option);
+            oscard = oscard == report;
+            tangon = undefined;
+            if(oscard) { _fun00002_ip = 230; continue _fun00001 }
  225:
-            tango = report.state;
+            tangon = report.state;
  230:
-            zulu = _closure1_slot5;
-            zulu = zulu.SENT;
-            if(!(tango === zulu)) { _fun00002_ip = 246; continue _fun00001 }
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.SENT;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 246; continue _fun00001 }
  244:
-            return mike;
+            return michal;
  246:
             return entity;
         }
     };
-    var _closure1_slot6 = mike;
+    var _closure1_slot6 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -99,128 +99,128 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.MessageStates;
     var _closure1_slot5 = report;
     report = 8;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/sounds/soundmoji/utils/getSoundmojiASTFromString.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo, argBar) { // Original name: getSoundmojiASTFromString
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo, argBar) { // Original name: getSoundmojiASTFromString
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            golf = argBar;
+            michal = argFoo;
+            golfie = argBar;
             entity = 1;
-            report = mike[entity];
+            report = michal[entity];
             entity = 2;
-            tango = mike[entity];
+            tangon = michal[entity];
             offset = _closure1_slot6;
-            output = golf.guildId;
-            sizing = golf.channelId;
-            kilo = golf.messageId;
-            foxtrot = golf.soundboardSounds;
-            zulu = undefined;
+            output = golfie.guildId;
+            sizing = golfie.channelId;
+            kiloes = golfie.messageId;
+            foxtra = golfie.soundboardSounds;
+            zuuluu = undefined;
             result = undefined;
-            backup = tango;
-            yankee = result[offset](output, sizing, kilo, backup, foxtrot, romeo);
+            backup = tangon;
+            yankee = result[offset](output, sizing, kiloes, backup, foxtra, romeon);
             offset = null;
             if(!(offset != yankee)) { _fun00004_ip = 268; continue _fun00003 }
  68:
-            oscar = offset == yankee;
+            oscard = offset == yankee;
             entity = undefined;
-            if(oscar) { _fun00004_ip = 82; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 82; continue _fun00003 }
  77:
             entity = yankee.name;
  82:
-            oscar = tango;
+            oscard = tangon;
             if(!(offset != entity)) { _fun00004_ip = 92; continue _fun00003 }
  89:
-            oscar = entity;
+            oscard = entity;
  92:
             entity = {};
-            options = 'soundboard';
-            entity['type'] = options;
-            entity['soundId'] = tango;
+            option = 'soundboard';
+            entity['type'] = option;
+            entity['soundId'] = tangon;
             entity['guildId'] = report;
-            options = golf.messageId;
-            entity['messageId'] = options;
-            golf = golf.channelId;
-            entity['channelId'] = golf;
-            entity['content'] = oscar;
-            golf = offset == yankee;
-            oscar = undefined;
-            if(golf) { _fun00004_ip = 148; continue _fun00003 }
+            option = golfie.messageId;
+            entity['messageId'] = option;
+            golfie = golfie.channelId;
+            entity['channelId'] = golfie;
+            entity['content'] = oscard;
+            golfie = offset == yankee;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 148; continue _fun00003 }
  142:
-            oscar = yankee.emojiId;
+            oscard = yankee.emojiId;
  148:
-            entity['emojiId'] = oscar;
-            golf = offset == yankee;
-            oscar = undefined;
-            if(golf) { _fun00004_ip = 168; continue _fun00003 }
+            entity['emojiId'] = oscard;
+            golfie = offset == yankee;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 168; continue _fun00003 }
  162:
-            oscar = yankee.emojiName;
+            oscard = yankee.emojiName;
  168:
-            entity['emojiName'] = oscar;
-            golf = offset == yankee;
-            oscar = undefined;
-            if(golf) { _fun00004_ip = 188; continue _fun00003 }
+            entity['emojiName'] = oscard;
+            golfie = offset == yankee;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 188; continue _fun00003 }
  182:
-            oscar = yankee.emojiId;
+            oscard = yankee.emojiId;
  188:
-            golf = offset != oscar;
-            oscar = undefined;
-            if(!golf) { _fun00004_ip = 259; continue _fun00003 }
+            golfie = offset != oscard;
+            oscard = undefined;
+            if(!golfie) { _fun00004_ip = 259; continue _fun00003 }
  197:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             verify = _closure1_slot2;
-            golf = 7;
-            golf = verify[golf];
-            verify = options.bind(zulu)(golf);
-            options = verify.getEmojiURL;
-            golf = {'id': null, 'animated': false, 'size': 16};
-            romeo = offset == yankee;
+            golfie = 7;
+            golfie = verify[golfie];
+            verify = option.bind(zuuluu)(golfie);
+            option = verify.getEmojiURL;
+            golfie = {'id': null, 'animated': false, 'size': 16};
+            romeon = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun00004_ip = 248; continue _fun00003 }
+            if(romeon) { _fun00004_ip = 248; continue _fun00003 }
  242:
             offset = yankee.emojiId;
  248:
-            golf['id'] = offset;
-            oscar = options.bind(verify)(golf);
+            golfie['id'] = offset;
+            oscard = option.bind(verify)(golfie);
  259:
-            entity['emojiSrc'] = oscar;
+            entity['emojiSrc'] = oscard;
             return entity;
  268:
             entity = {};
-            oscar = 'text';
-            entity['type'] = oscar;
-            oscar = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 6;
-            mike = golf[mike];
-            mike = oscar.bind(zulu)(mike);
-            mike = mike.bind(zulu)(report, tango);
-            entity['content'] = mike;
+            oscard = 'text';
+            entity['type'] = oscard;
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 6;
+            michal = golfie[michal];
+            michal = oscard.bind(zuuluu)(michal);
+            michal = michal.bind(zuuluu)(report, tangon);
+            entity['content'] = michal;
             return entity;
         }
     };
-    zulu['default'] = tango;
-    tango = /^<sound:(\d+):(\d+)>/;
-    zulu['soundmojiRawFormatRegex'] = tango;
-    zulu['getSoundmojiFromMessage'] = mike;
+    zuuluu['default'] = tangon;
+    tangon = /^<sound:(\d+):(\d+)>/;
+    zuuluu['soundmojiRawFormatRegex'] = tangon;
+    zuuluu['getSoundmojiFromMessage'] = michal;
     return entity;
 })();

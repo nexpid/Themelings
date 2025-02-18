@@ -1,53 +1,53 @@
 // app/modules/usage/UsageStatisticsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/usage/UsageStatisticsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isInstallFrequentlyUsed
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/usage/UsageStatisticsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isInstallFrequentlyUsed
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.keys;
+        zuuluu = entity.Object;
+        michal = zuuluu.keys;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
-        mike = entity.length;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.length;
         entity = 17;
-        entity = mike >= entity;
+        entity = michal >= entity;
         return entity;
     };
-    zulu['isInstallFrequentlyUsed'] = tango;
-    mike = function(argFoo) { // Original name: getDateOfTimestamp
+    zuuluu['isInstallFrequentlyUsed'] = tangon;
+    michal = function(argFoo) { // Original name: getDateOfTimestamp
         entity = global;
-        zulu = entity.Date;
-        entity = zulu.prototype;
-        mike = Object.create(entity, {constructor: {value: zulu}});
-        tango = argFoo;
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        mike = entity instanceof Object ? entity : mike;
-        entity = mike.toISOString;
-        zulu = entity.bind(mike)();
-        mike = zulu.split;
+        zuuluu = entity.Date;
+        entity = zuuluu.prototype;
+        michal = Object.create(entity, {constructor: {value: zuuluu}});
+        tangon = argFoo;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        michal = entity instanceof Object ? entity : michal;
+        entity = michal.toISOString;
+        zuuluu = entity.bind(michal)();
+        michal = zuuluu.split;
         entity = 'T';
-        mike = mike.bind(zulu)(entity);
+        michal = michal.bind(zuuluu)(entity);
         entity = 0;
-        entity = mike[entity];
+        entity = michal[entity];
         return entity;
     };
-    zulu['getDateOfTimestamp'] = mike;
+    zuuluu['getDateOfTimestamp'] = michal;
     return entity;
 })();

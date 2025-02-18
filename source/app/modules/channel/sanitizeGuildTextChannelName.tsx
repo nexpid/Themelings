@@ -1,40 +1,40 @@
 // app/modules/channel/sanitizeGuildTextChannelName.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/channel/sanitizeGuildTextChannelName.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: sanitizeGuildTextChannelName
-        tango = argFoo;
-        zulu = tango.replace;
-        mike = /[\s-~]+/g;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/channel/sanitizeGuildTextChannelName.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: sanitizeGuildTextChannelName
+        tangon = argFoo;
+        zuuluu = tangon.replace;
+        michal = /[\s-~]+/g;
         entity = '-';
-        zulu = zulu.bind(tango)(mike, entity);
-        mike = zulu.replace;
+        zuuluu = zuuluu.bind(tangon)(michal, entity);
+        michal = zuuluu.replace;
         entity = /^-+/;
-        tango = '';
-        zulu = mike.bind(zulu)(entity, tango);
-        mike = zulu.replace;
+        tangon = '';
+        zuuluu = michal.bind(zuuluu)(entity, tangon);
+        michal = zuuluu.replace;
         entity = /[\\'!"#$%&()*+,.\/:;<=>?@[\]^`{|}~]/g;
-        mike = mike.bind(zulu)(entity, tango);
-        entity = mike.toLowerCase;
-        entity = entity.bind(mike)();
+        michal = michal.bind(zuuluu)(entity, tangon);
+        entity = michal.toLowerCase;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

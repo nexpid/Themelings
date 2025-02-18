@@ -1,78 +1,78 @@
 // app/modules/markup/MarkupHeadingRule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = /\n$/;
     var _closure1_slot2 = entity;
-    mike = {};
+    michal = {};
     entity = 0;
-    options = oscar[entity];
-    golf = argBaz;
+    option = oscard[entity];
+    golfie = argBaz;
     entity = undefined;
-    golf = golf.bind(entity)(options);
-    golf = golf.defaultRules;
-    offset = golf.heading;
-    yankee = mike;
-    golf = copyDataProperties(yankee, offset);
-    options = [' ', '#'];
-    golf = 'requiredFirstCharacters';
-    mike[golf] = options;
-    golf = function(argFoo, argBar, argBaz) { // Original name: match
+    golfie = golfie.bind(entity)(option);
+    golfie = golfie.defaultRules;
+    offset = golfie.heading;
+    yankee = michal;
+    golfie = copyDataProperties(yankee, offset);
+    option = [' ', '#'];
+    golfie = 'requiredFirstCharacters';
+    michal[golfie] = option;
+    golfie = function(argFoo, argBar, argBaz) { // Original name: match
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBar;
+            oscard = argBar;
             report = argBaz;
-            mike = oscar.allowHeading;
-            zulu = null;
+            michal = oscard.allowHeading;
+            zuuluu = null;
             entity = null;
-            if(!mike) { _fun00002_ip = 117; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 117; continue _fun00001 }
  19:
-            if(!(zulu != report)) { _fun00002_ip = 58; continue _fun00001 }
+            if(!(zuuluu != report)) { _fun00002_ip = 58; continue _fun00001 }
  23:
-            mike = '';
-            if(!(mike !== report)) { _fun00002_ip = 58; continue _fun00001 }
+            michal = '';
+            if(!(michal !== report)) { _fun00002_ip = 58; continue _fun00001 }
  31:
-            tango = report.match;
-            mike = _closure1_slot2;
-            mike = tango.bind(report)(mike);
-            mike = zulu != mike;
+            tangon = report.match;
+            michal = _closure1_slot2;
+            michal = tangon.bind(report)(michal);
+            michal = zuuluu != michal;
             entity = null;
-            if(!mike) { _fun00002_ip = 117; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 117; continue _fun00001 }
  58:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 0;
-            mike = tango[mike];
-            tango = undefined;
-            golf = zulu.bind(tango)(mike);
-            zulu = golf.anyScopeRegex;
-            mike = /^ *(#{1,3})(?:\s+)((?![#]+)[^\n]+?)#*\s*(?:\n|$)/;
-            zulu = zulu.bind(golf)(mike);
-            mike = argFoo;
-            entity = zulu.bind(tango)(mike, oscar, report);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 0;
+            michal = tangon[michal];
+            tangon = undefined;
+            golfie = zuuluu.bind(tangon)(michal);
+            zuuluu = golfie.anyScopeRegex;
+            michal = /^ *(#{1,3})(?:\s+)((?![#]+)[^\n]+?)#*\s*(?:\n|$)/;
+            zuuluu = zuuluu.bind(golfie)(michal);
+            michal = argFoo;
+            entity = zuuluu.bind(tangon)(michal, oscard, report);
  117:
             return entity;
         }
     };
-    tango = 'match';
-    mike[tango] = golf;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/MarkupHeadingRule.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    tangon = 'match';
+    michal[tangon] = golfie;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/MarkupHeadingRule.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

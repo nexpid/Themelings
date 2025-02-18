@@ -1,150 +1,150 @@
 // app/modules/directory_channels/EventDirectoryActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.DirectoryEntryTypes;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    golf = golf.bind(entity)(tango);
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = undefined;
-        mike = function* (argFoo) {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DirectoryEntryTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    golfie = golfie.bind(entity)(tangon);
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = undefined;
+        michal = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 263; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 263; continue _fun00001 }
  10:
-                    oscar = argFoo;
+                    oscard = argFoo;
  13: // try_start_0
-                    tango = _closure1_slot1;
-                    options = _closure1_slot2;
-                    golf = 4;
-                    mike = options[golf];
+                    tangon = _closure1_slot1;
+                    option = _closure1_slot2;
+                    golfie = 4;
+                    michal = option[golfie];
                     report = undefined;
-                    verify = tango.bind(report)(mike);
-                    tango = verify.dispatch;
-                    mike = {};
+                    verify = tangon.bind(report)(michal);
+                    tangon = verify.dispatch;
+                    michal = {};
                     offset = 'EVENT_DIRECTORY_FETCH_START';
-                    mike['type'] = offset;
-                    mike = tango.bind(verify)(mike);
-                    tango = _closure1_slot0;
-                    mike = 5;
-                    mike = options[mike];
-                    mike = tango.bind(report)(mike);
-                    options = mike.HTTP;
-                    tango = options.get;
-                    mike = {};
+                    michal['type'] = offset;
+                    michal = tangon.bind(verify)(michal);
+                    tangon = _closure1_slot0;
+                    michal = 5;
+                    michal = option[michal];
+                    michal = tangon.bind(report)(michal);
+                    option = michal.HTTP;
+                    tangon = option.get;
+                    michal = {};
                     yankee = _closure1_slot5;
                     offset = yankee.DIRECTORY_CHANNEL_ENTRIES;
-                    verify = oscar;
+                    verify = oscard;
                     verify = offset.bind(yankee)(verify);
-                    mike['url'] = verify;
+                    michal['url'] = verify;
                     verify = {};
                     offset = _closure1_slot4;
                     offset = offset.GUILD_SCHEDULED_EVENT;
                     verify['type'] = offset;
-                    mike['query'] = verify;
+                    michal['query'] = verify;
                     verify = true;
-                    mike['rejectWithError'] = verify;
-                    mike = tango.bind(options)(mike);
+                    michal['rejectWithError'] = verify;
+                    michal = tangon.bind(option)(michal);
                     SaveGenerator(address=145);
  143:
-                    return mike;
+                    return michal;
  145:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 206; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 206; continue _fun00001 }
  151:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    zulu = zulu[golf];
-                    report = tango.bind(report)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    golf = 'EVENT_DIRECTORY_FETCH_SUCCESS';
-                    zulu['type'] = golf;
-                    zulu['channelId'] = oscar;
-                    oscar = mike.body;
-                    zulu['entries'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[golfie];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    golfie = 'EVENT_DIRECTORY_FETCH_SUCCESS';
+                    zuuluu['type'] = golfie;
+                    zuuluu['channelId'] = oscard;
+                    oscard = michal.body;
+                    zuuluu['entries'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  204: // try_end0
                     _fun00002_ip = 258; continue _fun00001;
  206:
-                    return mike;
+                    return michal;
  209: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 4;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.dispatch;
-                    mike = {};
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 4;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.dispatch;
+                    michal = {};
                     report = 'EVENT_DIRECTORY_FETCH_FAILURE';
-                    mike['type'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['type'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
  258:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  263:
                     return entity;
                 }
             };
             return entity;
         };
-        mike = tango.bind(zulu)(mike);
-        var _closure2_slot0 = mike;
+        michal = tangon.bind(zuuluu)(michal);
+        var _closure2_slot0 = michal;
         entity = function() {
             entity = undefined;
-            tango = _closure2_slot0;
-            zulu = tango.apply;
+            tangon = _closure2_slot0;
+            zuuluu = tangon.apply;
             entity = arguments;
-            mike = entity;
+            michal = entity;
             entity = this;
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
         return entity;
     };
-    tango = mike.bind(entity)();
-    mike = 200;
-    mike = golf.bind(entity)(tango, mike);
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/directory_channels/EventDirectoryActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['fetchDirectoryEntries'] = mike;
+    tangon = michal.bind(entity)();
+    michal = 200;
+    michal = golfie.bind(entity)(tangon, michal);
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/directory_channels/EventDirectoryActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['fetchDirectoryEntries'] = michal;
     return entity;
 })();

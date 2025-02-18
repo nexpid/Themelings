@@ -1,67 +1,67 @@
 // discord_common/js/packages/media-engine/native/ui/Video.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = report;
-    mike = function(argFoo) { // Original name: Video
+    michal = function(argFoo) { // Original name: Video
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = _closure1_slot2;
             entity = entity.useDirectVideo;
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
             if(entity) { _fun00002_ip = 48; continue _fun00001 }
  27:
             entity = 1;
-            entity = tango[entity];
-            zulu = undefined;
-            entity = oscar.bind(zulu)(entity);
-            entity = entity.bind(zulu)(report);
+            entity = tangon[entity];
+            zuuluu = undefined;
+            entity = oscard.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)(report);
             _fun00002_ip = 77; continue _fun00001;
  48:
-            zulu = 0;
-            zulu = tango[zulu];
-            tango = undefined;
-            zulu = oscar.bind(tango)(zulu);
-            mike = _closure1_slot2;
-            mike = mike.onContainerResized;
-            entity = zulu.bind(tango)(report, mike);
+            zuuluu = 0;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            michal = _closure1_slot2;
+            michal = michal.onContainerResized;
+            entity = zuuluu.bind(tangon)(report, michal);
  77:
             return entity;
         }
     };
-    var _closure1_slot2 = mike;
+    var _closure1_slot2 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    oscar = {};
+    option = verify.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, oscar);
+    entity = option.bind(verify)(zuuluu, entity, oscard);
     entity = 1;
-    oscar = report[entity];
+    oscard = report[entity];
     entity = undefined;
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.defaultProps;
-    mike['defaultProps'] = oscar;
-    oscar = false;
-    mike['useDirectVideo'] = oscar;
-    tango = function() {
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.defaultProps;
+    michal['defaultProps'] = oscard;
+    oscard = false;
+    michal['useDirectVideo'] = oscard;
+    tangon = function() {
         entity = undefined;
         return entity;
     };
-    mike['onContainerResized'] = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/native/ui/Video.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['onContainerResized'] = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/native/ui/Video.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

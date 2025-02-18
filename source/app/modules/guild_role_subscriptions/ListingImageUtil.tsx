@@ -1,59 +1,59 @@
 // app/modules/guild_role_subscriptions/ListingImageUtil.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/ListingImageUtil.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getSource
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/ListingImageUtil.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getSource
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.image_asset;
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 86; continue _fun00001 }
+            zuuluu = entity.image_asset;
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 86; continue _fun00001 }
  15:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 0;
-            tango = tango[zulu];
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
-            tango = report.getAssetURL;
-            zulu = entity.application_id;
+            tangon = _closure1_slot1;
+            zuuluu = 0;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.getAssetURL;
+            zuuluu = entity.application_id;
             entity = entity.image_asset;
-            zulu = tango.bind(report)(zulu, entity);
+            zuuluu = tangon.bind(report)(zuuluu, entity);
             entity = {};
-            tango = mike != zulu;
-            mike = '';
-            if(!tango) { _fun00002_ip = 79; continue _fun00001 }
+            tangon = michal != zuuluu;
+            michal = '';
+            if(!tangon) { _fun00002_ip = 79; continue _fun00001 }
  76:
-            mike = zulu;
+            michal = zuuluu;
  79:
-            entity['uri'] = mike;
+            entity['uri'] = michal;
             return entity;
  86:
             entity = {};
-            mike = '';
-            entity['uri'] = mike;
+            michal = '';
+            entity['uri'] = michal;
             return entity;
         }
     };
-    zulu['getSource'] = mike;
+    zuuluu['getSource'] = michal;
     return entity;
 })();

@@ -1,75 +1,75 @@
 // app/modules/profile_customization/useNicknames.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/profile_customization/useNicknames.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useNicknames
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/profile_customization/useNicknames.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useNicknames
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                zulu = entity == zulu;
+                zuuluu = entity == zuuluu;
                 entity = '';
-                if(zulu) { _fun00002_ip = 58; continue _fun00001 }
+                if(zuuluu) { _fun00002_ip = 58; continue _fun00001 }
  20:
-                tango = _closure1_slot2;
-                zulu = tango.getNicknames;
-                mike = _closure2_slot0;
-                tango = zulu.bind(tango)(mike);
-                zulu = tango.join;
-                mike = ', ';
-                entity = zulu.bind(tango)(mike);
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getNicknames;
+                michal = _closure2_slot0;
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.join;
+                michal = ', ';
+                entity = zuuluu.bind(tangon)(michal);
  58:
                 return entity;
             }
         };
-        zulu = tango.bind(report)(zulu, entity, mike);
+        zuuluu = tangon.bind(report)(zuuluu, entity, michal);
         entity = {};
-        entity['nicknames'] = zulu;
-        mike = zulu.trim;
-        zulu = mike.bind(zulu)();
-        mike = '';
-        mike = mike !== zulu;
-        entity['canShowNicknames'] = mike;
+        entity['nicknames'] = zuuluu;
+        michal = zuuluu.trim;
+        zuuluu = michal.bind(zuuluu)();
+        michal = '';
+        michal = michal !== zuuluu;
+        entity['canShowNicknames'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,197 +1,197 @@
 // app/modules/media_viewer/native/MediaSourceSpoilerStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {};
-        mike = global;
-        mike = mike.Set;
-        zulu = mike.prototype;
-        zulu = Object.create(zulu, {constructor: {value: mike}});
-        tango = zulu;
-        mike = new tango[mike](zulu);
-        mike = mike instanceof Object ? mike : zulu;
-        entity['spoilerIndexes'] = mike;
+        michal = global;
+        michal = michal.Set;
+        zuuluu = michal.prototype;
+        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+        tangon = zuuluu;
+        michal = new tangon[michal](zuuluu);
+        michal = michal instanceof Object ? michal : zuuluu;
+        entity['spoilerIndexes'] = michal;
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/media_viewer/native/MediaSourceSpoilerStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useMediaSourceSpoilerStore'] = tango;
-    tango = function(argFoo) { // Original name: removeSpoiler
+    report = oscard.bind(golfie)(report);
+    zuuluu['useMediaSourceSpoilerStore'] = tangon;
+    tangon = function(argFoo) { // Original name: removeSpoiler
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = global;
-            report = mike.Set;
-            tango = _closure1_slot2;
-            zulu = tango.getState;
-            zulu = zulu.bind(tango)();
-            oscar = zulu.spoilerIndexes;
-            tango = report.prototype;
-            tango = Object.create(tango, {constructor: {value: report}});
-            golf = tango;
-            zulu = new golf[report](oscar, report);
-            report = zulu instanceof Object ? zulu : tango;
+            michal = global;
+            report = michal.Set;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getState;
+            zuuluu = zuuluu.bind(tangon)();
+            oscard = zuuluu.spoilerIndexes;
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            golfie = tangon;
+            zuuluu = new golfie[report](oscard, report);
+            report = zuuluu instanceof Object ? zuuluu : tangon;
             var _closure2_slot0 = report;
-            tango = report.delete;
-            zulu = argFoo;
-            zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun00002_ip = 111; continue _fun00001 }
+            tangon = report.delete;
+            zuuluu = argFoo;
+            zuuluu = tangon.bind(report)(zuuluu);
+            if(!zuuluu) { _fun00002_ip = 111; continue _fun00001 }
  73:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = tango.bind(mike)(zulu);
-            mike = zulu.batchUpdates;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.batchUpdates;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.setState;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = _closure2_slot0;
-                entity['spoilerIndexes'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure2_slot0;
+                entity['spoilerIndexes'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
  111:
             entity = undefined;
             return entity;
         }
     };
-    zulu['removeSpoiler'] = tango;
-    tango = function(argFoo) { // Original name: addSpoiler
+    zuuluu['removeSpoiler'] = tangon;
+    tangon = function(argFoo) { // Original name: addSpoiler
         entity = global;
         report = entity.Set;
-        tango = _closure1_slot2;
-        zulu = tango.getState;
-        zulu = zulu.bind(tango)();
-        oscar = zulu.spoilerIndexes;
-        tango = report.prototype;
-        tango = Object.create(tango, {constructor: {value: report}});
-        golf = tango;
-        zulu = new golf[report](oscar, report);
-        report = zulu instanceof Object ? zulu : tango;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.getState;
+        zuuluu = zuuluu.bind(tangon)();
+        oscard = zuuluu.spoilerIndexes;
+        tangon = report.prototype;
+        tangon = Object.create(tangon, {constructor: {value: report}});
+        golfie = tangon;
+        zuuluu = new golfie[report](oscard, report);
+        report = zuuluu instanceof Object ? zuuluu : tangon;
         var _closure2_slot0 = report;
-        tango = report.add;
-        zulu = argFoo;
-        zulu = tango.bind(report)(zulu);
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = report.add;
+        zuuluu = argFoo;
+        zuuluu = tangon.bind(report)(zuuluu);
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['spoilerIndexes'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['spoilerIndexes'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['addSpoiler'] = tango;
-    tango = function(argFoo) { // Original name: toggleSpoiler
+    zuuluu['addSpoiler'] = tangon;
+    tangon = function(argFoo) { // Original name: toggleSpoiler
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = global;
-            oscar = entity.Set;
-            tango = _closure1_slot2;
-            zulu = tango.getState;
-            zulu = zulu.bind(tango)();
-            golf = zulu.spoilerIndexes;
-            tango = oscar.prototype;
-            tango = Object.create(tango, {constructor: {value: oscar}});
-            options = tango;
-            zulu = new options[oscar](golf, oscar);
-            tango = zulu instanceof Object ? zulu : tango;
-            var _closure2_slot0 = tango;
-            zulu = tango.has;
-            zulu = zulu.bind(tango)(report);
-            if(zulu) { _fun00004_ip = 85; continue _fun00003 }
+            oscard = entity.Set;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getState;
+            zuuluu = zuuluu.bind(tangon)();
+            golfie = zuuluu.spoilerIndexes;
+            tangon = oscard.prototype;
+            tangon = Object.create(tangon, {constructor: {value: oscard}});
+            option = tangon;
+            zuuluu = new option[oscard](golfie, oscard);
+            tangon = zuuluu instanceof Object ? zuuluu : tangon;
+            var _closure2_slot0 = tangon;
+            zuuluu = tangon.has;
+            zuuluu = zuuluu.bind(tangon)(report);
+            if(zuuluu) { _fun00004_ip = 85; continue _fun00003 }
  73:
-            zulu = tango.add;
-            zulu = zulu.bind(tango)(report);
+            zuuluu = tangon.add;
+            zuuluu = zuuluu.bind(tangon)(report);
             _fun00004_ip = 95; continue _fun00003;
  85:
-            zulu = tango.delete;
-            zulu = zulu.bind(tango)(report);
+            zuuluu = tangon.delete;
+            zuuluu = zuuluu.bind(tangon)(report);
  95:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.setState;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = _closure2_slot0;
-                entity['spoilerIndexes'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure2_slot0;
+                entity['spoilerIndexes'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['toggleSpoiler'] = tango;
-    mike = function() { // Original name: resetSpoilers
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['toggleSpoiler'] = tangon;
+    michal = function() { // Original name: resetSpoilers
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
-            tango = global;
-            tango = tango.Set;
-            report = tango.prototype;
-            report = Object.create(report, {constructor: {value: tango}});
-            golf = report;
-            tango = new golf[tango](oscar);
-            tango = tango instanceof Object ? tango : report;
-            entity['spoilerIndexes'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = global;
+            tangon = tangon.Set;
+            report = tangon.prototype;
+            report = Object.create(report, {constructor: {value: tangon}});
+            golfie = report;
+            tangon = new golfie[tangon](oscard);
+            tangon = tangon instanceof Object ? tangon : report;
+            entity['spoilerIndexes'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetSpoilers'] = mike;
+    zuuluu['resetSpoilers'] = michal;
     return entity;
 })();

@@ -1,126 +1,126 @@
 // app/modules/animations/native/DeprecatedLayoutAnimation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = verify;
-    tango = function(argFoo) { // Original name: DeprecatedLayoutAnimation
+    tangon = function(argFoo) { // Original name: DeprecatedLayoutAnimation
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot4;
-            mike = mike.useReducedMotion;
-            if(mike) { _fun00002_ip = 50; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = _closure1_slot4;
+            michal = michal.useReducedMotion;
+            if(michal) { _fun00002_ip = 50; continue _fun00001 }
  19:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 2;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.isAndroid;
-            mike = tango.bind(report)();
+            tangon = 2;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.isAndroid;
+            michal = tangon.bind(report)();
  50:
-            if(mike) { _fun00002_ip = 90; continue _fun00001 }
+            if(michal) { _fun00002_ip = 90; continue _fun00001 }
  53:
-            mike = null;
-            if(!(mike == zulu)) { _fun00002_ip = 75; continue _fun00001 }
+            michal = null;
+            if(!(michal == zuuluu)) { _fun00002_ip = 75; continue _fun00001 }
  59:
-            tango = _closure1_slot3;
-            mike = tango.easeInEaseOut;
-            mike = mike.bind(tango)();
+            tangon = _closure1_slot3;
+            michal = tangon.easeInEaseOut;
+            michal = michal.bind(tangon)();
             _fun00002_ip = 90; continue _fun00001;
  75:
-            mike = _closure1_slot3;
-            entity = mike.configureNext;
-            entity = entity.bind(mike)(zulu);
+            michal = _closure1_slot3;
+            entity = michal.configureNext;
+            entity = entity.bind(michal)(zuuluu);
  90:
             entity = undefined;
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 0;
     report = verify[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
-    oscar = report.Keyboard;
-    var _closure1_slot2 = oscar;
-    romeo = report.LayoutAnimation;
-    var _closure1_slot3 = romeo;
+    report = option.bind(entity)(report);
+    oscard = report.Keyboard;
+    var _closure1_slot2 = oscard;
+    romeon = report.LayoutAnimation;
+    var _closure1_slot3 = romeon;
     report = 1;
-    oscar = verify[report];
+    oscard = verify[report];
     report = argBaz;
-    report = report.bind(entity)(oscar);
+    report = report.bind(entity)(oscard);
     var _closure1_slot4 = report;
-    oscar = romeo.create;
+    oscard = romeon.create;
     yankee = 150;
     offset = 'easeInEaseOut';
     report = 'opacity';
-    oscar = oscar.bind(romeo)(yankee, offset, report);
-    golf = romeo.create;
+    oscard = oscard.bind(romeon)(yankee, offset, report);
+    golfie = romeon.create;
     report = 'scaleXY';
-    report = golf.bind(romeo)(yankee, offset, report);
-    golf = 3;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/animations/native/DeprecatedLayoutAnimation.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['CONFIG_GUILD_FOLDER_OPACITY'] = oscar;
-    zulu['CONFIG_GUILD_FOLDER_SCALEXY'] = report;
-    zulu['DeprecatedLayoutAnimation'] = tango;
-    mike = function(argFoo) { // Original name: DeprecatedLayoutAnimationKeyboard
+    report = golfie.bind(romeon)(yankee, offset, report);
+    golfie = 3;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/animations/native/DeprecatedLayoutAnimation.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['CONFIG_GUILD_FOLDER_OPACITY'] = oscard;
+    zuuluu['CONFIG_GUILD_FOLDER_SCALEXY'] = report;
+    zuuluu['DeprecatedLayoutAnimation'] = tangon;
+    michal = function(argFoo) { // Original name: DeprecatedLayoutAnimationKeyboard
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
-            mike = arguments[1];
+            oscard = argFoo;
+            michal = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun00004_ip = 14; continue _fun00003 }
+            if(!(michal === entity)) { _fun00004_ip = 14; continue _fun00003 }
  12:
-            mike = false;
+            michal = false;
  14:
-            if(!mike) { _fun00004_ip = 75; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 75; continue _fun00003 }
  17:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 2;
-            zulu = report[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00004_ip = 75; continue _fun00003 }
+            zuuluu = 2;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00004_ip = 75; continue _fun00003 }
  52:
-            tango = _closure1_slot2;
-            zulu = tango.scheduleLayoutAnimation;
-            mike = {};
-            mike['duration'] = oscar;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.scheduleLayoutAnimation;
+            michal = {};
+            michal['duration'] = oscard;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  75:
-            zulu = _closure1_slot5;
-            mike = {};
-            mike['duration'] = oscar;
-            tango = {};
-            tango['duration'] = oscar;
+            zuuluu = _closure1_slot5;
+            michal = {};
+            michal['duration'] = oscard;
+            tangon = {};
+            tangon['duration'] = oscard;
             report = _closure1_slot3;
             report = report.Types;
             report = report.keyboard;
-            tango['type'] = report;
-            mike['update'] = tango;
-            mike = zulu.bind(entity)(mike);
+            tangon['type'] = report;
+            michal['update'] = tangon;
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         }
     };
-    zulu['DeprecatedLayoutAnimationKeyboard'] = mike;
+    zuuluu['DeprecatedLayoutAnimationKeyboard'] = michal;
     return entity;
 })();

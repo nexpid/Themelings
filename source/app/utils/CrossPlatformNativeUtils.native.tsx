@@ -1,75 +1,75 @@
 // app/utils/CrossPlatformNativeUtils.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
-    mike = global;
-    oscar = mike.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = report.bind(oscar)(zulu, mike, tango);
-    mike = {};
-    tango = function() { // Original name: flushDNSCache
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    michal = global;
+    oscard = michal.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
+    michal = {};
+    tangon = function() { // Original name: flushDNSCache
         entity = undefined;
         return entity;
     };
-    mike['flushDNSCache'] = tango;
-    tango = function() { // Original name: flushCookies
+    michal['flushDNSCache'] = tangon;
+    tangon = function() { // Original name: flushCookies
         entity = global;
-        mike = entity.Promise;
-        entity = mike.resolve;
-        entity = entity.bind(mike)();
+        michal = entity.Promise;
+        entity = michal.resolve;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['flushCookies'] = tango;
-    tango = function() { // Original name: setApplicationBackgroundColor
+    michal['flushCookies'] = tangon;
+    tangon = function() { // Original name: setApplicationBackgroundColor
         entity = undefined;
         return entity;
     };
-    mike['setApplicationBackgroundColor'] = tango;
-    tango = function() { // Original name: setZoomFactor
+    michal['setApplicationBackgroundColor'] = tangon;
+    tangon = function() { // Original name: setZoomFactor
         entity = false;
         return entity;
     };
-    mike['setZoomFactor'] = tango;
-    tango = function() { // Original name: focus
+    michal['setZoomFactor'] = tangon;
+    tangon = function() { // Original name: focus
         entity = undefined;
         return entity;
     };
-    mike['focus'] = tango;
-    tango = function() { // Original name: submitLiveCrashReport
+    michal['focus'] = tangon;
+    tangon = function() { // Original name: submitLiveCrashReport
         entity = global;
-        mike = entity.Promise;
-        entity = mike.resolve;
-        entity = entity.bind(mike)();
+        michal = entity.Promise;
+        entity = michal.resolve;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['submitLiveCrashReport'] = tango;
-    tango = function() { // Original name: getPidFromDesktopSource
+    michal['submitLiveCrashReport'] = tangon;
+    tangon = function() { // Original name: getPidFromDesktopSource
         entity = undefined;
         return entity;
     };
-    mike['getPidFromDesktopSource'] = tango;
-    tango = function() { // Original name: getAudioPid
+    michal['getPidFromDesktopSource'] = tangon;
+    tangon = function() { // Original name: getAudioPid
         entity = undefined;
         return entity;
     };
-    mike['getAudioPid'] = tango;
+    michal['getAudioPid'] = tangon;
     entity = function() { // Original name: generateSessionFromPid
         entity = '';
         return entity;
     };
-    mike['generateSessionFromPid'] = entity;
-    tango = argPlugh;
+    michal['generateSessionFromPid'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/CrossPlatformNativeUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/CrossPlatformNativeUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

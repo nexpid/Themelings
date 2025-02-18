@@ -1,121 +1,121 @@
 // app/modules/media/MediaAnalytics.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media/MediaAnalytics.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred) { // Original name: logMediaAttachmentPlaybackStarted
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media/MediaAnalytics.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz, argCor, argGra, argFre) { // Original name: logMediaAttachmentPlaybackStarted
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            oscar = argBar;
+            golfie = argFoo;
+            oscard = argBar;
             offset = argBaz;
-            verify = argGrault;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            verify = argGra;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tango.bind(entity)(zulu);
-            tango = report.track;
-            mike = _closure1_slot2;
-            zulu = mike.MEDIA_ATTACHMENT_PLAYBACK_STARTED;
-            mike = {};
-            options = golf.guild_id;
-            mike['guild_id'] = options;
-            options = golf.id;
-            mike['channel_id'] = options;
-            golf = golf.type;
-            mike['channel_type'] = golf;
-            golf = oscar.content_type;
-            mike['type'] = golf;
-            golf = oscar.flags;
-            mike['flags'] = golf;
-            oscar = oscar.size;
-            mike['size'] = oscar;
-            mike['duration'] = offset;
-            oscar = argCorge;
-            mike['message_id'] = oscar;
-            oscar = global;
-            options = oscar.Math;
-            golf = options.min;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot2;
+            zuuluu = michal.MEDIA_ATTACHMENT_PLAYBACK_STARTED;
+            michal = {};
+            option = golfie.guild_id;
+            michal['guild_id'] = option;
+            option = golfie.id;
+            michal['channel_id'] = option;
+            golfie = golfie.type;
+            michal['channel_type'] = golfie;
+            golfie = oscard.content_type;
+            michal['type'] = golfie;
+            golfie = oscard.flags;
+            michal['flags'] = golfie;
+            oscard = oscard.size;
+            michal['size'] = oscard;
+            michal['duration'] = offset;
+            oscard = argCor;
+            michal['message_id'] = oscard;
+            oscard = global;
+            option = oscard.Math;
+            golfie = option.min;
             yankee = null;
-            oscar = verify;
+            oscard = verify;
             if(!(yankee != offset)) { _fun00002_ip = 147; continue _fun00001 }
  144:
-            oscar = offset;
+            oscard = offset;
  147:
-            oscar = golf.bind(options)(oscar, verify);
-            mike['start_duration_secs'] = oscar;
-            oscar = argFred;
-            mike['sender_user_id'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            oscard = golfie.bind(option)(oscard, verify);
+            michal['start_duration_secs'] = oscard;
+            oscard = argFre;
+            michal['sender_user_id'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['logMediaAttachmentPlaybackStarted'] = tango;
-    mike = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred) { // Original name: logMediaAttachmentPlaybackEnded
+    zuuluu['logMediaAttachmentPlaybackStarted'] = tangon;
+    michal = function(argFoo, argBar, argBaz, argCor, argGra, argFre) { // Original name: logMediaAttachmentPlaybackEnded
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             offset = argBar;
             verify = argBaz;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tango.bind(entity)(zulu);
-            tango = report.track;
-            mike = _closure1_slot2;
-            zulu = mike.MEDIA_ATTACHMENT_PLAYBACK_ENDED;
-            mike = {};
-            oscar = argFoo;
-            mike['message_id'] = oscar;
-            mike['total_duration_secs'] = offset;
-            oscar = global;
-            options = oscar.Math;
-            golf = options.min;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot2;
+            zuuluu = michal.MEDIA_ATTACHMENT_PLAYBACK_ENDED;
+            michal = {};
+            oscard = argFoo;
+            michal['message_id'] = oscard;
+            michal['total_duration_secs'] = offset;
+            oscard = global;
+            option = oscard.Math;
+            golfie = option.min;
             yankee = null;
-            oscar = verify;
+            oscard = verify;
             if(!(yankee != offset)) { _fun00004_ip = 86; continue _fun00003 }
  83:
-            oscar = offset;
+            oscard = offset;
  86:
-            oscar = golf.bind(options)(oscar, verify);
-            mike['end_duration_secs'] = oscar;
-            oscar = argCorge;
-            mike['sender_user_id'] = oscar;
-            oscar = argGrault;
-            mike['duration_listening_secs'] = oscar;
-            oscar = argFred;
-            oscar = oscar.content_type;
-            mike['type'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            oscard = golfie.bind(option)(oscard, verify);
+            michal['end_duration_secs'] = oscard;
+            oscard = argCor;
+            michal['sender_user_id'] = oscard;
+            oscard = argGra;
+            michal['duration_listening_secs'] = oscard;
+            oscard = argFre;
+            oscard = oscard.content_type;
+            michal['type'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['logMediaAttachmentPlaybackEnded'] = mike;
+    zuuluu['logMediaAttachmentPlaybackEnded'] = michal;
     return entity;
 })();

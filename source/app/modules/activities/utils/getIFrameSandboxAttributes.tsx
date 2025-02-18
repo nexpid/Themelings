@@ -1,52 +1,52 @@
 // app/modules/activities/utils/getIFrameSandboxAttributes.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = ['allow-pointer-lock', 'allow-scripts', 'allow-same-origin', 'allow-forms'];
     var _closure1_slot0 = entity;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/getIFrameSandboxAttributes.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getIFrameSandboxAttributes
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/getIFrameSandboxAttributes.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getIFrameSandboxAttributes
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.allowPopups;
-            zulu = _closure1_slot0;
-            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
+            michal = entity.allowPopups;
+            zuuluu = _closure1_slot0;
+            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
  19:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             entity = new Array(2);
             report = 0;
-            golf = entity;
-            tango = arraySpread(golf, oscar, report);
-            mike = 'allow-popups';
-            entity[tango] = mike;
-            mike = 1;
-            tango = tango + mike;
-            mike = 'allow-popups-to-escape-sandbox';
-            entity[tango] = mike;
-            zulu = entity;
+            golfie = entity;
+            tangon = arraySpread(golfie, oscard, report);
+            michal = 'allow-popups';
+            entity[tangon] = michal;
+            michal = 1;
+            tangon = tangon + michal;
+            michal = 'allow-popups-to-escape-sandbox';
+            entity[tangon] = michal;
+            zuuluu = entity;
  68:
-            mike = zulu.join;
+            michal = zuuluu.join;
             entity = ' ';
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

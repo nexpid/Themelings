@@ -1,206 +1,206 @@
 // app/uikit-native/refresh/form/FormDivider.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
     verify = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     report = 0;
-    options = golf[report];
-    mike = argCorge;
+    option = golfie[report];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(options);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    options = mike.View;
-    var _closure1_slot3 = options;
-    foxtrot = mike.StyleSheet;
-    mike = mike.Platform;
-    mike = 2;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    options = mike.ThemeTypes;
-    mike = 3;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot4 = mike;
-    mike = 4;
-    mike = golf[mike];
-    yankee = oscar.bind(entity)(mike);
+    michal = michal.bind(entity)(option);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    option = michal.View;
+    var _closure1_slot3 = option;
+    foxtra = michal.StyleSheet;
+    michal = michal.Platform;
+    michal = 2;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    option = michal.ThemeTypes;
+    michal = 3;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot4 = michal;
+    michal = 4;
+    michal = golfie[michal];
+    yankee = oscard.bind(entity)(michal);
     offset = yankee.createStyles;
-    mike = {};
-    romeo = {};
-    mike['divider'] = romeo;
-    romeo = {};
-    romeo['marginLeft'] = report;
-    report = foxtrot.hairlineWidth;
-    romeo['height'] = report;
+    michal = {};
+    romeon = {};
+    michal['divider'] = romeon;
+    romeon = {};
+    romeon['marginLeft'] = report;
+    report = foxtra.hairlineWidth;
+    romeon['height'] = report;
     report = 5;
-    backup = golf[report];
+    backup = golfie[report];
     backup = verify.bind(entity)(backup);
     backup = backup.colors;
     backup = backup.BACKGROUND_MODIFIER_ACCENT;
-    romeo['backgroundColor'] = backup;
-    backup = foxtrot.hairlineWidth;
-    foxtrot = -1;
-    foxtrot = foxtrot * backup;
-    romeo['marginTop'] = foxtrot;
-    mike['dividerOuter'] = romeo;
-    romeo = {};
-    foxtrot = 56;
-    romeo['marginLeft'] = foxtrot;
-    mike['dividerHasIcon'] = romeo;
-    mike = offset.bind(yankee)(mike);
-    var _closure1_slot5 = mike;
-    mike = {};
-    yankee = options.LIGHT;
-    offset = golf[report];
+    romeon['backgroundColor'] = backup;
+    backup = foxtra.hairlineWidth;
+    foxtra = -1;
+    foxtra = foxtra * backup;
+    romeon['marginTop'] = foxtra;
+    michal['dividerOuter'] = romeon;
+    romeon = {};
+    foxtra = 56;
+    romeon['marginLeft'] = foxtra;
+    michal['dividerHasIcon'] = romeon;
+    michal = offset.bind(yankee)(michal);
+    var _closure1_slot5 = michal;
+    michal = {};
+    yankee = option.LIGHT;
+    offset = golfie[report];
     offset = verify.bind(entity)(offset);
     offset = offset.unsafe_rawColors;
     offset = offset.BLACK_500;
-    mike[yankee] = offset;
-    yankee = options.DARK;
-    offset = golf[report];
+    michal[yankee] = offset;
+    yankee = option.DARK;
+    offset = golfie[report];
     offset = verify.bind(entity)(offset);
     offset = offset.unsafe_rawColors;
     offset = offset.WHITE_500;
-    mike[yankee] = offset;
-    yankee = options.DARKER;
-    offset = golf[report];
+    michal[yankee] = offset;
+    yankee = option.DARKER;
+    offset = golfie[report];
     offset = verify.bind(entity)(offset);
     offset = offset.unsafe_rawColors;
     offset = offset.WHITE_500;
-    mike[yankee] = offset;
-    options = options.MIDNIGHT;
-    report = golf[report];
+    michal[yankee] = offset;
+    option = option.MIDNIGHT;
+    report = golfie[report];
     report = verify.bind(entity)(report);
     report = report.unsafe_rawColors;
     report = report.WHITE_500;
-    mike[options] = report;
-    var _closure1_slot6 = mike;
+    michal[option] = report;
+    var _closure1_slot6 = michal;
     report = 10;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'uikit-native/refresh/form/FormDivider.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: FormDivider
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: FormDivider
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.outer;
+            oscard = entity.outer;
             report = undefined;
-            if(!(oscar === report)) { _fun00002_ip = 17; continue _fun00001 }
+            if(!(oscard === report)) { _fun00002_ip = 17; continue _fun00001 }
  15:
-            oscar = false;
+            oscard = false;
  17:
             verify = entity.iconPush;
             if(!(verify === report)) { _fun00002_ip = 29; continue _fun00001 }
  27:
             verify = false;
  29:
-            options = entity.style;
+            option = entity.style;
             entity = _closure1_slot5;
             offset = entity.bind(report)();
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 6;
-            entity = tango[entity];
-            golf = zulu.bind(report)(entity);
-            entity = golf.useThemeContext;
-            entity = entity.bind(golf)();
+            entity = tangon[entity];
+            golfie = zuuluu.bind(report)(entity);
+            entity = golfie.useThemeContext;
+            entity = entity.bind(golfie)();
             backup = entity.theme;
-            golf = entity.primaryColor;
+            golfie = entity.primaryColor;
             entity = 7;
-            entity = tango[entity];
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.useProfileThemeValues;
-            tango = entity.bind(zulu)(backup);
-            if(oscar) { _fun00002_ip = 121; continue _fun00001 }
+            entity = tangon[entity];
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.useProfileThemeValues;
+            tangon = entity.bind(zuuluu)(backup);
+            if(oscard) { _fun00002_ip = 121; continue _fun00001 }
  113:
             entity = offset.divider;
             _fun00002_ip = 127; continue _fun00001;
  121:
             entity = offset.dividerOuter;
  127:
-            zulu = entity.backgroundColor;
+            zuuluu = entity.backgroundColor;
             entity = null;
-            zulu = entity != zulu;
-            if(!zulu) { _fun00002_ip = 145; continue _fun00001 }
+            zuuluu = entity != zuuluu;
+            if(!zuuluu) { _fun00002_ip = 145; continue _fun00001 }
  141:
-            zulu = entity != golf;
+            zuuluu = entity != golfie;
  145:
-            if(!zulu) { _fun00002_ip = 152; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 152; continue _fun00001 }
  148:
-            zulu = entity != tango;
+            zuuluu = entity != tangon;
  152:
-            golf = null;
-            if(!zulu) { _fun00002_ip = 212; continue _fun00001 }
+            golfie = null;
+            if(!zuuluu) { _fun00002_ip = 212; continue _fun00001 }
  157:
-            zulu = {};
-            romeo = _closure1_slot0;
-            foxtrot = _closure1_slot1;
+            zuuluu = {};
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
             yankee = 8;
-            yankee = foxtrot[yankee];
-            foxtrot = romeo.bind(report)(yankee);
-            romeo = foxtrot.hexOpacityToRgba;
+            yankee = foxtra[yankee];
+            foxtra = romeon.bind(report)(yankee);
+            romeon = foxtra.hexOpacityToRgba;
             yankee = _closure1_slot6;
             yankee = yankee[backup];
-            tango = tango.dividerOpacity;
-            tango = romeo.bind(foxtrot)(yankee, tango);
-            zulu['backgroundColor'] = tango;
-            golf = zulu;
+            tangon = tangon.dividerOpacity;
+            tangon = romeon.bind(foxtra)(yankee, tangon);
+            zuuluu['backgroundColor'] = tangon;
+            golfie = zuuluu;
  212:
             yankee = _closure1_slot2;
-            tango = yankee.useContext;
-            romeo = _closure1_slot0;
-            foxtrot = _closure1_slot1;
-            zulu = 9;
-            zulu = foxtrot[zulu];
-            zulu = romeo.bind(report)(zulu);
-            zulu = zulu.RedesignCompatContext;
-            zulu = tango.bind(yankee)(zulu);
+            tangon = yankee.useContext;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            zuuluu = 9;
+            zuuluu = foxtra[zuuluu];
+            zuuluu = romeon.bind(report)(zuuluu);
+            zuuluu = zuuluu.RedesignCompatContext;
+            zuuluu = tangon.bind(yankee)(zuuluu);
             entity = null;
-            if(zulu) { _fun00002_ip = 324; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 324; continue _fun00001 }
  258:
-            tango = _closure1_slot4;
-            zulu = _closure1_slot3;
-            mike = {};
-            if(oscar) { _fun00002_ip = 279; continue _fun00001 }
+            tangon = _closure1_slot4;
+            zuuluu = _closure1_slot3;
+            michal = {};
+            if(oscard) { _fun00002_ip = 279; continue _fun00001 }
  271:
             yankee = offset.divider;
             _fun00002_ip = 285; continue _fun00001;
  279:
             yankee = offset.dividerOuter;
  285:
-            oscar = new Array(4);
-            oscar[0] = yankee;
+            oscard = new Array(4);
+            oscard[0] = yankee;
             if(!verify) { _fun00002_ip = 302; continue _fun00001 }
  296:
             verify = offset.dividerHasIcon;
  302:
-            oscar[1] = verify;
-            oscar[2] = options;
-            oscar[3] = golf;
-            mike['style'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            oscard[1] = verify;
+            oscard[2] = option;
+            oscard[3] = golfie;
+            michal['style'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  324:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['DIVIDER_COLORS'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['DIVIDER_COLORS'] = michal;
     return entity;
 })();

@@ -1,122 +1,122 @@
 // app/design/components/Icon/native/BaseIconImage.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Image;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = {};
-    golf = {'width': 12, 'height': 12};
-    tango['xxs'] = golf;
-    golf = {'width': 16, 'height': 16};
-    tango['xs'] = golf;
-    golf = {'width': 18, 'height': 18};
-    tango['sm'] = golf;
-    golf = {'width': 24, 'height': 24};
-    tango['md'] = golf;
-    golf = {'width': 32, 'height': 32};
-    tango['lg'] = golf;
-    golf = {};
-    golf['width'] = entity;
-    golf['height'] = entity;
-    tango['custom'] = golf;
-    golf = {'width': 18, 'height': 18};
-    tango['refresh_sm'] = golf;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Icon/native/BaseIconImage.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Image;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = {};
+    golfie = {'width': 12, 'height': 12};
+    tangon['xxs'] = golfie;
+    golfie = {'width': 16, 'height': 16};
+    tangon['xs'] = golfie;
+    golfie = {'width': 18, 'height': 18};
+    tangon['sm'] = golfie;
+    golfie = {'width': 24, 'height': 24};
+    tangon['md'] = golfie;
+    golfie = {'width': 32, 'height': 32};
+    tangon['lg'] = golfie;
+    golfie = {};
+    golfie['width'] = entity;
+    golfie['height'] = entity;
+    tangon['custom'] = golfie;
+    golfie = {'width': 18, 'height': 18};
+    tangon['refresh_sm'] = golfie;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Icon/native/BaseIconImage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            romeo = entity.source;
+            romeon = entity.source;
             offset = entity.size;
-            tango = undefined;
-            if(!(offset === tango)) { _fun00002_ip = 23; continue _fun00001 }
+            tangon = undefined;
+            if(!(offset === tangon)) { _fun00002_ip = 23; continue _fun00001 }
  19:
             offset = 'md';
  23:
-            zulu = entity.color;
+            zuuluu = entity.color;
             yankee = entity.resizeMode;
-            options = entity.style;
-            oscar = entity.accessible;
+            option = entity.style;
+            oscard = entity.accessible;
             report = entity.accessibilityLabel;
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 3;
             entity = verify[entity];
-            mike = mike.bind(tango)(entity);
-            entity = mike.useToken;
-            mike = entity.bind(mike)(zulu);
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useToken;
+            michal = entity.bind(michal)(zuuluu);
             entity = null;
-            if(!(entity == mike)) { _fun00002_ip = 125; continue _fun00001 }
+            if(!(entity == michal)) { _fun00002_ip = 125; continue _fun00001 }
  90:
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 108; continue _fun00001 }
  97:
-            foxtrot = 'string';
-            verify = typeof zulu;
-            entity = foxtrot === verify;
+            foxtra = 'string';
+            verify = typeof zuuluu;
+            entity = foxtra === verify;
  108:
             verify = undefined;
             if(!entity) { _fun00002_ip = 135; continue _fun00001 }
  113:
             entity = {};
-            entity['tintColor'] = zulu;
+            entity['tintColor'] = zuuluu;
             verify = entity;
             _fun00002_ip = 135; continue _fun00001;
  125:
             entity = {};
-            entity['tintColor'] = mike;
+            entity['tintColor'] = michal;
             verify = entity;
  135:
-            zulu = _closure1_slot3;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot2;
             entity = {};
-            foxtrot = 0;
-            entity['fadeDuration'] = foxtrot;
-            entity['source'] = romeo;
+            foxtra = 0;
+            entity['fadeDuration'] = foxtra;
+            entity['source'] = romeon;
             entity['resizeMode'] = yankee;
-            golf = _closure1_slot4;
-            offset = golf[offset];
-            golf = new Array(3);
-            golf[0] = offset;
-            golf[1] = verify;
-            golf[2] = options;
-            entity['style'] = golf;
-            entity['accessible'] = oscar;
+            golfie = _closure1_slot4;
+            offset = golfie[offset];
+            golfie = new Array(3);
+            golfie[0] = offset;
+            golfie[1] = verify;
+            golfie[2] = option;
+            entity['style'] = golfie;
+            entity['accessible'] = oscard;
             entity['accessibilityLabel'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['BaseIconImage'] = mike;
+    zuuluu['BaseIconImage'] = michal;
     return entity;
 })();

@@ -1,60 +1,60 @@
 // app/components_native/chat/isAlertOrActionSheetOpen.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'components_native/chat/isAlertOrActionSheetOpen.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isAlertOrActionSheetOpen
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'components_native/chat/isAlertOrActionSheetOpen.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isAlertOrActionSheetOpen
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[1];
-            tango = arguments[2];
+            michal = arguments[1];
+            tangon = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 19; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
  19:
-            if(!(tango === entity)) { _fun00002_ip = 30; continue _fun00001 }
+            if(!(tangon === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
  30:
-            entity = mike.getContent;
-            entity = entity.bind(mike)();
-            zulu = null;
-            entity = zulu != entity;
-            mike = tango.getAlert;
-            mike = mike.bind(tango)();
-            mike = zulu != mike;
+            entity = michal.getContent;
+            entity = entity.bind(michal)();
+            zuuluu = null;
+            entity = zuuluu != entity;
+            michal = tangon.getAlert;
+            michal = michal.bind(tangon)();
+            michal = zuuluu != michal;
             if(entity) { _fun00002_ip = 66; continue _fun00001 }
  63:
-            entity = mike;
+            entity = michal;
  66:
             return entity;
         }
     };
-    zulu['isAlertOrActionSheetOpen'] = mike;
+    zuuluu['isAlertOrActionSheetOpen'] = michal;
     return entity;
 })();

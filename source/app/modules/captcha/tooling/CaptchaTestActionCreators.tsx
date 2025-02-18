@@ -1,130 +1,130 @@
 // app/modules/captcha/tooling/CaptchaTestActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
     entity = function() { // Original name: _testCaptcha
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 109; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 109; continue _fun00001 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    mike = 2;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = tango.bind(zulu)(mike);
-                    report = mike.HTTP;
-                    tango = report.post;
-                    mike = {};
-                    oscar = _closure1_slot3;
-                    oscar = oscar.CAPTCHA_TEST;
-                    mike['url'] = oscar;
-                    oscar = {};
-                    golf = argFoo;
-                    oscar['decider'] = golf;
-                    golf = argBar;
-                    oscar['options'] = golf;
-                    mike['body'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    michal = 2;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
+                    oscard = _closure1_slot3;
+                    oscard = oscard.CAPTCHA_TEST;
+                    michal['url'] = oscard;
+                    oscard = {};
+                    golfie = argFoo;
+                    oscard['decider'] = golfie;
+                    golfie = argBar;
+                    oscard['options'] = golfie;
+                    michal['body'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=97);
  95:
-                    return mike;
+                    return michal;
  97:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 106; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 106; continue _fun00001 }
  103:
-                    return zulu;
+                    return zuuluu;
  106:
-                    return mike;
+                    return michal;
  109:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    report = options[entity];
-    tango = argBaz;
+    report = option[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot2 = tango;
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot2 = tangon;
     verify = 1;
-    tango = options[verify];
-    tango = golf.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot3 = tango;
+    tangon = option[verify];
+    tangon = golfie.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot3 = tangon;
     report = {};
-    tango = 'hCaptchaRqdata';
-    report['HCAPTCHA_RQDATA'] = tango;
-    tango = 'SmiteRqdata';
-    report['SMITE_RQDATA'] = tango;
-    tango = 'Recaptcha';
-    report['RECAPTCHA'] = tango;
-    tango = 'RecaptchaEnterprise';
-    report['RECAPTCHA_ENTERPRISE'] = tango;
-    tango = {};
-    tango['EASY'] = verify;
-    oscar = 'EASY';
-    tango[verify] = oscar;
+    tangon = 'hCaptchaRqdata';
+    report['HCAPTCHA_RQDATA'] = tangon;
+    tangon = 'SmiteRqdata';
+    report['SMITE_RQDATA'] = tangon;
+    tangon = 'Recaptcha';
+    report['RECAPTCHA'] = tangon;
+    tangon = 'RecaptchaEnterprise';
+    report['RECAPTCHA_ENTERPRISE'] = tangon;
+    tangon = {};
+    tangon['EASY'] = verify;
+    oscard = 'EASY';
+    tangon[verify] = oscard;
     verify = 2;
-    tango['MODERATE'] = verify;
-    oscar = 'MODERATE';
-    tango[verify] = oscar;
-    oscar = 3;
-    tango['DIFFICULT'] = oscar;
+    tangon['MODERATE'] = verify;
+    oscard = 'MODERATE';
+    tangon[verify] = oscard;
+    oscard = 3;
+    tangon['DIFFICULT'] = oscard;
     verify = 'DIFFICULT';
-    tango[oscar] = verify;
+    tangon[oscard] = verify;
     offset = 4;
-    tango['VERY_DIFFICULT'] = offset;
+    tangon['VERY_DIFFICULT'] = offset;
     verify = 'VERY_DIFFICULT';
-    tango[offset] = verify;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/captcha/tooling/CaptchaTestActionCreators.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['CaptchaDeciderType'] = report;
-    zulu['HCaptchaDifficulty'] = tango;
-    mike = function() { // Original name: testCaptcha
+    tangon[offset] = verify;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/captcha/tooling/CaptchaTestActionCreators.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['CaptchaDeciderType'] = report;
+    zuuluu['HCaptchaDifficulty'] = tangon;
+    michal = function() { // Original name: testCaptcha
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['testCaptcha'] = mike;
+    zuuluu['testCaptcha'] = michal;
     return entity;
 })();

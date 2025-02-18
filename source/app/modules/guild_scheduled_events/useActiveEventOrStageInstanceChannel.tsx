@@ -1,66 +1,66 @@
 // app/modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useActiveEventOrStageInstanceChannel
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useActiveEventOrStageInstanceChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            golf = _closure1_slot2;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 1;
-            mike = golf[entity];
+            michal = golfie[entity];
             entity = undefined;
-            tango = tango.bind(entity)(mike);
-            mike = tango.useFirstActiveEventChannel;
-            mike = mike.bind(tango)(report);
-            oscar = _closure1_slot1;
-            tango = 2;
-            tango = golf[tango];
-            tango = oscar.bind(entity)(tango);
-            oscar = tango.bind(entity)(report);
+            tangon = tangon.bind(entity)(michal);
+            michal = tangon.useFirstActiveEventChannel;
+            michal = michal.bind(tangon)(report);
+            oscard = _closure1_slot1;
+            tangon = 2;
+            tangon = golfie[tangon];
+            tangon = oscard.bind(entity)(tangon);
+            oscard = tangon.bind(entity)(report);
             report = _closure1_slot3;
-            tango = report.getChannel;
-            zulu = 0;
-            oscar = oscar[zulu];
-            zulu = null;
-            golf = zulu == oscar;
-            if(golf) { _fun00002_ip = 89; continue _fun00001 }
+            tangon = report.getChannel;
+            zuuluu = 0;
+            oscard = oscard[zuuluu];
+            zuuluu = null;
+            golfie = zuuluu == oscard;
+            if(golfie) { _fun00002_ip = 89; continue _fun00001 }
  84:
-            entity = oscar.id;
+            entity = oscard.id;
  89:
-            entity = tango.bind(report)(entity);
-            if(!(zulu != mike)) { _fun00002_ip = 101; continue _fun00001 }
+            entity = tangon.bind(report)(entity);
+            if(!(zuuluu != michal)) { _fun00002_ip = 101; continue _fun00001 }
  98:
-            entity = mike;
+            entity = michal;
  101:
             return entity;
         }
     };
-    zulu['useActiveEventOrStageInstanceChannel'] = mike;
+    zuuluu['useActiveEventOrStageInstanceChannel'] = michal;
     return entity;
 })();

@@ -1,43 +1,43 @@
 // app/modules/icons/native/Share.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        golf = argBaz;
-        zulu = argFred;
-        oscar = argPlugh;
+        golfie = argBaz;
+        zuuluu = argFre;
+        oscard = argPlu;
         entity = global;
-        options = entity.Object;
-        tango = options.defineProperty;
-        mike = {};
+        option = entity.Object;
+        tangon = option.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = tango.bind(options)(zulu, entity, mike);
+        entity = tangon.bind(option)(zuuluu, entity, michal);
         entity = 0;
-        mike = oscar[entity];
+        michal = oscard[entity];
         entity = undefined;
-        tango = report.bind(entity)(mike);
-        mike = tango.isIOS;
-        mike = mike.bind(tango)();
-        if(mike) { _fun00002_ip = 84; continue _fun00001 }
+        tangon = report.bind(entity)(michal);
+        michal = tangon.isIOS;
+        michal = michal.bind(tangon)();
+        if(michal) { _fun00002_ip = 84; continue _fun00001 }
  70:
-        mike = 2;
-        mike = oscar[mike];
-        mike = golf.bind(entity)(mike);
+        michal = 2;
+        michal = oscard[michal];
+        michal = golfie.bind(entity)(michal);
         _fun00002_ip = 96; continue _fun00001;
  84:
-        tango = 1;
-        tango = oscar[tango];
-        mike = golf.bind(entity)(tango);
+        tangon = 1;
+        tangon = oscard[tangon];
+        michal = golfie.bind(entity)(tangon);
  96:
-        tango = 3;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/icons/native/Share.tsx';
-        tango = report.bind(oscar)(tango);
-        zulu['default'] = mike;
+        tangon = 3;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/icons/native/Share.tsx';
+        tangon = report.bind(oscard)(tangon);
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

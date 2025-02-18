@@ -1,30 +1,30 @@
 // app/modules/messages/ChatOverlayConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'new_messages';
-    mike['NEW_MESSAGES'] = entity;
+    michal['NEW_MESSAGES'] = entity;
     entity = 'opt_in_channel';
-    mike['OPT_IN_CHANNEL'] = entity;
+    michal['OPT_IN_CHANNEL'] = entity;
     entity = 'summaries';
-    mike['SUMMARIES'] = entity;
-    tango = argPlugh;
+    michal['SUMMARIES'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/ChatOverlayConstants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['ChatOverlays'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/ChatOverlayConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['ChatOverlays'] = michal;
     return entity;
 })();

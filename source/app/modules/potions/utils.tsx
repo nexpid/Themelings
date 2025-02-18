@@ -1,151 +1,151 @@
 // app/modules/potions/utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/potions/utils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) {
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/potions/utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.hasPotions;
-            zulu = zulu.bind(mike)();
-            if(zulu) { _fun00002_ip = 22; continue _fun00001 }
+            michal = argFoo;
+            zuuluu = michal.hasPotions;
+            zuuluu = zuuluu.bind(michal)();
+            if(zuuluu) { _fun00002_ip = 22; continue _fun00001 }
  18:
-            zulu = false;
-            return zulu;
+            zuuluu = false;
+            return zuuluu;
  22:
-            zulu = mike.potions;
-            mike = null;
-            if(!(mike == zulu)) { _fun00002_ip = 38; continue _fun00001 }
+            zuuluu = michal.potions;
+            michal = null;
+            if(!(michal == zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
  34:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
  38:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 0;
-            tango = tango[mike];
-            mike = undefined;
-            tango = report.bind(mike)(tango);
-            mike = tango.isAndroid;
-            mike = mike.bind(tango)();
-            var _closure2_slot0 = mike;
-            mike = zulu.some;
+            tangon = _closure1_slot1;
+            michal = 0;
+            tangon = tangon[michal];
+            michal = undefined;
+            tangon = report.bind(michal)(tangon);
+            michal = tangon.isAndroid;
+            michal = michal.bind(tangon)();
+            var _closure2_slot0 = michal;
+            michal = zuuluu.some;
             entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = argFoo;
-                    mike = zulu.type;
+                    zuuluu = argFoo;
+                    michal = zuuluu.type;
                     report = _closure1_slot0;
-                    tango = _closure1_slot1;
+                    tangon = _closure1_slot1;
                     entity = 1;
-                    tango = tango[entity];
+                    tangon = tangon[entity];
                     entity = undefined;
-                    entity = report.bind(entity)(tango);
+                    entity = report.bind(entity)(tangon);
                     entity = entity.MessagePotionTypes;
                     entity = entity.CONFETTI;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     if(!entity) { _fun00004_ip = 91; continue _fun00003 }
  52:
-                    mike = _closure2_slot0;
-                    mike = !mike;
-                    if(mike) { _fun00004_ip = 88; continue _fun00003 }
+                    michal = _closure2_slot0;
+                    michal = !michal;
+                    if(michal) { _fun00004_ip = 88; continue _fun00003 }
  65:
-                    tango = zulu.emoji;
-                    zulu = 0;
-                    zulu = tango[zulu];
-                    tango = zulu.id;
-                    zulu = null;
-                    mike = zulu != tango;
+                    tangon = zuuluu.emoji;
+                    zuuluu = 0;
+                    zuuluu = tangon[zuuluu];
+                    tangon = zuuluu.id;
+                    zuuluu = null;
+                    michal = zuuluu != tangon;
  88:
-                    entity = mike;
+                    entity = michal;
  91:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['messageHasConfettiPotion'] = tango;
-    tango = function(argFoo) {
+    zuuluu['messageHasConfettiPotion'] = tangon;
+    tangon = function(argFoo) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            mike = entity.hasPotions;
-            mike = mike.bind(entity)();
-            if(mike) { _fun00006_ip = 20; continue _fun00005 }
+            michal = entity.hasPotions;
+            michal = michal.bind(entity)();
+            if(michal) { _fun00006_ip = 20; continue _fun00005 }
  16:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  20:
-            zulu = entity.potions;
+            zuuluu = entity.potions;
             entity = null;
-            if(!(entity == zulu)) { _fun00006_ip = 36; continue _fun00005 }
+            if(!(entity == zuuluu)) { _fun00006_ip = 36; continue _fun00005 }
  32:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
  36:
-            mike = zulu.find;
+            michal = zuuluu.find;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.type;
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
+                michal = entity.type;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 entity = 1;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                entity = tango.bind(entity)(zulu);
+                entity = tangon.bind(entity)(zuuluu);
                 entity = entity.MessagePotionTypes;
                 entity = entity.CONFETTI;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['getFirstConfettiPotion'] = tango;
-    mike = function(argFoo) {
+    zuuluu['getFirstConfettiPotion'] = tangon;
+    michal = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.id;
+            zuuluu = argFoo;
+            michal = zuuluu.id;
             entity = null;
-            if(!(entity == mike)) { _fun00008_ip = 34; continue _fun00007 }
+            if(!(entity == michal)) { _fun00008_ip = 34; continue _fun00007 }
  14:
             entity = {};
-            mike = zulu.optionallyDiverseSequence;
-            entity['name'] = mike;
-            mike = undefined;
-            entity['id'] = mike;
+            michal = zuuluu.optionallyDiverseSequence;
+            entity['name'] = michal;
+            michal = undefined;
+            entity['id'] = michal;
             _fun00008_ip = 57; continue _fun00007;
  34:
-            mike = {};
-            tango = zulu.id;
-            mike['id'] = tango;
-            zulu = zulu.name;
-            mike['name'] = zulu;
-            entity = mike;
+            michal = {};
+            tangon = zuuluu.id;
+            michal['id'] = tangon;
+            zuuluu = zuuluu.name;
+            michal['name'] = zuuluu;
+            entity = michal;
  57:
             return entity;
         }
     };
-    zulu['disambiguatedEmojiToMessagePotionEmoji'] = mike;
+    zuuluu['disambiguatedEmojiToMessagePotionEmoji'] = michal;
     return entity;
 })();

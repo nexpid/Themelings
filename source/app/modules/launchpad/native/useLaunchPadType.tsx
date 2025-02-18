@@ -1,92 +1,92 @@
 // app/modules/launchpad/native/useLaunchPadType.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.LaunchPadTypes;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/launchpad/native/useLaunchPadType.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useLaunchPadType
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.LaunchPadTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/launchpad/native/useLaunchPadType.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useLaunchPadType
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            tango = zulu[mike];
-            mike = undefined;
-            tango = report.bind(mike)(tango);
-            oscar = tango.LaunchPadModeSetting;
-            tango = oscar.useSetting;
-            tango = tango.bind(oscar)();
-            oscar = 2;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.LaunchPadMode;
-            zulu = zulu.LAUNCH_PAD_DISABLED;
-            if(!(zulu !== tango)) { _fun00002_ip = 209; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            tangon = zuuluu[michal];
+            michal = undefined;
+            tangon = report.bind(michal)(tangon);
+            oscard = tangon.LaunchPadModeSetting;
+            tangon = oscard.useSetting;
+            tangon = tangon.bind(oscard)();
+            oscard = 2;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.LaunchPadMode;
+            zuuluu = zuuluu.LAUNCH_PAD_DISABLED;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 209; continue _fun00001 }
  72:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.LaunchPadMode;
-            zulu = zulu.LAUNCH_PAD_GESTURE_FULL_SCREEN;
-            if(!(zulu !== tango)) { _fun00002_ip = 197; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.LaunchPadMode;
+            zuuluu = zuuluu.LAUNCH_PAD_GESTURE_FULL_SCREEN;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 197; continue _fun00001 }
  105:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.LaunchPadMode;
-            zulu = zulu.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
-            if(!(zulu !== tango)) { _fun00002_ip = 185; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.LaunchPadMode;
+            zuuluu = zuuluu.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 185; continue _fun00001 }
  138:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.LaunchPadMode;
-            zulu = zulu.LAUNCH_PAD_PULL_TAB;
-            if(!(zulu !== tango)) { _fun00002_ip = 173; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.LaunchPadMode;
+            zuuluu = zuuluu.LAUNCH_PAD_PULL_TAB;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 173; continue _fun00001 }
  171:
-            return mike;
+            return michal;
  173:
-            mike = _closure1_slot2;
-            mike = mike.PULL_TAB;
-            return mike;
+            michal = _closure1_slot2;
+            michal = michal.PULL_TAB;
+            return michal;
  185:
-            mike = _closure1_slot2;
-            mike = mike.GESTURE_EDGE;
-            return mike;
+            michal = _closure1_slot2;
+            michal = michal.GESTURE_EDGE;
+            return michal;
  197:
-            mike = _closure1_slot2;
-            mike = mike.GESTURE_FULL;
-            return mike;
+            michal = _closure1_slot2;
+            michal = michal.GESTURE_FULL;
+            return michal;
  209:
             entity = _closure1_slot2;
             entity = entity.DISABLED;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

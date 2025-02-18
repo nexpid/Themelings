@@ -1,115 +1,115 @@
 // discord_common/js/packages/shallow-equal/shallowEqual.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/shallow-equal/shallowEqual.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: shallowEqual
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/shallow-equal/shallowEqual.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: shallowEqual
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             backup = argFoo;
-            foxtrot = argBar;
-            romeo = argBaz;
-            tango = argCorge;
-            entity = backup === foxtrot;
+            foxtra = argBar;
+            romeon = argBaz;
+            tangon = argCor;
+            entity = backup === foxtra;
             if(entity) { _fun00002_ip = 304; continue _fun00001 }
  22:
-            zulu = undefined;
-            if(!(zulu !== backup)) { _fun00002_ip = 302; continue _fun00001 }
+            zuuluu = undefined;
+            if(!(zuuluu !== backup)) { _fun00002_ip = 302; continue _fun00001 }
  31:
-            if(!(zulu !== foxtrot)) { _fun00002_ip = 302; continue _fun00001 }
+            if(!(zuuluu !== foxtra)) { _fun00002_ip = 302; continue _fun00001 }
  38:
-            mike = global;
-            oscar = mike.Object;
-            report = oscar.keys;
-            oscar = report.bind(oscar)(backup);
-            golf = mike.Object;
-            report = golf.keys;
-            report = report.bind(golf)(foxtrot);
-            options = oscar.length;
-            golf = report.length;
-            if(!(options === golf)) { _fun00002_ip = 247; continue _fun00001 }
+            michal = global;
+            oscard = michal.Object;
+            report = oscard.keys;
+            oscard = report.bind(oscard)(backup);
+            golfie = michal.Object;
+            report = golfie.keys;
+            report = report.bind(golfie)(foxtra);
+            option = oscard.length;
+            golfie = report.length;
+            if(!(option === golfie)) { _fun00002_ip = 247; continue _fun00001 }
  89:
-            golf = new Array(0);
-            verify = oscar.length;
-            options = 0;
-            offset = options < verify;
+            golfie = new Array(0);
+            verify = oscard.length;
+            option = 0;
+            offset = option < verify;
             verify = null;
             yankee = 0;
             if(!offset) { _fun00002_ip = 170; continue _fun00001 }
  111:
-            kilo = oscar[yankee];
-            sizing = backup[kilo];
-            offset = foxtrot[kilo];
+            kiloes = oscard[yankee];
+            sizing = backup[kiloes];
+            offset = foxtra[kiloes];
             if(!(sizing !== offset)) { _fun00002_ip = 158; continue _fun00001 }
  127:
-            if(!(verify != romeo)) { _fun00002_ip = 144; continue _fun00001 }
+            if(!(verify != romeon)) { _fun00002_ip = 144; continue _fun00001 }
  131:
-            offset = romeo.includes;
-            offset = offset.bind(romeo)(kilo);
+            offset = romeon.includes;
+            offset = offset.bind(romeon)(kiloes);
             if(offset) { _fun00002_ip = 158; continue _fun00001 }
  144:
-            if(!(verify != tango)) { _fun00002_ip = 243; continue _fun00001 }
+            if(!(verify != tangon)) { _fun00002_ip = 243; continue _fun00001 }
  148:
-            offset = golf.push;
-            offset = offset.bind(golf)(kilo);
+            offset = golfie.push;
+            offset = offset.bind(golfie)(kiloes);
  158:
             yankee = yankee + 1;
-            offset = oscar.length;
+            offset = oscard.length;
             if(yankee < offset) { _fun00002_ip = 111; continue _fun00001 }
  170:
-            verify = verify != tango;
+            verify = verify != tangon;
             if(!verify) { _fun00002_ip = 186; continue _fun00001 }
  177:
-            offset = golf.length;
-            verify = offset > options;
+            offset = golfie.length;
+            verify = offset > option;
  186:
             if(!verify) { _fun00002_ip = 232; continue _fun00001 }
  189:
-            offset = golf.join;
+            offset = golfie.join;
             verify = ', ';
-            yankee = offset.bind(golf)(verify);
-            verify = mike.HermesInternal;
+            yankee = offset.bind(golfie)(verify);
+            verify = michal.HermesInternal;
             offset = verify.concat;
             verify = 'shallowEqual: unequal keys: ';
             verify = offset.bind(verify)(yankee);
-            verify = tango.bind(zulu)(verify);
+            verify = tangon.bind(zuuluu)(verify);
  232:
-            golf = golf.length;
-            golf = options === golf;
-            return golf;
+            golfie = golfie.length;
+            golfie = option === golfie;
+            return golfie;
  243:
-            golf = false;
-            return golf;
+            golfie = false;
+            return golfie;
  247:
-            golf = null;
-            if(!(golf != tango)) { _fun00002_ip = 298; continue _fun00001 }
+            golfie = null;
+            if(!(golfie != tangon)) { _fun00002_ip = 298; continue _fun00001 }
  253:
-            options = oscar.length;
-            golf = report.length;
-            mike = mike.HermesInternal;
-            oscar = mike.concat;
+            option = oscard.length;
+            golfie = report.length;
+            michal = michal.HermesInternal;
+            oscard = michal.concat;
             report = 'shallowEqual: unequal key lengths ';
-            mike = ' !=== ';
-            mike = oscar.bind(report)(options, mike, golf);
-            mike = tango.bind(zulu)(mike);
+            michal = ' !=== ';
+            michal = oscard.bind(report)(option, michal, golfie);
+            michal = tangon.bind(zuuluu)(michal);
  298:
-            mike = false;
-            return mike;
+            michal = false;
+            return michal;
  302:
             return entity;
  304:
@@ -117,38 +117,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo, argBar) { // Original name: areArraysShallowEqual
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: areArraysShallowEqual
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            zulu = argBar;
-            var _closure2_slot0 = zulu;
+            tangon = argFoo;
+            zuuluu = argBar;
+            var _closure2_slot0 = zuuluu;
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00004_ip = 35; continue _fun00003 }
  21:
-            report = tango.length;
-            zulu = zulu.length;
-            entity = report === zulu;
+            report = tangon.length;
+            zuuluu = zuuluu.length;
+            entity = report === zuuluu;
  35:
             if(!entity) { _fun00004_ip = 57; continue _fun00003 }
  38:
-            zulu = tango.some;
-            mike = function(argFoo, argBar) {
-                mike = _closure2_slot0;
+            zuuluu = tangon.some;
+            michal = function(argFoo, argBar) {
+                michal = _closure2_slot0;
                 entity = argBar;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = argFoo;
-                entity = mike !== entity;
+                entity = michal !== entity;
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  57:
             return entity;
         }
     };
-    zulu['areArraysShallowEqual'] = mike;
+    zuuluu['areArraysShallowEqual'] = michal;
     return entity;
 })();

@@ -1,78 +1,78 @@
 // app/modules/clan/hooks/useCurrentUserAvailableClans.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    tango = function() { // Original name: useCurrentUserAvailableClans
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStoresArray;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function() { // Original name: useCurrentUserAvailableClans
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresArray;
         report = _closure1_slot5;
-        mike = new Array(2);
-        mike[0] = report;
+        michal = new Array(2);
+        michal[0] = report;
         entity = _closure1_slot4;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = function() {
-            zulu = _closure1_slot5;
-            mike = zulu.getGuilds;
-            zulu = mike.bind(zulu)();
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot5;
+            michal = zuuluu.getGuilds;
+            zuuluu = michal.bind(zuuluu)();
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 4;
-            entity = mike[entity];
-            mike = undefined;
-            entity = tango.bind(mike)(entity);
-            mike = entity.bind(mike)(zulu);
-            entity = mike.values;
-            zulu = entity.bind(mike)();
-            mike = zulu.filter;
+            entity = michal[entity];
+            michal = undefined;
+            entity = tangon.bind(michal)(entity);
+            michal = entity.bind(michal)(zuuluu);
+            entity = michal.values;
+            zuuluu = entity.bind(michal)();
+            michal = zuuluu.filter;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = argFoo;
+                    zuuluu = argFoo;
                     report = _closure1_slot0;
-                    mike = _closure1_slot2;
+                    michal = _closure1_slot2;
                     entity = 5;
-                    entity = mike[entity];
-                    mike = undefined;
-                    report = report.bind(mike)(entity);
+                    entity = michal[entity];
+                    michal = undefined;
+                    report = report.bind(michal)(entity);
                     entity = report.isGuildAClan;
-                    entity = entity.bind(report)(zulu);
+                    entity = entity.bind(report)(zuuluu);
                     if(!entity) { _fun00002_ip = 83; continue _fun00001 }
  42:
                     report = _closure1_slot4;
-                    tango = report.getSelfMember;
-                    zulu = zulu.id;
-                    tango = tango.bind(report)(zulu);
-                    zulu = null;
-                    report = zulu == tango;
-                    mike = undefined;
+                    tangon = report.getSelfMember;
+                    zuuluu = zuuluu.id;
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = null;
+                    report = zuuluu == tangon;
+                    michal = undefined;
                     if(report) { _fun00002_ip = 79; continue _fun00001 }
  73:
-                    mike = tango.joinedAt;
+                    michal = tangon.joinedAt;
  79:
-                    entity = zulu != mike;
+                    entity = zuuluu != michal;
  83:
                     return entity;
                 }
             };
-            mike = mike.bind(zulu)(entity);
-            entity = mike.value;
-            entity = entity.bind(mike)();
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.value;
+            entity = entity.bind(michal)();
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -80,58 +80,58 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    verify = golf[entity];
-    report = argCorge;
+    verify = golfie[entity];
+    report = argCor;
     entity = undefined;
     report = report.bind(entity)(verify);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 6;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/clan/hooks/useCurrentUserAvailableClans.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useCurrentUserAvailableClans'] = tango;
-    mike = function() { // Original name: useCurrentUserAvailableClanIds
-        tango = _closure1_slot6;
-        zulu = undefined;
-        report = tango.bind(zulu)();
+    report = oscard.bind(golfie)(report);
+    zuuluu['useCurrentUserAvailableClans'] = tangon;
+    michal = function() { // Original name: useCurrentUserAvailableClanIds
+        tangon = _closure1_slot6;
+        zuuluu = undefined;
+        report = tangon.bind(zuuluu)();
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             entity = global;
-            zulu = entity.Set;
-            tango = _closure2_slot0;
-            mike = tango.map;
+            zuuluu = entity.Set;
+            tangon = _closure2_slot0;
+            michal = tangon.map;
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.id;
                 return entity;
             };
-            report = mike.bind(tango)(entity);
-            mike = zulu.prototype;
-            mike = Object.create(mike, {constructor: {value: zulu}});
-            oscar = mike;
-            entity = new oscar[zulu](report, tango);
-            entity = entity instanceof Object ? entity : mike;
+            report = michal.bind(tangon)(entity);
+            michal = zuuluu.prototype;
+            michal = Object.create(michal, {constructor: {value: zuuluu}});
+            oscard = michal;
+            entity = new oscard[zuuluu](report, tangon);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useCurrentUserAvailableClanIds'] = mike;
+    zuuluu['useCurrentUserAvailableClanIds'] = michal;
     return entity;
 })();

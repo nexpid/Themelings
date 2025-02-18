@@ -1,111 +1,111 @@
 // app/utils/NetworkUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = new Array(0);
     var _closure1_slot2 = entity;
     entity = false;
     var _closure1_slot3 = entity;
-    mike = {};
+    michal = {};
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    offset = golf.default;
-    yankee = mike;
-    golf = copyDataProperties(yankee, offset);
-    golf = function() { // Original name: awaitOnline
+    golfie = report.bind(entity)(golfie);
+    offset = golfie.default;
+    yankee = michal;
+    golfie = copyDataProperties(yankee, offset);
+    golfie = function() { // Original name: awaitOnline
         entity = global;
-        zulu = entity.Promise;
-        entity = zulu.prototype;
-        mike = Object.create(entity, {constructor: {value: zulu}});
-        tango = function(argFoo) {
+        zuuluu = entity.Promise;
+        entity = zuuluu.prototype;
+        michal = Object.create(entity, {constructor: {value: zuuluu}});
+        tangon = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
-                golf = _closure1_slot0;
+                michal = argFoo;
+                golfie = _closure1_slot0;
                 entity = _closure1_slot1;
-                oscar = 0;
-                report = entity[oscar];
+                oscard = 0;
+                report = entity[oscard];
                 entity = undefined;
-                report = golf.bind(entity)(report);
-                golf = report.default;
-                report = golf.isOnline;
-                report = report.bind(golf)();
+                report = golfie.bind(entity)(report);
+                golfie = report.default;
+                report = golfie.isOnline;
+                report = report.bind(golfie)();
                 if(report) { _fun00002_ip = 118; continue _fun00001 }
  47:
-                golf = _closure1_slot2;
-                report = golf.push;
-                report = report.bind(golf)(mike);
+                golfie = _closure1_slot2;
+                report = golfie.push;
+                report = report.bind(golfie)(michal);
                 report = _closure1_slot3;
                 if(report) { _fun00002_ip = 116; continue _fun00001 }
  68:
                 report = true;
                 _closure1_slot3 = report;
                 report = function() { // Original name: whenOnline
-                    zulu = _closure1_slot2;
-                    tango = zulu.forEach;
-                    mike = function(argFoo) {
-                        mike = argFoo;
+                    zuuluu = _closure1_slot2;
+                    tangon = zuuluu.forEach;
+                    michal = function(argFoo) {
+                        michal = argFoo;
                         entity = undefined;
-                        entity = mike.bind(entity)();
+                        entity = michal.bind(entity)();
                         return entity;
                     };
-                    mike = tango.bind(zulu)(mike);
-                    mike = 0;
-                    zulu['length'] = mike;
-                    zulu = false;
-                    _closure1_slot3 = zulu;
-                    zulu = _closure1_slot0;
+                    michal = tangon.bind(zuuluu)(michal);
+                    michal = 0;
+                    zuuluu['length'] = michal;
+                    zuuluu = false;
+                    _closure1_slot3 = zuuluu;
+                    zuuluu = _closure1_slot0;
                     entity = _closure1_slot1;
-                    mike = entity[mike];
+                    michal = entity[michal];
                     entity = undefined;
-                    mike = zulu.bind(entity)(mike);
-                    tango = mike.default;
-                    zulu = tango.removeOnlineCallback;
-                    mike = _closure3_slot0;
-                    mike = zulu.bind(tango)(mike);
+                    michal = zuuluu.bind(entity)(michal);
+                    tangon = michal.default;
+                    zuuluu = tangon.removeOnlineCallback;
+                    michal = _closure3_slot0;
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 };
                 var _closure3_slot0 = report;
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                zulu = zulu[oscar];
-                zulu = tango.bind(entity)(zulu);
-                tango = zulu.default;
-                zulu = tango.addOnlineCallback;
-                zulu = zulu.bind(tango)(report);
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                zuuluu = zuuluu[oscard];
+                zuuluu = tangon.bind(entity)(zuuluu);
+                tangon = zuuluu.default;
+                zuuluu = tangon.addOnlineCallback;
+                zuuluu = zuuluu.bind(tangon)(report);
  116:
                 return entity;
  118:
-                entity = mike.bind(entity)();
+                entity = michal.bind(entity)();
                 return entity;
             }
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    tango = 'awaitOnline';
-    mike[tango] = golf;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/NetworkUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    tangon = 'awaitOnline';
+    michal[tangon] = golfie;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/NetworkUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

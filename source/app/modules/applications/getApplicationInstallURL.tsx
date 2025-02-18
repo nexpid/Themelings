@@ -1,170 +1,170 @@
 // app/modules/applications/getApplicationInstallURL.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Routes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/applications/getApplicationInstallURL.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getActivityLaunchURL
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Routes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/applications/getApplicationInstallURL.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getActivityLaunchURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.applicationId;
+            oscard = entity.applicationId;
             report = entity.customId;
-            golf = entity.referrerId;
+            golfie = entity.referrerId;
             entity = global;
-            tango = entity.URL;
-            zulu = _closure1_slot0;
-            mike = zulu.ACTIVITY_DETAILS;
-            zulu = mike.bind(zulu)(oscar);
-            mike = entity.location;
-            verify = mike.protocol;
-            mike = entity.location;
-            options = mike.host;
+            tangon = entity.URL;
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.ACTIVITY_DETAILS;
+            zuuluu = michal.bind(zuuluu)(oscard);
+            michal = entity.location;
+            verify = michal.protocol;
+            michal = entity.location;
+            option = michal.host;
             entity = entity.HermesInternal;
-            oscar = entity.concat;
-            mike = '';
+            oscard = entity.concat;
+            michal = '';
             entity = '//';
-            yankee = oscar.bind(mike)(verify, entity, options);
-            mike = tango.prototype;
-            mike = Object.create(mike, {constructor: {value: tango}});
-            foxtrot = mike;
-            romeo = zulu;
-            entity = new foxtrot[tango](romeo, yankee, offset);
-            mike = entity instanceof Object ? entity : mike;
-            tango = mike.searchParams;
+            yankee = oscard.bind(michal)(verify, entity, option);
+            michal = tangon.prototype;
+            michal = Object.create(michal, {constructor: {value: tangon}});
+            foxtra = michal;
+            romeon = zuuluu;
+            entity = new foxtra[tangon](romeon, yankee, offset);
+            michal = entity instanceof Object ? entity : michal;
+            tangon = michal.searchParams;
             entity = null;
-            if(!(entity != golf)) { _fun00002_ip = 148; continue _fun00001 }
+            if(!(entity != golfie)) { _fun00002_ip = 148; continue _fun00001 }
  133:
-            oscar = tango.set;
-            zulu = 'referrer_id';
-            zulu = oscar.bind(tango)(zulu, golf);
+            oscard = tangon.set;
+            zuuluu = 'referrer_id';
+            zuuluu = oscard.bind(tangon)(zuuluu, golfie);
  148:
             if(!(entity != report)) { _fun00002_ip = 167; continue _fun00001 }
  152:
-            zulu = tango.set;
+            zuuluu = tangon.set;
             entity = 'custom_id';
-            entity = zulu.bind(tango)(entity, report);
+            entity = zuuluu.bind(tangon)(entity, report);
  167:
-            entity = mike.toString;
-            entity = entity.bind(mike)();
+            entity = michal.toString;
+            entity = entity.bind(michal)();
             return entity;
         }
     };
-    zulu['getActivityLaunchURL'] = tango;
-    mike = function(argFoo) { // Original name: getApplicationInstallURL
+    zuuluu['getActivityLaunchURL'] = tangon;
+    michal = function(argFoo) { // Original name: getApplicationInstallURL
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            options = mike.id;
-            entity = mike.customInstallUrl;
-            report = mike.installParams;
-            verify = mike.integrationTypesConfig;
-            zulu = null;
-            if(!(zulu == entity)) { _fun00004_ip = 267; continue _fun00003 }
+            michal = argFoo;
+            option = michal.id;
+            entity = michal.customInstallUrl;
+            report = michal.installParams;
+            verify = michal.integrationTypesConfig;
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00004_ip = 267; continue _fun00003 }
  35:
-            mike = global;
-            tango = mike.URLSearchParams;
-            oscar = tango.prototype;
-            oscar = Object.create(oscar, {constructor: {value: tango}});
-            sizing = oscar;
-            tango = new sizing[tango](kilo);
-            tango = tango instanceof Object ? tango : oscar;
-            golf = tango.set;
-            oscar = 'client_id';
-            oscar = golf.bind(tango)(oscar, options);
-            oscar = zulu != verify;
-            if(!oscar) { _fun00004_ip = 119; continue _fun00003 }
+            michal = global;
+            tangon = michal.URLSearchParams;
+            oscard = tangon.prototype;
+            oscard = Object.create(oscard, {constructor: {value: tangon}});
+            sizing = oscard;
+            tangon = new sizing[tangon](kiloes);
+            tangon = tangon instanceof Object ? tangon : oscard;
+            golfie = tangon.set;
+            oscard = 'client_id';
+            oscard = golfie.bind(tangon)(oscard, option);
+            oscard = zuuluu != verify;
+            if(!oscard) { _fun00004_ip = 119; continue _fun00003 }
  85:
-            options = mike.Object;
-            golf = options.values;
-            verify = golf.bind(options)(verify);
-            options = verify.some;
-            golf = function(argFoo) {
+            option = michal.Object;
+            golfie = option.values;
+            verify = golfie.bind(option)(verify);
+            option = verify.some;
+            golfie = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    tango = argFoo;
-                    zulu = null;
-                    report = zulu == tango;
+                    tangon = argFoo;
+                    zuuluu = null;
+                    report = zuuluu == tangon;
                     entity = undefined;
                     if(report) { _fun00006_ip = 20; continue _fun00005 }
  14:
-                    entity = tango.oauth2_install_params;
+                    entity = tangon.oauth2_install_params;
  20:
-                    entity = zulu != entity;
+                    entity = zuuluu != entity;
                     if(entity) { _fun00006_ip = 46; continue _fun00005 }
  27:
-                    report = zulu == tango;
-                    mike = undefined;
+                    report = zuuluu == tangon;
+                    michal = undefined;
                     if(report) { _fun00006_ip = 42; continue _fun00005 }
  36:
-                    mike = tango.oauth2InstallParams;
+                    michal = tangon.oauth2InstallParams;
  42:
-                    entity = zulu != mike;
+                    entity = zuuluu != michal;
  46:
                     return entity;
                 }
             };
-            oscar = options.bind(verify)(golf);
+            oscard = option.bind(verify)(golfie);
  119:
-            if(!(zulu != report)) { _fun00004_ip = 190; continue _fun00003 }
+            if(!(zuuluu != report)) { _fun00004_ip = 190; continue _fun00003 }
  123:
-            if(oscar) { _fun00004_ip = 190; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 190; continue _fun00003 }
  126:
-            options = report.permissions;
-            golf = report.scopes;
-            if(!(zulu != options)) { _fun00004_ip = 157; continue _fun00003 }
+            option = report.permissions;
+            golfie = report.scopes;
+            if(!(zuuluu != option)) { _fun00004_ip = 157; continue _fun00003 }
  142:
-            oscar = tango.set;
+            oscard = tangon.set;
             report = 'permissions';
-            report = oscar.bind(tango)(report, options);
+            report = oscard.bind(tangon)(report, option);
  157:
-            if(!(zulu != golf)) { _fun00004_ip = 190; continue _fun00003 }
+            if(!(zuuluu != golfie)) { _fun00004_ip = 190; continue _fun00003 }
  161:
-            oscar = tango.set;
-            report = golf.join;
-            zulu = ' ';
-            report = report.bind(golf)(zulu);
-            zulu = 'scope';
-            zulu = oscar.bind(tango)(zulu, report);
+            oscard = tangon.set;
+            report = golfie.join;
+            zuuluu = ' ';
+            report = report.bind(golfie)(zuuluu);
+            zuuluu = 'scope';
+            zuuluu = oscard.bind(tangon)(zuuluu, report);
  190:
-            zulu = mike.location;
-            kilo = zulu.protocol;
-            zulu = mike.location;
-            foxtrot = zulu.host;
-            zulu = _closure1_slot0;
-            romeo = zulu.OAUTH2_AUTHORIZE;
-            zulu = tango.toString;
-            offset = zulu.bind(tango)();
-            mike = mike.HermesInternal;
-            report = mike.concat;
+            zuuluu = michal.location;
+            kiloes = zuuluu.protocol;
+            zuuluu = michal.location;
+            foxtra = zuuluu.host;
+            zuuluu = _closure1_slot0;
+            romeon = zuuluu.OAUTH2_AUTHORIZE;
+            zuuluu = tangon.toString;
+            offset = zuuluu.bind(tangon)();
+            michal = michal.HermesInternal;
+            report = michal.concat;
             sizing = '';
             backup = '//';
             yankee = '?';
-            mike = sizing[report](kilo, backup, foxtrot, romeo, yankee, offset, verify);
-            return mike;
+            michal = sizing[report](kiloes, backup, foxtra, romeon, yankee, offset, verify);
+            return michal;
  267:
             return entity;
         }
     };
-    zulu['getApplicationInstallURL'] = mike;
+    zuuluu['getApplicationInstallURL'] = michal;
     return entity;
 })();

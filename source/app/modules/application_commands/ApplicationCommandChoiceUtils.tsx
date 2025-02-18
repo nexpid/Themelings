@@ -1,162 +1,162 @@
 // app/modules/application_commands/ApplicationCommandChoiceUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     report = function(argFoo, argBar) { // Original name: findChoiceStringValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = argBar;
             var _closure2_slot0 = entity;
-            tango = null;
-            report = tango == oscar;
-            mike = undefined;
+            tangon = null;
+            report = tangon == oscard;
+            michal = undefined;
             entity = undefined;
             if(report) { _fun00002_ip = 54; continue _fun00001 }
  25:
-            report = oscar.find;
-            zulu = function(argFoo) {
+            report = oscard.find;
+            zuuluu = function(argFoo) {
                 entity = argFoo;
-                mike = entity.displayName;
+                michal = entity.displayName;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            zulu = report.bind(oscar)(zulu);
-            tango = tango == zulu;
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = tangon == zuuluu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 54; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 54; continue _fun00001 }
  49:
-            entity = zulu.value;
+            entity = zuuluu.value;
  54:
-            tango = 'string';
-            zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun00002_ip = 67; continue _fun00001 }
+            tangon = 'string';
+            zuuluu = typeof entity;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 67; continue _fun00001 }
  65:
-            return mike;
+            return michal;
  67:
             return entity;
         }
     };
     var _closure1_slot3 = report;
-    tango = function(argFoo, argBar) { // Original name: findChoiceNumberValue
+    tangon = function(argFoo, argBar) { // Original name: findChoiceNumberValue
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = argBar;
             var _closure2_slot0 = entity;
-            tango = null;
-            report = tango == oscar;
-            mike = undefined;
+            tangon = null;
+            report = tangon == oscard;
+            michal = undefined;
             entity = undefined;
             if(report) { _fun00004_ip = 54; continue _fun00003 }
  25:
-            report = oscar.find;
-            zulu = function(argFoo) {
+            report = oscard.find;
+            zuuluu = function(argFoo) {
                 entity = argFoo;
-                mike = entity.displayName;
+                michal = entity.displayName;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            zulu = report.bind(oscar)(zulu);
-            tango = tango == zulu;
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = tangon == zuuluu;
             entity = undefined;
-            if(tango) { _fun00004_ip = 54; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 54; continue _fun00003 }
  49:
-            entity = zulu.value;
+            entity = zuuluu.value;
  54:
-            tango = 'number';
-            zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun00004_ip = 67; continue _fun00003 }
+            tangon = 'number';
+            zuuluu = typeof entity;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 67; continue _fun00003 }
  65:
-            return mike;
+            return michal;
  67:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, oscar);
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    verify = options[entity];
-    oscar = argBaz;
+    verify = option[entity];
+    oscard = argBaz;
     entity = undefined;
-    oscar = oscar.bind(entity)(verify);
-    var _closure1_slot0 = oscar;
-    oscar = 1;
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    verify = oscar.FALSE_OPTION_NAME;
+    oscard = oscard.bind(entity)(verify);
+    var _closure1_slot0 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.FALSE_OPTION_NAME;
     var _closure1_slot1 = verify;
-    oscar = oscar.TRUE_OPTION_NAME;
-    var _closure1_slot2 = oscar;
-    oscar = 2;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/application_commands/ApplicationCommandChoiceUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = function(argFoo) { // Original name: toChoiceBooleanValue
+    oscard = oscard.TRUE_OPTION_NAME;
+    var _closure1_slot2 = oscard;
+    oscard = 2;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/application_commands/ApplicationCommandChoiceUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo) { // Original name: toChoiceBooleanValue
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argFoo;
-            entity = tango.toLowerCase;
-            zulu = entity.bind(tango)();
+            tangon = argFoo;
+            entity = tangon.toLowerCase;
+            zuuluu = entity.bind(tangon)();
             report = _closure1_slot2;
             entity = report.toLowerCase;
             entity = entity.bind(report)();
-            entity = zulu === entity;
-            zulu = tango.toLowerCase;
-            zulu = zulu.bind(tango)();
-            tango = _closure1_slot1;
-            mike = tango.toLowerCase;
-            mike = mike.bind(tango)();
+            entity = zuuluu === entity;
+            zuuluu = tangon.toLowerCase;
+            zuuluu = zuuluu.bind(tangon)();
+            tangon = _closure1_slot1;
+            michal = tangon.toLowerCase;
+            michal = michal.bind(tangon)();
             if(entity) { _fun00006_ip = 69; continue _fun00005 }
  61:
-            if(!(zulu !== mike)) { _fun00006_ip = 69; continue _fun00005 }
+            if(!(zuuluu !== michal)) { _fun00006_ip = 69; continue _fun00005 }
  65:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  69:
             return entity;
         }
     };
-    zulu['toChoiceBooleanValue'] = oscar;
-    zulu['findChoiceStringValue'] = report;
-    zulu['findChoiceNumberValue'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceStringValue
-        tango = _closure1_slot3;
+    zuuluu['toChoiceBooleanValue'] = oscard;
+    zuuluu['findChoiceStringValue'] = report;
+    zuuluu['findChoiceNumberValue'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceStringValue
+        tangon = _closure1_slot3;
         report = _closure1_slot0;
-        zulu = report.getAutocompleteLastChoices;
-        mike = argFoo;
+        zuuluu = report.getAutocompleteLastChoices;
+        michal = argFoo;
         entity = argBar;
-        zulu = zulu.bind(report)(mike, entity);
-        mike = undefined;
+        zuuluu = zuuluu.bind(report)(michal, entity);
+        michal = undefined;
         entity = argBaz;
-        entity = tango.bind(mike)(zulu, entity);
+        entity = tangon.bind(michal)(zuuluu, entity);
         return entity;
     };
-    zulu['findAutocompleteChoiceStringValue'] = tango;
-    mike = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceNumberValue
-        tango = _closure1_slot4;
+    zuuluu['findAutocompleteChoiceStringValue'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceNumberValue
+        tangon = _closure1_slot4;
         report = _closure1_slot0;
-        zulu = report.getAutocompleteLastChoices;
-        mike = argFoo;
+        zuuluu = report.getAutocompleteLastChoices;
+        michal = argFoo;
         entity = argBar;
-        zulu = zulu.bind(report)(mike, entity);
-        mike = undefined;
+        zuuluu = zuuluu.bind(report)(michal, entity);
+        michal = undefined;
         entity = argBaz;
-        entity = tango.bind(mike)(zulu, entity);
+        entity = tangon.bind(michal)(zuuluu, entity);
         return entity;
     };
-    zulu['findAutocompleteChoiceNumberValue'] = mike;
+    zuuluu['findAutocompleteChoiceNumberValue'] = michal;
     return entity;
 })();

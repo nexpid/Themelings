@@ -1,108 +1,108 @@
 // app/modules/guild_member_verification/GuildJoinRequestUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    tango = function(argFoo) { // Original name: isActionedApplicationStatus
+    tangon = function(argFoo) { // Original name: isActionedApplicationStatus
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = _closure1_slot0;
+            zuuluu = argFoo;
+            tangon = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 0;
-            entity = entity[oscar];
+            oscard = 0;
+            entity = entity[oscard];
             report = undefined;
-            entity = tango.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.APPROVED;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(entity) { _fun00002_ip = 79; continue _fun00001 }
  46:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = tango.bind(report)(mike);
-            mike = mike.GuildJoinRequestApplicationStatuses;
-            mike = mike.REJECTED;
-            entity = zulu === mike;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.GuildJoinRequestApplicationStatuses;
+            michal = michal.REJECTED;
+            entity = zuuluu === michal;
  79:
             return entity;
         }
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 1;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_member_verification/GuildJoinRequestUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['isActionedApplicationStatus'] = tango;
-    tango = function(argFoo) { // Original name: isSubmittedApplicationStatus
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    report = oscard.bind(golfie)(report);
+    zuuluu['isActionedApplicationStatus'] = tangon;
+    tangon = function(argFoo) { // Original name: isSubmittedApplicationStatus
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         entity = entity.GuildJoinRequestApplicationStatuses;
-        mike = entity.SUBMITTED;
+        michal = entity.SUBMITTED;
         entity = argFoo;
-        entity = entity === mike;
+        entity = entity === michal;
         return entity;
     };
-    zulu['isSubmittedApplicationStatus'] = tango;
-    tango = function(argFoo) { // Original name: isApprovedAndAcked
+    zuuluu['isSubmittedApplicationStatus'] = tangon;
+    tangon = function(argFoo) { // Original name: isApprovedAndAcked
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.applicationStatus;
+            michal = argFoo;
+            zuuluu = michal.applicationStatus;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             entity = 0;
-            tango = tango[entity];
+            tangon = tangon[entity];
             entity = undefined;
-            entity = report.bind(entity)(tango);
+            entity = report.bind(entity)(tangon);
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.APPROVED;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  52:
-            zulu = mike.lastSeen;
-            mike = null;
-            entity = mike != zulu;
+            zuuluu = michal.lastSeen;
+            michal = null;
+            entity = michal != zuuluu;
  64:
             return entity;
         }
     };
-    zulu['isApprovedAndAcked'] = tango;
-    mike = function(argFoo) { // Original name: isActionedAndNotAcked
+    zuuluu['isApprovedAndAcked'] = tangon;
+    michal = function(argFoo) { // Original name: isActionedAndNotAcked
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            tango = _closure1_slot2;
-            zulu = mike.applicationStatus;
+            michal = argFoo;
+            tangon = _closure1_slot2;
+            zuuluu = michal.applicationStatus;
             entity = undefined;
-            entity = tango.bind(entity)(zulu);
+            entity = tangon.bind(entity)(zuuluu);
             if(!entity) { _fun00006_ip = 38; continue _fun00005 }
  26:
-            zulu = mike.lastSeen;
-            mike = null;
-            entity = mike == zulu;
+            zuuluu = michal.lastSeen;
+            michal = null;
+            entity = michal == zuuluu;
  38:
             return entity;
         }
     };
-    zulu['isActionedAndNotAcked'] = mike;
+    zuuluu['isActionedAndNotAcked'] = michal;
     return entity;
 })();

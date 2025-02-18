@@ -1,109 +1,109 @@
 // app/modules/messages/native/renderer/system_messages/PurchaseNotificationSystemMessage.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/system_messages/PurchaseNotificationSystemMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: PurchaseNotificationSystemMessage
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/system_messages/PurchaseNotificationSystemMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: PurchaseNotificationSystemMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.row;
-            entity = oscar.message;
-            mike = entity.purchaseNotification;
+            oscard = entity.row;
+            entity = oscard.message;
+            michal = entity.purchaseNotification;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             report = undefined;
-            tango = undefined;
-            if(zulu) { _fun00002_ip = 38; continue _fun00001 }
+            tangon = undefined;
+            if(zuuluu) { _fun00002_ip = 38; continue _fun00001 }
  33:
-            tango = mike.type;
+            tangon = michal.type;
  38:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            zulu = 2;
-            zulu = options[zulu];
-            zulu = golf.bind(report)(zulu);
-            zulu = zulu.PurchaseNotificationType;
-            zulu = zulu.GUILD_PRODUCT;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.PurchaseNotificationType;
+            zuuluu = zuuluu.GUILD_PRODUCT;
             entity = null;
-            if(!(tango === zulu)) { _fun00002_ip = 122; continue _fun00001 }
+            if(!(tangon === zuuluu)) { _fun00002_ip = 122; continue _fun00001 }
  79:
-            tango = _closure1_slot2;
-            zulu = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 3;
-            mike = golf[mike];
-            mike = zulu.bind(report)(mike);
-            zulu = mike.GuildProductPurchaseSystemMessage;
-            mike = {};
-            mike['row'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            michal = golfie[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.GuildProductPurchaseSystemMessage;
+            michal = {};
+            michal['row'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  122:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: createPurchaseNotificationSystemMessage
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: createPurchaseNotificationSystemMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            entity = tango.message;
-            mike = entity.purchaseNotification;
+            tangon = argFoo;
+            entity = tangon.message;
+            michal = entity.purchaseNotification;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             report = undefined;
-            oscar = undefined;
-            if(zulu) { _fun00004_ip = 32; continue _fun00003 }
+            oscard = undefined;
+            if(zuuluu) { _fun00004_ip = 32; continue _fun00003 }
  27:
-            oscar = mike.type;
+            oscard = michal.type;
  32:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            zulu = 2;
-            zulu = options[zulu];
-            zulu = golf.bind(report)(zulu);
-            zulu = zulu.PurchaseNotificationType;
-            zulu = zulu.GUILD_PRODUCT;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.PurchaseNotificationType;
+            zuuluu = zuuluu.GUILD_PRODUCT;
             entity = null;
-            if(!(oscar === zulu)) { _fun00004_ip = 104; continue _fun00003 }
+            if(!(oscard === zuuluu)) { _fun00004_ip = 104; continue _fun00003 }
  73:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 3;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.createGuildProductPurchaseSystemMessage;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 3;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.createGuildProductPurchaseSystemMessage;
+            entity = michal.bind(zuuluu)(tangon);
  104:
             return entity;
         }
     };
-    zulu['createPurchaseNotificationSystemMessage'] = mike;
+    zuuluu['createPurchaseNotificationSystemMessage'] = michal;
     return entity;
 })();

@@ -1,255 +1,255 @@
 // app/modules/quests/lib/VideoQuestAsset.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.QuestVariants;
-    var _closure1_slot2 = tango;
-    tango = {};
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.QuestVariants;
+    var _closure1_slot2 = tangon;
+    tangon = {};
     report = 'video_player_video';
-    tango['VIDEO_PLAYER_VIDEO'] = report;
+    tangon['VIDEO_PLAYER_VIDEO'] = report;
     report = 'video_player_video_low_res';
-    tango['VIDEO_PLAYER_VIDEO_LOW_RES'] = report;
+    tangon['VIDEO_PLAYER_VIDEO_LOW_RES'] = report;
     report = 'video_player_video_hls';
-    tango['VIDEO_PLAYER_VIDEO_HLS'] = report;
+    tangon['VIDEO_PLAYER_VIDEO_HLS'] = report;
     report = 'video_player_thumbnail';
-    tango['VIDEO_PLAYER_THUMBNAIL'] = report;
+    tangon['VIDEO_PLAYER_THUMBNAIL'] = report;
     report = 'video_player_caption';
-    tango['VIDEO_PLAYER_CAPTION'] = report;
+    tangon['VIDEO_PLAYER_CAPTION'] = report;
     report = 'video_player_transcript';
-    tango['VIDEO_PLAYER_TRANSCRIPT'] = report;
+    tangon['VIDEO_PLAYER_TRANSCRIPT'] = report;
     report = 'quest_bar_preview_video';
-    tango['QUEST_BAR_PREVIEW_VIDEO'] = report;
+    tangon['QUEST_BAR_PREVIEW_VIDEO'] = report;
     report = 'quest_bar_preview_thumbnail';
-    tango['QUEST_BAR_PREVIEW_THUMBNAIL'] = report;
+    tangon['QUEST_BAR_PREVIEW_THUMBNAIL'] = report;
     report = 'quest_home_video';
-    tango['QUEST_HOME_VIDEO'] = report;
-    var _closure1_slot3 = tango;
+    tangon['QUEST_HOME_VIDEO'] = report;
+    var _closure1_slot3 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/quests/lib/VideoQuestAsset.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['VideoQuestAssetId'] = tango;
-    mike = function(argFoo, argBar) { // Original name: resolveVideoQuestAsset
+    report = oscard.bind(golfie)(report);
+    zuuluu['VideoQuestAssetId'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: resolveVideoQuestAsset
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             verify = argBar;
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_VIDEO;
-            if(!(entity !== zulu)) { _fun00002_ip = 485; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 485; continue _fun00001 }
  26:
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_VIDEO_LOW_RES;
-            if(!(entity !== zulu)) { _fun00002_ip = 446; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 446; continue _fun00001 }
  43:
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_VIDEO_HLS;
-            if(!(entity !== zulu)) { _fun00002_ip = 407; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 407; continue _fun00001 }
  60:
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_THUMBNAIL;
-            if(!(entity !== zulu)) { _fun00002_ip = 368; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 368; continue _fun00001 }
  77:
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_CAPTION;
-            if(!(entity !== zulu)) { _fun00002_ip = 326; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 326; continue _fun00001 }
  94:
             entity = _closure1_slot3;
             entity = entity.VIDEO_PLAYER_TRANSCRIPT;
-            if(!(entity !== zulu)) { _fun00002_ip = 284; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 284; continue _fun00001 }
  111:
             entity = _closure1_slot3;
             entity = entity.QUEST_BAR_PREVIEW_VIDEO;
-            if(!(entity !== zulu)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 242; continue _fun00001 }
  125:
             entity = _closure1_slot3;
             entity = entity.QUEST_BAR_PREVIEW_THUMBNAIL;
-            if(!(entity !== zulu)) { _fun00002_ip = 200; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 200; continue _fun00001 }
  139:
             entity = _closure1_slot3;
-            mike = entity.QUEST_HOME_VIDEO;
-            foxtrot = undefined;
-            if(!(mike === zulu)) { _fun00002_ip = 522; continue _fun00001 }
+            michal = entity.QUEST_HOME_VIDEO;
+            foxtra = undefined;
+            if(!(michal === zuuluu)) { _fun00002_ip = 522; continue _fun00001 }
  158:
-            mike = verify.config;
-            mike = mike.videoMetadata;
-            zulu = null;
-            zulu = zulu == mike;
+            michal = verify.config;
+            michal = michal.videoMetadata;
+            zuuluu = null;
+            zuuluu = zuuluu == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 192; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 192; continue _fun00001 }
  180:
-            mike = mike.assets;
-            entity = mike.questHomeVideo;
+            michal = michal.assets;
+            entity = michal.questHomeVideo;
  192:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  200:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 234; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 234; continue _fun00001 }
  222:
-            mike = mike.assets;
-            entity = mike.questBarPreviewThumbnail;
+            michal = michal.assets;
+            entity = michal.questBarPreviewThumbnail;
  234:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  242:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 276; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 276; continue _fun00001 }
  264:
-            mike = mike.assets;
-            entity = mike.questBarPreviewVideo;
+            michal = michal.assets;
+            entity = michal.questBarPreviewVideo;
  276:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  284:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 318; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 318; continue _fun00001 }
  306:
-            mike = mike.assets;
-            entity = mike.videoPlayerTranscript;
+            michal = michal.assets;
+            entity = michal.videoPlayerTranscript;
  318:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  326:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 360; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 360; continue _fun00001 }
  348:
-            mike = mike.assets;
-            entity = mike.videoPlayerCaption;
+            michal = michal.assets;
+            entity = michal.videoPlayerCaption;
  360:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  368:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 402; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 402; continue _fun00001 }
  390:
-            mike = mike.assets;
-            entity = mike.videoPlayerThumbnail;
+            michal = michal.assets;
+            entity = michal.videoPlayerThumbnail;
  402:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  407:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 441; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 441; continue _fun00001 }
  429:
-            mike = mike.assets;
-            entity = mike.videoPlayerVideoHls;
+            michal = michal.assets;
+            entity = michal.videoPlayerVideoHls;
  441:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  446:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 480; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 480; continue _fun00001 }
  468:
-            mike = mike.assets;
-            entity = mike.videoPlayerVideoLowRes;
+            michal = michal.assets;
+            entity = michal.videoPlayerVideoLowRes;
  480:
-            foxtrot = entity;
+            foxtra = entity;
             _fun00002_ip = 522; continue _fun00001;
  485:
             entity = verify.config;
-            mike = entity.videoMetadata;
+            michal = entity.videoMetadata;
             entity = null;
-            zulu = entity == mike;
+            zuuluu = entity == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 519; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 519; continue _fun00001 }
  507:
-            mike = mike.assets;
-            entity = mike.videoPlayerVideo;
+            michal = michal.assets;
+            entity = michal.videoPlayerVideo;
  519:
-            foxtrot = entity;
+            foxtra = entity;
  522:
             entity = null;
-            if(!(entity != foxtrot)) { _fun00002_ip = 692; continue _fun00001 }
+            if(!(entity != foxtra)) { _fun00002_ip = 692; continue _fun00001 }
  531:
-            mike = verify.config;
-            report = mike.features;
-            zulu = report.includes;
-            mike = _closure1_slot2;
-            mike = mike.QUESTS_CDN;
-            backup = zulu.bind(report)(mike);
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            options = 1;
-            mike = mike[options];
-            golf = undefined;
-            zulu = zulu.bind(golf)(mike);
-            mike = zulu.getMimetype;
-            oscar = mike.bind(zulu)(foxtrot);
-            zulu = entity == oscar;
-            mike = null;
-            if(zulu) { _fun00002_ip = 690; continue _fun00001 }
+            michal = verify.config;
+            report = michal.features;
+            zuuluu = report.includes;
+            michal = _closure1_slot2;
+            michal = michal.QUESTS_CDN;
+            backup = zuuluu.bind(report)(michal);
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            option = 1;
+            michal = michal[option];
+            golfie = undefined;
+            zuuluu = zuuluu.bind(golfie)(michal);
+            michal = zuuluu.getMimetype;
+            oscard = michal.bind(zuuluu)(foxtra);
+            zuuluu = entity == oscard;
+            michal = null;
+            if(zuuluu) { _fun00002_ip = 690; continue _fun00001 }
  604:
-            zulu = {};
+            zuuluu = {};
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            offset = tango[options];
-            romeo = report.bind(golf)(offset);
-            yankee = romeo.buildUrl;
+            tangon = _closure1_slot1;
+            offset = tangon[option];
+            romeon = report.bind(golfie)(offset);
+            yankee = romeon.buildUrl;
             offset = verify.id;
             verify = {};
             verify['newCdn'] = backup;
-            verify = yankee.bind(romeo)(offset, foxtrot, verify);
-            zulu['url'] = verify;
-            zulu['mimetype'] = oscar;
-            tango = tango[options];
-            tango = report.bind(golf)(tango);
-            report = tango.ANIMATED_MIMETYPES;
-            tango = report.includes;
-            tango = tango.bind(report)(oscar);
-            zulu['isAnimated'] = tango;
-            mike = zulu;
+            verify = yankee.bind(romeon)(offset, foxtra, verify);
+            zuuluu['url'] = verify;
+            zuuluu['mimetype'] = oscard;
+            tangon = tangon[option];
+            tangon = report.bind(golfie)(tangon);
+            report = tangon.ANIMATED_MIMETYPES;
+            tangon = report.includes;
+            tangon = tangon.bind(report)(oscard);
+            zuuluu['isAnimated'] = tangon;
+            michal = zuuluu;
  690:
-            return mike;
+            return michal;
  692:
             return entity;
         }
     };
-    zulu['resolveVideoQuestAsset'] = mike;
+    zuuluu['resolveVideoQuestAsset'] = michal;
     return entity;
 })();

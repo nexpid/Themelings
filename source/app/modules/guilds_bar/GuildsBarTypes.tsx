@@ -1,28 +1,28 @@
 // app/modules/guilds_bar/GuildsBarTypes.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 1;
-    mike['PENDING_JOIN_REQUESTS_FOLDER'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 1;
+    michal['PENDING_JOIN_REQUESTS_FOLDER'] = tangon;
     entity = 'PENDING_JOIN_REQUESTS_FOLDER';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guilds_bar/GuildsBarTypes.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['SpecialGuildsNodeIds'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guilds_bar/GuildsBarTypes.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['SpecialGuildsNodeIds'] = michal;
     return entity;
 })();

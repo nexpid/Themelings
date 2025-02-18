@@ -1,116 +1,116 @@
 // app/modules/profile_customization/native/Banner.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.View;
-    var _closure1_slot2 = golf;
-    tango = tango.ImageBackground;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.BANNER_HEIGHT;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.View;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.ImageBackground;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.BANNER_HEIGHT;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {};
     offset = '100%';
     verify['width'] = offset;
-    tango['root'] = verify;
+    tangon['root'] = verify;
     verify = {'width': '100%', 'height': '100%'};
-    tango['image'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot6 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/profile_customization/native/Banner.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: ProfileBanner
+    tangon['image'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/profile_customization/native/Banner.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: ProfileBanner
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.style;
+            golfie = entity.style;
             verify = entity.bannerSource;
             yankee = entity.backgroundColor;
-            mike = entity.bannerSafeArea;
-            tango = undefined;
-            if(!(mike === tango)) { _fun00002_ip = 33; continue _fun00001 }
+            michal = entity.bannerSafeArea;
+            tangon = undefined;
+            if(!(michal === tangon)) { _fun00002_ip = 33; continue _fun00001 }
  31:
-            mike = 0;
+            michal = 0;
  33:
             entity = entity.bannerHeight;
-            if(!(entity === tango)) { _fun00002_ip = 50; continue _fun00001 }
+            if(!(entity === tangon)) { _fun00002_ip = 50; continue _fun00001 }
  43:
             entity = _closure1_slot4;
  50:
-            zulu = _closure1_slot6;
-            offset = zulu.bind(tango)();
-            options = {};
+            zuuluu = _closure1_slot6;
+            offset = zuuluu.bind(tangon)();
+            option = {};
             report = _closure1_slot0;
-            romeo = _closure1_slot1;
-            zulu = 5;
-            zulu = romeo[zulu];
-            report = report.bind(tango)(zulu);
-            zulu = report.int2hex;
-            zulu = zulu.bind(report)(yankee);
-            options['backgroundColor'] = zulu;
-            entity = entity + mike;
-            options['height'] = entity;
-            zulu = _closure1_slot5;
-            mike = _closure1_slot2;
+            romeon = _closure1_slot1;
+            zuuluu = 5;
+            zuuluu = romeon[zuuluu];
+            report = report.bind(tangon)(zuuluu);
+            zuuluu = report.int2hex;
+            zuuluu = zuuluu.bind(report)(yankee);
+            option['backgroundColor'] = zuuluu;
+            entity = entity + michal;
+            option['height'] = entity;
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot2;
             entity = {};
             yankee = offset.root;
             report = new Array(3);
             report[0] = yankee;
-            report[1] = options;
-            report[2] = golf;
+            report[1] = option;
+            report[2] = golfie;
             entity['style'] = report;
             report = null;
-            golf = report != verify;
-            if(!golf) { _fun00002_ip = 181; continue _fun00001 }
+            golfie = report != verify;
+            if(!golfie) { _fun00002_ip = 181; continue _fun00001 }
  151:
-            options = _closure1_slot5;
-            golf = _closure1_slot3;
-            oscar = {};
+            option = _closure1_slot5;
+            golfie = _closure1_slot3;
+            oscard = {};
             offset = offset.image;
-            oscar['style'] = offset;
-            oscar['source'] = verify;
-            report = options.bind(tango)(golf, oscar);
+            oscard['style'] = offset;
+            oscard['source'] = verify;
+            report = option.bind(tangon)(golfie, oscard);
  181:
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,130 +1,130 @@
 // app/modules/billing/native/subscription/useStoreFrontPrice.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    report = golf[entity];
-    mike = argCorge;
+    report = golfie[entity];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(report);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot3 = mike;
-    mike = {};
+    michal = michal.bind(entity)(report);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.PriceSetAssignmentPurchaseTypes;
+    var _closure1_slot3 = michal;
+    michal = {};
     report = 'PRICE_AVAILABLE';
-    mike['PRICE_AVAILABLE'] = report;
+    michal['PRICE_AVAILABLE'] = report;
     report = 'SUBSCRIPTION_PLAN_UNAVAILABLE';
-    mike['SUBSCRIPTION_PLAN_UNAVAILABLE'] = report;
+    michal['SUBSCRIPTION_PLAN_UNAVAILABLE'] = report;
     report = 'STOREFRONT_UNAVAILABLE';
-    mike['STOREFRONT_UNAVAILABLE'] = report;
+    michal['STOREFRONT_UNAVAILABLE'] = report;
     report = 'MISMATCHING_COUNTRIES';
-    mike['MISMATCHING_COUNTRIES'] = report;
+    michal['MISMATCHING_COUNTRIES'] = report;
     report = 'COUNTRY_PRICE_UNAVAILABLE';
-    mike['COUNTRY_PRICE_UNAVAILABLE'] = report;
-    var _closure1_slot4 = mike;
+    michal['COUNTRY_PRICE_UNAVAILABLE'] = report;
+    var _closure1_slot4 = michal;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/billing/native/subscription/useStoreFrontPrice.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo, argBar) { // Original name: useStoreFrontPrice
-        oscar = argFoo;
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo, argBar) { // Original name: useStoreFrontPrice
+        oscard = argFoo;
         report = argBar;
-        var _closure2_slot0 = oscar;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = report;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
-                mike = null;
-                if(!(mike != entity)) { _fun00002_ip = 213; continue _fun00001 }
+                michal = null;
+                if(!(michal != entity)) { _fun00002_ip = 213; continue _fun00001 }
  16:
                 entity = _closure2_slot1;
-                if(!(mike != entity)) { _fun00002_ip = 196; continue _fun00001 }
+                if(!(michal != entity)) { _fun00002_ip = 196; continue _fun00001 }
  27:
-                options = _closure1_slot0;
+                option = _closure1_slot0;
                 offset = _closure1_slot1;
-                oscar = 2;
-                entity = offset[oscar];
-                golf = undefined;
-                foxtrot = options.bind(golf)(entity);
-                romeo = foxtrot.getCountryPrices;
+                oscard = 2;
+                entity = offset[oscard];
+                golfie = undefined;
+                foxtra = option.bind(golfie)(entity);
+                romeon = foxtra.getCountryPrices;
                 entity = _closure2_slot0;
                 yankee = entity.id;
                 verify = _closure1_slot3;
                 report = verify.MOBILE;
-                report = romeo.bind(foxtrot)(yankee, report);
-                oscar = offset[oscar];
-                options = options.bind(golf)(oscar);
-                golf = options.experimentalGetPrice;
-                oscar = entity.id;
+                report = romeon.bind(foxtra)(yankee, report);
+                oscard = offset[oscard];
+                option = option.bind(golfie)(oscard);
+                golfie = option.experimentalGetPrice;
+                oscard = entity.id;
                 entity = {};
                 verify = verify.MOBILE;
                 entity['purchaseType'] = verify;
-                tango = _closure2_slot1;
-                verify = tango.currency;
+                tangon = _closure2_slot1;
+                verify = tangon.currency;
                 entity['currency'] = verify;
-                entity = golf.bind(options)(oscar, entity);
+                entity = golfie.bind(option)(oscard, entity);
                 report = report.countryCode;
-                tango = tango.country;
-                if(!(report === tango)) { _fun00002_ip = 181; continue _fun00001 }
+                tangon = tangon.country;
+                if(!(report === tangon)) { _fun00002_ip = 181; continue _fun00001 }
  153:
-                if(!(mike != entity)) { _fun00002_ip = 169; continue _fun00001 }
+                if(!(michal != entity)) { _fun00002_ip = 169; continue _fun00001 }
  157:
-                mike = _closure1_slot4;
-                mike = mike.PRICE_AVAILABLE;
+                michal = _closure1_slot4;
+                michal = michal.PRICE_AVAILABLE;
                 _fun00002_ip = 179; continue _fun00001;
  169:
-                tango = _closure1_slot4;
-                mike = tango.COUNTRY_PRICE_UNAVAILABLE;
+                tangon = _closure1_slot4;
+                michal = tangon.COUNTRY_PRICE_UNAVAILABLE;
  179:
                 _fun00002_ip = 191; continue _fun00001;
  181:
-                zulu = _closure1_slot4;
-                mike = zulu.MISMATCHING_COUNTRIES;
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.MISMATCHING_COUNTRIES;
  191:
-                zulu = entity;
+                zuuluu = entity;
                 _fun00002_ip = 228; continue _fun00001;
  196:
                 entity = _closure1_slot4;
-                mike = entity.STOREFRONT_UNAVAILABLE;
-                zulu = undefined;
+                michal = entity.STOREFRONT_UNAVAILABLE;
+                zuuluu = undefined;
                 _fun00002_ip = 228; continue _fun00001;
  213:
                 entity = _closure1_slot4;
-                mike = entity.SUBSCRIPTION_PLAN_UNAVAILABLE;
-                zulu = undefined;
+                michal = entity.SUBSCRIPTION_PLAN_UNAVAILABLE;
+                zuuluu = undefined;
  228:
                 entity = {};
-                entity['price'] = zulu;
-                entity['priceState'] = mike;
+                entity['price'] = zuuluu;
+                entity['priceState'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['PriceStates'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['PriceStates'] = michal;
     return entity;
 })();

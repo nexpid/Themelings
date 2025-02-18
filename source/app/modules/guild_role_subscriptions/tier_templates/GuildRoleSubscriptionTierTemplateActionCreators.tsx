@@ -1,139 +1,139 @@
 // app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _getTemplates
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    golf = argFoo;
+                    golfie = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 170; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 170; continue _fun00001 }
  13:
                     report = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = report.bind(zulu)(mike);
-                    oscar = mike.HTTP;
-                    report = oscar.get;
-                    mike = {};
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = report.bind(zuuluu)(michal);
+                    oscard = michal.HTTP;
+                    report = oscard.get;
+                    michal = {};
                     verify = _closure1_slot4;
-                    options = verify.GUILD_ROLE_SUBSCRIPTION_LISTING_TEMPLATES;
-                    options = options.bind(verify)(golf);
-                    mike['url'] = options;
-                    options = false;
-                    mike['rejectWithError'] = options;
-                    mike = report.bind(oscar)(mike);
+                    option = verify.GUILD_ROLE_SUBSCRIPTION_LISTING_TEMPLATES;
+                    option = option.bind(verify)(golfie);
+                    michal['url'] = option;
+                    option = false;
+                    michal['rejectWithError'] = option;
+                    michal = report.bind(oscard)(michal);
                     SaveGenerator(address=84);
  82:
-                    return mike;
+                    return michal;
  84:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 167; continue _fun00001 }
  90:
-                    options = mike.body;
-                    oscar = options.templates;
+                    option = michal.body;
+                    oscard = option.templates;
                     report = null;
-                    if(!(report != oscar)) { _fun00002_ip = 164; continue _fun00001 }
+                    if(!(report != oscard)) { _fun00002_ip = 164; continue _fun00001 }
  107:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 2;
-                    tango = oscar[tango];
-                    oscar = report.bind(zulu)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
+                    oscard = _closure1_slot2;
+                    tangon = 2;
+                    tangon = oscard[tangon];
+                    oscard = report.bind(zuuluu)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
                     verify = 'GUILD_ROLE_SUBSCRIPTIONS_FETCH_TEMPLATES';
-                    tango['type'] = verify;
-                    options = options.templates;
-                    tango['templates'] = options;
-                    tango['guildId'] = golf;
-                    tango = report.bind(oscar)(tango);
+                    tangon['type'] = verify;
+                    option = option.templates;
+                    tangon['templates'] = option;
+                    tangon['guildId'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
  164:
-                    return zulu;
+                    return zuuluu;
  167:
-                    return mike;
+                    return michal;
  170:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: stashTemplateChannels
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: stashTemplateChannels
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_ROLE_SUBSCRIPTIONS_STASH_TEMPLATE_CHANNELS';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['selectedTemplate'] = report;
+        michal['selectedTemplate'] = report;
         report = argBar;
-        mike['guildId'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['guildId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['stashTemplateChannels'] = tango;
-    mike = function() { // Original name: getTemplates
+    zuuluu['stashTemplateChannels'] = tangon;
+    michal = function() { // Original name: getTemplates
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['getTemplates'] = mike;
+    zuuluu['getTemplates'] = michal;
     return entity;
 })();

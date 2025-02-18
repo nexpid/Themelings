@@ -1,247 +1,247 @@
 // app/modules/forums/native/posts/reactions/ForumPostReactions.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    golf = oscar[tango];
-    golf = report.bind(entity)(golf);
-    golf = golf.jsx;
-    var _closure1_slot4 = golf;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsxs;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    golfie = oscard[tangon];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.jsx;
+    var _closure1_slot4 = golfie;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsxs;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {};
     offset = 8;
     verify['marginEnd'] = offset;
-    tango['reactionButtonContainer'] = verify;
+    tangon['reactionButtonContainer'] = verify;
     verify = {};
     offset = 4;
     verify['marginEnd'] = offset;
-    tango['actionBarReaction'] = verify;
+    tangon['actionBarReaction'] = verify;
     verify = {};
     offset = 'row';
     verify['flexDirection'] = offset;
-    tango['container'] = verify;
+    tangon['container'] = verify;
     verify = {};
     offset = 'auto';
     verify['marginLeft'] = offset;
-    tango['mostCommonContainer'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forums/native/posts/reactions/ForumPostReactions.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: MaxForumPostReactions
+    tangon['mostCommonContainer'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forums/native/posts/reactions/ForumPostReactions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: MaxForumPostReactions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.thread;
             var _closure2_slot0 = yankee;
-            tango = entity.parentChannel;
+            tangon = entity.parentChannel;
             verify = entity.firstMessage;
-            kilo = entity.containerWidth;
+            kiloes = entity.containerWidth;
             backup = entity.containerStyle;
-            romeo = entity.reactionContainerStyle;
-            var _closure2_slot1 = romeo;
+            romeon = entity.reactionContainerStyle;
+            var _closure2_slot1 = romeon;
             entity = _closure1_slot6;
             report = undefined;
             offset = entity.bind(report)();
             var _closure2_slot2 = offset;
-            mike = _closure1_slot1;
-            zulu = _closure1_slot2;
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 4;
-            entity = zulu[entity];
-            entity = mike.bind(report)(entity);
+            entity = zuuluu[entity];
+            entity = michal.bind(report)(entity);
             entity = entity.bind(report)(yankee);
-            golf = entity.disableReactionCreates;
-            foxtrot = 28;
-            if(!golf) { _fun00002_ip = 105; continue _fun00001 }
+            golfie = entity.disableReactionCreates;
+            foxtra = 28;
+            if(!golfie) { _fun00002_ip = 105; continue _fun00001 }
  103:
-            foxtrot = 0;
+            foxtra = 0;
  105:
-            mike = _closure1_slot0;
-            zulu = _closure1_slot2;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 5;
-            entity = zulu[entity];
-            zulu = mike.bind(report)(entity);
-            mike = zulu.useMaxPossibleForumPostReactions;
+            entity = zuuluu[entity];
+            zuuluu = michal.bind(report)(entity);
+            michal = zuuluu.useMaxPossibleForumPostReactions;
             entity = {'containerWidth': null, 'reactionEmojiWidth': 46, 'digitWidth': 7.5};
-            foxtrot = kilo - foxtrot;
-            entity['containerWidth'] = foxtrot;
+            foxtra = kiloes - foxtra;
+            entity['containerWidth'] = foxtra;
             entity['message'] = verify;
-            entity['parentChannel'] = tango;
-            entity = mike.bind(zulu)(entity);
-            foxtrot = entity.reactions;
-            kilo = entity.additionalReactionCount;
-            entity = foxtrot.length;
+            entity['parentChannel'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
+            foxtra = entity.reactions;
+            kiloes = entity.additionalReactionCount;
+            entity = foxtra.length;
             verify = 0;
             if(!(verify === entity)) { _fun00002_ip = 200; continue _fun00001 }
  192:
             entity = null;
-            if(golf) { _fun00002_ip = 397; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 397; continue _fun00001 }
  200:
-            tango = _closure1_slot5;
-            zulu = _closure1_slot3;
-            mike = {};
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot3;
+            michal = {};
             sizing = offset.container;
             offset = new Array(2);
             offset[0] = sizing;
             offset[1] = backup;
-            mike['style'] = offset;
-            offset = foxtrot.map;
-            oscar = function(argFoo) {
+            michal['style'] = offset;
+            offset = foxtra.map;
+            oscard = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    oscar = argFoo;
+                    oscard = argFoo;
                     report = _closure1_slot4;
-                    mike = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 6;
-                    entity = zulu[entity];
-                    tango = undefined;
-                    entity = mike.bind(tango)(entity);
-                    zulu = entity.ForumPostReactionButton;
-                    mike = {};
-                    golf = _closure2_slot2;
-                    options = golf.reactionButtonContainer;
-                    golf = new Array(2);
-                    golf[0] = options;
-                    options = _closure2_slot1;
-                    golf[1] = options;
-                    mike['containerStyle'] = golf;
+                    entity = zuuluu[entity];
+                    tangon = undefined;
+                    entity = michal.bind(tangon)(entity);
+                    zuuluu = entity.ForumPostReactionButton;
+                    michal = {};
+                    golfie = _closure2_slot2;
+                    option = golfie.reactionButtonContainer;
+                    golfie = new Array(2);
+                    golfie[0] = option;
+                    option = _closure2_slot1;
+                    golfie[1] = option;
+                    michal['containerStyle'] = golfie;
                     entity = _closure2_slot0;
-                    mike['thread'] = entity;
-                    mike['reaction'] = oscar;
+                    michal['thread'] = entity;
+                    michal['reaction'] = oscard;
                     entity = false;
-                    mike['animateCount'] = entity;
-                    entity = oscar.emoji;
+                    michal['animateCount'] = entity;
+                    entity = oscard.emoji;
                     entity = entity.id;
-                    golf = null;
-                    if(!(golf == entity)) { _fun00004_ip = 123; continue _fun00003 }
+                    golfie = null;
+                    if(!(golfie == entity)) { _fun00004_ip = 123; continue _fun00003 }
  112:
-                    oscar = oscar.emoji;
-                    entity = oscar.name;
+                    oscard = oscard.emoji;
+                    entity = oscard.name;
  123:
-                    entity = report.bind(tango)(zulu, mike, entity);
+                    entity = report.bind(tangon)(zuuluu, michal, entity);
                     return entity;
                 }
             };
-            offset = offset.bind(foxtrot)(oscar);
-            oscar = new Array(3);
-            oscar[0] = offset;
-            verify = kilo > verify;
+            offset = offset.bind(foxtra)(oscard);
+            oscard = new Array(3);
+            oscard[0] = offset;
+            verify = kiloes > verify;
             if(!verify) { _fun00002_ip = 320; continue _fun00001 }
  263:
             backup = _closure1_slot4;
-            foxtrot = _closure1_slot0;
+            foxtra = _closure1_slot0;
             sizing = _closure1_slot2;
             offset = 6;
             offset = sizing[offset];
-            offset = foxtrot.bind(report)(offset);
-            foxtrot = offset.AdditionalReactionCount;
+            offset = foxtra.bind(report)(offset);
+            foxtra = offset.AdditionalReactionCount;
             offset = {};
-            offset['count'] = kilo;
-            offset['containerStyle'] = romeo;
-            kilo = yankee.id;
-            offset['threadId'] = kilo;
-            verify = backup.bind(report)(foxtrot, offset);
+            offset['count'] = kiloes;
+            offset['containerStyle'] = romeon;
+            kiloes = yankee.id;
+            offset['threadId'] = kiloes;
+            verify = backup.bind(report)(foxtra, offset);
  320:
-            oscar[1] = verify;
-            golf = !golf;
-            if(!golf) { _fun00002_ip = 383; continue _fun00001 }
+            oscard[1] = verify;
+            golfie = !golfie;
+            if(!golfie) { _fun00002_ip = 383; continue _fun00001 }
  330:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
-            foxtrot = _closure1_slot2;
-            options = 6;
-            options = foxtrot[options];
-            options = verify.bind(report)(options);
-            verify = options.AddReactionButton;
-            options = {};
-            options['containerStyle'] = romeo;
+            foxtra = _closure1_slot2;
+            option = 6;
+            option = foxtra[option];
+            option = verify.bind(report)(option);
+            verify = option.AddReactionButton;
+            option = {};
+            option['containerStyle'] = romeon;
             yankee = yankee.id;
-            options['threadId'] = yankee;
-            golf = offset.bind(report)(verify, options);
+            option['threadId'] = yankee;
+            golfie = offset.bind(report)(verify, option);
  383:
-            oscar[2] = golf;
-            mike['children'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            oscard[2] = golfie;
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  397:
             return entity;
         }
     };
-    zulu['MaxForumPostReactions'] = tango;
-    tango = function(argFoo) { // Original name: ForumPostActionBarReactions
+    zuuluu['MaxForumPostReactions'] = tangon;
+    tangon = function(argFoo) { // Original name: ForumPostActionBarReactions
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             yankee = entity.thread;
             var _closure2_slot0 = yankee;
-            tango = entity.parentChannel;
+            tangon = entity.parentChannel;
             verify = entity.firstMessage;
-            kilo = entity.containerStyle;
-            foxtrot = entity.reactionContainerStyle;
-            var _closure2_slot1 = foxtrot;
+            kiloes = entity.containerStyle;
+            foxtra = entity.reactionContainerStyle;
+            var _closure2_slot1 = foxtra;
             entity = _closure1_slot6;
             report = undefined;
-            romeo = entity.bind(report)();
-            var _closure2_slot2 = romeo;
-            mike = _closure1_slot1;
-            zulu = _closure1_slot2;
+            romeon = entity.bind(report)();
+            var _closure2_slot2 = romeon;
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 4;
-            entity = zulu[entity];
-            entity = mike.bind(report)(entity);
+            entity = zuuluu[entity];
+            entity = michal.bind(report)(entity);
             entity = entity.bind(report)(yankee);
-            golf = entity.disableReactionCreates;
-            mike = _closure1_slot0;
+            golfie = entity.disableReactionCreates;
+            michal = _closure1_slot0;
             entity = 5;
-            entity = zulu[entity];
-            zulu = mike.bind(report)(entity);
-            mike = zulu.useSomeForumPostReactions;
+            entity = zuuluu[entity];
+            zuuluu = michal.bind(report)(entity);
+            michal = zuuluu.useSomeForumPostReactions;
             entity = {};
             entity['message'] = verify;
-            entity['parentChannel'] = tango;
-            tango = false;
-            entity['sorted'] = tango;
-            tango = 2;
-            if(!golf) { _fun00006_ip = 140; continue _fun00005 }
+            entity['parentChannel'] = tangon;
+            tangon = false;
+            entity['sorted'] = tangon;
+            tangon = 2;
+            if(!golfie) { _fun00006_ip = 140; continue _fun00005 }
  137:
-            tango = 3;
+            tangon = 3;
  140:
-            entity['count'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['count'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             backup = entity.reactions;
             sizing = entity.additionalNonUniqueReactionCount;
             entity = backup.length;
@@ -249,61 +249,61 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             if(!(verify === entity)) { _fun00006_ip = 180; continue _fun00005 }
  172:
             entity = null;
-            if(golf) { _fun00006_ip = 413; continue _fun00005 }
+            if(golfie) { _fun00006_ip = 413; continue _fun00005 }
  180:
-            tango = _closure1_slot5;
-            zulu = _closure1_slot3;
-            mike = {};
-            output = romeo.container;
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot3;
+            michal = {};
+            output = romeon.container;
             offset = new Array(2);
             offset[0] = output;
-            offset[1] = kilo;
-            mike['style'] = offset;
+            offset[1] = kiloes;
+            michal['style'] = offset;
             offset = backup.map;
-            oscar = function(argFoo) {
+            oscard = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    oscar = argFoo;
+                    oscard = argFoo;
                     report = _closure1_slot4;
-                    mike = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 6;
-                    entity = zulu[entity];
-                    tango = undefined;
-                    entity = mike.bind(tango)(entity);
-                    zulu = entity.ForumPostReactionButton;
-                    mike = {};
-                    golf = _closure2_slot2;
-                    options = golf.actionBarReaction;
-                    golf = new Array(2);
-                    golf[0] = options;
-                    options = _closure2_slot1;
-                    golf[1] = options;
-                    mike['containerStyle'] = golf;
+                    entity = zuuluu[entity];
+                    tangon = undefined;
+                    entity = michal.bind(tangon)(entity);
+                    zuuluu = entity.ForumPostReactionButton;
+                    michal = {};
+                    golfie = _closure2_slot2;
+                    option = golfie.actionBarReaction;
+                    golfie = new Array(2);
+                    golfie[0] = option;
+                    option = _closure2_slot1;
+                    golfie[1] = option;
+                    michal['containerStyle'] = golfie;
                     entity = _closure2_slot0;
-                    mike['thread'] = entity;
-                    mike['reaction'] = oscar;
+                    michal['thread'] = entity;
+                    michal['reaction'] = oscard;
                     entity = false;
-                    mike['animateCount'] = entity;
-                    entity = oscar.emoji;
+                    michal['animateCount'] = entity;
+                    entity = oscard.emoji;
                     entity = entity.id;
-                    golf = null;
-                    if(!(golf == entity)) { _fun00008_ip = 123; continue _fun00007 }
+                    golfie = null;
+                    if(!(golfie == entity)) { _fun00008_ip = 123; continue _fun00007 }
  112:
-                    oscar = oscar.emoji;
-                    entity = oscar.name;
+                    oscard = oscard.emoji;
+                    entity = oscard.name;
  123:
-                    entity = report.bind(tango)(zulu, mike, entity);
+                    entity = report.bind(tangon)(zuuluu, michal, entity);
                     return entity;
                 }
             };
-            offset = offset.bind(backup)(oscar);
-            oscar = new Array(3);
-            oscar[0] = offset;
+            offset = offset.bind(backup)(oscard);
+            oscard = new Array(3);
+            oscard[0] = offset;
             verify = sizing > verify;
             if(!verify) { _fun00006_ip = 318; continue _fun00005 }
  243:
-            kilo = _closure1_slot4;
+            kiloes = _closure1_slot4;
             backup = _closure1_slot0;
             output = _closure1_slot2;
             offset = 6;
@@ -312,112 +312,112 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = offset.AdditionalReactionCount;
             offset = {};
             offset['count'] = sizing;
-            output = romeo.actionBarReaction;
+            output = romeon.actionBarReaction;
             sizing = new Array(2);
             sizing[0] = output;
-            sizing[1] = foxtrot;
+            sizing[1] = foxtra;
             offset['containerStyle'] = sizing;
             sizing = yankee.id;
             offset['threadId'] = sizing;
-            verify = kilo.bind(report)(backup, offset);
+            verify = kiloes.bind(report)(backup, offset);
  318:
-            oscar[1] = verify;
-            golf = !golf;
-            if(!golf) { _fun00006_ip = 399; continue _fun00005 }
+            oscard[1] = verify;
+            golfie = !golfie;
+            if(!golfie) { _fun00006_ip = 399; continue _fun00005 }
  328:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
             backup = _closure1_slot2;
-            options = 6;
-            options = backup[options];
-            options = verify.bind(report)(options);
-            verify = options.AddReactionButton;
-            options = {};
-            backup = romeo.actionBarReaction;
-            romeo = new Array(2);
-            romeo[0] = backup;
-            romeo[1] = foxtrot;
-            options['containerStyle'] = romeo;
+            option = 6;
+            option = backup[option];
+            option = verify.bind(report)(option);
+            verify = option.AddReactionButton;
+            option = {};
+            backup = romeon.actionBarReaction;
+            romeon = new Array(2);
+            romeon[0] = backup;
+            romeon[1] = foxtra;
+            option['containerStyle'] = romeon;
             yankee = yankee.id;
-            options['threadId'] = yankee;
-            golf = offset.bind(report)(verify, options);
+            option['threadId'] = yankee;
+            golfie = offset.bind(report)(verify, option);
  399:
-            oscar[2] = golf;
-            mike['children'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            oscard[2] = golfie;
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  413:
             return entity;
         }
     };
-    zulu['ForumPostActionBarReactions'] = tango;
-    mike = function(argFoo) { // Original name: MostCommonForumPostReaction
+    zuuluu['ForumPostActionBarReactions'] = tangon;
+    michal = function(argFoo) { // Original name: MostCommonForumPostReaction
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             verify = entity.thread;
-            romeo = entity.parentChannel;
+            romeon = entity.parentChannel;
             yankee = entity.firstMessage;
-            golf = entity.locationAnalyticsObject;
+            golfie = entity.locationAnalyticsObject;
             entity = _closure1_slot6;
-            oscar = undefined;
-            offset = entity.bind(oscar)();
-            mike = _closure1_slot1;
-            options = _closure1_slot2;
+            oscard = undefined;
+            offset = entity.bind(oscard)();
+            michal = _closure1_slot1;
+            option = _closure1_slot2;
             entity = 4;
-            entity = options[entity];
-            entity = mike.bind(oscar)(entity);
-            entity = entity.bind(oscar)(verify);
-            mike = entity.disableReactionCreates;
-            tango = entity.disableReactionUpdates;
+            entity = option[entity];
+            entity = michal.bind(oscard)(entity);
+            entity = entity.bind(oscard)(verify);
+            michal = entity.disableReactionCreates;
+            tangon = entity.disableReactionUpdates;
             report = _closure1_slot0;
             entity = 5;
-            entity = options[entity];
-            options = report.bind(oscar)(entity);
-            report = options.useSomeForumPostReactions;
+            entity = option[entity];
+            option = report.bind(oscard)(entity);
+            report = option.useSomeForumPostReactions;
             entity = {};
-            entity['parentChannel'] = romeo;
+            entity['parentChannel'] = romeon;
             entity['message'] = yankee;
-            entity = report.bind(options)(entity);
+            entity = report.bind(option)(entity);
             report = entity.reactions;
             entity = 0;
-            options = report[entity];
+            option = report[entity];
             entity = null;
-            if(!(entity != options)) { _fun00010_ip = 232; continue _fun00009 }
+            if(!(entity != option)) { _fun00010_ip = 232; continue _fun00009 }
  133:
-            if(tango) { _fun00010_ip = 232; continue _fun00009 }
+            if(tangon) { _fun00010_ip = 232; continue _fun00009 }
  136:
-            tango = options.me;
-            if(tango) { _fun00010_ip = 151; continue _fun00009 }
+            tangon = option.me;
+            if(tangon) { _fun00010_ip = 151; continue _fun00009 }
  145:
-            tango = options.me_burst;
+            tangon = option.me_burst;
  151:
-            if(!mike) { _fun00010_ip = 159; continue _fun00009 }
+            if(!michal) { _fun00010_ip = 159; continue _fun00009 }
  154:
-            mike = null;
-            if(!tango) { _fun00010_ip = 230; continue _fun00009 }
+            michal = null;
+            if(!tangon) { _fun00010_ip = 230; continue _fun00009 }
  159:
             report = _closure1_slot4;
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             yankee = _closure1_slot2;
-            zulu = 6;
-            zulu = yankee[zulu];
-            zulu = tango.bind(oscar)(zulu);
-            tango = zulu.ForumPostReactionButton;
-            zulu = {};
+            zuuluu = 6;
+            zuuluu = yankee[zuuluu];
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            tangon = zuuluu.ForumPostReactionButton;
+            zuuluu = {};
             offset = offset.mostCommonContainer;
-            zulu['containerStyle'] = offset;
-            zulu['thread'] = verify;
-            zulu['reaction'] = options;
-            zulu['locationAnalyticsObject'] = golf;
-            golf = false;
-            zulu['animateCount'] = golf;
-            mike = report.bind(oscar)(tango, zulu);
+            zuuluu['containerStyle'] = offset;
+            zuuluu['thread'] = verify;
+            zuuluu['reaction'] = option;
+            zuuluu['locationAnalyticsObject'] = golfie;
+            golfie = false;
+            zuuluu['animateCount'] = golfie;
+            michal = report.bind(oscard)(tangon, zuuluu);
  230:
-            return mike;
+            return michal;
  232:
             return entity;
         }
     };
-    zulu['MostCommonForumPostReaction'] = mike;
+    zuuluu['MostCommonForumPostReaction'] = michal;
     return entity;
 })();

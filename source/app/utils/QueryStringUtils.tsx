@@ -1,40 +1,40 @@
 // app/utils/QueryStringUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'utils/QueryStringUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: getFirstQueryStringValue
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'utils/QueryStringUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: getFirstQueryStringValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = global;
-            mike = entity.Array;
-            entity = mike.isArray;
-            mike = entity.bind(mike)(zulu);
-            entity = zulu;
-            if(!mike) { _fun00002_ip = 33; continue _fun00001 }
+            michal = entity.Array;
+            entity = michal.isArray;
+            michal = entity.bind(michal)(zuuluu);
+            entity = zuuluu;
+            if(!michal) { _fun00002_ip = 33; continue _fun00001 }
  27:
-            mike = 0;
-            entity = zulu[mike];
+            michal = 0;
+            entity = zuuluu[michal];
  33:
             return entity;
         }
     };
-    zulu['getFirstQueryStringValue'] = mike;
+    zuuluu['getFirstQueryStringValue'] = michal;
     return entity;
 })();

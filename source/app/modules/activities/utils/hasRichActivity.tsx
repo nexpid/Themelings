@@ -1,91 +1,91 @@
 // app/modules/activities/utils/hasRichActivity.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/hasRichActivity.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: hasRichActivity
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/hasRichActivity.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: hasRichActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = null;
-            entity = tango != zulu;
+            zuuluu = argFoo;
+            tangon = null;
+            entity = tangon != zuuluu;
             if(!entity) { _fun00002_ip = 34; continue _fun00001 }
  12:
-            report = zulu.type;
-            mike = _closure1_slot0;
-            mike = mike.CUSTOM_STATUS;
-            entity = report !== mike;
+            report = zuuluu.type;
+            michal = _closure1_slot0;
+            michal = michal.CUSTOM_STATUS;
+            entity = report !== michal;
  34:
             if(!entity) { _fun00002_ip = 59; continue _fun00001 }
  37:
-            report = zulu.type;
-            mike = _closure1_slot0;
-            mike = mike.HANG_STATUS;
-            entity = report !== mike;
+            report = zuuluu.type;
+            michal = _closure1_slot0;
+            michal = michal.HANG_STATUS;
+            entity = report !== michal;
  59:
             if(!entity) { _fun00002_ip = 170; continue _fun00001 }
  62:
-            mike = zulu.details;
-            mike = tango != mike;
-            if(mike) { _fun00002_ip = 129; continue _fun00001 }
+            michal = zuuluu.details;
+            michal = tangon != michal;
+            if(michal) { _fun00002_ip = 129; continue _fun00001 }
  75:
-            report = zulu.assets;
-            report = tango != report;
+            report = zuuluu.assets;
+            report = tangon != report;
             if(!report) { _fun00002_ip = 126; continue _fun00001 }
  88:
-            oscar = zulu.assets;
-            oscar = oscar.large_image;
-            oscar = tango != oscar;
-            if(oscar) { _fun00002_ip = 123; continue _fun00001 }
+            oscard = zuuluu.assets;
+            oscard = oscard.large_image;
+            oscard = tangon != oscard;
+            if(oscard) { _fun00002_ip = 123; continue _fun00001 }
  107:
-            golf = zulu.assets;
-            golf = golf.small_text;
-            oscar = tango != golf;
+            golfie = zuuluu.assets;
+            golfie = golfie.small_text;
+            oscard = tangon != golfie;
  123:
-            report = oscar;
+            report = oscard;
  126:
-            mike = report;
+            michal = report;
  129:
-            if(mike) { _fun00002_ip = 142; continue _fun00001 }
+            if(michal) { _fun00002_ip = 142; continue _fun00001 }
  132:
-            report = zulu.party;
-            mike = tango != report;
+            report = zuuluu.party;
+            michal = tangon != report;
  142:
-            if(mike) { _fun00002_ip = 155; continue _fun00001 }
+            if(michal) { _fun00002_ip = 155; continue _fun00001 }
  145:
-            report = zulu.secrets;
-            mike = tango != report;
+            report = zuuluu.secrets;
+            michal = tangon != report;
  155:
-            if(mike) { _fun00002_ip = 167; continue _fun00001 }
+            if(michal) { _fun00002_ip = 167; continue _fun00001 }
  158:
-            zulu = zulu.state;
-            mike = tango != zulu;
+            zuuluu = zuuluu.state;
+            michal = tangon != zuuluu;
  167:
-            entity = mike;
+            entity = michal;
  170:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

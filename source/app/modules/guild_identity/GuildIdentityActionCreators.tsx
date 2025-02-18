@@ -1,495 +1,495 @@
 // app/modules/guild_identity/GuildIdentityActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _saveGuildIdentityChanges
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    mike = argBar;
+                    michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 500; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 500; continue _fun00001 }
  13:
-                    foxtrot = argFoo;
-                    yankee = mike.nick;
-                    offset = mike.avatar;
-                    backup = mike.avatarDecoration;
-                    oscar = undefined;
-                    romeo = undefined;
+                    foxtra = argFoo;
+                    yankee = michal.nick;
+                    offset = michal.avatar;
+                    backup = michal.avatarDecoration;
+                    oscard = undefined;
+                    romeon = undefined;
                     report = undefined;
                     SaveGenerator(address=44);
  42:
-                    return oscar;
+                    return oscard;
  44:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 497; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 497; continue _fun00001 }
  53:
-                    tango = foxtrot;
+                    tangon = foxtra;
                     verify = null;
-                    if(!(verify != tango)) { _fun00002_ip = 461; continue _fun00001 }
+                    if(!(verify != tangon)) { _fun00002_ip = 461; continue _fun00001 }
  65:
-                    kilo = _closure1_slot1;
-                    options = _closure1_slot2;
-                    golf = 2;
-                    options = options[golf];
-                    sizing = kilo.bind(oscar)(options);
-                    kilo = sizing.dispatch;
-                    options = {};
+                    kiloes = _closure1_slot1;
+                    option = _closure1_slot2;
+                    golfie = 2;
+                    option = option[golfie];
+                    sizing = kiloes.bind(oscard)(option);
+                    kiloes = sizing.dispatch;
+                    option = {};
                     output = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
-                    options['type'] = output;
-                    options = kilo.bind(sizing)(options);
-                    options = {};
-                    options['nick'] = yankee;
-                    options['avatar'] = offset;
+                    option['type'] = output;
+                    option = kiloes.bind(sizing)(option);
+                    option = {};
+                    option['nick'] = yankee;
+                    option['avatar'] = offset;
                     yankee = verify === backup;
                     offset = null;
                     if(yankee) { _fun00002_ip = 148; continue _fun00001 }
  131:
                     sizing = verify == backup;
-                    kilo = undefined;
+                    kiloes = undefined;
                     if(sizing) { _fun00002_ip = 145; continue _fun00001 }
  140:
-                    kilo = backup.id;
+                    kiloes = backup.id;
  145:
-                    offset = kilo;
+                    offset = kiloes;
  148:
-                    options['avatar_decoration_id'] = offset;
+                    option['avatar_decoration_id'] = offset;
                     offset = null;
                     if(yankee) { _fun00002_ip = 176; continue _fun00001 }
  158:
-                    kilo = verify == backup;
+                    kiloes = verify == backup;
                     yankee = undefined;
-                    if(kilo) { _fun00002_ip = 173; continue _fun00001 }
+                    if(kiloes) { _fun00002_ip = 173; continue _fun00001 }
  167:
                     yankee = backup.skuId;
  173:
                     offset = yankee;
  176:
-                    options['avatar_decoration_sku_id'] = offset;
-                    romeo = options;
+                    option['avatar_decoration_sku_id'] = offset;
+                    romeon = option;
  184: // try_start_0
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    options = 3;
-                    options = yankee[options];
-                    options = offset.bind(oscar)(options);
-                    yankee = options.HTTP;
+                    option = 3;
+                    option = yankee[option];
+                    option = offset.bind(oscard)(option);
+                    yankee = option.HTTP;
                     offset = yankee.patch;
-                    options = {};
+                    option = {};
                     sizing = _closure1_slot4;
-                    kilo = sizing.SET_GUILD_MEMBER;
-                    backup = foxtrot;
-                    backup = kilo.bind(sizing)(backup);
-                    options['url'] = backup;
-                    options['body'] = romeo;
-                    romeo = true;
-                    options['oldFormErrors'] = romeo;
-                    romeo = false;
-                    options['rejectWithError'] = romeo;
-                    options = offset.bind(yankee)(options);
+                    kiloes = sizing.SET_GUILD_MEMBER;
+                    backup = foxtra;
+                    backup = kiloes.bind(sizing)(backup);
+                    option['url'] = backup;
+                    option['body'] = romeon;
+                    romeon = true;
+                    option['oldFormErrors'] = romeon;
+                    romeon = false;
+                    option['rejectWithError'] = romeon;
+                    option = offset.bind(yankee)(option);
                     SaveGenerator(address=265);
  263:
-                    return options;
+                    return option;
  265:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=9);
                     if(offset) { _fun00002_ip = 356; continue _fun00001 }
  271:
                     yankee = _closure1_slot1;
                     offset = _closure1_slot2;
-                    romeo = offset[golf];
-                    kilo = yankee.bind(oscar)(romeo);
-                    backup = kilo.dispatch;
-                    romeo = {};
+                    romeon = offset[golfie];
+                    kiloes = yankee.bind(oscard)(romeon);
+                    backup = kiloes.dispatch;
+                    romeon = {};
                     sizing = 'GUILD_IDENTITY_SETTINGS_SUBMIT_SUCCESS';
-                    romeo['type'] = sizing;
-                    romeo = backup.bind(kilo)(romeo);
-                    offset = offset[golf];
-                    romeo = yankee.bind(oscar)(offset);
-                    yankee = romeo.dispatch;
+                    romeon['type'] = sizing;
+                    romeon = backup.bind(kiloes)(romeon);
+                    offset = offset[golfie];
+                    romeon = yankee.bind(oscard)(offset);
+                    yankee = romeon.dispatch;
                     offset = {};
                     backup = 'GUILD_MEMBER_PROFILE_UPDATE';
                     offset['type'] = backup;
-                    backup = options.body;
+                    backup = option.body;
                     offset['guildMember'] = backup;
-                    offset['guildId'] = foxtrot;
-                    offset = yankee.bind(romeo)(offset);
+                    offset['guildId'] = foxtra;
+                    offset = yankee.bind(romeon)(offset);
  353: // try_end0
-                    return options;
+                    return option;
  356:
-                    return options;
+                    return option;
  359: // catch_target0
                     CatchBlockStart(arg_register=7);
-                    zulu = options;
-                    options = options.body;
-                    report = options;
-                    offset = verify == options;
-                    options = undefined;
+                    zuuluu = option;
+                    option = option.body;
+                    report = option;
+                    offset = verify == option;
+                    option = undefined;
                     if(offset) { _fun00002_ip = 389; continue _fun00001 }
  381:
                     offset = report;
-                    options = offset.username;
+                    option = offset.username;
  389:
-                    if(!(verify != options)) { _fun00002_ip = 409; continue _fun00001 }
+                    if(!(verify != option)) { _fun00002_ip = 409; continue _fun00001 }
  393:
-                    options = report.username;
-                    report['nick'] = options;
+                    option = report.username;
+                    report['nick'] = option;
                     report = delete report.username;
  409:
                     report = _closure1_slot1;
-                    tango = _closure1_slot2;
-                    tango = tango[golf];
-                    oscar = report.bind(oscar)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
-                    golf = 'GUILD_IDENTITY_SETTINGS_SUBMIT_FAILURE';
-                    tango['type'] = golf;
-                    golf = zulu.body;
-                    tango['errors'] = golf;
-                    tango = report.bind(oscar)(tango);
-                    return zulu;
+                    tangon = _closure1_slot2;
+                    tangon = tangon[golfie];
+                    oscard = report.bind(oscard)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'GUILD_IDENTITY_SETTINGS_SUBMIT_FAILURE';
+                    tangon['type'] = golfie;
+                    golfie = zuuluu.body;
+                    tangon['errors'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
+                    return zuuluu;
  461:
-                    zulu = global;
-                    report = zulu.Error;
-                    zulu = report.prototype;
-                    tango = Object.create(zulu, {constructor: {value: report}});
+                    zuuluu = global;
+                    report = zuuluu.Error;
+                    zuuluu = report.prototype;
+                    tangon = Object.create(zuuluu, {constructor: {value: report}});
                     result = 'Need guildId';
-                    echo = tango;
-                    zulu = new echo[report](result, output);
-                    zulu = zulu instanceof Object ? zulu : tango;
-                    throw zulu;
+                    echoed = tangon;
+                    zuuluu = new echoed[report](result, output);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    throw zuuluu;
  497:
-                    return mike;
+                    return michal;
  500:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.Endpoints;
-    var _closure1_slot4 = golf;
-    tango = tango.Layers;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_identity/GuildIdentityActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: saveGuildIdentityChanges
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.Endpoints;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.Layers;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_identity/GuildIdentityActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: saveGuildIdentityChanges
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['saveGuildIdentityChanges'] = tango;
-    tango = function(argFoo) { // Original name: setCurrentGuild
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['saveGuildIdentityChanges'] = tangon;
+    tangon = function(argFoo) { // Original name: setCurrentGuild
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_GUILD';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['guild'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['guild'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setCurrentGuild'] = tango;
-    tango = function(argFoo, argBar) { // Original name: initGuildIdentitySettings
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setCurrentGuild'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: initGuildIdentitySettings
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_INIT';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['guild'] = report;
+        michal['guild'] = report;
         report = argBar;
-        mike['analyticsLocations'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['analyticsLocations'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['initGuildIdentitySettings'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: openGuildIdentitySettings
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['initGuildIdentitySettings'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: openGuildIdentitySettings
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_INIT';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['guild'] = report;
+        michal['guild'] = report;
         report = argBar;
-        mike['source'] = report;
+        michal['source'] = report;
         report = argBaz;
-        mike['analyticsLocations'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['analyticsLocations'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['openGuildIdentitySettings'] = tango;
-    tango = function() { // Original name: resetAndCloseGuildIdentityForm
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['openGuildIdentitySettings'] = tangon;
+    tangon = function() { // Original name: resetAndCloseGuildIdentityForm
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_RESET_AND_CLOSE_FORM';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetAndCloseGuildIdentityForm'] = tango;
-    tango = function(argFoo) { // Original name: setPendingAvatar
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['resetAndCloseGuildIdentityForm'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingAvatar
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_AVATAR';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['avatar'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['avatar'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingAvatar'] = tango;
-    tango = function(argFoo) { // Original name: setPendingAvatarDecoration
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingAvatar'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingAvatarDecoration
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_AVATAR_DECORATION';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['avatarDecoration'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['avatarDecoration'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingAvatarDecoration'] = tango;
-    tango = function(argFoo) { // Original name: setPendingProfileEffectId
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingAvatarDecoration'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingProfileEffectId
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_PROFILE_EFFECT_ID';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['profileEffectId'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['profileEffectId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingProfileEffectId'] = tango;
-    tango = function(argFoo) { // Original name: setPendingBanner
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingProfileEffectId'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingBanner
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_BANNER';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['banner'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['banner'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingBanner'] = tango;
-    tango = function(argFoo) { // Original name: setPendingBio
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingBanner'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingBio
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_BIO';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['bio'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['bio'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingBio'] = tango;
-    tango = function(argFoo) { // Original name: setPendingPronouns
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingBio'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingPronouns
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_PRONOUNS';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['pronouns'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['pronouns'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingPronouns'] = tango;
-    tango = function(argFoo) { // Original name: setPendingNickname
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingPronouns'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingNickname
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_NICKNAME';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['nickname'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['nickname'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingNickname'] = tango;
-    tango = function(argFoo) { // Original name: setPendingThemeColors
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingNickname'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingThemeColors
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_THEME_COLORS';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['themeColors'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['themeColors'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setPendingThemeColors'] = tango;
-    tango = function() { // Original name: resetPendingMemberChanges
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setPendingThemeColors'] = tangon;
+    tangon = function() { // Original name: resetPendingMemberChanges
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_RESET_PENDING_MEMBER_CHANGES';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetPendingMemberChanges'] = tango;
-    tango = function() { // Original name: resetPendingProfileChanges
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['resetPendingMemberChanges'] = tangon;
+    tangon = function() { // Original name: resetPendingProfileChanges
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_RESET_PENDING_PROFILE_CHANGES';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetPendingProfileChanges'] = tango;
-    tango = function() { // Original name: resetAllPending
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['resetPendingProfileChanges'] = tangon;
+    tangon = function() { // Original name: resetAllPending
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_RESET_ALL_PENDING';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetAllPending'] = tango;
-    mike = function() { // Original name: clearErrors
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['resetAllPending'] = tangon;
+    michal = function() { // Original name: clearErrors
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'GUILD_IDENTITY_SETTINGS_CLEAR_ERRORS';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearErrors'] = mike;
+    zuuluu['clearErrors'] = michal;
     return entity;
 })();

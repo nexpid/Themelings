@@ -1,39 +1,39 @@
 // app/modules/remixing/RemixingNonNitroUpsellStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot3;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot3;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot2;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot2;
             entity = _closure1_slot7;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot3;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -42,106 +42,106 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  72: // try_end0
             _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot7 = mike;
+            _closure1_slot7 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot7 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = {};
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.PersistedStore;
-    tango = function(argFoo) {
-        tango = function() { // Original name: RemixingNonNitroUpsellStore
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = {};
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.PersistedStore;
+    tangon = function(argFoo) {
+        tangon = function() { // Original name: RemixingNonNitroUpsellStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot0;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot6;
+            oscard = _closure1_slot0;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot6;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot4;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot1;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot1;
         report = {};
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = null;
-                if(!(entity != mike)) { _fun00006_ip = 16; continue _fun00005 }
+                if(!(entity != michal)) { _fun00006_ip = 16; continue _fun00005 }
  9:
-                _closure1_slot5 = mike;
+                _closure1_slot5 = michal;
  16:
                 entity = undefined;
                 return entity;
@@ -151,22 +151,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(3);
         entity[0] = report;
         report = {};
-        golf = 'getNonNitroUpsellShownTimes';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'getNonNitroUpsellShownTimes';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 entity = null;
-                if(!(entity != zulu)) { _fun00008_ip = 34; continue _fun00007 }
+                if(!(entity != zuuluu)) { _fun00008_ip = 34; continue _fun00007 }
  9:
-                mike = _closure1_slot5;
-                mike = mike[zulu];
-                zulu = entity == mike;
+                michal = _closure1_slot5;
+                michal = michal[zuuluu];
+                zuuluu = entity == michal;
                 entity = 0;
-                if(zulu) { _fun00008_ip = 32; continue _fun00007 }
+                if(zuuluu) { _fun00008_ip = 32; continue _fun00007 }
  29:
-                entity = mike;
+                entity = michal;
  32:
                 return entity;
  34:
@@ -174,80 +174,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'getState';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'getState';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = _closure1_slot5;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[2] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = tango.bind(entity)(golf);
-    tango = 'RemixingNonNitroUpsellStore';
-    options['displayName'] = tango;
-    tango = 'RemixingPersistedStore';
-    options['persistKey'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    yankee = report.bind(entity)(tango);
-    tango = {};
+    option = tangon.bind(entity)(golfie);
+    tangon = 'RemixingNonNitroUpsellStore';
+    option['displayName'] = tangon;
+    tangon = 'RemixingPersistedStore';
+    option['persistKey'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    yankee = report.bind(entity)(tangon);
+    tangon = {};
     report = function(argFoo) { // Original name: REMIX_NON_NITRO_UPSELL_SHOWN
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
-            zulu = entity.userId;
+            zuuluu = entity.userId;
             entity = _closure1_slot5;
-            entity = zulu in entity;
-            mike = _closure1_slot5;
+            entity = zuuluu in entity;
+            michal = _closure1_slot5;
             if(entity) { _fun00010_ip = 35; continue _fun00009 }
  26:
             entity = 1;
-            mike[zulu] = entity;
+            michal[zuuluu] = entity;
             _fun00010_ip = 46; continue _fun00009;
  35:
-            entity = mike[zulu];
+            entity = michal[zuuluu];
             entity = entity + 1;
-            mike[zulu] = entity;
+            michal[zuuluu] = entity;
  46:
             entity = undefined;
             return entity;
         }
     };
-    tango['REMIX_NON_NITRO_UPSELL_SHOWN'] = report;
-    report = options.prototype;
-    report = Object.create(report, {constructor: {value: options}});
-    romeo = report;
-    offset = tango;
-    tango = new romeo[options](yankee, offset, verify);
-    tango = tango instanceof Object ? tango : report;
+    tangon['REMIX_NON_NITRO_UPSELL_SHOWN'] = report;
+    report = option.prototype;
+    report = Object.create(report, {constructor: {value: option}});
+    romeon = report;
+    offset = tangon;
+    tangon = new romeon[option](yankee, offset, verify);
+    tangon = tangon instanceof Object ? tangon : report;
     report = 7;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/remixing/RemixingNonNitroUpsellStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function(argFoo) {
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity != mike)) { _fun00012_ip = 20; continue _fun00011 }
+            if(!(entity != michal)) { _fun00012_ip = 20; continue _fun00011 }
  9:
             entity = _closure1_slot5;
-            entity = delete entity[mike];
+            entity = delete entity[michal];
  20:
             entity = undefined;
             return entity;
         }
     };
-    zulu['reset'] = mike;
+    zuuluu['reset'] = michal;
     return entity;
 })();

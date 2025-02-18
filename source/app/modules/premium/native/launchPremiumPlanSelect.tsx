@@ -1,135 +1,135 @@
 // app/modules/premium/native/launchPremiumPlanSelect.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.UserSettingsSections;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/launchPremiumPlanSelect.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: launchPremiumPlanSelect
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.UserSettingsSections;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/native/launchPremiumPlanSelect.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: launchPremiumPlanSelect
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            entity = zulu.predicate;
+            zuuluu = argFoo;
+            entity = zuuluu.predicate;
             var _closure2_slot0 = entity;
-            oscar = zulu.navigation;
-            verify = zulu.showCurrentPlan;
+            oscard = zuuluu.navigation;
+            verify = zuuluu.showCurrentPlan;
             entity = undefined;
             if(!(verify === entity)) { _fun00002_ip = 35; continue _fun00001 }
  33:
             verify = true;
  35:
-            yankee = zulu.analyticsLocation;
-            offset = zulu.analyticsLocations;
-            options = zulu.planId;
-            golf = zulu.applicationId;
-            kilo = zulu.onBack;
-            romeo = function(argFoo) { // Original name: wrappedPredicate
+            yankee = zuuluu.analyticsLocation;
+            offset = zuuluu.analyticsLocations;
+            option = zuuluu.planId;
+            golfie = zuuluu.applicationId;
+            kiloes = zuuluu.onBack;
+            romeon = function(argFoo) { // Original name: wrappedPredicate
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    oscar = argFoo;
-                    mike = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    oscard = argFoo;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 1;
-                    entity = zulu[entity];
+                    entity = zuuluu[entity];
                     report = undefined;
-                    mike = mike.bind(report)(entity);
-                    entity = mike.shouldAlwaysExcludeFromPlanSelect;
-                    entity = entity.bind(mike)(oscar);
+                    michal = michal.bind(report)(entity);
+                    entity = michal.shouldAlwaysExcludeFromPlanSelect;
+                    entity = entity.bind(michal)(oscard);
                     entity = !entity;
                     if(!entity) { _fun00004_ip = 85; continue _fun00003 }
  45:
-                    zulu = _closure2_slot0;
-                    mike = null;
-                    golf = mike == zulu;
-                    zulu = undefined;
-                    if(golf) { _fun00004_ip = 72; continue _fun00003 }
+                    zuuluu = _closure2_slot0;
+                    michal = null;
+                    golfie = michal == zuuluu;
+                    zuuluu = undefined;
+                    if(golfie) { _fun00004_ip = 72; continue _fun00003 }
  63:
-                    tango = _closure2_slot0;
-                    zulu = tango.bind(report)(oscar);
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.bind(report)(oscard);
  72:
-                    mike = mike == zulu;
-                    if(mike) { _fun00004_ip = 82; continue _fun00003 }
+                    michal = michal == zuuluu;
+                    if(michal) { _fun00004_ip = 82; continue _fun00003 }
  79:
-                    mike = zulu;
+                    michal = zuuluu;
  82:
-                    entity = mike;
+                    entity = michal;
  85:
                     return entity;
                 }
             };
-            zulu = _closure1_slot3;
-            tango = zulu.PREMIUM_PLAN_SELECT;
-            zulu = null;
-            if(!(zulu == oscar)) { _fun00002_ip = 197; continue _fun00001 }
+            zuuluu = _closure1_slot3;
+            tangon = zuuluu.PREMIUM_PLAN_SELECT;
+            zuuluu = null;
+            if(!(zuuluu == oscard)) { _fun00002_ip = 197; continue _fun00001 }
  88:
-            foxtrot = _closure1_slot1;
-            zulu = _closure1_slot2;
+            foxtra = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             report = 2;
-            report = zulu[report];
-            backup = foxtrot.bind(entity)(report);
-            foxtrot = backup.pushLazy;
+            report = zuuluu[report];
+            backup = foxtra.bind(entity)(report);
+            foxtra = backup.pushLazy;
             sizing = _closure1_slot0;
             report = 4;
-            report = zulu[report];
+            report = zuuluu[report];
             sizing = sizing.bind(entity)(report);
             report = 3;
-            report = zulu[report];
-            zulu = zulu.paths;
-            report = sizing.bind(entity)(report, zulu);
-            zulu = {};
-            zulu['initialRoute'] = tango;
-            zulu['analyticsLocation'] = yankee;
-            zulu['analyticsLocations'] = offset;
-            zulu['predicate'] = romeo;
-            zulu['showCurrentPlan'] = verify;
-            zulu['planId'] = options;
-            zulu['applicationId'] = golf;
-            zulu['onBack'] = kilo;
-            zulu = foxtrot.bind(backup)(report, zulu);
+            report = zuuluu[report];
+            zuuluu = zuuluu.paths;
+            report = sizing.bind(entity)(report, zuuluu);
+            zuuluu = {};
+            zuuluu['initialRoute'] = tangon;
+            zuuluu['analyticsLocation'] = yankee;
+            zuuluu['analyticsLocations'] = offset;
+            zuuluu['predicate'] = romeon;
+            zuuluu['showCurrentPlan'] = verify;
+            zuuluu['planId'] = option;
+            zuuluu['applicationId'] = golfie;
+            zuuluu['onBack'] = kiloes;
+            zuuluu = foxtra.bind(backup)(report, zuuluu);
             _fun00002_ip = 239; continue _fun00001;
  197:
-            report = oscar.push;
-            zulu = {};
-            zulu['predicate'] = romeo;
-            zulu['analyticsLocation'] = yankee;
-            zulu['analyticsLocations'] = offset;
-            zulu['showCurrentPlan'] = verify;
-            zulu['planId'] = options;
-            zulu['applicationId'] = golf;
-            zulu = report.bind(oscar)(tango, zulu);
+            report = oscard.push;
+            zuuluu = {};
+            zuuluu['predicate'] = romeon;
+            zuuluu['analyticsLocation'] = yankee;
+            zuuluu['analyticsLocations'] = offset;
+            zuuluu['showCurrentPlan'] = verify;
+            zuuluu['planId'] = option;
+            zuuluu['applicationId'] = golfie;
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
  239:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            mike = 5;
-            mike = report[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.trackPaneViewed;
-            mike = mike.bind(zulu)(tango);
+            michal = 5;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.trackPaneViewed;
+            michal = michal.bind(zuuluu)(tangon);
             return entity;
         }
     };
-    zulu['launchPremiumPlanSelect'] = mike;
+    zuuluu['launchPremiumPlanSelect'] = michal;
     return entity;
 })();

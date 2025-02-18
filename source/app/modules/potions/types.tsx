@@ -1,27 +1,27 @@
 // app/modules/potions/types.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 0;
-    mike['CONFETTI'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 0;
+    michal['CONFETTI'] = tangon;
     entity = 'CONFETTI';
-    mike[tango] = entity;
-    entity = argPlugh;
-    report = entity[tango];
-    tango = argBar;
+    michal[tangon] = entity;
+    entity = argPlu;
+    report = entity[tangon];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/potions/types.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['MessagePotionTypes'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/potions/types.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['MessagePotionTypes'] = michal;
     return entity;
 })();

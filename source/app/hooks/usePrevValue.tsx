@@ -1,52 +1,52 @@
 // app/hooks/usePrevValue.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useRef;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/usePrevValue.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: usePrevValue
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useRef;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/usePrevValue.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: usePrevValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = _closure1_slot0;
-            tango = undefined;
-            mike = null;
-            entity = report.bind(tango)(mike);
-            mike = report.bind(tango)(mike);
-            tango = global;
-            oscar = tango.Object;
-            report = oscar.is;
-            tango = mike.current;
-            tango = report.bind(oscar)(zulu, tango);
-            if(tango) { _fun00002_ip = 69; continue _fun00001 }
+            tangon = undefined;
+            michal = null;
+            entity = report.bind(tangon)(michal);
+            michal = report.bind(tangon)(michal);
+            tangon = global;
+            oscard = tangon.Object;
+            report = oscard.is;
+            tangon = michal.current;
+            tangon = report.bind(oscard)(zuuluu, tangon);
+            if(tangon) { _fun00002_ip = 69; continue _fun00001 }
  52:
-            tango = mike.current;
-            entity['current'] = tango;
-            mike['current'] = zulu;
+            tangon = michal.current;
+            entity['current'] = tangon;
+            michal['current'] = zuuluu;
  69:
             entity = entity.current;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

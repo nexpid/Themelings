@@ -1,130 +1,130 @@
 // app/modules/video_calls/native/useTrackActivityVideoPip.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot5 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/native/useTrackActivityVideoPip.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useTrackActivityPip
-        golf = argFoo;
-        var _closure2_slot0 = golf;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot5 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/native/useTrackActivityVideoPip.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useTrackActivityPip
+        golfie = argFoo;
+        var _closure2_slot0 = golfie;
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 3;
-        tango = oscar[entity];
+        tangon = oscard[entity];
         entity = undefined;
-        verify = report.bind(entity)(tango);
-        options = verify.useStateFromStores;
-        tango = _closure1_slot4;
+        verify = report.bind(entity)(tangon);
+        option = verify.useStateFromStores;
+        tangon = _closure1_slot4;
         report = new Array(1);
-        report[0] = tango;
-        tango = function() {
-            mike = _closure1_slot4;
-            entity = mike.isPipEnabledWhileFocusedOnActivityOrStream;
-            entity = entity.bind(mike)();
+        report[0] = tangon;
+        tangon = function() {
+            michal = _closure1_slot4;
+            entity = michal.isPipEnabledWhileFocusedOnActivityOrStream;
+            entity = entity.bind(michal)();
             return entity;
         };
-        verify = options.bind(verify)(report, tango);
+        verify = option.bind(verify)(report, tangon);
         var _closure2_slot1 = verify;
         report = _closure1_slot1;
-        tango = 4;
-        tango = oscar[tango];
-        tango = report.bind(entity)(tango);
-        options = tango.bind(entity)(verify);
-        var _closure2_slot2 = options;
-        tango = 5;
-        tango = oscar[tango];
-        tango = report.bind(entity)(tango);
-        oscar = tango.bind(entity)();
-        var _closure2_slot3 = oscar;
+        tangon = 4;
+        tangon = oscard[tangon];
+        tangon = report.bind(entity)(tangon);
+        option = tangon.bind(entity)(verify);
+        var _closure2_slot2 = option;
+        tangon = 5;
+        tangon = oscard[tangon];
+        tangon = report.bind(entity)(tangon);
+        oscard = tangon.bind(entity)();
+        var _closure2_slot3 = oscard;
         report = _closure1_slot3;
-        tango = report.useEffect;
-        zulu = new Array(4);
-        zulu[0] = verify;
-        zulu[1] = options;
-        zulu[2] = golf;
-        zulu[3] = oscar;
-        mike = function() {
+        tangon = report.useEffect;
+        zuuluu = new Array(4);
+        zuuluu[0] = verify;
+        zuuluu[1] = option;
+        zuuluu[2] = golfie;
+        zuuluu[3] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot3;
-                mike = null;
-                if(!(mike != entity)) { _fun00002_ip = 149; continue _fun00001 }
+                michal = null;
+                if(!(michal != entity)) { _fun00002_ip = 149; continue _fun00001 }
  16:
                 entity = _closure2_slot2;
-                if(!(mike != entity)) { _fun00002_ip = 149; continue _fun00001 }
+                if(!(michal != entity)) { _fun00002_ip = 149; continue _fun00001 }
  27:
-                mike = _closure2_slot1;
+                michal = _closure2_slot1;
                 entity = _closure2_slot2;
-                if(!(mike !== entity)) { _fun00002_ip = 149; continue _fun00001 }
+                if(!(michal !== entity)) { _fun00002_ip = 149; continue _fun00001 }
  39:
-                zulu = _closure2_slot1;
-                mike = _closure1_slot5;
-                if(zulu) { _fun00002_ip = 61; continue _fun00001 }
+                zuuluu = _closure2_slot1;
+                michal = _closure1_slot5;
+                if(zuuluu) { _fun00002_ip = 61; continue _fun00001 }
  53:
-                tango = mike.ACTIVITY_VIDEO_PIP_HIDDEN;
+                tangon = michal.ACTIVITY_VIDEO_PIP_HIDDEN;
                 _fun00002_ip = 67; continue _fun00001;
  61:
-                tango = mike.ACTIVITY_VIDEO_PIP_SHOWN;
+                tangon = michal.ACTIVITY_VIDEO_PIP_SHOWN;
  67:
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 6;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.track;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.track;
                 entity = {};
-                oscar = _closure2_slot0;
-                golf = oscar.id;
-                entity['channel_id'] = golf;
-                oscar = oscar.guild_id;
-                entity['guild_id'] = oscar;
+                oscard = _closure2_slot0;
+                golfie = oscard.id;
+                entity['channel_id'] = golfie;
+                oscard = oscard.guild_id;
+                entity['guild_id'] = oscard;
                 report = _closure2_slot3;
-                oscar = report.applicationId;
-                entity['application_id'] = oscar;
+                oscard = report.applicationId;
+                entity['application_id'] = oscard;
                 report = report.compositeInstanceId;
                 entity['activity_session_id'] = report;
-                entity = mike.bind(zulu)(tango, entity);
+                entity = michal.bind(zuuluu)(tangon, entity);
  149:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

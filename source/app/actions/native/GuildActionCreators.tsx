@@ -1,121 +1,121 @@
 // app/actions/native/GuildActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = options;
-    tango = function(argFoo, argBar) { // Original name: batchChannelUpdate
+    var _closure1_slot2 = option;
+    tangon = function(argFoo, argBar) { // Original name: batchChannelUpdate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argBar;
-            mike = report.length;
+            michal = report.length;
             entity = 0;
-            if(!(!(mike <= entity))) { _fun00002_ip = 155; continue _fun00001 }
+            if(!(!(michal <= entity))) { _fun00002_ip = 155; continue _fun00001 }
  17:
-            zulu = function() { // Original name: onEnd
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+            zuuluu = function() { // Original name: onEnd
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 1;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.dispatch;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.dispatch;
                 entity = {};
-                tango = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
-                entity['type'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
+                entity['type'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = _closure1_slot1;
-            golf = _closure1_slot2;
+            michal = _closure1_slot1;
+            golfie = _closure1_slot2;
             entity = 1;
-            entity = golf[entity];
-            tango = undefined;
-            options = mike.bind(tango)(entity);
-            mike = options.dispatch;
+            entity = golfie[entity];
+            tangon = undefined;
+            option = michal.bind(tangon)(entity);
+            michal = option.dispatch;
             entity = {};
             verify = 'GUILD_SETTINGS_SUBMIT';
             entity['type'] = verify;
-            entity = mike.bind(options)(entity);
-            mike = _closure1_slot0;
+            entity = michal.bind(option)(entity);
+            michal = _closure1_slot0;
             entity = 2;
-            entity = golf[entity];
-            entity = mike.bind(tango)(entity);
-            tango = entity.HTTP;
-            mike = tango.patch;
+            entity = golfie[entity];
+            entity = michal.bind(tangon)(entity);
+            tangon = entity.HTTP;
+            michal = tangon.patch;
             entity = {};
-            options = _closure1_slot3;
-            golf = options.GUILD_CHANNELS;
-            oscar = argFoo;
-            oscar = golf.bind(options)(oscar);
-            entity['url'] = oscar;
+            option = _closure1_slot3;
+            golfie = option.GUILD_CHANNELS;
+            oscard = argFoo;
+            oscard = golfie.bind(option)(oscard);
+            entity['url'] = oscard;
             entity['body'] = report;
             report = true;
             entity['oldFormErrors'] = report;
             entity['rejectWithError'] = report;
-            mike = mike.bind(tango)(entity);
-            entity = mike.then;
-            entity = entity.bind(mike)(zulu, zulu);
+            michal = michal.bind(tangon)(entity);
+            entity = michal.then;
+            entity = entity.bind(michal)(zuuluu, zuuluu);
  155:
             entity = undefined;
             return entity;
         }
     };
-    mike = function(argFoo, argBar) { // Original name: batchRoleUpdate
+    michal = function(argFoo, argBar) { // Original name: batchRoleUpdate
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argBar;
-            mike = report.length;
+            michal = report.length;
             entity = 0;
-            if(!(!(mike <= entity))) { _fun00004_ip = 155; continue _fun00003 }
+            if(!(!(michal <= entity))) { _fun00004_ip = 155; continue _fun00003 }
  17:
-            zulu = function() { // Original name: onEnd
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+            zuuluu = function() { // Original name: onEnd
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 1;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.dispatch;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.dispatch;
                 entity = {};
-                tango = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
-                entity['type'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
+                entity['type'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = _closure1_slot1;
-            golf = _closure1_slot2;
+            michal = _closure1_slot1;
+            golfie = _closure1_slot2;
             entity = 1;
-            entity = golf[entity];
-            tango = undefined;
-            options = mike.bind(tango)(entity);
-            mike = options.dispatch;
+            entity = golfie[entity];
+            tangon = undefined;
+            option = michal.bind(tangon)(entity);
+            michal = option.dispatch;
             entity = {};
             verify = 'GUILD_SETTINGS_SUBMIT';
             entity['type'] = verify;
-            entity = mike.bind(options)(entity);
-            mike = _closure1_slot0;
+            entity = michal.bind(option)(entity);
+            michal = _closure1_slot0;
             entity = 2;
-            entity = golf[entity];
-            entity = mike.bind(tango)(entity);
-            tango = entity.HTTP;
-            mike = tango.patch;
+            entity = golfie[entity];
+            entity = michal.bind(tangon)(entity);
+            tangon = entity.HTTP;
+            michal = tangon.patch;
             entity = {};
-            options = _closure1_slot3;
-            golf = options.GUILD_ROLES;
-            oscar = argFoo;
-            oscar = golf.bind(options)(oscar);
-            entity['url'] = oscar;
+            option = _closure1_slot3;
+            golfie = option.GUILD_ROLES;
+            oscard = argFoo;
+            oscard = golfie.bind(option)(oscard);
+            entity['url'] = oscard;
             entity['body'] = report;
             report = true;
             entity['oldFormErrors'] = report;
             entity['rejectWithError'] = report;
-            mike = mike.bind(tango)(entity);
-            entity = mike.then;
-            entity = entity.bind(mike)(zulu, zulu);
+            michal = michal.bind(tangon)(entity);
+            entity = michal.then;
+            entity = entity.bind(michal)(zuuluu, zuuluu);
  155:
             entity = undefined;
             return entity;
@@ -128,24 +128,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = options[entity];
+    report = option[entity];
     entity = undefined;
-    report = golf.bind(entity)(report);
+    report = golfie.bind(entity)(report);
     report = report.Endpoints;
     var _closure1_slot3 = report;
     report = {};
-    report['batchChannelUpdate'] = tango;
-    report['batchRoleUpdate'] = mike;
-    oscar = 3;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'actions/native/GuildActionCreators.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['default'] = report;
-    zulu['batchChannelUpdate'] = tango;
-    zulu['batchRoleUpdate'] = mike;
+    report['batchChannelUpdate'] = tangon;
+    report['batchRoleUpdate'] = michal;
+    oscard = 3;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'actions/native/GuildActionCreators.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = report;
+    zuuluu['batchChannelUpdate'] = tangon;
+    zuuluu['batchRoleUpdate'] = michal;
     return entity;
 })();

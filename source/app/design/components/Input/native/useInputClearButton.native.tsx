@@ -1,116 +1,116 @@
 // app/design/components/Input/native/useInputClearButton.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo, argBar) { // Original name: useInputClearButtonConfig
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo, argBar) { // Original name: useInputClearButtonConfig
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argBar;
+            zuuluu = argBar;
             entity = argFoo;
             entity = entity.isClearable;
             if(!entity) { _fun00002_ip = 24; continue _fun00001 }
  15:
-            entity = zulu.hasValue;
+            entity = zuuluu.hasValue;
             if(entity) { _fun00002_ip = 28; continue _fun00001 }
  24:
             entity = undefined;
             return entity;
  28:
             entity = {};
-            oscar = _closure1_slot3;
-            options = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 3;
-            mike = tango[mike];
-            golf = undefined;
-            mike = options.bind(golf)(mike);
-            report = mike.CircleXIcon;
-            mike = {};
+            oscard = _closure1_slot3;
+            option = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 3;
+            michal = tangon[michal];
+            golfie = undefined;
+            michal = option.bind(golfie)(michal);
+            report = michal.CircleXIcon;
+            michal = {};
             verify = 'xs';
-            mike['size'] = verify;
-            mike = oscar.bind(golf)(report, mike);
-            entity['content'] = mike;
-            mike = {};
-            zulu = zulu.clear;
-            mike['onPress'] = zulu;
-            zulu = 4;
-            report = tango[zulu];
-            report = options.bind(golf)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            tango = tango[zulu];
-            tango = options.bind(golf)(tango);
-            tango = tango.t;
-            tango = tango.VkKicX;
-            tango = report.bind(oscar)(tango);
-            mike['accessibilityLabel'] = tango;
-            tango = 'button';
-            mike['accessibilityRole'] = tango;
-            mike['hitSlop'] = zulu;
-            entity['pressableProps'] = mike;
+            michal['size'] = verify;
+            michal = oscard.bind(golfie)(report, michal);
+            entity['content'] = michal;
+            michal = {};
+            zuuluu = zuuluu.clear;
+            michal['onPress'] = zuuluu;
+            zuuluu = 4;
+            report = tangon[zuuluu];
+            report = option.bind(golfie)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            tangon = tangon[zuuluu];
+            tangon = option.bind(golfie)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.VkKicX;
+            tangon = report.bind(oscard)(tangon);
+            michal['accessibilityLabel'] = tangon;
+            tangon = 'button';
+            michal['accessibilityRole'] = tangon;
+            michal['hitSlop'] = zuuluu;
+            entity['pressableProps'] = michal;
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.Pressable;
     var _closure1_slot2 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot3 = report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'design/components/Input/native/useInputClearButton.native.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo, argBar) { // Original name: useInputClearButton
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo, argBar) { // Original name: useInputClearButton
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = _closure1_slot4;
+            tangon = _closure1_slot4;
             report = undefined;
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = argBar;
-            oscar = tango.bind(report)(zulu, entity);
+            oscard = tangon.bind(report)(zuuluu, entity);
             entity = null;
-            zulu = entity != oscar;
-            if(!zulu) { _fun00004_ip = 73; continue _fun00003 }
+            zuuluu = entity != oscard;
+            if(!zuuluu) { _fun00004_ip = 73; continue _fun00003 }
  30:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot2;
-            mike = {};
-            options = oscar.pressableProps;
-            verify = mike;
-            golf = copyDataProperties(verify, options);
-            golf = oscar.content;
-            oscar = 'children';
-            mike[oscar] = golf;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot2;
+            michal = {};
+            option = oscard.pressableProps;
+            verify = michal;
+            golfie = copyDataProperties(verify, option);
+            golfie = oscard.content;
+            oscard = 'children';
+            michal[oscard] = golfie;
+            entity = tangon.bind(report)(zuuluu, michal);
  73:
             return entity;
         }
     };
-    zulu['useInputClearButton'] = tango;
-    zulu['useInputClearButtonConfig'] = mike;
+    zuuluu['useInputClearButton'] = tangon;
+    zuuluu['useInputClearButtonConfig'] = michal;
     return entity;
 })();

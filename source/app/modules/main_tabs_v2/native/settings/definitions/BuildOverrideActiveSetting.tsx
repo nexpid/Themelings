@@ -1,158 +1,158 @@
 // app/modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: useBuildOverrideActive
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 4;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 4;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot2;
-                entity = zulu.getCurrentBuildOverride;
-                entity = entity.bind(zulu)();
+                zuuluu = _closure1_slot2;
+                entity = zuuluu.getCurrentBuildOverride;
+                entity = entity.bind(zuuluu)();
                 report = entity.overrides;
-                zulu = null;
-                oscar = zulu == report;
-                tango = undefined;
+                zuuluu = null;
+                oscard = zuuluu == report;
+                tangon = undefined;
                 entity = undefined;
-                if(oscar) { _fun00002_ip = 80; continue _fun00001 }
+                if(oscard) { _fun00002_ip = 80; continue _fun00001 }
  36:
-                oscar = _closure1_slot0;
-                golf = _closure1_slot1;
-                mike = 5;
-                mike = golf[mike];
-                mike = oscar.bind(tango)(mike);
-                mike = mike.DEVICE_FIELD;
-                mike = report[mike];
-                zulu = zulu == mike;
+                oscard = _closure1_slot0;
+                golfie = _closure1_slot1;
+                michal = 5;
+                michal = golfie[michal];
+                michal = oscard.bind(tangon)(michal);
+                michal = michal.DEVICE_FIELD;
+                michal = report[michal];
+                zuuluu = zuuluu == michal;
                 entity = undefined;
-                if(zulu) { _fun00002_ip = 80; continue _fun00001 }
+                if(zuuluu) { _fun00002_ip = 80; continue _fun00001 }
  75:
-                entity = mike.id;
+                entity = michal.id;
  80:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
-    tango = true;
-    mike['value'] = tango;
+    option = verify.defineProperty;
+    michal = {};
+    tangon = true;
+    michal['value'] = tangon;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    options = oscar[entity];
-    mike = argBaz;
+    option = oscard[entity];
+    michal = argBaz;
     entity = undefined;
-    mike = mike.bind(entity)(options);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.RendererType;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot3 = mike;
-    mike = {'type': null, 'title': 'Build Override Active', 'parent': null};
-    options = options.PRESSABLE;
-    mike['type'] = options;
-    options = 8;
-    options = oscar[options];
-    options = report.bind(entity)(options);
-    options = options.RefreshIcon;
-    mike['IconComponent'] = options;
-    options = function() { // Original name: useBuildOverrideActiveDescription
+    michal = michal.bind(entity)(option);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.RendererType;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot3 = michal;
+    michal = {'type': null, 'title': 'Build Override Active', 'parent': null};
+    option = option.PRESSABLE;
+    michal['type'] = option;
+    option = 8;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.RefreshIcon;
+    michal['IconComponent'] = option;
+    option = function() { // Original name: useBuildOverrideActiveDescription
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot4;
             report = undefined;
-            oscar = entity.bind(report)();
+            oscard = entity.bind(report)();
             entity = null;
-            zulu = entity != oscar;
+            zuuluu = entity != oscard;
             entity = undefined;
-            if(!zulu) { _fun00004_ip = 76; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 76; continue _fun00003 }
  24:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 7;
-            mike = golf[mike];
-            mike = zulu.bind(report)(mike);
-            zulu = mike.DevToolsContentSubLabel;
-            mike = {};
-            golf = 'Build override: ';
-            mike['label'] = golf;
-            mike['value'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 7;
+            michal = golfie[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.DevToolsContentSubLabel;
+            michal = {};
+            golfie = 'Build override: ';
+            michal['label'] = golfie;
+            michal['value'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  76:
             return entity;
         }
     };
-    mike['useDescription'] = options;
-    options = function() { // Original name: useHasBuildOverrideActive
+    michal['useDescription'] = option;
+    option = function() { // Original name: useHasBuildOverrideActive
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 6;
-            mike = zulu[mike];
-            zulu = undefined;
-            tango = tango.bind(zulu)(mike);
-            mike = tango.useStaffOrDevEnvSettingPredicate;
-            mike = mike.bind(tango)();
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            tangon = tangon.bind(zuuluu)(michal);
+            michal = tangon.useStaffOrDevEnvSettingPredicate;
+            michal = michal.bind(tangon)();
             entity = _closure1_slot4;
-            zulu = entity.bind(zulu)();
+            zuuluu = entity.bind(zuuluu)();
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00006_ip = 55; continue _fun00005 }
  52:
-            entity = mike;
+            entity = michal;
  55:
             return entity;
         }
     };
-    mike['usePredicate'] = options;
-    golf = function() { // Original name: handleBuildOverrideActivePress
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    michal['usePredicate'] = option;
+    golfie = function() { // Original name: handleBuildOverrideActivePress
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.navigateToDevTools;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.navigateToDevTools;
+        michal = {};
         report = 'buildOverride';
-        mike['screenKey'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['screenKey'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['onPress'] = golf;
-    mike['withArrow'] = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['onPress'] = golfie;
+    michal['withArrow'] = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

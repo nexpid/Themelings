@@ -1,78 +1,78 @@
 // app/modules/suppress_notifications/parseContentForSuppressNotifications.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
-    mike = true;
-    report['value'] = mike;
-    mike = '__esModule';
-    mike = oscar.bind(golf)(zulu, mike, report);
+    michal = true;
+    report['value'] = michal;
+    michal = '__esModule';
+    michal = oscard.bind(golfie)(zuuluu, michal, report);
     report = entity.RegExp;
     entity = entity.HermesInternal;
-    golf = entity.concat;
-    oscar = '^';
-    mike = '@silent';
+    golfie = entity.concat;
+    oscard = '^';
+    michal = '@silent';
     entity = '(\\s|$)';
-    offset = golf.bind(oscar)(mike, entity);
-    mike = report.prototype;
-    mike = Object.create(mike, {constructor: {value: report}});
-    yankee = mike;
+    offset = golfie.bind(oscard)(michal, entity);
+    michal = report.prototype;
+    michal = Object.create(michal, {constructor: {value: report}});
+    yankee = michal;
     entity = new yankee[report](offset, verify);
-    mike = entity instanceof Object ? entity : mike;
-    var _closure1_slot0 = mike;
-    report = argPlugh;
+    michal = entity instanceof Object ? entity : michal;
+    var _closure1_slot0 = michal;
+    report = argPlu;
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/suppress_notifications/parseContentForSuppressNotifications.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: parseContentForSuppressNotifications
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: parseContentForSuppressNotifications
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 90; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 90; continue _fun00001 }
  9:
-            tango = zulu.match;
+            tangon = zuuluu.match;
             entity = _closure1_slot0;
-            entity = tango.bind(zulu)(entity);
-            if(!(mike != entity)) { _fun00002_ip = 71; continue _fun00001 }
+            entity = tangon.bind(zuuluu)(entity);
+            if(!(michal != entity)) { _fun00002_ip = 71; continue _fun00001 }
  31:
             entity = new Array(2);
-            mike = true;
-            entity[0] = mike;
-            tango = zulu.substring;
-            mike = 7;
-            tango = tango.bind(zulu)(mike);
-            mike = tango.trim;
-            mike = mike.bind(tango)();
-            entity[1] = mike;
+            michal = true;
+            entity[0] = michal;
+            tangon = zuuluu.substring;
+            michal = 7;
+            tangon = tangon.bind(zuuluu)(michal);
+            michal = tangon.trim;
+            michal = michal.bind(tangon)();
+            entity[1] = michal;
             _fun00002_ip = 88; continue _fun00001;
  71:
-            mike = new Array(2);
-            tango = false;
-            mike[0] = tango;
-            mike[1] = zulu;
-            entity = mike;
+            michal = new Array(2);
+            tangon = false;
+            michal[0] = tangon;
+            michal[1] = zuuluu;
+            entity = michal;
  88:
             _fun00002_ip = 111; continue _fun00001;
  90:
-            mike = new Array(2);
-            zulu = false;
-            mike[0] = zulu;
-            zulu = '';
-            mike[1] = zulu;
-            entity = mike;
+            michal = new Array(2);
+            zuuluu = false;
+            michal[0] = zuuluu;
+            zuuluu = '';
+            michal[1] = zuuluu;
+            entity = michal;
  111:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['SILENT_RE'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['SILENT_RE'] = michal;
     return entity;
 })();

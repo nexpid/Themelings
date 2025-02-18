@@ -1,44 +1,44 @@
 // discord_common/js/shared/utils/profiling.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = argFoo;
     entity = entity.performance;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/utils/profiling.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: mark
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/utils/profiling.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: mark
         entity = undefined;
         return entity;
     };
-    zulu['mark'] = tango;
-    tango = function(argFoo, argBar) { // Original name: measure
+    zuuluu['mark'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: measure
         entity = undefined;
         return entity;
     };
-    zulu['measure'] = tango;
-    tango = function(argFoo) { // Original name: clearMarks
+    zuuluu['measure'] = tangon;
+    tangon = function(argFoo) { // Original name: clearMarks
         entity = undefined;
         return entity;
     };
-    zulu['clearMarks'] = tango;
-    mike = function(argFoo) { // Original name: clearMeasures
+    zuuluu['clearMarks'] = tangon;
+    michal = function(argFoo) { // Original name: clearMeasures
         entity = undefined;
         return entity;
     };
-    zulu['clearMeasures'] = mike;
+    zuuluu['clearMeasures'] = michal;
     return entity;
 })();

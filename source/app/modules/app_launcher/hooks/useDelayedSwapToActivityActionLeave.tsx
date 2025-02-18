@@ -1,98 +1,98 @@
 // app/modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useDelayedSwapToActivityActionLeave
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useDelayedSwapToActivityActionLeave
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot3;
-        zulu = report.useState;
-        golf = zulu.bind(report)(oscar);
-        tango = _closure1_slot2;
-        zulu = undefined;
+        zuuluu = report.useState;
+        golfie = zuuluu.bind(report)(oscard);
+        tangon = _closure1_slot2;
+        zuuluu = undefined;
         entity = 2;
-        tango = tango.bind(zulu)(golf, entity);
+        tangon = tangon.bind(zuuluu)(golfie, entity);
         entity = 0;
-        entity = tango[entity];
-        zulu = 1;
-        zulu = tango[zulu];
-        var _closure2_slot1 = zulu;
-        tango = report.useLayoutEffect;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function() {
+        entity = tangon[entity];
+        zuuluu = 1;
+        zuuluu = tangon[zuuluu];
+        var _closure2_slot1 = zuuluu;
+        tangon = report.useLayoutEffect;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure2_slot0;
-                oscar = _closure1_slot0;
+                tangon = _closure2_slot0;
+                oscard = _closure1_slot0;
                 report = _closure1_slot1;
-                zulu = 2;
-                zulu = report[zulu];
+                zuuluu = 2;
+                zuuluu = report[zuuluu];
                 report = undefined;
-                zulu = oscar.bind(report)(zulu);
-                zulu = zulu.ActivityAction;
-                zulu = zulu.LEAVE;
-                if(!(tango !== zulu)) { _fun00002_ip = 65; continue _fun00001 }
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.ActivityAction;
+                zuuluu = zuuluu.LEAVE;
+                if(!(tangon !== zuuluu)) { _fun00002_ip = 65; continue _fun00001 }
  50:
-                zulu = _closure2_slot1;
-                mike = _closure2_slot0;
-                mike = zulu.bind(report)(mike);
+                zuuluu = _closure2_slot1;
+                michal = _closure2_slot0;
+                michal = zuuluu.bind(report)(michal);
                 return report;
  65:
-                mike = global;
-                tango = mike.setTimeout;
-                zulu = function() {
-                    zulu = _closure2_slot1;
-                    mike = _closure2_slot0;
+                michal = global;
+                tangon = michal.setTimeout;
+                zuuluu = function() {
+                    zuuluu = _closure2_slot1;
+                    michal = _closure2_slot0;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
                     return entity;
                 };
-                mike = 100;
-                mike = tango.bind(report)(zulu, mike);
-                var _closure3_slot0 = mike;
+                michal = 100;
+                michal = tangon.bind(report)(zuuluu, michal);
+                var _closure3_slot0 = michal;
                 entity = function() {
                     entity = global;
-                    zulu = entity.clearTimeout;
-                    mike = _closure3_slot0;
+                    zuuluu = entity.clearTimeout;
+                    michal = _closure3_slot0;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
                     return entity;
                 };
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['useDelayedSwapToActivityActionLeave'] = mike;
+    zuuluu['useDelayedSwapToActivityActionLeave'] = michal;
     return entity;
 })();

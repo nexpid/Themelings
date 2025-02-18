@@ -1,66 +1,66 @@
 // app/modules/applications/ApplicationPresenceUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/applications/ApplicationPresenceUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: shouldDisableUserPresenceInChannel
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/applications/ApplicationPresenceUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: shouldDisableUserPresenceInChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
-            tango = _closure1_slot0;
-            zulu = tango.getChannel;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getChannel;
             entity = argBar;
-            tango = zulu.bind(tango)(entity);
-            zulu = null;
-            entity = zulu != tango;
+            tangon = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            entity = zuuluu != tangon;
             if(!entity) { _fun00002_ip = 44; continue _fun00001 }
  38:
             entity = report.bot;
  44:
             if(!entity) { _fun00002_ip = 57; continue _fun00001 }
  47:
-            report = tango.isPrivate;
-            entity = report.bind(tango)();
+            report = tangon.isPrivate;
+            entity = report.bind(tangon)();
  57:
             if(!entity) { _fun00002_ip = 85; continue _fun00001 }
  60:
-            report = tango.rawRecipients;
-            tango = report.find;
-            mike = function(argFoo) {
+            report = tangon.rawRecipients;
+            tangon = report.find;
+            michal = function(argFoo) {
                 entity = argFoo;
-                mike = entity.id;
+                michal = entity.id;
                 entity = _closure2_slot0;
                 entity = entity.id;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            mike = tango.bind(report)(mike);
-            entity = zulu == mike;
+            michal = tangon.bind(report)(michal);
+            entity = zuuluu == michal;
  85:
             return entity;
         }
     };
-    zulu['shouldDisableUserPresenceInChannel'] = mike;
+    zuuluu['shouldDisableUserPresenceInChannel'] = michal;
     return entity;
 })();

@@ -1,86 +1,86 @@
 // app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: getFastestListVisibleItemsWithErrorChecking
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: getFastestListVisibleItemsWithErrorChecking
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = argBar;
-            mike = argBaz;
-            tango = entity.sectionStart;
-            zulu = mike.length;
-            zulu = tango > zulu;
-            if(zulu) { _fun00002_ip = 42; continue _fun00001 }
+            michal = argBaz;
+            tangon = entity.sectionStart;
+            zuuluu = michal.length;
+            zuuluu = tangon > zuuluu;
+            if(zuuluu) { _fun00002_ip = 42; continue _fun00001 }
  27:
             report = entity.sectionEnd;
-            tango = mike.length;
-            zulu = report > tango;
+            tangon = michal.length;
+            zuuluu = report > tangon;
  42:
-            if(!zulu) { _fun00002_ip = 104; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 104; continue _fun00001 }
  45:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 0;
-            tango = tango[zulu];
-            zulu = undefined;
-            golf = report.bind(zulu)(tango);
-            report = golf.logFastestListError;
-            tango = {};
-            tango['listId'] = oscar;
-            tango['sections'] = mike;
-            tango['visibleItems'] = entity;
-            zulu = 'Visible items `sectionStart/End` is greater than the number of sections';
-            zulu = report.bind(golf)(zulu, tango);
+            tangon = _closure1_slot1;
+            zuuluu = 0;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            golfie = report.bind(zuuluu)(tangon);
+            report = golfie.logFastestListError;
+            tangon = {};
+            tangon['listId'] = oscard;
+            tangon['sections'] = michal;
+            tangon['visibleItems'] = entity;
+            zuuluu = 'Visible items `sectionStart/End` is greater than the number of sections';
+            zuuluu = report.bind(golfie)(zuuluu, tangon);
  104:
-            tango = entity.itemStart;
-            zulu = entity.sectionStart;
-            zulu = mike[zulu];
-            zulu = tango > zulu;
-            if(zulu) { _fun00002_ip = 147; continue _fun00001 }
+            tangon = entity.itemStart;
+            zuuluu = entity.sectionStart;
+            zuuluu = michal[zuuluu];
+            zuuluu = tangon > zuuluu;
+            if(zuuluu) { _fun00002_ip = 147; continue _fun00001 }
  127:
             report = entity.itemEnd;
-            tango = entity.sectionEnd;
-            tango = mike[tango];
-            zulu = report > tango;
+            tangon = entity.sectionEnd;
+            tangon = michal[tangon];
+            zuuluu = report > tangon;
  147:
-            if(!zulu) { _fun00002_ip = 209; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 209; continue _fun00001 }
  150:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 0;
-            tango = tango[zulu];
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
-            tango = report.logFastestListError;
-            zulu = {};
-            zulu['listId'] = oscar;
-            zulu['sections'] = mike;
-            zulu['visibleItems'] = entity;
-            mike = 'Visible items `itemStart/End` is greater than the number of items in the first section';
-            mike = tango.bind(report)(mike, zulu);
+            tangon = _closure1_slot1;
+            zuuluu = 0;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.logFastestListError;
+            zuuluu = {};
+            zuuluu['listId'] = oscard;
+            zuuluu['sections'] = michal;
+            zuuluu['visibleItems'] = entity;
+            michal = 'Visible items `itemStart/End` is greater than the number of items in the first section';
+            michal = tangon.bind(report)(michal, zuuluu);
  209:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

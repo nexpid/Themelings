@@ -1,95 +1,95 @@
 // app/modules/messages/native/renderer/context/JumpContext.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = golf;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
-    tango = 0;
-    options = golf[tango];
-    report = argCorge;
+    entity = report.bind(option)(zuuluu, entity, tangon);
+    tangon = 0;
+    option = golfie[tangon];
+    report = argCor;
     entity = undefined;
-    options = report.bind(entity)(options);
-    var _closure1_slot2 = options;
+    option = report.bind(entity)(option);
+    var _closure1_slot2 = option;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot3 = report;
     report = {};
     report['scrollToMessageId'] = entity;
     report['jumpTargetId'] = entity;
     verify = 2;
-    verify = golf[verify];
-    verify = oscar.bind(entity)(verify);
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
     verify = verify.JumpTypes;
     verify = verify.ANIMATED;
     report['jumpType'] = verify;
-    report['jumpSequenceId'] = tango;
-    tango = false;
-    report['minimizeScrolling'] = tango;
+    report['jumpSequenceId'] = tangon;
+    tangon = false;
+    report['minimizeScrolling'] = tangon;
     report['focusTargetId'] = entity;
     var _closure1_slot4 = report;
-    tango = options.createContext;
-    tango = tango.bind(options)(report);
-    var _closure1_slot5 = tango;
+    tangon = option.createContext;
+    tangon = tangon.bind(option)(report);
+    var _closure1_slot5 = tangon;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/native/renderer/context/JumpContext.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['JumpContext'] = tango;
-    mike = function(argFoo) { // Original name: JumpContextProvider
+    report = oscard.bind(golfie)(report);
+    zuuluu['JumpContext'] = tangon;
+    michal = function(argFoo) { // Original name: JumpContextProvider
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.value;
-            tango = undefined;
-            if(!(mike === tango)) { _fun00002_ip = 21; continue _fun00001 }
+            michal = entity.value;
+            tangon = undefined;
+            if(!(michal === tangon)) { _fun00002_ip = 21; continue _fun00001 }
  14:
-            mike = _closure1_slot4;
+            michal = _closure1_slot4;
  21:
             report = entity.children;
-            oscar = _closure1_slot2;
-            zulu = oscar.useRef;
-            oscar = zulu.bind(oscar)(mike);
-            zulu = oscar.current;
-            zulu = mike === zulu;
-            if(zulu) { _fun00002_ip = 86; continue _fun00001 }
+            oscard = _closure1_slot2;
+            zuuluu = oscard.useRef;
+            oscard = zuuluu.bind(oscard)(michal);
+            zuuluu = oscard.current;
+            zuuluu = michal === zuuluu;
+            if(zuuluu) { _fun00002_ip = 86; continue _fun00001 }
  55:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             verify = _closure1_slot1;
-            golf = 3;
-            golf = verify[golf];
-            options = options.bind(tango)(golf);
-            golf = oscar.current;
-            zulu = options.bind(tango)(mike, golf);
+            golfie = 3;
+            golfie = verify[golfie];
+            option = option.bind(tangon)(golfie);
+            golfie = oscard.current;
+            zuuluu = option.bind(tangon)(michal, golfie);
  86:
-            if(zulu) { _fun00002_ip = 95; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 95; continue _fun00001 }
  89:
-            oscar['current'] = mike;
+            oscard['current'] = michal;
  95:
-            zulu = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             entity = _closure1_slot5;
-            mike = entity.Provider;
+            michal = entity.Provider;
             entity = {};
-            oscar = oscar.current;
-            entity['value'] = oscar;
+            oscard = oscard.current;
+            entity['value'] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['JumpContextProvider'] = mike;
+    zuuluu['JumpContextProvider'] = michal;
     return entity;
 })();

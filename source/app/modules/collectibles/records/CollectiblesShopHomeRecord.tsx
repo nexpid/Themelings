@@ -1,177 +1,177 @@
 // app/modules/collectibles/records/CollectiblesShopHomeRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.FeaturedBlockRecord;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.FeedBlockRecord;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.HeroBlockRecord;
-    var _closure1_slot7 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.WideBannerBlockRecord;
-    var _closure1_slot8 = tango;
-    mike = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FeaturedBlockRecord;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FeedBlockRecord;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.HeroBlockRecord;
+    var _closure1_slot7 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.WideBannerBlockRecord;
+    var _closure1_slot8 = tangon;
+    michal = function() {
         report = function(argFoo) { // Original name: CollectiblesShopHomeRecord
-            tango = argFoo;
-            zulu = this;
-            oscar = _closure1_slot2;
+            tangon = argFoo;
+            zuuluu = this;
+            oscard = _closure1_slot2;
             report = _closure2_slot0;
             entity = undefined;
-            report = oscar.bind(entity)(zulu, report);
-            golf = tango.shop_blocks;
-            oscar = golf.map;
+            report = oscard.bind(entity)(zuuluu, report);
+            golfie = tangon.shop_blocks;
+            oscard = golfie.map;
             report = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = argFoo;
-                    report = zulu.type;
-                    oscar = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    golf = 7;
-                    tango = mike[golf];
-                    mike = undefined;
-                    tango = oscar.bind(mike)(tango);
-                    tango = tango.ShopBlockType;
-                    tango = tango.HERO;
-                    if(!(tango !== report)) { _fun00002_ip = 204; continue _fun00001 }
+                    zuuluu = argFoo;
+                    report = zuuluu.type;
+                    oscard = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    golfie = 7;
+                    tangon = michal[golfie];
+                    michal = undefined;
+                    tangon = oscard.bind(michal)(tangon);
+                    tangon = tangon.ShopBlockType;
+                    tangon = tangon.HERO;
+                    if(!(tangon !== report)) { _fun00002_ip = 204; continue _fun00001 }
  52:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    tango = tango[golf];
-                    tango = oscar.bind(mike)(tango);
-                    tango = tango.ShopBlockType;
-                    tango = tango.FEATURED;
-                    if(!(tango !== report)) { _fun00002_ip = 187; continue _fun00001 }
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    tangon = tangon[golfie];
+                    tangon = oscard.bind(michal)(tangon);
+                    tangon = tangon.ShopBlockType;
+                    tangon = tangon.FEATURED;
+                    if(!(tangon !== report)) { _fun00002_ip = 187; continue _fun00001 }
  85:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    tango = tango[golf];
-                    tango = oscar.bind(mike)(tango);
-                    tango = tango.ShopBlockType;
-                    tango = tango.FEED;
-                    if(!(tango !== report)) { _fun00002_ip = 170; continue _fun00001 }
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    tangon = tangon[golfie];
+                    tangon = oscard.bind(michal)(tangon);
+                    tangon = tangon.ShopBlockType;
+                    tangon = tangon.FEED;
+                    if(!(tangon !== report)) { _fun00002_ip = 170; continue _fun00001 }
  118:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    tango = tango[golf];
-                    tango = oscar.bind(mike)(tango);
-                    tango = tango.ShopBlockType;
-                    tango = tango.WIDE_BANNER;
-                    if(!(tango !== report)) { _fun00002_ip = 153; continue _fun00001 }
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    tangon = tangon[golfie];
+                    tangon = oscard.bind(michal)(tangon);
+                    tangon = tangon.ShopBlockType;
+                    tangon = tangon.WIDE_BANNER;
+                    if(!(tangon !== report)) { _fun00002_ip = 153; continue _fun00001 }
  151:
-                    return mike;
+                    return michal;
  153:
-                    tango = _closure1_slot8;
-                    mike = tango.fromServer;
-                    mike = mike.bind(tango)(zulu);
-                    return mike;
+                    tangon = _closure1_slot8;
+                    michal = tangon.fromServer;
+                    michal = michal.bind(tangon)(zuuluu);
+                    return michal;
  170:
-                    tango = _closure1_slot6;
-                    mike = tango.fromServer;
-                    mike = mike.bind(tango)(zulu);
-                    return mike;
+                    tangon = _closure1_slot6;
+                    michal = tangon.fromServer;
+                    michal = michal.bind(tangon)(zuuluu);
+                    return michal;
  187:
-                    tango = _closure1_slot5;
-                    mike = tango.fromServer;
-                    mike = mike.bind(tango)(zulu);
-                    return mike;
+                    tangon = _closure1_slot5;
+                    michal = tangon.fromServer;
+                    michal = michal.bind(tangon)(zuuluu);
+                    return michal;
  204:
-                    mike = _closure1_slot7;
-                    entity = mike.fromServer;
-                    entity = entity.bind(mike)(zulu);
+                    michal = _closure1_slot7;
+                    entity = michal.fromServer;
+                    entity = entity.bind(michal)(zuuluu);
                     return entity;
                 }
             };
-            golf = oscar.bind(golf)(report);
-            oscar = golf.filter;
+            golfie = oscard.bind(golfie)(report);
+            oscard = golfie.filter;
             report = function(argFoo) {
-                mike = undefined;
+                michal = undefined;
                 entity = argFoo;
-                entity = mike !== entity;
+                entity = michal !== entity;
                 return entity;
             };
-            report = oscar.bind(golf)(report);
-            zulu['shopBlocks'] = report;
-            report = tango.categories;
-            tango = report.map;
-            mike = function(argFoo) {
-                zulu = _closure1_slot4;
-                mike = zulu.fromServer;
+            report = oscard.bind(golfie)(report);
+            zuuluu['shopBlocks'] = report;
+            report = tangon.categories;
+            tangon = report.map;
+            michal = function(argFoo) {
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.fromServer;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = tango.bind(report)(mike);
-            zulu['categories'] = mike;
+            michal = tangon.bind(report)(michal);
+            zuuluu['categories'] = michal;
             return entity;
         };
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
+        tangon = _closure1_slot3;
         entity = {};
-        zulu = 'fromServer';
-        entity['key'] = zulu;
-        mike = function(argFoo) { // Original name: value
-            zulu = _closure2_slot0;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = argFoo;
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+        zuuluu = 'fromServer';
+        entity['key'] = zuuluu;
+        michal = function(argFoo) { // Original name: value
+            zuuluu = _closure2_slot0;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = argFoo;
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity['value'] = mike;
-        zulu = new Array(1);
-        zulu[0] = entity;
-        mike = undefined;
+        entity['value'] = michal;
+        zuuluu = new Array(1);
+        zuuluu[0] = entity;
+        michal = undefined;
         entity = null;
-        entity = tango.bind(mike)(report, entity, zulu);
+        entity = tangon.bind(michal)(report, entity, zuuluu);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/records/CollectiblesShopHomeRecord.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['CollectiblesShopHomeRecord'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/records/CollectiblesShopHomeRecord.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['CollectiblesShopHomeRecord'] = michal;
     return entity;
 })();

@@ -1,54 +1,54 @@
 // app/modules/soundboard/native/utils/getSoundboardEmojiUrl.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/soundboard/native/utils/getSoundboardEmojiUrl.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getSoundboardEmojiUrl
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/soundboard/native/utils/getSoundboardEmojiUrl.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getSoundboardEmojiUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.emojiId;
             entity = null;
-            mike = entity == report;
-            tango = undefined;
+            michal = entity == report;
+            tangon = undefined;
             entity = undefined;
-            if(mike) { _fun00002_ip = 75; continue _fun00001 }
+            if(michal) { _fun00002_ip = 75; continue _fun00001 }
  22:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 0;
-            mike = oscar[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.getEmojiURL;
-            mike = {};
-            mike['id'] = report;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 0;
+            michal = oscard[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.getEmojiURL;
+            michal = {};
+            michal['id'] = report;
             report = false;
-            mike['animated'] = report;
+            michal['animated'] = report;
             report = argBar;
-            mike['size'] = report;
-            entity = zulu.bind(tango)(mike);
+            michal['size'] = report;
+            entity = zuuluu.bind(tangon)(michal);
  75:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,381 +1,381 @@
 // app/modules/messages/native/renderer/system_messages/GuildProductPurchaseSystemMessage.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: GuildProductPurchaseSystemMessageInner
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            offset = mike.row;
-            yankee = mike.productName;
+            michal = argFoo;
+            offset = michal.row;
+            yankee = michal.productName;
             var _closure2_slot0 = yankee;
-            foxtrot = mike.guildId;
-            oscar = offset.message;
-            var _closure2_slot1 = oscar;
-            mike = _closure1_slot0;
-            zulu = _closure1_slot2;
-            tango = 5;
-            golf = zulu[tango];
-            tango = undefined;
-            options = mike.bind(tango)(golf);
-            golf = options.useNullableMessageAuthor;
-            options = golf.bind(options)(oscar);
-            golf = options.nick;
-            var _closure2_slot2 = golf;
-            backup = options.guildMemberAvatar;
-            romeo = oscar.author;
-            var _closure2_slot3 = romeo;
+            foxtra = michal.guildId;
+            oscard = offset.message;
+            var _closure2_slot1 = oscard;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            tangon = 5;
+            golfie = zuuluu[tangon];
+            tangon = undefined;
+            option = michal.bind(tangon)(golfie);
+            golfie = option.useNullableMessageAuthor;
+            option = golfie.bind(option)(oscard);
+            golfie = option.nick;
+            var _closure2_slot2 = golfie;
+            backup = option.guildMemberAvatar;
+            romeon = oscard.author;
+            var _closure2_slot3 = romeon;
             verify = _closure1_slot3;
-            options = verify.useMemo;
-            kilo = oscar.channel_id;
-            oscar = new Array(4);
-            oscar[0] = kilo;
-            oscar[1] = golf;
-            oscar[2] = yankee;
-            yankee = romeo.id;
-            oscar[3] = yankee;
+            option = verify.useMemo;
+            kiloes = oscard.channel_id;
+            oscard = new Array(4);
+            oscard[0] = kiloes;
+            oscard[1] = golfie;
+            oscard[2] = yankee;
+            yankee = romeon.id;
+            oscard[3] = yankee;
             entity = function() {
-                zulu = _closure1_slot0;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
                 entity = 8;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.getGuildProductPurchaseSystemMessageContentMobile;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.getGuildProductPurchaseSystemMessageContentMobile;
                 entity = {};
                 report = _closure2_slot2;
                 entity['username'] = report;
                 report = {};
-                oscar = 'bindUserMenu';
-                report['action'] = oscar;
-                oscar = _closure2_slot3;
-                oscar = oscar.id;
-                report['userId'] = oscar;
-                oscar = _closure2_slot1;
-                oscar = oscar.channel_id;
-                report['messageChannelId'] = oscar;
+                oscard = 'bindUserMenu';
+                report['action'] = oscard;
+                oscard = _closure2_slot3;
+                oscard = oscard.id;
+                report['userId'] = oscard;
+                oscard = _closure2_slot1;
+                oscard = oscard.channel_id;
+                report['messageChannelId'] = oscard;
                 entity['usernameOnClickHandler'] = report;
-                tango = _closure2_slot0;
-                entity['productName'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure2_slot0;
+                entity['productName'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            options = options.bind(verify)(entity, oscar);
+            option = option.bind(verify)(entity, oscard);
             entity = 6;
-            entity = zulu[entity];
-            zulu = mike.bind(tango)(entity);
-            mike = zulu.ensureAvatarSource;
+            entity = zuuluu[entity];
+            zuuluu = michal.bind(tangon)(entity);
+            michal = zuuluu.ensureAvatarSource;
             entity = null;
             if(!(entity != backup)) { _fun00002_ip = 175; continue _fun00001 }
  171:
-            if(!(entity == foxtrot)) { _fun00002_ip = 188; continue _fun00001 }
+            if(!(entity == foxtra)) { _fun00002_ip = 188; continue _fun00001 }
  175:
-            entity = romeo.getAvatarSource;
-            entity = entity.bind(romeo)(tango);
+            entity = romeon.getAvatarSource;
+            entity = entity.bind(romeon)(tangon);
             _fun00002_ip = 240; continue _fun00001;
  188:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
-            oscar = 7;
-            oscar = yankee[oscar];
-            yankee = verify.bind(tango)(oscar);
+            oscard = 7;
+            oscard = yankee[oscard];
+            yankee = verify.bind(tangon)(oscard);
             verify = yankee.getGuildMemberAvatarSource;
-            oscar = {};
-            kilo = romeo.id;
-            oscar['userId'] = kilo;
-            oscar['guildMemberAvatar'] = backup;
-            oscar['guildId'] = foxtrot;
-            entity = verify.bind(yankee)(oscar, romeo);
+            oscard = {};
+            kiloes = romeon.id;
+            oscard['userId'] = kiloes;
+            oscard['guildMemberAvatar'] = backup;
+            oscard['guildId'] = foxtra;
+            entity = verify.bind(yankee)(oscard, romeon);
  240:
-            oscar = mike.bind(zulu)(entity);
-            zulu = _closure1_slot7;
-            mike = _closure1_slot1;
+            oscard = michal.bind(zuuluu)(entity);
+            zuuluu = _closure1_slot7;
+            michal = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 11;
             entity = verify[entity];
-            mike = mike.bind(tango)(entity);
+            michal = michal.bind(tangon)(entity);
             entity = {};
             entity['row'] = offset;
-            entity['content'] = options;
-            options = 0;
-            entity['totalMonthsSubscribed'] = options;
-            entity['username'] = golf;
-            oscar = oscar.uri;
-            entity['avatarURL'] = oscar;
-            options = _closure1_slot0;
+            entity['content'] = option;
+            option = 0;
+            entity['totalMonthsSubscribed'] = option;
+            entity['username'] = golfie;
+            oscard = oscard.uri;
+            entity['avatarURL'] = oscard;
+            option = _closure1_slot0;
             report = 9;
-            oscar = verify[report];
-            oscar = options.bind(tango)(oscar);
-            golf = oscar.intl;
-            oscar = golf.string;
+            oscard = verify[report];
+            oscard = option.bind(tangon)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.string;
             report = verify[report];
-            report = options.bind(tango)(report);
+            report = option.bind(tangon)(report);
             report = report.t;
             report = report.piPHvb;
-            report = oscar.bind(golf)(report);
+            report = oscard.bind(golfie)(report);
             entity['welcomeLabel'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
     var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageTypes;
-    var _closure1_slot6 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot7 = tango;
-    tango = 13;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/system_messages/GuildProductPurchaseSystemMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: createGuildProductPurchaseSystemMessage
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageTypes;
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot7 = tangon;
+    tangon = 13;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/system_messages/GuildProductPurchaseSystemMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: createGuildProductPurchaseSystemMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = {};
-            echo = report;
+            echoed = report;
             result = entity;
-            mike = copyDataProperties(echo, result);
-            tango = _closure1_slot4;
-            echo = entity.message;
-            mike = tango.prototype;
-            mike = Object.create(mike, {constructor: {value: tango}});
-            update = mike;
-            entity = new update[tango](echo, result);
-            mike = entity instanceof Object ? entity : mike;
+            michal = copyDataProperties(echoed, result);
+            tangon = _closure1_slot4;
+            echoed = entity.message;
+            michal = tangon.prototype;
+            michal = Object.create(michal, {constructor: {value: tangon}});
+            update = michal;
+            entity = new update[tangon](echoed, result);
+            michal = entity instanceof Object ? entity : michal;
             entity = 'message';
-            report[entity] = mike;
-            mike = report.message;
+            report[entity] = michal;
+            michal = report.message;
             entity = _closure1_slot6;
             entity = entity.ROLE_SUBSCRIPTION_PURCHASE;
-            mike['type'] = entity;
+            michal['type'] = entity;
             entity = report.message;
-            mike = entity.purchaseNotification;
+            michal = entity.purchaseNotification;
             entity = null;
-            oscar = entity == mike;
-            tango = undefined;
-            foxtrot = undefined;
-            if(oscar) { _fun00004_ip = 122; continue _fun00003 }
+            oscard = entity == michal;
+            tangon = undefined;
+            foxtra = undefined;
+            if(oscard) { _fun00004_ip = 122; continue _fun00003 }
  101:
-            mike = mike.guild_product_purchase;
-            oscar = entity == mike;
-            foxtrot = undefined;
-            if(oscar) { _fun00004_ip = 122; continue _fun00003 }
+            michal = michal.guild_product_purchase;
+            oscard = entity == michal;
+            foxtra = undefined;
+            if(oscard) { _fun00004_ip = 122; continue _fun00003 }
  116:
-            foxtrot = mike.product_name;
+            foxtra = michal.product_name;
  122:
-            if(!(entity != foxtrot)) { _fun00004_ip = 512; continue _fun00003 }
+            if(!(entity != foxtra)) { _fun00004_ip = 512; continue _fun00003 }
  129:
-            mike = report.message;
-            golf = mike.author;
+            michal = report.message;
+            golfie = michal.author;
             verify = _closure1_slot5;
-            options = verify.getChannel;
-            oscar = mike.getChannelId;
-            oscar = oscar.bind(mike)();
-            options = options.bind(verify)(oscar);
-            oscar = entity == options;
-            kilo = undefined;
-            if(oscar) { _fun00004_ip = 183; continue _fun00003 }
+            option = verify.getChannel;
+            oscard = michal.getChannelId;
+            oscard = oscard.bind(michal)();
+            option = option.bind(verify)(oscard);
+            oscard = entity == option;
+            kiloes = undefined;
+            if(oscard) { _fun00004_ip = 183; continue _fun00003 }
  173:
-            oscar = options.getGuildId;
-            kilo = oscar.bind(options)();
+            oscard = option.getGuildId;
+            kiloes = oscard.bind(option)();
  183:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            oscar = 5;
-            oscar = offset[oscar];
-            options = verify.bind(tango)(oscar);
-            oscar = options.getMessageAuthor;
-            oscar = oscar.bind(options)(mike);
-            options = oscar.nick;
-            sizing = oscar.guildMemberAvatar;
-            oscar = 6;
-            oscar = offset[oscar];
-            offset = verify.bind(tango)(oscar);
+            oscard = 5;
+            oscard = offset[oscard];
+            option = verify.bind(tangon)(oscard);
+            oscard = option.getMessageAuthor;
+            oscard = oscard.bind(option)(michal);
+            option = oscard.nick;
+            sizing = oscard.guildMemberAvatar;
+            oscard = 6;
+            oscard = offset[oscard];
+            offset = verify.bind(tangon)(oscard);
             verify = offset.ensureAvatarSource;
             if(!(entity != sizing)) { _fun00004_ip = 252; continue _fun00003 }
  248:
-            if(!(entity == kilo)) { _fun00004_ip = 265; continue _fun00003 }
+            if(!(entity == kiloes)) { _fun00004_ip = 265; continue _fun00003 }
  252:
-            oscar = golf.getAvatarSource;
-            oscar = oscar.bind(golf)(tango);
+            oscard = golfie.getAvatarSource;
+            oscard = oscard.bind(golfie)(tangon);
             _fun00004_ip = 317; continue _fun00003;
  265:
-            romeo = _closure1_slot0;
+            romeon = _closure1_slot0;
             backup = _closure1_slot2;
             yankee = 7;
             yankee = backup[yankee];
-            backup = romeo.bind(tango)(yankee);
-            romeo = backup.getGuildMemberAvatarSource;
+            backup = romeon.bind(tangon)(yankee);
+            romeon = backup.getGuildMemberAvatarSource;
             yankee = {};
-            output = golf.id;
+            output = golfie.id;
             yankee['userId'] = output;
             yankee['guildMemberAvatar'] = sizing;
-            yankee['guildId'] = kilo;
-            oscar = romeo.bind(backup)(yankee, golf);
+            yankee['guildId'] = kiloes;
+            oscard = romeon.bind(backup)(yankee, golfie);
  317:
-            oscar = verify.bind(offset)(oscar);
+            oscard = verify.bind(offset)(oscard);
             backup = {};
             verify = 'bindUserMenu';
             backup['action'] = verify;
-            golf = golf.id;
-            backup['userId'] = golf;
-            mike = mike.channel_id;
-            backup['messageChannelId'] = mike;
-            mike = {};
+            golfie = golfie.id;
+            backup['userId'] = golfie;
+            michal = michal.channel_id;
+            backup['messageChannelId'] = michal;
+            michal = {};
             offset = _closure1_slot0;
-            golf = _closure1_slot2;
+            golfie = _closure1_slot2;
             verify = 8;
-            verify = golf[verify];
-            romeo = offset.bind(tango)(verify);
-            yankee = romeo.getGuildProductPurchaseSystemMessageContentMobile;
+            verify = golfie[verify];
+            romeon = offset.bind(tangon)(verify);
+            yankee = romeon.getGuildProductPurchaseSystemMessageContentMobile;
             verify = {};
-            verify['username'] = options;
+            verify['username'] = option;
             verify['usernameOnClickHandler'] = backup;
-            verify['productName'] = foxtrot;
-            verify = yankee.bind(romeo)(verify);
-            mike['content'] = verify;
+            verify['productName'] = foxtra;
+            verify = yankee.bind(romeon)(verify);
+            michal['content'] = verify;
             verify = 0;
-            mike['totalMonthsSubscribed'] = verify;
-            mike['username'] = options;
-            oscar = oscar.uri;
-            mike['avatarURL'] = oscar;
-            oscar = 9;
-            options = golf[oscar];
-            options = offset.bind(tango)(options);
-            verify = options.intl;
-            options = verify.string;
-            oscar = golf[oscar];
-            oscar = offset.bind(tango)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.s2N5HR;
-            oscar = options.bind(verify)(oscar);
-            mike['welcomeLabel'] = oscar;
-            oscar = _closure1_slot1;
-            zulu = 10;
-            zulu = golf[zulu];
-            zulu = oscar.bind(tango)(zulu);
-            result = zulu.bind(tango)(report);
-            echo = mike;
-            zulu = copyDataProperties(echo, result);
-            return mike;
+            michal['totalMonthsSubscribed'] = verify;
+            michal['username'] = option;
+            oscard = oscard.uri;
+            michal['avatarURL'] = oscard;
+            oscard = 9;
+            option = golfie[oscard];
+            option = offset.bind(tangon)(option);
+            verify = option.intl;
+            option = verify.string;
+            oscard = golfie[oscard];
+            oscard = offset.bind(tangon)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.s2N5HR;
+            oscard = option.bind(verify)(oscard);
+            michal['welcomeLabel'] = oscard;
+            oscard = _closure1_slot1;
+            zuuluu = 10;
+            zuuluu = golfie[zuuluu];
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            result = zuuluu.bind(tangon)(report);
+            echoed = michal;
+            zuuluu = copyDataProperties(echoed, result);
+            return michal;
  512:
             return entity;
         }
     };
-    zulu['createGuildProductPurchaseSystemMessage'] = tango;
-    mike = function(argFoo) { // Original name: GuildProductPurchaseSystemMessage
+    zuuluu['createGuildProductPurchaseSystemMessage'] = tangon;
+    michal = function(argFoo) { // Original name: GuildProductPurchaseSystemMessage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            yankee = mike.row;
-            options = {};
-            romeo = options;
-            mike = copyDataProperties(romeo, yankee);
-            tango = options.message;
-            zulu = _closure1_slot6;
-            zulu = zulu.ROLE_SUBSCRIPTION_PURCHASE;
-            tango['type'] = zulu;
-            tango = options.message;
-            zulu = tango.getChannelId;
-            verify = zulu.bind(tango)();
+            michal = argFoo;
+            yankee = michal.row;
+            option = {};
+            romeon = option;
+            michal = copyDataProperties(romeon, yankee);
+            tangon = option.message;
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.ROLE_SUBSCRIPTION_PURCHASE;
+            tangon['type'] = zuuluu;
+            tangon = option.message;
+            zuuluu = tangon.getChannelId;
+            verify = zuuluu.bind(tangon)();
             var _closure2_slot0 = verify;
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 12;
-            zulu = report[zulu];
+            zuuluu = 12;
+            zuuluu = report[zuuluu];
             report = undefined;
-            golf = tango.bind(report)(zulu);
-            oscar = golf.useStateFromStores;
-            zulu = _closure1_slot5;
-            tango = new Array(1);
-            tango[0] = zulu;
-            zulu = new Array(1);
-            zulu[0] = verify;
+            golfie = tangon.bind(report)(zuuluu);
+            oscard = golfie.useStateFromStores;
+            zuuluu = _closure1_slot5;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = new Array(1);
+            zuuluu[0] = verify;
             entity = function() {
-                zulu = _closure1_slot5;
-                mike = zulu.getChannel;
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            oscar = oscar.bind(golf)(tango, entity, zulu);
+            oscard = oscard.bind(golfie)(tangon, entity, zuuluu);
             entity = null;
-            tango = entity == oscar;
-            zulu = undefined;
-            if(tango) { _fun00006_ip = 143; continue _fun00005 }
+            tangon = entity == oscard;
+            zuuluu = undefined;
+            if(tangon) { _fun00006_ip = 143; continue _fun00005 }
  133:
-            tango = oscar.getGuildId;
-            zulu = tango.bind(oscar)();
+            tangon = oscard.getGuildId;
+            zuuluu = tangon.bind(oscard)();
  143:
-            tango = entity != zulu;
-            oscar = undefined;
-            if(!tango) { _fun00006_ip = 155; continue _fun00005 }
+            tangon = entity != zuuluu;
+            oscard = undefined;
+            if(!tangon) { _fun00006_ip = 155; continue _fun00005 }
  152:
-            oscar = zulu;
+            oscard = zuuluu;
  155:
-            zulu = options.message;
-            zulu = zulu.purchaseNotification;
-            tango = entity == zulu;
-            golf = undefined;
-            if(tango) { _fun00006_ip = 196; continue _fun00005 }
+            zuuluu = option.message;
+            zuuluu = zuuluu.purchaseNotification;
+            tangon = entity == zuuluu;
+            golfie = undefined;
+            if(tangon) { _fun00006_ip = 196; continue _fun00005 }
  175:
-            zulu = zulu.guild_product_purchase;
-            tango = entity == zulu;
-            golf = undefined;
-            if(tango) { _fun00006_ip = 196; continue _fun00005 }
+            zuuluu = zuuluu.guild_product_purchase;
+            tangon = entity == zuuluu;
+            golfie = undefined;
+            if(tangon) { _fun00006_ip = 196; continue _fun00005 }
  190:
-            golf = zulu.product_name;
+            golfie = zuuluu.product_name;
  196:
-            zulu = entity == golf;
+            zuuluu = entity == golfie;
             entity = null;
-            if(zulu) { _fun00006_ip = 235; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 235; continue _fun00005 }
  205:
-            tango = _closure1_slot7;
-            zulu = _closure1_slot8;
-            mike = {};
-            mike['row'] = options;
-            mike['productName'] = golf;
-            mike['guildId'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot7;
+            zuuluu = _closure1_slot8;
+            michal = {};
+            michal['row'] = option;
+            michal['productName'] = golfie;
+            michal['guildId'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  235:
             return entity;
         }
     };
-    zulu['GuildProductPurchaseSystemMessage'] = mike;
+    zuuluu['GuildProductPurchaseSystemMessage'] = michal;
     return entity;
 })();

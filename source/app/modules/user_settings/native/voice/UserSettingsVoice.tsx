@@ -1,37 +1,37 @@
 // app/modules/user_settings/native/voice/UserSettingsVoice.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/native/voice/UserSettingsVoice.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: UserSettingsVoiceForm
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/native/voice/UserSettingsVoice.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: UserSettingsVoiceForm
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -41,37 +41,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  15:
             entity = false;
  17:
-            tango = _closure1_slot3;
+            tangon = _closure1_slot3;
             if(entity) { _fun00002_ip = 91; continue _fun00001 }
  27:
-            zulu = _closure1_slot0;
-            options = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 3;
-            entity = options[entity];
-            entity = zulu.bind(report)(entity);
-            zulu = entity.Form;
+            entity = option[entity];
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = entity.Form;
             entity = {};
-            golf = _closure1_slot1;
-            oscar = 2;
-            oscar = options[oscar];
-            golf = golf.bind(report)(oscar);
-            oscar = {};
-            oscar = tango.bind(report)(golf, oscar);
-            entity['children'] = oscar;
-            entity = tango.bind(report)(zulu, entity);
+            golfie = _closure1_slot1;
+            oscard = 2;
+            oscard = option[oscard];
+            golfie = golfie.bind(report)(oscard);
+            oscard = {};
+            oscard = tangon.bind(report)(golfie, oscard);
+            entity['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
             _fun00002_ip = 119; continue _fun00001;
  91:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 2;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = {};
-            entity = tango.bind(report)(zulu, mike);
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
+            michal = 2;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = {};
+            entity = tangon.bind(report)(zuuluu, michal);
  119:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

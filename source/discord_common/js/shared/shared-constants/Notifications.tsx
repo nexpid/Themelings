@@ -1,28 +1,28 @@
 // discord_common/js/shared/shared-constants/Notifications.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 50;
-    mike['StreamNotificationsGuildMaxSize'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 50;
+    michal['StreamNotificationsGuildMaxSize'] = tangon;
     entity = 'StreamNotificationsGuildMaxSize';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/Notifications.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['Notifications'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/Notifications.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['Notifications'] = michal;
     return entity;
 })();

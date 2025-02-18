@@ -1,28 +1,28 @@
 // app/modules/user_settings/ThemeActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = options;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: setSystemTheme
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: setSystemTheme
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SYSTEM_THEME_CHANGE';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['systemTheme'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['systemTheme'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -30,83 +30,83 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.SystemThemeState;
     var _closure1_slot3 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/user_settings/ThemeActionCreators.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['setSystemTheme'] = tango;
-    tango = function() { // Original name: setSystemThemeIfNeeded
+    report = oscard.bind(golfie)(report);
+    zuuluu['setSystemTheme'] = tangon;
+    tangon = function() { // Original name: setSystemThemeIfNeeded
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot2;
-            zulu = mike.useSystemTheme;
-            mike = _closure1_slot3;
-            mike = mike.OFF;
-            if(!(zulu !== mike)) { _fun00002_ip = 62; continue _fun00001 }
+            michal = _closure1_slot2;
+            zuuluu = michal.useSystemTheme;
+            michal = _closure1_slot3;
+            michal = michal.OFF;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 62; continue _fun00001 }
  27:
-            zulu = _closure1_slot4;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot4;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 3;
-            entity = mike[entity];
-            mike = undefined;
-            entity = tango.bind(mike)(entity);
-            entity = entity.bind(mike)();
-            entity = zulu.bind(mike)(entity);
+            entity = michal[entity];
+            michal = undefined;
+            entity = tangon.bind(michal)(entity);
+            entity = entity.bind(michal)();
+            entity = zuuluu.bind(michal)(entity);
  62:
             entity = undefined;
             return entity;
         }
     };
-    zulu['setSystemThemeIfNeeded'] = tango;
-    tango = function(argFoo) { // Original name: setUseSystemTheme
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['setSystemThemeIfNeeded'] = tangon;
+    tangon = function(argFoo) { // Original name: setUseSystemTheme
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'UNSYNCED_USER_SETTINGS_UPDATE';
-        mike['type'] = report;
+        michal['type'] = report;
         report = {};
-        oscar = argFoo;
-        report['useSystemTheme'] = oscar;
-        mike['settings'] = report;
-        mike = zulu.bind(tango)(mike);
+        oscard = argFoo;
+        report['useSystemTheme'] = oscard;
+        michal['settings'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setUseSystemTheme'] = tango;
-    mike = function(argFoo) { // Original name: setDarkThemeOnClient
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['setUseSystemTheme'] = tangon;
+    michal = function(argFoo) { // Original name: setDarkThemeOnClient
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SET_DARK_MODE_THEME';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['theme'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['theme'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setDarkThemeOnClient'] = mike;
+    zuuluu['setDarkThemeOnClient'] = michal;
     return entity;
 })();

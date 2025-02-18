@@ -1,213 +1,213 @@
 // app/lib/uploader/UploadTargets.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
     report = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    entity = argCorge;
+    entity = argCor;
     var _closure1_slot2 = entity;
-    var _closure1_slot3 = golf;
+    var _closure1_slot3 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     offset = 0;
-    tango = golf[offset];
+    tangon = golfie[offset];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot4 = tango;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
     verify = 1;
-    tango = golf[verify];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    options = 2;
-    tango = golf[options];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 3;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    report = tango.Endpoints;
+    tangon = golfie[verify];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    option = 2;
+    tangon = golfie[option];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 3;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.Endpoints;
     var _closure1_slot7 = report;
-    tango = tango.MAX_UPLOAD_COUNT;
-    var _closure1_slot8 = tango;
-    tango = function() {
-        tango = _closure1_slot5;
-        zulu = function() { // Original name: MessageAttachmentUploadTarget
-            tango = _closure1_slot4;
-            zulu = _closure2_slot0;
+    tangon = tangon.MAX_UPLOAD_COUNT;
+    var _closure1_slot8 = tangon;
+    tangon = function() {
+        tangon = _closure1_slot5;
+        zuuluu = function() { // Original name: MessageAttachmentUploadTarget
+            tangon = _closure1_slot4;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            mike = this;
-            mike = tango.bind(entity)(mike, zulu);
+            michal = this;
+            michal = tangon.bind(entity)(michal, zuuluu);
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'getCreateAttachmentURL';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
-            zulu = _closure1_slot7;
-            mike = zulu.MESSAGE_CREATE_ATTACHMENT_UPLOAD;
+        michal = 'getCreateAttachmentURL';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
+            zuuluu = _closure1_slot7;
+            michal = zuuluu.MESSAGE_CREATE_ATTACHMENT_UPLOAD;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(6);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(6);
+        michal[0] = entity;
         entity = {};
-        oscar = 'getDeleteUploadURL';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            zulu = _closure1_slot7;
-            mike = zulu.MESSAGE_DELETE_UPLOAD;
+        oscard = 'getDeleteUploadURL';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            zuuluu = _closure1_slot7;
+            michal = zuuluu.MESSAGE_DELETE_UPLOAD;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'getMaxFileSize';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'getMaxFileSize';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot6;
-                zulu = tango.getBasicChannel;
-                mike = argFoo;
-                tango = zulu.bind(tango)(mike);
-                zulu = _closure1_slot2;
-                mike = _closure1_slot3;
+                tangon = _closure1_slot6;
+                zuuluu = tangon.getBasicChannel;
+                michal = argFoo;
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = _closure1_slot2;
+                michal = _closure1_slot3;
                 entity = 4;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.maxFileSize;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.maxFileSize;
                 report = null;
-                report = report == tango;
+                report = report == tangon;
                 if(report) { _fun00002_ip = 63; continue _fun00001 }
  58:
-                entity = tango.guild_id;
+                entity = tangon.guild_id;
  63:
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'getMaxAttachmentsCount';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'getMaxAttachmentsCount';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = _closure1_slot8;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[3] = entity;
+        entity['value'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = 'getMaxTotalAttachmentSize';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
-            zulu = _closure1_slot0;
-            mike = _closure1_slot3;
+        oscard = 'getMaxTotalAttachmentSize';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
             entity = 5;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             entity = entity.MAX_TOTAL_ATTACHMENT_SIZE;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[4] = entity;
+        entity['value'] = oscard;
+        michal[4] = entity;
         entity = {};
-        oscar = 'shouldReactNativeCompressUploads';
-        entity['key'] = oscar;
+        oscard = 'shouldReactNativeCompressUploads';
+        entity['key'] = oscard;
         report = function() { // Original name: get
             entity = true;
             return entity;
         };
         entity['get'] = report;
-        mike[5] = entity;
+        michal[5] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    var _closure1_slot9 = tango;
-    tango = {};
-    tango['MESSAGE_ATTACHMENT'] = offset;
+    tangon = tangon.bind(entity)();
+    var _closure1_slot9 = tangon;
+    tangon = {};
+    tangon['MESSAGE_ATTACHMENT'] = offset;
     report = 'MESSAGE_ATTACHMENT';
-    tango[offset] = report;
-    tango['GUILD_PRODUCT_ATTACHMENT'] = verify;
+    tangon[offset] = report;
+    tangon['GUILD_PRODUCT_ATTACHMENT'] = verify;
     report = 'GUILD_PRODUCT_ATTACHMENT';
-    tango[verify] = report;
-    tango['GRAVITY_ATTACHMENT'] = options;
+    tangon[verify] = report;
+    tangon['GRAVITY_ATTACHMENT'] = option;
     report = 'GRAVITY_ATTACHMENT';
-    tango[options] = report;
-    var _closure1_slot10 = tango;
+    tangon[option] = report;
+    var _closure1_slot10 = tangon;
     report = 8;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'lib/uploader/UploadTargets.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['UploadTargets'] = tango;
-    mike = function(argFoo) { // Original name: getUploadTarget
+    report = oscard.bind(golfie)(report);
+    zuuluu['UploadTargets'] = tangon;
+    michal = function(argFoo) { // Original name: getUploadTarget
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot10;
-            mike = mike.GUILD_PRODUCT_ATTACHMENT;
-            if(!(mike !== zulu)) { _fun00004_ip = 114; continue _fun00003 }
+            zuuluu = argFoo;
+            michal = _closure1_slot10;
+            michal = michal.GUILD_PRODUCT_ATTACHMENT;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
  20:
-            mike = _closure1_slot10;
-            mike = mike.GRAVITY_ATTACHMENT;
-            if(!(mike !== zulu)) { _fun00004_ip = 70; continue _fun00003 }
+            michal = _closure1_slot10;
+            michal = michal.GRAVITY_ATTACHMENT;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 70; continue _fun00003 }
  34:
-            mike = _closure1_slot10;
-            mike = mike.MESSAGE_ATTACHMENT;
-            mike = _closure1_slot9;
-            zulu = mike.prototype;
-            zulu = Object.create(zulu, {constructor: {value: mike}});
-            oscar = zulu;
-            mike = new oscar[mike](report);
-            mike = mike instanceof Object ? mike : zulu;
-            return mike;
+            michal = _closure1_slot10;
+            michal = michal.MESSAGE_ATTACHMENT;
+            michal = _closure1_slot9;
+            zuuluu = michal.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+            oscard = zuuluu;
+            michal = new oscard[michal](report);
+            michal = michal instanceof Object ? michal : zuuluu;
+            return michal;
  70:
-            tango = _closure1_slot1;
-            zulu = _closure1_slot3;
-            mike = 7;
-            zulu = zulu[mike];
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            zulu = mike.prototype;
-            zulu = Object.create(zulu, {constructor: {value: mike}});
-            oscar = zulu;
-            mike = new oscar[mike](report);
-            mike = mike instanceof Object ? mike : zulu;
-            return mike;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot3;
+            michal = 7;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            zuuluu = michal.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+            oscard = zuuluu;
+            michal = new oscard[michal](report);
+            michal = michal instanceof Object ? michal : zuuluu;
+            return michal;
  114:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot3;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot3;
             entity = 6;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            mike = entity.prototype;
-            mike = Object.create(mike, {constructor: {value: entity}});
-            oscar = mike;
-            entity = new oscar[entity](report);
-            entity = entity instanceof Object ? entity : mike;
+            entity = zuuluu.bind(entity)(michal);
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            oscard = michal;
+            entity = new oscard[entity](report);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         }
     };
-    zulu['getUploadTarget'] = mike;
+    zuuluu['getUploadTarget'] = michal;
     return entity;
 })();

@@ -1,84 +1,84 @@
 // app/modules/remixing/native/hooks/useOrientationLock.tsx
-export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
+export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Dimensions;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/remixing/native/hooks/useOrientationLock.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: usePortraitOrientationOnly
-        tango = _closure1_slot2;
-        zulu = tango.useEffect;
-        mike = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Dimensions;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/remixing/native/hooks/useOrientationLock.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: usePortraitOrientationOnly
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useEffect;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 2;
-                mike = zulu[mike];
-                zulu = undefined;
-                tango = tango.bind(zulu)(mike);
-                mike = tango.isIpadOS;
-                mike = mike.bind(tango)();
-                if(mike) { _fun00002_ip = 76; continue _fun00001 }
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 2;
+                michal = zuuluu[michal];
+                zuuluu = undefined;
+                tangon = tangon.bind(zuuluu)(michal);
+                michal = tangon.isIpadOS;
+                michal = michal.bind(tangon)();
+                if(michal) { _fun00002_ip = 76; continue _fun00001 }
  38:
-                mike = _closure1_slot0;
-                tango = _closure1_slot1;
+                michal = _closure1_slot0;
+                tangon = _closure1_slot1;
                 entity = 3;
-                entity = tango[entity];
-                tango = mike.bind(zulu)(entity);
-                zulu = tango.lockOrientation;
-                mike = 'PORTRAIT';
+                entity = tangon[entity];
+                tangon = michal.bind(zuuluu)(entity);
+                zuuluu = tangon.lockOrientation;
+                michal = 'PORTRAIT';
                 entity = false;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
  76:
                 entity = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        tango = _closure1_slot0;
-                        zulu = _closure1_slot1;
+                        tangon = _closure1_slot0;
+                        zuuluu = _closure1_slot1;
                         entity = 2;
-                        zulu = zulu[entity];
+                        zuuluu = zuuluu[entity];
                         entity = undefined;
-                        tango = tango.bind(entity)(zulu);
-                        zulu = tango.isIpadOS;
-                        zulu = zulu.bind(tango)();
-                        if(zulu) { _fun00004_ip = 78; continue _fun00003 }
+                        tangon = tangon.bind(entity)(zuuluu);
+                        zuuluu = tangon.isIpadOS;
+                        zuuluu = zuuluu.bind(tangon)();
+                        if(zuuluu) { _fun00004_ip = 78; continue _fun00003 }
  38:
-                        zulu = _closure1_slot0;
-                        tango = _closure1_slot1;
-                        mike = 3;
-                        mike = tango[mike];
-                        tango = zulu.bind(entity)(mike);
-                        zulu = tango.unlockOrientation;
-                        mike = {};
+                        zuuluu = _closure1_slot0;
+                        tangon = _closure1_slot1;
+                        michal = 3;
+                        michal = tangon[michal];
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.unlockOrientation;
+                        michal = {};
                         report = false;
-                        mike['unlockAfterRotatingToPreviousLock'] = report;
-                        mike = zulu.bind(tango)(mike);
+                        michal['unlockAfterRotatingToPreviousLock'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
  78:
                         return entity;
                     }
@@ -87,36 +87,36 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             }
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function() {
+    zuuluu['default'] = tangon;
+    michal = function() {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = _closure1_slot3;
-            mike = zulu.get;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.get;
             entity = 'screen';
-            entity = mike.bind(zulu)(entity);
-            zulu = entity.width;
-            mike = entity.height;
-            tango = zulu > mike;
+            entity = michal.bind(zuuluu)(entity);
+            zuuluu = entity.width;
+            michal = entity.height;
+            tangon = zuuluu > michal;
             entity = {};
-            report = zulu;
-            if(!tango) { _fun00006_ip = 46; continue _fun00005 }
+            report = zuuluu;
+            if(!tangon) { _fun00006_ip = 46; continue _fun00005 }
  43:
-            report = mike;
+            report = michal;
  46:
             entity['width'] = report;
-            if(!tango) { _fun00006_ip = 56; continue _fun00005 }
+            if(!tangon) { _fun00006_ip = 56; continue _fun00005 }
  53:
-            mike = zulu;
+            michal = zuuluu;
  56:
-            entity['height'] = mike;
+            entity['height'] = michal;
             return entity;
         }
     };
-    zulu['getPortraitOrientationScreenSize'] = mike;
+    zuuluu['getPortraitOrientationScreenSize'] = michal;
     return entity;
 })();

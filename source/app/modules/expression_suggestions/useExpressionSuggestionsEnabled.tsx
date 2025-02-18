@@ -1,79 +1,79 @@
 // app/modules/expression_suggestions/useExpressionSuggestionsEnabled.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    tango = function() { // Original name: useExpressionSuggestionsDisabled
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    tangon = function() { // Original name: useExpressionSuggestionsDisabled
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.ExpressionSuggestionsDisabledExperiment;
-        mike = zulu.useExperiment;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.ExpressionSuggestionsDisabledExperiment;
+        michal = zuuluu.useExperiment;
         entity = {};
-        tango = 'ExpressionSuggestions';
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = 'ExpressionSuggestions';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.disabled;
         return entity;
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 2;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/expression_suggestions/useExpressionSuggestionsEnabled.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: setExpressionSuggestionsEnabled
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        tango = mike.ExpressionSuggestionsEnabled;
-        zulu = tango.updateSetting;
-        mike = argFoo;
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(entity)(michal);
+        tangon = michal.ExpressionSuggestionsEnabled;
+        zuuluu = tangon.updateSetting;
+        michal = argFoo;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setExpressionSuggestionsEnabled'] = report;
-    zulu['useExpressionSuggestionsDisabled'] = tango;
-    mike = function() { // Original name: useExpressionSuggestionsEnabled
+    zuuluu['setExpressionSuggestionsEnabled'] = report;
+    zuuluu['useExpressionSuggestionsDisabled'] = tangon;
+    michal = function() { // Original name: useExpressionSuggestionsEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 0;
-            mike = zulu[mike];
-            zulu = undefined;
-            mike = tango.bind(zulu)(mike);
-            tango = mike.ExpressionSuggestionsEnabled;
-            mike = tango.useSetting;
-            mike = mike.bind(tango)();
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 0;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            michal = tangon.bind(zuuluu)(michal);
+            tangon = michal.ExpressionSuggestionsEnabled;
+            michal = tangon.useSetting;
+            michal = michal.bind(tangon)();
             entity = _closure1_slot2;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             entity = !entity;
             if(!entity) { _fun00002_ip = 57; continue _fun00001 }
  54:
-            entity = mike;
+            entity = michal;
  57:
             return entity;
         }
     };
-    zulu['useExpressionSuggestionsEnabled'] = mike;
+    zuuluu['useExpressionSuggestionsEnabled'] = michal;
     return entity;
 })();

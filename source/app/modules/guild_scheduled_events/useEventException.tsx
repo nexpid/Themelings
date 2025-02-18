@@ -1,121 +1,121 @@
 // app/modules/guild_scheduled_events/useEventException.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar) { // Original name: _getEventException
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = argBar;
             var _closure2_slot0 = entity;
             entity = null;
-            zulu = entity == tango;
+            zuuluu = entity == tangon;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 38; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 38; continue _fun00001 }
  23:
-            zulu = tango.find;
-            mike = function(argFoo) {
+            zuuluu = tangon.find;
+            michal = function(argFoo) {
                 entity = argFoo;
-                mike = entity.event_exception_id;
+                michal = entity.event_exception_id;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            entity = zulu.bind(tango)(mike);
+            entity = zuuluu.bind(tangon)(michal);
  38:
             return entity;
         }
     };
     var _closure1_slot3 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/useEventException.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: useEventException
-        mike = argBar;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot3;
-        oscar = _closure1_slot0;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/useEventException.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: useEventException
+        michal = argBar;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot3;
+        oscard = _closure1_slot0;
         report = _closure1_slot1;
-        zulu = 1;
-        report = report[zulu];
-        zulu = undefined;
-        oscar = oscar.bind(zulu)(report);
-        report = oscar.useStateFromStoresArray;
-        golf = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = golf;
+        zuuluu = 1;
+        report = report[zuuluu];
+        zuuluu = undefined;
+        oscard = oscard.bind(zuuluu)(report);
+        report = oscard.useStateFromStoresArray;
+        golfie = _closure1_slot2;
+        michal = new Array(1);
+        michal[0] = golfie;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = _closure1_slot2;
-                mike = zulu.getGuildScheduledEvent;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getGuildScheduledEvent;
                 entity = _closure2_slot0;
-                zulu = mike.bind(zulu)(entity);
-                mike = null;
-                tango = mike == zulu;
+                zuuluu = michal.bind(zuuluu)(entity);
+                michal = null;
+                tangon = michal == zuuluu;
                 entity = undefined;
-                if(tango) { _fun00004_ip = 42; continue _fun00003 }
+                if(tangon) { _fun00004_ip = 42; continue _fun00003 }
  36:
-                entity = zulu.guild_scheduled_event_exceptions;
+                entity = zuuluu.guild_scheduled_event_exceptions;
  42:
-                if(!(mike == entity)) { _fun00004_ip = 50; continue _fun00003 }
+                if(!(michal == entity)) { _fun00004_ip = 50; continue _fun00003 }
  46:
                 entity = new Array(0);
  50:
                 return entity;
             }
         };
-        mike = report.bind(oscar)(mike, entity);
+        michal = report.bind(oscard)(michal, entity);
         entity = argFoo;
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo, argBar) { // Original name: getEventException
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getEventException
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot2;
-            mike = zulu.getGuildScheduledEvent;
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getGuildScheduledEvent;
             entity = argBar;
-            report = mike.bind(zulu)(entity);
+            report = michal.bind(zuuluu)(entity);
             entity = null;
-            oscar = entity == report;
-            zulu = undefined;
-            mike = undefined;
-            if(oscar) { _fun00006_ip = 44; continue _fun00005 }
+            oscard = entity == report;
+            zuuluu = undefined;
+            michal = undefined;
+            if(oscard) { _fun00006_ip = 44; continue _fun00005 }
  38:
-            mike = report.guild_scheduled_event_exceptions;
+            michal = report.guild_scheduled_event_exceptions;
  44:
-            if(!(entity == mike)) { _fun00006_ip = 52; continue _fun00005 }
+            if(!(entity == michal)) { _fun00006_ip = 52; continue _fun00005 }
  48:
-            mike = new Array(0);
+            michal = new Array(0);
  52:
             entity = argFoo;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         }
     };
-    zulu['getEventException'] = mike;
+    zuuluu['getEventException'] = michal;
     return entity;
 })();

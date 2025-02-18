@@ -1,75 +1,75 @@
 // app/modules/clips/isClientClipsCapable.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argCorge;
+    entity = argCor;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Features;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/clips/isClientClipsCapable.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isClientClipsCapable
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Features;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/clips/isClientClipsCapable.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isClientClipsCapable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
-            oscar = undefined;
-            entity = mike.bind(oscar)(entity);
-            golf = entity.ClipsExperiment;
-            tango = golf.getCurrentConfig;
-            mike = {};
+            entity = tangon[entity];
+            oscard = undefined;
+            entity = michal.bind(oscard)(entity);
+            golfie = entity.ClipsExperiment;
+            tangon = golfie.getCurrentConfig;
+            michal = {};
             entity = 'isClipsClientCapable';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
-            options = false;
-            entity['autoTrackExposure'] = options;
-            entity = tango.bind(golf)(mike, entity);
+            option = false;
+            entity['autoTrackExposure'] = option;
+            entity = tangon.bind(golfie)(michal, entity);
             entity = entity.ignorePlatformRestriction;
             if(entity) { _fun00002_ip = 143; continue _fun00001 }
  76:
-            tango = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 2;
-            mike = golf[mike];
-            tango = tango.bind(oscar)(mike);
-            mike = tango.isDesktop;
-            mike = mike.bind(tango)();
-            if(!mike) { _fun00002_ip = 140; continue _fun00001 }
+            tangon = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 2;
+            michal = golfie[michal];
+            tangon = tangon.bind(oscard)(michal);
+            michal = tangon.isDesktop;
+            michal = michal.bind(tangon)();
+            if(!michal) { _fun00002_ip = 140; continue _fun00001 }
  109:
-            tango = report.getMediaEngine;
-            report = tango.bind(report)();
-            tango = report.supports;
-            zulu = _closure1_slot3;
-            zulu = zulu.CLIPS;
-            mike = tango.bind(report)(zulu);
+            tangon = report.getMediaEngine;
+            report = tangon.bind(report)();
+            tangon = report.supports;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.CLIPS;
+            michal = tangon.bind(report)(zuuluu);
  140:
-            entity = mike;
+            entity = michal;
  143:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

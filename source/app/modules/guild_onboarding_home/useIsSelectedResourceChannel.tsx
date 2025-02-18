@@ -1,123 +1,123 @@
 // app/modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ChannelFlags;
-    var _closure1_slot5 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useIsSelectedResourceChannel
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ChannelFlags;
+    var _closure1_slot5 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useIsSelectedResourceChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
-            tango = _closure1_slot0;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 4;
-            zulu = report[mike];
-            mike = undefined;
-            options = tango.bind(mike)(zulu);
-            golf = options.useStateFromStores;
+            michal = 4;
+            zuuluu = report[michal];
+            michal = undefined;
+            option = tangon.bind(michal)(zuuluu);
+            golfie = option.useStateFromStores;
             verify = _closure1_slot2;
-            zulu = new Array(2);
-            zulu[0] = verify;
+            zuuluu = new Array(2);
+            zuuluu[0] = verify;
             verify = _closure1_slot3;
-            zulu[1] = verify;
+            zuuluu[1] = verify;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot2;
-                    mike = tango.getChannel;
+                    tangon = _closure1_slot2;
+                    michal = tangon.getChannel;
                     entity = _closure2_slot0;
-                    entity = mike.bind(tango)(entity);
+                    entity = michal.bind(tangon)(entity);
                     report = null;
                     if(!(report != entity)) { _fun00004_ip = 122; continue _fun00003 }
  30:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    mike = 5;
-                    tango = tango[mike];
-                    mike = undefined;
-                    options = oscar.bind(mike)(tango);
-                    golf = options.hasFlag;
-                    oscar = entity.flags;
-                    tango = _closure1_slot5;
-                    tango = tango.IS_GUILD_RESOURCE_CHANNEL;
-                    tango = golf.bind(options)(oscar, tango);
-                    if(!tango) { _fun00004_ip = 122; continue _fun00003 }
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    michal = 5;
+                    tangon = tangon[michal];
+                    michal = undefined;
+                    option = oscard.bind(michal)(tangon);
+                    golfie = option.hasFlag;
+                    oscard = entity.flags;
+                    tangon = _closure1_slot5;
+                    tangon = tangon.IS_GUILD_RESOURCE_CHANNEL;
+                    tangon = golfie.bind(option)(oscard, tangon);
+                    if(!tangon) { _fun00004_ip = 122; continue _fun00003 }
  82:
-                    tango = _closure1_slot3;
-                    zulu = tango.getSelectedResourceChannelId;
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.getSelectedResourceChannelId;
                     report = report == entity;
-                    mike = undefined;
+                    michal = undefined;
                     if(report) { _fun00004_ip = 108; continue _fun00003 }
  103:
-                    mike = entity.guild_id;
+                    michal = entity.guild_id;
  108:
-                    zulu = zulu.bind(tango)(mike);
-                    mike = entity.id;
-                    if(!(zulu !== mike)) { _fun00004_ip = 126; continue _fun00003 }
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = entity.id;
+                    if(!(zuuluu !== michal)) { _fun00004_ip = 126; continue _fun00003 }
  122:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  126:
                     entity = entity.guild_id;
                     return entity;
                 }
             };
-            zulu = golf.bind(options)(zulu, entity);
+            zuuluu = golfie.bind(option)(zuuluu, entity);
             entity = 6;
             entity = report[entity];
-            report = tango.bind(mike)(entity);
-            tango = report.useCanSeeOnboardingHome;
+            report = tangon.bind(michal)(entity);
+            tangon = report.useCanSeeOnboardingHome;
             entity = null;
-            mike = zulu;
-            if(!(entity == mike)) { _fun00002_ip = 103; continue _fun00001 }
+            michal = zuuluu;
+            if(!(entity == michal)) { _fun00002_ip = 103; continue _fun00001 }
  99:
-            mike = _closure1_slot4;
+            michal = _closure1_slot4;
  103:
-            mike = tango.bind(report)(mike);
-            entity = entity != zulu;
+            michal = tangon.bind(report)(michal);
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 118; continue _fun00001 }
  115:
-            entity = mike;
+            entity = michal;
  118:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

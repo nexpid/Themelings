@@ -1,99 +1,99 @@
 // app/modules/video_calls/useChannelVideoLimit.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ChannelTypes;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/useChannelVideoLimit.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useChannelVideoLimit
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ChannelTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/useChannelVideoLimit.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useChannelVideoLimit
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStoresObject;
-        golf = _closure1_slot3;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        mike = _closure1_slot2;
-        zulu[1] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStoresObject;
+        golfie = _closure1_slot3;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        michal = _closure1_slot2;
+        zuuluu[1] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot3;
-                tango = report.countVoiceStatesForChannel;
-                golf = _closure2_slot0;
-                zulu = golf.id;
-                report = tango.bind(report)(zulu);
-                oscar = _closure1_slot2;
-                tango = oscar.getGuild;
-                zulu = golf.getGuildId;
-                zulu = zulu.bind(golf)();
-                zulu = tango.bind(oscar)(zulu);
-                tango = null;
-                if(!(tango != zulu)) { _fun00002_ip = 161; continue _fun00001 }
+                tangon = report.countVoiceStatesForChannel;
+                golfie = _closure2_slot0;
+                zuuluu = golfie.id;
+                report = tangon.bind(report)(zuuluu);
+                oscard = _closure1_slot2;
+                tangon = oscard.getGuild;
+                zuuluu = golfie.getGuildId;
+                zuuluu = zuuluu.bind(golfie)();
+                zuuluu = tangon.bind(oscard)(zuuluu);
+                tangon = null;
+                if(!(tangon != zuuluu)) { _fun00002_ip = 161; continue _fun00001 }
  60:
-                mike = _closure2_slot0;
-                mike = mike.type;
+                michal = _closure2_slot0;
+                michal = michal.type;
                 entity = _closure1_slot4;
                 entity = entity.GUILD_STAGE_VOICE;
-                if(!(mike !== entity)) { _fun00002_ip = 128; continue _fun00001 }
+                if(!(michal !== entity)) { _fun00002_ip = 128; continue _fun00001 }
  83:
                 entity = {};
-                tango = zulu.maxVideoChannelUsers;
-                mike = 0;
-                mike = tango > mike;
-                if(!mike) { _fun00002_ip = 110; continue _fun00001 }
+                tangon = zuuluu.maxVideoChannelUsers;
+                michal = 0;
+                michal = tangon > michal;
+                if(!michal) { _fun00002_ip = 110; continue _fun00001 }
  100:
-                tango = zulu.maxVideoChannelUsers;
-                mike = report > tango;
+                tangon = zuuluu.maxVideoChannelUsers;
+                michal = report > tangon;
  110:
-                entity['reachedLimit'] = mike;
-                mike = zulu.maxVideoChannelUsers;
-                entity['limit'] = mike;
+                entity['reachedLimit'] = michal;
+                michal = zuuluu.maxVideoChannelUsers;
+                entity['limit'] = michal;
                 _fun00002_ip = 159; continue _fun00001;
  128:
-                mike = {};
-                tango = zulu.maxStageVideoChannelUsers;
-                tango = report > tango;
-                mike['reachedLimit'] = tango;
-                zulu = zulu.maxStageVideoChannelUsers;
-                mike['limit'] = zulu;
-                entity = mike;
+                michal = {};
+                tangon = zuuluu.maxStageVideoChannelUsers;
+                tangon = report > tangon;
+                michal['reachedLimit'] = tangon;
+                zuuluu = zuuluu.maxStageVideoChannelUsers;
+                michal['limit'] = zuuluu;
+                entity = michal;
  159:
                 _fun00002_ip = 171; continue _fun00001;
  161:
@@ -102,52 +102,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: getChannelVideoLimit
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: getChannelVideoLimit
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             report = _closure1_slot3;
-            tango = report.countVoiceStatesForChannel;
-            zulu = mike.id;
-            report = tango.bind(report)(zulu);
-            oscar = _closure1_slot2;
-            tango = oscar.getGuild;
-            zulu = mike.getGuildId;
-            zulu = zulu.bind(mike)();
-            zulu = tango.bind(oscar)(zulu);
-            tango = null;
-            if(!(tango != zulu)) { _fun00004_ip = 153; continue _fun00003 }
+            tangon = report.countVoiceStatesForChannel;
+            zuuluu = michal.id;
+            report = tangon.bind(report)(zuuluu);
+            oscard = _closure1_slot2;
+            tangon = oscard.getGuild;
+            zuuluu = michal.getGuildId;
+            zuuluu = zuuluu.bind(michal)();
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 153; continue _fun00003 }
  56:
-            mike = mike.type;
+            michal = michal.type;
             entity = _closure1_slot4;
             entity = entity.GUILD_STAGE_VOICE;
-            if(!(mike !== entity)) { _fun00004_ip = 120; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00004_ip = 120; continue _fun00003 }
  75:
             entity = {};
-            tango = zulu.maxVideoChannelUsers;
-            mike = 0;
-            mike = tango > mike;
-            if(!mike) { _fun00004_ip = 102; continue _fun00003 }
+            tangon = zuuluu.maxVideoChannelUsers;
+            michal = 0;
+            michal = tangon > michal;
+            if(!michal) { _fun00004_ip = 102; continue _fun00003 }
  92:
-            tango = zulu.maxVideoChannelUsers;
-            mike = report > tango;
+            tangon = zuuluu.maxVideoChannelUsers;
+            michal = report > tangon;
  102:
-            entity['reachedLimit'] = mike;
-            mike = zulu.maxVideoChannelUsers;
-            entity['limit'] = mike;
+            entity['reachedLimit'] = michal;
+            michal = zuuluu.maxVideoChannelUsers;
+            entity['limit'] = michal;
             _fun00004_ip = 151; continue _fun00003;
  120:
-            mike = {};
-            tango = zulu.maxStageVideoChannelUsers;
-            tango = report > tango;
-            mike['reachedLimit'] = tango;
-            zulu = zulu.maxStageVideoChannelUsers;
-            mike['limit'] = zulu;
-            entity = mike;
+            michal = {};
+            tangon = zuuluu.maxStageVideoChannelUsers;
+            tangon = report > tangon;
+            michal['reachedLimit'] = tangon;
+            zuuluu = zuuluu.maxStageVideoChannelUsers;
+            michal['limit'] = zuuluu;
+            entity = michal;
  151:
             _fun00004_ip = 163; continue _fun00003;
  153:
@@ -156,6 +156,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getChannelVideoLimit'] = mike;
+    zuuluu['getChannelVideoLimit'] = michal;
     return entity;
 })();

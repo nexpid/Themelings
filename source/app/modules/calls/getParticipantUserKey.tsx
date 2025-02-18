@@ -1,40 +1,40 @@
 // app/modules/calls/getParticipantUserKey.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/calls/getParticipantUserKey.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: getParticipantUserKey
-        mike = argFoo;
-        entity = mike.toLowerCase;
-        tango = entity.bind(mike)();
-        zulu = tango.padEnd;
-        mike = 32;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/calls/getParticipantUserKey.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: getParticipantUserKey
+        michal = argFoo;
+        entity = michal.toLowerCase;
+        tangon = entity.bind(michal)();
+        zuuluu = tangon.padEnd;
+        michal = 32;
         entity = '!';
-        tango = zulu.bind(tango)(mike, entity);
+        tangon = zuuluu.bind(tangon)(michal, entity);
         entity = argBar;
-        zulu = entity.id;
+        zuuluu = entity.id;
         entity = global;
         entity = entity.HermesInternal;
-        mike = entity.concat;
+        michal = entity.concat;
         entity = '';
-        entity = mike.bind(entity)(tango, zulu);
+        entity = michal.bind(entity)(tangon, zuuluu);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

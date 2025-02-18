@@ -1,57 +1,57 @@
 // app/modules/rebrand/native/TextStyles.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Fonts;
-    var _closure1_slot0 = tango;
-    tango = {10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 16: 16, 18: 17, 20: 20, 24: 25, 32: 34};
-    var _closure1_slot1 = tango;
-    tango = {10: 14, 11: 14, 12: 16, 13: 16, 14: 18, 16: 20, 18: 24, 20: 24, 24: 30, 32: 40};
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rebrand/native/TextStyles.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: createTextStyle
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Fonts;
+    var _closure1_slot0 = tangon;
+    tangon = {10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 16: 16, 18: 17, 20: 20, 24: 25, 32: 34};
+    var _closure1_slot1 = tangon;
+    tangon = {10: 14, 11: 14, 12: 16, 13: 16, 14: 18, 16: 20, 18: 24, 20: 24, 24: 30, 32: 40};
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rebrand/native/TextStyles.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: createTextStyle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            zulu = argBar;
+            option = argFoo;
+            zuuluu = argBar;
             report = argBaz;
-            mike = argCorge;
+            michal = argCor;
             entity = _closure1_slot1;
-            oscar = entity[report];
+            oscard = entity[report];
             entity = {};
-            entity['fontFamily'] = options;
-            entity['fontSize'] = oscar;
-            tango = _closure1_slot2;
-            tango = tango[report];
-            entity['lineHeight'] = tango;
-            tango = null;
-            if(!(tango != zulu)) { _fun00002_ip = 60; continue _fun00001 }
+            entity['fontFamily'] = option;
+            entity['fontSize'] = oscard;
+            tangon = _closure1_slot2;
+            tangon = tangon[report];
+            entity['lineHeight'] = tangon;
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00002_ip = 60; continue _fun00001 }
  54:
-            entity['color'] = zulu;
+            entity['color'] = zuuluu;
  60:
-            report = tango == mike;
+            report = tangon == michal;
             verify = undefined;
             if(report) { _fun00002_ip = 75; continue _fun00001 }
  69:
-            verify = mike.uppercase;
+            verify = michal.uppercase;
  75:
             report = true;
             if(!(report === verify)) { _fun00002_ip = 154; continue _fun00001 }
@@ -59,39 +59,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 'uppercase';
             entity['textTransform'] = report;
             report = 14;
-            report = oscar <= report;
+            report = oscard <= report;
             if(!report) { _fun00002_ip = 135; continue _fun00001 }
  101:
-            oscar = _closure1_slot0;
-            oscar = oscar.DISPLAY_EXTRABOLD;
-            oscar = options === oscar;
-            if(oscar) { _fun00002_ip = 132; continue _fun00001 }
+            oscard = _closure1_slot0;
+            oscard = oscard.DISPLAY_EXTRABOLD;
+            oscard = option === oscard;
+            if(oscard) { _fun00002_ip = 132; continue _fun00001 }
  118:
-            golf = _closure1_slot0;
-            golf = golf.DISPLAY_SEMIBOLD;
-            oscar = options === golf;
+            golfie = _closure1_slot0;
+            golfie = golfie.DISPLAY_SEMIBOLD;
+            oscard = option === golfie;
  132:
-            report = oscar;
+            report = oscard;
  135:
             if(!report) { _fun00002_ip = 154; continue _fun00001 }
  138:
             report = 0.2;
             entity['letterSpacing'] = report;
  154:
-            report = tango == mike;
-            zulu = undefined;
+            report = tangon == michal;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 168; continue _fun00001 }
  163:
-            zulu = mike.marginBottom;
+            zuuluu = michal.marginBottom;
  168:
-            if(!(tango != zulu)) { _fun00002_ip = 183; continue _fun00001 }
+            if(!(tangon != zuuluu)) { _fun00002_ip = 183; continue _fun00001 }
  172:
-            mike = mike.marginBottom;
-            entity['marginBottom'] = mike;
+            michal = michal.marginBottom;
+            entity['marginBottom'] = michal;
  183:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

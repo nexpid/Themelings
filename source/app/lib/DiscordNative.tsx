@@ -1,25 +1,25 @@
 // app/lib/DiscordNative.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = report.bind(oscar)(zulu, mike, tango);
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
     entity = entity.window;
-    mike = entity.DiscordNative;
-    tango = argPlugh;
+    michal = entity.DiscordNative;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/DiscordNative.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/DiscordNative.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

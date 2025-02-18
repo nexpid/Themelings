@@ -1,49 +1,49 @@
 // app/modules/app_database/modules/messages/isReadableChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    tango = function(argFoo) { // Original name: isReadableChannel
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    tangon = function(argFoo) { // Original name: isReadableChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             entity = null;
-            entity = entity != golf;
+            entity = entity != golfie;
             if(!entity) { _fun00002_ip = 104; continue _fun00001 }
  12:
-            zulu = golf.type;
-            mike = _closure1_slot3;
-            mike = mike.DM;
-            mike = zulu === mike;
-            if(mike) { _fun00002_ip = 56; continue _fun00001 }
+            zuuluu = golfie.type;
+            michal = _closure1_slot3;
+            michal = michal.DM;
+            michal = zuuluu === michal;
+            if(michal) { _fun00002_ip = 56; continue _fun00001 }
  37:
-            report = golf.type;
-            zulu = _closure1_slot3;
-            zulu = zulu.GROUP_DM;
-            mike = report === zulu;
+            report = golfie.type;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.GROUP_DM;
+            michal = report === zuuluu;
  56:
-            if(mike) { _fun00002_ip = 101; continue _fun00001 }
+            if(michal) { _fun00002_ip = 101; continue _fun00001 }
  59:
-            oscar = _closure1_slot0;
-            report = golf.type;
-            zulu = undefined;
-            zulu = oscar.bind(zulu)(report);
-            if(!zulu) { _fun00002_ip = 98; continue _fun00001 }
+            oscard = _closure1_slot0;
+            report = golfie.type;
+            zuuluu = undefined;
+            zuuluu = oscard.bind(zuuluu)(report);
+            if(!zuuluu) { _fun00002_ip = 98; continue _fun00001 }
  78:
-            oscar = _closure1_slot2;
-            report = oscar.canBasicChannel;
-            tango = _closure1_slot4;
-            zulu = report.bind(oscar)(tango, golf);
+            oscard = _closure1_slot2;
+            report = oscard.canBasicChannel;
+            tangon = _closure1_slot4;
+            zuuluu = report.bind(oscard)(tangon, golfie);
  98:
-            mike = zulu;
+            michal = zuuluu;
  101:
-            entity = mike;
+            entity = michal;
  104:
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -51,39 +51,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = oscar.bind(entity)(report);
+    report = oscard.bind(entity)(report);
     report = report.isTextChannel;
     var _closure1_slot0 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot1 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.ChannelTypes;
-    var _closure1_slot3 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.ChannelTypes;
+    var _closure1_slot3 = option;
     report = report.BasicPermissions;
-    options = report.VIEW_CHANNEL;
+    option = report.VIEW_CHANNEL;
     report = report.READ_MESSAGE_HISTORY;
-    report = options | report;
+    report = option | report;
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/app_database/modules/messages/isReadableChannel.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['isReadableChannel'] = tango;
-    mike = function(argFoo) { // Original name: isReadableChannelId
+    report = oscard.bind(golfie)(report);
+    zuuluu['isReadableChannel'] = tangon;
+    michal = function(argFoo) { // Original name: isReadableChannelId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
@@ -91,16 +91,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity != report;
             if(!entity) { _fun00004_ip = 41; continue _fun00003 }
  12:
-            tango = _closure1_slot5;
-            zulu = _closure1_slot1;
-            mike = zulu.getBasicChannel;
-            zulu = mike.bind(zulu)(report);
-            mike = undefined;
-            entity = tango.bind(mike)(zulu);
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot1;
+            michal = zuuluu.getBasicChannel;
+            zuuluu = michal.bind(zuuluu)(report);
+            michal = undefined;
+            entity = tangon.bind(michal)(zuuluu);
  41:
             return entity;
         }
     };
-    zulu['isReadableChannelId'] = mike;
+    zuuluu['isReadableChannelId'] = michal;
     return entity;
 })();

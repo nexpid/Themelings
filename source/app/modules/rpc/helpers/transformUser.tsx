@@ -1,65 +1,65 @@
 // app/modules/rpc/helpers/transformUser.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/helpers/transformUser.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: transformUser
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/helpers/transformUser.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: transformUser
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.id;
             verify = entity.username;
-            golf = entity.discriminator;
-            oscar = entity.globalName;
-            mike = entity.avatar;
-            options = entity.avatarDecoration;
+            golfie = entity.discriminator;
+            oscard = entity.globalName;
+            michal = entity.avatar;
+            option = entity.avatarDecoration;
             report = entity.bot;
-            tango = entity.flags;
-            zulu = entity.premiumType;
+            tangon = entity.flags;
+            zuuluu = entity.premiumType;
             entity = {};
             entity['id'] = offset;
             entity['username'] = verify;
-            entity['discriminator'] = golf;
-            entity['global_name'] = oscar;
-            entity['avatar'] = mike;
+            entity['discriminator'] = golfie;
+            entity['global_name'] = oscard;
+            entity['avatar'] = michal;
             verify = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 0;
-            golf = oscar[mike];
-            oscar = undefined;
-            golf = verify.bind(oscar)(golf);
-            oscar = golf.parseAvatarDecorationData;
-            oscar = oscar.bind(golf)(options);
-            entity['avatar_decoration_data'] = oscar;
+            oscard = _closure1_slot1;
+            michal = 0;
+            golfie = oscard[michal];
+            oscard = undefined;
+            golfie = verify.bind(oscard)(golfie);
+            oscard = golfie.parseAvatarDecorationData;
+            oscard = oscard.bind(golfie)(option);
+            entity['avatar_decoration_data'] = oscard;
             entity['bot'] = report;
-            entity['flags'] = tango;
-            tango = null;
-            tango = tango != zulu;
-            if(!tango) { _fun00002_ip = 140; continue _fun00001 }
+            entity['flags'] = tangon;
+            tangon = null;
+            tangon = tangon != zuuluu;
+            if(!tangon) { _fun00002_ip = 140; continue _fun00001 }
  137:
-            mike = zulu;
+            michal = zuuluu;
  140:
-            entity['premium_type'] = mike;
+            entity['premium_type'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

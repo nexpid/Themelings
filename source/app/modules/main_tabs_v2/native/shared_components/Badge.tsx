@@ -1,143 +1,143 @@
 // app/modules/main_tabs_v2/native/shared_components/Badge.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    foxtrot = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    foxtra = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    report = golf[entity];
-    mike = argCorge;
+    report = golfie[entity];
+    michal = argCor;
     entity = undefined;
-    options = mike.bind(entity)(report);
-    mike = 1;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.View;
-    var _closure1_slot0 = mike;
-    mike = 2;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot1 = mike;
-    mike = 3;
-    mike = golf[mike];
-    offset = oscar.bind(entity)(mike);
+    option = michal.bind(entity)(report);
+    michal = 1;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.View;
+    var _closure1_slot0 = michal;
+    michal = 2;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot1 = michal;
+    michal = 3;
+    michal = golfie[michal];
+    offset = oscard.bind(entity)(michal);
     verify = offset.createStyles;
     report = {};
     yankee = {};
-    mike = 4;
-    romeo = golf[mike];
-    romeo = foxtrot.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.BG_BRAND;
-    yankee['backgroundColor'] = romeo;
+    michal = 4;
+    romeon = golfie[michal];
+    romeon = foxtra.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BG_BRAND;
+    yankee['backgroundColor'] = romeon;
     report['badge'] = yankee;
     yankee = {};
-    romeo = golf[mike];
-    romeo = foxtrot.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.INTERACTIVE_ACTIVE;
-    yankee['backgroundColor'] = romeo;
+    romeon = golfie[michal];
+    romeon = foxtra.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.INTERACTIVE_ACTIVE;
+    yankee['backgroundColor'] = romeon;
     report['badgeClassic'] = yankee;
     yankee = {'alignItems': 'center', 'justifyContent': 'center'};
     report['mask'] = yankee;
     report = verify.bind(offset)(report);
     var _closure1_slot2 = report;
-    report = options.memo;
-    tango = function(argFoo) { // Original name: Badge
+    report = option.memo;
+    tangon = function(argFoo) { // Original name: Badge
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.size;
-            tango = undefined;
-            if(!(offset === tango)) { _fun00002_ip = 17; continue _fun00001 }
+            tangon = undefined;
+            if(!(offset === tangon)) { _fun00002_ip = 17; continue _fun00001 }
  14:
             offset = 12;
  17:
-            mike = entity.maskSize;
-            if(!(mike === tango)) { _fun00002_ip = 30; continue _fun00001 }
+            michal = entity.maskSize;
+            if(!(michal === tangon)) { _fun00002_ip = 30; continue _fun00001 }
  27:
-            mike = 4;
+            michal = 4;
  30:
-            options = entity.classic;
-            if(!(options === tango)) { _fun00002_ip = 42; continue _fun00001 }
+            option = entity.classic;
+            if(!(option === tangon)) { _fun00002_ip = 42; continue _fun00001 }
  40:
-            options = false;
+            option = false;
  42:
             report = entity.maskColor;
             yankee = entity.style;
-            golf = entity.badgeStyle;
-            zulu = _closure1_slot2;
-            oscar = zulu.bind(tango)();
+            golfie = entity.badgeStyle;
+            zuuluu = _closure1_slot2;
+            oscard = zuuluu.bind(tangon)();
             verify = 2;
-            mike = verify * mike;
-            zulu = offset + mike;
-            mike = null;
-            mike = mike != report;
-            romeo = undefined;
-            if(!mike) { _fun00002_ip = 117; continue _fun00001 }
+            michal = verify * michal;
+            zuuluu = offset + michal;
+            michal = null;
+            michal = michal != report;
+            romeon = undefined;
+            if(!michal) { _fun00002_ip = 117; continue _fun00001 }
  92:
-            mike = {};
-            mike['backgroundColor'] = report;
-            mike['height'] = zulu;
-            mike['width'] = zulu;
-            zulu = zulu / verify;
-            mike['borderRadius'] = zulu;
-            romeo = mike;
+            michal = {};
+            michal['backgroundColor'] = report;
+            michal['height'] = zuuluu;
+            michal['width'] = zuuluu;
+            zuuluu = zuuluu / verify;
+            michal['borderRadius'] = zuuluu;
+            romeon = michal;
  117:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot0;
             entity = {};
-            foxtrot = oscar.mask;
+            foxtra = oscard.mask;
             report = new Array(3);
-            report[0] = foxtrot;
-            report[1] = romeo;
+            report[0] = foxtra;
+            report[1] = romeon;
             report[2] = yankee;
             entity['style'] = report;
             report = {};
-            if(options) { _fun00002_ip = 166; continue _fun00001 }
+            if(option) { _fun00002_ip = 166; continue _fun00001 }
  158:
-            options = oscar.badge;
+            option = oscard.badge;
             _fun00002_ip = 172; continue _fun00001;
  166:
-            options = oscar.badgeClassic;
+            option = oscard.badgeClassic;
  172:
-            oscar = new Array(3);
-            oscar[0] = options;
-            options = {};
-            options['height'] = offset;
-            options['width'] = offset;
+            oscard = new Array(3);
+            oscard[0] = option;
+            option = {};
+            option['height'] = offset;
+            option['width'] = offset;
             verify = offset / verify;
-            options['borderRadius'] = verify;
-            oscar[1] = options;
-            oscar[2] = golf;
-            report['style'] = oscar;
-            report = zulu.bind(tango)(mike, report);
+            option['borderRadius'] = verify;
+            oscard[1] = option;
+            oscard[2] = golfie;
+            report['style'] = oscard;
+            report = zuuluu.bind(tangon)(michal, report);
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    tango = report.bind(options)(tango);
+    tangon = report.bind(option)(tangon);
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/main_tabs_v2/native/shared_components/Badge.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    tango = 12;
-    zulu['DEFAULT_BADGE_SIZE'] = tango;
-    tango = 8;
-    zulu['CHANNEL_BADGE_SIZE'] = tango;
-    zulu['DEFAULT_BADGE_MASK_SIZE'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    tangon = 12;
+    zuuluu['DEFAULT_BADGE_SIZE'] = tangon;
+    tangon = 8;
+    zuuluu['CHANNEL_BADGE_SIZE'] = tangon;
+    zuuluu['DEFAULT_BADGE_MASK_SIZE'] = michal;
     return entity;
 })();

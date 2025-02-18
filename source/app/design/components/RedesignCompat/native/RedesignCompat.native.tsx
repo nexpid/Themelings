@@ -1,60 +1,60 @@
 // app/design/components/RedesignCompat/native/RedesignCompat.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argCorge;
+    report = golfie[entity];
+    tangon = argCor;
     entity = undefined;
-    options = tango.bind(entity)(report);
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot0 = tango;
-    report = options.createContext;
-    tango = false;
-    tango = report.bind(options)(tango);
-    var _closure1_slot1 = tango;
+    option = tangon.bind(entity)(report);
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot0 = tangon;
+    report = option.createContext;
+    tangon = false;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot1 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'design/components/RedesignCompat/native/RedesignCompat.native.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['RedesignCompatContext'] = tango;
-    mike = function(argFoo) { // Original name: RedesignCompat
+    report = oscard.bind(golfie)(report);
+    zuuluu['RedesignCompatContext'] = tangon;
+    michal = function(argFoo) { // Original name: RedesignCompat
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.children;
-            oscar = mike.enabled;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            zulu = mike.Provider;
-            mike = {};
+            michal = argFoo;
+            entity = michal.children;
+            oscard = michal.enabled;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            zuuluu = michal.Provider;
+            michal = {};
             report = null;
-            report = report == oscar;
+            report = report == oscard;
             if(report) { _fun00002_ip = 44; continue _fun00001 }
  41:
-            report = oscar;
+            report = oscard;
  44:
-            mike['value'] = report;
-            mike['children'] = entity;
+            michal['value'] = report;
+            michal['children'] = entity;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['RedesignCompat'] = mike;
+    zuuluu['RedesignCompat'] = michal;
     return entity;
 })();

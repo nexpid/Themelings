@@ -1,146 +1,146 @@
 // app/uikit-native/refresh/form/FormRadioRow.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/refresh/form/FormRadioRow.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: FormRadioRow
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/refresh/form/FormRadioRow.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: FormRadioRow
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            options = zulu.selected;
-            foxtrot = zulu.align;
+            zuuluu = argFoo;
+            option = zuuluu.selected;
+            foxtra = zuuluu.align;
             report = undefined;
-            if(!(foxtrot === report)) { _fun00002_ip = 25; continue _fun00001 }
+            if(!(foxtra === report)) { _fun00002_ip = 25; continue _fun00001 }
  21:
-            foxtrot = 'left';
+            foxtra = 'left';
  25:
-            offset = zulu.leading;
-            verify = zulu.value;
-            golf = zulu.onPress;
-            backup = zulu.style;
-            mike = {'selected': 0, 'align': 0, 'leading': 0, 'value': 0, 'onPress': 0, 'style': 0};
-            echo = mike;
+            offset = zuuluu.leading;
+            verify = zuuluu.value;
+            golfie = zuuluu.onPress;
+            backup = zuuluu.style;
+            michal = {'selected': 0, 'align': 0, 'leading': 0, 'value': 0, 'onPress': 0, 'style': 0};
+            echoed = michal;
             result = null;
-            entity = silentSetPrototypeOf(echo, result);
-            echo = {};
-            result = zulu;
-            output = mike;
-            oscar = copyDataProperties(echo, result, output);
-            tango = _closure1_slot3;
-            zulu = tango.useContext;
+            entity = silentSetPrototypeOf(echoed, result);
+            echoed = {};
+            result = zuuluu;
+            output = michal;
+            oscard = copyDataProperties(echoed, result, output);
+            tangon = _closure1_slot3;
+            zuuluu = tangon.useContext;
             yankee = _closure1_slot0;
-            kilo = _closure1_slot2;
+            kiloes = _closure1_slot2;
             entity = 2;
-            entity = kilo[entity];
+            entity = kiloes[entity];
             entity = yankee.bind(report)(entity);
             entity = entity.RedesignCompatContext;
-            entity = zulu.bind(tango)(entity);
-            tango = _closure1_slot4;
+            entity = zuuluu.bind(tangon)(entity);
+            tangon = _closure1_slot4;
             if(entity) { _fun00002_ip = 335; continue _fun00001 }
  135:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
             entity = 4;
             entity = yankee[entity];
-            zulu = zulu.bind(report)(entity);
+            zuuluu = zuuluu.bind(report)(entity);
             entity = {};
-            echo = entity;
-            result = oscar;
-            yankee = copyDataProperties(echo, result);
+            echoed = entity;
+            result = oscard;
+            yankee = copyDataProperties(echoed, result);
             yankee = 'style';
             entity[yankee] = backup;
             yankee = 'onPress';
-            entity[yankee] = golf;
+            entity[yankee] = golfie;
             backup = 'radio';
             yankee = 'accessibilityRole';
             entity[yankee] = backup;
             backup = {};
-            backup['selected'] = options;
+            backup['selected'] = option;
             yankee = 'accessibilityState';
             entity[yankee] = backup;
             yankee = 'right';
-            romeo = null;
-            if(!(yankee === foxtrot)) { _fun00002_ip = 261; continue _fun00001 }
+            romeon = null;
+            if(!(yankee === foxtra)) { _fun00002_ip = 261; continue _fun00001 }
  224:
-            kilo = _closure1_slot4;
+            kiloes = _closure1_slot4;
             backup = _closure1_slot1;
             sizing = _closure1_slot2;
             yankee = 5;
             yankee = sizing[yankee];
             backup = backup.bind(report)(yankee);
             yankee = {};
-            yankee['selected'] = options;
-            romeo = kilo.bind(report)(backup, yankee);
+            yankee['selected'] = option;
+            romeon = kiloes.bind(report)(backup, yankee);
  261:
             yankee = 'trailing';
-            entity[yankee] = romeo;
+            entity[yankee] = romeon;
             yankee = 'left';
-            romeo = offset;
-            if(!(yankee === foxtrot)) { _fun00002_ip = 318; continue _fun00001 }
+            romeon = offset;
+            if(!(yankee === foxtra)) { _fun00002_ip = 318; continue _fun00001 }
  281:
             backup = _closure1_slot4;
-            foxtrot = _closure1_slot1;
-            kilo = _closure1_slot2;
+            foxtra = _closure1_slot1;
+            kiloes = _closure1_slot2;
             yankee = 5;
-            yankee = kilo[yankee];
-            foxtrot = foxtrot.bind(report)(yankee);
+            yankee = kiloes[yankee];
+            foxtra = foxtra.bind(report)(yankee);
             yankee = {};
-            yankee['selected'] = options;
-            romeo = backup.bind(report)(foxtrot, yankee);
+            yankee['selected'] = option;
+            romeon = backup.bind(report)(foxtra, yankee);
  318:
             yankee = 'leading';
-            entity[yankee] = romeo;
-            entity = tango.bind(report)(zulu, entity);
+            entity[yankee] = romeon;
+            entity = tangon.bind(report)(zuuluu, entity);
             _fun00002_ip = 397; continue _fun00001;
  335:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
-            mike = 3;
-            mike = yankee[mike];
-            mike = zulu.bind(report)(mike);
-            zulu = mike.TableRadioRow;
-            mike = {};
-            mike['icon'] = offset;
-            mike['value'] = verify;
-            mike['legacyCompat_selected'] = options;
-            mike['legacyCompat_onPress'] = golf;
-            echo = mike;
-            result = oscar;
-            oscar = copyDataProperties(echo, result);
-            entity = tango.bind(report)(zulu, mike);
+            michal = 3;
+            michal = yankee[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.TableRadioRow;
+            michal = {};
+            michal['icon'] = offset;
+            michal['value'] = verify;
+            michal['legacyCompat_selected'] = option;
+            michal['legacyCompat_onPress'] = golfie;
+            echoed = michal;
+            result = oscard;
+            oscard = copyDataProperties(echoed, result);
+            entity = tangon.bind(report)(zuuluu, michal);
  397:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

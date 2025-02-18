@@ -1,37 +1,37 @@
 // app/hooks/useInitialValue.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/useInitialValue.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useInitialValue
-        zulu = _closure1_slot0;
-        mike = zulu.useState;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/useInitialValue.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useInitialValue
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.useState;
         entity = argFoo;
-        mike = mike.bind(zulu)(entity);
+        michal = michal.bind(zuuluu)(entity);
         entity = 0;
-        entity = mike[entity];
+        entity = michal[entity];
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

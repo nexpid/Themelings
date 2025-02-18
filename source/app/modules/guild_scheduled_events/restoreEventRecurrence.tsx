@@ -1,72 +1,72 @@
 // app/modules/guild_scheduled_events/restoreEventRecurrence.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/restoreEventRecurrence.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: restoreEventRecurrence
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/restoreEventRecurrence.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: restoreEventRecurrence
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = argBar;
+            oscard = argBar;
             report = argBaz;
-            tango = argCorge;
-            options = entity.scheduled_start_time;
-            golf = entity.scheduled_end_time;
+            tangon = argCor;
+            option = entity.scheduled_start_time;
+            golfie = entity.scheduled_end_time;
             entity = null;
-            if(!(entity == options)) { _fun00002_ip = 34; continue _fun00001 }
+            if(!(entity == option)) { _fun00002_ip = 34; continue _fun00001 }
  30:
-            if(!(entity != golf)) { _fun00002_ip = 104; continue _fun00001 }
+            if(!(entity != golfie)) { _fun00002_ip = 104; continue _fun00001 }
  34:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.updateGuildEventException;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.updateGuildEventException;
             entity = {};
-            entity['scheduled_start_time'] = options;
-            entity['scheduled_end_time'] = golf;
-            golf = false;
-            entity['is_canceled'] = golf;
-            foxtrot = zulu;
-            romeo = entity;
-            yankee = oscar;
+            entity['scheduled_start_time'] = option;
+            entity['scheduled_end_time'] = golfie;
+            golfie = false;
+            entity['is_canceled'] = golfie;
+            foxtra = zuuluu;
+            romeon = entity;
+            yankee = oscard;
             offset = report;
-            verify = tango;
-            entity = foxtrot[mike](romeo, yankee, offset, verify, options);
+            verify = tangon;
+            entity = foxtra[michal](romeon, yankee, offset, verify, option);
             _fun00002_ip = 141; continue _fun00001;
  104:
-            golf = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 0;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = golf.bind(mike)(zulu);
-            mike = zulu.deleteGuildEventException;
-            entity = mike.bind(zulu)(oscar, report, tango);
+            golfie = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 0;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = golfie.bind(michal)(zuuluu);
+            michal = zuuluu.deleteGuildEventException;
+            entity = michal.bind(zuuluu)(oscard, report, tangon);
  141:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

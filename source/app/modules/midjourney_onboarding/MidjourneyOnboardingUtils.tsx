@@ -1,49 +1,49 @@
 // app/modules/midjourney_onboarding/MidjourneyOnboardingUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: isMidjourneyOnboardingFlow
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: isMidjourneyOnboardingFlow
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = arguments[1];
-            tango = undefined;
-            if(!(entity === tango)) { _fun00002_ip = 11; continue _fun00001 }
+            tangon = undefined;
+            if(!(entity === tangon)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             entity = {};
  11:
             report = entity.guildStore;
-            zulu = null;
-            if(!(zulu == report)) { _fun00002_ip = 30; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu == report)) { _fun00002_ip = 30; continue _fun00001 }
  23:
             report = _closure1_slot2;
  30:
-            oscar = report.getGuild;
+            oscard = report.getGuild;
             entity = _closure1_slot5;
-            entity = oscar.bind(report)(entity);
-            zulu = zulu == entity;
-            golf = undefined;
-            if(zulu) { _fun00002_ip = 62; continue _fun00001 }
+            entity = oscard.bind(report)(entity);
+            zuuluu = zuuluu == entity;
+            golfie = undefined;
+            if(zuuluu) { _fun00002_ip = 62; continue _fun00001 }
  56:
-            golf = entity.joinedAt;
+            golfie = entity.joinedAt;
  62:
-            oscar = global;
-            zulu = oscar.Date;
-            zulu = golf instanceof zulu;
-            if(!zulu) { _fun00002_ip = 120; continue _fun00001 }
+            oscard = global;
+            zuuluu = oscard.Date;
+            zuuluu = golfie instanceof zuuluu;
+            if(!zuuluu) { _fun00002_ip = 120; continue _fun00001 }
  77:
-            golf = oscar.Date;
-            oscar = golf.now;
-            oscar = oscar.bind(golf)();
-            golf = entity.joinedAt;
-            entity = golf.getTime;
-            entity = entity.bind(golf)();
-            oscar = oscar - entity;
+            golfie = oscard.Date;
+            oscard = golfie.now;
+            oscard = oscard.bind(golfie)();
+            golfie = entity.joinedAt;
+            entity = golfie.getTime;
+            entity = entity.bind(golfie)();
+            oscard = oscard - entity;
             entity = _closure1_slot6;
-            zulu = oscar <= entity;
+            zuuluu = oscard <= entity;
  120:
             entity = report.getGuildCount;
             report = entity.bind(report)();
@@ -51,23 +51,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity === report;
             if(!entity) { _fun00002_ip = 143; continue _fun00001 }
  140:
-            entity = zulu;
+            entity = zuuluu;
  143:
             if(!entity) { _fun00002_ip = 180; continue _fun00001 }
  146:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 3;
-            mike = report[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.isEligibleForMidjourneyOnboarding;
-            mike = argFoo;
-            entity = zulu.bind(tango)(mike);
+            michal = 3;
+            michal = report[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.isEligibleForMidjourneyOnboarding;
+            michal = argFoo;
+            entity = zuuluu.bind(tangon)(michal);
  180:
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -75,178 +75,178 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.MIDJOURNEY_BOT_ID;
-    var _closure1_slot4 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.MIDJOURNEY_BOT_ID;
+    var _closure1_slot4 = option;
     report = report.MIDJOURNEY_GUILD_ID;
     var _closure1_slot5 = report;
     report = 3600000;
     var _closure1_slot6 = report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/midjourney_onboarding/MidjourneyOnboardingUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['isMidjourneyOnboardingFlow'] = tango;
-    tango = function(argFoo) { // Original name: useIsMidjourneyOnboardingFlow
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    report = oscard.bind(golfie)(report);
+    zuuluu['isMidjourneyOnboardingFlow'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsMidjourneyOnboardingFlow
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 4;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 4;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
-            tango = _closure1_slot7;
-            zulu = _closure2_slot0;
-            mike = {};
+            tangon = _closure1_slot7;
+            zuuluu = _closure2_slot0;
+            michal = {};
             entity = _closure1_slot2;
-            mike['guildStore'] = entity;
+            michal['guildStore'] = entity;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useIsMidjourneyOnboardingFlow'] = tango;
-    tango = function(argFoo) { // Original name: isEligibleForMidjourneyRedirect
+    zuuluu['useIsMidjourneyOnboardingFlow'] = tangon;
+    tangon = function(argFoo) { // Original name: isEligibleForMidjourneyRedirect
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            entity = mike.isDM;
-            entity = entity.bind(mike)();
+            michal = argFoo;
+            entity = michal.isDM;
+            entity = entity.bind(michal)();
             if(!entity) { _fun00004_ip = 34; continue _fun00003 }
  16:
-            zulu = mike.rawRecipients;
-            tango = zulu.length;
-            zulu = 1;
-            entity = zulu === tango;
+            zuuluu = michal.rawRecipients;
+            tangon = zuuluu.length;
+            zuuluu = 1;
+            entity = zuuluu === tangon;
  34:
             if(!entity) { _fun00004_ip = 65; continue _fun00003 }
  37:
-            zulu = mike.rawRecipients;
-            mike = 0;
-            mike = zulu[mike];
-            zulu = mike.id;
-            mike = _closure1_slot4;
-            entity = zulu === mike;
+            zuuluu = michal.rawRecipients;
+            michal = 0;
+            michal = zuuluu[michal];
+            zuuluu = michal.id;
+            michal = _closure1_slot4;
+            entity = zuuluu === michal;
  65:
             if(!entity) { _fun00004_ip = 86; continue _fun00003 }
  68:
-            tango = _closure1_slot7;
-            zulu = undefined;
-            mike = 'app';
-            entity = tango.bind(zulu)(mike);
+            tangon = _closure1_slot7;
+            zuuluu = undefined;
+            michal = 'app';
+            entity = tangon.bind(zuuluu)(michal);
  86:
             return entity;
         }
     };
-    zulu['isEligibleForMidjourneyRedirect'] = tango;
-    mike = function(argFoo) { // Original name: hasRedirectedToGuild
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = global;
-        zulu = mike.Promise;
-        mike = zulu.prototype;
-        mike = Object.create(mike, {constructor: {value: zulu}});
-        tango = function(argFoo, argBar) {
+    zuuluu['isEligibleForMidjourneyRedirect'] = tangon;
+    michal = function(argFoo) { // Original name: hasRedirectedToGuild
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = global;
+        zuuluu = michal.Promise;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        tangon = function(argFoo, argBar) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = argFoo;
-                var _closure3_slot0 = zulu;
+                zuuluu = argFoo;
+                var _closure3_slot0 = zuuluu;
                 entity = argBar;
                 var _closure3_slot1 = entity;
                 report = _closure1_slot3;
-                mike = report.getGuildId;
-                report = mike.bind(report)();
-                mike = _closure2_slot0;
-                if(!(report === mike)) { _fun00006_ip = 52; continue _fun00005 }
+                michal = report.getGuildId;
+                report = michal.bind(report)();
+                michal = _closure2_slot0;
+                if(!(report === michal)) { _fun00006_ip = 52; continue _fun00005 }
  44:
-                mike = undefined;
-                mike = zulu.bind(mike)();
+                michal = undefined;
+                michal = zuuluu.bind(michal)();
                 _fun00006_ip = 122; continue _fun00005;
  52:
-                mike = global;
-                oscar = mike.setTimeout;
+                michal = global;
+                oscard = michal.setTimeout;
                 report = undefined;
-                zulu = function() {
-                    zulu = _closure3_slot4;
+                zuuluu = function() {
+                    zuuluu = _closure3_slot4;
                     entity = undefined;
-                    zulu = zulu.bind(entity)();
-                    mike = _closure3_slot1;
-                    mike = mike.bind(entity)();
+                    zuuluu = zuuluu.bind(entity)();
+                    michal = _closure3_slot1;
+                    michal = michal.bind(entity)();
                     return entity;
                 };
-                mike = 3000;
-                mike = oscar.bind(report)(zulu, mike);
-                var _closure3_slot2 = mike;
-                zulu = function() { // Original name: handleSelectedGuildUpdate
+                michal = 3000;
+                michal = oscard.bind(report)(zuuluu, michal);
+                var _closure3_slot2 = michal;
+                zuuluu = function() { // Original name: handleSelectedGuildUpdate
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                        mike = _closure1_slot3;
-                        entity = mike.getGuildId;
-                        mike = entity.bind(mike)();
+                        michal = _closure1_slot3;
+                        entity = michal.getGuildId;
+                        michal = entity.bind(michal)();
                         entity = _closure2_slot0;
-                        if(!(mike === entity)) { _fun00008_ip = 49; continue _fun00007 }
+                        if(!(michal === entity)) { _fun00008_ip = 49; continue _fun00007 }
  28:
-                        zulu = _closure3_slot4;
-                        mike = undefined;
-                        zulu = zulu.bind(mike)();
+                        zuuluu = _closure3_slot4;
+                        michal = undefined;
+                        zuuluu = zuuluu.bind(michal)();
                         entity = _closure3_slot0;
-                        entity = entity.bind(mike)();
+                        entity = entity.bind(michal)();
  49:
                         entity = undefined;
                         return entity;
                     }
                 };
-                var _closure3_slot3 = zulu;
-                mike = function() { // Original name: cleanup
-                    tango = _closure1_slot3;
-                    zulu = tango.removeChangeListener;
-                    mike = _closure3_slot3;
-                    mike = zulu.bind(tango)(mike);
-                    mike = global;
-                    zulu = mike.clearTimeout;
-                    mike = _closure3_slot2;
+                var _closure3_slot3 = zuuluu;
+                michal = function() { // Original name: cleanup
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.removeChangeListener;
+                    michal = _closure3_slot3;
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = global;
+                    zuuluu = michal.clearTimeout;
+                    michal = _closure3_slot2;
                     entity = undefined;
-                    mike = zulu.bind(entity)(mike);
+                    michal = zuuluu.bind(entity)(michal);
                     return entity;
                 };
-                var _closure3_slot4 = mike;
-                mike = _closure1_slot3;
-                entity = mike.addChangeListener;
-                entity = entity.bind(mike)(zulu);
+                var _closure3_slot4 = michal;
+                michal = _closure1_slot3;
+                entity = michal.addChangeListener;
+                entity = entity.bind(michal)(zuuluu);
  122:
                 entity = undefined;
                 return entity;
             }
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    zulu['hasRedirectedToGuild'] = mike;
+    zuuluu['hasRedirectedToGuild'] = michal;
     return entity;
 })();

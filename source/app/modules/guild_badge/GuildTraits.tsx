@@ -1,202 +1,202 @@
 // app/modules/guild_badge/GuildTraits.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    tango = function(argFoo) { // Original name: isPremiumGuild
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    tangon = function(argFoo) { // Original name: isPremiumGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            zulu = null;
-            entity = zulu != report;
+            zuuluu = null;
+            entity = zuuluu != report;
             if(!entity) { _fun00002_ip = 94; continue _fun00001 }
  12:
-            mike = _closure1_slot0;
-            mike = report instanceof mike;
-            if(mike) { _fun00002_ip = 53; continue _fun00001 }
+            michal = _closure1_slot0;
+            michal = report instanceof michal;
+            if(michal) { _fun00002_ip = 53; continue _fun00001 }
  26:
-            mike = report.premiumSubscriptionCount;
-            mike = zulu != mike;
-            if(!mike) { _fun00002_ip = 51; continue _fun00001 }
+            michal = report.premiumSubscriptionCount;
+            michal = zuuluu != michal;
+            if(!michal) { _fun00002_ip = 51; continue _fun00001 }
  39:
-            oscar = report.premiumSubscriptionCount;
-            zulu = 0;
-            mike = oscar > zulu;
+            oscard = report.premiumSubscriptionCount;
+            zuuluu = 0;
+            michal = oscard > zuuluu;
  51:
             _fun00002_ip = 91; continue _fun00001;
  53:
-            oscar = report.premiumSubscriberCount;
-            zulu = 0;
-            zulu = oscar > zulu;
-            if(zulu) { _fun00002_ip = 88; continue _fun00001 }
+            oscard = report.premiumSubscriberCount;
+            zuuluu = 0;
+            zuuluu = oscard > zuuluu;
+            if(zuuluu) { _fun00002_ip = 88; continue _fun00001 }
  68:
             report = report.premiumTier;
-            tango = _closure1_slot2;
-            tango = tango.NONE;
-            zulu = report > tango;
+            tangon = _closure1_slot2;
+            tangon = tangon.NONE;
+            zuuluu = report > tangon;
  88:
-            mike = zulu;
+            michal = zuuluu;
  91:
-            entity = mike;
+            entity = michal;
  94:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
-    oscar = verify.defineProperty;
+    oscard = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(verify)(zulu, entity, report);
+    entity = oscard.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(oscar);
+    report = report.bind(entity)(oscard);
     var _closure1_slot0 = report;
     report = 1;
-    report = options[report];
-    report = golf.bind(entity)(report);
-    oscar = report.GuildFeatures;
-    var _closure1_slot1 = oscar;
+    report = option[report];
+    report = golfie.bind(entity)(report);
+    oscard = report.GuildFeatures;
+    var _closure1_slot1 = oscard;
     report = report.BoostedGuildTiers;
     var _closure1_slot2 = report;
     report = {};
-    oscar = 'PUBLIC';
-    report['PUBLIC'] = oscar;
-    oscar = 'INVITE_ONLY';
-    report['INVITE_ONLY'] = oscar;
+    oscard = 'PUBLIC';
+    report['PUBLIC'] = oscard;
+    oscard = 'INVITE_ONLY';
+    report['INVITE_ONLY'] = oscard;
     var _closure1_slot3 = report;
-    oscar = 2;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/guild_badge/GuildTraits.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['GuildVisibility'] = report;
+    oscard = 2;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/guild_badge/GuildTraits.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['GuildVisibility'] = report;
     report = function(argFoo) { // Original name: getGuildTraits
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            mike = global;
-            tango = mike.Set;
+            michal = global;
+            tangon = michal.Set;
             offset = entity.features;
-            zulu = tango.prototype;
-            zulu = Object.create(zulu, {constructor: {value: tango}});
-            yankee = zulu;
-            mike = new yankee[tango](offset, verify);
-            options = mike instanceof Object ? mike : zulu;
-            zulu = options.has;
-            mike = _closure1_slot1;
-            mike = mike.COMMUNITY;
-            mike = zulu.bind(options)(mike);
-            if(!mike) { _fun00004_ip = 86; continue _fun00003 }
+            zuuluu = tangon.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+            yankee = zuuluu;
+            michal = new yankee[tangon](offset, verify);
+            option = michal instanceof Object ? michal : zuuluu;
+            zuuluu = option.has;
+            michal = _closure1_slot1;
+            michal = michal.COMMUNITY;
+            michal = zuuluu.bind(option)(michal);
+            if(!michal) { _fun00004_ip = 86; continue _fun00003 }
  63:
-            zulu = options.has;
-            mike = _closure1_slot1;
-            mike = mike.DISCOVERABLE;
-            mike = zulu.bind(options)(mike);
-            if(mike) { _fun00004_ip = 98; continue _fun00003 }
+            zuuluu = option.has;
+            michal = _closure1_slot1;
+            michal = michal.DISCOVERABLE;
+            michal = zuuluu.bind(option)(michal);
+            if(michal) { _fun00004_ip = 98; continue _fun00003 }
  86:
-            mike = _closure1_slot3;
-            report = mike.INVITE_ONLY;
+            michal = _closure1_slot3;
+            report = michal.INVITE_ONLY;
             _fun00004_ip = 108; continue _fun00003;
  98:
-            mike = _closure1_slot3;
-            report = mike.PUBLIC;
+            michal = _closure1_slot3;
+            report = michal.PUBLIC;
  108:
-            zulu = _closure1_slot4;
-            mike = undefined;
-            tango = zulu.bind(mike)(entity);
-            zulu = 0;
-            if(!tango) { _fun00004_ip = 166; continue _fun00003 }
+            zuuluu = _closure1_slot4;
+            michal = undefined;
+            tangon = zuuluu.bind(michal)(entity);
+            zuuluu = 0;
+            if(!tangon) { _fun00004_ip = 166; continue _fun00003 }
  124:
-            golf = _closure1_slot0;
-            golf = entity instanceof golf;
-            if(golf) { _fun00004_ip = 143; continue _fun00003 }
+            golfie = _closure1_slot0;
+            golfie = entity instanceof golfie;
+            if(golfie) { _fun00004_ip = 143; continue _fun00003 }
  135:
-            golf = entity.premiumSubscriptionCount;
+            golfie = entity.premiumSubscriptionCount;
             _fun00004_ip = 149; continue _fun00003;
  143:
-            golf = entity.premiumSubscriberCount;
+            golfie = entity.premiumSubscriberCount;
  149:
             verify = null;
-            verify = verify != golf;
-            mike = 0;
+            verify = verify != golfie;
+            michal = 0;
             if(!verify) { _fun00004_ip = 163; continue _fun00003 }
  160:
-            mike = golf;
+            michal = golfie;
  163:
-            zulu = mike;
+            zuuluu = michal;
  166:
-            mike = _closure1_slot0;
-            mike = entity instanceof mike;
-            if(mike) { _fun00004_ip = 189; continue _fun00003 }
+            michal = _closure1_slot0;
+            michal = entity instanceof michal;
+            if(michal) { _fun00004_ip = 189; continue _fun00003 }
  177:
-            mike = _closure1_slot2;
-            mike = mike.NONE;
+            michal = _closure1_slot2;
+            michal = michal.NONE;
             _fun00004_ip = 195; continue _fun00003;
  189:
-            mike = entity.premiumTier;
+            michal = entity.premiumTier;
  195:
             entity = {};
-            verify = options.has;
-            oscar = _closure1_slot1;
-            golf = oscar.VERIFIED;
-            golf = verify.bind(options)(golf);
-            entity['verified'] = golf;
-            verify = options.has;
-            golf = oscar.PARTNERED;
-            golf = verify.bind(options)(golf);
-            entity['partnered'] = golf;
-            verify = options.has;
-            golf = oscar.COMMUNITY;
-            golf = verify.bind(options)(golf);
-            entity['community'] = golf;
-            verify = options.has;
-            golf = oscar.INTERNAL_EMPLOYEE_ONLY;
-            golf = verify.bind(options)(golf);
-            entity['staff'] = golf;
-            golf = options.has;
-            oscar = oscar.CLAN;
-            oscar = golf.bind(options)(oscar);
-            entity['clan'] = oscar;
+            verify = option.has;
+            oscard = _closure1_slot1;
+            golfie = oscard.VERIFIED;
+            golfie = verify.bind(option)(golfie);
+            entity['verified'] = golfie;
+            verify = option.has;
+            golfie = oscard.PARTNERED;
+            golfie = verify.bind(option)(golfie);
+            entity['partnered'] = golfie;
+            verify = option.has;
+            golfie = oscard.COMMUNITY;
+            golfie = verify.bind(option)(golfie);
+            entity['community'] = golfie;
+            verify = option.has;
+            golfie = oscard.INTERNAL_EMPLOYEE_ONLY;
+            golfie = verify.bind(option)(golfie);
+            entity['staff'] = golfie;
+            golfie = option.has;
+            oscard = oscard.CLAN;
+            oscard = golfie.bind(option)(oscard);
+            entity['clan'] = oscard;
             entity['visibility'] = report;
-            entity['premium'] = tango;
-            entity['premiumSubscriberCount'] = zulu;
-            entity['premiumTier'] = mike;
+            entity['premium'] = tangon;
+            entity['premiumSubscriberCount'] = zuuluu;
+            entity['premiumTier'] = michal;
             return entity;
         }
     };
-    zulu['getGuildTraits'] = report;
-    zulu['isPremiumGuild'] = tango;
-    mike = function(argFoo) { // Original name: isDiscoverableGuild
+    zuuluu['getGuildTraits'] = report;
+    zuuluu['isPremiumGuild'] = tangon;
+    michal = function(argFoo) { // Original name: isDiscoverableGuild
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00006_ip = 69; continue _fun00005 }
  12:
-            zulu = global;
-            tango = zulu.Set;
-            report = mike.features;
-            zulu = tango.prototype;
-            zulu = Object.create(zulu, {constructor: {value: tango}});
-            oscar = zulu;
-            mike = new oscar[tango](report, tango);
-            tango = mike instanceof Object ? mike : zulu;
-            zulu = tango.has;
-            mike = _closure1_slot1;
-            mike = mike.DISCOVERABLE;
-            entity = zulu.bind(tango)(mike);
+            zuuluu = global;
+            tangon = zuuluu.Set;
+            report = michal.features;
+            zuuluu = tangon.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+            oscard = zuuluu;
+            michal = new oscard[tangon](report, tangon);
+            tangon = michal instanceof Object ? michal : zuuluu;
+            zuuluu = tangon.has;
+            michal = _closure1_slot1;
+            michal = michal.DISCOVERABLE;
+            entity = zuuluu.bind(tangon)(michal);
  69:
             return entity;
         }
     };
-    zulu['isDiscoverableGuild'] = mike;
+    zuuluu['isDiscoverableGuild'] = michal;
     return entity;
 })();

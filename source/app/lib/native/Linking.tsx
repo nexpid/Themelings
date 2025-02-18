@@ -1,87 +1,87 @@
 // app/lib/native/Linking.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.Linking;
-    var _closure1_slot2 = mike;
-    mike = {};
-    golf = function(argFoo, argBar) { // Original name: openURL
+    michal = report.bind(entity)(michal);
+    michal = michal.Linking;
+    var _closure1_slot2 = michal;
+    michal = {};
+    golfie = function(argFoo, argBar) { // Original name: openURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[2];
+            michal = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            mike = true;
+            michal = true;
  11:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 1;
-            zulu = report[zulu];
-            zulu = tango.bind(entity)(zulu);
-            report = zulu.openURL;
-            tango = {};
-            tango['allowExternal'] = mike;
-            zulu = argFoo;
-            mike = argBar;
-            mike = report.bind(entity)(zulu, mike, tango);
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            report = zuuluu.openURL;
+            tangon = {};
+            tangon['allowExternal'] = michal;
+            zuuluu = argFoo;
+            michal = argBar;
+            michal = report.bind(entity)(zuuluu, michal, tangon);
             return entity;
         }
     };
-    mike['openURL'] = golf;
-    golf = function(argFoo, argBar) { // Original name: openURLExternally
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    michal['openURL'] = golfie;
+    golfie = function(argFoo, argBar) { // Original name: openURLExternally
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        report = mike.openURL;
-        tango = {};
-        mike = true;
-        tango['forceExternalBrowser'] = mike;
-        zulu = argFoo;
-        mike = argBar;
-        mike = report.bind(entity)(zulu, mike, tango);
+        michal = zuuluu.bind(entity)(michal);
+        report = michal.openURL;
+        tangon = {};
+        michal = true;
+        tangon['forceExternalBrowser'] = michal;
+        zuuluu = argFoo;
+        michal = argBar;
+        michal = report.bind(entity)(zuuluu, michal, tangon);
         return entity;
     };
-    mike['openURLExternally'] = golf;
-    tango = function(argFoo) { // Original name: performURLNavigation
-        zulu = _closure1_slot2;
-        mike = zulu.openURL;
+    michal['openURLExternally'] = golfie;
+    tangon = function(argFoo) { // Original name: performURLNavigation
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.openURL;
         entity = argFoo;
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.catch;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.catch;
         entity = function() {
             entity = undefined;
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         entity = undefined;
         return entity;
     };
-    mike['performURLNavigation'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/native/Linking.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['performURLNavigation'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/native/Linking.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

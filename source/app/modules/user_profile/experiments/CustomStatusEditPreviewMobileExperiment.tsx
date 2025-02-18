@@ -1,87 +1,87 @@
 // app/modules/user_profile/experiments/CustomStatusEditPreviewMobileExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
-    romeo = true;
-    tango['value'] = romeo;
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    verify = oscar.bind(entity)(tango);
-    options = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2025-01_custom_status_edit_preview_mobile', 'label': 'Custom Status Edit Preview (Mobile)'};
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2025-01_custom_status_edit_preview_mobile', 'label': 'Custom Status Edit Preview (Mobile)'};
     report = {};
     offset = false;
     report['enabled'] = offset;
-    tango['defaultConfig'] = report;
+    tangon['defaultConfig'] = report;
     yankee = {'id': 1, 'label': 'Enable edit modal with preview'};
     report = 1;
     offset = {};
-    offset['enabled'] = romeo;
+    offset['enabled'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
-    tango['treatments'] = offset;
-    tango = options.bind(verify)(tango);
-    var _closure1_slot0 = tango;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot0 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/user_profile/experiments/CustomStatusEditPreviewMobileExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['CustomStatusEditPreviewMobileExperiment'] = tango;
-    tango = function(argFoo) { // Original name: isEligibleForCustomStatusEditPreviewMobileExperiment
+    report = oscard.bind(golfie)(report);
+    zuuluu['CustomStatusEditPreviewMobileExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: isEligibleForCustomStatusEditPreviewMobileExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.location;
-            report = mike.autoTrackExposure;
-            mike = undefined;
-            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
-            tango = _closure1_slot0;
-            zulu = tango.getCurrentConfig;
-            mike = {};
-            mike['location'] = entity;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['isEligibleForCustomStatusEditPreviewMobileExperiment'] = tango;
-    mike = function(argFoo) { // Original name: useIsEligibleForCustomStatusEditPreviewMobileExperiment
+    zuuluu['isEligibleForCustomStatusEditPreviewMobileExperiment'] = tangon;
+    michal = function(argFoo) { // Original name: useIsEligibleForCustomStatusEditPreviewMobileExperiment
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            entity = mike.location;
-            report = mike.autoTrackExposure;
-            mike = undefined;
-            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = true;
  22:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
-            mike['location'] = entity;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useIsEligibleForCustomStatusEditPreviewMobileExperiment'] = mike;
+    zuuluu['useIsEligibleForCustomStatusEditPreviewMobileExperiment'] = michal;
     return entity;
 })();

@@ -1,75 +1,75 @@
 // app/modules/expression_picker/native/useExpressionPickerListWidth.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PADDING_HORIZONTAL;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ACTION_SHEET_MAX_WIDTH;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/expression_picker/native/useExpressionPickerListWidth.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useExpressionPickerListWidth
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PADDING_HORIZONTAL;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/expression_picker/native/useExpressionPickerListWidth.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useExpressionPickerListWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            tango = 2;
-            entity = golf[tango];
-            zulu = undefined;
-            entity = oscar.bind(zulu)(entity);
-            entity = entity.bind(zulu)();
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            tangon = 2;
+            entity = golfie[tangon];
+            zuuluu = undefined;
+            entity = oscard.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)();
             report = entity.width;
             entity = 3;
-            entity = golf[entity];
-            entity = oscar.bind(zulu)(entity);
-            entity = entity.bind(zulu)();
-            zulu = entity.left;
-            zulu = report - zulu;
+            entity = golfie[entity];
+            entity = oscard.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)();
+            zuuluu = entity.left;
+            zuuluu = report - zuuluu;
             entity = entity.right;
-            zulu = zulu - entity;
+            zuuluu = zuuluu - entity;
             entity = _closure1_slot2;
-            entity = tango * entity;
-            report = zulu - entity;
-            zulu = argFoo;
+            entity = tangon * entity;
+            report = zuuluu - entity;
+            zuuluu = argFoo;
             entity = report;
-            if(!zulu) { _fun00002_ip = 121; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 121; continue _fun00001 }
  89:
-            zulu = argBar;
+            zuuluu = argBar;
             entity = report;
-            if(zulu) { _fun00002_ip = 121; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 121; continue _fun00001 }
  98:
-            zulu = global;
-            tango = zulu.Math;
-            zulu = tango.min;
-            mike = _closure1_slot3;
-            entity = zulu.bind(tango)(report, mike);
+            zuuluu = global;
+            tangon = zuuluu.Math;
+            zuuluu = tangon.min;
+            michal = _closure1_slot3;
+            entity = zuuluu.bind(tangon)(report, michal);
  121:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

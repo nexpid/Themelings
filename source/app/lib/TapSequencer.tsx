@@ -1,249 +1,249 @@
 // app/lib/TapSequencer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     report = argBaz;
-    zulu = argFred;
-    options = argPlugh;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
     verify = entity.Object;
-    oscar = verify.defineProperty;
-    tango = {};
+    oscard = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(verify)(zulu, entity, tango);
+    entity = oscard.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = options[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = options[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = options[tango];
-    tango = golf.bind(entity)(tango);
-    report = tango.useState;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = option[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = option[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = option[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    report = tangon.useState;
     var _closure1_slot3 = report;
-    tango = tango.useEffect;
-    var _closure1_slot4 = tango;
+    tangon = tangon.useEffect;
+    var _closure1_slot4 = tangon;
     report = {};
-    tango = 'short';
-    report['SHORT'] = tango;
-    tango = 'long';
-    report['LONG'] = tango;
+    tangon = 'short';
+    report['SHORT'] = tangon;
+    tangon = 'long';
+    report['LONG'] = tangon;
     var _closure1_slot5 = report;
-    tango = {'long': 1250, 'short': 500};
-    var _closure1_slot6 = tango;
-    tango = function() {
-        tango = _closure1_slot2;
-        zulu = function(argFoo) { // Original name: TapSequencer
-            zulu = this;
-            var _closure3_slot0 = zulu;
+    tangon = {'long': 1250, 'short': 500};
+    var _closure1_slot6 = tangon;
+    tangon = function() {
+        tangon = _closure1_slot2;
+        zuuluu = function(argFoo) { // Original name: TapSequencer
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
             report = _closure1_slot1;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            tango = argFoo;
-            zulu['tapSequenceHandlers'] = tango;
-            tango = null;
-            zulu['_state'] = tango;
-            tango = function() {
-                zulu = _closure3_slot0;
-                mike = zulu.handlePress;
+            tangon = report.bind(entity)(zuuluu, tangon);
+            tangon = argFoo;
+            zuuluu['tapSequenceHandlers'] = tangon;
+            tangon = null;
+            zuuluu['_state'] = tangon;
+            tangon = function() {
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.handlePress;
                 entity = _closure1_slot5;
                 entity = entity.SHORT;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu['handleShortPress'] = tango;
-            mike = function() {
-                zulu = _closure3_slot0;
-                mike = zulu.handlePress;
+            zuuluu['handleShortPress'] = tangon;
+            michal = function() {
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.handlePress;
                 entity = _closure1_slot5;
                 entity = entity.LONG;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu['handleLongPress'] = mike;
+            zuuluu['handleLongPress'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'setTapSequenceHandlers';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
-            mike = argFoo;
+        michal = 'setTapSequenceHandlers';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
+            michal = argFoo;
             entity = this;
-            entity['tapSequenceHandlers'] = mike;
+            entity['tapSequenceHandlers'] = michal;
             entity = undefined;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(4);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(4);
+        michal[0] = entity;
         entity = {};
-        oscar = 'getState';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'getState';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = this;
-                mike = global;
-                zulu = mike.Date;
-                mike = zulu.now;
-                zulu = mike.bind(zulu)();
-                tango = _closure1_slot6;
-                mike = argFoo;
-                report = tango[mike];
-                tango = entity._state;
-                mike = null;
-                mike = mike === tango;
-                if(mike) { _fun00002_ip = 69; continue _fun00001 }
+                michal = global;
+                zuuluu = michal.Date;
+                michal = zuuluu.now;
+                zuuluu = michal.bind(zuuluu)();
+                tangon = _closure1_slot6;
+                michal = argFoo;
+                report = tangon[michal];
+                tangon = entity._state;
+                michal = null;
+                michal = michal === tangon;
+                if(michal) { _fun00002_ip = 69; continue _fun00001 }
  49:
-                tango = entity._state;
-                tango = tango.timestamp;
-                tango = tango + report;
-                mike = tango < zulu;
+                tangon = entity._state;
+                tangon = tangon.timestamp;
+                tangon = tangon + report;
+                michal = tangon < zuuluu;
  69:
-                if(!mike) { _fun00002_ip = 96; continue _fun00001 }
+                if(!michal) { _fun00002_ip = 96; continue _fun00001 }
  72:
-                mike = {};
-                tango = entity.tapSequenceHandlers;
-                mike['handlers'] = tango;
-                mike['timestamp'] = zulu;
-                entity['_state'] = mike;
+                michal = {};
+                tangon = entity.tapSequenceHandlers;
+                michal['handlers'] = tangon;
+                michal['timestamp'] = zuuluu;
+                entity['_state'] = michal;
  96:
                 entity = entity._state;
                 entity = entity.handlers;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'progressState';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'progressState';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = argFoo;
-                mike = null;
-                entity = mike == zulu;
+                zuuluu = argFoo;
+                michal = null;
+                entity = michal == zuuluu;
                 if(entity) { _fun00004_ip = 44; continue _fun00003 }
  12:
                 entity = {};
-                entity['handlers'] = zulu;
-                zulu = global;
-                tango = zulu.Date;
-                zulu = tango.now;
-                zulu = zulu.bind(tango)();
-                entity['timestamp'] = zulu;
-                mike = entity;
+                entity['handlers'] = zuuluu;
+                zuuluu = global;
+                tangon = zuuluu.Date;
+                zuuluu = tangon.now;
+                zuuluu = zuuluu.bind(tangon)();
+                entity['timestamp'] = zuuluu;
+                michal = entity;
  44:
                 entity = this;
-                entity['_state'] = mike;
+                entity['_state'] = michal;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'handlePress';
-        entity['key'] = oscar;
+        oscard = 'handlePress';
+        entity['key'] = oscard;
         report = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
-                tango = this;
-                mike = tango.getState;
-                options = mike.bind(tango)(entity);
-                zulu = tango.progressState;
-                golf = options[entity];
-                mike = null;
-                oscar = mike == golf;
+                tangon = this;
+                michal = tangon.getState;
+                option = michal.bind(tangon)(entity);
+                zuuluu = tangon.progressState;
+                golfie = option[entity];
+                michal = null;
+                oscard = michal == golfie;
                 entity = undefined;
                 report = undefined;
-                if(oscar) { _fun00006_ip = 52; continue _fun00005 }
+                if(oscard) { _fun00006_ip = 52; continue _fun00005 }
  42:
-                oscar = golf.call;
-                report = oscar.bind(golf)(options);
+                oscard = golfie.call;
+                report = oscard.bind(golfie)(option);
  52:
-                oscar = mike != report;
-                mike = undefined;
-                if(!oscar) { _fun00006_ip = 64; continue _fun00005 }
+                oscard = michal != report;
+                michal = undefined;
+                if(!oscard) { _fun00006_ip = 64; continue _fun00005 }
  61:
-                mike = report;
+                michal = report;
  64:
-                mike = zulu.bind(tango)(mike);
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[3] = entity;
+        michal[3] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    var _closure1_slot7 = tango;
-    oscar = 4;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'lib/TapSequencer.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['TapSequencerPressType'] = report;
-    zulu['TapSequencer'] = tango;
-    mike = function(argFoo) { // Original name: useTapSequencer
+    tangon = tangon.bind(entity)();
+    var _closure1_slot7 = tangon;
+    oscard = 4;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'lib/TapSequencer.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['TapSequencerPressType'] = report;
+    zuuluu['TapSequencer'] = tangon;
+    michal = function(argFoo) { // Original name: useTapSequencer
         entity = argFoo;
         var _closure2_slot0 = entity;
         report = _closure1_slot3;
-        tango = undefined;
+        tangon = undefined;
         entity = function() {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zulu = _closure1_slot7;
+                zuuluu = _closure1_slot7;
                 entity = _closure2_slot0;
-                tango = 'function';
+                tangon = 'function';
                 entity = typeof entity;
-                if(!(tango !== entity)) { _fun00008_ip = 31; continue _fun00007 }
+                if(!(tangon !== entity)) { _fun00008_ip = 31; continue _fun00007 }
  25:
                 entity = _closure2_slot0;
                 _fun00008_ip = 41; continue _fun00007;
  31:
-                tango = _closure2_slot0;
-                mike = undefined;
-                entity = tango.bind(mike)();
+                tangon = _closure2_slot0;
+                michal = undefined;
+                entity = tangon.bind(michal)();
  41:
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                oscar = mike;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                oscard = michal;
                 report = entity;
-                entity = new oscar[zulu](report, tango);
-                entity = entity instanceof Object ? entity : mike;
+                entity = new oscard[zuuluu](report, tangon);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
         };
-        oscar = report.bind(tango)(entity);
+        oscard = report.bind(tangon)(entity);
         report = _closure1_slot0;
         entity = 1;
-        report = report.bind(tango)(oscar, entity);
+        report = report.bind(tangon)(oscard, entity);
         entity = 0;
         entity = report[entity];
         var _closure2_slot1 = entity;
-        zulu = _closure1_slot4;
-        mike = function() {
+        zuuluu = _closure1_slot4;
+        michal = function() {
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                zulu = _closure2_slot1;
-                mike = zulu.setTapSequenceHandlers;
+                zuuluu = _closure2_slot1;
+                michal = zuuluu.setTapSequenceHandlers;
                 entity = _closure2_slot0;
                 report = 'function';
                 entity = typeof entity;
@@ -253,17 +253,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 _fun00010_ip = 46; continue _fun00009;
  36:
                 report = _closure2_slot0;
-                tango = undefined;
-                entity = report.bind(tango)();
+                tangon = undefined;
+                entity = report.bind(tangon)();
  46:
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             }
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['useTapSequencer'] = mike;
+    zuuluu['useTapSequencer'] = michal;
     return entity;
 })();

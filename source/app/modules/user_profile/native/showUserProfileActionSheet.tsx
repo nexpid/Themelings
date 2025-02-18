@@ -1,212 +1,212 @@
 // app/modules/user_profile/native/showUserProfileActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
     offset = argBaz;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
     report = function(argFoo) { // Original name: getUserProfileActionSheetKey
         entity = global;
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = 'UserProfile';
+        zuuluu = entity.concat;
+        michal = 'UserProfile';
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
     var _closure1_slot4 = report;
-    tango = function(argFoo) { // Original name: getUserProfileBlockedSpeedBumpActionSheetKey
+    tangon = function(argFoo) { // Original name: getUserProfileBlockedSpeedBumpActionSheetKey
         entity = global;
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = 'UserProfileBlockedSpeedBump';
+        zuuluu = entity.concat;
+        michal = 'UserProfileBlockedSpeedBump';
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    var _closure1_slot5 = tango;
-    mike = function(argFoo) { // Original name: getUserProfileIgnoredSpeedBumpActionSheetKey
+    var _closure1_slot5 = tangon;
+    michal = function(argFoo) { // Original name: getUserProfileIgnoredSpeedBumpActionSheetKey
         entity = global;
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = 'UserProfileIgnoredSpeedBump';
+        zuuluu = entity.concat;
+        michal = 'UserProfileIgnoredSpeedBump';
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    var _closure1_slot6 = mike;
+    var _closure1_slot6 = michal;
     entity = global;
-    romeo = entity.Object;
-    yankee = romeo.defineProperty;
-    golf = {};
+    romeon = entity.Object;
+    yankee = romeon.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeo)(zulu, entity, golf);
+    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
     entity = 0;
-    golf = verify[entity];
+    golfie = verify[entity];
     entity = undefined;
-    golf = offset.bind(entity)(golf);
-    var _closure1_slot3 = golf;
-    golf = 9;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/user_profile/native/showUserProfileActionSheet.tsx';
-    golf = options.bind(verify)(golf);
-    oscar = function(argFoo) { // Original name: showUserProfileActionSheet
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
+    golfie = 9;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/user_profile/native/showUserProfileActionSheet.tsx';
+    golfie = option.bind(verify)(golfie);
+    oscard = function(argFoo) { // Original name: showUserProfileActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            golfie = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tango.bind(entity)(zulu);
-            tango = report.isEligibleForUserProfileBlockerSkeleton;
-            zulu = {};
-            options = golf.location;
-            oscar = null;
-            verify = oscar != options;
-            oscar = 'UserProfileActionSheet';
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.isEligibleForUserProfileBlockerSkeleton;
+            zuuluu = {};
+            option = golfie.location;
+            oscard = null;
+            verify = oscard != option;
+            oscard = 'UserProfileActionSheet';
             if(!verify) { _fun00002_ip = 59; continue _fun00001 }
  56:
-            oscar = options;
+            oscard = option;
  59:
-            zulu['location'] = oscar;
-            tango = tango.bind(report)(zulu);
-            oscar = _closure1_slot0;
-            options = _closure1_slot2;
-            zulu = 2;
-            zulu = options[zulu];
-            verify = oscar.bind(entity)(zulu);
+            zuuluu['location'] = oscard;
+            tangon = tangon.bind(report)(zuuluu);
+            oscard = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = option[zuuluu];
+            verify = oscard.bind(entity)(zuuluu);
             report = verify.isEligibleForStealthRemediation;
-            zulu = {};
+            zuuluu = {};
             offset = 'show-user-profile-action-sheet';
-            zulu['location'] = offset;
-            report = report.bind(verify)(zulu);
-            zulu = 3;
-            zulu = options[zulu];
-            zulu = oscar.bind(entity)(zulu);
-            oscar = zulu.IgnoreProfileSpeedbumpDisabled;
-            zulu = oscar.getSetting;
-            zulu = zulu.bind(oscar)();
-            if(!tango) { _fun00002_ip = 435; continue _fun00001 }
+            zuuluu['location'] = offset;
+            report = report.bind(verify)(zuuluu);
+            zuuluu = 3;
+            zuuluu = option[zuuluu];
+            zuuluu = oscard.bind(entity)(zuuluu);
+            oscard = zuuluu.IgnoreProfileSpeedbumpDisabled;
+            zuuluu = oscard.getSetting;
+            zuuluu = zuuluu.bind(oscard)();
+            if(!tangon) { _fun00002_ip = 435; continue _fun00001 }
  145:
-            tango = golf.ignoreBlockedSpeedBump;
-            if(tango) { _fun00002_ip = 435; continue _fun00001 }
+            tangon = golfie.ignoreBlockedSpeedBump;
+            if(tangon) { _fun00002_ip = 435; continue _fun00001 }
  157:
-            options = _closure1_slot3;
-            oscar = options.isBlocked;
-            tango = golf.userId;
-            verify = oscar.bind(options)(tango);
-            oscar = options.isIgnored;
-            tango = golf.userId;
-            tango = oscar.bind(options)(tango);
+            option = _closure1_slot3;
+            oscard = option.isBlocked;
+            tangon = golfie.userId;
+            verify = oscard.bind(option)(tangon);
+            oscard = option.isIgnored;
+            tangon = golfie.userId;
+            tangon = oscard.bind(option)(tangon);
             if(report) { _fun00002_ip = 294; continue _fun00001 }
  196:
             if(!verify) { _fun00002_ip = 294; continue _fun00001 }
  199:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot2;
-            oscar = 5;
-            oscar = offset[oscar];
-            yankee = options.bind(entity)(oscar);
-            oscar = 4;
-            options = offset[oscar];
-            oscar = offset.paths;
-            romeo = yankee.bind(entity)(options, oscar);
-            options = _closure1_slot1;
-            oscar = 6;
-            oscar = offset[oscar];
-            yankee = options.bind(entity)(oscar);
+            oscard = 5;
+            oscard = offset[oscard];
+            yankee = option.bind(entity)(oscard);
+            oscard = 4;
+            option = offset[oscard];
+            oscard = offset.paths;
+            romeon = yankee.bind(entity)(option, oscard);
+            option = _closure1_slot1;
+            oscard = 6;
+            oscard = offset[oscard];
+            yankee = option.bind(entity)(oscard);
             offset = yankee.openLazy;
-            options = _closure1_slot5;
-            oscar = golf.userId;
-            kilo = options.bind(entity)(oscar);
-            foxtrot = 'replaceAll';
+            option = _closure1_slot5;
+            oscard = golfie.userId;
+            kiloes = option.bind(entity)(oscard);
+            foxtra = 'replaceAll';
             output = yankee;
-            sizing = romeo;
-            backup = golf;
-            oscar = output[offset](sizing, kilo, backup, foxtrot, romeo);
-            oscar = undefined;
-            return oscar;
+            sizing = romeon;
+            backup = golfie;
+            oscard = output[offset](sizing, kiloes, backup, foxtra, romeon);
+            oscard = undefined;
+            return oscard;
  294:
             if(!report) { _fun00002_ip = 435; continue _fun00001 }
  300:
-            if(tango) { _fun00002_ip = 309; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 309; continue _fun00001 }
  303:
             if(!verify) { _fun00002_ip = 435; continue _fun00001 }
  309:
             if(!report) { _fun00002_ip = 318; continue _fun00001 }
  312:
-            if(!tango) { _fun00002_ip = 318; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 318; continue _fun00001 }
  315:
-            if(zulu) { _fun00002_ip = 435; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 435; continue _fun00001 }
  318:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 5;
-            zulu = report[zulu];
-            oscar = tango.bind(entity)(zulu);
-            zulu = 7;
-            tango = report[zulu];
-            zulu = report.paths;
-            options = oscar.bind(entity)(tango, zulu);
-            tango = _closure1_slot1;
-            zulu = 6;
-            zulu = report[zulu];
-            oscar = tango.bind(entity)(zulu);
-            report = oscar.openLazy;
-            tango = _closure1_slot6;
-            zulu = golf.userId;
-            tango = tango.bind(entity)(zulu);
-            zulu = {};
-            sizing = zulu;
-            kilo = golf;
-            offset = copyDataProperties(sizing, kilo);
+            zuuluu = 5;
+            zuuluu = report[zuuluu];
+            oscard = tangon.bind(entity)(zuuluu);
+            zuuluu = 7;
+            tangon = report[zuuluu];
+            zuuluu = report.paths;
+            option = oscard.bind(entity)(tangon, zuuluu);
+            tangon = _closure1_slot1;
+            zuuluu = 6;
+            zuuluu = report[zuuluu];
+            oscard = tangon.bind(entity)(zuuluu);
+            report = oscard.openLazy;
+            tangon = _closure1_slot6;
+            zuuluu = golfie.userId;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = {};
+            sizing = zuuluu;
+            kiloes = golfie;
+            offset = copyDataProperties(sizing, kiloes);
             offset = 'ignore';
             if(!verify) { _fun00002_ip = 415; continue _fun00001 }
  411:
             offset = 'block';
  415:
             verify = 'speedBumpType';
-            zulu[verify] = offset;
-            zulu = report.bind(oscar)(options, tango, zulu);
-            zulu = undefined;
-            return zulu;
+            zuuluu[verify] = offset;
+            zuuluu = report.bind(oscard)(option, tangon, zuuluu);
+            zuuluu = undefined;
+            return zuuluu;
  435:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 5;
-            zulu = report[zulu];
-            oscar = tango.bind(entity)(zulu);
-            zulu = 8;
-            tango = report[zulu];
-            zulu = report.paths;
-            oscar = oscar.bind(entity)(tango, zulu);
-            tango = _closure1_slot1;
-            zulu = 6;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.openLazy;
-            zulu = _closure1_slot4;
-            mike = golf.userId;
-            kilo = zulu.bind(entity)(mike);
-            foxtrot = 'replaceAll';
+            zuuluu = 5;
+            zuuluu = report[zuuluu];
+            oscard = tangon.bind(entity)(zuuluu);
+            zuuluu = 8;
+            tangon = report[zuuluu];
+            zuuluu = report.paths;
+            oscard = oscard.bind(entity)(tangon, zuuluu);
+            tangon = _closure1_slot1;
+            zuuluu = 6;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.openLazy;
+            zuuluu = _closure1_slot4;
+            michal = golfie.userId;
+            kiloes = zuuluu.bind(entity)(michal);
+            foxtra = 'replaceAll';
             output = report;
-            sizing = oscar;
-            backup = golf;
-            mike = output[tango](sizing, kilo, backup, foxtrot, romeo);
+            sizing = oscard;
+            backup = golfie;
+            michal = output[tangon](sizing, kiloes, backup, foxtra, romeon);
             return entity;
         }
     };
-    zulu['default'] = oscar;
-    zulu['getUserProfileActionSheetKey'] = report;
-    zulu['getUserProfileBlockedSpeedBumpActionSheetKey'] = tango;
-    zulu['getUserProfileIgnoredSpeedBumpActionSheetKey'] = mike;
+    zuuluu['default'] = oscard;
+    zuuluu['getUserProfileActionSheetKey'] = report;
+    zuuluu['getUserProfileBlockedSpeedBumpActionSheetKey'] = tangon;
+    zuuluu['getUserProfileIgnoredSpeedBumpActionSheetKey'] = michal;
     return entity;
 })();

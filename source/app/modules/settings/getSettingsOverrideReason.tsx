@@ -1,77 +1,77 @@
 // app/modules/settings/getSettingsOverrideReason.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.SettingsOverrideReasonKeys;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/settings/getSettingsOverrideReason.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getSettingsOverrideReason
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SettingsOverrideReasonKeys;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/settings/getSettingsOverrideReason.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getSettingsOverrideReason
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot2;
-            mike = mike.REDUCED_MOTION;
-            if(!(mike !== zulu)) { _fun00002_ip = 99; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = _closure1_slot2;
+            michal = michal.REDUCED_MOTION;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 99; continue _fun00001 }
  20:
-            mike = _closure1_slot2;
-            mike = mike.REDUCED_MOTION_STICKERS;
-            if(!(mike !== zulu)) { _fun00002_ip = 38; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.REDUCED_MOTION_STICKERS;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
  34:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  38:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 1;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 1;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.2ExvRk;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.2ExvRk;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  99:
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             entity = 1;
-            zulu = oscar[entity];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            tango = zulu.intl;
-            zulu = tango.format;
-            entity = oscar[entity];
-            entity = report.bind(mike)(entity);
+            zuuluu = oscard[entity];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.format;
+            entity = oscard[entity];
+            entity = report.bind(michal)(entity);
             entity = entity.t;
-            mike = entity.1dT9V1;
+            michal = entity.1dT9V1;
             entity = {};
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

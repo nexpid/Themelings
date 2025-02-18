@@ -1,80 +1,80 @@
 // app/modules/stage_channels/StageChannelHeightHooks.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/StageChannelHeightHooks.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useGetStageRTCPanelHeight
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/StageChannelHeightHooks.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useGetStageRTCPanelHeight
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             entity = _closure1_slot1;
-            mike = 0;
-            zulu = entity[mike];
-            tango = undefined;
-            golf = oscar.bind(tango)(zulu);
-            zulu = golf.useStageBlockedUsersCount;
-            zulu = zulu.bind(golf)(report);
-            entity = entity[mike];
-            tango = oscar.bind(tango)(entity);
-            entity = tango.useStageIgnoredUsersCount;
-            entity = entity.bind(tango)(report);
-            if(!(!(zulu > mike))) { _fun00002_ip = 72; continue _fun00001 }
+            michal = 0;
+            zuuluu = entity[michal];
+            tangon = undefined;
+            golfie = oscard.bind(tangon)(zuuluu);
+            zuuluu = golfie.useStageBlockedUsersCount;
+            zuuluu = zuuluu.bind(golfie)(report);
+            entity = entity[michal];
+            tangon = oscard.bind(tangon)(entity);
+            entity = tangon.useStageIgnoredUsersCount;
+            entity = entity.bind(tangon)(report);
+            if(!(!(zuuluu > michal))) { _fun00002_ip = 72; continue _fun00001 }
  62:
-            mike = entity > mike;
+            michal = entity > michal;
             entity = 68;
-            if(!mike) { _fun00002_ip = 75; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 75; continue _fun00001 }
  72:
             entity = 88;
  75:
             return entity;
         }
     };
-    zulu['useGetStageRTCPanelHeight'] = tango;
-    mike = function(argFoo) { // Original name: useGetActionBarHeight
+    zuuluu['useGetStageRTCPanelHeight'] = tangon;
+    michal = function(argFoo) { // Original name: useGetActionBarHeight
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             entity = _closure1_slot1;
-            mike = 0;
-            zulu = entity[mike];
-            tango = undefined;
-            golf = oscar.bind(tango)(zulu);
-            zulu = golf.useStageBlockedUsersCount;
-            zulu = zulu.bind(golf)(report);
-            entity = entity[mike];
-            tango = oscar.bind(tango)(entity);
-            entity = tango.useStageIgnoredUsersCount;
-            entity = entity.bind(tango)(report);
-            if(!(!(zulu > mike))) { _fun00004_ip = 72; continue _fun00003 }
+            michal = 0;
+            zuuluu = entity[michal];
+            tangon = undefined;
+            golfie = oscard.bind(tangon)(zuuluu);
+            zuuluu = golfie.useStageBlockedUsersCount;
+            zuuluu = zuuluu.bind(golfie)(report);
+            entity = entity[michal];
+            tangon = oscard.bind(tangon)(entity);
+            entity = tangon.useStageIgnoredUsersCount;
+            entity = entity.bind(tangon)(report);
+            if(!(!(zuuluu > michal))) { _fun00004_ip = 72; continue _fun00003 }
  62:
-            mike = entity > mike;
+            michal = entity > michal;
             entity = 112;
-            if(!mike) { _fun00004_ip = 75; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 75; continue _fun00003 }
  72:
             entity = 132;
  75:
             return entity;
         }
     };
-    zulu['useGetActionBarHeight'] = mike;
+    zuuluu['useGetActionBarHeight'] = michal;
     return entity;
 })();

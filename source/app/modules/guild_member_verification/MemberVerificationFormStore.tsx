@@ -1,43 +1,43 @@
 // app/modules/guild_member_verification/MemberVerificationFormStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot6;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot6;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot5;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot5;
             entity = _closure1_slot11;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot6;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -46,114 +46,114 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = mike;
+            _closure1_slot11 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
-    tango = verify.defineProperty;
-    mike = {};
+    tangon = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(verify)(zulu, entity, mike);
+    entity = tangon.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    mike = options.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = golf[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    mike = 3;
-    mike = golf[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot6 = mike;
-    mike = 4;
-    mike = golf[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot7 = mike;
-    mike = {'version': '', 'description': ''};
-    tango = new Array(0);
-    mike['formFields'] = tango;
-    var _closure1_slot8 = mike;
-    tango = {};
-    var _closure1_slot9 = tango;
-    tango = 7;
-    tango = golf[tango];
-    tango = options.bind(entity)(tango);
-    verify = tango.Store;
-    tango = function(argFoo) {
-        tango = function() { // Original name: MemberVerificationFormStore
+    michal = option.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    michal = 3;
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot6 = michal;
+    michal = 4;
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot7 = michal;
+    michal = {'version': '', 'description': ''};
+    tangon = new Array(0);
+    michal['formFields'] = tangon;
+    var _closure1_slot8 = michal;
+    tangon = {};
+    var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = golfie[tangon];
+    tangon = option.bind(entity)(tangon);
+    verify = tangon.Store;
+    tangon = function(argFoo) {
+        tangon = function() { // Original name: MemberVerificationFormStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot3;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot10;
+            oscard = _closure1_slot3;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot10;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot7;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot4;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot4;
         report = {};
         entity = 'get';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = null;
-                if(!(entity == mike)) { _fun00006_ip = 13; continue _fun00005 }
+                if(!(entity == michal)) { _fun00006_ip = 13; continue _fun00005 }
  9:
                 entity = undefined;
                 return entity;
  13:
                 entity = _closure1_slot9;
-                entity = entity[mike];
+                entity = entity[michal];
                 return entity;
             }
         };
@@ -161,173 +161,173 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(2);
         entity[0] = report;
         report = {};
-        golf = 'getRulesPrompt';
-        report['key'] = golf;
-        oscar = function(argFoo) { // Original name: value
+        golfie = 'getRulesPrompt';
+        report['key'] = golfie;
+        oscard = function(argFoo) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zulu = _closure1_slot1;
-                tango = _closure1_slot2;
-                mike = 5;
-                mike = tango[mike];
-                oscar = undefined;
-                tango = zulu.bind(oscar)(mike);
-                zulu = tango.find;
+                zuuluu = _closure1_slot1;
+                tangon = _closure1_slot2;
+                michal = 5;
+                michal = tangon[michal];
+                oscard = undefined;
+                tangon = zuuluu.bind(oscard)(michal);
+                zuuluu = tangon.find;
                 report = _closure1_slot9;
-                mike = argFoo;
-                report = report[mike];
-                mike = null;
-                golf = mike == report;
-                mike = undefined;
-                if(golf) { _fun00008_ip = 58; continue _fun00007 }
+                michal = argFoo;
+                report = report[michal];
+                michal = null;
+                golfie = michal == report;
+                michal = undefined;
+                if(golfie) { _fun00008_ip = 58; continue _fun00007 }
  52:
-                mike = report.formFields;
+                michal = report.formFields;
  58:
                 report = _closure1_slot0;
-                golf = _closure1_slot2;
+                golfie = _closure1_slot2;
                 entity = 6;
-                entity = golf[entity];
-                entity = report.bind(oscar)(entity);
+                entity = golfie[entity];
+                entity = report.bind(oscard)(entity);
                 entity = entity.isTermsFormField;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             }
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[1] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    verify = tango.bind(entity)(verify);
-    tango = 'MemberVerificationFormStore';
-    verify['displayName'] = tango;
-    tango = 8;
-    tango = golf[tango];
-    foxtrot = options.bind(entity)(tango);
-    tango = {};
+    verify = tangon.bind(entity)(verify);
+    tangon = 'MemberVerificationFormStore';
+    verify['displayName'] = tangon;
+    tangon = 8;
+    tangon = golfie[tangon];
+    foxtra = option.bind(entity)(tangon);
+    tangon = {};
     offset = function(argFoo) { // Original name: handleInviteData
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             entity = entity.invite;
-            oscar = entity.member_verification_form;
+            oscard = entity.member_verification_form;
             report = entity.guild;
-            golf = null;
-            entity = golf != report;
+            golfie = null;
+            entity = golfie != report;
             if(!entity) { _fun00010_ip = 35; continue _fun00009 }
  31:
-            entity = golf != oscar;
+            entity = golfie != oscard;
  35:
             if(!entity) { _fun00010_ip = 107; continue _fun00009 }
  38:
-            tango = _closure1_slot9;
-            zulu = report.id;
-            mike = {};
-            options = oscar.version;
-            mike['version'] = options;
-            options = oscar.description;
-            verify = golf != options;
-            golf = '';
+            tangon = _closure1_slot9;
+            zuuluu = report.id;
+            michal = {};
+            option = oscard.version;
+            michal['version'] = option;
+            option = oscard.description;
+            verify = golfie != option;
+            golfie = '';
             if(!verify) { _fun00010_ip = 82; continue _fun00009 }
  79:
-            golf = options;
+            golfie = option;
  82:
-            mike['description'] = golf;
-            oscar = oscar.form_fields;
-            mike['formFields'] = oscar;
-            mike['guild'] = report;
-            tango[zulu] = mike;
+            michal['description'] = golfie;
+            oscard = oscard.form_fields;
+            michal['formFields'] = oscard;
+            michal['guild'] = report;
+            tangon[zuuluu] = michal;
             entity = true;
  107:
             return entity;
         }
     };
-    tango['INVITE_ACCEPT_SUCCESS'] = offset;
+    tangon['INVITE_ACCEPT_SUCCESS'] = offset;
     offset = function(argFoo) { // Original name: handleVerificationFormUpdate
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            tango = entity.form;
-            zulu = entity.guildId;
-            mike = null;
-            if(!(mike != tango)) { _fun00012_ip = 71; continue _fun00011 }
+            tangon = entity.form;
+            zuuluu = entity.guildId;
+            michal = null;
+            if(!(michal != tangon)) { _fun00012_ip = 71; continue _fun00011 }
  20:
             report = _closure1_slot9;
-            report = report[zulu];
-            if(!(mike == report)) { _fun00012_ip = 39; continue _fun00011 }
+            report = report[zuuluu];
+            if(!(michal == report)) { _fun00012_ip = 39; continue _fun00011 }
  35:
             report = _closure1_slot8;
  39:
-            mike = _closure1_slot9;
+            michal = _closure1_slot9;
             entity = {};
-            golf = entity;
-            oscar = report;
-            report = copyDataProperties(golf, oscar);
-            golf = entity;
-            oscar = tango;
-            tango = copyDataProperties(golf, oscar);
-            mike[zulu] = entity;
+            golfie = entity;
+            oscard = report;
+            report = copyDataProperties(golfie, oscard);
+            golfie = entity;
+            oscard = tangon;
+            tangon = copyDataProperties(golfie, oscard);
+            michal[zuuluu] = entity;
             _fun00012_ip = 86; continue _fun00011;
  71:
-            mike = _closure1_slot9;
+            michal = _closure1_slot9;
             entity = _closure1_slot8;
-            mike[zulu] = entity;
+            michal[zuuluu] = entity;
  86:
             entity = undefined;
             return entity;
         }
     };
-    tango['MEMBER_VERIFICATION_FORM_UPDATE'] = offset;
+    tangon['MEMBER_VERIFICATION_FORM_UPDATE'] = offset;
     offset = function(argFoo) { // Original name: handleVerificationFormFetchFail
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
-            zulu = entity.guildId;
-            mike = _closure1_slot9;
-            entity = mike[zulu];
+            zuuluu = entity.guildId;
+            michal = _closure1_slot9;
+            entity = michal[zuuluu];
             report = null;
             if(!(report == entity)) { _fun00014_ip = 29; continue _fun00013 }
  25:
             entity = _closure1_slot8;
  29:
-            mike[zulu] = entity;
+            michal[zuuluu] = entity;
             entity = undefined;
             return entity;
         }
     };
-    tango['MEMBER_VERIFICATION_FORM_FETCH_FAIL'] = offset;
+    tangon['MEMBER_VERIFICATION_FORM_FETCH_FAIL'] = offset;
     report = function(argFoo) { // Original name: handleGuildDelete
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            tango = entity.guild;
-            zulu = _closure1_slot9;
+            tangon = entity.guild;
+            zuuluu = _closure1_slot9;
             entity = null;
-            report = entity == tango;
+            report = entity == tangon;
             entity = undefined;
-            mike = undefined;
+            michal = undefined;
             if(report) { _fun00016_ip = 33; continue _fun00015 }
  28:
-            mike = tango.id;
+            michal = tangon.id;
  33:
-            mike = delete zulu[mike];
+            michal = delete zuuluu[michal];
             return entity;
         }
     };
-    tango['GUILD_DELETE'] = report;
+    tangon['GUILD_DELETE'] = report;
     report = verify.prototype;
     report = Object.create(report, {constructor: {value: verify}});
     backup = report;
-    romeo = tango;
-    tango = new backup[verify](foxtrot, romeo, yankee);
-    tango = tango instanceof Object ? tango : report;
+    romeon = tangon;
+    tangon = new backup[verify](foxtra, romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : report;
     report = 9;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_member_verification/MemberVerificationFormStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['NO_MEMBER_VERIFICATION_FORM'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['NO_MEMBER_VERIFICATION_FORM'] = michal;
     return entity;
 })();

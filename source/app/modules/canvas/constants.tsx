@@ -1,26 +1,26 @@
 // app/modules/canvas/constants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/canvas/constants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 12;
-    zulu['TEXT_TRUNCATION_PADDING_PX'] = mike;
-    mike = 24;
-    zulu['DEFAULT_FONT_SIZE'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/canvas/constants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 12;
+    zuuluu['TEXT_TRUNCATION_PADDING_PX'] = michal;
+    michal = 24;
+    zuuluu['DEFAULT_FONT_SIZE'] = michal;
     return entity;
 })();

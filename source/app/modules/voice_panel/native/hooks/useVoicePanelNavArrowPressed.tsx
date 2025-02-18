@@ -1,75 +1,75 @@
 // app/modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.VoicePanelControlsModes;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useVoicePanelNavArrowPressed
-        tango = _closure1_slot2;
-        zulu = tango.useContext;
-        oscar = _closure1_slot0;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoicePanelControlsModes;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useVoicePanelNavArrowPressed
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useContext;
+        oscard = _closure1_slot0;
         report = _closure1_slot1;
-        mike = 2;
-        report = report[mike];
-        mike = undefined;
-        mike = oscar.bind(mike)(report);
-        mike = zulu.bind(tango)(mike);
-        options = mike.focused;
-        var _closure2_slot0 = options;
-        report = mike.setFocused;
+        michal = 2;
+        report = report[michal];
+        michal = undefined;
+        michal = oscard.bind(michal)(report);
+        michal = zuuluu.bind(tangon)(michal);
+        option = michal.focused;
+        var _closure2_slot0 = option;
+        report = michal.setFocused;
         var _closure2_slot1 = report;
-        oscar = mike.dismissPanel;
-        var _closure2_slot2 = oscar;
-        golf = mike.controlsSpecs;
-        var _closure2_slot3 = golf;
-        zulu = tango.useCallback;
-        mike = new Array(4);
-        mike[0] = options;
-        mike[1] = golf;
-        mike[2] = oscar;
-        mike[3] = report;
+        oscard = michal.dismissPanel;
+        var _closure2_slot2 = oscard;
+        golfie = michal.controlsSpecs;
+        var _closure2_slot3 = golfie;
+        zuuluu = tangon.useCallback;
+        michal = new Array(4);
+        michal[0] = option;
+        michal[1] = golfie;
+        michal[2] = oscard;
+        michal[3] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
-                entity = zulu.get;
-                report = entity.bind(zulu)();
-                tango = null;
-                oscar = tango == report;
-                zulu = undefined;
+                zuuluu = _closure2_slot0;
+                entity = zuuluu.get;
+                report = entity.bind(zuuluu)();
+                tangon = null;
+                oscard = tangon == report;
+                zuuluu = undefined;
                 entity = undefined;
-                if(oscar) { _fun00002_ip = 34; continue _fun00001 }
+                if(oscard) { _fun00002_ip = 34; continue _fun00001 }
  29:
                 entity = report.id;
  34:
-                if(!(tango != entity)) { _fun00002_ip = 73; continue _fun00001 }
+                if(!(tangon != entity)) { _fun00002_ip = 73; continue _fun00001 }
  38:
                 report = _closure2_slot3;
                 entity = report.get;
@@ -80,19 +80,19 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 if(!(report === entity)) { _fun00002_ip = 83; continue _fun00001 }
  73:
                 entity = _closure2_slot2;
-                entity = entity.bind(zulu)();
+                entity = entity.bind(zuuluu)();
                 _fun00002_ip = 94; continue _fun00001;
  83:
-                mike = _closure2_slot1;
-                mike = mike.bind(zulu)(tango);
+                michal = _closure2_slot1;
+                michal = michal.bind(zuuluu)(tangon);
                 entity = true;
  94:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

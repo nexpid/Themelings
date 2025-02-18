@@ -1,117 +1,117 @@
 // app/modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PixelRatio;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GUILD_ITEM_SIZE;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.BADGE_PADDING;
-    var _closure1_slot4 = golf;
-    tango = tango.BADGE_SIZE;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: computeGuildsBarCutout
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PixelRatio;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GUILD_ITEM_SIZE;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.BADGE_PADDING;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.BADGE_SIZE;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: computeGuildsBarCutout
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.position;
-            tango = entity.containerSize;
+            golfie = entity.position;
+            tangon = entity.containerSize;
             offset = undefined;
-            if(!(tango === offset)) { _fun00002_ip = 27; continue _fun00001 }
+            if(!(tangon === offset)) { _fun00002_ip = 27; continue _fun00001 }
  20:
-            tango = _closure1_slot3;
+            tangon = _closure1_slot3;
  27:
             report = entity.width;
             if(!(report === offset)) { _fun00002_ip = 43; continue _fun00001 }
  36:
             report = _closure1_slot5;
  43:
-            oscar = entity.height;
-            if(!(oscar === offset)) { _fun00002_ip = 59; continue _fun00001 }
+            oscard = entity.height;
+            if(!(oscard === offset)) { _fun00002_ip = 59; continue _fun00001 }
  52:
-            oscar = _closure1_slot5;
+            oscard = _closure1_slot5;
  59:
-            mike = entity.padding;
-            if(!(mike === offset)) { _fun00002_ip = 75; continue _fun00001 }
+            michal = entity.padding;
+            if(!(michal === offset)) { _fun00002_ip = 75; continue _fun00001 }
  68:
-            mike = _closure1_slot4;
+            michal = _closure1_slot4;
  75:
             verify = _closure1_slot2;
-            zulu = verify.roundToNearestPixel;
+            zuuluu = verify.roundToNearestPixel;
             yankee = 2;
-            entity = yankee * mike;
+            entity = yankee * michal;
             entity = report + entity;
-            zulu = zulu.bind(verify)(entity);
+            zuuluu = zuuluu.bind(verify)(entity);
             report = verify.roundToNearestPixel;
-            entity = yankee * mike;
-            entity = oscar + entity;
+            entity = yankee * michal;
+            entity = oscard + entity;
             report = report.bind(verify)(entity);
-            oscar = verify.roundToNearestPixel;
+            oscard = verify.roundToNearestPixel;
             entity = global;
-            romeo = entity.Math;
-            entity = romeo.min;
-            entity = entity.bind(romeo)(zulu, report);
+            romeon = entity.Math;
+            entity = romeon.min;
+            entity = entity.bind(romeon)(zuuluu, report);
             entity = entity / yankee;
-            oscar = oscar.bind(verify)(entity);
+            oscard = oscard.bind(verify)(entity);
             entity = {'shape': null, 'x': 0, 'y': 0};
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
-            options = 3;
-            options = yankee[options];
-            options = verify.bind(offset)(options);
-            options = options.CutoutShape;
-            options = options.RoundedRect;
-            entity['shape'] = options;
-            entity['width'] = zulu;
+            option = 3;
+            option = yankee[option];
+            option = verify.bind(offset)(option);
+            option = option.CutoutShape;
+            option = option.RoundedRect;
+            entity['shape'] = option;
+            entity['width'] = zuuluu;
             entity['height'] = report;
-            entity['cornerRadius'] = oscar;
-            oscar = 'top-right';
-            if(!(oscar !== golf)) { _fun00002_ip = 258; continue _fun00001 }
+            entity['cornerRadius'] = oscard;
+            oscard = 'top-right';
+            if(!(oscard !== golfie)) { _fun00002_ip = 258; continue _fun00001 }
  228:
-            oscar = tango - zulu;
-            oscar = oscar + mike;
-            entity['x'] = oscar;
-            report = tango - report;
-            report = report + mike;
+            oscard = tangon - zuuluu;
+            oscard = oscard + michal;
+            entity['x'] = oscard;
+            report = tangon - report;
+            report = report + michal;
             entity['y'] = report;
             _fun00002_ip = 281; continue _fun00001;
  258:
-            zulu = tango - zulu;
-            zulu = zulu + mike;
-            entity['x'] = zulu;
-            mike = -mike;
-            entity['y'] = mike;
+            zuuluu = tangon - zuuluu;
+            zuuluu = zuuluu + michal;
+            entity['x'] = zuuluu;
+            michal = -michal;
+            entity['y'] = michal;
  281:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

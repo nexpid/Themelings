@@ -1,92 +1,92 @@
 // app/modules/voice_panel/native/utils/PanelSizeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.VOICE_PANEL_DRAWER_MAX_WIDTH;
-    var _closure1_slot0 = tango;
-    tango = {};
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.VOICE_PANEL_DRAWER_MAX_WIDTH;
+    var _closure1_slot0 = tangon;
+    tangon = {};
     report = 'function getMaxPanelWidth_PanelSizeUtilsTsx1({windowWidth:windowWidth,connected:connected,safeAreaLeft:safeAreaLeft,safeAreaRight:safeAreaRight}){const{VOICE_PANEL_DRAWER_MAX_WIDTH}=this.__closure;return Math.min(windowWidth,connected?windowWidth:Math.min(VOICE_PANEL_DRAWER_MAX_WIDTH,windowWidth-safeAreaLeft-safeAreaRight));}';
-    tango['code'] = report;
-    var _closure1_slot1 = tango;
-    tango = function() {
+    tangon['code'] = report;
+    var _closure1_slot1 = tangon;
+    tangon = function() {
         entity = function(argFoo) { // Original name: getMaxPanelWidth
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                tango = entity.windowWidth;
-                golf = entity.connected;
+                tangon = entity.windowWidth;
+                golfie = entity.connected;
                 report = entity.safeAreaLeft;
                 verify = entity.safeAreaRight;
-                oscar = global;
-                zulu = oscar.Math;
-                mike = zulu.min;
-                entity = tango;
-                if(golf) { _fun00002_ip = 78; continue _fun00001 }
+                oscard = global;
+                zuuluu = oscard.Math;
+                michal = zuuluu.min;
+                entity = tangon;
+                if(golfie) { _fun00002_ip = 78; continue _fun00001 }
  46:
-                options = oscar.Math;
-                golf = options.min;
-                oscar = _closure1_slot0;
-                report = tango - report;
+                option = oscard.Math;
+                golfie = option.min;
+                oscard = _closure1_slot0;
+                report = tangon - report;
                 report = report - verify;
-                entity = golf.bind(options)(oscar, report);
+                entity = golfie.bind(option)(oscard, report);
  78:
-                entity = mike.bind(zulu)(tango, entity);
+                entity = michal.bind(zuuluu)(tangon, entity);
                 return entity;
             }
         };
-        zulu = {};
-        tango = _closure1_slot0;
-        zulu['VOICE_PANEL_DRAWER_MAX_WIDTH'] = tango;
-        entity['__closure'] = zulu;
-        zulu = 6813992446153.0;
-        entity['__workletHash'] = zulu;
-        mike = _closure1_slot1;
-        entity['__initData'] = mike;
+        zuuluu = {};
+        tangon = _closure1_slot0;
+        zuuluu['VOICE_PANEL_DRAWER_MAX_WIDTH'] = tangon;
+        entity['__closure'] = zuuluu;
+        zuuluu = 6813992446153.0;
+        entity['__workletHash'] = zuuluu;
+        michal = _closure1_slot1;
+        entity['__initData'] = michal;
         return entity;
     };
-    tango = tango.bind(entity)();
+    tangon = tangon.bind(entity)();
     report = {};
-    options = 'function getPanelX_PanelSizeUtilsTsx2(windowWidth,width){return(windowWidth-width)/2;}';
-    report['code'] = options;
+    option = 'function getPanelX_PanelSizeUtilsTsx2(windowWidth,width){return(windowWidth-width)/2;}';
+    report['code'] = option;
     var _closure1_slot2 = report;
-    mike = function() {
+    michal = function() {
         entity = function(argFoo, argBar) { // Original name: getPanelX
-            mike = argFoo;
+            michal = argFoo;
             entity = argBar;
-            mike = mike - entity;
+            michal = michal - entity;
             entity = 2;
-            entity = mike / entity;
+            entity = michal / entity;
             return entity;
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 6050807520832.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot2;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 6050807520832.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot2;
+        entity['__initData'] = michal;
         return entity;
     };
-    mike = mike.bind(entity)();
+    michal = michal.bind(entity)();
     report = 1;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/voice_panel/native/utils/PanelSizeUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getMaxPanelWidth'] = tango;
-    zulu['getPanelX'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['getMaxPanelWidth'] = tangon;
+    zuuluu['getPanelX'] = michal;
     return entity;
 })();

@@ -1,338 +1,338 @@
 // app/modules/premium/native/PremiumBundledPlansUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = argBar;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
-    golf = function(argFoo) { // Original name: getPremiumBundleWithPredicate
+    golfie = function(argFoo) { // Original name: getPremiumBundleWithPredicate
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.values;
+        zuuluu = entity.Object;
+        michal = zuuluu.values;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        entity = report.bind(entity)(tango);
+        entity = report.bind(entity)(tangon);
         entity = entity.AppStorePremiumProductIdsToPremiumBundledItems;
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.find;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.find;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot4 = golf;
-    oscar = function(argFoo) { // Original name: getPremiumBundledItemsFromProductId
+    var _closure1_slot4 = golfie;
+    oscard = function(argFoo) { // Original name: getPremiumBundledItemsFromProductId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot1;
+            michal = argFoo;
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             report = 1;
-            zulu = zulu[report];
-            tango = undefined;
-            zulu = oscar.bind(tango)(zulu);
-            zulu = zulu.AppStorePremiumProductIdsToPremiumBundledItems;
-            zulu = mike in zulu;
-            if(zulu) { _fun00002_ip = 93; continue _fun00001 }
+            zuuluu = zuuluu[report];
+            tangon = undefined;
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.AppStorePremiumProductIdsToPremiumBundledItems;
+            zuuluu = michal in zuuluu;
+            if(zuuluu) { _fun00002_ip = 93; continue _fun00001 }
  41:
-            zulu = global;
-            golf = zulu.Error;
-            zulu = zulu.HermesInternal;
-            oscar = zulu.concat;
-            zulu = 'Invalid bundled product ID ';
-            options = oscar.bind(zulu)(mike);
-            oscar = golf.prototype;
-            oscar = Object.create(oscar, {constructor: {value: golf}});
-            verify = oscar;
-            zulu = new verify[golf](options, golf);
-            zulu = zulu instanceof Object ? zulu : oscar;
-            throw zulu;
+            zuuluu = global;
+            golfie = zuuluu.Error;
+            zuuluu = zuuluu.HermesInternal;
+            oscard = zuuluu.concat;
+            zuuluu = 'Invalid bundled product ID ';
+            option = oscard.bind(zuuluu)(michal);
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            verify = oscard;
+            zuuluu = new verify[golfie](option, golfie);
+            zuuluu = zuuluu instanceof Object ? zuuluu : oscard;
+            throw zuuluu;
  93:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[report];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.AppStorePremiumProductIdsToPremiumBundledItems;
-            entity = entity[mike];
+            entity = entity[michal];
             return entity;
         }
     };
-    var _closure1_slot5 = oscar;
+    var _closure1_slot5 = oscard;
     report = function(argFoo) { // Original name: getToggledIntervalProduct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = _closure1_slot5;
-            mike = undefined;
+            tangon = _closure1_slot5;
+            michal = undefined;
             entity = argFoo;
-            entity = tango.bind(mike)(entity);
+            entity = tangon.bind(michal)(entity);
             var _closure2_slot0 = entity;
-            golf = entity.premiumTier;
+            golfie = entity.premiumTier;
             entity = _closure1_slot2;
-            oscar = entity.TIER_1;
-            tango = null;
+            oscard = entity.TIER_1;
+            tangon = null;
             entity = null;
-            if(!(golf !== oscar)) { _fun00004_ip = 79; continue _fun00003 }
+            if(!(golfie !== oscard)) { _fun00004_ip = 79; continue _fun00003 }
  47:
             report = _closure1_slot4;
-            zulu = function(argFoo) {
+            zuuluu = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    mike = argFoo;
-                    tango = mike.numPremiumGuild;
+                    michal = argFoo;
+                    tangon = michal.numPremiumGuild;
                     entity = _closure2_slot0;
                     entity = entity.numPremiumGuild;
-                    entity = tango === entity;
+                    entity = tangon === entity;
                     if(!entity) { _fun00006_ip = 49; continue _fun00005 }
  29:
-                    report = mike.premiumTier;
-                    tango = _closure2_slot0;
-                    tango = tango.premiumTier;
-                    entity = report === tango;
+                    report = michal.premiumTier;
+                    tangon = _closure2_slot0;
+                    tangon = tangon.premiumTier;
+                    entity = report === tangon;
  49:
                     if(!entity) { _fun00006_ip = 72; continue _fun00005 }
  52:
-                    tango = mike.interval;
-                    zulu = _closure2_slot0;
-                    zulu = zulu.interval;
-                    entity = tango !== zulu;
+                    tangon = michal.interval;
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.interval;
+                    entity = tangon !== zuuluu;
  72:
                     if(!entity) { _fun00006_ip = 84; continue _fun00005 }
  75:
-                    mike = mike.isDeprecated;
-                    entity = !mike;
+                    michal = michal.isDeprecated;
+                    entity = !michal;
  84:
                     return entity;
                 }
             };
-            zulu = report.bind(mike)(zulu);
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00004_ip = 76; continue _fun00003 }
+            zuuluu = report.bind(michal)(zuuluu);
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 76; continue _fun00003 }
  70:
-            mike = zulu.productId;
+            michal = zuuluu.productId;
  76:
-            entity = mike;
+            entity = michal;
  79:
             return entity;
         }
     };
     var _closure1_slot6 = report;
-    tango = function(argFoo) { // Original name: isValidBundleProductId
+    tangon = function(argFoo) { // Original name: isValidBundleProductId
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00008_ip = 47; continue _fun00007 }
  12:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            mike = report.bind(mike)(tango);
-            mike = mike.AppStorePremiumProductIdsToPremiumBundledItems;
-            entity = zulu in mike;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            michal = report.bind(michal)(tangon);
+            michal = michal.AppStorePremiumProductIdsToPremiumBundledItems;
+            entity = zuuluu in michal;
  47:
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
-    romeo = entity.Object;
-    yankee = romeo.defineProperty;
-    options = {};
+    romeon = entity.Object;
+    yankee = romeon.defineProperty;
+    option = {};
     entity = true;
-    options['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeo)(zulu, entity, options);
+    entity = yankee.bind(romeon)(zuuluu, entity, option);
     entity = 0;
-    options = offset[entity];
+    option = offset[entity];
     entity = undefined;
-    options = verify.bind(entity)(options);
-    yankee = options.PremiumTypes;
+    option = verify.bind(entity)(option);
+    yankee = option.PremiumTypes;
     var _closure1_slot2 = yankee;
-    options = options.SubscriptionIntervalTypes;
-    var _closure1_slot3 = options;
-    options = 2;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    option = option.SubscriptionIntervalTypes;
+    var _closure1_slot3 = option;
+    option = 2;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/premium/native/PremiumBundledPlansUtils.tsx';
-    options = verify.bind(offset)(options);
-    options = function(argFoo) { // Original name: getPremiumBundlesWithPredicate
+    option = 'modules/premium/native/PremiumBundledPlansUtils.tsx';
+    option = verify.bind(offset)(option);
+    option = function(argFoo) { // Original name: getPremiumBundlesWithPredicate
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.values;
+        zuuluu = entity.Object;
+        michal = zuuluu.values;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        entity = report.bind(entity)(tango);
+        entity = report.bind(entity)(tangon);
         entity = entity.AppStorePremiumProductIdsToPremiumBundledItems;
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.filter;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.filter;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['getPremiumBundlesWithPredicate'] = options;
-    zulu['getPremiumBundleWithPredicate'] = golf;
-    zulu['getPremiumBundledItemsFromProductId'] = oscar;
-    zulu['getToggledIntervalProduct'] = report;
+    zuuluu['getPremiumBundlesWithPredicate'] = option;
+    zuuluu['getPremiumBundleWithPredicate'] = golfie;
+    zuuluu['getPremiumBundledItemsFromProductId'] = oscard;
+    zuuluu['getToggledIntervalProduct'] = report;
     report = function(argFoo) { // Original name: getProductIdsForBothIntervals
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = _closure1_slot5;
-            mike = undefined;
-            oscar = entity.bind(mike)(tango);
+            michal = undefined;
+            oscard = entity.bind(michal)(tangon);
             entity = _closure1_slot6;
-            mike = entity.bind(mike)(tango);
-            zulu = null;
-            if(!(zulu != mike)) { _fun00010_ip = 95; continue _fun00009 }
+            michal = entity.bind(michal)(tangon);
+            zuuluu = null;
+            if(!(zuuluu != michal)) { _fun00010_ip = 95; continue _fun00009 }
  32:
             entity = {};
-            verify = oscar.interval;
-            golf = _closure1_slot3;
-            options = golf.MONTH;
-            golf = mike;
-            if(!(verify === options)) { _fun00010_ip = 60; continue _fun00009 }
+            verify = oscard.interval;
+            golfie = _closure1_slot3;
+            option = golfie.MONTH;
+            golfie = michal;
+            if(!(verify === option)) { _fun00010_ip = 60; continue _fun00009 }
  57:
-            golf = tango;
+            golfie = tangon;
  60:
-            entity['monthly'] = golf;
-            oscar = oscar.interval;
+            entity['monthly'] = golfie;
+            oscard = oscard.interval;
             report = _closure1_slot3;
             report = report.YEAR;
-            if(!(oscar === report)) { _fun00010_ip = 88; continue _fun00009 }
+            if(!(oscard === report)) { _fun00010_ip = 88; continue _fun00009 }
  85:
-            mike = tango;
+            michal = tangon;
  88:
-            entity['yearly'] = mike;
+            entity['yearly'] = michal;
             _fun00010_ip = 110; continue _fun00009;
  95:
-            mike = {};
-            mike['monthly'] = tango;
-            mike['yearly'] = zulu;
-            entity = mike;
+            michal = {};
+            michal['monthly'] = tangon;
+            michal['yearly'] = zuuluu;
+            entity = michal;
  110:
             return entity;
         }
     };
-    zulu['getProductIdsForBothIntervals'] = report;
+    zuuluu['getProductIdsForBothIntervals'] = report;
     report = function(argFoo, argBar) { // Original name: productsHaveSamePerks
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = argBar;
             report = _closure1_slot7;
-            tango = undefined;
-            report = report.bind(tango)(mike);
+            tangon = undefined;
+            report = report.bind(tangon)(michal);
             if(!report) { _fun00012_ip = 35; continue _fun00011 }
  23:
             report = _closure1_slot7;
-            report = report.bind(tango)(entity);
+            report = report.bind(tangon)(entity);
             if(report) { _fun00012_ip = 41; continue _fun00011 }
  35:
-            report = mike === entity;
+            report = michal === entity;
             return report;
  41:
             report = null;
-            if(!(report != mike)) { _fun00012_ip = 110; continue _fun00011 }
+            if(!(report != michal)) { _fun00012_ip = 110; continue _fun00011 }
  47:
             if(!(report != entity)) { _fun00012_ip = 110; continue _fun00011 }
  51:
-            if(!(mike !== entity)) { _fun00012_ip = 106; continue _fun00011 }
+            if(!(michal !== entity)) { _fun00012_ip = 106; continue _fun00011 }
  55:
-            zulu = _closure1_slot5;
-            report = zulu.bind(tango)(mike);
-            tango = zulu.bind(tango)(entity);
-            oscar = report.numPremiumGuild;
-            zulu = tango.numPremiumGuild;
-            zulu = oscar === zulu;
-            if(!zulu) { _fun00012_ip = 104; continue _fun00011 }
+            zuuluu = _closure1_slot5;
+            report = zuuluu.bind(tangon)(michal);
+            tangon = zuuluu.bind(tangon)(entity);
+            oscard = report.numPremiumGuild;
+            zuuluu = tangon.numPremiumGuild;
+            zuuluu = oscard === zuuluu;
+            if(!zuuluu) { _fun00012_ip = 104; continue _fun00011 }
  88:
             report = report.premiumTier;
-            tango = tango.premiumTier;
-            zulu = report === tango;
+            tangon = tangon.premiumTier;
+            zuuluu = report === tangon;
  104:
-            return zulu;
+            return zuuluu;
  106:
-            zulu = true;
-            return zulu;
+            zuuluu = true;
+            return zuuluu;
  110:
-            entity = mike === entity;
+            entity = michal === entity;
             return entity;
         }
     };
-    zulu['productsHaveSamePerks'] = report;
-    zulu['isValidBundleProductId'] = tango;
-    tango = function(argFoo) { // Original name: shouldAlwaysExcludeFromPlanSelect
+    zuuluu['productsHaveSamePerks'] = report;
+    zuuluu['isValidBundleProductId'] = tangon;
+    tangon = function(argFoo) { // Original name: shouldAlwaysExcludeFromPlanSelect
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            mike = argFoo;
-            entity = mike.isDeprecated;
+            michal = argFoo;
+            entity = michal.isDeprecated;
             if(entity) { _fun00014_ip = 35; continue _fun00013 }
  12:
-            zulu = mike.interval;
-            mike = _closure1_slot3;
-            mike = mike.YEAR;
-            entity = zulu === mike;
+            zuuluu = michal.interval;
+            michal = _closure1_slot3;
+            michal = michal.YEAR;
+            entity = zuuluu === michal;
  35:
             return entity;
         }
     };
-    zulu['shouldAlwaysExcludeFromPlanSelect'] = tango;
-    mike = function(argFoo) { // Original name: makeExternalPaymentGatewayPlanIdOrThrow
+    zuuluu['shouldAlwaysExcludeFromPlanSelect'] = tangon;
+    michal = function(argFoo) { // Original name: makeExternalPaymentGatewayPlanIdOrThrow
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            mike = null;
-            if(!(mike != entity)) { _fun00016_ip = 104; continue _fun00015 }
+            michal = null;
+            if(!(michal != entity)) { _fun00016_ip = 104; continue _fun00015 }
  9:
-            mike = _closure1_slot7;
-            tango = undefined;
-            mike = mike.bind(tango)(entity);
-            if(mike) { _fun00016_ip = 102; continue _fun00015 }
+            michal = _closure1_slot7;
+            tangon = undefined;
+            michal = michal.bind(tangon)(entity);
+            if(michal) { _fun00016_ip = 102; continue _fun00015 }
  26:
-            mike = '.1';
-            mike = entity + mike;
-            zulu = _closure1_slot7;
-            zulu = zulu.bind(tango)(mike);
-            if(zulu) { _fun00016_ip = 100; continue _fun00015 }
+            michal = '.1';
+            michal = entity + michal;
+            zuuluu = _closure1_slot7;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            if(zuuluu) { _fun00016_ip = 100; continue _fun00015 }
  48:
-            zulu = global;
-            report = zulu.Error;
-            zulu = zulu.HermesInternal;
-            tango = zulu.concat;
-            zulu = 'Invalid plan ID ';
-            oscar = tango.bind(zulu)(entity);
-            tango = report.prototype;
-            tango = Object.create(tango, {constructor: {value: report}});
-            golf = tango;
-            zulu = new golf[report](oscar, report);
-            zulu = zulu instanceof Object ? zulu : tango;
-            throw zulu;
+            zuuluu = global;
+            report = zuuluu.Error;
+            zuuluu = zuuluu.HermesInternal;
+            tangon = zuuluu.concat;
+            zuuluu = 'Invalid plan ID ';
+            oscard = tangon.bind(zuuluu)(entity);
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            golfie = tangon;
+            zuuluu = new golfie[report](oscard, report);
+            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+            throw zuuluu;
  100:
-            return mike;
+            return michal;
  102:
             return entity;
  104:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            oscar = 'Invalid null plan ID';
-            golf = mike;
-            entity = new golf[zulu](oscar, report);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            oscard = 'Invalid null plan ID';
+            golfie = michal;
+            entity = new golfie[zuuluu](oscard, report);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['makeExternalPaymentGatewayPlanIdOrThrow'] = mike;
+    zuuluu['makeExternalPaymentGatewayPlanIdOrThrow'] = michal;
     return entity;
 })();

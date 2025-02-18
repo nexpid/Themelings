@@ -1,117 +1,117 @@
 // app/modules/chat_input/native/useChatInputBottomDimensions.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.KeyboardTypes;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/chat_input/native/useChatInputBottomDimensions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useChatInputBottomDimensions
-        tango = _closure1_slot1;
-        oscar = _closure1_slot2;
-        zulu = 2;
-        zulu = oscar[zulu];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.KeyboardTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/chat_input/native/useChatInputBottomDimensions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useChatInputBottomDimensions
+        tangon = _closure1_slot1;
+        oscard = _closure1_slot2;
+        zuuluu = 2;
+        zuuluu = oscard[zuuluu];
         report = undefined;
-        zulu = tango.bind(report)(zulu);
-        zulu = zulu.bind(report)();
-        zulu = zulu.bottom;
-        var _closure2_slot0 = zulu;
-        tango = _closure1_slot0;
-        zulu = 3;
-        zulu = oscar[zulu];
-        tango = tango.bind(report)(zulu);
-        zulu = tango.useStateFromStoresObject;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = zuuluu.bind(report)();
+        zuuluu = zuuluu.bottom;
+        var _closure2_slot0 = zuuluu;
+        tangon = _closure1_slot0;
+        zuuluu = 3;
+        zuuluu = oscard[zuuluu];
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure1_slot3;
-                mike = entity.keyboardType;
+                michal = entity.keyboardType;
                 entity = _closure1_slot4;
                 entity = entity.SYSTEM;
-                report = mike === entity;
+                report = michal === entity;
                 entity = {};
                 if(report) { _fun00002_ip = 92; continue _fun00001 }
  32:
-                mike = _closure1_slot3;
-                tango = mike.customKeyboardHeight;
-                golf = _closure1_slot0;
-                oscar = _closure1_slot2;
-                mike = 4;
-                oscar = oscar[mike];
-                mike = undefined;
-                oscar = golf.bind(mike)(oscar);
-                mike = oscar.isIOS;
-                oscar = mike.bind(oscar)();
-                mike = 0;
-                if(oscar) { _fun00002_ip = 86; continue _fun00001 }
+                michal = _closure1_slot3;
+                tangon = michal.customKeyboardHeight;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
+                michal = 4;
+                oscard = oscard[michal];
+                michal = undefined;
+                oscard = golfie.bind(michal)(oscard);
+                michal = oscard.isIOS;
+                oscard = michal.bind(oscard)();
+                michal = 0;
+                if(oscard) { _fun00002_ip = 86; continue _fun00001 }
  79:
-                mike = _closure2_slot0;
+                michal = _closure2_slot0;
  86:
-                mike = tango + mike;
+                michal = tangon + michal;
                 _fun00002_ip = 142; continue _fun00001;
  92:
-                golf = _closure1_slot0;
-                oscar = _closure1_slot2;
-                tango = 4;
-                oscar = oscar[tango];
-                tango = undefined;
-                oscar = golf.bind(tango)(oscar);
-                tango = oscar.isIOS;
-                oscar = tango.bind(oscar)();
-                tango = 0;
-                if(!oscar) { _fun00002_ip = 139; continue _fun00001 }
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
+                tangon = 4;
+                oscard = oscard[tangon];
+                tangon = undefined;
+                oscard = golfie.bind(tangon)(oscard);
+                tangon = oscard.isIOS;
+                oscard = tangon.bind(oscard)();
+                tangon = 0;
+                if(!oscard) { _fun00002_ip = 139; continue _fun00001 }
  129:
-                oscar = _closure1_slot3;
-                tango = oscar.keyboardHeight;
+                oscard = _closure1_slot3;
+                tangon = oscard.keyboardHeight;
  139:
-                mike = tango;
+                michal = tangon;
  142:
-                entity['keyboardHeight'] = mike;
-                mike = 0;
+                entity['keyboardHeight'] = michal;
+                michal = 0;
                 if(!report) { _fun00002_ip = 174; continue _fun00001 }
  152:
-                zulu = _closure1_slot3;
-                zulu = zulu.keyboardOpen;
-                mike = 0;
-                if(zulu) { _fun00002_ip = 174; continue _fun00001 }
+                zuuluu = _closure1_slot3;
+                zuuluu = zuuluu.keyboardOpen;
+                michal = 0;
+                if(zuuluu) { _fun00002_ip = 174; continue _fun00001 }
  167:
-                mike = _closure2_slot0;
+                michal = _closure2_slot0;
  174:
-                entity['safeAreaBottom'] = mike;
+                entity['safeAreaBottom'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

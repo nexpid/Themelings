@@ -1,99 +1,99 @@
 // app/modules/read_states/ReadStateUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.UnreadSetting;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/read_states/ReadStateUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getHasImportantUnread
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.UnreadSetting;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/read_states/ReadStateUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getHasImportantUnread
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot2;
-            zulu = tango.hasUnread;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.hasUnread;
             entity = report.id;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             if(!entity) { _fun00002_ip = 58; continue _fun00001 }
  29:
-            tango = _closure1_slot3;
-            zulu = tango.resolveUnreadSetting;
-            zulu = zulu.bind(tango)(report);
-            mike = _closure1_slot4;
-            mike = mike.ALL_MESSAGES;
-            entity = zulu === mike;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.resolveUnreadSetting;
+            zuuluu = zuuluu.bind(tangon)(report);
+            michal = _closure1_slot4;
+            michal = michal.ALL_MESSAGES;
+            entity = zuuluu === michal;
  58:
             return entity;
         }
     };
-    zulu['getHasImportantUnread'] = tango;
-    mike = function(argFoo) { // Original name: useHasImportantUnread
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot2;
-        mike = new Array(2);
-        mike[0] = oscar;
+    zuuluu['getHasImportantUnread'] = tangon;
+    michal = function(argFoo) { // Original name: useHasImportantUnread
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot2;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot3;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = _closure1_slot2;
-                tango = report.hasUnread;
+                tangon = report.hasUnread;
                 entity = _closure2_slot0;
                 entity = entity.id;
-                entity = tango.bind(report)(entity);
+                entity = tangon.bind(report)(entity);
                 if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  33:
                 report = _closure1_slot3;
-                tango = report.resolveUnreadSetting;
-                zulu = _closure2_slot0;
-                zulu = tango.bind(report)(zulu);
-                mike = _closure1_slot4;
-                mike = mike.ALL_MESSAGES;
-                entity = zulu === mike;
+                tangon = report.resolveUnreadSetting;
+                zuuluu = _closure2_slot0;
+                zuuluu = tangon.bind(report)(zuuluu);
+                michal = _closure1_slot4;
+                michal = michal.ALL_MESSAGES;
+                entity = zuuluu === michal;
  66:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useHasImportantUnread'] = mike;
+    zuuluu['useHasImportantUnread'] = michal;
     return entity;
 })();

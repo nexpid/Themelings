@@ -1,141 +1,141 @@
 // app/modules/media_viewer/native/MediaPlayerMuteManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
     report = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = report.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 2;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    verify = mike.NativeEventEmitter;
-    report = mike.NativeModules;
-    mike = 3;
-    mike = golf[mike];
-    offset = oscar.bind(entity)(mike);
-    options = offset.create;
-    mike = function() {
+    michal = report.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = report.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 2;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    verify = michal.NativeEventEmitter;
+    report = michal.NativeModules;
+    michal = 3;
+    michal = golfie[michal];
+    offset = oscard.bind(entity)(michal);
+    option = offset.create;
+    michal = function() {
         entity = {};
-        mike = false;
-        entity['isMuted'] = mike;
+        michal = false;
+        entity['isMuted'] = michal;
         return entity;
     };
-    mike = options.bind(offset)(mike);
-    var _closure1_slot4 = mike;
-    foxtrot = report.MediaPlayerManager;
-    options = verify.prototype;
-    options = Object.create(options, {constructor: {value: verify}});
-    backup = options;
-    report = new backup[verify](foxtrot, romeo);
-    report = report instanceof Object ? report : options;
+    michal = option.bind(offset)(michal);
+    var _closure1_slot4 = michal;
+    foxtra = report.MediaPlayerManager;
+    option = verify.prototype;
+    option = Object.create(option, {constructor: {value: verify}});
+    backup = option;
+    report = new backup[verify](foxtra, romeon);
+    report = report instanceof Object ? report : option;
     var _closure1_slot5 = report;
-    tango = function() {
-        tango = _closure1_slot3;
-        zulu = function() { // Original name: MediaPlayerMuteManager
-            mike = this;
-            tango = _closure1_slot2;
-            zulu = _closure2_slot0;
+    tangon = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function() { // Original name: MediaPlayerMuteManager
+            michal = this;
+            tangon = _closure1_slot2;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            zulu = tango.bind(entity)(mike, zulu);
-            mike['muteSubscription'] = entity;
+            zuuluu = tangon.bind(entity)(michal, zuuluu);
+            michal['muteSubscription'] = entity;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'initialize';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
-            tango = _closure1_slot5;
-            zulu = tango.addListener;
-            mike = 'MediaPlayerMuteStateChanged';
+        michal = 'initialize';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
+            tangon = _closure1_slot5;
+            zuuluu = tangon.addListener;
+            michal = 'MediaPlayerMuteStateChanged';
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.isMuted;
                 var _closure4_slot0 = entity;
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 entity = 4;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.batchUpdates;
-                mike = function() {
-                    zulu = _closure1_slot4;
-                    mike = zulu.setState;
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.batchUpdates;
+                michal = function() {
+                    zuuluu = _closure1_slot4;
+                    michal = zuuluu.setState;
                     entity = {};
-                    tango = _closure4_slot0;
-                    entity['isMuted'] = tango;
-                    entity = mike.bind(zulu)(entity);
+                    tangon = _closure4_slot0;
+                    entity['isMuted'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
                     return entity;
                 };
-                mike = zulu.bind(tango)(mike);
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike, entity);
+            michal = zuuluu.bind(tangon)(michal, entity);
             entity = this;
-            entity['muteSubscription'] = mike;
+            entity['muteSubscription'] = michal;
             entity = undefined;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'terminate';
-        entity['key'] = oscar;
+        oscard = 'terminate';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = this;
-                mike = entity.muteSubscription;
+                michal = entity.muteSubscription;
                 entity = null;
-                if(!(entity != mike)) { _fun00002_ip = 25; continue _fun00001 }
+                if(!(entity != michal)) { _fun00002_ip = 25; continue _fun00001 }
  15:
-                entity = mike.remove;
-                entity = entity.bind(mike)();
+                entity = michal.remove;
+                entity = entity.bind(michal)();
  25:
                 entity = undefined;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    report = tango.prototype;
-    report = Object.create(report, {constructor: {value: tango}});
+    tangon = tangon.bind(entity)();
+    report = tangon.prototype;
+    report = Object.create(report, {constructor: {value: tangon}});
     backup = report;
-    tango = new backup[tango](foxtrot);
-    tango = tango instanceof Object ? tango : report;
+    tangon = new backup[tangon](foxtra);
+    tangon = tangon instanceof Object ? tangon : report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/media_viewer/native/MediaPlayerMuteManager.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['useMediaPlayerMutedStore'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['useMediaPlayerMutedStore'] = michal;
     return entity;
 })();

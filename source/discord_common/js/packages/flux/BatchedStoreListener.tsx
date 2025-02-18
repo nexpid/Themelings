@@ -1,150 +1,150 @@
 // discord_common/js/packages/flux/BatchedStoreListener.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = function(argFoo, argBar) { // Original name: BatchedStoreListener
-            zulu = this;
-            var _closure3_slot0 = zulu;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function(argFoo, argBar) { // Original name: BatchedStoreListener
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
             report = _closure1_slot2;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            mike = function() {
+            tangon = report.bind(entity)(zuuluu, tangon);
+            michal = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 2;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    zulu = zulu.bind(entity)(mike);
-                    mike = zulu.getChangeSentinel;
-                    zulu = mike.bind(zulu)();
-                    tango = _closure3_slot0;
-                    tango = tango.storeVersionHandled;
-                    if(!(tango !== zulu)) { _fun00002_ip = 72; continue _fun00001 }
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.getChangeSentinel;
+                    zuuluu = michal.bind(zuuluu)();
+                    tangon = _closure3_slot0;
+                    tangon = tangon.storeVersionHandled;
+                    if(!(tangon !== zuuluu)) { _fun00002_ip = 72; continue _fun00001 }
  52:
-                    mike = _closure3_slot0;
-                    tango = mike.changeCallback;
-                    tango = tango.bind(mike)();
-                    mike['storeVersionHandled'] = zulu;
+                    michal = _closure3_slot0;
+                    tangon = michal.changeCallback;
+                    tangon = tangon.bind(michal)();
+                    michal['storeVersionHandled'] = zuuluu;
  72:
                     return entity;
                 }
             };
-            zulu['handleStoreChange'] = mike;
-            mike = argFoo;
-            zulu['stores'] = mike;
-            mike = argBar;
-            zulu['changeCallback'] = mike;
+            zuuluu['handleStoreChange'] = michal;
+            michal = argFoo;
+            zuuluu['stores'] = michal;
+            michal = argBar;
+            zuuluu['changeCallback'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'attach';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
-            mike = this;
-            var _closure3_slot0 = mike;
-            zulu = argFoo;
-            var _closure3_slot1 = zulu;
-            zulu = mike.stores;
-            mike = zulu.forEach;
+        michal = 'attach';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
+            michal = this;
+            var _closure3_slot0 = michal;
+            zuuluu = argFoo;
+            var _closure3_slot1 = zuuluu;
+            zuuluu = michal.stores;
+            michal = zuuluu.forEach;
             entity = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = argFoo;
+                    zuuluu = argFoo;
                     entity = null;
-                    if(!(entity != zulu)) { _fun00004_ip = 37; continue _fun00003 }
+                    if(!(entity != zuuluu)) { _fun00004_ip = 37; continue _fun00003 }
  9:
-                    mike = zulu.addReactChangeListener;
+                    michal = zuuluu.addReactChangeListener;
                     entity = _closure3_slot0;
                     entity = entity.handleStoreChange;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
                     return entity;
  37:
                     entity = global;
-                    zulu = entity.Error;
+                    zuuluu = entity.Error;
                     yankee = _closure3_slot1;
                     entity = entity.HermesInternal;
-                    oscar = entity.concat;
-                    romeo = '';
+                    oscard = entity.concat;
+                    romeon = '';
                     offset = " tried to load a non-existent store. Either it isn't defined or there is a circular dependency. Loaded ";
                     verify = argBar;
-                    options = ' stores before error.';
-                    yankee = romeo[oscar](yankee, offset, verify, options, golf);
-                    mike = zulu.prototype;
-                    mike = Object.create(mike, {constructor: {value: zulu}});
-                    romeo = mike;
-                    entity = new romeo[zulu](yankee, offset);
-                    entity = entity instanceof Object ? entity : mike;
+                    option = ' stores before error.';
+                    yankee = romeon[oscard](yankee, offset, verify, option, golfie);
+                    michal = zuuluu.prototype;
+                    michal = Object.create(michal, {constructor: {value: zuuluu}});
+                    romeon = michal;
+                    entity = new romeon[zuuluu](yankee, offset);
+                    entity = entity instanceof Object ? entity : michal;
                     throw entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'detach';
-        entity['key'] = oscar;
+        oscard = 'detach';
+        entity['key'] = oscard;
         report = function() { // Original name: value
-            mike = this;
-            var _closure3_slot0 = mike;
-            zulu = mike.stores;
-            mike = zulu.forEach;
+            michal = this;
+            var _closure3_slot0 = michal;
+            zuuluu = michal.stores;
+            michal = zuuluu.forEach;
             entity = function(argFoo) {
-                zulu = argFoo;
-                mike = zulu.removeReactChangeListener;
+                zuuluu = argFoo;
+                michal = zuuluu.removeReactChangeListener;
                 entity = _closure3_slot0;
                 entity = entity.handleStoreChange;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/flux/BatchedStoreListener.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['BatchedStoreListener'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/flux/BatchedStoreListener.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['BatchedStoreListener'] = michal;
     return entity;
 })();

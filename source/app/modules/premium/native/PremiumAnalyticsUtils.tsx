@@ -1,274 +1,274 @@
 // app/modules/premium/native/PremiumAnalyticsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = argBar;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = offset;
-    tango = function(argFoo) { // Original name: getBaseAnalyticsFields
+    tangon = function(argFoo) { // Original name: getBaseAnalyticsFields
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = {};
-            tango = null;
-            oscar = tango == zulu;
-            mike = undefined;
+            tangon = null;
+            oscard = tangon == zuuluu;
+            michal = undefined;
             report = undefined;
-            if(oscar) { _fun00002_ip = 23; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 23; continue _fun00001 }
  18:
-            report = zulu.id;
+            report = zuuluu.id;
  23:
             entity['subscription_id'] = report;
-            oscar = tango == zulu;
+            oscard = tangon == zuuluu;
             report = undefined;
-            if(oscar) { _fun00002_ip = 42; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 42; continue _fun00001 }
  37:
-            report = zulu.type;
+            report = zuuluu.type;
  42:
             entity['subscription_type'] = report;
-            oscar = tango != zulu;
+            oscard = tangon != zuuluu;
             report = undefined;
-            if(!oscar) { _fun00002_ip = 107; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 107; continue _fun00001 }
  56:
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
-            oscar = 2;
-            oscar = options[oscar];
-            golf = golf.bind(mike)(oscar);
-            oscar = golf.getPremiumPlanItem;
-            golf = oscar.bind(golf)(zulu);
-            options = tango == golf;
-            oscar = undefined;
-            if(options) { _fun00002_ip = 104; continue _fun00001 }
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            oscard = 2;
+            oscard = option[oscard];
+            golfie = golfie.bind(michal)(oscard);
+            oscard = golfie.getPremiumPlanItem;
+            golfie = oscard.bind(golfie)(zuuluu);
+            option = tangon == golfie;
+            oscard = undefined;
+            if(option) { _fun00002_ip = 104; continue _fun00001 }
  99:
-            oscar = golf.id;
+            oscard = golfie.id;
  104:
-            report = oscar;
+            report = oscard;
  107:
             entity['subscription_plan_id'] = report;
-            oscar = tango == zulu;
+            oscard = tangon == zuuluu;
             report = undefined;
-            if(oscar) { _fun00002_ip = 127; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 127; continue _fun00001 }
  121:
-            report = zulu.paymentGatewayPlanId;
+            report = zuuluu.paymentGatewayPlanId;
  127:
             entity['subscription_plan_gateway_plan_id'] = report;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 146; continue _fun00001 }
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 146; continue _fun00001 }
  141:
-            mike = zulu.status;
+            michal = zuuluu.status;
  146:
-            entity['subscription_status'] = mike;
+            entity['subscription_status'] = michal;
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 0;
     report = offset[entity];
     entity = undefined;
     report = verify.bind(entity)(report);
-    oscar = report.SubscriptionTypes;
-    var _closure1_slot3 = oscar;
-    oscar = report.PurchaseTypeToAnalyticsPaymentType;
-    var _closure1_slot4 = oscar;
-    oscar = report.PurchaseTypes;
-    var _closure1_slot5 = oscar;
+    oscard = report.SubscriptionTypes;
+    var _closure1_slot3 = oscard;
+    oscard = report.PurchaseTypeToAnalyticsPaymentType;
+    var _closure1_slot4 = oscard;
+    oscard = report.PurchaseTypes;
+    var _closure1_slot5 = oscard;
     report = report.AnalyticEvents;
     var _closure1_slot6 = report;
-    golf = {};
+    golfie = {};
     report = 'sku_select';
-    golf['SKU_SELECT'] = report;
+    golfie['SKU_SELECT'] = report;
     report = 'plan_select';
-    golf['PLAN_SELECT'] = report;
+    golfie['PLAN_SELECT'] = report;
     report = 'review';
-    golf['REVIEW'] = report;
+    golfie['REVIEW'] = report;
     report = 'confirm';
-    golf['CONFIRM'] = report;
+    golfie['CONFIRM'] = report;
     report = 'yearly_upsell';
-    golf['YEARLY_UPSELL'] = report;
+    golfie['YEARLY_UPSELL'] = report;
     report = 'premium_upsell';
-    golf['PREMIUM_UPSELL'] = report;
+    golfie['PREMIUM_UPSELL'] = report;
     report = 'external_payment';
-    golf['EXTERNAL_PAYMENT'] = report;
+    golfie['EXTERNAL_PAYMENT'] = report;
     report = 'reward_sku_select';
-    golf['REWARD_SKU_SELECT'] = report;
-    oscar = {};
-    options = 1;
-    oscar['WHAT_YOU_LOSE'] = options;
+    golfie['REWARD_SKU_SELECT'] = report;
+    oscard = {};
+    option = 1;
+    oscard['WHAT_YOU_LOSE'] = option;
     report = 'WHAT_YOU_LOSE';
-    oscar[options] = report;
-    options = 2;
-    oscar['CONFIRM'] = options;
+    oscard[option] = report;
+    option = 2;
+    oscard['CONFIRM'] = option;
     report = 'CONFIRM';
-    oscar[options] = report;
-    options = 3;
-    oscar['PREVIEW'] = options;
+    oscard[option] = report;
+    option = 3;
+    oscard['PREVIEW'] = option;
     report = 'PREVIEW';
-    oscar[options] = report;
-    options = 4;
-    oscar['DOWNGRADE_TO_TIER_0'] = options;
+    oscard[option] = report;
+    option = 4;
+    oscard['DOWNGRADE_TO_TIER_0'] = option;
     report = 'DOWNGRADE_TO_TIER_0';
-    oscar[options] = report;
+    oscard[option] = report;
     yankee = 5;
-    oscar['MOBILE_SUBSCRIPTION_MANAGE'] = yankee;
+    oscard['MOBILE_SUBSCRIPTION_MANAGE'] = yankee;
     report = 'MOBILE_SUBSCRIPTION_MANAGE';
-    oscar[yankee] = report;
+    oscard[yankee] = report;
     report = {};
-    romeo = oscar.WHAT_YOU_LOSE;
+    romeon = oscard.WHAT_YOU_LOSE;
     yankee = "What You're Losing";
-    report[romeo] = yankee;
-    romeo = oscar.DOWNGRADE_TO_TIER_0;
+    report[romeon] = yankee;
+    romeon = oscard.DOWNGRADE_TO_TIER_0;
     yankee = 'Downgrade To Tier 0';
-    report[romeo] = yankee;
-    romeo = oscar.CONFIRM;
+    report[romeon] = yankee;
+    romeon = oscard.CONFIRM;
     yankee = 'Confirm Cancellation';
-    report[romeo] = yankee;
-    romeo = oscar.PREVIEW;
+    report[romeon] = yankee;
+    romeon = oscard.PREVIEW;
     yankee = 'Preview Updated Subscription';
-    report[romeo] = yankee;
-    romeo = oscar.MOBILE_SUBSCRIPTION_MANAGE;
+    report[romeon] = yankee;
+    romeon = oscard.MOBILE_SUBSCRIPTION_MANAGE;
     yankee = 'Mobile Subscription Manage';
-    report[romeo] = yankee;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    report[romeon] = yankee;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/premium/native/PremiumAnalyticsUtils.tsx';
-    options = verify.bind(offset)(options);
-    zulu['PaymentFlowStep'] = golf;
-    golf = function(argFoo) { // Original name: getBasePurchaseFlowAnalyticsFields
+    option = 'modules/premium/native/PremiumAnalyticsUtils.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['PaymentFlowStep'] = golfie;
+    golfie = function(argFoo) { // Original name: getBasePurchaseFlowAnalyticsFields
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            oscar = entity.analyticsLoadId;
+            oscard = entity.analyticsLoadId;
             report = entity.isGift;
-            mike = undefined;
-            if(!(report === mike)) { _fun00004_ip = 23; continue _fun00003 }
+            michal = undefined;
+            if(!(report === michal)) { _fun00004_ip = 23; continue _fun00003 }
  21:
             report = false;
  23:
-            zulu = entity.analyticsLocation;
-            tango = entity.analyticsLocations;
+            zuuluu = entity.analyticsLocation;
+            tangon = entity.analyticsLocations;
             entity = {};
-            entity['load_id'] = oscar;
-            options = _closure1_slot4;
-            golf = _closure1_slot5;
-            golf = golf.SUBSCRIPTION;
-            golf = options[golf];
-            entity['payment_type'] = golf;
-            oscar = _closure1_slot3;
-            oscar = oscar.PREMIUM;
-            entity['subscription_type'] = oscar;
+            entity['load_id'] = oscard;
+            option = _closure1_slot4;
+            golfie = _closure1_slot5;
+            golfie = golfie.SUBSCRIPTION;
+            golfie = option[golfie];
+            entity['payment_type'] = golfie;
+            oscard = _closure1_slot3;
+            oscard = oscard.PREMIUM;
+            entity['subscription_type'] = oscard;
             entity['is_gift'] = report;
-            entity['location'] = zulu;
-            entity['location_stack'] = tango;
-            tango = null;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00004_ip = 117; continue _fun00003 }
+            entity['location'] = zuuluu;
+            entity['location_stack'] = tangon;
+            tangon = null;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 117; continue _fun00003 }
  112:
-            mike = zulu.section;
+            michal = zuuluu.section;
  117:
-            entity['location_section'] = mike;
+            entity['location_section'] = michal;
             return entity;
         }
     };
-    zulu['getBasePurchaseFlowAnalyticsFields'] = golf;
-    golf = function(argFoo, argBar) { // Original name: getPaymentFlowCompletedAnalyticsFields
+    zuuluu['getBasePurchaseFlowAnalyticsFields'] = golfie;
+    golfie = function(argFoo, argBar) { // Original name: getPaymentFlowCompletedAnalyticsFields
         entity = {};
-        zulu = argFoo;
-        tango = entity;
-        mike = copyDataProperties(tango, zulu);
-        zulu = argBar;
-        tango = entity;
-        mike = copyDataProperties(tango, zulu);
+        zuuluu = argFoo;
+        tangon = entity;
+        michal = copyDataProperties(tangon, zuuluu);
+        zuuluu = argBar;
+        tangon = entity;
+        michal = copyDataProperties(tangon, zuuluu);
         return entity;
     };
-    zulu['getPaymentFlowCompletedAnalyticsFields'] = golf;
-    golf = function(argFoo, argBar) { // Original name: getPaymentFlowStepAnalyticsFields
+    zuuluu['getPaymentFlowCompletedAnalyticsFields'] = golfie;
+    golfie = function(argFoo, argBar) { // Original name: getPaymentFlowStepAnalyticsFields
         entity = {};
-        zulu = argFoo;
-        tango = entity;
-        mike = copyDataProperties(tango, zulu);
-        zulu = argBar;
-        tango = entity;
-        mike = copyDataProperties(tango, zulu);
+        zuuluu = argFoo;
+        tangon = entity;
+        michal = copyDataProperties(tangon, zuuluu);
+        zuuluu = argBar;
+        tangon = entity;
+        michal = copyDataProperties(tangon, zuuluu);
         return entity;
     };
-    zulu['getPaymentFlowStepAnalyticsFields'] = golf;
-    golf = function() { // Original name: getNewAnalyticsLoadId
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    zuuluu['getPaymentFlowStepAnalyticsFields'] = golfie;
+    golfie = function() { // Original name: getNewAnalyticsLoadId
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.v4;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.v4;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['getNewAnalyticsLoadId'] = golf;
-    zulu['CancellationFlowSteps'] = oscar;
-    zulu['STEP_ANALYTICS_NAMES'] = report;
-    zulu['getBaseAnalyticsFields'] = tango;
-    tango = function(argFoo, argBar) { // Original name: trackPremiumSubscriptionCancellationStarted
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['getNewAnalyticsLoadId'] = golfie;
+    zuuluu['CancellationFlowSteps'] = oscard;
+    zuuluu['STEP_ANALYTICS_NAMES'] = report;
+    zuuluu['getBaseAnalyticsFields'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: trackPremiumSubscriptionCancellationStarted
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        report = zulu.bind(entity)(mike);
-        tango = report.track;
-        mike = _closure1_slot6;
-        zulu = mike.CANCELLATION_FLOW_STARTED;
-        mike = {};
-        golf = argBar;
-        mike['location_stack'] = golf;
-        golf = _closure1_slot7;
-        oscar = argFoo;
-        options = golf.bind(entity)(oscar);
-        verify = mike;
-        oscar = copyDataProperties(verify, options);
-        mike = tango.bind(report)(zulu, mike);
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.track;
+        michal = _closure1_slot6;
+        zuuluu = michal.CANCELLATION_FLOW_STARTED;
+        michal = {};
+        golfie = argBar;
+        michal['location_stack'] = golfie;
+        golfie = _closure1_slot7;
+        oscard = argFoo;
+        option = golfie.bind(entity)(oscard);
+        verify = michal;
+        oscard = copyDataProperties(verify, option);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['trackPremiumSubscriptionCancellationStarted'] = tango;
-    mike = function(argFoo) { // Original name: trackPremiumSubscriptionCancellationFlowStep
+    zuuluu['trackPremiumSubscriptionCancellationStarted'] = tangon;
+    michal = function(argFoo) { // Original name: trackPremiumSubscriptionCancellationFlowStep
         entity = argFoo;
         offset = entity.fromStep;
         verify = entity.toStep;
-        golf = entity.subscription;
-        options = entity.analyticsLocations;
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+        golfie = entity.subscription;
+        option = entity.analyticsLocations;
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        report = zulu.bind(entity)(mike);
-        tango = report.track;
-        mike = _closure1_slot6;
-        zulu = mike.CANCELLATION_FLOW_STEP;
-        mike = {};
-        mike['from_step'] = offset;
-        mike['to_step'] = verify;
-        mike['location_stack'] = options;
-        oscar = _closure1_slot7;
-        yankee = oscar.bind(entity)(golf);
-        romeo = mike;
-        oscar = copyDataProperties(romeo, yankee);
-        mike = tango.bind(report)(zulu, mike);
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.track;
+        michal = _closure1_slot6;
+        zuuluu = michal.CANCELLATION_FLOW_STEP;
+        michal = {};
+        michal['from_step'] = offset;
+        michal['to_step'] = verify;
+        michal['location_stack'] = option;
+        oscard = _closure1_slot7;
+        yankee = oscard.bind(entity)(golfie);
+        romeon = michal;
+        oscard = copyDataProperties(romeon, yankee);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['trackPremiumSubscriptionCancellationFlowStep'] = mike;
+    zuuluu['trackPremiumSubscriptionCancellationFlowStep'] = michal;
     return entity;
 })();

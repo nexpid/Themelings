@@ -1,96 +1,96 @@
 // app/modules/age_gate/useIsNsfwGated.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/age_gate/useIsNsfwGated.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useIsNsfwGated
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/age_gate/useIsNsfwGated.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useIsNsfwGated
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
             entity = entity.nsfw;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
             report = 2;
-            zulu = options[report];
-            oscar = undefined;
-            yankee = golf.bind(oscar)(zulu);
+            zuuluu = option[report];
+            oscard = undefined;
+            yankee = golfie.bind(oscard)(zuuluu);
             offset = yankee.useStateFromStores;
-            zulu = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             verify = new Array(1);
-            verify[0] = zulu;
-            zulu = function() {
+            verify[0] = zuuluu;
+            zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure1_slot3;
-                    entity = mike.getCurrentUser;
-                    mike = entity.bind(mike)();
+                    michal = _closure1_slot3;
+                    entity = michal.getCurrentUser;
+                    michal = entity.bind(michal)();
                     entity = null;
-                    zulu = entity == mike;
+                    zuuluu = entity == michal;
                     entity = undefined;
-                    if(zulu) { _fun00004_ip = 33; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 33; continue _fun00003 }
  27:
-                    entity = mike.nsfwAllowed;
+                    entity = michal.nsfwAllowed;
  33:
                     return entity;
                 }
             };
-            verify = offset.bind(yankee)(verify, zulu);
-            zulu = false;
-            zulu = zulu === verify;
-            report = options[report];
-            oscar = golf.bind(oscar)(report);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = golf;
-            mike = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.didAgree;
+            verify = offset.bind(yankee)(verify, zuuluu);
+            zuuluu = false;
+            zuuluu = zuuluu === verify;
+            report = option[report];
+            oscard = golfie.bind(oscard)(report);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = golfie;
+            michal = function() {
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.didAgree;
                 entity = _closure2_slot0;
                 entity = entity.guild_id;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = report.bind(oscar)(tango, mike);
-            mike = !mike;
+            michal = report.bind(oscard)(tangon, michal);
+            michal = !michal;
             if(!entity) { _fun00002_ip = 126; continue _fun00001 }
  117:
-            if(mike) { _fun00002_ip = 123; continue _fun00001 }
+            if(michal) { _fun00002_ip = 123; continue _fun00001 }
  120:
-            mike = zulu;
+            michal = zuuluu;
  123:
-            entity = mike;
+            entity = michal;
  126:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,71 +1,71 @@
 // app/modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useMaybeFetchCollectiblesCategories
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useMaybeFetchCollectiblesCategories
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            oscar = null;
-            mike = oscar == report;
+            oscard = null;
+            michal = oscard == report;
             entity = undefined;
-            options = undefined;
-            if(mike) { _fun00002_ip = 22; continue _fun00001 }
+            option = undefined;
+            if(michal) { _fun00002_ip = 22; continue _fun00001 }
  16:
-            options = report.paymentGateway;
+            option = report.paymentGateway;
  22:
-            golf = _closure1_slot1;
-            tango = _closure1_slot2;
-            zulu = 0;
-            zulu = tango[zulu];
-            golf = golf.bind(entity)(zulu);
-            zulu = 'shop_include_unpublished';
-            verify = golf.bind(entity)(zulu);
-            zulu = _closure1_slot0;
-            mike = 1;
-            mike = tango[mike];
-            offset = zulu.bind(entity)(mike);
-            golf = offset.useCollectiblesMobileBundle;
-            mike = 'useMaybeFetchCollectiblesCategories';
-            golf = golf.bind(offset)(mike);
-            mike = 2;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.useMaybeFetchCollectiblesCategoriesShared;
-            mike = {};
-            mike['includeUnpublished'] = verify;
-            mike['paymentGateway'] = options;
-            mike['includeBundles'] = golf;
-            oscar = oscar == report;
+            golfie = _closure1_slot1;
+            tangon = _closure1_slot2;
+            zuuluu = 0;
+            zuuluu = tangon[zuuluu];
+            golfie = golfie.bind(entity)(zuuluu);
+            zuuluu = 'shop_include_unpublished';
+            verify = golfie.bind(entity)(zuuluu);
+            zuuluu = _closure1_slot0;
+            michal = 1;
+            michal = tangon[michal];
+            offset = zuuluu.bind(entity)(michal);
+            golfie = offset.useCollectiblesMobileBundle;
+            michal = 'useMaybeFetchCollectiblesCategories';
+            golfie = golfie.bind(offset)(michal);
+            michal = 2;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.useMaybeFetchCollectiblesCategoriesShared;
+            michal = {};
+            michal['includeUnpublished'] = verify;
+            michal['paymentGateway'] = option;
+            michal['includeBundles'] = golfie;
+            oscard = oscard == report;
             entity = undefined;
-            if(oscar) { _fun00002_ip = 138; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 138; continue _fun00001 }
  132:
             entity = report.noOp;
  138:
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

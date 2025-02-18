@@ -1,359 +1,359 @@
 // app/modules/emojis/utils/EmojiColorUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
-    tango = function(argFoo) { // Original name: buildPlatformedThemedEmojiColorPalette
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    tangon = function(argFoo) { // Original name: buildPlatformedThemedEmojiColorPalette
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.colors;
-            mike = entity.saturationFactor;
-            zulu = undefined;
-            if(!(mike === zulu)) { _fun00002_ip = 23; continue _fun00001 }
+            michal = entity.saturationFactor;
+            zuuluu = undefined;
+            if(!(michal === zuuluu)) { _fun00002_ip = 23; continue _fun00001 }
  20:
-            mike = 1;
+            michal = 1;
  23:
-            tango = entity.shouldProcessMobileColors;
-            if(!(tango === zulu)) { _fun00002_ip = 35; continue _fun00001 }
+            tangon = entity.shouldProcessMobileColors;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 35; continue _fun00001 }
  33:
-            tango = false;
+            tangon = false;
  35:
             entity = {};
             entity['colors'] = report;
-            entity['saturationFactor'] = mike;
+            entity['saturationFactor'] = michal;
             offset = entity.colors;
-            foxtrot = entity.saturationFactor;
-            if(!(foxtrot === zulu)) { _fun00002_ip = 64; continue _fun00001 }
+            foxtra = entity.saturationFactor;
+            if(!(foxtra === zuuluu)) { _fun00002_ip = 64; continue _fun00001 }
  61:
-            foxtrot = 1;
+            foxtra = 1;
  64:
-            oscar = null;
-            entity = oscar == offset;
+            oscard = null;
+            entity = oscard == offset;
             report = null;
             if(entity) { _fun00002_ip = 900; continue _fun00001 }
  78:
             entity = offset.length;
-            options = 1;
-            entity = entity < options;
+            option = 1;
+            entity = entity < option;
             report = null;
             if(entity) { _fun00002_ip = 900; continue _fun00001 }
  98:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             entity = _closure1_slot2;
-            romeo = 0;
-            mike = entity[romeo];
-            golf = golf.bind(zulu)(mike);
-            mike = golf.findColorByHsv;
-            golf = mike.bind(golf)(offset);
-            mike = _closure1_slot1;
-            entity = entity[options];
-            offset = mike.bind(zulu)(entity);
-            mike = offset.parseString;
+            romeon = 0;
+            michal = entity[romeon];
+            golfie = golfie.bind(zuuluu)(michal);
+            michal = golfie.findColorByHsv;
+            golfie = michal.bind(golfie)(offset);
+            michal = _closure1_slot1;
+            entity = entity[option];
+            offset = michal.bind(zuuluu)(entity);
+            michal = offset.parseString;
             entity = '#ffffff';
-            echo = mike.bind(offset)(entity);
-            entity = oscar == echo;
+            echoed = michal.bind(offset)(entity);
+            entity = oscard == echoed;
             report = null;
             if(entity) { _fun00002_ip = 900; continue _fun00001 }
  173:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = _closure1_slot2;
-            entity = entity[options];
-            offset = mike.bind(zulu)(entity);
-            mike = offset.parseString;
+            entity = entity[option];
+            offset = michal.bind(zuuluu)(entity);
+            michal = offset.parseString;
             entity = '#36393e';
-            result = mike.bind(offset)(entity);
-            entity = oscar == result;
+            result = michal.bind(offset)(entity);
+            entity = oscard == result;
             report = null;
             if(entity) { _fun00002_ip = 900; continue _fun00001 }
  219:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = _closure1_slot2;
-            entity = entity[options];
-            mike = mike.bind(zulu)(entity);
-            entity = mike.parseString;
-            yankee = entity.bind(mike)(golf);
-            entity = oscar == yankee;
+            entity = entity[option];
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.parseString;
+            yankee = entity.bind(michal)(golfie);
+            entity = oscard == yankee;
             report = null;
             if(entity) { _fun00002_ip = 900; continue _fun00001 }
  259:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
-            entity = offset[romeo];
-            kilo = backup.bind(zulu)(entity);
-            options = kilo.rawRgbToHsl;
-            golf = yankee.red;
-            mike = yankee.blue;
+            entity = offset[romeon];
+            kiloes = backup.bind(zuuluu)(entity);
+            option = kiloes.rawRgbToHsl;
+            golfie = yankee.red;
+            michal = yankee.blue;
             entity = yankee.green;
-            options = options.bind(kilo)(golf, mike, entity);
-            entity = offset[romeo];
-            golf = backup.bind(zulu)(entity);
-            mike = golf.getAccessibleColor;
+            option = option.bind(kiloes)(golfie, michal, entity);
+            entity = offset[romeon];
+            golfie = backup.bind(zuuluu)(entity);
+            michal = golfie.getAccessibleColor;
             entity = {};
-            offset = offset[romeo];
-            kilo = backup.bind(zulu)(offset);
-            backup = kilo.getColorLightnessAdjusted;
+            offset = offset[romeon];
+            kiloes = backup.bind(zuuluu)(offset);
+            backup = kiloes.getColorLightnessAdjusted;
             sizing = 0.6;
             offset = true;
-            backup = backup.bind(kilo)(yankee, sizing, offset);
+            backup = backup.bind(kiloes)(yankee, sizing, offset);
             offset = new Array(2);
             offset[0] = backup;
-            offset[1] = echo;
+            offset[1] = echoed;
             entity['colors'] = offset;
             offset = 3;
             entity['ratio'] = offset;
-            entity['saturationFactor'] = foxtrot;
-            entity = mike.bind(golf)(entity);
+            entity['saturationFactor'] = foxtra;
+            entity = michal.bind(golfie)(entity);
             output = yankee;
-            if(!(oscar != entity)) { _fun00002_ip = 402; continue _fun00001 }
+            if(!(oscard != entity)) { _fun00002_ip = 402; continue _fun00001 }
  399:
             output = entity;
  402:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
-            entity = offset[romeo];
-            golf = backup.bind(zulu)(entity);
-            mike = golf.getAccessibleColor;
+            entity = offset[romeon];
+            golfie = backup.bind(zuuluu)(entity);
+            michal = golfie.getAccessibleColor;
             entity = {};
-            offset = offset[romeo];
-            kilo = backup.bind(zulu)(offset);
-            backup = kilo.getColorLightnessAdjusted;
+            offset = offset[romeon];
+            kiloes = backup.bind(zuuluu)(offset);
+            backup = kiloes.getColorLightnessAdjusted;
             offset = false;
-            backup = backup.bind(kilo)(yankee, sizing, offset);
+            backup = backup.bind(kiloes)(yankee, sizing, offset);
             offset = new Array(2);
             offset[0] = backup;
             offset[1] = result;
             entity['colors'] = offset;
             offset = 5;
             entity['ratio'] = offset;
-            entity['saturationFactor'] = foxtrot;
-            entity = mike.bind(golf)(entity);
+            entity['saturationFactor'] = foxtra;
+            entity = michal.bind(golfie)(entity);
             backup = yankee;
-            if(!(oscar != entity)) { _fun00002_ip = 495; continue _fun00001 }
+            if(!(oscard != entity)) { _fun00002_ip = 495; continue _fun00001 }
  492:
             backup = entity;
  495:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot2;
-            golf = entity[romeo];
-            sizing = mike.bind(zulu)(golf);
-            kilo = sizing.getAccessibleColor;
-            golf = {};
+            golfie = entity[romeon];
+            sizing = michal.bind(zuuluu)(golfie);
+            kiloes = sizing.getAccessibleColor;
+            golfie = {};
             offset = new Array(2);
             offset[0] = yankee;
-            offset[1] = echo;
-            golf['colors'] = offset;
+            offset[1] = echoed;
+            golfie['colors'] = offset;
             offset = 7;
-            golf['ratio'] = offset;
-            golf['saturationFactor'] = foxtrot;
-            kilo = kilo.bind(sizing)(golf);
-            entity = entity[romeo];
-            golf = mike.bind(zulu)(entity);
-            mike = golf.getAccessibleColor;
+            golfie['ratio'] = offset;
+            golfie['saturationFactor'] = foxtra;
+            kiloes = kiloes.bind(sizing)(golfie);
+            entity = entity[romeon];
+            golfie = michal.bind(zuuluu)(entity);
+            michal = golfie.getAccessibleColor;
             entity = {};
             sizing = new Array(2);
             sizing[0] = yankee;
             sizing[1] = result;
             entity['colors'] = sizing;
             entity['ratio'] = offset;
-            entity['saturationFactor'] = foxtrot;
-            sizing = mike.bind(golf)(entity);
+            entity['saturationFactor'] = foxtra;
+            sizing = michal.bind(golfie)(entity);
             entity = {};
-            mike = {};
-            offset = oscar == kilo;
-            golf = undefined;
+            michal = {};
+            offset = oscard == kiloes;
+            golfie = undefined;
             if(offset) { _fun00002_ip = 625; continue _fun00001 }
  615:
-            offset = kilo.toHexString;
-            golf = offset.bind(kilo)();
+            offset = kiloes.toHexString;
+            golfie = offset.bind(kiloes)();
  625:
-            mike['accentColor'] = golf;
+            michal['accentColor'] = golfie;
             offset = _closure1_slot0;
-            golf = _closure1_slot2;
-            golf = golf[romeo];
-            kilo = offset.bind(zulu)(golf);
-            offset = kilo.getSaturatedColorHex;
-            golf = {};
-            golf['colorRGB'] = output;
-            golf['saturationFactor'] = foxtrot;
-            golf = offset.bind(kilo)(golf);
-            mike['backgroundColor'] = golf;
-            offset = oscar == yankee;
-            golf = undefined;
+            golfie = _closure1_slot2;
+            golfie = golfie[romeon];
+            kiloes = offset.bind(zuuluu)(golfie);
+            offset = kiloes.getSaturatedColorHex;
+            golfie = {};
+            golfie['colorRGB'] = output;
+            golfie['saturationFactor'] = foxtra;
+            golfie = offset.bind(kiloes)(golfie);
+            michal['backgroundColor'] = golfie;
+            offset = oscard == yankee;
+            golfie = undefined;
             if(offset) { _fun00002_ip = 693; continue _fun00001 }
  683:
             offset = yankee.toHexString;
-            golf = offset.bind(yankee)();
+            golfie = offset.bind(yankee)();
  693:
-            mike['highlightColor'] = golf;
-            golf = oscar == options;
+            michal['highlightColor'] = golfie;
+            golfie = oscard == option;
             offset = undefined;
-            if(golf) { _fun00002_ip = 713; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 713; continue _fun00001 }
  707:
-            offset = options.saturation;
+            offset = option.saturation;
  713:
-            golf = 0.1;
-            kilo = offset < golf;
-            offset = golf;
-            if(!kilo) { _fun00002_ip = 743; continue _fun00001 }
+            golfie = 0.1;
+            kiloes = offset < golfie;
+            offset = golfie;
+            if(!kiloes) { _fun00002_ip = 743; continue _fun00001 }
  733:
             offset = 0.35;
  743:
-            mike['opacity'] = offset;
-            entity['LIGHT'] = mike;
-            mike = {};
-            kilo = oscar == sizing;
+            michal['opacity'] = offset;
+            entity['LIGHT'] = michal;
+            michal = {};
+            kiloes = oscard == sizing;
             offset = undefined;
-            if(kilo) { _fun00002_ip = 773; continue _fun00001 }
+            if(kiloes) { _fun00002_ip = 773; continue _fun00001 }
  763:
-            kilo = sizing.toHexString;
-            offset = kilo.bind(sizing)();
+            kiloes = sizing.toHexString;
+            offset = kiloes.bind(sizing)();
  773:
-            mike['accentColor'] = offset;
+            michal['accentColor'] = offset;
             offset = _closure1_slot0;
             verify = _closure1_slot2;
-            verify = verify[romeo];
-            romeo = offset.bind(zulu)(verify);
-            offset = romeo.getSaturatedColorHex;
+            verify = verify[romeon];
+            romeon = offset.bind(zuuluu)(verify);
+            offset = romeon.getSaturatedColorHex;
             verify = {};
             verify['colorRGB'] = backup;
-            verify['saturationFactor'] = foxtrot;
-            verify = offset.bind(romeo)(verify);
-            mike['backgroundColor'] = verify;
-            offset = oscar == yankee;
+            verify['saturationFactor'] = foxtra;
+            verify = offset.bind(romeon)(verify);
+            michal['backgroundColor'] = verify;
+            offset = oscard == yankee;
             verify = undefined;
             if(offset) { _fun00002_ip = 841; continue _fun00001 }
  831:
             offset = yankee.toHexString;
             verify = offset.bind(yankee)();
  841:
-            mike['highlightColor'] = verify;
-            verify = oscar == options;
-            oscar = undefined;
+            michal['highlightColor'] = verify;
+            verify = oscard == option;
+            oscard = undefined;
             if(verify) { _fun00002_ip = 861; continue _fun00001 }
  855:
-            oscar = options.saturation;
+            oscard = option.saturation;
  861:
-            golf = oscar < golf;
-            oscar = 0.2;
-            if(!golf) { _fun00002_ip = 888; continue _fun00001 }
+            golfie = oscard < golfie;
+            oscard = 0.2;
+            if(!golfie) { _fun00002_ip = 888; continue _fun00001 }
  878:
-            oscar = 0.5;
+            oscard = 0.5;
  888:
-            mike['opacity'] = oscar;
-            entity['DARK'] = mike;
+            michal['opacity'] = oscard;
+            entity['DARK'] = michal;
             report = entity;
  900:
-            mike = _closure1_slot1;
-            oscar = _closure1_slot2;
+            michal = _closure1_slot1;
+            oscard = _closure1_slot2;
             entity = 2;
-            entity = oscar[entity];
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.applyPlatformToThemedEmojiColorPalette;
+            entity = oscard[entity];
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.applyPlatformToThemedEmojiColorPalette;
             entity = {};
             entity['palette'] = report;
-            entity['shouldProcessMobileColors'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['shouldProcessMobileColors'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    var _closure1_slot3 = tango;
+    var _closure1_slot3 = tangon;
     entity = 3;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/emojis/utils/EmojiColorUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['buildPlatformedThemedEmojiColorPalette'] = tango;
-    mike = function(argFoo, argBar, argBaz) {
+    report = oscard.bind(golfie)(report);
+    zuuluu['buildPlatformedThemedEmojiColorPalette'] = tangon;
+    michal = function(argFoo, argBar, argBaz) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00004_ip = 192; continue _fun00003 }
+            if(!(entity != tangon)) { _fun00004_ip = 192; continue _fun00003 }
  12:
-            zulu = tango.length;
-            mike = 1;
-            if(!(!(zulu < mike))) { _fun00004_ip = 192; continue _fun00003 }
+            zuuluu = tangon.length;
+            michal = 1;
+            if(!(!(zuuluu < michal))) { _fun00004_ip = 192; continue _fun00003 }
  27:
-            zulu = _closure1_slot3;
-            mike = {};
-            mike['colors'] = tango;
-            tango = argBar;
-            mike['saturationFactor'] = tango;
-            tango = undefined;
-            report = zulu.bind(tango)(mike);
-            oscar = entity == report;
-            mike = argBaz;
-            if(mike) { _fun00004_ip = 78; continue _fun00003 }
+            zuuluu = _closure1_slot3;
+            michal = {};
+            michal['colors'] = tangon;
+            tangon = argBar;
+            michal['saturationFactor'] = tangon;
+            tangon = undefined;
+            report = zuuluu.bind(tangon)(michal);
+            oscard = entity == report;
+            michal = argBaz;
+            if(michal) { _fun00004_ip = 78; continue _fun00003 }
  65:
-            zulu = undefined;
-            if(oscar) { _fun00004_ip = 76; continue _fun00003 }
+            zuuluu = undefined;
+            if(oscard) { _fun00004_ip = 76; continue _fun00003 }
  70:
-            zulu = report.LIGHT;
+            zuuluu = report.LIGHT;
  76:
             _fun00004_ip = 92; continue _fun00003;
  78:
-            mike = undefined;
-            if(oscar) { _fun00004_ip = 89; continue _fun00003 }
+            michal = undefined;
+            if(oscard) { _fun00004_ip = 89; continue _fun00003 }
  83:
-            mike = report.DARK;
+            michal = report.DARK;
  89:
-            zulu = mike;
+            zuuluu = michal;
  92:
-            mike = {};
-            oscar = entity == zulu;
+            michal = {};
+            oscard = entity == zuuluu;
             report = undefined;
-            if(oscar) { _fun00004_ip = 108; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 108; continue _fun00003 }
  103:
-            report = zulu.backgroundColor;
+            report = zuuluu.backgroundColor;
  108:
-            mike['backgroundColor'] = report;
-            oscar = entity == zulu;
+            michal['backgroundColor'] = report;
+            oscard = entity == zuuluu;
             report = undefined;
-            if(oscar) { _fun00004_ip = 127; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 127; continue _fun00003 }
  121:
-            report = zulu.accentColor;
+            report = zuuluu.accentColor;
  127:
-            mike['accentColor'] = report;
-            oscar = entity == zulu;
+            michal['accentColor'] = report;
+            oscard = entity == zuuluu;
             report = undefined;
-            if(oscar) { _fun00004_ip = 147; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 147; continue _fun00003 }
  141:
-            report = zulu.highlightColor;
+            report = zuuluu.highlightColor;
  147:
-            mike['highlightColor'] = report;
-            report = entity == zulu;
-            tango = undefined;
+            michal['highlightColor'] = report;
+            report = entity == zuuluu;
+            tangon = undefined;
             if(report) { _fun00004_ip = 166; continue _fun00003 }
  161:
-            tango = zulu.opacity;
+            tangon = zuuluu.opacity;
  166:
-            report = entity != tango;
-            zulu = 0.15;
+            report = entity != tangon;
+            zuuluu = 0.15;
             if(!report) { _fun00004_ip = 186; continue _fun00003 }
  183:
-            zulu = tango;
+            zuuluu = tangon;
  186:
-            mike['opacity'] = zulu;
-            return mike;
+            michal['opacity'] = zuuluu;
+            return michal;
  192:
             return entity;
         }
     };
-    zulu['buildEmojiColorPalette'] = mike;
+    zuuluu['buildEmojiColorPalette'] = michal;
     return entity;
 })();

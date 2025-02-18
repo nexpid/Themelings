@@ -1,46 +1,46 @@
 // app/modules/activities/useIsActivityFocused.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: isActivityFocused
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: isActivityFocused
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tango = entity.channelId;
-            zulu = entity.ChannelRTCStore;
-            mike = entity.EmbeddedActivitiesStore;
-            entity = zulu.getSelectedParticipant;
-            zulu = entity.bind(zulu)(tango);
-            entity = mike.getSelfEmbeddedActivityForChannel;
-            mike = entity.bind(mike)(tango);
-            tango = null;
-            entity = tango != zulu;
+            tangon = entity.channelId;
+            zuuluu = entity.ChannelRTCStore;
+            michal = entity.EmbeddedActivitiesStore;
+            entity = zuuluu.getSelectedParticipant;
+            zuuluu = entity.bind(zuuluu)(tangon);
+            entity = michal.getSelfEmbeddedActivityForChannel;
+            michal = entity.bind(michal)(tangon);
+            tangon = null;
+            entity = tangon != zuuluu;
             if(!entity) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            entity = tango != mike;
+            entity = tangon != michal;
  55:
             if(!entity) { _fun00002_ip = 108; continue _fun00001 }
  58:
-            zulu = zulu.id;
-            oscar = _closure1_slot0;
+            zuuluu = zuuluu.id;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 2;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.embeddedActivityParticipantId;
-            mike = mike.applicationId;
-            mike = tango.bind(report)(mike);
-            entity = zulu === mike;
+            tangon = 2;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.embeddedActivityParticipantId;
+            michal = michal.applicationId;
+            michal = tangon.bind(report)(michal);
+            entity = zuuluu === michal;
  108:
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -48,54 +48,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/activities/useIsActivityFocused.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useIsActivityFocused
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot2;
-        mike = new Array(2);
-        mike[0] = oscar;
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useIsActivityFocused
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot2;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot3;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
-            zulu = _closure1_slot4;
-            mike = {};
-            tango = _closure2_slot0;
-            mike['channelId'] = tango;
-            tango = _closure1_slot2;
-            mike['ChannelRTCStore'] = tango;
+            zuuluu = _closure1_slot4;
+            michal = {};
+            tangon = _closure2_slot0;
+            michal['channelId'] = tangon;
+            tangon = _closure1_slot2;
+            michal['ChannelRTCStore'] = tangon;
             entity = _closure1_slot3;
-            mike['EmbeddedActivitiesStore'] = entity;
+            michal['EmbeddedActivitiesStore'] = entity;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['isActivityFocused'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['isActivityFocused'] = michal;
     return entity;
 })();

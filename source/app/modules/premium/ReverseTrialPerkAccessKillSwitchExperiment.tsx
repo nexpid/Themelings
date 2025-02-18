@@ -1,87 +1,87 @@
 // app/modules/premium/ReverseTrialPerkAccessKillSwitchExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     yankee = true;
-    tango['value'] = yankee;
+    tangon['value'] = yankee;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.PurchasedFlags;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = golf[tango];
-    options = oscar.bind(entity)(tango);
-    report = options.createExperiment;
-    tango = {'kind': 'user', 'id': '2025-02_reverse_trial_perk_access_kill_switch', 'label': 'Reverse Trial Perk Access Kill Switch'};
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.PurchasedFlags;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    option = oscard.bind(entity)(tangon);
+    report = option.createExperiment;
+    tangon = {'kind': 'user', 'id': '2025-02_reverse_trial_perk_access_kill_switch', 'label': 'Reverse Trial Perk Access Kill Switch'};
     verify = {};
     offset = false;
     verify['enabled'] = offset;
-    tango['defaultConfig'] = verify;
+    tangon['defaultConfig'] = verify;
     offset = {'id': 1, 'label': 'Prevent perk access for users with reverse trials'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
-    tango['treatments'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot3 = tango;
+    tangon['treatments'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/ReverseTrialPerkAccessKillSwitchExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function(argFoo, argBar) {
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argBar;
+            zuuluu = argBar;
             entity = null;
-            mike = entity == zulu;
-            if(mike) { _fun00002_ip = 68; continue _fun00001 }
+            michal = entity == zuuluu;
+            if(michal) { _fun00002_ip = 68; continue _fun00001 }
  12:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 2;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.hasFlag;
-            zulu = zulu.purchasedFlags;
+            tangon = 2;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.hasFlag;
+            zuuluu = zuuluu.purchasedFlags;
             entity = _closure1_slot2;
             entity = entity.ON_REVERSE_TRIAL;
-            entity = tango.bind(report)(zulu, entity);
-            mike = !entity;
+            entity = tangon.bind(report)(zuuluu, entity);
+            michal = !entity;
  68:
-            entity = !mike;
-            if(mike) { _fun00002_ip = 116; continue _fun00001 }
+            entity = !michal;
+            if(michal) { _fun00002_ip = 116; continue _fun00001 }
  74:
             report = _closure1_slot3;
-            tango = report.getCurrentConfig;
-            zulu = {};
-            mike = argFoo;
-            zulu['location'] = mike;
-            mike = {};
-            oscar = false;
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            entity = mike.enabled;
+            tangon = report.getCurrentConfig;
+            zuuluu = {};
+            michal = argFoo;
+            zuuluu['location'] = michal;
+            michal = {};
+            oscard = false;
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity = michal.enabled;
  116:
             return entity;
         }
     };
-    zulu['preventReverseTrialPerkAccess'] = mike;
+    zuuluu['preventReverseTrialPerkAccess'] = michal;
     return entity;
 })();

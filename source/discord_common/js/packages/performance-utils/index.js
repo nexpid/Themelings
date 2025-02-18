@@ -1,145 +1,145 @@
 // discord_common/js/packages/performance-utils/index.js
-module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         entity = argFoo;
-        romeo = argBar;
-        output = argFred;
-        foxtrot = argPlugh;
-        zulu = entity;
+        romeon = argBar;
+        output = argFre;
+        foxtra = argPlu;
+        zuuluu = entity;
         yankee = entity;
-        golf = romeo;
-        mike = output;
-        oscar = foxtrot;
+        golfie = romeon;
+        michal = output;
+        oscard = foxtra;
         entity = undefined;
         report = undefined;
-        options = undefined;
-        tango = undefined;
+        option = undefined;
+        tangon = undefined;
         verify = global;
         sizing = verify.Object;
-        kilo = sizing.defineProperty;
+        kiloes = sizing.defineProperty;
         backup = {};
         offset = true;
         backup['value'] = offset;
         offset = '__esModule';
-        offset = kilo.bind(sizing)(output, offset, backup);
+        offset = kiloes.bind(sizing)(output, offset, backup);
         offset = 0;
-        offset = foxtrot[offset];
-        offset = romeo.bind(entity)(offset);
+        offset = foxtra[offset];
+        offset = romeon.bind(entity)(offset);
  78: // try_start_0
         offset = verify.Date;
-        romeo = offset.now;
+        romeon = offset.now;
         offset = null;
-        if(!(offset == romeo)) { _fun00002_ip = 114; continue _fun00001 }
+        if(!(offset == romeon)) { _fun00002_ip = 114; continue _fun00001 }
  95:
-        romeo = verify.Date;
+        romeon = verify.Date;
         offset = function() {
             entity = global;
             entity = entity.Date;
-            mike = entity.prototype;
-            mike = Object.create(mike, {constructor: {value: entity}});
-            zulu = mike;
-            entity = new zulu[entity](mike);
-            mike = entity instanceof Object ? entity : mike;
-            entity = mike.valueOf;
-            entity = entity.bind(mike)();
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            zuuluu = michal;
+            entity = new zuuluu[entity](michal);
+            michal = entity instanceof Object ? entity : michal;
+            entity = michal.valueOf;
+            entity = entity.bind(michal)();
             return entity;
         };
-        romeo['now'] = offset;
+        romeon['now'] = offset;
  114: // try_end0
         _fun00002_ip = 118; continue _fun00001;
  116: // catch_target0
         CatchBlockStart(arg_register=9);
  118:
-        romeo = undefined;
+        romeon = undefined;
  120: // try_start_1
         offset = yankee;
         offset = offset.performance;
         offset = offset.timing;
-        foxtrot = offset.navigationStart;
-        romeo = foxtrot;
+        foxtra = offset.navigationStart;
+        romeon = foxtra;
         offset = null;
-        if(!(offset == foxtrot)) { _fun00002_ip = 170; continue _fun00001 }
+        if(!(offset == foxtra)) { _fun00002_ip = 170; continue _fun00001 }
  150:
         offset = yankee;
-        foxtrot = offset.performance;
-        offset = foxtrot.now;
-        offset = offset.bind(foxtrot)();
+        foxtra = offset.performance;
+        offset = foxtra.now;
+        offset = offset.bind(foxtra)();
         _fun00002_ip = 173; continue _fun00001;
  170:
-        offset = romeo;
+        offset = romeon;
  173: // try_end1
         _fun00002_ip = 192; continue _fun00001;
  175: // catch_target1
         CatchBlockStart(arg_register=11);
-        foxtrot = verify.Date;
-        romeo = foxtrot.now;
-        offset = romeo.bind(foxtrot)();
+        foxtra = verify.Date;
+        romeon = foxtra.now;
+        offset = romeon.bind(foxtra)();
  192:
         report = offset;
-        options = offset;
+        option = offset;
         offset = undefined;
  200: // try_start_2
         yankee = yankee.performance;
-        romeo = yankee.timeOrigin;
-        offset = romeo;
+        romeon = yankee.timeOrigin;
+        offset = romeon;
         yankee = null;
-        if(!(yankee == romeo)) { _fun00002_ip = 223; continue _fun00001 }
+        if(!(yankee == romeon)) { _fun00002_ip = 223; continue _fun00001 }
  221:
         _fun00002_ip = 226; continue _fun00001;
  223:
-        options = offset;
+        option = offset;
  226: // try_end2
         _fun00002_ip = 245; continue _fun00001;
  228: // catch_target2
         CatchBlockStart(arg_register=9);
         offset = verify.Date;
         verify = offset.now;
-        options = verify.bind(offset)();
+        option = verify.bind(offset)();
  245:
-        tango = options;
-        options = zulu;
-        options = options.performance;
-        options = options.timing;
+        tangon = option;
+        option = zuuluu;
+        option = option.performance;
+        option = option.timing;
         verify = null;
-        if(!(verify == options)) { _fun00002_ip = 298; continue _fun00001 }
+        if(!(verify == option)) { _fun00002_ip = 298; continue _fun00001 }
  269: // try_start_3
-        options = zulu;
-        offset = options.performance;
-        options = {};
+        option = zuuluu;
+        offset = option.performance;
+        option = {};
         yankee = report;
-        options['navigationStart'] = yankee;
-        offset['timing'] = options;
+        option['navigationStart'] = yankee;
+        offset['timing'] = option;
  294: // try_end3
         _fun00002_ip = 298; continue _fun00001;
  296: // catch_target3
         CatchBlockStart(arg_register=7);
  298:
-        options = zulu;
-        options = options.performance;
-        options = options.timeOrigin;
-        if(!(verify == options)) { _fun00002_ip = 339; continue _fun00001 }
+        option = zuuluu;
+        option = option.performance;
+        option = option.timeOrigin;
+        if(!(verify == option)) { _fun00002_ip = 339; continue _fun00001 }
  317: // try_start_4
-        options = zulu;
-        verify = options.performance;
-        options = tango;
-        verify['timeOrigin'] = options;
+        option = zuuluu;
+        verify = option.performance;
+        option = tangon;
+        verify['timeOrigin'] = option;
  335: // try_end4
         _fun00002_ip = 339; continue _fun00001;
  337: // catch_target4
         CatchBlockStart(arg_register=7);
  339:
-        zulu = zulu.performance;
-        options = oscar;
-        oscar = 1;
-        oscar = options[oscar];
-        options = golf.bind(entity)(oscar);
-        golf = options.fileFinishedImporting;
-        oscar = '../discord_common/js/packages/performance-utils/index.js';
-        oscar = golf.bind(options)(oscar);
-        mike['navigationStart'] = report;
-        mike['timeOrigin'] = tango;
-        mike['performance'] = zulu;
+        zuuluu = zuuluu.performance;
+        option = oscard;
+        oscard = 1;
+        oscard = option[oscard];
+        option = golfie.bind(entity)(oscard);
+        golfie = option.fileFinishedImporting;
+        oscard = '../discord_common/js/packages/performance-utils/index.js';
+        oscard = golfie.bind(option)(oscard);
+        michal['navigationStart'] = report;
+        michal['timeOrigin'] = tangon;
+        michal['performance'] = zuuluu;
         return entity;
     }
 })();

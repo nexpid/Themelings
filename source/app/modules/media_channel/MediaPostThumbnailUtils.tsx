@@ -1,134 +1,134 @@
 // app/modules/media_channel/MediaPostThumbnailUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_channel/MediaPostThumbnailUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = 4;
-    zulu['MAX_THUMBNAIL_COUNT'] = tango;
-    tango = function(argFoo) { // Original name: getEmbedPreviewImageUrl
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_channel/MediaPostThumbnailUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = 4;
+    zuuluu['MAX_THUMBNAIL_COUNT'] = tangon;
+    tangon = function(argFoo) { // Original name: getEmbedPreviewImageUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = null;
-            if(!(zulu != entity)) { _fun00002_ip = 29; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 29; continue _fun00001 }
  9:
-            mike = entity.thumbnail;
-            tango = entity.image;
-            if(!(zulu == mike)) { _fun00002_ip = 50; continue _fun00001 }
+            michal = entity.thumbnail;
+            tangon = entity.image;
+            if(!(zuuluu == michal)) { _fun00002_ip = 50; continue _fun00001 }
  25:
-            if(!(zulu == tango)) { _fun00002_ip = 33; continue _fun00001 }
+            if(!(zuuluu == tangon)) { _fun00002_ip = 33; continue _fun00001 }
  29:
             entity = undefined;
             return entity;
  33:
-            entity = tango.proxy_url;
-            if(!(zulu == entity)) { _fun00002_ip = 48; continue _fun00001 }
+            entity = tangon.proxy_url;
+            if(!(zuuluu == entity)) { _fun00002_ip = 48; continue _fun00001 }
  43:
-            entity = tango.url;
+            entity = tangon.url;
  48:
             return entity;
  50:
-            entity = mike.proxy_url;
-            if(!(zulu == entity)) { _fun00002_ip = 65; continue _fun00001 }
+            entity = michal.proxy_url;
+            if(!(zuuluu == entity)) { _fun00002_ip = 65; continue _fun00001 }
  60:
-            entity = mike.url;
+            entity = michal.url;
  65:
             return entity;
         }
     };
-    zulu['getEmbedPreviewImageUrl'] = tango;
-    tango = function(argFoo) { // Original name: getBackgroundImageUrl
+    zuuluu['getEmbedPreviewImageUrl'] = tangon;
+    tangon = function(argFoo) { // Original name: getBackgroundImageUrl
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            oscar = _closure1_slot0;
-            mike = _closure1_slot1;
-            tango = 0;
-            mike = mike[tango];
-            zulu = undefined;
-            oscar = oscar.bind(zulu)(mike);
-            mike = oscar.isAnimatedImageUrl;
-            mike = mike.bind(oscar)(report);
-            if(mike) { _fun00004_ip = 75; continue _fun00003 }
+            oscard = _closure1_slot0;
+            michal = _closure1_slot1;
+            tangon = 0;
+            michal = michal[tangon];
+            zuuluu = undefined;
+            oscard = oscard.bind(zuuluu)(michal);
+            michal = oscard.isAnimatedImageUrl;
+            michal = michal.bind(oscard)(report);
+            if(michal) { _fun00004_ip = 75; continue _fun00003 }
  41:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            entity = entity[tango];
-            mike = mike.bind(zulu)(entity);
-            entity = mike.isVideoUrl;
-            mike = entity.bind(mike)(report);
+            entity = entity[tangon];
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.isVideoUrl;
+            michal = entity.bind(michal)(report);
             entity = report;
-            if(!mike) { _fun00004_ip = 104; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 104; continue _fun00003 }
  75:
-            mike = global;
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            zulu = '';
-            mike = '?format=webp';
-            entity = tango.bind(zulu)(report, mike);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = '?format=webp';
+            entity = tangon.bind(zuuluu)(report, michal);
  104:
             return entity;
         }
     };
-    zulu['getBackgroundImageUrl'] = tango;
-    mike = function(argFoo) { // Original name: getThumbnailImage
+    zuuluu['getBackgroundImageUrl'] = tangon;
+    michal = function(argFoo) { // Original name: getThumbnailImage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            mike = null;
-            if(!(mike == entity)) { _fun00006_ip = 13; continue _fun00005 }
+            michal = null;
+            if(!(michal == entity)) { _fun00006_ip = 13; continue _fun00005 }
  9:
-            zulu = undefined;
-            return zulu;
+            zuuluu = undefined;
+            return zuuluu;
  13:
-            tango = entity.url;
-            oscar = entity.proxy_url;
-            entity = tango;
-            if(!(mike != tango)) { _fun00006_ip = 111; continue _fun00005 }
+            tangon = entity.url;
+            oscard = entity.proxy_url;
+            entity = tangon;
+            if(!(michal != tangon)) { _fun00006_ip = 111; continue _fun00005 }
  31:
-            entity = tango;
-            if(!(mike != oscar)) { _fun00006_ip = 111; continue _fun00005 }
+            entity = tangon;
+            if(!(michal != oscard)) { _fun00006_ip = 111; continue _fun00005 }
  38:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 0;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            mike = zulu.isVideoUrl;
-            zulu = mike.bind(zulu)(tango);
-            mike = oscar;
-            if(!zulu) { _fun00006_ip = 108; continue _fun00005 }
+            zuuluu = _closure1_slot1;
+            michal = 0;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            michal = zuuluu.isVideoUrl;
+            zuuluu = michal.bind(zuuluu)(tangon);
+            michal = oscard;
+            if(!zuuluu) { _fun00006_ip = 108; continue _fun00005 }
  79:
-            zulu = global;
-            zulu = zulu.HermesInternal;
-            report = zulu.concat;
-            tango = '';
-            zulu = '?format=webp';
-            mike = report.bind(tango)(oscar, zulu);
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            report = zuuluu.concat;
+            tangon = '';
+            zuuluu = '?format=webp';
+            michal = report.bind(tangon)(oscard, zuuluu);
  108:
-            entity = mike;
+            entity = michal;
  111:
             return entity;
         }
     };
-    zulu['getThumbnailImage'] = mike;
+    zuuluu['getThumbnailImage'] = michal;
     return entity;
 })();

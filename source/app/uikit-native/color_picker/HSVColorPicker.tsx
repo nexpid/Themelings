@@ -1,61 +1,61 @@
 // app/uikit-native/color_picker/HSVColorPicker.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    golf = oscar[tango];
-    golf = report.bind(entity)(golf);
-    golf = golf.jsx;
-    var _closure1_slot4 = golf;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsxs;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    golfie = oscard[tangon];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.jsx;
+    var _closure1_slot4 = golfie;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsxs;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {};
     offset = 'center';
     verify['alignItems'] = offset;
-    tango['hsvColorPicker'] = verify;
+    tangon['hsvColorPicker'] = verify;
     verify = {};
     offset = 12;
     verify['marginTop'] = offset;
-    tango['huePicker'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/color_picker/HSVColorPicker.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: HSVColorPicker
+    tangon['huePicker'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/color_picker/HSVColorPicker.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: HSVColorPicker
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -64,77 +64,77 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = entity.value;
             verify = entity.onPanFinalize;
             entity = _closure1_slot6;
-            tango = undefined;
-            report = entity.bind(tango)();
-            mike = _closure1_slot0;
-            romeo = _closure1_slot2;
+            tangon = undefined;
+            report = entity.bind(tangon)();
+            michal = _closure1_slot0;
+            romeon = _closure1_slot2;
             entity = 4;
-            zulu = romeo[entity];
-            options = mike.bind(tango)(zulu);
-            golf = options.useSharedValue;
-            zulu = 0;
-            offset = golf.bind(options)(zulu);
-            zulu = romeo[entity];
-            options = mike.bind(tango)(zulu);
-            golf = options.useSharedValue;
-            zulu = 1;
-            kilo = golf.bind(options)(zulu);
-            entity = romeo[entity];
-            mike = mike.bind(tango)(entity);
-            entity = mike.useSharedValue;
-            foxtrot = entity.bind(mike)(zulu);
-            zulu = _closure1_slot5;
-            mike = _closure1_slot3;
+            zuuluu = romeon[entity];
+            option = michal.bind(tangon)(zuuluu);
+            golfie = option.useSharedValue;
+            zuuluu = 0;
+            offset = golfie.bind(option)(zuuluu);
+            zuuluu = romeon[entity];
+            option = michal.bind(tangon)(zuuluu);
+            golfie = option.useSharedValue;
+            zuuluu = 1;
+            kiloes = golfie.bind(option)(zuuluu);
+            entity = romeon[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useSharedValue;
+            foxtra = entity.bind(michal)(zuuluu);
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot3;
             entity = {};
             report = report.hsvColorPicker;
             entity['style'] = report;
-            options = _closure1_slot4;
-            golf = _closure1_slot1;
+            option = _closure1_slot4;
+            golfie = _closure1_slot1;
             report = 5;
-            report = romeo[report];
-            golf = golf.bind(tango)(report);
+            report = romeon[report];
+            golfie = golfie.bind(tangon)(report);
             report = {};
-            romeo = null;
+            romeon = null;
             output = offset;
-            if(!(romeo != yankee)) { _fun00002_ip = 166; continue _fun00001 }
+            if(!(romeon != yankee)) { _fun00002_ip = 166; continue _fun00001 }
  163:
             output = yankee;
  166:
             report['hue'] = output;
-            if(!(romeo != sizing)) { _fun00002_ip = 178; continue _fun00001 }
+            if(!(romeon != sizing)) { _fun00002_ip = 178; continue _fun00001 }
  175:
-            kilo = sizing;
+            kiloes = sizing;
  178:
-            report['saturation'] = kilo;
-            if(!(romeo != backup)) { _fun00002_ip = 190; continue _fun00001 }
+            report['saturation'] = kiloes;
+            if(!(romeon != backup)) { _fun00002_ip = 190; continue _fun00001 }
  187:
-            foxtrot = backup;
+            foxtra = backup;
  190:
-            report['value'] = foxtrot;
+            report['value'] = foxtra;
             report['onPanFinalize'] = verify;
-            golf = options.bind(tango)(golf, report);
+            golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);
-            report[0] = golf;
-            options = _closure1_slot4;
-            golf = _closure1_slot1;
-            foxtrot = _closure1_slot2;
-            oscar = 6;
-            oscar = foxtrot[oscar];
-            golf = golf.bind(tango)(oscar);
-            oscar = {};
-            if(!(romeo != yankee)) { _fun00002_ip = 246; continue _fun00001 }
+            report[0] = golfie;
+            option = _closure1_slot4;
+            golfie = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            oscard = 6;
+            oscard = foxtra[oscard];
+            golfie = golfie.bind(tangon)(oscard);
+            oscard = {};
+            if(!(romeon != yankee)) { _fun00002_ip = 246; continue _fun00001 }
  243:
             offset = yankee;
  246:
-            oscar['hue'] = offset;
-            oscar['onPanFinalize'] = verify;
-            oscar = options.bind(tango)(golf, oscar);
-            report[1] = oscar;
+            oscard['hue'] = offset;
+            oscard['onPanFinalize'] = verify;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[1] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

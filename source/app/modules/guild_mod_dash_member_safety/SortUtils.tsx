@@ -1,92 +1,92 @@
 // app/modules/guild_mod_dash_member_safety/SortUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_mod_dash_member_safety/SortUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getSortValueForMember
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_mod_dash_member_safety/SortUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getSortValueForMember
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             report = argBar;
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 0;
-            entity = oscar[entity];
-            tango = undefined;
-            verify = options.bind(tango)(entity);
-            golf = verify.getJoinedAtTimestamp;
-            entity = mike.joinedAt;
-            entity = golf.bind(verify)(entity);
-            golf = 1;
-            oscar = oscar[golf];
-            oscar = options.bind(tango)(oscar);
-            oscar = oscar.OrderBy;
-            oscar = oscar.ORDER_BY_GUILD_JOINED_AT_ASC;
-            if(!(oscar !== report)) { _fun00002_ip = 230; continue _fun00001 }
+            entity = oscard[entity];
+            tangon = undefined;
+            verify = option.bind(tangon)(entity);
+            golfie = verify.getJoinedAtTimestamp;
+            entity = michal.joinedAt;
+            entity = golfie.bind(verify)(entity);
+            golfie = 1;
+            oscard = oscard[golfie];
+            oscard = option.bind(tangon)(oscard);
+            oscard = oscard.OrderBy;
+            oscard = oscard.ORDER_BY_GUILD_JOINED_AT_ASC;
+            if(!(oscard !== report)) { _fun00002_ip = 230; continue _fun00001 }
  78:
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            oscar = oscar[golf];
-            oscar = options.bind(tango)(oscar);
-            oscar = oscar.OrderBy;
-            oscar = oscar.ORDER_BY_GUILD_JOINED_AT_DESC;
-            if(!(oscar !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            oscard = oscard[golfie];
+            oscard = option.bind(tangon)(oscard);
+            oscard = oscard.OrderBy;
+            oscard = oscard.ORDER_BY_GUILD_JOINED_AT_DESC;
+            if(!(oscard !== report)) { _fun00002_ip = 225; continue _fun00001 }
  111:
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            oscar = oscar[golf];
-            oscar = options.bind(tango)(oscar);
-            oscar = oscar.OrderBy;
-            oscar = oscar.ORDER_BY_USER_ID_ASC;
-            if(!(oscar !== report)) { _fun00002_ip = 205; continue _fun00001 }
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            oscard = oscard[golfie];
+            oscard = option.bind(tangon)(oscard);
+            oscard = oscard.OrderBy;
+            oscard = oscard.ORDER_BY_USER_ID_ASC;
+            if(!(oscard !== report)) { _fun00002_ip = 205; continue _fun00001 }
  144:
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[golf];
-            zulu = oscar.bind(tango)(zulu);
-            zulu = zulu.OrderBy;
-            zulu = zulu.ORDER_BY_USER_ID_DESC;
-            if(!(zulu !== report)) { _fun00002_ip = 182; continue _fun00001 }
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[golfie];
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.OrderBy;
+            zuuluu = zuuluu.ORDER_BY_USER_ID_DESC;
+            if(!(zuuluu !== report)) { _fun00002_ip = 182; continue _fun00001 }
  177:
-            zulu = -entity;
-            return zulu;
+            zuuluu = -entity;
+            return zuuluu;
  182:
-            zulu = global;
-            report = zulu.parseInt;
-            zulu = mike.userId;
-            zulu = report.bind(tango)(zulu);
-            zulu = -zulu;
-            return zulu;
+            zuuluu = global;
+            report = zuuluu.parseInt;
+            zuuluu = michal.userId;
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = -zuuluu;
+            return zuuluu;
  205:
-            zulu = global;
-            zulu = zulu.parseInt;
-            mike = mike.userId;
-            mike = zulu.bind(tango)(mike);
-            return mike;
+            zuuluu = global;
+            zuuluu = zuuluu.parseInt;
+            michal = michal.userId;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
  225:
-            mike = -entity;
-            return mike;
+            michal = -entity;
+            return michal;
  230:
             return entity;
         }
     };
-    zulu['getSortValueForMember'] = mike;
+    zuuluu['getSortValueForMember'] = michal;
     return entity;
 })();

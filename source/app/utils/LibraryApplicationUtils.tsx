@@ -1,44 +1,44 @@
 // app/utils/LibraryApplicationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: convertToTransitionState
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: convertToTransitionState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = null;
-            tango = mike == zulu;
+            zuuluu = argFoo;
+            michal = null;
+            tangon = michal == zuuluu;
             entity = null;
-            if(tango) { _fun00002_ip = 82; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 82; continue _fun00001 }
  14:
-            oscar = zulu.type;
+            oscard = zuuluu.type;
             report = _closure1_slot6;
             report = report.INSTALLING;
-            if(!(oscar !== report)) { _fun00002_ip = 76; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 76; continue _fun00001 }
  36:
-            oscar = zulu.type;
+            oscard = zuuluu.type;
             report = _closure1_slot6;
             report = report.UPDATING;
-            if(!(oscar !== report)) { _fun00002_ip = 76; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 76; continue _fun00001 }
  55:
-            report = zulu.type;
-            tango = _closure1_slot6;
-            tango = tango.UNINSTALLING;
-            mike = null;
-            if(!(report === tango)) { _fun00002_ip = 79; continue _fun00001 }
+            report = zuuluu.type;
+            tangon = _closure1_slot6;
+            tangon = tangon.UNINSTALLING;
+            michal = null;
+            if(!(report === tangon)) { _fun00002_ip = 79; continue _fun00001 }
  76:
-            mike = zulu;
+            michal = zuuluu;
  79:
-            entity = mike;
+            entity = michal;
  82:
             return entity;
         }
     };
-    var _closure1_slot8 = tango;
+    var _closure1_slot8 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -46,104 +46,104 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.LibraryApplicationFlags;
-    var _closure1_slot5 = options;
-    options = report.LocalDispatchApplicationStates;
-    var _closure1_slot6 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.LibraryApplicationFlags;
+    var _closure1_slot5 = option;
+    option = report.LocalDispatchApplicationStates;
+    var _closure1_slot6 = option;
     report = report.StatusTypes;
     var _closure1_slot7 = report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/LibraryApplicationUtils.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo, argBar) { // Original name: getComboId
         entity = global;
         entity = entity.HermesInternal;
         report = entity.concat;
-        tango = '';
-        zulu = argFoo;
-        mike = ':';
+        tangon = '';
+        zuuluu = argFoo;
+        michal = ':';
         entity = argBar;
-        entity = report.bind(tango)(zulu, mike, entity);
+        entity = report.bind(tangon)(zuuluu, michal, entity);
         return entity;
     };
-    zulu['getComboId'] = report;
+    zuuluu['getComboId'] = report;
     report = function(argFoo) { // Original name: convertComboId
-        zulu = argFoo;
-        mike = zulu.split;
+        zuuluu = argFoo;
+        michal = zuuluu.split;
         entity = ':';
-        tango = mike.bind(zulu)(entity);
-        zulu = _closure1_slot2;
-        mike = undefined;
+        tangon = michal.bind(zuuluu)(entity);
+        zuuluu = _closure1_slot2;
+        michal = undefined;
         entity = 2;
-        zulu = zulu.bind(mike)(tango, entity);
+        zuuluu = zuuluu.bind(michal)(tangon, entity);
         entity = {};
-        mike = 0;
-        mike = zulu[mike];
-        entity['applicationId'] = mike;
-        mike = 1;
-        mike = zulu[mike];
-        entity['branchId'] = mike;
+        michal = 0;
+        michal = zuuluu[michal];
+        entity['applicationId'] = michal;
+        michal = 1;
+        michal = zuuluu[michal];
+        entity['branchId'] = michal;
         return entity;
     };
-    zulu['convertComboId'] = report;
+    zuuluu['convertComboId'] = report;
     report = function(argFoo, argBar) { // Original name: shouldShareApplicationActivity
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argBar;
-            zulu = _closure1_slot0;
+            tangon = argBar;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 4;
-            entity = entity[oscar];
+            oscard = 4;
+            entity = entity[oscard];
             report = undefined;
-            entity = zulu.bind(report)(entity);
-            zulu = entity.ShowCurrentGame;
-            entity = zulu.getSetting;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = entity.ShowCurrentGame;
+            entity = zuuluu.getSetting;
+            entity = entity.bind(zuuluu)();
             if(!entity) { _fun00004_ip = 143; continue _fun00003 }
  47:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            entity = entity[oscar];
-            entity = zulu.bind(report)(entity);
-            zulu = entity.StatusSetting;
-            entity = zulu.getSetting;
-            zulu = entity.bind(zulu)();
+            entity = entity[oscard];
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = entity.StatusSetting;
+            entity = zuuluu.getSetting;
+            zuuluu = entity.bind(zuuluu)();
             entity = _closure1_slot7;
             entity = entity.INVISIBLE;
-            if(!(zulu !== entity)) { _fun00004_ip = 143; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00004_ip = 143; continue _fun00003 }
  94:
-            zulu = tango.getActiveLibraryApplication;
+            zuuluu = tangon.getActiveLibraryApplication;
             entity = argFoo;
-            tango = zulu.bind(tango)(entity);
+            tangon = zuuluu.bind(tangon)(entity);
             entity = null;
-            entity = entity == tango;
+            entity = entity == tangon;
             if(entity) { _fun00004_ip = 141; continue _fun00003 }
  117:
-            zulu = tango.hasFlag;
-            mike = _closure1_slot5;
-            mike = mike.PRIVATE;
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            zuuluu = tangon.hasFlag;
+            michal = _closure1_slot5;
+            michal = michal.PRIVATE;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  141:
             return entity;
  143:
@@ -151,121 +151,121 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['shouldShareApplicationActivity'] = report;
+    zuuluu['shouldShareApplicationActivity'] = report;
     report = function(argFoo, argBar) { // Original name: calculateProgressPercentage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argBar;
-            zulu = 100;
-            mike = 0;
-            entity = zulu;
-            if(!(mike !== tango)) { _fun00006_ip = 26; continue _fun00005 }
+            tangon = argBar;
+            zuuluu = 100;
+            michal = 0;
+            entity = zuuluu;
+            if(!(michal !== tangon)) { _fun00006_ip = 26; continue _fun00005 }
  15:
-            mike = argFoo;
-            mike = mike / tango;
-            entity = mike * zulu;
+            michal = argFoo;
+            michal = michal / tangon;
+            entity = michal * zuuluu;
  26:
             return entity;
         }
     };
-    zulu['calculateProgressPercentage'] = report;
+    zuuluu['calculateProgressPercentage'] = report;
     report = function(argFoo, argBar, argBaz) { // Original name: shouldShowGameInLibrary
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            tango = argBar;
+            tangon = argBar;
             entity = null;
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00008_ip = 72; continue _fun00007 }
  12:
-            mike = argBaz;
-            mike = mike.enabled;
-            mike = !mike;
-            if(mike) { _fun00008_ip = 53; continue _fun00007 }
+            michal = argBaz;
+            michal = michal.enabled;
+            michal = !michal;
+            if(michal) { _fun00008_ip = 53; continue _fun00007 }
  26:
-            report = tango.hasFlag;
-            zulu = _closure1_slot5;
-            zulu = zulu.PRIVATE;
-            zulu = report.bind(tango)(zulu);
-            mike = !zulu;
+            report = tangon.hasFlag;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.PRIVATE;
+            zuuluu = report.bind(tangon)(zuuluu);
+            michal = !zuuluu;
  53:
-            if(!mike) { _fun00008_ip = 69; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 69; continue _fun00007 }
  56:
-            zulu = tango.isHidden;
-            zulu = zulu.bind(tango)();
-            mike = !zulu;
+            zuuluu = tangon.isHidden;
+            zuuluu = zuuluu.bind(tangon)();
+            michal = !zuuluu;
  69:
-            entity = mike;
+            entity = michal;
  72:
             return entity;
         }
     };
-    zulu['shouldShowGameInLibrary'] = report;
-    zulu['convertToTransitionState'] = tango;
-    tango = function(argFoo) { // Original name: getCombinedProgress
-        tango = argFoo;
-        zulu = tango.reduce;
-        mike = function(argFoo, argBar) {
+    zuuluu['shouldShowGameInLibrary'] = report;
+    zuuluu['convertToTransitionState'] = tangon;
+    tangon = function(argFoo) { // Original name: getCombinedProgress
+        tangon = argFoo;
+        zuuluu = tangon.reduce;
+        michal = function(argFoo, argBar) {
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                tango = argFoo;
+                tangon = argFoo;
                 report = argBar;
                 entity = _closure1_slot8;
-                oscar = undefined;
-                zulu = entity.bind(oscar)(report);
-                golf = null;
-                entity = tango;
-                if(!(golf != zulu)) { _fun00010_ip = 122; continue _fun00009 }
+                oscard = undefined;
+                zuuluu = entity.bind(oscard)(report);
+                golfie = null;
+                entity = tangon;
+                if(!(golfie != zuuluu)) { _fun00010_ip = 122; continue _fun00009 }
  29:
                 report = report.type;
-                mike = _closure1_slot6;
-                mike = mike.UP_TO_DATE;
-                entity = tango;
-                if(!(report !== mike)) { _fun00010_ip = 122; continue _fun00009 }
+                michal = _closure1_slot6;
+                michal = michal.UP_TO_DATE;
+                entity = tangon;
+                if(!(report !== michal)) { _fun00010_ip = 122; continue _fun00009 }
  51:
-                mike = {};
-                options = tango.total;
+                michal = {};
+                option = tangon.total;
                 report = global;
                 verify = report.Number;
-                golf = zulu.total;
-                golf = verify.bind(oscar)(golf);
-                golf = options + golf;
-                mike['total'] = golf;
-                tango = tango.progress;
+                golfie = zuuluu.total;
+                golfie = verify.bind(oscard)(golfie);
+                golfie = option + golfie;
+                michal['total'] = golfie;
+                tangon = tangon.progress;
                 report = report.Number;
-                zulu = zulu.progress;
-                zulu = report.bind(oscar)(zulu);
-                zulu = tango + zulu;
-                mike['progress'] = zulu;
-                entity = mike;
+                zuuluu = zuuluu.progress;
+                zuuluu = report.bind(oscard)(zuuluu);
+                zuuluu = tangon + zuuluu;
+                michal['progress'] = zuuluu;
+                entity = michal;
  122:
                 return entity;
             }
         };
         entity = {'total': 0, 'progress': 0};
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['getCombinedProgress'] = tango;
-    mike = function(argFoo) { // Original name: isUserEntitledToLibraryApplication
+    zuuluu['getCombinedProgress'] = tangon;
+    michal = function(argFoo) { // Original name: isUserEntitledToLibraryApplication
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             report = argFoo;
             entity = report.isDiscordApplication;
             entity = entity.bind(report)();
-            mike = !entity;
-            entity = !mike;
-            if(mike) { _fun00012_ip = 56; continue _fun00011 }
+            michal = !entity;
+            entity = !michal;
+            if(michal) { _fun00012_ip = 56; continue _fun00011 }
  22:
-            tango = report.isEntitled;
-            oscar = _closure1_slot3;
-            zulu = oscar.getCurrentUser;
-            zulu = zulu.bind(oscar)();
-            mike = _closure1_slot4;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = report.isEntitled;
+            oscard = _closure1_slot3;
+            zuuluu = oscard.getCurrentUser;
+            zuuluu = zuuluu.bind(oscard)();
+            michal = _closure1_slot4;
+            entity = tangon.bind(report)(zuuluu, michal);
  56:
             return entity;
         }
     };
-    zulu['isUserEntitledToLibraryApplication'] = mike;
+    zuuluu['isUserEntitledToLibraryApplication'] = michal;
     return entity;
 })();

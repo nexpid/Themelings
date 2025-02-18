@@ -1,53 +1,53 @@
 // app/modules/app_database/modules/messages/isLimitedChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    oscar = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    tango = function(argFoo) { // Original name: isLimitedChannel
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    oscard = argBaz;
+    zuuluu = argFre;
+    option = argPlu;
+    tangon = function(argFoo) { // Original name: isLimitedChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = _closure1_slot1;
-            report = oscar.getMemberCount;
+            tangon = argFoo;
+            oscard = _closure1_slot1;
+            report = oscard.getMemberCount;
             entity = null;
-            golf = entity == tango;
-            zulu = undefined;
-            if(golf) { _fun00002_ip = 32; continue _fun00001 }
+            golfie = entity == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00002_ip = 32; continue _fun00001 }
  27:
-            zulu = tango.guild_id;
+            zuuluu = tangon.guild_id;
  32:
-            report = report.bind(oscar)(zulu);
-            oscar = entity != report;
-            zulu = 0;
-            if(!oscar) { _fun00002_ip = 49; continue _fun00001 }
+            report = report.bind(oscard)(zuuluu);
+            oscard = entity != report;
+            zuuluu = 0;
+            if(!oscard) { _fun00002_ip = 49; continue _fun00001 }
  46:
-            zulu = report;
+            zuuluu = report;
  49:
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 75; continue _fun00001 }
  56:
-            oscar = tango.type;
+            oscard = tangon.type;
             report = _closure1_slot2;
             report = report.DM;
-            entity = oscar !== report;
+            entity = oscard !== report;
  75:
             if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  78:
-            report = tango.type;
-            tango = _closure1_slot2;
-            tango = tango.GROUP_DM;
-            entity = report !== tango;
+            report = tangon.type;
+            tangon = _closure1_slot2;
+            tangon = tangon.GROUP_DM;
+            entity = report !== tangon;
  97:
             if(!entity) { _fun00002_ip = 108; continue _fun00001 }
  100:
-            mike = _closure1_slot3;
-            entity = zulu >= mike;
+            michal = _closure1_slot3;
+            entity = zuuluu >= michal;
  108:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -55,51 +55,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = options[entity];
+    report = option[entity];
     entity = undefined;
-    report = oscar.bind(entity)(report);
+    report = oscard.bind(entity)(report);
     var _closure1_slot0 = report;
     report = 1;
-    report = options[report];
-    report = oscar.bind(entity)(report);
+    report = option[report];
+    report = oscard.bind(entity)(report);
     var _closure1_slot1 = report;
     report = 2;
-    report = options[report];
-    report = golf.bind(entity)(report);
+    report = option[report];
+    report = golfie.bind(entity)(report);
     report = report.ChannelTypes;
     var _closure1_slot2 = report;
     report = 10000;
     var _closure1_slot3 = report;
-    oscar = 3;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['LIMITED_GUILD_MEMBER_THRESHOLD'] = report;
-    zulu['isLimitedChannel'] = tango;
-    mike = function(argFoo) { // Original name: isLimitedChannelId
+    oscard = 3;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['LIMITED_GUILD_MEMBER_THRESHOLD'] = report;
+    zuuluu['isLimitedChannel'] = tangon;
+    michal = function(argFoo) { // Original name: isLimitedChannelId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot4;
-            tango = _closure1_slot0;
-            mike = tango.getBasicChannel;
+            zuuluu = _closure1_slot4;
+            tangon = _closure1_slot0;
+            michal = tangon.getBasicChannel;
             entity = null;
-            oscar = entity != report;
+            oscard = entity != report;
             entity = '_';
-            if(!oscar) { _fun00004_ip = 36; continue _fun00003 }
+            if(!oscard) { _fun00004_ip = 36; continue _fun00003 }
  33:
             entity = report;
  36:
-            mike = mike.bind(tango)(entity);
+            michal = michal.bind(tangon)(entity);
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         }
     };
-    zulu['isLimitedChannelId'] = mike;
+    zuuluu['isLimitedChannelId'] = michal;
     return entity;
 })();

@@ -1,142 +1,142 @@
 // app/modules/app_database/modules/LowDiskTrim.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = function() { // Original name: LowDiskTrim
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function() { // Original name: LowDiskTrim
             report = this;
             var _closure3_slot0 = report;
-            oscar = _closure1_slot2;
-            tango = _closure2_slot0;
+            oscard = _closure1_slot2;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = oscar.bind(entity)(report, tango);
-            tango = false;
-            report['isLowDisk'] = tango;
-            tango = {};
-            oscar = function() { // Original name: POST_CONNECTION_OPEN
-                mike = _closure3_slot0;
-                entity = mike.handlePostConnectionOpen;
-                entity = entity.bind(mike)();
+            tangon = oscard.bind(entity)(report, tangon);
+            tangon = false;
+            report['isLowDisk'] = tangon;
+            tangon = {};
+            oscard = function() { // Original name: POST_CONNECTION_OPEN
+                michal = _closure3_slot0;
+                entity = michal.handlePostConnectionOpen;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            tango['POST_CONNECTION_OPEN'] = oscar;
-            report['actions'] = tango;
-            tango = _closure1_slot4;
-            zulu = tango.addChangeListener;
-            mike = function() {
-                mike = _closure3_slot0;
-                entity = mike.handleFileSystemStoreChanged;
-                entity = entity.bind(mike)();
+            tangon['POST_CONNECTION_OPEN'] = oscard;
+            report['actions'] = tangon;
+            tangon = _closure1_slot4;
+            zuuluu = tangon.addChangeListener;
+            michal = function() {
+                michal = _closure3_slot0;
+                entity = michal.handleFileSystemStoreChanged;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'handlePostConnectionOpen';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
-            mike = this;
+        michal = 'handlePostConnectionOpen';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
+            michal = this;
             entity = false;
-            mike['isLowDisk'] = entity;
-            entity = mike.handleFileSystemStoreChanged;
-            entity = entity.bind(mike)();
+            michal['isLowDisk'] = entity;
+            entity = michal.handleFileSystemStoreChanged;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(3);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(3);
+        michal[0] = entity;
         entity = {};
-        oscar = 'handleFileSystemStoreChanged';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'handleFileSystemStoreChanged';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = this;
+                michal = this;
                 entity = _closure1_slot4;
                 entity = entity.isLowDisk;
-                tango = entity;
-                if(!tango) { _fun00002_ip = 32; continue _fun00001 }
+                tangon = entity;
+                if(!tangon) { _fun00002_ip = 32; continue _fun00001 }
  22:
-                report = mike.isLowDisk;
-                tango = report !== entity;
+                report = michal.isLowDisk;
+                tangon = report !== entity;
  32:
-                if(!tango) { _fun00002_ip = 83; continue _fun00001 }
+                if(!tangon) { _fun00002_ip = 83; continue _fun00001 }
  35:
                 report = _closure1_slot0;
-                tango = _closure1_slot1;
-                zulu = 3;
-                tango = tango[zulu];
-                zulu = undefined;
-                tango = report.bind(zulu)(tango);
-                zulu = tango.database;
-                tango = zulu.bind(tango)();
-                zulu = null;
-                if(!(zulu != tango)) { _fun00002_ip = 83; continue _fun00001 }
+                tangon = _closure1_slot1;
+                zuuluu = 3;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                tangon = report.bind(zuuluu)(tangon);
+                zuuluu = tangon.database;
+                tangon = zuuluu.bind(tangon)();
+                zuuluu = null;
+                if(!(zuuluu != tangon)) { _fun00002_ip = 83; continue _fun00001 }
  73:
-                zulu = tango.incrementalVacuum;
-                zulu = zulu.bind(tango)();
+                zuuluu = tangon.incrementalVacuum;
+                zuuluu = zuuluu.bind(tangon)();
  83:
-                mike['isLowDisk'] = entity;
+                michal['isLowDisk'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'resetInMemoryState';
-        entity['key'] = oscar;
+        oscard = 'resetInMemoryState';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             entity = undefined;
             return entity;
         };
         entity['value'] = report;
-        mike[2] = entity;
+        michal[2] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = mike.prototype;
-    tango = Object.create(tango, {constructor: {value: mike}});
-    romeo = tango;
-    mike = new romeo[mike](yankee);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 4;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/modules/LowDiskTrim.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = michal.prototype;
+    tangon = Object.create(tangon, {constructor: {value: michal}});
+    romeon = tangon;
+    michal = new romeon[michal](yankee);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 4;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/modules/LowDiskTrim.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

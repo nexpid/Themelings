@@ -1,68 +1,68 @@
 // app/modules/emojis/top_emojis/TopEmojisActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emojis/top_emojis/TopEmojisActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: fetchTopEmojis
-        options = argFoo;
-        var _closure2_slot0 = options;
-        tango = _closure1_slot1;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emojis/top_emojis/TopEmojisActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: fetchTopEmojis
+        option = argFoo;
+        var _closure2_slot0 = option;
+        tangon = _closure1_slot1;
         report = _closure1_slot2;
         entity = 1;
-        zulu = report[entity];
+        zuuluu = report[entity];
         entity = undefined;
-        golf = tango.bind(entity)(zulu);
-        tango = golf.dispatch;
-        zulu = {};
+        golfie = tangon.bind(entity)(zuuluu);
+        tangon = golfie.dispatch;
+        zuuluu = {};
         verify = 'TOP_EMOJIS_FETCH';
-        zulu['type'] = verify;
-        zulu['guildId'] = options;
-        zulu = tango.bind(golf)(zulu);
-        tango = _closure1_slot0;
-        zulu = 2;
-        zulu = report[zulu];
-        zulu = tango.bind(entity)(zulu);
-        report = zulu.HTTP;
-        tango = report.get;
-        zulu = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-        golf = _closure1_slot3;
-        oscar = golf.TOP_EMOJIS_FOR_GUILD;
-        oscar = oscar.bind(golf)(options);
-        zulu['url'] = oscar;
-        report = tango.bind(report)(zulu);
-        tango = report.then;
-        zulu = function(argFoo) {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        zuuluu['type'] = verify;
+        zuuluu['guildId'] = option;
+        zuuluu = tangon.bind(golfie)(zuuluu);
+        tangon = _closure1_slot0;
+        zuuluu = 2;
+        zuuluu = report[zuuluu];
+        zuuluu = tangon.bind(entity)(zuuluu);
+        report = zuuluu.HTTP;
+        tangon = report.get;
+        zuuluu = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+        golfie = _closure1_slot3;
+        oscard = golfie.TOP_EMOJIS_FOR_GUILD;
+        oscard = oscard.bind(golfie)(option);
+        zuuluu['url'] = oscard;
+        report = tangon.bind(report)(zuuluu);
+        tangon = report.then;
+        zuuluu = function(argFoo) {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
             report = 'TOP_EMOJIS_FETCH_SUCCESS';
             entity['type'] = report;
@@ -70,123 +70,123 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['guildId'] = report;
             report = argFoo;
             report = report.body;
-            golf = report.items;
-            oscar = golf.map;
+            golfie = report.items;
+            oscard = golfie.map;
             report = function(argFoo) {
-                mike = argFoo;
+                michal = argFoo;
                 entity = {};
-                zulu = mike.emoji_id;
-                entity['emojiId'] = zulu;
-                mike = mike.emoji_rank;
-                entity['rank'] = mike;
+                zuuluu = michal.emoji_id;
+                entity['emojiId'] = zuuluu;
+                michal = michal.emoji_rank;
+                entity['rank'] = michal;
                 return entity;
             };
-            oscar = oscar.bind(golf)(report);
-            report = oscar.sort;
-            tango = function(argFoo, argBar) {
+            oscard = oscard.bind(golfie)(report);
+            report = oscard.sort;
+            tangon = function(argFoo, argBar) {
                 entity = argFoo;
-                mike = entity.rank;
+                michal = entity.rank;
                 entity = argBar;
                 entity = entity.rank;
-                entity = mike - entity;
+                entity = michal - entity;
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            entity['topEmojisMetadata'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = report.bind(oscard)(tangon);
+            entity['topEmojisMetadata'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
-            tango = 'TOP_EMOJIS_FETCH_FAILURE';
-            entity['type'] = tango;
-            tango = _closure2_slot0;
-            entity['guildId'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = 'TOP_EMOJIS_FETCH_FAILURE';
+            entity['type'] = tangon;
+            tangon = _closure2_slot0;
+            entity['guildId'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = tango.bind(report)(zulu, mike);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['fetchTopEmojis'] = tango;
-    tango = function(argFoo, argBar) { // Original name: updateNewlyAddedLastSeen
+    zuuluu['fetchTopEmojis'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: updateNewlyAddedLastSeen
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = argBar;
-            golf = _closure1_slot1;
+            golfie = _closure1_slot1;
             entity = _closure1_slot2;
-            tango = 1;
-            zulu = entity[tango];
+            tangon = 1;
+            zuuluu = entity[tangon];
             entity = undefined;
-            options = golf.bind(entity)(zulu);
-            golf = options.dispatch;
-            zulu = {};
+            option = golfie.bind(entity)(zuuluu);
+            golfie = option.dispatch;
+            zuuluu = {};
             verify = 'NEWLY_ADDED_EMOJI_SEEN_UPDATED';
-            zulu['type'] = verify;
-            zulu = golf.bind(options)(zulu);
-            golf = null;
-            zulu = golf != oscar;
-            if(!zulu) { _fun00002_ip = 66; continue _fun00001 }
+            zuuluu['type'] = verify;
+            zuuluu = golfie.bind(option)(zuuluu);
+            golfie = null;
+            zuuluu = golfie != oscard;
+            if(!zuuluu) { _fun00002_ip = 66; continue _fun00001 }
  62:
-            zulu = golf != report;
+            zuuluu = golfie != report;
  66:
-            if(!zulu) { _fun00002_ip = 117; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 117; continue _fun00001 }
  69:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[tango];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            golf = 'NEWLY_ADDED_EMOJI_SEEN_PENDING';
-            mike['type'] = golf;
-            mike['guildId'] = oscar;
-            mike['emojiId'] = report;
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[tangon];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            golfie = 'NEWLY_ADDED_EMOJI_SEEN_PENDING';
+            michal['type'] = golfie;
+            michal['guildId'] = oscard;
+            michal['emojiId'] = report;
+            michal = zuuluu.bind(tangon)(michal);
  117:
             return entity;
         }
     };
-    zulu['updateNewlyAddedLastSeen'] = tango;
-    mike = function(argFoo, argBar) { // Original name: updateNewlyAddedEmojiSeenAcknowledged
+    zuuluu['updateNewlyAddedLastSeen'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: updateNewlyAddedEmojiSeenAcknowledged
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            tango = argBar;
-            mike = null;
-            entity = mike != report;
+            tangon = argBar;
+            michal = null;
+            entity = michal != report;
             if(!entity) { _fun00004_ip = 19; continue _fun00003 }
  15:
-            entity = mike != tango;
+            entity = michal != tangon;
  19:
             if(!entity) { _fun00004_ip = 78; continue _fun00003 }
  22:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
-            oscar = 'NEWLY_ADDED_EMOJI_SEEN_ACKNOWLEDGED';
-            entity['type'] = oscar;
+            oscard = 'NEWLY_ADDED_EMOJI_SEEN_ACKNOWLEDGED';
+            entity['type'] = oscard;
             entity['guildId'] = report;
-            entity['emojiId'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['emojiId'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
  78:
             entity = undefined;
             return entity;
         }
     };
-    zulu['updateNewlyAddedEmojiSeenAcknowledged'] = mike;
+    zuuluu['updateNewlyAddedEmojiSeenAcknowledged'] = michal;
     return entity;
 })();

@@ -1,100 +1,100 @@
 // app/modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: trackFriendsListViewed
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: trackFriendsListViewed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.tab_opened;
             yankee = entity.source;
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             report = _closure1_slot2;
             entity = 1;
-            mike = report[entity];
+            michal = report[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            golf = mike.bind(entity)();
-            mike = 2;
-            mike = report[mike];
-            offset = tango.bind(entity)(mike);
-            options = offset.track;
-            mike = _closure1_slot3;
-            oscar = mike.FRIENDS_LIST_VIEWED;
-            tango = {};
-            tango['tab_opened'] = verify;
-            tango['source'] = yankee;
-            backup = tango;
-            foxtrot = golf;
-            yankee = copyDataProperties(backup, foxtrot);
-            tango = options.bind(offset)(oscar, tango);
-            tango = _closure1_slot0;
-            zulu = 3;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.trackClickstream;
-            zulu = mike.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            mike = {};
-            options = null;
-            offset = options != verify;
-            oscar = 'tabless';
+            michal = tangon.bind(entity)(michal);
+            golfie = michal.bind(entity)();
+            michal = 2;
+            michal = report[michal];
+            offset = tangon.bind(entity)(michal);
+            option = offset.track;
+            michal = _closure1_slot3;
+            oscard = michal.FRIENDS_LIST_VIEWED;
+            tangon = {};
+            tangon['tab_opened'] = verify;
+            tangon['source'] = yankee;
+            backup = tangon;
+            foxtra = golfie;
+            yankee = copyDataProperties(backup, foxtra);
+            tangon = option.bind(offset)(oscard, tangon);
+            tangon = _closure1_slot0;
+            zuuluu = 3;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.trackClickstream;
+            zuuluu = michal.FRIENDS_LIST_VIEWED_CLICKSTREAM;
+            michal = {};
+            option = null;
+            offset = option != verify;
+            oscard = 'tabless';
             if(!offset) { _fun00002_ip = 145; continue _fun00001 }
  142:
-            oscar = verify;
+            oscard = verify;
  145:
-            mike['tab_opened'] = oscar;
-            offset = golf.num_friends;
-            yankee = options != offset;
+            michal['tab_opened'] = oscard;
+            offset = golfie.num_friends;
+            yankee = option != offset;
             verify = 0;
             if(!yankee) { _fun00002_ip = 168; continue _fun00001 }
  165:
             verify = offset;
  168:
-            mike['num_friends'] = verify;
-            offset = golf.now_playing_visible;
-            verify = options != offset;
+            michal['num_friends'] = verify;
+            offset = golfie.now_playing_visible;
+            verify = option != offset;
             if(!verify) { _fun00002_ip = 189; continue _fun00001 }
  186:
             verify = offset;
  189:
-            mike['now_playing_visible'] = verify;
-            golf = golf.now_playing_num_cards;
-            options = options != golf;
-            oscar = 0;
-            if(!options) { _fun00002_ip = 212; continue _fun00001 }
+            michal['now_playing_visible'] = verify;
+            golfie = golfie.now_playing_num_cards;
+            option = option != golfie;
+            oscard = 0;
+            if(!option) { _fun00002_ip = 212; continue _fun00001 }
  209:
-            oscar = golf;
+            oscard = golfie;
  212:
-            mike['now_playing_num_cards'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            michal['now_playing_num_cards'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

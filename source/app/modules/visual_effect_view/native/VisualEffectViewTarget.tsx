@@ -1,42 +1,42 @@
 // app/modules/visual_effect_view/native/VisualEffectViewTarget.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
+        zuuluu = argFre;
+        oscard = argPlu;
         entity = global;
-        golf = entity.Object;
-        tango = golf.defineProperty;
-        mike = {};
+        golfie = entity.Object;
+        tangon = golfie.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = tango.bind(golf)(zulu, entity, mike);
+        entity = tangon.bind(golfie)(zuuluu, entity, michal);
         entity = 0;
-        mike = oscar[entity];
+        michal = oscard[entity];
         entity = undefined;
-        mike = report.bind(entity)(mike);
-        mike = mike.View;
-        tango = 1;
-        tango = oscar[tango];
-        golf = report.bind(entity)(tango);
-        tango = golf.isAndroid;
-        tango = tango.bind(golf)();
-        if(!tango) { _fun00002_ip = 98; continue _fun00001 }
+        michal = report.bind(entity)(michal);
+        michal = michal.View;
+        tangon = 1;
+        tangon = oscard[tangon];
+        golfie = report.bind(entity)(tangon);
+        tangon = golfie.isAndroid;
+        tangon = tangon.bind(golfie)();
+        if(!tangon) { _fun00002_ip = 98; continue _fun00001 }
  83:
-        tango = 2;
-        golf = oscar[tango];
-        tango = argBaz;
-        mike = tango.bind(entity)(golf);
+        tangon = 2;
+        golfie = oscard[tangon];
+        tangon = argBaz;
+        michal = tangon.bind(entity)(golfie);
  98:
-        tango = 3;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/visual_effect_view/native/VisualEffectViewTarget.tsx';
-        tango = report.bind(oscar)(tango);
-        zulu['default'] = mike;
+        tangon = 3;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/visual_effect_view/native/VisualEffectViewTarget.tsx';
+        tangon = report.bind(oscard)(tangon);
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

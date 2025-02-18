@@ -1,79 +1,79 @@
 // app/modules/threads/MessageCountUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = options;
+    var _closure1_slot2 = option;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    report = tango.MAX_THREAD_MESSAGE_COUNT;
+    tangon = golfie.bind(entity)(tangon);
+    report = tangon.MAX_THREAD_MESSAGE_COUNT;
     var _closure1_slot3 = report;
-    tango = tango.MAX_THREAD_MESSAGE_COUNT_OLD;
-    var _closure1_slot4 = tango;
+    tangon = tangon.MAX_THREAD_MESSAGE_COUNT_OLD;
+    var _closure1_slot4 = tangon;
     report = function(argFoo) { // Original name: shouldUseOldMaxMessageCount
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.compare;
-        mike = '992549565104128000';
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.compare;
+        michal = '992549565104128000';
         entity = argFoo;
-        mike = zulu.bind(tango)(mike, entity);
+        michal = zuuluu.bind(tangon)(michal, entity);
         entity = -1;
-        entity = mike > entity;
+        entity = michal > entity;
         return entity;
     };
     var _closure1_slot5 = report;
-    tango = function(argFoo, argBar) { // Original name: getMessageCountText
+    tangon = function(argFoo, argBar) { // Original name: getMessageCountText
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = argBar;
-            zulu = null;
-            if(!(zulu != report)) { _fun00002_ip = 100; continue _fun00001 }
+            tangon = argBar;
+            zuuluu = null;
+            if(!(zuuluu != report)) { _fun00002_ip = 100; continue _fun00001 }
  12:
             entity = 0;
             if(!(!(report < entity))) { _fun00002_ip = 100; continue _fun00001 }
  18:
-            oscar = _closure1_slot5;
+            oscard = _closure1_slot5;
             entity = undefined;
-            entity = oscar.bind(entity)(tango);
-            if(!(zulu != tango)) { _fun00002_ip = 39; continue _fun00001 }
+            entity = oscard.bind(entity)(tangon);
+            if(!(zuuluu != tangon)) { _fun00002_ip = 39; continue _fun00001 }
  36:
             if(!entity) { _fun00002_ip = 56; continue _fun00001 }
  39:
             entity = _closure1_slot4;
-            zulu = report >= entity;
+            zuuluu = report >= entity;
             entity = '50+';
-            if(zulu) { _fun00002_ip = 98; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
  56:
-            mike = _closure1_slot3;
-            zulu = report >= mike;
-            mike = '100k+';
-            if(zulu) { _fun00002_ip = 95; continue _fun00001 }
+            michal = _closure1_slot3;
+            zuuluu = report >= michal;
+            michal = '100k+';
+            if(zuuluu) { _fun00002_ip = 95; continue _fun00001 }
  73:
-            zulu = global;
-            zulu = zulu.HermesInternal;
-            tango = zulu.concat;
-            zulu = '';
-            mike = tango.bind(zulu)(report);
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            tangon = zuuluu.concat;
+            zuuluu = '';
+            michal = tangon.bind(zuuluu)(report);
  95:
-            entity = mike;
+            entity = michal;
  98:
             return entity;
  100:
@@ -81,87 +81,87 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
-    oscar = function(argFoo, argBar, argBaz) { // Original name: _formatMessageCountLabel
+    var _closure1_slot6 = tangon;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: _formatMessageCountLabel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = _closure1_slot6;
-            oscar = undefined;
-            zulu = argFoo;
+            tangon = _closure1_slot6;
+            oscard = undefined;
+            zuuluu = argFoo;
             entity = argBaz;
-            entity = tango.bind(oscar)(zulu, entity);
-            zulu = '0';
-            if(!(zulu !== entity)) { _fun00004_ip = 78; continue _fun00003 }
+            entity = tangon.bind(oscard)(zuuluu, entity);
+            zuuluu = '0';
+            if(!(zuuluu !== entity)) { _fun00004_ip = 78; continue _fun00003 }
  31:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 2;
-            zulu = report[zulu];
-            zulu = tango.bind(oscar)(zulu);
-            report = zulu.intl;
-            tango = report.formatToPlainString;
-            zulu = {};
-            zulu['count'] = entity;
+            zuuluu = 2;
+            zuuluu = report[zuuluu];
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            report = zuuluu.intl;
+            tangon = report.formatToPlainString;
+            zuuluu = {};
+            zuuluu['count'] = entity;
             entity = argBar;
-            entity = tango.bind(report)(entity, zulu);
+            entity = tangon.bind(report)(entity, zuuluu);
             _fun00004_ip = 135; continue _fun00003;
  78:
             report = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 2;
-            zulu = golf[mike];
-            zulu = report.bind(oscar)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = report.bind(oscar)(mike);
-            mike = mike.t;
-            mike = mike.eXHkho;
-            entity = zulu.bind(tango)(mike);
+            golfie = _closure1_slot2;
+            michal = 2;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = report.bind(oscard)(michal);
+            michal = michal.t;
+            michal = michal.eXHkho;
+            entity = zuuluu.bind(tangon)(michal);
  135:
             return entity;
         }
     };
-    var _closure1_slot7 = oscar;
-    oscar = 3;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/threads/MessageCountUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['shouldUseOldMaxMessageCount'] = report;
-    zulu['getMessageCountText'] = tango;
-    tango = function(argFoo, argBar) {
+    var _closure1_slot7 = oscard;
+    oscard = 3;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/threads/MessageCountUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['shouldUseOldMaxMessageCount'] = report;
+    zuuluu['getMessageCountText'] = tangon;
+    tangon = function(argFoo, argBar) {
         report = _closure1_slot7;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 2;
-        entity = zulu[entity];
-        tango = undefined;
-        entity = mike.bind(tango)(entity);
+        entity = zuuluu[entity];
+        tangon = undefined;
+        entity = michal.bind(tangon)(entity);
         entity = entity.t;
-        zulu = entity.iTS3XV;
-        mike = argFoo;
+        zuuluu = entity.iTS3XV;
+        michal = argFoo;
         entity = argBar;
-        entity = report.bind(tango)(mike, zulu, entity);
+        entity = report.bind(tangon)(michal, zuuluu, entity);
         return entity;
     };
-    zulu['formatMobileMessageCountLabel'] = tango;
-    mike = function(argFoo, argBar) {
+    zuuluu['formatMobileMessageCountLabel'] = tangon;
+    michal = function(argFoo, argBar) {
         report = _closure1_slot7;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 2;
-        entity = zulu[entity];
-        tango = undefined;
-        entity = mike.bind(tango)(entity);
+        entity = zuuluu[entity];
+        tangon = undefined;
+        entity = michal.bind(tangon)(entity);
         entity = entity.t;
-        zulu = entity.rfAXDQ;
-        mike = argFoo;
+        zuuluu = entity.rfAXDQ;
+        michal = argFoo;
         entity = argBar;
-        entity = report.bind(tango)(mike, zulu, entity);
+        entity = report.bind(tangon)(michal, zuuluu, entity);
         return entity;
     };
-    zulu['formatMessageCountLabel'] = mike;
+    zuuluu['formatMessageCountLabel'] = michal;
     return entity;
 })();

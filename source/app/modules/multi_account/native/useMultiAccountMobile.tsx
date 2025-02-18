@@ -1,103 +1,103 @@
 // app/modules/multi_account/native/useMultiAccountMobile.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argCorge;
+    entity = argCor;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/multi_account/native/useMultiAccountMobile.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useMultiAccountMobile
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/multi_account/native/useMultiAccountMobile.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useMultiAccountMobile
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot2;
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            entity = zulu[entity];
-            tango = undefined;
-            options = oscar.bind(tango)(entity);
-            golf = options.useStateFromStores;
+            entity = zuuluu[entity];
+            tangon = undefined;
+            option = oscard.bind(tangon)(entity);
+            golfie = option.useStateFromStores;
             entity = _closure1_slot3;
             report = new Array(1);
             report[0] = entity;
             entity = function() {
-                mike = _closure1_slot3;
-                entity = mike.getCanUseMultiAccountMobile;
-                entity = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getCanUseMultiAccountMobile;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            entity = golf.bind(options)(report, entity);
+            entity = golfie.bind(option)(report, entity);
             report = 2;
-            zulu = zulu[report];
-            zulu = oscar.bind(tango)(zulu);
-            verify = zulu.MultiAccountMobileExperiment;
-            options = verify.useExperiment;
-            oscar = {};
-            zulu = '9fc8b9_1';
-            oscar['location'] = zulu;
-            zulu = {};
-            golf = false;
-            zulu['autoTrackExposure'] = golf;
-            zulu = options.bind(verify)(oscar, zulu);
-            oscar = zulu.isMultiAccountMobileEnabled;
-            zulu = zulu.clearCanUseMultiAccountMobile;
+            zuuluu = zuuluu[report];
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            verify = zuuluu.MultiAccountMobileExperiment;
+            option = verify.useExperiment;
+            oscard = {};
+            zuuluu = '9fc8b9_1';
+            oscard['location'] = zuuluu;
+            zuuluu = {};
+            golfie = false;
+            zuuluu['autoTrackExposure'] = golfie;
+            zuuluu = option.bind(verify)(oscard, zuuluu);
+            oscard = zuuluu.isMultiAccountMobileEnabled;
+            zuuluu = zuuluu.clearCanUseMultiAccountMobile;
             if(entity) { _fun00002_ip = 161; continue _fun00001 }
  123:
-            if(!oscar) { _fun00002_ip = 161; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 161; continue _fun00001 }
  126:
-            options = _closure1_slot1;
+            option = _closure1_slot1;
             verify = _closure1_slot2;
-            oscar = 3;
-            oscar = verify[oscar];
-            verify = options.bind(tango)(oscar);
-            options = verify.multiAccountMobileExperimentUpdate;
-            oscar = true;
-            oscar = options.bind(verify)(oscar);
+            oscard = 3;
+            oscard = verify[oscard];
+            verify = option.bind(tangon)(oscard);
+            option = verify.multiAccountMobileExperimentUpdate;
+            oscard = true;
+            oscard = option.bind(verify)(oscard);
             _fun00002_ip = 195; continue _fun00001;
  161:
-            if(!zulu) { _fun00002_ip = 195; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 195; continue _fun00001 }
  164:
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 3;
-            zulu = options[zulu];
-            oscar = oscar.bind(tango)(zulu);
-            zulu = oscar.multiAccountMobileExperimentUpdate;
-            zulu = zulu.bind(oscar)(golf);
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 3;
+            zuuluu = option[zuuluu];
+            oscard = oscard.bind(tangon)(zuuluu);
+            zuuluu = oscard.multiAccountMobileExperimentUpdate;
+            zuuluu = zuuluu.bind(oscard)(golfie);
  195:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[report];
-            mike = zulu.bind(tango)(mike);
-            tango = mike.MultiAccountMobileExperiment;
-            zulu = tango.trackExposure;
-            mike = {};
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[report];
+            michal = zuuluu.bind(tangon)(michal);
+            tangon = michal.MultiAccountMobileExperiment;
+            zuuluu = tangon.trackExposure;
+            michal = {};
             report = '9fc8b9_2';
-            mike['location'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['location'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['useMultiAccountMobile'] = mike;
+    zuuluu['useMultiAccountMobile'] = michal;
     return entity;
 })();

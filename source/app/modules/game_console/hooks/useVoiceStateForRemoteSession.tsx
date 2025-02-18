@@ -1,79 +1,79 @@
 // app/modules/game_console/hooks/useVoiceStateForRemoteSession.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_console/hooks/useVoiceStateForRemoteSession.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useVoiceStateForRemoteSession
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        report = tango.bind(mike)(zulu);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(3);
-        zulu[0] = mike;
-        mike = _closure1_slot3;
-        zulu[1] = mike;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_console/hooks/useVoiceStateForRemoteSession.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useVoiceStateForRemoteSession
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        report = tangon.bind(michal)(zuuluu);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(3);
+        zuuluu[0] = michal;
+        michal = _closure1_slot3;
+        zuuluu[1] = michal;
         entity = _closure1_slot4;
-        zulu[2] = entity;
-        mike = function() {
+        zuuluu[2] = entity;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot2;
-                mike = zulu.getId;
-                tango = mike.bind(zulu)();
-                zulu = _closure1_slot4;
-                mike = zulu.getRemoteSessionId;
-                zulu = mike.bind(zulu)();
-                mike = _closure1_slot3;
-                entity = mike.getVoiceStateForSession;
-                mike = entity.bind(mike)(tango, zulu);
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getId;
+                tangon = michal.bind(zuuluu)();
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.getRemoteSessionId;
+                zuuluu = michal.bind(zuuluu)();
+                michal = _closure1_slot3;
+                entity = michal.getVoiceStateForSession;
+                michal = entity.bind(michal)(tangon, zuuluu);
                 entity = null;
-                zulu = entity != mike;
+                zuuluu = entity != michal;
                 entity = undefined;
-                if(!zulu) { _fun00002_ip = 61; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 61; continue _fun00001 }
  58:
-                entity = mike;
+                entity = michal;
  61:
                 return entity;
             }
         };
         entity = new Array(0);
-        entity = tango.bind(report)(zulu, mike, entity);
+        entity = tangon.bind(report)(zuuluu, michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

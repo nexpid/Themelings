@@ -1,60 +1,60 @@
 // app/modules/rpc/helpers/getCurrentVoiceChannel.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/helpers/getCurrentVoiceChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getCurrentVoiceChannel
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/helpers/getCurrentVoiceChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getCurrentVoiceChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot2;
-            tango = report.getVoiceStateForSession;
-            oscar = _closure1_slot0;
-            mike = oscar.getId;
-            zulu = mike.bind(oscar)();
-            mike = oscar.getSessionId;
-            mike = mike.bind(oscar)();
-            mike = tango.bind(report)(zulu, mike);
-            zulu = null;
-            tango = zulu == mike;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 59; continue _fun00001 }
+            tangon = report.getVoiceStateForSession;
+            oscard = _closure1_slot0;
+            michal = oscard.getId;
+            zuuluu = michal.bind(oscard)();
+            michal = oscard.getSessionId;
+            michal = michal.bind(oscard)();
+            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu = null;
+            tangon = zuuluu == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 59; continue _fun00001 }
  54:
-            zulu = mike.channelId;
+            zuuluu = michal.channelId;
  59:
-            mike = _closure1_slot1;
-            entity = mike.getChannel;
-            entity = entity.bind(mike)(zulu);
+            michal = _closure1_slot1;
+            entity = michal.getChannel;
+            entity = entity.bind(michal)(zuuluu);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

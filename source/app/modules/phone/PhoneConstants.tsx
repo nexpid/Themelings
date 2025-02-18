@@ -1,26 +1,26 @@
 // app/modules/phone/PhoneConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/phone/PhoneConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 'PHONE_VERIFICATION_MODAL_KEY';
-    zulu['PHONE_VERIFICATION_MODAL_KEY'] = mike;
-    mike = 6;
-    zulu['PHONE_VERIFICATION_CODE_NUM_DIGITS'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/phone/PhoneConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 'PHONE_VERIFICATION_MODAL_KEY';
+    zuuluu['PHONE_VERIFICATION_MODAL_KEY'] = michal;
+    michal = 6;
+    zuuluu['PHONE_VERIFICATION_CODE_NUM_DIGITS'] = michal;
     return entity;
 })();

@@ -1,181 +1,181 @@
 // app/modules/self_mod/inappropriate_conversation/InappropriateConversationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
     verify = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: shouldShowTakeoverForWarnings
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: shouldShowTakeoverForWarnings
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = tango.filter;
+            tangon = argFoo;
+            zuuluu = tangon.filter;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.type;
+                michal = entity.type;
                 entity = _closure1_slot5;
                 entity = entity.INAPPROPRIATE_CONVERSATION_TIER_1;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            tango = zulu.bind(tango)(entity);
-            zulu = tango.length;
+            tangon = zuuluu.bind(tangon)(entity);
+            zuuluu = tangon.length;
             entity = 0;
-            entity = zulu > entity;
+            entity = zuuluu > entity;
             if(!entity) { _fun00002_ip = 50; continue _fun00001 }
  34:
-            zulu = tango.every;
-            mike = function(argFoo) {
+            zuuluu = tangon.every;
+            michal = function(argFoo) {
                 entity = argFoo;
-                mike = entity.dismiss_timestamp;
+                michal = entity.dismiss_timestamp;
                 entity = null;
-                entity = entity == mike;
+                entity = entity == michal;
                 return entity;
             };
-            entity = zulu.bind(tango)(mike);
+            entity = zuuluu.bind(tangon)(michal);
  50:
             return entity;
         }
     };
-    var _closure1_slot6 = mike;
+    var _closure1_slot6 = michal;
     entity = global;
     offset = entity.Object;
-    options = offset.defineProperty;
+    option = offset.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(offset)(zulu, entity, report);
+    entity = option.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
     report = verify.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
+    report = golfie[report];
     report = verify.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    options = golf[report];
-    options = verify.bind(entity)(options);
-    var _closure1_slot4 = options;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    option = golfie[report];
+    option = verify.bind(entity)(option);
+    var _closure1_slot4 = option;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.SafetyWarningTypes;
     var _closure1_slot5 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/self_mod/inappropriate_conversation/InappropriateConversationUtils.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function() { // Original name: getSafetyAlertsSettingOrDefault
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot3;
-            mike = zulu.getCurrentUser;
-            oscar = mike.bind(zulu)();
-            mike = null;
-            zulu = mike == oscar;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getCurrentUser;
+            oscard = michal.bind(zuuluu)();
+            michal = null;
+            zuuluu = michal == oscard;
             report = undefined;
-            tango = undefined;
-            if(zulu) { _fun00004_ip = 39; continue _fun00003 }
+            tangon = undefined;
+            if(zuuluu) { _fun00004_ip = 39; continue _fun00003 }
  29:
-            zulu = oscar.isStaff;
-            tango = zulu.bind(oscar)();
+            zuuluu = oscard.isStaff;
+            tangon = zuuluu.bind(oscard)();
  39:
-            zulu = true;
-            zulu = zulu === tango;
-            tango = _closure1_slot2;
-            tango = tango.settings;
-            oscar = tango.privacy;
-            golf = mike == oscar;
-            tango = undefined;
-            if(golf) { _fun00004_ip = 90; continue _fun00003 }
+            zuuluu = true;
+            zuuluu = zuuluu === tangon;
+            tangon = _closure1_slot2;
+            tangon = tangon.settings;
+            oscard = tangon.privacy;
+            golfie = michal == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00004_ip = 90; continue _fun00003 }
  70:
-            oscar = oscar.inappropriateConversationWarnings;
-            golf = mike == oscar;
-            tango = undefined;
-            if(golf) { _fun00004_ip = 90; continue _fun00003 }
+            oscard = oscard.inappropriateConversationWarnings;
+            golfie = michal == oscard;
+            tangon = undefined;
+            if(golfie) { _fun00004_ip = 90; continue _fun00003 }
  85:
-            tango = oscar.value;
+            tangon = oscard.value;
  90:
-            mike = mike == tango;
-            if(mike) { _fun00004_ip = 100; continue _fun00003 }
+            michal = michal == tangon;
+            if(michal) { _fun00004_ip = 100; continue _fun00003 }
  97:
-            mike = tango;
+            michal = tangon;
  100:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 3;
-            entity = oscar[entity];
-            tango = tango.bind(report)(entity);
-            entity = tango.getUserIsTeen;
-            entity = entity.bind(tango)();
+            entity = oscard[entity];
+            tangon = tangon.bind(report)(entity);
+            entity = tangon.getUserIsTeen;
+            entity = entity.bind(tangon)();
             if(entity) { _fun00004_ip = 136; continue _fun00003 }
  133:
-            entity = zulu;
+            entity = zuuluu;
  136:
             if(!entity) { _fun00004_ip = 142; continue _fun00003 }
  139:
-            entity = mike;
+            entity = michal;
  142:
             return entity;
         }
     };
-    zulu['getSafetyAlertsSettingOrDefault'] = report;
+    zuuluu['getSafetyAlertsSettingOrDefault'] = report;
     report = function(argFoo) { // Original name: getInappropriateConversationTakeoverForChannel
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = function(argFoo) { // Original name: getTier1WarningsForChannel
-                zulu = _closure1_slot4;
-                mike = zulu.getChannelSafetyWarnings;
+            tangon = function(argFoo) { // Original name: getTier1WarningsForChannel
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.getChannelSafetyWarnings;
                 entity = argFoo;
-                zulu = mike.bind(zulu)(entity);
-                mike = zulu.filter;
+                zuuluu = michal.bind(zuuluu)(entity);
+                michal = zuuluu.filter;
                 entity = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.type;
+                    michal = entity.type;
                     entity = _closure1_slot5;
                     entity = entity.INAPPROPRIATE_CONVERSATION_TIER_1;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu = undefined;
-            mike = argFoo;
-            tango = tango.bind(zulu)(mike);
-            zulu = tango.filter;
-            mike = function(argFoo) {
+            zuuluu = undefined;
+            michal = argFoo;
+            tangon = tangon.bind(zuuluu)(michal);
+            zuuluu = tangon.filter;
+            michal = function(argFoo) {
                 entity = argFoo;
-                mike = entity.dismiss_timestamp;
+                michal = entity.dismiss_timestamp;
                 entity = null;
-                entity = entity != mike;
+                entity = entity != michal;
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
-            mike = mike.length;
-            zulu = 0;
-            if(!(!(mike > zulu))) { _fun00006_ip = 78; continue _fun00005 }
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.length;
+            zuuluu = 0;
+            if(!(!(michal > zuuluu))) { _fun00006_ip = 78; continue _fun00005 }
  43:
-            mike = tango.filter;
+            michal = tangon.filter;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.dismiss_timestamp;
+                michal = entity.dismiss_timestamp;
                 entity = null;
-                entity = entity == mike;
+                entity = entity == michal;
                 return entity;
             };
-            mike = mike.bind(tango)(entity);
-            report = mike.length;
-            tango = 1;
+            michal = michal.bind(tangon)(entity);
+            report = michal.length;
+            tangon = 1;
             entity = null;
-            if(!(tango === report)) { _fun00006_ip = 76; continue _fun00005 }
+            if(!(tangon === report)) { _fun00006_ip = 76; continue _fun00005 }
  72:
-            entity = mike[zulu];
+            entity = michal[zuuluu];
  76:
             return entity;
  78:
@@ -183,25 +183,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getInappropriateConversationTakeoverForChannel'] = report;
-    tango = function(argFoo) { // Original name: shouldShowInappropriateConversationTakeoverForChannelRecord
+    zuuluu['getInappropriateConversationTakeoverForChannel'] = report;
+    tangon = function(argFoo) { // Original name: shouldShowInappropriateConversationTakeoverForChannelRecord
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.safetyWarnings;
+            michal = argFoo;
+            zuuluu = michal.safetyWarnings;
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00008_ip = 38; continue _fun00007 }
  18:
-            tango = _closure1_slot6;
-            zulu = mike.safetyWarnings;
-            mike = undefined;
-            entity = tango.bind(mike)(zulu);
+            tangon = _closure1_slot6;
+            zuuluu = michal.safetyWarnings;
+            michal = undefined;
+            entity = tangon.bind(michal)(zuuluu);
  38:
             return entity;
         }
     };
-    zulu['shouldShowInappropriateConversationTakeoverForChannelRecord'] = tango;
-    zulu['shouldShowTakeoverForWarnings'] = mike;
+    zuuluu['shouldShowInappropriateConversationTakeoverForChannelRecord'] = tangon;
+    zuuluu['shouldShowTakeoverForWarnings'] = michal;
     return entity;
 })();

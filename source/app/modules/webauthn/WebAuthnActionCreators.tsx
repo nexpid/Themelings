@@ -1,591 +1,591 @@
 // app/modules/webauthn/WebAuthnActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _fetchWebAuthnConditionalChallenge
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 91; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 91; continue _fun00001 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.post;
+                    michal = {};
                     report = _closure1_slot4;
                     report = report.WEBAUTHN_CONDITIONAL_UI_CHALLENGE;
-                    mike['url'] = report;
+                    michal['url'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=74);
  72:
-                    return mike;
+                    return michal;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 88; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 88; continue _fun00001 }
  80:
-                    zulu = mike.body;
-                    return zulu;
+                    zuuluu = michal.body;
+                    return zuuluu;
  88:
-                    return mike;
+                    return michal;
  91:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = function() { // Original name: _fetchWebAuthnPasswordlessChallenge
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 115; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 115; continue _fun00003 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.post;
+                    michal = {};
                     report = _closure1_slot4;
                     report = report.WEBAUTHN_PASSWORDLESS_CHALLENGE;
-                    mike['url'] = report;
+                    michal['url'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=74);
  72:
-                    return mike;
+                    return michal;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 112; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 112; continue _fun00003 }
  80:
-                    tango = mike.body;
-                    zulu = {};
-                    report = tango.challenge;
-                    zulu['challenge'] = report;
-                    tango = tango.ticket;
-                    zulu['ticket'] = tango;
-                    return zulu;
+                    tangon = michal.body;
+                    zuuluu = {};
+                    report = tangon.challenge;
+                    zuuluu['challenge'] = report;
+                    tangon = tangon.ticket;
+                    zuuluu['ticket'] = tangon;
+                    return zuuluu;
  112:
-                    return mike;
+                    return michal;
  115:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _deleteWebAuthnCredentialAsync
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
-                    oscar = argFoo;
+                    oscard = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 120; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 120; continue _fun00005 }
  12:
-                    var _closure4_slot0 = oscar;
+                    var _closure4_slot0 = oscard;
                     report = _closure1_slot0;
-                    tango = _closure1_slot2;
-                    zulu = 2;
-                    tango = tango[zulu];
-                    zulu = undefined;
-                    zulu = report.bind(zulu)(tango);
-                    report = zulu.HTTP;
-                    tango = report.del;
-                    zulu = {};
-                    options = _closure1_slot4;
-                    golf = options.MFA_WEBAUTHN_CREDENTIAL;
-                    oscar = oscar.id;
-                    oscar = golf.bind(options)(oscar);
-                    zulu['url'] = oscar;
-                    oscar = false;
-                    zulu['rejectWithError'] = oscar;
-                    tango = tango.bind(report)(zulu);
-                    zulu = tango.then;
-                    mike = function() {
-                        zulu = _closure1_slot1;
-                        mike = _closure1_slot2;
+                    tangon = _closure1_slot2;
+                    zuuluu = 2;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    zuuluu = report.bind(zuuluu)(tangon);
+                    report = zuuluu.HTTP;
+                    tangon = report.del;
+                    zuuluu = {};
+                    option = _closure1_slot4;
+                    golfie = option.MFA_WEBAUTHN_CREDENTIAL;
+                    oscard = oscard.id;
+                    oscard = golfie.bind(option)(oscard);
+                    zuuluu['url'] = oscard;
+                    oscard = false;
+                    zuuluu['rejectWithError'] = oscard;
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = tangon.then;
+                    michal = function() {
+                        zuuluu = _closure1_slot1;
+                        michal = _closure1_slot2;
                         entity = 3;
-                        mike = mike[entity];
+                        michal = michal[entity];
                         entity = undefined;
-                        tango = zulu.bind(entity)(mike);
-                        zulu = tango.dispatch;
-                        mike = {};
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.dispatch;
+                        michal = {};
                         report = 'AUTHENTICATOR_DELETE';
-                        mike['type'] = report;
+                        michal['type'] = report;
                         report = _closure4_slot0;
-                        mike['credential'] = report;
-                        mike = zulu.bind(tango)(mike);
+                        michal['credential'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    mike = zulu.bind(tango)(mike);
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=108);
  106:
-                    return mike;
+                    return michal;
  108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 117; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 117; continue _fun00005 }
  114:
-                    return mike;
+                    return michal;
  117:
-                    return mike;
+                    return michal;
  120:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot7 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _editWebAuthnCredential
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 162; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 162; continue _fun00007 }
  10:
                     report = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 2;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    mike = report.bind(zulu)(mike);
-                    oscar = mike.HTTP;
-                    report = oscar.patch;
-                    mike = {};
+                    zuuluu = _closure1_slot2;
+                    michal = 2;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = report.bind(zuuluu)(michal);
+                    oscard = michal.HTTP;
+                    report = oscard.patch;
+                    michal = {};
                     verify = _closure1_slot4;
-                    options = verify.MFA_WEBAUTHN_CREDENTIAL;
-                    golf = argFoo;
-                    golf = options.bind(verify)(golf);
-                    mike['url'] = golf;
-                    golf = {};
-                    options = argBar;
-                    golf['name'] = options;
-                    mike['body'] = golf;
-                    golf = false;
-                    mike['rejectWithError'] = golf;
-                    mike = report.bind(oscar)(mike);
+                    option = verify.MFA_WEBAUTHN_CREDENTIAL;
+                    golfie = argFoo;
+                    golfie = option.bind(verify)(golfie);
+                    michal['url'] = golfie;
+                    golfie = {};
+                    option = argBar;
+                    golfie['name'] = option;
+                    michal['body'] = golfie;
+                    golfie = false;
+                    michal['rejectWithError'] = golfie;
+                    michal = report.bind(oscard)(michal);
                     SaveGenerator(address=98);
  96:
-                    return mike;
+                    return michal;
  98:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00008_ip = 159; continue _fun00007 }
  104:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 3;
-                    tango = oscar[tango];
-                    oscar = report.bind(zulu)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
-                    golf = 'AUTHENTICATOR_UPDATE';
-                    tango['type'] = golf;
-                    golf = mike.body;
-                    tango['credential'] = golf;
-                    tango = report.bind(oscar)(tango);
-                    return zulu;
+                    oscard = _closure1_slot2;
+                    tangon = 3;
+                    tangon = oscard[tangon];
+                    oscard = report.bind(zuuluu)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'AUTHENTICATOR_UPDATE';
+                    tangon['type'] = golfie;
+                    golfie = michal.body;
+                    tangon['credential'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
+                    return zuuluu;
  159:
-                    return mike;
+                    return michal;
  162:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot8 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot8 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _startRegisterWebAuthnCredential
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00010_ip = 121; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 121; continue _fun00009 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.post;
+                    michal = {};
                     report = _closure1_slot4;
                     report = report.MFA_WEBAUTHN_CREDENTIALS;
-                    mike['url'] = report;
+                    michal['url'] = report;
                     report = {};
-                    mike['body'] = report;
+                    michal['body'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=80);
  78:
-                    return mike;
+                    return michal;
  80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00010_ip = 118; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 118; continue _fun00009 }
  86:
-                    tango = mike.body;
-                    zulu = {};
-                    report = tango.ticket;
-                    zulu['ticket'] = report;
-                    tango = tango.challenge;
-                    zulu['challenge'] = tango;
-                    return zulu;
+                    tangon = michal.body;
+                    zuuluu = {};
+                    report = tangon.ticket;
+                    zuuluu['ticket'] = report;
+                    tangon = tangon.challenge;
+                    zuuluu['challenge'] = tangon;
+                    return zuuluu;
  118:
-                    return mike;
+                    return michal;
  121:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _finishRegisterWebAuthnCredential
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00012_ip = 252; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 252; continue _fun00011 }
  10:
                     report = _closure1_slot1;
                     offset = _closure1_slot2;
-                    mike = 4;
-                    mike = offset[mike];
-                    zulu = undefined;
-                    oscar = report.bind(zulu)(mike);
-                    report = oscar.post;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    golf = golf.MFA_WEBAUTHN_CREDENTIALS;
-                    mike['url'] = golf;
-                    golf = {};
-                    options = argFoo;
-                    golf['name'] = options;
-                    options = argBar;
-                    golf['ticket'] = options;
-                    options = argBaz;
-                    golf['credential'] = options;
-                    mike['body'] = golf;
-                    golf = {};
+                    michal = 4;
+                    michal = offset[michal];
+                    zuuluu = undefined;
+                    oscard = report.bind(zuuluu)(michal);
+                    report = oscard.post;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    golfie = golfie.MFA_WEBAUTHN_CREDENTIALS;
+                    michal['url'] = golfie;
+                    golfie = {};
+                    option = argFoo;
+                    golfie['name'] = option;
+                    option = argBar;
+                    golfie['ticket'] = option;
+                    option = argBaz;
+                    golfie['credential'] = option;
+                    michal['body'] = golfie;
+                    golfie = {};
                     verify = _closure1_slot0;
-                    options = 5;
-                    options = offset[options];
-                    options = verify.bind(zulu)(options);
-                    options = options.NetworkActionNames;
-                    options = options.WEBAUTHN_REGISTER;
-                    golf['event'] = options;
-                    mike['trackedActionData'] = golf;
-                    golf = false;
-                    mike['rejectWithError'] = golf;
-                    mike = report.bind(oscar)(mike);
+                    option = 5;
+                    option = offset[option];
+                    option = verify.bind(zuuluu)(option);
+                    option = option.NetworkActionNames;
+                    option = option.WEBAUTHN_REGISTER;
+                    golfie['event'] = option;
+                    michal['trackedActionData'] = golfie;
+                    golfie = false;
+                    michal['rejectWithError'] = golfie;
+                    michal = report.bind(oscard)(michal);
                     SaveGenerator(address=141);
  139:
-                    return mike;
+                    return michal;
  141:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00012_ip = 249; continue _fun00011 }
  147:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 3;
-                    golf = oscar[tango];
-                    verify = report.bind(zulu)(golf);
-                    options = verify.dispatch;
-                    golf = {};
+                    oscard = _closure1_slot2;
+                    tangon = 3;
+                    golfie = oscard[tangon];
+                    verify = report.bind(zuuluu)(golfie);
+                    option = verify.dispatch;
+                    golfie = {};
                     offset = 'AUTHENTICATOR_CREATE';
-                    golf['type'] = offset;
-                    offset = mike.body;
-                    golf['credential'] = offset;
-                    golf = options.bind(verify)(golf);
-                    tango = oscar[tango];
-                    oscar = report.bind(zulu)(tango);
-                    report = oscar.dispatch;
-                    tango = {};
-                    golf = 'MFA_ENABLE_SUCCESS';
-                    tango['type'] = golf;
-                    golf = mike.body;
-                    golf = golf.backup_codes;
-                    tango['codes'] = golf;
-                    tango = report.bind(oscar)(tango);
-                    return zulu;
+                    golfie['type'] = offset;
+                    offset = michal.body;
+                    golfie['credential'] = offset;
+                    golfie = option.bind(verify)(golfie);
+                    tangon = oscard[tangon];
+                    oscard = report.bind(zuuluu)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'MFA_ENABLE_SUCCESS';
+                    tangon['type'] = golfie;
+                    golfie = michal.body;
+                    golfie = golfie.backup_codes;
+                    tangon['codes'] = golfie;
+                    tangon = report.bind(oscard)(tangon);
+                    return zuuluu;
  249:
-                    return mike;
+                    return michal;
  252:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot10 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot10 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/webauthn/WebAuthnActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: fetchWebAuthnConditionalChallenge
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/webauthn/WebAuthnActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: fetchWebAuthnConditionalChallenge
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['fetchWebAuthnConditionalChallenge'] = tango;
-    tango = function() { // Original name: fetchWebAuthnPasswordlessChallenge
+    zuuluu['fetchWebAuthnConditionalChallenge'] = tangon;
+    tangon = function() { // Original name: fetchWebAuthnPasswordlessChallenge
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = tango.apply;
+        tangon = _closure1_slot6;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['fetchWebAuthnPasswordlessChallenge'] = tango;
-    tango = function() { // Original name: fetchWebAuthnCredentials
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    zuuluu['fetchWebAuthnPasswordlessChallenge'] = tangon;
+    tangon = function() { // Original name: fetchWebAuthnCredentials
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        tango = mike.HTTP;
-        zulu = tango.get;
-        mike = {};
+        michal = zuuluu.bind(entity)(michal);
+        tangon = michal.HTTP;
+        zuuluu = tangon.get;
+        michal = {};
         report = _closure1_slot4;
         report = report.MFA_WEBAUTHN_CREDENTIALS;
-        mike['url'] = report;
+        michal['url'] = report;
         report = true;
-        mike['rejectWithError'] = report;
-        tango = zulu.bind(tango)(mike);
-        zulu = tango.then;
-        mike = function(argFoo) {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        michal['rejectWithError'] = report;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.then;
+        michal = function(argFoo) {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
             report = 'MFA_WEBAUTHN_CREDENTIALS_LOADED';
-            mike['type'] = report;
+            michal['type'] = report;
             report = argFoo;
             report = report.body;
-            mike['credentials'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['credentials'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['fetchWebAuthnCredentials'] = tango;
-    tango = function(argFoo) { // Original name: deleteWebAuthnCredential
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['fetchWebAuthnCredentials'] = tangon;
+    tangon = function(argFoo) { // Original name: deleteWebAuthnCredential
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 2;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        zulu = tango.bind(entity)(zulu);
-        report = zulu.HTTP;
-        tango = report.del;
-        zulu = {};
-        options = _closure1_slot4;
-        golf = options.MFA_WEBAUTHN_CREDENTIAL;
-        oscar = oscar.id;
-        oscar = golf.bind(options)(oscar);
-        zulu['url'] = oscar;
-        oscar = true;
-        zulu['rejectWithError'] = oscar;
-        tango = tango.bind(report)(zulu);
-        zulu = tango.then;
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        zuuluu = tangon.bind(entity)(zuuluu);
+        report = zuuluu.HTTP;
+        tangon = report.del;
+        zuuluu = {};
+        option = _closure1_slot4;
+        golfie = option.MFA_WEBAUTHN_CREDENTIAL;
+        oscard = oscard.id;
+        oscard = golfie.bind(option)(oscard);
+        zuuluu['url'] = oscard;
+        oscard = true;
+        zuuluu['rejectWithError'] = oscard;
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.then;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
             report = 'AUTHENTICATOR_DELETE';
-            mike['type'] = report;
+            michal['type'] = report;
             report = _closure2_slot0;
-            mike['credential'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['credential'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['deleteWebAuthnCredential'] = tango;
-    tango = function() { // Original name: deleteWebAuthnCredentialAsync
+    zuuluu['deleteWebAuthnCredential'] = tangon;
+    tangon = function() { // Original name: deleteWebAuthnCredentialAsync
         entity = undefined;
-        tango = _closure1_slot7;
-        zulu = tango.apply;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['deleteWebAuthnCredentialAsync'] = tango;
-    tango = function() { // Original name: editWebAuthnCredential
+    zuuluu['deleteWebAuthnCredentialAsync'] = tangon;
+    tangon = function() { // Original name: editWebAuthnCredential
         entity = undefined;
-        tango = _closure1_slot8;
-        zulu = tango.apply;
+        tangon = _closure1_slot8;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['editWebAuthnCredential'] = tango;
-    tango = function() { // Original name: startRegisterWebAuthnCredential
+    zuuluu['editWebAuthnCredential'] = tangon;
+    tangon = function() { // Original name: startRegisterWebAuthnCredential
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['startRegisterWebAuthnCredential'] = tango;
-    mike = function() { // Original name: finishRegisterWebAuthnCredential
+    zuuluu['startRegisterWebAuthnCredential'] = tangon;
+    michal = function() { // Original name: finishRegisterWebAuthnCredential
         entity = undefined;
-        tango = _closure1_slot10;
-        zulu = tango.apply;
+        tangon = _closure1_slot10;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['finishRegisterWebAuthnCredential'] = mike;
+    zuuluu['finishRegisterWebAuthnCredential'] = michal;
     return entity;
 })();

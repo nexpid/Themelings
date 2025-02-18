@@ -1,96 +1,96 @@
 // app/modules/headless_tasks/android/DismissCallAction.tsx
-export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
-    zulu = argBar;
-    tango = argPlugh;
-    var _closure1_slot0 = zulu;
+export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
+    zuuluu = argBar;
+    tangon = argPlu;
+    var _closure1_slot0 = zuuluu;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = 0;
-    report = tango[entity];
+    report = tangon[entity];
     entity = undefined;
-    report = zulu.bind(entity)(report);
+    report = zuuluu.bind(entity)(report);
     report = report.AnalyticEvents;
     var _closure1_slot3 = report;
     report = function(argFoo) {
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = global;
-        zulu = mike.Promise;
-        mike = zulu.prototype;
-        mike = Object.create(mike, {constructor: {value: zulu}});
-        tango = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = global;
+        zuuluu = michal.Promise;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        tangon = function(argFoo) {
             entity = argFoo;
             var _closure3_slot0 = entity;
-            tango = _closure1_slot1;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.awaitStorage;
-            mike = function() {
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.awaitStorage;
+            michal = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = _closure2_slot0;
                     entity = entity.isFullscreenCallUI;
                     if(!entity) { _fun00002_ip = 120; continue _fun00001 }
  18:
-                    zulu = _closure1_slot1;
+                    zuuluu = _closure1_slot1;
                     verify = _closure1_slot2;
                     entity = 2;
                     entity = verify[entity];
-                    options = undefined;
-                    report = zulu.bind(options)(entity);
-                    tango = report.track;
+                    option = undefined;
+                    report = zuuluu.bind(option)(entity);
+                    tangon = report.track;
                     entity = _closure1_slot3;
-                    zulu = entity.CALLKIT_CLICKED;
+                    zuuluu = entity.CALLKIT_CLICKED;
                     entity = {};
-                    golf = 'decline';
-                    entity['action_type'] = golf;
-                    golf = _closure1_slot0;
-                    oscar = 3;
-                    oscar = verify[oscar];
-                    options = golf.bind(options)(oscar);
-                    golf = options.collectChannelAnalyticsMetadataFromId;
-                    oscar = _closure2_slot0;
-                    oscar = oscar.channelId;
-                    offset = golf.bind(options)(oscar);
+                    golfie = 'decline';
+                    entity['action_type'] = golfie;
+                    golfie = _closure1_slot0;
+                    oscard = 3;
+                    oscard = verify[oscard];
+                    option = golfie.bind(option)(oscard);
+                    golfie = option.collectChannelAnalyticsMetadataFromId;
+                    oscard = _closure2_slot0;
+                    oscard = oscard.channelId;
+                    offset = golfie.bind(option)(oscard);
                     yankee = entity;
-                    oscar = copyDataProperties(yankee, offset);
-                    entity = tango.bind(report)(zulu, entity);
+                    oscard = copyDataProperties(yankee, offset);
+                    entity = tangon.bind(report)(zuuluu, entity);
  120:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
                     entity = 4;
-                    zulu = zulu[entity];
+                    zuuluu = zuuluu[entity];
                     entity = undefined;
-                    tango = tango.bind(entity)(zulu);
-                    zulu = tango.stopRinging;
-                    mike = _closure2_slot0;
-                    mike = mike.channelId;
-                    mike = zulu.bind(tango)(mike);
-                    zulu = _closure3_slot0;
-                    mike = true;
-                    mike = zulu.bind(entity)(mike);
+                    tangon = tangon.bind(entity)(zuuluu);
+                    zuuluu = tangon.stopRinging;
+                    michal = _closure2_slot0;
+                    michal = michal.channelId;
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = _closure3_slot0;
+                    michal = true;
+                    michal = zuuluu.bind(entity)(michal);
                     return entity;
                 }
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    mike = argGrault;
-    mike['exports'] = report;
-    mike = 5;
-    mike = tango[mike];
-    tango = zulu.bind(entity)(mike);
-    zulu = tango.fileFinishedImporting;
-    mike = 'modules/headless_tasks/android/DismissCallAction.tsx';
-    mike = zulu.bind(tango)(mike);
+    michal = argGra;
+    michal['exports'] = report;
+    michal = 5;
+    michal = tangon[michal];
+    tangon = zuuluu.bind(entity)(michal);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'modules/headless_tasks/android/DismissCallAction.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

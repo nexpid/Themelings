@@ -1,109 +1,109 @@
 // app/uikit-native/HelpMessage.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    kilo = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = kilo;
-    var _closure1_slot2 = golf;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    kiloes = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = kiloes;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: getIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = _closure1_slot7;
             entity = entity.WARNING;
-            if(!(entity !== mike)) { _fun00002_ip = 291; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 291; continue _fun00001 }
  23:
             entity = _closure1_slot7;
             entity = entity.INFO;
-            if(!(entity !== mike)) { _fun00002_ip = 218; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 218; continue _fun00001 }
  40:
             entity = _closure1_slot7;
             entity = entity.ERROR;
-            if(!(entity !== mike)) { _fun00002_ip = 145; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 145; continue _fun00001 }
  54:
             entity = _closure1_slot7;
             entity = entity.SUCCESS;
-            if(!(entity !== mike)) { _fun00002_ip = 72; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 72; continue _fun00001 }
  68:
             entity = undefined;
             return entity;
  72:
-            tango = _closure1_slot4;
-            mike = _closure1_slot0;
-            options = _closure1_slot2;
+            tangon = _closure1_slot4;
+            michal = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 9;
-            entity = options[entity];
-            zulu = undefined;
-            entity = mike.bind(zulu)(entity);
-            mike = entity.CircleCheckIcon;
+            entity = option[entity];
+            zuuluu = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            michal = entity.CircleCheckIcon;
             entity = {};
-            golf = _closure1_slot1;
-            oscar = 4;
-            oscar = options[oscar];
-            oscar = golf.bind(zulu)(oscar);
-            oscar = oscar.unsafe_rawColors;
-            oscar = oscar.GREEN_400;
-            entity['color'] = oscar;
-            entity = tango.bind(zulu)(mike, entity);
+            golfie = _closure1_slot1;
+            oscard = 4;
+            oscard = option[oscard];
+            oscard = golfie.bind(zuuluu)(oscard);
+            oscard = oscard.unsafe_rawColors;
+            oscard = oscard.GREEN_400;
+            entity['color'] = oscard;
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
  145:
-            tango = _closure1_slot4;
-            mike = _closure1_slot0;
-            options = _closure1_slot2;
+            tangon = _closure1_slot4;
+            michal = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 8;
-            entity = options[entity];
-            zulu = undefined;
-            entity = mike.bind(zulu)(entity);
-            mike = entity.CircleXIcon;
+            entity = option[entity];
+            zuuluu = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            michal = entity.CircleXIcon;
             entity = {};
-            golf = _closure1_slot1;
-            oscar = 4;
-            oscar = options[oscar];
-            oscar = golf.bind(zulu)(oscar);
-            oscar = oscar.unsafe_rawColors;
-            oscar = oscar.RED_400;
-            entity['color'] = oscar;
-            entity = tango.bind(zulu)(mike, entity);
+            golfie = _closure1_slot1;
+            oscard = 4;
+            oscard = option[oscard];
+            oscard = golfie.bind(zuuluu)(oscard);
+            oscard = oscard.unsafe_rawColors;
+            oscard = oscard.RED_400;
+            entity['color'] = oscard;
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
  218:
-            tango = _closure1_slot4;
-            mike = _closure1_slot0;
-            options = _closure1_slot2;
+            tangon = _closure1_slot4;
+            michal = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 7;
-            entity = options[entity];
-            zulu = undefined;
-            entity = mike.bind(zulu)(entity);
-            mike = entity.CircleInformationIcon;
+            entity = option[entity];
+            zuuluu = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            michal = entity.CircleInformationIcon;
             entity = {};
-            golf = _closure1_slot1;
-            oscar = 4;
-            oscar = options[oscar];
-            oscar = golf.bind(zulu)(oscar);
-            oscar = oscar.unsafe_rawColors;
-            oscar = oscar.BLUE_345;
-            entity['color'] = oscar;
-            entity = tango.bind(zulu)(mike, entity);
+            golfie = _closure1_slot1;
+            oscard = 4;
+            oscard = option[oscard];
+            oscard = golfie.bind(zuuluu)(oscard);
+            oscard = oscard.unsafe_rawColors;
+            oscard = oscard.BLUE_345;
+            entity['color'] = oscard;
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
  291:
-            tango = _closure1_slot4;
-            mike = _closure1_slot0;
-            golf = _closure1_slot2;
+            tangon = _closure1_slot4;
+            michal = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 6;
-            entity = golf[entity];
-            zulu = undefined;
-            entity = mike.bind(zulu)(entity);
-            mike = entity.CircleWarningIcon;
+            entity = golfie[entity];
+            zuuluu = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            michal = entity.CircleWarningIcon;
             entity = {};
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             report = 4;
-            report = golf[report];
-            report = oscar.bind(zulu)(report);
+            report = golfie[report];
+            report = oscard.bind(zuuluu)(report);
             report = report.unsafe_rawColors;
             report = report.YELLOW_300;
             entity['color'] = report;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         }
     };
@@ -111,35 +111,35 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = function(argFoo, argBar) { // Original name: useContainerStyle
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = argBar;
-            tango = _closure1_slot7;
-            tango = tango.WARNING;
-            if(!(tango !== zulu)) { _fun00004_ip = 93; continue _fun00003 }
+            tangon = _closure1_slot7;
+            tangon = tangon.WARNING;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 93; continue _fun00003 }
  23:
-            tango = _closure1_slot7;
-            tango = tango.INFO;
-            if(!(tango !== zulu)) { _fun00004_ip = 85; continue _fun00003 }
+            tangon = _closure1_slot7;
+            tangon = tangon.INFO;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 85; continue _fun00003 }
  37:
-            tango = _closure1_slot7;
-            tango = tango.ERROR;
-            if(!(tango !== zulu)) { _fun00004_ip = 77; continue _fun00003 }
+            tangon = _closure1_slot7;
+            tangon = tangon.ERROR;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 77; continue _fun00003 }
  51:
-            mike = _closure1_slot7;
-            mike = mike.SUCCESS;
-            if(!(mike !== zulu)) { _fun00004_ip = 69; continue _fun00003 }
+            michal = _closure1_slot7;
+            michal = michal.SUCCESS;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 69; continue _fun00003 }
  65:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  69:
-            mike = entity.successContainer;
-            return mike;
+            michal = entity.successContainer;
+            return michal;
  77:
-            mike = entity.errorContainer;
-            return mike;
+            michal = entity.errorContainer;
+            return michal;
  85:
-            mike = entity.infoContainer;
-            return mike;
+            michal = entity.infoContainer;
+            return michal;
  93:
             entity = entity.warningContainer;
             return entity;
@@ -147,205 +147,205 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     yankee = 0;
-    report = golf[yankee];
-    mike = argCorge;
+    report = golfie[yankee];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(report);
+    michal = michal.bind(entity)(report);
     offset = 1;
-    mike = golf[offset];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.View;
-    var _closure1_slot3 = mike;
+    michal = golfie[offset];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.View;
+    var _closure1_slot3 = michal;
     verify = 2;
-    mike = golf[verify];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot4 = mike;
-    mike = golf[verify];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.jsxs;
-    var _closure1_slot5 = mike;
-    options = 3;
-    mike = golf[options];
-    romeo = oscar.bind(entity)(mike);
-    report = romeo.createStyles;
-    mike = {};
-    foxtrot = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'padding': 8, 'borderWidth': 1, 'borderStyle': 'solid'};
+    michal = golfie[verify];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot4 = michal;
+    michal = golfie[verify];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsxs;
+    var _closure1_slot5 = michal;
+    option = 3;
+    michal = golfie[option];
+    romeon = oscard.bind(entity)(michal);
+    report = romeon.createStyles;
+    michal = {};
+    foxtra = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'padding': 8, 'borderWidth': 1, 'borderStyle': 'solid'};
     backup = 4;
-    sizing = golf[backup];
-    sizing = kilo.bind(entity)(sizing);
+    sizing = golfie[backup];
+    sizing = kiloes.bind(entity)(sizing);
     sizing = sizing.radii;
     sizing = sizing.xs;
-    foxtrot['borderRadius'] = sizing;
-    mike['container'] = foxtrot;
-    foxtrot = {'flex': 1, 'marginLeft': 8};
-    mike['content'] = foxtrot;
-    foxtrot = {};
+    foxtra['borderRadius'] = sizing;
+    michal['container'] = foxtra;
+    foxtra = {'flex': 1, 'marginLeft': 8};
+    michal['content'] = foxtra;
+    foxtra = {};
     sizing = 5;
-    output = golf[sizing];
-    update = oscar.bind(entity)(output);
+    output = golfie[sizing];
+    update = oscard.bind(entity)(output);
     result = update.int2rgba;
-    output = golf[sizing];
-    source = oscar.bind(entity)(output);
-    echo = source.hex2int;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = golfie[sizing];
+    source = oscard.bind(entity)(output);
+    echoed = source.hex2int;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.YELLOW_300;
-    output = echo.bind(source)(output);
-    echo = 0.1;
-    output = result.bind(update)(output, echo);
-    foxtrot['backgroundColor'] = output;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = echoed.bind(source)(output);
+    echoed = 0.1;
+    output = result.bind(update)(output, echoed);
+    foxtra['backgroundColor'] = output;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.YELLOW_300;
-    foxtrot['borderColor'] = output;
-    mike['warningContainer'] = foxtrot;
-    foxtrot = {};
-    output = golf[sizing];
-    update = oscar.bind(entity)(output);
+    foxtra['borderColor'] = output;
+    michal['warningContainer'] = foxtra;
+    foxtra = {};
+    output = golfie[sizing];
+    update = oscard.bind(entity)(output);
     result = update.int2rgba;
-    output = golf[sizing];
-    control = oscar.bind(entity)(output);
-    source = control.hex2int;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = golfie[sizing];
+    ctrled = oscard.bind(entity)(output);
+    source = ctrled.hex2int;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.BLUE_345;
-    output = source.bind(control)(output);
-    output = result.bind(update)(output, echo);
-    foxtrot['backgroundColor'] = output;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = source.bind(ctrled)(output);
+    output = result.bind(update)(output, echoed);
+    foxtra['backgroundColor'] = output;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.BLUE_345;
-    foxtrot['borderColor'] = output;
-    mike['infoContainer'] = foxtrot;
-    foxtrot = {};
-    output = golf[sizing];
-    update = oscar.bind(entity)(output);
+    foxtra['borderColor'] = output;
+    michal['infoContainer'] = foxtra;
+    foxtra = {};
+    output = golfie[sizing];
+    update = oscard.bind(entity)(output);
     result = update.int2rgba;
-    output = golf[sizing];
-    control = oscar.bind(entity)(output);
-    source = control.hex2int;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = golfie[sizing];
+    ctrled = oscard.bind(entity)(output);
+    source = ctrled.hex2int;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.RED_400;
-    output = source.bind(control)(output);
-    output = result.bind(update)(output, echo);
-    foxtrot['backgroundColor'] = output;
-    output = golf[backup];
-    output = kilo.bind(entity)(output);
+    output = source.bind(ctrled)(output);
+    output = result.bind(update)(output, echoed);
+    foxtra['backgroundColor'] = output;
+    output = golfie[backup];
+    output = kiloes.bind(entity)(output);
     output = output.unsafe_rawColors;
     output = output.RED_400;
-    foxtrot['borderColor'] = output;
-    mike['errorContainer'] = foxtrot;
-    foxtrot = {};
-    output = golf[sizing];
-    result = oscar.bind(entity)(output);
+    foxtra['borderColor'] = output;
+    michal['errorContainer'] = foxtra;
+    foxtra = {};
+    output = golfie[sizing];
+    result = oscard.bind(entity)(output);
     output = result.int2rgba;
-    sizing = golf[sizing];
-    source = oscar.bind(entity)(sizing);
+    sizing = golfie[sizing];
+    source = oscard.bind(entity)(sizing);
     update = source.hex2int;
-    sizing = golf[backup];
-    sizing = kilo.bind(entity)(sizing);
+    sizing = golfie[backup];
+    sizing = kiloes.bind(entity)(sizing);
     sizing = sizing.unsafe_rawColors;
     sizing = sizing.GREEN_400;
     sizing = update.bind(source)(sizing);
-    sizing = output.bind(result)(sizing, echo);
-    foxtrot['backgroundColor'] = sizing;
-    backup = golf[backup];
-    backup = kilo.bind(entity)(backup);
+    sizing = output.bind(result)(sizing, echoed);
+    foxtra['backgroundColor'] = sizing;
+    backup = golfie[backup];
+    backup = kiloes.bind(entity)(backup);
     backup = backup.unsafe_rawColors;
     backup = backup.GREEN_400;
-    foxtrot['borderColor'] = backup;
-    mike['successContainer'] = foxtrot;
-    mike = report.bind(romeo)(mike);
-    var _closure1_slot6 = mike;
-    mike = {};
-    mike['WARNING'] = yankee;
+    foxtra['borderColor'] = backup;
+    michal['successContainer'] = foxtra;
+    michal = report.bind(romeon)(michal);
+    var _closure1_slot6 = michal;
+    michal = {};
+    michal['WARNING'] = yankee;
     report = 'WARNING';
-    mike[yankee] = report;
-    mike['INFO'] = offset;
+    michal[yankee] = report;
+    michal['INFO'] = offset;
     report = 'INFO';
-    mike[offset] = report;
-    mike['ERROR'] = verify;
+    michal[offset] = report;
+    michal['ERROR'] = verify;
     report = 'ERROR';
-    mike[verify] = report;
-    mike['SUCCESS'] = options;
+    michal[verify] = report;
+    michal['SUCCESS'] = option;
     report = 'SUCCESS';
-    mike[options] = report;
-    var _closure1_slot7 = mike;
+    michal[option] = report;
+    var _closure1_slot7 = michal;
     report = 11;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'uikit-native/HelpMessage.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: HelpMessage
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: HelpMessage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             verify = entity.children;
-            golf = entity.messageType;
+            golfie = entity.messageType;
             offset = entity.textVariant;
-            tango = undefined;
-            if(!(offset === tango)) { _fun00006_ip = 30; continue _fun00005 }
+            tangon = undefined;
+            if(!(offset === tangon)) { _fun00006_ip = 30; continue _fun00005 }
  26:
             offset = 'text-sm/medium';
  30:
             yankee = entity.textColor;
-            if(!(yankee === tango)) { _fun00006_ip = 46; continue _fun00005 }
+            if(!(yankee === tangon)) { _fun00006_ip = 46; continue _fun00005 }
  40:
             yankee = 'text-normal';
  46:
             entity = _closure1_slot6;
-            romeo = entity.bind(tango)();
-            zulu = _closure1_slot5;
-            mike = _closure1_slot3;
+            romeon = entity.bind(tangon)();
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot3;
             entity = {};
-            options = romeo.container;
+            option = romeon.container;
             report = new Array(2);
-            report[0] = options;
-            options = _closure1_slot9;
-            options = options.bind(tango)(golf, romeo);
-            report[1] = options;
+            report[0] = option;
+            option = _closure1_slot9;
+            option = option.bind(tangon)(golfie, romeon);
+            report[1] = option;
             entity['style'] = report;
             report = _closure1_slot8;
-            golf = report.bind(tango)(golf);
+            golfie = report.bind(tangon)(golfie);
             report = new Array(2);
-            report[0] = golf;
-            options = _closure1_slot4;
-            golf = _closure1_slot0;
-            foxtrot = _closure1_slot2;
-            oscar = 10;
-            oscar = foxtrot[oscar];
-            oscar = golf.bind(tango)(oscar);
-            golf = oscar.Text;
-            oscar = {};
-            romeo = romeo.content;
-            oscar['style'] = romeo;
-            oscar['color'] = yankee;
-            oscar['variant'] = offset;
-            oscar['children'] = verify;
-            oscar = options.bind(tango)(golf, oscar);
-            report[1] = oscar;
+            report[0] = golfie;
+            option = _closure1_slot4;
+            golfie = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            oscard = 10;
+            oscard = foxtra[oscard];
+            oscard = golfie.bind(tangon)(oscard);
+            golfie = oscard.Text;
+            oscard = {};
+            romeon = romeon.content;
+            oscard['style'] = romeon;
+            oscard['color'] = yankee;
+            oscard['variant'] = offset;
+            oscard['children'] = verify;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[1] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['HelpMessageTypes'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['HelpMessageTypes'] = michal;
     return entity;
 })();

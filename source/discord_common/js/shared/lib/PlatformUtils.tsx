@@ -1,169 +1,169 @@
 // discord_common/js/shared/lib/PlatformUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         offset = argBaz;
-        zulu = argFred;
-        options = argPlugh;
-        tango = global;
-        oscar = tango.Object;
-        report = oscar.defineProperty;
-        mike = {};
+        zuuluu = argFre;
+        option = argPlu;
+        tangon = global;
+        oscard = tangon.Object;
+        report = oscard.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = report.bind(oscar)(zulu, entity, mike);
-        report = tango.Set;
+        entity = report.bind(oscard)(zuuluu, entity, michal);
+        report = tangon.Set;
         entity = report.prototype;
-        mike = Object.create(entity, {constructor: {value: report}});
+        michal = Object.create(entity, {constructor: {value: report}});
         output = ['iPad', 'Kindle', 'Kindle Fire', 'Nook', 'PlayBook'];
-        result = mike;
+        result = michal;
         entity = new result[report](output, sizing);
-        romeo = entity instanceof Object ? entity : mike;
-        report = tango.Set;
+        romeon = entity instanceof Object ? entity : michal;
+        report = tangon.Set;
         entity = report.prototype;
-        mike = Object.create(entity, {constructor: {value: report}});
+        michal = Object.create(entity, {constructor: {value: report}});
         output = ['Android', 'iOS', 'Windows Phone'];
-        result = mike;
+        result = michal;
         entity = new result[report](output, sizing);
-        yankee = entity instanceof Object ? entity : mike;
-        mike = tango.window;
+        yankee = entity instanceof Object ? entity : michal;
+        michal = tangon.window;
         verify = null;
-        oscar = verify == mike;
+        oscard = verify == michal;
         entity = undefined;
         report = undefined;
-        if(oscar) { _fun00002_ip = 153; continue _fun00001 }
+        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
  132:
-        mike = mike.navigator;
-        oscar = verify == mike;
+        michal = michal.navigator;
+        oscard = verify == michal;
         report = undefined;
-        if(oscar) { _fun00002_ip = 153; continue _fun00001 }
+        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
  147:
-        report = mike.platform;
+        report = michal.platform;
  153:
-        mike = 'MacIntel';
-        mike = mike === report;
-        if(!mike) { _fun00002_ip = 206; continue _fun00001 }
+        michal = 'MacIntel';
+        michal = michal === report;
+        if(!michal) { _fun00002_ip = 206; continue _fun00001 }
  166:
-        oscar = tango.window;
-        golf = verify == oscar;
+        oscard = tangon.window;
+        golfie = verify == oscard;
         report = undefined;
-        if(golf) { _fun00002_ip = 202; continue _fun00001 }
+        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
  181:
-        oscar = oscar.navigator;
-        golf = verify == oscar;
+        oscard = oscard.navigator;
+        golfie = verify == oscard;
         report = undefined;
-        if(golf) { _fun00002_ip = 202; continue _fun00001 }
+        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
  196:
-        report = oscar.standalone;
+        report = oscard.standalone;
  202:
-        mike = entity !== report;
+        michal = entity !== report;
  206:
-        if(!mike) { _fun00002_ip = 254; continue _fun00001 }
+        if(!michal) { _fun00002_ip = 254; continue _fun00001 }
  209:
-        tango = tango.window;
-        oscar = verify == tango;
+        tangon = tangon.window;
+        oscard = verify == tangon;
         report = undefined;
-        if(oscar) { _fun00002_ip = 247; continue _fun00001 }
+        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
  224:
-        tango = tango.navigator;
-        oscar = verify == tango;
+        tangon = tangon.navigator;
+        oscard = verify == tangon;
         report = undefined;
-        if(oscar) { _fun00002_ip = 247; continue _fun00001 }
+        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
  239:
-        report = tango.maxTouchPoints;
+        report = tangon.maxTouchPoints;
  247:
-        tango = 1;
-        mike = report > tango;
+        tangon = 1;
+        michal = report > tangon;
  254:
-        oscar = romeo.has;
-        golf = 0;
-        tango = options[golf];
-        tango = offset.bind(entity)(tango);
-        foxtrot = tango.product;
-        backup = verify != foxtrot;
+        oscard = romeon.has;
+        golfie = 0;
+        tangon = option[golfie];
+        tangon = offset.bind(entity)(tangon);
+        foxtra = tangon.product;
+        backup = verify != foxtra;
         report = '';
-        tango = report;
+        tangon = report;
         if(!backup) { _fun00002_ip = 293; continue _fun00001 }
  290:
-        tango = foxtrot;
+        tangon = foxtra;
  293:
-        oscar = oscar.bind(romeo)(tango);
-        if(oscar) { _fun00002_ip = 304; continue _fun00001 }
+        oscard = oscard.bind(romeon)(tangon);
+        if(oscard) { _fun00002_ip = 304; continue _fun00001 }
  301:
-        oscar = mike;
+        oscard = michal;
  304:
-        mike = !oscar;
-        if(!mike) { _fun00002_ip = 378; continue _fun00001 }
+        michal = !oscard;
+        if(!michal) { _fun00002_ip = 378; continue _fun00001 }
  310:
-        tango = yankee.has;
-        romeo = options[golf];
-        romeo = offset.bind(entity)(romeo);
-        foxtrot = verify == romeo;
-        romeo = undefined;
-        if(foxtrot) { _fun00002_ip = 363; continue _fun00001 }
+        tangon = yankee.has;
+        romeon = option[golfie];
+        romeon = offset.bind(entity)(romeon);
+        foxtra = verify == romeon;
+        romeon = undefined;
+        if(foxtra) { _fun00002_ip = 363; continue _fun00001 }
  333:
-        foxtrot = options[golf];
-        foxtrot = offset.bind(entity)(foxtrot);
-        foxtrot = foxtrot.os;
-        backup = verify == foxtrot;
-        romeo = undefined;
+        foxtra = option[golfie];
+        foxtra = offset.bind(entity)(foxtra);
+        foxtra = foxtra.os;
+        backup = verify == foxtra;
+        romeon = undefined;
         if(backup) { _fun00002_ip = 363; continue _fun00001 }
  357:
-        romeo = foxtrot.family;
+        romeon = foxtra.family;
  363:
-        foxtrot = verify != romeo;
-        if(!foxtrot) { _fun00002_ip = 373; continue _fun00001 }
+        foxtra = verify != romeon;
+        if(!foxtra) { _fun00002_ip = 373; continue _fun00001 }
  370:
-        report = romeo;
+        report = romeon;
  373:
-        mike = tango.bind(yankee)(report);
+        michal = tangon.bind(yankee)(report);
  378:
-        tango = options[golf];
-        tango = offset.bind(entity)(tango);
-        tango = verify == tango;
+        tangon = option[golfie];
+        tangon = offset.bind(entity)(tangon);
+        tangon = verify == tangon;
         report = undefined;
-        if(tango) { _fun00002_ip = 426; continue _fun00001 }
+        if(tangon) { _fun00002_ip = 426; continue _fun00001 }
  396:
-        tango = options[golf];
-        tango = offset.bind(entity)(tango);
-        tango = tango.os;
-        yankee = verify == tango;
+        tangon = option[golfie];
+        tangon = offset.bind(entity)(tangon);
+        tangon = tangon.os;
+        yankee = verify == tangon;
         report = undefined;
         if(yankee) { _fun00002_ip = 426; continue _fun00001 }
  420:
-        report = tango.family;
+        report = tangon.family;
  426:
-        tango = options[golf];
-        tango = offset.bind(entity)(tango);
-        yankee = verify == tango;
-        tango = undefined;
+        tangon = option[golfie];
+        tangon = offset.bind(entity)(tangon);
+        yankee = verify == tangon;
+        tangon = undefined;
         if(yankee) { _fun00002_ip = 474; continue _fun00001 }
  444:
-        golf = options[golf];
-        golf = offset.bind(entity)(golf);
-        golf = golf.os;
-        verify = verify == golf;
-        tango = undefined;
+        golfie = option[golfie];
+        golfie = offset.bind(entity)(golfie);
+        golfie = golfie.os;
+        verify = verify == golfie;
+        tangon = undefined;
         if(verify) { _fun00002_ip = 474; continue _fun00001 }
  468:
-        tango = golf.family;
+        tangon = golfie.family;
  474:
-        golf = 1;
-        options = options[golf];
-        golf = argBar;
-        verify = golf.bind(entity)(options);
-        options = verify.fileFinishedImporting;
-        golf = '../discord_common/js/shared/lib/PlatformUtils.tsx';
-        golf = options.bind(verify)(golf);
-        zulu['isTablet'] = oscar;
-        zulu['isMobile'] = mike;
-        mike = 'iOS';
-        mike = mike === report;
-        zulu['isIOSWeb'] = mike;
-        mike = 'Android';
-        mike = mike === tango;
-        zulu['isAndroidWeb'] = mike;
+        golfie = 1;
+        option = option[golfie];
+        golfie = argBar;
+        verify = golfie.bind(entity)(option);
+        option = verify.fileFinishedImporting;
+        golfie = '../discord_common/js/shared/lib/PlatformUtils.tsx';
+        golfie = option.bind(verify)(golfie);
+        zuuluu['isTablet'] = oscard;
+        zuuluu['isMobile'] = michal;
+        michal = 'iOS';
+        michal = michal === report;
+        zuuluu['isIOSWeb'] = michal;
+        michal = 'Android';
+        michal = michal === tangon;
+        zuuluu['isAndroidWeb'] = michal;
         return entity;
     }
 })();

@@ -1,75 +1,75 @@
 // app/modules/panels/morphable/native/getPIPBottomOffsetForPIPMode.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    mike = oscar.bind(entity)(mike);
-    mike = mike.PIP_WINDOW_OFFSET;
-    var _closure1_slot0 = mike;
+    michal = oscard.bind(entity)(michal);
+    michal = michal.PIP_WINDOW_OFFSET;
+    var _closure1_slot0 = michal;
     report = {};
-    options = "function getPIPBottomOffsetForPIPMode_getPIPBottomOffsetForPIPModeTsx1(screenName){const{DEFAULT_CHANNEL_INPUT_HEIGHT,PIP_WINDOW_OFFSET,PIP_AVOIDANCE_TAB_BAR_HEIGHT}=this.__closure;switch(screenName){case'panels':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'channel':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'messages':case'notifications':case'main_tab':case'guilds':return PIP_AVOIDANCE_TAB_BAR_HEIGHT+PIP_WINDOW_OFFSET;default:return 0;}}";
-    report['code'] = options;
-    tango = function(argFoo) { // Original name: _
+    option = "function getPIPBottomOffsetForPIPMode_getPIPBottomOffsetForPIPModeTsx1(screenName){const{DEFAULT_CHANNEL_INPUT_HEIGHT,PIP_WINDOW_OFFSET,PIP_AVOIDANCE_TAB_BAR_HEIGHT}=this.__closure;switch(screenName){case'panels':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'channel':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'messages':case'notifications':case'main_tab':case'guilds':return PIP_AVOIDANCE_TAB_BAR_HEIGHT+PIP_WINDOW_OFFSET;default:return 0;}}";
+    report['code'] = option;
+    tangon = function(argFoo) { // Original name: _
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = 'panels';
-            if(!(entity !== mike)) { _fun00002_ip = 75; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 75; continue _fun00001 }
  13:
             entity = 'channel';
-            if(!(entity !== mike)) { _fun00002_ip = 75; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 75; continue _fun00001 }
  21:
             entity = 'messages';
-            if(!(entity !== mike)) { _fun00002_ip = 59; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 59; continue _fun00001 }
  29:
             entity = 'notifications';
-            if(!(entity !== mike)) { _fun00002_ip = 59; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 59; continue _fun00001 }
  37:
             entity = 'main_tab';
-            if(!(entity !== mike)) { _fun00002_ip = 59; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 59; continue _fun00001 }
  47:
             entity = 'guilds';
-            if(!(entity !== mike)) { _fun00002_ip = 59; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 59; continue _fun00001 }
  55:
             entity = 0;
             return entity;
  59:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = 46;
-            entity = entity + mike;
+            entity = entity + michal;
             return entity;
  75:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = 60;
-            entity = entity + mike;
+            entity = entity + michal;
             return entity;
         }
     };
-    options = {'DEFAULT_CHANNEL_INPUT_HEIGHT': 60, 'PIP_WINDOW_OFFSET': null, 'PIP_AVOIDANCE_TAB_BAR_HEIGHT': 46};
-    options['PIP_WINDOW_OFFSET'] = mike;
-    mike = 46;
-    tango['__closure'] = options;
-    options = 7115458448589.0;
-    tango['__workletHash'] = options;
-    tango['__initData'] = report;
+    option = {'DEFAULT_CHANNEL_INPUT_HEIGHT': 60, 'PIP_WINDOW_OFFSET': null, 'PIP_AVOIDANCE_TAB_BAR_HEIGHT': 46};
+    option['PIP_WINDOW_OFFSET'] = michal;
+    michal = 46;
+    tangon['__closure'] = option;
+    option = 7115458448589.0;
+    tangon['__workletHash'] = option;
+    tangon['__initData'] = report;
     report = 1;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/panels/morphable/native/getPIPBottomOffsetForPIPMode.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['PIP_AVOIDANCE_TAB_BAR_HEIGHT'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['PIP_AVOIDANCE_TAB_BAR_HEIGHT'] = michal;
     return entity;
 })();

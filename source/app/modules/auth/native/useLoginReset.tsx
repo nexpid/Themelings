@@ -1,55 +1,55 @@
 // app/modules/auth/native/useLoginReset.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = report[entity];
-    tango = argCorge;
+    golfie = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/auth/native/useLoginReset.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useLoginReset
-        tango = _closure1_slot2;
-        zulu = tango.useEffect;
-        mike = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/auth/native/useLoginReset.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useLoginReset
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useEffect;
+        michal = function() {
             entity = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = _closure1_slot3;
-                    mike = zulu.isAuthenticated;
-                    mike = mike.bind(zulu)();
-                    if(mike) { _fun00002_ip = 52; continue _fun00001 }
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.isAuthenticated;
+                    michal = michal.bind(zuuluu)();
+                    if(michal) { _fun00002_ip = 52; continue _fun00001 }
  20:
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 2;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    mike = zulu.bind(entity)(mike);
-                    entity = mike.loginReset;
-                    entity = entity.bind(mike)();
+                    michal = zuuluu.bind(entity)(michal);
+                    entity = michal.loginReset;
+                    entity = entity.bind(michal)();
  52:
                     entity = undefined;
                     return entity;
@@ -58,10 +58,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             return entity;
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

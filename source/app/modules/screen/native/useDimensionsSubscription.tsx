@@ -1,76 +1,76 @@
 // app/modules/screen/native/useDimensionsSubscription.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Dimensions;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/screen/native/useDimensionsSubscription.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useDimensionsSubscription
-        zulu = argFoo;
-        var _closure2_slot0 = zulu;
-        tango = _closure1_slot0;
-        mike = tango.useRef;
-        mike = mike.bind(tango)(zulu);
-        var _closure2_slot1 = mike;
-        zulu = tango.useLayoutEffect;
-        mike = function() {
-            mike = _closure2_slot1;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Dimensions;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/screen/native/useDimensionsSubscription.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useDimensionsSubscription
+        zuuluu = argFoo;
+        var _closure2_slot0 = zuuluu;
+        tangon = _closure1_slot0;
+        michal = tangon.useRef;
+        michal = michal.bind(tangon)(zuuluu);
+        var _closure2_slot1 = michal;
+        zuuluu = tangon.useLayoutEffect;
+        michal = function() {
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
-        zulu = tango.useLayoutEffect;
-        mike = function() {
+        michal = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.useLayoutEffect;
+        michal = function() {
             report = _closure1_slot1;
-            tango = report.addEventListener;
-            zulu = 'change';
-            mike = function(argFoo) {
-                zulu = _closure2_slot1;
-                mike = zulu.current;
+            tangon = report.addEventListener;
+            zuuluu = 'change';
+            michal = function(argFoo) {
+                zuuluu = _closure2_slot1;
+                michal = zuuluu.current;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot0 = mike;
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot0 = michal;
             entity = function() {
-                mike = _closure3_slot0;
-                entity = mike.remove;
-                entity = entity.bind(mike)();
+                michal = _closure3_slot0;
+                entity = michal.remove;
+                entity = entity.bind(michal)();
                 return entity;
             };
             return entity;
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

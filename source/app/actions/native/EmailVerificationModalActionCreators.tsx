@@ -1,100 +1,100 @@
 // app/actions/native/EmailVerificationModalActionCreators.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.AnalyticEvents;
-    var _closure1_slot3 = mike;
-    mike = {};
-    golf = function() { // Original name: open
+    michal = report.bind(entity)(michal);
+    michal = michal.AnalyticEvents;
+    var _closure1_slot3 = michal;
+    michal = {};
+    golfie = function() { // Original name: open
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[0];
+            michal = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            mike = false;
+            michal = false;
  11:
-            if(!mike) { _fun00002_ip = 57; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 57; continue _fun00001 }
  14:
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            tango = 1;
-            tango = oscar[tango];
-            report = report.bind(entity)(tango);
-            tango = report.track;
-            zulu = _closure1_slot3;
-            zulu = zulu.USER_ACCOUNT_EMAIL_CHANGE_ATTEMPTED;
-            zulu = tango.bind(report)(zulu);
+            oscard = _closure1_slot2;
+            tangon = 1;
+            tangon = oscard[tangon];
+            report = report.bind(entity)(tangon);
+            tangon = report.track;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.USER_ACCOUNT_EMAIL_CHANGE_ATTEMPTED;
+            zuuluu = tangon.bind(report)(zuuluu);
  57:
-            oscar = _closure1_slot1;
-            zulu = _closure1_slot2;
+            oscard = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             report = 2;
-            report = zulu[report];
-            oscar = oscar.bind(entity)(report);
-            report = oscar.pushLazy;
-            golf = _closure1_slot0;
-            tango = 4;
-            tango = zulu[tango];
-            golf = golf.bind(entity)(tango);
-            tango = 3;
-            tango = zulu[tango];
-            zulu = zulu.paths;
-            tango = golf.bind(entity)(tango, zulu);
-            zulu = {};
-            zulu['isChangeEmail'] = mike;
-            mike = 'EMAIL_VERIFICATION_MODAL_KEY';
-            mike = report.bind(oscar)(tango, zulu, mike);
+            report = zuuluu[report];
+            oscard = oscard.bind(entity)(report);
+            report = oscard.pushLazy;
+            golfie = _closure1_slot0;
+            tangon = 4;
+            tangon = zuuluu[tangon];
+            golfie = golfie.bind(entity)(tangon);
+            tangon = 3;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            tangon = golfie.bind(entity)(tangon, zuuluu);
+            zuuluu = {};
+            zuuluu['isChangeEmail'] = michal;
+            michal = 'EMAIL_VERIFICATION_MODAL_KEY';
+            michal = report.bind(oscard)(tangon, zuuluu, michal);
             return entity;
         }
     };
-    mike['open'] = golf;
-    tango = function() { // Original name: close
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['open'] = golfie;
+    tangon = function() { // Original name: close
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.wait;
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.wait;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.popWithKey;
-            mike = 'EMAIL_VERIFICATION_MODAL_KEY';
-            mike = zulu.bind(tango)(mike);
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.popWithKey;
+            michal = 'EMAIL_VERIFICATION_MODAL_KEY';
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['close'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/native/EmailVerificationModalActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['close'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/native/EmailVerificationModalActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

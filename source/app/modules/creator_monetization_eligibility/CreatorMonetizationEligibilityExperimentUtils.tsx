@@ -1,374 +1,374 @@
 // app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = argBar;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
-    golf = function(argFoo) { // Original name: useIsRavenOnboardingGuild
+    golfie = function(argFoo) { // Original name: useIsRavenOnboardingGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot0;
+            tangon = argFoo;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            golf = 1;
-            entity = entity[golf];
-            oscar = undefined;
-            entity = mike.bind(oscar)(entity);
+            golfie = 1;
+            entity = entity[golfie];
+            oscard = undefined;
+            entity = michal.bind(oscard)(entity);
             verify = entity.CreatorMonetizationRavenOnboardingGuildExperiment;
-            options = verify.useExperiment;
+            option = verify.useExperiment;
             report = {};
             entity = null;
-            mike = tango;
-            if(!(entity == mike)) { _fun00002_ip = 55; continue _fun00001 }
+            michal = tangon;
+            if(!(entity == michal)) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
  55:
-            report['guildId'] = mike;
-            mike = 'e3bb71_3';
-            report['location'] = mike;
-            mike = {};
+            report['guildId'] = michal;
+            michal = 'e3bb71_3';
+            report['location'] = michal;
+            michal = {};
             offset = true;
-            mike['autoTrackExposure'] = offset;
-            mike = options.bind(verify)(report, mike);
-            mike = mike.enableFastMonetizationOnboardingForGuild;
+            michal['autoTrackExposure'] = offset;
+            michal = option.bind(verify)(report, michal);
+            michal = michal.enableFastMonetizationOnboardingForGuild;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[golf];
-            zulu = report.bind(oscar)(zulu);
-            golf = zulu.CreatorMonetizationRavenOnboardingUserExperiment;
-            oscar = golf.useExperiment;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[golfie];
+            zuuluu = report.bind(oscard)(zuuluu);
+            golfie = zuuluu.CreatorMonetizationRavenOnboardingUserExperiment;
+            oscard = golfie.useExperiment;
             report = {};
-            zulu = 'e3bb71_4';
-            report['location'] = zulu;
-            zulu = {};
-            options = false;
-            zulu['autoTrackExposure'] = options;
-            zulu = oscar.bind(golf)(report, zulu);
-            zulu = zulu.enableFastMonetizationOnboardingForUser;
-            entity = entity != tango;
+            zuuluu = 'e3bb71_4';
+            report['location'] = zuuluu;
+            zuuluu = {};
+            option = false;
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            zuuluu = zuuluu.enableFastMonetizationOnboardingForUser;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 168; continue _fun00001 }
  159:
-            if(!mike) { _fun00002_ip = 165; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 165; continue _fun00001 }
  162:
-            mike = zulu;
+            michal = zuuluu;
  165:
-            entity = mike;
+            entity = michal;
  168:
             return entity;
         }
     };
-    var _closure1_slot4 = golf;
-    oscar = function(argFoo) { // Original name: isRavenOnboardingGuild
+    var _closure1_slot4 = golfie;
+    oscard = function(argFoo) { // Original name: isRavenOnboardingGuild
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot0;
+            tangon = argFoo;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            golf = 1;
-            entity = entity[golf];
-            oscar = undefined;
-            entity = mike.bind(oscar)(entity);
-            options = entity.CreatorMonetizationRavenOnboardingGuildExperiment;
-            report = options.getCurrentConfig;
-            mike = {};
+            golfie = 1;
+            entity = entity[golfie];
+            oscard = undefined;
+            entity = michal.bind(oscard)(entity);
+            option = entity.CreatorMonetizationRavenOnboardingGuildExperiment;
+            report = option.getCurrentConfig;
+            michal = {};
             entity = null;
-            verify = tango;
+            verify = tangon;
             if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
  51:
             verify = _closure1_slot2;
  55:
-            mike['guildId'] = verify;
+            michal['guildId'] = verify;
             verify = 'e3bb71_5';
-            mike['location'] = verify;
-            mike = report.bind(options)(mike);
-            mike = mike.enableFastMonetizationOnboardingForGuild;
+            michal['location'] = verify;
+            michal = report.bind(option)(michal);
+            michal = michal.enableFastMonetizationOnboardingForGuild;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[golf];
-            zulu = report.bind(oscar)(zulu);
-            oscar = zulu.CreatorMonetizationRavenOnboardingUserExperiment;
-            report = oscar.getCurrentConfig;
-            zulu = {};
-            golf = 'e3bb71_6';
-            zulu['location'] = golf;
-            zulu = report.bind(oscar)(zulu);
-            zulu = zulu.enableFastMonetizationOnboardingForUser;
-            entity = entity != tango;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[golfie];
+            zuuluu = report.bind(oscard)(zuuluu);
+            oscard = zuuluu.CreatorMonetizationRavenOnboardingUserExperiment;
+            report = oscard.getCurrentConfig;
+            zuuluu = {};
+            golfie = 'e3bb71_6';
+            zuuluu['location'] = golfie;
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.enableFastMonetizationOnboardingForUser;
+            entity = entity != tangon;
             if(!entity) { _fun00004_ip = 148; continue _fun00003 }
  139:
-            if(!mike) { _fun00004_ip = 145; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 145; continue _fun00003 }
  142:
-            mike = zulu;
+            michal = zuuluu;
  145:
-            entity = mike;
+            entity = michal;
  148:
             return entity;
         }
     };
-    var _closure1_slot5 = oscar;
+    var _closure1_slot5 = oscard;
     report = function(argFoo) { // Original name: useIsWhitegloveOnboardingGuild
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tango.bind(entity)(zulu);
-            oscar = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            tango = oscar.useExperiment;
-            zulu = {};
+            entity = tangon.bind(entity)(zuuluu);
+            oscard = entity.CreatorMonetizationRavenOnboardingUserExperiment;
+            tangon = oscard.useExperiment;
+            zuuluu = {};
             entity = 'e3bb71_7';
-            zulu['location'] = entity;
+            zuuluu['location'] = entity;
             entity = {};
-            golf = false;
-            entity['autoTrackExposure'] = golf;
-            entity = tango.bind(oscar)(zulu, entity);
-            zulu = entity.enableFastMonetizationOnboardingForUser;
+            golfie = false;
+            entity['autoTrackExposure'] = golfie;
+            entity = tangon.bind(oscard)(zuuluu, entity);
+            zuuluu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
             entity = entity != report;
             if(!entity) { _fun00006_ip = 112; continue _fun00005 }
  82:
-            tango = report.hasFeature;
-            mike = _closure1_slot3;
-            mike = mike.CREATOR_MONETIZABLE_WHITEGLOVE;
-            mike = tango.bind(report)(mike);
-            if(!mike) { _fun00006_ip = 109; continue _fun00005 }
+            tangon = report.hasFeature;
+            michal = _closure1_slot3;
+            michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
+            michal = tangon.bind(report)(michal);
+            if(!michal) { _fun00006_ip = 109; continue _fun00005 }
  106:
-            mike = zulu;
+            michal = zuuluu;
  109:
-            entity = mike;
+            entity = michal;
  112:
             return entity;
         }
     };
     var _closure1_slot6 = report;
-    tango = function(argFoo) { // Original name: isWhitegloveOnboardingGuild
+    tangon = function(argFoo) { // Original name: isWhitegloveOnboardingGuild
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tango.bind(entity)(zulu);
-            tango = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            zulu = tango.getCurrentConfig;
+            entity = tangon.bind(entity)(zuuluu);
+            tangon = entity.CreatorMonetizationRavenOnboardingUserExperiment;
+            zuuluu = tangon.getCurrentConfig;
             entity = {};
-            oscar = 'e3bb71_8';
-            entity['location'] = oscar;
-            entity = zulu.bind(tango)(entity);
-            zulu = entity.enableFastMonetizationOnboardingForUser;
+            oscard = 'e3bb71_8';
+            entity['location'] = oscard;
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
             entity = entity != report;
             if(!entity) { _fun00008_ip = 102; continue _fun00007 }
  72:
-            tango = report.hasFeature;
-            mike = _closure1_slot3;
-            mike = mike.CREATOR_MONETIZABLE_WHITEGLOVE;
-            mike = tango.bind(report)(mike);
-            if(!mike) { _fun00008_ip = 99; continue _fun00007 }
+            tangon = report.hasFeature;
+            michal = _closure1_slot3;
+            michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
+            michal = tangon.bind(report)(michal);
+            if(!michal) { _fun00008_ip = 99; continue _fun00007 }
  96:
-            mike = zulu;
+            michal = zuuluu;
  99:
-            entity = mike;
+            entity = michal;
  102:
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
-    romeo = entity.Object;
-    yankee = romeo.defineProperty;
-    options = {};
+    romeon = entity.Object;
+    yankee = romeon.defineProperty;
+    option = {};
     entity = true;
-    options['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeo)(zulu, entity, options);
+    entity = yankee.bind(romeon)(zuuluu, entity, option);
     entity = 0;
-    options = offset[entity];
+    option = offset[entity];
     entity = undefined;
-    options = verify.bind(entity)(options);
-    yankee = options.EMPTY_STRING_SNOWFLAKE_ID;
+    option = verify.bind(entity)(option);
+    yankee = option.EMPTY_STRING_SNOWFLAKE_ID;
     var _closure1_slot2 = yankee;
-    options = options.GuildFeatures;
-    var _closure1_slot3 = options;
-    options = 2;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    option = option.GuildFeatures;
+    var _closure1_slot3 = option;
+    option = 2;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx';
-    options = verify.bind(offset)(options);
-    options = function() { // Original name: useIsUserInCreatorMonetizationEligibleCountry
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    option = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx';
+    option = verify.bind(offset)(option);
+    option = function() { // Original name: useIsUserInCreatorMonetizationEligibleCountry
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        tango = entity.CreatorMonetizationCountryAllowlistExperiment;
-        zulu = tango.useExperiment;
-        mike = {};
+        entity = zuuluu.bind(entity)(michal);
+        tangon = entity.CreatorMonetizationCountryAllowlistExperiment;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = 'e3bb71_1';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.isUserEligibleForCreatorMonetization;
         return entity;
     };
-    zulu['useIsUserInCreatorMonetizationEligibleCountry'] = options;
-    options = function() { // Original name: isUserInCreatorMonetizationEligibleCountry
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['useIsUserInCreatorMonetizationEligibleCountry'] = option;
+    option = function() { // Original name: isUserInCreatorMonetizationEligibleCountry
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        tango = entity.CreatorMonetizationCountryAllowlistExperiment;
-        zulu = tango.getCurrentConfig;
-        mike = {};
+        entity = zuuluu.bind(entity)(michal);
+        tangon = entity.CreatorMonetizationCountryAllowlistExperiment;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = 'e3bb71_2';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.isUserEligibleForCreatorMonetization;
         return entity;
     };
-    zulu['isUserInCreatorMonetizationEligibleCountry'] = options;
-    zulu['useIsRavenOnboardingGuild'] = golf;
-    zulu['isRavenOnboardingGuild'] = oscar;
-    zulu['useIsWhitegloveOnboardingGuild'] = report;
-    zulu['isWhitegloveOnboardingGuild'] = tango;
-    tango = function(argFoo) { // Original name: useIsExpeditedOnboardingGuild
+    zuuluu['isUserInCreatorMonetizationEligibleCountry'] = option;
+    zuuluu['useIsRavenOnboardingGuild'] = golfie;
+    zuuluu['isRavenOnboardingGuild'] = oscard;
+    zuuluu['useIsWhitegloveOnboardingGuild'] = report;
+    zuuluu['isWhitegloveOnboardingGuild'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsExpeditedOnboardingGuild
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot4;
             entity = null;
-            oscar = entity == tango;
-            zulu = undefined;
+            oscard = entity == tangon;
+            zuuluu = undefined;
             entity = undefined;
-            if(oscar) { _fun00010_ip = 28; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 28; continue _fun00009 }
  23:
-            entity = tango.id;
+            entity = tangon.id;
  28:
-            entity = report.bind(zulu)(entity);
-            mike = _closure1_slot6;
-            mike = mike.bind(zulu)(tango);
+            entity = report.bind(zuuluu)(entity);
+            michal = _closure1_slot6;
+            michal = michal.bind(zuuluu)(tangon);
             if(entity) { _fun00010_ip = 48; continue _fun00009 }
  45:
-            entity = mike;
+            entity = michal;
  48:
             return entity;
         }
     };
-    zulu['useIsExpeditedOnboardingGuild'] = tango;
-    tango = function(argFoo) { // Original name: isExpeditedMonetizationOnboardingGuild
+    zuuluu['useIsExpeditedOnboardingGuild'] = tangon;
+    tangon = function(argFoo) { // Original name: isExpeditedMonetizationOnboardingGuild
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot5;
             entity = null;
-            oscar = entity == tango;
-            zulu = undefined;
+            oscard = entity == tangon;
+            zuuluu = undefined;
             entity = undefined;
-            if(oscar) { _fun00012_ip = 28; continue _fun00011 }
+            if(oscard) { _fun00012_ip = 28; continue _fun00011 }
  23:
-            entity = tango.id;
+            entity = tangon.id;
  28:
-            entity = report.bind(zulu)(entity);
+            entity = report.bind(zuuluu)(entity);
             if(entity) { _fun00012_ip = 45; continue _fun00011 }
  36:
-            mike = _closure1_slot7;
-            entity = mike.bind(zulu)(tango);
+            michal = _closure1_slot7;
+            entity = michal.bind(zuuluu)(tangon);
  45:
             return entity;
         }
     };
-    zulu['isExpeditedMonetizationOnboardingGuild'] = tango;
-    tango = function(argFoo) { // Original name: useIsMonetizationWaitlistEnabledForGuild
+    zuuluu['isExpeditedMonetizationOnboardingGuild'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsMonetizationWaitlistEnabledForGuild
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            tango = mike.CreatorMonetizationOnboardingWaitlistExperiment;
-            zulu = tango.useExperiment;
-            mike = {};
-            oscar = null;
-            if(!(oscar == entity)) { _fun00014_ip = 52; continue _fun00013 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            tangon = michal.CreatorMonetizationOnboardingWaitlistExperiment;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            oscard = null;
+            if(!(oscard == entity)) { _fun00014_ip = 52; continue _fun00013 }
  48:
             entity = _closure1_slot2;
  52:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = 'e3bb71_9';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enableWaitlist;
             return entity;
         }
     };
-    zulu['useIsMonetizationWaitlistEnabledForGuild'] = tango;
-    tango = function(argFoo) { // Original name: isMonetizationWaitlistEnabledForGuild
+    zuuluu['useIsMonetizationWaitlistEnabledForGuild'] = tangon;
+    tangon = function(argFoo) { // Original name: isMonetizationWaitlistEnabledForGuild
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            zulu = entity.CreatorMonetizationOnboardingWaitlistExperiment;
-            mike = zulu.getCurrentConfig;
+            entity = zuuluu.bind(entity)(michal);
+            zuuluu = entity.CreatorMonetizationOnboardingWaitlistExperiment;
+            michal = zuuluu.getCurrentConfig;
             entity = {};
-            oscar = null;
-            if(!(oscar == tango)) { _fun00016_ip = 52; continue _fun00015 }
+            oscard = null;
+            if(!(oscard == tangon)) { _fun00016_ip = 52; continue _fun00015 }
  48:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
  52:
-            entity['guildId'] = tango;
-            tango = 'e3bb71_10';
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['guildId'] = tangon;
+            tangon = 'e3bb71_10';
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.enableWaitlist;
             return entity;
         }
     };
-    zulu['isMonetizationWaitlistEnabledForGuild'] = tango;
-    mike = function() { // Original name: isCreatorMonetizationNagActivateEnabled
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['isMonetizationWaitlistEnabledForGuild'] = tangon;
+    michal = function() { // Original name: isCreatorMonetizationNagActivateEnabled
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        tango = entity.CreatorMonetizationNagActivateExperiment;
-        zulu = tango.getCurrentConfig;
-        mike = {};
+        entity = zuuluu.bind(entity)(michal);
+        tangon = entity.CreatorMonetizationNagActivateExperiment;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = 'e3bb71_11';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = true;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enableCreatorMonetizationNagActivateForUser;
         return entity;
     };
-    zulu['isCreatorMonetizationNagActivateEnabled'] = mike;
+    zuuluu['isCreatorMonetizationNagActivateEnabled'] = michal;
     return entity;
 })();

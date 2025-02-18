@@ -1,112 +1,112 @@
 // app/modules/threads/getThreadAutoArchiveTimeOnce.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
-    mike = function(argFoo) { // Original name: getThreadLastActivityTime
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
+    michal = function(argFoo) { // Original name: getThreadLastActivityTime
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.threadMetadata;
-            zulu = null;
-            if(!(zulu != mike)) { _fun00002_ip = 175; continue _fun00001 }
+            michal = entity.threadMetadata;
+            zuuluu = null;
+            if(!(zuuluu != michal)) { _fun00002_ip = 175; continue _fun00001 }
  18:
-            oscar = _closure1_slot2;
-            report = oscar.lastMessageId;
-            tango = entity.id;
-            report = report.bind(oscar)(tango);
-            if(!(zulu == report)) { _fun00002_ip = 50; continue _fun00001 }
+            oscard = _closure1_slot2;
+            report = oscard.lastMessageId;
+            tangon = entity.id;
+            report = report.bind(oscard)(tangon);
+            if(!(zuuluu == report)) { _fun00002_ip = 50; continue _fun00001 }
  45:
             report = entity.id;
  50:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 2;
-            tango = tango[mike];
-            mike = undefined;
-            tango = oscar.bind(mike)(tango);
-            mike = tango.extractTimestamp;
-            tango = mike.bind(tango)(report);
-            mike = entity.threadMetadata;
-            mike = mike.archiveTimestamp;
-            mike = zulu != mike;
-            zulu = 0;
-            if(!mike) { _fun00002_ip = 154; continue _fun00001 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 2;
+            tangon = tangon[michal];
+            michal = undefined;
+            tangon = oscard.bind(michal)(tangon);
+            michal = tangon.extractTimestamp;
+            tangon = michal.bind(tangon)(report);
+            michal = entity.threadMetadata;
+            michal = michal.archiveTimestamp;
+            michal = zuuluu != michal;
+            zuuluu = 0;
+            if(!michal) { _fun00002_ip = 154; continue _fun00001 }
  104:
-            mike = global;
-            report = mike.Date;
+            michal = global;
+            report = michal.Date;
             entity = entity.threadMetadata;
-            options = entity.archiveTimestamp;
-            mike = report.prototype;
-            mike = Object.create(mike, {constructor: {value: report}});
-            verify = mike;
-            entity = new verify[report](options, golf);
-            mike = entity instanceof Object ? entity : mike;
-            entity = mike.getTime;
-            zulu = entity.bind(mike)();
+            option = entity.archiveTimestamp;
+            michal = report.prototype;
+            michal = Object.create(michal, {constructor: {value: report}});
+            verify = michal;
+            entity = new verify[report](option, golfie);
+            michal = entity instanceof Object ? entity : michal;
+            entity = michal.getTime;
+            zuuluu = entity.bind(michal)();
  154:
             entity = global;
-            mike = entity.Math;
-            entity = mike.max;
-            entity = entity.bind(mike)(tango, zulu);
+            michal = entity.Math;
+            entity = michal.max;
+            entity = entity.bind(michal)(tangon, zuuluu);
             return entity;
  175:
             entity = 0;
             return entity;
         }
     };
-    var _closure1_slot3 = mike;
+    var _closure1_slot3 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    report = oscar[entity];
+    report = oscard[entity];
     entity = undefined;
-    report = golf.bind(entity)(report);
+    report = golfie.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 3;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/threads/getThreadAutoArchiveTimeOnce.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: getThreadAutoArchiveTimeOnce
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: getThreadAutoArchiveTimeOnce
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            mike = tango.threadMetadata;
+            tangon = argFoo;
+            michal = tangon.threadMetadata;
             entity = null;
-            if(!(entity != mike)) { _fun00004_ip = 83; continue _fun00003 }
+            if(!(entity != michal)) { _fun00004_ip = 83; continue _fun00003 }
  15:
-            entity = tango.threadMetadata;
+            entity = tangon.threadMetadata;
             report = entity.autoArchiveDuration;
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            mike = zulu[mike];
-            zulu = undefined;
-            mike = oscar.bind(zulu)(mike);
-            mike = mike.Millis;
-            mike = mike.MINUTE;
-            mike = report * mike;
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            michal = oscard.bind(zuuluu)(michal);
+            michal = michal.Millis;
+            michal = michal.MINUTE;
+            michal = report * michal;
             entity = _closure1_slot3;
-            entity = entity.bind(zulu)(tango);
-            entity = entity + mike;
+            entity = entity.bind(zuuluu)(tangon);
+            entity = entity + michal;
             return entity;
  83:
             entity = 0;
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['getThreadLastActivityTime'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getThreadLastActivityTime'] = michal;
     return entity;
 })();

@@ -1,87 +1,87 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: renderChannelPressableWrapper
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: renderChannelPressableWrapper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
-            options = entity.layout;
+            option = entity.layout;
             report = entity.launchpad;
-            golf = entity.isThread;
-            oscar = entity.panelVariant;
-            tango = undefined;
-            if(!(oscar === tango)) { _fun00002_ip = 35; continue _fun00001 }
+            golfie = entity.isThread;
+            oscard = entity.panelVariant;
+            tangon = undefined;
+            if(!(oscard === tangon)) { _fun00002_ip = 35; continue _fun00001 }
  33:
-            oscar = false;
+            oscard = false;
  35:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             verify = _closure1_slot1;
-            mike = 3;
-            mike = verify[mike];
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.getLayoutStyles;
-            report = mike.bind(zulu)(options, report);
-            zulu = _closure1_slot3;
-            mike = _closure1_slot2;
+            michal = 3;
+            michal = verify[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.getLayoutStyles;
+            report = michal.bind(zuuluu)(option, report);
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot2;
             entity = {};
             report = report.layout;
-            if(golf) { _fun00002_ip = 108; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 108; continue _fun00001 }
  89:
-            if(oscar) { _fun00002_ip = 100; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 100; continue _fun00001 }
  92:
-            oscar = report.margin;
+            oscard = report.margin;
             _fun00002_ip = 106; continue _fun00001;
  100:
-            oscar = report.marginPanels;
+            oscard = report.marginPanels;
  106:
             _fun00002_ip = 114; continue _fun00001;
  108:
-            oscar = report.marginThread;
+            oscard = report.marginThread;
  114:
             report = new Array(2);
-            report[0] = oscar;
-            oscar = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
-            report[1] = oscar;
+            report[0] = oscard;
+            oscard = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
+            report[1] = oscard;
             entity['style'] = report;
             report = argFoo;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['renderChannelPressableWrapper'] = mike;
+    zuuluu['renderChannelPressableWrapper'] = michal;
     return entity;
 })();

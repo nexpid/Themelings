@@ -1,51 +1,51 @@
 // app/hooks/usePrevious.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.useRef;
-    var _closure1_slot0 = golf;
-    tango = tango.useEffect;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/usePrevious.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: usePrevious
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.useRef;
+    var _closure1_slot0 = golfie;
+    tangon = tangon.useEffect;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/usePrevious.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: usePrevious
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         entity = _closure1_slot0;
         report = undefined;
         entity = entity.bind(report)();
         var _closure2_slot1 = entity;
-        tango = _closure1_slot1;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function() {
-            mike = _closure2_slot1;
+        tangon = _closure1_slot1;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function() {
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         entity = entity.current;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

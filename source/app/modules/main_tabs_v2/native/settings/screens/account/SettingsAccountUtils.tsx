@@ -1,126 +1,126 @@
 // app/modules/main_tabs_v2/native/settings/screens/account/SettingsAccountUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/screens/account/SettingsAccountUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useIs2FAEnabled
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/screens/account/SettingsAccountUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useIs2FAEnabled
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot3;
-                entity = mike.getCurrentUser;
-                zulu = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getCurrentUser;
+                zuuluu = entity.bind(michal)();
                 entity = null;
-                tango = entity == zulu;
-                mike = undefined;
-                if(tango) { _fun00002_ip = 33; continue _fun00001 }
+                tangon = entity == zuuluu;
+                michal = undefined;
+                if(tangon) { _fun00002_ip = 33; continue _fun00001 }
  27:
-                mike = zulu.mfaEnabled;
+                michal = zuuluu.mfaEnabled;
  33:
-                entity = entity != mike;
+                entity = entity != michal;
                 if(!entity) { _fun00002_ip = 43; continue _fun00001 }
  40:
-                entity = mike;
+                entity = michal;
  43:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIs2FAEnabled'] = tango;
-    tango = function() { // Original name: useIsTOTPEnabled
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    zuuluu['useIs2FAEnabled'] = tangon;
+    tangon = function() { // Original name: useIsTOTPEnabled
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
-            mike = _closure1_slot2;
-            entity = mike.hasTOTPEnabled;
-            entity = entity.bind(mike)();
+            michal = _closure1_slot2;
+            entity = michal.hasTOTPEnabled;
+            entity = entity.bind(michal)();
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIsTOTPEnabled'] = tango;
-    mike = function() { // Original name: useIsUserVerified
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    zuuluu['useIsTOTPEnabled'] = tangon;
+    michal = function() { // Original name: useIsUserVerified
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = _closure1_slot3;
-                entity = mike.getCurrentUser;
-                zulu = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getCurrentUser;
+                zuuluu = entity.bind(michal)();
                 entity = null;
-                tango = entity == zulu;
-                mike = undefined;
-                if(tango) { _fun00004_ip = 33; continue _fun00003 }
+                tangon = entity == zuuluu;
+                michal = undefined;
+                if(tangon) { _fun00004_ip = 33; continue _fun00003 }
  27:
-                mike = zulu.verified;
+                michal = zuuluu.verified;
  33:
-                entity = entity != mike;
+                entity = entity != michal;
                 if(!entity) { _fun00004_ip = 43; continue _fun00003 }
  40:
-                entity = mike;
+                entity = michal;
  43:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIsUserVerified'] = mike;
+    zuuluu['useIsUserVerified'] = michal;
     return entity;
 })();

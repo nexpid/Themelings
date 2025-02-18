@@ -1,40 +1,40 @@
 // app/modules/threads/convertServerThreadMember.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/threads/convertServerThreadMember.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: convertServerThreadMember
-        mike = argFoo;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/threads/convertServerThreadMember.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: convertServerThreadMember
+        michal = argFoo;
         entity = {};
-        zulu = mike.id;
-        entity['id'] = zulu;
-        zulu = mike.user_id;
-        entity['userId'] = zulu;
-        zulu = mike.flags;
-        entity['flags'] = zulu;
-        zulu = mike.muted;
-        entity['muted'] = zulu;
-        zulu = mike.mute_config;
-        entity['muteConfig'] = zulu;
-        mike = mike.join_timestamp;
-        entity['joinTimestamp'] = mike;
+        zuuluu = michal.id;
+        entity['id'] = zuuluu;
+        zuuluu = michal.user_id;
+        entity['userId'] = zuuluu;
+        zuuluu = michal.flags;
+        entity['flags'] = zuuluu;
+        zuuluu = michal.muted;
+        entity['muted'] = zuuluu;
+        zuuluu = michal.mute_config;
+        entity['muteConfig'] = zuuluu;
+        michal = michal.join_timestamp;
+        entity['joinTimestamp'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

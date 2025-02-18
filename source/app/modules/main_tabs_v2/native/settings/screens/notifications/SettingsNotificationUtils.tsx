@@ -1,55 +1,55 @@
 // app/modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: hasAndroidNotificationChannels
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: hasAndroidNotificationChannels
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 0;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.isAndroid;
-            entity = entity.bind(zulu)();
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.isAndroid;
+            entity = entity.bind(zuuluu)();
             if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  36:
-            zulu = global;
-            tango = zulu.parseInt;
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 1;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.getSystemVersion;
-            zulu = mike.bind(zulu)();
-            mike = 10;
-            zulu = tango.bind(report)(zulu, mike);
-            mike = 26;
-            entity = zulu >= mike;
+            zuuluu = global;
+            tangon = zuuluu.parseInt;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 1;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.getSystemVersion;
+            zuuluu = michal.bind(zuuluu)();
+            michal = 10;
+            zuuluu = tangon.bind(report)(zuuluu, michal);
+            michal = 26;
+            entity = zuuluu >= michal;
  90:
             return entity;
         }
     };
-    zulu['hasAndroidNotificationChannels'] = mike;
+    zuuluu['hasAndroidNotificationChannels'] = michal;
     return entity;
 })();

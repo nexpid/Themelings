@@ -1,61 +1,61 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/useEnsureHydratedUsers.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/happening_now/useEnsureHydratedUsers.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useEnsureHydratedUsers
-        options = argFoo;
-        golf = argBar;
-        var _closure2_slot0 = options;
-        var _closure2_slot1 = golf;
-        oscar = _closure1_slot2;
-        report = oscar.useMemo;
-        tango = new Array(2);
-        tango[0] = options;
-        tango[1] = golf;
-        zulu = function() {
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/happening_now/useEnsureHydratedUsers.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useEnsureHydratedUsers
+        option = argFoo;
+        golfie = argBar;
+        var _closure2_slot0 = option;
+        var _closure2_slot1 = golfie;
+        oscard = _closure1_slot2;
+        report = oscard.useMemo;
+        tangon = new Array(2);
+        tangon[0] = option;
+        tangon[1] = golfie;
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot1;
-                zulu = entity.length;
+                zuuluu = entity.length;
                 entity = 0;
-                if(!(entity !== zulu)) { _fun00002_ip = 35; continue _fun00001 }
+                if(!(entity !== zuuluu)) { _fun00002_ip = 35; continue _fun00001 }
  18:
                 entity = {};
-                zulu = _closure2_slot0;
-                mike = _closure2_slot1;
-                entity[zulu] = mike;
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot1;
+                entity[zuuluu] = michal;
                 _fun00002_ip = 37; continue _fun00001;
  35:
                 entity = {};
@@ -63,48 +63,48 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             }
         };
-        tango = report.bind(oscar)(zulu, tango);
-        report = oscar.useEffect;
-        zulu = new Array(2);
-        zulu[0] = options;
-        zulu[1] = golf;
-        mike = function() {
-            zulu = _closure2_slot1;
-            mike = zulu.forEach;
+        tangon = report.bind(oscard)(zuuluu, tangon);
+        report = oscard.useEffect;
+        zuuluu = new Array(2);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        michal = function() {
+            zuuluu = _closure2_slot1;
+            michal = zuuluu.forEach;
             entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = argFoo;
-                    zulu = _closure1_slot4;
-                    mike = zulu.getUser;
-                    zulu = mike.bind(zulu)(tango);
-                    mike = null;
-                    if(!(mike == zulu)) { _fun00004_ip = 50; continue _fun00003 }
+                    tangon = argFoo;
+                    zuuluu = _closure1_slot4;
+                    michal = zuuluu.getUser;
+                    zuuluu = michal.bind(zuuluu)(tangon);
+                    michal = null;
+                    if(!(michal == zuuluu)) { _fun00004_ip = 50; continue _fun00003 }
  27:
-                    zulu = _closure1_slot3;
-                    mike = zulu.requestMember;
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.requestMember;
                     entity = _closure2_slot0;
-                    entity = mike.bind(zulu)(entity, tango);
+                    entity = michal.bind(zuuluu)(entity, tangon);
  50:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = report.bind(oscar)(mike, zulu);
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        michal = report.bind(oscard)(michal, zuuluu);
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.useSubscribeGuildMembers;
-        mike = mike.bind(zulu)(tango);
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.useSubscribeGuildMembers;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
-    zulu['useEnsureHydratedUsers'] = mike;
+    zuuluu['useEnsureHydratedUsers'] = michal;
     return entity;
 })();

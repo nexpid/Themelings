@@ -1,99 +1,99 @@
 // app/modules/premium/native/MobileTrialUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PremiumSubscriptionSKUToPremiumType;
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/MobileTrialUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useShouldShowPremiumTrialUserSettingsAvatarBadge
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PremiumSubscriptionSKUToPremiumType;
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/native/MobileTrialUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useShouldShowPremiumTrialUserSettingsAvatarBadge
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 1;
-            entity = golf[entity];
-            zulu = undefined;
-            mike = oscar.bind(zulu)(entity);
-            entity = mike.usePremiumTrialOffer;
-            tango = entity.bind(mike)();
+            entity = golfie[entity];
+            zuuluu = undefined;
+            michal = oscard.bind(zuuluu)(entity);
+            entity = michal.usePremiumTrialOffer;
+            tangon = entity.bind(michal)();
             entity = 2;
-            entity = golf[entity];
-            report = oscar.bind(zulu)(entity);
-            mike = report.useIsDismissibleContentTypeDismissed;
+            entity = golfie[entity];
+            report = oscard.bind(zuuluu)(entity);
+            michal = report.useIsDismissibleContentTypeDismissed;
             entity = 3;
-            entity = golf[entity];
-            entity = oscar.bind(zulu)(entity);
+            entity = golfie[entity];
+            entity = oscard.bind(zuuluu)(entity);
             entity = entity.DismissibleContent;
             entity = entity.PREMIUM_MOBILE_TRIAL_USER_SETTINGS_AVATAR_BADGE;
-            mike = mike.bind(report)(entity);
+            michal = michal.bind(report)(entity);
             entity = null;
-            report = entity == tango;
+            report = entity == tangon;
             if(report) { _fun00002_ip = 97; continue _fun00001 }
  91:
-            zulu = tango.expires_at;
+            zuuluu = tangon.expires_at;
  97:
-            zulu = entity != zulu;
-            entity = entity != tango;
+            zuuluu = entity != zuuluu;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 111; continue _fun00001 }
  108:
-            entity = !zulu;
+            entity = !zuuluu;
  111:
             if(!entity) { _fun00002_ip = 117; continue _fun00001 }
  114:
-            entity = !mike;
+            entity = !michal;
  117:
             return entity;
         }
     };
-    zulu['useShouldShowPremiumTrialUserSettingsAvatarBadge'] = tango;
-    mike = function() { // Original name: usePremiumTrialOfferPremiumType
+    zuuluu['useShouldShowPremiumTrialUserSettingsAvatarBadge'] = tangon;
+    michal = function() { // Original name: usePremiumTrialOfferPremiumType
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            mike = tango[mike];
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            michal = tangon[michal];
             report = undefined;
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.usePremiumTrialOffer;
-            zulu = mike.bind(zulu)();
-            tango = null;
-            oscar = tango == zulu;
-            mike = undefined;
-            if(oscar) { _fun00004_ip = 67; continue _fun00003 }
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.usePremiumTrialOffer;
+            zuuluu = michal.bind(zuuluu)();
+            tangon = null;
+            oscard = tangon == zuuluu;
+            michal = undefined;
+            if(oscard) { _fun00004_ip = 67; continue _fun00003 }
  46:
-            zulu = zulu.subscription_trial;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00004_ip = 67; continue _fun00003 }
+            zuuluu = zuuluu.subscription_trial;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 67; continue _fun00003 }
  61:
-            mike = zulu.sku_id;
+            michal = zuuluu.sku_id;
  67:
             entity = _closure1_slot2;
-            entity = entity[mike];
+            entity = entity[michal];
             return entity;
         }
     };
-    zulu['usePremiumTrialOfferPremiumType'] = mike;
+    zuuluu['usePremiumTrialOfferPremiumType'] = michal;
     return entity;
 })();

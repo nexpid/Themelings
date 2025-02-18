@@ -1,86 +1,86 @@
 // app/modules/voice_panel/native/utils/useSelfHasVideo.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/utils/useSelfHasVideo.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSelfHasVideo
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot2;
-        mike = new Array(3);
-        mike[0] = oscar;
-        oscar = _closure1_slot3;
-        mike[1] = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/utils/useSelfHasVideo.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSelfHasVideo
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot2;
+        michal = new Array(3);
+        michal[0] = oscard;
+        oscard = _closure1_slot3;
+        michal[1] = oscard;
         report = _closure1_slot4;
-        mike[2] = report;
+        michal[2] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 4;
-                zulu = zulu[mike];
-                mike = undefined;
-                tango = tango.bind(mike)(zulu);
-                zulu = tango.canRenderParticipantVideo;
-                options = _closure1_slot2;
-                golf = options.getParticipant;
-                oscar = _closure2_slot0;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 4;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.canRenderParticipantVideo;
+                option = _closure1_slot2;
+                golfie = option.getParticipant;
+                oscard = _closure2_slot0;
                 verify = _closure1_slot3;
                 report = verify.getId;
                 report = report.bind(verify)();
-                report = golf.bind(options)(oscar, report);
-                oscar = null;
-                oscar = oscar != report;
-                if(!oscar) { _fun00002_ip = 80; continue _fun00001 }
+                report = golfie.bind(option)(oscard, report);
+                oscard = null;
+                oscard = oscard != report;
+                if(!oscard) { _fun00002_ip = 80; continue _fun00001 }
  77:
-                mike = report;
+                michal = report;
  80:
                 entity = _closure1_slot4;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

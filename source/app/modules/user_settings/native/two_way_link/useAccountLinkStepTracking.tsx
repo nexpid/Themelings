@@ -1,48 +1,48 @@
 // app/modules/user_settings/native/two_way_link/useAccountLinkStepTracking.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
-    entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: _handleStateChange
+    var _closure1_slot1 = oscard;
+    entity = function(argFoo, argBar, argBaz, argCor) { // Original name: _handleStateChange
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            mike = argBar;
+            golfie = argFoo;
+            michal = argBar;
             offset = null;
-            if(!(offset != golf)) { _fun00002_ip = 137; continue _fun00001 }
+            if(!(offset != golfie)) { _fun00002_ip = 137; continue _fun00001 }
  15:
-            entity = golf.index;
+            entity = golfie.index;
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
-            tango = 2;
-            tango = oscar[tango];
-            options = undefined;
-            oscar = report.bind(options)(tango);
-            report = oscar.track;
-            zulu = _closure1_slot3;
-            tango = zulu.ACCOUNT_LINK_STEP;
-            zulu = {};
-            verify = argCorge;
-            zulu['location_stack'] = verify;
-            verify = mike.current;
+            oscard = _closure1_slot1;
+            tangon = 2;
+            tangon = oscard[tangon];
+            option = undefined;
+            oscard = report.bind(option)(tangon);
+            report = oscard.track;
+            zuuluu = _closure1_slot3;
+            tangon = zuuluu.ACCOUNT_LINK_STEP;
+            zuuluu = {};
+            verify = argCor;
+            zuuluu['location_stack'] = verify;
+            verify = michal.current;
             verify = offset != verify;
             if(!verify) { _fun00002_ip = 97; continue _fun00001 }
  82:
-            offset = golf.routeNames;
-            verify = mike.current;
-            options = offset[verify];
+            offset = golfie.routeNames;
+            verify = michal.current;
+            option = offset[verify];
  97:
-            zulu['previous_step'] = options;
-            golf = golf.routeNames;
-            golf = golf[entity];
-            zulu['current_step'] = golf;
-            golf = argBaz;
-            zulu['platform_type'] = golf;
-            zulu = report.bind(oscar)(tango, zulu);
-            mike['current'] = entity;
+            zuuluu['previous_step'] = option;
+            golfie = golfie.routeNames;
+            golfie = golfie[entity];
+            zuuluu['current_step'] = golfie;
+            golfie = argBaz;
+            zuuluu['platform_type'] = golfie;
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            michal['current'] = entity;
  137:
             entity = undefined;
             return entity;
@@ -50,79 +50,79 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/native/two_way_link/useAccountLinkStepTracking.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useAccountLinkStepTracking
-        oscar = argFoo;
-        golf = argBar;
-        var _closure2_slot0 = oscar;
-        var _closure2_slot1 = golf;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/native/two_way_link/useAccountLinkStepTracking.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useAccountLinkStepTracking
+        oscard = argFoo;
+        golfie = argBar;
+        var _closure2_slot0 = oscard;
+        var _closure2_slot1 = golfie;
         report = _closure1_slot2;
-        zulu = report.useRef;
+        zuuluu = report.useRef;
         entity = null;
-        entity = zulu.bind(report)(entity);
+        entity = zuuluu.bind(report)(entity);
         var _closure2_slot2 = entity;
-        tango = report.useCallback;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        zulu[1] = oscar;
+        tangon = report.useCallback;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
         entity = function(argFoo) {
-            oscar = _closure1_slot4;
+            oscard = _closure1_slot4;
             verify = _closure2_slot2;
-            options = _closure2_slot0;
-            golf = _closure2_slot1;
+            option = _closure2_slot0;
+            golfie = _closure2_slot1;
             entity = undefined;
             offset = argFoo;
             yankee = undefined;
-            mike = yankee[oscar](offset, verify, options, golf, oscar);
+            michal = yankee[oscard](offset, verify, option, golfie, oscard);
             return entity;
         };
-        entity = tango.bind(report)(entity, zulu);
-        tango = report.useEffect;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        zulu[1] = oscar;
-        mike = function() {
-            oscar = _closure1_slot4;
+        entity = tangon.bind(report)(entity, zuuluu);
+        tangon = report.useEffect;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
+        michal = function() {
+            oscard = _closure1_slot4;
             report = {};
             entity = 0;
             report['index'] = entity;
             entity = ['landing'];
             report['routeNames'] = entity;
             verify = _closure2_slot2;
-            options = _closure2_slot0;
-            golf = _closure2_slot1;
+            option = _closure2_slot0;
+            golfie = _closure2_slot1;
             entity = undefined;
             yankee = undefined;
             offset = report;
-            mike = yankee[oscar](offset, verify, options, golf, oscar);
+            michal = yankee[oscard](offset, verify, option, golfie, oscard);
             return entity;
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['useAccountLinkStepTracking'] = mike;
+    zuuluu['useAccountLinkStepTracking'] = michal;
     return entity;
 })();

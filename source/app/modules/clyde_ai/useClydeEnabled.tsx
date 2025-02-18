@@ -1,180 +1,180 @@
 // app/modules/clyde_ai/useClydeEnabled.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
     offset = argBaz;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
-    oscar = function(argFoo) { // Original name: useClydeExperiment
+    oscard = function(argFoo) { // Original name: useClydeExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = arguments[1];
             entity = arguments[2];
-            tango = undefined;
-            if(!(report === tango)) { _fun00002_ip = 17; continue _fun00001 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             report = false;
  17:
-            if(!(entity === tango)) { _fun00002_ip = 27; continue _fun00001 }
+            if(!(entity === tangon)) { _fun00002_ip = 27; continue _fun00001 }
  21:
             entity = '1e9ccc_1';
  27:
-            mike = null;
-            golf = mike == zulu;
-            oscar = undefined;
-            if(golf) { _fun00002_ip = 43; continue _fun00001 }
+            michal = null;
+            golfie = michal == zuuluu;
+            oscard = undefined;
+            if(golfie) { _fun00002_ip = 43; continue _fun00001 }
  38:
-            oscar = zulu.id;
+            oscard = zuuluu.id;
  43:
-            if(!(mike == oscar)) { _fun00002_ip = 54; continue _fun00001 }
+            if(!(michal == oscard)) { _fun00002_ip = 54; continue _fun00001 }
  47:
-            oscar = _closure1_slot6;
+            oscard = _closure1_slot6;
  54:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 5;
-            mike = golf[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.useExperiment;
-            mike = {};
-            mike['guildId'] = oscar;
-            mike['location'] = entity;
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 5;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['guildId'] = oscard;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.experimentState;
             return entity;
         }
     };
-    var _closure1_slot9 = oscar;
+    var _closure1_slot9 = oscard;
     report = function(argFoo, argBar, argBaz) { // Original name: checkClydeEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = null;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = null;
             entity = argBar;
-            if(!(mike != entity)) { _fun00004_ip = 97; continue _fun00003 }
+            if(!(michal != entity)) { _fun00004_ip = 97; continue _fun00003 }
  15:
-            entity = mike != tango;
+            entity = michal != tangon;
             if(!entity) { _fun00004_ip = 63; continue _fun00003 }
  22:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 5;
-            report = report[zulu];
-            zulu = undefined;
-            zulu = golf.bind(zulu)(report);
-            zulu = zulu.ClydeExperimentState;
-            zulu = zulu.None;
-            entity = tango !== zulu;
+            zuuluu = 5;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            zuuluu = golfie.bind(zuuluu)(report);
+            zuuluu = zuuluu.ClydeExperimentState;
+            zuuluu = zuuluu.None;
+            entity = tangon !== zuuluu;
  63:
             if(!entity) { _fun00004_ip = 95; continue _fun00003 }
  66:
             report = _closure1_slot5;
-            tango = report.can;
-            zulu = _closure1_slot7;
-            zulu = zulu.USE_CLYDE_AI;
-            entity = tango.bind(report)(zulu, oscar);
+            tangon = report.can;
+            zuuluu = _closure1_slot7;
+            zuuluu = zuuluu.USE_CLYDE_AI;
+            entity = tangon.bind(report)(zuuluu, oscard);
  95:
             _fun00004_ip = 194; continue _fun00003;
  97:
-            zulu = mike == oscar;
-            if(zulu) { _fun00004_ip = 117; continue _fun00003 }
+            zuuluu = michal == oscard;
+            if(zuuluu) { _fun00004_ip = 117; continue _fun00003 }
  104:
-            mike = oscar.isPrivate;
-            mike = mike.bind(oscar)();
-            zulu = !mike;
+            michal = oscard.isPrivate;
+            michal = michal.bind(oscard)();
+            zuuluu = !michal;
  117:
-            mike = !zulu;
-            if(zulu) { _fun00004_ip = 191; continue _fun00003 }
+            michal = !zuuluu;
+            if(zuuluu) { _fun00004_ip = 191; continue _fun00003 }
  123:
-            report = oscar.hasFlag;
-            zulu = _closure1_slot8;
-            zulu = zulu.CLYDE_AI;
-            zulu = report.bind(oscar)(zulu);
-            report = !zulu;
-            zulu = !report;
+            report = oscard.hasFlag;
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.CLYDE_AI;
+            zuuluu = report.bind(oscard)(zuuluu);
+            report = !zuuluu;
+            zuuluu = !report;
             if(!report) { _fun00004_ip = 188; continue _fun00003 }
  156:
             report = _closure1_slot4;
-            tango = report.getGuildIds;
-            oscar = tango.bind(report)();
-            report = oscar.some;
-            tango = function(argFoo) {
-                zulu = _closure1_slot11;
-                tango = _closure1_slot4;
-                mike = tango.getGuild;
+            tangon = report.getGuildIds;
+            oscard = tangon.bind(report)();
+            report = oscard.some;
+            tangon = function(argFoo) {
+                zuuluu = _closure1_slot11;
+                tangon = _closure1_slot4;
+                michal = tangon.getGuild;
                 entity = argFoo;
-                mike = mike.bind(tango)(entity);
+                michal = michal.bind(tangon)(entity);
                 entity = undefined;
-                entity = zulu.bind(entity)(mike);
+                entity = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            zulu = report.bind(oscar)(tango);
+            zuuluu = report.bind(oscard)(tangon);
  188:
-            mike = zulu;
+            michal = zuuluu;
  191:
-            entity = mike;
+            entity = michal;
  194:
             return entity;
         }
     };
     var _closure1_slot10 = report;
-    tango = function(argFoo) { // Original name: getClydeExperimentEnabled
+    tangon = function(argFoo) { // Original name: getClydeExperimentEnabled
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = arguments[1];
-            tango = undefined;
-            if(!(report === tango)) { _fun00006_ip = 11; continue _fun00005 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00006_ip = 11; continue _fun00005 }
  9:
             report = false;
  11:
-            zulu = _closure1_slot12;
-            mike = argFoo;
-            mike = zulu.bind(tango)(mike, report);
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot12;
+            michal = argFoo;
+            michal = zuuluu.bind(tangon)(michal, report);
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             entity = 5;
             entity = report[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.ClydeExperimentState;
             entity = entity.None;
-            entity = mike !== entity;
+            entity = michal !== entity;
             return entity;
         }
     };
-    var _closure1_slot11 = tango;
+    var _closure1_slot11 = tangon;
     entity = function(argFoo) { // Original name: getClydeExperimentState
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = arguments[1];
-            tango = undefined;
-            if(!(report === tango)) { _fun00008_ip = 14; continue _fun00007 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00008_ip = 14; continue _fun00007 }
  12:
             report = false;
  14:
-            mike = null;
-            if(!(mike != entity)) { _fun00008_ip = 91; continue _fun00007 }
+            michal = null;
+            if(!(michal != entity)) { _fun00008_ip = 91; continue _fun00007 }
  20:
             entity = entity.id;
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 5;
-            mike = oscar[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.getCurrentConfig;
-            mike = {};
-            mike['guildId'] = entity;
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
+            michal = 5;
+            michal = oscard[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['guildId'] = entity;
             entity = '1e9ccc_4';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.experimentState;
             return entity;
  91:
@@ -184,249 +184,249 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = global;
-    romeo = entity.Object;
-    yankee = romeo.defineProperty;
-    golf = {};
+    romeon = entity.Object;
+    yankee = romeon.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeo)(zulu, entity, golf);
+    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
     entity = 0;
-    golf = verify[entity];
+    golfie = verify[entity];
     entity = undefined;
-    golf = options.bind(entity)(golf);
-    golf = golf.useMemo;
-    var _closure1_slot3 = golf;
-    golf = 1;
-    golf = verify[golf];
-    golf = offset.bind(entity)(golf);
-    var _closure1_slot4 = golf;
-    golf = 2;
-    golf = verify[golf];
-    golf = offset.bind(entity)(golf);
-    var _closure1_slot5 = golf;
-    golf = 3;
-    golf = verify[golf];
-    golf = options.bind(entity)(golf);
-    offset = golf.EMPTY_STRING_SNOWFLAKE_ID;
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.useMemo;
+    var _closure1_slot3 = golfie;
+    golfie = 1;
+    golfie = verify[golfie];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot4 = golfie;
+    golfie = 2;
+    golfie = verify[golfie];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot5 = golfie;
+    golfie = 3;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    offset = golfie.EMPTY_STRING_SNOWFLAKE_ID;
     var _closure1_slot6 = offset;
-    golf = golf.Permissions;
-    var _closure1_slot7 = golf;
-    golf = 4;
-    golf = verify[golf];
-    golf = options.bind(entity)(golf);
-    golf = golf.ChannelFlags;
-    var _closure1_slot8 = golf;
-    golf = 7;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/clyde_ai/useClydeEnabled.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['useClydeExperiment'] = oscar;
-    oscar = function(argFoo) { // Original name: useClydeExperimentEnabled
+    golfie = golfie.Permissions;
+    var _closure1_slot7 = golfie;
+    golfie = 4;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.ChannelFlags;
+    var _closure1_slot8 = golfie;
+    golfie = 7;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/clyde_ai/useClydeEnabled.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['useClydeExperiment'] = oscard;
+    oscard = function(argFoo) { // Original name: useClydeExperimentEnabled
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = arguments[1];
-            tango = undefined;
-            if(!(report === tango)) { _fun00010_ip = 11; continue _fun00009 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00010_ip = 11; continue _fun00009 }
  9:
             report = false;
  11:
-            zulu = _closure1_slot9;
-            mike = argFoo;
-            mike = zulu.bind(tango)(mike, report);
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot9;
+            michal = argFoo;
+            michal = zuuluu.bind(tangon)(michal, report);
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             entity = 5;
             entity = report[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.ClydeExperimentState;
             entity = entity.None;
-            entity = mike !== entity;
+            entity = michal !== entity;
             return entity;
         }
     };
-    zulu['useClydeExperimentEnabled'] = oscar;
-    oscar = function(argFoo) { // Original name: useClydeProfilesEnabled
+    zuuluu['useClydeExperimentEnabled'] = oscard;
+    oscard = function(argFoo) { // Original name: useClydeProfilesEnabled
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            oscar = arguments[1];
-            tango = undefined;
-            if(!(oscar === tango)) { _fun00012_ip = 11; continue _fun00011 }
+            oscard = arguments[1];
+            tangon = undefined;
+            if(!(oscard === tangon)) { _fun00012_ip = 11; continue _fun00011 }
  9:
-            oscar = false;
+            oscard = false;
  11:
             report = _closure1_slot9;
-            zulu = argFoo;
-            mike = arguments[2];
-            mike = report.bind(tango)(zulu, oscar, mike);
-            zulu = _closure1_slot0;
+            zuuluu = argFoo;
+            michal = arguments[2];
+            michal = report.bind(tangon)(zuuluu, oscard, michal);
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             entity = 5;
             entity = report[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.ClydeExperimentState;
             entity = entity.ClydeProfiles;
-            entity = mike === entity;
+            entity = michal === entity;
             return entity;
         }
     };
-    zulu['useClydeProfilesEnabled'] = oscar;
-    oscar = function(argFoo, argBar) { // Original name: useClydeEnabled
+    zuuluu['useClydeProfilesEnabled'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: useClydeEnabled
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = argFoo;
-            mike = arguments[2];
-            tango = undefined;
-            if(!(mike === tango)) { _fun00014_ip = 14; continue _fun00013 }
+            michal = arguments[2];
+            tangon = undefined;
+            if(!(michal === tangon)) { _fun00014_ip = 14; continue _fun00013 }
  12:
-            mike = false;
+            michal = false;
  14:
-            zulu = _closure1_slot10;
+            zuuluu = _closure1_slot10;
             entity = _closure1_slot9;
-            mike = entity.bind(tango)(report, mike);
+            michal = entity.bind(tangon)(report, michal);
             entity = argBar;
-            entity = zulu.bind(tango)(mike, report, entity);
+            entity = zuuluu.bind(tangon)(michal, report, entity);
             return entity;
         }
     };
-    zulu['useClydeEnabled'] = oscar;
-    oscar = function() { // Original name: useIsPartOfGuildWithCustomClydeProfilesEnabled
+    zuuluu['useClydeEnabled'] = oscard;
+    oscard = function() { // Original name: useIsPartOfGuildWithCustomClydeProfilesEnabled
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 6;
-        zulu = tango[zulu];
-        tango = undefined;
-        golf = report.bind(tango)(zulu);
-        oscar = golf.useStateFromStoresArray;
-        zulu = _closure1_slot4;
+        tangon = _closure1_slot2;
+        zuuluu = 6;
+        zuuluu = tangon[zuuluu];
+        tangon = undefined;
+        golfie = report.bind(tangon)(zuuluu);
+        oscard = golfie.useStateFromStoresArray;
+        zuuluu = _closure1_slot4;
         report = new Array(1);
-        report[0] = zulu;
-        zulu = _closure1_slot4;
-        zulu = zulu.getGuildIds;
-        report = oscar.bind(golf)(report, zulu);
+        report[0] = zuuluu;
+        zuuluu = _closure1_slot4;
+        zuuluu = zuuluu.getGuildIds;
+        report = oscard.bind(golfie)(report, zuuluu);
         var _closure2_slot0 = report;
-        zulu = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        zuuluu = _closure1_slot3;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            zulu = _closure2_slot0;
-            mike = zulu.some;
+            zuuluu = _closure2_slot0;
+            michal = zuuluu.some;
             entity = function(argFoo) {
                 report = _closure1_slot12;
-                tango = _closure1_slot4;
-                zulu = tango.getGuild;
-                mike = argFoo;
-                zulu = zulu.bind(tango)(mike);
-                tango = undefined;
-                mike = false;
-                mike = report.bind(tango)(zulu, mike);
-                zulu = _closure1_slot0;
+                tangon = _closure1_slot4;
+                zuuluu = tangon.getGuild;
+                michal = argFoo;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                tangon = undefined;
+                michal = false;
+                michal = report.bind(tangon)(zuuluu, michal);
+                zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
                 entity = 5;
                 entity = report[entity];
-                entity = zulu.bind(tango)(entity);
+                entity = zuuluu.bind(tangon)(entity);
                 entity = entity.ClydeExperimentState;
                 entity = entity.ClydeProfiles;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useIsPartOfGuildWithCustomClydeProfilesEnabled'] = oscar;
-    zulu['checkClydeEnabled'] = report;
+    zuuluu['useIsPartOfGuildWithCustomClydeProfilesEnabled'] = oscard;
+    zuuluu['checkClydeEnabled'] = report;
     report = function(argFoo, argBar) { // Original name: getClydeEnabled
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             report = argFoo;
-            options = arguments[2];
-            tango = undefined;
-            if(!(options === tango)) { _fun00016_ip = 14; continue _fun00015 }
+            option = arguments[2];
+            tangon = undefined;
+            if(!(option === tangon)) { _fun00016_ip = 14; continue _fun00015 }
  12:
-            options = false;
+            option = false;
  14:
-            mike = null;
-            zulu = mike == report;
+            michal = null;
+            zuuluu = michal == report;
             entity = undefined;
-            if(zulu) { _fun00016_ip = 30; continue _fun00015 }
+            if(zuuluu) { _fun00016_ip = 30; continue _fun00015 }
  25:
             entity = report.id;
  30:
-            if(!(mike == entity)) { _fun00016_ip = 41; continue _fun00015 }
+            if(!(michal == entity)) { _fun00016_ip = 41; continue _fun00015 }
  34:
             entity = _closure1_slot6;
  41:
-            zulu = _closure1_slot10;
-            oscar = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 5;
-            mike = golf[mike];
-            golf = oscar.bind(tango)(mike);
-            oscar = golf.getCurrentConfig;
-            mike = {};
-            mike['guildId'] = entity;
+            zuuluu = _closure1_slot10;
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 5;
+            michal = golfie[michal];
+            golfie = oscard.bind(tangon)(michal);
+            oscard = golfie.getCurrentConfig;
+            michal = {};
+            michal['guildId'] = entity;
             entity = '1e9ccc_2';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
-            entity['autoTrackExposure'] = options;
-            entity = oscar.bind(golf)(mike, entity);
-            mike = entity.experimentState;
+            entity['autoTrackExposure'] = option;
+            entity = oscard.bind(golfie)(michal, entity);
+            michal = entity.experimentState;
             entity = argBar;
-            entity = zulu.bind(tango)(mike, report, entity);
+            entity = zuuluu.bind(tangon)(michal, report, entity);
             return entity;
         }
     };
-    zulu['getClydeEnabled'] = report;
+    zuuluu['getClydeEnabled'] = report;
     report = function(argFoo) { // Original name: getClydeExperimentBucket
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.getCurrentConfig;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = argFoo;
-        mike['guildId'] = entity;
+        michal['guildId'] = entity;
         entity = '1e9ccc_3';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.experimentState;
         return entity;
     };
-    zulu['getClydeExperimentBucket'] = report;
-    zulu['getClydeExperimentEnabled'] = tango;
-    mike = function(argFoo) { // Original name: canUseCustomClydeProfiles
+    zuuluu['getClydeExperimentBucket'] = report;
+    zuuluu['getClydeExperimentEnabled'] = tangon;
+    michal = function(argFoo) { // Original name: canUseCustomClydeProfiles
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             report = arguments[1];
-            tango = undefined;
-            if(!(report === tango)) { _fun00018_ip = 11; continue _fun00017 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00018_ip = 11; continue _fun00017 }
  9:
             report = false;
  11:
-            zulu = _closure1_slot12;
-            mike = argFoo;
-            mike = zulu.bind(tango)(mike, report);
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot12;
+            michal = argFoo;
+            michal = zuuluu.bind(tangon)(michal, report);
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             entity = 5;
             entity = report[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.ClydeExperimentState;
             entity = entity.ClydeProfiles;
-            entity = mike === entity;
+            entity = michal === entity;
             return entity;
         }
     };
-    zulu['canUseCustomClydeProfiles'] = mike;
+    zuuluu['canUseCustomClydeProfiles'] = michal;
     return entity;
 })();

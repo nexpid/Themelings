@@ -1,84 +1,84 @@
 // app/modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Dimensions;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useFastestListPropsEstimatedListSize
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Dimensions;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useFastestListPropsEstimatedListSize
         entity = argFoo;
-        zulu = entity.estimatedListSize;
-        var _closure2_slot0 = zulu;
+        zuuluu = entity.estimatedListSize;
+        var _closure2_slot0 = zuuluu;
         entity = entity.horizontal;
         var _closure2_slot1 = entity;
-        tango = _closure1_slot1;
-        zulu = tango.useState;
-        mike = function() {
+        tangon = _closure1_slot1;
+        zuuluu = tangon.useState;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = 'windowSize';
-                if(!(entity !== zulu)) { _fun00002_ip = 21; continue _fun00001 }
+                if(!(entity !== zuuluu)) { _fun00002_ip = 21; continue _fun00001 }
  15:
                 entity = _closure2_slot0;
                 _fun00002_ip = 64; continue _fun00001;
  21:
-                mike = _closure2_slot1;
+                michal = _closure2_slot1;
                 report = _closure1_slot2;
-                tango = report.get;
-                zulu = 'window';
-                zulu = tango.bind(report)(zulu);
-                if(mike) { _fun00002_ip = 56; continue _fun00001 }
+                tangon = report.get;
+                zuuluu = 'window';
+                zuuluu = tangon.bind(report)(zuuluu);
+                if(michal) { _fun00002_ip = 56; continue _fun00001 }
  49:
-                mike = zulu.height;
+                michal = zuuluu.height;
                 _fun00002_ip = 61; continue _fun00001;
  56:
-                mike = zulu.width;
+                michal = zuuluu.width;
  61:
-                entity = mike;
+                entity = michal;
  64:
                 return entity;
             }
         };
-        tango = zulu.bind(tango)(mike);
-        zulu = _closure1_slot0;
-        mike = undefined;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = _closure1_slot0;
+        michal = undefined;
         entity = 2;
-        zulu = zulu.bind(mike)(tango, entity);
+        zuuluu = zuuluu.bind(michal)(tangon, entity);
         entity = 0;
-        entity = zulu[entity];
-        mike = 1;
-        mike = zulu[mike];
+        entity = zuuluu[entity];
+        michal = 1;
+        michal = zuuluu[michal];
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

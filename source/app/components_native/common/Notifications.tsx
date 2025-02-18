@@ -1,78 +1,78 @@
 // app/components_native/common/Notifications.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'components_native/common/Notifications.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: Notifications
+    tangon = tangon.bind(entity)(option);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'components_native/common/Notifications.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: Notifications
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 3;
-            entity = tango[entity];
-            oscar = undefined;
-            report = mike.bind(oscar)(entity);
-            tango = report.useStateFromStores;
+            entity = tangon[entity];
+            oscard = undefined;
+            report = michal.bind(oscard)(entity);
+            tangon = report.useStateFromStores;
             entity = _closure1_slot3;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = function() {
-                mike = _closure1_slot3;
-                entity = mike.getCurrentNotification;
-                entity = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getCurrentNotification;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            mike = tango.bind(report)(mike, entity);
+            michal = tangon.bind(report)(michal, entity);
             entity = null;
-            tango = entity == mike;
-            if(tango) { _fun00002_ip = 109; continue _fun00001 }
+            tangon = entity == michal;
+            if(tangon) { _fun00002_ip = 109; continue _fun00001 }
  66:
             report = _closure1_slot4;
-            tango = _closure1_slot1;
-            golf = _closure1_slot2;
-            zulu = 4;
-            zulu = golf[zulu];
-            tango = tango.bind(oscar)(zulu);
-            zulu = {};
-            zulu['notification'] = mike;
-            mike = mike.key;
-            entity = report.bind(oscar)(tango, zulu, mike);
+            tangon = _closure1_slot1;
+            golfie = _closure1_slot2;
+            zuuluu = 4;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(oscard)(zuuluu);
+            zuuluu = {};
+            zuuluu['notification'] = michal;
+            michal = michal.key;
+            entity = report.bind(oscard)(tangon, zuuluu, michal);
  109:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,119 +1,119 @@
 // app/modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     verify = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = verify;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    offset = tango.OrientationLockState;
+    tangon = report.bind(entity)(tangon);
+    offset = tangon.OrientationLockState;
     var _closure1_slot2 = offset;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.LANDSCAPE_ACTIVITY_ASPECT_RATIO;
-    var _closure1_slot3 = options;
-    tango = {};
-    golf = 'function getActivityContainerPipStylesSpec_getActivityContainerPIPStylesSpecTsx1({pipWidth:pipWidth,pipHeight:pipHeight,pipOrientationLockState:pipOrientationLockState,isLandscape:isLandscape}){const{OrientationLockState,LANDSCAPE_ACTIVITY_ASPECT_RATIO,roundToNearestPixel}=this.__closure;const nonNullPipOrientationLockState=pipOrientationLockState!==null&&pipOrientationLockState!==void 0?pipOrientationLockState:OrientationLockState.UNLOCKED;const shouldUsePortraitAspectRatio=nonNullPipOrientationLockState===OrientationLockState.PORTRAIT||nonNullPipOrientationLockState===OrientationLockState.UNLOCKED&&!isLandscape;let width=pipWidth;let height=pipHeight;let shouldHorizontallyCenter=false;let shouldVerticallyCenter=false;let marginLeft=0;let marginTop=0;if(shouldUsePortraitAspectRatio){width=pipWidth;height=width*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldVerticallyCenter=true;marginTop=roundToNearestPixel(height/2)*-1;}else{height=pipHeight;width=height*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldHorizontallyCenter=true;marginLeft=roundToNearestPixel(width/2)*-1;}return{width:width,height:height,shouldHorizontallyCenter:shouldHorizontallyCenter,shouldVerticallyCenter:shouldVerticallyCenter,marginLeft:marginLeft,marginTop:marginTop};}';
-    tango['code'] = golf;
-    mike = function(argFoo) { // Original name: t
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.LANDSCAPE_ACTIVITY_ASPECT_RATIO;
+    var _closure1_slot3 = option;
+    tangon = {};
+    golfie = 'function getActivityContainerPipStylesSpec_getActivityContainerPIPStylesSpecTsx1({pipWidth:pipWidth,pipHeight:pipHeight,pipOrientationLockState:pipOrientationLockState,isLandscape:isLandscape}){const{OrientationLockState,LANDSCAPE_ACTIVITY_ASPECT_RATIO,roundToNearestPixel}=this.__closure;const nonNullPipOrientationLockState=pipOrientationLockState!==null&&pipOrientationLockState!==void 0?pipOrientationLockState:OrientationLockState.UNLOCKED;const shouldUsePortraitAspectRatio=nonNullPipOrientationLockState===OrientationLockState.PORTRAIT||nonNullPipOrientationLockState===OrientationLockState.UNLOCKED&&!isLandscape;let width=pipWidth;let height=pipHeight;let shouldHorizontallyCenter=false;let shouldVerticallyCenter=false;let marginLeft=0;let marginTop=0;if(shouldUsePortraitAspectRatio){width=pipWidth;height=width*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldVerticallyCenter=true;marginTop=roundToNearestPixel(height/2)*-1;}else{height=pipHeight;width=height*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldHorizontallyCenter=true;marginLeft=roundToNearestPixel(width/2)*-1;}return{width:width,height:height,shouldHorizontallyCenter:shouldHorizontallyCenter,shouldVerticallyCenter:shouldVerticallyCenter,marginLeft:marginLeft,marginTop:marginTop};}';
+    tangon['code'] = golfie;
+    michal = function(argFoo) { // Original name: t
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            romeo = entity.pipWidth;
-            oscar = entity.pipHeight;
-            tango = entity.pipOrientationLockState;
-            mike = entity.isLandscape;
+            romeon = entity.pipWidth;
+            oscard = entity.pipHeight;
+            tangon = entity.pipOrientationLockState;
+            michal = entity.isLandscape;
             entity = null;
-            if(!(entity == tango)) { _fun00002_ip = 46; continue _fun00001 }
+            if(!(entity == tangon)) { _fun00002_ip = 46; continue _fun00001 }
  33:
             entity = _closure1_slot2;
-            tango = entity.UNLOCKED;
+            tangon = entity.UNLOCKED;
  46:
-            zulu = _closure1_slot2;
-            zulu = zulu.PORTRAIT;
-            if(!(tango !== zulu)) { _fun00002_ip = 137; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.PORTRAIT;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 137; continue _fun00001 }
  63:
-            zulu = _closure1_slot2;
-            zulu = zulu.UNLOCKED;
-            if(!(tango === zulu)) { _fun00002_ip = 80; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.UNLOCKED;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 80; continue _fun00001 }
  77:
-            if(!mike) { _fun00002_ip = 137; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 137; continue _fun00001 }
  80:
-            mike = _closure1_slot3;
-            golf = oscar * mike;
+            michal = _closure1_slot3;
+            golfie = oscard * michal;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            tango = undefined;
-            zulu = report.bind(tango)(zulu);
-            mike = golf / mike;
-            zulu = zulu.bind(tango)(mike);
-            mike = -1;
-            zulu = mike * zulu;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            tangon = undefined;
+            zuuluu = report.bind(tangon)(zuuluu);
+            michal = golfie / michal;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = -1;
+            zuuluu = michal * zuuluu;
             report = true;
-            tango = false;
-            mike = 0;
+            tangon = false;
+            michal = 0;
             _fun00002_ip = 198; continue _fun00001;
  137:
-            options = _closure1_slot3;
-            yankee = romeo * options;
+            option = _closure1_slot3;
+            yankee = romeon * option;
             offset = _closure1_slot0;
-            options = _closure1_slot1;
+            option = _closure1_slot1;
             entity = 2;
-            options = options[entity];
+            option = option[entity];
             verify = undefined;
-            options = offset.bind(verify)(options);
+            option = offset.bind(verify)(option);
             entity = yankee / entity;
-            options = options.bind(verify)(entity);
+            option = option.bind(verify)(entity);
             entity = -1;
-            mike = entity * options;
+            michal = entity * option;
             report = false;
-            tango = true;
-            zulu = 0;
-            golf = romeo;
-            oscar = yankee;
+            tangon = true;
+            zuuluu = 0;
+            golfie = romeon;
+            oscard = yankee;
  198:
             entity = {};
-            entity['width'] = golf;
-            entity['height'] = oscar;
+            entity['width'] = golfie;
+            entity['height'] = oscard;
             entity['shouldHorizontallyCenter'] = report;
-            entity['shouldVerticallyCenter'] = tango;
-            entity['marginLeft'] = zulu;
-            entity['marginTop'] = mike;
+            entity['shouldVerticallyCenter'] = tangon;
+            entity['marginLeft'] = zuuluu;
+            entity['marginTop'] = michal;
             return entity;
         }
     };
-    golf = {};
-    golf['OrientationLockState'] = offset;
-    golf['LANDSCAPE_ACTIVITY_ASPECT_RATIO'] = options;
-    options = 2;
-    options = oscar[options];
-    options = verify.bind(entity)(options);
-    golf['roundToNearestPixel'] = options;
-    mike['__closure'] = golf;
-    golf = 7141745103186.0;
-    mike['__workletHash'] = golf;
-    mike['__initData'] = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    golfie = {};
+    golfie['OrientationLockState'] = offset;
+    golfie['LANDSCAPE_ACTIVITY_ASPECT_RATIO'] = option;
+    option = 2;
+    option = oscard[option];
+    option = verify.bind(entity)(option);
+    golfie['roundToNearestPixel'] = option;
+    michal['__closure'] = golfie;
+    golfie = 7141745103186.0;
+    michal['__workletHash'] = golfie;
+    michal['__initData'] = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

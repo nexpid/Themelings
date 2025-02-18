@@ -1,56 +1,56 @@
 // app/modules/guild_settings/urlPartToSettingsEnum.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guild_settings/urlPartToSettingsEnum.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: urlPartToSettingsEnum
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guild_settings/urlPartToSettingsEnum.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: urlPartToSettingsEnum
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            options = argBar;
-            tango = null;
-            report = tango == options;
-            zulu = undefined;
+            michal = argFoo;
+            option = argBar;
+            tangon = null;
+            report = tangon == option;
+            zuuluu = undefined;
             entity = undefined;
             if(report) { _fun00002_ip = 67; continue _fun00001 }
  19:
-            golf = options.replace;
-            oscar = /-/g;
+            golfie = option.replace;
+            oscard = /-/g;
             report = '_';
-            oscar = golf.bind(options)(oscar, report);
-            report = tango == oscar;
+            oscard = golfie.bind(option)(oscard, report);
+            report = tangon == oscard;
             entity = undefined;
             if(report) { _fun00002_ip = 67; continue _fun00001 }
  57:
-            report = oscar.toUpperCase;
-            entity = report.bind(oscar)();
+            report = oscard.toUpperCase;
+            entity = report.bind(oscard)();
  67:
-            if(!(tango != entity)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(tangon != entity)) { _fun00002_ip = 78; continue _fun00001 }
  71:
-            tango = entity in mike;
-            if(tango) { _fun00002_ip = 80; continue _fun00001 }
+            tangon = entity in michal;
+            if(tangon) { _fun00002_ip = 80; continue _fun00001 }
  78:
-            return zulu;
+            return zuuluu;
  80:
-            entity = mike[entity];
+            entity = michal[entity];
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

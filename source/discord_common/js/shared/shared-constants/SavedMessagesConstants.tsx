@@ -1,24 +1,24 @@
 // discord_common/js/shared/shared-constants/SavedMessagesConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_common/js/shared/shared-constants/SavedMessagesConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 200;
-    zulu['SAVED_MESSAGES_MAX'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_common/js/shared/shared-constants/SavedMessagesConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 200;
+    zuuluu['SAVED_MESSAGES_MAX'] = michal;
     return entity;
 })();

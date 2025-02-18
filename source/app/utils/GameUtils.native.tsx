@@ -1,135 +1,135 @@
 // app/utils/GameUtils.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
-    mike = global;
-    oscar = mike.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = report.bind(oscar)(zulu, mike, tango);
-    mike = {};
-    tango = function() { // Original name: waitSubscribed
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    michal = global;
+    oscard = michal.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
+    michal = {};
+    tangon = function() { // Original name: waitSubscribed
         entity = global;
-        mike = entity.Promise;
-        entity = mike.resolve;
-        entity = entity.bind(mike)();
+        michal = entity.Promise;
+        entity = michal.resolve;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['waitSubscribed'] = tango;
-    tango = function() { // Original name: waitConnected
+    michal['waitSubscribed'] = tangon;
+    tangon = function() { // Original name: waitConnected
         entity = global;
-        mike = entity.Promise;
-        entity = mike.resolve;
-        entity = entity.bind(mike)();
+        michal = entity.Promise;
+        entity = michal.resolve;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['waitConnected'] = tango;
-    tango = function() { // Original name: isLaunchable
+    michal['waitConnected'] = tangon;
+    tangon = function() { // Original name: isLaunchable
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = false;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isLaunchable'] = tango;
-    tango = function() { // Original name: launch
+    michal['isLaunchable'] = tangon;
+    tangon = function() { // Original name: launch
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.reject;
+        zuuluu = entity.Promise;
+        michal = zuuluu.reject;
         report = entity.Error;
         entity = report.prototype;
-        tango = Object.create(entity, {constructor: {value: report}});
-        oscar = 'not supported';
-        golf = tango;
-        entity = new golf[report](oscar, report);
-        entity = entity instanceof Object ? entity : tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = Object.create(entity, {constructor: {value: report}});
+        oscard = 'not supported';
+        golfie = tangon;
+        entity = new golfie[report](oscard, report);
+        entity = entity instanceof Object ? entity : tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['launch'] = tango;
-    tango = function() { // Original name: launchDispatchApplication
+    michal['launch'] = tangon;
+    tangon = function() { // Original name: launchDispatchApplication
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.reject;
+        zuuluu = entity.Promise;
+        michal = zuuluu.reject;
         report = entity.Error;
         entity = report.prototype;
-        tango = Object.create(entity, {constructor: {value: report}});
-        oscar = 'not supported';
-        golf = tango;
-        entity = new golf[report](oscar, report);
-        entity = entity instanceof Object ? entity : tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = Object.create(entity, {constructor: {value: report}});
+        oscard = 'not supported';
+        golfie = tangon;
+        entity = new golfie[report](oscard, report);
+        entity = entity instanceof Object ? entity : tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['launchDispatchApplication'] = tango;
-    tango = function() { // Original name: removeShortcuts
+    michal['launchDispatchApplication'] = tangon;
+    tangon = function() { // Original name: removeShortcuts
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = false;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['removeShortcuts'] = tango;
-    tango = function() { // Original name: createShortcuts
+    michal['removeShortcuts'] = tangon;
+    tangon = function() { // Original name: createShortcuts
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = false;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['createShortcuts'] = tango;
-    tango = function() { // Original name: isGameLaunchable
+    michal['createShortcuts'] = tangon;
+    tangon = function() { // Original name: isGameLaunchable
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = false;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isGameLaunchable'] = tango;
-    tango = function() { // Original name: launchGame
+    michal['isGameLaunchable'] = tangon;
+    tangon = function() { // Original name: launchGame
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.reject;
+        zuuluu = entity.Promise;
+        michal = zuuluu.reject;
         report = entity.Error;
         entity = report.prototype;
-        tango = Object.create(entity, {constructor: {value: report}});
-        oscar = 'not supported';
-        golf = tango;
-        entity = new golf[report](oscar, report);
-        entity = entity instanceof Object ? entity : tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = Object.create(entity, {constructor: {value: report}});
+        oscard = 'not supported';
+        golfie = tangon;
+        entity = new golfie[report](oscard, report);
+        entity = entity instanceof Object ? entity : tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['launchGame'] = tango;
-    tango = function() { // Original name: isProtocolRegistered
+    michal['launchGame'] = tangon;
+    tangon = function() { // Original name: isProtocolRegistered
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = false;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isProtocolRegistered'] = tango;
+    michal['isProtocolRegistered'] = tangon;
     entity = function() { // Original name: setRecentGames
         entity = undefined;
         return entity;
     };
-    mike['setRecentGames'] = entity;
-    tango = argPlugh;
+    michal['setRecentGames'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/GameUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/GameUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

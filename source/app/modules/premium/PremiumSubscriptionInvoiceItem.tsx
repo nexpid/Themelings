@@ -1,163 +1,163 @@
 // app/modules/premium/PremiumSubscriptionInvoiceItem.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/PremiumSubscriptionInvoiceItem.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: coalesceInvoiceItems
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/PremiumSubscriptionInvoiceItem.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: coalesceInvoiceItems
         report = argFoo;
-        zulu = new Array(0);
-        var _closure2_slot0 = zulu;
-        mike = global;
-        mike = mike.Set;
-        tango = mike.prototype;
-        tango = Object.create(tango, {constructor: {value: mike}});
-        golf = tango;
-        mike = new golf[mike](oscar);
-        mike = mike instanceof Object ? mike : tango;
-        var _closure2_slot1 = mike;
-        tango = report.map;
-        mike = function(argFoo) {
+        zuuluu = new Array(0);
+        var _closure2_slot0 = zuuluu;
+        michal = global;
+        michal = michal.Set;
+        tangon = michal.prototype;
+        tangon = Object.create(tangon, {constructor: {value: michal}});
+        golfie = tangon;
+        michal = new golfie[michal](oscard);
+        michal = michal instanceof Object ? michal : tangon;
+        var _closure2_slot1 = michal;
+        tangon = report.map;
+        michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 verify = _closure2_slot0;
-                mike = verify.length;
-                options = 0;
-                mike = options < mike;
-                tango = undefined;
-                oscar = 0;
-                if(!mike) { _fun00002_ip = 139; continue _fun00001 }
+                michal = verify.length;
+                option = 0;
+                michal = option < michal;
+                tangon = undefined;
+                oscard = 0;
+                if(!michal) { _fun00002_ip = 139; continue _fun00001 }
  31:
-                mike = verify[oscar];
-                offset = mike.subscriptionPlanId;
+                michal = verify[oscard];
+                offset = michal.subscriptionPlanId;
                 report = entity.subscriptionPlanId;
                 if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
  51:
-                offset = mike.subscriptionPlanPrice;
+                offset = michal.subscriptionPlanPrice;
                 report = entity.subscriptionPlanPrice;
                 if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
  67:
-                offset = mike.amount;
+                offset = michal.amount;
                 report = entity.amount;
                 if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
  83:
                 offset = _closure1_slot0;
                 report = _closure1_slot1;
-                report = report[options];
-                romeo = offset.bind(tango)(report);
-                yankee = romeo.isEqual;
-                offset = mike.discounts;
+                report = report[option];
+                romeon = offset.bind(tangon)(report);
+                yankee = romeon.isEqual;
+                offset = michal.discounts;
                 report = entity.discounts;
-                report = yankee.bind(romeo)(offset, report);
+                report = yankee.bind(romeon)(offset, report);
                 if(report) { _fun00002_ip = 167; continue _fun00001 }
  127:
-                oscar = oscar + 1;
+                oscard = oscard + 1;
                 report = verify.length;
-                if(oscar < report) { _fun00002_ip = 31; continue _fun00001 }
+                if(oscard < report) { _fun00002_ip = 31; continue _fun00001 }
  139:
-                golf = _closure2_slot0;
-                oscar = golf.push;
+                golfie = _closure2_slot0;
+                oscard = golfie.push;
                 report = {};
                 backup = report;
-                foxtrot = entity;
-                options = copyDataProperties(backup, foxtrot);
-                report = oscar.bind(golf)(report);
-                return tango;
+                foxtra = entity;
+                option = copyDataProperties(backup, foxtra);
+                report = oscard.bind(golfie)(report);
+                return tangon;
  167:
                 report = _closure2_slot1;
-                tango = report.add;
-                zulu = mike.subscriptionPlanId;
-                zulu = tango.bind(report)(zulu);
-                zulu = mike.quantity;
+                tangon = report.add;
+                zuuluu = michal.subscriptionPlanId;
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = michal.quantity;
                 entity = entity.quantity;
-                entity = zulu + entity;
-                mike['quantity'] = entity;
+                entity = zuuluu + entity;
+                michal['quantity'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike);
-        mike = zulu.map;
+        michal = tangon.bind(report)(michal);
+        michal = zuuluu.map;
         entity = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 entity = {};
-                golf = entity;
-                oscar = zulu;
-                tango = copyDataProperties(golf, oscar);
+                golfie = entity;
+                oscard = zuuluu;
+                tangon = copyDataProperties(golfie, oscard);
                 var _closure3_slot0 = entity;
                 report = _closure2_slot1;
-                tango = report.has;
-                zulu = zulu.subscriptionPlanId;
-                zulu = tango.bind(report)(zulu);
-                if(!zulu) { _fun00004_ip = 96; continue _fun00003 }
+                tangon = report.has;
+                zuuluu = zuuluu.subscriptionPlanId;
+                zuuluu = tangon.bind(report)(zuuluu);
+                if(!zuuluu) { _fun00004_ip = 96; continue _fun00003 }
  47:
-                tango = entity.amount;
-                zulu = entity.quantity;
-                zulu = tango * zulu;
-                entity['amount'] = zulu;
-                tango = entity.discounts;
-                zulu = tango.map;
-                mike = function(argFoo) {
-                    mike = argFoo;
+                tangon = entity.amount;
+                zuuluu = entity.quantity;
+                zuuluu = tangon * zuuluu;
+                entity['amount'] = zuuluu;
+                tangon = entity.discounts;
+                zuuluu = tangon.map;
+                michal = function(argFoo) {
+                    michal = argFoo;
                     entity = {};
                     report = entity;
-                    tango = mike;
-                    zulu = copyDataProperties(report, tango);
-                    zulu = mike.amount;
-                    mike = _closure3_slot0;
-                    mike = mike.quantity;
-                    zulu = zulu * mike;
-                    mike = 'amount';
-                    entity[mike] = zulu;
+                    tangon = michal;
+                    zuuluu = copyDataProperties(report, tangon);
+                    zuuluu = michal.amount;
+                    michal = _closure3_slot0;
+                    michal = michal.quantity;
+                    zuuluu = zuuluu * michal;
+                    michal = 'amount';
+                    entity[michal] = zuuluu;
                     return entity;
                 };
-                mike = zulu.bind(tango)(mike);
-                entity['discounts'] = mike;
+                michal = zuuluu.bind(tangon)(michal);
+                entity['discounts'] = michal;
  96:
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['coalesceInvoiceItems'] = tango;
-    mike = function(argFoo) { // Original name: createInvoiceItemFromServer
-        mike = argFoo;
+    zuuluu['coalesceInvoiceItems'] = tangon;
+    michal = function(argFoo) { // Original name: createInvoiceItemFromServer
+        michal = argFoo;
         entity = {};
-        zulu = mike.id;
-        entity['id'] = zulu;
-        zulu = mike.subscription_plan_id;
-        entity['subscriptionPlanId'] = zulu;
-        zulu = mike.subscription_plan_price;
-        entity['subscriptionPlanPrice'] = zulu;
-        zulu = mike.amount;
-        entity['amount'] = zulu;
-        zulu = mike.quantity;
-        entity['quantity'] = zulu;
-        mike = mike.discounts;
-        entity['discounts'] = mike;
+        zuuluu = michal.id;
+        entity['id'] = zuuluu;
+        zuuluu = michal.subscription_plan_id;
+        entity['subscriptionPlanId'] = zuuluu;
+        zuuluu = michal.subscription_plan_price;
+        entity['subscriptionPlanPrice'] = zuuluu;
+        zuuluu = michal.amount;
+        entity['amount'] = zuuluu;
+        zuuluu = michal.quantity;
+        entity['quantity'] = zuuluu;
+        michal = michal.discounts;
+        entity['discounts'] = michal;
         return entity;
     };
-    zulu['createInvoiceItemFromServer'] = mike;
+    zuuluu['createInvoiceItemFromServer'] = michal;
     return entity;
 })();

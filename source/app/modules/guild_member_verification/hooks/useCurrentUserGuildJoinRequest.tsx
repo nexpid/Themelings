@@ -1,64 +1,64 @@
 // app/modules/guild_member_verification/hooks/useCurrentUserGuildJoinRequest.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_member_verification/hooks/useCurrentUserGuildJoinRequest.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useCurrentUserGuildJoinRequest
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_member_verification/hooks/useCurrentUserGuildJoinRequest.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useCurrentUserGuildJoinRequest
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                zulu = entity != zulu;
-                if(!zulu) { _fun00002_ip = 38; continue _fun00001 }
+                zuuluu = entity != zuuluu;
+                if(!zuuluu) { _fun00002_ip = 38; continue _fun00001 }
  16:
-                tango = _closure1_slot2;
-                zulu = tango.getRequest;
-                mike = _closure2_slot0;
-                entity = zulu.bind(tango)(mike);
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getRequest;
+                michal = _closure2_slot0;
+                entity = zuuluu.bind(tangon)(michal);
  38:
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useCurrentUserGuildJoinRequest'] = mike;
+    zuuluu['useCurrentUserGuildJoinRequest'] = michal;
     return entity;
 })();

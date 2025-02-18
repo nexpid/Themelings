@@ -1,107 +1,107 @@
 // app/modules/video_calls/useMuteStates.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: getMuteStates
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: getMuteStates
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channel;
-            romeo = entity.authenticationStore;
-            zulu = undefined;
-            if(!(romeo === zulu)) { _fun00002_ip = 27; continue _fun00001 }
+            romeon = entity.authenticationStore;
+            zuuluu = undefined;
+            if(!(romeon === zuuluu)) { _fun00002_ip = 27; continue _fun00001 }
  20:
-            romeo = _closure1_slot3;
+            romeon = _closure1_slot3;
  27:
             yankee = entity.voiceStateStore;
-            if(!(yankee === zulu)) { _fun00002_ip = 44; continue _fun00001 }
+            if(!(yankee === zuuluu)) { _fun00002_ip = 44; continue _fun00001 }
  37:
             yankee = _closure1_slot6;
  44:
-            oscar = entity.mediaEngineStore;
-            if(!(oscar === zulu)) { _fun00002_ip = 61; continue _fun00001 }
+            oscard = entity.mediaEngineStore;
+            if(!(oscard === zuuluu)) { _fun00002_ip = 61; continue _fun00001 }
  54:
-            oscar = _closure1_slot4;
+            oscard = _closure1_slot4;
  61:
-            options = entity.permissionStore;
-            if(!(options === zulu)) { _fun00002_ip = 78; continue _fun00001 }
+            option = entity.permissionStore;
+            if(!(option === zuuluu)) { _fun00002_ip = 78; continue _fun00001 }
  71:
-            options = _closure1_slot5;
+            option = _closure1_slot5;
  78:
-            golf = entity.impersonateStore;
-            if(!(golf === zulu)) { _fun00002_ip = 95; continue _fun00001 }
+            golfie = entity.impersonateStore;
+            if(!(golfie === zuuluu)) { _fun00002_ip = 95; continue _fun00001 }
  88:
-            golf = _closure1_slot2;
+            golfie = _closure1_slot2;
  95:
-            mike = null;
-            entity = mike != verify;
-            tango = null;
+            michal = null;
+            entity = michal != verify;
+            tangon = null;
             if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  106:
             offset = yankee.getVoiceState;
             entity = verify.getGuildId;
             report = entity.bind(verify)();
-            entity = romeo.getId;
-            entity = entity.bind(romeo)();
-            tango = offset.bind(yankee)(report, entity);
+            entity = romeon.getId;
+            entity = entity.bind(romeon)();
+            tangon = offset.bind(yankee)(report, entity);
  138:
-            entity = oscar.isSelfMute;
-            report = entity.bind(oscar)();
+            entity = oscard.isSelfMute;
+            report = entity.bind(oscard)();
             if(report) { _fun00002_ip = 161; continue _fun00001 }
  151:
-            entity = oscar.isSelfMutedTemporarily;
-            report = entity.bind(oscar)();
+            entity = oscard.isSelfMutedTemporarily;
+            report = entity.bind(oscard)();
  161:
-            entity = mike == verify;
-            oscar = undefined;
+            entity = michal == verify;
+            oscard = undefined;
             if(entity) { _fun00002_ip = 180; continue _fun00001 }
  170:
             entity = verify.getGuildId;
-            oscar = entity.bind(verify)();
+            oscard = entity.bind(verify)();
  180:
-            entity = golf.isViewingRoles;
-            oscar = entity.bind(golf)(oscar);
-            if(!oscar) { _fun00002_ip = 222; continue _fun00001 }
+            entity = golfie.isViewingRoles;
+            oscard = entity.bind(golfie)(oscard);
+            if(!oscard) { _fun00002_ip = 222; continue _fun00001 }
  194:
-            golf = options.can;
+            golfie = option.can;
             entity = _closure1_slot7;
             entity = entity.SPEAK;
-            entity = golf.bind(options)(entity, verify);
-            oscar = !entity;
+            entity = golfie.bind(option)(entity, verify);
+            oscard = !entity;
  222:
             entity = {};
             entity['selfMute'] = report;
-            golf = mike == tango;
+            golfie = michal == tangon;
             report = undefined;
-            if(golf) { _fun00002_ip = 244; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 244; continue _fun00001 }
  238:
-            report = tango.suppress;
+            report = tangon.suppress;
  244:
             if(report) { _fun00002_ip = 250; continue _fun00001 }
  247:
-            report = oscar;
+            report = oscard;
  250:
             entity['suppress'] = report;
-            report = mike == tango;
-            zulu = undefined;
+            report = michal == tangon;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 270; continue _fun00001 }
  264:
-            zulu = tango.mute;
+            zuuluu = tangon.mute;
  270:
-            mike = mike != zulu;
-            if(!mike) { _fun00002_ip = 280; continue _fun00001 }
+            michal = michal != zuuluu;
+            if(!michal) { _fun00002_ip = 280; continue _fun00001 }
  277:
-            mike = zulu;
+            michal = zuuluu;
  280:
-            entity['mute'] = mike;
+            entity['mute'] = michal;
             return entity;
         }
     };
-    var _closure1_slot8 = mike;
+    var _closure1_slot8 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -109,83 +109,83 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 3;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 4;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot6 = report;
     report = 5;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.Permissions;
     var _closure1_slot7 = report;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/video_calls/useMuteStates.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useMuteStates
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 6;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStoresObject;
-        oscar = _closure1_slot3;
-        mike = new Array(5);
-        mike[0] = oscar;
-        oscar = _closure1_slot6;
-        mike[1] = oscar;
-        oscar = _closure1_slot4;
-        mike[2] = oscar;
-        oscar = _closure1_slot5;
-        mike[3] = oscar;
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useMuteStates
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 6;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
+        oscard = _closure1_slot3;
+        michal = new Array(5);
+        michal[0] = oscard;
+        oscard = _closure1_slot6;
+        michal[1] = oscard;
+        oscard = _closure1_slot4;
+        michal[2] = oscard;
+        oscard = _closure1_slot5;
+        michal[3] = oscard;
         report = _closure1_slot2;
-        mike[4] = report;
+        michal[4] = report;
         entity = function() {
-            zulu = _closure1_slot8;
-            mike = {};
-            tango = _closure2_slot0;
-            mike['channel'] = tango;
-            tango = _closure1_slot3;
-            mike['authenticationStore'] = tango;
-            tango = _closure1_slot6;
-            mike['voiceStateStore'] = tango;
-            tango = _closure1_slot4;
-            mike['mediaEngineStore'] = tango;
-            tango = _closure1_slot5;
-            mike['permissionStore'] = tango;
+            zuuluu = _closure1_slot8;
+            michal = {};
+            tangon = _closure2_slot0;
+            michal['channel'] = tangon;
+            tangon = _closure1_slot3;
+            michal['authenticationStore'] = tangon;
+            tangon = _closure1_slot6;
+            michal['voiceStateStore'] = tangon;
+            tangon = _closure1_slot4;
+            michal['mediaEngineStore'] = tangon;
+            tangon = _closure1_slot5;
+            michal['permissionStore'] = tangon;
             entity = _closure1_slot2;
-            mike['impersonateStore'] = entity;
+            michal['impersonateStore'] = entity;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['getMuteStates'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getMuteStates'] = michal;
     return entity;
 })();

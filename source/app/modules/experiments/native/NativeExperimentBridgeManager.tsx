@@ -1,42 +1,42 @@
 // app/modules/experiments/native/NativeExperimentBridgeManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot9;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -45,203 +45,203 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  72: // try_end0
             _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = mike;
+            _closure1_slot9 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot9 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot7 = tango;
-    tango = 10;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    mike = function(argFoo) {
-        zulu = function(argFoo) { // Original name: NativeExperimentBridgeManager
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot7 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    michal = function(argFoo) {
+        zuuluu = function(argFoo) { // Original name: NativeExperimentBridgeManager
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                golf = this;
-                romeo = 0;
-                options = copyRestArgs(romeo);
+                golfie = this;
+                romeon = 0;
+                option = copyRestArgs(romeon);
                 entity = _closure1_slot3;
-                oscar = _closure2_slot0;
+                oscard = _closure2_slot0;
                 report = undefined;
-                entity = entity.bind(report)(golf, oscar);
-                tango = _closure1_slot8;
+                entity = entity.bind(report)(golfie, oscard);
+                tangon = _closure1_slot8;
                 entity = new Array(0);
-                romeo = entity;
-                yankee = options;
+                romeon = entity;
+                yankee = option;
                 offset = 0;
-                options = arraySpread(romeo, yankee, offset);
-                entity = tango.bind(report)(golf, oscar, entity);
-                tango = _closure1_slot0;
-                oscar = _closure1_slot1;
-                mike = 6;
-                mike = oscar[mike];
-                tango = tango.bind(report)(mike);
-                mike = tango.isIOS;
-                mike = mike.bind(tango)();
-                if(mike) { _fun00006_ip = 102; continue _fun00005 }
+                option = arraySpread(romeon, yankee, offset);
+                entity = tangon.bind(report)(golfie, oscard, entity);
+                tangon = _closure1_slot0;
+                oscard = _closure1_slot1;
+                michal = 6;
+                michal = oscard[michal];
+                tangon = tangon.bind(report)(michal);
+                michal = tangon.isIOS;
+                michal = michal.bind(tangon)();
+                if(michal) { _fun00006_ip = 102; continue _fun00005 }
  93:
-                mike = function() {
+                michal = function() {
                     entity = undefined;
                     return entity;
                 };
                 _fun00006_ip = 109; continue _fun00005;
  102:
-                mike = function() {
+                michal = function() {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                        mike = _closure1_slot7;
-                        report = mike.NSUserDefaultsBridge;
-                        mike = null;
-                        if(!(mike != report)) { _fun00008_ip = 77; continue _fun00007 }
+                        michal = _closure1_slot7;
+                        report = michal.NSUserDefaultsBridge;
+                        michal = null;
+                        if(!(michal != report)) { _fun00008_ip = 77; continue _fun00007 }
  19:
-                        tango = report.setShareJumpToAppEnabled;
-                        golf = _closure1_slot0;
-                        oscar = _closure1_slot1;
-                        zulu = 7;
-                        oscar = oscar[zulu];
-                        zulu = undefined;
-                        golf = golf.bind(zulu)(oscar);
-                        oscar = golf.isShareJumpToAppEnabled;
-                        zulu = {};
-                        options = 'NativeExperimentBridgeManager';
-                        zulu['location'] = options;
-                        zulu = oscar.bind(golf)(zulu);
-                        zulu = tango.bind(report)(zulu);
+                        tangon = report.setShareJumpToAppEnabled;
+                        golfie = _closure1_slot0;
+                        oscard = _closure1_slot1;
+                        zuuluu = 7;
+                        oscard = oscard[zuuluu];
+                        zuuluu = undefined;
+                        golfie = golfie.bind(zuuluu)(oscard);
+                        oscard = golfie.isShareJumpToAppEnabled;
+                        zuuluu = {};
+                        option = 'NativeExperimentBridgeManager';
+                        zuuluu['location'] = option;
+                        zuuluu = oscard.bind(golfie)(zuuluu);
+                        zuuluu = tangon.bind(report)(zuuluu);
  77:
-                        zulu = _closure1_slot7;
-                        report = zulu.NSUserDefaultsBridge;
-                        if(!(mike != report)) { _fun00008_ip = 149; continue _fun00007 }
+                        zuuluu = _closure1_slot7;
+                        report = zuuluu.NSUserDefaultsBridge;
+                        if(!(michal != report)) { _fun00008_ip = 149; continue _fun00007 }
  91:
-                        tango = report.setSwiftMessageViewExperimentEnabled;
-                        golf = _closure1_slot0;
-                        oscar = _closure1_slot1;
-                        zulu = 8;
-                        oscar = oscar[zulu];
-                        zulu = undefined;
-                        golf = golf.bind(zulu)(oscar);
-                        oscar = golf.isSwiftMessageViewExperimentEnabled;
-                        zulu = {};
-                        options = 'NativeExperimentBridgeManager';
-                        zulu['location'] = options;
-                        zulu = oscar.bind(golf)(zulu);
-                        zulu = tango.bind(report)(zulu);
+                        tangon = report.setSwiftMessageViewExperimentEnabled;
+                        golfie = _closure1_slot0;
+                        oscard = _closure1_slot1;
+                        zuuluu = 8;
+                        oscard = oscard[zuuluu];
+                        zuuluu = undefined;
+                        golfie = golfie.bind(zuuluu)(oscard);
+                        oscard = golfie.isSwiftMessageViewExperimentEnabled;
+                        zuuluu = {};
+                        option = 'NativeExperimentBridgeManager';
+                        zuuluu['location'] = option;
+                        zuuluu = oscard.bind(golfie)(zuuluu);
+                        zuuluu = tangon.bind(report)(zuuluu);
  149:
-                        zulu = _closure1_slot7;
-                        zulu = zulu.NSUserDefaultsBridge;
-                        if(!(mike != zulu)) { _fun00008_ip = 221; continue _fun00007 }
+                        zuuluu = _closure1_slot7;
+                        zuuluu = zuuluu.NSUserDefaultsBridge;
+                        if(!(michal != zuuluu)) { _fun00008_ip = 221; continue _fun00007 }
  163:
-                        mike = zulu.setSwiftMessageCellExperimentEnabled;
+                        michal = zuuluu.setSwiftMessageCellExperimentEnabled;
                         report = _closure1_slot0;
-                        tango = _closure1_slot1;
+                        tangon = _closure1_slot1;
                         entity = 9;
-                        tango = tango[entity];
+                        tangon = tangon[entity];
                         entity = undefined;
-                        report = report.bind(entity)(tango);
-                        tango = report.isSwiftMessageCellExperimentEnabled;
+                        report = report.bind(entity)(tangon);
+                        tangon = report.isSwiftMessageCellExperimentEnabled;
                         entity = {};
-                        oscar = 'NativeExperimentBridgeManager';
-                        entity['location'] = oscar;
-                        entity = tango.bind(report)(entity);
-                        entity = mike.bind(zulu)(entity);
+                        oscard = 'NativeExperimentBridgeManager';
+                        entity['location'] = oscard;
+                        entity = tangon.bind(report)(entity);
+                        entity = michal.bind(zuuluu)(entity);
  221:
                         entity = undefined;
                         return entity;
                     }
                 };
  109:
-                entity['handlePostConnectionOpen'] = mike;
-                mike = {};
-                zulu = entity.handlePostConnectionOpen;
-                mike['POST_CONNECTION_OPEN'] = zulu;
-                entity['actions'] = mike;
+                entity['handlePostConnectionOpen'] = michal;
+                michal = {};
+                zuuluu = entity.handlePostConnectionOpen;
+                michal['POST_CONNECTION_OPEN'] = zuuluu;
+                entity['actions'] = michal;
                 return entity;
             }
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         report = _closure1_slot6;
-        mike = undefined;
-        tango = argFoo;
-        tango = report.bind(mike)(zulu, tango);
+        michal = undefined;
+        tangon = argFoo;
+        tangon = report.bind(michal)(zuuluu, tangon);
         entity = _closure1_slot2;
-        entity = entity.bind(mike)(zulu);
+        entity = entity.bind(michal)(zuuluu);
         return entity;
     };
-    mike = mike.bind(entity)(tango);
-    tango = mike.prototype;
-    tango = Object.create(tango, {constructor: {value: mike}});
-    foxtrot = tango;
-    mike = new foxtrot[mike](romeo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/experiments/native/NativeExperimentBridgeManager.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)(tangon);
+    tangon = michal.prototype;
+    tangon = Object.create(tangon, {constructor: {value: michal}});
+    foxtra = tangon;
+    michal = new foxtra[michal](romeon);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/experiments/native/NativeExperimentBridgeManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

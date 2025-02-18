@@ -1,111 +1,111 @@
 // app/modules/fastest_list/props/useFastestListPropsScrollReporting.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = {};
-    oscar = 'function useFastestListPropsScrollReportingNativeTsx1(event){const{scrollPosition,horizontal}=this.__closure;if(scrollPosition!=null){scrollPosition.set(horizontal?event.contentOffset.x:event.contentOffset.y);}}';
-    entity['code'] = oscar;
+    oscard = 'function useFastestListPropsScrollReportingNativeTsx1(event){const{scrollPosition,horizontal}=this.__closure;if(scrollPosition!=null){scrollPosition.set(horizontal?event.contentOffset.x:event.contentOffset.y);}}';
+    entity['code'] = oscard;
     var _closure1_slot2 = entity;
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/props/useFastestListPropsScrollReporting.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useFastestListPropsScrollReporting
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/props/useFastestListPropsScrollReporting.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useFastestListPropsScrollReporting
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             verify = argBar;
             var _closure2_slot0 = verify;
-            mike = zulu.scrollReporting;
+            michal = zuuluu.scrollReporting;
             report = undefined;
             entity = 'animatedScrollPosition';
             offset = undefined;
-            if(!(entity === mike)) { _fun00002_ip = 38; continue _fun00001 }
+            if(!(entity === michal)) { _fun00002_ip = 38; continue _fun00001 }
  32:
-            offset = zulu.scrollPosition;
+            offset = zuuluu.scrollPosition;
  38:
             var _closure2_slot1 = offset;
-            tango = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 0;
-            mike = options[mike];
-            report = tango.bind(report)(mike);
-            tango = report.useAnimatedScrollHandler;
-            mike = {};
-            oscar = function(argFoo) { // Original name: n
+            tangon = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 0;
+            michal = option[michal];
+            report = tangon.bind(report)(michal);
+            tangon = report.useAnimatedScrollHandler;
+            michal = {};
+            oscard = function(argFoo) { // Original name: n
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot1;
-                    mike = null;
-                    if(!(mike != zulu)) { _fun00004_ip = 55; continue _fun00003 }
+                    zuuluu = _closure2_slot1;
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
  13:
-                    zulu = _closure2_slot1;
-                    mike = zulu.set;
+                    zuuluu = _closure2_slot1;
+                    michal = zuuluu.set;
                     entity = _closure2_slot0;
-                    tango = argFoo;
-                    tango = tango.contentOffset;
+                    tangon = argFoo;
+                    tangon = tangon.contentOffset;
                     if(entity) { _fun00004_ip = 45; continue _fun00003 }
  38:
-                    entity = tango.y;
+                    entity = tangon.y;
                     _fun00004_ip = 50; continue _fun00003;
  45:
-                    entity = tango.x;
+                    entity = tangon.x;
  50:
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
  55:
                     entity = undefined;
                     return entity;
                 }
             };
-            options = {};
-            options['scrollPosition'] = offset;
-            options['horizontal'] = verify;
-            oscar['__closure'] = options;
-            options = 14196294214838.0;
-            oscar['__workletHash'] = options;
-            golf = _closure1_slot2;
-            oscar['__initData'] = golf;
-            mike['onScroll'] = oscar;
-            mike = tango.bind(report)(mike);
-            tango = zulu.scrollReporting;
-            if(!(entity !== tango)) { _fun00002_ip = 203; continue _fun00001 }
+            option = {};
+            option['scrollPosition'] = offset;
+            option['horizontal'] = verify;
+            oscard['__closure'] = option;
+            option = 14196294214838.0;
+            oscard['__workletHash'] = option;
+            golfie = _closure1_slot2;
+            oscard['__initData'] = golfie;
+            michal['onScroll'] = oscard;
+            michal = tangon.bind(report)(michal);
+            tangon = zuuluu.scrollReporting;
+            if(!(entity !== tangon)) { _fun00002_ip = 203; continue _fun00001 }
  141:
             entity = 'animatedCallbacks';
-            if(!(entity !== tango)) { _fun00002_ip = 188; continue _fun00001 }
+            if(!(entity !== tangon)) { _fun00002_ip = 188; continue _fun00001 }
  151:
             entity = {};
-            tango = zulu.onScroll;
-            entity['onScroll'] = tango;
-            tango = zulu.onScrollBeginDrag;
-            entity['onScrollBeginDrag'] = tango;
-            tango = zulu.onScrollEndDrag;
-            entity['onScrollEndDrag'] = tango;
+            tangon = zuuluu.onScroll;
+            entity['onScroll'] = tangon;
+            tangon = zuuluu.onScrollBeginDrag;
+            entity['onScrollBeginDrag'] = tangon;
+            tangon = zuuluu.onScrollEndDrag;
+            entity['onScrollEndDrag'] = tangon;
             return entity;
  188:
             entity = {};
-            zulu = zulu.scrollHandlerAnimated;
-            entity['onScroll'] = zulu;
+            zuuluu = zuuluu.scrollHandlerAnimated;
+            entity['onScroll'] = zuuluu;
             return entity;
  203:
             entity = {};
-            entity['onScroll'] = mike;
+            entity['onScroll'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

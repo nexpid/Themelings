@@ -1,200 +1,200 @@
 // app/modules/messages/native/renderer/rows/Loading.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
     offset = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = offset;
-    var _closure1_slot2 = golf;
+    var _closure1_slot2 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argCorge;
+    report = golfie[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    report = tango.LoadingType;
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.LoadingType;
     var _closure1_slot4 = report;
-    report = tango.RowType;
+    report = tangon.RowType;
     var _closure1_slot5 = report;
-    tango = tango.SeparatorAction;
-    var _closure1_slot6 = tango;
-    tango = 2;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot7 = tango;
-    tango = 3;
-    tango = golf[tango];
-    options = oscar.bind(entity)(tango);
-    report = options.createNativeStyleProperties;
-    tango = {};
+    tangon = tangon.SeparatorAction;
+    var _closure1_slot6 = tangon;
+    tangon = 2;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot7 = tangon;
+    tangon = 3;
+    tangon = golfie[tangon];
+    option = oscard.bind(entity)(tangon);
+    report = option.createNativeStyleProperties;
+    tangon = {};
     verify = 4;
-    yankee = golf[verify];
+    yankee = golfie[verify];
     yankee = offset.bind(entity)(yankee);
     yankee = yankee.colors;
     yankee = yankee.BACKGROUND_ACCENT;
-    tango['loadButtonBackgroundColor'] = yankee;
-    yankee = golf[verify];
+    tangon['loadButtonBackgroundColor'] = yankee;
+    yankee = golfie[verify];
     yankee = offset.bind(entity)(yankee);
     yankee = yankee.unsafe_rawColors;
     yankee = yankee.WHITE_500;
-    tango['loadButtonColor'] = yankee;
-    verify = golf[verify];
+    tangon['loadButtonColor'] = yankee;
+    verify = golfie[verify];
     verify = offset.bind(entity)(verify);
     verify = verify.colors;
     verify = verify.BACKGROUND_ACCENT;
-    tango['loadingColor'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot8 = tango;
+    tangon['loadingColor'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot8 = tangon;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/native/renderer/rows/Loading.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: Loading
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.row;
-            tango = undefined;
-            var _closure2_slot2 = tango;
-            options = entity.rowType;
+            tangon = undefined;
+            var _closure2_slot2 = tangon;
+            option = entity.rowType;
             offset = entity.text;
             var _closure2_slot0 = offset;
             report = entity.isLoading;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            zulu = 5;
-            zulu = golf[zulu];
-            oscar = oscar.bind(tango)(zulu);
-            zulu = oscar.useMessageRendererTheme;
-            oscar = zulu.bind(oscar)();
-            zulu = _closure1_slot8;
-            golf = zulu.bind(tango)(oscar);
-            var _closure2_slot1 = golf;
-            zulu = _closure1_slot4;
-            zulu = zulu.LOAD_BEFORE;
-            if(!(options !== zulu)) { _fun00002_ip = 110; continue _fun00001 }
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            zuuluu = 5;
+            zuuluu = golfie[zuuluu];
+            oscard = oscard.bind(tangon)(zuuluu);
+            zuuluu = oscard.useMessageRendererTheme;
+            oscard = zuuluu.bind(oscard)();
+            zuuluu = _closure1_slot8;
+            golfie = zuuluu.bind(tangon)(oscard);
+            var _closure2_slot1 = golfie;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.LOAD_BEFORE;
+            if(!(option !== zuuluu)) { _fun00002_ip = 110; continue _fun00001 }
  98:
-            zulu = _closure1_slot6;
-            yankee = zulu.LOAD_MORE_AFTER;
+            zuuluu = _closure1_slot6;
+            yankee = zuuluu.LOAD_MORE_AFTER;
             _fun00002_ip = 120; continue _fun00001;
  110:
-            zulu = _closure1_slot6;
-            yankee = zulu.LOAD_MORE_BEFORE;
+            zuuluu = _closure1_slot6;
+            yankee = zuuluu.LOAD_MORE_BEFORE;
  120:
             _closure2_slot2 = yankee;
             verify = _closure1_slot3;
-            oscar = verify.useMemo;
-            zulu = new Array(3);
-            zulu[0] = yankee;
-            zulu[1] = golf;
-            zulu[2] = offset;
-            mike = function() {
+            oscard = verify.useMemo;
+            zuuluu = new Array(3);
+            zuuluu[0] = yankee;
+            zuuluu[1] = golfie;
+            zuuluu[2] = offset;
+            michal = function() {
                 entity = {};
-                zulu = {};
-                tango = _closure2_slot2;
-                zulu['type'] = tango;
-                entity['action'] = zulu;
-                zulu = _closure2_slot1;
-                zulu = zulu.loadButtonBackgroundColor;
-                entity['backgroundColor'] = zulu;
-                zulu = 4;
-                entity['cornerRadius'] = zulu;
-                mike = _closure2_slot0;
-                entity['text'] = mike;
+                zuuluu = {};
+                tangon = _closure2_slot2;
+                zuuluu['type'] = tangon;
+                entity['action'] = zuuluu;
+                zuuluu = _closure2_slot1;
+                zuuluu = zuuluu.loadButtonBackgroundColor;
+                entity['backgroundColor'] = zuuluu;
+                zuuluu = 4;
+                entity['cornerRadius'] = zuuluu;
+                michal = _closure2_slot0;
+                entity['text'] = michal;
                 return entity;
             };
-            oscar = oscar.bind(verify)(mike, zulu);
-            zulu = _closure1_slot7;
-            mike = _closure1_slot1;
+            oscard = oscard.bind(verify)(michal, zuuluu);
+            zuuluu = _closure1_slot7;
+            michal = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 6;
             entity = verify[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.Loading;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Loading;
             entity = {};
-            entity['id'] = options;
-            entity['button'] = oscar;
+            entity['id'] = option;
+            entity['button'] = oscard;
             if(report) { _fun00002_ip = 212; continue _fun00001 }
  204:
-            oscar = golf.loadButtonColor;
+            oscard = golfie.loadButtonColor;
             _fun00002_ip = 218; continue _fun00001;
  212:
-            oscar = golf.loadingColor;
+            oscard = golfie.loadingColor;
  218:
-            entity['color'] = oscar;
+            entity['color'] = oscard;
             entity['isLoading'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = report;
-    zulu['resolveBaseColors'] = tango;
-    mike = function(argFoo, argBar) { // Original name: generateLoadingRowData
+    zuuluu['default'] = report;
+    zuuluu['resolveBaseColors'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: generateLoadingRowData
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = entity.rowType;
-            zulu = entity.changeType;
-            oscar = entity.text;
-            mike = entity.isLoading;
-            options = _closure1_slot8;
+            tangon = entity.rowType;
+            zuuluu = entity.changeType;
+            oscard = entity.text;
+            michal = entity.isLoading;
+            option = _closure1_slot8;
             report = undefined;
             entity = argBar;
-            report = options.bind(report)(entity);
+            report = option.bind(report)(entity);
             entity = _closure1_slot4;
             entity = entity.LOAD_BEFORE;
-            if(!(tango !== entity)) { _fun00004_ip = 69; continue _fun00003 }
+            if(!(tangon !== entity)) { _fun00004_ip = 69; continue _fun00003 }
  57:
             entity = _closure1_slot6;
-            options = entity.LOAD_MORE_AFTER;
+            option = entity.LOAD_MORE_AFTER;
             _fun00004_ip = 79; continue _fun00003;
  69:
             entity = _closure1_slot6;
-            options = entity.LOAD_MORE_BEFORE;
+            option = entity.LOAD_MORE_BEFORE;
  79:
             entity = {};
-            golf = _closure1_slot5;
-            golf = golf.LOADING;
-            entity['type'] = golf;
-            entity['id'] = tango;
-            tango = {};
-            golf = {};
-            golf['type'] = options;
-            tango['action'] = golf;
-            golf = report.loadButtonBackgroundColor;
-            tango['backgroundColor'] = golf;
-            golf = 4;
-            tango['cornerRadius'] = golf;
-            tango['text'] = oscar;
-            entity['button'] = tango;
-            if(mike) { _fun00004_ip = 149; continue _fun00003 }
+            golfie = _closure1_slot5;
+            golfie = golfie.LOADING;
+            entity['type'] = golfie;
+            entity['id'] = tangon;
+            tangon = {};
+            golfie = {};
+            golfie['type'] = option;
+            tangon['action'] = golfie;
+            golfie = report.loadButtonBackgroundColor;
+            tangon['backgroundColor'] = golfie;
+            golfie = 4;
+            tangon['cornerRadius'] = golfie;
+            tangon['text'] = oscard;
+            entity['button'] = tangon;
+            if(michal) { _fun00004_ip = 149; continue _fun00003 }
  141:
-            tango = report.loadButtonColor;
+            tangon = report.loadButtonColor;
             _fun00004_ip = 155; continue _fun00003;
  149:
-            tango = report.loadingColor;
+            tangon = report.loadingColor;
  155:
-            entity['color'] = tango;
-            entity['changeType'] = zulu;
-            entity['isLoading'] = mike;
+            entity['color'] = tangon;
+            entity['changeType'] = zuuluu;
+            entity['isLoading'] = michal;
             return entity;
         }
     };
-    zulu['generateLoadingRowData'] = mike;
+    zuuluu['generateLoadingRowData'] = michal;
     return entity;
 })();

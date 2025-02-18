@@ -1,50 +1,50 @@
 // app/modules/remixing/native/hooks/isPlatformSupported.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Platform;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/remixing/native/hooks/isPlatformSupported.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: _default
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Platform;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/remixing/native/hooks/isPlatformSupported.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            mike = zulu[mike];
-            zulu = undefined;
-            tango = tango.bind(zulu)(mike);
-            mike = tango.isIOS;
-            mike = mike.bind(tango)();
-            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            tangon = tangon.bind(zuuluu)(michal);
+            michal = tangon.isIOS;
+            michal = michal.bind(tangon)();
+            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
  38:
-            mike = global;
-            mike = mike.Number;
+            michal = global;
+            michal = michal.Number;
             entity = _closure1_slot2;
             entity = entity.Version;
-            mike = mike.bind(zulu)(entity);
+            michal = michal.bind(zuuluu)(entity);
             entity = 13;
-            if(!(!(mike < entity))) { _fun00002_ip = 72; continue _fun00001 }
+            if(!(!(michal < entity))) { _fun00002_ip = 72; continue _fun00001 }
  68:
             entity = true;
             return entity;
@@ -53,6 +53,6 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

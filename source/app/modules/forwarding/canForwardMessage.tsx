@@ -1,46 +1,46 @@
 // app/modules/forwarding/canForwardMessage.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo) { // Original name: _canForwardMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            mike = options.state;
+            option = argFoo;
+            michal = option.state;
             entity = _closure1_slot7;
             entity = entity.SEND_FAILED;
-            entity = mike !== entity;
+            entity = michal !== entity;
             if(!entity) { _fun00002_ip = 182; continue _fun00001 }
  31:
-            mike = _closure1_slot8;
-            tango = mike.FORWARDABLE;
-            zulu = tango.has;
-            mike = options.type;
-            mike = zulu.bind(tango)(mike);
-            zulu = !mike;
-            mike = !zulu;
-            if(zulu) { _fun00002_ip = 179; continue _fun00001 }
+            michal = _closure1_slot8;
+            tangon = michal.FORWARDABLE;
+            zuuluu = tangon.has;
+            michal = option.type;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = !michal;
+            michal = !zuuluu;
+            if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
  65:
-            zulu = options.poll;
+            zuuluu = option.poll;
             verify = null;
-            zulu = verify == zulu;
-            if(!zulu) { _fun00002_ip = 176; continue _fun00001 }
+            zuuluu = verify == zuuluu;
+            if(!zuuluu) { _fun00002_ip = 176; continue _fun00001 }
  80:
-            tango = options.activity;
-            tango = verify == tango;
-            if(!tango) { _fun00002_ip = 173; continue _fun00001 }
+            tangon = option.activity;
+            tangon = verify == tangon;
+            if(!tangon) { _fun00002_ip = 173; continue _fun00001 }
  93:
-            report = options.call;
+            report = option.call;
             report = verify == report;
             if(!report) { _fun00002_ip = 170; continue _fun00001 }
  105:
-            oscar = options.activityInstance;
-            oscar = verify == oscar;
-            if(!oscar) { _fun00002_ip = 167; continue _fun00001 }
+            oscard = option.activityInstance;
+            oscard = verify == oscard;
+            if(!oscard) { _fun00002_ip = 167; continue _fun00001 }
  118:
             yankee = _closure1_slot0;
             offset = _closure1_slot1;
@@ -49,21 +49,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = undefined;
             offset = yankee.bind(verify)(offset);
             verify = offset.removeFlag;
-            options = options.flags;
-            golf = _closure1_slot9;
-            options = verify.bind(offset)(options, golf);
-            golf = 0;
-            oscar = golf === options;
+            option = option.flags;
+            golfie = _closure1_slot9;
+            option = verify.bind(offset)(option, golfie);
+            golfie = 0;
+            oscard = golfie === option;
  167:
-            report = oscar;
+            report = oscard;
  170:
-            tango = report;
+            tangon = report;
  173:
-            zulu = tango;
+            zuuluu = tangon;
  176:
-            mike = zulu;
+            michal = zuuluu;
  179:
-            entity = mike;
+            entity = michal;
  182:
             return entity;
         }
@@ -71,171 +71,171 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    golf = report.bind(entity)(tango);
-    tango = golf.GuildFeatures;
-    var _closure1_slot6 = tango;
-    tango = golf.MessageFlags;
-    options = golf.MessageStates;
-    var _closure1_slot7 = options;
-    golf = golf.MessageTypesSets;
-    var _closure1_slot8 = golf;
-    options = tango.CROSSPOSTED;
-    golf = tango.FAILED_TO_MENTION_SOME_ROLES_IN_THREAD;
-    options = options | golf;
-    golf = tango.GUILD_FEED_HIDDEN;
-    options = options | golf;
-    golf = tango.HAS_SNAPSHOT;
-    options = options | golf;
-    golf = tango.HAS_THREAD;
-    options = options | golf;
-    golf = tango.IS_CROSSPOST;
-    options = options | golf;
-    golf = tango.IS_VOICE_MESSAGE;
-    options = options | golf;
-    golf = tango.SHOULD_SHOW_LINK_NOT_DISCORD_WARNING;
-    options = options | golf;
-    golf = tango.SUPPRESS_EMBEDS;
-    options = options | golf;
-    golf = tango.SUPPRESS_NOTIFICATIONS;
-    options = options | golf;
-    golf = tango.URGENT;
-    golf = options | golf;
-    tango = tango.IS_COMPONENTS_V2;
-    tango = golf | tango;
-    var _closure1_slot9 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forwarding/canForwardMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: canForwardMessage
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.GuildFeatures;
+    var _closure1_slot6 = tangon;
+    tangon = golfie.MessageFlags;
+    option = golfie.MessageStates;
+    var _closure1_slot7 = option;
+    golfie = golfie.MessageTypesSets;
+    var _closure1_slot8 = golfie;
+    option = tangon.CROSSPOSTED;
+    golfie = tangon.FAILED_TO_MENTION_SOME_ROLES_IN_THREAD;
+    option = option | golfie;
+    golfie = tangon.GUILD_FEED_HIDDEN;
+    option = option | golfie;
+    golfie = tangon.HAS_SNAPSHOT;
+    option = option | golfie;
+    golfie = tangon.HAS_THREAD;
+    option = option | golfie;
+    golfie = tangon.IS_CROSSPOST;
+    option = option | golfie;
+    golfie = tangon.IS_VOICE_MESSAGE;
+    option = option | golfie;
+    golfie = tangon.SHOULD_SHOW_LINK_NOT_DISCORD_WARNING;
+    option = option | golfie;
+    golfie = tangon.SUPPRESS_EMBEDS;
+    option = option | golfie;
+    golfie = tangon.SUPPRESS_NOTIFICATIONS;
+    option = option | golfie;
+    golfie = tangon.URGENT;
+    golfie = option | golfie;
+    tangon = tangon.IS_COMPONENTS_V2;
+    tangon = golfie | tangon;
+    var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forwarding/canForwardMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: canForwardMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = _closure1_slot10;
             report = undefined;
-            entity = entity.bind(report)(mike);
+            entity = entity.bind(report)(michal);
             if(entity) { _fun00004_ip = 24; continue _fun00003 }
  20:
             entity = false;
             return entity;
  24:
-            oscar = _closure1_slot4;
-            tango = oscar.getChannel;
-            entity = mike.channel_id;
-            tango = tango.bind(oscar)(entity);
+            oscard = _closure1_slot4;
+            tangon = oscard.getChannel;
+            entity = michal.channel_id;
+            tangon = tangon.bind(oscard)(entity);
             entity = null;
-            oscar = entity == tango;
+            oscard = entity == tangon;
             report = undefined;
-            if(oscar) { _fun00004_ip = 59; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 59; continue _fun00003 }
  54:
-            report = tango.guild_id;
+            report = tangon.guild_id;
  59:
             entity = entity == report;
             if(entity) { _fun00004_ip = 90; continue _fun00003 }
  66:
-            tango = _closure1_slot3;
-            zulu = tango.isChannelOrThreadParentGated;
-            mike = mike.channel_id;
-            mike = zulu.bind(tango)(report, mike);
-            entity = !mike;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.isChannelOrThreadParentGated;
+            michal = michal.channel_id;
+            michal = zuuluu.bind(tangon)(report, michal);
+            entity = !michal;
  90:
             return entity;
         }
     };
-    zulu['canForwardMessage'] = tango;
-    mike = function(argFoo) { // Original name: useCanForwardMessage
+    zuuluu['canForwardMessage'] = tangon;
+    michal = function(argFoo) { // Original name: useCanForwardMessage
         report = argFoo;
         var _closure2_slot0 = report;
-        oscar = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 6;
-        tango = tango[zulu];
-        zulu = undefined;
-        golf = oscar.bind(zulu)(tango);
-        oscar = golf.useStateFromStores;
-        zulu = _closure1_slot5;
-        tango = new Array(3);
-        tango[0] = zulu;
-        zulu = _closure1_slot3;
-        tango[1] = zulu;
-        zulu = _closure1_slot4;
-        tango[2] = zulu;
-        zulu = function() {
+        oscard = _closure1_slot0;
+        tangon = _closure1_slot1;
+        zuuluu = 6;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        golfie = oscard.bind(zuuluu)(tangon);
+        oscard = golfie.useStateFromStores;
+        zuuluu = _closure1_slot5;
+        tangon = new Array(3);
+        tangon[0] = zuuluu;
+        zuuluu = _closure1_slot3;
+        tangon[1] = zuuluu;
+        zuuluu = _closure1_slot4;
+        tangon[2] = zuuluu;
+        zuuluu = function() {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure2_slot0;
-                mike = null;
-                if(!(mike != entity)) { _fun00006_ip = 153; continue _fun00005 }
+                michal = null;
+                if(!(michal != entity)) { _fun00006_ip = 153; continue _fun00005 }
  16:
-                oscar = _closure1_slot4;
-                report = oscar.getChannel;
+                oscard = _closure1_slot4;
+                report = oscard.getChannel;
                 entity = _closure2_slot0;
                 entity = entity.channel_id;
-                report = report.bind(oscar)(entity);
-                golf = mike == report;
-                oscar = undefined;
-                if(golf) { _fun00006_ip = 56; continue _fun00005 }
+                report = report.bind(oscard)(entity);
+                golfie = michal == report;
+                oscard = undefined;
+                if(golfie) { _fun00006_ip = 56; continue _fun00005 }
  51:
-                oscar = report.guild_id;
+                oscard = report.guild_id;
  56:
-                report = mike == oscar;
+                report = michal == oscard;
                 if(report) { _fun00006_ip = 110; continue _fun00005 }
  63:
-                options = _closure1_slot5;
-                golf = options.getGuild;
-                verify = golf.bind(options)(oscar);
-                golf = mike == verify;
+                option = _closure1_slot5;
+                golfie = option.getGuild;
+                verify = golfie.bind(option)(oscard);
+                golfie = michal == verify;
                 entity = undefined;
-                if(golf) { _fun00006_ip = 107; continue _fun00005 }
+                if(golfie) { _fun00006_ip = 107; continue _fun00005 }
  86:
-                options = verify.hasFeature;
-                golf = _closure1_slot6;
-                golf = golf.FORWARDING_DISABLED;
-                entity = options.bind(verify)(golf);
+                option = verify.hasFeature;
+                golfie = _closure1_slot6;
+                golfie = golfie.FORWARDING_DISABLED;
+                entity = option.bind(verify)(golfie);
  107:
                 report = !entity;
  110:
                 entity = !report;
                 if(!report) { _fun00006_ip = 151; continue _fun00005 }
  116:
-                mike = mike != oscar;
-                if(!mike) { _fun00006_ip = 148; continue _fun00005 }
+                michal = michal != oscard;
+                if(!michal) { _fun00006_ip = 148; continue _fun00005 }
  123:
                 report = _closure1_slot3;
-                tango = report.isChannelOrThreadParentGated;
-                zulu = _closure2_slot0;
-                zulu = zulu.channel_id;
-                mike = tango.bind(report)(oscar, zulu);
+                tangon = report.isChannelOrThreadParentGated;
+                zuuluu = _closure2_slot0;
+                zuuluu = zuuluu.channel_id;
+                michal = tangon.bind(report)(oscard, zuuluu);
  148:
-                entity = mike;
+                entity = michal;
  151:
                 return entity;
  153:
@@ -243,13 +243,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             }
         };
-        oscar = oscar.bind(golf)(tango, zulu);
-        var _closure2_slot1 = oscar;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        oscard = oscard.bind(golfie)(tangon, zuuluu);
+        var _closure2_slot1 = oscard;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -257,23 +257,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = !entity;
                 if(!entity) { _fun00008_ip = 23; continue _fun00007 }
  13:
-                tango = _closure2_slot0;
-                zulu = null;
-                entity = zulu != tango;
+                tangon = _closure2_slot0;
+                zuuluu = null;
+                entity = zuuluu != tangon;
  23:
                 if(!entity) { _fun00008_ip = 44; continue _fun00007 }
  26:
-                tango = _closure1_slot10;
-                zulu = _closure2_slot0;
-                mike = undefined;
-                entity = tango.bind(mike)(zulu);
+                tangon = _closure1_slot10;
+                zuuluu = _closure2_slot0;
+                michal = undefined;
+                entity = tangon.bind(michal)(zuuluu);
  44:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useCanForwardMessage'] = mike;
+    zuuluu['useCanForwardMessage'] = michal;
     return entity;
 })();

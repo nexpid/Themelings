@@ -1,60 +1,60 @@
 // app/modules/guild_progress/native/components/GuildProgressItem.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_progress/native/components/GuildProgressItem.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: GuildProgressItem
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_progress/native/components/GuildProgressItem.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: GuildProgressItem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.guild;
             var _closure2_slot0 = report;
-            romeo = _closure1_slot0;
-            foxtrot = _closure1_slot2;
-            mike = 2;
-            mike = foxtrot[mike];
-            tango = undefined;
-            zulu = romeo.bind(tango)(mike);
-            mike = zulu.useIOSCompletionStates;
-            mike = mike.bind(zulu)(report);
-            options = mike.numFinished;
-            var _closure2_slot1 = options;
-            report = mike.completed;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            michal = 2;
+            michal = foxtra[michal];
+            tangon = undefined;
+            zuuluu = romeon.bind(tangon)(michal);
+            michal = zuuluu.useIOSCompletionStates;
+            michal = michal.bind(zuuluu)(report);
+            option = michal.numFinished;
+            var _closure2_slot1 = option;
+            report = michal.completed;
             var _closure2_slot2 = report;
-            golf = mike.totalSteps;
-            zulu = _closure1_slot3;
+            golfie = michal.totalSteps;
+            zuuluu = _closure1_slot3;
             offset = _closure1_slot1;
             entity = 3;
-            entity = foxtrot[entity];
-            mike = offset.bind(tango)(entity);
+            entity = foxtra[entity];
+            michal = offset.bind(tangon)(entity);
             entity = {};
             verify = function() { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -62,83 +62,83 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot2;
                     if(entity) { _fun00004_ip = 55; continue _fun00003 }
  10:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
                     entity = 4;
-                    zulu = zulu[entity];
+                    zuuluu = zuuluu[entity];
                     entity = undefined;
-                    tango = tango.bind(entity)(zulu);
-                    zulu = tango.createProgress;
+                    tangon = tangon.bind(entity)(zuuluu);
+                    zuuluu = tangon.createProgress;
                     entity = _closure2_slot0;
                     entity = entity.id;
-                    entity = zulu.bind(tango)(entity);
+                    entity = zuuluu.bind(tangon)(entity);
  55:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 2;
-                    zulu = zulu[entity];
+                    zuuluu = zuuluu[entity];
                     entity = undefined;
-                    tango = tango.bind(entity)(zulu);
-                    zulu = tango.openActionSheet;
-                    mike = _closure2_slot0;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = tangon.bind(entity)(zuuluu);
+                    zuuluu = tangon.openActionSheet;
+                    michal = _closure2_slot0;
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 }
             };
             entity['onPress'] = verify;
             verify = 5;
-            verify = foxtrot[verify];
-            verify = offset.bind(tango)(verify);
+            verify = foxtra[verify];
+            verify = offset.bind(tangon)(verify);
             entity['source'] = verify;
             verify = 6;
-            offset = foxtrot[verify];
-            offset = romeo.bind(tango)(offset);
+            offset = foxtra[verify];
+            offset = romeon.bind(tangon)(offset);
             yankee = offset.intl;
             offset = yankee.string;
-            verify = foxtrot[verify];
-            verify = romeo.bind(tango)(verify);
+            verify = foxtra[verify];
+            verify = romeon.bind(tangon)(verify);
             verify = verify.t;
             verify = verify.J2+update;
             verify = offset.bind(yankee)(verify);
             entity['title'] = verify;
             entity['isCompleted'] = report;
             report = 0;
-            verify = options > report;
+            verify = option > report;
             report = undefined;
             if(!verify) { _fun00002_ip = 210; continue _fun00001 }
  194:
-            golf = options < golf;
+            golfie = option < golfie;
             report = undefined;
-            if(!golf) { _fun00002_ip = 210; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 210; continue _fun00001 }
  203:
             report = function() {
-                tango = _closure1_slot3;
-                mike = _closure1_slot1;
-                zulu = _closure1_slot2;
+                tangon = _closure1_slot3;
+                michal = _closure1_slot1;
+                zuuluu = _closure1_slot2;
                 entity = 7;
-                entity = zulu[entity];
-                zulu = undefined;
-                mike = mike.bind(zulu)(entity);
+                entity = zuuluu[entity];
+                zuuluu = undefined;
+                michal = michal.bind(zuuluu)(entity);
                 entity = {};
-                oscar = _closure2_slot1;
+                oscard = _closure2_slot1;
                 report = 100;
-                oscar = report * oscar;
+                oscard = report * oscard;
                 report = 3;
-                report = oscar / report;
+                report = oscard / report;
                 entity['percent'] = report;
                 report = 32;
                 entity['size'] = report;
-                entity = tango.bind(zulu)(mike, entity);
+                entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
  210:
             entity['renderEndComponent'] = report;
             report = true;
             entity['fullWidth'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

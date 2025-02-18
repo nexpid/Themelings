@@ -1,240 +1,240 @@
 // app/utils/AttachmentFile.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _getAttachmentFile
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    zulu = argFoo;
+                    zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 348; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 348; continue _fun00001 }
  13:
-                    verify = zulu;
-                    tango = argBar;
+                    verify = zuuluu;
+                    tangon = argBar;
                     offset = undefined;
-                    golf = undefined;
+                    golfie = undefined;
                     report = undefined;
-                    options = undefined;
-                    oscar = undefined;
-                    romeo = _closure1_slot1;
+                    option = undefined;
+                    oscard = undefined;
+                    romeon = _closure1_slot1;
                     backup = _closure1_slot2;
                     yankee = 2;
                     yankee = backup[yankee];
-                    romeo = romeo.bind(offset)(yankee);
-                    zulu = zulu.item;
-                    yankee = zulu.platform;
-                    foxtrot = _closure1_slot0;
-                    zulu = 3;
-                    zulu = backup[zulu];
-                    zulu = foxtrot.bind(offset)(zulu);
-                    zulu = zulu.UploadPlatform;
-                    zulu = zulu.REACT_NATIVE;
-                    yankee = yankee === zulu;
-                    zulu = 'Upload must be in the React Native format';
-                    zulu = romeo.bind(offset)(yankee, zulu);
+                    romeon = romeon.bind(offset)(yankee);
+                    zuuluu = zuuluu.item;
+                    yankee = zuuluu.platform;
+                    foxtra = _closure1_slot0;
+                    zuuluu = 3;
+                    zuuluu = backup[zuuluu];
+                    zuuluu = foxtra.bind(offset)(zuuluu);
+                    zuuluu = zuuluu.UploadPlatform;
+                    zuuluu = zuuluu.REACT_NATIVE;
+                    yankee = yankee === zuuluu;
+                    zuuluu = 'Upload must be in the React Native format';
+                    zuuluu = romeon.bind(offset)(yankee, zuuluu);
  107: // try_start_1
-                    romeo = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    romeon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     yankee = 4;
-                    zulu = zulu[yankee];
-                    backup = romeo.bind(offset)(zulu);
-                    foxtrot = backup.getFileInfo;
-                    romeo = verify;
-                    zulu = tango;
-                    zulu = foxtrot.bind(backup)(romeo, zulu);
+                    zuuluu = zuuluu[yankee];
+                    backup = romeon.bind(offset)(zuuluu);
+                    foxtra = backup.getFileInfo;
+                    romeon = verify;
+                    zuuluu = tangon;
+                    zuuluu = foxtra.bind(backup)(romeon, zuuluu);
                     SaveGenerator(address=149);
  147:
-                    return zulu;
+                    return zuuluu;
  149:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeo) { _fun00002_ip = 317; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 317; continue _fun00001 }
  158:
-                    options = zulu;
-                    foxtrot = _closure1_slot0;
+                    option = zuuluu;
+                    foxtra = _closure1_slot0;
                     backup = _closure1_slot2;
-                    romeo = 5;
-                    romeo = backup[romeo];
-                    backup = foxtrot.bind(offset)(romeo);
-                    foxtrot = backup.getAttachmentPayload;
-                    romeo = verify;
-                    verify = tango;
-                    tango = zulu.name;
-                    oscar = foxtrot.bind(backup)(romeo, verify, tango);
+                    romeon = 5;
+                    romeon = backup[romeon];
+                    backup = foxtra.bind(offset)(romeon);
+                    foxtra = backup.getAttachmentPayload;
+                    romeon = verify;
+                    verify = tangon;
+                    tangon = zuuluu.name;
+                    oscard = foxtra.bind(backup)(romeon, verify, tangon);
  205: // try_start_0
                     verify = _closure1_slot0;
-                    tango = _closure1_slot2;
-                    tango = tango[yankee];
-                    offset = verify.bind(offset)(tango);
+                    tangon = _closure1_slot2;
+                    tangon = tangon[yankee];
+                    offset = verify.bind(offset)(tangon);
                     verify = offset.getFileSize;
-                    tango = options;
-                    tango = tango.uri;
-                    tango = verify.bind(offset)(tango);
+                    tangon = option;
+                    tangon = tangon.uri;
+                    tangon = verify.bind(offset)(tangon);
                     SaveGenerator(address=246);
  244:
-                    return tango;
+                    return tangon;
  246:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
                     if(verify) { _fun00002_ip = 257; continue _fun00001 }
  252:
-                    report = tango;
+                    report = tangon;
  255: // try_end0
                     _fun00002_ip = 262; continue _fun00001;
  257: // try_end1
-                    return tango;
+                    return tangon;
  260: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=3);
  262:
-                    tango = {};
-                    tango['file'] = options;
-                    options = options.uri;
-                    tango['uri'] = options;
-                    options = oscar.filename;
-                    golf = options;
-                    oscar = null;
-                    options = oscar != options;
-                    oscar = '';
-                    if(!options) { _fun00002_ip = 305; continue _fun00001 }
+                    tangon = {};
+                    tangon['file'] = option;
+                    option = option.uri;
+                    tangon['uri'] = option;
+                    option = oscard.filename;
+                    golfie = option;
+                    oscard = null;
+                    option = oscard != option;
+                    oscard = '';
+                    if(!option) { _fun00002_ip = 305; continue _fun00001 }
  302:
-                    oscar = golf;
+                    oscard = golfie;
  305:
-                    tango['name'] = oscar;
-                    tango['fileSize'] = report;
+                    tangon['name'] = oscard;
+                    tangon['fileSize'] = report;
  314: // try_end2
-                    return tango;
+                    return tangon;
  317:
-                    return zulu;
+                    return zuuluu;
  320: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot4;
-                    zulu = tango.error;
-                    mike = 'Failed to get attachment file';
-                    mike = zulu.bind(tango)(mike, report);
-                    mike = undefined;
-                    return mike;
+                    tangon = _closure1_slot4;
+                    zuuluu = tangon.error;
+                    michal = 'Failed to get attachment file';
+                    michal = zuuluu.bind(tangon)(michal, report);
+                    michal = undefined;
+                    return michal;
  348:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = function() { // Original name: _cancelGetAttachmentFile
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 62; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 62; continue _fun00003 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 4;
-                    mike = zulu[mike];
-                    zulu = undefined;
-                    report = tango.bind(zulu)(mike);
-                    tango = report.cancelGetFileInfo;
-                    mike = argFoo;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 4;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    report = tangon.bind(zuuluu)(michal);
+                    tangon = report.cancelGetFileInfo;
+                    michal = argFoo;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=50);
  48:
-                    return mike;
+                    return michal;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00004_ip = 59; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 59; continue _fun00003 }
  56:
-                    return zulu;
+                    return zuuluu;
  59:
-                    return mike;
+                    return michal;
  62:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'AttachmentFile';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/AttachmentFile.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: getAttachmentFile
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'AttachmentFile';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/AttachmentFile.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getAttachmentFile
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['getAttachmentFile'] = tango;
-    mike = function() { // Original name: cancelGetAttachmentFile
+    zuuluu['getAttachmentFile'] = tangon;
+    michal = function() { // Original name: cancelGetAttachmentFile
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = tango.apply;
+        tangon = _closure1_slot6;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['cancelGetAttachmentFile'] = mike;
+    zuuluu['cancelGetAttachmentFile'] = michal;
     return entity;
 })();

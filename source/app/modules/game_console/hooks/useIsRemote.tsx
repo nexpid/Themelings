@@ -1,62 +1,62 @@
 // app/modules/game_console/hooks/useIsRemote.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_console/hooks/useIsRemote.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useIsRemote
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 1;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_console/hooks/useIsRemote.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useIsRemote
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot2;
-                entity = zulu.getRemoteSessionId;
-                entity = entity.bind(zulu)();
-                zulu = null;
-                entity = zulu != entity;
+                zuuluu = _closure1_slot2;
+                entity = zuuluu.getRemoteSessionId;
+                entity = entity.bind(zuuluu)();
+                zuuluu = null;
+                entity = zuuluu != entity;
                 if(entity) { _fun00002_ip = 44; continue _fun00001 }
  26:
-                tango = _closure1_slot2;
-                mike = tango.getAwaitingRemoteSessionInfo;
-                mike = mike.bind(tango)();
-                entity = zulu != mike;
+                tangon = _closure1_slot2;
+                michal = tangon.getAwaitingRemoteSessionInfo;
+                michal = michal.bind(tangon)();
+                entity = zuuluu != michal;
  44:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,70 +1,70 @@
 // app/modules/provisional_accounts/hooks/useProvisionalAccountApplication.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/provisional_accounts/hooks/useProvisionalAccountApplication.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useProvisionalAccountApplication
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/provisional_accounts/hooks/useProvisionalAccountApplication.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useProvisionalAccountApplication
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
         report = _closure1_slot1;
-        mike = 1;
-        oscar = report[mike];
-        mike = undefined;
-        golf = tango.bind(mike)(oscar);
-        oscar = golf.useStateFromStores;
-        options = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = options;
+        michal = 1;
+        oscard = report[michal];
+        michal = undefined;
+        golfie = tangon.bind(michal)(oscard);
+        oscard = golfie.useStateFromStores;
+        option = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = option;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot2;
-                mike = zulu.getGameRelationshipsForUser;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getGameRelationshipsForUser;
                 entity = _closure2_slot0;
-                mike = mike.bind(zulu)(entity);
-                zulu = mike.length;
+                michal = michal.bind(zuuluu)(entity);
+                zuuluu = michal.length;
                 entity = 0;
-                if(!(entity === zulu)) { _fun00002_ip = 40; continue _fun00001 }
+                if(!(entity === zuuluu)) { _fun00002_ip = 40; continue _fun00001 }
  36:
-                zulu = undefined;
-                return zulu;
+                zuuluu = undefined;
+                return zuuluu;
  40:
-                entity = mike[entity];
+                entity = michal[entity];
                 entity = entity.applicationId;
                 return entity;
             }
         };
-        zulu = oscar.bind(golf)(zulu, entity);
+        zuuluu = oscard.bind(golfie)(zuuluu, entity);
         entity = 2;
         entity = report[entity];
-        mike = tango.bind(mike)(entity);
-        entity = mike.useGetOrFetchApplication;
-        entity = entity.bind(mike)(zulu);
+        michal = tangon.bind(michal)(entity);
+        entity = michal.useGetOrFetchApplication;
+        entity = entity.bind(michal)(zuuluu);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

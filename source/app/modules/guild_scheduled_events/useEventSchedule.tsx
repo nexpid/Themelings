@@ -1,203 +1,203 @@
 // app/modules/guild_scheduled_events/useEventSchedule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _getEventSchedule
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             verify = argBaz;
-            entity = zulu.recurrence_rule;
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 136; continue _fun00001 }
+            entity = zuuluu.recurrence_rule;
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 136; continue _fun00001 }
  18:
-            if(!(mike != verify)) { _fun00002_ip = 136; continue _fun00001 }
+            if(!(michal != verify)) { _fun00002_ip = 136; continue _fun00001 }
  22:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 1;
-            golf = oscar[entity];
-            tango = undefined;
-            options = report.bind(tango)(golf);
-            golf = options.getBaseScheduleForRecurrence;
-            golf = golf.bind(options)(verify, zulu);
-            entity = oscar[entity];
-            oscar = report.bind(tango)(entity);
-            report = oscar.getScheduleForRecurrenceWithException;
+            golfie = oscard[entity];
+            tangon = undefined;
+            option = report.bind(tangon)(golfie);
+            golfie = option.getBaseScheduleForRecurrence;
+            golfie = golfie.bind(option)(verify, zuuluu);
+            entity = oscard[entity];
+            oscard = report.bind(tangon)(entity);
+            report = oscard.getScheduleForRecurrenceWithException;
             entity = argBar;
-            entity = report.bind(oscar)(golf, entity);
-            golf = entity.startDate;
-            oscar = entity.endDate;
+            entity = report.bind(oscard)(golfie, entity);
+            golfie = entity.startDate;
+            oscard = entity.endDate;
             entity = {};
-            report = golf.toDate;
-            report = report.bind(golf)();
+            report = golfie.toDate;
+            report = report.bind(golfie)();
             entity['startTime'] = report;
-            report = mike == oscar;
+            report = michal == oscard;
             if(report) { _fun00002_ip = 129; continue _fun00001 }
  119:
-            report = oscar.toDate;
-            tango = report.bind(oscar)();
+            report = oscard.toDate;
+            tangon = report.bind(oscard)();
  129:
-            entity['endTime'] = tango;
+            entity['endTime'] = tangon;
             return entity;
  136:
             entity = {};
-            tango = global;
-            golf = tango.Date;
-            yankee = zulu.scheduled_start_time;
-            oscar = golf.prototype;
-            oscar = Object.create(oscar, {constructor: {value: golf}});
-            romeo = oscar;
-            report = new romeo[golf](yankee, offset);
-            report = report instanceof Object ? report : oscar;
+            tangon = global;
+            golfie = tangon.Date;
+            yankee = zuuluu.scheduled_start_time;
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            romeon = oscard;
+            report = new romeon[golfie](yankee, offset);
+            report = report instanceof Object ? report : oscard;
             entity['startTime'] = report;
-            report = zulu.scheduled_end_time;
-            report = mike != report;
-            mike = null;
+            report = zuuluu.scheduled_end_time;
+            report = michal != report;
+            michal = null;
             if(!report) { _fun00002_ip = 224; continue _fun00001 }
  192:
-            report = tango.Date;
-            yankee = zulu.scheduled_end_time;
-            tango = report.prototype;
-            tango = Object.create(tango, {constructor: {value: report}});
-            romeo = tango;
-            zulu = new romeo[report](yankee, offset);
-            mike = zulu instanceof Object ? zulu : tango;
+            report = tangon.Date;
+            yankee = zuuluu.scheduled_end_time;
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            romeon = tangon;
+            zuuluu = new romeon[report](yankee, offset);
+            michal = zuuluu instanceof Object ? zuuluu : tangon;
  224:
-            entity['endTime'] = mike;
+            entity['endTime'] = michal;
             return entity;
         }
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/useEventSchedule.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: useEventSchedule
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/useEventSchedule.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: useEventSchedule
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            tango = argBar;
+            tangon = argBar;
             entity = null;
-            if(!(entity == tango)) { _fun00004_ip = 48; continue _fun00003 }
+            if(!(entity == tangon)) { _fun00004_ip = 48; continue _fun00003 }
  12:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            entity = mike.getNextRecurrenceIdInEvent;
-            tango = entity.bind(mike)(report);
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.getNextRecurrenceIdInEvent;
+            tangon = entity.bind(michal)(report);
  48:
-            zulu = _closure1_slot4;
-            oscar = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot4;
+            oscard = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 2;
-            entity = mike[entity];
-            mike = undefined;
-            oscar = oscar.bind(mike)(entity);
+            entity = michal[entity];
+            michal = undefined;
+            oscard = oscard.bind(michal)(entity);
             entity = report.id;
-            entity = oscar.bind(mike)(tango, entity);
-            entity = zulu.bind(mike)(report, entity, tango);
+            entity = oscard.bind(michal)(tangon, entity);
+            entity = zuuluu.bind(michal)(report, entity, tangon);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    tango = function(argFoo, argBar) { // Original name: useEventScheduleById
+    zuuluu['default'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: useEventScheduleById
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            oscar = argBar;
-            mike = argFoo;
-            var _closure2_slot0 = mike;
-            tango = _closure1_slot0;
+            oscard = argBar;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 3;
-            zulu = report[zulu];
+            zuuluu = 3;
+            zuuluu = report[zuuluu];
             report = undefined;
-            golf = tango.bind(report)(zulu);
-            tango = golf.useStateFromStores;
-            options = _closure1_slot3;
-            zulu = new Array(1);
-            zulu[0] = options;
+            golfie = tangon.bind(report)(zuuluu);
+            tangon = golfie.useStateFromStores;
+            option = _closure1_slot3;
+            zuuluu = new Array(1);
+            zuuluu[0] = option;
             entity = function() {
-                zulu = _closure1_slot3;
-                mike = zulu.getGuildScheduledEvent;
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.getGuildScheduledEvent;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = tango.bind(golf)(zulu, entity);
+            tangon = tangon.bind(golfie)(zuuluu, entity);
             entity = null;
-            if(!(entity == oscar)) { _fun00006_ip = 102; continue _fun00005 }
+            if(!(entity == oscard)) { _fun00006_ip = 102; continue _fun00005 }
  71:
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
-            zulu = 1;
-            zulu = options[zulu];
-            golf = golf.bind(report)(zulu);
-            zulu = golf.getNextRecurrenceIdInEvent;
-            oscar = zulu.bind(golf)(tango);
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 1;
+            zuuluu = option[zuuluu];
+            golfie = golfie.bind(report)(zuuluu);
+            zuuluu = golfie.getNextRecurrenceIdInEvent;
+            oscard = zuuluu.bind(golfie)(tangon);
  102:
-            golf = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 2;
-            zulu = options[zulu];
-            golf = golf.bind(report)(zulu);
-            options = entity == tango;
-            zulu = undefined;
-            if(options) { _fun00006_ip = 136; continue _fun00005 }
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = option[zuuluu];
+            golfie = golfie.bind(report)(zuuluu);
+            option = entity == tangon;
+            zuuluu = undefined;
+            if(option) { _fun00006_ip = 136; continue _fun00005 }
  131:
-            zulu = tango.id;
+            zuuluu = tangon.id;
  136:
-            zulu = golf.bind(report)(oscar, zulu);
-            golf = entity == tango;
+            zuuluu = golfie.bind(report)(oscard, zuuluu);
+            golfie = entity == tangon;
             entity = null;
-            if(golf) { _fun00006_ip = 162; continue _fun00005 }
+            if(golfie) { _fun00006_ip = 162; continue _fun00005 }
  151:
-            mike = _closure1_slot4;
-            entity = mike.bind(report)(tango, zulu, oscar);
+            michal = _closure1_slot4;
+            entity = michal.bind(report)(tangon, zuuluu, oscard);
  162:
             return entity;
         }
     };
-    zulu['useEventScheduleById'] = tango;
-    mike = function(argFoo, argBar) { // Original name: getEventSchedule
+    zuuluu['useEventScheduleById'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getEventSchedule
         report = argFoo;
-        tango = argBar;
-        zulu = _closure1_slot4;
-        oscar = _closure1_slot0;
-        mike = _closure1_slot2;
+        tangon = argBar;
+        zuuluu = _closure1_slot4;
+        oscard = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 2;
-        entity = mike[entity];
-        mike = undefined;
-        golf = oscar.bind(mike)(entity);
-        oscar = golf.getEventException;
+        entity = michal[entity];
+        michal = undefined;
+        golfie = oscard.bind(michal)(entity);
+        oscard = golfie.getEventException;
         entity = report.id;
-        entity = oscar.bind(golf)(tango, entity);
-        entity = zulu.bind(mike)(report, entity, tango);
+        entity = oscard.bind(golfie)(tangon, entity);
+        entity = zuuluu.bind(michal)(report, entity, tangon);
         return entity;
     };
-    zulu['getEventSchedule'] = mike;
+    zuuluu['getEventSchedule'] = michal;
     return entity;
 })();

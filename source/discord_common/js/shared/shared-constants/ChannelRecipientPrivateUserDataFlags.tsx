@@ -1,28 +1,28 @@
 // discord_common/js/shared/shared-constants/ChannelRecipientPrivateUserDataFlags.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 1;
-    mike['DISMISSED_IN_GAME_MESSAGE_NUX'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 1;
+    michal['DISMISSED_IN_GAME_MESSAGE_NUX'] = tangon;
     entity = 'DISMISSED_IN_GAME_MESSAGE_NUX';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/ChannelRecipientPrivateUserDataFlags.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['ChannelRecipientPrivateUserDataFlags'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/ChannelRecipientPrivateUserDataFlags.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['ChannelRecipientPrivateUserDataFlags'] = michal;
     return entity;
 })();

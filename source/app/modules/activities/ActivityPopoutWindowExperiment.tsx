@@ -1,32 +1,32 @@
 // app/modules/activities/ActivityPopoutWindowExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    report = tango.CommonTriggerPoints;
-    tango = 1;
-    tango = golf[tango];
-    verify = oscar.bind(entity)(tango);
-    options = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2024-11_activity_popout_window', 'label': 'Activity Popout Window Experiment'};
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = golfie[tangon];
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2024-11_activity_popout_window', 'label': 'Activity Popout Window Experiment'};
     offset = {'enabled': false, 'enableOverlayInActivityPopoutWindow': false, 'enableGoLiveFromActivityCard': false};
-    tango['defaultConfig'] = offset;
+    tangon['defaultConfig'] = offset;
     report = report.CONNECTION_OPEN;
-    tango['commonTriggerPoint'] = report;
+    tangon['commonTriggerPoint'] = report;
     report = {'id': 1, 'label': 'Enable activity popout window'};
     offset = {'enabled': true, 'enableOverlayInActivityPopoutWindow': false, 'enableGoLiveFromActivityCard': false};
     report['config'] = offset;
@@ -38,84 +38,84 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     offset[1] = report;
     yankee = {'id': 3, 'label': 'Enable activity popout window with overlay and GoLive from activity card'};
     report = 3;
-    romeo = {'enabled': true, 'enableOverlayInActivityPopoutWindow': true, 'enableGoLiveFromActivityCard': true};
-    yankee['config'] = romeo;
+    romeon = {'enabled': true, 'enableOverlayInActivityPopoutWindow': true, 'enableGoLiveFromActivityCard': true};
+    yankee['config'] = romeon;
     offset[2] = yankee;
-    tango['treatments'] = offset;
-    tango = options.bind(verify)(tango);
-    var _closure1_slot2 = tango;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot2 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/activities/ActivityPopoutWindowExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    tango = function() { // Original name: getIsActivityPopoutOverlayEnabled
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    tangon = function() { // Original name: getIsActivityPopoutOverlayEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.getUseOverlayV3;
-            mike = 'ActivityPopout';
-            mike = zulu.bind(tango)(mike);
-            mike = mike.overlayV3UI;
-            tango = _closure1_slot2;
-            zulu = tango.getCurrentConfig;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.getUseOverlayV3;
+            michal = 'ActivityPopout';
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.overlayV3UI;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getCurrentConfig;
             entity = {};
             report = 'getIsActivityPopoutOverlayEnabled';
             entity['location'] = report;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.enableOverlayInActivityPopoutWindow;
             if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  84:
-            entity = mike;
+            entity = michal;
  87:
             return entity;
         }
     };
-    zulu['getIsActivityPopoutOverlayEnabled'] = tango;
-    tango = function() { // Original name: useIsActivityPopoutOverlayEnabled
+    zuuluu['getIsActivityPopoutOverlayEnabled'] = tangon;
+    tangon = function() { // Original name: useIsActivityPopoutOverlayEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.useOverlayV3;
-            mike = 'ActivityPopout';
-            mike = zulu.bind(tango)(mike);
-            mike = mike.overlayV3UI;
-            tango = _closure1_slot2;
-            zulu = tango.useExperiment;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.useOverlayV3;
+            michal = 'ActivityPopout';
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.overlayV3UI;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useExperiment;
             entity = {};
             report = 'useIsActivityPopoutOverlayEnabled';
             entity['location'] = report;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.enableOverlayInActivityPopoutWindow;
             if(!entity) { _fun00004_ip = 87; continue _fun00003 }
  84:
-            entity = mike;
+            entity = michal;
  87:
             return entity;
         }
     };
-    zulu['useIsActivityPopoutOverlayEnabled'] = tango;
-    mike = function() { // Original name: useCanGoLiveActivityFromActivityCard
-        zulu = _closure1_slot2;
-        mike = zulu.useExperiment;
+    zuuluu['useIsActivityPopoutOverlayEnabled'] = tangon;
+    michal = function() { // Original name: useCanGoLiveActivityFromActivityCard
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.useExperiment;
         entity = {};
-        tango = 'useCanGoLiveActivityFromActivityCard';
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = 'useCanGoLiveActivityFromActivityCard';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.enableGoLiveFromActivityCard;
         return entity;
     };
-    zulu['useCanGoLiveActivityFromActivityCard'] = mike;
+    zuuluu['useCanGoLiveActivityFromActivityCard'] = michal;
     return entity;
 })();

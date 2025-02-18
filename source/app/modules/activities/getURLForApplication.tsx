@@ -1,93 +1,93 @@
 // app/modules/activities/getURLForApplication.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    mike = function(argFoo) { // Original name: getNonTestModeUrlForApplication
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    michal = function(argFoo) { // Original name: getNonTestModeUrlForApplication
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = global;
-            entity = mike.window;
+            michal = global;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            oscar = entity.ACTIVITY_APPLICATION_HOST;
+            oscard = entity.ACTIVITY_APPLICATION_HOST;
             entity = null;
-            zulu = entity == oscar;
-            if(zulu) { _fun00002_ip = 60; continue _fun00001 }
+            zuuluu = entity == oscard;
+            if(zuuluu) { _fun00002_ip = 60; continue _fun00001 }
  29:
-            mike = mike.HermesInternal;
-            report = mike.concat;
-            tango = 'https://';
-            zulu = argFoo;
-            mike = '.';
-            entity = report.bind(tango)(zulu, mike, oscar);
+            michal = michal.HermesInternal;
+            report = michal.concat;
+            tangon = 'https://';
+            zuuluu = argFoo;
+            michal = '.';
+            entity = report.bind(tangon)(zuuluu, michal, oscard);
  60:
             return entity;
         }
     };
-    var _closure1_slot2 = mike;
+    var _closure1_slot2 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    report = oscar[entity];
+    report = oscard[entity];
     entity = undefined;
-    report = golf.bind(entity)(report);
+    report = golfie.bind(entity)(report);
     var _closure1_slot0 = report;
     report = 1;
-    report = oscar[report];
-    report = golf.bind(entity)(report);
+    report = oscard[report];
+    report = golfie.bind(entity)(report);
     var _closure1_slot1 = report;
     report = 2;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/activities/getURLForApplication.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: getURLForApplication
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: getURLForApplication
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            mike = _closure1_slot1;
-            entity = mike.getState;
-            mike = entity.bind(mike)();
-            entity = mike.useActivityUrlOverride;
+            michal = _closure1_slot1;
+            entity = michal.getState;
+            michal = entity.bind(michal)();
+            entity = michal.useActivityUrlOverride;
             if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  29:
-            tango = mike.activityUrlOverride;
+            tangon = michal.activityUrlOverride;
             entity = null;
-            if(!(entity != tango)) { _fun00004_ip = 55; continue _fun00003 }
+            if(!(entity != tangon)) { _fun00004_ip = 55; continue _fun00003 }
  41:
-            tango = mike.activityUrlOverride;
+            tangon = michal.activityUrlOverride;
             entity = '';
-            if(!(entity === tango)) { _fun00004_ip = 102; continue _fun00003 }
+            if(!(entity === tangon)) { _fun00004_ip = 102; continue _fun00003 }
  55:
-            tango = _closure1_slot0;
-            entity = tango.inTestModeForEmbeddedApplication;
-            entity = entity.bind(tango)(report);
+            tangon = _closure1_slot0;
+            entity = tangon.inTestModeForEmbeddedApplication;
+            entity = entity.bind(tangon)(report);
             if(entity) { _fun00004_ip = 88; continue _fun00003 }
  75:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             entity = undefined;
-            entity = tango.bind(entity)(report);
+            entity = tangon.bind(entity)(report);
             _fun00004_ip = 100; continue _fun00003;
  88:
-            zulu = _closure1_slot0;
-            entity = zulu.testModeOriginURL;
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.testModeOriginURL;
  100:
             _fun00004_ip = 108; continue _fun00003;
  102:
-            entity = mike.activityUrlOverride;
+            entity = michal.activityUrlOverride;
  108:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['getNonTestModeUrlForApplication'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getNonTestModeUrlForApplication'] = michal;
     return entity;
 })();

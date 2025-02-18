@@ -1,42 +1,42 @@
 // app/modules/app_launcher/hooks/useSortedSectionCommands.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    golf = argCorge;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = options;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    option = argBaz;
+    golfie = argCor;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, tango);
+    entity = verify.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = options.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.CommandListSortOrder;
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/hooks/useSortedSectionCommands.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSortedSectionCommands
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.CommandListSortOrder;
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/hooks/useSortedSectionCommands.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSortedSectionCommands
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -45,120 +45,120 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.commandsByActiveSection;
             var _closure2_slot1 = entity;
             yankee = _closure1_slot4;
-            zulu = yankee.useState;
-            golf = _closure1_slot5;
-            mike = golf.ALPHABETICAL;
-            tango = zulu.bind(yankee)(mike);
-            zulu = _closure1_slot3;
+            zuuluu = yankee.useState;
+            golfie = _closure1_slot5;
+            michal = golfie.ALPHABETICAL;
+            tangon = zuuluu.bind(yankee)(michal);
+            zuuluu = _closure1_slot3;
             offset = undefined;
-            mike = 2;
-            zulu = zulu.bind(offset)(tango, mike);
-            mike = 0;
-            report = zulu[mike];
-            mike = 1;
-            tango = zulu[mike];
-            var _closure2_slot2 = tango;
-            zulu = yankee.useMemo;
-            mike = new Array(2);
-            mike[0] = entity;
-            mike[1] = verify;
+            michal = 2;
+            zuuluu = zuuluu.bind(offset)(tangon, michal);
+            michal = 0;
+            report = zuuluu[michal];
+            michal = 1;
+            tangon = zuuluu[michal];
+            var _closure2_slot2 = tangon;
+            zuuluu = yankee.useMemo;
+            michal = new Array(2);
+            michal[0] = entity;
+            michal[1] = verify;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot1;
-                    mike = zulu.find;
+                    zuuluu = _closure2_slot1;
+                    michal = zuuluu.find;
                     entity = function(argFoo) {
                         entity = argFoo;
                         entity = entity.section;
-                        mike = entity.id;
+                        michal = entity.id;
                         entity = _closure2_slot0;
-                        entity = mike === entity;
+                        entity = michal === entity;
                         return entity;
                     };
-                    zulu = mike.bind(zulu)(entity);
-                    mike = null;
-                    tango = mike == zulu;
+                    zuuluu = michal.bind(zuuluu)(entity);
+                    michal = null;
+                    tangon = michal == zuuluu;
                     entity = undefined;
-                    if(tango) { _fun00004_ip = 42; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 42; continue _fun00003 }
  37:
-                    entity = zulu.data;
+                    entity = zuuluu.data;
  42:
-                    if(!(mike == entity)) { _fun00004_ip = 50; continue _fun00003 }
+                    if(!(michal == entity)) { _fun00004_ip = 50; continue _fun00003 }
  46:
                     entity = new Array(0);
  50:
                     return entity;
                 }
             };
-            entity = zulu.bind(yankee)(entity, mike);
-            zulu = {};
-            zulu['alphabeticalSortedCommands'] = entity;
-            mike = function(argFoo) { // Original name: usePopularSortedCommands
-                mike = argFoo;
-                report = mike.alphabeticalSortedCommands;
+            entity = zuuluu.bind(yankee)(entity, michal);
+            zuuluu = {};
+            zuuluu['alphabeticalSortedCommands'] = entity;
+            michal = function(argFoo) { // Original name: usePopularSortedCommands
+                michal = argFoo;
+                report = michal.alphabeticalSortedCommands;
                 var _closure3_slot0 = report;
-                tango = _closure1_slot4;
-                zulu = tango.useMemo;
-                mike = new Array(1);
-                mike[0] = report;
+                tangon = _closure1_slot4;
+                zuuluu = tangon.useMemo;
+                michal = new Array(1);
+                michal[0] = report;
                 entity = function() {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = _closure3_slot0;
-                        zulu = entity.length;
+                        zuuluu = entity.length;
                         entity = 1;
-                        if(!(!(zulu <= entity))) { _fun00006_ip = 128; continue _fun00005 }
+                        if(!(!(zuuluu <= entity))) { _fun00006_ip = 128; continue _fun00005 }
  21:
                         entity = false;
                         var _closure4_slot0 = entity;
-                        oscar = _closure3_slot0;
-                        report = oscar.map;
-                        zulu = function(argFoo, argBar) {
+                        oscard = _closure3_slot0;
+                        report = oscard.map;
+                        zuuluu = function(argFoo, argBar) {
                             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                                mike = argFoo;
+                                michal = argFoo;
                                 entity = _closure4_slot0;
                                 if(entity) { _fun00008_ip = 25; continue _fun00007 }
  13:
-                                report = mike.global_popularity_rank;
-                                tango = null;
-                                entity = tango != report;
+                                report = michal.global_popularity_rank;
+                                tangon = null;
+                                entity = tangon != report;
  25:
                                 _closure4_slot0 = entity;
                                 entity = {};
-                                entity['command'] = mike;
-                                mike = argBar;
-                                entity['alphabeticalSortIndex'] = mike;
+                                entity['command'] = michal;
+                                michal = argBar;
+                                entity['alphabeticalSortIndex'] = michal;
                                 return entity;
                             }
                         };
-                        oscar = report.bind(oscar)(zulu);
+                        oscard = report.bind(oscard)(zuuluu);
                         report = _closure4_slot0;
-                        zulu = {};
+                        zuuluu = {};
                         if(report) { _fun00006_ip = 76; continue _fun00005 }
  57:
                         report = _closure3_slot0;
-                        zulu['popularSortedCommands'] = report;
-                        zulu['canSort'] = entity;
-                        entity = zulu;
+                        zuuluu['popularSortedCommands'] = report;
+                        zuuluu['canSort'] = entity;
+                        entity = zuuluu;
                         _fun00006_ip = 126; continue _fun00005;
  76:
-                        golf = oscar.sort;
+                        golfie = oscard.sort;
                         report = function(argFoo, argBar) {
                             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                                tango = argFoo;
-                                zulu = argBar;
-                                entity = tango.command;
-                                mike = entity.global_popularity_rank;
-                                entity = zulu.command;
+                                tangon = argFoo;
+                                zuuluu = argBar;
+                                entity = tangon.command;
+                                michal = entity.global_popularity_rank;
+                                entity = zuuluu.command;
                                 entity = entity.global_popularity_rank;
                                 report = null;
-                                if(!(report != mike)) { _fun00010_ip = 40; continue _fun00009 }
+                                if(!(report != michal)) { _fun00010_ip = 40; continue _fun00009 }
  36:
                                 if(!(report == entity)) { _fun00010_ip = 61; continue _fun00009 }
  40:
-                                if(!(report == mike)) { _fun00010_ip = 53; continue _fun00009 }
+                                if(!(report == michal)) { _fun00010_ip = 53; continue _fun00009 }
  44:
                                 if(!(report != entity)) { _fun00010_ip = 65; continue _fun00009 }
  48:
@@ -168,106 +168,106 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 report = -1;
                                 return report;
  61:
-                                if(!(mike === entity)) { _fun00010_ip = 83; continue _fun00009 }
+                                if(!(michal === entity)) { _fun00010_ip = 83; continue _fun00009 }
  65:
-                                tango = tango.alphabeticalSortIndex;
-                                zulu = zulu.alphabeticalSortIndex;
-                                zulu = tango - zulu;
-                                return zulu;
+                                tangon = tangon.alphabeticalSortIndex;
+                                zuuluu = zuuluu.alphabeticalSortIndex;
+                                zuuluu = tangon - zuuluu;
+                                return zuuluu;
  83:
-                                entity = mike - entity;
+                                entity = michal - entity;
                                 return entity;
                             }
                         };
-                        report = golf.bind(oscar)(report);
-                        report = oscar.map;
-                        tango = function(argFoo) {
+                        report = golfie.bind(oscard)(report);
+                        report = oscard.map;
+                        tangon = function(argFoo) {
                             entity = argFoo;
                             entity = entity.command;
                             return entity;
                         };
-                        tango = report.bind(oscar)(tango);
-                        zulu['popularSortedCommands'] = tango;
-                        tango = true;
-                        zulu['canSort'] = tango;
-                        entity = zulu;
+                        tangon = report.bind(oscard)(tangon);
+                        zuuluu['popularSortedCommands'] = tangon;
+                        tangon = true;
+                        zuuluu['canSort'] = tangon;
+                        entity = zuuluu;
  126:
                         return entity;
  128:
                         entity = {};
-                        mike = _closure3_slot0;
-                        entity['popularSortedCommands'] = mike;
-                        mike = false;
-                        entity['canSort'] = mike;
+                        michal = _closure3_slot0;
+                        entity['popularSortedCommands'] = michal;
+                        michal = false;
+                        entity['canSort'] = michal;
                         return entity;
                     }
                 };
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
-            mike = mike.bind(offset)(zulu);
-            zulu = mike.popularSortedCommands;
-            mike = mike.canSort;
-            var _closure2_slot3 = mike;
-            romeo = yankee.useEffect;
+            michal = michal.bind(offset)(zuuluu);
+            zuuluu = michal.popularSortedCommands;
+            michal = michal.canSort;
+            var _closure2_slot3 = michal;
+            romeon = yankee.useEffect;
             offset = new Array(1);
             offset[0] = verify;
             verify = function() {
-                zulu = _closure1_slot1;
-                options = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                option = _closure1_slot2;
                 entity = 3;
-                mike = options[entity];
+                michal = option[entity];
                 entity = undefined;
-                report = zulu.bind(entity)(mike);
-                tango = report.getApplication;
-                zulu = _closure2_slot0;
-                mike = {};
-                golf = _closure1_slot0;
-                oscar = 4;
-                oscar = options[oscar];
-                oscar = golf.bind(entity)(oscar);
-                oscar = oscar.Millis;
-                oscar = oscar.DAY;
-                mike['dontRefetchMs'] = oscar;
-                mike = tango.bind(report)(zulu, mike);
+                report = zuuluu.bind(entity)(michal);
+                tangon = report.getApplication;
+                zuuluu = _closure2_slot0;
+                michal = {};
+                golfie = _closure1_slot0;
+                oscard = 4;
+                oscard = option[oscard];
+                oscard = golfie.bind(entity)(oscard);
+                oscard = oscard.Millis;
+                oscard = oscard.DAY;
+                michal['dontRefetchMs'] = oscard;
+                michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            verify = romeo.bind(yankee)(verify, offset);
+            verify = romeon.bind(yankee)(verify, offset);
             offset = yankee.useLayoutEffect;
             verify = new Array(1);
-            verify[0] = mike;
-            options = function() {
+            verify[0] = michal;
+            option = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    mike = _closure2_slot3;
-                    if(!mike) { _fun00012_ip = 34; continue _fun00011 }
+                    michal = _closure2_slot3;
+                    if(!michal) { _fun00012_ip = 34; continue _fun00011 }
  10:
-                    zulu = _closure2_slot2;
+                    zuuluu = _closure2_slot2;
                     entity = _closure1_slot5;
-                    mike = entity.POPULAR;
+                    michal = entity.POPULAR;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
  34:
                     entity = undefined;
                     return entity;
                 }
             };
-            options = offset.bind(yankee)(options, verify);
-            golf = golf.POPULAR;
-            if(!(golf !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            option = offset.bind(yankee)(option, verify);
+            golfie = golfie.POPULAR;
+            if(!(golfie !== report)) { _fun00002_ip = 225; continue _fun00001 }
  212:
-            oscar = _closure1_slot5;
-            oscar = oscar.ALPHABETICAL;
-            zulu = entity;
+            oscard = _closure1_slot5;
+            oscard = oscard.ALPHABETICAL;
+            zuuluu = entity;
  225:
             entity = {};
             entity['sortOrder'] = report;
-            entity['setSortOrder'] = tango;
-            entity['commands'] = zulu;
-            entity['canSort'] = mike;
+            entity['setSortOrder'] = tangon;
+            entity['commands'] = zuuluu;
+            entity['canSort'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

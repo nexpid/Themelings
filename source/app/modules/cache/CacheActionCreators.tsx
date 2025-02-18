@@ -1,150 +1,150 @@
 // app/modules/cache/CacheActionCreators.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: _writeCaches
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* () {
+        tangon = _closure1_slot2;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    golf = arguments[0];
+                    golfie = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 171; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 171; continue _fun00001 }
  13:
                     report = undefined;
-                    if(!(golf === report)) { _fun00002_ip = 21; continue _fun00001 }
+                    if(!(golfie === report)) { _fun00002_ip = 21; continue _fun00001 }
  19:
-                    golf = false;
+                    golfie = false;
  21:
                     SaveGenerator(address=25);
  23:
                     return report;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 168; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 168; continue _fun00001 }
  34:
-                    oscar = _closure1_slot4;
-                    zulu = oscar.canWriteCaches;
-                    zulu = zulu.bind(oscar)(golf);
-                    if(!zulu) { _fun00002_ip = 159; continue _fun00001 }
+                    oscard = _closure1_slot4;
+                    zuuluu = oscard.canWriteCaches;
+                    zuuluu = zuuluu.bind(oscard)(golfie);
+                    if(!zuuluu) { _fun00002_ip = 159; continue _fun00001 }
  57:
-                    oscar = _closure1_slot3;
-                    zulu = oscar.loadAllMissingChannels;
-                    zulu = zulu.bind(oscar)();
+                    oscard = _closure1_slot3;
+                    zuuluu = oscard.loadAllMissingChannels;
+                    zuuluu = zuuluu.bind(oscard)();
                     SaveGenerator(address=75);
  73:
-                    return zulu;
+                    return zuuluu;
  75:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 165; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 165; continue _fun00001 }
  81:
-                    golf = new Array(0);
-                    oscar = _closure1_slot0;
-                    options = _closure1_slot1;
-                    tango = 3;
-                    tango = options[tango];
-                    options = oscar.bind(report)(tango);
-                    oscar = options.dispatch;
-                    tango = {};
+                    golfie = new Array(0);
+                    oscard = _closure1_slot0;
+                    option = _closure1_slot1;
+                    tangon = 3;
+                    tangon = option[tangon];
+                    option = oscard.bind(report)(tangon);
+                    oscard = option.dispatch;
+                    tangon = {};
                     verify = 'WRITE_CACHES';
-                    tango['type'] = verify;
-                    tango['promisesToWaitOn'] = golf;
-                    tango = oscar.bind(options)(tango);
-                    tango = global;
-                    oscar = tango.Promise;
-                    tango = oscar.all;
-                    tango = tango.bind(oscar)(golf);
+                    tangon['type'] = verify;
+                    tangon['promisesToWaitOn'] = golfie;
+                    tangon = oscard.bind(option)(tangon);
+                    tangon = global;
+                    oscard = tangon.Promise;
+                    tangon = oscard.all;
+                    tangon = tangon.bind(oscard)(golfie);
                     SaveGenerator(address=153);
  151:
-                    return tango;
+                    return tangon;
  153:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 162; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 162; continue _fun00001 }
  159:
                     return report;
  162:
-                    return tango;
+                    return tangon;
  165:
-                    return zulu;
+                    return zuuluu;
  168:
-                    return mike;
+                    return michal;
  171:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ChannelLoader;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/cache/CacheActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: writeCaches
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ChannelLoader;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/cache/CacheActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: writeCaches
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['writeCaches'] = tango;
-    mike = function() { // Original name: clearCaches
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['writeCaches'] = tangon;
+    michal = function() { // Original name: clearCaches
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {'type': 'CLEAR_CACHES', 'reason': 'Requested by user', 'preventWritingCachesAgainThisSession': true, 'resetSocket': true};
-        mike = zulu.bind(tango)(mike);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {'type': 'CLEAR_CACHES', 'reason': 'Requested by user', 'preventWritingCachesAgainThisSession': true, 'resetSocket': true};
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearCaches'] = mike;
+    zuuluu['clearCaches'] = michal;
     return entity;
 })();

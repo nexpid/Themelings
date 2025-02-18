@@ -1,159 +1,159 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/useHappeningNowScrollBehavior.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    oscar = report[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/happening_now/useHappeningNowScrollBehavior.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: useHappeningNowScrollBehavior
-        golf = argFoo;
-        oscar = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    oscard = report[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/happening_now/useHappeningNowScrollBehavior.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: useHappeningNowScrollBehavior
+        golfie = argFoo;
+        oscard = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot1;
-        tango = report.useState;
-        zulu = false;
-        options = tango.bind(report)(zulu);
-        tango = _closure1_slot0;
-        zulu = undefined;
-        mike = 2;
-        tango = tango.bind(zulu)(options, mike);
-        mike = 0;
-        mike = tango[mike];
-        zulu = 1;
-        zulu = tango[zulu];
-        var _closure2_slot2 = zulu;
-        tango = report.useCallback;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        zulu[1] = oscar;
+        tangon = report.useState;
+        zuuluu = false;
+        option = tangon.bind(report)(zuuluu);
+        tangon = _closure1_slot0;
+        zuuluu = undefined;
+        michal = 2;
+        tangon = tangon.bind(zuuluu)(option, michal);
+        michal = 0;
+        michal = tangon[michal];
+        zuuluu = 1;
+        zuuluu = tangon[zuuluu];
+        var _closure2_slot2 = zuuluu;
+        tangon = report.useCallback;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
         entity = function(argFoo) {
-            mike = argFoo;
+            michal = argFoo;
             report = _closure2_slot2;
-            entity = mike.nativeEvent;
+            entity = michal.nativeEvent;
             entity = entity.contentOffset;
-            tango = entity.x;
+            tangon = entity.x;
             entity = _closure2_slot0;
-            tango = tango < entity;
+            tangon = tangon < entity;
             entity = undefined;
-            tango = report.bind(entity)(tango);
-            tango = _closure2_slot1;
-            zulu = mike.nativeEvent;
-            zulu = zulu.contentOffset;
-            zulu = zulu.x;
-            mike = mike.nativeEvent;
-            mike = mike.layoutMeasurement;
-            mike = mike.width;
-            mike = tango.bind(entity)(zulu, mike);
+            tangon = report.bind(entity)(tangon);
+            tangon = _closure2_slot1;
+            zuuluu = michal.nativeEvent;
+            zuuluu = zuuluu.contentOffset;
+            zuuluu = zuuluu.x;
+            michal = michal.nativeEvent;
+            michal = michal.layoutMeasurement;
+            michal = michal.width;
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        zulu = tango.bind(report)(entity, zulu);
+        zuuluu = tangon.bind(report)(entity, zuuluu);
         entity = new Array(2);
-        entity[0] = zulu;
-        entity[1] = mike;
+        entity[0] = zuuluu;
+        entity[1] = michal;
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: useHappeningNowScrollSnapping
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: useHappeningNowScrollSnapping
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
-            mike = verify.current;
-            options = null;
-            zulu = options == mike;
+            michal = verify.current;
+            option = null;
+            zuuluu = option == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 52; continue _fun00001 }
  19:
-            mike = mike.state;
-            zulu = options == mike;
+            michal = michal.state;
+            zuuluu = option == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 52; continue _fun00001 }
  33:
-            mike = mike.data;
-            zulu = options == mike;
+            michal = michal.data;
+            zuuluu = option == michal;
             entity = undefined;
-            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 52; continue _fun00001 }
  47:
-            entity = mike.length;
+            entity = michal.length;
  52:
-            mike = options != entity;
-            oscar = 0;
+            michal = option != entity;
+            oscard = 0;
             report = 0;
-            if(!mike) { _fun00002_ip = 66; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 66; continue _fun00001 }
  63:
             report = entity;
  66:
             entity = new Array(0);
-            offset = oscar < report;
-            tango = 0;
-            zulu = 0;
-            mike = undefined;
+            offset = oscard < report;
+            tangon = 0;
+            zuuluu = 0;
+            michal = undefined;
             if(!offset) { _fun00002_ip = 191; continue _fun00001 }
  83:
-            offset = options == verify;
+            offset = option == verify;
             yankee = undefined;
             if(offset) { _fun00002_ip = 158; continue _fun00001 }
  92:
             offset = verify.current;
-            romeo = options == offset;
-            mike = offset;
+            romeon = option == offset;
+            michal = offset;
             yankee = undefined;
-            if(romeo) { _fun00002_ip = 158; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 158; continue _fun00001 }
  109:
-            romeo = offset.recyclerlistview_unsafe;
-            offset = options == romeo;
-            mike = romeo;
+            romeon = offset.recyclerlistview_unsafe;
+            offset = option == romeon;
+            michal = romeon;
             yankee = undefined;
             if(offset) { _fun00002_ip = 158; continue _fun00001 }
  127:
-            offset = romeo.getLayout;
-            romeo = offset.bind(romeo)(zulu);
-            offset = options == romeo;
-            mike = romeo;
+            offset = romeon.getLayout;
+            romeon = offset.bind(romeon)(zuuluu);
+            offset = option == romeon;
+            michal = romeon;
             yankee = undefined;
             if(offset) { _fun00002_ip = 158; continue _fun00001 }
  150:
-            yankee = romeo.width;
-            mike = romeo;
+            yankee = romeon.width;
+            michal = romeon;
  158:
-            romeo = options != yankee;
+            romeon = option != yankee;
             offset = 0;
-            if(!romeo) { _fun00002_ip = 170; continue _fun00001 }
+            if(!romeon) { _fun00002_ip = 170; continue _fun00001 }
  167:
             offset = yankee;
  170:
             yankee = entity.push;
-            yankee = yankee.bind(entity)(tango);
-            tango = tango + offset;
-            zulu = zulu + 1;
-            if(zulu < report) { _fun00002_ip = 83; continue _fun00001 }
+            yankee = yankee.bind(entity)(tangon);
+            tangon = tangon + offset;
+            zuuluu = zuuluu + 1;
+            if(zuuluu < report) { _fun00002_ip = 83; continue _fun00001 }
  191:
             return entity;
         }
     };
-    zulu['useHappeningNowScrollSnapping'] = mike;
+    zuuluu['useHappeningNowScrollSnapping'] = michal;
     return entity;
 })();

@@ -1,63 +1,63 @@
 // app/modules/debug/getPushNotificationLogs.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/debug/getPushNotificationLogs.android.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getPushNotificationLogs
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 1;
-        zulu = zulu[mike];
-        mike = undefined;
-        zulu = tango.bind(mike)(zulu);
-        mike = zulu.getPushNotificationLogs;
-        tango = _closure1_slot2;
-        entity = tango.getId;
-        entity = entity.bind(tango)();
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.then;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/debug/getPushNotificationLogs.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getPushNotificationLogs
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        zuuluu = tangon.bind(michal)(zuuluu);
+        michal = zuuluu.getPushNotificationLogs;
+        tangon = _closure1_slot2;
+        entity = tangon.getId;
+        entity = entity.bind(tangon)();
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = global;
-                zulu = entity.JSON;
-                mike = zulu.parse;
+                zuuluu = entity.JSON;
+                michal = zuuluu.parse;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = entity.pushNotifications;
-                mike = null;
-                if(!(mike == entity)) { _fun00002_ip = 40; continue _fun00001 }
+                michal = null;
+                if(!(michal == entity)) { _fun00002_ip = 40; continue _fun00001 }
  36:
                 entity = new Array(0);
  40:
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

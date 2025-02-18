@@ -1,82 +1,82 @@
 // app/modules/launch_welcome/native/useLaunchWelcomeNux.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.create;
-    tango = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.create;
+    tangon = function() {
         entity = {};
-        mike = false;
-        entity['isNuxVisible'] = mike;
+        michal = false;
+        entity['isNuxVisible'] = michal;
         return entity;
     };
-    tango = golf.bind(options)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/launch_welcome/native/useLaunchWelcomeNux.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useLaunchWelcomeNuxVisible
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/launch_welcome/native/useLaunchWelcomeNux.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useLaunchWelcomeNuxVisible
         report = _closure1_slot3;
-        tango = undefined;
-        zulu = function(argFoo) {
+        tangon = undefined;
+        zuuluu = function(argFoo) {
             entity = argFoo;
             entity = entity.isNuxVisible;
             return entity;
         };
-        zulu = report.bind(tango)(zulu);
+        zuuluu = report.bind(tangon)(zuuluu);
         report = _closure1_slot2;
-        tango = report.useCallback;
-        mike = function(argFoo) {
-            mike = argFoo;
-            var _closure3_slot0 = mike;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = tango.bind(mike)(zulu);
-            mike = zulu.batchUpdates;
+        tangon = report.useCallback;
+        michal = function(argFoo) {
+            michal = argFoo;
+            var _closure3_slot0 = michal;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.batchUpdates;
             entity = function() {
-                zulu = _closure1_slot3;
-                mike = zulu.setState;
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = _closure3_slot0;
-                entity['isNuxVisible'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure3_slot0;
+                entity['isNuxVisible'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
         entity = new Array(0);
-        mike = tango.bind(report)(mike, entity);
+        michal = tangon.bind(report)(michal, entity);
         entity = {};
-        entity['isNuxVisible'] = zulu;
-        entity['setNuxVisible'] = mike;
+        entity['isNuxVisible'] = zuuluu;
+        entity['setNuxVisible'] = michal;
         return entity;
     };
-    zulu['useLaunchWelcomeNuxVisible'] = mike;
+    zuuluu['useLaunchWelcomeNuxVisible'] = michal;
     return entity;
 })();

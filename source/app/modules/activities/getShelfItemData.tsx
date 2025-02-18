@@ -1,82 +1,82 @@
 // app/modules/activities/getShelfItemData.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/getShelfItemData.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getShelfItemData
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/getShelfItemData.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getShelfItemData
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            golf = mike.applicationId;
-            var _closure2_slot0 = golf;
-            tango = mike.activityConfigs;
-            options = mike.applications;
+            michal = argFoo;
+            golfie = michal.applicationId;
+            var _closure2_slot0 = golfie;
+            tangon = michal.activityConfigs;
+            option = michal.applications;
             report = null;
-            mike = report == options;
-            zulu = undefined;
-            if(mike) { _fun00002_ip = 52; continue _fun00001 }
+            michal = report == option;
+            zuuluu = undefined;
+            if(michal) { _fun00002_ip = 52; continue _fun00001 }
  37:
-            oscar = options.find;
-            mike = function(argFoo) {
+            oscard = option.find;
+            michal = function(argFoo) {
                 entity = argFoo;
-                mike = entity.id;
+                michal = entity.id;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            zulu = oscar.bind(options)(mike);
+            zuuluu = oscard.bind(option)(michal);
  52:
-            if(!(report == zulu)) { _fun00002_ip = 74; continue _fun00001 }
+            if(!(report == zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
  56:
-            oscar = _closure1_slot0;
-            mike = oscar.getApplication;
-            zulu = mike.bind(oscar)(golf);
+            oscard = _closure1_slot0;
+            michal = oscard.getApplication;
+            zuuluu = michal.bind(oscard)(golfie);
  74:
-            mike = tango.find;
+            michal = tangon.find;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.application_id;
+                michal = entity.application_id;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            tango = mike.bind(tango)(entity);
-            mike = report == tango;
+            tangon = michal.bind(tangon)(entity);
+            michal = report == tangon;
             entity = null;
-            if(mike) { _fun00002_ip = 121; continue _fun00001 }
+            if(michal) { _fun00002_ip = 121; continue _fun00001 }
  98:
-            mike = report == zulu;
+            michal = report == zuuluu;
             entity = null;
-            if(mike) { _fun00002_ip = 121; continue _fun00001 }
+            if(michal) { _fun00002_ip = 121; continue _fun00001 }
  107:
-            mike = {};
-            mike['activity'] = tango;
-            mike['application'] = zulu;
-            entity = mike;
+            michal = {};
+            michal['activity'] = tangon;
+            michal['application'] = zuuluu;
+            entity = michal;
  121:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

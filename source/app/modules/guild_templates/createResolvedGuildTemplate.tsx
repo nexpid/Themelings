@@ -1,68 +1,68 @@
 // app/modules/guild_templates/createResolvedGuildTemplate.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildTemplateStates;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_templates/createResolvedGuildTemplate.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: createResolvedGuildTemplate
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildTemplateStates;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_templates/createResolvedGuildTemplate.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: createResolvedGuildTemplate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = {};
-            zulu = mike.code;
-            entity['code'] = zulu;
-            zulu = _closure1_slot0;
-            zulu = zulu.RESOLVED;
-            entity['state'] = zulu;
-            zulu = mike.name;
-            entity['name'] = zulu;
-            tango = mike.description;
-            zulu = null;
-            report = zulu != tango;
-            zulu = '';
+            zuuluu = michal.code;
+            entity['code'] = zuuluu;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.RESOLVED;
+            entity['state'] = zuuluu;
+            zuuluu = michal.name;
+            entity['name'] = zuuluu;
+            tangon = michal.description;
+            zuuluu = null;
+            report = zuuluu != tangon;
+            zuuluu = '';
             if(!report) { _fun00002_ip = 61; continue _fun00001 }
  58:
-            zulu = tango;
+            zuuluu = tangon;
  61:
-            entity['description'] = zulu;
-            zulu = mike.creator_id;
-            entity['creatorId'] = zulu;
-            zulu = mike.creator;
-            entity['creator'] = zulu;
-            zulu = mike.created_at;
-            entity['createdAt'] = zulu;
-            zulu = mike.updated_at;
-            entity['updatedAt'] = zulu;
-            zulu = mike.source_guild_id;
-            entity['sourceGuildId'] = zulu;
-            zulu = mike.serialized_source_guild;
-            entity['serializedSourceGuild'] = zulu;
-            zulu = mike.usage_count;
-            entity['usageCount'] = zulu;
-            mike = mike.is_dirty;
-            entity['isDirty'] = mike;
+            entity['description'] = zuuluu;
+            zuuluu = michal.creator_id;
+            entity['creatorId'] = zuuluu;
+            zuuluu = michal.creator;
+            entity['creator'] = zuuluu;
+            zuuluu = michal.created_at;
+            entity['createdAt'] = zuuluu;
+            zuuluu = michal.updated_at;
+            entity['updatedAt'] = zuuluu;
+            zuuluu = michal.source_guild_id;
+            entity['sourceGuildId'] = zuuluu;
+            zuuluu = michal.serialized_source_guild;
+            entity['serializedSourceGuild'] = zuuluu;
+            zuuluu = michal.usage_count;
+            entity['usageCount'] = zuuluu;
+            michal = michal.is_dirty;
+            entity['isDirty'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

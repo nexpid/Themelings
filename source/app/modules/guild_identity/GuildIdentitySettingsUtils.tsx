@@ -1,179 +1,179 @@
 // app/modules/guild_identity/GuildIdentitySettingsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_identity/GuildIdentitySettingsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityBio
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_identity/GuildIdentitySettingsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityBio
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.setPendingBio;
-            oscar = argBar;
-            mike = undefined;
-            if(!(report !== oscar)) { _fun00002_ip = 45; continue _fun00001 }
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.setPendingBio;
+            oscard = argBar;
+            michal = undefined;
+            if(!(report !== oscard)) { _fun00002_ip = 45; continue _fun00001 }
  42:
-            mike = report;
+            michal = report;
  45:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['setNewPendingGuildIdentityBio'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityPronouns
+    zuuluu['setNewPendingGuildIdentityBio'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityPronouns
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.setPendingPronouns;
-            oscar = argBar;
-            mike = undefined;
-            if(!(report !== oscar)) { _fun00004_ip = 45; continue _fun00003 }
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.setPendingPronouns;
+            oscard = argBar;
+            michal = undefined;
+            if(!(report !== oscard)) { _fun00004_ip = 45; continue _fun00003 }
  42:
-            mike = report;
+            michal = report;
  45:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['setNewPendingGuildIdentityPronouns'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setNewPendingNickname
+    zuuluu['setNewPendingGuildIdentityPronouns'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setNewPendingNickname
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
-            golf = argBar;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            golfie = argBar;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.setPendingNickname;
-            mike = undefined;
-            if(!(report !== golf)) { _fun00006_ip = 61; continue _fun00005 }
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.setPendingNickname;
+            michal = undefined;
+            if(!(report !== golfie)) { _fun00006_ip = 61; continue _fun00005 }
  42:
-            oscar = '';
-            if(!(oscar === report)) { _fun00006_ip = 58; continue _fun00005 }
+            oscard = '';
+            if(!(oscard === report)) { _fun00006_ip = 58; continue _fun00005 }
  50:
-            oscar = null;
-            mike = undefined;
-            if(!(oscar !== golf)) { _fun00006_ip = 61; continue _fun00005 }
+            oscard = null;
+            michal = undefined;
+            if(!(oscard !== golfie)) { _fun00006_ip = 61; continue _fun00005 }
  58:
-            mike = report;
+            michal = report;
  61:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['setNewPendingNickname'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityThemeColors
+    zuuluu['setNewPendingNickname'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setNewPendingGuildIdentityThemeColors
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
-            oscar = null;
-            zulu = oscar == report;
+            oscard = null;
+            zuuluu = oscard == report;
             entity = undefined;
-            mike = undefined;
-            if(zulu) { _fun00008_ip = 22; continue _fun00007 }
+            michal = undefined;
+            if(zuuluu) { _fun00008_ip = 22; continue _fun00007 }
  16:
-            zulu = 0;
-            mike = report[zulu];
+            zuuluu = 0;
+            michal = report[zuuluu];
  22:
-            mike = oscar == mike;
-            if(mike) { _fun00008_ip = 49; continue _fun00007 }
+            michal = oscard == michal;
+            if(michal) { _fun00008_ip = 49; continue _fun00007 }
  29:
-            tango = oscar == report;
-            zulu = undefined;
-            if(tango) { _fun00008_ip = 45; continue _fun00007 }
+            tangon = oscard == report;
+            zuuluu = undefined;
+            if(tangon) { _fun00008_ip = 45; continue _fun00007 }
  38:
-            tango = 1;
-            zulu = report[tango];
+            tangon = 1;
+            zuuluu = report[tangon];
  45:
-            mike = oscar == zulu;
+            michal = oscard == zuuluu;
  49:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 0;
-            zulu = golf[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.setPendingThemeColors;
-            if(!mike) { _fun00008_ip = 92; continue _fun00007 }
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 0;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.setPendingThemeColors;
+            if(!michal) { _fun00008_ip = 92; continue _fun00007 }
  80:
-            mike = argBar;
-            oscar = oscar == mike;
-            mike = undefined;
-            if(oscar) { _fun00008_ip = 95; continue _fun00007 }
+            michal = argBar;
+            oscard = oscard == michal;
+            michal = undefined;
+            if(oscard) { _fun00008_ip = 95; continue _fun00007 }
  92:
-            mike = report;
+            michal = report;
  95:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['setNewPendingGuildIdentityThemeColors'] = tango;
-    mike = function(argFoo, argBar) { // Original name: canResetThemeColors
+    zuuluu['setNewPendingGuildIdentityThemeColors'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: canResetThemeColors
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = argFoo;
-            zulu = undefined;
-            if(!(zulu !== report)) { _fun00010_ip = 55; continue _fun00009 }
+            zuuluu = undefined;
+            if(!(zuuluu !== report)) { _fun00010_ip = 55; continue _fun00009 }
  9:
-            mike = null;
-            tango = mike == report;
+            michal = null;
+            tangon = michal == report;
             entity = undefined;
-            if(tango) { _fun00010_ip = 26; continue _fun00009 }
+            if(tangon) { _fun00010_ip = 26; continue _fun00009 }
  20:
-            tango = 0;
-            entity = report[tango];
+            tangon = 0;
+            entity = report[tangon];
  26:
-            entity = mike != entity;
+            entity = michal != entity;
             if(!entity) { _fun00010_ip = 53; continue _fun00009 }
  33:
-            tango = mike == report;
-            zulu = undefined;
-            if(tango) { _fun00010_ip = 49; continue _fun00009 }
+            tangon = michal == report;
+            zuuluu = undefined;
+            if(tangon) { _fun00010_ip = 49; continue _fun00009 }
  42:
-            tango = 1;
-            zulu = report[tango];
+            tangon = 1;
+            zuuluu = report[tangon];
  49:
-            entity = mike != zulu;
+            entity = michal != zuuluu;
  53:
             _fun00010_ip = 64; continue _fun00009;
  55:
-            zulu = null;
-            mike = argBar;
-            entity = zulu != mike;
+            zuuluu = null;
+            michal = argBar;
+            entity = zuuluu != michal;
  64:
             return entity;
         }
     };
-    zulu['canResetThemeColors'] = mike;
+    zuuluu['canResetThemeColors'] = michal;
     return entity;
 })();

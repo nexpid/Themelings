@@ -1,87 +1,87 @@
 // app/modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useGuildsRouteGuildId
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useGuildsRouteGuildId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.useRoute;
-            mike = mike.bind(zulu)();
-            mike = mike.params;
-            zulu = null;
-            zulu = zulu == mike;
-            if(zulu) { _fun00002_ip = 54; continue _fun00001 }
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.useRoute;
+            michal = michal.bind(zuuluu)();
+            michal = michal.params;
+            zuuluu = null;
+            zuuluu = zuuluu == michal;
+            if(zuuluu) { _fun00002_ip = 54; continue _fun00001 }
  49:
-            entity = mike.guildId;
+            entity = michal.guildId;
  54:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function() { // Original name: useGuildsRouteGuildAndChannelId
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: useGuildsRouteGuildAndChannelId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = _closure1_slot0;
-            zulu = _closure1_slot1;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 0;
-            entity = zulu[entity];
+            entity = zuuluu[entity];
             report = undefined;
-            mike = mike.bind(report)(entity);
-            entity = mike.useRoute;
-            zulu = entity.bind(mike)();
-            tango = null;
-            entity = tango == zulu;
-            mike = undefined;
+            michal = michal.bind(report)(entity);
+            entity = michal.useRoute;
+            zuuluu = entity.bind(michal)();
+            tangon = null;
+            entity = tangon == zuuluu;
+            michal = undefined;
             if(entity) { _fun00004_ip = 65; continue _fun00003 }
  45:
-            entity = zulu.params;
-            oscar = tango == entity;
-            mike = undefined;
-            if(oscar) { _fun00004_ip = 65; continue _fun00003 }
+            entity = zuuluu.params;
+            oscard = tangon == entity;
+            michal = undefined;
+            if(oscard) { _fun00004_ip = 65; continue _fun00003 }
  60:
-            mike = entity.guildId;
+            michal = entity.guildId;
  65:
             entity = new Array(2);
-            entity[0] = mike;
-            oscar = tango == zulu;
-            mike = undefined;
-            if(oscar) { _fun00004_ip = 102; continue _fun00003 }
+            entity[0] = michal;
+            oscard = tangon == zuuluu;
+            michal = undefined;
+            if(oscard) { _fun00004_ip = 102; continue _fun00003 }
  82:
-            zulu = zulu.params;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00004_ip = 102; continue _fun00003 }
+            zuuluu = zuuluu.params;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 102; continue _fun00003 }
  97:
-            mike = zulu.channelId;
+            michal = zuuluu.channelId;
  102:
-            entity[1] = mike;
+            entity[1] = michal;
             return entity;
         }
     };
-    zulu['useGuildsRouteGuildAndChannelId'] = mike;
+    zuuluu['useGuildsRouteGuildAndChannelId'] = michal;
     return entity;
 })();

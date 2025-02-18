@@ -1,117 +1,117 @@
 // app/modules/app_database/util/Iterable.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = function() {
-        tango = _closure1_slot1;
-        zulu = function(argFoo) { // Original name: Chained
-            zulu = this;
-            tango = _closure1_slot0;
-            mike = _closure2_slot0;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function(argFoo) { // Original name: Chained
+            zuuluu = this;
+            tangon = _closure1_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = 0;
-            zulu['index'] = mike;
-            mike = argFoo;
-            zulu['items'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = 0;
+            zuuluu['index'] = michal;
+            michal = argFoo;
+            zuuluu['items'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = global;
-        mike = mike.Symbol;
-        mike = mike.iterator;
-        entity['key'] = mike;
-        mike = function() { // Original name: value
+        michal = global;
+        michal = michal.Symbol;
+        michal = michal.iterator;
+        entity['key'] = michal;
+        michal = function() { // Original name: value
             entity = this;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'next';
-        entity['key'] = oscar;
+        oscard = 'next';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = this;
-                mike = tango.index;
-                entity = tango.items;
+                tangon = this;
+                michal = tangon.index;
+                entity = tangon.items;
                 entity = entity.length;
-                zulu = 1;
-                if(!(mike < entity)) { _fun00002_ip = 95; continue _fun00001 }
+                zuuluu = 1;
+                if(!(michal < entity)) { _fun00002_ip = 95; continue _fun00001 }
  26:
-                mike = tango.items;
-                entity = tango.index;
-                mike = mike[entity];
-                entity = mike.next;
-                entity = entity.bind(mike)();
-                mike = entity.done;
-                if(mike) { _fun00002_ip = 60; continue _fun00001 }
+                michal = tangon.items;
+                entity = tangon.index;
+                michal = michal[entity];
+                entity = michal.next;
+                entity = entity.bind(michal)();
+                michal = entity.done;
+                if(michal) { _fun00002_ip = 60; continue _fun00001 }
  58:
                 return entity;
  60:
-                entity = tango.index;
-                entity = entity + zulu;
-                tango['index'] = entity;
-                mike = tango.index;
-                entity = tango.items;
+                entity = tangon.index;
+                entity = entity + zuuluu;
+                tangon['index'] = entity;
+                michal = tangon.index;
+                entity = tangon.items;
                 entity = entity.length;
-                if(mike < entity) { _fun00002_ip = 26; continue _fun00001 }
+                if(michal < entity) { _fun00002_ip = 26; continue _fun00001 }
  95:
                 entity = {};
-                mike = true;
-                entity['done'] = mike;
-                mike = undefined;
-                entity['value'] = mike;
+                michal = true;
+                entity['done'] = michal;
+                michal = undefined;
+                entity['value'] = michal;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/util/Iterable.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: chain
-        tango = 0;
-        tango = copyRestArgs(tango);
+    tangon = tangon.bind(entity)();
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/util/Iterable.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: chain
+        tangon = 0;
+        tangon = copyRestArgs(tangon);
         entity = _closure1_slot2;
-        mike = entity.prototype;
-        mike = Object.create(mike, {constructor: {value: entity}});
-        report = mike;
-        entity = new report[entity](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        michal = entity.prototype;
+        michal = Object.create(michal, {constructor: {value: entity}});
+        report = michal;
+        entity = new report[entity](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    zulu['chain'] = mike;
+    zuuluu['chain'] = michal;
     return entity;
 })();

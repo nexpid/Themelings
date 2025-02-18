@@ -1,122 +1,122 @@
 // app/modules/stage_channels/LiveStageNotificationsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/LiveStageNotificationsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useCanSendStageStartNotification
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/LiveStageNotificationsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useCanSendStageStartNotification
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot3;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot3;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                entity = entity != zulu;
+                entity = entity != zuuluu;
                 if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  16:
                 report = _closure1_slot3;
-                tango = report.can;
-                zulu = _closure1_slot4;
-                zulu = zulu.MENTION_EVERYONE;
-                mike = _closure2_slot0;
-                entity = tango.bind(report)(zulu, mike);
+                tangon = report.can;
+                zuuluu = _closure1_slot4;
+                zuuluu = zuuluu.MENTION_EVERYONE;
+                michal = _closure2_slot0;
+                entity = tangon.bind(report)(zuuluu, michal);
  49:
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useCanSendStageStartNotification'] = tango;
-    mike = function(argFoo) { // Original name: useDefaultSendStartStageNotificationToggle
+    zuuluu['useCanSendStageStartNotification'] = tangon;
+    michal = function(argFoo) { // Original name: useDefaultSendStartStageNotificationToggle
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            mike = null;
-            tango = mike == entity;
-            golf = undefined;
-            options = undefined;
-            if(tango) { _fun00004_ip = 23; continue _fun00003 }
+            michal = null;
+            tangon = michal == entity;
+            golfie = undefined;
+            option = undefined;
+            if(tangon) { _fun00004_ip = 23; continue _fun00003 }
  18:
-            options = entity.guild_id;
+            option = entity.guild_id;
  23:
-            var _closure2_slot0 = options;
-            oscar = _closure1_slot0;
+            var _closure2_slot0 = option;
+            oscard = _closure1_slot0;
             verify = _closure1_slot1;
             report = 3;
             report = verify[report];
-            golf = oscar.bind(golf)(report);
-            oscar = golf.useStateFromStores;
-            tango = _closure1_slot2;
+            golfie = oscard.bind(golfie)(report);
+            oscard = golfie.useStateFromStores;
+            tangon = _closure1_slot2;
             report = new Array(1);
-            report[0] = tango;
-            tango = new Array(1);
-            tango[0] = options;
-            zulu = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getMemberCount;
+            report[0] = tangon;
+            tangon = new Array(1);
+            tangon[0] = option;
+            zuuluu = function() {
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getMemberCount;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = oscar.bind(golf)(report, zulu, tango);
-            entity = mike == entity;
+            tangon = oscard.bind(golfie)(report, zuuluu, tangon);
+            entity = michal == entity;
             if(entity) { _fun00004_ip = 116; continue _fun00003 }
  96:
-            mike = mike == tango;
-            if(mike) { _fun00004_ip = 113; continue _fun00003 }
+            michal = michal == tangon;
+            if(michal) { _fun00004_ip = 113; continue _fun00003 }
  103:
-            zulu = 50000;
-            mike = tango > zulu;
+            zuuluu = 50000;
+            michal = tangon > zuuluu;
  113:
-            entity = !mike;
+            entity = !michal;
  116:
             return entity;
         }
     };
-    zulu['useDefaultSendStartStageNotificationToggle'] = mike;
+    zuuluu['useDefaultSendStartStageNotificationToggle'] = michal;
     return entity;
 })();

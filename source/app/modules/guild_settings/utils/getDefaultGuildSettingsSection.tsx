@@ -1,65 +1,65 @@
 // app/modules/guild_settings/utils/getDefaultGuildSettingsSection.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildSettingsSections;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_settings/utils/getDefaultGuildSettingsSection.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getDefaultGuildSettingsSection
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildSettingsSections;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_settings/utils/getDefaultGuildSettingsSection.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getDefaultGuildSettingsSection
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = null;
             if(!(entity != report)) { _fun00002_ip = 82; continue _fun00001 }
  9:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.getIsGuildSettingsFoundationExperimentEnabled;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.getIsGuildSettingsFoundationExperimentEnabled;
             entity = {};
             entity['guildId'] = report;
             report = 'getDefaultGuildSettingsSection';
             entity['location'] = report;
-            entity = zulu.bind(tango)(entity);
-            mike = _closure1_slot2;
+            entity = zuuluu.bind(tangon)(entity);
+            michal = _closure1_slot2;
             if(entity) { _fun00002_ip = 74; continue _fun00001 }
  66:
-            entity = mike.OVERVIEW;
+            entity = michal.OVERVIEW;
             _fun00002_ip = 80; continue _fun00001;
  74:
-            entity = mike.PROFILE;
+            entity = michal.PROFILE;
  80:
             _fun00002_ip = 95; continue _fun00001;
  82:
-            mike = _closure1_slot2;
-            entity = mike.OVERVIEW;
+            michal = _closure1_slot2;
+            entity = michal.OVERVIEW;
  95:
             return entity;
         }
     };
-    zulu['getDefaultGuildSettingsSection'] = mike;
+    zuuluu['getDefaultGuildSettingsSection'] = michal;
     return entity;
 })();

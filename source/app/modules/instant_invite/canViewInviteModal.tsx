@@ -1,72 +1,72 @@
 // app/modules/instant_invite/canViewInviteModal.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/instant_invite/canViewInviteModal.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: canViewInviteModal
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/instant_invite/canViewInviteModal.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: canViewInviteModal
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
+            option = argFoo;
             report = argBar;
             entity = argBaz;
-            tango = argCorge;
-            zulu = null;
-            golf = report;
-            if(!(zulu != entity)) { _fun00002_ip = 24; continue _fun00001 }
+            tangon = argCor;
+            zuuluu = null;
+            golfie = report;
+            if(!(zuuluu != entity)) { _fun00002_ip = 24; continue _fun00001 }
  21:
-            golf = entity;
+            golfie = entity;
  24:
-            entity = zulu != golf;
+            entity = zuuluu != golfie;
             if(!entity) { _fun00002_ip = 56; continue _fun00001 }
  31:
-            oscar = options.can;
-            mike = _closure1_slot0;
-            mike = mike.CREATE_INSTANT_INVITE;
-            entity = oscar.bind(options)(mike, golf);
+            oscard = option.can;
+            michal = _closure1_slot0;
+            michal = michal.CREATE_INSTANT_INVITE;
+            entity = oscard.bind(option)(michal, golfie);
  56:
             if(entity) { _fun00002_ip = 79; continue _fun00001 }
  59:
-            mike = zulu != report;
-            if(!mike) { _fun00002_ip = 76; continue _fun00001 }
+            michal = zuuluu != report;
+            if(!michal) { _fun00002_ip = 76; continue _fun00001 }
  66:
             report = report.vanityURLCode;
-            mike = zulu != report;
+            michal = zuuluu != report;
  76:
-            entity = mike;
+            entity = michal;
  79:
             if(entity) { _fun00002_ip = 101; continue _fun00001 }
  82:
-            report = zulu == tango;
-            mike = undefined;
+            report = zuuluu == tangon;
+            michal = undefined;
             if(report) { _fun00002_ip = 97; continue _fun00001 }
  91:
-            mike = tango.invite_code;
+            michal = tangon.invite_code;
  97:
-            entity = zulu != mike;
+            entity = zuuluu != michal;
  101:
             return entity;
         }
     };
-    zulu['canViewInviteModal'] = mike;
+    zuuluu['canViewInviteModal'] = michal;
     return entity;
 })();

@@ -1,149 +1,149 @@
 // app/modules/activities/confirmActivityChangeAlert.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/confirmActivityChangeAlert.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: confirmActivityChangeModal
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/confirmActivityChangeAlert.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: confirmActivityChangeModal
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            foxtrot = argFoo;
+            foxtra = argFoo;
             yankee = argBar;
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             report = _closure1_slot2;
             entity = 0;
-            mike = report[entity];
+            michal = report[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.show;
-            mike = {};
-            oscar = _closure1_slot0;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.show;
+            michal = {};
+            oscard = _closure1_slot0;
             backup = 1;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            verify = golf.intl;
-            options = verify.string;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            golf = golf.t;
-            golf = golf.XkIWkp;
-            golf = options.bind(verify)(golf);
-            mike['title'] = golf;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            verify = golf.intl;
-            options = verify.string;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            golf = golf.t;
-            golf = golf.ETE/oK;
-            golf = options.bind(verify)(golf);
-            mike['cancelText'] = golf;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            verify = golf.intl;
-            options = verify.string;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            golf = golf.t;
-            golf = golf.cY+Ooa;
-            golf = options.bind(verify)(golf);
-            mike['confirmText'] = golf;
-            golf = argBaz;
-            mike['onConfirm'] = golf;
-            golf = argCorge;
-            mike['onCancel'] = golf;
-            golf = report[backup];
-            golf = oscar.bind(entity)(golf);
-            options = golf.intl;
-            golf = options.format;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            verify = golfie.intl;
+            option = verify.string;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.XkIWkp;
+            golfie = option.bind(verify)(golfie);
+            michal['title'] = golfie;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            verify = golfie.intl;
+            option = verify.string;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.ETE/oK;
+            golfie = option.bind(verify)(golfie);
+            michal['cancelText'] = golfie;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            verify = golfie.intl;
+            option = verify.string;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.cY+Ooa;
+            golfie = option.bind(verify)(golfie);
+            michal['confirmText'] = golfie;
+            golfie = argBaz;
+            michal['onConfirm'] = golfie;
+            golfie = argCor;
+            michal['onCancel'] = golfie;
+            golfie = report[backup];
+            golfie = oscard.bind(entity)(golfie);
+            option = golfie.intl;
+            golfie = option.format;
             report = report[backup];
-            report = oscar.bind(entity)(report);
+            report = oscard.bind(entity)(report);
             report = report.t;
-            oscar = report.5/Xorq;
+            oscard = report.5/Xorq;
             report = {};
             verify = null;
-            kilo = verify == foxtrot;
-            romeo = undefined;
-            if(kilo) { _fun00002_ip = 268; continue _fun00001 }
+            kiloes = verify == foxtra;
+            romeon = undefined;
+            if(kiloes) { _fun00002_ip = 268; continue _fun00001 }
  263:
-            romeo = foxtrot.name;
+            romeon = foxtra.name;
  268:
-            if(!(verify == romeo)) { _fun00002_ip = 326; continue _fun00001 }
+            if(!(verify == romeon)) { _fun00002_ip = 326; continue _fun00001 }
  272:
             output = _closure1_slot0;
-            foxtrot = _closure1_slot2;
-            kilo = foxtrot[backup];
-            kilo = output.bind(entity)(kilo);
-            sizing = kilo.intl;
-            kilo = sizing.string;
-            foxtrot = foxtrot[backup];
-            foxtrot = output.bind(entity)(foxtrot);
-            foxtrot = foxtrot.t;
-            foxtrot = foxtrot.G99XFh;
-            romeo = kilo.bind(sizing)(foxtrot);
+            foxtra = _closure1_slot2;
+            kiloes = foxtra[backup];
+            kiloes = output.bind(entity)(kiloes);
+            sizing = kiloes.intl;
+            kiloes = sizing.string;
+            foxtra = foxtra[backup];
+            foxtra = output.bind(entity)(foxtra);
+            foxtra = foxtra.t;
+            foxtra = foxtra.G99XFh;
+            romeon = kiloes.bind(sizing)(foxtra);
  326:
-            report['currentApplicationName'] = romeo;
-            foxtrot = _closure1_slot0;
-            kilo = _closure1_slot2;
-            romeo = 2;
-            romeo = kilo[romeo];
-            kilo = foxtrot.bind(entity)(romeo);
-            foxtrot = kilo.isNullOrEmpty;
+            report['currentApplicationName'] = romeon;
+            foxtra = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            romeon = 2;
+            romeon = kiloes[romeon];
+            kiloes = foxtra.bind(entity)(romeon);
+            foxtra = kiloes.isNullOrEmpty;
             sizing = verify == yankee;
-            romeo = undefined;
+            romeon = undefined;
             if(sizing) { _fun00002_ip = 373; continue _fun00001 }
  368:
-            romeo = yankee.name;
+            romeon = yankee.name;
  373:
-            romeo = foxtrot.bind(kilo)(romeo);
-            if(romeo) { _fun00002_ip = 397; continue _fun00001 }
+            romeon = foxtra.bind(kiloes)(romeon);
+            if(romeon) { _fun00002_ip = 397; continue _fun00001 }
  381:
-            romeo = verify == yankee;
+            romeon = verify == yankee;
             verify = undefined;
-            if(romeo) { _fun00002_ip = 395; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 395; continue _fun00001 }
  390:
             verify = yankee.name;
  395:
             _fun00002_ip = 451; continue _fun00001;
  397:
-            foxtrot = _closure1_slot0;
+            foxtra = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[backup];
-            yankee = foxtrot.bind(entity)(yankee);
-            romeo = yankee.intl;
-            yankee = romeo.string;
+            yankee = foxtra.bind(entity)(yankee);
+            romeon = yankee.intl;
+            yankee = romeon.string;
             offset = offset[backup];
-            offset = foxtrot.bind(entity)(offset);
+            offset = foxtra.bind(entity)(offset);
             offset = offset.t;
             offset = offset.OGUjmp;
-            verify = yankee.bind(romeo)(offset);
+            verify = yankee.bind(romeon)(offset);
  451:
             report['currentApplicationChannelName'] = verify;
-            report = golf.bind(options)(oscar, report);
-            mike['body'] = report;
-            mike = zulu.bind(tango)(mike);
+            report = golfie.bind(option)(oscard, report);
+            michal['body'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

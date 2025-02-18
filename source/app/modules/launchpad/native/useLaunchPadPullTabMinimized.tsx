@@ -1,149 +1,149 @@
 // app/modules/launchpad/native/useLaunchPadPullTabMinimized.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
+        zuuluu = argFre;
+        oscard = argPlu;
         var _closure1_slot0 = report;
-        var _closure1_slot1 = oscar;
+        var _closure1_slot1 = oscard;
         entity = global;
-        options = entity.Object;
-        golf = options.defineProperty;
-        tango = {};
+        option = entity.Object;
+        golfie = option.defineProperty;
+        tangon = {};
         entity = true;
-        tango['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = golf.bind(options)(zulu, entity, tango);
+        entity = golfie.bind(option)(zuuluu, entity, tangon);
         entity = 0;
-        golf = oscar[entity];
-        tango = argCorge;
+        golfie = oscard[entity];
+        tangon = argCor;
         entity = undefined;
-        tango = tango.bind(entity)(golf);
-        var _closure1_slot2 = tango;
-        tango = 1;
-        tango = oscar[tango];
-        tango = report.bind(entity)(tango);
-        verify = tango.NativeEventEmitter;
-        tango = tango.NativeModules;
-        golf = tango.DCDScrollTracker;
-        tango = undefined;
-        if(!golf) { _fun00002_ip = 131; continue _fun00001 }
+        tangon = tangon.bind(entity)(golfie);
+        var _closure1_slot2 = tangon;
+        tangon = 1;
+        tangon = oscard[tangon];
+        tangon = report.bind(entity)(tangon);
+        verify = tangon.NativeEventEmitter;
+        tangon = tangon.NativeModules;
+        golfie = tangon.DCDScrollTracker;
+        tangon = undefined;
+        if(!golfie) { _fun00002_ip = 131; continue _fun00001 }
  108:
-        options = verify.prototype;
-        options = Object.create(options, {constructor: {value: verify}});
-        foxtrot = options;
-        romeo = golf;
-        golf = new foxtrot[verify](romeo, yankee);
-        tango = golf instanceof Object ? golf : options;
+        option = verify.prototype;
+        option = Object.create(option, {constructor: {value: verify}});
+        foxtra = option;
+        romeon = golfie;
+        golfie = new foxtra[verify](romeon, yankee);
+        tangon = golfie instanceof Object ? golfie : option;
  131:
-        var _closure1_slot3 = tango;
-        tango = {};
-        golf = 'function useLaunchPadPullTabMinimizedTsx1(){const{launchPadPullTabState,isVoicePanelOpen,launchPadSharedState,isMinimizedDuringScroll}=this.__closure;const isMinimized=(launchPadPullTabState.get().minimized||isVoicePanelOpen)&&launchPadSharedState.get()<=0;return isMinimized||isMinimizedDuringScroll.get();}';
-        tango['code'] = golf;
-        var _closure1_slot4 = tango;
-        tango = 4;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/launchpad/native/useLaunchPadPullTabMinimized.tsx';
-        tango = report.bind(oscar)(tango);
-        mike = function(argFoo) { // Original name: useLaunchPadPullTabMinimized
-            mike = argFoo;
-            golf = mike.launchPadSharedState;
-            var _closure2_slot0 = golf;
-            verify = mike.launchPadPullTabState;
+        var _closure1_slot3 = tangon;
+        tangon = {};
+        golfie = 'function useLaunchPadPullTabMinimizedTsx1(){const{launchPadPullTabState,isVoicePanelOpen,launchPadSharedState,isMinimizedDuringScroll}=this.__closure;const isMinimized=(launchPadPullTabState.get().minimized||isVoicePanelOpen)&&launchPadSharedState.get()<=0;return isMinimized||isMinimizedDuringScroll.get();}';
+        tangon['code'] = golfie;
+        var _closure1_slot4 = tangon;
+        tangon = 4;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/launchpad/native/useLaunchPadPullTabMinimized.tsx';
+        tangon = report.bind(oscard)(tangon);
+        michal = function(argFoo) { // Original name: useLaunchPadPullTabMinimized
+            michal = argFoo;
+            golfie = michal.launchPadSharedState;
+            var _closure2_slot0 = golfie;
+            verify = michal.launchPadPullTabState;
             var _closure2_slot1 = verify;
             report = _closure1_slot0;
             offset = _closure1_slot1;
-            mike = 3;
-            mike = offset[mike];
-            zulu = undefined;
-            oscar = report.bind(zulu)(mike);
-            mike = oscar.useIsVoicePanelFullscreen;
-            options = mike.bind(oscar)();
-            var _closure2_slot2 = options;
-            mike = function() { // Original name: useIsMinimizedDuringScroll
+            michal = 3;
+            michal = offset[michal];
+            zuuluu = undefined;
+            oscard = report.bind(zuuluu)(michal);
+            michal = oscard.useIsVoicePanelFullscreen;
+            option = michal.bind(oscard)();
+            var _closure2_slot2 = option;
+            michal = function() { // Original name: useIsMinimizedDuringScroll
                 report = _closure1_slot0;
-                tango = _closure1_slot1;
+                tangon = _closure1_slot1;
                 entity = 2;
-                tango = tango[entity];
+                tangon = tangon[entity];
                 entity = undefined;
-                report = report.bind(entity)(tango);
-                tango = report.useSharedValue;
+                report = report.bind(entity)(tangon);
+                tangon = report.useSharedValue;
                 entity = false;
-                entity = tango.bind(report)(entity);
+                entity = tangon.bind(report)(entity);
                 var _closure3_slot0 = entity;
                 report = _closure1_slot2;
-                tango = report.useEffect;
-                zulu = new Array(1);
-                zulu[0] = entity;
-                mike = function() {
+                tangon = report.useEffect;
+                zuuluu = new Array(1);
+                zuuluu[0] = entity;
+                michal = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        mike = -1;
-                        var _closure4_slot0 = mike;
-                        tango = _closure1_slot3;
-                        mike = null;
-                        tango = mike == tango;
-                        mike = undefined;
-                        if(tango) { _fun00004_ip = 59; continue _fun00003 }
+                        michal = -1;
+                        var _closure4_slot0 = michal;
+                        tangon = _closure1_slot3;
+                        michal = null;
+                        tangon = michal == tangon;
+                        michal = undefined;
+                        if(tangon) { _fun00004_ip = 59; continue _fun00003 }
  30:
-                        oscar = _closure1_slot3;
-                        report = oscar.addListener;
-                        tango = 'isScrollingOrDragging';
-                        zulu = function(argFoo) {
+                        oscard = _closure1_slot3;
+                        report = oscard.addListener;
+                        tangon = 'isScrollingOrDragging';
+                        zuuluu = function(argFoo) {
                             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                 entity = argFoo;
-                                tango = entity.isScrollingOrDragging;
-                                mike = global;
-                                oscar = mike.clearTimeout;
+                                tangon = entity.isScrollingOrDragging;
+                                michal = global;
+                                oscard = michal.clearTimeout;
                                 report = _closure4_slot0;
                                 entity = undefined;
-                                report = oscar.bind(entity)(report);
-                                if(tango) { _fun00006_ip = 69; continue _fun00005 }
+                                report = oscard.bind(entity)(report);
+                                if(tangon) { _fun00006_ip = 69; continue _fun00005 }
  36:
-                                report = mike.setTimeout;
-                                tango = function() {
-                                    zulu = _closure3_slot0;
-                                    mike = zulu.set;
+                                report = michal.setTimeout;
+                                tangon = function() {
+                                    zuuluu = _closure3_slot0;
+                                    michal = zuuluu.set;
                                     entity = false;
-                                    entity = mike.bind(zulu)(entity);
+                                    entity = michal.bind(zuuluu)(entity);
                                     entity = undefined;
                                     return entity;
                                 };
-                                mike = 1000;
-                                mike = report.bind(entity)(tango, mike);
-                                _closure4_slot0 = mike;
+                                michal = 1000;
+                                michal = report.bind(entity)(tangon, michal);
+                                _closure4_slot0 = michal;
                                 _fun00006_ip = 88; continue _fun00005;
  69:
-                                tango = _closure3_slot0;
-                                zulu = tango.set;
-                                mike = true;
-                                mike = zulu.bind(tango)(mike);
+                                tangon = _closure3_slot0;
+                                zuuluu = tangon.set;
+                                michal = true;
+                                michal = zuuluu.bind(tangon)(michal);
  88:
                                 return entity;
                             }
                         };
-                        mike = report.bind(oscar)(tango, zulu);
+                        michal = report.bind(oscard)(tangon, zuuluu);
  59:
-                        var _closure4_slot1 = mike;
+                        var _closure4_slot1 = michal;
                         entity = function() {
                             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                                 entity = global;
-                                tango = entity.clearTimeout;
-                                zulu = _closure4_slot0;
+                                tangon = entity.clearTimeout;
+                                zuuluu = _closure4_slot0;
                                 entity = undefined;
-                                zulu = tango.bind(entity)(zulu);
-                                tango = _closure4_slot1;
-                                zulu = null;
-                                if(!(zulu != tango)) { _fun00008_ip = 46; continue _fun00007 }
+                                zuuluu = tangon.bind(entity)(zuuluu);
+                                tangon = _closure4_slot1;
+                                zuuluu = null;
+                                if(!(zuuluu != tangon)) { _fun00008_ip = 46; continue _fun00007 }
  32:
-                                zulu = _closure4_slot1;
-                                mike = zulu.remove;
-                                mike = mike.bind(zulu)();
+                                zuuluu = _closure4_slot1;
+                                michal = zuuluu.remove;
+                                michal = michal.bind(zuuluu)();
  46:
                                 return entity;
                             }
@@ -151,21 +151,21 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         return entity;
                     }
                 };
-                mike = tango.bind(report)(mike, zulu);
+                michal = tangon.bind(report)(michal, zuuluu);
                 return entity;
             };
-            oscar = mike.bind(zulu)();
-            var _closure2_slot3 = oscar;
-            mike = 2;
-            mike = offset[mike];
-            zulu = report.bind(zulu)(mike);
-            mike = zulu.useDerivedValue;
+            oscard = michal.bind(zuuluu)();
+            var _closure2_slot3 = oscard;
+            michal = 2;
+            michal = offset[michal];
+            zuuluu = report.bind(zuuluu)(michal);
+            michal = zuuluu.useDerivedValue;
             entity = function() { // Original name: u
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                    zulu = _closure2_slot1;
-                    entity = zulu.get;
-                    entity = entity.bind(zulu)();
+                    zuuluu = _closure2_slot1;
+                    entity = zuuluu.get;
+                    entity = entity.bind(zuuluu)();
                     entity = entity.minimized;
                     if(entity) { _fun00010_ip = 29; continue _fun00009 }
  25:
@@ -173,35 +173,35 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  29:
                     if(!entity) { _fun00010_ip = 51; continue _fun00009 }
  32:
-                    tango = _closure2_slot0;
-                    zulu = tango.get;
-                    tango = zulu.bind(tango)();
-                    zulu = 0;
-                    entity = tango <= zulu;
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.get;
+                    tangon = zuuluu.bind(tangon)();
+                    zuuluu = 0;
+                    entity = tangon <= zuuluu;
  51:
                     if(entity) { _fun00010_ip = 67; continue _fun00009 }
  54:
-                    zulu = _closure2_slot3;
-                    mike = zulu.get;
-                    entity = mike.bind(zulu)();
+                    zuuluu = _closure2_slot3;
+                    michal = zuuluu.get;
+                    entity = michal.bind(zuuluu)();
  67:
                     return entity;
                 }
             };
             report = {};
             report['launchPadPullTabState'] = verify;
-            report['isVoicePanelOpen'] = options;
-            report['launchPadSharedState'] = golf;
-            report['isMinimizedDuringScroll'] = oscar;
+            report['isVoicePanelOpen'] = option;
+            report['launchPadSharedState'] = golfie;
+            report['isMinimizedDuringScroll'] = oscard;
             entity['__closure'] = report;
             report = 14263056934448.0;
             entity['__workletHash'] = report;
-            tango = _closure1_slot4;
-            entity['__initData'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure1_slot4;
+            entity['__initData'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu['default'] = mike;
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

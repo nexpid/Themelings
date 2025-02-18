@@ -1,66 +1,66 @@
 // app/modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: showLongPressForumPostActionSheet
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: showLongPressForumPostActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[2];
+            michal = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 37; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 37; continue _fun00001 }
  9:
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zulu = 0;
-            zulu = report[zulu];
-            zulu = tango.bind(entity)(zulu);
-            mike = zulu.hideActionSheet;
+            zuuluu = 0;
+            zuuluu = report[zuuluu];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            michal = zuuluu.hideActionSheet;
  37:
-            oscar = _closure1_slot1;
-            zulu = _closure1_slot2;
+            oscard = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             report = 0;
-            report = zulu[report];
-            oscar = oscar.bind(entity)(report);
-            report = oscar.openLazy;
-            golf = _closure1_slot0;
-            tango = 2;
-            tango = zulu[tango];
-            golf = golf.bind(entity)(tango);
-            tango = 1;
-            tango = zulu[tango];
-            zulu = zulu.paths;
-            tango = golf.bind(entity)(tango, zulu);
-            zulu = {};
-            golf = argFoo;
-            zulu['thread'] = golf;
-            golf = argBar;
-            zulu['parentChannel'] = golf;
-            zulu['onClose'] = mike;
-            mike = 'ForumPostLongPressActionSheet';
-            mike = report.bind(oscar)(tango, mike, zulu);
+            report = zuuluu[report];
+            oscard = oscard.bind(entity)(report);
+            report = oscard.openLazy;
+            golfie = _closure1_slot0;
+            tangon = 2;
+            tangon = zuuluu[tangon];
+            golfie = golfie.bind(entity)(tangon);
+            tangon = 1;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            tangon = golfie.bind(entity)(tangon, zuuluu);
+            zuuluu = {};
+            golfie = argFoo;
+            zuuluu['thread'] = golfie;
+            golfie = argBar;
+            zuuluu['parentChannel'] = golfie;
+            zuuluu['onClose'] = michal;
+            michal = 'ForumPostLongPressActionSheet';
+            michal = report.bind(oscard)(tangon, michal, zuuluu);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,49 +1,49 @@
 // app/utils/callOnce.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'utils/callOnce.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: callOnce
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = false;
-        var _closure2_slot2 = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'utils/callOnce.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: callOnce
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = false;
+        var _closure2_slot2 = michal;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                options = 0;
-                mike = copyRestArgs(options);
-                zulu = _closure2_slot2;
-                if(zulu) { _fun00002_ip = 58; continue _fun00001 }
+                option = 0;
+                michal = copyRestArgs(option);
+                zuuluu = _closure2_slot2;
+                if(zuuluu) { _fun00002_ip = 58; continue _fun00001 }
  16:
-                zulu = true;
-                _closure2_slot2 = zulu;
-                tango = _closure2_slot0;
-                zulu = new Array(0);
-                options = zulu;
-                golf = mike;
-                oscar = 0;
-                mike = arraySpread(options, golf, oscar);
-                oscar = undefined;
-                options = tango;
-                golf = zulu;
-                mike = apply(options, golf, oscar);
-                var _closure2_slot1 = mike;
+                zuuluu = true;
+                _closure2_slot2 = zuuluu;
+                tangon = _closure2_slot0;
+                zuuluu = new Array(0);
+                option = zuuluu;
+                golfie = michal;
+                oscard = 0;
+                michal = arraySpread(option, golfie, oscard);
+                oscard = undefined;
+                option = tangon;
+                golfie = zuuluu;
+                michal = apply(option, golfie, oscard);
+                var _closure2_slot1 = michal;
  58:
                 entity = _closure2_slot1;
                 return entity;
@@ -51,6 +51,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         };
         return entity;
     };
-    zulu['callOnce'] = mike;
+    zuuluu['callOnce'] = michal;
     return entity;
 })();

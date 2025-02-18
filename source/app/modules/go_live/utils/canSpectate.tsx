@@ -1,31 +1,31 @@
 // app/modules/go_live/utils/canSpectate.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    tango = argBar;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    tangon = argBar;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, mike);
+    entity = oscard.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = report[entity];
+    michal = report[entity];
     entity = undefined;
-    mike = tango.bind(entity)(mike);
-    mike = mike.Features;
-    mike = 1;
-    mike = report[mike];
-    report = tango.bind(entity)(mike);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/go_live/utils/canSpectate.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: canSpectate
+    michal = tangon.bind(entity)(michal);
+    michal = michal.Features;
+    michal = 1;
+    michal = report[michal];
+    report = tangon.bind(entity)(michal);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/go_live/utils/canSpectate.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: canSpectate
         entity = true;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

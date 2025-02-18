@@ -1,61 +1,61 @@
 // app/modules/app_database/modules/messages/requireSortedDescending.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 2;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/modules/messages/requireSortedDescending.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: requireSortedDescending
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/modules/messages/requireSortedDescending.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: requireSortedDescending
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             entity = _closure1_slot1;
             report = 0;
-            zulu = entity[report];
+            zuuluu = entity[report];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            oscar = verify.length;
-            zulu = 2;
-            zulu = oscar <= zulu;
-            if(zulu) { _fun00002_ip = 105; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            oscard = verify.length;
+            zuuluu = 2;
+            zuuluu = oscard <= zuuluu;
+            if(zuuluu) { _fun00002_ip = 105; continue _fun00001 }
  42:
-            oscar = _closure1_slot0;
-            mike = _closure1_slot1;
+            oscard = _closure1_slot0;
+            michal = _closure1_slot1;
             offset = 1;
-            mike = mike[offset];
-            options = oscar.bind(entity)(mike);
-            golf = options.compare;
-            mike = verify[report];
-            oscar = mike.id;
-            mike = verify.length;
-            mike = mike - offset;
-            mike = verify[mike];
-            mike = mike.id;
-            mike = golf.bind(options)(oscar, mike);
-            zulu = mike >= report;
+            michal = michal[offset];
+            option = oscard.bind(entity)(michal);
+            golfie = option.compare;
+            michal = verify[report];
+            oscard = michal.id;
+            michal = verify.length;
+            michal = michal - offset;
+            michal = verify[michal];
+            michal = michal.id;
+            michal = golfie.bind(option)(oscard, michal);
+            zuuluu = michal >= report;
  105:
-            mike = 'messages must be sorted in descending order.';
-            mike = tango.bind(entity)(zulu, mike);
+            michal = 'messages must be sorted in descending order.';
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['requireSortedDescending'] = mike;
+    zuuluu['requireSortedDescending'] = michal;
     return entity;
 })();

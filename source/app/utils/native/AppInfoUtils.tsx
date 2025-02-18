@@ -1,51 +1,51 @@
 // app/utils/native/AppInfoUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(tango);
-    tango = golf.getConstants;
-    tango = tango.bind(golf)();
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/native/AppInfoUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getAppMajorVersion
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.getConstants;
+    tangon = tangon.bind(golfie)();
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/native/AppInfoUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getAppMajorVersion
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
-            tango = undefined;
-            if(!(tango !== mike)) { _fun00002_ip = 76; continue _fun00001 }
+            michal = _closure1_slot0;
+            tangon = undefined;
+            if(!(tangon !== michal)) { _fun00002_ip = 76; continue _fun00001 }
  13:
             entity = _closure1_slot0;
-            zulu = entity.Version;
-            mike = zulu.split;
+            zuuluu = entity.Version;
+            michal = zuuluu.split;
             entity = '.';
-            report = mike.bind(zulu)(entity);
-            zulu = report.length;
+            report = michal.bind(zuuluu)(entity);
+            zuuluu = report.length;
             entity = -1;
-            mike = 2;
-            if(!(mike === zulu)) { _fun00002_ip = 74; continue _fun00001 }
+            michal = 2;
+            if(!(michal === zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
  55:
-            mike = global;
-            zulu = mike.Number;
-            mike = 0;
-            mike = report[mike];
-            entity = zulu.bind(tango)(mike);
+            michal = global;
+            zuuluu = michal.Number;
+            michal = 0;
+            michal = report[michal];
+            entity = zuuluu.bind(tangon)(michal);
  74:
             return entity;
  76:
@@ -53,6 +53,6 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getAppMajorVersion'] = mike;
+    zuuluu['getAppMajorVersion'] = michal;
     return entity;
 })();

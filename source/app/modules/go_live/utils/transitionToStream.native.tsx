@@ -1,67 +1,67 @@
 // app/modules/go_live/utils/transitionToStream.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/go_live/utils/transitionToStream.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: transitionToStream
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/go_live/utils/transitionToStream.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: transitionToStream
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot3;
-            zulu = tango.getChannel;
-            mike = argFoo;
-            mike = mike.channelId;
-            tango = zulu.bind(tango)(mike);
-            mike = null;
-            if(!(mike != tango)) { _fun00002_ip = 119; continue _fun00001 }
+            tangon = _closure1_slot3;
+            zuuluu = tangon.getChannel;
+            michal = argFoo;
+            michal = michal.channelId;
+            tangon = zuuluu.bind(tangon)(michal);
+            michal = null;
+            if(!(michal != tangon)) { _fun00002_ip = 119; continue _fun00001 }
  31:
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             report = _closure1_slot2;
-            mike = 1;
-            mike = report[mike];
-            zulu = undefined;
-            golf = oscar.bind(zulu)(mike);
-            mike = golf.hideActionSheet;
-            mike = mike.bind(golf)();
-            mike = 2;
-            mike = report[mike];
-            oscar = oscar.bind(zulu)(mike);
-            mike = oscar.popAll;
-            mike = mike.bind(oscar)();
-            mike = _closure1_slot0;
+            michal = 1;
+            michal = report[michal];
+            zuuluu = undefined;
+            golfie = oscard.bind(zuuluu)(michal);
+            michal = golfie.hideActionSheet;
+            michal = michal.bind(golfie)();
+            michal = 2;
+            michal = report[michal];
+            oscard = oscard.bind(zuuluu)(michal);
+            michal = oscard.popAll;
+            michal = michal.bind(oscard)();
+            michal = _closure1_slot0;
             entity = 3;
             entity = report[entity];
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.openGuildVoiceModal;
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.openGuildVoiceModal;
             entity = 'Go Live';
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
  119:
             entity = undefined;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

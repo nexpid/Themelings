@@ -1,78 +1,78 @@
 // app/modules/safety_education/hooks/useCanSeeSafetyEducationBlockMuteCoachmark.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/safety_education/hooks/useCanSeeSafetyEducationBlockMuteCoachmark.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/safety_education/hooks/useCanSeeSafetyEducationBlockMuteCoachmark.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 1;
-            entity = golf[entity];
-            oscar = undefined;
-            mike = tango.bind(oscar)(entity);
-            entity = mike.useIsSafetyConsumerEducationBlockMuteEnabled;
-            entity = entity.bind(mike)();
-            mike = 2;
-            mike = golf[mike];
-            verify = tango.bind(oscar)(mike);
-            options = verify.useStateFromStores;
-            mike = _closure1_slot2;
+            entity = golfie[entity];
+            oscard = undefined;
+            michal = tangon.bind(oscard)(entity);
+            entity = michal.useIsSafetyConsumerEducationBlockMuteEnabled;
+            entity = entity.bind(michal)();
+            michal = 2;
+            michal = golfie[michal];
+            verify = tangon.bind(oscard)(michal);
+            option = verify.useStateFromStores;
+            michal = _closure1_slot2;
             report = new Array(1);
-            report[0] = mike;
-            mike = function() {
-                mike = _closure1_slot2;
-                entity = mike.getCurrentUser;
-                entity = entity.bind(mike)();
+            report[0] = michal;
+            michal = function() {
+                michal = _closure1_slot2;
+                entity = michal.getCurrentUser;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            report = options.bind(verify)(report, mike);
-            mike = 3;
-            mike = golf[mike];
-            tango = tango.bind(oscar)(mike);
-            mike = tango.useUserIsInLargeGuilds;
-            mike = mike.bind(tango)();
+            report = option.bind(verify)(report, michal);
+            michal = 3;
+            michal = golfie[michal];
+            tangon = tangon.bind(oscard)(michal);
+            michal = tangon.useUserIsInLargeGuilds;
+            michal = michal.bind(tangon)();
             if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  104:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 4;
-            zulu = golf[zulu];
-            tango = tango.bind(oscar)(zulu);
-            zulu = tango.isNewUser;
-            zulu = zulu.bind(tango)(report);
-            entity = !zulu;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 4;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(oscard)(zuuluu);
+            zuuluu = tangon.isNewUser;
+            zuuluu = zuuluu.bind(tangon)(report);
+            entity = !zuuluu;
  138:
             if(!entity) { _fun00002_ip = 144; continue _fun00001 }
  141:
-            entity = mike;
+            entity = michal;
  144:
             return entity;
         }
     };
-    zulu['useCanSeeSafetyEducationBlockMuteCoachmark'] = mike;
+    zuuluu['useCanSeeSafetyEducationBlockMuteCoachmark'] = michal;
     return entity;
 })();

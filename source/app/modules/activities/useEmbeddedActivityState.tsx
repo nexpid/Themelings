@@ -1,151 +1,151 @@
 // app/modules/activities/useEmbeddedActivityState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/useEmbeddedActivityState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useEmbeddedActivityState
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot2;
-        zulu = tango.getId;
-        zulu = zulu.bind(tango)();
-        var _closure2_slot1 = zulu;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/useEmbeddedActivityState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useEmbeddedActivityState
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.getId;
+        zuuluu = zuuluu.bind(tangon)();
+        var _closure2_slot1 = zuuluu;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStoresObject;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                oscar = _closure1_slot3;
-                mike = oscar.getSelfEmbeddedActivityForChannel;
-                zulu = _closure2_slot0;
-                tango = mike.bind(oscar)(zulu);
-                var _closure3_slot0 = tango;
-                mike = oscar.getEmbeddedActivitiesForChannel;
-                oscar = mike.bind(oscar)(zulu);
-                zulu = oscar.find;
-                mike = function(argFoo) {
+                oscard = _closure1_slot3;
+                michal = oscard.getSelfEmbeddedActivityForChannel;
+                zuuluu = _closure2_slot0;
+                tangon = michal.bind(oscard)(zuuluu);
+                var _closure3_slot0 = tangon;
+                michal = oscard.getEmbeddedActivitiesForChannel;
+                oscard = michal.bind(oscard)(zuuluu);
+                zuuluu = oscard.find;
+                michal = function(argFoo) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
-                        mike = entity.applicationId;
-                        tango = _closure3_slot0;
+                        michal = entity.applicationId;
+                        tangon = _closure3_slot0;
                         entity = null;
-                        tango = entity == tango;
+                        tangon = entity == tangon;
                         entity = undefined;
-                        if(tango) { _fun00004_ip = 35; continue _fun00003 }
+                        if(tangon) { _fun00004_ip = 35; continue _fun00003 }
  26:
-                        zulu = _closure3_slot0;
-                        entity = zulu.applicationId;
+                        zuuluu = _closure3_slot0;
+                        entity = zuuluu.applicationId;
  35:
-                        entity = mike === entity;
+                        entity = michal === entity;
                         return entity;
                     }
                 };
-                oscar = zulu.bind(oscar)(mike);
-                mike = null;
-                golf = mike == oscar;
-                zulu = undefined;
-                if(golf) { _fun00002_ip = 74; continue _fun00001 }
+                oscard = zuuluu.bind(oscard)(michal);
+                michal = null;
+                golfie = michal == oscard;
+                zuuluu = undefined;
+                if(golfie) { _fun00002_ip = 74; continue _fun00001 }
  68:
-                zulu = oscar.participants;
+                zuuluu = oscard.participants;
  74:
-                if(!(mike == zulu)) { _fun00002_ip = 124; continue _fun00001 }
+                if(!(michal == zuuluu)) { _fun00002_ip = 124; continue _fun00001 }
  78:
-                golf = mike == oscar;
-                zulu = undefined;
-                if(golf) { _fun00002_ip = 93; continue _fun00001 }
+                golfie = michal == oscard;
+                zuuluu = undefined;
+                if(golfie) { _fun00002_ip = 93; continue _fun00001 }
  87:
-                zulu = oscar.userIds;
+                zuuluu = oscard.userIds;
  93:
-                golf = mike != zulu;
-                zulu = false;
-                if(!golf) { _fun00002_ip = 167; continue _fun00001 }
+                golfie = michal != zuuluu;
+                zuuluu = false;
+                if(!golfie) { _fun00002_ip = 167; continue _fun00001 }
  102:
-                verify = oscar.userIds;
-                golf = verify.has;
+                verify = oscard.userIds;
+                golfie = verify.has;
                 entity = _closure2_slot1;
-                zulu = golf.bind(verify)(entity);
+                zuuluu = golfie.bind(verify)(entity);
                 _fun00002_ip = 167; continue _fun00001;
  124:
-                golf = mike == oscar;
+                golfie = michal == oscard;
                 entity = undefined;
-                if(golf) { _fun00002_ip = 163; continue _fun00001 }
+                if(golfie) { _fun00002_ip = 163; continue _fun00001 }
  133:
-                golf = oscar.participants;
-                oscar = mike == golf;
+                golfie = oscard.participants;
+                oscard = michal == golfie;
                 entity = undefined;
-                if(oscar) { _fun00002_ip = 163; continue _fun00001 }
+                if(oscard) { _fun00002_ip = 163; continue _fun00001 }
  148:
-                oscar = golf.find;
+                oscard = golfie.find;
                 report = function(argFoo) {
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 3;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    zulu = zulu.bind(entity)(mike);
-                    mike = zulu.isActivityParticipantCurrentUserCurrentSession;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.isActivityParticipantCurrentUserCurrentSession;
                     entity = argFoo;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                entity = oscar.bind(golf)(report);
+                entity = oscard.bind(golfie)(report);
  163:
-                zulu = mike != entity;
+                zuuluu = michal != entity;
  167:
                 entity = {};
-                entity['userActivity'] = tango;
-                mike = mike != zulu;
-                if(!mike) { _fun00002_ip = 184; continue _fun00001 }
+                entity['userActivity'] = tangon;
+                michal = michal != zuuluu;
+                if(!michal) { _fun00002_ip = 184; continue _fun00001 }
  181:
-                mike = zulu;
+                michal = zuuluu;
  184:
-                entity['inActivity'] = mike;
+                entity['inActivity'] = michal;
                 return entity;
             }
         };
-        mike = zulu.bind(tango)(mike, entity);
+        michal = zuuluu.bind(tangon)(michal, entity);
         entity = {};
-        zulu = mike.userActivity;
-        entity['userActivity'] = zulu;
-        mike = mike.inActivity;
-        entity['inActivity'] = mike;
+        zuuluu = michal.userActivity;
+        entity['userActivity'] = zuuluu;
+        michal = michal.inActivity;
+        entity['inActivity'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

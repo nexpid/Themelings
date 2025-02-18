@@ -1,35 +1,35 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/FontScaleStore.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
-    tango = {'persistedFontScale': 1, 'persistedIsClassicChatFontScaleEnabled': false, 'fontScale': 1, 'isClassicChatFontScaleEnabled': false};
+    entity = report.bind(option)(zuuluu, entity, tangon);
+    tangon = {'persistedFontScale': 1, 'persistedIsClassicChatFontScaleEnabled': false, 'fontScale': 1, 'isClassicChatFontScaleEnabled': false};
     report = 1;
-    var _closure1_slot0 = tango;
+    var _closure1_slot0 = tangon;
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     entity = undefined;
-    verify = oscar.bind(entity)(options);
-    options = verify.createWithEqualityFn;
-    mike = function() {
+    verify = oscard.bind(entity)(option);
+    option = verify.createWithEqualityFn;
+    michal = function() {
         entity = _closure1_slot0;
         return entity;
     };
-    mike = options.bind(verify)(mike);
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    michal = option.bind(verify)(michal);
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/main_tabs_v2/native/settings/screens/appearance/FontScaleStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['DEFAULT_FONT_SCALE_STORE_STATE'] = tango;
-    zulu['useFontScaleStore'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['DEFAULT_FONT_SCALE_STORE_STATE'] = tangon;
+    zuuluu['useFontScaleStore'] = michal;
     return entity;
 })();

@@ -1,48 +1,48 @@
 // discord_common/js/shared/utils/SnowflakeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = verify;
-    oscar = function(argFoo) { // Original name: extractTimestamp
+    oscard = function(argFoo) { // Original name: extractTimestamp
         entity = global;
-        zulu = entity.Math;
-        mike = zulu.floor;
+        zuuluu = entity.Math;
+        michal = zuuluu.floor;
         report = entity.Number;
-        tango = undefined;
+        tangon = undefined;
         entity = argFoo;
-        tango = report.bind(tango)(entity);
+        tangon = report.bind(tangon)(entity);
         entity = 4194304;
-        entity = tango / entity;
-        mike = mike.bind(zulu)(entity);
+        entity = tangon / entity;
+        michal = michal.bind(zuuluu)(entity);
         entity = _closure1_slot4;
-        entity = mike + entity;
+        entity = michal + entity;
         return entity;
     };
-    var _closure1_slot6 = oscar;
+    var _closure1_slot6 = oscard;
     report = function(argFoo) { // Original name: fromTimestamp
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot4;
+            zuuluu = _closure1_slot4;
             entity = argFoo;
-            report = entity - zulu;
+            report = entity - zuuluu;
             entity = '0';
-            zulu = 0;
-            if(!(!(report <= zulu))) { _fun00002_ip = 77; continue _fun00001 }
+            zuuluu = 0;
+            if(!(!(report <= zuuluu))) { _fun00002_ip = 77; continue _fun00001 }
  26:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 2;
-            zulu = tango[zulu];
-            tango = undefined;
-            zulu = oscar.bind(tango)(zulu);
-            tango = zulu.bind(tango)(report);
-            zulu = tango.shiftLeft;
-            mike = _closure1_slot5;
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.toString;
-            entity = mike.bind(zulu)();
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            tangon = zuuluu.bind(tangon)(report);
+            zuuluu = tangon.shiftLeft;
+            michal = _closure1_slot5;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.toString;
+            entity = michal.bind(zuuluu)();
  77:
             return entity;
         }
@@ -50,232 +50,232 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot7 = report;
     entity = global;
     offset = entity.Object;
-    options = offset.defineProperty;
-    mike = {};
+    option = offset.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(offset)(zulu, entity, mike);
+    entity = option.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = verify[entity];
+    michal = verify[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = verify[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    golf = 1420070400000.0;
-    var _closure1_slot4 = golf;
-    mike = 22;
-    var _closure1_slot5 = mike;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = function() { // Original name: SnowflakeSequence
-            zulu = this;
-            tango = _closure1_slot2;
-            mike = _closure2_slot0;
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = verify[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    golfie = 1420070400000.0;
+    var _closure1_slot4 = golfie;
+    michal = 22;
+    var _closure1_slot5 = michal;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function() { // Original name: SnowflakeSequence
+            zuuluu = this;
+            tangon = _closure1_slot2;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = 0;
-            zulu['seq'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = 0;
+            zuuluu['seq'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'next';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
+        michal = 'next';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = this;
-                zulu = mike.seq;
+                michal = this;
+                zuuluu = michal.seq;
                 entity = 4095;
-                if(!(!(zulu > entity))) { _fun00004_ip = 39; continue _fun00003 }
+                if(!(!(zuuluu > entity))) { _fun00004_ip = 39; continue _fun00003 }
  19:
-                entity = mike.seq;
+                entity = michal.seq;
                 entity = parseFloat(entity);
-                zulu = entity + 1;
-                mike['seq'] = zulu;
+                zuuluu = entity + 1;
+                michal['seq'] = zuuluu;
                 return entity;
  39:
                 entity = global;
-                zulu = entity.Error;
-                tango = mike.seq;
+                zuuluu = entity.Error;
+                tangon = michal.seq;
                 entity = entity.HermesInternal;
-                mike = entity.concat;
+                michal = entity.concat;
                 entity = 'Snowflake sequence number overflow: ';
-                report = mike.bind(entity)(tango);
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                oscar = mike;
-                entity = new oscar[zulu](report, tango);
-                entity = entity instanceof Object ? entity : mike;
+                report = michal.bind(entity)(tangon);
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                oscard = michal;
+                entity = new oscard[zuuluu](report, tangon);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'reset';
-        entity['key'] = oscar;
+        oscard = 'reset';
+        entity['key'] = oscard;
         report = function() { // Original name: value
-            mike = 0;
+            michal = 0;
             entity = this;
-            entity['seq'] = mike;
+            entity['seq'] = michal;
             entity = undefined;
             return entity;
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    options = 3;
-    verify = verify[options];
-    options = argBar;
-    offset = options.bind(entity)(verify);
+    michal = michal.bind(entity)();
+    option = 3;
+    verify = verify[option];
+    option = argBar;
+    offset = option.bind(entity)(verify);
     verify = offset.fileFinishedImporting;
-    options = '../discord_common/js/shared/utils/SnowflakeUtils.tsx';
-    options = verify.bind(offset)(options);
-    zulu['DISCORD_EPOCH'] = golf;
-    golf = 4095;
-    zulu['MAX_SNOWFLAKE_SEQ'] = golf;
-    zulu['extractTimestamp'] = oscar;
-    zulu['fromTimestamp'] = report;
+    option = '../discord_common/js/shared/utils/SnowflakeUtils.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['DISCORD_EPOCH'] = golfie;
+    golfie = 4095;
+    zuuluu['MAX_SNOWFLAKE_SEQ'] = golfie;
+    zuuluu['extractTimestamp'] = oscard;
+    zuuluu['fromTimestamp'] = report;
     report = function(argFoo, argBar) { // Original name: fromTimestampWithSequence
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argBar;
-            zulu = _closure1_slot4;
-            mike = argFoo;
-            oscar = mike - zulu;
-            zulu = _closure1_slot0;
+            tangon = argBar;
+            zuuluu = _closure1_slot4;
+            michal = argFoo;
+            oscard = michal - zuuluu;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 2;
-            mike = report[mike];
+            michal = 2;
+            michal = report[michal];
             report = undefined;
-            zulu = zulu.bind(report)(mike);
-            mike = 0;
-            if(!(!(oscar <= mike))) { _fun00006_ip = 48; continue _fun00005 }
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = 0;
+            if(!(!(oscard <= michal))) { _fun00006_ip = 48; continue _fun00005 }
  45:
-            mike = oscar;
+            michal = oscard;
  48:
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.shiftLeft;
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.shiftLeft;
             entity = _closure1_slot5;
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.add;
-            entity = tango.next;
-            entity = entity.bind(tango)();
-            mike = mike.bind(zulu)(entity);
-            entity = mike.toString;
-            entity = entity.bind(mike)();
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.add;
+            entity = tangon.next;
+            entity = entity.bind(tangon)();
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.toString;
+            entity = entity.bind(michal)();
             return entity;
         }
     };
-    zulu['fromTimestampWithSequence'] = report;
+    zuuluu['fromTimestampWithSequence'] = report;
     report = function(argFoo) { // Original name: atPreviousMillisecond
-        zulu = _closure1_slot7;
-        tango = _closure1_slot6;
-        mike = undefined;
+        zuuluu = _closure1_slot7;
+        tangon = _closure1_slot6;
+        michal = undefined;
         entity = argFoo;
-        tango = tango.bind(mike)(entity);
+        tangon = tangon.bind(michal)(entity);
         entity = 1;
-        entity = tango - entity;
-        entity = zulu.bind(mike)(entity);
+        entity = tangon - entity;
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['atPreviousMillisecond'] = report;
+    zuuluu['atPreviousMillisecond'] = report;
     report = function(argFoo) { // Original name: age
         entity = global;
-        mike = entity.Date;
-        entity = mike.now;
-        mike = entity.bind(mike)();
-        tango = _closure1_slot6;
-        zulu = undefined;
+        michal = entity.Date;
+        entity = michal.now;
+        michal = entity.bind(michal)();
+        tangon = _closure1_slot6;
+        zuuluu = undefined;
         entity = argFoo;
-        entity = tango.bind(zulu)(entity);
-        entity = mike - entity;
+        entity = tangon.bind(zuuluu)(entity);
+        entity = michal - entity;
         return entity;
     };
-    zulu['age'] = report;
+    zuuluu['age'] = report;
     report = function(argFoo, argBar) { // Original name: compare
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             verify = argFoo;
-            options = argBar;
+            option = argBar;
             entity = 0;
-            if(!(verify !== options)) { _fun00008_ip = 108; continue _fun00007 }
+            if(!(verify !== option)) { _fun00008_ip = 108; continue _fun00007 }
  12:
-            zulu = null;
-            tango = zulu == options;
-            golf = 1;
-            mike = golf;
-            if(tango) { _fun00008_ip = 105; continue _fun00007 }
+            zuuluu = null;
+            tangon = zuuluu == option;
+            golfie = 1;
+            michal = golfie;
+            if(tangon) { _fun00008_ip = 105; continue _fun00007 }
  27:
-            tango = zulu == verify;
-            oscar = -1;
-            zulu = oscar;
-            if(tango) { _fun00008_ip = 102; continue _fun00007 }
+            tangon = zuuluu == verify;
+            oscard = -1;
+            zuuluu = oscard;
+            if(tangon) { _fun00008_ip = 102; continue _fun00007 }
  43:
             report = verify.length;
-            tango = options.length;
-            report = report > tango;
-            tango = golf;
+            tangon = option.length;
+            report = report > tangon;
+            tangon = golfie;
             if(report) { _fun00008_ip = 99; continue _fun00007 }
  63:
             offset = verify.length;
-            report = options.length;
+            report = option.length;
             offset = offset < report;
-            report = oscar;
+            report = oscard;
             if(offset) { _fun00008_ip = 96; continue _fun00007 }
  83:
-            options = verify > options;
-            if(!options) { _fun00008_ip = 93; continue _fun00007 }
+            option = verify > option;
+            if(!option) { _fun00008_ip = 93; continue _fun00007 }
  90:
-            oscar = golf;
+            oscard = golfie;
  93:
-            report = oscar;
+            report = oscard;
  96:
-            tango = report;
+            tangon = report;
  99:
-            zulu = tango;
+            zuuluu = tangon;
  102:
-            mike = zulu;
+            michal = zuuluu;
  105:
-            entity = mike;
+            entity = michal;
  108:
             return entity;
         }
     };
-    zulu['compare'] = report;
-    tango = function(argFoo) { // Original name: isProbablyAValidSnowflake
+    zuuluu['compare'] = report;
+    tangon = function(argFoo) { // Original name: isProbablyAValidSnowflake
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu;
+            zuuluu = argFoo;
+            michal = zuuluu;
             entity = null;
-            if(!(entity != zulu)) { _fun00010_ip = 79; continue _fun00009 }
+            if(!(entity != zuuluu)) { _fun00010_ip = 79; continue _fun00009 }
  12:
-            tango = /^\d{17,19}$/;
-            zulu = tango.test;
-            entity = mike;
-            entity = zulu.bind(tango)(entity);
+            tangon = /^\d{17,19}$/;
+            zuuluu = tangon.test;
+            entity = michal;
+            entity = zuuluu.bind(tangon)(entity);
             if(entity) { _fun00010_ip = 46; continue _fun00009 }
  42:
             entity = false;
             return entity;
  46: // try_start_0
-            tango = _closure1_slot6;
-            zulu = mike;
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
+            tangon = _closure1_slot6;
+            zuuluu = michal;
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
             entity = _closure1_slot4;
-            entity = mike >= entity;
+            entity = michal >= entity;
  71: // try_end0
             return entity;
  73: // catch_target0
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['isProbablyAValidSnowflake'] = tango;
-    zulu['SnowflakeSequence'] = mike;
+    zuuluu['isProbablyAValidSnowflake'] = tangon;
+    zuuluu['SnowflakeSequence'] = michal;
     return entity;
 })();

@@ -1,111 +1,111 @@
 // app/modules/soundboard/getVolumeForSound.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/soundboard/getVolumeForSound.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getVolumeForSound
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/soundboard/getVolumeForSound.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getVolumeForSound
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
-            oscar = undefined;
-            if(!(report === oscar)) { _fun00002_ip = 81; continue _fun00001 }
+            oscard = undefined;
+            if(!(report === oscard)) { _fun00002_ip = 81; continue _fun00001 }
  9:
-            mike = _closure1_slot0;
-            zulu = _closure1_slot1;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 2;
-            entity = zulu[entity];
-            entity = mike.bind(oscar)(entity);
-            mike = entity.SoundboardSettings;
-            entity = mike.getSetting;
-            zulu = entity.bind(mike)();
+            entity = zuuluu[entity];
+            entity = michal.bind(oscard)(entity);
+            michal = entity.SoundboardSettings;
+            entity = michal.getSetting;
+            zuuluu = entity.bind(michal)();
             entity = null;
-            tango = entity == zulu;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 65; continue _fun00001 }
+            tangon = entity == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 65; continue _fun00001 }
  59:
-            mike = zulu.volume;
+            michal = zuuluu.volume;
  65:
-            zulu = entity != mike;
+            zuuluu = entity != michal;
             entity = 100;
-            if(!zulu) { _fun00002_ip = 78; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 78; continue _fun00001 }
  75:
-            entity = mike;
+            entity = michal;
  78:
             report = entity;
  81:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            tango = 1;
-            entity = entity[tango];
-            zulu = zulu.bind(oscar)(entity);
-            entity = zulu.amplitudeToPerceptual;
-            entity = entity.bind(zulu)(report);
-            golf = 100;
-            oscar = entity / golf;
+            tangon = 1;
+            entity = entity[tangon];
+            zuuluu = zuuluu.bind(oscard)(entity);
+            entity = zuuluu.amplitudeToPerceptual;
+            entity = entity.bind(zuuluu)(report);
+            golfie = 100;
+            oscard = entity / golfie;
             entity = global;
             report = entity.Math;
-            zulu = report.min;
-            options = _closure1_slot2;
-            mike = options.getOutputVolume;
-            mike = mike.bind(options)();
-            mike = mike / golf;
-            report = zulu.bind(report)(mike, tango);
-            zulu = entity.Math;
-            mike = zulu.min;
+            zuuluu = report.min;
+            option = _closure1_slot2;
+            michal = option.getOutputVolume;
+            michal = michal.bind(option)();
+            michal = michal / golfie;
+            report = zuuluu.bind(report)(michal, tangon);
+            zuuluu = entity.Math;
+            michal = zuuluu.min;
             entity = argFoo;
-            entity = entity * oscar;
+            entity = entity * oscard;
             entity = entity * report;
-            entity = mike.bind(zulu)(entity, tango);
+            entity = michal.bind(zuuluu)(entity, tangon);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: getPerceptualSoundboardVolume
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: getPerceptualSoundboardVolume
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.amplitudeToPerceptual;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.amplitudeToPerceptual;
             entity = null;
-            oscar = entity != report;
-            mike = 100;
-            entity = mike;
-            if(!oscar) { _fun00004_ip = 52; continue _fun00003 }
+            oscard = entity != report;
+            michal = 100;
+            entity = michal;
+            if(!oscard) { _fun00004_ip = 52; continue _fun00003 }
  49:
             entity = report;
  52:
-            entity = zulu.bind(tango)(entity);
-            entity = entity / mike;
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity / michal;
             return entity;
         }
     };
-    zulu['getPerceptualSoundboardVolume'] = mike;
+    zuuluu['getPerceptualSoundboardVolume'] = michal;
     return entity;
 })();

@@ -1,82 +1,82 @@
 // app/modules/premium/referral_program/hooks/useIsEligibleSenderForReferralProgram.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/referral_program/hooks/useIsEligibleSenderForReferralProgram.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/referral_program/hooks/useIsEligibleSenderForReferralProgram.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            options = arguments[1];
+            golfie = argFoo;
+            option = arguments[1];
             report = undefined;
-            if(!(options === report)) { _fun00002_ip = 14; continue _fun00001 }
+            if(!(option === report)) { _fun00002_ip = 14; continue _fun00001 }
  12:
-            options = false;
+            option = false;
  14:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 1;
             entity = verify[entity];
-            zulu = oscar.bind(report)(entity);
-            entity = zulu.useIsEligibleSenderForReferralProgramExperiment;
-            zulu = entity.bind(zulu)(golf);
-            entity = zulu.enabled;
-            zulu = zulu.eligibleToFetch;
-            tango = 2;
-            tango = verify[tango];
-            oscar = oscar.bind(report)(tango);
-            tango = oscar.useMaybeFetchReferralsRemaining;
-            zulu = !zulu;
-            if(zulu) { _fun00002_ip = 86; continue _fun00001 }
+            zuuluu = oscard.bind(report)(entity);
+            entity = zuuluu.useIsEligibleSenderForReferralProgramExperiment;
+            zuuluu = entity.bind(zuuluu)(golfie);
+            entity = zuuluu.enabled;
+            zuuluu = zuuluu.eligibleToFetch;
+            tangon = 2;
+            tangon = verify[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = oscard.useMaybeFetchReferralsRemaining;
+            zuuluu = !zuuluu;
+            if(zuuluu) { _fun00002_ip = 86; continue _fun00001 }
  83:
-            zulu = options;
+            zuuluu = option;
  86:
-            zulu = tango.bind(oscar)(golf, zulu);
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 3;
-            zulu = oscar[zulu];
-            report = tango.bind(report)(zulu);
-            tango = report.useStateFromStores;
-            mike = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                mike = _closure1_slot2;
-                entity = mike.getIsEligibleToSendReferrals;
-                entity = entity.bind(mike)();
+            zuuluu = tangon.bind(oscard)(golfie, zuuluu);
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = oscard[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.useStateFromStores;
+            michal = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot2;
+                entity = michal.getIsEligibleToSendReferrals;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
+            michal = tangon.bind(report)(zuuluu, michal);
             if(!entity) { _fun00002_ip = 150; continue _fun00001 }
  147:
-            entity = mike;
+            entity = michal;
  150:
             return entity;
         }
     };
-    zulu['useIsEligibleSenderForReferralProgram'] = mike;
+    zuuluu['useIsEligibleSenderForReferralProgram'] = michal;
     return entity;
 })();

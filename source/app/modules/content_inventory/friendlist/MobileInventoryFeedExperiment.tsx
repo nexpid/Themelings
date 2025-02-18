@@ -1,42 +1,42 @@
 // app/modules/content_inventory/friendlist/MobileInventoryFeedExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
-    romeo = true;
-    mike['value'] = romeo;
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
+    romeon = true;
+    michal['value'] = romeon;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    verify = oscar.bind(entity)(mike);
-    options = verify.createExperiment;
-    mike = {'kind': 'user', 'id': '2024-03_mobile_inventory_feed', 'label': 'Mobile Inventory Feed'};
+    verify = oscard.bind(entity)(michal);
+    option = verify.createExperiment;
+    michal = {'kind': 'user', 'id': '2024-03_mobile_inventory_feed', 'label': 'Mobile Inventory Feed'};
     report = {};
     offset = false;
     report['enabled'] = offset;
-    mike['defaultConfig'] = report;
+    michal['defaultConfig'] = report;
     yankee = {'id': 1, 'label': 'Show mobile inventory feed'};
     report = 1;
     offset = {};
-    offset['enabled'] = romeo;
+    offset['enabled'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
-    mike['treatments'] = offset;
-    mike = options.bind(verify)(mike);
-    var _closure1_slot0 = mike;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    michal['treatments'] = offset;
+    michal = option.bind(verify)(michal);
+    var _closure1_slot0 = michal;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/content_inventory/friendlist/MobileInventoryFeedExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function() { // Original name: _default
+    report = oscard.bind(golfie)(report);
+    tangon = function() { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
@@ -45,19 +45,19 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
  9:
             report = true;
  11:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = 'useShouldShowMobileInventoryFeed';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['MobileInventoryFeedExperiment'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['MobileInventoryFeedExperiment'] = michal;
     return entity;
 })();

@@ -1,67 +1,67 @@
 // app/modules/application_storefront/storefrontMessageEmbedCodedLink.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/application_storefront/storefrontMessageEmbedCodedLink.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: makeStorefrontSKUCodedLink
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/application_storefront/storefrontMessageEmbedCodedLink.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: makeStorefrontSKUCodedLink
         entity = global;
         entity = entity.HermesInternal;
         report = entity.concat;
-        tango = '';
-        zulu = argFoo;
-        mike = ':';
+        tangon = '';
+        zuuluu = argFoo;
+        michal = ':';
         entity = argBar;
-        entity = report.bind(tango)(zulu, mike, entity);
+        entity = report.bind(tangon)(zuuluu, michal, entity);
         return entity;
     };
-    zulu['makeStorefrontSKUCodedLink'] = tango;
-    mike = function(argFoo) { // Original name: parseStorefrontSkuCodedLink
+    zuuluu['makeStorefrontSKUCodedLink'] = tangon;
+    michal = function(argFoo) { // Original name: parseStorefrontSkuCodedLink
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.split;
+            zuuluu = argFoo;
+            michal = zuuluu.split;
             entity = ':';
-            tango = mike.bind(zulu)(entity);
-            entity = tango.length;
-            zulu = 2;
-            if(!(zulu === entity)) { _fun00002_ip = 70; continue _fun00001 }
+            tangon = michal.bind(zuuluu)(entity);
+            entity = tangon.length;
+            zuuluu = 2;
+            if(!(zuuluu === entity)) { _fun00002_ip = 70; continue _fun00001 }
  29:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = undefined;
-            zulu = mike.bind(entity)(tango, zulu);
+            zuuluu = michal.bind(entity)(tangon, zuuluu);
             entity = {};
-            mike = 0;
-            mike = zulu[mike];
-            entity['applicationId'] = mike;
-            mike = 1;
-            mike = zulu[mike];
-            entity['skuId'] = mike;
+            michal = 0;
+            michal = zuuluu[michal];
+            entity['applicationId'] = michal;
+            michal = 1;
+            michal = zuuluu[michal];
+            entity['skuId'] = michal;
             return entity;
  70:
             entity = null;
             return entity;
         }
     };
-    zulu['parseStorefrontSkuCodedLink'] = mike;
+    zuuluu['parseStorefrontSkuCodedLink'] = michal;
     return entity;
 })();

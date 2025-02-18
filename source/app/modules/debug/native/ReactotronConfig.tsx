@@ -1,24 +1,24 @@
 // app/modules/debug/native/ReactotronConfig.tsx
-export default (function(_, argBar, argBaz, __, ___, ____, argPlugh) {
-    zulu = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, ____, argPlu) {
+    zuuluu = argPlu;
     entity = 0;
-    tango = zulu[entity];
-    mike = argBaz;
+    tangon = zuuluu[entity];
+    michal = argBaz;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.configure;
-    mike = {};
-    tango = tango.bind(report)(mike);
-    mike = tango.useReactNative;
-    tango = mike.bind(tango)();
-    mike = tango.connect;
-    mike = mike.bind(tango)();
-    mike = 1;
-    zulu = zulu[mike];
-    mike = argBar;
-    tango = mike.bind(entity)(zulu);
-    zulu = tango.fileFinishedImporting;
-    mike = 'modules/debug/native/ReactotronConfig.tsx';
-    mike = zulu.bind(tango)(mike);
+    report = michal.bind(entity)(tangon);
+    tangon = report.configure;
+    michal = {};
+    tangon = tangon.bind(report)(michal);
+    michal = tangon.useReactNative;
+    tangon = michal.bind(tangon)();
+    michal = tangon.connect;
+    michal = michal.bind(tangon)();
+    michal = 1;
+    zuuluu = zuuluu[michal];
+    michal = argBar;
+    tangon = michal.bind(entity)(zuuluu);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'modules/debug/native/ReactotronConfig.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

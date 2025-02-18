@@ -1,65 +1,65 @@
 // app/modules/instant_invite/native/DCDSendUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/instant_invite/native/DCDSendUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/instant_invite/native/DCDSendUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) {
         entity = _closure1_slot0;
-        tango = entity.DCDSend;
-        zulu = tango.sendSMS;
-        mike = argFoo;
+        tangon = entity.DCDSend;
+        zuuluu = tangon.sendSMS;
+        michal = argFoo;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['sendSMS'] = tango;
-    tango = function(argFoo, argBar) {
+    zuuluu['sendSMS'] = tangon;
+    tangon = function(argFoo, argBar) {
         entity = _closure1_slot0;
-        tango = entity.DCDSend;
-        zulu = tango.sendMail;
-        mike = argFoo;
+        tangon = entity.DCDSend;
+        zuuluu = tangon.sendMail;
+        michal = argFoo;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['sendMail'] = tango;
-    tango = function() {
+    zuuluu['sendMail'] = tangon;
+    tangon = function() {
         entity = _closure1_slot0;
-        mike = entity.DCDSend;
-        entity = mike.canSendSMS;
-        entity = entity.bind(mike)();
+        michal = entity.DCDSend;
+        entity = michal.canSendSMS;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['canSendSMS'] = tango;
-    mike = function() {
+    zuuluu['canSendSMS'] = tangon;
+    michal = function() {
         entity = _closure1_slot0;
-        mike = entity.DCDSend;
-        entity = mike.canSendMail;
-        entity = entity.bind(mike)();
+        michal = entity.DCDSend;
+        entity = michal.canSendMail;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['canSendMail'] = mike;
+    zuuluu['canSendMail'] = michal;
     return entity;
 })();

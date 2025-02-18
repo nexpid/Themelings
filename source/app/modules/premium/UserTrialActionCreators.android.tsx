@@ -1,209 +1,209 @@
 // app/modules/premium/UserTrialActionCreators.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    golf = mike.Endpoints;
-    var _closure1_slot4 = golf;
-    mike = mike.PaymentGateways;
-    var _closure1_slot5 = mike;
-    mike = {};
-    golf = function() { // Original name: fetchUserTrialOffer
-        zulu = _closure1_slot3;
-        mike = undefined;
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    golfie = michal.Endpoints;
+    var _closure1_slot4 = golfie;
+    michal = michal.PaymentGateways;
+    var _closure1_slot5 = michal;
+    michal = {};
+    golfie = function() { // Original name: fetchUserTrialOffer
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 215; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 215; continue _fun00001 }
  10: // try_start_0
-                    tango = _closure1_slot0;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 2;
-                    mike = report[mike];
+                    michal = 2;
+                    michal = report[michal];
                     report = undefined;
-                    mike = tango.bind(report)(mike);
-                    oscar = mike.HTTP;
-                    tango = oscar.get;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    golf = golf.USER_TRIAL_OFFER;
-                    mike['url'] = golf;
-                    golf = {};
-                    options = _closure1_slot5;
-                    options = options.GOOGLE;
-                    golf['payment_gateway'] = options;
-                    mike['query'] = golf;
-                    golf = true;
-                    mike['oldFormErrors'] = golf;
-                    mike['rejectWithError'] = golf;
-                    mike = tango.bind(oscar)(mike);
+                    michal = tangon.bind(report)(michal);
+                    oscard = michal.HTTP;
+                    tangon = oscard.get;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    golfie = golfie.USER_TRIAL_OFFER;
+                    michal['url'] = golfie;
+                    golfie = {};
+                    option = _closure1_slot5;
+                    option = option.GOOGLE;
+                    golfie['payment_gateway'] = option;
+                    michal['query'] = golfie;
+                    golfie = true;
+                    michal['oldFormErrors'] = golfie;
+                    michal['rejectWithError'] = golfie;
+                    michal = tangon.bind(oscard)(michal);
                     SaveGenerator(address=102);
  100:
-                    return mike;
+                    return michal;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 160; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 160; continue _fun00001 }
  108:
-                    oscar = mike.body;
-                    tango = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    zulu = 3;
-                    zulu = golf[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    golf = 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS';
-                    zulu['type'] = golf;
-                    zulu['userTrialOffer'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    oscard = michal.body;
+                    tangon = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    zuuluu = 3;
+                    zuuluu = golfie[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    golfie = 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS';
+                    zuuluu['type'] = golfie;
+                    zuuluu['userTrialOffer'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  158: // try_end0
                     _fun00002_ip = 210; continue _fun00001;
  160:
-                    return mike;
+                    return michal;
  163: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.dispatch;
-                    mike = {};
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.dispatch;
+                    michal = {};
                     report = 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS';
-                    mike['type'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['type'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
  210:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  215:
                     return entity;
                 }
             };
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['fetchUserTrialOffer'] = golf;
-    tango = function(argFoo) { // Original name: acknowledgeUserTrialOffer
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot3;
-        mike = undefined;
+    michal['fetchUserTrialOffer'] = golfie;
+    tangon = function(argFoo) { // Original name: acknowledgeUserTrialOffer
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 247; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 247; continue _fun00003 }
  10:
-                    mike = _closure2_slot0;
-                    zulu = mike.expires_at;
-                    mike = null;
-                    if(!(mike == zulu)) { _fun00004_ip = 242; continue _fun00003 }
+                    michal = _closure2_slot0;
+                    zuuluu = michal.expires_at;
+                    michal = null;
+                    if(!(michal == zuuluu)) { _fun00004_ip = 242; continue _fun00003 }
  32: // try_start_0
-                    tango = _closure1_slot0;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 2;
-                    mike = report[mike];
+                    michal = 2;
+                    michal = report[michal];
                     report = undefined;
-                    mike = tango.bind(report)(mike);
-                    oscar = mike.HTTP;
-                    tango = oscar.post;
-                    mike = {};
+                    michal = tangon.bind(report)(michal);
+                    oscard = michal.HTTP;
+                    tangon = oscard.post;
+                    michal = {};
                     verify = _closure1_slot4;
-                    options = verify.USER_TRIAL_OFFER_ACKNOWLEDGED;
-                    golf = _closure2_slot0;
-                    golf = golf.id;
-                    golf = options.bind(verify)(golf);
-                    mike['url'] = golf;
-                    golf = false;
-                    mike['rejectWithError'] = golf;
-                    mike = tango.bind(oscar)(mike);
+                    option = verify.USER_TRIAL_OFFER_ACKNOWLEDGED;
+                    golfie = _closure2_slot0;
+                    golfie = golfie.id;
+                    golfie = option.bind(verify)(golfie);
+                    michal['url'] = golfie;
+                    golfie = false;
+                    michal['rejectWithError'] = golfie;
+                    michal = tangon.bind(oscard)(michal);
                     SaveGenerator(address=113);
  111:
-                    return mike;
+                    return michal;
  113:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00004_ip = 173; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 173; continue _fun00003 }
  119:
-                    oscar = mike.body;
-                    tango = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    zulu = 3;
-                    zulu = golf[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    golf = 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS';
-                    zulu['type'] = golf;
-                    zulu['userTrialOffer'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    oscard = michal.body;
+                    tangon = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    zuuluu = 3;
+                    zuuluu = golfie[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    golfie = 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS';
+                    zuuluu['type'] = golfie;
+                    zuuluu['userTrialOffer'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  171: // try_end0
                     _fun00004_ip = 242; continue _fun00003;
  173:
-                    return mike;
+                    return michal;
  176: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    zulu = mike.status;
-                    mike = 404;
-                    if(!(mike === zulu)) { _fun00004_ip = 242; continue _fun00003 }
+                    zuuluu = michal.status;
+                    michal = 404;
+                    if(!(michal === zuuluu)) { _fun00004_ip = 242; continue _fun00003 }
  193:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.dispatch;
-                    mike = {'type': 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'userTrialOffer': null};
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.dispatch;
+                    michal = {'type': 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'userTrialOffer': null};
+                    michal = zuuluu.bind(tangon)(michal);
  242:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  247:
                     return entity;
                 }
             };
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['acknowledgeUserTrialOffer'] = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/UserTrialActionCreators.android.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['acknowledgeUserTrialOffer'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/UserTrialActionCreators.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

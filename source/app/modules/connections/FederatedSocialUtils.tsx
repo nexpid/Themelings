@@ -1,69 +1,69 @@
 // app/modules/connections/FederatedSocialUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PlatformTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/connections/FederatedSocialUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: validateHandle
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PlatformTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/connections/FederatedSocialUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: validateHandle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = _closure1_slot0;
-            mike = entity.MASTODON;
+            michal = entity.MASTODON;
             entity = argBar;
-            if(!(entity === mike)) { _fun00002_ip = 47; continue _fun00001 }
+            if(!(entity === michal)) { _fun00002_ip = 47; continue _fun00001 }
  23:
-            mike = /^@?[a-z0-9_]+([.-]+[a-z0-9_]+)*@[^@]+\.[^.@]{2,}$/i;
-            entity = mike.test;
-            entity = entity.bind(mike)(zulu);
+            michal = /^@?[a-z0-9_]+([.-]+[a-z0-9_]+)*@[^@]+\.[^.@]{2,}$/i;
+            entity = michal.test;
+            entity = entity.bind(michal)(zuuluu);
  47:
-            mike = /^.+\.[^.@]{2,}$/;
-            entity = mike.test;
-            entity = entity.bind(mike)(zulu);
+            michal = /^.+\.[^.@]{2,}$/;
+            entity = michal.test;
+            entity = entity.bind(michal)(zuuluu);
             return entity;
         }
     };
-    zulu['validateHandle'] = tango;
-    mike = function(argFoo) { // Original name: getExampleHandle
+    zuuluu['validateHandle'] = tangon;
+    michal = function(argFoo) { // Original name: getExampleHandle
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = _closure1_slot0;
-            zulu = entity.MASTODON;
+            zuuluu = entity.MASTODON;
             entity = '@example@mastodon.social';
-            if(!(tango !== zulu)) { _fun00004_ip = 55; continue _fun00003 }
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
  26:
-            mike = _closure1_slot0;
-            zulu = mike.BLUESKY;
-            mike = 'clyde@example.com';
-            if(!(tango === zulu)) { _fun00004_ip = 52; continue _fun00003 }
+            michal = _closure1_slot0;
+            zuuluu = michal.BLUESKY;
+            michal = 'clyde@example.com';
+            if(!(tangon === zuuluu)) { _fun00004_ip = 52; continue _fun00003 }
  46:
-            mike = 'example.bsky.social';
+            michal = 'example.bsky.social';
  52:
-            entity = mike;
+            entity = michal;
  55:
             return entity;
         }
     };
-    zulu['getExampleHandle'] = mike;
+    zuuluu['getExampleHandle'] = michal;
     return entity;
 })();

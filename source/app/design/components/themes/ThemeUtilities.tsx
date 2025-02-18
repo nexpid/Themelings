@@ -1,53 +1,53 @@
 // app/design/components/themes/ThemeUtilities.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.ThemeTypes;
-    var _closure1_slot0 = golf;
-    tango = tango.ThemeExtends;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/themes/ThemeUtilities.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isThemeLight
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.ThemeTypes;
+    var _closure1_slot0 = golfie;
+    tangon = tangon.ThemeExtends;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/themes/ThemeUtilities.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isThemeLight
         entity = _closure1_slot0;
-        mike = entity.LIGHT;
+        michal = entity.LIGHT;
         entity = argFoo;
-        entity = entity === mike;
+        entity = entity === michal;
         return entity;
     };
-    zulu['isThemeLight'] = tango;
-    tango = function(argFoo) { // Original name: isThemeDark
+    zuuluu['isThemeLight'] = tangon;
+    tangon = function(argFoo) { // Original name: isThemeDark
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = _closure1_slot0;
-            zulu = zulu.DARK;
-            if(!(zulu !== mike)) { _fun00002_ip = 52; continue _fun00001 }
+            michal = argFoo;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.DARK;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
  20:
-            zulu = _closure1_slot0;
-            zulu = zulu.MIDNIGHT;
-            if(!(zulu !== mike)) { _fun00002_ip = 52; continue _fun00001 }
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.MIDNIGHT;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
  34:
             entity = _closure1_slot0;
             entity = entity.DARKER;
-            if(!(entity !== mike)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 52; continue _fun00001 }
  48:
             entity = false;
             return entity;
@@ -56,44 +56,44 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['isThemeDark'] = tango;
-    mike = function(argFoo) { // Original name: getThemeClass
+    zuuluu['isThemeDark'] = tangon;
+    michal = function(argFoo) { // Original name: getThemeClass
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             entity = null;
-            if(!(entity == golf)) { _fun00004_ip = 13; continue _fun00003 }
+            if(!(entity == golfie)) { _fun00004_ip = 13; continue _fun00003 }
  9:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  13:
-            zulu = _closure1_slot1;
-            mike = zulu.get;
-            oscar = mike.bind(zulu)(golf);
-            if(!(entity == oscar)) { _fun00004_ip = 68; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            michal = zuuluu.get;
+            oscard = michal.bind(zuuluu)(golfie);
+            if(!(entity == oscard)) { _fun00004_ip = 68; continue _fun00003 }
  34:
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
-            mike = 'theme-';
+            zuuluu = entity.concat;
+            michal = 'theme-';
             entity = ' images-';
-            entity = zulu.bind(mike)(golf, entity, golf);
+            entity = zuuluu.bind(michal)(golfie, entity, golfie);
             _fun00004_ip = 112; continue _fun00003;
  68:
-            mike = global;
-            mike = mike.HermesInternal;
-            report = mike.concat;
-            foxtrot = 'theme-';
+            michal = global;
+            michal = michal.HermesInternal;
+            report = michal.concat;
+            foxtra = 'theme-';
             yankee = ' theme-';
             verify = ' images-';
-            romeo = oscar;
-            offset = golf;
-            options = oscar;
-            entity = foxtrot[report](romeo, yankee, offset, verify, options, golf);
+            romeon = oscard;
+            offset = golfie;
+            option = oscard;
+            entity = foxtra[report](romeon, yankee, offset, verify, option, golfie);
  112:
             return entity;
         }
     };
-    zulu['getThemeClass'] = mike;
+    zuuluu['getThemeClass'] = michal;
     return entity;
 })();

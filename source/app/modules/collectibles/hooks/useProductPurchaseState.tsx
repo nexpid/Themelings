@@ -1,204 +1,204 @@
 // app/modules/collectibles/hooks/useProductPurchaseState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
     report = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    var _closure1_slot2 = golf;
+    var _closure1_slot2 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = function(argFoo, argBar) { // Original name: getProductPurchaseState
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = function(argFoo, argBar) { // Original name: getProductPurchaseState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            golf = argBar;
-            var _closure2_slot0 = tango;
-            zulu = tango.getPurchase;
-            mike = golf.skuId;
-            mike = zulu.bind(tango)(mike);
+            tangon = argFoo;
+            golfie = argBar;
+            var _closure2_slot0 = tangon;
+            zuuluu = tangon.getPurchase;
+            michal = golfie.skuId;
+            michal = zuuluu.bind(tangon)(michal);
             report = null;
-            mike = report != mike;
-            zulu = golf.items;
-            if(!(report == zulu)) { _fun00002_ip = 49; continue _fun00001 }
+            michal = report != michal;
+            zuuluu = golfie.items;
+            if(!(report == zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
  45:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
  49:
             verify = _closure1_slot1;
-            oscar = _closure1_slot2;
-            tango = 1;
-            tango = oscar[tango];
-            oscar = undefined;
-            verify = verify.bind(oscar)(tango);
-            offset = zulu.map;
-            tango = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.getPurchase;
+            oscard = _closure1_slot2;
+            tangon = 1;
+            tangon = oscard[tangon];
+            oscard = undefined;
+            verify = verify.bind(oscard)(tangon);
+            offset = zuuluu.map;
+            tangon = function(argFoo) {
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.getPurchase;
                 entity = argFoo;
                 entity = entity.skuId;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = offset.bind(zulu)(tango);
-            tango = verify.bind(oscar)(tango);
-            offset = report == golf;
+            tangon = offset.bind(zuuluu)(tangon);
+            tangon = verify.bind(oscard)(tangon);
+            offset = report == golfie;
             verify = undefined;
             if(offset) { _fun00002_ip = 110; continue _fun00001 }
  105:
-            verify = golf.type;
+            verify = golfie.type;
  110:
-            romeo = _closure1_slot0;
+            romeon = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = 2;
             offset = offset[yankee];
-            offset = romeo.bind(oscar)(offset);
+            offset = romeon.bind(oscard)(offset);
             offset = offset.CollectiblesItemType;
             offset = offset.BUNDLE;
             if(!(offset !== verify)) { _fun00002_ip = 313; continue _fun00001 }
  149:
             offset = _closure1_slot0;
-            options = _closure1_slot2;
-            options = options[yankee];
-            options = offset.bind(oscar)(options);
-            options = options.CollectiblesItemType;
-            options = options.VARIANTS_GROUP;
-            if(!(options !== verify)) { _fun00002_ip = 200; continue _fun00001 }
+            option = _closure1_slot2;
+            option = option[yankee];
+            option = offset.bind(oscard)(option);
+            option = option.CollectiblesItemType;
+            option = option.VARIANTS_GROUP;
+            if(!(option !== verify)) { _fun00002_ip = 200; continue _fun00001 }
  182:
-            options = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
-            options['isPurchased'] = mike;
-            return options;
+            option = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
+            option['isPurchased'] = michal;
+            return option;
  200:
-            yankee = golf.variants;
+            yankee = golfie.variants;
             verify = report == yankee;
-            options = undefined;
+            option = undefined;
             if(verify) { _fun00002_ip = 233; continue _fun00001 }
  215:
             offset = yankee.every;
             verify = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.getPurchase;
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.getPurchase;
                 entity = argFoo;
                 entity = entity.skuId;
-                mike = mike.bind(zulu)(entity);
+                michal = michal.bind(zuuluu)(entity);
                 entity = null;
-                entity = entity != mike;
+                entity = entity != michal;
                 return entity;
             };
-            options = offset.bind(yankee)(verify);
+            option = offset.bind(yankee)(verify);
  233:
-            verify = golf.variants;
-            golf = report == verify;
-            oscar = undefined;
-            if(golf) { _fun00002_ip = 266; continue _fun00001 }
+            verify = golfie.variants;
+            golfie = report == verify;
+            oscard = undefined;
+            if(golfie) { _fun00002_ip = 266; continue _fun00001 }
  248:
-            golf = verify.some;
+            golfie = verify.some;
             entity = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.getPurchase;
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.getPurchase;
                 entity = argFoo;
                 entity = entity.skuId;
-                mike = mike.bind(zulu)(entity);
+                michal = michal.bind(zuuluu)(entity);
                 entity = null;
-                entity = entity != mike;
+                entity = entity != michal;
                 return entity;
             };
-            oscar = golf.bind(verify)(entity);
+            oscard = golfie.bind(verify)(entity);
  266:
-            if(!oscar) { _fun00002_ip = 272; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 272; continue _fun00001 }
  269:
-            oscar = !options;
+            oscard = !option;
  272:
             entity = {};
-            golf = report != options;
-            if(!golf) { _fun00002_ip = 284; continue _fun00001 }
+            golfie = report != option;
+            if(!golfie) { _fun00002_ip = 284; continue _fun00001 }
  281:
-            golf = options;
+            golfie = option;
  284:
-            entity['isPurchased'] = golf;
-            golf = false;
-            entity['isPartiallyOwnedBundle'] = golf;
-            report = report != oscar;
+            entity['isPurchased'] = golfie;
+            golfie = false;
+            entity['isPartiallyOwnedBundle'] = golfie;
+            report = report != oscard;
             if(!report) { _fun00002_ip = 306; continue _fun00001 }
  303:
-            report = oscar;
+            report = oscard;
  306:
             entity['isPartiallyOwnedVariantsGroup'] = report;
             return entity;
  313:
             entity = {};
-            if(mike) { _fun00002_ip = 349; continue _fun00001 }
+            if(michal) { _fun00002_ip = 349; continue _fun00001 }
  318:
-            oscar = zulu.length;
+            oscard = zuuluu.length;
             report = 0;
-            report = oscar > report;
+            report = oscard > report;
             if(!report) { _fun00002_ip = 346; continue _fun00001 }
  332:
-            golf = tango.length;
-            oscar = zulu.length;
-            report = golf === oscar;
+            golfie = tangon.length;
+            oscard = zuuluu.length;
+            report = golfie === oscard;
  346:
-            mike = report;
+            michal = report;
  349:
-            entity['isPurchased'] = mike;
-            report = tango.length;
-            mike = 0;
-            mike = report > mike;
-            if(!mike) { _fun00002_ip = 382; continue _fun00001 }
+            entity['isPurchased'] = michal;
+            report = tangon.length;
+            michal = 0;
+            michal = report > michal;
+            if(!michal) { _fun00002_ip = 382; continue _fun00001 }
  368:
-            tango = tango.length;
-            zulu = zulu.length;
-            mike = tango < zulu;
+            tangon = tangon.length;
+            zuuluu = zuuluu.length;
+            michal = tangon < zuuluu;
  382:
-            entity['isPartiallyOwnedBundle'] = mike;
-            mike = false;
-            entity['isPartiallyOwnedVariantsGroup'] = mike;
+            entity['isPartiallyOwnedBundle'] = michal;
+            michal = false;
+            entity['isPartiallyOwnedVariantsGroup'] = michal;
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/collectibles/hooks/useProductPurchaseState.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getProductPurchaseState'] = tango;
-    mike = function(argFoo) {
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['getProductPurchaseState'] = tangon;
+    michal = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStoresObject;
+        tangon = _closure1_slot2;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            tango = _closure1_slot4;
-            zulu = _closure1_slot3;
-            mike = _closure2_slot0;
+            tangon = _closure1_slot4;
+            zuuluu = _closure1_slot3;
+            michal = _closure2_slot0;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useProductPurchaseState'] = mike;
+    zuuluu['useProductPurchaseState'] = michal;
     return entity;
 })();

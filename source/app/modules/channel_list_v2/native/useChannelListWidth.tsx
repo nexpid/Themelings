@@ -1,95 +1,95 @@
 // app/modules/channel_list_v2/native/useChannelListWidth.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.CHANNEL_DRAWER_SPACING;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/channel_list_v2/native/useChannelListWidth.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useChannelListWidth
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.CHANNEL_DRAWER_SPACING;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/channel_list_v2/native/useChannelListWidth.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useChannelListWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 1;
-            entity = golf[entity];
+            entity = golfie[entity];
             report = undefined;
-            mike = oscar.bind(report)(entity);
-            entity = mike.useDrawerWidth;
-            mike = entity.bind(mike)();
-            tango = _closure1_slot1;
+            michal = oscard.bind(report)(entity);
+            entity = michal.useDrawerWidth;
+            michal = entity.bind(michal)();
+            tangon = _closure1_slot1;
             entity = 2;
-            entity = golf[entity];
-            entity = tango.bind(report)(entity);
+            entity = golfie[entity];
+            entity = tangon.bind(report)(entity);
             entity = entity.bind(report)();
-            tango = entity.isChatBesideChannelList;
+            tangon = entity.isChatBesideChannelList;
             entity = 3;
-            entity = golf[entity];
-            entity = oscar.bind(report)(entity);
+            entity = golfie[entity];
+            entity = oscard.bind(report)(entity);
             entity = entity.DM_WIDTH;
-            mike = mike - entity;
+            michal = michal - entity;
             entity = 0;
-            if(!tango) { _fun00002_ip = 92; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 92; continue _fun00001 }
  88:
             entity = _closure1_slot3;
  92:
-            entity = mike - entity;
+            entity = michal - entity;
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function() { // Original name: getChannelListWidth
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: getChannelListWidth
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 1;
-            entity = golf[entity];
+            entity = golfie[entity];
             report = undefined;
-            mike = oscar.bind(report)(entity);
-            entity = mike.getDrawerWidth;
-            mike = entity.bind(mike)();
+            michal = oscard.bind(report)(entity);
+            entity = michal.getDrawerWidth;
+            michal = entity.bind(michal)();
             entity = 2;
-            entity = golf[entity];
-            tango = oscar.bind(report)(entity);
-            entity = tango.getChatLayout;
-            entity = entity.bind(tango)();
-            tango = entity.isChatBesideChannelList;
+            entity = golfie[entity];
+            tangon = oscard.bind(report)(entity);
+            entity = tangon.getChatLayout;
+            entity = entity.bind(tangon)();
+            tangon = entity.isChatBesideChannelList;
             entity = 3;
-            entity = golf[entity];
-            entity = oscar.bind(report)(entity);
+            entity = golfie[entity];
+            entity = oscard.bind(report)(entity);
             entity = entity.DM_WIDTH;
-            mike = mike - entity;
+            michal = michal - entity;
             entity = 0;
-            if(!tango) { _fun00004_ip = 94; continue _fun00003 }
+            if(!tangon) { _fun00004_ip = 94; continue _fun00003 }
  90:
             entity = _closure1_slot3;
  94:
-            entity = mike - entity;
+            entity = michal - entity;
             return entity;
         }
     };
-    zulu['getChannelListWidth'] = mike;
+    zuuluu['getChannelListWidth'] = michal;
     return entity;
 })();

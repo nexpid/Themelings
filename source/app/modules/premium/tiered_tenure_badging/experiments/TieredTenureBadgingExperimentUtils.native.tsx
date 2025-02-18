@@ -1,57 +1,57 @@
 // app/modules/premium/tiered_tenure_badging/experiments/TieredTenureBadgingExperimentUtils.native.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/tiered_tenure_badging/experiments/TieredTenureBadgingExperimentUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useTieredTenureBadgesExperiment
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/tiered_tenure_badging/experiments/TieredTenureBadgingExperimentUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useTieredTenureBadgesExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
-            zulu = undefined;
-            if(!(report === zulu)) { _fun00002_ip = 11; continue _fun00001 }
+            zuuluu = undefined;
+            if(!(report === zuuluu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             report = false;
  11:
-            mike = _closure1_slot0;
-            tango = _closure1_slot1;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 0;
-            entity = tango[entity];
-            tango = mike.bind(zulu)(entity);
-            zulu = tango.useExperiment;
-            mike = {};
+            entity = tangon[entity];
+            tangon = michal.bind(zuuluu)(entity);
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = 'experiment_hook';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            mike = zulu.bind(tango)(mike, entity);
+            michal = zuuluu.bind(tangon)(michal, entity);
             entity = {};
-            zulu = mike.enabled;
-            entity['enabled'] = zulu;
-            zulu = mike.version;
-            entity['version'] = zulu;
-            mike = mike.isBadgeVersion2;
-            entity['isBadgeVersion2'] = mike;
+            zuuluu = michal.enabled;
+            entity['enabled'] = zuuluu;
+            zuuluu = michal.version;
+            entity['version'] = zuuluu;
+            michal = michal.isBadgeVersion2;
+            entity['isBadgeVersion2'] = michal;
             return entity;
         }
     };
-    zulu['useTieredTenureBadgesExperiment'] = mike;
+    zuuluu['useTieredTenureBadgesExperiment'] = michal;
     return entity;
 })();

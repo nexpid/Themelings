@@ -1,129 +1,129 @@
 // app/modules/rpc/helpers/stripSensitiveLoggingData.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.RPCCommands;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/helpers/stripSensitiveLoggingData.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: stripSensitiveLoggingData
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RPCCommands;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/helpers/stripSensitiveLoggingData.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: stripSensitiveLoggingData
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = {};
-            options = argFoo;
+            option = argFoo;
             verify = report;
-            entity = copyDataProperties(verify, options);
+            entity = copyDataProperties(verify, option);
             entity = report.args;
-            mike = 'object';
+            michal = 'object';
             entity = typeof entity;
-            entity = mike === entity;
+            entity = michal === entity;
             if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  32:
-            zulu = report.cmd;
-            tango = 'string';
-            zulu = typeof zulu;
-            entity = tango === zulu;
+            zuuluu = report.cmd;
+            tangon = 'string';
+            zuuluu = typeof zuuluu;
+            entity = tangon === zuuluu;
  49:
-            tango = report;
+            tangon = report;
             if(!entity) { _fun00002_ip = 163; continue _fun00001 }
  55:
-            zulu = report.cmd;
-            oscar = _closure1_slot0;
-            oscar = oscar.AUTHENTICATE;
-            if(!(oscar !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
+            zuuluu = report.cmd;
+            oscard = _closure1_slot0;
+            oscard = oscard.AUTHENTICATE;
+            if(!(oscard !== zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
  78:
             entity = _closure1_slot0;
             entity = entity.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(entity !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
  92:
             entity = {};
             verify = entity;
-            options = report;
-            zulu = copyDataProperties(verify, options);
+            option = report;
+            zuuluu = copyDataProperties(verify, option);
             _fun00002_ip = 160; continue _fun00001;
  106:
-            zulu = {};
-            verify = zulu;
-            options = report;
-            oscar = copyDataProperties(verify, options);
-            oscar = {};
-            options = report.args;
-            verify = oscar;
-            report = copyDataProperties(verify, options);
-            golf = '<removed>';
+            zuuluu = {};
+            verify = zuuluu;
+            option = report;
+            oscard = copyDataProperties(verify, option);
+            oscard = {};
+            option = report.args;
+            verify = oscard;
+            report = copyDataProperties(verify, option);
+            golfie = '<removed>';
             report = 'access_token';
-            oscar[report] = golf;
+            oscard[report] = golfie;
             report = 'args';
-            zulu[report] = oscar;
-            entity = zulu;
+            zuuluu[report] = oscard;
+            entity = zuuluu;
  160:
-            tango = entity;
+            tangon = entity;
  163:
-            entity = tango.data;
+            entity = tangon.data;
             entity = typeof entity;
-            mike = mike === entity;
-            if(!mike) { _fun00002_ip = 195; continue _fun00001 }
+            michal = michal === entity;
+            if(!michal) { _fun00002_ip = 195; continue _fun00001 }
  178:
-            entity = tango.cmd;
-            zulu = 'string';
+            entity = tangon.cmd;
+            zuuluu = 'string';
             entity = typeof entity;
-            mike = zulu === entity;
+            michal = zuuluu === entity;
  195:
-            entity = tango;
-            if(!mike) { _fun00002_ip = 308; continue _fun00001 }
+            entity = tangon;
+            if(!michal) { _fun00002_ip = 308; continue _fun00001 }
  201:
-            zulu = tango.cmd;
+            zuuluu = tangon.cmd;
             report = _closure1_slot0;
             report = report.AUTHENTICATE;
-            if(!(report !== zulu)) { _fun00002_ip = 252; continue _fun00001 }
+            if(!(report !== zuuluu)) { _fun00002_ip = 252; continue _fun00001 }
  224:
-            mike = _closure1_slot0;
-            mike = mike.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(mike !== zulu)) { _fun00002_ip = 252; continue _fun00001 }
+            michal = _closure1_slot0;
+            michal = michal.GET_PROVIDER_ACCESS_TOKEN;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 252; continue _fun00001 }
  238:
-            mike = {};
-            verify = mike;
-            options = tango;
-            zulu = copyDataProperties(verify, options);
+            michal = {};
+            verify = michal;
+            option = tangon;
+            zuuluu = copyDataProperties(verify, option);
             _fun00002_ip = 305; continue _fun00001;
  252:
-            zulu = {};
-            verify = zulu;
-            options = tango;
-            report = copyDataProperties(verify, options);
+            zuuluu = {};
+            verify = zuuluu;
+            option = tangon;
+            report = copyDataProperties(verify, option);
             report = {};
-            options = tango.data;
+            option = tangon.data;
             verify = report;
-            tango = copyDataProperties(verify, options);
-            oscar = '<removed>';
-            tango = 'access_token';
-            report[tango] = oscar;
-            tango = 'data';
-            zulu[tango] = report;
-            mike = zulu;
+            tangon = copyDataProperties(verify, option);
+            oscard = '<removed>';
+            tangon = 'access_token';
+            report[tangon] = oscard;
+            tangon = 'data';
+            zuuluu[tangon] = report;
+            michal = zuuluu;
  305:
-            entity = mike;
+            entity = michal;
  308:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

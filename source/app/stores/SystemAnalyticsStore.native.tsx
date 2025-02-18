@@ -1,31 +1,31 @@
 // app/stores/SystemAnalyticsStore.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'stores/SystemAnalyticsStore.native.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function() { // Original name: getSystemAnalyticsInfo
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'stores/SystemAnalyticsStore.native.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function() { // Original name: getSystemAnalyticsInfo
         entity = global;
-        zulu = entity.Promise;
-        mike = zulu.resolve;
+        zuuluu = entity.Promise;
+        michal = zuuluu.resolve;
         entity = undefined;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['getSystemAnalyticsInfo'] = mike;
+    zuuluu['getSystemAnalyticsInfo'] = michal;
     return entity;
 })();

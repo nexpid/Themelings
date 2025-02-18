@@ -1,73 +1,73 @@
 // app/modules/threads/ThreadActionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/threads/ThreadActionUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: doesThreadMembersActionAffectMe
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/threads/ThreadActionUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: doesThreadMembersActionAffectMe
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = _closure1_slot0;
-            entity = mike.getId;
-            options = entity.bind(mike)();
-            var _closure2_slot0 = options;
-            zulu = null;
-            entity = zulu != options;
+            michal = _closure1_slot0;
+            entity = michal.getId;
+            option = entity.bind(michal)();
+            var _closure2_slot0 = option;
+            zuuluu = null;
+            entity = zuuluu != option;
             if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  35:
-            golf = report.removedMemberIds;
-            oscar = zulu == golf;
-            if(oscar) { _fun00002_ip = 61; continue _fun00001 }
+            golfie = report.removedMemberIds;
+            oscard = zuuluu == golfie;
+            if(oscard) { _fun00002_ip = 61; continue _fun00001 }
  48:
-            mike = golf.includes;
-            mike = mike.bind(golf)(options);
-            oscar = !mike;
+            michal = golfie.includes;
+            michal = michal.bind(golfie)(option);
+            oscard = !michal;
  61:
-            mike = !oscar;
-            if(!oscar) { _fun00002_ip = 102; continue _fun00001 }
+            michal = !oscard;
+            if(!oscard) { _fun00002_ip = 102; continue _fun00001 }
  67:
-            oscar = report.addedMembers;
-            zulu = zulu == oscar;
-            if(zulu) { _fun00002_ip = 99; continue _fun00001 }
+            oscard = report.addedMembers;
+            zuuluu = zuuluu == oscard;
+            if(zuuluu) { _fun00002_ip = 99; continue _fun00001 }
  80:
-            report = oscar.some;
-            tango = function(argFoo) {
+            report = oscard.some;
+            tangon = function(argFoo) {
                 entity = argFoo;
-                mike = entity.userId;
+                michal = entity.userId;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            zulu = !tango;
+            tangon = report.bind(oscard)(tangon);
+            zuuluu = !tangon;
  99:
-            mike = !zulu;
+            michal = !zuuluu;
  102:
-            entity = mike;
+            entity = michal;
  105:
             return entity;
         }
     };
-    zulu['doesThreadMembersActionAffectMe'] = mike;
+    zuuluu['doesThreadMembersActionAffectMe'] = michal;
     return entity;
 })();

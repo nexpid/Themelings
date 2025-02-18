@@ -1,86 +1,86 @@
 // app/modules/app_launcher/native/hooks/useAnimationDelayedAutoFocus.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/hooks/useAnimationDelayedAutoFocus.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useAnimationDelayedAutoFocus
-        options = argFoo;
-        golf = argBar;
-        var _closure2_slot0 = options;
-        var _closure2_slot1 = golf;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/hooks/useAnimationDelayedAutoFocus.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useAnimationDelayedAutoFocus
+        option = argFoo;
+        golfie = argBar;
+        var _closure2_slot0 = option;
+        var _closure2_slot1 = golfie;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        report = report.bind(entity)(tango);
-        tango = report.useAwaitAnimationCompletion;
-        oscar = tango.bind(report)();
-        var _closure2_slot2 = oscar;
+        report = report.bind(entity)(tangon);
+        tangon = report.useAwaitAnimationCompletion;
+        oscard = tangon.bind(report)();
+        var _closure2_slot2 = oscard;
         report = _closure1_slot2;
-        tango = report.useRef;
-        zulu = false;
-        zulu = tango.bind(report)(zulu);
-        var _closure2_slot3 = zulu;
-        tango = report.useEffect;
-        zulu = new Array(3);
-        zulu[0] = options;
-        zulu[1] = golf;
-        zulu[2] = oscar;
-        mike = function() {
+        tangon = report.useRef;
+        zuuluu = false;
+        zuuluu = tangon.bind(report)(zuuluu);
+        var _closure2_slot3 = zuuluu;
+        tangon = report.useEffect;
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        zuuluu[2] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure2_slot0;
-                if(!mike) { _fun00002_ip = 22; continue _fun00001 }
+                michal = _closure2_slot0;
+                if(!michal) { _fun00002_ip = 22; continue _fun00001 }
  10:
-                zulu = _closure2_slot3;
-                zulu = zulu.current;
-                mike = !zulu;
+                zuuluu = _closure2_slot3;
+                zuuluu = zuuluu.current;
+                michal = !zuuluu;
  22:
-                if(!mike) { _fun00002_ip = 45; continue _fun00001 }
+                if(!michal) { _fun00002_ip = 45; continue _fun00001 }
  25:
-                tango = _closure2_slot2;
-                zulu = undefined;
-                mike = function() {
-                    mike = _closure2_slot1;
+                tangon = _closure2_slot2;
+                zuuluu = undefined;
+                michal = function() {
+                    michal = _closure2_slot1;
                     entity = undefined;
-                    mike = mike.bind(entity)();
+                    michal = michal.bind(entity)();
                     return entity;
                 };
-                mike = tango.bind(zulu)(mike);
+                michal = tangon.bind(zuuluu)(michal);
  45:
-                mike = _closure2_slot3;
+                michal = _closure2_slot3;
                 entity = true;
-                mike['current'] = entity;
+                michal['current'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['useAnimationDelayedAutoFocus'] = mike;
+    zuuluu['useAnimationDelayedAutoFocus'] = michal;
     return entity;
 })();

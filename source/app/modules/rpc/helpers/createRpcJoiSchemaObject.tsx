@@ -1,32 +1,32 @@
 // app/modules/rpc/helpers/createRpcJoiSchemaObject.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/rpc/helpers/createRpcJoiSchemaObject.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: createRpcJoiSchemaObject
-        mike = argFoo;
-        entity = mike.object;
-        zulu = entity.bind(mike)();
-        mike = zulu.unknown;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/rpc/helpers/createRpcJoiSchemaObject.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: createRpcJoiSchemaObject
+        michal = argFoo;
+        entity = michal.object;
+        zuuluu = entity.bind(michal)();
+        michal = zuuluu.unknown;
         entity = true;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

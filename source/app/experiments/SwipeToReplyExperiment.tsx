@@ -1,59 +1,59 @@
 // app/experiments/SwipeToReplyExperiment.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.LaunchPadTypes;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'experiments/SwipeToReplyExperiment.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useIsMessageSwipeActionsEnabled
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.LaunchPadTypes;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'experiments/SwipeToReplyExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useIsMessageSwipeActionsEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            mike = 1;
-            mike = report[mike];
-            tango = undefined;
-            mike = zulu.bind(tango)(mike);
-            zulu = mike.bind(tango)();
-            mike = _closure1_slot3;
-            mike = mike.GESTURE_FULL;
-            zulu = zulu === mike;
-            mike = _closure1_slot0;
+            michal = 1;
+            michal = report[michal];
+            tangon = undefined;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.bind(tangon)();
+            michal = _closure1_slot3;
+            michal = michal.GESTURE_FULL;
+            zuuluu = zuuluu === michal;
+            michal = _closure1_slot0;
             entity = 2;
             entity = report[entity];
-            mike = mike.bind(tango)(entity);
-            entity = mike.useIsSwipeToMemberListAllowed;
-            mike = entity.bind(mike)();
-            entity = !zulu;
-            if(zulu) { _fun00002_ip = 78; continue _fun00001 }
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useIsSwipeToMemberListAllowed;
+            michal = entity.bind(michal)();
+            entity = !zuuluu;
+            if(zuuluu) { _fun00002_ip = 78; continue _fun00001 }
  75:
-            entity = !mike;
+            entity = !michal;
  78:
             return entity;
         }
     };
-    zulu['useIsMessageSwipeActionsEnabled'] = mike;
+    zuuluu['useIsMessageSwipeActionsEnabled'] = michal;
     return entity;
 })();

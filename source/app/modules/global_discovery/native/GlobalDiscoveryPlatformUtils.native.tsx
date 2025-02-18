@@ -1,83 +1,83 @@
 // app/modules/global_discovery/native/GlobalDiscoveryPlatformUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GlobalDiscoveryTab;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/global_discovery/native/GlobalDiscoveryPlatformUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: navigateToGlobalDiscovery
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GlobalDiscoveryTab;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/global_discovery/native/GlobalDiscoveryPlatformUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: navigateToGlobalDiscovery
         entity = argFoo;
-        oscar = entity.initialTab;
+        oscard = entity.initialTab;
         report = entity.options;
-        tango = _closure1_slot2;
-        zulu = tango.setState;
-        mike = {};
-        mike['selectedTab'] = oscar;
-        mike = zulu.bind(tango)(mike);
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.setState;
+        michal = {};
+        michal['selectedTab'] = oscard;
+        michal = zuuluu.bind(tangon)(michal);
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.navigateToRootTab;
-        mike = {};
-        oscar = 'discovery';
-        mike['screen'] = oscar;
-        mike['options'] = report;
-        mike = zulu.bind(tango)(mike);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.navigateToRootTab;
+        michal = {};
+        oscard = 'discovery';
+        michal['screen'] = oscard;
+        michal['options'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['navigateToGlobalDiscovery'] = tango;
-    mike = function() { // Original name: handleGlobalDiscoveryTabPress
+    zuuluu['navigateToGlobalDiscovery'] = tangon;
+    michal = function() { // Original name: handleGlobalDiscoveryTabPress
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            zulu = tango.getField;
-            mike = 'selectedTab';
-            zulu = zulu.bind(tango)(mike);
-            mike = _closure1_slot3;
-            mike = mike.SERVERS;
-            if(!(zulu === mike)) { _fun00002_ip = 68; continue _fun00001 }
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getField;
+            michal = 'selectedTab';
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = _closure1_slot3;
+            michal = michal.SERVERS;
+            if(!(zuuluu === michal)) { _fun00002_ip = 68; continue _fun00001 }
  36:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            entity = mike.handleTabPressPrefetch;
-            entity = entity.bind(mike)();
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.handleTabPressPrefetch;
+            entity = entity.bind(michal)();
  68:
             entity = undefined;
             return entity;
         }
     };
-    zulu['handleGlobalDiscoveryTabPress'] = mike;
+    zuuluu['handleGlobalDiscoveryTabPress'] = michal;
     return entity;
 })();

@@ -1,45 +1,45 @@
 // app/modules/markup/ChannelUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.isGuildSelectableChannelType;
-    var _closure1_slot0 = golf;
-    tango = tango.isGuildVocalChannelType;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/ChannelUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isChannelTypeMentionable
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.isGuildSelectableChannelType;
+    var _closure1_slot0 = golfie;
+    tangon = tangon.isGuildVocalChannelType;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/ChannelUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isChannelTypeMentionable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = _closure1_slot0;
-            zulu = undefined;
-            entity = entity.bind(zulu)(tango);
+            zuuluu = undefined;
+            entity = entity.bind(zuuluu)(tangon);
             if(entity) { _fun00002_ip = 29; continue _fun00001 }
  20:
-            mike = _closure1_slot1;
-            entity = mike.bind(zulu)(tango);
+            michal = _closure1_slot1;
+            entity = michal.bind(zuuluu)(tangon);
  29:
             return entity;
         }
     };
-    zulu['isChannelTypeMentionable'] = mike;
+    zuuluu['isChannelTypeMentionable'] = michal;
     return entity;
 })();

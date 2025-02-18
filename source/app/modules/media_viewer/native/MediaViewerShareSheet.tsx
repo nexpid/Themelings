@@ -1,83 +1,83 @@
 // app/modules/media_viewer/native/MediaViewerShareSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.AnalyticEvents;
-    var _closure1_slot3 = golf;
-    tango = tango.AnalyticsSections;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_viewer/native/MediaViewerShareSheet.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: showShareActionSheetForSource
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AnalyticEvents;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.AnalyticsSections;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_viewer/native/MediaViewerShareSheet.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: showShareActionSheetForSource
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.videoURI;
-            mike = null;
-            if(!(mike == zulu)) { _fun00002_ip = 23; continue _fun00001 }
+            zuuluu = entity.videoURI;
+            michal = null;
+            if(!(michal == zuuluu)) { _fun00002_ip = 23; continue _fun00001 }
  15:
-            zulu = entity.uri;
+            zuuluu = entity.uri;
             _fun00002_ip = 29; continue _fun00001;
  23:
-            zulu = entity.videoURI;
+            zuuluu = entity.videoURI;
  29:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             report = _closure1_slot2;
             entity = 1;
-            tango = report[entity];
+            tangon = report[entity];
             entity = undefined;
-            tango = golf.bind(entity)(tango);
-            oscar = tango.useMediaViewerSessionManager;
-            tango = oscar.getState;
-            oscar = tango.bind(oscar)();
-            tango = 2;
-            tango = report[tango];
-            options = golf.bind(entity)(tango);
-            golf = options.showShareActionSheet;
-            tango = {};
-            tango['url'] = zulu;
-            zulu = _closure1_slot4;
-            zulu = zulu.MEDIA_VIEWER;
-            zulu = golf.bind(options)(tango, zulu);
-            tango = _closure1_slot1;
-            zulu = 3;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.track;
-            mike = _closure1_slot3;
-            zulu = mike.MEDIA_VIEWER_SHARE_BUTTON_TAPPED;
-            mike = {};
-            golf = oscar.guildId;
-            mike['guild_id'] = golf;
-            golf = oscar.channelId;
-            mike['channel_id'] = golf;
-            oscar = oscar.channelType;
-            mike['channel_type'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            tangon = golfie.bind(entity)(tangon);
+            oscard = tangon.useMediaViewerSessionManager;
+            tangon = oscard.getState;
+            oscard = tangon.bind(oscard)();
+            tangon = 2;
+            tangon = report[tangon];
+            option = golfie.bind(entity)(tangon);
+            golfie = option.showShareActionSheet;
+            tangon = {};
+            tangon['url'] = zuuluu;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.MEDIA_VIEWER;
+            zuuluu = golfie.bind(option)(tangon, zuuluu);
+            tangon = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot3;
+            zuuluu = michal.MEDIA_VIEWER_SHARE_BUTTON_TAPPED;
+            michal = {};
+            golfie = oscard.guildId;
+            michal['guild_id'] = golfie;
+            golfie = oscard.channelId;
+            michal['channel_id'] = golfie;
+            oscard = oscard.channelType;
+            michal['channel_type'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

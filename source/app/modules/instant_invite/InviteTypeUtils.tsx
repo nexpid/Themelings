@@ -1,202 +1,202 @@
 // app/modules/instant_invite/InviteTypeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    options = argBar;
-    zulu = argFred;
-    verify = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    option = argBar;
+    zuuluu = argFre;
+    verify = argPlu;
     report = function(argFoo) { // Original name: isGroupDMInvite
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.type;
+            zuuluu = argFoo;
+            michal = zuuluu.type;
             entity = _closure1_slot3;
             entity = entity.GROUP_DM;
-            entity = mike === entity;
+            entity = michal === entity;
             if(entity) { _fun00002_ip = 66; continue _fun00001 }
  28:
-            report = zulu.channel;
-            mike = null;
-            mike = mike != report;
-            if(!mike) { _fun00002_ip = 63; continue _fun00001 }
+            report = zuuluu.channel;
+            michal = null;
+            michal = michal != report;
+            if(!michal) { _fun00002_ip = 63; continue _fun00001 }
  42:
             report = _closure1_slot1;
-            zulu = zulu.channel;
-            tango = zulu.type;
-            zulu = undefined;
-            mike = report.bind(zulu)(tango);
+            zuuluu = zuuluu.channel;
+            tangon = zuuluu.type;
+            zuuluu = undefined;
+            michal = report.bind(zuuluu)(tangon);
  63:
-            entity = mike;
+            entity = michal;
  66:
             return entity;
         }
     };
     var _closure1_slot4 = report;
-    tango = function(argFoo) { // Original name: isFriendInvite
+    tangon = function(argFoo) { // Original name: isFriendInvite
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.type;
+            zuuluu = argFoo;
+            michal = zuuluu.type;
             entity = _closure1_slot3;
             entity = entity.FRIEND;
-            entity = mike === entity;
+            entity = michal === entity;
             if(entity) { _fun00004_ip = 55; continue _fun00003 }
  28:
-            mike = zulu.guild;
-            tango = null;
-            mike = tango == mike;
-            if(!mike) { _fun00004_ip = 52; continue _fun00003 }
+            michal = zuuluu.guild;
+            tangon = null;
+            michal = tangon == michal;
+            if(!michal) { _fun00004_ip = 52; continue _fun00003 }
  42:
-            zulu = zulu.inviter;
-            mike = tango != zulu;
+            zuuluu = zuuluu.inviter;
+            michal = tangon != zuuluu;
  52:
-            entity = mike;
+            entity = michal;
  55:
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
     offset = entity.Object;
-    golf = offset.defineProperty;
-    oscar = {};
+    golfie = offset.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(offset)(zulu, entity, oscar);
+    entity = golfie.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = verify[entity];
+    oscard = verify[entity];
     entity = undefined;
-    oscar = options.bind(entity)(oscar);
-    oscar = oscar.isEventUpcoming;
-    var _closure1_slot0 = oscar;
-    oscar = 1;
-    oscar = verify[oscar];
-    oscar = options.bind(entity)(oscar);
-    oscar = oscar.isMultiUserDM;
-    var _closure1_slot1 = oscar;
-    oscar = 2;
-    golf = verify[oscar];
-    golf = options.bind(entity)(golf);
-    offset = golf.InviteTargetTypes;
+    oscard = option.bind(entity)(oscard);
+    oscard = oscard.isEventUpcoming;
+    var _closure1_slot0 = oscard;
+    oscard = 1;
+    oscard = verify[oscard];
+    oscard = option.bind(entity)(oscard);
+    oscard = oscard.isMultiUserDM;
+    var _closure1_slot1 = oscard;
+    oscard = 2;
+    golfie = verify[oscard];
+    golfie = option.bind(entity)(golfie);
+    offset = golfie.InviteTargetTypes;
     var _closure1_slot2 = offset;
-    golf = golf.InviteTypes;
-    var _closure1_slot3 = golf;
-    oscar = verify[oscar];
-    oscar = options.bind(entity)(oscar);
-    oscar = oscar.InviteTypes;
-    golf = 3;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/instant_invite/InviteTypeUtils.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['InviteTypes'] = oscar;
-    zulu['isGroupDMInvite'] = report;
+    golfie = golfie.InviteTypes;
+    var _closure1_slot3 = golfie;
+    oscard = verify[oscard];
+    oscard = option.bind(entity)(oscard);
+    oscard = oscard.InviteTypes;
+    golfie = 3;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/instant_invite/InviteTypeUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['InviteTypes'] = oscard;
+    zuuluu['isGroupDMInvite'] = report;
     report = function(argFoo) { // Original name: isGuildScheduledEventInviteEmbed
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            tango = entity.guild_scheduled_event;
+            tangon = entity.guild_scheduled_event;
             entity = null;
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00006_ip = 32; continue _fun00005 }
  18:
-            zulu = _closure1_slot0;
-            mike = undefined;
-            entity = zulu.bind(mike)(tango);
+            zuuluu = _closure1_slot0;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(tangon);
  32:
             return entity;
         }
     };
-    zulu['isGuildScheduledEventInviteEmbed'] = report;
+    zuuluu['isGuildScheduledEventInviteEmbed'] = report;
     report = function(argFoo) { // Original name: isRoleSubscriptionInvite
         entity = argFoo;
-        mike = entity.target_type;
+        michal = entity.target_type;
         entity = _closure1_slot2;
         entity = entity.ROLE_SUBSCRIPTIONS_PURCHASE;
-        entity = mike === entity;
+        entity = michal === entity;
         return entity;
     };
-    zulu['isRoleSubscriptionInvite'] = report;
+    zuuluu['isRoleSubscriptionInvite'] = report;
     report = function(argFoo) { // Original name: isStageInviteEmbed
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            entity = mike.channel;
-            zulu = null;
-            entity = zulu != entity;
+            michal = argFoo;
+            entity = michal.channel;
+            zuuluu = null;
+            entity = zuuluu != entity;
             if(!entity) { _fun00008_ip = 27; continue _fun00007 }
  17:
-            mike = mike.stage_instance;
-            entity = zulu != mike;
+            michal = michal.stage_instance;
+            entity = zuuluu != michal;
  27:
             return entity;
         }
     };
-    zulu['isStageInviteEmbed'] = report;
+    zuuluu['isStageInviteEmbed'] = report;
     report = function(argFoo) { // Original name: isStreamInvite
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.target_type;
+            michal = argFoo;
+            zuuluu = michal.target_type;
             entity = _closure1_slot2;
             entity = entity.STREAM;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(!entity) { _fun00010_ip = 41; continue _fun00009 }
  29:
-            zulu = mike.target_user;
-            mike = null;
-            entity = mike != zulu;
+            zuuluu = michal.target_user;
+            michal = null;
+            entity = michal != zuuluu;
  41:
             return entity;
         }
     };
-    zulu['isStreamInvite'] = report;
-    zulu['isFriendInvite'] = tango;
-    tango = function(argFoo) { // Original name: isEmbeddedApplicationInvite
+    zuuluu['isStreamInvite'] = report;
+    zuuluu['isFriendInvite'] = tangon;
+    tangon = function(argFoo) { // Original name: isEmbeddedApplicationInvite
         entity = argFoo;
-        mike = entity.target_type;
+        michal = entity.target_type;
         entity = _closure1_slot2;
         entity = entity.EMBEDDED_APPLICATION;
-        entity = mike === entity;
+        entity = michal === entity;
         return entity;
     };
-    zulu['isEmbeddedApplicationInvite'] = tango;
-    mike = function(argFoo) { // Original name: getInviteType
+    zuuluu['isEmbeddedApplicationInvite'] = tangon;
+    michal = function(argFoo) { // Original name: getInviteType
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            mike = argFoo;
-            entity = mike.type;
-            zulu = 'number';
+            michal = argFoo;
+            entity = michal.type;
+            zuuluu = 'number';
             entity = typeof entity;
-            if(!(zulu !== entity)) { _fun00012_ip = 80; continue _fun00011 }
+            if(!(zuuluu !== entity)) { _fun00012_ip = 80; continue _fun00011 }
  19:
             entity = _closure1_slot4;
-            tango = undefined;
-            entity = entity.bind(tango)(mike);
+            tangon = undefined;
+            entity = entity.bind(tangon)(michal);
             if(entity) { _fun00012_ip = 68; continue _fun00011 }
  36:
             entity = _closure1_slot5;
-            entity = entity.bind(tango)(mike);
-            tango = _closure1_slot3;
+            entity = entity.bind(tangon)(michal);
+            tangon = _closure1_slot3;
             if(entity) { _fun00012_ip = 60; continue _fun00011 }
  52:
-            entity = tango.GUILD;
+            entity = tangon.GUILD;
             _fun00012_ip = 66; continue _fun00011;
  60:
-            entity = tango.FRIEND;
+            entity = tangon.FRIEND;
  66:
             _fun00012_ip = 78; continue _fun00011;
  68:
-            zulu = _closure1_slot3;
-            entity = zulu.GROUP_DM;
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.GROUP_DM;
  78:
             _fun00012_ip = 85; continue _fun00011;
  80:
-            entity = mike.type;
+            entity = michal.type;
  85:
             return entity;
         }
     };
-    zulu['getInviteType'] = mike;
+    zuuluu['getInviteType'] = michal;
     return entity;
 })();

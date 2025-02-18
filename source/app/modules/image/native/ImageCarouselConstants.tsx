@@ -1,28 +1,28 @@
 // app/modules/image/native/ImageCarouselConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/image/native/ImageCarouselConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 60;
-    zulu['IMAGE_CAROUSEL_TILE_HEIGHT'] = mike;
-    mike = 6;
-    zulu['IMAGE_CAROUSEL_EXPERIMENT_TILE_MARGIN'] = mike;
-    mike = 8;
-    zulu['IMAGE_CAROUSEL_TILE_CLOSE_BUTTON_PADDING'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/image/native/ImageCarouselConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 60;
+    zuuluu['IMAGE_CAROUSEL_TILE_HEIGHT'] = michal;
+    michal = 6;
+    zuuluu['IMAGE_CAROUSEL_EXPERIMENT_TILE_MARGIN'] = michal;
+    michal = 8;
+    zuuluu['IMAGE_CAROUSEL_TILE_CLOSE_BUTTON_PADDING'] = michal;
     return entity;
 })();

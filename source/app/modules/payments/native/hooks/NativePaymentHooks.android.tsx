@@ -1,96 +1,96 @@
 // app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = argBar;
     yankee = argBaz;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = offset;
     entity = function() { // Original name: notSupported
         entity = global;
-        zulu = entity.Error;
-        entity = zulu.prototype;
-        mike = Object.create(entity, {constructor: {value: zulu}});
-        tango = 'Native hook not supported for android';
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        zuuluu = entity.Error;
+        entity = zuuluu.prototype;
+        michal = Object.create(entity, {constructor: {value: zuuluu}});
+        tangon = 'Native hook not supported for android';
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         throw entity;
     };
     var _closure1_slot7 = entity;
-    oscar = function(argFoo) { // Original name: useNativeIAPPayments
-        mike = argFoo;
-        golf = mike.productIds;
-        var _closure2_slot0 = golf;
-        options = mike.fetchingProductIDs;
-        var _closure2_slot1 = options;
+    oscard = function(argFoo) { // Original name: useNativeIAPPayments
+        michal = argFoo;
+        golfie = michal.productIds;
+        var _closure2_slot0 = golfie;
+        option = michal.fetchingProductIDs;
+        var _closure2_slot1 = option;
         report = _closure1_slot5;
-        zulu = report.useState;
-        mike = false;
-        zulu = zulu.bind(report)(mike);
-        mike = _closure1_slot4;
+        zuuluu = report.useState;
+        michal = false;
+        zuuluu = zuuluu.bind(report)(michal);
+        michal = _closure1_slot4;
         yankee = undefined;
         offset = 2;
-        report = mike.bind(yankee)(zulu, offset);
-        mike = 0;
-        zulu = report[mike];
-        var _closure2_slot2 = zulu;
-        oscar = 1;
-        report = report[oscar];
+        report = michal.bind(yankee)(zuuluu, offset);
+        michal = 0;
+        zuuluu = report[michal];
+        var _closure2_slot2 = zuuluu;
+        oscard = 1;
+        report = report[oscard];
         var _closure2_slot3 = report;
-        romeo = _closure1_slot5;
-        verify = romeo.useRef;
+        romeon = _closure1_slot5;
+        verify = romeon.useRef;
         report = new Array(0);
-        report = verify.bind(romeo)(report);
+        report = verify.bind(romeon)(report);
         var _closure2_slot4 = report;
-        romeo = _closure1_slot5;
-        verify = romeo.useState;
+        romeon = _closure1_slot5;
+        verify = romeon.useState;
         report = null;
-        verify = verify.bind(romeo)(report);
+        verify = verify.bind(romeon)(report);
         report = _closure1_slot4;
         report = report.bind(yankee)(verify, offset);
-        mike = report[mike];
-        report = report[oscar];
+        michal = report[michal];
+        report = report[oscard];
         var _closure2_slot5 = report;
-        oscar = _closure1_slot5;
-        report = oscar.useEffect;
-        tango = new Array(3);
-        tango[0] = options;
-        tango[1] = zulu;
-        tango[2] = golf;
+        oscard = _closure1_slot5;
+        report = oscard.useEffect;
+        tangon = new Array(3);
+        tangon[0] = option;
+        tangon[1] = zuuluu;
+        tangon[2] = golfie;
         entity = function() {
-            mike = function() { // Original name: _fetch
-                tango = undefined;
+            michal = function() { // Original name: _fetch
+                tangon = undefined;
                 entity = undefined;
-                zulu = _closure1_slot3;
-                mike = function* () {
+                zuuluu = _closure1_slot3;
+                michal = function* () {
                     entity = function* () { // Original name: ?anon_0_
                         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun00002_ip = 337; continue _fun00001 }
+                            if(michal) { _fun00002_ip = 337; continue _fun00001 }
  10:
-                            mike = undefined;
-                            oscar = undefined;
-                            zulu = _closure2_slot1;
-                            if(!zulu) { _fun00002_ip = 38; continue _fun00001 }
+                            michal = undefined;
+                            oscard = undefined;
+                            zuuluu = _closure2_slot1;
+                            if(!zuuluu) { _fun00002_ip = 38; continue _fun00001 }
  24:
                             report = _closure2_slot4;
-                            zulu = new Array(0);
-                            report['current'] = zulu;
+                            zuuluu = new Array(0);
+                            report['current'] = zuuluu;
  38:
-                            golf = _closure1_slot1;
+                            golfie = _closure1_slot1;
                             report = _closure1_slot2;
                             offset = 4;
                             report = report[offset];
-                            verify = golf.bind(mike)(report);
-                            options = verify.difference;
-                            golf = _closure2_slot0;
+                            verify = golfie.bind(michal)(report);
+                            option = verify.difference;
+                            golfie = _closure2_slot0;
                             report = _closure2_slot4;
                             report = report.current;
-                            oscar = options.bind(verify)(golf, report);
+                            oscard = option.bind(verify)(golfie, report);
                             report = _closure2_slot2;
                             if(report) { _fun00002_ip = 334; continue _fun00001 }
  96:
@@ -99,215 +99,215 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  106:
                             report = _closure2_slot0;
                             report = report.length;
-                            golf = 0;
-                            if(!(golf !== report)) { _fun00002_ip = 334; continue _fun00001 }
+                            golfie = 0;
+                            if(!(golfie !== report)) { _fun00002_ip = 334; continue _fun00001 }
  124:
-                            report = oscar;
+                            report = oscard;
                             report = report.length;
-                            if(!(golf !== report)) { _fun00002_ip = 334; continue _fun00001 }
+                            if(!(golfie !== report)) { _fun00002_ip = 334; continue _fun00001 }
  139:
-                            golf = _closure2_slot3;
+                            golfie = _closure2_slot3;
                             report = true;
-                            report = golf.bind(mike)(report);
+                            report = golfie.bind(michal)(report);
  150: // try_start_0
-                            golf = _closure1_slot0;
-                            options = _closure1_slot2;
+                            golfie = _closure1_slot0;
+                            option = _closure1_slot2;
                             report = 5;
-                            report = options[report];
-                            options = golf.bind(mike)(report);
-                            golf = options.loadInAppSkus;
-                            report = oscar;
-                            report = golf.bind(options)(report);
+                            report = option[report];
+                            option = golfie.bind(michal)(report);
+                            golfie = option.loadInAppSkus;
+                            report = oscard;
+                            report = golfie.bind(option)(report);
                             SaveGenerator(address=188);
  186:
                             return report;
  188:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golf) { _fun00002_ip = 262; continue _fun00001 }
+                            if(golfie) { _fun00002_ip = 262; continue _fun00001 }
  194:
-                            golf = _closure2_slot4;
+                            golfie = _closure2_slot4;
                             verify = _closure1_slot1;
-                            options = _closure1_slot2;
-                            options = options[offset];
-                            offset = verify.bind(mike)(options);
+                            option = _closure1_slot2;
+                            option = option[offset];
+                            offset = verify.bind(michal)(option);
                             verify = offset.union;
-                            options = golf.current;
-                            oscar = verify.bind(offset)(options, oscar);
-                            golf['current'] = oscar;
-                            golf = _closure2_slot3;
-                            oscar = false;
-                            oscar = golf.bind(mike)(oscar);
-                            golf = _closure2_slot5;
-                            oscar = null;
-                            oscar = golf.bind(mike)(oscar);
+                            option = golfie.current;
+                            oscard = verify.bind(offset)(option, oscard);
+                            golfie['current'] = oscard;
+                            golfie = _closure2_slot3;
+                            oscard = false;
+                            oscard = golfie.bind(michal)(oscard);
+                            golfie = _closure2_slot5;
+                            oscard = null;
+                            oscard = golfie.bind(michal)(oscard);
  260: // try_end0
                             _fun00002_ip = 334; continue _fun00001;
  262:
                             return report;
  265: // catch_target0
                             CatchBlockStart(arg_register=4);
-                            options = _closure1_slot6;
-                            golf = options.error;
-                            oscar = 'Unable to fetch product IDs from google play store: ';
-                            oscar = golf.bind(options)(oscar, report);
-                            oscar = _closure2_slot5;
-                            tango = 'Unable to fetch';
-                            tango = oscar.bind(mike)(tango);
-                            tango = _closure1_slot0;
-                            oscar = _closure1_slot2;
-                            zulu = 6;
-                            zulu = oscar[zulu];
-                            tango = tango.bind(mike)(zulu);
-                            zulu = tango.captureBillingException;
-                            zulu = zulu.bind(tango)(report);
+                            option = _closure1_slot6;
+                            golfie = option.error;
+                            oscard = 'Unable to fetch product IDs from google play store: ';
+                            oscard = golfie.bind(option)(oscard, report);
+                            oscard = _closure2_slot5;
+                            tangon = 'Unable to fetch';
+                            tangon = oscard.bind(michal)(tangon);
+                            tangon = _closure1_slot0;
+                            oscard = _closure1_slot2;
+                            zuuluu = 6;
+                            zuuluu = oscard[zuuluu];
+                            tangon = tangon.bind(michal)(zuuluu);
+                            zuuluu = tangon.captureBillingException;
+                            zuuluu = zuuluu.bind(tangon)(report);
  334:
-                            return mike;
+                            return michal;
  337:
                             return entity;
                         }
                     };
                     return entity;
                 };
-                tango = zulu.bind(tango)(mike);
-                _closure3_slot0 = tango;
-                zulu = tango.apply;
+                tangon = zuuluu.bind(tangon)(michal);
+                _closure3_slot0 = tangon;
+                zuuluu = tangon.apply;
                 entity = arguments;
-                mike = entity;
+                michal = entity;
                 entity = this;
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
-            var _closure3_slot0 = mike;
-            mike = function() { // Original name: fetch
+            var _closure3_slot0 = michal;
+            michal = function() { // Original name: fetch
                 entity = undefined;
-                tango = _closure3_slot0;
-                zulu = tango.apply;
+                tangon = _closure3_slot0;
+                zuuluu = tangon.apply;
                 entity = arguments;
-                mike = entity;
+                michal = entity;
                 entity = this;
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
             entity = undefined;
-            mike = mike.bind(entity)();
-            mike = !mike;
+            michal = michal.bind(entity)();
+            michal = !michal;
             return entity;
         };
-        entity = report.bind(oscar)(entity, tango);
+        entity = report.bind(oscard)(entity, tangon);
         entity = {'nativePaymentsConnected': true, 'storeFront': null};
-        entity['isFetchingNativeSKUs'] = zulu;
-        entity['fetchError'] = mike;
+        entity['isFetchingNativeSKUs'] = zuuluu;
+        entity['fetchError'] = michal;
         return entity;
     };
-    var _closure1_slot8 = oscar;
+    var _closure1_slot8 = oscard;
     report = function(argFoo) { // Original name: useResubscribeSubscription
         entity = {};
-        zulu = _closure1_slot7;
-        entity['resubscribeSubscription'] = zulu;
-        tango = _closure1_slot8;
-        zulu = {};
-        mike = new Array(0);
-        zulu['productIds'] = mike;
-        mike = false;
-        zulu['fetchingProductIDs'] = mike;
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        mike = mike.nativePaymentsConnected;
-        entity['nativePaymentsConnected'] = mike;
+        zuuluu = _closure1_slot7;
+        entity['resubscribeSubscription'] = zuuluu;
+        tangon = _closure1_slot8;
+        zuuluu = {};
+        michal = new Array(0);
+        zuuluu['productIds'] = michal;
+        michal = false;
+        zuuluu['fetchingProductIDs'] = michal;
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        michal = michal.nativePaymentsConnected;
+        entity['nativePaymentsConnected'] = michal;
         return entity;
     };
-    tango = function(argFoo) { // Original name: useCancelSubscription
+    tangon = function(argFoo) { // Original name: useCancelSubscription
         entity = {};
-        zulu = _closure1_slot7;
-        entity['cancelSubscription'] = zulu;
-        tango = _closure1_slot8;
-        zulu = {};
-        mike = new Array(0);
-        zulu['productIds'] = mike;
-        mike = false;
-        zulu['fetchingProductIDs'] = mike;
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        mike = mike.nativePaymentsConnected;
-        entity['nativePaymentsConnected'] = mike;
+        zuuluu = _closure1_slot7;
+        entity['cancelSubscription'] = zuuluu;
+        tangon = _closure1_slot8;
+        zuuluu = {};
+        michal = new Array(0);
+        zuuluu['productIds'] = michal;
+        michal = false;
+        zuuluu['fetchingProductIDs'] = michal;
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        michal = michal.nativePaymentsConnected;
+        entity['nativePaymentsConnected'] = michal;
         return entity;
     };
-    mike = function(argFoo) { // Original name: useCreateSubscription
+    michal = function(argFoo) { // Original name: useCreateSubscription
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00004_ip = 65; continue _fun00003 }
+            if(!(michal != entity)) { _fun00004_ip = 65; continue _fun00003 }
  9:
             entity = {};
-            tango = _closure1_slot7;
-            entity['createSubscription'] = tango;
+            tangon = _closure1_slot7;
+            entity['createSubscription'] = tangon;
             report = _closure1_slot8;
-            tango = {};
-            zulu = new Array(0);
-            tango['productIds'] = zulu;
-            zulu = false;
-            tango['fetchingProductIDs'] = zulu;
-            zulu = undefined;
-            zulu = report.bind(zulu)(tango);
-            zulu = zulu.nativePaymentsConnected;
-            entity['nativePaymentsConnected'] = zulu;
+            tangon = {};
+            zuuluu = new Array(0);
+            tangon['productIds'] = zuuluu;
+            zuuluu = false;
+            tangon['fetchingProductIDs'] = zuuluu;
+            zuuluu = undefined;
+            zuuluu = report.bind(zuuluu)(tangon);
+            zuuluu = zuuluu.nativePaymentsConnected;
+            entity['nativePaymentsConnected'] = zuuluu;
             return entity;
  65:
-            oscar = "Cannot destructure 'undefined' or 'null'.";
-            golf = mike;
-            entity = throwTypeError(golf, oscar);
+            oscard = "Cannot destructure 'undefined' or 'null'.";
+            golfie = michal;
+            entity = throwTypeError(golfie, oscard);
             entity = undefined;
             throw entity;
         }
     };
     entity = global;
-    foxtrot = entity.Object;
-    romeo = foxtrot.defineProperty;
-    golf = {};
+    foxtra = entity.Object;
+    romeon = foxtra.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = romeo.bind(foxtrot)(zulu, entity, golf);
+    entity = romeon.bind(foxtra)(zuuluu, entity, golfie);
     entity = 0;
-    golf = offset[entity];
+    golfie = offset[entity];
     entity = undefined;
-    golf = yankee.bind(entity)(golf);
-    var _closure1_slot3 = golf;
-    golf = 1;
-    golf = offset[golf];
-    golf = yankee.bind(entity)(golf);
-    var _closure1_slot4 = golf;
-    golf = 2;
-    romeo = offset[golf];
-    golf = argCorge;
-    golf = golf.bind(entity)(romeo);
-    var _closure1_slot5 = golf;
-    golf = 3;
-    golf = offset[golf];
-    romeo = yankee.bind(entity)(golf);
-    golf = romeo.prototype;
-    yankee = Object.create(golf, {constructor: {value: romeo}});
+    golfie = yankee.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
+    golfie = 1;
+    golfie = offset[golfie];
+    golfie = yankee.bind(entity)(golfie);
+    var _closure1_slot4 = golfie;
+    golfie = 2;
+    romeon = offset[golfie];
+    golfie = argCor;
+    golfie = golfie.bind(entity)(romeon);
+    var _closure1_slot5 = golfie;
+    golfie = 3;
+    golfie = offset[golfie];
+    romeon = yankee.bind(entity)(golfie);
+    golfie = romeon.prototype;
+    yankee = Object.create(golfie, {constructor: {value: romeon}});
     sizing = 'NativePaymentHooks.android.tsx';
     output = yankee;
-    golf = new output[romeo](sizing, kilo);
-    golf = golf instanceof Object ? golf : yankee;
-    var _closure1_slot6 = golf;
-    golf = {};
-    golf['useNativeIAPPayments'] = oscar;
-    golf['useCreateSubscription'] = mike;
-    golf['useCancelSubscription'] = tango;
-    golf['useResubscribeSubscription'] = report;
-    options = 7;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    golfie = new output[romeon](sizing, kiloes);
+    golfie = golfie instanceof Object ? golfie : yankee;
+    var _closure1_slot6 = golfie;
+    golfie = {};
+    golfie['useNativeIAPPayments'] = oscard;
+    golfie['useCreateSubscription'] = michal;
+    golfie['useCancelSubscription'] = tangon;
+    golfie['useResubscribeSubscription'] = report;
+    option = 7;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/payments/native/hooks/NativePaymentHooks.android.tsx';
-    options = verify.bind(offset)(options);
-    zulu['default'] = golf;
-    zulu['useNativeIAPPayments'] = oscar;
-    zulu['useResubscribeSubscription'] = report;
-    zulu['useCancelSubscription'] = tango;
-    zulu['useCreateSubscription'] = mike;
+    option = 'modules/payments/native/hooks/NativePaymentHooks.android.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['default'] = golfie;
+    zuuluu['useNativeIAPPayments'] = oscard;
+    zuuluu['useResubscribeSubscription'] = report;
+    zuuluu['useCancelSubscription'] = tangon;
+    zuuluu['useCreateSubscription'] = michal;
     return entity;
 })();

@@ -1,105 +1,105 @@
 // app/modules/fastest_list/getFastestListVisibleItemsDefault.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/fastest_list/getFastestListVisibleItemsDefault.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: getFastestListVisibleItemsDefault
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/fastest_list/getFastestListVisibleItemsDefault.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: getFastestListVisibleItemsDefault
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.estimatedListSize;
             entity = entity.sectionsVersioned;
-            foxtrot = entity.itemSizeIsUniform;
-            romeo = entity.itemSizes;
+            foxtra = entity.itemSizeIsUniform;
+            romeon = entity.itemSizes;
             yankee = entity.listHeaderSize;
-            mike = entity.sectionsId;
+            michal = entity.sectionsId;
             offset = entity.sections;
             verify = entity.sectionFooterSizeIsUniform;
-            options = entity.sectionFooterSizes;
-            golf = entity.sectionHeaderSizeIsUniform;
-            oscar = entity.sectionHeaderSizes;
+            option = entity.sectionFooterSizes;
+            golfie = entity.sectionHeaderSizeIsUniform;
+            oscard = entity.sectionHeaderSizes;
             entity = {'sectionsId': null, 'sectionStart': 0, 'sectionEnd': 0, 'itemStart': 0, 'itemEnd': 4294967295};
-            entity['sectionsId'] = mike;
+            entity['sectionsId'] = michal;
             report = 0;
             if(!(!(yankee >= backup))) { _fun00002_ip = 302; continue _fun00001 }
  98:
-            mike = offset.length;
-            mike = report < mike;
-            zulu = 0;
-            tango = undefined;
-            if(!mike) { _fun00002_ip = 300; continue _fun00001 }
+            michal = offset.length;
+            michal = report < michal;
+            zuuluu = 0;
+            tangon = undefined;
+            if(!michal) { _fun00002_ip = 300; continue _fun00001 }
  117:
-            mike = offset[zulu];
-            kilo = yankee;
-            if(!(report !== mike)) { _fun00002_ip = 282; continue _fun00001 }
+            michal = offset[zuuluu];
+            kiloes = yankee;
+            if(!(report !== michal)) { _fun00002_ip = 282; continue _fun00001 }
  131:
-            entity['sectionEnd'] = zulu;
+            entity['sectionEnd'] = zuuluu;
             entity['itemEnd'] = report;
-            if(golf) { _fun00002_ip = 152; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 152; continue _fun00001 }
  146:
-            mike = oscar[zulu];
+            michal = oscard[zuuluu];
             _fun00002_ip = 156; continue _fun00001;
  152:
-            mike = oscar[report];
+            michal = oscard[report];
  156:
-            sizing = yankee + mike;
+            sizing = yankee + michal;
             if(!(!(sizing >= backup))) { _fun00002_ip = 280; continue _fun00001 }
  164:
-            mike = offset[zulu];
-            mike = report < mike;
-            echo = sizing;
+            michal = offset[zuuluu];
+            michal = report < michal;
+            echoed = sizing;
             result = 0;
-            output = echo;
+            output = echoed;
             sizing = 0;
-            if(!mike) { _fun00002_ip = 252; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 252; continue _fun00001 }
  185:
             entity['itemEnd'] = result;
-            if(foxtrot) { _fun00002_ip = 210; continue _fun00001 }
+            if(foxtra) { _fun00002_ip = 210; continue _fun00001 }
  194:
-            mike = romeo[zulu];
-            mike = mike.sizes;
-            mike = mike[result];
+            michal = romeon[zuuluu];
+            michal = michal.sizes;
+            michal = michal[result];
             _fun00002_ip = 224; continue _fun00001;
  210:
-            update = romeo[report];
+            update = romeon[report];
             update = update.sizes;
-            mike = update[report];
+            michal = update[report];
  224:
-            source = echo + mike;
+            source = echoed + michal;
             if(!(!(source >= backup))) { _fun00002_ip = 278; continue _fun00001 }
  232:
             result = result + 1;
-            mike = offset[zulu];
-            echo = source;
-            output = echo;
+            michal = offset[zuuluu];
+            echoed = source;
+            output = echoed;
             sizing = result;
-            if(sizing < mike) { _fun00002_ip = 185; continue _fun00001 }
+            if(sizing < michal) { _fun00002_ip = 185; continue _fun00001 }
  252:
             if(verify) { _fun00002_ip = 261; continue _fun00001 }
  255:
-            mike = options[zulu];
+            michal = option[zuuluu];
             _fun00002_ip = 265; continue _fun00001;
  261:
-            mike = options[report];
+            michal = option[report];
  265:
-            kilo = output + mike;
-            tango = sizing;
-            if(!(kilo >= backup)) { _fun00002_ip = 282; continue _fun00001 }
+            kiloes = output + michal;
+            tangon = sizing;
+            if(!(kiloes >= backup)) { _fun00002_ip = 282; continue _fun00001 }
  276:
             return entity;
  278:
@@ -107,16 +107,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  280:
             return entity;
  282:
-            zulu = zulu + 1;
-            mike = offset.length;
-            yankee = kilo;
-            if(zulu < mike) { _fun00002_ip = 117; continue _fun00001 }
+            zuuluu = zuuluu + 1;
+            michal = offset.length;
+            yankee = kiloes;
+            if(zuuluu < michal) { _fun00002_ip = 117; continue _fun00001 }
  300:
             return entity;
  302:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

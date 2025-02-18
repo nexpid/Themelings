@@ -1,132 +1,132 @@
 // app/modules/media_channel/MediaChannelExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    romeo = true;
-    tango['value'] = romeo;
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    tango = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = options[tango];
-    verify = golf.bind(entity)(report);
-    oscar = verify.createExperiment;
+    tangon = golfie.bind(entity)(tangon);
+    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = option[tangon];
+    verify = golfie.bind(entity)(report);
+    oscard = verify.createExperiment;
     report = {'kind': 'guild', 'id': '2023-03_guild_media_channel', 'label': 'Media Channel'};
     offset = {};
     yankee = false;
     offset['enabled'] = yankee;
     report['defaultConfig'] = offset;
-    foxtrot = {'id': 1, 'label': 'Enables guild to create a media channel'};
+    foxtra = {'id': 1, 'label': 'Enables guild to create a media channel'};
     offset = {};
-    offset['enabled'] = romeo;
-    foxtrot['config'] = offset;
+    offset['enabled'] = romeon;
+    foxtra['config'] = offset;
     offset = new Array(1);
-    offset[0] = foxtrot;
+    offset[0] = foxtra;
     report['treatments'] = offset;
-    report = oscar.bind(verify)(report);
+    report = oscard.bind(verify)(report);
     var _closure1_slot1 = report;
-    tango = options[tango];
-    verify = golf.bind(entity)(tango);
-    oscar = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2023-04_guild_media_channel_post_preview_embed_users', 'label': 'Guild Role Subscription Users'};
+    tangon = option[tangon];
+    verify = golfie.bind(entity)(tangon);
+    oscard = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2023-04_guild_media_channel_post_preview_embed_users', 'label': 'Guild Role Subscription Users'};
     offset = {};
     offset['enabledForUser'] = yankee;
-    tango['defaultConfig'] = offset;
+    tangon['defaultConfig'] = offset;
     yankee = {'id': 1, 'label': 'Enables for users Guild Media Post Preview Embeds'};
     offset = {};
-    offset['enabledForUser'] = romeo;
+    offset['enabledForUser'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
-    tango['treatments'] = offset;
-    tango = oscar.bind(verify)(tango);
-    var _closure1_slot2 = tango;
-    oscar = 2;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/media_channel/MediaChannelExperimentUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['GuildMediaExperiment'] = report;
+    tangon['treatments'] = offset;
+    tangon = oscard.bind(verify)(tangon);
+    var _closure1_slot2 = tangon;
+    oscard = 2;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/media_channel/MediaChannelExperimentUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['GuildMediaExperiment'] = report;
     report = function(argFoo) { // Original name: useGuildEligibleForMediaChannels
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            golf = _closure1_slot1;
-            oscar = golf.useExperiment;
+            tangon = argFoo;
+            golfie = _closure1_slot1;
+            oscard = golfie.useExperiment;
             report = {};
-            zulu = null;
-            verify = zulu == tango;
-            mike = undefined;
+            zuuluu = null;
+            verify = zuuluu == tangon;
+            michal = undefined;
             if(verify) { _fun00002_ip = 34; continue _fun00001 }
  29:
-            mike = tango.id;
+            michal = tangon.id;
  34:
-            if(!(zulu == mike)) { _fun00002_ip = 42; continue _fun00001 }
+            if(!(zuuluu == michal)) { _fun00002_ip = 42; continue _fun00001 }
  38:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
  42:
-            report['guildId'] = mike;
-            mike = '96e84c_1';
-            report['location'] = mike;
-            mike = {};
-            options = true;
-            mike['autoTrackExposure'] = options;
-            mike = oscar.bind(golf)(report, mike);
-            mike = mike.enabled;
-            report = zulu == tango;
+            report['guildId'] = michal;
+            michal = '96e84c_1';
+            report['location'] = michal;
+            michal = {};
+            option = true;
+            michal['autoTrackExposure'] = option;
+            michal = oscard.bind(golfie)(report, michal);
+            michal = michal.enabled;
+            report = zuuluu == tangon;
             entity = undefined;
             if(report) { _fun00002_ip = 90; continue _fun00001 }
  85:
-            entity = tango.id;
+            entity = tangon.id;
  90:
-            entity = zulu != entity;
+            entity = zuuluu != entity;
             if(!entity) { _fun00002_ip = 100; continue _fun00001 }
  97:
-            entity = mike;
+            entity = michal;
  100:
             return entity;
         }
     };
-    zulu['useGuildEligibleForMediaChannels'] = report;
-    zulu['GuildMediaPostPreviewEmbedUsersExperiments'] = tango;
-    tango = function() { // Original name: useEligibleForGuildMediaChannelPostPreviewEmbed
-        tango = _closure1_slot2;
-        zulu = tango.useExperiment;
-        mike = {};
+    zuuluu['useGuildEligibleForMediaChannels'] = report;
+    zuuluu['GuildMediaPostPreviewEmbedUsersExperiments'] = tangon;
+    tangon = function() { // Original name: useEligibleForGuildMediaChannelPostPreviewEmbed
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = '96e84c_2';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = true;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabledForUser;
         return entity;
     };
-    zulu['useEligibleForGuildMediaChannelPostPreviewEmbed'] = tango;
-    mike = function() { // Original name: isEligibleForGuildMediaChannelPostPreviewEmbed
-        tango = _closure1_slot2;
-        zulu = tango.getCurrentConfig;
-        mike = {};
+    zuuluu['useEligibleForGuildMediaChannelPostPreviewEmbed'] = tangon;
+    michal = function() { // Original name: isEligibleForGuildMediaChannelPostPreviewEmbed
+        tangon = _closure1_slot2;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = '96e84c_3';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabledForUser;
         return entity;
     };
-    zulu['isEligibleForGuildMediaChannelPostPreviewEmbed'] = mike;
+    zuuluu['isEligibleForGuildMediaChannelPostPreviewEmbed'] = michal;
     return entity;
 })();

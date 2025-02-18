@@ -1,92 +1,92 @@
 // app/modules/launchpad/native/isGuildSelectable.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/launchpad/native/isGuildSelectable.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isGuildSelectable
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/launchpad/native/isGuildSelectable.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isGuildSelectable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
-            mike = _closure1_slot3;
-            entity = mike.isMuted;
-            entity = entity.bind(mike)(verify);
+            michal = _closure1_slot3;
+            entity = michal.isMuted;
+            entity = entity.bind(michal)(verify);
             entity = !entity;
             if(!entity) { _fun00002_ip = 148; continue _fun00001 }
  33:
-            zulu = _closure1_slot2;
-            mike = zulu.hasUnread;
-            mike = mike.bind(zulu)(verify);
-            zulu = !mike;
-            mike = !zulu;
-            if(!zulu) { _fun00002_ip = 145; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.hasUnread;
+            michal = michal.bind(zuuluu)(verify);
+            zuuluu = !michal;
+            michal = !zuuluu;
+            if(!zuuluu) { _fun00002_ip = 145; continue _fun00001 }
  57:
-            zulu = global;
-            golf = zulu.Object;
-            oscar = golf.keys;
-            options = _closure1_slot0;
-            zulu = options.getStageInstancesByGuild;
-            zulu = zulu.bind(options)(verify);
-            zulu = oscar.bind(golf)(zulu);
-            oscar = zulu.length;
-            zulu = 0;
-            zulu = oscar > zulu;
-            if(zulu) { _fun00002_ip = 142; continue _fun00001 }
+            zuuluu = global;
+            golfie = zuuluu.Object;
+            oscard = golfie.keys;
+            option = _closure1_slot0;
+            zuuluu = option.getStageInstancesByGuild;
+            zuuluu = zuuluu.bind(option)(verify);
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            oscard = zuuluu.length;
+            zuuluu = 0;
+            zuuluu = oscard > zuuluu;
+            if(zuuluu) { _fun00002_ip = 142; continue _fun00001 }
  104:
-            oscar = _closure1_slot1;
-            report = oscar.getAllApplicationStreams;
-            oscar = report.bind(oscar)();
-            report = oscar.some;
-            tango = function(argFoo) {
+            oscard = _closure1_slot1;
+            report = oscard.getAllApplicationStreams;
+            oscard = report.bind(oscard)();
+            report = oscard.some;
+            tangon = function(argFoo) {
                 entity = argFoo;
-                mike = entity.guildId;
+                michal = entity.guildId;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            tango = !tango;
-            zulu = !tango;
+            tangon = report.bind(oscard)(tangon);
+            tangon = !tangon;
+            zuuluu = !tangon;
  142:
-            mike = zulu;
+            michal = zuuluu;
  145:
-            entity = mike;
+            entity = michal;
  148:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,61 +1,61 @@
 // app/modules/app_startup/native/useInitializeAppContainer.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot2 = tango;
-    tango = false;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_startup/native/useInitializeAppContainer.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useAppContainerInitialization
-        tango = _closure1_slot2;
-        zulu = tango.useEffect;
-        mike = function() {
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot2 = tangon;
+    tangon = false;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_startup/native/useInitializeAppContainer.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useAppContainerInitialization
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useEffect;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot3;
-                if(mike) { _fun00002_ip = 42; continue _fun00001 }
+                michal = _closure1_slot3;
+                if(michal) { _fun00002_ip = 42; continue _fun00001 }
  10:
-                mike = true;
-                _closure1_slot3 = mike;
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+                michal = true;
+                _closure1_slot3 = michal;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 1;
-                entity = mike[entity];
-                mike = undefined;
-                entity = zulu.bind(mike)(entity);
-                entity = entity.bind(mike)();
+                entity = michal[entity];
+                michal = undefined;
+                entity = zuuluu.bind(michal)(entity);
+                entity = entity.bind(michal)();
  42:
                 entity = undefined;
                 return entity;
             }
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

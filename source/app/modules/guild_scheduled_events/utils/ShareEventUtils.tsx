@@ -1,35 +1,35 @@
 // app/modules/guild_scheduled_events/utils/ShareEventUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guild_scheduled_events/utils/ShareEventUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) {
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guild_scheduled_events/utils/ShareEventUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) {
         entity = argFoo;
         report = entity.guildId;
-        tango = entity.guildEventId;
+        tangon = entity.guildEventId;
         entity = global;
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = 'https://discord.com/events/';
+        zuuluu = entity.concat;
+        michal = 'https://discord.com/events/';
         entity = '/';
-        entity = zulu.bind(mike)(report, entity, tango);
+        entity = zuuluu.bind(michal)(report, entity, tangon);
         return entity;
     };
-    zulu['SHARE_EVENT_DETAILS_LINK'] = mike;
+    zuuluu['SHARE_EVENT_DETAILS_LINK'] = michal;
     return entity;
 })();

@@ -1,89 +1,89 @@
 // app/modules/guild_role_subscriptions/useRoleSubscriptionEmojis.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    report = golf[entity];
-    mike = argCorge;
+    report = golfie[entity];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(report);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    report = golf[mike];
-    mike = argBaz;
-    mike = mike.bind(entity)(report);
-    var _closure1_slot3 = mike;
-    mike = new Array(0);
-    var _closure1_slot4 = mike;
+    michal = michal.bind(entity)(report);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    report = golfie[michal];
+    michal = argBaz;
+    michal = michal.bind(entity)(report);
+    var _closure1_slot3 = michal;
+    michal = new Array(0);
+    var _closure1_slot4 = michal;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_role_subscriptions/useRoleSubscriptionEmojis.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useRoleSubscriptionEmojis
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useRoleSubscriptionEmojis
         report = argFoo;
         var _closure2_slot0 = report;
-        oscar = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        options = oscar.bind(zulu)(tango);
-        golf = options.useStateFromStores;
-        zulu = _closure1_slot3;
-        oscar = new Array(1);
-        oscar[0] = zulu;
-        tango = new Array(1);
-        tango[0] = report;
-        zulu = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.getGuildEmoji;
+        oscard = _closure1_slot0;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        option = oscard.bind(zuuluu)(tangon);
+        golfie = option.useStateFromStores;
+        zuuluu = _closure1_slot3;
+        oscard = new Array(1);
+        oscard[0] = zuuluu;
+        tangon = new Array(1);
+        tangon[0] = report;
+        zuuluu = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getGuildEmoji;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        oscar = golf.bind(options)(oscar, zulu, tango);
-        var _closure2_slot1 = oscar;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        oscard = golfie.bind(option)(oscard, zuuluu, tangon);
+        var _closure2_slot1 = oscard;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot1;
-                mike = null;
-                if(!(mike != zulu)) { _fun00002_ip = 38; continue _fun00001 }
+                zuuluu = _closure2_slot1;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
  13:
-                zulu = _closure2_slot1;
-                mike = zulu.filter;
+                zuuluu = _closure2_slot1;
+                michal = zuuluu.filter;
                 entity = function(argFoo) {
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 3;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    tango = zulu.bind(entity)(mike);
-                    zulu = tango.isRoleSubscriptionEmoji;
-                    mike = _closure2_slot0;
+                    tangon = zuuluu.bind(entity)(michal);
+                    zuuluu = tangon.isRoleSubscriptionEmoji;
+                    michal = _closure2_slot0;
                     entity = argFoo;
-                    entity = zulu.bind(tango)(entity, mike);
+                    entity = zuuluu.bind(tangon)(entity, michal);
                     return entity;
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 _fun00002_ip = 45; continue _fun00001;
  38:
                 entity = _closure1_slot4;
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['NO_EMOJIS_AVAILABLE'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['NO_EMOJIS_AVAILABLE'] = michal;
     return entity;
 })();

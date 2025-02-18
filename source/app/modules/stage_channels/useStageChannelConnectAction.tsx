@@ -1,54 +1,54 @@
 // app/modules/stage_channels/useStageChannelConnectAction.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
-    tango = {};
-    oscar = 0;
-    tango['NORMAL'] = oscar;
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
+    tangon = {};
+    oscard = 0;
+    tangon['NORMAL'] = oscard;
     entity = 'NORMAL';
-    tango[oscar] = entity;
-    oscar = 1;
-    tango['START_EVENT'] = oscar;
+    tangon[oscard] = entity;
+    oscard = 1;
+    tangon['START_EVENT'] = oscard;
     entity = 'START_EVENT';
-    tango[oscar] = entity;
-    var _closure1_slot2 = tango;
+    tangon[oscard] = entity;
+    var _closure1_slot2 = tangon;
     entity = 2;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/stage_channels/useStageChannelConnectAction.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: useStageChannelConnectAction
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
+            oscard = argFoo;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 0;
-            entity = golf[entity];
+            entity = golfie[entity];
             report = undefined;
-            entity = tango.bind(report)(entity);
-            zulu = entity.bind(report)(oscar);
+            entity = tangon.bind(report)(entity);
+            zuuluu = entity.bind(report)(oscard);
             entity = 1;
-            entity = golf[entity];
-            tango = tango.bind(report)(entity);
+            entity = golfie[entity];
+            tangon = tangon.bind(report)(entity);
             entity = true;
-            entity = tango.bind(report)(oscar, entity);
+            entity = tangon.bind(report)(oscard, entity);
             entity = entity.moderator;
-            if(zulu) { _fun00002_ip = 76; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 76; continue _fun00001 }
  61:
             if(!entity) { _fun00002_ip = 76; continue _fun00001 }
  64:
@@ -56,34 +56,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.START_EVENT;
             _fun00002_ip = 86; continue _fun00001;
  76:
-            mike = _closure1_slot2;
-            entity = mike.NORMAL;
+            michal = _closure1_slot2;
+            entity = michal.NORMAL;
  86:
             return entity;
         }
     };
-    zulu['default'] = report;
-    zulu['ChannelConnectAction'] = tango;
-    mike = function(argFoo) { // Original name: useStageChannelStartEvent
+    zuuluu['default'] = report;
+    zuuluu['ChannelConnectAction'] = tangon;
+    michal = function(argFoo) { // Original name: useStageChannelStartEvent
         report = argFoo;
         entity = {};
-        zulu = _closure1_slot0;
-        oscar = _closure1_slot1;
-        mike = 0;
-        mike = oscar[mike];
-        tango = undefined;
-        mike = zulu.bind(tango)(mike);
-        mike = mike.bind(tango)(report);
-        entity['isLive'] = mike;
-        mike = 1;
-        mike = oscar[mike];
-        zulu = zulu.bind(tango)(mike);
-        mike = true;
-        mike = zulu.bind(tango)(report, mike);
-        mike = mike.moderator;
-        entity['isModerator'] = mike;
+        zuuluu = _closure1_slot0;
+        oscard = _closure1_slot1;
+        michal = 0;
+        michal = oscard[michal];
+        tangon = undefined;
+        michal = zuuluu.bind(tangon)(michal);
+        michal = michal.bind(tangon)(report);
+        entity['isLive'] = michal;
+        michal = 1;
+        michal = oscard[michal];
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = true;
+        michal = zuuluu.bind(tangon)(report, michal);
+        michal = michal.moderator;
+        entity['isModerator'] = michal;
         return entity;
     };
-    zulu['useStageChannelStartEvent'] = mike;
+    zuuluu['useStageChannelStartEvent'] = michal;
     return entity;
 })();

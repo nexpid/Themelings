@@ -1,40 +1,40 @@
 // app/utils/EmojiUtilsPlatformed.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
     verify = function(argFoo) { // Original name: getURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00002_ip = 50; continue _fun00001 }
+            if(!(entity != tangon)) { _fun00002_ip = 50; continue _fun00001 }
  9:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 5;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            entity = mike.isAndroid;
-            mike = entity.bind(mike)();
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.isAndroid;
+            michal = entity.bind(michal)();
             entity = '';
-            if(!mike) { _fun00002_ip = 105; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 105; continue _fun00001 }
  50:
-            mike = _closure1_slot7;
-            zulu = mike.convert;
-            mike = zulu.toCodePoint;
-            report = mike.bind(zulu)(tango);
-            mike = global;
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            zulu = 'asset:/emoji-';
-            mike = '.png';
-            entity = tango.bind(zulu)(report, mike);
+            michal = _closure1_slot7;
+            zuuluu = michal.convert;
+            michal = zuuluu.toCodePoint;
+            report = michal.bind(zuuluu)(tangon);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = 'asset:/emoji-';
+            michal = '.png';
+            entity = tangon.bind(zuuluu)(report, michal);
  105:
             return entity;
         }
@@ -43,523 +43,523 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = function() { // Original name: _getEmojiColors
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot4;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
-                    zulu = argFoo;
+                    zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 282; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 282; continue _fun00003 }
  13:
-                    options = zulu.id;
-                    oscar = zulu.name;
+                    option = zuuluu.id;
+                    oscard = zuuluu.name;
                     report = null;
-                    if(!(report == options)) { _fun00004_ip = 45; continue _fun00003 }
+                    if(!(report == option)) { _fun00004_ip = 45; continue _fun00003 }
  29:
-                    tango = _closure1_slot8;
-                    mike = undefined;
-                    golf = tango.bind(mike)(oscar);
+                    tangon = _closure1_slot8;
+                    michal = undefined;
+                    golfie = tangon.bind(michal)(oscard);
                     _fun00004_ip = 101; continue _fun00003;
  45:
-                    oscar = _closure1_slot1;
-                    tango = _closure1_slot2;
-                    mike = 7;
-                    tango = tango[mike];
-                    mike = undefined;
-                    oscar = oscar.bind(mike)(tango);
-                    tango = oscar.getEmojiURL;
-                    mike = {'id': null, 'size': 32, 'animated': false};
-                    mike['id'] = options;
-                    golf = tango.bind(oscar)(mike);
+                    oscard = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 7;
+                    tangon = tangon[michal];
+                    michal = undefined;
+                    oscard = oscard.bind(michal)(tangon);
+                    tangon = oscard.getEmojiURL;
+                    michal = {'id': null, 'size': 32, 'animated': false};
+                    michal['id'] = option;
+                    golfie = tangon.bind(oscard)(michal);
  101:
-                    mike = '';
-                    if(!(mike === golf)) { _fun00004_ip = 201; continue _fun00003 }
+                    michal = '';
+                    if(!(michal === golfie)) { _fun00004_ip = 201; continue _fun00003 }
  109:
-                    tango = _closure1_slot5;
-                    oscar = tango.ImageManager;
-                    tango = oscar.getEmojiBase64;
-                    zulu = zulu.name;
+                    tangon = _closure1_slot5;
+                    oscard = tangon.ImageManager;
+                    tangon = oscard.getEmojiBase64;
+                    zuuluu = zuuluu.name;
                     verify = _closure1_slot0;
-                    options = _closure1_slot2;
-                    mike = 8;
-                    options = options[mike];
-                    mike = undefined;
-                    mike = verify.bind(mike)(options);
-                    mike = mike.EMOJI_IN_ANIMATION_SIZE;
-                    mike = tango.bind(oscar)(zulu, mike);
+                    option = _closure1_slot2;
+                    michal = 8;
+                    option = option[michal];
+                    michal = undefined;
+                    michal = verify.bind(michal)(option);
+                    michal = michal.EMOJI_IN_ANIMATION_SIZE;
+                    michal = tangon.bind(oscard)(zuuluu, michal);
                     SaveGenerator(address=171);
  169:
-                    return mike;
+                    return michal;
  171:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 279; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 279; continue _fun00003 }
  177:
-                    zulu = global;
-                    zulu = zulu.HermesInternal;
-                    tango = zulu.concat;
-                    zulu = 'data:image/png;base64,';
-                    golf = tango.bind(zulu)(mike);
+                    zuuluu = global;
+                    zuuluu = zuuluu.HermesInternal;
+                    tangon = zuuluu.concat;
+                    zuuluu = 'data:image/png;base64,';
+                    golfie = tangon.bind(zuuluu)(michal);
  201:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot2;
-                    zulu = 9;
-                    zulu = tango[zulu];
-                    tango = undefined;
-                    oscar = oscar.bind(tango)(zulu);
-                    zulu = oscar.getPaletteForAvatar;
-                    zulu = zulu.bind(oscar)(golf);
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 9;
+                    zuuluu = tangon[zuuluu];
+                    tangon = undefined;
+                    oscard = oscard.bind(tangon)(zuuluu);
+                    zuuluu = oscard.getPaletteForAvatar;
+                    zuuluu = zuuluu.bind(oscard)(golfie);
                     SaveGenerator(address=241);
  239:
-                    return zulu;
+                    return zuuluu;
  241:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun00004_ip = 276; continue _fun00003 }
+                    if(oscard) { _fun00004_ip = 276; continue _fun00003 }
  247:
-                    report = report == zulu;
-                    tango = undefined;
+                    report = report == zuuluu;
+                    tangon = undefined;
                     if(report) { _fun00004_ip = 273; continue _fun00003 }
  256:
-                    oscar = zulu.map;
+                    oscard = zuuluu.map;
                     report = function(argFoo) {
-                        tango = _closure1_slot3;
-                        oscar = undefined;
-                        zulu = argFoo;
-                        mike = 3;
-                        zulu = tango.bind(oscar)(zulu, mike);
-                        mike = 0;
-                        report = zulu[mike];
-                        mike = 1;
-                        tango = zulu[mike];
-                        mike = 2;
-                        zulu = zulu[mike];
-                        mike = _closure1_slot0;
-                        golf = _closure1_slot2;
+                        tangon = _closure1_slot3;
+                        oscard = undefined;
+                        zuuluu = argFoo;
+                        michal = 3;
+                        zuuluu = tangon.bind(oscard)(zuuluu, michal);
+                        michal = 0;
+                        report = zuuluu[michal];
+                        michal = 1;
+                        tangon = zuuluu[michal];
+                        michal = 2;
+                        zuuluu = zuuluu[michal];
+                        michal = _closure1_slot0;
+                        golfie = _closure1_slot2;
                         entity = 10;
-                        entity = golf[entity];
-                        mike = mike.bind(oscar)(entity);
-                        entity = mike.rgbToHex;
-                        entity = entity.bind(mike)(report, tango, zulu);
+                        entity = golfie[entity];
+                        michal = michal.bind(oscard)(entity);
+                        entity = michal.rgbToHex;
+                        entity = entity.bind(michal)(report, tangon, zuuluu);
                         return entity;
                     };
-                    tango = oscar.bind(zulu)(report);
+                    tangon = oscard.bind(zuuluu)(report);
  273:
-                    return tango;
+                    return tangon;
  276:
-                    return zulu;
+                    return zuuluu;
  279:
-                    return mike;
+                    return michal;
  282:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = global;
     offset = entity.Object;
-    golf = offset.defineProperty;
-    mike = {};
+    golfie = offset.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(offset)(zulu, entity, mike);
+    entity = golfie.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = options.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    golf = mike.NativeModules;
-    var _closure1_slot5 = golf;
-    mike = mike.processColor;
-    var _closure1_slot6 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = options.bind(entity)(mike);
-    var _closure1_slot7 = mike;
-    mike = {};
-    golf = 12;
-    golf = oscar[golf];
-    options = options.bind(entity)(golf);
-    golf = options.makeMemoizer;
-    golf = golf.bind(options)(verify);
-    mike['getURL'] = golf;
-    golf = function(argFoo) { // Original name: filterUnsupportedEmojis
+    michal = option.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    golfie = michal.NativeModules;
+    var _closure1_slot5 = golfie;
+    michal = michal.processColor;
+    var _closure1_slot6 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = option.bind(entity)(michal);
+    var _closure1_slot7 = michal;
+    michal = {};
+    golfie = 12;
+    golfie = oscard[golfie];
+    option = option.bind(entity)(golfie);
+    golfie = option.makeMemoizer;
+    golfie = golfie.bind(option)(verify);
+    michal['getURL'] = golfie;
+    golfie = function(argFoo) { // Original name: filterUnsupportedEmojis
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot0;
-            tango = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 5;
-            entity = tango[entity];
-            tango = undefined;
-            zulu = zulu.bind(tango)(entity);
-            entity = zulu.isAndroid;
-            zulu = entity.bind(zulu)();
+            entity = tangon[entity];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.isAndroid;
+            zuuluu = entity.bind(zuuluu)();
             entity = report;
-            if(zulu) { _fun00006_ip = 81; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 81; continue _fun00005 }
  43:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 6;
-            mike = oscar[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.filter;
-            mike = function(argFoo) {
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
+            michal = 6;
+            michal = oscard[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.filter;
+            michal = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
-                    zulu = entity.unicodeVersion;
-                    mike = _closure1_slot0;
+                    zuuluu = entity.unicodeVersion;
+                    michal = _closure1_slot0;
                     entity = _closure1_slot2;
-                    golf = 4;
-                    entity = entity[golf];
-                    options = undefined;
-                    mike = mike.bind(options)(entity);
-                    entity = mike.getSystemVersion;
-                    tango = entity.bind(mike)();
-                    mike = tango.split;
+                    golfie = 4;
+                    entity = entity[golfie];
+                    option = undefined;
+                    michal = michal.bind(option)(entity);
+                    entity = michal.getSystemVersion;
+                    tangon = entity.bind(michal)();
+                    michal = tangon.split;
                     entity = '.';
-                    entity = mike.bind(tango)(entity);
-                    mike = global;
-                    oscar = mike.parseInt;
+                    entity = michal.bind(tangon)(entity);
+                    michal = global;
+                    oscard = michal.parseInt;
                     report = 0;
-                    tango = entity[report];
-                    tango = oscar.bind(options)(tango);
+                    tangon = entity[report];
+                    tangon = oscard.bind(option)(tangon);
                     verify = entity.length;
-                    oscar = 1;
-                    verify = verify > oscar;
+                    oscard = 1;
+                    verify = verify > oscard;
                     if(!verify) { _fun00008_ip = 106; continue _fun00007 }
  91:
-                    mike = mike.parseInt;
-                    entity = entity[oscar];
-                    report = mike.bind(options)(entity);
+                    michal = michal.parseInt;
+                    entity = entity[oscard];
+                    report = michal.bind(option)(entity);
  106:
                     entity = 8;
-                    mike = zulu > entity;
+                    michal = zuuluu > entity;
                     entity = true;
-                    if(!mike) { _fun00008_ip = 521; continue _fun00007 }
+                    if(!michal) { _fun00008_ip = 521; continue _fun00007 }
  121:
-                    mike = 9;
-                    if(!(mike !== zulu)) { _fun00008_ip = 491; continue _fun00007 }
+                    michal = 9;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 491; continue _fun00007 }
  131:
-                    mike = 10;
-                    if(!(mike !== zulu)) { _fun00008_ip = 462; continue _fun00007 }
+                    michal = 10;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 462; continue _fun00007 }
  141:
-                    mike = 11;
-                    if(!(mike !== zulu)) { _fun00008_ip = 433; continue _fun00007 }
+                    michal = 11;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 433; continue _fun00007 }
  151:
-                    mike = 12;
-                    if(!(mike !== zulu)) { _fun00008_ip = 401; continue _fun00007 }
+                    michal = 12;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 401; continue _fun00007 }
  161:
-                    mike = 12.1;
-                    if(!(mike !== zulu)) { _fun00008_ip = 401; continue _fun00007 }
+                    michal = 12.1;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 401; continue _fun00007 }
  178:
-                    mike = 13;
-                    if(!(mike !== zulu)) { _fun00008_ip = 369; continue _fun00007 }
+                    michal = 13;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 369; continue _fun00007 }
  188:
-                    mike = 13.1;
-                    if(!(mike !== zulu)) { _fun00008_ip = 334; continue _fun00007 }
+                    michal = 13.1;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 334; continue _fun00007 }
  205:
-                    mike = 14;
-                    if(!(mike !== zulu)) { _fun00008_ip = 302; continue _fun00007 }
+                    michal = 14;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 302; continue _fun00007 }
  212:
-                    mike = 15;
-                    if(!(mike !== zulu)) { _fun00008_ip = 270; continue _fun00007 }
+                    michal = 15;
+                    if(!(michal !== zuuluu)) { _fun00008_ip = 270; continue _fun00007 }
  219:
                     entity = false;
-                    mike = 15.1;
-                    if(!(mike === zulu)) { _fun00008_ip = 521; continue _fun00007 }
+                    michal = 15.1;
+                    if(!(michal === zuuluu)) { _fun00008_ip = 521; continue _fun00007 }
  238:
-                    zulu = 17;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 262; continue _fun00007 }
+                    zuuluu = 17;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 262; continue _fun00007 }
  248:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 259; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 259; continue _fun00007 }
  255:
-                    zulu = report >= golf;
+                    zuuluu = report >= golfie;
  259:
-                    mike = zulu;
+                    michal = zuuluu;
  262:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  270:
-                    zulu = 16;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 294; continue _fun00007 }
+                    zuuluu = 16;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 294; continue _fun00007 }
  280:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 291; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 291; continue _fun00007 }
  287:
-                    zulu = report >= golf;
+                    zuuluu = report >= golfie;
  291:
-                    mike = zulu;
+                    michal = zuuluu;
  294:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  302:
-                    zulu = 15;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 326; continue _fun00007 }
+                    zuuluu = 15;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 326; continue _fun00007 }
  312:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 323; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 323; continue _fun00007 }
  319:
-                    zulu = report >= golf;
+                    zuuluu = report >= golfie;
  323:
-                    mike = zulu;
+                    michal = zuuluu;
  326:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  334:
-                    zulu = 14;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 361; continue _fun00007 }
+                    zuuluu = 14;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 361; continue _fun00007 }
  344:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 358; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 358; continue _fun00007 }
  351:
-                    golf = 5;
-                    zulu = report >= golf;
+                    golfie = 5;
+                    zuuluu = report >= golfie;
  358:
-                    mike = zulu;
+                    michal = zuuluu;
  361:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  369:
-                    zulu = 14;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 396; continue _fun00007 }
+                    zuuluu = 14;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 396; continue _fun00007 }
  379:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 393; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 393; continue _fun00007 }
  386:
-                    golf = 2;
-                    zulu = report >= golf;
+                    golfie = 2;
+                    zuuluu = report >= golfie;
  393:
-                    mike = zulu;
+                    michal = zuuluu;
  396:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  401:
-                    zulu = 13;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 428; continue _fun00007 }
+                    zuuluu = 13;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 428; continue _fun00007 }
  411:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 425; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 425; continue _fun00007 }
  418:
-                    golf = 2;
-                    zulu = report >= golf;
+                    golfie = 2;
+                    zuuluu = report >= golfie;
  425:
-                    mike = zulu;
+                    michal = zuuluu;
  428:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  433:
-                    zulu = 12;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 457; continue _fun00007 }
+                    zuuluu = 12;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 457; continue _fun00007 }
  443:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 454; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 454; continue _fun00007 }
  450:
-                    zulu = report >= oscar;
+                    zuuluu = report >= oscard;
  454:
-                    mike = zulu;
+                    michal = zuuluu;
  457:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  462:
-                    zulu = 11;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 486; continue _fun00007 }
+                    zuuluu = 11;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 486; continue _fun00007 }
  472:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 483; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 483; continue _fun00007 }
  479:
-                    zulu = report >= oscar;
+                    zuuluu = report >= oscard;
  483:
-                    mike = zulu;
+                    michal = zuuluu;
  486:
-                    entity = mike;
+                    entity = michal;
                     _fun00008_ip = 521; continue _fun00007;
  491:
-                    zulu = 10;
-                    mike = tango > zulu;
-                    if(mike) { _fun00008_ip = 518; continue _fun00007 }
+                    zuuluu = 10;
+                    michal = tangon > zuuluu;
+                    if(michal) { _fun00008_ip = 518; continue _fun00007 }
  501:
-                    zulu = zulu === tango;
-                    if(!zulu) { _fun00008_ip = 515; continue _fun00007 }
+                    zuuluu = zuuluu === tangon;
+                    if(!zuuluu) { _fun00008_ip = 515; continue _fun00007 }
  508:
-                    tango = 2;
-                    zulu = report >= tango;
+                    tangon = 2;
+                    zuuluu = report >= tangon;
  515:
-                    mike = zulu;
+                    michal = zuuluu;
  518:
-                    entity = mike;
+                    entity = michal;
  521:
                     return entity;
                 }
             };
-            entity = zulu.bind(tango)(report, mike);
+            entity = zuuluu.bind(tangon)(report, michal);
  81:
             return entity;
         }
     };
-    mike['filterUnsupportedEmojis'] = golf;
-    golf = function(argFoo) { // Original name: applyPlatformToThemedEmojiColorPalette
+    michal['filterUnsupportedEmojis'] = golfie;
+    golfie = function(argFoo) { // Original name: applyPlatformToThemedEmojiColorPalette
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            mike = argFoo;
-            entity = mike.palette;
-            mike = mike.shouldProcessMobileColors;
-            tango = undefined;
-            if(!(mike === tango)) { _fun00010_ip = 23; continue _fun00009 }
+            michal = argFoo;
+            entity = michal.palette;
+            michal = michal.shouldProcessMobileColors;
+            tangon = undefined;
+            if(!(michal === tangon)) { _fun00010_ip = 23; continue _fun00009 }
  21:
-            mike = false;
+            michal = false;
  23:
-            if(!mike) { _fun00010_ip = 277; continue _fun00009 }
+            if(!michal) { _fun00010_ip = 277; continue _fun00009 }
  29:
-            oscar = null;
-            if(!(oscar != entity)) { _fun00010_ip = 277; continue _fun00009 }
+            oscard = null;
+            if(!(oscard != entity)) { _fun00010_ip = 277; continue _fun00009 }
  38:
             verify = entity.LIGHT;
             report = entity.DARK;
-            mike = {};
-            zulu = {};
+            michal = {};
+            zuuluu = {};
             offset = _closure1_slot6;
-            yankee = oscar == verify;
-            options = undefined;
+            yankee = oscard == verify;
+            option = undefined;
             if(yankee) { _fun00010_ip = 76; continue _fun00009 }
  70:
-            options = verify.accentColor;
+            option = verify.accentColor;
  76:
-            options = offset.bind(tango)(options);
-            zulu['accentColor'] = options;
+            option = offset.bind(tangon)(option);
+            zuuluu['accentColor'] = option;
             offset = _closure1_slot6;
-            yankee = oscar == verify;
-            options = undefined;
+            yankee = oscard == verify;
+            option = undefined;
             if(yankee) { _fun00010_ip = 104; continue _fun00009 }
  99:
-            options = verify.backgroundColor;
+            option = verify.backgroundColor;
  104:
-            options = offset.bind(tango)(options);
-            zulu['backgroundColor'] = options;
+            option = offset.bind(tangon)(option);
+            zuuluu['backgroundColor'] = option;
             offset = _closure1_slot6;
-            yankee = oscar == verify;
-            options = undefined;
+            yankee = oscard == verify;
+            option = undefined;
             if(yankee) { _fun00010_ip = 132; continue _fun00009 }
  126:
-            options = verify.highlightColor;
+            option = verify.highlightColor;
  132:
-            options = offset.bind(tango)(options);
-            zulu['highlightColor'] = options;
-            offset = oscar == verify;
-            options = undefined;
+            option = offset.bind(tangon)(option);
+            zuuluu['highlightColor'] = option;
+            offset = oscard == verify;
+            option = undefined;
             if(offset) { _fun00010_ip = 156; continue _fun00009 }
  151:
-            options = verify.opacity;
+            option = verify.opacity;
  156:
-            zulu['opacity'] = options;
-            mike['LIGHT'] = zulu;
-            zulu = {};
+            zuuluu['opacity'] = option;
+            michal['LIGHT'] = zuuluu;
+            zuuluu = {};
             verify = _closure1_slot6;
-            offset = oscar == report;
-            options = undefined;
+            offset = oscard == report;
+            option = undefined;
             if(offset) { _fun00010_ip = 186; continue _fun00009 }
  180:
-            options = report.accentColor;
+            option = report.accentColor;
  186:
-            options = verify.bind(tango)(options);
-            zulu['accentColor'] = options;
+            option = verify.bind(tangon)(option);
+            zuuluu['accentColor'] = option;
             verify = _closure1_slot6;
-            offset = oscar == report;
-            options = undefined;
+            offset = oscard == report;
+            option = undefined;
             if(offset) { _fun00010_ip = 214; continue _fun00009 }
  209:
-            options = report.backgroundColor;
+            option = report.backgroundColor;
  214:
-            options = verify.bind(tango)(options);
-            zulu['backgroundColor'] = options;
-            options = _closure1_slot6;
-            verify = oscar == report;
-            golf = undefined;
+            option = verify.bind(tangon)(option);
+            zuuluu['backgroundColor'] = option;
+            option = _closure1_slot6;
+            verify = oscard == report;
+            golfie = undefined;
             if(verify) { _fun00010_ip = 242; continue _fun00009 }
  236:
-            golf = report.highlightColor;
+            golfie = report.highlightColor;
  242:
-            golf = options.bind(tango)(golf);
-            zulu['highlightColor'] = golf;
-            oscar = oscar == report;
-            tango = undefined;
-            if(oscar) { _fun00010_ip = 266; continue _fun00009 }
+            golfie = option.bind(tangon)(golfie);
+            zuuluu['highlightColor'] = golfie;
+            oscard = oscard == report;
+            tangon = undefined;
+            if(oscard) { _fun00010_ip = 266; continue _fun00009 }
  261:
-            tango = report.opacity;
+            tangon = report.opacity;
  266:
-            zulu['opacity'] = tango;
-            mike['DARK'] = zulu;
-            return mike;
+            zuuluu['opacity'] = tangon;
+            michal['DARK'] = zuuluu;
+            return michal;
  277:
             return entity;
         }
     };
-    mike['applyPlatformToThemedEmojiColorPalette'] = golf;
-    golf = function() { // Original name: getEmojiColors
+    michal['applyPlatformToThemedEmojiColorPalette'] = golfie;
+    golfie = function() { // Original name: getEmojiColors
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['getEmojiColors'] = golf;
-    tango = function(argFoo) { // Original name: triggerFullscreenAnimation
+    michal['getEmojiColors'] = golfie;
+    tangon = function(argFoo) { // Original name: triggerFullscreenAnimation
         entity = argFoo;
-        golf = entity.channelId;
-        oscar = entity.messageId;
+        golfie = entity.channelId;
+        oscard = entity.messageId;
         report = entity.emoji;
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 11;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.openBurstReactionFirstSendActionSheet;
-        mike = {};
-        mike['channelId'] = golf;
-        mike['messageId'] = oscar;
-        mike['emoji'] = report;
-        mike = zulu.bind(tango)(mike);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.openBurstReactionFirstSendActionSheet;
+        michal = {};
+        michal['channelId'] = golfie;
+        michal['messageId'] = oscard;
+        michal['emoji'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['triggerFullscreenAnimation'] = tango;
-    tango = 13;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/EmojiUtilsPlatformed.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['triggerFullscreenAnimation'] = tangon;
+    tangon = 13;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/EmojiUtilsPlatformed.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

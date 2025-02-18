@@ -1,52 +1,52 @@
 // app/utils/ClipboardUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
-    tango = true;
-    oscar['value'] = tango;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
+    tangon = true;
+    oscard['value'] = tangon;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/ClipboardUtils.native.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['SUPPORTS_COPY'] = tango;
-    tango = function(argFoo) { // Original name: copy
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    report = oscard.bind(golfie)(report);
+    zuuluu['SUPPORTS_COPY'] = tangon;
+    tangon = function(argFoo) { // Original name: copy
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.setString;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.setString;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         entity = true;
         return entity;
     };
-    zulu['copy'] = tango;
-    mike = function() { // Original name: getString
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['copy'] = tangon;
+    michal = function() { // Original name: getString
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.getString;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.getString;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['getString'] = mike;
+    zuuluu['getString'] = michal;
     return entity;
 })();

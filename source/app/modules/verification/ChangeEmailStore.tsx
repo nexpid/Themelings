@@ -1,160 +1,160 @@
 // app/modules/verification/ChangeEmailStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    options = argBar;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    option = argBar;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = verify;
-    tango = function(argFoo, argBar) { // Original name: setChangeEmailError
+    tangon = function(argFoo, argBar) { // Original name: setChangeEmailError
         entity = argFoo;
         var _closure2_slot0 = entity;
         entity = argBar;
         var _closure2_slot1 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                mike = {};
-                zulu = argFoo;
-                report = zulu.errors;
-                oscar = mike;
-                zulu = copyDataProperties(oscar, report);
-                tango = _closure2_slot0;
-                zulu = _closure2_slot1;
-                mike[tango] = zulu;
-                entity['errors'] = mike;
+                michal = {};
+                zuuluu = argFoo;
+                report = zuuluu.errors;
+                oscard = michal;
+                zuuluu = copyDataProperties(oscard, report);
+                tangon = _closure2_slot0;
+                zuuluu = _closure2_slot1;
+                michal[tangon] = zuuluu;
+                entity['errors'] = michal;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
-    oscar = {};
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    oscard = {};
     entity = 'email';
-    oscar['EMAIL'] = entity;
+    oscard['EMAIL'] = entity;
     entity = 'email_token';
-    oscar['EMAIL_TOKEN'] = entity;
+    oscard['EMAIL_TOKEN'] = entity;
     entity = 'password';
-    oscar['PASSWORD'] = entity;
+    oscard['PASSWORD'] = entity;
     entity = {'errors': null, 'emailToken': null};
     var _closure1_slot2 = entity;
     entity = 0;
     report = verify[entity];
     entity = undefined;
-    offset = options.bind(entity)(report);
-    golf = offset.create;
+    offset = option.bind(entity)(report);
+    golfie = offset.create;
     report = function() {
         entity = _closure1_slot2;
         return entity;
     };
-    report = golf.bind(offset)(report);
+    report = golfie.bind(offset)(report);
     var _closure1_slot3 = report;
-    golf = 2;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/verification/ChangeEmailStore.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['ChangeEmailFields'] = oscar;
-    zulu['useChangeEmailStore'] = report;
-    zulu['setChangeEmailError'] = tango;
-    tango = function(argFoo) { // Original name: useChangeEmailError
+    golfie = 2;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/verification/ChangeEmailStore.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['ChangeEmailFields'] = oscard;
+    zuuluu['useChangeEmailStore'] = report;
+    zuuluu['setChangeEmailError'] = tangon;
+    tangon = function(argFoo) { // Original name: useChangeEmailError
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot3;
-        zulu = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = undefined;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                zulu = entity.errors;
+                zuuluu = entity.errors;
                 entity = null;
-                mike = entity == zulu;
+                michal = entity == zuuluu;
                 entity = undefined;
-                if(mike) { _fun00002_ip = 31; continue _fun00001 }
+                if(michal) { _fun00002_ip = 31; continue _fun00001 }
  20:
-                mike = _closure2_slot0;
-                entity = zulu[mike];
+                michal = _closure2_slot0;
+                entity = zuuluu[michal];
  31:
                 return entity;
             }
         };
-        zulu = tango.bind(zulu)(entity);
+        zuuluu = tangon.bind(zuuluu)(entity);
         entity = new Array(2);
-        entity[0] = zulu;
-        mike = function(argFoo) {
-            tango = _closure1_slot4;
-            zulu = _closure2_slot0;
+        entity[0] = zuuluu;
+        michal = function(argFoo) {
+            tangon = _closure1_slot4;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            mike = argFoo;
-            mike = tango.bind(entity)(zulu, mike);
+            michal = argFoo;
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity[1] = mike;
+        entity[1] = michal;
         return entity;
     };
-    zulu['useChangeEmailError'] = tango;
-    tango = function(argFoo) { // Original name: setEmailToken
+    zuuluu['useChangeEmailError'] = tangon;
+    tangon = function(argFoo) { // Original name: setEmailToken
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['emailToken'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['emailToken'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setEmailToken'] = tango;
-    mike = function() { // Original name: resetChangeEmailStore
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['setEmailToken'] = tangon;
+    michal = function() { // Original name: resetChangeEmailStore
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            tango = _closure1_slot3;
-            zulu = tango.setState;
-            mike = _closure1_slot2;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            tangon = _closure1_slot3;
+            zuuluu = tangon.setState;
+            michal = _closure1_slot2;
             entity = true;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['resetChangeEmailStore'] = mike;
+    zuuluu['resetChangeEmailStore'] = michal;
     return entity;
 })();

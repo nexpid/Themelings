@@ -1,42 +1,42 @@
 // discord_common/js/packages/media-engine/MediaEngineDummy.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot11;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -45,37 +45,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = mike;
+            _closure1_slot11 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
@@ -92,854 +92,854 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.AudioSubsystems;
-    var _closure1_slot7 = options;
-    options = tango.Features;
-    var _closure1_slot8 = options;
-    tango = tango.MediaEngineContextTypes;
-    var _closure1_slot9 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    mike = function(argFoo) {
-        tango = function(argFoo) { // Original name: MediaEngineDummy
-            oscar = this;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.AudioSubsystems;
+    var _closure1_slot7 = option;
+    option = tangon.Features;
+    var _closure1_slot8 = option;
+    tangon = tangon.MediaEngineContextTypes;
+    var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    michal = function(argFoo) {
+        tangon = function(argFoo) { // Original name: MediaEngineDummy
+            oscard = this;
             yankee = 0;
-            golf = copyRestArgs(yankee);
+            golfie = copyRestArgs(yankee);
             entity = _closure1_slot2;
             report = _closure2_slot0;
-            tango = undefined;
-            entity = entity.bind(tango)(oscar, report);
-            zulu = _closure1_slot10;
+            tangon = undefined;
+            entity = entity.bind(tangon)(oscard, report);
+            zuuluu = _closure1_slot10;
             entity = new Array(0);
             yankee = entity;
-            offset = golf;
+            offset = golfie;
             verify = 0;
-            golf = arraySpread(yankee, offset, verify);
-            entity = zulu.bind(tango)(oscar, report, entity);
-            zulu = _closure1_slot12;
-            entity['Video'] = zulu;
-            mike = _closure1_slot13;
-            entity['Camera'] = mike;
+            golfie = arraySpread(yankee, offset, verify);
+            entity = zuuluu.bind(tangon)(oscard, report, entity);
+            zuuluu = _closure1_slot12;
+            entity['Video'] = zuuluu;
+            michal = _closure1_slot13;
+            entity['Camera'] = michal;
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot6;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot3;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot3;
         report = {};
         entity = 'destroy';
         report['key'] = entity;
         entity = function() { // Original name: value
-            zulu = this;
-            tango = zulu.emit;
+            zuuluu = this;
+            tangon = zuuluu.emit;
             report = _closure1_slot0;
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = 6;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = report.bind(entity)(mike);
-            mike = mike.MediaEngineEvent;
-            mike = mike.Destroy;
-            mike = tango.bind(zulu)(mike);
-            mike = zulu.removeAllListeners;
-            mike = mike.bind(zulu)();
+            michal = report.bind(entity)(michal);
+            michal = michal.MediaEngineEvent;
+            michal = michal.Destroy;
+            michal = tangon.bind(zuuluu)(michal);
+            michal = zuuluu.removeAllListeners;
+            michal = michal.bind(zuuluu)();
             return entity;
         };
         report['value'] = entity;
         entity = new Array(65);
         entity[0] = report;
         report = {};
-        golf = 'interact';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'interact';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'supported';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'supported';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'supports';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'supports';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = _closure1_slot8;
             entity = entity.AUTO_ENABLE;
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'connect';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'connect';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'NOT_IMPLEMENTED';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'NOT_IMPLEMENTED';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'eachConnection';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'eachConnection';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'enable';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'enable';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            mike = entity.Promise;
-            entity = mike.resolve;
-            entity = entity.bind(mike)();
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'setInputVolume';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setInputVolume';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[7] = report;
         report = {};
-        golf = 'setOutputVolume';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setOutputVolume';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[8] = report;
         report = {};
-        golf = 'getAudioInputDevices';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getAudioInputDevices';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.resolve;
+            zuuluu = entity.Promise;
+            michal = zuuluu.resolve;
             entity = new Array(0);
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[9] = report;
         report = {};
-        golf = 'setAudioInputDevice';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setAudioInputDevice';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[10] = report;
         report = {};
-        golf = 'getAudioOutputDevices';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getAudioOutputDevices';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.resolve;
+            zuuluu = entity.Promise;
+            michal = zuuluu.resolve;
             entity = new Array(0);
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[11] = report;
         report = {};
-        golf = 'setAudioOutputDevice';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setAudioOutputDevice';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[12] = report;
         report = {};
-        golf = 'getVideoInputDevices';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVideoInputDevices';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.resolve;
+            zuuluu = entity.Promise;
+            michal = zuuluu.resolve;
             entity = new Array(0);
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[13] = report;
         report = {};
-        golf = 'setVideoInputDevice';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setVideoInputDevice';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golf = 'getSupportedVideoCodecs';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
-            zulu = argFoo;
+        golfie = 'getSupportedVideoCodecs';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            zuuluu = argFoo;
             entity = undefined;
-            mike = new Array(0);
-            mike = zulu.bind(entity)(mike);
+            michal = new Array(0);
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[15] = report;
         report = {};
-        golf = 'getCodecCapabilities';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
-            zulu = argFoo;
+        golfie = 'getCodecCapabilities';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            zuuluu = argFoo;
             entity = undefined;
-            mike = '';
-            mike = zulu.bind(entity)(mike);
+            michal = '';
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[16] = report;
         report = {};
-        golf = 'getCodecSurvey';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getCodecSurvey';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'getCodecSurvey is not implemented for MediaEngineDummy';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'getCodecSurvey is not implemented for MediaEngineDummy';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[17] = report;
         report = {};
-        golf = 'getAudioSubsystem';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getAudioSubsystem';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot7;
             entity = entity.STANDARD;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[18] = report;
         report = {};
-        golf = 'getAudioLayer';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getAudioLayer';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = '';
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[19] = report;
         report = {};
-        golf = 'setGoLiveSource';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setGoLiveSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[20] = report;
         report = {};
-        golf = 'setClipsSource';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setClipsSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[21] = report;
         report = {};
-        golf = 'setClipsQualitySettings';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setClipsQualitySettings';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[22] = report;
         report = {};
-        golf = 'setDesktopSource';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setDesktopSource';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = arguments[1];
+                michal = arguments[1];
                 entity = undefined;
-                if(!(mike === entity)) { _fun00006_ip = 22; continue _fun00005 }
+                if(!(michal === entity)) { _fun00006_ip = 22; continue _fun00005 }
  9:
-                mike = _closure1_slot9;
-                mike = mike.DEFAULT;
+                michal = _closure1_slot9;
+                michal = michal.DEFAULT;
  22:
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[23] = report;
         report = {};
-        golf = 'setSoundshareSource';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setSoundshareSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[24] = report;
         report = {};
-        golf = 'getDesktopSource';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getDesktopSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'NO_STREAM';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'NO_STREAM';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[25] = report;
         report = {};
-        golf = 'getScreenPreviews';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getScreenPreviews';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[26] = report;
         report = {};
-        golf = 'getWindowPreviews';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getWindowPreviews';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[27] = report;
         report = {};
-        golf = 'setClipBufferLength';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setClipBufferLength';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[28] = report;
         report = {};
-        golf = 'saveClip';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'saveClip';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[29] = report;
         report = {};
-        golf = 'saveClipForUser';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'saveClipForUser';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[30] = report;
         report = {};
-        golf = 'updateClipMetadata';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'updateClipMetadata';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[31] = report;
         report = {};
-        golf = 'exportClip';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'exportClip';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'UNSUPPORTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'UNSUPPORTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[32] = report;
         report = {};
-        golf = 'setAudioSubsystem';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setAudioSubsystem';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[33] = report;
         report = {};
-        golf = 'queueAudioSubsystem';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'queueAudioSubsystem';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[34] = report;
         report = {};
-        golf = 'getDebugLogging';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getDebugLogging';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[35] = report;
         report = {};
-        golf = 'setDebugLogging';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setDebugLogging';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[36] = report;
         report = {};
-        golf = 'writeAudioDebugState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'writeAudioDebugState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'Audio debug state is not supported.';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'Audio debug state is not supported.';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[37] = report;
         report = {};
-        golf = 'setExperimentalAdm';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setExperimentalAdm';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[38] = report;
         report = {};
-        golf = 'setLoopback';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setLoopback';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[39] = report;
         report = {};
-        golf = 'getLoopback';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getLoopback';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = false;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[40] = report;
         report = {};
-        golf = 'setH264Enabled';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setH264Enabled';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[41] = report;
         report = {};
-        golf = 'setAv1Enabled';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setAv1Enabled';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[42] = report;
         report = {};
-        golf = 'setH265Enabled';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setH265Enabled';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[43] = report;
         report = {};
-        golf = 'setExperimentFlag';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setExperimentFlag';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[44] = report;
         report = {};
-        golf = 'startAecDump';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'startAecDump';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[45] = report;
         report = {};
-        golf = 'stopAecDump';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'stopAecDump';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[46] = report;
         report = {};
-        golf = 'setAecDump';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setAecDump';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[47] = report;
         report = {};
-        golf = 'createReplayConnection';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'createReplayConnection';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'Connection replay is not supported.';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'Connection replay is not supported.';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[48] = report;
         report = {};
-        golf = 'setUseDirectVideo';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setUseDirectVideo';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[49] = report;
         report = {};
-        golf = 'setOnVideoContainerResized';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setOnVideoContainerResized';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[50] = report;
         report = {};
-        golf = 'setMaxSyncDelayOverride';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setMaxSyncDelayOverride';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[51] = report;
         report = {};
-        golf = 'rankRtcRegions';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'rankRtcRegions';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'RTC region latency test is not supported.';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'RTC region latency test is not supported.';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[52] = report;
         report = {};
-        golf = 'applyMediaFilterSettings';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'applyMediaFilterSettings';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            mike = entity.Promise;
-            entity = mike.resolve;
-            entity = entity.bind(mike)();
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[53] = report;
         report = {};
-        golf = 'startLocalAudioRecording';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'startLocalAudioRecording';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'startLocalAudioRecording is not supported.';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'startLocalAudioRecording is not supported.';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[54] = report;
         report = {};
-        golf = 'stopLocalAudioRecording';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'stopLocalAudioRecording';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[55] = report;
         report = {};
-        golf = 'setHasFullbandPerformance';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setHasFullbandPerformance';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[56] = report;
         report = {};
-        golf = 'getSupportedSecureFramesProtocolVersion';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getSupportedSecureFramesProtocolVersion';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = 0;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[57] = report;
         report = {};
-        golf = 'getSupportedBandwidthEstimationExperiments';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
-            zulu = argFoo;
+        golfie = 'getSupportedBandwidthEstimationExperiments';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            zuuluu = argFoo;
             entity = undefined;
-            mike = new Array(0);
-            mike = zulu.bind(entity)(mike);
+            michal = new Array(0);
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[58] = report;
         report = {};
-        golf = 'getMLSSigningKey';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getMLSSigningKey';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = report.prototype;
-            tango = Object.create(entity, {constructor: {value: report}});
-            oscar = 'NOT_IMPLEMENTED';
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'NOT_IMPLEMENTED';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[59] = report;
         report = {};
-        golf = 'setSidechainCompression';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setSidechainCompression';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[60] = report;
         report = {};
-        golf = 'setSidechainCompressionStrength';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setSidechainCompressionStrength';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[61] = report;
         report = {};
-        golf = 'setNativeDesktopVideoSourcePickerActive';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'setNativeDesktopVideoSourcePickerActive';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[62] = report;
         report = {};
-        golf = 'presentNativeScreenSharePicker';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'presentNativeScreenSharePicker';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[63] = report;
         report = {};
-        golf = 'releaseNativeDesktopVideoSourcePickerStream';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'releaseNativeDesktopVideoSourcePickerStream';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = undefined;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[64] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    mike = mike.bind(entity)(tango);
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/MediaEngineDummy.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)(tangon);
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/MediaEngineDummy.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,25 +1,25 @@
 // app/design/components/Icon/IconSize.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {'xxs': 12, 'xs': 16, 'sm': 18, 'md': 24, 'lg': 32, 'custom': null, 'refresh_sm': 20};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {'xxs': 12, 'xs': 16, 'sm': 18, 'md': 24, 'lg': 32, 'custom': null, 'refresh_sm': 20};
     entity = undefined;
-    mike['custom'] = entity;
-    report = argPlugh;
-    tango = 0;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Icon/IconSize.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['ICON_SIZE'] = mike;
+    michal['custom'] = entity;
+    report = argPlu;
+    tangon = 0;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Icon/IconSize.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['ICON_SIZE'] = michal;
     return entity;
 })();

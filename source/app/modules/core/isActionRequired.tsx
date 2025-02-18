@@ -1,65 +1,65 @@
 // app/modules/core/isActionRequired.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/core/isActionRequired.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: isActionRequired
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/core/isActionRequired.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: isActionRequired
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
-            mike = arguments[1];
+            michal = arguments[1];
             entity = undefined;
             if(!(report === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             report = _closure1_slot0;
  19:
-            if(!(mike === entity)) { _fun00002_ip = 30; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
  30:
-            entity = mike.getAction;
-            mike = entity.bind(mike)();
+            entity = michal.getAction;
+            michal = entity.bind(michal)();
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(entity) { _fun00002_ip = 88; continue _fun00001 }
  49:
-            mike = global;
-            tango = mike.Object;
-            zulu = tango.keys;
-            mike = report.getState;
-            mike = mike.bind(report)();
-            mike = zulu.bind(tango)(mike);
-            zulu = mike.length;
-            mike = 0;
-            entity = zulu > mike;
+            michal = global;
+            tangon = michal.Object;
+            zuuluu = tangon.keys;
+            michal = report.getState;
+            michal = michal.bind(report)();
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.length;
+            michal = 0;
+            entity = zuuluu > michal;
  88:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

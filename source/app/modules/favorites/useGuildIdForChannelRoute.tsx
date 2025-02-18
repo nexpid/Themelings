@@ -1,110 +1,110 @@
 // app/modules/favorites/useGuildIdForChannelRoute.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.FAVORITES;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/favorites/useGuildIdForChannelRoute.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useGuildIdForChannelRoute
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FAVORITES;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/favorites/useGuildIdForChannelRoute.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useGuildIdForChannelRoute
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 3;
-            tango = tango[mike];
-            mike = undefined;
-            report = report.bind(mike)(tango);
-            tango = report.useStateFromStores;
+            tangon = _closure1_slot1;
+            michal = 3;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = report.useStateFromStores;
             entity = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = function() {
-                mike = _closure1_slot2;
-                entity = mike.getGuildId;
-                entity = entity.bind(mike)();
+                michal = _closure1_slot2;
+                entity = michal.getGuildId;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            entity = tango.bind(report)(mike, entity);
-            mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 74; continue _fun00001 }
+            entity = tangon.bind(report)(michal, entity);
+            michal = null;
+            if(!(michal == entity)) { _fun00002_ip = 74; continue _fun00001 }
  64:
-            mike = zulu.getGuildId;
-            entity = mike.bind(zulu)();
+            michal = zuuluu.getGuildId;
+            entity = michal.bind(zuuluu)();
  74:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: getGuildIdForGenericRedirect
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: getGuildIdForGenericRedirect
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            tango = _closure1_slot2;
-            entity = tango.getGuildId;
-            tango = entity.bind(tango)();
+            zuuluu = argFoo;
+            tangon = _closure1_slot2;
+            entity = tangon.getGuildId;
+            tangon = entity.bind(tangon)();
             entity = _closure1_slot4;
-            if(!(tango === entity)) { _fun00004_ip = 106; continue _fun00003 }
+            if(!(tangon === entity)) { _fun00004_ip = 106; continue _fun00003 }
  28:
             report = _closure1_slot3;
-            tango = report.isFavorite;
-            entity = zulu.id;
-            entity = tango.bind(report)(entity);
+            tangon = report.isFavorite;
+            entity = zuuluu.id;
+            entity = tangon.bind(report)(entity);
             if(entity) { _fun00004_ip = 100; continue _fun00003 }
  51:
-            entity = zulu.isThread;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.isThread;
+            entity = entity.bind(zuuluu)();
             if(!entity) { _fun00004_ip = 88; continue _fun00003 }
  64:
             report = _closure1_slot3;
-            tango = report.isFavorite;
-            entity = zulu.parent_id;
-            entity = tango.bind(report)(entity);
+            tangon = report.isFavorite;
+            entity = zuuluu.parent_id;
+            entity = tangon.bind(report)(entity);
             if(entity) { _fun00004_ip = 100; continue _fun00003 }
  88:
-            entity = zulu.getGuildId;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.getGuildId;
+            entity = entity.bind(zuuluu)();
             _fun00004_ip = 104; continue _fun00003;
  100:
             entity = _closure1_slot4;
  104:
             _fun00004_ip = 116; continue _fun00003;
  106:
-            mike = zulu.getGuildId;
-            entity = mike.bind(zulu)();
+            michal = zuuluu.getGuildId;
+            entity = michal.bind(zuuluu)();
  116:
             return entity;
         }
     };
-    zulu['getGuildIdForGenericRedirect'] = mike;
+    zuuluu['getGuildIdForGenericRedirect'] = michal;
     return entity;
 })();

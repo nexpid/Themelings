@@ -1,65 +1,65 @@
 // app/modules/labs/LabFeatureActions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = {};
-    var _closure1_slot3 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/labs/LabFeatureActions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: toggleLabFeature
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = {};
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/labs/LabFeatureActions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: toggleLabFeature
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            mike = arguments[1];
+            oscard = argFoo;
+            michal = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 19; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
-            mike = _closure1_slot3;
+            michal = _closure1_slot3;
  19:
-            report = mike.enabled;
+            report = michal.enabled;
             if(!(report === entity)) { _fun00002_ip = 48; continue _fun00001 }
  28:
-            zulu = _closure1_slot2;
-            mike = zulu.get;
-            mike = mike.bind(zulu)(oscar);
-            report = !mike;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.get;
+            michal = michal.bind(zuuluu)(oscard);
+            report = !michal;
  48:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            golf = 'LAB_FEATURE_TOGGLE';
-            mike['type'] = golf;
-            mike['labFeature'] = oscar;
-            mike['enabled'] = report;
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            golfie = 'LAB_FEATURE_TOGGLE';
+            michal['type'] = golfie;
+            michal['labFeature'] = oscard;
+            michal['enabled'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['toggleLabFeature'] = mike;
+    zuuluu['toggleLabFeature'] = michal;
     return entity;
 })();

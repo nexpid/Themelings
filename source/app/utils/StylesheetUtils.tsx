@@ -1,63 +1,63 @@
 // app/utils/StylesheetUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/StylesheetUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: getClass
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/StylesheetUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: getClass
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = 2;
-            zulu = copyRestArgs(oscar);
-            mike = zulu.reduce;
+            oscard = 2;
+            zuuluu = copyRestArgs(oscard);
+            michal = zuuluu.reduce;
             entity = function(argFoo, argBar) {
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 0;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.upperCaseFirstChar;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.upperCaseFirstChar;
                 entity = argBar;
-                mike = mike.bind(zulu)(entity);
+                michal = michal.bind(zuuluu)(entity);
                 entity = argFoo;
-                entity = entity + mike;
+                entity = entity + michal;
                 return entity;
             };
-            tango = '';
-            zulu = mike.bind(zulu)(entity, tango);
+            tangon = '';
+            zuuluu = michal.bind(zuuluu)(entity, tangon);
             entity = global;
             entity = entity.HermesInternal;
-            mike = entity.concat;
+            michal = entity.concat;
             entity = argBar;
-            mike = mike.bind(tango)(entity, zulu);
+            michal = michal.bind(tangon)(entity, zuuluu);
             entity = argFoo;
-            entity = entity[mike];
-            mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 69; continue _fun00001 }
+            entity = entity[michal];
+            michal = null;
+            if(!(michal == entity)) { _fun00002_ip = 69; continue _fun00001 }
  65:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  69:
             return entity;
         }
     };
-    zulu['getClass'] = mike;
+    zuuluu['getClass'] = michal;
     return entity;
 })();

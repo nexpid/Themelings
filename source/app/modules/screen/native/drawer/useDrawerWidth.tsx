@@ -1,12 +1,12 @@
 // app/modules/screen/native/drawer/useDrawerWidth.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golf;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar) { // Original name: computeTabletDrawerWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -15,12 +15,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  9:
             entity = global;
             report = entity.Math;
-            tango = report.min;
-            zulu = _closure1_slot4;
-            oscar = _closure1_slot5;
+            tangon = report.min;
+            zuuluu = _closure1_slot4;
+            oscard = _closure1_slot5;
             entity = argFoo;
-            entity = entity - oscar;
-            entity = tango.bind(report)(zulu, entity);
+            entity = entity - oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
             _fun00002_ip = 49; continue _fun00001;
  45:
             entity = _closure1_slot3;
@@ -30,88 +30,88 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    options = tango.DM_WIDTH;
-    tango = 260;
-    tango = tango + options;
-    var _closure1_slot3 = tango;
+    tangon = oscard.bind(entity)(tangon);
+    option = tangon.DM_WIDTH;
+    tangon = 260;
+    tangon = tangon + option;
+    var _closure1_slot3 = tangon;
     report = 300;
-    report = report + options;
+    report = report + option;
     var _closure1_slot4 = report;
     report = 32;
     var _closure1_slot5 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/screen/native/drawer/useDrawerWidth.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['DRAWER_LEFT_WIDTH_MIN'] = tango;
-    tango = function() { // Original name: getDrawerWidth
+    report = oscard.bind(golfie)(report);
+    zuuluu['DRAWER_LEFT_WIDTH_MIN'] = tangon;
+    tangon = function() { // Original name: getDrawerWidth
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot2;
             entity = 1;
-            entity = oscar[entity];
+            entity = oscard[entity];
             report = undefined;
-            tango = zulu.bind(report)(entity);
-            entity = tango.getAppContainerDimensions;
-            entity = entity.bind(tango)();
-            tango = entity.width;
+            tangon = zuuluu.bind(report)(entity);
+            entity = tangon.getAppContainerDimensions;
+            entity = entity.bind(tangon)();
+            tangon = entity.width;
             entity = 2;
-            entity = oscar[entity];
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.getChatLayout;
-            entity = entity.bind(zulu)();
-            oscar = entity.isChatBesideChannelList;
-            zulu = entity.isChatLockedOpen;
-            entity = tango;
-            if(!oscar) { _fun00004_ip = 90; continue _fun00003 }
+            entity = oscard[entity];
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.getChatLayout;
+            entity = entity.bind(zuuluu)();
+            oscard = entity.isChatBesideChannelList;
+            zuuluu = entity.isChatLockedOpen;
+            entity = tangon;
+            if(!oscard) { _fun00004_ip = 90; continue _fun00003 }
  80:
-            mike = _closure1_slot6;
-            entity = mike.bind(report)(tango, zulu);
+            michal = _closure1_slot6;
+            entity = michal.bind(report)(tangon, zuuluu);
  90:
             return entity;
         }
     };
-    zulu['getDrawerWidth'] = tango;
-    mike = function() { // Original name: useDrawerWidth
+    zuuluu['getDrawerWidth'] = tangon;
+    michal = function() { // Original name: useDrawerWidth
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
             entity = 1;
-            entity = oscar[entity];
+            entity = oscard[entity];
             report = undefined;
-            entity = zulu.bind(report)(entity);
+            entity = zuuluu.bind(report)(entity);
             entity = entity.bind(report)();
-            tango = entity.width;
+            tangon = entity.width;
             entity = 2;
-            entity = oscar[entity];
-            entity = zulu.bind(report)(entity);
+            entity = oscard[entity];
+            entity = zuuluu.bind(report)(entity);
             entity = entity.bind(report)();
-            oscar = entity.isChatBesideChannelList;
-            zulu = entity.isChatLockedOpen;
-            entity = tango;
-            if(!oscar) { _fun00006_ip = 78; continue _fun00005 }
+            oscard = entity.isChatBesideChannelList;
+            zuuluu = entity.isChatLockedOpen;
+            entity = tangon;
+            if(!oscard) { _fun00006_ip = 78; continue _fun00005 }
  68:
-            mike = _closure1_slot6;
-            entity = mike.bind(report)(tango, zulu);
+            michal = _closure1_slot6;
+            entity = michal.bind(report)(tangon, zuuluu);
  78:
             return entity;
         }
     };
-    zulu['useDrawerWidth'] = mike;
+    zuuluu['useDrawerWidth'] = michal;
     return entity;
 })();

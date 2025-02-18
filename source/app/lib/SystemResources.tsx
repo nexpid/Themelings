@@ -1,256 +1,256 @@
 // app/lib/SystemResources.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    mike = function() {
-        tango = _closure1_slot4;
-        zulu = function() { // Original name: SystemResources
-            zulu = this;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    michal = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function() { // Original name: SystemResources
+            zuuluu = this;
             report = _closure1_slot3;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            oscar = _closure1_slot0;
+            tangon = report.bind(entity)(zuuluu, tangon);
+            oscard = _closure1_slot0;
             report = _closure1_slot2;
-            tango = 2;
-            golf = report[tango];
-            golf = oscar.bind(entity)(golf);
-            golf = golf.Histogram;
-            options = golf.prototype;
-            options = Object.create(options, {constructor: {value: golf}});
-            yankee = options;
-            golf = new yankee[golf](offset);
-            golf = golf instanceof Object ? golf : options;
-            zulu['cpuHistogram'] = golf;
-            tango = report[tango];
-            tango = oscar.bind(entity)(tango);
-            tango = tango.Histogram;
-            oscar = tango.prototype;
-            oscar = Object.create(oscar, {constructor: {value: tango}});
-            yankee = oscar;
-            tango = new yankee[tango](offset);
-            tango = tango instanceof Object ? tango : oscar;
-            zulu['memoryHistogram'] = tango;
-            tango = _closure1_slot1;
-            mike = 3;
-            mike = report[mike];
-            tango = tango.bind(entity)(mike);
-            mike = tango.getCumulativeCPUUsage;
-            mike = mike.bind(tango)();
-            zulu['startCPU'] = mike;
-            mike = zulu.startCPU;
-            zulu['lastCPU'] = mike;
+            tangon = 2;
+            golfie = report[tangon];
+            golfie = oscard.bind(entity)(golfie);
+            golfie = golfie.Histogram;
+            option = golfie.prototype;
+            option = Object.create(option, {constructor: {value: golfie}});
+            yankee = option;
+            golfie = new yankee[golfie](offset);
+            golfie = golfie instanceof Object ? golfie : option;
+            zuuluu['cpuHistogram'] = golfie;
+            tangon = report[tangon];
+            tangon = oscard.bind(entity)(tangon);
+            tangon = tangon.Histogram;
+            oscard = tangon.prototype;
+            oscard = Object.create(oscard, {constructor: {value: tangon}});
+            yankee = oscard;
+            tangon = new yankee[tangon](offset);
+            tangon = tangon instanceof Object ? tangon : oscard;
+            zuuluu['memoryHistogram'] = tangon;
+            tangon = _closure1_slot1;
+            michal = 3;
+            michal = report[michal];
+            tangon = tangon.bind(entity)(michal);
+            michal = tangon.getCumulativeCPUUsage;
+            michal = michal.bind(tangon)();
+            zuuluu['startCPU'] = michal;
+            michal = zuuluu.startCPU;
+            zuuluu['lastCPU'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'getStats';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
+        michal = 'getStats';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = this;
-                zulu = entity.cpuHistogram;
-                mike = zulu.getReport;
-                verify = mike.bind(zulu)();
-                zulu = entity.memoryHistogram;
-                mike = zulu.getReport;
-                mike = mike.bind(zulu)();
-                tango = _closure1_slot1;
+                zuuluu = entity.cpuHistogram;
+                michal = zuuluu.getReport;
+                verify = michal.bind(zuuluu)();
+                zuuluu = entity.memoryHistogram;
+                michal = zuuluu.getReport;
+                michal = michal.bind(zuuluu)();
+                tangon = _closure1_slot1;
                 report = _closure1_slot2;
-                zulu = 3;
-                zulu = report[zulu];
-                oscar = undefined;
-                tango = tango.bind(oscar)(zulu);
-                zulu = tango.getCumulativeCPUUsage;
-                report = zulu.bind(tango)();
-                zulu = entity.startCPU;
+                zuuluu = 3;
+                zuuluu = report[zuuluu];
+                oscard = undefined;
+                tangon = tangon.bind(oscard)(zuuluu);
+                zuuluu = tangon.getCumulativeCPUUsage;
+                report = zuuluu.bind(tangon)();
+                zuuluu = entity.startCPU;
                 offset = null;
-                tango = offset == zulu;
-                zulu = undefined;
-                if(tango) { _fun00002_ip = 161; continue _fun00001 }
+                tangon = offset == zuuluu;
+                zuuluu = undefined;
+                if(tangon) { _fun00002_ip = 161; continue _fun00001 }
  87:
-                tango = offset == report;
-                zulu = undefined;
-                if(tango) { _fun00002_ip = 161; continue _fun00001 }
+                tangon = offset == report;
+                zuuluu = undefined;
+                if(tangon) { _fun00002_ip = 161; continue _fun00001 }
  96:
-                oscar = report.usage;
-                tango = entity.startCPU;
-                tango = tango.usage;
-                oscar = oscar - tango;
-                tango = 100;
-                tango = tango * oscar;
+                oscard = report.usage;
+                tangon = entity.startCPU;
+                tangon = tangon.usage;
+                oscard = oscard - tangon;
+                tangon = 100;
+                tangon = tangon * oscard;
                 report = report.sampleTime;
                 entity = entity.startCPU;
                 entity = entity.sampleTime;
                 report = report - entity;
                 entity = 1000;
                 entity = report / entity;
-                zulu = tango / entity;
+                zuuluu = tangon / entity;
  161:
                 entity = {};
-                tango = verify.percentiles;
-                options = 25;
-                tango = tango[options];
-                entity['client_performance_cpu_percentile25'] = tango;
-                tango = verify.percentiles;
-                golf = 50;
-                tango = tango[golf];
-                entity['client_performance_cpu_percentile50'] = tango;
-                tango = verify.percentiles;
-                oscar = 75;
-                tango = tango[oscar];
-                entity['client_performance_cpu_percentile75'] = tango;
-                tango = verify.percentiles;
+                tangon = verify.percentiles;
+                option = 25;
+                tangon = tangon[option];
+                entity['client_performance_cpu_percentile25'] = tangon;
+                tangon = verify.percentiles;
+                golfie = 50;
+                tangon = tangon[golfie];
+                entity['client_performance_cpu_percentile50'] = tangon;
+                tangon = verify.percentiles;
+                oscard = 75;
+                tangon = tangon[oscard];
+                entity['client_performance_cpu_percentile75'] = tangon;
+                tangon = verify.percentiles;
                 report = 90;
-                tango = tango[report];
-                entity['client_performance_cpu_percentile90'] = tango;
+                tangon = tangon[report];
+                entity['client_performance_cpu_percentile90'] = tangon;
                 yankee = verify.percentiles;
-                tango = 95;
-                yankee = yankee[tango];
+                tangon = 95;
+                yankee = yankee[tangon];
                 entity['client_performance_cpu_percentile95'] = yankee;
-                if(!(offset == zulu)) { _fun00002_ip = 273; continue _fun00001 }
+                if(!(offset == zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
  267:
-                zulu = verify.mean;
+                zuuluu = verify.mean;
  273:
-                entity['client_performance_cpu_mean'] = zulu;
-                zulu = mike.percentiles;
-                zulu = zulu[options];
-                entity['client_performance_memory_percentile25'] = zulu;
-                zulu = mike.percentiles;
-                zulu = zulu[golf];
-                entity['client_performance_memory_percentile50'] = zulu;
-                zulu = mike.percentiles;
-                zulu = zulu[oscar];
-                entity['client_performance_memory_percentile75'] = zulu;
-                zulu = mike.percentiles;
-                zulu = zulu[report];
-                entity['client_performance_memory_percentile90'] = zulu;
-                zulu = mike.percentiles;
-                zulu = zulu[tango];
-                entity['client_performance_memory_percentile95'] = zulu;
-                zulu = mike.min;
-                entity['client_performance_memory_min'] = zulu;
-                zulu = mike.max;
-                entity['client_performance_memory_max'] = zulu;
-                mike = mike.mean;
-                entity['client_performance_memory_mean'] = mike;
+                entity['client_performance_cpu_mean'] = zuuluu;
+                zuuluu = michal.percentiles;
+                zuuluu = zuuluu[option];
+                entity['client_performance_memory_percentile25'] = zuuluu;
+                zuuluu = michal.percentiles;
+                zuuluu = zuuluu[golfie];
+                entity['client_performance_memory_percentile50'] = zuuluu;
+                zuuluu = michal.percentiles;
+                zuuluu = zuuluu[oscard];
+                entity['client_performance_memory_percentile75'] = zuuluu;
+                zuuluu = michal.percentiles;
+                zuuluu = zuuluu[report];
+                entity['client_performance_memory_percentile90'] = zuuluu;
+                zuuluu = michal.percentiles;
+                zuuluu = zuuluu[tangon];
+                entity['client_performance_memory_percentile95'] = zuuluu;
+                zuuluu = michal.min;
+                entity['client_performance_memory_min'] = zuuluu;
+                zuuluu = michal.max;
+                entity['client_performance_memory_max'] = zuuluu;
+                michal = michal.mean;
+                entity['client_performance_memory_mean'] = michal;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'takeSample';
-        entity['key'] = oscar;
+        oscard = 'takeSample';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = this;
-                tango = _closure1_slot1;
-                zulu = _closure1_slot2;
-                options = 3;
-                report = zulu[options];
+                michal = this;
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                option = 3;
+                report = zuuluu[option];
                 entity = undefined;
-                golf = tango.bind(entity)(report);
-                report = golf.getCumulativeCPUUsage;
-                report = report.bind(golf)();
-                zulu = zulu[options];
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.getCurrentMemoryUsageKB;
-                tango = zulu.bind(tango)();
-                zulu = null;
-                if(!(zulu == report)) { _fun00004_ip = 116; continue _fun00003 }
+                golfie = tangon.bind(entity)(report);
+                report = golfie.getCumulativeCPUUsage;
+                report = report.bind(golfie)();
+                zuuluu = zuuluu[option];
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.getCurrentMemoryUsageKB;
+                tangon = zuuluu.bind(tangon)();
+                zuuluu = null;
+                if(!(zuuluu == report)) { _fun00004_ip = 116; continue _fun00003 }
  63:
-                golf = _closure1_slot1;
-                oscar = _closure1_slot2;
-                oscar = oscar[options];
-                golf = golf.bind(entity)(oscar);
-                oscar = golf.getCurrentCPUUsagePercent;
-                options = oscar.bind(golf)();
-                if(!(zulu != options)) { _fun00004_ip = 234; continue _fun00003 }
+                golfie = _closure1_slot1;
+                oscard = _closure1_slot2;
+                oscard = oscard[option];
+                golfie = golfie.bind(entity)(oscard);
+                oscard = golfie.getCurrentCPUUsagePercent;
+                option = oscard.bind(golfie)();
+                if(!(zuuluu != option)) { _fun00004_ip = 234; continue _fun00003 }
  97:
-                golf = mike.cpuHistogram;
-                oscar = golf.addSample;
-                oscar = oscar.bind(golf)(options);
+                golfie = michal.cpuHistogram;
+                oscard = golfie.addSample;
+                oscard = oscard.bind(golfie)(option);
                 _fun00004_ip = 234; continue _fun00003;
  116:
-                oscar = mike.lastCPU;
-                options = zulu != oscar;
-                oscar = true;
-                if(!options) { _fun00004_ip = 225; continue _fun00003 }
+                oscard = michal.lastCPU;
+                option = zuuluu != oscard;
+                oscard = true;
+                if(!option) { _fun00004_ip = 225; continue _fun00003 }
  131:
                 verify = report.sampleTime;
-                options = mike.lastCPU;
-                options = options.sampleTime;
-                yankee = verify - options;
-                oscar = false;
-                options = 1;
-                if(!(yankee >= options)) { _fun00004_ip = 225; continue _fun00003 }
+                option = michal.lastCPU;
+                option = option.sampleTime;
+                yankee = verify - option;
+                oscard = false;
+                option = 1;
+                if(!(yankee >= option)) { _fun00004_ip = 225; continue _fun00003 }
  162:
                 verify = report.usage;
-                options = mike.lastCPU;
-                options = options.usage;
-                romeo = verify - options;
-                offset = mike.cpuHistogram;
+                option = michal.lastCPU;
+                option = option.usage;
+                romeon = verify - option;
+                offset = michal.cpuHistogram;
                 verify = offset.addSample;
-                options = 1000;
-                options = yankee / options;
-                romeo = romeo / options;
-                options = 100;
-                options = romeo * options;
-                options = verify.bind(offset)(options, yankee);
-                oscar = true;
+                option = 1000;
+                option = yankee / option;
+                romeon = romeon / option;
+                option = 100;
+                option = romeon * option;
+                option = verify.bind(offset)(option, yankee);
+                oscard = true;
  225:
-                if(!oscar) { _fun00004_ip = 234; continue _fun00003 }
+                if(!oscard) { _fun00004_ip = 234; continue _fun00003 }
  228:
-                mike['lastCPU'] = report;
+                michal['lastCPU'] = report;
  234:
-                if(!(zulu != tango)) { _fun00004_ip = 255; continue _fun00003 }
+                if(!(zuuluu != tangon)) { _fun00004_ip = 255; continue _fun00003 }
  238:
-                zulu = mike.memoryHistogram;
-                mike = zulu.addSample;
-                mike = mike.bind(zulu)(tango);
+                zuuluu = michal.memoryHistogram;
+                michal = zuuluu.addSample;
+                michal = michal.bind(zuuluu)(tangon);
  255:
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/SystemResources.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/SystemResources.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

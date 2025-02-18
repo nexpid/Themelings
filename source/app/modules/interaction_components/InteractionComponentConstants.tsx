@@ -1,24 +1,24 @@
 // app/modules/interaction_components/InteractionComponentConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/interaction_components/InteractionComponentConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = {'allowList': true, 'allowHeading': true, 'allowLinks': true, 'previewLinkTarget': true};
-    zulu['TEXT_DISPLAY_COMPONENT_MARKDOWN_RENDER_OPTIONS'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/interaction_components/InteractionComponentConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = {'allowList': true, 'allowHeading': true, 'allowLinks': true, 'previewLinkTarget': true};
+    zuuluu['TEXT_DISPLAY_COMPONENT_MARKDOWN_RENDER_OPTIONS'] = michal;
     return entity;
 })();

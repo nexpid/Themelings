@@ -1,69 +1,69 @@
 // app/utils/SortedArrayUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = function(argFoo, argBar, argBaz) { // Original name: insertionIndex
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: insertionIndex
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
-            options = argBar;
-            golf = argBaz;
-            oscar = verify.length;
+            option = argBar;
+            golfie = argBaz;
+            oscard = verify.length;
             report = 0;
-            offset = report < oscar;
-            tango = 1;
-            zulu = undefined;
-            mike = 0;
+            offset = report < oscard;
+            tangon = 1;
+            zuuluu = undefined;
+            michal = 0;
             entity = 0;
             if(!offset) { _fun00002_ip = 74; continue _fun00001 }
  32:
-            offset = mike + oscar;
-            yankee = offset >>> tango;
+            offset = michal + oscard;
+            yankee = offset >>> tangon;
             offset = verify[yankee];
-            romeo = golf.bind(zulu)(offset, options);
+            romeon = golfie.bind(zuuluu)(offset, option);
             offset = yankee;
-            if(!(romeo < report)) { _fun00002_ip = 64; continue _fun00001 }
+            if(!(romeon < report)) { _fun00002_ip = 64; continue _fun00001 }
  57:
-            mike = yankee + tango;
-            offset = oscar;
+            michal = yankee + tangon;
+            offset = oscard;
  64:
-            oscar = offset;
-            entity = mike;
-            if(entity < oscar) { _fun00002_ip = 32; continue _fun00001 }
+            oscard = offset;
+            entity = michal;
+            if(entity < oscard) { _fun00002_ip = 32; continue _fun00001 }
  74:
             return entity;
         }
     };
-    var _closure1_slot0 = tango;
+    var _closure1_slot0 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
-    report = argPlugh;
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    report = argPlu;
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/SortedArrayUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['insertionIndex'] = tango;
-    mike = function(argFoo, argBar, argBaz) { // Original name: insert
-        oscar = argFoo;
+    report = oscard.bind(golfie)(report);
+    zuuluu['insertionIndex'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: insert
+        oscard = argFoo;
         report = argBar;
-        zulu = _closure1_slot0;
+        zuuluu = _closure1_slot0;
         entity = undefined;
-        mike = argBaz;
-        tango = zulu.bind(entity)(oscar, report, mike);
-        zulu = oscar.splice;
-        mike = 0;
-        mike = zulu.bind(oscar)(tango, mike, report);
+        michal = argBaz;
+        tangon = zuuluu.bind(entity)(oscard, report, michal);
+        zuuluu = oscard.splice;
+        michal = 0;
+        michal = zuuluu.bind(oscard)(tangon, michal, report);
         return entity;
     };
-    zulu['insert'] = mike;
+    zuuluu['insert'] = michal;
     return entity;
 })();

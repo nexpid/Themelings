@@ -1,73 +1,73 @@
 // app/modules/notification_center/useNotificationCenterItemAcked.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/notification_center/useNotificationCenterItemAcked.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/notification_center/useNotificationCenterItemAcked.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            var _closure2_slot0 = oscar;
-            tango = _closure1_slot0;
+            oscard = argFoo;
+            var _closure2_slot0 = oscard;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 1;
-            mike = report[mike];
+            michal = 1;
+            michal = report[michal];
             report = undefined;
-            golf = tango.bind(report)(mike);
-            tango = golf.useStateFromStores;
-            options = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = options;
+            golfie = tangon.bind(report)(michal);
+            tangon = golfie.useStateFromStores;
+            option = _closure1_slot2;
+            michal = new Array(1);
+            michal[0] = option;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.isLocalItemAcked;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.isLocalItemAcked;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = tango.bind(golf)(mike, entity);
-            entity = oscar.forceUnacked;
+            michal = tangon.bind(golfie)(michal, entity);
+            entity = oscard.forceUnacked;
             entity = !entity;
             if(!entity) { _fun00002_ip = 117; continue _fun00001 }
  76:
-            if(mike) { _fun00002_ip = 114; continue _fun00001 }
+            if(michal) { _fun00002_ip = 114; continue _fun00001 }
  79:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 2;
-            zulu = golf[zulu];
-            report = tango.bind(report)(zulu);
-            tango = report.isRemoteAcked;
-            zulu = argBar;
-            mike = tango.bind(report)(oscar, zulu);
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = golfie[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.isRemoteAcked;
+            zuuluu = argBar;
+            michal = tangon.bind(report)(oscard, zuuluu);
  114:
-            entity = mike;
+            entity = michal;
  117:
             return entity;
         }
     };
-    zulu['useNotificationCenterItemAcked'] = mike;
+    zuuluu['useNotificationCenterItemAcked'] = michal;
     return entity;
 })();

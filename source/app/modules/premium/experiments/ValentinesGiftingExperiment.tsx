@@ -1,30 +1,30 @@
 // app/modules/premium/experiments/ValentinesGiftingExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    report = tango.CommonTriggerPoints;
-    tango = 1;
-    tango = golf[tango];
-    verify = oscar.bind(entity)(tango);
-    options = verify.createExperiment;
-    tango = {'id': '2025-01_valentines_gifting_2025', 'label': 'Valentines Gifting 2025', 'kind': 'user'};
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = golfie[tangon];
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'id': '2025-01_valentines_gifting_2025', 'label': 'Valentines Gifting 2025', 'kind': 'user'};
     offset = {'enableGiftingFlow': false, 'enableCoachmark': false};
-    tango['defaultConfig'] = offset;
+    tangon['defaultConfig'] = offset;
     report = report.CONNECTION_OPEN;
-    tango['commonTriggerPoint'] = report;
+    tangon['commonTriggerPoint'] = report;
     report = {'id': 1, 'label': 'Show Valentines Coachmark and Gifting Flow'};
     offset = {'enableGiftingFlow': true, 'enableCoachmark': true};
     report['config'] = offset;
@@ -32,53 +32,53 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     offset[0] = report;
     yankee = {'id': 2, 'label': 'Show Valentines Gifting Flow only. No Coachmark.'};
     report = 2;
-    romeo = {'enableGiftingFlow': true, 'enableCoachmark': false};
-    yankee['config'] = romeo;
+    romeon = {'enableGiftingFlow': true, 'enableCoachmark': false};
+    yankee['config'] = romeon;
     offset[1] = yankee;
-    tango['treatments'] = offset;
-    tango = options.bind(verify)(tango);
-    var _closure1_slot0 = tango;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot0 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/experiments/ValentinesGiftingExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['ValentinesGiftingExperiment'] = tango;
-    tango = function() { // Original name: useIsValentinesGiftingActive
+    report = oscard.bind(golfie)(report);
+    zuuluu['ValentinesGiftingExperiment'] = tangon;
+    tangon = function() { // Original name: useIsValentinesGiftingActive
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = 'useIsValentinesGiftingActive';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            mike = zulu.bind(tango)(mike, entity);
-            entity = mike.enableGiftingFlow;
-            mike = mike.enableCoachmark;
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = michal.enableGiftingFlow;
+            michal = michal.enableCoachmark;
             if(entity) { _fun00002_ip = 56; continue _fun00001 }
  53:
-            entity = mike;
+            entity = michal;
  56:
             return entity;
         }
     };
-    zulu['useIsValentinesGiftingActive'] = tango;
-    mike = function() { // Original name: useIsValentinesCoachmarkEnabled
-        tango = _closure1_slot0;
-        zulu = tango.useExperiment;
-        mike = {};
+    zuuluu['useIsValentinesGiftingActive'] = tangon;
+    michal = function() { // Original name: useIsValentinesCoachmarkEnabled
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = 'useIsValentinesCoachmarkEnabled';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enableCoachmark;
         return entity;
     };
-    zulu['useIsValentinesCoachmarkEnabled'] = mike;
+    zuuluu['useIsValentinesCoachmarkEnabled'] = michal;
     return entity;
 })();

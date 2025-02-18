@@ -1,152 +1,152 @@
 // app/modules/design/DesktopVisualRefreshExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = verify;
     report = function(argFoo) { // Original name: getIsDesktopRefreshEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot6;
-            zulu = tango.getCurrentConfig;
+            tangon = _closure1_slot6;
+            zuuluu = tangon.getCurrentConfig;
             entity = {};
             report = argFoo;
             entity['location'] = report;
-            zulu = zulu.bind(tango)(entity);
-            entity = zulu.enabled;
-            tango = zulu.disabledByDefault;
-            zulu = _closure1_slot3;
-            mike = zulu.isVisualRefreshDisabled;
-            mike = mike.bind(zulu)(tango);
-            zulu = !entity;
-            entity = !zulu;
-            if(zulu) { _fun00002_ip = 65; continue _fun00001 }
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.enabled;
+            tangon = zuuluu.disabledByDefault;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.isVisualRefreshDisabled;
+            michal = michal.bind(zuuluu)(tangon);
+            zuuluu = !entity;
+            entity = !zuuluu;
+            if(zuuluu) { _fun00002_ip = 65; continue _fun00001 }
  62:
-            entity = !mike;
+            entity = !michal;
  65:
             return entity;
         }
     };
     var _closure1_slot7 = report;
-    tango = function(argFoo) { // Original name: useIsDesktopVisualRefreshEnabled
+    tangon = function(argFoo) { // Original name: useIsDesktopVisualRefreshEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = _closure1_slot6;
-            report = oscar.useExperiment;
-            tango = {};
+            oscard = _closure1_slot6;
+            report = oscard.useExperiment;
+            tangon = {};
             entity = argFoo;
-            tango['location'] = entity;
+            tangon['location'] = entity;
             entity = {};
-            golf = true;
-            entity['autoTrackExposure'] = golf;
-            tango = report.bind(oscar)(tango, entity);
-            entity = tango.enabled;
-            tango = tango.disabledByDefault;
-            var _closure2_slot0 = tango;
-            oscar = _closure1_slot0;
+            golfie = true;
+            entity['autoTrackExposure'] = golfie;
+            tangon = report.bind(oscard)(tangon, entity);
+            entity = tangon.enabled;
+            tangon = tangon.disabledByDefault;
+            var _closure2_slot0 = tangon;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 5;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.useStateFromStores;
-            oscar = _closure1_slot3;
-            zulu = new Array(1);
-            zulu[0] = oscar;
-            mike = function() {
-                zulu = _closure1_slot3;
-                mike = zulu.isVisualRefreshDisabled;
+            tangon = 5;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.useStateFromStores;
+            oscard = _closure1_slot3;
+            zuuluu = new Array(1);
+            zuuluu[0] = oscard;
+            michal = function() {
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.isVisualRefreshDisabled;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
-            zulu = !entity;
-            entity = !zulu;
-            if(zulu) { _fun00004_ip = 116; continue _fun00003 }
+            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu = !entity;
+            entity = !zuuluu;
+            if(zuuluu) { _fun00004_ip = 116; continue _fun00003 }
  113:
-            entity = !mike;
+            entity = !michal;
  116:
             return entity;
         }
     };
-    var _closure1_slot8 = tango;
+    var _closure1_slot8 = tangon;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, oscar);
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = verify[entity];
+    oscard = verify[entity];
     entity = undefined;
-    oscar = golf.bind(entity)(oscar);
-    var _closure1_slot2 = oscar;
-    oscar = 1;
-    oscar = verify[oscar];
-    oscar = golf.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 2;
-    oscar = verify[oscar];
-    oscar = golf.bind(entity)(oscar);
-    var _closure1_slot4 = oscar;
-    oscar = 3;
-    oscar = verify[oscar];
-    oscar = options.bind(entity)(oscar);
-    offset = oscar.Storage;
-    golf = offset.get;
-    oscar = 'desktop_refresh_enabled';
-    offset = golf.bind(offset)(oscar);
-    golf = 'true';
-    golf = golf === offset;
-    var _closure1_slot5 = golf;
-    golf = 4;
-    golf = verify[golf];
-    yankee = options.bind(entity)(golf);
+    oscard = golfie.bind(entity)(oscard);
+    var _closure1_slot2 = oscard;
+    oscard = 1;
+    oscard = verify[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 2;
+    oscard = verify[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    var _closure1_slot4 = oscard;
+    oscard = 3;
+    oscard = verify[oscard];
+    oscard = option.bind(entity)(oscard);
+    offset = oscard.Storage;
+    golfie = offset.get;
+    oscard = 'desktop_refresh_enabled';
+    offset = golfie.bind(offset)(oscard);
+    golfie = 'true';
+    golfie = golfie === offset;
+    var _closure1_slot5 = golfie;
+    golfie = 4;
+    golfie = verify[golfie];
+    yankee = option.bind(entity)(golfie);
     offset = yankee.createExperiment;
-    golf = {'id': '2024-05_desktop_visual_refresh', 'label': 'Desktop Visual Refresh', 'kind': 'user'};
-    romeo = {'enabled': false, 'enableCollapsibleSidebar': false, 'newChatInput': false, 'disabledByDefault': true, 'canOptOut': false};
-    golf['defaultConfig'] = romeo;
-    foxtrot = {'id': 0, 'label': 'Control'};
-    romeo = {'enabled': false, 'enableCollapsibleSidebar': false, 'newChatInput': false, 'disabledByDefault': true, 'canOptOut': false};
-    foxtrot['config'] = romeo;
-    romeo = new Array(6);
-    romeo[0] = foxtrot;
-    foxtrot = {'id': 1, 'label': 'Refresh with New Chat Input'};
+    golfie = {'id': '2024-05_desktop_visual_refresh', 'label': 'Desktop Visual Refresh', 'kind': 'user'};
+    romeon = {'enabled': false, 'enableCollapsibleSidebar': false, 'newChatInput': false, 'disabledByDefault': true, 'canOptOut': false};
+    golfie['defaultConfig'] = romeon;
+    foxtra = {'id': 0, 'label': 'Control'};
+    romeon = {'enabled': false, 'enableCollapsibleSidebar': false, 'newChatInput': false, 'disabledByDefault': true, 'canOptOut': false};
+    foxtra['config'] = romeon;
+    romeon = new Array(6);
+    romeon[0] = foxtra;
+    foxtra = {'id': 1, 'label': 'Refresh with New Chat Input'};
     backup = {'enabled': true, 'enableCollapsibleSidebar': false, 'newChatInput': true, 'disabledByDefault': false, 'canOptOut': false};
-    foxtrot['config'] = backup;
-    romeo[1] = foxtrot;
-    foxtrot = {'id': 2, 'label': 'Refresh with New Chat Input, Collapsible Sidebar'};
+    foxtra['config'] = backup;
+    romeon[1] = foxtra;
+    foxtra = {'id': 2, 'label': 'Refresh with New Chat Input, Collapsible Sidebar'};
     backup = {'enabled': true, 'enableCollapsibleSidebar': true, 'newChatInput': true, 'disabledByDefault': false, 'canOptOut': false};
-    foxtrot['config'] = backup;
-    romeo[2] = foxtrot;
-    foxtrot = {'id': 3, 'label': 'Refresh with Legacy Chat Input'};
+    foxtra['config'] = backup;
+    romeon[2] = foxtra;
+    foxtra = {'id': 3, 'label': 'Refresh with Legacy Chat Input'};
     backup = {'enabled': true, 'enableCollapsibleSidebar': false, 'newChatInput': false, 'disabledByDefault': false, 'canOptOut': false};
-    foxtrot['config'] = backup;
-    romeo[3] = foxtrot;
-    foxtrot = {'id': 4, 'label': 'Refresh with Legacy Chat Input, Collapsible Sidebar'};
+    foxtra['config'] = backup;
+    romeon[3] = foxtra;
+    foxtra = {'id': 4, 'label': 'Refresh with Legacy Chat Input, Collapsible Sidebar'};
     backup = {'enabled': true, 'enableCollapsibleSidebar': true, 'newChatInput': false, 'disabledByDefault': false, 'canOptOut': false};
-    foxtrot['config'] = backup;
-    romeo[4] = foxtrot;
-    foxtrot = {'id': 5, 'label': 'External Testers'};
+    foxtra['config'] = backup;
+    romeon[4] = foxtra;
+    foxtra = {'id': 5, 'label': 'External Testers'};
     backup = {'enabled': true, 'enableCollapsibleSidebar': false, 'newChatInput': true, 'disabledByDefault': true, 'canOptOut': true};
-    foxtrot['config'] = backup;
-    romeo[5] = foxtrot;
-    golf['treatments'] = romeo;
-    golf = offset.bind(yankee)(golf);
-    var _closure1_slot6 = golf;
-    golf = 6;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/design/DesktopVisualRefreshExperiment.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['DESKTOP_REFRESH_ENABLED_CACHE_KEY'] = oscar;
-    oscar = function(argFoo) { // Original name: getIsDesktopRefreshEnabledCached
+    foxtra['config'] = backup;
+    romeon[5] = foxtra;
+    golfie['treatments'] = romeon;
+    golfie = offset.bind(yankee)(golfie);
+    var _closure1_slot6 = golfie;
+    golfie = 6;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/design/DesktopVisualRefreshExperiment.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['DESKTOP_REFRESH_ENABLED_CACHE_KEY'] = oscard;
+    oscard = function(argFoo) { // Original name: getIsDesktopRefreshEnabledCached
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = _closure1_slot2;
@@ -156,156 +156,156 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             _fun00006_ip = 36; continue _fun00005;
  22:
-            tango = _closure1_slot7;
-            zulu = undefined;
-            mike = argFoo;
-            entity = tango.bind(zulu)(mike);
+            tangon = _closure1_slot7;
+            zuuluu = undefined;
+            michal = argFoo;
+            entity = tangon.bind(zuuluu)(michal);
  36:
             return entity;
         }
     };
-    zulu['getIsDesktopRefreshEnabledCached'] = oscar;
-    zulu['getIsDesktopRefreshEnabled'] = report;
+    zuuluu['getIsDesktopRefreshEnabledCached'] = oscard;
+    zuuluu['getIsDesktopRefreshEnabled'] = report;
     report = function(argFoo) { // Original name: useIsDesktopRefreshChatInputEnabled
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            tango = _closure1_slot8;
+            michal = argFoo;
+            tangon = _closure1_slot8;
             entity = undefined;
-            entity = tango.bind(entity)(mike);
+            entity = tangon.bind(entity)(michal);
             report = _closure1_slot6;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            oscar = true;
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            mike = mike.newChatInput;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            oscard = true;
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            michal = michal.newChatInput;
             if(!entity) { _fun00008_ip = 60; continue _fun00007 }
  57:
-            entity = mike;
+            entity = michal;
  60:
             return entity;
         }
     };
-    zulu['useIsDesktopRefreshChatInputEnabled'] = report;
+    zuuluu['useIsDesktopRefreshChatInputEnabled'] = report;
     report = function(argFoo) { // Original name: getIsDesktopRefreshDisabledByDefault
-        zulu = _closure1_slot6;
-        mike = zulu.getCurrentConfig;
+        zuuluu = _closure1_slot6;
+        michal = zuuluu.getCurrentConfig;
         entity = {};
-        tango = argFoo;
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = argFoo;
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.disabledByDefault;
         return entity;
     };
-    zulu['getIsDesktopRefreshDisabledByDefault'] = report;
+    zuuluu['getIsDesktopRefreshDisabledByDefault'] = report;
     report = function(argFoo, argBar) { // Original name: subscribeToDesktopVisualRefreshExperiment
-        tango = _closure1_slot6;
-        zulu = tango.subscribe;
-        mike = {};
+        tangon = _closure1_slot6;
+        zuuluu = tangon.subscribe;
+        michal = {};
         entity = argFoo;
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = argBar;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['subscribeToDesktopVisualRefreshExperiment'] = report;
+    zuuluu['subscribeToDesktopVisualRefreshExperiment'] = report;
     report = function(argFoo) { // Original name: useIsDesktopVisualRefreshExperimentEnabled
-        tango = _closure1_slot6;
-        zulu = tango.useExperiment;
-        mike = {};
+        tangon = _closure1_slot6;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = argFoo;
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = true;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;
         return entity;
     };
-    zulu['useIsDesktopVisualRefreshExperimentEnabled'] = report;
-    zulu['useIsDesktopVisualRefreshEnabled'] = tango;
-    tango = function(argFoo) { // Original name: useIsCollapsibleSidebarEnabled
+    zuuluu['useIsDesktopVisualRefreshExperimentEnabled'] = report;
+    zuuluu['useIsDesktopVisualRefreshEnabled'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsCollapsibleSidebarEnabled
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot8;
-            zulu = undefined;
-            zulu = tango.bind(zulu)(entity);
+            tangon = _closure1_slot8;
+            zuuluu = undefined;
+            zuuluu = tangon.bind(zuuluu)(entity);
             report = _closure1_slot6;
-            tango = report.useExperiment;
-            mike = {};
-            mike['location'] = entity;
+            tangon = report.useExperiment;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
-            oscar = true;
-            entity['autoTrackExposure'] = oscar;
-            entity = tango.bind(report)(mike, entity);
-            mike = entity.enableCollapsibleSidebar;
-            entity = !zulu;
+            oscard = true;
+            entity['autoTrackExposure'] = oscard;
+            entity = tangon.bind(report)(michal, entity);
+            michal = entity.enableCollapsibleSidebar;
+            entity = !zuuluu;
             entity = !entity;
-            if(!zulu) { _fun00010_ip = 66; continue _fun00009 }
+            if(!zuuluu) { _fun00010_ip = 66; continue _fun00009 }
  63:
-            entity = mike;
+            entity = michal;
  66:
             return entity;
         }
     };
-    zulu['useIsCollapsibleSidebarEnabled'] = tango;
-    mike = function(argFoo) { // Original name: useCanOptOutOfDesktopVisualRefresh
+    zuuluu['useIsCollapsibleSidebarEnabled'] = tangon;
+    michal = function(argFoo) { // Original name: useCanOptOutOfDesktopVisualRefresh
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tango = _closure1_slot6;
-            zulu = tango.getCurrentConfig;
-            mike = {};
+            tangon = _closure1_slot6;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
             report = argFoo;
-            mike['location'] = report;
-            mike = zulu.bind(tango)(mike);
-            zulu = mike.canOptOut;
+            michal['location'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.canOptOut;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 5;
-            tango = tango[mike];
-            mike = undefined;
-            oscar = report.bind(mike)(tango);
-            report = oscar.useStateFromStores;
+            tangon = _closure1_slot1;
+            michal = 5;
+            tangon = tangon[michal];
+            michal = undefined;
+            oscard = report.bind(michal)(tangon);
+            report = oscard.useStateFromStores;
             entity = _closure1_slot4;
-            tango = new Array(1);
-            tango[0] = entity;
+            tangon = new Array(1);
+            tangon[0] = entity;
             entity = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                    mike = _closure1_slot4;
-                    entity = mike.getCurrentUser;
-                    zulu = entity.bind(mike)();
+                    michal = _closure1_slot4;
+                    entity = michal.getCurrentUser;
+                    zuuluu = entity.bind(michal)();
                     report = null;
-                    mike = report == zulu;
+                    michal = report == zuuluu;
                     entity = undefined;
-                    if(mike) { _fun00014_ip = 52; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 52; continue _fun00013 }
  27:
-                    mike = zulu.isStaff;
-                    mike = report == mike;
+                    michal = zuuluu.isStaff;
+                    michal = report == michal;
                     entity = undefined;
-                    if(mike) { _fun00014_ip = 52; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 52; continue _fun00013 }
  42:
-                    mike = zulu.isStaff;
-                    entity = mike.bind(zulu)();
+                    michal = zuuluu.isStaff;
+                    entity = michal.bind(zuuluu)();
  52:
                     return entity;
                 }
             };
-            tango = report.bind(oscar)(tango, entity);
+            tangon = report.bind(oscard)(tangon, entity);
             entity = global;
             entity = entity.Boolean;
-            if(zulu) { _fun00012_ip = 99; continue _fun00011 }
+            if(zuuluu) { _fun00012_ip = 99; continue _fun00011 }
  96:
-            zulu = tango;
+            zuuluu = tangon;
  99:
-            entity = entity.bind(mike)(zulu);
+            entity = entity.bind(michal)(zuuluu);
             return entity;
         }
     };
-    zulu['useCanOptOutOfDesktopVisualRefresh'] = mike;
+    zuuluu['useCanOptOutOfDesktopVisualRefresh'] = michal;
     return entity;
 })();

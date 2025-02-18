@@ -1,66 +1,66 @@
 // app/modules/premium/native/openPremiumPlanSelectionActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/openPremiumPlanSelectionActionSheet.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: _default
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/native/openPremiumPlanSelectionActionSheet.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argBar;
+            golfie = argBar;
             entity = null;
-            if(!(entity == golf)) { _fun00002_ip = 43; continue _fun00001 }
+            if(!(entity == golfie)) { _fun00002_ip = 43; continue _fun00001 }
  9:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            entity = mike.hideActionSheet;
-            entity = entity.bind(mike)();
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.hideActionSheet;
+            entity = entity.bind(michal)();
  43:
             report = _closure1_slot1;
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = 0;
-            tango = mike[entity];
+            tangon = michal[entity];
             entity = undefined;
-            oscar = report.bind(entity)(tango);
-            report = oscar.openLazy;
-            tango = _closure1_slot0;
-            zulu = 2;
-            zulu = mike[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = 1;
-            zulu = mike[zulu];
-            mike = mike.paths;
-            yankee = tango.bind(entity)(zulu, mike);
+            oscard = report.bind(entity)(tangon);
+            report = oscard.openLazy;
+            tangon = _closure1_slot0;
+            zuuluu = 2;
+            zuuluu = michal[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = 1;
+            zuuluu = michal[zuuluu];
+            michal = michal.paths;
+            yankee = tangon.bind(entity)(zuuluu, michal);
             offset = 'PremiumPlanSelectionActionSheet';
             verify = argFoo;
-            romeo = oscar;
-            options = golf;
-            mike = romeo[report](yankee, offset, verify, options, golf);
+            romeon = oscard;
+            option = golfie;
+            michal = romeon[report](yankee, offset, verify, option, golfie);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

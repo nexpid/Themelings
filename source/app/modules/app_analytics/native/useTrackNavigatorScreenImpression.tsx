@@ -1,63 +1,63 @@
 // app/modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useTrackNavigatorScreenImpression
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useTrackNavigatorScreenImpression
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.impressionName;
-            zulu = entity.impressionProperties;
-            mike = 'function';
-            entity = typeof zulu;
-            tango = zulu;
-            if(!(mike === entity)) { _fun00002_ip = 45; continue _fun00001 }
+            zuuluu = entity.impressionProperties;
+            michal = 'function';
+            entity = typeof zuuluu;
+            tangon = zuuluu;
+            if(!(michal === entity)) { _fun00002_ip = 45; continue _fun00001 }
  29:
             entity = argBar;
-            mike = entity.params;
+            michal = entity.params;
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
+            tangon = zuuluu.bind(entity)(michal);
  45:
-            zulu = _closure1_slot1;
-            options = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            option = _closure1_slot2;
             entity = 0;
-            mike = options[entity];
+            michal = option[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = {};
-            golf = _closure1_slot0;
-            oscar = 1;
-            oscar = options[oscar];
-            oscar = golf.bind(entity)(oscar);
-            oscar = oscar.ImpressionTypes;
-            oscar = oscar.PAGE;
-            mike['type'] = oscar;
-            mike['name'] = report;
-            mike['properties'] = tango;
-            mike = zulu.bind(entity)(mike);
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = {};
+            golfie = _closure1_slot0;
+            oscard = 1;
+            oscard = option[oscard];
+            oscard = golfie.bind(entity)(oscard);
+            oscard = oscard.ImpressionTypes;
+            oscard = oscard.PAGE;
+            michal['type'] = oscard;
+            michal['name'] = report;
+            michal['properties'] = tangon;
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         }
     };
-    zulu['useTrackNavigatorScreenImpression'] = mike;
+    zuuluu['useTrackNavigatorScreenImpression'] = michal;
     return entity;
 })();

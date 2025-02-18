@@ -1,50 +1,50 @@
 // app/design/components/TableRow/native/TableRowIcon.native.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     yankee = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = ['color'];
     var _closure1_slot3 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = yankee.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    offset = tango.TABLE_ROW_ICON_SIZE;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = yankee.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    offset = tangon.TABLE_ROW_ICON_SIZE;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {};
     verify['width'] = offset;
     verify['height'] = offset;
@@ -52,293 +52,293 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify['justifyContent'] = offset;
     verify['alignItems'] = offset;
     offset = 6;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.radii;
-    romeo = romeo.lg;
-    verify['borderRadius'] = romeo;
-    tango['container'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.radii;
+    romeon = romeon.lg;
+    verify['borderRadius'] = romeon;
+    tangon['container'] = verify;
     verify = {};
-    romeo = 'currentColor';
-    verify['tintColor'] = romeo;
-    tango['icon'] = verify;
+    romeon = 'currentColor';
+    verify['tintColor'] = romeon;
+    tangon['icon'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.INTERACTIVE_NORMAL;
-    verify['color'] = romeo;
-    tango['default'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.INTERACTIVE_NORMAL;
+    verify['color'] = romeon;
+    tangon['default'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.BG_BRAND;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.WHITE;
-    verify['color'] = romeo;
-    tango['blurple'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BG_BRAND;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.WHITE;
+    verify['color'] = romeon;
+    tangon['blurple'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.unsafe_rawColors;
-    romeo = romeo.GUILD_BOOSTING_PINK;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.WHITE;
-    verify['color'] = romeo;
-    tango['boostingPink'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.unsafe_rawColors;
+    romeon = romeon.GUILD_BOOSTING_PINK;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.WHITE;
+    verify['color'] = romeon;
+    tangon['boostingPink'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.STATUS_ONLINE;
-    verify['color'] = romeo;
-    tango['statusOnline'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.STATUS_ONLINE;
+    verify['color'] = romeon;
+    tangon['statusOnline'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.STATUS_IDLE;
-    verify['color'] = romeo;
-    tango['statusIdle'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.STATUS_IDLE;
+    verify['color'] = romeon;
+    tangon['statusIdle'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.STATUS_DND;
-    verify['color'] = romeo;
-    tango['statusDND'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.STATUS_DND;
+    verify['color'] = romeon;
+    tangon['statusDND'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.STATUS_OFFLINE;
-    verify['color'] = romeo;
-    tango['statusOffline'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.STATUS_OFFLINE;
+    verify['color'] = romeon;
+    tangon['statusOffline'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.unsafe_rawColors;
-    romeo = romeo.XBOX;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.WHITE;
-    verify['color'] = romeo;
-    tango['xbox'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.unsafe_rawColors;
+    romeon = romeon.XBOX;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.WHITE;
+    verify['color'] = romeon;
+    tangon['xbox'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.unsafe_rawColors;
-    romeo = romeo.PLAYSTATION;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.WHITE;
-    verify['color'] = romeo;
-    tango['playstation'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.unsafe_rawColors;
+    romeon = romeon.PLAYSTATION;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.WHITE;
+    verify['color'] = romeon;
+    tangon['playstation'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.BG_MOD_SUBTLE;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.TEXT_DANGER;
-    verify['color'] = romeo;
-    tango['danger'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BG_MOD_SUBTLE;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.TEXT_DANGER;
+    verify['color'] = romeon;
+    tangon['danger'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.BG_MOD_STRONG;
-    verify['backgroundColor'] = romeo;
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.INTERACTIVE_NORMAL;
-    verify['color'] = romeo;
-    tango['secondary'] = verify;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BG_MOD_STRONG;
+    verify['backgroundColor'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.INTERACTIVE_NORMAL;
+    verify['color'] = romeon;
+    tangon['secondary'] = verify;
     verify = {};
-    romeo = oscar[offset];
-    romeo = yankee.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.BG_MOD_STRONG;
-    verify['backgroundColor'] = romeo;
-    offset = oscar[offset];
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BG_MOD_STRONG;
+    verify['backgroundColor'] = romeon;
+    offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
     offset = offset.WHITE;
     verify['color'] = offset;
-    tango['translucent'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot7 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/TableRow/native/TableRowIcon.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: TableRowIcon
+    tangon['translucent'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/TableRow/native/TableRowIcon.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: TableRowIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.source;
             verify = entity.IconComponent;
-            mike = entity.variant;
+            michal = entity.variant;
             report = undefined;
-            if(!(mike === report)) { _fun00002_ip = 29; continue _fun00001 }
+            if(!(michal === report)) { _fun00002_ip = 29; continue _fun00001 }
  25:
-            mike = 'default';
+            michal = 'default';
  29:
             entity = _closure1_slot7;
-            options = entity.bind(report)();
+            option = entity.bind(report)();
             entity = 'default';
-            if(!(entity !== mike)) { _fun00002_ip = 248; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 248; continue _fun00001 }
  51:
-            zulu = 'blurple';
-            if(!(zulu !== mike)) { _fun00002_ip = 240; continue _fun00001 }
+            zuuluu = 'blurple';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 240; continue _fun00001 }
  62:
-            zulu = 'boosting-pink';
-            if(!(zulu !== mike)) { _fun00002_ip = 232; continue _fun00001 }
+            zuuluu = 'boosting-pink';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 232; continue _fun00001 }
  75:
-            zulu = 'status-online';
-            if(!(zulu !== mike)) { _fun00002_ip = 224; continue _fun00001 }
+            zuuluu = 'status-online';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 224; continue _fun00001 }
  88:
-            zulu = 'status-idle';
-            if(!(zulu !== mike)) { _fun00002_ip = 216; continue _fun00001 }
+            zuuluu = 'status-idle';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 216; continue _fun00001 }
  98:
-            zulu = 'status-dnd';
-            if(!(zulu !== mike)) { _fun00002_ip = 208; continue _fun00001 }
+            zuuluu = 'status-dnd';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 208; continue _fun00001 }
  108:
-            zulu = 'status-offline';
-            if(!(zulu !== mike)) { _fun00002_ip = 200; continue _fun00001 }
+            zuuluu = 'status-offline';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 200; continue _fun00001 }
  118:
-            zulu = 'xbox';
-            if(!(zulu !== mike)) { _fun00002_ip = 192; continue _fun00001 }
+            zuuluu = 'xbox';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 192; continue _fun00001 }
  126:
-            zulu = 'playstation';
-            if(!(zulu !== mike)) { _fun00002_ip = 184; continue _fun00001 }
+            zuuluu = 'playstation';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 184; continue _fun00001 }
  134:
-            zulu = 'danger';
-            if(!(zulu !== mike)) { _fun00002_ip = 176; continue _fun00001 }
+            zuuluu = 'danger';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 176; continue _fun00001 }
  142:
-            zulu = 'secondary';
-            if(!(zulu !== mike)) { _fun00002_ip = 168; continue _fun00001 }
+            zuuluu = 'secondary';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 168; continue _fun00001 }
  150:
-            zulu = 'translucent';
-            oscar = undefined;
-            if(!(zulu === mike)) { _fun00002_ip = 253; continue _fun00001 }
+            zuuluu = 'translucent';
+            oscard = undefined;
+            if(!(zuuluu === michal)) { _fun00002_ip = 253; continue _fun00001 }
  160:
-            oscar = options.translucent;
+            oscard = option.translucent;
             _fun00002_ip = 253; continue _fun00001;
  168:
-            oscar = options.secondary;
+            oscard = option.secondary;
             _fun00002_ip = 253; continue _fun00001;
  176:
-            oscar = options.danger;
+            oscard = option.danger;
             _fun00002_ip = 253; continue _fun00001;
  184:
-            oscar = options.playstation;
+            oscard = option.playstation;
             _fun00002_ip = 253; continue _fun00001;
  192:
-            oscar = options.xbox;
+            oscard = option.xbox;
             _fun00002_ip = 253; continue _fun00001;
  200:
-            oscar = options.statusOffline;
+            oscard = option.statusOffline;
             _fun00002_ip = 253; continue _fun00001;
  208:
-            oscar = options.statusDND;
+            oscard = option.statusDND;
             _fun00002_ip = 253; continue _fun00001;
  216:
-            oscar = options.statusIdle;
+            oscard = option.statusIdle;
             _fun00002_ip = 253; continue _fun00001;
  224:
-            oscar = options.statusOnline;
+            oscard = option.statusOnline;
             _fun00002_ip = 253; continue _fun00001;
  232:
-            oscar = options.boostingPink;
+            oscard = option.boostingPink;
             _fun00002_ip = 253; continue _fun00001;
  240:
-            oscar = options.blurple;
+            oscard = option.blurple;
             _fun00002_ip = 253; continue _fun00001;
  248:
-            oscar = options.default;
+            oscard = option.default;
  253:
-            offset = oscar.color;
-            tango = _closure1_slot4;
-            zulu = _closure1_slot3;
-            romeo = tango.bind(report)(oscar, zulu);
-            entity = entity === mike;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
-            kilo = 7;
-            mike = mike[kilo];
-            mike = zulu.bind(report)(mike);
-            mike = mike.IconSizes;
+            offset = oscard.color;
+            tangon = _closure1_slot4;
+            zuuluu = _closure1_slot3;
+            romeon = tangon.bind(report)(oscard, zuuluu);
+            entity = entity === michal;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            kiloes = 7;
+            michal = michal[kiloes];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.IconSizes;
             if(entity) { _fun00002_ip = 313; continue _fun00001 }
  305:
-            foxtrot = mike.REFRESH_SMALL_16;
+            foxtra = michal.REFRESH_SMALL_16;
             _fun00002_ip = 319; continue _fun00001;
  313:
-            foxtrot = mike.MEDIUM;
+            foxtra = michal.MEDIUM;
  319:
             yankee = 'sm';
             if(!entity) { _fun00002_ip = 330; continue _fun00001 }
  326:
             yankee = 'md';
  330:
-            oscar = null;
-            if(!(oscar == backup)) { _fun00002_ip = 345; continue _fun00001 }
+            oscard = null;
+            if(!(oscard == backup)) { _fun00002_ip = 345; continue _fun00001 }
  336:
-            mike = oscar == verify;
+            michal = oscard == verify;
             entity = null;
-            if(mike) { _fun00002_ip = 453; continue _fun00001 }
+            if(michal) { _fun00002_ip = 453; continue _fun00001 }
  345:
-            tango = _closure1_slot6;
-            zulu = _closure1_slot5;
-            mike = {};
-            sizing = options.container;
-            options = new Array(2);
-            options[0] = sizing;
-            options[1] = romeo;
-            mike['style'] = options;
-            if(!(oscar == verify)) { _fun00002_ip = 423; continue _fun00001 }
+            tangon = _closure1_slot6;
+            zuuluu = _closure1_slot5;
+            michal = {};
+            sizing = option.container;
+            option = new Array(2);
+            option[0] = sizing;
+            option[1] = romeon;
+            michal['style'] = option;
+            if(!(oscard == verify)) { _fun00002_ip = 423; continue _fun00001 }
  380:
-            romeo = _closure1_slot6;
-            options = _closure1_slot1;
-            oscar = _closure1_slot2;
-            oscar = oscar[kilo];
-            options = options.bind(report)(oscar);
-            oscar = {};
-            oscar['color'] = offset;
-            oscar['source'] = backup;
-            oscar['size'] = foxtrot;
-            oscar = romeo.bind(report)(options, oscar);
+            romeon = _closure1_slot6;
+            option = _closure1_slot1;
+            oscard = _closure1_slot2;
+            oscard = oscard[kiloes];
+            option = option.bind(report)(oscard);
+            oscard = {};
+            oscard['color'] = offset;
+            oscard['source'] = backup;
+            oscard['size'] = foxtra;
+            oscard = romeon.bind(report)(option, oscard);
             _fun00002_ip = 443; continue _fun00001;
  423:
-            options = _closure1_slot6;
-            golf = {};
-            golf['size'] = yankee;
-            golf['color'] = offset;
-            oscar = options.bind(report)(verify, golf);
+            option = _closure1_slot6;
+            golfie = {};
+            golfie['size'] = yankee;
+            golfie['color'] = offset;
+            oscard = option.bind(report)(verify, golfie);
  443:
-            mike['children'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  453:
             return entity;
         }
     };
-    zulu['TableRowIcon'] = mike;
+    zuuluu['TableRowIcon'] = michal;
     return entity;
 })();

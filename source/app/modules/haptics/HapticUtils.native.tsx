@@ -1,30 +1,30 @@
 // app/modules/haptics/HapticUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     report = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = report;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: getAndroidLightImpactEffect
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
-            zulu = entity.parseInt;
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
+            zuuluu = entity.parseInt;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 3;
-            entity = mike[entity];
-            mike = undefined;
-            tango = tango.bind(mike)(entity);
-            entity = tango.getSystemVersion;
-            entity = entity.bind(tango)();
-            mike = zulu.bind(mike)(entity);
+            entity = michal[entity];
+            michal = undefined;
+            tangon = tangon.bind(michal)(entity);
+            entity = tangon.getSystemVersion;
+            entity = entity.bind(tangon)();
+            michal = zuuluu.bind(michal)(entity);
             entity = 29;
-            mike = mike < entity;
+            michal = michal < entity;
             entity = 'effectTick';
-            if(!mike) { _fun00002_ip = 70; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 70; continue _fun00001 }
  64:
             entity = 'impactLight';
  70:
@@ -34,204 +34,204 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot3 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 4;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(tango);
-    golf = options.fileFinishedImporting;
-    tango = 'modules/haptics/HapticUtils.native.tsx';
-    tango = golf.bind(options)(tango);
-    tango = 0;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    zulu['HapticFeedbackTypes'] = tango;
-    mike = function(argFoo) { // Original name: triggerHapticFeedback
+    option = golfie.bind(entity)(tangon);
+    golfie = option.fileFinishedImporting;
+    tangon = 'modules/haptics/HapticUtils.native.tsx';
+    tangon = golfie.bind(option)(tangon);
+    tangon = 0;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    zuuluu['HapticFeedbackTypes'] = tangon;
+    michal = function(argFoo) { // Original name: triggerHapticFeedback
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            tango = _closure1_slot1;
+            zuuluu = argFoo;
+            tangon = _closure1_slot1;
             entity = _closure1_slot2;
-            oscar = 0;
-            mike = entity[oscar];
+            oscard = 0;
+            michal = entity[oscard];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            mike = mike.IMPACT_LIGHT;
-            if(!(mike !== zulu)) { _fun00004_ip = 608; continue _fun00003 }
+            michal = tangon.bind(entity)(michal);
+            michal = michal.IMPACT_LIGHT;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 608; continue _fun00003 }
  40:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.IMPACT_MEDIUM;
-            if(!(mike !== zulu)) { _fun00004_ip = 533; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.IMPACT_MEDIUM;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 533; continue _fun00003 }
  70:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.IMPACT_HEAVY;
-            if(!(mike !== zulu)) { _fun00004_ip = 491; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.IMPACT_HEAVY;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 491; continue _fun00003 }
  100:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.NOTIFICATION_ERROR;
-            if(!(mike !== zulu)) { _fun00004_ip = 449; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.NOTIFICATION_ERROR;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 449; continue _fun00003 }
  130:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.DRAG_AND_DROP_START;
-            if(!(mike !== zulu)) { _fun00004_ip = 373; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.DRAG_AND_DROP_START;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 373; continue _fun00003 }
  160:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.DRAG_AND_DROP_END;
-            if(!(mike !== zulu)) { _fun00004_ip = 295; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.DRAG_AND_DROP_END;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 295; continue _fun00003 }
  187:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = tango.bind(entity)(mike);
-            mike = mike.DRAG_AND_DROP_MOVE;
-            if(!(mike === zulu)) { _fun00004_ip = 679; continue _fun00003 }
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.DRAG_AND_DROP_MOVE;
+            if(!(michal === zuuluu)) { _fun00004_ip = 679; continue _fun00003 }
  217:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 1;
-            mike = golf[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            oscar = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            oscar = oscar.bind(entity)(mike);
-            mike = oscar.isAndroid;
-            oscar = mike.bind(oscar)();
-            mike = 'impactMedium';
-            if(!oscar) { _fun00004_ip = 285; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 1;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            oscard = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            oscard = oscard.bind(entity)(michal);
+            michal = oscard.isAndroid;
+            oscard = michal.bind(oscard)();
+            michal = 'impactMedium';
+            if(!oscard) { _fun00004_ip = 285; continue _fun00003 }
  277:
-            oscar = _closure1_slot3;
-            mike = oscar.bind(entity)();
+            oscard = _closure1_slot3;
+            michal = oscard.bind(entity)();
  285:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  295:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 1;
-            mike = golf[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            oscar = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            oscar = oscar.bind(entity)(mike);
-            mike = oscar.isAndroid;
-            oscar = mike.bind(oscar)();
-            mike = 'notificationSuccess';
-            if(!oscar) { _fun00004_ip = 363; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 1;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            oscard = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            oscard = oscard.bind(entity)(michal);
+            michal = oscard.isAndroid;
+            oscard = michal.bind(oscard)();
+            michal = 'notificationSuccess';
+            if(!oscard) { _fun00004_ip = 363; continue _fun00003 }
  355:
-            oscar = _closure1_slot3;
-            mike = oscar.bind(entity)();
+            oscard = _closure1_slot3;
+            michal = oscard.bind(entity)();
  363:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  373:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 1;
-            mike = golf[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            oscar = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            oscar = oscar.bind(entity)(mike);
-            mike = oscar.isAndroid;
-            oscar = mike.bind(oscar)();
-            mike = 'impactHeavy';
-            if(!oscar) { _fun00004_ip = 439; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 1;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            oscard = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            oscard = oscard.bind(entity)(michal);
+            michal = oscard.isAndroid;
+            oscard = michal.bind(oscard)();
+            michal = 'impactHeavy';
+            if(!oscard) { _fun00004_ip = 439; continue _fun00003 }
  433:
-            mike = 'impactMedium';
+            michal = 'impactMedium';
  439:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  449:
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
-            mike = 1;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            mike = 'notificationError';
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 1;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            michal = 'notificationError';
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  491:
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
-            mike = 1;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            mike = 'impactHeavy';
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 1;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            michal = 'impactHeavy';
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  533:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 1;
-            mike = golf[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            oscar = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            oscar = oscar.bind(entity)(mike);
-            mike = oscar.isAndroid;
-            oscar = mike.bind(oscar)();
-            mike = 'impactMedium';
-            if(!oscar) { _fun00004_ip = 601; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 1;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            oscard = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            oscard = oscard.bind(entity)(michal);
+            michal = oscard.isAndroid;
+            oscard = michal.bind(oscard)();
+            michal = 'impactMedium';
+            if(!oscard) { _fun00004_ip = 601; continue _fun00003 }
  593:
-            oscar = _closure1_slot3;
-            mike = oscar.bind(entity)();
+            oscard = _closure1_slot3;
+            michal = oscard.bind(entity)();
  601:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 679; continue _fun00003;
  608:
-            zulu = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 1;
-            mike = golf[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.trigger;
-            oscar = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            oscar = oscar.bind(entity)(mike);
-            mike = oscar.isAndroid;
-            oscar = mike.bind(oscar)();
-            mike = 'selection';
-            if(!oscar) { _fun00004_ip = 674; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 1;
+            michal = golfie[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trigger;
+            oscard = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            oscard = oscard.bind(entity)(michal);
+            michal = oscard.isAndroid;
+            oscard = michal.bind(oscard)();
+            michal = 'selection';
+            if(!oscard) { _fun00004_ip = 674; continue _fun00003 }
  666:
             report = _closure1_slot3;
-            mike = report.bind(entity)();
+            michal = report.bind(entity)();
  674:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
  679:
             return entity;
         }
     };
-    zulu['triggerHapticFeedback'] = mike;
+    zuuluu['triggerHapticFeedback'] = michal;
     return entity;
 })();

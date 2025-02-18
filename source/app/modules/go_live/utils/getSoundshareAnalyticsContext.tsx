@@ -1,70 +1,70 @@
 // app/modules/go_live/utils/getSoundshareAnalyticsContext.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/go_live/utils/getSoundshareAnalyticsContext.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getSoundshareAnalyticsContext
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/go_live/utils/getSoundshareAnalyticsContext.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getSoundshareAnalyticsContext
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            golf = null;
-            if(!(golf != tango)) { _fun00002_ip = 103; continue _fun00001 }
+            tangon = argFoo;
+            golfie = null;
+            if(!(golfie != tangon)) { _fun00002_ip = 103; continue _fun00001 }
  9:
-            options = tango.sourcePid;
-            report = golf != options;
-            zulu = undefined;
-            mike = undefined;
+            option = tangon.sourcePid;
+            report = golfie != option;
+            zuuluu = undefined;
+            michal = undefined;
             if(!report) { _fun00002_ip = 78; continue _fun00001 }
  26:
-            oscar = _closure1_slot0;
-            report = oscar.getGameForPID;
-            oscar = report.bind(oscar)(options);
-            options = golf == oscar;
+            oscard = _closure1_slot0;
+            report = oscard.getGameForPID;
+            oscard = report.bind(oscard)(option);
+            option = golfie == oscard;
             report = undefined;
-            if(options) { _fun00002_ip = 58; continue _fun00001 }
+            if(option) { _fun00002_ip = 58; continue _fun00001 }
  53:
-            report = oscar.name;
+            report = oscard.name;
  58:
-            golf = golf == oscar;
+            golfie = golfie == oscard;
             entity = undefined;
-            if(golf) { _fun00002_ip = 72; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 72; continue _fun00001 }
  67:
-            entity = oscar.id;
+            entity = oscard.id;
  72:
-            mike = entity;
-            zulu = report;
+            michal = entity;
+            zuuluu = report;
  78:
             entity = {};
-            tango = tango.soundshareSession;
-            entity['soundshare_session'] = tango;
-            entity['share_game_name'] = zulu;
-            entity['share_game_id'] = mike;
+            tangon = tangon.soundshareSession;
+            entity['soundshare_session'] = tangon;
+            entity['share_game_name'] = zuuluu;
+            entity['share_game_id'] = michal;
             return entity;
  103:
             entity = {};
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

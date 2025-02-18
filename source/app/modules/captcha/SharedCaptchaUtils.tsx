@@ -1,99 +1,99 @@
 // app/modules/captcha/SharedCaptchaUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    report = tango.incrementCaptchaServeVolume;
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.incrementCaptchaServeVolume;
     var _closure1_slot0 = report;
-    report = tango.flushCaptchaServeVolume;
+    report = tangon.flushCaptchaServeVolume;
     var _closure1_slot1 = report;
-    tango = tango.isCaptchaStoreVolumeEmpty;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    tango = tango.CAPTCHA_SERVE_VOLUME_DISTRIBUTION_AGGREGATION_WINDOW_MS;
-    var _closure1_slot3 = tango;
-    tango = {};
+    tangon = tangon.isCaptchaStoreVolumeEmpty;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.CAPTCHA_SERVE_VOLUME_DISTRIBUTION_AGGREGATION_WINDOW_MS;
+    var _closure1_slot3 = tangon;
+    tangon = {};
     report = 'cancel';
-    tango['CANCEL'] = report;
+    tangon['CANCEL'] = report;
     report = 'error';
-    tango['ERROR'] = report;
+    tangon['ERROR'] = report;
     report = 'expired';
-    tango['EXPIRED'] = report;
+    tangon['EXPIRED'] = report;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/captcha/SharedCaptchaUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['CaptchaError'] = tango;
-    tango = function(argFoo) { // Original name: extractCaptchaPropsFromResponse
+    report = oscard.bind(golfie)(report);
+    zuuluu['CaptchaError'] = tangon;
+    tangon = function(argFoo) { // Original name: extractCaptchaPropsFromResponse
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = {};
-            mike = zulu.captcha_service;
-            entity['captchaService'] = mike;
-            mike = zulu.captcha_sitekey;
-            entity['sitekey'] = mike;
-            mike = {};
-            tango = zulu.captcha_rqdata;
-            mike['rqdata'] = tango;
-            tango = zulu.captcha_rqtoken;
-            mike['rqtoken'] = tango;
-            report = zulu.should_serve_invisible;
-            tango = null;
-            tango = tango != report;
-            if(!tango) { _fun00002_ip = 75; continue _fun00001 }
+            michal = zuuluu.captcha_service;
+            entity['captchaService'] = michal;
+            michal = zuuluu.captcha_sitekey;
+            entity['sitekey'] = michal;
+            michal = {};
+            tangon = zuuluu.captcha_rqdata;
+            michal['rqdata'] = tangon;
+            tangon = zuuluu.captcha_rqtoken;
+            michal['rqtoken'] = tangon;
+            report = zuuluu.should_serve_invisible;
+            tangon = null;
+            tangon = tangon != report;
+            if(!tangon) { _fun00002_ip = 75; continue _fun00001 }
  72:
-            tango = report;
+            tangon = report;
  75:
-            mike['serveInvisible'] = tango;
-            zulu = zulu.user_flow;
-            mike['userflow'] = zulu;
-            entity['options'] = mike;
+            michal['serveInvisible'] = tangon;
+            zuuluu = zuuluu.user_flow;
+            michal['userflow'] = zuuluu;
+            entity['options'] = michal;
             return entity;
         }
     };
-    zulu['extractCaptchaPropsFromResponse'] = tango;
-    mike = function(argFoo) { // Original name: emitCaptchaDistributionMetric
+    zuuluu['extractCaptchaPropsFromResponse'] = tangon;
+    michal = function(argFoo) { // Original name: emitCaptchaDistributionMetric
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
             entity = undefined;
-            zulu = zulu.bind(entity)();
-            if(!zulu) { _fun00004_ip = 43; continue _fun00003 }
+            zuuluu = zuuluu.bind(entity)();
+            if(!zuuluu) { _fun00004_ip = 43; continue _fun00003 }
  16:
-            zulu = global;
-            report = zulu.setTimeout;
-            tango = _closure1_slot3;
-            zulu = function() {
-                mike = _closure1_slot1;
+            zuuluu = global;
+            report = zuuluu.setTimeout;
+            tangon = _closure1_slot3;
+            zuuluu = function() {
+                michal = _closure1_slot1;
                 entity = undefined;
-                entity = mike.bind(entity)();
+                entity = michal.bind(entity)();
                 return entity;
             };
-            zulu = report.bind(entity)(zulu, tango);
+            zuuluu = report.bind(entity)(zuuluu, tangon);
  43:
-            zulu = _closure1_slot0;
-            mike = argFoo;
-            mike = zulu.bind(entity)(mike);
+            zuuluu = _closure1_slot0;
+            michal = argFoo;
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         }
     };
-    zulu['emitCaptchaDistributionMetric'] = mike;
+    zuuluu['emitCaptchaDistributionMetric'] = michal;
     return entity;
 })();

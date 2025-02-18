@@ -1,169 +1,169 @@
 // app/modules/welcome_cta/WelcomeCTAUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.WELCOME_STICKERS;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/welcome_cta/WelcomeCTAUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: pickHelloSticker
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.WELCOME_STICKERS;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/welcome_cta/WelcomeCTAUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: pickHelloSticker
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.getCurrentUser;
-            zulu = mike.bind(zulu)();
-            mike = null;
-            tango = mike == zulu;
-            oscar = undefined;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getCurrentUser;
+            zuuluu = michal.bind(zuuluu)();
+            michal = null;
+            tangon = michal == zuuluu;
+            oscard = undefined;
             report = undefined;
-            if(tango) { _fun00002_ip = 34; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 34; continue _fun00001 }
  29:
-            report = zulu.id;
+            report = zuuluu.id;
  34:
-            mike = mike != report;
-            zulu = 0;
-            if(!mike) { _fun00002_ip = 74; continue _fun00001 }
+            michal = michal != report;
+            zuuluu = 0;
+            if(!michal) { _fun00002_ip = 74; continue _fun00001 }
  43:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 3;
-            mike = golf[mike];
-            tango = tango.bind(oscar)(mike);
-            mike = tango.extractTimestamp;
-            zulu = mike.bind(tango)(report);
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            michal = golfie[michal];
+            tangon = tangon.bind(oscard)(michal);
+            michal = tangon.extractTimestamp;
+            zuuluu = michal.bind(tangon)(report);
  74:
-            mike = _closure1_slot3;
-            entity = mike.length;
-            entity = zulu % entity;
-            entity = mike[entity];
+            michal = _closure1_slot3;
+            entity = michal.length;
+            entity = zuuluu % entity;
+            entity = michal[entity];
             return entity;
         }
     };
-    zulu['pickHelloSticker'] = tango;
-    tango = function(argFoo) {
+    zuuluu['pickHelloSticker'] = tangon;
+    tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.getCurrentUser;
-            zulu = mike.bind(zulu)();
-            mike = null;
-            tango = mike == zulu;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getCurrentUser;
+            zuuluu = michal.bind(zuuluu)();
+            michal = null;
+            tangon = michal == zuuluu;
             report = undefined;
-            oscar = undefined;
-            if(tango) { _fun00004_ip = 34; continue _fun00003 }
+            oscard = undefined;
+            if(tangon) { _fun00004_ip = 34; continue _fun00003 }
  29:
-            oscar = zulu.id;
+            oscard = zuuluu.id;
  34:
-            mike = mike != oscar;
-            zulu = 0;
-            if(!mike) { _fun00004_ip = 74; continue _fun00003 }
+            michal = michal != oscard;
+            zuuluu = 0;
+            if(!michal) { _fun00004_ip = 74; continue _fun00003 }
  43:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 3;
-            mike = golf[mike];
-            tango = tango.bind(report)(mike);
-            mike = tango.extractTimestamp;
-            zulu = mike.bind(tango)(oscar);
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            michal = golfie[michal];
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.extractTimestamp;
+            zuuluu = michal.bind(tangon)(oscard);
  74:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 3;
-            mike = oscar[mike];
-            report = tango.bind(report)(mike);
-            tango = report.extractTimestamp;
-            mike = argFoo;
-            mike = tango.bind(report)(mike);
-            zulu = zulu + mike;
-            mike = _closure1_slot3;
-            entity = mike.length;
-            entity = zulu % entity;
-            entity = mike[entity];
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 3;
+            michal = oscard[michal];
+            report = tangon.bind(report)(michal);
+            tangon = report.extractTimestamp;
+            michal = argFoo;
+            michal = tangon.bind(report)(michal);
+            zuuluu = zuuluu + michal;
+            michal = _closure1_slot3;
+            entity = michal.length;
+            entity = zuuluu % entity;
+            entity = michal[entity];
             return entity;
         }
     };
-    zulu['pickWelcomeSticker'] = tango;
-    mike = function(argFoo, argBar, argBaz) {
+    zuuluu['pickWelcomeSticker'] = tangon;
+    michal = function(argFoo, argBar, argBaz) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             verify = argFoo;
-            golf = argBar;
-            options = argBaz;
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 4;
-            report = tango[mike];
+            golfie = argBar;
+            option = argBaz;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 4;
+            report = tangon[michal];
             entity = undefined;
-            yankee = zulu.bind(entity)(report);
+            yankee = zuuluu.bind(entity)(report);
             offset = yankee.sendGreetMessage;
             report = verify.id;
-            mike = tango[mike];
-            foxtrot = zulu.bind(entity)(mike);
-            romeo = foxtrot.getSendMessageOptionsForReply;
-            mike = {};
-            mike['channel'] = verify;
-            mike['message'] = golf;
+            michal = tangon[michal];
+            foxtra = zuuluu.bind(entity)(michal);
+            romeon = foxtra.getSendMessageOptionsForReply;
+            michal = {};
+            michal['channel'] = verify;
+            michal['message'] = golfie;
             verify = true;
-            mike['shouldMention'] = verify;
-            mike['showMentionToggle'] = verify;
-            mike = romeo.bind(foxtrot)(mike);
-            mike = offset.bind(yankee)(report, options, mike);
-            mike = 5;
-            mike = tango[mike];
-            report = zulu.bind(entity)(mike);
-            tango = report.track;
-            mike = _closure1_slot4;
-            zulu = mike.WELCOME_CTA_CLICKED;
-            mike = {};
-            mike['is_reply'] = verify;
-            mike['sticker_id'] = options;
-            golf = golf.author;
-            golf = golf.id;
-            mike['target_user'] = golf;
-            golf = _closure1_slot2;
-            oscar = golf.getCurrentUser;
-            golf = oscar.bind(golf)();
-            oscar = null;
-            options = oscar == golf;
-            oscar = undefined;
-            if(options) { _fun00006_ip = 180; continue _fun00005 }
+            michal['shouldMention'] = verify;
+            michal['showMentionToggle'] = verify;
+            michal = romeon.bind(foxtra)(michal);
+            michal = offset.bind(yankee)(report, option, michal);
+            michal = 5;
+            michal = tangon[michal];
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.track;
+            michal = _closure1_slot4;
+            zuuluu = michal.WELCOME_CTA_CLICKED;
+            michal = {};
+            michal['is_reply'] = verify;
+            michal['sticker_id'] = option;
+            golfie = golfie.author;
+            golfie = golfie.id;
+            michal['target_user'] = golfie;
+            golfie = _closure1_slot2;
+            oscard = golfie.getCurrentUser;
+            golfie = oscard.bind(golfie)();
+            oscard = null;
+            option = oscard == golfie;
+            oscard = undefined;
+            if(option) { _fun00006_ip = 180; continue _fun00005 }
  175:
-            oscar = golf.id;
+            oscard = golfie.id;
  180:
-            mike['sender'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            michal['sender'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['handleWelcomeCtaClicked'] = mike;
+    zuuluu['handleWelcomeCtaClicked'] = michal;
     return entity;
 })();

@@ -1,93 +1,93 @@
 // app/modules/messages/ApplicationCommands.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = /<\\/([^\s]+):(\d+)>(?:\s?(.*))?/;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/ApplicationCommands.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getApplicationCommand
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = /<\\/([^\s]+):(\d+)>(?:\s?(.*))?/;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/ApplicationCommands.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getApplicationCommand
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot1;
-            zulu = tango.exec;
+            tangon = _closure1_slot1;
+            zuuluu = tangon.exec;
             entity = argFoo;
-            report = zulu.bind(tango)(entity);
+            report = zuuluu.bind(tangon)(entity);
             entity = null;
             if(!(entity != report)) { _fun00002_ip = 186; continue _fun00001 }
  30:
-            tango = _closure1_slot0;
-            zulu = undefined;
-            mike = 4;
-            zulu = tango.bind(zulu)(report, mike);
-            mike = 0;
-            mike = zulu[mike];
-            mike = 1;
-            golf = zulu[mike];
-            mike = 2;
-            tango = zulu[mike];
-            mike = 3;
-            oscar = zulu[mike];
-            zulu = entity == golf;
-            mike = null;
-            if(zulu) { _fun00002_ip = 184; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = undefined;
+            michal = 4;
+            zuuluu = tangon.bind(zuuluu)(report, michal);
+            michal = 0;
+            michal = zuuluu[michal];
+            michal = 1;
+            golfie = zuuluu[michal];
+            michal = 2;
+            tangon = zuuluu[michal];
+            michal = 3;
+            oscard = zuuluu[michal];
+            zuuluu = entity == golfie;
+            michal = null;
+            if(zuuluu) { _fun00002_ip = 184; continue _fun00001 }
  81:
-            zulu = entity == tango;
-            mike = null;
-            if(zulu) { _fun00002_ip = 184; continue _fun00001 }
+            zuuluu = entity == tangon;
+            michal = null;
+            if(zuuluu) { _fun00002_ip = 184; continue _fun00001 }
  90:
-            zulu = {};
-            options = entity != oscar;
+            zuuluu = {};
+            option = entity != oscard;
             report = '';
             offset = report;
-            if(!options) { _fun00002_ip = 128; continue _fun00001 }
+            if(!option) { _fun00002_ip = 128; continue _fun00001 }
  106:
-            options = global;
-            options = options.HermesInternal;
-            verify = options.concat;
-            options = ' ';
-            offset = verify.bind(options)(oscar);
+            option = global;
+            option = option.HermesInternal;
+            verify = option.concat;
+            option = ' ';
+            offset = verify.bind(option)(oscard);
  128:
-            options = global;
-            options = options.HermesInternal;
-            verify = options.concat;
-            options = '/';
-            options = verify.bind(options)(golf, offset);
-            zulu['content'] = options;
-            zulu['name'] = golf;
-            zulu['id'] = tango;
-            tango = entity != oscar;
-            if(!tango) { _fun00002_ip = 174; continue _fun00001 }
+            option = global;
+            option = option.HermesInternal;
+            verify = option.concat;
+            option = '/';
+            option = verify.bind(option)(golfie, offset);
+            zuuluu['content'] = option;
+            zuuluu['name'] = golfie;
+            zuuluu['id'] = tangon;
+            tangon = entity != oscard;
+            if(!tangon) { _fun00002_ip = 174; continue _fun00001 }
  170:
-            tango = report !== oscar;
+            tangon = report !== oscard;
  174:
-            zulu['hasOptions'] = tango;
-            mike = zulu;
+            zuuluu['hasOptions'] = tangon;
+            michal = zuuluu;
  184:
-            return mike;
+            return michal;
  186:
             return entity;
         }
     };
-    zulu['getApplicationCommand'] = mike;
+    zuuluu['getApplicationCommand'] = michal;
     return entity;
 })();

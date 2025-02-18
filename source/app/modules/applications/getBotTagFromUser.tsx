@@ -1,58 +1,58 @@
 // app/modules/applications/getBotTagFromUser.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.BotTagTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/applications/getBotTagFromUser.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getBotTagTypeFromUser
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.BotTagTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/applications/getBotTagFromUser.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getBotTagTypeFromUser
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.isSystemUser;
-            mike = mike.bind(entity)();
-            if(mike) { _fun00002_ip = 70; continue _fun00001 }
+            michal = entity.isSystemUser;
+            michal = michal.bind(entity)();
+            if(michal) { _fun00002_ip = 70; continue _fun00001 }
  16:
-            mike = entity.isClyde;
-            mike = mike.bind(entity)();
-            if(mike) { _fun00002_ip = 55; continue _fun00001 }
+            michal = entity.isClyde;
+            michal = michal.bind(entity)();
+            if(michal) { _fun00002_ip = 55; continue _fun00001 }
  29:
-            mike = entity.bot;
+            michal = entity.bot;
             entity = undefined;
-            if(!mike) { _fun00002_ip = 83; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 83; continue _fun00001 }
  40:
-            mike = _closure1_slot0;
-            entity = mike.BOT;
+            michal = _closure1_slot0;
+            entity = michal.BOT;
             _fun00002_ip = 83; continue _fun00001;
  55:
-            mike = _closure1_slot0;
-            entity = mike.AI;
+            michal = _closure1_slot0;
+            entity = michal.AI;
             _fun00002_ip = 83; continue _fun00001;
  70:
-            mike = _closure1_slot0;
-            entity = mike.SYSTEM_DM;
+            michal = _closure1_slot0;
+            entity = michal.SYSTEM_DM;
  83:
             return entity;
         }
     };
-    zulu['getBotTagTypeFromUser'] = mike;
+    zuuluu['getBotTagTypeFromUser'] = michal;
     return entity;
 })();

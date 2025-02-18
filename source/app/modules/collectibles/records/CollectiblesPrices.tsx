@@ -1,81 +1,81 @@
 // app/modules/collectibles/records/CollectiblesPrices.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.getPriceFromServer;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/records/CollectiblesPrices.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getPricesFromServer
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.getPriceFromServer;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/records/CollectiblesPrices.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getPricesFromServer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            var _closure2_slot0 = tango;
-            mike = null;
-            if(!(mike != tango)) { _fun00002_ip = 54; continue _fun00001 }
+            tangon = argFoo;
+            var _closure2_slot0 = tangon;
+            michal = null;
+            if(!(michal != tangon)) { _fun00002_ip = 54; continue _fun00001 }
  15:
-            mike = global;
-            zulu = mike.Object;
-            mike = zulu.keys;
-            tango = mike.bind(zulu)(tango);
-            zulu = tango.reduce;
-            mike = function(argFoo, argBar) {
+            michal = global;
+            zuuluu = michal.Object;
+            michal = zuuluu.keys;
+            tangon = michal.bind(zuuluu)(tangon);
+            zuuluu = tangon.reduce;
+            michal = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
-                    zulu = argBar;
+                    zuuluu = argBar;
                     report = _closure2_slot0;
-                    tango = null;
-                    if(!(tango != report)) { _fun00004_ip = 100; continue _fun00003 }
+                    tangon = null;
+                    if(!(tangon != report)) { _fun00004_ip = 100; continue _fun00003 }
  19:
-                    mike = _closure2_slot0;
-                    report = mike[zulu];
-                    mike = {};
-                    tango = {};
-                    oscar = report.country_prices;
-                    oscar = oscar.country_code;
-                    tango['countryCode'] = oscar;
+                    michal = _closure2_slot0;
+                    report = michal[zuuluu];
+                    michal = {};
+                    tangon = {};
+                    oscard = report.country_prices;
+                    oscard = oscard.country_code;
+                    tangon['countryCode'] = oscard;
                     report = report.country_prices;
-                    golf = report.prices;
-                    oscar = golf.map;
+                    golfie = report.prices;
+                    oscard = golfie.map;
                     report = function(argFoo) {
-                        tango = _closure1_slot0;
-                        zulu = undefined;
-                        mike = argFoo;
+                        tangon = _closure1_slot0;
+                        zuuluu = undefined;
+                        michal = argFoo;
                         entity = true;
-                        entity = tango.bind(zulu)(mike, entity);
+                        entity = tangon.bind(zuuluu)(michal, entity);
                         return entity;
                     };
-                    report = oscar.bind(golf)(report);
-                    tango['prices'] = report;
-                    mike['countryPrices'] = tango;
-                    tango = {};
-                    mike['paymentSourcePrices'] = tango;
-                    entity[zulu] = mike;
+                    report = oscard.bind(golfie)(report);
+                    tangon['prices'] = report;
+                    michal['countryPrices'] = tangon;
+                    tangon = {};
+                    michal['paymentSourcePrices'] = tangon;
+                    entity[zuuluu] = michal;
                     return entity;
  100:
                     return entity;
                 }
             };
             entity = {};
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             _fun00002_ip = 56; continue _fun00001;
  54:
             entity = {};
@@ -83,6 +83,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getPricesFromServer'] = mike;
+    zuuluu['getPricesFromServer'] = michal;
     return entity;
 })();

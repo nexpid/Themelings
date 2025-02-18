@@ -1,95 +1,95 @@
 // app/modules/markup/MarkupSubtextRule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = /\n$/;
     var _closure1_slot2 = entity;
     entity = /^ *-# +((?!(-#)+)[^\n]+?) *(?:\n|$)/;
     var _closure1_slot3 = entity;
-    mike = {};
+    michal = {};
     entity = 0;
-    options = oscar[entity];
-    golf = argBaz;
+    option = oscard[entity];
+    golfie = argBaz;
     entity = undefined;
-    golf = golf.bind(entity)(options);
-    golf = golf.defaultRules;
-    golf = golf.heading;
-    golf = golf.order;
-    mike['order'] = golf;
-    golf = ['-'];
-    mike['requiredFirstCharacters'] = golf;
-    golf = function(argFoo, argBar, argBaz) { // Original name: match
+    golfie = golfie.bind(entity)(option);
+    golfie = golfie.defaultRules;
+    golfie = golfie.heading;
+    golfie = golfie.order;
+    michal['order'] = golfie;
+    golfie = ['-'];
+    michal['requiredFirstCharacters'] = golfie;
+    golfie = function(argFoo, argBar, argBaz) { // Original name: match
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBaz;
+            oscard = argBaz;
             entity = null;
-            if(!(entity != oscar)) { _fun00002_ip = 44; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 44; continue _fun00001 }
  9:
-            mike = '';
-            if(!(mike !== oscar)) { _fun00002_ip = 44; continue _fun00001 }
+            michal = '';
+            if(!(michal !== oscard)) { _fun00002_ip = 44; continue _fun00001 }
  17:
-            zulu = oscar.match;
-            mike = _closure1_slot2;
-            mike = zulu.bind(oscar)(mike);
-            mike = entity != mike;
+            zuuluu = oscard.match;
+            michal = _closure1_slot2;
+            michal = zuuluu.bind(oscard)(michal);
+            michal = entity != michal;
             entity = null;
-            if(!mike) { _fun00002_ip = 96; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 96; continue _fun00001 }
  44:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 0;
-            zulu = report[zulu];
+            zuuluu = 0;
+            zuuluu = report[zuuluu];
             report = undefined;
-            tango = tango.bind(report)(zulu);
-            zulu = tango.anyScopeRegex;
-            mike = _closure1_slot3;
-            tango = zulu.bind(tango)(mike);
-            zulu = argFoo;
-            mike = argBar;
-            entity = tango.bind(report)(zulu, mike, oscar);
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.anyScopeRegex;
+            michal = _closure1_slot3;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = argFoo;
+            michal = argBar;
+            entity = tangon.bind(report)(zuuluu, michal, oscard);
  96:
             return entity;
         }
     };
-    mike['match'] = golf;
-    tango = function(argFoo, argBar, argBaz) { // Original name: parse
+    michal['match'] = golfie;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: parse
         entity = {};
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 0;
-        zulu = zulu[mike];
-        mike = undefined;
-        oscar = tango.bind(mike)(zulu);
-        report = oscar.parseInline;
-        zulu = argFoo;
-        mike = 1;
-        zulu = zulu[mike];
-        mike = zulu.trim;
-        tango = mike.bind(zulu)();
-        zulu = argBar;
-        mike = argBaz;
-        mike = report.bind(oscar)(zulu, tango, mike);
-        entity['content'] = mike;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 0;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        oscard = tangon.bind(michal)(zuuluu);
+        report = oscard.parseInline;
+        zuuluu = argFoo;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = zuuluu.trim;
+        tangon = michal.bind(zuuluu)();
+        zuuluu = argBar;
+        michal = argBaz;
+        michal = report.bind(oscard)(zuuluu, tangon, michal);
+        entity['content'] = michal;
         return entity;
     };
-    mike['parse'] = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/MarkupSubtextRule.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['parse'] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/MarkupSubtextRule.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

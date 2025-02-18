@@ -1,26 +1,26 @@
 // app/uikit-native/status/StatusConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'uikit-native/status/StatusConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 3;
-    zulu['STATUS_PADDING'] = mike;
-    mike = {'XSMALL': 6, 'SMALL': 8, 'REFRESH_MEDIUM_10': 10, 'MEDIUM': 12, 'LARGE': 16, 'XLARGE': 24};
-    zulu['StatusSizes'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'uikit-native/status/StatusConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 3;
+    zuuluu['STATUS_PADDING'] = michal;
+    michal = {'XSMALL': 6, 'SMALL': 8, 'REFRESH_MEDIUM_10': 10, 'MEDIUM': 12, 'LARGE': 16, 'XLARGE': 24};
+    zuuluu['StatusSizes'] = michal;
     return entity;
 })();

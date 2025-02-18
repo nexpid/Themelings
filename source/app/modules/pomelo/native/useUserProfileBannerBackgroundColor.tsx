@@ -1,60 +1,60 @@
 // app/modules/pomelo/native/useUserProfileBannerBackgroundColor.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/pomelo/native/useUserProfileBannerBackgroundColor.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useUserProfileBannerBackgroundColor
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/pomelo/native/useUserProfileBannerBackgroundColor.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useUserProfileBannerBackgroundColor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            tango = argBar;
-            oscar = _closure1_slot0;
+            option = argFoo;
+            tangon = argBar;
+            oscard = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 0;
-            zulu = verify[entity];
-            mike = undefined;
-            report = oscar.bind(mike)(zulu);
-            zulu = report.memoizedImageSource;
-            golf = zulu.bind(report)(options);
-            zulu = 1;
-            zulu = verify[zulu];
-            report = oscar.bind(mike)(zulu);
-            zulu = report.rgb2int;
+            zuuluu = verify[entity];
+            michal = undefined;
+            report = oscard.bind(michal)(zuuluu);
+            zuuluu = report.memoizedImageSource;
+            golfie = zuuluu.bind(report)(option);
+            zuuluu = 1;
+            zuuluu = verify[zuuluu];
+            report = oscard.bind(michal)(zuuluu);
+            zuuluu = report.rgb2int;
             entity = verify[entity];
-            oscar = oscar.bind(mike)(entity);
-            entity = oscar.useDominantColorFromImage;
-            entity = entity.bind(oscar)(options, golf);
-            entity = zulu.bind(report)(entity);
-            zulu = null;
-            report = zulu == tango;
+            oscard = oscard.bind(michal)(entity);
+            entity = oscard.useDominantColorFromImage;
+            entity = entity.bind(oscard)(option, golfie);
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = null;
+            report = zuuluu == tangon;
             if(report) { _fun00002_ip = 100; continue _fun00001 }
  94:
-            mike = tango.primaryColor;
+            michal = tangon.primaryColor;
  100:
-            if(!(zulu != mike)) { _fun00002_ip = 107; continue _fun00001 }
+            if(!(zuuluu != michal)) { _fun00002_ip = 107; continue _fun00001 }
  104:
-            entity = mike;
+            entity = michal;
  107:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

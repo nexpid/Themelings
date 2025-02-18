@@ -1,104 +1,104 @@
 // app/modules/pomelo/useIsEligibleForPomelo.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar) { // Original name: eligible
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  12:
-            mike = zulu.isPomelo;
-            mike = mike.bind(zulu)();
-            entity = !mike;
+            michal = zuuluu.isPomelo;
+            michal = michal.bind(zuuluu)();
+            entity = !michal;
  25:
             if(!entity) { _fun00002_ip = 59; continue _fun00001 }
  28:
-            mike = zulu.hasVerifiedEmailOrPhone;
-            mike = mike.bind(zulu)();
-            zulu = !mike;
-            mike = !zulu;
-            if(zulu) { _fun00002_ip = 56; continue _fun00001 }
+            michal = zuuluu.hasVerifiedEmailOrPhone;
+            michal = michal.bind(zuuluu)();
+            zuuluu = !michal;
+            michal = !zuuluu;
+            if(zuuluu) { _fun00002_ip = 56; continue _fun00001 }
  47:
-            zulu = argBar;
-            zulu = !zulu;
-            mike = !zulu;
+            zuuluu = argBar;
+            zuuluu = !zuuluu;
+            michal = !zuuluu;
  56:
-            entity = mike;
+            entity = michal;
  59:
             return entity;
         }
     };
     var _closure1_slot3 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/pomelo/useIsEligibleForPomelo.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() {
-        tango = _closure1_slot3;
-        zulu = _closure1_slot2;
-        mike = zulu.getCurrentUser;
-        zulu = mike.bind(zulu)();
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/pomelo/useIsEligibleForPomelo.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() {
+        tangon = _closure1_slot3;
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.getCurrentUser;
+        zuuluu = michal.bind(zuuluu)();
         report = _closure1_slot0;
-        mike = _closure1_slot1;
+        michal = _closure1_slot1;
         entity = 1;
-        entity = mike[entity];
-        mike = undefined;
-        report = report.bind(mike)(entity);
+        entity = michal[entity];
+        michal = undefined;
+        report = report.bind(michal)(entity);
         entity = report.getPomeloEligibility;
         entity = entity.bind(report)();
-        entity = tango.bind(mike)(zulu, entity);
+        entity = tangon.bind(michal)(zuuluu, entity);
         return entity;
     };
-    zulu['isEligibleForPomelo'] = tango;
-    mike = function() {
-        tango = _closure1_slot3;
+    zuuluu['isEligibleForPomelo'] = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
-        mike = 2;
-        mike = oscar[mike];
-        zulu = undefined;
-        options = report.bind(zulu)(mike);
-        golf = options.useStateFromStores;
+        oscard = _closure1_slot1;
+        michal = 2;
+        michal = oscard[michal];
+        zuuluu = undefined;
+        option = report.bind(zuuluu)(michal);
+        golfie = option.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
-            mike = _closure1_slot2;
-            entity = mike.getCurrentUser;
-            entity = entity.bind(mike)();
+            michal = _closure1_slot2;
+            entity = michal.getCurrentUser;
+            entity = entity.bind(michal)();
             return entity;
         };
-        mike = golf.bind(options)(mike, entity);
+        michal = golfie.bind(option)(michal, entity);
         entity = 1;
-        entity = oscar[entity];
-        report = report.bind(zulu)(entity);
+        entity = oscard[entity];
+        report = report.bind(zuuluu)(entity);
         entity = report.usePomeloEligibility;
         entity = entity.bind(report)();
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['useIsEligibleForPomelo'] = mike;
+    zuuluu['useIsEligibleForPomelo'] = michal;
     return entity;
 })();

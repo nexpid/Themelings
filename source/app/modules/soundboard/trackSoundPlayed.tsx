@@ -1,161 +1,161 @@
 // app/modules/soundboard/trackSoundPlayed.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.DEFAULT_SOUND_GUILD_ID;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot7 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.AnalyticsPremiumFeatureNames;
-    var _closure1_slot8 = golf;
-    tango = tango.AnalyticsPremiumFeatureTiers;
-    var _closure1_slot9 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/soundboard/trackSoundPlayed.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: trackSoundPlayed
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DEFAULT_SOUND_GUILD_ID;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot7 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AnalyticsPremiumFeatureNames;
+    var _closure1_slot8 = golfie;
+    tangon = tangon.AnalyticsPremiumFeatureTiers;
+    var _closure1_slot9 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/soundboard/trackSoundPlayed.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: trackSoundPlayed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBaz;
-            zulu = _closure1_slot3;
-            mike = zulu.getChannel;
-            tango = _closure1_slot5;
-            entity = tango.getVoiceChannelId;
-            entity = entity.bind(tango)();
-            zulu = mike.bind(zulu)(entity);
+            oscard = argBaz;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getChannel;
+            tangon = _closure1_slot5;
+            entity = tangon.getVoiceChannelId;
+            entity = entity.bind(tangon)();
+            zuuluu = michal.bind(zuuluu)(entity);
             verify = null;
-            mike = verify == zulu;
+            michal = verify == zuuluu;
             entity = undefined;
-            romeo = undefined;
-            if(mike) { _fun00002_ip = 57; continue _fun00001 }
+            romeon = undefined;
+            if(michal) { _fun00002_ip = 57; continue _fun00001 }
  47:
-            mike = zulu.getGuildId;
-            romeo = mike.bind(zulu)();
+            michal = zuuluu.getGuildId;
+            romeon = michal.bind(zuuluu)();
  57:
-            zulu = _closure1_slot4;
-            mike = zulu.getMediaSessionId;
-            offset = mike.bind(zulu)();
-            mike = zulu.getRTCConnectionId;
-            yankee = mike.bind(zulu)();
-            zulu = _closure1_slot2;
-            mike = zulu.getCurrentGameForAnalytics;
-            mike = mike.bind(zulu)();
-            zulu = verify == mike;
-            options = undefined;
-            if(zulu) { _fun00002_ip = 109; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.getMediaSessionId;
+            offset = michal.bind(zuuluu)();
+            michal = zuuluu.getRTCConnectionId;
+            yankee = michal.bind(zuuluu)();
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getCurrentGameForAnalytics;
+            michal = michal.bind(zuuluu)();
+            zuuluu = verify == michal;
+            option = undefined;
+            if(zuuluu) { _fun00002_ip = 109; continue _fun00001 }
  104:
-            options = mike.name;
+            option = michal.name;
  109:
-            mike = oscar.guildId;
-            foxtrot = romeo !== mike;
-            if(!foxtrot) { _fun00002_ip = 134; continue _fun00001 }
+            michal = oscard.guildId;
+            foxtra = romeon !== michal;
+            if(!foxtra) { _fun00002_ip = 134; continue _fun00001 }
  121:
-            zulu = oscar.guildId;
-            mike = _closure1_slot6;
-            foxtrot = zulu !== mike;
+            zuuluu = oscard.guildId;
+            michal = _closure1_slot6;
+            foxtra = zuuluu !== michal;
  134:
-            zulu = oscar.guildId;
-            mike = _closure1_slot6;
-            golf = 'default';
-            if(!(zulu !== mike)) { _fun00002_ip = 167; continue _fun00001 }
+            zuuluu = oscard.guildId;
+            michal = _closure1_slot6;
+            golfie = 'default';
+            if(!(zuuluu !== michal)) { _fun00002_ip = 167; continue _fun00001 }
  151:
-            mike = 'custom';
-            if(!foxtrot) { _fun00002_ip = 164; continue _fun00001 }
+            michal = 'custom';
+            if(!foxtra) { _fun00002_ip = 164; continue _fun00001 }
  158:
-            mike = 'custom-external';
+            michal = 'custom-external';
  164:
-            golf = mike;
+            golfie = michal;
  167:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 7;
-            mike = tango[mike];
-            report = zulu.bind(entity)(mike);
-            tango = report.track;
-            mike = _closure1_slot7;
-            zulu = mike.PREMIUM_FEATURE_USAGE;
-            mike = {};
-            kilo = _closure1_slot8;
-            kilo = kilo.SOUNDBOARD_PLAY;
-            mike['feature_name'] = kilo;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 7;
+            michal = tangon[michal];
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.track;
+            michal = _closure1_slot7;
+            zuuluu = michal.PREMIUM_FEATURE_USAGE;
+            michal = {};
+            kiloes = _closure1_slot8;
+            kiloes = kiloes.SOUNDBOARD_PLAY;
+            michal['feature_name'] = kiloes;
             backup = _closure1_slot9;
-            if(foxtrot) { _fun00002_ip = 234; continue _fun00001 }
+            if(foxtra) { _fun00002_ip = 234; continue _fun00001 }
  226:
-            foxtrot = backup.FREE;
+            foxtra = backup.FREE;
             _fun00002_ip = 240; continue _fun00001;
  234:
-            foxtrot = backup.PREMIUM_STANDARD;
+            foxtra = backup.PREMIUM_STANDARD;
  240:
-            mike['feature_tier'] = foxtrot;
-            mike['guild_id'] = romeo;
-            romeo = argFoo;
-            mike['location_stack'] = romeo;
-            mike['rtc_connection_id'] = yankee;
-            mike['media_session_id'] = offset;
+            michal['feature_tier'] = foxtra;
+            michal['guild_id'] = romeon;
+            romeon = argFoo;
+            michal['location_stack'] = romeon;
+            michal['rtc_connection_id'] = yankee;
+            michal['media_session_id'] = offset;
             offset = argBar;
-            mike['in_overlay'] = offset;
-            mike['application_name'] = options;
-            options = oscar.emojiId;
-            if(!(verify == options)) { _fun00002_ip = 307; continue _fun00001 }
+            michal['in_overlay'] = offset;
+            michal['application_name'] = option;
+            option = oscard.emojiId;
+            if(!(verify == option)) { _fun00002_ip = 307; continue _fun00001 }
  292:
-            options = oscar.emojiName;
-            verify = verify != options;
-            options = 0;
+            option = oscard.emojiName;
+            verify = verify != option;
+            option = 0;
             if(!verify) { _fun00002_ip = 310; continue _fun00001 }
  307:
-            options = 1;
+            option = 1;
  310:
-            mike['emoji_count'] = options;
-            mike['feature_selection'] = golf;
-            oscar = oscar.soundId;
-            mike['feature_selection_id'] = oscar;
-            oscar = argCorge;
-            mike['sound_type'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            michal['emoji_count'] = option;
+            michal['feature_selection'] = golfie;
+            oscard = oscard.soundId;
+            michal['feature_selection_id'] = oscard;
+            oscard = argCor;
+            michal['sound_type'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

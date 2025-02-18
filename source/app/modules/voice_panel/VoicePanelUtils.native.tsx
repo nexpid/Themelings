@@ -1,162 +1,162 @@
 // app/modules/voice_panel/VoicePanelUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/VoicePanelUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isVoicePanelEnabled
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/VoicePanelUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isVoicePanelEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            zulu = entity == tango;
-            mike = undefined;
-            if(zulu) { _fun00002_ip = 24; continue _fun00001 }
+            zuuluu = entity == tangon;
+            michal = undefined;
+            if(zuuluu) { _fun00002_ip = 24; continue _fun00001 }
  14:
-            zulu = tango.isGuildStageVoice;
-            mike = zulu.bind(tango)();
+            zuuluu = tangon.isGuildStageVoice;
+            michal = zuuluu.bind(tangon)();
  24:
-            entity = entity == mike;
+            entity = entity == michal;
             if(entity) { _fun00002_ip = 34; continue _fun00001 }
  31:
-            entity = !mike;
+            entity = !michal;
  34:
             return entity;
         }
     };
-    zulu['isVoicePanelEnabled'] = tango;
-    tango = function() { // Original name: useIsVoicePanelShowing
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    zuuluu['isVoicePanelEnabled'] = tangon;
+    tangon = function() { // Original name: useIsVoicePanelShowing
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(2);
-        mike[0] = report;
+        michal = new Array(2);
+        michal[0] = report;
         entity = _closure1_slot3;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = _closure1_slot2;
-                tango = _closure1_slot3;
-                mike = undefined;
-                if(!(zulu === mike)) { _fun00004_ip = 21; continue _fun00003 }
+                zuuluu = _closure1_slot2;
+                tangon = _closure1_slot3;
+                michal = undefined;
+                if(!(zuuluu === michal)) { _fun00004_ip = 21; continue _fun00003 }
  17:
-                zulu = _closure1_slot2;
+                zuuluu = _closure1_slot2;
  21:
-                if(!(tango === mike)) { _fun00004_ip = 29; continue _fun00003 }
+                if(!(tangon === michal)) { _fun00004_ip = 29; continue _fun00003 }
  25:
-                tango = _closure1_slot3;
+                tangon = _closure1_slot3;
  29:
-                mike = zulu.getChannel;
-                entity = tango.getChannelId;
-                entity = entity.bind(tango)();
-                zulu = mike.bind(zulu)(entity);
+                michal = zuuluu.getChannel;
+                entity = tangon.getChannelId;
+                entity = entity.bind(tangon)();
+                zuuluu = michal.bind(zuuluu)(entity);
                 entity = null;
-                entity = entity != zulu;
+                entity = entity != zuuluu;
                 if(!entity) { _fun00004_ip = 71; continue _fun00003 }
  58:
-                mike = zulu.isGuildStageVoice;
-                mike = mike.bind(zulu)();
-                entity = !mike;
+                michal = zuuluu.isGuildStageVoice;
+                michal = michal.bind(zuuluu)();
+                entity = !michal;
  71:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIsVoicePanelShowing'] = tango;
-    tango = function() { // Original name: useIsVoicePanelFullscreen
-        zulu = _closure1_slot4;
-        mike = undefined;
+    zuuluu['useIsVoicePanelShowing'] = tangon;
+    tangon = function() { // Original name: useIsVoicePanelFullscreen
+        zuuluu = _closure1_slot4;
+        michal = undefined;
         entity = function(argFoo) {
-            mike = argFoo;
-            entity = mike.isVoicePanelFullscreen;
-            entity = entity.bind(mike)();
+            michal = argFoo;
+            entity = michal.isVoicePanelFullscreen;
+            entity = entity.bind(michal)();
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsVoicePanelFullscreen'] = tango;
-    tango = function(argFoo) { // Original name: useIsVoicePanelOpen
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot4;
-        mike = undefined;
+    zuuluu['useIsVoicePanelFullscreen'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsVoicePanelOpen
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot4;
+        michal = undefined;
         entity = function(argFoo) {
-            zulu = argFoo;
-            mike = zulu.isChannelOpen;
+            zuuluu = argFoo;
+            michal = zuuluu.isChannelOpen;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsVoicePanelOpen'] = tango;
-    tango = function() { // Original name: useIsAnyVoicePanelOpen
-        zulu = _closure1_slot4;
-        mike = undefined;
+    zuuluu['useIsVoicePanelOpen'] = tangon;
+    tangon = function() { // Original name: useIsAnyVoicePanelOpen
+        zuuluu = _closure1_slot4;
+        michal = undefined;
         entity = function(argFoo) {
-            mike = argFoo;
-            entity = mike.isAnyVoicePanelOpen;
-            entity = entity.bind(mike)();
+            michal = argFoo;
+            entity = michal.isAnyVoicePanelOpen;
+            entity = entity.bind(michal)();
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsAnyVoicePanelOpen'] = tango;
-    mike = function(argFoo) { // Original name: useIsVoicePanelMounted
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot4;
-        mike = undefined;
+    zuuluu['useIsAnyVoicePanelOpen'] = tangon;
+    michal = function(argFoo) { // Original name: useIsVoicePanelMounted
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot4;
+        michal = undefined;
         entity = function(argFoo) {
-            zulu = argFoo;
-            mike = zulu.isMounted;
+            zuuluu = argFoo;
+            michal = zuuluu.isMounted;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsVoicePanelMounted'] = mike;
+    zuuluu['useIsVoicePanelMounted'] = michal;
     return entity;
 })();

@@ -1,89 +1,89 @@
 // app/modules/expression_suggestions/ExpressionSuggestionsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    oscar = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    oscard = argBaz;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
     entity = global;
     verify = entity.Object;
     report = verify.defineProperty;
-    mike = {};
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(verify)(zulu, entity, mike);
+    entity = report.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = options[entity];
+    michal = option[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    offset = mike.SUGGESTIONS_SHOWED_INSTRUMENTATION_RATE_LIMIT_MS;
-    mike = 1;
-    mike = options[mike];
-    mike = golf.bind(entity)(mike);
-    mike = mike.AnalyticEvents;
-    var _closure1_slot2 = mike;
-    mike = /(!|\.|;|,|-|—|–|\?|"|')/g;
-    var _closure1_slot3 = mike;
-    mike = /(\n|\t|\s)/g;
-    var _closure1_slot4 = mike;
+    michal = golfie.bind(entity)(michal);
+    offset = michal.SUGGESTIONS_SHOWED_INSTRUMENTATION_RATE_LIMIT_MS;
+    michal = 1;
+    michal = option[michal];
+    michal = golfie.bind(entity)(michal);
+    michal = michal.AnalyticEvents;
+    var _closure1_slot2 = michal;
+    michal = /(!|\.|;|,|-|—|–|\?|"|')/g;
+    var _closure1_slot3 = michal;
+    michal = /(\n|\t|\s)/g;
+    var _closure1_slot4 = michal;
     report = function(argFoo) { // Original name: removePunctuation
         report = argFoo;
-        tango = report.replace;
-        zulu = _closure1_slot3;
-        mike = '';
-        tango = tango.bind(report)(zulu, mike);
-        zulu = tango.replace;
-        mike = _closure1_slot4;
+        tangon = report.replace;
+        zuuluu = _closure1_slot3;
+        michal = '';
+        tangon = tangon.bind(report)(zuuluu, michal);
+        zuuluu = tangon.replace;
+        michal = _closure1_slot4;
         entity = ' ';
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
     var _closure1_slot5 = report;
-    mike = 2;
-    mike = options[mike];
-    verify = oscar.bind(entity)(mike);
-    oscar = function(argFoo) {
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+    michal = 2;
+    michal = option[michal];
+    verify = oscard.bind(entity)(michal);
+    oscard = function(argFoo) {
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 3;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        report = tango.bind(entity)(zulu);
-        tango = report.track;
-        mike = _closure1_slot2;
-        zulu = mike.AUTO_SUGGEST_DISPLAYED;
-        mike = {};
-        oscar = argFoo;
-        mike['suggestion_trigger'] = oscar;
-        mike = tango.bind(report)(zulu, mike);
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.track;
+        michal = _closure1_slot2;
+        zuuluu = michal.AUTO_SUGGEST_DISPLAYED;
+        michal = {};
+        oscard = argFoo;
+        michal['suggestion_trigger'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    mike = {'leading': true, 'trailing': false};
-    mike = verify.bind(entity)(oscar, offset, mike);
-    oscar = 4;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/expression_suggestions/ExpressionSuggestionsUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['removePunctuation'] = report;
-    tango = function(argFoo) {
+    michal = {'leading': true, 'trailing': false};
+    michal = verify.bind(entity)(oscard, offset, michal);
+    oscard = 4;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/expression_suggestions/ExpressionSuggestionsUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['removePunctuation'] = report;
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 49; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
  9:
-            mike = _closure1_slot5;
+            michal = _closure1_slot5;
             entity = undefined;
-            mike = mike.bind(entity)(zulu);
-            entity = mike.trim;
-            zulu = entity.bind(mike)();
-            mike = zulu.split;
+            michal = michal.bind(entity)(zuuluu);
+            entity = michal.trim;
+            zuuluu = entity.bind(michal)();
+            michal = zuuluu.split;
             entity = ' ';
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             _fun00002_ip = 53; continue _fun00001;
  49:
             entity = new Array(0);
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['getQueriesFromUserInput'] = tango;
-    zulu['throttledTrackExpressionSuggestionDisplayed'] = mike;
+    zuuluu['getQueriesFromUserInput'] = tangon;
+    zuuluu['throttledTrackExpressionSuggestionDisplayed'] = michal;
     return entity;
 })();

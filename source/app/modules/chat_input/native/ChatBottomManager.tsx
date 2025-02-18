@@ -1,203 +1,203 @@
 // app/modules/chat_input/native/ChatBottomManager.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {'chatInputContainerHeight': 0, 'showingAutoComplete': false, 'showingExpressionSuggestions': false, 'shouldShowJumpToPresentButton': false};
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/chat_input/native/ChatBottomManager.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useChatInputManager'] = tango;
-    tango = function(argFoo) { // Original name: updateChatInputContainerHeight
+    report = oscard.bind(golfie)(report);
+    zuuluu['useChatInputManager'] = tangon;
+    tangon = function(argFoo) { // Original name: updateChatInputContainerHeight
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    tango = argFoo;
-                    report = tango.chatInputContainerHeight;
-                    mike = _closure2_slot0;
-                    entity = tango;
-                    if(!(report !== mike)) { _fun00002_ip = 51; continue _fun00001 }
+                    tangon = argFoo;
+                    report = tangon.chatInputContainerHeight;
+                    michal = _closure2_slot0;
+                    entity = tangon;
+                    if(!(report !== michal)) { _fun00002_ip = 51; continue _fun00001 }
  23:
-                    mike = {};
-                    golf = mike;
-                    oscar = tango;
-                    tango = copyDataProperties(golf, oscar);
-                    tango = _closure2_slot0;
-                    zulu = 'chatInputContainerHeight';
-                    mike[zulu] = tango;
-                    entity = mike;
+                    michal = {};
+                    golfie = michal;
+                    oscard = tangon;
+                    tangon = copyDataProperties(golfie, oscard);
+                    tangon = _closure2_slot0;
+                    zuuluu = 'chatInputContainerHeight';
+                    michal[zuuluu] = tangon;
+                    entity = michal;
  51:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updateChatInputContainerHeight'] = tango;
-    tango = function(argFoo) { // Original name: updateShowingAutoComplete
+    zuuluu['updateChatInputContainerHeight'] = tangon;
+    tangon = function(argFoo) { // Original name: updateShowingAutoComplete
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = argFoo;
-                    report = tango.showingAutoComplete;
-                    mike = _closure2_slot0;
-                    entity = tango;
-                    if(!(report !== mike)) { _fun00004_ip = 51; continue _fun00003 }
+                    tangon = argFoo;
+                    report = tangon.showingAutoComplete;
+                    michal = _closure2_slot0;
+                    entity = tangon;
+                    if(!(report !== michal)) { _fun00004_ip = 51; continue _fun00003 }
  23:
-                    mike = {};
-                    golf = mike;
-                    oscar = tango;
-                    tango = copyDataProperties(golf, oscar);
-                    tango = _closure2_slot0;
-                    zulu = 'showingAutoComplete';
-                    mike[zulu] = tango;
-                    entity = mike;
+                    michal = {};
+                    golfie = michal;
+                    oscard = tangon;
+                    tangon = copyDataProperties(golfie, oscard);
+                    tangon = _closure2_slot0;
+                    zuuluu = 'showingAutoComplete';
+                    michal[zuuluu] = tangon;
+                    entity = michal;
  51:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updateShowingAutoComplete'] = tango;
-    tango = function(argFoo) { // Original name: updateShowingExpressionSuggestions
+    zuuluu['updateShowingAutoComplete'] = tangon;
+    tangon = function(argFoo) { // Original name: updateShowingExpressionSuggestions
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    tango = argFoo;
-                    report = tango.showingExpressionSuggestions;
-                    mike = _closure2_slot0;
-                    entity = tango;
-                    if(!(report !== mike)) { _fun00006_ip = 51; continue _fun00005 }
+                    tangon = argFoo;
+                    report = tangon.showingExpressionSuggestions;
+                    michal = _closure2_slot0;
+                    entity = tangon;
+                    if(!(report !== michal)) { _fun00006_ip = 51; continue _fun00005 }
  23:
-                    mike = {};
-                    golf = mike;
-                    oscar = tango;
-                    tango = copyDataProperties(golf, oscar);
-                    tango = _closure2_slot0;
-                    zulu = 'showingExpressionSuggestions';
-                    mike[zulu] = tango;
-                    entity = mike;
+                    michal = {};
+                    golfie = michal;
+                    oscard = tangon;
+                    tangon = copyDataProperties(golfie, oscard);
+                    tangon = _closure2_slot0;
+                    zuuluu = 'showingExpressionSuggestions';
+                    michal[zuuluu] = tangon;
+                    entity = michal;
  51:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updateShowingExpressionSuggestions'] = tango;
-    mike = function(argFoo) { // Original name: updateShouldShowJumpToPresentButton
+    zuuluu['updateShowingExpressionSuggestions'] = tangon;
+    michal = function(argFoo) { // Original name: updateShouldShowJumpToPresentButton
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    tango = argFoo;
-                    report = tango.shouldShowJumpToPresentButton;
-                    mike = _closure2_slot0;
-                    entity = tango;
-                    if(!(report !== mike)) { _fun00008_ip = 51; continue _fun00007 }
+                    tangon = argFoo;
+                    report = tangon.shouldShowJumpToPresentButton;
+                    michal = _closure2_slot0;
+                    entity = tangon;
+                    if(!(report !== michal)) { _fun00008_ip = 51; continue _fun00007 }
  23:
-                    mike = {};
-                    golf = mike;
-                    oscar = tango;
-                    tango = copyDataProperties(golf, oscar);
-                    tango = _closure2_slot0;
-                    zulu = 'shouldShowJumpToPresentButton';
-                    mike[zulu] = tango;
-                    entity = mike;
+                    michal = {};
+                    golfie = michal;
+                    oscard = tangon;
+                    tangon = copyDataProperties(golfie, oscard);
+                    tangon = _closure2_slot0;
+                    zuuluu = 'shouldShowJumpToPresentButton';
+                    michal[zuuluu] = tangon;
+                    entity = michal;
  51:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updateShouldShowJumpToPresentButton'] = mike;
+    zuuluu['updateShouldShowJumpToPresentButton'] = michal;
     return entity;
 })();

@@ -1,36 +1,36 @@
 // app/modules/gateway/PauseGatewaySocket.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = false;
     var _closure1_slot0 = entity;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/gateway/PauseGatewaySocket.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: getIsPaused
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/gateway/PauseGatewaySocket.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getIsPaused
         entity = _closure1_slot0;
         return entity;
     };
-    zulu['getIsPaused'] = tango;
-    mike = function(argFoo) { // Original name: setIsPaused
+    zuuluu['getIsPaused'] = tangon;
+    michal = function(argFoo) { // Original name: setIsPaused
         entity = argFoo;
         _closure1_slot0 = entity;
         entity = undefined;
         return entity;
     };
-    zulu['setIsPaused'] = mike;
+    zuuluu['setIsPaused'] = michal;
     return entity;
 })();

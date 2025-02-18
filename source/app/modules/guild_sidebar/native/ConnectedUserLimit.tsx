@@ -1,96 +1,96 @@
 // app/modules/guild_sidebar/native/ConnectedUserLimit.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_sidebar/native/ConnectedUserLimit.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_sidebar/native/ConnectedUserLimit.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.channel;
-            mike = entity.video;
-            golf = entity.userCount;
-            oscar = _closure1_slot0;
+            zuuluu = entity.channel;
+            michal = entity.video;
+            golfie = entity.userCount;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 2;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            report = report.bind(tango)(zulu);
+            tangon = 2;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            report = report.bind(tangon)(zuuluu);
             yankee = report.limit;
-            report = zulu.userLimit;
-            options = 0;
-            report = report > options;
+            report = zuuluu.userLimit;
+            option = 0;
+            report = report > option;
             offset = -1;
             if(!report) { _fun00002_ip = 83; continue _fun00001 }
  77:
-            offset = zulu.userLimit;
+            offset = zuuluu.userLimit;
  83:
-            if(!mike) { _fun00002_ip = 90; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 90; continue _fun00001 }
  86:
-            mike = yankee > options;
+            michal = yankee > option;
  90:
-            oscar = offset;
+            oscard = offset;
             report = false;
-            if(!mike) { _fun00002_ip = 141; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 141; continue _fun00001 }
  98:
-            mike = offset < options;
-            if(mike) { _fun00002_ip = 109; continue _fun00001 }
+            michal = offset < option;
+            if(michal) { _fun00002_ip = 109; continue _fun00001 }
  105:
-            mike = yankee < offset;
+            michal = yankee < offset;
  109:
-            zulu = yankee;
-            if(!(offset > options)) { _fun00002_ip = 135; continue _fun00001 }
+            zuuluu = yankee;
+            if(!(offset > option)) { _fun00002_ip = 135; continue _fun00001 }
  116:
-            options = global;
-            verify = options.Math;
-            options = verify.min;
-            zulu = options.bind(verify)(offset, yankee);
+            option = global;
+            verify = option.Math;
+            option = verify.min;
+            zuuluu = option.bind(verify)(offset, yankee);
  135:
-            oscar = zulu;
-            report = mike;
+            oscard = zuuluu;
+            report = michal;
  141:
-            zulu = _closure1_slot2;
-            mike = _closure1_slot0;
-            options = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot0;
+            option = _closure1_slot1;
             entity = 3;
-            entity = options[entity];
-            mike = mike.bind(tango)(entity);
+            entity = option[entity];
+            michal = michal.bind(tangon)(entity);
             entity = {};
-            entity['users'] = golf;
-            entity['total'] = oscar;
+            entity['users'] = golfie;
+            entity['total'] = oscard;
             entity['videoLimit'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['ConnectedUserLimit'] = mike;
+    zuuluu['ConnectedUserLimit'] = michal;
     return entity;
 })();

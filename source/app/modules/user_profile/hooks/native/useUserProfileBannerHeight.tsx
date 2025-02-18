@@ -1,59 +1,59 @@
 // app/modules/user_profile/hooks/native/useUserProfileBannerHeight.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useWindowDimensions;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.BANNER_ASPECT_RATIO;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_profile/hooks/native/useUserProfileBannerHeight.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useUserProfileBannerHeight
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useWindowDimensions;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.BANNER_ASPECT_RATIO;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/hooks/native/useUserProfileBannerHeight.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useUserProfileBannerHeight
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            zulu = _closure1_slot0;
-            mike = undefined;
-            mike = zulu.bind(mike)();
-            report = mike.width;
-            mike = null;
-            tango = report;
-            if(!(mike != oscar)) { _fun00002_ip = 49; continue _fun00001 }
+            oscard = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = undefined;
+            michal = zuuluu.bind(michal)();
+            report = michal.width;
+            michal = null;
+            tangon = report;
+            if(!(michal != oscard)) { _fun00002_ip = 49; continue _fun00001 }
  30:
-            mike = global;
-            zulu = mike.Math;
-            mike = zulu.min;
-            tango = mike.bind(zulu)(report, oscar);
+            michal = global;
+            zuuluu = michal.Math;
+            michal = zuuluu.min;
+            tangon = michal.bind(zuuluu)(report, oscard);
  49:
-            mike = global;
-            zulu = mike.Math;
-            mike = zulu.round;
+            michal = global;
+            zuuluu = michal.Math;
+            michal = zuuluu.round;
             entity = _closure1_slot1;
-            entity = tango / entity;
-            entity = mike.bind(zulu)(entity);
+            entity = tangon / entity;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

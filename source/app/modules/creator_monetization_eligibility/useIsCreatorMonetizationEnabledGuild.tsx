@@ -1,98 +1,98 @@
 // app/modules/creator_monetization_eligibility/useIsCreatorMonetizationEnabledGuild.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: isCreatorMonetizationEnabledGuild
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: isCreatorMonetizationEnabledGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = report.hasFeature;
+            michal = report.hasFeature;
             entity = _closure1_slot3;
             entity = entity.CREATOR_MONETIZABLE_DISABLED;
-            entity = mike.bind(report)(entity);
+            entity = michal.bind(report)(entity);
             entity = !entity;
             if(!entity) { _fun00002_ip = 81; continue _fun00001 }
  33:
-            tango = report.hasFeature;
-            mike = _closure1_slot3;
-            mike = mike.CREATOR_MONETIZABLE;
-            mike = tango.bind(report)(mike);
-            if(mike) { _fun00002_ip = 78; continue _fun00001 }
+            tangon = report.hasFeature;
+            michal = _closure1_slot3;
+            michal = michal.CREATOR_MONETIZABLE;
+            michal = tangon.bind(report)(michal);
+            if(michal) { _fun00002_ip = 78; continue _fun00001 }
  57:
-            tango = report.hasFeature;
-            zulu = _closure1_slot3;
-            zulu = zulu.CREATOR_MONETIZABLE_PROVISIONAL;
-            mike = tango.bind(report)(zulu);
+            tangon = report.hasFeature;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.CREATOR_MONETIZABLE_PROVISIONAL;
+            michal = tangon.bind(report)(zuuluu);
  78:
-            entity = mike;
+            entity = michal;
  81:
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.GuildFeatures;
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/creator_monetization_eligibility/useIsCreatorMonetizationEnabledGuild.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useIsCreatorMonetizationEnabledGuild
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useIsCreatorMonetizationEnabledGuild
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = _closure1_slot2;
-                zulu = tango.getGuild;
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
-                tango = zulu.bind(tango)(entity);
+                tangon = zuuluu.bind(tangon)(entity);
                 entity = null;
-                entity = entity != tango;
+                entity = entity != tangon;
                 if(!entity) { _fun00004_ip = 44; continue _fun00003 }
  33:
-                zulu = _closure1_slot4;
-                mike = undefined;
-                entity = zulu.bind(mike)(tango);
+                zuuluu = _closure1_slot4;
+                michal = undefined;
+                entity = zuuluu.bind(michal)(tangon);
  44:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['isCreatorMonetizationEnabledGuild'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['isCreatorMonetizationEnabledGuild'] = michal;
     return entity;
 })();

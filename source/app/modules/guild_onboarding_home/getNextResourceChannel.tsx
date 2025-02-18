@@ -1,60 +1,60 @@
 // app/modules/guild_onboarding_home/getNextResourceChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_onboarding_home/getNextResourceChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: getCurrentAndNextResourceChannel
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_onboarding_home/getNextResourceChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: getCurrentAndNextResourceChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
-            var _closure2_slot0 = mike;
-            tango = _closure1_slot2;
-            zulu = tango.getResourceChannels;
-            mike = argFoo;
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.findIndex;
+            michal = argBar;
+            var _closure2_slot0 = michal;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getResourceChannels;
+            michal = argFoo;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.findIndex;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.channelId;
+                michal = entity.channelId;
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            tango = mike.bind(zulu)(entity);
+            tangon = michal.bind(zuuluu)(entity);
             entity = 0;
-            if(!(!(tango < entity))) { _fun00002_ip = 92; continue _fun00001 }
+            if(!(!(tangon < entity))) { _fun00002_ip = 92; continue _fun00001 }
  54:
-            mike = zulu[tango];
+            michal = zuuluu[tangon];
             entity = new Array(2);
-            entity[0] = mike;
-            mike = 1;
-            tango = tango + mike;
-            mike = zulu.length;
-            mike = tango % mike;
-            mike = zulu[mike];
-            entity[1] = mike;
+            entity[0] = michal;
+            michal = 1;
+            tangon = tangon + michal;
+            michal = zuuluu.length;
+            michal = tangon % michal;
+            michal = zuuluu[michal];
+            entity[1] = michal;
             _fun00002_ip = 102; continue _fun00001;
  92:
             entity = [null, null];
@@ -62,69 +62,69 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo, argBar) { // Original name: usePreviousAndNextResourceChannel
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: usePreviousAndNextResourceChannel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
-            mike = argBar;
-            var _closure2_slot1 = mike;
-            oscar = _closure1_slot0;
-            zulu = _closure1_slot1;
-            tango = 1;
-            report = zulu[tango];
-            zulu = undefined;
-            oscar = oscar.bind(zulu)(report);
-            report = oscar.useStateFromStores;
-            mike = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getResourceChannels;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            michal = argBar;
+            var _closure2_slot1 = michal;
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            tangon = 1;
+            report = zuuluu[tangon];
+            zuuluu = undefined;
+            oscard = oscard.bind(zuuluu)(report);
+            report = oscard.useStateFromStores;
+            michal = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getResourceChannels;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu = report.bind(oscar)(zulu, mike);
-            mike = zulu.findIndex;
+            zuuluu = report.bind(oscard)(zuuluu, michal);
+            michal = zuuluu.findIndex;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.channelId;
+                michal = entity.channelId;
                 entity = _closure2_slot1;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            mike = mike.bind(zulu)(entity);
+            michal = michal.bind(zuuluu)(entity);
             entity = 0;
-            if(!(!(mike < entity))) { _fun00004_ip = 191; continue _fun00003 }
+            if(!(!(michal < entity))) { _fun00004_ip = 191; continue _fun00003 }
  95:
-            entity = zulu.length;
-            if(!(!(entity <= tango))) { _fun00004_ip = 191; continue _fun00003 }
+            entity = zuuluu.length;
+            if(!(!(entity <= tangon))) { _fun00004_ip = 191; continue _fun00003 }
  104:
-            report = zulu.length;
+            report = zuuluu.length;
             entity = 2;
             if(!(entity !== report)) { _fun00004_ip = 164; continue _fun00003 }
  116:
-            report = mike - tango;
-            entity = zulu.length;
+            report = michal - tangon;
+            entity = zuuluu.length;
             entity = report % entity;
-            report = zulu[entity];
+            report = zuuluu[entity];
             entity = new Array(2);
             entity[0] = report;
-            oscar = mike + tango;
-            report = zulu.length;
-            report = oscar % report;
-            report = zulu[report];
+            oscard = michal + tangon;
+            report = zuuluu.length;
+            report = oscard % report;
+            report = zuuluu[report];
             entity[1] = report;
             _fun00004_ip = 189; continue _fun00003;
  164:
-            mike = tango - mike;
-            zulu = zulu[mike];
-            mike = [null];
-            mike[1] = zulu;
-            entity = mike;
+            michal = tangon - michal;
+            zuuluu = zuuluu[michal];
+            michal = [null];
+            michal[1] = zuuluu;
+            entity = michal;
  189:
             _fun00004_ip = 201; continue _fun00003;
  191:
@@ -133,6 +133,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['usePreviousAndNextResourceChannel'] = mike;
+    zuuluu['usePreviousAndNextResourceChannel'] = michal;
     return entity;
 })();

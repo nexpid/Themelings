@@ -1,230 +1,230 @@
 // app/modules/dismissible_content/ToggleDismissibleContentDismissState.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 5;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/dismissible_content/ToggleDismissibleContentDismissState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: toggleDismissibleContentDismissState
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/dismissible_content/ToggleDismissibleContentDismissState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: toggleDismissibleContentDismissState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             entity = _closure1_slot1;
-            options = 3;
-            entity = entity[options];
-            tango = undefined;
-            entity = oscar.bind(tango)(entity);
-            oscar = entity.versionedDismissibleContents;
-            entity = oscar.indexOf;
-            entity = entity.bind(oscar)(report);
-            oscar = -1;
-            if(!(oscar === entity)) { _fun00002_ip = 125; continue _fun00001 }
+            option = 3;
+            entity = entity[option];
+            tangon = undefined;
+            entity = oscard.bind(tangon)(entity);
+            oscard = entity.versionedDismissibleContents;
+            entity = oscard.indexOf;
+            entity = entity.bind(oscard)(report);
+            oscard = -1;
+            if(!(oscard === entity)) { _fun00002_ip = 125; continue _fun00001 }
  56:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             entity = _closure1_slot1;
-            entity = entity[options];
-            entity = golf.bind(tango)(entity);
-            golf = entity.timeRecurringDismissibleContents;
-            entity = golf.indexOf;
-            entity = entity.bind(golf)(report);
-            if(!(oscar === entity)) { _fun00002_ip = 111; continue _fun00001 }
+            entity = entity[option];
+            entity = golfie.bind(tangon)(entity);
+            golfie = entity.timeRecurringDismissibleContents;
+            entity = golfie.indexOf;
+            entity = entity.bind(golfie)(report);
+            if(!(oscard === entity)) { _fun00002_ip = 111; continue _fun00001 }
  93:
-            oscar = function(argFoo, argBar) { // Original name: toggleSingleUseDismissibleContent
+            oscard = function(argFoo, argBar) { // Original name: toggleSingleUseDismissibleContent
                 report = argFoo;
                 var _closure3_slot0 = report;
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 entity = 2;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.hasBit;
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.hasBit;
                 entity = argBar;
-                zulu = zulu.bind(tango)(entity, report);
-                var _closure3_slot1 = zulu;
+                zuuluu = zuuluu.bind(tangon)(entity, report);
+                var _closure3_slot1 = zuuluu;
                 entity = {};
-                entity['isDismissed'] = zulu;
-                mike = function() { // Original name: handleToggleDismissState
+                entity['isDismissed'] = zuuluu;
+                michal = function() { // Original name: handleToggleDismissState
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        zulu = _closure3_slot1;
+                        zuuluu = _closure3_slot1;
                         report = _closure1_slot0;
-                        tango = _closure1_slot1;
+                        tangon = _closure1_slot1;
                         entity = 1;
-                        tango = tango[entity];
+                        tangon = tangon[entity];
                         entity = undefined;
-                        tango = report.bind(entity)(tango);
-                        if(zulu) { _fun00004_ip = 52; continue _fun00003 }
+                        tangon = report.bind(entity)(tangon);
+                        if(zuuluu) { _fun00004_ip = 52; continue _fun00003 }
  35:
-                        report = tango.addDismissedContent;
-                        zulu = _closure3_slot0;
-                        zulu = report.bind(tango)(zulu);
+                        report = tangon.addDismissedContent;
+                        zuuluu = _closure3_slot0;
+                        zuuluu = report.bind(tangon)(zuuluu);
                         _fun00004_ip = 67; continue _fun00003;
  52:
-                        zulu = tango.removeDismissedContent;
-                        mike = _closure3_slot0;
-                        mike = zulu.bind(tango)(mike);
+                        zuuluu = tangon.removeDismissedContent;
+                        michal = _closure3_slot0;
+                        michal = zuuluu.bind(tangon)(michal);
  67:
                         return entity;
                     }
                 };
-                entity['handleToggleDismissState'] = mike;
-                mike = null;
-                entity['recurringDismissibleContentInfo'] = mike;
+                entity['handleToggleDismissState'] = michal;
+                michal = null;
+                entity['recurringDismissibleContentInfo'] = michal;
                 return entity;
             };
             entity = argBar;
-            entity = oscar.bind(tango)(report, entity);
+            entity = oscard.bind(tangon)(report, entity);
             _fun00002_ip = 123; continue _fun00001;
  111:
-            oscar = function(argFoo) { // Original name: toggleTimeRecurringDismissibleContent
+            oscard = function(argFoo) { // Original name: toggleTimeRecurringDismissibleContent
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
                     entity = 0;
-                    entity = zulu[entity];
-                    zulu = undefined;
-                    tango = tango.bind(zulu)(entity);
-                    entity = tango.isTimeRecurringDismissibleContentDismissed;
-                    entity = entity.bind(tango)(report);
+                    entity = zuuluu[entity];
+                    zuuluu = undefined;
+                    tangon = tangon.bind(zuuluu)(entity);
+                    entity = tangon.isTimeRecurringDismissibleContentDismissed;
+                    entity = entity.bind(tangon)(report);
                     report = entity.isDismissed;
                     var _closure3_slot1 = report;
-                    tango = entity.lastDismissedAtMs;
+                    tangon = entity.lastDismissedAtMs;
                     entity = {};
                     entity['isDismissed'] = report;
-                    mike = function() { // Original name: handleToggleDismissState
+                    michal = function() { // Original name: handleToggleDismissState
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                            zulu = _closure3_slot1;
+                            zuuluu = _closure3_slot1;
                             report = _closure1_slot0;
-                            tango = _closure1_slot1;
+                            tangon = _closure1_slot1;
                             entity = 1;
-                            tango = tango[entity];
+                            tangon = tangon[entity];
                             entity = undefined;
-                            tango = report.bind(entity)(tango);
-                            if(zulu) { _fun00008_ip = 52; continue _fun00007 }
+                            tangon = report.bind(entity)(tangon);
+                            if(zuuluu) { _fun00008_ip = 52; continue _fun00007 }
  35:
-                            report = tango.addTimeRecurringDismissedContent;
-                            zulu = _closure3_slot0;
-                            zulu = report.bind(tango)(zulu);
+                            report = tangon.addTimeRecurringDismissedContent;
+                            zuuluu = _closure3_slot0;
+                            zuuluu = report.bind(tangon)(zuuluu);
                             _fun00008_ip = 67; continue _fun00007;
  52:
-                            zulu = tango.removeDismissedRecurringContent;
-                            mike = _closure3_slot0;
-                            mike = zulu.bind(tango)(mike);
+                            zuuluu = tangon.removeDismissedRecurringContent;
+                            michal = _closure3_slot0;
+                            michal = zuuluu.bind(tangon)(michal);
  67:
                             return entity;
                         }
                     };
-                    entity['handleToggleDismissState'] = mike;
-                    mike = {};
-                    mike['lastDismissedVersion'] = zulu;
+                    entity['handleToggleDismissState'] = michal;
+                    michal = {};
+                    michal['lastDismissedVersion'] = zuuluu;
                     report = null;
-                    report = report != tango;
+                    report = report != tangon;
                     if(!report) { _fun00006_ip = 98; continue _fun00005 }
  95:
-                    zulu = tango;
+                    zuuluu = tangon;
  98:
-                    mike['lastDismissedAtMs'] = zulu;
-                    entity['recurringDismissibleContentInfo'] = mike;
+                    michal['lastDismissedAtMs'] = zuuluu;
+                    entity['recurringDismissibleContentInfo'] = michal;
                     return entity;
                 }
             };
-            entity = oscar.bind(tango)(report);
+            entity = oscard.bind(tangon)(report);
  123:
             _fun00002_ip = 169; continue _fun00001;
  125:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 4;
-            zulu = golf[zulu];
-            oscar = oscar.bind(tango)(zulu);
-            zulu = oscar.getVersionedDismissibleContentCurrentVersion;
-            zulu = zulu.bind(oscar)(report);
-            mike = function(argFoo, argBar) { // Original name: toggleVersionedDismissibleContent
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 4;
+            zuuluu = golfie[zuuluu];
+            oscard = oscard.bind(tangon)(zuuluu);
+            zuuluu = oscard.getVersionedDismissibleContentCurrentVersion;
+            zuuluu = zuuluu.bind(oscard)(report);
+            michal = function(argFoo, argBar) { // Original name: toggleVersionedDismissibleContent
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
                     entity = argBar;
                     var _closure3_slot1 = entity;
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
                     entity = 0;
-                    entity = zulu[entity];
-                    zulu = undefined;
-                    tango = tango.bind(zulu)(entity);
-                    entity = tango.isVersionedDismissibleContentDismissed;
-                    entity = entity.bind(tango)(report);
-                    tango = entity.isDismissed;
-                    var _closure3_slot2 = tango;
+                    entity = zuuluu[entity];
+                    zuuluu = undefined;
+                    tangon = tangon.bind(zuuluu)(entity);
+                    entity = tangon.isVersionedDismissibleContentDismissed;
+                    entity = entity.bind(tangon)(report);
+                    tangon = entity.isDismissed;
+                    var _closure3_slot2 = tangon;
                     report = entity.lastDismissedVersion;
                     entity = {};
-                    entity['isDismissed'] = tango;
-                    mike = function() { // Original name: handleToggleDismissState
+                    entity['isDismissed'] = tangon;
+                    michal = function() { // Original name: handleToggleDismissState
                         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                            zulu = _closure3_slot2;
+                            zuuluu = _closure3_slot2;
                             report = _closure1_slot0;
-                            tango = _closure1_slot1;
+                            tangon = _closure1_slot1;
                             entity = 1;
-                            tango = tango[entity];
+                            tangon = tangon[entity];
                             entity = undefined;
-                            tango = report.bind(entity)(tango);
-                            if(zulu) { _fun00012_ip = 57; continue _fun00011 }
+                            tangon = report.bind(entity)(tangon);
+                            if(zuuluu) { _fun00012_ip = 57; continue _fun00011 }
  35:
-                            oscar = tango.addVersionedDismissedContent;
+                            oscard = tangon.addVersionedDismissedContent;
                             report = _closure3_slot0;
-                            zulu = _closure3_slot1;
-                            zulu = oscar.bind(tango)(report, zulu);
+                            zuuluu = _closure3_slot1;
+                            zuuluu = oscard.bind(tangon)(report, zuuluu);
                             _fun00012_ip = 72; continue _fun00011;
  57:
-                            zulu = tango.removeDismissedRecurringContent;
-                            mike = _closure3_slot0;
-                            mike = zulu.bind(tango)(mike);
+                            zuuluu = tangon.removeDismissedRecurringContent;
+                            michal = _closure3_slot0;
+                            michal = zuuluu.bind(tangon)(michal);
  72:
                             return entity;
                         }
                     };
-                    entity['handleToggleDismissState'] = mike;
-                    mike = {};
-                    tango = null;
-                    oscar = tango != report;
-                    tango = undefined;
-                    if(!oscar) { _fun00010_ip = 102; continue _fun00009 }
+                    entity['handleToggleDismissState'] = michal;
+                    michal = {};
+                    tangon = null;
+                    oscard = tangon != report;
+                    tangon = undefined;
+                    if(!oscard) { _fun00010_ip = 102; continue _fun00009 }
  99:
-                    tango = report;
+                    tangon = report;
  102:
-                    mike['lastDismissedVersion'] = tango;
-                    mike['lastDismissedAtMs'] = zulu;
-                    entity['recurringDismissibleContentInfo'] = mike;
+                    michal['lastDismissedVersion'] = tangon;
+                    michal['lastDismissedAtMs'] = zuuluu;
+                    entity['recurringDismissibleContentInfo'] = michal;
                     return entity;
                 }
             };
-            entity = mike.bind(tango)(report, zulu);
+            entity = michal.bind(tangon)(report, zuuluu);
  169:
             return entity;
         }
     };
-    zulu['toggleDismissibleContentDismissState'] = mike;
+    zuuluu['toggleDismissibleContentDismissState'] = michal;
     return entity;
 })();

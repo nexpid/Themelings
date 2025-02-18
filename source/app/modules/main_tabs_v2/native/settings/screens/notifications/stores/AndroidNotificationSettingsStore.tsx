@@ -1,104 +1,104 @@
 // app/modules/main_tabs_v2/native/settings/screens/notifications/stores/AndroidNotificationSettingsStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _initializeAndroidNotificationSettingsStore
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 298; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 298; continue _fun00001 }
  12:
-                    mike = undefined;
-                    var _closure4_slot0 = mike;
-                    var _closure4_slot1 = mike;
-                    var _closure4_slot2 = mike;
-                    var _closure4_slot3 = mike;
-                    tango = _closure1_slot0;
+                    michal = undefined;
+                    var _closure4_slot0 = michal;
+                    var _closure4_slot1 = michal;
+                    var _closure4_slot2 = michal;
+                    var _closure4_slot3 = michal;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    zulu = 2;
-                    zulu = report[zulu];
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.isAndroid;
-                    zulu = zulu.bind(tango)();
-                    if(!zulu) { _fun00002_ip = 295; continue _fun00001 }
+                    zuuluu = 2;
+                    zuuluu = report[zuuluu];
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.isAndroid;
+                    zuuluu = zuuluu.bind(tangon)();
+                    if(!zuuluu) { _fun00002_ip = 295; continue _fun00001 }
  68: // try_start_0
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
                     offset = 3;
-                    zulu = zulu[offset];
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.getLightsEnabled;
-                    zulu = zulu.bind(tango)();
+                    zuuluu = zuuluu[offset];
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.getLightsEnabled;
+                    zuuluu = zuuluu.bind(tangon)();
                     SaveGenerator(address=102);
  100:
-                    return zulu;
+                    return zuuluu;
  102:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 290; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 290; continue _fun00001 }
  111:
-                    _closure4_slot0 = zulu;
+                    _closure4_slot0 = zuuluu;
                     report = _closure1_slot1;
-                    tango = _closure1_slot2;
-                    tango = tango[offset];
-                    report = report.bind(mike)(tango);
-                    tango = report.getVibrationsEnabled;
-                    tango = tango.bind(report)();
+                    tangon = _closure1_slot2;
+                    tangon = tangon[offset];
+                    report = report.bind(michal)(tangon);
+                    tangon = report.getVibrationsEnabled;
+                    tangon = tangon.bind(report)();
                     SaveGenerator(address=146);
  144:
-                    return tango;
+                    return tangon;
  146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 287; continue _fun00001 }
  155:
-                    _closure4_slot1 = tango;
-                    oscar = _closure1_slot1;
+                    _closure4_slot1 = tangon;
+                    oscard = _closure1_slot1;
                     report = _closure1_slot2;
                     report = report[offset];
-                    oscar = oscar.bind(mike)(report);
-                    report = oscar.getSoundsEnabled;
-                    report = report.bind(oscar)();
+                    oscard = oscard.bind(michal)(report);
+                    report = oscard.getSoundsEnabled;
+                    report = report.bind(oscard)();
                     SaveGenerator(address=190);
  188:
                     return report;
  190:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 284; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 284; continue _fun00001 }
  196:
                     _closure4_slot2 = report;
                     verify = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    oscar = oscar[offset];
-                    verify = verify.bind(mike)(oscar);
-                    oscar = verify.shouldAndroidNotifyEveryTime;
-                    oscar = oscar.bind(verify)();
+                    oscard = _closure1_slot2;
+                    oscard = oscard[offset];
+                    verify = verify.bind(michal)(oscard);
+                    oscard = verify.shouldAndroidNotifyEveryTime;
+                    oscard = oscard.bind(verify)();
                     SaveGenerator(address=231);
  229:
-                    return oscar;
+                    return oscard;
  231:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
                     if(verify) { _fun00002_ip = 281; continue _fun00001 }
  237:
-                    _closure4_slot3 = oscar;
+                    _closure4_slot3 = oscard;
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
-                    options = 4;
-                    options = offset[options];
-                    verify = verify.bind(mike)(options);
-                    options = verify.batchUpdates;
-                    golf = function() {
-                        zulu = _closure1_slot4;
-                        mike = zulu.setState;
+                    option = 4;
+                    option = offset[option];
+                    verify = verify.bind(michal)(option);
+                    option = verify.batchUpdates;
+                    golfie = function() {
+                        zuuluu = _closure1_slot4;
+                        michal = zuuluu.setState;
                         entity = {};
                         report = _closure4_slot0;
                         entity['isLightsEnabled'] = report;
@@ -106,275 +106,275 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         entity['isVibrationsEnabled'] = report;
                         report = _closure4_slot2;
                         entity['isSoundsEnabled'] = report;
-                        tango = _closure4_slot3;
-                        entity['isNotifyEveryTime'] = tango;
-                        entity = mike.bind(zulu)(entity);
+                        tangon = _closure4_slot3;
+                        entity['isNotifyEveryTime'] = tangon;
+                        entity = michal.bind(zuuluu)(entity);
                         entity = undefined;
                         return entity;
                     };
-                    golf = options.bind(verify)(golf);
+                    golfie = option.bind(verify)(golfie);
  279: // try_end0
                     _fun00002_ip = 295; continue _fun00001;
  281:
-                    return oscar;
+                    return oscard;
  284:
                     return report;
  287:
-                    return tango;
+                    return tangon;
  290:
-                    return zulu;
+                    return zuuluu;
  293: // catch_target0
                     CatchBlockStart(arg_register=2);
  295:
-                    return mike;
+                    return michal;
  298:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createWithEqualityFn;
-    tango = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createWithEqualityFn;
+    tangon = function() {
         entity = {};
-        mike = undefined;
-        entity['isLightsEnabled'] = mike;
-        entity['isVibrationsEnabled'] = mike;
-        entity['isSoundsEnabled'] = mike;
-        entity['isNotifyEveryTime'] = mike;
+        michal = undefined;
+        entity['isLightsEnabled'] = michal;
+        entity['isVibrationsEnabled'] = michal;
+        entity['isSoundsEnabled'] = michal;
+        entity['isNotifyEveryTime'] = michal;
         return entity;
     };
-    tango = golf.bind(options)(tango);
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/screens/notifications/stores/AndroidNotificationSettingsStore.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: initializeAndroidNotificationSettingsStore
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/screens/notifications/stores/AndroidNotificationSettingsStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: initializeAndroidNotificationSettingsStore
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['initializeAndroidNotificationSettingsStore'] = tango;
-    tango = function() { // Original name: useAndroidNotificationLightsEnabled
-        tango = _closure1_slot4;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['initializeAndroidNotificationSettingsStore'] = tangon;
+    tangon = function() { // Original name: useAndroidNotificationLightsEnabled
+        tangon = _closure1_slot4;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        entity = zulu[entity];
-        zulu = undefined;
-        entity = mike.bind(zulu)(entity);
-        mike = entity.shallow;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.shallow;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isLightsEnabled;
             return entity;
         };
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['useAndroidNotificationLightsEnabled'] = tango;
-    tango = function(argFoo) { // Original name: setAndroidNotificationLightsEnabled
-        tango = argFoo;
-        var _closure2_slot0 = tango;
-        golf = _closure1_slot0;
+    zuuluu['useAndroidNotificationLightsEnabled'] = tangon;
+    tangon = function(argFoo) { // Original name: setAndroidNotificationLightsEnabled
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot0;
         report = _closure1_slot2;
         entity = 4;
-        oscar = report[entity];
+        oscard = report[entity];
         entity = undefined;
-        golf = golf.bind(entity)(oscar);
-        oscar = golf.batchUpdates;
-        zulu = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        golfie = golfie.bind(entity)(oscard);
+        oscard = golfie.batchUpdates;
+        zuuluu = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isLightsEnabled'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isLightsEnabled'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu = oscar.bind(golf)(zulu);
-        zulu = _closure1_slot1;
-        mike = 3;
-        mike = report[mike];
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.setLightsEnabled;
-        mike = mike.bind(zulu)(tango);
+        zuuluu = oscard.bind(golfie)(zuuluu);
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        michal = report[michal];
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.setLightsEnabled;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
-    zulu['setAndroidNotificationLightsEnabled'] = tango;
-    tango = function() { // Original name: useAndroidNotificationVibrationsEnabled
-        tango = _closure1_slot4;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['setAndroidNotificationLightsEnabled'] = tangon;
+    tangon = function() { // Original name: useAndroidNotificationVibrationsEnabled
+        tangon = _closure1_slot4;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        entity = zulu[entity];
-        zulu = undefined;
-        entity = mike.bind(zulu)(entity);
-        mike = entity.shallow;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.shallow;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isVibrationsEnabled;
             return entity;
         };
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['useAndroidNotificationVibrationsEnabled'] = tango;
-    tango = function(argFoo) { // Original name: setAndroidNotificationVibrationsEnabled
-        tango = argFoo;
-        var _closure2_slot0 = tango;
-        golf = _closure1_slot0;
+    zuuluu['useAndroidNotificationVibrationsEnabled'] = tangon;
+    tangon = function(argFoo) { // Original name: setAndroidNotificationVibrationsEnabled
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot0;
         report = _closure1_slot2;
         entity = 4;
-        oscar = report[entity];
+        oscard = report[entity];
         entity = undefined;
-        golf = golf.bind(entity)(oscar);
-        oscar = golf.batchUpdates;
-        zulu = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        golfie = golfie.bind(entity)(oscard);
+        oscard = golfie.batchUpdates;
+        zuuluu = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isVibrationsEnabled'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isVibrationsEnabled'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu = oscar.bind(golf)(zulu);
-        zulu = _closure1_slot1;
-        mike = 3;
-        mike = report[mike];
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.setVibrationsEnabled;
-        mike = mike.bind(zulu)(tango);
+        zuuluu = oscard.bind(golfie)(zuuluu);
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        michal = report[michal];
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.setVibrationsEnabled;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
-    zulu['setAndroidNotificationVibrationsEnabled'] = tango;
-    tango = function() { // Original name: useAndroidNotificationSoundsEnabled
-        tango = _closure1_slot4;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['setAndroidNotificationVibrationsEnabled'] = tangon;
+    tangon = function() { // Original name: useAndroidNotificationSoundsEnabled
+        tangon = _closure1_slot4;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        entity = zulu[entity];
-        zulu = undefined;
-        entity = mike.bind(zulu)(entity);
-        mike = entity.shallow;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.shallow;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isSoundsEnabled;
             return entity;
         };
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['useAndroidNotificationSoundsEnabled'] = tango;
-    tango = function(argFoo) { // Original name: setAndroidNotificationSoundsEnabled
-        tango = argFoo;
-        var _closure2_slot0 = tango;
-        golf = _closure1_slot0;
+    zuuluu['useAndroidNotificationSoundsEnabled'] = tangon;
+    tangon = function(argFoo) { // Original name: setAndroidNotificationSoundsEnabled
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot0;
         report = _closure1_slot2;
         entity = 4;
-        oscar = report[entity];
+        oscard = report[entity];
         entity = undefined;
-        golf = golf.bind(entity)(oscar);
-        oscar = golf.batchUpdates;
-        zulu = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        golfie = golfie.bind(entity)(oscard);
+        oscard = golfie.batchUpdates;
+        zuuluu = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isSoundsEnabled'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isSoundsEnabled'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu = oscar.bind(golf)(zulu);
-        zulu = _closure1_slot1;
-        mike = 3;
-        mike = report[mike];
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.setSoundsEnabled;
-        mike = mike.bind(zulu)(tango);
+        zuuluu = oscard.bind(golfie)(zuuluu);
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        michal = report[michal];
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.setSoundsEnabled;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
-    zulu['setAndroidNotificationSoundsEnabled'] = tango;
-    tango = function() { // Original name: useAndroidMessageNotificationsEnabled
-        tango = _closure1_slot4;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['setAndroidNotificationSoundsEnabled'] = tangon;
+    tangon = function() { // Original name: useAndroidMessageNotificationsEnabled
+        tangon = _closure1_slot4;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        entity = zulu[entity];
-        zulu = undefined;
-        entity = mike.bind(zulu)(entity);
-        mike = entity.shallow;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.shallow;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isNotifyEveryTime;
             return entity;
         };
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['useAndroidMessageNotificationsEnabled'] = tango;
-    mike = function(argFoo) { // Original name: setAndroidMessageNotificationsEnabled
-        tango = argFoo;
-        var _closure2_slot0 = tango;
-        golf = _closure1_slot0;
+    zuuluu['useAndroidMessageNotificationsEnabled'] = tangon;
+    michal = function(argFoo) { // Original name: setAndroidMessageNotificationsEnabled
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot0;
         report = _closure1_slot2;
         entity = 4;
-        oscar = report[entity];
+        oscard = report[entity];
         entity = undefined;
-        golf = golf.bind(entity)(oscar);
-        oscar = golf.batchUpdates;
-        zulu = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        golfie = golfie.bind(entity)(oscard);
+        oscard = golfie.batchUpdates;
+        zuuluu = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isNotifyEveryTime'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isNotifyEveryTime'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu = oscar.bind(golf)(zulu);
-        zulu = _closure1_slot1;
-        mike = 3;
-        mike = report[mike];
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.setAndroidNotifyEveryTime;
-        mike = mike.bind(zulu)(tango);
+        zuuluu = oscard.bind(golfie)(zuuluu);
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        michal = report[michal];
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.setAndroidNotifyEveryTime;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
-    zulu['setAndroidMessageNotificationsEnabled'] = mike;
+    zuuluu['setAndroidMessageNotificationsEnabled'] = michal;
     return entity;
 })();

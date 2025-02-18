@@ -1,207 +1,207 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = {};
-    tango = 'function getHorizontalOrVerticalStartPoint_getGradientStartPontTsx1(angle,width,height){switch(angle){case 0:return[-width/2,0];case 90:return[0,-height/2];case 180:return[width/2,0];default:return[0,height/2];}}';
-    entity['code'] = tango;
+    tangon = 'function getHorizontalOrVerticalStartPoint_getGradientStartPontTsx1(angle,width,height){switch(angle){case 0:return[-width/2,0];case 90:return[0,-height/2];case 180:return[width/2,0];default:return[0,height/2];}}';
+    entity['code'] = tangon;
     var _closure1_slot0 = entity;
-    tango = function() {
+    tangon = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: getHorizontalOrVerticalStartPoint
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 entity = argBar;
-                zulu = argBaz;
-                mike = 0;
-                if(!(mike !== report)) { _fun00002_ip = 99; continue _fun00001 }
+                zuuluu = argBaz;
+                michal = 0;
+                if(!(michal !== report)) { _fun00002_ip = 99; continue _fun00001 }
  15:
-                tango = 90;
-                if(!(tango !== report)) { _fun00002_ip = 73; continue _fun00001 }
+                tangon = 90;
+                if(!(tangon !== report)) { _fun00002_ip = 73; continue _fun00001 }
  22:
-                tango = 180;
-                if(!(tango !== report)) { _fun00002_ip = 52; continue _fun00001 }
+                tangon = 180;
+                if(!(tangon !== report)) { _fun00002_ip = 52; continue _fun00001 }
  29:
-                tango = 2;
-                report = zulu / tango;
-                tango = [0];
-                tango[1] = report;
-                return tango;
+                tangon = 2;
+                report = zuuluu / tangon;
+                tangon = [0];
+                tangon[1] = report;
+                return tangon;
  52:
-                tango = 2;
-                report = entity / tango;
-                tango = new Array(2);
-                tango[0] = report;
-                tango[1] = mike;
-                return tango;
+                tangon = 2;
+                report = entity / tangon;
+                tangon = new Array(2);
+                tangon[0] = report;
+                tangon[1] = michal;
+                return tangon;
  73:
-                tango = -zulu;
-                zulu = 2;
-                tango = tango / zulu;
-                zulu = [0];
-                zulu[1] = tango;
-                return zulu;
+                tangon = -zuuluu;
+                zuuluu = 2;
+                tangon = tangon / zuuluu;
+                zuuluu = [0];
+                zuuluu[1] = tangon;
+                return zuuluu;
  99:
-                zulu = -entity;
+                zuuluu = -entity;
                 entity = 2;
-                zulu = zulu / entity;
+                zuuluu = zuuluu / entity;
                 entity = new Array(2);
-                entity[0] = zulu;
-                entity[1] = mike;
+                entity[0] = zuuluu;
+                entity[1] = michal;
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 16439230263550.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot0;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 16439230263550.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot0;
+        entity['__initData'] = michal;
         return entity;
     };
     entity = undefined;
-    golf = tango.bind(entity)();
-    var _closure1_slot1 = golf;
-    tango = {};
+    golfie = tangon.bind(entity)();
+    var _closure1_slot1 = golfie;
+    tangon = {};
     report = 'function getStartCornerToIntersect_getGradientStartPontTsx2(angle,width,height){const w=width/2;const h=height/2;if(angle<90){return[-w,-h];}else if(angle<180){return[w,-h];}else if(angle<270){return[w,h];}else{return[-w,h];}}';
-    tango['code'] = report;
-    var _closure1_slot2 = tango;
-    tango = function() {
+    tangon['code'] = report;
+    var _closure1_slot2 = tangon;
+    tangon = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: getStartCornerToIntersect
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = argBar;
-                zulu = 2;
-                tango = entity / zulu;
+                zuuluu = 2;
+                tangon = entity / zuuluu;
                 entity = argBaz;
-                zulu = entity / zulu;
+                zuuluu = entity / zuuluu;
                 entity = 90;
-                if(!(!(mike < entity))) { _fun00004_ip = 98; continue _fun00003 }
+                if(!(!(michal < entity))) { _fun00004_ip = 98; continue _fun00003 }
  27:
                 entity = 180;
-                if(!(!(mike < entity))) { _fun00004_ip = 78; continue _fun00003 }
+                if(!(!(michal < entity))) { _fun00004_ip = 78; continue _fun00003 }
  34:
                 entity = 270;
-                if(!(!(mike < entity))) { _fun00004_ip = 61; continue _fun00003 }
+                if(!(!(michal < entity))) { _fun00004_ip = 61; continue _fun00003 }
  44:
                 entity = new Array(2);
-                mike = -tango;
-                entity[0] = mike;
-                entity[1] = zulu;
+                michal = -tangon;
+                entity[0] = michal;
+                entity[1] = zuuluu;
                 _fun00004_ip = 76; continue _fun00003;
  61:
-                mike = new Array(2);
-                mike[0] = tango;
-                mike[1] = zulu;
-                entity = mike;
+                michal = new Array(2);
+                michal[0] = tangon;
+                michal[1] = zuuluu;
+                entity = michal;
  76:
                 _fun00004_ip = 96; continue _fun00003;
  78:
-                mike = new Array(2);
-                mike[0] = tango;
-                report = -zulu;
-                mike[1] = report;
-                entity = mike;
+                michal = new Array(2);
+                michal[0] = tangon;
+                report = -zuuluu;
+                michal[1] = report;
+                entity = michal;
  96:
                 _fun00004_ip = 119; continue _fun00003;
  98:
-                mike = new Array(2);
-                tango = -tango;
-                mike[0] = tango;
-                zulu = -zulu;
-                mike[1] = zulu;
-                entity = mike;
+                michal = new Array(2);
+                tangon = -tangon;
+                michal[0] = tangon;
+                zuuluu = -zuuluu;
+                michal[1] = zuuluu;
+                entity = michal;
  119:
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 2348332324573.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot2;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 2348332324573.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot2;
+        entity['__initData'] = michal;
         return entity;
     };
-    oscar = tango.bind(entity)();
-    var _closure1_slot3 = oscar;
-    tango = {};
+    oscard = tangon.bind(entity)();
+    var _closure1_slot3 = oscard;
+    tangon = {};
     report = 'function getGradientStartPoint_getGradientStartPontTsx3(angle,width,height){const{getHorizontalOrVerticalStartPoint,getStartCornerToIntersect}=this.__closure;angle=angle%360;if(angle<0){angle+=360;}if(angle%90===0){return getHorizontalOrVerticalStartPoint(angle,width,height);}const slope=Math.tan(angle*Math.PI/180);const perpendicularSlope=-1/slope;const startCorner=getStartCornerToIntersect(angle,width,height);const b=startCorner[1]-perpendicularSlope*startCorner[0];const startX=b/(slope-perpendicularSlope);const startY=slope*startX;return[startX,startY];}';
-    tango['code'] = report;
-    mike = function(argFoo, argBar, argBaz) { // Original name: t
+    tangon['code'] = report;
+    michal = function(argFoo, argBar, argBaz) { // Original name: t
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argBar;
-            tango = argBaz;
+            tangon = argBaz;
             entity = argFoo;
-            mike = 360;
-            entity = entity % mike;
-            options = 0;
-            zulu = entity;
-            if(!(zulu < options)) { _fun00006_ip = 32; continue _fun00005 }
+            michal = 360;
+            entity = entity % michal;
+            option = 0;
+            zuuluu = entity;
+            if(!(zuuluu < option)) { _fun00006_ip = 32; continue _fun00005 }
  28:
-            zulu = entity + mike;
+            zuuluu = entity + michal;
  32:
             entity = 90;
-            entity = zulu % entity;
-            if(!(entity !== options)) { _fun00006_ip = 156; continue _fun00005 }
+            entity = zuuluu % entity;
+            if(!(entity !== option)) { _fun00006_ip = 156; continue _fun00005 }
  43:
             entity = global;
-            oscar = entity.Math;
-            mike = oscar.tan;
+            oscard = entity.Math;
+            michal = oscard.tan;
             entity = entity.Math;
             entity = entity.PI;
-            golf = zulu * entity;
+            golfie = zuuluu * entity;
             entity = 180;
-            entity = golf / entity;
-            oscar = mike.bind(oscar)(entity);
+            entity = golfie / entity;
+            oscard = michal.bind(oscard)(entity);
             entity = -1;
-            entity = entity / oscar;
-            golf = _closure1_slot3;
-            mike = undefined;
-            mike = golf.bind(mike)(zulu, report, tango);
-            golf = 1;
-            golf = mike[golf];
-            mike = mike[options];
-            mike = entity * mike;
-            mike = golf - mike;
-            entity = oscar - entity;
-            mike = mike / entity;
+            entity = entity / oscard;
+            golfie = _closure1_slot3;
+            michal = undefined;
+            michal = golfie.bind(michal)(zuuluu, report, tangon);
+            golfie = 1;
+            golfie = michal[golfie];
+            michal = michal[option];
+            michal = entity * michal;
+            michal = golfie - michal;
+            entity = oscard - entity;
+            michal = michal / entity;
             entity = new Array(2);
-            entity[0] = mike;
-            mike = oscar * mike;
-            entity[1] = mike;
+            entity[0] = michal;
+            michal = oscard * michal;
+            entity[1] = michal;
             return entity;
  156:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = undefined;
-            entity = mike.bind(entity)(zulu, report, tango);
+            entity = michal.bind(entity)(zuuluu, report, tangon);
             return entity;
         }
     };
     report = {};
-    report['getHorizontalOrVerticalStartPoint'] = golf;
-    report['getStartCornerToIntersect'] = oscar;
-    mike['__closure'] = report;
+    report['getHorizontalOrVerticalStartPoint'] = golfie;
+    report['getStartCornerToIntersect'] = oscard;
+    michal['__closure'] = report;
     report = 11244204401624.0;
-    mike['__workletHash'] = report;
-    mike['__initData'] = tango;
-    report = argPlugh;
-    tango = 0;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['__workletHash'] = report;
+    michal['__initData'] = tangon;
+    report = argPlu;
+    tangon = 0;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

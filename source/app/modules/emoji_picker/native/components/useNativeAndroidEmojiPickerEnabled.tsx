@@ -1,60 +1,60 @@
 // app/modules/emoji_picker/native/components/useNativeAndroidEmojiPickerEnabled.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emoji_picker/native/components/useNativeAndroidEmojiPickerEnabled.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useNativeAndroidEmojiPickerEnabled
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emoji_picker/native/components/useNativeAndroidEmojiPickerEnabled.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useNativeAndroidEmojiPickerEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.isAndroid;
-            entity = entity.bind(zulu)();
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.isAndroid;
+            entity = entity.bind(zuuluu)();
             if(!entity) { _fun00002_ip = 88; continue _fun00001 }
  37:
-            tango = _closure1_slot1;
-            oscar = _closure1_slot2;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.database;
+            tangon = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.database;
             report = _closure1_slot3;
-            mike = report.getId;
-            mike = mike.bind(report)();
-            zulu = zulu.bind(tango)(mike);
-            mike = null;
-            entity = mike != zulu;
+            michal = report.getId;
+            michal = michal.bind(report)();
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = null;
+            entity = michal != zuuluu;
  88:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,187 +1,187 @@
 // app/modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.AnalyticEvents;
-    var _closure1_slot2 = golf;
-    tango = tango.ChannelTypes;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.StaticChannelRoute;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getClickstreamTrackEvent
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AnalyticEvents;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.ChannelTypes;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.StaticChannelRoute;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getClickstreamTrackEvent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = argBar;
-            mike = _closure1_slot2;
-            mike = mike.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun00002_ip = 274; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.CHANNEL_OPENED_CLICKSTREAM;
+            if(!(michal !== oscard)) { _fun00002_ip = 274; continue _fun00001 }
  26:
-            mike = _closure1_slot2;
-            mike = mike.GUILD_VIEWED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun00002_ip = 209; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.GUILD_VIEWED_CLICKSTREAM;
+            if(!(michal !== oscard)) { _fun00002_ip = 209; continue _fun00001 }
  43:
-            mike = _closure1_slot2;
-            mike = mike.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun00002_ip = 109; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.FRIENDS_LIST_VIEWED_CLICKSTREAM;
+            if(!(michal !== oscard)) { _fun00002_ip = 109; continue _fun00001 }
  57:
-            mike = global;
-            report = mike.Error;
-            mike = mike.HermesInternal;
-            zulu = mike.concat;
-            mike = 'getClickstreamTrackEvent: Unknown event: ';
-            golf = zulu.bind(mike)(oscar);
-            zulu = report.prototype;
-            zulu = Object.create(zulu, {constructor: {value: report}});
-            options = zulu;
-            mike = new options[report](golf, oscar);
-            mike = mike instanceof Object ? mike : zulu;
-            throw mike;
+            michal = global;
+            report = michal.Error;
+            michal = michal.HermesInternal;
+            zuuluu = michal.concat;
+            michal = 'getClickstreamTrackEvent: Unknown event: ';
+            golfie = zuuluu.bind(michal)(oscard);
+            zuuluu = report.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: report}});
+            option = zuuluu;
+            michal = new option[report](golfie, oscard);
+            michal = michal instanceof Object ? michal : zuuluu;
+            throw michal;
  109:
-            mike = {};
-            zulu = global;
-            zulu = zulu.Date;
-            report = zulu.prototype;
-            report = Object.create(report, {constructor: {value: zulu}});
-            options = report;
-            zulu = new options[zulu](golf);
-            zulu = zulu instanceof Object ? zulu : report;
-            mike['timestamp'] = zulu;
+            michal = {};
+            zuuluu = global;
+            zuuluu = zuuluu.Date;
+            report = zuuluu.prototype;
+            report = Object.create(report, {constructor: {value: zuuluu}});
+            option = report;
+            zuuluu = new option[zuuluu](golfie);
+            zuuluu = zuuluu instanceof Object ? zuuluu : report;
+            michal['timestamp'] = zuuluu;
             report = _closure1_slot1;
-            zulu = report.getState;
-            zulu = zulu.bind(report)();
-            mike['rtc_state'] = zulu;
-            zulu = entity.tab_opened;
-            mike['tab_opened'] = zulu;
-            zulu = entity.num_friends;
-            mike['num_friends'] = zulu;
-            zulu = entity.now_playing_visible;
-            mike['now_playing_visible'] = zulu;
-            zulu = entity.now_playing_num_cards;
-            mike['now_playing_num_cards'] = zulu;
-            return mike;
+            zuuluu = report.getState;
+            zuuluu = zuuluu.bind(report)();
+            michal['rtc_state'] = zuuluu;
+            zuuluu = entity.tab_opened;
+            michal['tab_opened'] = zuuluu;
+            zuuluu = entity.num_friends;
+            michal['num_friends'] = zuuluu;
+            zuuluu = entity.now_playing_visible;
+            michal['now_playing_visible'] = zuuluu;
+            zuuluu = entity.now_playing_num_cards;
+            michal['now_playing_num_cards'] = zuuluu;
+            return michal;
  209:
-            zulu = entity.guildId;
-            mike = {};
+            zuuluu = entity.guildId;
+            michal = {};
             report = global;
             report = report.Date;
-            oscar = report.prototype;
-            oscar = Object.create(oscar, {constructor: {value: report}});
-            options = oscar;
-            report = new options[report](golf);
-            report = report instanceof Object ? report : oscar;
-            mike['timestamp'] = report;
-            oscar = _closure1_slot1;
-            report = oscar.getState;
-            report = report.bind(oscar)();
-            mike['rtc_state'] = report;
-            mike['guildId'] = zulu;
-            return mike;
+            oscard = report.prototype;
+            oscard = Object.create(oscard, {constructor: {value: report}});
+            option = oscard;
+            report = new option[report](golfie);
+            report = report instanceof Object ? report : oscard;
+            michal['timestamp'] = report;
+            oscard = _closure1_slot1;
+            report = oscard.getState;
+            report = report.bind(oscard)();
+            michal['rtc_state'] = report;
+            michal['guildId'] = zuuluu;
+            return michal;
  274:
-            zulu = entity.channelId;
+            zuuluu = entity.channelId;
             entity = _closure1_slot4;
             entity = entity.CHANNEL_BROWSER;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  296:
             entity = _closure1_slot4;
             entity = entity.GUILD_HOME;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  313:
             entity = _closure1_slot4;
             entity = entity.GUILD_SHOP;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  330:
             entity = _closure1_slot4;
             entity = entity.MEMBER_APPLICATIONS;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  347:
             entity = _closure1_slot4;
             entity = entity.ROLE_SUBSCRIPTIONS;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  364:
             entity = _closure1_slot4;
             entity = entity.CUSTOMIZE_COMMUNITY;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  381:
             entity = _closure1_slot4;
             entity = entity.MEMBER_SAFETY;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  398:
             entity = _closure1_slot4;
             entity = entity.GUILD_ONBOARDING;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  415:
             entity = _closure1_slot4;
             entity = entity.GUILD_BOOSTS;
-            if(!(entity !== zulu)) { _fun00002_ip = 538; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
  429:
-            mike = _closure1_slot0;
-            entity = mike.getChannel;
-            report = entity.bind(mike)(zulu);
+            michal = _closure1_slot0;
+            entity = michal.getChannel;
+            report = entity.bind(michal)(zuuluu);
             entity = null;
-            oscar = entity == report;
-            mike = undefined;
-            if(oscar) { _fun00002_ip = 459; continue _fun00001 }
+            oscard = entity == report;
+            michal = undefined;
+            if(oscard) { _fun00002_ip = 459; continue _fun00001 }
  454:
-            mike = report.type;
+            michal = report.type;
  459:
-            if(!(entity == mike)) { _fun00002_ip = 473; continue _fun00001 }
+            if(!(entity == michal)) { _fun00002_ip = 473; continue _fun00001 }
  463:
             entity = _closure1_slot3;
-            mike = entity.UNKNOWN;
+            michal = entity.UNKNOWN;
  473:
             entity = {};
             report = global;
             report = report.Date;
-            oscar = report.prototype;
-            oscar = Object.create(oscar, {constructor: {value: report}});
-            options = oscar;
-            report = new options[report](golf);
-            report = report instanceof Object ? report : oscar;
+            oscard = report.prototype;
+            oscard = Object.create(oscard, {constructor: {value: report}});
+            option = oscard;
+            report = new option[report](golfie);
+            report = report instanceof Object ? report : oscard;
             entity['timestamp'] = report;
             report = _closure1_slot1;
-            tango = report.getState;
-            tango = tango.bind(report)();
-            entity['rtc_state'] = tango;
-            entity['channelId'] = zulu;
-            entity['channelType'] = mike;
+            tangon = report.getState;
+            tangon = tangon.bind(report)();
+            entity['rtc_state'] = tangon;
+            entity['channelId'] = zuuluu;
+            entity['channelType'] = michal;
             return entity;
  538:
             entity = undefined;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

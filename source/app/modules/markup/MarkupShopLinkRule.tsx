@@ -1,96 +1,96 @@
 // app/modules/markup/MarkupShopLinkRule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = options.bind(verify)(zulu, mike, tango);
-    tango = entity.RegExp;
-    entity = tango.prototype;
-    mike = Object.create(entity, {constructor: {value: tango}});
-    romeo = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?.com|staging\\.discord\\.co)/shop#itemSkuId=(\\d+)?';
-    foxtrot = mike;
-    entity = new foxtrot[tango](romeo, yankee);
-    entity = entity instanceof Object ? entity : mike;
+    option = verify.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = option.bind(verify)(zuuluu, michal, tangon);
+    tangon = entity.RegExp;
+    entity = tangon.prototype;
+    michal = Object.create(entity, {constructor: {value: tangon}});
+    romeon = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?.com|staging\\.discord\\.co)/shop#itemSkuId=(\\d+)?';
+    foxtra = michal;
+    entity = new foxtra[tangon](romeon, yankee);
+    entity = entity instanceof Object ? entity : michal;
     var _closure1_slot2 = entity;
-    mike = {};
-    tango = {};
+    michal = {};
+    tangon = {};
     entity = 0;
-    verify = oscar[entity];
-    options = argBaz;
+    verify = oscard[entity];
+    option = argBaz;
     entity = undefined;
-    options = options.bind(entity)(verify);
-    options = options.defaultRules;
-    options = options.url;
-    verify = options.order;
-    options = 0.5;
-    options = verify - options;
-    tango['order'] = options;
-    options = ['h'];
-    tango['requiredFirstCharacters'] = options;
-    options = function(argFoo) { // Original name: match
+    option = option.bind(entity)(verify);
+    option = option.defaultRules;
+    option = option.url;
+    verify = option.order;
+    option = 0.5;
+    option = verify - option;
+    tangon['order'] = option;
+    option = ['h'];
+    tangon['requiredFirstCharacters'] = option;
+    option = function(argFoo) { // Original name: match
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            mike = tango.exec;
+            tangon = _closure1_slot2;
+            michal = tangon.exec;
             entity = argFoo;
-            entity = mike.bind(tango)(entity);
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 71; continue _fun00001 }
+            entity = michal.bind(tangon)(entity);
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 71; continue _fun00001 }
  27:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 1;
-            tango = tango[zulu];
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
-            tango = report.getCollectiblesShopLinkMentionEnabled;
-            zulu = 'MarkupShopLinkRule';
-            zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun00002_ip = 71; continue _fun00001 }
+            tangon = _closure1_slot1;
+            zuuluu = 1;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.getCollectiblesShopLinkMentionEnabled;
+            zuuluu = 'MarkupShopLinkRule';
+            zuuluu = tangon.bind(report)(zuuluu);
+            if(zuuluu) { _fun00002_ip = 71; continue _fun00001 }
  69:
-            return mike;
+            return michal;
  71:
             return entity;
         }
     };
-    tango['match'] = options;
-    golf = function(argFoo) { // Original name: parse
-        mike = argFoo;
+    tangon['match'] = option;
+    golfie = function(argFoo) { // Original name: parse
+        michal = argFoo;
         entity = 0;
-        zulu = mike[entity];
+        zuuluu = michal[entity];
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = {};
-        tango = 'shopLink';
-        entity['type'] = tango;
+        tangon = 'shopLink';
+        entity['type'] = tangon;
         report = {};
-        tango = 'text';
-        report['type'] = tango;
-        report['content'] = mike;
-        tango = new Array(1);
-        tango[0] = report;
-        entity['content'] = tango;
-        entity['shopLink'] = zulu;
-        entity['skuId'] = mike;
+        tangon = 'text';
+        report['type'] = tangon;
+        report['content'] = michal;
+        tangon = new Array(1);
+        tangon[0] = report;
+        entity['content'] = tangon;
+        entity['shopLink'] = zuuluu;
+        entity['skuId'] = michal;
         return entity;
     };
-    tango['parse'] = golf;
-    mike['shopLink'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/MarkupShopLinkRule.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    tangon['parse'] = golfie;
+    michal['shopLink'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/MarkupShopLinkRule.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

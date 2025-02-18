@@ -1,40 +1,40 @@
 // app/modules/voice_chat/native/VoiceChatModalContext.tsx
-export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = argPlugh;
+export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    report = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    report = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(golf)(zulu, entity, tango);
+    entity = report.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    report = oscar[entity];
-    tango = argCorge;
+    report = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    golf = tango.bind(entity)(report);
-    var _closure1_slot0 = golf;
-    report = golf.createContext;
-    tango = null;
-    tango = report.bind(golf)(tango);
-    var _closure1_slot1 = tango;
+    golfie = tangon.bind(entity)(report);
+    var _closure1_slot0 = golfie;
+    report = golfie.createContext;
+    tangon = null;
+    tangon = report.bind(golfie)(tangon);
+    var _closure1_slot1 = tangon;
     report = 1;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/voice_chat/native/VoiceChatModalContext.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['VoiceChatNavigationContext'] = tango;
-    mike = function() { // Original name: useVoiceChatNavigationContext
-        zulu = _closure1_slot0;
-        mike = zulu.useContext;
+    report = oscard.bind(golfie)(report);
+    zuuluu['VoiceChatNavigationContext'] = tangon;
+    michal = function() { // Original name: useVoiceChatNavigationContext
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.useContext;
         entity = _closure1_slot1;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['useVoiceChatNavigationContext'] = mike;
+    zuuluu['useVoiceChatNavigationContext'] = michal;
     return entity;
 })();

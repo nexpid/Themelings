@@ -1,104 +1,104 @@
 // app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: PressableNavigatorModalIcon
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: PressableNavigatorModalIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.navigation;
+            michal = entity.navigation;
             verify = entity.onPress;
-            tango = undefined;
-            if(!(verify === tango)) { _fun00002_ip = 26; continue _fun00001 }
+            tangon = undefined;
+            if(!(verify === tangon)) { _fun00002_ip = 26; continue _fun00001 }
  20:
-            verify = mike.goBack;
+            verify = michal.goBack;
  26:
             offset = entity.type;
-            if(!(offset === tango)) { _fun00002_ip = 39; continue _fun00001 }
+            if(!(offset === tangon)) { _fun00002_ip = 39; continue _fun00001 }
  35:
             offset = 'back';
  39:
-            zulu = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             yankee = _closure1_slot1;
-            golf = _closure1_slot2;
+            golfie = _closure1_slot2;
             entity = 1;
-            entity = golf[entity];
-            mike = yankee.bind(tango)(entity);
+            entity = golfie[entity];
+            michal = yankee.bind(tangon)(entity);
             entity = {};
             report = true;
             entity['isModal'] = report;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = 2;
-            report = golf[report];
-            report = oscar.bind(tango)(report);
-            oscar = report.HeaderIconButton;
+            report = golfie[report];
+            report = oscard.bind(tangon)(report);
+            oscard = report.HeaderIconButton;
             report = {};
-            golf = 'back';
-            golf = golf === offset;
-            foxtrot = _closure1_slot2;
-            if(golf) { _fun00002_ip = 123; continue _fun00001 }
+            golfie = 'back';
+            golfie = golfie === offset;
+            foxtra = _closure1_slot2;
+            if(golfie) { _fun00002_ip = 123; continue _fun00001 }
  114:
             offset = 4;
-            offset = foxtrot[offset];
+            offset = foxtra[offset];
             _fun00002_ip = 130; continue _fun00001;
  123:
-            romeo = 3;
-            offset = foxtrot[romeo];
+            romeon = 3;
+            offset = foxtra[romeon];
  130:
-            offset = yankee.bind(tango)(offset);
+            offset = yankee.bind(tangon)(offset);
             report['source'] = offset;
             report['onPress'] = verify;
             yankee = _closure1_slot0;
-            romeo = _closure1_slot2;
-            options = 5;
-            verify = romeo[options];
-            verify = yankee.bind(tango)(verify);
+            romeon = _closure1_slot2;
+            option = 5;
+            verify = romeon[option];
+            verify = yankee.bind(tangon)(verify);
             offset = verify.intl;
             verify = offset.string;
-            options = romeo[options];
-            options = yankee.bind(tango)(options);
-            options = options.t;
-            if(golf) { _fun00002_ip = 203; continue _fun00001 }
+            option = romeon[option];
+            option = yankee.bind(tangon)(option);
+            option = option.t;
+            if(golfie) { _fun00002_ip = 203; continue _fun00001 }
  190:
-            golf = options.cpT0Cg;
-            golf = verify.bind(offset)(golf);
+            golfie = option.cpT0Cg;
+            golfie = verify.bind(offset)(golfie);
             _fun00002_ip = 214; continue _fun00001;
  203:
-            options = options.13/7kZ;
-            golf = verify.bind(offset)(options);
+            option = option.13/7kZ;
+            golfie = verify.bind(offset)(option);
  214:
-            report['accessibilityLabel'] = golf;
-            report = zulu.bind(tango)(oscar, report);
+            report['accessibilityLabel'] = golfie;
+            report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

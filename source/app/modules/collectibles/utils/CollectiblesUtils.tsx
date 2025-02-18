@@ -1,156 +1,156 @@
 // app/modules/collectibles/utils/CollectiblesUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ApplicationStreamPresets;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/utils/CollectiblesUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ApplicationStreamPresets;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/utils/CollectiblesUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argBaz;
+            zuuluu = argBaz;
             entity = {};
-            tango = {};
+            tangon = {};
             report = _closure1_slot2;
             report = report.PRESET_CUSTOM;
-            tango['preset'] = report;
+            tangon['preset'] = report;
             report = argFoo;
-            tango['resolution'] = report;
+            tangon['resolution'] = report;
             report = argBar;
-            tango['frameRate'] = report;
-            entity['qualityOptions'] = tango;
+            tangon['frameRate'] = report;
+            entity['qualityOptions'] = tangon;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            mike = report.bind(mike)(tango);
-            mike = mike.MediaEngineContextTypes;
-            mike = mike.STREAM;
-            entity['context'] = mike;
-            tango = null;
-            if(!(tango != zulu)) { _fun00002_ip = 183; continue _fun00001 }
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            michal = report.bind(michal)(tangon);
+            michal = michal.MediaEngineContextTypes;
+            michal = michal.STREAM;
+            entity['context'] = michal;
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00002_ip = 183; continue _fun00001 }
  90:
-            mike = zulu.desktopSource;
-            if(!(tango != mike)) { _fun00002_ip = 131; continue _fun00001 }
+            michal = zuuluu.desktopSource;
+            if(!(tangon != michal)) { _fun00002_ip = 131; continue _fun00001 }
  100:
-            mike = {};
-            report = zulu.desktopSource;
+            michal = {};
+            report = zuuluu.desktopSource;
             report = report.id;
-            mike['sourceId'] = report;
+            michal['sourceId'] = report;
             report = true;
-            mike['sound'] = report;
-            entity['desktopSettings'] = mike;
+            michal['sound'] = report;
+            entity['desktopSettings'] = michal;
  131:
-            mike = zulu.cameraSource;
-            if(!(tango != mike)) { _fun00002_ip = 183; continue _fun00001 }
+            michal = zuuluu.cameraSource;
+            if(!(tangon != michal)) { _fun00002_ip = 183; continue _fun00001 }
  141:
-            mike = {};
-            tango = zulu.cameraSource;
-            tango = tango.videoDeviceGuid;
-            mike['videoDeviceGuid'] = tango;
-            zulu = zulu.cameraSource;
-            zulu = zulu.audioDeviceGuid;
-            mike['audioDeviceGuid'] = zulu;
-            entity['cameraSettings'] = mike;
+            michal = {};
+            tangon = zuuluu.cameraSource;
+            tangon = tangon.videoDeviceGuid;
+            michal['videoDeviceGuid'] = tangon;
+            zuuluu = zuuluu.cameraSource;
+            zuuluu = zuuluu.audioDeviceGuid;
+            michal['audioDeviceGuid'] = zuuluu;
+            entity['cameraSettings'] = michal;
  183:
             return entity;
         }
     };
-    zulu['constructGoLiveSource'] = tango;
-    mike = function(argFoo, argBar) {
+    zuuluu['constructGoLiveSource'] = tangon;
+    michal = function(argFoo, argBar) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            zulu = argBar;
+            michal = argFoo;
+            zuuluu = argBar;
             entity = {};
-            tango = null;
-            if(!(tango != zulu)) { _fun00004_ip = 20; continue _fun00003 }
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 20; continue _fun00003 }
  14:
-            entity['tab'] = zulu;
+            entity['tab'] = zuuluu;
  20:
-            if(!(tango != mike)) { _fun00004_ip = 243; continue _fun00003 }
+            if(!(tangon != michal)) { _fun00004_ip = 243; continue _fun00003 }
  27:
-            report = mike.noCache;
-            zulu = true;
-            if(!(zulu === report)) { _fun00004_ip = 47; continue _fun00003 }
+            report = michal.noCache;
+            zuuluu = true;
+            if(!(zuuluu === report)) { _fun00004_ip = 47; continue _fun00003 }
  39:
-            entity['no_cache'] = zulu;
+            entity['no_cache'] = zuuluu;
  47:
-            report = mike.includeUnpublished;
-            if(!(zulu === report)) { _fun00004_ip = 63; continue _fun00003 }
+            report = michal.includeUnpublished;
+            if(!(zuuluu === report)) { _fun00004_ip = 63; continue _fun00003 }
  57:
-            entity['include_unpublished'] = zulu;
+            entity['include_unpublished'] = zuuluu;
  63:
-            report = mike.includeBundles;
-            if(!(zulu === report)) { _fun00004_ip = 81; continue _fun00003 }
+            report = michal.includeBundles;
+            if(!(zuuluu === report)) { _fun00004_ip = 81; continue _fun00003 }
  73:
-            entity['include_bundles'] = zulu;
+            entity['include_bundles'] = zuuluu;
  81:
-            report = mike.includePopularPicks;
-            if(!(zulu === report)) { _fun00004_ip = 99; continue _fun00003 }
+            report = michal.includePopularPicks;
+            if(!(zuuluu === report)) { _fun00004_ip = 99; continue _fun00003 }
  91:
-            entity['include_popular_picks'] = zulu;
+            entity['include_popular_picks'] = zuuluu;
  99:
-            report = mike.includeDynamicBlocks;
-            if(!(zulu === report)) { _fun00004_ip = 117; continue _fun00003 }
+            report = michal.includeDynamicBlocks;
+            if(!(zuuluu === report)) { _fun00004_ip = 117; continue _fun00003 }
  109:
-            entity['include_dynamic_blocks'] = zulu;
+            entity['include_dynamic_blocks'] = zuuluu;
  117:
-            zulu = mike.countryCode;
-            if(!(tango != zulu)) { _fun00004_ip = 139; continue _fun00003 }
+            zuuluu = michal.countryCode;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 139; continue _fun00003 }
  127:
-            zulu = mike.countryCode;
-            entity['country_code'] = zulu;
+            zuuluu = michal.countryCode;
+            entity['country_code'] = zuuluu;
  139:
-            zulu = mike.paymentGateway;
-            if(!(tango !== zulu)) { _fun00004_ip = 161; continue _fun00003 }
+            zuuluu = michal.paymentGateway;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 161; continue _fun00003 }
  149:
-            zulu = mike.paymentGateway;
-            entity['payment_gateway'] = zulu;
+            zuuluu = michal.paymentGateway;
+            entity['payment_gateway'] = zuuluu;
  161:
-            oscar = mike.variantsReturnStyle;
-            golf = _closure1_slot0;
-            zulu = _closure1_slot1;
+            oscard = michal.variantsReturnStyle;
+            golfie = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             report = 2;
-            zulu = zulu[report];
-            tango = undefined;
-            zulu = golf.bind(tango)(zulu);
-            zulu = zulu.ShopVariantsReturnStyle;
-            zulu = zulu.VARIANTS_GROUP;
-            if(!(oscar === zulu)) { _fun00004_ip = 243; continue _fun00003 }
+            zuuluu = zuuluu[report];
+            tangon = undefined;
+            zuuluu = golfie.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.ShopVariantsReturnStyle;
+            zuuluu = zuuluu.VARIANTS_GROUP;
+            if(!(oscard === zuuluu)) { _fun00004_ip = 243; continue _fun00003 }
  208:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[report];
-            mike = zulu.bind(tango)(mike);
-            mike = mike.ShopVariantsReturnStyle;
-            mike = mike.VARIANTS_GROUP;
-            entity['variants_return_style'] = mike;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[report];
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.ShopVariantsReturnStyle;
+            michal = michal.VARIANTS_GROUP;
+            entity['variants_return_style'] = michal;
  243:
             return entity;
         }
     };
-    zulu['buildFetchCollectiblesOptionsQuery'] = mike;
+    zuuluu['buildFetchCollectiblesOptionsQuery'] = michal;
     return entity;
 })();

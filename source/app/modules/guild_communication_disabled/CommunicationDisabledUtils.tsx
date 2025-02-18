@@ -1,7 +1,7 @@
 // app/modules/guild_communication_disabled/CommunicationDisabledUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = function(argFoo) { // Original name: isCommunicationDisabled
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = function(argFoo) { // Original name: isCommunicationDisabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
@@ -9,61 +9,61 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity != report;
             if(!entity) { _fun00002_ip = 73; continue _fun00001 }
  12:
-            mike = global;
-            zulu = mike.Date;
-            tango = zulu.prototype;
-            tango = Object.create(tango, {constructor: {value: zulu}});
-            golf = tango;
-            oscar = report;
-            zulu = new golf[zulu](oscar, report);
-            zulu = zulu instanceof Object ? zulu : tango;
-            mike = mike.Date;
-            tango = mike.prototype;
-            tango = Object.create(tango, {constructor: {value: mike}});
-            golf = tango;
-            mike = new golf[mike](oscar);
-            mike = mike instanceof Object ? mike : tango;
-            entity = zulu > mike;
+            michal = global;
+            zuuluu = michal.Date;
+            tangon = zuuluu.prototype;
+            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+            golfie = tangon;
+            oscard = report;
+            zuuluu = new golfie[zuuluu](oscard, report);
+            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+            michal = michal.Date;
+            tangon = michal.prototype;
+            tangon = Object.create(tangon, {constructor: {value: michal}});
+            golfie = tangon;
+            michal = new golfie[michal](oscard);
+            michal = michal instanceof Object ? michal : tangon;
+            entity = zuuluu > michal;
  73:
             return entity;
         }
     };
-    var _closure1_slot0 = tango;
+    var _closure1_slot0 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
-    report = argPlugh;
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    report = argPlu;
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_communication_disabled/CommunicationDisabledUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['isCommunicationDisabled'] = tango;
-    mike = function(argFoo) { // Original name: isMemberCommunicationDisabled
+    report = oscard.bind(golfie)(report);
+    zuuluu['isCommunicationDisabled'] = tangon;
+    michal = function(argFoo) { // Original name: isMemberCommunicationDisabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
             entity = null;
-            report = entity == tango;
-            mike = undefined;
+            report = entity == tangon;
+            michal = undefined;
             entity = undefined;
             if(report) { _fun00004_ip = 29; continue _fun00003 }
  23:
-            entity = tango.communicationDisabledUntil;
+            entity = tangon.communicationDisabledUntil;
  29:
-            entity = zulu.bind(mike)(entity);
+            entity = zuuluu.bind(michal)(entity);
             return entity;
         }
     };
-    zulu['isMemberCommunicationDisabled'] = mike;
+    zuuluu['isMemberCommunicationDisabled'] = michal;
     return entity;
 })();

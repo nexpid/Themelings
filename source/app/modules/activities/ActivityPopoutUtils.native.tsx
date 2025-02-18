@@ -1,34 +1,34 @@
 // app/modules/activities/ActivityPopoutUtils.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/ActivityPopoutUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: shouldOpenActivityInPopoutWindow
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/ActivityPopoutUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: shouldOpenActivityInPopoutWindow
         entity = false;
         return entity;
     };
-    zulu['shouldOpenActivityInPopoutWindow'] = tango;
-    mike = function(argFoo) { // Original name: wrapPreemptiveActivityPopout
-        mike = argFoo;
+    zuuluu['shouldOpenActivityInPopoutWindow'] = tangon;
+    michal = function(argFoo) { // Original name: wrapPreemptiveActivityPopout
+        michal = argFoo;
         entity = undefined;
-        entity = mike.bind(entity)();
+        entity = michal.bind(entity)();
         return entity;
     };
-    zulu['wrapPreemptiveActivityPopout'] = mike;
+    zuuluu['wrapPreemptiveActivityPopout'] = michal;
     return entity;
 })();

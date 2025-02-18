@@ -1,111 +1,111 @@
 // app/modules/stage_channels/useGuildEligibleForStageChannels.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: isGuildEligibleForStageChannels
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: isGuildEligibleForStageChannels
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = arguments[1];
-            zulu = undefined;
-            if(!(tango === zulu)) { _fun00002_ip = 27; continue _fun00001 }
+            tangon = arguments[1];
+            zuuluu = undefined;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 27; continue _fun00001 }
  9:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = new Array(1);
-            entity[0] = mike;
-            tango = entity;
+            entity[0] = michal;
+            tangon = entity;
  27:
-            mike = tango;
-            entity = mike[Symbol.iterator];
-            mike = entity().next;
-            tango = mike().value;
-            mike = entity;
-            mike = mike === zulu;
+            michal = tangon;
+            entity = michal[Symbol.iterator];
+            michal = entity().next;
+            tangon = michal().value;
+            michal = entity;
+            michal = michal === zuuluu;
             report = undefined;
-            if(mike) { _fun00002_ip = 52; continue _fun00001 }
+            if(michal) { _fun00002_ip = 52; continue _fun00001 }
  49:
-            report = tango;
+            report = tangon;
  52:
-            if(mike) { _fun00002_ip = 58; continue _fun00001 }
+            if(michal) { _fun00002_ip = 58; continue _fun00001 }
  55:
             entity.return();
  58:
             entity = global;
-            mike = entity.Boolean;
-            tango = report.getGuild;
+            michal = entity.Boolean;
+            tangon = report.getGuild;
             entity = argFoo;
-            oscar = tango.bind(report)(entity);
+            oscard = tangon.bind(report)(entity);
             entity = null;
-            tango = entity == oscar;
+            tangon = entity == oscard;
             entity = undefined;
-            if(tango) { _fun00002_ip = 114; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 114; continue _fun00001 }
  90:
-            report = oscar.hasFeature;
-            tango = _closure1_slot3;
-            tango = tango.COMMUNITY;
-            entity = report.bind(oscar)(tango);
+            report = oscard.hasFeature;
+            tangon = _closure1_slot3;
+            tangon = tangon.COMMUNITY;
+            entity = report.bind(oscard)(tangon);
  114:
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.GuildFeatures;
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/stage_channels/useGuildEligibleForStageChannels.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['isGuildEligibleForStageChannels'] = tango;
-    mike = function(argFoo) { // Original name: useGuildEligibleForStageChannels
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    report = oscard.bind(golfie)(report);
+    zuuluu['isGuildEligibleForStageChannels'] = tangon;
+    michal = function(argFoo) { // Original name: useGuildEligibleForStageChannels
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
-            tango = _closure1_slot4;
-            zulu = _closure2_slot0;
+            tangon = _closure1_slot4;
+            zuuluu = _closure2_slot0;
             entity = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useGuildEligibleForStageChannels'] = mike;
+    zuuluu['useGuildEligibleForStageChannels'] = michal;
     return entity;
 })();

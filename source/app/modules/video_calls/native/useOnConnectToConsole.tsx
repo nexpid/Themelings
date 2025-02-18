@@ -1,139 +1,139 @@
 // app/modules/video_calls/native/useOnConnectToConsole.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golf;
-    tango = function(argFoo, argBar) { // Original name: onConnectToConsole
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo, argBar) { // Original name: onConnectToConsole
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
-            zulu = 2;
-            zulu = options[zulu];
-            tango = undefined;
-            oscar = golf.bind(tango)(zulu);
-            report = oscar.markDismissibleContentAsDismissed;
-            zulu = 3;
-            zulu = options[zulu];
-            zulu = golf.bind(tango)(zulu);
-            zulu = zulu.DismissibleContent;
-            zulu = zulu.DONUT_MOBILE_NUX;
-            zulu = report.bind(oscar)(zulu);
-            zulu = mike.twoWayLink;
-            if(!zulu) { _fun00002_ip = 123; continue _fun00001 }
+            michal = argBar;
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = option[zuuluu];
+            tangon = undefined;
+            oscard = golfie.bind(tangon)(zuuluu);
+            report = oscard.markDismissibleContentAsDismissed;
+            zuuluu = 3;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.DismissibleContent;
+            zuuluu = zuuluu.DONUT_MOBILE_NUX;
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = michal.twoWayLink;
+            if(!zuuluu) { _fun00002_ip = 123; continue _fun00001 }
  72:
-            zulu = mike.revoked;
-            if(zulu) { _fun00002_ip = 123; continue _fun00001 }
+            zuuluu = michal.revoked;
+            if(zuuluu) { _fun00002_ip = 123; continue _fun00001 }
  81:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 6;
-            zulu = oscar[zulu];
-            golf = report.bind(tango)(zulu);
-            oscar = golf.beginConsoleTransfer;
-            report = mike.type;
-            zulu = argFoo;
-            zulu = oscar.bind(golf)(zulu, report);
-            return tango;
+            oscard = _closure1_slot2;
+            zuuluu = 6;
+            zuuluu = oscard[zuuluu];
+            golfie = report.bind(tangon)(zuuluu);
+            oscard = golfie.beginConsoleTransfer;
+            report = michal.type;
+            zuuluu = argFoo;
+            zuuluu = oscard.bind(golfie)(zuuluu, report);
+            return tangon;
  123:
-            report = mike.type;
-            zulu = _closure1_slot5;
-            zulu = zulu.XBOX;
-            if(!(zulu !== report)) { _fun00002_ip = 229; continue _fun00001 }
+            report = michal.type;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.XBOX;
+            if(!(zuuluu !== report)) { _fun00002_ip = 229; continue _fun00001 }
  142:
-            zulu = _closure1_slot5;
-            zulu = zulu.PLAYSTATION;
-            if(!(zulu !== report)) { _fun00002_ip = 172; continue _fun00001 }
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.PLAYSTATION;
+            if(!(zuuluu !== report)) { _fun00002_ip = 172; continue _fun00001 }
  156:
-            zulu = _closure1_slot5;
-            zulu = zulu.PLAYSTATION_STAGING;
-            if(!(zulu !== report)) { _fun00002_ip = 172; continue _fun00001 }
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.PLAYSTATION_STAGING;
+            if(!(zuuluu !== report)) { _fun00002_ip = 172; continue _fun00001 }
  170:
-            return tango;
+            return tangon;
  172:
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            zulu = 5;
-            zulu = oscar[zulu];
-            oscar = report.bind(tango)(zulu);
-            report = oscar.showModal;
-            zulu = _closure1_slot4;
-            golf = zulu.CHANNEL_CALL;
-            zulu = new Array(1);
-            zulu[0] = golf;
-            mike = mike.type;
-            mike = report.bind(oscar)(zulu, mike);
-            return mike;
+            oscard = _closure1_slot2;
+            zuuluu = 5;
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(tangon)(zuuluu);
+            report = oscard.showModal;
+            zuuluu = _closure1_slot4;
+            golfie = zuuluu.CHANNEL_CALL;
+            zuuluu = new Array(1);
+            zuuluu[0] = golfie;
+            michal = michal.type;
+            michal = report.bind(oscard)(zuuluu, michal);
+            return michal;
  229:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            mike = 4;
-            mike = report[mike];
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.showModal;
+            michal = 4;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.showModal;
             entity = _closure1_slot4;
-            tango = entity.CHANNEL_CALL;
+            tangon = entity.CHANNEL_CALL;
             entity = new Array(1);
-            entity[0] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity[0] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.AnalyticsLocations;
-    var _closure1_slot4 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.AnalyticsLocations;
+    var _closure1_slot4 = option;
     report = report.PlatformTypes;
     var _closure1_slot5 = report;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/video_calls/native/useOnConnectToConsole.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['onConnectToConsole'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useOnConnectToConsole
-        oscar = argFoo;
+    report = oscard.bind(golfie)(report);
+    zuuluu['onConnectToConsole'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useOnConnectToConsole
+        oscard = argFoo;
         report = argBar;
-        var _closure2_slot0 = oscar;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useCallback;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useCallback;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
-            tango = _closure1_slot6;
-            zulu = _closure2_slot0;
-            mike = _closure2_slot1;
+            tangon = _closure1_slot6;
+            zuuluu = _closure2_slot0;
+            michal = _closure2_slot1;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useOnConnectToConsole'] = mike;
+    zuuluu['useOnConnectToConsole'] = michal;
     return entity;
 })();

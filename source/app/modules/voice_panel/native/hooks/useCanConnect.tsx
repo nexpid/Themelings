@@ -1,114 +1,114 @@
 // app/modules/voice_panel/native/hooks/useCanConnect.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/hooks/useCanConnect.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useCanConnect
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/hooks/useCanConnect.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useCanConnect
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 5;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStoresObject;
-        golf = _closure1_slot2;
-        zulu = new Array(4);
-        zulu[0] = golf;
-        golf = _closure1_slot4;
-        zulu[1] = golf;
-        golf = _closure1_slot3;
-        zulu[2] = golf;
-        mike = _closure1_slot5;
-        zulu[3] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 5;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStoresObject;
+        golfie = _closure1_slot2;
+        zuuluu = new Array(4);
+        zuuluu[0] = golfie;
+        golfie = _closure1_slot4;
+        zuuluu[1] = golfie;
+        golfie = _closure1_slot3;
+        zuuluu[2] = golfie;
+        michal = _closure1_slot5;
+        zuuluu[3] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot2;
-                mike = tango.getChannel;
+                tangon = _closure1_slot2;
+                michal = tangon.getChannel;
                 entity = _closure2_slot0;
-                golf = mike.bind(tango)(entity);
+                golfie = michal.bind(tangon)(entity);
                 entity = {};
-                mike = null;
-                tango = mike != golf;
-                if(!tango) { _fun00002_ip = 77; continue _fun00001 }
+                michal = null;
+                tangon = michal != golfie;
+                if(!tangon) { _fun00002_ip = 77; continue _fun00001 }
  35:
-                report = golf.isPrivate;
-                report = report.bind(golf)();
+                report = golfie.isPrivate;
+                report = report.bind(golfie)();
                 if(report) { _fun00002_ip = 74; continue _fun00001 }
  48:
                 verify = _closure1_slot4;
-                options = verify.can;
-                oscar = _closure1_slot6;
-                oscar = oscar.CONNECT;
-                report = options.bind(verify)(oscar, golf);
+                option = verify.can;
+                oscard = _closure1_slot6;
+                oscard = oscard.CONNECT;
+                report = option.bind(verify)(oscard, golfie);
  74:
-                tango = report;
+                tangon = report;
  77:
-                entity['canConnect'] = tango;
-                mike = mike == golf;
-                if(mike) { _fun00002_ip = 132; continue _fun00001 }
+                entity['canConnect'] = tangon;
+                michal = michal == golfie;
+                if(michal) { _fun00002_ip = 132; continue _fun00001 }
  89:
-                oscar = _closure1_slot0;
+                oscard = _closure1_slot0;
                 report = _closure1_slot1;
-                tango = 6;
-                report = report[tango];
-                tango = undefined;
-                oscar = oscar.bind(tango)(report);
-                report = oscar.isChannelFull;
-                tango = _closure1_slot5;
-                zulu = _closure1_slot3;
-                mike = report.bind(oscar)(golf, tango, zulu);
+                tangon = 6;
+                report = report[tangon];
+                tangon = undefined;
+                oscard = oscard.bind(tangon)(report);
+                report = oscard.isChannelFull;
+                tangon = _closure1_slot5;
+                zuuluu = _closure1_slot3;
+                michal = report.bind(oscard)(golfie, tangon, zuuluu);
  132:
-                entity['isAtMaxCapacity'] = mike;
+                entity['isAtMaxCapacity'] = michal;
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

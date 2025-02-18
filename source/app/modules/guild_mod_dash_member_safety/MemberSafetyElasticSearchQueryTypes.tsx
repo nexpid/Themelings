@@ -1,79 +1,79 @@
 // app/modules/guild_mod_dash_member_safety/MemberSafetyElasticSearchQueryTypes.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    golf = 0;
-    tango = oscar[golf];
-    mike = argBaz;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    golfie = 0;
+    tangon = oscard[golfie];
+    michal = argBaz;
     entity = undefined;
-    mike = mike.bind(entity)(tango);
-    mike = mike.Millis;
-    mike = mike.DAY;
-    options = 2;
-    tango = options * mike;
-    mike = {};
-    mike['ORDER_BY_UNSPECIFIED'] = golf;
+    michal = michal.bind(entity)(tangon);
+    michal = michal.Millis;
+    michal = michal.DAY;
+    option = 2;
+    tangon = option * michal;
+    michal = {};
+    michal['ORDER_BY_UNSPECIFIED'] = golfie;
     report = 'ORDER_BY_UNSPECIFIED';
-    mike[golf] = report;
+    michal[golfie] = report;
     report = 1;
-    mike['ORDER_BY_GUILD_JOINED_AT_DESC'] = report;
-    golf = 'ORDER_BY_GUILD_JOINED_AT_DESC';
-    mike[report] = golf;
-    mike['ORDER_BY_GUILD_JOINED_AT_ASC'] = options;
-    golf = 'ORDER_BY_GUILD_JOINED_AT_ASC';
-    mike[options] = golf;
-    options = 3;
-    mike['ORDER_BY_USER_ID_DESC'] = options;
-    golf = 'ORDER_BY_USER_ID_DESC';
-    mike[options] = golf;
-    options = 4;
-    mike['ORDER_BY_USER_ID_ASC'] = options;
-    golf = 'ORDER_BY_USER_ID_ASC';
-    mike[options] = golf;
-    oscar = oscar[report];
+    michal['ORDER_BY_GUILD_JOINED_AT_DESC'] = report;
+    golfie = 'ORDER_BY_GUILD_JOINED_AT_DESC';
+    michal[report] = golfie;
+    michal['ORDER_BY_GUILD_JOINED_AT_ASC'] = option;
+    golfie = 'ORDER_BY_GUILD_JOINED_AT_ASC';
+    michal[option] = golfie;
+    option = 3;
+    michal['ORDER_BY_USER_ID_DESC'] = option;
+    golfie = 'ORDER_BY_USER_ID_DESC';
+    michal[option] = golfie;
+    option = 4;
+    michal['ORDER_BY_USER_ID_ASC'] = option;
+    golfie = 'ORDER_BY_USER_ID_ASC';
+    michal[option] = golfie;
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_mod_dash_member_safety/MemberSafetyElasticSearchQueryTypes.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['UNUSUAL_DM_COMPARISON_DELTA'] = tango;
-    tango = function(argFoo) { // Original name: createMemberSearchCursor
+    report = oscard.bind(golfie)(report);
+    zuuluu['UNUSUAL_DM_COMPARISON_DELTA'] = tangon;
+    tangon = function(argFoo) { // Original name: createMemberSearchCursor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.joinedAt;
-            zulu = entity.userId;
+            oscard = entity.joinedAt;
+            zuuluu = entity.userId;
             entity = null;
-            mike = entity == oscar;
-            if(mike) { _fun00002_ip = 81; continue _fun00001 }
+            michal = entity == oscard;
+            if(michal) { _fun00002_ip = 81; continue _fun00001 }
  23:
-            mike = {};
-            tango = global;
-            tango = tango.Date;
-            report = tango.prototype;
-            report = Object.create(report, {constructor: {value: tango}});
-            options = report;
-            golf = oscar;
-            tango = new options[tango](golf, oscar);
-            report = tango instanceof Object ? tango : report;
-            tango = report.getTime;
-            tango = tango.bind(report)();
-            mike['guild_joined_at'] = tango;
-            mike['user_id'] = zulu;
-            entity = mike;
+            michal = {};
+            tangon = global;
+            tangon = tangon.Date;
+            report = tangon.prototype;
+            report = Object.create(report, {constructor: {value: tangon}});
+            option = report;
+            golfie = oscard;
+            tangon = new option[tangon](golfie, oscard);
+            report = tangon instanceof Object ? tangon : report;
+            tangon = report.getTime;
+            tangon = tangon.bind(report)();
+            michal['guild_joined_at'] = tangon;
+            michal['user_id'] = zuuluu;
+            entity = michal;
  81:
             return entity;
         }
     };
-    zulu['createMemberSearchCursor'] = tango;
-    zulu['OrderBy'] = mike;
+    zuuluu['createMemberSearchCursor'] = tangon;
+    zuuluu['OrderBy'] = michal;
     return entity;
 })();

@@ -1,45 +1,45 @@
 // app/modules/media/MediaTypes.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = verify;
     report = function(argFoo) { // Original name: toContentScanMetadata
-        mike = argFoo;
+        michal = argFoo;
         entity = {};
-        zulu = mike.version;
-        entity['version'] = zulu;
-        mike = mike.flags;
-        entity['flags'] = mike;
+        zuuluu = michal.version;
+        entity['version'] = zuuluu;
+        michal = michal.flags;
+        entity['flags'] = michal;
         return entity;
     };
     var _closure1_slot5 = report;
-    tango = function(argFoo) { // Original name: messageAttachmentToUnfurledMediaItem
+    tangon = function(argFoo) { // Original name: messageAttachmentToUnfurledMediaItem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            zulu = _closure1_slot0;
+            oscard = argFoo;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
             verify = 1;
             entity = entity[verify];
-            options = undefined;
-            offset = zulu.bind(options)(entity);
-            tango = offset.hasFlag;
-            entity = oscar.flags;
-            golf = null;
-            yankee = golf != entity;
+            option = undefined;
+            offset = zuuluu.bind(option)(entity);
+            tangon = offset.hasFlag;
+            entity = oscard.flags;
+            golfie = null;
+            yankee = golfie != entity;
             report = 0;
-            zulu = 0;
+            zuuluu = 0;
             if(!yankee) { _fun00002_ip = 55; continue _fun00001 }
  52:
-            zulu = entity;
+            zuuluu = entity;
  55:
             entity = _closure1_slot3;
             entity = entity.CONTAINS_EXPLICIT_MEDIA;
-            entity = tango.bind(offset)(zulu, entity);
+            entity = tangon.bind(offset)(zuuluu, entity);
             offset = 0;
             if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  76:
@@ -48,97 +48,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = report + entity;
  90:
             entity = {};
-            zulu = oscar.url;
-            entity['url'] = zulu;
-            zulu = oscar.proxy_url;
-            entity['proxyUrl'] = zulu;
-            zulu = oscar.height;
-            entity['height'] = zulu;
-            zulu = oscar.width;
-            entity['width'] = zulu;
-            zulu = oscar.content_type;
-            entity['contentType'] = zulu;
-            zulu = oscar.placeholder;
-            entity['placeholder'] = zulu;
-            zulu = oscar.placeholder_version;
-            entity['placeholderVersion'] = zulu;
-            tango = _closure1_slot0;
+            zuuluu = oscard.url;
+            entity['url'] = zuuluu;
+            zuuluu = oscard.proxy_url;
+            entity['proxyUrl'] = zuuluu;
+            zuuluu = oscard.height;
+            entity['height'] = zuuluu;
+            zuuluu = oscard.width;
+            entity['width'] = zuuluu;
+            zuuluu = oscard.content_type;
+            entity['contentType'] = zuuluu;
+            zuuluu = oscard.placeholder;
+            entity['placeholder'] = zuuluu;
+            zuuluu = oscard.placeholder_version;
+            entity['placeholderVersion'] = zuuluu;
+            tangon = _closure1_slot0;
             yankee = _closure1_slot2;
-            zulu = 2;
-            zulu = yankee[zulu];
-            zulu = tango.bind(options)(zulu);
-            zulu = zulu.UnfurledMediaLoadingState;
-            zulu = zulu.LOADED_SUCCESS;
-            entity['loadingState'] = zulu;
-            zulu = oscar.content_scan_version;
-            tango = golf == zulu;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 235; continue _fun00001 }
+            zuuluu = 2;
+            zuuluu = yankee[zuuluu];
+            zuuluu = tangon.bind(option)(zuuluu);
+            zuuluu = zuuluu.UnfurledMediaLoadingState;
+            zuuluu = zuuluu.LOADED_SUCCESS;
+            entity['loadingState'] = zuuluu;
+            zuuluu = oscard.content_scan_version;
+            tangon = golfie == zuuluu;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 235; continue _fun00001 }
  215:
-            tango = {};
-            yankee = oscar.content_scan_version;
-            tango['version'] = yankee;
-            tango['flags'] = offset;
-            zulu = tango;
+            tangon = {};
+            yankee = oscard.content_scan_version;
+            tangon['version'] = yankee;
+            tangon['flags'] = offset;
+            zuuluu = tangon;
  235:
-            entity['contentScanMetadata'] = zulu;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[verify];
-            tango = tango.bind(options)(zulu);
-            zulu = tango.hasFlag;
-            oscar = oscar.flags;
-            golf = golf != oscar;
+            entity['contentScanMetadata'] = zuuluu;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[verify];
+            tangon = tangon.bind(option)(zuuluu);
+            zuuluu = tangon.hasFlag;
+            oscard = oscard.flags;
+            golfie = golfie != oscard;
             report = 0;
-            if(!golf) { _fun00002_ip = 280; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 280; continue _fun00001 }
  277:
-            report = oscar;
+            report = oscard;
  280:
-            mike = _closure1_slot3;
-            mike = mike.IS_ANIMATED;
-            mike = zulu.bind(tango)(report, mike);
-            entity['srcIsAnimated'] = mike;
+            michal = _closure1_slot3;
+            michal = michal.IS_ANIMATED;
+            michal = zuuluu.bind(tangon)(report, michal);
+            entity['srcIsAnimated'] = michal;
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     entity = function(argFoo) { // Original name: getUnfurledMediaItemType
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
-            oscar = 3;
-            mike = mike[oscar];
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            oscard = 3;
+            michal = michal[oscard];
             report = undefined;
-            golf = tango.bind(report)(mike);
-            tango = golf.isImageContentType;
-            mike = entity.contentType;
-            mike = tango.bind(golf)(mike);
-            if(mike) { _fun00004_ip = 150; continue _fun00003 }
+            golfie = tangon.bind(report)(michal);
+            tangon = golfie.isImageContentType;
+            michal = entity.contentType;
+            michal = tangon.bind(golfie)(michal);
+            if(michal) { _fun00004_ip = 150; continue _fun00003 }
  48:
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            oscar = tango.bind(report)(mike);
-            tango = oscar.isVideoContentType;
-            mike = entity.contentType;
-            mike = tango.bind(oscar)(mike);
-            if(!mike) { _fun00004_ip = 138; continue _fun00003 }
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            oscard = tangon.bind(report)(michal);
+            tangon = oscard.isVideoContentType;
+            michal = entity.contentType;
+            michal = tangon.bind(oscard)(michal);
+            if(!michal) { _fun00004_ip = 138; continue _fun00003 }
  85:
-            tango = entity.proxyUrl;
-            mike = null;
-            if(!(mike != tango)) { _fun00004_ip = 138; continue _fun00003 }
+            tangon = entity.proxyUrl;
+            michal = null;
+            if(!(michal != tangon)) { _fun00004_ip = 138; continue _fun00003 }
  97:
-            tango = _closure1_slot1;
-            oscar = _closure1_slot2;
-            zulu = 4;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.toURLSafe;
+            tangon = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 4;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.toURLSafe;
             entity = entity.proxyUrl;
-            entity = zulu.bind(tango)(entity);
-            if(!(mike == entity)) { _fun00004_ip = 144; continue _fun00003 }
+            entity = zuuluu.bind(tangon)(entity);
+            if(!(michal == entity)) { _fun00004_ip = 144; continue _fun00003 }
  138:
             entity = 'INVALID';
             return entity;
@@ -154,32 +154,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = function(argFoo) { // Original name: getMessageAttachmentMediaItemType
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            tango = _closure1_slot0;
+            michal = argFoo;
+            tangon = _closure1_slot0;
             entity = _closure1_slot2;
-            oscar = 3;
-            entity = entity[oscar];
+            oscard = 3;
+            entity = entity[oscard];
             report = undefined;
-            golf = tango.bind(report)(entity);
-            tango = golf.isImageFile;
-            entity = mike.filename;
-            tango = tango.bind(golf)(entity);
+            golfie = tangon.bind(report)(entity);
+            tangon = golfie.isImageFile;
+            entity = michal.filename;
+            tangon = tangon.bind(golfie)(entity);
             entity = 'IMAGE';
-            if(tango) { _fun00006_ip = 100; continue _fun00005 }
+            if(tangon) { _fun00006_ip = 100; continue _fun00005 }
  52:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[oscar];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.isVideoFile;
-            mike = mike.filename;
-            zulu = zulu.bind(tango)(mike);
-            mike = 'INVALID';
-            if(!zulu) { _fun00006_ip = 97; continue _fun00005 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.isVideoFile;
+            michal = michal.filename;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = 'INVALID';
+            if(!zuuluu) { _fun00006_ip = 97; continue _fun00005 }
  93:
-            mike = 'VIDEO';
+            michal = 'VIDEO';
  97:
-            entity = mike;
+            entity = michal;
  100:
             return entity;
         }
@@ -187,157 +187,157 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot8 = entity;
     entity = global;
     offset = entity.Object;
-    golf = offset.defineProperty;
-    oscar = {};
+    golfie = offset.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(offset)(zulu, entity, oscar);
+    entity = golfie.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = verify[entity];
+    oscard = verify[entity];
     entity = undefined;
-    oscar = options.bind(entity)(oscar);
-    oscar = oscar.MessageAttachmentFlags;
-    var _closure1_slot3 = oscar;
-    oscar = {};
+    oscard = option.bind(entity)(oscard);
+    oscard = oscard.MessageAttachmentFlags;
+    var _closure1_slot3 = oscard;
+    oscard = {};
     offset = 1;
-    oscar['EXPLICIT'] = offset;
-    golf = 'EXPLICIT';
-    oscar[offset] = golf;
-    var _closure1_slot4 = oscar;
-    golf = 5;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/media/MediaTypes.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['ContentScanFlags'] = oscar;
-    zulu['toContentScanMetadata'] = report;
+    oscard['EXPLICIT'] = offset;
+    golfie = 'EXPLICIT';
+    oscard[offset] = golfie;
+    var _closure1_slot4 = oscard;
+    golfie = 5;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/media/MediaTypes.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['ContentScanFlags'] = oscard;
+    zuuluu['toContentScanMetadata'] = report;
     report = function(argFoo) { // Original name: toUnfurledMediaItem
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = {};
-            mike = oscar.url;
-            entity['url'] = mike;
-            mike = oscar.proxy_url;
-            entity['proxyUrl'] = mike;
-            mike = oscar.height;
-            entity['height'] = mike;
-            mike = oscar.width;
-            entity['width'] = mike;
-            mike = oscar.placeholder;
-            entity['placeholder'] = mike;
-            mike = oscar.placeholder_version;
-            entity['placeholderVersion'] = mike;
-            mike = oscar.content_type;
-            entity['contentType'] = mike;
-            mike = oscar.loading_state;
-            entity['loadingState'] = mike;
-            mike = oscar.content_scan_metadata;
-            zulu = null;
-            tango = zulu != mike;
-            golf = undefined;
-            mike = undefined;
-            if(!tango) { _fun00008_ip = 126; continue _fun00007 }
+            michal = oscard.url;
+            entity['url'] = michal;
+            michal = oscard.proxy_url;
+            entity['proxyUrl'] = michal;
+            michal = oscard.height;
+            entity['height'] = michal;
+            michal = oscard.width;
+            entity['width'] = michal;
+            michal = oscard.placeholder;
+            entity['placeholder'] = michal;
+            michal = oscard.placeholder_version;
+            entity['placeholderVersion'] = michal;
+            michal = oscard.content_type;
+            entity['contentType'] = michal;
+            michal = oscard.loading_state;
+            entity['loadingState'] = michal;
+            michal = oscard.content_scan_metadata;
+            zuuluu = null;
+            tangon = zuuluu != michal;
+            golfie = undefined;
+            michal = undefined;
+            if(!tangon) { _fun00008_ip = 126; continue _fun00007 }
  108:
             report = _closure1_slot5;
-            tango = oscar.content_scan_metadata;
-            mike = report.bind(golf)(tango);
+            tangon = oscard.content_scan_metadata;
+            michal = report.bind(golfie)(tangon);
  126:
-            entity['contentScanMetadata'] = mike;
+            entity['contentScanMetadata'] = michal;
             report = _closure1_slot0;
-            options = _closure1_slot2;
-            tango = 1;
-            tango = options[tango];
-            report = report.bind(golf)(tango);
-            tango = report.hasFlag;
-            oscar = oscar.flags;
-            golf = zulu != oscar;
-            zulu = 0;
-            if(!golf) { _fun00008_ip = 177; continue _fun00007 }
+            option = _closure1_slot2;
+            tangon = 1;
+            tangon = option[tangon];
+            report = report.bind(golfie)(tangon);
+            tangon = report.hasFlag;
+            oscard = oscard.flags;
+            golfie = zuuluu != oscard;
+            zuuluu = 0;
+            if(!golfie) { _fun00008_ip = 177; continue _fun00007 }
  174:
-            zulu = oscar;
+            zuuluu = oscard;
  177:
-            mike = _closure1_slot3;
-            mike = mike.IS_ANIMATED;
-            mike = tango.bind(report)(zulu, mike);
-            entity['srcIsAnimated'] = mike;
+            michal = _closure1_slot3;
+            michal = michal.IS_ANIMATED;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity['srcIsAnimated'] = michal;
             return entity;
         }
     };
-    zulu['toUnfurledMediaItem'] = report;
-    zulu['messageAttachmentToUnfurledMediaItem'] = tango;
-    tango = function(argFoo, argBar) { // Original name: messageAttachmentToMediaItem
-        tango = argFoo;
+    zuuluu['toUnfurledMediaItem'] = report;
+    zuuluu['messageAttachmentToUnfurledMediaItem'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: messageAttachmentToMediaItem
+        tangon = argFoo;
         entity = {};
         report = _closure1_slot6;
-        zulu = undefined;
-        oscar = report.bind(zulu)(tango);
-        golf = entity;
-        report = copyDataProperties(golf, oscar);
-        mike = _closure1_slot8;
-        zulu = mike.bind(zulu)(tango);
-        mike = 'type';
-        entity[mike] = zulu;
-        zulu = tango.description;
-        mike = 'alt';
-        entity[mike] = zulu;
-        zulu = {};
-        mike = argBar;
-        zulu['message'] = mike;
-        mike = {};
+        zuuluu = undefined;
+        oscard = report.bind(zuuluu)(tangon);
+        golfie = entity;
+        report = copyDataProperties(golfie, oscard);
+        michal = _closure1_slot8;
+        zuuluu = michal.bind(zuuluu)(tangon);
+        michal = 'type';
+        entity[michal] = zuuluu;
+        zuuluu = tangon.description;
+        michal = 'alt';
+        entity[michal] = zuuluu;
+        zuuluu = {};
+        michal = argBar;
+        zuuluu['message'] = michal;
+        michal = {};
         report = 'attachment';
-        mike['type'] = report;
-        report = tango.id;
-        mike['attachmentId'] = report;
-        report = tango.filename;
-        mike['filename'] = report;
-        report = tango.title;
-        mike['title'] = report;
-        tango = tango.size;
-        mike['size'] = tango;
-        zulu['identifier'] = mike;
-        mike = 'sourceMetadata';
-        entity[mike] = zulu;
+        michal['type'] = report;
+        report = tangon.id;
+        michal['attachmentId'] = report;
+        report = tangon.filename;
+        michal['filename'] = report;
+        report = tangon.title;
+        michal['title'] = report;
+        tangon = tangon.size;
+        michal['size'] = tangon;
+        zuuluu['identifier'] = michal;
+        michal = 'sourceMetadata';
+        entity[michal] = zuuluu;
         return entity;
     };
-    zulu['messageAttachmentToMediaItem'] = tango;
-    tango = function(argFoo) { // Original name: unfurledMediaItemToMediaItem
-        tango = argFoo;
+    zuuluu['messageAttachmentToMediaItem'] = tangon;
+    tangon = function(argFoo) { // Original name: unfurledMediaItemToMediaItem
+        tangon = argFoo;
         entity = {};
-        oscar = entity;
-        report = tango;
-        mike = copyDataProperties(oscar, report);
-        zulu = _closure1_slot7;
-        mike = undefined;
-        zulu = zulu.bind(mike)(tango);
-        mike = 'type';
-        entity[mike] = zulu;
+        oscard = entity;
+        report = tangon;
+        michal = copyDataProperties(oscard, report);
+        zuuluu = _closure1_slot7;
+        michal = undefined;
+        zuuluu = zuuluu.bind(michal)(tangon);
+        michal = 'type';
+        entity[michal] = zuuluu;
         return entity;
     };
-    zulu['unfurledMediaItemToMediaItem'] = tango;
-    mike = function(argFoo, argBar, argBaz) { // Original name: embedMediaToMediaItem
-        mike = argFoo;
+    zuuluu['unfurledMediaItemToMediaItem'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: embedMediaToMediaItem
+        michal = argFoo;
         entity = {};
-        zulu = argBaz;
-        entity['type'] = zulu;
-        zulu = mike.url;
-        entity['url'] = zulu;
-        zulu = mike.proxyURL;
-        entity['proxyUrl'] = zulu;
-        zulu = mike.width;
-        entity['width'] = zulu;
-        zulu = mike.height;
-        entity['height'] = zulu;
-        zulu = mike.placeholder;
-        entity['placeholder'] = zulu;
-        mike = mike.placeholderVersion;
-        entity['placeholderVersion'] = mike;
-        mike = argBar;
-        entity['sourceMetadata'] = mike;
+        zuuluu = argBaz;
+        entity['type'] = zuuluu;
+        zuuluu = michal.url;
+        entity['url'] = zuuluu;
+        zuuluu = michal.proxyURL;
+        entity['proxyUrl'] = zuuluu;
+        zuuluu = michal.width;
+        entity['width'] = zuuluu;
+        zuuluu = michal.height;
+        entity['height'] = zuuluu;
+        zuuluu = michal.placeholder;
+        entity['placeholder'] = zuuluu;
+        michal = michal.placeholderVersion;
+        entity['placeholderVersion'] = michal;
+        michal = argBar;
+        entity['sourceMetadata'] = michal;
         return entity;
     };
-    zulu['embedMediaToMediaItem'] = mike;
+    zuuluu['embedMediaToMediaItem'] = michal;
     return entity;
 })();

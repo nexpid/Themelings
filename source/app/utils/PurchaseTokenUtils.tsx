@@ -1,147 +1,147 @@
 // app/utils/PurchaseTokenUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function() { // Original name: getPurchaseToken
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function() { // Original name: getPurchaseToken
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 2;
-            entity = entity[oscar];
+            oscard = 2;
+            entity = entity[oscard];
             report = undefined;
-            entity = mike.bind(report)(entity);
-            zulu = entity.Storage;
-            mike = zulu.get;
+            entity = michal.bind(report)(entity);
+            zuuluu = entity.Storage;
+            michal = zuuluu.get;
             entity = _closure1_slot3;
-            entity = mike.bind(zulu)(entity);
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 78; continue _fun00001 }
+            entity = michal.bind(zuuluu)(entity);
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 78; continue _fun00001 }
  51:
-            zulu = entity.expires;
-            mike = global;
-            tango = mike.Date;
-            mike = tango.now;
-            mike = mike.bind(tango)();
-            if(!(!(zulu >= mike))) { _fun00002_ip = 177; continue _fun00001 }
+            zuuluu = entity.expires;
+            michal = global;
+            tangon = michal.Date;
+            michal = tangon.now;
+            michal = michal.bind(tangon)();
+            if(!(!(zuuluu >= michal))) { _fun00002_ip = 177; continue _fun00001 }
  78:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 3;
-            mike = zulu[mike];
-            options = tango.bind(report)(mike);
-            mike = options.v4;
-            mike = mike.bind(options)();
-            zulu = zulu[oscar];
-            zulu = tango.bind(report)(zulu);
-            oscar = zulu.Storage;
-            report = oscar.set;
-            tango = _closure1_slot3;
-            zulu = {};
-            zulu['purchaseToken'] = mike;
-            options = global;
-            verify = options.Date;
-            options = verify.now;
-            options = options.bind(verify)();
-            golf = _closure1_slot4;
-            golf = options + golf;
-            zulu['expires'] = golf;
-            zulu = report.bind(oscar)(tango, zulu);
-            return mike;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 3;
+            michal = zuuluu[michal];
+            option = tangon.bind(report)(michal);
+            michal = option.v4;
+            michal = michal.bind(option)();
+            zuuluu = zuuluu[oscard];
+            zuuluu = tangon.bind(report)(zuuluu);
+            oscard = zuuluu.Storage;
+            report = oscard.set;
+            tangon = _closure1_slot3;
+            zuuluu = {};
+            zuuluu['purchaseToken'] = michal;
+            option = global;
+            verify = option.Date;
+            option = verify.now;
+            option = option.bind(verify)();
+            golfie = _closure1_slot4;
+            golfie = option + golfie;
+            zuuluu['expires'] = golfie;
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            return michal;
  177:
             entity = entity.purchaseToken;
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = function() { // Original name: _getPurchaseTokenHash
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* () {
+        tangon = _closure1_slot2;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 220; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 220; continue _fun00003 }
  10:
-                    zulu = global;
-                    oscar = zulu.Uint8Array;
-                    mike = _closure1_slot5;
+                    zuuluu = global;
+                    oscard = zuuluu.Uint8Array;
+                    michal = _closure1_slot5;
                     report = undefined;
-                    golf = mike.bind(report)();
-                    tango = golf.split;
-                    mike = '';
-                    golf = tango.bind(golf)(mike);
-                    tango = golf.map;
-                    mike = function(argFoo) {
-                        zulu = argFoo;
-                        mike = zulu.charCodeAt;
+                    golfie = michal.bind(report)();
+                    tangon = golfie.split;
+                    michal = '';
+                    golfie = tangon.bind(golfie)(michal);
+                    tangon = golfie.map;
+                    michal = function(argFoo) {
+                        zuuluu = argFoo;
+                        michal = zuuluu.charCodeAt;
                         entity = 0;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    romeo = tango.bind(golf)(mike);
-                    tango = oscar.prototype;
-                    tango = Object.create(tango, {constructor: {value: oscar}});
-                    foxtrot = tango;
-                    mike = new foxtrot[oscar](romeo, yankee);
-                    golf = mike instanceof Object ? mike : tango;
-                    mike = zulu.window;
-                    mike = mike.crypto;
-                    oscar = mike.subtle;
-                    tango = oscar.digest;
-                    mike = {};
-                    options = 'SHA-256';
-                    mike['name'] = options;
-                    mike = tango.bind(oscar)(mike, golf);
+                    romeon = tangon.bind(golfie)(michal);
+                    tangon = oscard.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: oscard}});
+                    foxtra = tangon;
+                    michal = new foxtra[oscard](romeon, yankee);
+                    golfie = michal instanceof Object ? michal : tangon;
+                    michal = zuuluu.window;
+                    michal = michal.crypto;
+                    oscard = michal.subtle;
+                    tangon = oscard.digest;
+                    michal = {};
+                    option = 'SHA-256';
+                    michal['name'] = option;
+                    michal = tangon.bind(oscard)(michal, golfie);
                     SaveGenerator(address=130);
  128:
-                    return mike;
+                    return michal;
  130:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00004_ip = 217; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 217; continue _fun00003 }
  136:
-                    tango = zulu.btoa;
-                    golf = zulu.String;
-                    oscar = golf.fromCharCode;
-                    zulu = zulu.Uint8Array;
-                    options = zulu.prototype;
-                    options = Object.create(options, {constructor: {value: zulu}});
-                    foxtrot = options;
-                    romeo = mike;
-                    zulu = new foxtrot[zulu](romeo, yankee);
-                    yankee = zulu instanceof Object ? zulu : options;
-                    zulu = new Array(0);
+                    tangon = zuuluu.btoa;
+                    golfie = zuuluu.String;
+                    oscard = golfie.fromCharCode;
+                    zuuluu = zuuluu.Uint8Array;
+                    option = zuuluu.prototype;
+                    option = Object.create(option, {constructor: {value: zuuluu}});
+                    foxtra = option;
+                    romeon = michal;
+                    zuuluu = new foxtra[zuuluu](romeon, yankee);
+                    yankee = zuuluu instanceof Object ? zuuluu : option;
+                    zuuluu = new Array(0);
                     offset = 0;
-                    romeo = zulu;
-                    options = arraySpread(romeo, yankee, offset);
-                    romeo = oscar;
-                    yankee = zulu;
-                    offset = golf;
-                    zulu = apply(romeo, yankee, offset);
-                    zulu = tango.bind(report)(zulu);
-                    return zulu;
+                    romeon = zuuluu;
+                    option = arraySpread(romeon, yankee, offset);
+                    romeon = oscard;
+                    yankee = zuuluu;
+                    offset = golfie;
+                    zuuluu = apply(romeon, yankee, offset);
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    return zuuluu;
  217:
-                    return mike;
+                    return michal;
  220:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
@@ -152,39 +152,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 'purchase_token';
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     report = report.Millis;
-    options = report.DAY;
+    option = report.DAY;
     report = 60;
-    report = report * options;
+    report = report * option;
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/PurchaseTokenUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getPurchaseToken'] = tango;
-    mike = function() { // Original name: getPurchaseTokenHash
+    report = oscard.bind(golfie)(report);
+    zuuluu['getPurchaseToken'] = tangon;
+    michal = function() { // Original name: getPurchaseTokenHash
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = tango.apply;
+        tangon = _closure1_slot6;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['getPurchaseTokenHash'] = mike;
+    zuuluu['getPurchaseTokenHash'] = michal;
     return entity;
 })();

@@ -1,117 +1,117 @@
 // app/modules/public_guilds/PublicGuildsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.PUBLIC_GUILD_ANNOUNCEMENTS_GUILD_ID;
-    var _closure1_slot3 = golf;
-    golf = tango.PUBLIC_GUILD_UPDATES_WEBHOOK_USER_ID;
-    var _closure1_slot4 = golf;
-    tango = tango.ENABLE_COMMUNITY_FLOW_MODAL_KEY;
-    var _closure1_slot5 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot6 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/public_guilds/PublicGuildsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isPublicSystemMessage
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.PUBLIC_GUILD_ANNOUNCEMENTS_GUILD_ID;
+    var _closure1_slot3 = golfie;
+    golfie = tangon.PUBLIC_GUILD_UPDATES_WEBHOOK_USER_ID;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.ENABLE_COMMUNITY_FLOW_MODAL_KEY;
+    var _closure1_slot5 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot6 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/public_guilds/PublicGuildsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isPublicSystemMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot1;
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = 2;
-            entity = mike[entity];
-            mike = undefined;
-            entity = report.bind(mike)(entity);
-            entity = entity.bind(mike)(tango);
+            entity = michal[entity];
+            michal = undefined;
+            entity = report.bind(michal)(entity);
+            entity = entity.bind(michal)(tangon);
             if(!entity) { _fun00002_ip = 55; continue _fun00001 }
  36:
-            mike = tango.messageReference;
-            report = mike.guild_id;
-            mike = _closure1_slot3;
-            entity = report === mike;
+            michal = tangon.messageReference;
+            report = michal.guild_id;
+            michal = _closure1_slot3;
+            entity = report === michal;
  55:
             if(entity) { _fun00002_ip = 95; continue _fun00001 }
  58:
-            report = tango.author;
-            mike = null;
-            mike = mike != report;
-            if(!mike) { _fun00002_ip = 92; continue _fun00001 }
+            report = tangon.author;
+            michal = null;
+            michal = michal != report;
+            if(!michal) { _fun00002_ip = 92; continue _fun00001 }
  73:
-            tango = tango.author;
-            tango = tango.id;
-            zulu = _closure1_slot4;
-            mike = tango === zulu;
+            tangon = tangon.author;
+            tangon = tangon.id;
+            zuuluu = _closure1_slot4;
+            michal = tangon === zuuluu;
  92:
-            entity = mike;
+            entity = michal;
  95:
             return entity;
         }
     };
-    zulu['isPublicSystemMessage'] = tango;
-    tango = function() { // Original name: getPublicSystemMessageAvatar
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['isPublicSystemMessage'] = tangon;
+    tangon = function() { // Original name: getPublicSystemMessageAvatar
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 3;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['getPublicSystemMessageAvatar'] = tango;
-    mike = function(argFoo) {
-        oscar = argFoo;
-        zulu = _closure1_slot1;
+    zuuluu['getPublicSystemMessageAvatar'] = tangon;
+    michal = function(argFoo) {
+        oscard = argFoo;
+        zuuluu = _closure1_slot1;
         verify = _closure1_slot2;
         entity = 4;
-        mike = verify[entity];
+        michal = verify[entity];
         entity = undefined;
-        report = zulu.bind(entity)(mike);
-        tango = report.track;
-        mike = _closure1_slot6;
-        zulu = mike.USER_FLOW_TRANSITION;
-        mike = {};
-        options = _closure1_slot5;
-        mike['flow_type'] = options;
-        options = oscar.fromStep;
-        mike['from_step'] = options;
-        options = oscar.toStep;
-        mike['to_step'] = options;
-        options = _closure1_slot0;
-        golf = 5;
-        golf = verify[golf];
-        options = options.bind(entity)(golf);
-        golf = options.collectGuildAnalyticsMetadata;
-        oscar = oscar.guildId;
-        offset = golf.bind(options)(oscar);
-        yankee = mike;
-        oscar = copyDataProperties(yankee, offset);
-        mike = tango.bind(report)(zulu, mike);
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.track;
+        michal = _closure1_slot6;
+        zuuluu = michal.USER_FLOW_TRANSITION;
+        michal = {};
+        option = _closure1_slot5;
+        michal['flow_type'] = option;
+        option = oscard.fromStep;
+        michal['from_step'] = option;
+        option = oscard.toStep;
+        michal['to_step'] = option;
+        option = _closure1_slot0;
+        golfie = 5;
+        golfie = verify[golfie];
+        option = option.bind(entity)(golfie);
+        golfie = option.collectGuildAnalyticsMetadata;
+        oscard = oscard.guildId;
+        offset = golfie.bind(option)(oscard);
+        yankee = michal;
+        oscard = copyDataProperties(yankee, offset);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['trackEnableCommunityFlow'] = mike;
+    zuuluu['trackEnableCommunityFlow'] = michal;
     return entity;
 })();

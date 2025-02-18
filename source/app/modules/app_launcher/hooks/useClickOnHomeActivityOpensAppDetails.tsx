@@ -1,57 +1,57 @@
 // app/modules/app_launcher/hooks/useClickOnHomeActivityOpensAppDetails.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/hooks/useClickOnHomeActivityOpensAppDetails.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useClickOnHomeActivityOpensAppDetails
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/hooks/useClickOnHomeActivityOpensAppDetails.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useClickOnHomeActivityOpensAppDetails
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
             entity = 0;
             entity = report[entity];
-            zulu = undefined;
-            entity = tango.bind(zulu)(entity);
-            mike = entity.DeveloperMode;
-            entity = mike.useSetting;
-            mike = entity.bind(mike)();
+            zuuluu = undefined;
+            entity = tangon.bind(zuuluu)(entity);
+            michal = entity.DeveloperMode;
+            entity = michal.useSetting;
+            michal = entity.bind(michal)();
             entity = 1;
             entity = report[entity];
-            entity = tango.bind(zulu)(entity);
+            entity = tangon.bind(zuuluu)(entity);
             report = entity.OpenPlatformAppLauncherHoldoutExperiment;
-            tango = report.useExperiment;
-            zulu = {};
+            tangon = report.useExperiment;
+            zuuluu = {};
             entity = argFoo;
-            zulu['location'] = entity;
+            zuuluu['location'] = entity;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = tango.bind(report)(zulu, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
             entity = entity.clickOnHomeActivityOpensAppDetail;
             if(entity) { _fun00002_ip = 100; continue _fun00001 }
  97:
-            entity = mike;
+            entity = michal;
  100:
             return entity;
         }
     };
-    zulu['useClickOnHomeActivityOpensAppDetails'] = mike;
+    zuuluu['useClickOnHomeActivityOpensAppDetails'] = michal;
     return entity;
 })();

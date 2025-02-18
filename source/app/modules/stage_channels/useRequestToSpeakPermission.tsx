@@ -1,126 +1,126 @@
 // app/modules/stage_channels/useRequestToSpeakPermission.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    options = argCorge;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    option = argCor;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, tango);
+    entity = verify.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = options.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/useRequestToSpeakPermission.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useRequestToSpeakPermission
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/useRequestToSpeakPermission.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useRequestToSpeakPermission
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            var _closure2_slot0 = zulu;
-            golf = _closure1_slot0;
-            oscar = _closure1_slot2;
-            tango = 4;
-            tango = oscar[tango];
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot2;
+            tangon = 4;
+            tangon = oscard[tangon];
             report = undefined;
-            verify = golf.bind(report)(tango);
-            options = verify.useStateFromStores;
-            tango = _closure1_slot5;
-            golf = new Array(1);
-            golf[0] = tango;
-            tango = new Array(1);
-            tango[0] = zulu;
-            zulu = function() {
-                zulu = _closure1_slot5;
-                mike = zulu.getChannel;
+            verify = golfie.bind(report)(tangon);
+            option = verify.useStateFromStores;
+            tangon = _closure1_slot5;
+            golfie = new Array(1);
+            golfie[0] = tangon;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = function() {
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            golf = options.bind(verify)(golf, zulu, tango);
-            var _closure2_slot1 = golf;
-            tango = _closure1_slot1;
-            zulu = 5;
-            zulu = oscar[zulu];
-            oscar = tango.bind(report)(zulu);
-            tango = oscar.canEveryoneRole;
-            zulu = _closure1_slot6;
-            zulu = zulu.REQUEST_TO_SPEAK;
-            tango = tango.bind(oscar)(zulu, golf);
-            oscar = _closure1_slot4;
-            zulu = oscar.useState;
-            oscar = zulu.bind(oscar)(tango);
-            zulu = _closure1_slot3;
+            golfie = option.bind(verify)(golfie, zuuluu, tangon);
+            var _closure2_slot1 = golfie;
+            tangon = _closure1_slot1;
+            zuuluu = 5;
+            zuuluu = oscard[zuuluu];
+            oscard = tangon.bind(report)(zuuluu);
+            tangon = oscard.canEveryoneRole;
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.REQUEST_TO_SPEAK;
+            tangon = tangon.bind(oscard)(zuuluu, golfie);
+            oscard = _closure1_slot4;
+            zuuluu = oscard.useState;
+            oscard = zuuluu.bind(oscard)(tangon);
+            zuuluu = _closure1_slot3;
             entity = 2;
-            oscar = zulu.bind(report)(oscar, entity);
+            oscard = zuuluu.bind(report)(oscard, entity);
             entity = 0;
-            zulu = oscar[entity];
+            zuuluu = oscard[entity];
             entity = 1;
-            entity = oscar[entity];
+            entity = oscard[entity];
             var _closure2_slot2 = entity;
-            if(!(tango !== zulu)) { _fun00002_ip = 168; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 168; continue _fun00001 }
  163:
-            entity = entity.bind(report)(tango);
+            entity = entity.bind(report)(tangon);
  168:
             entity = new Array(2);
-            entity[0] = zulu;
-            mike = function(argFoo) {
+            entity[0] = zuuluu;
+            michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
-                    zulu = _closure2_slot1;
+                    zuuluu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun00004_ip = 77; continue _fun00003 }
+                    if(!(entity != zuuluu)) { _fun00004_ip = 77; continue _fun00003 }
  16:
                     entity = _closure2_slot2;
-                    oscar = undefined;
-                    entity = entity.bind(oscar)(report);
-                    tango = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 6;
-                    zulu = golf[zulu];
-                    tango = tango.bind(oscar)(zulu);
-                    zulu = tango.setEveryoneRolePermissionAllowed;
-                    mike = _closure2_slot1;
+                    oscard = undefined;
+                    entity = entity.bind(oscard)(report);
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 6;
+                    zuuluu = golfie[zuuluu];
+                    tangon = tangon.bind(oscard)(zuuluu);
+                    zuuluu = tangon.setEveryoneRolePermissionAllowed;
+                    michal = _closure2_slot1;
                     entity = _closure1_slot6;
                     entity = entity.REQUEST_TO_SPEAK;
-                    entity = zulu.bind(tango)(mike, entity, report);
+                    entity = zuuluu.bind(tangon)(michal, entity, report);
  77:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity[1] = mike;
+            entity[1] = michal;
             return entity;
         }
     };
-    zulu['useRequestToSpeakPermission'] = mike;
+    zuuluu['useRequestToSpeakPermission'] = michal;
     return entity;
 })();

@@ -1,97 +1,97 @@
 // app/modules/guild_automod/AutomodAlert.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 1;
-    mike['SET_COMPLETED'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 1;
+    michal['SET_COMPLETED'] = tangon;
     entity = 'SET_COMPLETED';
-    mike[tango] = entity;
-    tango = 2;
-    mike['UNSET_COMPLETED'] = tango;
+    michal[tangon] = entity;
+    tangon = 2;
+    michal['UNSET_COMPLETED'] = tangon;
     entity = 'UNSET_COMPLETED';
-    mike[tango] = entity;
-    tango = 3;
-    mike['DELETE_USER_MESSAGE'] = tango;
+    michal[tangon] = entity;
+    tangon = 3;
+    michal['DELETE_USER_MESSAGE'] = tangon;
     entity = 'DELETE_USER_MESSAGE';
-    mike[tango] = entity;
-    tango = 4;
-    mike['SUBMIT_FEEDBACK'] = tango;
+    michal[tangon] = entity;
+    tangon = 4;
+    michal['SUBMIT_FEEDBACK'] = tangon;
     entity = 'SUBMIT_FEEDBACK';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_automod/AutomodAlert.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['AutomodAlertActionType'] = mike;
-    mike = function(argFoo) { // Original name: parseAlertActionsExecution
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_automod/AutomodAlert.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['AutomodAlertActionType'] = michal;
+    michal = function(argFoo) { // Original name: parseAlertActionsExecution
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 123; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 123; continue _fun00001 }
  11:
-            mike = zulu;
-            report = entity == zulu;
-            zulu = null;
+            michal = zuuluu;
+            report = entity == zuuluu;
+            zuuluu = null;
             if(report) { _fun00002_ip = 51; continue _fun00001 }
  23: // try_start_0
             report = global;
-            oscar = report.JSON;
-            report = oscar.parse;
-            mike = report.bind(oscar)(mike);
+            oscard = report.JSON;
+            report = oscard.parse;
+            michal = report.bind(oscard)(michal);
  42: // try_end0
-            zulu = mike;
+            zuuluu = michal;
             _fun00002_ip = 51; continue _fun00001;
  47: // catch_target0
             CatchBlockStart(arg_register=1);
-            zulu = null;
+            zuuluu = null;
  51:
-            var _closure2_slot0 = zulu;
-            report = entity == zulu;
-            mike = null;
+            var _closure2_slot0 = zuuluu;
+            report = entity == zuuluu;
+            michal = null;
             if(report) { _fun00002_ip = 121; continue _fun00001 }
  64:
-            report = zulu.actions;
+            report = zuuluu.actions;
             report = entity == report;
-            mike = null;
+            michal = null;
             if(report) { _fun00002_ip = 121; continue _fun00001 }
  79:
             report = global;
-            golf = report.Object;
-            oscar = golf.keys;
-            report = zulu.actions;
-            oscar = oscar.bind(golf)(report);
-            report = oscar.forEach;
-            tango = function(argFoo) {
-                mike = argFoo;
+            golfie = report.Object;
+            oscard = golfie.keys;
+            report = zuuluu.actions;
+            oscard = oscard.bind(golfie)(report);
+            report = oscard.forEach;
+            tangon = function(argFoo) {
+                michal = argFoo;
                 entity = _closure2_slot0;
                 entity = entity.actions;
-                entity = entity[mike];
-                entity['actionType'] = mike;
+                entity = entity[michal];
+                entity['actionType'] = michal;
                 entity = undefined;
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            mike = zulu;
+            tangon = report.bind(oscard)(tangon);
+            michal = zuuluu;
  121:
-            return mike;
+            return michal;
  123:
             return entity;
         }
     };
-    zulu['parseAlertActionsExecution'] = mike;
+    zuuluu['parseAlertActionsExecution'] = michal;
     return entity;
 })();

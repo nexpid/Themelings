@@ -1,90 +1,90 @@
 // app/modules/main_tabs_v2/native/tabs/messages/useMessagePreviews.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    mike = function(argFoo) { // Original name: useMessagePreviewSetting
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    michal = function(argFoo) { // Original name: useMessagePreviewSetting
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot2;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot3;
-                mike = mike.settings;
-                report = mike.guilds;
-                oscar = _closure2_slot0;
-                zulu = null;
-                tango = zulu != oscar;
-                mike = null;
-                if(!tango) { _fun00002_ip = 89; continue _fun00001 }
+                michal = _closure1_slot3;
+                michal = michal.settings;
+                report = michal.guilds;
+                oscard = _closure2_slot0;
+                zuuluu = null;
+                tangon = zuuluu != oscard;
+                michal = null;
+                if(!tangon) { _fun00002_ip = 89; continue _fun00001 }
  37:
-                options = zulu == report;
-                tango = undefined;
-                if(options) { _fun00002_ip = 86; continue _fun00001 }
+                option = zuuluu == report;
+                tangon = undefined;
+                if(option) { _fun00002_ip = 86; continue _fun00001 }
  46:
                 report = report.guilds;
-                report = report[oscar];
-                oscar = zulu == report;
-                tango = undefined;
-                if(oscar) { _fun00002_ip = 86; continue _fun00001 }
+                report = report[oscard];
+                oscard = zuuluu == report;
+                tangon = undefined;
+                if(oscard) { _fun00002_ip = 86; continue _fun00001 }
  65:
                 report = report.mobileRedesignChannelListSettings;
-                oscar = zulu == report;
-                tango = undefined;
-                if(oscar) { _fun00002_ip = 86; continue _fun00001 }
+                oscard = zuuluu == report;
+                tangon = undefined;
+                if(oscard) { _fun00002_ip = 86; continue _fun00001 }
  80:
-                tango = report.messagePreviews;
+                tangon = report.messagePreviews;
  86:
-                mike = tango;
+                michal = tangon;
  89:
-                if(!(zulu != mike)) { _fun00002_ip = 139; continue _fun00001 }
+                if(!(zuuluu != michal)) { _fun00002_ip = 139; continue _fun00001 }
  93:
                 report = _closure1_slot0;
-                tango = _closure1_slot2;
-                zulu = 2;
-                tango = tango[zulu];
-                zulu = undefined;
-                zulu = report.bind(zulu)(tango);
-                report = zulu.ValidMessagePreviewTypes;
-                tango = report.has;
-                zulu = mike.value;
-                zulu = tango.bind(report)(zulu);
-                if(zulu) { _fun00002_ip = 179; continue _fun00001 }
+                tangon = _closure1_slot2;
+                zuuluu = 2;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                zuuluu = report.bind(zuuluu)(tangon);
+                report = zuuluu.ValidMessagePreviewTypes;
+                tangon = report.has;
+                zuuluu = michal.value;
+                zuuluu = tangon.bind(report)(zuuluu);
+                if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
  139:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot2;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
                 entity = 2;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                entity = tango.bind(entity)(zulu);
-                zulu = entity.MessagePreviewSetting;
-                entity = zulu.getSetting;
-                entity = entity.bind(zulu)();
+                entity = tangon.bind(entity)(zuuluu);
+                zuuluu = entity.MessagePreviewSetting;
+                entity = zuuluu.getSetting;
+                entity = entity.bind(zuuluu)();
                 _fun00002_ip = 184; continue _fun00001;
  179:
-                entity = mike.value;
+                entity = michal.value;
  184:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot5 = mike;
+    var _closure1_slot5 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -92,106 +92,106 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/main_tabs_v2/native/tabs/messages/useMessagePreviews.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo, argBar) { // Original name: useMessagePreview
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo, argBar) { // Original name: useMessagePreview
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            golf = argBar;
-            var _closure2_slot0 = tango;
-            oscar = _closure1_slot5;
-            report = tango.guild_id;
-            zulu = undefined;
-            options = oscar.bind(zulu)(report);
-            oscar = _closure1_slot0;
+            tangon = argFoo;
+            golfie = argBar;
+            var _closure2_slot0 = tangon;
+            oscard = _closure1_slot5;
+            report = tangon.guild_id;
+            zuuluu = undefined;
+            option = oscard.bind(zuuluu)(report);
+            oscard = _closure1_slot0;
             verify = _closure1_slot2;
             report = 3;
             report = verify[report];
-            offset = oscar.bind(zulu)(report);
-            oscar = offset.useStateFromStores;
+            offset = oscard.bind(zuuluu)(report);
+            oscard = offset.useStateFromStores;
             yankee = _closure1_slot4;
             report = new Array(1);
             report[0] = yankee;
-            mike = function() {
+            michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    zulu = _closure2_slot0;
+                    zuuluu = _closure2_slot0;
                     entity = null;
-                    entity = entity != zulu;
+                    entity = entity != zuuluu;
                     if(!entity) { _fun00006_ip = 43; continue _fun00005 }
  16:
-                    tango = _closure1_slot4;
-                    zulu = tango.hasUnread;
-                    mike = _closure2_slot0;
-                    mike = mike.id;
-                    entity = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot4;
+                    zuuluu = tangon.hasUnread;
+                    michal = _closure2_slot0;
+                    michal = michal.id;
+                    entity = zuuluu.bind(tangon)(michal);
  43:
                     return entity;
                 }
             };
-            oscar = oscar.bind(offset)(report, mike);
+            oscard = oscard.bind(offset)(report, michal);
             report = _closure1_slot1;
-            mike = 4;
-            mike = verify[mike];
-            mike = report.bind(zulu)(mike);
-            mike = mike.bind(zulu)(tango);
-            if(mike) { _fun00004_ip = 141; continue _fun00003 }
+            michal = 4;
+            michal = verify[michal];
+            michal = report.bind(zuuluu)(michal);
+            michal = michal.bind(zuuluu)(tangon);
+            if(michal) { _fun00004_ip = 141; continue _fun00003 }
  105:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             report = 5;
             report = offset[report];
-            report = verify.bind(zulu)(report);
+            report = verify.bind(zuuluu)(report);
             report = report.MessagePreviewTypes;
             report = report.NONE;
-            mike = options === report;
+            michal = option === report;
  141:
-            if(mike) { _fun00004_ip = 198; continue _fun00003 }
+            if(michal) { _fun00004_ip = 198; continue _fun00003 }
  144:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             report = 5;
             report = offset[report];
-            report = verify.bind(zulu)(report);
+            report = verify.bind(zuuluu)(report);
             report = report.MessagePreviewTypes;
             report = report.UNREADS;
-            report = options === report;
+            report = option === report;
             if(!report) { _fun00004_ip = 195; continue _fun00003 }
  183:
-            options = null;
-            if(!(options != golf)) { _fun00004_ip = 192; continue _fun00003 }
+            option = null;
+            if(!(option != golfie)) { _fun00004_ip = 192; continue _fun00003 }
  189:
-            oscar = golf;
+            oscard = golfie;
  192:
-            report = !oscar;
+            report = !oscard;
  195:
-            mike = report;
+            michal = report;
  198:
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 6;
-            entity = oscar[entity];
-            entity = report.bind(zulu)(entity);
-            entity = entity.bind(zulu)(tango, mike);
+            entity = oscard[entity];
+            entity = report.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)(tangon, michal);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['useMessagePreviewSetting'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['useMessagePreviewSetting'] = michal;
     return entity;
 })();

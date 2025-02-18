@@ -1,377 +1,377 @@
 // app/modules/guild_role_subscriptions/native/mobile_web_purchase/RoleSubscriptionsLinkingUtil.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
-    golf = function() { // Original name: performRoleSubscriptionUpsellRedirect
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
+    golfie = function() { // Original name: performRoleSubscriptionUpsellRedirect
         entity = undefined;
-        tango = _closure1_slot8;
-        zulu = tango.apply;
+        tangon = _closure1_slot8;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot7 = golf;
+    var _closure1_slot7 = golfie;
     entity = function() { // Original name: _performRoleSubscriptionUpsellRedirect
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 212; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 212; continue _fun00001 }
  10:
-                    tango = undefined;
+                    tangon = undefined;
                     report = undefined;
-                    options = _closure1_slot5;
-                    golf = options.CHANNEL;
-                    zulu = _closure1_slot6;
-                    oscar = zulu.ROLE_SUBSCRIPTIONS;
-                    zulu = argFoo;
-                    report = golf.bind(options)(zulu, oscar);
+                    option = _closure1_slot5;
+                    golfie = option.CHANNEL;
+                    zuuluu = _closure1_slot6;
+                    oscard = zuuluu.ROLE_SUBSCRIPTIONS;
+                    zuuluu = argFoo;
+                    report = golfie.bind(option)(zuuluu, oscard);
  46: // try_start_0
-                    golf = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    oscar = 4;
-                    oscar = zulu[oscar];
-                    golf = golf.bind(tango)(oscar);
-                    oscar = 3;
-                    oscar = zulu[oscar];
-                    zulu = zulu.paths;
-                    zulu = golf.bind(tango)(oscar, zulu);
+                    golfie = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    oscard = 4;
+                    oscard = zuuluu[oscard];
+                    golfie = golfie.bind(tangon)(oscard);
+                    oscard = 3;
+                    oscard = zuuluu[oscard];
+                    zuuluu = zuuluu.paths;
+                    zuuluu = golfie.bind(tangon)(oscard, zuuluu);
                     SaveGenerator(address=88);
  86:
-                    return zulu;
+                    return zuuluu;
  88:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 139; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 139; continue _fun00001 }
  94:
-                    verify = zulu.default;
-                    options = verify.redirectWithHandoffToken;
-                    golf = report;
+                    verify = zuuluu.default;
+                    option = verify.redirectWithHandoffToken;
+                    golfie = report;
                     report = {};
-                    oscar = true;
-                    report['forceExternalBrowser'] = oscar;
-                    report = options.bind(verify)(golf, report);
+                    oscard = true;
+                    report['forceExternalBrowser'] = oscard;
+                    report = option.bind(verify)(golfie, report);
                     SaveGenerator(address=127);
  125:
                     return report;
  127:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 136; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 136; continue _fun00001 }
  133: // try_end0
-                    return oscar;
+                    return oscard;
  136:
                     return report;
  139:
-                    return zulu;
+                    return zuuluu;
  142: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    zulu = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    mike = 5;
-                    mike = oscar[mike];
-                    tango = zulu.bind(tango)(mike);
-                    mike = tango.prototype;
-                    zulu = Object.create(mike, {constructor: {value: tango}});
-                    romeo = 'RoleSubscriptionsLinkingUtil';
-                    foxtrot = zulu;
-                    mike = new foxtrot[tango](romeo, yankee);
-                    tango = mike instanceof Object ? mike : zulu;
-                    zulu = tango.error;
-                    mike = 'Could not perform handoff';
-                    mike = zulu.bind(tango)(mike, report);
-                    mike = false;
-                    return mike;
+                    zuuluu = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    michal = 5;
+                    michal = oscard[michal];
+                    tangon = zuuluu.bind(tangon)(michal);
+                    michal = tangon.prototype;
+                    zuuluu = Object.create(michal, {constructor: {value: tangon}});
+                    romeon = 'RoleSubscriptionsLinkingUtil';
+                    foxtra = zuuluu;
+                    michal = new foxtra[tangon](romeon, yankee);
+                    tangon = michal instanceof Object ? michal : zuuluu;
+                    zuuluu = tangon.error;
+                    michal = 'Could not perform handoff';
+                    michal = zuuluu.bind(tangon)(michal, report);
+                    michal = false;
+                    return michal;
  212:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot8 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot8 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _performRoleSubscriptionTeamCreationRedirect
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 47; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 47; continue _fun00003 }
  7:
-                    zulu = _closure1_slot4;
-                    tango = zulu.DEVELOPER_PORTAL_TEAMS;
-                    mike = _closure1_slot11;
-                    zulu = undefined;
-                    mike = mike.bind(zulu)(tango);
+                    zuuluu = _closure1_slot4;
+                    tangon = zuuluu.DEVELOPER_PORTAL_TEAMS;
+                    michal = _closure1_slot11;
+                    zuuluu = undefined;
+                    michal = michal.bind(zuuluu)(tangon);
                     SaveGenerator(address=35);
  33:
-                    return mike;
+                    return michal;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00004_ip = 44; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 44; continue _fun00003 }
  41:
-                    return zulu;
+                    return zuuluu;
  44:
-                    return mike;
+                    return michal;
  47:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _performRoleSubscriptionEditPayoutRedirect
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 55; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 55; continue _fun00005 }
  7:
                     report = _closure1_slot4;
-                    tango = report.DEVELOPER_PORTAL_EDIT_PAYOUTS;
-                    zulu = argFoo;
-                    tango = tango.bind(report)(zulu);
-                    mike = _closure1_slot11;
-                    zulu = undefined;
-                    mike = mike.bind(zulu)(tango);
+                    tangon = report.DEVELOPER_PORTAL_EDIT_PAYOUTS;
+                    zuuluu = argFoo;
+                    tangon = tangon.bind(report)(zuuluu);
+                    michal = _closure1_slot11;
+                    zuuluu = undefined;
+                    michal = michal.bind(zuuluu)(tangon);
                     SaveGenerator(address=43);
  41:
-                    return mike;
+                    return michal;
  43:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00006_ip = 52; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 52; continue _fun00005 }
  49:
-                    return zulu;
+                    return zuuluu;
  52:
-                    return mike;
+                    return michal;
  55:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot10 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot10 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: performDeveloperPortalRedirectWithTokenHandoff
         entity = undefined;
-        tango = _closure1_slot12;
-        zulu = tango.apply;
+        tangon = _closure1_slot12;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _performDeveloperPortalRedirectWithTokenHandoff
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00008_ip = 178; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 178; continue _fun00007 }
  10:
-                    zulu = argFoo;
+                    zuuluu = argFoo;
  13: // try_start_0
                     report = _closure1_slot0;
-                    mike = _closure1_slot2;
-                    tango = 4;
-                    tango = mike[tango];
-                    oscar = undefined;
-                    report = report.bind(oscar)(tango);
-                    tango = 3;
-                    tango = mike[tango];
-                    mike = mike.paths;
-                    mike = report.bind(oscar)(tango, mike);
+                    michal = _closure1_slot2;
+                    tangon = 4;
+                    tangon = michal[tangon];
+                    oscard = undefined;
+                    report = report.bind(oscard)(tangon);
+                    tangon = 3;
+                    tangon = michal[tangon];
+                    michal = michal.paths;
+                    michal = report.bind(oscard)(tangon, michal);
                     SaveGenerator(address=60);
  58:
-                    return mike;
+                    return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00008_ip = 100; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 100; continue _fun00007 }
  66:
-                    report = mike.default;
-                    tango = report.redirectDeveloperPortalWithHandoffToken;
-                    zulu = tango.bind(report)(zulu);
+                    report = michal.default;
+                    tangon = report.redirectDeveloperPortalWithHandoffToken;
+                    zuuluu = tangon.bind(report)(zuuluu);
                     SaveGenerator(address=86);
  84:
-                    return zulu;
+                    return zuuluu;
  86:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00008_ip = 97; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 97; continue _fun00007 }
  92: // try_end0
-                    tango = true;
-                    return tango;
+                    tangon = true;
+                    return tangon;
  97:
-                    return zulu;
+                    return zuuluu;
  100:
-                    return mike;
+                    return michal;
  103: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 5;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    mike = tango.prototype;
-                    zulu = Object.create(mike, {constructor: {value: tango}});
-                    options = 'RoleSubscriptionsLinkingUtil';
-                    verify = zulu;
-                    mike = new verify[tango](options, golf);
-                    tango = mike instanceof Object ? mike : zulu;
-                    zulu = tango.error;
-                    mike = 'Could not perform handoff for the developer portal';
-                    mike = zulu.bind(tango)(mike, report);
-                    mike = false;
-                    return mike;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 5;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    michal = tangon.prototype;
+                    zuuluu = Object.create(michal, {constructor: {value: tangon}});
+                    option = 'RoleSubscriptionsLinkingUtil';
+                    verify = zuuluu;
+                    michal = new verify[tangon](option, golfie);
+                    tangon = michal instanceof Object ? michal : zuuluu;
+                    zuuluu = tangon.error;
+                    michal = 'Could not perform handoff for the developer portal';
+                    michal = zuuluu.bind(tangon)(michal, report);
+                    michal = false;
+                    return michal;
  178:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot12 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot12 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot12 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    mike = {};
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, mike);
+    entity = verify.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = options.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.RelativeMarketingURLs;
-    var _closure1_slot4 = options;
-    mike = mike.Routes;
-    var _closure1_slot5 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.StaticChannelRoute;
-    var _closure1_slot6 = mike;
-    mike = {};
-    mike['performRoleSubscriptionUpsellRedirect'] = golf;
-    golf = function() { // Original name: performRoleSubscriptionTeamCreationRedirect
+    michal = option.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.RelativeMarketingURLs;
+    var _closure1_slot4 = option;
+    michal = michal.Routes;
+    var _closure1_slot5 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.StaticChannelRoute;
+    var _closure1_slot6 = michal;
+    michal = {};
+    michal['performRoleSubscriptionUpsellRedirect'] = golfie;
+    golfie = function() { // Original name: performRoleSubscriptionTeamCreationRedirect
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['performRoleSubscriptionTeamCreationRedirect'] = golf;
-    golf = function() { // Original name: performRoleSubscriptionEditPayoutRedirect
+    michal['performRoleSubscriptionTeamCreationRedirect'] = golfie;
+    golfie = function() { // Original name: performRoleSubscriptionEditPayoutRedirect
         entity = undefined;
-        tango = _closure1_slot10;
-        zulu = tango.apply;
+        tangon = _closure1_slot10;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['performRoleSubscriptionEditPayoutRedirect'] = golf;
-    tango = function(argFoo) { // Original name: maybePerformRoleSubscriptionUpsellRedirect
+    michal['performRoleSubscriptionEditPayoutRedirect'] = golfie;
+    tangon = function(argFoo) { // Original name: maybePerformRoleSubscriptionUpsellRedirect
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
-            zulu = entity.guildId;
-            tango = entity.channelId;
+            zuuluu = entity.guildId;
+            tangon = entity.channelId;
             entity = null;
-            if(!(entity != zulu)) { _fun00010_ip = 49; continue _fun00009 }
+            if(!(entity != zuuluu)) { _fun00010_ip = 49; continue _fun00009 }
  19:
-            mike = _closure1_slot6;
-            mike = mike.ROLE_SUBSCRIPTIONS;
-            if(!(tango === mike)) { _fun00010_ip = 49; continue _fun00009 }
+            michal = _closure1_slot6;
+            michal = michal.ROLE_SUBSCRIPTIONS;
+            if(!(tangon === michal)) { _fun00010_ip = 49; continue _fun00009 }
  36:
-            mike = _closure1_slot7;
+            michal = _closure1_slot7;
             entity = undefined;
-            entity = mike.bind(entity)(zulu);
+            entity = michal.bind(entity)(zuuluu);
             _fun00010_ip = 70; continue _fun00009;
  49:
-            mike = global;
-            tango = mike.Promise;
-            zulu = tango.resolve;
-            mike = false;
-            entity = zulu.bind(tango)(mike);
+            michal = global;
+            tangon = michal.Promise;
+            zuuluu = tangon.resolve;
+            michal = false;
+            entity = zuuluu.bind(tangon)(michal);
  70:
             return entity;
         }
     };
-    mike['maybePerformRoleSubscriptionUpsellRedirect'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/native/mobile_web_purchase/RoleSubscriptionsLinkingUtil.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['maybePerformRoleSubscriptionUpsellRedirect'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/native/mobile_web_purchase/RoleSubscriptionsLinkingUtil.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

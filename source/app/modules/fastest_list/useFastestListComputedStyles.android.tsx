@@ -1,49 +1,49 @@
 // app/modules/fastest_list/useFastestListComputedStyles.android.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.StyleSheet;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/useFastestListComputedStyles.android.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useFastestListComputedStyles
-        mike = argFoo;
-        report = mike.style;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.StyleSheet;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/useFastestListComputedStyles.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useFastestListComputedStyles
+        michal = argFoo;
+        report = michal.style;
         var _closure2_slot0 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot1;
-                mike = zulu.flatten;
+                zuuluu = _closure1_slot1;
+                michal = zuuluu.flatten;
                 entity = _closure2_slot0;
-                options = null;
-                if(!(options == entity)) { _fun00002_ip = 37; continue _fun00001 }
+                option = null;
+                if(!(option == entity)) { _fun00002_ip = 37; continue _fun00001 }
  26:
                 entity = {};
                 report = 1;
@@ -51,233 +51,233 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 _fun00002_ip = 71; continue _fun00001;
  37:
                 report = _closure2_slot0;
-                if(!(options == report)) { _fun00002_ip = 56; continue _fun00001 }
+                if(!(option == report)) { _fun00002_ip = 56; continue _fun00001 }
  45:
                 report = {};
-                oscar = 1;
-                report['flex'] = oscar;
+                oscard = 1;
+                report['flex'] = oscard;
                 _fun00002_ip = 60; continue _fun00001;
  56:
                 report = _closure2_slot0;
  60:
-                tango = new Array(1);
-                tango[0] = report;
-                entity = tango;
+                tangon = new Array(1);
+                tangon[0] = report;
+                entity = tangon;
  71:
-                oscar = mike.bind(zulu)(entity);
-                mike = options == oscar;
+                oscard = michal.bind(zuuluu)(entity);
+                michal = option == oscard;
                 entity = undefined;
-                if(mike) { _fun00002_ip = 91; continue _fun00001 }
+                if(michal) { _fun00002_ip = 91; continue _fun00001 }
  85:
-                entity = oscar.marginStart;
+                entity = oscard.marginStart;
  91:
-                if(!(options == entity)) { _fun00002_ip = 113; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 113; continue _fun00001 }
  95:
-                zulu = options == oscar;
-                mike = undefined;
-                if(zulu) { _fun00002_ip = 110; continue _fun00001 }
+                zuuluu = option == oscard;
+                michal = undefined;
+                if(zuuluu) { _fun00002_ip = 110; continue _fun00001 }
  104:
-                mike = oscar.marginLeft;
+                michal = oscard.marginLeft;
  110:
-                entity = mike;
+                entity = michal;
  113:
-                if(!(options == entity)) { _fun00002_ip = 135; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 135; continue _fun00001 }
  117:
-                zulu = options == oscar;
-                mike = undefined;
-                if(zulu) { _fun00002_ip = 132; continue _fun00001 }
+                zuuluu = option == oscard;
+                michal = undefined;
+                if(zuuluu) { _fun00002_ip = 132; continue _fun00001 }
  126:
-                mike = oscar.marginHorizontal;
+                michal = oscard.marginHorizontal;
  132:
-                entity = mike;
+                entity = michal;
  135:
-                if(!(options == entity)) { _fun00002_ip = 157; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 157; continue _fun00001 }
  139:
-                zulu = options == oscar;
-                mike = undefined;
-                if(zulu) { _fun00002_ip = 154; continue _fun00001 }
+                zuuluu = option == oscard;
+                michal = undefined;
+                if(zuuluu) { _fun00002_ip = 154; continue _fun00001 }
  148:
-                mike = oscar.margin;
+                michal = oscard.margin;
  154:
-                entity = mike;
+                entity = michal;
  157:
-                mike = options != entity;
-                zulu = 0;
-                if(!mike) { _fun00002_ip = 169; continue _fun00001 }
+                michal = option != entity;
+                zuuluu = 0;
+                if(!michal) { _fun00002_ip = 169; continue _fun00001 }
  166:
-                zulu = entity;
+                zuuluu = entity;
  169:
-                mike = options == oscar;
+                michal = option == oscard;
                 entity = undefined;
-                if(mike) { _fun00002_ip = 184; continue _fun00001 }
+                if(michal) { _fun00002_ip = 184; continue _fun00001 }
  178:
-                entity = oscar.paddingStart;
+                entity = oscard.paddingStart;
  184:
-                if(!(options == entity)) { _fun00002_ip = 206; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 206; continue _fun00001 }
  188:
-                tango = options == oscar;
-                mike = undefined;
-                if(tango) { _fun00002_ip = 203; continue _fun00001 }
+                tangon = option == oscard;
+                michal = undefined;
+                if(tangon) { _fun00002_ip = 203; continue _fun00001 }
  197:
-                mike = oscar.paddingLeft;
+                michal = oscard.paddingLeft;
  203:
-                entity = mike;
+                entity = michal;
  206:
-                if(!(options == entity)) { _fun00002_ip = 227; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 227; continue _fun00001 }
  210:
-                tango = options == oscar;
-                mike = undefined;
-                if(tango) { _fun00002_ip = 224; continue _fun00001 }
+                tangon = option == oscard;
+                michal = undefined;
+                if(tangon) { _fun00002_ip = 224; continue _fun00001 }
  219:
-                mike = oscar.paddingHorizontal;
+                michal = oscard.paddingHorizontal;
  224:
-                entity = mike;
+                entity = michal;
  227:
-                if(!(options == entity)) { _fun00002_ip = 248; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 248; continue _fun00001 }
  231:
-                tango = options == oscar;
-                mike = undefined;
-                if(tango) { _fun00002_ip = 245; continue _fun00001 }
+                tangon = option == oscard;
+                michal = undefined;
+                if(tangon) { _fun00002_ip = 245; continue _fun00001 }
  240:
-                mike = oscar.padding;
+                michal = oscard.padding;
  245:
-                entity = mike;
+                entity = michal;
  248:
-                tango = options != entity;
-                mike = 0;
-                if(!tango) { _fun00002_ip = 260; continue _fun00001 }
+                tangon = option != entity;
+                michal = 0;
+                if(!tangon) { _fun00002_ip = 260; continue _fun00001 }
  257:
-                mike = entity;
+                michal = entity;
  260:
-                golf = 'number';
-                entity = typeof zulu;
-                if(!(golf === entity)) { _fun00002_ip = 544; continue _fun00001 }
+                golfie = 'number';
+                entity = typeof zuuluu;
+                if(!(golfie === entity)) { _fun00002_ip = 544; continue _fun00001 }
  274:
-                entity = typeof mike;
-                if(!(golf === entity)) { _fun00002_ip = 544; continue _fun00001 }
+                entity = typeof michal;
+                if(!(golfie === entity)) { _fun00002_ip = 544; continue _fun00001 }
  284:
-                tango = options == oscar;
+                tangon = option == oscard;
                 entity = undefined;
-                if(tango) { _fun00002_ip = 299; continue _fun00001 }
+                if(tangon) { _fun00002_ip = 299; continue _fun00001 }
  293:
-                entity = oscar.marginEnd;
+                entity = oscard.marginEnd;
  299:
-                if(!(options == entity)) { _fun00002_ip = 321; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 321; continue _fun00001 }
  303:
-                offset = options == oscar;
-                tango = undefined;
+                offset = option == oscard;
+                tangon = undefined;
                 if(offset) { _fun00002_ip = 318; continue _fun00001 }
  312:
-                tango = oscar.marginRight;
+                tangon = oscard.marginRight;
  318:
-                entity = tango;
+                entity = tangon;
  321:
-                if(!(options == entity)) { _fun00002_ip = 343; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 343; continue _fun00001 }
  325:
-                offset = options == oscar;
-                tango = undefined;
+                offset = option == oscard;
+                tangon = undefined;
                 if(offset) { _fun00002_ip = 340; continue _fun00001 }
  334:
-                tango = oscar.marginHorizontal;
+                tangon = oscard.marginHorizontal;
  340:
-                entity = tango;
+                entity = tangon;
  343:
-                if(!(options == entity)) { _fun00002_ip = 365; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 365; continue _fun00001 }
  347:
-                offset = options == oscar;
-                tango = undefined;
+                offset = option == oscard;
+                tangon = undefined;
                 if(offset) { _fun00002_ip = 362; continue _fun00001 }
  356:
-                tango = oscar.margin;
+                tangon = oscard.margin;
  362:
-                entity = tango;
+                entity = tangon;
  365:
-                offset = options != entity;
-                tango = 0;
+                offset = option != entity;
+                tangon = 0;
                 if(!offset) { _fun00002_ip = 377; continue _fun00001 }
  374:
-                tango = entity;
+                tangon = entity;
  377:
-                offset = options == oscar;
+                offset = option == oscard;
                 entity = undefined;
                 if(offset) { _fun00002_ip = 392; continue _fun00001 }
  386:
-                entity = oscar.paddingEnd;
+                entity = oscard.paddingEnd;
  392:
-                if(!(options == entity)) { _fun00002_ip = 414; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 414; continue _fun00001 }
  396:
-                yankee = options == oscar;
+                yankee = option == oscard;
                 offset = undefined;
                 if(yankee) { _fun00002_ip = 411; continue _fun00001 }
  405:
-                offset = oscar.paddingRight;
+                offset = oscard.paddingRight;
  411:
                 entity = offset;
  414:
-                if(!(options == entity)) { _fun00002_ip = 435; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 435; continue _fun00001 }
  418:
-                yankee = options == oscar;
+                yankee = option == oscard;
                 offset = undefined;
                 if(yankee) { _fun00002_ip = 432; continue _fun00001 }
  427:
-                offset = oscar.paddingHorizontal;
+                offset = oscard.paddingHorizontal;
  432:
                 entity = offset;
  435:
-                if(!(options == entity)) { _fun00002_ip = 456; continue _fun00001 }
+                if(!(option == entity)) { _fun00002_ip = 456; continue _fun00001 }
  439:
-                offset = options == oscar;
+                offset = option == oscard;
                 verify = undefined;
                 if(offset) { _fun00002_ip = 453; continue _fun00001 }
  448:
-                verify = oscar.padding;
+                verify = oscard.padding;
  453:
                 entity = verify;
  456:
-                options = options != entity;
+                option = option != entity;
                 report = 0;
-                if(!options) { _fun00002_ip = 468; continue _fun00001 }
+                if(!option) { _fun00002_ip = 468; continue _fun00001 }
  465:
                 report = entity;
  468:
-                entity = typeof tango;
-                if(!(golf === entity)) { _fun00002_ip = 508; continue _fun00001 }
+                entity = typeof tangon;
+                if(!(golfie === entity)) { _fun00002_ip = 508; continue _fun00001 }
  475:
                 entity = typeof report;
-                if(!(golf === entity)) { _fun00002_ip = 508; continue _fun00001 }
+                if(!(golfie === entity)) { _fun00002_ip = 508; continue _fun00001 }
  482:
                 entity = {};
-                entity['style'] = oscar;
-                tango = tango + report;
-                entity['marginEnd'] = tango;
-                mike = zulu + mike;
-                entity['marginStart'] = mike;
+                entity['style'] = oscard;
+                tangon = tangon + report;
+                entity['marginEnd'] = tangon;
+                michal = zuuluu + michal;
+                entity['marginStart'] = michal;
                 return entity;
  508:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                romeo = 'FastestList: paddingStart and paddingEnd must be numbers.';
-                foxtrot = mike;
-                entity = new foxtrot[zulu](romeo, yankee);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                romeon = 'FastestList: paddingStart and paddingEnd must be numbers.';
+                foxtra = michal;
+                entity = new foxtra[zuuluu](romeon, yankee);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
  544:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                romeo = 'FastestList: marginStart and marginEnd must be numbers.';
-                foxtrot = mike;
-                entity = new foxtrot[zulu](romeo, yankee);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                romeon = 'FastestList: marginStart and marginEnd must be numbers.';
+                foxtra = michal;
+                entity = new foxtra[zuuluu](romeon, yankee);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

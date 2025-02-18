@@ -1,54 +1,54 @@
 // app/modules/channel/canJoinVoiceChannel.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.isPrivate;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.BasicPermissions;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/channel/canJoinVoiceChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: canJoinVoiceChannel
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.isPrivate;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.BasicPermissions;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/channel/canJoinVoiceChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: canJoinVoiceChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = argBar;
-            oscar = _closure1_slot0;
-            zulu = report.type;
+            tangon = argBar;
+            oscard = _closure1_slot0;
+            zuuluu = report.type;
             entity = undefined;
-            entity = oscar.bind(entity)(zulu);
+            entity = oscard.bind(entity)(zuuluu);
             if(entity) { _fun00002_ip = 60; continue _fun00001 }
  28:
-            zulu = tango.canBasicChannel;
-            mike = _closure1_slot1;
-            oscar = mike.CONNECT;
-            mike = mike.VIEW_CHANNEL;
-            mike = oscar | mike;
-            entity = zulu.bind(tango)(mike, report);
+            zuuluu = tangon.canBasicChannel;
+            michal = _closure1_slot1;
+            oscard = michal.CONNECT;
+            michal = michal.VIEW_CHANNEL;
+            michal = oscard | michal;
+            entity = zuuluu.bind(tangon)(michal, report);
  60:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

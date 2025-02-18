@@ -1,68 +1,68 @@
 // discord_common/js/packages/media-engine/utils/transformStatsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/utils/transformStatsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) { // Original name: formatSinkWantStat
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/utils/transformStatsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) { // Original name: formatSinkWantStat
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = argBar;
-            mike = zulu[entity];
+            michal = zuuluu[entity];
             entity = null;
-            if(!(entity != mike)) { _fun00002_ip = 27; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 27; continue _fun00001 }
  16:
-            entity = mike.toString;
-            entity = entity.bind(mike)();
+            entity = michal.toString;
+            entity = entity.bind(michal)();
             _fun00002_ip = 77; continue _fun00001;
  27:
-            mike = '100';
-            tango = argBaz;
-            if(!tango) { _fun00002_ip = 74; continue _fun00001 }
+            michal = '100';
+            tangon = argBaz;
+            if(!tangon) { _fun00002_ip = 74; continue _fun00001 }
  39:
-            oscar = zulu.any;
-            zulu = global;
-            zulu = zulu.HermesInternal;
-            report = zulu.concat;
-            tango = '';
-            zulu = ' (any)';
-            mike = report.bind(tango)(oscar, zulu);
+            oscard = zuuluu.any;
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            report = zuuluu.concat;
+            tangon = '';
+            zuuluu = ' (any)';
+            michal = report.bind(tangon)(oscard, zuuluu);
  74:
-            entity = mike;
+            entity = michal;
  77:
             return entity;
         }
     };
-    zulu['formatSinkWantStat'] = tango;
-    mike = function(argFoo, argBar) { // Original name: formatSinkWantAsInt
+    zuuluu['formatSinkWantStat'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: formatSinkWantAsInt
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = argBar;
-            entity = mike[entity];
-            zulu = null;
-            if(!(zulu == entity)) { _fun00004_ip = 22; continue _fun00003 }
+            entity = michal[entity];
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00004_ip = 22; continue _fun00003 }
  16:
-            entity = mike.any;
+            entity = michal.any;
  22:
             return entity;
         }
     };
-    zulu['formatSinkWantAsInt'] = mike;
+    zuuluu['formatSinkWantAsInt'] = michal;
     return entity;
 })();

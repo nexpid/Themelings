@@ -1,45 +1,45 @@
 // app/modules/parent_tools/hooks/useAgeSpecificText.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/parent_tools/hooks/useAgeSpecificText.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) {
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/parent_tools/hooks/useAgeSpecificText.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = argBar;
+            michal = argBar;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 0;
-            zulu = tango[zulu];
-            tango = undefined;
-            zulu = report.bind(tango)(zulu);
-            zulu = zulu.bind(tango)();
-            if(!zulu) { _fun00002_ip = 40; continue _fun00001 }
+            tangon = _closure1_slot1;
+            zuuluu = 0;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.bind(tangon)();
+            if(!zuuluu) { _fun00002_ip = 40; continue _fun00001 }
  37:
-            entity = mike;
+            entity = michal;
  40:
             return entity;
         }
     };
-    zulu['useAgeSpecificText'] = mike;
+    zuuluu['useAgeSpecificText'] = michal;
     return entity;
 })();

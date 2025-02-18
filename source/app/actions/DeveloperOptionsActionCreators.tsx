@@ -1,42 +1,42 @@
 // app/actions/DeveloperOptionsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/DeveloperOptionsActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: setDeveloperOptionSettings
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/DeveloperOptionsActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: setDeveloperOptionSettings
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.dispatch;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.dispatch;
         entity = {};
-        tango = 'DEVELOPER_OPTIONS_UPDATE_SETTINGS';
-        entity['type'] = tango;
-        tango = argFoo;
-        entity['settings'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = 'DEVELOPER_OPTIONS_UPDATE_SETTINGS';
+        entity['type'] = tangon;
+        tangon = argFoo;
+        entity['settings'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['setDeveloperOptionSettings'] = mike;
+    zuuluu['setDeveloperOptionSettings'] = michal;
     return entity;
 })();

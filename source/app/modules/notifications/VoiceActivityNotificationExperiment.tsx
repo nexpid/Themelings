@@ -1,95 +1,95 @@
 // app/modules/notifications/VoiceActivityNotificationExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    foxtrot = true;
-    tango['value'] = foxtrot;
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    foxtra = true;
+    tangon['value'] = foxtra;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    report = tango.ChannelTypes;
+    tangon = golfie.bind(entity)(tangon);
+    report = tangon.ChannelTypes;
     var _closure1_slot0 = report;
-    tango = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    report = options[tango];
-    offset = golf.bind(entity)(report);
+    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    report = option[tangon];
+    offset = golfie.bind(entity)(report);
     verify = offset.createExperiment;
     report = {'kind': 'user', 'id': '2023-11_voice_activity_notification_user', 'label': 'Voice Activity Notifications for User'};
-    oscar = {};
-    romeo = false;
-    oscar['enabled'] = romeo;
-    report['defaultConfig'] = oscar;
-    oscar = {'id': 1, 'label': 'Voice Activity Notifications are enabled for user'};
+    oscard = {};
+    romeon = false;
+    oscard['enabled'] = romeon;
+    report['defaultConfig'] = oscard;
+    oscard = {'id': 1, 'label': 'Voice Activity Notifications are enabled for user'};
     yankee = {};
-    yankee['enabled'] = foxtrot;
-    oscar['config'] = yankee;
+    yankee['enabled'] = foxtra;
+    oscard['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = oscar;
+    yankee[0] = oscard;
     backup = {'id': 2, 'label': 'Control for AA test. Voice Activity Notifications are NOT enabled for user.'};
-    oscar = 2;
-    kilo = {};
-    kilo['enabled'] = romeo;
-    backup['config'] = kilo;
+    oscard = 2;
+    kiloes = {};
+    kiloes['enabled'] = romeon;
+    backup['config'] = kiloes;
     yankee[1] = backup;
     report['treatments'] = yankee;
     report = verify.bind(offset)(report);
     var _closure1_slot2 = report;
-    tango = options[tango];
-    offset = golf.bind(entity)(tango);
+    tangon = option[tangon];
+    offset = golfie.bind(entity)(tangon);
     verify = offset.createExperiment;
-    tango = {'kind': 'guild', 'id': '2023-11_voice_activity_notification_guild', 'label': 'General Voice Channel Notifications for Guild'};
+    tangon = {'kind': 'guild', 'id': '2023-11_voice_activity_notification_guild', 'label': 'General Voice Channel Notifications for Guild'};
     yankee = {};
-    yankee['voiceChannelActivityNotifsEnabled'] = romeo;
-    tango['defaultConfig'] = yankee;
-    romeo = {'id': 2, 'label': 'Deadchat notifs disabled, voice channel activity notifs enabled'};
+    yankee['voiceChannelActivityNotifsEnabled'] = romeon;
+    tangon['defaultConfig'] = yankee;
+    romeon = {'id': 2, 'label': 'Deadchat notifs disabled, voice channel activity notifs enabled'};
     yankee = {};
-    yankee['voiceChannelActivityNotifsEnabled'] = foxtrot;
-    romeo['config'] = yankee;
+    yankee['voiceChannelActivityNotifsEnabled'] = foxtra;
+    romeon['config'] = yankee;
     yankee = new Array(1);
-    yankee[0] = romeo;
-    tango['treatments'] = yankee;
-    tango = verify.bind(offset)(tango);
-    var _closure1_slot3 = tango;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/notifications/VoiceActivityNotificationExperiment.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['VoiceActivityNotificationUserExperiment'] = report;
-    zulu['VoiceActivityNotificationGuildExperiment'] = tango;
-    tango = function(argFoo) { // Original name: useVoiceActivityNotificationSettingsExperiment
+    yankee[0] = romeon;
+    tangon['treatments'] = yankee;
+    tangon = verify.bind(offset)(tangon);
+    var _closure1_slot3 = tangon;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/notifications/VoiceActivityNotificationExperiment.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['VoiceActivityNotificationUserExperiment'] = report;
+    zuuluu['VoiceActivityNotificationGuildExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: useVoiceActivityNotificationSettingsExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             verify = _closure1_slot3;
-            options = verify.useExperiment;
-            golf = {};
-            mike = 'useVoiceActivityNotificationSettingsExperiment';
-            golf['location'] = mike;
-            oscar = null;
-            offset = oscar == report;
-            zulu = undefined;
+            option = verify.useExperiment;
+            golfie = {};
+            michal = 'useVoiceActivityNotificationSettingsExperiment';
+            golfie['location'] = michal;
+            oscard = null;
+            offset = oscard == report;
+            zuuluu = undefined;
             if(offset) { _fun00002_ip = 47; continue _fun00001 }
  37:
             offset = report.getGuildId;
-            zulu = offset.bind(report)();
+            zuuluu = offset.bind(report)();
  47:
-            if(!(oscar == zulu)) { _fun00002_ip = 55; continue _fun00001 }
+            if(!(oscard == zuuluu)) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
  55:
-            golf['guildId'] = zulu;
-            zulu = {};
-            offset = oscar == report;
+            golfie['guildId'] = zuuluu;
+            zuuluu = {};
+            offset = oscard == report;
             yankee = undefined;
             if(offset) { _fun00002_ip = 75; continue _fun00001 }
  70:
@@ -98,17 +98,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             offset = _closure1_slot0;
             offset = offset.GUILD_VOICE;
             offset = yankee !== offset;
-            zulu['disable'] = offset;
+            zuuluu['disable'] = offset;
             offset = false;
-            zulu['autoTrackExposure'] = offset;
-            zulu = options.bind(verify)(golf, zulu);
-            zulu = zulu.voiceChannelActivityNotifsEnabled;
+            zuuluu['autoTrackExposure'] = offset;
+            zuuluu = option.bind(verify)(golfie, zuuluu);
+            zuuluu = zuuluu.voiceChannelActivityNotifsEnabled;
             verify = _closure1_slot2;
-            options = verify.useExperiment;
-            golf = {};
-            golf['location'] = mike;
-            mike = {};
-            offset = oscar == report;
+            option = verify.useExperiment;
+            golfie = {};
+            golfie['location'] = michal;
+            michal = {};
+            offset = oscard == report;
             yankee = undefined;
             if(offset) { _fun00002_ip = 145; continue _fun00001 }
  140:
@@ -119,61 +119,61 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             offset = yankee !== offset;
             if(offset) { _fun00002_ip = 165; continue _fun00001 }
  162:
-            offset = !zulu;
+            offset = !zuuluu;
  165:
-            mike['disable'] = offset;
+            michal['disable'] = offset;
             offset = true;
-            mike['autoTrackExposure'] = offset;
-            mike = options.bind(verify)(golf, mike);
-            mike = mike.enabled;
-            oscar = oscar == report;
-            tango = undefined;
-            if(oscar) { _fun00002_ip = 202; continue _fun00001 }
+            michal['autoTrackExposure'] = offset;
+            michal = option.bind(verify)(golfie, michal);
+            michal = michal.enabled;
+            oscard = oscard == report;
+            tangon = undefined;
+            if(oscard) { _fun00002_ip = 202; continue _fun00001 }
  197:
-            tango = report.type;
+            tangon = report.type;
  202:
             entity = _closure1_slot0;
             entity = entity.GUILD_VOICE;
-            entity = tango === entity;
+            entity = tangon === entity;
             if(!entity) { _fun00002_ip = 222; continue _fun00001 }
  219:
-            entity = zulu;
+            entity = zuuluu;
  222:
             if(!entity) { _fun00002_ip = 228; continue _fun00001 }
  225:
-            entity = mike;
+            entity = michal;
  228:
             return entity;
         }
     };
-    zulu['useVoiceActivityNotificationSettingsExperiment'] = tango;
-    mike = function(argFoo) { // Original name: hasVoiceChannelActivityNotifsEnabled
+    zuuluu['useVoiceActivityNotificationSettingsExperiment'] = tangon;
+    michal = function(argFoo) { // Original name: hasVoiceChannelActivityNotifsEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            options = argFoo;
-            zulu = _closure1_slot3;
-            mike = zulu.getCurrentConfig;
+            option = argFoo;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getCurrentConfig;
             entity = {};
-            oscar = null;
-            golf = oscar == options;
-            tango = undefined;
-            if(golf) { _fun00004_ip = 39; continue _fun00003 }
+            oscard = null;
+            golfie = oscard == option;
+            tangon = undefined;
+            if(golfie) { _fun00004_ip = 39; continue _fun00003 }
  29:
-            golf = options.getGuildId;
-            tango = golf.bind(options)();
+            golfie = option.getGuildId;
+            tangon = golfie.bind(option)();
  39:
-            if(!(oscar == tango)) { _fun00004_ip = 47; continue _fun00003 }
+            if(!(oscard == tangon)) { _fun00004_ip = 47; continue _fun00003 }
  43:
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
  47:
-            entity['guildId'] = tango;
-            tango = 'hasVoiceChannelActivityNotifsEnabled';
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['guildId'] = tangon;
+            tangon = 'hasVoiceChannelActivityNotifsEnabled';
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.voiceChannelActivityNotifsEnabled;
             return entity;
         }
     };
-    zulu['hasVoiceChannelActivityNotifsEnabled'] = mike;
+    zuuluu['hasVoiceChannelActivityNotifsEnabled'] = michal;
     return entity;
 })();

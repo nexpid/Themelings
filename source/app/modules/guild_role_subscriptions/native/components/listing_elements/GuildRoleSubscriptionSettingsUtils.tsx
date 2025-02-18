@@ -1,64 +1,64 @@
 // app/modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getCoverImageURI
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getCoverImageURI
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot2;
-            tango = report.getApplicationIdForGuild;
-            mike = entity.guild_id;
-            oscar = tango.bind(report)(mike);
+            tangon = report.getApplicationIdForGuild;
+            michal = entity.guild_id;
+            oscard = tangon.bind(report)(michal);
             report = null;
-            tango = report != oscar;
-            if(!tango) { _fun00002_ip = 47; continue _fun00001 }
+            tangon = report != oscard;
+            if(!tangon) { _fun00002_ip = 47; continue _fun00001 }
  37:
-            mike = entity.cover_image_asset;
-            tango = report != mike;
+            michal = entity.cover_image_asset;
+            tangon = report != michal;
  47:
-            mike = '';
-            if(!tango) { _fun00002_ip = 101; continue _fun00001 }
+            michal = '';
+            if(!tangon) { _fun00002_ip = 101; continue _fun00001 }
  54:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 1;
-            tango = tango[zulu];
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
-            tango = report.getAssetURL;
-            zulu = entity.cover_image_asset;
+            tangon = _closure1_slot1;
+            zuuluu = 1;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.getAssetURL;
+            zuuluu = entity.cover_image_asset;
             entity = 1024;
-            mike = tango.bind(report)(oscar, zulu, entity);
+            michal = tangon.bind(report)(oscard, zuuluu, entity);
  101:
             entity = {};
-            entity['uri'] = mike;
+            entity['uri'] = michal;
             return entity;
         }
     };
-    zulu['getCoverImageURI'] = mike;
+    zuuluu['getCoverImageURI'] = michal;
     return entity;
 })();

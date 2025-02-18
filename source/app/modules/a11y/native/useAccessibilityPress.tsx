@@ -1,84 +1,84 @@
 // app/modules/a11y/native/useAccessibilityPress.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/a11y/native/useAccessibilityPress.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useAccessibilityPress
-        mike = argFoo;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/a11y/native/useAccessibilityPress.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useAccessibilityPress
+        michal = argFoo;
         report = argBar;
-        var _closure2_slot0 = mike;
+        var _closure2_slot0 = michal;
         var _closure2_slot1 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useRef;
-        zulu = zulu.bind(tango)(mike);
-        var _closure2_slot2 = zulu;
-        oscar = tango.useEffect;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = function() {
-            mike = _closure2_slot2;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useRef;
+        zuuluu = zuuluu.bind(tangon)(michal);
+        var _closure2_slot2 = zuuluu;
+        oscard = tangon.useEffect;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = function() {
+            michal = _closure2_slot2;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        mike = oscar.bind(tango)(mike, zulu);
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = oscard.bind(tangon)(michal, zuuluu);
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             entity = {};
-            mike = function(argFoo) { // Original name: onAccessibilityAction
+            michal = function(argFoo) { // Original name: onAccessibilityAction
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
-                    mike = entity.actionName;
+                    michal = entity.actionName;
                     entity = 'activate';
-                    if(!(entity === mike)) { _fun00002_ip = 38; continue _fun00001 }
+                    if(!(entity === michal)) { _fun00002_ip = 38; continue _fun00001 }
  22:
-                    mike = _closure2_slot2;
-                    entity = mike.current;
-                    entity = entity.bind(mike)();
+                    michal = _closure2_slot2;
+                    entity = michal.current;
+                    entity = entity.bind(michal)();
  38:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity['onAccessibilityAction'] = mike;
-            zulu = {};
-            mike = 'activate';
-            zulu['name'] = mike;
-            mike = _closure2_slot1;
-            zulu['label'] = mike;
-            mike = new Array(1);
-            mike[0] = zulu;
-            entity['accessibilityActions'] = mike;
+            entity['onAccessibilityAction'] = michal;
+            zuuluu = {};
+            michal = 'activate';
+            zuuluu['name'] = michal;
+            michal = _closure2_slot1;
+            zuuluu['label'] = michal;
+            michal = new Array(1);
+            michal[0] = zuuluu;
+            entity['accessibilityActions'] = michal;
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

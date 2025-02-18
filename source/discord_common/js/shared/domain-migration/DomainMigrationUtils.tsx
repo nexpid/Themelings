@@ -1,128 +1,128 @@
 // discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     report = {};
-    oscar = 0;
-    report['SKIP_MIGRATION'] = oscar;
+    oscard = 0;
+    report['SKIP_MIGRATION'] = oscard;
     entity = 'SKIP_MIGRATION';
-    report[oscar] = entity;
-    golf = 1;
-    report['SEND_DATA'] = golf;
+    report[oscard] = entity;
+    golfie = 1;
+    report['SEND_DATA'] = golfie;
     entity = 'SEND_DATA';
-    report[golf] = entity;
-    tango = 2;
-    report['DATA_MIGRATED'] = tango;
+    report[golfie] = entity;
+    tangon = 2;
+    report['DATA_MIGRATED'] = tangon;
     entity = 'DATA_MIGRATED';
-    report[tango] = entity;
-    tango = 3;
-    report['DATA_MIGRATED_CONFIRMED'] = tango;
+    report[tangon] = entity;
+    tangon = 3;
+    report['DATA_MIGRATED_CONFIRMED'] = tangon;
     entity = 'DATA_MIGRATED_CONFIRMED';
-    report[tango] = entity;
-    tango = {};
-    tango['MIGRATION_SOURCE_DOMAIN'] = oscar;
+    report[tangon] = entity;
+    tangon = {};
+    tangon['MIGRATION_SOURCE_DOMAIN'] = oscard;
     entity = 'MIGRATION_SOURCE_DOMAIN';
-    tango[oscar] = entity;
-    tango['MIGRATION_DESTINATION_DOMAIN'] = golf;
+    tangon[oscard] = entity;
+    tangon['MIGRATION_DESTINATION_DOMAIN'] = golfie;
     entity = 'MIGRATION_DESTINATION_DOMAIN';
-    tango[golf] = entity;
-    var _closure1_slot0 = tango;
-    entity = argPlugh;
-    golf = entity[oscar];
-    oscar = argBar;
+    tangon[golfie] = entity;
+    var _closure1_slot0 = tangon;
+    entity = argPlu;
+    golfie = entity[oscard];
+    oscard = argBar;
     entity = undefined;
-    options = oscar.bind(entity)(golf);
-    golf = options.fileFinishedImporting;
-    oscar = '../discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['DomainMigrationEventType'] = report;
-    zulu['DomainMigrationMessageFrom'] = tango;
-    tango = 'domainMigrationSuccess';
-    zulu['DOMAIN_MIGRATION_SUCCESS_KEY'] = tango;
-    tango = 'domainMigrationFailed';
-    zulu['DOMAIN_MIGRATION_FAILED_KEY'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: sendPostMessage
+    option = oscard.bind(entity)(golfie);
+    golfie = option.fileFinishedImporting;
+    oscard = '../discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['DomainMigrationEventType'] = report;
+    zuuluu['DomainMigrationMessageFrom'] = tangon;
+    tangon = 'domainMigrationSuccess';
+    zuuluu['DOMAIN_MIGRATION_SUCCESS_KEY'] = tangon;
+    tangon = 'domainMigrationFailed';
+    zuuluu['DOMAIN_MIGRATION_FAILED_KEY'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: sendPostMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argBar;
+            tangon = argBar;
             entity = _closure1_slot0;
-            mike = entity.MIGRATION_SOURCE_DOMAIN;
+            michal = entity.MIGRATION_SOURCE_DOMAIN;
             entity = argBaz;
-            if(!(entity !== mike)) { _fun00002_ip = 45; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 45; continue _fun00001 }
  23:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
-            zulu = entity.MIGRATION_SOURCE_ORIGIN;
+            zuuluu = entity.MIGRATION_SOURCE_ORIGIN;
             _fun00002_ip = 65; continue _fun00001;
  45:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
-            zulu = entity.MIGRATION_DESTINATION_ORIGIN;
+            zuuluu = entity.MIGRATION_DESTINATION_ORIGIN;
  65:
-            mike = tango.postMessage;
+            michal = tangon.postMessage;
             entity = {};
             report = argFoo;
             entity['domainMigrationEvent'] = report;
-            entity = mike.bind(tango)(entity, zulu);
+            entity = michal.bind(tangon)(entity, zuuluu);
             entity = undefined;
             return entity;
         }
     };
-    zulu['sendPostMessage'] = tango;
-    mike = function(argFoo, argBar) { // Original name: extractMessage
+    zuuluu['sendPostMessage'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: extractMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = _closure1_slot0;
-            mike = entity.MIGRATION_SOURCE_DOMAIN;
+            michal = entity.MIGRATION_SOURCE_DOMAIN;
             entity = argBar;
-            if(!(entity !== mike)) { _fun00004_ip = 45; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 45; continue _fun00003 }
  23:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
-            mike = entity.MIGRATION_SOURCE_ORIGIN;
+            michal = entity.MIGRATION_SOURCE_ORIGIN;
             _fun00004_ip = 65; continue _fun00003;
  45:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
-            mike = entity.MIGRATION_DESTINATION_ORIGIN;
+            michal = entity.MIGRATION_DESTINATION_ORIGIN;
  65:
-            entity = zulu.origin;
-            tango = entity === mike;
-            if(!tango) { _fun00004_ip = 95; continue _fun00003 }
+            entity = zuuluu.origin;
+            tangon = entity === michal;
+            if(!tangon) { _fun00004_ip = 95; continue _fun00003 }
  78:
-            entity = zulu.data;
-            mike = entity.domainMigrationEvent;
+            entity = zuuluu.data;
+            michal = entity.domainMigrationEvent;
             entity = null;
-            tango = entity != mike;
+            tangon = entity != michal;
  95:
-            mike = null;
+            michal = null;
             entity = null;
-            if(!tango) { _fun00004_ip = 125; continue _fun00003 }
+            if(!tangon) { _fun00004_ip = 125; continue _fun00003 }
  102:
-            zulu = zulu.data;
-            tango = mike == zulu;
-            mike = undefined;
-            if(tango) { _fun00004_ip = 122; continue _fun00003 }
+            zuuluu = zuuluu.data;
+            tangon = michal == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 122; continue _fun00003 }
  116:
-            mike = zulu.domainMigrationEvent;
+            michal = zuuluu.domainMigrationEvent;
  122:
-            entity = mike;
+            entity = michal;
  125:
             return entity;
         }
     };
-    zulu['extractMessage'] = mike;
+    zuuluu['extractMessage'] = michal;
     return entity;
 })();

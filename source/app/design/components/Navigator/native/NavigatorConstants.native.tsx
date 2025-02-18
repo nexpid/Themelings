@@ -1,27 +1,27 @@
 // app/design/components/Navigator/native/NavigatorConstants.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'design/components/Navigator/native/NavigatorConstants.native.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 56;
-    zulu['NAV_BAR_HEIGHT'] = mike;
-    zulu['NAV_BAR_HEIGHT_MULTILINE'] = mike;
-    mike = 20;
-    zulu['STATUS_BAR_HEIGHT'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'design/components/Navigator/native/NavigatorConstants.native.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 56;
+    zuuluu['NAV_BAR_HEIGHT'] = michal;
+    zuuluu['NAV_BAR_HEIGHT_MULTILINE'] = michal;
+    michal = 20;
+    zuuluu['STATUS_BAR_HEIGHT'] = michal;
     return entity;
 })();

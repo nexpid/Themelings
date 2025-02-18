@@ -1,103 +1,103 @@
 // app/modules/guild_member/GuildMemberActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_member/GuildMemberActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: updateGuildSelfMember
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_member/GuildMemberActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: updateGuildSelfMember
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            oscar = argBar;
-            options = arguments[2];
+            oscard = argBar;
+            option = arguments[2];
             entity = undefined;
-            if(!(options === entity)) { _fun00002_ip = 17; continue _fun00001 }
+            if(!(option === entity)) { _fun00002_ip = 17; continue _fun00001 }
  15:
-            options = false;
+            option = false;
  17:
-            tango = _closure1_slot3;
-            zulu = tango.isFullServerPreview;
-            zulu = zulu.bind(tango)(report);
-            if(zulu) { _fun00002_ip = 186; continue _fun00001 }
+            tangon = _closure1_slot3;
+            zuuluu = tangon.isFullServerPreview;
+            zuuluu = zuuluu.bind(tangon)(report);
+            if(zuuluu) { _fun00002_ip = 186; continue _fun00001 }
  41:
-            tango = _closure1_slot1;
-            golf = _closure1_slot2;
-            zulu = 3;
-            zulu = golf[zulu];
-            verify = tango.bind(entity)(zulu);
-            tango = verify.dispatch;
-            zulu = {};
+            tangon = _closure1_slot1;
+            golfie = _closure1_slot2;
+            zuuluu = 3;
+            zuuluu = golfie[zuuluu];
+            verify = tangon.bind(entity)(zuuluu);
+            tangon = verify.dispatch;
+            zuuluu = {};
             offset = 'GUILD_MEMBER_UPDATE_LOCAL';
-            zulu['type'] = offset;
-            zulu['guildId'] = report;
-            offset = oscar.roles;
-            zulu['roles'] = offset;
-            offset = oscar.flags;
-            zulu['flags'] = offset;
-            zulu = tango.bind(verify)(zulu);
-            tango = _closure1_slot0;
-            zulu = 4;
-            zulu = golf[zulu];
-            zulu = tango.bind(entity)(zulu);
-            golf = zulu.HTTP;
-            tango = golf.patch;
-            zulu = {};
+            zuuluu['type'] = offset;
+            zuuluu['guildId'] = report;
+            offset = oscard.roles;
+            zuuluu['roles'] = offset;
+            offset = oscard.flags;
+            zuuluu['flags'] = offset;
+            zuuluu = tangon.bind(verify)(zuuluu);
+            tangon = _closure1_slot0;
+            zuuluu = 4;
+            zuuluu = golfie[zuuluu];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            golfie = zuuluu.HTTP;
+            tangon = golfie.patch;
+            zuuluu = {};
             offset = _closure1_slot4;
             verify = offset.SET_GUILD_MEMBER;
             verify = verify.bind(offset)(report);
-            zulu['url'] = verify;
-            zulu['body'] = oscar;
-            verify = !options;
-            options = !verify;
+            zuuluu['url'] = verify;
+            zuuluu['body'] = oscard;
+            verify = !option;
+            option = !verify;
             if(!verify) { _fun00002_ip = 168; continue _fun00001 }
  166:
-            options = undefined;
+            option = undefined;
  168:
-            zulu['oldFormErrors'] = options;
-            options = false;
-            zulu['rejectWithError'] = options;
-            zulu = tango.bind(golf)(zulu);
-            return zulu;
+            zuuluu['oldFormErrors'] = option;
+            option = false;
+            zuuluu['rejectWithError'] = option;
+            zuuluu = tangon.bind(golfie)(zuuluu);
+            return zuuluu;
  186:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot2;
-            mike = 2;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.updateImpersonatedData;
-            mike = {};
-            mike['memberOptions'] = oscar;
-            mike = zulu.bind(tango)(report, mike);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 2;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.updateImpersonatedData;
+            michal = {};
+            michal['memberOptions'] = oscard;
+            michal = zuuluu.bind(tangon)(report, michal);
             return entity;
         }
     };
-    zulu['updateGuildSelfMember'] = mike;
+    zuuluu['updateGuildSelfMember'] = michal;
     return entity;
 })();

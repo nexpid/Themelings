@@ -1,63 +1,63 @@
 // app/utils/StringUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    tango = argBar;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    tangon = argBar;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, mike);
+    entity = oscard.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = report[entity];
+    michal = report[entity];
     entity = undefined;
-    golf = tango.bind(entity)(mike);
-    oscar = golf.fileFinishedImporting;
-    mike = 'utils/StringUtils.tsx';
-    mike = oscar.bind(golf)(mike);
-    mike = function(argFoo) { // Original name: isNullOrEmpty
+    golfie = tangon.bind(entity)(michal);
+    oscard = golfie.fileFinishedImporting;
+    michal = 'utils/StringUtils.tsx';
+    michal = oscard.bind(golfie)(michal);
+    michal = function(argFoo) { // Original name: isNullOrEmpty
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity == mike;
+            entity = entity == michal;
             if(entity) { _fun00002_ip = 23; continue _fun00001 }
  12:
-            zulu = mike.length;
-            mike = 0;
-            entity = mike === zulu;
+            zuuluu = michal.length;
+            michal = 0;
+            entity = michal === zuuluu;
  23:
             return entity;
         }
     };
-    zulu['isNullOrEmpty'] = mike;
-    mike = 1;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.upperCaseFirstChar;
-    zulu['upperCaseFirstChar'] = oscar;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.getAcronym;
-    zulu['getAcronym'] = oscar;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.cssValueToNumber;
-    zulu['cssValueToNumber'] = oscar;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.stripDiacritics;
-    zulu['stripDiacritics'] = oscar;
-    oscar = report[mike];
-    oscar = tango.bind(entity)(oscar);
-    oscar = oscar.truncateText;
-    zulu['truncateText'] = oscar;
-    mike = report[mike];
-    mike = tango.bind(entity)(mike);
-    mike = mike.normalize;
-    zulu['normalize'] = mike;
+    zuuluu['isNullOrEmpty'] = michal;
+    michal = 1;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.upperCaseFirstChar;
+    zuuluu['upperCaseFirstChar'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.getAcronym;
+    zuuluu['getAcronym'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.cssValueToNumber;
+    zuuluu['cssValueToNumber'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.stripDiacritics;
+    zuuluu['stripDiacritics'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.truncateText;
+    zuuluu['truncateText'] = oscard;
+    michal = report[michal];
+    michal = tangon.bind(entity)(michal);
+    michal = michal.normalize;
+    zuuluu['normalize'] = michal;
     return entity;
 })();

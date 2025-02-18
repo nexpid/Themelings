@@ -1,34 +1,34 @@
 // app/hooks/useTheme.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = options;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
     report = function() { // Original name: useTheme
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.useThemeContext;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.useThemeContext;
+        entity = entity.bind(michal)();
         entity = entity.theme;
         return entity;
     };
     var _closure1_slot3 = report;
-    mike = function(argFoo) { // Original name: getThemeIndex
+    michal = function(argFoo) { // Original name: getThemeIndex
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = _closure1_slot2;
-            zulu = zulu.DARK;
-            if(!(zulu !== mike)) { _fun00002_ip = 43; continue _fun00001 }
+            michal = argFoo;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.DARK;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 43; continue _fun00001 }
  20:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
-            if(!(entity !== mike)) { _fun00002_ip = 38; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 38; continue _fun00001 }
  34:
             entity = undefined;
             return entity;
@@ -40,38 +40,38 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, oscar);
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.ThemeTypes;
-    var _closure1_slot2 = oscar;
-    oscar = 2;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'hooks/useTheme.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['default'] = report;
-    zulu['useTheme'] = report;
-    tango = function() { // Original name: useThemeIndex
-        zulu = _closure1_slot4;
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.ThemeTypes;
+    var _closure1_slot2 = oscard;
+    oscard = 2;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'hooks/useTheme.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = report;
+    zuuluu['useTheme'] = report;
+    tangon = function() { // Original name: useThemeIndex
+        zuuluu = _closure1_slot4;
         entity = _closure1_slot3;
-        mike = undefined;
-        entity = entity.bind(mike)();
-        entity = zulu.bind(mike)(entity);
+        michal = undefined;
+        entity = entity.bind(michal)();
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useThemeIndex'] = tango;
-    zulu['getThemeIndex'] = mike;
+    zuuluu['useThemeIndex'] = tangon;
+    zuuluu['getThemeIndex'] = michal;
     return entity;
 })();

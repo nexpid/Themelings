@@ -1,188 +1,188 @@
 // app/modules/guild_member_verification/MemberVerificationUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.AUTOMATIC_APPROVAL_FORM_FIELDS;
-    var _closure1_slot2 = golf;
-    tango = tango.MANUAL_APPROVAL_FORM_FIELDS;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildFeatures;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_member_verification/MemberVerificationUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) {
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AUTOMATIC_APPROVAL_FORM_FIELDS;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.MANUAL_APPROVAL_FORM_FIELDS;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildFeatures;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_member_verification/MemberVerificationUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.required;
-            zulu = mike.response;
-            report = mike.field_type;
+            michal = argFoo;
+            entity = michal.required;
+            zuuluu = michal.response;
+            report = michal.field_type;
             if(entity) { _fun00002_ip = 28; continue _fun00001 }
  24:
             entity = true;
             return entity;
  28:
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 311; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 311; continue _fun00001 }
  37:
-            oscar = _closure1_slot0;
-            mike = _closure1_slot1;
-            golf = 2;
-            tango = mike[golf];
-            mike = undefined;
-            tango = oscar.bind(mike)(tango);
-            tango = tango.VerificationFormFieldTypes;
-            tango = tango.TERMS;
-            if(!(tango !== report)) { _fun00002_ip = 296; continue _fun00001 }
+            oscard = _closure1_slot0;
+            michal = _closure1_slot1;
+            golfie = 2;
+            tangon = michal[golfie];
+            michal = undefined;
+            tangon = oscard.bind(michal)(tangon);
+            tangon = tangon.VerificationFormFieldTypes;
+            tangon = tangon.TERMS;
+            if(!(tangon !== report)) { _fun00002_ip = 296; continue _fun00001 }
  81:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            tango = tango[golf];
-            tango = oscar.bind(mike)(tango);
-            tango = tango.VerificationFormFieldTypes;
-            tango = tango.VERIFICATION;
-            if(!(tango !== report)) { _fun00002_ip = 296; continue _fun00001 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            tangon = tangon[golfie];
+            tangon = oscard.bind(michal)(tangon);
+            tangon = tangon.VerificationFormFieldTypes;
+            tangon = tangon.VERIFICATION;
+            if(!(tangon !== report)) { _fun00002_ip = 296; continue _fun00001 }
  117:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            tango = tango[golf];
-            tango = oscar.bind(mike)(tango);
-            tango = tango.VerificationFormFieldTypes;
-            tango = tango.TEXT_INPUT;
-            if(!(tango !== report)) { _fun00002_ip = 262; continue _fun00001 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            tangon = tangon[golfie];
+            tangon = oscard.bind(michal)(tangon);
+            tangon = tangon.VerificationFormFieldTypes;
+            tangon = tangon.TEXT_INPUT;
+            if(!(tangon !== report)) { _fun00002_ip = 262; continue _fun00001 }
  150:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            tango = tango[golf];
-            tango = oscar.bind(mike)(tango);
-            tango = tango.VerificationFormFieldTypes;
-            tango = tango.PARAGRAPH;
-            if(!(tango !== report)) { _fun00002_ip = 262; continue _fun00001 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            tangon = tangon[golfie];
+            tangon = oscard.bind(michal)(tangon);
+            tangon = tangon.VerificationFormFieldTypes;
+            tangon = tangon.PARAGRAPH;
+            if(!(tangon !== report)) { _fun00002_ip = 262; continue _fun00001 }
  183:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            tango = tango[golf];
-            tango = oscar.bind(mike)(tango);
-            tango = tango.VerificationFormFieldTypes;
-            tango = tango.MULTIPLE_CHOICE;
-            if(!(tango !== report)) { _fun00002_ip = 249; continue _fun00001 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            tangon = tangon[golfie];
+            tangon = oscard.bind(michal)(tangon);
+            tangon = tangon.VerificationFormFieldTypes;
+            tangon = tangon.MULTIPLE_CHOICE;
+            if(!(tangon !== report)) { _fun00002_ip = 249; continue _fun00001 }
  216:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 3;
-            entity = oscar[entity];
-            tango = tango.bind(mike)(entity);
-            entity = tango.assertNever;
-            entity = entity.bind(tango)(report);
+            entity = oscard[entity];
+            tangon = tangon.bind(michal)(entity);
+            entity = tangon.assertNever;
+            entity = entity.bind(tangon)(report);
             return entity;
  249:
-            tango = 'number';
-            entity = typeof zulu;
-            entity = tango === entity;
+            tangon = 'number';
+            entity = typeof zuuluu;
+            entity = tangon === entity;
             return entity;
  262:
-            tango = 'string';
-            entity = typeof zulu;
-            entity = tango === entity;
+            tangon = 'string';
+            entity = typeof zuuluu;
+            entity = tangon === entity;
             if(!entity) { _fun00002_ip = 294; continue _fun00001 }
  276:
-            tango = zulu.trim;
-            report = tango.bind(zulu)();
-            tango = '';
-            entity = tango !== report;
+            tangon = zuuluu.trim;
+            report = tangon.bind(zuuluu)();
+            tangon = '';
+            entity = tangon !== report;
  294:
             return entity;
  296:
             entity = global;
             entity = entity.Boolean;
-            entity = entity.bind(mike)(zulu);
+            entity = entity.bind(michal)(zuuluu);
             return entity;
  311:
             entity = false;
             return entity;
         }
     };
-    zulu['isValidFormResponse'] = tango;
-    tango = function(argFoo) { // Original name: removeInternalFields
-        zulu = argFoo;
-        mike = zulu.filter;
+    zuuluu['isValidFormResponse'] = tangon;
+    tangon = function(argFoo) { // Original name: removeInternalFields
+        zuuluu = argFoo;
+        michal = zuuluu.filter;
         entity = function(argFoo) {
             entity = argFoo;
-            mike = entity.field_type;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            michal = entity.field_type;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tango.bind(entity)(zulu);
+            entity = tangon.bind(entity)(zuuluu);
             entity = entity.VerificationFormFieldTypes;
             entity = entity.VERIFICATION;
-            entity = mike !== entity;
+            entity = michal !== entity;
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['removeInternalFields'] = tango;
-    tango = function(argFoo) { // Original name: isAutomaticApprovalFormField
+    zuuluu['removeInternalFields'] = tangon;
+    tangon = function(argFoo) { // Original name: isAutomaticApprovalFormField
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot2;
-            mike = zulu.has;
+            tangon = argFoo;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.has;
             entity = null;
-            report = entity == tango;
+            report = entity == tangon;
             entity = undefined;
             if(report) { _fun00004_ip = 32; continue _fun00003 }
  26:
-            entity = tango.field_type;
+            entity = tangon.field_type;
  32:
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['isAutomaticApprovalFormField'] = tango;
-    tango = function(argFoo) { // Original name: isManualApprovalFormField
+    zuuluu['isAutomaticApprovalFormField'] = tangon;
+    tangon = function(argFoo) { // Original name: isManualApprovalFormField
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot3;
-            mike = zulu.has;
+            tangon = argFoo;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.has;
             entity = null;
-            report = entity == tango;
+            report = entity == tangon;
             entity = undefined;
             if(report) { _fun00006_ip = 32; continue _fun00005 }
  26:
-            entity = tango.field_type;
+            entity = tangon.field_type;
  32:
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['isManualApprovalFormField'] = tango;
-    mike = function(argFoo) { // Original name: guildHasVerificationGate
+    zuuluu['isManualApprovalFormField'] = tangon;
+    michal = function(argFoo) { // Original name: guildHasVerificationGate
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
@@ -190,40 +190,40 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity != report;
             if(!entity) { _fun00008_ip = 127; continue _fun00007 }
  12:
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 4;
-            tango = tango[mike];
-            mike = undefined;
-            mike = oscar.bind(mike)(tango);
-            golf = mike.MemberVerificationRolloutExperiment;
-            oscar = golf.getCurrentConfig;
-            tango = {};
-            mike = report.id;
-            tango['guildId'] = mike;
-            mike = 'GuildRecord';
-            tango['location'] = mike;
-            mike = {};
-            options = false;
-            mike['autoTrackExposure'] = options;
-            mike = oscar.bind(golf)(tango, mike);
-            mike = mike.enabled;
-            if(mike) { _fun00008_ip = 103; continue _fun00007 }
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 4;
+            tangon = tangon[michal];
+            michal = undefined;
+            michal = oscard.bind(michal)(tangon);
+            golfie = michal.MemberVerificationRolloutExperiment;
+            oscard = golfie.getCurrentConfig;
+            tangon = {};
+            michal = report.id;
+            tangon['guildId'] = michal;
+            michal = 'GuildRecord';
+            tangon['location'] = michal;
+            michal = {};
+            option = false;
+            michal['autoTrackExposure'] = option;
+            michal = oscard.bind(golfie)(tangon, michal);
+            michal = michal.enabled;
+            if(michal) { _fun00008_ip = 103; continue _fun00007 }
  91:
-            mike = report.hasVerificationGate;
-            mike = mike.bind(report)();
+            michal = report.hasVerificationGate;
+            michal = michal.bind(report)();
             _fun00008_ip = 124; continue _fun00007;
  103:
-            tango = report.hasFeature;
-            zulu = _closure1_slot4;
-            zulu = zulu.MEMBER_VERIFICATION_GATE_ENABLED;
-            mike = tango.bind(report)(zulu);
+            tangon = report.hasFeature;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.MEMBER_VERIFICATION_GATE_ENABLED;
+            michal = tangon.bind(report)(zuuluu);
  124:
-            entity = mike;
+            entity = michal;
  127:
             return entity;
         }
     };
-    zulu['guildHasVerificationGate'] = mike;
+    zuuluu['guildHasVerificationGate'] = michal;
     return entity;
 })();

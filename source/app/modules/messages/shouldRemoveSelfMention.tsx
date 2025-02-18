@@ -1,54 +1,54 @@
 // app/modules/messages/shouldRemoveSelfMention.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageTypesSets;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/shouldRemoveSelfMention.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: shouldRemoveSelfMention
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageTypesSets;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/shouldRemoveSelfMention.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: shouldRemoveSelfMention
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = _closure1_slot0;
-            tango = entity.SELF_MENTIONABLE_SYSTEM;
-            zulu = tango.has;
-            entity = mike.type;
-            entity = zulu.bind(tango)(entity);
+            tangon = entity.SELF_MENTIONABLE_SYSTEM;
+            zuuluu = tangon.has;
+            entity = michal.type;
+            entity = zuuluu.bind(tangon)(entity);
             entity = !entity;
             if(!entity) { _fun00002_ip = 66; continue _fun00001 }
  37:
-            mike = mike.author;
-            zulu = null;
-            tango = zulu == mike;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 59; continue _fun00001 }
+            michal = michal.author;
+            zuuluu = null;
+            tangon = zuuluu == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 59; continue _fun00001 }
  54:
-            zulu = mike.id;
+            zuuluu = michal.id;
  59:
-            mike = argBar;
-            entity = zulu === mike;
+            michal = argBar;
+            entity = zuuluu === michal;
  66:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

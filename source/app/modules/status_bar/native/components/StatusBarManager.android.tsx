@@ -1,205 +1,205 @@
 // app/modules/status_bar/native/components/StatusBarManager.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.StatusBar;
-    var _closure1_slot4 = tango;
-    mike = function() {
-        tango = _closure1_slot3;
-        zulu = function() { // Original name: StatusBarManager
-            zulu = this;
-            tango = _closure1_slot2;
-            mike = _closure2_slot0;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.StatusBar;
+    var _closure1_slot4 = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function() { // Original name: StatusBarManager
+            zuuluu = this;
+            tangon = _closure1_slot2;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = new Array(0);
-            zulu['propsStack'] = mike;
-            mike = null;
-            zulu['updateImmediate'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = new Array(0);
+            zuuluu['propsStack'] = michal;
+            michal = null;
+            zuuluu['updateImmediate'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'pushStackEntry';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
-            mike = argFoo;
-            zulu = this;
+        michal = 'pushStackEntry';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
+            michal = argFoo;
+            zuuluu = this;
             entity = {};
-            tango = mike.hidden;
-            entity['hidden'] = tango;
-            mike = mike.barStyle;
-            entity['barStyle'] = mike;
-            tango = zulu.propsStack;
-            mike = tango.push;
-            mike = mike.bind(tango)(entity);
-            mike = zulu.updatePropsStack;
-            mike = mike.bind(zulu)();
+            tangon = michal.hidden;
+            entity['hidden'] = tangon;
+            michal = michal.barStyle;
+            entity['barStyle'] = michal;
+            tangon = zuuluu.propsStack;
+            michal = tangon.push;
+            michal = michal.bind(tangon)(entity);
+            michal = zuuluu.updatePropsStack;
+            michal = michal.bind(zuuluu)();
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(4);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(4);
+        michal[0] = entity;
         entity = {};
-        oscar = 'popStackEntry';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'popStackEntry';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                oscar = argFoo;
-                mike = this;
+                oscard = argFoo;
+                michal = this;
                 entity = null;
-                zulu = entity != oscar;
+                zuuluu = entity != oscard;
                 entity = -1;
                 report = entity;
-                if(!zulu) { _fun00002_ip = 40; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 40; continue _fun00001 }
  24:
-                tango = mike.propsStack;
-                zulu = tango.indexOf;
-                report = zulu.bind(tango)(oscar);
+                tangon = michal.propsStack;
+                zuuluu = tangon.indexOf;
+                report = zuuluu.bind(tangon)(oscard);
  40:
                 if(!(entity !== report)) { _fun00002_ip = 75; continue _fun00001 }
  44:
-                tango = mike.propsStack;
-                zulu = tango.splice;
+                tangon = michal.propsStack;
+                zuuluu = tangon.splice;
                 entity = 1;
-                entity = zulu.bind(tango)(report, entity);
-                entity = mike.updatePropsStack;
-                entity = entity.bind(mike)();
+                entity = zuuluu.bind(tangon)(report, entity);
+                entity = michal.updatePropsStack;
+                entity = entity.bind(michal)();
  75:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'replaceStackEntry';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'replaceStackEntry';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                golf = argFoo;
-                mike = argBar;
-                zulu = this;
+                golfie = argFoo;
+                michal = argBar;
+                zuuluu = this;
                 entity = {};
-                tango = mike.hidden;
-                entity['hidden'] = tango;
-                mike = mike.barStyle;
-                entity['barStyle'] = mike;
-                mike = null;
-                report = mike != golf;
-                mike = -1;
-                tango = mike;
+                tangon = michal.hidden;
+                entity['hidden'] = tangon;
+                michal = michal.barStyle;
+                entity['barStyle'] = michal;
+                michal = null;
+                report = michal != golfie;
+                michal = -1;
+                tangon = michal;
                 if(!report) { _fun00004_ip = 67; continue _fun00003 }
  51:
-                oscar = zulu.propsStack;
-                report = oscar.indexOf;
-                tango = report.bind(oscar)(golf);
+                oscard = zuuluu.propsStack;
+                report = oscard.indexOf;
+                tangon = report.bind(oscard)(golfie);
  67:
-                if(!(mike !== tango)) { _fun00004_ip = 81; continue _fun00003 }
+                if(!(michal !== tangon)) { _fun00004_ip = 81; continue _fun00003 }
  71:
-                mike = zulu.propsStack;
-                mike[tango] = entity;
+                michal = zuuluu.propsStack;
+                michal[tangon] = entity;
  81:
-                mike = zulu.updatePropsStack;
-                mike = mike.bind(zulu)();
+                michal = zuuluu.updatePropsStack;
+                michal = michal.bind(zuuluu)();
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'updatePropsStack';
-        entity['key'] = oscar;
+        oscard = 'updatePropsStack';
+        entity['key'] = oscard;
         report = function() { // Original name: value
-            zulu = this;
-            var _closure3_slot0 = zulu;
-            tango = global;
-            oscar = tango.clearImmediate;
-            report = zulu.updateImmediate;
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
+            tangon = global;
+            oscard = tangon.clearImmediate;
+            report = zuuluu.updateImmediate;
             entity = undefined;
-            report = oscar.bind(entity)(report);
-            tango = tango.setImmediate;
-            mike = function() {
-                tango = _closure1_slot0;
+            report = oscard.bind(entity)(report);
+            tangon = tangon.setImmediate;
+            michal = function() {
+                tangon = _closure1_slot0;
                 report = _closure1_slot1;
                 entity = 3;
-                mike = report[entity];
+                michal = report[entity];
                 entity = undefined;
-                golf = tango.bind(entity)(mike);
-                oscar = golf.merge;
-                mike = new Array(1);
-                options = {'hidden': false, 'barStyle': 'default'};
-                mike[0] = options;
-                options = _closure3_slot0;
-                yankee = options.propsStack;
+                golfie = tangon.bind(entity)(michal);
+                oscard = golfie.merge;
+                michal = new Array(1);
+                option = {'hidden': false, 'barStyle': 'default'};
+                michal[0] = option;
+                option = _closure3_slot0;
+                yankee = option.propsStack;
                 offset = 1;
-                romeo = mike;
-                options = arraySpread(romeo, yankee, offset);
-                romeo = oscar;
-                yankee = mike;
-                offset = golf;
-                mike = apply(romeo, yankee, offset);
-                golf = mike.barStyle;
-                mike = mike.hidden;
-                oscar = _closure1_slot4;
-                zulu = oscar.setBarStyle;
-                zulu = zulu.bind(oscar)(golf);
-                zulu = 4;
-                zulu = report[zulu];
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.setStatusBarVisible;
-                mike = !mike;
-                mike = zulu.bind(tango)(mike);
+                romeon = michal;
+                option = arraySpread(romeon, yankee, offset);
+                romeon = oscard;
+                yankee = michal;
+                offset = golfie;
+                michal = apply(romeon, yankee, offset);
+                golfie = michal.barStyle;
+                michal = michal.hidden;
+                oscard = _closure1_slot4;
+                zuuluu = oscard.setBarStyle;
+                zuuluu = zuuluu.bind(oscard)(golfie);
+                zuuluu = 4;
+                zuuluu = report[zuuluu];
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.setStatusBarVisible;
+                michal = !michal;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            mike = tango.bind(entity)(mike);
-            zulu['updateImmediate'] = mike;
+            michal = tangon.bind(entity)(michal);
+            zuuluu['updateImmediate'] = michal;
             return entity;
         };
         entity['value'] = report;
-        mike[3] = entity;
+        michal[3] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = mike.prototype;
-    tango = Object.create(tango, {constructor: {value: mike}});
-    foxtrot = tango;
-    mike = new foxtrot[mike](romeo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/status_bar/native/components/StatusBarManager.android.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = michal.prototype;
+    tangon = Object.create(tangon, {constructor: {value: michal}});
+    foxtra = tangon;
+    michal = new foxtra[michal](romeon);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/status_bar/native/components/StatusBarManager.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

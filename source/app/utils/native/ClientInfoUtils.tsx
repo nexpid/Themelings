@@ -1,99 +1,99 @@
 // app/utils/native/ClientInfoUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/native/ClientInfoUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: getConstants
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/native/ClientInfoUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getConstants
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            mike = 1;
-            mike = zulu[mike];
-            zulu = undefined;
-            tango = tango.bind(zulu)(mike);
-            mike = tango.isAndroid;
-            mike = mike.bind(tango)();
-            if(mike) { _fun00002_ip = 59; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 1;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            tangon = tangon.bind(zuuluu)(michal);
+            michal = tangon.isAndroid;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00002_ip = 59; continue _fun00001 }
  37:
-            mike = _closure1_slot3;
-            tango = mike.InfoDictionaryManager;
-            mike = tango.getConstants;
-            mike = mike.bind(tango)();
-            return mike;
+            michal = _closure1_slot3;
+            tangon = michal.InfoDictionaryManager;
+            michal = tangon.getConstants;
+            michal = michal.bind(tangon)();
+            return michal;
  59:
             report = _closure1_slot1;
-            mike = _closure1_slot2;
-            tango = 2;
-            mike = mike[tango];
-            report = report.bind(zulu)(mike);
-            mike = null;
-            if(!(mike !== report)) { _fun00002_ip = 114; continue _fun00001 }
+            michal = _closure1_slot2;
+            tangon = 2;
+            michal = michal[tangon];
+            report = report.bind(zuuluu)(michal);
+            michal = null;
+            if(!(michal !== report)) { _fun00002_ip = 114; continue _fun00001 }
  85:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = _closure1_slot2;
-            entity = entity[tango];
-            mike = mike.bind(zulu)(entity);
-            entity = mike.getConstants;
-            entity = entity.bind(mike)();
+            entity = entity[tangon];
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.getConstants;
+            entity = entity.bind(michal)();
             return entity;
  114:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            oscar = 'Turbo module RTNClientInfoManager is undefined for Android';
-            golf = mike;
-            entity = new golf[zulu](oscar, report);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            oscard = 'Turbo module RTNClientInfoManager is undefined for Android';
+            golfie = michal;
+            entity = new golfie[zuuluu](oscard, report);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['getConstants'] = tango;
-    mike = function() { // Original name: getBuildNumberLabel
+    zuuluu['getConstants'] = tangon;
+    michal = function() { // Original name: getBuildNumberLabel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = ['0', '123456', '1234567890'];
-            entity = mike.includes;
-            report = '3677';
-            mike = entity.bind(mike)(report);
+            michal = ['0', '123456', '1234567890'];
+            entity = michal.includes;
+            report = '3681';
+            michal = entity.bind(michal)(report);
             entity = report;
-            if(!mike) { _fun00004_ip = 61; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 61; continue _fun00003 }
  32:
-            mike = global;
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            zulu = 'dev (';
-            mike = ')';
-            entity = tango.bind(zulu)(report, mike);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = 'dev (';
+            michal = ')';
+            entity = tangon.bind(zuuluu)(report, michal);
  61:
             return entity;
         }
     };
-    zulu['getBuildNumberLabel'] = mike;
+    zuuluu['getBuildNumberLabel'] = michal;
     return entity;
 })();

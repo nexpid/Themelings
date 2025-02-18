@@ -1,112 +1,112 @@
 // app/modules/svg/native/getReactNativeSVGLegacyArchitecturePropsAdapter.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
-    options = {};
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    option = {};
     entity = 'function getReactNativeSVGLegacyArchitecturePropsAdapterTsx1(props){const{processColor}=this.__closure;if(props.fill!=null){props.fill={type:0,payload:processColor(props.fill)};}if(props.rx!=null){props.rx=""+props.rx;}if(props.ry!=null){props.ry=""+props.ry;}if(props.cx!=null){props.cx=""+props.cx;}if(props.cy!=null){props.cy=""+props.cy;}}';
-    options['code'] = entity;
+    option['code'] = entity;
     offset = 0;
-    tango = oscar[offset];
+    tangon = oscard[offset];
     entity = undefined;
-    golf = report.bind(entity)(tango);
-    tango = golf.createAnimatedPropAdapter;
-    mike = function(argFoo) { // Original name: p
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.createAnimatedPropAdapter;
+    michal = function(argFoo) { // Original name: p
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.fill;
-            zulu = null;
-            if(!(zulu != entity)) { _fun00002_ip = 73; continue _fun00001 }
+            michal = argFoo;
+            entity = michal.fill;
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 73; continue _fun00001 }
  15:
             entity = {};
             report = 0;
             entity['type'] = report;
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
-            report = tango[report];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.processColor;
-            tango = mike.fill;
-            tango = report.bind(oscar)(tango);
-            entity['payload'] = tango;
-            mike['fill'] = entity;
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            report = tangon[report];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.processColor;
+            tangon = michal.fill;
+            tangon = report.bind(oscard)(tangon);
+            entity['payload'] = tangon;
+            michal['fill'] = entity;
  73:
-            entity = mike.rx;
-            if(!(zulu != entity)) { _fun00002_ip = 117; continue _fun00001 }
+            entity = michal.rx;
+            if(!(zuuluu != entity)) { _fun00002_ip = 117; continue _fun00001 }
  83:
-            report = mike.rx;
+            report = michal.rx;
             entity = global;
             entity = entity.HermesInternal;
-            tango = entity.concat;
+            tangon = entity.concat;
             entity = '';
-            entity = tango.bind(entity)(report);
-            mike['rx'] = entity;
+            entity = tangon.bind(entity)(report);
+            michal['rx'] = entity;
  117:
-            entity = mike.ry;
-            if(!(zulu != entity)) { _fun00002_ip = 161; continue _fun00001 }
+            entity = michal.ry;
+            if(!(zuuluu != entity)) { _fun00002_ip = 161; continue _fun00001 }
  127:
-            report = mike.ry;
+            report = michal.ry;
             entity = global;
             entity = entity.HermesInternal;
-            tango = entity.concat;
+            tangon = entity.concat;
             entity = '';
-            entity = tango.bind(entity)(report);
-            mike['ry'] = entity;
+            entity = tangon.bind(entity)(report);
+            michal['ry'] = entity;
  161:
-            entity = mike.cx;
-            if(!(zulu != entity)) { _fun00002_ip = 205; continue _fun00001 }
+            entity = michal.cx;
+            if(!(zuuluu != entity)) { _fun00002_ip = 205; continue _fun00001 }
  171:
-            report = mike.cx;
+            report = michal.cx;
             entity = global;
             entity = entity.HermesInternal;
-            tango = entity.concat;
+            tangon = entity.concat;
             entity = '';
-            entity = tango.bind(entity)(report);
-            mike['cx'] = entity;
+            entity = tangon.bind(entity)(report);
+            michal['cx'] = entity;
  205:
-            entity = mike.cy;
-            if(!(zulu != entity)) { _fun00002_ip = 249; continue _fun00001 }
+            entity = michal.cy;
+            if(!(zuuluu != entity)) { _fun00002_ip = 249; continue _fun00001 }
  215:
-            tango = mike.cy;
+            tangon = michal.cy;
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
+            zuuluu = entity.concat;
             entity = '';
-            entity = zulu.bind(entity)(tango);
-            mike['cy'] = entity;
+            entity = zuuluu.bind(entity)(tangon);
+            michal['cy'] = entity;
  249:
             entity = undefined;
             return entity;
         }
     };
     verify = {};
-    offset = oscar[offset];
+    offset = oscard[offset];
     offset = report.bind(entity)(offset);
     offset = offset.processColor;
     verify['processColor'] = offset;
-    mike['__closure'] = verify;
+    michal['__closure'] = verify;
     verify = 8049689689528.0;
-    mike['__workletHash'] = verify;
-    mike['__initData'] = options;
-    mike = tango.bind(golf)(mike);
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/svg/native/getReactNativeSVGLegacyArchitecturePropsAdapter.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['reactNativeSVGLegacyArchitecturePropsAdapter'] = mike;
+    michal['__workletHash'] = verify;
+    michal['__initData'] = option;
+    michal = tangon.bind(golfie)(michal);
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/svg/native/getReactNativeSVGLegacyArchitecturePropsAdapter.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['reactNativeSVGLegacyArchitecturePropsAdapter'] = michal;
     return entity;
 })();

@@ -1,44 +1,44 @@
 // app/modules/voice_panel/native/utils/computeCardBorderRadius.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    offset = tango.VoicePanelModes;
+    tangon = report.bind(entity)(tangon);
+    offset = tangon.VoicePanelModes;
     var _closure1_slot0 = offset;
-    options = tango.DEFAULT_BORDER_RADIUS;
-    var _closure1_slot1 = options;
-    verify = tango.DEFAULT_BORDER_RADIUS_PIP;
+    option = tangon.DEFAULT_BORDER_RADIUS;
+    var _closure1_slot1 = option;
+    verify = tangon.DEFAULT_BORDER_RADIUS_PIP;
     var _closure1_slot2 = verify;
-    tango = {};
-    golf = 'function computeCardBorderRadius_computeCardBorderRadiusTsx1({id:id,mode:mode,focused:focused,isSelf:isSelf}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PANEL){if(focused!=null){if(focused===id){return 0;}else if(isSelf){return DEFAULT_BORDER_RADIUS_PIP;}}return DEFAULT_BORDER_RADIUS;}if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return DEFAULT_BORDER_RADIUS;}';
-    tango['code'] = golf;
-    mike = function(argFoo) { // Original name: o
+    tangon = {};
+    golfie = 'function computeCardBorderRadius_computeCardBorderRadiusTsx1({id:id,mode:mode,focused:focused,isSelf:isSelf}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PANEL){if(focused!=null){if(focused===id){return 0;}else if(isSelf){return DEFAULT_BORDER_RADIUS_PIP;}}return DEFAULT_BORDER_RADIUS;}if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return DEFAULT_BORDER_RADIUS;}';
+    tangon['code'] = golfie;
+    michal = function(argFoo) { // Original name: o
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tango = entity.id;
-            oscar = entity.mode;
-            zulu = entity.focused;
-            mike = entity.isSelf;
+            tangon = entity.id;
+            oscard = entity.mode;
+            zuuluu = entity.focused;
+            michal = entity.isSelf;
             report = _closure1_slot0;
             report = report.PANEL;
-            if(!(oscar !== report)) { _fun00002_ip = 68; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 68; continue _fun00001 }
  42:
             report = _closure1_slot0;
             report = report.PIP;
-            if(!(oscar !== report)) { _fun00002_ip = 62; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 62; continue _fun00001 }
  56:
             report = _closure1_slot1;
             _fun00002_ip = 66; continue _fun00001;
@@ -48,14 +48,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return report;
  68:
             report = null;
-            if(!(report != zulu)) { _fun00002_ip = 81; continue _fun00001 }
+            if(!(report != zuuluu)) { _fun00002_ip = 81; continue _fun00001 }
  74:
-            if(!(zulu !== tango)) { _fun00002_ip = 93; continue _fun00001 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 93; continue _fun00001 }
  78:
-            if(mike) { _fun00002_ip = 87; continue _fun00001 }
+            if(michal) { _fun00002_ip = 87; continue _fun00001 }
  81:
-            mike = _closure1_slot1;
-            return mike;
+            michal = _closure1_slot1;
+            return michal;
  87:
             entity = _closure1_slot2;
             return entity;
@@ -64,20 +64,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    golf = {};
-    golf['VoicePanelModes'] = offset;
-    golf['DEFAULT_BORDER_RADIUS_PIP'] = verify;
-    golf['DEFAULT_BORDER_RADIUS'] = options;
-    mike['__closure'] = golf;
-    golf = 10862086044187.0;
-    mike['__workletHash'] = golf;
-    mike['__initData'] = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/utils/computeCardBorderRadius.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    golfie = {};
+    golfie['VoicePanelModes'] = offset;
+    golfie['DEFAULT_BORDER_RADIUS_PIP'] = verify;
+    golfie['DEFAULT_BORDER_RADIUS'] = option;
+    michal['__closure'] = golfie;
+    golfie = 10862086044187.0;
+    michal['__workletHash'] = golfie;
+    michal['__initData'] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/utils/computeCardBorderRadius.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

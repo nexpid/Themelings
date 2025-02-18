@@ -1,38 +1,38 @@
 // app/modules/application_commands/native/ApplicationCommandsConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
+        zuuluu = argFre;
+        oscard = argPlu;
         entity = global;
-        golf = entity.Object;
-        tango = golf.defineProperty;
-        mike = {};
+        golfie = entity.Object;
+        tangon = golfie.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = tango.bind(golf)(zulu, entity, mike);
+        entity = tangon.bind(golfie)(zuuluu, entity, michal);
         entity = 0;
-        mike = oscar[entity];
+        michal = oscard[entity];
         entity = undefined;
-        tango = report.bind(entity)(mike);
-        mike = tango.isAndroid;
-        tango = mike.bind(tango)();
-        mike = 56;
-        if(!tango) { _fun00002_ip = 72; continue _fun00001 }
+        tangon = report.bind(entity)(michal);
+        michal = tangon.isAndroid;
+        tangon = michal.bind(tangon)();
+        michal = 56;
+        if(!tangon) { _fun00002_ip = 72; continue _fun00001 }
  69:
-        mike = 64;
+        michal = 64;
  72:
-        tango = 1;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/application_commands/native/ApplicationCommandsConstants.tsx';
-        tango = report.bind(oscar)(tango);
-        tango = 48;
-        zulu['AUTOCOMPLETE_ROW_HEIGHT'] = tango;
-        zulu['AUTOCOMPLETE_EMOJI_ROW_HEIGHT'] = mike;
+        tangon = 1;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/application_commands/native/ApplicationCommandsConstants.tsx';
+        tangon = report.bind(oscard)(tangon);
+        tangon = 48;
+        zuuluu['AUTOCOMPLETE_ROW_HEIGHT'] = tangon;
+        zuuluu['AUTOCOMPLETE_EMOJI_ROW_HEIGHT'] = michal;
         return entity;
     }
 })();

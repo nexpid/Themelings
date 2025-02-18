@@ -1,80 +1,80 @@
 // app/modules/app_launcher/hooks/useCommandContext.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = argPlugh;
-    tango = function(argFoo) { // Original name: getCommandContext
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = argPlu;
+    tangon = function(argFoo) { // Original name: getCommandContext
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.type;
+            michal = argFoo;
+            zuuluu = michal.type;
             entity = 'contextless';
-            if(!(entity !== zulu)) { _fun00002_ip = 62; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
  18:
             entity = {};
-            zulu = mike.channel;
-            entity['channel'] = zulu;
-            tango = _closure1_slot1;
-            zulu = tango.getGuild;
-            mike = mike.channel;
-            mike = mike.guild_id;
-            mike = zulu.bind(tango)(mike);
-            entity['guild'] = mike;
+            zuuluu = michal.channel;
+            entity['channel'] = zuuluu;
+            tangon = _closure1_slot1;
+            zuuluu = tangon.getGuild;
+            michal = michal.channel;
+            michal = michal.guild_id;
+            michal = zuuluu.bind(tangon)(michal);
+            entity['guild'] = michal;
             _fun00002_ip = 77; continue _fun00001;
  62:
-            mike = {};
-            zulu = undefined;
-            mike['channel'] = zulu;
-            mike['guild'] = zulu;
-            entity = mike;
+            michal = {};
+            zuuluu = undefined;
+            michal['channel'] = zuuluu;
+            michal['guild'] = zuuluu;
+            entity = michal;
  77:
             return entity;
         }
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, report);
+    entity = golfie.bind(option)(zuuluu, entity, report);
     entity = 0;
-    golf = oscar[entity];
-    report = argCorge;
+    golfie = oscard[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(golf);
+    report = report.bind(entity)(golfie);
     var _closure1_slot0 = report;
     report = 1;
-    golf = oscar[report];
+    golfie = oscard[report];
     report = argBaz;
-    report = report.bind(entity)(golf);
+    report = report.bind(entity)(golfie);
     var _closure1_slot1 = report;
     report = 2;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/app_launcher/hooks/useCommandContext.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getCommandContext'] = tango;
-    mike = function(argFoo) { // Original name: useCommandContext
+    report = oscard.bind(golfie)(report);
+    zuuluu['getCommandContext'] = tangon;
+    michal = function(argFoo) { // Original name: useCommandContext
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            zulu = _closure1_slot2;
-            mike = _closure2_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure2_slot0;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useCommandContext'] = mike;
+    zuuluu['useCommandContext'] = michal;
     return entity;
 })();

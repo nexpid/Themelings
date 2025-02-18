@@ -1,116 +1,116 @@
 // app/modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.Permissions;
-    var _closure1_slot3 = golf;
-    tango = tango.GuildFeatures;
-    var _closure1_slot4 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useGuildShopPreviewVisible
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.Permissions;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.GuildFeatures;
+    var _closure1_slot4 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useGuildShopPreviewVisible
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            var _closure2_slot0 = options;
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
+            option = argFoo;
+            var _closure2_slot0 = option;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 2;
-            entity = oscar[entity];
+            entity = oscard[entity];
             offset = undefined;
-            tango = zulu.bind(offset)(entity);
-            mike = tango.useIsEligibleForGuildShopPreview;
+            tangon = zuuluu.bind(offset)(entity);
+            michal = tangon.useIsEligibleForGuildShopPreview;
             entity = argBar;
-            tango = mike.bind(tango)(entity);
+            tangon = michal.bind(tangon)(entity);
             entity = 3;
-            entity = oscar[entity];
-            golf = zulu.bind(offset)(entity);
-            mike = golf.useIsDismissibleContentDismissed;
+            entity = oscard[entity];
+            golfie = zuuluu.bind(offset)(entity);
+            michal = golfie.useIsDismissibleContentDismissed;
             entity = 4;
-            entity = oscar[entity];
-            entity = zulu.bind(offset)(entity);
+            entity = oscard[entity];
+            entity = zuuluu.bind(offset)(entity);
             entity = entity.DismissibleContent;
             entity = entity.SERVER_SHOP_PHANTOM_PREVIEW;
-            mike = mike.bind(golf)(entity);
+            michal = michal.bind(golfie)(entity);
             entity = 5;
-            entity = oscar[entity];
-            golf = zulu.bind(offset)(entity);
-            oscar = golf.useStateFromStores;
+            entity = oscard[entity];
+            golfie = zuuluu.bind(offset)(entity);
+            oscard = golfie.useStateFromStores;
             entity = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot0;
+                    zuuluu = _closure2_slot0;
                     entity = null;
-                    entity = entity != zulu;
+                    entity = entity != zuuluu;
                     if(!entity) { _fun00004_ip = 49; continue _fun00003 }
  16:
                     report = _closure1_slot2;
-                    tango = report.can;
-                    zulu = _closure1_slot3;
-                    zulu = zulu.ADMINISTRATOR;
-                    mike = _closure2_slot0;
-                    entity = tango.bind(report)(zulu, mike);
+                    tangon = report.can;
+                    zuuluu = _closure1_slot3;
+                    zuuluu = zuuluu.ADMINISTRATOR;
+                    michal = _closure2_slot0;
+                    entity = tangon.bind(report)(zuuluu, michal);
  49:
                     return entity;
                 }
             };
-            golf = oscar.bind(golf)(zulu, entity);
+            golfie = oscard.bind(golfie)(zuuluu, entity);
             entity = null;
-            oscar = entity == options;
-            zulu = undefined;
-            if(oscar) { _fun00002_ip = 167; continue _fun00001 }
+            oscard = entity == option;
+            zuuluu = undefined;
+            if(oscard) { _fun00002_ip = 167; continue _fun00001 }
  146:
-            yankee = options.hasFeature;
-            oscar = _closure1_slot4;
-            oscar = oscar.PRODUCTS_AVAILABLE_FOR_PURCHASE;
-            zulu = yankee.bind(options)(oscar);
+            yankee = option.hasFeature;
+            oscard = _closure1_slot4;
+            oscard = oscard.PRODUCTS_AVAILABLE_FOR_PURCHASE;
+            zuuluu = yankee.bind(option)(oscard);
  167:
-            oscar = entity != zulu;
-            if(!oscar) { _fun00002_ip = 177; continue _fun00001 }
+            oscard = entity != zuuluu;
+            if(!oscard) { _fun00002_ip = 177; continue _fun00001 }
  174:
-            oscar = zulu;
+            oscard = zuuluu;
  177:
             yankee = _closure1_slot0;
-            romeo = _closure1_slot1;
-            zulu = 6;
-            zulu = romeo[zulu];
-            romeo = yankee.bind(offset)(zulu);
-            yankee = romeo.useGuildEligibleForGuildProducts;
-            zulu = entity == options;
+            romeon = _closure1_slot1;
+            zuuluu = 6;
+            zuuluu = romeon[zuuluu];
+            romeon = yankee.bind(offset)(zuuluu);
+            yankee = romeon.useGuildEligibleForGuildProducts;
+            zuuluu = entity == option;
             offset = undefined;
-            if(zulu) { _fun00002_ip = 217; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 217; continue _fun00001 }
  212:
-            offset = options.id;
+            offset = option.id;
  217:
-            zulu = 'useGuildShopPreviewVisible';
-            zulu = yankee.bind(romeo)(offset, zulu);
+            zuuluu = 'useGuildShopPreviewVisible';
+            zuuluu = yankee.bind(romeon)(offset, zuuluu);
             verify = _closure1_slot4;
             yankee = verify.CREATOR_MONETIZABLE;
             offset = new Array(3);
@@ -123,31 +123,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    zulu = _closure2_slot0;
-                    mike = null;
-                    zulu = mike == zulu;
-                    mike = undefined;
-                    if(zulu) { _fun00006_ip = 36; continue _fun00005 }
+                    zuuluu = _closure2_slot0;
+                    michal = null;
+                    zuuluu = michal == zuuluu;
+                    michal = undefined;
+                    if(zuuluu) { _fun00006_ip = 36; continue _fun00005 }
  18:
-                    tango = _closure2_slot0;
-                    zulu = tango.hasFeature;
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.hasFeature;
                     entity = argFoo;
-                    mike = zulu.bind(tango)(entity);
+                    michal = zuuluu.bind(tangon)(entity);
  36:
                     entity = true;
-                    entity = entity === mike;
+                    entity = entity === michal;
                     return entity;
                 }
             };
             report = verify.bind(offset)(report);
-            entity = entity != options;
+            entity = entity != option;
             if(!entity) { _fun00002_ip = 291; continue _fun00001 }
  288:
-            entity = golf;
+            entity = golfie;
  291:
             if(!entity) { _fun00002_ip = 297; continue _fun00001 }
  294:
-            entity = !oscar;
+            entity = !oscard;
  297:
             if(!entity) { _fun00002_ip = 303; continue _fun00001 }
  300:
@@ -155,19 +155,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  303:
             if(!entity) { _fun00002_ip = 309; continue _fun00001 }
  306:
-            entity = tango;
+            entity = tangon;
  309:
             if(!entity) { _fun00002_ip = 315; continue _fun00001 }
  312:
-            entity = zulu;
+            entity = zuuluu;
  315:
             if(!entity) { _fun00002_ip = 321; continue _fun00001 }
  318:
-            entity = !mike;
+            entity = !michal;
  321:
             return entity;
         }
     };
-    zulu['useGuildShopPreviewVisible'] = mike;
+    zuuluu['useGuildShopPreviewVisible'] = michal;
     return entity;
 })();

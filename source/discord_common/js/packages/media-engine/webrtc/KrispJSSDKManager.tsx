@@ -1,104 +1,104 @@
 // discord_common/js/packages/media-engine/webrtc/KrispJSSDKManager.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/webrtc/KrispJSSDKManager.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getKrispSDK
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/webrtc/KrispJSSDKManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getKrispSDK
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot2;
-            mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 42; continue _fun00001 }
+            michal = null;
+            if(!(michal == entity)) { _fun00002_ip = 42; continue _fun00001 }
  13:
             report = _closure1_slot3;
-            tango = undefined;
-            mike = function* () {
+            tangon = undefined;
+            michal = function* () {
                 entity = function* () { // Original name: ?anon_0_
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00004_ip = 156; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 156; continue _fun00003 }
  10:
-                        tango = _closure1_slot0;
-                        mike = _closure1_slot1;
-                        zulu = 2;
-                        zulu = mike[zulu];
+                        tangon = _closure1_slot0;
+                        michal = _closure1_slot1;
+                        zuuluu = 2;
+                        zuuluu = michal[zuuluu];
                         report = undefined;
-                        tango = tango.bind(report)(zulu);
-                        zulu = 1;
-                        zulu = mike[zulu];
-                        mike = mike.paths;
-                        mike = tango.bind(report)(zulu, mike);
+                        tangon = tangon.bind(report)(zuuluu);
+                        zuuluu = 1;
+                        zuuluu = michal[zuuluu];
+                        michal = michal.paths;
+                        michal = tangon.bind(report)(zuuluu, michal);
                         SaveGenerator(address=57);
  55:
-                        return mike;
+                        return michal;
  57:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun00004_ip = 153; continue _fun00003 }
+                        if(zuuluu) { _fun00004_ip = 153; continue _fun00003 }
  63:
-                        report = mike.default;
-                        zulu = {};
-                        tango = {'logProcessStats': false, 'useSharedArrayBuffer': false, 'debugLogs': false, 'bufferOverflowMS': 200};
-                        oscar = {'model8': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_8.kw', 'model16': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_16.kw', 'model32': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_32.kw'};
-                        tango['models'] = oscar;
-                        zulu['params'] = tango;
-                        tango = report.prototype;
-                        tango = Object.create(tango, {constructor: {value: report}});
-                        verify = tango;
-                        options = zulu;
-                        zulu = new verify[report](options, golf);
-                        tango = zulu instanceof Object ? zulu : tango;
-                        zulu = tango.init;
-                        zulu = zulu.bind(tango)();
+                        report = michal.default;
+                        zuuluu = {};
+                        tangon = {'logProcessStats': false, 'useSharedArrayBuffer': false, 'debugLogs': false, 'bufferOverflowMS': 200};
+                        oscard = {'model8': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_8.kw', 'model16': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_16.kw', 'model32': 'https://cdn.discordapp.com/assets/krisp_browser_models/v1.0.11_1/model_32.kw'};
+                        tangon['models'] = oscard;
+                        zuuluu['params'] = tangon;
+                        tangon = report.prototype;
+                        tangon = Object.create(tangon, {constructor: {value: report}});
+                        verify = tangon;
+                        option = zuuluu;
+                        zuuluu = new verify[report](option, golfie);
+                        tangon = zuuluu instanceof Object ? zuuluu : tangon;
+                        zuuluu = tangon.init;
+                        zuuluu = zuuluu.bind(tangon)();
                         SaveGenerator(address=141);
  139:
-                        return zulu;
+                        return zuuluu;
  141:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                         if(report) { _fun00004_ip = 150; continue _fun00003 }
  147:
-                        return tango;
+                        return tangon;
  150:
-                        return zulu;
+                        return zuuluu;
  153:
-                        return mike;
+                        return michal;
  156:
                         return entity;
                     }
                 };
                 return entity;
             };
-            mike = report.bind(tango)(mike);
-            mike = mike.bind(tango)();
-            var _closure1_slot2 = mike;
-            entity = mike;
+            michal = report.bind(tangon)(michal);
+            michal = michal.bind(tangon)();
+            var _closure1_slot2 = michal;
+            entity = michal;
  42:
             return entity;
         }
     };
-    zulu['getKrispSDK'] = mike;
+    zuuluu['getKrispSDK'] = michal;
     return entity;
 })();

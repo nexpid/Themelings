@@ -1,40 +1,40 @@
 // app/modules/reanimated/native/cheapWorkletShallowEqual.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = {};
-    tango = 'function cheapWorkletShallowEqual_cheapWorkletShallowEqualTsx1(a,b){if(a===b)return true;if(a==null||b==null)return false;for(const key in a){if(a[key]!==b[key])return false;}return true;}';
-    entity['code'] = tango;
+    tangon = 'function cheapWorkletShallowEqual_cheapWorkletShallowEqualTsx1(a,b){if(a===b)return true;if(a==null||b==null)return false;for(const key in a){if(a[key]!==b[key])return false;}return true;}';
+    entity['code'] = tangon;
     var _closure1_slot0 = entity;
-    tango = function() {
+    tangon = function() {
         entity = function(argFoo, argBar) { // Original name: cheapWorkletShallowEqual
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 verify = argFoo;
-                options = argBar;
-                if(!(verify !== options)) { _fun00002_ip = 67; continue _fun00001 }
+                option = argBar;
+                if(!(verify !== option)) { _fun00002_ip = 67; continue _fun00001 }
  10:
                 entity = null;
                 if(!(entity != verify)) { _fun00002_ip = 63; continue _fun00001 }
  16:
-                if(!(entity != options)) { _fun00002_ip = 63; continue _fun00001 }
+                if(!(entity != option)) { _fun00002_ip = 63; continue _fun00001 }
  20:
-                oscar = verify;
-                for(zulu in oscar)
+                oscard = verify;
+                for(zuuluu in oscard)
  31:
                 {
  40:
-                    entity = zulu;
-                    mike = verify[entity];
-                    entity = options[entity];
-                    if(mike === entity) { _fun00002_ip = 31; continue _fun00001 }
+                    entity = zuuluu;
+                    michal = verify[entity];
+                    entity = option[entity];
+                    if(michal === entity) { _fun00002_ip = 31; continue _fun00001 }
  55:
                     entity = false;
                     return entity;
@@ -50,49 +50,49 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 760221372005.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot0;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 760221372005.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot0;
+        entity['__initData'] = michal;
         return entity;
     };
     entity = undefined;
-    tango = tango.bind(entity)();
+    tangon = tangon.bind(entity)();
     report = {};
-    oscar = 'function cheapWorkletArrayShallowEqual_cheapWorkletShallowEqualTsx2(a,b){if(a===b)return true;if(a==null||b==null)return false;if(a.length!==b.length)return false;for(let i=0;i<a.length;i++){if(a[i]!==b[i])return false;}return true;}';
-    report['code'] = oscar;
+    oscard = 'function cheapWorkletArrayShallowEqual_cheapWorkletShallowEqualTsx2(a,b){if(a===b)return true;if(a==null||b==null)return false;if(a.length!==b.length)return false;for(let i=0;i<a.length;i++){if(a[i]!==b[i])return false;}return true;}';
+    report['code'] = oscard;
     var _closure1_slot1 = report;
-    mike = function() {
+    michal = function() {
         entity = function(argFoo, argBar) { // Original name: cheapWorkletArrayShallowEqual
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = argFoo;
-                zulu = argBar;
-                if(!(tango !== zulu)) { _fun00004_ip = 88; continue _fun00003 }
+                tangon = argFoo;
+                zuuluu = argBar;
+                if(!(tangon !== zuuluu)) { _fun00004_ip = 88; continue _fun00003 }
  10:
                 entity = null;
-                if(!(entity != tango)) { _fun00004_ip = 84; continue _fun00003 }
+                if(!(entity != tangon)) { _fun00004_ip = 84; continue _fun00003 }
  16:
-                if(!(entity != zulu)) { _fun00004_ip = 84; continue _fun00003 }
+                if(!(entity != zuuluu)) { _fun00004_ip = 84; continue _fun00003 }
  20:
-                mike = tango.length;
-                entity = zulu.length;
-                if(!(mike === entity)) { _fun00004_ip = 80; continue _fun00003 }
+                michal = tangon.length;
+                entity = zuuluu.length;
+                if(!(michal === entity)) { _fun00004_ip = 80; continue _fun00003 }
  34:
-                entity = tango.length;
-                mike = 0;
-                entity = mike < entity;
+                entity = tangon.length;
+                michal = 0;
+                entity = michal < entity;
                 if(!entity) { _fun00004_ip = 72; continue _fun00003 }
  48:
-                report = tango[mike];
-                entity = zulu[mike];
+                report = tangon[michal];
+                entity = zuuluu[michal];
                 if(!(report === entity)) { _fun00004_ip = 76; continue _fun00003 }
  60:
-                mike = mike + 1;
-                entity = tango.length;
-                if(mike < entity) { _fun00004_ip = 48; continue _fun00003 }
+                michal = michal + 1;
+                entity = tangon.length;
+                if(michal < entity) { _fun00004_ip = 48; continue _fun00003 }
  72:
                 entity = true;
                 return entity;
@@ -110,24 +110,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 3679738010781.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot1;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 3679738010781.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot1;
+        entity['__initData'] = michal;
         return entity;
     };
-    mike = mike.bind(entity)();
-    oscar = argPlugh;
+    michal = michal.bind(entity)();
+    oscard = argPlu;
     report = 0;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/reanimated/native/cheapWorkletShallowEqual.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['cheapWorkletShallowEqual'] = tango;
-    zulu['cheapWorkletArrayShallowEqual'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['cheapWorkletShallowEqual'] = tangon;
+    zuuluu['cheapWorkletArrayShallowEqual'] = michal;
     return entity;
 })();

@@ -1,33 +1,33 @@
 // app/modules/main_tabs_v2/RootNavigationRef.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(tango);
-    tango = golf.createNavigationContainerRef;
-    tango = tango.bind(golf)();
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/RootNavigationRef.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getRootNavigationRef
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.createNavigationContainerRef;
+    tangon = tangon.bind(golfie)();
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/RootNavigationRef.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getRootNavigationRef
         entity = _closure1_slot0;
         return entity;
     };
-    zulu['getRootNavigationRef'] = mike;
+    zuuluu['getRootNavigationRef'] = michal;
     return entity;
 })();

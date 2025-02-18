@@ -1,91 +1,91 @@
 // app/modules/search_v2/native/hooks/useIsSearchTabVisible.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.getHasUserAddedSearchTags;
-    var _closure1_slot0 = golf;
-    golf = tango.getIsEmptySearchTags;
-    var _closure1_slot1 = golf;
-    golf = tango.useHasUserAddedSearchTags;
-    var _closure1_slot2 = golf;
-    tango = tango.useIsEmptySearchTags;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/search_v2/native/hooks/useIsSearchTabVisible.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useIsMembersTabVisible
-        zulu = _closure1_slot2;
-        mike = undefined;
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.getHasUserAddedSearchTags;
+    var _closure1_slot0 = golfie;
+    golfie = tangon.getIsEmptySearchTags;
+    var _closure1_slot1 = golfie;
+    golfie = tangon.useHasUserAddedSearchTags;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.useIsEmptySearchTags;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/hooks/useIsSearchTabVisible.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useIsMembersTabVisible
+        zuuluu = _closure1_slot2;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         entity = !entity;
         return entity;
     };
-    zulu['useIsMembersTabVisible'] = tango;
-    tango = function(argFoo) { // Original name: getIsMembersTabVisible
-        zulu = _closure1_slot0;
-        mike = undefined;
+    zuuluu['useIsMembersTabVisible'] = tangon;
+    tangon = function(argFoo) { // Original name: getIsMembersTabVisible
+        zuuluu = _closure1_slot0;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         entity = !entity;
         return entity;
     };
-    zulu['getIsMembersTabVisible'] = tango;
-    tango = function(argFoo) { // Original name: useIsChannelsTabVisible
-        zulu = _closure1_slot3;
-        mike = undefined;
+    zuuluu['getIsMembersTabVisible'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsChannelsTabVisible
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsChannelsTabVisible'] = tango;
-    tango = function(argFoo) { // Original name: getIsChannelsTabVisible
-        zulu = _closure1_slot1;
-        mike = undefined;
+    zuuluu['useIsChannelsTabVisible'] = tangon;
+    tangon = function(argFoo) { // Original name: getIsChannelsTabVisible
+        zuuluu = _closure1_slot1;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getIsChannelsTabVisible'] = tango;
-    tango = function(argFoo) { // Original name: useIsPeopleTabVisible
-        zulu = _closure1_slot3;
-        mike = undefined;
+    zuuluu['getIsChannelsTabVisible'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsPeopleTabVisible
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useIsPeopleTabVisible'] = tango;
-    tango = function(argFoo) { // Original name: getIsPeopleTabVisible
-        zulu = _closure1_slot1;
-        mike = undefined;
+    zuuluu['useIsPeopleTabVisible'] = tangon;
+    tangon = function(argFoo) { // Original name: getIsPeopleTabVisible
+        zuuluu = _closure1_slot1;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getIsPeopleTabVisible'] = tango;
-    mike = function(argFoo) { // Original name: getIsRecentsTabVisible
-        zulu = _closure1_slot1;
-        mike = undefined;
+    zuuluu['getIsPeopleTabVisible'] = tangon;
+    michal = function(argFoo) { // Original name: getIsRecentsTabVisible
+        zuuluu = _closure1_slot1;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getIsRecentsTabVisible'] = mike;
+    zuuluu['getIsRecentsTabVisible'] = michal;
     return entity;
 })();

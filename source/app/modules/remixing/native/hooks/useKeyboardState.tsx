@@ -1,151 +1,151 @@
 // app/modules/remixing/native/hooks/useKeyboardState.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Keyboard;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.useRemixingEditorStore;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.RemixMode;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/remixing/native/hooks/useKeyboardState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useKeyboardState
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Keyboard;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useRemixingEditorStore;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RemixMode;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/remixing/native/hooks/useKeyboardState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useKeyboardState
         entity = argFoo;
-        options = entity.isOnAndroid;
-        var _closure2_slot0 = options;
-        oscar = entity.setIsKeyboardVisible;
-        var _closure2_slot1 = oscar;
+        option = entity.isOnAndroid;
+        var _closure2_slot0 = option;
+        oscard = entity.setIsKeyboardVisible;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot2;
         entity = undefined;
-        tango = function(argFoo) {
+        tangon = function(argFoo) {
             entity = argFoo;
             entity = entity.setCurrentMode;
             return entity;
         };
-        golf = report.bind(entity)(tango);
-        var _closure2_slot2 = golf;
+        golfie = report.bind(entity)(tangon);
+        var _closure2_slot2 = golfie;
         report = _closure1_slot0;
-        tango = report.useEffect;
-        zulu = new Array(3);
-        zulu[0] = options;
-        zulu[1] = golf;
-        zulu[2] = oscar;
-        mike = function() {
+        tangon = report.useEffect;
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        zuuluu[2] = oscard;
+        michal = function() {
             report = _closure1_slot1;
-            tango = report.addListener;
-            zulu = 'keyboardDidShow';
-            mike = function() {
+            tangon = report.addListener;
+            zuuluu = 'keyboardDidShow';
+            michal = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    mike = _closure2_slot0;
-                    if(!mike) { _fun00002_ip = 23; continue _fun00001 }
+                    michal = _closure2_slot0;
+                    if(!michal) { _fun00002_ip = 23; continue _fun00001 }
  10:
-                    zulu = _closure2_slot1;
-                    mike = undefined;
+                    zuuluu = _closure2_slot1;
+                    michal = undefined;
                     entity = true;
-                    entity = zulu.bind(mike)(entity);
+                    entity = zuuluu.bind(michal)(entity);
  23:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot0 = mike;
-            tango = report.addListener;
-            zulu = 'keyboardDidHide';
-            mike = function() {
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot0 = michal;
+            tangon = report.addListener;
+            zuuluu = 'keyboardDidHide';
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure2_slot0;
-                    if(!mike) { _fun00004_ip = 45; continue _fun00003 }
+                    michal = _closure2_slot0;
+                    if(!michal) { _fun00004_ip = 45; continue _fun00003 }
  10:
-                    tango = _closure2_slot1;
-                    zulu = undefined;
-                    mike = false;
-                    mike = tango.bind(zulu)(mike);
-                    mike = _closure2_slot2;
+                    tangon = _closure2_slot1;
+                    zuuluu = undefined;
+                    michal = false;
+                    michal = tangon.bind(zuuluu)(michal);
+                    michal = _closure2_slot2;
                     entity = _closure1_slot3;
                     entity = entity.DEFAULT_MODE;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
  45:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot1 = mike;
-            tango = report.addListener;
-            zulu = 'keyboardWillShow';
-            mike = function() {
-                zulu = _closure2_slot1;
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot1 = michal;
+            tangon = report.addListener;
+            zuuluu = 'keyboardWillShow';
+            michal = function() {
+                zuuluu = _closure2_slot1;
                 entity = undefined;
-                mike = true;
-                mike = zulu.bind(entity)(mike);
+                michal = true;
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot2 = mike;
-            tango = report.addListener;
-            zulu = 'keyboardWillHide';
-            mike = function() {
-                zulu = _closure2_slot1;
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot2 = michal;
+            tangon = report.addListener;
+            zuuluu = 'keyboardWillHide';
+            michal = function() {
+                zuuluu = _closure2_slot1;
                 entity = undefined;
-                mike = false;
-                mike = zulu.bind(entity)(mike);
+                michal = false;
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
-            var _closure3_slot3 = mike;
+            michal = tangon.bind(report)(zuuluu, michal);
+            var _closure3_slot3 = michal;
             entity = function() {
-                zulu = _closure3_slot1;
-                mike = zulu.remove;
-                mike = mike.bind(zulu)();
-                zulu = _closure3_slot0;
-                mike = zulu.remove;
-                mike = mike.bind(zulu)();
-                zulu = _closure3_slot3;
-                mike = zulu.remove;
-                mike = mike.bind(zulu)();
-                mike = _closure3_slot2;
-                entity = mike.remove;
-                entity = entity.bind(mike)();
+                zuuluu = _closure3_slot1;
+                michal = zuuluu.remove;
+                michal = michal.bind(zuuluu)();
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.remove;
+                michal = michal.bind(zuuluu)();
+                zuuluu = _closure3_slot3;
+                michal = zuuluu.remove;
+                michal = michal.bind(zuuluu)();
+                michal = _closure3_slot2;
+                entity = michal.remove;
+                entity = entity.bind(michal)();
                 entity = undefined;
                 return entity;
             };
             return entity;
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zulu['useKeyboardState'] = mike;
+    zuuluu['useKeyboardState'] = michal;
     return entity;
 })();

@@ -1,35 +1,35 @@
 // app/modules/notification_center/FriendRequestMoveExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
     report = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = golf[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = golf[tango];
-    options = oscar.bind(entity)(tango);
-    report = options.createExperiment;
-    tango = {'kind': 'user', 'id': '2024-11_mobile_friend_request_move', 'label': 'Moves friend requests from notification center to messages'};
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = golfie[tangon];
+    option = oscard.bind(entity)(tangon);
+    report = option.createExperiment;
+    tangon = {'kind': 'user', 'id': '2024-11_mobile_friend_request_move', 'label': 'Moves friend requests from notification center to messages'};
     verify = {'showInDMs': false, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
-    tango['defaultConfig'] = verify;
+    tangon['defaultConfig'] = verify;
     offset = {'id': 1, 'label': 'shows friend requests in dms with perma badge'};
     verify = {'showInDMs': true, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
     offset['config'] = verify;
@@ -43,97 +43,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     yankee = {'showInDMs': true, 'removeBadgeAfterAck': true, 'removeItemAfterAck': true};
     offset['config'] = yankee;
     verify[2] = offset;
-    tango['treatments'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot4 = tango;
+    tangon['treatments'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/notification_center/FriendRequestMoveExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: useNumFriendRequestsForBadging
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: useNumFriendRequestsForBadging
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot4;
-            zulu = tango.useExperiment;
-            mike = {};
+            tangon = _closure1_slot4;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             report = argFoo;
-            mike['location'] = report;
-            mike = zulu.bind(tango)(mike);
-            zulu = mike.showInDMs;
-            mike = mike.removeBadgeAfterAck;
-            var _closure2_slot0 = mike;
+            michal['location'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.showInDMs;
+            michal = michal.removeBadgeAfterAck;
+            var _closure2_slot0 = michal;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 3;
-            tango = tango[mike];
-            mike = undefined;
-            report = report.bind(mike)(tango);
-            tango = report.useStateFromStores;
-            golf = _closure1_slot2;
-            mike = new Array(2);
-            mike[0] = golf;
-            oscar = _closure1_slot3;
-            mike[1] = oscar;
+            tangon = _closure1_slot1;
+            michal = 3;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = report.useStateFromStores;
+            golfie = _closure1_slot2;
+            michal = new Array(2);
+            michal[0] = golfie;
+            oscard = _closure1_slot3;
+            michal[1] = oscard;
             entity = function() {
                 entity = _closure1_slot2;
-                zulu = entity.localItems;
-                mike = zulu.filter;
+                zuuluu = entity.localItems;
+                michal = zuuluu.filter;
                 entity = function(argFoo) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         report = argFoo;
-                        mike = report.type;
-                        tango = _closure1_slot0;
+                        michal = report.type;
+                        tangon = _closure1_slot0;
                         entity = _closure1_slot1;
-                        options = 4;
-                        entity = entity[options];
-                        golf = undefined;
-                        entity = tango.bind(golf)(entity);
+                        option = 4;
+                        entity = entity[option];
+                        golfie = undefined;
+                        entity = tangon.bind(golfie)(entity);
                         entity = entity.NotificationCenterLocalItems;
                         entity = entity.INCOMING_FRIEND_REQUESTS;
-                        entity = mike !== entity;
+                        entity = michal !== entity;
                         if(!entity) { _fun00004_ip = 90; continue _fun00003 }
  52:
-                        tango = report.type;
-                        oscar = _closure1_slot0;
-                        mike = _closure1_slot1;
-                        mike = mike[options];
-                        mike = oscar.bind(golf)(mike);
-                        mike = mike.NotificationCenterLocalItems;
-                        mike = mike.INCOMING_GAME_FRIEND_REQUESTS;
-                        entity = tango !== mike;
+                        tangon = report.type;
+                        oscard = _closure1_slot0;
+                        michal = _closure1_slot1;
+                        michal = michal[option];
+                        michal = oscard.bind(golfie)(michal);
+                        michal = michal.NotificationCenterLocalItems;
+                        michal = michal.INCOMING_GAME_FRIEND_REQUESTS;
+                        entity = tangon !== michal;
  90:
                         if(entity) { _fun00004_ip = 121; continue _fun00003 }
  93:
-                        mike = _closure2_slot0;
-                        if(!mike) { _fun00004_ip = 118; continue _fun00003 }
+                        michal = _closure2_slot0;
+                        if(!michal) { _fun00004_ip = 118; continue _fun00003 }
  103:
-                        tango = _closure1_slot3;
-                        zulu = tango.isLocalItemAcked;
-                        mike = zulu.bind(tango)(report);
+                        tangon = _closure1_slot3;
+                        zuuluu = tangon.isLocalItemAcked;
+                        michal = zuuluu.bind(tangon)(report);
  118:
-                        entity = mike;
+                        entity = michal;
  121:
                         entity = !entity;
                         return entity;
                     }
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = entity.length;
                 return entity;
             };
-            mike = tango.bind(report)(mike, entity);
+            michal = tangon.bind(report)(michal, entity);
             entity = 0;
-            if(!zulu) { _fun00002_ip = 113; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 113; continue _fun00001 }
  110:
-            entity = mike;
+            entity = michal;
  113:
             return entity;
         }
     };
-    zulu['useNumFriendRequestsForBadging'] = mike;
+    zuuluu['useNumFriendRequestsForBadging'] = michal;
     return entity;
 })();

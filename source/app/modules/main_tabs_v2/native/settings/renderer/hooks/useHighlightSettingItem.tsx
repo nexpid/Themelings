@@ -1,36 +1,36 @@
 // app/modules/main_tabs_v2/native/settings/renderer/hooks/useHighlightSettingItem.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useSelectedSearchResult;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/renderer/hooks/useHighlightSettingItem.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useHighlightSettingItem
-        mike = _closure1_slot0;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useSelectedSearchResult;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/renderer/hooks/useHighlightSettingItem.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useHighlightSettingItem
+        michal = _closure1_slot0;
         entity = undefined;
-        mike = mike.bind(entity)();
+        michal = michal.bind(entity)();
         entity = argFoo;
-        entity = mike === entity;
+        entity = michal === entity;
         return entity;
     };
-    zulu['useHighlightSettingItem'] = mike;
+    zuuluu['useHighlightSettingItem'] = michal;
     return entity;
 })();

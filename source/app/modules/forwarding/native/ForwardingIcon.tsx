@@ -1,72 +1,72 @@
 // app/modules/forwarding/native/ForwardingIcon.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forwarding/native/ForwardingIcon.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: ForwardingIcon
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forwarding/native/ForwardingIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: ForwardingIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            mike = tango[mike];
-            tango = undefined;
-            oscar = zulu.bind(tango)(mike);
-            report = oscar.useMessageForwardingExperiment;
-            zulu = {};
-            mike = 'MessagesConnected';
-            zulu['location'] = mike;
-            mike = {};
-            golf = false;
-            mike['autoTrackExposure'] = golf;
-            mike = report.bind(oscar)(zulu, mike);
-            mike = mike.useOldIcon;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            michal = tangon[michal];
+            tangon = undefined;
+            oscard = zuuluu.bind(tangon)(michal);
+            report = oscard.useMessageForwardingExperiment;
+            zuuluu = {};
+            michal = 'MessagesConnected';
+            zuuluu['location'] = michal;
+            michal = {};
+            golfie = false;
+            michal['autoTrackExposure'] = golfie;
+            michal = report.bind(oscard)(zuuluu, michal);
+            michal = michal.useOldIcon;
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
-            if(mike) { _fun00002_ip = 95; continue _fun00001 }
+            oscard = _closure1_slot1;
+            if(michal) { _fun00002_ip = 95; continue _fun00001 }
  75:
-            mike = 3;
-            mike = oscar[mike];
-            mike = report.bind(tango)(mike);
-            zulu = mike.ChatArrowRightIcon;
+            michal = 3;
+            michal = oscard[michal];
+            michal = report.bind(tangon)(michal);
+            zuuluu = michal.ChatArrowRightIcon;
             _fun00002_ip = 113; continue _fun00001;
  95:
-            mike = 2;
-            mike = oscar[mike];
-            mike = report.bind(tango)(mike);
-            zulu = mike.ArrowAngleRightUpIcon;
+            michal = 2;
+            michal = oscard[michal];
+            michal = report.bind(tangon)(michal);
+            zuuluu = michal.ArrowAngleRightUpIcon;
  113:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = {};
-            options = argFoo;
+            option = argFoo;
             verify = entity;
-            report = copyDataProperties(verify, options);
-            entity = mike.bind(tango)(zulu, entity);
+            report = copyDataProperties(verify, option);
+            entity = michal.bind(tangon)(zuuluu, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

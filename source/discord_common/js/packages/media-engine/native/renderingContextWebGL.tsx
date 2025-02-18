@@ -1,289 +1,289 @@
 // discord_common/js/packages/media-engine/native/renderingContextWebGL.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.Logger;
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'RenderingContextWebGL';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot2 = tango;
-    tango = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.Logger;
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'RenderingContextWebGL';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot2 = tangon;
+    tangon = function() {
         report = function(argFoo) { // Original name: RenderingContext
             entity = argFoo;
-            zulu = this;
+            zuuluu = this;
             offset = entity.gl;
             verify = entity.program;
-            options = entity.positionLoc;
-            golf = entity.texcoordLoc;
-            oscar = entity.transformLoc;
+            option = entity.positionLoc;
+            golfie = entity.texcoordLoc;
+            oscard = entity.transformLoc;
             report = entity.textureLoc;
-            tango = entity.vertexBuffer;
-            mike = entity.texture;
-            romeo = _closure1_slot0;
+            tangon = entity.vertexBuffer;
+            michal = entity.texture;
+            romeon = _closure1_slot0;
             yankee = _closure2_slot0;
             entity = undefined;
-            yankee = romeo.bind(entity)(zulu, yankee);
+            yankee = romeon.bind(entity)(zuuluu, yankee);
             yankee = global;
-            foxtrot = yankee.Float32Array;
+            foxtra = yankee.Float32Array;
             yankee = [2, 0, 0, 0, 0];
-            romeo = -2;
-            yankee[5] = romeo;
+            romeon = -2;
+            yankee[5] = romeon;
             backup = 0;
             yankee[6] = backup;
             yankee[7] = backup;
             yankee[8] = backup;
             yankee[9] = backup;
-            romeo = 1;
-            yankee[10] = romeo;
+            romeon = 1;
+            yankee[10] = romeon;
             yankee[11] = backup;
-            kilo = -1;
-            yankee[12] = kilo;
-            yankee[13] = romeo;
+            kiloes = -1;
+            yankee[12] = kiloes;
+            yankee[13] = romeon;
             yankee[14] = backup;
-            yankee[15] = romeo;
-            romeo = foxtrot.prototype;
-            romeo = Object.create(romeo, {constructor: {value: foxtrot}});
-            result = romeo;
+            yankee[15] = romeon;
+            romeon = foxtra.prototype;
+            romeon = Object.create(romeon, {constructor: {value: foxtra}});
+            result = romeon;
             output = yankee;
-            yankee = new result[foxtrot](output, sizing);
-            yankee = yankee instanceof Object ? yankee : romeo;
-            zulu['transform'] = yankee;
-            zulu['gl'] = offset;
-            zulu['program'] = verify;
-            zulu['positionLoc'] = options;
-            zulu['texcoordLoc'] = golf;
-            zulu['transformLoc'] = oscar;
-            zulu['textureLoc'] = report;
-            zulu['vertexBuffer'] = tango;
-            zulu['texture'] = mike;
+            yankee = new result[foxtra](output, sizing);
+            yankee = yankee instanceof Object ? yankee : romeon;
+            zuuluu['transform'] = yankee;
+            zuuluu['gl'] = offset;
+            zuuluu['program'] = verify;
+            zuuluu['positionLoc'] = option;
+            zuuluu['texcoordLoc'] = golfie;
+            zuuluu['transformLoc'] = oscard;
+            zuuluu['textureLoc'] = report;
+            zuuluu['vertexBuffer'] = tangon;
+            zuuluu['texture'] = michal;
             return entity;
         };
         var _closure2_slot0 = report;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = {};
-        mike = 'render';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = 'render';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = this;
-                zulu = null;
-                if(!(zulu != mike)) { _fun00002_ip = 487; continue _fun00001 }
+                zuuluu = null;
+                if(!(zuuluu != michal)) { _fun00002_ip = 487; continue _fun00001 }
  15:
-                oscar = mike.width;
-                zulu = mike.height;
+                oscard = michal.width;
+                zuuluu = michal.height;
                 report = entity.gl;
-                options = report.bindTexture;
-                golf = report.TEXTURE_2D;
-                tango = entity.texture;
-                tango = options.bind(report)(golf, tango);
+                option = report.bindTexture;
+                golfie = report.TEXTURE_2D;
+                tangon = entity.texture;
+                tangon = option.bind(report)(golfie, tangon);
                 yankee = report.texImage2D;
                 update = report.TEXTURE_2D;
                 result = report.RGBA;
                 backup = report.RGBA;
-                foxtrot = report.UNSIGNED_BYTE;
-                romeo = mike.data;
-                tango = 0;
+                foxtra = report.UNSIGNED_BYTE;
+                romeon = michal.data;
+                tangon = 0;
                 source = report;
-                echo = 0;
-                output = oscar;
-                sizing = zulu;
-                kilo = 0;
-                mike = source[yankee](update, echo, result, output, sizing, kilo, backup, foxtrot, romeo, yankee);
+                echoed = 0;
+                output = oscard;
+                sizing = zuuluu;
+                kiloes = 0;
+                michal = source[yankee](update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
                 verify = report.texParameteri;
-                options = report.TEXTURE_2D;
-                golf = report.TEXTURE_WRAP_S;
-                mike = report.CLAMP_TO_EDGE;
-                mike = verify.bind(report)(options, golf, mike);
+                option = report.TEXTURE_2D;
+                golfie = report.TEXTURE_WRAP_S;
+                michal = report.CLAMP_TO_EDGE;
+                michal = verify.bind(report)(option, golfie, michal);
                 verify = report.texParameteri;
-                options = report.TEXTURE_2D;
-                golf = report.TEXTURE_WRAP_T;
-                mike = report.CLAMP_TO_EDGE;
-                mike = verify.bind(report)(options, golf, mike);
+                option = report.TEXTURE_2D;
+                golfie = report.TEXTURE_WRAP_T;
+                michal = report.CLAMP_TO_EDGE;
+                michal = verify.bind(report)(option, golfie, michal);
                 verify = report.texParameteri;
-                options = report.TEXTURE_2D;
-                golf = report.TEXTURE_MIN_FILTER;
-                mike = report.LINEAR;
-                mike = verify.bind(report)(options, golf, mike);
-                mike = report.viewport;
+                option = report.TEXTURE_2D;
+                golfie = report.TEXTURE_MIN_FILTER;
+                michal = report.LINEAR;
+                michal = verify.bind(report)(option, golfie, michal);
+                michal = report.viewport;
                 source = report;
                 update = 0;
-                echo = 0;
-                result = oscar;
-                output = zulu;
-                mike = source[mike](update, echo, result, output, sizing);
-                zulu = report.clearColor;
+                echoed = 0;
+                result = oscard;
+                output = zuuluu;
+                michal = source[michal](update, echoed, result, output, sizing);
+                zuuluu = report.clearColor;
                 output = 1;
                 source = report;
                 result = 0;
-                mike = source[zulu](update, echo, result, output, sizing);
-                zulu = report.clear;
-                mike = report.COLOR_BUFFER_BIT;
-                mike = zulu.bind(report)(mike);
-                zulu = report.useProgram;
-                mike = entity.program;
-                mike = zulu.bind(report)(mike);
-                oscar = report.bindBuffer;
-                zulu = report.ARRAY_BUFFER;
-                mike = entity.vertexBuffer;
-                mike = oscar.bind(report)(zulu, mike);
-                zulu = report.enableVertexAttribArray;
-                mike = entity.positionLoc;
-                mike = zulu.bind(report)(mike);
-                oscar = report.vertexAttribPointer;
+                michal = source[zuuluu](update, echoed, result, output, sizing);
+                zuuluu = report.clear;
+                michal = report.COLOR_BUFFER_BIT;
+                michal = zuuluu.bind(report)(michal);
+                zuuluu = report.useProgram;
+                michal = entity.program;
+                michal = zuuluu.bind(report)(michal);
+                oscard = report.bindBuffer;
+                zuuluu = report.ARRAY_BUFFER;
+                michal = entity.vertexBuffer;
+                michal = oscard.bind(report)(zuuluu, michal);
+                zuuluu = report.enableVertexAttribArray;
+                michal = entity.positionLoc;
+                michal = zuuluu.bind(report)(michal);
+                oscard = report.vertexAttribPointer;
                 update = entity.positionLoc;
                 result = report.FLOAT;
-                options = 2;
-                golf = false;
+                option = 2;
+                golfie = false;
                 source = report;
-                echo = options;
+                echoed = option;
                 output = false;
                 sizing = 0;
-                mike = source[oscar](update, echo, result, output, sizing, kilo, backup);
-                zulu = report.enableVertexAttribArray;
-                mike = entity.texcoordLoc;
-                mike = zulu.bind(report)(mike);
-                oscar = report.vertexAttribPointer;
+                michal = source[oscard](update, echoed, result, output, sizing, kiloes, backup);
+                zuuluu = report.enableVertexAttribArray;
+                michal = entity.texcoordLoc;
+                michal = zuuluu.bind(report)(michal);
+                oscard = report.vertexAttribPointer;
                 update = entity.texcoordLoc;
                 result = report.FLOAT;
                 source = report;
-                mike = source[oscar](update, echo, result, output, sizing, kilo, backup);
-                oscar = report.uniformMatrix4fv;
-                zulu = entity.transformLoc;
-                mike = entity.transform;
-                mike = oscar.bind(report)(zulu, golf, mike);
-                mike = report.uniform1i;
+                michal = source[oscard](update, echoed, result, output, sizing, kiloes, backup);
+                oscard = report.uniformMatrix4fv;
+                zuuluu = entity.transformLoc;
+                michal = entity.transform;
+                michal = oscard.bind(report)(zuuluu, golfie, michal);
+                michal = report.uniform1i;
                 entity = entity.textureLoc;
-                entity = mike.bind(report)(entity, tango);
-                zulu = report.drawArrays;
-                mike = report.TRIANGLES;
+                entity = michal.bind(report)(entity, tangon);
+                zuuluu = report.drawArrays;
+                michal = report.TRIANGLES;
                 entity = 6;
-                entity = zulu.bind(report)(mike, tango, entity);
+                entity = zuuluu.bind(report)(michal, tangon, entity);
  487:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        zulu = new Array(1);
-        zulu[0] = entity;
+        entity['value'] = michal;
+        zuuluu = new Array(1);
+        zuuluu[0] = entity;
         entity = {};
-        mike = 'create';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = 'create';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                romeo = argFoo;
+                romeon = argFoo;
                 report = this;
                 entity = null;
-                if(!(entity != romeo)) { _fun00004_ip = 412; continue _fun00003 }
+                if(!(entity != romeon)) { _fun00004_ip = 412; continue _fun00003 }
  15:
-                tango = report.createShader;
-                zulu = romeo.VERTEX_SHADER;
-                mike = '\nattribute vec4 position;\nattribute vec2 texcoord;\nuniform mat4 transform;\nvarying vec2 out_texcoord;\n\nvoid main() {\n   gl_Position = transform * position;\n   out_texcoord = texcoord;\n}\n';
-                tango = tango.bind(report)(romeo, zulu, mike);
-                oscar = report.createShader;
-                zulu = romeo.FRAGMENT_SHADER;
-                mike = '\nprecision mediump float;\n\nvarying vec2 out_texcoord;\nuniform sampler2D texture;\n\nvoid main() {\n   gl_FragColor = texture2D(texture, out_texcoord);\n}\n';
-                zulu = oscar.bind(report)(romeo, zulu, mike);
-                if(!(entity != tango)) { _fun00004_ip = 410; continue _fun00003 }
+                tangon = report.createShader;
+                zuuluu = romeon.VERTEX_SHADER;
+                michal = '\nattribute vec4 position;\nattribute vec2 texcoord;\nuniform mat4 transform;\nvarying vec2 out_texcoord;\n\nvoid main() {\n   gl_Position = transform * position;\n   out_texcoord = texcoord;\n}\n';
+                tangon = tangon.bind(report)(romeon, zuuluu, michal);
+                oscard = report.createShader;
+                zuuluu = romeon.FRAGMENT_SHADER;
+                michal = '\nprecision mediump float;\n\nvarying vec2 out_texcoord;\nuniform sampler2D texture;\n\nvoid main() {\n   gl_FragColor = texture2D(texture, out_texcoord);\n}\n';
+                zuuluu = oscard.bind(report)(romeon, zuuluu, michal);
+                if(!(entity != tangon)) { _fun00004_ip = 410; continue _fun00003 }
  76:
-                if(!(entity != zulu)) { _fun00004_ip = 410; continue _fun00003 }
+                if(!(entity != zuuluu)) { _fun00004_ip = 410; continue _fun00003 }
  83:
-                mike = report.createProgram;
-                yankee = mike.bind(report)(romeo, tango, zulu);
+                michal = report.createProgram;
+                yankee = michal.bind(report)(romeon, tangon, zuuluu);
                 if(!(entity != yankee)) { _fun00004_ip = 408; continue _fun00003 }
  103:
-                zulu = romeo.getAttribLocation;
-                mike = 'position';
-                offset = zulu.bind(romeo)(yankee, mike);
-                zulu = romeo.getAttribLocation;
-                mike = 'texcoord';
-                verify = zulu.bind(romeo)(yankee, mike);
-                mike = -1;
-                if(!(mike !== offset)) { _fun00004_ip = 406; continue _fun00003 }
+                zuuluu = romeon.getAttribLocation;
+                michal = 'position';
+                offset = zuuluu.bind(romeon)(yankee, michal);
+                zuuluu = romeon.getAttribLocation;
+                michal = 'texcoord';
+                verify = zuuluu.bind(romeon)(yankee, michal);
+                michal = -1;
+                if(!(michal !== offset)) { _fun00004_ip = 406; continue _fun00003 }
  150:
-                if(!(mike !== verify)) { _fun00004_ip = 406; continue _fun00003 }
+                if(!(michal !== verify)) { _fun00004_ip = 406; continue _fun00003 }
  157:
-                zulu = romeo.getUniformLocation;
-                mike = 'transform';
-                options = zulu.bind(romeo)(yankee, mike);
-                zulu = romeo.getUniformLocation;
-                mike = 'texture';
-                golf = zulu.bind(romeo)(yankee, mike);
-                if(!(entity != options)) { _fun00004_ip = 404; continue _fun00003 }
+                zuuluu = romeon.getUniformLocation;
+                michal = 'transform';
+                option = zuuluu.bind(romeon)(yankee, michal);
+                zuuluu = romeon.getUniformLocation;
+                michal = 'texture';
+                golfie = zuuluu.bind(romeon)(yankee, michal);
+                if(!(entity != option)) { _fun00004_ip = 404; continue _fun00003 }
  196:
-                if(!(entity != golf)) { _fun00004_ip = 404; continue _fun00003 }
+                if(!(entity != golfie)) { _fun00004_ip = 404; continue _fun00003 }
  203:
-                mike = romeo.createBuffer;
-                oscar = mike.bind(romeo)();
-                if(!(entity != oscar)) { _fun00004_ip = 402; continue _fun00003 }
+                michal = romeon.createBuffer;
+                oscard = michal.bind(romeon)();
+                if(!(entity != oscard)) { _fun00004_ip = 402; continue _fun00003 }
  222:
-                zulu = romeo.bindBuffer;
-                mike = romeo.ARRAY_BUFFER;
-                mike = zulu.bind(romeo)(mike, oscar);
-                report = romeo.bufferData;
-                tango = romeo.ARRAY_BUFFER;
-                mike = global;
-                foxtrot = mike.Float32Array;
-                mike = foxtrot.prototype;
-                zulu = Object.create(mike, {constructor: {value: foxtrot}});
+                zuuluu = romeon.bindBuffer;
+                michal = romeon.ARRAY_BUFFER;
+                michal = zuuluu.bind(romeon)(michal, oscard);
+                report = romeon.bufferData;
+                tangon = romeon.ARRAY_BUFFER;
+                michal = global;
+                foxtra = michal.Float32Array;
+                michal = foxtra.prototype;
+                zuuluu = Object.create(michal, {constructor: {value: foxtra}});
                 sizing = [0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1];
-                output = zulu;
-                mike = new output[foxtrot](sizing, kilo);
-                zulu = mike instanceof Object ? mike : zulu;
-                mike = romeo.STATIC_DRAW;
-                mike = report.bind(romeo)(tango, zulu, mike);
-                mike = romeo.createTexture;
-                tango = mike.bind(romeo)();
-                zulu = entity == tango;
-                mike = null;
-                if(zulu) { _fun00004_ip = 400; continue _fun00003 }
+                output = zuuluu;
+                michal = new output[foxtra](sizing, kiloes);
+                zuuluu = michal instanceof Object ? michal : zuuluu;
+                michal = romeon.STATIC_DRAW;
+                michal = report.bind(romeon)(tangon, zuuluu, michal);
+                michal = romeon.createTexture;
+                tangon = michal.bind(romeon)();
+                zuuluu = entity == tangon;
+                michal = null;
+                if(zuuluu) { _fun00004_ip = 400; continue _fun00003 }
  328:
                 report = _closure2_slot0;
-                zulu = {};
-                zulu['gl'] = romeo;
-                zulu['program'] = yankee;
-                zulu['positionLoc'] = offset;
-                zulu['texcoordLoc'] = verify;
-                zulu['transformLoc'] = options;
-                zulu['textureLoc'] = golf;
-                zulu['vertexBuffer'] = oscar;
-                zulu['texture'] = tango;
-                tango = report.prototype;
-                tango = Object.create(tango, {constructor: {value: report}});
-                output = tango;
-                sizing = zulu;
-                zulu = new output[report](sizing, kilo);
-                mike = zulu instanceof Object ? zulu : tango;
+                zuuluu = {};
+                zuuluu['gl'] = romeon;
+                zuuluu['program'] = yankee;
+                zuuluu['positionLoc'] = offset;
+                zuuluu['texcoordLoc'] = verify;
+                zuuluu['transformLoc'] = option;
+                zuuluu['textureLoc'] = golfie;
+                zuuluu['vertexBuffer'] = oscard;
+                zuuluu['texture'] = tangon;
+                tangon = report.prototype;
+                tangon = Object.create(tangon, {constructor: {value: report}});
+                output = tangon;
+                sizing = zuuluu;
+                zuuluu = new output[report](sizing, kiloes);
+                michal = zuuluu instanceof Object ? zuuluu : tangon;
  400:
-                return mike;
+                return michal;
  402:
                 return entity;
  404:
@@ -298,139 +298,139 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(3);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(3);
+        michal[0] = entity;
         entity = {};
-        golf = 'createShader';
-        entity['key'] = golf;
-        golf = function(argFoo, argBar, argBaz) { // Original name: value
+        golfie = 'createShader';
+        entity['key'] = golfie;
+        golfie = function(argFoo, argBar, argBaz) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                tango = argFoo;
-                mike = tango.createShader;
+                tangon = argFoo;
+                michal = tangon.createShader;
                 entity = argBar;
-                mike = mike.bind(tango)(entity);
+                michal = michal.bind(tangon)(entity);
                 entity = null;
-                if(!(entity != mike)) { _fun00006_ip = 153; continue _fun00005 }
+                if(!(entity != michal)) { _fun00006_ip = 153; continue _fun00005 }
  26:
-                report = tango.shaderSource;
-                zulu = argBaz;
-                zulu = report.bind(tango)(mike, zulu);
-                zulu = tango.compileShader;
-                zulu = zulu.bind(tango)(mike);
-                report = tango.getShaderParameter;
-                zulu = tango.COMPILE_STATUS;
-                zulu = report.bind(tango)(mike, zulu);
-                if(zulu) { _fun00006_ip = 151; continue _fun00005 }
+                report = tangon.shaderSource;
+                zuuluu = argBaz;
+                zuuluu = report.bind(tangon)(michal, zuuluu);
+                zuuluu = tangon.compileShader;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                report = tangon.getShaderParameter;
+                zuuluu = tangon.COMPILE_STATUS;
+                zuuluu = report.bind(tangon)(michal, zuuluu);
+                if(zuuluu) { _fun00006_ip = 151; continue _fun00005 }
  81:
-                golf = _closure1_slot2;
-                oscar = golf.warn;
+                golfie = _closure1_slot2;
+                oscard = golfie.warn;
                 report = 'Failed to compile shader!';
-                report = oscar.bind(golf)(report);
-                report = tango.getShaderInfoLog;
-                oscar = report.bind(tango)(mike);
-                if(!(entity != oscar)) { _fun00006_ip = 136; continue _fun00005 }
+                report = oscard.bind(golfie)(report);
+                report = tangon.getShaderInfoLog;
+                oscard = report.bind(tangon)(michal);
+                if(!(entity != oscard)) { _fun00006_ip = 136; continue _fun00005 }
  121:
                 report = _closure1_slot2;
-                zulu = report.log;
-                zulu = zulu.bind(report)(oscar);
+                zuuluu = report.log;
+                zuuluu = zuuluu.bind(report)(oscard);
  136:
-                zulu = tango.deleteShader;
-                zulu = zulu.bind(tango)(mike);
+                zuuluu = tangon.deleteShader;
+                zuuluu = zuuluu.bind(tangon)(michal);
                 return entity;
  151:
-                return mike;
+                return michal;
  153:
                 return entity;
             }
         };
-        entity['value'] = golf;
-        mike[1] = entity;
+        entity['value'] = golfie;
+        michal[1] = entity;
         entity = {};
-        golf = 'createProgram';
-        entity['key'] = golf;
-        oscar = function(argFoo, argBar, argBaz) { // Original name: value
+        golfie = 'createProgram';
+        entity['key'] = golfie;
+        oscard = function(argFoo, argBar, argBaz) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                tango = argFoo;
-                oscar = argBar;
+                tangon = argFoo;
+                oscard = argBar;
                 report = argBaz;
                 entity = null;
-                if(!(entity != oscar)) { _fun00008_ip = 178; continue _fun00007 }
+                if(!(entity != oscard)) { _fun00008_ip = 178; continue _fun00007 }
  18:
                 if(!(entity != report)) { _fun00008_ip = 178; continue _fun00007 }
  25:
-                mike = tango.createProgram;
-                mike = mike.bind(tango)();
-                if(!(entity != mike)) { _fun00008_ip = 176; continue _fun00007 }
+                michal = tangon.createProgram;
+                michal = michal.bind(tangon)();
+                if(!(entity != michal)) { _fun00008_ip = 176; continue _fun00007 }
  42:
-                zulu = tango.attachShader;
-                zulu = zulu.bind(tango)(mike, oscar);
-                zulu = tango.attachShader;
-                zulu = zulu.bind(tango)(mike, report);
-                zulu = tango.linkProgram;
-                zulu = zulu.bind(tango)(mike);
-                report = tango.getProgramParameter;
-                zulu = tango.LINK_STATUS;
-                zulu = report.bind(tango)(mike, zulu);
-                if(zulu) { _fun00008_ip = 174; continue _fun00007 }
+                zuuluu = tangon.attachShader;
+                zuuluu = zuuluu.bind(tangon)(michal, oscard);
+                zuuluu = tangon.attachShader;
+                zuuluu = zuuluu.bind(tangon)(michal, report);
+                zuuluu = tangon.linkProgram;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                report = tangon.getProgramParameter;
+                zuuluu = tangon.LINK_STATUS;
+                zuuluu = report.bind(tangon)(michal, zuuluu);
+                if(zuuluu) { _fun00008_ip = 174; continue _fun00007 }
  104:
-                golf = _closure1_slot2;
-                oscar = golf.warn;
+                golfie = _closure1_slot2;
+                oscard = golfie.warn;
                 report = 'Failed to link program!';
-                report = oscar.bind(golf)(report);
-                report = tango.getProgramInfoLog;
-                oscar = report.bind(tango)(mike);
-                if(!(entity != oscar)) { _fun00008_ip = 159; continue _fun00007 }
+                report = oscard.bind(golfie)(report);
+                report = tangon.getProgramInfoLog;
+                oscard = report.bind(tangon)(michal);
+                if(!(entity != oscard)) { _fun00008_ip = 159; continue _fun00007 }
  144:
                 report = _closure1_slot2;
-                zulu = report.log;
-                zulu = zulu.bind(report)(oscar);
+                zuuluu = report.log;
+                zuuluu = zuuluu.bind(report)(oscard);
  159:
-                zulu = tango.deleteProgram;
-                zulu = zulu.bind(tango)(mike);
+                zuuluu = tangon.deleteProgram;
+                zuuluu = zuuluu.bind(tangon)(michal);
                 return entity;
  174:
-                return mike;
+                return michal;
  176:
                 return entity;
  178:
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(report, zulu, mike);
+        entity = tangon.bind(entity)(report, zuuluu, michal);
         return entity;
     };
-    tango = tango.bind(entity)();
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/native/renderingContextWebGL.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: initRenderingContextWebGL
+    tangon = tangon.bind(entity)();
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/native/renderingContextWebGL.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: initRenderingContextWebGL
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.getContext;
+            zuuluu = argFoo;
+            michal = zuuluu.getContext;
             entity = 'webgl2';
-            tango = mike.bind(zulu)(entity);
+            tangon = michal.bind(zuuluu)(entity);
             entity = null;
-            mike = entity == tango;
-            if(mike) { _fun00010_ip = 46; continue _fun00009 }
+            michal = entity == tangon;
+            if(michal) { _fun00010_ip = 46; continue _fun00009 }
  29:
-            zulu = _closure1_slot3;
-            mike = zulu.create;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.create;
+            entity = michal.bind(zuuluu)(tangon);
  46:
             return entity;
         }
     };
-    zulu['initRenderingContextWebGL'] = mike;
+    zuuluu['initRenderingContextWebGL'] = michal;
     return entity;
 })();

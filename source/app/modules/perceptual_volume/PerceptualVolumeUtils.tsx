@@ -1,145 +1,145 @@
 // app/modules/perceptual_volume/PerceptualVolumeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/perceptual_volume/PerceptualVolumeUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: perceptualToAmplitude
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/perceptual_volume/PerceptualVolumeUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: perceptualToAmplitude
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = arguments[1];
+            michal = argFoo;
+            zuuluu = arguments[1];
             report = undefined;
-            if(!(zulu === report)) { _fun00002_ip = 15; continue _fun00001 }
+            if(!(zuuluu === report)) { _fun00002_ip = 15; continue _fun00001 }
  12:
-            zulu = 100;
+            zuuluu = 100;
  15:
             entity = 0;
-            if(!(entity !== mike)) { _fun00002_ip = 176; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 176; continue _fun00001 }
  24:
-            golf = mike / zulu;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[entity];
-            report = tango.bind(report)(mike);
-            tango = report.getCurrentConfig;
-            mike = {};
-            oscar = 'perceptualToAmplitude';
-            mike['location'] = oscar;
-            tango = tango.bind(report)(mike);
-            mike = 1;
-            if(!(golf < mike)) { _fun00002_ip = 86; continue _fun00001 }
+            golfie = michal / zuuluu;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[entity];
+            report = tangon.bind(report)(michal);
+            tangon = report.getCurrentConfig;
+            michal = {};
+            oscard = 'perceptualToAmplitude';
+            michal['location'] = oscard;
+            tangon = tangon.bind(report)(michal);
+            michal = 1;
+            if(!(golfie < michal)) { _fun00002_ip = 86; continue _fun00001 }
  76:
-            report = tango.gamma;
+            report = tangon.gamma;
             if(!(!(report >= entity))) { _fun00002_ip = 144; continue _fun00001 }
  86:
-            report = golf - mike;
-            if(!(!(golf > mike))) { _fun00002_ip = 102; continue _fun00001 }
+            report = golfie - michal;
+            if(!(!(golfie > michal))) { _fun00002_ip = 102; continue _fun00001 }
  94:
-            mike = tango.attenuationRange;
+            michal = tangon.attenuationRange;
             _fun00002_ip = 108; continue _fun00001;
  102:
-            mike = tango.boostRange;
+            michal = tangon.boostRange;
  108:
-            verify = report * mike;
-            mike = global;
-            options = mike.Math;
-            oscar = options.pow;
+            verify = report * michal;
+            michal = global;
+            option = michal.Math;
+            oscard = option.pow;
             report = 10;
-            mike = 20;
-            mike = verify / mike;
-            mike = oscar.bind(options)(report, mike);
+            michal = 20;
+            michal = verify / michal;
+            michal = oscard.bind(option)(report, michal);
             _fun00002_ip = 170; continue _fun00001;
  144:
             report = global;
-            oscar = report.Math;
-            report = oscar.pow;
-            tango = tango.gamma;
-            mike = report.bind(oscar)(golf, tango);
+            oscard = report.Math;
+            report = oscard.pow;
+            tangon = tangon.gamma;
+            michal = report.bind(oscard)(golfie, tangon);
  170:
-            mike = mike * zulu;
-            return mike;
+            michal = michal * zuuluu;
+            return michal;
  176:
             return entity;
         }
     };
-    zulu['perceptualToAmplitude'] = tango;
-    mike = function(argFoo) { // Original name: amplitudeToPerceptual
+    zuuluu['perceptualToAmplitude'] = tangon;
+    michal = function(argFoo) { // Original name: amplitudeToPerceptual
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            zulu = arguments[1];
+            michal = argFoo;
+            zuuluu = arguments[1];
             report = undefined;
-            if(!(zulu === report)) { _fun00004_ip = 15; continue _fun00003 }
+            if(!(zuuluu === report)) { _fun00004_ip = 15; continue _fun00003 }
  12:
-            zulu = 100;
+            zuuluu = 100;
  15:
             entity = 0;
-            if(!(entity !== mike)) { _fun00004_ip = 176; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 176; continue _fun00003 }
  24:
-            golf = mike / zulu;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[entity];
-            report = tango.bind(report)(mike);
-            tango = report.getCurrentConfig;
-            mike = {};
-            oscar = 'amplitudeToPerceptual';
-            mike['location'] = oscar;
-            tango = tango.bind(report)(mike);
-            options = 1;
-            if(!(golf < options)) { _fun00004_ip = 86; continue _fun00003 }
+            golfie = michal / zuuluu;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[entity];
+            report = tangon.bind(report)(michal);
+            tangon = report.getCurrentConfig;
+            michal = {};
+            oscard = 'amplitudeToPerceptual';
+            michal['location'] = oscard;
+            tangon = tangon.bind(report)(michal);
+            option = 1;
+            if(!(golfie < option)) { _fun00004_ip = 86; continue _fun00003 }
  76:
-            mike = tango.gamma;
-            if(!(!(mike >= entity))) { _fun00004_ip = 140; continue _fun00003 }
+            michal = tangon.gamma;
+            if(!(!(michal >= entity))) { _fun00004_ip = 140; continue _fun00003 }
  86:
-            mike = global;
-            report = mike.Math;
-            mike = report.log10;
-            report = mike.bind(report)(golf);
-            mike = 20;
-            report = mike * report;
+            michal = global;
+            report = michal.Math;
+            michal = report.log10;
+            report = michal.bind(report)(golfie);
+            michal = 20;
+            report = michal * report;
             if(!(!(report > entity))) { _fun00004_ip = 124; continue _fun00003 }
  116:
-            mike = tango.attenuationRange;
+            michal = tangon.attenuationRange;
             _fun00004_ip = 130; continue _fun00003;
  124:
-            mike = tango.boostRange;
+            michal = tangon.boostRange;
  130:
-            mike = report / mike;
-            mike = mike + options;
+            michal = report / michal;
+            michal = michal + option;
             _fun00004_ip = 170; continue _fun00003;
  140:
             report = global;
-            oscar = report.Math;
-            report = oscar.pow;
-            tango = tango.gamma;
-            tango = options / tango;
-            mike = report.bind(oscar)(golf, tango);
+            oscard = report.Math;
+            report = oscard.pow;
+            tangon = tangon.gamma;
+            tangon = option / tangon;
+            michal = report.bind(oscard)(golfie, tangon);
  170:
-            mike = mike * zulu;
-            return mike;
+            michal = michal * zuuluu;
+            return michal;
  176:
             return entity;
         }
     };
-    zulu['amplitudeToPerceptual'] = mike;
+    zuuluu['amplitudeToPerceptual'] = michal;
     return entity;
 })();

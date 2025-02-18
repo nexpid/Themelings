@@ -1,63 +1,63 @@
 // app/modules/experiments/createExperiment.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: getExperimentDescriptor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argBar;
-            mike = 'guild';
+            michal = 'guild';
             entity = argFoo;
-            if(!(mike !== entity)) { _fun00002_ip = 34; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 34; continue _fun00001 }
  14:
-            mike = _closure1_slot7;
-            entity = mike.getUserExperimentDescriptor;
-            entity = entity.bind(mike)(report);
+            michal = _closure1_slot7;
+            entity = michal.getUserExperimentDescriptor;
+            entity = entity.bind(michal)(report);
             _fun00002_ip = 61; continue _fun00001;
  34:
-            tango = _closure1_slot7;
-            zulu = tango.getGuildExperimentDescriptor;
-            mike = argBaz;
-            mike = mike.guildId;
-            entity = zulu.bind(tango)(report, mike);
+            tangon = _closure1_slot7;
+            zuuluu = tangon.getGuildExperimentDescriptor;
+            michal = argBaz;
+            michal = michal.guildId;
+            entity = zuuluu.bind(tangon)(report, michal);
  61:
             return entity;
         }
     };
     var _closure1_slot10 = entity;
-    entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: getConfig
+    entity = function(argFoo, argBar, argBaz, argCor) { // Original name: getConfig
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             report = argBaz;
-            entity = argCorge;
-            zulu = null;
-            if(!(zulu != entity)) { _fun00004_ip = 24; continue _fun00003 }
+            entity = argCor;
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00004_ip = 24; continue _fun00003 }
  15:
             entity = entity.aaMode;
             if(entity) { _fun00004_ip = 63; continue _fun00003 }
  24:
-            tango = report.get;
+            tangon = report.get;
             entity = argBar;
-            tango = tango.bind(report)(entity);
-            report = zulu == tango;
+            tangon = tangon.bind(report)(entity);
+            report = zuuluu == tangon;
             entity = undefined;
             if(report) { _fun00004_ip = 51; continue _fun00003 }
  46:
-            entity = tango.config;
+            entity = tangon.config;
  51:
-            if(!(zulu == entity)) { _fun00004_ip = 61; continue _fun00003 }
+            if(!(zuuluu == entity)) { _fun00004_ip = 61; continue _fun00003 }
  55:
-            entity = mike.defaultConfig;
+            entity = michal.defaultConfig;
  61:
             _fun00004_ip = 69; continue _fun00003;
  63:
-            entity = mike.defaultConfig;
+            entity = michal.defaultConfig;
  69:
             return entity;
         }
@@ -65,188 +65,188 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.useState;
-    var _closure1_slot4 = options;
-    tango = tango.useEffect;
-    var _closure1_slot5 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot7 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.ExperimentBuckets;
-    var _closure1_slot8 = golf;
-    tango = tango.ExposureTypes;
-    var _closure1_slot9 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/experiments/createExperiment.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: createExperiment
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.useState;
+    var _closure1_slot4 = option;
+    tangon = tangon.useEffect;
+    var _closure1_slot5 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.ExperimentBuckets;
+    var _closure1_slot8 = golfie;
+    tangon = tangon.ExposureTypes;
+    var _closure1_slot9 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/experiments/createExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: createExperiment
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = argFoo;
-            var _closure2_slot0 = zulu;
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
             entity = function(argFoo) { // Original name: trackAutoExposure
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     report = argFoo;
-                    tango = arguments[1];
-                    zulu = arguments[3];
+                    tangon = arguments[1];
+                    zuuluu = arguments[3];
                     entity = undefined;
-                    if(!(tango === entity)) { _fun00008_ip = 17; continue _fun00007 }
+                    if(!(tangon === entity)) { _fun00008_ip = 17; continue _fun00007 }
  15:
-                    tango = {};
+                    tangon = {};
  17:
-                    if(!(zulu === entity)) { _fun00008_ip = 23; continue _fun00007 }
+                    if(!(zuuluu === entity)) { _fun00008_ip = 23; continue _fun00007 }
  21:
-                    zulu = null;
+                    zuuluu = null;
  23:
-                    oscar = _closure1_slot9;
-                    mike = arguments[2];
-                    if(mike) { _fun00008_ip = 44; continue _fun00007 }
+                    oscard = _closure1_slot9;
+                    michal = arguments[2];
+                    if(michal) { _fun00008_ip = 44; continue _fun00007 }
  36:
-                    mike = oscar.AUTO;
+                    michal = oscard.AUTO;
                     _fun00008_ip = 50; continue _fun00007;
  44:
-                    mike = oscar.AUTO_FALLBACK;
+                    michal = oscard.AUTO_FALLBACK;
  50:
-                    tango['exposureType'] = mike;
-                    mike = false;
-                    tango['excluded'] = mike;
-                    mike = null;
-                    if(!(mike == zulu)) { _fun00008_ip = 85; continue _fun00007 }
+                    tangon['exposureType'] = michal;
+                    michal = false;
+                    tangon['excluded'] = michal;
+                    michal = null;
+                    if(!(michal == zuuluu)) { _fun00008_ip = 85; continue _fun00007 }
  70:
-                    mike = _closure2_slot4;
-                    mike = mike.bind(entity)(report, tango);
+                    michal = _closure2_slot4;
+                    michal = michal.bind(entity)(report, tangon);
                     _fun00008_ip = 99; continue _fun00007;
  85:
-                    mike = _closure2_slot5;
-                    mike = mike.bind(entity)(report, tango, zulu);
+                    michal = _closure2_slot5;
+                    michal = michal.bind(entity)(report, tangon, zuuluu);
  99:
                     return entity;
                 }
             };
             var _closure2_slot3 = entity;
-            tango = function(argFoo) { // Original name: trackExposure
+            tangon = function(argFoo) { // Original name: trackExposure
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
-                    tango = arguments[1];
+                    tangon = arguments[1];
                     entity = undefined;
-                    if(!(tango === entity)) { _fun00010_ip = 42; continue _fun00009 }
+                    if(!(tangon === entity)) { _fun00010_ip = 42; continue _fun00009 }
  12:
-                    mike = {};
-                    zulu = false;
-                    mike['excluded'] = zulu;
-                    zulu = _closure1_slot9;
-                    zulu = zulu.MANUAL;
-                    mike['exposureType'] = zulu;
-                    tango = mike;
+                    michal = {};
+                    zuuluu = false;
+                    michal['excluded'] = zuuluu;
+                    zuuluu = _closure1_slot9;
+                    zuuluu = zuuluu.MANUAL;
+                    michal['exposureType'] = zuuluu;
+                    tangon = michal;
  42:
-                    golf = _closure1_slot10;
-                    zulu = _closure2_slot0;
-                    oscar = zulu.kind;
-                    zulu = _closure2_slot2;
-                    zulu = zulu.id;
-                    zulu = golf.bind(entity)(oscar, zulu, report);
-                    oscar = null;
-                    if(!(oscar != zulu)) { _fun00010_ip = 94; continue _fun00009 }
+                    golfie = _closure1_slot10;
+                    zuuluu = _closure2_slot0;
+                    oscard = zuuluu.kind;
+                    zuuluu = _closure2_slot2;
+                    zuuluu = zuuluu.id;
+                    zuuluu = golfie.bind(entity)(oscard, zuuluu, report);
+                    oscard = null;
+                    if(!(oscard != zuuluu)) { _fun00010_ip = 94; continue _fun00009 }
  83:
-                    mike = _closure2_slot5;
-                    mike = mike.bind(entity)(report, tango, zulu);
+                    michal = _closure2_slot5;
+                    michal = michal.bind(entity)(report, tangon, zuuluu);
  94:
                     return entity;
                 }
             };
-            var _closure2_slot4 = tango;
+            var _closure2_slot4 = tangon;
             entity = function(argFoo, argBar, argBaz) { // Original name: trackExposureWithDescriptor
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     yankee = argFoo;
                     verify = argBar;
                     report = argBaz;
-                    options = null;
-                    if(!(options != report)) { _fun00012_ip = 242; continue _fun00011 }
+                    option = null;
+                    if(!(option != report)) { _fun00012_ip = 242; continue _fun00011 }
  18:
                     entity = _closure1_slot9;
-                    oscar = entity.MANUAL;
-                    mike = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    oscard = entity.MANUAL;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 5;
-                    entity = zulu[entity];
-                    golf = undefined;
-                    tango = mike.bind(golf)(entity);
-                    zulu = tango.trackExposureToExperiment;
+                    entity = zuuluu[entity];
+                    golfie = undefined;
+                    tangon = michal.bind(golfie)(entity);
+                    zuuluu = tangon.trackExposureToExperiment;
                     entity = _closure2_slot2;
-                    mike = entity.id;
+                    michal = entity.id;
                     entity = {};
-                    foxtrot = options == yankee;
-                    romeo = undefined;
-                    if(foxtrot) { _fun00012_ip = 87; continue _fun00011 }
+                    foxtra = option == yankee;
+                    romeon = undefined;
+                    if(foxtra) { _fun00012_ip = 87; continue _fun00011 }
  82:
-                    romeo = yankee.location;
+                    romeon = yankee.location;
  87:
-                    foxtrot = options != romeo;
+                    foxtra = option != romeon;
                     yankee = 'unknown';
-                    if(!foxtrot) { _fun00012_ip = 101; continue _fun00011 }
+                    if(!foxtra) { _fun00012_ip = 101; continue _fun00011 }
  98:
-                    yankee = romeo;
+                    yankee = romeon;
  101:
                     entity['location'] = yankee;
-                    romeo = options == verify;
+                    romeon = option == verify;
                     yankee = undefined;
-                    if(romeo) { _fun00012_ip = 120; continue _fun00011 }
+                    if(romeon) { _fun00012_ip = 120; continue _fun00011 }
  114:
                     yankee = verify.analyticsLocations;
  120:
-                    if(!(options == yankee)) { _fun00012_ip = 128; continue _fun00011 }
+                    if(!(option == yankee)) { _fun00012_ip = 128; continue _fun00011 }
  124:
                     yankee = new Array(0);
  128:
                     entity['analyticsLocations'] = yankee;
-                    romeo = options == verify;
+                    romeon = option == verify;
                     yankee = undefined;
-                    if(romeo) { _fun00012_ip = 148; continue _fun00011 }
+                    if(romeon) { _fun00012_ip = 148; continue _fun00011 }
  142:
                     yankee = verify.fingerprint;
  148:
-                    if(!(options == yankee)) { _fun00012_ip = 166; continue _fun00011 }
+                    if(!(option == yankee)) { _fun00012_ip = 166; continue _fun00011 }
  152:
-                    romeo = _closure1_slot6;
-                    offset = romeo.getFingerprint;
-                    yankee = offset.bind(romeo)();
+                    romeon = _closure1_slot6;
+                    offset = romeon.getFingerprint;
+                    yankee = offset.bind(romeon)();
  166:
-                    romeo = options != yankee;
+                    romeon = option != yankee;
                     offset = undefined;
-                    if(!romeo) { _fun00012_ip = 178; continue _fun00011 }
+                    if(!romeon) { _fun00012_ip = 178; continue _fun00011 }
  175:
                     offset = yankee;
  178:
                     entity['fingerprint'] = offset;
-                    yankee = options == verify;
+                    yankee = option == verify;
                     offset = undefined;
                     if(yankee) { _fun00012_ip = 198; continue _fun00011 }
  192:
@@ -257,18 +257,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = false;
  203:
                     entity['excluded'] = offset;
-                    offset = options == verify;
-                    golf = undefined;
+                    offset = option == verify;
+                    golfie = undefined;
                     if(offset) { _fun00012_ip = 223; continue _fun00011 }
  217:
-                    golf = verify.exposureType;
+                    golfie = verify.exposureType;
  223:
-                    if(!(options != golf)) { _fun00012_ip = 230; continue _fun00011 }
+                    if(!(option != golfie)) { _fun00012_ip = 230; continue _fun00011 }
  227:
-                    oscar = golf;
+                    oscard = golfie;
  230:
-                    entity['exposureType'] = oscar;
-                    entity = zulu.bind(tango)(mike, report, entity);
+                    entity['exposureType'] = oscard;
+                    entity = zuuluu.bind(tangon)(michal, report, entity);
  242:
                     entity = undefined;
                     return entity;
@@ -278,121 +278,121 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = function(argFoo, argBar) { // Original name: subscribe
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                    romeo = argFoo;
-                    options = argBar;
-                    mike = arguments[2];
-                    var _closure3_slot0 = romeo;
-                    var _closure3_slot1 = options;
-                    golf = undefined;
-                    if(!(mike === golf)) { _fun00014_ip = 27; continue _fun00013 }
+                    romeon = argFoo;
+                    option = argBar;
+                    michal = arguments[2];
+                    var _closure3_slot0 = romeon;
+                    var _closure3_slot1 = option;
+                    golfie = undefined;
+                    if(!(michal === golfie)) { _fun00014_ip = 27; continue _fun00013 }
  25:
-                    mike = {};
+                    michal = {};
  27:
-                    var _closure3_slot2 = golf;
-                    var _closure3_slot3 = golf;
-                    var _closure3_slot4 = golf;
-                    tango = function() { // Original name: onStoreChange
+                    var _closure3_slot2 = golfie;
+                    var _closure3_slot3 = golfie;
+                    var _closure3_slot4 = golfie;
+                    tangon = function() { // Original name: onStoreChange
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                            options = _closure1_slot10;
+                            option = _closure1_slot10;
                             entity = _closure2_slot0;
-                            oscar = entity.kind;
-                            tango = entity.id;
-                            mike = _closure3_slot0;
+                            oscard = entity.kind;
+                            tangon = entity.id;
+                            michal = _closure3_slot0;
                             entity = undefined;
-                            verify = options.bind(entity)(oscar, tango, mike);
-                            mike = null;
-                            if(!(mike != verify)) { _fun00016_ip = 61; continue _fun00015 }
+                            verify = option.bind(entity)(oscard, tangon, michal);
+                            michal = null;
+                            if(!(michal != verify)) { _fun00016_ip = 61; continue _fun00015 }
  46:
-                            tango = _closure3_slot2;
-                            if(tango) { _fun00016_ip = 61; continue _fun00015 }
+                            tangon = _closure3_slot2;
+                            if(tangon) { _fun00016_ip = 61; continue _fun00015 }
  53:
-                            tango = verify.bucket;
+                            tangon = verify.bucket;
                             _fun00016_ip = 71; continue _fun00015;
  61:
-                            oscar = _closure1_slot8;
-                            tango = oscar.NOT_ELIGIBLE;
+                            oscard = _closure1_slot8;
+                            tangon = oscard.NOT_ELIGIBLE;
  71:
-                            oscar = mike == verify;
-                            mike = -1;
-                            if(oscar) { _fun00016_ip = 90; continue _fun00015 }
+                            oscard = michal == verify;
+                            michal = -1;
+                            if(oscard) { _fun00016_ip = 90; continue _fun00015 }
  84:
-                            mike = verify.revision;
+                            michal = verify.revision;
  90:
-                            oscar = _closure3_slot3;
-                            oscar = tango === oscar;
-                            if(!oscar) { _fun00016_ip = 109; continue _fun00015 }
+                            oscard = _closure3_slot3;
+                            oscard = tangon === oscard;
+                            if(!oscard) { _fun00016_ip = 109; continue _fun00015 }
  101:
-                            options = _closure3_slot4;
-                            oscar = options === mike;
+                            option = _closure3_slot4;
+                            oscard = option === michal;
  109:
-                            if(oscar) { _fun00016_ip = 155; continue _fun00015 }
+                            if(oscard) { _fun00016_ip = 155; continue _fun00015 }
  112:
-                            oscar = _closure3_slot1;
-                            options = _closure1_slot11;
-                            foxtrot = _closure2_slot0;
+                            oscard = _closure3_slot1;
+                            option = _closure1_slot11;
+                            foxtra = _closure2_slot0;
                             yankee = _closure2_slot1;
                             backup = undefined;
-                            romeo = tango;
+                            romeon = tangon;
                             offset = verify;
-                            report = backup[options](foxtrot, romeo, yankee, offset, verify);
-                            report = oscar.bind(entity)(report, tango, mike);
-                            _closure3_slot3 = tango;
-                            _closure3_slot4 = mike;
+                            report = backup[option](foxtra, romeon, yankee, offset, verify);
+                            report = oscard.bind(entity)(report, tangon, michal);
+                            _closure3_slot3 = tangon;
+                            _closure3_slot4 = michal;
  155:
                             return entity;
                         }
                     };
-                    var _closure3_slot5 = tango;
-                    zulu = mike.disable;
+                    var _closure3_slot5 = tangon;
+                    zuuluu = michal.disable;
                     report = null;
-                    oscar = report != zulu;
-                    if(!oscar) { _fun00014_ip = 69; continue _fun00013 }
+                    oscard = report != zuuluu;
+                    if(!oscard) { _fun00014_ip = 69; continue _fun00013 }
  63:
-                    oscar = mike.disable;
+                    oscard = michal.disable;
  69:
-                    _closure3_slot2 = oscar;
+                    _closure3_slot2 = oscard;
                     yankee = _closure1_slot10;
                     verify = _closure2_slot0;
                     offset = verify.kind;
                     verify = verify.id;
-                    offset = yankee.bind(golf)(offset, verify, romeo);
+                    offset = yankee.bind(golfie)(offset, verify, romeon);
                     if(!(report != offset)) { _fun00014_ip = 119; continue _fun00013 }
  108:
-                    if(oscar) { _fun00014_ip = 119; continue _fun00013 }
+                    if(oscard) { _fun00014_ip = 119; continue _fun00013 }
  111:
-                    oscar = offset.bucket;
+                    oscard = offset.bucket;
                     _fun00014_ip = 129; continue _fun00013;
  119:
                     verify = _closure1_slot8;
-                    oscar = verify.NOT_ELIGIBLE;
+                    oscard = verify.NOT_ELIGIBLE;
  129:
-                    _closure3_slot3 = oscar;
-                    oscar = report == offset;
+                    _closure3_slot3 = oscard;
+                    oscard = report == offset;
                     report = -1;
-                    if(oscar) { _fun00014_ip = 152; continue _fun00013 }
+                    if(oscard) { _fun00014_ip = 152; continue _fun00013 }
  146:
                     report = offset.revision;
  152:
                     _closure3_slot4 = report;
                     verify = _closure1_slot11;
                     sizing = _closure2_slot0;
-                    kilo = _closure3_slot3;
+                    kiloes = _closure3_slot3;
                     backup = _closure2_slot1;
                     output = undefined;
-                    foxtrot = offset;
-                    oscar = output[verify](sizing, kilo, backup, foxtrot, romeo);
+                    foxtra = offset;
+                    oscard = output[verify](sizing, kiloes, backup, foxtra, romeon);
                     report = _closure3_slot3;
-                    zulu = _closure3_slot4;
-                    zulu = options.bind(golf)(oscar, report, zulu);
-                    zulu = _closure1_slot7;
-                    mike = zulu.addReactChangeListener;
-                    mike = mike.bind(zulu)(tango);
+                    zuuluu = _closure3_slot4;
+                    zuuluu = option.bind(golfie)(oscard, report, zuuluu);
+                    zuuluu = _closure1_slot7;
+                    michal = zuuluu.addReactChangeListener;
+                    michal = michal.bind(zuuluu)(tangon);
                     entity = function() {
-                        zulu = _closure1_slot7;
-                        mike = zulu.removeReactChangeListener;
+                        zuuluu = _closure1_slot7;
+                        michal = zuuluu.removeReactChangeListener;
                         entity = _closure3_slot5;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         entity = undefined;
                         return entity;
                     };
@@ -400,128 +400,128 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             var _closure2_slot6 = report;
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
             entity = 6;
-            entity = options[entity];
+            entity = option[entity];
             verify = undefined;
-            yankee = golf.bind(verify)(entity);
+            yankee = golfie.bind(verify)(entity);
             offset = yankee.validateOneExperiment;
-            options = zulu.id;
-            golf = zulu.label;
-            entity = zulu.commonTriggerPoint;
-            entity = offset.bind(yankee)(options, golf, entity);
+            option = zuuluu.id;
+            golfie = zuuluu.label;
+            entity = zuuluu.commonTriggerPoint;
+            entity = offset.bind(yankee)(option, golfie, entity);
             entity = global;
             entity = entity.Map;
-            golf = entity.prototype;
-            golf = Object.create(golf, {constructor: {value: entity}});
-            output = golf;
+            golfie = entity.prototype;
+            golfie = Object.create(golfie, {constructor: {value: entity}});
+            output = golfie;
             entity = new output[entity](sizing);
-            offset = entity instanceof Object ? entity : golf;
+            offset = entity instanceof Object ? entity : golfie;
             var _closure2_slot1 = offset;
             yankee = offset.set;
             entity = _closure1_slot8;
-            options = entity.NOT_ELIGIBLE;
-            golf = {};
-            romeo = 'Not Eligible';
-            golf['description'] = romeo;
-            romeo = zulu.defaultConfig;
-            golf['config'] = romeo;
-            golf = yankee.bind(offset)(options, golf);
-            options = offset.set;
-            golf = entity.CONTROL;
+            option = entity.NOT_ELIGIBLE;
+            golfie = {};
+            romeon = 'Not Eligible';
+            golfie['description'] = romeon;
+            romeon = zuuluu.defaultConfig;
+            golfie['config'] = romeon;
+            golfie = yankee.bind(offset)(option, golfie);
+            option = offset.set;
+            golfie = entity.CONTROL;
             entity = {};
             yankee = 'Control Bucket';
             entity['description'] = yankee;
-            yankee = zulu.defaultConfig;
+            yankee = zuuluu.defaultConfig;
             entity['config'] = yankee;
-            entity = options.bind(offset)(golf, entity);
-            options = zulu.treatments;
-            golf = options.forEach;
+            entity = option.bind(offset)(golfie, entity);
+            option = zuuluu.treatments;
+            golfie = option.forEach;
             entity = function(argFoo) {
                 report = argFoo;
-                tango = _closure2_slot1;
-                zulu = tango.set;
-                mike = report.id;
+                tangon = _closure2_slot1;
+                zuuluu = tangon.set;
+                michal = report.id;
                 entity = {};
                 offset = report.id;
                 verify = report.label;
-                oscar = global;
-                oscar = oscar.HermesInternal;
-                options = oscar.concat;
-                golf = 'Treatment ';
-                oscar = ': ';
-                oscar = options.bind(golf)(offset, oscar, verify);
-                entity['description'] = oscar;
+                oscard = global;
+                oscard = oscard.HermesInternal;
+                option = oscard.concat;
+                golfie = 'Treatment ';
+                oscard = ': ';
+                oscard = option.bind(golfie)(offset, oscard, verify);
+                entity['description'] = oscard;
                 report = report.config;
                 entity['config'] = report;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            entity = golf.bind(options)(entity);
-            golf = zulu.kind;
-            options = {};
-            entity = zulu.id;
-            options['id'] = entity;
-            entity = zulu.label;
-            options['title'] = entity;
-            entity = zulu.commonTriggerPoint;
-            options['commonTriggerPoint'] = entity;
+            entity = golfie.bind(option)(entity);
+            golfie = zuuluu.kind;
+            option = {};
+            entity = zuuluu.id;
+            option['id'] = entity;
+            entity = zuuluu.label;
+            option['title'] = entity;
+            entity = zuuluu.commonTriggerPoint;
+            option['commonTriggerPoint'] = entity;
             entity = offset.values;
-            kilo = entity.bind(offset)();
-            foxtrot = new Array(0);
-            sizing = foxtrot;
+            kiloes = entity.bind(offset)();
+            foxtra = new Array(0);
+            sizing = foxtra;
             backup = 0;
-            entity = arraySpread(sizing, kilo, backup);
-            romeo = foxtrot.map;
+            entity = arraySpread(sizing, kiloes, backup);
+            romeon = foxtra.map;
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.description;
                 return entity;
             };
-            entity = romeo.bind(foxtrot)(entity);
-            options['description'] = entity;
+            entity = romeon.bind(foxtra)(entity);
+            option['description'] = entity;
             entity = offset.keys;
-            kilo = entity.bind(offset)();
+            kiloes = entity.bind(offset)();
             entity = new Array(0);
             sizing = entity;
-            offset = arraySpread(sizing, kilo, backup);
-            options['buckets'] = entity;
+            offset = arraySpread(sizing, kiloes, backup);
+            option['buckets'] = entity;
             entity = 'guild';
-            if(!(entity !== golf)) { _fun00006_ip = 377; continue _fun00005 }
+            if(!(entity !== golfie)) { _fun00006_ip = 377; continue _fun00005 }
  344:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 5;
             entity = offset[entity];
-            golf = golf.bind(verify)(entity);
-            entity = golf.registerUserExperiment;
-            entity = entity.bind(golf)(options);
+            golfie = golfie.bind(verify)(entity);
+            entity = golfie.registerUserExperiment;
+            entity = entity.bind(golfie)(option);
             _fun00006_ip = 408; continue _fun00005;
  377:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             offset = _closure1_slot2;
-            oscar = 5;
-            oscar = offset[oscar];
-            golf = golf.bind(verify)(oscar);
-            oscar = golf.registerGuildExperiment;
-            entity = oscar.bind(golf)(options);
+            oscard = 5;
+            oscard = offset[oscard];
+            golfie = golfie.bind(verify)(oscard);
+            oscard = golfie.registerGuildExperiment;
+            entity = oscard.bind(golfie)(option);
  408:
             var _closure2_slot2 = entity;
             entity = {};
-            oscar = function(argFoo) { // Original name: useExperiment
+            oscard = function(argFoo) { // Original name: useExperiment
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                    options = argFoo;
+                    option = argFoo;
                     entity = arguments[1];
                     report = undefined;
                     if(!(entity === report)) { _fun00018_ip = 26; continue _fun00017 }
  14:
-                    zulu = {};
-                    tango = true;
-                    zulu['autoTrackExposure'] = tango;
-                    entity = zulu;
+                    zuuluu = {};
+                    tangon = true;
+                    zuuluu['autoTrackExposure'] = tangon;
+                    entity = zuuluu;
  26:
                     var _closure3_slot0 = report;
                     var _closure3_slot1 = report;
@@ -530,172 +530,172 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     var _closure3_slot4 = report;
                     var _closure3_slot5 = report;
                     var _closure3_slot6 = report;
-                    tango = entity.disable;
-                    zulu = null;
-                    golf = zulu != tango;
-                    if(!golf) { _fun00018_ip = 72; continue _fun00017 }
+                    tangon = entity.disable;
+                    zuuluu = null;
+                    golfie = zuuluu != tangon;
+                    if(!golfie) { _fun00018_ip = 72; continue _fun00017 }
  69:
-                    golf = tango;
+                    golfie = tangon;
  72:
-                    _closure3_slot0 = golf;
-                    oscar = entity.autoTrackExposure;
-                    tango = false;
-                    romeo = tango !== oscar;
-                    _closure3_slot1 = romeo;
+                    _closure3_slot0 = golfie;
+                    oscard = entity.autoTrackExposure;
+                    tangon = false;
+                    romeon = tangon !== oscard;
+                    _closure3_slot1 = romeon;
                     offset = _closure1_slot10;
-                    oscar = _closure2_slot0;
-                    verify = oscar.kind;
-                    oscar = oscar.id;
-                    oscar = offset.bind(report)(verify, oscar, options);
-                    _closure3_slot2 = oscar;
+                    oscard = _closure2_slot0;
+                    verify = oscard.kind;
+                    oscard = oscard.id;
+                    oscard = offset.bind(report)(verify, oscard, option);
+                    _closure3_slot2 = oscard;
                     verify = entity.trackExposureOptions;
-                    verify = zulu == verify;
+                    verify = zuuluu == verify;
                     yankee = undefined;
                     if(verify) { _fun00018_ip = 179; continue _fun00017 }
  142:
                     offset = _closure1_slot1;
-                    foxtrot = _closure1_slot2;
+                    foxtra = _closure1_slot2;
                     verify = 7;
-                    verify = foxtrot[verify];
+                    verify = foxtra[verify];
                     verify = offset.bind(report)(verify);
                     entity = entity.trackExposureOptions;
-                    if(!(zulu == entity)) { _fun00018_ip = 174; continue _fun00017 }
+                    if(!(zuuluu == entity)) { _fun00018_ip = 174; continue _fun00017 }
  172:
                     entity = {};
  174:
                     yankee = verify.bind(report)(entity);
  179:
                     _closure3_slot3 = yankee;
-                    verify = zulu == oscar;
+                    verify = zuuluu == oscard;
                     entity = undefined;
                     if(verify) { _fun00018_ip = 198; continue _fun00017 }
  192:
-                    entity = oscar.triggerDebuggingEnabled;
+                    entity = oscard.triggerDebuggingEnabled;
  198:
-                    zulu = zulu != entity;
-                    if(!zulu) { _fun00018_ip = 208; continue _fun00017 }
+                    zuuluu = zuuluu != entity;
+                    if(!zuuluu) { _fun00018_ip = 208; continue _fun00017 }
  205:
-                    zulu = entity;
+                    zuuluu = entity;
  208:
-                    _closure3_slot4 = zulu;
-                    oscar = _closure1_slot4;
+                    _closure3_slot4 = zuuluu;
+                    oscard = _closure1_slot4;
                     entity = function() {
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                             entity = _closure3_slot2;
-                            tango = null;
-                            if(!(tango != entity)) { _fun00020_ip = 32; continue _fun00019 }
+                            tangon = null;
+                            if(!(tangon != entity)) { _fun00020_ip = 32; continue _fun00019 }
  13:
                             entity = _closure3_slot0;
                             if(entity) { _fun00020_ip = 32; continue _fun00019 }
  20:
                             entity = _closure3_slot2;
-                            mike = entity.bucket;
+                            michal = entity.bucket;
                             _fun00020_ip = 45; continue _fun00019;
  32:
                             entity = _closure1_slot8;
-                            mike = entity.NOT_ELIGIBLE;
+                            michal = entity.NOT_ELIGIBLE;
  45:
-                            options = _closure1_slot11;
-                            romeo = _closure2_slot0;
+                            option = _closure1_slot11;
+                            romeon = _closure2_slot0;
                             offset = _closure2_slot1;
                             verify = _closure3_slot2;
-                            foxtrot = undefined;
-                            yankee = mike;
-                            report = foxtrot[options](romeo, yankee, offset, verify, options);
+                            foxtra = undefined;
+                            yankee = michal;
+                            report = foxtra[option](romeon, yankee, offset, verify, option);
                             entity = new Array(3);
                             entity[0] = report;
-                            entity[1] = mike;
-                            mike = _closure3_slot2;
-                            tango = tango == mike;
-                            mike = -1;
-                            if(tango) { _fun00020_ip = 115; continue _fun00019 }
+                            entity[1] = michal;
+                            michal = _closure3_slot2;
+                            tangon = tangon == michal;
+                            michal = -1;
+                            if(tangon) { _fun00020_ip = 115; continue _fun00019 }
  105:
-                            zulu = _closure3_slot2;
-                            mike = zulu.revision;
+                            zuuluu = _closure3_slot2;
+                            michal = zuuluu.revision;
  115:
-                            entity[2] = mike;
+                            entity[2] = michal;
                             return entity;
                         }
                     };
-                    entity = oscar.bind(report)(entity);
+                    entity = oscard.bind(report)(entity);
                     offset = _closure1_slot3;
                     backup = 2;
-                    foxtrot = offset.bind(report)(entity, backup);
+                    foxtra = offset.bind(report)(entity, backup);
                     entity = 0;
-                    verify = foxtrot[entity];
-                    oscar = 3;
-                    verify = offset.bind(report)(verify, oscar);
+                    verify = foxtra[entity];
+                    oscard = 3;
+                    verify = offset.bind(report)(verify, oscard);
                     entity = verify[entity];
-                    oscar = 1;
-                    offset = verify[oscar];
+                    oscard = 1;
+                    offset = verify[oscard];
                     verify = verify[backup];
-                    oscar = foxtrot[oscar];
-                    _closure3_slot5 = oscar;
-                    foxtrot = _closure1_slot1;
+                    oscard = foxtra[oscard];
+                    _closure3_slot5 = oscard;
+                    foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
-                    oscar = 7;
-                    oscar = backup[oscar];
-                    oscar = foxtrot.bind(report)(oscar);
-                    oscar = oscar.bind(report)(options);
-                    _closure3_slot6 = oscar;
-                    tango = _closure1_slot5;
-                    options = new Array(7);
-                    options[0] = golf;
-                    options[1] = romeo;
-                    options[2] = oscar;
-                    options[3] = yankee;
-                    options[4] = offset;
-                    options[5] = verify;
-                    options[6] = zulu;
-                    zulu = function() {
+                    oscard = 7;
+                    oscard = backup[oscard];
+                    oscard = foxtra.bind(report)(oscard);
+                    oscard = oscard.bind(report)(option);
+                    _closure3_slot6 = oscard;
+                    tangon = _closure1_slot5;
+                    option = new Array(7);
+                    option[0] = golfie;
+                    option[1] = romeon;
+                    option[2] = oscard;
+                    option[3] = yankee;
+                    option[4] = offset;
+                    option[5] = verify;
+                    option[6] = zuuluu;
+                    zuuluu = function() {
                         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                            mike = _closure3_slot0;
-                            if(mike) { _fun00022_ip = 30; continue _fun00021 }
+                            michal = _closure3_slot0;
+                            if(michal) { _fun00022_ip = 30; continue _fun00021 }
  10:
-                            tango = _closure3_slot1;
-                            zulu = !tango;
-                            if(tango) { _fun00022_ip = 27; continue _fun00021 }
+                            tangon = _closure3_slot1;
+                            zuuluu = !tangon;
+                            if(tangon) { _fun00022_ip = 27; continue _fun00021 }
  20:
-                            tango = _closure3_slot4;
-                            zulu = !tango;
+                            tangon = _closure3_slot4;
+                            zuuluu = !tangon;
  27:
-                            mike = zulu;
+                            michal = zuuluu;
  30:
-                            if(mike) { _fun00022_ip = 52; continue _fun00021 }
+                            if(michal) { _fun00022_ip = 52; continue _fun00021 }
  33:
-                            zulu = _closure2_slot0;
-                            tango = zulu.commonTriggerPoint;
-                            zulu = null;
-                            mike = zulu != tango;
+                            zuuluu = _closure2_slot0;
+                            tangon = zuuluu.commonTriggerPoint;
+                            zuuluu = null;
+                            michal = zuuluu != tangon;
  52:
-                            if(mike) { _fun00022_ip = 89; continue _fun00021 }
+                            if(michal) { _fun00022_ip = 89; continue _fun00021 }
  55:
                             report = _closure2_slot3;
-                            tango = _closure3_slot6;
-                            zulu = _closure3_slot3;
-                            oscar = _closure3_slot1;
-                            mike = undefined;
+                            tangon = _closure3_slot6;
+                            zuuluu = _closure3_slot3;
+                            oscard = _closure3_slot1;
+                            michal = undefined;
                             entity = false;
-                            entity = entity === oscar;
-                            entity = report.bind(mike)(tango, zulu, entity);
+                            entity = entity === oscard;
+                            entity = report.bind(michal)(tangon, zuuluu, entity);
  89:
                             entity = undefined;
                             return entity;
                         }
                     };
-                    zulu = tango.bind(report)(zulu, options);
-                    zulu = new Array(2);
-                    zulu[0] = golf;
-                    zulu[1] = oscar;
-                    mike = function() {
+                    zuuluu = tangon.bind(report)(zuuluu, option);
+                    zuuluu = new Array(2);
+                    zuuluu[0] = golfie;
+                    zuuluu[1] = oscard;
+                    michal = function() {
                         report = _closure2_slot6;
-                        tango = _closure3_slot6;
-                        zulu = {};
+                        tangon = _closure3_slot6;
+                        zuuluu = {};
                         entity = _closure3_slot0;
-                        zulu['disable'] = entity;
-                        mike = undefined;
+                        zuuluu['disable'] = entity;
+                        michal = undefined;
                         entity = function(argFoo, argBar, argBaz) {
                             entity = argFoo;
                             var _closure5_slot0 = entity;
@@ -703,143 +703,143 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             var _closure5_slot1 = entity;
                             entity = argBaz;
                             var _closure5_slot2 = entity;
-                            zulu = _closure3_slot5;
+                            zuuluu = _closure3_slot5;
                             entity = undefined;
-                            mike = function(argFoo) {
+                            michal = function(argFoo) {
                                 _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                                     entity = argFoo;
-                                    mike = 0;
-                                    tango = entity[mike];
-                                    mike = _closure5_slot0;
-                                    if(!(tango === mike)) { _fun00024_ip = 50; continue _fun00023 }
+                                    michal = 0;
+                                    tangon = entity[michal];
+                                    michal = _closure5_slot0;
+                                    if(!(tangon === michal)) { _fun00024_ip = 50; continue _fun00023 }
  20:
-                                    mike = 1;
-                                    tango = entity[mike];
-                                    mike = _closure5_slot1;
-                                    if(!(tango === mike)) { _fun00024_ip = 50; continue _fun00023 }
+                                    michal = 1;
+                                    tangon = entity[michal];
+                                    michal = _closure5_slot1;
+                                    if(!(tangon === michal)) { _fun00024_ip = 50; continue _fun00023 }
  35:
-                                    mike = 2;
-                                    tango = entity[mike];
-                                    mike = _closure5_slot2;
-                                    if(!(tango !== mike)) { _fun00024_ip = 81; continue _fun00023 }
+                                    michal = 2;
+                                    tangon = entity[michal];
+                                    michal = _closure5_slot2;
+                                    if(!(tangon !== michal)) { _fun00024_ip = 81; continue _fun00023 }
  50:
-                                    tango = _closure5_slot0;
-                                    mike = new Array(3);
-                                    mike[0] = tango;
-                                    tango = _closure5_slot1;
-                                    mike[1] = tango;
-                                    zulu = _closure5_slot2;
-                                    mike[2] = zulu;
-                                    entity = mike;
+                                    tangon = _closure5_slot0;
+                                    michal = new Array(3);
+                                    michal[0] = tangon;
+                                    tangon = _closure5_slot1;
+                                    michal[1] = tangon;
+                                    zuuluu = _closure5_slot2;
+                                    michal[2] = zuuluu;
+                                    entity = michal;
  81:
                                     return entity;
                                 }
                             };
-                            mike = zulu.bind(entity)(mike);
+                            michal = zuuluu.bind(entity)(michal);
                             return entity;
                         };
-                        entity = report.bind(mike)(tango, entity, zulu);
+                        entity = report.bind(michal)(tangon, entity, zuuluu);
                         return entity;
                     };
-                    mike = tango.bind(report)(mike, zulu);
+                    michal = tangon.bind(report)(michal, zuuluu);
                     return entity;
                 }
             };
-            entity['useExperiment'] = oscar;
+            entity['useExperiment'] = oscard;
             entity['subscribe'] = report;
-            entity['trackExposure'] = tango;
-            tango = function(argFoo) { // Original name: getCurrentConfig
+            entity['trackExposure'] = tangon;
+            tangon = function(argFoo) { // Original name: getCurrentConfig
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
-                    options = argFoo;
-                    tango = arguments[1];
-                    oscar = undefined;
-                    if(!(tango === oscar)) { _fun00026_ip = 24; continue _fun00025 }
+                    option = argFoo;
+                    tangon = arguments[1];
+                    oscard = undefined;
+                    if(!(tangon === oscard)) { _fun00026_ip = 24; continue _fun00025 }
  12:
                     entity = {};
-                    mike = true;
-                    entity['autoTrackExposure'] = mike;
-                    tango = entity;
+                    michal = true;
+                    entity['autoTrackExposure'] = michal;
+                    tangon = entity;
  24:
-                    golf = _closure1_slot10;
-                    zulu = _closure2_slot0;
-                    report = zulu.kind;
-                    zulu = zulu.id;
-                    report = golf.bind(oscar)(report, zulu, options);
-                    golf = null;
-                    if(!(golf != report)) { _fun00026_ip = 166; continue _fun00025 }
+                    golfie = _closure1_slot10;
+                    zuuluu = _closure2_slot0;
+                    report = zuuluu.kind;
+                    zuuluu = zuuluu.id;
+                    report = golfie.bind(oscard)(report, zuuluu, option);
+                    golfie = null;
+                    if(!(golfie != report)) { _fun00026_ip = 166; continue _fun00025 }
  61:
-                    zulu = tango.disable;
-                    if(zulu) { _fun00026_ip = 166; continue _fun00025 }
+                    zuuluu = tangon.disable;
+                    if(zuuluu) { _fun00026_ip = 166; continue _fun00025 }
  70:
-                    zulu = tango.autoTrackExposure;
+                    zuuluu = tangon.autoTrackExposure;
                     verify = false;
-                    if(!(verify === zulu)) { _fun00026_ip = 91; continue _fun00025 }
+                    if(!(verify === zuuluu)) { _fun00026_ip = 91; continue _fun00025 }
  82:
-                    zulu = report.triggerDebuggingEnabled;
-                    if(!zulu) { _fun00026_ip = 137; continue _fun00025 }
+                    zuuluu = report.triggerDebuggingEnabled;
+                    if(!zuuluu) { _fun00026_ip = 137; continue _fun00025 }
  91:
-                    zulu = _closure2_slot0;
-                    zulu = zulu.commonTriggerPoint;
-                    if(!(golf == zulu)) { _fun00026_ip = 137; continue _fun00025 }
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.commonTriggerPoint;
+                    if(!(golfie == zuuluu)) { _fun00026_ip = 137; continue _fun00025 }
  105:
-                    zulu = tango.autoTrackExposure;
-                    golf = _closure2_slot3;
-                    romeo = tango.trackExposureOptions;
-                    yankee = verify === zulu;
+                    zuuluu = tangon.autoTrackExposure;
+                    golfie = _closure2_slot3;
+                    romeon = tangon.trackExposureOptions;
+                    yankee = verify === zuuluu;
                     backup = undefined;
-                    foxtrot = options;
+                    foxtra = option;
                     offset = report;
-                    zulu = backup[golf](foxtrot, romeo, yankee, offset, verify);
+                    zuuluu = backup[golfie](foxtra, romeon, yankee, offset, verify);
  137:
-                    options = _closure1_slot11;
-                    foxtrot = _closure2_slot0;
-                    romeo = report.bucket;
+                    option = _closure1_slot11;
+                    foxtra = _closure2_slot0;
+                    romeon = report.bucket;
                     yankee = _closure2_slot1;
                     backup = undefined;
                     offset = report;
-                    zulu = backup[options](foxtrot, romeo, yankee, offset, verify);
-                    return zulu;
+                    zuuluu = backup[option](foxtra, romeon, yankee, offset, verify);
+                    return zuuluu;
  166:
-                    tango = _closure1_slot11;
-                    foxtrot = _closure2_slot0;
-                    mike = _closure1_slot8;
-                    romeo = mike.NOT_ELIGIBLE;
+                    tangon = _closure1_slot11;
+                    foxtra = _closure2_slot0;
+                    michal = _closure1_slot8;
+                    romeon = michal.NOT_ELIGIBLE;
                     yankee = _closure2_slot1;
                     backup = undefined;
                     offset = report;
-                    entity = backup[tango](foxtrot, romeo, yankee, offset, verify);
+                    entity = backup[tangon](foxtra, romeon, yankee, offset, verify);
                     return entity;
                 }
             };
-            entity['getCurrentConfig'] = tango;
-            entity['definition'] = zulu;
-            mike = function(argFoo) { // Original name: isAAMode
+            entity['getCurrentConfig'] = tangon;
+            entity['definition'] = zuuluu;
+            michal = function(argFoo) { // Original name: isAAMode
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     report = _closure1_slot10;
                     entity = _closure2_slot0;
-                    tango = entity.kind;
-                    zulu = entity.id;
-                    mike = undefined;
+                    tangon = entity.kind;
+                    zuuluu = entity.id;
+                    michal = undefined;
                     entity = argFoo;
-                    mike = report.bind(mike)(tango, zulu, entity);
+                    michal = report.bind(michal)(tangon, zuuluu, entity);
                     entity = null;
-                    entity = entity == mike;
+                    entity = entity == michal;
                     if(entity) { _fun00028_ip = 54; continue _fun00027 }
  45:
-                    mike = mike.aaMode;
-                    entity = !mike;
+                    michal = michal.aaMode;
+                    entity = !michal;
  54:
                     entity = !entity;
                     return entity;
                 }
             };
-            entity['isAAMode'] = mike;
+            entity['isAAMode'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

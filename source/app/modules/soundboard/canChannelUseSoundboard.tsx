@@ -1,44 +1,44 @@
 // app/modules/soundboard/canChannelUseSoundboard.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    tango = function(argFoo) { // Original name: canChannelUseSoundboard
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    tangon = function(argFoo) { // Original name: canChannelUseSoundboard
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00002_ip = 129; continue _fun00001 }
+            if(!(entity != tangon)) { _fun00002_ip = 129; continue _fun00001 }
  9:
-            mike = _closure1_slot4;
-            report = mike.CALLABLE;
-            zulu = report.has;
-            mike = tango.type;
-            mike = zulu.bind(report)(mike);
-            if(mike) { _fun00002_ip = 125; continue _fun00001 }
+            michal = _closure1_slot4;
+            report = michal.CALLABLE;
+            zuuluu = report.has;
+            michal = tangon.type;
+            michal = zuuluu.bind(report)(michal);
+            if(michal) { _fun00002_ip = 125; continue _fun00001 }
  40:
             report = _closure1_slot1;
-            zulu = report.can;
-            mike = _closure1_slot5;
-            mike = mike.USE_SOUNDBOARD;
-            zulu = zulu.bind(report)(mike, tango);
-            oscar = _closure1_slot1;
-            report = oscar.can;
-            mike = _closure1_slot5;
-            mike = mike.SPEAK;
-            mike = report.bind(oscar)(mike, tango);
-            tango = tango.type;
+            zuuluu = report.can;
+            michal = _closure1_slot5;
+            michal = michal.USE_SOUNDBOARD;
+            zuuluu = zuuluu.bind(report)(michal, tangon);
+            oscard = _closure1_slot1;
+            report = oscard.can;
+            michal = _closure1_slot5;
+            michal = michal.SPEAK;
+            michal = report.bind(oscard)(michal, tangon);
+            tangon = tangon.type;
             entity = _closure1_slot3;
             entity = entity.GUILD_VOICE;
-            entity = tango === entity;
+            entity = tangon === entity;
             if(!entity) { _fun00002_ip = 117; continue _fun00001 }
  114:
-            entity = zulu;
+            entity = zuuluu;
  117:
             if(!entity) { _fun00002_ip = 123; continue _fun00001 }
  120:
-            entity = mike;
+            entity = michal;
  123:
             return entity;
  125:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -57,48 +57,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot0 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot1 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.ChannelTypes;
-    var _closure1_slot3 = options;
-    options = report.ChannelTypesSets;
-    var _closure1_slot4 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.ChannelTypes;
+    var _closure1_slot3 = option;
+    option = report.ChannelTypesSets;
+    var _closure1_slot4 = option;
     report = report.Permissions;
     var _closure1_slot5 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/soundboard/canChannelUseSoundboard.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function() { // Original name: canSelectedVoiceChannelUseSoundboard
-        zulu = _closure1_slot2;
-        mike = zulu.getVoiceChannelId;
-        tango = mike.bind(zulu)();
-        zulu = _closure1_slot6;
-        mike = _closure1_slot0;
-        entity = mike.getChannel;
-        mike = entity.bind(mike)(tango);
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: canSelectedVoiceChannelUseSoundboard
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.getVoiceChannelId;
+        tangon = michal.bind(zuuluu)();
+        zuuluu = _closure1_slot6;
+        michal = _closure1_slot0;
+        entity = michal.getChannel;
+        michal = entity.bind(michal)(tangon);
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['canSelectedVoiceChannelUseSoundboard'] = mike;
+    zuuluu['canSelectedVoiceChannelUseSoundboard'] = michal;
     return entity;
 })();

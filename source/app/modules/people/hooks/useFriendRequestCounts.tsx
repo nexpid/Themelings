@@ -1,32 +1,32 @@
 // app/modules/people/hooks/useFriendRequestCounts.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar) { // Original name: _getIncomingFriendRequestCount
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            zulu = undefined;
-            mike = argBar;
+            tangon = _closure1_slot2;
+            zuuluu = undefined;
+            michal = argBar;
             entity = 2;
-            mike = tango.bind(zulu)(mike, entity);
+            michal = tangon.bind(zuuluu)(michal, entity);
             entity = 0;
-            zulu = mike[entity];
+            zuuluu = michal[entity];
             entity = 1;
-            mike = mike[entity];
-            entity = zulu.getPendingCount;
-            zulu = entity.bind(zulu)();
-            entity = mike.getPendingIncomingCount;
-            mike = entity.bind(mike)();
-            tango = argFoo;
-            entity = zulu;
-            if(!tango) { _fun00002_ip = 67; continue _fun00001 }
+            michal = michal[entity];
+            entity = zuuluu.getPendingCount;
+            zuuluu = entity.bind(zuuluu)();
+            entity = michal.getPendingIncomingCount;
+            michal = entity.bind(michal)();
+            tangon = argFoo;
+            entity = zuuluu;
+            if(!tangon) { _fun00002_ip = 67; continue _fun00001 }
  63:
-            entity = zulu + mike;
+            entity = zuuluu + michal;
  67:
             return entity;
         }
@@ -34,131 +34,131 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/people/hooks/useFriendRequestCounts.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getIncomingFriendRequestCount
-        tango = _closure1_slot5;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot1;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/people/hooks/useFriendRequestCounts.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getIncomingFriendRequestCount
+        tangon = _closure1_slot5;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 3;
-        entity = zulu[entity];
-        zulu = undefined;
-        report = mike.bind(zulu)(entity);
-        mike = report.getIsFriendTiersUIEnabled;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        report = michal.bind(zuuluu)(entity);
+        michal = report.getIsFriendTiersUIEnabled;
         entity = {};
-        oscar = 'getIncomingFriendRequestCount';
-        entity['location'] = oscar;
-        mike = mike.bind(report)(entity);
+        oscard = 'getIncomingFriendRequestCount';
+        entity['location'] = oscard;
+        michal = michal.bind(report)(entity);
         entity = argFoo;
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['getIncomingFriendRequestCount'] = tango;
-    tango = function() { // Original name: useIncomingFriendRequestCount
-        tango = _closure1_slot0;
-        oscar = _closure1_slot1;
-        mike = 3;
-        mike = oscar[mike];
-        zulu = undefined;
-        options = tango.bind(zulu)(mike);
-        golf = options.useIsFriendTiersUIEnabled;
-        mike = {};
+    zuuluu['getIncomingFriendRequestCount'] = tangon;
+    tangon = function() { // Original name: useIncomingFriendRequestCount
+        tangon = _closure1_slot0;
+        oscard = _closure1_slot1;
+        michal = 3;
+        michal = oscard[michal];
+        zuuluu = undefined;
+        option = tangon.bind(zuuluu)(michal);
+        golfie = option.useIsFriendTiersUIEnabled;
+        michal = {};
         verify = 'useIncomingFriendRequestCount';
-        mike['location'] = verify;
-        mike = golf.bind(options)(mike);
-        var _closure2_slot0 = mike;
-        mike = 4;
-        mike = oscar[mike];
-        tango = tango.bind(zulu)(mike);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot4;
-        mike = new Array(2);
-        mike[0] = oscar;
+        michal['location'] = verify;
+        michal = golfie.bind(option)(michal);
+        var _closure2_slot0 = michal;
+        michal = 4;
+        michal = oscard[michal];
+        tangon = tangon.bind(zuuluu)(michal);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot4;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot3;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
-            tango = _closure1_slot5;
-            zulu = _closure2_slot0;
+            tangon = _closure1_slot5;
+            zuuluu = _closure2_slot0;
             report = _closure1_slot4;
-            mike = new Array(2);
-            mike[0] = report;
+            michal = new Array(2);
+            michal[0] = report;
             entity = _closure1_slot3;
-            mike[1] = entity;
+            michal[1] = entity;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIncomingFriendRequestCount'] = tango;
-    mike = function() { // Original name: getOutgoingFriendRequestCount
+    zuuluu['useIncomingFriendRequestCount'] = tangon;
+    michal = function() { // Original name: getOutgoingFriendRequestCount
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = arguments[0];
+            tangon = arguments[0];
             report = undefined;
-            if(!(tango === report)) { _fun00004_ip = 38; continue _fun00003 }
+            if(!(tangon === report)) { _fun00004_ip = 38; continue _fun00003 }
  9:
-            mike = global;
-            zulu = mike.o;
+            michal = global;
+            zuuluu = michal.o;
             entity = new Array(2);
-            entity[0] = zulu;
-            mike = mike.s;
-            entity[1] = mike;
-            tango = entity;
+            entity[0] = zuuluu;
+            michal = michal.s;
+            entity[1] = michal;
+            tangon = entity;
  38:
-            zulu = _closure1_slot2;
-            mike = 2;
-            tango = zulu.bind(report)(tango, mike);
-            mike = 0;
-            zulu = tango[mike];
-            mike = 1;
-            mike = tango[mike];
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = 2;
+            tangon = zuuluu.bind(report)(tangon, michal);
+            michal = 0;
+            zuuluu = tangon[michal];
+            michal = 1;
+            michal = tangon[michal];
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 3;
-            entity = oscar[entity];
-            report = tango.bind(report)(entity);
-            tango = report.getIsFriendTiersUIEnabled;
+            entity = oscard[entity];
+            report = tangon.bind(report)(entity);
+            tangon = report.getIsFriendTiersUIEnabled;
             entity = {};
-            oscar = 'getOutgoingFriendRequestCount';
-            entity['location'] = oscar;
-            tango = tango.bind(report)(entity);
-            entity = zulu.getOutgoingCount;
-            zulu = entity.bind(zulu)();
-            entity = mike.getPendingOutgoingCount;
-            mike = entity.bind(mike)();
-            entity = zulu;
-            if(!tango) { _fun00004_ip = 138; continue _fun00003 }
+            oscard = 'getOutgoingFriendRequestCount';
+            entity['location'] = oscard;
+            tangon = tangon.bind(report)(entity);
+            entity = zuuluu.getOutgoingCount;
+            zuuluu = entity.bind(zuuluu)();
+            entity = michal.getPendingOutgoingCount;
+            michal = entity.bind(michal)();
+            entity = zuuluu;
+            if(!tangon) { _fun00004_ip = 138; continue _fun00003 }
  134:
-            entity = zulu + mike;
+            entity = zuuluu + michal;
  138:
             return entity;
         }
     };
-    zulu['getOutgoingFriendRequestCount'] = mike;
+    zuuluu['getOutgoingFriendRequestCount'] = michal;
     return entity;
 })();

@@ -1,270 +1,270 @@
 // app/modules/guild_scheduled_events/native/GuildScheduledEventHeaderUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.isGuildEventEnded;
-    var _closure1_slot3 = golf;
-    tango = tango.isGuildScheduledEventActive;
-    var _closure1_slot4 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildScheduledEventEntityTypes;
-    var _closure1_slot5 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/native/GuildScheduledEventHeaderUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getGuildScheduledEventHeaderProps
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.isGuildEventEnded;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.isGuildScheduledEventActive;
+    var _closure1_slot4 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildScheduledEventEntityTypes;
+    var _closure1_slot5 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/native/GuildScheduledEventHeaderUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getGuildScheduledEventHeaderProps
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.eventTimeData;
-            result = mike.startDateTimeString;
-            config = mike.diffMinutes;
-            report = mike.currentOrPastEvent;
-            tango = mike.upcomingEvent;
+            michal = entity.eventTimeData;
+            result = michal.startDateTimeString;
+            config = michal.diffMinutes;
+            report = michal.currentOrPastEvent;
+            tangon = michal.upcomingEvent;
             output = entity.isStage;
             yankee = entity.theme;
-            kilo = entity.event;
+            kiloes = entity.event;
             verify = entity.isCanceled;
-            oscar = entity.recurrenceId;
-            zulu = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 2;
-            mike = golf[mike];
-            foxtrot = undefined;
-            zulu = zulu.bind(foxtrot)(mike);
-            mike = zulu.isThemeDark;
-            zulu = mike.bind(zulu)(yankee);
-            golf = _closure1_slot1;
-            mike = _closure1_slot2;
+            oscard = entity.recurrenceId;
+            zuuluu = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 2;
+            michal = golfie[michal];
+            foxtra = undefined;
+            zuuluu = zuuluu.bind(foxtra)(michal);
+            michal = zuuluu.isThemeDark;
+            zuuluu = michal.bind(zuuluu)(yankee);
+            golfie = _closure1_slot1;
+            michal = _closure1_slot2;
             backup = 3;
-            mike = mike[backup];
-            mike = golf.bind(foxtrot)(mike);
-            mike = mike.unsafe_rawColors;
-            if(zulu) { _fun00002_ip = 135; continue _fun00001 }
+            michal = michal[backup];
+            michal = golfie.bind(foxtra)(michal);
+            michal = michal.unsafe_rawColors;
+            if(zuuluu) { _fun00002_ip = 135; continue _fun00001 }
  127:
-            echo = mike.BRAND_500;
+            echoed = michal.BRAND_500;
             _fun00002_ip = 141; continue _fun00001;
  135:
-            echo = mike.BRAND_360;
+            echoed = michal.BRAND_360;
  141:
-            zulu = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 4;
-            mike = golf[mike];
-            zulu = zulu.bind(foxtrot)(mike);
-            mike = zulu.getNextRecurrenceIdInEvent;
-            mike = mike.bind(zulu)(kilo);
+            zuuluu = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 4;
+            michal = golfie[michal];
+            zuuluu = zuuluu.bind(foxtra)(michal);
+            michal = zuuluu.getNextRecurrenceIdInEvent;
+            michal = michal.bind(zuuluu)(kiloes);
             sizing = null;
-            if(!(sizing == oscar)) { _fun00002_ip = 189; continue _fun00001 }
+            if(!(sizing == oscard)) { _fun00002_ip = 189; continue _fun00001 }
  178:
-            zulu = _closure1_slot4;
-            zulu = zulu.bind(foxtrot)(kilo);
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.bind(foxtra)(kiloes);
             _fun00002_ip = 208; continue _fun00001;
  189:
-            mike = mike === oscar;
-            if(!mike) { _fun00002_ip = 205; continue _fun00001 }
+            michal = michal === oscard;
+            if(!michal) { _fun00002_ip = 205; continue _fun00001 }
  196:
-            oscar = _closure1_slot4;
-            mike = oscar.bind(foxtrot)(kilo);
+            oscard = _closure1_slot4;
+            michal = oscard.bind(foxtra)(kiloes);
  205:
-            zulu = mike;
+            zuuluu = michal;
  208:
-            mike = _closure1_slot3;
-            mike = mike.bind(foxtrot)(kilo);
-            golf = _closure1_slot1;
-            options = _closure1_slot2;
-            oscar = 5;
-            oscar = options[oscar];
-            offset = golf.bind(foxtrot)(oscar);
-            if(zulu) { _fun00002_ip = 542; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.bind(foxtra)(kiloes);
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
+            oscard = 5;
+            oscard = option[oscard];
+            offset = golfie.bind(foxtra)(oscard);
+            if(zuuluu) { _fun00002_ip = 542; continue _fun00001 }
  243:
-            if(mike) { _fun00002_ip = 511; continue _fun00001 }
+            if(michal) { _fun00002_ip = 511; continue _fun00001 }
  249:
             if(report) { _fun00002_ip = 432; continue _fun00001 }
  255:
-            oscar = echo;
-            golf = result;
-            options = offset;
-            if(!tango) { _fun00002_ip = 735; continue _fun00001 }
+            oscard = echoed;
+            golfie = result;
+            option = offset;
+            if(!tangon) { _fun00002_ip = 735; continue _fun00001 }
  270:
             update = _closure1_slot1;
             source = _closure1_slot2;
-            romeo = 8;
-            romeo = source[romeo];
-            romeo = update.bind(foxtrot)(romeo);
+            romeon = 8;
+            romeon = source[romeon];
+            romeon = update.bind(foxtra)(romeon);
             update = 0;
             if(!(!(config > update))) { _fun00002_ip = 353; continue _fun00001 }
  296:
             vacuum = _closure1_slot0;
-            sequence = _closure1_slot2;
+            sequen = _closure1_slot2;
             update = 6;
-            source = sequence[update];
-            source = vacuum.bind(foxtrot)(source);
-            control = source.intl;
-            source = control.string;
-            update = sequence[update];
-            update = vacuum.bind(foxtrot)(update);
+            source = sequen[update];
+            source = vacuum.bind(foxtra)(source);
+            ctrled = source.intl;
+            source = ctrled.string;
+            update = sequen[update];
+            update = vacuum.bind(foxtra)(update);
             update = update.t;
             update = update.WINqKS;
-            update = source.bind(control)(update);
+            update = source.bind(ctrled)(update);
             _fun00002_ip = 418; continue _fun00001;
  353:
-            control = _closure1_slot0;
+            ctrled = _closure1_slot0;
             record = _closure1_slot2;
             source = 6;
             vacuum = record[source];
-            vacuum = control.bind(foxtrot)(vacuum);
-            sequence = vacuum.intl;
-            vacuum = sequence.formatToPlainString;
+            vacuum = ctrled.bind(foxtra)(vacuum);
+            sequen = vacuum.intl;
+            vacuum = sequen.formatToPlainString;
             source = record[source];
-            source = control.bind(foxtrot)(source);
+            source = ctrled.bind(foxtra)(source);
             source = source.t;
-            control = source.PQlCWl;
+            ctrled = source.PQlCWl;
             source = {};
             source['minutes'] = config;
-            update = vacuum.bind(sequence)(control, source);
+            update = vacuum.bind(sequen)(ctrled, source);
  418:
-            golf = update;
-            oscar = echo;
-            options = romeo;
+            golfie = update;
+            oscard = echoed;
+            option = romeon;
             _fun00002_ip = 735; continue _fun00001;
  432:
             update = _closure1_slot1;
-            sequence = _closure1_slot2;
-            romeo = 8;
-            romeo = sequence[romeo];
-            options = update.bind(foxtrot)(romeo);
+            sequen = _closure1_slot2;
+            romeon = 8;
+            romeon = sequen[romeon];
+            option = update.bind(foxtra)(romeon);
             vacuum = _closure1_slot0;
             update = 6;
-            source = sequence[update];
-            source = vacuum.bind(foxtrot)(source);
-            control = source.intl;
-            source = control.string;
-            update = sequence[update];
-            update = vacuum.bind(foxtrot)(update);
+            source = sequen[update];
+            source = vacuum.bind(foxtra)(source);
+            ctrled = source.intl;
+            source = ctrled.string;
+            update = sequen[update];
+            update = vacuum.bind(foxtra)(update);
             update = update.t;
             update = update.WINqKS;
-            golf = source.bind(control)(update);
-            oscar = echo;
+            golfie = source.bind(ctrled)(update);
+            oscard = echoed;
             _fun00002_ip = 735; continue _fun00001;
  511:
             update = _closure1_slot1;
             source = _closure1_slot2;
-            romeo = 8;
-            romeo = source[romeo];
-            options = update.bind(foxtrot)(romeo);
-            oscar = echo;
-            golf = result;
+            romeon = 8;
+            romeon = source[romeon];
+            option = update.bind(foxtra)(romeon);
+            oscard = echoed;
+            golfie = result;
             _fun00002_ip = 735; continue _fun00001;
  542:
             source = _closure1_slot0;
-            romeo = _closure1_slot2;
-            echo = 6;
-            result = romeo[echo];
-            result = source.bind(foxtrot)(result);
+            romeon = _closure1_slot2;
+            echoed = 6;
+            result = romeon[echoed];
+            result = source.bind(foxtra)(result);
             update = result.intl;
             result = update.string;
-            romeo = romeo[echo];
-            romeo = source.bind(foxtrot)(romeo);
-            romeo = romeo.t;
-            romeo = romeo.X2K3//;
-            romeo = result.bind(update)(romeo);
+            romeon = romeon[echoed];
+            romeon = source.bind(foxtra)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.X2K3//;
+            romeon = result.bind(update)(romeon);
             if(!output) { _fun00002_ip = 620; continue _fun00001 }
  600:
             result = _closure1_slot1;
             update = _closure1_slot2;
             output = 7;
             output = update[output];
-            offset = result.bind(foxtrot)(output);
+            offset = result.bind(foxtra)(output);
  620:
-            output = sizing == kilo;
+            output = sizing == kiloes;
             sizing = undefined;
             if(output) { _fun00002_ip = 635; continue _fun00001 }
  629:
-            sizing = kilo.entity_type;
+            sizing = kiloes.entity_type;
  635:
-            kilo = _closure1_slot5;
-            kilo = kilo.EXTERNAL;
-            if(!(sizing === kilo)) { _fun00002_ip = 701; continue _fun00001 }
+            kiloes = _closure1_slot5;
+            kiloes = kiloes.EXTERNAL;
+            if(!(sizing === kiloes)) { _fun00002_ip = 701; continue _fun00001 }
  649:
             result = _closure1_slot0;
-            kilo = _closure1_slot2;
-            sizing = kilo[echo];
-            sizing = result.bind(foxtrot)(sizing);
+            kiloes = _closure1_slot2;
+            sizing = kiloes[echoed];
+            sizing = result.bind(foxtra)(sizing);
             output = sizing.intl;
             sizing = output.string;
-            kilo = kilo[echo];
-            kilo = result.bind(foxtrot)(kilo);
-            kilo = kilo.t;
-            kilo = kilo.TxqPQU;
-            romeo = sizing.bind(output)(kilo);
+            kiloes = kiloes[echoed];
+            kiloes = result.bind(foxtra)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.TxqPQU;
+            romeon = sizing.bind(output)(kiloes);
  701:
             sizing = _closure1_slot1;
-            kilo = _closure1_slot2;
-            kilo = kilo[backup];
-            kilo = sizing.bind(foxtrot)(kilo);
-            kilo = kilo.unsafe_rawColors;
-            oscar = kilo.GREEN_360;
-            golf = romeo;
-            options = offset;
+            kiloes = _closure1_slot2;
+            kiloes = kiloes[backup];
+            kiloes = sizing.bind(foxtra)(kiloes);
+            kiloes = kiloes.unsafe_rawColors;
+            oscard = kiloes.GREEN_360;
+            golfie = romeon;
+            option = offset;
  735:
             if(!verify) { _fun00002_ip = 793; continue _fun00001 }
  738:
-            romeo = _closure1_slot1;
+            romeon = _closure1_slot1;
             entity = _closure1_slot2;
             verify = entity[backup];
-            verify = romeo.bind(foxtrot)(verify);
+            verify = romeon.bind(foxtra)(verify);
             offset = verify.internal;
             verify = offset.resolveSemanticColor;
             entity = entity[backup];
-            entity = romeo.bind(foxtrot)(entity);
+            entity = romeon.bind(foxtra)(entity);
             entity = entity.colors;
             entity = entity.TEXT_DANGER;
-            oscar = verify.bind(offset)(yankee, entity);
+            oscard = verify.bind(offset)(yankee, entity);
  793:
             entity = {};
-            entity['icon'] = options;
-            entity['text'] = golf;
-            entity['color'] = oscar;
-            mike = !mike;
-            if(!mike) { _fun00002_ip = 828; continue _fun00001 }
+            entity['icon'] = option;
+            entity['text'] = golfie;
+            entity['color'] = oscard;
+            michal = !michal;
+            if(!michal) { _fun00002_ip = 828; continue _fun00001 }
  813:
-            if(zulu) { _fun00002_ip = 819; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 819; continue _fun00001 }
  816:
-            zulu = report;
+            zuuluu = report;
  819:
-            if(zulu) { _fun00002_ip = 825; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 825; continue _fun00001 }
  822:
-            zulu = tango;
+            zuuluu = tangon;
  825:
-            mike = zulu;
+            michal = zuuluu;
  828:
-            entity['shouldChangeTextColor'] = mike;
+            entity['shouldChangeTextColor'] = michal;
             return entity;
         }
     };
-    zulu['getGuildScheduledEventHeaderProps'] = mike;
+    zuuluu['getGuildScheduledEventHeaderProps'] = michal;
     return entity;
 })();

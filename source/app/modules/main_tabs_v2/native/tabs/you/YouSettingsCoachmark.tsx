@@ -1,86 +1,86 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: YouSettingsCoachmark
-        tango = argFoo;
-        report = tango.buttonRef;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: YouSettingsCoachmark
+        tangon = argFoo;
+        report = tangon.buttonRef;
         entity = null;
-        zulu = Object.create(entity);
-        mike = 0;
-        zulu['buttonRef'] = mike;
+        zuuluu = Object.create(entity);
+        michal = 0;
+        zuuluu['buttonRef'] = michal;
         verify = {};
-        options = tango;
-        golf = zulu;
-        tango = copyDataProperties(verify, options, golf);
-        oscar = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        zulu = oscar.bind(mike)(zulu);
-        mike = zulu.useCoachmark;
-        mike = mike.bind(zulu)(report, tango);
+        option = tangon;
+        golfie = zuuluu;
+        tangon = copyDataProperties(verify, option, golfie);
+        oscard = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        zuuluu = oscard.bind(michal)(zuuluu);
+        michal = zuuluu.useCoachmark;
+        michal = michal.bind(zuuluu)(report, tangon);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: useYouSettingsCoachmark
-        mike = argFoo;
-        oscar = mike.disabled;
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: useYouSettingsCoachmark
+        michal = argFoo;
+        oscard = michal.disabled;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useReferralProgramCoachmark;
-        zulu = {};
-        zulu['disabled'] = oscar;
-        report = tango.bind(report)(zulu);
+        tangon = _closure1_slot1;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useReferralProgramCoachmark;
+        zuuluu = {};
+        zuuluu['disabled'] = oscard;
+        report = tangon.bind(report)(zuuluu);
         var _closure2_slot0 = report;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                zulu = entity != zulu;
-                if(!zulu) { _fun00002_ip = 20; continue _fun00001 }
+                zuuluu = entity != zuuluu;
+                if(!zuuluu) { _fun00002_ip = 20; continue _fun00001 }
  16:
                 entity = _closure2_slot0;
  20:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useYouSettingsCoachmark'] = mike;
+    zuuluu['useYouSettingsCoachmark'] = michal;
     return entity;
 })();

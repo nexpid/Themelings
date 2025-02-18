@@ -1,79 +1,79 @@
 // app/modules/quests/QuestDecisionRoundtripTracker.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: trackRoundtrip
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
+            option = argFoo;
             entity = global;
-            mike = entity.Math;
-            entity = mike.random;
-            mike = entity.bind(mike)();
+            michal = entity.Math;
+            entity = michal.random;
+            michal = entity.bind(michal)();
             entity = 0.1;
-            if(!(!(mike > entity))) { _fun00002_ip = 263; continue _fun00001 }
+            if(!(!(michal > entity))) { _fun00002_ip = 263; continue _fun00001 }
  38:
-            entity = options.apiResponseTimestamp;
+            entity = option.apiResponseTimestamp;
             report = null;
             entity = report == entity;
             verify = null;
             if(entity) { _fun00002_ip = 71; continue _fun00001 }
  55:
-            mike = options.apiResponseTimestamp;
-            entity = options.initialSendTimestamp;
-            verify = mike - entity;
+            michal = option.apiResponseTimestamp;
+            entity = option.initialSendTimestamp;
+            verify = michal - entity;
  71:
-            mike = _closure1_slot0;
-            foxtrot = _closure1_slot2;
+            michal = _closure1_slot0;
+            foxtra = _closure1_slot2;
             entity = 4;
-            entity = foxtrot[entity];
+            entity = foxtra[entity];
             yankee = undefined;
-            mike = mike.bind(yankee)(entity);
-            entity = mike.getSignalStrength;
-            golf = entity.bind(mike)();
-            romeo = _closure1_slot1;
+            michal = michal.bind(yankee)(entity);
+            entity = michal.getSignalStrength;
+            golfie = entity.bind(michal)();
+            romeon = _closure1_slot1;
             entity = 5;
-            entity = foxtrot[entity];
-            tango = romeo.bind(yankee)(entity);
-            zulu = tango.track;
+            entity = foxtra[entity];
+            tangon = romeon.bind(yankee)(entity);
+            zuuluu = tangon.track;
             entity = _closure1_slot6;
-            mike = entity.QUEST_DECISION_ROUNDTRIP;
+            michal = entity.QUEST_DECISION_ROUNDTRIP;
             entity = {};
             offset = 6;
-            offset = foxtrot[offset];
-            offset = romeo.bind(yankee)(offset);
+            offset = foxtra[offset];
+            offset = romeon.bind(yankee)(offset);
             backup = offset.bind(yankee)();
-            kilo = entity;
-            offset = copyDataProperties(kilo, backup);
-            yankee = options.endpoint;
+            kiloes = entity;
+            offset = copyDataProperties(kiloes, backup);
+            yankee = option.endpoint;
             offset = 'endpoint';
             entity[offset] = yankee;
-            offset = options.wasSuccessful;
-            options = 'was_successful';
-            entity[options] = offset;
-            options = 'api_latency_ms';
-            entity[options] = verify;
-            options = _closure1_slot5;
-            oscar = options.getType;
-            options = oscar.bind(options)();
-            oscar = 'mobile_network_type';
-            entity[oscar] = options;
-            report = report != golf;
+            offset = option.wasSuccessful;
+            option = 'was_successful';
+            entity[option] = offset;
+            option = 'api_latency_ms';
+            entity[option] = verify;
+            option = _closure1_slot5;
+            oscard = option.getType;
+            option = oscard.bind(option)();
+            oscard = 'mobile_network_type';
+            entity[oscard] = option;
+            report = report != golfie;
             if(!report) { _fun00002_ip = 247; continue _fun00001 }
  237:
-            oscar = {};
-            oscar['mobile_signal_strength_level'] = golf;
-            report = oscar;
+            oscard = {};
+            oscard['mobile_signal_strength_level'] = golfie;
+            report = oscard;
  247:
-            kilo = entity;
+            kiloes = entity;
             backup = report;
-            report = copyDataProperties(kilo, backup);
-            entity = zulu.bind(tango)(mike, entity);
+            report = copyDataProperties(kiloes, backup);
+            entity = zuuluu.bind(tangon)(michal, entity);
  263:
             entity = undefined;
             return entity;
@@ -82,161 +82,161 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot7 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot6 = tango;
-    mike = function() {
-        tango = _closure1_slot4;
-        zulu = function() { // Original name: QuestDecisionRoundtripTracker
-            zulu = this;
-            tango = _closure1_slot3;
-            mike = _closure2_slot0;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot6 = tangon;
+    michal = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function() { // Original name: QuestDecisionRoundtripTracker
+            zuuluu = this;
+            tangon = _closure1_slot3;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = global;
-            mike = mike.Map;
-            tango = mike.prototype;
-            tango = Object.create(tango, {constructor: {value: mike}});
-            golf = tango;
-            mike = new golf[mike](oscar);
-            mike = mike instanceof Object ? mike : tango;
-            zulu['pendingRequests'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = global;
+            michal = michal.Map;
+            tangon = michal.prototype;
+            tangon = Object.create(tangon, {constructor: {value: michal}});
+            golfie = tangon;
+            michal = new golfie[michal](oscard);
+            michal = michal instanceof Object ? michal : tangon;
+            zuuluu['pendingRequests'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'recordQuestRequestAttempt';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
-            oscar = argFoo;
-            zulu = this;
-            var _closure3_slot0 = zulu;
-            var _closure3_slot1 = oscar;
+        michal = 'recordQuestRequestAttempt';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
+            oscard = argFoo;
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
+            var _closure3_slot1 = oscard;
             report = {};
             entity = global;
-            golf = entity.Date;
-            tango = golf.now;
-            tango = tango.bind(golf)();
-            report['initialSendTimestamp'] = tango;
-            report['endpoint'] = oscar;
-            tango = null;
-            report['apiResponseTimestamp'] = tango;
-            tango = false;
-            report['wasSuccessful'] = tango;
-            tango = zulu.pendingRequests;
-            zulu = tango.set;
-            zulu = zulu.bind(tango)(oscar, report);
-            tango = entity.setTimeout;
+            golfie = entity.Date;
+            tangon = golfie.now;
+            tangon = tangon.bind(golfie)();
+            report['initialSendTimestamp'] = tangon;
+            report['endpoint'] = oscard;
+            tangon = null;
+            report['apiResponseTimestamp'] = tangon;
+            tangon = false;
+            report['wasSuccessful'] = tangon;
+            tangon = zuuluu.pendingRequests;
+            zuuluu = tangon.set;
+            zuuluu = zuuluu.bind(tangon)(oscard, report);
+            tangon = entity.setTimeout;
             entity = undefined;
-            zulu = function() {
+            zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure3_slot0;
-                    tango = mike.pendingRequests;
-                    zulu = tango.get;
-                    mike = _closure3_slot1;
-                    tango = zulu.bind(tango)(mike);
-                    mike = null;
-                    if(!(mike != tango)) { _fun00004_ip = 71; continue _fun00003 }
+                    michal = _closure3_slot0;
+                    tangon = michal.pendingRequests;
+                    zuuluu = tangon.get;
+                    michal = _closure3_slot1;
+                    tangon = zuuluu.bind(tangon)(michal);
+                    michal = null;
+                    if(!(michal != tangon)) { _fun00004_ip = 71; continue _fun00003 }
  33:
-                    zulu = _closure1_slot7;
-                    mike = undefined;
-                    mike = zulu.bind(mike)(tango);
-                    mike = _closure3_slot0;
-                    zulu = mike.pendingRequests;
-                    mike = zulu.delete;
+                    zuuluu = _closure1_slot7;
+                    michal = undefined;
+                    michal = zuuluu.bind(michal)(tangon);
+                    michal = _closure3_slot0;
+                    zuuluu = michal.pendingRequests;
+                    michal = zuuluu.delete;
                     entity = _closure3_slot1;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
  71:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = 30000;
-            mike = tango.bind(entity)(zulu, mike);
+            michal = 30000;
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(2);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(2);
+        michal[0] = entity;
         entity = {};
-        oscar = 'recordQuestRequestApiResponse';
-        entity['key'] = oscar;
+        oscard = 'recordQuestRequestApiResponse';
+        entity['key'] = oscard;
         report = function(argFoo, argBar) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 entity = this;
-                mike = argBar;
-                oscar = mike.wasSuccessful;
-                tango = entity.pendingRequests;
-                mike = tango.get;
-                mike = mike.bind(tango)(zulu);
-                tango = null;
-                if(!(tango != mike)) { _fun00006_ip = 114; continue _fun00005 }
+                michal = argBar;
+                oscard = michal.wasSuccessful;
+                tangon = entity.pendingRequests;
+                michal = tangon.get;
+                michal = michal.bind(tangon)(zuuluu);
+                tangon = null;
+                if(!(tangon != michal)) { _fun00006_ip = 114; continue _fun00005 }
  37:
                 report = _closure1_slot7;
-                tango = {};
-                verify = tango;
-                options = mike;
-                mike = copyDataProperties(verify, options);
-                mike = global;
-                golf = mike.Date;
-                mike = golf.now;
-                golf = mike.bind(golf)();
-                mike = 'apiResponseTimestamp';
-                tango[mike] = golf;
-                mike = 'wasSuccessful';
-                tango[mike] = oscar;
-                mike = undefined;
-                mike = report.bind(mike)(tango);
-                mike = entity.pendingRequests;
-                entity = mike.delete;
-                entity = entity.bind(mike)(zulu);
+                tangon = {};
+                verify = tangon;
+                option = michal;
+                michal = copyDataProperties(verify, option);
+                michal = global;
+                golfie = michal.Date;
+                michal = golfie.now;
+                golfie = michal.bind(golfie)();
+                michal = 'apiResponseTimestamp';
+                tangon[michal] = golfie;
+                michal = 'wasSuccessful';
+                tangon[michal] = oscard;
+                michal = undefined;
+                michal = report.bind(michal)(tangon);
+                michal = entity.pendingRequests;
+                entity = michal.delete;
+                entity = entity.bind(michal)(zuuluu);
  114:
                 entity = undefined;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = mike.prototype;
-    tango = Object.create(tango, {constructor: {value: mike}});
-    foxtrot = tango;
-    mike = new foxtrot[mike](romeo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/quests/QuestDecisionRoundtripTracker.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = michal.prototype;
+    tangon = Object.create(tangon, {constructor: {value: michal}});
+    foxtra = tangon;
+    michal = new foxtra[michal](romeon);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/quests/QuestDecisionRoundtripTracker.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,106 +1,106 @@
 // app/modules/panels/morphable/native/AppFreezer.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
+    tangon = tangon.bind(entity)(option);
     offset = 1;
-    tango = oscar[offset];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.jsx;
-    var _closure1_slot3 = options;
-    tango = 3;
-    tango = oscar[tango];
-    golf = golf.bind(entity)(tango);
-    tango = {};
+    tangon = oscard[offset];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot3 = option;
+    tangon = 3;
+    tangon = oscard[tangon];
+    golfie = golfie.bind(entity)(tangon);
+    tangon = {};
     verify = {};
     verify['flex'] = offset;
-    tango['style'] = verify;
-    tango = options.bind(entity)(golf, tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/panels/morphable/native/AppFreezer.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: AppFreezer
-        mike = argFoo;
-        report = mike.children;
-        mike = mike.lockKeys;
-        var _closure2_slot0 = mike;
-        mike = _closure1_slot2;
-        tango = undefined;
+    tangon['style'] = verify;
+    tangon = option.bind(entity)(golfie, tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/panels/morphable/native/AppFreezer.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: AppFreezer
+        michal = argFoo;
+        report = michal.children;
+        michal = michal.lockKeys;
+        var _closure2_slot0 = michal;
+        michal = _closure1_slot2;
+        tangon = undefined;
         entity = function(argFoo) {
             entity = argFoo;
-            tango = entity.lockKeys;
-            zulu = _closure2_slot0;
-            mike = function(argFoo, argBar) { // Original name: shouldFreeze
+            tangon = entity.lockKeys;
+            zuuluu = _closure2_slot0;
+            michal = function(argFoo, argBar) { // Original name: shouldFreeze
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    tango = argBar;
+                    tangon = argBar;
                     var _closure4_slot0 = entity;
-                    zulu = null;
-                    if(!(zulu == tango)) { _fun00002_ip = 31; continue _fun00001 }
+                    zuuluu = null;
+                    if(!(zuuluu == tangon)) { _fun00002_ip = 31; continue _fun00001 }
  18:
-                    zulu = entity.size;
+                    zuuluu = entity.size;
                     entity = 0;
-                    entity = zulu > entity;
+                    entity = zuuluu > entity;
                     _fun00002_ip = 49; continue _fun00001;
  31:
-                    zulu = tango.some;
-                    mike = function(argFoo) {
-                        zulu = _closure4_slot0;
-                        mike = zulu.has;
+                    zuuluu = tangon.some;
+                    michal = function(argFoo) {
+                        zuuluu = _closure4_slot0;
+                        michal = zuuluu.has;
                         entity = argFoo;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    entity = zulu.bind(tango)(mike);
+                    entity = zuuluu.bind(tangon)(michal);
  49:
                     return entity;
                 }
             };
             entity = undefined;
-            entity = mike.bind(entity)(tango, zulu);
+            entity = michal.bind(entity)(tangon, zuuluu);
             return entity;
         };
-        golf = mike.bind(tango)(entity);
-        zulu = _closure1_slot3;
-        mike = _closure1_slot0;
-        options = _closure1_slot1;
+        golfie = michal.bind(tangon)(entity);
+        zuuluu = _closure1_slot3;
+        michal = _closure1_slot0;
+        option = _closure1_slot1;
         entity = 4;
-        entity = options[entity];
-        entity = mike.bind(tango)(entity);
-        mike = entity.Freeze;
+        entity = option[entity];
+        entity = michal.bind(tangon)(entity);
+        michal = entity.Freeze;
         entity = {};
-        entity['freeze'] = golf;
-        oscar = _closure1_slot4;
-        entity['placeholder'] = oscar;
+        entity['freeze'] = golfie;
+        oscard = _closure1_slot4;
+        entity['placeholder'] = oscard;
         entity['children'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

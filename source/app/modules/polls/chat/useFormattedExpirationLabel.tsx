@@ -1,120 +1,120 @@
 // app/modules/polls/chat/useFormattedExpirationLabel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
-    mike = function(argFoo) { // Original name: formatExpirationLabel
+    michal = function(argFoo) { // Original name: formatExpirationLabel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            tango = _closure1_slot1;
-            zulu = _closure1_slot2;
+            option = argFoo;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 0;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            zulu = tango.bind(entity)(zulu);
-            report = zulu.bind(entity)();
-            if(!(!(options <= report))) { _fun00002_ip = 292; continue _fun00001 }
+            zuuluu = tangon.bind(entity)(zuuluu);
+            report = zuuluu.bind(entity)();
+            if(!(!(option <= report))) { _fun00002_ip = 292; continue _fun00001 }
  38:
-            tango = options.diff;
-            zulu = 'days';
-            oscar = tango.bind(options)(report, zulu);
-            golf = 1;
-            if(!(!(oscar > golf))) { _fun00002_ip = 228; continue _fun00001 }
+            tangon = option.diff;
+            zuuluu = 'days';
+            oscard = tangon.bind(option)(report, zuuluu);
+            golfie = 1;
+            if(!(!(oscard > golfie))) { _fun00002_ip = 228; continue _fun00001 }
  64:
-            tango = options.diff;
-            zulu = 'hours';
-            verify = tango.bind(options)(report, zulu);
-            if(!(!(verify > golf))) { _fun00002_ip = 164; continue _fun00001 }
+            tangon = option.diff;
+            zuuluu = 'hours';
+            verify = tangon.bind(option)(report, zuuluu);
+            if(!(!(verify > golfie))) { _fun00002_ip = 164; continue _fun00001 }
  84:
-            tango = options.diff;
-            zulu = 'minutes';
-            offset = tango.bind(options)(report, zulu);
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            report = zulu[golf];
-            report = tango.bind(entity)(report);
-            options = report.intl;
-            report = options.formatToPlainString;
-            zulu = zulu[golf];
-            zulu = tango.bind(entity)(zulu);
-            zulu = zulu.t;
-            tango = zulu.3SLXAw;
-            zulu = {};
-            zulu['minutes'] = offset;
-            zulu = report.bind(options)(tango, zulu);
-            return zulu;
+            tangon = option.diff;
+            zuuluu = 'minutes';
+            offset = tangon.bind(option)(report, zuuluu);
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            report = zuuluu[golfie];
+            report = tangon.bind(entity)(report);
+            option = report.intl;
+            report = option.formatToPlainString;
+            zuuluu = zuuluu[golfie];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.3SLXAw;
+            zuuluu = {};
+            zuuluu['minutes'] = offset;
+            zuuluu = report.bind(option)(tangon, zuuluu);
+            return zuuluu;
  164:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            report = zulu[golf];
-            report = tango.bind(entity)(report);
-            options = report.intl;
-            report = options.formatToPlainString;
-            zulu = zulu[golf];
-            zulu = tango.bind(entity)(zulu);
-            zulu = zulu.t;
-            tango = zulu.BWqf0d;
-            zulu = {};
-            zulu['hours'] = verify;
-            zulu = report.bind(options)(tango, zulu);
-            return zulu;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            report = zuuluu[golfie];
+            report = tangon.bind(entity)(report);
+            option = report.intl;
+            report = option.formatToPlainString;
+            zuuluu = zuuluu[golfie];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.BWqf0d;
+            zuuluu = {};
+            zuuluu['hours'] = verify;
+            zuuluu = report.bind(option)(tangon, zuuluu);
+            return zuuluu;
  228:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
-            tango = mike[golf];
-            tango = zulu.bind(entity)(tango);
-            report = tango.intl;
-            tango = report.formatToPlainString;
-            mike = mike[golf];
-            mike = zulu.bind(entity)(mike);
-            mike = mike.t;
-            zulu = mike.dex68f;
-            mike = {};
-            mike['days'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            tangon = michal[golfie];
+            tangon = zuuluu.bind(entity)(tangon);
+            report = tangon.intl;
+            tangon = report.formatToPlainString;
+            michal = michal[golfie];
+            michal = zuuluu.bind(entity)(michal);
+            michal = michal.t;
+            zuuluu = michal.dex68f;
+            michal = {};
+            michal['days'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return michal;
  292:
             return entity;
         }
     };
-    var _closure1_slot3 = mike;
+    var _closure1_slot3 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 2;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/polls/chat/useFormattedExpirationLabel.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useFormattedExpirationLabel
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useFormattedExpirationLabel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            if(!(entity == zulu)) { _fun00004_ip = 13; continue _fun00003 }
+            if(!(entity == zuuluu)) { _fun00004_ip = 13; continue _fun00003 }
  9:
             entity = undefined;
             return entity;
  13:
-            mike = _closure1_slot3;
+            michal = _closure1_slot3;
             entity = undefined;
-            entity = mike.bind(entity)(zulu);
+            entity = michal.bind(entity)(zuuluu);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['formatExpirationLabel'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['formatExpirationLabel'] = michal;
     return entity;
 })();

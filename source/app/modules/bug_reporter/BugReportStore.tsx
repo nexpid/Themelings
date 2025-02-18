@@ -1,61 +1,61 @@
 // app/modules/bug_reporter/BugReportStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(mike);
-    report = options.create;
-    mike = function() {
+    option = oscard.bind(entity)(michal);
+    report = option.create;
+    michal = function() {
         entity = {};
-        mike = false;
-        entity['isReportOpen'] = mike;
+        michal = false;
+        entity['isReportOpen'] = michal;
         return entity;
     };
-    mike = report.bind(options)(mike);
-    var _closure1_slot2 = mike;
+    michal = report.bind(option)(michal);
+    var _closure1_slot2 = michal;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/bug_reporter/BugReportStore.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) {
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isReportOpen'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isReportOpen'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setReportOpen'] = tango;
-    zulu['useBugReportStore'] = mike;
+    zuuluu['setReportOpen'] = tangon;
+    zuuluu['useBugReportStore'] = michal;
     return entity;
 })();

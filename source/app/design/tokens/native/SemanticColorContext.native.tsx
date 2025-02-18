@@ -1,127 +1,127 @@
 // app/design/tokens/native/SemanticColorContext.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 5;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/tokens/native/SemanticColorContext.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getSemanticColorContextFromThemeContext
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/tokens/native/SemanticColorContext.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getSemanticColorContextFromThemeContext
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            mike = 3;
-            mike = report[mike];
+            michal = 3;
+            michal = report[michal];
             backup = undefined;
-            tango = zulu.bind(backup)(mike);
-            mike = tango.getGradientThemeFromFlags;
-            verify = mike.bind(tango)(entity);
-            options = entity.contrast;
-            tango = entity.saturation;
-            oscar = entity.primaryColor;
-            mike = 4;
-            mike = report[mike];
-            report = zulu.bind(backup)(mike);
-            zulu = report.getGradientThemeMetadata;
-            mike = entity.gradient;
-            mike = zulu.bind(report)(verify, mike);
+            tangon = zuuluu.bind(backup)(michal);
+            michal = tangon.getGradientThemeFromFlags;
+            verify = michal.bind(tangon)(entity);
+            option = entity.contrast;
+            tangon = entity.saturation;
+            oscard = entity.primaryColor;
+            michal = 4;
+            michal = report[michal];
+            report = zuuluu.bind(backup)(michal);
+            zuuluu = report.getGradientThemeMetadata;
+            michal = entity.gradient;
+            michal = zuuluu.bind(report)(verify, michal);
             report = null;
-            if(!(report != oscar)) { _fun00002_ip = 321; continue _fun00001 }
+            if(!(report != oscard)) { _fun00002_ip = 321; continue _fun00001 }
  96:
-            foxtrot = entity.theme;
-            zulu = entity.primaryColor;
-            romeo = entity.secondaryColor;
-            verify = report == zulu;
+            foxtra = entity.theme;
+            zuuluu = entity.primaryColor;
+            romeon = entity.secondaryColor;
+            verify = report == zuuluu;
             entity = null;
             if(verify) { _fun00002_ip = 318; continue _fun00001 }
  126:
             yankee = _closure1_slot0;
-            kilo = _closure1_slot2;
+            kiloes = _closure1_slot2;
             verify = 0;
-            offset = kilo[verify];
+            offset = kiloes[verify];
             sizing = yankee.bind(backup)(offset);
             offset = sizing.int2hex;
-            offset = offset.bind(sizing)(zulu);
-            verify = kilo[verify];
+            offset = offset.bind(sizing)(zuuluu);
+            verify = kiloes[verify];
             yankee = yankee.bind(backup)(verify);
             verify = yankee.int2hex;
-            if(!(report != romeo)) { _fun00002_ip = 178; continue _fun00001 }
+            if(!(report != romeon)) { _fun00002_ip = 178; continue _fun00001 }
  175:
-            zulu = romeo;
+            zuuluu = romeon;
  178:
-            verify = verify.bind(yankee)(zulu);
+            verify = verify.bind(yankee)(zuuluu);
             yankee = _closure1_slot1;
-            kilo = _closure1_slot2;
-            zulu = 1;
-            zulu = kilo[zulu];
-            zulu = yankee.bind(backup)(zulu);
-            romeo = zulu.bind(backup)(offset);
-            yankee = romeo.mix;
-            zulu = 0.5;
-            yankee = yankee.bind(romeo)(verify, zulu);
-            zulu = yankee.hex;
-            yankee = zulu.bind(yankee)();
-            zulu = {};
-            romeo = _closure1_slot0;
-            golf = 2;
-            golf = kilo[golf];
-            romeo = romeo.bind(backup)(golf);
-            golf = romeo.isThemeLight;
-            romeo = golf.bind(romeo)(foxtrot);
-            golf = 'dark';
-            if(!romeo) { _fun00002_ip = 279; continue _fun00001 }
+            kiloes = _closure1_slot2;
+            zuuluu = 1;
+            zuuluu = kiloes[zuuluu];
+            zuuluu = yankee.bind(backup)(zuuluu);
+            romeon = zuuluu.bind(backup)(offset);
+            yankee = romeon.mix;
+            zuuluu = 0.5;
+            yankee = yankee.bind(romeon)(verify, zuuluu);
+            zuuluu = yankee.hex;
+            yankee = zuuluu.bind(yankee)();
+            zuuluu = {};
+            romeon = _closure1_slot0;
+            golfie = 2;
+            golfie = kiloes[golfie];
+            romeon = romeon.bind(backup)(golfie);
+            golfie = romeon.isThemeLight;
+            romeon = golfie.bind(romeon)(foxtra);
+            golfie = 'dark';
+            if(!romeon) { _fun00002_ip = 279; continue _fun00001 }
  275:
-            golf = 'light';
+            golfie = 'light';
  279:
-            zulu['theme'] = golf;
-            golf = {};
-            golf['gradient.start'] = offset;
-            golf['gradient.mid'] = yankee;
-            golf['gradient.end'] = verify;
-            golf['gradient.primary'] = offset;
-            golf['gradient.secondary'] = verify;
-            zulu['colors'] = golf;
-            entity = zulu;
+            zuuluu['theme'] = golfie;
+            golfie = {};
+            golfie['gradient.start'] = offset;
+            golfie['gradient.mid'] = yankee;
+            golfie['gradient.end'] = verify;
+            golfie['gradient.primary'] = offset;
+            golfie['gradient.secondary'] = verify;
+            zuuluu['colors'] = golfie;
+            entity = zuuluu;
  318:
-            mike = entity;
+            michal = entity;
  321:
             entity = {};
-            verify = report != oscar;
-            zulu = 1;
-            golf = zulu;
+            verify = report != oscard;
+            zuuluu = 1;
+            golfie = zuuluu;
             if(verify) { _fun00002_ip = 339; continue _fun00001 }
  336:
-            golf = options;
+            golfie = option;
  339:
-            entity['contrast'] = golf;
-            report = report != oscar;
+            entity['contrast'] = golfie;
+            report = report != oscard;
             if(report) { _fun00002_ip = 354; continue _fun00001 }
  351:
-            zulu = tango;
+            zuuluu = tangon;
  354:
-            entity['saturation'] = zulu;
-            entity['gradient'] = mike;
+            entity['saturation'] = zuuluu;
+            entity['gradient'] = michal;
             return entity;
         }
     };
-    zulu['getSemanticColorContextFromThemeContext'] = mike;
+    zuuluu['getSemanticColorContextFromThemeContext'] = michal;
     return entity;
 })();

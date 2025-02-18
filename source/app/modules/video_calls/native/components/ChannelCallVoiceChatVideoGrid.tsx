@@ -1,52 +1,52 @@
 // app/modules/video_calls/native/components/ChannelCallVoiceChatVideoGrid.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.OLD_VOICE_UI_ERROR_STRING;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/native/components/ChannelCallVoiceChatVideoGrid.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: ChannelCallVoiceChatVideoGrid
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.OLD_VOICE_UI_ERROR_STRING;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/native/components/ChannelCallVoiceChatVideoGrid.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: ChannelCallVoiceChatVideoGrid
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00002_ip = 46; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 46; continue _fun00001 }
  9:
             entity = global;
-            tango = entity.Error;
-            oscar = _closure1_slot0;
-            zulu = tango.prototype;
-            zulu = Object.create(zulu, {constructor: {value: tango}});
-            golf = zulu;
-            entity = new golf[tango](oscar, report);
-            entity = entity instanceof Object ? entity : zulu;
+            tangon = entity.Error;
+            oscard = _closure1_slot0;
+            zuuluu = tangon.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+            golfie = zuuluu;
+            entity = new golfie[tangon](oscard, report);
+            entity = entity instanceof Object ? entity : zuuluu;
             throw entity;
  46:
             report = "Cannot destructure 'undefined' or 'null'.";
-            oscar = mike;
-            entity = throwTypeError(oscar, report);
+            oscard = michal;
+            entity = throwTypeError(oscard, report);
             entity = undefined;
             throw entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

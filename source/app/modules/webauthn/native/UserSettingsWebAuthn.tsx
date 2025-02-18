@@ -1,103 +1,103 @@
 // app/modules/webauthn/native/UserSettingsWebAuthn.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.WebAuthnScreens;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/webauthn/native/UserSettingsWebAuthn.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: UserSettingsWebAuthn
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.WebAuthnScreens;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/webauthn/native/UserSettingsWebAuthn.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: UserSettingsWebAuthn
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.navigation;
-            var _closure2_slot0 = zulu;
-            oscar = entity.initialRouteName;
-            tango = undefined;
-            if(!(oscar === tango)) { _fun00002_ip = 40; continue _fun00001 }
+            zuuluu = entity.navigation;
+            var _closure2_slot0 = zuuluu;
+            oscard = entity.initialRouteName;
+            tangon = undefined;
+            if(!(oscard === tangon)) { _fun00002_ip = 40; continue _fun00001 }
  27:
-            zulu = _closure1_slot4;
-            oscar = zulu.INIT;
+            zuuluu = _closure1_slot4;
+            oscard = zuuluu.INIT;
  40:
             entity = entity.showNav;
-            if(!(entity === tango)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(entity === tangon)) { _fun00002_ip = 52; continue _fun00001 }
  50:
             entity = false;
  52:
             var _closure2_slot1 = entity;
             report = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 3;
-            zulu = options[zulu];
-            verify = report.bind(tango)(zulu);
-            golf = verify.getScreens;
-            zulu = {};
+            option = _closure1_slot2;
+            zuuluu = 3;
+            zuuluu = option[zuuluu];
+            verify = report.bind(tangon)(zuuluu);
+            golfie = verify.getScreens;
+            zuuluu = {};
             report = false;
-            zulu['isModal'] = report;
-            golf = golf.bind(verify)(zulu);
+            zuuluu['isModal'] = report;
+            golfie = golfie.bind(verify)(zuuluu);
             verify = _closure1_slot3;
-            zulu = verify.useLayoutEffect;
-            mike = function() {
-                zulu = _closure2_slot0;
-                mike = zulu.setOptions;
+            zuuluu = verify.useLayoutEffect;
+            michal = function() {
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.setOptions;
                 entity = {};
-                tango = _closure2_slot1;
-                entity['headerShown'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure2_slot1;
+                entity['headerShown'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
-            mike = zulu.bind(verify)(mike);
-            zulu = _closure1_slot5;
-            mike = _closure1_slot0;
+            michal = zuuluu.bind(verify)(michal);
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot0;
             entity = 4;
-            entity = options[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.Navigator;
+            entity = option[entity];
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Navigator;
             entity = {};
-            entity['screens'] = golf;
-            entity['initialRouteName'] = oscar;
-            golf = {};
-            golf['name'] = oscar;
-            oscar = new Array(1);
-            oscar[0] = golf;
-            entity['initialRouteStack'] = oscar;
+            entity['screens'] = golfie;
+            entity['initialRouteName'] = oscard;
+            golfie = {};
+            golfie['name'] = oscard;
+            oscard = new Array(1);
+            oscard[0] = golfie;
+            entity['initialRouteStack'] = oscard;
             entity['useContainer'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

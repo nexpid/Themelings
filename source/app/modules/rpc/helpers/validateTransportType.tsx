@@ -1,71 +1,71 @@
 // app/modules/rpc/helpers/validateTransportType.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.TransportTypes;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.RPCErrors;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/helpers/validateTransportType.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: validateTransportType
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.TransportTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RPCErrors;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/helpers/validateTransportType.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: validateTransportType
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot2;
-            mike = mike.IPC;
-            if(!(mike !== zulu)) { _fun00002_ip = 34; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = _closure1_slot2;
+            michal = michal.IPC;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 34; continue _fun00001 }
  20:
-            mike = _closure1_slot2;
-            mike = mike.POST_MESSAGE;
-            if(!(mike === zulu)) { _fun00002_ip = 38; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.POST_MESSAGE;
+            if(!(michal === zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
  34:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  38:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = {};
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = {};
             entity = _closure1_slot3;
             entity = entity.INVALID_COMMAND;
-            zulu['errorCode'] = entity;
-            entity = tango.prototype;
-            mike = Object.create(entity, {constructor: {value: tango}});
+            zuuluu['errorCode'] = entity;
+            entity = tangon.prototype;
+            michal = Object.create(entity, {constructor: {value: tangon}});
             report = 'Invalid transport.';
-            golf = mike;
-            oscar = zulu;
-            entity = new golf[tango](oscar, report, tango);
-            entity = entity instanceof Object ? entity : mike;
+            golfie = michal;
+            oscard = zuuluu;
+            entity = new golfie[tangon](oscard, report, tangon);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['validateTransportType'] = mike;
+    zuuluu['validateTransportType'] = michal;
     return entity;
 })();

@@ -1,70 +1,70 @@
 // app/lib/uploader/UploadUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/uploader/UploadUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: doesImageMatchUpload
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/uploader/UploadUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: doesImageMatchUpload
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = argBar;
-            zulu = mike.id;
-            entity = tango.uri;
-            if(!(zulu !== entity)) { _fun00002_ip = 173; continue _fun00001 }
+            tangon = argFoo;
+            michal = argBar;
+            zuuluu = michal.id;
+            entity = tangon.uri;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 173; continue _fun00001 }
  24:
-            zulu = mike.id;
+            zuuluu = michal.id;
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 52; continue _fun00001 }
  35:
-            report = mike.id;
-            zulu = tango.id;
-            if(!(report !== zulu)) { _fun00002_ip = 173; continue _fun00001 }
+            report = michal.id;
+            zuuluu = tangon.id;
+            if(!(report !== zuuluu)) { _fun00002_ip = 173; continue _fun00001 }
  52:
-            zulu = mike.item;
-            report = zulu.platform;
-            golf = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 0;
-            oscar = oscar[zulu];
-            zulu = undefined;
-            zulu = golf.bind(zulu)(oscar);
-            zulu = zulu.UploadPlatform;
-            zulu = zulu.REACT_NATIVE;
-            if(!(report !== zulu)) { _fun00002_ip = 107; continue _fun00001 }
+            zuuluu = michal.item;
+            report = zuuluu.platform;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 0;
+            oscard = oscard[zuuluu];
+            zuuluu = undefined;
+            zuuluu = golfie.bind(zuuluu)(oscard);
+            zuuluu = zuuluu.UploadPlatform;
+            zuuluu = zuuluu.REACT_NATIVE;
+            if(!(report !== zuuluu)) { _fun00002_ip = 107; continue _fun00001 }
  103:
-            zulu = false;
-            return zulu;
+            zuuluu = false;
+            return zuuluu;
  107:
-            mike = mike.item;
-            zulu = tango.filename;
-            report = mike.originalUri;
-            tango = tango.uri;
-            if(!(report !== tango)) { _fun00002_ip = 169; continue _fun00001 }
+            michal = michal.item;
+            zuuluu = tangon.filename;
+            report = michal.originalUri;
+            tangon = tangon.uri;
+            if(!(report !== tangon)) { _fun00002_ip = 169; continue _fun00001 }
  134:
-            if(!(entity != zulu)) { _fun00002_ip = 161; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 161; continue _fun00001 }
  138:
-            mike = mike.originalUri;
-            if(!(entity != mike)) { _fun00002_ip = 161; continue _fun00001 }
+            michal = michal.originalUri;
+            if(!(entity != michal)) { _fun00002_ip = 161; continue _fun00001 }
  148:
-            entity = mike.includes;
-            entity = entity.bind(mike)(zulu);
+            entity = michal.includes;
+            entity = entity.bind(michal)(zuuluu);
             if(entity) { _fun00002_ip = 165; continue _fun00001 }
  161:
             entity = false;
@@ -80,29 +80,29 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['doesImageMatchUpload'] = tango;
-    mike = function(argFoo, argBar) { // Original name: calculateProgress
+    zuuluu['doesImageMatchUpload'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: calculateProgress
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argBar;
+            zuuluu = argBar;
             entity = 0;
-            if(!(entity !== zulu)) { _fun00004_ip = 59; continue _fun00003 }
+            if(!(entity !== zuuluu)) { _fun00004_ip = 59; continue _fun00003 }
  9:
-            mike = global;
-            report = mike.Math;
-            tango = report.min;
-            golf = mike.Math;
-            oscar = golf.floor;
-            mike = argFoo;
-            mike = mike / zulu;
-            zulu = 100;
-            mike = mike * zulu;
-            mike = oscar.bind(golf)(mike);
-            entity = tango.bind(report)(mike, zulu);
+            michal = global;
+            report = michal.Math;
+            tangon = report.min;
+            golfie = michal.Math;
+            oscard = golfie.floor;
+            michal = argFoo;
+            michal = michal / zuuluu;
+            zuuluu = 100;
+            michal = michal * zuuluu;
+            michal = oscard.bind(golfie)(michal);
+            entity = tangon.bind(report)(michal, zuuluu);
  59:
             return entity;
         }
     };
-    zulu['calculateProgress'] = mike;
+    zuuluu['calculateProgress'] = michal;
     return entity;
 })();

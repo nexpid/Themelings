@@ -1,77 +1,77 @@
 // app/modules/user_settings/native/two_way_link/useConnectRetry.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/native/two_way_link/useConnectRetry.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useConnectRetry
-        oscar = argFoo;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/native/two_way_link/useConnectRetry.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useConnectRetry
+        oscard = argFoo;
         report = argBar;
-        var _closure2_slot0 = oscar;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useCallback;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useCallback;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
-                entity = zulu.getState;
-                entity = entity.bind(zulu)();
+                zuuluu = _closure2_slot0;
+                entity = zuuluu.getState;
+                entity = entity.bind(zuuluu)();
                 entity = entity.routes;
-                tango = entity.findIndex;
-                zulu = function(argFoo) {
+                tangon = entity.findIndex;
+                zuuluu = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.name;
+                    michal = entity.name;
                     entity = _closure2_slot1;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                tango = tango.bind(entity)(zulu);
-                zulu = 0;
-                if(!(!(tango >= zulu))) { _fun00002_ip = 63; continue _fun00001 }
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = 0;
+                if(!(!(tangon >= zuuluu))) { _fun00002_ip = 63; continue _fun00001 }
  47:
                 report = _closure2_slot0;
-                zulu = report.popToTop;
-                zulu = zulu.bind(report)();
+                zuuluu = report.popToTop;
+                zuuluu = zuuluu.bind(report)();
                 _fun00002_ip = 94; continue _fun00001;
  63:
-                zulu = _closure2_slot0;
-                mike = zulu.pop;
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.pop;
                 entity = entity.length;
-                tango = entity - tango;
+                tangon = entity - tangon;
                 entity = 1;
-                entity = tango - entity;
-                entity = mike.bind(zulu)(entity);
+                entity = tangon - entity;
+                entity = michal.bind(zuuluu)(entity);
  94:
                 entity = undefined;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useConnectRetry'] = mike;
+    zuuluu['useConnectRetry'] = michal;
     return entity;
 })();

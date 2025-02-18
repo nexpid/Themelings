@@ -1,54 +1,54 @@
 // app/modules/user_settings/shouldWarnSocialLayerApplication.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ApplicationFlags;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/shouldWarnSocialLayerApplication.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isSocialLayerApplication
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ApplicationFlags;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/shouldWarnSocialLayerApplication.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isSocialLayerApplication
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = zulu.flags;
+            zuuluu = argFoo;
+            michal = zuuluu.flags;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 69; continue _fun00001 }
  17:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 1;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.hasFlag;
-            zulu = zulu.flags;
-            mike = _closure1_slot2;
-            mike = mike.SOCIAL_LAYER_INTEGRATION;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.hasFlag;
+            zuuluu = zuuluu.flags;
+            michal = _closure1_slot2;
+            michal = michal.SOCIAL_LAYER_INTEGRATION;
+            entity = tangon.bind(report)(zuuluu, michal);
  69:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

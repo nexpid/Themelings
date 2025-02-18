@@ -1,42 +1,42 @@
 // app/modules/video_calls/native/ChannelCallLifecycleStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot17;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -45,37 +45,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot17 = mike;
+            _closure1_slot17 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
@@ -83,54 +83,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    options = {};
-    mike = true;
-    options['value'] = mike;
+    option = {};
+    michal = true;
+    option['value'] = michal;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, options);
+    entity = verify.bind(offset)(zuuluu, entity, option);
     entity = 0;
-    options = oscar[entity];
+    option = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(options);
-    var _closure1_slot2 = options;
-    options = 1;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot3 = options;
-    options = 2;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot4 = options;
-    options = 3;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot5 = options;
-    options = 4;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot6 = options;
-    options = 5;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot7 = options;
-    options = 6;
-    options = oscar[options];
-    options = report.bind(entity)(options);
-    verify = options.VoiceCallOverlayType;
+    option = golfie.bind(entity)(option);
+    var _closure1_slot2 = option;
+    option = 1;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 2;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 3;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot5 = option;
+    option = 4;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot6 = option;
+    option = 5;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot7 = option;
+    option = 6;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    verify = option.VoiceCallOverlayType;
     yankee = false;
     var _closure1_slot9 = yankee;
     var _closure1_slot10 = yankee;
     var _closure1_slot11 = yankee;
     var _closure1_slot12 = yankee;
-    options = {};
-    foxtrot = verify.VOICE_CONTROLS_TOGGLE_BUTTON;
+    option = {};
+    foxtra = verify.VOICE_CONTROLS_TOGGLE_BUTTON;
     offset = {};
     offset['x'] = entity;
     offset['y'] = entity;
     offset['width'] = entity;
     offset['height'] = entity;
-    romeo = 7;
-    backup = oscar[romeo];
+    romeon = 7;
+    backup = oscard[romeon];
     backup = report.bind(entity)(backup);
     backup = backup.OrientationType;
     backup = backup.PORTRAIT;
@@ -138,56 +138,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     offset['hasUserInteractedSinceOrientationChange'] = yankee;
     offset['isInitialized'] = yankee;
     offset['isVisible'] = yankee;
-    options[foxtrot] = offset;
+    option[foxtra] = offset;
     offset = verify.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
     verify = {};
     verify['x'] = entity;
     verify['y'] = entity;
     verify['width'] = entity;
     verify['height'] = entity;
-    romeo = oscar[romeo];
-    romeo = report.bind(entity)(romeo);
-    romeo = romeo.OrientationType;
-    romeo = romeo.PORTRAIT;
-    verify['screenOrientation'] = romeo;
+    romeon = oscard[romeon];
+    romeon = report.bind(entity)(romeon);
+    romeon = romeon.OrientationType;
+    romeon = romeon.PORTRAIT;
+    verify['screenOrientation'] = romeon;
     verify['hasUserInteractedSinceOrientationChange'] = yankee;
     verify['isInitialized'] = yankee;
     verify['isVisible'] = yankee;
-    options[offset] = verify;
-    var _closure1_slot13 = options;
-    var _closure1_slot14 = options;
-    var _closure1_slot15 = mike;
-    mike = 9;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    options = mike.Store;
-    mike = function(argFoo) {
-        tango = function() { // Original name: ChannelCallLifecycleStore
+    option[offset] = verify;
+    var _closure1_slot13 = option;
+    var _closure1_slot14 = option;
+    var _closure1_slot15 = michal;
+    michal = 9;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    option = michal.Store;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: ChannelCallLifecycleStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot2;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot16;
+            oscard = _closure1_slot2;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot16;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot6;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot3;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot3;
         report = {};
         entity = 'initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
-            zulu = this;
-            mike = zulu.waitFor;
+            zuuluu = this;
+            michal = zuuluu.waitFor;
             entity = _closure1_slot7;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
@@ -195,274 +195,274 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(8);
         entity[0] = report;
         report = {};
-        golf = 'shouldReactToSeriousThermalStateWhenActivityFocused';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'shouldReactToSeriousThermalStateWhenActivityFocused';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot9;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'consumedRequestToRespondToSeriousThermalState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'consumedRequestToRespondToSeriousThermalState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot10;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'disregardSeriousThermalState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'disregardSeriousThermalState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot11;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'isReactingToThermalState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'isReactingToThermalState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure1_slot10;
                 if(!entity) { _fun00006_ip = 17; continue _fun00005 }
  10:
-                mike = _closure1_slot11;
-                entity = !mike;
+                michal = _closure1_slot11;
+                entity = !michal;
  17:
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'getShowActivitiesDebugOverlay';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getShowActivitiesDebugOverlay';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot12;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'getVoiceCallOverlayLayoutStates';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVoiceCallOverlayLayoutStates';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot14;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'isPipEnabledWhileFocusedOnActivityOrStream';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'isPipEnabledWhileFocusedOnActivityOrStream';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = _closure1_slot15;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[7] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = mike.bind(entity)(options);
-    mike = 'ChannelCallLifecycleStore';
-    options['displayName'] = mike;
-    mike = 10;
-    mike = oscar[mike];
-    output = golf.bind(entity)(mike);
-    mike = {};
+    option = michal.bind(entity)(option);
+    michal = 'ChannelCallLifecycleStore';
+    option['displayName'] = michal;
+    michal = 10;
+    michal = oscard[michal];
+    output = golfie.bind(entity)(michal);
+    michal = {};
     verify = function(argFoo) { // Original name: handleVoiceChannelSelect
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00008_ip = 68; continue _fun00007 }
+            if(!(michal != entity)) { _fun00008_ip = 68; continue _fun00007 }
  9:
-            tango = _closure1_slot7;
-            entity = tango.getVoiceChannelId;
-            entity = entity.bind(tango)();
-            tango = _closure1_slot8;
-            if(!(entity !== tango)) { _fun00008_ip = 60; continue _fun00007 }
+            tangon = _closure1_slot7;
+            entity = tangon.getVoiceChannelId;
+            entity = entity.bind(tangon)();
+            tangon = _closure1_slot8;
+            if(!(entity !== tangon)) { _fun00008_ip = 60; continue _fun00007 }
  34:
-            tango = false;
-            _closure1_slot9 = tango;
-            _closure1_slot10 = tango;
-            _closure1_slot12 = tango;
-            _closure1_slot11 = tango;
-            tango = _closure1_slot13;
-            _closure1_slot14 = tango;
+            tangon = false;
+            _closure1_slot9 = tangon;
+            _closure1_slot10 = tangon;
+            _closure1_slot12 = tangon;
+            _closure1_slot11 = tangon;
+            tangon = _closure1_slot13;
+            _closure1_slot14 = tangon;
  60:
             var _closure1_slot8 = entity;
             entity = undefined;
             return entity;
  68:
-            oscar = "Cannot destructure 'undefined' or 'null'.";
-            golf = mike;
-            entity = throwTypeError(golf, oscar);
+            oscard = "Cannot destructure 'undefined' or 'null'.";
+            golfie = michal;
+            entity = throwTypeError(golfie, oscard);
             entity = undefined;
             throw entity;
         }
     };
-    mike['VOICE_CHANNEL_SELECT'] = verify;
+    michal['VOICE_CHANNEL_SELECT'] = verify;
     verify = function(argFoo) { // Original name: handleRequestRespondToSeriousThermalState
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00010_ip = 22; continue _fun00009 }
+            if(!(michal != entity)) { _fun00010_ip = 22; continue _fun00009 }
  9:
             entity = true;
             _closure1_slot9 = entity;
             entity = undefined;
             return entity;
  22:
-            tango = "Cannot destructure 'undefined' or 'null'.";
-            report = mike;
-            entity = throwTypeError(report, tango);
+            tangon = "Cannot destructure 'undefined' or 'null'.";
+            report = michal;
+            entity = throwTypeError(report, tangon);
             entity = undefined;
             throw entity;
         }
     };
-    mike['EMBEDDED_ACTIVITY_REQUEST_RESPOND_TO_SERIOUS_THERMAL_STATE'] = verify;
+    michal['EMBEDDED_ACTIVITY_REQUEST_RESPOND_TO_SERIOUS_THERMAL_STATE'] = verify;
     verify = function(argFoo) { // Original name: handleConsumeReactToSeriousThermalStateRequest
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00012_ip = 22; continue _fun00011 }
+            if(!(michal != entity)) { _fun00012_ip = 22; continue _fun00011 }
  9:
             entity = true;
             _closure1_slot10 = entity;
             entity = undefined;
             return entity;
  22:
-            tango = "Cannot destructure 'undefined' or 'null'.";
-            report = mike;
-            entity = throwTypeError(report, tango);
+            tangon = "Cannot destructure 'undefined' or 'null'.";
+            report = michal;
+            entity = throwTypeError(report, tangon);
             entity = undefined;
             throw entity;
         }
     };
-    mike['EMBEDDED_ACTIVITY_CONSUME_RESPOND_TO_SERIOUS_THERMAL_STATE_REQUEST'] = verify;
+    michal['EMBEDDED_ACTIVITY_CONSUME_RESPOND_TO_SERIOUS_THERMAL_STATE_REQUEST'] = verify;
     verify = function(argFoo) { // Original name: handleDisregardSeriousThermalState
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00014_ip = 22; continue _fun00013 }
+            if(!(michal != entity)) { _fun00014_ip = 22; continue _fun00013 }
  9:
             entity = true;
             _closure1_slot11 = entity;
             entity = undefined;
             return entity;
  22:
-            tango = "Cannot destructure 'undefined' or 'null'.";
-            report = mike;
-            entity = throwTypeError(report, tango);
+            tangon = "Cannot destructure 'undefined' or 'null'.";
+            report = michal;
+            entity = throwTypeError(report, tangon);
             entity = undefined;
             throw entity;
         }
     };
-    mike['EMBEDDED_ACTIVITY_DISREGARD_SERIOUS_THERMAL_STATE'] = verify;
+    michal['EMBEDDED_ACTIVITY_DISREGARD_SERIOUS_THERMAL_STATE'] = verify;
     verify = function(argFoo) { // Original name: handleSetDebugOverlayVisibility
         entity = argFoo;
-        mike = entity.visible;
-        _closure1_slot12 = mike;
+        michal = entity.visible;
+        _closure1_slot12 = michal;
         entity = undefined;
         return entity;
     };
-    mike['EMBEDDED_ACTIVITY_SET_DEBUG_OVERLAY_VISIBILITY'] = verify;
+    michal['EMBEDDED_ACTIVITY_SET_DEBUG_OVERLAY_VISIBILITY'] = verify;
     verify = function(argFoo) { // Original name: handleVoiceCallOverlayLayoutStateUpdate
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            tango = entity.voiceCallOverlayType;
+            tangon = entity.voiceCallOverlayType;
             entity = entity.voiceCallOverlayLayoutState;
             report = _closure1_slot14;
-            mike = {};
-            options = mike;
-            golf = report;
-            oscar = copyDataProperties(options, golf);
-            mike[tango] = entity;
-            oscar = _closure1_slot0;
-            tango = _closure1_slot1;
+            michal = {};
+            option = michal;
+            golfie = report;
+            oscard = copyDataProperties(option, golfie);
+            michal[tangon] = entity;
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 8;
-            tango = tango[entity];
+            tangon = tangon[entity];
             entity = undefined;
-            tango = oscar.bind(entity)(tango);
-            tango = tango.bind(entity)(mike, report);
-            if(tango) { _fun00016_ip = 74; continue _fun00015 }
+            tangon = oscard.bind(entity)(tangon);
+            tangon = tangon.bind(entity)(michal, report);
+            if(tangon) { _fun00016_ip = 74; continue _fun00015 }
  70:
-            _closure1_slot14 = mike;
+            _closure1_slot14 = michal;
  74:
             return entity;
         }
     };
-    mike['VOICE_CALL_OVERLAY_LAYOUT_STATE_UPDATE'] = verify;
+    michal['VOICE_CALL_OVERLAY_LAYOUT_STATE_UPDATE'] = verify;
     verify = function(argFoo) { // Original name: handleSetPipEnabledForActivityOrStream
         entity = argFoo;
-        mike = entity.pipEnabledWhileFocusedOnActivityOrStream;
-        _closure1_slot15 = mike;
+        michal = entity.pipEnabledWhileFocusedOnActivityOrStream;
+        _closure1_slot15 = michal;
         entity = undefined;
         return entity;
     };
-    mike['VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM'] = verify;
+    michal['VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM'] = verify;
     verify = function(argFoo) { // Original name: handleEmbeddedActivityOpen
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00018_ip = 22; continue _fun00017 }
+            if(!(michal != entity)) { _fun00018_ip = 22; continue _fun00017 }
  9:
             entity = true;
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
  22:
-            tango = "Cannot destructure 'undefined' or 'null'.";
-            report = mike;
-            entity = throwTypeError(report, tango);
+            tangon = "Cannot destructure 'undefined' or 'null'.";
+            report = michal;
+            entity = throwTypeError(report, tangon);
             entity = undefined;
             throw entity;
         }
     };
-    mike['EMBEDDED_ACTIVITY_OPEN'] = verify;
-    tango = function(argFoo) { // Original name: handleStreamWatch
+    michal['EMBEDDED_ACTIVITY_OPEN'] = verify;
+    tangon = function(argFoo) { // Original name: handleStreamWatch
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun00020_ip = 22; continue _fun00019 }
+            if(!(michal != entity)) { _fun00020_ip = 22; continue _fun00019 }
  9:
             entity = true;
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
  22:
-            tango = "Cannot destructure 'undefined' or 'null'.";
-            report = mike;
-            entity = throwTypeError(report, tango);
+            tangon = "Cannot destructure 'undefined' or 'null'.";
+            report = michal;
+            entity = throwTypeError(report, tangon);
             entity = undefined;
             throw entity;
         }
     };
-    mike['STREAM_WATCH'] = tango;
-    tango = options.prototype;
-    tango = Object.create(tango, {constructor: {value: options}});
-    result = tango;
-    sizing = mike;
-    mike = new result[options](output, sizing, kilo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/native/ChannelCallLifecycleStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['STREAM_WATCH'] = tangon;
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
+    result = tangon;
+    sizing = michal;
+    michal = new result[option](output, sizing, kiloes);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/native/ChannelCallLifecycleStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

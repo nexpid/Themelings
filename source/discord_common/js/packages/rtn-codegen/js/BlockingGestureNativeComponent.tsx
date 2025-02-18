@@ -1,39 +1,39 @@
 // discord_common/js/packages/rtn-codegen/js/BlockingGestureNativeComponent.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
-    mike = {};
+    entity = report.bind(option)(zuuluu, entity, michal);
+    michal = {};
     verify = 'BlockingGestureView';
-    mike['uiViewClassName'] = verify;
+    michal['uiViewClassName'] = verify;
     entity = {};
-    mike['validAttributes'] = entity;
-    var _closure1_slot0 = mike;
+    michal['validAttributes'] = entity;
+    var _closure1_slot0 = michal;
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(report);
-    report = options.get;
-    tango = function() {
+    option = oscard.bind(entity)(report);
+    report = option.get;
+    tangon = function() {
         entity = _closure1_slot0;
         return entity;
     };
-    tango = report.bind(options)(verify, tango);
+    tangon = report.bind(option)(verify, tangon);
     report = 1;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = '../discord_common/js/packages/rtn-codegen/js/BlockingGestureNativeComponent.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['__INTERNAL_VIEW_CONFIG'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['__INTERNAL_VIEW_CONFIG'] = michal;
     return entity;
 })();

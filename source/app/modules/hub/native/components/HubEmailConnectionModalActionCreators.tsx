@@ -1,107 +1,107 @@
 // app/modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = {};
-    golf = function(argFoo, argBar) { // Original name: open
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = {};
+    golfie = function(argFoo, argBar) { // Original name: open
         entity = argBar;
         var _closure2_slot0 = entity;
         report = _closure1_slot1;
-        tango = _closure1_slot2;
+        tangon = _closure1_slot2;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        oscar = report.bind(entity)(tango);
-        report = oscar.pushLazy;
-        zulu = _closure1_slot3;
-        mike = function* () {
+        oscard = report.bind(entity)(tangon);
+        report = oscard.pushLazy;
+        zuuluu = _closure1_slot3;
+        michal = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 101; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 101; continue _fun00001 }
  7:
-                    tango = _closure1_slot0;
-                    mike = _closure1_slot2;
-                    zulu = 3;
-                    zulu = mike[zulu];
+                    tangon = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    zuuluu = 3;
+                    zuuluu = michal[zuuluu];
                     report = undefined;
-                    tango = tango.bind(report)(zulu);
-                    zulu = 2;
-                    zulu = mike[zulu];
-                    mike = mike.paths;
-                    mike = tango.bind(report)(zulu, mike);
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = 2;
+                    zuuluu = michal[zuuluu];
+                    michal = michal.paths;
+                    michal = tangon.bind(report)(zuuluu, michal);
                     SaveGenerator(address=54);
  52:
-                    return mike;
+                    return michal;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 98; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
  60:
-                    zulu = mike.default;
-                    oscar = _closure2_slot0;
-                    tango = null;
-                    if(!(tango != oscar)) { _fun00002_ip = 95; continue _fun00001 }
+                    zuuluu = michal.default;
+                    oscard = _closure2_slot0;
+                    tangon = null;
+                    if(!(tangon != oscard)) { _fun00002_ip = 95; continue _fun00001 }
  78:
-                    tango = {};
+                    tangon = {};
                     report = _closure2_slot0;
-                    tango['animation'] = report;
-                    zulu['modalConfig'] = tango;
+                    tangon['animation'] = report;
+                    zuuluu['modalConfig'] = tangon;
  95:
-                    return zulu;
+                    return zuuluu;
  98:
-                    return mike;
+                    return michal;
  101:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = zulu.bind(entity)(mike);
-        zulu = argFoo;
-        mike = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
-        mike = report.bind(oscar)(tango, zulu, mike);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = argFoo;
+        michal = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
+        michal = report.bind(oscard)(tangon, zuuluu, michal);
         return entity;
     };
-    mike['open'] = golf;
-    tango = function() { // Original name: close
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal['open'] = golfie;
+    tangon = function() { // Original name: close
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.popWithKey;
-        mike = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
-        mike = zulu.bind(tango)(mike);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.popWithKey;
+        michal = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['close'] = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['close'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

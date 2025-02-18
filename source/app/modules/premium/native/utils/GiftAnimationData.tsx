@@ -1,462 +1,462 @@
 // app/modules/premium/native/utils/GiftAnimationData.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
-    options = 0;
-    tango = golf[options];
+    entity = report.bind(option)(zuuluu, entity, tangon);
+    option = 0;
+    tangon = golfie[option];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.PremiumGiftStyles;
-    var _closure1_slot2 = tango;
-    tango = {};
-    tango['JSON'] = options;
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.PremiumGiftStyles;
+    var _closure1_slot2 = tangon;
+    tangon = {};
+    tangon['JSON'] = option;
     report = 'JSON';
-    tango[options] = report;
-    options = 1;
-    tango['LOTTIE'] = options;
+    tangon[option] = report;
+    option = 1;
+    tangon['LOTTIE'] = option;
     report = 'LOTTIE';
-    tango[options] = report;
-    var _closure1_slot3 = tango;
+    tangon[option] = report;
+    var _closure1_slot3 = tangon;
     report = 28;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/native/utils/GiftAnimationData.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['LottieType'] = tango;
-    tango = function(argFoo) { // Original name: getLottieType
+    report = oscard.bind(golfie)(report);
+    zuuluu['LottieType'] = tangon;
+    tangon = function(argFoo) { // Original name: getLottieType
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot2;
-            zulu = entity.NITROWEEN_STANDARD;
+            zuuluu = entity.NITROWEEN_STANDARD;
             entity = argFoo;
-            if(!(entity !== zulu)) { _fun00002_ip = 32; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 32; continue _fun00001 }
  20:
             entity = _closure1_slot3;
             entity = entity.JSON;
             _fun00002_ip = 42; continue _fun00001;
  32:
-            mike = _closure1_slot3;
-            entity = mike.LOTTIE;
+            michal = _closure1_slot3;
+            entity = michal.LOTTIE;
  42:
             return entity;
         }
     };
-    zulu['getLottieType'] = tango;
-    mike = function(argFoo, argBar) { // Original name: getGiftAnimationData
+    zuuluu['getLottieType'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getGiftAnimationData
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            tango = argBar;
-            mike = _closure1_slot2;
-            mike = mike.NITROWEEN_STANDARD;
-            if(!(mike !== zulu)) { _fun00004_ip = 1309; continue _fun00003 }
+            zuuluu = argFoo;
+            tangon = argBar;
+            michal = _closure1_slot2;
+            michal = michal.NITROWEEN_STANDARD;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 1309; continue _fun00003 }
  26:
-            mike = _closure1_slot2;
-            mike = mike.STANDARD_BOX;
-            if(!(mike !== zulu)) { _fun00004_ip = 1172; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.STANDARD_BOX;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 1172; continue _fun00003 }
  43:
-            mike = _closure1_slot2;
-            mike = mike.CAKE;
-            if(!(mike !== zulu)) { _fun00004_ip = 1035; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.CAKE;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 1035; continue _fun00003 }
  60:
-            mike = _closure1_slot2;
-            mike = mike.CHEST;
-            if(!(mike !== zulu)) { _fun00004_ip = 898; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.CHEST;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 898; continue _fun00003 }
  77:
-            mike = _closure1_slot2;
-            mike = mike.COFFEE;
-            if(!(mike !== zulu)) { _fun00004_ip = 761; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.COFFEE;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 761; continue _fun00003 }
  94:
-            mike = _closure1_slot2;
-            mike = mike.SEASONAL_STANDARD_BOX;
-            if(!(mike !== zulu)) { _fun00004_ip = 624; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.SEASONAL_STANDARD_BOX;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 624; continue _fun00003 }
  111:
-            mike = _closure1_slot2;
-            mike = mike.SEASONAL_CAKE;
-            if(!(mike !== zulu)) { _fun00004_ip = 487; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.SEASONAL_CAKE;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 487; continue _fun00003 }
  128:
-            mike = _closure1_slot2;
-            mike = mike.SEASONAL_CHEST;
-            if(!(mike !== zulu)) { _fun00004_ip = 350; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.SEASONAL_CHEST;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 350; continue _fun00003 }
  145:
-            mike = _closure1_slot2;
-            mike = mike.SEASONAL_COFFEE;
-            if(!(mike !== zulu)) { _fun00004_ip = 213; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.SEASONAL_COFFEE;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 213; continue _fun00003 }
  159:
-            mike = _closure1_slot2;
-            mike = mike.SNOWGLOBE;
-            if(!(mike !== zulu)) { _fun00004_ip = 197; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.SNOWGLOBE;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 197; continue _fun00003 }
  173:
-            mike = _closure1_slot2;
-            mike = mike.BOX;
-            if(!(mike !== zulu)) { _fun00004_ip = 197; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal.BOX;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 197; continue _fun00003 }
  187:
-            mike = _closure1_slot2;
-            mike = mike.CUP;
+            michal = _closure1_slot2;
+            michal = michal.CUP;
  197:
-            mike = global;
-            zulu = mike.Error;
-            mike = undefined;
-            mike = zulu.bind(mike)();
-            throw mike;
+            michal = global;
+            zuuluu = michal.Error;
+            michal = undefined;
+            michal = zuuluu.bind(michal)();
+            throw michal;
  213:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 328; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 328; continue _fun00003 }
  251:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 306; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 306; continue _fun00003 }
  284:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 27;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 27;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  306:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 26;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 26;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  328:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 25;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 25;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  350:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 465; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 465; continue _fun00003 }
  388:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 443; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 443; continue _fun00003 }
  421:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 24;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 24;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  443:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 23;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 23;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  465:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 22;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 22;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  487:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 602; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 602; continue _fun00003 }
  525:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 580; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 580; continue _fun00003 }
  558:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 21;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 21;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  580:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 20;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 20;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  602:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 19;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 19;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  624:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 739; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 739; continue _fun00003 }
  662:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 717; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 717; continue _fun00003 }
  695:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 18;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 18;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  717:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 17;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 17;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  739:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 16;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 16;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  761:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 876; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 876; continue _fun00003 }
  799:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 854; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 854; continue _fun00003 }
  832:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 15;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 15;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  854:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 14;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 14;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  876:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 13;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 13;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  898:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 1013; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 1013; continue _fun00003 }
  936:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 991; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 991; continue _fun00003 }
  969:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 12;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 12;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  991:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 11;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 11;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1013:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 10;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 10;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1035:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 1150; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 1150; continue _fun00003 }
  1073:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 1128; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 1128; continue _fun00003 }
  1106:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 9;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 9;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1128:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 8;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 8;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1150:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 7;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 7;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1172:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
             report = undefined;
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 1287; continue _fun00003 }
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 1287; continue _fun00003 }
  1210:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 1265; continue _fun00003 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 1265; continue _fun00003 }
  1243:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 6;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 6;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1265:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 5;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 5;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1287:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 4;
-            mike = oscar[mike];
-            mike = zulu.bind(report)(mike);
-            return mike;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 4;
+            michal = oscard[michal];
+            michal = zuuluu.bind(report)(michal);
+            return michal;
  1309:
             report = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            mike = mike[oscar];
-            zulu = undefined;
-            mike = report.bind(zulu)(mike);
-            mike = mike.AnimationState;
-            mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun00004_ip = 1402; continue _fun00003 }
+            michal = _closure1_slot1;
+            oscard = 1;
+            michal = michal[oscard];
+            zuuluu = undefined;
+            michal = report.bind(zuuluu)(michal);
+            michal = michal.AnimationState;
+            michal = michal.IDLE;
+            if(!(michal !== tangon)) { _fun00004_ip = 1402; continue _fun00003 }
  1347:
             report = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = report.bind(zulu)(mike);
-            mike = mike.AnimationState;
-            mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun00004_ip = 1402; continue _fun00003 }
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = report.bind(zuuluu)(michal);
+            michal = michal.AnimationState;
+            michal = michal.LOOP;
+            if(!(michal !== tangon)) { _fun00004_ip = 1402; continue _fun00003 }
  1380:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 3;
-            mike = report[mike];
-            mike = tango.bind(zulu)(mike);
-            return mike;
+            michal = 3;
+            michal = report[michal];
+            michal = tangon.bind(zuuluu)(michal);
+            return michal;
  1402:
-            mike = _closure1_slot0;
-            tango = _closure1_slot1;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 2;
-            entity = tango[entity];
-            entity = mike.bind(zulu)(entity);
+            entity = tangon[entity];
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['getGiftAnimationData'] = mike;
+    zuuluu['getGiftAnimationData'] = michal;
     return entity;
 })();

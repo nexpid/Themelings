@@ -1,57 +1,57 @@
 // app/modules/themes/getSystemTheme.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Appearance;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ThemeTypes;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/themes/getSystemTheme.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: getSystemTheme
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Appearance;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ThemeTypes;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/themes/getSystemTheme.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: getSystemTheme
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            mike = zulu.getColorScheme;
-            zulu = mike.bind(zulu)();
-            mike = 'light';
-            if(!(mike !== zulu)) { _fun00002_ip = 49; continue _fun00001 }
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.getColorScheme;
+            zuuluu = michal.bind(zuuluu)();
+            michal = 'light';
+            if(!(michal !== zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
  25:
-            mike = 'dark';
-            if(!(mike !== zulu)) { _fun00002_ip = 37; continue _fun00001 }
+            michal = 'dark';
+            if(!(michal !== zuuluu)) { _fun00002_ip = 37; continue _fun00001 }
  33:
-            mike = null;
-            return mike;
+            michal = null;
+            return michal;
  37:
-            mike = _closure1_slot1;
-            mike = mike.DARK;
-            return mike;
+            michal = _closure1_slot1;
+            michal = michal.DARK;
+            return michal;
  49:
             entity = _closure1_slot1;
             entity = entity.LIGHT;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

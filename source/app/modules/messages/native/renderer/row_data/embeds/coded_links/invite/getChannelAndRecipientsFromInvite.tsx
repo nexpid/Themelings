@@ -1,69 +1,69 @@
 // app/modules/messages/native/renderer/row_data/embeds/coded_links/invite/getChannelAndRecipientsFromInvite.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.createChannelRecordFromInvite;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/getChannelAndRecipientsFromInvite.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getChannelAndRecipientsFromInvite
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.createChannelRecordFromInvite;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/getChannelAndRecipientsFromInvite.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getChannelAndRecipientsFromInvite
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            entity = zulu.channel;
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 29; continue _fun00001 }
+            zuuluu = argFoo;
+            entity = zuuluu.channel;
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 29; continue _fun00001 }
  14:
-            entity = zulu.channel;
+            entity = zuuluu.channel;
             entity = entity.recipients;
-            if(!(mike == entity)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(michal == entity)) { _fun00002_ip = 35; continue _fun00001 }
  29:
-            oscar = new Array(0);
+            oscard = new Array(0);
             _fun00002_ip = 55; continue _fun00001;
  35:
-            entity = zulu.channel;
-            tango = entity.recipients;
-            entity = tango.slice;
-            oscar = entity.bind(tango)();
+            entity = zuuluu.channel;
+            tangon = entity.recipients;
+            entity = tangon.slice;
+            oscard = entity.bind(tangon)();
  55:
             entity = {};
-            entity['recipients_'] = oscar;
-            tango = zulu.channel;
-            tango = mike != tango;
-            mike = null;
-            if(!tango) { _fun00002_ip = 113; continue _fun00001 }
+            entity['recipients_'] = oscard;
+            tangon = zuuluu.channel;
+            tangon = michal != tangon;
+            michal = null;
+            if(!tangon) { _fun00002_ip = 113; continue _fun00001 }
  76:
             report = _closure1_slot0;
-            tango = {};
-            golf = zulu.channel;
-            options = tango;
-            zulu = copyDataProperties(options, golf);
-            zulu = 'recipients';
-            tango[zulu] = oscar;
-            zulu = undefined;
-            mike = report.bind(zulu)(tango);
+            tangon = {};
+            golfie = zuuluu.channel;
+            option = tangon;
+            zuuluu = copyDataProperties(option, golfie);
+            zuuluu = 'recipients';
+            tangon[zuuluu] = oscard;
+            zuuluu = undefined;
+            michal = report.bind(zuuluu)(tangon);
  113:
-            entity['channel'] = mike;
+            entity['channel'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

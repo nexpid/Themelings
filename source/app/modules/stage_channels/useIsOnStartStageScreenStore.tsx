@@ -1,35 +1,35 @@
 // app/modules/stage_channels/useIsOnStartStageScreenStore.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    golf = argBar;
-    oscar = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
-    var _closure1_slot2 = options;
-    tango = function(argFoo) { // Original name: setIsOnStartStageScreen
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    golfie = argBar;
+    oscard = argBaz;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
+    var _closure1_slot2 = option;
+    tangon = function(argFoo) { // Original name: setIsOnStartStageScreen
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 4;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot6;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['isOnStartStageScreen'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['isOnStartStageScreen'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -37,135 +37,135 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    verify = options[entity];
-    report = argCorge;
+    verify = option[entity];
+    report = argCor;
     entity = undefined;
     report = report.bind(entity)(verify);
     var _closure1_slot3 = report;
     report = 1;
-    report = options[report];
-    report = oscar.bind(entity)(report);
+    report = option[report];
+    report = oscard.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 2;
-    report = options[report];
-    report = oscar.bind(entity)(report);
+    report = option[report];
+    report = oscard.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 3;
-    report = options[report];
-    verify = golf.bind(entity)(report);
-    oscar = verify.create;
+    report = option[report];
+    verify = golfie.bind(entity)(report);
+    oscard = verify.create;
     report = function() {
         entity = {};
-        mike = true;
-        entity['isOnStartStageScreen'] = mike;
+        michal = true;
+        entity['isOnStartStageScreen'] = michal;
         return entity;
     };
-    report = oscar.bind(verify)(report);
+    report = oscard.bind(verify)(report);
     var _closure1_slot6 = report;
-    oscar = 8;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/stage_channels/useIsOnStartStageScreenStore.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['default'] = report;
-    zulu['setIsOnStartStageScreen'] = tango;
-    mike = function(argFoo) { // Original name: useUpdateIsOnStartStageScreenEffect
+    oscard = 8;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/stage_channels/useIsOnStartStageScreenStore.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = report;
+    zuuluu['setIsOnStartStageScreen'] = tangon;
+    michal = function(argFoo) { // Original name: useUpdateIsOnStartStageScreenEffect
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            var _closure2_slot0 = tango;
-            oscar = _closure1_slot0;
+            tangon = argFoo;
+            var _closure2_slot0 = tangon;
+            oscard = _closure1_slot0;
             verify = _closure1_slot2;
             report = 5;
-            golf = verify[report];
+            golfie = verify[report];
             entity = undefined;
-            yankee = oscar.bind(entity)(golf);
+            yankee = oscard.bind(entity)(golfie);
             offset = yankee.useStateFromStores;
-            golf = _closure1_slot5;
-            options = new Array(1);
-            options[0] = golf;
-            golf = function() {
-                mike = _closure1_slot5;
-                entity = mike.getVoiceChannelId;
-                mike = entity.bind(mike)();
+            golfie = _closure1_slot5;
+            option = new Array(1);
+            option[0] = golfie;
+            golfie = function() {
+                michal = _closure1_slot5;
+                entity = michal.getVoiceChannelId;
+                michal = entity.bind(michal)();
                 entity = _closure2_slot0;
                 entity = entity.id;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            golf = offset.bind(yankee)(options, golf);
-            var _closure2_slot1 = golf;
+            golfie = offset.bind(yankee)(option, golfie);
+            var _closure2_slot1 = golfie;
             report = verify[report];
-            yankee = oscar.bind(entity)(report);
+            yankee = oscard.bind(entity)(report);
             offset = yankee.useStateFromStores;
             report = _closure1_slot4;
-            options = new Array(1);
-            options[0] = report;
-            oscar = new Array(1);
-            oscar[0] = tango;
+            option = new Array(1);
+            option[0] = report;
+            oscard = new Array(1);
+            oscard[0] = tangon;
             report = function() {
-                tango = _closure1_slot4;
-                zulu = tango.can;
+                tangon = _closure1_slot4;
+                zuuluu = tangon.can;
                 report = _closure1_slot0;
-                mike = _closure1_slot2;
+                michal = _closure1_slot2;
                 entity = 6;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                entity = report.bind(entity)(mike);
-                mike = entity.MODERATE_STAGE_CHANNEL_PERMISSIONS;
+                entity = report.bind(entity)(michal);
+                michal = entity.MODERATE_STAGE_CHANNEL_PERMISSIONS;
                 entity = _closure2_slot0;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            report = offset.bind(yankee)(options, report, oscar);
-            options = _closure1_slot1;
-            oscar = 7;
-            oscar = verify[oscar];
-            oscar = options.bind(entity)(oscar);
-            tango = tango.id;
-            tango = oscar.bind(entity)(tango);
-            oscar = report;
-            if(!oscar) { _fun00002_ip = 147; continue _fun00001 }
+            report = offset.bind(yankee)(option, report, oscard);
+            option = _closure1_slot1;
+            oscard = 7;
+            oscard = verify[oscard];
+            oscard = option.bind(entity)(oscard);
+            tangon = tangon.id;
+            tangon = oscard.bind(entity)(tangon);
+            oscard = report;
+            if(!oscard) { _fun00002_ip = 147; continue _fun00001 }
  144:
-            oscar = !tango;
+            oscard = !tangon;
  147:
-            var _closure2_slot2 = oscar;
+            var _closure2_slot2 = oscard;
             report = _closure1_slot3;
-            tango = report.useEffect;
-            zulu = new Array(2);
-            zulu[0] = golf;
-            zulu[1] = oscar;
-            mike = function() {
+            tangon = report.useEffect;
+            zuuluu = new Array(2);
+            zuuluu[0] = golfie;
+            zuuluu[1] = oscard;
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure2_slot1;
-                    if(mike) { _fun00004_ip = 30; continue _fun00003 }
+                    michal = _closure2_slot1;
+                    if(michal) { _fun00004_ip = 30; continue _fun00003 }
  10:
-                    tango = _closure1_slot7;
-                    zulu = _closure2_slot2;
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
+                    tangon = _closure1_slot7;
+                    zuuluu = _closure2_slot2;
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
                     _fun00004_ip = 53; continue _fun00003;
  30:
                     entity = _closure2_slot2;
                     if(entity) { _fun00004_ip = 53; continue _fun00003 }
  37:
-                    zulu = _closure1_slot7;
-                    mike = undefined;
+                    zuuluu = _closure1_slot7;
+                    michal = undefined;
                     entity = false;
-                    entity = zulu.bind(mike)(entity);
+                    entity = zuuluu.bind(michal)(entity);
  53:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike, zulu);
+            michal = tangon.bind(report)(michal, zuuluu);
             return entity;
         }
     };
-    zulu['useUpdateIsOnStartStageScreenEffect'] = mike;
+    zuuluu['useUpdateIsOnStartStageScreenEffect'] = michal;
     return entity;
 })();

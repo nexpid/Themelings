@@ -1,125 +1,125 @@
 // app/polyfillsNative.tsx
-export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, ____, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        options = argFoo;
-        zulu = argBar;
-        tango = argPlugh;
+        option = argFoo;
+        zuuluu = argBar;
+        tangon = argPlu;
         entity = 0;
-        report = tango[entity];
+        report = tangon[entity];
         entity = undefined;
-        report = zulu.bind(entity)(report);
+        report = zuuluu.bind(entity)(report);
         report = 1;
-        report = tango[report];
-        report = zulu.bind(entity)(report);
+        report = tangon[report];
+        report = zuuluu.bind(entity)(report);
         report = 2;
-        report = tango[report];
-        report = zulu.bind(entity)(report);
+        report = tangon[report];
+        report = zuuluu.bind(entity)(report);
         report = 3;
-        report = tango[report];
-        report = zulu.bind(entity)(report);
+        report = tangon[report];
+        report = zuuluu.bind(entity)(report);
         report = global;
-        oscar = report.process;
-        golf = 'undefined';
-        oscar = typeof oscar;
-        if(!(golf === oscar)) { _fun00002_ip = 93; continue _fun00001 }
+        oscard = report.process;
+        golfie = 'undefined';
+        oscard = typeof oscard;
+        if(!(golfie === oscard)) { _fun00002_ip = 93; continue _fun00001 }
  79:
-        golf = report.window;
-        oscar = {};
-        golf['process'] = oscar;
+        golfie = report.window;
+        oscard = {};
+        golfie['process'] = oscard;
  93:
-        oscar = report.window;
-        golf = oscar.process;
-        oscar = report.setImmediate;
-        golf['nextTick'] = oscar;
-        golf = options.location;
-        oscar = null;
-        if(!(oscar == golf)) { _fun00002_ip = 186; continue _fun00001 }
+        oscard = report.window;
+        golfie = oscard.process;
+        oscard = report.setImmediate;
+        golfie['nextTick'] = oscard;
+        golfie = option.location;
+        oscard = null;
+        if(!(oscard == golfie)) { _fun00002_ip = 186; continue _fun00001 }
  128:
-        golf = {};
+        golfie = {};
         verify = 'https:';
-        golf['protocol'] = verify;
+        golfie['protocol'] = verify;
         verify = report.process;
         verify = verify.env;
         offset = verify.LOCATION_HOST;
-        yankee = oscar != offset;
+        yankee = oscard != offset;
         verify = 'discord.com';
         if(!yankee) { _fun00002_ip = 175; continue _fun00001 }
  172:
         verify = offset;
  175:
-        golf['host'] = verify;
-        options['location'] = golf;
+        golfie['host'] = verify;
+        option['location'] = golfie;
  186:
-        golf = options.self;
-        if(golf) { _fun00002_ip = 201; continue _fun00001 }
+        golfie = option.self;
+        if(golfie) { _fun00002_ip = 201; continue _fun00001 }
  195:
-        options['self'] = options;
+        option['self'] = option;
  201:
-        golf = report.window;
-        golf = golf.crypto;
-        if(!(oscar == golf)) { _fun00002_ip = 247; continue _fun00001 }
+        golfie = report.window;
+        golfie = golfie.crypto;
+        if(!(oscard == golfie)) { _fun00002_ip = 247; continue _fun00001 }
  217:
-        golf = 4;
-        golf = tango[golf];
-        golf = zulu.bind(entity)(golf);
+        golfie = 4;
+        golfie = tangon[golfie];
+        golfie = zuuluu.bind(entity)(golfie);
         verify = report.window;
-        golf = options.crypto;
-        verify['crypto'] = golf;
+        golfie = option.crypto;
+        verify['crypto'] = golfie;
  247:
-        golf = options.Buffer;
-        if(!(oscar == golf)) { _fun00002_ip = 281; continue _fun00001 }
+        golfie = option.Buffer;
+        if(!(oscard == golfie)) { _fun00002_ip = 281; continue _fun00001 }
  257:
-        golf = 5;
-        golf = tango[golf];
-        golf = zulu.bind(entity)(golf);
-        golf = golf.Buffer;
-        options['Buffer'] = golf;
+        golfie = 5;
+        golfie = tangon[golfie];
+        golfie = zuuluu.bind(entity)(golfie);
+        golfie = golfie.Buffer;
+        option['Buffer'] = golfie;
  281:
-        golf = options.__reanimatedWorkletInit;
-        if(!(oscar == golf)) { _fun00002_ip = 304; continue _fun00001 }
+        golfie = option.__reanimatedWorkletInit;
+        if(!(oscard == golfie)) { _fun00002_ip = 304; continue _fun00001 }
  291:
-        golf = function() {
+        golfie = function() {
             entity = undefined;
             return entity;
         };
-        options['__reanimatedWorkletInit'] = golf;
+        option['__reanimatedWorkletInit'] = golfie;
  304:
-        golf = report.Set;
-        golf = golf.prototype;
-        options = report.Map;
-        options = options.prototype;
-        mike = function() {
+        golfie = report.Set;
+        golfie = golfie.prototype;
+        option = report.Map;
+        option = option.prototype;
+        michal = function() {
             entity = global;
-            zulu = entity.Array;
-            mike = zulu.from;
+            zuuluu = entity.Array;
+            michal = zuuluu.from;
             entity = this;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        options['toJSON'] = mike;
-        golf['toJSON'] = mike;
-        mike = report.window;
-        mike = mike.TextEncoder;
-        mike = oscar != mike;
-        if(!mike) { _fun00002_ip = 380; continue _fun00001 }
+        option['toJSON'] = michal;
+        golfie['toJSON'] = michal;
+        michal = report.window;
+        michal = michal.TextEncoder;
+        michal = oscard != michal;
+        if(!michal) { _fun00002_ip = 380; continue _fun00001 }
  364:
         report = report.window;
         report = report.TextDecoder;
-        mike = oscar != report;
+        michal = oscard != report;
  380:
-        if(mike) { _fun00002_ip = 395; continue _fun00001 }
+        if(michal) { _fun00002_ip = 395; continue _fun00001 }
  383:
-        mike = 6;
-        mike = tango[mike];
-        mike = zulu.bind(entity)(mike);
+        michal = 6;
+        michal = tangon[michal];
+        michal = zuuluu.bind(entity)(michal);
  395:
-        mike = 7;
-        mike = tango[mike];
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.fileFinishedImporting;
-        mike = 'polyfillsNative.tsx';
-        mike = zulu.bind(tango)(mike);
+        michal = 7;
+        michal = tangon[michal];
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.fileFinishedImporting;
+        michal = 'polyfillsNative.tsx';
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     }
 })();

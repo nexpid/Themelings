@@ -1,70 +1,70 @@
 // app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PremiumTypes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShouldShowGiftingPromotionDeco
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PremiumTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShouldShowGiftingPromotionDeco
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            entity = mike.useNativeGiftContext;
-            entity = entity.bind(mike)();
-            zulu = entity.claimableRewards;
-            oscar = entity.premiumType;
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.useNativeGiftContext;
+            entity = entity.bind(michal)();
+            zuuluu = entity.claimableRewards;
+            oscard = entity.premiumType;
             entity = null;
             if(!(entity == report)) { _fun00002_ip = 72; continue _fun00001 }
  56:
-            mike = _closure1_slot2;
-            mike = mike.TIER_2;
-            mike = oscar === mike;
+            michal = _closure1_slot2;
+            michal = michal.TIER_2;
+            michal = oscard === michal;
             _fun00002_ip = 86; continue _fun00001;
  72:
-            tango = _closure1_slot2;
-            tango = tango.TIER_2;
-            mike = report === tango;
+            tangon = _closure1_slot2;
+            tangon = tangon.TIER_2;
+            michal = report === tangon;
  86:
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 104; continue _fun00001 }
  93:
-            tango = zulu.length;
-            zulu = 0;
-            entity = tango > zulu;
+            tangon = zuuluu.length;
+            zuuluu = 0;
+            entity = tangon > zuuluu;
  104:
             if(!entity) { _fun00002_ip = 110; continue _fun00001 }
  107:
-            entity = mike;
+            entity = michal;
  110:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,51 +1,51 @@
 // app/modules/activities/utils/getStreamURL.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.validStreamURL;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/getStreamURL.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getStreamURL
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.validStreamURL;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/getStreamURL.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getStreamURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = null;
-            if(!(zulu != entity)) { _fun00002_ip = 43; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 43; continue _fun00001 }
  9:
-            mike = entity.url;
-            if(!(zulu != mike)) { _fun00002_ip = 43; continue _fun00001 }
+            michal = entity.url;
+            if(!(zuuluu != michal)) { _fun00002_ip = 43; continue _fun00001 }
  18:
-            tango = _closure1_slot0;
-            zulu = tango.test;
-            mike = entity.url;
-            mike = zulu.bind(tango)(mike);
-            if(mike) { _fun00002_ip = 47; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = tangon.test;
+            michal = entity.url;
+            michal = zuuluu.bind(tangon)(michal);
+            if(michal) { _fun00002_ip = 47; continue _fun00001 }
  43:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  47:
             entity = entity.url;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

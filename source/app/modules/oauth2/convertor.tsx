@@ -1,68 +1,68 @@
 // app/modules/oauth2/convertor.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
-    entity = argCorge;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
+    entity = argCor;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/oauth2/convertor.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: convertOAuth2Authorization
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/oauth2/convertor.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: convertOAuth2Authorization
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = zulu.guilds;
-            mike = null;
-            entity = zulu;
-            if(!(mike != tango)) { _fun00002_ip = 65; continue _fun00001 }
+            zuuluu = argFoo;
+            tangon = zuuluu.guilds;
+            michal = null;
+            entity = zuuluu;
+            if(!(michal != tangon)) { _fun00002_ip = 65; continue _fun00001 }
  18:
-            mike = {};
-            golf = mike;
-            oscar = zulu;
-            tango = copyDataProperties(golf, oscar);
-            report = zulu.guilds;
-            tango = report.map;
-            zulu = function(argFoo) {
-                mike = argFoo;
+            michal = {};
+            golfie = michal;
+            oscard = zuuluu;
+            tangon = copyDataProperties(golfie, oscard);
+            report = zuuluu.guilds;
+            tangon = report.map;
+            zuuluu = function(argFoo) {
+                michal = argFoo;
                 entity = {};
-                golf = entity;
-                oscar = mike;
-                zulu = copyDataProperties(golf, oscar);
+                golfie = entity;
+                oscard = michal;
+                zuuluu = copyDataProperties(golfie, oscard);
                 report = _closure1_slot0;
-                tango = _closure1_slot1;
-                zulu = 0;
-                tango = tango[zulu];
-                zulu = undefined;
-                tango = report.bind(zulu)(tango);
-                zulu = tango.deserialize;
-                mike = mike.permissions;
-                zulu = zulu.bind(tango)(mike);
-                mike = 'permissions';
-                entity[mike] = zulu;
+                tangon = _closure1_slot1;
+                zuuluu = 0;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                tangon = report.bind(zuuluu)(tangon);
+                zuuluu = tangon.deserialize;
+                michal = michal.permissions;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = 'permissions';
+                entity[michal] = zuuluu;
                 return entity;
             };
-            tango = tango.bind(report)(zulu);
-            zulu = 'guilds';
-            mike[zulu] = tango;
-            entity = mike;
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = 'guilds';
+            michal[zuuluu] = tangon;
+            entity = michal;
  65:
             return entity;
         }
     };
-    zulu['convertOAuth2Authorization'] = mike;
+    zuuluu['convertOAuth2Authorization'] = michal;
     return entity;
 })();

@@ -1,162 +1,162 @@
 // app/modules/launchpad/native/LaunchPadPullTabCache.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = verify;
-    oscar = function() { // Original name: getLaunchPadPullTabPositionCached
+    oscard = function() { // Original name: getLaunchPadPullTabPositionCached
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tango.bind(entity)(zulu);
-            tango = entity.Storage;
-            zulu = tango.get;
+            entity = tangon.bind(entity)(zuuluu);
+            tangon = entity.Storage;
+            zuuluu = tangon.get;
             entity = _closure1_slot6;
-            entity = zulu.bind(tango)(entity);
-            zulu = null;
-            if(!(zulu == entity)) { _fun00002_ip = 55; continue _fun00001 }
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             entity = _closure1_slot4;
  55:
             return entity;
         }
     };
-    var _closure1_slot9 = oscar;
+    var _closure1_slot9 = oscard;
     report = function(argFoo) { // Original name: setLaunchPadPullTabPositionCached
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        zulu = tango.bind(entity)(zulu);
-        report = zulu.Storage;
-        tango = report.set;
-        zulu = _closure1_slot6;
-        mike = argFoo;
-        mike = tango.bind(report)(zulu, mike);
+        zuuluu = tangon.bind(entity)(zuuluu);
+        report = zuuluu.Storage;
+        tangon = report.set;
+        zuuluu = _closure1_slot6;
+        michal = argFoo;
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
     var _closure1_slot10 = report;
-    mike = function() { // Original name: setLaunchPadPullTabExclusionRect
+    michal = function() { // Original name: setLaunchPadPullTabExclusionRect
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[0];
             entity = undefined;
             if(!(report === entity)) { _fun00004_ip = 20; continue _fun00003 }
  9:
-            mike = _closure1_slot9;
-            report = mike.bind(entity)();
+            michal = _closure1_slot9;
+            report = michal.bind(entity)();
  20:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(!zulu) { _fun00004_ip = 300; continue _fun00003 }
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(!zuuluu) { _fun00004_ip = 300; continue _fun00003 }
  58:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 4;
-            golf = oscar[zulu];
-            options = tango.bind(entity)(golf);
-            golf = options.getWindowDimensions;
-            golf = golf.bind(options)();
-            options = golf.width;
-            golf = _closure1_slot5;
-            golf = options - golf;
-            zulu = oscar[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.getWindowDimensions;
-            zulu = zulu.bind(tango)();
-            oscar = zulu.width;
-            zulu = _closure1_slot3;
-            tango = report + zulu;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 4;
+            golfie = oscard[zuuluu];
+            option = tangon.bind(entity)(golfie);
+            golfie = option.getWindowDimensions;
+            golfie = golfie.bind(option)();
+            option = golfie.width;
+            golfie = _closure1_slot5;
+            golfie = option - golfie;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.getWindowDimensions;
+            zuuluu = zuuluu.bind(tangon)();
+            oscard = zuuluu.width;
+            zuuluu = _closure1_slot3;
+            tangon = report + zuuluu;
             verify = _closure1_slot8;
-            options = null;
-            offset = options == verify;
-            zulu = undefined;
+            option = null;
+            offset = option == verify;
+            zuuluu = undefined;
             if(offset) { _fun00004_ip = 153; continue _fun00003 }
  148:
-            zulu = verify.left;
+            zuuluu = verify.left;
  153:
-            zulu = zulu === golf;
-            if(!zulu) { _fun00004_ip = 182; continue _fun00003 }
+            zuuluu = zuuluu === golfie;
+            if(!zuuluu) { _fun00004_ip = 182; continue _fun00003 }
  160:
             offset = _closure1_slot8;
-            yankee = options == offset;
+            yankee = option == offset;
             verify = undefined;
             if(yankee) { _fun00004_ip = 178; continue _fun00003 }
  173:
             verify = offset.right;
  178:
-            zulu = verify === oscar;
+            zuuluu = verify === oscard;
  182:
-            if(!zulu) { _fun00004_ip = 207; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 207; continue _fun00003 }
  185:
             offset = _closure1_slot8;
-            yankee = options == offset;
+            yankee = option == offset;
             verify = undefined;
             if(yankee) { _fun00004_ip = 203; continue _fun00003 }
  198:
             verify = offset.top;
  203:
-            zulu = verify === report;
+            zuuluu = verify === report;
  207:
-            if(!zulu) { _fun00004_ip = 232; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 232; continue _fun00003 }
  210:
             verify = _closure1_slot8;
-            offset = options == verify;
-            options = undefined;
+            offset = option == verify;
+            option = undefined;
             if(offset) { _fun00004_ip = 228; continue _fun00003 }
  223:
-            options = verify.bottom;
+            option = verify.bottom;
  228:
-            zulu = options === tango;
+            zuuluu = option === tangon;
  232:
-            if(zulu) { _fun00004_ip = 300; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 300; continue _fun00003 }
  235:
-            zulu = {};
-            zulu['left'] = golf;
-            zulu['right'] = oscar;
-            zulu['top'] = report;
-            zulu['bottom'] = tango;
-            _closure1_slot8 = zulu;
-            tango = _closure1_slot1;
+            zuuluu = {};
+            zuuluu['left'] = golfie;
+            zuuluu['right'] = oscard;
+            zuuluu['top'] = report;
+            zuuluu['bottom'] = tangon;
+            _closure1_slot8 = zuuluu;
+            tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zulu = 3;
-            zulu = report[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.setSystemGestureExclusionRects;
+            zuuluu = 3;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.setSystemGestureExclusionRects;
             report = _closure1_slot8;
-            mike = new Array(1);
-            mike[0] = report;
-            mike = zulu.bind(tango)(mike);
+            michal = new Array(1);
+            michal[0] = report;
+            michal = zuuluu.bind(tangon)(michal);
  300:
             return entity;
         }
     };
-    var _closure1_slot11 = mike;
+    var _closure1_slot11 = michal;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    golf = {};
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, golf);
-    golf = 0;
-    offset = verify[golf];
+    entity = offset.bind(yankee)(zuuluu, entity, golfie);
+    golfie = 0;
+    offset = verify[golfie];
     entity = undefined;
-    offset = options.bind(entity)(offset);
+    offset = option.bind(entity)(offset);
     yankee = offset.LAUNCH_PAD_PULL_TAB_HEIGHT;
     var _closure1_slot3 = yankee;
     yankee = offset.LAUNCH_PAD_PULL_TAB_INITIAL_POSITION;
@@ -165,73 +165,73 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot5 = offset;
     offset = 'LAUNCH_PAD_PULL_TAB_POSITION_CACHE_KEY';
     var _closure1_slot6 = offset;
-    var _closure1_slot7 = golf;
+    var _closure1_slot7 = golfie;
     var _closure1_slot8 = entity;
-    golf = 5;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = 'modules/launchpad/native/LaunchPadPullTabCache.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['getLaunchPadPullTabPositionCached'] = oscar;
-    zulu['setLaunchPadPullTabPositionCached'] = report;
+    golfie = 5;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/launchpad/native/LaunchPadPullTabCache.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['getLaunchPadPullTabPositionCached'] = oscard;
+    zuuluu['setLaunchPadPullTabPositionCached'] = report;
     report = function(argFoo) { // Original name: persistLaunchPadPullTabPosition
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = global;
-        oscar = tango.clearTimeout;
+        tangon = global;
+        oscard = tangon.clearTimeout;
         report = _closure1_slot7;
         entity = undefined;
-        report = oscar.bind(entity)(report);
-        report = tango.setTimeout;
-        tango = function() {
-            tango = _closure1_slot10;
-            zulu = _closure2_slot0;
+        report = oscard.bind(entity)(report);
+        report = tangon.setTimeout;
+        tangon = function() {
+            tangon = _closure1_slot10;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            mike = _closure1_slot11;
-            mike = mike.bind(entity)(zulu);
+            tangon = tangon.bind(entity)(zuuluu);
+            michal = _closure1_slot11;
+            michal = michal.bind(entity)(zuuluu);
             return entity;
         };
-        mike = 300;
-        mike = report.bind(entity)(tango, mike);
-        _closure1_slot7 = mike;
+        michal = 300;
+        michal = report.bind(entity)(tangon, michal);
+        _closure1_slot7 = michal;
         return entity;
     };
-    zulu['persistLaunchPadPullTabPosition'] = report;
-    tango = function() { // Original name: clearLaunchPadPullTabExclusionRect
+    zuuluu['persistLaunchPadPullTabPosition'] = report;
+    tangon = function() { // Original name: clearLaunchPadPullTabExclusionRect
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(!zulu) { _fun00006_ip = 47; continue _fun00005 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(!zuuluu) { _fun00006_ip = 47; continue _fun00005 }
  37:
             report = _closure1_slot8;
-            tango = null;
-            zulu = tango != report;
+            tangon = null;
+            zuuluu = tangon != report;
  47:
-            if(!zulu) { _fun00006_ip = 89; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 89; continue _fun00005 }
  50:
             _closure1_slot8 = entity;
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
-            mike = 3;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.setSystemGestureExclusionRects;
-            mike = new Array(0);
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 3;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.setSystemGestureExclusionRects;
+            michal = new Array(0);
+            michal = zuuluu.bind(tangon)(michal);
  89:
             return entity;
         }
     };
-    zulu['clearLaunchPadPullTabExclusionRect'] = tango;
-    zulu['setLaunchPadPullTabExclusionRect'] = mike;
+    zuuluu['clearLaunchPadPullTabExclusionRect'] = tangon;
+    zuuluu['setLaunchPadPullTabExclusionRect'] = michal;
     return entity;
 })();

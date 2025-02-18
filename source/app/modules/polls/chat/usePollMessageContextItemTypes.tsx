@@ -1,95 +1,95 @@
 // app/modules/polls/chat/usePollMessageContextItemTypes.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
-    options = 0;
-    report = golf[options];
-    mike = argBaz;
+    entity = report.bind(option)(zuuluu, entity, michal);
+    option = 0;
+    report = golfie[option];
+    michal = argBaz;
     entity = undefined;
-    mike = mike.bind(entity)(report);
-    var _closure1_slot2 = mike;
-    mike = {};
-    mike['END_EARLY'] = options;
+    michal = michal.bind(entity)(report);
+    var _closure1_slot2 = michal;
+    michal = {};
+    michal['END_EARLY'] = option;
     report = 'END_EARLY';
-    mike[options] = report;
-    var _closure1_slot3 = mike;
+    michal[option] = report;
+    var _closure1_slot3 = michal;
     report = new Array(0);
     var _closure1_slot4 = report;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/polls/chat/usePollMessageContextItemTypes.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: usePollMessageContextItemTypes
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: usePollMessageContextItemTypes
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            oscar = report.bind(mike)(zulu);
-            report = oscar.useStateFromStores;
-            mike = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                mike = _closure1_slot2;
-                entity = mike.getId;
-                entity = entity.bind(mike)();
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            oscard = report.bind(michal)(zuuluu);
+            report = oscard.useStateFromStores;
+            michal = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot2;
+                entity = michal.getId;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            report = report.bind(oscar)(zulu, mike);
-            zulu = tango.poll;
-            mike = tango.isPoll;
-            mike = mike.bind(tango)();
-            if(!mike) { _fun00002_ip = 169; continue _fun00001 }
+            report = report.bind(oscard)(zuuluu, michal);
+            zuuluu = tangon.poll;
+            michal = tangon.isPoll;
+            michal = michal.bind(tangon)();
+            if(!michal) { _fun00002_ip = 169; continue _fun00001 }
  79:
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 169; continue _fun00001 }
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 169; continue _fun00001 }
  85:
-            mike = new Array(0);
-            golf = zulu.expiry;
-            oscar = golf.isSameOrBefore;
-            zulu = global;
-            options = zulu.Date;
-            zulu = options.now;
-            zulu = zulu.bind(options)();
-            zulu = oscar.bind(golf)(zulu);
-            zulu = !zulu;
-            if(!zulu) { _fun00002_ip = 144; continue _fun00001 }
+            michal = new Array(0);
+            golfie = zuuluu.expiry;
+            oscard = golfie.isSameOrBefore;
+            zuuluu = global;
+            option = zuuluu.Date;
+            zuuluu = option.now;
+            zuuluu = zuuluu.bind(option)();
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = !zuuluu;
+            if(!zuuluu) { _fun00002_ip = 144; continue _fun00001 }
  129:
-            tango = tango.author;
-            tango = tango.id;
-            zulu = tango === report;
+            tangon = tangon.author;
+            tangon = tangon.id;
+            zuuluu = tangon === report;
  144:
-            if(!zulu) { _fun00002_ip = 167; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 167; continue _fun00001 }
  147:
-            tango = mike.push;
-            zulu = _closure1_slot3;
-            zulu = zulu.END_EARLY;
-            zulu = tango.bind(mike)(zulu);
+            tangon = michal.push;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.END_EARLY;
+            zuuluu = tangon.bind(michal)(zuuluu);
  167:
-            return mike;
+            return michal;
  169:
             entity = _closure1_slot4;
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['PollMessageContextItemTypes'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['PollMessageContextItemTypes'] = michal;
     return entity;
 })();

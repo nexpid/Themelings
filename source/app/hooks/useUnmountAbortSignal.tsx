@@ -1,62 +1,62 @@
 // app/hooks/useUnmountAbortSignal.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/useUnmountAbortSignal.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useUnmountAbortSignal
-        tango = _closure1_slot1;
-        oscar = _closure1_slot2;
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/useUnmountAbortSignal.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useUnmountAbortSignal
+        tangon = _closure1_slot1;
+        oscard = _closure1_slot2;
         entity = 0;
-        entity = oscar[entity];
+        entity = oscard[entity];
         report = undefined;
-        tango = tango.bind(report)(entity);
+        tangon = tangon.bind(report)(entity);
         entity = function() {
             entity = global;
             entity = entity.AbortController;
-            mike = entity.prototype;
-            mike = Object.create(mike, {constructor: {value: entity}});
-            zulu = mike;
-            entity = new zulu[entity](mike);
-            entity = entity instanceof Object ? entity : mike;
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            zuuluu = michal;
+            entity = new zuuluu[entity](michal);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity = tango.bind(report)(entity);
+        entity = tangon.bind(report)(entity);
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = 1;
-        zulu = oscar[zulu];
-        tango = tango.bind(report)(zulu);
-        zulu = tango.useUnmountEffect;
-        mike = function() {
-            mike = _closure2_slot0;
-            entity = mike.abort;
-            entity = entity.bind(mike)();
+        tangon = _closure1_slot0;
+        zuuluu = 1;
+        zuuluu = oscard[zuuluu];
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.useUnmountEffect;
+        michal = function() {
+            michal = _closure2_slot0;
+            entity = michal.abort;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         entity = entity.signal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

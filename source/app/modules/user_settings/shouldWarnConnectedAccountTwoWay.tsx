@@ -1,59 +1,59 @@
 // app/modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
-    tango = global;
-    verify = tango.Object;
-    options = verify.defineProperty;
-    golf = {};
+    zuuluu = argFre;
+    oscard = argPlu;
+    tangon = global;
+    verify = tangon.Object;
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    golf = golf.PlatformTypes;
-    options = tango.Set;
-    verify = golf.XBOX;
-    tango = new Array(4);
-    tango[0] = verify;
-    verify = golf.PLAYSTATION;
-    tango[1] = verify;
-    verify = golf.PLAYSTATION_STAGING;
-    tango[2] = verify;
-    golf = golf.CRUNCHYROLL;
-    tango[3] = golf;
-    golf = options.prototype;
-    golf = Object.create(golf, {constructor: {value: options}});
-    foxtrot = golf;
-    romeo = tango;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: shouldWarnConnectedAccountTwoWay
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.PlatformTypes;
+    option = tangon.Set;
+    verify = golfie.XBOX;
+    tangon = new Array(4);
+    tangon[0] = verify;
+    verify = golfie.PLAYSTATION;
+    tangon[1] = verify;
+    verify = golfie.PLAYSTATION_STAGING;
+    tangon[2] = verify;
+    golfie = golfie.CRUNCHYROLL;
+    tangon[3] = golfie;
+    golfie = option.prototype;
+    golfie = Object.create(golfie, {constructor: {value: option}});
+    foxtra = golfie;
+    romeon = tangon;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: shouldWarnConnectedAccountTwoWay
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            tango = _closure1_slot0;
-            zulu = tango.has;
-            entity = mike.type;
-            entity = zulu.bind(tango)(entity);
+            michal = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.has;
+            entity = michal.type;
+            entity = zuuluu.bind(tangon)(entity);
             if(!entity) { _fun00002_ip = 34; continue _fun00001 }
  28:
-            entity = mike.twoWayLink;
+            entity = michal.twoWayLink;
  34:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

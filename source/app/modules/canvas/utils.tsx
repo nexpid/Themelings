@@ -1,187 +1,187 @@
 // app/modules/canvas/utils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _generateImageFromCanvas
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 430; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 430; continue _fun00001 }
  13:
-                    golf = mike.assetsToLoad;
-                    offset = mike.drawImage;
-                    verify = mike.exportConfigs;
-                    oscar = undefined;
+                    golfie = michal.assetsToLoad;
+                    offset = michal.drawImage;
+                    verify = michal.exportConfigs;
+                    oscard = undefined;
                     SaveGenerator(address=37);
  35:
-                    return oscar;
+                    return oscard;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 427; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 427; continue _fun00001 }
  46:
-                    tango = _closure1_slot0;
-                    options = _closure1_slot2;
-                    zulu = 1;
-                    zulu = options[zulu];
-                    tango = tango.bind(oscar)(zulu);
-                    zulu = tango.loadAssetMap;
-                    zulu = zulu.bind(tango)(golf);
+                    tangon = _closure1_slot0;
+                    option = _closure1_slot2;
+                    zuuluu = 1;
+                    zuuluu = option[zuuluu];
+                    tangon = tangon.bind(oscard)(zuuluu);
+                    zuuluu = tangon.loadAssetMap;
+                    zuuluu = zuuluu.bind(tangon)(golfie);
                     SaveGenerator(address=84);
  82:
-                    return zulu;
+                    return zuuluu;
  84:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 424; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 424; continue _fun00001 }
  93:
-                    tango = zulu.loadFonts;
-                    tango = tango.bind(zulu)();
+                    tangon = zuuluu.loadFonts;
+                    tangon = tangon.bind(zuuluu)();
                     SaveGenerator(address=109);
  107:
-                    return tango;
+                    return tangon;
  109:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 421; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 421; continue _fun00001 }
  118:
                     yankee = _closure1_slot0;
-                    romeo = _closure1_slot2;
-                    golf = 2;
-                    golf = romeo[golf];
-                    golf = yankee.bind(oscar)(golf);
-                    options = golf.Skia;
-                    golf = 3;
-                    golf = romeo[golf];
-                    golf = yankee.bind(oscar)(golf);
-                    foxtrot = golf.default;
-                    golf = 4;
-                    golf = romeo[golf];
-                    golf = yankee.bind(oscar)(golf);
-                    golf = golf.default;
-                    romeo = options.Surface;
-                    yankee = romeo.MakeOffscreen;
-                    options = 1000;
-                    romeo = yankee.bind(romeo)(options, options);
-                    options = null;
-                    if(!(options != romeo)) { _fun00002_ip = 385; continue _fun00001 }
+                    romeon = _closure1_slot2;
+                    golfie = 2;
+                    golfie = romeon[golfie];
+                    golfie = yankee.bind(oscard)(golfie);
+                    option = golfie.Skia;
+                    golfie = 3;
+                    golfie = romeon[golfie];
+                    golfie = yankee.bind(oscard)(golfie);
+                    foxtra = golfie.default;
+                    golfie = 4;
+                    golfie = romeon[golfie];
+                    golfie = yankee.bind(oscard)(golfie);
+                    golfie = golfie.default;
+                    romeon = option.Surface;
+                    yankee = romeon.MakeOffscreen;
+                    option = 1000;
+                    romeon = yankee.bind(romeon)(option, option);
+                    option = null;
+                    if(!(option != romeon)) { _fun00002_ip = 385; continue _fun00001 }
  211:
-                    yankee = options == romeo;
-                    options = undefined;
+                    yankee = option == romeon;
+                    option = undefined;
                     if(yankee) { _fun00002_ip = 230; continue _fun00001 }
  220:
-                    yankee = romeo.getCanvas;
-                    options = yankee.bind(romeo)();
+                    yankee = romeon.getCanvas;
+                    option = yankee.bind(romeon)();
  230:
-                    yankee = foxtrot.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: foxtrot}});
+                    yankee = foxtra.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: foxtra}});
                     sizing = yankee;
-                    kilo = options;
-                    backup = zulu;
-                    options = new sizing[foxtrot](kilo, backup, foxtrot);
-                    options = options instanceof Object ? options : yankee;
-                    yankee = golf.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: golf}});
+                    kiloes = option;
+                    backup = zuuluu;
+                    option = new sizing[foxtra](kiloes, backup, foxtra);
+                    option = option instanceof Object ? option : yankee;
+                    yankee = golfie.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: golfie}});
                     sizing = yankee;
-                    golf = new sizing[golf](kilo);
-                    backup = golf instanceof Object ? golf : yankee;
-                    golf = options.setCanvasRef;
-                    golf = golf.bind(options)(romeo);
-                    golf = _closure1_slot1;
-                    romeo = _closure1_slot2;
+                    golfie = new sizing[golfie](kiloes);
+                    backup = golfie instanceof Object ? golfie : yankee;
+                    golfie = option.setCanvasRef;
+                    golfie = golfie.bind(option)(romeon);
+                    golfie = _closure1_slot1;
+                    romeon = _closure1_slot2;
                     report = 5;
-                    report = romeo[report];
-                    report = golf.bind(oscar)(report);
-                    golf = report.prototype;
-                    golf = Object.create(golf, {constructor: {value: report}});
-                    sizing = golf;
-                    kilo = options;
-                    report = new sizing[report](kilo, backup, foxtrot);
-                    golf = report instanceof Object ? report : golf;
-                    report = golf.canvas;
-                    report = offset.bind(oscar)(report);
-                    oscar = golf.export;
+                    report = romeon[report];
+                    report = golfie.bind(oscard)(report);
+                    golfie = report.prototype;
+                    golfie = Object.create(golfie, {constructor: {value: report}});
+                    sizing = golfie;
+                    kiloes = option;
+                    report = new sizing[report](kiloes, backup, foxtra);
+                    golfie = report instanceof Object ? report : golfie;
+                    report = golfie.canvas;
+                    report = offset.bind(oscard)(report);
+                    oscard = golfie.export;
                     report = {};
-                    kilo = report;
+                    kiloes = report;
                     backup = verify;
-                    verify = copyDataProperties(kilo, backup);
-                    verify = options.size;
-                    options = 'size';
-                    report[options] = verify;
-                    report = oscar.bind(golf)(report);
+                    verify = copyDataProperties(kiloes, backup);
+                    verify = option.size;
+                    option = 'size';
+                    report[option] = verify;
+                    report = oscard.bind(golfie)(report);
                     return report;
  385:
                     report = global;
-                    golf = report.Error;
-                    report = golf.prototype;
-                    oscar = Object.create(report, {constructor: {value: golf}});
-                    kilo = 'Couldn\t construct native canvas surface';
-                    sizing = oscar;
-                    report = new sizing[golf](kilo, backup);
-                    report = report instanceof Object ? report : oscar;
+                    golfie = report.Error;
+                    report = golfie.prototype;
+                    oscard = Object.create(report, {constructor: {value: golfie}});
+                    kiloes = 'Couldn\t construct native canvas surface';
+                    sizing = oscard;
+                    report = new sizing[golfie](kiloes, backup);
+                    report = report instanceof Object ? report : oscard;
                     throw report;
  421:
-                    return tango;
+                    return tangon;
  424:
-                    return zulu;
+                    return zuuluu;
  427:
-                    return mike;
+                    return michal;
  430:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/canvas/utils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: generateImageFromCanvas
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/canvas/utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: generateImageFromCanvas
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['generateImageFromCanvas'] = mike;
+    zuuluu['generateImageFromCanvas'] = michal;
     return entity;
 })();

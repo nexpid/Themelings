@@ -1,134 +1,134 @@
 // app/modules/friend_suggestions/FriendSuggestionActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.Endpoints;
-    var _closure1_slot4 = mike;
-    mike = {};
-    golf = function() { // Original name: fetch
-        zulu = _closure1_slot3;
-        mike = undefined;
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.Endpoints;
+    var _closure1_slot4 = michal;
+    michal = {};
+    golfie = function() { // Original name: fetch
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 191; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 191; continue _fun00001 }
  10: // try_start_0
-                    tango = _closure1_slot0;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 2;
-                    mike = report[mike];
+                    michal = 2;
+                    michal = report[michal];
                     report = undefined;
-                    mike = tango.bind(report)(mike);
-                    oscar = mike.HTTP;
-                    tango = oscar.get;
-                    mike = {};
-                    golf = _closure1_slot4;
-                    golf = golf.FRIEND_SUGGESTIONS;
-                    mike['url'] = golf;
-                    golf = true;
-                    mike['rejectWithError'] = golf;
-                    mike = tango.bind(oscar)(mike);
+                    michal = tangon.bind(report)(michal);
+                    oscard = michal.HTTP;
+                    tangon = oscard.get;
+                    michal = {};
+                    golfie = _closure1_slot4;
+                    golfie = golfie.FRIEND_SUGGESTIONS;
+                    michal['url'] = golfie;
+                    golfie = true;
+                    michal['rejectWithError'] = golfie;
+                    michal = tangon.bind(oscard)(michal);
                     SaveGenerator(address=76);
  74:
-                    return mike;
+                    return michal;
  76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 134; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 134; continue _fun00001 }
  82:
-                    tango = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    zulu = 3;
-                    zulu = oscar[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    oscar = 'LOAD_FRIEND_SUGGESTIONS_SUCCESS';
-                    zulu['type'] = oscar;
-                    oscar = mike.body;
-                    zulu['suggestions'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    tangon = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    zuuluu = 3;
+                    zuuluu = oscard[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    oscard = 'LOAD_FRIEND_SUGGESTIONS_SUCCESS';
+                    zuuluu['type'] = oscard;
+                    oscard = michal.body;
+                    zuuluu['suggestions'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  132: // try_end0
                     _fun00002_ip = 186; continue _fun00001;
  134:
-                    return mike;
+                    return michal;
  137: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.dispatch;
-                    mike = {};
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.dispatch;
+                    michal = {};
                     report = 'LOAD_FRIEND_SUGGESTIONS_FAILURE';
-                    mike['type'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['type'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
  186:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  191:
                     return entity;
                 }
             };
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['fetch'] = golf;
-    tango = function(argFoo) { // Original name: ignore
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    michal['fetch'] = golfie;
+    tangon = function(argFoo) { // Original name: ignore
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        tango = mike.HTTP;
-        zulu = tango.del;
-        mike = {};
-        golf = _closure1_slot4;
-        oscar = golf.FRIEND_SUGGESTION;
+        michal = zuuluu.bind(entity)(michal);
+        tangon = michal.HTTP;
+        zuuluu = tangon.del;
+        michal = {};
+        golfie = _closure1_slot4;
+        oscard = golfie.FRIEND_SUGGESTION;
         report = argFoo;
-        report = oscar.bind(golf)(report);
-        mike['url'] = report;
+        report = oscard.bind(golfie)(report);
+        michal['url'] = report;
         report = true;
-        mike['rejectWithError'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['rejectWithError'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['ignore'] = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/friend_suggestions/FriendSuggestionActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['ignore'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/friend_suggestions/FriendSuggestionActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

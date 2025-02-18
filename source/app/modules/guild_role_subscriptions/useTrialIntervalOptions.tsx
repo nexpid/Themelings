@@ -1,166 +1,166 @@
 // app/modules/guild_role_subscriptions/useTrialIntervalOptions.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.TIER_TRIAL_INTERVALS;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.SubscriptionIntervalTypes;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/useTrialIntervalOptions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useTrialIntervalOptions
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.TIER_TRIAL_INTERVALS;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SubscriptionIntervalTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/useTrialIntervalOptions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useTrialIntervalOptions
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot3;
-                mike = zulu.map;
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.map;
                 entity = function(argFoo) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        zulu = argFoo;
+                        zuuluu = argFoo;
                         entity = {};
-                        entity['value'] = zulu;
-                        report = zulu.interval;
-                        tango = _closure1_slot4;
-                        tango = tango.DAY;
-                        if(!(report === tango)) { _fun00004_ip = 45; continue _fun00003 }
+                        entity['value'] = zuuluu;
+                        report = zuuluu.interval;
+                        tangon = _closure1_slot4;
+                        tangon = tangon.DAY;
+                        if(!(report === tangon)) { _fun00004_ip = 45; continue _fun00003 }
  32:
-                        report = zulu.interval_count;
-                        tango = 7;
-                        if(!(tango !== report)) { _fun00004_ip = 80; continue _fun00003 }
+                        report = zuuluu.interval_count;
+                        tangon = 7;
+                        if(!(tangon !== report)) { _fun00004_ip = 80; continue _fun00003 }
  45:
-                        oscar = _closure1_slot0;
+                        oscard = _closure1_slot0;
                         report = _closure1_slot1;
-                        tango = 4;
-                        report = report[tango];
-                        tango = undefined;
-                        report = oscar.bind(tango)(report);
-                        tango = report.formatPlanIntervalDuration;
-                        tango = tango.bind(report)(zulu);
+                        tangon = 4;
+                        report = report[tangon];
+                        tangon = undefined;
+                        report = oscard.bind(tangon)(report);
+                        tangon = report.formatPlanIntervalDuration;
+                        tangon = tangon.bind(report)(zuuluu);
                         _fun00004_ip = 172; continue _fun00003;
  80:
                         yankee = _closure1_slot0;
-                        romeo = _closure1_slot1;
+                        romeon = _closure1_slot1;
                         report = 3;
-                        oscar = romeo[report];
+                        oscard = romeon[report];
                         offset = undefined;
-                        oscar = yankee.bind(offset)(oscar);
-                        options = oscar.intl;
-                        golf = options.formatToPlainString;
-                        report = romeo[report];
+                        oscard = yankee.bind(offset)(oscard);
+                        option = oscard.intl;
+                        golfie = option.formatToPlainString;
+                        report = romeon[report];
                         report = yankee.bind(offset)(report);
                         report = report.t;
-                        oscar = report.XfSsr6;
+                        oscard = report.XfSsr6;
                         report = {};
                         verify = 4;
-                        verify = romeo[verify];
+                        verify = romeon[verify];
                         offset = yankee.bind(offset)(verify);
                         verify = offset.formatPlanIntervalDuration;
-                        verify = verify.bind(offset)(zulu);
+                        verify = verify.bind(offset)(zuuluu);
                         report['defaultLimit'] = verify;
-                        tango = golf.bind(options)(oscar, report);
+                        tangon = golfie.bind(option)(oscard, report);
  172:
-                        entity['label'] = tango;
-                        tango = zulu.interval;
-                        mike = _closure1_slot4;
-                        mike = mike.DAY;
-                        mike = tango === mike;
-                        if(!mike) { _fun00004_ip = 212; continue _fun00003 }
+                        entity['label'] = tangon;
+                        tangon = zuuluu.interval;
+                        michal = _closure1_slot4;
+                        michal = michal.DAY;
+                        michal = tangon === michal;
+                        if(!michal) { _fun00004_ip = 212; continue _fun00003 }
  199:
-                        tango = zulu.interval_count;
-                        zulu = 7;
-                        mike = zulu === tango;
+                        tangon = zuuluu.interval_count;
+                        zuuluu = 7;
+                        michal = zuuluu === tangon;
  212:
-                        entity['isDefault'] = mike;
+                        entity['isDefault'] = michal;
                         return entity;
                     }
                 };
-                zulu = mike.bind(zulu)(entity);
+                zuuluu = michal.bind(zuuluu)(entity);
                 report = _closure2_slot0;
                 entity = null;
                 if(!(entity == report)) { _fun00002_ip = 45; continue _fun00001 }
  39:
-                mike = _closure2_slot0;
+                michal = _closure2_slot0;
                 _fun00002_ip = 79; continue _fun00001;
  45:
-                report = zulu.find;
-                tango = function(argFoo) {
+                report = zuuluu.find;
+                tangon = function(argFoo) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                        mike = argFoo;
-                        zulu = mike.value;
+                        michal = argFoo;
+                        zuuluu = michal.value;
                         entity = null;
-                        entity = entity != zulu;
+                        entity = entity != zuuluu;
                         if(!entity) { _fun00006_ip = 45; continue _fun00005 }
  17:
-                        zulu = mike.value;
-                        tango = zulu.interval;
-                        zulu = _closure2_slot0;
-                        zulu = zulu.interval;
-                        entity = tango === zulu;
+                        zuuluu = michal.value;
+                        tangon = zuuluu.interval;
+                        zuuluu = _closure2_slot0;
+                        zuuluu = zuuluu.interval;
+                        entity = tangon === zuuluu;
  45:
                         if(!entity) { _fun00006_ip = 76; continue _fun00005 }
  48:
-                        mike = mike.value;
-                        zulu = mike.interval_count;
-                        mike = _closure2_slot0;
-                        mike = mike.interval_count;
-                        entity = zulu === mike;
+                        michal = michal.value;
+                        zuuluu = michal.interval_count;
+                        michal = _closure2_slot0;
+                        michal = michal.interval_count;
+                        entity = zuuluu === michal;
  76:
                         return entity;
                     }
                 };
-                tango = report.bind(zulu)(tango);
-                report = entity == tango;
+                tangon = report.bind(zuuluu)(tangon);
+                report = entity == tangon;
                 entity = undefined;
                 if(report) { _fun00002_ip = 76; continue _fun00001 }
  71:
-                entity = tango.value;
+                entity = tangon.value;
  76:
-                mike = entity;
+                michal = entity;
  79:
                 entity = {};
-                entity['options'] = zulu;
-                entity['selectedOption'] = mike;
+                entity['options'] = zuuluu;
+                entity['selectedOption'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

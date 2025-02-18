@@ -1,68 +1,68 @@
 // app/modules/media_channel/useIsFirstMessageInMediaPost.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     verify = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = verify;
-    var _closure1_slot2 = options;
-    tango = function(argFoo) { // Original name: isFirstMessageInMediaPost
+    var _closure1_slot2 = option;
+    tangon = function(argFoo) { // Original name: isFirstMessageInMediaPost
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 37; continue _fun00001 }
  12:
             report = _closure1_slot5;
-            tango = mike.id;
-            zulu = mike.channel_id;
-            mike = undefined;
-            entity = report.bind(mike)(tango, zulu);
+            tangon = michal.id;
+            zuuluu = michal.channel_id;
+            michal = undefined;
+            entity = report.bind(michal)(tangon, zuuluu);
  37:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
-    mike = function(argFoo, argBar) { // Original name: isFirstMessageIdInMediaPost
+    var _closure1_slot4 = tangon;
+    michal = function(argFoo, argBar) { // Original name: isFirstMessageIdInMediaPost
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argBar;
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 2;
-            entity = mike[entity];
-            mike = undefined;
-            zulu = zulu.bind(mike)(entity);
-            entity = zulu.castChannelIdAsMessageId;
-            zulu = entity.bind(zulu)(report);
+            entity = michal[entity];
+            michal = undefined;
+            zuuluu = zuuluu.bind(michal)(entity);
+            entity = zuuluu.castChannelIdAsMessageId;
+            zuuluu = entity.bind(zuuluu)(report);
             entity = argFoo;
-            if(!(entity === zulu)) { _fun00004_ip = 130; continue _fun00003 }
+            if(!(entity === zuuluu)) { _fun00004_ip = 130; continue _fun00003 }
  46:
-            zulu = _closure1_slot3;
-            entity = zulu.getChannel;
-            zulu = entity.bind(zulu)(report);
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getChannel;
+            zuuluu = entity.bind(zuuluu)(report);
             entity = null;
-            if(!(entity != zulu)) { _fun00004_ip = 126; continue _fun00003 }
+            if(!(entity != zuuluu)) { _fun00004_ip = 126; continue _fun00003 }
  66:
-            report = zulu.isForumPost;
-            report = report.bind(zulu)();
+            report = zuuluu.isForumPost;
+            report = report.bind(zuuluu)();
             if(!report) { _fun00004_ip = 126; continue _fun00003 }
  79:
             report = _closure1_slot3;
-            tango = report.getChannel;
-            zulu = zulu.parent_id;
-            zulu = tango.bind(report)(zulu);
-            entity = entity == zulu;
-            mike = undefined;
+            tangon = report.getChannel;
+            zuuluu = zuuluu.parent_id;
+            zuuluu = tangon.bind(report)(zuuluu);
+            entity = entity == zuuluu;
+            michal = undefined;
             if(entity) { _fun00004_ip = 118; continue _fun00003 }
  108:
-            entity = zulu.isMediaChannel;
-            mike = entity.bind(zulu)();
+            entity = zuuluu.isMediaChannel;
+            michal = entity.bind(zuuluu)();
  118:
             entity = true;
-            entity = entity === mike;
+            entity = entity === michal;
             return entity;
  126:
             entity = false;
@@ -72,51 +72,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    var _closure1_slot5 = mike;
+    var _closure1_slot5 = michal;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, oscar);
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 3;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/media_channel/useIsFirstMessageInMediaPost.tsx';
-    oscar = golf.bind(options)(oscar);
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 3;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/media_channel/useIsFirstMessageInMediaPost.tsx';
+    oscard = golfie.bind(option)(oscard);
     report = function(argFoo) { // Original name: useIsFirstMessageInMediaPost
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(0);
+        tangon = _closure1_slot2;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(0);
         entity = function() {
-            zulu = _closure1_slot4;
-            mike = _closure2_slot0;
+            zuuluu = _closure1_slot4;
+            michal = _closure2_slot0;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = tango.bind(report)(mike, entity, zulu);
+        entity = tangon.bind(report)(michal, entity, zuuluu);
         return entity;
     };
-    zulu['useIsFirstMessageInMediaPost'] = report;
-    zulu['isFirstMessageInMediaPost'] = tango;
-    zulu['isFirstMessageIdInMediaPost'] = mike;
+    zuuluu['useIsFirstMessageInMediaPost'] = report;
+    zuuluu['isFirstMessageInMediaPost'] = tangon;
+    zuuluu['isFirstMessageIdInMediaPost'] = michal;
     return entity;
 })();

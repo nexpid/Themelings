@@ -1,62 +1,62 @@
 // app/modules/app_launcher/native/hooks/useDefaultAppLauncherWidth.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ACTION_SHEET_MAX_WIDTH;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/hooks/useDefaultAppLauncherWidth.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useDefaultAppLauncherWidth
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/hooks/useDefaultAppLauncherWidth.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useDefaultAppLauncherWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
             entity = 1;
-            entity = oscar[entity];
-            tango = undefined;
-            entity = zulu.bind(tango)(entity);
-            entity = entity.bind(tango)();
+            entity = oscard[entity];
+            tangon = undefined;
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.bind(tangon)();
             report = entity.width;
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = 2;
-            entity = oscar[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = oscard[entity];
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.AppLauncherEntrypoint;
-            tango = entity.TEXT;
-            zulu = argFoo;
+            tangon = entity.TEXT;
+            zuuluu = argFoo;
             entity = report;
-            if(!(zulu !== tango)) { _fun00002_ip = 95; continue _fun00001 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 95; continue _fun00001 }
  72:
-            zulu = global;
-            tango = zulu.Math;
-            zulu = tango.min;
-            mike = _closure1_slot3;
-            entity = zulu.bind(tango)(report, mike);
+            zuuluu = global;
+            tangon = zuuluu.Math;
+            zuuluu = tangon.min;
+            michal = _closure1_slot3;
+            entity = zuuluu.bind(tangon)(report, michal);
  95:
             return entity;
         }
     };
-    zulu['useDefaultAppLauncherWidth'] = mike;
+    zuuluu['useDefaultAppLauncherWidth'] = michal;
     return entity;
 })();

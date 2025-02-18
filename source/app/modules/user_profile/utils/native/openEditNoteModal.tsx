@@ -1,67 +1,67 @@
 // app/modules/user_profile/utils/native/openEditNoteModal.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 4;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_profile/utils/native/openEditNoteModal.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: openEditNoteModal
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/utils/native/openEditNoteModal.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: openEditNoteModal
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot1;
-            golf = _closure1_slot2;
+            tangon = _closure1_slot1;
+            golfie = _closure1_slot2;
             entity = 0;
-            zulu = golf[entity];
+            zuuluu = golfie[entity];
             entity = undefined;
-            oscar = tango.bind(entity)(zulu);
-            report = oscar.pushLazy;
-            zulu = _closure1_slot0;
-            mike = 2;
-            mike = golf[mike];
-            options = zulu.bind(entity)(mike);
-            mike = 1;
-            tango = golf[mike];
-            mike = golf.paths;
-            tango = options.bind(entity)(tango, mike);
-            mike = 3;
-            mike = golf[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.isAndroid;
-            mike = mike.bind(zulu)();
-            zulu = undefined;
-            if(!mike) { _fun00002_ip = 104; continue _fun00001 }
+            oscard = tangon.bind(entity)(zuuluu);
+            report = oscard.pushLazy;
+            zuuluu = _closure1_slot0;
+            michal = 2;
+            michal = golfie[michal];
+            option = zuuluu.bind(entity)(michal);
+            michal = 1;
+            tangon = golfie[michal];
+            michal = golfie.paths;
+            tangon = option.bind(entity)(tangon, michal);
+            michal = 3;
+            michal = golfie[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.isAndroid;
+            michal = michal.bind(zuuluu)();
+            zuuluu = undefined;
+            if(!michal) { _fun00002_ip = 104; continue _fun00001 }
  90:
-            mike = {};
-            golf = 'modal';
-            mike['presentation'] = golf;
-            zulu = mike;
+            michal = {};
+            golfie = 'modal';
+            michal['presentation'] = golfie;
+            zuuluu = michal;
  104:
             yankee = argFoo;
-            foxtrot = oscar;
-            romeo = tango;
+            foxtra = oscard;
+            romeon = tangon;
             offset = undefined;
-            verify = zulu;
-            mike = foxtrot[report](romeo, yankee, offset, verify, options);
+            verify = zuuluu;
+            michal = foxtra[report](romeon, yankee, offset, verify, option);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

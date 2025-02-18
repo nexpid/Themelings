@@ -1,49 +1,49 @@
 // app/lib/zipWithNext.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'lib/zipWithNext.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: zipWithNext
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'lib/zipWithNext.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: zipWithNext
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            oscar = argBar;
-            mike = golf.length;
+            golfie = argFoo;
+            oscard = argBar;
+            michal = golfie.length;
             entity = 2;
-            if(!(!(mike < entity))) { _fun00002_ip = 82; continue _fun00001 }
+            if(!(!(michal < entity))) { _fun00002_ip = 82; continue _fun00001 }
  18:
             entity = new Array(0);
-            mike = 0;
-            report = golf[mike];
-            mike = golf.length;
-            tango = 1;
-            mike = tango < mike;
-            zulu = undefined;
-            if(!mike) { _fun00002_ip = 80; continue _fun00001 }
+            michal = 0;
+            report = golfie[michal];
+            michal = golfie.length;
+            tangon = 1;
+            michal = tangon < michal;
+            zuuluu = undefined;
+            if(!michal) { _fun00002_ip = 80; continue _fun00001 }
  45:
-            options = golf[tango];
+            option = golfie[tangon];
             verify = entity.push;
-            mike = oscar.bind(zulu)(report, options);
-            mike = verify.bind(entity)(mike);
-            tango = tango + 1;
-            mike = golf.length;
-            report = options;
-            if(tango < mike) { _fun00002_ip = 45; continue _fun00001 }
+            michal = oscard.bind(zuuluu)(report, option);
+            michal = verify.bind(entity)(michal);
+            tangon = tangon + 1;
+            michal = golfie.length;
+            report = option;
+            if(tangon < michal) { _fun00002_ip = 45; continue _fun00001 }
  80:
             return entity;
  82:
@@ -51,6 +51,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

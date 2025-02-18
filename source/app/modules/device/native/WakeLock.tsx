@@ -1,76 +1,76 @@
 // app/modules/device/native/WakeLock.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golf;
-    mike = function(argFoo) { // Original name: useWakeLock
+    var _closure1_slot2 = golfie;
+    michal = function(argFoo) { // Original name: useWakeLock
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useEffect;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useEffect;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot2;
-                mike = 2;
-                mike = zulu[mike];
-                zulu = undefined;
-                tango = tango.bind(zulu)(mike);
-                mike = tango.isAndroid;
-                mike = mike.bind(tango)();
-                if(mike) { _fun00002_ip = 67; continue _fun00001 }
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 2;
+                michal = zuuluu[michal];
+                zuuluu = undefined;
+                tangon = tangon.bind(zuuluu)(michal);
+                michal = tangon.isAndroid;
+                michal = michal.bind(tangon)();
+                if(michal) { _fun00002_ip = 67; continue _fun00001 }
  37:
-                mike = _closure1_slot4;
-                report = mike.ScreenWakeLockManager;
-                tango = report.requestLock;
-                mike = _closure2_slot0;
-                mike = tango.bind(report)(mike);
+                michal = _closure1_slot4;
+                report = michal.ScreenWakeLockManager;
+                tangon = report.requestLock;
+                michal = _closure2_slot0;
+                michal = tangon.bind(report)(michal);
                 _fun00002_ip = 105; continue _fun00001;
  67:
-                mike = _closure1_slot1;
-                tango = _closure1_slot2;
+                michal = _closure1_slot1;
+                tangon = _closure1_slot2;
                 entity = 3;
-                entity = tango[entity];
-                zulu = mike.bind(zulu)(entity);
-                mike = zulu.requestLock;
+                entity = tangon[entity];
+                zuuluu = michal.bind(zuuluu)(entity);
+                michal = zuuluu.requestLock;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
  105:
                 entity = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        tango = _closure1_slot0;
-                        zulu = _closure1_slot2;
+                        tangon = _closure1_slot0;
+                        zuuluu = _closure1_slot2;
                         entity = 2;
-                        zulu = zulu[entity];
+                        zuuluu = zuuluu[entity];
                         entity = undefined;
-                        tango = tango.bind(entity)(zulu);
-                        zulu = tango.isAndroid;
-                        zulu = zulu.bind(tango)();
-                        if(zulu) { _fun00004_ip = 67; continue _fun00003 }
+                        tangon = tangon.bind(entity)(zuuluu);
+                        zuuluu = tangon.isAndroid;
+                        zuuluu = zuuluu.bind(tangon)();
+                        if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
  37:
-                        zulu = _closure1_slot4;
-                        report = zulu.ScreenWakeLockManager;
-                        tango = report.releaseLock;
-                        zulu = _closure2_slot0;
-                        zulu = tango.bind(report)(zulu);
+                        zuuluu = _closure1_slot4;
+                        report = zuuluu.ScreenWakeLockManager;
+                        tangon = report.releaseLock;
+                        zuuluu = _closure2_slot0;
+                        zuuluu = tangon.bind(report)(zuuluu);
                         _fun00004_ip = 105; continue _fun00003;
  67:
-                        zulu = _closure1_slot1;
-                        tango = _closure1_slot2;
-                        mike = 3;
-                        mike = tango[mike];
-                        tango = zulu.bind(entity)(mike);
-                        zulu = tango.releaseLock;
-                        mike = _closure2_slot0;
-                        mike = zulu.bind(tango)(mike);
+                        zuuluu = _closure1_slot1;
+                        tangon = _closure1_slot2;
+                        michal = 3;
+                        michal = tangon[michal];
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.releaseLock;
+                        michal = _closure2_slot0;
+                        michal = zuuluu.bind(tangon)(michal);
  105:
                         return entity;
                     }
@@ -78,46 +78,46 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         entity = undefined;
         return entity;
     };
-    var _closure1_slot5 = mike;
+    var _closure1_slot5 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.NativeModules;
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/device/native/WakeLock.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: WakeLock
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: WakeLock
         entity = argFoo;
-        zulu = entity.wakeLockKey;
-        mike = _closure1_slot5;
+        zuuluu = entity.wakeLockKey;
+        michal = _closure1_slot5;
         entity = undefined;
-        entity = mike.bind(entity)(zulu);
+        entity = michal.bind(entity)(zuuluu);
         entity = null;
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['useWakeLock'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['useWakeLock'] = michal;
     return entity;
 })();

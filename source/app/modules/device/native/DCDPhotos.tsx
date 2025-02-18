@@ -1,28 +1,28 @@
 // app/modules/device/native/DCDPhotos.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    tango = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.NativeModules;
-    mike = mike.DCDPhotos;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/device/native/DCDPhotos.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = report.bind(entity)(michal);
+    michal = michal.NativeModules;
+    michal = michal.DCDPhotos;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/device/native/DCDPhotos.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

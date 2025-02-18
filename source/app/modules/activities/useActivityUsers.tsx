@@ -1,98 +1,98 @@
 // app/modules/activities/useActivityUsers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/useActivityUsers.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useActivityUsers
-        oscar = argFoo;
-        golf = argBar;
-        var _closure2_slot0 = oscar;
-        var _closure2_slot1 = golf;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/useActivityUsers.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useActivityUsers
+        oscard = argFoo;
+        golfie = argBar;
+        var _closure2_slot0 = oscard;
+        var _closure2_slot1 = golfie;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStoresArray;
-        options = _closure1_slot3;
-        zulu = new Array(2);
-        zulu[0] = options;
-        mike = _closure1_slot2;
-        zulu[1] = mike;
-        mike = new Array(2);
-        mike[0] = golf;
-        mike[1] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStoresArray;
+        option = _closure1_slot3;
+        zuuluu = new Array(2);
+        zuuluu[0] = option;
+        michal = _closure1_slot2;
+        zuuluu[1] = michal;
+        michal = new Array(2);
+        michal[0] = golfie;
+        michal[1] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure2_slot1;
-                zulu = null;
-                if(!(zulu != tango)) { _fun00002_ip = 124; continue _fun00001 }
+                tangon = _closure2_slot1;
+                zuuluu = null;
+                if(!(zuuluu != tangon)) { _fun00002_ip = 124; continue _fun00001 }
  15:
                 report = _closure1_slot3;
-                tango = report.getEmbeddedActivitiesForChannel;
-                mike = _closure2_slot1;
-                report = tango.bind(report)(mike);
-                tango = report.find;
-                mike = function(argFoo) {
+                tangon = report.getEmbeddedActivitiesForChannel;
+                michal = _closure2_slot1;
+                report = tangon.bind(report)(michal);
+                tangon = report.find;
+                michal = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.applicationId;
+                    michal = entity.applicationId;
                     entity = _closure2_slot0;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                mike = tango.bind(report)(mike);
-                if(!(zulu != mike)) { _fun00002_ip = 118; continue _fun00001 }
+                michal = tangon.bind(report)(michal);
+                if(!(zuuluu != michal)) { _fun00002_ip = 118; continue _fun00001 }
  58:
-                zulu = global;
-                tango = zulu.Array;
-                zulu = tango.from;
-                mike = mike.userIds;
-                tango = zulu.bind(tango)(mike);
-                zulu = tango.map;
-                mike = function(argFoo) {
-                    zulu = _closure1_slot2;
-                    mike = zulu.getUser;
+                zuuluu = global;
+                tangon = zuuluu.Array;
+                zuuluu = tangon.from;
+                michal = michal.userIds;
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.map;
+                michal = function(argFoo) {
+                    zuuluu = _closure1_slot2;
+                    michal = zuuluu.getUser;
                     entity = argFoo;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                zulu = zulu.bind(tango)(mike);
-                mike = zulu.filter;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = zuuluu.filter;
                 entity = function(argFoo) {
-                    mike = null;
+                    michal = null;
                     entity = argFoo;
-                    entity = mike != entity;
+                    entity = michal != entity;
                     return entity;
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 _fun00002_ip = 122; continue _fun00001;
  118:
                 entity = new Array(0);
@@ -103,9 +103,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,145 +1,145 @@
 // app/design/components/experimental/Button/native/TwinButtons.native.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = function(argFoo) {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = {};
-            mike = {};
-            tango = 'row';
-            if(!zulu) { _fun00002_ip = 18; continue _fun00001 }
+            michal = {};
+            tangon = 'row';
+            if(!zuuluu) { _fun00002_ip = 18; continue _fun00001 }
  14:
-            tango = 'column';
+            tangon = 'column';
  18:
-            mike['flexDirection'] = tango;
-            oscar = _closure1_slot1;
+            michal['flexDirection'] = tangon;
+            oscard = _closure1_slot1;
             report = _closure1_slot2;
-            tango = 4;
-            report = report[tango];
-            tango = undefined;
-            tango = oscar.bind(tango)(report);
-            tango = tango.spacing;
-            if(zulu) { _fun00002_ip = 63; continue _fun00001 }
+            tangon = 4;
+            report = report[tangon];
+            tangon = undefined;
+            tangon = oscard.bind(tangon)(report);
+            tangon = tangon.spacing;
+            if(zuuluu) { _fun00002_ip = 63; continue _fun00001 }
  55:
-            zulu = tango.PX_12;
+            zuuluu = tangon.PX_12;
             _fun00002_ip = 69; continue _fun00001;
  63:
-            zulu = tango.PX_8;
+            zuuluu = tangon.PX_8;
  69:
-            mike['gap'] = zulu;
-            entity['container'] = mike;
-            mike = {};
-            zulu = 1;
-            mike['flex'] = zulu;
-            entity['button'] = mike;
+            michal['gap'] = zuuluu;
+            entity['container'] = michal;
+            michal = {};
+            zuuluu = 1;
+            michal['flex'] = zuuluu;
+            entity['button'] = michal;
             return entity;
         }
     };
-    tango = golf.bind(options)(tango);
-    var _closure1_slot6 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/experimental/Button/native/TwinButtons.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: TwinButtons
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/experimental/Button/native/TwinButtons.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: TwinButtons
         entity = argFoo;
-        options = entity.children;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot2;
+        option = entity.children;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        entity = zulu[entity];
-        tango = undefined;
-        mike = mike.bind(tango)(entity);
-        entity = mike.useFontScale;
-        zulu = entity.bind(mike)();
-        mike = _closure1_slot6;
+        entity = zuuluu[entity];
+        tangon = undefined;
+        michal = michal.bind(tangon)(entity);
+        entity = michal.useFontScale;
+        zuuluu = entity.bind(michal)();
+        michal = _closure1_slot6;
         entity = 1.2;
-        entity = zulu > entity;
-        golf = mike.bind(tango)(entity);
-        var _closure2_slot0 = golf;
-        zulu = _closure1_slot5;
-        mike = _closure1_slot4;
+        entity = zuuluu > entity;
+        golfie = michal.bind(tangon)(entity);
+        var _closure2_slot0 = golfie;
+        zuuluu = _closure1_slot5;
+        michal = _closure1_slot4;
         entity = {};
-        golf = golf.container;
-        entity['style'] = golf;
-        oscar = _closure1_slot3;
-        golf = oscar.Children;
-        oscar = golf.map;
+        golfie = golfie.container;
+        entity['style'] = golfie;
+        oscard = _closure1_slot3;
+        golfie = oscard.Children;
+        oscard = golfie.map;
         report = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                oscar = argFoo;
-                zulu = _closure1_slot3;
-                entity = zulu.isValidElement;
-                zulu = entity.bind(zulu)(oscar);
+                oscard = argFoo;
+                zuuluu = _closure1_slot3;
+                entity = zuuluu.isValidElement;
+                zuuluu = entity.bind(zuuluu)(oscard);
                 entity = null;
-                if(!zulu) { _fun00004_ip = 102; continue _fun00003 }
+                if(!zuuluu) { _fun00004_ip = 102; continue _fun00003 }
  26:
-                tango = oscar.type;
-                options = _closure1_slot0;
+                tangon = oscard.type;
+                option = _closure1_slot0;
                 report = _closure1_slot2;
-                zulu = 6;
-                zulu = report[zulu];
+                zuuluu = 6;
+                zuuluu = report[zuuluu];
                 report = undefined;
-                zulu = options.bind(report)(zulu);
-                zulu = zulu.Button;
+                zuuluu = option.bind(report)(zuuluu);
+                zuuluu = zuuluu.Button;
                 entity = null;
-                if(!(tango === zulu)) { _fun00004_ip = 102; continue _fun00003 }
+                if(!(tangon === zuuluu)) { _fun00004_ip = 102; continue _fun00003 }
  65:
-                tango = _closure1_slot5;
-                zulu = _closure1_slot4;
-                mike = {};
-                golf = _closure2_slot0;
-                golf = golf.button;
-                mike['style'] = golf;
-                mike['children'] = oscar;
-                entity = tango.bind(report)(zulu, mike);
+                tangon = _closure1_slot5;
+                zuuluu = _closure1_slot4;
+                michal = {};
+                golfie = _closure2_slot0;
+                golfie = golfie.button;
+                michal['style'] = golfie;
+                michal['children'] = oscard;
+                entity = tangon.bind(report)(zuuluu, michal);
  102:
                 return entity;
             }
         };
-        report = oscar.bind(golf)(options, report);
+        report = oscard.bind(golfie)(option, report);
         entity['children'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['TwinButtons'] = mike;
+    zuuluu['TwinButtons'] = michal;
     return entity;
 })();

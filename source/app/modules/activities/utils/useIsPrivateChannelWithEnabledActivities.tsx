@@ -1,90 +1,90 @@
 // app/modules/activities/utils/useIsPrivateChannelWithEnabledActivities.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/useIsPrivateChannelWithEnabledActivities.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useIsPrivateChannelWithEnabledActivities
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/useIsPrivateChannelWithEnabledActivities.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useIsPrivateChannelWithEnabledActivities
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            report = report.bind(mike)(tango);
-            tango = report.useStateFromStores;
-            oscar = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = oscar;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = report.useStateFromStores;
+            oscard = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = oscard;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getChannel;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            tango = tango.bind(report)(zulu, entity);
+            tangon = tangon.bind(report)(zuuluu, entity);
             entity = null;
-            zulu = entity == tango;
-            if(zulu) { _fun00002_ip = 81; continue _fun00001 }
+            zuuluu = entity == tangon;
+            if(zuuluu) { _fun00002_ip = 81; continue _fun00001 }
  71:
-            zulu = tango.isPrivate;
-            mike = zulu.bind(tango)();
+            zuuluu = tangon.isPrivate;
+            michal = zuuluu.bind(tangon)();
  81:
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 91; continue _fun00001 }
  88:
-            entity = mike;
+            entity = michal;
  91:
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: isPrivateChannelWithEnabledActivities
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: isPrivateChannelWithEnabledActivities
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00004_ip = 57; continue _fun00003 }
+            if(!(entity != tangon)) { _fun00004_ip = 57; continue _fun00003 }
  9:
-            zulu = _closure1_slot2;
-            mike = zulu.getChannel;
-            tango = mike.bind(zulu)(tango);
-            zulu = entity == tango;
-            mike = undefined;
-            if(zulu) { _fun00004_ip = 45; continue _fun00003 }
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.getChannel;
+            tangon = michal.bind(zuuluu)(tangon);
+            zuuluu = entity == tangon;
+            michal = undefined;
+            if(zuuluu) { _fun00004_ip = 45; continue _fun00003 }
  35:
-            zulu = tango.isPrivate;
-            mike = zulu.bind(tango)();
+            zuuluu = tangon.isPrivate;
+            michal = zuuluu.bind(tangon)();
  45:
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  52:
-            entity = mike;
+            entity = michal;
  55:
             return entity;
  57:
@@ -92,6 +92,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['isPrivateChannelWithEnabledActivities'] = mike;
+    zuuluu['isPrivateChannelWithEnabledActivities'] = michal;
     return entity;
 })();

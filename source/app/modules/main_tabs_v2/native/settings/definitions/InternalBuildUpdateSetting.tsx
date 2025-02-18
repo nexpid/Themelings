@@ -1,282 +1,282 @@
 // app/modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    entity = argCorge;
+    var _closure1_slot1 = option;
+    entity = argCor;
     var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscar;
+    var _closure1_slot3 = oscard;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    mike = {};
-    tango = true;
-    mike['value'] = tango;
+    michal = {};
+    tangon = true;
+    michal['value'] = tangon;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, mike);
+    entity = verify.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = options.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.RendererType;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot5 = mike;
-    mike = {};
-    options = options.PRESSABLE;
-    mike['type'] = options;
-    options = function() { // Original name: useInternalBuildUpdateTitle
+    michal = option.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    option = michal.RendererType;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot5 = michal;
+    michal = {};
+    option = option.PRESSABLE;
+    michal['type'] = option;
+    option = function() { // Original name: useInternalBuildUpdateTitle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
-            golf = _closure1_slot3;
-            zulu = 4;
-            oscar = golf[zulu];
-            tango = undefined;
-            offset = report.bind(tango)(oscar);
+            golfie = _closure1_slot3;
+            zuuluu = 4;
+            oscard = golfie[zuuluu];
+            tangon = undefined;
+            offset = report.bind(tangon)(oscard);
             verify = offset.useStateFromStores;
-            oscar = _closure1_slot4;
-            options = new Array(1);
-            options[0] = oscar;
+            oscard = _closure1_slot4;
+            option = new Array(1);
+            option[0] = oscard;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure1_slot4;
-                    entity = mike.latestFetchedBuild;
-                    entity = entity.bind(mike)();
-                    mike = entity.newBuild;
+                    michal = _closure1_slot4;
+                    entity = michal.latestFetchedBuild;
+                    entity = entity.bind(michal)();
+                    michal = entity.newBuild;
                     entity = null;
-                    zulu = entity == mike;
+                    zuuluu = entity == michal;
                     entity = undefined;
-                    if(zulu) { _fun00004_ip = 40; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 40; continue _fun00003 }
  34:
-                    entity = mike.build;
+                    entity = michal.build;
  40:
                     return entity;
                 }
             };
-            entity = verify.bind(offset)(options, entity);
-            zulu = golf[zulu];
-            report = report.bind(tango)(zulu);
-            tango = report.useStateFromStores;
-            zulu = new Array(1);
-            zulu[0] = oscar;
-            mike = function() {
-                mike = _closure1_slot4;
-                entity = mike.latestFetchedBuild;
-                entity = entity.bind(mike)();
+            entity = verify.bind(offset)(option, entity);
+            zuuluu = golfie[zuuluu];
+            report = report.bind(tangon)(zuuluu);
+            tangon = report.useStateFromStores;
+            zuuluu = new Array(1);
+            zuuluu[0] = oscard;
+            michal = function() {
+                michal = _closure1_slot4;
+                entity = michal.latestFetchedBuild;
+                entity = entity.bind(michal)();
                 entity = entity.lastCheck;
                 return entity;
             };
-            zulu = tango.bind(report)(zulu, mike);
-            mike = null;
-            tango = mike != entity;
+            zuuluu = tangon.bind(report)(zuuluu, michal);
+            michal = null;
+            tangon = michal != entity;
             entity = 'Internal Build Update Ready';
-            if(tango) { _fun00002_ip = 129; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 129; continue _fun00001 }
  107:
-            zulu = mike != zulu;
-            mike = 'Internal Build Refresh Error';
-            if(!zulu) { _fun00002_ip = 126; continue _fun00001 }
+            zuuluu = michal != zuuluu;
+            michal = 'Internal Build Refresh Error';
+            if(!zuuluu) { _fun00002_ip = 126; continue _fun00001 }
  120:
-            mike = 'Internal Build Up To Date';
+            michal = 'Internal Build Up To Date';
  126:
-            entity = mike;
+            entity = michal;
  129:
             return entity;
         }
     };
-    mike['title'] = options;
-    options = null;
-    mike['parent'] = options;
-    options = function() { // Original name: InstallNativeUpdateIcon
+    michal['title'] = option;
+    option = null;
+    michal['parent'] = option;
+    option = function() { // Original name: InstallNativeUpdateIcon
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot3;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot3;
             entity = 4;
-            entity = tango[entity];
-            tango = undefined;
-            oscar = zulu.bind(tango)(entity);
-            report = oscar.useStateFromStores;
+            entity = tangon[entity];
+            tangon = undefined;
+            oscard = zuuluu.bind(tangon)(entity);
+            report = oscard.useStateFromStores;
             entity = _closure1_slot4;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
-                mike = _closure1_slot4;
-                entity = mike.latestFetchedBuild;
-                entity = entity.bind(mike)();
-                mike = entity.newBuild;
+                michal = _closure1_slot4;
+                entity = michal.latestFetchedBuild;
+                entity = entity.bind(michal)();
+                michal = entity.newBuild;
                 entity = null;
-                entity = entity !== mike;
+                entity = entity !== michal;
                 return entity;
             };
-            entity = report.bind(oscar)(zulu, entity);
-            zulu = _closure1_slot5;
+            entity = report.bind(oscard)(zuuluu, entity);
+            zuuluu = _closure1_slot5;
             report = _closure1_slot0;
-            oscar = _closure1_slot3;
+            oscard = _closure1_slot3;
             if(entity) { _fun00006_ip = 92; continue _fun00005 }
  72:
             entity = 8;
-            entity = oscar[entity];
-            entity = report.bind(tango)(entity);
-            mike = entity.RefreshIcon;
+            entity = oscard[entity];
+            entity = report.bind(tangon)(entity);
+            michal = entity.RefreshIcon;
             _fun00006_ip = 110; continue _fun00005;
  92:
             entity = 7;
-            entity = oscar[entity];
-            entity = report.bind(tango)(entity);
-            mike = entity.DownloadIcon;
+            entity = oscard[entity];
+            entity = report.bind(tangon)(entity);
+            michal = entity.DownloadIcon;
  110:
             entity = {};
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    mike['IconComponent'] = options;
-    options = function() { // Original name: useInternalBuildUpdateDescription
+    michal['IconComponent'] = option;
+    option = function() { // Original name: useInternalBuildUpdateDescription
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot3;
-            zulu = 4;
-            report = golf[zulu];
-            tango = undefined;
-            yankee = oscar.bind(tango)(report);
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot3;
+            zuuluu = 4;
+            report = golfie[zuuluu];
+            tangon = undefined;
+            yankee = oscard.bind(tangon)(report);
             offset = yankee.useStateFromStores;
-            options = _closure1_slot4;
+            option = _closure1_slot4;
             verify = new Array(1);
-            verify[0] = options;
+            verify[0] = option;
             report = function() {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                    mike = _closure1_slot4;
-                    entity = mike.latestFetchedBuild;
-                    entity = entity.bind(mike)();
-                    mike = entity.newBuild;
+                    michal = _closure1_slot4;
+                    entity = michal.latestFetchedBuild;
+                    entity = entity.bind(michal)();
+                    michal = entity.newBuild;
                     entity = null;
-                    zulu = entity == mike;
+                    zuuluu = entity == michal;
                     entity = undefined;
-                    if(zulu) { _fun00010_ip = 40; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 40; continue _fun00009 }
  34:
-                    entity = mike.build;
+                    entity = michal.build;
  40:
                     return entity;
                 }
             };
             report = offset.bind(yankee)(verify, report);
-            zulu = golf[zulu];
-            golf = oscar.bind(tango)(zulu);
-            oscar = golf.useStateFromStores;
-            zulu = new Array(1);
-            zulu[0] = options;
+            zuuluu = golfie[zuuluu];
+            golfie = oscard.bind(tangon)(zuuluu);
+            oscard = golfie.useStateFromStores;
+            zuuluu = new Array(1);
+            zuuluu[0] = option;
             entity = function() {
-                mike = _closure1_slot4;
-                entity = mike.latestFetchedBuild;
-                entity = entity.bind(mike)();
+                michal = _closure1_slot4;
+                entity = michal.latestFetchedBuild;
+                entity = entity.bind(michal)();
                 entity = entity.lastCheck;
                 return entity;
             };
-            zulu = oscar.bind(golf)(zulu, entity);
+            zuuluu = oscard.bind(golfie)(zuuluu, entity);
             entity = null;
             if(!(entity == report)) { _fun00008_ip = 172; continue _fun00007 }
  98:
-            oscar = entity != zulu;
+            oscard = entity != zuuluu;
             entity = 'Never refreshed';
-            if(!oscar) { _fun00008_ip = 170; continue _fun00007 }
+            if(!oscard) { _fun00008_ip = 170; continue _fun00007 }
  111:
-            oscar = _closure1_slot1;
-            golf = _closure1_slot3;
-            mike = 5;
-            mike = golf[mike];
-            mike = oscar.bind(tango)(mike);
-            zulu = mike.bind(tango)(zulu);
-            mike = zulu.fromNow;
-            tango = mike.bind(zulu)();
-            mike = global;
-            mike = mike.HermesInternal;
-            zulu = mike.concat;
-            mike = 'Last refreshed ';
-            entity = zulu.bind(mike)(tango);
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot3;
+            michal = 5;
+            michal = golfie[michal];
+            michal = oscard.bind(tangon)(michal);
+            zuuluu = michal.bind(tangon)(zuuluu);
+            michal = zuuluu.fromNow;
+            tangon = michal.bind(zuuluu)();
+            michal = global;
+            michal = michal.HermesInternal;
+            zuuluu = michal.concat;
+            michal = 'Last refreshed ';
+            entity = zuuluu.bind(michal)(tangon);
  170:
             _fun00008_ip = 203; continue _fun00007;
  172:
-            mike = global;
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            zulu = 'Open build ';
-            mike = ' installer in a browser';
-            entity = tango.bind(zulu)(report, mike);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = 'Open build ';
+            michal = ' installer in a browser';
+            entity = tangon.bind(zuuluu)(report, michal);
  203:
             return entity;
         }
     };
-    mike['useDescription'] = options;
-    options = function() { // Original name: useHasInternalBuildUpdateSetting
+    michal['useDescription'] = option;
+    option = function() { // Original name: useHasInternalBuildUpdateSetting
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot3;
-            mike = 6;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = tango.bind(mike)(zulu);
-            mike = zulu.useStaffOrDevEnvSettingPredicate;
-            mike = mike.bind(zulu)();
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot3;
+            michal = 6;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.useStaffOrDevEnvSettingPredicate;
+            michal = michal.bind(zuuluu)();
             entity = _closure1_slot4;
             entity = entity.hasUpdatesConfigured;
             if(!entity) { _fun00012_ip = 51; continue _fun00011 }
  48:
-            entity = mike;
+            entity = michal;
  51:
             return entity;
         }
     };
-    mike['usePredicate'] = options;
-    golf = function() { // Original name: handleInstallNativeUpdateSettingPress
+    michal['usePredicate'] = option;
+    golfie = function() { // Original name: handleInstallNativeUpdateSettingPress
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            zulu = _closure1_slot4;
-            mike = zulu.latestFetchedBuild;
-            mike = mike.bind(zulu)();
-            zulu = mike.newBuild;
-            mike = null;
-            if(!(mike === zulu)) { _fun00014_ip = 45; continue _fun00013 }
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.latestFetchedBuild;
+            michal = michal.bind(zuuluu)();
+            zuuluu = michal.newBuild;
+            michal = null;
+            if(!(michal === zuuluu)) { _fun00014_ip = 45; continue _fun00013 }
  29:
-            tango = _closure1_slot4;
-            mike = tango.checkForNewerBuild;
-            mike = mike.bind(tango)();
+            tangon = _closure1_slot4;
+            michal = tangon.checkForNewerBuild;
+            michal = michal.bind(tangon)();
             _fun00014_ip = 78; continue _fun00013;
  45:
-            tango = _closure1_slot2;
-            mike = _closure1_slot3;
+            tangon = _closure1_slot2;
+            michal = _closure1_slot3;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.openBuildInstaller;
-            entity = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.openBuildInstaller;
+            entity = entity.bind(michal)(zuuluu);
  78:
             entity = undefined;
             return entity;
         }
     };
-    mike['onPress'] = golf;
-    mike['withArrow'] = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['onPress'] = golfie;
+    michal['withArrow'] = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

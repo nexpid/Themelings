@@ -1,42 +1,42 @@
 // app/modules/reactions/ReactionUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    tango = function(argFoo) { // Original name: getReactionEmojiName
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo) { // Original name: getReactionEmojiName
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.id;
+            michal = argFoo;
+            zuuluu = michal.id;
             entity = null;
-            if(!(entity != zulu)) { _fun00002_ip = 44; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 44; continue _fun00001 }
  14:
-            tango = mike.name;
+            tangon = michal.name;
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
+            zuuluu = entity.concat;
             entity = ':';
-            entity = zulu.bind(entity)(tango, entity);
+            entity = zuuluu.bind(entity)(tangon, entity);
             _fun00002_ip = 85; continue _fun00001;
  44:
             report = _closure1_slot1;
-            tango = _closure1_slot2;
-            zulu = 3;
-            tango = tango[zulu];
-            zulu = undefined;
-            tango = report.bind(zulu)(tango);
-            zulu = tango.convertSurrogateToName;
-            mike = mike.name;
-            entity = zulu.bind(tango)(mike);
+            tangon = _closure1_slot2;
+            zuuluu = 3;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            tangon = report.bind(zuuluu)(tangon);
+            zuuluu = tangon.convertSurrogateToName;
+            michal = michal.name;
+            entity = zuuluu.bind(tangon)(michal);
  85:
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -44,274 +44,274 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.AnalyticsSections;
-    var _closure1_slot4 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.AnalyticsSections;
+    var _closure1_slot4 = option;
     report = report.AnalyticEvents;
     var _closure1_slot5 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.NotificationSettingsUpdateType;
     var _closure1_slot6 = report;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/reactions/ReactionUtils.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = 20;
-    zulu['MAX_REACTIONS'] = report;
-    zulu['getReactionEmojiName'] = tango;
-    tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: getAccessibleEmojiDisplayName
+    zuuluu['MAX_REACTIONS'] = report;
+    zuuluu['getReactionEmojiName'] = tangon;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: getAccessibleEmojiDisplayName
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
-            zulu = 4;
-            mike = mike[zulu];
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            zuuluu = 4;
+            michal = michal[zuuluu];
             verify = undefined;
-            mike = tango.bind(verify)(mike);
-            mike = mike.t;
-            tango = argCorge;
-            if(tango) { _fun00004_ip = 62; continue _fun00003 }
+            michal = tangon.bind(verify)(michal);
+            michal = michal.t;
+            tangon = argCor;
+            if(tangon) { _fun00004_ip = 62; continue _fun00003 }
  39:
             if(entity) { _fun00004_ip = 52; continue _fun00003 }
  42:
-            tango = mike.PirBBA;
+            tangon = michal.PirBBA;
             _fun00004_ip = 60; continue _fun00003;
  52:
-            tango = mike.CLuzw8;
+            tangon = michal.CLuzw8;
  60:
             _fun00004_ip = 86; continue _fun00003;
  62:
             if(entity) { _fun00004_ip = 75; continue _fun00003 }
  65:
-            entity = mike.Z/l+qq;
+            entity = michal.Z/l+qq;
             _fun00004_ip = 83; continue _fun00003;
  75:
-            entity = mike.i9DXqK;
+            entity = michal.i9DXqK;
  83:
-            tango = entity;
+            tangon = entity;
  86:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[zulu];
-            entity = mike.bind(verify)(entity);
-            zulu = entity.intl;
-            mike = zulu.formatToPlainString;
+            entity = entity[zuuluu];
+            entity = michal.bind(verify)(entity);
+            zuuluu = entity.intl;
+            michal = zuuluu.formatToPlainString;
             entity = {};
-            oscar = argBar;
-            entity['reactions'] = oscar;
-            oscar = _closure1_slot7;
+            oscard = argBar;
+            entity['reactions'] = oscard;
+            oscard = _closure1_slot7;
             report = argBaz;
-            yankee = oscar.bind(verify)(report);
+            yankee = oscard.bind(verify)(report);
             report = null;
-            golf = report == yankee;
-            oscar = undefined;
-            if(golf) { _fun00004_ip = 194; continue _fun00003 }
+            golfie = report == yankee;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 194; continue _fun00003 }
  146:
             offset = yankee.replace;
-            options = /[:_]/g;
-            golf = ' ';
-            options = offset.bind(yankee)(options, golf);
-            golf = report == options;
-            oscar = undefined;
-            if(golf) { _fun00004_ip = 194; continue _fun00003 }
+            option = /[:_]/g;
+            golfie = ' ';
+            option = offset.bind(yankee)(option, golfie);
+            golfie = report == option;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 194; continue _fun00003 }
  184:
-            golf = options.trim;
-            oscar = golf.bind(options)();
+            golfie = option.trim;
+            oscard = golfie.bind(option)();
  194:
-            golf = report != oscar;
+            golfie = report != oscard;
             report = '';
-            if(!golf) { _fun00004_ip = 208; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 208; continue _fun00003 }
  205:
-            report = oscar;
+            report = oscard;
  208:
             entity['emojiName'] = report;
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
-    zulu['getAccessibleEmojiDisplayName'] = tango;
-    tango = function(argFoo) { // Original name: toReactionEmoji
+    zuuluu['getAccessibleEmojiDisplayName'] = tangon;
+    tangon = function(argFoo) { // Original name: toReactionEmoji
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = {};
-            report = mike.id;
-            zulu = null;
-            oscar = zulu != report;
-            tango = null;
-            if(!oscar) { _fun00006_ip = 24; continue _fun00005 }
+            report = michal.id;
+            zuuluu = null;
+            oscard = zuuluu != report;
+            tangon = null;
+            if(!oscard) { _fun00006_ip = 24; continue _fun00005 }
  21:
-            tango = report;
+            tangon = report;
  24:
-            entity['id'] = tango;
-            tango = mike.id;
-            if(!(zulu == tango)) { _fun00006_ip = 45; continue _fun00005 }
+            entity['id'] = tangon;
+            tangon = michal.id;
+            if(!(zuuluu == tangon)) { _fun00006_ip = 45; continue _fun00005 }
  37:
-            tango = mike.optionallyDiverseSequence;
+            tangon = michal.optionallyDiverseSequence;
             _fun00006_ip = 50; continue _fun00005;
  45:
-            tango = mike.name;
+            tangon = michal.name;
  50:
-            if(!(zulu == tango)) { _fun00006_ip = 59; continue _fun00005 }
+            if(!(zuuluu == tangon)) { _fun00006_ip = 59; continue _fun00005 }
  54:
-            tango = mike.name;
+            tangon = michal.name;
  59:
-            report = zulu != tango;
-            zulu = '';
+            report = zuuluu != tangon;
+            zuuluu = '';
             if(!report) { _fun00006_ip = 73; continue _fun00005 }
  70:
-            zulu = tango;
+            zuuluu = tangon;
  73:
-            entity['name'] = zulu;
-            zulu = global;
-            tango = zulu.Boolean;
-            zulu = mike.animated;
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            entity['animated'] = mike;
+            entity['name'] = zuuluu;
+            zuuluu = global;
+            tangon = zuuluu.Boolean;
+            zuuluu = michal.animated;
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            entity['animated'] = michal;
             return entity;
         }
     };
-    zulu['toReactionEmoji'] = tango;
-    tango = function(argFoo, argBar) { // Original name: emojiEquals
+    zuuluu['toReactionEmoji'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: emojiEquals
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = argBar;
-            mike = entity.id;
-            tango = null;
-            if(!(tango == mike)) { _fun00008_ip = 45; continue _fun00007 }
+            michal = entity.id;
+            tangon = null;
+            if(!(tangon == michal)) { _fun00008_ip = 45; continue _fun00007 }
  17:
-            mike = zulu.id;
-            mike = tango == mike;
-            if(!mike) { _fun00008_ip = 43; continue _fun00007 }
+            michal = zuuluu.id;
+            michal = tangon == michal;
+            if(!michal) { _fun00008_ip = 43; continue _fun00007 }
  29:
-            oscar = entity.name;
-            report = zulu.name;
-            mike = oscar === report;
+            oscard = entity.name;
+            report = zuuluu.name;
+            michal = oscard === report;
  43:
-            return mike;
+            return michal;
  45:
-            mike = zulu.id;
-            if(!(tango == mike)) { _fun00008_ip = 61; continue _fun00007 }
+            michal = zuuluu.id;
+            if(!(tangon == michal)) { _fun00008_ip = 61; continue _fun00007 }
  54:
-            mike = zulu.id;
+            michal = zuuluu.id;
             _fun00008_ip = 88; continue _fun00007;
  61:
-            report = zulu.id;
-            zulu = global;
-            zulu = zulu.HermesInternal;
-            tango = zulu.concat;
-            zulu = '';
-            mike = tango.bind(zulu)(report);
+            report = zuuluu.id;
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            tangon = zuuluu.concat;
+            zuuluu = '';
+            michal = tangon.bind(zuuluu)(report);
  88:
-            tango = entity.id;
+            tangon = entity.id;
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
+            zuuluu = entity.concat;
             entity = '';
-            entity = zulu.bind(entity)(tango);
-            entity = entity === mike;
+            entity = zuuluu.bind(entity)(tangon);
+            entity = entity === michal;
             return entity;
         }
     };
-    zulu['emojiEquals'] = tango;
-    tango = function(argFoo) { // Original name: getBurstAnalyticsSection
+    zuuluu['emojiEquals'] = tangon;
+    tangon = function(argFoo) { // Original name: getBurstAnalyticsSection
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zulu = argFoo;
-            entity = zulu.isThread;
-            entity = entity.bind(zulu)();
+            zuuluu = argFoo;
+            entity = zuuluu.isThread;
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00010_ip = 77; continue _fun00009 }
  19:
-            entity = zulu.isForumPost;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.isForumPost;
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00010_ip = 65; continue _fun00009 }
  32:
-            entity = zulu.isGuildVocal;
-            entity = entity.bind(zulu)();
-            zulu = _closure1_slot4;
+            entity = zuuluu.isGuildVocal;
+            entity = entity.bind(zuuluu)();
+            zuuluu = _closure1_slot4;
             if(entity) { _fun00010_ip = 57; continue _fun00009 }
  49:
-            entity = zulu.CHANNEL_TEXT_AREA;
+            entity = zuuluu.CHANNEL_TEXT_AREA;
             _fun00010_ip = 63; continue _fun00009;
  57:
-            entity = zulu.TEXT_IN_VOICE;
+            entity = zuuluu.TEXT_IN_VOICE;
  63:
             _fun00010_ip = 75; continue _fun00009;
  65:
-            zulu = _closure1_slot4;
-            entity = zulu.FORUM_CHANNEL_TEXT_AREA;
+            zuuluu = _closure1_slot4;
+            entity = zuuluu.FORUM_CHANNEL_TEXT_AREA;
  75:
             _fun00010_ip = 87; continue _fun00009;
  77:
-            mike = _closure1_slot4;
-            entity = mike.THREAD_TEXT_AREA;
+            michal = _closure1_slot4;
+            entity = michal.THREAD_TEXT_AREA;
  87:
             return entity;
         }
     };
-    zulu['getBurstAnalyticsSection'] = tango;
-    tango = function(argFoo) { // Original name: shouldApplyReaction
+    zuuluu['getBurstAnalyticsSection'] = tangon;
+    tangon = function(argFoo) { // Original name: shouldApplyReaction
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            zulu = entity.userId;
+            zuuluu = entity.userId;
             entity = entity.optimistic;
-            tango = _closure1_slot3;
-            mike = tango.getId;
-            mike = mike.bind(tango)();
+            tangon = _closure1_slot3;
+            michal = tangon.getId;
+            michal = michal.bind(tangon)();
             if(!entity) { _fun00012_ip = 41; continue _fun00011 }
  34:
-            mike = mike === zulu;
-            entity = !mike;
+            michal = michal === zuuluu;
+            entity = !michal;
  41:
             entity = !entity;
             return entity;
         }
     };
-    zulu['shouldApplyReaction'] = tango;
-    mike = function(argFoo, argBar) { // Original name: updateReactionNotificationsSetting
-        oscar = argFoo;
-        zulu = _closure1_slot0;
-        tango = _closure1_slot2;
+    zuuluu['shouldApplyReaction'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: updateReactionNotificationsSetting
+        oscard = argFoo;
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot2;
         entity = 5;
-        mike = tango[entity];
+        michal = tangon[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        zulu = mike.ReactionNotifications;
-        mike = zulu.updateSetting;
-        mike = mike.bind(zulu)(oscar);
-        zulu = _closure1_slot1;
-        mike = 6;
-        mike = tango[mike];
-        report = zulu.bind(entity)(mike);
-        tango = report.track;
-        mike = _closure1_slot5;
-        zulu = mike.NOTIFICATION_SETTINGS_UPDATED;
-        mike = {};
-        golf = _closure1_slot6;
-        golf = golf.ACCOUNT;
-        mike['update_type'] = golf;
-        mike['reaction_notifications'] = oscar;
-        oscar = argBar;
-        mike['reaction_notifications_old'] = oscar;
-        mike = tango.bind(report)(zulu, mike);
+        michal = zuuluu.bind(entity)(michal);
+        zuuluu = michal.ReactionNotifications;
+        michal = zuuluu.updateSetting;
+        michal = michal.bind(zuuluu)(oscard);
+        zuuluu = _closure1_slot1;
+        michal = 6;
+        michal = tangon[michal];
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.track;
+        michal = _closure1_slot5;
+        zuuluu = michal.NOTIFICATION_SETTINGS_UPDATED;
+        michal = {};
+        golfie = _closure1_slot6;
+        golfie = golfie.ACCOUNT;
+        michal['update_type'] = golfie;
+        michal['reaction_notifications'] = oscard;
+        oscard = argBar;
+        michal['reaction_notifications_old'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['updateReactionNotificationsSetting'] = mike;
+    zuuluu['updateReactionNotificationsSetting'] = michal;
     return entity;
 })();

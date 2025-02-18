@@ -1,185 +1,185 @@
 // app/modules/user_settings/FriendRequestDefaultEveryoneOff.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = 0;
-    report = options[tango];
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = 0;
+    report = option[tangon];
     entity = undefined;
-    offset = golf.bind(entity)(report);
+    offset = golfie.bind(entity)(report);
     verify = offset.createExperiment;
     report = {'kind': 'user', 'id': '2025-01_friend_requests_alerts', 'label': 'Friend Request Setting Defaults'};
-    oscar = {'enabled': false, 'bucket': 0};
-    report['defaultConfig'] = oscar;
-    romeo = {'id': 1, 'label': 'warning'};
-    oscar = 1;
+    oscard = {'enabled': false, 'bucket': 0};
+    report['defaultConfig'] = oscard;
+    romeon = {'id': 1, 'label': 'warning'};
+    oscard = 1;
     yankee = {'enabled': true, 'bucket': 1};
-    romeo['config'] = yankee;
+    romeon['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = romeo;
-    romeo = {'id': 2, 'label': 'defaults'};
-    foxtrot = {'enabled': true, 'bucket': 2};
-    romeo['config'] = foxtrot;
-    yankee[1] = romeo;
+    yankee[0] = romeon;
+    romeon = {'id': 2, 'label': 'defaults'};
+    foxtra = {'enabled': true, 'bucket': 2};
+    romeon['config'] = foxtra;
+    yankee[1] = romeon;
     report['treatments'] = yankee;
     report = verify.bind(offset)(report);
     var _closure1_slot0 = report;
-    tango = options[tango];
-    offset = golf.bind(entity)(tango);
+    tangon = option[tangon];
+    offset = golfie.bind(entity)(tangon);
     verify = offset.createExperiment;
-    tango = {'kind': 'user', 'id': '2025-01_friend_requests_alerts_new_users', 'label': 'Friend Request Setting Defaults'};
+    tangon = {'kind': 'user', 'id': '2025-01_friend_requests_alerts_new_users', 'label': 'Friend Request Setting Defaults'};
     yankee = {'enabled': false, 'bucket': 0};
-    tango['defaultConfig'] = yankee;
-    romeo = {'id': 1, 'label': 'warning'};
+    tangon['defaultConfig'] = yankee;
+    romeon = {'id': 1, 'label': 'warning'};
     yankee = {'enabled': true, 'bucket': 1};
-    romeo['config'] = yankee;
+    romeon['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = romeo;
-    romeo = {'id': 2, 'label': 'defaults'};
-    foxtrot = {'enabled': true, 'bucket': 2};
-    romeo['config'] = foxtrot;
-    yankee[1] = romeo;
-    tango['treatments'] = yankee;
-    tango = verify.bind(offset)(tango);
-    var _closure1_slot1 = tango;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/user_settings/FriendRequestDefaultEveryoneOff.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['FriendRequestDefaultEveryoneOff'] = report;
-    zulu['FriendRequestDefaultEveryoneOffNewUsers'] = tango;
-    tango = function(argFoo) {
+    yankee[0] = romeon;
+    romeon = {'id': 2, 'label': 'defaults'};
+    foxtra = {'enabled': true, 'bucket': 2};
+    romeon['config'] = foxtra;
+    yankee[1] = romeon;
+    tangon['treatments'] = yankee;
+    tangon = verify.bind(offset)(tangon);
+    var _closure1_slot1 = tangon;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/user_settings/FriendRequestDefaultEveryoneOff.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['FriendRequestDefaultEveryoneOff'] = report;
+    zuuluu['FriendRequestDefaultEveryoneOffNewUsers'] = tangon;
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            oscar = _closure1_slot0;
-            report = oscar.getCurrentConfig;
-            zulu = {};
-            zulu['location'] = mike;
+            michal = argFoo;
+            oscard = _closure1_slot0;
+            report = oscard.getCurrentConfig;
+            zuuluu = {};
+            zuuluu['location'] = michal;
             entity = {};
-            golf = false;
-            entity['autoTrackExposure'] = golf;
-            entity = report.bind(oscar)(zulu, entity);
+            golfie = false;
+            entity['autoTrackExposure'] = golfie;
+            entity = report.bind(oscard)(zuuluu, entity);
             entity = entity.bucket;
-            zulu = 2;
-            entity = zulu === entity;
+            zuuluu = 2;
+            entity = zuuluu === entity;
             if(entity) { _fun00002_ip = 92; continue _fun00001 }
  53:
-            oscar = _closure1_slot1;
-            report = oscar.getCurrentConfig;
-            tango = {};
-            tango['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = golf;
-            mike = report.bind(oscar)(tango, mike);
-            mike = mike.bucket;
-            entity = zulu === mike;
+            oscard = _closure1_slot1;
+            report = oscard.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = golfie;
+            michal = report.bind(oscard)(tangon, michal);
+            michal = michal.bucket;
+            entity = zuuluu === michal;
  92:
             return entity;
         }
     };
-    zulu['isEligibleForFriendRequestDefaults'] = tango;
-    tango = function(argFoo) {
+    zuuluu['isEligibleForFriendRequestDefaults'] = tangon;
+    tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            oscar = _closure1_slot0;
-            report = oscar.getCurrentConfig;
-            zulu = {};
-            zulu['location'] = mike;
+            michal = argFoo;
+            oscard = _closure1_slot0;
+            report = oscard.getCurrentConfig;
+            zuuluu = {};
+            zuuluu['location'] = michal;
             entity = {};
-            golf = false;
-            entity['autoTrackExposure'] = golf;
-            entity = report.bind(oscar)(zulu, entity);
+            golfie = false;
+            entity['autoTrackExposure'] = golfie;
+            entity = report.bind(oscard)(zuuluu, entity);
             entity = entity.bucket;
-            zulu = 1;
-            entity = zulu === entity;
+            zuuluu = 1;
+            entity = zuuluu === entity;
             if(entity) { _fun00004_ip = 92; continue _fun00003 }
  53:
-            oscar = _closure1_slot1;
-            report = oscar.getCurrentConfig;
-            tango = {};
-            tango['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = golf;
-            mike = report.bind(oscar)(tango, mike);
-            mike = mike.bucket;
-            entity = zulu === mike;
+            oscard = _closure1_slot1;
+            report = oscard.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = golfie;
+            michal = report.bind(oscard)(tangon, michal);
+            michal = michal.bucket;
+            entity = zuuluu === michal;
  92:
             return entity;
         }
     };
-    zulu['isEligibleForFriendRequestAlerts'] = tango;
-    tango = function(argFoo) {
+    zuuluu['isEligibleForFriendRequestAlerts'] = tangon;
+    tangon = function(argFoo) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot0;
-            report = golf.useExperiment;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot0;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             entity = entity.bucket;
             report = _closure1_slot1;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            zulu = mike.bucket;
-            mike = 2;
-            entity = mike === entity;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu = michal.bucket;
+            michal = 2;
+            entity = michal === entity;
             if(entity) { _fun00006_ip = 92; continue _fun00005 }
  88:
-            entity = mike === zulu;
+            entity = michal === zuuluu;
  92:
             return entity;
         }
     };
-    zulu['useIsEligibleForFriendRequestDefaults'] = tango;
-    mike = function(argFoo) {
+    zuuluu['useIsEligibleForFriendRequestDefaults'] = tangon;
+    michal = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot0;
-            report = golf.useExperiment;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot0;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             entity = entity.bucket;
             report = _closure1_slot1;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            zulu = mike.bucket;
-            mike = 1;
-            entity = mike === entity;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu = michal.bucket;
+            michal = 1;
+            entity = michal === entity;
             if(entity) { _fun00008_ip = 92; continue _fun00007 }
  88:
-            entity = mike === zulu;
+            entity = michal === zuuluu;
  92:
             return entity;
         }
     };
-    zulu['useIsEligibleForFriendRequestAlerts'] = mike;
+    zuuluu['useIsEligibleForFriendRequestAlerts'] = michal;
     return entity;
 })();

@@ -1,64 +1,64 @@
 // app/modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 4;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: openSoundmojiActionSheet
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: openSoundmojiActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            report = tango.bind(entity)(mike);
-            tango = report.getSoundmojiRenderingExperiment;
-            mike = {};
-            oscar = 'openSoundmojiActionSheet';
-            mike['location'] = oscar;
-            mike = tango.bind(report)(mike);
-            if(!mike) { _fun00002_ip = 126; continue _fun00001 }
+            report = tangon.bind(entity)(michal);
+            tangon = report.getSoundmojiRenderingExperiment;
+            michal = {};
+            oscard = 'openSoundmojiActionSheet';
+            michal['location'] = oscard;
+            michal = tangon.bind(report)(michal);
+            if(!michal) { _fun00002_ip = 126; continue _fun00001 }
  50:
             report = _closure1_slot1;
-            mike = _closure1_slot2;
-            tango = 1;
-            tango = mike[tango];
-            oscar = report.bind(entity)(tango);
-            report = oscar.openLazy;
-            tango = _closure1_slot0;
-            zulu = 3;
-            zulu = mike[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = 2;
-            zulu = mike[zulu];
-            mike = mike.paths;
-            tango = tango.bind(entity)(zulu, mike);
-            zulu = 'soundmoji_actionsheet_key';
-            mike = argFoo;
-            mike = report.bind(oscar)(tango, zulu, mike);
+            michal = _closure1_slot2;
+            tangon = 1;
+            tangon = michal[tangon];
+            oscard = report.bind(entity)(tangon);
+            report = oscard.openLazy;
+            tangon = _closure1_slot0;
+            zuuluu = 3;
+            zuuluu = michal[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = 2;
+            zuuluu = michal[zuuluu];
+            michal = michal.paths;
+            tangon = tangon.bind(entity)(zuuluu, michal);
+            zuuluu = 'soundmoji_actionsheet_key';
+            michal = argFoo;
+            michal = report.bind(oscard)(tangon, zuuluu, michal);
  126:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

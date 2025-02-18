@@ -1,119 +1,119 @@
 // app/modules/user_settings/AudioSettingsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ProtoAudioSettingsContextTypes;
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/AudioSettingsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: snapVolumeToDefault
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ProtoAudioSettingsContextTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/AudioSettingsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: snapVolumeToDefault
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
-            mike = _closure1_slot1;
-            tango = 1;
-            mike = mike[tango];
+            michal = _closure1_slot1;
+            tangon = 1;
+            michal = michal[tangon];
             verify = undefined;
-            mike = report.bind(verify)(mike);
-            mike = mike.MediaEngineContextTypes;
-            report = mike.STREAM;
-            mike = argBar;
-            if(!(mike !== report)) { _fun00002_ip = 81; continue _fun00001 }
+            michal = report.bind(verify)(michal);
+            michal = michal.MediaEngineContextTypes;
+            report = michal.STREAM;
+            michal = argBar;
+            if(!(michal !== report)) { _fun00002_ip = 81; continue _fun00001 }
  47:
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 2;
-            mike = oscar[mike];
-            mike = report.bind(verify)(mike);
-            mike = mike.AudioSettingsDefaultVolumes;
-            mike = mike.USER;
+            oscard = _closure1_slot1;
+            michal = 2;
+            michal = oscard[michal];
+            michal = report.bind(verify)(michal);
+            michal = michal.AudioSettingsDefaultVolumes;
+            michal = michal.USER;
             _fun00002_ip = 113; continue _fun00001;
  81:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
             report = 2;
-            report = golf[report];
-            report = oscar.bind(verify)(report);
+            report = golfie[report];
+            report = oscard.bind(verify)(report);
             report = report.AudioSettingsDefaultVolumes;
-            mike = report.STREAM;
+            michal = report.STREAM;
  113:
             report = global;
-            oscar = report.Math;
-            report = oscar.abs;
-            options = _closure1_slot0;
+            oscard = report.Math;
+            report = oscard.abs;
+            option = _closure1_slot0;
             offset = _closure1_slot1;
-            zulu = 3;
-            golf = offset[zulu];
-            yankee = options.bind(verify)(golf);
-            golf = yankee.amplitudeToPerceptual;
-            golf = golf.bind(yankee)(mike);
-            zulu = offset[zulu];
-            options = options.bind(verify)(zulu);
-            zulu = options.amplitudeToPerceptual;
-            zulu = zulu.bind(options)(entity);
-            zulu = golf - zulu;
-            zulu = report.bind(oscar)(zulu);
-            if(!(zulu < tango)) { _fun00002_ip = 194; continue _fun00001 }
+            zuuluu = 3;
+            golfie = offset[zuuluu];
+            yankee = option.bind(verify)(golfie);
+            golfie = yankee.amplitudeToPerceptual;
+            golfie = golfie.bind(yankee)(michal);
+            zuuluu = offset[zuuluu];
+            option = option.bind(verify)(zuuluu);
+            zuuluu = option.amplitudeToPerceptual;
+            zuuluu = zuuluu.bind(option)(entity);
+            zuuluu = golfie - zuuluu;
+            zuuluu = report.bind(oscard)(zuuluu);
+            if(!(zuuluu < tangon)) { _fun00002_ip = 194; continue _fun00001 }
  191:
-            entity = mike;
+            entity = michal;
  194:
             return entity;
         }
     };
-    zulu['snapVolumeToDefault'] = tango;
-    mike = function(argFoo) { // Original name: coerceAudioContextForProto
+    zuuluu['snapVolumeToDefault'] = tangon;
+    michal = function(argFoo) { // Original name: coerceAudioContextForProto
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot0;
-            mike = _closure1_slot1;
-            oscar = 1;
-            zulu = mike[oscar];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.MediaEngineContextTypes;
-            zulu = zulu.DEFAULT;
-            if(!(zulu !== tango)) { _fun00004_ip = 91; continue _fun00003 }
+            michal = _closure1_slot1;
+            oscard = 1;
+            zuuluu = michal[oscard];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.MediaEngineContextTypes;
+            zuuluu = zuuluu.DEFAULT;
+            if(!(zuuluu !== tangon)) { _fun00004_ip = 91; continue _fun00003 }
  44:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[oscar];
-            zulu = report.bind(mike)(zulu);
-            zulu = zulu.MediaEngineContextTypes;
-            zulu = zulu.STREAM;
-            if(!(zulu !== tango)) { _fun00004_ip = 79; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.MediaEngineContextTypes;
+            zuuluu = zuuluu.STREAM;
+            if(!(zuuluu !== tangon)) { _fun00004_ip = 79; continue _fun00003 }
  77:
-            return mike;
+            return michal;
  79:
-            mike = _closure1_slot2;
-            mike = mike.STREAM;
-            return mike;
+            michal = _closure1_slot2;
+            michal = michal.STREAM;
+            return michal;
  91:
             entity = _closure1_slot2;
             entity = entity.USER;
             return entity;
         }
     };
-    zulu['coerceAudioContextForProto'] = mike;
+    zuuluu['coerceAudioContextForProto'] = michal;
     return entity;
 })();

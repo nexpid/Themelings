@@ -1,129 +1,129 @@
 // app/modules/messages/native/renderer/row_data/CtaButton.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argBaz;
+    report = golfie[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot2 = tango;
-    tango = {};
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot2 = tangon;
+    tangon = {};
     report = 'mark_as_false_positive';
-    tango['MARK_AS_FALSE_POSITIVE'] = report;
-    var _closure1_slot3 = tango;
+    tangon['MARK_AS_FALSE_POSITIVE'] = report;
+    var _closure1_slot3 = tangon;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/native/renderer/row_data/CtaButton.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['CtaButtonCallbackTypes'] = tango;
-    tango = function(argFoo, argBar) { // Original name: createCtaButton
+    report = oscard.bind(golfie)(report);
+    zuuluu['CtaButtonCallbackTypes'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: createCtaButton
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = argBar;
-            mike = _closure1_slot2;
-            entity = mike.getFpMessageInfo;
-            mike = entity.bind(mike)(tango);
+            michal = _closure1_slot2;
+            entity = michal.getFpMessageInfo;
+            michal = entity.bind(michal)(tangon);
             entity = null;
-            if(!(entity == mike)) { _fun00002_ip = 34; continue _fun00001 }
+            if(!(entity == michal)) { _fun00002_ip = 34; continue _fun00001 }
  30:
             entity = undefined;
             return entity;
  34:
-            mike = _closure1_slot2;
-            entity = mike.canSubmitFpReport;
-            tango = entity.bind(mike)(tango);
+            michal = _closure1_slot2;
+            entity = michal.canSubmitFpReport;
+            tangon = entity.bind(michal)(tangon);
             entity = {};
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            oscar = 1;
-            golf = offset[oscar];
-            mike = undefined;
-            golf = verify.bind(mike)(golf);
-            options = golf.intl;
-            golf = options.string;
-            oscar = offset[oscar];
-            oscar = verify.bind(mike)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.4q1ElZ;
-            oscar = golf.bind(options)(oscar);
-            entity['text'] = oscar;
-            oscar = report.reportFpTextColor;
-            entity['textColor'] = oscar;
+            oscard = 1;
+            golfie = offset[oscard];
+            michal = undefined;
+            golfie = verify.bind(michal)(golfie);
+            option = golfie.intl;
+            golfie = option.string;
+            oscard = offset[oscard];
+            oscard = verify.bind(michal)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.4q1ElZ;
+            oscard = golfie.bind(option)(oscard);
+            entity['text'] = oscard;
+            oscard = report.reportFpTextColor;
+            entity['textColor'] = oscard;
             report = report.reportFpBackgroundColor;
             entity['backgroundColor'] = report;
-            if(!tango) { _fun00002_ip = 146; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 146; continue _fun00001 }
  136:
-            zulu = _closure1_slot3;
-            mike = zulu.MARK_AS_FALSE_POSITIVE;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.MARK_AS_FALSE_POSITIVE;
  146:
-            entity['callback'] = mike;
+            entity['callback'] = michal;
             return entity;
         }
     };
-    zulu['createCtaButton'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useCtaButton
+    zuuluu['createCtaButton'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useCtaButton
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = argBar;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            entity = mike[entity];
-            mike = undefined;
-            tango = tango.bind(mike)(entity);
-            entity = tango.useShouldRenderReportFalsePositiveButton;
-            entity = entity.bind(tango)(oscar);
+            entity = michal[entity];
+            michal = undefined;
+            tangon = tangon.bind(michal)(entity);
+            entity = tangon.useShouldRenderReportFalsePositiveButton;
+            entity = entity.bind(tangon)(oscard);
             if(entity) { _fun00004_ip = 47; continue _fun00003 }
  45:
-            return mike;
+            return michal;
  47:
-            tango = _closure1_slot2;
-            entity = tango.canSubmitFpReport;
-            tango = entity.bind(tango)(oscar);
+            tangon = _closure1_slot2;
+            entity = tangon.canSubmitFpReport;
+            tangon = entity.bind(tangon)(oscard);
             entity = {};
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            oscar = 1;
-            golf = offset[oscar];
-            golf = verify.bind(mike)(golf);
-            options = golf.intl;
-            golf = options.string;
-            oscar = offset[oscar];
-            oscar = verify.bind(mike)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.4q1ElZ;
-            oscar = golf.bind(options)(oscar);
-            entity['text'] = oscar;
-            oscar = report.reportFpTextColor;
-            entity['textColor'] = oscar;
+            oscard = 1;
+            golfie = offset[oscard];
+            golfie = verify.bind(michal)(golfie);
+            option = golfie.intl;
+            golfie = option.string;
+            oscard = offset[oscard];
+            oscard = verify.bind(michal)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.4q1ElZ;
+            oscard = golfie.bind(option)(oscard);
+            entity['text'] = oscard;
+            oscard = report.reportFpTextColor;
+            entity['textColor'] = oscard;
             report = report.reportFpBackgroundColor;
             entity['backgroundColor'] = report;
-            mike = undefined;
-            if(!tango) { _fun00004_ip = 159; continue _fun00003 }
+            michal = undefined;
+            if(!tangon) { _fun00004_ip = 159; continue _fun00003 }
  149:
-            zulu = _closure1_slot3;
-            mike = zulu.MARK_AS_FALSE_POSITIVE;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.MARK_AS_FALSE_POSITIVE;
  159:
-            entity['callback'] = mike;
+            entity['callback'] = michal;
             return entity;
         }
     };
-    zulu['useCtaButton'] = mike;
+    zuuluu['useCtaButton'] = michal;
     return entity;
 })();

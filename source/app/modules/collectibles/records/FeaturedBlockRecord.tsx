@@ -1,108 +1,108 @@
 // app/modules/collectibles/records/FeaturedBlockRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.FeaturedCategorySubblockRecord;
-    var _closure1_slot4 = tango;
-    mike = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FeaturedCategorySubblockRecord;
+    var _closure1_slot4 = tangon;
+    michal = function() {
         report = function(argFoo) { // Original name: FeaturedBlockRecord
-            zulu = this;
+            zuuluu = this;
             report = _closure1_slot2;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            tango = _closure1_slot0;
+            tangon = report.bind(entity)(zuuluu, tangon);
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 3;
-            mike = report[mike];
-            mike = tango.bind(entity)(mike);
-            mike = mike.ShopBlockType;
-            mike = mike.FEATURED;
-            zulu['type'] = mike;
-            mike = argFoo;
-            report = mike.subblocks;
-            tango = report.map;
-            mike = function(argFoo) {
+            michal = 3;
+            michal = report[michal];
+            michal = tangon.bind(entity)(michal);
+            michal = michal.ShopBlockType;
+            michal = michal.FEATURED;
+            zuuluu['type'] = michal;
+            michal = argFoo;
+            report = michal.subblocks;
+            tangon = report.map;
+            michal = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    tango = argFoo;
-                    report = tango.type;
-                    oscar = _closure1_slot0;
-                    zulu = _closure1_slot1;
+                    tangon = argFoo;
+                    report = tangon.type;
+                    oscard = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
                     entity = 4;
-                    zulu = zulu[entity];
+                    zuuluu = zuuluu[entity];
                     entity = undefined;
-                    entity = oscar.bind(entity)(zulu);
+                    entity = oscard.bind(entity)(zuuluu);
                     entity = entity.FeaturedSubblockType;
-                    zulu = entity.CATEGORY;
-                    entity = tango;
-                    if(!(report === zulu)) { _fun00002_ip = 67; continue _fun00001 }
+                    zuuluu = entity.CATEGORY;
+                    entity = tangon;
+                    if(!(report === zuuluu)) { _fun00002_ip = 67; continue _fun00001 }
  52:
-                    zulu = _closure1_slot4;
-                    mike = zulu.fromServer;
-                    entity = mike.bind(zulu)(tango);
+                    zuuluu = _closure1_slot4;
+                    michal = zuuluu.fromServer;
+                    entity = michal.bind(zuuluu)(tangon);
  67:
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike);
-            zulu['subblocks'] = mike;
+            michal = tangon.bind(report)(michal);
+            zuuluu['subblocks'] = michal;
             return entity;
         };
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
+        tangon = _closure1_slot3;
         entity = {};
-        zulu = 'fromServer';
-        entity['key'] = zulu;
-        mike = function(argFoo) { // Original name: value
-            zulu = _closure2_slot0;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = argFoo;
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+        zuuluu = 'fromServer';
+        entity['key'] = zuuluu;
+        michal = function(argFoo) { // Original name: value
+            zuuluu = _closure2_slot0;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = argFoo;
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity['value'] = mike;
-        zulu = new Array(1);
-        zulu[0] = entity;
-        mike = undefined;
+        entity['value'] = michal;
+        zuuluu = new Array(1);
+        zuuluu[0] = entity;
+        michal = undefined;
         entity = null;
-        entity = tango.bind(mike)(report, entity, zulu);
+        entity = tangon.bind(michal)(report, entity, zuuluu);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/records/FeaturedBlockRecord.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['FeaturedBlockRecord'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/records/FeaturedBlockRecord.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['FeaturedBlockRecord'] = michal;
     return entity;
 })();

@@ -1,37 +1,37 @@
 // app/modules/clips/ClipsExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     report = argBaz;
-    zulu = argFred;
-    options = argPlugh;
+    zuuluu = argFre;
+    option = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
+    var _closure1_slot1 = option;
     entity = global;
     verify = entity.Object;
-    oscar = verify.defineProperty;
-    tango = {};
+    oscard = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(verify)(zulu, entity, tango);
+    entity = oscard.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = options[tango];
-    tango = report.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = options[tango];
-    tango = golf.bind(entity)(tango);
-    tango = tango.PremiumTypes;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    report = options[tango];
-    verify = golf.bind(entity)(report);
-    oscar = verify.createExperiment;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = option[tangon];
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = option[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    tangon = tangon.PremiumTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    report = option[tangon];
+    verify = golfie.bind(entity)(report);
+    oscard = verify.createExperiment;
     report = {'kind': 'user', 'id': '2022-11_clips_experiment', 'label': 'Clips Experiment'};
     offset = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false};
     report['defaultConfig'] = offset;
@@ -41,256 +41,256 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     offset = new Array(3);
     offset[0] = yankee;
     yankee = {'id': 2, 'label': 'Clips with upsells'};
-    romeo = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
-    yankee['config'] = romeo;
+    romeon = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
+    yankee['config'] = romeon;
     offset[1] = yankee;
     yankee = {'id': 99, 'label': 'Clips 4 da Developerz'};
-    romeo = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true};
-    yankee['config'] = romeo;
+    romeon = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true};
+    yankee['config'] = romeon;
     offset[2] = yankee;
     report['treatments'] = offset;
-    report = oscar.bind(verify)(report);
+    report = oscard.bind(verify)(report);
     var _closure1_slot5 = report;
-    tango = options[tango];
-    verify = golf.bind(entity)(tango);
-    oscar = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
+    tangon = option[tangon];
+    verify = golfie.bind(entity)(tangon);
+    oscard = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
     offset = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
-    tango['defaultConfig'] = offset;
+    tangon['defaultConfig'] = offset;
     yankee = {'id': 1, 'label': 'Clips Nitro EA Upsells Visible'};
     offset = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true};
     yankee['config'] = offset;
     offset = new Array(2);
     offset[0] = yankee;
     yankee = {'id': 2, 'label': 'Clips Enabled (Nitro)'};
-    romeo = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
-    yankee['config'] = romeo;
+    romeon = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
+    yankee['config'] = romeon;
     offset[1] = yankee;
-    tango['treatments'] = offset;
-    tango = oscar.bind(verify)(tango);
-    var _closure1_slot6 = tango;
-    oscar = 7;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/clips/ClipsExperiment.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['ClipsExperiment'] = report;
-    zulu['ClipsPremiumEarlyAccessExperiment'] = tango;
-    tango = function() { // Original name: areClipsEnabled
+    tangon['treatments'] = offset;
+    tangon = oscard.bind(verify)(tangon);
+    var _closure1_slot6 = tangon;
+    oscard = 7;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/clips/ClipsExperiment.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['ClipsExperiment'] = report;
+    zuuluu['ClipsPremiumEarlyAccessExperiment'] = tangon;
+    tangon = function() { // Original name: areClipsEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
-            zulu = _closure1_slot1;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 4;
-            entity = zulu[entity];
-            golf = undefined;
-            mike = mike.bind(golf)(entity);
+            entity = zuuluu[entity];
+            golfie = undefined;
+            michal = michal.bind(golfie)(entity);
             entity = _closure1_slot2;
-            entity = mike.bind(golf)(entity);
+            entity = michal.bind(golfie)(entity);
             if(entity) { _fun00002_ip = 41; continue _fun00001 }
  37:
             entity = false;
             return entity;
  41:
-            oscar = _closure1_slot6;
-            tango = oscar.getCurrentConfig;
-            zulu = {};
-            mike = 'areClipsEnabled';
-            zulu['location'] = mike;
+            oscard = _closure1_slot6;
+            tangon = oscard.getCurrentConfig;
+            zuuluu = {};
+            michal = 'areClipsEnabled';
+            zuuluu['location'] = michal;
             entity = {};
-            options = false;
-            entity['autoTrackExposure'] = options;
-            entity = tango.bind(oscar)(zulu, entity);
+            option = false;
+            entity['autoTrackExposure'] = option;
+            entity = tangon.bind(oscard)(zuuluu, entity);
             entity = entity.enableClips;
             verify = _closure1_slot5;
-            oscar = verify.getCurrentConfig;
-            tango = {};
-            tango['location'] = mike;
-            zulu = {};
-            zulu['autoTrackExposure'] = options;
-            zulu = oscar.bind(verify)(tango, zulu);
-            tango = zulu.enableClips;
-            oscar = _closure1_slot3;
-            zulu = oscar.isDecoupledGameClippingEnabled;
-            zulu = zulu.bind(oscar)();
-            oscar = _closure1_slot0;
+            oscard = verify.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = michal;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(verify)(tangon, zuuluu);
+            tangon = zuuluu.enableClips;
+            oscard = _closure1_slot3;
+            zuuluu = oscard.isDecoupledGameClippingEnabled;
+            zuuluu = zuuluu.bind(oscard)();
+            oscard = _closure1_slot0;
             verify = _closure1_slot1;
             report = 5;
             report = verify[report];
-            golf = oscar.bind(golf)(report);
-            oscar = golf.getCurrentConfig;
+            golfie = oscard.bind(golfie)(report);
+            oscard = golfie.getCurrentConfig;
             report = {};
-            report['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = options;
-            mike = oscar.bind(golf)(report, mike);
-            mike = mike.enableViewerClipping;
+            report['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = option;
+            michal = oscard.bind(golfie)(report, michal);
+            michal = michal.enableViewerClipping;
             if(entity) { _fun00002_ip = 188; continue _fun00001 }
  185:
-            entity = tango;
+            entity = tangon;
  188:
             if(entity) { _fun00002_ip = 194; continue _fun00001 }
  191:
-            entity = zulu;
+            entity = zuuluu;
  194:
             if(entity) { _fun00002_ip = 200; continue _fun00001 }
  197:
-            entity = mike;
+            entity = michal;
  200:
             return entity;
         }
     };
-    zulu['areClipsEnabled'] = tango;
-    tango = function() { // Original name: useEnableClips
+    zuuluu['areClipsEnabled'] = tangon;
+    tangon = function() { // Original name: useEnableClips
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot1;
             entity = 4;
             entity = offset[entity];
-            golf = undefined;
-            mike = options.bind(golf)(entity);
+            golfie = undefined;
+            michal = option.bind(golfie)(entity);
             entity = _closure1_slot2;
-            mike = mike.bind(golf)(entity);
+            michal = michal.bind(golfie)(entity);
             yankee = _closure1_slot6;
-            oscar = yankee.useExperiment;
+            oscard = yankee.useExperiment;
             report = {};
-            zulu = 'useEnableClips';
-            report['location'] = zulu;
+            zuuluu = 'useEnableClips';
+            report['location'] = zuuluu;
             entity = {};
             verify = false;
             entity['autoTrackExposure'] = verify;
-            entity = oscar.bind(yankee)(report, entity);
+            entity = oscard.bind(yankee)(report, entity);
             report = entity.enableClips;
-            romeo = _closure1_slot5;
-            yankee = romeo.useExperiment;
-            oscar = {};
-            oscar['location'] = zulu;
+            romeon = _closure1_slot5;
+            yankee = romeon.useExperiment;
+            oscard = {};
+            oscard['location'] = zuuluu;
             entity = {};
             entity['autoTrackExposure'] = verify;
-            entity = yankee.bind(romeo)(oscar, entity);
+            entity = yankee.bind(romeon)(oscard, entity);
             entity = entity.enableClips;
-            oscar = _closure1_slot3;
-            tango = oscar.isDecoupledGameClippingEnabled;
-            tango = tango.bind(oscar)();
-            oscar = 5;
-            oscar = offset[oscar];
-            options = options.bind(golf)(oscar);
-            golf = options.useExperiment;
-            oscar = {};
-            oscar['location'] = zulu;
-            zulu = {};
-            zulu['autoTrackExposure'] = verify;
-            zulu = golf.bind(options)(oscar, zulu);
-            zulu = zulu.enableViewerClipping;
+            oscard = _closure1_slot3;
+            tangon = oscard.isDecoupledGameClippingEnabled;
+            tangon = tangon.bind(oscard)();
+            oscard = 5;
+            oscard = offset[oscard];
+            option = option.bind(golfie)(oscard);
+            golfie = option.useExperiment;
+            oscard = {};
+            oscard['location'] = zuuluu;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = verify;
+            zuuluu = golfie.bind(option)(oscard, zuuluu);
+            zuuluu = zuuluu.enableViewerClipping;
             if(entity) { _fun00004_ip = 175; continue _fun00003 }
  172:
             entity = report;
  175:
             if(entity) { _fun00004_ip = 181; continue _fun00003 }
  178:
-            entity = tango;
+            entity = tangon;
  181:
             if(entity) { _fun00004_ip = 187; continue _fun00003 }
  184:
-            entity = zulu;
+            entity = zuuluu;
  187:
             if(!entity) { _fun00004_ip = 193; continue _fun00003 }
  190:
-            entity = mike;
+            entity = michal;
  193:
             return entity;
         }
     };
-    zulu['useEnableClips'] = tango;
-    tango = function(argFoo) {
+    zuuluu['useEnableClips'] = tangon;
+    tangon = function(argFoo) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            oscar = entity.autoTrackExposure;
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            oscard = entity.autoTrackExposure;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 4;
-            entity = tango[entity];
-            tango = undefined;
-            zulu = zulu.bind(tango)(entity);
+            entity = tangon[entity];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(entity);
             entity = _closure1_slot2;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             report = _closure1_slot6;
-            tango = report.useExperiment;
-            zulu = {};
-            mike = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            zulu['location'] = mike;
-            mike = {};
-            if(!oscar) { _fun00006_ip = 73; continue _fun00005 }
+            tangon = report.useExperiment;
+            zuuluu = {};
+            michal = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
+            zuuluu['location'] = michal;
+            michal = {};
+            if(!oscard) { _fun00006_ip = 73; continue _fun00005 }
  70:
-            oscar = entity;
+            oscard = entity;
  73:
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            mike = mike.enablePremiumEarlyAccessGoLiveRoadblock;
-            zulu = !entity;
-            entity = !zulu;
-            if(zulu) { _fun00006_ip = 102; continue _fun00005 }
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            michal = michal.enablePremiumEarlyAccessGoLiveRoadblock;
+            zuuluu = !entity;
+            entity = !zuuluu;
+            if(zuuluu) { _fun00006_ip = 102; continue _fun00005 }
  99:
-            entity = mike;
+            entity = michal;
  102:
             return entity;
         }
     };
-    zulu['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = tango;
-    tango = function(argFoo) {
+    zuuluu['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = tangon;
+    tangon = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
-            oscar = entity.autoTrackExposure;
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            oscard = entity.autoTrackExposure;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 4;
-            entity = tango[entity];
-            tango = undefined;
-            zulu = zulu.bind(tango)(entity);
+            entity = tangon[entity];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(entity);
             entity = _closure1_slot2;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             report = _closure1_slot6;
-            tango = report.useExperiment;
-            zulu = {};
-            mike = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            zulu['location'] = mike;
-            mike = {};
-            if(!oscar) { _fun00008_ip = 73; continue _fun00007 }
+            tangon = report.useExperiment;
+            zuuluu = {};
+            michal = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
+            zuuluu['location'] = michal;
+            michal = {};
+            if(!oscard) { _fun00008_ip = 73; continue _fun00007 }
  70:
-            oscar = entity;
+            oscard = entity;
  73:
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
-            mike = mike.enablePremiumEarlyAccessAnnouncementCoachmark;
-            zulu = !entity;
-            entity = !zulu;
-            if(zulu) { _fun00008_ip = 102; continue _fun00007 }
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            michal = michal.enablePremiumEarlyAccessAnnouncementCoachmark;
+            zuuluu = !entity;
+            entity = !zuuluu;
+            if(zuuluu) { _fun00008_ip = 102; continue _fun00007 }
  99:
-            entity = mike;
+            entity = michal;
  102:
             return entity;
         }
     };
-    zulu['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = tango;
-    mike = function(argFoo) { // Original name: isUserPremiumTypeForClipsEarlyAccess
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 6;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.isPremiumAtLeast;
-        mike = argFoo;
-        mike = mike.premiumType;
+    zuuluu['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = tangon;
+    michal = function(argFoo) { // Original name: isUserPremiumTypeForClipsEarlyAccess
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 6;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.isPremiumAtLeast;
+        michal = argFoo;
+        michal = michal.premiumType;
         entity = _closure1_slot4;
         entity = entity.TIER_2;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['isUserPremiumTypeForClipsEarlyAccess'] = mike;
+    zuuluu['isUserPremiumTypeForClipsEarlyAccess'] = michal;
     return entity;
 })();

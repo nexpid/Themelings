@@ -1,274 +1,274 @@
 // app/modules/hangouts/native/NativeHangoutsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
+        zuuluu = argFre;
+        oscard = argPlu;
         var _closure1_slot0 = report;
         entity = argBaz;
         var _closure1_slot1 = entity;
-        var _closure1_slot2 = oscar;
+        var _closure1_slot2 = oscard;
         entity = global;
-        options = entity.Object;
-        golf = options.defineProperty;
-        tango = {};
+        option = entity.Object;
+        golfie = option.defineProperty;
+        tangon = {};
         entity = true;
-        tango['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = golf.bind(options)(zulu, entity, tango);
+        entity = golfie.bind(option)(zuuluu, entity, tangon);
         entity = 0;
-        tango = oscar[entity];
+        tangon = oscard[entity];
         entity = undefined;
-        tango = report.bind(entity)(tango);
-        options = tango.NativeEventEmitter;
-        tango = tango.NativeModules;
-        var _closure1_slot3 = tango;
-        golf = 1;
-        golf = oscar[golf];
-        verify = report.bind(entity)(golf);
-        golf = verify.isIOS;
-        golf = golf.bind(verify)();
-        if(!golf) { _fun00002_ip = 163; continue _fun00001 }
+        tangon = report.bind(entity)(tangon);
+        option = tangon.NativeEventEmitter;
+        tangon = tangon.NativeModules;
+        var _closure1_slot3 = tangon;
+        golfie = 1;
+        golfie = oscard[golfie];
+        verify = report.bind(entity)(golfie);
+        golfie = verify.isIOS;
+        golfie = golfie.bind(verify)();
+        if(!golfie) { _fun00002_ip = 163; continue _fun00001 }
  112:
-        romeo = tango.DCDLockscreenWidgetManager;
-        golf = options.prototype;
-        golf = Object.create(golf, {constructor: {value: options}});
-        foxtrot = golf;
-        tango = new foxtrot[options](romeo, yankee);
-        verify = tango instanceof Object ? tango : golf;
-        options = verify.addListener;
-        golf = 'pushTokenUpdate';
-        tango = function(argFoo) {
+        romeon = tangon.DCDLockscreenWidgetManager;
+        golfie = option.prototype;
+        golfie = Object.create(golfie, {constructor: {value: option}});
+        foxtra = golfie;
+        tangon = new foxtra[option](romeon, yankee);
+        verify = tangon instanceof Object ? tangon : golfie;
+        option = verify.addListener;
+        golfie = 'pushTokenUpdate';
+        tangon = function(argFoo) {
             entity = argFoo;
             report = entity.token;
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            oscar = 'HANGOUT_PUSH_TOKEN_UPDATE';
-            mike['type'] = oscar;
-            mike['token'] = report;
-            mike = zulu.bind(tango)(mike);
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            oscard = 'HANGOUT_PUSH_TOKEN_UPDATE';
+            michal['type'] = oscard;
+            michal['token'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        tango = options.bind(verify)(golf, tango);
+        tangon = option.bind(verify)(golfie, tangon);
  163:
-        tango = 3;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/hangouts/native/NativeHangoutsUtils.tsx';
-        tango = report.bind(oscar)(tango);
-        tango = function(argFoo, argBar) { // Original name: preloadAsset
+        tangon = 3;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/hangouts/native/NativeHangoutsUtils.tsx';
+        tangon = report.bind(oscard)(tangon);
+        tangon = function(argFoo, argBar) { // Original name: preloadAsset
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot2;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
                 entity = 1;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.isIOS;
-                zulu = zulu.bind(tango)();
-                if(!zulu) { _fun00004_ip = 68; continue _fun00003 }
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.isIOS;
+                zuuluu = zuuluu.bind(tangon)();
+                if(!zuuluu) { _fun00004_ip = 68; continue _fun00003 }
  38:
-                mike = _closure1_slot3;
-                report = mike.DCDLockscreenWidgetManager;
-                tango = report.downloadAndStoreImage;
-                zulu = argFoo;
-                mike = argBar;
-                mike = tango.bind(report)(zulu, mike);
+                michal = _closure1_slot3;
+                report = michal.DCDLockscreenWidgetManager;
+                tangon = report.downloadAndStoreImage;
+                zuuluu = argFoo;
+                michal = argBar;
+                michal = tangon.bind(report)(zuuluu, michal);
  68:
                 return entity;
             }
         };
-        zulu['preloadAsset'] = tango;
-        tango = function() { // Original name: hasActivity
+        zuuluu['preloadAsset'] = tangon;
+        tangon = function() { // Original name: hasActivity
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 report = _closure1_slot0;
-                tango = _closure1_slot2;
-                mike = 1;
-                tango = tango[mike];
-                mike = undefined;
-                tango = report.bind(mike)(tango);
-                mike = tango.isIOS;
-                tango = mike.bind(tango)();
-                mike = global;
-                if(tango) { _fun00006_ip = 71; continue _fun00005 }
+                tangon = _closure1_slot2;
+                michal = 1;
+                tangon = tangon[michal];
+                michal = undefined;
+                tangon = report.bind(michal)(tangon);
+                michal = tangon.isIOS;
+                tangon = michal.bind(tangon)();
+                michal = global;
+                if(tangon) { _fun00006_ip = 71; continue _fun00005 }
  42:
-                oscar = mike.Promise;
-                report = oscar.resolve;
-                tango = {'hasActivity': false, 'hasActiveActivity': false};
-                tango = report.bind(oscar)(tango);
-                return tango;
+                oscard = michal.Promise;
+                report = oscard.resolve;
+                tangon = {'hasActivity': false, 'hasActiveActivity': false};
+                tangon = report.bind(oscard)(tangon);
+                return tangon;
  71:
-                zulu = _closure1_slot3;
-                zulu = zulu.DCDLockscreenWidgetManager;
-                var _closure2_slot0 = zulu;
-                zulu = mike.Promise;
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                golf = function(argFoo) {
-                    mike = argFoo;
-                    var _closure3_slot0 = mike;
-                    zulu = _closure2_slot0;
-                    mike = zulu.hasActivity;
+                zuuluu = _closure1_slot3;
+                zuuluu = zuuluu.DCDLockscreenWidgetManager;
+                var _closure2_slot0 = zuuluu;
+                zuuluu = michal.Promise;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                golfie = function(argFoo) {
+                    michal = argFoo;
+                    var _closure3_slot0 = michal;
+                    zuuluu = _closure2_slot0;
+                    michal = zuuluu.hasActivity;
                     entity = function(argFoo, argBar, argBaz) {
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                            zulu = _closure3_slot0;
-                            mike = null;
+                            zuuluu = _closure3_slot0;
+                            michal = null;
                             entity = argFoo;
-                            if(!(mike == entity)) { _fun00008_ip = 36; continue _fun00007 }
+                            if(!(michal == entity)) { _fun00008_ip = 36; continue _fun00007 }
  16:
-                            mike = {};
+                            michal = {};
                             entity = argBar;
-                            mike['hasActivity'] = entity;
+                            michal['hasActivity'] = entity;
                             entity = argBaz;
-                            mike['hasActiveActivity'] = entity;
+                            michal['hasActiveActivity'] = entity;
                             _fun00008_ip = 46; continue _fun00007;
  36:
-                            mike = {'hasActivity': false, 'hasActiveActivity': false};
+                            michal = {'hasActivity': false, 'hasActiveActivity': false};
  46:
                             entity = undefined;
-                            mike = zulu.bind(entity)(mike);
+                            michal = zuuluu.bind(entity)(michal);
                             return entity;
                         }
                     };
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                options = mike;
-                entity = new options[zulu](golf, oscar);
-                entity = entity instanceof Object ? entity : mike;
+                option = michal;
+                entity = new option[zuuluu](golfie, oscard);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
         };
-        zulu['hasActivity'] = tango;
-        tango = function() { // Original name: stopHangoutActivity
+        zuuluu['hasActivity'] = tangon;
+        tangon = function() { // Original name: stopHangoutActivity
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                tango = arguments[0];
+                tangon = arguments[0];
                 entity = undefined;
-                if(!(tango === entity)) { _fun00010_ip = 11; continue _fun00009 }
+                if(!(tangon === entity)) { _fun00010_ip = 11; continue _fun00009 }
  9:
-                tango = 0;
+                tangon = 0;
  11:
                 report = _closure1_slot0;
-                oscar = _closure1_slot2;
-                zulu = 1;
-                zulu = oscar[zulu];
-                report = report.bind(entity)(zulu);
-                zulu = report.isIOS;
-                zulu = zulu.bind(report)();
-                if(!zulu) { _fun00010_ip = 70; continue _fun00009 }
+                oscard = _closure1_slot2;
+                zuuluu = 1;
+                zuuluu = oscard[zuuluu];
+                report = report.bind(entity)(zuuluu);
+                zuuluu = report.isIOS;
+                zuuluu = zuuluu.bind(report)();
+                if(!zuuluu) { _fun00010_ip = 70; continue _fun00009 }
  47:
-                mike = _closure1_slot3;
-                zulu = mike.DCDLockscreenWidgetManager;
-                mike = zulu.endActivity;
-                mike = mike.bind(zulu)(tango);
+                michal = _closure1_slot3;
+                zuuluu = michal.DCDLockscreenWidgetManager;
+                michal = zuuluu.endActivity;
+                michal = michal.bind(zuuluu)(tangon);
  70:
                 return entity;
             }
         };
-        zulu['stopHangoutActivity'] = tango;
-        tango = function(argFoo) { // Original name: startHangoutActivity
+        zuuluu['stopHangoutActivity'] = tangon;
+        tangon = function(argFoo) { // Original name: startHangoutActivity
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot2;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
                 entity = 1;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.isIOS;
-                zulu = zulu.bind(tango)();
-                if(!zulu) { _fun00012_ip = 83; continue _fun00011 }
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.isIOS;
+                zuuluu = zuuluu.bind(tangon)();
+                if(!zuuluu) { _fun00012_ip = 83; continue _fun00011 }
  38:
-                mike = _closure1_slot3;
-                tango = mike.DCDLockscreenWidgetManager;
-                zulu = tango.startActivity;
-                mike = global;
-                oscar = mike.JSON;
-                report = oscar.stringify;
-                mike = argFoo;
-                mike = report.bind(oscar)(mike);
-                mike = zulu.bind(tango)(mike);
+                michal = _closure1_slot3;
+                tangon = michal.DCDLockscreenWidgetManager;
+                zuuluu = tangon.startActivity;
+                michal = global;
+                oscard = michal.JSON;
+                report = oscard.stringify;
+                michal = argFoo;
+                michal = report.bind(oscard)(michal);
+                michal = zuuluu.bind(tangon)(michal);
  83:
                 return entity;
             }
         };
-        zulu['startHangoutActivity'] = tango;
-        mike = function() { // Original name: activitiesAllowed
+        zuuluu['startHangoutActivity'] = tangon;
+        michal = function() { // Original name: activitiesAllowed
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 report = _closure1_slot0;
-                tango = _closure1_slot2;
-                mike = 1;
-                tango = tango[mike];
-                mike = undefined;
-                tango = report.bind(mike)(tango);
-                mike = tango.isIOS;
-                tango = mike.bind(tango)();
-                mike = global;
-                if(tango) { _fun00014_ip = 65; continue _fun00013 }
+                tangon = _closure1_slot2;
+                michal = 1;
+                tangon = tangon[michal];
+                michal = undefined;
+                tangon = report.bind(michal)(tangon);
+                michal = tangon.isIOS;
+                tangon = michal.bind(tangon)();
+                michal = global;
+                if(tangon) { _fun00014_ip = 65; continue _fun00013 }
  42:
-                oscar = mike.Promise;
-                report = oscar.reject;
-                tango = 'unsupported';
-                tango = report.bind(oscar)(tango);
-                return tango;
+                oscard = michal.Promise;
+                report = oscard.reject;
+                tangon = 'unsupported';
+                tangon = report.bind(oscard)(tangon);
+                return tangon;
  65:
-                zulu = _closure1_slot3;
-                zulu = zulu.DCDLockscreenWidgetManager;
-                var _closure2_slot0 = zulu;
-                zulu = mike.Promise;
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                golf = function(argFoo, argBar) {
-                    mike = argFoo;
-                    var _closure3_slot0 = mike;
-                    mike = argBar;
-                    var _closure3_slot1 = mike;
-                    zulu = _closure2_slot0;
-                    mike = zulu.activitiesAllowed;
+                zuuluu = _closure1_slot3;
+                zuuluu = zuuluu.DCDLockscreenWidgetManager;
+                var _closure2_slot0 = zuuluu;
+                zuuluu = michal.Promise;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                golfie = function(argFoo, argBar) {
+                    michal = argFoo;
+                    var _closure3_slot0 = michal;
+                    michal = argBar;
+                    var _closure3_slot1 = michal;
+                    zuuluu = _closure2_slot0;
+                    michal = zuuluu.activitiesAllowed;
                     entity = function(argFoo, argBar) {
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                            zulu = argFoo;
+                            zuuluu = argFoo;
                             entity = null;
-                            if(!(entity == zulu)) { _fun00016_ip = 28; continue _fun00015 }
+                            if(!(entity == zuuluu)) { _fun00016_ip = 28; continue _fun00015 }
  9:
-                            tango = _closure3_slot0;
-                            mike = undefined;
+                            tangon = _closure3_slot0;
+                            michal = undefined;
                             entity = argBar;
-                            entity = tango.bind(mike)(entity);
+                            entity = tangon.bind(michal)(entity);
                             _fun00016_ip = 42; continue _fun00015;
  28:
-                            mike = _closure3_slot1;
+                            michal = _closure3_slot1;
                             entity = undefined;
-                            entity = mike.bind(entity)(zulu);
+                            entity = michal.bind(entity)(zuuluu);
  42:
                             entity = undefined;
                             return entity;
                         }
                     };
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                options = mike;
-                entity = new options[zulu](golf, oscar);
-                entity = entity instanceof Object ? entity : mike;
+                option = michal;
+                entity = new option[zuuluu](golfie, oscard);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
         };
-        zulu['activitiesAllowed'] = mike;
+        zuuluu['activitiesAllowed'] = michal;
         return entity;
     }
 })();

@@ -1,396 +1,396 @@
 // app/modules/contact_sync/native/ContactSyncPersistedStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = options;
+    var _closure1_slot2 = option;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     report = function(argFoo) { // Original name: setStoredContacts
         verify = argFoo;
         var _closure2_slot0 = verify;
-        oscar = _closure1_slot0;
+        oscard = _closure1_slot0;
         report = _closure1_slot2;
         entity = 0;
-        tango = report[entity];
+        tangon = report[entity];
         entity = undefined;
-        tango = oscar.bind(entity)(tango);
-        options = tango.Storage;
-        golf = options.set;
-        tango = 'V2_DCD_CONTACTS_STORAGE_KEY';
-        tango = golf.bind(options)(tango, verify);
-        tango = 1;
-        tango = report[tango];
-        golf = oscar.bind(entity)(tango);
-        oscar = golf.batchUpdates;
-        tango = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        tangon = oscard.bind(entity)(tangon);
+        option = tangon.Storage;
+        golfie = option.set;
+        tangon = 'V2_DCD_CONTACTS_STORAGE_KEY';
+        tangon = golfie.bind(option)(tangon, verify);
+        tangon = 1;
+        tangon = report[tangon];
+        golfie = oscard.bind(entity)(tangon);
+        oscard = golfie.batchUpdates;
+        tangon = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                tango = argFoo;
+                tangon = argFoo;
                 report = entity;
-                mike = copyDataProperties(report, tango);
-                zulu = _closure2_slot0;
-                mike = 'storedContacts';
-                entity[mike] = zulu;
+                michal = copyDataProperties(report, tangon);
+                zuuluu = _closure2_slot0;
+                michal = 'storedContacts';
+                entity[michal] = zuuluu;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        tango = oscar.bind(golf)(tango);
-        tango = _closure1_slot1;
-        zulu = 2;
-        zulu = report[zulu];
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.wait;
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        tangon = oscard.bind(golfie)(tangon);
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        zuuluu = report[zuuluu];
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.wait;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
-            tango = 'CONTACT_SYNC_STORED_CONTACTS';
-            entity['type'] = tango;
+            tangon = 'CONTACT_SYNC_STORED_CONTACTS';
+            entity['type'] = tangon;
             report = _closure2_slot0;
-            tango = '';
-            tango = tango === report;
-            entity['empty'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = '';
+            tangon = tangon === report;
+            entity['empty'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     var _closure1_slot3 = report;
-    oscar = 0;
-    tango = options[oscar];
+    oscard = 0;
+    tangon = option[oscard];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    yankee = tango.Storage;
+    tangon = golfie.bind(entity)(tangon);
+    yankee = tangon.Storage;
     offset = yankee.asyncGet;
     verify = 'V2_DCD_CONTACTS_STORAGE_KEY';
-    tango = function(argFoo) {
-        zulu = _closure1_slot3;
+    tangon = function(argFoo) {
+        zuuluu = _closure1_slot3;
         entity = undefined;
-        mike = argFoo;
-        mike = zulu.bind(entity)(mike);
+        michal = argFoo;
+        michal = zuuluu.bind(entity)(michal);
         return entity;
     };
-    tango = offset.bind(yankee)(verify, tango);
-    tango = 3;
-    tango = options[tango];
-    offset = golf.bind(entity)(tango);
+    tangon = offset.bind(yankee)(verify, tangon);
+    tangon = 3;
+    tangon = option[tangon];
+    offset = golfie.bind(entity)(tangon);
     verify = offset.create;
-    tango = function() {
+    tangon = function() {
         entity = {'loadedPolicyNotice': false, 'storedContacts': '', 'upsellCTADismissed': false, 'policyUpdateNoticeDismissed': false, 'dmListCTADismissed': false};
         return entity;
     };
-    tango = verify.bind(offset)(tango);
-    var _closure1_slot4 = tango;
-    verify = options[oscar];
-    verify = golf.bind(entity)(verify);
-    romeo = verify.Storage;
-    yankee = romeo.asyncGet;
+    tangon = verify.bind(offset)(tangon);
+    var _closure1_slot4 = tangon;
+    verify = option[oscard];
+    verify = golfie.bind(entity)(verify);
+    romeon = verify.Storage;
+    yankee = romeon.asyncGet;
     offset = 'ContactSyncDMListCTADismissed';
     verify = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = global;
-            report = tango.Boolean;
+            tangon = global;
+            report = tangon.Boolean;
             entity = undefined;
-            zulu = argFoo;
-            zulu = report.bind(entity)(zulu);
-            var _closure2_slot0 = zulu;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
+            zuuluu = argFoo;
+            zuuluu = report.bind(entity)(zuuluu);
+            var _closure2_slot0 = zuuluu;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
             report = 0;
-            report = golf[report];
-            report = oscar.bind(entity)(report);
-            golf = report.Storage;
-            oscar = golf.get;
+            report = golfie[report];
+            report = oscard.bind(entity)(report);
+            golfie = report.Storage;
+            oscard = golfie.get;
             report = 'contact_sync_dm_list_cta_first_seen_date';
-            report = oscar.bind(golf)(report);
-            oscar = null;
-            if(!(oscar == report)) { _fun00002_ip = 89; continue _fun00001 }
+            report = oscard.bind(golfie)(report);
+            oscard = null;
+            if(!(oscard == report)) { _fun00002_ip = 89; continue _fun00001 }
  74:
-            golf = tango.Date;
-            oscar = golf.now;
-            report = oscar.bind(golf)();
+            golfie = tangon.Date;
+            oscard = golfie.now;
+            report = oscard.bind(golfie)();
  89:
-            oscar = tango.Date;
-            tango = oscar.now;
-            tango = tango.bind(oscar)();
-            report = tango - report;
-            tango = 5184000000.0;
-            if(!(report > tango)) { _fun00002_ip = 128; continue _fun00001 }
+            oscard = tangon.Date;
+            tangon = oscard.now;
+            tangon = tangon.bind(oscard)();
+            report = tangon - report;
+            tangon = 5184000000.0;
+            if(!(report > tangon)) { _fun00002_ip = 128; continue _fun00001 }
  122:
-            tango = true;
-            _closure2_slot0 = tango;
+            tangon = true;
+            _closure2_slot0 = tangon;
  128:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 1;
-            zulu = report[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                zulu = _closure1_slot4;
-                mike = zulu.setState;
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.setState;
                 entity = {};
-                tango = _closure2_slot0;
-                entity['dmListCTADismissed'] = tango;
-                entity = mike.bind(zulu)(entity);
+                tangon = _closure2_slot0;
+                entity['dmListCTADismissed'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    verify = yankee.bind(romeo)(offset, verify);
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    yankee = oscar.Storage;
+    verify = yankee.bind(romeon)(offset, verify);
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    yankee = oscard.Storage;
     offset = yankee.asyncGet;
     verify = 'ContactSyncUpsellCTADismissed';
-    oscar = function(argFoo) {
+    oscard = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            tango = !tango;
-            tango = !tango;
-            entity['upsellCTADismissed'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            tangon = !tangon;
+            tangon = !tangon;
+            entity['upsellCTADismissed'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    oscar = offset.bind(yankee)(verify, oscar);
-    oscar = 4;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/contact_sync/native/ContactSyncPersistedStore.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['setStoredContacts'] = report;
+    oscard = offset.bind(yankee)(verify, oscard);
+    oscard = 4;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/contact_sync/native/ContactSyncPersistedStore.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['setStoredContacts'] = report;
     report = function() {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            mike = 0;
-            entity = entity[mike];
-            tango = undefined;
-            entity = zulu.bind(tango)(entity);
-            zulu = entity.Storage;
-            entity = zulu.get;
-            golf = 'V2_DCD_CONTACTS_STORAGE_KEY';
-            zulu = entity.bind(zulu)(golf);
+            michal = 0;
+            entity = entity[michal];
+            tangon = undefined;
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = entity.Storage;
+            entity = zuuluu.get;
+            golfie = 'V2_DCD_CONTACTS_STORAGE_KEY';
+            zuuluu = entity.bind(zuuluu)(golfie);
             entity = null;
-            oscar = entity != zulu;
+            oscard = entity != zuuluu;
             entity = '';
-            if(!oscar) { _fun00004_ip = 62; continue _fun00003 }
+            if(!oscard) { _fun00004_ip = 62; continue _fun00003 }
  59:
-            entity = zulu;
+            entity = zuuluu;
  62:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            mike = report[mike];
-            mike = zulu.bind(tango)(mike);
-            oscar = mike.Storage;
-            mike = oscar.remove;
-            mike = mike.bind(oscar)(golf);
-            mike = 1;
-            mike = report[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                zulu = _closure1_slot4;
-                mike = zulu.setState;
+            michal = report[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            oscard = michal.Storage;
+            michal = oscard.remove;
+            michal = michal.bind(oscard)(golfie);
+            michal = 1;
+            michal = report[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.setState;
                 entity = function(argFoo) {
                     entity = {};
-                    tango = argFoo;
+                    tangon = argFoo;
                     report = entity;
-                    mike = copyDataProperties(report, tango);
-                    zulu = '';
-                    mike = 'storedContacts';
-                    entity[mike] = zulu;
+                    michal = copyDataProperties(report, tangon);
+                    zuuluu = '';
+                    michal = 'storedContacts';
+                    entity[michal] = zuuluu;
                     return entity;
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['deleteStoredContacts'] = report;
-    zulu['useContactSyncStore'] = tango;
-    tango = function() { // Original name: dismissUpsellCTA
-        zulu = _closure1_slot0;
-        tango = _closure1_slot2;
+    zuuluu['deleteStoredContacts'] = report;
+    zuuluu['useContactSyncStore'] = tangon;
+    tangon = function() { // Original name: dismissUpsellCTA
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot2;
         entity = 0;
-        mike = tango[entity];
+        michal = tangon[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        golf = mike.Storage;
-        oscar = golf.set;
+        michal = zuuluu.bind(entity)(michal);
+        golfie = michal.Storage;
+        oscard = golfie.set;
         report = 'ContactSyncUpsellCTADismissed';
-        mike = true;
-        mike = oscar.bind(golf)(report, mike);
-        mike = 1;
-        mike = tango[mike];
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        michal = true;
+        michal = oscard.bind(golfie)(report, michal);
+        michal = 1;
+        michal = tangon[michal];
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                tango = argFoo;
+                tangon = argFoo;
                 report = entity;
-                mike = copyDataProperties(report, tango);
-                zulu = true;
-                mike = 'upsellCTADismissed';
-                entity[mike] = zulu;
+                michal = copyDataProperties(report, tangon);
+                zuuluu = true;
+                michal = 'upsellCTADismissed';
+                entity[michal] = zuuluu;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['dismissUpsellCTA'] = tango;
-    tango = function() { // Original name: dismissDMListCTA
-        zulu = _closure1_slot0;
-        tango = _closure1_slot2;
+    zuuluu['dismissUpsellCTA'] = tangon;
+    tangon = function() { // Original name: dismissDMListCTA
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot2;
         entity = 0;
-        mike = tango[entity];
+        michal = tangon[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        golf = mike.Storage;
-        oscar = golf.set;
+        michal = zuuluu.bind(entity)(michal);
+        golfie = michal.Storage;
+        oscard = golfie.set;
         report = 'ContactSyncDMListCTADismissed';
-        mike = true;
-        mike = oscar.bind(golf)(report, mike);
-        mike = 1;
-        mike = tango[mike];
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.setState;
+        michal = true;
+        michal = oscard.bind(golfie)(report, michal);
+        michal = 1;
+        michal = tangon[michal];
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                tango = argFoo;
+                tangon = argFoo;
                 report = entity;
-                mike = copyDataProperties(report, tango);
-                zulu = true;
-                mike = 'dmListCTADismissed';
-                entity[mike] = zulu;
+                michal = copyDataProperties(report, tangon);
+                zuuluu = true;
+                michal = 'dmListCTADismissed';
+                entity[michal] = zuuluu;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['dismissDMListCTA'] = tango;
-    tango = function() { // Original name: setDMListCTAFirstSeenDate
+    zuuluu['dismissDMListCTA'] = tangon;
+    tangon = function() { // Original name: setDMListCTAFirstSeenDate
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = _closure1_slot0;
             entity = _closure1_slot2;
-            tango = 0;
-            zulu = entity[tango];
+            tangon = 0;
+            zuuluu = entity[tangon];
             entity = undefined;
-            zulu = report.bind(entity)(zulu);
-            oscar = zulu.Storage;
-            zulu = oscar.get;
+            zuuluu = report.bind(entity)(zuuluu);
+            oscard = zuuluu.Storage;
+            zuuluu = oscard.get;
             report = 'contact_sync_dm_list_cta_first_seen_date';
-            zulu = zulu.bind(oscar)(report);
-            if(zulu) { _fun00006_ip = 100; continue _fun00005 }
+            zuuluu = zuuluu.bind(oscard)(report);
+            if(zuuluu) { _fun00006_ip = 100; continue _fun00005 }
  49:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[tango];
-            mike = zulu.bind(entity)(mike);
-            tango = mike.Storage;
-            zulu = tango.set;
-            mike = global;
-            oscar = mike.Date;
-            mike = oscar.now;
-            mike = mike.bind(oscar)();
-            mike = zulu.bind(tango)(report, mike);
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[tangon];
+            michal = zuuluu.bind(entity)(michal);
+            tangon = michal.Storage;
+            zuuluu = tangon.set;
+            michal = global;
+            oscard = michal.Date;
+            michal = oscard.now;
+            michal = michal.bind(oscard)();
+            michal = zuuluu.bind(tangon)(report, michal);
  100:
             return entity;
         }
     };
-    zulu['setDMListCTAFirstSeenDate'] = tango;
-    mike = function() { // Original name: clearDismissState
-        tango = _closure1_slot0;
+    zuuluu['setDMListCTAFirstSeenDate'] = tangon;
+    michal = function() { // Original name: clearDismissState
+        tangon = _closure1_slot0;
         report = _closure1_slot2;
-        zulu = 0;
-        oscar = report[zulu];
+        zuuluu = 0;
+        oscard = report[zuuluu];
         entity = undefined;
-        oscar = tango.bind(entity)(oscar);
-        options = oscar.Storage;
-        golf = options.remove;
-        oscar = 'ContactSyncUpsellCTADismissed';
-        oscar = golf.bind(options)(oscar);
-        zulu = report[zulu];
-        zulu = tango.bind(entity)(zulu);
-        report = zulu.Storage;
-        tango = report.remove;
-        zulu = 'ContactSyncDMListCTADismissed';
-        zulu = tango.bind(report)(zulu);
-        tango = _closure1_slot4;
-        zulu = tango.setState;
-        mike = function(argFoo) {
+        oscard = tangon.bind(entity)(oscard);
+        option = oscard.Storage;
+        golfie = option.remove;
+        oscard = 'ContactSyncUpsellCTADismissed';
+        oscard = golfie.bind(option)(oscard);
+        zuuluu = report[zuuluu];
+        zuuluu = tangon.bind(entity)(zuuluu);
+        report = zuuluu.Storage;
+        tangon = report.remove;
+        zuuluu = 'ContactSyncDMListCTADismissed';
+        zuuluu = tangon.bind(report)(zuuluu);
+        tangon = _closure1_slot4;
+        zuuluu = tangon.setState;
+        michal = function(argFoo) {
             entity = {};
-            tango = argFoo;
+            tangon = argFoo;
             report = entity;
-            mike = copyDataProperties(report, tango);
-            zulu = false;
-            mike = 'upsellCTADismissed';
-            entity[mike] = zulu;
-            mike = 'dmListCTADismissed';
-            entity[mike] = zulu;
+            michal = copyDataProperties(report, tangon);
+            zuuluu = false;
+            michal = 'upsellCTADismissed';
+            entity[michal] = zuuluu;
+            michal = 'dmListCTADismissed';
+            entity[michal] = zuuluu;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearDismissState'] = mike;
+    zuuluu['clearDismissState'] = michal;
     return entity;
 })();

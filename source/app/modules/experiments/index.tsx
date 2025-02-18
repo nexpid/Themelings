@@ -1,27 +1,27 @@
 // app/modules/experiments/index.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    oscar = entity.Object;
-    tango = oscar.defineProperty;
-    mike = {};
+    oscard = entity.Object;
+    tangon = oscard.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(oscar)(zulu, entity, mike);
+    entity = tangon.bind(oscard)(zuuluu, entity, michal);
     entity = 0;
-    tango = report[entity];
-    mike = argBaz;
+    tangon = report[entity];
+    michal = argBaz;
     entity = undefined;
-    mike = mike.bind(entity)(tango);
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/experiments/index.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['createExperiment'] = mike;
+    michal = michal.bind(entity)(tangon);
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/experiments/index.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['createExperiment'] = michal;
     return entity;
 })();

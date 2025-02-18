@@ -1,63 +1,63 @@
 // app/modules/video_calls/useDeafStates.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: getDeafStates
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: getDeafStates
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            options = arguments[1];
-            oscar = arguments[2];
+            option = arguments[1];
+            oscard = arguments[2];
             verify = arguments[3];
-            zulu = undefined;
-            if(!(options === zulu)) { _fun00002_ip = 25; continue _fun00001 }
+            zuuluu = undefined;
+            if(!(option === zuuluu)) { _fun00002_ip = 25; continue _fun00001 }
  18:
-            options = _closure1_slot4;
+            option = _closure1_slot4;
  25:
-            if(!(oscar === zulu)) { _fun00002_ip = 36; continue _fun00001 }
+            if(!(oscard === zuuluu)) { _fun00002_ip = 36; continue _fun00001 }
  29:
-            oscar = _closure1_slot3;
+            oscard = _closure1_slot3;
  36:
-            if(!(verify === zulu)) { _fun00002_ip = 47; continue _fun00001 }
+            if(!(verify === zuuluu)) { _fun00002_ip = 47; continue _fun00001 }
  40:
             verify = _closure1_slot2;
  47:
-            mike = null;
-            entity = mike != report;
-            tango = null;
+            michal = null;
+            entity = michal != report;
+            tangon = null;
             if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  58:
-            golf = options.getVoiceState;
+            golfie = option.getVoiceState;
             entity = report.getGuildId;
             report = entity.bind(report)();
             entity = verify.getId;
             entity = entity.bind(verify)();
-            tango = golf.bind(options)(report, entity);
+            tangon = golfie.bind(option)(report, entity);
  90:
             entity = {};
-            report = oscar.isSelfDeaf;
-            report = report.bind(oscar)();
+            report = oscard.isSelfDeaf;
+            report = report.bind(oscard)();
             entity['selfDeaf'] = report;
-            report = mike == tango;
-            zulu = undefined;
+            report = michal == tangon;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 122; continue _fun00001 }
  116:
-            zulu = tango.deaf;
+            zuuluu = tangon.deaf;
  122:
-            mike = mike != zulu;
-            if(!mike) { _fun00002_ip = 132; continue _fun00001 }
+            michal = michal != zuuluu;
+            if(!michal) { _fun00002_ip = 132; continue _fun00001 }
  129:
-            mike = zulu;
+            michal = zuuluu;
  132:
-            entity['deaf'] = mike;
+            entity['deaf'] = michal;
             return entity;
         }
     };
-    var _closure1_slot5 = mike;
+    var _closure1_slot5 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -65,59 +65,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/video_calls/useDeafStates.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: useDeafStates
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: useDeafStates
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStoresObject;
-        golf = _closure1_slot4;
-        zulu = new Array(3);
-        zulu[0] = golf;
-        golf = _closure1_slot3;
-        zulu[1] = golf;
-        mike = _closure1_slot2;
-        zulu[2] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStoresObject;
+        golfie = _closure1_slot4;
+        zuuluu = new Array(3);
+        zuuluu[0] = golfie;
+        golfie = _closure1_slot3;
+        zuuluu[1] = golfie;
+        michal = _closure1_slot2;
+        zuuluu[2] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
-            oscar = _closure1_slot5;
+            oscard = _closure1_slot5;
             offset = _closure2_slot0;
             verify = _closure1_slot4;
-            options = _closure1_slot3;
-            golf = _closure1_slot2;
+            option = _closure1_slot3;
+            golfie = _closure1_slot2;
             yankee = undefined;
-            entity = yankee[oscar](offset, verify, options, golf, oscar);
+            entity = yankee[oscard](offset, verify, option, golfie, oscard);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    zulu['getDeafStates'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['getDeafStates'] = michal;
     return entity;
 })();

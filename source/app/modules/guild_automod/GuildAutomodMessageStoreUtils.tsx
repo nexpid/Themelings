@@ -1,52 +1,52 @@
 // app/modules/guild_automod/GuildAutomodMessageStoreUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_automod/GuildAutomodMessageStoreUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_automod/GuildAutomodMessageStoreUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.type;
-            tango = _closure1_slot0;
+            zuuluu = entity.type;
+            tangon = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 0;
-            entity = entity[oscar];
+            oscard = 0;
+            entity = entity[oscard];
             report = undefined;
-            entity = tango.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             entity = entity.MessageEmbedTypes;
             entity = entity.AUTO_MODERATION_MESSAGE;
-            entity = zulu !== entity;
+            entity = zuuluu !== entity;
             if(!entity) { _fun00002_ip = 84; continue _fun00001 }
  51:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = tango.bind(report)(mike);
-            mike = mike.MessageEmbedTypes;
-            mike = mike.AUTO_MODERATION_NOTIFICATION;
-            entity = zulu !== mike;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.MessageEmbedTypes;
+            michal = michal.AUTO_MODERATION_NOTIFICATION;
+            entity = zuuluu !== michal;
  84:
             return entity;
         }
     };
-    zulu['isNotAutomodEmbed'] = mike;
+    zuuluu['isNotAutomodEmbed'] = michal;
     return entity;
 })();

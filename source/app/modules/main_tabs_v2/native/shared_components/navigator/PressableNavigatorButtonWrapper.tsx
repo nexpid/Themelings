@@ -1,90 +1,90 @@
 // app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.View;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    offset = tango.MIN_HEADER_HEIGHT;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot1 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = report.bind(entity)(tango);
-    golf = options.createStyles;
-    tango = {};
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    offset = tangon.MIN_HEADER_HEIGHT;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot1 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
     verify = {'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center'};
     yankee = 4;
-    romeo = oscar[yankee];
+    romeon = oscard[yankee];
     yankee = argBaz;
-    yankee = yankee.bind(entity)(romeo);
+    yankee = yankee.bind(entity)(romeon);
     yankee = yankee.spacing;
     yankee = yankee.PX_8;
     verify['padding'] = yankee;
     verify['height'] = offset;
     verify['width'] = offset;
-    tango['buttonWrapper'] = verify;
+    tangon['buttonWrapper'] = verify;
     verify = {};
     offset = -8;
     verify['marginLeft'] = offset;
-    tango['buttonWrapperModal'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot2 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: PressableNavigatorButtonWrapper
+    tangon['buttonWrapperModal'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: PressableNavigatorButtonWrapper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.children;
-            oscar = entity.isModal;
-            tango = undefined;
-            if(!(oscar === tango)) { _fun00002_ip = 22; continue _fun00001 }
+            oscard = entity.isModal;
+            tangon = undefined;
+            if(!(oscard === tangon)) { _fun00002_ip = 22; continue _fun00001 }
  20:
-            oscar = false;
+            oscard = false;
  22:
-            mike = _closure1_slot2;
-            golf = mike.bind(tango)();
-            zulu = _closure1_slot1;
-            mike = _closure1_slot0;
+            michal = _closure1_slot2;
+            golfie = michal.bind(tangon)();
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot0;
             entity = {};
-            options = false;
-            entity['collapsable'] = options;
-            if(oscar) { _fun00002_ip = 61; continue _fun00001 }
+            option = false;
+            entity['collapsable'] = option;
+            if(oscard) { _fun00002_ip = 61; continue _fun00001 }
  53:
-            oscar = golf.buttonWrapper;
+            oscard = golfie.buttonWrapper;
             _fun00002_ip = 67; continue _fun00001;
  61:
-            oscar = golf.buttonWrapperModal;
+            oscard = golfie.buttonWrapperModal;
  67:
-            entity['style'] = oscar;
+            entity['style'] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

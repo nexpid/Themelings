@@ -1,61 +1,61 @@
 // app/design/components/Navigator/native/useNavigation.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    tango = function() { // Original name: useNavigation
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    tangon = function() { // Original name: useNavigation
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.useNavigation;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.useNavigation;
+        entity = entity.bind(michal)();
         return entity;
     };
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 1;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'design/components/Navigator/native/useNavigation.native.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useNavigation'] = tango;
+    report = oscard.bind(golfie)(report);
+    zuuluu['useNavigation'] = tangon;
     report = function() { // Original name: useNativeStackNavigation
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.useNavigation;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.useNavigation;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['useNativeStackNavigation'] = report;
-    zulu['useStackNavigation'] = tango;
-    mike = function() { // Original name: useTabNavigation
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['useNativeStackNavigation'] = report;
+    zuuluu['useStackNavigation'] = tangon;
+    michal = function() { // Original name: useTabNavigation
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.useNavigation;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.useNavigation;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['useTabNavigation'] = mike;
+    zuuluu['useTabNavigation'] = michal;
     return entity;
 })();

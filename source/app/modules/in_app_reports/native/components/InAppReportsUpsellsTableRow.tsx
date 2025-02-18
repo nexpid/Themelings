@@ -1,82 +1,82 @@
 // app/modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: InAppReportsUpsellsTableRow
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: InAppReportsUpsellsTableRow
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            foxtrot = entity.title;
+            foxtra = entity.title;
             yankee = entity.disabledTitle;
             offset = entity.description;
             report = entity.variant;
-            tango = undefined;
-            if(!(report === tango)) { _fun00002_ip = 34; continue _fun00001 }
+            tangon = undefined;
+            if(!(report === tangon)) { _fun00002_ip = 34; continue _fun00001 }
  30:
             report = 'default';
  34:
-            oscar = entity.disabled;
-            options = entity.onPress;
-            golf = entity.icon;
-            zulu = _closure1_slot2;
-            mike = _closure1_slot0;
+            oscard = entity.disabled;
+            option = entity.onPress;
+            golfie = entity.icon;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 2;
             entity = verify[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.TableRow;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.TableRow;
             entity = {};
-            verify = foxtrot;
-            if(!oscar) { _fun00002_ip = 102; continue _fun00001 }
+            verify = foxtra;
+            if(!oscard) { _fun00002_ip = 102; continue _fun00001 }
  90:
-            romeo = null;
-            verify = foxtrot;
-            if(!(romeo != yankee)) { _fun00002_ip = 102; continue _fun00001 }
+            romeon = null;
+            verify = foxtra;
+            if(!(romeon != yankee)) { _fun00002_ip = 102; continue _fun00001 }
  99:
             verify = yankee;
  102:
             entity['label'] = verify;
             verify = null;
-            if(oscar) { _fun00002_ip = 114; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 114; continue _fun00001 }
  111:
             verify = offset;
  114:
             entity['subLabel'] = verify;
-            entity['onPress'] = options;
-            entity['icon'] = golf;
-            entity['disabled'] = oscar;
+            entity['onPress'] = option;
+            entity['icon'] = golfie;
+            entity['disabled'] = oscard;
             entity['variant'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

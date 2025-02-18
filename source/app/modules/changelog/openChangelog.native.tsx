@@ -1,75 +1,75 @@
 // app/modules/changelog/openChangelog.native.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.CHANGELOG_MODAL_KEY;
-    var _closure1_slot3 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/changelog/openChangelog.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: openChangelog
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.CHANGELOG_MODAL_KEY;
+    var _closure1_slot3 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/changelog/openChangelog.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: openChangelog
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[0];
+            michal = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            mike = false;
+            michal = false;
  11:
-            mike = !mike;
-            if(!mike) { _fun00002_ip = 50; continue _fun00001 }
+            michal = !michal;
+            if(!michal) { _fun00002_ip = 50; continue _fun00001 }
  17:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 1;
-            zulu = report[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isModalOpen;
-            mike = zulu.bind(tango)();
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isModalOpen;
+            michal = zuuluu.bind(tangon)();
  50:
-            if(mike) { _fun00002_ip = 129; continue _fun00001 }
+            if(michal) { _fun00002_ip = 129; continue _fun00001 }
  53:
             report = _closure1_slot1;
-            zulu = _closure1_slot2;
-            tango = 2;
-            tango = zulu[tango];
-            oscar = report.bind(entity)(tango);
-            report = oscar.pushLazy;
-            golf = _closure1_slot0;
-            tango = 4;
-            tango = zulu[tango];
-            golf = golf.bind(entity)(tango);
-            tango = 3;
-            tango = zulu[tango];
-            zulu = zulu.paths;
-            tango = golf.bind(entity)(tango, zulu);
-            zulu = _closure1_slot3;
-            mike = {};
-            mike = report.bind(oscar)(tango, mike, zulu);
+            zuuluu = _closure1_slot2;
+            tangon = 2;
+            tangon = zuuluu[tangon];
+            oscard = report.bind(entity)(tangon);
+            report = oscard.pushLazy;
+            golfie = _closure1_slot0;
+            tangon = 4;
+            tangon = zuuluu[tangon];
+            golfie = golfie.bind(entity)(tangon);
+            tangon = 3;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            tangon = golfie.bind(entity)(tangon, zuuluu);
+            zuuluu = _closure1_slot3;
+            michal = {};
+            michal = report.bind(oscard)(tangon, michal, zuuluu);
  129:
             return entity;
         }
     };
-    zulu['openChangelog'] = mike;
+    zuuluu['openChangelog'] = michal;
     return entity;
 })();

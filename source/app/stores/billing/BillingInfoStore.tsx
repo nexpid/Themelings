@@ -1,40 +1,40 @@
 // app/stores/billing/BillingInfoStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot3;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot3;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot2;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot2;
             entity = _closure1_slot21;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot3;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -43,48 +43,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot21 = mike;
+            _closure1_slot21 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot21 = entity;
-    foxtrot = function() { // Original name: handlePaymentSourceCreateEnd
+    foxtra = function() { // Original name: handlePaymentSourceCreateEnd
         entity = false;
         _closure1_slot11 = entity;
         entity = undefined;
         return entity;
     };
-    romeo = function() { // Original name: handlePaymentSourcesFetchEnd
+    romeon = function() { // Original name: handlePaymentSourcesFetchEnd
         entity = undefined;
         var _closure1_slot7 = entity;
         return entity;
@@ -109,77 +109,77 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     entity = global;
     backup = entity.Object;
-    options = backup.defineProperty;
-    mike = {};
+    option = backup.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(backup)(zulu, entity, mike);
+    entity = option.bind(backup)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot0 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot1 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 4;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 5;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.LocalizedPricingPromoRecord;
-    var _closure1_slot5 = mike;
-    mike = 6;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.FallbackCurrencyCountry;
-    var _closure1_slot6 = mike;
-    mike = false;
-    var _closure1_slot11 = mike;
-    var _closure1_slot12 = mike;
-    var _closure1_slot13 = mike;
-    var _closure1_slot14 = mike;
-    var _closure1_slot15 = mike;
-    options = null;
-    var _closure1_slot16 = options;
-    var _closure1_slot17 = options;
-    var _closure1_slot18 = mike;
-    var _closure1_slot19 = mike;
-    mike = 7;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    options = mike.Store;
-    mike = function(argFoo) {
-        tango = function() { // Original name: BillingInfoStore
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot0 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot1 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 5;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.LocalizedPricingPromoRecord;
+    var _closure1_slot5 = michal;
+    michal = 6;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.FallbackCurrencyCountry;
+    var _closure1_slot6 = michal;
+    michal = false;
+    var _closure1_slot11 = michal;
+    var _closure1_slot12 = michal;
+    var _closure1_slot13 = michal;
+    var _closure1_slot14 = michal;
+    var _closure1_slot15 = michal;
+    option = null;
+    var _closure1_slot16 = option;
+    var _closure1_slot17 = option;
+    var _closure1_slot18 = michal;
+    var _closure1_slot19 = michal;
+    michal = 7;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    option = michal.Store;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: BillingInfoStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot0;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot20;
+            oscard = _closure1_slot0;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot20;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot4;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot1;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot1;
         report = {};
         entity = 'isBusy';
         report['key'] = entity;
@@ -206,294 +206,294 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(17);
         entity[0] = report;
         report = {};
-        golf = 'isUpdatingPaymentSource';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'isUpdatingPaymentSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot12;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'isRemovingPaymentSource';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'isRemovingPaymentSource';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot13;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'isSyncing';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'isSyncing';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                mike = this;
-                entity = mike.isPaymentSourceFetching;
+                michal = this;
+                entity = michal.isPaymentSourceFetching;
                 if(entity) { _fun00008_ip = 18; continue _fun00007 }
  12:
-                entity = mike.isSubscriptionFetching;
+                entity = michal.isSubscriptionFetching;
  18:
                 return entity;
             }
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'isSubscriptionFetching';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'isSubscriptionFetching';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot14;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'isPaymentSourceFetching';
-        report['key'] = golf;
-        golf = function() { // Original name: get
-            mike = _closure1_slot7;
+        golfie = 'isPaymentSourceFetching';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            michal = _closure1_slot7;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'editSourceError';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'editSourceError';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot16;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'removeSourceError';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'removeSourceError';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot17;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[7] = report;
         report = {};
-        golf = 'ipCountryCodeLoaded';
-        report['key'] = golf;
-        golf = function() { // Original name: get
-            mike = _closure1_slot8;
+        golfie = 'ipCountryCodeLoaded';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            michal = _closure1_slot8;
             entity = undefined;
-            entity = entity !== mike;
+            entity = entity !== michal;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[8] = report;
         report = {};
-        golf = 'ipCountryCode';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'ipCountryCode';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot8;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[9] = report;
         report = {};
-        golf = 'ipCountryCodeRequest';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'ipCountryCodeRequest';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot9;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[10] = report;
         report = {};
-        golf = 'ipCountryCodeWithFallback';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'ipCountryCodeWithFallback';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot8;
-                zulu = null;
-                if(!(zulu == entity)) { _fun00010_ip = 17; continue _fun00009 }
+                zuuluu = null;
+                if(!(zuuluu == entity)) { _fun00010_ip = 17; continue _fun00009 }
  13:
                 entity = _closure1_slot6;
  17:
                 return entity;
             }
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[11] = report;
         report = {};
-        golf = 'ipCountryCodeHasError';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'ipCountryCodeHasError';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot18;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[12] = report;
         report = {};
-        golf = 'paymentSourcesFetchRequest';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'paymentSourcesFetchRequest';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot7;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[13] = report;
         report = {};
-        golf = 'localizedPricingPromo';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'localizedPricingPromo';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot10;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[14] = report;
         report = {};
-        golf = 'localizedPricingPromoHasError';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'localizedPricingPromoHasError';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot19;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[15] = report;
         report = {};
-        golf = 'isLocalizedPromoEnabled';
-        report['key'] = golf;
-        oscar = function() { // Original name: get
-            mike = _closure1_slot10;
+        golfie = 'isLocalizedPromoEnabled';
+        report['key'] = golfie;
+        oscard = function() { // Original name: get
+            michal = _closure1_slot10;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             return entity;
         };
-        report['get'] = oscar;
+        report['get'] = oscard;
         entity[16] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = mike.bind(entity)(options);
-    mike = 'BillingInfoStore';
-    options['displayName'] = mike;
-    mike = 8;
-    mike = oscar[mike];
-    output = golf.bind(entity)(mike);
-    mike = {};
+    option = michal.bind(entity)(option);
+    michal = 'BillingInfoStore';
+    option['displayName'] = michal;
+    michal = 8;
+    michal = oscard[michal];
+    output = golfie.bind(entity)(michal);
+    michal = {};
     backup = function() { // Original name: handlePaymentSourceCreateStart
         entity = true;
         _closure1_slot11 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_CREATE_START'] = backup;
-    mike['BILLING_PAYMENT_SOURCE_CREATE_SUCCESS'] = foxtrot;
-    mike['BILLING_PAYMENT_SOURCE_CREATE_FAIL'] = foxtrot;
-    mike['STRIPE_TOKEN_FAILURE'] = foxtrot;
-    foxtrot = function() { // Original name: handlePaymentSourceRemoveStart
+    michal['BILLING_PAYMENT_SOURCE_CREATE_START'] = backup;
+    michal['BILLING_PAYMENT_SOURCE_CREATE_SUCCESS'] = foxtra;
+    michal['BILLING_PAYMENT_SOURCE_CREATE_FAIL'] = foxtra;
+    michal['STRIPE_TOKEN_FAILURE'] = foxtra;
+    foxtra = function() { // Original name: handlePaymentSourceRemoveStart
         entity = true;
         _closure1_slot13 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_REMOVE_START'] = foxtrot;
-    foxtrot = function() { // Original name: handlePaymentSourceRemoveSuccess
+    michal['BILLING_PAYMENT_SOURCE_REMOVE_START'] = foxtra;
+    foxtra = function() { // Original name: handlePaymentSourceRemoveSuccess
         entity = false;
         _closure1_slot13 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_REMOVE_SUCCESS'] = foxtrot;
-    foxtrot = function(argFoo) { // Original name: handlePaymentSourceRemoveFail
+    michal['BILLING_PAYMENT_SOURCE_REMOVE_SUCCESS'] = foxtra;
+    foxtra = function(argFoo) { // Original name: handlePaymentSourceRemoveFail
         entity = argFoo;
-        mike = entity.error;
-        zulu = false;
-        _closure1_slot13 = zulu;
-        _closure1_slot17 = mike;
+        michal = entity.error;
+        zuuluu = false;
+        _closure1_slot13 = zuuluu;
+        _closure1_slot17 = michal;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_REMOVE_FAIL'] = foxtrot;
-    foxtrot = function() { // Original name: handleClearRemoveError
+    michal['BILLING_PAYMENT_SOURCE_REMOVE_FAIL'] = foxtra;
+    foxtra = function() { // Original name: handleClearRemoveError
         entity = null;
         _closure1_slot17 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_REMOVE_CLEAR_ERROR'] = foxtrot;
-    foxtrot = function() { // Original name: handlePaymentSourceUpdateStart
+    michal['BILLING_PAYMENT_SOURCE_REMOVE_CLEAR_ERROR'] = foxtra;
+    foxtra = function() { // Original name: handlePaymentSourceUpdateStart
         entity = true;
         _closure1_slot12 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_UPDATE_START'] = foxtrot;
-    foxtrot = function() { // Original name: handlePaymentSourceUpdateSuccess
+    michal['BILLING_PAYMENT_SOURCE_UPDATE_START'] = foxtra;
+    foxtra = function() { // Original name: handlePaymentSourceUpdateSuccess
         entity = false;
         _closure1_slot12 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_UPDATE_SUCCESS'] = foxtrot;
-    foxtrot = function(argFoo) { // Original name: handlePaymentSourceUpdateFail
+    michal['BILLING_PAYMENT_SOURCE_UPDATE_SUCCESS'] = foxtra;
+    foxtra = function(argFoo) { // Original name: handlePaymentSourceUpdateFail
         entity = argFoo;
-        mike = entity.error;
-        zulu = false;
-        _closure1_slot12 = zulu;
-        _closure1_slot16 = mike;
+        michal = entity.error;
+        zuuluu = false;
+        _closure1_slot12 = zuuluu;
+        _closure1_slot16 = michal;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_UPDATE_FAIL'] = foxtrot;
-    foxtrot = function() { // Original name: handleClearUpdateError
+    michal['BILLING_PAYMENT_SOURCE_UPDATE_FAIL'] = foxtra;
+    foxtra = function() { // Original name: handleClearUpdateError
         entity = null;
         _closure1_slot16 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCE_UPDATE_CLEAR_ERROR'] = foxtrot;
-    foxtrot = function(argFoo) { // Original name: handlePaymentSourcesFetchStart
+    michal['BILLING_PAYMENT_SOURCE_UPDATE_CLEAR_ERROR'] = foxtra;
+    foxtra = function(argFoo) { // Original name: handlePaymentSourcesFetchStart
         entity = argFoo;
-        mike = entity.request;
-        _closure1_slot7 = mike;
+        michal = entity.request;
+        _closure1_slot7 = michal;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_PAYMENT_SOURCES_FETCH_START'] = foxtrot;
-    mike['BILLING_PAYMENT_SOURCES_FETCH_SUCCESS'] = romeo;
-    mike['BILLING_PAYMENT_SOURCES_FETCH_FAIL'] = romeo;
-    romeo = function() { // Original name: handleSubscriptionFetchStart
+    michal['BILLING_PAYMENT_SOURCES_FETCH_START'] = foxtra;
+    michal['BILLING_PAYMENT_SOURCES_FETCH_SUCCESS'] = romeon;
+    michal['BILLING_PAYMENT_SOURCES_FETCH_FAIL'] = romeon;
+    romeon = function() { // Original name: handleSubscriptionFetchStart
         entity = true;
         _closure1_slot14 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_SUBSCRIPTION_FETCH_START'] = romeo;
-    mike['BILLING_SUBSCRIPTION_FETCH_SUCCESS'] = yankee;
-    mike['BILLING_SUBSCRIPTION_FETCH_FAIL'] = yankee;
-    mike['BILLING_SUBSCRIPTION_UPDATE_START'] = offset;
-    mike['BILLING_SUBSCRIPTION_CANCEL_START'] = offset;
-    mike['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = verify;
-    mike['BILLING_SUBSCRIPTION_UPDATE_FAIL'] = verify;
-    mike['BILLING_SUBSCRIPTION_CANCEL_FAIL'] = verify;
-    mike['BILLING_SUBSCRIPTION_CANCEL_SUCCESS'] = verify;
+    michal['BILLING_SUBSCRIPTION_FETCH_START'] = romeon;
+    michal['BILLING_SUBSCRIPTION_FETCH_SUCCESS'] = yankee;
+    michal['BILLING_SUBSCRIPTION_FETCH_FAIL'] = yankee;
+    michal['BILLING_SUBSCRIPTION_UPDATE_START'] = offset;
+    michal['BILLING_SUBSCRIPTION_CANCEL_START'] = offset;
+    michal['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = verify;
+    michal['BILLING_SUBSCRIPTION_UPDATE_FAIL'] = verify;
+    michal['BILLING_SUBSCRIPTION_CANCEL_FAIL'] = verify;
+    michal['BILLING_SUBSCRIPTION_CANCEL_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleIpCountryCodeFetchStart
         entity = argFoo;
-        mike = entity.request;
-        var _closure1_slot9 = mike;
+        michal = entity.request;
+        var _closure1_slot9 = michal;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_IP_COUNTRY_CODE_FETCH_START'] = verify;
+    michal['BILLING_IP_COUNTRY_CODE_FETCH_START'] = verify;
     verify = function(argFoo) { // Original name: handleSetIpCountryCode
         entity = argFoo;
-        mike = entity.countryCode;
-        var _closure1_slot8 = mike;
+        michal = entity.countryCode;
+        var _closure1_slot8 = michal;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_SET_IP_COUNTRY_CODE'] = verify;
+    michal['BILLING_SET_IP_COUNTRY_CODE'] = verify;
     verify = function() { // Original name: handleIpCountryCodeFailure
         entity = null;
         _closure1_slot8 = entity;
@@ -502,18 +502,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = undefined;
         return entity;
     };
-    mike['BILLING_IP_COUNTRY_CODE_FAILURE'] = verify;
+    michal['BILLING_IP_COUNTRY_CODE_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleSetLocalizedPricingPromo
         entity = argFoo;
-        tango = entity.localizedPricingPromo;
-        zulu = _closure1_slot5;
-        entity = zulu.createFromServer;
-        entity = entity.bind(zulu)(tango);
+        tangon = entity.localizedPricingPromo;
+        zuuluu = _closure1_slot5;
+        entity = zuuluu.createFromServer;
+        entity = entity.bind(zuuluu)(tangon);
         var _closure1_slot10 = entity;
         entity = undefined;
         return entity;
     };
-    mike['BILLING_SET_LOCALIZED_PRICING_PROMO'] = verify;
+    michal['BILLING_SET_LOCALIZED_PRICING_PROMO'] = verify;
     verify = function() { // Original name: handleLocalizedPricingPromoFailure
         entity = null;
         _closure1_slot10 = entity;
@@ -522,48 +522,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = undefined;
         return entity;
     };
-    mike['BILLING_LOCALIZED_PRICING_PROMO_FAILURE'] = verify;
+    michal['BILLING_LOCALIZED_PRICING_PROMO_FAILURE'] = verify;
     verify = function() { // Original name: handleLogout
         entity = undefined;
         _closure1_slot7 = entity;
         _closure1_slot9 = entity;
         _closure1_slot8 = entity;
-        mike = false;
-        _closure1_slot18 = mike;
-        mike = null;
-        _closure1_slot10 = mike;
-        _closure1_slot17 = mike;
-        _closure1_slot16 = mike;
+        michal = false;
+        _closure1_slot18 = michal;
+        michal = null;
+        _closure1_slot10 = michal;
+        _closure1_slot17 = michal;
+        _closure1_slot16 = michal;
         return entity;
     };
-    mike['LOGOUT'] = verify;
-    tango = function(argFoo) { // Original name: CONNECTION_OPEN
+    michal['LOGOUT'] = verify;
+    tangon = function(argFoo) { // Original name: CONNECTION_OPEN
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            mike = entity.countryCode;
+            michal = entity.countryCode;
             entity = null;
-            if(!(entity != mike)) { _fun00012_ip = 22; continue _fun00011 }
+            if(!(entity != michal)) { _fun00012_ip = 22; continue _fun00011 }
  15:
-            _closure1_slot8 = mike;
+            _closure1_slot8 = michal;
  22:
             entity = undefined;
             return entity;
         }
     };
-    mike['CONNECTION_OPEN'] = tango;
-    tango = options.prototype;
-    tango = Object.create(tango, {constructor: {value: options}});
-    result = tango;
-    sizing = mike;
-    mike = new result[options](output, sizing, kilo);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'stores/billing/BillingInfoStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['CONNECTION_OPEN'] = tangon;
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
+    result = tangon;
+    sizing = michal;
+    michal = new result[option](output, sizing, kiloes);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'stores/billing/BillingInfoStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

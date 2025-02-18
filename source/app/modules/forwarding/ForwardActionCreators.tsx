@@ -1,278 +1,278 @@
 // app/modules/forwarding/ForwardActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    mike = {};
-    golf = function(argFoo, argBar, argBaz) { // Original name: sendForward
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = argBar;
-        var _closure2_slot1 = mike;
-        mike = argBaz;
-        var _closure2_slot2 = mike;
-        zulu = _closure1_slot3;
-        mike = undefined;
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    michal = {};
+    golfie = function(argFoo, argBar, argBaz) { // Original name: sendForward
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBar;
+        var _closure2_slot1 = michal;
+        michal = argBaz;
+        var _closure2_slot2 = michal;
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 635; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 635; continue _fun00001 }
  10:
                     report = _closure1_slot4;
-                    zulu = report.getChannel;
-                    mike = _closure2_slot1;
-                    yankee = zulu.bind(report)(mike);
-                    zulu = report.getChannel;
-                    mike = _closure2_slot0;
-                    mike = mike.channel_id;
-                    zulu = zulu.bind(report)(mike);
-                    mike = _closure2_slot2;
+                    zuuluu = report.getChannel;
+                    michal = _closure2_slot1;
+                    yankee = zuuluu.bind(report)(michal);
+                    zuuluu = report.getChannel;
+                    michal = _closure2_slot0;
+                    michal = michal.channel_id;
+                    zuuluu = zuuluu.bind(report)(michal);
+                    michal = _closure2_slot2;
                     verify = null;
-                    if(!(verify != mike)) { _fun00002_ip = 76; continue _fun00001 }
+                    if(!(verify != michal)) { _fun00002_ip = 76; continue _fun00001 }
  63:
-                    mike = _closure2_slot2;
-                    mike = mike.isICYMIGameContentForwarding;
-                    if(mike) { _fun00002_ip = 92; continue _fun00001 }
+                    michal = _closure2_slot2;
+                    michal = michal.isICYMIGameContentForwarding;
+                    if(michal) { _fun00002_ip = 92; continue _fun00001 }
  76:
-                    report = verify == zulu;
-                    mike = undefined;
+                    report = verify == zuuluu;
+                    michal = undefined;
                     if(report) { _fun00002_ip = 90; continue _fun00001 }
  85:
-                    mike = zulu.guild_id;
+                    michal = zuuluu.guild_id;
  90:
                     _fun00002_ip = 120; continue _fun00001;
  92:
-                    options = _closure1_slot0;
-                    golf = _closure1_slot2;
+                    option = _closure1_slot0;
+                    golfie = _closure1_slot2;
                     report = 3;
-                    golf = golf[report];
+                    golfie = golfie[report];
                     report = undefined;
-                    report = options.bind(report)(golf);
-                    mike = report.GAME_CONTENT_GUILD_ID;
+                    report = option.bind(report)(golfie);
+                    michal = report.GAME_CONTENT_GUILD_ID;
  120:
-                    if(!(verify == zulu)) { _fun00002_ip = 131; continue _fun00001 }
+                    if(!(verify == zuuluu)) { _fun00002_ip = 131; continue _fun00001 }
  124:
-                    if(!(verify != mike)) { _fun00002_ip = 599; continue _fun00001 }
+                    if(!(verify != michal)) { _fun00002_ip = 599; continue _fun00001 }
  131:
                     if(!(verify != yankee)) { _fun00002_ip = 563; continue _fun00001 }
  138:
-                    options = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    romeo = 4;
-                    report = golf[romeo];
-                    zulu = undefined;
-                    offset = options.bind(zulu)(report);
-                    options = offset.parse;
+                    option = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    romeon = 4;
+                    report = golfie[romeon];
+                    zuuluu = undefined;
+                    offset = option.bind(zuuluu)(report);
+                    option = offset.parse;
                     report = '';
-                    backup = options.bind(offset)(yankee, report);
-                    options = {};
-                    options['guild_id'] = mike;
-                    mike = _closure2_slot0;
-                    report = mike.channel_id;
-                    options['channel_id'] = report;
-                    mike = mike.id;
-                    options['message_id'] = mike;
+                    backup = option.bind(offset)(yankee, report);
+                    option = {};
+                    option['guild_id'] = michal;
+                    michal = _closure2_slot0;
+                    report = michal.channel_id;
+                    option['channel_id'] = report;
+                    michal = michal.id;
+                    option['message_id'] = michal;
                     report = _closure1_slot0;
-                    mike = 5;
-                    mike = golf[mike];
-                    mike = report.bind(zulu)(mike);
-                    mike = mike.MessageReferenceTypes;
-                    mike = mike.FORWARD;
-                    options['type'] = mike;
-                    mike = _closure2_slot2;
-                    report = verify == mike;
-                    mike = undefined;
+                    michal = 5;
+                    michal = golfie[michal];
+                    michal = report.bind(zuuluu)(michal);
+                    michal = michal.MessageReferenceTypes;
+                    michal = michal.FORWARD;
+                    option['type'] = michal;
+                    michal = _closure2_slot2;
+                    report = verify == michal;
+                    michal = undefined;
                     if(report) { _fun00002_ip = 260; continue _fun00001 }
  250:
                     report = _closure2_slot2;
-                    mike = report.onlyAttachmentIds;
+                    michal = report.onlyAttachmentIds;
  260:
-                    if(!(verify == mike)) { _fun00002_ip = 296; continue _fun00001 }
+                    if(!(verify == michal)) { _fun00002_ip = 296; continue _fun00001 }
  264:
-                    mike = _closure2_slot2;
-                    report = verify == mike;
-                    mike = undefined;
+                    michal = _closure2_slot2;
+                    report = verify == michal;
+                    michal = undefined;
                     if(report) { _fun00002_ip = 287; continue _fun00001 }
  277:
                     report = _closure2_slot2;
-                    mike = report.onlyEmbedIndices;
+                    michal = report.onlyEmbedIndices;
  287:
-                    report = verify != mike;
-                    mike = undefined;
+                    report = verify != michal;
+                    michal = undefined;
                     if(!report) { _fun00002_ip = 329; continue _fun00001 }
  296:
                     report = {};
-                    golf = _closure2_slot2;
-                    offset = golf.onlyAttachmentIds;
+                    golfie = _closure2_slot2;
+                    offset = golfie.onlyAttachmentIds;
                     report['attachment_ids'] = offset;
-                    golf = golf.onlyEmbedIndices;
-                    report['embed_indices'] = golf;
-                    mike = report;
+                    golfie = golfie.onlyEmbedIndices;
+                    report['embed_indices'] = golfie;
+                    michal = report;
  329:
-                    options['forward_only'] = mike;
-                    golf = _closure1_slot1;
-                    mike = _closure1_slot2;
+                    option['forward_only'] = michal;
+                    golfie = _closure1_slot1;
+                    michal = _closure1_slot2;
                     report = 6;
-                    mike = mike[report];
-                    foxtrot = golf.bind(zulu)(mike);
-                    offset = foxtrot.sendMessage;
-                    echo = yankee.id;
-                    mike = {};
-                    mike['messageReference'] = options;
-                    options = false;
-                    mike['eagerDispatch'] = options;
-                    update = foxtrot;
+                    michal = michal[report];
+                    foxtra = golfie.bind(zuuluu)(michal);
+                    offset = foxtra.sendMessage;
+                    echoed = yankee.id;
+                    michal = {};
+                    michal['messageReference'] = option;
+                    option = false;
+                    michal['eagerDispatch'] = option;
+                    update = foxtra;
                     result = backup;
                     output = false;
-                    sizing = mike;
-                    mike = update[offset](echo, result, output, sizing, kilo);
+                    sizing = michal;
+                    michal = update[offset](echoed, result, output, sizing, kiloes);
                     SaveGenerator(address=400);
  398:
-                    return mike;
+                    return michal;
  400:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 560; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 560; continue _fun00001 }
  409:
-                    golf = _closure2_slot2;
-                    offset = verify == golf;
-                    golf = undefined;
+                    golfie = _closure2_slot2;
+                    offset = verify == golfie;
+                    golfie = undefined;
                     if(offset) { _fun00002_ip = 432; continue _fun00001 }
  422:
                     offset = _closure2_slot2;
-                    golf = offset.withMessage;
+                    golfie = offset.withMessage;
  432:
-                    golf = verify == golf;
-                    if(golf) { _fun00002_ip = 475; continue _fun00001 }
+                    golfie = verify == golfie;
+                    if(golfie) { _fun00002_ip = 475; continue _fun00001 }
  439:
                     offset = _closure1_slot0;
-                    foxtrot = _closure1_slot2;
+                    foxtra = _closure1_slot2;
                     verify = 7;
-                    verify = foxtrot[verify];
-                    foxtrot = offset.bind(zulu)(verify);
-                    offset = foxtrot.isRatelimitedInChannel;
+                    verify = foxtra[verify];
+                    foxtra = offset.bind(zuuluu)(verify);
+                    offset = foxtra.isRatelimitedInChannel;
                     verify = _closure1_slot5;
-                    golf = offset.bind(foxtrot)(yankee, verify);
+                    golfie = offset.bind(foxtra)(yankee, verify);
  475:
-                    if(golf) { _fun00002_ip = 557; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 557; continue _fun00001 }
  478:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
                     report = verify[report];
-                    golf = offset.bind(zulu)(report);
-                    oscar = golf.sendMessage;
+                    golfie = offset.bind(zuuluu)(report);
+                    oscard = golfie.sendMessage;
                     report = yankee.id;
-                    verify = verify[romeo];
-                    offset = offset.bind(zulu)(verify);
+                    verify = verify[romeon];
+                    offset = offset.bind(zuuluu)(verify);
                     verify = offset.parse;
-                    tango = _closure2_slot2;
-                    tango = tango.withMessage;
-                    tango = verify.bind(offset)(yankee, tango);
-                    tango = oscar.bind(golf)(report, tango, options);
+                    tangon = _closure2_slot2;
+                    tangon = tangon.withMessage;
+                    tangon = verify.bind(offset)(yankee, tangon);
+                    tangon = oscard.bind(golfie)(report, tangon, option);
                     SaveGenerator(address=548);
  546:
-                    return tango;
+                    return tangon;
  548:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(!report) { _fun00002_ip = 557; continue _fun00001 }
  554:
-                    return tango;
+                    return tangon;
  557:
-                    return zulu;
+                    return zuuluu;
  560:
-                    return mike;
+                    return michal;
  563:
-                    mike = global;
-                    tango = mike.Error;
-                    mike = tango.prototype;
-                    zulu = Object.create(mike, {constructor: {value: tango}});
-                    echo = 'Unable to find destination channel for message';
-                    update = zulu;
-                    mike = new update[tango](echo, result);
-                    mike = mike instanceof Object ? mike : zulu;
-                    throw mike;
+                    michal = global;
+                    tangon = michal.Error;
+                    michal = tangon.prototype;
+                    zuuluu = Object.create(michal, {constructor: {value: tangon}});
+                    echoed = 'Unable to find destination channel for message';
+                    update = zuuluu;
+                    michal = new update[tangon](echoed, result);
+                    michal = michal instanceof Object ? michal : zuuluu;
+                    throw michal;
  599:
-                    mike = global;
-                    tango = mike.Error;
-                    mike = tango.prototype;
-                    zulu = Object.create(mike, {constructor: {value: tango}});
-                    echo = 'Unable to find original channel for message';
-                    update = zulu;
-                    mike = new update[tango](echo, result);
-                    mike = mike instanceof Object ? mike : zulu;
-                    throw mike;
+                    michal = global;
+                    tangon = michal.Error;
+                    michal = tangon.prototype;
+                    zuuluu = Object.create(michal, {constructor: {value: tangon}});
+                    echoed = 'Unable to find original channel for message';
+                    update = zuuluu;
+                    michal = new update[tangon](echoed, result);
+                    michal = michal instanceof Object ? michal : zuuluu;
+                    throw michal;
  635:
                     return entity;
                 }
             };
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['sendForward'] = golf;
-    golf = function(argFoo, argBar, argBaz) { // Original name: sendForwards
+    michal['sendForward'] = golfie;
+    golfie = function(argFoo, argBar, argBaz) { // Original name: sendForwards
         report = argBar;
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = argBaz;
-        var _closure2_slot1 = mike;
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
-        mike = 8;
-        mike = zulu[mike];
-        zulu = undefined;
-        mike = tango.bind(zulu)(mike);
-        tango = report.map;
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBaz;
+        var _closure2_slot1 = michal;
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
+        michal = 8;
+        michal = zuuluu[michal];
+        zuuluu = undefined;
+        michal = tangon.bind(zuuluu)(michal);
+        tangon = report.map;
         entity = function(argFoo) {
             report = _closure1_slot6;
-            tango = report.sendForward;
-            zulu = _closure2_slot0;
-            mike = _closure2_slot1;
+            tangon = report.sendForward;
+            zuuluu = _closure2_slot0;
+            michal = _closure2_slot1;
             entity = argFoo;
-            entity = tango.bind(report)(zulu, entity, mike);
+            entity = tangon.bind(report)(zuuluu, entity, michal);
             return entity;
         };
-        entity = tango.bind(report)(entity);
-        entity = mike.bind(zulu)(entity);
+        entity = tangon.bind(report)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['sendForwards'] = golf;
-    var _closure1_slot6 = mike;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forwarding/ForwardActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['sendForwards'] = golfie;
+    var _closure1_slot6 = michal;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forwarding/ForwardActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

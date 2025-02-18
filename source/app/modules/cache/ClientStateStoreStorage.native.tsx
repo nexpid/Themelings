@@ -1,84 +1,84 @@
 // app/modules/cache/ClientStateStoreStorage.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/cache/ClientStateStoreStorage.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: setClientState
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/cache/ClientStateStoreStorage.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: setClientState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            golfie = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00002_ip = 78; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00002_ip = 78; continue _fun00001 }
  40:
-            zulu = _closure1_slot3;
-            oscar = zulu.DCDFastConnectManager;
-            report = oscar.setClientState;
-            tango = null;
-            options = tango != golf;
-            zulu = null;
-            if(!options) { _fun00002_ip = 70; continue _fun00001 }
+            zuuluu = _closure1_slot3;
+            oscard = zuuluu.DCDFastConnectManager;
+            report = oscard.setClientState;
+            tangon = null;
+            option = tangon != golfie;
+            zuuluu = null;
+            if(!option) { _fun00002_ip = 70; continue _fun00001 }
  67:
-            zulu = golf;
+            zuuluu = golfie;
  70:
-            zulu = report.bind(oscar)(zulu, tango);
+            zuuluu = report.bind(oscard)(zuuluu, tangon);
             _fun00002_ip = 142; continue _fun00001;
  78:
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
-            mike = 2;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.setClientState;
-            mike = null;
-            oscar = mike == golf;
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 2;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.setClientState;
+            michal = null;
+            oscard = michal == golfie;
             report = undefined;
-            if(oscar) { _fun00002_ip = 124; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 124; continue _fun00001 }
  115:
-            oscar = golf.toString;
-            report = oscar.bind(golf)();
+            oscard = golfie.toString;
+            report = oscard.bind(golfie)();
  124:
-            oscar = mike != report;
-            mike = undefined;
-            if(!oscar) { _fun00002_ip = 136; continue _fun00001 }
+            oscard = michal != report;
+            michal = undefined;
+            if(!oscard) { _fun00002_ip = 136; continue _fun00001 }
  133:
-            mike = report;
+            michal = report;
  136:
-            mike = zulu.bind(tango)(mike, entity);
+            michal = zuuluu.bind(tangon)(michal, entity);
  142:
             return entity;
         }
     };
-    zulu['setClientState'] = mike;
+    zuuluu['setClientState'] = michal;
     return entity;
 })();

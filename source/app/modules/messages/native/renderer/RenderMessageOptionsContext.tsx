@@ -1,424 +1,424 @@
 // app/modules/messages/native/renderer/RenderMessageOptionsContext.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     verify = argBar;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
     entity = function(argFoo) { // Original name: useResolvedUserOption
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = arguments[1];
-            mike = undefined;
-            if(!(tango === mike)) { _fun00002_ip = 25; continue _fun00001 }
+            zuuluu = argFoo;
+            tangon = arguments[1];
+            michal = undefined;
+            if(!(tangon === michal)) { _fun00002_ip = 25; continue _fun00001 }
  12:
             entity = _closure1_slot4;
-            tango = entity.USER_SETTING;
+            tangon = entity.USER_SETTING;
  25:
-            entity = zulu.useSetting;
-            entity = entity.bind(zulu)();
+            entity = zuuluu.useSetting;
+            entity = entity.bind(zuuluu)();
             report = _closure1_slot4;
             report = report.USER_SETTING;
-            if(!(report !== tango)) { _fun00002_ip = 90; continue _fun00001 }
+            if(!(report !== tangon)) { _fun00002_ip = 90; continue _fun00001 }
  52:
             report = _closure1_slot4;
             report = report.FORCE_ENABLE;
-            if(!(report !== tango)) { _fun00002_ip = 86; continue _fun00001 }
+            if(!(report !== tangon)) { _fun00002_ip = 86; continue _fun00001 }
  66:
-            zulu = _closure1_slot4;
-            zulu = zulu.FORCE_DISABLE;
-            if(!(zulu !== tango)) { _fun00002_ip = 82; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.FORCE_DISABLE;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 82; continue _fun00001 }
  80:
-            return mike;
+            return michal;
  82:
-            mike = false;
-            return mike;
+            michal = false;
+            return michal;
  86:
-            mike = true;
-            return mike;
+            michal = true;
+            return michal;
  90:
             return entity;
         }
     };
     var _closure1_slot7 = entity;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    oscar = 0;
-    report = offset[oscar];
-    tango = argCorge;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    oscard = 0;
+    report = offset[oscard];
+    tangon = argCor;
     entity = undefined;
-    yankee = tango.bind(entity)(report);
+    yankee = tangon.bind(entity)(report);
     var _closure1_slot2 = yankee;
     report = 1;
-    tango = offset[report];
-    tango = verify.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    golf = {};
-    golf['USER_SETTING'] = oscar;
-    tango = 'USER_SETTING';
-    golf[oscar] = tango;
-    golf['FORCE_ENABLE'] = report;
-    tango = 'FORCE_ENABLE';
-    golf[report] = tango;
+    tangon = offset[report];
+    tangon = verify.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    golfie = {};
+    golfie['USER_SETTING'] = oscard;
+    tangon = 'USER_SETTING';
+    golfie[oscard] = tangon;
+    golfie['FORCE_ENABLE'] = report;
+    tangon = 'FORCE_ENABLE';
+    golfie[report] = tangon;
     report = 2;
-    golf['FORCE_DISABLE'] = report;
-    tango = 'FORCE_DISABLE';
-    golf[report] = tango;
-    var _closure1_slot4 = golf;
-    oscar = {'renderEmbeds': true, 'renderReactions': true, 'renderShortcuts': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderForumPostActions': true, 'renderInlineForwardButton': false, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
-    var _closure1_slot5 = oscar;
-    tango = yankee.createContext;
-    report = tango.bind(yankee)(oscar);
+    golfie['FORCE_DISABLE'] = report;
+    tangon = 'FORCE_DISABLE';
+    golfie[report] = tangon;
+    var _closure1_slot4 = golfie;
+    oscard = {'renderEmbeds': true, 'renderReactions': true, 'renderShortcuts': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderForumPostActions': true, 'renderInlineForwardButton': false, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
+    var _closure1_slot5 = oscard;
+    tangon = yankee.createContext;
+    report = tangon.bind(yankee)(oscard);
     var _closure1_slot6 = report;
-    options = yankee.memo;
-    tango = function(argFoo) {
-        tango = argFoo;
-        entity = tango.children;
-        mike = null;
-        zulu = Object.create(mike);
-        mike = 0;
-        zulu['children'] = mike;
+    option = yankee.memo;
+    tangon = function(argFoo) {
+        tangon = argFoo;
+        entity = tangon.children;
+        michal = null;
+        zuuluu = Object.create(michal);
+        michal = 0;
+        zuuluu['children'] = michal;
         offset = {};
-        verify = tango;
-        options = zulu;
-        oscar = copyDataProperties(offset, verify, options);
+        verify = tangon;
+        option = zuuluu;
+        oscard = copyDataProperties(offset, verify, option);
         report = _closure1_slot2;
-        tango = report.useContext;
-        mike = _closure1_slot6;
-        verify = tango.bind(report)(mike);
-        tango = _closure1_slot3;
-        zulu = mike.Provider;
-        mike = {};
+        tangon = report.useContext;
+        michal = _closure1_slot6;
+        verify = tangon.bind(report)(michal);
+        tangon = _closure1_slot3;
+        zuuluu = michal.Provider;
+        michal = {};
         report = {};
         offset = report;
-        golf = copyDataProperties(offset, verify);
+        golfie = copyDataProperties(offset, verify);
         offset = report;
-        verify = oscar;
-        oscar = copyDataProperties(offset, verify);
-        mike['value'] = report;
-        mike['children'] = entity;
+        verify = oscard;
+        oscard = copyDataProperties(offset, verify);
+        michal['value'] = report;
+        michal['children'] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tango = options.bind(yankee)(tango);
-    options = 3;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    tangon = option.bind(yankee)(tangon);
+    option = 3;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/messages/native/renderer/RenderMessageOptionsContext.tsx';
-    options = verify.bind(offset)(options);
-    zulu['UserOption'] = golf;
-    zulu['DEFAULT_OPTIONS'] = oscar;
-    zulu['RenderMessageOptionsContext'] = report;
-    zulu['RenderMessageOptionsOverride'] = tango;
-    mike = function(argFoo) { // Original name: RenderMessageOptionsContextProvider
+    option = 'modules/messages/native/renderer/RenderMessageOptionsContext.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['UserOption'] = golfie;
+    zuuluu['DEFAULT_OPTIONS'] = oscard;
+    zuuluu['RenderMessageOptionsContext'] = report;
+    zuuluu['RenderMessageOptionsOverride'] = tangon;
+    michal = function(argFoo) { // Original name: RenderMessageOptionsContextProvider
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
-            report = oscar.children;
-            zulu = null;
-            tango = Object.create(zulu);
+            oscard = argFoo;
+            report = oscard.children;
+            zuuluu = null;
+            tangon = Object.create(zuuluu);
             entity = 0;
-            tango['children'] = entity;
+            tangon['children'] = entity;
             quebec = {};
-            equality = oscar;
-            whiskey = tango;
-            oscar = copyDataProperties(quebec, equality, whiskey);
-            tango = undefined;
-            var _closure2_slot6 = tango;
-            var _closure2_slot7 = tango;
-            var _closure2_slot8 = tango;
-            var _closure2_slot9 = tango;
-            var _closure2_slot10 = tango;
-            var _closure2_slot11 = tango;
-            var _closure2_slot12 = tango;
-            var _closure2_slot13 = tango;
-            var _closure2_slot14 = tango;
-            var _closure2_slot15 = tango;
-            var _closure2_slot16 = tango;
-            var _closure2_slot17 = tango;
-            var _closure2_slot18 = tango;
-            var _closure2_slot19 = tango;
-            var _closure2_slot20 = tango;
-            var _closure2_slot21 = tango;
-            var _closure2_slot22 = tango;
-            var _closure2_slot23 = tango;
-            var _closure2_slot24 = tango;
+            equals = oscard;
+            whisks = tangon;
+            oscard = copyDataProperties(quebec, equals, whisks);
+            tangon = undefined;
+            var _closure2_slot6 = tangon;
+            var _closure2_slot7 = tangon;
+            var _closure2_slot8 = tangon;
+            var _closure2_slot9 = tangon;
+            var _closure2_slot10 = tangon;
+            var _closure2_slot11 = tangon;
+            var _closure2_slot12 = tangon;
+            var _closure2_slot13 = tangon;
+            var _closure2_slot14 = tangon;
+            var _closure2_slot15 = tangon;
+            var _closure2_slot16 = tangon;
+            var _closure2_slot17 = tangon;
+            var _closure2_slot18 = tangon;
+            var _closure2_slot19 = tangon;
+            var _closure2_slot20 = tangon;
+            var _closure2_slot21 = tangon;
+            var _closure2_slot22 = tangon;
+            var _closure2_slot23 = tangon;
+            var _closure2_slot24 = tangon;
             verify = _closure1_slot7;
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot1;
-            golf = 2;
-            yankee = offset[golf];
-            yankee = options.bind(tango)(yankee);
-            romeo = yankee.RenderEmbeds;
-            yankee = oscar.renderEmbeds;
-            output = verify.bind(tango)(romeo, yankee);
+            golfie = 2;
+            yankee = offset[golfie];
+            yankee = option.bind(tangon)(yankee);
+            romeon = yankee.RenderEmbeds;
+            yankee = oscard.renderEmbeds;
+            output = verify.bind(tangon)(romeon, yankee);
             var _closure2_slot0 = output;
-            yankee = offset[golf];
-            yankee = options.bind(tango)(yankee);
-            romeo = yankee.RenderReactions;
-            yankee = oscar.renderReactions;
-            kilo = verify.bind(tango)(romeo, yankee);
-            var _closure2_slot1 = kilo;
-            yankee = offset[golf];
-            yankee = options.bind(tango)(yankee);
-            romeo = yankee.InlineEmbedMedia;
-            yankee = oscar.inlineEmbedMedia;
-            config = verify.bind(tango)(romeo, yankee);
+            yankee = offset[golfie];
+            yankee = option.bind(tangon)(yankee);
+            romeon = yankee.RenderReactions;
+            yankee = oscard.renderReactions;
+            kiloes = verify.bind(tangon)(romeon, yankee);
+            var _closure2_slot1 = kiloes;
+            yankee = offset[golfie];
+            yankee = option.bind(tangon)(yankee);
+            romeon = yankee.InlineEmbedMedia;
+            yankee = oscard.inlineEmbedMedia;
+            config = verify.bind(tangon)(romeon, yankee);
             var _closure2_slot2 = config;
-            yankee = offset[golf];
-            yankee = options.bind(tango)(yankee);
-            romeo = yankee.InlineAttachmentMedia;
-            yankee = oscar.inlineAttachmentMedia;
-            record = verify.bind(tango)(romeo, yankee);
+            yankee = offset[golfie];
+            yankee = option.bind(tangon)(yankee);
+            romeon = yankee.InlineAttachmentMedia;
+            yankee = oscard.inlineAttachmentMedia;
+            record = verify.bind(tangon)(romeon, yankee);
             var _closure2_slot3 = record;
-            yankee = offset[golf];
-            yankee = options.bind(tango)(yankee);
-            romeo = yankee.AnimateEmoji;
-            yankee = oscar.animateEmoji;
-            lima = verify.bind(tango)(romeo, yankee);
-            var _closure2_slot4 = lima;
-            golf = offset[golf];
-            golf = options.bind(tango)(golf);
-            options = golf.GifAutoPlay;
-            golf = oscar.gifAutoPlay;
-            target = verify.bind(tango)(options, golf);
+            yankee = offset[golfie];
+            yankee = option.bind(tangon)(yankee);
+            romeon = yankee.AnimateEmoji;
+            yankee = oscard.animateEmoji;
+            limora = verify.bind(tangon)(romeon, yankee);
+            var _closure2_slot4 = limora;
+            golfie = offset[golfie];
+            golfie = option.bind(tangon)(golfie);
+            option = golfie.GifAutoPlay;
+            golfie = oscard.gifAutoPlay;
+            target = verify.bind(tangon)(option, golfie);
             var _closure2_slot5 = target;
-            update = oscar.renderCodedLinks;
-            if(!(zulu == update)) { _fun00004_ip = 335; continue _fun00003 }
+            update = oscard.renderCodedLinks;
+            if(!(zuuluu == update)) { _fun00004_ip = 335; continue _fun00003 }
  325:
-            golf = _closure1_slot5;
-            update = golf.renderCodedLinks;
+            golfie = _closure1_slot5;
+            update = golfie.renderCodedLinks;
  335:
             _closure2_slot6 = update;
-            sizing = oscar.renderGiftCode;
-            if(!(zulu == sizing)) { _fun00004_ip = 359; continue _fun00003 }
+            sizing = oscard.renderGiftCode;
+            if(!(zuuluu == sizing)) { _fun00004_ip = 359; continue _fun00003 }
  349:
-            golf = _closure1_slot5;
-            sizing = golf.renderGiftCode;
+            golfie = _closure1_slot5;
+            sizing = golfie.renderGiftCode;
  359:
             _closure2_slot7 = sizing;
-            backup = oscar.renderShortcuts;
-            if(!(zulu == backup)) { _fun00004_ip = 383; continue _fun00003 }
+            backup = oscard.renderShortcuts;
+            if(!(zuuluu == backup)) { _fun00004_ip = 383; continue _fun00003 }
  373:
-            golf = _closure1_slot5;
-            backup = golf.renderShortcuts;
+            golfie = _closure1_slot5;
+            backup = golfie.renderShortcuts;
  383:
             _closure2_slot8 = backup;
-            sequence = oscar.renderActivityInstanceEmbed;
-            if(!(zulu == sequence)) { _fun00004_ip = 407; continue _fun00003 }
+            sequen = oscard.renderActivityInstanceEmbed;
+            if(!(zuuluu == sequen)) { _fun00004_ip = 407; continue _fun00003 }
  397:
-            golf = _closure1_slot5;
-            sequence = golf.renderActivityInstanceEmbed;
+            golfie = _closure1_slot5;
+            sequen = golfie.renderActivityInstanceEmbed;
  407:
-            _closure2_slot9 = sequence;
-            vacuum = oscar.renderActivityInviteEmbed;
-            if(!(zulu == vacuum)) { _fun00004_ip = 431; continue _fun00003 }
+            _closure2_slot9 = sequen;
+            vacuum = oscard.renderActivityInviteEmbed;
+            if(!(zuuluu == vacuum)) { _fun00004_ip = 431; continue _fun00003 }
  421:
-            golf = _closure1_slot5;
-            vacuum = golf.renderActivityInviteEmbed;
+            golfie = _closure1_slot5;
+            vacuum = golfie.renderActivityInviteEmbed;
  431:
             _closure2_slot10 = vacuum;
-            result = oscar.renderComponents;
-            if(!(zulu == result)) { _fun00004_ip = 455; continue _fun00003 }
+            result = oscard.renderComponents;
+            if(!(zuuluu == result)) { _fun00004_ip = 455; continue _fun00003 }
  445:
-            golf = _closure1_slot5;
-            result = golf.renderComponents;
+            golfie = _closure1_slot5;
+            result = golfie.renderComponents;
  455:
             _closure2_slot11 = result;
-            romeo = oscar.renderThreadEmbeds;
-            if(!(zulu == romeo)) { _fun00004_ip = 479; continue _fun00003 }
+            romeon = oscard.renderThreadEmbeds;
+            if(!(zuuluu == romeon)) { _fun00004_ip = 479; continue _fun00003 }
  469:
-            golf = _closure1_slot5;
-            romeo = golf.renderThreadEmbeds;
+            golfie = _closure1_slot5;
+            romeon = golfie.renderThreadEmbeds;
  479:
-            _closure2_slot12 = romeo;
-            foxtrot = oscar.renderReplies;
-            if(!(zulu == foxtrot)) { _fun00004_ip = 503; continue _fun00003 }
+            _closure2_slot12 = romeon;
+            foxtra = oscard.renderReplies;
+            if(!(zuuluu == foxtra)) { _fun00004_ip = 503; continue _fun00003 }
  493:
-            golf = _closure1_slot5;
-            foxtrot = golf.renderReplies;
+            golfie = _closure1_slot5;
+            foxtra = golfie.renderReplies;
  503:
-            _closure2_slot13 = foxtrot;
-            echo = oscar.renderCommunicationDisabled;
-            if(!(zulu == echo)) { _fun00004_ip = 527; continue _fun00003 }
+            _closure2_slot13 = foxtra;
+            echoed = oscard.renderCommunicationDisabled;
+            if(!(zuuluu == echoed)) { _fun00004_ip = 527; continue _fun00003 }
  517:
-            golf = _closure1_slot5;
-            echo = golf.renderCommunicationDisabled;
+            golfie = _closure1_slot5;
+            echoed = golfie.renderCommunicationDisabled;
  527:
-            _closure2_slot14 = echo;
-            control = oscar.renderAttachments;
-            if(!(zulu == control)) { _fun00004_ip = 551; continue _fun00003 }
+            _closure2_slot14 = echoed;
+            ctrled = oscard.renderAttachments;
+            if(!(zuuluu == ctrled)) { _fun00004_ip = 551; continue _fun00003 }
  541:
-            golf = _closure1_slot5;
-            control = golf.renderAttachments;
+            golfie = _closure1_slot5;
+            ctrled = golfie.renderAttachments;
  551:
-            _closure2_slot15 = control;
-            source = oscar.renderExecutedCommands;
-            if(!(zulu == source)) { _fun00004_ip = 575; continue _fun00003 }
+            _closure2_slot15 = ctrled;
+            source = oscard.renderExecutedCommands;
+            if(!(zuuluu == source)) { _fun00004_ip = 575; continue _fun00003 }
  565:
-            golf = _closure1_slot5;
-            source = golf.renderExecutedCommands;
+            golfie = _closure1_slot5;
+            source = golfie.renderExecutedCommands;
  575:
             _closure2_slot16 = source;
-            context = oscar.ignoreMentioned;
-            if(!(zulu == context)) { _fun00004_ip = 599; continue _fun00003 }
+            cntext = oscard.ignoreMentioned;
+            if(!(zuuluu == cntext)) { _fun00004_ip = 599; continue _fun00003 }
  589:
-            golf = _closure1_slot5;
-            context = golf.ignoreMentioned;
+            golfie = _closure1_slot5;
+            cntext = golfie.ignoreMentioned;
  599:
-            _closure2_slot17 = context;
-            papa = oscar.ignoreEmbedDescriptionCache;
-            if(!(zulu == papa)) { _fun00004_ip = 623; continue _fun00003 }
+            _closure2_slot17 = cntext;
+            papara = oscard.ignoreEmbedDescriptionCache;
+            if(!(zuuluu == papara)) { _fun00004_ip = 623; continue _fun00003 }
  613:
-            golf = _closure1_slot5;
-            papa = golf.ignoreEmbedDescriptionCache;
+            golfie = _closure1_slot5;
+            papara = golfie.ignoreEmbedDescriptionCache;
  623:
-            _closure2_slot18 = papa;
-            status = oscar.forceHideSimpleEmbedContent;
-            if(!(zulu == status)) { _fun00004_ip = 647; continue _fun00003 }
+            _closure2_slot18 = papara;
+            status = oscard.forceHideSimpleEmbedContent;
+            if(!(zuuluu == status)) { _fun00004_ip = 647; continue _fun00003 }
  637:
-            golf = _closure1_slot5;
-            status = golf.forceHideSimpleEmbedContent;
+            golfie = _closure1_slot5;
+            status = golfie.forceHideSimpleEmbedContent;
  647:
             _closure2_slot19 = status;
-            sierra = oscar.enableSwipeActions;
-            if(!(zulu == sierra)) { _fun00004_ip = 671; continue _fun00003 }
+            sierra = oscard.enableSwipeActions;
+            if(!(zuuluu == sierra)) { _fun00004_ip = 671; continue _fun00003 }
  661:
-            golf = _closure1_slot5;
-            sierra = golf.enableSwipeActions;
+            golfie = _closure1_slot5;
+            sierra = golfie.enableSwipeActions;
  671:
             _closure2_slot20 = sierra;
-            yankee = oscar.renderPolls;
-            if(!(zulu == yankee)) { _fun00004_ip = 695; continue _fun00003 }
+            yankee = oscard.renderPolls;
+            if(!(zuuluu == yankee)) { _fun00004_ip = 695; continue _fun00003 }
  685:
-            golf = _closure1_slot5;
-            yankee = golf.renderPolls;
+            golfie = _closure1_slot5;
+            yankee = golfie.renderPolls;
  695:
             _closure2_slot21 = yankee;
-            offset = oscar.renderForumPostActions;
-            if(!(zulu == offset)) { _fun00004_ip = 719; continue _fun00003 }
+            offset = oscard.renderForumPostActions;
+            if(!(zuuluu == offset)) { _fun00004_ip = 719; continue _fun00003 }
  709:
-            golf = _closure1_slot5;
-            offset = golf.renderForumPostActions;
+            golfie = _closure1_slot5;
+            offset = golfie.renderForumPostActions;
  719:
             _closure2_slot22 = offset;
-            verify = oscar.renderInlineForwardButton;
-            if(!(zulu == verify)) { _fun00004_ip = 743; continue _fun00003 }
+            verify = oscard.renderInlineForwardButton;
+            if(!(zuuluu == verify)) { _fun00004_ip = 743; continue _fun00003 }
  733:
-            golf = _closure1_slot5;
-            verify = golf.renderInlineForwardButton;
+            golfie = _closure1_slot5;
+            verify = golfie.renderInlineForwardButton;
  743:
             _closure2_slot23 = verify;
-            options = oscar.useAlternateEmbedColors;
-            if(!(zulu == options)) { _fun00004_ip = 767; continue _fun00003 }
+            option = oscard.useAlternateEmbedColors;
+            if(!(zuuluu == option)) { _fun00004_ip = 767; continue _fun00003 }
  757:
-            zulu = _closure1_slot5;
-            options = zulu.useAlternateEmbedColors;
+            zuuluu = _closure1_slot5;
+            option = zuuluu.useAlternateEmbedColors;
  767:
-            _closure2_slot24 = options;
-            golf = _closure1_slot2;
-            oscar = golf.useMemo;
-            zulu = new Array(25);
-            zulu[0] = lima;
-            zulu[1] = sierra;
-            zulu[2] = status;
-            zulu[3] = target;
-            zulu[4] = papa;
-            zulu[5] = context;
-            zulu[6] = record;
-            zulu[7] = config;
-            zulu[8] = sequence;
-            zulu[9] = vacuum;
-            zulu[10] = control;
-            zulu[11] = source;
-            zulu[12] = update;
-            zulu[13] = echo;
-            zulu[14] = result;
-            zulu[15] = output;
-            zulu[16] = sizing;
-            zulu[17] = kilo;
-            zulu[18] = backup;
-            zulu[19] = foxtrot;
-            zulu[20] = romeo;
-            zulu[21] = yankee;
-            zulu[22] = offset;
-            zulu[23] = verify;
-            zulu[24] = options;
-            mike = function() {
+            _closure2_slot24 = option;
+            golfie = _closure1_slot2;
+            oscard = golfie.useMemo;
+            zuuluu = new Array(25);
+            zuuluu[0] = limora;
+            zuuluu[1] = sierra;
+            zuuluu[2] = status;
+            zuuluu[3] = target;
+            zuuluu[4] = papara;
+            zuuluu[5] = cntext;
+            zuuluu[6] = record;
+            zuuluu[7] = config;
+            zuuluu[8] = sequen;
+            zuuluu[9] = vacuum;
+            zuuluu[10] = ctrled;
+            zuuluu[11] = source;
+            zuuluu[12] = update;
+            zuuluu[13] = echoed;
+            zuuluu[14] = result;
+            zuuluu[15] = output;
+            zuuluu[16] = sizing;
+            zuuluu[17] = kiloes;
+            zuuluu[18] = backup;
+            zuuluu[19] = foxtra;
+            zuuluu[20] = romeon;
+            zuuluu[21] = yankee;
+            zuuluu[22] = offset;
+            zuuluu[23] = verify;
+            zuuluu[24] = option;
+            michal = function() {
                 entity = {};
-                zulu = _closure2_slot4;
-                entity['animateEmoji'] = zulu;
-                zulu = _closure2_slot20;
-                entity['enableSwipeActions'] = zulu;
-                zulu = _closure2_slot19;
-                entity['forceHideSimpleEmbedContent'] = zulu;
-                zulu = _closure2_slot5;
-                entity['gifAutoPlay'] = zulu;
-                zulu = _closure2_slot18;
-                entity['ignoreEmbedDescriptionCache'] = zulu;
-                zulu = _closure2_slot17;
-                entity['ignoreMentioned'] = zulu;
-                zulu = _closure2_slot3;
-                entity['inlineAttachmentMedia'] = zulu;
-                zulu = _closure2_slot2;
-                entity['inlineEmbedMedia'] = zulu;
-                zulu = _closure2_slot9;
-                entity['renderActivityInstanceEmbed'] = zulu;
-                zulu = _closure2_slot10;
-                entity['renderActivityInviteEmbed'] = zulu;
-                zulu = _closure2_slot15;
-                entity['renderAttachments'] = zulu;
-                zulu = _closure2_slot16;
-                entity['renderExecutedCommands'] = zulu;
-                zulu = _closure2_slot6;
-                entity['renderCodedLinks'] = zulu;
-                zulu = _closure2_slot14;
-                entity['renderCommunicationDisabled'] = zulu;
-                zulu = _closure2_slot11;
-                entity['renderComponents'] = zulu;
-                zulu = _closure2_slot0;
-                entity['renderEmbeds'] = zulu;
-                zulu = _closure2_slot7;
-                entity['renderGiftCode'] = zulu;
-                zulu = _closure2_slot1;
-                entity['renderReactions'] = zulu;
-                zulu = _closure2_slot8;
-                entity['renderShortcuts'] = zulu;
-                zulu = _closure2_slot13;
-                entity['renderReplies'] = zulu;
-                zulu = _closure2_slot12;
-                entity['renderThreadEmbeds'] = zulu;
-                zulu = _closure2_slot21;
-                entity['renderPolls'] = zulu;
-                zulu = _closure2_slot22;
-                entity['renderForumPostActions'] = zulu;
-                zulu = _closure2_slot23;
-                entity['renderInlineForwardButton'] = zulu;
-                mike = _closure2_slot24;
-                entity['useAlternateEmbedColors'] = mike;
+                zuuluu = _closure2_slot4;
+                entity['animateEmoji'] = zuuluu;
+                zuuluu = _closure2_slot20;
+                entity['enableSwipeActions'] = zuuluu;
+                zuuluu = _closure2_slot19;
+                entity['forceHideSimpleEmbedContent'] = zuuluu;
+                zuuluu = _closure2_slot5;
+                entity['gifAutoPlay'] = zuuluu;
+                zuuluu = _closure2_slot18;
+                entity['ignoreEmbedDescriptionCache'] = zuuluu;
+                zuuluu = _closure2_slot17;
+                entity['ignoreMentioned'] = zuuluu;
+                zuuluu = _closure2_slot3;
+                entity['inlineAttachmentMedia'] = zuuluu;
+                zuuluu = _closure2_slot2;
+                entity['inlineEmbedMedia'] = zuuluu;
+                zuuluu = _closure2_slot9;
+                entity['renderActivityInstanceEmbed'] = zuuluu;
+                zuuluu = _closure2_slot10;
+                entity['renderActivityInviteEmbed'] = zuuluu;
+                zuuluu = _closure2_slot15;
+                entity['renderAttachments'] = zuuluu;
+                zuuluu = _closure2_slot16;
+                entity['renderExecutedCommands'] = zuuluu;
+                zuuluu = _closure2_slot6;
+                entity['renderCodedLinks'] = zuuluu;
+                zuuluu = _closure2_slot14;
+                entity['renderCommunicationDisabled'] = zuuluu;
+                zuuluu = _closure2_slot11;
+                entity['renderComponents'] = zuuluu;
+                zuuluu = _closure2_slot0;
+                entity['renderEmbeds'] = zuuluu;
+                zuuluu = _closure2_slot7;
+                entity['renderGiftCode'] = zuuluu;
+                zuuluu = _closure2_slot1;
+                entity['renderReactions'] = zuuluu;
+                zuuluu = _closure2_slot8;
+                entity['renderShortcuts'] = zuuluu;
+                zuuluu = _closure2_slot13;
+                entity['renderReplies'] = zuuluu;
+                zuuluu = _closure2_slot12;
+                entity['renderThreadEmbeds'] = zuuluu;
+                zuuluu = _closure2_slot21;
+                entity['renderPolls'] = zuuluu;
+                zuuluu = _closure2_slot22;
+                entity['renderForumPostActions'] = zuuluu;
+                zuuluu = _closure2_slot23;
+                entity['renderInlineForwardButton'] = zuuluu;
+                michal = _closure2_slot24;
+                entity['useAlternateEmbedColors'] = michal;
                 return entity;
             };
-            oscar = oscar.bind(golf)(mike, zulu);
-            zulu = _closure1_slot3;
+            oscard = oscard.bind(golfie)(michal, zuuluu);
+            zuuluu = _closure1_slot3;
             entity = _closure1_slot6;
-            mike = entity.Provider;
+            michal = entity.Provider;
             entity = {};
-            entity['value'] = oscar;
+            entity['value'] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['RenderMessageOptionsContextProvider'] = mike;
+    zuuluu['RenderMessageOptionsContextProvider'] = michal;
     return entity;
 })();

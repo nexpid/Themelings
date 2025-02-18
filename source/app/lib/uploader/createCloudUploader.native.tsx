@@ -1,69 +1,69 @@
 // app/lib/uploader/createCloudUploader.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/uploader/createCloudUploader.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: createCloudUploader
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/uploader/createCloudUploader.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: createCloudUploader
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = arguments[1];
-            tango = undefined;
-            if(!(oscar === tango)) { _fun00002_ip = 15; continue _fun00001 }
+            oscard = arguments[1];
+            tangon = undefined;
+            if(!(oscard === tangon)) { _fun00002_ip = 15; continue _fun00001 }
  9:
-            oscar = 'POST';
+            oscard = 'POST';
  15:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 1;
-            mike = report[mike];
-            report = zulu.bind(tango)(mike);
-            mike = _closure1_slot2;
-            entity = mike.getToken;
-            entity = entity.bind(mike)();
-            mike = null;
-            mike = mike != entity;
-            tango = '';
-            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
+            michal = 1;
+            michal = report[michal];
+            report = zuuluu.bind(tangon)(michal);
+            michal = _closure1_slot2;
+            entity = michal.getToken;
+            entity = entity.bind(michal)();
+            michal = null;
+            michal = michal != entity;
+            tangon = '';
+            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
  65:
-            tango = entity;
+            tangon = entity;
  68:
-            zulu = {};
+            zuuluu = {};
             entity = true;
-            zulu['raiseEndpointErrors'] = entity;
+            zuuluu['raiseEndpointErrors'] = entity;
             entity = report.prototype;
-            mike = Object.create(entity, {constructor: {value: report}});
+            michal = Object.create(entity, {constructor: {value: report}});
             offset = argFoo;
-            yankee = mike;
-            verify = tango;
-            options = oscar;
-            golf = zulu;
-            entity = new yankee[report](offset, verify, options, golf, oscar);
-            entity = entity instanceof Object ? entity : mike;
+            yankee = michal;
+            verify = tangon;
+            option = oscard;
+            golfie = zuuluu;
+            entity = new yankee[report](offset, verify, option, golfie, oscard);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         }
     };
-    zulu['createCloudUploader'] = mike;
+    zuuluu['createCloudUploader'] = michal;
     return entity;
 })();

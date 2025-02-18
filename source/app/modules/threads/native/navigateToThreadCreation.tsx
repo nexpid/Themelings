@@ -1,62 +1,62 @@
 // app/modules/threads/native/navigateToThreadCreation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/threads/native/navigateToThreadCreation.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: navigateToThreadCreation
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/threads/native/navigateToThreadCreation.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: navigateToThreadCreation
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 0;
-            tango = oscar[entity];
+            tangon = oscard[entity];
             entity = undefined;
-            golf = report.bind(entity)(tango);
-            report = golf.openThreadCreationForMobile;
-            tango = argBar;
-            tango = report.bind(golf)(mike, entity, tango);
+            golfie = report.bind(entity)(tangon);
+            report = golfie.openThreadCreationForMobile;
+            tangon = argBar;
+            tangon = report.bind(golfie)(michal, entity, tangon);
             report = _closure1_slot0;
-            tango = 1;
-            tango = oscar[tango];
-            golf = report.bind(entity)(tango);
-            oscar = golf.navigateToCreateThread;
-            report = mike.guild_id;
-            tango = mike.id;
-            tango = oscar.bind(golf)(report, tango);
-            if(tango) { _fun00002_ip = 120; continue _fun00001 }
+            tangon = 1;
+            tangon = oscard[tangon];
+            golfie = report.bind(entity)(tangon);
+            oscard = golfie.navigateToCreateThread;
+            report = michal.guild_id;
+            tangon = michal.id;
+            tangon = oscard.bind(golfie)(report, tangon);
+            if(tangon) { _fun00002_ip = 120; continue _fun00001 }
  84:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 2;
-            zulu = report[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.transitionToChannel;
-            mike = mike.id;
-            mike = zulu.bind(tango)(mike);
+            zuuluu = 2;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.transitionToChannel;
+            michal = michal.id;
+            michal = zuuluu.bind(tangon)(michal);
  120:
             return entity;
         }
     };
-    zulu['navigateToThreadCreation'] = mike;
+    zuuluu['navigateToThreadCreation'] = michal;
     return entity;
 })();

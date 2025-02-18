@@ -1,114 +1,114 @@
 // app/modules/remixing/native/hooks/useIsRemixEnabled.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golf;
+    var _closure1_slot2 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argCorge;
+    report = golfie[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot3 = tango;
-    tango = function(argFoo, argBar) { // Original name: useIsRemixEnabled
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot3 = tangon;
+    tangon = function(argFoo, argBar) { // Original name: useIsRemixEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot2;
             entity = 1;
-            entity = oscar[entity];
+            entity = oscard[entity];
             report = undefined;
-            tango = zulu.bind(report)(entity);
-            zulu = tango.useCanRemix;
+            tangon = zuuluu.bind(report)(entity);
+            zuuluu = tangon.useCanRemix;
             entity = argBar;
-            entity = zulu.bind(tango)(entity);
-            options = _closure1_slot3;
-            golf = options.useMemo;
-            tango = function() {
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+            entity = zuuluu.bind(tangon)(entity);
+            option = _closure1_slot3;
+            golfie = option.useMemo;
+            tangon = function() {
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 2;
-                entity = mike[entity];
-                mike = undefined;
-                entity = zulu.bind(mike)(entity);
-                entity = entity.bind(mike)();
+                entity = michal[entity];
+                michal = undefined;
+                entity = zuuluu.bind(michal)(entity);
+                entity = entity.bind(michal)();
                 return entity;
             };
-            zulu = new Array(0);
-            zulu = golf.bind(options)(tango, zulu);
-            tango = _closure1_slot1;
-            mike = 3;
-            mike = oscar[mike];
-            tango = tango.bind(report)(mike);
-            mike = argFoo;
-            mike = tango.bind(report)(mike);
+            zuuluu = new Array(0);
+            zuuluu = golfie.bind(option)(tangon, zuuluu);
+            tangon = _closure1_slot1;
+            michal = 3;
+            michal = oscard[michal];
+            tangon = tangon.bind(report)(michal);
+            michal = argFoo;
+            michal = tangon.bind(report)(michal);
             if(!entity) { _fun00002_ip = 95; continue _fun00001 }
  92:
-            entity = zulu;
+            entity = zuuluu;
  95:
             if(!entity) { _fun00002_ip = 101; continue _fun00001 }
  98:
-            entity = mike;
+            entity = michal;
  101:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/remixing/native/hooks/useIsRemixEnabled.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useIsRemixEnabled'] = tango;
-    mike = function(argFoo, argBar, argBaz) {
+    report = oscard.bind(golfie)(report);
+    zuuluu['useIsRemixEnabled'] = tangon;
+    michal = function(argFoo, argBar, argBaz) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argBar;
-            var _closure2_slot0 = oscar;
-            golf = _closure1_slot4;
+            oscard = argBar;
+            var _closure2_slot0 = oscard;
+            golfie = _closure1_slot4;
             report = undefined;
-            tango = argFoo;
+            tangon = argFoo;
             entity = argBaz;
-            entity = golf.bind(report)(tango, entity);
+            entity = golfie.bind(report)(tangon, entity);
             report = _closure1_slot3;
-            tango = report.useMemo;
-            zulu = new Array(1);
-            zulu[0] = oscar;
-            mike = function() {
+            tangon = report.useMemo;
+            zuuluu = new Array(1);
+            zuuluu[0] = oscard;
+            michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    mike = _closure2_slot0;
-                    entity = mike.width;
-                    zulu = 6000;
-                    entity = entity < zulu;
+                    michal = _closure2_slot0;
+                    entity = michal.width;
+                    zuuluu = 6000;
+                    entity = entity < zuuluu;
                     if(!entity) { _fun00006_ip = 34; continue _fun00005 }
  25:
-                    mike = mike.height;
-                    entity = mike < zulu;
+                    michal = michal.height;
+                    entity = michal < zuuluu;
  34:
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike, zulu);
+            michal = tangon.bind(report)(michal, zuuluu);
             if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  61:
-            entity = mike;
+            entity = michal;
  64:
             return entity;
         }
     };
-    zulu['useIsRemixEnabledForMedia'] = mike;
+    zuuluu['useIsRemixEnabledForMedia'] = michal;
     return entity;
 })();

@@ -1,88 +1,88 @@
 // app/modules/activities/useDeveloperActivityShelfItems.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.DEFAULT_EMBEDDED_ACTIVITY_CONFIG;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/useDeveloperActivityShelfItems.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
-        options = _closure1_slot0;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DEFAULT_EMBEDDED_ACTIVITY_CONFIG;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/useDeveloperActivityShelfItems.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
+        option = _closure1_slot0;
         verify = _closure1_slot1;
-        tango = 3;
-        zulu = verify[tango];
-        golf = undefined;
-        romeo = options.bind(golf)(zulu);
-        yankee = romeo.useStateFromStoresObject;
-        zulu = _closure1_slot3;
+        tangon = 3;
+        zuuluu = verify[tangon];
+        golfie = undefined;
+        romeon = option.bind(golfie)(zuuluu);
+        yankee = romeon.useStateFromStoresObject;
+        zuuluu = _closure1_slot3;
         offset = new Array(1);
-        offset[0] = zulu;
-        oscar = function() {
+        offset[0] = zuuluu;
+        oscard = function() {
             entity = {};
-            zulu = _closure1_slot3;
-            mike = zulu.getIsEnabled;
-            mike = mike.bind(zulu)();
-            entity['isEnabled'] = mike;
-            mike = zulu.getLastUsedObject;
-            mike = mike.bind(zulu)();
-            entity['lastUsedObject'] = mike;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getIsEnabled;
+            michal = michal.bind(zuuluu)();
+            entity['isEnabled'] = michal;
+            michal = zuuluu.getLastUsedObject;
+            michal = michal.bind(zuuluu)();
+            entity['lastUsedObject'] = michal;
             return entity;
         };
         report = new Array(0);
-        report = yankee.bind(romeo)(offset, oscar, report);
-        oscar = report.isEnabled;
-        var _closure2_slot0 = oscar;
+        report = yankee.bind(romeon)(offset, oscard, report);
+        oscard = report.isEnabled;
+        var _closure2_slot0 = oscard;
         report = report.lastUsedObject;
         var _closure2_slot1 = report;
-        tango = verify[tango];
-        verify = options.bind(golf)(tango);
-        options = verify.useStateFromStoresArray;
-        golf = new Array(1);
-        golf[0] = zulu;
-        tango = function() {
-            mike = _closure1_slot3;
-            entity = mike.getDeveloperShelfItems;
-            entity = entity.bind(mike)();
+        tangon = verify[tangon];
+        verify = option.bind(golfie)(tangon);
+        option = verify.useStateFromStoresArray;
+        golfie = new Array(1);
+        golfie[0] = zuuluu;
+        tangon = function() {
+            michal = _closure1_slot3;
+            entity = michal.getDeveloperShelfItems;
+            entity = entity.bind(michal)();
             return entity;
         };
-        zulu = new Array(0);
-        golf = options.bind(verify)(golf, tango, zulu);
-        var _closure2_slot2 = golf;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(3);
-        mike[0] = golf;
-        mike[1] = oscar;
-        mike[2] = report;
+        zuuluu = new Array(0);
+        golfie = option.bind(verify)(golfie, tangon, zuuluu);
+        var _closure2_slot2 = golfie;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(3);
+        michal[0] = golfie;
+        michal[1] = oscard;
+        michal[2] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -93,62 +93,62 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 _fun00002_ip = 57; continue _fun00001;
  18:
                 report = _closure2_slot2;
-                tango = report.map;
-                zulu = function(argFoo) {
-                    zulu = argFoo;
+                tangon = report.map;
+                zuuluu = function(argFoo) {
+                    zuuluu = argFoo;
                     entity = {};
-                    entity['application'] = zulu;
-                    mike = {};
+                    entity['application'] = zuuluu;
+                    michal = {};
                     report = _closure1_slot4;
-                    oscar = mike;
-                    tango = copyDataProperties(oscar, report);
-                    report = zulu.embeddedActivityConfig;
-                    oscar = mike;
-                    tango = copyDataProperties(oscar, report);
-                    tango = zulu.id;
-                    zulu = 'application_id';
-                    mike[zulu] = tango;
-                    entity['activity'] = mike;
+                    oscard = michal;
+                    tangon = copyDataProperties(oscard, report);
+                    report = zuuluu.embeddedActivityConfig;
+                    oscard = michal;
+                    tangon = copyDataProperties(oscard, report);
+                    tangon = zuuluu.id;
+                    zuuluu = 'application_id';
+                    michal[zuuluu] = tangon;
+                    entity['activity'] = michal;
                     return entity;
                 };
-                tango = tango.bind(report)(zulu);
-                zulu = tango.sort;
-                mike = function(argFoo, argBar) {
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.sort;
+                michal = function(argFoo, argBar) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        mike = _closure2_slot1;
+                        michal = _closure2_slot1;
                         entity = argFoo;
                         entity = entity.application;
                         entity = entity.id;
-                        tango = mike[entity];
+                        tangon = michal[entity];
                         entity = argBar;
                         entity = entity.application;
                         entity = entity.id;
-                        zulu = mike[entity];
-                        mike = null;
-                        report = mike == tango;
+                        zuuluu = michal[entity];
+                        michal = null;
+                        report = michal == tangon;
                         entity = 1;
                         if(report) { _fun00004_ip = 73; continue _fun00003 }
  53:
-                        report = mike == zulu;
-                        mike = -1;
+                        report = michal == zuuluu;
+                        michal = -1;
                         if(report) { _fun00004_ip = 70; continue _fun00003 }
  66:
-                        mike = zulu - tango;
+                        michal = zuuluu - tangon;
  70:
-                        entity = mike;
+                        entity = michal;
  73:
                         return entity;
                     }
                 };
-                entity = zulu.bind(tango)(mike);
+                entity = zuuluu.bind(tangon)(michal);
  57:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useDeveloperActivityShelfItems'] = mike;
+    zuuluu['useDeveloperActivityShelfItems'] = michal;
     return entity;
 })();

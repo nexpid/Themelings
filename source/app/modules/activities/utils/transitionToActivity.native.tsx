@@ -1,128 +1,128 @@
 // app/modules/activities/utils/transitionToActivity.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.setVoiceChatDrawerState;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.VoiceChatDrawerState;
-    var _closure1_slot5 = tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/transitionToActivity.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: transitionToActivity
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.setVoiceChatDrawerState;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoiceChatDrawerState;
+    var _closure1_slot5 = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/transitionToActivity.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: transitionToActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argBar;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            golfie = argBar;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 3;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.getEmbeddedActivityLocationChannelId;
-            tango = zulu.bind(tango)(golf);
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.getEmbeddedActivityLocationChannelId;
+            tangon = zuuluu.bind(tangon)(golfie);
             report = null;
-            if(!(report != tango)) { _fun00002_ip = 310; continue _fun00001 }
+            if(!(report != tangon)) { _fun00002_ip = 310; continue _fun00001 }
  48:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             offset = _closure1_slot2;
-            zulu = 4;
-            zulu = offset[zulu];
-            options = oscar.bind(entity)(zulu);
-            oscar = options.isModalOpen;
+            zuuluu = 4;
+            zuuluu = offset[zuuluu];
+            option = oscard.bind(entity)(zuuluu);
+            oscard = option.isModalOpen;
             verify = _closure1_slot1;
-            zulu = 5;
-            zulu = offset[zulu];
-            zulu = verify.bind(entity)(zulu);
-            zulu = oscar.bind(options)(zulu);
-            zulu = !zulu;
-            if(!zulu) { _fun00002_ip = 126; continue _fun00001 }
+            zuuluu = 5;
+            zuuluu = offset[zuuluu];
+            zuuluu = verify.bind(entity)(zuuluu);
+            zuuluu = oscard.bind(option)(zuuluu);
+            zuuluu = !zuuluu;
+            if(!zuuluu) { _fun00002_ip = 126; continue _fun00001 }
  101:
-            options = _closure1_slot1;
+            option = _closure1_slot1;
             verify = _closure1_slot2;
-            oscar = 6;
-            oscar = verify[oscar];
-            oscar = options.bind(entity)(oscar);
-            zulu = oscar.bind(entity)(tango);
+            oscard = 6;
+            oscard = verify[oscard];
+            oscard = option.bind(entity)(oscard);
+            zuuluu = oscard.bind(entity)(tangon);
  126:
-            if(!zulu) { _fun00002_ip = 154; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 154; continue _fun00001 }
  129:
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 7;
-            zulu = options[zulu];
-            zulu = oscar.bind(entity)(zulu);
-            zulu = zulu.bind(entity)(tango);
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = option[zuuluu];
+            zuuluu = oscard.bind(entity)(zuuluu);
+            zuuluu = zuuluu.bind(entity)(tangon);
  154:
-            oscar = _closure1_slot4;
-            zulu = oscar.getSelfEmbeddedActivityForLocation;
-            zulu = zulu.bind(oscar)(golf);
-            report = report != zulu;
+            oscard = _closure1_slot4;
+            zuuluu = oscard.getSelfEmbeddedActivityForLocation;
+            zuuluu = zuuluu.bind(oscard)(golfie);
+            report = report != zuuluu;
             if(!report) { _fun00002_ip = 201; continue _fun00001 }
  176:
-            golf = _closure1_slot1;
-            options = _closure1_slot2;
-            oscar = 6;
-            oscar = options[oscar];
-            oscar = golf.bind(entity)(oscar);
-            report = oscar.bind(entity)(tango);
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
+            oscard = 6;
+            oscard = option[oscard];
+            oscard = golfie.bind(entity)(oscard);
+            report = oscard.bind(entity)(tangon);
  201:
             if(!report) { _fun00002_ip = 310; continue _fun00001 }
  204:
             report = _closure1_slot1;
-            oscar = _closure1_slot2;
-            golf = 8;
-            golf = oscar[golf];
-            options = report.bind(entity)(golf);
-            golf = options.selectParticipant;
+            oscard = _closure1_slot2;
+            golfie = 8;
+            golfie = oscard[golfie];
+            option = report.bind(entity)(golfie);
+            golfie = option.selectParticipant;
             offset = _closure1_slot0;
             verify = 9;
-            verify = oscar[verify];
+            verify = oscard[verify];
             offset = offset.bind(entity)(verify);
             verify = offset.embeddedActivityParticipantId;
-            zulu = zulu.applicationId;
-            zulu = verify.bind(offset)(zulu);
-            zulu = golf.bind(options)(tango, zulu);
-            zulu = 10;
-            zulu = oscar[zulu];
-            report = report.bind(entity)(zulu);
-            zulu = report.hideActionSheet;
-            zulu = zulu.bind(report)();
-            zulu = _closure1_slot3;
-            mike = _closure1_slot5;
-            mike = mike.CLOSED;
-            mike = zulu.bind(entity)(tango, mike);
+            zuuluu = zuuluu.applicationId;
+            zuuluu = verify.bind(offset)(zuuluu);
+            zuuluu = golfie.bind(option)(tangon, zuuluu);
+            zuuluu = 10;
+            zuuluu = oscard[zuuluu];
+            report = report.bind(entity)(zuuluu);
+            zuuluu = report.hideActionSheet;
+            zuuluu = zuuluu.bind(report)();
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot5;
+            michal = michal.CLOSED;
+            michal = zuuluu.bind(entity)(tangon, michal);
  310:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,58 +1,58 @@
 // app/modules/emojis/utils/getEmojiText.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/emojis/utils/getEmojiText.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: getEmojiText
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/emojis/utils/getEmojiText.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: getEmojiText
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.id;
-            zulu = null;
-            if(!(zulu == entity)) { _fun00002_ip = 23; continue _fun00001 }
+            michal = argFoo;
+            entity = michal.id;
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00002_ip = 23; continue _fun00001 }
  14:
-            entity = mike.surrogates;
-            if(!(zulu == entity)) { _fun00002_ip = 85; continue _fun00001 }
+            entity = michal.surrogates;
+            if(!(zuuluu == entity)) { _fun00002_ip = 85; continue _fun00001 }
  23:
-            entity = mike.uniqueName;
-            if(!(zulu != entity)) { _fun00002_ip = 47; continue _fun00001 }
+            entity = michal.uniqueName;
+            if(!(zuuluu != entity)) { _fun00002_ip = 47; continue _fun00001 }
  33:
-            zulu = mike.uniqueName;
+            zuuluu = michal.uniqueName;
             entity = '';
-            if(!(entity === zulu)) { _fun00002_ip = 54; continue _fun00001 }
+            if(!(entity === zuuluu)) { _fun00002_ip = 54; continue _fun00001 }
  47:
-            tango = mike.name;
+            tangon = michal.name;
             _fun00002_ip = 60; continue _fun00001;
  54:
-            tango = mike.uniqueName;
+            tangon = michal.uniqueName;
  60:
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
+            zuuluu = entity.concat;
             entity = ':';
-            entity = zulu.bind(entity)(tango, entity);
+            entity = zuuluu.bind(entity)(tangon, entity);
             _fun00002_ip = 90; continue _fun00001;
  85:
-            entity = mike.surrogates;
+            entity = michal.surrogates;
  90:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

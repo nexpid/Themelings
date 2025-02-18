@@ -1,110 +1,110 @@
 // app/modules/guild/usePostableChannelCount.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argCorge;
+    entity = argCor;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
-    tango = 0;
-    options = oscar[tango];
+    entity = option.bind(verify)(zuuluu, entity, tangon);
+    tangon = 0;
+    option = oscard[tangon];
     entity = undefined;
-    options = golf.bind(entity)(options);
-    var _closure1_slot3 = options;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GUILD_SELECTABLE_CHANNELS_KEY;
-    var _closure1_slot4 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild/usePostableChannelCount.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSendMessageChannelCount
+    option = golfie.bind(entity)(option);
+    var _closure1_slot3 = option;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GUILD_SELECTABLE_CHANNELS_KEY;
+    var _closure1_slot4 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild/usePostableChannelCount.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSendMessageChannelCount
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot2;
-            tango = 3;
-            report = report[tango];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.useStateFromStores;
-            zulu = _closure1_slot3;
-            tango = new Array(1);
-            tango[0] = zulu;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            tangon = 3;
+            report = report[tangon];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.useStateFromStores;
+            zuuluu = _closure1_slot3;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot3;
-                    zulu = tango.getChannels;
-                    mike = _closure2_slot0;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.getChannels;
+                    michal = _closure2_slot0;
+                    michal = zuuluu.bind(tangon)(michal);
                     entity = _closure1_slot4;
-                    entity = mike[entity];
-                    mike = null;
-                    if(!(mike == entity)) { _fun00004_ip = 43; continue _fun00003 }
+                    entity = michal[entity];
+                    michal = null;
+                    if(!(michal == entity)) { _fun00004_ip = 43; continue _fun00003 }
  39:
                     entity = new Array(0);
  43:
                     return entity;
                 }
             };
-            tango = report.bind(oscar)(tango, entity, zulu);
-            zulu = tango.length;
+            tangon = report.bind(oscard)(tangon, entity, zuuluu);
+            zuuluu = tangon.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
  84:
-            zulu = tango.filter;
-            mike = function(argFoo) {
+            zuuluu = tangon.filter;
+            michal = function(argFoo) {
                 entity = argFoo;
-                tango = entity.channel;
-                zulu = _closure1_slot5;
-                mike = zulu.can;
-                golf = _closure1_slot1;
-                oscar = _closure1_slot2;
+                tangon = entity.channel;
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.can;
+                golfie = _closure1_slot1;
+                oscard = _closure1_slot2;
                 report = 4;
-                oscar = oscar[report];
+                oscard = oscard[report];
                 report = undefined;
-                golf = golf.bind(report)(oscar);
-                oscar = golf.combine;
+                golfie = golfie.bind(report)(oscard);
+                oscard = golfie.combine;
                 entity = _closure1_slot6;
                 report = entity.SEND_MESSAGES;
                 entity = entity.VIEW_CHANNEL;
-                entity = oscar.bind(golf)(report, entity);
-                entity = mike.bind(zulu)(entity, tango);
+                entity = oscard.bind(golfie)(report, entity);
+                entity = michal.bind(zuuluu)(entity, tangon);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
-            entity = mike.length;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = michal.length;
  106:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

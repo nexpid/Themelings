@@ -1,101 +1,101 @@
 // app/lib/openURL.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: _openURL
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    oscar = argFoo;
+                    oscard = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 122; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 122; continue _fun00001 }
  10:
                     report = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    zulu = 1;
-                    tango = mike[zulu];
-                    zulu = undefined;
-                    tango = report.bind(zulu)(tango);
-                    tango = tango.openURL;
-                    tango = tango.bind(zulu)(oscar);
-                    tango = 3;
-                    tango = mike[tango];
-                    report = report.bind(zulu)(tango);
-                    tango = 2;
-                    tango = mike[tango];
-                    mike = mike.paths;
-                    mike = report.bind(zulu)(tango, mike);
+                    michal = _closure1_slot1;
+                    zuuluu = 1;
+                    tangon = michal[zuuluu];
+                    zuuluu = undefined;
+                    tangon = report.bind(zuuluu)(tangon);
+                    tangon = tangon.openURL;
+                    tangon = tangon.bind(zuuluu)(oscard);
+                    tangon = 3;
+                    tangon = michal[tangon];
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = 2;
+                    tangon = michal[tangon];
+                    michal = michal.paths;
+                    michal = report.bind(zuuluu)(tangon, michal);
                     SaveGenerator(address=80);
  78:
-                    return mike;
+                    return michal;
  80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 119; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 119; continue _fun00001 }
  86:
-                    report = mike.default;
-                    tango = {};
-                    golf = argBar;
-                    tango['skipExtensionCheck'] = golf;
-                    golf = new Array(0);
-                    tango['analyticsLocations'] = golf;
-                    tango = report.bind(zulu)(oscar, tango);
-                    return zulu;
+                    report = michal.default;
+                    tangon = {};
+                    golfie = argBar;
+                    tangon['skipExtensionCheck'] = golfie;
+                    golfie = new Array(0);
+                    tangon['analyticsLocations'] = golfie;
+                    tangon = report.bind(zuuluu)(oscard, tangon);
+                    return zuuluu;
  119:
-                    return mike;
+                    return michal;
  122:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot3 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot3 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot3 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'lib/openURL.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: openURL
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'lib/openURL.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: openURL
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = tango.apply;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

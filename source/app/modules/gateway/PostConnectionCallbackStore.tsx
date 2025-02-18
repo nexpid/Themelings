@@ -1,37 +1,37 @@
 // app/modules/gateway/PostConnectionCallbackStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = function() { // Original name: shouldWaitForBlockingModals
-        mike = _closure1_slot0;
-        entity = mike.getType;
-        mike = entity.bind(mike)();
+        michal = _closure1_slot0;
+        entity = michal.getType;
+        michal = entity.bind(michal)();
         entity = null;
-        entity = entity != mike;
+        entity = entity != michal;
         return entity;
     };
     var _closure1_slot3 = entity;
-    options = function() { // Original name: processCallbacks
+    option = function() { // Original name: processCallbacks
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot3;
+            michal = _closure1_slot3;
             entity = undefined;
-            mike = mike.bind(entity)();
-            if(mike) { _fun00002_ip = 45; continue _fun00001 }
+            michal = michal.bind(entity)();
+            if(michal) { _fun00002_ip = 45; continue _fun00001 }
  16:
             report = _closure1_slot2;
-            tango = report.forEach;
-            mike = function(argFoo) {
-                zulu = _closure1_slot4;
+            tangon = report.forEach;
+            michal = function(argFoo) {
+                zuuluu = _closure1_slot4;
                 entity = undefined;
-                mike = argFoo;
-                mike = zulu.bind(entity)(mike);
+                michal = argFoo;
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            mike = tango.bind(report)(mike);
-            mike = new Array(0);
-            _closure1_slot2 = mike;
+            michal = tangon.bind(report)(michal);
+            michal = new Array(0);
+            _closure1_slot2 = michal;
  45:
             return entity;
         }
@@ -40,86 +40,86 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = argFoo;
         var _closure2_slot0 = entity;
         entity = global;
-        zulu = entity.setImmediate;
+        zuuluu = entity.setImmediate;
         entity = undefined;
-        mike = function() {
-            mike = _closure2_slot0;
+        michal = function() {
+            michal = _closure2_slot0;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         };
-        mike = zulu.bind(entity)(mike);
+        michal = zuuluu.bind(entity)(michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    golf = verify.defineProperty;
-    tango = {};
+    golfie = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(verify)(zulu, entity, tango);
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = new Array(0);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    golf = report[tango];
-    offset = oscar.bind(entity)(golf);
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = new Array(0);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    golfie = report[tangon];
+    offset = oscard.bind(entity)(golfie);
     verify = offset.subscribe;
-    golf = 'CONNECTION_OPEN';
-    golf = verify.bind(offset)(golf, options);
-    golf = report[tango];
-    offset = oscar.bind(entity)(golf);
+    golfie = 'CONNECTION_OPEN';
+    golfie = verify.bind(offset)(golfie, option);
+    golfie = report[tangon];
+    offset = oscard.bind(entity)(golfie);
     verify = offset.subscribe;
-    golf = 'CONNECTION_RESUMED';
-    golf = verify.bind(offset)(golf, options);
-    tango = report[tango];
-    golf = oscar.bind(entity)(tango);
-    oscar = golf.subscribe;
-    tango = 'NUF_COMPLETE';
-    tango = oscar.bind(golf)(tango, options);
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/gateway/PostConnectionCallbackStore.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: addPostConnectionCallback
+    golfie = 'CONNECTION_RESUMED';
+    golfie = verify.bind(offset)(golfie, option);
+    tangon = report[tangon];
+    golfie = oscard.bind(entity)(tangon);
+    oscard = golfie.subscribe;
+    tangon = 'NUF_COMPLETE';
+    tangon = oscard.bind(golfie)(tangon, option);
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/gateway/PostConnectionCallbackStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: addPostConnectionCallback
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            tango = _closure1_slot1;
-            mike = tango.isConnectedOrOverlay;
-            mike = mike.bind(tango)();
-            if(!mike) { _fun00004_ip = 47; continue _fun00003 }
+            zuuluu = argFoo;
+            tangon = _closure1_slot1;
+            michal = tangon.isConnectedOrOverlay;
+            michal = michal.bind(tangon)();
+            if(!michal) { _fun00004_ip = 47; continue _fun00003 }
  23:
-            mike = _closure1_slot3;
-            tango = undefined;
-            mike = mike.bind(tango)();
-            if(mike) { _fun00004_ip = 47; continue _fun00003 }
+            michal = _closure1_slot3;
+            tangon = undefined;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00004_ip = 47; continue _fun00003 }
  36:
-            mike = _closure1_slot4;
-            mike = mike.bind(tango)(zulu);
+            michal = _closure1_slot4;
+            michal = michal.bind(tangon)(zuuluu);
             _fun00004_ip = 61; continue _fun00003;
  47:
-            mike = _closure1_slot2;
-            entity = mike.push;
-            entity = entity.bind(mike)(zulu);
+            michal = _closure1_slot2;
+            entity = michal.push;
+            entity = entity.bind(michal)(zuuluu);
  61:
             entity = undefined;
             return entity;
         }
     };
-    zulu['addPostConnectionCallback'] = mike;
+    zuuluu['addPostConnectionCallback'] = michal;
     return entity;
 })();

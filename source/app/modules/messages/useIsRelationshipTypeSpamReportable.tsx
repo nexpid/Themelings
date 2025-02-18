@@ -1,78 +1,78 @@
 // app/modules/messages/useIsRelationshipTypeSpamReportable.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.RelationshipTypes;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/useIsRelationshipTypeSpamReportable.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useIsRelationshipTypeSpamReportable
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RelationshipTypes;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/useIsRelationshipTypeSpamReportable.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useIsRelationshipTypeSpamReportable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            var _closure2_slot0 = golf;
+            golfie = argFoo;
+            var _closure2_slot0 = golfie;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 2;
-            tango = tango[zulu];
-            zulu = undefined;
-            oscar = report.bind(zulu)(tango);
-            report = oscar.useStateFromStores;
-            zulu = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = zulu;
-            zulu = new Array(1);
-            zulu[0] = golf;
+            tangon = _closure1_slot1;
+            zuuluu = 2;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            oscard = report.bind(zuuluu)(tangon);
+            report = oscard.useStateFromStores;
+            zuuluu = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = new Array(1);
+            zuuluu[0] = golfie;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getRelationshipType;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getRelationshipType;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu = report.bind(oscar)(tango, entity, zulu);
+            zuuluu = report.bind(oscard)(tangon, entity, zuuluu);
             entity = _closure1_slot3;
             entity = entity.NONE;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(entity) { _fun00002_ip = 104; continue _fun00001 }
  90:
-            tango = _closure1_slot3;
-            tango = tango.BLOCKED;
-            entity = zulu === tango;
+            tangon = _closure1_slot3;
+            tangon = tangon.BLOCKED;
+            entity = zuuluu === tangon;
  104:
             if(entity) { _fun00002_ip = 121; continue _fun00001 }
  107:
-            mike = _closure1_slot3;
-            mike = mike.PENDING_INCOMING;
-            entity = zulu === mike;
+            michal = _closure1_slot3;
+            michal = michal.PENDING_INCOMING;
+            entity = zuuluu === michal;
  121:
             return entity;
         }
     };
-    zulu['useIsRelationshipTypeSpamReportable'] = mike;
+    zuuluu['useIsRelationshipTypeSpamReportable'] = michal;
     return entity;
 })();

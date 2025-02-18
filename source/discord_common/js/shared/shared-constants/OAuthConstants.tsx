@@ -1,28 +1,28 @@
 // discord_common/js/shared/shared-constants/OAuthConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 8;
-    mike['USER_CODE_LENGTH'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 8;
+    michal['USER_CODE_LENGTH'] = tangon;
     entity = 'USER_CODE_LENGTH';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/OAuthConstants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['OAuthConstants'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/OAuthConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['OAuthConstants'] = michal;
     return entity;
 })();

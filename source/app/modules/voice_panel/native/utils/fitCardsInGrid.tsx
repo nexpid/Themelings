@@ -1,86 +1,86 @@
 // app/modules/voice_panel/native/utils/fitCardsInGrid.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = function(argFoo, argBar) { // Original name: isNewLayoutBetter
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = argBar;
-            zulu = entity.unusedSpace;
-            tango = 0;
-            if(!(tango !== zulu)) { _fun00002_ip = 373; continue _fun00001 }
+            zuuluu = entity.unusedSpace;
+            tangon = 0;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 373; continue _fun00001 }
  21:
-            report = mike.unusedSpace;
-            zulu = entity.unusedSpace;
-            if(!(report !== zulu)) { _fun00002_ip = 373; continue _fun00001 }
+            report = michal.unusedSpace;
+            zuuluu = entity.unusedSpace;
+            if(!(report !== zuuluu)) { _fun00002_ip = 373; continue _fun00001 }
  40:
-            zulu = mike.unusedSpace;
-            if(!(tango !== zulu)) { _fun00002_ip = 369; continue _fun00001 }
+            zuuluu = michal.unusedSpace;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 369; continue _fun00001 }
  53:
             report = entity.unusedSpace;
-            zulu = inf;
-            if(!(report !== zulu)) { _fun00002_ip = 369; continue _fun00001 }
+            zuuluu = inf;
+            if(!(report !== zuuluu)) { _fun00002_ip = 369; continue _fun00001 }
  76:
-            zulu = entity.unusedSpace;
-            if(!(zulu > tango)) { _fun00002_ip = 99; continue _fun00001 }
+            zuuluu = entity.unusedSpace;
+            if(!(zuuluu > tangon)) { _fun00002_ip = 99; continue _fun00001 }
  86:
-            zulu = mike.unusedSpace;
-            if(!(!(zulu < tango))) { _fun00002_ip = 365; continue _fun00001 }
+            zuuluu = michal.unusedSpace;
+            if(!(!(zuuluu < tangon))) { _fun00002_ip = 365; continue _fun00001 }
  99:
-            zulu = mike.unusedSpace;
-            if(!(zulu > tango)) { _fun00002_ip = 122; continue _fun00001 }
+            zuuluu = michal.unusedSpace;
+            if(!(zuuluu > tangon)) { _fun00002_ip = 122; continue _fun00001 }
  109:
-            zulu = entity.unusedSpace;
-            if(!(!(zulu < tango))) { _fun00002_ip = 361; continue _fun00001 }
+            zuuluu = entity.unusedSpace;
+            if(!(!(zuuluu < tangon))) { _fun00002_ip = 361; continue _fun00001 }
  122:
-            tango = global;
-            oscar = tango.Math;
-            report = oscar.abs;
-            zulu = entity.unusedSpace;
-            report = report.bind(oscar)(zulu);
-            golf = tango.Math;
-            oscar = golf.abs;
-            zulu = mike.unusedSpace;
-            zulu = oscar.bind(golf)(zulu);
-            golf = tango.Math;
-            oscar = golf.max;
-            golf = oscar.bind(golf)(report, zulu);
-            options = tango.Math;
-            oscar = options.min;
-            oscar = oscar.bind(options)(report, zulu);
-            golf = golf - oscar;
-            oscar = 5000;
-            if(!(!(golf < oscar))) { _fun00002_ip = 224; continue _fun00001 }
+            tangon = global;
+            oscard = tangon.Math;
+            report = oscard.abs;
+            zuuluu = entity.unusedSpace;
+            report = report.bind(oscard)(zuuluu);
+            golfie = tangon.Math;
+            oscard = golfie.abs;
+            zuuluu = michal.unusedSpace;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            golfie = tangon.Math;
+            oscard = golfie.max;
+            golfie = oscard.bind(golfie)(report, zuuluu);
+            option = tangon.Math;
+            oscard = option.min;
+            oscard = oscard.bind(option)(report, zuuluu);
+            golfie = golfie - oscard;
+            oscard = 5000;
+            if(!(!(golfie < oscard))) { _fun00002_ip = 224; continue _fun00001 }
  218:
-            zulu = zulu < report;
-            return zulu;
+            zuuluu = zuuluu < report;
+            return zuuluu;
  224:
-            golf = tango.Math;
-            oscar = golf.max;
-            report = mike.rows;
-            zulu = mike.columns;
-            zulu = oscar.bind(golf)(report, zulu);
-            golf = tango.Math;
-            oscar = golf.min;
-            report = mike.rows;
-            mike = mike.columns;
-            mike = oscar.bind(golf)(report, mike);
-            zulu = zulu - mike;
-            golf = tango.Math;
-            oscar = golf.max;
+            golfie = tangon.Math;
+            oscard = golfie.max;
+            report = michal.rows;
+            zuuluu = michal.columns;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            golfie = tangon.Math;
+            oscard = golfie.min;
+            report = michal.rows;
+            michal = michal.columns;
+            michal = oscard.bind(golfie)(report, michal);
+            zuuluu = zuuluu - michal;
+            golfie = tangon.Math;
+            oscard = golfie.max;
             report = entity.rows;
-            mike = entity.columns;
-            mike = oscar.bind(golf)(report, mike);
-            oscar = tango.Math;
-            report = oscar.min;
-            tango = entity.rows;
+            michal = entity.columns;
+            michal = oscard.bind(golfie)(report, michal);
+            oscard = tangon.Math;
+            report = oscard.min;
+            tangon = entity.rows;
             entity = entity.columns;
-            entity = report.bind(oscar)(tango, entity);
-            mike = mike - entity;
-            entity = mike !== zulu;
+            entity = report.bind(oscard)(tangon, entity);
+            michal = michal - entity;
+            entity = michal !== zuuluu;
             if(!entity) { _fun00002_ip = 359; continue _fun00001 }
  355:
-            entity = zulu < mike;
+            entity = zuuluu < michal;
  359:
             return entity;
  361:
@@ -99,139 +99,139 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot0 = entity;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/utils/fitCardsInGrid.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: fitCardsInGrid
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/utils/fitCardsInGrid.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: fitCardsInGrid
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             sizing = entity.cardCount;
-            kilo = entity.gutterSize;
+            kiloes = entity.gutterSize;
             backup = entity.availableWidth;
-            foxtrot = entity.availableHeight;
-            tango = {'columns': 1, 'rows': 0, 'cardSize': 0, 'overscroll': 0, 'unusedSpace': inf};
-            romeo = 1;
+            foxtra = entity.availableHeight;
+            tangon = {'columns': 1, 'rows': 0, 'cardSize': 0, 'overscroll': 0, 'unusedSpace': inf};
+            romeon = 1;
             yankee = 0;
-            output = romeo <= sizing;
+            output = romeon <= sizing;
             offset = undefined;
             verify = 'unusedSpace';
-            options = 'overscroll';
-            golf = 'cardSize';
+            option = 'overscroll';
+            golfie = 'cardSize';
             report = global;
-            zulu = romeo;
+            zuuluu = romeon;
             entity = undefined;
-            mike = tango;
+            michal = tangon;
             if(!output) { _fun00004_ip = 415; continue _fun00003 }
  83:
-            output = zulu - romeo;
-            output = output * kilo;
+            output = zuuluu - romeon;
+            output = output * kiloes;
             output = backup - output;
-            output = output / zulu;
-            update = sizing % zulu;
+            output = output / zuuluu;
+            update = sizing % zuuluu;
             source = report.Math;
-            echo = source.floor;
-            result = sizing / zulu;
-            echo = echo.bind(source)(result);
+            echoed = source.floor;
+            result = sizing / zuuluu;
+            echoed = echoed.bind(source)(result);
             result = 0;
             if(!(update > result)) { _fun00004_ip = 133; continue _fun00003 }
  130:
-            result = romeo;
+            result = romeon;
  133:
-            result = echo + result;
-            control = {};
-            vacuum = output * zulu;
-            source = backup * foxtrot;
-            echo = zulu - romeo;
-            update = echo * kilo;
-            echo = result - romeo;
-            sequence = echo * kilo;
-            echo = output * result;
-            echo = echo + sequence;
+            result = echoed + result;
+            ctrled = {};
+            vacuum = output * zuuluu;
+            source = backup * foxtra;
+            echoed = zuuluu - romeon;
+            update = echoed * kiloes;
+            echoed = result - romeon;
+            sequen = echoed * kiloes;
+            echoed = output * result;
+            echoed = echoed + sequen;
             update = vacuum + update;
-            update = update * echo;
+            update = update * echoed;
             update = source - update;
-            control['unusedSpace'] = update;
-            control['columns'] = zulu;
-            echo = foxtrot - echo;
-            control['overscroll'] = echo;
-            control['rows'] = result;
-            control['cardSize'] = output;
+            ctrled['unusedSpace'] = update;
+            ctrled['columns'] = zuuluu;
+            echoed = foxtra - echoed;
+            ctrled['overscroll'] = echoed;
+            ctrled['rows'] = result;
+            ctrled['cardSize'] = output;
             output = _closure1_slot0;
-            output = output.bind(offset)(control, tango);
-            update = tango;
+            output = output.bind(offset)(ctrled, tangon);
+            update = tangon;
             if(!output) { _fun00004_ip = 231; continue _fun00003 }
  228:
-            update = control;
+            update = ctrled;
  231:
-            result = control.overscroll;
+            result = ctrled.overscroll;
             output = update;
             if(!(result < yankee)) { _fun00004_ip = 399; continue _fun00003 }
  247:
-            result = control.rows;
-            result = result - romeo;
-            result = result * kilo;
-            echo = foxtrot - result;
-            result = control.rows;
-            echo = echo / result;
-            result = control.rows;
-            source = echo * result;
-            result = control.rows;
-            result = result - romeo;
-            result = result * kilo;
+            result = ctrled.rows;
+            result = result - romeon;
+            result = result * kiloes;
+            echoed = foxtra - result;
+            result = ctrled.rows;
+            echoed = echoed / result;
+            result = ctrled.rows;
+            source = echoed * result;
+            result = ctrled.rows;
+            result = result - romeon;
+            result = result * kiloes;
             source = source + result;
             result = {};
             record = result;
-            config = control;
+            config = ctrled;
             vacuum = copyDataProperties(record, config);
-            vacuum = control.columns;
-            sequence = echo * vacuum;
-            control = control.columns;
-            control = control - romeo;
-            control = control * kilo;
-            vacuum = backup * foxtrot;
-            control = sequence + control;
-            control = control * source;
-            control = vacuum - control;
-            result[verify] = control;
-            source = foxtrot - source;
-            result[options] = source;
-            result[golf] = echo;
-            echo = _closure1_slot0;
-            echo = echo.bind(offset)(result, update);
+            vacuum = ctrled.columns;
+            sequen = echoed * vacuum;
+            ctrled = ctrled.columns;
+            ctrled = ctrled - romeon;
+            ctrled = ctrled * kiloes;
+            vacuum = backup * foxtra;
+            ctrled = sequen + ctrled;
+            ctrled = ctrled * source;
+            ctrled = vacuum - ctrled;
+            result[verify] = ctrled;
+            source = foxtra - source;
+            result[option] = source;
+            result[golfie] = echoed;
+            echoed = _closure1_slot0;
+            echoed = echoed.bind(offset)(result, update);
             output = update;
             entity = result;
-            if(!echo) { _fun00004_ip = 399; continue _fun00003 }
+            if(!echoed) { _fun00004_ip = 399; continue _fun00003 }
  393:
             output = result;
             entity = output;
  399:
-            zulu = zulu + 1;
-            tango = output;
-            mike = tango;
-            if(zulu <= sizing) { _fun00004_ip = 83; continue _fun00003 }
+            zuuluu = zuuluu + 1;
+            tangon = output;
+            michal = tangon;
+            if(zuuluu <= sizing) { _fun00004_ip = 83; continue _fun00003 }
  415:
             entity = {};
-            zulu = mike.columns;
-            entity['columns'] = zulu;
-            mike = mike.cardSize;
-            entity['cardSize'] = mike;
+            zuuluu = michal.columns;
+            entity['columns'] = zuuluu;
+            michal = michal.cardSize;
+            entity['cardSize'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

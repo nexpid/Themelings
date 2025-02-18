@@ -1,187 +1,187 @@
 // app/modules/guild_member_verification/native/MemberVerificationModalHooks.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    golfie = argBar;
     offset = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = options;
-    tango = function() { // Original name: useUserVerificationState
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStoresObject;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
+    tangon = function() { // Original name: useUserVerificationState
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
         entity = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot3;
-                entity = mike.getCurrentUser;
-                oscar = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getCurrentUser;
+                oscard = entity.bind(michal)();
                 entity = {};
                 report = _closure1_slot0;
-                mike = _closure1_slot1;
-                golf = 4;
-                mike = mike[golf];
-                tango = undefined;
-                mike = report.bind(tango)(mike);
-                mike = mike.UserVerificationFieldPlatforms;
-                options = mike.EMAIL;
-                mike = null;
-                report = mike == oscar;
+                michal = _closure1_slot1;
+                golfie = 4;
+                michal = michal[golfie];
+                tangon = undefined;
+                michal = report.bind(tangon)(michal);
+                michal = michal.UserVerificationFieldPlatforms;
+                option = michal.EMAIL;
+                michal = null;
+                report = michal == oscard;
                 verify = undefined;
                 if(report) { _fun00002_ip = 69; continue _fun00001 }
  63:
-                verify = oscar.verified;
+                verify = oscard.verified;
  69:
-                report = mike != verify;
+                report = michal != verify;
                 if(!report) { _fun00002_ip = 79; continue _fun00001 }
  76:
                 report = verify;
  79:
-                entity[options] = report;
+                entity[option] = report;
                 report = _closure1_slot0;
-                zulu = _closure1_slot1;
-                zulu = zulu[golf];
-                zulu = report.bind(tango)(zulu);
-                zulu = zulu.UserVerificationFieldPlatforms;
-                zulu = zulu.PHONE;
-                report = mike == oscar;
-                tango = undefined;
+                zuuluu = _closure1_slot1;
+                zuuluu = zuuluu[golfie];
+                zuuluu = report.bind(tangon)(zuuluu);
+                zuuluu = zuuluu.UserVerificationFieldPlatforms;
+                zuuluu = zuuluu.PHONE;
+                report = michal == oscard;
+                tangon = undefined;
                 if(report) { _fun00002_ip = 132; continue _fun00001 }
  122:
-                report = oscar.isPhoneVerified;
-                tango = report.bind(oscar)();
+                report = oscard.isPhoneVerified;
+                tangon = report.bind(oscard)();
  132:
-                mike = mike != tango;
-                if(!mike) { _fun00002_ip = 142; continue _fun00001 }
+                michal = michal != tangon;
+                if(!michal) { _fun00002_ip = 142; continue _fun00001 }
  139:
-                mike = tango;
+                michal = tangon;
  142:
-                entity[zulu] = mike;
+                entity[zuuluu] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot6 = tango;
-    mike = function(argFoo) { // Original name: useInitialVerification
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    var _closure1_slot6 = tangon;
+    michal = function(argFoo) { // Original name: useInitialVerification
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot4;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot4;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
-            zulu = _closure1_slot4;
-            mike = zulu.getInitialVerificationState;
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.getInitialVerificationState;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    var _closure1_slot7 = mike;
+    var _closure1_slot7 = michal;
     entity = global;
     yankee = entity.Object;
     verify = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(yankee)(zulu, entity, oscar);
+    entity = verify.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    verify = options[entity];
-    oscar = argCorge;
+    verify = option[entity];
+    oscard = argCor;
     entity = undefined;
-    oscar = oscar.bind(entity)(verify);
-    var _closure1_slot2 = oscar;
-    oscar = 1;
-    oscar = options[oscar];
-    oscar = offset.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 2;
-    verify = options[oscar];
+    oscard = oscard.bind(entity)(verify);
+    var _closure1_slot2 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = offset.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 2;
+    verify = option[oscard];
     verify = offset.bind(entity)(verify);
     var _closure1_slot4 = verify;
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.setInitialVerification;
-    var _closure1_slot5 = oscar;
-    oscar = 5;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/guild_member_verification/native/MemberVerificationModalHooks.tsx';
-    oscar = golf.bind(options)(oscar);
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.setInitialVerification;
+    var _closure1_slot5 = oscard;
+    oscard = 5;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/guild_member_verification/native/MemberVerificationModalHooks.tsx';
+    oscard = golfie.bind(option)(oscard);
     report = function(argFoo) { // Original name: useSetInitialVerificationEffect
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         entity = {};
-        tango = _closure1_slot7;
+        tangon = _closure1_slot7;
         report = undefined;
-        tango = tango.bind(report)(oscar);
-        entity['initial'] = tango;
-        tango = _closure1_slot6;
-        tango = tango.bind(report)();
-        entity['current'] = tango;
+        tangon = tangon.bind(report)(oscard);
+        entity['initial'] = tangon;
+        tangon = _closure1_slot6;
+        tangon = tangon.bind(report)();
+        entity['current'] = tangon;
         var _closure2_slot1 = entity;
         report = _closure1_slot2;
-        zulu = report.useRef;
-        zulu = zulu.bind(report)(entity);
-        var _closure2_slot2 = zulu;
-        tango = report.useEffect;
-        zulu = function() {
-            mike = _closure2_slot2;
+        zuuluu = report.useRef;
+        zuuluu = zuuluu.bind(report)(entity);
+        var _closure2_slot2 = zuuluu;
+        tangon = report.useEffect;
+        zuuluu = function() {
+            michal = _closure2_slot2;
             entity = _closure2_slot1;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        zulu = tango.bind(report)(zulu);
-        tango = report.useEffect;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function() {
+        zuuluu = tangon.bind(report)(zuuluu);
+        tangon = report.useEffect;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = _closure2_slot2;
-                mike = mike.current;
-                tango = mike.current;
-                zulu = mike.initial;
-                mike = null;
-                if(!(mike == zulu)) { _fun00004_ip = 48; continue _fun00003 }
+                michal = _closure2_slot2;
+                michal = michal.current;
+                tangon = michal.current;
+                zuuluu = michal.initial;
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00004_ip = 48; continue _fun00003 }
  29:
-                zulu = _closure1_slot5;
-                mike = _closure2_slot0;
+                zuuluu = _closure1_slot5;
+                michal = _closure2_slot0;
                 entity = undefined;
-                entity = zulu.bind(entity)(mike, tango);
+                entity = zuuluu.bind(entity)(michal, tangon);
  48:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
+        michal = tangon.bind(report)(michal, zuuluu);
         entity = entity.initial;
         return entity;
     };
-    zulu['useSetInitialVerificationEffect'] = report;
-    zulu['useUserVerificationState'] = tango;
-    zulu['useInitialVerification'] = mike;
+    zuuluu['useSetInitialVerificationEffect'] = report;
+    zuuluu['useUserVerificationState'] = tangon;
+    zuuluu['useInitialVerification'] = michal;
     return entity;
 })();

@@ -1,55 +1,55 @@
 // app/modules/guild_limited_access/GuildLimitedAccessUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AbortCodes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_limited_access/GuildLimitedAccessUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: isLimitedAccessErrorCode
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AbortCodes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_limited_access/GuildLimitedAccessUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: isLimitedAccessErrorCode
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argBar;
-            mike = 403;
+            zuuluu = argBar;
+            michal = 403;
             entity = argFoo;
-            entity = mike === entity;
+            entity = michal === entity;
             if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  19:
-            mike = null;
-            entity = mike != zulu;
+            michal = null;
+            entity = michal != zuuluu;
  25:
             if(!entity) { _fun00002_ip = 45; continue _fun00001 }
  28:
-            mike = _closure1_slot0;
-            mike = mike.GUILD_LIMITED_ACCESS_DEFAULT;
-            entity = zulu >= mike;
+            michal = _closure1_slot0;
+            michal = michal.GUILD_LIMITED_ACCESS_DEFAULT;
+            entity = zuuluu >= michal;
  45:
             if(!entity) { _fun00002_ip = 65; continue _fun00001 }
  48:
-            mike = _closure1_slot0;
-            mike = mike.GUILD_LIMITED_ACCESS_MAX;
-            entity = zulu <= mike;
+            michal = _closure1_slot0;
+            michal = michal.GUILD_LIMITED_ACCESS_MAX;
+            entity = zuuluu <= michal;
  65:
             return entity;
         }
     };
-    zulu['isLimitedAccessErrorCode'] = mike;
+    zuuluu['isLimitedAccessErrorCode'] = michal;
     return entity;
 })();

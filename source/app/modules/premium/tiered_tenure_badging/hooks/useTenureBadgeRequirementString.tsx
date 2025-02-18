@@ -1,191 +1,191 @@
 // app/modules/premium/tiered_tenure_badging/hooks/useTenureBadgeRequirementString.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    mike = oscar.bind(entity)(mike);
-    report = mike.TieredTenureBadgeV1;
+    michal = oscard.bind(entity)(michal);
+    report = michal.TieredTenureBadgeV1;
     var _closure1_slot2 = report;
-    mike = mike.TieredTenureBadgeV2;
-    var _closure1_slot3 = mike;
-    mike = function(argFoo, argBar) { // Original name: getTenureBadgeRequirementString
+    michal = michal.TieredTenureBadgeV2;
+    var _closure1_slot3 = michal;
+    michal = function(argFoo, argBar) { // Original name: getTenureBadgeRequirementString
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = argBar;
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_1_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_1_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  26:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_3_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_3_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  43:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_6_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_6_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  60:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_1_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_1_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  77:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_3_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_3_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  94:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_6_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_6_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
  111:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_12_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_12_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  128:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_24_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_24_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  145:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_36_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_36_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  162:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_60_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_60_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  179:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_12_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_12_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  196:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_24_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_24_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  213:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_36_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_36_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  227:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_60_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_60_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  241:
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM_TENURE_72_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 273; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_72_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
  255:
-            mike = _closure1_slot3;
-            mike = mike.PREMIUM_TENURE_72_MONTH;
-            if(!(mike !== zulu)) { _fun00002_ip = 273; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.PREMIUM_TENURE_72_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
  269:
-            mike = null;
-            return mike;
+            michal = null;
+            return michal;
  273:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 3;
-            tango = options[mike];
-            zulu = undefined;
-            tango = golf.bind(zulu)(tango);
-            oscar = tango.intl;
-            tango = oscar.formatToPlainString;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.IfYQVF;
-            mike = {};
-            golf = '6+';
-            mike['years'] = golf;
-            mike = tango.bind(oscar)(zulu, mike);
-            return mike;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 3;
+            tangon = option[michal];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            oscard = tangon.intl;
+            tangon = oscard.formatToPlainString;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.IfYQVF;
+            michal = {};
+            golfie = '6+';
+            michal['years'] = golfie;
+            michal = tangon.bind(oscard)(zuuluu, michal);
+            return michal;
  346:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 3;
-            tango = options[mike];
-            zulu = undefined;
-            tango = golf.bind(zulu)(tango);
-            oscar = tango.intl;
-            tango = oscar.formatToPlainString;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.IfYQVF;
-            mike = {};
-            golf = 12;
-            golf = report / golf;
-            mike['years'] = golf;
-            mike = tango.bind(oscar)(zulu, mike);
-            return mike;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 3;
+            tangon = option[michal];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            oscard = tangon.intl;
+            tangon = oscard.formatToPlainString;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.IfYQVF;
+            michal = {};
+            golfie = 12;
+            golfie = report / golfie;
+            michal['years'] = golfie;
+            michal = tangon.bind(oscard)(zuuluu, michal);
+            return michal;
  420:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 3;
-            zulu = golf[entity];
-            mike = undefined;
-            zulu = oscar.bind(mike)(zulu);
-            tango = zulu.intl;
-            zulu = tango.formatToPlainString;
-            entity = golf[entity];
-            entity = oscar.bind(mike)(entity);
+            zuuluu = golfie[entity];
+            michal = undefined;
+            zuuluu = oscard.bind(michal)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.formatToPlainString;
+            entity = golfie[entity];
+            entity = oscard.bind(michal)(entity);
             entity = entity.t;
-            mike = entity.erUSmJ;
+            michal = entity.erUSmJ;
             entity = {};
             entity['months'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot4 = mike;
+    var _closure1_slot4 = michal;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/tiered_tenure_badging/hooks/useTenureBadgeRequirementString.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function() {
+    report = oscard.bind(golfie)(report);
+    tangon = function() {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.useTieredTenureBadge;
-            oscar = entity.bind(zulu)();
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.useTieredTenureBadge;
+            oscard = entity.bind(zuuluu)();
             entity = null;
-            if(!(entity != oscar)) { _fun00004_ip = 95; continue _fun00003 }
+            if(!(entity != oscard)) { _fun00004_ip = 95; continue _fun00003 }
  41:
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 2;
-            zulu = golf[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.getTieredTenureBadgeData;
-            zulu = zulu.bind(tango)(oscar);
-            tango = zulu.id;
-            zulu = zulu.tenureReqNumMonths;
-            mike = _closure1_slot4;
-            mike = mike.bind(report)(tango, zulu);
-            return mike;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.getTieredTenureBadgeData;
+            zuuluu = zuuluu.bind(tangon)(oscard);
+            tangon = zuuluu.id;
+            zuuluu = zuuluu.tenureReqNumMonths;
+            michal = _closure1_slot4;
+            michal = michal.bind(report)(tangon, zuuluu);
+            return michal;
  95:
             return entity;
         }
     };
-    zulu['useTenureBadgeRequirementString'] = tango;
-    zulu['getTenureBadgeRequirementString'] = mike;
+    zuuluu['useTenureBadgeRequirementString'] = tangon;
+    zuuluu['getTenureBadgeRequirementString'] = michal;
     return entity;
 })();

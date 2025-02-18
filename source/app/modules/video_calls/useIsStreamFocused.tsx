@@ -1,77 +1,77 @@
 // app/modules/video_calls/useIsStreamFocused.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.isStreamParticipant;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/video_calls/useIsStreamFocused.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useIsStreamFocused
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.isStreamParticipant;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/video_calls/useIsStreamFocused.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useIsStreamFocused
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 2;
-            zulu = tango[zulu];
-            tango = undefined;
-            oscar = report.bind(tango)(zulu);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = golf;
+            tangon = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            oscard = report.bind(tangon)(zuuluu);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = golfie;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot0;
+                    zuuluu = _closure2_slot0;
                     entity = null;
-                    zulu = entity != zulu;
-                    if(!zulu) { _fun00004_ip = 38; continue _fun00003 }
+                    zuuluu = entity != zuuluu;
+                    if(!zuuluu) { _fun00004_ip = 38; continue _fun00003 }
  16:
-                    tango = _closure1_slot2;
-                    zulu = tango.getSelectedParticipant;
-                    mike = _closure2_slot0;
-                    entity = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot2;
+                    zuuluu = tangon.getSelectedParticipant;
+                    michal = _closure2_slot0;
+                    entity = zuuluu.bind(tangon)(michal);
  38:
                     return entity;
                 }
             };
-            zulu = report.bind(oscar)(zulu, entity);
+            zuuluu = report.bind(oscard)(zuuluu, entity);
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 80; continue _fun00001 }
  71:
-            mike = _closure1_slot3;
-            entity = mike.bind(tango)(zulu);
+            michal = _closure1_slot3;
+            entity = michal.bind(tangon)(zuuluu);
  80:
             return entity;
         }
     };
-    zulu['useIsStreamFocused'] = mike;
+    zuuluu['useIsStreamFocused'] = michal;
     return entity;
 })();

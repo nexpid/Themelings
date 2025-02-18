@@ -1,63 +1,63 @@
 // app/modules/guild_sidebar/showChannelBadge.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guild_sidebar/showChannelBadge.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: showChannelBadge
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guild_sidebar/showChannelBadge.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: showChannelBadge
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.mentionsCount;
-            mike = entity.isNewChannel;
-            tango = entity.postsWithUnreadsCount;
+            golfie = entity.mentionsCount;
+            michal = entity.isNewChannel;
+            tangon = entity.postsWithUnreadsCount;
             report = entity.muted;
-            zulu = null;
-            entity = zulu != golf;
+            zuuluu = null;
+            entity = zuuluu != golfie;
             if(!entity) { _fun00002_ip = 42; continue _fun00001 }
  36:
-            oscar = 0;
-            entity = golf > oscar;
+            oscard = 0;
+            entity = golfie > oscard;
  42:
             if(entity) { _fun00002_ip = 48; continue _fun00001 }
  45:
-            entity = mike;
+            entity = michal;
  48:
             if(entity) { _fun00002_ip = 80; continue _fun00001 }
  51:
-            mike = zulu != report;
-            if(!mike) { _fun00002_ip = 61; continue _fun00001 }
+            michal = zuuluu != report;
+            if(!michal) { _fun00002_ip = 61; continue _fun00001 }
  58:
-            mike = !report;
+            michal = !report;
  61:
-            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
  64:
-            mike = zulu != tango;
+            michal = zuuluu != tangon;
  68:
-            if(!mike) { _fun00002_ip = 77; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 77; continue _fun00001 }
  71:
-            zulu = 0;
-            mike = tango > zulu;
+            zuuluu = 0;
+            michal = tangon > zuuluu;
  77:
-            entity = mike;
+            entity = michal;
  80:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

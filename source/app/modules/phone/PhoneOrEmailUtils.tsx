@@ -1,87 +1,87 @@
 // app/modules/phone/PhoneOrEmailUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = {};
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = {};
     entity = 'phone';
-    tango['PHONE'] = entity;
+    tangon['PHONE'] = entity;
     entity = 'email';
-    tango['EMAIL'] = entity;
-    var _closure1_slot0 = tango;
+    tangon['EMAIL'] = entity;
+    var _closure1_slot0 = tangon;
     entity = /^[-() \d]+$/;
     var _closure1_slot1 = entity;
-    report = argPlugh;
+    report = argPlu;
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/phone/PhoneOrEmailUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['PhoneOrEmailSelectorForceMode'] = tango;
-    tango = function(argFoo, argBar) { // Original name: shouldShowCountryCodeSelector
+    report = oscard.bind(golfie)(report);
+    zuuluu['PhoneOrEmailSelectorForceMode'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: shouldShowCountryCodeSelector
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            tango = argBar;
+            michal = argFoo;
+            tangon = argBar;
             entity = _closure1_slot0;
             entity = entity.PHONE;
-            if(!(mike !== entity)) { _fun00002_ip = 77; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 77; continue _fun00001 }
  23:
             entity = _closure1_slot0;
             entity = entity.EMAIL;
-            entity = mike !== entity;
+            entity = michal !== entity;
             if(!entity) { _fun00002_ip = 75; continue _fun00001 }
  40:
-            report = tango.length;
-            mike = 3;
-            report = report < mike;
-            mike = !report;
+            report = tangon.length;
+            michal = 3;
+            report = report < michal;
+            michal = !report;
             if(report) { _fun00002_ip = 72; continue _fun00001 }
  58:
             report = _closure1_slot1;
-            zulu = report.test;
-            mike = zulu.bind(report)(tango);
+            zuuluu = report.test;
+            michal = zuuluu.bind(report)(tangon);
  72:
-            entity = mike;
+            entity = michal;
  75:
             _fun00002_ip = 95; continue _fun00001;
  77:
-            zulu = tango.startsWith;
-            mike = '+';
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            zuuluu = tangon.startsWith;
+            michal = '+';
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  95:
             return entity;
         }
     };
-    zulu['shouldShowCountryCodeSelector'] = tango;
-    mike = function(argFoo) { // Original name: getPhoneOrEmail
+    zuuluu['shouldShowCountryCodeSelector'] = tangon;
+    michal = function(argFoo) { // Original name: getPhoneOrEmail
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = /^\+\d/;
-            mike = zulu.test;
+            zuuluu = /^\+\d/;
+            michal = zuuluu.test;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
-            mike = _closure1_slot0;
+            entity = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot0;
             if(entity) { _fun00004_ip = 45; continue _fun00003 }
  37:
-            entity = mike.EMAIL;
+            entity = michal.EMAIL;
             _fun00004_ip = 51; continue _fun00003;
  45:
-            entity = mike.PHONE;
+            entity = michal.PHONE;
  51:
             return entity;
         }
     };
-    zulu['getPhoneOrEmail'] = mike;
+    zuuluu['getPhoneOrEmail'] = michal;
     return entity;
 })();

@@ -1,97 +1,97 @@
 // app/modules/voice_panel/native/VoicePanelAccessibilityView.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    options = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.VoicePanelPIPModes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    golf = options.memo;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AccessibilityViewAnimated;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/VoicePanelAccessibilityView.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: VoicePanelAccessibilityView
+    option = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoicePanelPIPModes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    golfie = option.memo;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AccessibilityViewAnimated;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/VoicePanelAccessibilityView.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: VoicePanelAccessibilityView
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            romeo = zulu.style;
-            yankee = zulu.pointerEvents;
-            tango = undefined;
-            if(!(yankee === tango)) { _fun00002_ip = 26; continue _fun00001 }
+            zuuluu = argFoo;
+            romeon = zuuluu.style;
+            yankee = zuuluu.pointerEvents;
+            tangon = undefined;
+            if(!(yankee === tangon)) { _fun00002_ip = 26; continue _fun00001 }
  20:
             yankee = 'box-none';
  26:
-            offset = zulu.nativeID;
-            golf = zulu.accessibilityViewIsModal;
-            oscar = zulu.onAccessibilityEscape;
-            mike = {'style': 0, 'pointerEvents': 0, 'nativeID': 0, 'accessibilityViewIsModal': 0, 'onAccessibilityEscape': 0};
+            offset = zuuluu.nativeID;
+            golfie = zuuluu.accessibilityViewIsModal;
+            oscard = zuuluu.onAccessibilityEscape;
+            michal = {'style': 0, 'pointerEvents': 0, 'nativeID': 0, 'accessibilityViewIsModal': 0, 'onAccessibilityEscape': 0};
             backup = null;
-            kilo = mike;
-            entity = silentSetPrototypeOf(kilo, backup);
-            kilo = {};
-            backup = zulu;
-            foxtrot = mike;
-            report = copyDataProperties(kilo, backup, foxtrot);
-            mike = _closure1_slot0;
-            zulu = _closure1_slot1;
+            kiloes = michal;
+            entity = silentSetPrototypeOf(kiloes, backup);
+            kiloes = {};
+            backup = zuuluu;
+            foxtra = michal;
+            report = copyDataProperties(kiloes, backup, foxtra);
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 4;
-            entity = zulu[entity];
-            mike = mike.bind(tango)(entity);
-            entity = mike.usePIPState;
-            verify = entity.bind(mike)();
-            zulu = _closure1_slot3;
-            mike = _closure1_slot4;
+            entity = zuuluu[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.usePIPState;
+            verify = entity.bind(michal)();
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot4;
             entity = {};
-            entity['style'] = romeo;
+            entity['style'] = romeon;
             entity['pointerEvents'] = yankee;
             entity['nativeID'] = offset;
-            if(!golf) { _fun00002_ip = 158; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 158; continue _fun00001 }
  139:
             verify = verify.mode;
-            options = _closure1_slot2;
-            options = options.IN_APP;
-            golf = verify !== options;
+            option = _closure1_slot2;
+            option = option.IN_APP;
+            golfie = verify !== option;
  158:
-            entity['accessibilityViewIsModal'] = golf;
-            entity['onAccessibilityEscape'] = oscar;
-            kilo = entity;
+            entity['accessibilityViewIsModal'] = golfie;
+            entity['onAccessibilityEscape'] = oscard;
+            kiloes = entity;
             backup = report;
-            report = copyDataProperties(kilo, backup);
-            entity = zulu.bind(tango)(mike, entity);
+            report = copyDataProperties(kiloes, backup);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

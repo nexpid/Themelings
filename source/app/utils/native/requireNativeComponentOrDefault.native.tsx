@@ -1,109 +1,109 @@
 // app/utils/native/requireNativeComponentOrDefault.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
-    tango = global;
-    verify = tango.Object;
-    options = verify.defineProperty;
-    golf = {};
+    zuuluu = argFre;
+    oscard = argPlu;
+    tangon = global;
+    verify = tangon.Object;
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    options = golf.requireNativeComponent;
-    var _closure1_slot0 = options;
-    options = golf.UIManager;
-    var _closure1_slot1 = options;
-    golf = golf.View;
-    var _closure1_slot2 = golf;
-    golf = 1;
-    options = oscar[golf];
-    golf = argBaz;
-    verify = golf.bind(entity)(options);
-    golf = verify.prototype;
-    options = Object.create(golf, {constructor: {value: verify}});
-    romeo = 'RequireNativeComponentOrDefault';
-    foxtrot = options;
-    golf = new foxtrot[verify](romeo, yankee);
-    golf = golf instanceof Object ? golf : options;
-    var _closure1_slot3 = golf;
-    tango = tango.Map;
-    golf = tango.prototype;
-    golf = Object.create(golf, {constructor: {value: tango}});
-    foxtrot = golf;
-    tango = new foxtrot[tango](romeo);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/native/requireNativeComponentOrDefault.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: requireNativeComponentOrDefault
+    golfie = report.bind(entity)(golfie);
+    option = golfie.requireNativeComponent;
+    var _closure1_slot0 = option;
+    option = golfie.UIManager;
+    var _closure1_slot1 = option;
+    golfie = golfie.View;
+    var _closure1_slot2 = golfie;
+    golfie = 1;
+    option = oscard[golfie];
+    golfie = argBaz;
+    verify = golfie.bind(entity)(option);
+    golfie = verify.prototype;
+    option = Object.create(golfie, {constructor: {value: verify}});
+    romeon = 'RequireNativeComponentOrDefault';
+    foxtra = option;
+    golfie = new foxtra[verify](romeon, yankee);
+    golfie = golfie instanceof Object ? golfie : option;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.Map;
+    golfie = tangon.prototype;
+    golfie = Object.create(golfie, {constructor: {value: tangon}});
+    foxtra = golfie;
+    tangon = new foxtra[tangon](romeon);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/native/requireNativeComponentOrDefault.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: requireNativeComponentOrDefault
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tango = entity.componentName;
-            oscar = entity.componentFoundInstance;
-            zulu = entity.componentMissingFallbackInstance;
-            options = undefined;
-            if(!(zulu === options)) { _fun00002_ip = 34; continue _fun00001 }
+            tangon = entity.componentName;
+            oscard = entity.componentFoundInstance;
+            zuuluu = entity.componentMissingFallbackInstance;
+            option = undefined;
+            if(!(zuuluu === option)) { _fun00002_ip = 34; continue _fun00001 }
  27:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
  34:
             report = entity.warnWhenMissing;
-            if(!(report === options)) { _fun00002_ip = 46; continue _fun00001 }
+            if(!(report === option)) { _fun00002_ip = 46; continue _fun00001 }
  44:
             report = true;
  46:
-            golf = _closure1_slot1;
-            entity = golf.hasViewManagerConfig;
-            entity = entity.bind(golf)(tango);
+            golfie = _closure1_slot1;
+            entity = golfie.hasViewManagerConfig;
+            entity = entity.bind(golfie)(tangon);
             if(entity) { _fun00002_ip = 121; continue _fun00001 }
  67:
-            entity = zulu;
+            entity = zuuluu;
             if(!report) { _fun00002_ip = 182; continue _fun00001 }
  73:
             verify = _closure1_slot3;
-            golf = verify.warn;
+            golfie = verify.warn;
             report = global;
             report = report.HermesInternal;
             yankee = report.concat;
             offset = '';
             report = ' not found, you are likely on a branch override without the native code.';
-            report = yankee.bind(offset)(tango, report);
-            report = golf.bind(verify)(report);
-            entity = zulu;
+            report = yankee.bind(offset)(tangon, report);
+            report = golfie.bind(verify)(report);
+            entity = zuuluu;
             _fun00002_ip = 182; continue _fun00001;
  121:
             report = _closure1_slot4;
-            zulu = report.has;
-            zulu = zulu.bind(report)(tango);
-            if(zulu) { _fun00002_ip = 168; continue _fun00001 }
+            zuuluu = report.has;
+            zuuluu = zuuluu.bind(report)(tangon);
+            if(zuuluu) { _fun00002_ip = 168; continue _fun00001 }
  138:
             report = _closure1_slot4;
-            zulu = report.set;
-            golf = null;
-            if(!(golf == oscar)) { _fun00002_ip = 162; continue _fun00001 }
+            zuuluu = report.set;
+            golfie = null;
+            if(!(golfie == oscard)) { _fun00002_ip = 162; continue _fun00001 }
  153:
-            golf = _closure1_slot0;
-            oscar = golf.bind(options)(tango);
+            golfie = _closure1_slot0;
+            oscard = golfie.bind(option)(tangon);
  162:
-            zulu = zulu.bind(report)(tango, oscar);
+            zuuluu = zuuluu.bind(report)(tangon, oscard);
  168:
-            zulu = _closure1_slot4;
-            mike = zulu.get;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.get;
+            entity = michal.bind(zuuluu)(tangon);
  182:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

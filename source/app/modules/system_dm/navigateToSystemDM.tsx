@@ -1,58 +1,58 @@
 // app/modules/system_dm/navigateToSystemDM.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.SYSTEM_USER;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/system_dm/navigateToSystemDM.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: navigateToSystemDM
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SYSTEM_USER;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/system_dm/navigateToSystemDM.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: navigateToSystemDM
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            zulu = tango.getDMFromUserId;
-            mike = _closure1_slot3;
-            zulu = zulu.bind(tango)(mike);
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 61; continue _fun00001 }
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getDMFromUserId;
+            michal = _closure1_slot3;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 61; continue _fun00001 }
  28:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.selectPrivateChannel;
-            entity = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.selectPrivateChannel;
+            entity = entity.bind(michal)(zuuluu);
  61:
             entity = undefined;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,44 +1,44 @@
 // app/modules/main_tabs_v2/native/settings/hooks/useBugReporterExperimentSettingPredicate.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/hooks/useBugReporterExperimentSettingPredicate.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useBugReporterExperimentSettingPredicate
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/hooks/useBugReporterExperimentSettingPredicate.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useBugReporterExperimentSettingPredicate
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.useExperiment;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = 'native-settings';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.hasBugReporterAccess;
         return entity;
     };
-    zulu['useBugReporterExperimentSettingPredicate'] = mike;
+    zuuluu['useBugReporterExperimentSettingPredicate'] = michal;
     return entity;
 })();

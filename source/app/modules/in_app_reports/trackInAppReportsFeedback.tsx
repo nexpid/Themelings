@@ -1,69 +1,69 @@
 // app/modules/in_app_reports/trackInAppReportsFeedback.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/in_app_reports/trackInAppReportsFeedback.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: trackInAppReportsFeedback
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/in_app_reports/trackInAppReportsFeedback.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: trackInAppReportsFeedback
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            yankee = mike.problem;
-            golf = mike.feedback;
-            offset = mike.reportType;
-            verify = mike.reportId;
+            michal = argFoo;
+            yankee = michal.problem;
+            golfie = michal.feedback;
+            offset = michal.reportType;
+            verify = michal.reportId;
             entity = undefined;
             if(!(verify === entity)) { _fun00002_ip = 35; continue _fun00001 }
  33:
             verify = null;
  35:
-            options = mike.rating;
-            if(!(options === entity)) { _fun00002_ip = 47; continue _fun00001 }
+            option = michal.rating;
+            if(!(option === entity)) { _fun00002_ip = 47; continue _fun00001 }
  45:
-            options = null;
+            option = null;
  47:
-            oscar = mike.dontShowAgain;
-            tango = _closure1_slot0;
+            oscard = michal.dontShowAgain;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 1;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.track;
-            mike = _closure1_slot2;
-            zulu = mike.IAR_FEEDBACK_SUBMITTED;
-            mike = {};
-            mike['reason'] = yankee;
-            mike['report_type'] = offset;
-            mike['report_id'] = verify;
-            mike['rating'] = options;
-            mike['feedback'] = golf;
-            mike['dont_show_again'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot2;
+            zuuluu = michal.IAR_FEEDBACK_SUBMITTED;
+            michal = {};
+            michal['reason'] = yankee;
+            michal['report_type'] = offset;
+            michal['report_id'] = verify;
+            michal['rating'] = option;
+            michal['feedback'] = golfie;
+            michal['dont_show_again'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,151 +1,151 @@
 // app/modules/search_v2/native/hooks/useSearchScreenLoading.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: useMessageScreenLoadingState
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: useMessageScreenLoadingState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            offset = mike.searchContext;
-            verify = mike.tab;
-            zulu = _closure1_slot5;
+            michal = argFoo;
+            offset = michal.searchContext;
+            verify = michal.tab;
+            zuuluu = _closure1_slot5;
             report = undefined;
-            options = zulu.bind(report)(offset);
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 3;
-            zulu = oscar[zulu];
-            golf = tango.bind(report)(zulu);
-            zulu = golf.getSearchTabFetchId;
-            zulu = zulu.bind(golf)(offset, verify, options);
-            var _closure2_slot0 = zulu;
-            zulu = 4;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.useStateFromStoresObject;
+            option = zuuluu.bind(report)(offset);
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = oscard[zuuluu];
+            golfie = tangon.bind(report)(zuuluu);
+            zuuluu = golfie.getSearchTabFetchId;
+            zuuluu = zuuluu.bind(golfie)(offset, verify, option);
+            var _closure2_slot0 = zuuluu;
+            zuuluu = 4;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.useStateFromStoresObject;
             report = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = report;
+            michal = new Array(1);
+            michal[0] = report;
             entity = function() {
                 entity = {};
                 report = _closure1_slot2;
-                zulu = report.getIsInitialFetchComplete;
-                tango = _closure2_slot0;
-                zulu = zulu.bind(report)(tango);
-                entity['isInitialFetchComplete'] = zulu;
-                zulu = _closure1_slot2;
-                mike = zulu.getIsFetching;
-                mike = mike.bind(zulu)(tango);
-                entity['isFetching'] = mike;
+                zuuluu = report.getIsInitialFetchComplete;
+                tangon = _closure2_slot0;
+                zuuluu = zuuluu.bind(report)(tangon);
+                entity['isInitialFetchComplete'] = zuuluu;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getIsFetching;
+                michal = michal.bind(zuuluu)(tangon);
+                entity['isFetching'] = michal;
                 return entity;
             };
-            entity = zulu.bind(tango)(mike, entity);
-            mike = entity.isInitialFetchComplete;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            michal = entity.isInitialFetchComplete;
             entity = entity.isFetching;
-            mike = !mike;
-            zulu = !mike;
-            if(mike) { _fun00002_ip = 135; continue _fun00001 }
+            michal = !michal;
+            zuuluu = !michal;
+            if(michal) { _fun00002_ip = 135; continue _fun00001 }
  132:
-            zulu = entity;
+            zuuluu = entity;
  135:
             entity = {};
-            entity['isFirstPageLoading'] = mike;
-            entity['isNextPageLoading'] = zulu;
-            if(mike) { _fun00002_ip = 153; continue _fun00001 }
+            entity['isFirstPageLoading'] = michal;
+            entity['isNextPageLoading'] = zuuluu;
+            if(michal) { _fun00002_ip = 153; continue _fun00001 }
  150:
-            mike = zulu;
+            michal = zuuluu;
  153:
-            entity['isLoading'] = mike;
+            entity['isLoading'] = michal;
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.useIsAutocompleteVisible;
-    var _closure1_slot3 = options;
-    options = report.useIsInitialSearchQuery;
-    var _closure1_slot4 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.useIsAutocompleteVisible;
+    var _closure1_slot3 = option;
+    option = report.useIsInitialSearchQuery;
+    var _closure1_slot4 = option;
     report = report.useSearchResultsQuery;
     var _closure1_slot5 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.SEARCH_MESSAGE_TAB_SENTINEL;
     var _closure1_slot6 = report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/search_v2/native/hooks/useSearchScreenLoading.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useMessageScreenLoadingState'] = tango;
-    tango = function(argFoo) { // Original name: useIsPlaceholderVisible
+    report = oscard.bind(golfie)(report);
+    zuuluu['useMessageScreenLoadingState'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsPlaceholderVisible
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = entity.searchContext;
-            mike = entity.data;
-            zulu = _closure1_slot4;
+            tangon = entity.searchContext;
+            michal = entity.data;
+            zuuluu = _closure1_slot4;
             entity = undefined;
-            entity = zulu.bind(entity)(tango);
+            entity = zuuluu.bind(entity)(tangon);
             entity = !entity;
             if(!entity) { _fun00004_ip = 45; continue _fun00003 }
  34:
-            zulu = mike.length;
-            mike = 0;
-            entity = mike === zulu;
+            zuuluu = michal.length;
+            michal = 0;
+            entity = michal === zuuluu;
  45:
             return entity;
         }
     };
-    zulu['useIsPlaceholderVisible'] = tango;
-    mike = function(argFoo) { // Original name: useIsSearchSpinnerVisible
+    zuuluu['useIsPlaceholderVisible'] = tangon;
+    michal = function(argFoo) { // Original name: useIsSearchSpinnerVisible
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.searchContext;
-            zulu = _closure1_slot7;
+            zuuluu = _closure1_slot7;
             entity = {};
             entity['searchContext'] = report;
-            tango = _closure1_slot6;
-            entity['tab'] = tango;
-            tango = undefined;
-            entity = zulu.bind(tango)(entity);
+            tangon = _closure1_slot6;
+            entity['tab'] = tangon;
+            tangon = undefined;
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.isFirstPageLoading;
-            zulu = _closure1_slot4;
-            zulu = zulu.bind(tango)(report);
-            mike = _closure1_slot3;
-            mike = mike.bind(tango)(report);
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.bind(tangon)(report);
+            michal = _closure1_slot3;
+            michal = michal.bind(tangon)(report);
             if(!entity) { _fun00006_ip = 69; continue _fun00005 }
  66:
-            entity = !zulu;
+            entity = !zuuluu;
  69:
             if(!entity) { _fun00006_ip = 75; continue _fun00005 }
  72:
-            entity = !mike;
+            entity = !michal;
  75:
             return entity;
         }
     };
-    zulu['useIsSearchSpinnerVisible'] = mike;
+    zuuluu['useIsSearchSpinnerVisible'] = michal;
     return entity;
 })();

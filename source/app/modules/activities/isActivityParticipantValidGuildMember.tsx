@@ -1,47 +1,47 @@
 // app/modules/activities/isActivityParticipantValidGuildMember.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/activities/isActivityParticipantValidGuildMember.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: isActivityParticipantValidGuildMember
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/activities/isActivityParticipantValidGuildMember.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: isActivityParticipantValidGuildMember
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.member;
-            tango = null;
-            entity = tango != entity;
+            michal = argFoo;
+            entity = michal.member;
+            tangon = null;
+            entity = tangon != entity;
             if(!entity) { _fun00002_ip = 34; continue _fun00001 }
  18:
-            zulu = mike.member;
-            zulu = zulu.joined_at;
-            entity = tango != zulu;
+            zuuluu = michal.member;
+            zuuluu = zuuluu.joined_at;
+            entity = tangon != zuuluu;
  34:
             if(!entity) { _fun00002_ip = 61; continue _fun00001 }
  37:
-            mike = mike.member;
-            mike = mike.user;
-            zulu = mike.username;
-            mike = '';
-            entity = mike !== zulu;
+            michal = michal.member;
+            michal = michal.user;
+            zuuluu = michal.username;
+            michal = '';
+            entity = michal !== zuuluu;
  61:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

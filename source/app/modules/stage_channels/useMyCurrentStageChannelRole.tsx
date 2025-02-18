@@ -1,81 +1,81 @@
 // app/modules/stage_channels/useMyCurrentStageChannelRole.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/useMyCurrentStageChannelRole.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useMyCurrentStageChannelRole
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/useMyCurrentStageChannelRole.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useMyCurrentStageChannelRole
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        golf = _closure1_slot2;
-        zulu = new Array(3);
-        zulu[0] = golf;
-        golf = _closure1_slot3;
-        zulu[1] = golf;
-        mike = _closure1_slot4;
-        zulu[2] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        golfie = _closure1_slot2;
+        zuuluu = new Array(3);
+        zuuluu[0] = golfie;
+        golfie = _closure1_slot3;
+        zuuluu[1] = golfie;
+        michal = _closure1_slot4;
+        zuuluu[2] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot2;
-                entity = mike.getId;
-                report = entity.bind(mike)();
-                mike = _closure1_slot3;
-                entity = mike.getVoiceChannelId;
-                oscar = entity.bind(mike)();
-                tango = _closure2_slot0;
+                michal = _closure1_slot2;
+                entity = michal.getId;
+                report = entity.bind(michal)();
+                michal = _closure1_slot3;
+                entity = michal.getVoiceChannelId;
+                oscard = entity.bind(michal)();
+                tangon = _closure2_slot0;
                 entity = null;
-                if(!(oscar === tango)) { _fun00002_ip = 64; continue _fun00001 }
+                if(!(oscard === tangon)) { _fun00002_ip = 64; continue _fun00001 }
  44:
-                tango = _closure1_slot4;
-                zulu = tango.getPermissionsForUser;
-                mike = _closure2_slot0;
-                entity = zulu.bind(tango)(report, mike);
+                tangon = _closure1_slot4;
+                zuuluu = tangon.getPermissionsForUser;
+                michal = _closure2_slot0;
+                entity = zuuluu.bind(tangon)(report, michal);
  64:
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

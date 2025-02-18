@@ -1,62 +1,62 @@
 // app/modules/instant_invite/getInviteURL.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/instant_invite/getInviteURL.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function() { // Original name: getInviteURL
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/instant_invite/getInviteURL.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function() { // Original name: getInviteURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = arguments[0];
-            oscar = arguments[1];
+            tangon = arguments[0];
+            oscard = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun00002_ip = 16; continue _fun00001 }
+            if(!(tangon === entity)) { _fun00002_ip = 16; continue _fun00001 }
  12:
-            tango = '';
+            tangon = '';
  16:
-            if(!(oscar === entity)) { _fun00002_ip = 22; continue _fun00001 }
+            if(!(oscard === entity)) { _fun00002_ip = 22; continue _fun00001 }
  20:
-            oscar = true;
+            oscard = true;
  22:
             entity = global;
-            mike = entity.window;
-            mike = mike.GLOBAL_ENV;
-            report = mike.INVITE_HOST;
-            mike = entity.HermesInternal;
-            zulu = mike.concat;
-            mike = '/';
-            tango = zulu.bind(mike)(tango);
-            zulu = '';
-            mike = zulu;
-            if(!oscar) { _fun00002_ip = 107; continue _fun00001 }
+            michal = entity.window;
+            michal = michal.GLOBAL_ENV;
+            report = michal.INVITE_HOST;
+            michal = entity.HermesInternal;
+            zuuluu = michal.concat;
+            michal = '/';
+            tangon = zuuluu.bind(michal)(tangon);
+            zuuluu = '';
+            michal = zuuluu;
+            if(!oscard) { _fun00002_ip = 107; continue _fun00001 }
  72:
-            oscar = entity.location;
-            options = oscar.protocol;
-            oscar = entity.HermesInternal;
-            golf = oscar.concat;
-            oscar = '//';
-            mike = golf.bind(zulu)(options, oscar);
+            oscard = entity.location;
+            option = oscard.protocol;
+            oscard = entity.HermesInternal;
+            golfie = oscard.concat;
+            oscard = '//';
+            michal = golfie.bind(zuuluu)(option, oscard);
  107:
             entity = entity.HermesInternal;
             entity = entity.concat;
-            entity = entity.bind(zulu)(mike, report, tango);
+            entity = entity.bind(zuuluu)(michal, report, tangon);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

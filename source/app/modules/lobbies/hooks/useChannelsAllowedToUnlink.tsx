@@ -1,57 +1,57 @@
 // app/modules/lobbies/hooks/useChannelsAllowedToUnlink.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: getChannelsAllowedToUnlink
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: getChannelsAllowedToUnlink
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = arguments[1];
-            mike = arguments[2];
+            tangon = argFoo;
+            zuuluu = arguments[1];
+            michal = arguments[2];
             report = undefined;
-            if(!(zulu === report)) { _fun00002_ip = 24; continue _fun00001 }
+            if(!(zuuluu === report)) { _fun00002_ip = 24; continue _fun00001 }
  17:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
  24:
-            if(!(mike === report)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(michal === report)) { _fun00002_ip = 35; continue _fun00001 }
  28:
-            mike = _closure1_slot4;
+            michal = _closure1_slot4;
  35:
-            var _closure2_slot0 = mike;
-            mike = null;
-            if(!(mike != tango)) { _fun00002_ip = 103; continue _fun00001 }
+            var _closure2_slot0 = michal;
+            michal = null;
+            if(!(michal != tangon)) { _fun00002_ip = 103; continue _fun00001 }
  45:
-            mike = zulu.getChannels;
-            zulu = mike.bind(zulu)(tango);
-            mike = _closure1_slot3;
-            tango = zulu[mike];
-            zulu = tango.filter;
-            mike = function(argFoo) {
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+            michal = zuuluu.getChannels;
+            zuuluu = michal.bind(zuuluu)(tangon);
+            michal = _closure1_slot3;
+            tangon = zuuluu[michal];
+            zuuluu = tangon.filter;
+            michal = function(argFoo) {
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 2;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                tango = zulu.bind(entity)(mike);
-                zulu = tango.canUnlinkLobbyChannel;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.canUnlinkLobbyChannel;
                 entity = argFoo;
-                mike = entity.channel;
+                michal = entity.channel;
                 entity = _closure2_slot0;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.map;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.map;
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.channel;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             _fun00002_ip = 107; continue _fun00001;
  103:
             entity = new Array(0);
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -67,54 +67,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     report = 0;
-    verify = golf[report];
+    verify = golfie[report];
     entity = undefined;
-    verify = options.bind(entity)(verify);
+    verify = option.bind(entity)(verify);
     var _closure1_slot2 = verify;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.GUILD_SELECTABLE_CHANNELS_KEY;
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/lobbies/hooks/useChannelsAllowedToUnlink.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getChannelsAllowedToUnlink'] = tango;
-    mike = function(argFoo) { // Original name: useChannelsAllowedToUnlink
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStoresArray;
-        oscar = _closure1_slot4;
-        mike = new Array(2);
-        mike[0] = oscar;
+    report = oscard.bind(golfie)(report);
+    zuuluu['getChannelsAllowedToUnlink'] = tangon;
+    michal = function(argFoo) { // Original name: useChannelsAllowedToUnlink
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresArray;
+        oscard = _closure1_slot4;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot2;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             report = _closure1_slot5;
-            tango = _closure2_slot0;
-            zulu = _closure1_slot2;
-            mike = _closure1_slot4;
+            tangon = _closure2_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot4;
             entity = undefined;
-            entity = report.bind(entity)(tango, zulu, mike);
+            entity = report.bind(entity)(tangon, zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useChannelsAllowedToUnlink'] = mike;
+    zuuluu['useChannelsAllowedToUnlink'] = michal;
     return entity;
 })();

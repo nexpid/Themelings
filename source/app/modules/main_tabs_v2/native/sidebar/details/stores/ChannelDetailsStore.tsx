@@ -1,249 +1,249 @@
 // app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = function() { // Original name: createChannelState
         entity = {};
-        zulu = _closure1_slot2;
-        tango = entity;
-        mike = copyDataProperties(tango, zulu);
+        zuuluu = _closure1_slot2;
+        tangon = entity;
+        michal = copyDataProperties(tangon, zuuluu);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = {};
-    tango = false;
-    entity['isSearchActive'] = tango;
+    tangon = false;
+    entity['isSearchActive'] = tangon;
     var _closure1_slot2 = entity;
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {};
-        mike = global;
-        mike = mike.Map;
-        zulu = mike.prototype;
-        zulu = Object.create(zulu, {constructor: {value: mike}});
-        tango = zulu;
-        mike = new tango[mike](zulu);
-        mike = mike instanceof Object ? mike : zulu;
-        entity['states'] = mike;
+        michal = global;
+        michal = michal.Map;
+        zuuluu = michal.prototype;
+        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+        tangon = zuuluu;
+        michal = new tangon[michal](zuuluu);
+        michal = michal instanceof Object ? michal : zuuluu;
+        entity['states'] = michal;
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot3 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useChannelDetailsStore'] = tango;
-    tango = function() { // Original name: deleteChannelStates
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    report = oscard.bind(golfie)(report);
+    zuuluu['useChannelDetailsStore'] = tangon;
+    tangon = function() { // Original name: deleteChannelStates
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = {};
-            tango = global;
-            tango = tango.Map;
-            report = tango.prototype;
-            report = Object.create(report, {constructor: {value: tango}});
-            golf = report;
-            tango = new golf[tango](oscar);
-            tango = tango instanceof Object ? tango : report;
-            entity['states'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = global;
+            tangon = tangon.Map;
+            report = tangon.prototype;
+            report = Object.create(report, {constructor: {value: tangon}});
+            golfie = report;
+            tangon = new golfie[tangon](oscard);
+            tangon = tangon instanceof Object ? tangon : report;
+            entity['states'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['deleteChannelStates'] = tango;
-    tango = function(argFoo) { // Original name: useIsChannelDetailsSearchActive
-        tango = function(argFoo, argBar) { // Original name: useChannelState
-            mike = argFoo;
-            var _closure3_slot0 = mike;
-            mike = argBar;
-            var _closure3_slot1 = mike;
-            zulu = _closure1_slot3;
-            mike = undefined;
+    zuuluu['deleteChannelStates'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsChannelDetailsSearchActive
+        tangon = function(argFoo, argBar) { // Original name: useChannelState
+            michal = argFoo;
+            var _closure3_slot0 = michal;
+            michal = argBar;
+            var _closure3_slot1 = michal;
+            zuuluu = _closure1_slot3;
+            michal = undefined;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    tango = entity.states;
-                    zulu = tango.get;
-                    mike = _closure3_slot0;
-                    zulu = zulu.bind(tango)(mike);
-                    mike = null;
-                    if(!(mike == zulu)) { _fun00002_ip = 45; continue _fun00001 }
+                    tangon = entity.states;
+                    zuuluu = tangon.get;
+                    michal = _closure3_slot0;
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = null;
+                    if(!(michal == zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
  32:
-                    tango = _closure1_slot4;
-                    mike = undefined;
-                    zulu = tango.bind(mike)();
+                    tangon = _closure1_slot4;
+                    michal = undefined;
+                    zuuluu = tangon.bind(michal)();
  45:
-                    mike = _closure3_slot1;
+                    michal = _closure3_slot1;
                     entity = undefined;
-                    entity = mike.bind(entity)(zulu);
+                    entity = michal.bind(entity)(zuuluu);
                     return entity;
                 }
             };
-            entity = zulu.bind(mike)(entity);
+            entity = zuuluu.bind(michal)(entity);
             return entity;
         };
-        zulu = undefined;
-        mike = argFoo;
+        zuuluu = undefined;
+        michal = argFoo;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isSearchActive;
             return entity;
         };
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['useIsChannelDetailsSearchActive'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setIsChannelDetailsSearchActive
-        tango = {};
+    zuuluu['useIsChannelDetailsSearchActive'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setIsChannelDetailsSearchActive
+        tangon = {};
         entity = argBar;
-        tango['isSearchActive'] = entity;
-        zulu = function(argFoo, argBar) { // Original name: upsertChannelState
+        tangon['isSearchActive'] = entity;
+        zuuluu = function(argFoo, argBar) { // Original name: upsertChannelState
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                oscar = argFoo;
-                tango = _closure1_slot3;
-                zulu = tango.getState;
-                zulu = zulu.bind(tango)();
-                golf = zulu.states;
-                zulu = golf.get;
-                zulu = zulu.bind(golf)(oscar);
+                oscard = argFoo;
+                tangon = _closure1_slot3;
+                zuuluu = tangon.getState;
+                zuuluu = zuuluu.bind(tangon)();
+                golfie = zuuluu.states;
+                zuuluu = golfie.get;
+                zuuluu = zuuluu.bind(golfie)(oscard);
                 report = {};
-                tango = null;
-                if(!(tango == zulu)) { _fun00004_ip = 56; continue _fun00003 }
+                tangon = null;
+                if(!(tangon == zuuluu)) { _fun00004_ip = 56; continue _fun00003 }
  46:
-                options = _closure1_slot4;
-                tango = undefined;
-                zulu = options.bind(tango)();
+                option = _closure1_slot4;
+                tangon = undefined;
+                zuuluu = option.bind(tangon)();
  56:
                 offset = report;
-                verify = zulu;
-                zulu = copyDataProperties(offset, verify);
+                verify = zuuluu;
+                zuuluu = copyDataProperties(offset, verify);
                 verify = argBar;
                 offset = report;
-                zulu = copyDataProperties(offset, verify);
-                zulu = global;
-                zulu = zulu.Map;
-                tango = zulu.prototype;
-                tango = Object.create(tango, {constructor: {value: zulu}});
-                yankee = tango;
-                offset = golf;
-                zulu = new yankee[zulu](offset, verify);
-                tango = zulu instanceof Object ? zulu : tango;
-                var _closure3_slot0 = tango;
-                zulu = tango.set;
-                zulu = zulu.bind(tango)(oscar, report);
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
+                zuuluu = copyDataProperties(offset, verify);
+                zuuluu = global;
+                zuuluu = zuuluu.Map;
+                tangon = zuuluu.prototype;
+                tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                yankee = tangon;
+                offset = golfie;
+                zuuluu = new yankee[zuuluu](offset, verify);
+                tangon = zuuluu instanceof Object ? zuuluu : tangon;
+                var _closure3_slot0 = tangon;
+                zuuluu = tangon.set;
+                zuuluu = zuuluu.bind(tangon)(oscard, report);
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 entity = 1;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                tango = tango.bind(entity)(zulu);
-                zulu = tango.batchUpdates;
-                mike = function() {
-                    zulu = _closure1_slot3;
-                    mike = zulu.setState;
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.batchUpdates;
+                michal = function() {
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.setState;
                     entity = {};
-                    tango = _closure3_slot0;
-                    entity['states'] = tango;
-                    entity = mike.bind(zulu)(entity);
+                    tangon = _closure3_slot0;
+                    entity['states'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                mike = zulu.bind(tango)(mike);
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             }
         };
         entity = undefined;
-        mike = argFoo;
-        mike = zulu.bind(entity)(mike, tango);
+        michal = argFoo;
+        michal = zuuluu.bind(entity)(michal, tangon);
         return entity;
     };
-    zulu['setIsChannelDetailsSearchActive'] = tango;
-    tango = function(argFoo) { // Original name: getIsChannelDetailsSearchActive
+    zuuluu['setIsChannelDetailsSearchActive'] = tangon;
+    tangon = function(argFoo) { // Original name: getIsChannelDetailsSearchActive
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = _closure1_slot3;
-            entity = zulu.getState;
-            entity = entity.bind(zulu)();
-            tango = entity.states;
-            zulu = tango.get;
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getState;
+            entity = entity.bind(zuuluu)();
+            tangon = entity.states;
+            zuuluu = tangon.get;
             entity = argFoo;
-            entity = zulu.bind(tango)(entity);
-            zulu = null;
-            if(!(zulu == entity)) { _fun00006_ip = 52; continue _fun00005 }
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00006_ip = 52; continue _fun00005 }
  42:
-            zulu = _closure1_slot4;
-            mike = undefined;
-            entity = zulu.bind(mike)();
+            zuuluu = _closure1_slot4;
+            michal = undefined;
+            entity = zuuluu.bind(michal)();
  52:
             entity = entity.isSearchActive;
             return entity;
         }
     };
-    zulu['getIsChannelDetailsSearchActive'] = tango;
-    mike = function(argFoo) { // Original name: deleteChannelDetailsSearchState
-        tango = _closure1_slot3;
-        zulu = tango.getState;
-        zulu = zulu.bind(tango)();
-        report = zulu.states;
-        tango = report.delete;
-        zulu = argFoo;
-        zulu = tango.bind(report)(zulu);
-        zulu = global;
-        zulu = zulu.Map;
-        tango = zulu.prototype;
-        tango = Object.create(tango, {constructor: {value: zulu}});
-        golf = tango;
-        oscar = report;
-        zulu = new golf[zulu](oscar, report);
-        zulu = zulu instanceof Object ? zulu : tango;
-        var _closure2_slot0 = zulu;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+    zuuluu['getIsChannelDetailsSearchActive'] = tangon;
+    michal = function(argFoo) { // Original name: deleteChannelDetailsSearchState
+        tangon = _closure1_slot3;
+        zuuluu = tangon.getState;
+        zuuluu = zuuluu.bind(tangon)();
+        report = zuuluu.states;
+        tangon = report.delete;
+        zuuluu = argFoo;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = global;
+        zuuluu = zuuluu.Map;
+        tangon = zuuluu.prototype;
+        tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+        golfie = tangon;
+        oscard = report;
+        zuuluu = new golfie[zuuluu](oscard, report);
+        zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+        var _closure2_slot0 = zuuluu;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['states'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['states'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['deleteChannelDetailsSearchState'] = mike;
+    zuuluu['deleteChannelDetailsSearchState'] = michal;
     return entity;
 })();

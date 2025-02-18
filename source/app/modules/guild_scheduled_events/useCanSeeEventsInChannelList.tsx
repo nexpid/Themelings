@@ -1,58 +1,58 @@
 // app/modules/guild_scheduled_events/useCanSeeEventsInChannelList.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 3;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/useCanSeeEventsInChannelList.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useCanSeeEventsInChannelList
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/useCanSeeEventsInChannelList.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useCanSeeEventsInChannelList
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            tango = 0;
-            entity = options[tango];
+            oscard = argFoo;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            tangon = 0;
+            entity = option[tangon];
             report = undefined;
-            entity = golf.bind(report)(entity);
-            mike = entity.bind(report)(oscar);
+            entity = golfie.bind(report)(entity);
+            michal = entity.bind(report)(oscard);
             entity = 1;
-            entity = options[entity];
-            entity = golf.bind(report)(entity);
-            zulu = entity.bind(report)(oscar);
+            entity = option[entity];
+            entity = golfie.bind(report)(entity);
+            zuuluu = entity.bind(report)(oscard);
             entity = 2;
-            entity = options[entity];
-            entity = golf.bind(report)(entity);
-            entity = entity.bind(report)(oscar);
+            entity = option[entity];
+            entity = golfie.bind(report)(entity);
+            entity = entity.bind(report)(oscard);
             entity = !entity;
             if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  72:
-            if(mike) { _fun00002_ip = 84; continue _fun00001 }
+            if(michal) { _fun00002_ip = 84; continue _fun00001 }
  75:
-            zulu = zulu.length;
-            mike = zulu > tango;
+            zuuluu = zuuluu.length;
+            michal = zuuluu > tangon;
  84:
-            entity = mike;
+            entity = michal;
  87:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

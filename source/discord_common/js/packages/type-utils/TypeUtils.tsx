@@ -1,46 +1,46 @@
 // discord_common/js/packages/type-utils/TypeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/type-utils/TypeUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: exact
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/type-utils/TypeUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: exact
         entity = argFoo;
         return entity;
     };
-    zulu['exact'] = tango;
-    tango = function(argFoo, argBar) { // Original name: hasOwnProperty
-        zulu = argFoo;
-        mike = zulu.hasOwnProperty;
+    zuuluu['exact'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: hasOwnProperty
+        zuuluu = argFoo;
+        michal = zuuluu.hasOwnProperty;
         entity = argBar;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['hasOwnProperty'] = tango;
-    mike = function(argFoo, argBar) { // Original name: dangerouslyCast
+    zuuluu['hasOwnProperty'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: dangerouslyCast
         entity = global;
-        tango = entity.Object;
-        zulu = tango.setPrototypeOf;
+        tangon = entity.Object;
+        zuuluu = tangon.setPrototypeOf;
         entity = argBar;
-        mike = entity.prototype;
+        michal = entity.prototype;
         entity = argFoo;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['dangerouslyCast'] = mike;
+    zuuluu['dangerouslyCast'] = michal;
     return entity;
 })();

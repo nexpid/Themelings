@@ -1,101 +1,101 @@
 // app/modules/media_channel/useShouldHideMediaOptions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ChannelFlags;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_channel/useShouldHideMediaOptions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShouldHideMediaOptions
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ChannelFlags;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_channel/useShouldHideMediaOptions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShouldHideMediaOptions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 2;
-            tango = tango[mike];
-            mike = undefined;
-            oscar = report.bind(mike)(tango);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = golf;
-            zulu = function() {
+            tangon = _closure1_slot1;
+            michal = 2;
+            tangon = tangon[michal];
+            michal = undefined;
+            oscard = report.bind(michal)(tangon);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = golfie;
+            zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot2;
-                    zulu = tango.getChannel;
+                    tangon = _closure1_slot2;
+                    zuuluu = tangon.getChannel;
                     entity = _closure2_slot0;
-                    report = zulu.bind(tango)(entity);
-                    oscar = null;
-                    zulu = oscar == report;
+                    report = zuuluu.bind(tangon)(entity);
+                    oscard = null;
+                    zuuluu = oscard == report;
                     entity = undefined;
-                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
  35:
                     entity = report.parent_id;
  41:
-                    zulu = oscar != entity;
+                    zuuluu = oscard != entity;
                     entity = null;
-                    if(!zulu) { _fun00004_ip = 94; continue _fun00003 }
+                    if(!zuuluu) { _fun00004_ip = 94; continue _fun00003 }
  50:
-                    zulu = report.isForumPost;
-                    zulu = zulu.bind(report)();
+                    zuuluu = report.isForumPost;
+                    zuuluu = zuuluu.bind(report)();
                     entity = null;
-                    if(!zulu) { _fun00004_ip = 94; continue _fun00003 }
+                    if(!zuuluu) { _fun00004_ip = 94; continue _fun00003 }
  65:
-                    zulu = _closure1_slot2;
-                    mike = zulu.getChannel;
-                    oscar = oscar == report;
-                    tango = undefined;
-                    if(oscar) { _fun00004_ip = 89; continue _fun00003 }
+                    zuuluu = _closure1_slot2;
+                    michal = zuuluu.getChannel;
+                    oscard = oscard == report;
+                    tangon = undefined;
+                    if(oscard) { _fun00004_ip = 89; continue _fun00003 }
  83:
-                    tango = report.parent_id;
+                    tangon = report.parent_id;
  89:
-                    entity = mike.bind(zulu)(tango);
+                    entity = michal.bind(zuuluu)(tangon);
  94:
                     return entity;
                 }
             };
-            tango = report.bind(oscar)(tango, zulu);
-            zulu = null;
-            zulu = zulu == tango;
-            if(zulu) { _fun00002_ip = 94; continue _fun00001 }
+            tangon = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = null;
+            zuuluu = zuuluu == tangon;
+            if(zuuluu) { _fun00002_ip = 94; continue _fun00001 }
  73:
-            zulu = tango.hasFlag;
+            zuuluu = tangon.hasFlag;
             entity = _closure1_slot3;
             entity = entity.HIDE_MEDIA_DOWNLOAD_OPTIONS;
-            mike = zulu.bind(tango)(entity);
+            michal = zuuluu.bind(tangon)(entity);
  94:
             entity = true;
-            entity = entity === mike;
+            entity = entity === michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

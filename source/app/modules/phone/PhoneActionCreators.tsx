@@ -1,421 +1,421 @@
 // app/modules/phone/PhoneActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    tango = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = tango;
-    var _closure1_slot2 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    tangon = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = tangon;
+    var _closure1_slot2 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = golf[entity];
+    michal = golfie[entity];
     entity = undefined;
-    mike = tango.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = tango.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.PHONE_VERIFICATION_MODAL_KEY;
-    var _closure1_slot5 = mike;
-    mike = 3;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.Endpoints;
-    var _closure1_slot6 = mike;
-    mike = {};
-    tango = 'user_action_required';
-    mike['USER_ACTION_REQUIRED'] = tango;
-    tango = 'user_settings_update';
-    mike['USER_SETTINGS_UPDATE'] = tango;
-    tango = 'guild_phone_required';
-    mike['GUILD_PHONE_REQUIRED'] = tango;
-    tango = 'mfa_phone_update';
-    mike['MFA_PHONE_UPDATE'] = tango;
-    tango = 'contact_sync';
-    mike['CONTACT_SYNC'] = tango;
-    tango = {};
-    options = function(argFoo) { // Original name: setCountryCode
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    michal = tangon.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = tangon.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.PHONE_VERIFICATION_MODAL_KEY;
+    var _closure1_slot5 = michal;
+    michal = 3;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.Endpoints;
+    var _closure1_slot6 = michal;
+    michal = {};
+    tangon = 'user_action_required';
+    michal['USER_ACTION_REQUIRED'] = tangon;
+    tangon = 'user_settings_update';
+    michal['USER_SETTINGS_UPDATE'] = tangon;
+    tangon = 'guild_phone_required';
+    michal['GUILD_PHONE_REQUIRED'] = tangon;
+    tangon = 'mfa_phone_update';
+    michal['MFA_PHONE_UPDATE'] = tangon;
+    tangon = 'contact_sync';
+    michal['CONTACT_SYNC'] = tangon;
+    tangon = {};
+    option = function(argFoo) { // Original name: setCountryCode
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 4;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'PHONE_SET_COUNTRY_CODE';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['countryCode'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['countryCode'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    tango['setCountryCode'] = options;
-    options = function(argFoo, argBar) { // Original name: removePhone
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['setCountryCode'] = option;
+    option = function(argFoo, argBar) { // Original name: removePhone
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.del;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.del;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['password'] = report;
+        tangon['password'] = report;
         report = argBar;
-        tango['change_phone_reason'] = report;
-        entity['body'] = tango;
-        tango = true;
-        entity['oldFormErrors'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['change_phone_reason'] = report;
+        entity['body'] = tangon;
+        tangon = true;
+        entity['oldFormErrors'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['removePhone'] = options;
-    options = function(argFoo) { // Original name: resendCode
+    tangon['removePhone'] = option;
+    option = function(argFoo) { // Original name: resendCode
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = {};
-            mike = _closure1_slot4;
-            entity = mike.getFingerprint;
-            entity = entity.bind(mike)();
-            mike = null;
-            mike = mike != entity;
-            if(!mike) { _fun00002_ip = 36; continue _fun00001 }
+            tangon = {};
+            michal = _closure1_slot4;
+            entity = michal.getFingerprint;
+            entity = entity.bind(michal)();
+            michal = null;
+            michal = michal != entity;
+            if(!michal) { _fun00002_ip = 36; continue _fun00001 }
  28:
-            zulu = '';
-            mike = zulu !== entity;
+            zuuluu = '';
+            michal = zuuluu !== entity;
  36:
-            if(!mike) { _fun00002_ip = 45; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
  39:
-            tango['X-Fingerprint'] = entity;
+            tangon['X-Fingerprint'] = entity;
  45:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 5;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            zulu = entity.HTTP;
-            mike = zulu.post;
+            entity = zuuluu.bind(entity)(michal);
+            zuuluu = entity.HTTP;
+            michal = zuuluu.post;
             entity = {};
             report = _closure1_slot6;
             report = report.RESEND_PHONE;
             entity['url'] = report;
-            entity['headers'] = tango;
-            tango = {};
+            entity['headers'] = tangon;
+            tangon = {};
             report = argFoo;
-            tango['phone'] = report;
-            entity['body'] = tango;
-            tango = false;
-            entity['rejectWithError'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon['phone'] = report;
+            entity['body'] = tangon;
+            tangon = false;
+            entity['rejectWithError'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    tango['resendCode'] = options;
-    options = function(argFoo, argBar) { // Original name: beginAddPhone
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['resendCode'] = option;
+    option = function(argFoo, argBar) { // Original name: beginAddPhone
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['phone'] = report;
+        tangon['phone'] = report;
         report = argBar;
-        tango['change_phone_reason'] = report;
-        entity['body'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['change_phone_reason'] = report;
+        entity['body'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['beginAddPhone'] = options;
-    options = function(argFoo, argBar, argBaz) { // Original name: addPhone
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['beginAddPhone'] = option;
+    option = function(argFoo, argBar, argBaz) { // Original name: addPhone
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['phone_token'] = report;
+        tangon['phone_token'] = report;
         report = argBar;
-        tango['password'] = report;
+        tangon['password'] = report;
         report = argBaz;
-        tango['change_phone_reason'] = report;
-        entity['body'] = tango;
-        tango = true;
-        entity['oldFormErrors'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['change_phone_reason'] = report;
+        entity['body'] = tangon;
+        tangon = true;
+        entity['oldFormErrors'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['addPhone'] = options;
-    options = function(argFoo) { // Original name: addPhoneWithoutPassword
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['addPhone'] = option;
+    option = function(argFoo) { // Original name: addPhoneWithoutPassword
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE_VERIFY_NO_PASSWORD;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE_VERIFY_NO_PASSWORD;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['code'] = report;
-        entity['body'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['code'] = report;
+        entity['body'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['addPhoneWithoutPassword'] = options;
-    options = function(argFoo, argBar) { // Original name: beginReverifyPhone
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['addPhoneWithoutPassword'] = option;
+    option = function(argFoo, argBar) { // Original name: beginReverifyPhone
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE_REVERIFY;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE_REVERIFY;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['phone'] = report;
+        tangon['phone'] = report;
         report = argBar;
-        tango['change_phone_reason'] = report;
-        entity['body'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['change_phone_reason'] = report;
+        entity['body'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['beginReverifyPhone'] = options;
-    options = function(argFoo, argBar, argBaz) { // Original name: reverifyPhone
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['beginReverifyPhone'] = option;
+    option = function(argFoo, argBar, argBaz) { // Original name: reverifyPhone
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.PHONE_REVERIFY;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.PHONE_REVERIFY;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['phone_token'] = report;
+        tangon['phone_token'] = report;
         report = argBar;
-        tango['password'] = report;
+        tangon['password'] = report;
         report = argBaz;
-        tango['change_phone_reason'] = report;
-        entity['body'] = tango;
-        tango = true;
-        entity['oldFormErrors'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['change_phone_reason'] = report;
+        entity['body'] = tangon;
+        tangon = true;
+        entity['oldFormErrors'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['reverifyPhone'] = options;
-    options = function(argFoo) { // Original name: validatePhoneForSupport
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
+    tangon['reverifyPhone'] = option;
+    option = function(argFoo) { // Original name: validatePhoneForSupport
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 5;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.post;
         entity = {};
-        tango = _closure1_slot6;
-        tango = tango.VERIFY_PHONE_FOR_TICKET;
-        entity['url'] = tango;
-        tango = {};
+        tangon = _closure1_slot6;
+        tangon = tangon.VERIFY_PHONE_FOR_TICKET;
+        entity['url'] = tangon;
+        tangon = {};
         report = argFoo;
-        tango['token'] = report;
-        entity['body'] = tango;
-        tango = true;
-        entity['oldFormErrors'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon['token'] = report;
+        entity['body'] = tangon;
+        tangon = true;
+        entity['oldFormErrors'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['validatePhoneForSupport'] = options;
+    tangon['validatePhoneForSupport'] = option;
     report = function(argFoo, argBar) { // Original name: verifyPhone
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = arguments[2];
-            zulu = arguments[3];
-            mike = argFoo;
-            var _closure2_slot0 = mike;
-            mike = argBar;
-            var _closure2_slot1 = mike;
-            mike = undefined;
-            if(!(tango === mike)) { _fun00004_ip = 30; continue _fun00003 }
+            tangon = arguments[2];
+            zuuluu = arguments[3];
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            michal = argBar;
+            var _closure2_slot1 = michal;
+            michal = undefined;
+            if(!(tangon === michal)) { _fun00004_ip = 30; continue _fun00003 }
  28:
-            tango = true;
+            tangon = true;
  30:
-            var _closure2_slot2 = tango;
-            if(!(zulu === mike)) { _fun00004_ip = 40; continue _fun00003 }
+            var _closure2_slot2 = tangon;
+            if(!(zuuluu === michal)) { _fun00004_ip = 40; continue _fun00003 }
  38:
-            zulu = false;
+            zuuluu = false;
  40:
-            var _closure2_slot3 = zulu;
-            zulu = _closure1_slot3;
+            var _closure2_slot3 = zuuluu;
+            zuuluu = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00006_ip = 283; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 283; continue _fun00005 }
  10:
-                        options = {};
-                        zulu = _closure1_slot4;
-                        mike = zulu.getFingerprint;
-                        mike = mike.bind(zulu)();
-                        zulu = null;
-                        zulu = zulu != mike;
-                        if(!zulu) { _fun00006_ip = 46; continue _fun00005 }
+                        option = {};
+                        zuuluu = _closure1_slot4;
+                        michal = zuuluu.getFingerprint;
+                        michal = michal.bind(zuuluu)();
+                        zuuluu = null;
+                        zuuluu = zuuluu != michal;
+                        if(!zuuluu) { _fun00006_ip = 46; continue _fun00005 }
  38:
-                        tango = '';
-                        zulu = tango !== mike;
+                        tangon = '';
+                        zuuluu = tangon !== michal;
  46:
-                        if(!zulu) { _fun00006_ip = 55; continue _fun00005 }
+                        if(!zuuluu) { _fun00006_ip = 55; continue _fun00005 }
  49:
-                        options['X-Fingerprint'] = mike;
+                        option['X-Fingerprint'] = michal;
  55:
-                        mike = _closure2_slot3;
-                        if(!mike) { _fun00006_ip = 75; continue _fun00005 }
+                        michal = _closure2_slot3;
+                        if(!michal) { _fun00006_ip = 75; continue _fun00005 }
  65:
-                        mike = '';
-                        options['authorization'] = mike;
+                        michal = '';
+                        option['authorization'] = michal;
  75:
-                        tango = _closure1_slot1;
+                        tangon = _closure1_slot1;
                         yankee = _closure1_slot2;
-                        mike = 6;
-                        mike = yankee[mike];
+                        michal = 6;
+                        michal = yankee[michal];
                         report = undefined;
-                        golf = tango.bind(report)(mike);
-                        tango = golf.post;
-                        mike = {};
+                        golfie = tangon.bind(report)(michal);
+                        tangon = golfie.post;
+                        michal = {};
                         verify = _closure1_slot6;
                         verify = verify.VERIFY_PHONE;
-                        mike['url'] = verify;
-                        mike['headers'] = options;
-                        options = {};
+                        michal['url'] = verify;
+                        michal['headers'] = option;
+                        option = {};
                         verify = _closure2_slot0;
-                        options['phone'] = verify;
+                        option['phone'] = verify;
                         verify = _closure2_slot1;
-                        options['code'] = verify;
-                        mike['body'] = options;
-                        options = true;
-                        mike['oldFormErrors'] = options;
-                        options = {};
+                        option['code'] = verify;
+                        michal['body'] = option;
+                        option = true;
+                        michal['oldFormErrors'] = option;
+                        option = {};
                         offset = _closure1_slot0;
                         verify = 7;
                         verify = yankee[verify];
                         verify = offset.bind(report)(verify);
                         verify = verify.NetworkActionNames;
                         verify = verify.USER_VERIFY_PHONE;
-                        options['event'] = verify;
-                        mike['trackedActionData'] = options;
-                        options = false;
-                        mike['rejectWithError'] = options;
-                        mike = tango.bind(golf)(mike);
+                        option['event'] = verify;
+                        michal['trackedActionData'] = option;
+                        option = false;
+                        michal['rejectWithError'] = option;
+                        michal = tangon.bind(golfie)(michal);
                         SaveGenerator(address=209);
  207:
-                        return mike;
+                        return michal;
  209:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun00006_ip = 280; continue _fun00005 }
+                        if(tangon) { _fun00006_ip = 280; continue _fun00005 }
  215:
-                        zulu = _closure2_slot2;
-                        if(!zulu) { _fun00006_ip = 272; continue _fun00005 }
+                        zuuluu = _closure2_slot2;
+                        if(!zuuluu) { _fun00006_ip = 272; continue _fun00005 }
  222:
-                        tango = _closure1_slot1;
-                        golf = _closure1_slot2;
-                        zulu = 4;
-                        zulu = golf[zulu];
-                        report = tango.bind(report)(zulu);
-                        tango = report.dispatch;
-                        zulu = {};
-                        golf = 'MODAL_POP';
-                        zulu['type'] = golf;
-                        oscar = _closure1_slot5;
-                        zulu['key'] = oscar;
-                        zulu = tango.bind(report)(zulu);
+                        tangon = _closure1_slot1;
+                        golfie = _closure1_slot2;
+                        zuuluu = 4;
+                        zuuluu = golfie[zuuluu];
+                        report = tangon.bind(report)(zuuluu);
+                        tangon = report.dispatch;
+                        zuuluu = {};
+                        golfie = 'MODAL_POP';
+                        zuuluu['type'] = golfie;
+                        oscard = _closure1_slot5;
+                        zuuluu['key'] = oscard;
+                        zuuluu = tangon.bind(report)(zuuluu);
  272:
-                        zulu = mike.body;
-                        return zulu;
+                        zuuluu = michal.body;
+                        return zuuluu;
  280:
-                        return mike;
+                        return michal;
  283:
                         return entity;
                     }
                 };
                 return entity;
             };
-            entity = zulu.bind(mike)(entity);
-            entity = entity.bind(mike)();
+            entity = zuuluu.bind(michal)(entity);
+            entity = entity.bind(michal)();
             return entity;
         }
     };
-    tango['verifyPhone'] = report;
+    tangon['verifyPhone'] = report;
     report = 8;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/phone/PhoneActionCreators.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['ChangePhoneReason'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['ChangePhoneReason'] = michal;
     return entity;
 })();

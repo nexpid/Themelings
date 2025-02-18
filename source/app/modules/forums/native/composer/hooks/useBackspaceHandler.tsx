@@ -1,127 +1,127 @@
 // app/modules/forums/native/composer/hooks/useBackspaceHandler.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = /((\ud83c[\udde6-\uddff]){2}|([#*0-9]\u20e3)|(\u00a9|\u00ae|[\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])((\ud83c[\udffb-\udfff])?(\ud83e[\uddb0-\uddb3])?(\ufe0f?\u200d([\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])\ufe0f?)?)*)/g;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forums/native/composer/hooks/useBackspaceHandler.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useBackspaceHandler
-        mike = argFoo;
-        golf = mike.selection;
-        var _closure2_slot0 = golf;
-        oscar = mike.draftContent;
-        var _closure2_slot1 = oscar;
-        report = mike.handleTextChange;
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = /((\ud83c[\udde6-\uddff]){2}|([#*0-9]\u20e3)|(\u00a9|\u00ae|[\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])((\ud83c[\udffb-\udfff])?(\ud83e[\uddb0-\uddb3])?(\ufe0f?\u200d([\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])\ufe0f?)?)*)/g;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forums/native/composer/hooks/useBackspaceHandler.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useBackspaceHandler
+        michal = argFoo;
+        golfie = michal.selection;
+        var _closure2_slot0 = golfie;
+        oscard = michal.draftContent;
+        var _closure2_slot1 = oscard;
+        report = michal.handleTextChange;
         var _closure2_slot2 = report;
-        tango = _closure1_slot0;
-        zulu = tango.useCallback;
-        mike = new Array(3);
-        mike[0] = golf;
-        mike[1] = oscar;
-        mike[2] = report;
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useCallback;
+        michal = new Array(3);
+        michal[0] = golfie;
+        michal[1] = oscard;
+        michal[2] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 report = entity.start;
                 offset = entity.end;
-                oscar = 0;
-                if(!(oscar !== report)) { _fun00002_ip = 261; continue _fun00001 }
+                oscard = 0;
+                if(!(oscard !== report)) { _fun00002_ip = 261; continue _fun00001 }
  26:
                 entity = null;
                 entity = entity == offset;
-                golf = 1;
-                tango = golf;
+                golfie = 1;
+                tangon = golfie;
                 if(entity) { _fun00002_ip = 95; continue _fun00001 }
  41:
-                tango = golf;
+                tangon = golfie;
                 if(!(report !== offset)) { _fun00002_ip = 95; continue _fun00001 }
  48:
-                options = _closure2_slot2;
+                option = _closure2_slot2;
                 verify = _closure2_slot1;
                 entity = verify.substring;
-                zulu = entity.bind(verify)(oscar, report);
+                zuuluu = entity.bind(verify)(oscard, report);
                 entity = verify.substring;
                 entity = entity.bind(verify)(offset);
-                zulu = zulu + entity;
+                zuuluu = zuuluu + entity;
                 entity = undefined;
-                entity = options.bind(entity)(zulu);
+                entity = option.bind(entity)(zuuluu);
                 _fun00002_ip = 261; continue _fun00001;
  95:
-                if(!(report >= tango)) { _fun00002_ip = 139; continue _fun00001 }
+                if(!(report >= tangon)) { _fun00002_ip = 139; continue _fun00001 }
  99:
                 verify = _closure1_slot1;
-                options = verify.test;
+                option = verify.test;
                 yankee = _closure2_slot1;
                 offset = yankee.substring;
-                entity = report - tango;
+                entity = report - tangon;
                 entity = offset.bind(yankee)(entity, report);
-                entity = options.bind(verify)(entity);
+                entity = option.bind(verify)(entity);
                 if(entity) { _fun00002_ip = 144; continue _fun00001 }
  139:
-                options = tango + 1;
+                option = tangon + 1;
                 _fun00002_ip = 202; continue _fun00001;
  144:
-                verify = tango + golf;
-                entity = tango;
+                verify = tangon + golfie;
+                entity = tangon;
                 if(!(report >= verify)) { _fun00002_ip = 215; continue _fun00001 }
  155:
                 offset = _closure1_slot1;
                 verify = offset.test;
-                romeo = _closure2_slot1;
-                yankee = romeo.substring;
-                zulu = report - tango;
-                zulu = zulu - golf;
-                zulu = yankee.bind(romeo)(zulu, report);
-                zulu = verify.bind(offset)(zulu);
-                entity = tango;
-                if(!zulu) { _fun00002_ip = 215; continue _fun00001 }
+                romeon = _closure2_slot1;
+                yankee = romeon.substring;
+                zuuluu = report - tangon;
+                zuuluu = zuuluu - golfie;
+                zuuluu = yankee.bind(romeon)(zuuluu, report);
+                zuuluu = verify.bind(offset)(zuuluu);
+                entity = tangon;
+                if(!zuuluu) { _fun00002_ip = 215; continue _fun00001 }
  199:
-                options = tango + 1;
+                option = tangon + 1;
  202:
-                zulu = 8;
-                tango = options;
-                entity = golf;
-                if(tango <= zulu) { _fun00002_ip = 95; continue _fun00001 }
+                zuuluu = 8;
+                tangon = option;
+                entity = golfie;
+                if(tangon <= zuuluu) { _fun00002_ip = 95; continue _fun00001 }
  215:
-                zulu = _closure2_slot2;
-                tango = _closure2_slot1;
-                mike = tango.substring;
+                zuuluu = _closure2_slot2;
+                tangon = _closure2_slot1;
+                michal = tangon.substring;
                 entity = report - entity;
-                mike = mike.bind(tango)(oscar, entity);
-                entity = tango.substring;
-                entity = entity.bind(tango)(report);
-                mike = mike + entity;
+                michal = michal.bind(tangon)(oscard, entity);
+                entity = tangon.substring;
+                entity = entity.bind(tangon)(report);
+                michal = michal + entity;
                 entity = undefined;
-                entity = zulu.bind(entity)(mike);
+                entity = zuuluu.bind(entity)(michal);
  261:
                 entity = undefined;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useBackspaceHandler'] = mike;
+    zuuluu['useBackspaceHandler'] = michal;
     return entity;
 })();

@@ -1,49 +1,49 @@
 // app/modules/screen/useWindowDimensions.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = function(argFoo) { // Original name: WINDOW_DIMENSIONS_GETTER
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = function(argFoo) { // Original name: WINDOW_DIMENSIONS_GETTER
         entity = argFoo;
         entity = entity.windowDimensions;
         return entity;
     };
-    var _closure1_slot1 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/screen/useWindowDimensions.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useWindowDimensions
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/screen/useWindowDimensions.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useWindowDimensions
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function() { // Original name: getWindowDimensions
-        mike = _closure1_slot0;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: getWindowDimensions
+        michal = _closure1_slot0;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.windowDimensions;
         return entity;
     };
-    zulu['getWindowDimensions'] = mike;
+    zuuluu['getWindowDimensions'] = michal;
     return entity;
 })();

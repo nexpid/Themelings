@@ -1,81 +1,81 @@
 // app/utils/native/TimeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'utils/native/TimeUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: getTimeFormat
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'utils/native/TimeUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: getTimeFormat
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argBar;
+            zuuluu = argBar;
             entity = argFoo;
             entity = entity | 0;
-            mike = 60;
-            options = entity % mike;
-            entity = entity - options;
-            report = entity / mike;
-            mike = null;
-            oscar = mike == zulu;
-            tango = undefined;
+            michal = 60;
+            option = entity % michal;
+            entity = entity - option;
+            report = entity / michal;
+            michal = null;
+            oscard = michal == zuuluu;
+            tangon = undefined;
             entity = undefined;
-            if(oscar) { _fun00002_ip = 43; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 43; continue _fun00001 }
  37:
-            entity = zulu.padMinutes;
+            entity = zuuluu.padMinutes;
  43:
-            if(!(mike != entity)) { _fun00002_ip = 50; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 50; continue _fun00001 }
  47:
             if(entity) { _fun00002_ip = 123; continue _fun00001 }
  50:
             entity = global;
-            mike = entity.String;
-            golf = mike.bind(tango)(report);
-            mike = entity.String;
-            verify = mike.bind(tango)(options);
-            oscar = verify.padStart;
-            zulu = 2;
-            mike = '0';
-            oscar = oscar.bind(verify)(zulu, mike);
+            michal = entity.String;
+            golfie = michal.bind(tangon)(report);
+            michal = entity.String;
+            verify = michal.bind(tangon)(option);
+            oscard = verify.padStart;
+            zuuluu = 2;
+            michal = '0';
+            oscard = oscard.bind(verify)(zuuluu, michal);
             entity = entity.HermesInternal;
-            zulu = entity.concat;
-            mike = '';
+            zuuluu = entity.concat;
+            michal = '';
             entity = ':';
-            entity = zulu.bind(mike)(golf, entity, oscar);
+            entity = zuuluu.bind(michal)(golfie, entity, oscard);
             _fun00002_ip = 206; continue _fun00001;
  123:
-            mike = global;
-            zulu = mike.String;
-            oscar = zulu.bind(tango)(report);
-            zulu = oscar.padStart;
-            golf = 2;
+            michal = global;
+            zuuluu = michal.String;
+            oscard = zuuluu.bind(tangon)(report);
+            zuuluu = oscard.padStart;
+            golfie = 2;
             report = '0';
-            oscar = zulu.bind(oscar)(golf, report);
-            zulu = mike.String;
-            tango = zulu.bind(tango)(options);
-            zulu = tango.padStart;
-            report = zulu.bind(tango)(golf, report);
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            zulu = '';
-            mike = ':';
-            entity = tango.bind(zulu)(oscar, mike, report);
+            oscard = zuuluu.bind(oscard)(golfie, report);
+            zuuluu = michal.String;
+            tangon = zuuluu.bind(tangon)(option);
+            zuuluu = tangon.padStart;
+            report = zuuluu.bind(tangon)(golfie, report);
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = ':';
+            entity = tangon.bind(zuuluu)(oscard, michal, report);
  206:
             return entity;
         }
     };
-    zulu['getTimeFormat'] = mike;
+    zuuluu['getTimeFormat'] = michal;
     return entity;
 })();

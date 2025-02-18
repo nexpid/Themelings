@@ -1,26 +1,26 @@
 // app/modules/guild/Constants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'REAL_NAME_PROMPT';
-    mike['REAL_NAME_PROMPT'] = entity;
-    tango = argPlugh;
+    michal['REAL_NAME_PROMPT'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild/Constants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['GuildPrompts'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild/Constants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['GuildPrompts'] = michal;
     return entity;
 })();

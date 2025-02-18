@@ -1,48 +1,48 @@
 // app/modules/auth/native/getError.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/auth/native/getError.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: getError
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/auth/native/getError.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: getError
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
+            michal = argBar;
             entity = argFoo;
-            tango = mike[entity];
+            tangon = michal[entity];
             entity = null;
-            mike = entity == tango;
-            if(mike) { _fun00002_ip = 52; continue _fun00001 }
+            michal = entity == tangon;
+            if(michal) { _fun00002_ip = 52; continue _fun00001 }
  19:
-            mike = global;
-            zulu = mike.Array;
-            mike = zulu.isArray;
-            zulu = mike.bind(zulu)(tango);
-            mike = tango;
-            if(!zulu) { _fun00002_ip = 49; continue _fun00001 }
+            michal = global;
+            zuuluu = michal.Array;
+            michal = zuuluu.isArray;
+            zuuluu = michal.bind(zuuluu)(tangon);
+            michal = tangon;
+            if(!zuuluu) { _fun00002_ip = 49; continue _fun00001 }
  43:
-            zulu = 0;
-            mike = tango[zulu];
+            zuuluu = 0;
+            michal = tangon[zuuluu];
  49:
-            entity = mike;
+            entity = michal;
  52:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

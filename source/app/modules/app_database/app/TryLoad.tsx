@@ -1,258 +1,258 @@
 // app/modules/app_database/app/TryLoad.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = function() { // Original name: _tryLoadAsync
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 67; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
  7:
-                    mike = argFoo;
+                    michal = argFoo;
  10: // try_start_0
-                    zulu = mike;
-                    mike = undefined;
-                    mike = zulu.bind(mike)();
+                    zuuluu = michal;
+                    michal = undefined;
+                    michal = zuuluu.bind(michal)();
                     SaveGenerator(address=23);
  21:
-                    return mike;
+                    return michal;
  23:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 32; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 32; continue _fun00001 }
  29: // try_end0
-                    return mike;
+                    return michal;
  32:
-                    return mike;
+                    return michal;
  35: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot3;
-                    zulu = tango.log;
-                    mike = 'database load failed.';
-                    mike = zulu.bind(tango)(mike, report);
-                    mike = null;
-                    return mike;
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.log;
+                    michal = 'database load failed.';
+                    michal = zuuluu.bind(tangon)(michal, report);
+                    michal = null;
+                    return michal;
  67:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = function() { // Original name: _tryLoadOrResetCacheGatewayAsync
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 234; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 234; continue _fun00003 }
  10:
-                    options = argFoo;
-                    mike = argBar;
+                    option = argFoo;
+                    michal = argBar;
                     yankee = argBaz;
  19: // try_start_0
-                    zulu = mike;
-                    mike = undefined;
-                    mike = zulu.bind(mike)();
+                    zuuluu = michal;
+                    michal = undefined;
+                    michal = zuuluu.bind(michal)();
                     SaveGenerator(address=32);
  30:
-                    return mike;
+                    return michal;
  32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
  38: // try_end0
-                    return mike;
+                    return michal;
  41:
-                    return mike;
+                    return michal;
  44: // catch_target0
                     CatchBlockStart(arg_register=1);
                     verify = _closure1_slot3;
-                    oscar = verify.log;
-                    romeo = options;
-                    golf = global;
-                    tango = golf.HermesInternal;
-                    offset = tango.concat;
+                    oscard = verify.log;
+                    romeon = option;
+                    golfie = global;
+                    tangon = golfie.HermesInternal;
+                    offset = tangon.concat;
                     report = '';
-                    tango = ': exception thrown, resetting socket.';
-                    report = offset.bind(report)(romeo, tango);
-                    tango = mike.stack;
-                    tango = oscar.bind(verify)(report, mike, tango);
+                    tangon = ': exception thrown, resetting socket.';
+                    report = offset.bind(report)(romeon, tangon);
+                    tangon = michal.stack;
+                    tangon = oscard.bind(verify)(report, michal, tangon);
                     report = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    zulu = 2;
-                    tango = tango[zulu];
-                    zulu = undefined;
-                    report = report.bind(zulu)(tango);
-                    tango = report.dispatch;
-                    zulu = {};
-                    oscar = 'RESET_SOCKET';
-                    zulu['type'] = oscar;
-                    oscar = {};
-                    oscar['error'] = mike;
-                    mike = golf.HermesInternal;
-                    mike = mike.concat;
+                    tangon = _closure1_slot1;
+                    zuuluu = 2;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    oscard = 'RESET_SOCKET';
+                    zuuluu['type'] = oscard;
+                    oscard = {};
+                    oscard['error'] = michal;
+                    michal = golfie.HermesInternal;
+                    michal = michal.concat;
                     offset = 'tryLoadOrResetCacheGatewayAsync (';
                     verify = ')';
-                    mike = mike.bind(offset)(romeo, verify);
-                    oscar['action'] = mike;
-                    romeo = yankee;
-                    mike = null;
-                    if(!(mike == romeo)) { _fun00004_ip = 189; continue _fun00003 }
+                    michal = michal.bind(offset)(romeon, verify);
+                    oscard['action'] = michal;
+                    romeon = yankee;
+                    michal = null;
+                    if(!(michal == romeon)) { _fun00004_ip = 189; continue _fun00003 }
  187:
                     _fun00004_ip = 192; continue _fun00003;
  189:
-                    options = yankee;
+                    option = yankee;
  192:
-                    golf = golf.HermesInternal;
-                    golf = golf.concat;
-                    golf = golf.bind(offset)(options, verify);
-                    oscar['metricAction'] = golf;
-                    golf = true;
-                    oscar['clearCache'] = golf;
-                    zulu['args'] = oscar;
-                    zulu = tango.bind(report)(zulu);
-                    return mike;
+                    golfie = golfie.HermesInternal;
+                    golfie = golfie.concat;
+                    golfie = golfie.bind(offset)(option, verify);
+                    oscard['metricAction'] = golfie;
+                    golfie = true;
+                    oscard['clearCache'] = golfie;
+                    zuuluu['args'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    return michal;
  234:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = report[tango];
-    golf = oscar.bind(entity)(tango);
-    tango = golf.prototype;
-    oscar = Object.create(tango, {constructor: {value: golf}});
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    golfie = oscard.bind(entity)(tangon);
+    tangon = golfie.prototype;
+    oscard = Object.create(tangon, {constructor: {value: golfie}});
     yankee = 'TryLoad';
-    romeo = oscar;
-    tango = new romeo[golf](yankee, offset);
-    tango = tango instanceof Object ? tango : oscar;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/app/TryLoad.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: tryLoad
+    romeon = oscard;
+    tangon = new romeon[golfie](yankee, offset);
+    tangon = tangon instanceof Object ? tangon : oscard;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/app/TryLoad.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: tryLoad
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
-            mike = entity;
+            michal = entity;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
  12: // try_end0
             return entity;
  14: // catch_target0
             CatchBlockStart(arg_register=3);
-            zulu = _closure1_slot3;
-            mike = zulu.log;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.log;
             entity = 'database load failed.';
-            entity = mike.bind(zulu)(entity, tango);
+            entity = michal.bind(zuuluu)(entity, tangon);
             entity = null;
             return entity;
         }
     };
-    zulu['tryLoad'] = tango;
-    tango = function() { // Original name: tryLoadAsync
+    zuuluu['tryLoad'] = tangon;
+    tangon = function() { // Original name: tryLoadAsync
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['tryLoadAsync'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: tryLoadOrResetCacheGateway
+    zuuluu['tryLoadAsync'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: tryLoadOrResetCacheGateway
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             entity = argBar;
             offset = argBaz;
  9: // try_start_0
-            mike = entity;
+            michal = entity;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
  18: // try_end0
             return entity;
  20: // catch_target0
             CatchBlockStart(arg_register=0);
-            options = _closure1_slot3;
-            report = options.log;
-            yankee = golf;
-            oscar = global;
-            zulu = oscar.HermesInternal;
-            verify = zulu.concat;
-            tango = '';
-            zulu = ': exception thrown, resetting socket.';
-            tango = verify.bind(tango)(yankee, zulu);
-            zulu = entity.stack;
-            zulu = report.bind(options)(tango, entity, zulu);
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.dispatch;
-            mike = {};
+            option = _closure1_slot3;
+            report = option.log;
+            yankee = golfie;
+            oscard = global;
+            zuuluu = oscard.HermesInternal;
+            verify = zuuluu.concat;
+            tangon = '';
+            zuuluu = ': exception thrown, resetting socket.';
+            tangon = verify.bind(tangon)(yankee, zuuluu);
+            zuuluu = entity.stack;
+            zuuluu = report.bind(option)(tangon, entity, zuuluu);
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.dispatch;
+            michal = {};
             report = 'RESET_SOCKET';
-            mike['type'] = report;
+            michal['type'] = report;
             report = {};
             report['error'] = entity;
-            entity = oscar.HermesInternal;
+            entity = oscard.HermesInternal;
             entity = entity.concat;
             verify = 'tryLoadOrResetCacheGateway (';
-            options = ')';
-            entity = entity.bind(verify)(yankee, options);
+            option = ')';
+            entity = entity.bind(verify)(yankee, option);
             report['action'] = entity;
             yankee = offset;
             entity = null;
@@ -260,30 +260,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  163:
             _fun00008_ip = 168; continue _fun00007;
  165:
-            golf = offset;
+            golfie = offset;
  168:
-            oscar = oscar.HermesInternal;
-            oscar = oscar.concat;
-            oscar = oscar.bind(verify)(golf, options);
-            report['metricAction'] = oscar;
-            oscar = true;
-            report['clearCache'] = oscar;
-            mike['args'] = report;
-            mike = zulu.bind(tango)(mike);
+            oscard = oscard.HermesInternal;
+            oscard = oscard.concat;
+            oscard = oscard.bind(verify)(golfie, option);
+            report['metricAction'] = oscard;
+            oscard = true;
+            report['clearCache'] = oscard;
+            michal['args'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['tryLoadOrResetCacheGateway'] = tango;
-    mike = function() { // Original name: tryLoadOrResetCacheGatewayAsync
+    zuuluu['tryLoadOrResetCacheGateway'] = tangon;
+    michal = function() { // Original name: tryLoadOrResetCacheGatewayAsync
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['tryLoadOrResetCacheGatewayAsync'] = mike;
+    zuuluu['tryLoadOrResetCacheGatewayAsync'] = michal;
     return entity;
 })();

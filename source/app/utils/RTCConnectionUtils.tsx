@@ -1,275 +1,275 @@
 // app/utils/RTCConnectionUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    golf = mike.RTCConnectionStates;
-    var _closure1_slot2 = golf;
-    mike = mike.ConnectionStatus;
-    var _closure1_slot3 = mike;
-    mike = {};
-    golf = function(argFoo) { // Original name: getStatus
+    michal = report.bind(entity)(michal);
+    golfie = michal.RTCConnectionStates;
+    var _closure1_slot2 = golfie;
+    michal = michal.ConnectionStatus;
+    var _closure1_slot3 = michal;
+    michal = {};
+    golfie = function(argFoo) { // Original name: getStatus
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = arguments[1];
-            options = undefined;
-            if(!(tango === options)) { _fun00002_ip = 14; continue _fun00001 }
+            zuuluu = argFoo;
+            tangon = arguments[1];
+            option = undefined;
+            if(!(tangon === option)) { _fun00002_ip = 14; continue _fun00001 }
  12:
-            tango = false;
+            tangon = false;
  14:
-            mike = _closure1_slot2;
-            mike = mike.CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 846; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.CONNECTING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 846; continue _fun00001 }
  34:
-            mike = _closure1_slot2;
-            mike = mike.AUTHENTICATING;
-            if(!(mike !== zulu)) { _fun00002_ip = 777; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.AUTHENTICATING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 777; continue _fun00001 }
  51:
-            mike = _closure1_slot2;
-            mike = mike.AWAITING_ENDPOINT;
-            if(!(mike !== zulu)) { _fun00002_ip = 705; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.AWAITING_ENDPOINT;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 705; continue _fun00001 }
  68:
-            mike = _closure1_slot2;
-            mike = mike.RTC_CONNECTED;
-            if(!(mike !== zulu)) { _fun00002_ip = 609; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.RTC_CONNECTED;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 609; continue _fun00001 }
  85:
-            mike = _closure1_slot2;
-            mike = mike.RTC_CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 537; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.RTC_CONNECTING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 537; continue _fun00001 }
  102:
-            mike = _closure1_slot2;
-            mike = mike.ICE_CHECKING;
-            if(!(mike !== zulu)) { _fun00002_ip = 465; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.ICE_CHECKING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 465; continue _fun00001 }
  119:
-            mike = _closure1_slot2;
-            mike = mike.DTLS_CONNECTING;
-            if(!(mike !== zulu)) { _fun00002_ip = 393; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.DTLS_CONNECTING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 393; continue _fun00001 }
  136:
-            mike = _closure1_slot2;
-            mike = mike.NO_ROUTE;
-            if(!(mike !== zulu)) { _fun00002_ip = 321; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.NO_ROUTE;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 321; continue _fun00001 }
  153:
-            mike = _closure1_slot2;
-            mike = mike.RTC_DISCONNECTED;
-            if(!(mike !== zulu)) { _fun00002_ip = 249; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.RTC_DISCONNECTED;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 249; continue _fun00001 }
  167:
-            mike = _closure1_slot2;
-            mike = mike.DISCONNECTED;
-            mike = _closure1_slot3;
-            zulu = mike.ERROR;
-            golf = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal.DISCONNECTED;
+            michal = _closure1_slot3;
+            zuuluu = michal.ERROR;
+            golfie = _closure1_slot0;
             verify = _closure1_slot1;
-            mike = 1;
-            report = verify[mike];
-            report = golf.bind(options)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            mike = verify[mike];
-            mike = golf.bind(options)(mike);
-            mike = mike.t;
-            mike = mike.NLKQb2;
-            mike = report.bind(oscar)(mike);
+            michal = 1;
+            report = verify[michal];
+            report = golfie.bind(option)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            michal = verify[michal];
+            michal = golfie.bind(option)(michal);
+            michal = michal.t;
+            michal = michal.NLKQb2;
+            michal = report.bind(oscard)(michal);
             _fun00002_ip = 913; continue _fun00001;
  249:
             report = _closure1_slot3;
-            zulu = report.ERROR;
+            zuuluu = report.ERROR;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 1;
-            golf = yankee[report];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
+            golfie = yankee[report];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
             report = yankee[report];
-            report = offset.bind(options)(report);
+            report = offset.bind(option)(report);
             report = report.t;
             report = report.M7LDmJ;
-            mike = golf.bind(verify)(report);
+            michal = golfie.bind(verify)(report);
             _fun00002_ip = 913; continue _fun00001;
  321:
             report = _closure1_slot3;
-            zulu = report.ERROR;
+            zuuluu = report.ERROR;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 1;
-            golf = yankee[report];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
+            golfie = yankee[report];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
             report = yankee[report];
-            report = offset.bind(options)(report);
+            report = offset.bind(option)(report);
             report = report.t;
             report = report.mGhOIi;
-            mike = golf.bind(verify)(report);
+            michal = golfie.bind(verify)(report);
             _fun00002_ip = 913; continue _fun00001;
  393:
             report = _closure1_slot3;
-            zulu = report.CONNECTING;
+            zuuluu = report.CONNECTING;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 1;
-            golf = yankee[report];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
+            golfie = yankee[report];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
             report = yankee[report];
-            report = offset.bind(options)(report);
+            report = offset.bind(option)(report);
             report = report.t;
             report = report.UvB3gY;
-            mike = golf.bind(verify)(report);
+            michal = golfie.bind(verify)(report);
             _fun00002_ip = 913; continue _fun00001;
  465:
             report = _closure1_slot3;
-            zulu = report.CONNECTING;
+            zuuluu = report.CONNECTING;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 1;
-            golf = yankee[report];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
+            golfie = yankee[report];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
             report = yankee[report];
-            report = offset.bind(options)(report);
+            report = offset.bind(option)(report);
             report = report.t;
             report = report.rdCyAw;
-            mike = golf.bind(verify)(report);
+            michal = golfie.bind(verify)(report);
             _fun00002_ip = 913; continue _fun00001;
  537:
             report = _closure1_slot3;
-            zulu = report.CONNECTING;
+            zuuluu = report.CONNECTING;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             report = 1;
-            golf = yankee[report];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
+            golfie = yankee[report];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
             report = yankee[report];
-            report = offset.bind(options)(report);
+            report = offset.bind(option)(report);
             report = report.t;
             report = report.Gp51dn;
-            mike = golf.bind(verify)(report);
+            michal = golfie.bind(verify)(report);
             _fun00002_ip = 913; continue _fun00001;
  609:
             report = _closure1_slot3;
             report = report.CONNECTED;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
-            oscar = 1;
-            golf = yankee[oscar];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
-            oscar = yankee[oscar];
-            oscar = offset.bind(options)(oscar);
-            oscar = oscar.t;
-            if(tango) { _fun00002_ip = 681; continue _fun00001 }
+            oscard = 1;
+            golfie = yankee[oscard];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
+            oscard = yankee[oscard];
+            oscard = offset.bind(option)(oscard);
+            oscard = oscard.t;
+            if(tangon) { _fun00002_ip = 681; continue _fun00001 }
  666:
-            tango = oscar.daXg4+;
-            tango = golf.bind(verify)(tango);
+            tangon = oscard.daXg4+;
+            tangon = golfie.bind(verify)(tangon);
             _fun00002_ip = 694; continue _fun00001;
  681:
-            oscar = oscar.HtVOdX;
-            tango = golf.bind(verify)(oscar);
+            oscard = oscard.HtVOdX;
+            tangon = golfie.bind(verify)(oscard);
  694:
-            mike = tango;
-            zulu = report;
+            michal = tangon;
+            zuuluu = report;
             _fun00002_ip = 913; continue _fun00001;
  705:
-            tango = _closure1_slot3;
-            zulu = tango.CONNECTING;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.CONNECTING;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            tango = 1;
-            oscar = offset[tango];
-            oscar = verify.bind(options)(oscar);
-            golf = oscar.intl;
-            oscar = golf.string;
-            tango = offset[tango];
-            tango = verify.bind(options)(tango);
-            tango = tango.t;
-            tango = tango.xEbu0d;
-            mike = oscar.bind(golf)(tango);
+            tangon = 1;
+            oscard = offset[tangon];
+            oscard = verify.bind(option)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.string;
+            tangon = offset[tangon];
+            tangon = verify.bind(option)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.xEbu0d;
+            michal = oscard.bind(golfie)(tangon);
             _fun00002_ip = 913; continue _fun00001;
  777:
-            tango = _closure1_slot3;
-            zulu = tango.CONNECTING;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.CONNECTING;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            tango = 1;
-            oscar = offset[tango];
-            oscar = verify.bind(options)(oscar);
-            golf = oscar.intl;
-            oscar = golf.string;
-            tango = offset[tango];
-            tango = verify.bind(options)(tango);
-            tango = tango.t;
-            tango = tango.GxXwEx;
-            mike = oscar.bind(golf)(tango);
+            tangon = 1;
+            oscard = offset[tangon];
+            oscard = verify.bind(option)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.string;
+            tangon = offset[tangon];
+            tangon = verify.bind(option)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.GxXwEx;
+            michal = oscard.bind(golfie)(tangon);
             _fun00002_ip = 913; continue _fun00001;
  846:
-            tango = _closure1_slot3;
-            zulu = tango.CONNECTING;
-            golf = _closure1_slot0;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.CONNECTING;
+            golfie = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 1;
             report = verify[entity];
-            report = golf.bind(options)(report);
-            oscar = report.intl;
-            report = oscar.string;
+            report = golfie.bind(option)(report);
+            oscard = report.intl;
+            report = oscard.string;
             entity = verify[entity];
-            entity = golf.bind(options)(entity);
+            entity = golfie.bind(option)(entity);
             entity = entity.t;
             entity = entity.MzW9sL;
-            mike = report.bind(oscar)(entity);
+            michal = report.bind(oscard)(entity);
  913:
             entity = {};
-            entity['connectionStatus'] = zulu;
-            entity['connectionStatusText'] = mike;
+            entity['connectionStatus'] = zuuluu;
+            entity['connectionStatusText'] = michal;
             return entity;
         }
     };
-    mike['getStatus'] = golf;
-    tango = function(argFoo) { // Original name: getShortHostname
+    michal['getStatus'] = golfie;
+    tangon = function(argFoo) { // Original name: getShortHostname
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            mike = entity == tango;
+            michal = entity == tangon;
             entity = '';
-            if(mike) { _fun00004_ip = 36; continue _fun00003 }
+            if(michal) { _fun00004_ip = 36; continue _fun00003 }
  16:
-            zulu = tango.split;
-            mike = '.';
-            zulu = zulu.bind(tango)(mike);
-            mike = 0;
-            entity = zulu[mike];
+            zuuluu = tangon.split;
+            michal = '.';
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = 0;
+            entity = zuuluu[michal];
  36:
             return entity;
         }
     };
-    mike['getShortHostname'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/RTCConnectionUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['getShortHostname'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/RTCConnectionUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

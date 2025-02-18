@@ -1,127 +1,127 @@
 // app/modules/captcha/tooling/CaptchaTestUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    options = global;
-    verify = options.Object;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    option = global;
+    verify = option.Object;
     report = verify.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(verify)(zulu, entity, tango);
-    offset = options.Object;
+    entity = report.bind(verify)(zuuluu, entity, tangon);
+    offset = option.Object;
     verify = offset.entries;
     report = 0;
-    tango = golf[report];
+    tangon = golfie[report];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.HCaptchaDifficulty;
-    offset = verify.bind(offset)(tango);
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.HCaptchaDifficulty;
+    offset = verify.bind(offset)(tangon);
     verify = offset.map;
-    tango = function(argFoo) {
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = report[Symbol.iterator];
             report = entity().next;
-            mike = report().value;
-            zulu = entity;
-            golf = undefined;
-            tango = zulu === golf;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 27; continue _fun00001 }
+            michal = report().value;
+            zuuluu = entity;
+            golfie = undefined;
+            tangon = zuuluu === golfie;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 27; continue _fun00001 }
  24:
-            zulu = mike;
+            zuuluu = michal;
  27:
-            mike = undefined;
-            if(tango) { _fun00002_ip = 57; continue _fun00001 }
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 57; continue _fun00001 }
  32:
-            oscar = report().value;
+            oscard = report().value;
             report = entity;
-            report = report === golf;
-            mike = undefined;
-            tango = report;
+            report = report === golfie;
+            michal = undefined;
+            tangon = report;
             if(report) { _fun00002_ip = 57; continue _fun00001 }
  51:
-            mike = oscar;
-            tango = report;
+            michal = oscard;
+            tangon = report;
  57:
-            if(tango) { _fun00002_ip = 63; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 63; continue _fun00001 }
  60:
             entity.return();
  63:
             entity = {};
-            entity['label'] = zulu;
-            entity['value'] = mike;
+            entity['label'] = zuuluu;
+            entity['value'] = michal;
             return entity;
         }
     };
-    offset = verify.bind(offset)(tango);
+    offset = verify.bind(offset)(tangon);
     verify = offset.filter;
-    tango = function(argFoo) { // Original name: isHCaptchaDifficulty
+    tangon = function(argFoo) { // Original name: isHCaptchaDifficulty
         entity = argFoo;
         entity = entity.value;
-        mike = 'string';
+        michal = 'string';
         entity = typeof entity;
-        entity = mike !== entity;
+        entity = michal !== entity;
         return entity;
     };
-    tango = verify.bind(offset)(tango);
-    verify = options.Object;
-    options = verify.entries;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    tangon = verify.bind(offset)(tangon);
+    verify = option.Object;
+    option = verify.entries;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.CaptchaDeciderType;
-    options = options.bind(verify)(report);
-    report = options.map;
-    mike = function(argFoo) {
+    option = option.bind(verify)(report);
+    report = option.map;
+    michal = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = report[Symbol.iterator];
             report = entity().next;
-            mike = report().value;
-            zulu = entity;
-            golf = undefined;
-            tango = zulu === golf;
-            zulu = undefined;
-            if(tango) { _fun00004_ip = 27; continue _fun00003 }
+            michal = report().value;
+            zuuluu = entity;
+            golfie = undefined;
+            tangon = zuuluu === golfie;
+            zuuluu = undefined;
+            if(tangon) { _fun00004_ip = 27; continue _fun00003 }
  24:
-            zulu = mike;
+            zuuluu = michal;
  27:
-            mike = undefined;
-            if(tango) { _fun00004_ip = 57; continue _fun00003 }
+            michal = undefined;
+            if(tangon) { _fun00004_ip = 57; continue _fun00003 }
  32:
-            oscar = report().value;
+            oscard = report().value;
             report = entity;
-            report = report === golf;
-            mike = undefined;
-            tango = report;
+            report = report === golfie;
+            michal = undefined;
+            tangon = report;
             if(report) { _fun00004_ip = 57; continue _fun00003 }
  51:
-            mike = oscar;
-            tango = report;
+            michal = oscard;
+            tangon = report;
  57:
-            if(tango) { _fun00004_ip = 63; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 63; continue _fun00003 }
  60:
             entity.return();
  63:
             entity = {};
-            entity['label'] = zulu;
-            entity['value'] = mike;
+            entity['label'] = zuuluu;
+            entity['value'] = michal;
             return entity;
         }
     };
-    mike = report.bind(options)(mike);
+    michal = report.bind(option)(michal);
     report = 1;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/captcha/tooling/CaptchaTestUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['HCAPTCHA_DIFFICULTY_OPTIONS'] = tango;
-    zulu['CAPTCHA_DECIDER_TYPE_OPTIONS'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['HCAPTCHA_DIFFICULTY_OPTIONS'] = tangon;
+    zuuluu['CAPTCHA_DECIDER_TYPE_OPTIONS'] = michal;
     return entity;
 })();

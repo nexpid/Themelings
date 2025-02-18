@@ -1,146 +1,146 @@
 // app/modules/action_sheet/native/ActionSheetHooks.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/action_sheet/native/ActionSheetHooks.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useKeyboardActionSheetHeight
-        tango = _closure1_slot1;
-        oscar = _closure1_slot2;
-        zulu = 1;
-        zulu = oscar[zulu];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/action_sheet/native/ActionSheetHooks.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useKeyboardActionSheetHeight
+        tangon = _closure1_slot1;
+        oscard = _closure1_slot2;
+        zuuluu = 1;
+        zuuluu = oscard[zuuluu];
         report = undefined;
-        zulu = tango.bind(report)(zulu);
-        zulu = zulu.bind(report)();
-        golf = zulu.top;
-        var _closure2_slot0 = golf;
-        golf = zulu.bottom;
-        var _closure2_slot1 = golf;
-        golf = zulu.imeInsetsBottom;
-        zulu = 2;
-        zulu = oscar[zulu];
-        zulu = tango.bind(report)(zulu);
-        zulu = zulu.bind(report)();
-        zulu = zulu.height;
-        zulu = zulu + golf;
-        var _closure2_slot2 = zulu;
-        zulu = 3;
-        zulu = oscar[zulu];
-        zulu = tango.bind(report)(zulu);
-        zulu = zulu.bind(report)();
-        zulu = zulu.height;
-        var _closure2_slot3 = zulu;
-        tango = _closure1_slot0;
-        zulu = 4;
-        zulu = oscar[zulu];
-        tango = tango.bind(report)(zulu);
-        zulu = tango.useStateFromStoresObject;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = zuuluu.bind(report)();
+        golfie = zuuluu.top;
+        var _closure2_slot0 = golfie;
+        golfie = zuuluu.bottom;
+        var _closure2_slot1 = golfie;
+        golfie = zuuluu.imeInsetsBottom;
+        zuuluu = 2;
+        zuuluu = oscard[zuuluu];
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = zuuluu.bind(report)();
+        zuuluu = zuuluu.height;
+        zuuluu = zuuluu + golfie;
+        var _closure2_slot2 = zuuluu;
+        zuuluu = 3;
+        zuuluu = oscard[zuuluu];
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = zuuluu.bind(report)();
+        zuuluu = zuuluu.height;
+        var _closure2_slot3 = zuuluu;
+        tangon = _closure1_slot0;
+        zuuluu = 4;
+        zuuluu = oscard[zuuluu];
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot2;
+                zuuluu = _closure2_slot2;
                 report = _closure1_slot0;
-                oscar = _closure1_slot2;
-                mike = 5;
-                mike = oscar[mike];
-                oscar = undefined;
-                mike = report.bind(oscar)(mike);
-                mike = mike.NAV_BAR_HEIGHT_MULTILINE;
-                zulu = zulu - mike;
-                mike = _closure2_slot0;
-                mike = zulu - mike;
-                zulu = _closure1_slot3;
-                output = zulu.systemKeyboardHeight;
+                oscard = _closure1_slot2;
+                michal = 5;
+                michal = oscard[michal];
+                oscard = undefined;
+                michal = report.bind(oscard)(michal);
+                michal = michal.NAV_BAR_HEIGHT_MULTILINE;
+                zuuluu = zuuluu - michal;
+                michal = _closure2_slot0;
+                michal = zuuluu - michal;
+                zuuluu = _closure1_slot3;
+                output = zuuluu.systemKeyboardHeight;
                 report = 0;
                 if(!(report === output)) { _fun00002_ip = 96; continue _fun00001 }
  66:
-                golf = _closure1_slot0;
-                options = _closure1_slot2;
-                zulu = 6;
-                zulu = options[zulu];
-                golf = golf.bind(oscar)(zulu);
-                zulu = golf.getEstimatedKeyboardHeight;
-                output = zulu.bind(golf)();
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 6;
+                zuuluu = option[zuuluu];
+                golfie = golfie.bind(oscard)(zuuluu);
+                zuuluu = golfie.getEstimatedKeyboardHeight;
+                output = zuuluu.bind(golfie)();
  96:
-                golf = _closure1_slot0;
-                options = _closure1_slot2;
-                zulu = 7;
-                zulu = options[zulu];
-                golf = golf.bind(oscar)(zulu);
-                zulu = golf.isAndroid;
-                golf = zulu.bind(golf)();
-                zulu = 0;
-                if(!golf) { _fun00002_ip = 134; continue _fun00001 }
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 7;
+                zuuluu = option[zuuluu];
+                golfie = golfie.bind(oscard)(zuuluu);
+                zuuluu = golfie.isAndroid;
+                golfie = zuuluu.bind(golfie)();
+                zuuluu = 0;
+                if(!golfie) { _fun00002_ip = 134; continue _fun00001 }
  130:
-                zulu = _closure2_slot1;
+                zuuluu = _closure2_slot1;
  134:
-                zulu = output + zulu;
-                if(!(zulu >= mike)) { _fun00002_ip = 145; continue _fun00001 }
+                zuuluu = output + zuuluu;
+                if(!(zuuluu >= michal)) { _fun00002_ip = 145; continue _fun00001 }
  142:
-                mike = zulu;
+                michal = zuuluu;
  145:
-                if(!(zulu <= report)) { _fun00002_ip = 264; continue _fun00001 }
+                if(!(zuuluu <= report)) { _fun00002_ip = 264; continue _fun00001 }
  149:
                 report = _closure1_slot1;
-                golf = _closure1_slot2;
-                tango = 8;
-                tango = golf[tango];
-                report = report.bind(oscar)(tango);
-                tango = report.captureMessage;
-                sequence = _closure2_slot2;
-                control = _closure2_slot3;
+                golfie = _closure1_slot2;
+                tangon = 8;
+                tangon = golfie[tangon];
+                report = report.bind(oscard)(tangon);
+                tangon = report.captureMessage;
+                sequen = _closure2_slot2;
+                ctrled = _closure2_slot3;
                 update = _closure2_slot0;
                 result = _closure2_slot1;
                 entity = global;
                 entity = entity.HermesInternal;
-                romeo = entity.concat;
+                romeon = entity.concat;
                 sierra = "Invalid keyboard height: minimum: '";
                 target = "', maximum: ";
-                context = ', systemKeyboardHeight: ';
+                cntext = ', systemKeyboardHeight: ';
                 config = ' windowHeight: ';
                 vacuum = ' screenHeight: ';
                 source = ' safeAreaTop: ';
-                echo = ' safeAreaBottom: ';
-                status = zulu;
-                papa = mike;
+                echoed = ' safeAreaBottom: ';
+                status = zuuluu;
+                papara = michal;
                 record = output;
-                entity = sierra[romeo](status, target, papa, context, record, config, sequence, vacuum, control, source, update, echo, result, output);
-                entity = tango.bind(report)(entity);
+                entity = sierra[romeon](status, target, papara, cntext, record, config, sequen, vacuum, ctrled, source, update, echoed, result, output);
+                entity = tangon.bind(report)(entity);
  264:
                 entity = {};
-                entity['minimum'] = zulu;
-                entity['maximum'] = mike;
+                entity['minimum'] = zuuluu;
+                entity['maximum'] = michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useKeyboardActionSheetHeight'] = mike;
+    zuuluu['useKeyboardActionSheetHeight'] = michal;
     return entity;
 })();

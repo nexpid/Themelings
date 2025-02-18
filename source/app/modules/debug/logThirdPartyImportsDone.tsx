@@ -1,26 +1,26 @@
 // app/modules/debug/logThirdPartyImportsDone.tsx
-export default (function(_, argBar, argBaz, __, ___, ____, argPlugh) {
-    zulu = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, ____, argPlu) {
+    zuuluu = argPlu;
     entity = 0;
-    tango = zulu[entity];
-    mike = argBaz;
+    tangon = zuuluu[entity];
+    michal = argBaz;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    mike = report.prototype;
-    tango = Object.create(mike, {constructor: {value: report}});
-    oscar = 'app';
-    golf = tango;
-    mike = new golf[report](oscar, report);
-    report = mike instanceof Object ? mike : tango;
-    tango = report.log;
-    mike = 'Finished loading third party imports';
-    mike = tango.bind(report)(mike);
-    mike = 1;
-    zulu = zulu[mike];
-    mike = argBar;
-    tango = mike.bind(entity)(zulu);
-    zulu = tango.fileFinishedImporting;
-    mike = 'modules/debug/logThirdPartyImportsDone.tsx';
-    mike = zulu.bind(tango)(mike);
+    report = michal.bind(entity)(tangon);
+    michal = report.prototype;
+    tangon = Object.create(michal, {constructor: {value: report}});
+    oscard = 'app';
+    golfie = tangon;
+    michal = new golfie[report](oscard, report);
+    report = michal instanceof Object ? michal : tangon;
+    tangon = report.log;
+    michal = 'Finished loading third party imports';
+    michal = tangon.bind(report)(michal);
+    michal = 1;
+    zuuluu = zuuluu[michal];
+    michal = argBar;
+    tangon = michal.bind(entity)(zuuluu);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'modules/debug/logThirdPartyImportsDone.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

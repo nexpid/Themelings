@@ -1,202 +1,202 @@
 // app/uikit-native/status/getStatusContainerStyle.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     yankee = function(argFoo, argBar) { // Original name: createContainerStyle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argBar;
+            tangon = argBar;
             entity = {};
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = 2;
-            oscar = report * zulu;
-            zulu = argFoo;
-            golf = zulu + oscar;
-            entity['width'] = golf;
-            oscar = 0;
-            if(!tango) { _fun00002_ip = 49; continue _fun00001 }
+            oscard = report * zuuluu;
+            zuuluu = argFoo;
+            golfie = zuuluu + oscard;
+            entity['width'] = golfie;
+            oscard = 0;
+            if(!tangon) { _fun00002_ip = 49; continue _fun00001 }
  35:
-            options = 2.5;
-            oscar = golf / options;
+            option = 2.5;
+            oscard = golfie / option;
  49:
-            oscar = golf + oscar;
-            entity['height'] = oscar;
-            if(tango) { _fun00002_ip = 66; continue _fun00001 }
+            oscard = golfie + oscard;
+            entity['height'] = oscard;
+            if(tangon) { _fun00002_ip = 66; continue _fun00001 }
  60:
-            report = golf / report;
+            report = golfie / report;
             _fun00002_ip = 73; continue _fun00001;
  66:
-            oscar = 4;
-            report = golf / oscar;
+            oscard = 4;
+            report = golfie / oscard;
  73:
             entity['borderRadius'] = report;
             report = _closure1_slot0;
             entity['paddingLeft'] = report;
             report = _closure1_slot0;
             entity['paddingRight'] = report;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = 0;
-            if(!tango) { _fun00002_ip = 107; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
  104:
             report = 1;
  107:
-            report = oscar + report;
+            report = oscard + report;
             entity['paddingTop'] = report;
-            mike = _closure1_slot0;
-            zulu = 0;
-            if(!tango) { _fun00002_ip = 128; continue _fun00001 }
+            michal = _closure1_slot0;
+            zuuluu = 0;
+            if(!tangon) { _fun00002_ip = 128; continue _fun00001 }
  125:
-            zulu = 1;
+            zuuluu = 1;
  128:
-            mike = mike + zulu;
-            entity['paddingBottom'] = mike;
+            michal = michal + zuuluu;
+            entity['paddingBottom'] = michal;
             return entity;
         }
     };
     var _closure1_slot3 = yankee;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     offset = true;
-    tango['value'] = offset;
+    tangon['value'] = offset;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    options = tango.StyleSheet;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.STATUS_PADDING;
-    var _closure1_slot0 = golf;
-    verify = tango.StatusSizes;
+    tangon = report.bind(entity)(tangon);
+    option = tangon.StyleSheet;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.STATUS_PADDING;
+    var _closure1_slot0 = golfie;
+    verify = tangon.StatusSizes;
     var _closure1_slot1 = verify;
-    golf = options.create;
-    tango = {};
-    romeo = verify.SMALL;
-    foxtrot = false;
-    romeo = yankee.bind(entity)(romeo, foxtrot);
-    tango['containerSmall'] = romeo;
-    romeo = verify.REFRESH_MEDIUM_10;
-    romeo = yankee.bind(entity)(romeo, foxtrot);
-    tango['containerRefreshMedium'] = romeo;
-    romeo = verify.MEDIUM;
-    romeo = yankee.bind(entity)(romeo, foxtrot);
-    tango['containerMedium'] = romeo;
-    romeo = verify.LARGE;
-    romeo = yankee.bind(entity)(romeo, foxtrot);
-    tango['containerLarge'] = romeo;
-    romeo = verify.LARGE;
-    romeo = yankee.bind(entity)(romeo, foxtrot);
-    tango['containerXLarge'] = romeo;
-    romeo = verify.SMALL;
-    romeo = yankee.bind(entity)(romeo, offset);
-    tango['containerMobileOnlineSmall'] = romeo;
-    romeo = verify.REFRESH_MEDIUM_10;
-    romeo = yankee.bind(entity)(romeo, offset);
-    tango['containerMobileOnlineRefreshMedium'] = romeo;
-    romeo = verify.MEDIUM;
-    romeo = yankee.bind(entity)(romeo, offset);
-    tango['containerMobileOnlineMedium'] = romeo;
-    romeo = verify.LARGE;
-    romeo = yankee.bind(entity)(romeo, offset);
-    tango['containerMobileOnlineLarge'] = romeo;
+    golfie = option.create;
+    tangon = {};
+    romeon = verify.SMALL;
+    foxtra = false;
+    romeon = yankee.bind(entity)(romeon, foxtra);
+    tangon['containerSmall'] = romeon;
+    romeon = verify.REFRESH_MEDIUM_10;
+    romeon = yankee.bind(entity)(romeon, foxtra);
+    tangon['containerRefreshMedium'] = romeon;
+    romeon = verify.MEDIUM;
+    romeon = yankee.bind(entity)(romeon, foxtra);
+    tangon['containerMedium'] = romeon;
+    romeon = verify.LARGE;
+    romeon = yankee.bind(entity)(romeon, foxtra);
+    tangon['containerLarge'] = romeon;
+    romeon = verify.LARGE;
+    romeon = yankee.bind(entity)(romeon, foxtra);
+    tangon['containerXLarge'] = romeon;
+    romeon = verify.SMALL;
+    romeon = yankee.bind(entity)(romeon, offset);
+    tangon['containerMobileOnlineSmall'] = romeon;
+    romeon = verify.REFRESH_MEDIUM_10;
+    romeon = yankee.bind(entity)(romeon, offset);
+    tangon['containerMobileOnlineRefreshMedium'] = romeon;
+    romeon = verify.MEDIUM;
+    romeon = yankee.bind(entity)(romeon, offset);
+    tangon['containerMobileOnlineMedium'] = romeon;
+    romeon = verify.LARGE;
+    romeon = yankee.bind(entity)(romeon, offset);
+    tangon['containerMobileOnlineLarge'] = romeon;
     verify = verify.LARGE;
     verify = yankee.bind(entity)(verify, offset);
-    tango['containerMobileOnlineXLarge'] = verify;
-    tango = golf.bind(options)(tango);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/status/getStatusContainerStyle.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getStatusContainerStyle
+    tangon['containerMobileOnlineXLarge'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/status/getStatusContainerStyle.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getStatusContainerStyle
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = argBar;
-            zulu = _closure1_slot1;
-            zulu = zulu.SMALL;
-            if(!(zulu !== report)) { _fun00004_ip = 191; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.SMALL;
+            if(!(zuuluu !== report)) { _fun00004_ip = 191; continue _fun00003 }
  26:
-            zulu = _closure1_slot1;
-            zulu = zulu.REFRESH_MEDIUM_10;
-            if(!(zulu !== report)) { _fun00004_ip = 168; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.REFRESH_MEDIUM_10;
+            if(!(zuuluu !== report)) { _fun00004_ip = 168; continue _fun00003 }
  43:
-            zulu = _closure1_slot1;
-            zulu = zulu.MEDIUM;
-            if(!(zulu !== report)) { _fun00004_ip = 145; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.MEDIUM;
+            if(!(zuuluu !== report)) { _fun00004_ip = 145; continue _fun00003 }
  57:
-            zulu = _closure1_slot1;
-            zulu = zulu.LARGE;
-            if(!(zulu !== report)) { _fun00004_ip = 122; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.LARGE;
+            if(!(zuuluu !== report)) { _fun00004_ip = 122; continue _fun00003 }
  71:
-            zulu = _closure1_slot1;
-            zulu = zulu.XLARGE;
-            if(!(zulu !== report)) { _fun00004_ip = 99; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.XLARGE;
+            if(!(zuuluu !== report)) { _fun00004_ip = 99; continue _fun00003 }
  85:
-            tango = _closure1_slot3;
-            zulu = undefined;
-            zulu = tango.bind(zulu)(report, entity);
-            return zulu;
+            tangon = _closure1_slot3;
+            zuuluu = undefined;
+            zuuluu = tangon.bind(zuuluu)(report, entity);
+            return zuuluu;
  99:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             if(entity) { _fun00004_ip = 114; continue _fun00003 }
  106:
-            zulu = tango.containerXLarge;
+            zuuluu = tangon.containerXLarge;
             _fun00004_ip = 120; continue _fun00003;
  114:
-            zulu = tango.containerMobileOnlineXLarge;
+            zuuluu = tangon.containerMobileOnlineXLarge;
  120:
-            return zulu;
+            return zuuluu;
  122:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             if(entity) { _fun00004_ip = 137; continue _fun00003 }
  129:
-            zulu = tango.containerLarge;
+            zuuluu = tangon.containerLarge;
             _fun00004_ip = 143; continue _fun00003;
  137:
-            zulu = tango.containerMobileOnlineLarge;
+            zuuluu = tangon.containerMobileOnlineLarge;
  143:
-            return zulu;
+            return zuuluu;
  145:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             if(entity) { _fun00004_ip = 160; continue _fun00003 }
  152:
-            zulu = tango.containerMedium;
+            zuuluu = tangon.containerMedium;
             _fun00004_ip = 166; continue _fun00003;
  160:
-            zulu = tango.containerMobileOnlineMedium;
+            zuuluu = tangon.containerMobileOnlineMedium;
  166:
-            return zulu;
+            return zuuluu;
  168:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             if(entity) { _fun00004_ip = 183; continue _fun00003 }
  175:
-            zulu = tango.containerRefreshMedium;
+            zuuluu = tangon.containerRefreshMedium;
             _fun00004_ip = 189; continue _fun00003;
  183:
-            zulu = tango.containerMobileOnlineRefreshMedium;
+            zuuluu = tangon.containerMobileOnlineRefreshMedium;
  189:
-            return zulu;
+            return zuuluu;
  191:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             if(entity) { _fun00004_ip = 206; continue _fun00003 }
  198:
-            entity = mike.containerSmall;
+            entity = michal.containerSmall;
             _fun00004_ip = 212; continue _fun00003;
  206:
-            entity = mike.containerMobileOnlineSmall;
+            entity = michal.containerMobileOnlineSmall;
  212:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

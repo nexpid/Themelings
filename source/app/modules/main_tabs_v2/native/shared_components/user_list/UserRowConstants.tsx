@@ -1,30 +1,30 @@
 // app/modules/main_tabs_v2/native/shared_components/user_list/UserRowConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'none';
-    mike['NONE'] = entity;
+    michal['NONE'] = entity;
     entity = 'toggle';
-    mike['TOGGLE'] = entity;
+    michal['TOGGLE'] = entity;
     entity = 'actions';
-    mike['ACTIONS'] = entity;
-    tango = argPlugh;
+    michal['ACTIONS'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/shared_components/user_list/UserRowConstants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['UserRowModes'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/shared_components/user_list/UserRowConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['UserRowModes'] = michal;
     return entity;
 })();

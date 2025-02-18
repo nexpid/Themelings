@@ -1,173 +1,173 @@
 // app/modules/user_settings/DefaultDMSettingsExperiement.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = 0;
-    report = options[tango];
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = 0;
+    report = option[tangon];
     entity = undefined;
-    offset = golf.bind(entity)(report);
+    offset = golfie.bind(entity)(report);
     verify = offset.createExperiment;
     report = {'kind': 'user', 'id': '2025-02_dm_defaults_new_users', 'label': 'Default DM Settings - New Users'};
-    oscar = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
-    report['defaultConfig'] = oscar;
-    romeo = {'id': 1, 'label': 'DM Off by Default'};
-    oscar = 1;
+    oscard = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
+    report['defaultConfig'] = oscard;
+    romeon = {'id': 1, 'label': 'DM Off by Default'};
+    oscard = 1;
     yankee = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
-    romeo['config'] = yankee;
+    romeon['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = romeo;
-    romeo = {'id': 2, 'label': 'Message Reqeust On by Default'};
-    foxtrot = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
-    romeo['config'] = foxtrot;
-    yankee[1] = romeo;
+    yankee[0] = romeon;
+    romeon = {'id': 2, 'label': 'Message Reqeust On by Default'};
+    foxtra = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
+    romeon['config'] = foxtra;
+    yankee[1] = romeon;
     report['treatments'] = yankee;
     report = verify.bind(offset)(report);
     var _closure1_slot0 = report;
-    tango = options[tango];
-    offset = golf.bind(entity)(tango);
+    tangon = option[tangon];
+    offset = golfie.bind(entity)(tangon);
     verify = offset.createExperiment;
-    tango = {'kind': 'user', 'id': '2025-02_dm_defaults', 'label': 'Default DM Settings'};
+    tangon = {'kind': 'user', 'id': '2025-02_dm_defaults', 'label': 'Default DM Settings'};
     yankee = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
-    tango['defaultConfig'] = yankee;
-    romeo = {'id': 1, 'label': 'DM Off by Default'};
+    tangon['defaultConfig'] = yankee;
+    romeon = {'id': 1, 'label': 'DM Off by Default'};
     yankee = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
-    romeo['config'] = yankee;
+    romeon['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = romeo;
-    romeo = {'id': 2, 'label': 'Message Reqeust On by Default'};
-    foxtrot = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
-    romeo['config'] = foxtrot;
-    yankee[1] = romeo;
-    tango['treatments'] = yankee;
-    tango = verify.bind(offset)(tango);
-    var _closure1_slot1 = tango;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/user_settings/DefaultDMSettingsExperiement.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['DMDefaultsNewUsers'] = report;
-    zulu['DMDefaults'] = tango;
-    tango = function(argFoo) {
+    yankee[0] = romeon;
+    romeon = {'id': 2, 'label': 'Message Reqeust On by Default'};
+    foxtra = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
+    romeon['config'] = foxtra;
+    yankee[1] = romeon;
+    tangon['treatments'] = yankee;
+    tangon = verify.bind(offset)(tangon);
+    var _closure1_slot1 = tangon;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/user_settings/DefaultDMSettingsExperiement.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['DMDefaultsNewUsers'] = report;
+    zuuluu['DMDefaults'] = tangon;
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot1;
-            report = golf.useExperiment;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot1;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             report = _closure1_slot0;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             entity = entity.dmOffByDefault;
             if(entity) { _fun00002_ip = 81; continue _fun00001 }
  75:
-            entity = mike.dmOffByDefault;
+            entity = michal.dmOffByDefault;
  81:
             return entity;
         }
     };
-    zulu['useIsEligibleForDMDefaultOff'] = tango;
-    tango = function(argFoo) {
+    zuuluu['useIsEligibleForDMDefaultOff'] = tangon;
+    tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot1;
-            report = golf.getCurrentConfig;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot1;
+            report = golfie.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             report = _closure1_slot0;
-            tango = report.getCurrentConfig;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            tangon = report.getCurrentConfig;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             entity = entity.dmOffByDefault;
             if(entity) { _fun00004_ip = 81; continue _fun00003 }
  75:
-            entity = mike.dmOffByDefault;
+            entity = michal.dmOffByDefault;
  81:
             return entity;
         }
     };
-    zulu['isEligibleForDMDefaultOff'] = tango;
-    tango = function(argFoo) {
+    zuuluu['isEligibleForDMDefaultOff'] = tangon;
+    tangon = function(argFoo) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot1;
-            report = golf.useExperiment;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot1;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             report = _closure1_slot0;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             entity = entity.messageRequestOnByDefault;
             if(entity) { _fun00006_ip = 81; continue _fun00005 }
  75:
-            entity = mike.messageRequestOnByDefault;
+            entity = michal.messageRequestOnByDefault;
  81:
             return entity;
         }
     };
-    zulu['useIsEligibleForMessageRequestOnByDefault'] = tango;
-    mike = function(argFoo) {
+    zuuluu['useIsEligibleForMessageRequestOnByDefault'] = tangon;
+    michal = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
-            golf = _closure1_slot1;
-            report = golf.getCurrentConfig;
-            tango = {};
-            tango['location'] = mike;
+            michal = argFoo;
+            golfie = _closure1_slot1;
+            report = golfie.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
-            oscar = false;
-            entity['autoTrackExposure'] = oscar;
-            entity = report.bind(golf)(tango, entity);
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = report.bind(golfie)(tangon, entity);
             report = _closure1_slot0;
-            tango = report.getCurrentConfig;
-            zulu = {};
-            zulu['location'] = mike;
-            mike = {};
-            mike['autoTrackExposure'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            tangon = report.getCurrentConfig;
+            zuuluu = {};
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             entity = entity.messageRequestOnByDefault;
             if(entity) { _fun00008_ip = 81; continue _fun00007 }
  75:
-            entity = mike.messageRequestOnByDefault;
+            entity = michal.messageRequestOnByDefault;
  81:
             return entity;
         }
     };
-    zulu['isEligibleForMessageRequestOnByDefault'] = mike;
+    zuuluu['isEligibleForMessageRequestOnByDefault'] = michal;
     return entity;
 })();

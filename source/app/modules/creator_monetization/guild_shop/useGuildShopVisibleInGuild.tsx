@@ -1,124 +1,124 @@
 // app/modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildFeatures;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useGuildShopVisibleInGuild
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildFeatures;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useGuildShopVisibleInGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            golf = report.bind(entity)(zulu);
-            oscar = golf.useIsEligibleForSubscriptionsInGuildShop;
+            golfie = report.bind(entity)(zuuluu);
+            oscard = golfie.useIsEligibleForSubscriptionsInGuildShop;
             report = null;
-            options = report == tango;
-            zulu = undefined;
-            if(options) { _fun00002_ip = 50; continue _fun00001 }
+            option = report == tangon;
+            zuuluu = undefined;
+            if(option) { _fun00002_ip = 50; continue _fun00001 }
  45:
-            zulu = tango.id;
+            zuuluu = tangon.id;
  50:
-            options = 'channel_list';
-            zulu = oscar.bind(golf)(zulu, options);
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 2;
-            zulu = golf[zulu];
-            golf = oscar.bind(entity)(zulu);
-            oscar = golf.useRoleSubscriptionsVisibleInGuild;
-            verify = report == tango;
-            zulu = undefined;
+            option = 'channel_list';
+            zuuluu = oscard.bind(golfie)(zuuluu, option);
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = golfie[zuuluu];
+            golfie = oscard.bind(entity)(zuuluu);
+            oscard = golfie.useRoleSubscriptionsVisibleInGuild;
+            verify = report == tangon;
+            zuuluu = undefined;
             if(verify) { _fun00002_ip = 102; continue _fun00001 }
  97:
-            zulu = tango.id;
+            zuuluu = tangon.id;
  102:
-            zulu = oscar.bind(golf)(zulu);
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 3;
-            mike = oscar[mike];
-            golf = zulu.bind(entity)(mike);
-            mike = golf.useGuildShopPreviewVisible;
-            mike = mike.bind(golf)(tango, options);
-            mike = 4;
-            mike = oscar[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.useShouldHideGuildPurchaseEntryPoints;
-            report = report == tango;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 3;
+            michal = oscard[michal];
+            golfie = zuuluu.bind(entity)(michal);
+            michal = golfie.useGuildShopPreviewVisible;
+            michal = michal.bind(golfie)(tangon, option);
+            michal = 4;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.useShouldHideGuildPurchaseEntryPoints;
+            report = report == tangon;
             entity = undefined;
             if(report) { _fun00002_ip = 171; continue _fun00001 }
  166:
-            entity = tango.id;
+            entity = tangon.id;
  171:
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.shouldHideGuildPurchaseEntryPoints;
             entity = false;
             return entity;
         }
     };
-    zulu['useGuildShopVisibleInGuild'] = tango;
-    mike = function(argFoo, argBar) { // Original name: isGuildShopVisibleInGuild
+    zuuluu['useGuildShopVisibleInGuild'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: isGuildShopVisibleInGuild
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            options = report.bind(mike)(tango);
-            golf = options.isEligibleForSubscriptionsInGuildShop;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            option = report.bind(michal)(tangon);
+            golfie = option.isEligibleForSubscriptionsInGuildShop;
             report = null;
-            tango = report == entity;
-            oscar = undefined;
-            if(tango) { _fun00004_ip = 50; continue _fun00003 }
+            tangon = report == entity;
+            oscard = undefined;
+            if(tangon) { _fun00004_ip = 50; continue _fun00003 }
  45:
-            oscar = entity.id;
+            oscard = entity.id;
  50:
-            tango = 'channel_list';
-            tango = golf.bind(options)(oscar, tango);
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.areRoleSubscriptionsVisibleInGuild;
+            tangon = 'channel_list';
+            tangon = golfie.bind(option)(oscard, tangon);
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.areRoleSubscriptionsVisibleInGuild;
             report = report == entity;
-            mike = undefined;
+            michal = undefined;
             if(report) { _fun00004_ip = 102; continue _fun00003 }
  97:
-            mike = entity.id;
+            michal = entity.id;
  102:
             entity = argBar;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = false;
             return entity;
         }
     };
-    zulu['isGuildShopVisibleInGuild'] = mike;
+    zuuluu['isGuildShopVisibleInGuild'] = michal;
     return entity;
 })();

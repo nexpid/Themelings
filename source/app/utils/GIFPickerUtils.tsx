@@ -1,95 +1,95 @@
 // app/utils/GIFPickerUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.SearchTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/GIFPickerUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: calculateAnalyticsMetadata
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SearchTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/GIFPickerUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: calculateAnalyticsMetadata
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBar;
+            oscard = argBar;
             entity = argBaz;
-            zulu = null;
-            if(!(zulu == oscar)) { _fun00002_ip = 16; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu == oscard)) { _fun00002_ip = 16; continue _fun00001 }
  12:
-            mike = {};
+            michal = {};
             _fun00002_ip = 29; continue _fun00001;
  16:
-            tango = {};
+            tangon = {};
             report = 1;
-            tango[oscar] = report;
-            mike = tango;
+            tangon[oscard] = report;
+            michal = tangon;
  29:
-            if(!(zulu == entity)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(zuuluu == entity)) { _fun00002_ip = 35; continue _fun00001 }
  33:
             entity = {};
  35:
             yankee = entity.offset;
-            golf = entity.limit;
-            tango = entity.results;
+            golfie = entity.limit;
+            tangon = entity.results;
             report = entity.totalResults;
             entity = {};
-            oscar = _closure1_slot0;
-            oscar = oscar.GIF;
-            entity['search_type'] = oscar;
-            oscar = argFoo;
-            entity['load_id'] = oscar;
-            entity['limit'] = golf;
+            oscard = _closure1_slot0;
+            oscard = oscard.GIF;
+            entity['search_type'] = oscard;
+            oscard = argFoo;
+            entity['load_id'] = oscard;
+            entity['limit'] = golfie;
             entity['offset'] = yankee;
-            verify = zulu != golf;
-            options = 1;
-            oscar = options;
+            verify = zuuluu != golfie;
+            option = 1;
+            oscard = option;
             if(!verify) { _fun00002_ip = 147; continue _fun00001 }
  110:
-            verify = zulu != yankee;
-            oscar = options;
+            verify = zuuluu != yankee;
+            oscard = option;
             if(!verify) { _fun00002_ip = 147; continue _fun00001 }
  120:
             verify = global;
             offset = verify.Math;
             verify = offset.floor;
-            golf = yankee / golf;
-            golf = verify.bind(offset)(golf);
-            oscar = golf + options;
+            golfie = yankee / golfie;
+            golfie = verify.bind(offset)(golfie);
+            oscard = golfie + option;
  147:
-            entity['page'] = oscar;
+            entity['page'] = oscard;
             entity['total_results'] = report;
-            report = zulu != tango;
-            zulu = null;
+            report = zuuluu != tangon;
+            zuuluu = null;
             if(!report) { _fun00002_ip = 169; continue _fun00001 }
  166:
-            zulu = tango;
+            zuuluu = tangon;
  169:
-            entity['page_results'] = zulu;
-            zulu = global;
-            tango = zulu.Object;
-            zulu = tango.keys;
-            zulu = zulu.bind(tango)(mike);
-            zulu = zulu.length;
-            entity['num_modifiers'] = zulu;
-            entity['modifiers'] = mike;
+            entity['page_results'] = zuuluu;
+            zuuluu = global;
+            tangon = zuuluu.Object;
+            zuuluu = tangon.keys;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            zuuluu = zuuluu.length;
+            entity['num_modifiers'] = zuuluu;
+            entity['modifiers'] = michal;
             return entity;
         }
     };
-    zulu['calculateAnalyticsMetadata'] = mike;
+    zuuluu['calculateAnalyticsMetadata'] = michal;
     return entity;
 })();

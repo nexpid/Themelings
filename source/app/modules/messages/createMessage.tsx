@@ -1,30 +1,30 @@
 // app/modules/messages/createMessage.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    tango = function(argFoo) { // Original name: userRecordToServer
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo) { // Original name: userRecordToServer
         entity = argFoo;
-        golf = entity.id;
-        oscar = entity.username;
+        golfie = entity.id;
+        oscard = entity.username;
         report = entity.avatar;
-        tango = entity.discriminator;
-        zulu = entity.bot;
-        mike = entity.globalName;
+        tangon = entity.discriminator;
+        zuuluu = entity.bot;
+        michal = entity.globalName;
         entity = {};
-        entity['id'] = golf;
-        entity['username'] = oscar;
+        entity['id'] = golfie;
+        entity['username'] = oscard;
         entity['avatar'] = report;
-        entity['discriminator'] = tango;
-        entity['bot'] = zulu;
-        entity['global_name'] = mike;
+        entity['discriminator'] = tangon;
+        entity['bot'] = zuuluu;
+        entity['global_name'] = michal;
         return entity;
     };
-    var _closure1_slot12 = tango;
+    var _closure1_slot12 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -32,84 +32,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     report = 0;
-    verify = golf[report];
+    verify = golfie[report];
     entity = undefined;
-    verify = options.bind(entity)(verify);
+    verify = option.bind(entity)(verify);
     var _closure1_slot3 = verify;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.ReferencedMessageState;
     var _closure1_slot4 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 2;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot6 = report;
     report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.MessageStates;
-    var _closure1_slot7 = options;
-    options = report.MessageTypes;
-    var _closure1_slot8 = options;
-    options = report.LOCAL_BOT_ID;
-    var _closure1_slot9 = options;
-    options = report.NON_USER_BOT_DISCRIMINATOR;
-    var _closure1_slot10 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.MessageStates;
+    var _closure1_slot7 = option;
+    option = report.MessageTypes;
+    var _closure1_slot8 = option;
+    option = report.LOCAL_BOT_ID;
+    var _closure1_slot9 = option;
+    option = report.NON_USER_BOT_DISCRIMINATOR;
+    var _closure1_slot10 = option;
     report = report.MessageFlags;
     var _closure1_slot11 = report;
     report = 6;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/createMessage.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: createMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
-            foxtrot = verify.channelId;
+            foxtra = verify.channelId;
             backup = verify.content;
-            options = verify.tts;
-            echo = undefined;
-            if(!(options === echo)) { _fun00002_ip = 27; continue _fun00001 }
+            option = verify.tts;
+            echoed = undefined;
+            if(!(option === echoed)) { _fun00002_ip = 27; continue _fun00001 }
  25:
-            options = false;
+            option = false;
  27:
-            kilo = verify.type;
-            if(!(kilo === echo)) { _fun00002_ip = 49; continue _fun00001 }
+            kiloes = verify.type;
+            if(!(kiloes === echoed)) { _fun00002_ip = 49; continue _fun00001 }
  36:
             entity = _closure1_slot8;
-            kilo = entity.DEFAULT;
+            kiloes = entity.DEFAULT;
  49:
-            golf = verify.messageReference;
+            golfie = verify.messageReference;
             entity = verify.allowedMentions;
             sizing = verify.author;
-            oscar = verify.flags;
+            oscard = verify.flags;
             report = verify.nonce;
-            tango = verify.poll;
-            zulu = verify.changelogId;
-            mike = verify.giftingPrompt;
+            tangon = verify.poll;
+            zuuluu = verify.changelogId;
+            michal = verify.giftingPrompt;
             verify = verify.state;
-            romeo = new Array(0);
+            romeon = new Array(0);
             yankee = _closure1_slot8;
             yankee = yankee.REPLY;
-            if(!(kilo === yankee)) { _fun00002_ip = 249; continue _fun00001 }
+            if(!(kiloes === yankee)) { _fun00002_ip = 249; continue _fun00001 }
  125:
             output = _closure1_slot1;
             result = _closure1_slot2;
             yankee = 4;
             yankee = result[yankee];
-            update = output.bind(echo)(yankee);
+            update = output.bind(echoed)(yankee);
             yankee = null;
-            result = yankee != golf;
+            result = yankee != golfie;
             output = 'Replies must have a message reference';
-            output = update.bind(echo)(result, output);
+            output = update.bind(echoed)(result, output);
             if(!(yankee != entity)) { _fun00002_ip = 176; continue _fun00001 }
  167:
             entity = entity.replied_user;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  176:
             output = _closure1_slot3;
             entity = output.getMessageByReference;
-            entity = entity.bind(output)(golf);
+            entity = entity.bind(output)(golfie);
             yankee = yankee == entity;
             output = undefined;
             if(yankee) { _fun00002_ip = 205; continue _fun00001 }
@@ -128,12 +128,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = yankee.LOADED;
             if(!(output === yankee)) { _fun00002_ip = 249; continue _fun00001 }
  219:
-            yankee = romeo.push;
+            yankee = romeon.push;
             output = _closure1_slot12;
             entity = entity.message;
             entity = entity.author;
-            entity = output.bind(echo)(entity);
-            entity = yankee.bind(romeo)(entity);
+            entity = output.bind(echoed)(entity);
+            entity = yankee.bind(romeon)(entity);
  249:
             output = null;
             if(!(output == sizing)) { _fun00002_ip = 268; continue _fun00001 }
@@ -148,16 +148,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             if(!entity) { _fun00002_ip = 291; continue _fun00001 }
  282:
             entity = _closure1_slot12;
-            yankee = entity.bind(echo)(sizing);
+            yankee = entity.bind(echoed)(sizing);
  291:
             sizing = _closure1_slot1;
             result = _closure1_slot2;
             entity = 4;
             entity = result[entity];
-            result = sizing.bind(echo)(entity);
+            result = sizing.bind(echoed)(entity);
             sizing = output != yankee;
             entity = 'createMessage: author cannot be undefined';
-            entity = result.bind(echo)(sizing, entity);
+            entity = result.bind(echoed)(sizing, entity);
             entity = {};
             sizing = report;
             if(!(output == sizing)) { _fun00002_ip = 366; continue _fun00001 }
@@ -166,14 +166,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             update = _closure1_slot2;
             output = 5;
             output = update[output];
-            result = result.bind(echo)(output);
+            result = result.bind(echoed)(output);
             output = result.createNonce;
             sizing = output.bind(result)();
  366:
             entity['id'] = sizing;
-            entity['type'] = kilo;
+            entity['type'] = kiloes;
             entity['content'] = backup;
-            entity['channel_id'] = foxtrot;
+            entity['channel_id'] = foxtra;
             entity['author'] = yankee;
             yankee = new Array(0);
             entity['attachments'] = yankee;
@@ -181,21 +181,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['embeds'] = yankee;
             yankee = false;
             entity['pinned'] = yankee;
-            entity['mentions'] = romeo;
-            romeo = new Array(0);
-            entity['mention_channels'] = romeo;
-            romeo = new Array(0);
-            entity['mention_roles'] = romeo;
+            entity['mentions'] = romeon;
+            romeon = new Array(0);
+            entity['mention_channels'] = romeon;
+            romeon = new Array(0);
+            entity['mention_roles'] = romeon;
             entity['mention_everyone'] = yankee;
             yankee = global;
             yankee = yankee.Date;
-            romeo = yankee.prototype;
-            romeo = Object.create(romeo, {constructor: {value: yankee}});
-            vacuum = romeo;
-            yankee = new vacuum[yankee](control);
-            romeo = yankee instanceof Object ? yankee : romeo;
-            yankee = romeo.toISOString;
-            yankee = yankee.bind(romeo)();
+            romeon = yankee.prototype;
+            romeon = Object.create(romeon, {constructor: {value: yankee}});
+            vacuum = romeon;
+            yankee = new vacuum[yankee](ctrled);
+            romeon = yankee instanceof Object ? yankee : romeon;
+            yankee = romeon.toISOString;
+            yankee = yankee.bind(romeon)();
             entity['timestamp'] = yankee;
             if(verify) { _fun00002_ip = 496; continue _fun00001 }
  486:
@@ -203,91 +203,91 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.SENDING;
  496:
             entity['state'] = verify;
-            entity['tts'] = options;
-            entity['message_reference'] = golf;
-            golf = new Array(0);
-            entity['message_snapshots'] = golf;
-            entity['flags'] = oscar;
+            entity['tts'] = option;
+            entity['message_reference'] = golfie;
+            golfie = new Array(0);
+            entity['message_snapshots'] = golfie;
+            entity['flags'] = oscard;
             entity['nonce'] = report;
-            entity['poll'] = tango;
-            entity['changelog_id'] = zulu;
-            entity['gifting_prompt'] = mike;
+            entity['poll'] = tangon;
+            entity['changelog_id'] = zuuluu;
+            entity['gifting_prompt'] = michal;
             return entity;
         }
     };
-    zulu['default'] = report;
-    zulu['userRecordToServer'] = tango;
-    mike = function(argFoo) { // Original name: createBotMessage
+    zuuluu['default'] = report;
+    zuuluu['userRecordToServer'] = tangon;
+    michal = function(argFoo) { // Original name: createBotMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            tango = entity.messageId;
-            oscar = entity.channelId;
-            golf = entity.content;
-            zulu = entity.embeds;
-            mike = entity.loggingName;
+            tangon = entity.messageId;
+            oscard = entity.channelId;
+            golfie = entity.content;
+            zuuluu = entity.embeds;
+            michal = entity.loggingName;
             entity = {};
             report = null;
-            if(!(report == tango)) { _fun00004_ip = 73; continue _fun00003 }
+            if(!(report == tangon)) { _fun00004_ip = 73; continue _fun00003 }
  38:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
-            options = 5;
-            verify = verify[options];
-            options = undefined;
-            verify = offset.bind(options)(verify);
-            options = verify.createNonce;
-            tango = options.bind(verify)();
+            option = 5;
+            verify = verify[option];
+            option = undefined;
+            verify = offset.bind(option)(verify);
+            option = verify.createNonce;
+            tangon = option.bind(verify)();
  73:
-            entity['id'] = tango;
-            options = _closure1_slot8;
-            options = options.DEFAULT;
-            entity['type'] = options;
-            options = _closure1_slot11;
-            options = options.EPHEMERAL;
-            entity['flags'] = options;
-            entity['content'] = golf;
-            entity['channel_id'] = oscar;
-            oscar = {'id': null, 'username': 'Clyde', 'discriminator': null, 'avatar': 'clyde', 'bot': true};
-            golf = _closure1_slot9;
-            oscar['id'] = golf;
-            golf = _closure1_slot10;
-            oscar['discriminator'] = golf;
-            entity['author'] = oscar;
-            oscar = new Array(0);
-            entity['attachments'] = oscar;
-            if(!(report == zulu)) { _fun00004_ip = 168; continue _fun00003 }
- 164:
-            zulu = new Array(0);
+            entity['id'] = tangon;
+            option = _closure1_slot8;
+            option = option.DEFAULT;
+            entity['type'] = option;
+            option = _closure1_slot11;
+            option = option.EPHEMERAL;
+            entity['flags'] = option;
+            entity['content'] = golfie;
+            entity['channel_id'] = oscard;
+            oscard = {'id': null, 'username': 'Clyde', 'discriminator': null, 'avatar': 'clyde', 'bot': true};
+            golfie = _closure1_slot9;
+            oscard['id'] = golfie;
+            golfie = _closure1_slot10;
+            oscard['discriminator'] = golfie;
+            entity['author'] = oscard;
+            oscard = new Array(0);
+            entity['attachments'] = oscard;
+            if(!(report == zuuluu)) { _fun00004_ip = 172; continue _fun00003 }
  168:
-            entity['embeds'] = zulu;
-            zulu = false;
-            entity['pinned'] = zulu;
+            zuuluu = new Array(0);
+ 172:
+            entity['embeds'] = zuuluu;
+            zuuluu = false;
+            entity['pinned'] = zuuluu;
             report = new Array(0);
             entity['mentions'] = report;
             report = new Array(0);
             entity['mention_channels'] = report;
             report = new Array(0);
             entity['mention_roles'] = report;
-            entity['mention_everyone'] = zulu;
+            entity['mention_everyone'] = zuuluu;
             report = global;
             report = report.Date;
-            oscar = report.prototype;
-            oscar = Object.create(oscar, {constructor: {value: report}});
-            romeo = oscar;
-            report = new romeo[report](yankee);
-            oscar = report instanceof Object ? report : oscar;
-            report = oscar.toISOString;
-            report = report.bind(oscar)();
+            oscard = report.prototype;
+            oscard = Object.create(oscard, {constructor: {value: report}});
+            romeon = oscard;
+            report = new romeon[report](yankee);
+            oscard = report instanceof Object ? report : oscard;
+            report = oscard.toISOString;
+            report = report.bind(oscard)();
             entity['timestamp'] = report;
-            tango = _closure1_slot7;
-            tango = tango.SENT;
-            entity['state'] = tango;
-            entity['tts'] = zulu;
-            entity['loggingName'] = mike;
+            tangon = _closure1_slot7;
+            tangon = tangon.SENT;
+            entity['state'] = tangon;
+            entity['tts'] = zuuluu;
+            entity['loggingName'] = michal;
             return entity;
         }
     };
-    zulu['createBotMessage'] = mike;
+    zuuluu['createBotMessage'] = michal;
     return entity;
 })();

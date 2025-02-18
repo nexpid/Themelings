@@ -1,159 +1,159 @@
 // app/modules/experiments/ExperimentManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = options;
-    var _closure1_slot1 = oscar;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    golf = verify.defineProperty;
-    tango = {};
+    golfie = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(verify)(zulu, entity, tango);
-    tango = 0;
-    golf = oscar[tango];
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    tangon = 0;
+    golfie = oscard[tangon];
     entity = undefined;
-    golf = options.bind(entity)(golf);
-    var _closure1_slot2 = golf;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.registerExperiment;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.ExperimentTypes;
-    var _closure1_slot4 = golf;
-    tango = tango.ExposureTypes;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/experiments/ExperimentManager.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) { // Original name: trackExposureToExperiment
+    golfie = option.bind(entity)(golfie);
+    var _closure1_slot2 = golfie;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.registerExperiment;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.ExperimentTypes;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.ExposureTypes;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/experiments/ExperimentManager.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) { // Original name: trackExposureToExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBaz;
-            tango = _closure1_slot2;
-            zulu = tango.trackExposure;
-            mike = {};
+            oscard = argBaz;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.trackExposure;
+            michal = {};
             entity = argFoo;
-            mike['experimentId'] = entity;
+            michal['experimentId'] = entity;
             entity = argBar;
-            mike['descriptor'] = entity;
+            michal['descriptor'] = entity;
             report = null;
-            options = report == oscar;
+            option = report == oscard;
             entity = undefined;
-            golf = undefined;
-            if(options) { _fun00002_ip = 52; continue _fun00001 }
+            golfie = undefined;
+            if(option) { _fun00002_ip = 52; continue _fun00001 }
  47:
-            golf = oscar.location;
+            golfie = oscard.location;
  52:
-            mike['location'] = golf;
-            options = report == oscar;
-            golf = undefined;
-            if(options) { _fun00002_ip = 71; continue _fun00001 }
+            michal['location'] = golfie;
+            option = report == oscard;
+            golfie = undefined;
+            if(option) { _fun00002_ip = 71; continue _fun00001 }
  65:
-            golf = oscar.analyticsLocations;
+            golfie = oscard.analyticsLocations;
  71:
-            mike['location_stack'] = golf;
-            options = report == oscar;
-            golf = undefined;
-            if(options) { _fun00002_ip = 91; continue _fun00001 }
+            michal['location_stack'] = golfie;
+            option = report == oscard;
+            golfie = undefined;
+            if(option) { _fun00002_ip = 91; continue _fun00001 }
  85:
-            golf = oscar.fingerprint;
+            golfie = oscard.fingerprint;
  91:
-            mike['fingerprint'] = golf;
-            options = report == oscar;
-            golf = undefined;
-            if(options) { _fun00002_ip = 111; continue _fun00001 }
+            michal['fingerprint'] = golfie;
+            option = report == oscard;
+            golfie = undefined;
+            if(option) { _fun00002_ip = 111; continue _fun00001 }
  105:
-            golf = oscar.excluded;
+            golfie = oscard.excluded;
  111:
-            mike['excluded'] = golf;
-            golf = report == oscar;
+            michal['excluded'] = golfie;
+            golfie = report == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 131; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 131; continue _fun00001 }
  125:
-            report = oscar.exposureType;
+            report = oscard.exposureType;
  131:
-            mike['exposureType'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['exposureType'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['trackExposureToExperiment'] = tango;
-    tango = function(argFoo) { // Original name: registerUserExperiment
+    zuuluu['trackExposureToExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: registerUserExperiment
         entity = argFoo;
-        mike = entity.id;
-        golf = entity.title;
-        oscar = entity.description;
+        michal = entity.id;
+        golfie = entity.title;
+        oscard = entity.description;
         report = entity.buckets;
         entity = entity.commonTriggerPoint;
-        tango = _closure1_slot3;
-        zulu = {};
-        zulu['experimentId'] = mike;
-        options = _closure1_slot4;
-        options = options.USER;
-        zulu['experimentType'] = options;
-        zulu['title'] = golf;
-        zulu['description'] = oscar;
-        zulu['buckets'] = report;
-        zulu['commonTriggerPoint'] = entity;
+        tangon = _closure1_slot3;
+        zuuluu = {};
+        zuuluu['experimentId'] = michal;
+        option = _closure1_slot4;
+        option = option.USER;
+        zuuluu['experimentType'] = option;
+        zuuluu['title'] = golfie;
+        zuuluu['description'] = oscard;
+        zuuluu['buckets'] = report;
+        zuuluu['commonTriggerPoint'] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu);
+        entity = tangon.bind(entity)(zuuluu);
         entity = {};
-        entity['id'] = mike;
+        entity['id'] = michal;
         return entity;
     };
-    zulu['registerUserExperiment'] = tango;
-    tango = function(argFoo) { // Original name: registerGuildExperiment
+    zuuluu['registerUserExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: registerGuildExperiment
         entity = argFoo;
-        mike = entity.id;
-        golf = entity.title;
-        oscar = entity.description;
+        michal = entity.id;
+        golfie = entity.title;
+        oscard = entity.description;
         report = entity.buckets;
         entity = entity.commonTriggerPoint;
-        tango = _closure1_slot3;
-        zulu = {};
-        zulu['experimentId'] = mike;
-        options = _closure1_slot4;
-        options = options.GUILD;
-        zulu['experimentType'] = options;
-        zulu['title'] = golf;
-        zulu['description'] = oscar;
-        zulu['buckets'] = report;
-        zulu['commonTriggerPoint'] = entity;
+        tangon = _closure1_slot3;
+        zuuluu = {};
+        zuuluu['experimentId'] = michal;
+        option = _closure1_slot4;
+        option = option.GUILD;
+        zuuluu['experimentType'] = option;
+        zuuluu['title'] = golfie;
+        zuuluu['description'] = oscard;
+        zuuluu['buckets'] = report;
+        zuuluu['commonTriggerPoint'] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu);
+        entity = tangon.bind(entity)(zuuluu);
         entity = {};
-        entity['id'] = mike;
+        entity['id'] = michal;
         return entity;
     };
-    zulu['registerGuildExperiment'] = tango;
-    mike = function(argFoo, argBar) { // Original name: overrideBucket
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['registerGuildExperiment'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: overrideBucket
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'EXPERIMENT_OVERRIDE_BUCKET';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['experimentId'] = report;
+        michal['experimentId'] = report;
         report = argBar;
-        mike['experimentBucket'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['experimentBucket'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['overrideBucket'] = mike;
+    zuuluu['overrideBucket'] = michal;
     return entity;
 })();

@@ -1,110 +1,110 @@
 // app/modules/premium/hooks/useOutboundPromotionRedemptionEndDate.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    verify = golf.bind(entity)(tango);
-    options = verify.duration;
-    golf = 30;
-    tango = 'days';
-    tango = options.bind(verify)(golf, tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/hooks/useOutboundPromotionRedemptionEndDate.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useOutboundPromotionRedemptionEndDate
-        oscar = argFoo;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    verify = golfie.bind(entity)(tangon);
+    option = verify.duration;
+    golfie = 30;
+    tangon = 'days';
+    tangon = option.bind(verify)(golfie, tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/hooks/useOutboundPromotionRedemptionEndDate.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useOutboundPromotionRedemptionEndDate
+        oscard = argFoo;
         report = argBar;
-        var _closure2_slot0 = oscar;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot0;
-                zulu = _closure1_slot2;
+                michal = _closure1_slot0;
+                zuuluu = _closure1_slot2;
                 entity = 2;
-                entity = zulu[entity];
-                golf = undefined;
-                tango = mike.bind(golf)(entity);
-                zulu = tango.dateFormat;
+                entity = zuuluu[entity];
+                golfie = undefined;
+                tangon = michal.bind(golfie)(entity);
+                zuuluu = tangon.dateFormat;
                 entity = _closure2_slot1;
                 if(entity) { _fun00002_ip = 78; continue _fun00001 }
  41:
-                mike = _closure1_slot1;
-                options = _closure1_slot2;
+                michal = _closure1_slot1;
+                option = _closure1_slot2;
                 entity = 1;
-                entity = options[entity];
-                mike = mike.bind(golf)(entity);
+                entity = option[entity];
+                michal = michal.bind(golfie)(entity);
                 entity = _closure2_slot0;
                 entity = entity.endDate;
-                mike = mike.bind(golf)(entity);
+                michal = michal.bind(golfie)(entity);
                 _fun00002_ip = 183; continue _fun00001;
  78:
                 entity = _closure2_slot0;
-                options = entity.outboundRedemptionEndDate;
+                option = entity.outboundRedemptionEndDate;
                 entity = null;
-                if(!(entity == options)) { _fun00002_ip = 145; continue _fun00001 }
+                if(!(entity == option)) { _fun00002_ip = 145; continue _fun00001 }
  94:
-                options = _closure1_slot1;
+                option = _closure1_slot1;
                 verify = _closure1_slot2;
                 entity = 1;
                 entity = verify[entity];
-                options = options.bind(golf)(entity);
+                option = option.bind(golfie)(entity);
                 entity = _closure2_slot0;
                 entity = entity.endDate;
-                verify = options.bind(golf)(entity);
-                options = verify.add;
+                verify = option.bind(golfie)(entity);
+                option = verify.add;
                 entity = _closure1_slot4;
-                entity = options.bind(verify)(entity);
+                entity = option.bind(verify)(entity);
                 _fun00002_ip = 180; continue _fun00001;
  145:
-                options = _closure1_slot1;
+                option = _closure1_slot1;
                 verify = _closure1_slot2;
-                oscar = 1;
-                oscar = verify[oscar];
-                oscar = options.bind(golf)(oscar);
+                oscard = 1;
+                oscard = verify[oscard];
+                oscard = option.bind(golfie)(oscard);
                 report = _closure2_slot0;
                 report = report.outboundRedemptionEndDate;
-                entity = oscar.bind(golf)(report);
+                entity = oscard.bind(golfie)(report);
  180:
-                mike = entity;
+                michal = entity;
  183:
                 entity = 'LL';
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,456 +1,456 @@
 // app/modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: createHandoffTokenWithLoadingModal
-        mike = argFoo;
-        zulu = mike.nonce;
-        var _closure2_slot0 = zulu;
-        zulu = mike.fingerprint;
-        var _closure2_slot1 = zulu;
-        mike = mike.handoffSource;
-        var _closure2_slot2 = mike;
-        mike = global;
-        zulu = mike.Promise;
-        mike = zulu.prototype;
-        mike = Object.create(mike, {constructor: {value: zulu}});
-        tango = function(argFoo) {
+        michal = argFoo;
+        zuuluu = michal.nonce;
+        var _closure2_slot0 = zuuluu;
+        zuuluu = michal.fingerprint;
+        var _closure2_slot1 = zuuluu;
+        michal = michal.handoffSource;
+        var _closure2_slot2 = michal;
+        michal = global;
+        zuuluu = michal.Promise;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        tangon = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                golf = argFoo;
-                var _closure3_slot0 = golf;
-                tango = _closure1_slot1;
-                zulu = _closure1_slot2;
+                golfie = argFoo;
+                var _closure3_slot0 = golfie;
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
                 entity = 3;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                report = tango.bind(entity)(zulu);
-                tango = report.popWithKey;
-                zulu = _closure1_slot8;
-                zulu = tango.bind(report)(zulu);
-                tango = _closure1_slot4;
-                zulu = tango.isAuthenticated;
-                zulu = zulu.bind(tango)();
-                if(zulu) { _fun00002_ip = 187; continue _fun00001 }
+                report = tangon.bind(entity)(zuuluu);
+                tangon = report.popWithKey;
+                zuuluu = _closure1_slot8;
+                zuuluu = tangon.bind(report)(zuuluu);
+                tangon = _closure1_slot4;
+                zuuluu = tangon.isAuthenticated;
+                zuuluu = zuuluu.bind(tangon)();
+                if(zuuluu) { _fun00002_ip = 187; continue _fun00001 }
  66:
-                tango = _closure1_slot1;
+                tangon = _closure1_slot1;
                 yankee = _closure1_slot2;
-                zulu = 6;
-                zulu = yankee[zulu];
-                verify = tango.bind(entity)(zulu);
-                options = verify.track;
-                zulu = _closure1_slot5;
-                report = zulu.MOBILE_WEB_HANDOFF_FAILURE;
-                tango = {};
-                zulu = 'user_not_authenticated_in_app';
-                tango['reason'] = zulu;
+                zuuluu = 6;
+                zuuluu = yankee[zuuluu];
+                verify = tangon.bind(entity)(zuuluu);
+                option = verify.track;
+                zuuluu = _closure1_slot5;
+                report = zuuluu.MOBILE_WEB_HANDOFF_FAILURE;
+                tangon = {};
+                zuuluu = 'user_not_authenticated_in_app';
+                tangon['reason'] = zuuluu;
                 offset = _closure1_slot0;
-                zulu = 7;
-                zulu = yankee[zulu];
-                romeo = offset.bind(entity)(zulu);
-                yankee = romeo.maybeExtractId;
+                zuuluu = 7;
+                zuuluu = yankee[zuuluu];
+                romeon = offset.bind(entity)(zuuluu);
+                yankee = romeon.maybeExtractId;
                 offset = _closure2_slot1;
-                yankee = yankee.bind(romeo)(offset);
-                tango['fingerprint'] = yankee;
-                zulu = _closure2_slot2;
-                tango['handoff_source'] = zulu;
-                zulu = {};
-                zulu['fingerprint'] = offset;
-                zulu = options.bind(verify)(report, tango, zulu);
-                zulu = 'null';
-                zulu = golf.bind(entity)(zulu);
+                yankee = yankee.bind(romeon)(offset);
+                tangon['fingerprint'] = yankee;
+                zuuluu = _closure2_slot2;
+                tangon['handoff_source'] = zuuluu;
+                zuuluu = {};
+                zuuluu['fingerprint'] = offset;
+                zuuluu = option.bind(verify)(report, tangon, zuuluu);
+                zuuluu = 'null';
+                zuuluu = golfie.bind(entity)(zuuluu);
                 _fun00002_ip = 250; continue _fun00001;
  187:
-                tango = _closure1_slot0;
+                tangon = _closure1_slot0;
                 report = _closure1_slot2;
-                zulu = 4;
-                zulu = report[zulu];
-                report = tango.bind(entity)(zulu);
-                tango = report.showSimpleLoadingModal;
-                zulu = _closure1_slot8;
-                mike = {};
-                options = function() { // Original name: operation
-                    zulu = _closure1_slot1;
-                    mike = _closure1_slot2;
+                zuuluu = 4;
+                zuuluu = report[zuuluu];
+                report = tangon.bind(entity)(zuuluu);
+                tangon = report.showSimpleLoadingModal;
+                zuuluu = _closure1_slot8;
+                michal = {};
+                option = function() { // Original name: operation
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
                     entity = 5;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    zulu = zulu.bind(entity)(mike);
-                    mike = zulu.createHandoffToken;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.createHandoffToken;
                     entity = _closure2_slot0;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                mike['operation'] = options;
-                mike['onResolved'] = golf;
-                oscar = function() { // Original name: onRejected
-                    tango = _closure1_slot1;
-                    options = _closure1_slot2;
+                michal['operation'] = option;
+                michal['onResolved'] = golfie;
+                oscard = function() { // Original name: onRejected
+                    tangon = _closure1_slot1;
+                    option = _closure1_slot2;
                     entity = 6;
-                    zulu = options[entity];
+                    zuuluu = option[entity];
                     entity = undefined;
-                    oscar = tango.bind(entity)(zulu);
-                    report = oscar.track;
-                    zulu = _closure1_slot5;
-                    tango = zulu.MOBILE_WEB_HANDOFF_FAILURE;
-                    zulu = {};
-                    golf = 'handoff_token_fetch_failure';
-                    zulu['reason'] = golf;
-                    golf = _closure1_slot0;
-                    mike = 7;
-                    mike = options[mike];
-                    verify = golf.bind(entity)(mike);
-                    options = verify.maybeExtractId;
-                    golf = _closure2_slot1;
-                    options = options.bind(verify)(golf);
-                    zulu['fingerprint'] = options;
-                    mike = _closure2_slot2;
-                    zulu['handoff_source'] = mike;
-                    mike = {};
-                    mike['fingerprint'] = golf;
-                    mike = report.bind(oscar)(tango, zulu, mike);
-                    zulu = _closure3_slot0;
-                    mike = 'null';
-                    mike = zulu.bind(entity)(mike);
+                    oscard = tangon.bind(entity)(zuuluu);
+                    report = oscard.track;
+                    zuuluu = _closure1_slot5;
+                    tangon = zuuluu.MOBILE_WEB_HANDOFF_FAILURE;
+                    zuuluu = {};
+                    golfie = 'handoff_token_fetch_failure';
+                    zuuluu['reason'] = golfie;
+                    golfie = _closure1_slot0;
+                    michal = 7;
+                    michal = option[michal];
+                    verify = golfie.bind(entity)(michal);
+                    option = verify.maybeExtractId;
+                    golfie = _closure2_slot1;
+                    option = option.bind(verify)(golfie);
+                    zuuluu['fingerprint'] = option;
+                    michal = _closure2_slot2;
+                    zuuluu['handoff_source'] = michal;
+                    michal = {};
+                    michal['fingerprint'] = golfie;
+                    michal = report.bind(oscard)(tangon, zuuluu, michal);
+                    zuuluu = _closure3_slot0;
+                    michal = 'null';
+                    michal = zuuluu.bind(entity)(michal);
                     return entity;
                 };
-                mike['onRejected'] = oscar;
-                mike = tango.bind(report)(zulu, mike);
+                michal['onRejected'] = oscard;
+                michal = tangon.bind(report)(zuuluu, michal);
  250:
                 return entity;
             }
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _redirectWithHandoffToken
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     yankee = argFoo;
-                    options = arguments[1];
+                    option = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 447; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 447; continue _fun00003 }
  16:
-                    tango = undefined;
-                    if(!(options === tango)) { _fun00004_ip = 24; continue _fun00003 }
+                    tangon = undefined;
+                    if(!(option === tangon)) { _fun00004_ip = 24; continue _fun00003 }
  22:
-                    options = {};
+                    option = {};
  24:
-                    oscar = options.forceExternalBrowser;
-                    if(!(oscar === tango)) { _fun00004_ip = 36; continue _fun00003 }
+                    oscard = option.forceExternalBrowser;
+                    if(!(oscard === tangon)) { _fun00004_ip = 36; continue _fun00003 }
  34:
-                    oscar = false;
+                    oscard = false;
  36:
-                    zulu = null;
-                    golf = Object.create(zulu);
-                    mike = 0;
-                    golf['forceExternalBrowser'] = mike;
+                    zuuluu = null;
+                    golfie = Object.create(zuuluu);
+                    michal = 0;
+                    golfie['forceExternalBrowser'] = michal;
                     result = {};
-                    output = options;
-                    sizing = golf;
+                    output = option;
+                    sizing = golfie;
                     verify = copyDataProperties(result, output, sizing);
                     SaveGenerator(address=64);
  62:
-                    return tango;
+                    return tangon;
  64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00004_ip = 444; continue _fun00003 }
  73:
-                    options = {};
-                    result = options;
+                    option = {};
+                    result = option;
                     output = verify;
                     report = copyDataProperties(result, output);
                     report = verify.nonce;
-                    if(!(zulu == report)) { _fun00004_ip = 128; continue _fun00003 }
+                    if(!(zuuluu == report)) { _fun00004_ip = 128; continue _fun00003 }
  95:
-                    golf = _closure1_slot1;
+                    golfie = _closure1_slot1;
                     offset = _closure1_slot2;
-                    zulu = 5;
-                    zulu = offset[zulu];
-                    golf = golf.bind(tango)(zulu);
-                    zulu = golf.generateNonce;
-                    report = zulu.bind(golf)();
+                    zuuluu = 5;
+                    zuuluu = offset[zuuluu];
+                    golfie = golfie.bind(tangon)(zuuluu);
+                    zuuluu = golfie.generateNonce;
+                    report = zuuluu.bind(golfie)();
  128:
-                    zulu = 'nonce';
-                    options[zulu] = report;
+                    zuuluu = 'nonce';
+                    option[zuuluu] = report;
                     report = _closure1_slot0;
                     offset = _closure1_slot2;
-                    zulu = 8;
-                    zulu = offset[zulu];
-                    report = report.bind(tango)(zulu);
-                    zulu = report.getLoginHandoffSourceFromRedirectTo;
-                    report = zulu.bind(report)(yankee);
-                    zulu = 'handoffSource';
-                    options[zulu] = report;
-                    zulu = _closure1_slot9;
-                    zulu = zulu.bind(tango)(options);
+                    zuuluu = 8;
+                    zuuluu = offset[zuuluu];
+                    report = report.bind(tangon)(zuuluu);
+                    zuuluu = report.getLoginHandoffSourceFromRedirectTo;
+                    report = zuuluu.bind(report)(yankee);
+                    zuuluu = 'handoffSource';
+                    option[zuuluu] = report;
+                    zuuluu = _closure1_slot9;
+                    zuuluu = zuuluu.bind(tangon)(option);
                     SaveGenerator(address=195);
  193:
-                    return zulu;
+                    return zuuluu;
  195:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(report) { _fun00004_ip = 441; continue _fun00003 }
  204:
                     report = global;
-                    foxtrot = report.URL;
-                    romeo = verify.skipLoginRedirect;
+                    foxtra = report.URL;
+                    romeon = verify.skipLoginRedirect;
                     offset = true;
                     report = yankee;
-                    if(!(offset !== romeo)) { _fun00004_ip = 268; continue _fun00003 }
+                    if(!(offset !== romeon)) { _fun00004_ip = 268; continue _fun00003 }
  227:
                     backup = _closure1_slot1;
-                    kilo = _closure1_slot2;
-                    romeo = 9;
-                    romeo = kilo[romeo];
-                    kilo = backup.bind(tango)(romeo);
-                    backup = kilo.makeUrl;
-                    romeo = _closure1_slot7;
-                    romeo = romeo.LOGIN_HANDOFF;
-                    report = backup.bind(kilo)(romeo);
+                    kiloes = _closure1_slot2;
+                    romeon = 9;
+                    romeon = kiloes[romeon];
+                    kiloes = backup.bind(tangon)(romeon);
+                    backup = kiloes.makeUrl;
+                    romeon = _closure1_slot7;
+                    romeon = romeon.LOGIN_HANDOFF;
+                    report = backup.bind(kiloes)(romeon);
  268:
-                    romeo = foxtrot.prototype;
-                    romeo = Object.create(romeo, {constructor: {value: foxtrot}});
-                    echo = romeo;
+                    romeon = foxtra.prototype;
+                    romeon = Object.create(romeon, {constructor: {value: foxtra}});
+                    echoed = romeon;
                     result = report;
-                    report = new echo[foxtrot](result, output);
-                    report = report instanceof Object ? report : romeo;
+                    report = new echoed[foxtra](result, output);
+                    report = report instanceof Object ? report : romeon;
                     backup = report.searchParams;
-                    foxtrot = backup.append;
-                    romeo = 'handoff_token';
-                    romeo = foxtrot.bind(backup)(romeo, zulu);
+                    foxtra = backup.append;
+                    romeon = 'handoff_token';
+                    romeon = foxtra.bind(backup)(romeon, zuuluu);
                     verify = verify.skipLoginRedirect;
                     if(!(offset !== verify)) { _fun00004_ip = 379; continue _fun00003 }
  325:
-                    romeo = report.searchParams;
-                    offset = romeo.append;
-                    verify = options.nonce;
-                    options = 'handoff_key';
-                    options = offset.bind(romeo)(options, verify);
+                    romeon = report.searchParams;
+                    offset = romeon.append;
+                    verify = option.nonce;
+                    option = 'handoff_key';
+                    option = offset.bind(romeon)(option, verify);
                     offset = report.searchParams;
                     verify = offset.append;
-                    options = 'redirect_to';
-                    options = verify.bind(offset)(options, yankee);
+                    option = 'redirect_to';
+                    option = verify.bind(offset)(option, yankee);
  379:
-                    options = _closure1_slot1;
+                    option = _closure1_slot1;
                     verify = _closure1_slot2;
-                    golf = 10;
-                    golf = verify[golf];
-                    golf = options.bind(tango)(golf);
-                    if(oscar) { _fun00004_ip = 421; continue _fun00003 }
+                    golfie = 10;
+                    golfie = verify[golfie];
+                    golfie = option.bind(tangon)(golfie);
+                    if(oscard) { _fun00004_ip = 421; continue _fun00003 }
  402:
-                    options = golf.performURLNavigation;
-                    oscar = report.href;
-                    oscar = options.bind(golf)(oscar);
+                    option = golfie.performURLNavigation;
+                    oscard = report.href;
+                    oscard = option.bind(golfie)(oscard);
                     _fun00004_ip = 438; continue _fun00003;
  421:
-                    oscar = golf.openURLExternally;
+                    oscard = golfie.openURLExternally;
                     report = report.href;
-                    report = oscar.bind(golf)(report);
+                    report = oscard.bind(golfie)(report);
  438:
-                    return tango;
+                    return tangon;
  441:
-                    return zulu;
+                    return zuuluu;
  444:
-                    return mike;
+                    return michal;
  447:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot10 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot10 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _redirectDeveloperPortalWithHandoffToken
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
-                    zulu = arguments[1];
+                    zuuluu = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 301; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 301; continue _fun00005 }
  13:
-                    tango = undefined;
-                    if(!(zulu === tango)) { _fun00006_ip = 21; continue _fun00005 }
+                    tangon = undefined;
+                    if(!(zuuluu === tangon)) { _fun00006_ip = 21; continue _fun00005 }
  19:
-                    zulu = {};
+                    zuuluu = {};
  21:
                     SaveGenerator(address=25);
  23:
-                    return tango;
+                    return tangon;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00006_ip = 298; continue _fun00005 }
  34:
-                    golf = {};
-                    kilo = golf;
-                    backup = zulu;
-                    report = copyDataProperties(kilo, backup);
-                    report = zulu.nonce;
-                    zulu = null;
-                    if(!(zulu == report)) { _fun00006_ip = 91; continue _fun00005 }
+                    golfie = {};
+                    kiloes = golfie;
+                    backup = zuuluu;
+                    report = copyDataProperties(kiloes, backup);
+                    report = zuuluu.nonce;
+                    zuuluu = null;
+                    if(!(zuuluu == report)) { _fun00006_ip = 91; continue _fun00005 }
  58:
-                    oscar = _closure1_slot1;
-                    options = _closure1_slot2;
-                    zulu = 5;
-                    zulu = options[zulu];
-                    oscar = oscar.bind(tango)(zulu);
-                    zulu = oscar.generateNonce;
-                    report = zulu.bind(oscar)();
+                    oscard = _closure1_slot1;
+                    option = _closure1_slot2;
+                    zuuluu = 5;
+                    zuuluu = option[zuuluu];
+                    oscard = oscard.bind(tangon)(zuuluu);
+                    zuuluu = oscard.generateNonce;
+                    report = zuuluu.bind(oscard)();
  91:
-                    zulu = 'nonce';
-                    golf[zulu] = report;
+                    zuuluu = 'nonce';
+                    golfie[zuuluu] = report;
                     report = _closure1_slot0;
-                    options = _closure1_slot2;
-                    zulu = 8;
-                    zulu = options[zulu];
-                    zulu = report.bind(tango)(zulu);
-                    zulu = zulu.LoginHandoffSource;
-                    report = zulu.ROLE_SUBSCRIPTION_SETTING;
-                    zulu = 'handoffSource';
-                    golf[zulu] = report;
-                    zulu = _closure1_slot9;
-                    zulu = zulu.bind(tango)(golf);
+                    option = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = option[zuuluu];
+                    zuuluu = report.bind(tangon)(zuuluu);
+                    zuuluu = zuuluu.LoginHandoffSource;
+                    report = zuuluu.ROLE_SUBSCRIPTION_SETTING;
+                    zuuluu = 'handoffSource';
+                    golfie[zuuluu] = report;
+                    zuuluu = _closure1_slot9;
+                    zuuluu = zuuluu.bind(tangon)(golfie);
                     SaveGenerator(address=159);
  157:
-                    return zulu;
+                    return zuuluu;
  159:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(report) { _fun00006_ip = 295; continue _fun00005 }
  168:
                     report = global;
-                    options = report.URL;
+                    option = report.URL;
                     verify = report.location;
                     offset = verify.protocol;
-                    romeo = _closure1_slot6;
-                    yankee = romeo.DEVELOPER_PORTAL_LOGIN_HANDOFF;
-                    verify = golf.nonce;
-                    golf = argFoo;
-                    verify = yankee.bind(romeo)(verify, zulu, golf);
+                    romeon = _closure1_slot6;
+                    yankee = romeon.DEVELOPER_PORTAL_LOGIN_HANDOFF;
+                    verify = golfie.nonce;
+                    golfie = argFoo;
+                    verify = yankee.bind(romeon)(verify, zuuluu, golfie);
                     report = report.HermesInternal;
-                    golf = report.concat;
+                    golfie = report.concat;
                     report = '';
-                    kilo = golf.bind(report)(offset, verify);
-                    golf = options.prototype;
-                    golf = Object.create(golf, {constructor: {value: options}});
-                    sizing = golf;
-                    report = new sizing[options](kilo, backup);
-                    report = report instanceof Object ? report : golf;
-                    golf = _closure1_slot1;
-                    options = _closure1_slot2;
-                    oscar = 10;
-                    oscar = options[oscar];
-                    golf = golf.bind(tango)(oscar);
-                    oscar = golf.performURLNavigation;
+                    kiloes = golfie.bind(report)(offset, verify);
+                    golfie = option.prototype;
+                    golfie = Object.create(golfie, {constructor: {value: option}});
+                    sizing = golfie;
+                    report = new sizing[option](kiloes, backup);
+                    report = report instanceof Object ? report : golfie;
+                    golfie = _closure1_slot1;
+                    option = _closure1_slot2;
+                    oscard = 10;
+                    oscard = option[oscard];
+                    golfie = golfie.bind(tangon)(oscard);
+                    oscard = golfie.performURLNavigation;
                     report = report.href;
-                    report = oscar.bind(golf)(report);
-                    return tango;
+                    report = oscard.bind(golfie)(report);
+                    return tangon;
  295:
-                    return zulu;
+                    return zuuluu;
  298:
-                    return mike;
+                    return michal;
  301:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot11 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot11 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    golf = mike.AnalyticEvents;
-    var _closure1_slot5 = golf;
-    golf = mike.MarketingURLs;
-    var _closure1_slot6 = golf;
-    mike = mike.Routes;
-    var _closure1_slot7 = mike;
-    mike = 'mweb-handoff';
-    var _closure1_slot8 = mike;
-    mike = {};
-    golf = function() { // Original name: redirectWithHandoffToken
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    golfie = michal.AnalyticEvents;
+    var _closure1_slot5 = golfie;
+    golfie = michal.MarketingURLs;
+    var _closure1_slot6 = golfie;
+    michal = michal.Routes;
+    var _closure1_slot7 = michal;
+    michal = 'mweb-handoff';
+    var _closure1_slot8 = michal;
+    michal = {};
+    golfie = function() { // Original name: redirectWithHandoffToken
         entity = undefined;
-        tango = _closure1_slot10;
-        zulu = tango.apply;
+        tangon = _closure1_slot10;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['redirectWithHandoffToken'] = golf;
-    tango = function() { // Original name: redirectDeveloperPortalWithHandoffToken
+    michal['redirectWithHandoffToken'] = golfie;
+    tangon = function() { // Original name: redirectDeveloperPortalWithHandoffToken
         entity = undefined;
-        tango = _closure1_slot11;
-        zulu = tango.apply;
+        tangon = _closure1_slot11;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['redirectDeveloperPortalWithHandoffToken'] = tango;
-    tango = 11;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['redirectDeveloperPortalWithHandoffToken'] = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

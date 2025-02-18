@@ -1,70 +1,70 @@
 // app/modules/soundboard/getSoundboardSoundURL.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/soundboard/getSoundboardSoundURL.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getSoundboardSoundURL
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/soundboard/getSoundboardSoundURL.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getSoundboardSoundURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = global;
-            entity = mike.window;
+            michal = global;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            golf = entity.CDN_HOST;
-            zulu = entity.PROJECT_ENV;
+            golfie = entity.CDN_HOST;
+            zuuluu = entity.PROJECT_ENV;
             entity = 'development';
-            if(!(entity === zulu)) { _fun00002_ip = 109; continue _fun00001 }
+            if(!(entity === zuuluu)) { _fun00002_ip = 109; continue _fun00001 }
  37:
-            entity = mike.location;
-            options = entity.protocol;
-            entity = mike.window;
+            entity = michal.location;
+            option = entity.protocol;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            oscar = entity.API_ENDPOINT;
-            zulu = _closure1_slot0;
-            entity = zulu.SOUNDBOARD_SOUND;
-            tango = entity.bind(zulu)(report);
-            entity = mike.HermesInternal;
-            zulu = entity.concat;
+            oscard = entity.API_ENDPOINT;
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.SOUNDBOARD_SOUND;
+            tangon = entity.bind(zuuluu)(report);
+            entity = michal.HermesInternal;
+            zuuluu = entity.concat;
             entity = '';
-            entity = zulu.bind(entity)(options, oscar, tango);
+            entity = zuuluu.bind(entity)(option, oscard, tangon);
             _fun00002_ip = 170; continue _fun00001;
  109:
-            zulu = mike.location;
-            oscar = zulu.protocol;
-            tango = _closure1_slot0;
-            zulu = tango.SOUNDBOARD_SOUND;
-            verify = zulu.bind(tango)(report);
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            foxtrot = '';
+            zuuluu = michal.location;
+            oscard = zuuluu.protocol;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.SOUNDBOARD_SOUND;
+            verify = zuuluu.bind(tangon)(report);
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            foxtra = '';
             yankee = '//';
-            romeo = oscar;
-            offset = golf;
-            entity = foxtrot[tango](romeo, yankee, offset, verify, options);
+            romeon = oscard;
+            offset = golfie;
+            entity = foxtra[tangon](romeon, yankee, offset, verify, option);
  170:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

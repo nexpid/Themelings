@@ -1,183 +1,183 @@
 // app/modules/search_v2/native/hooks/useSearchContext.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.SearchTypes;
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/search_v2/native/hooks/useSearchContext.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useGuildSearchContext
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SearchTypes;
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/hooks/useSearchContext.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useGuildSearchContext
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             entity = {};
-            mike = _closure1_slot5;
-            mike = mike.GUILD;
-            entity['type'] = mike;
-            mike = _closure2_slot0;
-            entity['guildId'] = mike;
+            michal = _closure1_slot5;
+            michal = michal.GUILD;
+            entity['type'] = michal;
+            michal = _closure2_slot0;
+            entity['guildId'] = michal;
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useGuildSearchContext'] = tango;
-    tango = function(argFoo, argBar) { // Original name: useGuildChannelSearchContext
-        oscar = argFoo;
+    zuuluu['useGuildSearchContext'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: useGuildChannelSearchContext
+        oscard = argFoo;
         report = argBar;
-        var _closure2_slot0 = oscar;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             entity = {};
-            mike = _closure1_slot5;
-            mike = mike.GUILD_CHANNEL;
-            entity['type'] = mike;
-            zulu = _closure2_slot0;
-            entity['guildId'] = zulu;
-            mike = _closure2_slot1;
-            entity['channelId'] = mike;
+            michal = _closure1_slot5;
+            michal = michal.GUILD_CHANNEL;
+            entity['type'] = michal;
+            zuuluu = _closure2_slot0;
+            entity['guildId'] = zuuluu;
+            michal = _closure2_slot1;
+            entity['channelId'] = michal;
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useGuildChannelSearchContext'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useChannelDetailsSearchContext
-        golf = argFoo;
-        oscar = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+    zuuluu['useGuildChannelSearchContext'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useChannelDetailsSearchContext
+        golfie = argFoo;
+        oscard = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        options = report.bind(zulu)(tango);
-        report = options.useStateFromStores;
-        zulu = _closure1_slot4;
-        tango = new Array(1);
-        tango[0] = zulu;
-        zulu = function() {
+        tangon = _closure1_slot2;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        option = report.bind(zuuluu)(tangon);
+        report = option.useStateFromStores;
+        zuuluu = _closure1_slot4;
+        tangon = new Array(1);
+        tangon[0] = zuuluu;
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot4;
-                mike = zulu.getChannel;
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                zulu = mike.bind(zulu)(entity);
+                zuuluu = michal.bind(zuuluu)(entity);
                 entity = null;
-                mike = entity == zulu;
+                michal = entity == zuuluu;
                 entity = undefined;
-                if(mike) { _fun00002_ip = 45; continue _fun00001 }
+                if(michal) { _fun00002_ip = 45; continue _fun00001 }
  35:
-                mike = zulu.isThread;
-                entity = mike.bind(zulu)();
+                michal = zuuluu.isThread;
+                entity = michal.bind(zuuluu)();
  45:
                 return entity;
             }
         };
-        report = report.bind(options)(tango, zulu);
+        report = report.bind(option)(tangon, zuuluu);
         var _closure2_slot2 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(3);
-        mike[0] = golf;
-        mike[1] = oscar;
-        mike[2] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(3);
+        michal[0] = golfie;
+        michal[1] = oscard;
+        michal[2] = report;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot2;
                 if(entity) { _fun00004_ip = 89; continue _fun00003 }
  10:
-                mike = _closure2_slot1;
+                michal = _closure2_slot1;
                 entity = null;
-                if(!(entity != mike)) { _fun00004_ip = 57; continue _fun00003 }
+                if(!(entity != michal)) { _fun00004_ip = 57; continue _fun00003 }
  20:
                 entity = {};
-                mike = _closure1_slot5;
-                mike = mike.GUILD_CHANNEL;
-                entity['type'] = mike;
-                mike = _closure2_slot1;
-                entity['guildId'] = mike;
-                mike = _closure2_slot0;
-                entity['channelId'] = mike;
+                michal = _closure1_slot5;
+                michal = michal.GUILD_CHANNEL;
+                entity['type'] = michal;
+                michal = _closure2_slot1;
+                entity['guildId'] = michal;
+                michal = _closure2_slot0;
+                entity['channelId'] = michal;
                 _fun00004_ip = 87; continue _fun00003;
  57:
-                mike = {};
-                tango = _closure1_slot5;
-                tango = tango.CHANNEL;
-                mike['type'] = tango;
-                tango = _closure2_slot0;
-                mike['channelId'] = tango;
-                entity = mike;
+                michal = {};
+                tangon = _closure1_slot5;
+                tangon = tangon.CHANNEL;
+                michal['type'] = tangon;
+                tangon = _closure2_slot0;
+                michal['channelId'] = tangon;
+                entity = michal;
  87:
                 _fun00004_ip = 167; continue _fun00003;
  89:
-                tango = _closure1_slot1;
-                oscar = _closure1_slot2;
-                mike = 4;
-                mike = oscar[mike];
-                options = undefined;
-                golf = tango.bind(options)(mike);
-                tango = _closure2_slot1;
-                mike = null;
-                oscar = mike != tango;
-                mike = '[useChannelDetailsSearchContext] Thread must have a guild id';
-                mike = golf.bind(options)(oscar, mike);
-                mike = {};
+                tangon = _closure1_slot1;
+                oscard = _closure1_slot2;
+                michal = 4;
+                michal = oscard[michal];
+                option = undefined;
+                golfie = tangon.bind(option)(michal);
+                tangon = _closure2_slot1;
+                michal = null;
+                oscard = michal != tangon;
+                michal = '[useChannelDetailsSearchContext] Thread must have a guild id';
+                michal = golfie.bind(option)(oscard, michal);
+                michal = {};
                 report = _closure1_slot5;
                 report = report.THREAD;
-                mike['type'] = report;
-                mike['guildId'] = tango;
-                zulu = _closure2_slot0;
-                mike['channelId'] = zulu;
-                entity = mike;
+                michal['type'] = report;
+                michal['guildId'] = tangon;
+                zuuluu = _closure2_slot0;
+                michal['channelId'] = zuuluu;
+                entity = michal;
  167:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useChannelDetailsSearchContext'] = mike;
+    zuuluu['useChannelDetailsSearchContext'] = michal;
     return entity;
 })();

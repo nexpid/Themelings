@@ -1,196 +1,196 @@
 // discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = function(argFoo, argBar) { // Original name: APIError
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function(argFoo, argBar) { // Original name: APIError
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 verify = arguments[2];
-                zulu = this;
+                zuuluu = this;
                 entity = undefined;
                 if(!(verify === entity)) { _fun00002_ip = 21; continue _fun00001 }
  15:
                 verify = 'An unexpected error occurred.';
  21:
-                tango = _closure1_slot0;
-                mike = _closure2_slot0;
-                mike = tango.bind(entity)(zulu, mike);
-                tango = 'string';
-                mike = typeof report;
-                if(!(tango !== mike)) { _fun00002_ip = 302; continue _fun00001 }
+                tangon = _closure1_slot0;
+                michal = _closure2_slot0;
+                michal = tangon.bind(entity)(zuuluu, michal);
+                tangon = 'string';
+                michal = typeof report;
+                if(!(tangon !== michal)) { _fun00002_ip = 302; continue _fun00001 }
  55:
-                mike = report.body;
-                golf = null;
-                if(!(golf == mike)) { _fun00002_ip = 73; continue _fun00001 }
+                michal = report.body;
+                golfie = null;
+                if(!(golfie == michal)) { _fun00002_ip = 73; continue _fun00001 }
  66:
-                mike = {};
+                michal = {};
                 _fun00002_ip = 318; continue _fun00001;
  73:
-                tango = report.body;
-                tango = tango.message;
-                if(!(golf != tango)) { _fun00002_ip = 224; continue _fun00001 }
+                tangon = report.body;
+                tangon = tangon.message;
+                if(!(golfie != tangon)) { _fun00002_ip = 224; continue _fun00001 }
  90:
-                tango = global;
-                offset = tango.Array;
-                options = offset.isArray;
-                oscar = report.body;
-                oscar = oscar.message;
-                oscar = options.bind(offset)(oscar);
-                if(oscar) { _fun00002_ip = 224; continue _fun00001 }
+                tangon = global;
+                offset = tangon.Array;
+                option = offset.isArray;
+                oscard = report.body;
+                oscard = oscard.message;
+                oscard = option.bind(offset)(oscard);
+                if(oscard) { _fun00002_ip = 224; continue _fun00001 }
  121:
-                oscar = report.body;
-                oscar = oscar.code;
-                if(!(golf != oscar)) { _fun00002_ip = 164; continue _fun00001 }
+                oscard = report.body;
+                oscard = oscard.code;
+                if(!(golfie != oscard)) { _fun00002_ip = 164; continue _fun00001 }
  135:
-                options = tango.Array;
-                oscar = options.isArray;
-                tango = report.body;
-                tango = tango.code;
-                tango = oscar.bind(options)(tango);
-                if(tango) { _fun00002_ip = 224; continue _fun00001 }
+                option = tangon.Array;
+                oscard = option.isArray;
+                tangon = report.body;
+                tangon = tangon.code;
+                tangon = oscard.bind(option)(tangon);
+                if(tangon) { _fun00002_ip = 224; continue _fun00001 }
  164:
-                tango = {};
-                oscar = report.body;
-                oscar = oscar.message;
-                tango['message'] = oscar;
-                oscar = report.body;
-                oscar = oscar.code;
-                tango['code'] = oscar;
-                oscar = report.body;
-                oscar = oscar.retry_after;
-                tango['retryAfter'] = oscar;
-                oscar = report.status;
-                tango['status'] = oscar;
-                mike = tango;
+                tangon = {};
+                oscard = report.body;
+                oscard = oscard.message;
+                tangon['message'] = oscard;
+                oscard = report.body;
+                oscard = oscard.code;
+                tangon['code'] = oscard;
+                oscard = report.body;
+                oscard = oscard.retry_after;
+                tangon['retryAfter'] = oscard;
+                oscard = report.status;
+                tangon['status'] = oscard;
+                michal = tangon;
                 _fun00002_ip = 318; continue _fun00001;
  224:
-                oscar = report.body;
-                tango = golf != oscar;
+                oscard = report.body;
+                tangon = golfie != oscard;
                 offset = null;
-                if(!tango) { _fun00002_ip = 262; continue _fun00001 }
+                if(!tangon) { _fun00002_ip = 262; continue _fun00001 }
  238:
-                tango = global;
-                options = tango.Object;
-                tango = options.values;
-                options = tango.bind(options)(oscar);
-                tango = 0;
-                offset = options[tango];
+                tangon = global;
+                option = tangon.Object;
+                tangon = option.values;
+                option = tangon.bind(option)(oscard);
+                tangon = 0;
+                offset = option[tangon];
  262:
-                tango = {};
-                options = golf != offset;
-                golf = undefined;
-                if(!options) { _fun00002_ip = 279; continue _fun00001 }
+                tangon = {};
+                option = golfie != offset;
+                golfie = undefined;
+                if(!option) { _fun00002_ip = 279; continue _fun00001 }
  273:
-                options = 0;
-                golf = offset[options];
+                option = 0;
+                golfie = offset[option];
  279:
-                tango['message'] = golf;
-                tango['fields'] = oscar;
-                oscar = report.status;
-                tango['status'] = oscar;
-                mike = tango;
+                tangon['message'] = golfie;
+                tangon['fields'] = oscard;
+                oscard = report.status;
+                tangon['status'] = oscard;
+                michal = tangon;
                 _fun00002_ip = 318; continue _fun00001;
  302:
-                tango = {};
-                tango['message'] = report;
+                tangon = {};
+                tangon['message'] = report;
                 report = argBar;
-                tango['code'] = report;
-                mike = tango;
+                tangon['code'] = report;
+                michal = tangon;
  318:
-                report = mike.message;
-                oscar = mike.code;
-                golf = mike.retryAfter;
-                tango = mike.fields;
-                mike = mike.status;
-                options = report;
-                if(options) { _fun00002_ip = 354; continue _fun00001 }
+                report = michal.message;
+                oscard = michal.code;
+                golfie = michal.retryAfter;
+                tangon = michal.fields;
+                michal = michal.status;
+                option = report;
+                if(option) { _fun00002_ip = 354; continue _fun00001 }
  351:
-                options = verify;
+                option = verify;
  354:
-                zulu['message'] = options;
-                zulu['retryAfter'] = golf;
-                if(oscar) { _fun00002_ip = 375; continue _fun00001 }
+                zuuluu['message'] = option;
+                zuuluu['retryAfter'] = golfie;
+                if(oscard) { _fun00002_ip = 375; continue _fun00001 }
  369:
-                oscar = -1;
+                oscard = -1;
  375:
-                zulu['code'] = oscar;
-                if(tango) { _fun00002_ip = 386; continue _fun00001 }
+                zuuluu['code'] = oscard;
+                if(tangon) { _fun00002_ip = 386; continue _fun00001 }
  384:
-                tango = {};
+                tangon = {};
  386:
-                zulu['fields'] = tango;
-                zulu['status'] = mike;
-                mike = global;
-                mike = mike.Error;
-                tango = mike.prototype;
-                tango = Object.create(tango, {constructor: {value: mike}});
-                foxtrot = tango;
-                romeo = report;
-                mike = new foxtrot[mike](romeo, yankee);
-                mike = mike instanceof Object ? mike : tango;
-                zulu['error'] = mike;
+                zuuluu['fields'] = tangon;
+                zuuluu['status'] = michal;
+                michal = global;
+                michal = michal.Error;
+                tangon = michal.prototype;
+                tangon = Object.create(tangon, {constructor: {value: michal}});
+                foxtra = tangon;
+                romeon = report;
+                michal = new foxtra[michal](romeon, yankee);
+                michal = michal instanceof Object ? michal : tangon;
+                zuuluu['error'] = michal;
                 return entity;
             }
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
         report = 'getFieldMessage';
         entity['key'] = report;
-        mike = function(argFoo) { // Original name: value
+        michal = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = argFoo;
-                mike = this;
-                entity = mike.fields;
-                tango = entity[zulu];
+                zuuluu = argFoo;
+                michal = this;
+                entity = michal.fields;
+                tangon = entity[zuuluu];
                 entity = null;
-                tango = entity != tango;
-                if(!tango) { _fun00004_ip = 41; continue _fun00003 }
+                tangon = entity != tangon;
+                if(!tangon) { _fun00004_ip = 41; continue _fun00003 }
  25:
-                mike = mike.fields;
-                zulu = mike[zulu];
-                mike = 0;
-                entity = zulu[mike];
+                michal = michal.fields;
+                zuuluu = michal[zuuluu];
+                michal = 0;
+                entity = zuuluu[michal];
  41:
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(1);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['APIError'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['APIError'] = michal;
     return entity;
 })();

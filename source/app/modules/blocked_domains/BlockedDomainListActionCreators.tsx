@@ -1,354 +1,354 @@
 // app/modules/blocked_domains/BlockedDomainListActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: fetchBlockedDomainList_
         entity = undefined;
-        tango = _closure1_slot11;
-        zulu = tango.apply;
+        tangon = _closure1_slot11;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _fetchBlockedDomainList_
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 1190; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 1190; continue _fun00001 }
  12:
-                    mike = undefined;
-                    romeo = undefined;
-                    var _closure4_slot0 = mike;
-                    golf = undefined;
-                    var _closure4_slot1 = mike;
+                    michal = undefined;
+                    romeon = undefined;
+                    var _closure4_slot0 = michal;
+                    golfie = undefined;
+                    var _closure4_slot1 = michal;
                     report = undefined;
-                    foxtrot = undefined;
+                    foxtra = undefined;
                     backup = undefined;
-                    var _closure4_slot2 = mike;
+                    var _closure4_slot2 = michal;
                     verify = _closure1_slot9;
-                    oscar = verify.verbose;
-                    tango = 'Fetching blocked domain list';
-                    tango = oscar.bind(verify)(tango);
+                    oscard = verify.verbose;
+                    tangon = 'Fetching blocked domain list';
+                    tangon = oscard.bind(verify)(tangon);
  60: // try_start_4
                     verify = global;
                     offset = verify.parseInt;
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot2;
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot2;
                     yankee = 4;
-                    tango = tango[yankee];
-                    tango = oscar.bind(mike)(tango);
-                    kilo = tango.HTTP;
-                    oscar = kilo.get;
-                    tango = _closure1_slot6;
-                    tango = oscar.bind(kilo)(tango);
+                    tangon = tangon[yankee];
+                    tangon = oscard.bind(michal)(tangon);
+                    kiloes = tangon.HTTP;
+                    oscard = kiloes.get;
+                    tangon = _closure1_slot6;
+                    tangon = oscard.bind(kiloes)(tangon);
                     SaveGenerator(address=111);
  109:
-                    return tango;
+                    return tangon;
  111:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun00002_ip = 1168; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 1168; continue _fun00001 }
  120:
-                    oscar = tango.text;
-                    echo = offset.bind(mike)(oscar);
-                    golf = echo;
-                    _closure4_slot1 = echo;
+                    oscard = tangon.text;
+                    echoed = offset.bind(michal)(oscard);
+                    golfie = echoed;
+                    _closure4_slot1 = echoed;
                     offset = _closure1_slot4;
-                    oscar = offset.getCurrentRevision;
-                    offset = oscar.bind(offset)();
+                    oscard = offset.getCurrentRevision;
+                    offset = oscard.bind(offset)();
                     report = offset;
                     sizing = _closure1_slot9;
-                    kilo = sizing.verbose;
-                    oscar = verify.HermesInternal;
-                    result = oscar.concat;
+                    kiloes = sizing.verbose;
+                    oscard = verify.HermesInternal;
+                    result = oscard.concat;
                     output = 'Server revision: ';
-                    oscar = ', Client revision: ';
-                    oscar = result.bind(output)(echo, oscar, offset);
-                    oscar = kilo.bind(sizing)(oscar);
-                    oscar = null;
-                    if(!(oscar !== offset)) { _fun00002_ip = 220; continue _fun00001 }
+                    oscard = ', Client revision: ';
+                    oscard = result.bind(output)(echoed, oscard, offset);
+                    oscard = kiloes.bind(sizing)(oscard);
+                    oscard = null;
+                    if(!(oscard !== offset)) { _fun00002_ip = 220; continue _fun00001 }
  207:
-                    kilo = report;
-                    offset = golf;
-                    if(!(kilo !== offset)) { _fun00002_ip = 1147; continue _fun00001 }
+                    kiloes = report;
+                    offset = golfie;
+                    if(!(kiloes !== offset)) { _fun00002_ip = 1147; continue _fun00001 }
  220: // try_start_0
                     offset = report;
-                    if(!(oscar !== offset)) { _fun00002_ip = 823; continue _fun00001 }
+                    if(!(oscard !== offset)) { _fun00002_ip = 823; continue _fun00001 }
  230:
-                    kilo = report;
-                    offset = golf;
-                    if(!(!(kilo > offset))) { _fun00002_ip = 823; continue _fun00001 }
+                    kiloes = report;
+                    offset = golfie;
+                    if(!(!(kiloes > offset))) { _fun00002_ip = 823; continue _fun00001 }
  243:
-                    offset = golf;
-                    golf = report;
-                    offset = offset - golf;
-                    golf = _closure1_slot8;
-                    if(!(!(offset > golf))) { _fun00002_ip = 762; continue _fun00001 }
+                    offset = golfie;
+                    golfie = report;
+                    offset = offset - golfie;
+                    golfie = _closure1_slot8;
+                    if(!(!(offset > golfie))) { _fun00002_ip = 762; continue _fun00001 }
  264:
                     offset = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    golf = golf[yankee];
-                    golf = offset.bind(mike)(golf);
-                    kilo = golf.HTTP;
-                    offset = kilo.get;
-                    golf = {};
+                    golfie = _closure1_slot2;
+                    golfie = golfie[yankee];
+                    golfie = offset.bind(michal)(golfie);
+                    kiloes = golfie.HTTP;
+                    offset = kiloes.get;
+                    golfie = {};
                     sizing = _closure1_slot7;
-                    golf['url'] = sizing;
+                    golfie['url'] = sizing;
                     sizing = {};
                     output = report;
                     sizing['revision'] = output;
-                    golf['query'] = sizing;
+                    golfie['query'] = sizing;
                     sizing = false;
-                    golf['rejectWithError'] = sizing;
-                    golf = offset.bind(kilo)(golf);
+                    golfie['rejectWithError'] = sizing;
+                    golfie = offset.bind(kiloes)(golfie);
                     SaveGenerator(address=330);
  328:
-                    return golf;
+                    return golfie;
  330:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
                     if(offset) { _fun00002_ip = 759; continue _fun00001 }
  339:
-                    offset = golf.body;
-                    foxtrot = offset;
+                    offset = golfie.body;
+                    foxtra = offset;
                     offset = offset.ADDED;
                     offset = offset.length;
-                    kilo = 0;
-                    if(!(kilo === offset)) { _fun00002_ip = 385; continue _fun00001 }
+                    kiloes = 0;
+                    if(!(kiloes === offset)) { _fun00002_ip = 385; continue _fun00001 }
  364:
-                    offset = foxtrot;
+                    offset = foxtra;
                     offset = offset.REMOVED;
                     offset = offset.length;
-                    if(!(kilo !== offset)) { _fun00002_ip = 733; continue _fun00001 }
+                    if(!(kiloes !== offset)) { _fun00002_ip = 733; continue _fun00001 }
  385:
                     sizing = _closure1_slot9;
-                    kilo = sizing.verbose;
-                    offset = foxtrot;
+                    kiloes = sizing.verbose;
+                    offset = foxtra;
                     output = offset.ADDED;
                     update = output.length;
                     offset = offset.REMOVED;
-                    echo = offset.length;
+                    echoed = offset.length;
                     offset = verify.HermesInternal;
                     result = offset.concat;
                     output = 'Retrieved delta, domains added: ';
                     offset = ', domains removed: ';
-                    offset = result.bind(output)(update, offset, echo);
-                    offset = kilo.bind(sizing)(offset);
-                    kilo = _closure1_slot1;
+                    offset = result.bind(output)(update, offset, echoed);
+                    offset = kiloes.bind(sizing)(offset);
+                    kiloes = _closure1_slot1;
                     sizing = _closure1_slot2;
                     offset = 3;
                     offset = sizing[offset];
-                    result = kilo.bind(mike)(offset);
+                    result = kiloes.bind(michal)(offset);
                     output = result.timeAsync;
                     sizing = '💾';
-                    kilo = 'getBlockedDomainList';
+                    kiloes = 'getBlockedDomainList';
                     offset = function() {
-                        mike = _closure1_slot4;
-                        entity = mike.getBlockedDomainList;
-                        entity = entity.bind(mike)();
+                        michal = _closure1_slot4;
+                        entity = michal.getBlockedDomainList;
+                        entity = entity.bind(michal)();
                         return entity;
                     };
-                    offset = output.bind(result)(sizing, kilo, offset);
+                    offset = output.bind(result)(sizing, kiloes, offset);
                     SaveGenerator(address=509);
  507:
                     return offset;
  509:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=14);
-                    if(kilo) { _fun00002_ip = 730; continue _fun00001 }
+                    if(kiloes) { _fun00002_ip = 730; continue _fun00001 }
  518:
                     backup = offset;
                     _closure4_slot2 = offset;
-                    if(!(oscar !== offset)) { _fun00002_ip = 696; continue _fun00001 }
+                    if(!(oscard !== offset)) { _fun00002_ip = 696; continue _fun00001 }
  532:
                     output = _closure1_slot9;
                     sizing = output.verbose;
-                    kilo = backup;
-                    update = kilo.size;
+                    kiloes = backup;
+                    update = kiloes.size;
                     backup = verify.HermesInternal;
-                    echo = backup.concat;
+                    echoed = backup.concat;
                     result = 'Blocked domains list length: ';
                     backup = ' before update';
-                    backup = echo.bind(result)(update, backup);
+                    backup = echoed.bind(result)(update, backup);
                     backup = sizing.bind(output)(backup);
-                    output = foxtrot.ADDED;
+                    output = foxtra.ADDED;
                     sizing = output.forEach;
                     backup = function(argFoo) {
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                            tango = argFoo;
-                            mike = _closure4_slot2;
-                            zulu = mike[tango];
-                            mike = null;
-                            if(!(mike == zulu)) { _fun00004_ip = 34; continue _fun00003 }
+                            tangon = argFoo;
+                            michal = _closure4_slot2;
+                            zuuluu = michal[tangon];
+                            michal = null;
+                            if(!(michal == zuuluu)) { _fun00004_ip = 34; continue _fun00003 }
  20:
-                            mike = _closure4_slot2;
+                            michal = _closure4_slot2;
                             entity = true;
-                            mike[tango] = entity;
+                            michal[tangon] = entity;
                             entity = undefined;
                             return entity;
  34:
                             entity = global;
-                            zulu = entity.Error;
+                            zuuluu = entity.Error;
                             entity = entity.HermesInternal;
-                            mike = entity.concat;
+                            michal = entity.concat;
                             entity = 'Unable to add domain which is already in the blockedDomains set: ';
-                            report = mike.bind(entity)(tango);
-                            mike = zulu.prototype;
-                            mike = Object.create(mike, {constructor: {value: zulu}});
-                            oscar = mike;
-                            entity = new oscar[zulu](report, tango);
-                            entity = entity instanceof Object ? entity : mike;
+                            report = michal.bind(entity)(tangon);
+                            michal = zuuluu.prototype;
+                            michal = Object.create(michal, {constructor: {value: zuuluu}});
+                            oscard = michal;
+                            entity = new oscard[zuuluu](report, tangon);
+                            entity = entity instanceof Object ? entity : michal;
                             throw entity;
                         }
                     };
                     backup = sizing.bind(output)(backup);
-                    sizing = foxtrot.REMOVED;
+                    sizing = foxtra.REMOVED;
                     backup = sizing.forEach;
-                    foxtrot = function(argFoo) {
+                    foxtra = function(argFoo) {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                            tango = argFoo;
-                            mike = _closure4_slot2;
-                            zulu = mike[tango];
-                            mike = null;
-                            if(!(mike != zulu)) { _fun00006_ip = 34; continue _fun00005 }
+                            tangon = argFoo;
+                            michal = _closure4_slot2;
+                            zuuluu = michal[tangon];
+                            michal = null;
+                            if(!(michal != zuuluu)) { _fun00006_ip = 34; continue _fun00005 }
  20:
-                            mike = _closure4_slot2;
+                            michal = _closure4_slot2;
                             entity = false;
-                            mike[tango] = entity;
+                            michal[tangon] = entity;
                             entity = undefined;
                             return entity;
  34:
                             entity = global;
-                            zulu = entity.Error;
+                            zuuluu = entity.Error;
                             entity = entity.HermesInternal;
-                            mike = entity.concat;
+                            michal = entity.concat;
                             entity = 'Unable to removed domain which is not in the blockedDomains set: ';
-                            report = mike.bind(entity)(tango);
-                            mike = zulu.prototype;
-                            mike = Object.create(mike, {constructor: {value: zulu}});
-                            oscar = mike;
-                            entity = new oscar[zulu](report, tango);
-                            entity = entity instanceof Object ? entity : mike;
+                            report = michal.bind(entity)(tangon);
+                            michal = zuuluu.prototype;
+                            michal = Object.create(michal, {constructor: {value: zuuluu}});
+                            oscard = michal;
+                            entity = new oscard[zuuluu](report, tangon);
+                            entity = entity instanceof Object ? entity : michal;
                             throw entity;
                         }
                     };
-                    foxtrot = backup.bind(sizing)(foxtrot);
+                    foxtra = backup.bind(sizing)(foxtra);
                     backup = verify.Object;
-                    foxtrot = backup.keys;
-                    kilo = foxtrot.bind(backup)(kilo);
-                    backup = kilo.filter;
-                    foxtrot = function(argFoo) {
-                        mike = _closure4_slot2;
+                    foxtra = backup.keys;
+                    kiloes = foxtra.bind(backup)(kiloes);
+                    backup = kiloes.filter;
+                    foxtra = function(argFoo) {
+                        michal = _closure4_slot2;
                         entity = argFoo;
-                        entity = mike[entity];
+                        entity = michal[entity];
                         return entity;
                     };
-                    foxtrot = backup.bind(kilo)(foxtrot);
-                    romeo = foxtrot;
-                    _closure4_slot0 = foxtrot;
-                    kilo = _closure1_slot9;
-                    backup = kilo.verbose;
-                    foxtrot = 'Delta applied successfully';
-                    foxtrot = backup.bind(kilo)(foxtrot);
+                    foxtra = backup.bind(kiloes)(foxtra);
+                    romeon = foxtra;
+                    _closure4_slot0 = foxtra;
+                    kiloes = _closure1_slot9;
+                    backup = kiloes.verbose;
+                    foxtra = 'Delta applied successfully';
+                    foxtra = backup.bind(kiloes)(foxtra);
  691: // try_end0
                     _fun00002_ip = 1046; continue _fun00001;
  696: // try_start_1
-                    kilo = verify.Error;
-                    foxtrot = kilo.prototype;
-                    backup = Object.create(foxtrot, {constructor: {value: kilo}});
+                    kiloes = verify.Error;
+                    foxtra = kiloes.prototype;
+                    backup = Object.create(foxtra, {constructor: {value: kiloes}});
                     vacuum = 'Blocked domain list is null';
-                    sequence = backup;
-                    foxtrot = new sequence[kilo](vacuum, control);
-                    foxtrot = foxtrot instanceof Object ? foxtrot : backup;
-                    throw foxtrot;
+                    sequen = backup;
+                    foxtra = new sequen[kiloes](vacuum, ctrled);
+                    foxtra = foxtra instanceof Object ? foxtra : backup;
+                    throw foxtra;
  730: // try_end1 // try_end4
                     return offset;
  733: // try_start_2 // try_start_5
                     backup = _closure1_slot9;
-                    foxtrot = backup.verbose;
+                    foxtra = backup.verbose;
                     offset = 'No changes to blocked domains list.';
-                    offset = foxtrot.bind(backup)(offset);
+                    offset = foxtra.bind(backup)(offset);
  754: // try_end2 // try_end5
                     offset = undefined;
                     return offset;
  759:
-                    return golf;
+                    return golfie;
  762: // try_start_3 // try_start_6
-                    foxtrot = verify.Error;
-                    kilo = _closure1_slot8;
-                    golf = verify.HermesInternal;
-                    backup = golf.concat;
+                    foxtra = verify.Error;
+                    kiloes = _closure1_slot8;
+                    golfie = verify.HermesInternal;
+                    backup = golfie.concat;
                     offset = 'Client revision number is more than ';
-                    golf = ' behind the server revision number';
-                    vacuum = backup.bind(offset)(kilo, golf);
-                    offset = foxtrot.prototype;
-                    offset = Object.create(offset, {constructor: {value: foxtrot}});
-                    sequence = offset;
-                    golf = new sequence[foxtrot](vacuum, control);
-                    golf = golf instanceof Object ? golf : offset;
-                    throw golf;
+                    golfie = ' behind the server revision number';
+                    vacuum = backup.bind(offset)(kiloes, golfie);
+                    offset = foxtra.prototype;
+                    offset = Object.create(offset, {constructor: {value: foxtra}});
+                    sequen = offset;
+                    golfie = new sequen[foxtra](vacuum, ctrled);
+                    golfie = golfie instanceof Object ? golfie : offset;
+                    throw golfie;
  823:
-                    golf = verify.Error;
+                    golfie = verify.Error;
                     offset = 'greater than server revision number';
-                    if(!(oscar === report)) { _fun00002_ip = 843; continue _fun00001 }
+                    if(!(oscard === report)) { _fun00002_ip = 843; continue _fun00001 }
  839:
                     offset = 'null';
  843:
-                    report = golf.prototype;
-                    oscar = Object.create(report, {constructor: {value: golf}});
+                    report = golfie.prototype;
+                    oscard = Object.create(report, {constructor: {value: golfie}});
                     report = 'Client revision number is ';
                     vacuum = report + offset;
-                    sequence = oscar;
-                    report = new sequence[golf](vacuum, control);
-                    report = report instanceof Object ? report : oscar;
+                    sequen = oscard;
+                    report = new sequen[golfie](vacuum, ctrled);
+                    report = report instanceof Object ? report : oscard;
                     throw report;
  875: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=4);
-                    golf = _closure1_slot9;
-                    oscar = golf.verbose;
-                    foxtrot = report.message;
+                    golfie = _closure1_slot9;
+                    oscard = golfie.verbose;
+                    foxtra = report.message;
                     report = verify.HermesInternal;
                     offset = report.concat;
                     report = 'Unable to process domain list delta: ';
-                    report = offset.bind(report)(foxtrot);
-                    report = oscar.bind(golf)(report);
-                    oscar = _closure1_slot0;
-                    golf = _closure1_slot2;
+                    report = offset.bind(report)(foxtra);
+                    report = oscard.bind(golfie)(report);
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
                     report = 5;
-                    report = golf[report];
-                    oscar = oscar.bind(mike)(report);
-                    report = oscar.isSlowNetwork;
-                    report = report.bind(oscar)();
-                    golf = _closure1_slot9;
-                    oscar = golf.verbose;
+                    report = golfie[report];
+                    oscard = oscard.bind(michal)(report);
+                    report = oscard.isSlowNetwork;
+                    report = report.bind(oscard)();
+                    golfie = _closure1_slot9;
+                    oscard = golfie.verbose;
                     if(report) { _fun00002_ip = 1152; continue _fun00001 }
  965:
                     report = 'Downloading the full bad domains file';
-                    report = oscar.bind(golf)(report);
+                    report = oscard.bind(golfie)(report);
                     offset = _closure1_slot0;
                     report = _closure1_slot2;
                     report = report[yankee];
-                    report = offset.bind(mike)(report);
+                    report = offset.bind(michal)(report);
                     yankee = report.HTTP;
                     offset = yankee.get;
                     report = {};
-                    foxtrot = _closure1_slot5;
-                    report['url'] = foxtrot;
-                    foxtrot = false;
-                    report['rejectWithError'] = foxtrot;
+                    foxtra = _closure1_slot5;
+                    report['url'] = foxtra;
+                    foxtra = false;
+                    report['rejectWithError'] = foxtra;
                     report = offset.bind(yankee)(report);
                     SaveGenerator(address=1028);
  1026:
@@ -358,142 +358,142 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     if(offset) { _fun00002_ip = 1149; continue _fun00001 }
  1034:
                     offset = report.body;
-                    romeo = offset;
+                    romeon = offset;
                     _closure4_slot0 = offset;
  1046:
                     yankee = _closure1_slot9;
                     offset = yankee.verbose;
-                    backup = romeo.length;
+                    backup = romeon.length;
                     verify = verify.HermesInternal;
-                    foxtrot = verify.concat;
-                    romeo = 'Blocked domains list length: ';
+                    foxtra = verify.concat;
+                    romeon = 'Blocked domains list length: ';
                     verify = ' after update';
-                    verify = foxtrot.bind(romeo)(backup, verify);
+                    verify = foxtra.bind(romeon)(backup, verify);
                     verify = offset.bind(yankee)(verify);
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
                     verify = 3;
                     verify = yankee[verify];
-                    romeo = offset.bind(mike)(verify);
-                    yankee = romeo.time;
+                    romeon = offset.bind(michal)(verify);
+                    yankee = romeon.time;
                     offset = '💾';
                     verify = 'Save Blocked Domain List';
-                    options = function() {
-                        zulu = _closure1_slot1;
-                        mike = _closure1_slot2;
+                    option = function() {
+                        zuuluu = _closure1_slot1;
+                        michal = _closure1_slot2;
                         entity = 6;
-                        mike = mike[entity];
+                        michal = michal[entity];
                         entity = undefined;
-                        zulu = zulu.bind(entity)(mike);
-                        mike = zulu.dispatch;
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.dispatch;
                         entity = {};
-                        tango = 'BLOCKED_DOMAIN_LIST_FETCHED';
-                        entity['type'] = tango;
+                        tangon = 'BLOCKED_DOMAIN_LIST_FETCHED';
+                        entity['type'] = tangon;
                         report = _closure4_slot0;
                         entity['list'] = report;
-                        tango = _closure4_slot1;
-                        entity['revision'] = tango;
-                        entity = mike.bind(zulu)(entity);
+                        tangon = _closure4_slot1;
+                        entity['revision'] = tangon;
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    options = yankee.bind(romeo)(offset, verify, options);
+                    option = yankee.bind(romeon)(offset, verify, option);
  1147: // try_end6
                     _fun00002_ip = 1187; continue _fun00001;
  1149:
                     return report;
  1152: // try_start_7
                     report = 'Slow network detected, not downloading full list';
-                    report = oscar.bind(golf)(report);
+                    report = oscard.bind(golfie)(report);
  1163: // try_end7
                     report = undefined;
                     return report;
  1168:
-                    return tango;
+                    return tangon;
  1171: // catch_target4 // catch_target5 // catch_target6 // catch_target7
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot9;
-                    zulu = tango.error;
-                    zulu = zulu.bind(tango)(report);
+                    tangon = _closure1_slot9;
+                    zuuluu = tangon.error;
+                    zuuluu = zuuluu.bind(tangon)(report);
  1187:
-                    return mike;
+                    return michal;
  1190:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot11 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot11 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot11 = entity;
-    tango = global;
-    offset = tango.Object;
+    tangon = global;
+    offset = tangon.Object;
     verify = offset.defineProperty;
-    options = {};
+    option = {};
     entity = true;
-    options['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, options);
+    entity = verify.bind(offset)(zuuluu, entity, option);
     entity = 0;
-    options = oscar[entity];
+    option = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(options);
-    var _closure1_slot3 = options;
-    options = 1;
-    options = oscar[options];
-    options = golf.bind(entity)(options);
-    var _closure1_slot4 = options;
-    options = 'https://cdn.discordapp.com/bad-domains/updated_hashes.json';
-    var _closure1_slot5 = options;
-    options = 'https://cdn.discordapp.com/bad-domains/current_revision.txt';
-    var _closure1_slot6 = options;
-    options = tango.window;
-    options = options.GLOBAL_ENV;
-    offset = options.WEBAPP_ENDPOINT;
-    tango = tango.HermesInternal;
-    verify = tango.concat;
-    options = 'https:';
-    tango = '/bad-hash-delta';
-    tango = verify.bind(options)(offset, tango);
-    var _closure1_slot7 = tango;
-    tango = 15;
-    var _closure1_slot8 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    foxtrot = 'FetchBlockedDomain';
-    backup = golf;
-    tango = new backup[options](foxtrot, romeo);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot9 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/blocked_domains/BlockedDomainListActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: fetchBlockedDomainList
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        report = tango.bind(mike)(zulu);
-        tango = report.timeAsync;
-        zulu = _closure1_slot10;
-        mike = '💾';
+    option = golfie.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 1;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 'https://cdn.discordapp.com/bad-domains/updated_hashes.json';
+    var _closure1_slot5 = option;
+    option = 'https://cdn.discordapp.com/bad-domains/current_revision.txt';
+    var _closure1_slot6 = option;
+    option = tangon.window;
+    option = option.GLOBAL_ENV;
+    offset = option.WEBAPP_ENDPOINT;
+    tangon = tangon.HermesInternal;
+    verify = tangon.concat;
+    option = 'https:';
+    tangon = '/bad-hash-delta';
+    tangon = verify.bind(option)(offset, tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 15;
+    var _closure1_slot8 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    foxtra = 'FetchBlockedDomain';
+    backup = golfie;
+    tangon = new backup[option](foxtra, romeon);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/blocked_domains/BlockedDomainListActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: fetchBlockedDomainList
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        report = tangon.bind(michal)(zuuluu);
+        tangon = report.timeAsync;
+        zuuluu = _closure1_slot10;
+        michal = '💾';
         entity = 'fetchBlockedDomainList';
-        entity = tango.bind(report)(mike, entity, zulu);
+        entity = tangon.bind(report)(michal, entity, zuuluu);
         return entity;
     };
-    zulu['fetchBlockedDomainList'] = mike;
+    zuuluu['fetchBlockedDomainList'] = michal;
     return entity;
 })();

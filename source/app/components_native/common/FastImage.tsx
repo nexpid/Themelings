@@ -1,229 +1,229 @@
 // app/components_native/common/FastImage.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        zulu = argFred;
-        oscar = argPlugh;
-        tango = function(argFoo) { // Original name: FastImageAndroid
+        zuuluu = argFre;
+        oscard = argPlu;
+        tangon = function(argFoo) { // Original name: FastImageAndroid
             entity = argFoo;
-            tango = _closure1_slot2;
-            zulu = _closure1_slot0;
-            mike = {};
-            golf = mike;
-            oscar = entity;
-            report = copyDataProperties(golf, oscar);
+            tangon = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            michal = {};
+            golfie = michal;
+            oscard = entity;
+            report = copyDataProperties(golfie, oscard);
             report = entity.placeholder;
             entity = 'defaultSource';
-            mike[entity] = report;
+            michal[entity] = report;
             report = 0;
             entity = 'fadeDuration';
-            mike[entity] = report;
+            michal[entity] = report;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        mike = global;
-        offset = mike.Object;
+        michal = global;
+        offset = michal.Object;
         verify = offset.defineProperty;
-        options = {};
+        option = {};
         entity = true;
-        options['value'] = entity;
+        option['value'] = entity;
         entity = '__esModule';
-        entity = verify.bind(offset)(zulu, entity, options);
+        entity = verify.bind(offset)(zuuluu, entity, option);
         entity = 0;
-        verify = oscar[entity];
-        options = argCorge;
+        verify = oscard[entity];
+        option = argCor;
         entity = undefined;
-        offset = options.bind(entity)(verify);
-        options = 1;
-        options = oscar[options];
-        options = report.bind(entity)(options);
-        yankee = options.Image;
+        offset = option.bind(entity)(verify);
+        option = 1;
+        option = oscard[option];
+        option = report.bind(entity)(option);
+        yankee = option.Image;
         var _closure1_slot0 = yankee;
-        romeo = options.StyleSheet;
-        options = options.NativeModules;
-        var _closure1_slot1 = options;
-        options = 2;
-        options = oscar[options];
-        options = report.bind(entity)(options);
-        options = options.jsx;
-        var _closure1_slot2 = options;
-        verify = romeo.create;
-        options = {};
-        foxtrot = {};
+        romeon = option.StyleSheet;
+        option = option.NativeModules;
+        var _closure1_slot1 = option;
+        option = 2;
+        option = oscard[option];
+        option = report.bind(entity)(option);
+        option = option.jsx;
+        var _closure1_slot2 = option;
+        verify = romeon.create;
+        option = {};
+        foxtra = {};
         backup = 'hidden';
-        foxtrot['overflow'] = backup;
-        options['base'] = foxtrot;
-        options = verify.bind(romeo)(options);
-        var _closure1_slot3 = options;
-        options = 3;
-        verify = oscar[options];
-        options = argBaz;
-        verify = options.bind(entity)(verify);
-        options = {'componentName': 'DCDFastImageView', 'componentMissingFallbackInstance': null, 'warnWhenMissing': false};
-        options['componentMissingFallbackInstance'] = yankee;
-        options = verify.bind(entity)(options);
-        var _closure1_slot4 = options;
+        foxtra['overflow'] = backup;
+        option['base'] = foxtra;
+        option = verify.bind(romeon)(option);
+        var _closure1_slot3 = option;
+        option = 3;
+        verify = oscard[option];
+        option = argBaz;
+        verify = option.bind(entity)(verify);
+        option = {'componentName': 'DCDFastImageView', 'componentMissingFallbackInstance': null, 'warnWhenMissing': false};
+        option['componentMissingFallbackInstance'] = yankee;
+        option = verify.bind(entity)(option);
+        var _closure1_slot4 = option;
         verify = offset.memo;
-        options = function(argFoo) {
+        option = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = argFoo;
                 entity = report.source;
                 yankee = report.style;
-                zulu = report.placeholder;
-                mike = report.enableAnimation;
-                tango = undefined;
-                verify = tango === mike;
+                zuuluu = report.placeholder;
+                michal = report.enableAnimation;
+                tangon = undefined;
+                verify = tangon === michal;
                 if(verify) { _fun00004_ip = 37; continue _fun00003 }
  34:
-                verify = mike;
+                verify = michal;
  37:
-                mike = report.fade;
-                options = tango === mike;
-                if(options) { _fun00004_ip = 53; continue _fun00003 }
+                michal = report.fade;
+                option = tangon === michal;
+                if(option) { _fun00004_ip = 53; continue _fun00003 }
  50:
-                options = mike;
+                option = michal;
  53:
-                mike = report.usesSmallCache;
-                golf = tango !== mike;
-                if(!golf) { _fun00004_ip = 69; continue _fun00003 }
+                michal = report.usesSmallCache;
+                golfie = tangon !== michal;
+                if(!golfie) { _fun00004_ip = 69; continue _fun00003 }
  66:
-                golf = mike;
+                golfie = michal;
  69:
-                mike = 'number';
+                michal = 'number';
                 entity = typeof entity;
-                if(!(mike !== entity)) { _fun00004_ip = 225; continue _fun00003 }
+                if(!(michal !== entity)) { _fun00004_ip = 225; continue _fun00003 }
  83:
                 offset = null;
-                entity = offset != zulu;
-                oscar = null;
+                entity = offset != zuuluu;
+                oscard = null;
                 if(!entity) { _fun00004_ip = 112; continue _fun00003 }
  94:
-                mike = _closure1_slot0;
-                entity = mike.resolveAssetSource;
-                oscar = entity.bind(mike)(zulu);
+                michal = _closure1_slot0;
+                entity = michal.resolveAssetSource;
+                oscard = entity.bind(michal)(zuuluu);
  112:
-                zulu = _closure1_slot2;
-                mike = _closure1_slot4;
+                zuuluu = _closure1_slot2;
+                michal = _closure1_slot4;
                 entity = {};
-                kilo = entity;
+                kiloes = entity;
                 backup = report;
-                foxtrot = copyDataProperties(kilo, backup);
-                romeo = _closure1_slot3;
-                foxtrot = romeo.base;
-                romeo = new Array(2);
-                romeo[0] = foxtrot;
-                romeo[1] = yankee;
+                foxtra = copyDataProperties(kiloes, backup);
+                romeon = _closure1_slot3;
+                foxtra = romeon.base;
+                romeon = new Array(2);
+                romeon[0] = foxtra;
+                romeon[1] = yankee;
                 yankee = 'style';
-                entity[yankee] = romeo;
-                yankee = offset == oscar;
+                entity[yankee] = romeon;
+                yankee = offset == oscard;
                 offset = undefined;
                 if(yankee) { _fun00004_ip = 181; continue _fun00003 }
  175:
-                offset = oscar.uri;
+                offset = oscard.uri;
  181:
-                oscar = 'placeholder';
-                entity[oscar] = offset;
-                oscar = 'enableAnimation';
-                entity[oscar] = verify;
-                oscar = 'fade';
-                entity[oscar] = options;
-                oscar = 'usesSmallCache';
-                entity[oscar] = golf;
-                entity = zulu.bind(tango)(mike, entity);
+                oscard = 'placeholder';
+                entity[oscard] = offset;
+                oscard = 'enableAnimation';
+                entity[oscard] = verify;
+                oscard = 'fade';
+                entity[oscard] = option;
+                oscard = 'usesSmallCache';
+                entity[oscard] = golfie;
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
  225:
-                zulu = _closure1_slot2;
-                mike = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = _closure1_slot0;
                 entity = {};
-                kilo = entity;
+                kiloes = entity;
                 backup = report;
-                report = copyDataProperties(kilo, backup);
-                entity = zulu.bind(tango)(mike, entity);
+                report = copyDataProperties(kiloes, backup);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             }
         };
-        offset = verify.bind(offset)(options);
-        verify = mike.Object;
-        options = verify.assign;
-        mike = {};
+        offset = verify.bind(offset)(option);
+        verify = michal.Object;
+        option = verify.assign;
+        michal = {};
         yankee = function(argFoo) { // Original name: preload
             entity = argFoo;
             var _closure2_slot0 = entity;
             report = global;
-            zulu = report.Promise;
-            mike = zulu.race;
-            golf = report.Promise;
-            entity = golf.prototype;
-            oscar = Object.create(entity, {constructor: {value: golf}});
-            options = function(argFoo) {
+            zuuluu = report.Promise;
+            michal = zuuluu.race;
+            golfie = report.Promise;
+            entity = golfie.prototype;
+            oscard = Object.create(entity, {constructor: {value: golfie}});
+            option = function(argFoo) {
                 entity = _closure1_slot1;
-                tango = entity.DCDFastImageViewManager;
-                zulu = tango.preload;
-                mike = _closure2_slot0;
+                tangon = entity.DCDFastImageViewManager;
+                zuuluu = tangon.preload;
+                michal = _closure2_slot0;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            verify = oscar;
-            entity = new verify[golf](options, golf);
-            oscar = entity instanceof Object ? entity : oscar;
+            verify = oscard;
+            entity = new verify[golfie](option, golfie);
+            oscard = entity instanceof Object ? entity : oscard;
             entity = new Array(2);
-            entity[0] = oscar;
-            oscar = report.Promise;
-            report = oscar.prototype;
-            report = Object.create(report, {constructor: {value: oscar}});
-            options = function(argFoo) {
+            entity[0] = oscard;
+            oscard = report.Promise;
+            report = oscard.prototype;
+            report = Object.create(report, {constructor: {value: oscard}});
+            option = function(argFoo) {
                 entity = global;
-                tango = entity.setTimeout;
-                zulu = undefined;
-                mike = argFoo;
+                tangon = entity.setTimeout;
+                zuuluu = undefined;
+                michal = argFoo;
                 entity = 2000;
-                entity = tango.bind(zulu)(mike, entity);
+                entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
             verify = report;
-            tango = new verify[oscar](options, golf);
-            tango = tango instanceof Object ? tango : report;
-            entity[1] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = new verify[oscard](option, golfie);
+            tangon = tangon instanceof Object ? tangon : report;
+            entity[1] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike['preload'] = yankee;
-        mike = options.bind(verify)(offset, mike);
-        golf = function(argFoo) {
-            zulu = _closure1_slot0;
-            mike = zulu.prefetch;
+        michal['preload'] = yankee;
+        michal = option.bind(verify)(offset, michal);
+        golfie = function(argFoo) {
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.prefetch;
             entity = argFoo;
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.catch;
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.catch;
             entity = function() {
                 entity = undefined;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        tango['preload'] = golf;
-        golf = 4;
-        golf = oscar[golf];
-        options = report.bind(entity)(golf);
-        golf = options.isAndroid;
-        golf = golf.bind(options)();
-        if(!golf) { _fun00002_ip = 277; continue _fun00001 }
+        tangon['preload'] = golfie;
+        golfie = 4;
+        golfie = oscard[golfie];
+        option = report.bind(entity)(golfie);
+        golfie = option.isAndroid;
+        golfie = golfie.bind(option)();
+        if(!golfie) { _fun00002_ip = 277; continue _fun00001 }
  274:
-        mike = tango;
+        michal = tangon;
  277:
-        tango = 5;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'components_native/common/FastImage.tsx';
-        tango = report.bind(oscar)(tango);
-        zulu['default'] = mike;
+        tangon = 5;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'components_native/common/FastImage.tsx';
+        tangon = report.bind(oscard)(tangon);
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

@@ -1,409 +1,409 @@
 // app/modules/multi_account/MultiAccountActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    entity = argCorge;
+    var _closure1_slot1 = golfie;
+    entity = argCor;
     var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscar;
+    var _closure1_slot3 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot7 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'MultiAccountActionCreators';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot8 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/multi_account/MultiAccountActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: validateMultiAccountTokens
-        tango = _closure1_slot5;
-        zulu = tango.getId;
-        zulu = zulu.bind(tango)();
-        var _closure2_slot0 = zulu;
-        zulu = _closure1_slot6;
-        mike = zulu.getUsers;
-        tango = mike.bind(zulu)();
-        zulu = tango.forEach;
-        mike = function() {
-            tango = _closure1_slot4;
-            zulu = undefined;
-            mike = function* (argFoo) {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot7 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'MultiAccountActionCreators';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot8 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/multi_account/MultiAccountActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: validateMultiAccountTokens
+        tangon = _closure1_slot5;
+        zuuluu = tangon.getId;
+        zuuluu = zuuluu.bind(tangon)();
+        var _closure2_slot0 = zuuluu;
+        zuuluu = _closure1_slot6;
+        michal = zuuluu.getUsers;
+        tangon = michal.bind(zuuluu)();
+        zuuluu = tangon.forEach;
+        michal = function() {
+            tangon = _closure1_slot4;
+            zuuluu = undefined;
+            michal = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
                     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00002_ip = 531; continue _fun00001 }
+                        if(michal) { _fun00002_ip = 531; continue _fun00001 }
  10:
-                        mike = argFoo;
-                        oscar = mike.id;
+                        michal = argFoo;
+                        oscard = michal.id;
                         report = undefined;
                         backup = undefined;
-                        foxtrot = undefined;
+                        foxtra = undefined;
                         SaveGenerator(address=28);
  26:
                         return report;
  28:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun00002_ip = 528; continue _fun00001 }
+                        if(zuuluu) { _fun00002_ip = 528; continue _fun00001 }
  37:
-                        golf = _closure1_slot2;
+                        golfie = _closure1_slot2;
                         verify = _closure1_slot3;
-                        tango = 5;
-                        tango = verify[tango];
-                        verify = golf.bind(report)(tango);
-                        golf = verify.getToken;
-                        tango = oscar;
-                        tango = golf.bind(verify)(tango);
-                        backup = tango;
+                        tangon = 5;
+                        tangon = verify[tangon];
+                        verify = golfie.bind(report)(tangon);
+                        golfie = verify.getToken;
+                        tangon = oscard;
+                        tangon = golfie.bind(verify)(tangon);
+                        backup = tangon;
                         offset = null;
-                        if(!(offset != tango)) { _fun00002_ip = 94; continue _fun00001 }
+                        if(!(offset != tangon)) { _fun00002_ip = 94; continue _fun00001 }
  83:
-                        golf = backup;
-                        tango = '';
-                        if(!(tango === golf)) { _fun00002_ip = 148; continue _fun00001 }
+                        golfie = backup;
+                        tangon = '';
+                        if(!(tangon === golfie)) { _fun00002_ip = 148; continue _fun00001 }
  94:
-                        golf = _closure1_slot1;
+                        golfie = _closure1_slot1;
                         verify = _closure1_slot3;
-                        tango = 6;
-                        tango = verify[tango];
-                        verify = golf.bind(report)(tango);
-                        golf = verify.dispatch;
-                        tango = {};
+                        tangon = 6;
+                        tangon = verify[tangon];
+                        verify = golfie.bind(report)(tangon);
+                        golfie = verify.dispatch;
+                        tangon = {};
                         yankee = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
-                        tango['type'] = yankee;
-                        yankee = oscar;
-                        tango['userId'] = yankee;
-                        tango = golf.bind(verify)(tango);
+                        tangon['type'] = yankee;
+                        yankee = oscard;
+                        tangon['userId'] = yankee;
+                        tangon = golfie.bind(verify)(tangon);
                         _fun00002_ip = 397; continue _fun00001;
  148:
                         verify = _closure1_slot1;
-                        tango = _closure1_slot3;
-                        golf = 6;
-                        tango = tango[golf];
-                        yankee = verify.bind(report)(tango);
+                        tangon = _closure1_slot3;
+                        golfie = 6;
+                        tangon = tangon[golfie];
+                        yankee = verify.bind(report)(tangon);
                         verify = yankee.dispatch;
-                        tango = {};
-                        romeo = 'MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST';
-                        tango['type'] = romeo;
-                        romeo = oscar;
-                        tango['userId'] = romeo;
-                        tango = verify.bind(yankee)(tango);
+                        tangon = {};
+                        romeon = 'MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST';
+                        tangon['type'] = romeon;
+                        romeon = oscard;
+                        tangon['userId'] = romeon;
+                        tangon = verify.bind(yankee)(tangon);
  197: // try_start_0
                         verify = _closure1_slot0;
                         yankee = _closure1_slot3;
-                        tango = 7;
-                        tango = yankee[tango];
-                        tango = verify.bind(report)(tango);
-                        yankee = tango.HTTP;
+                        tangon = 7;
+                        tangon = yankee[tangon];
+                        tangon = verify.bind(report)(tangon);
+                        yankee = tangon.HTTP;
                         verify = yankee.get;
-                        tango = {};
-                        romeo = _closure1_slot7;
-                        romeo = romeo.ME;
-                        tango['url'] = romeo;
-                        romeo = {};
-                        romeo['authorization'] = backup;
-                        tango['headers'] = romeo;
-                        romeo = 3;
-                        tango['retries'] = romeo;
-                        romeo = false;
-                        tango['rejectWithError'] = romeo;
-                        tango = verify.bind(yankee)(tango);
+                        tangon = {};
+                        romeon = _closure1_slot7;
+                        romeon = romeon.ME;
+                        tangon['url'] = romeon;
+                        romeon = {};
+                        romeon['authorization'] = backup;
+                        tangon['headers'] = romeon;
+                        romeon = 3;
+                        tangon['retries'] = romeon;
+                        romeon = false;
+                        tangon['rejectWithError'] = romeon;
+                        tangon = verify.bind(yankee)(tangon);
                         SaveGenerator(address=278);
  276:
-                        return tango;
+                        return tangon;
  278:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
                         if(verify) { _fun00002_ip = 400; continue _fun00001 }
  284:
-                        foxtrot = tango;
+                        foxtra = tangon;
  287: // try_end0
                         yankee = _closure1_slot1;
                         verify = _closure1_slot3;
-                        verify = verify[golf];
-                        romeo = yankee.bind(report)(verify);
-                        yankee = romeo.dispatch;
+                        verify = verify[golfie];
+                        romeon = yankee.bind(report)(verify);
+                        yankee = romeon.dispatch;
                         verify = {};
                         sizing = _closure2_slot0;
-                        kilo = oscar;
+                        kiloes = oscard;
                         backup = 'USER_UPDATE';
-                        if(!(sizing === kilo)) { _fun00002_ip = 333; continue _fun00001 }
+                        if(!(sizing === kiloes)) { _fun00002_ip = 333; continue _fun00001 }
  329:
                         backup = 'CURRENT_USER_UPDATE';
  333:
                         verify['type'] = backup;
-                        foxtrot = foxtrot.body;
-                        verify['user'] = foxtrot;
-                        verify = yankee.bind(romeo)(verify);
+                        foxtra = foxtra.body;
+                        verify['user'] = foxtra;
+                        verify = yankee.bind(romeon)(verify);
                         yankee = _closure1_slot1;
                         verify = _closure1_slot3;
-                        verify = verify[golf];
-                        romeo = yankee.bind(report)(verify);
-                        yankee = romeo.dispatch;
+                        verify = verify[golfie];
+                        romeon = yankee.bind(report)(verify);
+                        yankee = romeon.dispatch;
                         verify = {};
-                        foxtrot = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
-                        verify['type'] = foxtrot;
-                        foxtrot = oscar;
-                        verify['userId'] = foxtrot;
-                        verify = yankee.bind(romeo)(verify);
+                        foxtra = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
+                        verify['type'] = foxtra;
+                        foxtra = oscard;
+                        verify['userId'] = foxtra;
+                        verify = yankee.bind(romeon)(verify);
  397:
                         return report;
  400:
-                        return tango;
+                        return tangon;
  403: // catch_target0
                         CatchBlockStart(arg_register=8);
-                        options = verify;
+                        option = verify;
                         verify = offset == verify;
                         yankee = undefined;
                         if(verify) { _fun00002_ip = 425; continue _fun00001 }
  417:
-                        verify = options;
+                        verify = option;
                         yankee = verify.status;
  425:
                         verify = 401;
                         verify = verify === yankee;
-                        tango = verify;
+                        tangon = verify;
                         if(verify) { _fun00002_ip = 468; continue _fun00001 }
  441:
-                        verify = options;
+                        verify = option;
                         offset = offset == verify;
                         verify = undefined;
                         if(offset) { _fun00002_ip = 458; continue _fun00001 }
  453:
-                        verify = options.status;
+                        verify = option.status;
  458:
-                        options = 403;
-                        tango = options === verify;
+                        option = 403;
+                        tangon = option === verify;
  468:
-                        options = tango;
-                        tango = _closure1_slot1;
-                        zulu = _closure1_slot3;
-                        zulu = zulu[golf];
-                        report = tango.bind(report)(zulu);
-                        tango = report.dispatch;
-                        zulu = {};
-                        golf = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
-                        if(!options) { _fun00002_ip = 510; continue _fun00001 }
+                        option = tangon;
+                        tangon = _closure1_slot1;
+                        zuuluu = _closure1_slot3;
+                        zuuluu = zuuluu[golfie];
+                        report = tangon.bind(report)(zuuluu);
+                        tangon = report.dispatch;
+                        zuuluu = {};
+                        golfie = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
+                        if(!option) { _fun00002_ip = 510; continue _fun00001 }
  504:
-                        golf = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
+                        golfie = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
  510:
-                        zulu['type'] = golf;
-                        zulu['userId'] = oscar;
-                        zulu = tango.bind(report)(zulu);
-                        zulu = undefined;
-                        return zulu;
+                        zuuluu['type'] = golfie;
+                        zuuluu['userId'] = oscard;
+                        zuuluu = tangon.bind(report)(zuuluu);
+                        zuuluu = undefined;
+                        return zuuluu;
  528:
-                        return mike;
+                        return michal;
  531:
                         return entity;
                     }
                 };
-                mike = entity.next;
-                mike = mike.bind(entity)();
+                michal = entity.next;
+                michal = michal.bind(entity)();
                 return entity;
             };
-            mike = tango.bind(zulu)(mike);
-            var _closure3_slot0 = mike;
+            michal = tangon.bind(zuuluu)(michal);
+            var _closure3_slot0 = michal;
             entity = function() {
                 entity = undefined;
-                tango = _closure3_slot0;
-                zulu = tango.apply;
+                tangon = _closure3_slot0;
+                zuuluu = tangon.apply;
                 entity = arguments;
-                mike = entity;
+                michal = entity;
                 entity = this;
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
             return entity;
         };
         entity = undefined;
-        mike = mike.bind(entity)();
-        mike = zulu.bind(tango)(mike);
+        michal = michal.bind(entity)();
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['validateMultiAccountTokens'] = tango;
-    tango = function(argFoo, argBar) { // Original name: switchAccount
+    zuuluu['validateMultiAccountTokens'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: switchAccount
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
-            options = argBar;
-            golf = _closure1_slot8;
-            report = golf.log;
-            mike = global;
-            entity = mike.HermesInternal;
-            tango = entity.concat;
+            oscard = argFoo;
+            option = argBar;
+            golfie = _closure1_slot8;
+            report = golfie.log;
+            michal = global;
+            entity = michal.HermesInternal;
+            tangon = entity.concat;
             entity = 'Switching account to ';
-            tango = tango.bind(entity)(oscar);
+            tangon = tangon.bind(entity)(oscard);
             entity = {};
-            entity['switchSynchronously'] = options;
-            entity = report.bind(golf)(tango, entity);
-            tango = _closure1_slot2;
+            entity['switchSynchronously'] = option;
+            entity = report.bind(golfie)(tangon, entity);
+            tangon = _closure1_slot2;
             report = _closure1_slot3;
             entity = 5;
             entity = report[entity];
             report = undefined;
-            tango = tango.bind(report)(entity);
-            entity = tango.getToken;
-            golf = entity.bind(tango)(oscar);
+            tangon = tangon.bind(report)(entity);
+            entity = tangon.getToken;
+            golfie = entity.bind(tangon)(oscard);
             entity = null;
-            if(!(entity != golf)) { _fun00004_ip = 131; continue _fun00003 }
+            if(!(entity != golfie)) { _fun00004_ip = 131; continue _fun00003 }
  97:
-            tango = _closure1_slot1;
+            tangon = _closure1_slot1;
             verify = _closure1_slot3;
             entity = 8;
             entity = verify[entity];
-            tango = tango.bind(report)(entity);
-            entity = tango.switchAccountToken;
-            entity = entity.bind(tango)(golf, options);
+            tangon = tangon.bind(report)(entity);
+            entity = tangon.switchAccountToken;
+            entity = entity.bind(tangon)(golfie, option);
             _fun00004_ip = 214; continue _fun00003;
  131:
-            options = _closure1_slot8;
-            golf = options.log;
-            tango = 'Switching accounts failed because there was no token';
-            tango = golf.bind(options)(tango);
-            tango = _closure1_slot1;
-            golf = _closure1_slot3;
-            zulu = 6;
-            zulu = golf[zulu];
-            report = tango.bind(report)(zulu);
-            tango = report.dispatch;
-            zulu = {};
-            golf = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
-            zulu['type'] = golf;
-            zulu['userId'] = oscar;
-            zulu = tango.bind(report)(zulu);
-            zulu = mike.Promise;
-            mike = zulu.resolve;
-            entity = mike.bind(zulu)();
+            option = _closure1_slot8;
+            golfie = option.log;
+            tangon = 'Switching accounts failed because there was no token';
+            tangon = golfie.bind(option)(tangon);
+            tangon = _closure1_slot1;
+            golfie = _closure1_slot3;
+            zuuluu = 6;
+            zuuluu = golfie[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.dispatch;
+            zuuluu = {};
+            golfie = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
+            zuuluu['type'] = golfie;
+            zuuluu['userId'] = oscard;
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = michal.Promise;
+            michal = zuuluu.resolve;
+            entity = michal.bind(zuuluu)();
  214:
             return entity;
         }
     };
-    zulu['switchAccount'] = tango;
-    tango = function(argFoo, argBar) { // Original name: moveAccount
-        zulu = _closure1_slot1;
-        mike = _closure1_slot3;
+    zuuluu['switchAccount'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: moveAccount
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot3;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'MULTI_ACCOUNT_MOVE_ACCOUNT';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['from'] = report;
+        michal['from'] = report;
         report = argBar;
-        mike['to'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['to'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['moveAccount'] = tango;
-    tango = function(argFoo) { // Original name: removeAccount
-        zulu = _closure1_slot1;
-        mike = _closure1_slot3;
+    zuuluu['moveAccount'] = tangon;
+    tangon = function(argFoo) { // Original name: removeAccount
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot3;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'MULTI_ACCOUNT_REMOVE_ACCOUNT';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['userId'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['userId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['removeAccount'] = tango;
-    tango = function(argFoo) { // Original name: multiAccountMobileExperimentUpdate
-        zulu = _closure1_slot1;
-        mike = _closure1_slot3;
+    zuuluu['removeAccount'] = tangon;
+    tangon = function(argFoo) { // Original name: multiAccountMobileExperimentUpdate
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot3;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'MULTI_ACCOUNT_MOBILE_EXPERIMENT_UPDATE';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['multiAccountMobileExperimentEnabled'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['multiAccountMobileExperimentEnabled'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['multiAccountMobileExperimentUpdate'] = tango;
-    tango = function(argFoo, argBar) { // Original name: updatePushSyncToken
-        zulu = _closure1_slot1;
-        mike = _closure1_slot3;
+    zuuluu['multiAccountMobileExperimentUpdate'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: updatePushSyncToken
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot3;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'MULTI_ACCOUNT_UPDATE_PUSH_SYNC_TOKEN';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['userId'] = report;
+        michal['userId'] = report;
         report = argBar;
-        mike['pushSyncToken'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['pushSyncToken'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['updatePushSyncToken'] = tango;
-    mike = function(argFoo) { // Original name: invalidatePushSyncTokens
-        zulu = _closure1_slot1;
-        mike = _closure1_slot3;
+    zuuluu['updatePushSyncToken'] = tangon;
+    michal = function(argFoo) { // Original name: invalidatePushSyncTokens
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot3;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'MULTI_ACCOUNT_INVALIDATE_PUSH_SYNC_TOKENS';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['invalidPushSyncTokens'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['invalidPushSyncTokens'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['invalidatePushSyncTokens'] = mike;
+    zuuluu['invalidatePushSyncTokens'] = michal;
     return entity;
 })();

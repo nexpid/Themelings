@@ -1,99 +1,99 @@
 // app/design/components/Navigator/native/useNavigatorBackPressHandler.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.BackHandler;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Navigator/native/useNavigatorBackPressHandler.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useNavigatorBackPressHandler
-        tango = argFoo;
-        var _closure2_slot0 = tango;
-        golf = _closure1_slot2;
-        zulu = golf.useRef;
-        zulu = zulu.bind(golf)(tango);
-        var _closure2_slot1 = zulu;
-        tango = golf.useLayoutEffect;
-        zulu = function() {
-            mike = _closure2_slot1;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.BackHandler;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Navigator/native/useNavigatorBackPressHandler.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useNavigatorBackPressHandler
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot2;
+        zuuluu = golfie.useRef;
+        zuuluu = zuuluu.bind(golfie)(tangon);
+        var _closure2_slot1 = zuuluu;
+        tangon = golfie.useLayoutEffect;
+        zuuluu = function() {
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        zulu = tango.bind(golf)(zulu);
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        zuuluu = tangon.bind(golfie)(zuuluu);
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 2;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.useFocusEffect;
-        oscar = golf.useCallback;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.useFocusEffect;
+        oscard = golfie.useCallback;
         report = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot0;
-                tango = _closure1_slot1;
+                tangon = _closure1_slot1;
                 entity = 3;
-                tango = tango[entity];
+                tangon = tangon[entity];
                 entity = undefined;
-                report = report.bind(entity)(tango);
-                tango = report.isIOS;
-                tango = tango.bind(report)();
-                if(tango) { _fun00002_ip = 78; continue _fun00001 }
+                report = report.bind(entity)(tangon);
+                tangon = report.isIOS;
+                tangon = tangon.bind(report)();
+                if(tangon) { _fun00002_ip = 78; continue _fun00001 }
  40:
-                oscar = _closure1_slot3;
-                report = oscar.addEventListener;
-                tango = 'hardwareBackPress';
-                zulu = function() {
-                    mike = _closure2_slot1;
-                    entity = mike.current;
-                    entity = entity.bind(mike)();
+                oscard = _closure1_slot3;
+                report = oscard.addEventListener;
+                tangon = 'hardwareBackPress';
+                zuuluu = function() {
+                    michal = _closure2_slot1;
+                    entity = michal.current;
+                    entity = entity.bind(michal)();
                     return entity;
                 };
-                zulu = report.bind(oscar)(tango, zulu);
-                var _closure3_slot0 = zulu;
-                mike = function() {
-                    mike = _closure3_slot0;
-                    entity = mike.remove;
-                    entity = entity.bind(mike)();
+                zuuluu = report.bind(oscard)(tangon, zuuluu);
+                var _closure3_slot0 = zuuluu;
+                michal = function() {
+                    michal = _closure3_slot0;
+                    entity = michal.remove;
+                    entity = entity.bind(michal)();
                     return entity;
                 };
-                return mike;
+                return michal;
  78:
                 return entity;
             }
         };
-        mike = new Array(0);
-        mike = oscar.bind(golf)(report, mike);
-        mike = zulu.bind(tango)(mike);
+        michal = new Array(0);
+        michal = oscard.bind(golfie)(report, michal);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['useNavigatorBackPressHandler'] = mike;
+    zuuluu['useNavigatorBackPressHandler'] = michal;
     return entity;
 })();

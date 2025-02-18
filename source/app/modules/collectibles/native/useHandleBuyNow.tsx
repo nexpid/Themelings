@@ -1,142 +1,142 @@
 // app/modules/collectibles/native/useHandleBuyNow.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    options = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'useHandleBuyNow.android';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot6 = tango;
-    mike = function(argFoo) { // Original name: useHandleBuyNow
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    option = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'useHandleBuyNow.android';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot6 = tangon;
+    michal = function(argFoo) { // Original name: useHandleBuyNow
         entity = argFoo;
         offset = entity.product;
         var _closure2_slot0 = offset;
-        options = entity.analyticsLocations;
-        golf = entity.onBuy;
-        var _closure2_slot1 = golf;
+        option = entity.analyticsLocations;
+        golfie = entity.onBuy;
+        var _closure2_slot1 = golfie;
         verify = undefined;
         var _closure2_slot2 = verify;
         var _closure2_slot4 = verify;
         entity = function() { // Original name: _onPurchaseComplete
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            zulu = _closure1_slot3;
-            mike = function* () {
+            zuuluu = _closure1_slot3;
+            michal = function* () {
                 entity = function* () { // Original name: ?anon_0_
                     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun00002_ip = 161; continue _fun00001 }
+                        if(michal) { _fun00002_ip = 161; continue _fun00001 }
  10:
                         report = _closure1_slot0;
-                        zulu = _closure1_slot2;
-                        mike = 6;
-                        mike = zulu[mike];
-                        zulu = undefined;
-                        oscar = report.bind(zulu)(mike);
-                        report = oscar.fetchCollectiblesPurchases;
-                        mike = {};
-                        options = _closure2_slot2;
-                        mike['variantsReturnStyle'] = options;
-                        options = 'useHandleBuyNow';
-                        mike['location'] = options;
-                        mike = report.bind(oscar)(mike);
+                        zuuluu = _closure1_slot2;
+                        michal = 6;
+                        michal = zuuluu[michal];
+                        zuuluu = undefined;
+                        oscard = report.bind(zuuluu)(michal);
+                        report = oscard.fetchCollectiblesPurchases;
+                        michal = {};
+                        option = _closure2_slot2;
+                        michal['variantsReturnStyle'] = option;
+                        option = 'useHandleBuyNow';
+                        michal['location'] = option;
+                        michal = report.bind(oscard)(michal);
                         SaveGenerator(address=74);
  72:
-                        return mike;
+                        return michal;
  74:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                         if(report) { _fun00002_ip = 158; continue _fun00001 }
  80:
-                        oscar = _closure2_slot4;
+                        oscard = _closure2_slot4;
                         report = false;
-                        report = oscar.bind(zulu)(report);
+                        report = oscard.bind(zuuluu)(report);
                         report = _closure1_slot1;
-                        oscar = _closure1_slot2;
-                        tango = 7;
-                        tango = oscar[tango];
-                        options = report.bind(zulu)(tango);
-                        tango = options.hideActionSheet;
-                        tango = tango.bind(options)();
-                        tango = 8;
-                        tango = oscar[tango];
-                        oscar = report.bind(zulu)(tango);
-                        report = oscar.open;
-                        tango = {};
-                        golf = _closure2_slot0;
-                        tango['product'] = golf;
-                        tango = report.bind(oscar)(tango);
-                        return zulu;
+                        oscard = _closure1_slot2;
+                        tangon = 7;
+                        tangon = oscard[tangon];
+                        option = report.bind(zuuluu)(tangon);
+                        tangon = option.hideActionSheet;
+                        tangon = tangon.bind(option)();
+                        tangon = 8;
+                        tangon = oscard[tangon];
+                        oscard = report.bind(zuuluu)(tangon);
+                        report = oscard.open;
+                        tangon = {};
+                        golfie = _closure2_slot0;
+                        tangon['product'] = golfie;
+                        tangon = report.bind(oscard)(tangon);
+                        return zuuluu;
  158:
-                        return mike;
+                        return michal;
  161:
                         return entity;
                     }
                 };
                 return entity;
             };
-            tango = zulu.bind(tango)(mike);
-            _closure2_slot6 = tango;
-            zulu = tango.apply;
+            tangon = zuuluu.bind(tangon)(michal);
+            _closure2_slot6 = tangon;
+            zuuluu = tangon.apply;
             entity = arguments;
-            mike = entity;
+            michal = entity;
             entity = this;
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
         var _closure2_slot6 = entity;
-        mike = _closure1_slot0;
+        michal = _closure1_slot0;
         yankee = _closure1_slot2;
         entity = 4;
         entity = yankee[entity];
-        report = mike.bind(verify)(entity);
-        mike = report.useShopVariantsReturnStyle;
+        report = michal.bind(verify)(entity);
+        michal = report.useShopVariantsReturnStyle;
         entity = 'useHandleBuyNow';
-        entity = mike.bind(report)(entity);
+        entity = michal.bind(report)(entity);
         _closure2_slot2 = entity;
-        oscar = _closure1_slot5;
-        mike = oscar.useState;
+        oscard = _closure1_slot5;
+        michal = oscard.useState;
         entity = false;
-        report = mike.bind(oscar)(entity);
-        mike = _closure1_slot4;
+        report = michal.bind(oscard)(entity);
+        michal = _closure1_slot4;
         entity = 2;
-        report = mike.bind(verify)(report, entity);
+        report = michal.bind(verify)(report, entity);
         entity = 0;
-        mike = report[entity];
-        var _closure2_slot3 = mike;
+        michal = report[entity];
+        var _closure2_slot3 = michal;
         entity = 1;
         entity = report[entity];
         _closure2_slot4 = entity;
@@ -146,107 +146,107 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = report.bind(verify)(entity);
         entity = {};
         entity['product'] = offset;
-        entity['analyticsLocations'] = options;
-        options = function() { // Original name: onPurchaseComplete
+        entity['analyticsLocations'] = option;
+        option = function() { // Original name: onPurchaseComplete
             entity = undefined;
-            tango = _closure2_slot6;
-            zulu = tango.apply;
+            tangon = _closure2_slot6;
+            zuuluu = tangon.apply;
             entity = arguments;
-            mike = entity;
+            michal = entity;
             entity = this;
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
-        entity['onPurchaseComplete'] = options;
-        options = function() { // Original name: onPurchaseError
-            zulu = _closure2_slot4;
+        entity['onPurchaseComplete'] = option;
+        option = function() { // Original name: onPurchaseError
+            zuuluu = _closure2_slot4;
             entity = undefined;
-            mike = false;
-            mike = zulu.bind(entity)(mike);
+            michal = false;
+            michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity['onPurchaseError'] = options;
-        options = function() { // Original name: onPurchasePending
+        entity['onPurchaseError'] = option;
+        option = function() { // Original name: onPurchasePending
             entity = undefined;
             return entity;
         };
-        entity['onPurchasePending'] = options;
-        options = report.bind(verify)(entity);
-        var _closure2_slot5 = options;
+        entity['onPurchasePending'] = option;
+        option = report.bind(verify)(entity);
+        var _closure2_slot5 = option;
         entity = {};
-        report = oscar.useCallback;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        report = oscard.useCallback;
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 121; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 121; continue _fun00003 }
  7: // try_start_0
-                    mike = _closure2_slot3;
-                    if(mike) { _fun00004_ip = 71; continue _fun00003 }
+                    michal = _closure2_slot3;
+                    if(michal) { _fun00004_ip = 71; continue _fun00003 }
  17:
                     report = _closure2_slot4;
-                    tango = undefined;
-                    mike = true;
-                    mike = report.bind(tango)(mike);
-                    mike = _closure2_slot5;
-                    mike = mike.bind(tango)();
+                    tangon = undefined;
+                    michal = true;
+                    michal = report.bind(tangon)(michal);
+                    michal = _closure2_slot5;
+                    michal = michal.bind(tangon)();
                     SaveGenerator(address=42);
  40:
-                    return mike;
+                    return michal;
  42:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(report) { _fun00004_ip = 68; continue _fun00003 }
  48:
-                    oscar = _closure2_slot1;
+                    oscard = _closure2_slot1;
                     report = null;
-                    if(!(report != oscar)) { _fun00004_ip = 71; continue _fun00003 }
+                    if(!(report != oscard)) { _fun00004_ip = 71; continue _fun00003 }
  58:
-                    zulu = _closure2_slot1;
-                    zulu = zulu.bind(tango)();
+                    zuuluu = _closure2_slot1;
+                    zuuluu = zuuluu.bind(tangon)();
                     _fun00004_ip = 71; continue _fun00003;
  68: // try_end0
-                    return mike;
+                    return michal;
  71:
                     _fun00004_ip = 116; continue _fun00003;
  73: // catch_target0
                     CatchBlockStart(arg_register=5);
-                    tango = _closure1_slot6;
-                    zulu = tango.error;
-                    mike = global;
-                    mike = mike.HermesInternal;
-                    report = mike.concat;
-                    mike = 'Error running purchase: ';
-                    mike = report.bind(mike)(oscar);
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot6;
+                    zuuluu = tangon.error;
+                    michal = global;
+                    michal = michal.HermesInternal;
+                    report = michal.concat;
+                    michal = 'Error running purchase: ';
+                    michal = report.bind(michal)(oscard);
+                    michal = zuuluu.bind(tangon)(michal);
  116:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  121:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(verify)(zulu);
-        zulu = new Array(3);
-        zulu[0] = options;
-        zulu[1] = mike;
-        zulu[2] = golf;
-        zulu = report.bind(oscar)(tango, zulu);
-        entity['handleBuyNow'] = zulu;
-        entity['isBuying'] = mike;
+        tangon = tangon.bind(verify)(zuuluu);
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = michal;
+        zuuluu[2] = golfie;
+        zuuluu = report.bind(oscard)(tangon, zuuluu);
+        entity['handleBuyNow'] = zuuluu;
+        entity['isBuying'] = michal;
         return entity;
     };
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/native/useHandleBuyNow.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
-    zulu['useHandleBuyNow'] = mike;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/native/useHandleBuyNow.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
+    zuuluu['useHandleBuyNow'] = michal;
     return entity;
 })();

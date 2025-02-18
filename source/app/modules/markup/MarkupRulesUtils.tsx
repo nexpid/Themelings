@@ -1,77 +1,77 @@
 // app/modules/markup/MarkupRulesUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/markup/MarkupRulesUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) { // Original name: smartOutput
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/markup/MarkupRulesUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) { // Original name: smartOutput
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.content;
-            zulu = 'string';
+            michal = argFoo;
+            entity = michal.content;
+            zuuluu = 'string';
             entity = typeof entity;
-            if(!(zulu !== entity)) { _fun00002_ip = 49; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 49; continue _fun00001 }
  19:
-            entity = mike.content;
+            entity = michal.content;
             report = undefined;
             if(!(report !== entity)) { _fun00002_ip = 49; continue _fun00001 }
  30:
-            tango = mike.content;
-            zulu = argBar;
+            tangon = michal.content;
+            zuuluu = argBar;
             entity = argBaz;
-            entity = zulu.bind(report)(tango, entity);
+            entity = zuuluu.bind(report)(tangon, entity);
             _fun00002_ip = 54; continue _fun00001;
  49:
-            entity = mike.content;
+            entity = michal.content;
  54:
             return entity;
         }
     };
-    zulu['smartOutput'] = tango;
-    mike = function(argFoo) { // Original name: isStaticRouteIconType
+    zuuluu['smartOutput'] = tangon;
+    michal = function(argFoo) { // Original name: isStaticRouteIconType
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = 'home';
-            entity = entity === zulu;
+            entity = entity === zuuluu;
             if(entity) { _fun00004_ip = 24; continue _fun00003 }
  14:
-            mike = 'browse';
-            entity = mike === zulu;
+            michal = 'browse';
+            entity = michal === zuuluu;
  24:
             if(entity) { _fun00004_ip = 37; continue _fun00003 }
  27:
-            mike = 'customize';
-            entity = mike === zulu;
+            michal = 'customize';
+            entity = michal === zuuluu;
  37:
             if(entity) { _fun00004_ip = 50; continue _fun00003 }
  40:
-            mike = 'guide';
-            entity = mike === zulu;
+            michal = 'guide';
+            entity = michal === zuuluu;
  50:
             if(entity) { _fun00004_ip = 63; continue _fun00003 }
  53:
-            mike = 'linked-roles';
-            entity = mike === zulu;
+            michal = 'linked-roles';
+            entity = michal === zuuluu;
  63:
             return entity;
         }
     };
-    zulu['isStaticRouteIconType'] = mike;
+    zuuluu['isStaticRouteIconType'] = michal;
     return entity;
 })();

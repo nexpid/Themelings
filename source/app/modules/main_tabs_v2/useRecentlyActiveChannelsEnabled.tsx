@@ -1,49 +1,49 @@
 // app/modules/main_tabs_v2/useRecentlyActiveChannelsEnabled.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/useRecentlyActiveChannelsEnabled.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: isRecentlyActiveChannelsEnabled
-        zulu = _closure1_slot2;
-        mike = zulu.get;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/useRecentlyActiveChannelsEnabled.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: isRecentlyActiveChannelsEnabled
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.get;
         entity = 'enable_recently_active';
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['isRecentlyActiveChannelsEnabled'] = tango;
-    mike = function() { // Original name: useRecentlyActiveChannelsEnabled
-        mike = _closure1_slot0;
-        zulu = _closure1_slot1;
+    zuuluu['isRecentlyActiveChannelsEnabled'] = tangon;
+    michal = function() { // Original name: useRecentlyActiveChannelsEnabled
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        entity = zulu[entity];
-        zulu = undefined;
-        mike = mike.bind(zulu)(entity);
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        michal = michal.bind(zuuluu)(entity);
         entity = 'enable_recently_active';
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['useRecentlyActiveChannelsEnabled'] = mike;
+    zuuluu['useRecentlyActiveChannelsEnabled'] = michal;
     return entity;
 })();

@@ -1,63 +1,63 @@
 // app/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.AccessibilityInfo;
-    var _closure1_slot2 = mike;
-    mike = {};
-    golf = function(argFoo, argBar) { // Original name: announce
+    michal = report.bind(entity)(michal);
+    michal = michal.AccessibilityInfo;
+    var _closure1_slot2 = michal;
+    michal = {};
+    golfie = function(argFoo, argBar) { // Original name: announce
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = 'polite';
+            zuuluu = argFoo;
+            michal = 'polite';
             entity = argBar;
-            if(!(mike !== entity)) { _fun00002_ip = 36; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 36; continue _fun00001 }
  16:
-            mike = _closure1_slot2;
-            entity = mike.announceForAccessibility;
-            entity = entity.bind(mike)(zulu);
+            michal = _closure1_slot2;
+            entity = michal.announceForAccessibility;
+            entity = entity.bind(michal)(zuuluu);
             _fun00002_ip = 72; continue _fun00001;
  36:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.updateAccessibilityAnnouncerLiveRegionMessage;
-            entity = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.updateAccessibilityAnnouncerLiveRegionMessage;
+            entity = entity.bind(michal)(zuuluu);
  72:
             entity = undefined;
             return entity;
         }
     };
-    mike['announce'] = golf;
-    tango = function() { // Original name: clearAnnouncements
+    michal['announce'] = golfie;
+    tangon = function() { // Original name: clearAnnouncements
         entity = null;
         return entity;
     };
-    mike['clearAnnouncements'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['AccessibilityAnnouncer'] = mike;
+    michal['clearAnnouncements'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['AccessibilityAnnouncer'] = michal;
     return entity;
 })();

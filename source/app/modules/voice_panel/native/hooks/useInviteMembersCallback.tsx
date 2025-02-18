@@ -1,91 +1,91 @@
 // app/modules/voice_panel/native/hooks/useInviteMembersCallback.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticsPages;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_panel/native/hooks/useInviteMembersCallback.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useInviteMembersCallback
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticsPages;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_panel/native/hooks/useInviteMembersCallback.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useInviteMembersCallback
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot2;
-        zulu = tango.useCallback;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useCallback;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot3;
-                mike = tango.getChannel;
+                tangon = _closure1_slot3;
+                michal = tangon.getChannel;
                 entity = _closure2_slot0;
-                tango = mike.bind(tango)(entity);
+                tangon = michal.bind(tangon)(entity);
                 entity = null;
-                mike = entity != tango;
-                if(!mike) { _fun00002_ip = 132; continue _fun00001 }
+                michal = entity != tangon;
+                if(!michal) { _fun00002_ip = 132; continue _fun00001 }
  33:
-                mike = tango.isPrivate;
-                mike = mike.bind(tango)();
-                golf = _closure1_slot0;
-                oscar = _closure1_slot1;
-                if(mike) { _fun00002_ip = 88; continue _fun00001 }
+                michal = tangon.isPrivate;
+                michal = michal.bind(tangon)();
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot1;
+                if(michal) { _fun00002_ip = 88; continue _fun00001 }
  54:
-                mike = 4;
-                report = oscar[mike];
-                mike = undefined;
-                options = golf.bind(mike)(report);
-                report = options.showInstantInviteActionSheet;
-                mike = 'Voice Channel';
-                mike = report.bind(options)(tango, mike);
+                michal = 4;
+                report = oscard[michal];
+                michal = undefined;
+                option = golfie.bind(michal)(report);
+                report = option.showInstantInviteActionSheet;
+                michal = 'Voice Channel';
+                michal = report.bind(option)(tangon, michal);
                 _fun00002_ip = 129; continue _fun00001;
  88:
                 report = 3;
-                oscar = oscar[report];
+                oscard = oscard[report];
                 report = undefined;
-                oscar = golf.bind(report)(oscar);
-                report = oscar.navigateToNewGroupDM;
-                tango = tango.id;
-                zulu = _closure1_slot4;
-                zulu = zulu.CHANNEL_CALL;
-                mike = report.bind(oscar)(tango, zulu);
+                oscard = golfie.bind(report)(oscard);
+                report = oscard.navigateToNewGroupDM;
+                tangon = tangon.id;
+                zuuluu = _closure1_slot4;
+                zuuluu = zuuluu.CHANNEL_CALL;
+                michal = report.bind(oscard)(tangon, zuuluu);
  129:
-                entity = mike;
+                entity = michal;
  132:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['useInviteMembersCallback'] = mike;
+    zuuluu['useInviteMembersCallback'] = michal;
     return entity;
 })();

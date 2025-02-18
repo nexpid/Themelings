@@ -1,88 +1,88 @@
 // app/modules/expression_picker/native/useExpressionPickerInsets.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.EXPRESSION_FOOTER_HEIGHT;
-    var _closure1_slot3 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/expression_picker/native/useExpressionPickerInsets.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useExpressionPickerInsets
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.EXPRESSION_FOOTER_HEIGHT;
+    var _closure1_slot3 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/expression_picker/native/useExpressionPickerInsets.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useExpressionPickerInsets
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.hasCategories;
-            tango = _closure1_slot0;
-            golf = _closure1_slot1;
+            oscard = entity.hasCategories;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
             entity = 2;
-            entity = golf[entity];
+            entity = golfie[entity];
             report = undefined;
-            entity = tango.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             entity = entity.bind(report)();
             offset = entity.bottom;
             var _closure2_slot0 = offset;
             entity = 3;
-            entity = golf[entity];
-            tango = tango.bind(report)(entity);
+            entity = golfie[entity];
+            tangon = tangon.bind(report)(entity);
             entity = {'includeKeyboardHeightAndroid': true, 'includeKeyboardHeightIOS': true, 'includeCustomKeyboardHeightIOS': false};
-            entity = tango.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             entity = entity.insets;
-            tango = entity.bottom;
+            tangon = entity.bottom;
             entity = {};
             verify = _closure1_slot2;
-            options = verify.useMemo;
-            golf = new Array(1);
-            golf[0] = offset;
-            zulu = function() {
+            option = verify.useMemo;
+            golfie = new Array(1);
+            golfie[0] = offset;
+            zuuluu = function() {
                 entity = {};
-                mike = _closure2_slot0;
-                entity['paddingBottom'] = mike;
+                michal = _closure2_slot0;
+                entity['paddingBottom'] = michal;
                 return entity;
             };
-            zulu = options.bind(verify)(zulu, golf);
-            entity['safeAreaStyle'] = zulu;
-            zulu = 0;
-            if(!oscar) { _fun00002_ip = 131; continue _fun00001 }
+            zuuluu = option.bind(verify)(zuuluu, golfie);
+            entity['safeAreaStyle'] = zuuluu;
+            zuuluu = 0;
+            if(!oscard) { _fun00002_ip = 131; continue _fun00001 }
  127:
-            zulu = _closure1_slot3;
+            zuuluu = _closure1_slot3;
  131:
-            zulu = tango + zulu;
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 4;
-            mike = oscar[mike];
-            mike = tango.bind(report)(mike);
-            mike = mike.spacing;
-            mike = mike.PX_16;
-            mike = zulu + mike;
-            entity['safeAreaBottomKeyboardAware'] = mike;
+            zuuluu = tangon + zuuluu;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 4;
+            michal = oscard[michal];
+            michal = tangon.bind(report)(michal);
+            michal = michal.spacing;
+            michal = michal.PX_16;
+            michal = zuuluu + michal;
+            entity['safeAreaBottomKeyboardAware'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

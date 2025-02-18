@@ -1,118 +1,118 @@
 // app/actions/native/GiftCodeActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
     verify = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = verify;
-    var _closure1_slot2 = golf;
-    mike = function() { // Original name: redeemGiftCode
+    var _closure1_slot2 = golfie;
+    michal = function() { // Original name: redeemGiftCode
         entity = undefined;
-        tango = _closure1_slot7;
-        zulu = tango.apply;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     entity = function() { // Original name: _redeemGiftCode
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 654; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 654; continue _fun00001 }
  13:
-                    backup = mike.code;
-                    golf = mike.options;
-                    zulu = undefined;
-                    if(!(golf === zulu)) { _fun00002_ip = 36; continue _fun00001 }
+                    backup = michal.code;
+                    golfie = michal.options;
+                    zuuluu = undefined;
+                    if(!(golfie === zuuluu)) { _fun00002_ip = 36; continue _fun00001 }
  29:
-                    golf = _closure1_slot6;
+                    golfie = _closure1_slot6;
  36:
-                    offset = mike.onRedeemed;
-                    oscar = mike.onError;
+                    offset = michal.onRedeemed;
+                    oscard = michal.onError;
                     output = undefined;
                     result = undefined;
                     yankee = undefined;
                     report = undefined;
                     SaveGenerator(address=60);
  58:
-                    return zulu;
+                    return zuuluu;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 651; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 651; continue _fun00001 }
  69:
                     verify = _closure1_slot1;
-                    romeo = _closure1_slot2;
-                    options = 2;
-                    options = romeo[options];
-                    foxtrot = verify.bind(zulu)(options);
-                    romeo = foxtrot.getCurrentConfig;
+                    romeon = _closure1_slot2;
+                    option = 2;
+                    option = romeon[option];
+                    foxtra = verify.bind(zuuluu)(option);
+                    romeon = foxtra.getCurrentConfig;
                     verify = {};
-                    options = 'redeemGiftCode';
-                    verify['location'] = options;
-                    options = {};
-                    kilo = false;
-                    options['autoTrackExposure'] = kilo;
-                    options = romeo.bind(foxtrot)(verify, options);
-                    options = options.paymentsBlocked;
-                    if(options) { _fun00002_ip = 624; continue _fun00001 }
+                    option = 'redeemGiftCode';
+                    verify['location'] = option;
+                    option = {};
+                    kiloes = false;
+                    option['autoTrackExposure'] = kiloes;
+                    option = romeon.bind(foxtra)(verify, option);
+                    option = option.paymentsBlocked;
+                    if(option) { _fun00002_ip = 624; continue _fun00001 }
  135:
-                    romeo = golf.channelId;
-                    options = null;
+                    romeon = golfie.channelId;
+                    option = null;
                     verify = null;
-                    if(!(zulu !== romeo)) { _fun00002_ip = 151; continue _fun00001 }
+                    if(!(zuuluu !== romeon)) { _fun00002_ip = 151; continue _fun00001 }
  148:
-                    verify = romeo;
+                    verify = romeon;
  151:
                     output = verify;
-                    verify = golf.paymentSource;
-                    golf = null;
-                    if(!(zulu !== verify)) { _fun00002_ip = 169; continue _fun00001 }
+                    verify = golfie.paymentSource;
+                    golfie = null;
+                    if(!(zuuluu !== verify)) { _fun00002_ip = 169; continue _fun00001 }
  166:
-                    golf = verify;
+                    golfie = verify;
  169:
-                    result = golf;
-                    romeo = _closure1_slot1;
+                    result = golfie;
+                    romeon = _closure1_slot1;
                     verify = _closure1_slot2;
-                    golf = 4;
-                    verify = verify[golf];
-                    foxtrot = romeo.bind(zulu)(verify);
-                    romeo = foxtrot.dispatch;
+                    golfie = 4;
+                    verify = verify[golfie];
+                    foxtra = romeon.bind(zuuluu)(verify);
+                    romeon = foxtra.dispatch;
                     verify = {};
                     sizing = 'GIFT_CODE_REDEEM';
                     verify['type'] = sizing;
                     sizing = backup;
                     verify['code'] = sizing;
-                    verify = romeo.bind(foxtrot)(verify);
+                    verify = romeon.bind(foxtra)(verify);
  219: // try_start_0
-                    romeo = _closure1_slot0;
-                    foxtrot = _closure1_slot2;
+                    romeon = _closure1_slot0;
+                    foxtra = _closure1_slot2;
                     verify = 5;
-                    verify = foxtrot[verify];
-                    verify = romeo.bind(zulu)(verify);
-                    foxtrot = verify.HTTP;
-                    romeo = foxtrot.post;
+                    verify = foxtra[verify];
+                    verify = romeon.bind(zuuluu)(verify);
+                    foxtra = verify.HTTP;
+                    romeon = foxtra.post;
                     verify = {};
                     update = _closure1_slot4;
-                    echo = update.GIFT_CODE_REDEEM;
+                    echoed = update.GIFT_CODE_REDEEM;
                     sizing = backup;
-                    sizing = echo.bind(update)(sizing);
+                    sizing = echoed.bind(update)(sizing);
                     verify['url'] = sizing;
                     sizing = {};
                     sizing['channel_id'] = output;
                     output = result;
-                    echo = options == output;
+                    echoed = option == output;
                     output = undefined;
-                    if(echo) { _fun00002_ip = 297; continue _fun00001 }
+                    if(echoed) { _fun00002_ip = 297; continue _fun00001 }
  292:
                     output = result.id;
  297:
@@ -120,45 +120,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify['body'] = sizing;
                     sizing = true;
                     verify['oldFormErrors'] = sizing;
-                    verify['rejectWithError'] = kilo;
-                    verify = romeo.bind(foxtrot)(verify);
+                    verify['rejectWithError'] = kiloes;
+                    verify = romeon.bind(foxtra)(verify);
                     SaveGenerator(address=326);
  324:
                     return verify;
  326:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(romeo) { _fun00002_ip = 457; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 457; continue _fun00001 }
  335:
                     yankee = verify;
-                    foxtrot = _closure1_slot1;
-                    kilo = _closure1_slot2;
-                    romeo = kilo[golf];
-                    output = foxtrot.bind(zulu)(romeo);
+                    foxtra = _closure1_slot1;
+                    kiloes = _closure1_slot2;
+                    romeon = kiloes[golfie];
+                    output = foxtra.bind(zuuluu)(romeon);
                     sizing = output.dispatch;
-                    romeo = {};
+                    romeon = {};
                     result = 'GIFT_CODE_REDEEM_SUCCESS';
-                    romeo['type'] = result;
+                    romeon['type'] = result;
                     result = backup;
-                    romeo['code'] = result;
-                    romeo = sizing.bind(output)(romeo);
-                    romeo = 6;
-                    romeo = kilo[romeo];
-                    sizing = foxtrot.bind(zulu)(romeo);
-                    kilo = sizing.track;
-                    romeo = _closure1_slot5;
-                    foxtrot = romeo.OPEN_MODAL;
-                    romeo = {};
+                    romeon['code'] = result;
+                    romeon = sizing.bind(output)(romeon);
+                    romeon = 6;
+                    romeon = kiloes[romeon];
+                    sizing = foxtra.bind(zuuluu)(romeon);
+                    kiloes = sizing.track;
+                    romeon = _closure1_slot5;
+                    foxtra = romeon.OPEN_MODAL;
+                    romeon = {};
                     output = 'gift_accept';
-                    romeo['type'] = output;
-                    romeo = kilo.bind(sizing)(foxtrot, romeo);
-                    romeo = offset;
-                    if(!(options != romeo)) { _fun00002_ip = 440; continue _fun00001 }
+                    romeon['type'] = output;
+                    romeon = kiloes.bind(sizing)(foxtra, romeon);
+                    romeon = offset;
+                    if(!(option != romeon)) { _fun00002_ip = 440; continue _fun00001 }
  436:
-                    offset = offset.bind(zulu)();
+                    offset = offset.bind(zuuluu)();
  440:
                     offset = {};
-                    romeo = backup;
-                    offset['code'] = romeo;
+                    romeon = backup;
+                    offset['code'] = romeon;
                     offset['entitlement'] = yankee;
  454: // try_end0
                     return offset;
@@ -170,103 +170,103 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = _closure1_slot2;
                     verify = 7;
                     verify = offset[verify];
-                    verify = yankee.bind(zulu)(verify);
+                    verify = yankee.bind(zuuluu)(verify);
                     verify = verify.BillingError;
                     yankee = verify.prototype;
                     yankee = Object.create(yankee, {constructor: {value: verify}});
                     vacuum = yankee;
-                    control = romeo;
-                    verify = new vacuum[verify](control, source);
-                    foxtrot = verify instanceof Object ? verify : yankee;
-                    report = foxtrot;
+                    ctrled = romeon;
+                    verify = new vacuum[verify](ctrled, source);
+                    foxtra = verify instanceof Object ? verify : yankee;
+                    report = foxtra;
                     verify = _closure1_slot1;
-                    golf = offset[golf];
-                    romeo = verify.bind(zulu)(golf);
-                    yankee = romeo.dispatch;
-                    golf = {};
-                    kilo = 'GIFT_CODE_REDEEM_FAILURE';
-                    golf['type'] = kilo;
-                    golf['code'] = backup;
-                    golf['error'] = foxtrot;
-                    golf = yankee.bind(romeo)(golf);
-                    golf = 6;
-                    golf = offset[golf];
-                    yankee = verify.bind(zulu)(golf);
+                    golfie = offset[golfie];
+                    romeon = verify.bind(zuuluu)(golfie);
+                    yankee = romeon.dispatch;
+                    golfie = {};
+                    kiloes = 'GIFT_CODE_REDEEM_FAILURE';
+                    golfie['type'] = kiloes;
+                    golfie['code'] = backup;
+                    golfie['error'] = foxtra;
+                    golfie = yankee.bind(romeon)(golfie);
+                    golfie = 6;
+                    golfie = offset[golfie];
+                    yankee = verify.bind(zuuluu)(golfie);
                     offset = yankee.track;
-                    golf = _closure1_slot5;
-                    verify = golf.OPEN_MODAL;
-                    golf = {'type': 'gift_accept', 'location': null};
-                    golf = offset.bind(yankee)(verify, golf);
-                    golf = oscar;
-                    if(!(options != golf)) { _fun00002_ip = 622; continue _fun00001 }
+                    golfie = _closure1_slot5;
+                    verify = golfie.OPEN_MODAL;
+                    golfie = {'type': 'gift_accept', 'location': null};
+                    golfie = offset.bind(yankee)(verify, golfie);
+                    golfie = oscard;
+                    if(!(option != golfie)) { _fun00002_ip = 622; continue _fun00001 }
  611:
-                    golf = oscar;
-                    oscar = report;
-                    oscar = golf.bind(zulu)(oscar);
+                    golfie = oscard;
+                    oscard = report;
+                    oscard = golfie.bind(zuuluu)(oscard);
  622:
                     throw report;
  624:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 3;
-                    tango = oscar[tango];
-                    tango = report.bind(zulu)(tango);
-                    tango = tango.bind(zulu)();
-                    return zulu;
+                    oscard = _closure1_slot2;
+                    tangon = 3;
+                    tangon = oscard[tangon];
+                    tangon = report.bind(zuuluu)(tangon);
+                    tangon = tangon.bind(zuuluu)();
+                    return zuuluu;
  651:
-                    return mike;
+                    return michal;
  654:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot7 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot7 = entity;
-    tango = global;
-    yankee = tango.Object;
+    tangon = global;
+    yankee = tangon.Object;
     offset = yankee.defineProperty;
-    options = {};
+    option = {};
     entity = true;
-    options['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, options);
+    entity = offset.bind(yankee)(zuuluu, entity, option);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     entity = undefined;
-    options = verify.bind(entity)(options);
-    var _closure1_slot3 = options;
-    options = 1;
-    options = golf[options];
-    options = oscar.bind(entity)(options);
-    verify = options.Endpoints;
+    option = verify.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 1;
+    option = golfie[option];
+    option = oscard.bind(entity)(option);
+    verify = option.Endpoints;
     var _closure1_slot4 = verify;
-    options = options.AnalyticEvents;
-    var _closure1_slot5 = options;
-    verify = tango.Object;
-    options = verify.freeze;
-    tango = {};
-    tango = options.bind(verify)(tango);
-    var _closure1_slot6 = tango;
-    tango = {};
-    tango['redeemGiftCode'] = mike;
+    option = option.AnalyticEvents;
+    var _closure1_slot5 = option;
+    verify = tangon.Object;
+    option = verify.freeze;
+    tangon = {};
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = {};
+    tangon['redeemGiftCode'] = michal;
     report = 8;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'actions/native/GiftCodeActionCreators.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['redeemGiftCode'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['redeemGiftCode'] = michal;
     return entity;
 })();

@@ -1,150 +1,150 @@
 // app/modules/feedback/native/requestReviewModal.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _showAndroidRatingRequest
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* () {
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 138; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 138; continue _fun00001 }
  10: // try_start_0
-                    tango = _closure1_slot1;
-                    mike = _closure1_slot2;
-                    oscar = 3;
-                    mike = mike[oscar];
+                    tangon = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    oscard = 3;
+                    michal = michal[oscard];
                     report = undefined;
-                    tango = tango.bind(report)(mike);
-                    mike = null;
-                    tango = mike == tango;
-                    mike = undefined;
-                    if(tango) { _fun00002_ip = 75; continue _fun00001 }
+                    tangon = tangon.bind(report)(michal);
+                    michal = null;
+                    tangon = michal == tangon;
+                    michal = undefined;
+                    if(tangon) { _fun00002_ip = 75; continue _fun00001 }
  46:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    zulu = zulu[oscar];
-                    tango = tango.bind(report)(zulu);
-                    zulu = tango.requestRating;
-                    mike = zulu.bind(tango)();
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[oscard];
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = tangon.requestRating;
+                    michal = zuuluu.bind(tangon)();
  75:
                     SaveGenerator(address=79);
  77:
-                    return mike;
+                    return michal;
  79:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 87; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 87; continue _fun00001 }
  85: // try_end0
                     _fun00002_ip = 133; continue _fun00001;
  87:
-                    return mike;
+                    return michal;
  90: // catch_target0
                     CatchBlockStart(arg_register=5);
-                    tango = _closure1_slot5;
-                    zulu = tango.error;
-                    mike = global;
-                    mike = mike.HermesInternal;
-                    report = mike.concat;
-                    mike = 'Failed to show Android rating request: ';
-                    mike = report.bind(mike)(oscar);
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot5;
+                    zuuluu = tangon.error;
+                    michal = global;
+                    michal = michal.HermesInternal;
+                    report = michal.concat;
+                    michal = 'Failed to show Android rating request: ';
+                    michal = report.bind(michal)(oscard);
+                    michal = zuuluu.bind(tangon)(michal);
  133:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  138:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.Logger;
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'requestReviewModal';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/feedback/native/requestReviewModal.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: requestReviewModal
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.Logger;
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'requestReviewModal';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/feedback/native/requestReviewModal.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: requestReviewModal
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 4;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00004_ip = 61; continue _fun00003 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00004_ip = 61; continue _fun00003 }
  37:
-            mike = _closure1_slot4;
-            zulu = mike.AppStoreManager;
-            mike = zulu.requestReview;
-            mike = mike.bind(zulu)();
+            michal = _closure1_slot4;
+            zuuluu = michal.AppStoreManager;
+            michal = zuuluu.requestReview;
+            michal = michal.bind(zuuluu)();
             _fun00004_ip = 74; continue _fun00003;
  61:
-            mike = function() { // Original name: showAndroidRatingRequest
+            michal = function() { // Original name: showAndroidRatingRequest
                 entity = undefined;
-                tango = _closure1_slot6;
-                zulu = tango.apply;
+                tangon = _closure1_slot6;
+                zuuluu = tangon.apply;
                 entity = arguments;
-                mike = entity;
+                michal = entity;
                 entity = this;
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
-            mike = mike.bind(entity)();
+            michal = michal.bind(entity)();
  74:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

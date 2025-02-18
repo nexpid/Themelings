@@ -1,118 +1,118 @@
 // app/design/components/Pile/native/AvatarPile.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    golf = report.bind(entity)(golf);
-    golf = golf.jsx;
-    var _closure1_slot3 = golf;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsxs;
-    var _closure1_slot4 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Pile/native/AvatarPile.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: AvatarPile
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.jsx;
+    var _closure1_slot3 = golfie;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsxs;
+    var _closure1_slot4 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Pile/native/AvatarPile.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: AvatarPile
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.size;
+            michal = entity.size;
             yankee = entity.totalCount;
             sizing = entity.names;
-            oscar = entity.children;
+            oscard = entity.children;
             entity = _closure1_slot2;
-            zulu = entity.Children;
-            entity = zulu.count;
-            offset = entity.bind(zulu)(oscar);
+            zuuluu = entity.Children;
+            entity = zuuluu.count;
+            offset = entity.bind(zuuluu)(oscard);
             verify = _closure1_slot0;
             backup = _closure1_slot1;
-            foxtrot = 2;
-            entity = backup[foxtrot];
-            tango = undefined;
-            entity = verify.bind(tango)(entity);
+            foxtra = 2;
+            entity = backup[foxtra];
+            tangon = undefined;
+            entity = verify.bind(tangon)(entity);
             entity = entity.AVATAR_SIZE_MAP;
-            romeo = entity[mike];
-            zulu = _closure1_slot4;
+            romeon = entity[michal];
+            zuuluu = _closure1_slot4;
             report = 3;
             entity = backup[report];
-            entity = verify.bind(tango)(entity);
-            mike = entity.Pile;
+            entity = verify.bind(tangon)(entity);
+            michal = entity.Pile;
             entity = {};
-            options = 4;
-            options = backup[options];
-            kilo = verify.bind(tango)(options);
-            options = kilo.getListSummaryLabel;
-            options = options.bind(kilo)(sizing, yankee);
-            entity['aria-label'] = options;
-            options = 5;
-            options = backup[options];
-            options = verify.bind(tango)(options);
-            options = options.CutoutShape;
-            options = options.Circle;
-            entity['shape'] = options;
-            entity['size'] = romeo;
-            options = 40;
-            options = romeo <= options;
-            if(!options) { _fun00002_ip = 178; continue _fun00001 }
+            option = 4;
+            option = backup[option];
+            kiloes = verify.bind(tangon)(option);
+            option = kiloes.getListSummaryLabel;
+            option = option.bind(kiloes)(sizing, yankee);
+            entity['aria-label'] = option;
+            option = 5;
+            option = backup[option];
+            option = verify.bind(tangon)(option);
+            option = option.CutoutShape;
+            option = option.Circle;
+            entity['shape'] = option;
+            entity['size'] = romeon;
+            option = 40;
+            option = romeon <= option;
+            if(!option) { _fun00002_ip = 178; continue _fun00001 }
  175:
-            report = foxtrot;
+            report = foxtra;
  178:
             entity['gap'] = report;
             report = 0.4;
             entity['depthX'] = report;
             report = new Array(2);
-            report[0] = oscar;
-            oscar = null;
-            oscar = oscar != yankee;
-            if(!oscar) { _fun00002_ip = 219; continue _fun00001 }
+            report[0] = oscard;
+            oscard = null;
+            oscard = oscard != yankee;
+            if(!oscard) { _fun00002_ip = 219; continue _fun00001 }
  215:
-            oscar = offset < yankee;
+            oscard = offset < yankee;
  219:
-            if(!oscar) { _fun00002_ip = 280; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 280; continue _fun00001 }
  222:
             verify = _closure1_slot3;
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             backup = _closure1_slot1;
-            golf = 6;
-            golf = backup[golf];
-            golf = options.bind(tango)(golf);
-            options = golf.PileOverflow;
-            golf = {};
-            golf['size'] = romeo;
-            romeo = romeo / foxtrot;
-            golf['borderRadius'] = romeo;
+            golfie = 6;
+            golfie = backup[golfie];
+            golfie = option.bind(tangon)(golfie);
+            option = golfie.PileOverflow;
+            golfie = {};
+            golfie['size'] = romeon;
+            romeon = romeon / foxtra;
+            golfie['borderRadius'] = romeon;
             offset = yankee - offset;
-            golf['value'] = offset;
-            oscar = verify.bind(tango)(options, golf);
+            golfie['value'] = offset;
+            oscard = verify.bind(tangon)(option, golfie);
  280:
-            report[1] = oscar;
+            report[1] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['AvatarPile'] = mike;
+    zuuluu['AvatarPile'] = michal;
     return entity;
 })();

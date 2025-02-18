@@ -1,36 +1,36 @@
 // app/modules/tooltip/TooltipActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
-    mike = argBaz;
-    var _closure1_slot0 = mike;
-    var _closure1_slot1 = tango;
-    mike = global;
-    golf = mike.Object;
-    oscar = golf.defineProperty;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
+    michal = argBaz;
+    var _closure1_slot0 = michal;
+    var _closure1_slot1 = tangon;
+    michal = global;
+    golfie = michal.Object;
+    oscard = golfie.defineProperty;
     report = {};
-    mike = true;
-    report['value'] = mike;
-    mike = '__esModule';
-    mike = oscar.bind(golf)(zulu, mike, report);
-    mike = {};
+    michal = true;
+    report['value'] = michal;
+    michal = '__esModule';
+    michal = oscard.bind(golfie)(zuuluu, michal, report);
+    michal = {};
     report = function(argFoo) { // Original name: acknowledgeTooltip
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'TOOLTIP_ACKNOWLEDGE';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['tooltip'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['tooltip'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['acknowledgeTooltip'] = report;
+    michal['acknowledgeTooltip'] = report;
     entity = function(argFoo) { // Original name: attemptToShowTooltip
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -40,31 +40,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  9:
             report = false;
  11:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 0;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            oscar = 'TOOLTIP_SHOW_ATTEMPT';
-            mike['type'] = oscar;
-            oscar = argFoo;
-            mike['tooltip'] = oscar;
-            mike['ignoreMaxShownLimit'] = report;
-            mike = zulu.bind(tango)(mike);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 0;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            oscard = 'TOOLTIP_SHOW_ATTEMPT';
+            michal['type'] = oscard;
+            oscard = argFoo;
+            michal['tooltip'] = oscard;
+            michal['ignoreMaxShownLimit'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    mike['attemptToShowTooltip'] = entity;
+    michal['attemptToShowTooltip'] = entity;
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/tooltip/TooltipActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/tooltip/TooltipActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

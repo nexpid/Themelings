@@ -1,30 +1,30 @@
 // app/components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'guild_select';
-    mike['GUILD_SELECT'] = entity;
+    michal['GUILD_SELECT'] = entity;
     entity = 'overview';
-    mike['OVERVIEW'] = entity;
+    michal['OVERVIEW'] = entity;
     entity = 'confirmation';
-    mike['CONFIRMATION'] = entity;
-    tango = argPlugh;
+    michal['CONFIRMATION'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['PremiumGuildSubscribeModalScenes'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['PremiumGuildSubscribeModalScenes'] = michal;
     return entity;
 })();

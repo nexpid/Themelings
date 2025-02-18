@@ -1,55 +1,55 @@
 // app/modules/messages/isCrosspost.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.MessageReferenceTypes;
-    var _closure1_slot0 = golf;
-    tango = tango.MessageTypes;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/isCrosspost.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isCrosspost
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.MessageReferenceTypes;
+    var _closure1_slot0 = golfie;
+    tangon = tangon.MessageTypes;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/isCrosspost.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isCrosspost
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = zulu.type;
+            zuuluu = argFoo;
+            tangon = zuuluu.type;
             entity = _closure1_slot1;
             entity = entity.DEFAULT;
-            entity = tango === entity;
+            entity = tangon === entity;
             if(!entity) { _fun00002_ip = 40; continue _fun00001 }
  28:
-            report = zulu.messageReference;
-            tango = null;
-            entity = tango != report;
+            report = zuuluu.messageReference;
+            tangon = null;
+            entity = tangon != report;
  40:
             if(!entity) { _fun00002_ip = 68; continue _fun00001 }
  43:
-            zulu = zulu.messageReference;
-            zulu = zulu.type;
-            mike = _closure1_slot0;
-            mike = mike.FORWARD;
-            entity = zulu !== mike;
+            zuuluu = zuuluu.messageReference;
+            zuuluu = zuuluu.type;
+            michal = _closure1_slot0;
+            michal = michal.FORWARD;
+            entity = zuuluu !== michal;
  68:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

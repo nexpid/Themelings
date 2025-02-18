@@ -1,57 +1,57 @@
 // app/modules/activities/utils/isOnPlayStation.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityGamePlatforms;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/isOnPlayStation.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isOnPlayStation
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityGamePlatforms;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/isOnPlayStation.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isOnPlayStation
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = null;
-            entity = report == tango;
-            oscar = undefined;
+            entity = report == tangon;
+            oscard = undefined;
             if(entity) { _fun00002_ip = 20; continue _fun00001 }
  14:
-            oscar = tango.platform;
+            oscard = tangon.platform;
  20:
             entity = _closure1_slot0;
             entity = entity.PS4;
-            entity = oscar === entity;
+            entity = oscard === entity;
             if(entity) { _fun00002_ip = 69; continue _fun00001 }
  40:
-            report = report == tango;
-            zulu = undefined;
+            report = report == tangon;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 55; continue _fun00001 }
  49:
-            zulu = tango.platform;
+            zuuluu = tangon.platform;
  55:
-            mike = _closure1_slot0;
-            mike = mike.PS5;
-            entity = zulu === mike;
+            michal = _closure1_slot0;
+            michal = michal.PS5;
+            entity = zuuluu === michal;
  69:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

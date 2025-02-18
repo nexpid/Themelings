@@ -1,32 +1,32 @@
 // app/modules/user_settings/native/design_system/useDesignSystemSettingsState.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    tango = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(mike);
-    tango = golf.create;
-    mike = function() {
+    golfie = report.bind(entity)(michal);
+    tangon = golfie.create;
+    michal = function() {
         entity = {'buttonSize': 'md', 'buttonScale': 8, 'enableLoadingState': false, 'iconPosition': 'start', 'showIcon': false, 'showDisabled': false};
         return entity;
     };
-    mike = tango.bind(golf)(mike);
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/native/design_system/useDesignSystemSettingsState.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = tangon.bind(golfie)(michal);
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/native/design_system/useDesignSystemSettingsState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

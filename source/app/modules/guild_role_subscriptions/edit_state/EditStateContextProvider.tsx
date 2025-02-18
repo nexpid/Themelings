@@ -1,81 +1,81 @@
 // app/modules/guild_role_subscriptions/edit_state/EditStateContextProvider.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    golf = tango.bind(entity)(golf);
-    var _closure1_slot0 = golf;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot1 = tango;
-    tango = golf.createContext;
-    tango = tango.bind(golf)(entity);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/edit_state/EditStateContextProvider.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useEditStateContext
+    golfie = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = golfie;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot1 = tangon;
+    tangon = golfie.createContext;
+    tangon = tangon.bind(golfie)(entity);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/edit_state/EditStateContextProvider.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useEditStateContext
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            mike = zulu.useContext;
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.useContext;
             entity = _closure1_slot2;
-            entity = mike.bind(zulu)(entity);
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 30; continue _fun00001 }
+            entity = michal.bind(zuuluu)(entity);
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 30; continue _fun00001 }
  28:
             return entity;
  30:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'No edit state; are you missing an <EditStateContextProvider />?';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'No edit state; are you missing an <EditStateContextProvider />?';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['useEditStateContext'] = tango;
-    mike = function(argFoo) { // Original name: EditStateContextProvider
-        tango = argFoo;
-        entity = tango.children;
-        mike = null;
-        zulu = Object.create(mike);
-        mike = 0;
-        zulu['children'] = mike;
-        options = {};
-        golf = tango;
-        oscar = zulu;
-        report = copyDataProperties(options, golf, oscar);
-        tango = _closure1_slot1;
-        mike = _closure1_slot2;
-        zulu = mike.Provider;
-        mike = {};
-        mike['value'] = report;
-        mike['children'] = entity;
+    zuuluu['useEditStateContext'] = tangon;
+    michal = function(argFoo) { // Original name: EditStateContextProvider
+        tangon = argFoo;
+        entity = tangon.children;
+        michal = null;
+        zuuluu = Object.create(michal);
+        michal = 0;
+        zuuluu['children'] = michal;
+        option = {};
+        golfie = tangon;
+        oscard = zuuluu;
+        report = copyDataProperties(option, golfie, oscard);
+        tangon = _closure1_slot1;
+        michal = _closure1_slot2;
+        zuuluu = michal.Provider;
+        michal = {};
+        michal['value'] = report;
+        michal['children'] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    zulu['EditStateContextProvider'] = mike;
+    zuuluu['EditStateContextProvider'] = michal;
     return entity;
 })();

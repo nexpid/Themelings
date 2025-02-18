@@ -1,268 +1,268 @@
 // app/modules/guild_settings_picker/GuildSettingsPickerFeatures.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     verify = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     offset = entity.Object;
-    options = offset.defineProperty;
-    tango = {};
-    golf = true;
-    tango['value'] = golf;
+    option = offset.defineProperty;
+    tangon = {};
+    golfie = true;
+    tangon['value'] = golfie;
     entity = '__esModule';
-    entity = options.bind(offset)(zulu, entity, tango);
+    entity = option.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = verify.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    options = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = verify.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = {};
-    options = 3;
-    options = oscar[options];
-    options = verify.bind(entity)(options);
-    tango['server-subscriptions-onboarding'] = options;
-    options = 4;
-    options = oscar[options];
-    options = verify.bind(entity)(options);
-    tango['server-subscriptions-finish-setting-up'] = options;
-    options = 5;
-    options = oscar[options];
-    options = verify.bind(entity)(options);
-    tango['server-subscriptions-create-tier-from-template'] = options;
-    var _closure1_slot5 = tango;
-    tango = {};
-    options = function() { // Original name: title
+    tangon = verify.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    option = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = verify.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = {};
+    option = 3;
+    option = oscard[option];
+    option = verify.bind(entity)(option);
+    tangon['server-subscriptions-onboarding'] = option;
+    option = 4;
+    option = oscard[option];
+    option = verify.bind(entity)(option);
+    tangon['server-subscriptions-finish-setting-up'] = option;
+    option = 5;
+    option = oscard[option];
+    option = verify.bind(entity)(option);
+    tangon['server-subscriptions-create-tier-from-template'] = option;
+    var _closure1_slot5 = tangon;
+    tangon = {};
+    option = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 6;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.V42OaG;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['title'] = options;
-    options = function() { // Original name: description
+    tangon['title'] = option;
+    option = function() { // Original name: description
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 6;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.7dJ16e;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['description'] = options;
-    options = function() { // Original name: selectGuildCta
+    tangon['description'] = option;
+    option = function() { // Original name: selectGuildCta
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 6;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.LhlgY2;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['selectGuildCta'] = options;
-    options = function() { // Original name: createGuildDescription
+    tangon['selectGuildCta'] = option;
+    option = function() { // Original name: createGuildDescription
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 6;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.anOis7;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['createGuildDescription'] = options;
-    options = function() { // Original name: createGuildCta
+    tangon['createGuildDescription'] = option;
+    option = function() { // Original name: createGuildCta
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 6;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.B44MTk;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['createGuildCta'] = options;
-    tango['canCreateGuild'] = golf;
-    golf = function() { // Original name: useIsGuildSupported
-        zulu = _closure1_slot0;
-        golf = _closure1_slot1;
+    tangon['createGuildCta'] = option;
+    tangon['canCreateGuild'] = golfie;
+    golfie = function() { // Original name: useIsGuildSupported
+        zuuluu = _closure1_slot0;
+        golfie = _closure1_slot1;
         entity = 7;
-        report = golf[entity];
-        mike = undefined;
-        oscar = zulu.bind(mike)(report);
-        report = oscar.useStateFromStores;
-        options = _closure1_slot4;
-        tango = new Array(1);
-        tango[0] = options;
-        entity = golf[entity];
-        entity = zulu.bind(mike)(entity);
+        report = golfie[entity];
+        michal = undefined;
+        oscard = zuuluu.bind(michal)(report);
+        report = oscard.useStateFromStores;
+        option = _closure1_slot4;
+        tangon = new Array(1);
+        tangon[0] = option;
+        entity = golfie[entity];
+        entity = zuuluu.bind(michal)(entity);
         verify = entity.statesWillNeverBeEqual;
         yankee = function() {
             entity = function(argFoo) {
-                zulu = _closure1_slot4;
-                mike = zulu.canAccessGuildSettings;
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.canAccessGuildSettings;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
             return entity;
         };
         offset = new Array(0);
-        foxtrot = oscar;
-        romeo = tango;
-        entity = foxtrot[report](romeo, yankee, offset, verify, options);
+        foxtra = oscard;
+        romeon = tangon;
+        entity = foxtra[report](romeon, yankee, offset, verify, option);
         return entity;
     };
-    tango['useIsGuildSupported'] = golf;
-    var _closure1_slot6 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_settings_picker/GuildSettingsPickerFeatures.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useGuildSettingsPickerFeature
+    tangon['useIsGuildSupported'] = golfie;
+    var _closure1_slot6 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_settings_picker/GuildSettingsPickerFeatures.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useGuildSettingsPickerFeature
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
-            oscar = _closure1_slot3;
-            zulu = oscar.useState;
-            tango = null;
-            options = tango == verify;
-            golf = undefined;
+            oscard = _closure1_slot3;
+            zuuluu = oscard.useState;
+            tangon = null;
+            option = tangon == verify;
+            golfie = undefined;
             entity = undefined;
-            if(options) { _fun00002_ip = 38; continue _fun00001 }
+            if(option) { _fun00002_ip = 38; continue _fun00001 }
  30:
-            options = _closure1_slot5;
-            entity = options[verify];
+            option = _closure1_slot5;
+            entity = option[verify];
  38:
-            oscar = zulu.bind(oscar)(entity);
-            zulu = _closure1_slot2;
+            oscard = zuuluu.bind(oscard)(entity);
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu.bind(golf)(oscar, entity);
+            zuuluu = zuuluu.bind(golfie)(oscard, entity);
             entity = 0;
-            entity = zulu[entity];
-            oscar = _closure1_slot6;
-            zulu = oscar.useIsGuildSupported;
-            zulu = zulu.bind(oscar)();
-            var _closure2_slot0 = zulu;
-            oscar = tango == entity;
-            zulu = undefined;
-            if(oscar) { _fun00002_ip = 114; continue _fun00001 }
+            entity = zuuluu[entity];
+            oscard = _closure1_slot6;
+            zuuluu = oscard.useIsGuildSupported;
+            zuuluu = zuuluu.bind(oscard)();
+            var _closure2_slot0 = zuuluu;
+            oscard = tangon == entity;
+            zuuluu = undefined;
+            if(oscard) { _fun00002_ip = 114; continue _fun00001 }
  89:
-            oscar = entity.useIsGuildSupported;
-            oscar = tango == oscar;
-            zulu = undefined;
-            if(oscar) { _fun00002_ip = 114; continue _fun00001 }
+            oscard = entity.useIsGuildSupported;
+            oscard = tangon == oscard;
+            zuuluu = undefined;
+            if(oscard) { _fun00002_ip = 114; continue _fun00001 }
  104:
-            oscar = entity.useIsGuildSupported;
-            zulu = oscar.bind(entity)();
+            oscard = entity.useIsGuildSupported;
+            zuuluu = oscard.bind(entity)();
  114:
-            var _closure2_slot1 = zulu;
-            zulu = {};
+            var _closure2_slot1 = zuuluu;
+            zuuluu = {};
             offset = _closure1_slot6;
-            yankee = zulu;
+            yankee = zuuluu;
             report = copyDataProperties(yankee, offset);
-            if(!(tango == entity)) { _fun00002_ip = 137; continue _fun00001 }
+            if(!(tangon == entity)) { _fun00002_ip = 137; continue _fun00001 }
  135:
             entity = {};
  137:
-            yankee = zulu;
+            yankee = zuuluu;
             offset = entity;
             entity = copyDataProperties(yankee, offset);
             entity = {};
-            tango = zulu.title;
-            tango = tango.bind(zulu)();
-            entity['title'] = tango;
-            tango = zulu.description;
-            tango = tango.bind(zulu)();
-            entity['description'] = tango;
-            tango = zulu.selectGuildCta;
-            tango = tango.bind(zulu)();
-            entity['selectGuildCta'] = tango;
-            tango = zulu.createGuildDescription;
-            tango = tango.bind(zulu)();
-            entity['createGuildDescription'] = tango;
-            tango = zulu.createGuildCta;
-            tango = tango.bind(zulu)();
-            entity['createGuildCta'] = tango;
-            zulu = zulu.canCreateGuild;
-            entity['canCreateGuild'] = zulu;
-            mike = function(argFoo, argBar) { // Original name: isGuildSupported
+            tangon = zuuluu.title;
+            tangon = tangon.bind(zuuluu)();
+            entity['title'] = tangon;
+            tangon = zuuluu.description;
+            tangon = tangon.bind(zuuluu)();
+            entity['description'] = tangon;
+            tangon = zuuluu.selectGuildCta;
+            tangon = tangon.bind(zuuluu)();
+            entity['selectGuildCta'] = tangon;
+            tangon = zuuluu.createGuildDescription;
+            tangon = tangon.bind(zuuluu)();
+            entity['createGuildDescription'] = tangon;
+            tangon = zuuluu.createGuildCta;
+            tangon = tangon.bind(zuuluu)();
+            entity['createGuildCta'] = tangon;
+            zuuluu = zuuluu.canCreateGuild;
+            entity['canCreateGuild'] = zuuluu;
+            michal = function(argFoo, argBar) { // Original name: isGuildSupported
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    oscar = argFoo;
+                    oscard = argFoo;
                     report = argBar;
                     entity = _closure2_slot0;
-                    tango = undefined;
-                    entity = entity.bind(tango)(oscar, report);
+                    tangon = undefined;
+                    entity = entity.bind(tangon)(oscard, report);
                     if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  24:
-                    golf = _closure2_slot1;
-                    zulu = null;
-                    golf = zulu == golf;
-                    zulu = undefined;
-                    if(golf) { _fun00004_ip = 49; continue _fun00003 }
+                    golfie = _closure2_slot1;
+                    zuuluu = null;
+                    golfie = zuuluu == golfie;
+                    zuuluu = undefined;
+                    if(golfie) { _fun00004_ip = 49; continue _fun00003 }
  39:
-                    mike = _closure2_slot1;
-                    zulu = mike.bind(tango)(oscar, report);
+                    michal = _closure2_slot1;
+                    zuuluu = michal.bind(tangon)(oscard, report);
  49:
-                    mike = false;
-                    entity = mike !== zulu;
+                    michal = false;
+                    entity = michal !== zuuluu;
  55:
                     return entity;
                 }
             };
-            entity['isGuildSupported'] = mike;
+            entity['isGuildSupported'] = michal;
             return entity;
         }
     };
-    zulu['useGuildSettingsPickerFeature'] = mike;
+    zuuluu['useGuildSettingsPickerFeature'] = michal;
     return entity;
 })();

@@ -1,67 +1,67 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useShouldShowInitialSafetyToolsButtonTooltip.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/self_mod/inappropriate_conversation/hooks/useShouldShowInitialSafetyToolsButtonTooltip.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShouldShowInitialSafetyToolsButtonTooltip
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useShouldShowInitialSafetyToolsButtonTooltip.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShouldShowInitialSafetyToolsButtonTooltip
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            var _closure2_slot0 = options;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 1;
-            zulu = golf[zulu];
+            option = argFoo;
+            var _closure2_slot0 = option;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 1;
+            zuuluu = golfie[zuuluu];
             report = undefined;
-            tango = oscar.bind(report)(zulu);
-            zulu = tango.useInappropriateConversationSafetyToolsWarningForChannel;
-            zulu = zulu.bind(tango)(options);
-            tango = 2;
-            tango = golf[tango];
-            report = oscar.bind(report)(tango);
-            tango = report.useStateFromStores;
-            oscar = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = oscar;
+            tangon = oscard.bind(report)(zuuluu);
+            zuuluu = tangon.useInappropriateConversationSafetyToolsWarningForChannel;
+            zuuluu = zuuluu.bind(tangon)(option);
+            tangon = 2;
+            tangon = golfie[tangon];
+            report = oscard.bind(report)(tangon);
+            tangon = report.useStateFromStores;
+            oscard = _closure1_slot2;
+            michal = new Array(1);
+            michal[0] = oscard;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.hasShownInitialTooltipForChannel;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.hasShownInitialTooltipForChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike = tango.bind(report)(mike, entity);
+            michal = tangon.bind(report)(michal, entity);
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  94:
-            entity = !mike;
+            entity = !michal;
  97:
             return entity;
         }
     };
-    zulu['useShouldShowInitialSafetyToolsButtonTooltip'] = mike;
+    zuuluu['useShouldShowInitialSafetyToolsButtonTooltip'] = michal;
     return entity;
 })();

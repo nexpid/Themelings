@@ -1,72 +1,72 @@
 // app/modules/guild_automod/ExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_automod/ExperimentUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isInMentionRaidExperiment
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_automod/ExperimentUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isInMentionRaidExperiment
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.AutomodMentionRaidLimit;
-        mike = zulu.getCurrentConfig;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.AutomodMentionRaidLimit;
+        michal = zuuluu.getCurrentConfig;
         entity = {};
-        tango = argFoo;
-        entity['guildId'] = tango;
-        tango = '988d4e_3';
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = argFoo;
+        entity['guildId'] = tangon;
+        tangon = '988d4e_3';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.enabled;
         return entity;
     };
-    zulu['isInMentionRaidExperiment'] = tango;
-    mike = function(argFoo) { // Original name: useIsMentionRaidExperimentEnabled
+    zuuluu['isInMentionRaidExperiment'] = tangon;
+    michal = function(argFoo) { // Original name: useIsMentionRaidExperimentEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
-            zulu = undefined;
-            if(!(report === zulu)) { _fun00002_ip = 11; continue _fun00001 }
+            zuuluu = undefined;
+            if(!(report === zuuluu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             report = true;
  11:
-            mike = _closure1_slot0;
-            tango = _closure1_slot1;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 0;
-            entity = tango[entity];
-            entity = mike.bind(zulu)(entity);
-            tango = entity.AutomodMentionRaidLimit;
-            zulu = tango.useExperiment;
-            mike = {};
+            entity = tangon[entity];
+            entity = michal.bind(zuuluu)(entity);
+            tangon = entity.AutomodMentionRaidLimit;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = argFoo;
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = '988d4e_4';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useIsMentionRaidExperimentEnabled'] = mike;
+    zuuluu['useIsMentionRaidExperimentEnabled'] = michal;
     return entity;
 })();

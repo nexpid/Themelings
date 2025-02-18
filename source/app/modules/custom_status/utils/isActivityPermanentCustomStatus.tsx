@@ -1,51 +1,51 @@
 // app/modules/custom_status/utils/isActivityPermanentCustomStatus.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/custom_status/utils/isActivityPermanentCustomStatus.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isActivityPermanentCustomStatus
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/custom_status/utils/isActivityPermanentCustomStatus.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isActivityPermanentCustomStatus
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.type;
+            michal = argFoo;
+            zuuluu = michal.type;
             entity = _closure1_slot0;
             entity = entity.CUSTOM_STATUS;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  28:
-            tango = mike.timestamps;
-            zulu = null;
-            report = zulu == tango;
-            mike = undefined;
+            tangon = michal.timestamps;
+            zuuluu = null;
+            report = zuuluu == tangon;
+            michal = undefined;
             if(report) { _fun00002_ip = 50; continue _fun00001 }
  45:
-            mike = tango.end;
+            michal = tangon.end;
  50:
-            entity = zulu == mike;
+            entity = zuuluu == michal;
  54:
             return entity;
         }
     };
-    zulu['isActivityPermanentCustomStatus'] = mike;
+    zuuluu['isActivityPermanentCustomStatus'] = michal;
     return entity;
 })();

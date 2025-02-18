@@ -1,418 +1,418 @@
 // app/modules/polls/PollUploadAttachmentActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _handlePollGifAttachmentAdd
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    kilo = argBar;
+                    kiloes = argBar;
                     backup = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 487; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 487; continue _fun00001 }
  16:
                     yankee = argFoo;
-                    golf = kilo;
-                    zulu = backup;
-                    mike = undefined;
-                    options = undefined;
-                    tango = undefined;
-                    oscar = undefined;
+                    golfie = kiloes;
+                    zuuluu = backup;
+                    michal = undefined;
+                    option = undefined;
+                    tangon = undefined;
+                    oscard = undefined;
                     verify = undefined;
-                    foxtrot = _closure1_slot0;
-                    romeo = _closure1_slot2;
+                    foxtra = _closure1_slot0;
+                    romeon = _closure1_slot2;
                     report = 3;
-                    romeo = romeo[report];
-                    foxtrot = foxtrot.bind(mike)(romeo);
-                    romeo = foxtrot.getFileNameFromGifUrl;
-                    options = romeo.bind(foxtrot)(kilo, backup);
+                    romeon = romeon[report];
+                    foxtra = foxtra.bind(michal)(romeon);
+                    romeon = foxtra.getFileNameFromGifUrl;
+                    option = romeon.bind(foxtra)(kiloes, backup);
  70: // try_start_0
-                    foxtrot = _closure1_slot0;
-                    romeo = _closure1_slot2;
-                    romeo = romeo[report];
-                    foxtrot = foxtrot.bind(mike)(romeo);
-                    romeo = foxtrot.downloadPollGif;
-                    zulu = romeo.bind(foxtrot)(zulu);
+                    foxtra = _closure1_slot0;
+                    romeon = _closure1_slot2;
+                    romeon = romeon[report];
+                    foxtra = foxtra.bind(michal)(romeon);
+                    romeon = foxtra.downloadPollGif;
+                    zuuluu = romeon.bind(foxtra)(zuuluu);
                     SaveGenerator(address=102);
  100:
-                    return zulu;
+                    return zuuluu;
  102:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeo) { _fun00002_ip = 479; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 479; continue _fun00001 }
  111:
-                    tango = zulu;
-                    foxtrot = null;
-                    if(!(foxtrot != zulu)) { _fun00002_ip = 476; continue _fun00001 }
+                    tangon = zuuluu;
+                    foxtra = null;
+                    if(!(foxtra != zuuluu)) { _fun00002_ip = 476; continue _fun00001 }
  123:
-                    romeo = _closure1_slot0;
+                    romeon = _closure1_slot0;
                     backup = _closure1_slot2;
                     report = backup[report];
-                    sizing = romeo.bind(mike)(report);
-                    kilo = sizing.getFilePathForGif;
-                    report = options;
-                    echo = kilo.bind(sizing)(report);
+                    sizing = romeon.bind(michal)(report);
+                    kiloes = sizing.getFilePathForGif;
+                    report = option;
+                    echoed = kiloes.bind(sizing)(report);
                     report = 4;
                     report = backup[report];
-                    kilo = romeo.bind(mike)(report);
-                    backup = kilo.writeFile;
-                    result = tango;
+                    kiloes = romeon.bind(michal)(report);
+                    backup = kiloes.writeFile;
+                    result = tangon;
                     update = 'cache';
                     output = 'base64';
-                    source = kilo;
-                    tango = source[backup](update, echo, result, output, sizing);
+                    source = kiloes;
+                    tangon = source[backup](update, echoed, result, output, sizing);
                     SaveGenerator(address=194);
  192:
-                    return tango;
+                    return tangon;
  194:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 473; continue _fun00001 }
  203:
-                    oscar = tango;
-                    if(!(foxtrot != tango)) { _fun00002_ip = 470; continue _fun00001 }
+                    oscard = tangon;
+                    if(!(foxtra != tangon)) { _fun00002_ip = 470; continue _fun00001 }
  213:
-                    romeo = _closure1_slot0;
+                    romeon = _closure1_slot0;
                     backup = _closure1_slot2;
                     report = 5;
                     report = backup[report];
-                    backup = romeo.bind(mike)(report);
-                    romeo = backup.getImageDimensionsIfMissing;
-                    report = oscar;
-                    report = romeo.bind(backup)(report);
+                    backup = romeon.bind(michal)(report);
+                    romeon = backup.getImageDimensionsIfMissing;
+                    report = oscard;
+                    report = romeon.bind(backup)(report);
                     SaveGenerator(address=251);
  249:
                     return report;
  251:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(romeo) { _fun00002_ip = 467; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 467; continue _fun00001 }
  260:
                     verify = report;
-                    romeo = {};
-                    romeo['id'] = golf;
-                    kilo = _closure1_slot0;
+                    romeon = {};
+                    romeon['id'] = golfie;
+                    kiloes = _closure1_slot0;
                     backup = _closure1_slot2;
-                    golf = 6;
-                    backup = backup[golf];
-                    backup = kilo.bind(mike)(backup);
+                    golfie = 6;
+                    backup = backup[golfie];
+                    backup = kiloes.bind(michal)(backup);
                     backup = backup.UploadOrigin;
                     backup = backup.IMAGE_PICKER;
-                    romeo['origin'] = backup;
-                    backup = oscar;
-                    romeo['uri'] = backup;
-                    romeo['originalUri'] = backup;
-                    romeo['filename'] = options;
-                    options = 'image/gif';
-                    romeo['mimeType'] = options;
-                    backup = foxtrot == report;
-                    options = undefined;
+                    romeon['origin'] = backup;
+                    backup = oscard;
+                    romeon['uri'] = backup;
+                    romeon['originalUri'] = backup;
+                    romeon['filename'] = option;
+                    option = 'image/gif';
+                    romeon['mimeType'] = option;
+                    backup = foxtra == report;
+                    option = undefined;
                     if(backup) { _fun00002_ip = 352; continue _fun00001 }
  344:
                     backup = verify;
-                    options = backup.width;
+                    option = backup.width;
  352:
-                    romeo['width'] = options;
-                    options = verify;
-                    foxtrot = foxtrot == options;
-                    options = undefined;
-                    if(foxtrot) { _fun00002_ip = 373; continue _fun00001 }
+                    romeon['width'] = option;
+                    option = verify;
+                    foxtra = foxtra == option;
+                    option = undefined;
+                    if(foxtra) { _fun00002_ip = 373; continue _fun00001 }
  368:
-                    options = verify.height;
+                    option = verify.height;
  373:
-                    romeo['height'] = options;
-                    options = _closure1_slot0;
+                    romeon['height'] = option;
+                    option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    golf = verify[golf];
-                    golf = options.bind(mike)(golf);
-                    golf = golf.UploadPlatform;
-                    golf = golf.REACT_NATIVE;
-                    romeo['platform'] = golf;
-                    options = _closure1_slot1;
-                    golf = 7;
-                    golf = verify[golf];
-                    verify = options.bind(mike)(golf);
-                    options = verify.addFile;
-                    golf = {};
-                    golf['file'] = romeo;
-                    golf['channelId'] = yankee;
+                    golfie = verify[golfie];
+                    golfie = option.bind(michal)(golfie);
+                    golfie = golfie.UploadPlatform;
+                    golfie = golfie.REACT_NATIVE;
+                    romeon['platform'] = golfie;
+                    option = _closure1_slot1;
+                    golfie = 7;
+                    golfie = verify[golfie];
+                    verify = option.bind(michal)(golfie);
+                    option = verify.addFile;
+                    golfie = {};
+                    golfie['file'] = romeon;
+                    golfie['channelId'] = yankee;
                     offset = _closure1_slot4;
                     offset = offset.Poll;
-                    golf['draftType'] = offset;
-                    golf = options.bind(verify)(golf);
+                    golfie['draftType'] = offset;
+                    golfie = option.bind(verify)(golfie);
  464: // try_end0
-                    return oscar;
+                    return oscard;
  467:
                     return report;
  470:
-                    return mike;
+                    return michal;
  473:
-                    return tango;
+                    return tangon;
  476:
-                    return mike;
+                    return michal;
  479:
-                    return zulu;
+                    return zuuluu;
  482: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    return mike;
+                    return michal;
  487:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot6 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot6 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _removePollUploadAttachment
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 150; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 150; continue _fun00003 }
  10:
                     report = argFoo;
-                    tango = argBar;
-                    mike = argBaz;
+                    tangon = argBar;
+                    michal = argBaz;
  19: // try_start_0
                     verify = _closure1_slot1;
-                    options = _closure1_slot2;
-                    oscar = 7;
-                    oscar = options[oscar];
-                    golf = undefined;
-                    offset = verify.bind(golf)(oscar);
+                    option = _closure1_slot2;
+                    oscard = 7;
+                    oscard = option[oscard];
+                    golfie = undefined;
+                    offset = verify.bind(golfie)(oscard);
                     verify = offset.remove;
-                    oscar = report;
-                    report = tango;
-                    tango = _closure1_slot4;
-                    tango = tango.Poll;
-                    tango = verify.bind(offset)(oscar, report, tango);
-                    oscar = _closure1_slot0;
-                    zulu = 4;
-                    zulu = options[zulu];
-                    report = oscar.bind(golf)(zulu);
-                    tango = report.removeFile;
-                    zulu = 3;
-                    zulu = options[zulu];
-                    oscar = oscar.bind(golf)(zulu);
-                    zulu = oscar.getFilePathForGif;
-                    zulu = zulu.bind(oscar)(mike);
-                    mike = 'cache';
-                    mike = tango.bind(report)(mike, zulu);
+                    oscard = report;
+                    report = tangon;
+                    tangon = _closure1_slot4;
+                    tangon = tangon.Poll;
+                    tangon = verify.bind(offset)(oscard, report, tangon);
+                    oscard = _closure1_slot0;
+                    zuuluu = 4;
+                    zuuluu = option[zuuluu];
+                    report = oscard.bind(golfie)(zuuluu);
+                    tangon = report.removeFile;
+                    zuuluu = 3;
+                    zuuluu = option[zuuluu];
+                    oscard = oscard.bind(golfie)(zuuluu);
+                    zuuluu = oscard.getFilePathForGif;
+                    zuuluu = zuuluu.bind(oscard)(michal);
+                    michal = 'cache';
+                    michal = tangon.bind(report)(michal, zuuluu);
                     SaveGenerator(address=132);
  130:
-                    return mike;
+                    return michal;
  132:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 140; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 140; continue _fun00003 }
  138: // try_end0
                     _fun00004_ip = 145; continue _fun00003;
  140:
-                    return mike;
+                    return michal;
  143: // catch_target0
                     CatchBlockStart(arg_register=1);
  145:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  150:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot7 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _removeAllPollUploadAttachments
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00006_ip = 118; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 118; continue _fun00005 }
  7:
-                    zulu = argFoo;
+                    zuuluu = argFoo;
  10: // try_start_0
-                    golf = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 7;
-                    tango = oscar[tango];
+                    golfie = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    tangon = 7;
+                    tangon = oscard[tangon];
                     report = undefined;
-                    options = golf.bind(report)(tango);
-                    golf = options.clearAll;
-                    tango = zulu;
-                    zulu = _closure1_slot4;
-                    zulu = zulu.Poll;
-                    zulu = golf.bind(options)(tango, zulu);
-                    tango = _closure1_slot0;
-                    zulu = 4;
-                    zulu = oscar[zulu];
-                    report = tango.bind(report)(zulu);
-                    tango = report.clearFolder;
-                    zulu = _closure1_slot5;
-                    mike = 'cache';
-                    mike = tango.bind(report)(mike, zulu);
+                    option = golfie.bind(report)(tangon);
+                    golfie = option.clearAll;
+                    tangon = zuuluu;
+                    zuuluu = _closure1_slot4;
+                    zuuluu = zuuluu.Poll;
+                    zuuluu = golfie.bind(option)(tangon, zuuluu);
+                    tangon = _closure1_slot0;
+                    zuuluu = 4;
+                    zuuluu = oscard[zuuluu];
+                    report = tangon.bind(report)(zuuluu);
+                    tangon = report.clearFolder;
+                    zuuluu = _closure1_slot5;
+                    michal = 'cache';
+                    michal = tangon.bind(report)(michal, zuuluu);
                     SaveGenerator(address=100);
  98:
-                    return mike;
+                    return michal;
  100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 108; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 108; continue _fun00005 }
  106: // try_end0
                     _fun00006_ip = 113; continue _fun00005;
  108:
-                    return mike;
+                    return michal;
  111: // catch_target0
                     CatchBlockStart(arg_register=1);
  113:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  118:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot8 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot8 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.DraftType;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.POLL_ATTACHMENT_FOLDER;
-    var _closure1_slot5 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/polls/PollUploadAttachmentActionCreators.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: handlePollGifAttachmentAdd
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DraftType;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.POLL_ATTACHMENT_FOLDER;
+    var _closure1_slot5 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/polls/PollUploadAttachmentActionCreators.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: handlePollGifAttachmentAdd
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = tango.apply;
+        tangon = _closure1_slot6;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['handlePollGifAttachmentAdd'] = tango;
-    tango = function() { // Original name: handlePollMediaAttachmentAdd
+    zuuluu['handlePollGifAttachmentAdd'] = tangon;
+    tangon = function() { // Original name: handlePollMediaAttachmentAdd
         entity = undefined;
         return entity;
     };
-    zulu['handlePollMediaAttachmentAdd'] = tango;
-    tango = function() { // Original name: removePollUploadAttachment
+    zuuluu['handlePollMediaAttachmentAdd'] = tangon;
+    tangon = function() { // Original name: removePollUploadAttachment
         entity = undefined;
-        tango = _closure1_slot7;
-        zulu = tango.apply;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['removePollUploadAttachment'] = tango;
-    tango = function() { // Original name: removeAllPollUploadAttachments
+    zuuluu['removePollUploadAttachment'] = tangon;
+    tangon = function() { // Original name: removeAllPollUploadAttachments
         entity = undefined;
-        tango = _closure1_slot8;
-        zulu = tango.apply;
+        tangon = _closure1_slot8;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['removeAllPollUploadAttachments'] = tango;
-    mike = function(argFoo) { // Original name: sendPollMessageWithAttachments
+    zuuluu['removeAllPollUploadAttachments'] = tangon;
+    michal = function(argFoo) { // Original name: sendPollMessageWithAttachments
         entity = argFoo;
         verify = entity.channel;
-        options = entity.items;
-        golf = entity.token;
+        option = entity.items;
+        golfie = entity.token;
         report = entity.poll;
-        oscar = entity.nonce;
-        tango = entity.maxSizeCallback;
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+        oscard = entity.nonce;
+        tangon = entity.maxSizeCallback;
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 8;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        zulu = zulu.bind(entity)(mike);
-        mike = zulu.uploadLocalFiles;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.uploadLocalFiles;
         entity = {};
         entity['channel'] = verify;
-        entity['items'] = options;
-        entity['token'] = golf;
-        entity['nonce'] = oscar;
-        oscar = {'content': '', 'tts': false};
-        golf = new Array(0);
-        oscar['invalidEmojis'] = golf;
-        golf = new Array(0);
-        oscar['validNonShortcutEmojis'] = golf;
-        entity['parsedMessage'] = oscar;
+        entity['items'] = option;
+        entity['token'] = golfie;
+        entity['nonce'] = oscard;
+        oscard = {'content': '', 'tts': false};
+        golfie = new Array(0);
+        oscard['invalidEmojis'] = golfie;
+        golfie = new Array(0);
+        oscard['validNonShortcutEmojis'] = golfie;
+        entity['parsedMessage'] = oscard;
         entity['poll'] = report;
-        entity['maxSizeCallback'] = tango;
-        tango = true;
-        entity['raiseEndpointErrors'] = tango;
-        entity = mike.bind(zulu)(entity);
+        entity['maxSizeCallback'] = tangon;
+        tangon = true;
+        entity['raiseEndpointErrors'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['sendPollMessageWithAttachments'] = mike;
+    zuuluu['sendPollMessageWithAttachments'] = michal;
     return entity;
 })();

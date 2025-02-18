@@ -1,24 +1,24 @@
 // app/design/components/Backdrop/native/BackdropConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'design/components/Backdrop/native/BackdropConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 0.7;
-    zulu['BACKDROP_OPAQUE_MAX_OPACITY'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'design/components/Backdrop/native/BackdropConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 0.7;
+    zuuluu['BACKDROP_OPAQUE_MAX_OPACITY'] = michal;
     return entity;
 })();

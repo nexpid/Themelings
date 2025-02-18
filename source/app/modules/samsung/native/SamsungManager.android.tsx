@@ -1,65 +1,65 @@
 // app/modules/samsung/native/SamsungManager.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.NativeModules;
-    var _closure1_slot0 = mike;
-    mike = {};
-    golf = function(argFoo) { // Original name: checkIfOAuthRequest
+    michal = report.bind(entity)(michal);
+    michal = michal.NativeModules;
+    var _closure1_slot0 = michal;
+    michal = {};
+    golfie = function(argFoo) { // Original name: checkIfOAuthRequest
         entity = _closure1_slot0;
-        zulu = entity.Samsung;
-        mike = zulu.checkIfOAuthRequest;
+        zuuluu = entity.Samsung;
+        michal = zuuluu.checkIfOAuthRequest;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['checkIfOAuthRequest'] = golf;
-    golf = function() { // Original name: showConnectionDisclaimer
+    michal['checkIfOAuthRequest'] = golfie;
+    golfie = function() { // Original name: showConnectionDisclaimer
         entity = _closure1_slot0;
-        mike = entity.Samsung;
-        entity = mike.showConnectionDisclaimer;
-        entity = entity.bind(mike)();
+        michal = entity.Samsung;
+        entity = michal.showConnectionDisclaimer;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['showConnectionDisclaimer'] = golf;
-    golf = function() { // Original name: getAccountUrlAndAuthCode
+    michal['showConnectionDisclaimer'] = golfie;
+    golfie = function() { // Original name: getAccountUrlAndAuthCode
         entity = _closure1_slot0;
-        mike = entity.Samsung;
-        entity = mike.getAccountUrlAndAuthCode;
-        entity = entity.bind(mike)();
+        michal = entity.Samsung;
+        entity = michal.getAccountUrlAndAuthCode;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['getAccountUrlAndAuthCode'] = golf;
-    tango = function(argFoo, argBar, argBaz) { // Original name: finishSamsungAuthorization
+    michal['getAccountUrlAndAuthCode'] = golfie;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: finishSamsungAuthorization
         entity = _closure1_slot0;
         report = entity.Samsung;
-        tango = report.finishSamsungAuthorization;
-        zulu = argFoo;
-        mike = argBar;
+        tangon = report.finishSamsungAuthorization;
+        zuuluu = argFoo;
+        michal = argBar;
         entity = argBaz;
-        entity = tango.bind(report)(zulu, mike, entity);
+        entity = tangon.bind(report)(zuuluu, michal, entity);
         return entity;
     };
-    mike['finishSamsungAuthorization'] = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/samsung/native/SamsungManager.android.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['finishSamsungAuthorization'] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/samsung/native/SamsungManager.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

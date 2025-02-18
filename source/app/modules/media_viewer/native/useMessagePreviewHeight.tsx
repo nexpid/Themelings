@@ -1,118 +1,118 @@
 // app/modules/media_viewer/native/useMessagePreviewHeight.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.create;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.create;
+    tangon = function() {
         entity = {'collapsedHeight': 0, 'expandedHeight': 0};
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/media_viewer/native/useMessagePreviewHeight.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useMessagePreviewHeightStore'] = tango;
-    tango = function() { // Original name: useMessagePreviewCollapsedheight
-        mike = _closure1_slot2;
+    report = oscard.bind(golfie)(report);
+    zuuluu['useMessagePreviewHeightStore'] = tangon;
+    tangon = function() { // Original name: useMessagePreviewCollapsedheight
+        michal = _closure1_slot2;
         entity = undefined;
-        entity = mike.bind(entity)();
+        entity = michal.bind(entity)();
         entity = entity.collapsedHeight;
         return entity;
     };
-    zulu['useMessagePreviewCollapsedheight'] = tango;
-    tango = function() { // Original name: useMessagePreviewExpandedHeight
-        mike = _closure1_slot2;
+    zuuluu['useMessagePreviewCollapsedheight'] = tangon;
+    tangon = function() { // Original name: useMessagePreviewExpandedHeight
+        michal = _closure1_slot2;
         entity = undefined;
-        entity = mike.bind(entity)();
+        entity = michal.bind(entity)();
         entity = entity.expandedHeight;
         return entity;
     };
-    zulu['useMessagePreviewExpandedHeight'] = tango;
-    tango = function(argFoo) { // Original name: setMesssagePreviewHeight
+    zuuluu['useMessagePreviewExpandedHeight'] = tangon;
+    tangon = function(argFoo) { // Original name: setMesssagePreviewHeight
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = _closure2_slot0;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setMesssagePreviewHeight'] = tango;
-    tango = function(argFoo) { // Original name: setMesssagePreviewCollapsedHeight
+    zuuluu['setMesssagePreviewHeight'] = tangon;
+    tangon = function(argFoo) { // Original name: setMesssagePreviewCollapsedHeight
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['collapsedHeight'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['collapsedHeight'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setMesssagePreviewCollapsedHeight'] = tango;
-    mike = function(argFoo) { // Original name: setMesssagePreviewExpandedHeight
+    zuuluu['setMesssagePreviewCollapsedHeight'] = tangon;
+    michal = function(argFoo) { // Original name: setMesssagePreviewExpandedHeight
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot2;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.setState;
             entity = {};
-            tango = _closure2_slot0;
-            entity['expandedHeight'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = _closure2_slot0;
+            entity['expandedHeight'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setMesssagePreviewExpandedHeight'] = mike;
+    zuuluu['setMesssagePreviewExpandedHeight'] = michal;
     return entity;
 })();

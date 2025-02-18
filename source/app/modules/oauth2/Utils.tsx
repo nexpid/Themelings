@@ -1,126 +1,126 @@
 // app/modules/oauth2/Utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/oauth2/Utils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getApplicationDetailsText
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/oauth2/Utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getApplicationDetailsText
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            entity = oscar.privacy_policy_url;
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 28; continue _fun00001 }
+            oscard = argFoo;
+            entity = oscard.privacy_policy_url;
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 28; continue _fun00001 }
  15:
-            entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun00002_ip = 298; continue _fun00001 }
+            entity = oscard.terms_of_service_url;
+            if(!(michal == entity)) { _fun00002_ip = 298; continue _fun00001 }
  28:
-            entity = oscar.privacy_policy_url;
-            if(!(mike == entity)) { _fun00002_ip = 212; continue _fun00001 }
+            entity = oscard.privacy_policy_url;
+            if(!(michal == entity)) { _fun00002_ip = 212; continue _fun00001 }
  41:
-            entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun00002_ip = 126; continue _fun00001 }
+            entity = oscard.terms_of_service_url;
+            if(!(michal == entity)) { _fun00002_ip = 126; continue _fun00001 }
  51:
             report = _closure1_slot0;
-            golf = _closure1_slot1;
+            golfie = _closure1_slot1;
             entity = 0;
-            zulu = golf[entity];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            tango = zulu.intl;
-            zulu = tango.formatToPlainString;
-            entity = golf[entity];
-            entity = report.bind(mike)(entity);
+            zuuluu = golfie[entity];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.formatToPlainString;
+            entity = golfie[entity];
+            entity = report.bind(michal)(entity);
             entity = entity.t;
-            mike = entity.3Ywek5;
+            michal = entity.3Ywek5;
             entity = {};
-            report = oscar.name;
+            report = oscard.name;
             entity['application'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             _fun00002_ip = 210; continue _fun00001;
  126:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 0;
-            tango = options[mike];
-            zulu = undefined;
-            tango = golf.bind(zulu)(tango);
-            report = tango.intl;
-            tango = report.format;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.q0T/Q0;
-            mike = {};
-            golf = oscar.name;
-            mike['application'] = golf;
-            golf = oscar.terms_of_service_url;
-            mike['termsOfServiceURL'] = golf;
-            entity = tango.bind(report)(zulu, mike);
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 0;
+            tangon = option[michal];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            report = tangon.intl;
+            tangon = report.format;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.q0T/Q0;
+            michal = {};
+            golfie = oscard.name;
+            michal['application'] = golfie;
+            golfie = oscard.terms_of_service_url;
+            michal['termsOfServiceURL'] = golfie;
+            entity = tangon.bind(report)(zuuluu, michal);
  210:
             _fun00002_ip = 296; continue _fun00001;
  212:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 0;
-            tango = options[mike];
-            zulu = undefined;
-            tango = golf.bind(zulu)(tango);
-            report = tango.intl;
-            tango = report.format;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.TBvmMz;
-            mike = {};
-            golf = oscar.name;
-            mike['application'] = golf;
-            golf = oscar.privacy_policy_url;
-            mike['privacyPolicyURL'] = golf;
-            entity = tango.bind(report)(zulu, mike);
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 0;
+            tangon = option[michal];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            report = tangon.intl;
+            tangon = report.format;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.TBvmMz;
+            michal = {};
+            golfie = oscard.name;
+            michal['application'] = golfie;
+            golfie = oscard.privacy_policy_url;
+            michal['privacyPolicyURL'] = golfie;
+            entity = tangon.bind(report)(zuuluu, michal);
  296:
             _fun00002_ip = 393; continue _fun00001;
  298:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 0;
-            tango = options[mike];
-            zulu = undefined;
-            tango = golf.bind(zulu)(tango);
-            report = tango.intl;
-            tango = report.format;
-            mike = options[mike];
-            mike = golf.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.rxlyKC;
-            mike = {};
-            golf = oscar.name;
-            mike['application'] = golf;
-            golf = oscar.privacy_policy_url;
-            mike['privacyPolicyURL'] = golf;
-            oscar = oscar.terms_of_service_url;
-            mike['termsOfServiceURL'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 0;
+            tangon = option[michal];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            report = tangon.intl;
+            tangon = report.format;
+            michal = option[michal];
+            michal = golfie.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.rxlyKC;
+            michal = {};
+            golfie = oscard.name;
+            michal['application'] = golfie;
+            golfie = oscard.privacy_policy_url;
+            michal['privacyPolicyURL'] = golfie;
+            oscard = oscard.terms_of_service_url;
+            michal['termsOfServiceURL'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  393:
             return entity;
         }
     };
-    zulu['getApplicationDetailsText'] = mike;
+    zuuluu['getApplicationDetailsText'] = michal;
     return entity;
 })();

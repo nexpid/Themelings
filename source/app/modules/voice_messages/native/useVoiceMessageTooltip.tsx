@@ -1,159 +1,159 @@
 // app/modules/voice_messages/native/useVoiceMessageTooltip.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.hideVoiceMessagesTooltip;
-    var _closure1_slot4 = golf;
-    golf = tango.showVoiceMessagesTooltip;
-    var _closure1_slot5 = golf;
-    tango = tango.useVoiceMessagesUIStore;
-    var _closure1_slot6 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_messages/native/useVoiceMessageTooltip.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useVoiceMessageTooltip
-        options = _closure1_slot2;
-        tango = options.useRef;
-        zulu = null;
-        zulu = tango.bind(options)(zulu);
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.hideVoiceMessagesTooltip;
+    var _closure1_slot4 = golfie;
+    golfie = tangon.showVoiceMessagesTooltip;
+    var _closure1_slot5 = golfie;
+    tangon = tangon.useVoiceMessagesUIStore;
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_messages/native/useVoiceMessageTooltip.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useVoiceMessageTooltip
+        option = _closure1_slot2;
+        tangon = option.useRef;
+        zuuluu = null;
+        zuuluu = tangon.bind(option)(zuuluu);
         report = _closure1_slot6;
-        oscar = undefined;
-        tango = function(argFoo) {
+        oscard = undefined;
+        tangon = function(argFoo) {
             entity = argFoo;
             entity = entity.showVoiceMessagesTooltip;
             return entity;
         };
-        verify = report.bind(oscar)(tango);
+        verify = report.bind(oscard)(tangon);
         var _closure2_slot0 = verify;
-        golf = options.useMemo;
+        golfie = option.useMemo;
         report = new Array(1);
         report[0] = verify;
-        tango = function() {
+        tangon = function() {
             entity = {};
-            mike = 'top';
-            entity['position'] = mike;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 3;
-            zulu = golf[mike];
+            michal = 'top';
+            entity['position'] = michal;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.hP6+09;
-            mike = zulu.bind(tango)(mike);
-            entity['label'] = mike;
-            mike = _closure2_slot0;
-            entity['visible'] = mike;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.hP6+09;
+            michal = zuuluu.bind(tangon)(michal);
+            entity['label'] = michal;
+            michal = _closure2_slot0;
+            entity['visible'] = michal;
             return entity;
         };
-        report = golf.bind(options)(tango, report);
-        golf = options.useEffect;
-        tango = new Array(1);
-        tango[0] = verify;
+        report = golfie.bind(option)(tangon, report);
+        golfie = option.useEffect;
+        tangon = new Array(1);
+        tangon[0] = verify;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure2_slot0;
-                if(mike) { _fun00002_ip = 16; continue _fun00001 }
+                michal = _closure2_slot0;
+                if(michal) { _fun00002_ip = 16; continue _fun00001 }
  12:
-                mike = undefined;
-                return mike;
+                michal = undefined;
+                return michal;
  16:
-                tango = _closure1_slot3;
-                mike = tango.keyboardOrCustomKeyboardOpen;
-                var _closure3_slot0 = mike;
-                zulu = function() { // Original name: keyboardChangeListener
+                tangon = _closure1_slot3;
+                michal = tangon.keyboardOrCustomKeyboardOpen;
+                var _closure3_slot0 = michal;
+                zuuluu = function() { // Original name: keyboardChangeListener
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        zulu = _closure3_slot0;
-                        mike = _closure1_slot3;
-                        mike = mike.keyboardOrCustomKeyboardOpen;
-                        if(!(zulu !== mike)) { _fun00004_ip = 34; continue _fun00003 }
+                        zuuluu = _closure3_slot0;
+                        michal = _closure1_slot3;
+                        michal = michal.keyboardOrCustomKeyboardOpen;
+                        if(!(zuuluu !== michal)) { _fun00004_ip = 34; continue _fun00003 }
  24:
-                        mike = _closure1_slot4;
+                        michal = _closure1_slot4;
                         entity = undefined;
-                        entity = mike.bind(entity)();
+                        entity = michal.bind(entity)();
  34:
                         entity = undefined;
                         return entity;
                     }
                 };
-                var _closure3_slot1 = zulu;
-                mike = tango.addChangeListener;
-                mike = mike.bind(tango)(zulu);
-                mike = global;
-                report = mike.setTimeout;
-                tango = undefined;
-                zulu = function() {
-                    mike = _closure1_slot4;
+                var _closure3_slot1 = zuuluu;
+                michal = tangon.addChangeListener;
+                michal = michal.bind(tangon)(zuuluu);
+                michal = global;
+                report = michal.setTimeout;
+                tangon = undefined;
+                zuuluu = function() {
+                    michal = _closure1_slot4;
                     entity = undefined;
-                    mike = mike.bind(entity)();
+                    michal = michal.bind(entity)();
                     return entity;
                 };
-                mike = 2000;
-                mike = report.bind(tango)(zulu, mike);
-                var _closure3_slot2 = mike;
+                michal = 2000;
+                michal = report.bind(tangon)(zuuluu, michal);
+                var _closure3_slot2 = michal;
                 entity = function() {
                     entity = global;
-                    tango = entity.clearTimeout;
-                    zulu = _closure3_slot2;
+                    tangon = entity.clearTimeout;
+                    zuuluu = _closure3_slot2;
                     entity = undefined;
-                    zulu = tango.bind(entity)(zulu);
-                    tango = _closure1_slot3;
-                    zulu = tango.removeChangeListener;
-                    mike = _closure3_slot1;
-                    mike = zulu.bind(tango)(mike);
+                    zuuluu = tangon.bind(entity)(zuuluu);
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.removeChangeListener;
+                    michal = _closure3_slot1;
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 };
                 return entity;
             }
         };
-        entity = golf.bind(options)(entity, tango);
-        tango = _closure1_slot0;
-        golf = _closure1_slot1;
+        entity = golfie.bind(option)(entity, tangon);
+        tangon = _closure1_slot0;
+        golfie = _closure1_slot1;
         entity = 4;
-        entity = golf[entity];
-        tango = tango.bind(oscar)(entity);
-        entity = tango.useTooltip;
-        entity = entity.bind(tango)(zulu, report);
+        entity = golfie[entity];
+        tangon = tangon.bind(oscard)(entity);
+        entity = tangon.useTooltip;
+        entity = entity.bind(tangon)(zuuluu, report);
         entity = {};
-        entity['tooltipTargetRef'] = zulu;
-        mike = _closure1_slot5;
-        entity['showVoiceMessagesTooltip'] = mike;
+        entity['tooltipTargetRef'] = zuuluu;
+        michal = _closure1_slot5;
+        entity['showVoiceMessagesTooltip'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

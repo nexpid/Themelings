@@ -1,58 +1,58 @@
 // app/design/components/Sheet/native/useBottomSheetRef.tsx
-export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Sheet/native/useBottomSheetRef.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useBottomSheetRef
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Sheet/native/useBottomSheetRef.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useBottomSheetRef
         report = _closure1_slot0;
-        zulu = report.useRef;
-        mike = null;
-        zulu = zulu.bind(report)(mike);
-        var _closure2_slot0 = zulu;
-        tango = report.useCallback;
-        mike = new Array(1);
-        mike[0] = zulu;
+        zuuluu = report.useRef;
+        michal = null;
+        zuuluu = zuuluu.bind(report)(michal);
+        var _closure2_slot0 = zuuluu;
+        tangon = report.useCallback;
+        michal = new Array(1);
+        michal[0] = zuuluu;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
-                mike = entity.current;
+                michal = entity.current;
                 entity = null;
-                if(!(entity != mike)) { _fun00002_ip = 28; continue _fun00001 }
+                if(!(entity != michal)) { _fun00002_ip = 28; continue _fun00001 }
  18:
-                entity = mike.closeActionSheet;
-                entity = entity.bind(mike)();
+                entity = michal.closeActionSheet;
+                entity = entity.bind(michal)();
  28:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(entity, mike);
+        michal = tangon.bind(report)(entity, michal);
         entity = {};
-        entity['bottomSheetRef'] = zulu;
-        entity['bottomSheetClose'] = mike;
+        entity['bottomSheetRef'] = zuuluu;
+        entity['bottomSheetClose'] = michal;
         return entity;
     };
-    zulu['useBottomSheetRef'] = mike;
+    zuuluu['useBottomSheetRef'] = michal;
     return entity;
 })();

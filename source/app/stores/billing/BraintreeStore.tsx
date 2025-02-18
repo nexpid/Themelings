@@ -1,44 +1,44 @@
 // app/stores/billing/BraintreeStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        golf = argBaz;
-        zulu = argFred;
-        oscar = argPlugh;
+        golfie = argBaz;
+        zuuluu = argFre;
+        oscard = argPlu;
         var _closure1_slot0 = report;
-        var _closure1_slot1 = oscar;
+        var _closure1_slot1 = oscard;
         entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = argFoo;
-                oscar = argBaz;
-                mike = _closure1_slot5;
-                zulu = undefined;
+                tangon = argFoo;
+                oscard = argBaz;
+                michal = _closure1_slot5;
+                zuuluu = undefined;
                 entity = argBar;
-                verify = mike.bind(zulu)(entity);
-                mike = _closure1_slot4;
+                verify = michal.bind(zuuluu)(entity);
+                michal = _closure1_slot4;
                 entity = _closure1_slot17;
-                entity = entity.bind(zulu)();
+                entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 51; continue _fun00003 }
  38:
                 entity = verify.apply;
-                entity = entity.bind(verify)(tango, oscar);
+                entity = entity.bind(verify)(tangon, oscard);
                 _fun00004_ip = 92; continue _fun00003;
  51:
-                golf = global;
-                options = golf.Reflect;
-                golf = options.construct;
-                if(oscar) { _fun00004_ip = 71; continue _fun00003 }
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                if(oscard) { _fun00004_ip = 71; continue _fun00003 }
  67:
-                oscar = new Array(0);
+                oscard = new Array(0);
  71:
                 report = _closure1_slot5;
-                report = report.bind(zulu)(tango);
+                report = report.bind(zuuluu)(tangon);
                 report = report.constructor;
-                entity = golf.bind(options)(verify, oscar, report);
+                entity = golfie.bind(option)(verify, oscard, report);
  92:
-                entity = mike.bind(zulu)(tango, entity);
+                entity = michal.bind(zuuluu)(tangon, entity);
                 return entity;
             }
         };
@@ -47,167 +47,167 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
  2: // try_start_0
-                mike = global;
-                zulu = mike.Boolean;
-                zulu = zulu.prototype;
-                tango = zulu.valueOf;
-                zulu = tango.call;
-                options = mike.Reflect;
-                golf = options.construct;
-                oscar = mike.Boolean;
+                michal = global;
+                zuuluu = michal.Boolean;
+                zuuluu = zuuluu.prototype;
+                tangon = zuuluu.valueOf;
+                zuuluu = tangon.call;
+                option = michal.Reflect;
+                golfie = option.construct;
+                oscard = michal.Boolean;
                 report = new Array(0);
-                mike = function() {
+                michal = function() {
                     entity = undefined;
                     return entity;
                 };
-                mike = golf.bind(options)(oscar, report, mike);
-                mike = zulu.bind(tango)(mike);
-                mike = !mike;
-                var _closure2_slot0 = mike;
+                michal = golfie.bind(option)(oscard, report, michal);
+                michal = zuuluu.bind(tangon)(michal);
+                michal = !michal;
+                var _closure2_slot0 = michal;
  70: // try_end0
                 _fun00006_ip = 74; continue _fun00005;
  72: // catch_target0
                 CatchBlockStart(arg_register=1);
  74:
-                mike = function() { // Original name: _isNativeReflectConstruct
+                michal = function() { // Original name: _isNativeReflectConstruct
                     entity = _closure2_slot0;
                     entity = !entity;
                     entity = !entity;
                     return entity;
                 };
-                _closure1_slot17 = mike;
+                _closure1_slot17 = michal;
                 entity = undefined;
-                entity = mike.bind(entity)();
+                entity = michal.bind(entity)();
                 return entity;
             }
         };
         var _closure1_slot17 = entity;
-        mike = global;
-        offset = mike.Object;
+        michal = global;
+        offset = michal.Object;
         verify = offset.defineProperty;
-        options = {};
+        option = {};
         entity = true;
-        options['value'] = entity;
+        option['value'] = entity;
         entity = '__esModule';
-        entity = verify.bind(offset)(zulu, entity, options);
+        entity = verify.bind(offset)(zuuluu, entity, option);
         entity = 0;
-        options = oscar[entity];
+        option = oscard[entity];
         entity = undefined;
-        options = golf.bind(entity)(options);
-        var _closure1_slot2 = options;
-        options = 1;
-        options = oscar[options];
-        options = golf.bind(entity)(options);
-        var _closure1_slot3 = options;
-        options = 2;
-        options = oscar[options];
-        options = golf.bind(entity)(options);
-        var _closure1_slot4 = options;
-        options = 3;
-        options = oscar[options];
-        options = golf.bind(entity)(options);
-        var _closure1_slot5 = options;
-        options = 4;
-        options = oscar[options];
-        options = golf.bind(entity)(options);
-        var _closure1_slot6 = options;
-        options = 5;
-        options = oscar[options];
-        options = report.bind(entity)(options);
-        verify = options.Endpoints;
+        option = golfie.bind(entity)(option);
+        var _closure1_slot2 = option;
+        option = 1;
+        option = oscard[option];
+        option = golfie.bind(entity)(option);
+        var _closure1_slot3 = option;
+        option = 2;
+        option = oscard[option];
+        option = golfie.bind(entity)(option);
+        var _closure1_slot4 = option;
+        option = 3;
+        option = oscard[option];
+        option = golfie.bind(entity)(option);
+        var _closure1_slot5 = option;
+        option = 4;
+        option = oscard[option];
+        option = golfie.bind(entity)(option);
+        var _closure1_slot6 = option;
+        option = 5;
+        option = oscard[option];
+        option = report.bind(entity)(option);
+        verify = option.Endpoints;
         var _closure1_slot7 = verify;
-        verify = options.PaymentGateways;
+        verify = option.PaymentGateways;
         var _closure1_slot8 = verify;
-        options = options.PaymentSourceTypes;
-        var _closure1_slot9 = options;
-        options = null;
-        var _closure1_slot12 = options;
-        var _closure1_slot13 = options;
-        var _closure1_slot14 = options;
-        options = 6;
-        options = oscar[options];
-        verify = report.bind(entity)(options);
-        options = verify.isDesktop;
-        options = options.bind(verify)();
-        if(!options) { _fun00002_ip = 268; continue _fun00001 }
+        option = option.PaymentSourceTypes;
+        var _closure1_slot9 = option;
+        option = null;
+        var _closure1_slot12 = option;
+        var _closure1_slot13 = option;
+        var _closure1_slot14 = option;
+        option = 6;
+        option = oscard[option];
+        verify = report.bind(entity)(option);
+        option = verify.isDesktop;
+        option = option.bind(verify)();
+        if(!option) { _fun00002_ip = 268; continue _fun00001 }
  234:
-        options = mike.window;
-        mike = {};
+        option = michal.window;
+        michal = {};
         verify = function() { // Original name: getReturnUrlPrefix
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zulu = _closure1_slot10;
-                mike = null;
-                if(!(mike != zulu)) { _fun00008_ip = 81; continue _fun00007 }
+                zuuluu = _closure1_slot10;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00008_ip = 81; continue _fun00007 }
  13:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 7;
-                zulu = zulu[mike];
-                mike = undefined;
-                zulu = tango.bind(mike)(zulu);
-                mike = zulu.getAPIBaseURL;
-                mike = mike.bind(zulu)();
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 7;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                michal = zuuluu.getAPIBaseURL;
+                michal = michal.bind(zuuluu)();
                 report = _closure1_slot7;
-                tango = report.BILLING_POPUP_BRIDGE_CALLBACK_REDIRECT_PREFIX;
-                zulu = _closure1_slot8;
-                zulu = zulu.BRAINTREE;
+                tangon = report.BILLING_POPUP_BRIDGE_CALLBACK_REDIRECT_PREFIX;
+                zuuluu = _closure1_slot8;
+                zuuluu = zuuluu.BRAINTREE;
                 entity = _closure1_slot10;
-                entity = tango.bind(report)(zulu, entity);
-                entity = mike + entity;
+                entity = tangon.bind(report)(zuuluu, entity);
+                entity = michal + entity;
                 return entity;
  81:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                golf = 'popupBridgeState is unset';
-                options = mike;
-                entity = new options[zulu](golf, oscar);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                golfie = 'popupBridgeState is unset';
+                option = michal;
+                entity = new option[zuuluu](golfie, oscard);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }
         };
-        mike['getReturnUrlPrefix'] = verify;
+        michal['getReturnUrlPrefix'] = verify;
         verify = function(argFoo) { // Original name: open
-            tango = argFoo;
-            var _closure1_slot11 = tango;
-            mike = global;
-            zulu = mike.window;
-            mike = zulu.open;
-            mike = mike.bind(zulu)(tango);
-            mike = _closure1_slot15;
-            entity = mike.emitChange;
-            entity = entity.bind(mike)();
+            tangon = argFoo;
+            var _closure1_slot11 = tangon;
+            michal = global;
+            zuuluu = michal.window;
+            michal = zuuluu.open;
+            michal = michal.bind(zuuluu)(tangon);
+            michal = _closure1_slot15;
+            entity = michal.emitChange;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        mike['open'] = verify;
-        options['popupBridge'] = mike;
+        michal['open'] = verify;
+        option['popupBridge'] = michal;
  268:
-        mike = 8;
-        mike = oscar[mike];
-        mike = golf.bind(entity)(mike);
-        options = mike.Store;
-        mike = function(argFoo) {
-            tango = function() { // Original name: BraintreeStore
+        michal = 8;
+        michal = oscard[michal];
+        michal = golfie.bind(entity)(michal);
+        option = michal.Store;
+        michal = function(argFoo) {
+            tangon = function() { // Original name: BraintreeStore
                 report = this;
-                tango = undefined;
+                tangon = undefined;
                 entity = undefined;
-                oscar = _closure1_slot2;
-                zulu = _closure2_slot0;
-                oscar = oscar.bind(tango)(report, zulu);
-                mike = _closure1_slot16;
+                oscard = _closure1_slot2;
+                zuuluu = _closure2_slot0;
+                oscard = oscard.bind(tangon)(report, zuuluu);
+                michal = _closure1_slot16;
                 entity = arguments;
-                entity = mike.bind(tango)(report, zulu, entity);
+                entity = michal.bind(tangon)(report, zuuluu, entity);
                 return entity;
             };
-            var _closure2_slot0 = tango;
+            var _closure2_slot0 = tangon;
             report = _closure1_slot6;
-            zulu = undefined;
-            mike = argFoo;
-            mike = report.bind(zulu)(tango, mike);
-            mike = _closure1_slot3;
+            zuuluu = undefined;
+            michal = argFoo;
+            michal = report.bind(zuuluu)(tangon, michal);
+            michal = _closure1_slot3;
             report = {};
             entity = 'getClient';
             report['key'] = entity;
@@ -219,146 +219,146 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = new Array(4);
             entity[0] = report;
             report = {};
-            golf = 'getPayPalClient';
-            report['key'] = golf;
-            golf = function() { // Original name: value
+            golfie = 'getPayPalClient';
+            report['key'] = golfie;
+            golfie = function() { // Original name: value
                 entity = _closure1_slot13;
                 return entity;
             };
-            report['value'] = golf;
+            report['value'] = golfie;
             entity[1] = report;
             report = {};
-            golf = 'getVenmoClient';
-            report['key'] = golf;
-            golf = function() { // Original name: value
+            golfie = 'getVenmoClient';
+            report['key'] = golfie;
+            golfie = function() { // Original name: value
                 entity = _closure1_slot14;
                 return entity;
             };
-            report['value'] = golf;
+            report['value'] = golfie;
             entity[2] = report;
             report = {};
-            golf = 'getLastURL';
-            report['key'] = golf;
-            oscar = function() { // Original name: value
+            golfie = 'getLastURL';
+            report['key'] = golfie;
+            oscard = function() { // Original name: value
                 entity = _closure1_slot11;
                 return entity;
             };
-            report['value'] = oscar;
+            report['value'] = oscard;
             entity[3] = report;
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };
-        verify = mike.bind(entity)(options);
-        mike = 'BraintreeStore';
-        verify['displayName'] = mike;
-        mike = 9;
-        mike = oscar[mike];
-        foxtrot = golf.bind(entity)(mike);
-        mike = {};
-        golf = function(argFoo) { // Original name: handleBraintreeCreateClientSuccess
+        verify = michal.bind(entity)(option);
+        michal = 'BraintreeStore';
+        verify['displayName'] = michal;
+        michal = 9;
+        michal = oscard[michal];
+        foxtra = golfie.bind(entity)(michal);
+        michal = {};
+        golfie = function(argFoo) { // Original name: handleBraintreeCreateClientSuccess
             entity = argFoo;
-            mike = entity.client;
-            _closure1_slot12 = mike;
+            michal = entity.client;
+            _closure1_slot12 = michal;
             entity = undefined;
             return entity;
         };
-        mike['BRAINTREE_CREATE_CLIENT_SUCCESS'] = golf;
-        golf = function(argFoo) { // Original name: handleBraintreeCreatePayPalClientSuccess
+        michal['BRAINTREE_CREATE_CLIENT_SUCCESS'] = golfie;
+        golfie = function(argFoo) { // Original name: handleBraintreeCreatePayPalClientSuccess
             entity = argFoo;
-            mike = entity.paypalClient;
-            _closure1_slot13 = mike;
+            michal = entity.paypalClient;
+            _closure1_slot13 = michal;
             entity = undefined;
             return entity;
         };
-        mike['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = golf;
-        golf = function(argFoo) { // Original name: handleBillingPopupBridgeCallback
+        michal['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = golfie;
+        golfie = function(argFoo) { // Original name: handleBillingPopupBridgeCallback
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = argFoo;
-                oscar = entity.paymentSourceType;
-                tango = entity.state;
-                mike = entity.path;
+                oscard = entity.paymentSourceType;
+                tangon = entity.state;
+                michal = entity.path;
                 entity = entity.query;
                 report = _closure1_slot9;
                 report = report.PAYPAL;
-                if(!(oscar === report)) { _fun00010_ip = 103; continue _fun00009 }
+                if(!(oscard === report)) { _fun00010_ip = 103; continue _fun00009 }
  42:
-                zulu = _closure1_slot10;
-                if(!(tango === zulu)) { _fun00010_ip = 103; continue _fun00009 }
+                zuuluu = _closure1_slot10;
+                if(!(tangon === zuuluu)) { _fun00010_ip = 103; continue _fun00009 }
  50:
-                zulu = global;
-                zulu = zulu.window;
-                zulu = zulu.popupBridge;
-                tango = zulu.onComplete;
+                zuuluu = global;
+                zuuluu = zuuluu.window;
+                zuuluu = zuuluu.popupBridge;
+                tangon = zuuluu.onComplete;
                 report = 'function';
-                zulu = typeof tango;
-                if(!(report === zulu)) { _fun00010_ip = 103; continue _fun00009 }
+                zuuluu = typeof tangon;
+                if(!(report === zuuluu)) { _fun00010_ip = 103; continue _fun00009 }
  81:
-                zulu = {};
-                zulu['path'] = mike;
-                zulu['queryItems'] = entity;
-                mike = undefined;
+                zuuluu = {};
+                zuuluu['path'] = michal;
+                zuuluu['queryItems'] = entity;
+                michal = undefined;
                 entity = null;
-                entity = tango.bind(mike)(entity, zulu);
+                entity = tangon.bind(michal)(entity, zuuluu);
  103:
                 entity = undefined;
                 return entity;
             }
         };
-        mike['BILLING_POPUP_BRIDGE_CALLBACK'] = golf;
-        golf = function(argFoo) { // Original name: handleBillingPopupBridgeStateUpdate
+        michal['BILLING_POPUP_BRIDGE_CALLBACK'] = golfie;
+        golfie = function(argFoo) { // Original name: handleBillingPopupBridgeStateUpdate
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 entity = argFoo;
-                tango = entity.paymentSourceType;
-                mike = entity.state;
-                zulu = _closure1_slot9;
-                zulu = zulu.PAYPAL;
-                if(!(tango === zulu)) { _fun00012_ip = 35; continue _fun00011 }
+                tangon = entity.paymentSourceType;
+                michal = entity.state;
+                zuuluu = _closure1_slot9;
+                zuuluu = zuuluu.PAYPAL;
+                if(!(tangon === zuuluu)) { _fun00012_ip = 35; continue _fun00011 }
  31:
-                var _closure1_slot10 = mike;
+                var _closure1_slot10 = michal;
  35:
                 entity = undefined;
                 return entity;
             }
         };
-        mike['BILLING_POPUP_BRIDGE_STATE_UPDATE'] = golf;
-        golf = function() { // Original name: handleBraintreeTeardownPayPalClient
+        michal['BILLING_POPUP_BRIDGE_STATE_UPDATE'] = golfie;
+        golfie = function() { // Original name: handleBraintreeTeardownPayPalClient
             entity = null;
             _closure1_slot13 = entity;
             entity = undefined;
             return entity;
         };
-        mike['BRAINTREE_TEARDOWN_PAYPAL_CLIENT'] = golf;
-        golf = function(argFoo) { // Original name: handleBraintreeCreateVenmoClientSuccess
+        michal['BRAINTREE_TEARDOWN_PAYPAL_CLIENT'] = golfie;
+        golfie = function(argFoo) { // Original name: handleBraintreeCreateVenmoClientSuccess
             entity = argFoo;
-            mike = entity.venmoClient;
-            _closure1_slot14 = mike;
+            michal = entity.venmoClient;
+            _closure1_slot14 = michal;
             entity = undefined;
             return entity;
         };
-        mike['BRAINTREE_CREATE_VENMO_CLIENT_SUCCESS'] = golf;
-        golf = function() { // Original name: handleBraintreeTeardownVenmoClient
+        michal['BRAINTREE_CREATE_VENMO_CLIENT_SUCCESS'] = golfie;
+        golfie = function() { // Original name: handleBraintreeTeardownVenmoClient
             entity = null;
             _closure1_slot14 = entity;
             entity = undefined;
             return entity;
         };
-        mike['BRAINTREE_TEARDOWN_VENMO_CLIENT'] = golf;
-        golf = verify.prototype;
-        golf = Object.create(golf, {constructor: {value: verify}});
-        backup = golf;
-        romeo = mike;
-        mike = new backup[verify](foxtrot, romeo, yankee);
-        mike = mike instanceof Object ? mike : golf;
-        var _closure1_slot15 = mike;
-        tango = 10;
-        tango = oscar[tango];
-        oscar = report.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'stores/billing/BraintreeStore.tsx';
-        tango = report.bind(oscar)(tango);
-        zulu['default'] = mike;
+        michal['BRAINTREE_TEARDOWN_VENMO_CLIENT'] = golfie;
+        golfie = verify.prototype;
+        golfie = Object.create(golfie, {constructor: {value: verify}});
+        backup = golfie;
+        romeon = michal;
+        michal = new backup[verify](foxtra, romeon, yankee);
+        michal = michal instanceof Object ? michal : golfie;
+        var _closure1_slot15 = michal;
+        tangon = 10;
+        tangon = oscard[tangon];
+        oscard = report.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'stores/billing/BraintreeStore.tsx';
+        tangon = report.bind(oscard)(tangon);
+        zuuluu['default'] = michal;
         return entity;
     }
 })();

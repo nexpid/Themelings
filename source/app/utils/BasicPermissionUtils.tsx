@@ -1,119 +1,119 @@
 // app/utils/BasicPermissionUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    entity = argCorge;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    entity = argCor;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    mike = function() {
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    michal = function() {
         report = _closure1_slot3;
-        tango = function() { // Original name: BasicPermissionUtils
-            tango = _closure1_slot2;
-            zulu = _closure2_slot0;
+        tangon = function() { // Original name: BasicPermissionUtils
+            tangon = _closure1_slot2;
+            zuuluu = _closure2_slot0;
             entity = undefined;
-            mike = this;
-            mike = tango.bind(entity)(mike, zulu);
+            michal = this;
+            michal = tangon.bind(entity)(michal, zuuluu);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         entity = {};
-        zulu = 'has';
-        entity['key'] = zulu;
-        zulu = function(argFoo, argBar) { // Original name: value
-            mike = argFoo;
+        zuuluu = 'has';
+        entity['key'] = zuuluu;
+        zuuluu = function(argFoo, argBar) { // Original name: value
+            michal = argFoo;
             entity = argBar;
-            mike = mike & entity;
+            michal = michal & entity;
             entity = 0;
-            entity = entity != mike;
+            entity = entity != michal;
             return entity;
         };
-        entity['value'] = zulu;
-        zulu = new Array(3);
-        zulu[0] = entity;
+        entity['value'] = zuuluu;
+        zuuluu = new Array(3);
+        zuuluu[0] = entity;
         entity = {};
-        oscar = 'asBasicFlag';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+        oscard = 'asBasicFlag';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.asUintN;
-            mike = 20;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.asUintN;
+            michal = 20;
             entity = argFoo;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
-        entity['value'] = oscar;
-        zulu[1] = entity;
+        entity['value'] = oscard;
+        zuuluu[1] = entity;
         entity = {};
-        oscar = 'asBigFlag';
-        entity['key'] = oscar;
-        mike = function(argFoo) { // Original name: value
+        oscard = 'asBigFlag';
+        entity['key'] = oscard;
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = this;
-                zulu = global;
-                report = zulu.Object;
-                tango = report.hasOwn;
-                zulu = entity.cache;
-                zulu = tango.bind(report)(zulu, mike);
-                if(zulu) { _fun00002_ip = 81; continue _fun00001 }
+                zuuluu = global;
+                report = zuuluu.Object;
+                tangon = report.hasOwn;
+                zuuluu = entity.cache;
+                zuuluu = tangon.bind(report)(zuuluu, michal);
+                if(zuuluu) { _fun00002_ip = 81; continue _fun00001 }
  35:
-                tango = entity.cache;
-                oscar = _closure1_slot0;
+                tangon = entity.cache;
+                oscard = _closure1_slot0;
                 report = _closure1_slot1;
-                zulu = 2;
-                report = report[zulu];
-                zulu = undefined;
-                report = oscar.bind(zulu)(report);
-                zulu = report.deserialize;
-                zulu = zulu.bind(report)(mike);
-                tango[mike] = zulu;
+                zuuluu = 2;
+                report = report[zuuluu];
+                zuuluu = undefined;
+                report = oscard.bind(zuuluu)(report);
+                zuuluu = report.deserialize;
+                zuuluu = zuuluu.bind(report)(michal);
+                tangon[michal] = zuuluu;
  81:
                 entity = entity.cache;
-                entity = entity[mike];
+                entity = entity[michal];
                 return entity;
             }
         };
-        entity['value'] = mike;
-        zulu[2] = entity;
-        mike = undefined;
+        entity['value'] = michal;
+        zuuluu[2] = entity;
+        michal = undefined;
         entity = null;
-        entity = report.bind(mike)(tango, entity, zulu);
+        entity = report.bind(michal)(tangon, entity, zuuluu);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = {};
-    mike['cache'] = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/BasicPermissionUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = {};
+    michal['cache'] = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/BasicPermissionUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

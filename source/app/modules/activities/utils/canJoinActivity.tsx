@@ -1,67 +1,67 @@
 // app/modules/activities/utils/canJoinActivity.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.ActivityFlags;
-    var _closure1_slot3 = golf;
-    golf = tango.ChannelTypes;
-    var _closure1_slot4 = golf;
-    tango = tango.GuildFeatures;
-    var _closure1_slot5 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/canJoinActivity.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: canJoinActivity
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.ActivityFlags;
+    var _closure1_slot3 = golfie;
+    golfie = tangon.ChannelTypes;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.GuildFeatures;
+    var _closure1_slot5 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/canJoinActivity.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: canJoinActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.user;
-            kilo = entity.activity;
-            romeo = entity.application;
+            kiloes = entity.activity;
+            romeon = entity.application;
             backup = entity.channelId;
-            foxtrot = entity.currentUser;
-            mike = entity.isEmbedded;
+            foxtra = entity.currentUser;
+            michal = entity.isEmbedded;
             offset = entity.ChannelStore;
-            golf = entity.GuildStore;
-            oscar = entity.GuildMemberCountStore;
-            echo = entity.RelationshipStore;
+            golfie = entity.GuildStore;
+            oscard = entity.GuildMemberCountStore;
+            echoed = entity.RelationshipStore;
             output = entity.SelectedChannelStore;
             verify = entity.VoiceStateStore;
-            options = entity.PermissionStore;
+            option = entity.PermissionStore;
             entity = offset.getChannel;
             yankee = entity.bind(offset)(backup);
             report = _closure1_slot0;
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
-            tango = undefined;
-            report = report.bind(tango)(entity);
+            entity = tangon[entity];
+            tangon = undefined;
+            report = report.bind(tangon)(entity);
             entity = report.getIsActivitiesEnabledForCurrentPlatform;
             yankee = entity.bind(report)(yankee);
             entity = null;
             if(!(entity != sizing)) { _fun00002_ip = 575; continue _fun00001 }
  133:
-            if(!mike) { _fun00002_ip = 143; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 143; continue _fun00001 }
  136:
             if(!(entity == backup)) { _fun00002_ip = 465; continue _fun00001 }
  143:
@@ -69,84 +69,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             update = _closure1_slot2;
             report = 3;
             report = update[report];
-            result = result.bind(tango)(report);
+            result = result.bind(tangon)(report);
             report = result.isDesktop;
             report = report.bind(result)();
             if(report) { _fun00002_ip = 183; continue _fun00001 }
  176:
-            if(mike) { _fun00002_ip = 183; continue _fun00001 }
+            if(michal) { _fun00002_ip = 183; continue _fun00001 }
  179:
-            mike = false;
-            return mike;
+            michal = false;
+            return michal;
  183:
             report = _closure1_slot1;
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             result = 4;
-            mike = mike[result];
-            report = report.bind(tango)(mike);
-            mike = _closure1_slot3;
-            mike = mike.PARTY_PRIVACY_FRIENDS;
-            mike = report.bind(tango)(kilo, mike);
-            if(!mike) { _fun00002_ip = 244; continue _fun00001 }
+            michal = michal[result];
+            report = report.bind(tangon)(michal);
+            michal = _closure1_slot3;
+            michal = michal.PARTY_PRIVACY_FRIENDS;
+            michal = report.bind(tangon)(kiloes, michal);
+            if(!michal) { _fun00002_ip = 244; continue _fun00001 }
  222:
-            report = echo.isFriend;
-            mike = sizing.id;
-            mike = report.bind(echo)(mike);
-            if(mike) { _fun00002_ip = 461; continue _fun00001 }
+            report = echoed.isFriend;
+            michal = sizing.id;
+            michal = report.bind(echoed)(michal);
+            if(michal) { _fun00002_ip = 461; continue _fun00001 }
  244:
             report = _closure1_slot1;
-            mike = _closure1_slot2;
-            mike = mike[result];
-            report = report.bind(tango)(mike);
-            mike = _closure1_slot3;
-            mike = mike.PARTY_PRIVACY_VOICE_CHANNEL;
-            mike = report.bind(tango)(kilo, mike);
-            if(mike) { _fun00002_ip = 284; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal[result];
+            report = report.bind(tangon)(michal);
+            michal = _closure1_slot3;
+            michal = michal.PARTY_PRIVACY_VOICE_CHANNEL;
+            michal = report.bind(tangon)(kiloes, michal);
+            if(michal) { _fun00002_ip = 284; continue _fun00001 }
  280:
-            mike = false;
-            return mike;
+            michal = false;
+            return michal;
  284:
             report = offset.getChannel;
-            mike = output.getVoiceChannelId;
-            mike = mike.bind(output)();
-            output = report.bind(offset)(mike);
+            michal = output.getVoiceChannelId;
+            michal = michal.bind(output)();
+            output = report.bind(offset)(michal);
             if(!(entity != output)) { _fun00002_ip = 457; continue _fun00001 }
  311:
             result = verify.isInChannel;
             report = output.id;
-            mike = sizing.id;
-            mike = result.bind(verify)(report, mike);
-            if(!mike) { _fun00002_ip = 457; continue _fun00001 }
+            michal = sizing.id;
+            michal = result.bind(verify)(report, michal);
+            if(!michal) { _fun00002_ip = 457; continue _fun00001 }
  336:
             report = output.type;
-            mike = _closure1_slot4;
-            mike = mike.DM;
-            if(!(mike !== report)) { _fun00002_ip = 453; continue _fun00001 }
+            michal = _closure1_slot4;
+            michal = michal.DM;
+            if(!(michal !== report)) { _fun00002_ip = 453; continue _fun00001 }
  355:
-            mike = _closure1_slot4;
-            mike = mike.GROUP_DM;
-            if(!(mike !== report)) { _fun00002_ip = 453; continue _fun00001 }
+            michal = _closure1_slot4;
+            michal = michal.GROUP_DM;
+            if(!(michal !== report)) { _fun00002_ip = 453; continue _fun00001 }
  369:
-            report = golf.getGuild;
-            mike = output.getGuildId;
-            mike = mike.bind(output)();
-            mike = report.bind(golf)(mike);
-            if(!(entity != mike)) { _fun00002_ip = 449; continue _fun00001 }
+            report = golfie.getGuild;
+            michal = output.getGuildId;
+            michal = michal.bind(output)();
+            michal = report.bind(golfie)(michal);
+            if(!(entity != michal)) { _fun00002_ip = 449; continue _fun00001 }
  393:
-            output = mike.hasFeature;
+            output = michal.hasFeature;
             report = _closure1_slot5;
             report = report.COMMUNITY;
-            report = output.bind(mike)(report);
+            report = output.bind(michal)(report);
             if(report) { _fun00002_ip = 449; continue _fun00001 }
  417:
-            report = oscar.getMemberCount;
-            mike = mike.id;
-            report = report.bind(oscar)(mike);
+            report = oscard.getMemberCount;
+            michal = michal.id;
+            report = report.bind(oscard)(michal);
             entity = entity != report;
             if(!entity) { _fun00002_ip = 447; continue _fun00001 }
  440:
-            mike = 100;
-            entity = report < mike;
+            michal = 100;
+            entity = report < michal;
  447:
             return entity;
  449:
@@ -162,36 +162,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = true;
             return entity;
  465:
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             report = _closure1_slot2;
             entity = 2;
-            mike = report[entity];
-            oscar = oscar.bind(tango)(mike);
-            mike = {};
+            michal = report[entity];
+            oscard = oscard.bind(tangon)(michal);
+            michal = {};
             sizing = sizing.id;
-            mike['userId'] = sizing;
-            mike['activity'] = kilo;
-            mike['channelId'] = backup;
-            mike['currentUser'] = foxtrot;
-            mike['application'] = romeo;
-            mike['isActivitiesEnabledForCurrentPlatform'] = yankee;
-            mike['ChannelStore'] = offset;
-            mike['VoiceStateStore'] = verify;
-            mike['PermissionStore'] = options;
-            mike['GuildStore'] = golf;
-            mike = oscar.bind(tango)(mike);
-            zulu = _closure1_slot0;
+            michal['userId'] = sizing;
+            michal['activity'] = kiloes;
+            michal['channelId'] = backup;
+            michal['currentUser'] = foxtra;
+            michal['application'] = romeon;
+            michal['isActivitiesEnabledForCurrentPlatform'] = yankee;
+            michal['ChannelStore'] = offset;
+            michal['VoiceStateStore'] = verify;
+            michal['PermissionStore'] = option;
+            michal['GuildStore'] = golfie;
+            michal = oscard.bind(tangon)(michal);
+            zuuluu = _closure1_slot0;
             entity = report[entity];
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.CAN_JOIN;
-            entity = mike === entity;
+            entity = michal === entity;
             return entity;
  575:
             entity = false;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,228 +1,228 @@
 // app/modules/opt_in_channels/isOptInEnabled.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.GuildFeatures;
-    var _closure1_slot6 = golf;
-    tango = tango.Permissions;
-    var _closure1_slot7 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/opt_in_channels/isOptInEnabled.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useOptInEnabledForGuild
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 5;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot4;
-        mike = new Array(3);
-        mike[0] = oscar;
-        oscar = _closure1_slot2;
-        mike[1] = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.GuildFeatures;
+    var _closure1_slot6 = golfie;
+    tangon = tangon.Permissions;
+    var _closure1_slot7 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/opt_in_channels/isOptInEnabled.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useOptInEnabledForGuild
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 5;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot4;
+        michal = new Array(3);
+        michal[0] = oscard;
+        oscard = _closure1_slot2;
+        michal[1] = oscard;
         report = _closure1_slot5;
-        mike[2] = report;
+        michal[2] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot4;
-                entity = mike.isOptInEnabled;
-                tango = _closure2_slot0;
-                entity = entity.bind(mike)(tango);
-                zulu = _closure1_slot2;
-                mike = zulu.getGuild;
-                options = mike.bind(zulu)(tango);
-                zulu = null;
-                mike = zulu == options;
-                oscar = undefined;
-                if(mike) { _fun00002_ip = 71; continue _fun00001 }
+                michal = _closure1_slot4;
+                entity = michal.isOptInEnabled;
+                tangon = _closure2_slot0;
+                entity = entity.bind(michal)(tangon);
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getGuild;
+                option = michal.bind(zuuluu)(tangon);
+                zuuluu = null;
+                michal = zuuluu == option;
+                oscard = undefined;
+                if(michal) { _fun00002_ip = 71; continue _fun00001 }
  50:
-                golf = options.hasFeature;
-                mike = _closure1_slot6;
-                mike = mike.COMMUNITY;
-                oscar = golf.bind(options)(mike);
+                golfie = option.hasFeature;
+                michal = _closure1_slot6;
+                michal = michal.COMMUNITY;
+                oscard = golfie.bind(option)(michal);
  71:
-                mike = zulu != oscar;
-                if(!mike) { _fun00002_ip = 81; continue _fun00001 }
+                michal = zuuluu != oscard;
+                if(!michal) { _fun00002_ip = 81; continue _fun00001 }
  78:
-                mike = oscar;
+                michal = oscard;
  81:
-                oscar = _closure1_slot5;
-                report = oscar.getCurrentUser;
-                oscar = report.bind(oscar)();
-                report = zulu == oscar;
-                tango = undefined;
+                oscard = _closure1_slot5;
+                report = oscard.getCurrentUser;
+                oscard = report.bind(oscard)();
+                report = zuuluu == oscard;
+                tangon = undefined;
                 if(report) { _fun00002_ip = 113; continue _fun00001 }
  103:
-                report = oscar.isStaff;
-                tango = report.bind(oscar)();
+                report = oscard.isStaff;
+                tangon = report.bind(oscard)();
  113:
-                zulu = zulu != tango;
-                if(!zulu) { _fun00002_ip = 123; continue _fun00001 }
+                zuuluu = zuuluu != tangon;
+                if(!zuuluu) { _fun00002_ip = 123; continue _fun00001 }
  120:
-                zulu = tango;
+                zuuluu = tangon;
  123:
                 if(!entity) { _fun00002_ip = 135; continue _fun00001 }
  126:
-                if(mike) { _fun00002_ip = 132; continue _fun00001 }
+                if(michal) { _fun00002_ip = 132; continue _fun00001 }
  129:
-                mike = zulu;
+                michal = zuuluu;
  132:
-                entity = mike;
+                entity = michal;
  135:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useOptInEnabledForGuild'] = tango;
-    tango = function(argFoo) { // Original name: isOptInEnabledForGuild
+    zuuluu['useOptInEnabledForGuild'] = tangon;
+    tangon = function(argFoo) { // Original name: isOptInEnabledForGuild
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            mike = _closure1_slot2;
-            entity = mike.getGuild;
-            golf = entity.bind(mike)(report);
-            mike = _closure1_slot5;
-            entity = mike.getCurrentUser;
-            oscar = entity.bind(mike)();
-            mike = null;
-            entity = mike != report;
+            michal = _closure1_slot2;
+            entity = michal.getGuild;
+            golfie = entity.bind(michal)(report);
+            michal = _closure1_slot5;
+            entity = michal.getCurrentUser;
+            oscard = entity.bind(michal)();
+            michal = null;
+            entity = michal != report;
             if(!entity) { _fun00004_ip = 46; continue _fun00003 }
  42:
-            entity = mike != golf;
+            entity = michal != golfie;
  46:
             if(!entity) { _fun00004_ip = 53; continue _fun00003 }
  49:
-            entity = mike != oscar;
+            entity = michal != oscard;
  53:
             if(!entity) { _fun00004_ip = 111; continue _fun00003 }
  56:
-            tango = golf.hasFeature;
-            mike = _closure1_slot6;
-            mike = mike.COMMUNITY;
-            mike = tango.bind(golf)(mike);
-            if(mike) { _fun00004_ip = 90; continue _fun00003 }
+            tangon = golfie.hasFeature;
+            michal = _closure1_slot6;
+            michal = michal.COMMUNITY;
+            michal = tangon.bind(golfie)(michal);
+            if(michal) { _fun00004_ip = 90; continue _fun00003 }
  80:
-            tango = oscar.isStaff;
-            mike = tango.bind(oscar)();
+            tangon = oscard.isStaff;
+            michal = tangon.bind(oscard)();
  90:
-            if(!mike) { _fun00004_ip = 108; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 108; continue _fun00003 }
  93:
-            tango = _closure1_slot4;
-            zulu = tango.isOptInEnabled;
-            mike = zulu.bind(tango)(report);
+            tangon = _closure1_slot4;
+            zuuluu = tangon.isOptInEnabled;
+            michal = zuuluu.bind(tangon)(report);
  108:
-            entity = mike;
+            entity = michal;
  111:
             return entity;
         }
     };
-    zulu['isOptInEnabledForGuild'] = tango;
-    mike = function(argFoo) { // Original name: useShouldShowOnboardingAdminUpsellForGuild
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 5;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot2;
-        mike = new Array(2);
-        mike[0] = oscar;
+    zuuluu['isOptInEnabledForGuild'] = tangon;
+    michal = function(argFoo) { // Original name: useShouldShowOnboardingAdminUpsellForGuild
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 5;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot2;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot3;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                tango = _closure1_slot2;
-                zulu = tango.getGuild;
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
-                report = zulu.bind(tango)(entity);
-                oscar = _closure1_slot3;
-                tango = oscar.can;
+                report = zuuluu.bind(tangon)(entity);
+                oscard = _closure1_slot3;
+                tangon = oscard.can;
                 entity = _closure1_slot7;
-                zulu = entity.MANAGE_GUILD;
-                tango = tango.bind(oscar)(zulu, report);
-                zulu = oscar.can;
+                zuuluu = entity.MANAGE_GUILD;
+                tangon = tangon.bind(oscard)(zuuluu, report);
+                zuuluu = oscard.can;
                 entity = entity.MANAGE_ROLES;
-                zulu = zulu.bind(oscar)(entity, report);
+                zuuluu = zuuluu.bind(oscard)(entity, report);
                 entity = null;
-                golf = entity == report;
-                oscar = undefined;
-                if(golf) { _fun00006_ip = 100; continue _fun00005 }
+                golfie = entity == report;
+                oscard = undefined;
+                if(golfie) { _fun00006_ip = 100; continue _fun00005 }
  79:
-                golf = report.hasFeature;
-                mike = _closure1_slot6;
-                mike = mike.GUILD_ONBOARDING_EVER_ENABLED;
-                oscar = golf.bind(report)(mike);
+                golfie = report.hasFeature;
+                michal = _closure1_slot6;
+                michal = michal.GUILD_ONBOARDING_EVER_ENABLED;
+                oscard = golfie.bind(report)(michal);
  100:
-                mike = entity != oscar;
-                if(!mike) { _fun00006_ip = 110; continue _fun00005 }
+                michal = entity != oscard;
+                if(!michal) { _fun00006_ip = 110; continue _fun00005 }
  107:
-                mike = oscar;
+                michal = oscard;
  110:
                 entity = entity != report;
                 if(!entity) { _fun00006_ip = 120; continue _fun00005 }
  117:
-                entity = tango;
+                entity = tangon;
  120:
                 if(!entity) { _fun00006_ip = 126; continue _fun00005 }
  123:
-                entity = zulu;
+                entity = zuuluu;
  126:
                 if(!entity) { _fun00006_ip = 132; continue _fun00005 }
  129:
-                entity = !mike;
+                entity = !michal;
  132:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useShouldShowOnboardingAdminUpsellForGuild'] = mike;
+    zuuluu['useShouldShowOnboardingAdminUpsellForGuild'] = michal;
     return entity;
 })();

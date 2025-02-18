@@ -1,81 +1,81 @@
 // app/actions/native/DisplayedInviteActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/native/DisplayedInviteActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) { // Original name: showInvite
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/native/DisplayedInviteActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) { // Original name: showInvite
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = argBaz;
-            mike = null;
-            if(!(mike == entity)) { _fun00002_ip = 14; continue _fun00001 }
+            michal = null;
+            if(!(michal == entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             entity = {};
  14:
             verify = entity.deeplinkAttemptId;
-            tango = entity.location;
-            golf = _closure1_slot0;
-            oscar = _closure1_slot2;
+            tangon = entity.location;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot2;
             entity = 0;
-            zulu = oscar[entity];
+            zuuluu = oscard[entity];
             entity = undefined;
-            zulu = golf.bind(entity)(zulu);
-            zulu = _closure1_slot1;
-            mike = 1;
-            mike = oscar[mike];
-            options = zulu.bind(entity)(mike);
-            golf = options.dispatch;
-            mike = {};
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            michal = oscard[michal];
+            option = zuuluu.bind(entity)(michal);
+            golfie = option.dispatch;
+            michal = {};
             offset = 'DISPLAYED_INVITE_SHOW';
-            mike['type'] = offset;
-            mike['code'] = report;
+            michal['type'] = offset;
+            michal['code'] = report;
             offset = argBar;
-            mike['username'] = offset;
-            mike['deeplinkAttemptId'] = verify;
-            mike = golf.bind(options)(mike);
-            mike = 2;
-            mike = oscar[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.resolveInvite;
-            mike = mike.bind(zulu)(report, tango);
+            michal['username'] = offset;
+            michal['deeplinkAttemptId'] = verify;
+            michal = golfie.bind(option)(michal);
+            michal = 2;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.resolveInvite;
+            michal = michal.bind(zuuluu)(report, tangon);
             return entity;
         }
     };
-    zulu['showInvite'] = tango;
-    mike = function() { // Original name: clearDisplayedInvite
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['showInvite'] = tangon;
+    michal = function() { // Original name: clearDisplayedInvite
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'DISPLAYED_INVITE_CLEAR';
-        mike['type'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearDisplayedInvite'] = mike;
+    zuuluu['clearDisplayedInvite'] = michal;
     return entity;
 })();

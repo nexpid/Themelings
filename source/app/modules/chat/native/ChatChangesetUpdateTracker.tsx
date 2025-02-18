@@ -1,76 +1,76 @@
 // app/modules/chat/native/ChatChangesetUpdateTracker.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
-    tango = true;
-    report['value'] = tango;
-    tango = '__esModule';
-    tango = oscar.bind(golf)(zulu, tango, report);
+    tangon = true;
+    report['value'] = tangon;
+    tangon = '__esModule';
+    tangon = oscard.bind(golfie)(zuuluu, tangon, report);
     entity = entity.WeakMap;
-    tango = entity.prototype;
-    tango = Object.create(tango, {constructor: {value: entity}});
-    yankee = tango;
+    tangon = entity.prototype;
+    tangon = Object.create(tangon, {constructor: {value: entity}});
+    yankee = tangon;
     entity = new yankee[entity](offset);
-    entity = entity instanceof Object ? entity : tango;
+    entity = entity instanceof Object ? entity : tangon;
     var _closure1_slot0 = entity;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/chat/native/ChatChangesetUpdateTracker.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getAndIncrementChangesetIdForChat
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/chat/native/ChatChangesetUpdateTracker.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getAndIncrementChangesetIdForChat
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            entity = zulu.get;
-            entity = entity.bind(zulu)(tango);
-            zulu = null;
-            report = zulu != entity;
-            zulu = 0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.get;
+            entity = entity.bind(zuuluu)(tangon);
+            zuuluu = null;
+            report = zuuluu != entity;
+            zuuluu = 0;
             if(!report) { _fun00002_ip = 34; continue _fun00001 }
  31:
-            zulu = entity;
+            zuuluu = entity;
  34:
             entity = 1;
-            entity = zulu + entity;
-            zulu = _closure1_slot0;
-            mike = zulu.set;
-            mike = mike.bind(zulu)(tango, entity);
+            entity = zuuluu + entity;
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.set;
+            michal = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
-    zulu['getAndIncrementChangesetIdForChat'] = tango;
-    mike = function(argFoo) { // Original name: getChangesetIdForChat
+    zuuluu['getAndIncrementChangesetIdForChat'] = tangon;
+    michal = function(argFoo) { // Original name: getChangesetIdForChat
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscar = argFoo;
-            tango = null;
-            zulu = tango == oscar;
+            oscard = argFoo;
+            tangon = null;
+            zuuluu = tangon == oscard;
             entity = 0;
-            if(zulu) { _fun00004_ip = 46; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 46; continue _fun00003 }
  14:
             report = _closure1_slot0;
-            zulu = report.get;
-            zulu = zulu.bind(report)(oscar);
-            tango = tango != zulu;
-            mike = 0;
-            if(!tango) { _fun00004_ip = 43; continue _fun00003 }
+            zuuluu = report.get;
+            zuuluu = zuuluu.bind(report)(oscard);
+            tangon = tangon != zuuluu;
+            michal = 0;
+            if(!tangon) { _fun00004_ip = 43; continue _fun00003 }
  40:
-            mike = zulu;
+            michal = zuuluu;
  43:
-            entity = mike;
+            entity = michal;
  46:
             return entity;
         }
     };
-    zulu['getChangesetIdForChat'] = mike;
+    zuuluu['getChangesetIdForChat'] = michal;
     return entity;
 })();

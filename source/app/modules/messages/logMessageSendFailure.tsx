@@ -1,100 +1,100 @@
 // app/modules/messages/logMessageSendFailure.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function(argFoo) { // Original name: getAttachmentMimeTypes
-        zulu = argFoo;
-        mike = zulu.map;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo) { // Original name: getAttachmentMimeTypes
+        zuuluu = argFoo;
+        michal = zuuluu.map;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                mike = entity.mimeType;
+                michal = entity.mimeType;
                 entity = null;
-                zulu = entity != mike;
+                zuuluu = entity != michal;
                 entity = 'unknown';
-                if(!zulu) { _fun00002_ip = 25; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 25; continue _fun00001 }
  22:
-                entity = mike;
+                entity = michal;
  25:
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot3 = mike;
+    var _closure1_slot3 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = oscar.bind(entity)(report);
+    report = oscard.bind(entity)(report);
     report = report.AnalyticEvents;
     var _closure1_slot2 = report;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/messages/logMessageSendFailure.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: logMessageSendFailure
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: logMessageSendFailure
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            entity = mike.fileItems;
-            zulu = null;
-            if(!(zulu == entity)) { _fun00004_ip = 21; continue _fun00003 }
+            michal = argFoo;
+            entity = michal.fileItems;
+            zuuluu = null;
+            if(!(zuuluu == entity)) { _fun00004_ip = 21; continue _fun00003 }
  15:
-            oscar = new Array(0);
+            oscard = new Array(0);
             _fun00004_ip = 41; continue _fun00003;
  21:
             report = _closure1_slot3;
-            tango = mike.fileItems;
+            tangon = michal.fileItems;
             entity = undefined;
-            oscar = report.bind(entity)(tango);
+            oscard = report.bind(entity)(tangon);
  41:
-            tango = mike.errorMessage;
-            report = zulu != tango;
+            tangon = michal.errorMessage;
+            report = zuuluu != tangon;
             entity = undefined;
-            golf = undefined;
+            golfie = undefined;
             if(!report) { _fun00004_ip = 61; continue _fun00003 }
  58:
-            golf = tango;
+            golfie = tangon;
  61:
-            mike = mike.failureCode;
-            zulu = zulu != mike;
-            options = undefined;
-            if(!zulu) { _fun00004_ip = 79; continue _fun00003 }
+            michal = michal.failureCode;
+            zuuluu = zuuluu != michal;
+            option = undefined;
+            if(!zuuluu) { _fun00004_ip = 79; continue _fun00003 }
  76:
-            options = mike;
+            option = michal;
  79:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 1;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.trackWithMetadata;
-            mike = _closure1_slot2;
-            zulu = mike.SEND_MESSAGE_FAILURE;
-            mike = {};
-            mike['failure_code'] = options;
-            mike['error_message'] = golf;
-            mike['attachment_mimetypes'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot2;
+            zuuluu = michal.SEND_MESSAGE_FAILURE;
+            michal = {};
+            michal['failure_code'] = option;
+            michal['error_message'] = golfie;
+            michal['attachment_mimetypes'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['logMessageSendFailure'] = tango;
-    zulu['getAttachmentMimeTypes'] = mike;
+    zuuluu['logMessageSendFailure'] = tangon;
+    zuuluu['getAttachmentMimeTypes'] = michal;
     return entity;
 })();

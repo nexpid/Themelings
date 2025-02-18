@@ -1,64 +1,64 @@
 // app/modules/custom_status/utils/isActivityTemporaryCustomStatus.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityTypes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/custom_status/utils/isActivityTemporaryCustomStatus.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isActivityTemporaryCustomStatus
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityTypes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/custom_status/utils/isActivityTemporaryCustomStatus.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isActivityTemporaryCustomStatus
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.type;
+            michal = argFoo;
+            zuuluu = michal.type;
             entity = _closure1_slot0;
             entity = entity.CUSTOM_STATUS;
-            entity = zulu === entity;
+            entity = zuuluu === entity;
             if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  28:
-            report = mike.timestamps;
-            tango = null;
-            oscar = tango == report;
-            zulu = undefined;
-            if(oscar) { _fun00002_ip = 50; continue _fun00001 }
+            report = michal.timestamps;
+            tangon = null;
+            oscard = tangon == report;
+            zuuluu = undefined;
+            if(oscard) { _fun00002_ip = 50; continue _fun00001 }
  45:
-            zulu = report.end;
+            zuuluu = report.end;
  50:
-            entity = tango != zulu;
+            entity = tangon != zuuluu;
  54:
             if(!entity) { _fun00002_ip = 85; continue _fun00001 }
  57:
-            mike = mike.timestamps;
-            zulu = null;
-            tango = zulu == mike;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 79; continue _fun00001 }
+            michal = michal.timestamps;
+            zuuluu = null;
+            tangon = zuuluu == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 79; continue _fun00001 }
  74:
-            zulu = mike.end;
+            zuuluu = michal.end;
  79:
-            mike = 0;
-            entity = zulu > mike;
+            michal = 0;
+            entity = zuuluu > michal;
  85:
             return entity;
         }
     };
-    zulu['isActivityTemporaryCustomStatus'] = mike;
+    zuuluu['isActivityTemporaryCustomStatus'] = michal;
     return entity;
 })();

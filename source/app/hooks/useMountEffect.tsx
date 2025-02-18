@@ -1,98 +1,98 @@
 // app/hooks/useMountEffect.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/useMountEffect.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useMountEffect
-        tango = _closure1_slot0;
-        zulu = tango.useRef;
-        mike = argFoo;
-        mike = zulu.bind(tango)(mike);
-        var _closure2_slot0 = mike;
-        zulu = tango.useEffect;
-        mike = function() {
-            mike = _closure2_slot0;
-            entity = mike.current;
-            entity = entity.bind(mike)();
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/useMountEffect.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useMountEffect
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useRef;
+        michal = argFoo;
+        michal = zuuluu.bind(tangon)(michal);
+        var _closure2_slot0 = michal;
+        zuuluu = tangon.useEffect;
+        michal = function() {
+            michal = _closure2_slot0;
+            entity = michal.current;
+            entity = entity.bind(michal)();
             return entity;
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = tango;
-    tango = function(argFoo) { // Original name: useMountLayoutEffect
-        tango = _closure1_slot0;
-        zulu = tango.useRef;
-        mike = argFoo;
-        mike = zulu.bind(tango)(mike);
-        var _closure2_slot0 = mike;
-        zulu = tango.useLayoutEffect;
-        mike = function() {
-            mike = _closure2_slot0;
-            entity = mike.current;
-            entity = entity.bind(mike)();
+    zuuluu['default'] = tangon;
+    tangon = function(argFoo) { // Original name: useMountLayoutEffect
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useRef;
+        michal = argFoo;
+        michal = zuuluu.bind(tangon)(michal);
+        var _closure2_slot0 = michal;
+        zuuluu = tangon.useLayoutEffect;
+        michal = function() {
+            michal = _closure2_slot0;
+            entity = michal.current;
+            entity = entity.bind(michal)();
             return entity;
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['useMountLayoutEffect'] = tango;
-    mike = function(argFoo) { // Original name: useUnmountEffect
-        zulu = argFoo;
-        var _closure2_slot0 = zulu;
-        tango = _closure1_slot0;
-        mike = tango.useRef;
-        mike = mike.bind(tango)(zulu);
-        var _closure2_slot1 = mike;
-        zulu = tango.useEffect;
-        mike = function() {
-            mike = _closure2_slot1;
+    zuuluu['useMountLayoutEffect'] = tangon;
+    michal = function(argFoo) { // Original name: useUnmountEffect
+        zuuluu = argFoo;
+        var _closure2_slot0 = zuuluu;
+        tangon = _closure1_slot0;
+        michal = tangon.useRef;
+        michal = michal.bind(tangon)(zuuluu);
+        var _closure2_slot1 = michal;
+        zuuluu = tangon.useEffect;
+        michal = function() {
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
-        zulu = tango.useEffect;
-        mike = function() {
+        michal = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.useEffect;
+        michal = function() {
             entity = function() {
-                mike = _closure2_slot1;
-                entity = mike.current;
-                entity = entity.bind(mike)();
+                michal = _closure2_slot1;
+                entity = michal.current;
+                entity = entity.bind(michal)();
                 entity = undefined;
                 return entity;
             };
             return entity;
         };
         entity = new Array(0);
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = undefined;
         return entity;
     };
-    zulu['useUnmountEffect'] = mike;
+    zuuluu['useUnmountEffect'] = michal;
     return entity;
 })();

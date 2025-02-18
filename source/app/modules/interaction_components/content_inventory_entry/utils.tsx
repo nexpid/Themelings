@@ -1,66 +1,66 @@
 // app/modules/interaction_components/content_inventory_entry/utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageEmbedFlags;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/interaction_components/content_inventory_entry/utils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isContentInventoryFallbackEmbed
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageEmbedFlags;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/interaction_components/content_inventory_entry/utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isContentInventoryFallbackEmbed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 1;
-            entity = tango[entity];
-            tango = undefined;
-            oscar = zulu.bind(tango)(entity);
-            report = oscar.hasFlag;
+            entity = tangon[entity];
+            tangon = undefined;
+            oscard = zuuluu.bind(tangon)(entity);
+            report = oscard.hasFlag;
             entity = argFoo;
             entity = entity.flags;
-            zulu = null;
-            golf = zulu != entity;
-            zulu = 0;
-            if(!golf) { _fun00002_ip = 53; continue _fun00001 }
+            zuuluu = null;
+            golfie = zuuluu != entity;
+            zuuluu = 0;
+            if(!golfie) { _fun00002_ip = 53; continue _fun00001 }
  50:
-            zulu = entity;
+            zuuluu = entity;
  53:
             entity = _closure1_slot2;
             entity = entity.IS_CONTENT_INVENTORY_ENTRY;
-            entity = report.bind(oscar)(zulu, entity);
+            entity = report.bind(oscard)(zuuluu, entity);
             if(!entity) { _fun00002_ip = 107; continue _fun00001 }
  72:
-            zulu = _closure1_slot0;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 2;
-            mike = report[mike];
-            tango = zulu.bind(tango)(mike);
-            zulu = tango.isContentInventoryEmbedEnabled;
-            mike = 'isContentInventoryFallbackEmbed';
-            entity = zulu.bind(tango)(mike);
+            michal = 2;
+            michal = report[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.isContentInventoryEmbedEnabled;
+            michal = 'isContentInventoryFallbackEmbed';
+            entity = zuuluu.bind(tangon)(michal);
  107:
             return entity;
         }
     };
-    zulu['isContentInventoryFallbackEmbed'] = mike;
+    zuuluu['isContentInventoryFallbackEmbed'] = michal;
     return entity;
 })();

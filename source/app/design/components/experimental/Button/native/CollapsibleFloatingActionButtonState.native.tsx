@@ -1,150 +1,150 @@
 // app/design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = {};
-    golf = 'function CollapsibleFloatingActionButtonStateNativeTsx1({nativeEvent:nativeEvent}){const{initialScrollStart,previousOffset,MINIMUM_SCROLL_DISTANCE_TO_CLOSE,collapseText,SCROLL_OFFSET_THRESHOLD}=this.__closure;if(nativeEvent==null)return;const{contentOffset:{y:currentOffset},contentSize:{height:contentHeight},layoutMeasurement:{height:layoutHeight}}=nativeEvent;if(currentOffset<initialScrollStart)return;const contentHeightAsOffset=currentOffset+layoutHeight;if(contentHeightAsOffset>contentHeight)return;const offsetChanged=currentOffset-previousOffset.get();if(currentOffset<MINIMUM_SCROLL_DISTANCE_TO_CLOSE){collapseText.set(0);}else{if(Math.abs(offsetChanged)>SCROLL_OFFSET_THRESHOLD){collapseText.set(offsetChanged<0?0:1);}}previousOffset.set(currentOffset);}';
-    tango['code'] = golf;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useCollapsibleFloatingActionButtonState
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = {};
+    golfie = 'function CollapsibleFloatingActionButtonStateNativeTsx1({nativeEvent:nativeEvent}){const{initialScrollStart,previousOffset,MINIMUM_SCROLL_DISTANCE_TO_CLOSE,collapseText,SCROLL_OFFSET_THRESHOLD}=this.__closure;if(nativeEvent==null)return;const{contentOffset:{y:currentOffset},contentSize:{height:contentHeight},layoutMeasurement:{height:layoutHeight}}=nativeEvent;if(currentOffset<initialScrollStart)return;const contentHeightAsOffset=currentOffset+layoutHeight;if(contentHeightAsOffset>contentHeight)return;const offsetChanged=currentOffset-previousOffset.get();if(currentOffset<MINIMUM_SCROLL_DISTANCE_TO_CLOSE){collapseText.set(0);}else{if(Math.abs(offsetChanged)>SCROLL_OFFSET_THRESHOLD){collapseText.set(offsetChanged<0?0:1);}}previousOffset.set(currentOffset);}';
+    tangon['code'] = golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useCollapsibleFloatingActionButtonState
         entity = {};
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 1;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useSharedValue;
-        mike = 0;
-        mike = zulu.bind(tango)(mike);
-        entity['collapseText'] = mike;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useSharedValue;
+        michal = 0;
+        michal = zuuluu.bind(tangon)(michal);
+        entity['collapseText'] = michal;
         return entity;
     };
-    zulu['useCollapsibleFloatingActionButtonState'] = tango;
-    mike = function(argFoo) { // Original name: useCollapsibleFloatingActionButtonScroll
+    zuuluu['useCollapsibleFloatingActionButtonState'] = tangon;
+    michal = function(argFoo) { // Original name: useCollapsibleFloatingActionButtonScroll
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = arguments[1];
+            golfie = arguments[1];
             entity = argFoo;
             report = entity.collapseText;
             var _closure2_slot0 = report;
-            oscar = undefined;
-            if(!(golf === oscar)) { _fun00002_ip = 26; continue _fun00001 }
+            oscard = undefined;
+            if(!(golfie === oscard)) { _fun00002_ip = 26; continue _fun00001 }
  24:
-            golf = 0;
+            golfie = 0;
  26:
-            var _closure2_slot1 = golf;
-            var _closure2_slot2 = oscar;
-            tango = _closure1_slot0;
-            options = _closure1_slot1;
-            zulu = 1;
-            zulu = options[zulu];
-            tango = tango.bind(oscar)(zulu);
-            zulu = tango.useSharedValue;
-            oscar = zulu.bind(tango)(golf);
-            _closure2_slot2 = oscar;
-            tango = _closure1_slot2;
-            zulu = tango.useCallback;
-            mike = function(argFoo) { // Original name: s
+            var _closure2_slot1 = golfie;
+            var _closure2_slot2 = oscard;
+            tangon = _closure1_slot0;
+            option = _closure1_slot1;
+            zuuluu = 1;
+            zuuluu = option[zuuluu];
+            tangon = tangon.bind(oscard)(zuuluu);
+            zuuluu = tangon.useSharedValue;
+            oscard = zuuluu.bind(tangon)(golfie);
+            _closure2_slot2 = oscard;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useCallback;
+            michal = function(argFoo) { // Original name: s
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
-                    mike = null;
-                    if(!(mike != entity)) { _fun00004_ip = 173; continue _fun00003 }
+                    michal = null;
+                    if(!(michal != entity)) { _fun00004_ip = 173; continue _fun00003 }
  17:
-                    mike = entity.contentOffset;
-                    zulu = mike.y;
-                    mike = entity.contentSize;
-                    tango = mike.height;
+                    michal = entity.contentOffset;
+                    zuuluu = michal.y;
+                    michal = entity.contentSize;
+                    tangon = michal.height;
                     entity = entity.layoutMeasurement;
-                    mike = entity.height;
+                    michal = entity.height;
                     report = _closure2_slot1;
-                    if(!(!(zulu < report))) { _fun00004_ip = 173; continue _fun00003 }
+                    if(!(!(zuuluu < report))) { _fun00004_ip = 173; continue _fun00003 }
  61:
-                    mike = zulu + mike;
-                    if(!(!(mike > tango))) { _fun00004_ip = 173; continue _fun00003 }
+                    michal = zuuluu + michal;
+                    if(!(!(michal > tangon))) { _fun00004_ip = 173; continue _fun00003 }
  69:
-                    tango = _closure2_slot2;
-                    mike = tango.get;
-                    mike = mike.bind(tango)();
-                    golf = zulu - mike;
-                    tango = 10;
-                    if(!(!(zulu < tango))) { _fun00004_ip = 143; continue _fun00003 }
+                    tangon = _closure2_slot2;
+                    michal = tangon.get;
+                    michal = michal.bind(tangon)();
+                    golfie = zuuluu - michal;
+                    tangon = 10;
+                    if(!(!(zuuluu < tangon))) { _fun00004_ip = 143; continue _fun00003 }
  93:
-                    mike = global;
-                    report = mike.Math;
-                    mike = report.abs;
-                    mike = mike.bind(report)(golf);
-                    if(!(mike > tango)) { _fun00004_ip = 159; continue _fun00003 }
+                    michal = global;
+                    report = michal.Math;
+                    michal = report.abs;
+                    michal = michal.bind(report)(golfie);
+                    if(!(michal > tangon)) { _fun00004_ip = 159; continue _fun00003 }
  116:
                     report = _closure2_slot0;
-                    tango = report.set;
-                    mike = 1;
-                    oscar = 0;
-                    if(!(golf < oscar)) { _fun00004_ip = 136; continue _fun00003 }
+                    tangon = report.set;
+                    michal = 1;
+                    oscard = 0;
+                    if(!(golfie < oscard)) { _fun00004_ip = 136; continue _fun00003 }
  134:
-                    mike = 0;
+                    michal = 0;
  136:
-                    mike = tango.bind(report)(mike);
+                    michal = tangon.bind(report)(michal);
                     _fun00004_ip = 159; continue _fun00003;
  143:
                     report = _closure2_slot0;
-                    tango = report.set;
-                    mike = 0;
-                    mike = tango.bind(report)(mike);
+                    tangon = report.set;
+                    michal = 0;
+                    michal = tangon.bind(report)(michal);
  159:
-                    mike = _closure2_slot2;
-                    entity = mike.set;
-                    entity = entity.bind(mike)(zulu);
+                    michal = _closure2_slot2;
+                    entity = michal.set;
+                    entity = entity.bind(michal)(zuuluu);
  173:
                     entity = undefined;
                     return entity;
                 }
             };
-            options = {};
-            options['initialScrollStart'] = golf;
-            options['previousOffset'] = oscar;
+            option = {};
+            option['initialScrollStart'] = golfie;
+            option['previousOffset'] = oscard;
             verify = 10;
-            options['MINIMUM_SCROLL_DISTANCE_TO_CLOSE'] = verify;
-            options['collapseText'] = report;
-            options['SCROLL_OFFSET_THRESHOLD'] = verify;
-            mike['__closure'] = options;
-            options = 10435259247914.0;
-            mike['__workletHash'] = options;
+            option['MINIMUM_SCROLL_DISTANCE_TO_CLOSE'] = verify;
+            option['collapseText'] = report;
+            option['SCROLL_OFFSET_THRESHOLD'] = verify;
+            michal['__closure'] = option;
+            option = 10435259247914.0;
+            michal['__workletHash'] = option;
             entity = _closure1_slot3;
-            mike['__initData'] = entity;
+            michal['__initData'] = entity;
             entity = new Array(3);
-            entity[0] = golf;
-            entity[1] = oscar;
+            entity[0] = golfie;
+            entity[1] = oscard;
             entity[2] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['useCollapsibleFloatingActionButtonScroll'] = mike;
+    zuuluu['useCollapsibleFloatingActionButtonScroll'] = michal;
     return entity;
 })();

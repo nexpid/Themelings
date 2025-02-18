@@ -1,270 +1,270 @@
 // app/modules/routing/transitionToChannel.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    golfie = argBar;
     verify = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = verify;
-    var _closure1_slot2 = options;
+    var _closure1_slot2 = option;
     report = function(argFoo, argBar) { // Original name: transitionToChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argBar;
-            tango = _closure1_slot3;
-            zulu = tango.getChannel;
+            oscard = argBar;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.getChannel;
             entity = argFoo;
-            entity = zulu.bind(tango)(entity);
-            zulu = null;
-            if(!(zulu != entity)) { _fun00002_ip = 233; continue _fun00001 }
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 233; continue _fun00001 }
  32:
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
-            tango = 2;
-            tango = options[tango];
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            tangon = 2;
+            tangon = option[tangon];
             report = undefined;
-            verify = golf.bind(report)(tango);
-            tango = verify.getGuildIdForGenericRedirect;
-            yankee = tango.bind(verify)(entity);
+            verify = golfie.bind(report)(tangon);
+            tangon = verify.getGuildIdForGenericRedirect;
+            yankee = tangon.bind(verify)(entity);
             verify = _closure1_slot1;
-            tango = 3;
-            tango = options[tango];
-            romeo = verify.bind(report)(tango);
-            offset = romeo.preload;
+            tangon = 3;
+            tangon = option[tangon];
+            romeon = verify.bind(report)(tangon);
+            offset = romeon.preload;
             verify = entity.guild_id;
-            tango = entity.id;
-            tango = offset.bind(romeo)(verify, tango);
-            tango = 4;
-            tango = options[tango];
-            offset = golf.bind(report)(tango);
+            tangon = entity.id;
+            tangon = offset.bind(romeon)(verify, tangon);
+            tangon = 4;
+            tangon = option[tangon];
+            offset = golfie.bind(report)(tangon);
             verify = offset.transitionTo;
-            options = _closure1_slot4;
-            golf = options.CHANNEL;
-            tango = entity.id;
-            options = golf.bind(options)(yankee, tango);
-            golf = {};
-            tango = true;
-            golf['openChannel'] = tango;
-            backup = golf;
-            foxtrot = oscar;
-            yankee = copyDataProperties(backup, foxtrot);
-            golf = verify.bind(offset)(options, golf);
-            zulu = zulu != oscar;
-            if(!zulu) { _fun00002_ip = 180; continue _fun00001 }
+            option = _closure1_slot4;
+            golfie = option.CHANNEL;
+            tangon = entity.id;
+            option = golfie.bind(option)(yankee, tangon);
+            golfie = {};
+            tangon = true;
+            golfie['openChannel'] = tangon;
+            backup = golfie;
+            foxtra = oscard;
+            yankee = copyDataProperties(backup, foxtra);
+            golfie = verify.bind(offset)(option, golfie);
+            zuuluu = zuuluu != oscard;
+            if(!zuuluu) { _fun00002_ip = 180; continue _fun00001 }
  174:
-            zulu = oscar.openTextInVoiceIfVoiceChannel;
+            zuuluu = oscard.openTextInVoiceIfVoiceChannel;
  180:
-            if(!zulu) { _fun00002_ip = 193; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 193; continue _fun00001 }
  183:
-            oscar = entity.isGuildVocal;
-            zulu = oscar.bind(entity)();
+            oscard = entity.isGuildVocal;
+            zuuluu = oscard.bind(entity)();
  193:
-            if(!zulu) { _fun00002_ip = 233; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 233; continue _fun00001 }
  196:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 5;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.updateChatOpen;
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
+            michal = 5;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.updateChatOpen;
             entity = entity.id;
-            entity = mike.bind(zulu)(entity, tango);
+            entity = michal.bind(zuuluu)(entity, tangon);
  233:
             entity = undefined;
             return entity;
         }
     };
     var _closure1_slot5 = report;
-    tango = function(argFoo, argBar, argBaz) { // Original name: transitionToThreadMessage
-        mike = argFoo;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: transitionToThreadMessage
+        michal = argFoo;
         report = _closure1_slot1;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 6;
-        tango = oscar[entity];
+        tangon = oscard[entity];
         entity = undefined;
-        golf = report.bind(entity)(tango);
-        report = mike.parent_id;
-        tango = null;
-        report = tango != report;
-        tango = 'Thread must have a parent ID.';
-        tango = golf.bind(entity)(report, tango);
+        golfie = report.bind(entity)(tangon);
+        report = michal.parent_id;
+        tangon = null;
+        report = tangon != report;
+        tangon = 'Thread must have a parent ID.';
+        tangon = golfie.bind(entity)(report, tangon);
         report = _closure1_slot0;
-        tango = 2;
-        tango = oscar[tango];
-        golf = report.bind(entity)(tango);
-        tango = golf.getGuildIdForGenericRedirect;
-        options = tango.bind(golf)(mike);
-        tango = 4;
-        tango = oscar[tango];
-        report = report.bind(entity)(tango);
-        tango = report.transitionTo;
-        golf = _closure1_slot4;
-        oscar = golf.CHANNEL;
-        zulu = mike.id;
-        mike = argBar;
-        zulu = oscar.bind(golf)(options, zulu, mike);
-        mike = {};
-        oscar = true;
-        mike['openChannel'] = oscar;
+        tangon = 2;
+        tangon = oscard[tangon];
+        golfie = report.bind(entity)(tangon);
+        tangon = golfie.getGuildIdForGenericRedirect;
+        option = tangon.bind(golfie)(michal);
+        tangon = 4;
+        tangon = oscard[tangon];
+        report = report.bind(entity)(tangon);
+        tangon = report.transitionTo;
+        golfie = _closure1_slot4;
+        oscard = golfie.CHANNEL;
+        zuuluu = michal.id;
+        michal = argBar;
+        zuuluu = oscard.bind(golfie)(option, zuuluu, michal);
+        michal = {};
+        oscard = true;
+        michal['openChannel'] = oscard;
         offset = argBaz;
-        yankee = mike;
-        oscar = copyDataProperties(yankee, offset);
-        mike = tango.bind(report)(zulu, mike);
+        yankee = michal;
+        oscard = copyDataProperties(yankee, offset);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot6 = tango;
+    var _closure1_slot6 = tangon;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, oscar);
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 1;
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.Routes;
-    var _closure1_slot4 = oscar;
-    oscar = 7;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/routing/transitionToChannel.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['transitionToChannel'] = report;
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.Routes;
+    var _closure1_slot4 = oscard;
+    oscard = 7;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/routing/transitionToChannel.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['transitionToChannel'] = report;
     report = function(argFoo, argBar) { // Original name: transitionToThread
-        mike = argFoo;
+        michal = argFoo;
         report = _closure1_slot1;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 6;
-        tango = oscar[entity];
+        tangon = oscard[entity];
         entity = undefined;
-        golf = report.bind(entity)(tango);
-        report = mike.parent_id;
-        tango = null;
-        report = tango != report;
-        tango = 'Thread must have a parent ID.';
-        tango = golf.bind(entity)(report, tango);
+        golfie = report.bind(entity)(tangon);
+        report = michal.parent_id;
+        tangon = null;
+        report = tangon != report;
+        tangon = 'Thread must have a parent ID.';
+        tangon = golfie.bind(entity)(report, tangon);
         report = _closure1_slot0;
-        tango = 2;
-        tango = oscar[tango];
-        golf = report.bind(entity)(tango);
-        tango = golf.getGuildIdForGenericRedirect;
-        golf = tango.bind(golf)(mike);
-        tango = 4;
-        tango = oscar[tango];
-        report = report.bind(entity)(tango);
-        tango = report.transitionTo;
-        oscar = _closure1_slot4;
-        zulu = oscar.CHANNEL;
-        mike = mike.id;
-        zulu = zulu.bind(oscar)(golf, mike);
-        mike = {};
-        oscar = true;
-        mike['openChannel'] = oscar;
-        options = argBar;
-        verify = mike;
-        oscar = copyDataProperties(verify, options);
-        mike = tango.bind(report)(zulu, mike);
+        tangon = 2;
+        tangon = oscard[tangon];
+        golfie = report.bind(entity)(tangon);
+        tangon = golfie.getGuildIdForGenericRedirect;
+        golfie = tangon.bind(golfie)(michal);
+        tangon = 4;
+        tangon = oscard[tangon];
+        report = report.bind(entity)(tangon);
+        tangon = report.transitionTo;
+        oscard = _closure1_slot4;
+        zuuluu = oscard.CHANNEL;
+        michal = michal.id;
+        zuuluu = zuuluu.bind(oscard)(golfie, michal);
+        michal = {};
+        oscard = true;
+        michal['openChannel'] = oscard;
+        option = argBar;
+        verify = michal;
+        oscard = copyDataProperties(verify, option);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['transitionToThread'] = report;
-    zulu['transitionToThreadMessage'] = tango;
-    tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: tryTransitionToThreadMessage
+    zuuluu['transitionToThread'] = report;
+    zuuluu['transitionToThreadMessage'] = tangon;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: tryTransitionToThreadMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = argCorge;
-            tango = _closure1_slot3;
-            zulu = tango.getChannel;
-            mike = argBar;
-            tango = zulu.bind(tango)(mike);
-            mike = null;
-            if(!(mike == tango)) { _fun00004_ip = 46; continue _fun00003 }
+            report = argCor;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.getChannel;
+            michal = argBar;
+            tangon = zuuluu.bind(tangon)(michal);
+            michal = null;
+            if(!(michal == tangon)) { _fun00004_ip = 46; continue _fun00003 }
  29:
-            oscar = _closure1_slot5;
-            zulu = undefined;
-            mike = argFoo;
-            mike = oscar.bind(zulu)(mike, report);
+            oscard = _closure1_slot5;
+            zuuluu = undefined;
+            michal = argFoo;
+            michal = oscard.bind(zuuluu)(michal, report);
             _fun00004_ip = 62; continue _fun00003;
  46:
-            zulu = _closure1_slot6;
-            mike = undefined;
+            zuuluu = _closure1_slot6;
+            michal = undefined;
             entity = argBaz;
-            entity = zulu.bind(mike)(tango, entity, report);
+            entity = zuuluu.bind(michal)(tangon, entity, report);
  62:
             entity = undefined;
             return entity;
         }
     };
-    zulu['tryTransitionToThreadMessage'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: transitionToMessage
+    zuuluu['tryTransitionToThreadMessage'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: transitionToMessage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = _closure1_slot3;
-            zulu = tango.getChannel;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.getChannel;
             entity = argFoo;
-            entity = zulu.bind(tango)(entity);
-            zulu = null;
-            if(!(zulu != entity)) { _fun00006_ip = 127; continue _fun00005 }
+            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00006_ip = 127; continue _fun00005 }
  26:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = undefined;
-            golf = report.bind(tango)(zulu);
-            zulu = golf.getGuildIdForGenericRedirect;
-            golf = zulu.bind(golf)(entity);
-            zulu = 4;
-            zulu = oscar[zulu];
-            tango = report.bind(tango)(zulu);
-            zulu = tango.transitionTo;
-            oscar = _closure1_slot4;
-            report = oscar.CHANNEL;
-            mike = entity.id;
+            oscard = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = undefined;
+            golfie = report.bind(tangon)(zuuluu);
+            zuuluu = golfie.getGuildIdForGenericRedirect;
+            golfie = zuuluu.bind(golfie)(entity);
+            zuuluu = 4;
+            zuuluu = oscard[zuuluu];
+            tangon = report.bind(tangon)(zuuluu);
+            zuuluu = tangon.transitionTo;
+            oscard = _closure1_slot4;
+            report = oscard.CHANNEL;
+            michal = entity.id;
             entity = argBar;
-            mike = report.bind(oscar)(golf, mike, entity);
+            michal = report.bind(oscard)(golfie, michal, entity);
             entity = {};
             report = true;
             entity['openChannel'] = report;
             verify = argBaz;
             offset = entity;
             report = copyDataProperties(offset, verify);
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
  127:
             entity = undefined;
             return entity;
         }
     };
-    zulu['transitionToMessage'] = tango;
-    mike = function(argFoo, argBar, argBaz) { // Original name: transitionToStaticChannelRoute
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
+    zuuluu['transitionToMessage'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: transitionToStaticChannelRoute
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         entity = 4;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        report = tango.bind(entity)(zulu);
-        tango = report.transitionTo;
-        golf = _closure1_slot4;
-        oscar = golf.CHANNEL;
-        zulu = argFoo;
-        mike = argBar;
-        zulu = oscar.bind(golf)(zulu, mike);
-        mike = {};
-        oscar = true;
-        mike['openChannel'] = oscar;
-        options = argBaz;
-        verify = mike;
-        oscar = copyDataProperties(verify, options);
-        mike = tango.bind(report)(zulu, mike);
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.transitionTo;
+        golfie = _closure1_slot4;
+        oscard = golfie.CHANNEL;
+        zuuluu = argFoo;
+        michal = argBar;
+        zuuluu = oscard.bind(golfie)(zuuluu, michal);
+        michal = {};
+        oscard = true;
+        michal['openChannel'] = oscard;
+        option = argBaz;
+        verify = michal;
+        oscard = copyDataProperties(verify, option);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zulu['transitionToStaticChannelRoute'] = mike;
+    zuuluu['transitionToStaticChannelRoute'] = michal;
     return entity;
 })();

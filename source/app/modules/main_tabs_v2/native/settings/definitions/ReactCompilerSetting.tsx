@@ -1,45 +1,45 @@
 // app/modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
-    mike = {'type': null, 'title': 'React Compiler', 'parent': null};
+    entity = golfie.bind(option)(zuuluu, entity, michal);
+    michal = {'type': null, 'title': 'React Compiler', 'parent': null};
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    golf = golf.RendererType;
-    golf = golf.STATIC;
-    mike['type'] = golf;
-    golf = 1;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.WrenchIcon;
-    mike['IconComponent'] = golf;
-    golf = function() { // Original name: useTrailing
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.RendererType;
+    golfie = golfie.STATIC;
+    michal['type'] = golfie;
+    golfie = 1;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.WrenchIcon;
+    michal['IconComponent'] = golfie;
+    golfie = function() { // Original name: useTrailing
         entity = 'Enabled';
         return entity;
     };
-    mike['useTrailing'] = golf;
-    tango = function() { // Original name: usePredicate
+    michal['useTrailing'] = golfie;
+    tangon = function() { // Original name: usePredicate
         entity = false;
         return entity;
     };
-    mike['usePredicate'] = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['usePredicate'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

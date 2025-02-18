@@ -1,28 +1,28 @@
 // app/modules/guild_scheduled_events/guildEventDetailsParser.native.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    mike = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, mike);
+    entity = report.bind(oscard)(zuuluu, entity, michal);
     entity = 0;
-    report = tango[entity];
-    mike = argBar;
+    report = tangon[entity];
+    michal = argBar;
     entity = undefined;
-    oscar = mike.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    mike = 'modules/guild_scheduled_events/guildEventDetailsParser.native.tsx';
-    mike = report.bind(oscar)(mike);
-    mike = 1;
-    tango = tango[mike];
-    mike = argBaz;
-    mike = mike.bind(entity)(tango);
-    mike = mike.parseGuildEventDescription;
-    zulu['guildEventDetailsParser'] = mike;
+    oscard = michal.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    michal = 'modules/guild_scheduled_events/guildEventDetailsParser.native.tsx';
+    michal = report.bind(oscard)(michal);
+    michal = 1;
+    tangon = tangon[michal];
+    michal = argBaz;
+    michal = michal.bind(entity)(tangon);
+    michal = michal.parseGuildEventDescription;
+    zuuluu['guildEventDetailsParser'] = michal;
     return entity;
 })();

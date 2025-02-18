@@ -1,49 +1,49 @@
 // app/modules/headless_tasks/android/MarkAsRead.tsx
-export default (function(argFoo, argBar, _, __, argGrault, ___, argPlugh) {
-    zulu = argBar;
-    mike = argPlugh;
-    var _closure1_slot0 = zulu;
-    var _closure1_slot1 = mike;
-    tango = function(argFoo) {
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = global;
-        zulu = mike.Promise;
-        mike = zulu.prototype;
-        mike = Object.create(mike, {constructor: {value: zulu}});
-        tango = function(argFoo) {
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+export default (function(argFoo, argBar, _, __, argGra, ___, argPlu) {
+    zuuluu = argBar;
+    michal = argPlu;
+    var _closure1_slot0 = zuuluu;
+    var _closure1_slot1 = michal;
+    tangon = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = global;
+        zuuluu = michal.Promise;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        tangon = function(argFoo) {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 0;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            oscar = zulu.bind(entity)(mike);
-            report = oscar.ack;
-            mike = _closure2_slot0;
-            offset = mike.channelId;
-            golf = mike.messageId;
-            zulu = true;
-            yankee = oscar;
+            oscard = zuuluu.bind(entity)(michal);
+            report = oscard.ack;
+            michal = _closure2_slot0;
+            offset = michal.channelId;
+            golfie = michal.messageId;
+            zuuluu = true;
+            yankee = oscard;
             verify = true;
-            options = true;
-            mike = yankee[report](offset, verify, options, golf, oscar);
-            mike = argFoo;
-            mike = mike.bind(entity)(zulu);
+            option = true;
+            michal = yankee[report](offset, verify, option, golfie, oscard);
+            michal = argFoo;
+            michal = michal.bind(entity)(zuuluu);
             return entity;
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    entity = argGrault;
-    entity['exports'] = tango;
+    entity = argGra;
+    entity['exports'] = tangon;
     entity = 1;
-    mike = mike[entity];
+    michal = michal[entity];
     entity = undefined;
-    tango = zulu.bind(entity)(mike);
-    zulu = tango.fileFinishedImporting;
-    mike = 'modules/headless_tasks/android/MarkAsRead.tsx';
-    mike = zulu.bind(tango)(mike);
+    tangon = zuuluu.bind(entity)(michal);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'modules/headless_tasks/android/MarkAsRead.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

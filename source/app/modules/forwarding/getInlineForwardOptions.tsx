@@ -1,131 +1,131 @@
 // app/modules/forwarding/getInlineForwardOptions.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.MessageReferenceTypes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forwarding/getInlineForwardOptions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getInlineForwardOptions
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MessageReferenceTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forwarding/getInlineForwardOptions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getInlineForwardOptions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = argBar;
-            report = mike.targetKind;
-            oscar = mike.embedIndex;
-            mike = 'media';
-            if(!(mike !== report)) { _fun00002_ip = 78; continue _fun00001 }
+            michal = argBar;
+            report = michal.targetKind;
+            oscard = michal.embedIndex;
+            michal = 'media';
+            if(!(michal !== report)) { _fun00002_ip = 78; continue _fun00001 }
  30:
-            mike = 'embed';
-            if(!(mike === report)) { _fun00002_ip = 44; continue _fun00001 }
+            michal = 'embed';
+            if(!(michal === report)) { _fun00002_ip = 44; continue _fun00001 }
  38:
-            mike = null;
-            if(!(mike == oscar)) { _fun00002_ip = 58; continue _fun00001 }
+            michal = null;
+            if(!(michal == oscard)) { _fun00002_ip = 58; continue _fun00001 }
  44:
-            tango = 'shortcut';
-            mike = undefined;
-            if(!(tango === report)) { _fun00002_ip = 56; continue _fun00001 }
+            tangon = 'shortcut';
+            michal = undefined;
+            if(!(tangon === report)) { _fun00002_ip = 56; continue _fun00001 }
  54:
-            mike = {};
+            michal = {};
  56:
             _fun00002_ip = 76; continue _fun00001;
  58:
-            tango = {};
+            tangon = {};
             report = new Array(1);
-            report[0] = oscar;
-            tango['onlyEmbedIndices'] = report;
-            mike = tango;
+            report[0] = oscard;
+            tangon['onlyEmbedIndices'] = report;
+            michal = tangon;
  76:
-            return mike;
+            return michal;
  78:
-            tango = entity.messageReference;
+            tangon = entity.messageReference;
             report = null;
-            oscar = report == tango;
-            golf = undefined;
-            if(oscar) { _fun00002_ip = 100; continue _fun00001 }
+            oscard = report == tangon;
+            golfie = undefined;
+            if(oscard) { _fun00002_ip = 100; continue _fun00001 }
  95:
-            golf = tango.type;
+            golfie = tangon.type;
  100:
-            tango = _closure1_slot2;
-            oscar = tango.FORWARD;
-            tango = entity;
-            if(!(golf === oscar)) { _fun00002_ip = 149; continue _fun00001 }
+            tangon = _closure1_slot2;
+            oscard = tangon.FORWARD;
+            tangon = entity;
+            if(!(golfie === oscard)) { _fun00002_ip = 149; continue _fun00001 }
  120:
-            oscar = entity.messageSnapshots;
+            oscard = entity.messageSnapshots;
             entity = 0;
-            oscar = oscar[entity];
-            golf = report == oscar;
+            oscard = oscard[entity];
+            golfie = report == oscard;
             entity = undefined;
-            if(golf) { _fun00002_ip = 146; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 146; continue _fun00001 }
  141:
-            entity = oscar.message;
+            entity = oscard.message;
  146:
-            tango = entity;
+            tangon = entity;
  149:
             entity = {};
-            report = report == tango;
-            mike = undefined;
+            report = report == tangon;
+            michal = undefined;
             if(report) { _fun00002_ip = 200; continue _fun00001 }
  160:
-            oscar = tango.attachments;
-            report = oscar.filter;
-            tango = function(argFoo) {
+            oscard = tangon.attachments;
+            report = oscard.filter;
+            tangon = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
-                    tango = entity.filename;
-                    zulu = _closure1_slot0;
+                    tangon = entity.filename;
+                    zuuluu = _closure1_slot0;
                     entity = _closure1_slot1;
-                    oscar = 1;
-                    entity = entity[oscar];
+                    oscard = 1;
+                    entity = entity[oscard];
                     report = undefined;
-                    zulu = zulu.bind(report)(entity);
-                    entity = zulu.isImageFile;
-                    entity = entity.bind(zulu)(tango);
+                    zuuluu = zuuluu.bind(report)(entity);
+                    entity = zuuluu.isImageFile;
+                    entity = entity.bind(zuuluu)(tangon);
                     if(entity) { _fun00004_ip = 76; continue _fun00003 }
  48:
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    mike = mike[oscar];
-                    zulu = zulu.bind(report)(mike);
-                    mike = zulu.isVideoFile;
-                    entity = mike.bind(zulu)(tango);
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    michal = michal[oscard];
+                    zuuluu = zuuluu.bind(report)(michal);
+                    michal = zuuluu.isVideoFile;
+                    entity = michal.bind(zuuluu)(tangon);
  76:
                     return entity;
                 }
             };
-            report = report.bind(oscar)(tango);
-            tango = report.map;
-            zulu = function(argFoo) {
+            report = report.bind(oscard)(tangon);
+            tangon = report.map;
+            zuuluu = function(argFoo) {
                 entity = argFoo;
                 entity = entity.id;
                 return entity;
             };
-            mike = tango.bind(report)(zulu);
+            michal = tangon.bind(report)(zuuluu);
  200:
-            entity['onlyAttachmentIds'] = mike;
+            entity['onlyAttachmentIds'] = michal;
             return entity;
         }
     };
-    zulu['getInlineForwardOptions'] = mike;
+    zuuluu['getInlineForwardOptions'] = michal;
     return entity;
 })();

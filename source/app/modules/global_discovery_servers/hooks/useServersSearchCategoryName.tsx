@@ -1,152 +1,152 @@
 // app/modules/global_discovery_servers/hooks/useServersSearchCategoryName.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo) { // Original name: getServersSearchCategoryName
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = arguments[1];
-            oscar = undefined;
-            if(!(zulu === oscar)) { _fun00002_ip = 30; continue _fun00001 }
+            tangon = argFoo;
+            zuuluu = arguments[1];
+            oscard = undefined;
+            if(!(zuuluu === oscard)) { _fun00002_ip = 30; continue _fun00001 }
  12:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = new Array(1);
-            entity[0] = mike;
-            zulu = entity;
+            entity[0] = michal;
+            zuuluu = entity;
  30:
-            mike = zulu;
-            entity = mike[Symbol.iterator];
-            mike = entity().next;
-            report = mike().value;
-            mike = entity;
-            mike = mike === oscar;
-            zulu = undefined;
-            if(mike) { _fun00002_ip = 55; continue _fun00001 }
+            michal = zuuluu;
+            entity = michal[Symbol.iterator];
+            michal = entity().next;
+            report = michal().value;
+            michal = entity;
+            michal = michal === oscard;
+            zuuluu = undefined;
+            if(michal) { _fun00002_ip = 55; continue _fun00001 }
  52:
-            zulu = report;
+            zuuluu = report;
  55:
-            if(mike) { _fun00002_ip = 61; continue _fun00001 }
+            if(michal) { _fun00002_ip = 61; continue _fun00001 }
  58:
             entity.return();
  61:
             entity = _closure1_slot3;
-            if(!(tango !== entity)) { _fun00002_ip = 87; continue _fun00001 }
+            if(!(tangon !== entity)) { _fun00002_ip = 87; continue _fun00001 }
  72:
-            entity = zulu.getCategoryName;
-            entity = entity.bind(zulu)(tango);
+            entity = zuuluu.getCategoryName;
+            entity = entity.bind(zuuluu)(tangon);
             _fun00002_ip = 144; continue _fun00001;
  87:
             report = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 2;
-            zulu = golf[mike];
-            zulu = report.bind(oscar)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = report.bind(oscar)(mike);
-            mike = mike.t;
-            mike = mike.Omu0fX;
-            entity = zulu.bind(tango)(mike);
+            golfie = _closure1_slot1;
+            michal = 2;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = report.bind(oscard)(michal);
+            michal = michal.t;
+            michal = michal.Omu0fX;
+            entity = zuuluu.bind(tangon)(michal);
  144:
             return entity;
         }
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.DISCOVERY_ALL_CATEGORIES_ID;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/global_discovery_servers/hooks/useServersSearchCategoryName.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useServersSearchCategoryName
-        mike = argFoo;
-        mike = mike.categoryId;
-        var _closure2_slot0 = mike;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DISCOVERY_ALL_CATEGORIES_ID;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/global_discovery_servers/hooks/useServersSearchCategoryName.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useServersSearchCategoryName
+        michal = argFoo;
+        michal = michal.categoryId;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            tango = _closure1_slot4;
-            zulu = _closure2_slot0;
+            tangon = _closure1_slot4;
+            zuuluu = _closure2_slot0;
             entity = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useServersSearchCategoryName'] = tango;
-    mike = function(argFoo) { // Original name: useServersSearchCategoryNamesById
-        mike = argFoo;
-        mike = mike.categoryIds;
-        var _closure2_slot0 = mike;
+    zuuluu['useServersSearchCategoryName'] = tangon;
+    michal = function(argFoo) { // Original name: useServersSearchCategoryNamesById
+        michal = argFoo;
+        michal = michal.categoryIds;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStoresObject;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             entity = {};
             var _closure3_slot0 = entity;
-            tango = _closure2_slot0;
-            zulu = tango.forEach;
-            mike = function(argFoo) {
-                tango = argFoo;
-                zulu = _closure3_slot0;
+            tangon = _closure2_slot0;
+            zuuluu = tangon.forEach;
+            michal = function(argFoo) {
+                tangon = argFoo;
+                zuuluu = _closure3_slot0;
                 report = _closure1_slot4;
                 entity = _closure1_slot2;
-                mike = new Array(1);
-                mike[0] = entity;
+                michal = new Array(1);
+                michal[0] = entity;
                 entity = undefined;
-                mike = report.bind(entity)(tango, mike);
-                zulu[tango] = mike;
+                michal = report.bind(entity)(tangon, michal);
+                zuuluu[tangon] = michal;
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useServersSearchCategoryNamesById'] = mike;
+    zuuluu['useServersSearchCategoryNamesById'] = michal;
     return entity;
 })();

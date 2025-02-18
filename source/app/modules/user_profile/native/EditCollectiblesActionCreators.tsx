@@ -1,63 +1,63 @@
 // app/modules/user_profile/native/EditCollectiblesActionCreators.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.UserSettingsSections;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_profile/native/EditCollectiblesActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.UserSettingsSections;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/native/EditCollectiblesActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.getRootNavigationRef;
-            report = zulu.bind(tango)();
-            zulu = null;
-            zulu = zulu != report;
-            if(!zulu) { _fun00002_ip = 54; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.getRootNavigationRef;
+            report = zuuluu.bind(tangon)();
+            zuuluu = null;
+            zuuluu = zuuluu != report;
+            if(!zuuluu) { _fun00002_ip = 54; continue _fun00001 }
  44:
-            tango = report.isReady;
-            zulu = tango.bind(report)();
+            tangon = report.isReady;
+            zuuluu = tangon.bind(report)();
  54:
-            if(!zulu) { _fun00002_ip = 97; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 97; continue _fun00001 }
  57:
-            tango = report.navigate;
-            zulu = {};
-            mike = _closure1_slot2;
-            mike = mike.PREMIUM;
-            zulu['screen'] = mike;
-            mike = {};
-            zulu['params'] = mike;
-            mike = 'settings';
-            mike = tango.bind(report)(mike, zulu);
+            tangon = report.navigate;
+            zuuluu = {};
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM;
+            zuuluu['screen'] = michal;
+            michal = {};
+            zuuluu['params'] = michal;
+            michal = 'settings';
+            michal = tangon.bind(report)(michal, zuuluu);
  97:
             return entity;
         }
     };
-    zulu['navigateToNitroManagement'] = mike;
+    zuuluu['navigateToNitroManagement'] = michal;
     return entity;
 })();

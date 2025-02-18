@@ -1,74 +1,74 @@
 // app/modules/stickers/native/StickerPickerStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(tango);
-    tango = golf.create;
-    mike = function(argFoo) {
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.create;
+    michal = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
         entity = {};
-        zulu = null;
-        entity['packToScrollTo'] = zulu;
-        mike = function(argFoo) { // Original name: setPackToScrollTo
-            mike = argFoo;
-            var _closure3_slot0 = mike;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = tango.bind(mike)(zulu);
-            mike = zulu.batchUpdates;
+        zuuluu = null;
+        entity['packToScrollTo'] = zuuluu;
+        michal = function(argFoo) { // Original name: setPackToScrollTo
+            michal = argFoo;
+            var _closure3_slot0 = michal;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.batchUpdates;
             entity = function() {
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = undefined;
-                mike = function(argFoo) {
+                michal = function(argFoo) {
                     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         entity = argFoo;
-                        tango = entity.packToScrollTo;
-                        mike = _closure3_slot0;
-                        if(!(tango !== mike)) { _fun00002_ip = 34; continue _fun00001 }
+                        tangon = entity.packToScrollTo;
+                        michal = _closure3_slot0;
+                        if(!(tangon !== michal)) { _fun00002_ip = 34; continue _fun00001 }
  20:
-                        mike = {};
-                        zulu = _closure3_slot0;
-                        mike['packToScrollTo'] = zulu;
-                        entity = mike;
+                        michal = {};
+                        zuuluu = _closure3_slot0;
+                        michal['packToScrollTo'] = zuuluu;
+                        entity = michal;
  34:
                         return entity;
                     }
                 };
-                mike = zulu.bind(entity)(mike);
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['setPackToScrollTo'] = mike;
+        entity['setPackToScrollTo'] = michal;
         return entity;
     };
-    mike = tango.bind(golf)(mike);
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stickers/native/StickerPickerStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['useStickerPickerStore'] = mike;
+    michal = tangon.bind(golfie)(michal);
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stickers/native/StickerPickerStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['useStickerPickerStore'] = michal;
     return entity;
 })();

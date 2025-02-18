@@ -1,76 +1,76 @@
 // app/modules/media_channel/useCanSetThumbnail.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_channel/useCanSetThumbnail.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useCanSetThumbnail
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_channel/useCanSetThumbnail.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useCanSetThumbnail
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
-            zulu = argFoo;
-            var _closure2_slot0 = zulu;
-            oscar = _closure1_slot0;
+            michal = argBar;
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 1;
-            report = report[zulu];
-            zulu = undefined;
-            oscar = oscar.bind(zulu)(report);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = golf;
+            zuuluu = 1;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            oscard = oscard.bind(zuuluu)(report);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = golfie;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getChannel;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getChannel;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            oscar = report.bind(oscar)(tango, entity);
-            tango = null;
-            report = tango == oscar;
+            oscard = report.bind(oscard)(tangon, entity);
+            tangon = null;
+            report = tangon == oscard;
             entity = undefined;
             if(report) { _fun00002_ip = 86; continue _fun00001 }
  76:
-            report = oscar.isMediaChannel;
-            entity = report.bind(oscar)();
+            report = oscard.isMediaChannel;
+            entity = report.bind(oscard)();
  86:
             if(!entity) { _fun00002_ip = 110; continue _fun00001 }
  89:
-            tango = tango == mike;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 104; continue _fun00001 }
+            tangon = tangon == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 104; continue _fun00001 }
  98:
-            zulu = mike.isImage;
+            zuuluu = michal.isImage;
  104:
-            mike = true;
-            entity = mike === zulu;
+            michal = true;
+            entity = michal === zuuluu;
  110:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

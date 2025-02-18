@@ -1,77 +1,77 @@
 // app/uikit-native/ThrottledButton.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = golf;
-    mike = function() { // Original name: useThrottledActionHandler
+    var _closure1_slot1 = golfie;
+    michal = function() { // Original name: useThrottledActionHandler
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = arguments[0];
-            mike = undefined;
-            if(!(zulu === mike)) { _fun00002_ip = 18; continue _fun00001 }
+            zuuluu = arguments[0];
+            michal = undefined;
+            if(!(zuuluu === michal)) { _fun00002_ip = 18; continue _fun00001 }
  11:
-            zulu = _closure1_slot4;
+            zuuluu = _closure1_slot4;
  18:
-            var _closure2_slot0 = zulu;
-            var _closure2_slot1 = mike;
+            var _closure2_slot0 = zuuluu;
+            var _closure2_slot1 = michal;
             report = _closure1_slot2;
-            tango = report.useRef;
-            zulu = null;
-            zulu = tango.bind(report)(zulu);
-            _closure2_slot1 = zulu;
+            tangon = report.useRef;
+            zuuluu = null;
+            zuuluu = tangon.bind(report)(zuuluu);
+            _closure2_slot1 = zuuluu;
             report = _closure1_slot2;
-            tango = report.useEffect;
-            zulu = function() {
+            tangon = report.useEffect;
+            zuuluu = function() {
                 entity = function() {
                     entity = global;
-                    zulu = entity.clearTimeout;
+                    zuuluu = entity.clearTimeout;
                     entity = _closure2_slot1;
-                    mike = entity.current;
+                    michal = entity.current;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
                     return entity;
                 };
                 return entity;
             };
-            mike = new Array(0);
-            mike = tango.bind(report)(zulu, mike);
+            michal = new Array(0);
+            michal = tangon.bind(report)(zuuluu, michal);
             entity = function(argFoo) {
-                mike = argFoo;
-                var _closure3_slot0 = mike;
+                michal = argFoo;
+                var _closure3_slot0 = michal;
                 entity = function(argFoo) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        mike = _closure3_slot0;
-                        tango = null;
-                        mike = tango != mike;
-                        if(!mike) { _fun00004_ip = 32; continue _fun00003 }
+                        michal = _closure3_slot0;
+                        tangon = null;
+                        michal = tangon != michal;
+                        if(!michal) { _fun00004_ip = 32; continue _fun00003 }
  16:
-                        zulu = _closure2_slot1;
-                        zulu = zulu.current;
-                        mike = tango === zulu;
+                        zuuluu = _closure2_slot1;
+                        zuuluu = zuuluu.current;
+                        michal = tangon === zuuluu;
  32:
-                        if(!mike) { _fun00004_ip = 87; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 87; continue _fun00003 }
  35:
-                        mike = _closure3_slot0;
+                        michal = _closure3_slot0;
                         report = undefined;
                         entity = argFoo;
-                        entity = mike.bind(report)(entity);
-                        mike = _closure2_slot1;
-                        zulu = global;
-                        tango = zulu.setTimeout;
-                        zulu = _closure2_slot0;
+                        entity = michal.bind(report)(entity);
+                        michal = _closure2_slot1;
+                        zuuluu = global;
+                        tangon = zuuluu.setTimeout;
+                        zuuluu = _closure2_slot0;
                         entity = function() {
-                            mike = _closure2_slot1;
+                            michal = _closure2_slot1;
                             entity = null;
-                            mike['current'] = entity;
+                            michal['current'] = entity;
                             entity = undefined;
                             return entity;
                         };
-                        entity = tango.bind(report)(entity, zulu);
-                        mike['current'] = entity;
+                        entity = tangon.bind(report)(entity, zuuluu);
+                        michal['current'] = entity;
  87:
                         entity = undefined;
                         return entity;
@@ -82,80 +82,80 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return entity;
         }
     };
-    var _closure1_slot5 = mike;
+    var _closure1_slot5 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot3 = report;
     report = 500;
     var _closure1_slot4 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'uikit-native/ThrottledButton.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: ThrottledButton
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: ThrottledButton
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
-            options = report.onPress;
-            golf = report.onPressIn;
-            oscar = report.onPressOut;
-            zulu = report.throttleMs;
-            tango = undefined;
-            if(!(zulu === tango)) { _fun00006_ip = 39; continue _fun00005 }
+            option = report.onPress;
+            golfie = report.onPressIn;
+            oscard = report.onPressOut;
+            zuuluu = report.throttleMs;
+            tangon = undefined;
+            if(!(zuuluu === tangon)) { _fun00006_ip = 39; continue _fun00005 }
  32:
-            zulu = _closure1_slot4;
+            zuuluu = _closure1_slot4;
  39:
-            mike = {'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'throttleMs': 0};
-            romeo = null;
-            foxtrot = mike;
-            entity = silentSetPrototypeOf(foxtrot, romeo);
-            foxtrot = {};
-            romeo = report;
-            yankee = mike;
-            romeo = copyDataProperties(foxtrot, romeo, yankee);
-            mike = _closure1_slot5;
-            report = mike.bind(tango)(zulu);
-            zulu = _closure1_slot3;
-            mike = _closure1_slot0;
+            michal = {'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'throttleMs': 0};
+            romeon = null;
+            foxtra = michal;
+            entity = silentSetPrototypeOf(foxtra, romeon);
+            foxtra = {};
+            romeon = report;
+            yankee = michal;
+            romeon = copyDataProperties(foxtra, romeon, yankee);
+            michal = _closure1_slot5;
+            report = michal.bind(tangon)(zuuluu);
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot0;
             offset = _closure1_slot1;
             entity = 2;
             entity = offset[entity];
-            mike = mike.bind(tango)(entity);
+            michal = michal.bind(tangon)(entity);
             entity = {};
-            foxtrot = entity;
-            verify = copyDataProperties(foxtrot, romeo);
-            verify = report.bind(tango)(options);
-            options = 'onPress';
-            entity[options] = verify;
-            options = report.bind(tango)(golf);
-            golf = 'onPressIn';
-            entity[golf] = options;
-            oscar = report.bind(tango)(oscar);
+            foxtra = entity;
+            verify = copyDataProperties(foxtra, romeon);
+            verify = report.bind(tangon)(option);
+            option = 'onPress';
+            entity[option] = verify;
+            option = report.bind(tangon)(golfie);
+            golfie = 'onPressIn';
+            entity[golfie] = option;
+            oscard = report.bind(tangon)(oscard);
             report = 'onPressOut';
-            entity[report] = oscar;
-            entity = zulu.bind(tango)(mike, entity);
+            entity[report] = oscard;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    zulu['useThrottledActionHandler'] = mike;
+    zuuluu['default'] = tangon;
+    zuuluu['useThrottledActionHandler'] = michal;
     return entity;
 })();

@@ -1,80 +1,80 @@
 // app/modules/fastest_list/FastestListExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
-    romeo = true;
-    tango['value'] = romeo;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    verify = report.bind(entity)(tango);
-    options = verify.createExperiment;
-    golf = {'kind': 'user', 'id': '2024-06_fastest_list', 'label': 'Fastest List'};
-    tango = {};
-    foxtrot = false;
-    tango['enabled'] = foxtrot;
-    golf['defaultConfig'] = tango;
+    verify = report.bind(entity)(tangon);
+    option = verify.createExperiment;
+    golfie = {'kind': 'user', 'id': '2024-06_fastest_list', 'label': 'Fastest List'};
+    tangon = {};
+    foxtra = false;
+    tangon['enabled'] = foxtra;
+    golfie['defaultConfig'] = tangon;
     yankee = {'id': 1, 'label': 'Enable FastestList component.'};
-    tango = 1;
+    tangon = 1;
     offset = {};
-    offset['enabled'] = romeo;
+    offset['enabled'] = romeon;
     yankee['config'] = offset;
     offset = new Array(5);
     offset[0] = yankee;
     yankee = {'id': 2, 'label': 'Reserved 1'};
-    romeo = {};
-    romeo['enabled'] = foxtrot;
-    yankee['config'] = romeo;
+    romeon = {};
+    romeon['enabled'] = foxtra;
+    yankee['config'] = romeon;
     offset[1] = yankee;
     yankee = {'id': 3, 'label': 'Reserved 2'};
-    romeo = {};
-    romeo['enabled'] = foxtrot;
-    yankee['config'] = romeo;
+    romeon = {};
+    romeon['enabled'] = foxtra;
+    yankee['config'] = romeon;
     offset[2] = yankee;
     yankee = {'id': 4, 'label': 'Reserved 3'};
-    romeo = {};
-    romeo['enabled'] = foxtrot;
-    yankee['config'] = romeo;
+    romeon = {};
+    romeon['enabled'] = foxtra;
+    yankee['config'] = romeon;
     offset[3] = yankee;
     yankee = {'id': 5, 'label': 'Reserved 4'};
-    romeo = {};
-    romeo['enabled'] = foxtrot;
-    yankee['config'] = romeo;
+    romeon = {};
+    romeon['enabled'] = foxtra;
+    yankee['config'] = romeon;
     offset[4] = yankee;
-    golf['treatments'] = offset;
-    golf = options.bind(verify)(golf);
-    var _closure1_slot0 = golf;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/FastestListExperiment.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: isFastestListEnabled
+    golfie['treatments'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot0 = golfie;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/FastestListExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: isFastestListEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = arguments[0];
+            zuuluu = arguments[0];
             entity = undefined;
-            if(!(zulu === entity)) { _fun00002_ip = 22; continue _fun00001 }
+            if(!(zuuluu === entity)) { _fun00002_ip = 22; continue _fun00001 }
  9:
             entity = {};
-            mike = 'isFastestListEnabled';
-            entity['location'] = mike;
-            zulu = entity;
+            michal = 'isFastestListEnabled';
+            entity['location'] = michal;
+            zuuluu = entity;
  22:
-            mike = _closure1_slot0;
-            entity = mike.getCurrentConfig;
-            entity = entity.bind(mike)(zulu);
+            michal = _closure1_slot0;
+            entity = michal.getCurrentConfig;
+            entity = entity.bind(michal)(zuuluu);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['isFastestListEnabled'] = mike;
+    zuuluu['isFastestListEnabled'] = michal;
     return entity;
 })();

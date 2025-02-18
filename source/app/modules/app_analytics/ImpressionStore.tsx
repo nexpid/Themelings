@@ -1,199 +1,199 @@
 // app/modules/app_analytics/ImpressionStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
-    tango = true;
-    report['value'] = tango;
-    tango = '__esModule';
-    tango = options.bind(verify)(zulu, tango, report);
+    tangon = true;
+    report['value'] = tangon;
+    tangon = '__esModule';
+    tangon = option.bind(verify)(zuuluu, tangon, report);
     report = entity.Object;
-    tango = report.freeze;
+    tangon = report.freeze;
     entity = {};
-    options = null;
-    entity['debugTrackedData'] = options;
-    options = new Array(0);
-    entity['impressions'] = options;
-    entity = tango.bind(report)(entity);
+    option = null;
+    entity['debugTrackedData'] = option;
+    option = new Array(0);
+    entity['impressions'] = option;
+    entity = tangon.bind(report)(entity);
     var _closure1_slot2 = entity;
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.createWithEqualityFn;
-    tango = function() {
+    option = oscard.bind(entity)(tangon);
+    report = option.createWithEqualityFn;
+    tangon = function() {
         entity = _closure1_slot2;
         return entity;
     };
-    tango = report.bind(options)(tango);
-    var _closure1_slot3 = tango;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/app_analytics/ImpressionStore.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                mike = argFoo;
-                oscar = mike.impressions;
-                mike = new Array(1);
+                michal = argFoo;
+                oscard = michal.impressions;
+                michal = new Array(1);
                 report = 0;
-                golf = mike;
-                tango = arraySpread(golf, oscar, report);
-                zulu = _closure2_slot0;
-                mike[tango] = zulu;
-                zulu = 1;
-                zulu = tango + zulu;
-                entity['impressions'] = mike;
+                golfie = michal;
+                tangon = arraySpread(golfie, oscard, report);
+                zuuluu = _closure2_slot0;
+                michal[tangon] = zuuluu;
+                zuuluu = 1;
+                zuuluu = tangon + zuuluu;
+                entity['impressions'] = michal;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setCurrentImpression'] = report;
+    zuuluu['setCurrentImpression'] = report;
     report = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = function(argFoo) {
                 entity = {};
-                mike = argFoo;
-                tango = mike.impressions;
-                zulu = tango.filter;
-                mike = function(argFoo) {
+                michal = argFoo;
+                tangon = michal.impressions;
+                zuuluu = tangon.filter;
+                michal = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.sequenceId;
+                    michal = entity.sequenceId;
                     entity = _closure2_slot0;
                     entity = entity.sequenceId;
-                    entity = mike !== entity;
+                    entity = michal !== entity;
                     return entity;
                 };
-                mike = zulu.bind(tango)(mike);
-                entity['impressions'] = mike;
+                michal = zuuluu.bind(tangon)(michal);
+                entity['impressions'] = michal;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['cleanupImpression'] = report;
+    zuuluu['cleanupImpression'] = report;
     report = function(argFoo, argBar) {
         entity = argFoo;
         var _closure2_slot0 = entity;
         entity = argBar;
         var _closure2_slot1 = entity;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 1;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.batchUpdates;
-        mike = function() {
-            zulu = _closure1_slot3;
-            mike = zulu.setState;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
             entity = function() {
                 entity = {};
-                mike = {};
-                tango = _closure2_slot0;
-                mike['name'] = tango;
+                michal = {};
+                tangon = _closure2_slot0;
+                michal['name'] = tangon;
                 report = _closure2_slot1;
-                oscar = mike;
-                zulu = copyDataProperties(oscar, report);
-                entity['debugTrackedData'] = mike;
+                oscard = michal;
+                zuuluu = copyDataProperties(oscard, report);
+                entity['debugTrackedData'] = michal;
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setDebugTrackedData'] = report;
-    zulu['useImpressionStore'] = tango;
-    tango = function() { // Original name: getLocation
+    zuuluu['setDebugTrackedData'] = report;
+    zuuluu['useImpressionStore'] = tangon;
+    tangon = function() { // Original name: getLocation
         entity = {};
         var _closure2_slot0 = entity;
-        tango = _closure1_slot3;
-        zulu = tango.getState;
-        zulu = zulu.bind(tango)();
-        tango = zulu.impressions;
-        zulu = tango.forEach;
-        mike = function(argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = tangon.getState;
+        zuuluu = zuuluu.bind(tangon)();
+        tangon = zuuluu.impressions;
+        zuuluu = tangon.forEach;
+        michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
-                tango = mike.type;
+                michal = argFoo;
+                tangon = michal.type;
                 report = _closure1_slot0;
-                zulu = _closure1_slot1;
+                zuuluu = _closure1_slot1;
                 entity = 2;
-                zulu = zulu[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                zulu = report.bind(entity)(zulu);
-                zulu = zulu.ImpressionTypes;
-                zulu = zulu.PAGE;
-                if(!(tango !== zulu)) { _fun00002_ip = 69; continue _fun00001 }
+                zuuluu = report.bind(entity)(zuuluu);
+                zuuluu = zuuluu.ImpressionTypes;
+                zuuluu = zuuluu.PAGE;
+                if(!(tangon !== zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
  49:
-                tango = _closure2_slot0;
-                zulu = mike.name;
-                tango['section'] = zulu;
+                tangon = _closure2_slot0;
+                zuuluu = michal.name;
+                tangon['section'] = zuuluu;
                 _fun00002_ip = 87; continue _fun00001;
  69:
-                zulu = _closure2_slot0;
-                mike = mike.name;
-                zulu['page'] = mike;
+                zuuluu = _closure2_slot0;
+                michal = michal.name;
+                zuuluu['page'] = michal;
  87:
                 return entity;
             }
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['getLocation'] = tango;
-    mike = function() { // Original name: getImpressionStack
-        mike = _closure1_slot3;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+    zuuluu['getLocation'] = tangon;
+    michal = function() { // Original name: getImpressionStack
+        michal = _closure1_slot3;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.impressions;
         return entity;
     };
-    zulu['getImpressionStack'] = mike;
+    zuuluu['getImpressionStack'] = michal;
     return entity;
 })();

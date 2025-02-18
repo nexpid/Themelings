@@ -1,64 +1,64 @@
 // app/modules/guild_profile/GuildProfileUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guild_profile/GuildProfileUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: getEstablishedDate
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guild_profile/GuildProfileUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: getEstablishedDate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = null;
             if(!(entity != report)) { _fun00002_ip = 122; continue _fun00001 }
  9:
-            mike = '';
-            if(!(mike !== report)) { _fun00002_ip = 122; continue _fun00001 }
+            michal = '';
+            if(!(michal !== report)) { _fun00002_ip = 122; continue _fun00001 }
  17:
-            zulu = global;
-            mike = zulu.Date;
-            tango = mike.prototype;
-            tango = Object.create(tango, {constructor: {value: mike}});
-            verify = tango;
-            options = report;
-            mike = new verify[mike](options, golf);
-            oscar = mike instanceof Object ? mike : tango;
-            mike = zulu.Date;
-            tango = oscar instanceof mike;
-            mike = null;
-            if(!tango) { _fun00002_ip = 120; continue _fun00001 }
+            zuuluu = global;
+            michal = zuuluu.Date;
+            tangon = michal.prototype;
+            tangon = Object.create(tangon, {constructor: {value: michal}});
+            verify = tangon;
+            option = report;
+            michal = new verify[michal](option, golfie);
+            oscard = michal instanceof Object ? michal : tangon;
+            michal = zuuluu.Date;
+            tangon = oscard instanceof michal;
+            michal = null;
+            if(!tangon) { _fun00002_ip = 120; continue _fun00001 }
  63:
-            report = zulu.isNaN;
-            zulu = oscar.getTime;
-            tango = zulu.bind(oscar)();
-            zulu = undefined;
-            zulu = report.bind(zulu)(tango);
-            mike = null;
-            if(zulu) { _fun00002_ip = 120; continue _fun00001 }
+            report = zuuluu.isNaN;
+            zuuluu = oscard.getTime;
+            tangon = zuuluu.bind(oscard)();
+            zuuluu = undefined;
+            zuuluu = report.bind(zuuluu)(tangon);
+            michal = null;
+            if(zuuluu) { _fun00002_ip = 120; continue _fun00001 }
  91:
-            report = oscar.toLocaleDateString;
-            tango = argBar;
-            zulu = {'year': 'numeric', 'month': 'short'};
-            mike = report.bind(oscar)(tango, zulu);
+            report = oscard.toLocaleDateString;
+            tangon = argBar;
+            zuuluu = {'year': 'numeric', 'month': 'short'};
+            michal = report.bind(oscard)(tangon, zuuluu);
  120:
-            return mike;
+            return michal;
  122:
             return entity;
         }
     };
-    zulu['getEstablishedDate'] = mike;
+    zuuluu['getEstablishedDate'] = michal;
     return entity;
 })();

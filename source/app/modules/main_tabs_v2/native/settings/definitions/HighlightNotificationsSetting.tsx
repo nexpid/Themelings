@@ -1,140 +1,140 @@
 // app/modules/main_tabs_v2/native/settings/definitions/HighlightNotificationsSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    mike = function() { // Original name: useHighlightNotifications
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 4;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function() { // Original name: useHighlightNotifications
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 4;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = global;
-                zulu = entity.Object;
-                mike = zulu.keys;
-                tango = _closure1_slot2;
-                entity = tango.getGuilds;
-                entity = entity.bind(tango)();
-                mike = mike.bind(zulu)(entity);
+                zuuluu = entity.Object;
+                michal = zuuluu.keys;
+                tangon = _closure1_slot2;
+                entity = tangon.getGuilds;
+                entity = entity.bind(tangon)();
+                michal = michal.bind(zuuluu)(entity);
                 entity = null;
-                tango = entity == mike;
-                zulu = undefined;
-                if(tango) { _fun00002_ip = 51; continue _fun00001 }
+                tangon = entity == michal;
+                zuuluu = undefined;
+                if(tangon) { _fun00002_ip = 51; continue _fun00001 }
  46:
-                zulu = mike.length;
+                zuuluu = michal.length;
  51:
-                tango = entity != zulu;
-                mike = 0;
+                tangon = entity != zuuluu;
+                michal = 0;
                 entity = 0;
-                if(!tango) { _fun00002_ip = 65; continue _fun00001 }
+                if(!tangon) { _fun00002_ip = 65; continue _fun00001 }
  62:
-                entity = zulu;
+                entity = zuuluu;
  65:
-                entity = entity > mike;
+                entity = entity > michal;
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
     entity = global;
     verify = entity.Object;
     report = verify.defineProperty;
-    tango = {};
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(verify)(zulu, entity, tango);
+    entity = report.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argBaz;
+    report = golfie[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    report = tango.MobileSetting;
-    tango = 2;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    offset = tango.RendererType;
-    tango = 3;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    verify = tango.UserSettingsSections;
-    tango = {};
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.MobileSetting;
+    tangon = 2;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    offset = tangon.RendererType;
+    tangon = 3;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    verify = tangon.UserSettingsSections;
+    tangon = {};
     offset = offset.ROUTE;
-    tango['type'] = offset;
+    tangon['type'] = offset;
     offset = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.o8Bypq;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['title'] = offset;
+    tangon['title'] = offset;
     report = report.NOTIFICATIONS;
-    tango['parent'] = report;
+    tangon['parent'] = report;
     report = function() { // Original name: useDescription
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.Vw/Xn5;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tango['useDescription'] = report;
-    tango['usePredicate'] = mike;
+    tangon['useDescription'] = report;
+    tangon['usePredicate'] = michal;
     report = {};
     verify = verify.HIGHLIGHT_NOTIFICATIONS;
     report['route'] = verify;
-    options = function() { // Original name: getComponent
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    option = function() { // Original name: getComponent
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 6;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         entity = entity.default;
         return entity;
     };
-    report['getComponent'] = options;
-    tango['screen'] = report;
+    report['getComponent'] = option;
+    tangon['screen'] = report;
     report = 7;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/main_tabs_v2/native/settings/definitions/HighlightNotificationsSetting.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['useHighlightNotifications'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['useHighlightNotifications'] = michal;
     return entity;
 })();

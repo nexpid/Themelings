@@ -1,57 +1,57 @@
 // discord_common/js/packages/media-engine/webrtc/VideoStreams.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = {};
     var _closure1_slot2 = entity;
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/webrtc/VideoStreams.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: registerVideoStream
-        zulu = _closure1_slot0;
-        tango = _closure1_slot1;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/webrtc/VideoStreams.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: registerVideoStream
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot1;
         entity = 0;
-        entity = tango[entity];
-        tango = undefined;
-        zulu = zulu.bind(tango)(entity);
+        entity = tangon[entity];
+        tangon = undefined;
+        zuuluu = zuuluu.bind(tangon)(entity);
         entity = 'VideoStream';
-        entity = zulu.bind(tango)(entity);
-        zulu = _closure1_slot2;
-        mike = argFoo;
-        zulu[entity] = mike;
+        entity = zuuluu.bind(tangon)(entity);
+        zuuluu = _closure1_slot2;
+        michal = argFoo;
+        zuuluu[entity] = michal;
         return entity;
     };
-    zulu['registerVideoStream'] = tango;
-    tango = function(argFoo) { // Original name: unregisterVideoStream
-        mike = _closure1_slot2;
+    zuuluu['registerVideoStream'] = tangon;
+    tangon = function(argFoo) { // Original name: unregisterVideoStream
+        michal = _closure1_slot2;
         entity = argFoo;
-        entity = delete mike[entity];
+        entity = delete michal[entity];
         entity = undefined;
         return entity;
     };
-    zulu['unregisterVideoStream'] = tango;
-    mike = function(argFoo) { // Original name: getVideoStream
-        mike = _closure1_slot2;
+    zuuluu['unregisterVideoStream'] = tangon;
+    michal = function(argFoo) { // Original name: getVideoStream
+        michal = _closure1_slot2;
         entity = argFoo;
-        entity = mike[entity];
+        entity = michal[entity];
         return entity;
     };
-    zulu['getVideoStream'] = mike;
+    zuuluu['getVideoStream'] = michal;
     return entity;
 })();

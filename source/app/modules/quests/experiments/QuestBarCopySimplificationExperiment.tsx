@@ -1,64 +1,64 @@
 // app/modules/quests/experiments/QuestBarCopySimplificationExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
-    romeo = true;
-    tango['value'] = romeo;
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    verify = oscar.bind(entity)(tango);
-    options = verify.createExperiment;
-    tango = {'id': '2025-01_quest_bar_copy_simplification', 'kind': 'user', 'label': 'Quest Bar Copy Simplification'};
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'id': '2025-01_quest_bar_copy_simplification', 'kind': 'user', 'label': 'Quest Bar Copy Simplification'};
     report = {};
     offset = false;
     report['enabled'] = offset;
-    tango['defaultConfig'] = report;
+    tangon['defaultConfig'] = report;
     yankee = {'id': 1, 'label': 'Simplified copy'};
     report = 1;
     offset = {};
-    offset['enabled'] = romeo;
+    offset['enabled'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
-    tango['treatments'] = offset;
-    tango = options.bind(verify)(tango);
-    var _closure1_slot0 = tango;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot0 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/quests/experiments/QuestBarCopySimplificationExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['QuestBarCopySimplification'] = tango;
-    mike = function(argFoo) { // Original name: useIsQuestBarCopySimplificationEnabled
+    report = oscard.bind(golfie)(report);
+    zuuluu['QuestBarCopySimplification'] = tangon;
+    michal = function(argFoo) { // Original name: useIsQuestBarCopySimplificationEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.location;
-            report = mike.autoTrackExposure;
-            mike = undefined;
-            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
-            mike['location'] = entity;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useIsQuestBarCopySimplificationEnabled'] = mike;
+    zuuluu['useIsQuestBarCopySimplificationEnabled'] = michal;
     return entity;
 })();

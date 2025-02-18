@@ -1,100 +1,100 @@
 // app/modules/voice_messages/downsampleWaveform.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_messages/downsampleWaveform.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: downsampleWaveform
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_messages/downsampleWaveform.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: downsampleWaveform
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = argBar;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            options = 0;
-            mike = mike[options];
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            option = 0;
+            michal = michal[option];
             report = undefined;
-            tango = zulu.bind(report)(mike);
-            mike = entity.length;
-            zulu = mike >= verify;
-            mike = 'Waveform smaller than samples';
-            mike = tango.bind(report)(zulu, mike);
-            mike = entity.length;
-            if(!(mike !== verify)) { _fun00002_ip = 230; continue _fun00001 }
+            tangon = zuuluu.bind(report)(michal);
+            michal = entity.length;
+            zuuluu = michal >= verify;
+            michal = 'Waveform smaller than samples';
+            michal = tangon.bind(report)(zuuluu, michal);
+            michal = entity.length;
+            if(!(michal !== verify)) { _fun00002_ip = 230; continue _fun00001 }
  63:
-            mike = entity.length;
-            golf = mike / verify;
-            mike = new Array(0);
-            zulu = mike.length;
-            zulu = zulu < verify;
-            oscar = global;
+            michal = entity.length;
+            golfie = michal / verify;
+            michal = new Array(0);
+            zuuluu = michal.length;
+            zuuluu = zuuluu < verify;
+            oscard = global;
             report = 1;
-            tango = 0;
-            if(!zulu) { _fun00002_ip = 228; continue _fun00001 }
+            tangon = 0;
+            if(!zuuluu) { _fun00002_ip = 228; continue _fun00001 }
  98:
-            yankee = oscar.Math;
+            yankee = oscard.Math;
             offset = yankee.round;
-            zulu = mike.length;
-            zulu = zulu + report;
-            zulu = zulu * golf;
-            offset = offset.bind(yankee)(zulu);
-            yankee = tango < offset;
-            romeo = 0;
-            zulu = 0;
+            zuuluu = michal.length;
+            zuuluu = zuuluu + report;
+            zuuluu = zuuluu * golfie;
+            offset = offset.bind(yankee)(zuuluu);
+            yankee = tangon < offset;
+            romeon = 0;
+            zuuluu = 0;
             if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
  138:
             yankee = entity.length;
-            yankee = tango < yankee;
+            yankee = tangon < yankee;
             backup = 0;
-            foxtrot = 0;
-            romeo = 0;
-            zulu = 0;
+            foxtra = 0;
+            romeon = 0;
+            zuuluu = 0;
             if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
  158:
-            yankee = entity[tango];
+            yankee = entity[tangon];
             sizing = backup + yankee;
-            kilo = foxtrot + 1;
-            tango = tango + 1;
-            romeo = sizing;
-            zulu = kilo;
-            if(!(tango < offset)) { _fun00002_ip = 203; continue _fun00001 }
+            kiloes = foxtra + 1;
+            tangon = tangon + 1;
+            romeon = sizing;
+            zuuluu = kiloes;
+            if(!(tangon < offset)) { _fun00002_ip = 203; continue _fun00001 }
  182:
             yankee = entity.length;
             backup = sizing;
-            foxtrot = kilo;
-            romeo = backup;
-            zulu = foxtrot;
-            if(tango < yankee) { _fun00002_ip = 158; continue _fun00001 }
+            foxtra = kiloes;
+            romeon = backup;
+            zuuluu = foxtra;
+            if(tangon < yankee) { _fun00002_ip = 158; continue _fun00001 }
  203:
-            yankee = mike.length;
-            zulu = romeo / zulu;
-            mike[yankee] = zulu;
-            zulu = mike.length;
-            tango = offset;
-            if(zulu < verify) { _fun00002_ip = 98; continue _fun00001 }
+            yankee = michal.length;
+            zuuluu = romeon / zuuluu;
+            michal[yankee] = zuuluu;
+            zuuluu = michal.length;
+            tangon = offset;
+            if(zuuluu < verify) { _fun00002_ip = 98; continue _fun00001 }
  228:
-            return mike;
+            return michal;
  230:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

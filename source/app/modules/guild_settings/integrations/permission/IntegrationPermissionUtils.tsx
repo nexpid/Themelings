@@ -1,56 +1,56 @@
 // app/modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo, argBar) { // Original name: toPermissionKey
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo, argBar) { // Original name: toPermissionKey
         entity = global;
         entity = entity.HermesInternal;
         report = entity.concat;
-        tango = '';
-        zulu = argFoo;
-        mike = ':';
+        tangon = '';
+        zuuluu = argFoo;
+        michal = ':';
         entity = argBar;
-        entity = report.bind(tango)(zulu, mike, entity);
+        entity = report.bind(tangon)(zuuluu, michal, entity);
         return entity;
     };
-    var _closure1_slot3 = tango;
+    var _closure1_slot3 = tangon;
     entity = function(argFoo, argBar) { // Original name: commandPermissions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argBar;
             entity = {};
-            mike = global;
-            tango = mike.Object;
-            zulu = tango.entries;
-            mike = argFoo;
-            verify = zulu.bind(tango)(mike);
-            mike = verify.length;
-            options = 0;
-            mike = options < mike;
-            oscar = undefined;
+            michal = global;
+            tangon = michal.Object;
+            zuuluu = tangon.entries;
+            michal = argFoo;
+            verify = zuuluu.bind(tangon)(michal);
+            michal = verify.length;
+            option = 0;
+            michal = option < michal;
+            oscard = undefined;
             report = 2;
-            tango = 1;
-            zulu = 0;
-            if(!mike) { _fun00002_ip = 110; continue _fun00001 }
+            tangon = 1;
+            zuuluu = 0;
+            if(!michal) { _fun00002_ip = 110; continue _fun00001 }
  54:
-            yankee = verify[zulu];
-            mike = _closure1_slot2;
-            mike = mike.bind(oscar)(yankee, report);
-            yankee = mike[options];
-            mike = mike[tango];
-            foxtrot = offset.includes;
-            romeo = mike.type;
-            romeo = foxtrot.bind(offset)(romeo);
-            if(!romeo) { _fun00002_ip = 98; continue _fun00001 }
+            yankee = verify[zuuluu];
+            michal = _closure1_slot2;
+            michal = michal.bind(oscard)(yankee, report);
+            yankee = michal[option];
+            michal = michal[tangon];
+            foxtra = offset.includes;
+            romeon = michal.type;
+            romeon = foxtra.bind(offset)(romeon);
+            if(!romeon) { _fun00002_ip = 98; continue _fun00001 }
  94:
-            entity[yankee] = mike;
+            entity[yankee] = michal;
  98:
-            zulu = zulu + 1;
-            mike = verify.length;
-            if(zulu < mike) { _fun00002_ip = 54; continue _fun00001 }
+            zuuluu = zuuluu + 1;
+            michal = verify.length;
+            if(zuuluu < michal) { _fun00002_ip = 54; continue _fun00001 }
  110:
             return entity;
         }
@@ -58,109 +58,109 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo, argBar) { // Original name: commandName
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argBar;
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = argBar;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = tango.bind(entity)(mike);
+            entity = tangon.bind(entity)(michal);
             entity = entity.ApplicationCommandType;
-            tango = entity.CHAT;
-            mike = argFoo;
-            entity = zulu;
-            if(!(mike === tango)) { _fun00004_ip = 58; continue _fun00003 }
+            tangon = entity.CHAT;
+            michal = argFoo;
+            entity = zuuluu;
+            if(!(michal === tangon)) { _fun00004_ip = 58; continue _fun00003 }
  50:
-            mike = '/';
-            entity = mike + zulu;
+            michal = '/';
+            entity = michal + zuuluu;
  58:
             return entity;
         }
     };
-    zulu['commandName'] = report;
+    zuuluu['commandName'] = report;
     report = function(argFoo) { // Original name: commandPermissionChannels
-        tango = _closure1_slot4;
-        mike = _closure1_slot0;
-        zulu = _closure1_slot1;
+        tangon = _closure1_slot4;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 2;
-        entity = zulu[entity];
-        zulu = undefined;
-        entity = mike.bind(zulu)(entity);
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.ApplicationCommandPermissionType;
         entity = entity.CHANNEL;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = argFoo;
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['commandPermissionChannels'] = report;
+    zuuluu['commandPermissionChannels'] = report;
     report = function(argFoo) { // Original name: commandPermissionMembersRoles
-        tango = _closure1_slot4;
+        tangon = _closure1_slot4;
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 2;
-        mike = oscar[entity];
-        zulu = undefined;
-        mike = report.bind(zulu)(mike);
-        mike = mike.ApplicationCommandPermissionType;
-        golf = mike.ROLE;
-        mike = new Array(2);
-        mike[0] = golf;
-        entity = oscar[entity];
-        entity = report.bind(zulu)(entity);
+        michal = oscard[entity];
+        zuuluu = undefined;
+        michal = report.bind(zuuluu)(michal);
+        michal = michal.ApplicationCommandPermissionType;
+        golfie = michal.ROLE;
+        michal = new Array(2);
+        michal[0] = golfie;
+        entity = oscard[entity];
+        entity = report.bind(zuuluu)(entity);
         entity = entity.ApplicationCommandPermissionType;
         entity = entity.USER;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = argFoo;
-        entity = tango.bind(zulu)(entity, mike);
+        entity = tangon.bind(zuuluu)(entity, michal);
         return entity;
     };
-    zulu['commandPermissionMembersRoles'] = report;
-    zulu['toPermissionKey'] = tango;
-    mike = function(argFoo) { // Original name: keyPermissions
+    zuuluu['commandPermissionMembersRoles'] = report;
+    zuuluu['toPermissionKey'] = tangon;
+    michal = function(argFoo) { // Original name: keyPermissions
         report = argFoo;
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.fromEntries;
-        tango = report.map;
+        zuuluu = entity.Object;
+        michal = zuuluu.fromEntries;
+        tangon = report.map;
         entity = function(argFoo) {
-            mike = argFoo;
+            michal = argFoo;
             report = _closure1_slot3;
-            tango = mike.id;
-            zulu = mike.type;
+            tangon = michal.id;
+            zuuluu = michal.type;
             entity = undefined;
-            zulu = report.bind(entity)(tango, zulu);
+            zuuluu = report.bind(entity)(tangon, zuuluu);
             entity = new Array(2);
-            entity[0] = zulu;
-            entity[1] = mike;
+            entity[0] = zuuluu;
+            entity[1] = michal;
             return entity;
         };
-        entity = tango.bind(report)(entity);
-        entity = mike.bind(zulu)(entity);
+        entity = tangon.bind(report)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['keyPermissions'] = mike;
+    zuuluu['keyPermissions'] = michal;
     return entity;
 })();

@@ -1,110 +1,110 @@
 // app/modules/age_assurance/AgeVerificationUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 1;
-    golf = oscar[mike];
-    mike = argCorge;
-    mike = mike.bind(entity)(golf);
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot4 = mike;
-    mike = {};
-    golf = function(argFoo) { // Original name: showAgeVerification
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 1;
+    golfie = oscard[michal];
+    michal = argCor;
+    michal = michal.bind(entity)(golfie);
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot4 = michal;
+    michal = {};
+    golfie = function(argFoo) { // Original name: showAgeVerification
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 3;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.pushLazy;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.pushLazy;
         report = _closure1_slot3;
-        mike = function* () {
+        michal = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 88; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
  9:
-                    oscar = undefined;
-                    var _closure4_slot0 = oscar;
+                    oscard = undefined;
+                    var _closure4_slot0 = oscard;
                     report = _closure1_slot0;
-                    mike = _closure1_slot2;
-                    tango = 5;
-                    tango = mike[tango];
-                    report = report.bind(oscar)(tango);
-                    tango = 4;
-                    tango = mike[tango];
-                    mike = mike.paths;
-                    mike = report.bind(oscar)(tango, mike);
+                    michal = _closure1_slot2;
+                    tangon = 5;
+                    tangon = michal[tangon];
+                    report = report.bind(oscard)(tangon);
+                    tangon = 4;
+                    tangon = michal[tangon];
+                    michal = michal.paths;
+                    michal = report.bind(oscard)(tangon, michal);
                     SaveGenerator(address=60);
  58:
-                    return mike;
+                    return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 85; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
  66:
-                    tango = mike.default;
-                    _closure4_slot0 = tango;
-                    zulu = function() {
-                        tango = _closure1_slot4;
-                        zulu = _closure4_slot0;
-                        mike = {};
+                    tangon = michal.default;
+                    _closure4_slot0 = tangon;
+                    zuuluu = function() {
+                        tangon = _closure1_slot4;
+                        zuuluu = _closure4_slot0;
+                        michal = {};
                         report = _closure2_slot0;
-                        oscar = mike;
-                        entity = copyDataProperties(oscar, report);
+                        oscard = michal;
+                        entity = copyDataProperties(oscard, report);
                         entity = undefined;
-                        entity = tango.bind(entity)(zulu, mike);
+                        entity = tangon.bind(entity)(zuuluu, michal);
                         return entity;
                     };
-                    return zulu;
+                    return zuuluu;
  85:
-                    return mike;
+                    return michal;
  88:
                     return entity;
                 }
             };
             return entity;
         };
-        mike = report.bind(entity)(mike);
-        mike = zulu.bind(tango)(mike);
+        michal = report.bind(entity)(michal);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['showAgeVerification'] = golf;
-    tango = function() { // Original name: showAgeVerificationModal
+    michal['showAgeVerification'] = golfie;
+    tangon = function() { // Original name: showAgeVerificationModal
         entity = undefined;
         return entity;
     };
-    mike['showAgeVerificationModal'] = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/age_assurance/AgeVerificationUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['showAgeVerificationModal'] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/age_assurance/AgeVerificationUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

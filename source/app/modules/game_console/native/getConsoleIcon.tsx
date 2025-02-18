@@ -1,90 +1,90 @@
 // app/modules/game_console/native/getConsoleIcon.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     verify = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = verify;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    options = tango.PlatformTypes;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.VoicePlatforms;
-    var _closure1_slot2 = tango;
-    tango = {};
-    offset = options.XBOX;
-    golf = 2;
-    golf = oscar[golf];
-    golf = verify.bind(entity)(golf);
-    tango[offset] = golf;
-    yankee = options.PLAYSTATION;
-    golf = 3;
-    offset = oscar[golf];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.PlatformTypes;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoicePlatforms;
+    var _closure1_slot2 = tangon;
+    tangon = {};
+    offset = option.XBOX;
+    golfie = 2;
+    golfie = oscard[golfie];
+    golfie = verify.bind(entity)(golfie);
+    tangon[offset] = golfie;
+    yankee = option.PLAYSTATION;
+    golfie = 3;
+    offset = oscard[golfie];
     offset = verify.bind(entity)(offset);
-    tango[yankee] = offset;
-    options = options.PLAYSTATION_STAGING;
-    golf = oscar[golf];
-    golf = verify.bind(entity)(golf);
-    tango[options] = golf;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_console/native/getConsoleIcon.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getConsoleIcon
-        mike = _closure1_slot3;
+    tangon[yankee] = offset;
+    option = option.PLAYSTATION_STAGING;
+    golfie = oscard[golfie];
+    golfie = verify.bind(entity)(golfie);
+    tangon[option] = golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_console/native/getConsoleIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getConsoleIcon
+        michal = _closure1_slot3;
         entity = argFoo;
-        entity = mike[entity];
+        entity = michal[entity];
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: getConsoleIconForVoicePlatform
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: getConsoleIconForVoicePlatform
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = _closure1_slot2;
             entity = entity.XBOX;
-            if(!(tango !== entity)) { _fun00002_ip = 60; continue _fun00001 }
+            if(!(tangon !== entity)) { _fun00002_ip = 60; continue _fun00001 }
  20:
             entity = _closure1_slot2;
-            zulu = entity.PLAYSTATION;
+            zuuluu = entity.PLAYSTATION;
             entity = null;
-            if(!(tango === zulu)) { _fun00002_ip = 58; continue _fun00001 }
+            if(!(tangon === zuuluu)) { _fun00002_ip = 58; continue _fun00001 }
  36:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 3;
-            tango = tango[zulu];
-            zulu = undefined;
-            entity = report.bind(zulu)(tango);
+            tangon = _closure1_slot1;
+            zuuluu = 3;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            entity = report.bind(zuuluu)(tangon);
  58:
             _fun00002_ip = 82; continue _fun00001;
  60:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 2;
-            zulu = zulu[mike];
-            mike = undefined;
-            entity = tango.bind(mike)(zulu);
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            entity = tangon.bind(michal)(zuuluu);
  82:
             return entity;
         }
     };
-    zulu['getConsoleIconForVoicePlatform'] = mike;
+    zuuluu['getConsoleIconForVoicePlatform'] = michal;
     return entity;
 })();

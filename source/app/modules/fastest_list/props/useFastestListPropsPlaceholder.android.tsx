@@ -1,310 +1,310 @@
 // app/modules/fastest_list/props/useFastestListPropsPlaceholder.android.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo) { // Original name: createNativePlaceholderConfig
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = null;
-            entity = tango == zulu;
-            golf = undefined;
+            zuuluu = argFoo;
+            tangon = null;
+            entity = tangon == zuuluu;
+            golfie = undefined;
             offset = undefined;
             if(entity) { _fun00002_ip = 21; continue _fun00001 }
  16:
-            offset = zulu.type;
+            offset = zuuluu.type;
  21:
             entity = {};
-            entity['borderRadius'] = golf;
-            entity['borderTopLeftRadius'] = golf;
-            entity['borderTopRightRadius'] = golf;
-            entity['borderBottomLeftRadius'] = golf;
-            entity['borderBottomRightRadius'] = golf;
-            entity['divider'] = golf;
-            entity['dividerColorRgba'] = golf;
-            entity['dividerPaddingLeft'] = golf;
-            entity['dividerPaddingRight'] = golf;
-            entity['placeholderShape'] = golf;
-            entity['placeholderShapeColorRgba'] = golf;
-            entity['placeholderShapeCount'] = golf;
-            entity['placeholderShapeGap'] = golf;
-            entity['placeholderShapePaddingHorizontal'] = golf;
-            entity['placeholderShapePaddingVertical'] = golf;
-            entity['placeholderFeedBackgroundColorRgba'] = golf;
-            entity['placeholderFeedColorRgba'] = golf;
-            entity['placeholderFeedLabelPadding'] = golf;
-            entity['placeholderFeedLabelPaddingInnerRatio'] = golf;
-            entity['placeholderFeedLabelSize'] = golf;
-            entity['placeholderFeedLabelSecondarySize'] = golf;
-            entity['placeholderFeedPadding'] = golf;
-            entity['placeholderFeedShape'] = golf;
-            entity['placeholderFeedShapeSize'] = golf;
-            mike = offset;
-            if(!(tango == mike)) { _fun00002_ip = 184; continue _fun00001 }
+            entity['borderRadius'] = golfie;
+            entity['borderTopLeftRadius'] = golfie;
+            entity['borderTopRightRadius'] = golfie;
+            entity['borderBottomLeftRadius'] = golfie;
+            entity['borderBottomRightRadius'] = golfie;
+            entity['divider'] = golfie;
+            entity['dividerColorRgba'] = golfie;
+            entity['dividerPaddingLeft'] = golfie;
+            entity['dividerPaddingRight'] = golfie;
+            entity['placeholderShape'] = golfie;
+            entity['placeholderShapeColorRgba'] = golfie;
+            entity['placeholderShapeCount'] = golfie;
+            entity['placeholderShapeGap'] = golfie;
+            entity['placeholderShapePaddingHorizontal'] = golfie;
+            entity['placeholderShapePaddingVertical'] = golfie;
+            entity['placeholderFeedBackgroundColorRgba'] = golfie;
+            entity['placeholderFeedColorRgba'] = golfie;
+            entity['placeholderFeedLabelPadding'] = golfie;
+            entity['placeholderFeedLabelPaddingInnerRatio'] = golfie;
+            entity['placeholderFeedLabelSize'] = golfie;
+            entity['placeholderFeedLabelSecondarySize'] = golfie;
+            entity['placeholderFeedPadding'] = golfie;
+            entity['placeholderFeedShape'] = golfie;
+            entity['placeholderFeedShapeSize'] = golfie;
+            michal = offset;
+            if(!(tangon == michal)) { _fun00002_ip = 184; continue _fun00001 }
  149:
-            oscar = _closure1_slot0;
-            options = _closure1_slot1;
+            oscard = _closure1_slot0;
+            option = _closure1_slot1;
             report = 1;
-            report = options[report];
-            report = oscar.bind(golf)(report);
+            report = option[report];
+            report = oscard.bind(golfie)(report);
             report = report.FastestListPropsPlaceholderType;
-            mike = report.NONE;
+            michal = report.NONE;
  184:
-            entity['placeholderType'] = mike;
-            entity['width'] = golf;
-            entity['height'] = golf;
-            entity['verticalAlignment'] = golf;
-            entity['horizontalAlignment'] = golf;
-            if(!(tango != zulu)) { _fun00002_ip = 1113; continue _fun00001 }
+            entity['placeholderType'] = michal;
+            entity['width'] = golfie;
+            entity['height'] = golfie;
+            entity['verticalAlignment'] = golfie;
+            entity['horizontalAlignment'] = golfie;
+            if(!(tangon != zuuluu)) { _fun00002_ip = 1113; continue _fun00001 }
  216:
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 1;
-            oscar = oscar[mike];
-            oscar = options.bind(golf)(oscar);
-            oscar = oscar.FastestListPropsPlaceholderType;
-            oscar = oscar.NONE;
-            if(!(oscar !== offset)) { _fun00002_ip = 1111; continue _fun00001 }
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 1;
+            oscard = oscard[michal];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.FastestListPropsPlaceholderType;
+            oscard = oscard.NONE;
+            if(!(oscard !== offset)) { _fun00002_ip = 1111; continue _fun00001 }
  258:
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            oscar = oscar[mike];
-            oscar = options.bind(golf)(oscar);
-            oscar = oscar.FastestListPropsPlaceholderType;
-            oscar = oscar.SHAPE;
-            if(!(oscar !== offset)) { _fun00002_ip = 859; continue _fun00001 }
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            oscard = oscard[michal];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.FastestListPropsPlaceholderType;
+            oscard = oscard.SHAPE;
+            if(!(oscard !== offset)) { _fun00002_ip = 859; continue _fun00001 }
  294:
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            oscar = oscar[mike];
-            oscar = options.bind(golf)(oscar);
-            oscar = oscar.FastestListPropsPlaceholderType;
-            oscar = oscar.FEED_ITEM;
-            if(!(oscar !== offset)) { _fun00002_ip = 379; continue _fun00001 }
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            oscard = oscard[michal];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.FastestListPropsPlaceholderType;
+            oscard = oscard.FEED_ITEM;
+            if(!(oscard !== offset)) { _fun00002_ip = 379; continue _fun00001 }
  327:
-            oscar = global;
-            verify = oscar.Error;
-            oscar = oscar.HermesInternal;
-            options = oscar.concat;
-            oscar = 'Invalid placeholder type: ';
-            foxtrot = options.bind(oscar)(offset);
-            options = verify.prototype;
-            options = Object.create(options, {constructor: {value: verify}});
-            backup = options;
-            oscar = new backup[verify](foxtrot, romeo);
-            oscar = oscar instanceof Object ? oscar : options;
-            throw oscar;
+            oscard = global;
+            verify = oscard.Error;
+            oscard = oscard.HermesInternal;
+            option = oscard.concat;
+            oscard = 'Invalid placeholder type: ';
+            foxtra = option.bind(oscard)(offset);
+            option = verify.prototype;
+            option = Object.create(option, {constructor: {value: verify}});
+            backup = option;
+            oscard = new backup[verify](foxtra, romeon);
+            oscard = oscard instanceof Object ? oscard : option;
+            throw oscard;
  379:
-            verify = zulu.borderRadius;
-            offset = tango != verify;
-            options = 0;
+            verify = zuuluu.borderRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 396; continue _fun00001 }
  393:
-            options = verify;
+            option = verify;
  396:
-            entity['borderRadius'] = options;
-            verify = zulu.borderTopLeftRadius;
-            offset = tango != verify;
-            options = 0;
+            entity['borderRadius'] = option;
+            verify = zuuluu.borderTopLeftRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 420; continue _fun00001 }
  417:
-            options = verify;
+            option = verify;
  420:
-            entity['borderTopLeftRadius'] = options;
-            verify = zulu.borderTopRightRadius;
-            offset = tango != verify;
-            options = 0;
+            entity['borderTopLeftRadius'] = option;
+            verify = zuuluu.borderTopRightRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 444; continue _fun00001 }
  441:
-            options = verify;
+            option = verify;
  444:
-            entity['borderTopRightRadius'] = options;
-            verify = zulu.borderBottomLeftRadius;
-            offset = tango != verify;
-            options = 0;
+            entity['borderTopRightRadius'] = option;
+            verify = zuuluu.borderBottomLeftRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 468; continue _fun00001 }
  465:
-            options = verify;
+            option = verify;
  468:
-            entity['borderBottomLeftRadius'] = options;
-            verify = zulu.borderBottomRightRadius;
-            offset = tango != verify;
-            options = 0;
+            entity['borderBottomLeftRadius'] = option;
+            verify = zuuluu.borderBottomRightRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 492; continue _fun00001 }
  489:
-            options = verify;
+            option = verify;
  492:
-            entity['borderBottomRightRadius'] = options;
-            verify = zulu.divider;
-            options = tango != verify;
-            if(!options) { _fun00002_ip = 514; continue _fun00001 }
+            entity['borderBottomRightRadius'] = option;
+            verify = zuuluu.divider;
+            option = tangon != verify;
+            if(!option) { _fun00002_ip = 514; continue _fun00001 }
  511:
-            options = verify;
+            option = verify;
  514:
-            entity['divider'] = options;
-            options = zulu.dividerColorHex;
-            verify = tango != options;
-            options = undefined;
+            entity['divider'] = option;
+            option = zuuluu.dividerColorHex;
+            verify = tangon != option;
+            option = undefined;
             if(!verify) { _fun00002_ip = 572; continue _fun00001 }
  535:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             verify = 2;
             verify = yankee[verify];
-            yankee = offset.bind(golf)(verify);
+            yankee = offset.bind(golfie)(verify);
             offset = yankee.hexToRgbaString;
-            verify = zulu.dividerColorHex;
-            options = offset.bind(yankee)(verify);
+            verify = zuuluu.dividerColorHex;
+            option = offset.bind(yankee)(verify);
  572:
-            entity['dividerColorRgba'] = options;
-            verify = zulu.dividerPaddingLeft;
-            offset = tango != verify;
-            options = 0;
+            entity['dividerColorRgba'] = option;
+            verify = zuuluu.dividerPaddingLeft;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 596; continue _fun00001 }
  593:
-            options = verify;
+            option = verify;
  596:
-            entity['dividerPaddingLeft'] = options;
-            verify = zulu.dividerPaddingRight;
-            offset = tango != verify;
-            options = 0;
+            entity['dividerPaddingLeft'] = option;
+            verify = zuuluu.dividerPaddingRight;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 620; continue _fun00001 }
  617:
-            options = verify;
+            option = verify;
  620:
-            entity['dividerPaddingRight'] = options;
-            options = zulu.backgroundColorHex;
-            verify = tango != options;
-            options = undefined;
+            entity['dividerPaddingRight'] = option;
+            option = zuuluu.backgroundColorHex;
+            verify = tangon != option;
+            option = undefined;
             if(!verify) { _fun00002_ip = 678; continue _fun00001 }
  641:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             verify = 2;
             verify = yankee[verify];
-            yankee = offset.bind(golf)(verify);
+            yankee = offset.bind(golfie)(verify);
             offset = yankee.hexToRgbaString;
-            verify = zulu.backgroundColorHex;
-            options = offset.bind(yankee)(verify);
+            verify = zuuluu.backgroundColorHex;
+            option = offset.bind(yankee)(verify);
  678:
-            entity['placeholderFeedBackgroundColorRgba'] = options;
+            entity['placeholderFeedBackgroundColorRgba'] = option;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            options = 2;
-            options = offset[options];
-            offset = verify.bind(golf)(options);
+            option = 2;
+            option = offset[option];
+            offset = verify.bind(golfie)(option);
             verify = offset.hexToRgbaString;
-            options = zulu.colorHex;
-            options = verify.bind(offset)(options);
-            entity['placeholderFeedColorRgba'] = options;
-            options = zulu.labelSize;
-            entity['placeholderFeedLabelSize'] = options;
-            verify = zulu.labelSecondarySize;
-            offset = tango != verify;
-            options = 0;
+            option = zuuluu.colorHex;
+            option = verify.bind(offset)(option);
+            entity['placeholderFeedColorRgba'] = option;
+            option = zuuluu.labelSize;
+            entity['placeholderFeedLabelSize'] = option;
+            verify = zuuluu.labelSecondarySize;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 757; continue _fun00001 }
  754:
-            options = verify;
+            option = verify;
  757:
-            entity['placeholderFeedLabelSecondarySize'] = options;
-            options = zulu.labelPadding;
-            entity['placeholderFeedLabelPadding'] = options;
-            verify = zulu.labelPaddingInnerRatio;
-            offset = tango != verify;
-            options = 0.4;
+            entity['placeholderFeedLabelSecondarySize'] = option;
+            option = zuuluu.labelPadding;
+            entity['placeholderFeedLabelPadding'] = option;
+            verify = zuuluu.labelPaddingInnerRatio;
+            offset = tangon != verify;
+            option = 0.4;
             if(!offset) { _fun00002_ip = 801; continue _fun00001 }
  798:
-            options = verify;
+            option = verify;
  801:
-            entity['placeholderFeedLabelPaddingInnerRatio'] = options;
-            options = zulu.padding;
-            verify = tango != options;
-            oscar = 0;
+            entity['placeholderFeedLabelPaddingInnerRatio'] = option;
+            option = zuuluu.padding;
+            verify = tangon != option;
+            oscard = 0;
             if(!verify) { _fun00002_ip = 824; continue _fun00001 }
  821:
-            oscar = options;
+            oscard = option;
  824:
-            entity['placeholderFeedPadding'] = oscar;
-            oscar = zulu.shape;
-            entity['placeholderFeedShape'] = oscar;
-            oscar = zulu.shapeSize;
-            entity['placeholderFeedShapeSize'] = oscar;
+            entity['placeholderFeedPadding'] = oscard;
+            oscard = zuuluu.shape;
+            entity['placeholderFeedShape'] = oscard;
+            oscard = zuuluu.shapeSize;
+            entity['placeholderFeedShapeSize'] = oscard;
             _fun00002_ip = 1111; continue _fun00001;
  859:
-            verify = zulu.borderRadius;
-            offset = tango != verify;
-            options = 0;
+            verify = zuuluu.borderRadius;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 876; continue _fun00001 }
  873:
-            options = verify;
+            option = verify;
  876:
-            entity['borderRadius'] = options;
-            options = zulu.shape;
-            entity['placeholderShape'] = options;
-            verify = zulu.spaceGap;
-            offset = tango != verify;
-            options = 0;
+            entity['borderRadius'] = option;
+            option = zuuluu.shape;
+            entity['placeholderShape'] = option;
+            verify = zuuluu.spaceGap;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 912; continue _fun00001 }
  909:
-            options = verify;
+            option = verify;
  912:
-            entity['placeholderShapeGap'] = options;
-            verify = zulu.paddingHorizontal;
-            offset = tango != verify;
-            options = 0;
+            entity['placeholderShapeGap'] = option;
+            verify = zuuluu.paddingHorizontal;
+            offset = tangon != verify;
+            option = 0;
             if(!offset) { _fun00002_ip = 935; continue _fun00001 }
  932:
-            options = verify;
+            option = verify;
  935:
-            entity['placeholderShapePaddingHorizontal'] = options;
-            options = zulu.paddingVertical;
-            verify = tango != options;
-            oscar = 0;
+            entity['placeholderShapePaddingHorizontal'] = option;
+            option = zuuluu.paddingVertical;
+            verify = tangon != option;
+            oscard = 0;
             if(!verify) { _fun00002_ip = 959; continue _fun00001 }
  956:
-            oscar = options;
+            oscard = option;
  959:
-            entity['placeholderShapePaddingVertical'] = oscar;
-            oscar = _closure1_slot0;
-            options = _closure1_slot1;
+            entity['placeholderShapePaddingVertical'] = oscard;
+            oscard = _closure1_slot0;
+            option = _closure1_slot1;
             report = 2;
-            report = options[report];
-            options = oscar.bind(golf)(report);
-            golf = options.hexToRgbaString;
-            oscar = zulu.colorHex;
-            report = zulu.opacity;
-            report = golf.bind(options)(oscar, report);
+            report = option[report];
+            option = oscard.bind(golfie)(report);
+            golfie = option.hexToRgbaString;
+            oscard = zuuluu.colorHex;
+            report = zuuluu.opacity;
+            report = golfie.bind(option)(oscard, report);
             entity['placeholderShapeColorRgba'] = report;
-            report = zulu.shapeCount;
-            oscar = tango != report;
-            if(!oscar) { _fun00002_ip = 1030; continue _fun00001 }
+            report = zuuluu.shapeCount;
+            oscard = tangon != report;
+            if(!oscard) { _fun00002_ip = 1030; continue _fun00001 }
  1027:
-            mike = report;
+            michal = report;
  1030:
-            entity['placeholderShapeCount'] = mike;
-            mike = zulu.width;
-            entity['width'] = mike;
-            mike = zulu.height;
-            entity['height'] = mike;
-            oscar = zulu.verticalAlignment;
-            golf = tango != oscar;
-            mike = 'center';
-            report = mike;
-            if(!golf) { _fun00002_ip = 1081; continue _fun00001 }
+            entity['placeholderShapeCount'] = michal;
+            michal = zuuluu.width;
+            entity['width'] = michal;
+            michal = zuuluu.height;
+            entity['height'] = michal;
+            oscard = zuuluu.verticalAlignment;
+            golfie = tangon != oscard;
+            michal = 'center';
+            report = michal;
+            if(!golfie) { _fun00002_ip = 1081; continue _fun00001 }
  1078:
-            report = oscar;
+            report = oscard;
  1081:
             entity['verticalAlignment'] = report;
-            zulu = zulu.horizonalAlignment;
-            tango = tango != zulu;
-            if(!tango) { _fun00002_ip = 1105; continue _fun00001 }
+            zuuluu = zuuluu.horizonalAlignment;
+            tangon = tangon != zuuluu;
+            if(!tangon) { _fun00002_ip = 1105; continue _fun00001 }
  1102:
-            mike = zulu;
+            michal = zuuluu;
  1105:
-            entity['horizontalAlignment'] = mike;
+            entity['horizontalAlignment'] = michal;
  1111:
             return entity;
  1113:
@@ -313,84 +313,84 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = {};
-    golf = {};
-    options = 1;
-    options = oscar[options];
-    options = report.bind(entity)(options);
-    options = options.FastestListPropsPlaceholderType;
-    options = options.NONE;
-    golf['type'] = options;
-    tango['sectionItem'] = golf;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/fastest_list/props/useFastestListPropsPlaceholder.android.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useFastestListPropsPlaceholder
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = {};
+    golfie = {};
+    option = 1;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.FastestListPropsPlaceholderType;
+    option = option.NONE;
+    golfie['type'] = option;
+    tangon['sectionItem'] = golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/fastest_list/props/useFastestListPropsPlaceholder.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useFastestListPropsPlaceholder
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[0];
-            mike = undefined;
-            if(!(report === mike)) { _fun00004_ip = 18; continue _fun00003 }
+            michal = undefined;
+            if(!(report === michal)) { _fun00004_ip = 18; continue _fun00003 }
  11:
             report = _closure1_slot3;
  18:
             var _closure2_slot0 = report;
-            tango = _closure1_slot2;
-            zulu = tango.useMemo;
-            mike = new Array(1);
-            mike[0] = report;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useMemo;
+            michal = new Array(1);
+            michal[0] = report;
             entity = function() {
                 entity = {};
-                tango = _closure1_slot4;
-                mike = _closure2_slot0;
-                report = mike.listFooter;
-                zulu = undefined;
-                report = tango.bind(zulu)(report);
+                tangon = _closure1_slot4;
+                michal = _closure2_slot0;
+                report = michal.listFooter;
+                zuuluu = undefined;
+                report = tangon.bind(zuuluu)(report);
                 entity['listFooter'] = report;
-                report = mike.listHeader;
-                report = tango.bind(zulu)(report);
+                report = michal.listHeader;
+                report = tangon.bind(zuuluu)(report);
                 entity['listHeader'] = report;
-                report = mike.sectionFooter;
-                report = tango.bind(zulu)(report);
+                report = michal.sectionFooter;
+                report = tangon.bind(zuuluu)(report);
                 entity['sectionFooter'] = report;
-                report = mike.sectionHeader;
-                report = tango.bind(zulu)(report);
+                report = michal.sectionHeader;
+                report = tangon.bind(zuuluu)(report);
                 entity['sectionHeader'] = report;
-                report = mike.sectionItem;
-                report = tango.bind(zulu)(report);
+                report = michal.sectionItem;
+                report = tangon.bind(zuuluu)(report);
                 entity['sectionItem'] = report;
-                report = mike.sectionItemAtFront;
-                report = tango.bind(zulu)(report);
+                report = michal.sectionItemAtFront;
+                report = tangon.bind(zuuluu)(report);
                 entity['sectionItemAtFront'] = report;
-                report = mike.sectionItemAtRear;
-                report = tango.bind(zulu)(report);
+                report = michal.sectionItemAtRear;
+                report = tangon.bind(zuuluu)(report);
                 entity['sectionItemAtRear'] = report;
-                mike = mike.sectionItemSingleton;
-                mike = tango.bind(zulu)(mike);
-                entity['sectionItemSingleton'] = mike;
+                michal = michal.sectionItemSingleton;
+                michal = tangon.bind(zuuluu)(michal);
+                entity['sectionItemSingleton'] = michal;
                 return entity;
             };
-            entity = zulu.bind(tango)(entity, mike);
+            entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

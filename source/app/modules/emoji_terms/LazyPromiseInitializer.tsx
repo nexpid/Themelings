@@ -1,141 +1,141 @@
 // app/modules/emoji_terms/LazyPromiseInitializer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = function(argFoo) { // Original name: LazyPromiseInitializer
-            zulu = this;
-            tango = _closure1_slot0;
-            mike = _closure2_slot0;
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = function(argFoo) { // Original name: LazyPromiseInitializer
+            zuuluu = this;
+            tangon = _closure1_slot0;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = false;
-            zulu['loading'] = mike;
-            zulu['loaded'] = mike;
-            mike = argFoo;
-            zulu['loader'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = false;
+            zuuluu['loading'] = michal;
+            zuuluu['loaded'] = michal;
+            michal = argFoo;
+            zuuluu['loader'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'setParams';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = 'setParams';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                mike = this;
-                zulu = mike.param;
-                if(!(zulu !== entity)) { _fun00002_ip = 36; continue _fun00001 }
+                michal = this;
+                zuuluu = michal.param;
+                if(!(zuuluu !== entity)) { _fun00002_ip = 36; continue _fun00001 }
  16:
-                mike['param'] = entity;
+                michal['param'] = entity;
                 entity = false;
-                mike['loading'] = entity;
-                mike['loaded'] = entity;
+                michal['loading'] = entity;
+                michal['loaded'] = entity;
  36:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(3);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(3);
+        michal[0] = entity;
         entity = {};
-        oscar = 'get';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'get';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = this;
-            mike = entity.ensureLoaded;
-            mike = mike.bind(entity)();
+            michal = entity.ensureLoaded;
+            michal = michal.bind(entity)();
             entity = entity.val;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'ensureLoaded';
-        entity['key'] = oscar;
+        oscard = 'ensureLoaded';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = this;
-                var _closure3_slot0 = tango;
-                mike = tango.loaded;
-                if(mike) { _fun00004_ip = 83; continue _fun00003 }
+                tangon = this;
+                var _closure3_slot0 = tangon;
+                michal = tangon.loaded;
+                if(michal) { _fun00004_ip = 83; continue _fun00003 }
  18:
-                mike = tango.loading;
-                if(mike) { _fun00004_ip = 83; continue _fun00003 }
+                michal = tangon.loading;
+                if(michal) { _fun00004_ip = 83; continue _fun00003 }
  27:
-                zulu = tango.param;
-                mike = undefined;
-                if(!(mike !== zulu)) { _fun00004_ip = 83; continue _fun00003 }
+                zuuluu = tangon.param;
+                michal = undefined;
+                if(!(michal !== zuuluu)) { _fun00004_ip = 83; continue _fun00003 }
  39:
-                zulu = tango.param;
-                var _closure3_slot1 = zulu;
-                mike = true;
-                tango['loading'] = mike;
-                mike = tango.loader;
-                zulu = mike.bind(tango)(zulu);
-                mike = zulu.then;
+                zuuluu = tangon.param;
+                var _closure3_slot1 = zuuluu;
+                michal = true;
+                tangon['loading'] = michal;
+                michal = tangon.loader;
+                zuuluu = michal.bind(tangon)(zuuluu);
+                michal = zuuluu.then;
                 entity = function(argFoo) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                        zulu = _closure3_slot1;
-                        mike = _closure3_slot0;
-                        mike = mike.param;
-                        if(!(zulu === mike)) { _fun00006_ip = 50; continue _fun00005 }
+                        zuuluu = _closure3_slot1;
+                        michal = _closure3_slot0;
+                        michal = michal.param;
+                        if(!(zuuluu === michal)) { _fun00006_ip = 50; continue _fun00005 }
  21:
-                        mike = _closure3_slot0;
+                        michal = _closure3_slot0;
                         entity = argFoo;
-                        mike['val'] = entity;
+                        michal['val'] = entity;
                         entity = false;
-                        mike['loading'] = entity;
+                        michal['loading'] = entity;
                         entity = true;
-                        mike['loaded'] = entity;
+                        michal['loaded'] = entity;
  50:
                         entity = undefined;
                         return entity;
                     }
                 };
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
  83:
                 entity = undefined;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[2] = entity;
+        michal[2] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emoji_terms/LazyPromiseInitializer.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emoji_terms/LazyPromiseInitializer.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

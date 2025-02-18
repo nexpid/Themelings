@@ -1,84 +1,84 @@
 // app/modules/messages/getStickerDiscoverableGuild.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/getStickerDiscoverableGuild.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: _default
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 1;
-        zulu = zulu[mike];
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        tango = mike.HTTP;
-        zulu = tango.get;
-        mike = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-        golf = _closure1_slot2;
-        oscar = golf.STICKER_GUILD_DATA;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/getStickerDiscoverableGuild.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: _default
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        tangon = michal.HTTP;
+        zuuluu = tangon.get;
+        michal = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+        golfie = _closure1_slot2;
+        oscard = golfie.STICKER_GUILD_DATA;
         report = argFoo;
-        report = oscar.bind(golf)(report);
-        mike['url'] = report;
-        tango = zulu.bind(tango)(mike);
-        zulu = tango.then;
-        mike = function(argFoo) {
+        report = oscard.bind(golfie)(report);
+        michal['url'] = report;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.then;
+        michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = null;
-                tango = entity == mike;
+                tangon = entity == michal;
                 report = undefined;
-                zulu = undefined;
-                if(tango) { _fun00002_ip = 21; continue _fun00001 }
+                zuuluu = undefined;
+                if(tangon) { _fun00002_ip = 21; continue _fun00001 }
  16:
-                zulu = mike.body;
+                zuuluu = michal.body;
  21:
-                zulu = entity != zulu;
+                zuuluu = entity != zuuluu;
                 entity = null;
-                if(!zulu) { _fun00002_ip = 69; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 69; continue _fun00001 }
  30:
-                tango = _closure1_slot0;
-                oscar = _closure1_slot1;
-                zulu = 2;
-                zulu = oscar[zulu];
-                tango = tango.bind(report)(zulu);
-                zulu = tango.makeDiscoverableGuild;
-                mike = mike.body;
-                entity = zulu.bind(tango)(mike);
+                tangon = _closure1_slot0;
+                oscard = _closure1_slot1;
+                zuuluu = 2;
+                zuuluu = oscard[zuuluu];
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.makeDiscoverableGuild;
+                michal = michal.body;
+                entity = zuuluu.bind(tangon)(michal);
  69:
                 return entity;
             }
         };
-        zulu = zulu.bind(tango)(mike);
-        mike = zulu.catch;
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.catch;
         entity = function() {
             entity = null;
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

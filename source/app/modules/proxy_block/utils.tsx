@@ -1,51 +1,51 @@
 // app/modules/proxy_block/utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AbortCodes;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/proxy_block/utils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isBlockedByProxyErrorCode
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AbortCodes;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/proxy_block/utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isBlockedByProxyErrorCode
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.ok;
+            michal = argFoo;
+            entity = michal.ok;
             entity = !entity;
             if(!entity) { _fun00002_ip = 53; continue _fun00001 }
  15:
-            mike = mike.body;
-            zulu = null;
-            tango = zulu == mike;
-            zulu = undefined;
-            if(tango) { _fun00002_ip = 36; continue _fun00001 }
+            michal = michal.body;
+            zuuluu = null;
+            tangon = zuuluu == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00002_ip = 36; continue _fun00001 }
  31:
-            zulu = mike.code;
+            zuuluu = michal.code;
  36:
-            mike = _closure1_slot0;
-            mike = mike.BLOCKED_BY_PROXY;
-            entity = zulu === mike;
+            michal = _closure1_slot0;
+            michal = michal.BLOCKED_BY_PROXY;
+            entity = zuuluu === michal;
  53:
             return entity;
         }
     };
-    zulu['isBlockedByProxyErrorCode'] = mike;
+    zuuluu['isBlockedByProxyErrorCode'] = michal;
     return entity;
 })();

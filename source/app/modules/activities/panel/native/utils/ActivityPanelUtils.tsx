@@ -1,81 +1,81 @@
 // app/modules/activities/panel/native/utils/ActivityPanelUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityPanelModes;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/panel/native/utils/ActivityPanelUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useIsActivityPanelFullscreen
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityPanelModes;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/panel/native/utils/ActivityPanelUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useIsActivityPanelFullscreen
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot3;
-                entity = zulu.getConnectedActivityChannelId;
-                tango = entity.bind(zulu)();
+                zuuluu = _closure1_slot3;
+                entity = zuuluu.getConnectedActivityChannelId;
+                tangon = entity.bind(zuuluu)();
                 entity = null;
-                entity = entity != tango;
+                entity = entity != tangon;
                 if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  26:
                 report = _closure1_slot3;
-                zulu = report.getActivityPanelMode;
-                report = zulu.bind(report)();
-                zulu = _closure1_slot4;
-                zulu = zulu.PANEL;
-                entity = report === zulu;
+                zuuluu = report.getActivityPanelMode;
+                report = zuuluu.bind(report)();
+                zuuluu = _closure1_slot4;
+                zuuluu = zuuluu.PANEL;
+                entity = report === zuuluu;
  54:
                 if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  57:
                 report = _closure1_slot1;
-                zulu = _closure1_slot2;
-                mike = 3;
-                mike = zulu[mike];
-                zulu = undefined;
-                mike = report.bind(zulu)(mike);
-                mike = mike.bind(zulu)(tango);
-                entity = !mike;
+                zuuluu = _closure1_slot2;
+                michal = 3;
+                michal = zuuluu[michal];
+                zuuluu = undefined;
+                michal = report.bind(zuuluu)(michal);
+                michal = michal.bind(zuuluu)(tangon);
+                entity = !michal;
  87:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useIsActivityPanelFullscreen'] = mike;
+    zuuluu['useIsActivityPanelFullscreen'] = michal;
     return entity;
 })();

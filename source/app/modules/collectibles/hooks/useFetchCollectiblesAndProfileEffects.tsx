@@ -1,124 +1,124 @@
 // app/modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    options = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot5 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useFetchCollectiblesAndProfileEffects
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    option = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useFetchCollectiblesAndProfileEffects
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot1;
-            romeo = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            romeon = _closure1_slot2;
             yankee = 3;
-            mike = romeo[yankee];
+            michal = romeon[yankee];
             verify = undefined;
-            zulu = zulu.bind(verify)(mike);
-            mike = {};
-            tango = argFoo;
-            mike['location'] = tango;
-            mike = zulu.bind(verify)(mike);
-            golf = mike.isFetching;
-            options = mike.fetchCategoriesError;
-            oscar = mike.fetchPurchasesError;
-            zulu = mike.categories;
-            mike = mike.purchases;
+            zuuluu = zuuluu.bind(verify)(michal);
+            michal = {};
+            tangon = argFoo;
+            michal['location'] = tangon;
+            michal = zuuluu.bind(verify)(michal);
+            golfie = michal.isFetching;
+            option = michal.fetchCategoriesError;
+            oscard = michal.fetchPurchasesError;
+            zuuluu = michal.categories;
+            michal = michal.purchases;
             report = _closure1_slot0;
-            tango = 4;
-            tango = romeo[tango];
-            foxtrot = report.bind(verify)(tango);
-            romeo = foxtrot.useStateFromStoresArray;
-            tango = _closure1_slot5;
+            tangon = 4;
+            tangon = romeon[tangon];
+            foxtra = report.bind(verify)(tangon);
+            romeon = foxtra.useStateFromStoresArray;
+            tangon = _closure1_slot5;
             report = new Array(1);
-            report[0] = tango;
-            tango = function() {
-                mike = _closure1_slot5;
-                zulu = mike.isFetching;
+            report[0] = tangon;
+            tangon = function() {
+                michal = _closure1_slot5;
+                zuuluu = michal.isFetching;
                 entity = new Array(3);
-                entity[0] = zulu;
-                zulu = mike.fetchError;
-                entity[1] = zulu;
-                mike = mike.profileEffects;
-                entity[2] = mike;
+                entity[0] = zuuluu;
+                zuuluu = michal.fetchError;
+                entity[1] = zuuluu;
+                michal = michal.profileEffects;
+                entity[2] = michal;
                 return entity;
             };
-            report = romeo.bind(foxtrot)(report, tango);
-            tango = _closure1_slot3;
-            yankee = tango.bind(verify)(report, yankee);
-            tango = 0;
-            verify = yankee[tango];
-            tango = 1;
-            report = yankee[tango];
-            tango = 2;
-            tango = yankee[tango];
-            romeo = _closure1_slot4;
-            yankee = romeo.useEffect;
+            report = romeon.bind(foxtra)(report, tangon);
+            tangon = _closure1_slot3;
+            yankee = tangon.bind(verify)(report, yankee);
+            tangon = 0;
+            verify = yankee[tangon];
+            tangon = 1;
+            report = yankee[tangon];
+            tangon = 2;
+            tangon = yankee[tangon];
+            romeon = _closure1_slot4;
+            yankee = romeon.useEffect;
             offset = function() {
-                zulu = _closure1_slot0;
-                mike = _closure1_slot2;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
                 entity = 5;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                tango = zulu.bind(entity)(mike);
-                zulu = tango.fetchUserProfileEffects;
-                mike = true;
-                mike = zulu.bind(tango)(mike);
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.fetchUserProfileEffects;
+                michal = true;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
             entity = new Array(0);
-            entity = yankee.bind(romeo)(offset, entity);
+            entity = yankee.bind(romeon)(offset, entity);
             entity = {};
-            if(golf) { _fun00002_ip = 182; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 182; continue _fun00001 }
  179:
-            golf = verify;
+            golfie = verify;
  182:
-            entity['isFetching'] = golf;
-            golf = null;
-            if(!(golf != options)) { _fun00002_ip = 196; continue _fun00001 }
+            entity['isFetching'] = golfie;
+            golfie = null;
+            if(!(golfie != option)) { _fun00002_ip = 196; continue _fun00001 }
  193:
-            oscar = options;
+            oscard = option;
  196:
-            if(!(golf != oscar)) { _fun00002_ip = 203; continue _fun00001 }
+            if(!(golfie != oscard)) { _fun00002_ip = 203; continue _fun00001 }
  200:
-            report = oscar;
+            report = oscard;
  203:
             entity['combinedError'] = report;
-            entity['profileEffects'] = tango;
-            entity['categories'] = zulu;
-            entity['purchases'] = mike;
+            entity['profileEffects'] = tangon;
+            entity['categories'] = zuuluu;
+            entity['purchases'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

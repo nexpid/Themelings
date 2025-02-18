@@ -1,43 +1,43 @@
 // app/modules/replies/didReplyMention.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/replies/didReplyMention.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: didReplyMention
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/replies/didReplyMention.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: didReplyMention
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
+            michal = argBar;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00002_ip = 48; continue _fun00001 }
  12:
-            zulu = argFoo;
-            tango = zulu.mentions;
-            zulu = tango.includes;
-            mike = mike.author;
-            mike = mike.id;
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            entity = !mike;
+            zuuluu = argFoo;
+            tangon = zuuluu.mentions;
+            zuuluu = tangon.includes;
+            michal = michal.author;
+            michal = michal.id;
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            entity = !michal;
  48:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

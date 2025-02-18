@@ -1,21 +1,21 @@
 // app/modules/blocking/BlockedUserUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    tango = function(argFoo) { // Original name: voiceStateHasBlockedUsers
-        zulu = _closure1_slot3;
-        mike = zulu.isBlockedOrIgnored;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo) { // Original name: voiceStateHasBlockedUsers
+        zuuluu = _closure1_slot3;
+        michal = zuuluu.isBlockedOrIgnored;
         entity = argFoo;
         entity = entity.userId;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -23,166 +23,166 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/blocking/BlockedUserUtils.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo, argBar) { // Original name: filterOutBlockedOrIgnoredUsers
-        tango = argFoo;
-        mike = argBar;
-        var _closure2_slot0 = mike;
-        zulu = tango.filter;
-        mike = function(argFoo) {
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+        tangon = argFoo;
+        michal = argBar;
+        var _closure2_slot0 = michal;
+        zuuluu = tangon.filter;
+        michal = function(argFoo) {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.isNotNullish;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.isNotNullish;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        zulu = zulu.bind(tango)(mike);
-        mike = zulu.filter;
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.filter;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
-                tango = _closure2_slot0;
+                michal = argFoo;
+                tangon = _closure2_slot0;
                 entity = null;
-                if(!(entity == tango)) { _fun00002_ip = 41; continue _fun00001 }
+                if(!(entity == tangon)) { _fun00002_ip = 41; continue _fun00001 }
  16:
                 report = _closure1_slot3;
-                tango = report.isBlockedOrIgnored;
-                entity = mike.id;
-                entity = tango.bind(report)(entity);
+                tangon = report.isBlockedOrIgnored;
+                entity = michal.id;
+                entity = tangon.bind(report)(entity);
                 _fun00002_ip = 60; continue _fun00001;
  41:
-                tango = _closure2_slot0;
-                zulu = tango.includes;
-                mike = mike.id;
-                entity = zulu.bind(tango)(mike);
+                tangon = _closure2_slot0;
+                zuuluu = tangon.includes;
+                michal = michal.id;
+                entity = zuuluu.bind(tangon)(michal);
  60:
                 entity = !entity;
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['filterOutBlockedOrIgnoredUsers'] = report;
+    zuuluu['filterOutBlockedOrIgnoredUsers'] = report;
     report = function(argFoo, argBar) { // Original name: filterOutBlockedOrIgnoredUserIds
-        zulu = argFoo;
-        mike = argBar;
-        var _closure2_slot0 = mike;
-        mike = zulu.filter;
+        zuuluu = argFoo;
+        michal = argBar;
+        var _closure2_slot0 = michal;
+        michal = zuuluu.filter;
         entity = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = argFoo;
-                zulu = _closure2_slot0;
+                tangon = argFoo;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                if(!(entity == zulu)) { _fun00004_ip = 36; continue _fun00003 }
+                if(!(entity == zuuluu)) { _fun00004_ip = 36; continue _fun00003 }
  16:
-                zulu = _closure1_slot3;
-                entity = zulu.isBlockedOrIgnored;
-                entity = entity.bind(zulu)(tango);
+                zuuluu = _closure1_slot3;
+                entity = zuuluu.isBlockedOrIgnored;
+                entity = entity.bind(zuuluu)(tangon);
                 _fun00004_ip = 50; continue _fun00003;
  36:
-                zulu = _closure2_slot0;
-                mike = zulu.includes;
-                entity = mike.bind(zulu)(tango);
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.includes;
+                entity = michal.bind(zuuluu)(tangon);
  50:
                 entity = !entity;
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['filterOutBlockedOrIgnoredUserIds'] = report;
+    zuuluu['filterOutBlockedOrIgnoredUserIds'] = report;
     report = function(argFoo) { // Original name: filterOutStreamsByBlockedOwner
-        zulu = argFoo;
-        mike = zulu.filter;
+        zuuluu = argFoo;
+        michal = zuuluu.filter;
         entity = function(argFoo) {
-            zulu = _closure1_slot3;
-            mike = zulu.isBlockedOrIgnored;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.isBlockedOrIgnored;
             entity = argFoo;
             entity = entity.ownerId;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = !entity;
             return entity;
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['filterOutStreamsByBlockedOwner'] = report;
+    zuuluu['filterOutStreamsByBlockedOwner'] = report;
     report = function(argFoo, argBar) { // Original name: hasBlockedOrIgnoredUserIds
-        zulu = argFoo;
-        mike = argBar;
-        var _closure2_slot0 = mike;
-        mike = zulu.some;
+        zuuluu = argFoo;
+        michal = argBar;
+        var _closure2_slot0 = michal;
+        michal = zuuluu.some;
         entity = function(argFoo) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                tango = argFoo;
-                zulu = _closure2_slot0;
+                tangon = argFoo;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                if(!(entity == zulu)) { _fun00006_ip = 36; continue _fun00005 }
+                if(!(entity == zuuluu)) { _fun00006_ip = 36; continue _fun00005 }
  16:
-                zulu = _closure1_slot3;
-                entity = zulu.isBlockedOrIgnored;
-                entity = entity.bind(zulu)(tango);
+                zuuluu = _closure1_slot3;
+                entity = zuuluu.isBlockedOrIgnored;
+                entity = entity.bind(zuuluu)(tangon);
                 _fun00006_ip = 50; continue _fun00005;
  36:
-                zulu = _closure2_slot0;
-                mike = zulu.includes;
-                entity = mike.bind(zulu)(tango);
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.includes;
+                entity = michal.bind(zuuluu)(tangon);
  50:
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['hasBlockedOrIgnoredUserIds'] = report;
-    zulu['voiceStateHasBlockedUsers'] = tango;
-    mike = function(argFoo) { // Original name: filterBlockedUsersFromVoiceStates
-        mike = _closure1_slot1;
-        zulu = _closure1_slot2;
+    zuuluu['hasBlockedOrIgnoredUserIds'] = report;
+    zuuluu['voiceStateHasBlockedUsers'] = tangon;
+    michal = function(argFoo) { // Original name: filterBlockedUsersFromVoiceStates
+        michal = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 2;
-        entity = zulu[entity];
-        zulu = undefined;
-        mike = mike.bind(zulu)(entity);
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        michal = michal.bind(zuuluu)(entity);
         entity = argFoo;
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.filter;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.filter;
         entity = function(argFoo) {
-            zulu = _closure1_slot4;
-            mike = undefined;
+            zuuluu = _closure1_slot4;
+            michal = undefined;
             entity = argFoo;
-            entity = zulu.bind(mike)(entity);
+            entity = zuuluu.bind(michal)(entity);
             entity = !entity;
             return entity;
         };
-        zulu = mike.bind(zulu)(entity);
-        mike = zulu.keyBy;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.keyBy;
         entity = 'userId';
-        mike = mike.bind(zulu)(entity);
-        entity = mike.value;
-        entity = entity.bind(mike)();
+        michal = michal.bind(zuuluu)(entity);
+        entity = michal.value;
+        entity = entity.bind(michal)();
         return entity;
     };
-    zulu['filterBlockedUsersFromVoiceStates'] = mike;
+    zuuluu['filterBlockedUsersFromVoiceStates'] = michal;
     return entity;
 })();

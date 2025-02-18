@@ -1,77 +1,77 @@
 // app/modules/emojis/top_emojis/TopEmojisUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emojis/top_emojis/TopEmojisUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: maybeFetchTopEmojisByGuild
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emojis/top_emojis/TopEmojisUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: maybeFetchTopEmojisByGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 135; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 135; continue _fun00001 }
  12:
             report = _closure1_slot2;
-            tango = report.getCurrentUser;
-            tango = tango.bind(report)();
-            if(!(mike != tango)) { _fun00002_ip = 135; continue _fun00001 }
+            tangon = report.getCurrentUser;
+            tangon = tangon.bind(report)();
+            if(!(michal != tangon)) { _fun00002_ip = 135; continue _fun00001 }
  32:
             report = _closure1_slot3;
-            tango = report.getTopEmojisMetadata;
-            tango = tango.bind(report)(zulu);
-            if(!(mike != tango)) { _fun00002_ip = 84; continue _fun00001 }
+            tangon = report.getTopEmojisMetadata;
+            tangon = tangon.bind(report)(zuuluu);
+            if(!(michal != tangon)) { _fun00002_ip = 84; continue _fun00001 }
  53:
-            tango = tango.topEmojisTTL;
-            if(!(mike != tango)) { _fun00002_ip = 139; continue _fun00001 }
+            tangon = tangon.topEmojisTTL;
+            if(!(michal != tangon)) { _fun00002_ip = 139; continue _fun00001 }
  63:
-            mike = global;
-            report = mike.Date;
-            mike = report.now;
-            mike = mike.bind(report)();
-            if(!(!(mike < tango))) { _fun00002_ip = 139; continue _fun00001 }
+            michal = global;
+            report = michal.Date;
+            michal = report.now;
+            michal = michal.bind(report)();
+            if(!(!(michal < tangon))) { _fun00002_ip = 139; continue _fun00001 }
  84:
-            tango = _closure1_slot4;
-            mike = tango.getIsFetching;
-            mike = mike.bind(tango)(zulu);
-            if(mike) { _fun00002_ip = 135; continue _fun00001 }
+            tangon = _closure1_slot4;
+            michal = tangon.getIsFetching;
+            michal = michal.bind(tangon)(zuuluu);
+            if(michal) { _fun00002_ip = 135; continue _fun00001 }
  102:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.fetchTopEmojis;
-            entity = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.fetchTopEmojis;
+            entity = entity.bind(michal)(zuuluu);
  135:
             entity = undefined;
             return entity;
@@ -80,6 +80,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['maybeFetchTopEmojisByGuild'] = mike;
+    zuuluu['maybeFetchTopEmojisByGuild'] = michal;
     return entity;
 })();

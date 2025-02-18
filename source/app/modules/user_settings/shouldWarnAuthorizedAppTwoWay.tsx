@@ -1,61 +1,61 @@
 // app/modules/user_settings/shouldWarnAuthorizedAppTwoWay.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
-    tango = function(argFoo) { // Original name: isAuthorizedAppTwoWay
+    tangon = function(argFoo) { // Original name: isAuthorizedAppTwoWay
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 0;
-            entity = entity[oscar];
+            oscard = 0;
+            entity = entity[oscard];
             report = undefined;
-            entity = zulu.bind(report)(entity);
+            entity = zuuluu.bind(report)(entity);
             entity = entity.ConsoleOAuthApplications;
             entity = entity.XBOX_APPLICATION_ID;
-            entity = entity === tango;
+            entity = entity === tangon;
             if(entity) { _fun00002_ip = 85; continue _fun00001 }
  46:
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = zulu.bind(report)(mike);
-            mike = mike.ConsoleOAuthApplicationsSets;
-            zulu = mike.PLAYSTATION_APPLICATION_IDS;
-            mike = zulu.has;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = zuuluu.bind(report)(michal);
+            michal = michal.ConsoleOAuthApplicationsSets;
+            zuuluu = michal.PLAYSTATION_APPLICATION_IDS;
+            michal = zuuluu.has;
+            entity = michal.bind(zuuluu)(tangon);
  85:
             return entity;
         }
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    golf = {};
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 1;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/user_settings/shouldWarnAuthorizedAppTwoWay.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: useShouldWarnAuthorizedAppTwoWay
-        zulu = _closure1_slot2;
-        mike = undefined;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: useShouldWarnAuthorizedAppTwoWay
+        zuuluu = _closure1_slot2;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useShouldWarnAuthorizedAppTwoWay'] = mike;
+    zuuluu['useShouldWarnAuthorizedAppTwoWay'] = michal;
     return entity;
 })();

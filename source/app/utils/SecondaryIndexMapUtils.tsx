@@ -1,107 +1,107 @@
 // app/utils/SecondaryIndexMapUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'utils/SecondaryIndexMapUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: isVersionEqual
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'utils/SecondaryIndexMapUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: isVersionEqual
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = report[Symbol.iterator];
-            report = mike().next;
-            romeo = undefined;
-            zulu = undefined;
-            tango = undefined;
-            oscar = report().value;
-            verify = mike;
-            verify = verify === romeo;
-            zulu = verify;
+            michal = report[Symbol.iterator];
+            report = michal().next;
+            romeon = undefined;
+            zuuluu = undefined;
+            tangon = undefined;
+            oscard = report().value;
+            verify = michal;
+            verify = verify === romeon;
+            zuuluu = verify;
             if(verify) { _fun00002_ip = 32; continue _fun00001 }
  29:
-            tango = oscar;
+            tangon = oscard;
  32:
-            tango = undefined;
-            oscar = zulu;
-            if(oscar) { _fun00002_ip = 60; continue _fun00001 }
+            tangon = undefined;
+            oscard = zuuluu;
+            if(oscard) { _fun00002_ip = 60; continue _fun00001 }
  40:
             report = report().value;
-            oscar = mike;
-            oscar = oscar === romeo;
-            zulu = oscar;
-            if(oscar) { _fun00002_ip = 60; continue _fun00001 }
+            oscard = michal;
+            oscard = oscard === romeon;
+            zuuluu = oscard;
+            if(oscard) { _fun00002_ip = 60; continue _fun00001 }
  57:
-            tango = report;
+            tangon = report;
  60:
-            options = tango;
-            tango = zulu;
-            if(tango) { _fun00002_ip = 72; continue _fun00001 }
+            option = tangon;
+            tangon = zuuluu;
+            if(tangon) { _fun00002_ip = 72; continue _fun00001 }
  69:
-            mike.return();
+            michal.return();
  72:
             offset = argBar;
             report = offset[Symbol.iterator];
             offset = report().next;
-            oscar = undefined;
+            oscard = undefined;
             verify = undefined;
             yankee = offset().value;
-            foxtrot = report;
-            foxtrot = foxtrot === romeo;
-            oscar = foxtrot;
-            if(foxtrot) { _fun00002_ip = 102; continue _fun00001 }
+            foxtra = report;
+            foxtra = foxtra === romeon;
+            oscard = foxtra;
+            if(foxtra) { _fun00002_ip = 102; continue _fun00001 }
  99:
             verify = yankee;
  102:
             verify = undefined;
-            yankee = oscar;
+            yankee = oscard;
             if(yankee) { _fun00002_ip = 130; continue _fun00001 }
  110:
             offset = offset().value;
             yankee = report;
-            yankee = yankee === romeo;
-            oscar = yankee;
+            yankee = yankee === romeon;
+            oscard = yankee;
             if(yankee) { _fun00002_ip = 130; continue _fun00001 }
  127:
             verify = offset;
  130:
-            golf = verify;
-            verify = oscar;
+            golfie = verify;
+            verify = oscard;
             if(verify) { _fun00002_ip = 142; continue _fun00001 }
  139:
             report.return();
  142:
-            golf = options === golf;
-            return golf;
+            golfie = option === golfie;
+            return golfie;
  148:
             CatchBlockStart(arg_register=3);
-            if(oscar) { _fun00002_ip = 156; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 156; continue _fun00001 }
  153:
             report.return();
  156:
-            throw tango;
+            throw tangon;
  158:
             CatchBlockStart(arg_register=0);
-            if(zulu) { _fun00002_ip = 166; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
  163:
-            mike.return();
+            michal.return();
  166:
             throw entity;
         }
     };
-    zulu['isVersionEqual'] = mike;
+    zuuluu['isVersionEqual'] = michal;
     return entity;
 })();

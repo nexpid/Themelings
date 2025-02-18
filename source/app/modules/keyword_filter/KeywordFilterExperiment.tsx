@@ -1,104 +1,104 @@
 // app/modules/keyword_filter/KeywordFilterExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     yankee = true;
-    tango['value'] = yankee;
+    tangon['value'] = yankee;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(tango);
-    report = options.createExperiment;
-    tango = {'kind': 'user', 'id': '2024-04_keyword_filter_experiment', 'label': 'Replace registered keywords with asterisks'};
+    option = oscard.bind(entity)(tangon);
+    report = option.createExperiment;
+    tangon = {'kind': 'user', 'id': '2024-04_keyword_filter_experiment', 'label': 'Replace registered keywords with asterisks'};
     verify = {};
     offset = false;
     verify['enabled'] = offset;
-    tango['defaultConfig'] = verify;
+    tangon['defaultConfig'] = verify;
     offset = {'id': 1, 'label': 'Enable Keyword Filter'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
-    tango['treatments'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot2 = tango;
+    tangon['treatments'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/keyword_filter/KeywordFilterExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['KeywordFilterExperiment'] = tango;
-    tango = function(argFoo) { // Original name: useIsEligibleForKeywordFiltering
+    report = oscard.bind(golfie)(report);
+    zuuluu['KeywordFilterExperiment'] = tangon;
+    tangon = function(argFoo) { // Original name: useIsEligibleForKeywordFiltering
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.location;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            report = report.bind(mike)(tango);
-            tango = report.useIsEligibleForKeywordFilterUpsell;
-            mike = {};
-            mike['location'] = entity;
-            mike = tango.bind(report)(mike);
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = report.useIsEligibleForKeywordFilterUpsell;
+            michal = {};
+            michal['location'] = entity;
+            michal = tangon.bind(report)(michal);
             report = _closure1_slot2;
-            tango = report.useExperiment;
-            zulu = {};
-            zulu['location'] = entity;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = entity;
             entity = {};
-            oscar = true;
-            entity['autoTrackExposure'] = oscar;
-            entity = tango.bind(report)(zulu, entity);
+            oscard = true;
+            entity['autoTrackExposure'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
             entity = entity.enabled;
             if(entity) { _fun00002_ip = 92; continue _fun00001 }
  89:
-            entity = mike;
+            entity = michal;
  92:
             return entity;
         }
     };
-    zulu['useIsEligibleForKeywordFiltering'] = tango;
-    mike = function(argFoo) { // Original name: isEligibleForKeywordFiltering
+    zuuluu['useIsEligibleForKeywordFiltering'] = tangon;
+    michal = function(argFoo) { // Original name: isEligibleForKeywordFiltering
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = entity.location;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.isEligibleForKeywordFilterUpsell;
-            mike = {};
-            mike['location'] = report;
-            mike = zulu.bind(tango)(mike);
-            tango = _closure1_slot2;
-            zulu = tango.getCurrentConfig;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.isEligibleForKeywordFilterUpsell;
+            michal = {};
+            michal['location'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getCurrentConfig;
             entity = {};
             entity['location'] = report;
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             entity = entity.enabled;
             if(entity) { _fun00004_ip = 82; continue _fun00003 }
  79:
-            entity = mike;
+            entity = michal;
  82:
             return entity;
         }
     };
-    zulu['isEligibleForKeywordFiltering'] = mike;
+    zuuluu['isEligibleForKeywordFiltering'] = michal;
     return entity;
 })();

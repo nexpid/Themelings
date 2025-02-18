@@ -1,57 +1,57 @@
 // app/modules/autocompleter/index.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        oscar = argBar;
-        tango = argBaz;
-        zulu = argFred;
-        report = argPlugh;
+        oscard = argBar;
+        tangon = argBaz;
+        zuuluu = argFre;
+        report = argPlu;
         entity = global;
-        options = entity.Object;
-        golf = options.defineProperty;
-        mike = {};
+        option = entity.Object;
+        golfie = option.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = golf.bind(options)(zulu, entity, mike);
+        entity = golfie.bind(option)(zuuluu, entity, michal);
         entity = 0;
-        mike = report[entity];
+        michal = report[entity];
         entity = undefined;
-        options = oscar.bind(entity)(mike);
-        golf = options.fileFinishedImporting;
-        mike = 'modules/autocompleter/index.tsx';
-        mike = golf.bind(options)(mike);
-        mike = 1;
-        mike = report[mike];
-        mike = tango.bind(entity)(mike);
-        zulu['default'] = mike;
-        mike = 2;
-        mike = report[mike];
-        yankee = oscar.bind(entity)(mike);
+        option = oscard.bind(entity)(michal);
+        golfie = option.fileFinishedImporting;
+        michal = 'modules/autocompleter/index.tsx';
+        michal = golfie.bind(option)(michal);
+        michal = 1;
+        michal = report[michal];
+        michal = tangon.bind(entity)(michal);
+        zuuluu['default'] = michal;
+        michal = 2;
+        michal = report[michal];
+        yankee = oscard.bind(entity)(michal);
         verify = yankee;
-        for(mike in verify)
+        for(michal in verify)
  114:
         {
  123:
-            foxtrot = mike;
-            romeo = yankee[foxtrot];
-            zulu[foxtrot] = romeo;
+            foxtra = michal;
+            romeon = yankee[foxtra];
+            zuuluu[foxtra] = romeon;
             _fun00002_ip = 114; continue _fun00001;
         }
  136:
-        mike = 3;
-        mike = report[mike];
-        mike = oscar.bind(entity)(mike);
-        mike = mike.createHeaderResult;
-        zulu['createHeaderResult'] = mike;
-        mike = 4;
-        mike = report[mike];
-        mike = tango.bind(entity)(mike);
-        zulu['findNextSelectedResult'] = mike;
-        mike = 5;
-        mike = report[mike];
-        mike = tango.bind(entity)(mike);
-        zulu['sortByMatchScore'] = mike;
+        michal = 3;
+        michal = report[michal];
+        michal = oscard.bind(entity)(michal);
+        michal = michal.createHeaderResult;
+        zuuluu['createHeaderResult'] = michal;
+        michal = 4;
+        michal = report[michal];
+        michal = tangon.bind(entity)(michal);
+        zuuluu['findNextSelectedResult'] = michal;
+        michal = 5;
+        michal = report[michal];
+        michal = tangon.bind(entity)(michal);
+        zuuluu['sortByMatchScore'] = michal;
         return entity;
     }
 })();

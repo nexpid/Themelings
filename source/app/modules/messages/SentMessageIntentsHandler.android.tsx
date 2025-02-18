@@ -1,39 +1,39 @@
 // app/modules/messages/SentMessageIntentsHandler.android.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
-    mike = global;
-    oscar = mike.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = report.bind(oscar)(zulu, mike, tango);
-    mike = {};
-    tango = function() { // Original name: init
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    michal = global;
+    oscard = michal.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
+    michal = {};
+    tangon = function() { // Original name: init
         entity = undefined;
         return entity;
     };
-    mike['init'] = tango;
-    tango = function() { // Original name: donateSentMessage
+    michal['init'] = tangon;
+    tangon = function() { // Original name: donateSentMessage
         entity = undefined;
         return entity;
     };
-    mike['donateSentMessage'] = tango;
+    michal['donateSentMessage'] = tangon;
     entity = function() { // Original name: deleteAllInteractions
         entity = undefined;
         return entity;
     };
-    mike['deleteAllInteractions'] = entity;
-    tango = argPlugh;
+    michal['deleteAllInteractions'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/SentMessageIntentsHandler.android.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/SentMessageIntentsHandler.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

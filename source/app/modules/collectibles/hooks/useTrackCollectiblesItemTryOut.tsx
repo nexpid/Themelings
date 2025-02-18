@@ -1,158 +1,158 @@
 // app/modules/collectibles/hooks/useTrackCollectiblesItemTryOut.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.useCallback;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.AnalyticsPremiumFeatureNames;
-    var _closure1_slot6 = golf;
-    tango = tango.AnalyticsPremiumFeatureTiers;
-    var _closure1_slot7 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/hooks/useTrackCollectiblesItemTryOut.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: _default
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useCallback;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AnalyticsPremiumFeatureNames;
+    var _closure1_slot6 = golfie;
+    tangon = tangon.AnalyticsPremiumFeatureTiers;
+    var _closure1_slot7 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/hooks/useTrackCollectiblesItemTryOut.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: _default
         report = argFoo;
         var _closure2_slot0 = report;
-        oscar = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 4;
-        zulu = tango[zulu];
-        tango = undefined;
-        options = oscar.bind(tango)(zulu);
-        golf = options.useStateFromStores;
-        zulu = _closure1_slot4;
-        oscar = new Array(1);
-        oscar[0] = zulu;
-        zulu = function() {
+        oscard = _closure1_slot0;
+        tangon = _closure1_slot2;
+        zuuluu = 4;
+        zuuluu = tangon[zuuluu];
+        tangon = undefined;
+        option = oscard.bind(tangon)(zuuluu);
+        golfie = option.useStateFromStores;
+        zuuluu = _closure1_slot4;
+        oscard = new Array(1);
+        oscard[0] = zuuluu;
+        zuuluu = function() {
             entity = _closure1_slot4;
             entity = entity.products;
             return entity;
         };
-        oscar = golf.bind(options)(oscar, zulu);
-        var _closure2_slot1 = oscar;
-        zulu = _closure1_slot3;
-        mike = new Array(2);
-        mike[0] = oscar;
-        mike[1] = report;
+        oscard = golfie.bind(option)(oscard, zuuluu);
+        var _closure2_slot1 = oscard;
+        zuuluu = _closure1_slot3;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 backup = entity.type;
-                zulu = entity.skuId;
-                mike = _closure2_slot1;
-                entity = mike.get;
-                options = entity.bind(mike)(zulu);
-                zulu = _closure1_slot1;
+                zuuluu = entity.skuId;
+                michal = _closure2_slot1;
+                entity = michal.get;
+                option = entity.bind(michal)(zuuluu);
+                zuuluu = _closure1_slot1;
                 yankee = _closure1_slot2;
                 entity = 5;
-                mike = yankee[entity];
+                michal = yankee[entity];
                 entity = undefined;
-                report = zulu.bind(entity)(mike);
-                tango = report.track;
-                mike = _closure1_slot5;
-                zulu = mike.PREMIUM_FEATURE_TRY_OUT;
-                mike = {};
+                report = zuuluu.bind(entity)(michal);
+                tangon = report.track;
+                michal = _closure1_slot5;
+                zuuluu = michal.PREMIUM_FEATURE_TRY_OUT;
+                michal = {};
                 offset = _closure1_slot0;
-                romeo = 6;
-                romeo = yankee[romeo];
-                foxtrot = offset.bind(entity)(romeo);
-                romeo = foxtrot.match;
-                sizing = romeo.bind(foxtrot)(backup);
-                kilo = sizing.with;
-                romeo = 7;
-                foxtrot = yankee[romeo];
-                foxtrot = offset.bind(entity)(foxtrot);
-                foxtrot = foxtrot.CollectiblesItemType;
-                backup = foxtrot.AVATAR_DECORATION;
-                foxtrot = function() {
+                romeon = 6;
+                romeon = yankee[romeon];
+                foxtra = offset.bind(entity)(romeon);
+                romeon = foxtra.match;
+                sizing = romeon.bind(foxtra)(backup);
+                kiloes = sizing.with;
+                romeon = 7;
+                foxtra = yankee[romeon];
+                foxtra = offset.bind(entity)(foxtra);
+                foxtra = foxtra.CollectiblesItemType;
+                backup = foxtra.AVATAR_DECORATION;
+                foxtra = function() {
                     entity = _closure1_slot6;
                     entity = entity.AVATAR_DECORATION;
                     return entity;
                 };
-                kilo = kilo.bind(sizing)(backup, foxtrot);
-                backup = kilo.with;
-                romeo = yankee[romeo];
-                romeo = offset.bind(entity)(romeo);
-                romeo = romeo.CollectiblesItemType;
-                foxtrot = romeo.PROFILE_EFFECT;
-                romeo = function() {
+                kiloes = kiloes.bind(sizing)(backup, foxtra);
+                backup = kiloes.with;
+                romeon = yankee[romeon];
+                romeon = offset.bind(entity)(romeon);
+                romeon = romeon.CollectiblesItemType;
+                foxtra = romeon.PROFILE_EFFECT;
+                romeon = function() {
                     entity = _closure1_slot6;
                     entity = entity.PROFILE_EFFECT;
                     return entity;
                 };
-                foxtrot = backup.bind(kilo)(foxtrot, romeo);
-                romeo = foxtrot.otherwise;
-                golf = function() {
+                foxtra = backup.bind(kiloes)(foxtra, romeon);
+                romeon = foxtra.otherwise;
+                golfie = function() {
                     entity = undefined;
                     return entity;
                 };
-                golf = romeo.bind(foxtrot)(golf);
-                mike['feature_name'] = golf;
-                golf = 8;
-                golf = yankee[golf];
-                offset = offset.bind(entity)(golf);
-                golf = offset.isPremiumCollectiblesProduct;
-                golf = golf.bind(offset)(options);
+                golfie = romeon.bind(foxtra)(golfie);
+                michal['feature_name'] = golfie;
+                golfie = 8;
+                golfie = yankee[golfie];
+                offset = offset.bind(entity)(golfie);
+                golfie = offset.isPremiumCollectiblesProduct;
+                golfie = golfie.bind(offset)(option);
                 verify = _closure1_slot7;
-                if(golf) { _fun00002_ip = 240; continue _fun00001 }
+                if(golfie) { _fun00002_ip = 240; continue _fun00001 }
  232:
-                golf = verify.PREMIUM_STANDARD;
+                golfie = verify.PREMIUM_STANDARD;
                 _fun00002_ip = 246; continue _fun00001;
  240:
-                golf = verify.FREE;
+                golfie = verify.FREE;
  246:
-                mike['feature_tier'] = golf;
-                golf = null;
-                verify = golf == options;
-                golf = undefined;
+                michal['feature_tier'] = golfie;
+                golfie = null;
+                verify = golfie == option;
+                golfie = undefined;
                 if(verify) { _fun00002_ip = 267; continue _fun00001 }
  262:
-                golf = options.name;
+                golfie = option.name;
  267:
-                mike['feature_selection'] = golf;
-                oscar = _closure2_slot0;
-                mike['location_stack'] = oscar;
-                mike = tango.bind(report)(zulu, mike);
+                michal['feature_selection'] = golfie;
+                oscard = _closure2_slot0;
+                michal['location_stack'] = oscard;
+                michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

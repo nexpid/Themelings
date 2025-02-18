@@ -1,105 +1,105 @@
 // app/modules/guild_onboarding/doGuildOnboardingHelpers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildMemberFlags;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_onboarding/doGuildOnboardingHelpers.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: waitForOnboardingCompletion
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        mike = global;
-        zulu = mike.Promise;
-        mike = zulu.prototype;
-        mike = Object.create(mike, {constructor: {value: zulu}});
-        tango = function(argFoo) {
-            mike = argFoo;
-            var _closure3_slot0 = mike;
-            zulu = _closure1_slot3;
-            mike = zulu.addConditionalChangeListener;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildMemberFlags;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_onboarding/doGuildOnboardingHelpers.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: waitForOnboardingCompletion
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = global;
+        zuuluu = michal.Promise;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        tangon = function(argFoo) {
+            michal = argFoo;
+            var _closure3_slot0 = michal;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.addConditionalChangeListener;
             entity = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = _closure1_slot3;
-                    zulu = report.getSelfMember;
+                    zuuluu = report.getSelfMember;
                     entity = _closure2_slot0;
-                    options = zulu.bind(report)(entity);
+                    option = zuuluu.bind(report)(entity);
                     report = _closure1_slot0;
-                    zulu = _closure1_slot2;
+                    zuuluu = _closure1_slot2;
                     entity = 2;
-                    entity = zulu[entity];
-                    zulu = undefined;
-                    golf = report.bind(zulu)(entity);
-                    oscar = golf.hasFlag;
+                    entity = zuuluu[entity];
+                    zuuluu = undefined;
+                    golfie = report.bind(zuuluu)(entity);
+                    oscard = golfie.hasFlag;
                     report = null;
-                    verify = report == options;
+                    verify = report == option;
                     entity = undefined;
                     if(verify) { _fun00002_ip = 69; continue _fun00001 }
  64:
-                    entity = options.flags;
+                    entity = option.flags;
  69:
-                    options = report != entity;
+                    option = report != entity;
                     report = 0;
-                    if(!options) { _fun00002_ip = 81; continue _fun00001 }
+                    if(!option) { _fun00002_ip = 81; continue _fun00001 }
  78:
                     report = entity;
  81:
                     entity = _closure1_slot4;
                     entity = entity.COMPLETED_ONBOARDING;
-                    entity = oscar.bind(golf)(report, entity);
+                    entity = oscard.bind(golfie)(report, entity);
                     entity = !entity;
                     if(entity) { _fun00002_ip = 151; continue _fun00001 }
  103:
                     report = _closure1_slot1;
-                    oscar = _closure1_slot2;
-                    tango = 3;
-                    tango = oscar[tango];
-                    report = report.bind(zulu)(tango);
-                    tango = report.finishOnboarding;
-                    mike = _closure2_slot0;
-                    mike = tango.bind(report)(mike);
-                    mike = _closure3_slot0;
-                    mike = mike.bind(zulu)();
+                    oscard = _closure1_slot2;
+                    tangon = 3;
+                    tangon = oscard[tangon];
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.finishOnboarding;
+                    michal = _closure2_slot0;
+                    michal = tangon.bind(report)(michal);
+                    michal = _closure3_slot0;
+                    michal = michal.bind(zuuluu)();
                     entity = false;
  151:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    zulu['waitForOnboardingCompletion'] = mike;
+    zuuluu['waitForOnboardingCompletion'] = michal;
     return entity;
 })();

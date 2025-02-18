@@ -1,141 +1,141 @@
 // app/modules/guild_profile/GuildPopoutActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _fetchGuildForPopout
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 254; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 254; continue _fun00001 }
  13:
-                    oscar = verify;
-                    golf = _closure1_slot1;
-                    mike = _closure1_slot2;
+                    oscard = verify;
+                    golfie = _closure1_slot1;
+                    michal = _closure1_slot2;
                     report = 2;
-                    tango = mike[report];
-                    mike = undefined;
-                    options = golf.bind(mike)(tango);
-                    golf = options.dispatch;
-                    tango = {};
+                    tangon = michal[report];
+                    michal = undefined;
+                    option = golfie.bind(michal)(tangon);
+                    golfie = option.dispatch;
+                    tangon = {};
                     offset = 'GUILD_POPOUT_FETCH_START';
-                    tango['type'] = offset;
-                    tango['guildId'] = verify;
-                    tango = golf.bind(options)(tango);
+                    tangon['type'] = offset;
+                    tangon['guildId'] = verify;
+                    tangon = golfie.bind(option)(tangon);
  67: // try_start_0
-                    golf = _closure1_slot0;
-                    options = _closure1_slot2;
-                    tango = 3;
-                    tango = options[tango];
-                    tango = golf.bind(mike)(tango);
-                    options = tango.HTTP;
-                    golf = options.get;
-                    tango = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot2;
+                    tangon = 3;
+                    tangon = option[tangon];
+                    tangon = golfie.bind(michal)(tangon);
+                    option = tangon.HTTP;
+                    golfie = option.get;
+                    tangon = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
                     yankee = _closure1_slot4;
                     offset = yankee.GUILD_PREVIEW;
-                    verify = oscar;
+                    verify = oscard;
                     verify = offset.bind(yankee)(verify);
-                    tango['url'] = verify;
-                    tango = golf.bind(options)(tango);
+                    tangon['url'] = verify;
+                    tangon = golfie.bind(option)(tangon);
                     SaveGenerator(address=140);
  138:
-                    return tango;
+                    return tangon;
  140:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun00002_ip = 203; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 203; continue _fun00001 }
  146:
-                    options = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    golf = golf[report];
-                    verify = options.bind(mike)(golf);
-                    options = verify.dispatch;
-                    golf = {};
+                    option = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    golfie = golfie[report];
+                    verify = option.bind(michal)(golfie);
+                    option = verify.dispatch;
+                    golfie = {};
                     offset = 'GUILD_POPOUT_FETCH_SUCCESS';
-                    golf['type'] = offset;
-                    offset = oscar;
-                    golf['guildId'] = offset;
-                    offset = tango.body;
-                    golf['guild'] = offset;
-                    golf = options.bind(verify)(golf);
+                    golfie['type'] = offset;
+                    offset = oscard;
+                    golfie['guildId'] = offset;
+                    offset = tangon.body;
+                    golfie['guild'] = offset;
+                    golfie = option.bind(verify)(golfie);
  201: // try_end0
                     _fun00002_ip = 251; continue _fun00001;
  203:
-                    return tango;
+                    return tangon;
  206: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    zulu = zulu[report];
-                    report = tango.bind(mike)(zulu);
-                    tango = report.dispatch;
-                    zulu = {};
-                    golf = 'GUILD_POPOUT_FETCH_FAILURE';
-                    zulu['type'] = golf;
-                    zulu['guildId'] = oscar;
-                    zulu = tango.bind(report)(zulu);
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[report];
+                    report = tangon.bind(michal)(zuuluu);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    golfie = 'GUILD_POPOUT_FETCH_FAILURE';
+                    zuuluu['type'] = golfie;
+                    zuuluu['guildId'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
  251:
-                    return mike;
+                    return michal;
  254:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_profile/GuildPopoutActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: fetchGuildForPopout
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_profile/GuildPopoutActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: fetchGuildForPopout
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['fetchGuildForPopout'] = mike;
+    zuuluu['fetchGuildForPopout'] = michal;
     return entity;
 })();

@@ -1,108 +1,108 @@
 // app/design/components/Tooltip/native/TooltipConstants.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = {'overshootClamping': true, 'damping': 35, 'stiffness': 450, 'mass': 0.5, 'restDisplacementThreshold': 0.001};
     var _closure1_slot2 = entity;
     entity = {};
-    oscar = "function TooltipConstantsNativeTsx1(visible,cleanUp){const{withSpring,translateY,TOOLTIP_SPRING}=this.__closure;return{transform:[{translateY:withSpring(visible===1?0:translateY,TOOLTIP_SPRING,'respect-motion-settings',cleanUp)}],opacity:withSpring(visible,TOOLTIP_SPRING,'respect-motion-settings',cleanUp)};}";
-    entity['code'] = oscar;
+    oscard = "function TooltipConstantsNativeTsx1(visible,cleanUp){const{withSpring,translateY,TOOLTIP_SPRING}=this.__closure;return{transform:[{translateY:withSpring(visible===1?0:translateY,TOOLTIP_SPRING,'respect-motion-settings',cleanUp)}],opacity:withSpring(visible,TOOLTIP_SPRING,'respect-motion-settings',cleanUp)};}";
+    entity['code'] = oscard;
     var _closure1_slot3 = entity;
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Tooltip/native/TooltipConstants.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: tooltipEnterExitAnimation
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Tooltip/native/TooltipConstants.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: tooltipEnterExitAnimation
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = -8;
-            zulu = 'top';
-            mike = argFoo;
-            if(!(zulu === mike)) { _fun00002_ip = 22; continue _fun00001 }
+            tangon = -8;
+            zuuluu = 'top';
+            michal = argFoo;
+            if(!(zuuluu === michal)) { _fun00002_ip = 22; continue _fun00001 }
  19:
-            tango = 8;
+            tangon = 8;
  22:
-            var _closure2_slot0 = tango;
+            var _closure2_slot0 = tangon;
             entity = function(argFoo, argBar) { // Original name: o
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    golf = argFoo;
-                    oscar = argBar;
+                    golfie = argFoo;
+                    oscard = argBar;
                     entity = {};
                     offset = {};
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
                     verify = 0;
-                    zulu = zulu[verify];
-                    options = undefined;
-                    romeo = tango.bind(options)(zulu);
-                    yankee = romeo.withSpring;
-                    tango = 1;
-                    zulu = 0;
-                    if(!(tango !== golf)) { _fun00004_ip = 55; continue _fun00003 }
+                    zuuluu = zuuluu[verify];
+                    option = undefined;
+                    romeon = tangon.bind(option)(zuuluu);
+                    yankee = romeon.withSpring;
+                    tangon = 1;
+                    zuuluu = 0;
+                    if(!(tangon !== golfie)) { _fun00004_ip = 55; continue _fun00003 }
  48:
-                    zulu = _closure2_slot0;
+                    zuuluu = _closure2_slot0;
  55:
                     report = _closure1_slot2;
-                    tango = 'respect-motion-settings';
-                    output = romeo;
-                    sizing = zulu;
-                    kilo = report;
-                    backup = tango;
-                    foxtrot = oscar;
-                    zulu = output[yankee](sizing, kilo, backup, foxtrot, romeo);
-                    offset['translateY'] = zulu;
-                    zulu = new Array(1);
-                    zulu[0] = offset;
-                    entity['transform'] = zulu;
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    mike = mike[verify];
-                    zulu = zulu.bind(options)(mike);
-                    mike = zulu.withSpring;
-                    output = zulu;
-                    sizing = golf;
-                    kilo = report;
-                    foxtrot = oscar;
-                    mike = output[mike](sizing, kilo, backup, foxtrot, romeo);
-                    entity['opacity'] = mike;
+                    tangon = 'respect-motion-settings';
+                    output = romeon;
+                    sizing = zuuluu;
+                    kiloes = report;
+                    backup = tangon;
+                    foxtra = oscard;
+                    zuuluu = output[yankee](sizing, kiloes, backup, foxtra, romeon);
+                    offset['translateY'] = zuuluu;
+                    zuuluu = new Array(1);
+                    zuuluu[0] = offset;
+                    entity['transform'] = zuuluu;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    michal = michal[verify];
+                    zuuluu = zuuluu.bind(option)(michal);
+                    michal = zuuluu.withSpring;
+                    output = zuuluu;
+                    sizing = golfie;
+                    kiloes = report;
+                    foxtra = oscard;
+                    michal = output[michal](sizing, kiloes, backup, foxtra, romeon);
+                    entity['opacity'] = michal;
                     return entity;
                 }
             };
-            zulu = {};
-            golf = _closure1_slot0;
-            oscar = _closure1_slot1;
+            zuuluu = {};
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
             report = 0;
-            oscar = oscar[report];
+            oscard = oscard[report];
             report = undefined;
-            report = golf.bind(report)(oscar);
+            report = golfie.bind(report)(oscard);
             report = report.withSpring;
-            zulu['withSpring'] = report;
-            zulu['translateY'] = tango;
-            tango = _closure1_slot2;
-            zulu['TOOLTIP_SPRING'] = tango;
-            entity['__closure'] = zulu;
-            zulu = 7727487832145.0;
-            entity['__workletHash'] = zulu;
-            mike = _closure1_slot3;
-            entity['__initData'] = mike;
+            zuuluu['withSpring'] = report;
+            zuuluu['translateY'] = tangon;
+            tangon = _closure1_slot2;
+            zuuluu['TOOLTIP_SPRING'] = tangon;
+            entity['__closure'] = zuuluu;
+            zuuluu = 7727487832145.0;
+            entity['__workletHash'] = zuuluu;
+            michal = _closure1_slot3;
+            entity['__initData'] = michal;
             return entity;
         }
     };
-    zulu['tooltipEnterExitAnimation'] = mike;
+    zuuluu['tooltipEnterExitAnimation'] = michal;
     return entity;
 })();

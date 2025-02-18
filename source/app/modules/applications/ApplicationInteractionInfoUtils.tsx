@@ -1,74 +1,74 @@
 // app/modules/applications/ApplicationInteractionInfoUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/applications/ApplicationInteractionInfoUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: canViewInteractionInfo
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/applications/ApplicationInteractionInfoUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: canViewInteractionInfo
         entity = argFoo;
-        mike = entity.interactionMetadata;
+        michal = entity.interactionMetadata;
         entity = null;
-        entity = entity != mike;
+        entity = entity != michal;
         return entity;
     };
-    zulu['canViewInteractionInfo'] = tango;
-    mike = function(argFoo) { // Original name: isPrimaryEntryPointCommandMessage
+    zuuluu['canViewInteractionInfo'] = tangon;
+    michal = function(argFoo) { // Original name: isPrimaryEntryPointCommandMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            entity = tango.interactionMetadata;
-            zulu = null;
-            mike = zulu == entity;
+            tangon = argFoo;
+            entity = tangon.interactionMetadata;
+            zuuluu = null;
+            michal = zuuluu == entity;
             report = undefined;
-            golf = undefined;
-            if(mike) { _fun00002_ip = 27; continue _fun00001 }
+            golfie = undefined;
+            if(michal) { _fun00002_ip = 27; continue _fun00001 }
  22:
-            golf = entity.type;
+            golfie = entity.type;
  27:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             entity = _closure1_slot1;
-            oscar = 0;
-            entity = entity[oscar];
-            entity = options.bind(report)(entity);
+            oscard = 0;
+            entity = entity[oscard];
+            entity = option.bind(report)(entity);
             entity = entity.InteractionTypes;
             entity = entity.APPLICATION_COMMAND;
-            entity = golf === entity;
+            entity = golfie === entity;
             if(!entity) { _fun00002_ip = 122; continue _fun00001 }
  68:
-            tango = tango.interactionMetadata;
-            golf = zulu == tango;
-            zulu = undefined;
-            if(golf) { _fun00002_ip = 89; continue _fun00001 }
+            tangon = tangon.interactionMetadata;
+            golfie = zuuluu == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00002_ip = 89; continue _fun00001 }
  83:
-            zulu = tango.command_type;
+            zuuluu = tangon.command_type;
  89:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
-            mike = mike[oscar];
-            mike = tango.bind(report)(mike);
-            mike = mike.ApplicationCommandType;
-            mike = mike.PRIMARY_ENTRY_POINT;
-            entity = zulu === mike;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.ApplicationCommandType;
+            michal = michal.PRIMARY_ENTRY_POINT;
+            entity = zuuluu === michal;
  122:
             return entity;
         }
     };
-    zulu['isPrimaryEntryPointCommandMessage'] = mike;
+    zuuluu['isPrimaryEntryPointCommandMessage'] = michal;
     return entity;
 })();

@@ -1,78 +1,78 @@
 // app/modules/saved_messages/SavedMessagesTypes.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
-    tango = function(argFoo) { // Original name: savedMessageDataToClient
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
+    tangon = function(argFoo) { // Original name: savedMessageDataToClient
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = {};
-            mike = zulu.channel_id;
-            entity['channelId'] = mike;
-            mike = zulu.message_id;
-            entity['messageId'] = mike;
-            tango = global;
-            oscar = tango.Date;
-            options = zulu.saved_at;
-            report = oscar.prototype;
-            report = Object.create(report, {constructor: {value: oscar}});
+            michal = zuuluu.channel_id;
+            entity['channelId'] = michal;
+            michal = zuuluu.message_id;
+            entity['messageId'] = michal;
+            tangon = global;
+            oscard = tangon.Date;
+            option = zuuluu.saved_at;
+            report = oscard.prototype;
+            report = Object.create(report, {constructor: {value: oscard}});
             verify = report;
-            mike = new verify[oscar](options, golf);
-            mike = mike instanceof Object ? mike : report;
-            entity['savedAt'] = mike;
-            mike = zulu.author_summary;
-            entity['authorSummary'] = mike;
-            mike = zulu.channel_summary;
-            entity['channelSummary'] = mike;
-            mike = zulu.message_summary;
-            entity['messageSummary'] = mike;
-            oscar = zulu.guild_id;
-            golf = 0;
+            michal = new verify[oscard](option, golfie);
+            michal = michal instanceof Object ? michal : report;
+            entity['savedAt'] = michal;
+            michal = zuuluu.author_summary;
+            entity['authorSummary'] = michal;
+            michal = zuuluu.channel_summary;
+            entity['channelSummary'] = michal;
+            michal = zuuluu.message_summary;
+            entity['messageSummary'] = michal;
+            oscard = zuuluu.guild_id;
+            golfie = 0;
             report = undefined;
-            if(!(golf !== oscar)) { _fun00002_ip = 128; continue _fun00001 }
+            if(!(golfie !== oscard)) { _fun00002_ip = 128; continue _fun00001 }
  123:
-            report = zulu.guild_id;
+            report = zuuluu.guild_id;
  128:
             entity['guildId'] = report;
-            oscar = zulu.author_id;
+            oscard = zuuluu.author_id;
             report = undefined;
-            if(!(golf !== oscar)) { _fun00002_ip = 150; continue _fun00001 }
+            if(!(golfie !== oscard)) { _fun00002_ip = 150; continue _fun00001 }
  144:
-            report = zulu.author_id;
+            report = zuuluu.author_id;
  150:
             entity['authorId'] = report;
-            report = zulu.notes;
+            report = zuuluu.notes;
             entity['notes'] = report;
-            oscar = zulu.due_at;
+            oscard = zuuluu.due_at;
             report = null;
-            report = report != oscar;
-            mike = undefined;
+            report = report != oscard;
+            michal = undefined;
             if(!report) { _fun00002_ip = 215; continue _fun00001 }
  183:
-            report = tango.Date;
-            options = zulu.due_at;
-            tango = report.prototype;
-            tango = Object.create(tango, {constructor: {value: report}});
-            verify = tango;
-            zulu = new verify[report](options, golf);
-            mike = zulu instanceof Object ? zulu : tango;
+            report = tangon.Date;
+            option = zuuluu.due_at;
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            verify = tangon;
+            zuuluu = new verify[report](option, golfie);
+            michal = zuuluu instanceof Object ? zuuluu : tangon;
  215:
-            entity['dueAt'] = mike;
+            entity['dueAt'] = michal;
             return entity;
         }
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     report = {};
     entity = 'ALL';
     report['ALL'] = entity;
@@ -81,53 +81,53 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = 'BOOKMARK';
     report['BOOKMARK'] = entity;
     entity = 1;
-    oscar = oscar[entity];
+    oscard = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/saved_messages/SavedMessagesTypes.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['SavedMessageSortTypes'] = report;
-    zulu['savedMessageDataToClient'] = tango;
-    tango = function(argFoo) { // Original name: savedMessageCreateObjectToClient
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/saved_messages/SavedMessagesTypes.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['SavedMessageSortTypes'] = report;
+    zuuluu['savedMessageDataToClient'] = tangon;
+    tangon = function(argFoo) { // Original name: savedMessageCreateObjectToClient
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = {};
-            tango = mike.message;
-            zulu = null;
-            tango = zulu != tango;
-            if(!tango) { _fun00004_ip = 59; continue _fun00003 }
+            tangon = michal.message;
+            zuuluu = null;
+            tangon = zuuluu != tangon;
+            if(!tangon) { _fun00004_ip = 59; continue _fun00003 }
  19:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 0;
-            report = report[tango];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.createMessageRecord;
-            tango = mike.message;
-            zulu = report.bind(oscar)(tango);
+            tangon = 0;
+            report = report[tangon];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.createMessageRecord;
+            tangon = michal.message;
+            zuuluu = report.bind(oscard)(tangon);
  59:
-            entity['message'] = zulu;
-            tango = _closure1_slot2;
-            zulu = mike.save_data;
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            entity['saveData'] = mike;
+            entity['message'] = zuuluu;
+            tangon = _closure1_slot2;
+            zuuluu = michal.save_data;
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            entity['saveData'] = michal;
             return entity;
         }
     };
-    zulu['savedMessageCreateObjectToClient'] = tango;
-    mike = function(argFoo) { // Original name: savedMessageDeleteObjectToClient
-        mike = argFoo;
+    zuuluu['savedMessageCreateObjectToClient'] = tangon;
+    michal = function(argFoo) { // Original name: savedMessageDeleteObjectToClient
+        michal = argFoo;
         entity = {};
-        zulu = mike.channel_id;
-        entity['channelId'] = zulu;
-        mike = mike.message_id;
-        entity['messageId'] = mike;
+        zuuluu = michal.channel_id;
+        entity['channelId'] = zuuluu;
+        michal = michal.message_id;
+        entity['messageId'] = michal;
         return entity;
     };
-    zulu['savedMessageDeleteObjectToClient'] = mike;
+    zuuluu['savedMessageDeleteObjectToClient'] = michal;
     return entity;
 })();

@@ -1,86 +1,86 @@
 // app/modules/debug/serializePushNotifcationLogs.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.DEVICE_TOKEN;
-    var _closure1_slot2 = golf;
-    tango = tango.DEVICE_VOIP_TOKEN;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/debug/serializePushNotifcationLogs.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: serializePushNotificationLogs
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.DEVICE_TOKEN;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.DEVICE_VOIP_TOKEN;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/debug/serializePushNotifcationLogs.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: serializePushNotificationLogs
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = argBar;
-            var _closure2_slot0 = mike;
-            tango = zulu.length;
-            mike = 0;
-            if(!(mike !== tango)) { _fun00002_ip = 242; continue _fun00001 }
+            zuuluu = argFoo;
+            michal = argBar;
+            var _closure2_slot0 = michal;
+            tangon = zuuluu.length;
+            michal = 0;
+            if(!(michal !== tangon)) { _fun00002_ip = 242; continue _fun00001 }
  26:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            tango = 1;
-            options = golf[tango];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            tangon = 1;
+            option = golfie[tangon];
             report = undefined;
-            options = oscar.bind(report)(options);
-            offset = options.Storage;
+            option = oscard.bind(report)(option);
+            offset = option.Storage;
             verify = offset.get;
-            options = _closure1_slot2;
-            verify = verify.bind(offset)(options);
-            tango = golf[tango];
-            tango = oscar.bind(report)(tango);
-            report = tango.Storage;
-            tango = report.get;
-            mike = _closure1_slot3;
-            options = tango.bind(report)(mike);
-            mike = null;
-            tango = mike != verify;
-            golf = '';
-            oscar = golf;
-            if(!tango) { _fun00002_ip = 140; continue _fun00001 }
+            option = _closure1_slot2;
+            verify = verify.bind(offset)(option);
+            tangon = golfie[tangon];
+            tangon = oscard.bind(report)(tangon);
+            report = tangon.Storage;
+            tangon = report.get;
+            michal = _closure1_slot3;
+            option = tangon.bind(report)(michal);
+            michal = null;
+            tangon = michal != verify;
+            golfie = '';
+            oscard = golfie;
+            if(!tangon) { _fun00002_ip = 140; continue _fun00001 }
  116:
-            tango = global;
-            tango = tango.HermesInternal;
-            report = tango.concat;
-            tango = 'Device Token: ';
-            oscar = report.bind(tango)(verify);
+            tangon = global;
+            tangon = tangon.HermesInternal;
+            report = tangon.concat;
+            tangon = 'Device Token: ';
+            oscard = report.bind(tangon)(verify);
  140:
-            mike = mike != options;
-            report = golf;
-            if(!mike) { _fun00002_ip = 174; continue _fun00001 }
+            michal = michal != option;
+            report = golfie;
+            if(!michal) { _fun00002_ip = 174; continue _fun00001 }
  150:
-            mike = global;
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            mike = 'Device Voip Token: ';
-            report = tango.bind(mike)(options);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            michal = 'Device Voip Token: ';
+            report = tangon.bind(michal)(option);
  174:
-            mike = zulu.map;
+            michal = zuuluu.map;
             entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = argFoo;
-                    entity = mike.silent;
+                    michal = argFoo;
+                    entity = michal.silent;
                     verify = 'Displayed';
                     if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  18:
@@ -89,67 +89,67 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = _closure2_slot0;
                     if(entity) { _fun00004_ip = 76; continue _fun00003 }
  34:
-                    oscar = mike.title;
-                    report = mike.content;
+                    oscard = michal.title;
+                    report = michal.content;
                     entity = global;
                     entity = entity.HermesInternal;
-                    tango = entity.concat;
-                    zulu = '';
+                    tangon = entity.concat;
+                    zuuluu = '';
                     entity = ' - ';
-                    options = tango.bind(zulu)(oscar, entity, report);
+                    option = tangon.bind(zuuluu)(oscard, entity, report);
                     _fun00004_ip = 116; continue _fun00003;
  76:
-                    oscar = mike.channelId;
-                    report = mike.messageId;
+                    oscard = michal.channelId;
+                    report = michal.messageId;
                     entity = global;
                     entity = entity.HermesInternal;
-                    tango = entity.concat;
-                    zulu = '';
+                    tangon = entity.concat;
+                    zuuluu = '';
                     entity = ' - ';
-                    options = tango.bind(zulu)(oscar, entity, report);
+                    option = tangon.bind(zuuluu)(oscard, entity, report);
  116:
                     entity = global;
                     report = entity.Date;
-                    sizing = mike.receivedTimestamp;
-                    tango = report.prototype;
-                    tango = Object.create(tango, {constructor: {value: report}});
-                    output = tango;
-                    zulu = new output[report](sizing, kilo);
-                    tango = zulu instanceof Object ? zulu : tango;
-                    zulu = tango.toISOString;
-                    sizing = zulu.bind(tango)();
-                    backup = mike.type;
+                    sizing = michal.receivedTimestamp;
+                    tangon = report.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: report}});
+                    output = tangon;
+                    zuuluu = new output[report](sizing, kiloes);
+                    tangon = zuuluu instanceof Object ? zuuluu : tangon;
+                    zuuluu = tangon.toISOString;
+                    sizing = zuuluu.bind(tangon)();
+                    backup = michal.type;
                     entity = entity.HermesInternal;
                     report = entity.concat;
                     output = '';
-                    kilo = ' [';
-                    foxtrot = '] ';
+                    kiloes = ' [';
+                    foxtra = '] ';
                     yankee = ' - ';
-                    romeo = verify;
-                    offset = options;
-                    entity = output[report](sizing, kilo, backup, foxtrot, romeo, yankee, offset, verify);
+                    romeon = verify;
+                    offset = option;
+                    entity = output[report](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
                     return entity;
                 }
             };
-            mike = mike.bind(zulu)(entity);
-            entity = mike.join;
-            tango = '\n';
-            yankee = entity.bind(mike)(tango);
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.join;
+            tangon = '\n';
+            yankee = entity.bind(michal)(tangon);
             entity = global;
             entity = entity.HermesInternal;
-            mike = entity.concat;
-            romeo = '\n\n';
-            sizing = golf;
-            kilo = oscar;
-            backup = tango;
-            foxtrot = report;
-            entity = sizing[mike](kilo, backup, foxtrot, romeo, yankee, offset);
+            michal = entity.concat;
+            romeon = '\n\n';
+            sizing = golfie;
+            kiloes = oscard;
+            backup = tangon;
+            foxtra = report;
+            entity = sizing[michal](kiloes, backup, foxtra, romeon, yankee, offset);
             return entity;
  242:
             entity = 'No logs';
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

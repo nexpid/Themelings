@@ -1,510 +1,510 @@
 // app/modules/gateway/BasicWorkScheduler.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    options = tango.MAX_DISPATCHER_FLUSH_DEADLINE_TRIES;
-    var _closure1_slot5 = options;
-    options = tango.DISPATCHER_STANDARD_TIMEOUT_MS;
-    var _closure1_slot6 = options;
-    options = tango.DISPATCHER_IDEAL_TIME_LIMIT_MS;
-    var _closure1_slot7 = options;
-    tango = tango.DISPATCHER_LONG_TIMEOUT_MS;
-    var _closure1_slot8 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'DispatcherWorkScheduler';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot9 = tango;
-    mike = function() {
-        tango = _closure1_slot4;
-        zulu = function() { // Original name: BasicWorkScheduler
-            zulu = this;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.MAX_DISPATCHER_FLUSH_DEADLINE_TRIES;
+    var _closure1_slot5 = option;
+    option = tangon.DISPATCHER_STANDARD_TIMEOUT_MS;
+    var _closure1_slot6 = option;
+    option = tangon.DISPATCHER_IDEAL_TIME_LIMIT_MS;
+    var _closure1_slot7 = option;
+    tangon = tangon.DISPATCHER_LONG_TIMEOUT_MS;
+    var _closure1_slot8 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'DispatcherWorkScheduler';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot9 = tangon;
+    michal = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function() { // Original name: BasicWorkScheduler
+            zuuluu = this;
             report = _closure1_slot3;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            tango = null;
-            zulu['_flushTimeoutHandler'] = tango;
-            zulu['_flushIdleHandler'] = tango;
+            tangon = report.bind(entity)(zuuluu, tangon);
+            tangon = null;
+            zuuluu['_flushTimeoutHandler'] = tangon;
+            zuuluu['_flushIdleHandler'] = tangon;
             report = _closure1_slot6;
-            zulu['_nextDispatchTimeout'] = report;
-            zulu['_workCallbackFn'] = tango;
-            tango = 0;
-            zulu['_consecutiveFlushesBeforeQueueEmpty'] = tango;
-            tango = false;
-            zulu['_isBackgrounded'] = tango;
-            zulu['_enableRequestIdleCallback'] = tango;
-            zulu['_criticalWorkScheduled'] = tango;
+            zuuluu['_nextDispatchTimeout'] = report;
+            zuuluu['_workCallbackFn'] = tangon;
+            tangon = 0;
+            zuuluu['_consecutiveFlushesBeforeQueueEmpty'] = tangon;
+            tangon = false;
+            zuuluu['_isBackgrounded'] = tangon;
+            zuuluu['_enableRequestIdleCallback'] = tangon;
+            zuuluu['_criticalWorkScheduled'] = tangon;
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
-            tango = 4;
-            tango = oscar[tango];
-            tango = report.bind(entity)(tango);
-            tango = tango.WorkSchedulerTelemetry;
-            report = tango.prototype;
-            report = Object.create(report, {constructor: {value: tango}});
+            oscard = _closure1_slot2;
+            tangon = 4;
+            tangon = oscard[tangon];
+            tangon = report.bind(entity)(tangon);
+            tangon = tangon.WorkSchedulerTelemetry;
+            report = tangon.prototype;
+            report = Object.create(report, {constructor: {value: tangon}});
             verify = report;
-            tango = new verify[tango](options);
-            tango = tango instanceof Object ? tango : report;
-            zulu['telemetry'] = tango;
-            mike = _closure1_slot9;
-            zulu['_logger'] = mike;
+            tangon = new verify[tangon](option);
+            tangon = tangon instanceof Object ? tangon : report;
+            zuuluu['telemetry'] = tangon;
+            michal = _closure1_slot9;
+            zuuluu['_logger'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = '_trackAppBackgrounded';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = '_trackAppBackgrounded';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                mike = this;
-                zulu = mike._isBackgrounded;
-                if(!(zulu !== entity)) { _fun00002_ip = 103; continue _fun00001 }
+                michal = this;
+                zuuluu = michal._isBackgrounded;
+                if(!(zuuluu !== entity)) { _fun00002_ip = 103; continue _fun00001 }
  16:
-                mike['_isBackgrounded'] = entity;
-                entity = mike._isBackgrounded;
+                michal['_isBackgrounded'] = entity;
+                entity = michal._isBackgrounded;
                 if(!entity) { _fun00002_ip = 37; continue _fun00001 }
  31:
-                entity = mike.hasWorkScheduled;
+                entity = michal.hasWorkScheduled;
  37:
                 if(!entity) { _fun00002_ip = 103; continue _fun00001 }
  40:
-                tango = mike.telemetry;
-                zulu = tango.track;
-                oscar = _closure1_slot0;
+                tangon = michal.telemetry;
+                zuuluu = tangon.track;
+                oscard = _closure1_slot0;
                 report = _closure1_slot2;
                 entity = 4;
                 report = report[entity];
                 entity = undefined;
-                entity = oscar.bind(entity)(report);
+                entity = oscard.bind(entity)(report);
                 entity = entity.WorkSchedulerTelemetryEvent;
                 entity = entity.SKIP_IDLE_CALLBACK_DUE_TO_BACKGROUNDED;
-                entity = zulu.bind(tango)(entity);
-                entity = mike._processWorkCallback;
-                entity = entity.bind(mike)();
+                entity = zuuluu.bind(tangon)(entity);
+                entity = michal._processWorkCallback;
+                entity = entity.bind(michal)();
  103:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(12);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(12);
+        michal[0] = entity;
         entity = {};
-        oscar = '_queueIdleCallback';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = '_queueIdleCallback';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'Not implemented';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'Not implemented';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = '_clearIdleCallback';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = '_clearIdleCallback';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'Not implemented';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'Not implemented';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = '_hasExceededMaxConsecutiveFlushes';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = '_hasExceededMaxConsecutiveFlushes';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
-            mike = entity._consecutiveFlushesBeforeQueueEmpty;
+            michal = entity._consecutiveFlushesBeforeQueueEmpty;
             entity = _closure1_slot5;
-            entity = mike >= entity;
+            entity = michal >= entity;
             return entity;
         };
-        entity['get'] = oscar;
-        mike[3] = entity;
+        entity['get'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = '_processWorkCallback';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = '_processWorkCallback';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                mike = this;
-                zulu = mike._workCallbackFn;
+                michal = this;
+                zuuluu = michal._workCallbackFn;
                 entity = null;
-                if(!(entity != zulu)) { _fun00004_ip = 252; continue _fun00003 }
+                if(!(entity != zuuluu)) { _fun00004_ip = 252; continue _fun00003 }
  18:
-                entity = mike._hasExceededMaxConsecutiveFlushes;
+                entity = michal._hasExceededMaxConsecutiveFlushes;
                 if(entity) { _fun00004_ip = 256; continue _fun00003 }
  32:
-                zulu = global;
-                tango = zulu.performance;
-                entity = tango.now;
-                report = entity.bind(tango)();
-                tango = mike._workCallbackFn;
+                zuuluu = global;
+                tangon = zuuluu.performance;
+                entity = tangon.now;
+                report = entity.bind(tangon)();
+                tangon = michal._workCallbackFn;
                 entity = argFoo;
-                entity = tango.bind(mike)(entity);
-                oscar = zulu.performance;
-                tango = oscar.now;
-                tango = tango.bind(oscar)();
-                oscar = mike.clearWorkTimeout;
-                oscar = oscar.bind(mike)();
-                oscar = tango - report;
+                entity = tangon.bind(michal)(entity);
+                oscard = zuuluu.performance;
+                tangon = oscard.now;
+                tangon = tangon.bind(oscard)();
+                oscard = michal.clearWorkTimeout;
+                oscard = oscard.bind(michal)();
+                oscard = tangon - report;
                 report = _closure1_slot7;
-                if(!(!(oscar > report))) { _fun00004_ip = 109; continue _fun00003 }
+                if(!(!(oscard > report))) { _fun00004_ip = 109; continue _fun00003 }
  103:
                 report = _closure1_slot6;
                 _fun00004_ip = 113; continue _fun00003;
  109:
                 report = _closure1_slot8;
  113:
-                mike['_nextDispatchTimeout'] = report;
-                report = mike._consecutiveFlushesBeforeQueueEmpty;
+                michal['_nextDispatchTimeout'] = report;
+                report = michal._consecutiveFlushesBeforeQueueEmpty;
                 if(entity) { _fun00004_ip = 143; continue _fun00003 }
  128:
                 entity = 1;
                 entity = report + entity;
-                mike['_consecutiveFlushesBeforeQueueEmpty'] = entity;
+                michal['_consecutiveFlushesBeforeQueueEmpty'] = entity;
                 _fun00004_ip = 252; continue _fun00003;
  143:
                 entity = 0;
                 if(!(report > entity)) { _fun00004_ip = 238; continue _fun00003 }
  149:
-                oscar = mike.telemetry;
-                report = oscar.measure;
-                golf = _closure1_slot0;
-                options = _closure1_slot2;
-                tango = 4;
-                tango = options[tango];
-                options = undefined;
-                tango = golf.bind(options)(tango);
-                tango = tango.WorkSchedulerTelemetryMeasurement;
-                tango = tango.COUNT_FLUSH_BEFORE_QUEUE_EMPTY;
-                golf = zulu.parseInt;
-                offset = mike._consecutiveFlushesBeforeQueueEmpty;
-                zulu = zulu.HermesInternal;
-                verify = zulu.concat;
-                zulu = '';
-                zulu = verify.bind(zulu)(offset);
-                zulu = golf.bind(options)(zulu);
-                zulu = report.bind(oscar)(tango, zulu);
+                oscard = michal.telemetry;
+                report = oscard.measure;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                tangon = 4;
+                tangon = option[tangon];
+                option = undefined;
+                tangon = golfie.bind(option)(tangon);
+                tangon = tangon.WorkSchedulerTelemetryMeasurement;
+                tangon = tangon.COUNT_FLUSH_BEFORE_QUEUE_EMPTY;
+                golfie = zuuluu.parseInt;
+                offset = michal._consecutiveFlushesBeforeQueueEmpty;
+                zuuluu = zuuluu.HermesInternal;
+                verify = zuuluu.concat;
+                zuuluu = '';
+                zuuluu = verify.bind(zuuluu)(offset);
+                zuuluu = golfie.bind(option)(zuuluu);
+                zuuluu = report.bind(oscard)(tangon, zuuluu);
  238:
-                mike['_consecutiveFlushesBeforeQueueEmpty'] = entity;
+                michal['_consecutiveFlushesBeforeQueueEmpty'] = entity;
                 entity = false;
-                mike['_criticalWorkScheduled'] = entity;
+                michal['_criticalWorkScheduled'] = entity;
  252:
                 entity = undefined;
                 return entity;
  256:
                 report = _closure1_slot9;
-                tango = report.log;
-                zulu = 'Unable to fully flush work queue after max retries, skipping future deadline.';
-                zulu = tango.bind(report)(zulu);
-                zulu = mike._workCallbackFn;
-                zulu = zulu.bind(mike)();
-                zulu = mike.clearWorkTimeout;
-                zulu = zulu.bind(mike)();
-                offset = mike.telemetry;
+                tangon = report.log;
+                zuuluu = 'Unable to fully flush work queue after max retries, skipping future deadline.';
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = michal._workCallbackFn;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = michal.clearWorkTimeout;
+                zuuluu = zuuluu.bind(michal)();
+                offset = michal.telemetry;
                 verify = offset.measure;
-                golf = _closure1_slot0;
-                options = _closure1_slot2;
-                zulu = 4;
-                tango = options[zulu];
-                oscar = undefined;
-                tango = golf.bind(oscar)(tango);
-                tango = tango.WorkSchedulerTelemetryMeasurement;
-                report = tango.COUNT_FLUSH_BEFORE_QUEUE_EMPTY;
-                tango = mike._consecutiveFlushesBeforeQueueEmpty;
-                tango = verify.bind(offset)(report, tango);
-                report = mike.telemetry;
-                tango = report.track;
-                zulu = options[zulu];
-                zulu = golf.bind(oscar)(zulu);
-                zulu = zulu.WorkSchedulerTelemetryEvent;
-                zulu = zulu.EXCEEDED_MAX_CONSECUTIVE_FLUSHES;
-                zulu = tango.bind(report)(zulu);
-                zulu = 0;
-                mike['_consecutiveFlushesBeforeQueueEmpty'] = zulu;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 4;
+                tangon = option[zuuluu];
+                oscard = undefined;
+                tangon = golfie.bind(oscard)(tangon);
+                tangon = tangon.WorkSchedulerTelemetryMeasurement;
+                report = tangon.COUNT_FLUSH_BEFORE_QUEUE_EMPTY;
+                tangon = michal._consecutiveFlushesBeforeQueueEmpty;
+                tangon = verify.bind(offset)(report, tangon);
+                report = michal.telemetry;
+                tangon = report.track;
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(oscard)(zuuluu);
+                zuuluu = zuuluu.WorkSchedulerTelemetryEvent;
+                zuuluu = zuuluu.EXCEEDED_MAX_CONSECUTIVE_FLUSHES;
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = 0;
+                michal['_consecutiveFlushesBeforeQueueEmpty'] = zuuluu;
                 entity = _closure1_slot8;
-                mike['_nextDispatchTimeout'] = entity;
+                michal['_nextDispatchTimeout'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[4] = entity;
+        entity['value'] = oscard;
+        michal[4] = entity;
         entity = {};
-        oscar = 'markCriticalWorkScheduled';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'markCriticalWorkScheduled';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = this;
+                michal = this;
                 entity = true;
-                mike['_criticalWorkScheduled'] = entity;
-                zulu = mike._flushIdleHandler;
+                michal['_criticalWorkScheduled'] = entity;
+                zuuluu = michal._flushIdleHandler;
                 entity = null;
-                if(!(entity != zulu)) { _fun00006_ip = 43; continue _fun00005 }
+                if(!(entity != zuuluu)) { _fun00006_ip = 43; continue _fun00005 }
  23:
-                entity = mike._clearIdleCallback;
-                entity = entity.bind(mike)();
-                entity = mike._processWorkCallback;
-                entity = entity.bind(mike)();
+                entity = michal._clearIdleCallback;
+                entity = entity.bind(michal)();
+                entity = michal._processWorkCallback;
+                entity = entity.bind(michal)();
  43:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[5] = entity;
+        entity['value'] = oscard;
+        michal[5] = entity;
         entity = {};
-        oscar = 'toggleRequestIdleCallback';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'toggleRequestIdleCallback';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
-                mike = this;
-                mike['_enableRequestIdleCallback'] = entity;
+                michal = this;
+                michal['_enableRequestIdleCallback'] = entity;
                 entity = !entity;
                 if(!entity) { _fun00008_ip = 24; continue _fun00007 }
  18:
-                entity = mike.hasWorkScheduled;
+                entity = michal.hasWorkScheduled;
  24:
                 if(!entity) { _fun00008_ip = 47; continue _fun00007 }
  27:
-                entity = mike._clearIdleCallback;
-                entity = entity.bind(mike)();
-                entity = mike._processWorkCallback;
-                entity = entity.bind(mike)();
+                entity = michal._clearIdleCallback;
+                entity = entity.bind(michal)();
+                entity = michal._processWorkCallback;
+                entity = entity.bind(michal)();
  47:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[6] = entity;
+        entity['value'] = oscard;
+        michal[6] = entity;
         entity = {};
-        oscar = 'isBackgrounded';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'isBackgrounded';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
             entity = entity._isBackgrounded;
             return entity;
         };
-        entity['get'] = oscar;
-        mike[7] = entity;
+        entity['get'] = oscard;
+        michal[7] = entity;
         entity = {};
-        oscar = 'hasWorkScheduled';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'hasWorkScheduled';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                mike = this;
-                entity = mike._flushTimeoutHandler;
-                zulu = null;
-                entity = zulu != entity;
+                michal = this;
+                entity = michal._flushTimeoutHandler;
+                zuuluu = null;
+                entity = zuuluu != entity;
                 if(entity) { _fun00010_ip = 28; continue _fun00009 }
  18:
-                mike = mike._flushIdleHandler;
-                entity = zulu != mike;
+                michal = michal._flushIdleHandler;
+                entity = zuuluu != michal;
  28:
                 return entity;
             }
         };
-        entity['get'] = oscar;
-        mike[8] = entity;
+        entity['get'] = oscard;
+        michal[8] = entity;
         entity = {};
-        oscar = 'isRequestIdleCallbackEnabled';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'isRequestIdleCallbackEnabled';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
             entity = entity._enableRequestIdleCallback;
             return entity;
         };
-        entity['get'] = oscar;
-        mike[9] = entity;
+        entity['get'] = oscard;
+        michal[9] = entity;
         entity = {};
-        oscar = 'clearWorkTimeout';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'clearWorkTimeout';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                mike = this;
-                zulu = mike._flushTimeoutHandler;
+                michal = this;
+                zuuluu = michal._flushTimeoutHandler;
                 entity = null;
-                if(!(entity != zulu)) { _fun00012_ip = 42; continue _fun00011 }
+                if(!(entity != zuuluu)) { _fun00012_ip = 42; continue _fun00011 }
  15:
-                zulu = global;
-                report = zulu.clearTimeout;
-                tango = mike._flushTimeoutHandler;
-                zulu = undefined;
-                zulu = report.bind(zulu)(tango);
-                mike['_flushTimeoutHandler'] = entity;
+                zuuluu = global;
+                report = zuuluu.clearTimeout;
+                tangon = michal._flushTimeoutHandler;
+                zuuluu = undefined;
+                zuuluu = report.bind(zuuluu)(tangon);
+                michal['_flushTimeoutHandler'] = entity;
  42:
-                zulu = mike._clearIdleCallback;
-                zulu = zulu.bind(mike)();
-                zulu = _closure1_slot6;
-                mike['_nextDispatchTimeout'] = zulu;
-                mike['_workCallbackFn'] = entity;
+                zuuluu = michal._clearIdleCallback;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = _closure1_slot6;
+                michal['_nextDispatchTimeout'] = zuuluu;
+                michal['_workCallbackFn'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[10] = entity;
+        entity['value'] = oscard;
+        michal[10] = entity;
         entity = {};
-        oscar = 'requestWorkTimeout';
-        entity['key'] = oscar;
+        oscard = 'requestWorkTimeout';
+        entity['key'] = oscard;
         report = function(argFoo) { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                tango = arguments[1];
-                zulu = this;
-                var _closure3_slot0 = zulu;
+                tangon = arguments[1];
+                zuuluu = this;
+                var _closure3_slot0 = zuuluu;
                 entity = undefined;
-                if(!(tango === entity)) { _fun00014_ip = 20; continue _fun00013 }
+                if(!(tangon === entity)) { _fun00014_ip = 20; continue _fun00013 }
  18:
-                tango = false;
+                tangon = false;
  20:
                 report = argFoo;
-                zulu['_workCallbackFn'] = report;
-                report = zulu.hasWorkScheduled;
+                zuuluu['_workCallbackFn'] = report;
+                report = zuuluu.hasWorkScheduled;
                 if(report) { _fun00014_ip = 200; continue _fun00013 }
  41:
-                options = zulu.telemetry;
-                golf = options.time;
+                option = zuuluu.telemetry;
+                golfie = option.time;
                 offset = _closure1_slot0;
-                oscar = _closure1_slot2;
+                oscard = _closure1_slot2;
                 verify = 4;
-                oscar = oscar[verify];
-                oscar = offset.bind(entity)(oscar);
-                oscar = oscar.WorkSchedulerTelemetryTiming;
-                oscar = oscar.TIME_TO_QUEUE_EMPTY;
-                oscar = golf.bind(options)(oscar);
-                golf = zulu._nextDispatchTimeout;
-                oscar = _closure1_slot8;
-                if(!(golf === oscar)) { _fun00014_ip = 152; continue _fun00013 }
+                oscard = oscard[verify];
+                oscard = offset.bind(entity)(oscard);
+                oscard = oscard.WorkSchedulerTelemetryTiming;
+                oscard = oscard.TIME_TO_QUEUE_EMPTY;
+                oscard = golfie.bind(option)(oscard);
+                golfie = zuuluu._nextDispatchTimeout;
+                oscard = _closure1_slot8;
+                if(!(golfie === oscard)) { _fun00014_ip = 152; continue _fun00013 }
  107:
-                golf = zulu.telemetry;
-                oscar = golf.track;
-                options = _closure1_slot0;
+                golfie = zuuluu.telemetry;
+                oscard = golfie.track;
+                option = _closure1_slot0;
                 report = _closure1_slot2;
                 report = report[verify];
-                report = options.bind(entity)(report);
+                report = option.bind(entity)(report);
                 report = report.WorkSchedulerTelemetryEvent;
                 report = report.LONGER_DISPATCH;
-                report = oscar.bind(golf)(report);
+                report = oscard.bind(golfie)(report);
  152:
-                if(tango) { _fun00014_ip = 190; continue _fun00013 }
+                if(tangon) { _fun00014_ip = 190; continue _fun00013 }
  155:
-                tango = global;
-                report = tango.setTimeout;
-                tango = zulu._nextDispatchTimeout;
-                mike = function() {
+                tangon = global;
+                report = tangon.setTimeout;
+                tangon = zuuluu._nextDispatchTimeout;
+                michal = function() {
                     _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                        zulu = _closure1_slot1;
-                        tango = _closure1_slot2;
-                        mike = 5;
-                        mike = tango[mike];
-                        oscar = undefined;
-                        golf = zulu.bind(oscar)(mike);
-                        zulu = _closure3_slot0;
-                        report = zulu._workCallbackFn;
-                        tango = null;
-                        report = tango != report;
-                        tango = 'Work callback should be set';
-                        tango = golf.bind(oscar)(report, tango);
-                        zulu = zulu._isBackgrounded;
-                        mike = _closure3_slot0;
-                        if(zulu) { _fun00016_ip = 81; continue _fun00015 }
+                        zuuluu = _closure1_slot1;
+                        tangon = _closure1_slot2;
+                        michal = 5;
+                        michal = tangon[michal];
+                        oscard = undefined;
+                        golfie = zuuluu.bind(oscard)(michal);
+                        zuuluu = _closure3_slot0;
+                        report = zuuluu._workCallbackFn;
+                        tangon = null;
+                        report = tangon != report;
+                        tangon = 'Work callback should be set';
+                        tangon = golfie.bind(oscard)(report, tangon);
+                        zuuluu = zuuluu._isBackgrounded;
+                        michal = _closure3_slot0;
+                        if(zuuluu) { _fun00016_ip = 81; continue _fun00015 }
  69:
-                        zulu = mike._queueIdleCallback;
-                        zulu = zulu.bind(mike)();
-                        return oscar;
+                        zuuluu = michal._queueIdleCallback;
+                        zuuluu = zuuluu.bind(michal)();
+                        return oscard;
  81:
-                        tango = mike.telemetry;
-                        zulu = tango.track;
+                        tangon = michal.telemetry;
+                        zuuluu = tangon.track;
                         report = _closure1_slot0;
-                        golf = _closure1_slot2;
+                        golfie = _closure1_slot2;
                         entity = 4;
-                        entity = golf[entity];
-                        entity = report.bind(oscar)(entity);
+                        entity = golfie[entity];
+                        entity = report.bind(oscard)(entity);
                         entity = entity.WorkSchedulerTelemetryEvent;
                         entity = entity.SKIP_IDLE_CALLBACK_DUE_TO_BACKGROUNDED;
-                        entity = zulu.bind(tango)(entity);
-                        entity = mike._processWorkCallback;
-                        entity = entity.bind(mike)();
+                        entity = zuuluu.bind(tangon)(entity);
+                        entity = michal._processWorkCallback;
+                        entity = entity.bind(michal)();
                         return entity;
                     }
                 };
-                mike = report.bind(entity)(mike, tango);
-                zulu['_flushTimeoutHandler'] = mike;
+                michal = report.bind(entity)(michal, tangon);
+                zuuluu['_flushTimeoutHandler'] = michal;
                 _fun00014_ip = 200; continue _fun00013;
  190:
-                mike = zulu._queueIdleCallback;
-                mike = mike.bind(zulu)();
+                michal = zuuluu._queueIdleCallback;
+                michal = michal.bind(zuuluu)();
  200:
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[11] = entity;
+        michal[11] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/gateway/BasicWorkScheduler.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['BasicWorkScheduler'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/gateway/BasicWorkScheduler.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['BasicWorkScheduler'] = michal;
     return entity;
 })();

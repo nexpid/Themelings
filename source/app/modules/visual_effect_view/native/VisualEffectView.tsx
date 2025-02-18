@@ -1,44 +1,44 @@
 // app/modules/visual_effect_view/native/VisualEffectView.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golf;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar) { // Original name: getIOSBlurEffect
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 5;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             entity = entity.MODERN_IOS_BLURS_EFFECTS_AVAILABLE;
             if(!entity) { _fun00002_ip = 48; continue _fun00001 }
  37:
-            mike = 'default';
+            michal = 'default';
             entity = argBar;
-            if(!(mike === entity)) { _fun00002_ip = 70; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 70; continue _fun00001 }
  48:
             entity = 'UIBlurEffectStyleDark';
-            mike = 'light';
-            if(!(mike === tango)) { _fun00002_ip = 68; continue _fun00001 }
+            michal = 'light';
+            if(!(michal === tangon)) { _fun00002_ip = 68; continue _fun00001 }
  62:
             entity = 'UIBlurEffectStyleLight';
  68:
             _fun00002_ip = 93; continue _fun00001;
  70:
-            mike = 'UIBlurEffectStyleSystemUltraThinMaterialDark';
-            zulu = 'light';
-            if(!(zulu === tango)) { _fun00002_ip = 90; continue _fun00001 }
+            michal = 'UIBlurEffectStyleSystemUltraThinMaterialDark';
+            zuuluu = 'light';
+            if(!(zuuluu === tangon)) { _fun00002_ip = 90; continue _fun00001 }
  84:
-            mike = 'UIBlurEffectStyleSystemUltraThinMaterialLight';
+            michal = 'UIBlurEffectStyleSystemUltraThinMaterialLight';
  90:
-            entity = mike;
+            entity = michal;
  93:
             return entity;
         }
@@ -48,171 +48,171 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argBar;
-            mike = null;
-            if(!(mike == entity)) { _fun00004_ip = 36; continue _fun00003 }
+            michal = null;
+            if(!(michal == entity)) { _fun00004_ip = 36; continue _fun00003 }
  9:
-            mike = 1;
-            tango = 'light';
-            zulu = argFoo;
-            if(!(tango === zulu)) { _fun00004_ip = 33; continue _fun00003 }
+            michal = 1;
+            tangon = 'light';
+            zuuluu = argFoo;
+            if(!(tangon === zuuluu)) { _fun00004_ip = 33; continue _fun00003 }
  23:
-            mike = 0.85;
+            michal = 0.85;
  33:
-            entity = mike;
+            entity = michal;
  36:
             return entity;
         }
     };
     var _closure1_slot8 = entity;
-    mike = function(argFoo) { // Original name: isBlurDisabled
+    michal = function(argFoo) { // Original name: isBlurDisabled
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            tango = entity.android_softwareBlurDisabled;
+            tangon = entity.android_softwareBlurDisabled;
             report = entity.android_blurTargetViewNativeId;
             entity = _closure1_slot6;
             if(!entity) { _fun00006_ip = 77; continue _fun00005 }
  25:
-            mike = null;
-            mike = mike == report;
-            if(mike) { _fun00006_ip = 74; continue _fun00005 }
+            michal = null;
+            michal = michal == report;
+            if(michal) { _fun00006_ip = 74; continue _fun00005 }
  34:
-            if(!tango) { _fun00006_ip = 68; continue _fun00005 }
+            if(!tangon) { _fun00006_ip = 68; continue _fun00005 }
  37:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot2;
-            zulu = 8;
-            report = report[zulu];
-            zulu = undefined;
-            zulu = oscar.bind(zulu)(report);
-            zulu = zulu.MODERN_ANDROID_BLURRING_AVAILABLE;
-            tango = !zulu;
+            zuuluu = 8;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            zuuluu = oscard.bind(zuuluu)(report);
+            zuuluu = zuuluu.MODERN_ANDROID_BLURRING_AVAILABLE;
+            tangon = !zuuluu;
  68:
-            zulu = true;
-            mike = zulu === tango;
+            zuuluu = true;
+            michal = zuuluu === tangon;
  74:
-            entity = mike;
+            entity = michal;
  77:
             return entity;
         }
     };
-    var _closure1_slot9 = mike;
+    var _closure1_slot9 = michal;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    options = report.bind(entity)(options);
+    option = report.bind(entity)(option);
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.View;
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.useVisualEffectViewOverrides;
     var _closure1_slot4 = report;
     report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot5 = report;
     report = 4;
-    report = golf[report];
-    verify = oscar.bind(entity)(report);
+    report = golfie[report];
+    verify = oscard.bind(entity)(report);
     report = verify.isAndroid;
     report = report.bind(verify)();
     var _closure1_slot6 = report;
-    report = options.forwardRef;
-    tango = function(argFoo, argBar) { // Original name: VisualEffectView
+    report = option.forwardRef;
+    tangon = function(argFoo, argBar) { // Original name: VisualEffectView
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            oscar = argFoo;
-            options = argBar;
-            result = oscar.blurTheme;
-            source = oscar.blurStyle;
+            oscard = argFoo;
+            option = argBar;
+            result = oscard.blurTheme;
+            source = oscard.blurStyle;
             report = undefined;
             if(!(source === report)) { _fun00008_ip = 28; continue _fun00007 }
  24:
             source = 'default';
  28:
-            output = oscar.blurAmount;
+            output = oscard.blurAmount;
             if(!(output === report)) { _fun00008_ip = 41; continue _fun00007 }
  38:
             output = 1;
  41:
-            yankee = oscar.blurTintRgba;
-            entity = oscar.android_fallbackColor;
-            offset = oscar.android_blurTargetViewNativeId;
-            tango = oscar.android_softwareBlurDisabled;
-            if(!(tango === report)) { _fun00008_ip = 71; continue _fun00007 }
+            yankee = oscard.blurTintRgba;
+            entity = oscard.android_fallbackColor;
+            offset = oscard.android_blurTargetViewNativeId;
+            tangon = oscard.android_softwareBlurDisabled;
+            if(!(tangon === report)) { _fun00008_ip = 71; continue _fun00007 }
  69:
-            tango = false;
+            tangon = false;
  71:
-            zulu = {'blurTheme': 0, 'blurStyle': 0, 'blurAmount': 0, 'blurTintRgba': 0, 'android_fallbackColor': 0, 'android_blurTargetViewNativeId': 0, 'android_softwareBlurDisabled': 0};
-            foxtrot = null;
-            target = zulu;
-            papa = null;
-            mike = silentSetPrototypeOf(target, papa);
+            zuuluu = {'blurTheme': 0, 'blurStyle': 0, 'blurAmount': 0, 'blurTintRgba': 0, 'android_fallbackColor': 0, 'android_blurTargetViewNativeId': 0, 'android_softwareBlurDisabled': 0};
+            foxtra = null;
+            target = zuuluu;
+            papara = null;
+            michal = silentSetPrototypeOf(target, papara);
             target = {};
-            papa = oscar;
-            context = zulu;
-            oscar = copyDataProperties(target, papa, context);
-            golf = oscar.style;
-            zulu = _closure1_slot4;
-            zulu = zulu.bind(report)();
-            backup = zulu.blurAmountOverride;
-            romeo = zulu.blurTintRgbaOverride;
-            echo = zulu.blurEffectNameOverride;
-            zulu = {};
-            zulu['blurTheme'] = result;
-            zulu['blurStyle'] = source;
-            zulu['style'] = golf;
-            zulu['android_fallbackColor'] = entity;
-            entity = zulu.style;
-            sequence = zulu.blurTheme;
-            vacuum = zulu.blurStyle;
-            sizing = zulu.android_fallbackColor;
+            papara = oscard;
+            cntext = zuuluu;
+            oscard = copyDataProperties(target, papara, cntext);
+            golfie = oscard.style;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.bind(report)();
+            backup = zuuluu.blurAmountOverride;
+            romeon = zuuluu.blurTintRgbaOverride;
+            echoed = zuuluu.blurEffectNameOverride;
+            zuuluu = {};
+            zuuluu['blurTheme'] = result;
+            zuuluu['blurStyle'] = source;
+            zuuluu['style'] = golfie;
+            zuuluu['android_fallbackColor'] = entity;
+            entity = zuuluu.style;
+            sequen = zuuluu.blurTheme;
+            vacuum = zuuluu.blurStyle;
+            sizing = zuuluu.android_fallbackColor;
             verify = _closure1_slot0;
-            zulu = _closure1_slot2;
-            kilo = 6;
-            golf = zulu[kilo];
-            record = verify.bind(report)(golf);
+            zuuluu = _closure1_slot2;
+            kiloes = 6;
+            golfie = zuuluu[kiloes];
+            record = verify.bind(report)(golfie);
             update = record.useToken;
             config = _closure1_slot1;
-            control = 7;
-            golf = zulu[control];
-            golf = config.bind(report)(golf);
-            golf = golf.colors;
-            golf = golf.LEGACY_BLUR_FALLBACK_DEFAULT;
-            update = update.bind(record)(golf, sequence);
-            golf = zulu[kilo];
-            verify = verify.bind(report)(golf);
-            golf = verify.useToken;
-            zulu = zulu[control];
-            zulu = config.bind(report)(zulu);
-            zulu = zulu.colors;
-            zulu = zulu.LEGACY_BLUR_FALLBACK_ULTRA_THIN;
-            golf = golf.bind(verify)(zulu, sequence);
+            ctrled = 7;
+            golfie = zuuluu[ctrled];
+            golfie = config.bind(report)(golfie);
+            golfie = golfie.colors;
+            golfie = golfie.LEGACY_BLUR_FALLBACK_DEFAULT;
+            update = update.bind(record)(golfie, sequen);
+            golfie = zuuluu[kiloes];
+            verify = verify.bind(report)(golfie);
+            golfie = verify.useToken;
+            zuuluu = zuuluu[ctrled];
+            zuuluu = config.bind(report)(zuuluu);
+            zuuluu = zuuluu.colors;
+            zuuluu = zuuluu.LEGACY_BLUR_FALLBACK_ULTRA_THIN;
+            golfie = golfie.bind(verify)(zuuluu, sequen);
             verify = {};
-            zulu = 'default';
-            if(!(zulu === vacuum)) { _fun00008_ip = 301; continue _fun00007 }
+            zuuluu = 'default';
+            if(!(zuuluu === vacuum)) { _fun00008_ip = 301; continue _fun00007 }
  298:
-            golf = update;
+            golfie = update;
  301:
-            verify['backgroundColor'] = golf;
-            golf = new Array(3);
-            golf[0] = verify;
-            golf[1] = entity;
-            verify = foxtrot != sizing;
+            verify['backgroundColor'] = golfie;
+            golfie = new Array(3);
+            golfie[0] = verify;
+            golfie[1] = entity;
+            verify = foxtra != sizing;
             entity = undefined;
             if(!verify) { _fun00008_ip = 335; continue _fun00007 }
  326:
@@ -220,133 +220,133 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['backgroundColor'] = sizing;
             entity = verify;
  335:
-            golf[2] = entity;
+            golfie[2] = entity;
             sizing = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = verify[kilo];
-            sequence = sizing.bind(report)(entity);
-            vacuum = sequence.useToken;
+            entity = verify[kiloes];
+            sequen = sizing.bind(report)(entity);
+            vacuum = sequen.useToken;
             update = _closure1_slot1;
-            entity = verify[control];
+            entity = verify[ctrled];
             entity = update.bind(report)(entity);
             entity = entity.colors;
             entity = entity.LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT;
-            entity = vacuum.bind(sequence)(entity, result);
-            kilo = verify[kilo];
-            sizing = sizing.bind(report)(kilo);
-            kilo = sizing.useToken;
-            verify = verify[control];
+            entity = vacuum.bind(sequen)(entity, result);
+            kiloes = verify[kiloes];
+            sizing = sizing.bind(report)(kiloes);
+            kiloes = sizing.useToken;
+            verify = verify[ctrled];
             verify = update.bind(report)(verify);
             verify = verify.colors;
             verify = verify.LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN;
-            verify = kilo.bind(sizing)(verify, result);
-            if(!(zulu !== source)) { _fun00008_ip = 454; continue _fun00007 }
+            verify = kiloes.bind(sizing)(verify, result);
+            if(!(zuuluu !== source)) { _fun00008_ip = 454; continue _fun00007 }
  437:
-            zulu = 'ultra-thin';
+            zuuluu = 'ultra-thin';
             sizing = verify;
-            if(!(zulu !== source)) { _fun00008_ip = 457; continue _fun00007 }
+            if(!(zuuluu !== source)) { _fun00008_ip = 457; continue _fun00007 }
  450:
             sizing = undefined;
             _fun00008_ip = 457; continue _fun00007;
  454:
             sizing = entity;
  457:
-            zulu = _closure1_slot9;
+            zuuluu = _closure1_slot9;
             entity = {};
-            entity['android_softwareBlurDisabled'] = tango;
+            entity['android_softwareBlurDisabled'] = tangon;
             entity['android_blurTargetViewNativeId'] = offset;
-            entity = zulu.bind(report)(entity);
+            entity = zuuluu.bind(report)(entity);
             if(entity) { _fun00008_ip = 698; continue _fun00007 }
  484:
             entity = _closure1_slot6;
             verify = _closure1_slot5;
-            tango = _closure1_slot1;
-            kilo = _closure1_slot2;
+            tangon = _closure1_slot1;
+            kiloes = _closure1_slot2;
             if(entity) { _fun00008_ip = 590; continue _fun00007 }
  503:
             entity = 5;
-            entity = kilo[entity];
-            zulu = tango.bind(report)(entity);
+            entity = kiloes[entity];
+            zuuluu = tangon.bind(report)(entity);
             entity = {};
-            entity['ref'] = options;
-            if(!(foxtrot == echo)) { _fun00008_ip = 535; continue _fun00007 }
+            entity['ref'] = option;
+            if(!(foxtra == echoed)) { _fun00008_ip = 535; continue _fun00007 }
  525:
             update = _closure1_slot7;
-            echo = update.bind(report)(result, source);
+            echoed = update.bind(report)(result, source);
  535:
-            entity['blurEffectName'] = echo;
-            echo = output;
-            if(!(foxtrot != backup)) { _fun00008_ip = 552; continue _fun00007 }
+            entity['blurEffectName'] = echoed;
+            echoed = output;
+            if(!(foxtra != backup)) { _fun00008_ip = 552; continue _fun00007 }
  549:
-            echo = backup;
+            echoed = backup;
  552:
-            entity['blurAmount'] = echo;
-            echo = yankee;
-            if(!(foxtrot != romeo)) { _fun00008_ip = 567; continue _fun00007 }
+            entity['blurAmount'] = echoed;
+            echoed = yankee;
+            if(!(foxtra != romeon)) { _fun00008_ip = 567; continue _fun00007 }
  564:
-            echo = romeo;
+            echoed = romeon;
  567:
-            entity['blurTintRgba'] = echo;
+            entity['blurTintRgba'] = echoed;
             target = entity;
-            papa = oscar;
-            echo = copyDataProperties(target, papa);
-            entity = verify.bind(report)(zulu, entity);
+            papara = oscard;
+            echoed = copyDataProperties(target, papara);
+            entity = verify.bind(report)(zuuluu, entity);
             _fun00008_ip = 696; continue _fun00007;
  590:
-            zulu = 8;
-            zulu = kilo[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = {};
-            zulu['ref'] = options;
-            if(!(foxtrot == backup)) { _fun00008_ip = 622; continue _fun00007 }
+            zuuluu = 8;
+            zuuluu = kiloes[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = {};
+            zuuluu['ref'] = option;
+            if(!(foxtra == backup)) { _fun00008_ip = 622; continue _fun00007 }
  612:
-            kilo = _closure1_slot8;
-            backup = kilo.bind(report)(result, output);
+            kiloes = _closure1_slot8;
+            backup = kiloes.bind(report)(result, output);
  622:
-            zulu['blurAmount'] = backup;
-            kilo = _closure1_slot0;
+            zuuluu['blurAmount'] = backup;
+            kiloes = _closure1_slot0;
             output = _closure1_slot2;
             backup = 9;
             backup = output[backup];
-            kilo = kilo.bind(report)(backup);
-            backup = kilo.hexToRgbaString;
-            backup = backup.bind(kilo)(sizing);
-            zulu['blurTintIOSParityCompensationRgba'] = backup;
-            if(!(foxtrot != romeo)) { _fun00008_ip = 670; continue _fun00007 }
+            kiloes = kiloes.bind(report)(backup);
+            backup = kiloes.hexToRgbaString;
+            backup = backup.bind(kiloes)(sizing);
+            zuuluu['blurTintIOSParityCompensationRgba'] = backup;
+            if(!(foxtra != romeon)) { _fun00008_ip = 670; continue _fun00007 }
  667:
-            yankee = romeo;
+            yankee = romeon;
  670:
-            zulu['blurTintRgba'] = yankee;
-            zulu['blurTargetViewNativeId'] = offset;
-            target = zulu;
-            papa = oscar;
-            offset = copyDataProperties(target, papa);
-            entity = verify.bind(report)(tango, zulu);
+            zuuluu['blurTintRgba'] = yankee;
+            zuuluu['blurTargetViewNativeId'] = offset;
+            target = zuuluu;
+            papara = oscard;
+            offset = copyDataProperties(target, papara);
+            entity = verify.bind(report)(tangon, zuuluu);
  696:
             _fun00008_ip = 737; continue _fun00007;
  698:
-            tango = _closure1_slot5;
-            zulu = _closure1_slot3;
-            mike = {};
-            mike['ref'] = options;
-            target = mike;
-            papa = oscar;
-            oscar = copyDataProperties(target, papa);
-            oscar = 'style';
-            mike[oscar] = golf;
-            entity = tango.bind(report)(zulu, mike);
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot3;
+            michal = {};
+            michal['ref'] = option;
+            target = michal;
+            papara = oscard;
+            oscard = copyDataProperties(target, papara);
+            oscard = 'style';
+            michal[oscard] = golfie;
+            entity = tangon.bind(report)(zuuluu, michal);
  737:
             return entity;
         }
     };
-    tango = report.bind(options)(tango);
+    tangon = report.bind(option)(tangon);
     report = 10;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/visual_effect_view/native/VisualEffectView.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['isBlurDisabled'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['isBlurDisabled'] = michal;
     return entity;
 })();

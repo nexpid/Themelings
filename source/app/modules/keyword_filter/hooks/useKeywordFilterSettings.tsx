@@ -1,137 +1,137 @@
 // app/modules/keyword_filter/hooks/useKeywordFilterSettings.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argBaz;
+    report = golfie[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot2 = tango;
-    tango = function() { // Original name: useKeywordFilterSettings
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot2 = tangon;
+    tangon = function() { // Original name: useKeywordFilterSettings
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            report = tango.bind(mike)(zulu);
-            tango = report.useStateFromStoresObject;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            report = tangon.bind(michal)(zuuluu);
+            tangon = report.useStateFromStoresObject;
             entity = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot2;
                     entity = entity.settings;
-                    zulu = entity.textAndImages;
-                    mike = null;
-                    tango = mike == zulu;
+                    zuuluu = entity.textAndImages;
+                    michal = null;
+                    tangon = michal == zuuluu;
                     entity = undefined;
-                    if(tango) { _fun00004_ip = 36; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 36; continue _fun00003 }
  30:
-                    entity = zulu.keywordFilterSettings;
+                    entity = zuuluu.keywordFilterSettings;
  36:
-                    if(!(mike == entity)) { _fun00004_ip = 42; continue _fun00003 }
+                    if(!(michal == entity)) { _fun00004_ip = 42; continue _fun00003 }
  40:
                     entity = {};
  42:
                     return entity;
                 }
             };
-            zulu = tango.bind(report)(zulu, entity);
+            zuuluu = tangon.bind(report)(zuuluu, entity);
             entity = {};
-            oscar = zulu.profanity;
-            tango = null;
-            golf = tango == oscar;
+            oscard = zuuluu.profanity;
+            tangon = null;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 80; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 80; continue _fun00001 }
  75:
-            report = oscar.value;
+            report = oscard.value;
  80:
             entity['profanity'] = report;
-            oscar = zulu.sexualContent;
-            golf = tango == oscar;
+            oscard = zuuluu.sexualContent;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 105; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 105; continue _fun00001 }
  100:
-            report = oscar.value;
+            report = oscard.value;
  105:
             entity['sexualContent'] = report;
-            zulu = zulu.slurs;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 130; continue _fun00001 }
+            zuuluu = zuuluu.slurs;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 130; continue _fun00001 }
  125:
-            mike = zulu.value;
+            michal = zuuluu.value;
  130:
-            entity['slurs'] = mike;
+            entity['slurs'] = michal;
             return entity;
         }
     };
-    var _closure1_slot3 = tango;
+    var _closure1_slot3 = tangon;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/keyword_filter/hooks/useKeywordFilterSettings.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useKeywordFilterSettings'] = tango;
-    mike = function() {
+    report = oscard.bind(golfie)(report);
+    zuuluu['useKeywordFilterSettings'] = tangon;
+    michal = function() {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = _closure1_slot3;
-            oscar = undefined;
-            mike = mike.bind(oscar)();
-            zulu = mike.profanity;
-            tango = mike.sexualContent;
-            mike = mike.slurs;
+            michal = _closure1_slot3;
+            oscard = undefined;
+            michal = michal.bind(oscard)();
+            zuuluu = michal.profanity;
+            tangon = michal.sexualContent;
+            michal = michal.slurs;
             report = _closure1_slot0;
-            golf = _closure1_slot1;
+            golfie = _closure1_slot1;
             entity = 2;
-            entity = golf[entity];
-            oscar = report.bind(oscar)(entity);
-            report = oscar.useIsEligibleForKeywordFiltering;
+            entity = golfie[entity];
+            oscard = report.bind(oscard)(entity);
+            report = oscard.useIsEligibleForKeywordFiltering;
             entity = {};
-            golf = 'use-should-filter-keywords';
-            entity['location'] = golf;
-            entity = report.bind(oscar)(entity);
+            golfie = 'use-should-filter-keywords';
+            entity['location'] = golfie;
+            entity = report.bind(oscard)(entity);
             report = !entity;
             entity = !report;
             if(report) { _fun00006_ip = 110; continue _fun00005 }
  83:
-            if(zulu) { _fun00006_ip = 89; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 89; continue _fun00005 }
  86:
-            zulu = tango;
+            zuuluu = tangon;
  89:
-            if(zulu) { _fun00006_ip = 95; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 95; continue _fun00005 }
  92:
-            zulu = mike;
+            zuuluu = michal;
  95:
-            mike = null;
-            mike = mike != zulu;
-            if(!mike) { _fun00006_ip = 107; continue _fun00005 }
+            michal = null;
+            michal = michal != zuuluu;
+            if(!michal) { _fun00006_ip = 107; continue _fun00005 }
  104:
-            mike = zulu;
+            michal = zuuluu;
  107:
-            entity = mike;
+            entity = michal;
  110:
             return entity;
         }
     };
-    zulu['useShouldFilterKeywords'] = mike;
+    zuuluu['useShouldFilterKeywords'] = michal;
     return entity;
 })();

@@ -1,183 +1,183 @@
 // app/modules/messages/native/renderer/system_messages/transformSticker.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar) { // Original name: transform
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argFoo;
-            tango = argBar;
+            tangon = argBar;
             entity = {};
-            foxtrot = entity;
-            romeo = offset;
-            mike = copyDataProperties(foxtrot, romeo);
-            mike = offset.id;
-            golf = null;
-            oscar = golf != mike;
+            foxtra = entity;
+            romeon = offset;
+            michal = copyDataProperties(foxtra, romeon);
+            michal = offset.id;
+            golfie = null;
+            oscard = golfie != michal;
             report = '';
-            zulu = report;
-            if(!oscar) { _fun00002_ip = 42; continue _fun00001 }
+            zuuluu = report;
+            if(!oscard) { _fun00002_ip = 42; continue _fun00001 }
  39:
-            zulu = mike;
+            zuuluu = michal;
  42:
-            mike = 'asset';
-            entity[mike] = zulu;
-            options = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 2;
-            zulu = oscar[zulu];
-            oscar = undefined;
-            verify = options.bind(oscar)(zulu);
-            options = verify.getStickerAssetUrl;
-            zulu = {};
-            yankee = !tango;
-            zulu['isPreview'] = yankee;
-            zulu = options.bind(verify)(offset, zulu);
-            golf = golf != zulu;
-            if(!golf) { _fun00002_ip = 108; continue _fun00001 }
+            michal = 'asset';
+            entity[michal] = zuuluu;
+            option = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            oscard = undefined;
+            verify = option.bind(oscard)(zuuluu);
+            option = verify.getStickerAssetUrl;
+            zuuluu = {};
+            yankee = !tangon;
+            zuuluu['isPreview'] = yankee;
+            zuuluu = option.bind(verify)(offset, zuuluu);
+            golfie = golfie != zuuluu;
+            if(!golfie) { _fun00002_ip = 108; continue _fun00001 }
  105:
-            report = zulu;
+            report = zuuluu;
  108:
-            zulu = 'url';
-            entity[zulu] = report;
+            zuuluu = 'url';
+            entity[zuuluu] = report;
             report = _closure1_slot0;
-            golf = _closure1_slot1;
-            zulu = 3;
-            zulu = golf[zulu];
-            zulu = report.bind(oscar)(zulu);
-            zulu = zulu.NativeLottieRenderMode;
-            if(tango) { _fun00002_ip = 154; continue _fun00001 }
+            golfie = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = golfie[zuuluu];
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.NativeLottieRenderMode;
+            if(tangon) { _fun00002_ip = 154; continue _fun00001 }
  146:
-            tango = zulu.STILL;
+            tangon = zuuluu.STILL;
             _fun00002_ip = 160; continue _fun00001;
  154:
-            tango = zulu.LOOP;
+            tangon = zuuluu.LOOP;
  160:
-            zulu = 'renderMode';
-            entity[zulu] = tango;
+            zuuluu = 'renderMode';
+            entity[zuuluu] = tangon;
             report = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 4;
-            zulu = golf[mike];
-            zulu = report.bind(oscar)(zulu);
-            verify = zulu.intl;
-            options = verify.formatToPlainString;
-            zulu = golf[mike];
-            zulu = report.bind(oscar)(zulu);
-            zulu = zulu.t;
-            tango = zulu.rk6pOz;
-            zulu = {};
+            golfie = _closure1_slot1;
+            michal = 4;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            verify = zuuluu.intl;
+            option = verify.formatToPlainString;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.rk6pOz;
+            zuuluu = {};
             offset = offset.name;
-            zulu['stickerName'] = offset;
-            tango = options.bind(verify)(tango, zulu);
-            zulu = 'accessibilityLabel';
-            entity[zulu] = tango;
-            zulu = golf[mike];
-            zulu = report.bind(oscar)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = report.bind(oscar)(mike);
-            mike = mike.t;
-            mike = mike.GCErub;
-            zulu = zulu.bind(tango)(mike);
-            mike = 'accessibilityHint';
-            entity[mike] = zulu;
+            zuuluu['stickerName'] = offset;
+            tangon = option.bind(verify)(tangon, zuuluu);
+            zuuluu = 'accessibilityLabel';
+            entity[zuuluu] = tangon;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = report.bind(oscard)(michal);
+            michal = michal.t;
+            michal = michal.GCErub;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = 'accessibilityHint';
+            entity[michal] = zuuluu;
             return entity;
         }
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.StickerAnimationSettings;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/system_messages/transformSticker.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useTransformedSticker
-        mike = argFoo;
-        report = mike.sticker;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.StickerAnimationSettings;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/system_messages/transformSticker.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useTransformedSticker
+        michal = argFoo;
+        report = michal.sticker;
         var _closure2_slot0 = report;
-        oscar = mike.isStickerReplyEnabled;
-        var _closure2_slot1 = oscar;
-        golf = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 5;
-        tango = tango[zulu];
-        zulu = undefined;
-        zulu = golf.bind(zulu)(tango);
-        tango = zulu.AnimateStickers;
-        zulu = tango.useSetting;
-        tango = zulu.bind(tango)();
-        zulu = _closure1_slot3;
-        zulu = zulu.ALWAYS_ANIMATE;
-        golf = tango === zulu;
-        var _closure2_slot2 = golf;
-        tango = _closure1_slot2;
-        zulu = tango.useMemo;
-        mike = new Array(3);
-        mike[0] = golf;
-        mike[1] = oscar;
-        mike[2] = report;
+        oscard = michal.isStickerReplyEnabled;
+        var _closure2_slot1 = oscard;
+        golfie = _closure1_slot0;
+        tangon = _closure1_slot1;
+        zuuluu = 5;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        zuuluu = golfie.bind(zuuluu)(tangon);
+        tangon = zuuluu.AnimateStickers;
+        zuuluu = tangon.useSetting;
+        tangon = zuuluu.bind(tangon)();
+        zuuluu = _closure1_slot3;
+        zuuluu = zuuluu.ALWAYS_ANIMATE;
+        golfie = tangon === zuuluu;
+        var _closure2_slot2 = golfie;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(3);
+        michal[0] = golfie;
+        michal[1] = oscard;
+        michal[2] = report;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = _closure2_slot1;
+                zuuluu = _closure2_slot1;
                 report = undefined;
                 entity = undefined;
-                if(!zulu) { _fun00004_ip = 35; continue _fun00003 }
+                if(!zuuluu) { _fun00004_ip = 35; continue _fun00003 }
  14:
-                tango = _closure1_slot4;
-                zulu = _closure2_slot0;
-                mike = _closure2_slot2;
-                entity = tango.bind(report)(zulu, mike);
+                tangon = _closure1_slot4;
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot2;
+                entity = tangon.bind(report)(zuuluu, michal);
  35:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function(argFoo) { // Original name: transformSticker
-        tango = _closure1_slot4;
+    zuuluu['default'] = tangon;
+    michal = function(argFoo) { // Original name: transformSticker
+        tangon = _closure1_slot4;
         report = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 5;
-        mike = zulu[mike];
-        zulu = undefined;
-        mike = report.bind(zulu)(mike);
-        report = mike.AnimateStickers;
-        mike = report.getSetting;
-        report = mike.bind(report)();
+        zuuluu = _closure1_slot1;
+        michal = 5;
+        michal = zuuluu[michal];
+        zuuluu = undefined;
+        michal = report.bind(zuuluu)(michal);
+        report = michal.AnimateStickers;
+        michal = report.getSetting;
+        report = michal.bind(report)();
         entity = _closure1_slot3;
         entity = entity.ALWAYS_ANIMATE;
-        mike = argFoo;
+        michal = argFoo;
         entity = report === entity;
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zulu['transformSticker'] = mike;
+    zuuluu['transformSticker'] = michal;
     return entity;
 })();

@@ -1,61 +1,61 @@
 // app/modules/activities/utils/isOnXbox.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.XBOX_ACTIVITY_APPLICATION_ID;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityGamePlatforms;
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/isOnXbox.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isOnXbox
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.XBOX_ACTIVITY_APPLICATION_ID;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityGamePlatforms;
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/isOnXbox.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isOnXbox
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = null;
-            entity = report == tango;
-            oscar = undefined;
+            entity = report == tangon;
+            oscard = undefined;
             if(entity) { _fun00002_ip = 20; continue _fun00001 }
  14:
-            oscar = tango.application_id;
+            oscard = tangon.application_id;
  20:
             entity = _closure1_slot0;
-            entity = oscar === entity;
+            entity = oscard === entity;
             if(entity) { _fun00002_ip = 63; continue _fun00001 }
  34:
-            report = report == tango;
-            zulu = undefined;
+            report = report == tangon;
+            zuuluu = undefined;
             if(report) { _fun00002_ip = 49; continue _fun00001 }
  43:
-            zulu = tango.platform;
+            zuuluu = tangon.platform;
  49:
-            mike = _closure1_slot1;
-            mike = mike.XBOX;
-            entity = zulu === mike;
+            michal = _closure1_slot1;
+            michal = michal.XBOX;
+            entity = zuuluu === michal;
  63:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

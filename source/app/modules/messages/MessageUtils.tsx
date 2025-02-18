@@ -1,80 +1,80 @@
 // app/modules/messages/MessageUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/MessageUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/MessageUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot2;
-            entity = mike.getCurrentUser;
-            report = entity.bind(mike)();
-            zulu = _closure1_slot0;
-            mike = zulu.getChannel;
+            michal = _closure1_slot2;
+            entity = michal.getCurrentUser;
+            report = entity.bind(michal)();
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.getChannel;
             entity = argFoo;
-            golf = mike.bind(zulu)(entity);
-            oscar = null;
-            entity = oscar != report;
+            golfie = michal.bind(zuuluu)(entity);
+            oscard = null;
+            entity = oscard != report;
             if(!entity) { _fun00002_ip = 46; continue _fun00001 }
  42:
-            entity = oscar != golf;
+            entity = oscard != golfie;
  46:
             if(!entity) { _fun00002_ip = 118; continue _fun00001 }
  49:
-            mike = golf.isNSFW;
-            mike = mike.bind(golf)();
-            mike = !mike;
-            if(mike) { _fun00002_ip = 115; continue _fun00001 }
+            michal = golfie.isNSFW;
+            michal = michal.bind(golfie)();
+            michal = !michal;
+            if(michal) { _fun00002_ip = 115; continue _fun00001 }
  65:
-            zulu = report.nsfwAllowed;
-            zulu = oscar != zulu;
-            if(!zulu) { _fun00002_ip = 84; continue _fun00001 }
+            zuuluu = report.nsfwAllowed;
+            zuuluu = oscard != zuuluu;
+            if(!zuuluu) { _fun00002_ip = 84; continue _fun00001 }
  78:
-            zulu = report.nsfwAllowed;
+            zuuluu = report.nsfwAllowed;
  84:
-            if(!zulu) { _fun00002_ip = 112; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 112; continue _fun00001 }
  87:
-            oscar = _closure1_slot1;
-            report = oscar.didAgree;
-            tango = golf.getGuildId;
-            tango = tango.bind(golf)();
-            zulu = report.bind(oscar)(tango);
+            oscard = _closure1_slot1;
+            report = oscard.didAgree;
+            tangon = golfie.getGuildId;
+            tangon = tangon.bind(golfie)();
+            zuuluu = report.bind(oscard)(tangon);
  112:
-            mike = zulu;
+            michal = zuuluu;
  115:
-            entity = mike;
+            entity = michal;
  118:
             return entity;
         }
     };
-    zulu['canViewPotentiallyNSFWChannel'] = mike;
+    zuuluu['canViewPotentiallyNSFWChannel'] = michal;
     return entity;
 })();

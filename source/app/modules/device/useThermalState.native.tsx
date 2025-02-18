@@ -1,88 +1,88 @@
 // app/modules/device/useThermalState.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: _getThermalState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 256; continue _fun00001 }
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 256; continue _fun00001 }
  12:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            oscar = 0;
-            zulu = zulu[oscar];
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            oscard = 0;
+            zuuluu = zuuluu[oscard];
             report = undefined;
-            tango = tango.bind(report)(zulu);
-            zulu = tango.isIOS;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00002_ip = 254; continue _fun00001 }
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.isIOS;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00002_ip = 254; continue _fun00001 }
  52:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[oscar];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00002_ip = 93; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00002_ip = 93; continue _fun00001 }
  81:
-            zulu = _closure1_slot3;
-            zulu = zulu.UNHANDLED;
-            return zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.UNHANDLED;
+            return zuuluu;
  93:
-            zulu = _closure1_slot4;
-            zulu = zulu.NONE;
-            if(!(zulu !== entity)) { _fun00002_ip = 242; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.NONE;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 242; continue _fun00001 }
  110:
-            zulu = _closure1_slot4;
-            zulu = zulu.LIGHT;
-            if(!(zulu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.LIGHT;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
  124:
-            zulu = _closure1_slot4;
-            zulu = zulu.MODERATE;
-            if(!(zulu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.MODERATE;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
  138:
-            zulu = _closure1_slot4;
-            zulu = zulu.SEVERE;
-            if(!(zulu !== entity)) { _fun00002_ip = 218; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.SEVERE;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 218; continue _fun00001 }
  152:
-            zulu = _closure1_slot4;
-            zulu = zulu.CRITICAL;
-            if(!(zulu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.CRITICAL;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
  166:
-            zulu = _closure1_slot4;
-            zulu = zulu.EMERGENCY;
-            if(!(zulu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.EMERGENCY;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
  180:
-            zulu = _closure1_slot4;
-            zulu = zulu.SHUTDOWN;
-            if(!(zulu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.SHUTDOWN;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
  194:
-            zulu = _closure1_slot3;
-            zulu = zulu.UNHANDLED;
-            return zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.UNHANDLED;
+            return zuuluu;
  206:
-            zulu = _closure1_slot3;
-            zulu = zulu.CRITICAL;
-            return zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.CRITICAL;
+            return zuuluu;
  218:
-            zulu = _closure1_slot3;
-            zulu = zulu.SERIOUS;
-            return zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.SERIOUS;
+            return zuuluu;
  230:
-            zulu = _closure1_slot3;
-            zulu = zulu.FAIR;
-            return zulu;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.FAIR;
+            return zuuluu;
  242:
-            mike = _closure1_slot3;
-            mike = mike.NOMINAL;
-            return mike;
+            michal = _closure1_slot3;
+            michal = michal.NOMINAL;
+            return michal;
  254:
             return entity;
  256:
@@ -93,95 +93,95 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = entity;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     report = {};
-    tango = -1;
-    report['UNHANDLED'] = tango;
+    tangon = -1;
+    report['UNHANDLED'] = tangon;
     entity = 'UNHANDLED';
-    report[tango] = entity;
-    romeo = 0;
-    report['NOMINAL'] = romeo;
+    report[tangon] = entity;
+    romeon = 0;
+    report['NOMINAL'] = romeon;
     entity = 'NOMINAL';
-    report[romeo] = entity;
+    report[romeon] = entity;
     yankee = 1;
     report['FAIR'] = yankee;
     entity = 'FAIR';
     report[yankee] = entity;
     entity = 2;
     report['SERIOUS'] = entity;
-    tango = 'SERIOUS';
-    report[entity] = tango;
+    tangon = 'SERIOUS';
+    report[entity] = tangon;
     offset = 3;
     report['CRITICAL'] = offset;
     verify = 'CRITICAL';
     report[offset] = verify;
     var _closure1_slot3 = report;
-    tango = {};
-    tango['NONE'] = romeo;
-    options = 'NONE';
-    tango[romeo] = options;
-    tango['LIGHT'] = yankee;
-    options = 'LIGHT';
-    tango[yankee] = options;
-    tango['MODERATE'] = entity;
-    options = 'MODERATE';
-    tango[entity] = options;
-    tango['SEVERE'] = offset;
-    options = 'SEVERE';
-    tango[offset] = options;
-    options = 4;
-    tango['CRITICAL'] = options;
-    tango[options] = verify;
+    tangon = {};
+    tangon['NONE'] = romeon;
+    option = 'NONE';
+    tangon[romeon] = option;
+    tangon['LIGHT'] = yankee;
+    option = 'LIGHT';
+    tangon[yankee] = option;
+    tangon['MODERATE'] = entity;
+    option = 'MODERATE';
+    tangon[entity] = option;
+    tangon['SEVERE'] = offset;
+    option = 'SEVERE';
+    tangon[offset] = option;
+    option = 4;
+    tangon['CRITICAL'] = option;
+    tangon[option] = verify;
     verify = 5;
-    tango['EMERGENCY'] = verify;
-    options = 'EMERGENCY';
-    tango[verify] = options;
+    tangon['EMERGENCY'] = verify;
+    option = 'EMERGENCY';
+    tangon[verify] = option;
     verify = 6;
-    tango['SHUTDOWN'] = verify;
-    options = 'SHUTDOWN';
-    tango[verify] = options;
-    var _closure1_slot4 = tango;
-    oscar = oscar[entity];
+    tangon['SHUTDOWN'] = verify;
+    option = 'SHUTDOWN';
+    tangon[verify] = option;
+    var _closure1_slot4 = tangon;
+    oscard = oscard[entity];
     entity = undefined;
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/device/useThermalState.native.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = function() { // Original name: useThermalState
-        zulu = _closure1_slot5;
-        tango = _closure1_slot1;
-        mike = _closure1_slot2;
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/device/useThermalState.native.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function() { // Original name: useThermalState
+        zuuluu = _closure1_slot5;
+        tangon = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        entity = mike[entity];
-        mike = undefined;
-        tango = tango.bind(mike)(entity);
-        entity = tango.useRawThermalState;
-        entity = entity.bind(tango)();
-        entity = zulu.bind(mike)(entity);
+        entity = michal[entity];
+        michal = undefined;
+        tangon = tangon.bind(michal)(entity);
+        entity = tangon.useRawThermalState;
+        entity = entity.bind(tangon)();
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['default'] = oscar;
-    zulu['ThermalStates'] = report;
-    zulu['AndroidThermalStates'] = tango;
-    mike = function() { // Original name: getThermalState
-        zulu = _closure1_slot5;
-        tango = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['default'] = oscard;
+    zuuluu['ThermalStates'] = report;
+    zuuluu['AndroidThermalStates'] = tangon;
+    michal = function() { // Original name: getThermalState
+        zuuluu = _closure1_slot5;
+        tangon = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
-        entity = mike[entity];
-        mike = undefined;
-        tango = tango.bind(mike)(entity);
-        entity = tango.getRawThermalState;
-        entity = entity.bind(tango)();
-        entity = zulu.bind(mike)(entity);
+        entity = michal[entity];
+        michal = undefined;
+        tangon = tangon.bind(michal)(entity);
+        entity = tangon.getRawThermalState;
+        entity = entity.bind(tangon)();
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getThermalState'] = mike;
+    zuuluu['getThermalState'] = michal;
     return entity;
 })();

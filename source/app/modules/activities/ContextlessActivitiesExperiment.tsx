@@ -1,100 +1,100 @@
 // app/modules/activities/ContextlessActivitiesExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function() { // Original name: getIsContextlessActivitiesExperimentEnabled
-        zulu = _closure1_slot3;
-        mike = zulu.getCurrentConfig;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function() { // Original name: getIsContextlessActivitiesExperimentEnabled
+        zuuluu = _closure1_slot3;
+        michal = zuuluu.getCurrentConfig;
         entity = {};
-        tango = 'getIsContextlessActivitiesExperimentEnabled';
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = 'getIsContextlessActivitiesExperimentEnabled';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.enabled;
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
-    romeo = true;
-    report['value'] = romeo;
+    romeon = true;
+    report['value'] = romeon;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = oscar.bind(entity)(report);
+    report = oscard.bind(entity)(report);
     report = report.ApplicationFlags;
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     offset = report.CommonTriggerPoints;
     report = 2;
-    report = golf[report];
-    verify = oscar.bind(entity)(report);
-    options = verify.createExperiment;
+    report = golfie[report];
+    verify = oscard.bind(entity)(report);
+    option = verify.createExperiment;
     report = {'kind': 'user', 'id': '2024-11_activities_contextless', 'label': 'Contextless Activities Experiment'};
     yankee = {};
-    foxtrot = false;
-    yankee['enabled'] = foxtrot;
+    foxtra = false;
+    yankee['enabled'] = foxtra;
     report['defaultConfig'] = yankee;
     offset = offset.CONNECTION_OPEN;
     report['commonTriggerPoint'] = offset;
     yankee = {'id': 1, 'label': 'Enable contextless activities'};
     offset = {};
-    offset['enabled'] = romeo;
+    offset['enabled'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
     report['treatments'] = offset;
-    report = options.bind(verify)(report);
+    report = option.bind(verify)(report);
     var _closure1_slot3 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/activities/ContextlessActivitiesExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['getIsContextlessActivitiesExperimentEnabled'] = tango;
-    tango = function() { // Original name: useIsContextlessActivitiesExperimentEnabled
-        zulu = _closure1_slot3;
-        mike = zulu.useExperiment;
+    report = oscard.bind(golfie)(report);
+    zuuluu['getIsContextlessActivitiesExperimentEnabled'] = tangon;
+    tangon = function() { // Original name: useIsContextlessActivitiesExperimentEnabled
+        zuuluu = _closure1_slot3;
+        michal = zuuluu.useExperiment;
         entity = {};
-        tango = 'useIsContextlessActivitiesExperimentEnabled';
-        entity['location'] = tango;
-        entity = mike.bind(zulu)(entity);
+        tangon = 'useIsContextlessActivitiesExperimentEnabled';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         entity = entity.enabled;
         return entity;
     };
-    zulu['useIsContextlessActivitiesExperimentEnabled'] = tango;
-    mike = function(argFoo) { // Original name: isContextlessActivitiesEnabledForApp
+    zuuluu['useIsContextlessActivitiesExperimentEnabled'] = tangon;
+    michal = function(argFoo) { // Original name: isContextlessActivitiesEnabledForApp
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 3;
-            entity = zulu[entity];
-            zulu = undefined;
-            oscar = tango.bind(zulu)(entity);
-            report = oscar.hasFlag;
+            entity = zuuluu[entity];
+            zuuluu = undefined;
+            oscard = tangon.bind(zuuluu)(entity);
+            report = oscard.hasFlag;
             entity = argFoo;
-            tango = entity.flags;
+            tangon = entity.flags;
             entity = _closure1_slot2;
             entity = entity.CONTEXTLESS_ACTIVITY;
-            entity = report.bind(oscar)(tango, entity);
+            entity = report.bind(oscard)(tangon, entity);
             if(!entity) { _fun00002_ip = 66; continue _fun00001 }
  58:
-            mike = _closure1_slot4;
-            entity = mike.bind(zulu)();
+            michal = _closure1_slot4;
+            entity = michal.bind(zuuluu)();
  66:
             return entity;
         }
     };
-    zulu['isContextlessActivitiesEnabledForApp'] = mike;
+    zuuluu['isContextlessActivitiesEnabledForApp'] = michal;
     return entity;
 })();

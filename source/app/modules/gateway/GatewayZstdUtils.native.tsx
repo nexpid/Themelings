@@ -1,85 +1,85 @@
 // app/modules/gateway/GatewayZstdUtils.native.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/gateway/GatewayZstdUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: supportsZstd
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/gateway/GatewayZstdUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: supportsZstd
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
-            tango = undefined;
-            zulu = zulu.bind(tango)(entity);
-            entity = zulu.isAndroid;
-            entity = entity.bind(zulu)();
+            entity = tangon[entity];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.isAndroid;
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 76; continue _fun00001 }
  37:
             entity = _closure1_slot3;
             report = entity.DCDCompressionManager;
             entity = null;
-            oscar = entity == report;
-            zulu = undefined;
-            if(oscar) { _fun00002_ip = 64; continue _fun00001 }
+            oscard = entity == report;
+            zuuluu = undefined;
+            if(oscard) { _fun00002_ip = 64; continue _fun00001 }
  58:
-            zulu = report.supportsZstd;
+            zuuluu = report.supportsZstd;
  64:
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00002_ip = 74; continue _fun00001 }
  71:
-            entity = zulu;
+            entity = zuuluu;
  74:
             _fun00002_ip = 112; continue _fun00001;
  76:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            mike = 2;
-            mike = report[mike];
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.getConstants;
-            mike = mike.bind(zulu)();
-            entity = mike.supportsZstd;
+            michal = 2;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.getConstants;
+            michal = michal.bind(zuuluu)();
+            entity = michal.supportsZstd;
  112:
             return entity;
         }
     };
-    zulu['supportsZstd'] = tango;
-    mike = function() { // Original name: createZstdContextWeb
+    zuuluu['supportsZstd'] = tangon;
+    michal = function() { // Original name: createZstdContextWeb
         entity = global;
-        zulu = entity.Error;
-        entity = zulu.prototype;
-        mike = Object.create(entity, {constructor: {value: zulu}});
-        tango = 'Attempting to use createZstdContextWeb in a native context. Use MobileGatewayCompressionHandler instead.';
-        report = mike;
-        entity = new report[zulu](tango, zulu);
-        entity = entity instanceof Object ? entity : mike;
+        zuuluu = entity.Error;
+        entity = zuuluu.prototype;
+        michal = Object.create(entity, {constructor: {value: zuuluu}});
+        tangon = 'Attempting to use createZstdContextWeb in a native context. Use MobileGatewayCompressionHandler instead.';
+        report = michal;
+        entity = new report[zuuluu](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
         throw entity;
     };
-    zulu['createZstdContextWeb'] = mike;
+    zuuluu['createZstdContextWeb'] = michal;
     return entity;
 })();

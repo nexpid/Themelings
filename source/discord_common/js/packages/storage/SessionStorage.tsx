@@ -1,27 +1,27 @@
 // discord_common/js/packages/storage/SessionStorage.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    tango = argBar;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    tangon = argBar;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, mike);
+    entity = oscard.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = report[entity];
+    michal = report[entity];
     entity = undefined;
-    golf = tango.bind(entity)(mike);
-    oscar = golf.fileFinishedImporting;
-    mike = '../discord_common/js/packages/storage/SessionStorage.tsx';
-    mike = oscar.bind(golf)(mike);
-    mike = 1;
-    mike = report[mike];
-    mike = tango.bind(entity)(mike);
-    mike = mike.impl;
-    zulu['SessionStorage'] = mike;
+    golfie = tangon.bind(entity)(michal);
+    oscard = golfie.fileFinishedImporting;
+    michal = '../discord_common/js/packages/storage/SessionStorage.tsx';
+    michal = oscard.bind(golfie)(michal);
+    michal = 1;
+    michal = report[michal];
+    michal = tangon.bind(entity)(michal);
+    michal = michal.impl;
+    zuuluu['SessionStorage'] = michal;
     return entity;
 })();

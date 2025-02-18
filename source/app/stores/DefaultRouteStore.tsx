@@ -1,42 +1,42 @@
 // app/stores/DefaultRouteStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot11;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -45,119 +45,119 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = mike;
+            _closure1_slot11 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    mike = 4;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot6 = mike;
-    mike = 5;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.Routes;
-    var _closure1_slot7 = mike;
-    mike = {'lastViewedPath': null, 'lastViewedNonVoicePath': null};
-    var _closure1_slot8 = mike;
-    var _closure1_slot9 = mike;
-    mike = 6;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    options = mike.PersistedStore;
-    mike = function(argFoo) {
-        tango = function() { // Original name: DefaultRouteStore
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot6 = michal;
+    michal = 5;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.Routes;
+    var _closure1_slot7 = michal;
+    michal = {'lastViewedPath': null, 'lastViewedNonVoicePath': null};
+    var _closure1_slot8 = michal;
+    var _closure1_slot9 = michal;
+    michal = 6;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    option = michal.PersistedStore;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: DefaultRouteStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot2;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot10;
+            oscard = _closure1_slot2;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot10;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot6;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot3;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot3;
         report = {};
         entity = 'initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = arguments[0];
+                zuuluu = arguments[0];
                 entity = undefined;
-                if(!(zulu === entity)) { _fun00006_ip = 16; continue _fun00005 }
+                if(!(zuuluu === entity)) { _fun00006_ip = 16; continue _fun00005 }
  9:
-                zulu = _closure1_slot8;
+                zuuluu = _closure1_slot8;
  16:
-                mike = null;
-                if(!(mike == zulu)) { _fun00006_ip = 29; continue _fun00005 }
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00006_ip = 29; continue _fun00005 }
  22:
-                zulu = _closure1_slot8;
+                zuuluu = _closure1_slot8;
  29:
-                _closure1_slot9 = zulu;
+                _closure1_slot9 = zuuluu;
                 return entity;
             }
         };
@@ -165,127 +165,127 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(5);
         entity[0] = report;
         report = {};
-        golf = 'defaultRoute';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'defaultRoute';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = _closure1_slot9;
                 entity = entity.lastViewedPath;
-                zulu = null;
-                if(!(zulu == entity)) { _fun00008_ip = 29; continue _fun00007 }
+                zuuluu = null;
+                if(!(zuuluu == entity)) { _fun00008_ip = 29; continue _fun00007 }
  19:
-                mike = _closure1_slot7;
-                entity = mike.ME;
+                michal = _closure1_slot7;
+                entity = michal.ME;
  29:
                 return entity;
             }
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'lastNonVoiceRoute';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'lastNonVoiceRoute';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot9;
                 entity = entity.lastViewedNonVoicePath;
-                zulu = null;
-                if(!(zulu == entity)) { _fun00010_ip = 29; continue _fun00009 }
+                zuuluu = null;
+                if(!(zuuluu == entity)) { _fun00010_ip = 29; continue _fun00009 }
  19:
-                mike = _closure1_slot7;
-                entity = mike.ME;
+                michal = _closure1_slot7;
+                entity = michal.ME;
  29:
                 return entity;
             }
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'fallbackRoute';
-        report['key'] = golf;
-        golf = function() { // Original name: get
+        golfie = 'fallbackRoute';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
             entity = _closure1_slot7;
             entity = entity.ME;
             return entity;
         };
-        report['get'] = golf;
+        report['get'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'getState';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'getState';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = _closure1_slot9;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[4] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = mike.bind(entity)(options);
-    mike = 'DefaultRouteStore';
-    options['displayName'] = mike;
-    options['persistKey'] = mike;
-    mike = new Array(1);
+    option = michal.bind(entity)(option);
+    michal = 'DefaultRouteStore';
+    option['displayName'] = michal;
+    option['persistKey'] = michal;
+    michal = new Array(1);
     verify = function() {
         report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = 7;
-        mike = oscar[entity];
-        zulu = undefined;
-        mike = report.bind(zulu)(mike);
-        options = mike.Storage;
-        golf = options.get;
-        tango = 'LAST_VIEWED_PATH';
-        mike = null;
-        mike = golf.bind(options)(tango, mike);
-        entity = oscar[entity];
-        entity = report.bind(zulu)(entity);
-        zulu = entity.Storage;
-        entity = zulu.remove;
-        entity = entity.bind(zulu)(tango);
+        michal = oscard[entity];
+        zuuluu = undefined;
+        michal = report.bind(zuuluu)(michal);
+        option = michal.Storage;
+        golfie = option.get;
+        tangon = 'LAST_VIEWED_PATH';
+        michal = null;
+        michal = golfie.bind(option)(tangon, michal);
+        entity = oscard[entity];
+        entity = report.bind(zuuluu)(entity);
+        zuuluu = entity.Storage;
+        entity = zuuluu.remove;
+        entity = entity.bind(zuuluu)(tangon);
         entity = {};
-        entity['lastViewedPath'] = mike;
+        entity['lastViewedPath'] = michal;
         return entity;
     };
-    mike[0] = verify;
-    options['migrations'] = mike;
-    mike = 8;
-    mike = oscar[mike];
-    romeo = golf.bind(entity)(mike);
-    mike = {};
+    michal[0] = verify;
+    option['migrations'] = michal;
+    michal = 8;
+    michal = oscard[michal];
+    romeon = golfie.bind(entity)(michal);
+    michal = {};
     verify = function(argFoo) { // Original name: handleSaveRoute
         entity = argFoo;
-        mike = entity.path;
+        michal = entity.path;
         entity = _closure1_slot9;
-        entity['lastViewedPath'] = mike;
+        entity['lastViewedPath'] = michal;
         entity = true;
         return entity;
     };
-    mike['SAVE_LAST_ROUTE'] = verify;
-    tango = function(argFoo) { // Original name: handleSaveLastNonVoiceRoute
+    michal['SAVE_LAST_ROUTE'] = verify;
+    tangon = function(argFoo) { // Original name: handleSaveLastNonVoiceRoute
         entity = argFoo;
-        mike = entity.path;
+        michal = entity.path;
         entity = _closure1_slot9;
-        entity['lastViewedNonVoicePath'] = mike;
+        entity['lastViewedNonVoicePath'] = michal;
         entity = true;
         return entity;
     };
-    mike['SAVE_LAST_NON_VOICE_ROUTE'] = tango;
-    tango = options.prototype;
-    tango = Object.create(tango, {constructor: {value: options}});
-    foxtrot = tango;
-    yankee = mike;
-    mike = new foxtrot[options](romeo, yankee, offset);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'stores/DefaultRouteStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['SAVE_LAST_NON_VOICE_ROUTE'] = tangon;
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
+    foxtra = tangon;
+    yankee = michal;
+    michal = new foxtra[option](romeon, yankee, offset);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'stores/DefaultRouteStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

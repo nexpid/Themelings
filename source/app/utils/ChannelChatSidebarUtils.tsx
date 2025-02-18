@@ -1,34 +1,34 @@
 // app/utils/ChannelChatSidebarUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'utils/ChannelChatSidebarUtils.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 450;
-    zulu['MIN_CHAT_SIDEBAR_WIDTH'] = mike;
-    mike = 360;
-    zulu['DEFAULT_PARTICIPANTS_SIDEBAR_WIDTH'] = mike;
-    mike = function(argFoo) {
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'utils/ChannelChatSidebarUtils.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 450;
+    zuuluu['MIN_CHAT_SIDEBAR_WIDTH'] = michal;
+    michal = 360;
+    zuuluu['DEFAULT_PARTICIPANTS_SIDEBAR_WIDTH'] = michal;
+    michal = function(argFoo) {
         entity = argFoo;
-        mike = entity.maxWidth;
+        michal = entity.maxWidth;
         entity = entity.minWidth;
-        entity = mike <= entity;
+        entity = michal <= entity;
         return entity;
     };
-    zulu['shouldChannelChatFloat'] = mike;
+    zuuluu['shouldChannelChatFloat'] = michal;
     return entity;
 })();

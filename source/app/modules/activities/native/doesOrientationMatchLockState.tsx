@@ -1,65 +1,65 @@
 // app/modules/activities/native/doesOrientationMatchLockState.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.OrientationLockState;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/native/doesOrientationMatchLockState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: doesOrientationMatchLockState
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.OrientationLockState;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/native/doesOrientationMatchLockState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: doesOrientationMatchLockState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            tango = argBar;
+            michal = argFoo;
+            tangon = argBar;
             entity = null;
-            entity = entity == tango;
+            entity = entity == tangon;
             if(entity) { _fun00002_ip = 32; continue _fun00001 }
  15:
-            zulu = _closure1_slot0;
-            zulu = zulu.UNLOCKED;
-            entity = tango === zulu;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.UNLOCKED;
+            entity = tangon === zuuluu;
  32:
             if(entity) { _fun00002_ip = 61; continue _fun00001 }
  35:
-            zulu = !mike;
-            if(!zulu) { _fun00002_ip = 58; continue _fun00001 }
+            zuuluu = !michal;
+            if(!zuuluu) { _fun00002_ip = 58; continue _fun00001 }
  41:
             report = _closure1_slot0;
             report = report.PORTRAIT;
-            zulu = tango === report;
+            zuuluu = tangon === report;
  58:
-            entity = zulu;
+            entity = zuuluu;
  61:
             if(entity) { _fun00002_ip = 87; continue _fun00001 }
  64:
-            if(!mike) { _fun00002_ip = 84; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 84; continue _fun00001 }
  67:
-            zulu = _closure1_slot0;
-            zulu = zulu.LANDSCAPE;
-            mike = tango === zulu;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.LANDSCAPE;
+            michal = tangon === zuuluu;
  84:
-            entity = mike;
+            entity = michal;
  87:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

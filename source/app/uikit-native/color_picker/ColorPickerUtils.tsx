@@ -1,80 +1,80 @@
 // app/uikit-native/color_picker/ColorPickerUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = {};
-    tango = 'function normalizeValue_ColorPickerUtilsTsx1(value){if(value<0)return 0;if(value>1)return 1;return value;}';
-    entity['code'] = tango;
+    tangon = 'function normalizeValue_ColorPickerUtilsTsx1(value){if(value<0)return 0;if(value>1)return 1;return value;}';
+    entity['code'] = tangon;
     var _closure1_slot0 = entity;
-    tango = function() {
+    tangon = function() {
         entity = function(argFoo) { // Original name: normalizeValue
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 entity = 0;
-                mike = zulu < entity;
-                if(mike) { _fun00002_ip = 28; continue _fun00001 }
+                michal = zuuluu < entity;
+                if(michal) { _fun00002_ip = 28; continue _fun00001 }
  12:
-                mike = 1;
-                tango = zulu > mike;
-                if(tango) { _fun00002_ip = 25; continue _fun00001 }
+                michal = 1;
+                tangon = zuuluu > michal;
+                if(tangon) { _fun00002_ip = 25; continue _fun00001 }
  22:
-                mike = zulu;
+                michal = zuuluu;
  25:
-                entity = mike;
+                entity = michal;
  28:
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 4078966449794.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot0;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 4078966449794.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot0;
+        entity['__initData'] = michal;
         return entity;
     };
     entity = undefined;
-    report = tango.bind(entity)();
-    tango = {};
-    oscar = 'function hsvToRgbWorklet_ColorPickerUtilsTsx2({h:h,s:s,v:v}){let r=0;let g=0;let b=0;h/=360;var i=Math.floor(h*6);var f=h*6-i;var p=v*(1-s);var q=v*(1-f*s);var t=v*(1-(1-f)*s);switch(i%6){case 0:r=v;g=t;b=p;break;case 1:r=q;g=v;b=p;break;case 2:r=p;g=v;b=t;break;case 3:r=p;g=q;b=v;break;case 4:r=t;g=p;b=v;break;case 5:r=v;g=p;b=q;break;}return[Math.round(r*255),Math.round(g*255),Math.round(b*255)];}';
-    tango['code'] = oscar;
-    var _closure1_slot1 = tango;
-    tango = function() {
+    report = tangon.bind(entity)();
+    tangon = {};
+    oscard = 'function hsvToRgbWorklet_ColorPickerUtilsTsx2({h:h,s:s,v:v}){let r=0;let g=0;let b=0;h/=360;var i=Math.floor(h*6);var f=h*6-i;var p=v*(1-s);var q=v*(1-f*s);var t=v*(1-(1-f)*s);switch(i%6){case 0:r=v;g=t;b=p;break;case 1:r=q;g=v;b=p;break;case 2:r=p;g=v;b=t;break;case 3:r=p;g=q;b=v;break;case 4:r=t;g=p;b=v;break;case 5:r=v;g=p;b=q;break;}return[Math.round(r*255),Math.round(g*255),Math.round(b*255)];}';
+    tangon['code'] = oscard;
+    var _closure1_slot1 = tangon;
+    tangon = function() {
         entity = function(argFoo) { // Original name: hsvToRgbWorklet
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
-                mike = entity.h;
+                michal = entity.h;
                 verify = entity.s;
-                golf = entity.v;
+                golfie = entity.v;
                 entity = 360;
-                entity = mike / entity;
-                zulu = global;
-                tango = zulu.Math;
-                mike = tango.floor;
+                entity = michal / entity;
+                zuuluu = global;
+                tangon = zuuluu.Math;
+                michal = tangon.floor;
                 report = 6;
                 entity = report * entity;
-                tango = mike.bind(tango)(entity);
-                oscar = entity - tango;
+                tangon = michal.bind(tangon)(entity);
+                oscard = entity - tangon;
                 entity = 1;
-                mike = entity - verify;
-                mike = golf * mike;
-                options = oscar * verify;
-                options = entity - options;
-                options = golf * options;
-                oscar = entity - oscar;
-                oscar = oscar * verify;
-                oscar = entity - oscar;
-                oscar = golf * oscar;
-                offset = tango % report;
+                michal = entity - verify;
+                michal = golfie * michal;
+                option = oscard * verify;
+                option = entity - option;
+                option = golfie * option;
+                oscard = entity - oscard;
+                oscard = oscard * verify;
+                oscard = entity - oscard;
+                oscard = golfie * oscard;
+                offset = tangon % report;
                 report = 0;
                 if(!(report !== offset)) { _fun00004_ip = 200; continue _fun00003 }
  107:
@@ -91,123 +91,123 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  132:
                 verify = 5;
                 entity = 0;
-                tango = 0;
+                tangon = 0;
                 report = 0;
                 if(!(verify === offset)) { _fun00004_ip = 209; continue _fun00003 }
  145:
-                entity = golf;
-                tango = mike;
-                report = options;
+                entity = golfie;
+                tangon = michal;
+                report = option;
                 _fun00004_ip = 209; continue _fun00003;
  156:
-                entity = oscar;
-                tango = mike;
-                report = golf;
+                entity = oscard;
+                tangon = michal;
+                report = golfie;
                 _fun00004_ip = 209; continue _fun00003;
  167:
-                entity = mike;
-                tango = options;
-                report = golf;
+                entity = michal;
+                tangon = option;
+                report = golfie;
                 _fun00004_ip = 209; continue _fun00003;
  178:
-                entity = mike;
-                tango = golf;
-                report = oscar;
+                entity = michal;
+                tangon = golfie;
+                report = oscard;
                 _fun00004_ip = 209; continue _fun00003;
  189:
-                entity = options;
-                tango = golf;
-                report = mike;
+                entity = option;
+                tangon = golfie;
+                report = michal;
                 _fun00004_ip = 209; continue _fun00003;
  200:
-                entity = golf;
-                tango = oscar;
-                report = mike;
+                entity = golfie;
+                tangon = oscard;
+                report = michal;
  209:
-                golf = zulu.Math;
-                oscar = golf.round;
-                mike = 255;
-                entity = mike * entity;
-                oscar = oscar.bind(golf)(entity);
+                golfie = zuuluu.Math;
+                oscard = golfie.round;
+                michal = 255;
+                entity = michal * entity;
+                oscard = oscard.bind(golfie)(entity);
                 entity = new Array(3);
-                entity[0] = oscar;
-                golf = zulu.Math;
-                oscar = golf.round;
-                tango = mike * tango;
-                tango = oscar.bind(golf)(tango);
-                entity[1] = tango;
-                tango = zulu.Math;
-                zulu = tango.round;
-                mike = mike * report;
-                mike = zulu.bind(tango)(mike);
-                entity[2] = mike;
+                entity[0] = oscard;
+                golfie = zuuluu.Math;
+                oscard = golfie.round;
+                tangon = michal * tangon;
+                tangon = oscard.bind(golfie)(tangon);
+                entity[1] = tangon;
+                tangon = zuuluu.Math;
+                zuuluu = tangon.round;
+                michal = michal * report;
+                michal = zuuluu.bind(tangon)(michal);
+                entity[2] = michal;
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 14555937576302.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot1;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 14555937576302.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot1;
+        entity['__initData'] = michal;
         return entity;
     };
-    tango = tango.bind(entity)();
-    oscar = {};
-    golf = 'function hslToRgbWorklet_ColorPickerUtilsTsx3({h:h,s:s,l:l}){let r=0;let g=0;let b=0;const c=(1-Math.abs(2*l-1))*s;const x=c*(1-Math.abs(h/60%2-1));const m=l-c/2;if(h===360||0<=h&&h<60){r=c;g=x;b=0;}else if(60<=h&&h<120){r=x;g=c;b=0;}else if(120<=h&&h<180){r=0;g=c;b=x;}else if(180<=h&&h<240){r=0;g=x;b=c;}else if(240<=h&&h<300){r=x;g=0;b=c;}else if(300<=h&&h<360){r=c;g=0;b=x;}return[Math.round((r+m)*255),Math.round((g+m)*255),Math.round((b+m)*255)];}';
-    oscar['code'] = golf;
-    var _closure1_slot2 = oscar;
-    mike = function() {
+    tangon = tangon.bind(entity)();
+    oscard = {};
+    golfie = 'function hslToRgbWorklet_ColorPickerUtilsTsx3({h:h,s:s,l:l}){let r=0;let g=0;let b=0;const c=(1-Math.abs(2*l-1))*s;const x=c*(1-Math.abs(h/60%2-1));const m=l-c/2;if(h===360||0<=h&&h<60){r=c;g=x;b=0;}else if(60<=h&&h<120){r=x;g=c;b=0;}else if(120<=h&&h<180){r=0;g=c;b=x;}else if(180<=h&&h<240){r=0;g=x;b=c;}else if(240<=h&&h<300){r=x;g=0;b=c;}else if(300<=h&&h<360){r=c;g=0;b=x;}return[Math.round((r+m)*255),Math.round((g+m)*255),Math.round((b+m)*255)];}';
+    oscard['code'] = golfie;
+    var _closure1_slot2 = oscard;
+    michal = function() {
         entity = function(argFoo) { // Original name: hslToRgbWorklet
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.h;
-                oscar = entity.s;
-                mike = entity.l;
-                zulu = global;
-                options = zulu.Math;
-                golf = options.abs;
+                oscard = entity.s;
+                michal = entity.l;
+                zuuluu = global;
+                option = zuuluu.Math;
+                golfie = option.abs;
                 entity = 2;
-                tango = entity * mike;
+                tangon = entity * michal;
                 report = 1;
-                tango = tango - report;
-                tango = golf.bind(options)(tango);
-                tango = report - tango;
-                options = tango * oscar;
-                golf = zulu.Math;
-                oscar = golf.abs;
+                tangon = tangon - report;
+                tangon = golfie.bind(option)(tangon);
+                tangon = report - tangon;
+                option = tangon * oscard;
+                golfie = zuuluu.Math;
+                oscard = golfie.abs;
                 verify = 60;
-                tango = yankee / verify;
-                tango = tango % entity;
-                tango = tango - report;
-                tango = oscar.bind(golf)(tango);
-                tango = report - tango;
-                report = options * tango;
-                entity = options / entity;
-                oscar = mike - entity;
-                golf = 0;
+                tangon = yankee / verify;
+                tangon = tangon % entity;
+                tangon = tangon - report;
+                tangon = oscard.bind(golfie)(tangon);
+                tangon = report - tangon;
+                report = option * tangon;
+                entity = option / entity;
+                oscard = michal - entity;
+                golfie = 0;
                 offset = 360;
-                entity = options;
-                tango = report;
-                mike = 0;
+                entity = option;
+                tangon = report;
+                michal = 0;
                 if(!(offset !== yankee)) { _fun00006_ip = 286; continue _fun00005 }
  130:
-                if(!(golf <= yankee)) { _fun00006_ip = 152; continue _fun00005 }
+                if(!(golfie <= yankee)) { _fun00006_ip = 152; continue _fun00005 }
  134:
-                romeo = yankee < verify;
-                entity = options;
-                tango = report;
-                mike = 0;
-                if(romeo) { _fun00006_ip = 286; continue _fun00005 }
+                romeon = yankee < verify;
+                entity = option;
+                tangon = report;
+                michal = 0;
+                if(romeon) { _fun00006_ip = 286; continue _fun00005 }
  152:
                 if(!(verify <= yankee)) { _fun00006_ip = 174; continue _fun00005 }
  156:
                 verify = 120;
                 verify = yankee < verify;
                 entity = report;
-                tango = options;
-                mike = 0;
+                tangon = option;
+                michal = 0;
                 if(verify) { _fun00006_ip = 286; continue _fun00005 }
  174:
                 verify = 120;
@@ -216,8 +216,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 verify = 180;
                 verify = yankee < verify;
                 entity = 0;
-                tango = options;
-                mike = report;
+                tangon = option;
+                michal = report;
                 if(verify) { _fun00006_ip = 286; continue _fun00005 }
  199:
                 verify = 180;
@@ -226,8 +226,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 verify = 240;
                 verify = yankee < verify;
                 entity = 0;
-                tango = report;
-                mike = options;
+                tangon = report;
+                michal = option;
                 if(verify) { _fun00006_ip = 286; continue _fun00005 }
  224:
                 verify = 240;
@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 verify = 300;
                 verify = yankee < verify;
                 entity = report;
-                tango = 0;
-                mike = options;
+                tangon = 0;
+                michal = option;
                 if(verify) { _fun00006_ip = 286; continue _fun00005 }
  252:
                 verify = 300;
@@ -247,56 +247,56 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 verify = yankee < offset;
  269:
                 entity = 0;
-                tango = 0;
-                mike = 0;
+                tangon = 0;
+                michal = 0;
                 if(!verify) { _fun00006_ip = 286; continue _fun00005 }
  278:
-                entity = options;
-                tango = 0;
-                mike = report;
+                entity = option;
+                tangon = 0;
+                michal = report;
  286:
-                options = zulu.Math;
-                golf = options.round;
+                option = zuuluu.Math;
+                golfie = option.round;
                 report = 255;
-                entity = entity + oscar;
+                entity = entity + oscard;
                 entity = report * entity;
-                golf = golf.bind(options)(entity);
+                golfie = golfie.bind(option)(entity);
                 entity = new Array(3);
-                entity[0] = golf;
-                options = zulu.Math;
-                golf = options.round;
-                tango = tango + oscar;
-                tango = report * tango;
-                tango = golf.bind(options)(tango);
-                entity[1] = tango;
-                tango = zulu.Math;
-                zulu = tango.round;
-                mike = mike + oscar;
-                mike = report * mike;
-                mike = zulu.bind(tango)(mike);
-                entity[2] = mike;
+                entity[0] = golfie;
+                option = zuuluu.Math;
+                golfie = option.round;
+                tangon = tangon + oscard;
+                tangon = report * tangon;
+                tangon = golfie.bind(option)(tangon);
+                entity[1] = tangon;
+                tangon = zuuluu.Math;
+                zuuluu = tangon.round;
+                michal = michal + oscard;
+                michal = report * michal;
+                michal = zuuluu.bind(tangon)(michal);
+                entity[2] = michal;
                 return entity;
             }
         };
-        mike = {};
-        entity['__closure'] = mike;
-        mike = 13811670810842.0;
-        entity['__workletHash'] = mike;
-        mike = _closure1_slot2;
-        entity['__initData'] = mike;
+        michal = {};
+        entity['__closure'] = michal;
+        michal = 13811670810842.0;
+        entity['__workletHash'] = michal;
+        michal = _closure1_slot2;
+        entity['__initData'] = michal;
         return entity;
     };
-    mike = mike.bind(entity)();
-    golf = argPlugh;
-    oscar = 0;
-    golf = golf[oscar];
-    oscar = argBar;
-    options = oscar.bind(entity)(golf);
-    golf = options.fileFinishedImporting;
-    oscar = 'uikit-native/color_picker/ColorPickerUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['normalizeValue'] = report;
-    zulu['hsvToRgbWorklet'] = tango;
-    zulu['hslToRgbWorklet'] = mike;
+    michal = michal.bind(entity)();
+    golfie = argPlu;
+    oscard = 0;
+    golfie = golfie[oscard];
+    oscard = argBar;
+    option = oscard.bind(entity)(golfie);
+    golfie = option.fileFinishedImporting;
+    oscard = 'uikit-native/color_picker/ColorPickerUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['normalizeValue'] = report;
+    zuuluu['hsvToRgbWorklet'] = tangon;
+    zuuluu['hslToRgbWorklet'] = michal;
     return entity;
 })();

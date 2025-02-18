@@ -1,57 +1,57 @@
 // app/lib/injectMediaEngine.native.tsx
-export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
-    zulu = argBar;
-    tango = argPlugh;
-    var _closure1_slot0 = zulu;
-    var _closure1_slot1 = tango;
+export default (function(argFoo, argBar, _, __, ___, ____, argPlu) {
+    zuuluu = argBar;
+    tangon = argPlu;
+    var _closure1_slot0 = zuuluu;
+    var _closure1_slot1 = tangon;
     entity = 0;
-    mike = tango[entity];
+    michal = tangon[entity];
     entity = undefined;
-    oscar = zulu.bind(entity)(mike);
-    report = oscar.inject;
-    mike = {};
-    options = function() { // Original name: supported
+    oscard = zuuluu.bind(entity)(michal);
+    report = oscard.inject;
+    michal = {};
+    option = function() { // Original name: supported
         entity = true;
         return entity;
     };
-    mike['supported'] = options;
-    options = function(argFoo) { // Original name: supportsFeature
-        mike = this;
-        entity = mike.getVoiceEngine;
-        zulu = entity.bind(mike)();
-        mike = zulu.supportsFeature;
+    michal['supported'] = option;
+    option = function(argFoo) { // Original name: supportsFeature
+        michal = this;
+        entity = michal.getVoiceEngine;
+        zuuluu = entity.bind(michal)();
+        michal = zuuluu.supportsFeature;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['supportsFeature'] = options;
-    options = function() { // Original name: setProcessPriority
+    michal['supportsFeature'] = option;
+    option = function() { // Original name: setProcessPriority
         entity = undefined;
         return entity;
     };
-    mike['setProcessPriority'] = options;
-    options = function() { // Original name: getVoiceEngine
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    michal['setProcessPriority'] = option;
+    option = function() { // Original name: getVoiceEngine
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         entity = entity.default;
         return entity;
     };
-    mike['getVoiceEngine'] = options;
-    golf = function() { // Original name: getVoiceFilters
+    michal['getVoiceEngine'] = option;
+    golfie = function() { // Original name: getVoiceFilters
         entity = {};
         return entity;
     };
-    mike['getVoiceFilters'] = golf;
-    mike = report.bind(oscar)(mike);
-    mike = 2;
-    mike = tango[mike];
-    tango = zulu.bind(entity)(mike);
-    zulu = tango.fileFinishedImporting;
-    mike = 'lib/injectMediaEngine.native.tsx';
-    mike = zulu.bind(tango)(mike);
+    michal['getVoiceFilters'] = golfie;
+    michal = report.bind(oscard)(michal);
+    michal = 2;
+    michal = tangon[michal];
+    tangon = zuuluu.bind(entity)(michal);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'lib/injectMediaEngine.native.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

@@ -1,41 +1,41 @@
 // app/actions/ConsentActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: handleRequestSuccess
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tango = null;
-            mike = tango != entity;
-            if(!mike) { _fun00002_ip = 21; continue _fun00001 }
+            tangon = null;
+            michal = tangon != entity;
+            if(!michal) { _fun00002_ip = 21; continue _fun00001 }
  12:
-            zulu = entity.body;
-            mike = tango != zulu;
+            zuuluu = entity.body;
+            michal = tangon != zuuluu;
  21:
-            if(!mike) { _fun00002_ip = 90; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 90; continue _fun00001 }
  24:
-            tango = _closure1_slot1;
-            zulu = _closure1_slot2;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            tango = tango.bind(mike)(zulu);
-            zulu = tango.dispatch;
-            mike = {};
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.dispatch;
+            michal = {};
             report = 'UPDATE_CONSENTS';
-            mike['type'] = report;
+            michal['type'] = report;
             report = {};
-            golf = entity.body;
-            options = report;
-            oscar = copyDataProperties(options, golf);
-            mike['consents'] = report;
-            mike = zulu.bind(tango)(mike);
+            golfie = entity.body;
+            option = report;
+            oscard = copyDataProperties(option, golfie);
+            michal['consents'] = report;
+            michal = zuuluu.bind(tangon)(michal);
  90:
             entity = entity.body;
             return entity;
@@ -46,156 +46,156 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            zulu = entity.status;
-            mike = 500;
-            if(!(zulu >= mike)) { _fun00004_ip = 33; continue _fun00003 }
+            zuuluu = entity.status;
+            michal = 500;
+            if(!(zuuluu >= michal)) { _fun00004_ip = 33; continue _fun00003 }
  18:
-            zulu = entity.status;
-            mike = 599;
-            if(!(!(zulu <= mike))) { _fun00004_ip = 136; continue _fun00003 }
+            zuuluu = entity.status;
+            michal = 599;
+            if(!(!(zuuluu <= michal))) { _fun00004_ip = 136; continue _fun00003 }
  33:
-            zulu = null;
-            if(!(zulu != entity)) { _fun00004_ip = 62; continue _fun00003 }
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00004_ip = 62; continue _fun00003 }
  39:
-            mike = entity.body;
-            if(!(zulu != mike)) { _fun00004_ip = 62; continue _fun00003 }
+            michal = entity.body;
+            if(!(zuuluu != michal)) { _fun00004_ip = 62; continue _fun00003 }
  48:
-            mike = entity.body;
-            mike = mike.message;
-            if(!(zulu == mike)) { _fun00004_ip = 124; continue _fun00003 }
+            michal = entity.body;
+            michal = michal.message;
+            if(!(zuuluu == michal)) { _fun00004_ip = 124; continue _fun00003 }
  62:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 2;
-            zulu = golf[mike];
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 2;
+            zuuluu = golfie[michal];
             report = undefined;
-            zulu = oscar.bind(report)(zulu);
-            tango = zulu.intl;
-            zulu = tango.string;
-            mike = golf[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.t;
-            mike = mike.cvJdtr;
-            zulu = zulu.bind(tango)(mike);
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.cvJdtr;
+            zuuluu = zuuluu.bind(tangon)(michal);
             _fun00004_ip = 134; continue _fun00003;
  124:
             entity = entity.body;
-            zulu = entity.message;
+            zuuluu = entity.message;
  134:
             _fun00004_ip = 196; continue _fun00003;
  136:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 2;
-            mike = golf[entity];
+            michal = golfie[entity];
             report = undefined;
-            mike = oscar.bind(report)(mike);
-            tango = mike.intl;
-            mike = tango.string;
-            entity = golf[entity];
-            entity = oscar.bind(report)(entity);
+            michal = oscard.bind(report)(michal);
+            tangon = michal.intl;
+            michal = tangon.string;
+            entity = golfie[entity];
+            entity = oscard.bind(report)(entity);
             entity = entity.t;
             entity = entity.cvJdtr;
-            zulu = mike.bind(tango)(entity);
+            zuuluu = michal.bind(tangon)(entity);
  196:
             entity = global;
             entity = entity.Error;
-            mike = entity.prototype;
-            mike = Object.create(mike, {constructor: {value: entity}});
-            verify = mike;
-            options = zulu;
-            entity = new verify[entity](options, golf);
-            entity = entity instanceof Object ? entity : mike;
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            verify = michal;
+            option = zuuluu;
+            entity = new verify[entity](option, golfie);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
     var _closure1_slot5 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/ConsentActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: fetchConsents
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        tango = mike.HTTP;
-        zulu = tango.get;
-        mike = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/ConsentActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: fetchConsents
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        tangon = michal.HTTP;
+        zuuluu = tangon.get;
+        michal = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
         report = _closure1_slot3;
         report = report.SETTINGS_CONSENT;
-        mike['url'] = report;
-        tango = zulu.bind(tango)(mike);
-        zulu = tango.then;
-        mike = _closure1_slot4;
+        michal['url'] = report;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.then;
+        michal = _closure1_slot4;
         entity = function(argFoo) {
             entity = global;
-            zulu = entity.Promise;
-            mike = zulu.reject;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
             report = entity.Error;
             entity = argFoo;
             entity = entity.body;
-            oscar = entity.message;
-            tango = report.prototype;
-            tango = Object.create(tango, {constructor: {value: report}});
-            golf = tango;
-            entity = new golf[report](oscar, report);
-            entity = entity instanceof Object ? entity : tango;
-            entity = mike.bind(zulu)(entity);
+            oscard = entity.message;
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['fetchConsents'] = tango;
-    mike = function(argFoo, argBar) { // Original name: setConsents
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        tango = mike.HTTP;
-        zulu = tango.post;
-        mike = {};
+    zuuluu['fetchConsents'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: setConsents
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        tangon = michal.HTTP;
+        zuuluu = tangon.post;
+        michal = {};
         report = _closure1_slot3;
         report = report.SETTINGS_CONSENT;
-        mike['url'] = report;
+        michal['url'] = report;
         report = {};
-        oscar = argFoo;
-        report['grant'] = oscar;
-        oscar = argBar;
-        report['revoke'] = oscar;
-        mike['body'] = report;
+        oscard = argFoo;
+        report['grant'] = oscard;
+        oscard = argBar;
+        report['revoke'] = oscard;
+        michal['body'] = report;
         report = true;
-        mike['oldFormErrors'] = report;
+        michal['oldFormErrors'] = report;
         report = false;
-        mike['rejectWithError'] = report;
-        tango = zulu.bind(tango)(mike);
-        zulu = tango.then;
-        mike = _closure1_slot4;
+        michal['rejectWithError'] = report;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.then;
+        michal = _closure1_slot4;
         entity = _closure1_slot5;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['setConsents'] = mike;
+    zuuluu['setConsents'] = michal;
     return entity;
 })();

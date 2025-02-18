@@ -1,68 +1,68 @@
 // app/modules/game_relationships/hooks/useShouldDisambiguateGameRelationships.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_relationships/hooks/useShouldDisambiguateGameRelationships.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useShouldDisambiguateGameRelationships
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_relationships/hooks/useShouldDisambiguateGameRelationships.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useShouldDisambiguateGameRelationships
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            options = entity.location;
+            option = entity.location;
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             entity = 1;
-            entity = oscar[entity];
-            tango = undefined;
-            golf = report.bind(tango)(entity);
-            zulu = golf.useIsFriendTiersUIEnabled;
+            entity = oscard[entity];
+            tangon = undefined;
+            golfie = report.bind(tangon)(entity);
+            zuuluu = golfie.useIsFriendTiersUIEnabled;
             entity = {};
-            entity['location'] = options;
-            entity = zulu.bind(golf)(entity);
-            zulu = 2;
-            zulu = oscar[zulu];
-            report = report.bind(tango)(zulu);
-            tango = report.useStateFromStores;
-            mike = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                mike = _closure1_slot2;
-                entity = mike.getGameRelationshipCount;
-                mike = entity.bind(mike)();
+            entity['location'] = option;
+            entity = zuuluu.bind(golfie)(entity);
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            report = report.bind(tangon)(zuuluu);
+            tangon = report.useStateFromStores;
+            michal = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot2;
+                entity = michal.getGameRelationshipCount;
+                michal = entity.bind(michal)();
                 entity = 0;
-                entity = mike > entity;
+                entity = michal > entity;
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
+            michal = tangon.bind(report)(zuuluu, michal);
             if(!entity) { _fun00002_ip = 100; continue _fun00001 }
  97:
-            entity = mike;
+            entity = michal;
  100:
             return entity;
         }
     };
-    zulu['useShouldDisambiguateGameRelationships'] = mike;
+    zuuluu['useShouldDisambiguateGameRelationships'] = michal;
     return entity;
 })();

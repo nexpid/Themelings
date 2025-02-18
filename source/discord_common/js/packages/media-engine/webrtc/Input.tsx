@@ -1,37 +1,37 @@
 // discord_common/js/packages/media-engine/webrtc/Input.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot9;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, zulu);
+            entity = entity.bind(verify)(tangon, zuuluu);
             _fun00002_ip = 86; continue _fun00001;
  48:
-            oscar = global;
-            options = oscar.Reflect;
-            golf = options.construct;
-            oscar = new Array(0);
+            oscard = global;
+            option = oscard.Reflect;
+            golfie = option.construct;
+            oscard = new Array(0);
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  86:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -40,326 +40,326 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = mike;
+            _closure1_slot9 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
     var _closure1_slot9 = entity;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, mike);
+    entity = report.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    mike = 4;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot6 = mike;
-    mike = {};
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot6 = michal;
+    michal = {};
     report = 'stream';
-    mike['Stream'] = report;
+    michal['Stream'] = report;
     report = 'video';
-    mike['Video'] = report;
+    michal['Video'] = report;
     report = 'mute';
-    mike['Mute'] = report;
+    michal['Mute'] = report;
     report = 'voiceactivity';
-    mike['VoiceActivity'] = report;
+    michal['VoiceActivity'] = report;
     report = 'desktopsourceend';
-    mike['DesktopSourceEnd'] = report;
+    michal['DesktopSourceEnd'] = report;
     report = 'speaking';
-    mike['Speaking'] = report;
+    michal['Speaking'] = report;
     report = 'audio-permission';
-    mike['AudioPermission'] = report;
+    michal['AudioPermission'] = report;
     report = 'video-permission';
-    mike['VideoPermission'] = report;
+    michal['VideoPermission'] = report;
     report = 'add-video-track';
-    mike['AddVideoTrack'] = report;
-    var _closure1_slot7 = mike;
+    michal['AddVideoTrack'] = report;
+    var _closure1_slot7 = michal;
     report = 7;
-    report = oscar[report];
-    report = golf.bind(entity)(report);
-    tango = function(argFoo) {
-        tango = function(argFoo) { // Original name: Input
-            oscar = this;
+    report = oscard[report];
+    report = golfie.bind(entity)(report);
+    tangon = function(argFoo) {
+        tangon = function(argFoo) { // Original name: Input
+            oscard = this;
             entity = _closure1_slot2;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             report = undefined;
-            entity = entity.bind(report)(oscar, tango);
+            entity = entity.bind(report)(oscard, tangon);
             entity = _closure1_slot8;
-            entity = entity.bind(report)(oscar, tango);
+            entity = entity.bind(report)(oscard, tangon);
             var _closure3_slot0 = entity;
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 5;
-            zulu = oscar[zulu];
-            zulu = tango.bind(report)(zulu);
-            golf = zulu.prototype;
-            golf = Object.create(golf, {constructor: {value: zulu}});
-            offset = golf;
-            zulu = new offset[zulu](verify);
-            zulu = zulu instanceof Object ? zulu : golf;
-            entity['video'] = zulu;
-            zulu = null;
-            entity['desktop'] = zulu;
-            zulu = function() {
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 5;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            golfie = zuuluu.prototype;
+            golfie = Object.create(golfie, {constructor: {value: zuuluu}});
+            offset = golfie;
+            zuuluu = new offset[zuuluu](verify);
+            zuuluu = zuuluu instanceof Object ? zuuluu : golfie;
+            entity['video'] = zuuluu;
+            zuuluu = null;
+            entity['desktop'] = zuuluu;
+            zuuluu = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = global;
                     entity = entity.MediaStream;
-                    mike = entity.prototype;
-                    mike = Object.create(mike, {constructor: {value: entity}});
-                    offset = mike;
+                    michal = entity.prototype;
+                    michal = Object.create(michal, {constructor: {value: entity}});
+                    offset = michal;
                     entity = new offset[entity](verify);
-                    entity = entity instanceof Object ? entity : mike;
+                    entity = entity instanceof Object ? entity : michal;
                     var _closure4_slot0 = entity;
-                    tango = _closure3_slot0;
-                    report = tango.desktop;
-                    tango = null;
-                    if(!(tango == report)) { _fun00006_ip = 145; continue _fun00005 }
+                    tangon = _closure3_slot0;
+                    report = tangon.desktop;
+                    tangon = null;
+                    if(!(tangon == report)) { _fun00006_ip = 145; continue _fun00005 }
  53:
                     report = _closure3_slot0;
                     report = report.audio;
-                    oscar = report.stream;
-                    if(!(tango != oscar)) { _fun00006_ip = 98; continue _fun00005 }
+                    oscard = report.stream;
+                    if(!(tangon != oscard)) { _fun00006_ip = 98; continue _fun00005 }
  73:
-                    report = oscar.getAudioTracks;
-                    golf = report.bind(oscar)();
-                    oscar = golf.forEach;
+                    report = oscard.getAudioTracks;
+                    golfie = report.bind(oscard)();
+                    oscard = golfie.forEach;
                     report = function(argFoo) {
-                        zulu = _closure4_slot0;
-                        mike = zulu.addTrack;
+                        zuuluu = _closure4_slot0;
+                        michal = zuuluu.addTrack;
                         entity = argFoo;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    report = oscar.bind(golf)(report);
+                    report = oscard.bind(golfie)(report);
  98:
                     report = _closure3_slot0;
                     report = report.video;
-                    oscar = report.stream;
-                    if(!(tango != oscar)) { _fun00006_ip = 210; continue _fun00005 }
+                    oscard = report.stream;
+                    if(!(tangon != oscard)) { _fun00006_ip = 210; continue _fun00005 }
  118:
-                    report = oscar.getVideoTracks;
-                    golf = report.bind(oscar)();
-                    oscar = golf.forEach;
+                    report = oscard.getVideoTracks;
+                    golfie = report.bind(oscard)();
+                    oscard = golfie.forEach;
                     report = function(argFoo) {
-                        zulu = _closure4_slot0;
-                        mike = zulu.addTrack;
+                        zuuluu = _closure4_slot0;
+                        michal = zuuluu.addTrack;
                         entity = argFoo;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    report = oscar.bind(golf)(report);
+                    report = oscard.bind(golfie)(report);
                     _fun00006_ip = 210; continue _fun00005;
  145:
                     report = _closure3_slot0;
                     report = report.desktop;
                     report = report.stream;
-                    if(!(tango != report)) { _fun00006_ip = 190; continue _fun00005 }
+                    if(!(tangon != report)) { _fun00006_ip = 190; continue _fun00005 }
  165:
-                    tango = report.getTracks;
-                    report = tango.bind(report)();
-                    tango = report.forEach;
-                    zulu = function(argFoo) {
-                        zulu = _closure4_slot0;
-                        mike = zulu.addTrack;
+                    tangon = report.getTracks;
+                    report = tangon.bind(report)();
+                    tangon = report.forEach;
+                    zuuluu = function(argFoo) {
+                        zuuluu = _closure4_slot0;
+                        michal = zuuluu.addTrack;
                         entity = argFoo;
-                        entity = mike.bind(zulu)(entity);
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    zulu = tango.bind(report)(zulu);
+                    zuuluu = tangon.bind(report)(zuuluu);
  190:
-                    zulu = _closure3_slot0;
-                    tango = zulu.desktop;
-                    zulu = tango.refreshSpeaking;
-                    zulu = zulu.bind(tango)();
+                    zuuluu = _closure3_slot0;
+                    tangon = zuuluu.desktop;
+                    zuuluu = tangon.refreshSpeaking;
+                    zuuluu = zuuluu.bind(tangon)();
  210:
                     report = _closure3_slot0;
                     report['stream'] = entity;
-                    tango = report.emit;
-                    mike = _closure1_slot7;
-                    zulu = mike.Stream;
-                    zulu = tango.bind(report)(zulu, entity);
-                    tango = report.emit;
-                    zulu = mike.Video;
-                    mike = report.getVideoStreamId;
-                    mike = mike.bind(report)();
-                    mike = tango.bind(report)(zulu, mike);
+                    tangon = report.emit;
+                    michal = _closure1_slot7;
+                    zuuluu = michal.Stream;
+                    zuuluu = tangon.bind(report)(zuuluu, entity);
+                    tangon = report.emit;
+                    zuuluu = michal.Video;
+                    michal = report.getVideoStreamId;
+                    michal = michal.bind(report)();
+                    michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
                 }
             };
-            entity['mergeStreams'] = zulu;
-            zulu = function(argFoo) {
-                tango = _closure3_slot0;
-                zulu = tango.emit;
+            entity['mergeStreams'] = zuuluu;
+            zuuluu = function(argFoo) {
+                tangon = _closure3_slot0;
+                zuuluu = tangon.emit;
                 entity = _closure1_slot7;
-                mike = entity.VoiceActivity;
+                michal = entity.VoiceActivity;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            entity['handleVoiceActivity'] = zulu;
-            zulu = function() {
-                zulu = _closure3_slot0;
-                mike = zulu.emit;
+            entity['handleVoiceActivity'] = zuuluu;
+            zuuluu = function() {
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.emit;
                 entity = _closure1_slot7;
                 entity = entity.DesktopSourceEnd;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
-            entity['handleDesktopSourceEnd'] = zulu;
-            zulu = function(argFoo) {
-                tango = _closure3_slot0;
-                zulu = tango.emit;
+            entity['handleDesktopSourceEnd'] = zuuluu;
+            zuuluu = function(argFoo) {
+                tangon = _closure3_slot0;
+                zuuluu = tangon.emit;
                 entity = _closure1_slot7;
-                mike = entity.Speaking;
+                michal = entity.Speaking;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            entity['handleSpeaking'] = zulu;
-            zulu = function(argFoo) {
-                tango = _closure3_slot0;
-                zulu = tango.emit;
+            entity['handleSpeaking'] = zuuluu;
+            zuuluu = function(argFoo) {
+                tangon = _closure3_slot0;
+                zuuluu = tangon.emit;
                 entity = _closure1_slot7;
-                mike = entity.AudioPermission;
+                michal = entity.AudioPermission;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            entity['handleAudioPermission'] = zulu;
-            zulu = function(argFoo) {
-                tango = _closure3_slot0;
-                zulu = tango.emit;
+            entity['handleAudioPermission'] = zuuluu;
+            zuuluu = function(argFoo) {
+                tangon = _closure3_slot0;
+                zuuluu = tangon.emit;
                 entity = _closure1_slot7;
-                mike = entity.VideoPermission;
+                michal = entity.VideoPermission;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             };
-            entity['handleVideoPermission'] = zulu;
-            zulu = 6;
-            zulu = oscar[zulu];
-            report = tango.bind(report)(zulu);
-            zulu = report.prototype;
-            tango = Object.create(zulu, {constructor: {value: report}});
+            entity['handleVideoPermission'] = zuuluu;
+            zuuluu = 6;
+            zuuluu = oscard[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            zuuluu = report.prototype;
+            tangon = Object.create(zuuluu, {constructor: {value: report}});
             verify = argFoo;
-            offset = tango;
-            zulu = new offset[report](verify, options);
-            zulu = zulu instanceof Object ? zulu : tango;
-            entity['audio'] = zulu;
-            oscar = entity.audio;
-            report = oscar.addListener;
-            tango = entity.handleVoiceActivity;
-            zulu = 'voiceactivity';
-            zulu = report.bind(oscar)(zulu, tango);
-            oscar = entity.audio;
-            report = oscar.addListener;
-            tango = entity.handleSpeaking;
-            zulu = 'speaking';
-            zulu = report.bind(oscar)(zulu, tango);
+            offset = tangon;
+            zuuluu = new offset[report](verify, option);
+            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+            entity['audio'] = zuuluu;
+            oscard = entity.audio;
+            report = oscard.addListener;
+            tangon = entity.handleVoiceActivity;
+            zuuluu = 'voiceactivity';
+            zuuluu = report.bind(oscard)(zuuluu, tangon);
+            oscard = entity.audio;
+            report = oscard.addListener;
+            tangon = entity.handleSpeaking;
+            zuuluu = 'speaking';
+            zuuluu = report.bind(oscard)(zuuluu, tangon);
             report = entity.audio;
-            tango = report.addListener;
-            zulu = entity.mergeStreams;
-            golf = 'stream';
-            zulu = tango.bind(report)(golf, zulu);
+            tangon = report.addListener;
+            zuuluu = entity.mergeStreams;
+            golfie = 'stream';
+            zuuluu = tangon.bind(report)(golfie, zuuluu);
             report = entity.audio;
-            tango = report.addListener;
-            zulu = entity.handleAudioPermission;
-            oscar = 'permission';
-            zulu = tango.bind(report)(oscar, zulu);
+            tangon = report.addListener;
+            zuuluu = entity.handleAudioPermission;
+            oscard = 'permission';
+            zuuluu = tangon.bind(report)(oscard, zuuluu);
             report = entity.video;
-            tango = report.addListener;
-            zulu = entity.mergeStreams;
-            zulu = tango.bind(report)(golf, zulu);
+            tangon = report.addListener;
+            zuuluu = entity.mergeStreams;
+            zuuluu = tangon.bind(report)(golfie, zuuluu);
             report = entity.video;
-            tango = report.addListener;
-            zulu = entity.handleVideoPermission;
-            zulu = tango.bind(report)(oscar, zulu);
+            tangon = report.addListener;
+            zuuluu = entity.handleVideoPermission;
+            zuuluu = tangon.bind(report)(oscard, zuuluu);
             report = entity.video;
-            tango = report.addListener;
-            zulu = 'add-video-track';
-            mike = function(argFoo) {
-                tango = _closure3_slot0;
-                zulu = tango.emit;
+            tangon = report.addListener;
+            zuuluu = 'add-video-track';
+            michal = function(argFoo) {
+                tangon = _closure3_slot0;
+                zuuluu = tangon.emit;
                 entity = _closure1_slot7;
-                mike = entity.AddVideoTrack;
+                michal = entity.AddVideoTrack;
                 entity = argFoo;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            mike = tango.bind(report)(zulu, mike);
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot6;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot3;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot3;
         report = {};
         entity = 'destroy';
         report['key'] = entity;
         entity = function() { // Original name: value
-            mike = this;
-            entity = mike.removeAllListeners;
-            entity = entity.bind(mike)();
-            entity = mike.destroyStreams;
-            entity = entity.bind(mike)();
+            michal = this;
+            entity = michal.removeAllListeners;
+            entity = entity.bind(michal)();
+            entity = michal.destroyStreams;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
@@ -367,334 +367,334 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(20);
         entity[0] = report;
         report = {};
-        golf = 'destroyStreams';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'destroyStreams';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = this;
-                zulu = entity.audio;
-                mike = zulu.destroy;
-                mike = mike.bind(zulu)();
-                zulu = entity.video;
-                mike = zulu.destroy;
-                mike = mike.bind(zulu)();
-                mike = entity.desktop;
+                zuuluu = entity.audio;
+                michal = zuuluu.destroy;
+                michal = michal.bind(zuuluu)();
+                zuuluu = entity.video;
+                michal = zuuluu.destroy;
+                michal = michal.bind(zuuluu)();
+                michal = entity.desktop;
                 entity = null;
-                if(!(entity != mike)) { _fun00008_ip = 57; continue _fun00007 }
+                if(!(entity != michal)) { _fun00008_ip = 57; continue _fun00007 }
  47:
-                entity = mike.destroy;
-                entity = entity.bind(mike)();
+                entity = michal.destroy;
+                entity = entity.bind(michal)();
  57:
                 entity = undefined;
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'setDesktop';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setDesktop';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = argFoo;
-                mike = this;
-                zulu = mike.destroyStreams;
-                zulu = zulu.bind(mike)();
-                zulu = null;
-                if(!(zulu != entity)) { _fun00010_ip = 46; continue _fun00009 }
+                michal = this;
+                zuuluu = michal.destroyStreams;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = null;
+                if(!(zuuluu != entity)) { _fun00010_ip = 46; continue _fun00009 }
  22:
-                oscar = entity.addListener;
-                report = mike.handleDesktopSourceEnd;
-                tango = 'desktopsourceend';
-                tango = oscar.bind(entity)(tango, report);
+                oscard = entity.addListener;
+                report = michal.handleDesktopSourceEnd;
+                tangon = 'desktopsourceend';
+                tangon = oscard.bind(entity)(tangon, report);
  46:
-                if(!(zulu != entity)) { _fun00010_ip = 72; continue _fun00009 }
+                if(!(zuuluu != entity)) { _fun00010_ip = 72; continue _fun00009 }
  50:
                 report = entity.addListener;
-                tango = mike.handleSpeaking;
-                zulu = 'speaking';
-                zulu = report.bind(entity)(zulu, tango);
+                tangon = michal.handleSpeaking;
+                zuuluu = 'speaking';
+                zuuluu = report.bind(entity)(zuuluu, tangon);
  72:
-                mike['desktop'] = entity;
-                entity = mike.mergeStreams;
-                entity = entity.bind(mike)();
+                michal['desktop'] = entity;
+                entity = michal.mergeStreams;
+                entity = entity.bind(michal)();
                 entity = undefined;
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'reset';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'reset';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 entity = this;
-                zulu = entity.audio;
-                mike = zulu.reset;
-                mike = mike.bind(zulu)();
-                mike = entity.desktop;
+                zuuluu = entity.audio;
+                michal = zuuluu.reset;
+                michal = michal.bind(zuuluu)();
+                michal = entity.desktop;
                 entity = null;
-                if(!(entity != mike)) { _fun00012_ip = 41; continue _fun00011 }
+                if(!(entity != michal)) { _fun00012_ip = 41; continue _fun00011 }
  31:
-                entity = mike.reset;
-                entity = entity.bind(mike)();
+                entity = michal.reset;
+                entity = entity.bind(michal)();
  41:
                 entity = undefined;
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'getVideoStream';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVideoStream';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                mike = this;
-                zulu = mike.desktop;
+                michal = this;
+                zuuluu = michal.desktop;
                 entity = null;
-                if(!(entity == zulu)) { _fun00014_ip = 29; continue _fun00013 }
+                if(!(entity == zuuluu)) { _fun00014_ip = 29; continue _fun00013 }
  15:
-                entity = mike.video;
+                entity = michal.video;
                 entity = entity.stream;
                 _fun00014_ip = 41; continue _fun00013;
  29:
-                mike = mike.desktop;
-                entity = mike.stream;
+                michal = michal.desktop;
+                entity = michal.stream;
  41:
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'getVideoStreamId';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getVideoStreamId';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                mike = this;
-                zulu = mike.desktop;
+                michal = this;
+                zuuluu = michal.desktop;
                 entity = null;
-                if(!(entity == zulu)) { _fun00016_ip = 33; continue _fun00015 }
+                if(!(entity == zuuluu)) { _fun00016_ip = 33; continue _fun00015 }
  15:
-                zulu = mike.video;
-                entity = zulu.getStreamId;
-                entity = entity.bind(zulu)();
+                zuuluu = michal.video;
+                entity = zuuluu.getStreamId;
+                entity = entity.bind(zuuluu)();
                 _fun00016_ip = 49; continue _fun00015;
  33:
-                zulu = mike.desktop;
-                mike = zulu.getStreamId;
-                entity = mike.bind(zulu)();
+                zuuluu = michal.desktop;
+                michal = zuuluu.getStreamId;
+                entity = michal.bind(zuuluu)();
  49:
                 return entity;
             }
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'enableAudioInput';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'enableAudioInput';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = this;
-            mike = entity.audio;
-            entity = mike.enable;
-            entity = entity.bind(mike)();
+            michal = entity.audio;
+            entity = michal.enable;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'setAudioMode';
-        report['key'] = golf;
-        golf = function(argFoo, argBar) { // Original name: value
+        golfie = 'setAudioMode';
+        report['key'] = golfie;
+        golfie = function(argFoo, argBar) { // Original name: value
             entity = this;
-            tango = entity.audio;
-            zulu = tango.setMode;
-            mike = argFoo;
+            tangon = entity.audio;
+            zuuluu = tangon.setMode;
+            michal = argFoo;
             entity = argBar;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[7] = report;
         report = {};
-        golf = 'setMute';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
-            tango = argFoo;
-            zulu = this;
-            entity = zulu.audio;
-            entity['mute'] = tango;
-            mike = zulu.emit;
+        golfie = 'setMute';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            tangon = argFoo;
+            zuuluu = this;
+            entity = zuuluu.audio;
+            entity['mute'] = tangon;
+            michal = zuuluu.emit;
             entity = _closure1_slot7;
             entity = entity.Mute;
-            entity = mike.bind(zulu)(entity, tango);
+            entity = michal.bind(zuuluu)(entity, tangon);
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[8] = report;
         report = {};
-        golf = 'setEchoCancellation';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setEchoCancellation';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            mike = entity.audio;
+            michal = entity.audio;
             entity = argFoo;
-            mike['echoCancellation'] = entity;
+            michal['echoCancellation'] = entity;
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[9] = report;
         report = {};
-        golf = 'setNoiseSuppression';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setNoiseSuppression';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            mike = entity.audio;
+            michal = entity.audio;
             entity = argFoo;
-            mike['noiseSuppression'] = entity;
+            michal['noiseSuppression'] = entity;
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[10] = report;
         report = {};
-        golf = 'setNoiseCancellation';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setNoiseCancellation';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            mike = entity.audio;
+            michal = entity.audio;
             entity = argFoo;
-            mike['noiseCancellation'] = entity;
+            michal['noiseCancellation'] = entity;
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[11] = report;
         report = {};
-        golf = 'setAutomaticGainControl';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setAutomaticGainControl';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            mike = entity.audio;
+            michal = entity.audio;
             entity = argFoo;
-            mike['automaticGainControl'] = entity;
+            michal['automaticGainControl'] = entity;
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[12] = report;
         report = {};
-        golf = 'setPTTActive';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setPTTActive';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            zulu = entity.audio;
-            mike = zulu.setPTTActive;
+            zuuluu = entity.audio;
+            michal = zuuluu.setPTTActive;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[13] = report;
         report = {};
-        golf = 'setAudioSource';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setAudioSource';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            zulu = entity.audio;
-            mike = zulu.setSource;
+            zuuluu = entity.audio;
+            michal = zuuluu.setSource;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golf = 'setVideoSource';
-        report['key'] = golf;
-        golf = function(argFoo) { // Original name: value
+        golfie = 'setVideoSource';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
             entity = this;
-            zulu = entity.video;
-            mike = zulu.setSource;
+            zuuluu = entity.video;
+            michal = zuuluu.setSource;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[15] = report;
         report = {};
-        golf = 'mute';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'mute';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = this;
             entity = entity.audio;
             entity = entity.mute;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[16] = report;
         report = {};
-        golf = 'resumeAudio';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'resumeAudio';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = this;
-            mike = entity.audio;
-            entity = mike.resume;
-            entity = entity.bind(mike)();
+            michal = entity.audio;
+            entity = michal.resume;
+            entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[17] = report;
         report = {};
-        golf = 'getAudioState';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getAudioState';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = this;
             entity = entity.audio;
             entity = entity.state;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[18] = report;
         report = {};
-        golf = 'hasDesktopSource';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'hasDesktopSource';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = this;
-            mike = entity.desktop;
+            michal = entity.desktop;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[19] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    tango = tango.bind(entity)(report);
+    tangon = tangon.bind(entity)(report);
     report = 8;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = '../discord_common/js/packages/media-engine/webrtc/Input.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['InputEvent'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['InputEvent'] = michal;
     return entity;
 })();

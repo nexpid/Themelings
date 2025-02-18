@@ -1,101 +1,101 @@
 // app/modules/app_launcher/native/onboarding/banner/BotsBanner.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/onboarding/banner/BotsBanner.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: BotsBanner
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/onboarding/banner/BotsBanner.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: BotsBanner
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golf = entity.context;
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            golfie = entity.context;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 2;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            zulu = mike.bind(report)(entity);
-            mike = zulu.useBannerBots;
+            zuuluu = michal.bind(report)(entity);
+            michal = zuuluu.useBannerBots;
             entity = {};
-            entity['context'] = golf;
-            entity = mike.bind(zulu)(entity);
+            entity['context'] = golfie;
+            entity = michal.bind(zuuluu)(entity);
             yankee = entity.firstBotApplication;
             offset = entity.secondBotApplication;
-            zulu = _closure1_slot3;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot3;
+            michal = _closure1_slot1;
             entity = 3;
-            entity = tango[entity];
-            mike = mike.bind(report)(entity);
+            entity = tangon[entity];
+            michal = michal.bind(report)(entity);
             entity = {};
             entity['firstApplication'] = yankee;
             entity['secondApplication'] = offset;
-            golf = zulu.bind(report)(mike, entity);
-            zulu = null;
-            mike = zulu == yankee;
+            golfie = zuuluu.bind(report)(michal, entity);
+            zuuluu = null;
+            michal = zuuluu == yankee;
             entity = null;
-            if(mike) { _fun00002_ip = 244; continue _fun00001 }
+            if(michal) { _fun00002_ip = 244; continue _fun00001 }
  114:
-            mike = zulu == offset;
+            michal = zuuluu == offset;
             entity = null;
-            if(mike) { _fun00002_ip = 244; continue _fun00001 }
+            if(michal) { _fun00002_ip = 244; continue _fun00001 }
  123:
-            tango = _closure1_slot3;
-            zulu = _closure1_slot1;
-            romeo = _closure1_slot2;
-            mike = 4;
-            mike = romeo[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = {};
-            mike['image'] = golf;
-            golf = _closure1_slot0;
-            oscar = 5;
-            options = romeo[oscar];
-            options = golf.bind(report)(options);
-            verify = options.intl;
-            options = verify.formatToPlainString;
-            oscar = romeo[oscar];
-            oscar = golf.bind(report)(oscar);
-            oscar = oscar.t;
-            golf = oscar.9SN0x8;
-            oscar = {};
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot1;
+            romeon = _closure1_slot2;
+            michal = 4;
+            michal = romeon[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = {};
+            michal['image'] = golfie;
+            golfie = _closure1_slot0;
+            oscard = 5;
+            option = romeon[oscard];
+            option = golfie.bind(report)(option);
+            verify = option.intl;
+            option = verify.formatToPlainString;
+            oscard = romeon[oscard];
+            oscard = golfie.bind(report)(oscard);
+            oscard = oscard.t;
+            golfie = oscard.9SN0x8;
+            oscard = {};
             yankee = yankee.name;
-            oscar['firstApplicationName'] = yankee;
+            oscard['firstApplicationName'] = yankee;
             offset = offset.name;
-            oscar['secondApplicationName'] = offset;
-            oscar = options.bind(verify)(golf, oscar);
-            mike['text'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            oscard['secondApplicationName'] = offset;
+            oscard = option.bind(verify)(golfie, oscard);
+            michal['text'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  244:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

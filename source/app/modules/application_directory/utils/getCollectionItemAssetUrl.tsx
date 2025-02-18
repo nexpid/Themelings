@@ -1,123 +1,123 @@
 // app/modules/application_directory/utils/getCollectionItemAssetUrl.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
-    tango = global;
-    verify = tango.Object;
-    options = verify.defineProperty;
-    golf = {};
+    var _closure1_slot1 = oscard;
+    tangon = global;
+    verify = tangon.Object;
+    option = verify.defineProperty;
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, golf);
+    entity = option.bind(verify)(zuuluu, entity, golfie);
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    golf = golf.Endpoints;
-    var _closure1_slot2 = golf;
-    tango = tango.window;
-    tango = tango.GLOBAL_ENV;
-    golf = tango.API_ENDPOINT;
-    var _closure1_slot3 = golf;
-    tango = tango.CDN_HOST;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/application_directory/utils/getCollectionItemAssetUrl.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getCollectionItemAssetUrl
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.Endpoints;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.window;
+    tangon = tangon.GLOBAL_ENV;
+    golfie = tangon.API_ENDPOINT;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.CDN_HOST;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/application_directory/utils/getCollectionItemAssetUrl.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getCollectionItemAssetUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.itemId;
-            foxtrot = entity.hash;
-            options = entity.containerWidth;
+            foxtra = entity.hash;
+            option = entity.containerWidth;
             report = undefined;
-            if(!(options === report)) { _fun00002_ip = 32; continue _fun00001 }
+            if(!(option === report)) { _fun00002_ip = 32; continue _fun00001 }
  26:
-            options = 1024;
+            option = 1024;
  32:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
             entity = 1;
-            mike = oscar[entity];
-            golf = tango.bind(report)(mike);
-            mike = golf.getBestMediaProxySize;
-            entity = oscar[entity];
-            verify = tango.bind(report)(entity);
+            michal = oscard[entity];
+            golfie = tangon.bind(report)(michal);
+            michal = golfie.getBestMediaProxySize;
+            entity = oscard[entity];
+            verify = tangon.bind(report)(entity);
             entity = verify.getDevicePixelRatio;
             entity = entity.bind(verify)();
-            entity = options * entity;
-            mike = mike.bind(golf)(entity);
-            entity = mike.toString;
-            golf = entity.bind(mike)();
-            mike = global;
-            options = mike.URLSearchParams;
+            entity = option * entity;
+            michal = michal.bind(golfie)(entity);
+            entity = michal.toString;
+            golfie = entity.bind(michal)();
+            michal = global;
+            option = michal.URLSearchParams;
             entity = {};
-            entity['size'] = golf;
-            golf = options.prototype;
-            golf = Object.create(golf, {constructor: {value: options}});
-            record = golf;
+            entity['size'] = golfie;
+            golfie = option.prototype;
+            golfie = Object.create(golfie, {constructor: {value: option}});
+            record = golfie;
             config = entity;
-            entity = new record[options](config, sequence);
-            golf = entity instanceof Object ? entity : golf;
-            entity = golf.toString;
-            romeo = entity.bind(golf)();
+            entity = new record[option](config, sequen);
+            golfie = entity instanceof Object ? entity : golfie;
+            entity = golfie.toString;
+            romeon = entity.bind(golfie)();
             entity = 2;
-            entity = oscar[entity];
-            entity = tango.bind(report)(entity);
+            entity = oscard[entity];
+            entity = tangon.bind(report)(entity);
             entity = entity.SUPPORTS_WEBP;
             yankee = 'png';
             if(!entity) { _fun00002_ip = 177; continue _fun00001 }
  171:
             yankee = 'webp';
  177:
-            tango = _closure1_slot4;
+            tangon = _closure1_slot4;
             entity = null;
-            if(!(entity == tango)) { _fun00002_ip = 254; continue _fun00001 }
+            if(!(entity == tangon)) { _fun00002_ip = 254; continue _fun00001 }
  187:
-            entity = mike.location;
-            options = entity.protocol;
-            golf = _closure1_slot3;
-            tango = _closure1_slot2;
-            entity = tango.APPLICATION_DIRECTORY_COLLECTION_ITEM_IMAGE;
-            vacuum = entity.bind(tango)(backup, foxtrot, yankee);
-            entity = mike.HermesInternal;
+            entity = michal.location;
+            option = entity.protocol;
+            golfie = _closure1_slot3;
+            tangon = _closure1_slot2;
+            entity = tangon.APPLICATION_DIRECTORY_COLLECTION_ITEM_IMAGE;
+            vacuum = entity.bind(tangon)(backup, foxtra, yankee);
+            entity = michal.HermesInternal;
             report = entity.concat;
             record = '';
-            control = '?';
-            config = options;
-            sequence = golf;
-            source = romeo;
-            entity = record[report](config, sequence, vacuum, control, source, update);
+            ctrled = '?';
+            config = option;
+            sequen = golfie;
+            source = romeon;
+            entity = record[report](config, sequen, vacuum, ctrled, source, update);
             _fun00002_ip = 325; continue _fun00001;
  254:
-            tango = mike.location;
-            config = tango.protocol;
+            tangon = michal.location;
+            config = tangon.protocol;
             vacuum = _closure1_slot4;
-            mike = mike.HermesInternal;
-            options = mike.concat;
+            michal = michal.HermesInternal;
+            option = michal.concat;
             record = '';
-            sequence = '//';
-            control = '/app-assets/application-directory/collection-items/';
+            sequen = '//';
+            ctrled = '/app-assets/application-directory/collection-items/';
             update = '/';
             result = '.';
             sizing = '?';
             source = backup;
-            echo = foxtrot;
+            echoed = foxtra;
             output = yankee;
-            kilo = romeo;
-            entity = record[options](config, sequence, vacuum, control, source, update, echo, result, output, sizing, kilo, backup);
+            kiloes = romeon;
+            entity = record[option](config, sequen, vacuum, ctrled, source, update, echoed, result, output, sizing, kiloes, backup);
  325:
             return entity;
         }
     };
-    zulu['getCollectionItemAssetUrl'] = mike;
+    zuuluu['getCollectionItemAssetUrl'] = michal;
     return entity;
 })();

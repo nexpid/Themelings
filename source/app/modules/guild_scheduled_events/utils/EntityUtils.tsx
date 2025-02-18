@@ -1,134 +1,134 @@
 // app/modules/guild_scheduled_events/utils/EntityUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = function(argFoo, argBar) { // Original name: _getLocationFromEvent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
+            michal = argBar;
             entity = _closure1_slot1;
-            zulu = entity.EXTERNAL;
+            zuuluu = entity.EXTERNAL;
             entity = argFoo;
-            zulu = entity === zulu;
-            if(!zulu) { _fun00002_ip = 32; continue _fun00001 }
+            zuuluu = entity === zuuluu;
+            if(!zuuluu) { _fun00002_ip = 32; continue _fun00001 }
  26:
             entity = null;
-            zulu = entity != mike;
+            zuuluu = entity != michal;
  32:
-            if(!zulu) { _fun00002_ip = 43; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 43; continue _fun00001 }
  35:
             entity = 'location';
-            zulu = entity in mike;
+            zuuluu = entity in michal;
  43:
             entity = null;
-            if(!zulu) { _fun00002_ip = 53; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 53; continue _fun00001 }
  48:
-            entity = mike.location;
+            entity = michal.location;
  53:
             return entity;
         }
     };
     var _closure1_slot3 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.GuildScheduledEventEntityTypes;
-    var _closure1_slot1 = golf;
-    tango = tango.EntityChannelTypes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/utils/EntityUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getChannelFromEvent
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.GuildScheduledEventEntityTypes;
+    var _closure1_slot1 = golfie;
+    tangon = tangon.EntityChannelTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/utils/EntityUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getChannelFromEvent
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            report = zulu.entity_type;
-            mike = zulu.channel_id;
+            zuuluu = argFoo;
+            report = zuuluu.entity_type;
+            michal = zuuluu.channel_id;
             entity = _closure1_slot2;
             report = report in entity;
             if(!report) { _fun00004_ip = 34; continue _fun00003 }
  28:
             entity = null;
-            report = entity != mike;
+            report = entity != michal;
  34:
             entity = undefined;
             if(!report) { _fun00004_ip = 75; continue _fun00003 }
  39:
             report = _closure1_slot0;
-            tango = report.getChannel;
-            zulu = zulu.channel_id;
-            zulu = tango.bind(report)(zulu);
-            tango = null;
-            tango = tango != zulu;
-            mike = undefined;
-            if(!tango) { _fun00004_ip = 72; continue _fun00003 }
+            tangon = report.getChannel;
+            zuuluu = zuuluu.channel_id;
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = null;
+            tangon = tangon != zuuluu;
+            michal = undefined;
+            if(!tangon) { _fun00004_ip = 72; continue _fun00003 }
  69:
-            mike = zulu;
+            michal = zuuluu;
  72:
-            entity = mike;
+            entity = michal;
  75:
             return entity;
         }
     };
-    zulu['getChannelFromEvent'] = tango;
-    tango = function(argFoo) { // Original name: getLocationFromEvent
+    zuuluu['getChannelFromEvent'] = tangon;
+    tangon = function(argFoo) { // Original name: getLocationFromEvent
         entity = argFoo;
-        tango = _closure1_slot3;
-        zulu = entity.entity_type;
-        mike = entity.entity_metadata;
+        tangon = _closure1_slot3;
+        zuuluu = entity.entity_type;
+        michal = entity.entity_metadata;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    zulu['getLocationFromEvent'] = tango;
-    tango = function(argFoo) { // Original name: getLocationFromEventData
+    zuuluu['getLocationFromEvent'] = tangon;
+    tangon = function(argFoo) { // Original name: getLocationFromEventData
         entity = argFoo;
-        tango = _closure1_slot3;
-        zulu = entity.entityType;
-        mike = entity.entityMetadata;
+        tangon = _closure1_slot3;
+        zuuluu = entity.entityType;
+        michal = entity.entityMetadata;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    zulu['getLocationFromEventData'] = tango;
-    mike = function(argFoo) { // Original name: getChannelTypeFromEntity
+    zuuluu['getLocationFromEventData'] = tangon;
+    michal = function(argFoo) { // Original name: getChannelTypeFromEntity
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = _closure1_slot1;
             entity = entity.VOICE;
-            if(!(zulu !== entity)) { _fun00006_ip = 36; continue _fun00005 }
+            if(!(zuuluu !== entity)) { _fun00006_ip = 36; continue _fun00005 }
  20:
             entity = _closure1_slot1;
-            tango = entity.STAGE_INSTANCE;
+            tangon = entity.STAGE_INSTANCE;
             entity = undefined;
-            if(!(zulu === tango)) { _fun00006_ip = 44; continue _fun00005 }
+            if(!(zuuluu === tangon)) { _fun00006_ip = 44; continue _fun00005 }
  36:
-            mike = _closure1_slot2;
-            entity = mike[zulu];
+            michal = _closure1_slot2;
+            entity = michal[zuuluu];
  44:
             return entity;
         }
     };
-    zulu['getChannelTypeFromEntity'] = mike;
+    zuuluu['getChannelTypeFromEntity'] = michal;
     return entity;
 })();

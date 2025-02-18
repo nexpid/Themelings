@@ -1,172 +1,172 @@
 // app/design/components/TableRow/native/TableRadioRow.native.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/TableRow/native/TableRadioRow.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: TableRadioRow
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/TableRow/native/TableRadioRow.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: TableRadioRow
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            mike = report.value;
-            var _closure2_slot0 = mike;
-            kilo = report.label;
+            michal = report.value;
+            var _closure2_slot0 = michal;
+            kiloes = report.label;
             backup = report.subLabel;
             yankee = report.disabled;
-            tango = undefined;
-            if(!(yankee === tango)) { _fun00002_ip = 38; continue _fun00001 }
+            tangon = undefined;
+            if(!(yankee === tangon)) { _fun00002_ip = 38; continue _fun00001 }
  36:
             yankee = false;
  38:
             verify = report.accessibilityHint;
-            options = report.legacyCompat_selected;
+            option = report.legacyCompat_selected;
             entity = report.legacyCompat_onPress;
             var _closure2_slot1 = entity;
-            zulu = {'value': 0, 'label': 0, 'subLabel': 0, 'disabled': 0, 'accessibilityHint': 0, 'legacyCompat_selected': 0, 'legacyCompat_onPress': 0};
+            zuuluu = {'value': 0, 'label': 0, 'subLabel': 0, 'disabled': 0, 'accessibilityHint': 0, 'legacyCompat_selected': 0, 'legacyCompat_onPress': 0};
             offset = null;
-            echo = zulu;
+            echoed = zuuluu;
             result = null;
-            entity = silentSetPrototypeOf(echo, result);
-            echo = {};
+            entity = silentSetPrototypeOf(echoed, result);
+            echoed = {};
             result = report;
-            output = zulu;
-            romeo = copyDataProperties(echo, result, output);
-            var _closure2_slot2 = tango;
-            golf = _closure1_slot2;
-            zulu = golf.useContext;
-            foxtrot = _closure1_slot0;
+            output = zuuluu;
+            romeon = copyDataProperties(echoed, result, output);
+            var _closure2_slot2 = tangon;
+            golfie = _closure1_slot2;
+            zuuluu = golfie.useContext;
+            foxtra = _closure1_slot0;
             sizing = _closure1_slot1;
             entity = 2;
             entity = sizing[entity];
-            entity = foxtrot.bind(tango)(entity);
+            entity = foxtra.bind(tangon)(entity);
             entity = entity.TableRadioGroupContext;
-            zulu = zulu.bind(golf)(entity);
-            entity = zulu.selectedValue;
-            zulu = zulu.onSelect;
-            _closure2_slot2 = zulu;
-            if(!(offset == options)) { _fun00002_ip = 169; continue _fun00001 }
+            zuuluu = zuuluu.bind(golfie)(entity);
+            entity = zuuluu.selectedValue;
+            zuuluu = zuuluu.onSelect;
+            _closure2_slot2 = zuuluu;
+            if(!(offset == option)) { _fun00002_ip = 169; continue _fun00001 }
  165:
-            options = entity === mike;
+            option = entity === michal;
  169:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             sizing = _closure1_slot1;
             entity = 3;
-            zulu = sizing[entity];
-            golf = mike.bind(tango)(zulu);
-            zulu = golf.getNodeText;
-            foxtrot = zulu.bind(golf)(kilo);
+            zuuluu = sizing[entity];
+            golfie = michal.bind(tangon)(zuuluu);
+            zuuluu = golfie.getNodeText;
+            foxtra = zuuluu.bind(golfie)(kiloes);
             entity = sizing[entity];
-            zulu = mike.bind(tango)(entity);
-            entity = zulu.getNodeText;
-            golf = entity.bind(zulu)(backup);
-            zulu = _closure1_slot3;
+            zuuluu = michal.bind(tangon)(entity);
+            entity = zuuluu.getNodeText;
+            golfie = entity.bind(zuuluu)(backup);
+            zuuluu = _closure1_slot3;
             entity = 4;
             entity = sizing[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.TableRow;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.TableRow;
             entity = {};
-            echo = entity;
-            result = romeo;
-            romeo = copyDataProperties(echo, result);
+            echoed = entity;
+            result = romeon;
+            romeon = copyDataProperties(echoed, result);
             sizing = false;
-            romeo = 'arrow';
-            entity[romeo] = sizing;
-            romeo = 'label';
-            entity[romeo] = kilo;
-            romeo = 'subLabel';
-            entity[romeo] = backup;
-            romeo = 'disabled';
-            entity[romeo] = yankee;
-            romeo = {};
-            romeo['disabled'] = yankee;
-            romeo['selected'] = options;
+            romeon = 'arrow';
+            entity[romeon] = sizing;
+            romeon = 'label';
+            entity[romeon] = kiloes;
+            romeon = 'subLabel';
+            entity[romeon] = backup;
+            romeon = 'disabled';
+            entity[romeon] = yankee;
+            romeon = {};
+            romeon['disabled'] = yankee;
+            romeon['selected'] = option;
             yankee = 'accessibilityState';
-            entity[yankee] = romeo;
-            romeo = true;
+            entity[yankee] = romeon;
+            romeon = true;
             yankee = 'accessible';
-            entity[yankee] = romeo;
-            romeo = 'radio';
+            entity[yankee] = romeon;
+            romeon = 'radio';
             yankee = 'accessibilityRole';
-            entity[yankee] = romeo;
-            offset = offset != golf;
-            romeo = '';
-            yankee = romeo;
+            entity[yankee] = romeon;
+            offset = offset != golfie;
+            romeon = '';
+            yankee = romeon;
             if(!offset) { _fun00002_ip = 353; continue _fun00001 }
  350:
-            yankee = golf;
+            yankee = golfie;
  353:
-            golf = global;
-            golf = golf.HermesInternal;
-            offset = golf.concat;
-            golf = ', ';
-            offset = offset.bind(romeo)(foxtrot, golf, yankee);
-            golf = 'accessibilityLabel';
-            entity[golf] = offset;
-            golf = 'accessibilityHint';
-            entity[golf] = verify;
-            golf = function(argFoo) { // Original name: onPress
+            golfie = global;
+            golfie = golfie.HermesInternal;
+            offset = golfie.concat;
+            golfie = ', ';
+            offset = offset.bind(romeon)(foxtra, golfie, yankee);
+            golfie = 'accessibilityLabel';
+            entity[golfie] = offset;
+            golfie = 'accessibilityHint';
+            entity[golfie] = verify;
+            golfie = function(argFoo) { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot1;
-                    mike = null;
-                    if(!(mike != zulu)) { _fun00004_ip = 27; continue _fun00003 }
+                    zuuluu = _closure2_slot1;
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00004_ip = 27; continue _fun00003 }
  13:
-                    tango = _closure2_slot1;
-                    zulu = undefined;
-                    mike = argFoo;
-                    mike = tango.bind(zulu)(mike);
+                    tangon = _closure2_slot1;
+                    zuuluu = undefined;
+                    michal = argFoo;
+                    michal = tangon.bind(zuuluu)(michal);
  27:
-                    zulu = _closure2_slot2;
-                    mike = _closure2_slot0;
+                    zuuluu = _closure2_slot2;
+                    michal = _closure2_slot0;
                     entity = undefined;
-                    mike = zulu.bind(entity)(mike);
+                    michal = zuuluu.bind(entity)(michal);
                     return entity;
                 }
             };
-            oscar = 'onPress';
-            entity[oscar] = golf;
-            golf = _closure1_slot3;
-            oscar = _closure1_slot0;
+            oscard = 'onPress';
+            entity[oscard] = golfie;
+            golfie = _closure1_slot3;
+            oscard = _closure1_slot0;
             verify = _closure1_slot1;
             report = 5;
             report = verify[report];
-            report = oscar.bind(tango)(report);
-            oscar = report.FormRadio;
+            report = oscard.bind(tangon)(report);
+            oscard = report.FormRadio;
             report = {};
-            report['selected'] = options;
-            oscar = golf.bind(tango)(oscar, report);
+            report['selected'] = option;
+            oscard = golfie.bind(tangon)(oscard, report);
             report = 'trailing';
-            entity[report] = oscar;
-            entity = zulu.bind(tango)(mike, entity);
+            entity[report] = oscard;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['TableRadioRow'] = mike;
+    zuuluu['TableRadioRow'] = michal;
     return entity;
 })();

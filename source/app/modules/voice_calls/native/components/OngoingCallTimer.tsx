@@ -1,103 +1,103 @@
 // app/modules/voice_calls/native/components/OngoingCallTimer.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_calls/native/components/OngoingCallTimer.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: _default
+    tangon = tangon.bind(entity)(option);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_calls/native/components/OngoingCallTimer.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.style;
+            oscard = entity.style;
             verify = entity.channelId;
             var _closure2_slot0 = verify;
             report = _closure1_slot0;
-            tango = _closure1_slot2;
-            zulu = 3;
-            zulu = tango[zulu];
-            tango = undefined;
-            options = report.bind(tango)(zulu);
-            golf = options.useStateFromStores;
-            zulu = _closure1_slot3;
+            tangon = _closure1_slot2;
+            zuuluu = 3;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            option = report.bind(tangon)(zuuluu);
+            golfie = option.useStateFromStores;
+            zuuluu = _closure1_slot3;
             report = new Array(1);
-            report[0] = zulu;
-            zulu = new Array(1);
-            zulu[0] = verify;
-            mike = function() {
+            report[0] = zuuluu;
+            zuuluu = new Array(1);
+            zuuluu[0] = verify;
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure1_slot3;
-                    mike = zulu.getCall;
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.getCall;
                     entity = _closure2_slot0;
-                    mike = mike.bind(zulu)(entity);
+                    michal = michal.bind(zuuluu)(entity);
                     entity = null;
-                    zulu = entity == mike;
+                    zuuluu = entity == michal;
                     entity = undefined;
-                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
  36:
-                    entity = mike.messageId;
+                    entity = michal.messageId;
  41:
                     return entity;
                 }
             };
-            golf = golf.bind(options)(report, mike, zulu);
-            mike = null;
-            mike = mike != golf;
+            golfie = golfie.bind(option)(report, michal, zuuluu);
+            michal = null;
+            michal = michal != golfie;
             report = 0;
-            if(!mike) { _fun00002_ip = 125; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 125; continue _fun00001 }
  94:
-            zulu = _closure1_slot1;
-            options = _closure1_slot2;
-            mike = 4;
-            mike = options[mike];
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.extractTimestamp;
-            report = mike.bind(zulu)(golf);
+            zuuluu = _closure1_slot1;
+            option = _closure1_slot2;
+            michal = 4;
+            michal = option[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.extractTimestamp;
+            report = michal.bind(zuuluu)(golfie);
  125:
-            zulu = _closure1_slot4;
-            mike = _closure1_slot1;
-            golf = _closure1_slot2;
+            zuuluu = _closure1_slot4;
+            michal = _closure1_slot1;
+            golfie = _closure1_slot2;
             entity = 5;
-            entity = golf[entity];
-            mike = mike.bind(tango)(entity);
+            entity = golfie[entity];
+            michal = michal.bind(tangon)(entity);
             entity = {};
-            entity['style'] = oscar;
+            entity['style'] = oscard;
             entity['timestamp'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

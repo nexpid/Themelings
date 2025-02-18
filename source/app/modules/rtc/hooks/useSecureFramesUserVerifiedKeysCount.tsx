@@ -1,120 +1,120 @@
 // app/modules/rtc/hooks/useSecureFramesUserVerifiedKeysCount.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeysCount.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSecureFramesUserVerifiedKeysCount
-        mike = argFoo;
-        oscar = mike.userId;
-        var _closure2_slot0 = oscar;
-        zulu = mike.keyToOmit;
-        var _closure2_slot1 = zulu;
-        golf = _closure1_slot2;
-        report = golf.useMemo;
-        tango = new Array(1);
-        tango[0] = zulu;
-        zulu = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeysCount.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSecureFramesUserVerifiedKeysCount
+        michal = argFoo;
+        oscard = michal.userId;
+        var _closure2_slot0 = oscard;
+        zuuluu = michal.keyToOmit;
+        var _closure2_slot1 = zuuluu;
+        golfie = _closure1_slot2;
+        report = golfie.useMemo;
+        tangon = new Array(1);
+        tangon[0] = zuuluu;
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot1;
+                zuuluu = _closure2_slot1;
                 entity = null;
-                if(!(entity != zulu)) { _fun00002_ip = 83; continue _fun00001 }
+                if(!(entity != zuuluu)) { _fun00002_ip = 83; continue _fun00001 }
  13:
-                zulu = global;
-                tango = zulu.Uint8Array;
-                oscar = _closure2_slot1;
-                zulu = tango.prototype;
-                zulu = Object.create(zulu, {constructor: {value: tango}});
-                golf = zulu;
-                mike = new golf[tango](oscar, report);
-                tango = mike instanceof Object ? mike : zulu;
+                zuuluu = global;
+                tangon = zuuluu.Uint8Array;
+                oscard = _closure2_slot1;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                golfie = zuuluu;
+                michal = new golfie[tangon](oscard, report);
+                tangon = michal instanceof Object ? michal : zuuluu;
                 report = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 2;
-                zulu = zulu[mike];
-                mike = undefined;
-                zulu = report.bind(mike)(zulu);
-                mike = zulu.serializeKey;
-                mike = mike.bind(zulu)(tango);
-                return mike;
+                zuuluu = _closure1_slot1;
+                michal = 2;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = report.bind(michal)(zuuluu);
+                michal = zuuluu.serializeKey;
+                michal = michal.bind(zuuluu)(tangon);
+                return michal;
  83:
                 return entity;
             }
         };
-        golf = report.bind(golf)(zulu, tango);
-        var _closure2_slot2 = golf;
+        golfie = report.bind(golfie)(zuuluu, tangon);
+        var _closure2_slot2 = golfie;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot3;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(2);
-        mike[0] = golf;
-        mike[1] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot3;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(2);
+        michal[0] = golfie;
+        michal[1] = oscard;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = _closure1_slot3;
-                mike = zulu.getUserVerifiedKeys;
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.getUserVerifiedKeys;
                 entity = _closure2_slot0;
-                tango = mike.bind(zulu)(entity);
+                tangon = michal.bind(zuuluu)(entity);
                 entity = null;
-                mike = entity == tango;
+                michal = entity == tangon;
                 entity = 0;
-                if(mike) { _fun00004_ip = 76; continue _fun00003 }
+                if(michal) { _fun00004_ip = 76; continue _fun00003 }
  36:
-                mike = global;
-                zulu = mike.Object;
-                mike = zulu.keys;
-                tango = mike.bind(zulu)(tango);
-                zulu = tango.filter;
-                mike = function(argFoo) {
-                    mike = _closure2_slot2;
+                michal = global;
+                zuuluu = michal.Object;
+                michal = zuuluu.keys;
+                tangon = michal.bind(zuuluu)(tangon);
+                zuuluu = tangon.filter;
+                michal = function(argFoo) {
+                    michal = _closure2_slot2;
                     entity = argFoo;
-                    entity = entity !== mike;
+                    entity = entity !== michal;
                     return entity;
                 };
-                mike = zulu.bind(tango)(mike);
-                entity = mike.length;
+                michal = zuuluu.bind(tangon)(michal);
+                entity = michal.length;
  76:
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useSecureFramesUserVerifiedKeysCount'] = mike;
+    zuuluu['useSecureFramesUserVerifiedKeysCount'] = michal;
     return entity;
 })();

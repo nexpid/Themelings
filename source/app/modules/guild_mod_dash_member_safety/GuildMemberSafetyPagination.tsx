@@ -1,558 +1,558 @@
 // app/modules/guild_mod_dash_member_safety/GuildMemberSafetyPagination.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = argBar;
-    oscar = argBaz;
-    zulu = argFred;
-    options = argPlugh;
+    oscard = argBaz;
+    zuuluu = argFre;
+    option = argPlu;
     var _closure1_slot0 = verify;
-    var _closure1_slot1 = options;
+    var _closure1_slot1 = option;
     report = function() { // Original name: createDefaultMemberSafetyPaginationState
         entity = {'pageSize': null, 'currentPage': 1, 'continuationToken': null, 'sort': null, 'elasticSearchCursor': null};
-        tango = _closure1_slot6;
-        zulu = 0;
-        zulu = tango[zulu];
-        entity['pageSize'] = zulu;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 4;
-        zulu = zulu[mike];
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        mike = mike.OrderBy;
-        mike = mike.ORDER_BY_UNSPECIFIED;
-        entity['sort'] = mike;
+        tangon = _closure1_slot6;
+        zuuluu = 0;
+        zuuluu = tangon[zuuluu];
+        entity['pageSize'] = zuuluu;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 4;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        michal = michal.OrderBy;
+        michal = michal.ORDER_BY_UNSPECIFIED;
+        entity['sort'] = michal;
         return entity;
     };
     var _closure1_slot8 = report;
     entity = global;
     offset = entity.Object;
-    golf = offset.defineProperty;
-    mike = {};
+    golfie = offset.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(offset)(zulu, entity, mike);
+    entity = golfie.bind(offset)(zuuluu, entity, michal);
     entity = 0;
-    mike = options[entity];
+    michal = option[entity];
     entity = undefined;
-    mike = oscar.bind(entity)(mike);
-    var _closure1_slot2 = mike;
+    michal = oscard.bind(entity)(michal);
+    var _closure1_slot2 = michal;
     offset = 1;
-    mike = options[offset];
-    mike = oscar.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 2;
-    mike = options[mike];
-    mike = oscar.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 3;
-    mike = options[mike];
-    mike = oscar.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    golf = [12, 25, 50, 100];
-    var _closure1_slot6 = golf;
-    mike = {};
-    mike['FORWARD'] = offset;
-    oscar = 'FORWARD';
-    mike[offset] = oscar;
+    michal = option[offset];
+    michal = oscard.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 2;
+    michal = option[michal];
+    michal = oscard.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 3;
+    michal = option[michal];
+    michal = oscard.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    golfie = [12, 25, 50, 100];
+    var _closure1_slot6 = golfie;
+    michal = {};
+    michal['FORWARD'] = offset;
+    oscard = 'FORWARD';
+    michal[offset] = oscard;
     offset = -1;
-    mike['BACKWARD'] = offset;
-    oscar = 'BACKWARD';
-    mike[offset] = oscar;
-    var _closure1_slot7 = mike;
-    mike = function() {
-        tango = _closure1_slot4;
-        zulu = function(argFoo, argBar) { // Original name: GuildMemberSafetyPagination
-            zulu = this;
-            var _closure3_slot0 = zulu;
-            oscar = _closure1_slot3;
+    michal['BACKWARD'] = offset;
+    oscard = 'BACKWARD';
+    michal[offset] = oscard;
+    var _closure1_slot7 = michal;
+    michal = function() {
+        tangon = _closure1_slot4;
+        zuuluu = function(argFoo, argBar) { // Original name: GuildMemberSafetyPagination
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
+            oscard = _closure1_slot3;
             report = _closure2_slot0;
             entity = undefined;
-            report = oscar.bind(entity)(zulu, report);
-            tango = function(argFoo, argBar, argBaz) {
+            report = oscard.bind(entity)(zuuluu, report);
+            tangon = function(argFoo, argBar, argBaz) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    mike = global;
-                    tango = mike.Math;
-                    zulu = tango.floor;
-                    mike = _closure3_slot0;
-                    mike = mike._paginationState;
-                    report = mike.pageSize;
-                    mike = argBaz;
-                    mike = mike / report;
-                    zulu = zulu.bind(tango)(mike);
-                    mike = 1;
-                    mike = zulu + mike;
-                    tango = entity[mike];
-                    zulu = null;
-                    if(!(zulu == tango)) { _fun00002_ip = 73; continue _fun00001 }
+                    michal = global;
+                    tangon = michal.Math;
+                    zuuluu = tangon.floor;
+                    michal = _closure3_slot0;
+                    michal = michal._paginationState;
+                    report = michal.pageSize;
+                    michal = argBaz;
+                    michal = michal / report;
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = 1;
+                    michal = zuuluu + michal;
+                    tangon = entity[michal];
+                    zuuluu = null;
+                    if(!(zuuluu == tangon)) { _fun00002_ip = 73; continue _fun00001 }
  65:
-                    zulu = new Array(0);
-                    entity[mike] = zulu;
+                    zuuluu = new Array(0);
+                    entity[michal] = zuuluu;
  73:
-                    tango = entity[mike];
-                    zulu = tango.push;
-                    mike = argBar;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = entity[michal];
+                    zuuluu = tangon.push;
+                    michal = argBar;
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 }
             };
-            zulu['_reduceMemberIdsToPaginationChunks'] = tango;
-            tango = argFoo;
-            zulu['guildId'] = tango;
-            tango = _closure1_slot8;
-            tango = tango.bind(entity)();
-            zulu['_paginationState'] = tango;
-            tango = 0;
-            zulu['_version'] = tango;
-            oscar = zulu._initPaginationFromRawMembers;
+            zuuluu['_reduceMemberIdsToPaginationChunks'] = tangon;
+            tangon = argFoo;
+            zuuluu['guildId'] = tangon;
+            tangon = _closure1_slot8;
+            tangon = tangon.bind(entity)();
+            zuuluu['_paginationState'] = tangon;
+            tangon = 0;
+            zuuluu['_version'] = tangon;
+            oscard = zuuluu._initPaginationFromRawMembers;
             report = argBar;
-            oscar = oscar.bind(zulu)(report);
+            oscard = oscard.bind(zuuluu)(report);
             report = _closure1_slot2;
-            mike = 2;
-            mike = report.bind(entity)(oscar, mike);
-            report = mike[tango];
-            tango = 1;
-            mike = mike[tango];
-            zulu['_sortedMemberIds'] = report;
-            zulu['_cachedPaginationChunks'] = mike;
-            mike = zulu._version;
-            mike = mike + tango;
-            zulu['_version'] = mike;
+            michal = 2;
+            michal = report.bind(entity)(oscard, michal);
+            report = michal[tangon];
+            tangon = 1;
+            michal = michal[tangon];
+            zuuluu['_sortedMemberIds'] = report;
+            zuuluu['_cachedPaginationChunks'] = michal;
+            michal = zuuluu._version;
+            michal = michal + tangon;
+            zuuluu['_version'] = michal;
             return entity;
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'reset';
-        entity['key'] = mike;
-        mike = function() { // Original name: value
-            zulu = this;
-            mike = _closure1_slot8;
+        michal = 'reset';
+        entity['key'] = michal;
+        michal = function() { // Original name: value
+            zuuluu = this;
+            michal = _closure1_slot8;
             entity = undefined;
-            mike = mike.bind(entity)();
-            zulu['_paginationState'] = mike;
-            mike = new Array(0);
-            zulu['_sortedMemberIds'] = mike;
-            mike = {};
-            zulu['_cachedPaginationChunks'] = mike;
-            tango = zulu._version;
-            mike = 1;
-            mike = tango + mike;
-            zulu['_version'] = mike;
+            michal = michal.bind(entity)();
+            zuuluu['_paginationState'] = michal;
+            michal = new Array(0);
+            zuuluu['_sortedMemberIds'] = michal;
+            michal = {};
+            zuuluu['_cachedPaginationChunks'] = michal;
+            tangon = zuuluu._version;
+            michal = 1;
+            michal = tangon + michal;
+            zuuluu['_version'] = michal;
             return entity;
         };
-        entity['value'] = mike;
-        mike = new Array(16);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(16);
+        michal[0] = entity;
         entity = {};
-        oscar = 'isMemberOnCurrentPage';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'isMemberOnCurrentPage';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = this;
-                mike = entity._cachedPaginationChunks;
+                michal = entity._cachedPaginationChunks;
                 entity = entity._paginationState;
                 entity = entity.currentPage;
-                zulu = mike[entity];
+                zuuluu = michal[entity];
                 entity = null;
-                if(!(entity == zulu)) { _fun00004_ip = 35; continue _fun00003 }
+                if(!(entity == zuuluu)) { _fun00004_ip = 35; continue _fun00003 }
  31:
-                zulu = new Array(0);
+                zuuluu = new Array(0);
  35:
-                mike = zulu.includes;
+                michal = zuuluu.includes;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'isMemberInAnyChunk';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'isMemberInAnyChunk';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             entity = this;
-            zulu = entity._sortedMemberIds;
-            mike = zulu.includes;
+            zuuluu = entity._sortedMemberIds;
+            michal = zuuluu.includes;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = '_initPaginationFromRawMembers';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = '_initPaginationFromRawMembers';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             report = argFoo;
-            mike = this;
-            var _closure3_slot0 = mike;
-            zulu = new Array(0);
-            var _closure3_slot1 = zulu;
-            tango = report.reduce;
-            mike = function(argFoo, argBar, argBaz) {
-                mike = argBar;
-                golf = _closure3_slot0;
-                oscar = golf._reduceMemberIdsToPaginationChunks;
-                report = mike.userId;
-                tango = argFoo;
+            michal = this;
+            var _closure3_slot0 = michal;
+            zuuluu = new Array(0);
+            var _closure3_slot1 = zuuluu;
+            tangon = report.reduce;
+            michal = function(argFoo, argBar, argBaz) {
+                michal = argBar;
+                golfie = _closure3_slot0;
+                oscard = golfie._reduceMemberIdsToPaginationChunks;
+                report = michal.userId;
+                tangon = argFoo;
                 entity = argBaz;
-                entity = oscar.bind(golf)(tango, report, entity);
-                tango = _closure3_slot1;
-                zulu = tango.push;
-                mike = mike.userId;
-                mike = zulu.bind(tango)(mike);
+                entity = oscard.bind(golfie)(tangon, report, entity);
+                tangon = _closure3_slot1;
+                zuuluu = tangon.push;
+                michal = michal.userId;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
             entity = {};
-            mike = tango.bind(report)(mike, entity);
+            michal = tangon.bind(report)(michal, entity);
             entity = new Array(2);
-            entity[0] = zulu;
-            entity[1] = mike;
+            entity[0] = zuuluu;
+            entity[1] = michal;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[3] = entity;
+        entity['value'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = '_buildPaginationFromMemberIds';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            tango = argFoo;
-            zulu = tango.reduce;
+        oscard = '_buildPaginationFromMemberIds';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            tangon = argFoo;
+            zuuluu = tangon.reduce;
             entity = this;
-            mike = entity._reduceMemberIdsToPaginationChunks;
+            michal = entity._reduceMemberIdsToPaginationChunks;
             entity = {};
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
-        entity['value'] = oscar;
-        mike[4] = entity;
+        entity['value'] = oscard;
+        michal[4] = entity;
         entity = {};
-        oscar = '_rebuildPaginationChunksFromStoredMembers';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
-            mike = this;
-            zulu = mike._buildPaginationFromMemberIds;
-            entity = mike._sortedMemberIds;
-            entity = zulu.bind(mike)(entity);
-            mike['_cachedPaginationChunks'] = entity;
-            zulu = mike._version;
+        oscard = '_rebuildPaginationChunksFromStoredMembers';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            michal = this;
+            zuuluu = michal._buildPaginationFromMemberIds;
+            entity = michal._sortedMemberIds;
+            entity = zuuluu.bind(michal)(entity);
+            michal['_cachedPaginationChunks'] = entity;
+            zuuluu = michal._version;
             entity = 1;
-            entity = zulu + entity;
-            mike['_version'] = entity;
+            entity = zuuluu + entity;
+            michal['_version'] = entity;
             entity = true;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[5] = entity;
+        entity['value'] = oscard;
+        michal[5] = entity;
         entity = {};
-        oscar = 'getPaginationState';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
+        oscard = 'getPaginationState';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             entity = this;
             entity = entity._paginationState;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[6] = entity;
+        entity['value'] = oscard;
+        michal[6] = entity;
         entity = {};
-        oscar = 'updatePaginationToken';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'updatePaginationToken';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 report = argFoo;
-                zulu = this;
-                entity = zulu._paginationState;
+                zuuluu = this;
+                entity = zuuluu._paginationState;
                 entity = entity.continuationToken;
                 entity = report !== entity;
                 if(!entity) { _fun00006_ip = 57; continue _fun00005 }
  25:
-                mike = {};
-                oscar = zulu._paginationState;
-                golf = mike;
-                tango = copyDataProperties(golf, oscar);
-                tango = 'continuationToken';
-                mike[tango] = report;
-                zulu['_paginationState'] = mike;
+                michal = {};
+                oscard = zuuluu._paginationState;
+                golfie = michal;
+                tangon = copyDataProperties(golfie, oscard);
+                tangon = 'continuationToken';
+                michal[tangon] = report;
+                zuuluu['_paginationState'] = michal;
                 entity = true;
  57:
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[7] = entity;
+        entity['value'] = oscard;
+        michal[7] = entity;
         entity = {};
-        oscar = '_calculateNewPageFromPageSizeChange';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = '_calculateNewPageFromPageSizeChange';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                golf = argFoo;
-                mike = argBar;
-                zulu = this;
-                entity = zulu._paginationState;
-                oscar = entity.currentPage;
+                golfie = argFoo;
+                michal = argBar;
+                zuuluu = this;
+                entity = zuuluu._paginationState;
+                oscard = entity.currentPage;
                 entity = entity.pageSize;
-                tango = golf * entity;
-                zulu = zulu._sortedMemberIds;
-                zulu = zulu.length;
-                if(!(!(tango <= zulu))) { _fun00008_ip = 51; continue _fun00007 }
+                tangon = golfie * entity;
+                zuuluu = zuuluu._sortedMemberIds;
+                zuuluu = zuuluu.length;
+                if(!(!(tangon <= zuuluu))) { _fun00008_ip = 51; continue _fun00007 }
  46:
-                zulu = 1;
-                return zulu;
+                zuuluu = 1;
+                return zuuluu;
  51:
-                zulu = null;
-                if(!(zulu != mike)) { _fun00008_ip = 60; continue _fun00007 }
+                zuuluu = null;
+                if(!(zuuluu != michal)) { _fun00008_ip = 60; continue _fun00007 }
  57:
-                oscar = mike;
+                oscard = michal;
  60:
-                mike = global;
-                tango = mike.Math;
-                zulu = tango.max;
-                report = mike.Math;
-                mike = report.ceil;
-                entity = entity / golf;
-                entity = entity * oscar;
-                mike = mike.bind(report)(entity);
+                michal = global;
+                tangon = michal.Math;
+                zuuluu = tangon.max;
+                report = michal.Math;
+                michal = report.ceil;
+                entity = entity / golfie;
+                entity = entity * oscard;
+                michal = michal.bind(report)(entity);
                 entity = 1;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[8] = entity;
+        entity['value'] = oscard;
+        michal[8] = entity;
         entity = {};
-        oscar = 'updatePaginationState';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'updatePaginationState';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                tango = argFoo;
-                zulu = this;
-                mike = tango.pageSize;
+                tangon = argFoo;
+                zuuluu = this;
+                michal = tangon.pageSize;
                 entity = null;
-                report = entity != mike;
+                report = entity != michal;
                 if(!report) { _fun00010_ip = 43; continue _fun00009 }
  21:
-                oscar = tango.pageSize;
-                mike = zulu._paginationState;
-                mike = mike.pageSize;
-                report = oscar !== mike;
+                oscard = tangon.pageSize;
+                michal = zuuluu._paginationState;
+                michal = michal.pageSize;
+                report = oscard !== michal;
  43:
-                mike = false;
+                michal = false;
                 if(!report) { _fun00010_ip = 98; continue _fun00009 }
  48:
-                oscar = zulu._calculateNewPageFromPageSizeChange;
-                report = tango.pageSize;
+                oscard = zuuluu._calculateNewPageFromPageSizeChange;
+                report = tangon.pageSize;
                 if(!(entity == report)) { _fun00010_ip = 78; continue _fun00009 }
  66:
-                entity = zulu._paginationState;
+                entity = zuuluu._paginationState;
                 report = entity.pageSize;
  78:
-                entity = tango.currentPage;
-                entity = oscar.bind(zulu)(report, entity);
-                tango['currentPage'] = entity;
-                mike = true;
+                entity = tangon.currentPage;
+                entity = oscard.bind(zuuluu)(report, entity);
+                tangon['currentPage'] = entity;
+                michal = true;
  98:
                 entity = {};
-                golf = zulu._paginationState;
-                options = entity;
-                report = copyDataProperties(options, golf);
-                options = entity;
-                golf = tango;
-                tango = copyDataProperties(options, golf);
-                zulu['_paginationState'] = entity;
-                if(!mike) { _fun00010_ip = 142; continue _fun00009 }
+                golfie = zuuluu._paginationState;
+                option = entity;
+                report = copyDataProperties(option, golfie);
+                option = entity;
+                golfie = tangon;
+                tangon = copyDataProperties(option, golfie);
+                zuuluu['_paginationState'] = entity;
+                if(!michal) { _fun00010_ip = 142; continue _fun00009 }
  132:
-                entity = zulu._rebuildPaginationChunksFromStoredMembers;
-                entity = entity.bind(zulu)();
+                entity = zuuluu._rebuildPaginationChunksFromStoredMembers;
+                entity = entity.bind(zuuluu)();
  142:
                 entity = new Array(2);
-                zulu = true;
-                entity[0] = zulu;
-                entity[1] = mike;
+                zuuluu = true;
+                entity[0] = zuuluu;
+                entity[1] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[9] = entity;
+        entity['value'] = oscard;
+        michal[9] = entity;
         entity = {};
-        oscar = 'updateSortedMembers';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            mike = this;
-            zulu = mike._initPaginationFromRawMembers;
+        oscard = 'updateSortedMembers';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = this;
+            zuuluu = michal._initPaginationFromRawMembers;
             entity = argFoo;
-            report = zulu.bind(mike)(entity);
-            tango = _closure1_slot2;
-            zulu = undefined;
+            report = zuuluu.bind(michal)(entity);
+            tangon = _closure1_slot2;
+            zuuluu = undefined;
             entity = 2;
-            entity = tango.bind(zulu)(report, entity);
-            zulu = 0;
-            tango = entity[zulu];
-            zulu = 1;
-            entity = entity[zulu];
-            mike['_sortedMemberIds'] = tango;
-            mike['_cachedPaginationChunks'] = entity;
-            entity = mike._version;
-            entity = entity + zulu;
-            mike['_version'] = entity;
+            entity = tangon.bind(zuuluu)(report, entity);
+            zuuluu = 0;
+            tangon = entity[zuuluu];
+            zuuluu = 1;
+            entity = entity[zuuluu];
+            michal['_sortedMemberIds'] = tangon;
+            michal['_cachedPaginationChunks'] = entity;
+            entity = michal._version;
+            entity = entity + zuuluu;
+            michal['_version'] = entity;
             entity = true;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[10] = entity;
+        entity['value'] = oscard;
+        michal[10] = entity;
         entity = {};
-        oscar = 'updateSortedMembersByUserIds';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            mike = this;
+        oscard = 'updateSortedMembersByUserIds';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = this;
             entity = argFoo;
-            mike['_sortedMemberIds'] = entity;
-            entity = mike._rebuildPaginationChunksFromStoredMembers;
-            entity = entity.bind(mike)();
+            michal['_sortedMemberIds'] = entity;
+            entity = michal._rebuildPaginationChunksFromStoredMembers;
+            entity = entity.bind(michal)();
             entity = true;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[11] = entity;
+        entity['value'] = oscard;
+        michal[11] = entity;
         entity = {};
-        oscar = '_findMember';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = '_findMember';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 verify = argFoo;
-                options = arguments[1];
-                golf = this;
-                oscar = undefined;
-                if(!(options === oscar)) { _fun00012_ip = 28; continue _fun00011 }
+                option = arguments[1];
+                golfie = this;
+                oscard = undefined;
+                if(!(option === oscard)) { _fun00012_ip = 28; continue _fun00011 }
  15:
                 entity = _closure1_slot7;
-                options = entity.BACKWARD;
+                option = entity.BACKWARD;
  28:
-                entity = golf._sortedMemberIds;
-                mike = entity.length;
+                entity = golfie._sortedMemberIds;
+                michal = entity.length;
                 entity = verify;
-                if(!(verify < mike)) { _fun00012_ip = 64; continue _fun00011 }
+                if(!(verify < michal)) { _fun00012_ip = 64; continue _fun00011 }
  46:
-                mike = golf._sortedMemberIds;
-                zulu = mike.length;
-                mike = 1;
-                entity = zulu - mike;
+                michal = golfie._sortedMemberIds;
+                zuuluu = michal.length;
+                michal = 1;
+                entity = zuuluu - michal;
  64:
                 report = 0;
                 entity = entity < report;
-                entity = golf._sortedMemberIds;
+                entity = golfie._sortedMemberIds;
                 offset = entity[verify];
-                zulu = _closure1_slot5;
-                mike = zulu.getMember;
-                entity = golf.guildId;
-                mike = mike.bind(zulu)(entity, offset);
-                zulu = null;
-                entity = mike;
-                if(!(zulu == entity)) { _fun00012_ip = 204; continue _fun00011 }
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.getMember;
+                entity = golfie.guildId;
+                michal = michal.bind(zuuluu)(entity, offset);
+                zuuluu = null;
+                entity = michal;
+                if(!(zuuluu == entity)) { _fun00012_ip = 204; continue _fun00011 }
  113:
-                verify = verify + options;
-                entity = mike;
+                verify = verify + option;
+                entity = michal;
                 if(!(!(verify < report))) { _fun00012_ip = 204; continue _fun00011 }
  124:
-                offset = golf._sortedMemberIds;
+                offset = golfie._sortedMemberIds;
                 offset = offset.length;
-                entity = mike;
+                entity = michal;
                 if(!(!(verify >= offset))) { _fun00012_ip = 204; continue _fun00011 }
  142:
-                offset = golf._sortedMemberIds;
-                foxtrot = offset[verify];
-                romeo = _closure1_slot5;
-                yankee = romeo.getMember;
-                offset = golf.guildId;
-                offset = yankee.bind(romeo)(offset, foxtrot);
-                romeo = zulu == offset;
+                offset = golfie._sortedMemberIds;
+                foxtra = offset[verify];
+                romeon = _closure1_slot5;
+                yankee = romeon.getMember;
+                offset = golfie.guildId;
+                offset = yankee.bind(romeon)(offset, foxtra);
+                romeon = zuuluu == offset;
                 yankee = undefined;
-                if(romeo) { _fun00012_ip = 188; continue _fun00011 }
+                if(romeon) { _fun00012_ip = 188; continue _fun00011 }
  182:
                 yankee = offset.joinedAt;
  188:
-                if(!(zulu == yankee)) { _fun00012_ip = 194; continue _fun00011 }
+                if(!(zuuluu == yankee)) { _fun00012_ip = 194; continue _fun00011 }
  192:
                 offset = null;
  194:
-                mike = offset;
-                entity = mike;
-                if(zulu == entity) { _fun00012_ip = 113; continue _fun00011 }
+                michal = offset;
+                entity = michal;
+                if(zuuluu == entity) { _fun00012_ip = 113; continue _fun00011 }
  204:
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[12] = entity;
+        entity['value'] = oscard;
+        michal[12] = entity;
         entity = {};
-        oscar = 'getElasticSearchPagination';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
-            mike = this;
-            entity = mike.getPaginationState;
-            entity = entity.bind(mike)();
+        oscard = 'getElasticSearchPagination';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            michal = this;
+            entity = michal.getPaginationState;
+            entity = entity.bind(michal)();
             entity = entity.elasticSearchCursor;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[13] = entity;
+        entity['value'] = oscard;
+        michal[13] = entity;
         entity = {};
-        oscar = 'paginatedMembers';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'paginatedMembers';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
             entity = entity._cachedPaginationChunks;
             return entity;
         };
-        entity['get'] = oscar;
-        mike[14] = entity;
+        entity['get'] = oscard;
+        michal[14] = entity;
         entity = {};
-        oscar = 'version';
-        entity['key'] = oscar;
+        oscard = 'version';
+        entity['key'] = oscard;
         report = function() { // Original name: get
             entity = this;
             entity = entity._version;
             return entity;
         };
         entity['get'] = report;
-        mike[15] = entity;
+        michal[15] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    oscar = 5;
-    options = options[oscar];
-    offset = verify.bind(entity)(options);
+    michal = michal.bind(entity)();
+    oscard = 5;
+    option = option[oscard];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/guild_mod_dash_member_safety/GuildMemberSafetyPagination.tsx';
-    options = verify.bind(offset)(options);
-    zulu['PAGINATION_PAGE_SIZE_OPTIONS'] = golf;
-    golf = 7;
-    zulu['MAX_VISIBLE_PAGES'] = golf;
-    zulu['MAX_FORWARD_PAGE_SKIP'] = oscar;
-    oscar = 250;
-    zulu['DEFAULT_SEARCH_CHUNK_LIMIT'] = oscar;
-    zulu['createDefaultMemberSafetyPaginationState'] = report;
-    tango = function(argFoo) { // Original name: getSearchChunkLimit
+    option = 'modules/guild_mod_dash_member_safety/GuildMemberSafetyPagination.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['PAGINATION_PAGE_SIZE_OPTIONS'] = golfie;
+    golfie = 7;
+    zuuluu['MAX_VISIBLE_PAGES'] = golfie;
+    zuuluu['MAX_FORWARD_PAGE_SKIP'] = oscard;
+    oscard = 250;
+    zuuluu['DEFAULT_SEARCH_CHUNK_LIMIT'] = oscard;
+    zuuluu['createDefaultMemberSafetyPaginationState'] = report;
+    tangon = function(argFoo) { // Original name: getSearchChunkLimit
         entity = global;
-        tango = entity.Math;
-        zulu = tango.max;
+        tangon = entity.Math;
+        zuuluu = tangon.max;
         entity = argFoo;
-        mike = entity.pageSize;
+        michal = entity.pageSize;
         entity = 5;
-        mike = entity * mike;
+        michal = entity * michal;
         entity = 250;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['getSearchChunkLimit'] = tango;
-    zulu['GuildMemberSafetyPagination'] = mike;
+    zuuluu['getSearchChunkLimit'] = tangon;
+    zuuluu['GuildMemberSafetyPagination'] = michal;
     return entity;
 })();

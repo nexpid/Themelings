@@ -1,39 +1,39 @@
 // app/modules/search_v2/native/hooks/useSearchLayoutInsetTop.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/search_v2/native/hooks/useSearchLayoutInsetTop.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useSearchLayoutInsetTop
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/hooks/useSearchLayoutInsetTop.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useSearchLayoutInsetTop
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        entity = mike[entity];
-        mike = undefined;
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
-        mike = entity.top;
+        entity = michal[entity];
+        michal = undefined;
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
+        michal = entity.top;
         entity = 8;
-        entity = mike + entity;
+        entity = michal + entity;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

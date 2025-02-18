@@ -1,97 +1,97 @@
 // app/modules/custom_status/utils/useCustomStatusActivityForUser.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityTypes;
-    var _closure1_slot4 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/custom_status/utils/useCustomStatusActivityForUser.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useCustomStatusActivityForUser
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/custom_status/utils/useCustomStatusActivityForUser.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useCustomStatusActivityForUser
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
             report = 3;
-            mike = options[report];
-            oscar = undefined;
-            offset = golf.bind(oscar)(mike);
+            michal = option[report];
+            oscard = undefined;
+            offset = golfie.bind(oscard)(michal);
             verify = offset.useStateFromStores;
-            mike = _closure1_slot2;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                mike = _closure1_slot2;
-                entity = mike.getId;
-                mike = entity.bind(mike)();
+            michal = _closure1_slot2;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot2;
+                entity = michal.getId;
+                michal = entity.bind(michal)();
                 entity = _closure2_slot0;
-                entity = mike === entity;
+                entity = michal === entity;
                 return entity;
             };
-            zulu = verify.bind(offset)(zulu, mike);
-            mike = 4;
-            mike = options[mike];
-            verify = golf.bind(oscar)(mike);
-            mike = verify.useCustomStatusActivity;
-            mike = mike.bind(verify)();
-            report = options[report];
-            oscar = golf.bind(oscar)(report);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot3;
-            tango = new Array(1);
-            tango[0] = golf;
+            zuuluu = verify.bind(offset)(zuuluu, michal);
+            michal = 4;
+            michal = option[michal];
+            verify = golfie.bind(oscard)(michal);
+            michal = verify.useCustomStatusActivity;
+            michal = michal.bind(verify)();
+            report = option[report];
+            oscard = golfie.bind(oscard)(report);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot3;
+            tangon = new Array(1);
+            tangon[0] = golfie;
             entity = function() {
-                tango = _closure1_slot3;
-                zulu = tango.findActivity;
-                mike = _closure2_slot0;
+                tangon = _closure1_slot3;
+                zuuluu = tangon.findActivity;
+                michal = _closure2_slot0;
                 entity = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.type;
+                    michal = entity.type;
                     entity = _closure1_slot4;
                     entity = entity.CUSTOM_STATUS;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            entity = report.bind(oscar)(tango, entity);
-            if(!zulu) { _fun00002_ip = 127; continue _fun00001 }
+            entity = report.bind(oscard)(tangon, entity);
+            if(!zuuluu) { _fun00002_ip = 127; continue _fun00001 }
  124:
-            entity = mike;
+            entity = michal;
  127:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

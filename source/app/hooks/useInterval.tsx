@@ -1,119 +1,119 @@
 // app/hooks/useInterval.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.useEffect;
-    var _closure1_slot2 = golf;
-    tango = tango.useRef;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/useInterval.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useInterval
-        zulu = argFoo;
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.useEffect;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.useRef;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/useInterval.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useInterval
+        zuuluu = argFoo;
         report = argBar;
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         var _closure2_slot1 = report;
-        golf = _closure1_slot3;
+        golfie = _closure1_slot3;
         entity = undefined;
-        oscar = golf.bind(entity)(zulu);
-        var _closure2_slot2 = oscar;
-        oscar = null;
-        oscar = golf.bind(entity)(oscar);
-        var _closure2_slot3 = oscar;
-        tango = _closure1_slot2;
-        oscar = new Array(1);
-        oscar[0] = zulu;
-        zulu = function() {
-            mike = _closure2_slot2;
+        oscard = golfie.bind(entity)(zuuluu);
+        var _closure2_slot2 = oscard;
+        oscard = null;
+        oscard = golfie.bind(entity)(oscard);
+        var _closure2_slot3 = oscard;
+        tangon = _closure1_slot2;
+        oscard = new Array(1);
+        oscard[0] = zuuluu;
+        zuuluu = function() {
+            michal = _closure2_slot2;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        zulu = tango.bind(entity)(zulu, oscar);
-        zulu = new Array(1);
-        zulu[0] = report;
-        mike = function() {
+        zuuluu = tangon.bind(entity)(zuuluu, oscard);
+        zuuluu = new Array(1);
+        zuuluu[0] = report;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot1;
-                tango = null;
-                if(!(tango === zulu)) { _fun00002_ip = 62; continue _fun00001 }
+                zuuluu = _closure2_slot1;
+                tangon = null;
+                if(!(tangon === zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
  15:
-                zulu = _closure2_slot3;
-                zulu = zulu.current;
-                if(!(tango !== zulu)) { _fun00002_ip = 58; continue _fun00001 }
+                zuuluu = _closure2_slot3;
+                zuuluu = zuuluu.current;
+                if(!(tangon !== zuuluu)) { _fun00002_ip = 58; continue _fun00001 }
  28:
-                zulu = global;
-                golf = zulu.clearInterval;
-                zulu = _closure2_slot3;
-                oscar = zulu.current;
+                zuuluu = global;
+                golfie = zuuluu.clearInterval;
+                zuuluu = _closure2_slot3;
+                oscard = zuuluu.current;
                 report = undefined;
-                report = golf.bind(report)(oscar);
-                zulu['current'] = tango;
+                report = golfie.bind(report)(oscard);
+                zuuluu['current'] = tangon;
  58:
-                zulu = undefined;
-                return zulu;
+                zuuluu = undefined;
+                return zuuluu;
  62:
-                zulu = _closure2_slot3;
-                tango = global;
-                oscar = tango.setInterval;
+                zuuluu = _closure2_slot3;
+                tangon = global;
+                oscard = tangon.setInterval;
                 report = _closure2_slot1;
-                tango = undefined;
-                mike = function() {
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                tangon = undefined;
+                michal = function() {
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 1;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    report = zulu.bind(entity)(mike);
-                    zulu = _closure2_slot2;
-                    tango = zulu.current;
-                    mike = null;
-                    tango = mike != tango;
-                    mike = 'Missing callback';
-                    mike = report.bind(entity)(tango, mike);
-                    mike = zulu.current;
-                    mike = mike.bind(zulu)();
+                    report = zuuluu.bind(entity)(michal);
+                    zuuluu = _closure2_slot2;
+                    tangon = zuuluu.current;
+                    michal = null;
+                    tangon = michal != tangon;
+                    michal = 'Missing callback';
+                    michal = report.bind(entity)(tangon, michal);
+                    michal = zuuluu.current;
+                    michal = michal.bind(zuuluu)();
                     return entity;
                 };
-                mike = oscar.bind(tango)(mike, report);
-                zulu['current'] = mike;
+                michal = oscard.bind(tangon)(michal, report);
+                zuuluu['current'] = michal;
                 entity = function() {
                     entity = global;
-                    zulu = entity.clearInterval;
+                    zuuluu = entity.clearInterval;
                     entity = _closure2_slot3;
-                    mike = entity.current;
+                    michal = entity.current;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
                     return entity;
                 };
                 return entity;
             }
         };
-        mike = tango.bind(entity)(mike, zulu);
+        michal = tangon.bind(entity)(michal, zuuluu);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

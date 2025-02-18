@@ -1,40 +1,40 @@
 // app/modules/guilds_bar/native/utils/isGuildsBarGuildDataEqual.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/guilds_bar/native/utils/isGuildsBarGuildDataEqual.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar) { // Original name: isGuildsBarGuildDataEqual
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/guilds_bar/native/utils/isGuildsBarGuildDataEqual.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar) { // Original name: isGuildsBarGuildDataEqual
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = argBar;
-            tango = zulu.icon;
-            entity = mike.icon;
-            entity = tango === entity;
+            zuuluu = argFoo;
+            michal = argBar;
+            tangon = zuuluu.icon;
+            entity = michal.icon;
+            entity = tangon === entity;
             if(!entity) { _fun00002_ip = 39; continue _fun00001 }
  23:
-            zulu = zulu.guildName;
-            mike = mike.guildName;
-            entity = zulu === mike;
+            zuuluu = zuuluu.guildName;
+            michal = michal.guildName;
+            entity = zuuluu === michal;
  39:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

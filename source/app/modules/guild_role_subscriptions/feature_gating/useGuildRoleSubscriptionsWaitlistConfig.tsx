@@ -1,171 +1,171 @@
 // app/modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.GuildSettingsSections;
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useGuildRoleSubscriptionsWaitlistConfig
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildSettingsSections;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useGuildRoleSubscriptionsWaitlistConfig
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            var _closure2_slot0 = tango;
-            oscar = _closure1_slot0;
+            tangon = argFoo;
+            var _closure2_slot0 = tangon;
+            oscard = _closure1_slot0;
             entity = _closure1_slot2;
-            golf = 1;
-            report = entity[golf];
-            options = undefined;
-            verify = oscar.bind(options)(report);
+            golfie = 1;
+            report = entity[golfie];
+            option = undefined;
+            verify = oscard.bind(option)(report);
             report = verify.useGuildRoleSubscriptionSettingsVisibility;
-            report = report.bind(verify)(tango);
-            entity = entity[golf];
-            entity = oscar.bind(options)(entity);
+            report = report.bind(verify)(tangon);
+            entity = entity[golfie];
+            entity = oscard.bind(option)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.NEEDS_COMMUNITY;
             if(!(entity !== report)) { _fun00002_ip = 249; continue _fun00001 }
  73:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[golf];
-            entity = oscar.bind(options)(entity);
+            entity = entity[golfie];
+            entity = oscard.bind(option)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.WAITLIST_ONLY;
             if(!(entity !== report)) { _fun00002_ip = 108; continue _fun00001 }
  106:
-            return options;
+            return option;
  108:
             entity = {};
             entity['visibility'] = report;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            oscar = 2;
-            golf = yankee[oscar];
-            golf = offset.bind(options)(golf);
-            romeo = golf.intl;
-            verify = romeo.string;
-            golf = yankee[oscar];
-            golf = offset.bind(options)(golf);
-            golf = golf.t;
-            golf = golf.5vz88P;
-            golf = verify.bind(romeo)(golf);
-            entity['noticeText'] = golf;
-            golf = yankee[oscar];
-            golf = offset.bind(options)(golf);
-            verify = golf.intl;
-            golf = verify.string;
-            oscar = yankee[oscar];
-            oscar = offset.bind(options)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.6yjvmp;
-            oscar = golf.bind(verify)(oscar);
-            entity['ctaLabel'] = oscar;
-            oscar = true;
-            entity['ctaClickable'] = oscar;
-            oscar = function() { // Original name: onCtaClicked
-                zulu = _closure1_slot1;
-                mike = _closure1_slot2;
+            oscard = 2;
+            golfie = yankee[oscard];
+            golfie = offset.bind(option)(golfie);
+            romeon = golfie.intl;
+            verify = romeon.string;
+            golfie = yankee[oscard];
+            golfie = offset.bind(option)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.5vz88P;
+            golfie = verify.bind(romeon)(golfie);
+            entity['noticeText'] = golfie;
+            golfie = yankee[oscard];
+            golfie = offset.bind(option)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
+            oscard = yankee[oscard];
+            oscard = offset.bind(option)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.6yjvmp;
+            oscard = golfie.bind(verify)(oscard);
+            entity['ctaLabel'] = oscard;
+            oscard = true;
+            entity['ctaClickable'] = oscard;
+            oscard = function() { // Original name: onCtaClicked
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 5;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = 'https://dis.gd/creators-waitlist';
-                mike = zulu.bind(entity)(mike);
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = 'https://dis.gd/creators-waitlist';
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            entity['onCtaClicked'] = oscar;
+            entity['onCtaClicked'] = oscard;
             return entity;
  249:
             entity = {};
             entity['visibility'] = report;
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             verify = _closure1_slot2;
-            zulu = 2;
-            report = verify[zulu];
-            report = golf.bind(options)(report);
+            zuuluu = 2;
+            report = verify[zuuluu];
+            report = golfie.bind(option)(report);
             offset = report.intl;
-            oscar = offset.string;
-            report = verify[zulu];
-            report = golf.bind(options)(report);
+            oscard = offset.string;
+            report = verify[zuuluu];
+            report = golfie.bind(option)(report);
             report = report.t;
             report = report.0Z2Qxs;
-            report = oscar.bind(offset)(report);
+            report = oscard.bind(offset)(report);
             entity['noticeText'] = report;
-            report = verify[zulu];
-            report = golf.bind(options)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            zulu = verify[zulu];
-            zulu = golf.bind(options)(zulu);
-            zulu = zulu.t;
-            zulu = zulu.BOJpl5;
-            zulu = report.bind(oscar)(zulu);
-            entity['ctaLabel'] = zulu;
-            zulu = null;
-            zulu = zulu != tango;
-            entity['ctaClickable'] = zulu;
-            mike = function() { // Original name: onCtaClicked
+            report = verify[zuuluu];
+            report = golfie.bind(option)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            zuuluu = verify[zuuluu];
+            zuuluu = golfie.bind(option)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.BOJpl5;
+            zuuluu = report.bind(oscard)(zuuluu);
+            entity['ctaLabel'] = zuuluu;
+            zuuluu = null;
+            zuuluu = zuuluu != tangon;
+            entity['ctaClickable'] = zuuluu;
+            michal = function() { // Original name: onCtaClicked
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot1;
-                    options = _closure1_slot2;
+                    option = _closure1_slot2;
                     entity = 3;
-                    zulu = options[entity];
+                    zuuluu = option[entity];
                     entity = undefined;
-                    offset = report.bind(entity)(zulu);
-                    oscar = _closure2_slot0;
-                    zulu = null;
-                    verify = zulu != oscar;
-                    tango = 'Guild must be not null open COMMUNITY settings';
-                    tango = offset.bind(entity)(verify, tango);
-                    tango = 4;
-                    tango = options[tango];
-                    report = report.bind(entity)(tango);
-                    tango = report.open;
-                    options = zulu == oscar;
-                    oscar = undefined;
-                    if(options) { _fun00004_ip = 86; continue _fun00003 }
+                    offset = report.bind(entity)(zuuluu);
+                    oscard = _closure2_slot0;
+                    zuuluu = null;
+                    verify = zuuluu != oscard;
+                    tangon = 'Guild must be not null open COMMUNITY settings';
+                    tangon = offset.bind(entity)(verify, tangon);
+                    tangon = 4;
+                    tangon = option[tangon];
+                    report = report.bind(entity)(tangon);
+                    tangon = report.open;
+                    option = zuuluu == oscard;
+                    oscard = undefined;
+                    if(option) { _fun00004_ip = 86; continue _fun00003 }
  77:
-                    golf = _closure2_slot0;
-                    oscar = golf.id;
+                    golfie = _closure2_slot0;
+                    oscard = golfie.id;
  86:
-                    golf = zulu != oscar;
-                    zulu = '';
-                    if(!golf) { _fun00004_ip = 100; continue _fun00003 }
+                    golfie = zuuluu != oscard;
+                    zuuluu = '';
+                    if(!golfie) { _fun00004_ip = 100; continue _fun00003 }
  97:
-                    zulu = oscar;
+                    zuuluu = oscard;
  100:
-                    mike = _closure1_slot3;
-                    mike = mike.COMMUNITY;
-                    mike = tango.bind(report)(zulu, mike);
+                    michal = _closure1_slot3;
+                    michal = michal.COMMUNITY;
+                    michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
                 }
             };
-            entity['onCtaClicked'] = mike;
+            entity['onCtaClicked'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

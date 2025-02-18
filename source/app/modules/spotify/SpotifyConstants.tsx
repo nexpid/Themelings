@@ -1,282 +1,282 @@
 // app/modules/spotify/SpotifyConstants.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         verify = argBar;
-        zulu = argFred;
-        offset = argPlugh;
-        romeo = global;
-        oscar = romeo.Object;
-        report = oscar.defineProperty;
-        tango = {};
+        zuuluu = argFre;
+        offset = argPlu;
+        romeon = global;
+        oscard = romeon.Object;
+        report = oscard.defineProperty;
+        tangon = {};
         entity = true;
-        tango['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = report.bind(oscar)(zulu, entity, tango);
+        entity = report.bind(oscard)(zuuluu, entity, tangon);
         entity = 0;
-        tango = offset[entity];
+        tangon = offset[entity];
         entity = undefined;
-        tango = verify.bind(entity)(tango);
-        tango = tango.PlatformTypes;
+        tangon = verify.bind(entity)(tangon);
+        tangon = tangon.PlatformTypes;
         report = 1;
-        oscar = offset[report];
+        oscard = offset[report];
         report = argBaz;
-        oscar = report.bind(entity)(oscar);
-        report = oscar.get;
-        tango = tango.SPOTIFY;
-        tango = report.bind(oscar)(tango);
-        golf = tango.name;
-        oscar = {};
-        tango = 'track';
-        oscar['TRACK'] = tango;
-        tango = 'artist';
-        oscar['ARTIST'] = tango;
-        tango = 'album';
-        oscar['ALBUM'] = tango;
-        tango = 'playlist';
-        oscar['PLAYLIST'] = tango;
-        tango = 'episode';
-        oscar['EPISODE'] = tango;
-        tango = 'show';
-        oscar['SHOW'] = tango;
-        var _closure1_slot0 = oscar;
+        oscard = report.bind(entity)(oscard);
+        report = oscard.get;
+        tangon = tangon.SPOTIFY;
+        tangon = report.bind(oscard)(tangon);
+        golfie = tangon.name;
+        oscard = {};
+        tangon = 'track';
+        oscard['TRACK'] = tangon;
+        tangon = 'artist';
+        oscard['ARTIST'] = tangon;
+        tangon = 'album';
+        oscard['ALBUM'] = tangon;
+        tangon = 'playlist';
+        oscard['PLAYLIST'] = tangon;
+        tangon = 'episode';
+        oscard['EPISODE'] = tangon;
+        tangon = 'show';
+        oscard['SHOW'] = tangon;
+        var _closure1_slot0 = oscard;
         report = {};
-        tango = 'user_activity_play';
-        report['USER_ACTIVITY_PLAY'] = tango;
-        tango = 'user_activity_sync';
-        report['USER_ACTIVITY_SYNC'] = tango;
-        tango = 'embed_sync';
-        report['EMBED_SYNC'] = tango;
+        tangon = 'user_activity_play';
+        report['USER_ACTIVITY_PLAY'] = tangon;
+        tangon = 'user_activity_sync';
+        report['USER_ACTIVITY_SYNC'] = tangon;
+        tangon = 'embed_sync';
+        report['EMBED_SYNC'] = tangon;
         backup = function(argFoo) { // Original name: spotifyUtmParams
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
-            mike = '?utm_source=discord&utm_medium=';
+            zuuluu = entity.concat;
+            michal = '?utm_source=discord&utm_medium=';
             entity = argFoo;
-            entity = zulu.bind(mike)(entity);
+            entity = zuuluu.bind(michal)(entity);
             return entity;
         };
         var _closure1_slot1 = backup;
-        yankee = romeo.Object;
-        options = yankee.freeze;
-        tango = {};
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
+        yankee = romeon.Object;
+        option = yankee.freeze;
+        tangon = {};
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
         output = '';
         sizing = 'https://api.spotify.com/v1';
-        foxtrot = '/me';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PROFILE'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/notifications/player';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['NOTIFICATIONS_PLAYER'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/player';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PLAYER'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/player/devices';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PLAYER_DEVICES'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/player/play';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PLAYER_PLAY'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/player/pause';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PLAYER_PAUSE'] = foxtrot;
-        foxtrot = romeo.HermesInternal;
-        kilo = foxtrot.concat;
-        foxtrot = '/me/player/repeat';
-        foxtrot = kilo.bind(output)(sizing, foxtrot);
-        tango['PLAYER_REPEAT'] = foxtrot;
-        foxtrot = function(argFoo, argBar) { // Original name: WEB_OPEN
+        foxtra = '/me';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PROFILE'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/notifications/player';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['NOTIFICATIONS_PLAYER'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/player';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PLAYER'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/player/devices';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PLAYER_DEVICES'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/player/play';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PLAYER_PLAY'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/player/pause';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PLAYER_PAUSE'] = foxtra;
+        foxtra = romeon.HermesInternal;
+        kiloes = foxtra.concat;
+        foxtra = '/me/player/repeat';
+        foxtra = kiloes.bind(output)(sizing, foxtra);
+        tangon['PLAYER_REPEAT'] = foxtra;
+        foxtra = function(argFoo, argBar) { // Original name: WEB_OPEN
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = arguments[2];
-                zulu = undefined;
-                if(!(tango === zulu)) { _fun00004_ip = 13; continue _fun00003 }
+                tangon = arguments[2];
+                zuuluu = undefined;
+                if(!(tangon === zuuluu)) { _fun00004_ip = 13; continue _fun00003 }
  9:
-                tango = 'desktop';
+                tangon = 'desktop';
  13:
                 entity = global;
                 report = entity.encodeURIComponent;
-                mike = argFoo;
-                oscar = report.bind(zulu)(mike);
+                michal = argFoo;
+                oscard = report.bind(zuuluu)(michal);
                 report = entity.encodeURIComponent;
-                mike = argBar;
-                options = report.bind(zulu)(mike);
-                mike = _closure1_slot1;
-                golf = mike.bind(zulu)(tango);
+                michal = argBar;
+                option = report.bind(zuuluu)(michal);
+                michal = _closure1_slot1;
+                golfie = michal.bind(zuuluu)(tangon);
                 entity = entity.HermesInternal;
-                zulu = entity.concat;
+                zuuluu = entity.concat;
                 yankee = 'https://open.spotify.com/';
                 verify = '/';
-                offset = oscar;
-                entity = yankee[zulu](offset, verify, options, golf, oscar);
+                offset = oscard;
+                entity = yankee[zuuluu](offset, verify, option, golfie, oscard);
                 return entity;
             }
         };
-        tango['WEB_OPEN'] = foxtrot;
-        foxtrot = function(argFoo) { // Original name: EMBED
+        tangon['WEB_OPEN'] = foxtra;
+        foxtra = function(argFoo) { // Original name: EMBED
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = arguments[1];
-                mike = undefined;
-                if(!(zulu === mike)) { _fun00006_ip = 13; continue _fun00005 }
+                zuuluu = arguments[1];
+                michal = undefined;
+                if(!(zuuluu === michal)) { _fun00006_ip = 13; continue _fun00005 }
  9:
-                zulu = 'desktop';
+                zuuluu = 'desktop';
  13:
                 entity = _closure1_slot1;
-                tango = entity.bind(mike)(zulu);
+                tangon = entity.bind(michal)(zuuluu);
                 entity = global;
                 entity = entity.HermesInternal;
-                zulu = entity.concat;
-                mike = 'https://open.spotify.com/embed';
+                zuuluu = entity.concat;
+                michal = 'https://open.spotify.com/embed';
                 entity = argFoo;
-                entity = zulu.bind(mike)(entity, tango);
+                entity = zuuluu.bind(michal)(entity, tangon);
                 return entity;
             }
         };
-        tango['EMBED'] = foxtrot;
-        foxtrot = function(argFoo, argBar) { // Original name: PLAYER_OPEN
+        tangon['EMBED'] = foxtra;
+        foxtra = function(argFoo, argBar) { // Original name: PLAYER_OPEN
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                mike = arguments[2];
-                options = arguments[3];
-                zulu = undefined;
-                if(!(mike === zulu)) { _fun00008_ip = 14; continue _fun00007 }
+                michal = arguments[2];
+                option = arguments[3];
+                zuuluu = undefined;
+                if(!(michal === zuuluu)) { _fun00008_ip = 14; continue _fun00007 }
  12:
-                mike = true;
+                michal = true;
  14:
-                if(!(options === zulu)) { _fun00008_ip = 22; continue _fun00007 }
+                if(!(option === zuuluu)) { _fun00008_ip = 22; continue _fun00007 }
  18:
-                options = 'desktop';
+                option = 'desktop';
  22:
                 entity = global;
                 report = entity.encodeURIComponent;
-                tango = argFoo;
-                golf = report.bind(zulu)(tango);
+                tangon = argFoo;
+                golfie = report.bind(zuuluu)(tangon);
                 report = entity.encodeURIComponent;
-                tango = argBar;
-                oscar = report.bind(zulu)(tango);
+                tangon = argBar;
+                oscard = report.bind(zuuluu)(tangon);
                 report = '';
-                tango = report;
-                if(!mike) { _fun00008_ip = 74; continue _fun00007 }
+                tangon = report;
+                if(!michal) { _fun00008_ip = 74; continue _fun00007 }
  62:
-                mike = _closure1_slot1;
-                tango = mike.bind(zulu)(options);
+                michal = _closure1_slot1;
+                tangon = michal.bind(zuuluu)(option);
  74:
                 entity = entity.HermesInternal;
-                zulu = entity.concat;
+                zuuluu = entity.concat;
                 backup = 'spotify';
                 entity = ':';
-                kilo = report;
-                foxtrot = entity;
-                romeo = golf;
+                kiloes = report;
+                foxtra = entity;
+                romeon = golfie;
                 yankee = entity;
-                offset = oscar;
-                verify = tango;
-                entity = kilo[zulu](backup, foxtrot, romeo, yankee, offset, verify, options);
+                offset = oscard;
+                verify = tangon;
+                entity = kiloes[zuuluu](backup, foxtra, romeon, yankee, offset, verify, option);
                 return entity;
             }
         };
-        tango['PLAYER_OPEN'] = foxtrot;
-        foxtrot = 'desktop';
-        backup = backup.bind(entity)(foxtrot);
-        romeo = romeo.HermesInternal;
-        foxtrot = romeo.concat;
-        romeo = 'https://www.spotify.com/premium/';
-        romeo = foxtrot.bind(romeo)(backup);
-        tango['PREMIUM_SITE'] = romeo;
-        romeo = function(argFoo) { // Original name: INSTALL_ATTRIBUTION
+        tangon['PLAYER_OPEN'] = foxtra;
+        foxtra = 'desktop';
+        backup = backup.bind(entity)(foxtra);
+        romeon = romeon.HermesInternal;
+        foxtra = romeon.concat;
+        romeon = 'https://www.spotify.com/premium/';
+        romeon = foxtra.bind(romeon)(backup);
+        tangon['PREMIUM_SITE'] = romeon;
+        romeon = function(argFoo) { // Original name: INSTALL_ATTRIBUTION
             entity = global;
             entity = entity.HermesInternal;
-            zulu = entity.concat;
-            mike = 'https://app.adjust.com/bdyga9?campaign=';
+            zuuluu = entity.concat;
+            michal = 'https://app.adjust.com/bdyga9?campaign=';
             entity = argFoo;
-            entity = zulu.bind(mike)(entity);
+            entity = zuuluu.bind(michal)(entity);
             return entity;
         };
-        tango['INSTALL_ATTRIBUTION'] = romeo;
-        romeo = 2;
-        romeo = offset[romeo];
-        foxtrot = verify.bind(entity)(romeo);
-        romeo = foxtrot.isAndroid;
-        backup = romeo.bind(foxtrot)();
-        romeo = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
-        foxtrot = romeo;
+        tangon['INSTALL_ATTRIBUTION'] = romeon;
+        romeon = 2;
+        romeon = offset[romeon];
+        foxtra = verify.bind(entity)(romeon);
+        romeon = foxtra.isAndroid;
+        backup = romeon.bind(foxtra)();
+        romeon = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
+        foxtra = romeon;
         if(!backup) { _fun00002_ip = 558; continue _fun00001 }
  552:
-        foxtrot = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
+        foxtra = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
  558:
-        tango['APP_STORE'] = foxtrot;
-        tango['IOS_APP_STORE'] = romeo;
-        tango = options.bind(yankee)(tango);
-        options = 3;
-        options = offset[options];
-        offset = verify.bind(entity)(options);
+        tangon['APP_STORE'] = foxtra;
+        tangon['IOS_APP_STORE'] = romeon;
+        tangon = option.bind(yankee)(tangon);
+        option = 3;
+        option = offset[option];
+        offset = verify.bind(entity)(option);
         verify = offset.fileFinishedImporting;
-        options = 'modules/spotify/SpotifyConstants.tsx';
-        options = verify.bind(offset)(options);
-        options = 'spotify';
-        zulu['SPOTIFY_APP_PROTOCOL'] = options;
-        options = 'spotify:';
-        zulu['SPOTIFY_PARTY_PREFIX'] = options;
-        zulu['SPOTIFY_PLATFORM_NAME'] = golf;
-        golf = function(argFoo) { // Original name: isSpotifyParty
+        option = 'modules/spotify/SpotifyConstants.tsx';
+        option = verify.bind(offset)(option);
+        option = 'spotify';
+        zuuluu['SPOTIFY_APP_PROTOCOL'] = option;
+        option = 'spotify:';
+        zuuluu['SPOTIFY_PARTY_PREFIX'] = option;
+        zuuluu['SPOTIFY_PLATFORM_NAME'] = golfie;
+        golfie = function(argFoo) { // Original name: isSpotifyParty
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                tango = argFoo;
+                tangon = argFoo;
                 entity = null;
-                entity = entity != tango;
+                entity = entity != tangon;
                 if(!entity) { _fun00010_ip = 29; continue _fun00009 }
  12:
-                zulu = tango.startsWith;
-                mike = 'spotify:';
-                entity = zulu.bind(tango)(mike);
+                zuuluu = tangon.startsWith;
+                michal = 'spotify:';
+                entity = zuuluu.bind(tangon)(michal);
  29:
                 return entity;
             }
         };
-        zulu['isSpotifyParty'] = golf;
-        zulu['SpotifyResourceTypes'] = oscar;
-        zulu['SpotifyActionTypes'] = report;
+        zuuluu['isSpotifyParty'] = golfie;
+        zuuluu['SpotifyResourceTypes'] = oscard;
+        zuuluu['SpotifyActionTypes'] = report;
         report = ['open.spotify.com', 'www.spotify.com'];
-        zulu['SPOTIFY_HOSTNAMES'] = report;
-        zulu['SpotifyEndpoints'] = tango;
-        mike = function(argFoo) { // Original name: getSpotifyResourceType
+        zuuluu['SPOTIFY_HOSTNAMES'] = report;
+        zuuluu['SpotifyEndpoints'] = tangon;
+        michal = function(argFoo) { // Original name: getSpotifyResourceType
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                mike = argFoo;
-                zulu = 'string';
-                entity = typeof mike;
-                if(!(zulu === entity)) { _fun00012_ip = 166; continue _fun00011 }
+                michal = argFoo;
+                zuuluu = 'string';
+                entity = typeof michal;
+                if(!(zuuluu === entity)) { _fun00012_ip = 166; continue _fun00011 }
  17:
                 entity = 'track';
-                if(!(entity !== mike)) { _fun00012_ip = 151; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 151; continue _fun00011 }
  28:
                 entity = 'artist';
-                if(!(entity !== mike)) { _fun00012_ip = 136; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 136; continue _fun00011 }
  36:
                 entity = 'album';
-                if(!(entity !== mike)) { _fun00012_ip = 121; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 121; continue _fun00011 }
  44:
                 entity = 'playlist';
-                if(!(entity !== mike)) { _fun00012_ip = 106; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 106; continue _fun00011 }
  54:
                 entity = 'episode';
-                if(!(entity !== mike)) { _fun00012_ip = 91; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 91; continue _fun00011 }
  64:
                 entity = 'show';
-                if(!(entity !== mike)) { _fun00012_ip = 76; continue _fun00011 }
+                if(!(entity !== michal)) { _fun00012_ip = 76; continue _fun00011 }
  72:
                 entity = null;
                 return entity;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        zulu['getSpotifyResourceType'] = mike;
+        zuuluu['getSpotifyResourceType'] = michal;
         return entity;
     }
 })();

@@ -1,125 +1,125 @@
 // app/modules/polls/useTrackPollEvents.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/polls/useTrackPollEvents.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: useTrackPollCreationEvents
-        options = argFoo;
-        golf = argBar;
-        oscar = argBaz;
-        var _closure2_slot0 = options;
-        var _closure2_slot1 = golf;
-        var _closure2_slot2 = oscar;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/polls/useTrackPollEvents.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: useTrackPollCreationEvents
+        option = argFoo;
+        golfie = argBar;
+        oscard = argBaz;
+        var _closure2_slot0 = option;
+        var _closure2_slot1 = golfie;
+        var _closure2_slot2 = oscard;
         entity = {};
         report = _closure1_slot2;
-        tango = report.useCallback;
-        zulu = new Array(3);
-        zulu[0] = options;
-        zulu[1] = golf;
-        zulu[2] = oscar;
-        mike = function() {
+        tangon = report.useCallback;
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        zuuluu[2] = oscard;
+        michal = function() {
             entity = 0;
             var _closure3_slot0 = entity;
             var _closure3_slot1 = entity;
             var _closure3_slot2 = entity;
-            options = _closure2_slot0;
-            mike = options.forEach;
+            option = _closure2_slot0;
+            michal = option.forEach;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     entity = entity.image;
-                    mike = null;
-                    if(!(mike != entity)) { _fun00002_ip = 103; continue _fun00001 }
+                    michal = null;
+                    if(!(michal != entity)) { _fun00002_ip = 103; continue _fun00001 }
  15:
-                    zulu = entity.emoji;
-                    if(!(mike == zulu)) { _fun00002_ip = 85; continue _fun00001 }
+                    zuuluu = entity.emoji;
+                    if(!(michal == zuuluu)) { _fun00002_ip = 85; continue _fun00001 }
  25:
-                    zulu = entity.stickerId;
-                    if(!(mike == zulu)) { _fun00002_ip = 65; continue _fun00001 }
+                    zuuluu = entity.stickerId;
+                    if(!(michal == zuuluu)) { _fun00002_ip = 65; continue _fun00001 }
  35:
                     entity = entity.mediaAttachmentState;
-                    if(!(mike != entity)) { _fun00002_ip = 103; continue _fun00001 }
+                    if(!(michal != entity)) { _fun00002_ip = 103; continue _fun00001 }
  45:
-                    zulu = _closure3_slot0;
+                    zuuluu = _closure3_slot0;
                     entity = 1;
-                    entity = zulu + entity;
+                    entity = zuuluu + entity;
                     _closure3_slot0 = entity;
                     _fun00002_ip = 103; continue _fun00001;
  65:
-                    zulu = _closure3_slot2;
+                    zuuluu = _closure3_slot2;
                     entity = 1;
-                    entity = zulu + entity;
+                    entity = zuuluu + entity;
                     _closure3_slot2 = entity;
                     _fun00002_ip = 103; continue _fun00001;
  85:
-                    zulu = _closure3_slot1;
+                    zuuluu = _closure3_slot1;
                     entity = 1;
-                    entity = zulu + entity;
+                    entity = zuuluu + entity;
                     _closure3_slot1 = entity;
  103:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity = mike.bind(options)(entity);
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            entity = michal.bind(option)(entity);
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tango.bind(entity)(zulu);
-            tango = report.trackWithMetadata;
-            mike = _closure1_slot3;
-            zulu = mike.POLL_CREATION_CANCELLED;
-            mike = {};
-            options = options.length;
-            mike['answers_count'] = options;
-            options = _closure3_slot0;
-            mike['attachments_count'] = options;
-            options = _closure3_slot1;
-            mike['emojis_count'] = options;
-            golf = _closure3_slot2;
-            mike['stickers_count'] = golf;
-            golf = _closure2_slot1;
-            mike['allow_multiselect'] = golf;
-            oscar = _closure2_slot2;
-            mike['layout_type'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot3;
+            zuuluu = michal.POLL_CREATION_CANCELLED;
+            michal = {};
+            option = option.length;
+            michal['answers_count'] = option;
+            option = _closure3_slot0;
+            michal['attachments_count'] = option;
+            option = _closure3_slot1;
+            michal['emojis_count'] = option;
+            golfie = _closure3_slot2;
+            michal['stickers_count'] = golfie;
+            golfie = _closure2_slot1;
+            michal['allow_multiselect'] = golfie;
+            oscard = _closure2_slot2;
+            michal['layout_type'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
-        mike = tango.bind(report)(mike, zulu);
-        entity['trackPollCreationCancelled'] = mike;
+        michal = tangon.bind(report)(michal, zuuluu);
+        entity['trackPollCreationCancelled'] = michal;
         return entity;
     };
-    zulu['useTrackPollCreationEvents'] = mike;
+    zuuluu['useTrackPollCreationEvents'] = michal;
     return entity;
 })();

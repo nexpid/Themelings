@@ -1,129 +1,129 @@
 // app/modules/mobile_web_handoff/MobileWebHandoffUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: _createHandoffToken
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 163; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 163; continue _fun00001 }
  10:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {'url': null, 'body': null, 'oldFormErrors': true, 'retries': 1, 'rejectWithError': false};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.post;
+                    michal = {'url': null, 'body': null, 'oldFormErrors': true, 'retries': 1, 'rejectWithError': false};
                     report = _closure1_slot3;
                     report = report.HANDOFF;
-                    mike['url'] = report;
+                    michal['url'] = report;
                     report = {};
-                    oscar = argFoo;
-                    report['key'] = oscar;
-                    mike['body'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    oscard = argFoo;
+                    report['key'] = oscard;
+                    michal['body'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=96);
  94:
-                    return mike;
+                    return michal;
  96:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 160; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 160; continue _fun00001 }
  102:
-                    zulu = mike.body;
-                    zulu = zulu.handoff_token;
-                    tango = null;
-                    if(!(tango == zulu)) { _fun00002_ip = 157; continue _fun00001 }
+                    zuuluu = michal.body;
+                    zuuluu = zuuluu.handoff_token;
+                    tangon = null;
+                    if(!(tangon == zuuluu)) { _fun00002_ip = 157; continue _fun00001 }
  121:
-                    tango = global;
-                    oscar = tango.Error;
-                    tango = oscar.prototype;
-                    report = Object.create(tango, {constructor: {value: oscar}});
-                    golf = 'Missing handoff token!';
-                    options = report;
-                    tango = new options[oscar](golf, oscar);
-                    tango = tango instanceof Object ? tango : report;
-                    throw tango;
+                    tangon = global;
+                    oscard = tangon.Error;
+                    tangon = oscard.prototype;
+                    report = Object.create(tangon, {constructor: {value: oscard}});
+                    golfie = 'Missing handoff token!';
+                    option = report;
+                    tangon = new option[oscard](golfie, oscard);
+                    tangon = tangon instanceof Object ? tangon : report;
+                    throw tangon;
  157:
-                    return zulu;
+                    return zuuluu;
  160:
-                    return mike;
+                    return michal;
  163:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    golf = oscar[entity];
-    mike = argBaz;
+    golfie = oscard[entity];
+    michal = argBaz;
     entity = undefined;
-    mike = mike.bind(entity)(golf);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.Endpoints;
-    var _closure1_slot3 = mike;
-    mike = {};
-    golf = function() { // Original name: generateNonce
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    michal = michal.bind(entity)(golfie);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.Endpoints;
+    var _closure1_slot3 = michal;
+    michal = {};
+    golfie = function() { // Original name: generateNonce
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.v4;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.v4;
+        entity = entity.bind(michal)();
         return entity;
     };
-    mike['generateNonce'] = golf;
-    tango = function() { // Original name: createHandoffToken
+    michal['generateNonce'] = golfie;
+    tangon = function() { // Original name: createHandoffToken
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    mike['createHandoffToken'] = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/mobile_web_handoff/MobileWebHandoffUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['createHandoffToken'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/mobile_web_handoff/MobileWebHandoffUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

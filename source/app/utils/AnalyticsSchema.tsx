@@ -1,17 +1,17 @@
 // app/utils/AnalyticsSchema.tsx
-export default (function(_, argBar, __, ___, ____, _____, argPlugh) {
-    zulu = argBar;
-    tango = argPlugh;
+export default (function(_, argBar, __, ___, ____, _____, argPlu) {
+    zuuluu = argBar;
+    tangon = argPlu;
     entity = 0;
-    mike = tango[entity];
+    michal = tangon[entity];
     entity = undefined;
-    mike = zulu.bind(entity)(mike);
-    mike = mike.AnalyticEvents;
-    mike = 1;
-    mike = tango[mike];
-    tango = zulu.bind(entity)(mike);
-    zulu = tango.fileFinishedImporting;
-    mike = 'utils/AnalyticsSchema.tsx';
-    mike = zulu.bind(tango)(mike);
+    michal = zuuluu.bind(entity)(michal);
+    michal = michal.AnalyticEvents;
+    michal = 1;
+    michal = tangon[michal];
+    tangon = zuuluu.bind(entity)(michal);
+    zuuluu = tangon.fileFinishedImporting;
+    michal = 'utils/AnalyticsSchema.tsx';
+    michal = zuuluu.bind(tangon)(michal);
     return entity;
 })();

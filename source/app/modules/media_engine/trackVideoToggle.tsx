@@ -1,110 +1,110 @@
 // app/modules/media_engine/trackVideoToggle.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_engine/trackVideoToggle.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar, argBaz) { // Original name: trackVideoToggle
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_engine/trackVideoToggle.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar, argBaz) { // Original name: trackVideoToggle
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 1;
-            mike = tango[entity];
+            michal = tangon[entity];
             entity = undefined;
-            oscar = zulu.bind(entity)(mike);
-            report = oscar.getConfig;
-            mike = false;
-            mike = report.bind(oscar)(mike);
-            options = mike.featureEnabled;
-            romeo = mike.windowLength;
-            yankee = mike.allowedPoorFpsRatio;
-            offset = mike.fpsThreshold;
-            golf = mike.backoffTimeSec;
-            mike = 2;
-            mike = tango[mike];
-            report = zulu.bind(entity)(mike);
-            tango = report.track;
-            mike = _closure1_slot4;
-            zulu = mike.VIDEO_TOGGLED;
-            mike = {};
-            oscar = argBar;
-            mike['video_toggle_reason'] = oscar;
-            oscar = argFoo;
-            mike['toggled_user_id'] = oscar;
+            oscard = zuuluu.bind(entity)(michal);
+            report = oscard.getConfig;
+            michal = false;
+            michal = report.bind(oscard)(michal);
+            option = michal.featureEnabled;
+            romeon = michal.windowLength;
+            yankee = michal.allowedPoorFpsRatio;
+            offset = michal.fpsThreshold;
+            golfie = michal.backoffTimeSec;
+            michal = 2;
+            michal = tangon[michal];
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.track;
+            michal = _closure1_slot4;
+            zuuluu = michal.VIDEO_TOGGLED;
+            michal = {};
+            oscard = argBar;
+            michal['video_toggle_reason'] = oscard;
+            oscard = argFoo;
+            michal['toggled_user_id'] = oscard;
             verify = _closure1_slot2;
-            oscar = null;
-            backup = oscar == verify;
+            oscard = null;
+            backup = oscard == verify;
             verify = undefined;
             if(backup) { _fun00002_ip = 140; continue _fun00001 }
  132:
             backup = _closure1_slot2;
             verify = backup.bind(entity)();
  140:
-            mike['rtc_connection_id'] = verify;
+            michal['rtc_connection_id'] = verify;
             verify = _closure1_slot3;
-            backup = oscar == verify;
+            backup = oscard == verify;
             verify = undefined;
             if(backup) { _fun00002_ip = 166; continue _fun00001 }
  158:
-            foxtrot = _closure1_slot3;
-            verify = foxtrot.bind(entity)();
+            foxtra = _closure1_slot3;
+            verify = foxtra.bind(entity)();
  166:
-            mike['media_session_id'] = verify;
+            michal['media_session_id'] = verify;
             verify = null;
-            if(!options) { _fun00002_ip = 179; continue _fun00001 }
+            if(!option) { _fun00002_ip = 179; continue _fun00001 }
  176:
-            verify = romeo;
+            verify = romeon;
  179:
-            mike['video_health_manager_window_length'] = verify;
+            michal['video_health_manager_window_length'] = verify;
             verify = null;
-            if(!options) { _fun00002_ip = 194; continue _fun00001 }
+            if(!option) { _fun00002_ip = 194; continue _fun00001 }
  191:
             verify = yankee;
  194:
-            mike['video_health_manager_poor_fps_ratio'] = verify;
+            michal['video_health_manager_poor_fps_ratio'] = verify;
             verify = null;
-            if(!options) { _fun00002_ip = 209; continue _fun00001 }
+            if(!option) { _fun00002_ip = 209; continue _fun00001 }
  206:
             verify = offset;
  209:
-            mike['video_health_manager_fps_threshold'] = verify;
+            michal['video_health_manager_fps_threshold'] = verify;
             verify = argBaz;
-            mike['is_video_shown'] = verify;
-            oscar = null;
-            if(!options) { _fun00002_ip = 234; continue _fun00001 }
+            michal['is_video_shown'] = verify;
+            oscard = null;
+            if(!option) { _fun00002_ip = 234; continue _fun00001 }
  231:
-            oscar = golf;
+            oscard = golfie;
  234:
-            mike['video_health_manager_backoff_time_seconds'] = oscar;
-            mike = tango.bind(report)(zulu, mike);
+            michal['video_health_manager_backoff_time_seconds'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = tango;
-    mike = function(argFoo, argBar) { // Original name: setVideoToggleAnalyticsParams
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: setVideoToggleAnalyticsParams
         entity = argFoo;
         var _closure1_slot2 = entity;
         entity = argBar;
@@ -112,6 +112,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = undefined;
         return entity;
     };
-    zulu['setVideoToggleAnalyticsParams'] = mike;
+    zuuluu['setVideoToggleAnalyticsParams'] = michal;
     return entity;
 })();

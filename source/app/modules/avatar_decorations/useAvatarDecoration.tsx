@@ -1,79 +1,79 @@
 // app/modules/avatar_decorations/useAvatarDecoration.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/avatar_decorations/useAvatarDecoration.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useAvatarDecoration
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/avatar_decorations/useAvatarDecoration.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useAvatarDecoration
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            var _closure2_slot0 = mike;
+            michal = argFoo;
+            var _closure2_slot0 = michal;
             entity = argBar;
             var _closure2_slot1 = entity;
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
             entity = 1;
             report = report[entity];
             entity = undefined;
-            oscar = oscar.bind(entity)(report);
-            report = oscar.useStateFromStores;
-            golf = _closure1_slot2;
-            tango = new Array(1);
-            tango[0] = golf;
-            zulu = function() {
+            oscard = oscard.bind(entity)(report);
+            report = oscard.useStateFromStores;
+            golfie = _closure1_slot2;
+            tangon = new Array(1);
+            tangon[0] = golfie;
+            zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = _closure2_slot1;
+                    zuuluu = _closure2_slot1;
                     entity = null;
-                    zulu = entity != zulu;
-                    if(!zulu) { _fun00004_ip = 48; continue _fun00003 }
+                    zuuluu = entity != zuuluu;
+                    if(!zuuluu) { _fun00004_ip = 48; continue _fun00003 }
  16:
                     report = _closure1_slot2;
-                    tango = report.getMember;
-                    zulu = _closure2_slot1;
-                    mike = _closure2_slot0;
-                    mike = mike.id;
-                    entity = tango.bind(report)(zulu, mike);
+                    tangon = report.getMember;
+                    zuuluu = _closure2_slot1;
+                    michal = _closure2_slot0;
+                    michal = michal.id;
+                    entity = tangon.bind(report)(zuuluu, michal);
  48:
                     return entity;
                 }
             };
-            tango = report.bind(oscar)(tango, zulu);
-            zulu = null;
-            report = zulu == tango;
+            tangon = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = null;
+            report = zuuluu == tangon;
             if(report) { _fun00002_ip = 84; continue _fun00001 }
  78:
-            entity = tango.avatarDecoration;
+            entity = tangon.avatarDecoration;
  84:
-            if(!(zulu == entity)) { _fun00002_ip = 94; continue _fun00001 }
+            if(!(zuuluu == entity)) { _fun00002_ip = 94; continue _fun00001 }
  88:
-            entity = mike.avatarDecoration;
+            entity = michal.avatarDecoration;
  94:
             return entity;
         }
     };
-    zulu['useAvatarDecoration'] = mike;
+    zuuluu['useAvatarDecoration'] = michal;
     return entity;
 })();

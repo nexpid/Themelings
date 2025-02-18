@@ -1,46 +1,46 @@
 // app/modules/guild_automod/SystemRulesUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
-    tango = true;
-    report['value'] = tango;
-    tango = '__esModule';
-    tango = oscar.bind(golf)(zulu, tango, report);
+    tangon = true;
+    report['value'] = tangon;
+    tangon = '__esModule';
+    tangon = oscard.bind(golfie)(zuuluu, tangon, report);
     report = entity.Set;
     entity = report.prototype;
-    tango = Object.create(entity, {constructor: {value: report}});
+    tangon = Object.create(entity, {constructor: {value: report}});
     offset = ['1030554520465440818'];
-    yankee = tango;
+    yankee = tangon;
     entity = new yankee[report](offset, verify);
-    entity = entity instanceof Object ? entity : tango;
+    entity = entity instanceof Object ? entity : tangon;
     var _closure1_slot0 = entity;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_automod/SystemRulesUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: isDefaultRuleId
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_automod/SystemRulesUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: isDefaultRuleId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 29; continue _fun00001 }
  12:
-            zulu = _closure1_slot0;
-            mike = zulu.has;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.has;
+            entity = michal.bind(zuuluu)(tangon);
  29:
             return entity;
         }
     };
-    zulu['isDefaultRuleId'] = mike;
+    zuuluu['isDefaultRuleId'] = michal;
     return entity;
 })();

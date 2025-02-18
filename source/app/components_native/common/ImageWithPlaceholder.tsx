@@ -1,139 +1,139 @@
 // app/components_native/common/ImageWithPlaceholder.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        oscar = argBar;
+        oscard = argBar;
         verify = argBaz;
-        zulu = argFred;
-        golf = argPlugh;
+        zuuluu = argFre;
+        golfie = argPlu;
         var _closure1_slot0 = verify;
-        var _closure1_slot1 = golf;
+        var _closure1_slot1 = golfie;
         entity = global;
-        options = entity.Object;
-        report = options.defineProperty;
-        tango = {};
+        option = entity.Object;
+        report = option.defineProperty;
+        tangon = {};
         entity = true;
-        tango['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = report.bind(options)(zulu, entity, tango);
+        entity = report.bind(option)(zuuluu, entity, tangon);
         entity = 0;
-        tango = golf[entity];
+        tangon = golfie[entity];
         entity = undefined;
-        tango = oscar.bind(entity)(tango);
-        report = tango.View;
+        tangon = oscard.bind(entity)(tangon);
+        report = tangon.View;
         var _closure1_slot2 = report;
-        options = tango.requireNativeComponent;
+        option = tangon.requireNativeComponent;
         offset = 1;
-        tango = golf[offset];
-        tango = oscar.bind(entity)(tango);
-        tango = tango.jsx;
-        var _closure1_slot3 = tango;
-        tango = {};
-        tango['flex'] = offset;
-        var _closure1_slot4 = tango;
-        tango = {};
-        tango['THUMBHASH'] = offset;
+        tangon = golfie[offset];
+        tangon = oscard.bind(entity)(tangon);
+        tangon = tangon.jsx;
+        var _closure1_slot3 = tangon;
+        tangon = {};
+        tangon['flex'] = offset;
+        var _closure1_slot4 = tangon;
+        tangon = {};
+        tangon['THUMBHASH'] = offset;
         report = 'THUMBHASH';
-        tango[offset] = report;
-        var _closure1_slot5 = tango;
+        tangon[offset] = report;
+        var _closure1_slot5 = tangon;
         report = 2;
-        report = golf[report];
-        offset = oscar.bind(entity)(report);
+        report = golfie[report];
+        offset = oscard.bind(entity)(report);
         report = offset.isAndroid;
         report = report.bind(offset)();
         if(report) { _fun00002_ip = 170; continue _fun00001 }
  157:
         report = 'DCDImageWithThumbhashPlaceholderView';
-        report = options.bind(entity)(report);
+        report = option.bind(entity)(report);
         _fun00002_ip = 182; continue _fun00001;
  170:
-        options = 3;
-        options = golf[options];
-        report = verify.bind(entity)(options);
+        option = 3;
+        option = golfie[option];
+        report = verify.bind(entity)(option);
  182:
         var _closure1_slot6 = report;
         report = 5;
-        report = golf[report];
-        golf = oscar.bind(entity)(report);
-        oscar = golf.fileFinishedImporting;
+        report = golfie[report];
+        golfie = oscard.bind(entity)(report);
+        oscard = golfie.fileFinishedImporting;
         report = 'components_native/common/ImageWithPlaceholder.tsx';
-        report = oscar.bind(golf)(report);
-        zulu['ImagePlaceholderVersions'] = tango;
-        mike = function(argFoo) { // Original name: ImageWithPlaceholder
+        report = oscard.bind(golfie)(report);
+        zuuluu['ImagePlaceholderVersions'] = tangon;
+        michal = function(argFoo) { // Original name: ImageWithPlaceholder
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = argFoo;
-                verify = tango.uri;
-                options = tango.placeholder;
-                golf = tango.placeholderVersion;
-                oscar = tango.alt;
-                offset = tango.style;
-                zulu = {'uri': 0, 'placeholder': 0, 'placeholderVersion': 0, 'alt': 0, 'style': 0};
+                tangon = argFoo;
+                verify = tangon.uri;
+                option = tangon.placeholder;
+                golfie = tangon.placeholderVersion;
+                oscard = tangon.alt;
+                offset = tangon.style;
+                zuuluu = {'uri': 0, 'placeholder': 0, 'placeholderVersion': 0, 'alt': 0, 'style': 0};
                 entity = null;
-                result = zulu;
+                result = zuuluu;
                 output = null;
-                mike = silentSetPrototypeOf(result, output);
+                michal = silentSetPrototypeOf(result, output);
                 result = {};
-                output = tango;
-                sizing = zulu;
-                mike = copyDataProperties(result, output, sizing);
-                if(!(entity != options)) { _fun00004_ip = 90; continue _fun00003 }
+                output = tangon;
+                sizing = zuuluu;
+                michal = copyDataProperties(result, output, sizing);
+                if(!(entity != option)) { _fun00004_ip = 90; continue _fun00003 }
  73:
                 entity = _closure1_slot5;
                 entity = entity.THUMBHASH;
-                if(!(golf !== entity)) { _fun00004_ip = 197; continue _fun00003 }
+                if(!(golfie !== entity)) { _fun00004_ip = 197; continue _fun00003 }
  90:
                 yankee = _closure1_slot3;
                 report = _closure1_slot2;
-                tango = {};
-                tango['style'] = offset;
-                result = tango;
-                output = mike;
+                tangon = {};
+                tangon['style'] = offset;
+                result = tangon;
+                output = michal;
                 entity = copyDataProperties(result, output);
-                foxtrot = _closure1_slot0;
-                romeo = _closure1_slot1;
+                foxtra = _closure1_slot0;
+                romeon = _closure1_slot1;
                 entity = 4;
-                romeo = romeo[entity];
+                romeon = romeon[entity];
                 entity = undefined;
-                foxtrot = foxtrot.bind(entity)(romeo);
-                romeo = {};
+                foxtra = foxtra.bind(entity)(romeon);
+                romeon = {};
                 backup = _closure1_slot4;
-                romeo['style'] = backup;
+                romeon['style'] = backup;
                 backup = 'cover';
-                romeo['resizeMode'] = backup;
+                romeon['resizeMode'] = backup;
                 backup = {};
                 backup['uri'] = verify;
-                romeo['source'] = backup;
-                romeo['alt'] = oscar;
-                foxtrot = yankee.bind(entity)(foxtrot, romeo);
-                romeo = 'children';
-                tango[romeo] = foxtrot;
-                entity = yankee.bind(entity)(report, tango);
+                romeon['source'] = backup;
+                romeon['alt'] = oscard;
+                foxtra = yankee.bind(entity)(foxtra, romeon);
+                romeon = 'children';
+                tangon[romeon] = foxtra;
+                entity = yankee.bind(entity)(report, tangon);
                 _fun00004_ip = 270; continue _fun00003;
  197:
                 report = _closure1_slot3;
-                tango = _closure1_slot6;
-                zulu = {};
-                result = zulu;
-                output = mike;
-                mike = copyDataProperties(result, output);
-                mike = 'style';
-                zulu[mike] = offset;
-                mike = 'uri';
-                zulu[mike] = verify;
-                mike = 'placeholder';
-                zulu[mike] = options;
-                mike = 'placeholderVersion';
-                zulu[mike] = golf;
-                mike = 'alt';
-                zulu[mike] = oscar;
-                mike = undefined;
-                entity = report.bind(mike)(tango, zulu);
+                tangon = _closure1_slot6;
+                zuuluu = {};
+                result = zuuluu;
+                output = michal;
+                michal = copyDataProperties(result, output);
+                michal = 'style';
+                zuuluu[michal] = offset;
+                michal = 'uri';
+                zuuluu[michal] = verify;
+                michal = 'placeholder';
+                zuuluu[michal] = option;
+                michal = 'placeholderVersion';
+                zuuluu[michal] = golfie;
+                michal = 'alt';
+                zuuluu[michal] = oscard;
+                michal = undefined;
+                entity = report.bind(michal)(tangon, zuuluu);
  270:
                 return entity;
             }
         };
-        zulu['ImageWithPlaceholder'] = mike;
+        zuuluu['ImageWithPlaceholder'] = michal;
         return entity;
     }
 })();

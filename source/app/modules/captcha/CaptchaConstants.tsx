@@ -1,26 +1,26 @@
 // app/modules/captcha/CaptchaConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/captcha/CaptchaConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 30000;
-    zulu['CAPTCHA_SERVE_VOLUME_DISTRIBUTION_AGGREGATION_WINDOW_MS'] = mike;
-    mike = 'Captcha';
-    zulu['CAPTCHA_MODAL_KEY'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/captcha/CaptchaConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 30000;
+    zuuluu['CAPTCHA_SERVE_VOLUME_DISTRIBUTION_AGGREGATION_WINDOW_MS'] = michal;
+    michal = 'Captcha';
+    zuuluu['CAPTCHA_MODAL_KEY'] = michal;
     return entity;
 })();

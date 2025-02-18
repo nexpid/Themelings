@@ -1,102 +1,102 @@
 // app/components_native/media/ZoomLayout.android.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        oscar = argBar;
-        zulu = argFred;
-        golf = argPlugh;
+        oscard = argBar;
+        zuuluu = argFre;
+        golfie = argPlu;
         entity = global;
-        options = entity.Object;
-        report = options.defineProperty;
-        mike = {};
+        option = entity.Object;
+        report = option.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = report.bind(options)(zulu, entity, mike);
+        entity = report.bind(option)(zuuluu, entity, michal);
         entity = 0;
-        report = golf[entity];
-        mike = argCorge;
+        report = golfie[entity];
+        michal = argCor;
         entity = undefined;
-        options = mike.bind(entity)(report);
-        mike = 1;
-        mike = golf[mike];
-        mike = oscar.bind(entity)(mike);
-        report = mike.requireNativeComponent;
-        mike = 2;
-        mike = golf[mike];
-        mike = oscar.bind(entity)(mike);
-        mike = mike.jsx;
-        var _closure1_slot0 = mike;
-        mike = 3;
-        mike = golf[mike];
-        verify = oscar.bind(entity)(mike);
-        mike = verify.isFabric;
-        mike = mike.bind(verify)();
-        if(mike) { _fun00002_ip = 136; continue _fun00001 }
+        option = michal.bind(entity)(report);
+        michal = 1;
+        michal = golfie[michal];
+        michal = oscard.bind(entity)(michal);
+        report = michal.requireNativeComponent;
+        michal = 2;
+        michal = golfie[michal];
+        michal = oscard.bind(entity)(michal);
+        michal = michal.jsx;
+        var _closure1_slot0 = michal;
+        michal = 3;
+        michal = golfie[michal];
+        verify = oscard.bind(entity)(michal);
+        michal = verify.isFabric;
+        michal = michal.bind(verify)();
+        if(michal) { _fun00002_ip = 136; continue _fun00001 }
  123:
-        mike = 'DCDZoomLayoutAndroid';
-        mike = report.bind(entity)(mike);
+        michal = 'DCDZoomLayoutAndroid';
+        michal = report.bind(entity)(michal);
         _fun00002_ip = 153; continue _fun00001;
  136:
         report = 4;
-        report = golf[report];
-        report = oscar.bind(entity)(report);
-        mike = report.default;
+        report = golfie[report];
+        report = oscard.bind(entity)(report);
+        michal = report.default;
  153:
-        var _closure1_slot1 = mike;
-        mike = 5;
-        report = golf[mike];
-        mike = argBaz;
-        report = mike.bind(entity)(report);
-        mike = {};
+        var _closure1_slot1 = michal;
+        michal = 5;
+        report = golfie[michal];
+        michal = argBaz;
+        report = michal.bind(entity)(report);
+        michal = {};
         verify = ['zoomTo', 'unzoom'];
-        mike['supportedCommands'] = verify;
-        mike = report.bind(entity)(mike);
-        var _closure1_slot2 = mike;
-        report = options.forwardRef;
-        mike = function(argFoo, argBar) {
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = {};
-            oscar = argFoo;
-            golf = mike;
-            entity = copyDataProperties(golf, oscar);
+        michal['supportedCommands'] = verify;
+        michal = report.bind(entity)(michal);
+        var _closure1_slot2 = michal;
+        report = option.forwardRef;
+        michal = function(argFoo, argBar) {
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = {};
+            oscard = argFoo;
+            golfie = michal;
+            entity = copyDataProperties(golfie, oscard);
             report = argBar;
             entity = 'ref';
-            mike[entity] = report;
+            michal[entity] = report;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        mike = report.bind(options)(mike);
+        michal = report.bind(option)(michal);
         report = 6;
-        report = golf[report];
-        golf = oscar.bind(entity)(report);
-        oscar = golf.fileFinishedImporting;
+        report = golfie[report];
+        golfie = oscard.bind(entity)(report);
+        oscard = golfie.fileFinishedImporting;
         report = 'components_native/media/ZoomLayout.android.tsx';
-        report = oscar.bind(golf)(report);
-        zulu['default'] = mike;
+        report = oscard.bind(golfie)(report);
+        zuuluu['default'] = michal;
         report = function(argFoo, argBar, argBaz) { // Original name: zoomTo
             report = _closure1_slot2;
-            tango = report.zoomTo;
-            zulu = argFoo;
-            mike = argBar;
+            tangon = report.zoomTo;
+            zuuluu = argFoo;
+            michal = argBar;
             entity = argBaz;
-            entity = tango.bind(report)(zulu, mike, entity);
+            entity = tangon.bind(report)(zuuluu, michal, entity);
             entity = undefined;
             return entity;
         };
-        zulu['zoomTo'] = report;
-        tango = function(argFoo) { // Original name: unzoom
-            zulu = _closure1_slot2;
-            mike = zulu.unzoom;
+        zuuluu['zoomTo'] = report;
+        tangon = function(argFoo) { // Original name: unzoom
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.unzoom;
             entity = argFoo;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        zulu['unzoom'] = tango;
-        zulu['ZoomLayout'] = mike;
+        zuuluu['unzoom'] = tangon;
+        zuuluu['ZoomLayout'] = michal;
         return entity;
     }
 })();

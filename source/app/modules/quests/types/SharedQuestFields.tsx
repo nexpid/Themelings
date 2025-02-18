@@ -1,238 +1,238 @@
 // app/modules/quests/types/SharedQuestFields.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    mike = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    michal = function() {
         report = function(argFoo) { // Original name: SharedQuestFields
-            zulu = this;
-            tango = _closure1_slot2;
-            mike = _closure2_slot0;
+            zuuluu = this;
+            tangon = _closure1_slot2;
+            michal = _closure2_slot0;
             entity = undefined;
-            mike = tango.bind(entity)(zulu, mike);
-            mike = argFoo;
-            zulu['quest'] = mike;
+            michal = tangon.bind(entity)(zuuluu, michal);
+            michal = argFoo;
+            zuuluu['quest'] = michal;
             return entity;
         };
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
+        tangon = _closure1_slot3;
         entity = {};
-        zulu = 'features';
-        entity['key'] = zulu;
-        zulu = function() { // Original name: get
+        zuuluu = 'features';
+        entity['key'] = zuuluu;
+        zuuluu = function() { // Original name: get
             entity = global;
-            zulu = entity.Set;
+            zuuluu = entity.Set;
             entity = this;
             entity = entity.quest;
-            tango = entity.features;
-            mike = zulu.prototype;
-            mike = Object.create(mike, {constructor: {value: zulu}});
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            tangon = entity.features;
+            michal = zuuluu.prototype;
+            michal = Object.create(michal, {constructor: {value: zuuluu}});
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity['get'] = zulu;
-        zulu = new Array(9);
-        zulu[0] = entity;
+        entity['get'] = zuuluu;
+        zuuluu = new Array(9);
+        zuuluu[0] = entity;
         entity = {};
-        oscar = '_defaultRewardV2';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = '_defaultRewardV2';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             entity = argFoo;
             entity = entity.rewardsConfig;
-            mike = entity.rewards;
+            michal = entity.rewards;
             entity = 0;
-            entity = mike[entity];
+            entity = michal[entity];
             return entity;
         };
-        entity['value'] = oscar;
-        zulu[1] = entity;
+        entity['value'] = oscard;
+        zuuluu[1] = entity;
         entity = {};
-        oscar = 'defaultReward';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
-            zulu = this;
-            mike = zulu._defaultRewardV2;
-            entity = zulu.quest;
-            entity = mike.bind(zulu)(entity);
+        oscard = 'defaultReward';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            zuuluu = this;
+            michal = zuuluu._defaultRewardV2;
+            entity = zuuluu.quest;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[2] = entity;
+        entity['get'] = oscard;
+        zuuluu[2] = entity;
         entity = {};
-        oscar = 'defaultRewardAsset';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
-            zulu = this;
-            mike = zulu._defaultRewardV2;
-            entity = zulu.quest;
-            entity = mike.bind(zulu)(entity);
+        oscard = 'defaultRewardAsset';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            zuuluu = this;
+            michal = zuuluu._defaultRewardV2;
+            entity = zuuluu.quest;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.asset;
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[3] = entity;
+        entity['get'] = oscard;
+        zuuluu[3] = entity;
         entity = {};
-        oscar = 'defaultRewardRedemptionInstructionsByPlatform';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
-            zulu = this;
-            mike = zulu._defaultRewardV2;
-            entity = zulu.quest;
-            entity = mike.bind(zulu)(entity);
+        oscard = 'defaultRewardRedemptionInstructionsByPlatform';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            zuuluu = this;
+            michal = zuuluu._defaultRewardV2;
+            entity = zuuluu.quest;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.messages;
             entity = entity.redemptionInstructionsByPlatform;
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[4] = entity;
+        entity['get'] = oscard;
+        zuuluu[4] = entity;
         entity = {};
-        oscar = 'rewardsExpireAt';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'rewardsExpireAt';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
             entity = entity.quest;
             entity = entity.rewardsConfig;
             entity = entity.rewardsExpireAt;
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[5] = entity;
+        entity['get'] = oscard;
+        zuuluu[5] = entity;
         entity = {};
-        oscar = 'application';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
-            mike = this;
+        oscard = 'application';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            michal = this;
             entity = {};
-            zulu = mike.quest;
-            tango = zulu.application;
+            zuuluu = michal.quest;
+            tangon = zuuluu.application;
             report = entity;
-            zulu = copyDataProperties(report, tango);
-            mike = mike.quest;
-            mike = mike.application;
-            mike = mike.id;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = 'ids';
-            entity[mike] = zulu;
+            zuuluu = copyDataProperties(report, tangon);
+            michal = michal.quest;
+            michal = michal.application;
+            michal = michal.id;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = 'ids';
+            entity[michal] = zuuluu;
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[6] = entity;
+        entity['get'] = oscard;
+        zuuluu[6] = entity;
         entity = {};
-        oscar = 'rewardPlatforms';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'rewardPlatforms';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             entity = this;
             entity = entity.quest;
             entity = entity.rewardsConfig;
             entity = entity.platforms;
             return entity;
         };
-        entity['get'] = oscar;
-        zulu[7] = entity;
+        entity['get'] = oscard;
+        zuuluu[7] = entity;
         entity = {};
-        oscar = 'questType';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: get
+        oscard = 'questType';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot0;
-                tango = _closure1_slot1;
+                zuuluu = _closure1_slot0;
+                tangon = _closure1_slot1;
                 entity = 2;
-                entity = tango[entity];
-                tango = undefined;
-                report = zulu.bind(tango)(entity);
-                zulu = report.hasWatchVideoTasks;
+                entity = tangon[entity];
+                tangon = undefined;
+                report = zuuluu.bind(tangon)(entity);
+                zuuluu = report.hasWatchVideoTasks;
                 entity = {};
-                oscar = this;
-                oscar = oscar.quest;
-                entity['config'] = oscar;
-                entity = zulu.bind(report)(entity);
-                zulu = _closure1_slot0;
+                oscard = this;
+                oscard = oscard.quest;
+                entity['config'] = oscard;
+                entity = zuuluu.bind(report)(entity);
+                zuuluu = _closure1_slot0;
                 report = _closure1_slot1;
-                mike = 3;
-                mike = report[mike];
-                mike = zulu.bind(tango)(mike);
-                mike = mike.QuestType;
+                michal = 3;
+                michal = report[michal];
+                michal = zuuluu.bind(tangon)(michal);
+                michal = michal.QuestType;
                 if(entity) { _fun00002_ip = 88; continue _fun00001 }
  80:
-                entity = mike.GAMEPLAY;
+                entity = michal.GAMEPLAY;
                 _fun00002_ip = 94; continue _fun00001;
  88:
-                entity = mike.VIDEO;
+                entity = michal.VIDEO;
  94:
                 return entity;
             }
         };
-        entity['get'] = oscar;
-        zulu[8] = entity;
+        entity['get'] = oscard;
+        zuuluu[8] = entity;
         entity = {};
-        oscar = 'build';
-        entity['key'] = oscar;
-        mike = function(argFoo) { // Original name: value
+        oscard = 'build';
+        entity['key'] = oscard;
+        michal = function(argFoo) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = argFoo;
-                mike = zulu.configVersion;
+                zuuluu = argFoo;
+                michal = zuuluu.configVersion;
                 entity = 2;
-                if(!(entity === mike)) { _fun00004_ip = 48; continue _fun00003 }
+                if(!(entity === michal)) { _fun00004_ip = 48; continue _fun00003 }
  16:
                 entity = _closure2_slot0;
-                mike = entity.prototype;
-                mike = Object.create(mike, {constructor: {value: entity}});
-                report = mike;
-                tango = zulu;
-                entity = new report[entity](tango, zulu);
-                entity = entity instanceof Object ? entity : mike;
+                michal = entity.prototype;
+                michal = Object.create(michal, {constructor: {value: entity}});
+                report = michal;
+                tangon = zuuluu;
+                entity = new report[entity](tangon, zuuluu);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
  48:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                tango = 'Cannot build SharedQuestFields when [configVersion !== 2]';
-                report = mike;
-                entity = new report[zulu](tango, zulu);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                tangon = 'Cannot build SharedQuestFields when [configVersion !== 2]';
+                report = michal;
+                entity = new report[zuuluu](tangon, zuuluu);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(1);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(report, zulu, mike);
+        entity = tangon.bind(entity)(report, zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/quests/types/SharedQuestFields.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['SharedQuestFields'] = mike;
+    michal = michal.bind(entity)();
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/quests/types/SharedQuestFields.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['SharedQuestFields'] = michal;
     return entity;
 })();

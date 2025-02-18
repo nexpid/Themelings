@@ -1,164 +1,164 @@
 // app/modules/premium/GuildCapUpsellHooks.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.MAX_USER_GUILDS;
-    var _closure1_slot5 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/GuildCapUpsellHooks.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useShouldShowInlineGuildCapUpsell
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.MAX_USER_GUILDS;
+    var _closure1_slot5 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/GuildCapUpsellHooks.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useShouldShowInlineGuildCapUpsell
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = _closure1_slot0;
-            options = _closure1_slot2;
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
             report = 3;
-            entity = options[report];
-            oscar = undefined;
-            offset = golf.bind(oscar)(entity);
+            entity = option[report];
+            oscard = undefined;
+            offset = golfie.bind(oscard)(entity);
             verify = offset.useStateFromStores;
             entity = _closure1_slot3;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
-                mike = _closure1_slot3;
-                entity = mike.getGuildCount;
-                mike = entity.bind(mike)();
+                michal = _closure1_slot3;
+                entity = michal.getGuildCount;
+                michal = entity.bind(michal)();
                 entity = 95;
-                entity = mike >= entity;
+                entity = michal >= entity;
                 return entity;
             };
-            entity = verify.bind(offset)(zulu, entity);
-            zulu = options[report];
-            yankee = golf.bind(oscar)(zulu);
+            entity = verify.bind(offset)(zuuluu, entity);
+            zuuluu = option[report];
+            yankee = golfie.bind(oscard)(zuuluu);
             offset = yankee.useStateFromStores;
-            zulu = 4;
-            zulu = options[zulu];
-            zulu = golf.bind(oscar)(zulu);
-            zulu = zulu.HotspotStore;
+            zuuluu = 4;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.HotspotStore;
             verify = new Array(1);
-            verify[0] = zulu;
-            zulu = function() {
+            verify[0] = zuuluu;
+            zuuluu = function() {
                 report = _closure1_slot0;
-                oscar = _closure1_slot2;
+                oscard = _closure1_slot2;
                 entity = 4;
-                mike = oscar[entity];
-                tango = undefined;
-                mike = report.bind(tango)(mike);
-                zulu = mike.HotspotStore;
-                mike = zulu.hasHotspot;
-                entity = oscar[entity];
-                entity = report.bind(tango)(entity);
+                michal = oscard[entity];
+                tangon = undefined;
+                michal = report.bind(tangon)(michal);
+                zuuluu = michal.HotspotStore;
+                michal = zuuluu.hasHotspot;
+                entity = oscard[entity];
+                entity = report.bind(tangon)(entity);
                 entity = entity.HotspotLocations;
                 entity = entity.GUILD_CAP_INLINE_UPSELL;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zulu = offset.bind(yankee)(verify, zulu);
-            report = options[report];
-            oscar = golf.bind(oscar)(report);
-            report = oscar.useStateFromStoresObject;
-            golf = _closure1_slot4;
-            tango = new Array(1);
-            tango[0] = golf;
-            mike = function() {
-                tango = _closure1_slot1;
-                zulu = _closure1_slot2;
-                mike = 5;
-                zulu = zulu[mike];
-                mike = undefined;
-                zulu = tango.bind(mike)(zulu);
-                mike = zulu.isPremium;
-                tango = _closure1_slot4;
-                entity = tango.getCurrentUser;
-                entity = entity.bind(tango)();
-                entity = mike.bind(zulu)(entity);
+            zuuluu = offset.bind(yankee)(verify, zuuluu);
+            report = option[report];
+            oscard = golfie.bind(oscard)(report);
+            report = oscard.useStateFromStoresObject;
+            golfie = _closure1_slot4;
+            tangon = new Array(1);
+            tangon[0] = golfie;
+            michal = function() {
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 5;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                michal = zuuluu.isPremium;
+                tangon = _closure1_slot4;
+                entity = tangon.getCurrentUser;
+                entity = entity.bind(tangon)();
+                entity = michal.bind(zuuluu)(entity);
                 entity = !entity;
                 return entity;
             };
-            mike = report.bind(oscar)(tango, mike);
+            michal = report.bind(oscard)(tangon, michal);
             if(!entity) { _fun00002_ip = 156; continue _fun00001 }
  153:
-            entity = zulu;
+            entity = zuuluu;
  156:
             if(!entity) { _fun00002_ip = 162; continue _fun00001 }
  159:
-            entity = mike;
+            entity = michal;
  162:
             return entity;
         }
     };
-    zulu['useShouldShowInlineGuildCapUpsell'] = tango;
-    tango = function() { // Original name: hideInlineGuildCapUpsell
+    zuuluu['useShouldShowInlineGuildCapUpsell'] = tangon;
+    tangon = function() { // Original name: hideInlineGuildCapUpsell
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
-        mike = 4;
-        zulu = oscar[mike];
+        oscard = _closure1_slot2;
+        michal = 4;
+        zuuluu = oscard[michal];
         entity = undefined;
-        tango = report.bind(entity)(zulu);
-        zulu = tango.hideHotspot;
-        mike = oscar[mike];
-        mike = report.bind(entity)(mike);
-        mike = mike.HotspotLocations;
-        mike = mike.GUILD_CAP_INLINE_UPSELL;
-        mike = zulu.bind(tango)(mike);
+        tangon = report.bind(entity)(zuuluu);
+        zuuluu = tangon.hideHotspot;
+        michal = oscard[michal];
+        michal = report.bind(entity)(michal);
+        michal = michal.HotspotLocations;
+        michal = michal.GUILD_CAP_INLINE_UPSELL;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['hideInlineGuildCapUpsell'] = tango;
-    mike = function() { // Original name: isAtGuildCapAndNonPremium
+    zuuluu['hideInlineGuildCapUpsell'] = tangon;
+    michal = function() { // Original name: isAtGuildCapAndNonPremium
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = _closure1_slot3;
-            entity = zulu.getGuildCount;
-            zulu = entity.bind(zulu)();
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getGuildCount;
+            zuuluu = entity.bind(zuuluu)();
             entity = _closure1_slot5;
-            entity = zulu >= entity;
+            entity = zuuluu >= entity;
             report = _closure1_slot1;
-            tango = _closure1_slot2;
-            zulu = 5;
-            tango = tango[zulu];
-            zulu = undefined;
-            tango = report.bind(zulu)(tango);
-            zulu = tango.canUseIncreasedGuildCap;
+            tangon = _closure1_slot2;
+            zuuluu = 5;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            tangon = report.bind(zuuluu)(tangon);
+            zuuluu = tangon.canUseIncreasedGuildCap;
             report = _closure1_slot4;
-            mike = report.getCurrentUser;
-            mike = mike.bind(report)();
-            mike = zulu.bind(tango)(mike);
+            michal = report.getCurrentUser;
+            michal = michal.bind(report)();
+            michal = zuuluu.bind(tangon)(michal);
             if(!entity) { _fun00004_ip = 77; continue _fun00003 }
  74:
-            entity = !mike;
+            entity = !michal;
  77:
             return entity;
         }
     };
-    zulu['isAtGuildCapAndNonPremium'] = mike;
+    zuuluu['isAtGuildCapAndNonPremium'] = michal;
     return entity;
 })();

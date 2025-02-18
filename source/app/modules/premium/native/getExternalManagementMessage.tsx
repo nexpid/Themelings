@@ -1,99 +1,99 @@
 // app/modules/premium/native/getExternalManagementMessage.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PaymentGatewayToFriendlyName;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/getExternalManagementMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getExternalManagementMessage
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PaymentGatewayToFriendlyName;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/native/getExternalManagementMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getExternalManagementMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun00002_ip = 248; continue _fun00001 }
+            if(!(entity != golfie)) { _fun00002_ip = 248; continue _fun00001 }
  12:
-            mike = golf.isOnPlatformMatchingExternalPaymentGateway;
-            if(mike) { _fun00002_ip = 248; continue _fun00001 }
+            michal = golfie.isOnPlatformMatchingExternalPaymentGateway;
+            if(michal) { _fun00002_ip = 248; continue _fun00001 }
  24:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            mike = tango[mike];
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            michal = tangon[michal];
             offset = undefined;
-            zulu = zulu.bind(offset)(mike);
-            mike = zulu.isIOS;
-            mike = mike.bind(zulu)();
+            zuuluu = zuuluu.bind(offset)(michal);
+            michal = zuuluu.isIOS;
+            michal = michal.bind(zuuluu)();
             verify = 'Android';
-            if(!mike) { _fun00002_ip = 74; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 74; continue _fun00001 }
  68:
             verify = 'iOS';
  74:
-            mike = golf.isPurchasedExternally;
-            if(!mike) { _fun00002_ip = 93; continue _fun00001 }
+            michal = golfie.isPurchasedExternally;
+            if(!michal) { _fun00002_ip = 93; continue _fun00001 }
  83:
-            mike = golf.paymentGateway;
-            if(!(entity == mike)) { _fun00002_ip = 160; continue _fun00001 }
+            michal = golfie.paymentGateway;
+            if(!(entity == michal)) { _fun00002_ip = 160; continue _fun00001 }
  93:
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 2;
-            tango = oscar[mike];
-            tango = zulu.bind(offset)(tango);
-            report = tango.intl;
-            tango = report.formatToPlainString;
-            mike = oscar[mike];
-            mike = zulu.bind(offset)(mike);
-            mike = mike.t;
-            zulu = mike.CnoyAA;
-            mike = {};
-            mike['mobilePlatform'] = verify;
-            mike = tango.bind(report)(zulu, mike);
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 2;
+            tangon = oscard[michal];
+            tangon = zuuluu.bind(offset)(tangon);
+            report = tangon.intl;
+            tangon = report.formatToPlainString;
+            michal = oscard[michal];
+            michal = zuuluu.bind(offset)(michal);
+            michal = michal.t;
+            zuuluu = michal.CnoyAA;
+            michal = {};
+            michal['mobilePlatform'] = verify;
+            michal = tangon.bind(report)(zuuluu, michal);
             _fun00002_ip = 246; continue _fun00001;
  160:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             yankee = _closure1_slot1;
-            zulu = 2;
-            report = yankee[zulu];
-            report = tango.bind(offset)(report);
-            oscar = report.intl;
-            report = oscar.formatToPlainString;
-            zulu = yankee[zulu];
-            zulu = tango.bind(offset)(zulu);
-            zulu = zulu.t;
-            tango = zulu.cFZnqa;
-            zulu = {};
-            zulu['mobilePlatform'] = verify;
-            options = _closure1_slot2;
-            golf = golf.paymentGateway;
-            golf = options[golf];
-            zulu['externalPaymentGateway'] = golf;
-            mike = report.bind(oscar)(tango, zulu);
+            zuuluu = 2;
+            report = yankee[zuuluu];
+            report = tangon.bind(offset)(report);
+            oscard = report.intl;
+            report = oscard.formatToPlainString;
+            zuuluu = yankee[zuuluu];
+            zuuluu = tangon.bind(offset)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.cFZnqa;
+            zuuluu = {};
+            zuuluu['mobilePlatform'] = verify;
+            option = _closure1_slot2;
+            golfie = golfie.paymentGateway;
+            golfie = option[golfie];
+            zuuluu['externalPaymentGateway'] = golfie;
+            michal = report.bind(oscard)(tangon, zuuluu);
  246:
-            return mike;
+            return michal;
  248:
             return entity;
         }
     };
-    zulu['getExternalManagementMessage'] = mike;
+    zuuluu['getExternalManagementMessage'] = michal;
     return entity;
 })();

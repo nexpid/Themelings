@@ -1,132 +1,132 @@
 // app/modules/app_launcher/utils/useLaunchingActivityButtonState.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/utils/useLaunchingActivityButtonState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useLaunchingActivityButtonState
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/utils/useLaunchingActivityButtonState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useLaunchingActivityButtonState
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = mike.applicationId;
-            var _closure2_slot0 = zulu;
-            zulu = mike.context;
-            oscar = mike.launchingComponentId;
-            golf = mike.onSubmissionComplete;
-            var _closure2_slot1 = golf;
+            michal = argFoo;
+            zuuluu = michal.applicationId;
+            var _closure2_slot0 = zuuluu;
+            zuuluu = michal.context;
+            oscard = michal.launchingComponentId;
+            golfie = michal.onSubmissionComplete;
+            var _closure2_slot1 = golfie;
             report = undefined;
             var _closure2_slot2 = report;
             var _closure2_slot3 = report;
             var _closure2_slot4 = report;
-            options = zulu.type;
-            tango = 'channel';
-            mike = undefined;
-            if(!(tango === options)) { _fun00002_ip = 74; continue _fun00001 }
+            option = zuuluu.type;
+            tangon = 'channel';
+            michal = undefined;
+            if(!(tangon === option)) { _fun00002_ip = 74; continue _fun00001 }
  64:
-            zulu = zulu.channel;
-            mike = zulu.id;
+            zuuluu = zuuluu.channel;
+            michal = zuuluu.id;
  74:
-            _closure2_slot2 = mike;
-            zulu = _closure1_slot0;
-            options = _closure1_slot2;
-            mike = 2;
-            mike = options[mike];
-            verify = zulu.bind(report)(mike);
-            options = verify.useStateFromStores;
-            mike = _closure1_slot4;
-            zulu = new Array(1);
-            zulu[0] = mike;
-            mike = function() {
-                tango = _closure1_slot4;
-                zulu = tango.getLaunchState;
-                mike = _closure2_slot0;
+            _closure2_slot2 = michal;
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 2;
+            michal = option[michal];
+            verify = zuuluu.bind(report)(michal);
+            option = verify.useStateFromStores;
+            michal = _closure1_slot4;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                tangon = _closure1_slot4;
+                zuuluu = tangon.getLaunchState;
+                michal = _closure2_slot0;
                 entity = _closure2_slot2;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            mike = options.bind(verify)(zulu, mike);
-            zulu = null;
-            zulu = zulu != mike;
-            if(!zulu) { _fun00002_ip = 146; continue _fun00001 }
+            michal = option.bind(verify)(zuuluu, michal);
+            zuuluu = null;
+            zuuluu = zuuluu != michal;
+            if(!zuuluu) { _fun00002_ip = 146; continue _fun00001 }
  140:
-            zulu = mike.isLaunching;
+            zuuluu = michal.isLaunching;
  146:
-            if(!zulu) { _fun00002_ip = 159; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 159; continue _fun00001 }
  149:
-            mike = mike.componentId;
-            zulu = mike === oscar;
+            michal = michal.componentId;
+            zuuluu = michal === oscard;
  159:
-            _closure2_slot3 = zulu;
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            mike = 3;
-            mike = options[mike];
-            mike = oscar.bind(report)(mike);
-            mike = mike.bind(report)(zulu);
-            _closure2_slot4 = mike;
-            oscar = _closure1_slot3;
-            report = oscar.useEffect;
-            tango = new Array(3);
-            tango[0] = zulu;
-            tango[1] = mike;
-            tango[2] = golf;
+            _closure2_slot3 = zuuluu;
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            michal = 3;
+            michal = option[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.bind(report)(zuuluu);
+            _closure2_slot4 = michal;
+            oscard = _closure1_slot3;
+            report = oscard.useEffect;
+            tangon = new Array(3);
+            tangon[0] = zuuluu;
+            tangon[1] = michal;
+            tangon[2] = golfie;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure2_slot3;
-                    mike = !mike;
-                    if(!mike) { _fun00004_ip = 17; continue _fun00003 }
+                    michal = _closure2_slot3;
+                    michal = !michal;
+                    if(!michal) { _fun00004_ip = 17; continue _fun00003 }
  13:
-                    mike = _closure2_slot4;
+                    michal = _closure2_slot4;
  17:
-                    if(!mike) { _fun00004_ip = 40; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 40; continue _fun00003 }
  20:
-                    zulu = _closure2_slot1;
-                    mike = null;
-                    if(!(mike != zulu)) { _fun00004_ip = 40; continue _fun00003 }
+                    zuuluu = _closure2_slot1;
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00004_ip = 40; continue _fun00003 }
  30:
-                    mike = _closure2_slot1;
+                    michal = _closure2_slot1;
                     entity = undefined;
-                    entity = mike.bind(entity)();
+                    entity = michal.bind(entity)();
  40:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity = report.bind(oscar)(entity, tango);
+            entity = report.bind(oscard)(entity, tangon);
             entity = {};
-            entity['submitting'] = zulu;
-            entity['wasSubmitting'] = mike;
+            entity['submitting'] = zuuluu;
+            entity['wasSubmitting'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

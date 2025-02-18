@@ -1,151 +1,151 @@
 // app/utils/Uint8ArrayUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    tango = function(argFoo, argBar) { // Original name: hasBit
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = function(argFoo, argBar) { // Original name: hasBit
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = argBar;
-            entity = oscar.length;
-            zulu = 0;
-            entity = zulu !== entity;
+            entity = oscard.length;
+            zuuluu = 0;
+            entity = zuuluu !== entity;
             if(!entity) { _fun00002_ip = 77; continue _fun00001 }
  20:
-            mike = global;
-            options = mike.Math;
-            golf = options.floor;
-            tango = _closure1_slot0;
-            tango = report / tango;
-            tango = golf.bind(options)(tango);
-            tango = oscar[tango];
-            mike = _closure1_slot0;
-            report = report % mike;
-            mike = 1;
-            mike = mike << report;
-            mike = tango & mike;
-            entity = zulu !== mike;
+            michal = global;
+            option = michal.Math;
+            golfie = option.floor;
+            tangon = _closure1_slot0;
+            tangon = report / tangon;
+            tangon = golfie.bind(option)(tangon);
+            tangon = oscard[tangon];
+            michal = _closure1_slot0;
+            report = report % michal;
+            michal = 1;
+            michal = michal << report;
+            michal = tangon & michal;
+            entity = zuuluu !== michal;
  77:
             return entity;
         }
     };
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = 8;
     var _closure1_slot0 = entity;
-    report = argPlugh;
+    report = argPlu;
     entity = 0;
-    oscar = report[entity];
+    oscard = report[entity];
     report = argBar;
     entity = undefined;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/Uint8ArrayUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['hasBit'] = tango;
-    tango = function(argFoo, argBar) { // Original name: addBit
+    report = oscard.bind(golfie)(report);
+    zuuluu['hasBit'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: addBit
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            options = argFoo;
+            option = argFoo;
             report = argBar;
-            tango = global;
-            oscar = tango.Math;
-            zulu = oscar.floor;
+            tangon = global;
+            oscard = tangon.Math;
+            zuuluu = oscard.floor;
             entity = _closure1_slot0;
             entity = report / entity;
-            zulu = zulu.bind(oscar)(entity);
-            oscar = options.length;
-            entity = options;
-            if(!(oscar <= zulu)) { _fun00004_ip = 97; continue _fun00003 }
+            zuuluu = zuuluu.bind(oscard)(entity);
+            oscard = option.length;
+            entity = option;
+            if(!(oscard <= zuuluu)) { _fun00004_ip = 97; continue _fun00003 }
  48:
-            golf = tango.Uint8Array;
-            tango = 1;
-            offset = zulu + tango;
-            oscar = golf.prototype;
-            oscar = Object.create(oscar, {constructor: {value: golf}});
-            yankee = oscar;
-            tango = new yankee[golf](offset, verify);
-            tango = tango instanceof Object ? tango : oscar;
-            golf = tango.set;
-            oscar = 0;
-            oscar = golf.bind(tango)(options, oscar);
-            entity = tango;
+            golfie = tangon.Uint8Array;
+            tangon = 1;
+            offset = zuuluu + tangon;
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            yankee = oscard;
+            tangon = new yankee[golfie](offset, verify);
+            tangon = tangon instanceof Object ? tangon : oscard;
+            golfie = tangon.set;
+            oscard = 0;
+            oscard = golfie.bind(tangon)(option, oscard);
+            entity = tangon;
  97:
-            tango = entity[zulu];
-            mike = _closure1_slot0;
-            report = report % mike;
-            mike = 1;
-            mike = mike << report;
-            mike = tango | mike;
-            entity[zulu] = mike;
+            tangon = entity[zuuluu];
+            michal = _closure1_slot0;
+            report = report % michal;
+            michal = 1;
+            michal = michal << report;
+            michal = tangon | michal;
+            entity[zuuluu] = michal;
             return entity;
         }
     };
-    zulu['addBit'] = tango;
-    tango = function(argFoo, argBar) { // Original name: removeBit
+    zuuluu['addBit'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: removeBit
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = argBar;
-            tango = _closure1_slot1;
-            zulu = undefined;
-            zulu = tango.bind(zulu)(entity, report);
-            if(!zulu) { _fun00006_ip = 81; continue _fun00005 }
+            tangon = _closure1_slot1;
+            zuuluu = undefined;
+            zuuluu = tangon.bind(zuuluu)(entity, report);
+            if(!zuuluu) { _fun00006_ip = 81; continue _fun00005 }
  24:
-            zulu = global;
-            oscar = zulu.Math;
-            tango = oscar.floor;
-            zulu = _closure1_slot0;
-            zulu = report / zulu;
-            zulu = tango.bind(oscar)(zulu);
-            tango = entity[zulu];
-            mike = _closure1_slot0;
-            report = report % mike;
-            mike = 1;
-            mike = mike << report;
-            mike = ~mike;
-            mike = tango & mike;
-            entity[zulu] = mike;
+            zuuluu = global;
+            oscard = zuuluu.Math;
+            tangon = oscard.floor;
+            zuuluu = _closure1_slot0;
+            zuuluu = report / zuuluu;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            tangon = entity[zuuluu];
+            michal = _closure1_slot0;
+            report = report % michal;
+            michal = 1;
+            michal = michal << report;
+            michal = ~michal;
+            michal = tangon & michal;
+            entity[zuuluu] = michal;
  81:
             return entity;
         }
     };
-    zulu['removeBit'] = tango;
-    tango = function(argFoo) { // Original name: isUint8Array
+    zuuluu['removeBit'] = tangon;
+    tangon = function(argFoo) { // Original name: isUint8Array
         entity = global;
-        mike = entity.Uint8Array;
+        michal = entity.Uint8Array;
         entity = argFoo;
-        entity = entity instanceof mike;
+        entity = entity instanceof michal;
         return entity;
     };
-    zulu['isUint8Array'] = tango;
-    mike = function(argFoo) { // Original name: isSerializedUint8Array
+    zuuluu['isUint8Array'] = tangon;
+    michal = function(argFoo) { // Original name: isSerializedUint8Array
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(!entity) { _fun00008_ip = 23; continue _fun00007 }
  12:
-            tango = 'object';
-            zulu = typeof mike;
-            entity = tango === zulu;
+            tangon = 'object';
+            zuuluu = typeof michal;
+            entity = tangon === zuuluu;
  23:
             if(!entity) { _fun00008_ip = 42; continue _fun00007 }
  26:
-            zulu = mike.__tag__;
-            mike = 'uint8array';
-            entity = mike === zulu;
+            zuuluu = michal.__tag__;
+            michal = 'uint8array';
+            entity = michal === zuuluu;
  42:
             return entity;
         }
     };
-    zulu['isSerializedUint8Array'] = mike;
+    zuuluu['isSerializedUint8Array'] = michal;
     return entity;
 })();

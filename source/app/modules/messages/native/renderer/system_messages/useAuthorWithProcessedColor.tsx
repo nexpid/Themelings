@@ -1,148 +1,148 @@
 // app/modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.processColor;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getMessageAuthorWithProcessedColor
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.processColor;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getMessageAuthorWithProcessedColor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            tango = mike.bind(report)(entity);
-            mike = tango.getMessageAuthor;
+            tangon = michal.bind(report)(entity);
+            michal = tangon.getMessageAuthor;
             entity = argFoo;
-            entity = mike.bind(tango)(entity);
-            mike = entity.nick;
-            tango = entity.colorString;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.nick;
+            tangon = entity.colorString;
             entity = {};
-            entity['nick'] = mike;
-            mike = null;
-            oscar = mike != tango;
-            mike = undefined;
-            if(!oscar) { _fun00002_ip = 78; continue _fun00001 }
+            entity['nick'] = michal;
+            michal = null;
+            oscard = michal != tangon;
+            michal = undefined;
+            if(!oscard) { _fun00002_ip = 78; continue _fun00001 }
  69:
-            zulu = _closure1_slot3;
-            mike = zulu.bind(report)(tango);
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.bind(report)(tangon);
  78:
-            entity['colorString'] = mike;
+            entity['colorString'] = michal;
             return entity;
         }
     };
-    zulu['getMessageAuthorWithProcessedColor'] = tango;
-    tango = function(argFoo) { // Original name: useMessageAuthorWithProcessedColor
+    zuuluu['getMessageAuthorWithProcessedColor'] = tangon;
+    tangon = function(argFoo) { // Original name: useMessageAuthorWithProcessedColor
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = _closure1_slot1;
-            tango = _closure1_slot2;
+            michal = _closure1_slot1;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            mike = mike.bind(report)(entity);
+            michal = michal.bind(report)(entity);
             entity = argFoo;
-            entity = mike.bind(report)(entity);
-            mike = entity.nick;
-            tango = entity.colorString;
+            entity = michal.bind(report)(entity);
+            michal = entity.nick;
+            tangon = entity.colorString;
             entity = {};
-            entity['nick'] = mike;
-            mike = null;
-            oscar = mike != tango;
-            mike = undefined;
-            if(!oscar) { _fun00004_ip = 72; continue _fun00003 }
+            entity['nick'] = michal;
+            michal = null;
+            oscard = michal != tangon;
+            michal = undefined;
+            if(!oscard) { _fun00004_ip = 72; continue _fun00003 }
  63:
-            zulu = _closure1_slot3;
-            mike = zulu.bind(report)(tango);
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.bind(report)(tangon);
  72:
-            entity['colorString'] = mike;
+            entity['colorString'] = michal;
             return entity;
         }
     };
-    zulu['useMessageAuthorWithProcessedColor'] = tango;
-    tango = function(argFoo, argBar) { // Original name: getUserAuthorWithProcessedColor
+    zuuluu['useMessageAuthorWithProcessedColor'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: getUserAuthorWithProcessedColor
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            oscar = mike.bind(report)(entity);
-            tango = oscar.getUserAuthor;
-            mike = argFoo;
+            oscard = michal.bind(report)(entity);
+            tangon = oscard.getUserAuthor;
+            michal = argFoo;
             entity = argBar;
-            entity = tango.bind(oscar)(mike, entity);
-            mike = entity.nick;
-            tango = entity.colorString;
+            entity = tangon.bind(oscard)(michal, entity);
+            michal = entity.nick;
+            tangon = entity.colorString;
             entity = {};
-            entity['nick'] = mike;
-            mike = null;
-            oscar = mike != tango;
-            mike = undefined;
-            if(!oscar) { _fun00006_ip = 82; continue _fun00005 }
+            entity['nick'] = michal;
+            michal = null;
+            oscard = michal != tangon;
+            michal = undefined;
+            if(!oscard) { _fun00006_ip = 82; continue _fun00005 }
  73:
-            zulu = _closure1_slot3;
-            mike = zulu.bind(report)(tango);
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.bind(report)(tangon);
  82:
-            entity['colorString'] = mike;
+            entity['colorString'] = michal;
             return entity;
         }
     };
-    zulu['getUserAuthorWithProcessedColor'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useUserAuthorWithProcessedColor
+    zuuluu['getUserAuthorWithProcessedColor'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useUserAuthorWithProcessedColor
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = _closure1_slot0;
-            tango = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            oscar = mike.bind(report)(entity);
-            tango = oscar.useNullableUserAuthor;
-            mike = argFoo;
+            oscard = michal.bind(report)(entity);
+            tangon = oscard.useNullableUserAuthor;
+            michal = argFoo;
             entity = argBar;
-            entity = tango.bind(oscar)(mike, entity);
-            mike = entity.nick;
-            tango = entity.colorString;
+            entity = tangon.bind(oscard)(michal, entity);
+            michal = entity.nick;
+            tangon = entity.colorString;
             entity = {};
-            entity['nick'] = mike;
-            mike = null;
-            oscar = mike != tango;
-            mike = undefined;
-            if(!oscar) { _fun00008_ip = 82; continue _fun00007 }
+            entity['nick'] = michal;
+            michal = null;
+            oscard = michal != tangon;
+            michal = undefined;
+            if(!oscard) { _fun00008_ip = 82; continue _fun00007 }
  73:
-            zulu = _closure1_slot3;
-            mike = zulu.bind(report)(tango);
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.bind(report)(tangon);
  82:
-            entity['colorString'] = mike;
+            entity['colorString'] = michal;
             return entity;
         }
     };
-    zulu['useUserAuthorWithProcessedColor'] = mike;
+    zuuluu['useUserAuthorWithProcessedColor'] = michal;
     return entity;
 })();

@@ -1,882 +1,882 @@
 // discord_common/js/packages/media-engine/VideoQualityManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    options = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    verify = argPlugh;
-    var _closure1_slot0 = options;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
+    golfie = argBaz;
+    zuuluu = argFre;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = verify;
-    tango = global;
-    offset = tango.Object;
-    oscar = offset.defineProperty;
+    tangon = global;
+    offset = tangon.Object;
+    oscard = offset.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(offset)(zulu, entity, report);
+    entity = oscard.bind(offset)(zuuluu, entity, report);
     entity = 0;
     report = verify[entity];
     entity = undefined;
-    report = golf.bind(entity)(report);
+    report = golfie.bind(entity)(report);
     var _closure1_slot2 = report;
-    oscar = 1;
-    oscar = verify[oscar];
-    oscar = golf.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 2;
-    oscar = verify[oscar];
-    oscar = options.bind(entity)(oscar);
-    golf = oscar.defaultVideoQualityOptions;
-    var _closure1_slot4 = golf;
-    golf = oscar.MediaEngineContextTypes;
-    var _closure1_slot5 = golf;
-    offset = oscar.VideoQualityMode;
-    golf = oscar.VIDEO_QUALITY_FRAMERATE;
-    var _closure1_slot6 = golf;
-    golf = oscar.DESKTOP_LOW_QUALITY_STREAM_MAX_BITRATE;
-    var _closure1_slot7 = golf;
-    golf = oscar.DESKTOP_LOW_QUALITY_STREAM_MIN_BITRATE;
-    var _closure1_slot8 = golf;
-    golf = oscar.VIDEO_QUALITY_GOLIVE_LQ_WIDTH;
-    var _closure1_slot9 = golf;
-    golf = oscar.VIDEO_QUALITY_GOLIVE_LQ_HEIGHT;
-    var _closure1_slot10 = golf;
-    oscar = oscar.VIDEO_QUALITY_GOLIVE_LQ_FRAMERATE;
-    var _closure1_slot11 = oscar;
-    golf = tango.Object;
-    oscar = golf.freeze;
-    tango = {};
-    romeo = offset.AUTO;
+    oscard = 1;
+    oscard = verify[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 2;
+    oscard = verify[oscard];
+    oscard = option.bind(entity)(oscard);
+    golfie = oscard.defaultVideoQualityOptions;
+    var _closure1_slot4 = golfie;
+    golfie = oscard.MediaEngineContextTypes;
+    var _closure1_slot5 = golfie;
+    offset = oscard.VideoQualityMode;
+    golfie = oscard.VIDEO_QUALITY_FRAMERATE;
+    var _closure1_slot6 = golfie;
+    golfie = oscard.DESKTOP_LOW_QUALITY_STREAM_MAX_BITRATE;
+    var _closure1_slot7 = golfie;
+    golfie = oscard.DESKTOP_LOW_QUALITY_STREAM_MIN_BITRATE;
+    var _closure1_slot8 = golfie;
+    golfie = oscard.VIDEO_QUALITY_GOLIVE_LQ_WIDTH;
+    var _closure1_slot9 = golfie;
+    golfie = oscard.VIDEO_QUALITY_GOLIVE_LQ_HEIGHT;
+    var _closure1_slot10 = golfie;
+    oscard = oscard.VIDEO_QUALITY_GOLIVE_LQ_FRAMERATE;
+    var _closure1_slot11 = oscard;
+    golfie = tangon.Object;
+    oscard = golfie.freeze;
+    tangon = {};
+    romeon = offset.AUTO;
     yankee = {};
-    tango[romeo] = yankee;
+    tangon[romeon] = yankee;
     yankee = offset.FULL;
     offset = {};
-    romeo = {'width': 1280, 'height': 720};
-    offset['encode'] = romeo;
-    tango[yankee] = offset;
-    oscar = oscar.bind(golf)(tango);
-    tango = function(argFoo) { // Original name: WantsVideoQuality
+    romeon = {'width': 1280, 'height': 720};
+    offset['encode'] = romeon;
+    tangon[yankee] = offset;
+    oscard = oscard.bind(golfie)(tangon);
+    tangon = function(argFoo) { // Original name: WantsVideoQuality
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            zulu = this;
-            oscar = _closure1_slot3;
-            tango = _closure1_slot14;
+            michal = argFoo;
+            zuuluu = this;
+            oscard = _closure1_slot3;
+            tangon = _closure1_slot14;
             entity = undefined;
-            tango = oscar.bind(entity)(zulu, tango);
-            tango = mike.capture;
-            oscar = null;
-            if(!(oscar == tango)) { _fun00002_ip = 50; continue _fun00001 }
+            tangon = oscard.bind(entity)(zuuluu, tangon);
+            tangon = michal.capture;
+            oscard = null;
+            if(!(oscard == tangon)) { _fun00002_ip = 50; continue _fun00001 }
  37:
-            tango = mike.encode;
-            if(!(oscar != tango)) { _fun00002_ip = 202; continue _fun00001 }
+            tangon = michal.encode;
+            if(!(oscard != tangon)) { _fun00002_ip = 202; continue _fun00001 }
  50:
-            tango = mike.capture;
-            golf = oscar == tango;
-            tango = undefined;
-            if(golf) { _fun00002_ip = 95; continue _fun00001 }
+            tangon = michal.capture;
+            golfie = oscard == tangon;
+            tangon = undefined;
+            if(golfie) { _fun00002_ip = 95; continue _fun00001 }
  65:
             verify = _closure1_slot13;
-            yankee = mike.capture;
-            options = verify.prototype;
-            options = Object.create(options, {constructor: {value: verify}});
-            romeo = options;
-            golf = new romeo[verify](yankee, offset);
-            tango = golf instanceof Object ? golf : options;
+            yankee = michal.capture;
+            option = verify.prototype;
+            option = Object.create(option, {constructor: {value: verify}});
+            romeon = option;
+            golfie = new romeon[verify](yankee, offset);
+            tangon = golfie instanceof Object ? golfie : option;
  95:
-            zulu['capture'] = tango;
-            tango = mike.encode;
-            oscar = oscar == tango;
-            tango = undefined;
-            if(oscar) { _fun00002_ip = 146; continue _fun00001 }
+            zuuluu['capture'] = tangon;
+            tangon = michal.encode;
+            oscard = oscard == tangon;
+            tangon = undefined;
+            if(oscard) { _fun00002_ip = 146; continue _fun00001 }
  116:
-            golf = _closure1_slot13;
-            yankee = mike.encode;
-            oscar = golf.prototype;
-            oscar = Object.create(oscar, {constructor: {value: golf}});
-            romeo = oscar;
-            report = new romeo[golf](yankee, offset);
-            tango = report instanceof Object ? report : oscar;
+            golfie = _closure1_slot13;
+            yankee = michal.encode;
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            romeon = oscard;
+            report = new romeon[golfie](yankee, offset);
+            tangon = report instanceof Object ? report : oscard;
  146:
-            zulu['encode'] = tango;
-            tango = mike.bitrateMin;
-            zulu['bitrateMin'] = tango;
-            tango = mike.bitrateMax;
-            zulu['bitrateMax'] = tango;
-            tango = mike.bitrateTarget;
-            zulu['bitrateTarget'] = tango;
-            mike = mike.localWant;
-            zulu['localWant'] = mike;
+            zuuluu['encode'] = tangon;
+            tangon = michal.bitrateMin;
+            zuuluu['bitrateMin'] = tangon;
+            tangon = michal.bitrateMax;
+            zuuluu['bitrateMax'] = tangon;
+            tangon = michal.bitrateTarget;
+            zuuluu['bitrateTarget'] = tangon;
+            michal = michal.localWant;
+            zuuluu['localWant'] = michal;
             return entity;
  202:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
             yankee = 'Invalid arguments.';
-            romeo = mike;
-            entity = new romeo[zulu](yankee, offset);
-            entity = entity instanceof Object ? entity : mike;
+            romeon = michal;
+            entity = new romeon[zuuluu](yankee, offset);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    var _closure1_slot14 = tango;
-    report = report.bind(entity)(tango);
+    var _closure1_slot14 = tangon;
+    report = report.bind(entity)(tangon);
     var _closure1_slot12 = report;
-    tango = function() {
+    tangon = function() {
         report = _closure1_slot2;
-        tango = function(argFoo) { // Original name: VideoQuality
-            mike = argFoo;
-            zulu = this;
+        tangon = function(argFoo) { // Original name: VideoQuality
+            michal = argFoo;
+            zuuluu = this;
             report = _closure1_slot3;
-            tango = _closure2_slot0;
+            tangon = _closure2_slot0;
             entity = undefined;
-            tango = report.bind(entity)(zulu, tango);
-            tango = mike.width;
-            zulu['width'] = tango;
-            tango = mike.height;
-            zulu['height'] = tango;
-            tango = mike.framerate;
-            zulu['framerate'] = tango;
-            tango = mike.width;
-            mike = mike.height;
-            mike = tango * mike;
-            zulu['pixelCount'] = mike;
+            tangon = report.bind(entity)(zuuluu, tangon);
+            tangon = michal.width;
+            zuuluu['width'] = tangon;
+            tangon = michal.height;
+            zuuluu['height'] = tangon;
+            tangon = michal.framerate;
+            zuuluu['framerate'] = tangon;
+            tangon = michal.width;
+            michal = michal.height;
+            michal = tangon * michal;
+            zuuluu['pixelCount'] = michal;
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         entity = {};
-        zulu = 'equals';
-        entity['key'] = zulu;
-        zulu = function(argFoo, argBar) { // Original name: value
+        zuuluu = 'equals';
+        entity['key'] = zuuluu;
+        zuuluu = function(argFoo, argBar) { // Original name: value
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = argFoo;
-                tango = argBar;
-                zulu = null;
-                entity = zulu == report;
+                tangon = argBar;
+                zuuluu = null;
+                entity = zuuluu == report;
                 if(!entity) { _fun00004_ip = 19; continue _fun00003 }
  15:
-                entity = zulu == tango;
+                entity = zuuluu == tangon;
  19:
                 if(entity) { _fun00004_ip = 92; continue _fun00003 }
  22:
-                mike = zulu != report;
-                if(!mike) { _fun00004_ip = 33; continue _fun00003 }
+                michal = zuuluu != report;
+                if(!michal) { _fun00004_ip = 33; continue _fun00003 }
  29:
-                mike = zulu != tango;
+                michal = zuuluu != tangon;
  33:
-                if(!mike) { _fun00004_ip = 89; continue _fun00003 }
+                if(!michal) { _fun00004_ip = 89; continue _fun00003 }
  36:
-                oscar = report.width;
-                zulu = tango.width;
-                zulu = oscar === zulu;
-                if(!zulu) { _fun00004_ip = 67; continue _fun00003 }
+                oscard = report.width;
+                zuuluu = tangon.width;
+                zuuluu = oscard === zuuluu;
+                if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
  53:
-                golf = report.height;
-                oscar = tango.height;
-                zulu = golf === oscar;
+                golfie = report.height;
+                oscard = tangon.height;
+                zuuluu = golfie === oscard;
  67:
-                if(!zulu) { _fun00004_ip = 86; continue _fun00003 }
+                if(!zuuluu) { _fun00004_ip = 86; continue _fun00003 }
  70:
                 report = report.framerate;
-                tango = tango.framerate;
-                zulu = report === tango;
+                tangon = tangon.framerate;
+                zuuluu = report === tangon;
  86:
-                mike = zulu;
+                michal = zuuluu;
  89:
-                entity = mike;
+                entity = michal;
  92:
                 return entity;
             }
         };
-        entity['value'] = zulu;
-        zulu = new Array(2);
-        zulu[0] = entity;
+        entity['value'] = zuuluu;
+        zuuluu = new Array(2);
+        zuuluu[0] = entity;
         entity = {};
-        oscar = 'extend';
-        entity['key'] = oscar;
-        mike = function(argFoo, argBar) { // Original name: value
+        oscard = 'extend';
+        entity['key'] = oscard;
+        michal = function(argFoo, argBar) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                mike = argFoo;
+                michal = argFoo;
                 entity = argBar;
-                options = null;
-                if(!(options != mike)) { _fun00006_ip = 181; continue _fun00005 }
+                option = null;
+                if(!(option != michal)) { _fun00006_ip = 181; continue _fun00005 }
  15:
-                if(!(options != entity)) { _fun00006_ip = 179; continue _fun00005 }
+                if(!(option != entity)) { _fun00006_ip = 179; continue _fun00005 }
  22:
-                tango = options == entity;
-                zulu = undefined;
-                if(tango) { _fun00006_ip = 36; continue _fun00005 }
+                tangon = option == entity;
+                zuuluu = undefined;
+                if(tangon) { _fun00006_ip = 36; continue _fun00005 }
  31:
-                zulu = entity.width;
+                zuuluu = entity.width;
  36:
-                if(!(options == zulu)) { _fun00006_ip = 57; continue _fun00005 }
+                if(!(option == zuuluu)) { _fun00006_ip = 57; continue _fun00005 }
  40:
-                report = options == mike;
-                tango = undefined;
+                report = option == michal;
+                tangon = undefined;
                 if(report) { _fun00006_ip = 54; continue _fun00005 }
  49:
-                tango = mike.width;
+                tangon = michal.width;
  54:
-                zulu = tango;
+                zuuluu = tangon;
  57:
-                oscar = options != zulu;
-                tango = 0;
-                if(!oscar) { _fun00006_ip = 69; continue _fun00005 }
+                oscard = option != zuuluu;
+                tangon = 0;
+                if(!oscard) { _fun00006_ip = 69; continue _fun00005 }
  66:
-                tango = zulu;
+                tangon = zuuluu;
  69:
-                oscar = options == entity;
-                zulu = undefined;
-                if(oscar) { _fun00006_ip = 83; continue _fun00005 }
+                oscard = option == entity;
+                zuuluu = undefined;
+                if(oscard) { _fun00006_ip = 83; continue _fun00005 }
  78:
-                zulu = entity.height;
+                zuuluu = entity.height;
  83:
-                if(!(options == zulu)) { _fun00006_ip = 104; continue _fun00005 }
+                if(!(option == zuuluu)) { _fun00006_ip = 104; continue _fun00005 }
  87:
-                verify = options == mike;
-                oscar = undefined;
+                verify = option == michal;
+                oscard = undefined;
                 if(verify) { _fun00006_ip = 101; continue _fun00005 }
  96:
-                oscar = mike.height;
+                oscard = michal.height;
  101:
-                zulu = oscar;
+                zuuluu = oscard;
  104:
-                oscar = options != zulu;
+                oscard = option != zuuluu;
                 report = 0;
-                if(!oscar) { _fun00006_ip = 116; continue _fun00005 }
+                if(!oscard) { _fun00006_ip = 116; continue _fun00005 }
  113:
-                report = zulu;
+                report = zuuluu;
  116:
-                zulu = {};
-                zulu['width'] = tango;
-                zulu['height'] = report;
-                verify = options == entity;
-                oscar = undefined;
+                zuuluu = {};
+                zuuluu['width'] = tangon;
+                zuuluu['height'] = report;
+                verify = option == entity;
+                oscard = undefined;
                 if(verify) { _fun00006_ip = 141; continue _fun00005 }
  135:
-                oscar = entity.framerate;
+                oscard = entity.framerate;
  141:
-                if(!(options == oscar)) { _fun00006_ip = 163; continue _fun00005 }
+                if(!(option == oscard)) { _fun00006_ip = 163; continue _fun00005 }
  145:
-                options = options == mike;
-                golf = undefined;
-                if(options) { _fun00006_ip = 160; continue _fun00005 }
+                option = option == michal;
+                golfie = undefined;
+                if(option) { _fun00006_ip = 160; continue _fun00005 }
  154:
-                golf = mike.framerate;
+                golfie = michal.framerate;
  160:
-                oscar = golf;
+                oscard = golfie;
  163:
-                zulu['framerate'] = oscar;
-                tango = tango * report;
-                zulu['pixelCount'] = tango;
-                return zulu;
+                zuuluu['framerate'] = oscard;
+                tangon = tangon * report;
+                zuuluu['pixelCount'] = tangon;
+                return zuuluu;
  179:
-                return mike;
+                return michal;
  181:
                 return entity;
             }
         };
-        entity['value'] = mike;
-        zulu[1] = entity;
-        mike = undefined;
+        entity['value'] = michal;
+        zuuluu[1] = entity;
+        michal = undefined;
         entity = null;
-        entity = report.bind(mike)(tango, entity, zulu);
+        entity = report.bind(michal)(tangon, entity, zuuluu);
         return entity;
     };
-    tango = tango.bind(entity)();
-    var _closure1_slot13 = tango;
-    mike = function() {
-        tango = _closure1_slot2;
-        zulu = function(argFoo, argBar) { // Original name: VideoQualityManager
+    tangon = tangon.bind(entity)();
+    var _closure1_slot13 = tangon;
+    michal = function() {
+        tangon = _closure1_slot2;
+        zuuluu = function(argFoo, argBar) { // Original name: VideoQualityManager
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                golf = arguments[2];
-                zulu = this;
+                golfie = arguments[2];
+                zuuluu = this;
                 entity = undefined;
-                if(!(golf === entity)) { _fun00008_ip = 19; continue _fun00007 }
+                if(!(golfie === entity)) { _fun00008_ip = 19; continue _fun00007 }
  12:
-                golf = _closure1_slot4;
+                golfie = _closure1_slot4;
  19:
                 report = _closure1_slot3;
-                tango = _closure2_slot0;
-                tango = report.bind(entity)(zulu, tango);
-                tango = argFoo;
-                zulu['contextType'] = tango;
-                tango = argBar;
-                zulu['connection'] = tango;
-                zulu['options'] = golf;
-                tango = false;
-                zulu['isMuted'] = tango;
-                oscar = zulu.contextType;
+                tangon = _closure2_slot0;
+                tangon = report.bind(entity)(zuuluu, tangon);
+                tangon = argFoo;
+                zuuluu['contextType'] = tangon;
+                tangon = argBar;
+                zuuluu['connection'] = tangon;
+                zuuluu['options'] = golfie;
+                tangon = false;
+                zuuluu['isMuted'] = tangon;
+                oscard = zuuluu.contextType;
                 report = _closure1_slot5;
                 report = report.STREAM;
-                report = oscar === report;
-                zulu['isStreamContext'] = report;
-                oscar = _closure1_slot0;
-                options = _closure1_slot1;
+                report = oscard === report;
+                zuuluu['isStreamContext'] = report;
+                oscard = _closure1_slot0;
+                option = _closure1_slot1;
                 report = 3;
-                report = options[report];
-                report = oscar.bind(entity)(report);
+                report = option[report];
+                report = oscard.bind(entity)(report);
                 report = report.MediaSinkWantsLadder;
-                oscar = report.prototype;
-                oscar = Object.create(oscar, {constructor: {value: report}});
-                yankee = oscar;
-                offset = golf;
+                oscard = report.prototype;
+                oscard = Object.create(oscard, {constructor: {value: report}});
+                yankee = oscard;
+                offset = golfie;
                 report = new yankee[report](offset, verify);
-                report = report instanceof Object ? report : oscar;
-                zulu['ladder'] = report;
-                report = zulu.getDefaultGoliveQuality;
-                report = report.bind(zulu)();
-                zulu['goliveMaxQuality'] = report;
-                zulu['goliveSimulcastEnabled'] = tango;
-                mike = _closure1_slot7;
-                zulu['goliveSimulcastLQBitrateMax'] = mike;
-                zulu['goliveSimulcastLQBitrateTarget'] = mike;
+                report = report instanceof Object ? report : oscard;
+                zuuluu['ladder'] = report;
+                report = zuuluu.getDefaultGoliveQuality;
+                report = report.bind(zuuluu)();
+                zuuluu['goliveMaxQuality'] = report;
+                zuuluu['goliveSimulcastEnabled'] = tangon;
+                michal = _closure1_slot7;
+                zuuluu['goliveSimulcastLQBitrateMax'] = michal;
+                zuuluu['goliveSimulcastLQBitrateTarget'] = michal;
                 return entity;
             }
         };
-        var _closure2_slot0 = zulu;
+        var _closure2_slot0 = zuuluu;
         entity = {};
-        mike = 'getQuality';
-        entity['key'] = mike;
-        mike = function(argFoo) { // Original name: value
+        michal = 'getQuality';
+        entity['key'] = michal;
+        michal = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 report = this;
-                zulu = report.connection;
-                mike = zulu.getLocalWant;
+                zuuluu = report.connection;
+                michal = zuuluu.getLocalWant;
                 entity = argFoo;
-                mike = mike.bind(zulu)(entity);
+                michal = michal.bind(zuuluu)(entity);
                 entity = report.isStreamContext;
                 if(entity) { _fun00010_ip = 45; continue _fun00009 }
  32:
                 entity = report.getVideoQuality;
-                zulu = entity.bind(report)(mike);
+                zuuluu = entity.bind(report)(michal);
                 _fun00010_ip = 58; continue _fun00009;
  45:
                 entity = report.getGoliveQuality;
-                zulu = entity.bind(report)(mike);
+                zuuluu = entity.bind(report)(michal);
  58:
-                mike = report.qualityOverwrite;
-                oscar = null;
-                entity = zulu;
-                if(!(oscar != mike)) { _fun00010_ip = 278; continue _fun00009 }
+                michal = report.qualityOverwrite;
+                oscard = null;
+                entity = zuuluu;
+                if(!(oscard != michal)) { _fun00010_ip = 278; continue _fun00009 }
  76:
-                tango = _closure1_slot12;
-                mike = {};
+                tangon = _closure1_slot12;
+                michal = {};
                 yankee = _closure1_slot13;
                 offset = yankee.extend;
-                verify = zulu.encode;
-                options = report.qualityOverwrite;
-                options = options.encode;
-                options = offset.bind(yankee)(verify, options);
-                mike['encode'] = options;
+                verify = zuuluu.encode;
+                option = report.qualityOverwrite;
+                option = option.encode;
+                option = offset.bind(yankee)(verify, option);
+                michal['encode'] = option;
                 offset = _closure1_slot13;
                 verify = offset.extend;
-                options = zulu.capture;
-                golf = report.qualityOverwrite;
-                golf = golf.capture;
-                golf = verify.bind(offset)(options, golf);
-                mike['capture'] = golf;
-                golf = report.qualityOverwrite;
-                golf = golf.bitrateMin;
-                if(!(oscar == golf)) { _fun00010_ip = 185; continue _fun00009 }
+                option = zuuluu.capture;
+                golfie = report.qualityOverwrite;
+                golfie = golfie.capture;
+                golfie = verify.bind(offset)(option, golfie);
+                michal['capture'] = golfie;
+                golfie = report.qualityOverwrite;
+                golfie = golfie.bitrateMin;
+                if(!(oscard == golfie)) { _fun00010_ip = 185; continue _fun00009 }
  179:
-                golf = zulu.bitrateMin;
+                golfie = zuuluu.bitrateMin;
  185:
-                mike['bitrateMin'] = golf;
-                golf = report.qualityOverwrite;
-                golf = golf.bitrateMax;
-                if(!(oscar == golf)) { _fun00010_ip = 212; continue _fun00009 }
+                michal['bitrateMin'] = golfie;
+                golfie = report.qualityOverwrite;
+                golfie = golfie.bitrateMax;
+                if(!(oscard == golfie)) { _fun00010_ip = 212; continue _fun00009 }
  206:
-                golf = zulu.bitrateMax;
+                golfie = zuuluu.bitrateMax;
  212:
-                mike['bitrateMax'] = golf;
+                michal['bitrateMax'] = golfie;
                 report = report.qualityOverwrite;
                 report = report.bitrateTarget;
-                if(!(oscar == report)) { _fun00010_ip = 239; continue _fun00009 }
+                if(!(oscard == report)) { _fun00010_ip = 239; continue _fun00009 }
  233:
-                report = zulu.bitrateTarget;
+                report = zuuluu.bitrateTarget;
  239:
-                mike['bitrateTarget'] = report;
-                zulu = zulu.localWant;
-                mike['localWant'] = zulu;
-                zulu = tango.prototype;
-                zulu = Object.create(zulu, {constructor: {value: tango}});
-                backup = zulu;
-                foxtrot = mike;
-                mike = new backup[tango](foxtrot, romeo);
-                entity = mike instanceof Object ? mike : zulu;
+                michal['bitrateTarget'] = report;
+                zuuluu = zuuluu.localWant;
+                michal['localWant'] = zuuluu;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                backup = zuuluu;
+                foxtra = michal;
+                michal = new backup[tangon](foxtra, romeon);
+                entity = michal instanceof Object ? michal : zuuluu;
  278:
                 return entity;
             }
         };
-        entity['value'] = mike;
-        mike = new Array(11);
-        mike[0] = entity;
+        entity['value'] = michal;
+        michal = new Array(11);
+        michal[0] = entity;
         entity = {};
-        oscar = 'applyQualityConstraints';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
+        oscard = 'applyQualityConstraints';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                mike = argFoo;
-                tango = this;
-                zulu = tango.getQuality;
+                michal = argFoo;
+                tangon = this;
+                zuuluu = tangon.getQuality;
                 entity = argBar;
-                zulu = zulu.bind(tango)(entity);
-                entity = zulu.capture;
+                zuuluu = zuuluu.bind(tangon)(entity);
+                entity = zuuluu.capture;
                 report = null;
                 if(!(report != entity)) { _fun00012_ip = 106; continue _fun00011 }
  32:
-                entity = zulu.capture;
+                entity = zuuluu.capture;
                 entity = entity.width;
-                mike['encodingVideoWidth'] = entity;
-                entity = zulu.capture;
+                michal['encodingVideoWidth'] = entity;
+                entity = zuuluu.capture;
                 entity = entity.height;
-                mike['encodingVideoHeight'] = entity;
-                entity = zulu.capture;
+                michal['encodingVideoHeight'] = entity;
+                entity = zuuluu.capture;
                 entity = entity.framerate;
-                mike['encodingVideoFrameRate'] = entity;
-                entity = zulu.capture;
+                michal['encodingVideoFrameRate'] = entity;
+                entity = zuuluu.capture;
                 entity = entity.framerate;
-                mike['captureVideoFrameRate'] = entity;
+                michal['captureVideoFrameRate'] = entity;
  106:
-                entity = zulu.encode;
+                entity = zuuluu.encode;
                 if(!(report != entity)) { _fun00012_ip = 152; continue _fun00011 }
  116:
-                entity = zulu.encode;
+                entity = zuuluu.encode;
                 entity = entity.framerate;
-                mike['remoteSinkWantsMaxFramerate'] = entity;
-                entity = zulu.encode;
+                michal['remoteSinkWantsMaxFramerate'] = entity;
+                entity = zuuluu.encode;
                 entity = entity.pixelCount;
-                mike['remoteSinkWantsPixelCount'] = entity;
+                michal['remoteSinkWantsPixelCount'] = entity;
  152:
-                entity = zulu.bitrateTarget;
+                entity = zuuluu.bitrateTarget;
                 if(!(report == entity)) { _fun00012_ip = 176; continue _fun00011 }
  162:
-                entity = zulu.bitrateMax;
-                mike['encodingVideoBitRate'] = entity;
+                entity = zuuluu.bitrateMax;
+                michal['encodingVideoBitRate'] = entity;
                 _fun00012_ip = 188; continue _fun00011;
  176:
-                entity = zulu.bitrateTarget;
-                mike['encodingVideoBitRate'] = entity;
+                entity = zuuluu.bitrateTarget;
+                michal['encodingVideoBitRate'] = entity;
  188:
-                entity = zulu.bitrateMin;
-                mike['encodingVideoMinBitRate'] = entity;
-                entity = zulu.bitrateMax;
-                mike['encodingVideoMaxBitRate'] = entity;
-                entity = mike.encodingVideoBitRate;
+                entity = zuuluu.bitrateMin;
+                michal['encodingVideoMinBitRate'] = entity;
+                entity = zuuluu.bitrateMax;
+                michal['encodingVideoMaxBitRate'] = entity;
+                entity = michal.encodingVideoBitRate;
                 entity = report != entity;
                 if(!entity) { _fun00012_ip = 235; continue _fun00011 }
  225:
-                tango = mike.encodingVideoMaxBitRate;
-                entity = report != tango;
+                tangon = michal.encodingVideoMaxBitRate;
+                entity = report != tangon;
  235:
                 if(!entity) { _fun00012_ip = 275; continue _fun00011 }
  238:
                 entity = global;
-                oscar = entity.Math;
-                report = oscar.min;
-                tango = mike.encodingVideoBitRate;
-                entity = mike.encodingVideoMaxBitRate;
-                entity = report.bind(oscar)(tango, entity);
-                mike['encodingVideoBitRate'] = entity;
+                oscard = entity.Math;
+                report = oscard.min;
+                tangon = michal.encodingVideoBitRate;
+                entity = michal.encodingVideoMaxBitRate;
+                entity = report.bind(oscard)(tangon, entity);
+                michal['encodingVideoBitRate'] = entity;
  275:
                 entity = {};
-                entity['quality'] = zulu;
-                entity['constraints'] = mike;
+                entity['quality'] = zuuluu;
+                entity['constraints'] = michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[1] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
         entity = {};
-        oscar = 'setQualityOverwrite';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            mike = argFoo;
+        oscard = 'setQualityOverwrite';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = argFoo;
             entity = this;
-            entity['qualityOverwrite'] = mike;
+            entity['qualityOverwrite'] = michal;
             entity = undefined;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[2] = entity;
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
-        oscar = 'setGoliveQuality';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'setGoliveQuality';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                zulu = argFoo;
-                mike = this;
-                tango = _closure1_slot12;
+                zuuluu = argFoo;
+                michal = this;
+                tangon = _closure1_slot12;
                 entity = {};
                 verify = _closure1_slot13;
-                options = verify.extend;
-                oscar = mike.goliveMaxQuality;
-                golf = oscar.capture;
-                oscar = zulu.capture;
-                oscar = options.bind(verify)(golf, oscar);
-                entity['capture'] = oscar;
-                options = _closure1_slot13;
-                golf = options.extend;
-                report = mike.goliveMaxQuality;
-                oscar = report.encode;
-                report = zulu.encode;
-                report = golf.bind(options)(oscar, report);
+                option = verify.extend;
+                oscard = michal.goliveMaxQuality;
+                golfie = oscard.capture;
+                oscard = zuuluu.capture;
+                oscard = option.bind(verify)(golfie, oscard);
+                entity['capture'] = oscard;
+                option = _closure1_slot13;
+                golfie = option.extend;
+                report = michal.goliveMaxQuality;
+                oscard = report.encode;
+                report = zuuluu.encode;
+                report = golfie.bind(option)(oscard, report);
                 entity['encode'] = report;
-                oscar = zulu.bitrateMin;
+                oscard = zuuluu.bitrateMin;
                 report = null;
-                if(!(report == oscar)) { _fun00014_ip = 117; continue _fun00013 }
+                if(!(report == oscard)) { _fun00014_ip = 117; continue _fun00013 }
  105:
-                golf = mike.goliveMaxQuality;
-                oscar = golf.bitrateMin;
+                golfie = michal.goliveMaxQuality;
+                oscard = golfie.bitrateMin;
  117:
-                entity['bitrateMin'] = oscar;
-                oscar = zulu.bitrateMax;
-                if(!(report == oscar)) { _fun00014_ip = 144; continue _fun00013 }
+                entity['bitrateMin'] = oscard;
+                oscard = zuuluu.bitrateMax;
+                if(!(report == oscard)) { _fun00014_ip = 144; continue _fun00013 }
  132:
-                golf = mike.goliveMaxQuality;
-                oscar = golf.bitrateMax;
+                golfie = michal.goliveMaxQuality;
+                oscard = golfie.bitrateMax;
  144:
-                entity['bitrateMax'] = oscar;
-                zulu = zulu.bitrateTarget;
-                if(!(report == zulu)) { _fun00014_ip = 171; continue _fun00013 }
+                entity['bitrateMax'] = oscard;
+                zuuluu = zuuluu.bitrateTarget;
+                if(!(report == zuuluu)) { _fun00014_ip = 171; continue _fun00013 }
  159:
-                report = mike.goliveMaxQuality;
-                zulu = report.bitrateTarget;
+                report = michal.goliveMaxQuality;
+                zuuluu = report.bitrateTarget;
  171:
-                entity['bitrateTarget'] = zulu;
-                zulu = mike.goliveMaxQuality;
-                zulu = zulu.localWant;
-                entity['localWant'] = zulu;
-                zulu = tango.prototype;
-                zulu = Object.create(zulu, {constructor: {value: tango}});
-                romeo = zulu;
+                entity['bitrateTarget'] = zuuluu;
+                zuuluu = michal.goliveMaxQuality;
+                zuuluu = zuuluu.localWant;
+                entity['localWant'] = zuuluu;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                romeon = zuuluu;
                 yankee = entity;
-                entity = new romeo[tango](yankee, offset);
-                entity = entity instanceof Object ? entity : zulu;
-                mike['goliveMaxQuality'] = entity;
+                entity = new romeon[tangon](yankee, offset);
+                entity = entity instanceof Object ? entity : zuuluu;
+                michal['goliveMaxQuality'] = entity;
                 entity = undefined;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[3] = entity;
+        entity['value'] = oscard;
+        michal[3] = entity;
         entity = {};
-        oscar = 'configGoLiveSimulcast';
-        entity['key'] = oscar;
-        oscar = function(argFoo, argBar) { // Original name: value
-            mike = argBar;
+        oscard = 'configGoLiveSimulcast';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar) { // Original name: value
+            michal = argBar;
             entity = this;
-            zulu = argFoo;
-            entity['goliveSimulcastEnabled'] = zulu;
-            entity['goliveSimulcastLQBitrateMax'] = mike;
-            entity['goliveSimulcastLQBitrateTarget'] = mike;
+            zuuluu = argFoo;
+            entity['goliveSimulcastEnabled'] = zuuluu;
+            entity['goliveSimulcastLQBitrateMax'] = michal;
+            entity['goliveSimulcastLQBitrateTarget'] = michal;
             entity = undefined;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[4] = entity;
+        entity['value'] = oscard;
+        michal[4] = entity;
         entity = {};
-        oscar = 'setGoLiveSimulcastLQTargetBitrate';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
-            mike = argFoo;
+        oscard = 'setGoLiveSimulcastLQTargetBitrate';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = argFoo;
             entity = this;
-            entity['goliveSimulcastLQBitrateTarget'] = mike;
+            entity['goliveSimulcastLQBitrateTarget'] = michal;
             entity = undefined;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[5] = entity;
+        entity['value'] = oscard;
+        michal[5] = entity;
         entity = {};
-        oscar = 'shouldEnableGoliveSimulcastForHqQuality';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'shouldEnableGoliveSimulcastForHqQuality';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                zulu = argFoo;
+                zuuluu = argFoo;
                 entity = this;
                 entity = entity.goliveSimulcastEnabled;
-                mike = !entity;
-                entity = !mike;
-                if(mike) { _fun00016_ip = 83; continue _fun00015 }
+                michal = !entity;
+                entity = !michal;
+                if(michal) { _fun00016_ip = 83; continue _fun00015 }
  21:
-                mike = zulu.width;
+                michal = zuuluu.width;
                 report = 0;
-                mike = report === mike;
-                if(!mike) { _fun00016_ip = 44; continue _fun00015 }
+                michal = report === michal;
+                if(!michal) { _fun00016_ip = 44; continue _fun00015 }
  35:
-                tango = zulu.height;
-                mike = report === tango;
+                tangon = zuuluu.height;
+                michal = report === tangon;
  44:
-                if(mike) { _fun00016_ip = 80; continue _fun00015 }
+                if(michal) { _fun00016_ip = 80; continue _fun00015 }
  47:
-                tango = zulu.width;
-                zulu = zulu.height;
-                tango = tango * zulu;
+                tangon = zuuluu.width;
+                zuuluu = zuuluu.height;
+                tangon = tangon * zuuluu;
                 report = _closure1_slot9;
-                zulu = _closure1_slot10;
-                zulu = report * zulu;
-                mike = tango > zulu;
+                zuuluu = _closure1_slot10;
+                zuuluu = report * zuuluu;
+                michal = tangon > zuuluu;
  80:
-                entity = mike;
+                entity = michal;
  83:
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[6] = entity;
+        entity['value'] = oscard;
+        michal[6] = entity;
         entity = {};
-        oscar = 'getVideoQuality';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'getVideoQuality';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                mike = argFoo;
-                tango = this;
-                zulu = tango.ladder;
-                entity = zulu.getResolution;
-                oscar = entity.bind(zulu)(mike);
-                entity = tango.options;
+                michal = argFoo;
+                tangon = this;
+                zuuluu = tangon.ladder;
+                entity = zuuluu.getResolution;
+                oscard = entity.bind(zuuluu)(michal);
+                entity = tangon.options;
                 entity = entity.videoBitrate;
-                zulu = entity.min;
-                entity = oscar.budgetPortion;
-                offset = zulu * entity;
-                entity = tango.options;
+                zuuluu = entity.min;
+                entity = oscard.budgetPortion;
+                offset = zuuluu * entity;
+                entity = tangon.options;
                 entity = entity.videoBitrate;
-                zulu = entity.max;
-                entity = oscar.budgetPortion;
-                golf = zulu * entity;
-                entity = tango.isMuted;
+                zuuluu = entity.max;
+                entity = oscard.budgetPortion;
+                golfie = zuuluu * entity;
+                entity = tangon.isMuted;
                 if(entity) { _fun00018_ip = 94; continue _fun00017 }
  86:
-                options = oscar.framerate;
+                option = oscard.framerate;
                 _fun00018_ip = 100; continue _fun00017;
  94:
-                options = oscar.mutedFramerate;
+                option = oscard.mutedFramerate;
  100:
-                zulu = _closure1_slot12;
+                zuuluu = _closure1_slot12;
                 entity = {};
                 report = {};
-                romeo = report;
-                yankee = oscar;
-                oscar = copyDataProperties(romeo, yankee);
-                oscar = 'framerate';
-                report[oscar] = options;
+                romeon = report;
+                yankee = oscard;
+                oscard = copyDataProperties(romeon, yankee);
+                oscard = 'framerate';
+                report[oscard] = option;
                 entity['encode'] = report;
                 report = {};
-                oscar = tango.options;
-                oscar = oscar.videoCapture;
-                oscar = oscar.width;
-                report['width'] = oscar;
-                oscar = tango.options;
-                oscar = oscar.videoCapture;
-                oscar = oscar.height;
-                report['height'] = oscar;
-                oscar = tango.options;
-                oscar = oscar.videoCapture;
-                oscar = oscar.framerate;
-                report['framerate'] = oscar;
+                oscard = tangon.options;
+                oscard = oscard.videoCapture;
+                oscard = oscard.width;
+                report['width'] = oscard;
+                oscard = tangon.options;
+                oscard = oscard.videoCapture;
+                oscard = oscard.height;
+                report['height'] = oscard;
+                oscard = tangon.options;
+                oscard = oscard.videoCapture;
+                oscard = oscard.framerate;
+                report['framerate'] = oscard;
                 entity['capture'] = report;
                 report = global;
                 verify = report.Math;
-                options = verify.max;
-                oscar = tango.options;
-                oscar = oscar.videoBitrateFloor;
-                oscar = options.bind(verify)(offset, oscar);
-                entity['bitrateMin'] = oscar;
-                oscar = report.Math;
-                report = oscar.max;
-                tango = tango.options;
-                tango = tango.videoBitrateFloor;
-                tango = report.bind(oscar)(golf, tango);
-                entity['bitrateMax'] = tango;
-                entity['localWant'] = mike;
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                foxtrot = mike;
-                romeo = entity;
-                entity = new foxtrot[zulu](romeo, yankee);
-                entity = entity instanceof Object ? entity : mike;
+                option = verify.max;
+                oscard = tangon.options;
+                oscard = oscard.videoBitrateFloor;
+                oscard = option.bind(verify)(offset, oscard);
+                entity['bitrateMin'] = oscard;
+                oscard = report.Math;
+                report = oscard.max;
+                tangon = tangon.options;
+                tangon = tangon.videoBitrateFloor;
+                tangon = report.bind(oscard)(golfie, tangon);
+                entity['bitrateMax'] = tangon;
+                entity['localWant'] = michal;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                foxtra = michal;
+                romeon = entity;
+                entity = new foxtra[zuuluu](romeon, yankee);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[7] = entity;
+        entity['value'] = oscard;
+        michal[7] = entity;
         entity = {};
-        oscar = 'getGoliveQuality';
-        entity['key'] = oscar;
-        oscar = function(argFoo) { // Original name: value
+        oscard = 'getGoliveQuality';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
             _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-                zulu = this;
-                entity = zulu.goliveSimulcastEnabled;
+                zuuluu = this;
+                entity = zuuluu.goliveSimulcastEnabled;
                 if(!entity) { _fun00020_ip = 22; continue _fun00019 }
  12:
-                mike = argFoo;
+                michal = argFoo;
                 entity = 100;
-                if(!(!(mike < entity))) { _fun00020_ip = 30; continue _fun00019 }
+                if(!(!(michal < entity))) { _fun00020_ip = 30; continue _fun00019 }
  22:
-                entity = zulu.goliveMaxQuality;
+                entity = zuuluu.goliveMaxQuality;
                 _fun00020_ip = 42; continue _fun00019;
  30:
-                mike = zulu.getGoliveLQQuality;
-                entity = mike.bind(zulu)();
+                michal = zuuluu.getGoliveLQQuality;
+                entity = michal.bind(zuuluu)();
  42:
                 return entity;
             }
         };
-        entity['value'] = oscar;
-        mike[8] = entity;
+        entity['value'] = oscard;
+        michal[8] = entity;
         entity = {};
-        oscar = 'getDefaultGoliveQuality';
-        entity['key'] = oscar;
-        oscar = function() { // Original name: value
-            mike = this;
-            zulu = _closure1_slot12;
+        oscard = 'getDefaultGoliveQuality';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            michal = this;
+            zuuluu = _closure1_slot12;
             entity = {};
-            tango = {'width': 1280, 'height': 720};
+            tangon = {'width': 1280, 'height': 720};
             report = _closure1_slot6;
-            tango['framerate'] = report;
-            entity['capture'] = tango;
-            tango = {'width': 1280, 'height': 720, 'framerate': null, 'pixelCount': 921600};
-            tango['framerate'] = report;
-            entity['encode'] = tango;
-            tango = mike.options;
-            tango = tango.desktopBitrate;
-            tango = tango.min;
-            entity['bitrateMin'] = tango;
-            tango = mike.options;
-            tango = tango.desktopBitrate;
-            tango = tango.max;
-            entity['bitrateMax'] = tango;
-            mike = mike.options;
-            mike = mike.desktopBitrate;
-            mike = mike.target;
-            entity['bitrateTarget'] = mike;
-            mike = zulu.prototype;
-            mike = Object.create(mike, {constructor: {value: zulu}});
-            options = mike;
-            golf = entity;
-            entity = new options[zulu](golf, oscar);
-            entity = entity instanceof Object ? entity : mike;
+            tangon['framerate'] = report;
+            entity['capture'] = tangon;
+            tangon = {'width': 1280, 'height': 720, 'framerate': null, 'pixelCount': 921600};
+            tangon['framerate'] = report;
+            entity['encode'] = tangon;
+            tangon = michal.options;
+            tangon = tangon.desktopBitrate;
+            tangon = tangon.min;
+            entity['bitrateMin'] = tangon;
+            tangon = michal.options;
+            tangon = tangon.desktopBitrate;
+            tangon = tangon.max;
+            entity['bitrateMax'] = tangon;
+            michal = michal.options;
+            michal = michal.desktopBitrate;
+            michal = michal.target;
+            entity['bitrateTarget'] = michal;
+            michal = zuuluu.prototype;
+            michal = Object.create(michal, {constructor: {value: zuuluu}});
+            option = michal;
+            golfie = entity;
+            entity = new option[zuuluu](golfie, oscard);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        entity['value'] = oscar;
-        mike[9] = entity;
+        entity['value'] = oscard;
+        michal[9] = entity;
         entity = {};
-        oscar = 'getGoliveLQQuality';
-        entity['key'] = oscar;
+        oscard = 'getGoliveLQQuality';
+        entity['key'] = oscard;
         report = function() { // Original name: value
             _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                mike = this;
+                michal = this;
                 entity = global;
-                golf = entity.Math;
-                oscar = golf.min;
+                golfie = entity.Math;
+                oscard = golfie.min;
                 report = _closure1_slot9;
-                zulu = mike.goliveMaxQuality;
-                options = zulu.encode;
-                romeo = null;
-                offset = romeo == options;
-                zulu = undefined;
+                zuuluu = michal.goliveMaxQuality;
+                option = zuuluu.encode;
+                romeon = null;
+                offset = romeon == option;
+                zuuluu = undefined;
                 if(offset) { _fun00022_ip = 51; continue _fun00021 }
  46:
-                zulu = options.width;
+                zuuluu = option.width;
  51:
-                if(!(romeo == zulu)) { _fun00022_ip = 59; continue _fun00021 }
+                if(!(romeon == zuuluu)) { _fun00022_ip = 59; continue _fun00021 }
  55:
-                zulu = _closure1_slot9;
+                zuuluu = _closure1_slot9;
  59:
-                golf = oscar.bind(golf)(report, zulu);
-                options = entity.Math;
-                oscar = options.min;
+                golfie = oscard.bind(golfie)(report, zuuluu);
+                option = entity.Math;
+                oscard = option.min;
                 report = _closure1_slot10;
-                zulu = mike.goliveMaxQuality;
-                offset = zulu.encode;
-                yankee = romeo == offset;
-                zulu = undefined;
+                zuuluu = michal.goliveMaxQuality;
+                offset = zuuluu.encode;
+                yankee = romeon == offset;
+                zuuluu = undefined;
                 if(yankee) { _fun00022_ip = 106; continue _fun00021 }
  101:
-                zulu = offset.height;
+                zuuluu = offset.height;
  106:
-                if(!(romeo == zulu)) { _fun00022_ip = 114; continue _fun00021 }
+                if(!(romeon == zuuluu)) { _fun00022_ip = 114; continue _fun00021 }
  110:
-                zulu = _closure1_slot10;
+                zuuluu = _closure1_slot10;
  114:
-                oscar = oscar.bind(options)(report, zulu);
+                oscard = oscard.bind(option)(report, zuuluu);
                 offset = entity.Math;
-                options = offset.min;
+                option = offset.min;
                 report = _closure1_slot11;
-                zulu = mike.goliveMaxQuality;
-                yankee = zulu.encode;
-                foxtrot = romeo == yankee;
-                zulu = undefined;
-                if(foxtrot) { _fun00022_ip = 162; continue _fun00021 }
+                zuuluu = michal.goliveMaxQuality;
+                yankee = zuuluu.encode;
+                foxtra = romeon == yankee;
+                zuuluu = undefined;
+                if(foxtra) { _fun00022_ip = 162; continue _fun00021 }
  156:
-                zulu = yankee.framerate;
+                zuuluu = yankee.framerate;
  162:
-                if(!(romeo == zulu)) { _fun00022_ip = 170; continue _fun00021 }
+                if(!(romeon == zuuluu)) { _fun00022_ip = 170; continue _fun00021 }
  166:
-                zulu = _closure1_slot11;
+                zuuluu = _closure1_slot11;
  170:
-                options = options.bind(offset)(report, zulu);
+                option = option.bind(offset)(report, zuuluu);
                 yankee = entity.Math;
                 offset = yankee.min;
                 report = _closure1_slot9;
-                zulu = mike.goliveMaxQuality;
-                foxtrot = zulu.capture;
-                backup = romeo == foxtrot;
-                zulu = undefined;
+                zuuluu = michal.goliveMaxQuality;
+                foxtra = zuuluu.capture;
+                backup = romeon == foxtra;
+                zuuluu = undefined;
                 if(backup) { _fun00022_ip = 217; continue _fun00021 }
  212:
-                zulu = foxtrot.width;
+                zuuluu = foxtra.width;
  217:
-                if(!(romeo == zulu)) { _fun00022_ip = 225; continue _fun00021 }
+                if(!(romeon == zuuluu)) { _fun00022_ip = 225; continue _fun00021 }
  221:
-                zulu = _closure1_slot9;
+                zuuluu = _closure1_slot9;
  225:
-                yankee = offset.bind(yankee)(report, zulu);
-                foxtrot = entity.Math;
-                offset = foxtrot.min;
+                yankee = offset.bind(yankee)(report, zuuluu);
+                foxtra = entity.Math;
+                offset = foxtra.min;
                 report = _closure1_slot10;
-                zulu = mike.goliveMaxQuality;
-                backup = zulu.capture;
-                kilo = romeo == backup;
-                zulu = undefined;
-                if(kilo) { _fun00022_ip = 272; continue _fun00021 }
+                zuuluu = michal.goliveMaxQuality;
+                backup = zuuluu.capture;
+                kiloes = romeon == backup;
+                zuuluu = undefined;
+                if(kiloes) { _fun00022_ip = 272; continue _fun00021 }
  267:
-                zulu = backup.height;
+                zuuluu = backup.height;
  272:
-                if(!(romeo == zulu)) { _fun00022_ip = 280; continue _fun00021 }
+                if(!(romeon == zuuluu)) { _fun00022_ip = 280; continue _fun00021 }
  276:
-                zulu = _closure1_slot10;
+                zuuluu = _closure1_slot10;
  280:
-                offset = offset.bind(foxtrot)(report, zulu);
+                offset = offset.bind(foxtra)(report, zuuluu);
                 report = entity.Math;
-                zulu = report.min;
+                zuuluu = report.min;
                 entity = _closure1_slot11;
-                foxtrot = mike.goliveMaxQuality;
-                foxtrot = foxtrot.capture;
-                backup = romeo == foxtrot;
+                foxtra = michal.goliveMaxQuality;
+                foxtra = foxtra.capture;
+                backup = romeon == foxtra;
                 verify = undefined;
                 if(backup) { _fun00022_ip = 328; continue _fun00021 }
  322:
-                verify = foxtrot.framerate;
+                verify = foxtra.framerate;
  328:
-                if(!(romeo == verify)) { _fun00022_ip = 336; continue _fun00021 }
+                if(!(romeon == verify)) { _fun00022_ip = 336; continue _fun00021 }
  332:
                 verify = _closure1_slot11;
  336:
-                verify = zulu.bind(report)(entity, verify);
-                zulu = _closure1_slot12;
+                verify = zuuluu.bind(report)(entity, verify);
+                zuuluu = _closure1_slot12;
                 entity = {};
                 report = {};
                 report['width'] = yankee;
@@ -884,43 +884,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report['framerate'] = verify;
                 entity['capture'] = report;
                 report = {};
-                report['width'] = golf;
-                report['height'] = oscar;
-                report['framerate'] = options;
-                oscar = golf * oscar;
-                report['pixelCount'] = oscar;
+                report['width'] = golfie;
+                report['height'] = oscard;
+                report['framerate'] = option;
+                oscard = golfie * oscard;
+                report['pixelCount'] = oscard;
                 entity['encode'] = report;
-                tango = _closure1_slot8;
-                entity['bitrateMin'] = tango;
-                tango = mike.goliveSimulcastLQBitrateMax;
-                entity['bitrateMax'] = tango;
-                mike = mike.goliveSimulcastLQBitrateTarget;
-                entity['bitrateTarget'] = mike;
-                mike = zulu.prototype;
-                mike = Object.create(mike, {constructor: {value: zulu}});
-                result = mike;
+                tangon = _closure1_slot8;
+                entity['bitrateMin'] = tangon;
+                tangon = michal.goliveSimulcastLQBitrateMax;
+                entity['bitrateMax'] = tangon;
+                michal = michal.goliveSimulcastLQBitrateTarget;
+                entity['bitrateTarget'] = michal;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                result = michal;
                 output = entity;
-                entity = new result[zulu](output, sizing);
-                entity = entity instanceof Object ? entity : mike;
+                entity = new result[zuuluu](output, sizing);
+                entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
         };
         entity['value'] = report;
-        mike[10] = entity;
+        michal[10] = entity;
         entity = undefined;
-        entity = tango.bind(entity)(zulu, mike);
+        entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike = mike.bind(entity)();
-    golf = 4;
-    golf = verify[golf];
-    verify = options.bind(entity)(golf);
-    options = verify.fileFinishedImporting;
-    golf = '../discord_common/js/packages/media-engine/VideoQualityManager.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['VIDEO_QUALITY_MODES_TO_OVERWRITES'] = oscar;
-    zulu['WantsVideoQuality'] = report;
-    zulu['VideoQuality'] = tango;
-    zulu['VideoQualityManager'] = mike;
+    michal = michal.bind(entity)();
+    golfie = 4;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = '../discord_common/js/packages/media-engine/VideoQualityManager.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['VIDEO_QUALITY_MODES_TO_OVERWRITES'] = oscard;
+    zuuluu['WantsVideoQuality'] = report;
+    zuuluu['VideoQuality'] = tangon;
+    zuuluu['VideoQualityManager'] = michal;
     return entity;
 })();

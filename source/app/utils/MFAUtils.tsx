@@ -1,151 +1,151 @@
 // app/utils/MFAUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        options = argBar;
-        zulu = argFred;
-        verify = argPlugh;
+        option = argBar;
+        zuuluu = argFre;
+        verify = argPlu;
         entity = argBaz;
         var _closure1_slot0 = entity;
         var _closure1_slot1 = verify;
-        tango = function(argFoo) { // Original name: encodeTotpSecret
-            tango = argFoo;
-            zulu = tango.replace;
-            mike = /[\s._-]+/g;
+        tangon = function(argFoo) { // Original name: encodeTotpSecret
+            tangon = argFoo;
+            zuuluu = tangon.replace;
+            michal = /[\s._-]+/g;
             entity = '';
-            mike = zulu.bind(tango)(mike, entity);
-            entity = mike.toUpperCase;
-            entity = entity.bind(mike)();
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = michal.toUpperCase;
+            entity = entity.bind(michal)();
             return entity;
         };
-        var _closure1_slot3 = tango;
+        var _closure1_slot3 = tangon;
         report = global;
         offset = report.Object;
-        golf = offset.defineProperty;
-        oscar = {};
+        golfie = offset.defineProperty;
+        oscard = {};
         entity = true;
-        oscar['value'] = entity;
+        oscard['value'] = entity;
         entity = '__esModule';
-        entity = golf.bind(offset)(zulu, entity, oscar);
-        oscar = report.window;
-        golf = null;
-        offset = golf == oscar;
+        entity = golfie.bind(offset)(zuuluu, entity, oscard);
+        oscard = report.window;
+        golfie = null;
+        offset = golfie == oscard;
         entity = undefined;
         yankee = undefined;
         if(offset) { _fun00002_ip = 90; continue _fun00001 }
  84:
-        yankee = oscar.crypto;
+        yankee = oscard.crypto;
  90:
-        if(!(golf == yankee)) { _fun00002_ip = 118; continue _fun00001 }
+        if(!(golfie == yankee)) { _fun00002_ip = 118; continue _fun00001 }
  94:
         offset = report.window;
-        romeo = golf == offset;
-        oscar = undefined;
-        if(romeo) { _fun00002_ip = 115; continue _fun00001 }
+        romeon = golfie == offset;
+        oscard = undefined;
+        if(romeon) { _fun00002_ip = 115; continue _fun00001 }
  109:
-        oscar = offset.msCrypto;
+        oscard = offset.msCrypto;
  115:
-        yankee = oscar;
+        yankee = oscard;
  118:
         var _closure1_slot2 = yankee;
-        oscar = report.window;
+        oscard = report.window;
         report = 'Uint8Array';
-        report = report in oscar;
-        oscar = golf != yankee;
-        if(!oscar) { _fun00002_ip = 151; continue _fun00001 }
+        report = report in oscard;
+        oscard = golfie != yankee;
+        if(!oscard) { _fun00002_ip = 151; continue _fun00001 }
  143:
         offset = 'getRandomValues';
-        oscar = offset in yankee;
+        oscard = offset in yankee;
  151:
-        if(!oscar) { _fun00002_ip = 157; continue _fun00001 }
+        if(!oscard) { _fun00002_ip = 157; continue _fun00001 }
  154:
-        oscar = report;
+        oscard = report;
  157:
         report = 0;
         report = verify[report];
-        report = options.bind(entity)(report);
+        report = option.bind(entity)(report);
         report = report.NativeModules;
         report = report.DCDSecurityKeyManager;
-        report = golf != report;
-        golf = 2;
-        golf = verify[golf];
-        verify = options.bind(entity)(golf);
-        options = verify.fileFinishedImporting;
-        golf = 'utils/MFAUtils.tsx';
-        golf = options.bind(verify)(golf);
-        zulu['hasCrypto'] = oscar;
-        zulu['hasWebAuthn'] = report;
+        report = golfie != report;
+        golfie = 2;
+        golfie = verify[golfie];
+        verify = option.bind(entity)(golfie);
+        option = verify.fileFinishedImporting;
+        golfie = 'utils/MFAUtils.tsx';
+        golfie = option.bind(verify)(golfie);
+        zuuluu['hasCrypto'] = oscard;
+        zuuluu['hasWebAuthn'] = report;
         report = function() { // Original name: generateTotpSecret
-            tango = _closure1_slot2;
-            zulu = tango.getRandomValues;
-            mike = global;
-            oscar = mike.Uint8Array;
-            mike = oscar.prototype;
-            report = Object.create(mike, {constructor: {value: oscar}});
-            options = 20;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getRandomValues;
+            michal = global;
+            oscard = michal.Uint8Array;
+            michal = oscard.prototype;
+            report = Object.create(michal, {constructor: {value: oscard}});
+            option = 20;
             verify = report;
-            mike = new verify[oscar](options, golf);
-            mike = mike instanceof Object ? mike : report;
-            zulu = zulu.bind(tango)(mike);
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            michal = new verify[oscard](option, golfie);
+            michal = michal instanceof Object ? michal : report;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.encode;
-            zulu = entity.bind(mike)(zulu);
-            mike = zulu.toString;
+            michal = tangon.bind(entity)(michal);
+            entity = michal.encode;
+            zuuluu = entity.bind(michal)(zuuluu);
+            michal = zuuluu.toString;
             entity = 'utf8';
-            tango = mike.bind(zulu)(entity);
-            zulu = tango.replace;
-            mike = /=/g;
+            tangon = michal.bind(zuuluu)(entity);
+            zuuluu = tangon.replace;
+            michal = /=/g;
             entity = '';
-            mike = zulu.bind(tango)(mike, entity);
-            entity = mike.toLowerCase;
-            tango = entity.bind(mike)();
-            zulu = tango.replace;
-            mike = /(\w{4})/g;
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = michal.toLowerCase;
+            tangon = entity.bind(michal)();
+            zuuluu = tangon.replace;
+            michal = /(\w{4})/g;
             entity = '$1 ';
-            mike = zulu.bind(tango)(mike, entity);
-            entity = mike.trim;
-            entity = entity.bind(mike)();
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = michal.trim;
+            entity = entity.bind(michal)();
             return entity;
         };
-        zulu['generateTotpSecret'] = report;
-        zulu['encodeTotpSecret'] = tango;
-        mike = function(argFoo, argBar) { // Original name: encodeTotpSecretAsUrl
+        zuuluu['generateTotpSecret'] = report;
+        zuuluu['encodeTotpSecret'] = tangon;
+        michal = function(argFoo, argBar) { // Original name: encodeTotpSecretAsUrl
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tango = arguments[2];
-                zulu = undefined;
-                if(!(tango === zulu)) { _fun00004_ip = 15; continue _fun00003 }
+                tangon = arguments[2];
+                zuuluu = undefined;
+                if(!(tangon === zuuluu)) { _fun00004_ip = 15; continue _fun00003 }
  9:
-                tango = 'Discord';
+                tangon = 'Discord';
  15:
                 entity = global;
-                mike = entity.encodeURI;
-                verify = mike.bind(zulu)(tango);
+                michal = entity.encodeURI;
+                verify = michal.bind(zuuluu)(tangon);
                 report = entity.encodeURI;
-                mike = argFoo;
-                backup = report.bind(zulu)(mike);
+                michal = argFoo;
+                backup = report.bind(zuuluu)(michal);
                 report = _closure1_slot3;
-                mike = argBar;
-                romeo = report.bind(zulu)(mike);
-                mike = entity.encodeURIComponent;
-                offset = mike.bind(zulu)(tango);
+                michal = argBar;
+                romeon = report.bind(zuuluu)(michal);
+                michal = entity.encodeURIComponent;
+                offset = michal.bind(zuuluu)(tangon);
                 entity = entity.HermesInternal;
                 report = entity.concat;
                 output = 'otpauth://totp/';
-                kilo = ':';
-                foxtrot = '?secret=';
+                kiloes = ':';
+                foxtra = '?secret=';
                 yankee = '&issuer=';
                 sizing = verify;
-                entity = output[report](sizing, kilo, backup, foxtrot, romeo, yankee, offset, verify);
+                entity = output[report](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
                 return entity;
             }
         };
-        zulu['encodeTotpSecretAsUrl'] = mike;
+        zuuluu['encodeTotpSecretAsUrl'] = michal;
         return entity;
     }
 })();

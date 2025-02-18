@@ -1,84 +1,84 @@
 // app/modules/voice_calls/native/audio_output_selector/showAudioOutputSelector.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.VOICE_PANEL_AUDIO_OUTPUT_ACTION_SHEET_KEY;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/voice_calls/native/audio_output_selector/showAudioOutputSelector.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: showAudioOutputSelector
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VOICE_PANEL_AUDIO_OUTPUT_ACTION_SHEET_KEY;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/voice_calls/native/audio_output_selector/showAudioOutputSelector.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: showAudioOutputSelector
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00002_ip = 67; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
  37:
-            zulu = _closure1_slot3;
-            tango = zulu.AudioRoutePicker;
-            zulu = null;
-            if(!(zulu != tango)) { _fun00002_ip = 155; continue _fun00001 }
+            zuuluu = _closure1_slot3;
+            tangon = zuuluu.AudioRoutePicker;
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00002_ip = 155; continue _fun00001 }
  53:
-            zulu = tango.showAudioPicker;
-            zulu = zulu.bind(tango)();
+            zuuluu = tangon.showAudioPicker;
+            zuuluu = zuuluu.bind(tangon)();
             _fun00002_ip = 155; continue _fun00001;
  67:
             report = _closure1_slot1;
-            zulu = _closure1_slot2;
-            tango = 3;
-            tango = zulu[tango];
-            oscar = report.bind(entity)(tango);
-            report = oscar.openLazy;
-            golf = _closure1_slot0;
-            tango = 5;
-            tango = zulu[tango];
-            golf = golf.bind(entity)(tango);
-            tango = 4;
-            tango = zulu[tango];
-            zulu = zulu.paths;
-            tango = golf.bind(entity)(tango, zulu);
-            zulu = _closure1_slot4;
-            mike = {};
-            golf = argFoo;
-            mike['channelId'] = golf;
-            golf = argBar;
-            mike['isConnectedToVoiceChannel'] = golf;
-            mike = report.bind(oscar)(tango, zulu, mike);
+            zuuluu = _closure1_slot2;
+            tangon = 3;
+            tangon = zuuluu[tangon];
+            oscard = report.bind(entity)(tangon);
+            report = oscard.openLazy;
+            golfie = _closure1_slot0;
+            tangon = 5;
+            tangon = zuuluu[tangon];
+            golfie = golfie.bind(entity)(tangon);
+            tangon = 4;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            tangon = golfie.bind(entity)(tangon, zuuluu);
+            zuuluu = _closure1_slot4;
+            michal = {};
+            golfie = argFoo;
+            michal['channelId'] = golfie;
+            golfie = argBar;
+            michal['isConnectedToVoiceChannel'] = golfie;
+            michal = report.bind(oscard)(tangon, zuuluu, michal);
  155:
             return entity;
         }
     };
-    zulu['showAudioOutputSelector'] = mike;
+    zuuluu['showAudioOutputSelector'] = michal;
     return entity;
 })();

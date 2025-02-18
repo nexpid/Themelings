@@ -1,72 +1,72 @@
 // app/modules/activities/utils/getPreviewVideoAssetUrl.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/getPreviewVideoAssetUrl.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getPreviewVideoAssetUrl
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/getPreviewVideoAssetUrl.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getPreviewVideoAssetUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             yankee = argFoo;
             offset = argBar;
-            mike = global;
-            entity = mike.window;
+            michal = global;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
             verify = entity.CDN_HOST;
-            entity = mike.window;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            oscar = entity.API_ENDPOINT;
+            oscard = entity.API_ENDPOINT;
             entity = null;
             if(!(entity == verify)) { _fun00002_ip = 112; continue _fun00001 }
  50:
-            entity = mike.location;
+            entity = michal.location;
             report = entity.protocol;
-            tango = _closure1_slot0;
-            zulu = tango.STORE_ASSET;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.STORE_ASSET;
             entity = 'mp4';
-            tango = zulu.bind(tango)(yankee, offset, entity);
-            entity = mike.HermesInternal;
-            zulu = entity.concat;
+            tangon = zuuluu.bind(tangon)(yankee, offset, entity);
+            entity = michal.HermesInternal;
+            zuuluu = entity.concat;
             entity = '';
-            entity = zulu.bind(entity)(report, oscar, tango);
+            entity = zuuluu.bind(entity)(report, oscard, tangon);
             _fun00002_ip = 176; continue _fun00001;
  112:
-            zulu = mike.location;
-            echo = zulu.protocol;
-            mike = mike.HermesInternal;
-            golf = mike.concat;
+            zuuluu = michal.location;
+            echoed = zuuluu.protocol;
+            michal = michal.HermesInternal;
+            golfie = michal.concat;
             update = '';
             result = '//';
             sizing = '/app-assets/';
             backup = '/store/';
-            romeo = '.mp4';
+            romeon = '.mp4';
             output = verify;
-            kilo = yankee;
-            foxtrot = offset;
-            entity = update[golf](echo, result, output, sizing, kilo, backup, foxtrot, romeo, yankee);
+            kiloes = yankee;
+            foxtra = offset;
+            entity = update[golfie](echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
  176:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

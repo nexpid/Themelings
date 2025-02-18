@@ -1,47 +1,47 @@
 // app/modules/calls/mobile/useIsCallActive.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo, argBar) { // Original name: checkIsCallActive
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo, argBar) { // Original name: checkIsCallActive
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot2;
-            zulu = report.isCallActive;
+            zuuluu = report.isCallActive;
             entity = argBar;
-            entity = zulu.bind(report)(tango, entity);
+            entity = zuuluu.bind(report)(tangon, entity);
             if(!entity) { _fun00002_ip = 61; continue _fun00001 }
  28:
-            zulu = _closure1_slot3;
-            mike = zulu.getParticipants;
-            tango = mike.bind(zulu)(tango);
-            zulu = tango.some;
-            mike = function(argFoo) {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getParticipants;
+            tangon = michal.bind(zuuluu)(tangon);
+            zuuluu = tangon.some;
+            michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = argFoo;
-                    zulu = mike.type;
+                    michal = argFoo;
+                    zuuluu = michal.type;
                     entity = _closure1_slot4;
                     entity = entity.USER;
-                    entity = zulu === entity;
+                    entity = zuuluu === entity;
                     if(!entity) { _fun00004_ip = 37; continue _fun00003 }
  28:
-                    mike = mike.ringing;
-                    entity = !mike;
+                    michal = michal.ringing;
+                    entity = !michal;
  37:
                     return entity;
                 }
             };
-            entity = zulu.bind(tango)(mike);
+            entity = zuuluu.bind(tangon)(michal);
  61:
             return entity;
         }
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -49,100 +49,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = options.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.ParticipantTypes;
     var _closure1_slot4 = report;
     report = 4;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/calls/mobile/useIsCallActive.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function(argFoo, argBar) { // Original name: useIsCallActive
-        golf = argFoo;
-        oscar = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+        golfie = argFoo;
+        oscard = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        options = _closure1_slot2;
-        zulu = new Array(2);
-        zulu[0] = options;
-        mike = _closure1_slot3;
-        zulu[1] = mike;
-        mike = new Array(2);
-        mike[0] = golf;
-        mike[1] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        option = _closure1_slot2;
+        zuuluu = new Array(2);
+        zuuluu[0] = option;
+        michal = _closure1_slot3;
+        zuuluu[1] = michal;
+        michal = new Array(2);
+        michal[0] = golfie;
+        michal[1] = oscard;
         entity = function() {
-            tango = _closure1_slot5;
-            zulu = _closure2_slot0;
-            mike = _closure2_slot1;
+            tangon = _closure1_slot5;
+            zuuluu = _closure2_slot0;
+            michal = _closure2_slot1;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['default'] = report;
-    zulu['checkIsCallActive'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useIsCallActiveNullable
-        golf = argFoo;
-        oscar = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+    zuuluu['default'] = report;
+    zuuluu['checkIsCallActive'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useIsCallActiveNullable
+        golfie = argFoo;
+        oscard = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        options = _closure1_slot2;
-        zulu = new Array(2);
-        zulu[0] = options;
-        mike = _closure1_slot3;
-        zulu[1] = mike;
-        mike = new Array(2);
-        mike[0] = golf;
-        mike[1] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        option = _closure1_slot2;
+        zuuluu = new Array(2);
+        zuuluu[0] = option;
+        michal = _closure1_slot3;
+        zuuluu[1] = michal;
+        michal = new Array(2);
+        michal[0] = golfie;
+        michal[1] = oscard;
         entity = function() {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zulu = _closure2_slot0;
+                zuuluu = _closure2_slot0;
                 entity = null;
-                entity = entity != zulu;
+                entity = entity != zuuluu;
                 if(!entity) { _fun00006_ip = 39; continue _fun00005 }
  16:
                 report = _closure1_slot5;
-                tango = _closure2_slot0;
-                zulu = _closure2_slot1;
-                mike = undefined;
-                entity = report.bind(mike)(tango, zulu);
+                tangon = _closure2_slot0;
+                zuuluu = _closure2_slot1;
+                michal = undefined;
+                entity = report.bind(michal)(tangon, zuuluu);
  39:
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useIsCallActiveNullable'] = mike;
+    zuuluu['useIsCallActiveNullable'] = michal;
     return entity;
 })();

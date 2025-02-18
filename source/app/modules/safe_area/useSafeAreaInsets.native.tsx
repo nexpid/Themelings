@@ -1,18 +1,18 @@
 // app/modules/safe_area/useSafeAreaInsets.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    tango = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
     entity = function(argFoo) { // Original name: STORE_GETTER
         entity = argFoo;
         entity = entity.safeAreaInsets;
@@ -20,37 +20,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot2 = entity;
     entity = 1;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/safe_area/useSafeAreaInsets.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useSafeAreaInsets
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 0;
-        mike = zulu[mike];
-        zulu = undefined;
-        mike = tango.bind(zulu)(mike);
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/safe_area/useSafeAreaInsets.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useSafeAreaInsets
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 0;
+        michal = zuuluu[michal];
+        zuuluu = undefined;
+        michal = tangon.bind(zuuluu)(michal);
         entity = _closure1_slot2;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function() { // Original name: getSafeAreaInsets
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: getSafeAreaInsets
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 0;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        mike = zulu.bind(entity)(mike);
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.safeAreaInsets;
         return entity;
     };
-    zulu['getSafeAreaInsets'] = mike;
+    zuuluu['getSafeAreaInsets'] = michal;
     return entity;
 })();

@@ -1,537 +1,537 @@
 // app/modules/premium/promotions/PromotionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
     verify = argBaz;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = options;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
     report = function(argFoo) { // Original name: outboundPromotionFromServer
-        mike = argFoo;
+        michal = argFoo;
         entity = {};
-        zulu = mike.id;
-        entity['id'] = zulu;
-        zulu = mike.start_date;
-        entity['startDate'] = zulu;
-        zulu = mike.end_date;
-        entity['endDate'] = zulu;
-        zulu = mike.outbound_redemption_end_date;
-        entity['outboundRedemptionEndDate'] = zulu;
-        zulu = mike.outbound_title;
-        entity['outboundTitle'] = zulu;
-        zulu = mike.outbound_redemption_modal_body;
-        entity['outboundRedemptionModalBody'] = zulu;
-        zulu = mike.outbound_redemption_page_link;
-        entity['outboundRedemptionPageLink'] = zulu;
-        zulu = mike.outbound_redemption_url_format;
-        entity['outboundRedemptionUrlFormat'] = zulu;
-        zulu = mike.outbound_terms_and_conditions;
-        entity['outboundTermsAndConditions'] = zulu;
-        mike = mike.flags;
-        entity['flags'] = mike;
+        zuuluu = michal.id;
+        entity['id'] = zuuluu;
+        zuuluu = michal.start_date;
+        entity['startDate'] = zuuluu;
+        zuuluu = michal.end_date;
+        entity['endDate'] = zuuluu;
+        zuuluu = michal.outbound_redemption_end_date;
+        entity['outboundRedemptionEndDate'] = zuuluu;
+        zuuluu = michal.outbound_title;
+        entity['outboundTitle'] = zuuluu;
+        zuuluu = michal.outbound_redemption_modal_body;
+        entity['outboundRedemptionModalBody'] = zuuluu;
+        zuuluu = michal.outbound_redemption_page_link;
+        entity['outboundRedemptionPageLink'] = zuuluu;
+        zuuluu = michal.outbound_redemption_url_format;
+        entity['outboundRedemptionUrlFormat'] = zuuluu;
+        zuuluu = michal.outbound_terms_and_conditions;
+        entity['outboundTermsAndConditions'] = zuuluu;
+        michal = michal.flags;
+        entity['flags'] = michal;
         return entity;
     };
     var _closure1_slot9 = report;
     entity = function(argFoo) { // Original name: claimedOutboundPromotionCodeFromServer
-        mike = argFoo;
+        michal = argFoo;
         entity = {};
-        zulu = mike.code;
-        entity['code'] = zulu;
-        zulu = mike.user_id;
-        entity['userId'] = zulu;
-        zulu = mike.claimed_at;
-        entity['claimedAt'] = zulu;
-        tango = _closure1_slot9;
-        zulu = mike.promotion;
-        mike = undefined;
-        mike = tango.bind(mike)(zulu);
-        entity['promotion'] = mike;
+        zuuluu = michal.code;
+        entity['code'] = zuuluu;
+        zuuluu = michal.user_id;
+        entity['userId'] = zuuluu;
+        zuuluu = michal.claimed_at;
+        entity['claimedAt'] = zuuluu;
+        tangon = _closure1_slot9;
+        zuuluu = michal.promotion;
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        entity['promotion'] = michal;
         return entity;
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _fetchClaimedOutboundPromotionCodes
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* () {
+        tangon = _closure1_slot2;
+        zuuluu = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 135; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 135; continue _fun00001 }
  10:
                     report = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    mike = 8;
-                    tango = tango[mike];
-                    mike = undefined;
-                    mike = report.bind(mike)(tango);
-                    report = mike.HTTP;
-                    tango = report.get;
-                    mike = {};
-                    oscar = _closure1_slot8;
-                    oscar = oscar.CLAIMED_OUTBOUND_PROMOTION_CODES;
-                    mike['url'] = oscar;
-                    oscar = {};
-                    golf = _closure1_slot3;
-                    golf = golf.locale;
-                    oscar['locale'] = golf;
-                    mike['query'] = oscar;
-                    oscar = true;
-                    mike['oldFormErrors'] = oscar;
-                    oscar = false;
-                    mike['rejectWithError'] = oscar;
-                    mike = tango.bind(report)(mike);
+                    tangon = _closure1_slot1;
+                    michal = 8;
+                    tangon = tangon[michal];
+                    michal = undefined;
+                    michal = report.bind(michal)(tangon);
+                    report = michal.HTTP;
+                    tangon = report.get;
+                    michal = {};
+                    oscard = _closure1_slot8;
+                    oscard = oscard.CLAIMED_OUTBOUND_PROMOTION_CODES;
+                    michal['url'] = oscard;
+                    oscard = {};
+                    golfie = _closure1_slot3;
+                    golfie = golfie.locale;
+                    oscard['locale'] = golfie;
+                    michal['query'] = oscard;
+                    oscard = true;
+                    michal['oldFormErrors'] = oscard;
+                    oscard = false;
+                    michal['rejectWithError'] = oscard;
+                    michal = tangon.bind(report)(michal);
                     SaveGenerator(address=104);
  102:
-                    return mike;
+                    return michal;
  104:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 132; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 132; continue _fun00001 }
  110:
-                    report = mike.body;
-                    tango = report.map;
-                    zulu = _closure1_slot10;
-                    zulu = tango.bind(report)(zulu);
-                    return zulu;
+                    report = michal.body;
+                    tangon = report.map;
+                    zuuluu = _closure1_slot10;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    return zuuluu;
  132:
-                    return mike;
+                    return michal;
  135:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot11 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot11 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _claimOutboundPromotion
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 108; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 108; continue _fun00003 }
  7:
                     report = _closure1_slot10;
-                    zulu = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    mike = 8;
-                    mike = tango[mike];
-                    tango = undefined;
-                    mike = zulu.bind(tango)(mike);
-                    oscar = mike.HTTP;
-                    zulu = oscar.post;
-                    mike = {};
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    michal = 8;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    michal = zuuluu.bind(tangon)(michal);
+                    oscard = michal.HTTP;
+                    zuuluu = oscard.post;
+                    michal = {};
                     verify = _closure1_slot8;
-                    options = verify.CLAIM_OUTBOUND_PROMOTION_CODE;
-                    golf = argFoo;
-                    golf = options.bind(verify)(golf);
-                    mike['url'] = golf;
-                    golf = false;
-                    mike['rejectWithError'] = golf;
-                    mike = zulu.bind(oscar)(mike);
+                    option = verify.CLAIM_OUTBOUND_PROMOTION_CODE;
+                    golfie = argFoo;
+                    golfie = option.bind(verify)(golfie);
+                    michal['url'] = golfie;
+                    golfie = false;
+                    michal['rejectWithError'] = golfie;
+                    michal = zuuluu.bind(oscard)(michal);
                     SaveGenerator(address=86);
  84:
-                    return mike;
+                    return michal;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 105; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 105; continue _fun00003 }
  92:
-                    zulu = mike.body;
-                    zulu = report.bind(tango)(zulu);
-                    return zulu;
+                    zuuluu = michal.body;
+                    zuuluu = report.bind(tangon)(zuuluu);
+                    return zuuluu;
  105:
-                    return mike;
+                    return michal;
  108:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot12 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot12 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot12 = entity;
-    tango = function(argFoo) { // Original name: isOutboundPromotionRedeemableByTrialUsers
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 9;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.hasFlag;
-        mike = argFoo;
-        mike = mike.flags;
+    tangon = function(argFoo) { // Original name: isOutboundPromotionRedeemableByTrialUsers
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 9;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.hasFlag;
+        michal = argFoo;
+        michal = michal.flags;
         entity = _closure1_slot7;
         entity = entity.IS_OUTBOUND_REDEEMABLE_BY_TRIAL_USERS;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot13 = tango;
+    var _closure1_slot13 = tangon;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, oscar);
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot2 = oscar;
-    oscar = 1;
-    oscar = options[oscar];
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot3 = oscar;
-    oscar = 2;
-    oscar = options[oscar];
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot4 = oscar;
-    oscar = 3;
-    oscar = options[oscar];
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot5 = oscar;
-    oscar = 4;
-    oscar = options[oscar];
-    oscar = verify.bind(entity)(oscar);
-    var _closure1_slot6 = oscar;
-    oscar = 5;
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.PromotionFlags;
-    var _closure1_slot7 = oscar;
-    oscar = 6;
-    oscar = options[oscar];
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.Endpoints;
-    var _closure1_slot8 = oscar;
-    oscar = 11;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/premium/promotions/PromotionUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = function(argFoo, argBar) { // Original name: getPromotionImageURL
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot2 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 2;
+    oscard = option[oscard];
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot4 = oscard;
+    oscard = 3;
+    oscard = option[oscard];
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot5 = oscard;
+    oscard = 4;
+    oscard = option[oscard];
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot6 = oscard;
+    oscard = 5;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.PromotionFlags;
+    var _closure1_slot7 = oscard;
+    oscard = 6;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.Endpoints;
+    var _closure1_slot8 = oscard;
+    oscard = 11;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/premium/promotions/PromotionUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo, argBar) { // Original name: getPromotionImageURL
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             yankee = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 7;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.isThemeDark;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.isThemeDark;
             entity = argBar;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             offset = 'logo-light';
             if(!entity) { _fun00006_ip = 57; continue _fun00005 }
  51:
             offset = 'logo-dark';
  57:
-            mike = global;
-            entity = mike.window;
+            michal = global;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
             verify = entity.CDN_HOST;
             entity = null;
             if(!(entity == verify)) { _fun00006_ip = 156; continue _fun00005 }
  83:
-            entity = mike.location;
-            echo = entity.protocol;
-            entity = mike.window;
+            entity = michal.location;
+            echoed = entity.protocol;
+            entity = michal.window;
             entity = entity.GLOBAL_ENV;
             result = entity.API_ENDPOINT;
-            entity = mike.HermesInternal;
-            oscar = entity.concat;
+            entity = michal.HermesInternal;
+            oscard = entity.concat;
             update = '';
             output = '/promotions/';
-            kilo = '/';
-            foxtrot = '?size=256';
+            kiloes = '/';
+            foxtra = '?size=256';
             sizing = yankee;
             backup = offset;
-            entity = update[oscar](echo, result, output, sizing, kilo, backup, foxtrot, romeo);
+            entity = update[oscard](echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
             _fun00006_ip = 218; continue _fun00005;
  156:
-            zulu = mike.location;
-            echo = zulu.protocol;
-            mike = mike.HermesInternal;
-            golf = mike.concat;
+            zuuluu = michal.location;
+            echoed = zuuluu.protocol;
+            michal = michal.HermesInternal;
+            golfie = michal.concat;
             update = '';
             result = '//';
             sizing = '/promotions/';
             backup = '/';
-            romeo = '?size=256';
+            romeon = '?size=256';
             output = verify;
-            kilo = yankee;
-            foxtrot = offset;
-            entity = update[golf](echo, result, output, sizing, kilo, backup, foxtrot, romeo, yankee);
+            kiloes = yankee;
+            foxtra = offset;
+            entity = update[golfie](echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
  218:
             return entity;
         }
     };
-    zulu['getPromotionImageURL'] = oscar;
-    zulu['outboundPromotionFromServer'] = report;
+    zuuluu['getPromotionImageURL'] = oscard;
+    zuuluu['outboundPromotionFromServer'] = report;
     report = function(argFoo) { // Original name: bogoPromotionFromServer
-        mike = argFoo;
+        michal = argFoo;
         entity = {};
-        zulu = mike.id;
-        entity['id'] = zulu;
-        zulu = mike.start_date;
-        entity['startDate'] = zulu;
-        mike = mike.end_date;
-        entity['endDate'] = mike;
+        zuuluu = michal.id;
+        entity['id'] = zuuluu;
+        zuuluu = michal.start_date;
+        entity['startDate'] = zuuluu;
+        michal = michal.end_date;
+        entity['endDate'] = michal;
         return entity;
     };
-    zulu['bogoPromotionFromServer'] = report;
+    zuuluu['bogoPromotionFromServer'] = report;
     report = function() { // Original name: fetchClaimedOutboundPromotionCodes
         entity = undefined;
-        tango = _closure1_slot11;
-        zulu = tango.apply;
+        tangon = _closure1_slot11;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['fetchClaimedOutboundPromotionCodes'] = report;
+    zuuluu['fetchClaimedOutboundPromotionCodes'] = report;
     report = function() { // Original name: claimOutboundPromotion
         entity = undefined;
-        tango = _closure1_slot12;
-        zulu = tango.apply;
+        tangon = _closure1_slot12;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['claimOutboundPromotion'] = report;
+    zuuluu['claimOutboundPromotion'] = report;
     report = function(argFoo, argBar) { // Original name: getOutboundPromotionRedemptionUrl
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argBar;
-            zulu = mike.outboundRedemptionUrlFormat;
+            michal = argBar;
+            zuuluu = michal.outboundRedemptionUrlFormat;
             entity = null;
-            if(!(entity == zulu)) { _fun00008_ip = 23; continue _fun00007 }
+            if(!(entity == zuuluu)) { _fun00008_ip = 23; continue _fun00007 }
  15:
-            entity = mike.outboundRedemptionPageLink;
+            entity = michal.outboundRedemptionPageLink;
             _fun00008_ip = 64; continue _fun00007;
  23:
-            report = mike.outboundRedemptionUrlFormat;
-            tango = report.replace;
-            mike = global;
-            oscar = mike.encodeURIComponent;
-            zulu = undefined;
-            mike = argFoo;
-            zulu = oscar.bind(zulu)(mike);
-            mike = '{code}';
-            entity = tango.bind(report)(mike, zulu);
+            report = michal.outboundRedemptionUrlFormat;
+            tangon = report.replace;
+            michal = global;
+            oscard = michal.encodeURIComponent;
+            zuuluu = undefined;
+            michal = argFoo;
+            zuuluu = oscard.bind(zuuluu)(michal);
+            michal = '{code}';
+            entity = tangon.bind(report)(michal, zuuluu);
  64:
             return entity;
         }
     };
-    zulu['getOutboundPromotionRedemptionUrl'] = report;
+    zuuluu['getOutboundPromotionRedemptionUrl'] = report;
     report = function() { // Original name: shouldShowOutboundPromotionNotice
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tango = _closure1_slot6;
-            mike = tango.lastSeenOutboundPromotionStartDate;
-            var _closure2_slot0 = mike;
-            oscar = tango.outboundPromotions;
-            tango = tango.consumedInboundPromotionId;
-            var _closure2_slot1 = tango;
-            report = oscar.filter;
-            tango = function(argFoo) {
+            tangon = _closure1_slot6;
+            michal = tangon.lastSeenOutboundPromotionStartDate;
+            var _closure2_slot0 = michal;
+            oscard = tangon.outboundPromotions;
+            tangon = tangon.consumedInboundPromotionId;
+            var _closure2_slot1 = tangon;
+            report = oscard.filter;
+            tangon = function(argFoo) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    mike = entity.id;
+                    michal = entity.id;
                     report = entity.flags;
                     entity = _closure2_slot1;
-                    entity = mike !== entity;
+                    entity = michal !== entity;
                     if(!entity) { _fun00012_ip = 77; continue _fun00011 }
  27:
-                    oscar = _closure1_slot0;
-                    tango = _closure1_slot1;
-                    zulu = 9;
-                    tango = tango[zulu];
-                    zulu = undefined;
-                    tango = oscar.bind(zulu)(tango);
-                    zulu = tango.hasFlag;
-                    mike = _closure1_slot7;
-                    mike = mike.SUPPRESS_NOTIFICATION;
-                    mike = zulu.bind(tango)(report, mike);
-                    entity = !mike;
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    zuuluu = 9;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    tangon = oscard.bind(zuuluu)(tangon);
+                    zuuluu = tangon.hasFlag;
+                    michal = _closure1_slot7;
+                    michal = michal.SUPPRESS_NOTIFICATION;
+                    michal = zuuluu.bind(tangon)(report, michal);
+                    entity = !michal;
  77:
                     return entity;
                 }
             };
-            oscar = report.bind(oscar)(tango);
-            tango = null;
-            golf = oscar;
-            if(!(tango != mike)) { _fun00010_ip = 78; continue _fun00009 }
+            oscard = report.bind(oscard)(tangon);
+            tangon = null;
+            golfie = oscard;
+            if(!(tangon != michal)) { _fun00010_ip = 78; continue _fun00009 }
  61:
-            report = oscar.filter;
-            mike = function(argFoo) {
+            report = oscard.filter;
+            michal = function(argFoo) {
                 entity = argFoo;
                 report = entity.startDate;
                 entity = global;
-                mike = entity.Date;
-                zulu = mike.prototype;
-                zulu = Object.create(zulu, {constructor: {value: mike}});
-                oscar = zulu;
-                mike = new oscar[mike](report, tango);
-                mike = mike instanceof Object ? mike : zulu;
-                tango = entity.Date;
+                michal = entity.Date;
+                zuuluu = michal.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+                oscard = zuuluu;
+                michal = new oscard[michal](report, tangon);
+                michal = michal instanceof Object ? michal : zuuluu;
+                tangon = entity.Date;
                 report = _closure2_slot0;
-                zulu = tango.prototype;
-                zulu = Object.create(zulu, {constructor: {value: tango}});
-                oscar = zulu;
-                entity = new oscar[tango](report, tango);
-                entity = entity instanceof Object ? entity : zulu;
-                entity = mike > entity;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                oscard = zuuluu;
+                entity = new oscard[tangon](report, tangon);
+                entity = entity instanceof Object ? entity : zuuluu;
+                entity = michal > entity;
                 return entity;
             };
-            golf = report.bind(oscar)(mike);
+            golfie = report.bind(oscard)(michal);
  78:
-            mike = _closure1_slot6;
-            mike = mike.lastDismissedOutboundPromotionStartDate;
-            var _closure2_slot2 = mike;
-            oscar = _closure1_slot4;
-            report = oscar.getPremiumTypeSubscription;
-            oscar = report.bind(oscar)();
-            options = tango == oscar;
+            michal = _closure1_slot6;
+            michal = michal.lastDismissedOutboundPromotionStartDate;
+            var _closure2_slot2 = michal;
+            oscard = _closure1_slot4;
+            report = oscard.getPremiumTypeSubscription;
+            oscard = report.bind(oscard)();
+            option = tangon == oscard;
             report = undefined;
-            if(options) { _fun00010_ip = 121; continue _fun00009 }
+            if(option) { _fun00010_ip = 121; continue _fun00009 }
  115:
-            report = oscar.trialId;
+            report = oscard.trialId;
  121:
-            report = tango != report;
-            oscar = _closure1_slot5;
-            entity = oscar.hasAnyUnexpiredOffer;
-            entity = entity.bind(oscar)();
+            report = tangon != report;
+            oscard = _closure1_slot5;
+            entity = oscard.hasAnyUnexpiredOffer;
+            entity = entity.bind(oscard)();
             if(report) { _fun00010_ip = 148; continue _fun00009 }
  142:
-            report = golf;
+            report = golfie;
             if(!entity) { _fun00010_ip = 165; continue _fun00009 }
  148:
-            oscar = golf.filter;
+            oscard = golfie.filter;
             entity = function(argFoo) {
-                zulu = _closure1_slot13;
-                mike = undefined;
+                zuuluu = _closure1_slot13;
+                michal = undefined;
                 entity = argFoo;
-                entity = zulu.bind(mike)(entity);
+                entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
-            report = oscar.bind(golf)(entity);
+            report = oscard.bind(golfie)(entity);
  165:
-            oscar = report.length;
+            oscard = report.length;
             entity = 0;
-            entity = entity !== oscar;
+            entity = entity !== oscard;
             if(!entity) { _fun00010_ip = 207; continue _fun00009 }
  179:
-            mike = tango == mike;
-            if(mike) { _fun00010_ip = 204; continue _fun00009 }
+            michal = tangon == michal;
+            if(michal) { _fun00010_ip = 204; continue _fun00009 }
  186:
-            tango = report.some;
-            zulu = function(argFoo) {
+            tangon = report.some;
+            zuuluu = function(argFoo) {
                 entity = argFoo;
                 report = entity.startDate;
                 entity = global;
-                mike = entity.Date;
-                zulu = mike.prototype;
-                zulu = Object.create(zulu, {constructor: {value: mike}});
-                oscar = zulu;
-                mike = new oscar[mike](report, tango);
-                mike = mike instanceof Object ? mike : zulu;
-                tango = entity.Date;
+                michal = entity.Date;
+                zuuluu = michal.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+                oscard = zuuluu;
+                michal = new oscard[michal](report, tangon);
+                michal = michal instanceof Object ? michal : zuuluu;
+                tangon = entity.Date;
                 report = _closure2_slot2;
-                zulu = tango.prototype;
-                zulu = Object.create(zulu, {constructor: {value: tango}});
-                oscar = zulu;
-                entity = new oscar[tango](report, tango);
-                entity = entity instanceof Object ? entity : zulu;
-                entity = mike > entity;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                oscard = zuuluu;
+                entity = new oscard[tangon](report, tangon);
+                entity = entity instanceof Object ? entity : zuuluu;
+                entity = michal > entity;
                 return entity;
             };
-            mike = tango.bind(report)(zulu);
+            michal = tangon.bind(report)(zuuluu);
  204:
-            entity = mike;
+            entity = michal;
  207:
             return entity;
         }
     };
-    zulu['shouldShowOutboundPromotionNotice'] = report;
+    zuuluu['shouldShowOutboundPromotionNotice'] = report;
     report = function(argFoo) { // Original name: shouldShowOutboundPromotionOnPlatform
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            zulu = _closure1_slot0;
-            tango = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 10;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.isIOS;
-            entity = entity.bind(zulu)();
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.isIOS;
+            entity = entity.bind(zuuluu)();
             entity = !entity;
             if(entity) { _fun00014_ip = 94; continue _fun00013 }
  41:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 9;
-            zulu = oscar[zulu];
-            report = tango.bind(report)(zulu);
-            tango = report.hasFlag;
-            zulu = argFoo;
-            zulu = zulu.flags;
-            mike = _closure1_slot7;
-            mike = mike.IS_BLOCKED_IOS;
-            mike = tango.bind(report)(zulu, mike);
-            entity = !mike;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 9;
+            zuuluu = oscard[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.hasFlag;
+            zuuluu = argFoo;
+            zuuluu = zuuluu.flags;
+            michal = _closure1_slot7;
+            michal = michal.IS_BLOCKED_IOS;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity = !michal;
  94:
             return entity;
         }
     };
-    zulu['shouldShowOutboundPromotionOnPlatform'] = report;
-    zulu['isOutboundPromotionRedeemableByTrialUsers'] = tango;
-    mike = function(argFoo, argBar) { // Original name: isTrialUserEligibleToSeeOutboundPromotion
+    zuuluu['shouldShowOutboundPromotionOnPlatform'] = report;
+    zuuluu['isOutboundPromotionRedeemableByTrialUsers'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: isTrialUserEligibleToSeeOutboundPromotion
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            tango = argFoo;
-            mike = tango.id;
+            tangon = argFoo;
+            michal = tangon.id;
             entity = argBar;
-            mike = entity[mike];
+            michal = entity[michal];
             entity = null;
-            entity = entity != mike;
+            entity = entity != michal;
             if(entity) { _fun00016_ip = 38; continue _fun00015 }
  24:
-            zulu = _closure1_slot13;
-            mike = undefined;
-            entity = zulu.bind(mike)(tango);
+            zuuluu = _closure1_slot13;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(tangon);
  38:
             return entity;
         }
     };
-    zulu['isTrialUserEligibleToSeeOutboundPromotion'] = mike;
+    zuuluu['isTrialUserEligibleToSeeOutboundPromotion'] = michal;
     return entity;
 })();

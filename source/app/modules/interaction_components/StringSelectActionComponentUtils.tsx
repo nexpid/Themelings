@@ -1,78 +1,78 @@
 // app/modules/interaction_components/StringSelectActionComponentUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/interaction_components/StringSelectActionComponentUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getInitialStringSelectOptions
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/interaction_components/StringSelectActionComponentUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getInitialStringSelectOptions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            golf = _closure1_slot2;
-            oscar = golf.getInteractionComponentState;
-            report = zulu.id;
-            mike = argBar;
-            mike = oscar.bind(golf)(mike, report);
+            zuuluu = argFoo;
+            golfie = _closure1_slot2;
+            oscard = golfie.getInteractionComponentState;
+            report = zuuluu.id;
+            michal = argBar;
+            michal = oscard.bind(golfie)(michal, report);
             report = null;
-            oscar = report == mike;
-            golf = undefined;
+            oscard = report == michal;
+            golfie = undefined;
             report = undefined;
-            if(oscar) { _fun00002_ip = 50; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 50; continue _fun00001 }
  45:
-            report = mike.type;
+            report = michal.type;
  50:
-            oscar = _closure1_slot0;
-            options = _closure1_slot1;
-            tango = 1;
-            tango = options[tango];
-            tango = oscar.bind(golf)(tango);
-            tango = tango.ComponentType;
-            tango = tango.STRING_SELECT;
-            if(!(report !== tango)) { _fun00002_ip = 123; continue _fun00001 }
+            oscard = _closure1_slot0;
+            option = _closure1_slot1;
+            tangon = 1;
+            tangon = option[tangon];
+            tangon = oscard.bind(golfie)(tangon);
+            tangon = tangon.ComponentType;
+            tangon = tangon.STRING_SELECT;
+            if(!(report !== tangon)) { _fun00002_ip = 123; continue _fun00001 }
  86:
-            report = zulu.options;
-            tango = report.filter;
-            zulu = function(argFoo) {
+            report = zuuluu.options;
+            tangon = report.filter;
+            zuuluu = function(argFoo) {
                 entity = argFoo;
                 entity = entity.default;
                 return entity;
             };
-            tango = tango.bind(report)(zulu);
-            zulu = tango.map;
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.map;
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.value;
                 return entity;
             };
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             _fun00002_ip = 128; continue _fun00001;
  123:
-            entity = mike.values;
+            entity = michal.values;
  128:
             return entity;
         }
     };
-    zulu['getInitialStringSelectOptions'] = mike;
+    zuuluu['getInitialStringSelectOptions'] = michal;
     return entity;
 })();

@@ -1,77 +1,77 @@
 // app/modules/hub/HubUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = report[entity];
+    michal = report[entity];
     entity = undefined;
-    mike = oscar.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = report[mike];
-    verify = oscar.bind(entity)(mike);
-    options = verify.throttle;
-    golf = {};
-    mike = false;
-    golf['trailing'] = mike;
-    oscar = function(argFoo) {
+    michal = oscard.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = report[michal];
+    verify = oscard.bind(entity)(michal);
+    option = verify.throttle;
+    golfie = {};
+    michal = false;
+    golfie['trailing'] = michal;
+    oscard = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot2;
-            zulu = tango.getInvite;
-            mike = argFoo;
-            mike = mike.code;
-            oscar = zulu.bind(tango)(mike);
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getInvite;
+            michal = argFoo;
+            michal = michal.code;
+            oscard = zuuluu.bind(tangon)(michal);
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.open;
-            mike = {};
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.open;
+            michal = {};
             report = null;
-            golf = report != oscar;
+            golfie = report != oscard;
             report = undefined;
-            if(!golf) { _fun00002_ip = 70; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 70; continue _fun00001 }
  67:
-            report = oscar;
+            report = oscard;
  70:
-            mike['invite'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['invite'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    mike = 1000;
-    mike = options.bind(verify)(oscar, mike, golf);
-    var _closure1_slot3 = mike;
-    mike = {};
-    tango = function(argFoo) { // Original name: onOpenHubInvite
-        zulu = _closure1_slot3;
+    michal = 1000;
+    michal = option.bind(verify)(oscard, michal, golfie);
+    var _closure1_slot3 = michal;
+    michal = {};
+    tangon = function(argFoo) { // Original name: onOpenHubInvite
+        zuuluu = _closure1_slot3;
         entity = undefined;
-        mike = argFoo;
-        mike = zulu.bind(entity)(mike);
+        michal = argFoo;
+        michal = zuuluu.bind(entity)(michal);
         return entity;
     };
-    mike['onOpenHubInvite'] = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/hub/HubUtils.native.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['onOpenHubInvite'] = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/hub/HubUtils.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

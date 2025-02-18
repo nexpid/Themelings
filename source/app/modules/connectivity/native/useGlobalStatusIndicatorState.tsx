@@ -1,233 +1,233 @@
 // app/modules/connectivity/native/useGlobalStatusIndicatorState.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.RTC_PANEL_HEIGHT;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot6 = tango;
-    tango = 13;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/connectivity/native/useGlobalStatusIndicatorState.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RTC_PANEL_HEIGHT;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot6 = tangon;
+    tangon = 13;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/connectivity/native/useGlobalStatusIndicatorState.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[0];
-            options = undefined;
-            if(!(mike === options)) { _fun00002_ip = 13; continue _fun00001 }
+            michal = arguments[0];
+            option = undefined;
+            if(!(michal === option)) { _fun00002_ip = 13; continue _fun00001 }
  11:
-            mike = false;
+            michal = false;
  13:
-            var _closure2_slot0 = options;
-            var _closure2_slot1 = options;
-            romeo = _closure1_slot0;
-            foxtrot = _closure1_slot2;
-            tango = 4;
-            tango = foxtrot[tango];
-            oscar = romeo.bind(options)(tango);
-            report = oscar.useHasPipParticipant;
-            tango = {};
-            golf = false;
-            tango['isActivityViewFocused'] = golf;
-            verify = report.bind(oscar)(tango);
-            oscar = _closure1_slot1;
-            tango = 5;
-            tango = foxtrot[tango];
-            tango = oscar.bind(options)(tango);
-            offset = tango.bind(options)();
-            tango = 6;
-            report = foxtrot[tango];
-            backup = romeo.bind(options)(report);
+            var _closure2_slot0 = option;
+            var _closure2_slot1 = option;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            tangon = 4;
+            tangon = foxtra[tangon];
+            oscard = romeon.bind(option)(tangon);
+            report = oscard.useHasPipParticipant;
+            tangon = {};
+            golfie = false;
+            tangon['isActivityViewFocused'] = golfie;
+            verify = report.bind(oscard)(tangon);
+            oscard = _closure1_slot1;
+            tangon = 5;
+            tangon = foxtra[tangon];
+            tangon = oscard.bind(option)(tangon);
+            offset = tangon.bind(option)();
+            tangon = 6;
+            report = foxtra[tangon];
+            backup = romeon.bind(option)(report);
             yankee = backup.useStateFromStores;
             report = _closure1_slot4;
-            golf = new Array(1);
-            golf[0] = report;
+            golfie = new Array(1);
+            golfie[0] = report;
             report = function() {
-                mike = _closure1_slot4;
-                entity = mike.getChannelId;
-                entity = entity.bind(mike)();
+                michal = _closure1_slot4;
+                entity = michal.getChannelId;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            backup = yankee.bind(backup)(golf, report);
+            backup = yankee.bind(backup)(golfie, report);
             _closure2_slot0 = backup;
             report = 7;
-            report = foxtrot[report];
-            report = oscar.bind(options)(report);
-            oscar = report.bind(options)();
-            _closure2_slot1 = oscar;
-            tango = foxtrot[tango];
-            yankee = romeo.bind(options)(tango);
-            golf = yankee.useStateFromStores;
-            tango = _closure1_slot3;
+            report = foxtra[report];
+            report = oscard.bind(option)(report);
+            oscard = report.bind(option)();
+            _closure2_slot1 = oscard;
+            tangon = foxtra[tangon];
+            yankee = romeon.bind(option)(tangon);
+            golfie = yankee.useStateFromStores;
+            tangon = _closure1_slot3;
             report = new Array(1);
-            report[0] = tango;
-            tango = new Array(2);
-            tango[0] = backup;
-            tango[1] = oscar;
-            zulu = function() {
+            report[0] = tangon;
+            tangon = new Array(2);
+            tangon[0] = backup;
+            tangon[1] = oscard;
+            zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot3;
-                    zulu = tango.getChannel;
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.getChannel;
                     entity = _closure2_slot0;
-                    tango = zulu.bind(tango)(entity);
+                    tangon = zuuluu.bind(tangon)(entity);
                     entity = null;
-                    zulu = entity == tango;
+                    zuuluu = entity == tangon;
                     entity = undefined;
-                    if(zulu) { _fun00004_ip = 45; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 45; continue _fun00003 }
  35:
-                    zulu = tango.isGuildStageVoice;
-                    entity = zulu.bind(tango)();
+                    zuuluu = tangon.isGuildStageVoice;
+                    entity = zuuluu.bind(tangon)();
  45:
                     if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  48:
-                    mike = _closure2_slot1;
-                    entity = !mike;
+                    michal = _closure2_slot1;
+                    entity = !michal;
  55:
                     return entity;
                 }
             };
-            zulu = golf.bind(yankee)(report, zulu, tango);
-            golf = null;
-            tango = golf != backup;
+            zuuluu = golfie.bind(yankee)(report, zuuluu, tangon);
+            golfie = null;
+            tangon = golfie != backup;
             report = 8;
-            report = foxtrot[report];
-            yankee = romeo.bind(options)(report);
+            report = foxtra[report];
+            yankee = romeon.bind(option)(report);
             report = yankee.useGetStageRTCPanelHeight;
             report = report.bind(yankee)(backup);
             yankee = 9;
-            yankee = foxtrot[yankee];
-            romeo = romeo.bind(options)(yankee);
-            yankee = romeo.useOpenModalKey;
-            romeo = yankee.bind(romeo)();
-            yankee = golf != offset;
+            yankee = foxtra[yankee];
+            romeon = romeon.bind(option)(yankee);
+            yankee = romeon.useOpenModalKey;
+            romeon = yankee.bind(romeon)();
+            yankee = golfie != offset;
             if(!yankee) { _fun00002_ip = 308; continue _fun00001 }
  260:
             backup = _closure1_slot0;
-            kilo = _closure1_slot2;
-            foxtrot = 10;
-            foxtrot = kilo[foxtrot];
-            backup = backup.bind(options)(foxtrot);
-            foxtrot = backup.getVoiceChannelKey;
+            kiloes = _closure1_slot2;
+            foxtra = 10;
+            foxtra = kiloes[foxtra];
+            backup = backup.bind(option)(foxtra);
+            foxtra = backup.getVoiceChannelKey;
             offset = offset.channelId;
-            if(!(golf == offset)) { _fun00002_ip = 299; continue _fun00001 }
+            if(!(golfie == offset)) { _fun00002_ip = 299; continue _fun00001 }
  295:
             offset = _closure1_slot6;
  299:
-            offset = foxtrot.bind(backup)(offset);
-            yankee = offset !== romeo;
+            offset = foxtra.bind(backup)(offset);
+            yankee = offset !== romeon;
  308:
-            romeo = {};
+            romeon = {};
             backup = _closure1_slot0;
             offset = _closure1_slot2;
-            foxtrot = 11;
-            foxtrot = offset[foxtrot];
-            backup = backup.bind(options)(foxtrot);
-            foxtrot = backup.useIsVoicePanelShowing;
-            foxtrot = foxtrot.bind(backup)();
-            romeo['voicePanelEnabled'] = foxtrot;
-            romeo['isRemoteVisible'] = yankee;
-            romeo['isVoiceChannelSelected'] = tango;
-            romeo['hasPipParticipant'] = verify;
-            romeo['showWhenParticipantOnScreen'] = mike;
+            foxtra = 11;
+            foxtra = offset[foxtra];
+            backup = backup.bind(option)(foxtra);
+            foxtra = backup.useIsVoicePanelShowing;
+            foxtra = foxtra.bind(backup)();
+            romeon['voicePanelEnabled'] = foxtra;
+            romeon['isRemoteVisible'] = yankee;
+            romeon['isVoiceChannelSelected'] = tangon;
+            romeon['hasPipParticipant'] = verify;
+            romeon['showWhenParticipantOnScreen'] = michal;
             verify = _closure1_slot1;
-            mike = 12;
-            mike = offset[mike];
-            mike = verify.bind(options)(mike);
-            mike = mike.bind(options)();
-            mike = golf != mike;
-            romeo['isConnectedToStageChannel'] = mike;
-            romeo['isInvitedToSpeak'] = oscar;
-            mike = romeo.voicePanelEnabled;
-            golf = romeo.isRemoteVisible;
-            options = romeo.isVoiceChannelSelected;
-            verify = romeo.hasPipParticipant;
-            offset = romeo.showWhenParticipantOnScreen;
-            yankee = romeo.isConnectedToStageChannel;
-            romeo = romeo.isInvitedToSpeak;
-            if(mike) { _fun00002_ip = 486; continue _fun00001 }
+            michal = 12;
+            michal = offset[michal];
+            michal = verify.bind(option)(michal);
+            michal = michal.bind(option)();
+            michal = golfie != michal;
+            romeon['isConnectedToStageChannel'] = michal;
+            romeon['isInvitedToSpeak'] = oscard;
+            michal = romeon.voicePanelEnabled;
+            golfie = romeon.isRemoteVisible;
+            option = romeon.isVoiceChannelSelected;
+            verify = romeon.hasPipParticipant;
+            offset = romeon.showWhenParticipantOnScreen;
+            yankee = romeon.isConnectedToStageChannel;
+            romeon = romeon.isInvitedToSpeak;
+            if(michal) { _fun00002_ip = 486; continue _fun00001 }
  444:
-            golf = !golf;
-            if(!golf) { _fun00002_ip = 462; continue _fun00001 }
+            golfie = !golfie;
+            if(!golfie) { _fun00002_ip = 462; continue _fun00001 }
  450:
             yankee = !yankee;
             if(yankee) { _fun00002_ip = 459; continue _fun00001 }
  456:
-            yankee = !romeo;
+            yankee = !romeon;
  459:
-            golf = yankee;
+            golfie = yankee;
  462:
-            if(!golf) { _fun00002_ip = 483; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 483; continue _fun00001 }
  465:
-            options = !options;
-            if(options) { _fun00002_ip = 480; continue _fun00001 }
+            option = !option;
+            if(option) { _fun00002_ip = 480; continue _fun00001 }
  471:
             if(!verify) { _fun00002_ip = 477; continue _fun00001 }
  474:
             verify = !offset;
  477:
-            options = verify;
+            option = verify;
  480:
-            golf = options;
+            golfie = option;
  483:
-            mike = golf;
+            michal = golfie;
  486:
-            mike = !mike;
-            if(!mike) { _fun00002_ip = 495; continue _fun00001 }
+            michal = !michal;
+            if(!michal) { _fun00002_ip = 495; continue _fun00001 }
  492:
-            if(oscar) { _fun00002_ip = 504; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 504; continue _fun00001 }
  495:
             report = 0;
-            if(!mike) { _fun00002_ip = 504; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 504; continue _fun00001 }
  500:
             report = _closure1_slot5;
  504:
             entity = {};
             entity['height'] = report;
-            entity['isVisible'] = mike;
-            if(!mike) { _fun00002_ip = 521; continue _fun00001 }
+            entity['isVisible'] = michal;
+            if(!michal) { _fun00002_ip = 521; continue _fun00001 }
  518:
-            mike = tango;
+            michal = tangon;
  521:
-            if(!mike) { _fun00002_ip = 527; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 527; continue _fun00001 }
  524:
-            mike = !zulu;
+            michal = !zuuluu;
  527:
-            entity['isCustomBackground'] = mike;
+            entity['isCustomBackground'] = michal;
             return entity;
         }
     };
-    zulu['useGlobalStatusIndicatorState'] = mike;
+    zuuluu['useGlobalStatusIndicatorState'] = michal;
     return entity;
 })();

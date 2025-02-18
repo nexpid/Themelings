@@ -1,71 +1,71 @@
 // app/modules/game_console/native/beginConsoleTransfer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    options = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    option = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _beginConsoleTransfer
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    romeo = argFoo;
-                    options = argBar;
+                    romeon = argFoo;
+                    option = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 322; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 322; continue _fun00001 }
  16:
-                    tango = _closure1_slot4;
-                    mike = tango.has;
-                    mike = mike.bind(tango)(options);
-                    if(mike) { _fun00002_ip = 65; continue _fun00001 }
+                    tangon = _closure1_slot4;
+                    michal = tangon.has;
+                    michal = michal.bind(tangon)(option);
+                    if(michal) { _fun00002_ip = 65; continue _fun00001 }
  36:
                     report = _closure1_slot1;
-                    tango = _closure1_slot2;
-                    mike = 8;
-                    mike = tango[mike];
-                    tango = undefined;
-                    mike = report.bind(tango)(mike);
-                    mike = mike.bind(tango)(romeo);
+                    tangon = _closure1_slot2;
+                    michal = 8;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    michal = report.bind(tangon)(michal);
+                    michal = michal.bind(tangon)(romeon);
                     _fun00002_ip = 172; continue _fun00001;
  65:
-                    tango = _closure1_slot0;
+                    tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    mike = 2;
-                    mike = report[mike];
+                    michal = 2;
+                    michal = report[michal];
                     offset = undefined;
-                    tango = tango.bind(offset)(mike);
-                    mike = tango.fetchDevices;
-                    mike = mike.bind(tango)(options);
+                    tangon = tangon.bind(offset)(michal);
+                    michal = tangon.fetchDevices;
+                    michal = michal.bind(tangon)(option);
                     SaveGenerator(address=102);
  100:
-                    return mike;
+                    return michal;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 319; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 319; continue _fun00001 }
  111:
-                    report = mike.length;
-                    tango = 1;
-                    if(!(tango === report)) { _fun00002_ip = 180; continue _fun00001 }
+                    report = michal.length;
+                    tangon = 1;
+                    if(!(tangon === report)) { _fun00002_ip = 180; continue _fun00001 }
  123:
-                    tango = 0;
-                    oscar = mike[tango];
+                    tangon = 0;
+                    oscard = michal[tangon];
                     report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    tango = 3;
-                    tango = golf[tango];
-                    report = report.bind(offset)(tango);
-                    tango = report.transferToPlaystationWithAlert;
-                    tango = tango.bind(report)(options, oscar, romeo);
+                    golfie = _closure1_slot2;
+                    tangon = 3;
+                    tangon = golfie[tangon];
+                    report = report.bind(offset)(tangon);
+                    tangon = report.transferToPlaystationWithAlert;
+                    tangon = tangon.bind(report)(option, oscard, romeon);
                     SaveGenerator(address=166);
  164:
-                    return tango;
+                    return tangon;
  166:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 177; continue _fun00001 }
@@ -73,103 +73,103 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = undefined;
                     return report;
  177:
-                    return tango;
+                    return tangon;
  180:
                     report = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    tango = 4;
-                    tango = yankee[tango];
-                    golf = report.bind(offset)(tango);
-                    oscar = golf.openLazy;
+                    tangon = 4;
+                    tangon = yankee[tangon];
+                    golfie = report.bind(offset)(tangon);
+                    oscard = golfie.openLazy;
                     verify = _closure1_slot0;
-                    zulu = 6;
-                    zulu = yankee[zulu];
-                    report = verify.bind(offset)(zulu);
-                    zulu = 5;
-                    tango = yankee[zulu];
-                    zulu = yankee.paths;
-                    report = report.bind(offset)(tango, zulu);
-                    foxtrot = romeo.id;
-                    zulu = global;
-                    zulu = zulu.HermesInternal;
-                    tango = zulu.concat;
-                    zulu = 'GameConsoleDeviceListActionSheet';
-                    tango = tango.bind(zulu)(foxtrot);
-                    zulu = {};
-                    zulu['channel'] = romeo;
-                    zulu['platform'] = options;
-                    options = 7;
-                    options = yankee[options];
-                    options = verify.bind(offset)(options);
-                    options = options.ImpressionNames;
-                    options = options.GAME_CONSOLE_DEVICE_LIST;
-                    zulu['impressionName'] = options;
-                    zulu = oscar.bind(golf)(report, tango, zulu);
-                    return zulu;
+                    zuuluu = 6;
+                    zuuluu = yankee[zuuluu];
+                    report = verify.bind(offset)(zuuluu);
+                    zuuluu = 5;
+                    tangon = yankee[zuuluu];
+                    zuuluu = yankee.paths;
+                    report = report.bind(offset)(tangon, zuuluu);
+                    foxtra = romeon.id;
+                    zuuluu = global;
+                    zuuluu = zuuluu.HermesInternal;
+                    tangon = zuuluu.concat;
+                    zuuluu = 'GameConsoleDeviceListActionSheet';
+                    tangon = tangon.bind(zuuluu)(foxtra);
+                    zuuluu = {};
+                    zuuluu['channel'] = romeon;
+                    zuuluu['platform'] = option;
+                    option = 7;
+                    option = yankee[option];
+                    option = verify.bind(offset)(option);
+                    option = option.ImpressionNames;
+                    option = option.GAME_CONSOLE_DEVICE_LIST;
+                    zuuluu['impressionName'] = option;
+                    zuuluu = oscard.bind(golfie)(report, tangon, zuuluu);
+                    return zuuluu;
  319:
-                    return mike;
+                    return michal;
  322:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
-    tango = global;
-    offset = tango.Object;
+    tangon = global;
+    offset = tangon.Object;
     verify = offset.defineProperty;
-    golf = {};
+    golfie = {};
     entity = true;
-    golf['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, golf);
+    entity = verify.bind(offset)(zuuluu, entity, golfie);
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     entity = undefined;
-    golf = options.bind(entity)(golf);
-    var _closure1_slot3 = golf;
-    golf = 1;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.PlatformTypes;
-    options = tango.Set;
-    verify = golf.PLAYSTATION;
-    tango = new Array(2);
-    tango[0] = verify;
-    golf = golf.PLAYSTATION_STAGING;
-    tango[1] = golf;
-    golf = options.prototype;
-    golf = Object.create(golf, {constructor: {value: options}});
-    backup = golf;
-    foxtrot = tango;
-    tango = new backup[options](foxtrot, romeo);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot4 = tango;
-    tango = 9;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_console/native/beginConsoleTransfer.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: beginConsoleTransfer
+    golfie = option.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
+    golfie = 1;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.PlatformTypes;
+    option = tangon.Set;
+    verify = golfie.PLAYSTATION;
+    tangon = new Array(2);
+    tangon[0] = verify;
+    golfie = golfie.PLAYSTATION_STAGING;
+    tangon[1] = golfie;
+    golfie = option.prototype;
+    golfie = Object.create(golfie, {constructor: {value: option}});
+    backup = golfie;
+    foxtra = tangon;
+    tangon = new backup[option](foxtra, romeon);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot4 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_console/native/beginConsoleTransfer.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: beginConsoleTransfer
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['beginConsoleTransfer'] = mike;
+    zuuluu['beginConsoleTransfer'] = michal;
     return entity;
 })();

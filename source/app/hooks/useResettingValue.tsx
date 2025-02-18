@@ -1,126 +1,126 @@
 // app/hooks/useResettingValue.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.useState;
-    var _closure1_slot4 = golf;
-    golf = tango.useCallback;
-    var _closure1_slot5 = golf;
-    tango = tango.useEffect;
-    var _closure1_slot6 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'hooks/useResettingValue.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useResettingValue
-        golf = argFoo;
-        options = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = options;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.useState;
+    var _closure1_slot4 = golfie;
+    golfie = tangon.useCallback;
+    var _closure1_slot5 = golfie;
+    tangon = tangon.useEffect;
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'hooks/useResettingValue.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useResettingValue
+        golfie = argFoo;
+        option = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = option;
         entity = _closure1_slot4;
         report = undefined;
-        tango = entity.bind(report)(golf);
+        tangon = entity.bind(report)(golfie);
         entity = _closure1_slot3;
         verify = 2;
-        oscar = entity.bind(report)(tango, verify);
+        oscard = entity.bind(report)(tangon, verify);
         entity = 0;
-        tango = oscar[entity];
+        tangon = oscard[entity];
         entity = 1;
-        entity = oscar[entity];
+        entity = oscard[entity];
         var _closure2_slot2 = entity;
-        oscar = _closure1_slot1;
+        oscard = _closure1_slot1;
         entity = _closure1_slot2;
         entity = entity[verify];
-        oscar = oscar.bind(report)(entity);
+        oscard = oscard.bind(report)(entity);
         entity = function() {
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 3;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             entity = entity.Timeout;
-            mike = entity.prototype;
-            mike = Object.create(mike, {constructor: {value: entity}});
-            report = mike;
-            entity = new report[entity](tango);
-            entity = entity instanceof Object ? entity : mike;
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            report = michal;
+            entity = new report[entity](tangon);
+            entity = entity instanceof Object ? entity : michal;
             return entity;
         };
-        oscar = oscar.bind(report)(entity);
-        var _closure2_slot3 = oscar;
+        oscard = oscard.bind(report)(entity);
+        var _closure2_slot3 = oscard;
         offset = _closure1_slot6;
         verify = new Array(1);
-        verify[0] = oscar;
+        verify[0] = oscard;
         entity = function() {
             entity = function() {
-                mike = _closure2_slot3;
-                entity = mike.stop;
-                entity = entity.bind(mike)();
+                michal = _closure2_slot3;
+                entity = michal.stop;
+                entity = entity.bind(michal)();
                 return entity;
             };
             return entity;
         };
         entity = offset.bind(report)(entity, verify);
         entity = new Array(2);
-        entity[0] = tango;
-        tango = _closure1_slot5;
-        zulu = new Array(3);
-        zulu[0] = options;
-        zulu[1] = golf;
-        zulu[2] = oscar;
-        mike = function(argFoo) {
+        entity[0] = tangon;
+        tangon = _closure1_slot5;
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        zuuluu[2] = oscard;
+        michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = argFoo;
-                zulu = _closure2_slot2;
+                tangon = argFoo;
+                zuuluu = _closure2_slot2;
                 entity = undefined;
-                zulu = zulu.bind(entity)(tango);
-                zulu = _closure2_slot0;
-                if(!(tango !== zulu)) { _fun00002_ip = 53; continue _fun00001 }
+                zuuluu = zuuluu.bind(entity)(tangon);
+                zuuluu = _closure2_slot0;
+                if(!(tangon !== zuuluu)) { _fun00002_ip = 53; continue _fun00001 }
  25:
                 report = _closure2_slot3;
-                tango = report.start;
-                zulu = _closure2_slot1;
-                mike = function() {
-                    zulu = _closure2_slot2;
-                    mike = _closure2_slot0;
+                tangon = report.start;
+                zuuluu = _closure2_slot1;
+                michal = function() {
+                    zuuluu = _closure2_slot2;
+                    michal = _closure2_slot0;
                     entity = undefined;
-                    entity = zulu.bind(entity)(mike);
+                    entity = zuuluu.bind(entity)(michal);
                     return entity;
                 };
-                mike = tango.bind(report)(zulu, mike);
+                michal = tangon.bind(report)(zuuluu, michal);
  53:
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
-        entity[1] = mike;
+        michal = tangon.bind(report)(michal, zuuluu);
+        entity[1] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

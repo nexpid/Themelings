@@ -1,206 +1,206 @@
 // app/modules/app_launcher/native/screens/home/useTrackAppLauncherHomeItemImpression.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/screens/home/useTrackAppLauncherHomeItemImpression.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useTrackAppLauncherHomeItemImpression
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/screens/home/useTrackAppLauncherHomeItemImpression.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useTrackAppLauncherHomeItemImpression
         report = _closure1_slot0;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         entity = 1;
-        tango = tango[entity];
+        tangon = tangon[entity];
         entity = undefined;
-        tango = report.bind(entity)(tango);
-        entity = tango.useTrackAppLauncherItemImpressionOnFirstView;
-        entity = entity.bind(tango)();
-        oscar = entity.trackAppLauncherItemImpressionOnFirstView;
-        var _closure2_slot0 = oscar;
+        tangon = report.bind(entity)(tangon);
+        entity = tangon.useTrackAppLauncherItemImpressionOnFirstView;
+        entity = entity.bind(tangon)();
+        oscard = entity.trackAppLauncherItemImpressionOnFirstView;
+        var _closure2_slot0 = oscard;
         entity = {};
         report = _closure1_slot2;
-        tango = report.useCallback;
-        zulu = new Array(1);
-        zulu[0] = oscar;
-        mike = function(argFoo) {
+        tangon = report.useCallback;
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function(argFoo) {
             entity = argFoo;
-            zulu = entity.viewableItems;
-            mike = zulu.forEach;
+            zuuluu = entity.viewableItems;
+            michal = zuuluu.forEach;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    oscar = entity.item;
-                    tango = oscar.type;
-                    golf = _closure1_slot0;
+                    oscard = entity.item;
+                    tangon = oscard.type;
+                    golfie = _closure1_slot0;
                     entity = _closure1_slot1;
                     report = 2;
-                    zulu = entity[report];
+                    zuuluu = entity[report];
                     entity = undefined;
-                    zulu = golf.bind(entity)(zulu);
-                    zulu = zulu.AppLauncherHomeListItemType;
-                    zulu = zulu.RECOMMENDATION_APP;
-                    if(!(tango !== zulu)) { _fun00002_ip = 355; continue _fun00001 }
+                    zuuluu = golfie.bind(entity)(zuuluu);
+                    zuuluu = zuuluu.AppLauncherHomeListItemType;
+                    zuuluu = zuuluu.RECOMMENDATION_APP;
+                    if(!(tangon !== zuuluu)) { _fun00002_ip = 355; continue _fun00001 }
  57:
-                    tango = oscar.type;
-                    golf = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    zulu = zulu[report];
-                    zulu = golf.bind(entity)(zulu);
-                    zulu = zulu.AppLauncherHomeListItemType;
-                    zulu = zulu.RECOMMENDATION_BANNER_CARD;
-                    if(!(tango !== zulu)) { _fun00002_ip = 311; continue _fun00001 }
+                    tangon = oscard.type;
+                    golfie = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    zuuluu = zuuluu[report];
+                    zuuluu = golfie.bind(entity)(zuuluu);
+                    zuuluu = zuuluu.AppLauncherHomeListItemType;
+                    zuuluu = zuuluu.RECOMMENDATION_BANNER_CARD;
+                    if(!(tangon !== zuuluu)) { _fun00002_ip = 311; continue _fun00001 }
  98:
-                    tango = oscar.type;
-                    golf = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    zulu = zulu[report];
-                    zulu = golf.bind(entity)(zulu);
-                    zulu = zulu.AppLauncherHomeListItemType;
-                    zulu = zulu.SHELF_ITEM;
-                    if(!(tango !== zulu)) { _fun00002_ip = 277; continue _fun00001 }
+                    tangon = oscard.type;
+                    golfie = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    zuuluu = zuuluu[report];
+                    zuuluu = golfie.bind(entity)(zuuluu);
+                    zuuluu = zuuluu.AppLauncherHomeListItemType;
+                    zuuluu = zuuluu.SHELF_ITEM;
+                    if(!(tangon !== zuuluu)) { _fun00002_ip = 277; continue _fun00001 }
  139:
-                    zulu = oscar.type;
-                    tango = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    mike = mike[report];
-                    mike = tango.bind(entity)(mike);
-                    mike = mike.AppLauncherHomeListItemType;
-                    mike = mike.SHELF_ITEM_TUPLE;
-                    if(!(zulu === mike)) { _fun00002_ip = 275; continue _fun00001 }
+                    zuuluu = oscard.type;
+                    tangon = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    michal = michal[report];
+                    michal = tangon.bind(entity)(michal);
+                    michal = michal.AppLauncherHomeListItemType;
+                    michal = michal.SHELF_ITEM_TUPLE;
+                    if(!(zuuluu === michal)) { _fun00002_ip = 275; continue _fun00001 }
  177:
-                    backup = oscar.shelfItem1SectionPosition;
-                    golf = oscar.shelfItem2SectionPosition;
-                    mike = oscar.shelfItem1;
-                    mike = mike.application;
-                    foxtrot = mike.id;
-                    mike = oscar.shelfItem2;
-                    zulu = null;
-                    tango = zulu == mike;
+                    backup = oscard.shelfItem1SectionPosition;
+                    golfie = oscard.shelfItem2SectionPosition;
+                    michal = oscard.shelfItem1;
+                    michal = michal.application;
+                    foxtra = michal.id;
+                    michal = oscard.shelfItem2;
+                    zuuluu = null;
+                    tangon = zuuluu == michal;
                     report = undefined;
-                    if(tango) { _fun00002_ip = 232; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 232; continue _fun00001 }
  222:
-                    mike = mike.application;
-                    report = mike.id;
+                    michal = michal.application;
+                    report = michal.id;
  232:
-                    mike = oscar.shelfItem1;
-                    mike = mike.application;
-                    romeo = mike.flags;
-                    mike = oscar.shelfItem2;
-                    zulu = zulu == mike;
-                    tango = undefined;
-                    if(zulu) { _fun00002_ip = 273; continue _fun00001 }
+                    michal = oscard.shelfItem1;
+                    michal = michal.application;
+                    romeon = michal.flags;
+                    michal = oscard.shelfItem2;
+                    zuuluu = zuuluu == michal;
+                    tangon = undefined;
+                    if(zuuluu) { _fun00002_ip = 273; continue _fun00001 }
  263:
-                    mike = mike.application;
-                    tango = mike.flags;
+                    michal = michal.application;
+                    tangon = michal.flags;
  273:
                     _fun00002_ip = 387; continue _fun00001;
  275:
                     return entity;
  277:
-                    backup = oscar.sectionPosition;
-                    foxtrot = oscar.applicationId;
-                    mike = oscar.section;
-                    mike = mike.application;
-                    romeo = mike.flags;
+                    backup = oscard.sectionPosition;
+                    foxtra = oscard.applicationId;
+                    michal = oscard.section;
+                    michal = michal.application;
+                    romeon = michal.flags;
                     report = undefined;
-                    golf = undefined;
-                    tango = undefined;
+                    golfie = undefined;
+                    tangon = undefined;
                     _fun00002_ip = 387; continue _fun00001;
  311:
-                    backup = oscar.sectionPosition;
-                    mike = oscar.item;
-                    mike = mike.application;
-                    foxtrot = mike.id;
-                    mike = oscar.item;
-                    mike = mike.application;
-                    romeo = mike.flags;
+                    backup = oscard.sectionPosition;
+                    michal = oscard.item;
+                    michal = michal.application;
+                    foxtra = michal.id;
+                    michal = oscard.item;
+                    michal = michal.application;
+                    romeon = michal.flags;
                     report = undefined;
-                    golf = undefined;
-                    tango = undefined;
+                    golfie = undefined;
+                    tangon = undefined;
                     _fun00002_ip = 387; continue _fun00001;
  355:
-                    backup = oscar.sectionPosition;
-                    mike = oscar.application;
-                    foxtrot = mike.id;
-                    mike = oscar.application;
-                    romeo = mike.flags;
+                    backup = oscard.sectionPosition;
+                    michal = oscard.application;
+                    foxtra = michal.id;
+                    michal = oscard.application;
+                    romeon = michal.flags;
                     report = undefined;
-                    golf = undefined;
-                    tango = undefined;
+                    golfie = undefined;
+                    tangon = undefined;
  387:
                     verify = _closure2_slot0;
-                    zulu = {};
-                    sizing = oscar.sectionName;
-                    options = global;
-                    offset = options.HermesInternal;
-                    kilo = offset.concat;
+                    zuuluu = {};
+                    sizing = oscard.sectionName;
+                    option = global;
+                    offset = option.HermesInternal;
+                    kiloes = offset.concat;
                     yankee = 'sectionName:';
                     offset = ' applicationId:';
-                    kilo = kilo.bind(yankee)(sizing, offset, foxtrot);
-                    zulu['itemKey'] = kilo;
-                    kilo = oscar.sectionName;
-                    zulu['sectionName'] = kilo;
-                    zulu['sectionPosition'] = backup;
-                    backup = oscar.sectionOverallPosition;
-                    zulu['sectionOverallPosition'] = backup;
-                    zulu['applicationId'] = foxtrot;
-                    zulu['applicationFlags'] = romeo;
-                    zulu = verify.bind(entity)(zulu);
+                    kiloes = kiloes.bind(yankee)(sizing, offset, foxtra);
+                    zuuluu['itemKey'] = kiloes;
+                    kiloes = oscard.sectionName;
+                    zuuluu['sectionName'] = kiloes;
+                    zuuluu['sectionPosition'] = backup;
+                    backup = oscard.sectionOverallPosition;
+                    zuuluu['sectionOverallPosition'] = backup;
+                    zuuluu['applicationId'] = foxtra;
+                    zuuluu['applicationFlags'] = romeon;
+                    zuuluu = verify.bind(entity)(zuuluu);
                     verify = null;
-                    zulu = verify != report;
-                    if(!zulu) { _fun00002_ip = 493; continue _fun00001 }
+                    zuuluu = verify != report;
+                    if(!zuuluu) { _fun00002_ip = 493; continue _fun00001 }
  489:
-                    zulu = verify != golf;
+                    zuuluu = verify != golfie;
  493:
-                    if(!zulu) { _fun00002_ip = 572; continue _fun00001 }
+                    if(!zuuluu) { _fun00002_ip = 572; continue _fun00001 }
  496:
-                    zulu = _closure2_slot0;
-                    mike = {};
-                    verify = oscar.sectionName;
-                    options = options.HermesInternal;
-                    options = options.concat;
-                    options = options.bind(yankee)(verify, offset, report);
-                    mike['itemKey'] = options;
-                    options = oscar.sectionName;
-                    mike['sectionName'] = options;
-                    mike['sectionPosition'] = golf;
-                    oscar = oscar.sectionOverallPosition;
-                    mike['sectionOverallPosition'] = oscar;
-                    mike['applicationId'] = report;
-                    mike['applicationFlags'] = tango;
-                    mike = zulu.bind(entity)(mike);
+                    zuuluu = _closure2_slot0;
+                    michal = {};
+                    verify = oscard.sectionName;
+                    option = option.HermesInternal;
+                    option = option.concat;
+                    option = option.bind(yankee)(verify, offset, report);
+                    michal['itemKey'] = option;
+                    option = oscard.sectionName;
+                    michal['sectionName'] = option;
+                    michal['sectionPosition'] = golfie;
+                    oscard = oscard.sectionOverallPosition;
+                    michal['sectionOverallPosition'] = oscard;
+                    michal['applicationId'] = report;
+                    michal['applicationFlags'] = tangon;
+                    michal = zuuluu.bind(entity)(michal);
  572:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        mike = tango.bind(report)(mike, zulu);
-        entity['trackAppLauncherHomeItemImpression'] = mike;
+        michal = tangon.bind(report)(michal, zuuluu);
+        entity['trackAppLauncherHomeItemImpression'] = michal;
         return entity;
     };
-    zulu['useTrackAppLauncherHomeItemImpression'] = mike;
+    zuuluu['useTrackAppLauncherHomeItemImpression'] = michal;
     return entity;
 })();

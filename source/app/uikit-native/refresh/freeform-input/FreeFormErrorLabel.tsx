@@ -1,93 +1,93 @@
 // app/uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: Label
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: Label
         entity = argFoo;
         report = entity.children;
-        oscar = entity.style;
-        mike = _closure1_slot0;
-        golf = _closure1_slot1;
-        tango = 2;
-        options = golf[tango];
-        tango = undefined;
-        verify = mike.bind(tango)(options);
-        options = verify.getNodeText;
-        yankee = options.bind(verify)(report);
+        oscard = entity.style;
+        michal = _closure1_slot0;
+        golfie = _closure1_slot1;
+        tangon = 2;
+        option = golfie[tangon];
+        tangon = undefined;
+        verify = michal.bind(tangon)(option);
+        option = verify.getNodeText;
+        yankee = option.bind(verify)(report);
         var _closure2_slot0 = yankee;
         offset = _closure1_slot2;
         verify = offset.useEffect;
-        options = new Array(1);
-        options[0] = yankee;
-        zulu = function() {
+        option = new Array(1);
+        option[0] = yankee;
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure2_slot0;
-                mike = null;
-                mike = mike != zulu;
-                if(!mike) { _fun00002_ip = 28; continue _fun00001 }
+                zuuluu = _closure2_slot0;
+                michal = null;
+                michal = michal != zuuluu;
+                if(!michal) { _fun00002_ip = 28; continue _fun00001 }
  16:
-                tango = _closure2_slot0;
-                zulu = '';
-                mike = zulu !== tango;
+                tangon = _closure2_slot0;
+                zuuluu = '';
+                michal = zuuluu !== tangon;
  28:
-                if(!mike) { _fun00002_ip = 77; continue _fun00001 }
+                if(!michal) { _fun00002_ip = 77; continue _fun00001 }
  31:
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 3;
-                zulu = zulu[mike];
-                mike = undefined;
-                mike = tango.bind(mike)(zulu);
-                zulu = mike.AccessibilityAnnouncer;
-                mike = zulu.announce;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 3;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                michal = tangon.bind(michal)(zuuluu);
+                zuuluu = michal.AccessibilityAnnouncer;
+                michal = zuuluu.announce;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
  77:
                 entity = undefined;
                 return entity;
             }
         };
-        zulu = verify.bind(offset)(zulu, options);
-        zulu = _closure1_slot3;
+        zuuluu = verify.bind(offset)(zuuluu, option);
+        zuuluu = _closure1_slot3;
         entity = 4;
-        entity = golf[entity];
-        entity = mike.bind(tango)(entity);
-        mike = entity.Text;
+        entity = golfie[entity];
+        entity = michal.bind(tangon)(entity);
+        michal = entity.Text;
         entity = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-danger'};
-        entity['style'] = oscar;
+        entity['style'] = oscard;
         entity['children'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

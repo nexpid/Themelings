@@ -1,62 +1,62 @@
 // app/utils/PlatformUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
-    tango = function() { // Original name: isWindows
-        zulu = /^win/;
-        mike = zulu.test;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = function() { // Original name: isWindows
+        zuuluu = /^win/;
+        michal = zuuluu.test;
         entity = _closure1_slot1;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     report = true;
-    oscar['value'] = report;
+    oscard['value'] = report;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
-    oscar = {};
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
+    oscard = {};
     entity = 'WINDOWS';
-    oscar['WINDOWS'] = entity;
+    oscard['WINDOWS'] = entity;
     entity = 'OSX';
-    oscar['OSX'] = entity;
+    oscard['OSX'] = entity;
     entity = 'LINUX';
-    oscar['LINUX'] = entity;
+    oscard['LINUX'] = entity;
     entity = 'WEB';
-    oscar['WEB'] = entity;
-    var _closure1_slot0 = oscar;
+    oscard['WEB'] = entity;
+    var _closure1_slot0 = oscard;
     entity = 'android';
     var _closure1_slot1 = entity;
-    golf = argPlugh;
+    golfie = argPlu;
     entity = 0;
-    options = golf[entity];
-    golf = argBar;
+    option = golfie[entity];
+    golfie = argBar;
     entity = undefined;
-    verify = golf.bind(entity)(options);
-    options = verify.fileFinishedImporting;
-    golf = 'utils/PlatformUtils.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['PlatformTypes'] = oscar;
-    zulu['isPlatformEmbedded'] = report;
-    zulu['isWindows'] = tango;
-    tango = function() { // Original name: isMac
+    verify = golfie.bind(entity)(option);
+    option = verify.fileFinishedImporting;
+    golfie = 'utils/PlatformUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['PlatformTypes'] = oscard;
+    zuuluu['isPlatformEmbedded'] = report;
+    zuuluu['isWindows'] = tangon;
+    tangon = function() { // Original name: isMac
         entity = false;
         return entity;
     };
-    zulu['isMac'] = tango;
-    tango = function() { // Original name: isLinux
+    zuuluu['isMac'] = tangon;
+    tangon = function() { // Original name: isLinux
         entity = false;
         return entity;
     };
-    zulu['isLinux'] = tango;
-    tango = function() { // Original name: isDesktop
+    zuuluu['isLinux'] = tangon;
+    tangon = function() { // Original name: isDesktop
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             if(entity) { _fun00002_ip = 18; continue _fun00001 }
  16:
             entity = false;
@@ -64,127 +64,127 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['isDesktop'] = tango;
-    tango = function() { // Original name: isWeb
+    zuuluu['isDesktop'] = tangon;
+    tangon = function() { // Original name: isWeb
         entity = false;
         return entity;
     };
-    zulu['isWeb'] = tango;
-    tango = function() { // Original name: isAndroidChrome
+    zuuluu['isWeb'] = tangon;
+    tangon = function() { // Original name: isAndroidChrome
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = global;
-            entity = mike.navigator;
+            michal = global;
+            entity = michal.navigator;
             entity = entity.userAgent;
-            zulu = null;
-            entity = zulu != entity;
+            zuuluu = null;
+            entity = zuuluu != entity;
             if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  23:
-            mike = mike.navigator;
-            tango = mike.userAgent;
-            mike = tango.toLowerCase;
-            report = mike.bind(tango)();
-            tango = report.match;
-            mike = '(android ).+chrome/[.0-9]* mobile';
-            mike = tango.bind(report)(mike);
-            entity = zulu != mike;
+            michal = michal.navigator;
+            tangon = michal.userAgent;
+            michal = tangon.toLowerCase;
+            report = michal.bind(tangon)();
+            tangon = report.match;
+            michal = '(android ).+chrome/[.0-9]* mobile';
+            michal = tangon.bind(report)(michal);
+            entity = zuuluu != michal;
  66:
             return entity;
         }
     };
-    zulu['isAndroidChrome'] = tango;
-    tango = function() { // Original name: isAndroidWeb
+    zuuluu['isAndroidChrome'] = tangon;
+    tangon = function() { // Original name: isAndroidWeb
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = global;
             entity = entity.navigator;
             report = entity.userAgent;
-            mike = null;
-            zulu = mike == report;
+            michal = null;
+            zuuluu = michal == report;
             entity = undefined;
-            if(zulu) { _fun00006_ip = 50; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 50; continue _fun00005 }
  25:
-            tango = report.match;
-            zulu = /android/i;
-            entity = tango.bind(report)(zulu);
+            tangon = report.match;
+            zuuluu = /android/i;
+            entity = tangon.bind(report)(zuuluu);
  50:
-            entity = mike != entity;
+            entity = michal != entity;
             return entity;
         }
     };
-    zulu['isAndroidWeb'] = tango;
-    tango = function() { // Original name: isMacWeb
+    zuuluu['isAndroidWeb'] = tangon;
+    tangon = function() { // Original name: isMacWeb
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = global;
             entity = entity.navigator;
             report = entity.userAgent;
-            mike = null;
-            zulu = mike == report;
+            michal = null;
+            zuuluu = michal == report;
             entity = undefined;
-            if(zulu) { _fun00008_ip = 50; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 50; continue _fun00007 }
  25:
-            tango = report.match;
-            zulu = /Macintosh/i;
-            entity = tango.bind(report)(zulu);
+            tangon = report.match;
+            zuuluu = /Macintosh/i;
+            entity = tangon.bind(report)(zuuluu);
  50:
-            entity = mike != entity;
+            entity = michal != entity;
             return entity;
         }
     };
-    zulu['isMacWeb'] = tango;
-    tango = function() { // Original name: isAndroid
+    zuuluu['isMacWeb'] = tangon;
+    tangon = function() { // Original name: isAndroid
         entity = true;
         return entity;
     };
-    zulu['isAndroid'] = tango;
-    tango = function() { // Original name: isIOS
+    zuuluu['isAndroid'] = tangon;
+    tangon = function() { // Original name: isIOS
         entity = false;
         return entity;
     };
-    zulu['isIOS'] = tango;
-    tango = function() { // Original name: getPlatform
+    zuuluu['isIOS'] = tangon;
+    tangon = function() { // Original name: getPlatform
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
             entity = undefined;
-            entity = zulu.bind(entity)();
-            mike = _closure1_slot0;
+            entity = zuuluu.bind(entity)();
+            michal = _closure1_slot0;
             if(entity) { _fun00010_ip = 28; continue _fun00009 }
  20:
-            entity = mike.WEB;
+            entity = michal.WEB;
             _fun00010_ip = 34; continue _fun00009;
  28:
-            entity = mike.WINDOWS;
+            entity = michal.WINDOWS;
  34:
             return entity;
         }
     };
-    zulu['getPlatform'] = tango;
-    tango = function() { // Original name: getPlatformName
+    zuuluu['getPlatform'] = tangon;
+    tangon = function() { // Original name: getPlatformName
         entity = _closure1_slot1;
         return entity;
     };
-    zulu['getPlatformName'] = tango;
-    tango = function() { // Original name: getNativePlatform
+    zuuluu['getPlatformName'] = tangon;
+    tangon = function() { // Original name: getNativePlatform
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zulu = _closure1_slot1;
-            mike = 'ios';
-            if(!(mike !== zulu)) { _fun00012_ip = 29; continue _fun00011 }
+            zuuluu = _closure1_slot1;
+            michal = 'ios';
+            if(!(michal !== zuuluu)) { _fun00012_ip = 29; continue _fun00011 }
  15:
-            mike = 'android';
-            if(!(mike !== zulu)) { _fun00012_ip = 29; continue _fun00011 }
+            michal = 'android';
+            if(!(michal !== zuuluu)) { _fun00012_ip = 29; continue _fun00011 }
  23:
-            mike = 'web';
-            return mike;
+            michal = 'web';
+            return michal;
  29:
             entity = _closure1_slot1;
             return entity;
         }
     };
-    zulu['getNativePlatform'] = tango;
-    mike = function() { // Original name: getOS
+    zuuluu['getNativePlatform'] = tangon;
+    michal = function() { // Original name: getOS
         entity = global;
         entity = entity.window;
         entity = entity.navigator;
@@ -192,6 +192,6 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         entity = 'android';
         return entity;
     };
-    zulu['getOS'] = mike;
+    zuuluu['getOS'] = michal;
     return entity;
 })();

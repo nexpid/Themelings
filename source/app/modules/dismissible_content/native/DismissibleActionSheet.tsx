@@ -1,110 +1,110 @@
 // app/modules/dismissible_content/native/DismissibleActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/dismissible_content/native/DismissibleActionSheet.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: DismissibleActionSheet
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/dismissible_content/native/DismissibleActionSheet.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: DismissibleActionSheet
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot0;
-        oscar = _closure1_slot1;
-        zulu = 1;
-        zulu = oscar[zulu];
-        oscar = undefined;
-        tango = tango.bind(oscar)(zulu);
-        zulu = function() {
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+        tangon = _closure1_slot0;
+        oscard = _closure1_slot1;
+        zuuluu = 1;
+        zuuluu = oscard[zuuluu];
+        oscard = undefined;
+        tangon = tangon.bind(oscard)(zuuluu);
+        zuuluu = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            oscar = zulu.bind(entity)(mike);
-            report = oscar.openLazy;
-            golf = _closure2_slot0;
-            mike = golf.importer;
-            tango = mike.bind(golf)();
-            zulu = golf.actionSheetKey;
-            mike = {};
-            yankee = mike;
-            offset = golf;
-            golf = copyDataProperties(yankee, offset);
-            options = function(argFoo) { // Original name: markAsDismissed
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+            oscard = zuuluu.bind(entity)(michal);
+            report = oscard.openLazy;
+            golfie = _closure2_slot0;
+            michal = golfie.importer;
+            tangon = michal.bind(golfie)();
+            zuuluu = golfie.actionSheetKey;
+            michal = {};
+            yankee = michal;
+            offset = golfie;
+            golfie = copyDataProperties(yankee, offset);
+            option = function(argFoo) { // Original name: markAsDismissed
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 2;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                report = zulu.bind(entity)(mike);
-                zulu = report.hideActionSheet;
-                tango = _closure2_slot0;
-                mike = tango.actionSheetKey;
-                mike = zulu.bind(report)(mike);
-                zulu = tango.markAsDismissed;
-                mike = argFoo;
-                mike = zulu.bind(tango)(mike);
+                report = zuuluu.bind(entity)(michal);
+                zuuluu = report.hideActionSheet;
+                tangon = _closure2_slot0;
+                michal = tangon.actionSheetKey;
+                michal = zuuluu.bind(report)(michal);
+                zuuluu = tangon.markAsDismissed;
+                michal = argFoo;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            golf = 'markAsDismissed';
-            mike[golf] = options;
-            mike = report.bind(oscar)(tango, zulu, mike);
+            golfie = 'markAsDismissed';
+            michal[golfie] = option;
+            michal = report.bind(oscard)(tangon, zuuluu, michal);
             return entity;
         };
-        zulu = tango.bind(oscar)(zulu);
-        tango = _closure1_slot2;
-        zulu = tango.useEffect;
-        oscar = report.actionSheetKey;
-        mike = new Array(2);
-        mike[0] = oscar;
+        zuuluu = tangon.bind(oscard)(zuuluu);
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useEffect;
+        oscard = report.actionSheetKey;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = report.hideSheetOnUnmount;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             entity = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    mike = _closure2_slot0;
-                    zulu = mike.hideSheetOnUnmount;
-                    mike = null;
-                    mike = mike != zulu;
-                    if(!mike) { _fun00002_ip = 32; continue _fun00001 }
+                    michal = _closure2_slot0;
+                    zuuluu = michal.hideSheetOnUnmount;
+                    michal = null;
+                    michal = michal != zuuluu;
+                    if(!michal) { _fun00002_ip = 32; continue _fun00001 }
  22:
-                    zulu = _closure2_slot0;
-                    mike = zulu.hideSheetOnUnmount;
+                    zuuluu = _closure2_slot0;
+                    michal = zuuluu.hideSheetOnUnmount;
  32:
-                    if(!mike) { _fun00002_ip = 81; continue _fun00001 }
+                    if(!michal) { _fun00002_ip = 81; continue _fun00001 }
  35:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    zulu = tango.bind(mike)(zulu);
-                    mike = zulu.hideActionSheet;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    zuuluu = tangon.bind(michal)(zuuluu);
+                    michal = zuuluu.hideActionSheet;
                     entity = _closure2_slot0;
                     entity = entity.actionSheetKey;
-                    entity = mike.bind(zulu)(entity);
+                    entity = michal.bind(zuuluu)(entity);
  81:
                     entity = undefined;
                     return entity;
@@ -112,10 +112,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         entity = null;
         return entity;
     };
-    zulu['DismissibleActionSheet'] = mike;
+    zuuluu['DismissibleActionSheet'] = michal;
     return entity;
 })();

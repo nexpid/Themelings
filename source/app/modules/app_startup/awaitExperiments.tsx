@@ -1,80 +1,80 @@
 // app/modules/app_startup/awaitExperiments.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Future;
-    golf = tango.prototype;
-    golf = Object.create(golf, {constructor: {value: tango}});
-    romeo = golf;
-    tango = new romeo[tango](yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot0 = tango;
-    tango = null;
-    var _closure1_slot1 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_startup/awaitExperiments.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: beginLoadedExperimentsTimeout
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Future;
+    golfie = tangon.prototype;
+    golfie = Object.create(golfie, {constructor: {value: tangon}});
+    romeon = golfie;
+    tangon = new romeon[tangon](yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot0 = tangon;
+    tangon = null;
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_startup/awaitExperiments.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: beginLoadedExperimentsTimeout
         entity = global;
-        tango = entity.setTimeout;
+        tangon = entity.setTimeout;
         entity = undefined;
-        zulu = function() {
-            zulu = _closure1_slot0;
-            entity = zulu.resolve;
-            entity = entity.bind(zulu)();
+        zuuluu = function() {
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.resolve;
+            entity = entity.bind(zuuluu)();
             entity = null;
             _closure1_slot1 = entity;
             entity = undefined;
             return entity;
         };
-        mike = 1000;
-        zulu = tango.bind(entity)(zulu, mike);
-        _closure1_slot1 = zulu;
+        michal = 1000;
+        zuuluu = tangon.bind(entity)(zuuluu, michal);
+        _closure1_slot1 = zuuluu;
         return entity;
     };
-    zulu['beginLoadedExperimentsTimeout'] = tango;
-    tango = function() { // Original name: onExperimentsLoaded
+    zuuluu['beginLoadedExperimentsTimeout'] = tangon;
+    tangon = function() { // Original name: onExperimentsLoaded
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot1;
-            mike = null;
-            if(!(mike != zulu)) { _fun00002_ip = 46; continue _fun00001 }
+            zuuluu = _closure1_slot1;
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00002_ip = 46; continue _fun00001 }
  13:
-            zulu = _closure1_slot0;
-            mike = zulu.resolve;
-            mike = mike.bind(zulu)();
-            mike = global;
-            zulu = mike.clearTimeout;
-            mike = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.resolve;
+            michal = michal.bind(zuuluu)();
+            michal = global;
+            zuuluu = michal.clearTimeout;
+            michal = _closure1_slot1;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
  46:
             entity = undefined;
             return entity;
         }
     };
-    zulu['onExperimentsLoaded'] = tango;
-    mike = function() { // Original name: getPromise
+    zuuluu['onExperimentsLoaded'] = tangon;
+    michal = function() { // Original name: getPromise
         entity = _closure1_slot0;
         entity = entity.promise;
         return entity;
     };
-    zulu['getPromise'] = mike;
+    zuuluu['getPromise'] = michal;
     return entity;
 })();

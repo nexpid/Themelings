@@ -1,101 +1,101 @@
 // discord_common/js/packages/media-engine/webrtc/ActiveSinks.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = {};
     var _closure1_slot0 = entity;
     entity = null;
     var _closure1_slot1 = entity;
-    tango = argPlugh;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/packages/media-engine/webrtc/ActiveSinks.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: registerActiveSink
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/packages/media-engine/webrtc/ActiveSinks.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: registerActiveSink
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = _closure1_slot0;
-            oscar = mike[zulu];
+            zuuluu = argFoo;
+            michal = _closure1_slot0;
+            oscard = michal[zuuluu];
             report = null;
-            golf = report != oscar;
-            mike = 0;
-            tango = 0;
-            if(!golf) { _fun00002_ip = 30; continue _fun00001 }
+            golfie = report != oscard;
+            michal = 0;
+            tangon = 0;
+            if(!golfie) { _fun00002_ip = 30; continue _fun00001 }
  27:
-            tango = oscar;
+            tangon = oscard;
  30:
-            if(!(mike === tango)) { _fun00002_ip = 56; continue _fun00001 }
+            if(!(michal === tangon)) { _fun00002_ip = 56; continue _fun00001 }
  34:
-            mike = _closure1_slot1;
-            if(!(report != mike)) { _fun00002_ip = 56; continue _fun00001 }
+            michal = _closure1_slot1;
+            if(!(report != michal)) { _fun00002_ip = 56; continue _fun00001 }
  42:
-            oscar = _closure1_slot1;
+            oscard = _closure1_slot1;
             report = undefined;
-            mike = true;
-            mike = oscar.bind(report)(zulu, mike);
+            michal = true;
+            michal = oscard.bind(report)(zuuluu, michal);
  56:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = 1;
-            entity = tango + entity;
-            mike[zulu] = entity;
+            entity = tangon + entity;
+            michal[zuuluu] = entity;
             entity = undefined;
             return entity;
         }
     };
-    zulu['registerActiveSink'] = tango;
-    tango = function(argFoo) { // Original name: unregisterActiveSink
+    zuuluu['registerActiveSink'] = tangon;
+    tangon = function(argFoo) { // Original name: unregisterActiveSink
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot0;
-            zulu = mike[tango];
-            zulu = zulu - 1;
-            mike[tango] = zulu;
-            zulu = mike[tango];
-            mike = 0;
-            if(!(mike === zulu)) { _fun00004_ip = 55; continue _fun00003 }
+            tangon = argFoo;
+            michal = _closure1_slot0;
+            zuuluu = michal[tangon];
+            zuuluu = zuuluu - 1;
+            michal[tangon] = zuuluu;
+            zuuluu = michal[tangon];
+            michal = 0;
+            if(!(michal === zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
  31:
-            zulu = _closure1_slot1;
-            mike = null;
-            if(!(mike != zulu)) { _fun00004_ip = 55; continue _fun00003 }
+            zuuluu = _closure1_slot1;
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
  41:
-            zulu = _closure1_slot1;
-            mike = undefined;
+            zuuluu = _closure1_slot1;
+            michal = undefined;
             entity = false;
-            entity = zulu.bind(mike)(tango, entity);
+            entity = zuuluu.bind(michal)(tangon, entity);
  55:
             entity = undefined;
             return entity;
         }
     };
-    zulu['unregisterActiveSink'] = tango;
-    mike = function(argFoo) { // Original name: setActiveSinksChangeCallback
+    zuuluu['unregisterActiveSink'] = tangon;
+    michal = function(argFoo) { // Original name: setActiveSinksChangeCallback
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            mike = null;
-            zulu = mike != entity;
-            if(!zulu) { _fun00006_ip = 15; continue _fun00005 }
+            michal = null;
+            zuuluu = michal != entity;
+            if(!zuuluu) { _fun00006_ip = 15; continue _fun00005 }
  12:
-            mike = entity;
+            michal = entity;
  15:
-            _closure1_slot1 = mike;
+            _closure1_slot1 = michal;
             entity = undefined;
             return entity;
         }
     };
-    zulu['setActiveSinksChangeCallback'] = mike;
+    zuuluu['setActiveSinksChangeCallback'] = michal;
     return entity;
 })();

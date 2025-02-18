@@ -1,99 +1,99 @@
 // app/modules/premium/powerups/experiments/GuildPowerupsExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     yankee = true;
-    tango['value'] = yankee;
+    tangon['value'] = yankee;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = golf[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    verify = tango.CommonTriggerPoints;
-    tango = 1;
-    tango = golf[tango];
-    options = oscar.bind(entity)(tango);
-    report = options.createExperiment;
-    tango = {'kind': 'guild', 'id': '2025-02_skill_trees', 'label': 'Skill Trees'};
+    tangon = oscard.bind(entity)(tangon);
+    verify = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = golfie[tangon];
+    option = oscard.bind(entity)(tangon);
+    report = option.createExperiment;
+    tangon = {'kind': 'guild', 'id': '2025-02_skill_trees', 'label': 'Skill Trees'};
     verify = verify.CONNECTION_OPEN;
-    tango['commonTriggerPoint'] = verify;
+    tangon['commonTriggerPoint'] = verify;
     verify = {};
     offset = false;
     verify['enabled'] = offset;
-    tango['defaultConfig'] = verify;
+    tangon['defaultConfig'] = verify;
     offset = {'id': 1, 'label': 'enabled'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
-    tango['treatments'] = verify;
-    tango = report.bind(options)(tango);
-    var _closure1_slot0 = tango;
+    tangon['treatments'] = verify;
+    tangon = report.bind(option)(tangon);
+    var _closure1_slot0 = tangon;
     report = 2;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/powerups/experiments/GuildPowerupsExperiment.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    tango = function(argFoo, argBar) { // Original name: useGuildPowerupsExperimentEnabled
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: useGuildPowerupsExperimentEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
             entity = null;
-            oscar = entity == report;
+            oscard = entity == report;
             entity = undefined;
-            if(oscar) { _fun00002_ip = 34; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 34; continue _fun00001 }
  29:
             entity = report.id;
  34:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = argBar;
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useGuildPowerupsExperimentEnabled'] = tango;
-    mike = function(argFoo, argBar) { // Original name: getGuildPowerupsExperimentEnabled
+    zuuluu['useGuildPowerupsExperimentEnabled'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getGuildPowerupsExperimentEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            zulu = tango.getCurrentConfig;
-            mike = {};
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
             entity = null;
-            oscar = entity == report;
+            oscard = entity == report;
             entity = undefined;
-            if(oscar) { _fun00004_ip = 34; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 34; continue _fun00003 }
  29:
             entity = report.id;
  34:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = argBar;
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['getGuildPowerupsExperimentEnabled'] = mike;
+    zuuluu['getGuildPowerupsExperimentEnabled'] = michal;
     return entity;
 })();

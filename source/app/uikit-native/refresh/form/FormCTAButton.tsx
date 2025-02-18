@@ -1,314 +1,314 @@
 // app/uikit-native/refresh/form/FormCTAButton.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
     sizing = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = function(argFoo, argBar) { // Original name: getCTAButtonColor
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = argBar;
-            tango = _closure1_slot10;
-            tango = tango.BRAND;
-            if(!(tango !== zulu)) { _fun00002_ip = 71; continue _fun00001 }
+            tangon = _closure1_slot10;
+            tangon = tangon.BRAND;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 71; continue _fun00001 }
  23:
-            tango = _closure1_slot10;
-            tango = tango.DANGER;
-            if(!(tango !== zulu)) { _fun00002_ip = 63; continue _fun00001 }
+            tangon = _closure1_slot10;
+            tangon = tangon.DANGER;
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 63; continue _fun00001 }
  37:
-            mike = _closure1_slot10;
-            mike = mike.WARNING;
-            if(!(mike !== zulu)) { _fun00002_ip = 55; continue _fun00001 }
+            michal = _closure1_slot10;
+            michal = michal.WARNING;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            mike = undefined;
-            return mike;
+            michal = undefined;
+            return michal;
  55:
-            mike = entity.textWarning;
-            return mike;
+            michal = entity.textWarning;
+            return michal;
  63:
-            mike = entity.textDanger;
-            return mike;
+            michal = entity.textDanger;
+            return michal;
  71:
             entity = entity.textBrand;
             return entity;
         }
     };
     var _closure1_slot11 = entity;
-    tango = function(argFoo) { // Original name: FormCTAButton
+    tangon = function(argFoo) { // Original name: FormCTAButton
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = entity.color;
-            tango = undefined;
-            if(!(tango === report)) { _fun00004_ip = 27; continue _fun00003 }
+            tangon = undefined;
+            if(!(tangon === report)) { _fun00004_ip = 27; continue _fun00003 }
  14:
-            mike = _closure1_slot10;
-            report = mike.BRAND;
+            michal = _closure1_slot10;
+            report = michal.BRAND;
  27:
-            foxtrot = entity.label;
-            mike = entity.fontSize;
+            foxtra = entity.label;
+            michal = entity.fontSize;
             output = 16;
-            if(!(tango !== mike)) { _fun00004_ip = 48; continue _fun00003 }
+            if(!(tangon !== michal)) { _fun00004_ip = 48; continue _fun00003 }
  45:
-            output = mike;
+            output = michal;
  48:
-            mike = entity.alignLeft;
-            kilo = tango !== mike;
-            if(!kilo) { _fun00004_ip = 64; continue _fun00003 }
+            michal = entity.alignLeft;
+            kiloes = tangon !== michal;
+            if(!kiloes) { _fun00004_ip = 64; continue _fun00003 }
  61:
-            kilo = mike;
+            kiloes = michal;
  64:
-            mike = entity.disabled;
-            offset = tango !== mike;
+            michal = entity.disabled;
+            offset = tangon !== michal;
             if(!offset) { _fun00004_ip = 79; continue _fun00003 }
  76:
-            offset = mike;
+            offset = michal;
  79:
-            mike = entity.loading;
-            yankee = tango !== mike;
+            michal = entity.loading;
+            yankee = tangon !== michal;
             if(!yankee) { _fun00004_ip = 95; continue _fun00003 }
  92:
-            yankee = mike;
+            yankee = michal;
  95:
             verify = entity.testID;
-            options = entity.style;
-            romeo = entity.onPress;
+            option = entity.style;
+            romeon = entity.onPress;
             entity = _closure1_slot9;
-            golf = entity.bind(tango)();
-            zulu = _closure1_slot8;
-            mike = _closure1_slot0;
+            golfie = entity.bind(tangon)();
+            zuuluu = _closure1_slot8;
+            michal = _closure1_slot0;
             backup = _closure1_slot1;
             entity = 8;
             entity = backup[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.LegacyText;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.LegacyText;
             entity = {};
-            sizing = golf.text;
+            sizing = golfie.text;
             backup = new Array(4);
             backup[0] = sizing;
             sizing = _closure1_slot11;
-            sizing = sizing.bind(tango)(report, golf);
+            sizing = sizing.bind(tangon)(report, golfie);
             backup[1] = sizing;
             sizing = {};
             sizing['fontSize'] = output;
             backup[2] = sizing;
-            if(!kilo) { _fun00004_ip = 201; continue _fun00003 }
+            if(!kiloes) { _fun00004_ip = 201; continue _fun00003 }
  195:
-            kilo = golf.alignLeft;
+            kiloes = golfie.alignLeft;
  201:
-            backup[3] = kilo;
+            backup[3] = kiloes;
             entity['style'] = backup;
-            entity['children'] = foxtrot;
-            foxtrot = zulu.bind(tango)(mike, entity);
+            entity['children'] = foxtra;
+            foxtra = zuuluu.bind(tangon)(michal, entity);
             if(!yankee) { _fun00004_ip = 242; continue _fun00003 }
  222:
-            zulu = _closure1_slot8;
-            mike = _closure1_slot3;
+            zuuluu = _closure1_slot8;
+            michal = _closure1_slot3;
             entity = {};
             entity['color'] = report;
-            foxtrot = zulu.bind(tango)(mike, entity);
+            foxtra = zuuluu.bind(tangon)(michal, entity);
  242:
-            zulu = _closure1_slot2;
-            mike = zulu.useContext;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.useContext;
             report = _closure1_slot0;
             backup = _closure1_slot1;
             entity = 9;
             entity = backup[entity];
-            entity = report.bind(tango)(entity);
+            entity = report.bind(tangon)(entity);
             entity = entity.RedesignCompatContext;
-            entity = mike.bind(zulu)(entity);
-            zulu = _closure1_slot8;
-            mike = _closure1_slot5;
+            entity = michal.bind(zuuluu)(entity);
+            zuuluu = _closure1_slot8;
+            michal = _closure1_slot5;
             report = {};
             if(entity) { _fun00004_ip = 423; continue _fun00003 }
  299:
-            backup = golf.sectionBody;
+            backup = golfie.sectionBody;
             entity = new Array(3);
             entity[0] = backup;
             backup = offset;
             if(!offset) { _fun00004_ip = 324; continue _fun00003 }
  319:
-            backup = golf.disabled;
+            backup = golfie.disabled;
  324:
             entity[1] = backup;
-            entity[2] = options;
+            entity[2] = option;
             report['style'] = entity;
             backup = _closure1_slot8;
-            options = _closure1_slot4;
+            option = _closure1_slot4;
             entity = {};
             entity['testID'] = verify;
-            kilo = 'button';
-            entity['accessibilityRole'] = kilo;
-            entity['onPress'] = romeo;
-            kilo = golf.button;
-            entity['style'] = kilo;
-            kilo = offset;
+            kiloes = 'button';
+            entity['accessibilityRole'] = kiloes;
+            entity['onPress'] = romeon;
+            kiloes = golfie.button;
+            entity['style'] = kiloes;
+            kiloes = offset;
             if(offset) { _fun00004_ip = 382; continue _fun00003 }
  379:
-            kilo = yankee;
+            kiloes = yankee;
  382:
-            entity['disabled'] = kilo;
+            entity['disabled'] = kiloes;
             sizing = _closure1_slot7;
-            kilo = _closure1_slot6;
-            kilo = sizing.bind(tango)(kilo);
-            entity['android_ripple'] = kilo;
-            entity['children'] = foxtrot;
-            entity = backup.bind(tango)(options, entity);
+            kiloes = _closure1_slot6;
+            kiloes = sizing.bind(tangon)(kiloes);
+            entity['android_ripple'] = kiloes;
+            entity['children'] = foxtra;
+            entity = backup.bind(tangon)(option, entity);
             report['children'] = entity;
             entity = report;
             _fun00004_ip = 508; continue _fun00003;
  423:
-            golf = golf.rowButton;
-            report['style'] = golf;
-            options = _closure1_slot8;
-            golf = _closure1_slot0;
+            golfie = golfie.rowButton;
+            report['style'] = golfie;
+            option = _closure1_slot8;
+            golfie = _closure1_slot0;
             backup = _closure1_slot1;
-            oscar = 10;
-            oscar = backup[oscar];
-            oscar = golf.bind(tango)(oscar);
-            golf = oscar.RowButton;
-            oscar = {};
-            oscar['label'] = foxtrot;
-            oscar['onPress'] = romeo;
-            romeo = false;
-            oscar['arrow'] = romeo;
+            oscard = 10;
+            oscard = backup[oscard];
+            oscard = golfie.bind(tangon)(oscard);
+            golfie = oscard.RowButton;
+            oscard = {};
+            oscard['label'] = foxtra;
+            oscard['onPress'] = romeon;
+            romeon = false;
+            oscard['arrow'] = romeon;
             if(offset) { _fun00004_ip = 486; continue _fun00003 }
  483:
             offset = yankee;
  486:
-            oscar['disabled'] = offset;
-            oscar['testID'] = verify;
-            oscar = options.bind(tango)(golf, oscar);
-            report['children'] = oscar;
+            oscard['disabled'] = offset;
+            oscard['testID'] = verify;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report['children'] = oscard;
             entity = report;
  508:
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    options = golf[entity];
-    mike = argCorge;
+    option = golfie[entity];
+    michal = argCor;
     entity = undefined;
-    mike = mike.bind(entity)(options);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    options = mike.ActivityIndicator;
-    var _closure1_slot3 = options;
-    options = mike.Pressable;
-    var _closure1_slot4 = options;
-    options = mike.Platform;
-    options = mike.StyleSheet;
-    mike = mike.View;
-    var _closure1_slot5 = mike;
-    mike = 2;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    options = mike.ANDROID_FOREGROUND_RIPPLE;
-    var _closure1_slot6 = options;
-    mike = mike.getThemedRippleConfig;
-    var _closure1_slot7 = mike;
-    mike = 3;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    foxtrot = mike.Fonts;
-    mike = 4;
-    mike = golf[mike];
-    mike = oscar.bind(entity)(mike);
-    mike = mike.jsx;
-    var _closure1_slot8 = mike;
-    mike = 5;
-    mike = golf[mike];
-    verify = oscar.bind(entity)(mike);
-    options = verify.createStyles;
-    mike = {};
+    michal = michal.bind(entity)(option);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    option = michal.ActivityIndicator;
+    var _closure1_slot3 = option;
+    option = michal.Pressable;
+    var _closure1_slot4 = option;
+    option = michal.Platform;
+    option = michal.StyleSheet;
+    michal = michal.View;
+    var _closure1_slot5 = michal;
+    michal = 2;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    option = michal.ANDROID_FOREGROUND_RIPPLE;
+    var _closure1_slot6 = option;
+    michal = michal.getThemedRippleConfig;
+    var _closure1_slot7 = michal;
+    michal = 3;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    foxtra = michal.Fonts;
+    michal = 4;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot8 = michal;
+    michal = 5;
+    michal = golfie[michal];
+    verify = oscard.bind(entity)(michal);
+    option = verify.createStyles;
+    michal = {};
     offset = {};
-    kilo = 16;
-    offset['paddingHorizontal'] = kilo;
-    mike['rowButton'] = offset;
+    kiloes = 16;
+    offset['paddingHorizontal'] = kiloes;
+    michal['rowButton'] = offset;
     offset = {};
-    mike['sectionBody'] = offset;
+    michal['sectionBody'] = offset;
     offset = {'minHeight': 44, 'justifyContent': 'center'};
-    mike['button'] = offset;
+    michal['button'] = offset;
     yankee = 'left';
     offset = {'lineHeight': 44, 'paddingHorizontal': 17, 'textAlign': 'left'};
-    mike['text'] = offset;
+    michal['text'] = offset;
     offset = {};
     backup = 6;
-    romeo = golf[backup];
-    echo = sizing.bind(entity)(romeo);
-    result = foxtrot.PRIMARY_SEMIBOLD;
-    romeo = 7;
-    output = golf[romeo];
+    romeon = golfie[backup];
+    echoed = sizing.bind(entity)(romeon);
+    result = foxtra.PRIMARY_SEMIBOLD;
+    romeon = 7;
+    output = golfie[romeon];
     output = sizing.bind(entity)(output);
     output = output.colors;
     output = output.CONTROL_BRAND_FOREGROUND;
-    source = echo.bind(entity)(result, output, kilo);
-    control = offset;
-    output = copyDataProperties(control, source);
-    mike['textBrand'] = offset;
+    source = echoed.bind(entity)(result, output, kiloes);
+    ctrled = offset;
+    output = copyDataProperties(ctrled, source);
+    michal['textBrand'] = offset;
     offset = {};
-    output = golf[backup];
-    echo = sizing.bind(entity)(output);
-    result = foxtrot.PRIMARY_SEMIBOLD;
-    output = golf[romeo];
+    output = golfie[backup];
+    echoed = sizing.bind(entity)(output);
+    result = foxtra.PRIMARY_SEMIBOLD;
+    output = golfie[romeon];
     output = sizing.bind(entity)(output);
     output = output.colors;
     output = output.TEXT_DANGER;
-    source = echo.bind(entity)(result, output, kilo);
-    control = offset;
-    output = copyDataProperties(control, source);
-    mike['textDanger'] = offset;
+    source = echoed.bind(entity)(result, output, kiloes);
+    ctrled = offset;
+    output = copyDataProperties(ctrled, source);
+    michal['textDanger'] = offset;
     offset = {};
-    backup = golf[backup];
+    backup = golfie[backup];
     backup = sizing.bind(entity)(backup);
-    foxtrot = foxtrot.PRIMARY_SEMIBOLD;
-    romeo = golf[romeo];
-    romeo = sizing.bind(entity)(romeo);
-    romeo = romeo.colors;
-    romeo = romeo.STATUS_WARNING;
-    source = backup.bind(entity)(foxtrot, romeo, kilo);
-    control = offset;
-    romeo = copyDataProperties(control, source);
-    mike['textWarning'] = offset;
+    foxtra = foxtra.PRIMARY_SEMIBOLD;
+    romeon = golfie[romeon];
+    romeon = sizing.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.STATUS_WARNING;
+    source = backup.bind(entity)(foxtra, romeon, kiloes);
+    ctrled = offset;
+    romeon = copyDataProperties(ctrled, source);
+    michal['textWarning'] = offset;
     offset = {};
     offset['textAlign'] = yankee;
-    mike['alignLeft'] = offset;
+    michal['alignLeft'] = offset;
     offset = {};
     yankee = 0.5;
     offset['opacity'] = yankee;
-    mike['disabled'] = offset;
-    mike = options.bind(verify)(mike);
-    var _closure1_slot9 = mike;
-    mike = {};
-    options = 'brand';
-    mike['BRAND'] = options;
-    options = 'danger';
-    mike['DANGER'] = options;
-    options = 'warning';
-    mike['WARNING'] = options;
-    var _closure1_slot10 = mike;
-    tango['Colors'] = mike;
+    michal['disabled'] = offset;
+    michal = option.bind(verify)(michal);
+    var _closure1_slot9 = michal;
+    michal = {};
+    option = 'brand';
+    michal['BRAND'] = option;
+    option = 'danger';
+    michal['DANGER'] = option;
+    option = 'warning';
+    michal['WARNING'] = option;
+    var _closure1_slot10 = michal;
+    tangon['Colors'] = michal;
     report = 11;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'uikit-native/refresh/form/FormCTAButton.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['FormCTAButtonColors'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['FormCTAButtonColors'] = michal;
     return entity;
 })();

@@ -1,83 +1,83 @@
 // app/modules/guild_products/GuildProductsExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_products/GuildProductsExperimentUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: useGuildEligibleForGuildProducts
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_products/GuildProductsExperimentUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: useGuildEligibleForGuildProducts
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            zulu = entity.GuildProductsExperiment;
-            mike = zulu.useExperiment;
+            entity = zuuluu.bind(entity)(michal);
+            zuuluu = entity.GuildProductsExperiment;
+            michal = zuuluu.useExperiment;
             entity = {};
-            oscar = null;
-            if(!(oscar == tango)) { _fun00002_ip = 52; continue _fun00001 }
+            oscard = null;
+            if(!(oscard == tangon)) { _fun00002_ip = 52; continue _fun00001 }
  48:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
  52:
-            entity['guildId'] = tango;
-            tango = argBar;
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['guildId'] = tangon;
+            tangon = argBar;
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useGuildEligibleForGuildProducts'] = tango;
-    mike = function(argFoo, argBar) { // Original name: isGuildEligibleForGuildProducts
+    zuuluu['useGuildEligibleForGuildProducts'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: isGuildEligibleForGuildProducts
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            zulu = entity.GuildProductsExperiment;
-            mike = zulu.getCurrentConfig;
+            entity = zuuluu.bind(entity)(michal);
+            zuuluu = entity.GuildProductsExperiment;
+            michal = zuuluu.getCurrentConfig;
             entity = {};
-            oscar = null;
-            if(!(oscar == tango)) { _fun00004_ip = 52; continue _fun00003 }
+            oscard = null;
+            if(!(oscard == tangon)) { _fun00004_ip = 52; continue _fun00003 }
  48:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
  52:
-            entity['guildId'] = tango;
-            tango = argBar;
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['guildId'] = tangon;
+            tangon = argBar;
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['isGuildEligibleForGuildProducts'] = mike;
+    zuuluu['isGuildEligibleForGuildProducts'] = michal;
     return entity;
 })();

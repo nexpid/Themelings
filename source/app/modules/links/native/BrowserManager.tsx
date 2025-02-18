@@ -1,376 +1,376 @@
 // app/modules/links/native/BrowserManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = options;
+    var _closure1_slot2 = option;
     report = function() { // Original name: getBrowserManagerIsChromeInstalled
-        mike = _closure1_slot5;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+        michal = _closure1_slot5;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.isChromeInstalled;
         return entity;
     };
     var _closure1_slot6 = report;
-    tango = function() { // Original name: getBrowserManagerSelectedBrowser
-        mike = _closure1_slot5;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+    tangon = function() { // Original name: getBrowserManagerSelectedBrowser
+        michal = _closure1_slot5;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.selectedBrowser;
         return entity;
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, oscar);
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.NativeModules;
-    var _closure1_slot3 = oscar;
-    oscar = oscar.BrowserManager;
-    var _closure1_slot4 = oscar;
-    oscar = 1;
-    oscar = options[oscar];
-    offset = golf.bind(entity)(oscar);
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.NativeModules;
+    var _closure1_slot3 = oscard;
+    oscard = oscard.BrowserManager;
+    var _closure1_slot4 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    offset = golfie.bind(entity)(oscard);
     verify = offset.create;
-    oscar = function() {
+    oscard = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
-            oscar = 2;
-            mike = mike[oscar];
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            oscard = 2;
+            michal = michal[oscard];
             report = undefined;
-            tango = tango.bind(report)(mike);
-            mike = tango.isAndroid;
-            mike = mike.bind(tango)();
-            if(mike) { _fun00002_ip = 51; continue _fun00001 }
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.isAndroid;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00002_ip = 51; continue _fun00001 }
  39:
-            mike = _closure1_slot4;
-            mike = mike.isChromeInstalled;
+            michal = _closure1_slot4;
+            michal = michal.isChromeInstalled;
             _fun00002_ip = 87; continue _fun00001;
  51:
-            golf = _closure1_slot1;
-            options = _closure1_slot2;
-            tango = 3;
-            tango = options[tango];
-            golf = golf.bind(report)(tango);
-            tango = golf.getConstants;
-            tango = tango.bind(golf)();
-            mike = tango.isChromeInstalled;
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
+            tangon = 3;
+            tangon = option[tangon];
+            golfie = golfie.bind(report)(tangon);
+            tangon = golfie.getConstants;
+            tangon = tangon.bind(golfie)();
+            michal = tangon.isChromeInstalled;
  87:
-            entity['isChromeInstalled'] = mike;
-            tango = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            tango = tango.bind(report)(mike);
-            mike = tango.isAndroid;
-            mike = mike.bind(tango)();
-            if(mike) { _fun00002_ip = 133; continue _fun00001 }
+            entity['isChromeInstalled'] = michal;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.isAndroid;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00002_ip = 133; continue _fun00001 }
  121:
-            mike = _closure1_slot4;
-            mike = mike.selectedBrowser;
+            michal = _closure1_slot4;
+            michal = michal.selectedBrowser;
             _fun00002_ip = 169; continue _fun00001;
  133:
-            tango = _closure1_slot1;
-            oscar = _closure1_slot2;
-            zulu = 3;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.getConstants;
-            zulu = zulu.bind(tango)();
-            mike = zulu.selectedBrowser;
+            tangon = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 3;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.getConstants;
+            zuuluu = zuuluu.bind(tangon)();
+            michal = zuuluu.selectedBrowser;
  169:
-            entity['selectedBrowser'] = mike;
+            entity['selectedBrowser'] = michal;
             return entity;
         }
     };
-    oscar = verify.bind(offset)(oscar);
-    var _closure1_slot5 = oscar;
-    oscar = 6;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/links/native/BrowserManager.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = function() { // Original name: useBrowserManagerIsChromeInstalled
-        zulu = _closure1_slot5;
-        mike = undefined;
+    oscard = verify.bind(offset)(oscard);
+    var _closure1_slot5 = oscard;
+    oscard = 6;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/links/native/BrowserManager.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function() { // Original name: useBrowserManagerIsChromeInstalled
+        zuuluu = _closure1_slot5;
+        michal = undefined;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.isChromeInstalled;
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useBrowserManagerIsChromeInstalled'] = oscar;
-    zulu['getBrowserManagerIsChromeInstalled'] = report;
+    zuuluu['useBrowserManagerIsChromeInstalled'] = oscard;
+    zuuluu['getBrowserManagerIsChromeInstalled'] = report;
     report = function() { // Original name: useBrowserManagerSelectedBrowser
-        zulu = _closure1_slot5;
-        mike = undefined;
+        zuuluu = _closure1_slot5;
+        michal = undefined;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.selectedBrowser;
             return entity;
         };
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['useBrowserManagerSelectedBrowser'] = report;
-    zulu['getBrowserManagerSelectedBrowser'] = tango;
-    tango = function(argFoo) { // Original name: browserManagerOpenUrl
+    zuuluu['useBrowserManagerSelectedBrowser'] = report;
+    zuuluu['getBrowserManagerSelectedBrowser'] = tangon;
+    tangon = function(argFoo) { // Original name: browserManagerOpenUrl
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            golf = arguments[1];
-            tango = undefined;
-            if(!(golf === tango)) { _fun00004_ip = 23; continue _fun00003 }
+            zuuluu = argFoo;
+            golfie = arguments[1];
+            tangon = undefined;
+            if(!(golfie === tangon)) { _fun00004_ip = 23; continue _fun00003 }
  12:
             entity = _closure1_slot7;
-            golf = entity.bind(tango)();
+            golfie = entity.bind(tangon)();
  23:
             report = _closure1_slot0;
-            mike = _closure1_slot2;
-            oscar = 4;
-            mike = mike[oscar];
-            mike = report.bind(tango)(mike);
-            mike = mike.WebBrowserType;
-            mike = mike.SAFARI;
-            if(!(golf !== mike)) { _fun00004_ip = 400; continue _fun00003 }
+            michal = _closure1_slot2;
+            oscard = 4;
+            michal = michal[oscard];
+            michal = report.bind(tangon)(michal);
+            michal = michal.WebBrowserType;
+            michal = michal.SAFARI;
+            if(!(golfie !== michal)) { _fun00004_ip = 400; continue _fun00003 }
  65:
             report = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = report.bind(tango)(mike);
-            mike = mike.WebBrowserType;
-            mike = mike.CHROME;
-            if(!(golf === mike)) { _fun00004_ip = 112; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = report.bind(tangon)(michal);
+            michal = michal.WebBrowserType;
+            michal = michal.CHROME;
+            if(!(golfie === michal)) { _fun00004_ip = 112; continue _fun00003 }
  98:
-            mike = _closure1_slot6;
-            mike = mike.bind(tango)();
-            if(!mike) { _fun00004_ip = 400; continue _fun00003 }
+            michal = _closure1_slot6;
+            michal = michal.bind(tangon)();
+            if(!michal) { _fun00004_ip = 400; continue _fun00003 }
  112:
             report = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = report.bind(tango)(mike);
-            mike = mike.WebBrowserType;
-            mike = mike.IN_APP;
-            if(!(golf !== mike)) { _fun00004_ip = 318; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = report.bind(tangon)(michal);
+            michal = michal.WebBrowserType;
+            michal = michal.IN_APP;
+            if(!(golfie !== michal)) { _fun00004_ip = 318; continue _fun00003 }
  148:
             report = _closure1_slot0;
-            mike = _closure1_slot2;
-            mike = mike[oscar];
-            mike = report.bind(tango)(mike);
-            mike = mike.WebBrowserType;
-            mike = mike.CHROME;
-            if(!(golf !== mike)) { _fun00004_ip = 233; continue _fun00003 }
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = report.bind(tangon)(michal);
+            michal = michal.WebBrowserType;
+            michal = michal.CHROME;
+            if(!(golfie !== michal)) { _fun00004_ip = 233; continue _fun00003 }
  181:
-            mike = global;
-            oscar = mike.Error;
-            mike = mike.HermesInternal;
-            report = mike.concat;
-            mike = 'Unknown browser type: ';
-            verify = report.bind(mike)(golf);
-            report = oscar.prototype;
-            report = Object.create(report, {constructor: {value: oscar}});
+            michal = global;
+            oscard = michal.Error;
+            michal = michal.HermesInternal;
+            report = michal.concat;
+            michal = 'Unknown browser type: ';
+            verify = report.bind(michal)(golfie);
+            report = oscard.prototype;
+            report = Object.create(report, {constructor: {value: oscard}});
             offset = report;
-            mike = new offset[oscar](verify, options);
-            mike = mike instanceof Object ? mike : report;
-            throw mike;
+            michal = new offset[oscard](verify, option);
+            michal = michal instanceof Object ? michal : report;
+            throw michal;
  233:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
-            mike = 2;
-            mike = oscar[mike];
-            report = report.bind(tango)(mike);
-            mike = report.isAndroid;
-            mike = mike.bind(report)();
-            if(mike) { _fun00004_ip = 285; continue _fun00003 }
+            oscard = _closure1_slot2;
+            michal = 2;
+            michal = oscard[michal];
+            report = report.bind(tangon)(michal);
+            michal = report.isAndroid;
+            michal = michal.bind(report)();
+            if(michal) { _fun00004_ip = 285; continue _fun00003 }
  265:
-            oscar = _closure1_slot4;
-            report = oscar.openInChromeURL;
-            mike = true;
-            mike = report.bind(oscar)(zulu, mike);
+            oscard = _closure1_slot4;
+            report = oscard.openInChromeURL;
+            michal = true;
+            michal = report.bind(oscard)(zuuluu, michal);
             _fun00004_ip = 316; continue _fun00003;
  285:
-            oscar = _closure1_slot1;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
             report = 3;
-            report = golf[report];
-            oscar = oscar.bind(tango)(report);
-            report = oscar.openInChromeURL;
-            mike = report.bind(oscar)(zulu);
+            report = golfie[report];
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.openInChromeURL;
+            michal = report.bind(oscard)(zuuluu);
  316:
-            return mike;
+            return michal;
  318:
             report = _closure1_slot0;
-            oscar = _closure1_slot2;
-            mike = 2;
-            mike = oscar[mike];
-            report = report.bind(tango)(mike);
-            mike = report.isAndroid;
-            mike = mike.bind(report)();
-            if(mike) { _fun00004_ip = 367; continue _fun00003 }
+            oscard = _closure1_slot2;
+            michal = 2;
+            michal = oscard[michal];
+            report = report.bind(tangon)(michal);
+            michal = report.isAndroid;
+            michal = michal.bind(report)();
+            if(michal) { _fun00004_ip = 367; continue _fun00003 }
  350:
             report = _closure1_slot4;
-            mike = report.openInAppURL;
-            mike = mike.bind(report)(zulu);
+            michal = report.openInAppURL;
+            michal = michal.bind(report)(zuuluu);
             _fun00004_ip = 398; continue _fun00003;
  367:
-            oscar = _closure1_slot1;
-            golf = _closure1_slot2;
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
             report = 3;
-            report = golf[report];
-            oscar = oscar.bind(tango)(report);
-            report = oscar.openInAppURL;
-            mike = report.bind(oscar)(zulu);
+            report = golfie[report];
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.openInAppURL;
+            michal = report.bind(oscard)(zuuluu);
  398:
-            return mike;
+            return michal;
  400:
-            mike = _closure1_slot1;
+            michal = _closure1_slot1;
             report = _closure1_slot2;
             entity = 5;
             entity = report[entity];
-            mike = mike.bind(tango)(entity);
-            entity = mike.performURLNavigation;
-            entity = entity.bind(mike)(zulu);
+            michal = michal.bind(tangon)(entity);
+            entity = michal.performURLNavigation;
+            entity = entity.bind(michal)(zuuluu);
             entity = global;
-            mike = entity.Promise;
-            entity = mike.resolve;
-            entity = entity.bind(mike)();
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
             return entity;
         }
     };
-    zulu['browserManagerOpenUrl'] = tango;
-    tango = function(argFoo) { // Original name: browserManagerSelectBrowser
+    zuuluu['browserManagerOpenUrl'] = tangon;
+    tangon = function(argFoo) { // Original name: browserManagerSelectBrowser
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00006_ip = 66; continue _fun00005 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00006_ip = 66; continue _fun00005 }
  40:
-            zulu = _closure1_slot3;
-            tango = zulu.BrowserManager;
-            zulu = tango.selectBrowser;
-            zulu = zulu.bind(tango)(report);
+            zuuluu = _closure1_slot3;
+            tangon = zuuluu.BrowserManager;
+            zuuluu = tangon.selectBrowser;
+            zuuluu = zuuluu.bind(tangon)(report);
             _fun00006_ip = 346; continue _fun00005;
  66:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            oscar = 4;
-            zulu = zulu[oscar];
-            zulu = tango.bind(entity)(zulu);
-            zulu = zulu.WebBrowserType;
-            zulu = zulu.SAFARI;
-            if(!(zulu !== report)) { _fun00006_ip = 290; continue _fun00005 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            oscard = 4;
+            zuuluu = zuuluu[oscard];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            zuuluu = zuuluu.WebBrowserType;
+            zuuluu = zuuluu.SAFARI;
+            if(!(zuuluu !== report)) { _fun00006_ip = 290; continue _fun00005 }
  105:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[oscar];
-            zulu = tango.bind(entity)(zulu);
-            zulu = zulu.WebBrowserType;
-            zulu = zulu.IN_APP;
-            if(!(zulu !== report)) { _fun00006_ip = 232; continue _fun00005 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            zuuluu = zuuluu.WebBrowserType;
+            zuuluu = zuuluu.IN_APP;
+            if(!(zuuluu !== report)) { _fun00006_ip = 232; continue _fun00005 }
  138:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            zulu = zulu[oscar];
-            zulu = tango.bind(entity)(zulu);
-            zulu = zulu.WebBrowserType;
-            zulu = zulu.CHROME;
-            if(!(zulu === report)) { _fun00006_ip = 346; continue _fun00005 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            zuuluu = tangon.bind(entity)(zuuluu);
+            zuuluu = zuuluu.WebBrowserType;
+            zuuluu = zuuluu.CHROME;
+            if(!(zuuluu === report)) { _fun00006_ip = 346; continue _fun00005 }
  174:
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 3;
-            tango = options[zulu];
-            oscar = oscar.bind(entity)(tango);
-            tango = oscar.selectBrowser;
-            golf = _closure1_slot0;
-            zulu = options[zulu];
-            zulu = golf.bind(entity)(zulu);
-            zulu = zulu.BrowserType;
-            zulu = zulu.CHROME;
-            zulu = tango.bind(oscar)(zulu);
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 3;
+            tangon = option[zuuluu];
+            oscard = oscard.bind(entity)(tangon);
+            tangon = oscard.selectBrowser;
+            golfie = _closure1_slot0;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = zuuluu.BrowserType;
+            zuuluu = zuuluu.CHROME;
+            zuuluu = tangon.bind(oscard)(zuuluu);
             _fun00006_ip = 346; continue _fun00005;
  232:
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 3;
-            tango = options[zulu];
-            oscar = oscar.bind(entity)(tango);
-            tango = oscar.selectBrowser;
-            golf = _closure1_slot0;
-            zulu = options[zulu];
-            zulu = golf.bind(entity)(zulu);
-            zulu = zulu.BrowserType;
-            zulu = zulu.IN_APP;
-            zulu = tango.bind(oscar)(zulu);
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 3;
+            tangon = option[zuuluu];
+            oscard = oscard.bind(entity)(tangon);
+            tangon = oscard.selectBrowser;
+            golfie = _closure1_slot0;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = zuuluu.BrowserType;
+            zuuluu = zuuluu.IN_APP;
+            zuuluu = tangon.bind(oscard)(zuuluu);
             _fun00006_ip = 346; continue _fun00005;
  290:
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
-            zulu = 3;
-            tango = options[zulu];
-            oscar = oscar.bind(entity)(tango);
-            tango = oscar.selectBrowser;
-            golf = _closure1_slot0;
-            zulu = options[zulu];
-            zulu = golf.bind(entity)(zulu);
-            zulu = zulu.BrowserType;
-            zulu = zulu.SAFARI;
-            zulu = tango.bind(oscar)(zulu);
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            zuuluu = 3;
+            tangon = option[zuuluu];
+            oscard = oscard.bind(entity)(tangon);
+            tangon = oscard.selectBrowser;
+            golfie = _closure1_slot0;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = zuuluu.BrowserType;
+            zuuluu = zuuluu.SAFARI;
+            zuuluu = tangon.bind(oscard)(zuuluu);
  346:
-            tango = _closure1_slot5;
-            zulu = tango.setState;
-            mike = {};
-            mike['selectedBrowser'] = report;
-            mike = zulu.bind(tango)(mike);
+            tangon = _closure1_slot5;
+            zuuluu = tangon.setState;
+            michal = {};
+            michal['selectedBrowser'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    zulu['browserManagerSelectBrowser'] = tango;
-    mike = function() { // Original name: browserManagerCloseBrowser
+    zuuluu['browserManagerSelectBrowser'] = tangon;
+    michal = function() { // Original name: browserManagerCloseBrowser
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.isAndroid;
-            zulu = zulu.bind(tango)();
-            if(zulu) { _fun00008_ip = 59; continue _fun00007 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isAndroid;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00008_ip = 59; continue _fun00007 }
  37:
-            mike = _closure1_slot3;
-            zulu = mike.BrowserManager;
-            mike = zulu.closeBrowser;
-            mike = mike.bind(zulu)();
+            michal = _closure1_slot3;
+            zuuluu = michal.BrowserManager;
+            michal = zuuluu.closeBrowser;
+            michal = michal.bind(zuuluu)();
  59:
             return entity;
         }
     };
-    zulu['browserManagerCloseBrowser'] = mike;
+    zuuluu['browserManagerCloseBrowser'] = michal;
     return entity;
 })();

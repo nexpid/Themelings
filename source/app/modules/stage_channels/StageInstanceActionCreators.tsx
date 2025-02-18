@@ -1,205 +1,205 @@
 // app/modules/stage_channels/StageInstanceActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: _startStageInstance
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo, argBar, argBaz, argCorge, argGrault) {
-            entity = function* (argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: ?anon_0_
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo, argBar, argBaz, argCor, argGra) {
+            entity = function* (argFoo, argBar, argBaz, argCor, argGra) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 141; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 141; continue _fun00001 }
  10:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {};
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.post;
+                    michal = {};
                     report = _closure1_slot3;
                     report = report.STAGE_INSTANCES;
-                    mike['url'] = report;
+                    michal['url'] = report;
                     report = {};
-                    oscar = argFoo;
-                    report['channel_id'] = oscar;
-                    oscar = argBar;
-                    report['topic'] = oscar;
-                    oscar = argBaz;
-                    report['privacy_level'] = oscar;
-                    oscar = argGrault;
-                    report['guild_scheduled_event_id'] = oscar;
-                    oscar = argCorge;
-                    report['send_start_notification'] = oscar;
-                    mike['body'] = report;
+                    oscard = argFoo;
+                    report['channel_id'] = oscard;
+                    oscard = argBar;
+                    report['topic'] = oscard;
+                    oscard = argBaz;
+                    report['privacy_level'] = oscard;
+                    oscard = argGra;
+                    report['guild_scheduled_event_id'] = oscard;
+                    oscard = argCor;
+                    report['send_start_notification'] = oscard;
+                    michal['body'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=124);
  122:
-                    return mike;
+                    return michal;
  124:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 138; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 138; continue _fun00001 }
  130:
-                    zulu = mike.body;
-                    return zulu;
+                    zuuluu = michal.body;
+                    return zuuluu;
  138:
-                    return mike;
+                    return michal;
  141:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = function() { // Original name: _updateStageInstance
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot2;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot2;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00004_ip = 121; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 121; continue _fun00003 }
  7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    mike = 2;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.patch;
-                    mike = {};
-                    golf = _closure1_slot3;
-                    oscar = golf.STAGE_INSTANCE;
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    michal = 2;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.patch;
+                    michal = {};
+                    golfie = _closure1_slot3;
+                    oscard = golfie.STAGE_INSTANCE;
                     report = argFoo;
-                    report = oscar.bind(golf)(report);
-                    mike['url'] = report;
+                    report = oscard.bind(golfie)(report);
+                    michal['url'] = report;
                     report = {};
-                    oscar = argBar;
-                    report['topic'] = oscar;
-                    oscar = argBaz;
-                    report['privacy_level'] = oscar;
-                    mike['body'] = report;
+                    oscard = argBar;
+                    report['topic'] = oscard;
+                    oscard = argBaz;
+                    report['privacy_level'] = oscard;
+                    michal['body'] = report;
                     report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     SaveGenerator(address=104);
  102:
-                    return mike;
+                    return michal;
  104:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 118; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 118; continue _fun00003 }
  110:
-                    zulu = mike.body;
-                    return zulu;
+                    zuuluu = michal.body;
+                    return zuuluu;
  118:
-                    return mike;
+                    return michal;
  121:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot5 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot5 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot5 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/StageInstanceActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: startStageInstance
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/StageInstanceActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: startStageInstance
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['startStageInstance'] = tango;
-    tango = function() { // Original name: updateStageInstance
+    zuuluu['startStageInstance'] = tangon;
+    tangon = function() { // Original name: updateStageInstance
         entity = undefined;
-        tango = _closure1_slot5;
-        zulu = tango.apply;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['updateStageInstance'] = tango;
-    mike = function(argFoo) { // Original name: endStageInstance
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['updateStageInstance'] = tangon;
+    michal = function(argFoo) { // Original name: endStageInstance
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.del;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.del;
         entity = {};
-        oscar = _closure1_slot3;
-        report = oscar.STAGE_INSTANCE;
-        tango = argFoo;
-        tango = report.bind(oscar)(tango);
-        entity['url'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
+        oscard = _closure1_slot3;
+        report = oscard.STAGE_INSTANCE;
+        tangon = argFoo;
+        tangon = report.bind(oscard)(tangon);
+        entity['url'] = tangon;
+        tangon = false;
+        entity['rejectWithError'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['endStageInstance'] = mike;
+    zuuluu['endStageInstance'] = michal;
     return entity;
 })();

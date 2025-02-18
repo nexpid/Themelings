@@ -1,200 +1,200 @@
 // app/modules/activate_device/useDeviceCodeAuthorizeCallback.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _createTwoWayLink
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 726; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 726; continue _fun00001 }
  10:
                     result = argBar;
-                    zulu = argBaz;
-                    oscar = undefined;
-                    options = undefined;
-                    romeo = undefined;
-                    tango = undefined;
+                    zuuluu = argBaz;
+                    oscard = undefined;
+                    option = undefined;
+                    romeon = undefined;
+                    tangon = undefined;
                     offset = undefined;
                     output = undefined;
-                    golf = undefined;
+                    golfie = undefined;
                     backup = undefined;
                     verify = _closure1_slot0;
-                    foxtrot = _closure1_slot2;
+                    foxtra = _closure1_slot2;
                     report = 2;
-                    report = foxtrot[report];
-                    foxtrot = verify.bind(oscar)(report);
-                    verify = foxtrot.clientIdToActivateDevicePlatform;
+                    report = foxtra[report];
+                    foxtra = verify.bind(oscard)(report);
+                    verify = foxtra.clientIdToActivateDevicePlatform;
                     report = argFoo;
-                    report = verify.bind(foxtrot)(report);
-                    options = report;
+                    report = verify.bind(foxtra)(report);
+                    option = report;
                     verify = null;
                     if(!(verify != report)) { _fun00002_ip = 655; continue _fun00001 }
  81:
-                    romeo = null;
+                    romeon = null;
  83: // try_start_0
-                    foxtrot = _closure1_slot1;
+                    foxtra = _closure1_slot1;
                     vacuum = _closure1_slot2;
                     sizing = 3;
                     report = vacuum[sizing];
-                    update = foxtrot.bind(oscar)(report);
-                    echo = update.authorize;
-                    foxtrot = options;
+                    update = foxtra.bind(oscard)(report);
+                    echoed = update.authorize;
+                    foxtra = option;
                     report = {};
-                    control = _closure1_slot0;
+                    ctrled = _closure1_slot0;
                     source = 4;
                     source = vacuum[source];
-                    source = control.bind(oscar)(source);
+                    source = ctrled.bind(oscard)(source);
                     source = source.TwoWayLinkType;
                     source = source.DEVICE_CODE;
                     report['twoWayLinkType'] = source;
-                    source = zulu;
+                    source = zuuluu;
                     report['userCode'] = source;
-                    report = echo.bind(update)(foxtrot, report);
+                    report = echoed.bind(update)(foxtra, report);
                     SaveGenerator(address=165);
  163:
                     return report;
  165:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=12);
-                    if(foxtrot) { _fun00002_ip = 534; continue _fun00001 }
+                    if(foxtra) { _fun00002_ip = 534; continue _fun00001 }
  174:
-                    foxtrot = report.body;
-                    romeo = foxtrot.url;
+                    foxtra = report.body;
+                    romeon = foxtra.url;
  184: // try_end0
                     output = null;
  186: // try_start_1
-                    echo = _closure1_slot1;
+                    echoed = _closure1_slot1;
                     update = _closure1_slot2;
-                    foxtrot = 5;
-                    source = update[foxtrot];
-                    vacuum = echo.bind(oscar)(source);
-                    control = romeo;
-                    source = verify != control;
-                    romeo = 'No URL in authorize response';
-                    romeo = vacuum.bind(oscar)(source, romeo);
+                    foxtra = 5;
+                    source = update[foxtra];
+                    vacuum = echoed.bind(oscard)(source);
+                    ctrled = romeon;
+                    source = verify != ctrled;
+                    romeon = 'No URL in authorize response';
+                    romeon = vacuum.bind(oscard)(source, romeon);
                     source = _closure1_slot0;
-                    romeo = 6;
-                    romeo = update[romeo];
-                    source = source.bind(oscar)(romeo);
-                    romeo = source.getCallbackParamsFromURL;
-                    romeo = romeo.bind(source)(control);
-                    romeo = romeo.state;
-                    foxtrot = update[foxtrot];
-                    update = echo.bind(oscar)(foxtrot);
-                    echo = verify != romeo;
-                    foxtrot = 'Authorize URL state query parameter must be present';
-                    foxtrot = update.bind(oscar)(echo, foxtrot);
-                    output = romeo;
+                    romeon = 6;
+                    romeon = update[romeon];
+                    source = source.bind(oscard)(romeon);
+                    romeon = source.getCallbackParamsFromURL;
+                    romeon = romeon.bind(source)(ctrled);
+                    romeon = romeon.state;
+                    foxtra = update[foxtra];
+                    update = echoed.bind(oscard)(foxtra);
+                    echoed = verify != romeon;
+                    foxtra = 'Authorize URL state query parameter must be present';
+                    foxtra = update.bind(oscard)(echoed, foxtra);
+                    output = romeon;
  285: // try_start_2 // try_end1
-                    foxtrot = _closure1_slot1;
-                    romeo = _closure1_slot2;
-                    romeo = romeo[sizing];
-                    sizing = foxtrot.bind(oscar)(romeo);
-                    foxtrot = sizing.callback;
-                    romeo = options;
-                    options = {};
-                    options['code'] = result;
-                    options['state'] = output;
-                    options = foxtrot.bind(sizing)(romeo, options);
+                    foxtra = _closure1_slot1;
+                    romeon = _closure1_slot2;
+                    romeon = romeon[sizing];
+                    sizing = foxtra.bind(oscard)(romeon);
+                    foxtra = sizing.callback;
+                    romeon = option;
+                    option = {};
+                    option['code'] = result;
+                    option['state'] = output;
+                    option = foxtra.bind(sizing)(romeon, option);
                     SaveGenerator(address=331);
  329:
-                    return options;
+                    return option;
  331:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
-                    if(romeo) { _fun00002_ip = 340; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 340; continue _fun00001 }
  337: // try_end2
-                    return oscar;
+                    return oscard;
  340:
-                    return options;
+                    return option;
  343: // catch_target2
                     CatchBlockStart(arg_register=7);
-                    kilo = options;
-                    foxtrot = _closure1_slot8;
-                    romeo = zulu;
-                    sizing = verify == options;
-                    options = undefined;
+                    kiloes = option;
+                    foxtra = _closure1_slot8;
+                    romeon = zuuluu;
+                    sizing = verify == option;
+                    option = undefined;
                     if(sizing) { _fun00002_ip = 386; continue _fun00001 }
  364:
-                    kilo = kilo.body;
-                    backup = kilo;
-                    kilo = verify == kilo;
-                    options = undefined;
-                    if(kilo) { _fun00002_ip = 386; continue _fun00001 }
+                    kiloes = kiloes.body;
+                    backup = kiloes;
+                    kiloes = verify == kiloes;
+                    option = undefined;
+                    if(kiloes) { _fun00002_ip = 386; continue _fun00001 }
  381:
-                    options = backup.code;
+                    option = backup.code;
  386:
-                    golf = options;
-                    backup = verify != options;
-                    options = 0;
+                    golfie = option;
+                    backup = verify != option;
+                    option = 0;
                     if(!backup) { _fun00002_ip = 401; continue _fun00001 }
  398:
-                    options = golf;
+                    option = golfie;
  401:
-                    golf = 'callback';
-                    golf = foxtrot.bind(oscar)(romeo, options, golf);
+                    golfie = 'callback';
+                    golfie = foxtra.bind(oscard)(romeon, option, golfie);
                     SaveGenerator(address=416);
  414:
-                    return golf;
+                    return golfie;
  416:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(options) { _fun00002_ip = 458; continue _fun00001 }
+                    if(option) { _fun00002_ip = 458; continue _fun00001 }
  422:
-                    options = global;
-                    foxtrot = options.Error;
-                    options = foxtrot.prototype;
-                    romeo = Object.create(options, {constructor: {value: foxtrot}});
+                    option = global;
+                    foxtra = option.Error;
+                    option = foxtra.prototype;
+                    romeon = Object.create(option, {constructor: {value: foxtra}});
                     record = 'error during two way callback';
-                    context = romeo;
-                    options = new context[foxtrot](record, config);
-                    options = options instanceof Object ? options : romeo;
-                    throw options;
+                    cntext = romeon;
+                    option = new cntext[foxtra](record, config);
+                    option = option instanceof Object ? option : romeon;
+                    throw option;
  458:
-                    return golf;
+                    return golfie;
  461: // catch_target1
                     CatchBlockStart(arg_register=6);
-                    foxtrot = _closure1_slot8;
-                    romeo = zulu;
-                    options = _closure1_slot6;
-                    golf = 'authorize';
-                    golf = foxtrot.bind(oscar)(romeo, options, golf);
+                    foxtra = _closure1_slot8;
+                    romeon = zuuluu;
+                    option = _closure1_slot6;
+                    golfie = 'authorize';
+                    golfie = foxtra.bind(oscard)(romeon, option, golfie);
                     SaveGenerator(address=489);
  487:
-                    return golf;
+                    return golfie;
  489:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(options) { _fun00002_ip = 531; continue _fun00001 }
+                    if(option) { _fun00002_ip = 531; continue _fun00001 }
  495:
-                    options = global;
-                    foxtrot = options.Error;
-                    options = foxtrot.prototype;
-                    romeo = Object.create(options, {constructor: {value: foxtrot}});
+                    option = global;
+                    foxtra = option.Error;
+                    option = foxtra.prototype;
+                    romeon = Object.create(option, {constructor: {value: foxtra}});
                     record = 'error parsing callback params';
-                    context = romeo;
-                    options = new context[foxtrot](record, config);
-                    options = options instanceof Object ? options : romeo;
-                    throw options;
+                    cntext = romeon;
+                    option = new cntext[foxtra](record, config);
+                    option = option instanceof Object ? option : romeon;
+                    throw option;
  531:
-                    return golf;
+                    return golfie;
  534:
                     return report;
  537: // catch_target0
                     CatchBlockStart(arg_register=4);
                     yankee = report;
-                    options = _closure1_slot8;
-                    golf = zulu;
-                    romeo = verify == report;
+                    option = _closure1_slot8;
+                    golfie = zuuluu;
+                    romeon = verify == report;
                     report = undefined;
-                    if(romeo) { _fun00002_ip = 580; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 580; continue _fun00001 }
  558:
                     yankee = yankee.body;
                     offset = yankee;
@@ -204,89 +204,89 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  575:
                     report = offset.code;
  580:
-                    tango = report;
+                    tangon = report;
                     verify = verify != report;
                     report = 0;
                     if(!verify) { _fun00002_ip = 595; continue _fun00001 }
  592:
-                    report = tango;
+                    report = tangon;
  595:
-                    tango = 'authorize';
-                    tango = options.bind(oscar)(golf, report, tango);
+                    tangon = 'authorize';
+                    tangon = option.bind(oscard)(golfie, report, tangon);
                     SaveGenerator(address=610);
  608:
-                    return tango;
+                    return tangon;
  610:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 652; continue _fun00001 }
  616:
                     report = global;
-                    options = report.Error;
-                    report = options.prototype;
-                    golf = Object.create(report, {constructor: {value: options}});
+                    option = report.Error;
+                    report = option.prototype;
+                    golfie = Object.create(report, {constructor: {value: option}});
                     record = 'error during two way authorize';
-                    context = golf;
-                    report = new context[options](record, config);
-                    report = report instanceof Object ? report : golf;
+                    cntext = golfie;
+                    report = new cntext[option](record, config);
+                    report = report instanceof Object ? report : golfie;
                     throw report;
  652:
-                    return tango;
+                    return tangon;
  655:
                     report = _closure1_slot8;
-                    tango = zulu;
-                    zulu = _closure1_slot5;
-                    mike = 'authorize';
-                    mike = report.bind(oscar)(tango, zulu, mike);
+                    tangon = zuuluu;
+                    zuuluu = _closure1_slot5;
+                    michal = 'authorize';
+                    michal = report.bind(oscard)(tangon, zuuluu, michal);
                     SaveGenerator(address=681);
  679:
-                    return mike;
+                    return michal;
  681:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 723; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 723; continue _fun00001 }
  687:
-                    zulu = global;
-                    report = zulu.Error;
-                    zulu = report.prototype;
-                    tango = Object.create(zulu, {constructor: {value: report}});
+                    zuuluu = global;
+                    report = zuuluu.Error;
+                    zuuluu = report.prototype;
+                    tangon = Object.create(zuuluu, {constructor: {value: report}});
                     record = 'Unsupported client_id for two way link';
-                    context = tango;
-                    zulu = new context[report](record, config);
-                    zulu = zulu instanceof Object ? zulu : tango;
-                    throw zulu;
+                    cntext = tangon;
+                    zuuluu = new cntext[report](record, config);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    throw zuuluu;
  723:
-                    return mike;
+                    return michal;
  726:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot7 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: silentlyFinishTwoWayLinkError
         entity = undefined;
-        tango = _closure1_slot9;
-        zulu = tango.apply;
+        tangon = _closure1_slot9;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _silentlyFinishTwoWayLinkError
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo, argBar, argBaz) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -294,235 +294,235 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
                     if(report) { _fun00004_ip = 76; continue _fun00003 }
  7:
-                    tango = argFoo;
-                    zulu = argBar;
-                    mike = argBaz;
+                    tangon = argFoo;
+                    zuuluu = argBar;
+                    michal = argBaz;
  16: // try_start_0
-                    golf = _closure1_slot0;
-                    oscar = _closure1_slot2;
+                    golfie = _closure1_slot0;
+                    oscard = _closure1_slot2;
                     report = 7;
-                    oscar = oscar[report];
+                    oscard = oscard[report];
                     report = undefined;
-                    oscar = golf.bind(report)(oscar);
-                    report = oscar.finishUserCodeTwoWayLinkError;
-                    mike = report.bind(oscar)(tango, zulu, mike);
+                    oscard = golfie.bind(report)(oscard);
+                    report = oscard.finishUserCodeTwoWayLinkError;
+                    michal = report.bind(oscard)(tangon, zuuluu, michal);
                     SaveGenerator(address=58);
  56:
-                    return mike;
+                    return michal;
  58:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 66; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 66; continue _fun00003 }
  64: // try_end0
                     _fun00004_ip = 71; continue _fun00003;
  66:
-                    return mike;
+                    return michal;
  69: // catch_target0
                     CatchBlockStart(arg_register=1);
  71:
-                    mike = undefined;
-                    return mike;
+                    michal = undefined;
+                    return michal;
  76:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot9 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot9 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot9 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    options = oscar[tango];
-    golf = argCorge;
-    golf = golf.bind(entity)(options);
-    var _closure1_slot4 = golf;
-    var _closure1_slot5 = tango;
-    tango = 2;
-    var _closure1_slot6 = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activate_device/useDeviceCodeAuthorizeCallback.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: useDeviceCodeAuthorizeCallback
-        golf = argFoo;
-        oscar = argBar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    option = oscard[tangon];
+    golfie = argCor;
+    golfie = golfie.bind(entity)(option);
+    var _closure1_slot4 = golfie;
+    var _closure1_slot5 = tangon;
+    tangon = 2;
+    var _closure1_slot6 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activate_device/useDeviceCodeAuthorizeCallback.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: useDeviceCodeAuthorizeCallback
+        golfie = argFoo;
+        oscard = argBar;
         report = argBaz;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         var _closure2_slot2 = report;
-        tango = _closure1_slot4;
-        zulu = tango.useCallback;
-        mike = function() {
-            tango = _closure1_slot3;
-            zulu = undefined;
-            mike = function* (argFoo, argBar) {
+        tangon = _closure1_slot4;
+        zuuluu = tangon.useCallback;
+        michal = function() {
+            tangon = _closure1_slot3;
+            zuuluu = undefined;
+            michal = function* (argFoo, argBar) {
                 entity = function* (argFoo, argBar) { // Original name: ?anon_0_
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun00006_ip = 318; continue _fun00005 }
+                        if(zuuluu) { _fun00006_ip = 318; continue _fun00005 }
  10:
-                        mike = argFoo;
-                        zulu = argBar;
-                        if(zulu) { _fun00006_ip = 106; continue _fun00005 }
+                        michal = argFoo;
+                        zuuluu = argBar;
+                        if(zuuluu) { _fun00006_ip = 106; continue _fun00005 }
  19: // try_start_0
                         report = _closure1_slot0;
-                        tango = _closure1_slot2;
-                        zulu = 7;
-                        tango = tango[zulu];
-                        zulu = undefined;
-                        oscar = report.bind(zulu)(tango);
-                        report = oscar.finishUserCode;
-                        zulu = mike;
-                        tango = zulu.userCode;
-                        zulu = 'denied';
-                        zulu = report.bind(oscar)(tango, zulu);
+                        tangon = _closure1_slot2;
+                        zuuluu = 7;
+                        tangon = tangon[zuuluu];
+                        zuuluu = undefined;
+                        oscard = report.bind(zuuluu)(tangon);
+                        report = oscard.finishUserCode;
+                        zuuluu = michal;
+                        tangon = zuuluu.userCode;
+                        zuuluu = 'denied';
+                        zuuluu = report.bind(oscard)(tangon, zuuluu);
                         SaveGenerator(address=75);
  73:
-                        return zulu;
+                        return zuuluu;
  75:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun00006_ip = 83; continue _fun00005 }
+                        if(tangon) { _fun00006_ip = 83; continue _fun00005 }
  81: // try_end0
                         _fun00006_ip = 88; continue _fun00005;
  83:
-                        return zulu;
+                        return zuuluu;
  86: // catch_target0
                         CatchBlockStart(arg_register=2);
  88:
-                        tango = _closure2_slot0;
-                        zulu = undefined;
-                        zulu = tango.bind(zulu)();
+                        tangon = _closure2_slot0;
+                        zuuluu = undefined;
+                        zuuluu = tangon.bind(zuuluu)();
                         _fun00006_ip = 313; continue _fun00005;
  106:
-                        zulu = mike;
-                        tango = zulu.twoWayLinkCode;
-                        zulu = null;
-                        if(!(zulu != tango)) { _fun00006_ip = 214; continue _fun00005 }
+                        zuuluu = michal;
+                        tangon = zuuluu.twoWayLinkCode;
+                        zuuluu = null;
+                        if(!(zuuluu != tangon)) { _fun00006_ip = 214; continue _fun00005 }
  121: // try_start_1
-                        zulu = mike;
-                        golf = zulu.clientId;
-                        report = zulu.twoWayLinkCode;
-                        tango = zulu.userCode;
-                        zulu = function() { // Original name: createTwoWayLink
+                        zuuluu = michal;
+                        golfie = zuuluu.clientId;
+                        report = zuuluu.twoWayLinkCode;
+                        tangon = zuuluu.userCode;
+                        zuuluu = function() { // Original name: createTwoWayLink
                             entity = undefined;
-                            tango = _closure1_slot7;
-                            zulu = tango.apply;
+                            tangon = _closure1_slot7;
+                            zuuluu = tangon.apply;
                             entity = arguments;
-                            mike = entity;
+                            michal = entity;
                             entity = this;
-                            entity = zulu.bind(tango)(entity, mike);
+                            entity = zuuluu.bind(tangon)(entity, michal);
                             return entity;
                         };
-                        oscar = undefined;
-                        zulu = zulu.bind(oscar)(golf, report, tango);
+                        oscard = undefined;
+                        zuuluu = zuuluu.bind(oscard)(golfie, report, tangon);
                         SaveGenerator(address=164);
  162:
-                        return zulu;
+                        return zuuluu;
  164:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun00006_ip = 190; continue _fun00005 }
+                        if(tangon) { _fun00006_ip = 190; continue _fun00005 }
  170:
                         report = _closure2_slot2;
-                        tango = mike;
-                        tango = report.bind(oscar)(tango);
+                        tangon = michal;
+                        tangon = report.bind(oscard)(tangon);
  185: // try_end1
                         _fun00006_ip = 313; continue _fun00005;
  190:
-                        return zulu;
+                        return zuuluu;
  193: // catch_target1
                         CatchBlockStart(arg_register=2);
                         report = _closure2_slot1;
-                        tango = mike;
-                        zulu = undefined;
-                        zulu = report.bind(zulu)(tango);
+                        tangon = michal;
+                        zuuluu = undefined;
+                        zuuluu = report.bind(zuuluu)(tangon);
                         _fun00006_ip = 313; continue _fun00005;
  214: // try_start_2
-                        tango = _closure1_slot0;
+                        tangon = _closure1_slot0;
                         report = _closure1_slot2;
-                        zulu = 7;
-                        zulu = report[zulu];
-                        oscar = undefined;
-                        golf = tango.bind(oscar)(zulu);
-                        report = golf.finishUserCode;
-                        zulu = mike;
-                        tango = zulu.userCode;
-                        zulu = 'granted';
-                        zulu = report.bind(golf)(tango, zulu);
+                        zuuluu = 7;
+                        zuuluu = report[zuuluu];
+                        oscard = undefined;
+                        golfie = tangon.bind(oscard)(zuuluu);
+                        report = golfie.finishUserCode;
+                        zuuluu = michal;
+                        tangon = zuuluu.userCode;
+                        zuuluu = 'granted';
+                        zuuluu = report.bind(golfie)(tangon, zuuluu);
                         SaveGenerator(address=268);
  266:
-                        return zulu;
+                        return zuuluu;
  268:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun00006_ip = 291; continue _fun00005 }
+                        if(tangon) { _fun00006_ip = 291; continue _fun00005 }
  274:
                         report = _closure2_slot2;
-                        tango = mike;
-                        tango = report.bind(oscar)(tango);
+                        tangon = michal;
+                        tangon = report.bind(oscard)(tangon);
  289: // try_end2
                         _fun00006_ip = 313; continue _fun00005;
  291:
-                        return zulu;
+                        return zuuluu;
  294: // catch_target2
                         CatchBlockStart(arg_register=2);
-                        tango = _closure2_slot1;
-                        zulu = mike;
-                        mike = undefined;
-                        mike = tango.bind(mike)(zulu);
+                        tangon = _closure2_slot1;
+                        zuuluu = michal;
+                        michal = undefined;
+                        michal = tangon.bind(michal)(zuuluu);
  313:
-                        mike = undefined;
-                        return mike;
+                        michal = undefined;
+                        return michal;
  318:
                         return entity;
                     }
                 };
                 return entity;
             };
-            mike = tango.bind(zulu)(mike);
-            var _closure3_slot0 = mike;
+            michal = tangon.bind(zuuluu)(michal);
+            var _closure3_slot0 = michal;
             entity = function() {
                 entity = undefined;
-                tango = _closure3_slot0;
-                zulu = tango.apply;
+                tangon = _closure3_slot0;
+                zuuluu = tangon.apply;
                 entity = arguments;
-                mike = entity;
+                michal = entity;
                 entity = this;
-                entity = zulu.bind(tango)(entity, mike);
+                entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
             return entity;
         };
         entity = undefined;
-        mike = mike.bind(entity)();
+        michal = michal.bind(entity)();
         entity = new Array(3);
-        entity[0] = golf;
-        entity[1] = oscar;
+        entity[0] = golfie;
+        entity[1] = oscard;
         entity[2] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useDeviceCodeAuthorizeCallback'] = mike;
+    zuuluu['useDeviceCodeAuthorizeCallback'] = michal;
     return entity;
 })();

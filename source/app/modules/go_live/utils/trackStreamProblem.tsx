@@ -1,88 +1,88 @@
 // app/modules/go_live/utils/trackStreamProblem.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/go_live/utils/trackStreamProblem.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: trackStreamProblem
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/go_live/utils/trackStreamProblem.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: trackStreamProblem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            romeo = entity.problem;
+            romeon = entity.problem;
             offset = entity.stream;
-            golf = entity.feedback;
+            golfie = entity.feedback;
             yankee = entity.streamApplication;
-            oscar = entity.analyticsData;
+            oscard = entity.analyticsData;
             verify = entity.location;
-            options = entity.rating;
+            option = entity.rating;
             entity = undefined;
-            if(!(options === entity)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(option === entity)) { _fun00002_ip = 52; continue _fun00001 }
  50:
-            options = null;
+            option = null;
  52:
-            tango = _closure1_slot0;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zulu = 1;
-            zulu = report[zulu];
-            report = tango.bind(entity)(zulu);
-            tango = report.track;
-            mike = _closure1_slot2;
-            zulu = mike.STREAM_REPORT_PROBLEM;
-            mike = {};
-            mike['reason'] = romeo;
-            romeo = offset.ownerId;
-            mike['streamer_user_id'] = romeo;
-            romeo = offset.channelId;
-            mike['stream_channel_id'] = romeo;
+            zuuluu = 1;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot2;
+            zuuluu = michal.STREAM_REPORT_PROBLEM;
+            michal = {};
+            michal['reason'] = romeon;
+            romeon = offset.ownerId;
+            michal['streamer_user_id'] = romeon;
+            romeon = offset.channelId;
+            michal['stream_channel_id'] = romeon;
             offset = offset.guildId;
-            mike['guild_id'] = offset;
+            michal['guild_id'] = offset;
             offset = null;
-            foxtrot = offset != yankee;
-            romeo = null;
-            if(!foxtrot) { _fun00002_ip = 147; continue _fun00001 }
+            foxtra = offset != yankee;
+            romeon = null;
+            if(!foxtra) { _fun00002_ip = 147; continue _fun00001 }
  142:
-            romeo = yankee.id;
+            romeon = yankee.id;
  147:
-            mike['application_id'] = romeo;
-            romeo = offset != yankee;
+            michal['application_id'] = romeon;
+            romeon = offset != yankee;
             offset = null;
-            if(!romeo) { _fun00002_ip = 166; continue _fun00001 }
+            if(!romeon) { _fun00002_ip = 166; continue _fun00001 }
  161:
             offset = yankee.name;
  166:
-            mike['application_name'] = offset;
-            mike['location'] = verify;
-            mike['rating'] = options;
-            mike['feedback'] = golf;
-            kilo = mike;
-            backup = oscar;
-            oscar = copyDataProperties(kilo, backup);
-            mike = tango.bind(report)(zulu, mike);
+            michal['application_name'] = offset;
+            michal['location'] = verify;
+            michal['rating'] = option;
+            michal['feedback'] = golfie;
+            kiloes = michal;
+            backup = oscard;
+            oscard = copyDataProperties(kiloes, backup);
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

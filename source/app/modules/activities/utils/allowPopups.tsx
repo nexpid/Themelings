@@ -1,77 +1,77 @@
 // app/modules/activities/utils/allowPopups.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.APPLICATIONS_WITH_ALLOWED_POPUPS;
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/allowPopups.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: allowPopups
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.APPLICATIONS_WITH_ALLOWED_POPUPS;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/allowPopups.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: allowPopups
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = _closure1_slot0;
-            mike = tango.has;
-            entity = zulu.id;
-            entity = mike.bind(tango)(entity);
-            mike = !entity;
-            entity = !mike;
-            if(!mike) { _fun00002_ip = 119; continue _fun00001 }
+            zuuluu = argFoo;
+            tangon = _closure1_slot0;
+            michal = tangon.has;
+            entity = zuuluu.id;
+            entity = michal.bind(tangon)(entity);
+            michal = !entity;
+            entity = !michal;
+            if(!michal) { _fun00002_ip = 119; continue _fun00001 }
  34:
-            mike = 'embeddedActivityConfig';
-            mike = mike in zulu;
-            if(mike) { _fun00002_ip = 87; continue _fun00001 }
+            michal = 'embeddedActivityConfig';
+            michal = michal in zuuluu;
+            if(michal) { _fun00002_ip = 87; continue _fun00001 }
  45:
-            mike = 'embedded_activity_config';
-            mike = mike in zulu;
-            if(!mike) { _fun00002_ip = 85; continue _fun00001 }
+            michal = 'embedded_activity_config';
+            michal = michal in zuuluu;
+            if(!michal) { _fun00002_ip = 85; continue _fun00001 }
  56:
-            tango = zulu.embedded_activity_config;
+            tangon = zuuluu.embedded_activity_config;
             report = null;
-            oscar = report == tango;
+            oscard = report == tangon;
             report = undefined;
-            if(oscar) { _fun00002_ip = 79; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 79; continue _fun00001 }
  73:
-            report = tango.displays_advertisements;
+            report = tangon.displays_advertisements;
  79:
-            tango = true;
-            mike = tango === report;
+            tangon = true;
+            michal = tangon === report;
  85:
             _fun00002_ip = 116; continue _fun00001;
  87:
-            zulu = zulu.embeddedActivityConfig;
-            tango = null;
-            report = tango == zulu;
-            tango = undefined;
+            zuuluu = zuuluu.embeddedActivityConfig;
+            tangon = null;
+            report = tangon == zuuluu;
+            tangon = undefined;
             if(report) { _fun00002_ip = 110; continue _fun00001 }
  104:
-            tango = zulu.displays_advertisements;
+            tangon = zuuluu.displays_advertisements;
  110:
-            zulu = true;
-            mike = zulu === tango;
+            zuuluu = true;
+            michal = zuuluu === tangon;
  116:
-            entity = mike;
+            entity = michal;
  119:
             return entity;
         }
     };
-    zulu['allowPopups'] = mike;
+    zuuluu['allowPopups'] = michal;
     return entity;
 })();

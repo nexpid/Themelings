@@ -1,105 +1,105 @@
 // app/modules/app_database/system/StartupData.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_database/system/StartupData.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: getUserId
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_database/system/StartupData.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getUserId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            zulu = _closure1_slot2;
-            mike = 1;
-            mike = zulu[mike];
-            zulu = undefined;
-            tango = tango.bind(zulu)(mike);
-            mike = tango.isAndroid;
-            mike = mike.bind(tango)();
-            if(mike) { _fun00002_ip = 66; continue _fun00001 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 1;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            tangon = tangon.bind(zuuluu)(michal);
+            michal = tangon.isAndroid;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00002_ip = 66; continue _fun00001 }
  37:
-            mike = _closure1_slot3;
-            mike = mike.AppDatabase;
-            tango = mike.userId;
-            mike = null;
-            report = mike != tango;
+            michal = _closure1_slot3;
+            michal = michal.AppDatabase;
+            tangon = michal.userId;
+            michal = null;
+            report = michal != tangon;
             if(!report) { _fun00002_ip = 64; continue _fun00001 }
  61:
-            mike = tango;
+            michal = tangon;
  64:
-            return mike;
+            return michal;
  66:
-            mike = _closure1_slot1;
-            tango = _closure1_slot2;
+            michal = _closure1_slot1;
+            tangon = _closure1_slot2;
             entity = 2;
-            entity = tango[entity];
-            mike = mike.bind(zulu)(entity);
-            entity = mike.getConstants;
-            entity = entity.bind(mike)();
-            mike = entity.userId;
+            entity = tangon[entity];
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.getConstants;
+            entity = entity.bind(michal)();
+            michal = entity.userId;
             entity = null;
-            zulu = entity != mike;
-            if(!zulu) { _fun00002_ip = 113; continue _fun00001 }
+            zuuluu = entity != michal;
+            if(!zuuluu) { _fun00002_ip = 113; continue _fun00001 }
  110:
-            entity = mike;
+            entity = michal;
  113:
             return entity;
         }
     };
-    zulu['getUserId'] = tango;
-    mike = function(argFoo) { // Original name: setUserId
+    zuuluu['getUserId'] = tangon;
+    michal = function(argFoo) { // Original name: setUserId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = _closure1_slot0;
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            report = report.bind(entity)(zulu);
-            zulu = report.isAndroid;
-            zulu = zulu.bind(report)();
-            if(zulu) { _fun00004_ip = 63; continue _fun00003 }
+            report = report.bind(entity)(zuuluu);
+            zuuluu = report.isAndroid;
+            zuuluu = zuuluu.bind(report)();
+            if(zuuluu) { _fun00004_ip = 63; continue _fun00003 }
  40:
-            zulu = _closure1_slot3;
-            report = zulu.AppDatabase;
-            zulu = report.setUserId;
-            zulu = zulu.bind(report)(tango);
+            zuuluu = _closure1_slot3;
+            report = zuuluu.AppDatabase;
+            zuuluu = report.setUserId;
+            zuuluu = zuuluu.bind(report)(tangon);
             _fun00004_ip = 94; continue _fun00003;
  63:
-            zulu = _closure1_slot1;
+            zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            mike = 2;
-            mike = report[mike];
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.setUserId;
-            mike = mike.bind(zulu)(tango);
+            michal = 2;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.setUserId;
+            michal = michal.bind(zuuluu)(tangon);
  94:
             return entity;
         }
     };
-    zulu['setUserId'] = mike;
+    zuuluu['setUserId'] = michal;
     return entity;
 })();

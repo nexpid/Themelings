@@ -1,113 +1,113 @@
 // app/modules/screen/native/useWindowSizeClassifier.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     entity = function(argFoo) { // Original name: calculateFromWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             entity = _closure1_slot3;
-            if(!(!(zulu <= entity))) { _fun00002_ip = 66; continue _fun00001 }
+            if(!(!(zuuluu <= entity))) { _fun00002_ip = 66; continue _fun00001 }
  14:
             entity = _closure1_slot4;
-            if(!(!(zulu <= entity))) { _fun00002_ip = 54; continue _fun00001 }
+            if(!(!(zuuluu <= entity))) { _fun00002_ip = 54; continue _fun00001 }
  22:
             entity = _closure1_slot5;
-            if(!(!(zulu <= entity))) { _fun00002_ip = 42; continue _fun00001 }
+            if(!(!(zuuluu <= entity))) { _fun00002_ip = 42; continue _fun00001 }
  30:
             entity = _closure1_slot6;
             entity = entity.XLARGE;
             _fun00002_ip = 52; continue _fun00001;
  42:
-            zulu = _closure1_slot6;
-            entity = zulu.LARGE;
+            zuuluu = _closure1_slot6;
+            entity = zuuluu.LARGE;
  52:
             _fun00002_ip = 64; continue _fun00001;
  54:
-            zulu = _closure1_slot6;
-            entity = zulu.NORMAL;
+            zuuluu = _closure1_slot6;
+            entity = zuuluu.NORMAL;
  64:
             _fun00002_ip = 76; continue _fun00001;
  66:
-            mike = _closure1_slot6;
-            entity = mike.SMALL;
+            michal = _closure1_slot6;
+            entity = michal.SMALL;
  76:
             return entity;
         }
     };
     var _closure1_slot7 = entity;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 360;
     var _closure1_slot3 = entity;
     entity = 600;
     var _closure1_slot4 = entity;
     entity = 840;
     var _closure1_slot5 = entity;
-    tango = {};
-    golf = 0;
-    tango['SMALL'] = golf;
+    tangon = {};
+    golfie = 0;
+    tangon['SMALL'] = golfie;
     entity = 'SMALL';
-    tango[golf] = entity;
+    tangon[golfie] = entity;
     entity = 1;
-    tango['NORMAL'] = entity;
-    golf = 'NORMAL';
-    tango[entity] = golf;
-    options = 2;
-    tango['LARGE'] = options;
-    golf = 'LARGE';
-    tango[options] = golf;
-    options = 3;
-    tango['XLARGE'] = options;
-    golf = 'XLARGE';
-    tango[options] = golf;
-    var _closure1_slot6 = tango;
+    tangon['NORMAL'] = entity;
+    golfie = 'NORMAL';
+    tangon[entity] = golfie;
+    option = 2;
+    tangon['LARGE'] = option;
+    golfie = 'LARGE';
+    tangon[option] = golfie;
+    option = 3;
+    tangon['XLARGE'] = option;
+    golfie = 'XLARGE';
+    tangon[option] = golfie;
+    var _closure1_slot6 = tangon;
     report = report[entity];
     entity = undefined;
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/screen/native/useWindowSizeClassifier.tsx';
-    report = oscar.bind(golf)(report);
+    report = oscard.bind(golfie)(report);
     report = function() { // Original name: useWindowSizeClassifier
-        zulu = _closure1_slot7;
-        tango = _closure1_slot1;
-        mike = _closure1_slot2;
+        zuuluu = _closure1_slot7;
+        tangon = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 0;
-        entity = mike[entity];
-        mike = undefined;
-        entity = tango.bind(mike)(entity);
-        entity = entity.bind(mike)();
+        entity = michal[entity];
+        michal = undefined;
+        entity = tangon.bind(michal)(entity);
+        entity = entity.bind(michal)();
         entity = entity.width;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['default'] = report;
-    zulu['WindowSizeClassifier'] = tango;
-    mike = function() { // Original name: getWindowSizeClassifier
-        zulu = _closure1_slot7;
-        tango = _closure1_slot0;
-        mike = _closure1_slot2;
+    zuuluu['default'] = report;
+    zuuluu['WindowSizeClassifier'] = tangon;
+    michal = function() { // Original name: getWindowSizeClassifier
+        zuuluu = _closure1_slot7;
+        tangon = _closure1_slot0;
+        michal = _closure1_slot2;
         entity = 0;
-        entity = mike[entity];
-        mike = undefined;
-        tango = tango.bind(mike)(entity);
-        entity = tango.getAppContainerDimensions;
-        entity = entity.bind(tango)();
+        entity = michal[entity];
+        michal = undefined;
+        tangon = tangon.bind(michal)(entity);
+        entity = tangon.getAppContainerDimensions;
+        entity = entity.bind(tangon)();
         entity = entity.width;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['getWindowSizeClassifier'] = mike;
+    zuuluu['getWindowSizeClassifier'] = michal;
     return entity;
 })();

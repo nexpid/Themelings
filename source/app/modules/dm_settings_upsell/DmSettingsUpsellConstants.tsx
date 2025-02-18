@@ -1,26 +1,26 @@
 // app/modules/dm_settings_upsell/DmSettingsUpsellConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/dm_settings_upsell/DmSettingsUpsellConstants.tsx';
-    mike = tango.bind(report)(mike);
-    mike = 'dmSettingsUpsellLastShown';
-    zulu['DM_SETTINGS_UPSELL_LAST_SHOWN_KEY'] = mike;
-    mike = 604800000;
-    zulu['DM_SETTINGS_UPSELL_LAST_SHOWN_MAX_TIME_MS'] = mike;
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/dm_settings_upsell/DmSettingsUpsellConstants.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = 'dmSettingsUpsellLastShown';
+    zuuluu['DM_SETTINGS_UPSELL_LAST_SHOWN_KEY'] = michal;
+    michal = 604800000;
+    zuuluu['DM_SETTINGS_UPSELL_LAST_SHOWN_MAX_TIME_MS'] = michal;
     return entity;
 })();

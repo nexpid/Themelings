@@ -1,32 +1,32 @@
 // app/modules/creator_monetization_eligibility/guild_settings/useEnableMFAHook.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = function(argFoo) { // Original name: passthrough
         entity = argFoo;
         return entity;
     };
     var _closure1_slot0 = entity;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/creator_monetization_eligibility/guild_settings/useEnableMFAHook.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useEnableMFAHook
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/creator_monetization_eligibility/guild_settings/useEnableMFAHook.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useEnableMFAHook
         entity = _closure1_slot0;
         return entity;
     };
-    zulu['useEnableMFAHook'] = mike;
+    zuuluu['useEnableMFAHook'] = michal;
     return entity;
 })();

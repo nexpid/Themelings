@@ -1,85 +1,85 @@
 // app/modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argCorge;
+    report = golfie[entity];
+    tangon = argCor;
     entity = undefined;
-    report = tango.bind(entity)(report);
+    report = tangon.bind(entity)(report);
     var _closure1_slot2 = report;
-    tango = 1;
-    tango = golf[tango];
-    tango = oscar.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = report.createContext;
-    tango = tango.bind(report)(entity);
-    var _closure1_slot4 = tango;
+    tangon = 1;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = report.createContext;
+    tangon = tangon.bind(report)(entity);
+    var _closure1_slot4 = tangon;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    tango = function() { // Original name: useCreatorMonetizationSettingsDisabled
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    tangon = function() { // Original name: useCreatorMonetizationSettingsDisabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.useContext;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.useContext;
             entity = _closure1_slot4;
-            entity = mike.bind(zulu)(entity);
-            mike = null;
-            if(!(mike != entity)) { _fun00002_ip = 30; continue _fun00001 }
+            entity = michal.bind(zuuluu)(entity);
+            michal = null;
+            if(!(michal != entity)) { _fun00002_ip = 30; continue _fun00001 }
  28:
             return entity;
  30:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'useCreatorMonetizationSettingsDisabled must be used within a CreatorMonetizationSettingsDisabledContext';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'useCreatorMonetizationSettingsDisabled must be used within a CreatorMonetizationSettingsDisabledContext';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['useCreatorMonetizationSettingsDisabled'] = tango;
-    mike = function(argFoo) { // Original name: CreatorMonetizationSettingsDisabledContextProvider
+    zuuluu['useCreatorMonetizationSettingsDisabled'] = tangon;
+    michal = function(argFoo) { // Original name: CreatorMonetizationSettingsDisabledContextProvider
         entity = argFoo;
-        oscar = entity.guildId;
+        oscard = entity.guildId;
         report = entity.children;
-        zulu = _closure1_slot0;
-        tango = _closure1_slot1;
-        mike = 2;
-        mike = tango[mike];
-        tango = undefined;
-        zulu = zulu.bind(tango)(mike);
-        mike = zulu.useShouldRestrictUpdatingCreatorMonetizationSettings;
-        mike = mike.bind(zulu)(oscar);
-        oscar = mike.shouldRestrictUpdatingCreatorMonetizationSettings;
-        zulu = _closure1_slot3;
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot1;
+        michal = 2;
+        michal = tangon[michal];
+        tangon = undefined;
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.useShouldRestrictUpdatingCreatorMonetizationSettings;
+        michal = michal.bind(zuuluu)(oscard);
+        oscard = michal.shouldRestrictUpdatingCreatorMonetizationSettings;
+        zuuluu = _closure1_slot3;
         entity = _closure1_slot4;
-        mike = entity.Provider;
+        michal = entity.Provider;
         entity = {};
-        entity['value'] = oscar;
+        entity['value'] = oscard;
         entity['children'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['CreatorMonetizationSettingsDisabledContextProvider'] = mike;
+    zuuluu['CreatorMonetizationSettingsDisabledContextProvider'] = michal;
     return entity;
 })();

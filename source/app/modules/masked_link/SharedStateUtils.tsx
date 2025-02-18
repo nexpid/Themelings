@@ -1,177 +1,177 @@
 // app/modules/masked_link/SharedStateUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: useUrlParts
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: useUrlParts
         report = argFoo;
         var _closure2_slot0 = report;
-        tango = _closure1_slot3;
-        zulu = tango.useMemo;
-        mike = new Array(1);
-        mike[0] = report;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             entity = {};
             report = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 2;
-            tango = oscar[mike];
-            zulu = undefined;
-            options = report.bind(zulu)(tango);
-            golf = options.getProtocol;
-            tango = _closure2_slot0;
-            golf = golf.bind(options)(tango);
-            entity['protocol'] = golf;
-            mike = oscar[mike];
-            zulu = report.bind(zulu)(mike);
-            mike = zulu.getHostname;
-            mike = mike.bind(zulu)(tango);
-            entity['hostname'] = mike;
+            oscard = _closure1_slot1;
+            michal = 2;
+            tangon = oscard[michal];
+            zuuluu = undefined;
+            option = report.bind(zuuluu)(tangon);
+            golfie = option.getProtocol;
+            tangon = _closure2_slot0;
+            golfie = golfie.bind(option)(tangon);
+            entity['protocol'] = golfie;
+            michal = oscard[michal];
+            zuuluu = report.bind(zuuluu)(michal);
+            michal = zuuluu.getHostname;
+            michal = michal.bind(zuuluu)(tangon);
+            entity['hostname'] = michal;
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
-        options = entity.protocol;
-        golf = entity.hostname;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        option = entity.protocol;
+        golfie = entity.hostname;
         entity = {};
-        entity['protocol'] = options;
-        entity['hostname'] = golf;
-        tango = report.replace;
-        mike = global;
-        mike = mike.HermesInternal;
-        oscar = mike.concat;
-        zulu = '';
-        mike = '//';
-        mike = oscar.bind(zulu)(options, mike, golf);
-        mike = tango.bind(report)(mike, zulu);
-        entity['theRestOfTheUrl'] = mike;
+        entity['protocol'] = option;
+        entity['hostname'] = golfie;
+        tangon = report.replace;
+        michal = global;
+        michal = michal.HermesInternal;
+        oscard = michal.concat;
+        zuuluu = '';
+        michal = '//';
+        michal = oscard.bind(zuuluu)(option, michal, golfie);
+        michal = tangon.bind(report)(michal, zuuluu);
+        entity['theRestOfTheUrl'] = michal;
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    options = golf[report];
-    report = argCorge;
-    report = report.bind(entity)(options);
+    option = golfie[report];
+    report = argCor;
+    report = report.bind(entity)(option);
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/masked_link/SharedStateUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['useUrlParts'] = tango;
-    mike = function(argFoo) { // Original name: useModalState
-        mike = argFoo;
-        kilo = mike.url;
-        var _closure2_slot0 = kilo;
-        backup = mike.trustUrl;
+    report = oscard.bind(golfie)(report);
+    zuuluu['useUrlParts'] = tangon;
+    michal = function(argFoo) { // Original name: useModalState
+        michal = argFoo;
+        kiloes = michal.url;
+        var _closure2_slot0 = kiloes;
+        backup = michal.trustUrl;
         var _closure2_slot1 = backup;
-        zulu = mike.onConfirm;
-        var _closure2_slot2 = zulu;
-        romeo = mike.onCancel;
-        var _closure2_slot3 = romeo;
-        yankee = mike.onClose;
+        zuuluu = michal.onConfirm;
+        var _closure2_slot2 = zuuluu;
+        romeon = michal.onCancel;
+        var _closure2_slot3 = romeon;
+        yankee = michal.onClose;
         var _closure2_slot4 = yankee;
-        oscar = _closure1_slot3;
-        report = oscar.useState;
-        tango = false;
-        oscar = report.bind(oscar)(tango);
+        oscard = _closure1_slot3;
+        report = oscard.useState;
+        tangon = false;
+        oscard = report.bind(oscard)(tangon);
         report = _closure1_slot2;
-        golf = undefined;
-        tango = 2;
-        oscar = report.bind(golf)(oscar, tango);
-        tango = 0;
-        report = oscar[tango];
+        golfie = undefined;
+        tangon = 2;
+        oscard = report.bind(golfie)(oscard, tangon);
+        tangon = 0;
+        report = oscard[tangon];
         var _closure2_slot5 = report;
-        tango = 1;
-        tango = oscar[tango];
-        oscar = _closure1_slot4;
-        oscar = oscar.bind(golf)(kilo);
-        options = oscar.protocol;
-        golf = oscar.hostname;
-        oscar = oscar.theRestOfTheUrl;
-        foxtrot = _closure1_slot3;
-        offset = foxtrot.useCallback;
+        tangon = 1;
+        tangon = oscard[tangon];
+        oscard = _closure1_slot4;
+        oscard = oscard.bind(golfie)(kiloes);
+        option = oscard.protocol;
+        golfie = oscard.hostname;
+        oscard = oscard.theRestOfTheUrl;
+        foxtra = _closure1_slot3;
+        offset = foxtra.useCallback;
         verify = new Array(5);
-        verify[0] = kilo;
+        verify[0] = kiloes;
         verify[1] = report;
         verify[2] = backup;
-        verify[3] = zulu;
+        verify[3] = zuuluu;
         verify[4] = yankee;
-        zulu = function() {
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure2_slot5;
-                if(!mike) { _fun00002_ip = 25; continue _fun00001 }
+                michal = _closure2_slot5;
+                if(!michal) { _fun00002_ip = 25; continue _fun00001 }
  10:
-                tango = _closure2_slot1;
-                zulu = _closure2_slot0;
-                mike = undefined;
-                mike = tango.bind(mike)(zulu);
+                tangon = _closure2_slot1;
+                zuuluu = _closure2_slot0;
+                michal = undefined;
+                michal = tangon.bind(michal)(zuuluu);
  25:
-                zulu = _closure2_slot4;
-                mike = null;
-                if(!(mike != zulu)) { _fun00002_ip = 45; continue _fun00001 }
+                zuuluu = _closure2_slot4;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
  35:
-                zulu = _closure2_slot4;
-                mike = undefined;
-                mike = zulu.bind(mike)();
+                zuuluu = _closure2_slot4;
+                michal = undefined;
+                michal = zuuluu.bind(michal)();
  45:
-                mike = _closure2_slot2;
+                michal = _closure2_slot2;
                 entity = undefined;
-                mike = mike.bind(entity)();
+                michal = michal.bind(entity)();
                 return entity;
             }
         };
-        zulu = offset.bind(foxtrot)(zulu, verify);
+        zuuluu = offset.bind(foxtra)(zuuluu, verify);
         offset = _closure1_slot3;
         verify = offset.useCallback;
-        mike = new Array(2);
-        mike[0] = romeo;
-        mike[1] = yankee;
+        michal = new Array(2);
+        michal[0] = romeon;
+        michal[1] = yankee;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zulu = _closure2_slot4;
-                mike = null;
-                if(!(mike != zulu)) { _fun00004_ip = 23; continue _fun00003 }
+                zuuluu = _closure2_slot4;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
-                zulu = _closure2_slot4;
-                mike = undefined;
-                mike = zulu.bind(mike)();
+                zuuluu = _closure2_slot4;
+                michal = undefined;
+                michal = zuuluu.bind(michal)();
  23:
-                mike = _closure2_slot3;
+                michal = _closure2_slot3;
                 entity = undefined;
-                mike = mike.bind(entity)();
+                michal = michal.bind(entity)();
                 return entity;
             }
         };
-        mike = verify.bind(offset)(entity, mike);
+        michal = verify.bind(offset)(entity, michal);
         entity = {};
-        entity['protocol'] = options;
-        entity['hostname'] = golf;
-        entity['theRestOfTheUrl'] = oscar;
+        entity['protocol'] = option;
+        entity['hostname'] = golfie;
+        entity['theRestOfTheUrl'] = oscard;
         entity['shouldTrustUrl'] = report;
-        entity['setShouldTrustUrl'] = tango;
-        entity['handleConfirm'] = zulu;
-        entity['handleCancel'] = mike;
+        entity['setShouldTrustUrl'] = tangon;
+        entity['handleConfirm'] = zuuluu;
+        entity['handleCancel'] = michal;
         return entity;
     };
-    zulu['useModalState'] = mike;
+    zuuluu['useModalState'] = michal;
     return entity;
 })();

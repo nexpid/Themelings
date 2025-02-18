@@ -1,114 +1,114 @@
 // app/modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useSecureFramesUserVerifiedKeys
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useSecureFramesUserVerifiedKeys
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot2;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStoresArray;
+        tangon = _closure1_slot2;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStoresArray;
         report = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             report = _closure1_slot1;
-            tango = _closure1_slot2;
-            zulu = 2;
-            zulu = tango[zulu];
-            tango = undefined;
-            zulu = report.bind(tango)(zulu);
-            oscar = _closure1_slot3;
-            report = oscar.getUserVerifiedKeys;
-            mike = _closure2_slot0;
-            mike = report.bind(oscar)(mike);
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.entries;
-            tango = mike.bind(zulu)();
-            zulu = tango.map;
-            mike = function(argFoo) {
+            tangon = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = tangon[zuuluu];
+            tangon = undefined;
+            zuuluu = report.bind(tangon)(zuuluu);
+            oscard = _closure1_slot3;
+            report = oscard.getUserVerifiedKeys;
+            michal = _closure2_slot0;
+            michal = report.bind(oscard)(michal);
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.entries;
+            tangon = michal.bind(zuuluu)();
+            zuuluu = tangon.map;
+            michal = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
                     entity = report[Symbol.iterator];
                     report = entity().next;
-                    mike = report().value;
-                    zulu = entity;
-                    golf = undefined;
-                    tango = zulu === golf;
-                    zulu = undefined;
-                    if(tango) { _fun00002_ip = 27; continue _fun00001 }
+                    michal = report().value;
+                    zuuluu = entity;
+                    golfie = undefined;
+                    tangon = zuuluu === golfie;
+                    zuuluu = undefined;
+                    if(tangon) { _fun00002_ip = 27; continue _fun00001 }
  24:
-                    zulu = mike;
+                    zuuluu = michal;
  27:
-                    mike = undefined;
-                    if(tango) { _fun00002_ip = 57; continue _fun00001 }
+                    michal = undefined;
+                    if(tangon) { _fun00002_ip = 57; continue _fun00001 }
  32:
-                    oscar = report().value;
+                    oscard = report().value;
                     report = entity;
-                    report = report === golf;
-                    mike = undefined;
-                    tango = report;
+                    report = report === golfie;
+                    michal = undefined;
+                    tangon = report;
                     if(report) { _fun00002_ip = 57; continue _fun00001 }
  51:
-                    mike = oscar;
-                    tango = report;
+                    michal = oscard;
+                    tangon = report;
  57:
-                    if(tango) { _fun00002_ip = 63; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 63; continue _fun00001 }
  60:
                     entity.return();
  63:
                     entity = {};
-                    entity['verifiedKey'] = zulu;
-                    entity['timestamp'] = mike;
+                    entity['verifiedKey'] = zuuluu;
+                    entity['timestamp'] = michal;
                     return entity;
                 }
             };
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.sortBy;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.sortBy;
             entity = function(argFoo) {
                 entity = argFoo;
-                mike = entity.timestamp;
+                michal = entity.timestamp;
                 entity = -1;
-                entity = entity * mike;
+                entity = entity * michal;
                 return entity;
             };
-            mike = mike.bind(zulu)(entity);
-            entity = mike.value;
-            entity = entity.bind(mike)();
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.value;
+            entity = entity.bind(michal)();
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useSecureFramesUserVerifiedKeys'] = mike;
+    zuuluu['useSecureFramesUserVerifiedKeys'] = michal;
     return entity;
 })();

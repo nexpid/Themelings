@@ -1,65 +1,65 @@
 // app/modules/guild_role_subscriptions/PremiumRoleUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/PremiumRoleUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: isSubscriptionRole
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/PremiumRoleUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: isSubscriptionRole
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            mike = null;
-            tango = mike == zulu;
+            zuuluu = argFoo;
+            michal = null;
+            tangon = michal == zuuluu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 35; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 35; continue _fun00001 }
  14:
-            zulu = zulu.tags;
-            tango = mike == zulu;
+            zuuluu = zuuluu.tags;
+            tangon = michal == zuuluu;
             entity = undefined;
-            if(tango) { _fun00002_ip = 35; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 35; continue _fun00001 }
  29:
-            entity = zulu.subscription_listing_id;
+            entity = zuuluu.subscription_listing_id;
  35:
-            entity = mike != entity;
+            entity = michal != entity;
             return entity;
         }
     };
-    zulu['isSubscriptionRole'] = tango;
-    mike = function(argFoo) { // Original name: isSubscriptionRoleAvailableForPurchase
+    zuuluu['isSubscriptionRole'] = tangon;
+    michal = function(argFoo) { // Original name: isSubscriptionRoleAvailableForPurchase
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zulu = argFoo;
-            tango = null;
-            report = tango == zulu;
-            mike = undefined;
+            zuuluu = argFoo;
+            tangon = null;
+            report = tangon == zuuluu;
+            michal = undefined;
             entity = undefined;
             if(report) { _fun00004_ip = 39; continue _fun00003 }
  16:
-            zulu = zulu.tags;
-            tango = tango == zulu;
+            zuuluu = zuuluu.tags;
+            tangon = tangon == zuuluu;
             entity = undefined;
-            if(tango) { _fun00004_ip = 39; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 39; continue _fun00003 }
  31:
-            entity = zulu.available_for_purchase;
+            entity = zuuluu.available_for_purchase;
  39:
-            entity = mike !== entity;
+            entity = michal !== entity;
             return entity;
         }
     };
-    zulu['isSubscriptionRoleAvailableForPurchase'] = mike;
+    zuuluu['isSubscriptionRoleAvailableForPurchase'] = michal;
     return entity;
 })();

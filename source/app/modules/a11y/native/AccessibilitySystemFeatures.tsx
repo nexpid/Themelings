@@ -1,51 +1,51 @@
 // app/modules/a11y/native/AccessibilitySystemFeatures.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar) { // Original name: toggleFeature
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBar;
+            tangon = argFoo;
+            oscard = argBar;
             entity = _closure1_slot8;
-            if(oscar) { _fun00002_ip = 29; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 29; continue _fun00001 }
  16:
-            mike = ~tango;
-            mike = entity & mike;
-            _closure1_slot8 = mike;
+            michal = ~tangon;
+            michal = entity & michal;
+            _closure1_slot8 = michal;
             _fun00002_ip = 37; continue _fun00001;
  29:
-            entity = entity | tango;
+            entity = entity | tangon;
             _closure1_slot8 = entity;
  37:
             report = _closure1_slot0;
             entity = _closure1_slot2;
-            golf = 3;
-            mike = entity[golf];
+            golfie = 3;
+            michal = entity[golfie];
             entity = undefined;
-            mike = report.bind(entity)(mike);
-            mike = mike.A11Y_FEATURE_MAP;
-            report = mike[tango];
-            mike = null;
-            if(!(mike != report)) { _fun00002_ip = 127; continue _fun00001 }
+            michal = report.bind(entity)(michal);
+            michal = michal.A11Y_FEATURE_MAP;
+            report = michal[tangon];
+            michal = null;
+            if(!(michal != report)) { _fun00002_ip = 127; continue _fun00001 }
  75:
-            options = _closure1_slot1;
-            mike = _closure1_slot2;
-            tango = 4;
-            tango = mike[tango];
-            tango = options.bind(entity)(tango);
-            zulu = _closure1_slot0;
-            mike = mike[golf];
-            mike = zulu.bind(entity)(mike);
-            zulu = mike.accessibilityPreferencesSharedValue;
-            mike = {};
-            mike[report] = oscar;
-            mike = tango.bind(entity)(zulu, mike);
+            option = _closure1_slot1;
+            michal = _closure1_slot2;
+            tangon = 4;
+            tangon = michal[tangon];
+            tangon = option.bind(entity)(tangon);
+            zuuluu = _closure1_slot0;
+            michal = michal[golfie];
+            michal = zuuluu.bind(entity)(michal);
+            zuuluu = michal.accessibilityPreferencesSharedValue;
+            michal = {};
+            michal[report] = oscard;
+            michal = tangon.bind(entity)(zuuluu, michal);
  127:
             return entity;
         }
@@ -53,327 +53,327 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot9 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    options = mike.AccessibilityInfo;
-    var _closure1_slot3 = options;
-    options = mike.Appearance;
-    var _closure1_slot4 = options;
-    mike = mike.AppState;
-    var _closure1_slot5 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot6 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.AccessibilityFeatureFlags;
-    var _closure1_slot7 = mike;
-    mike = mike.NONE;
-    var _closure1_slot8 = mike;
-    mike = {};
-    golf = function() { // Original name: init
-        mike = this;
+    michal = report.bind(entity)(michal);
+    option = michal.AccessibilityInfo;
+    var _closure1_slot3 = option;
+    option = michal.Appearance;
+    var _closure1_slot4 = option;
+    michal = michal.AppState;
+    var _closure1_slot5 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot6 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.AccessibilityFeatureFlags;
+    var _closure1_slot7 = michal;
+    michal = michal.NONE;
+    var _closure1_slot8 = michal;
+    michal = {};
+    golfie = function() { // Original name: init
+        michal = this;
         report = _closure1_slot6;
-        tango = report.addChangeListener;
-        zulu = mike.handleAccessibilityStoreChanged;
-        zulu = tango.bind(report)(zulu);
-        tango = _closure1_slot3;
-        oscar = tango.addEventListener;
-        report = mike.handleReduceMotionChanged;
-        zulu = 'reduceMotionChanged';
-        zulu = oscar.bind(tango)(zulu, report);
-        zulu = tango.isReduceMotionEnabled;
-        oscar = zulu.bind(tango)();
-        report = oscar.then;
-        zulu = mike.handleReduceMotionChanged;
-        zulu = report.bind(oscar)(zulu);
-        oscar = tango.addEventListener;
-        report = mike.handleReduceTransparencyChanged;
-        zulu = 'reduceTransparencyChanged';
-        zulu = oscar.bind(tango)(zulu, report);
-        zulu = tango.isReduceTransparencyEnabled;
-        oscar = zulu.bind(tango)();
-        report = oscar.then;
-        zulu = mike.handleReduceTransparencyChanged;
-        zulu = report.bind(oscar)(zulu);
-        oscar = tango.addEventListener;
-        report = mike.handleBoldTextChanged;
-        zulu = 'boldTextChanged';
-        zulu = oscar.bind(tango)(zulu, report);
-        zulu = tango.isBoldTextEnabled;
-        oscar = zulu.bind(tango)();
-        report = oscar.then;
-        zulu = mike.handleBoldTextChanged;
-        zulu = report.bind(oscar)(zulu);
-        oscar = tango.addEventListener;
-        report = mike.handleGrayscaleChanged;
-        zulu = 'grayscaleChanged';
-        zulu = oscar.bind(tango)(zulu, report);
-        zulu = tango.isGrayscaleEnabled;
-        oscar = zulu.bind(tango)();
-        report = oscar.then;
-        zulu = mike.handleGrayscaleChanged;
-        zulu = report.bind(oscar)(zulu);
-        oscar = tango.addEventListener;
-        report = mike.handleInvertColorsChanged;
-        zulu = 'invertColorsChanged';
-        zulu = oscar.bind(tango)(zulu, report);
-        zulu = tango.isInvertColorsEnabled;
-        report = zulu.bind(tango)();
-        tango = report.then;
-        zulu = mike.handleInvertColorsChanged;
-        zulu = tango.bind(report)(zulu);
-        tango = mike.handlePreferredColorSchemeChanged;
-        zulu = {};
+        tangon = report.addChangeListener;
+        zuuluu = michal.handleAccessibilityStoreChanged;
+        zuuluu = tangon.bind(report)(zuuluu);
+        tangon = _closure1_slot3;
+        oscard = tangon.addEventListener;
+        report = michal.handleReduceMotionChanged;
+        zuuluu = 'reduceMotionChanged';
+        zuuluu = oscard.bind(tangon)(zuuluu, report);
+        zuuluu = tangon.isReduceMotionEnabled;
+        oscard = zuuluu.bind(tangon)();
+        report = oscard.then;
+        zuuluu = michal.handleReduceMotionChanged;
+        zuuluu = report.bind(oscard)(zuuluu);
+        oscard = tangon.addEventListener;
+        report = michal.handleReduceTransparencyChanged;
+        zuuluu = 'reduceTransparencyChanged';
+        zuuluu = oscard.bind(tangon)(zuuluu, report);
+        zuuluu = tangon.isReduceTransparencyEnabled;
+        oscard = zuuluu.bind(tangon)();
+        report = oscard.then;
+        zuuluu = michal.handleReduceTransparencyChanged;
+        zuuluu = report.bind(oscard)(zuuluu);
+        oscard = tangon.addEventListener;
+        report = michal.handleBoldTextChanged;
+        zuuluu = 'boldTextChanged';
+        zuuluu = oscard.bind(tangon)(zuuluu, report);
+        zuuluu = tangon.isBoldTextEnabled;
+        oscard = zuuluu.bind(tangon)();
+        report = oscard.then;
+        zuuluu = michal.handleBoldTextChanged;
+        zuuluu = report.bind(oscard)(zuuluu);
+        oscard = tangon.addEventListener;
+        report = michal.handleGrayscaleChanged;
+        zuuluu = 'grayscaleChanged';
+        zuuluu = oscard.bind(tangon)(zuuluu, report);
+        zuuluu = tangon.isGrayscaleEnabled;
+        oscard = zuuluu.bind(tangon)();
+        report = oscard.then;
+        zuuluu = michal.handleGrayscaleChanged;
+        zuuluu = report.bind(oscard)(zuuluu);
+        oscard = tangon.addEventListener;
+        report = michal.handleInvertColorsChanged;
+        zuuluu = 'invertColorsChanged';
+        zuuluu = oscard.bind(tangon)(zuuluu, report);
+        zuuluu = tangon.isInvertColorsEnabled;
+        report = zuuluu.bind(tangon)();
+        tangon = report.then;
+        zuuluu = michal.handleInvertColorsChanged;
+        zuuluu = tangon.bind(report)(zuuluu);
+        tangon = michal.handlePreferredColorSchemeChanged;
+        zuuluu = {};
         report = _closure1_slot4;
-        oscar = report.getColorScheme;
-        oscar = oscar.bind(report)();
-        zulu['colorScheme'] = oscar;
-        zulu = tango.bind(mike)(zulu);
-        tango = report.addChangeListener;
-        zulu = mike.handlePreferredColorSchemeChanged;
-        zulu = tango.bind(report)(zulu);
-        oscar = _closure1_slot5;
-        report = oscar.addEventListener;
-        tango = mike.handleAppStateChange;
-        zulu = 'change';
-        zulu = report.bind(oscar)(zulu, tango);
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
+        oscard = report.getColorScheme;
+        oscard = oscard.bind(report)();
+        zuuluu['colorScheme'] = oscard;
+        zuuluu = tangon.bind(michal)(zuuluu);
+        tangon = report.addChangeListener;
+        zuuluu = michal.handlePreferredColorSchemeChanged;
+        zuuluu = tangon.bind(report)(zuuluu);
+        oscard = _closure1_slot5;
+        report = oscard.addEventListener;
+        tangon = michal.handleAppStateChange;
+        zuuluu = 'change';
+        zuuluu = report.bind(oscard)(zuuluu, tangon);
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 5;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.setSystemAccessibilityFeatures;
-        mike = mike.getActiveFeatures;
-        mike = zulu.bind(tango)(mike);
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.setSystemAccessibilityFeatures;
+        michal = michal.getActiveFeatures;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    mike['init'] = golf;
-    golf = function() { // Original name: getActiveFeatures
+    michal['init'] = golfie;
+    golfie = function() { // Original name: getActiveFeatures
         entity = _closure1_slot8;
         return entity;
     };
-    mike['getActiveFeatures'] = golf;
-    golf = function(argFoo) { // Original name: handleReduceMotionChanged
+    michal['getActiveFeatures'] = golfie;
+    golfie = function(argFoo) { // Original name: handleReduceMotionChanged
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot9;
+            tangon = _closure1_slot9;
             entity = _closure1_slot7;
-            zulu = entity.REDUCED_MOTION;
+            zuuluu = entity.REDUCED_MOTION;
             entity = undefined;
-            zulu = tango.bind(entity)(zulu, report);
-            zulu = _closure1_slot0;
-            tango = _closure1_slot2;
-            mike = 6;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.systemPrefersReducedMotionChanged;
-            mike = 'no-preference';
+            zuuluu = tangon.bind(entity)(zuuluu, report);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 6;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.systemPrefersReducedMotionChanged;
+            michal = 'no-preference';
             if(!report) { _fun00004_ip = 67; continue _fun00003 }
  63:
-            mike = 'reduce';
+            michal = 'reduce';
  67:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    mike['handleReduceMotionChanged'] = golf;
-    golf = function(argFoo) { // Original name: handleReduceTransparencyChanged
-        tango = _closure1_slot9;
+    michal['handleReduceMotionChanged'] = golfie;
+    golfie = function(argFoo) { // Original name: handleReduceTransparencyChanged
+        tangon = _closure1_slot9;
         entity = _closure1_slot7;
-        zulu = entity.REDUCED_TRANSPARENCY;
+        zuuluu = entity.REDUCED_TRANSPARENCY;
         entity = undefined;
-        mike = argFoo;
-        mike = tango.bind(entity)(zulu, mike);
+        michal = argFoo;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike['handleReduceTransparencyChanged'] = golf;
-    golf = function(argFoo) { // Original name: handleBoldTextChanged
-        tango = _closure1_slot9;
+    michal['handleReduceTransparencyChanged'] = golfie;
+    golfie = function(argFoo) { // Original name: handleBoldTextChanged
+        tangon = _closure1_slot9;
         entity = _closure1_slot7;
-        zulu = entity.BOLD_TEXT;
+        zuuluu = entity.BOLD_TEXT;
         entity = undefined;
-        mike = argFoo;
-        mike = tango.bind(entity)(zulu, mike);
+        michal = argFoo;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike['handleBoldTextChanged'] = golf;
-    golf = function(argFoo) { // Original name: handleGrayscaleChanged
-        tango = _closure1_slot9;
+    michal['handleBoldTextChanged'] = golfie;
+    golfie = function(argFoo) { // Original name: handleGrayscaleChanged
+        tangon = _closure1_slot9;
         entity = _closure1_slot7;
-        zulu = entity.GRAYSCALE;
+        zuuluu = entity.GRAYSCALE;
         entity = undefined;
-        mike = argFoo;
-        mike = tango.bind(entity)(zulu, mike);
+        michal = argFoo;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike['handleGrayscaleChanged'] = golf;
-    golf = function(argFoo) { // Original name: handleInvertColorsChanged
-        tango = _closure1_slot9;
+    michal['handleGrayscaleChanged'] = golfie;
+    golfie = function(argFoo) { // Original name: handleInvertColorsChanged
+        tangon = _closure1_slot9;
         entity = _closure1_slot7;
-        zulu = entity.INVERT_COLORS;
+        zuuluu = entity.INVERT_COLORS;
         entity = undefined;
-        mike = argFoo;
-        mike = tango.bind(entity)(zulu, mike);
+        michal = argFoo;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike['handleInvertColorsChanged'] = golf;
-    golf = function(argFoo) { // Original name: handlePreferredColorSchemeChanged
+    michal['handleInvertColorsChanged'] = golfie;
+    golfie = function(argFoo) { // Original name: handlePreferredColorSchemeChanged
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            mike = entity.colorScheme;
+            michal = entity.colorScheme;
             entity = 'dark';
-            if(!(entity !== mike)) { _fun00006_ip = 109; continue _fun00005 }
+            if(!(entity !== michal)) { _fun00006_ip = 109; continue _fun00005 }
  17:
             entity = 'light';
-            if(!(entity !== mike)) { _fun00006_ip = 66; continue _fun00005 }
+            if(!(entity !== michal)) { _fun00006_ip = 66; continue _fun00005 }
  25:
-            tango = _closure1_slot9;
+            tangon = _closure1_slot9;
             entity = _closure1_slot7;
             report = entity.PREFERS_COLOR_SCHEME_DARK;
-            zulu = undefined;
-            mike = false;
-            report = tango.bind(zulu)(report, mike);
+            zuuluu = undefined;
+            michal = false;
+            report = tangon.bind(zuuluu)(report, michal);
             entity = entity.PREFERS_COLOR_SCHEME_LIGHT;
-            entity = tango.bind(zulu)(entity, mike);
+            entity = tangon.bind(zuuluu)(entity, michal);
             _fun00006_ip = 150; continue _fun00005;
  66:
-            tango = _closure1_slot9;
+            tangon = _closure1_slot9;
             entity = _closure1_slot7;
             report = entity.PREFERS_COLOR_SCHEME_DARK;
-            zulu = undefined;
-            mike = false;
-            mike = tango.bind(zulu)(report, mike);
-            mike = entity.PREFERS_COLOR_SCHEME_LIGHT;
+            zuuluu = undefined;
+            michal = false;
+            michal = tangon.bind(zuuluu)(report, michal);
+            michal = entity.PREFERS_COLOR_SCHEME_LIGHT;
             entity = true;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
             _fun00006_ip = 150; continue _fun00005;
  109:
-            tango = _closure1_slot9;
+            tangon = _closure1_slot9;
             entity = _closure1_slot7;
             report = entity.PREFERS_COLOR_SCHEME_LIGHT;
-            zulu = undefined;
-            mike = false;
-            mike = tango.bind(zulu)(report, mike);
-            mike = entity.PREFERS_COLOR_SCHEME_DARK;
+            zuuluu = undefined;
+            michal = false;
+            michal = tangon.bind(zuuluu)(report, michal);
+            michal = entity.PREFERS_COLOR_SCHEME_DARK;
             entity = true;
-            entity = tango.bind(zulu)(mike, entity);
+            entity = tangon.bind(zuuluu)(michal, entity);
  150:
             entity = undefined;
             return entity;
         }
     };
-    mike['handlePreferredColorSchemeChanged'] = golf;
-    golf = function() { // Original name: handleAccessibilityStoreChanged
-        tango = _closure1_slot9;
-        zulu = _closure1_slot7;
-        oscar = zulu.REDUCED_MOTION;
-        mike = _closure1_slot6;
-        report = mike.useReducedMotion;
+    michal['handlePreferredColorSchemeChanged'] = golfie;
+    golfie = function() { // Original name: handleAccessibilityStoreChanged
+        tangon = _closure1_slot9;
+        zuuluu = _closure1_slot7;
+        oscard = zuuluu.REDUCED_MOTION;
+        michal = _closure1_slot6;
+        report = michal.useReducedMotion;
         entity = undefined;
-        report = tango.bind(entity)(oscar, report);
-        oscar = zulu.REDUCED_MOTION_FROM_USER_SETTINGS;
-        golf = mike.rawPrefersReducedMotion;
+        report = tangon.bind(entity)(oscard, report);
+        oscard = zuuluu.REDUCED_MOTION_FROM_USER_SETTINGS;
+        golfie = michal.rawPrefersReducedMotion;
         report = 'auto';
-        report = report !== golf;
-        report = tango.bind(entity)(oscar, report);
-        golf = zulu.SATURATION_LEVEL_DECREASED;
-        oscar = mike.saturation;
+        report = report !== golfie;
+        report = tangon.bind(entity)(oscard, report);
+        golfie = zuuluu.SATURATION_LEVEL_DECREASED;
+        oscard = michal.saturation;
         report = 1;
-        oscar = oscar < report;
-        oscar = tango.bind(entity)(golf, oscar);
-        golf = zulu.CONTRAST_LEVEL_DECREASED;
-        oscar = mike.contrast;
-        oscar = oscar < report;
-        oscar = tango.bind(entity)(golf, oscar);
-        zulu = zulu.CONTRAST_LEVEL_INCREASED;
-        mike = mike.contrast;
-        mike = mike > report;
-        mike = tango.bind(entity)(zulu, mike);
+        oscard = oscard < report;
+        oscard = tangon.bind(entity)(golfie, oscard);
+        golfie = zuuluu.CONTRAST_LEVEL_DECREASED;
+        oscard = michal.contrast;
+        oscard = oscard < report;
+        oscard = tangon.bind(entity)(golfie, oscard);
+        zuuluu = zuuluu.CONTRAST_LEVEL_INCREASED;
+        michal = michal.contrast;
+        michal = michal > report;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    mike['handleAccessibilityStoreChanged'] = golf;
-    tango = function(argFoo) { // Original name: handleAppStateChange
+    michal['handleAccessibilityStoreChanged'] = golfie;
+    tangon = function(argFoo) { // Original name: handleAppStateChange
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = 'active';
-            mike = argFoo;
-            if(!(zulu === mike)) { _fun00008_ip = 74; continue _fun00007 }
+            zuuluu = 'active';
+            michal = argFoo;
+            if(!(zuuluu === michal)) { _fun00008_ip = 74; continue _fun00007 }
  13:
-            zulu = _closure1_slot3;
-            mike = zulu.isReduceMotionEnabled;
-            report = mike.bind(zulu)();
-            tango = report.then;
-            mike = function(argFoo) {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.isReduceMotionEnabled;
+            report = michal.bind(zuuluu)();
+            tangon = report.then;
+            michal = function(argFoo) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
-                    tango = _closure1_slot9;
+                    tangon = _closure1_slot9;
                     entity = _closure1_slot7;
-                    zulu = entity.REDUCED_MOTION;
+                    zuuluu = entity.REDUCED_MOTION;
                     entity = undefined;
-                    zulu = tango.bind(entity)(zulu, report);
-                    zulu = _closure1_slot0;
-                    tango = _closure1_slot2;
-                    mike = 6;
-                    mike = tango[mike];
-                    tango = zulu.bind(entity)(mike);
-                    zulu = tango.systemPrefersReducedMotionChanged;
-                    mike = 'no-preference';
+                    zuuluu = tangon.bind(entity)(zuuluu, report);
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    michal = 6;
+                    michal = tangon[michal];
+                    tangon = zuuluu.bind(entity)(michal);
+                    zuuluu = tangon.systemPrefersReducedMotionChanged;
+                    michal = 'no-preference';
                     if(!report) { _fun00010_ip = 67; continue _fun00009 }
  63:
-                    mike = 'reduce';
+                    michal = 'reduce';
  67:
-                    mike = zulu.bind(tango)(mike);
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike);
-            mike = zulu.prefersCrossFadeTransitions;
-            zulu = mike.bind(zulu)();
-            mike = zulu.then;
+            michal = tangon.bind(report)(michal);
+            michal = zuuluu.prefersCrossFadeTransitions;
+            zuuluu = michal.bind(zuuluu)();
+            michal = zuuluu.then;
             entity = function(argFoo) {
-                tango = argFoo;
+                tangon = argFoo;
                 report = _closure1_slot9;
                 entity = _closure1_slot7;
-                zulu = entity.REDUCED_MOTION_PREFERS_CROSSFADES;
+                zuuluu = entity.REDUCED_MOTION_PREFERS_CROSSFADES;
                 entity = undefined;
-                zulu = report.bind(entity)(zulu, tango);
-                zulu = _closure1_slot0;
+                zuuluu = report.bind(entity)(zuuluu, tangon);
+                zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
-                mike = 6;
-                mike = report[mike];
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.systemPrefersCrossfadesChanged;
-                mike = mike.bind(zulu)(tango);
+                michal = 6;
+                michal = report[michal];
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.systemPrefersCrossfadesChanged;
+                michal = michal.bind(zuuluu)(tangon);
                 return entity;
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
  74:
             entity = undefined;
             return entity;
         }
     };
-    mike['handleAppStateChange'] = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/a11y/native/AccessibilitySystemFeatures.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['handleAppStateChange'] = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/a11y/native/AccessibilitySystemFeatures.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

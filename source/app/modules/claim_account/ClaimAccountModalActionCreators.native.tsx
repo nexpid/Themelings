@@ -1,32 +1,32 @@
 // app/modules/claim_account/ClaimAccountModalActionCreators.native.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/claim_account/ClaimAccountModalActionCreators.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: openNewUserAgeGateModal
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/claim_account/ClaimAccountModalActionCreators.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: openNewUserAgeGateModal
         entity = undefined;
         return entity;
     };
-    zulu['openNewUserAgeGateModal'] = tango;
-    mike = function() { // Original name: openClaimAccountModal
+    zuuluu['openNewUserAgeGateModal'] = tangon;
+    michal = function() { // Original name: openClaimAccountModal
         entity = undefined;
         return entity;
     };
-    zulu['openClaimAccountModal'] = mike;
+    zuuluu['openClaimAccountModal'] = michal;
     return entity;
 })();

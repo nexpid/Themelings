@@ -1,66 +1,66 @@
 // app/utils/InterceptionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    oscar = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    report = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    report = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(golf)(zulu, entity, mike);
-    mike = function(argFoo) { // Original name: resolveThunk
+    entity = report.bind(golfie)(zuuluu, entity, michal);
+    michal = function(argFoo) { // Original name: resolveThunk
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            tango = 'function';
-            mike = typeof zulu;
-            entity = zulu;
-            if(!(tango === mike)) { _fun00002_ip = 23; continue _fun00001 }
+            zuuluu = argFoo;
+            tangon = 'function';
+            michal = typeof zuuluu;
+            entity = zuuluu;
+            if(!(tangon === michal)) { _fun00002_ip = 23; continue _fun00001 }
  17:
-            mike = undefined;
-            entity = zulu.bind(mike)();
+            michal = undefined;
+            entity = zuuluu.bind(michal)();
  23:
             return entity;
         }
     };
-    var _closure1_slot0 = mike;
+    var _closure1_slot0 = michal;
     entity = 0;
-    golf = oscar[entity];
+    golfie = oscard[entity];
     report = argBaz;
     entity = undefined;
-    golf = report.bind(entity)(golf);
-    report = golf.curry;
-    tango = function(argFoo, argBar, argBaz) {
+    golfie = report.bind(entity)(golfie);
+    report = golfie.curry;
+    tangon = function(argFoo, argBar, argBaz) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argBaz;
-            mike = _closure1_slot0;
-            zulu = undefined;
+            tangon = argBaz;
+            michal = _closure1_slot0;
+            zuuluu = undefined;
             entity = argBar;
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             if(entity) { _fun00004_ip = 32; continue _fun00003 }
  23:
             entity = {};
-            entity = tango.bind(zulu)(entity);
+            entity = tangon.bind(zuuluu)(entity);
             _fun00004_ip = 40; continue _fun00003;
  32:
-            mike = argFoo;
-            entity = mike.bind(zulu)(tango);
+            michal = argFoo;
+            entity = michal.bind(zuuluu)(tangon);
  40:
             return entity;
         }
     };
-    tango = report.bind(golf)(tango);
+    tangon = report.bind(golfie)(tangon);
     report = 1;
-    oscar = oscar[report];
+    oscard = oscard[report];
     report = argBar;
-    golf = report.bind(entity)(oscar);
-    oscar = golf.fileFinishedImporting;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/InterceptionUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['resolveThunk'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['resolveThunk'] = michal;
     return entity;
 })();

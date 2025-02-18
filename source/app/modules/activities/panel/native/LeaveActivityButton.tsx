@@ -1,123 +1,123 @@
 // app/modules/activities/panel/native/LeaveActivityButton.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    golf = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.ActivityPanelModes;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = golf.memo;
-    mike = function(argFoo) { // Original name: LeaveActivityButton
+    golfie = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ActivityPanelModes;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = golfie.memo;
+    michal = function(argFoo) { // Original name: LeaveActivityButton
         entity = argFoo;
-        mike = entity.selfEmbeddedActivity;
-        var _closure2_slot0 = mike;
+        michal = entity.selfEmbeddedActivity;
+        var _closure2_slot0 = michal;
         entity = entity.setMode;
         var _closure2_slot1 = entity;
-        tango = _closure1_slot4;
-        options = _closure1_slot0;
+        tangon = _closure1_slot4;
+        option = _closure1_slot0;
         verify = _closure1_slot2;
         entity = 3;
         entity = verify[entity];
-        zulu = undefined;
-        entity = options.bind(zulu)(entity);
-        mike = entity.Button;
+        zuuluu = undefined;
+        entity = option.bind(zuuluu)(entity);
+        michal = entity.Button;
         entity = {};
-        oscar = function() { // Original name: onPress
-            zulu = _closure2_slot1;
+        oscard = function() { // Original name: onPress
+            zuuluu = _closure2_slot1;
             entity = _closure1_slot3;
-            mike = entity.DISCONNECTED;
+            michal = entity.DISCONNECTED;
             entity = undefined;
-            mike = zulu.bind(entity)(mike);
-            mike = global;
-            tango = mike.setTimeout;
-            zulu = function() {
+            michal = zuuluu.bind(entity)(michal);
+            michal = global;
+            tangon = michal.setTimeout;
+            zuuluu = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = _closure1_slot1;
-                    mike = _closure1_slot2;
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
                     entity = 4;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    tango = zulu.bind(entity)(mike);
-                    zulu = tango.leaveActivity;
-                    mike = {};
+                    tangon = zuuluu.bind(entity)(michal);
+                    zuuluu = tangon.leaveActivity;
+                    michal = {};
                     report = _closure2_slot0;
-                    golf = null;
-                    options = golf == report;
+                    golfie = null;
+                    option = golfie == report;
                     report = undefined;
-                    if(options) { _fun00002_ip = 60; continue _fun00001 }
+                    if(option) { _fun00002_ip = 60; continue _fun00001 }
  51:
-                    options = _closure2_slot0;
-                    report = options.location;
+                    option = _closure2_slot0;
+                    report = option.location;
  60:
-                    mike['location'] = report;
+                    michal['location'] = report;
                     report = _closure2_slot0;
-                    golf = golf == report;
+                    golfie = golfie == report;
                     report = undefined;
-                    if(golf) { _fun00002_ip = 86; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 86; continue _fun00001 }
  77:
-                    oscar = _closure2_slot0;
-                    report = oscar.applicationId;
+                    oscard = _closure2_slot0;
+                    report = oscard.applicationId;
  86:
-                    mike['applicationId'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    michal['applicationId'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 }
             };
-            mike = 400;
-            mike = tango.bind(entity)(zulu, mike);
+            michal = 400;
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity['onPress'] = oscar;
-        oscar = _closure1_slot1;
+        entity['onPress'] = oscard;
+        oscard = _closure1_slot1;
         report = 5;
         report = verify[report];
-        report = oscar.bind(zulu)(report);
+        report = oscard.bind(zuuluu)(report);
         entity['icon'] = report;
         report = 6;
-        oscar = verify[report];
-        oscar = options.bind(zulu)(oscar);
-        offset = oscar.intl;
-        golf = offset.string;
-        oscar = verify[report];
-        oscar = options.bind(zulu)(oscar);
-        oscar = oscar.t;
-        oscar = oscar.Hi1/aW;
-        oscar = golf.bind(offset)(oscar);
-        entity['text'] = oscar;
-        oscar = verify[report];
-        oscar = options.bind(zulu)(oscar);
-        golf = oscar.intl;
-        oscar = golf.string;
+        oscard = verify[report];
+        oscard = option.bind(zuuluu)(oscard);
+        offset = oscard.intl;
+        golfie = offset.string;
+        oscard = verify[report];
+        oscard = option.bind(zuuluu)(oscard);
+        oscard = oscard.t;
+        oscard = oscard.Hi1/aW;
+        oscard = golfie.bind(offset)(oscard);
+        entity['text'] = oscard;
+        oscard = verify[report];
+        oscard = option.bind(zuuluu)(oscard);
+        golfie = oscard.intl;
+        oscard = golfie.string;
         report = verify[report];
-        report = options.bind(zulu)(report);
+        report = option.bind(zuuluu)(report);
         report = report.t;
         report = report.k0Aph4;
-        report = oscar.bind(golf)(report);
+        report = oscard.bind(golfie)(report);
         entity['accessibilityLabel'] = report;
         report = 'destructive';
         entity['variant'] = report;
@@ -127,16 +127,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['shrink'] = report;
         report = 2;
         entity['maxFontSizeMultiplier'] = report;
-        entity = tango.bind(zulu)(mike, entity);
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    mike = tango.bind(golf)(mike);
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/panel/native/LeaveActivityButton.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = tangon.bind(golfie)(michal);
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/panel/native/LeaveActivityButton.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

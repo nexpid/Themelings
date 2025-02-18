@@ -1,85 +1,85 @@
 // app/modules/user_profile/experiments/UserProfileRecentActivityExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    verify = report.bind(entity)(tango);
-    options = verify.createExperiment;
-    golf = {'kind': 'user', 'id': '2024-11_user_profile_recent_activity', 'label': 'User Profile Recent Activity'};
-    tango = {'recentActivityEnabled': false, 'allProfileReactReplyEnabled': false};
-    golf['defaultConfig'] = tango;
+    verify = report.bind(entity)(tangon);
+    option = verify.createExperiment;
+    golfie = {'kind': 'user', 'id': '2024-11_user_profile_recent_activity', 'label': 'User Profile Recent Activity'};
+    tangon = {'recentActivityEnabled': false, 'allProfileReactReplyEnabled': false};
+    golfie['defaultConfig'] = tangon;
     yankee = {'id': 1, 'label': 'User Profile Recent Activity Enabled'};
-    tango = 1;
+    tangon = 1;
     offset = {'recentActivityEnabled': true, 'allProfileReactReplyEnabled': false};
     yankee['config'] = offset;
     offset = new Array(2);
     offset[0] = yankee;
     yankee = {'id': 2, 'label': 'User Profile Recent Activity and React/Reply Enabled'};
-    romeo = {'recentActivityEnabled': true, 'allProfileReactReplyEnabled': true};
-    yankee['config'] = romeo;
+    romeon = {'recentActivityEnabled': true, 'allProfileReactReplyEnabled': true};
+    yankee['config'] = romeon;
     offset[1] = yankee;
-    golf['treatments'] = offset;
-    golf = options.bind(verify)(golf);
-    var _closure1_slot0 = golf;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_profile/experiments/UserProfileRecentActivityExperiment.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) {
+    golfie['treatments'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot0 = golfie;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/experiments/UserProfileRecentActivityExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.location;
-            report = mike.autoTrackExposure;
-            mike = undefined;
-            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
-            tango = _closure1_slot0;
-            zulu = tango.getCurrentConfig;
-            mike = {};
-            mike['location'] = entity;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['getUserProfileRecentActivityExperiment'] = tango;
-    mike = function(argFoo) {
+    zuuluu['getUserProfileRecentActivityExperiment'] = tangon;
+    michal = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
-            entity = mike.location;
-            report = mike.autoTrackExposure;
-            mike = undefined;
-            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = true;
  22:
-            tango = _closure1_slot0;
-            zulu = tango.useExperiment;
-            mike = {};
-            mike['location'] = entity;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['useUserProfileRecentActivityExperiment'] = mike;
+    zuuluu['useUserProfileRecentActivityExperiment'] = michal;
     return entity;
 })();

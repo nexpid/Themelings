@@ -1,146 +1,146 @@
 // app/modules/game_console/native/getConsoleConnectingText.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.PlatformTypes;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/game_console/native/getConsoleConnectingText.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: getConsoleConnectingText
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PlatformTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/game_console/native/getConsoleConnectingText.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: getConsoleConnectingText
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            zulu = argBar;
-            mike = argBaz;
+            zuuluu = argBar;
+            michal = argBaz;
             entity = null;
-            tango = entity == zulu;
-            golf = undefined;
-            oscar = undefined;
-            if(tango) { _fun00002_ip = 27; continue _fun00001 }
+            tangon = entity == zuuluu;
+            golfie = undefined;
+            oscard = undefined;
+            if(tangon) { _fun00002_ip = 27; continue _fun00001 }
  22:
-            oscar = zulu.type;
+            oscard = zuuluu.type;
  27:
-            if(!(entity == oscar)) { _fun00002_ip = 55; continue _fun00001 }
+            if(!(entity == oscard)) { _fun00002_ip = 55; continue _fun00001 }
  31:
-            options = entity == report;
-            tango = undefined;
-            if(options) { _fun00002_ip = 52; continue _fun00001 }
+            option = entity == report;
+            tangon = undefined;
+            if(option) { _fun00002_ip = 52; continue _fun00001 }
  40:
             report = report.clientInfo;
-            tango = report.os;
+            tangon = report.os;
  52:
-            oscar = tango;
+            oscard = tangon;
  55:
-            tango = entity != zulu;
+            tangon = entity != zuuluu;
             entity = _closure1_slot2;
             entity = entity.XBOX;
-            if(!(oscar !== entity)) { _fun00002_ip = 249; continue _fun00001 }
+            if(!(oscard !== entity)) { _fun00002_ip = 249; continue _fun00001 }
  79:
             entity = _closure1_slot2;
             entity = entity.PLAYSTATION;
-            if(!(oscar !== entity)) { _fun00002_ip = 112; continue _fun00001 }
+            if(!(oscard !== entity)) { _fun00002_ip = 112; continue _fun00001 }
  93:
             entity = _closure1_slot2;
             report = entity.PLAYSTATION_STAGING;
             entity = undefined;
-            if(!(oscar === report)) { _fun00002_ip = 244; continue _fun00001 }
+            if(!(oscard === report)) { _fun00002_ip = 244; continue _fun00001 }
  112:
-            if(mike) { _fun00002_ip = 181; continue _fun00001 }
+            if(michal) { _fun00002_ip = 181; continue _fun00001 }
  115:
             report = 'PS5';
-            if(!tango) { _fun00002_ip = 179; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 179; continue _fun00001 }
  122:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
-            oscar = 1;
-            options = yankee[oscar];
-            options = offset.bind(golf)(options);
-            verify = options.intl;
-            options = verify.string;
-            oscar = yankee[oscar];
-            oscar = offset.bind(golf)(oscar);
-            oscar = oscar.t;
-            oscar = oscar.QCw1oa;
-            report = options.bind(verify)(oscar);
+            oscard = 1;
+            option = yankee[oscard];
+            option = offset.bind(golfie)(option);
+            verify = option.intl;
+            option = verify.string;
+            oscard = yankee[oscard];
+            oscard = offset.bind(golfie)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.QCw1oa;
+            report = option.bind(verify)(oscard);
  179:
             _fun00002_ip = 241; continue _fun00001;
  181:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             yankee = _closure1_slot1;
-            oscar = 1;
-            verify = yankee[oscar];
-            verify = options.bind(golf)(verify);
+            oscard = 1;
+            verify = yankee[oscard];
+            verify = option.bind(golfie)(verify);
             offset = verify.intl;
             verify = offset.format;
-            oscar = yankee[oscar];
-            oscar = options.bind(golf)(oscar);
-            oscar = oscar.t;
-            options = oscar.TZ17Bg;
-            oscar = {};
-            report = verify.bind(offset)(options, oscar);
+            oscard = yankee[oscard];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.t;
+            option = oscard.TZ17Bg;
+            oscard = {};
+            report = verify.bind(offset)(option, oscard);
  241:
             entity = report;
  244:
             _fun00002_ip = 381; continue _fun00001;
  249:
-            if(mike) { _fun00002_ip = 318; continue _fun00001 }
+            if(michal) { _fun00002_ip = 318; continue _fun00001 }
  252:
-            mike = 'Xbox';
-            if(!tango) { _fun00002_ip = 316; continue _fun00001 }
+            michal = 'Xbox';
+            if(!tangon) { _fun00002_ip = 316; continue _fun00001 }
  259:
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             verify = _closure1_slot1;
-            tango = 1;
-            report = verify[tango];
-            report = options.bind(golf)(report);
-            oscar = report.intl;
-            report = oscar.string;
-            tango = verify[tango];
-            tango = options.bind(golf)(tango);
-            tango = tango.t;
-            tango = tango.UjA4HR;
-            mike = report.bind(oscar)(tango);
+            tangon = 1;
+            report = verify[tangon];
+            report = option.bind(golfie)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            tangon = verify[tangon];
+            tangon = option.bind(golfie)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.UjA4HR;
+            michal = report.bind(oscard)(tangon);
  316:
             _fun00002_ip = 378; continue _fun00001;
  318:
-            tango = _closure1_slot0;
-            options = _closure1_slot1;
-            zulu = 1;
-            report = options[zulu];
-            report = tango.bind(golf)(report);
-            oscar = report.intl;
-            report = oscar.format;
-            zulu = options[zulu];
-            zulu = tango.bind(golf)(zulu);
-            zulu = zulu.t;
-            tango = zulu.ynEs/f;
-            zulu = {};
-            mike = report.bind(oscar)(tango, zulu);
+            tangon = _closure1_slot0;
+            option = _closure1_slot1;
+            zuuluu = 1;
+            report = option[zuuluu];
+            report = tangon.bind(golfie)(report);
+            oscard = report.intl;
+            report = oscard.format;
+            zuuluu = option[zuuluu];
+            zuuluu = tangon.bind(golfie)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.ynEs/f;
+            zuuluu = {};
+            michal = report.bind(oscard)(tangon, zuuluu);
  378:
-            entity = mike;
+            entity = michal;
  381:
             return entity;
         }
     };
-    zulu['getConsoleConnectingText'] = mike;
+    zuuluu['getConsoleConnectingText'] = michal;
     return entity;
 })();

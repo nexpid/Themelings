@@ -1,133 +1,133 @@
 // app/modules/panels/morphable/AppFreezeStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    golf = report.bind(entity)(tango);
-    tango = golf.create;
-    mike = function(argFoo) {
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.create;
+    michal = function(argFoo) {
         entity = argFoo;
         var _closure2_slot0 = entity;
         entity = {};
-        zulu = global;
-        zulu = zulu.Set;
-        tango = zulu.prototype;
-        tango = Object.create(tango, {constructor: {value: zulu}});
-        report = tango;
-        zulu = new report[zulu](tango);
-        zulu = zulu instanceof Object ? zulu : tango;
-        entity['lockKeys'] = zulu;
-        mike = function(argFoo) { // Original name: requestFreezeLock
+        zuuluu = global;
+        zuuluu = zuuluu.Set;
+        tangon = zuuluu.prototype;
+        tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+        report = tangon;
+        zuuluu = new report[zuuluu](tangon);
+        zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+        entity['lockKeys'] = zuuluu;
+        michal = function(argFoo) { // Original name: requestFreezeLock
             entity = argFoo;
-            zulu = entity.key;
-            var _closure3_slot0 = zulu;
+            zuuluu = entity.key;
+            var _closure3_slot0 = zuuluu;
             entity = entity.lockEnabled;
             var _closure3_slot1 = entity;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.batchUpdates;
-            mike = function() {
-                zulu = _closure2_slot0;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.batchUpdates;
+            michal = function() {
+                zuuluu = _closure2_slot0;
                 entity = undefined;
-                mike = function(argFoo) {
+                michal = function(argFoo) {
                     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                        tango = argFoo;
+                        tangon = argFoo;
                         entity = _closure3_slot1;
-                        oscar = tango.lockKeys;
-                        report = oscar.has;
-                        mike = _closure3_slot0;
-                        mike = report.bind(oscar)(mike);
+                        oscard = tangon.lockKeys;
+                        report = oscard.has;
+                        michal = _closure3_slot0;
+                        michal = report.bind(oscard)(michal);
                         if(entity) { _fun00002_ip = 106; continue _fun00001 }
  33:
-                        if(mike) { _fun00002_ip = 38; continue _fun00001 }
+                        if(michal) { _fun00002_ip = 38; continue _fun00001 }
  36:
-                        return tango;
+                        return tangon;
  38:
                         entity = global;
                         entity = entity.Set;
                         report = entity.prototype;
                         report = Object.create(report, {constructor: {value: entity}});
                         yankee = report;
-                        offset = oscar;
+                        offset = oscard;
                         entity = new yankee[entity](offset, verify);
-                        oscar = entity instanceof Object ? entity : report;
-                        report = oscar.delete;
+                        oscard = entity instanceof Object ? entity : report;
+                        report = oscard.delete;
                         entity = _closure3_slot0;
-                        entity = report.bind(oscar)(entity);
+                        entity = report.bind(oscard)(entity);
                         entity = {};
                         offset = entity;
-                        verify = tango;
+                        verify = tangon;
                         report = copyDataProperties(offset, verify);
                         report = 'lockKeys';
-                        entity[report] = oscar;
+                        entity[report] = oscard;
                         return entity;
  106:
-                        entity = tango;
-                        if(mike) { _fun00002_ip = 211; continue _fun00001 }
+                        entity = tangon;
+                        if(michal) { _fun00002_ip = 211; continue _fun00001 }
  112:
-                        mike = {};
-                        offset = mike;
-                        verify = tango;
+                        michal = {};
+                        offset = michal;
+                        verify = tangon;
                         report = copyDataProperties(offset, verify);
-                        oscar = global;
-                        report = oscar.Set;
-                        golf = _closure3_slot0;
-                        zulu = new Array(1);
-                        zulu[0] = golf;
-                        golf = oscar.Array;
-                        oscar = golf.from;
-                        tango = tango.lockKeys;
-                        verify = oscar.bind(golf)(tango);
-                        options = 1;
-                        offset = zulu;
-                        tango = arraySpread(offset, verify, options);
-                        tango = report.prototype;
-                        tango = Object.create(tango, {constructor: {value: report}});
-                        yankee = tango;
-                        offset = zulu;
-                        zulu = new yankee[report](offset, verify);
-                        tango = zulu instanceof Object ? zulu : tango;
-                        zulu = 'lockKeys';
-                        mike[zulu] = tango;
-                        entity = mike;
+                        oscard = global;
+                        report = oscard.Set;
+                        golfie = _closure3_slot0;
+                        zuuluu = new Array(1);
+                        zuuluu[0] = golfie;
+                        golfie = oscard.Array;
+                        oscard = golfie.from;
+                        tangon = tangon.lockKeys;
+                        verify = oscard.bind(golfie)(tangon);
+                        option = 1;
+                        offset = zuuluu;
+                        tangon = arraySpread(offset, verify, option);
+                        tangon = report.prototype;
+                        tangon = Object.create(tangon, {constructor: {value: report}});
+                        yankee = tangon;
+                        offset = zuuluu;
+                        zuuluu = new yankee[report](offset, verify);
+                        tangon = zuuluu instanceof Object ? zuuluu : tangon;
+                        zuuluu = 'lockKeys';
+                        michal[zuuluu] = tangon;
+                        entity = michal;
  211:
                         return entity;
                     }
                 };
-                mike = zulu.bind(entity)(mike);
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        entity['requestFreezeLock'] = mike;
+        entity['requestFreezeLock'] = michal;
         return entity;
     };
-    mike = tango.bind(golf)(mike);
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/panels/morphable/AppFreezeStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal = tangon.bind(golfie)(michal);
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/panels/morphable/AppFreezeStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

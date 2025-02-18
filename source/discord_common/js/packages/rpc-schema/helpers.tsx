@@ -1,48 +1,48 @@
 // discord_common/js/packages/rpc-schema/helpers.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    report = tango.RPCCommands;
-    tango = tango.RPCEvents;
-    oscar = 1;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = '../discord_common/js/packages/rpc-schema/helpers.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['RPCCommand'] = report;
-    zulu['RPCEvent'] = tango;
-    tango = function(argFoo) { // Original name: joiReqObj
-        mike = argFoo;
-        entity = mike.required;
-        zulu = entity.bind(mike)();
-        mike = zulu.unknown;
+    tangon = golfie.bind(entity)(tangon);
+    report = tangon.RPCCommands;
+    tangon = tangon.RPCEvents;
+    oscard = 1;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = '../discord_common/js/packages/rpc-schema/helpers.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['RPCCommand'] = report;
+    zuuluu['RPCEvent'] = tangon;
+    tangon = function(argFoo) { // Original name: joiReqObj
+        michal = argFoo;
+        entity = michal.required;
+        zuuluu = entity.bind(michal)();
+        michal = zuuluu.unknown;
         entity = true;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['joiReqObj'] = tango;
-    mike = function(argFoo) { // Original name: joiEnum
+    zuuluu['joiReqObj'] = tangon;
+    michal = function(argFoo) { // Original name: joiEnum
         entity = global;
-        zulu = entity.Object;
-        mike = zulu.values;
+        zuuluu = entity.Object;
+        michal = zuuluu.values;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zulu['joiEnum'] = mike;
+    zuuluu['joiEnum'] = michal;
     return entity;
 })();

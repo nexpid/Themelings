@@ -1,110 +1,110 @@
 // app/modules/media_keyboard/native/useUploadDisabled.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.DraftType;
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.MAX_UPLOAD_COUNT;
-    var _closure1_slot5 = golf;
-    tango = tango.Permissions;
-    var _closure1_slot6 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/media_keyboard/native/useUploadDisabled.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useUploadDisabled
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 4;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
-        oscar = _closure1_slot3;
-        mike = new Array(2);
-        mike[0] = oscar;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DraftType;
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.MAX_UPLOAD_COUNT;
+    var _closure1_slot5 = golfie;
+    tangon = tangon.Permissions;
+    var _closure1_slot6 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_keyboard/native/useUploadDisabled.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useUploadDisabled
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 4;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot3;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot4;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                oscar = _closure1_slot4;
-                zulu = oscar.getUploads;
+                oscard = _closure1_slot4;
+                zuuluu = oscard.getUploads;
                 entity = _closure2_slot0;
-                mike = entity.id;
+                michal = entity.id;
                 entity = _closure1_slot2;
                 entity = entity.ChannelMessage;
-                entity = zulu.bind(oscar)(mike, entity);
-                mike = entity.length;
+                entity = zuuluu.bind(oscard)(michal, entity);
+                michal = entity.length;
                 entity = _closure1_slot5;
-                entity = mike >= entity;
+                entity = michal >= entity;
                 if(entity) { _fun00002_ip = 154; continue _fun00001 }
  57:
-                mike = _closure2_slot0;
-                zulu = mike.id;
-                golf = _closure1_slot0;
-                oscar = _closure1_slot1;
-                mike = 5;
-                oscar = oscar[mike];
-                mike = undefined;
-                mike = golf.bind(mike)(oscar);
-                mike = mike.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
-                mike = zulu === mike;
-                if(mike) { _fun00002_ip = 151; continue _fun00001 }
+                michal = _closure2_slot0;
+                zuuluu = michal.id;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot1;
+                michal = 5;
+                oscard = oscard[michal];
+                michal = undefined;
+                michal = golfie.bind(michal)(oscard);
+                michal = michal.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
+                michal = zuuluu === michal;
+                if(michal) { _fun00002_ip = 151; continue _fun00001 }
  101:
-                oscar = _closure2_slot0;
-                zulu = oscar.isPrivate;
-                zulu = zulu.bind(oscar)();
-                if(zulu) { _fun00002_ip = 148; continue _fun00001 }
+                oscard = _closure2_slot0;
+                zuuluu = oscard.isPrivate;
+                zuuluu = zuuluu.bind(oscard)();
+                if(zuuluu) { _fun00002_ip = 148; continue _fun00001 }
  118:
-                golf = _closure1_slot3;
-                oscar = golf.can;
+                golfie = _closure1_slot3;
+                oscard = golfie.can;
                 report = _closure1_slot6;
                 report = report.ATTACH_FILES;
-                tango = _closure2_slot0;
-                zulu = oscar.bind(golf)(report, tango);
+                tangon = _closure2_slot0;
+                zuuluu = oscard.bind(golfie)(report, tangon);
  148:
-                mike = !zulu;
+                michal = !zuuluu;
  151:
-                entity = mike;
+                entity = michal;
  154:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,33 +1,33 @@
 // app/modules/messages/native/snowflake/MessageDataSnowflakeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/native/snowflake/MessageDataSnowflakeUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: castNativeSyntheticEventData
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/native/snowflake/MessageDataSnowflakeUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: castNativeSyntheticEventData
         entity = argFoo;
         return entity;
     };
-    zulu['castNativeSyntheticEventData'] = tango;
-    mike = function(argFoo) { // Original name: getNativeSyntheticEventData
+    zuuluu['castNativeSyntheticEventData'] = tangon;
+    michal = function(argFoo) { // Original name: getNativeSyntheticEventData
         entity = argFoo;
         entity = entity.nativeEvent;
         return entity;
     };
-    zulu['getNativeSyntheticEventData'] = mike;
+    zuuluu['getNativeSyntheticEventData'] = michal;
     return entity;
 })();

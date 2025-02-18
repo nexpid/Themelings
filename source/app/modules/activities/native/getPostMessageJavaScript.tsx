@@ -1,36 +1,36 @@
 // app/modules/activities/native/getPostMessageJavaScript.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/activities/native/getPostMessageJavaScript.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: getPostMessageJavaScript
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/activities/native/getPostMessageJavaScript.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: getPostMessageJavaScript
         entity = global;
-        tango = entity.JSON;
-        zulu = tango.stringify;
-        mike = argFoo;
-        tango = zulu.bind(tango)(mike);
+        tangon = entity.JSON;
+        zuuluu = tangon.stringify;
+        michal = argFoo;
+        tangon = zuuluu.bind(tangon)(michal);
         entity = entity.HermesInternal;
-        zulu = entity.concat;
-        mike = "\n    (function() {\n      const iFrame = document.getElementById('activityFrame');\n      iFrame.contentWindow.postMessage(";
+        zuuluu = entity.concat;
+        michal = "\n    (function() {\n      const iFrame = document.getElementById('activityFrame');\n      iFrame.contentWindow.postMessage(";
         entity = ", '*');\n    })()\n  ";
-        entity = zulu.bind(mike)(tango, entity);
+        entity = zuuluu.bind(michal)(tangon, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

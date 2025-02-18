@@ -1,195 +1,195 @@
 // app/modules/app_launcher/native/screens/home/useViewableAppLauncherHomeItems.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argBaz;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot3 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_launcher/native/screens/home/useViewableAppLauncherHomeItems.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useViewableAppLauncherHomeItems
-        golf = _closure1_slot0;
-        options = _closure1_slot1;
-        mike = 2;
-        zulu = options[mike];
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argBaz;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/screens/home/useViewableAppLauncherHomeItems.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useViewableAppLauncherHomeItems
+        golfie = _closure1_slot0;
+        option = _closure1_slot1;
+        michal = 2;
+        zuuluu = option[michal];
         report = undefined;
-        verify = golf.bind(report)(zulu);
-        zulu = verify.useSharedValue;
-        oscar = false;
-        zulu = zulu.bind(verify)(oscar);
-        var _closure2_slot0 = zulu;
-        mike = options[mike];
-        report = golf.bind(report)(mike);
-        mike = report.useSharedValue;
-        mike = mike.bind(report)(oscar);
-        var _closure2_slot1 = mike;
-        golf = _closure1_slot2;
-        report = golf.useRef;
+        verify = golfie.bind(report)(zuuluu);
+        zuuluu = verify.useSharedValue;
+        oscard = false;
+        zuuluu = zuuluu.bind(verify)(oscard);
+        var _closure2_slot0 = zuuluu;
+        michal = option[michal];
+        report = golfie.bind(report)(michal);
+        michal = report.useSharedValue;
+        michal = michal.bind(report)(oscard);
+        var _closure2_slot1 = michal;
+        golfie = _closure1_slot2;
+        report = golfie.useRef;
         entity = {};
-        options = report.bind(golf)(entity);
-        var _closure2_slot2 = options;
+        option = report.bind(golfie)(entity);
+        var _closure2_slot2 = option;
         entity = {};
-        oscar = golf.useCallback;
+        oscard = golfie.useCallback;
         report = new Array(3);
-        report[0] = zulu;
-        report[1] = mike;
-        report[2] = options;
-        tango = function(argFoo) {
+        report[0] = zuuluu;
+        report[1] = michal;
+        report[2] = option;
+        tangon = function(argFoo) {
             entity = argFoo;
-            zulu = entity.viewableItems;
-            mike = zulu.forEach;
+            zuuluu = entity.viewableItems;
+            michal = zuuluu.forEach;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
-                    golf = entity.item;
-                    zulu = golf.type;
-                    tango = _closure1_slot0;
+                    golfie = entity.item;
+                    zuuluu = golfie.type;
+                    tangon = _closure1_slot0;
                     entity = _closure1_slot1;
-                    options = 3;
-                    mike = entity[options];
+                    option = 3;
+                    michal = entity[option];
                     entity = undefined;
-                    mike = tango.bind(entity)(mike);
-                    mike = mike.AppLauncherHomeListItemType;
-                    mike = mike.SHELF_ITEM;
-                    mike = zulu !== mike;
-                    if(mike) { _fun00002_ip = 73; continue _fun00001 }
+                    michal = tangon.bind(entity)(michal);
+                    michal = michal.AppLauncherHomeListItemType;
+                    michal = michal.SHELF_ITEM;
+                    michal = zuuluu !== michal;
+                    if(michal) { _fun00002_ip = 73; continue _fun00001 }
  57:
-                    tango = _closure2_slot0;
-                    zulu = tango.get;
-                    mike = zulu.bind(tango)();
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.get;
+                    michal = zuuluu.bind(tangon)();
  73:
-                    if(mike) { _fun00002_ip = 95; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 95; continue _fun00001 }
  76:
-                    tango = _closure2_slot0;
-                    zulu = tango.set;
-                    mike = true;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.set;
+                    michal = true;
+                    michal = zuuluu.bind(tangon)(michal);
  95:
-                    zulu = golf.type;
-                    tango = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    mike = mike[options];
-                    mike = tango.bind(entity)(mike);
-                    mike = mike.AppLauncherHomeListItemType;
-                    mike = mike.LEARN_MORE;
-                    mike = zulu !== mike;
-                    if(mike) { _fun00002_ip = 152; continue _fun00001 }
+                    zuuluu = golfie.type;
+                    tangon = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    michal = michal[option];
+                    michal = tangon.bind(entity)(michal);
+                    michal = michal.AppLauncherHomeListItemType;
+                    michal = michal.LEARN_MORE;
+                    michal = zuuluu !== michal;
+                    if(michal) { _fun00002_ip = 152; continue _fun00001 }
  136:
-                    tango = _closure2_slot1;
-                    zulu = tango.get;
-                    mike = zulu.bind(tango)();
+                    tangon = _closure2_slot1;
+                    zuuluu = tangon.get;
+                    michal = zuuluu.bind(tangon)();
  152:
-                    if(mike) { _fun00002_ip = 174; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 174; continue _fun00001 }
  155:
-                    tango = _closure2_slot1;
-                    zulu = tango.set;
-                    mike = true;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure2_slot1;
+                    zuuluu = tangon.set;
+                    michal = true;
+                    michal = zuuluu.bind(tangon)(michal);
  174:
-                    zulu = golf.type;
-                    tango = _closure1_slot0;
-                    mike = _closure1_slot1;
-                    mike = mike[options];
-                    mike = tango.bind(entity)(mike);
-                    mike = mike.AppLauncherHomeListItemType;
-                    mike = mike.RECOMMENDATION_SECTION_HEADER;
-                    mike = zulu !== mike;
-                    if(!mike) { _fun00002_ip = 253; continue _fun00001 }
+                    zuuluu = golfie.type;
+                    tangon = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    michal = michal[option];
+                    michal = tangon.bind(entity)(michal);
+                    michal = michal.AppLauncherHomeListItemType;
+                    michal = michal.RECOMMENDATION_SECTION_HEADER;
+                    michal = zuuluu !== michal;
+                    if(!michal) { _fun00002_ip = 253; continue _fun00001 }
  215:
-                    tango = golf.type;
+                    tangon = golfie.type;
                     report = _closure1_slot0;
-                    zulu = _closure1_slot1;
-                    zulu = zulu[options];
-                    zulu = report.bind(entity)(zulu);
-                    zulu = zulu.AppLauncherHomeListItemType;
-                    zulu = zulu.SECTION_HEADER;
-                    mike = tango !== zulu;
+                    zuuluu = _closure1_slot1;
+                    zuuluu = zuuluu[option];
+                    zuuluu = report.bind(entity)(zuuluu);
+                    zuuluu = zuuluu.AppLauncherHomeListItemType;
+                    zuuluu = zuuluu.SECTION_HEADER;
+                    michal = tangon !== zuuluu;
  253:
-                    if(mike) { _fun00002_ip = 284; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 284; continue _fun00001 }
  256:
-                    zulu = _closure2_slot2;
-                    tango = zulu.current;
-                    zulu = golf.sectionName;
-                    tango = tango[zulu];
-                    zulu = null;
-                    mike = zulu != tango;
+                    zuuluu = _closure2_slot2;
+                    tangon = zuuluu.current;
+                    zuuluu = golfie.sectionName;
+                    tangon = tangon[zuuluu];
+                    zuuluu = null;
+                    michal = zuuluu != tangon;
  284:
-                    if(mike) { _fun00002_ip = 458; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 458; continue _fun00001 }
  290:
-                    mike = _closure2_slot2;
-                    tango = mike.current;
-                    zulu = golf.sectionName;
-                    mike = true;
-                    tango[zulu] = mike;
-                    options = _closure1_slot0;
+                    michal = _closure2_slot2;
+                    tangon = michal.current;
+                    zuuluu = golfie.sectionName;
+                    michal = true;
+                    tangon[zuuluu] = michal;
+                    option = _closure1_slot0;
                     verify = _closure1_slot1;
-                    mike = 4;
-                    mike = verify[mike];
-                    tango = options.bind(entity)(mike);
-                    zulu = tango.trackImpression;
-                    mike = {};
+                    michal = 4;
+                    michal = verify[michal];
+                    tangon = option.bind(entity)(michal);
+                    zuuluu = tangon.trackImpression;
+                    michal = {};
                     report = 5;
                     offset = verify[report];
-                    offset = options.bind(entity)(offset);
+                    offset = option.bind(entity)(offset);
                     offset = offset.ImpressionTypes;
                     offset = offset.VIEW;
-                    mike['type'] = offset;
+                    michal['type'] = offset;
                     report = verify[report];
-                    report = options.bind(entity)(report);
+                    report = option.bind(entity)(report);
                     report = report.ImpressionNames;
                     report = report.APP_LAUNCHER_SECTION;
-                    mike['name'] = report;
+                    michal['name'] = report;
                     report = {};
-                    options = golf.sectionName;
-                    report['section_name'] = options;
-                    options = golf.numItems;
-                    report['num_items'] = options;
-                    golf = golf.numVisibleItems;
-                    report['num_visible_items'] = golf;
-                    golf = _closure1_slot3;
-                    oscar = golf.entrypoint;
-                    oscar = oscar.bind(golf)();
-                    report['source'] = oscar;
-                    mike['properties'] = report;
-                    mike = zulu.bind(tango)(mike);
+                    option = golfie.sectionName;
+                    report['section_name'] = option;
+                    option = golfie.numItems;
+                    report['num_items'] = option;
+                    golfie = golfie.numVisibleItems;
+                    report['num_visible_items'] = golfie;
+                    golfie = _closure1_slot3;
+                    oscard = golfie.entrypoint;
+                    oscard = oscard.bind(golfie)();
+                    report['source'] = oscard;
+                    michal['properties'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
  458:
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
         };
-        tango = oscar.bind(golf)(tango, report);
-        entity['handleViewableItemsChanged'] = tango;
-        entity['hasViewedActivityItem'] = zulu;
-        entity['hasViewedLearnMoreItem'] = mike;
+        tangon = oscard.bind(golfie)(tangon, report);
+        entity['handleViewableItemsChanged'] = tangon;
+        entity['hasViewedActivityItem'] = zuuluu;
+        entity['hasViewedLearnMoreItem'] = michal;
         return entity;
     };
-    zulu['useViewableAppLauncherHomeItems'] = mike;
+    zuuluu['useViewableAppLauncherHomeItems'] = michal;
     return entity;
 })();

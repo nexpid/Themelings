@@ -1,135 +1,135 @@
 // app/actions/SearchActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    options = argBaz;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = options;
-    var _closure1_slot2 = golf;
-    tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: search
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    oscard = argBar;
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: search
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            golf = argBar;
-            report = argCorge;
-            var _closure2_slot0 = golf;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot2;
+            oscard = argFoo;
+            golfie = argBar;
+            report = argCor;
+            var _closure2_slot0 = golfie;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.setIncludeNSFW;
-            mike = mike.bind(zulu)(golf, oscar);
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.setIncludeNSFW;
+            michal = michal.bind(zuuluu)(golfie, oscard);
             if(!report) { _fun00002_ip = 65; continue _fun00001 }
  55:
-            mike = true;
-            golf['search_everywhere'] = mike;
+            michal = true;
+            golfie['search_everywhere'] = michal;
  65:
-            mike = global;
-            zulu = mike.Object;
-            mike = zulu.keys;
-            backup = mike.bind(zulu)(golf);
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
-            mike = 3;
-            mike = tango[mike];
-            offset = zulu.bind(entity)(mike);
+            michal = global;
+            zuuluu = michal.Object;
+            michal = zuuluu.keys;
+            backup = michal.bind(zuuluu)(golfie);
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 3;
+            michal = tangon[michal];
+            offset = zuuluu.bind(entity)(michal);
             verify = offset.trackWithMetadata;
-            mike = _closure1_slot5;
-            options = mike.SEARCH_STARTED;
-            mike = {};
-            kilo = _closure1_slot3;
-            foxtrot = kilo.getSearchType;
-            foxtrot = foxtrot.bind(kilo)();
-            mike['search_type'] = foxtrot;
-            foxtrot = _closure1_slot3;
-            romeo = foxtrot.getAnalyticsId;
-            romeo = romeo.bind(foxtrot)(oscar);
-            mike['prev_search_id'] = romeo;
-            romeo = backup.length;
-            mike['num_modifiers'] = romeo;
-            foxtrot = backup.reduce;
-            romeo = function(argFoo, argBar) {
+            michal = _closure1_slot5;
+            option = michal.SEARCH_STARTED;
+            michal = {};
+            kiloes = _closure1_slot3;
+            foxtra = kiloes.getSearchType;
+            foxtra = foxtra.bind(kiloes)();
+            michal['search_type'] = foxtra;
+            foxtra = _closure1_slot3;
+            romeon = foxtra.getAnalyticsId;
+            romeon = romeon.bind(foxtra)(oscard);
+            michal['prev_search_id'] = romeon;
+            romeon = backup.length;
+            michal['num_modifiers'] = romeon;
+            foxtra = backup.reduce;
+            romeon = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
-                    zulu = argBar;
-                    mike = _closure2_slot0;
-                    tango = mike[zulu];
-                    mike = global;
-                    report = mike.Array;
-                    mike = report.isArray;
-                    report = mike.bind(report)(tango);
-                    mike = 1;
+                    zuuluu = argBar;
+                    michal = _closure2_slot0;
+                    tangon = michal[zuuluu];
+                    michal = global;
+                    report = michal.Array;
+                    michal = report.isArray;
+                    report = michal.bind(report)(tangon);
+                    michal = 1;
                     if(!report) { _fun00004_ip = 46; continue _fun00003 }
  41:
-                    mike = tango.length;
+                    michal = tangon.length;
  46:
-                    entity[zulu] = mike;
+                    entity[zuuluu] = michal;
                     return entity;
                 }
             };
             yankee = {};
-            yankee = foxtrot.bind(backup)(romeo, yankee);
-            mike['modifiers'] = yankee;
-            mike = verify.bind(offset)(options, mike);
-            mike = 4;
-            mike = tango[mike];
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
-            options = 'SEARCH_START';
-            mike['type'] = options;
-            mike['query'] = golf;
-            mike['searchId'] = oscar;
-            oscar = argBaz;
-            mike['queryString'] = oscar;
-            mike['searchEverywhere'] = report;
-            mike = zulu.bind(tango)(mike);
+            yankee = foxtra.bind(backup)(romeon, yankee);
+            michal['modifiers'] = yankee;
+            michal = verify.bind(offset)(option, michal);
+            michal = 4;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            option = 'SEARCH_START';
+            michal['type'] = option;
+            michal['query'] = golfie;
+            michal['searchId'] = oscard;
+            oscard = argBaz;
+            michal['queryString'] = oscard;
+            michal['searchEverywhere'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
-    var _closure1_slot7 = tango;
+    var _closure1_slot7 = tangon;
     entity = function(argFoo, argBar) { // Original name: searchPage
-        tango = argFoo;
-        zulu = _closure1_slot9;
-        mike = _closure1_slot3;
-        entity = mike.getOffset;
-        mike = entity.bind(mike)(tango);
+        tangon = argFoo;
+        zuuluu = _closure1_slot9;
+        michal = _closure1_slot3;
+        entity = michal.getOffset;
+        michal = entity.bind(michal)(tangon);
         entity = argBar;
-        mike = mike + entity;
+        michal = michal + entity;
         entity = undefined;
-        mike = zulu.bind(entity)(tango, mike);
+        michal = zuuluu.bind(entity)(tangon, michal);
         return entity;
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo, argBar) { // Original name: searchOffset
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             report = argBar;
-            zulu = _closure1_slot3;
-            entity = zulu.getQuery;
-            entity = entity.bind(zulu)(tango);
-            oscar = _closure1_slot3;
-            zulu = oscar.getTotalResults;
-            zulu = zulu.bind(oscar)(tango);
-            oscar = 0;
-            if(!(!(report < oscar))) { _fun00006_ip = 84; continue _fun00005 }
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getQuery;
+            entity = entity.bind(zuuluu)(tangon);
+            oscard = _closure1_slot3;
+            zuuluu = oscard.getTotalResults;
+            zuuluu = zuuluu.bind(oscard)(tangon);
+            oscard = 0;
+            if(!(!(report < oscard))) { _fun00006_ip = 84; continue _fun00005 }
  45:
-            if(!(!(report > zulu))) { _fun00006_ip = 84; continue _fun00005 }
+            if(!(!(report > zuuluu))) { _fun00006_ip = 84; continue _fun00005 }
  49:
-            zulu = _closure1_slot7;
-            mike = {};
-            options = mike;
-            golf = entity;
-            entity = copyDataProperties(options, golf);
+            zuuluu = _closure1_slot7;
+            michal = {};
+            option = michal;
+            golfie = entity;
+            entity = copyDataProperties(option, golfie);
             entity = 'offset';
-            mike[entity] = report;
+            michal[entity] = report;
             entity = undefined;
-            mike = zulu.bind(entity)(tango, mike);
+            michal = zuuluu.bind(entity)(tangon, michal);
             return entity;
  84:
             entity = undefined;
@@ -144,71 +144,71 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = options.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    options = report.SEARCH_PAGE_SIZE;
-    var _closure1_slot4 = options;
-    options = report.AnalyticEvents;
-    var _closure1_slot5 = options;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.SEARCH_PAGE_SIZE;
+    var _closure1_slot4 = option;
+    option = report.AnalyticEvents;
+    var _closure1_slot5 = option;
     report = report.SearchModes;
     var _closure1_slot6 = report;
     report = 5;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'actions/SearchActionCreators.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['search'] = tango;
-    tango = function(argFoo) { // Original name: searchQueryParamsToSearchMode
+    report = oscard.bind(golfie)(report);
+    zuuluu['search'] = tangon;
+    tangon = function(argFoo) { // Original name: searchQueryParamsToSearchMode
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
-            zulu = entity.sort_by;
-            mike = 'relevance';
-            if(!(mike !== zulu)) { _fun00008_ip = 65; continue _fun00007 }
+            zuuluu = entity.sort_by;
+            michal = 'relevance';
+            if(!(michal !== zuuluu)) { _fun00008_ip = 65; continue _fun00007 }
  19:
-            mike = entity.sort_order;
+            michal = entity.sort_order;
             entity = 'asc';
-            if(!(entity !== mike)) { _fun00008_ip = 50; continue _fun00007 }
+            if(!(entity !== michal)) { _fun00008_ip = 50; continue _fun00007 }
  35:
             entity = _closure1_slot6;
             entity = entity.NEWEST;
             _fun00008_ip = 63; continue _fun00007;
  50:
-            mike = _closure1_slot6;
-            entity = mike.OLDEST;
+            michal = _closure1_slot6;
+            entity = michal.OLDEST;
  63:
             _fun00008_ip = 78; continue _fun00007;
  65:
-            mike = _closure1_slot6;
-            entity = mike.MOST_RELEVANT;
+            michal = _closure1_slot6;
+            entity = michal.MOST_RELEVANT;
  78:
             return entity;
         }
     };
-    zulu['searchQueryParamsToSearchMode'] = tango;
-    tango = function(argFoo, argBar) { // Original name: searchByMode
+    zuuluu['searchQueryParamsToSearchMode'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: searchByMode
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tango = argFoo;
-            zulu = argBar;
+            tangon = argFoo;
+            zuuluu = argBar;
             report = _closure1_slot3;
             entity = report.getQuery;
-            report = entity.bind(report)(tango);
+            report = entity.bind(report)(tangon);
             entity = _closure1_slot6;
             entity = entity.MOST_RELEVANT;
-            if(!(entity !== zulu)) { _fun00010_ip = 94; continue _fun00009 }
+            if(!(entity !== zuuluu)) { _fun00010_ip = 94; continue _fun00009 }
  38:
             entity = _closure1_slot6;
             entity = entity.OLDEST;
-            if(!(entity !== zulu)) { _fun00010_ip = 78; continue _fun00009 }
+            if(!(entity !== zuuluu)) { _fun00010_ip = 78; continue _fun00009 }
  52:
             entity = _closure1_slot6;
             entity = entity.NEWEST;
@@ -220,268 +220,268 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  94:
             entity = {'sort_by': 'relevance', 'sort_order': 'desc'};
  108:
-            zulu = _closure1_slot7;
-            mike = {};
-            golf = mike;
-            oscar = report;
-            report = copyDataProperties(golf, oscar);
-            golf = mike;
-            oscar = entity;
-            entity = copyDataProperties(golf, oscar);
+            zuuluu = _closure1_slot7;
+            michal = {};
+            golfie = michal;
+            oscard = report;
+            report = copyDataProperties(golfie, oscard);
+            golfie = michal;
+            oscard = entity;
+            entity = copyDataProperties(golfie, oscard);
             report = 0;
             entity = 'offset';
-            mike[entity] = report;
+            michal[entity] = report;
             entity = undefined;
-            mike = zulu.bind(entity)(tango, mike);
+            michal = zuuluu.bind(entity)(tangon, michal);
             return entity;
         }
     };
-    zulu['searchByMode'] = tango;
-    tango = function(argFoo) { // Original name: searchNextPage
+    zuuluu['searchByMode'] = tangon;
+    tangon = function(argFoo) { // Original name: searchNextPage
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tango = arguments[1];
+            tangon = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun00012_ip = 16; continue _fun00011 }
+            if(!(tangon === entity)) { _fun00012_ip = 16; continue _fun00011 }
  9:
-            tango = _closure1_slot4;
+            tangon = _closure1_slot4;
  16:
-            zulu = _closure1_slot8;
-            mike = argFoo;
-            mike = zulu.bind(entity)(mike, tango);
+            zuuluu = _closure1_slot8;
+            michal = argFoo;
+            michal = zuuluu.bind(entity)(michal, tangon);
             return entity;
         }
     };
-    zulu['searchNextPage'] = tango;
-    tango = function(argFoo) { // Original name: searchPreviousPage
+    zuuluu['searchNextPage'] = tangon;
+    tangon = function(argFoo) { // Original name: searchPreviousPage
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            mike = arguments[1];
+            michal = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun00014_ip = 16; continue _fun00013 }
+            if(!(michal === entity)) { _fun00014_ip = 16; continue _fun00013 }
  9:
-            mike = _closure1_slot4;
+            michal = _closure1_slot4;
  16:
-            tango = _closure1_slot8;
-            zulu = -mike;
-            mike = argFoo;
-            mike = tango.bind(entity)(mike, zulu);
+            tangon = _closure1_slot8;
+            zuuluu = -michal;
+            michal = argFoo;
+            michal = tangon.bind(entity)(michal, zuuluu);
             return entity;
         }
     };
-    zulu['searchPreviousPage'] = tango;
-    tango = function(argFoo, argBar) { // Original name: changePage
-        tango = _closure1_slot9;
-        mike = _closure1_slot4;
+    zuuluu['searchPreviousPage'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: changePage
+        tangon = _closure1_slot9;
+        michal = _closure1_slot4;
         entity = argBar;
-        zulu = entity * mike;
+        zuuluu = entity * michal;
         entity = undefined;
-        mike = argFoo;
-        mike = tango.bind(entity)(mike, zulu);
+        michal = argFoo;
+        michal = tangon.bind(entity)(michal, zuuluu);
         return entity;
     };
-    zulu['changePage'] = tango;
-    tango = function(argFoo) { // Original name: clearHistory
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['changePage'] = tangon;
+    tangon = function(argFoo) { // Original name: clearHistory
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 4;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SEARCH_CLEAR_HISTORY';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['searchId'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['searchId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearHistory'] = tango;
-    tango = function(argFoo) { // Original name: ensureSearchState
+    zuuluu['clearHistory'] = tangon;
+    tangon = function(argFoo) { // Original name: ensureSearchState
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 4;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.wait;
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.wait;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 4;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            tango = zulu.bind(entity)(mike);
-            zulu = tango.dispatch;
-            mike = {};
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
             report = 'SEARCH_ENSURE_SEARCH_STATE';
-            mike['type'] = report;
+            michal['type'] = report;
             report = _closure2_slot0;
-            mike['searchId'] = report;
-            mike = zulu.bind(tango)(mike);
+            michal['searchId'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['ensureSearchState'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setSearchState
+    zuuluu['ensureSearchState'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setSearchState
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00016_ip = 69; continue _fun00015 }
+            if(!(entity != tangon)) { _fun00016_ip = 69; continue _fun00015 }
  9:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 4;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
             report = 'SEARCH_EDITOR_STATE_CHANGE';
             entity['type'] = report;
-            entity['searchId'] = tango;
-            tango = argBar;
-            entity['editorState'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['searchId'] = tangon;
+            tangon = argBar;
+            entity['editorState'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
  69:
             entity = undefined;
             return entity;
         }
     };
-    zulu['setSearchState'] = tango;
-    tango = function(argFoo) { // Original name: clearSearchState
+    zuuluu['setSearchState'] = tangon;
+    tangon = function(argFoo) { // Original name: clearSearchState
         yankee = argFoo;
         var _closure2_slot0 = yankee;
-        tango = _closure1_slot1;
+        tangon = _closure1_slot1;
         report = _closure1_slot2;
         entity = 3;
-        zulu = report[entity];
+        zuuluu = report[entity];
         entity = undefined;
-        options = tango.bind(entity)(zulu);
-        golf = options.trackWithMetadata;
-        zulu = _closure1_slot5;
-        oscar = zulu.SEARCH_CLOSED;
-        zulu = {};
+        option = tangon.bind(entity)(zuuluu);
+        golfie = option.trackWithMetadata;
+        zuuluu = _closure1_slot5;
+        oscard = zuuluu.SEARCH_CLOSED;
+        zuuluu = {};
         offset = _closure1_slot3;
         verify = offset.getAnalyticsId;
         verify = verify.bind(offset)(yankee);
-        zulu['search_id'] = verify;
-        zulu = golf.bind(options)(oscar, zulu);
-        zulu = 4;
-        zulu = report[zulu];
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.wait;
-        mike = function() {
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+        zuuluu['search_id'] = verify;
+        zuuluu = golfie.bind(option)(oscard, zuuluu);
+        zuuluu = 4;
+        zuuluu = report[zuuluu];
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.wait;
+        michal = function() {
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 4;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
-            tango = 'SEARCH_EDITOR_STATE_CLEAR';
-            entity['type'] = tango;
-            tango = _closure2_slot0;
-            entity['searchId'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = 'SEARCH_EDITOR_STATE_CLEAR';
+            entity['type'] = tangon;
+            tangon = _closure2_slot0;
+            entity['searchId'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['clearSearchState'] = tango;
-    tango = function(argFoo, argBar, argBaz) { // Original name: updateAutocompleteQuery
+    zuuluu['clearSearchState'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: updateAutocompleteQuery
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun00018_ip = 77; continue _fun00017 }
+            if(!(entity != tangon)) { _fun00018_ip = 77; continue _fun00017 }
  9:
-            zulu = _closure1_slot1;
-            mike = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 4;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            zulu = zulu.bind(entity)(mike);
-            mike = zulu.dispatch;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
             entity = {};
             report = 'SEARCH_AUTOCOMPLETE_QUERY_UPDATE';
             entity['type'] = report;
-            entity['searchId'] = tango;
-            tango = argBar;
-            entity['tokens'] = tango;
-            tango = argBaz;
-            entity['cursorScope'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['searchId'] = tangon;
+            tangon = argBar;
+            entity['tokens'] = tangon;
+            tangon = argBaz;
+            entity['cursorScope'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
  77:
             entity = undefined;
             return entity;
         }
     };
-    zulu['updateAutocompleteQuery'] = tango;
-    tango = function(argFoo, argBar) { // Original name: setShowBlockedResults
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['updateAutocompleteQuery'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setShowBlockedResults
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 4;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SEARCH_SET_SHOW_BLOCKED_RESULTS';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['searchId'] = report;
+        michal['searchId'] = report;
         report = argBar;
-        mike['showBlocked'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['showBlocked'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['setShowBlockedResults'] = tango;
-    tango = function(argFoo, argBar) { // Original name: addQueryToHistory
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['setShowBlockedResults'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: addQueryToHistory
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 4;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SEARCH_ADD_HISTORY';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['searchId'] = report;
+        michal['searchId'] = report;
         report = argBar;
-        mike['query'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['query'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['addQueryToHistory'] = tango;
-    mike = function(argFoo, argBar) { // Original name: removeQueryFromHistory
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
+    zuuluu['addQueryToHistory'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: removeQueryFromHistory
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 4;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
         report = 'SEARCH_REMOVE_HISTORY';
-        mike['type'] = report;
+        michal['type'] = report;
         report = argFoo;
-        mike['searchId'] = report;
+        michal['searchId'] = report;
         report = argBar;
-        mike['query'] = report;
-        mike = zulu.bind(tango)(mike);
+        michal['query'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['removeQueryFromHistory'] = mike;
+    zuuluu['removeQueryFromHistory'] = michal;
     return entity;
 })();

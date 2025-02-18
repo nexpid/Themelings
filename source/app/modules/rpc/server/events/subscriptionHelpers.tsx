@@ -1,177 +1,177 @@
 // app/modules/rpc/server/events/subscriptionHelpers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.RPCEvents;
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.ActivityLayoutMode;
-    var _closure1_slot4 = golf;
-    tango = tango.ActivityScreenOrientation;
-    var _closure1_slot5 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/rpc/server/events/subscriptionHelpers.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getInitialSubscriptionPayload
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RPCEvents;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.ActivityLayoutMode;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.ActivityScreenOrientation;
+    var _closure1_slot5 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/rpc/server/events/subscriptionHelpers.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getInitialSubscriptionPayload
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tango = argBar;
-            mike = _closure1_slot3;
-            mike = mike.ACTIVITY_PIP_MODE_UPDATE;
-            if(!(mike !== tango)) { _fun00002_ip = 325; continue _fun00001 }
+            tangon = argBar;
+            michal = _closure1_slot3;
+            michal = michal.ACTIVITY_PIP_MODE_UPDATE;
+            if(!(michal !== tangon)) { _fun00002_ip = 325; continue _fun00001 }
  26:
-            mike = _closure1_slot3;
-            mike = mike.ACTIVITY_LAYOUT_MODE_UPDATE;
-            if(!(mike !== tango)) { _fun00002_ip = 259; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.ACTIVITY_LAYOUT_MODE_UPDATE;
+            if(!(michal !== tangon)) { _fun00002_ip = 259; continue _fun00001 }
  43:
-            mike = _closure1_slot3;
-            mike = mike.THERMAL_STATE_UPDATE;
-            if(!(mike !== tango)) { _fun00002_ip = 188; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.THERMAL_STATE_UPDATE;
+            if(!(michal !== tangon)) { _fun00002_ip = 188; continue _fun00001 }
  60:
-            mike = _closure1_slot3;
-            mike = mike.ORIENTATION_UPDATE;
-            if(!(mike !== tango)) { _fun00002_ip = 126; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.ORIENTATION_UPDATE;
+            if(!(michal !== tangon)) { _fun00002_ip = 126; continue _fun00001 }
  74:
-            mike = _closure1_slot3;
-            mike = mike.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
-            if(!(mike !== tango)) { _fun00002_ip = 92; continue _fun00001 }
+            michal = _closure1_slot3;
+            michal = michal.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
+            if(!(michal !== tangon)) { _fun00002_ip = 92; continue _fun00001 }
  88:
-            mike = null;
-            return mike;
+            michal = null;
+            return michal;
  92:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 5;
-            tango = tango[mike];
-            mike = undefined;
-            tango = report.bind(mike)(tango);
-            mike = tango.activityInstanceConnectedParticipants;
-            mike = mike.bind(tango)();
-            return mike;
+            tangon = _closure1_slot1;
+            michal = 5;
+            tangon = tangon[michal];
+            michal = undefined;
+            tangon = report.bind(michal)(tangon);
+            michal = tangon.activityInstanceConnectedParticipants;
+            michal = michal.bind(tangon)();
+            return michal;
  126:
-            mike = {};
-            oscar = _closure1_slot0;
+            michal = {};
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 4;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.getIsScreenLandscape;
-            tango = tango.bind(report)();
+            tangon = 4;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.getIsScreenLandscape;
+            tangon = tangon.bind(report)();
             report = _closure1_slot5;
-            if(tango) { _fun00002_ip = 175; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 175; continue _fun00001 }
  167:
-            tango = report.PORTRAIT;
+            tangon = report.PORTRAIT;
             _fun00002_ip = 181; continue _fun00001;
  175:
-            tango = report.LANDSCAPE;
+            tangon = report.LANDSCAPE;
  181:
-            mike['screen_orientation'] = tango;
-            return mike;
+            michal['screen_orientation'] = tangon;
+            return michal;
  188:
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            mike = 3;
-            report = golf[mike];
-            tango = undefined;
-            options = oscar.bind(tango)(report);
-            report = options.getThermalState;
-            report = report.bind(options)();
-            mike = golf[mike];
-            mike = oscar.bind(tango)(mike);
-            mike = mike.ThermalStates;
-            tango = mike.UNHANDLED;
-            mike = null;
-            if(!(report !== tango)) { _fun00002_ip = 257; continue _fun00001 }
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            report = golfie[michal];
+            tangon = undefined;
+            option = oscard.bind(tangon)(report);
+            report = option.getThermalState;
+            report = report.bind(option)();
+            michal = golfie[michal];
+            michal = oscard.bind(tangon)(michal);
+            michal = michal.ThermalStates;
+            tangon = michal.UNHANDLED;
+            michal = null;
+            if(!(report !== tangon)) { _fun00002_ip = 257; continue _fun00001 }
  247:
-            tango = {};
-            tango['thermal_state'] = report;
-            mike = tango;
+            tangon = {};
+            tangon['thermal_state'] = report;
+            michal = tangon;
  257:
-            return mike;
+            return michal;
  259:
-            tango = entity.application;
-            mike = null;
-            report = mike == tango;
-            golf = undefined;
+            tangon = entity.application;
+            michal = null;
+            report = michal == tangon;
+            golfie = undefined;
             if(report) { _fun00002_ip = 280; continue _fun00001 }
  275:
-            golf = tango.id;
+            golfie = tangon.id;
  280:
-            tango = mike != golf;
+            tangon = michal != golfie;
             report = null;
-            if(!tango) { _fun00002_ip = 304; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 304; continue _fun00001 }
  289:
-            oscar = _closure1_slot2;
-            tango = oscar.getLayoutModeForApp;
-            report = tango.bind(oscar)(golf);
+            oscard = _closure1_slot2;
+            tangon = oscard.getLayoutModeForApp;
+            report = tangon.bind(oscard)(golfie);
  304:
-            tango = mike != report;
-            mike = null;
-            if(!tango) { _fun00002_ip = 323; continue _fun00001 }
+            tangon = michal != report;
+            michal = null;
+            if(!tangon) { _fun00002_ip = 323; continue _fun00001 }
  313:
-            tango = {};
-            tango['layout_mode'] = report;
-            mike = tango;
+            tangon = {};
+            tangon['layout_mode'] = report;
+            michal = tangon;
  323:
-            return mike;
+            return michal;
  325:
-            mike = entity.application;
+            michal = entity.application;
             entity = null;
-            tango = entity == mike;
-            oscar = undefined;
-            if(tango) { _fun00002_ip = 346; continue _fun00001 }
+            tangon = entity == michal;
+            oscard = undefined;
+            if(tangon) { _fun00002_ip = 346; continue _fun00001 }
  341:
-            oscar = mike.id;
+            oscard = michal.id;
  346:
-            mike = entity != oscar;
-            tango = null;
-            if(!mike) { _fun00002_ip = 370; continue _fun00001 }
+            michal = entity != oscard;
+            tangon = null;
+            if(!michal) { _fun00002_ip = 370; continue _fun00001 }
  355:
             report = _closure1_slot2;
-            mike = report.getLayoutModeForApp;
-            tango = mike.bind(report)(oscar);
+            michal = report.getLayoutModeForApp;
+            tangon = michal.bind(report)(oscard);
  370:
-            mike = entity != tango;
+            michal = entity != tangon;
             entity = null;
-            if(!mike) { _fun00002_ip = 403; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 403; continue _fun00001 }
  379:
-            mike = {};
-            zulu = _closure1_slot4;
-            zulu = zulu.FOCUSED;
-            zulu = tango !== zulu;
-            mike['is_pip_mode'] = zulu;
-            entity = mike;
+            michal = {};
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.FOCUSED;
+            zuuluu = tangon !== zuuluu;
+            michal['is_pip_mode'] = zuuluu;
+            entity = michal;
  403:
             return entity;
         }
     };
-    zulu['getInitialSubscriptionPayload'] = mike;
+    zuuluu['getInitialSubscriptionPayload'] = michal;
     return entity;
 })();

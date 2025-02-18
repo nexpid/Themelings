@@ -1,113 +1,113 @@
 // app/modules/collectibles/native/useCollectiblesShopDeepLinkProps.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/collectibles/native/useCollectiblesShopDeepLinkProps.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
-        mike = argFoo;
-        zulu = mike.categories;
-        var _closure2_slot0 = zulu;
-        mike = mike.products;
-        var _closure2_slot1 = mike;
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStoresObject;
-        oscar = _closure1_slot3;
-        mike = new Array(2);
-        mike[0] = oscar;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/native/useCollectiblesShopDeepLinkProps.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
+        michal = argFoo;
+        zuuluu = michal.categories;
+        var _closure2_slot0 = zuuluu;
+        michal = michal.products;
+        var _closure2_slot1 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
+        oscard = _closure1_slot3;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot2;
-        mike[1] = report;
+        michal[1] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure1_slot3;
-                mike = mike.initialProductSkuId;
-                var _closure3_slot0 = mike;
-                tango = _closure1_slot2;
-                entity = tango.getCategoryForProduct;
-                entity = entity.bind(tango)(mike);
+                michal = _closure1_slot3;
+                michal = michal.initialProductSkuId;
+                var _closure3_slot0 = michal;
+                tangon = _closure1_slot2;
+                entity = tangon.getCategoryForProduct;
+                entity = entity.bind(tangon)(michal);
                 var _closure3_slot1 = entity;
-                oscar = null;
-                if(!(oscar != mike)) { _fun00002_ip = 183; continue _fun00001 }
+                oscard = null;
+                if(!(oscard != michal)) { _fun00002_ip = 183; continue _fun00001 }
  47:
-                if(!(oscar != entity)) { _fun00002_ip = 183; continue _fun00001 }
+                if(!(oscard != entity)) { _fun00002_ip = 183; continue _fun00001 }
  54:
                 entity = {};
-                mike = _closure2_slot1;
-                golf = oscar != mike;
+                michal = _closure2_slot1;
+                golfie = oscard != michal;
                 report = undefined;
-                if(!golf) { _fun00002_ip = 115; continue _fun00001 }
+                if(!golfie) { _fun00002_ip = 115; continue _fun00001 }
  72:
-                golf = global;
-                offset = golf.Math;
+                golfie = global;
+                offset = golfie.Math;
                 verify = offset.max;
                 yankee = _closure2_slot1;
-                options = yankee.findIndex;
-                golf = function(argFoo) {
+                option = yankee.findIndex;
+                golfie = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.skuId;
+                    michal = entity.skuId;
                     entity = _closure3_slot0;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                options = options.bind(yankee)(golf);
-                golf = 0;
-                report = verify.bind(offset)(golf, options);
+                option = option.bind(yankee)(golfie);
+                golfie = 0;
+                report = verify.bind(offset)(golfie, option);
  115:
                 entity['productIndex'] = report;
                 report = _closure2_slot0;
-                report = oscar != report;
-                mike = undefined;
+                report = oscard != report;
+                michal = undefined;
                 if(!report) { _fun00002_ip = 176; continue _fun00001 }
  133:
                 report = global;
-                oscar = report.Math;
-                report = oscar.max;
-                golf = _closure2_slot0;
-                tango = golf.findIndex;
-                zulu = function(argFoo) {
+                oscard = report.Math;
+                report = oscard.max;
+                golfie = _closure2_slot0;
+                tangon = golfie.findIndex;
+                zuuluu = function(argFoo) {
                     entity = argFoo;
-                    mike = entity.skuId;
+                    michal = entity.skuId;
                     entity = _closure3_slot1;
                     entity = entity.skuId;
-                    entity = mike === entity;
+                    entity = michal === entity;
                     return entity;
                 };
-                tango = tango.bind(golf)(zulu);
-                zulu = 0;
-                mike = report.bind(oscar)(zulu, tango);
+                tangon = tangon.bind(golfie)(zuuluu);
+                zuuluu = 0;
+                michal = report.bind(oscard)(zuuluu, tangon);
  176:
-                entity['categoryIndex'] = mike;
+                entity['categoryIndex'] = michal;
                 _fun00002_ip = 185; continue _fun00001;
  183:
                 entity = {};
@@ -115,9 +115,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useCollectiblesShopDeepLinkProps'] = mike;
+    zuuluu['useCollectiblesShopDeepLinkProps'] = michal;
     return entity;
 })();

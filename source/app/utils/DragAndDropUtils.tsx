@@ -1,208 +1,208 @@
 // app/utils/DragAndDropUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = argBaz;
-    zulu = argFred;
-    options = argPlugh;
+    zuuluu = argFre;
+    option = argPlu;
     var _closure1_slot0 = verify;
-    var _closure1_slot1 = options;
+    var _closure1_slot1 = option;
     report = function(argFoo) { // Original name: calculatePositionDeltas
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.oldOrdering;
-            tango = entity.newOrdering;
-            foxtrot = entity.idGetter;
-            romeo = entity.existingPositionGetter;
-            mike = entity.ascending;
+            tangon = entity.newOrdering;
+            foxtra = entity.idGetter;
+            romeon = entity.existingPositionGetter;
+            michal = entity.ascending;
             yankee = undefined;
-            if(!(mike === yankee)) { _fun00002_ip = 41; continue _fun00001 }
+            if(!(michal === yankee)) { _fun00002_ip = 41; continue _fun00001 }
  39:
-            mike = true;
+            michal = true;
  41:
-            offset = tango.length;
+            offset = tangon.length;
             entity = report.length;
             if(!(entity === offset)) { _fun00002_ip = 310; continue _fun00001 }
  58:
             entity = report.map;
-            zulu = entity.bind(report)(foxtrot);
-            entity = zulu.sort;
-            zulu = entity.bind(zulu)();
-            entity = zulu.join;
-            oscar = ':';
-            golf = entity.bind(zulu)(oscar);
-            entity = tango.map;
-            zulu = entity.bind(tango)(foxtrot);
-            entity = zulu.sort;
-            zulu = entity.bind(zulu)();
-            entity = zulu.join;
-            oscar = entity.bind(zulu)(oscar);
-            if(!(golf === oscar)) { _fun00002_ip = 279; continue _fun00001 }
+            zuuluu = entity.bind(report)(foxtra);
+            entity = zuuluu.sort;
+            zuuluu = entity.bind(zuuluu)();
+            entity = zuuluu.join;
+            oscard = ':';
+            golfie = entity.bind(zuuluu)(oscard);
+            entity = tangon.map;
+            zuuluu = entity.bind(tangon)(foxtra);
+            entity = zuuluu.sort;
+            zuuluu = entity.bind(zuuluu)();
+            entity = zuuluu.join;
+            oscard = entity.bind(zuuluu)(oscard);
+            if(!(golfie === oscard)) { _fun00002_ip = 279; continue _fun00001 }
  129:
             verify = {};
-            options = 0;
-            zulu = options < offset;
+            option = 0;
+            zuuluu = option < offset;
             entity = 0;
-            if(!zulu) { _fun00002_ip = 171; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 171; continue _fun00001 }
  142:
-            zulu = report[entity];
-            backup = foxtrot.bind(yankee)(zulu);
-            zulu = report[entity];
-            zulu = romeo.bind(yankee)(zulu);
-            verify[backup] = zulu;
+            zuuluu = report[entity];
+            backup = foxtra.bind(yankee)(zuuluu);
+            zuuluu = report[entity];
+            zuuluu = romeon.bind(yankee)(zuuluu);
+            verify[backup] = zuuluu;
             entity = entity + 1;
             if(entity < offset) { _fun00002_ip = 142; continue _fun00001 }
  171:
             entity = new Array(0);
-            backup = options < offset;
-            zulu = 1;
-            options = 0;
+            backup = option < offset;
+            zuuluu = 1;
+            option = 0;
             if(!backup) { _fun00002_ip = 264; continue _fun00001 }
  187:
-            backup = tango[options];
-            output = foxtrot.bind(yankee)(backup);
-            sizing = options;
-            if(mike) { _fun00002_ip = 210; continue _fun00001 }
+            backup = tangon[option];
+            output = foxtra.bind(yankee)(backup);
+            sizing = option;
+            if(michal) { _fun00002_ip = 210; continue _fun00001 }
  202:
-            backup = offset - zulu;
-            sizing = backup - options;
+            backup = offset - zuuluu;
+            sizing = backup - option;
  210:
             backup = verify[output];
             backup = backup === sizing;
             if(!backup) { _fun00002_ip = 234; continue _fun00001 }
  221:
-            kilo = tango[options];
-            kilo = romeo.bind(yankee)(kilo);
-            backup = kilo === sizing;
+            kiloes = tangon[option];
+            kiloes = romeon.bind(yankee)(kiloes);
+            backup = kiloes === sizing;
  234:
             if(backup) { _fun00002_ip = 257; continue _fun00001 }
  237:
-            kilo = entity.push;
+            kiloes = entity.push;
             backup = {};
             backup['id'] = output;
             backup['position'] = sizing;
-            backup = kilo.bind(entity)(backup);
+            backup = kiloes.bind(entity)(backup);
  257:
-            options = options + 1;
-            if(options < offset) { _fun00002_ip = 187; continue _fun00001 }
+            option = option + 1;
+            if(option < offset) { _fun00002_ip = 187; continue _fun00001 }
  264:
-            if(mike) { _fun00002_ip = 277; continue _fun00001 }
+            if(michal) { _fun00002_ip = 277; continue _fun00001 }
  267:
-            mike = entity.reverse;
-            mike = mike.bind(entity)();
+            michal = entity.reverse;
+            michal = michal.bind(entity)();
  277:
             return entity;
  279:
-            zulu = _closure1_slot2;
-            mike = zulu.warn;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.warn;
             entity = 'Object IDs in the old ordering and the new ordering are not the same.';
-            entity = mike.bind(zulu)(entity, golf, oscar);
+            entity = michal.bind(zuuluu)(entity, golfie, oscard);
             entity = new Array(0);
             return entity;
  310:
-            zulu = _closure1_slot2;
-            mike = zulu.warn;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.warn;
             entity = 'Arrays are not of the same length!';
-            entity = mike.bind(zulu)(entity, report, tango);
+            entity = michal.bind(zuuluu)(entity, report, tangon);
             entity = new Array(0);
             return entity;
         }
     };
     var _closure1_slot3 = report;
-    tango = function(argFoo, argBar, argBaz) { // Original name: moveItemFromTo
-        mike = argFoo;
-        oscar = argBar;
-        report = mike[oscar];
+    tangon = function(argFoo, argBar, argBaz) { // Original name: moveItemFromTo
+        michal = argFoo;
+        oscard = argBar;
+        report = michal[oscard];
         entity = new Array(0);
-        tango = 0;
+        tangon = 0;
         verify = entity;
-        options = mike;
-        golf = 0;
-        mike = arraySpread(verify, options, golf);
-        zulu = entity.splice;
-        mike = 1;
-        mike = zulu.bind(entity)(oscar, mike);
-        zulu = entity.splice;
-        mike = argBaz;
-        mike = zulu.bind(entity)(mike, tango, report);
+        option = michal;
+        golfie = 0;
+        michal = arraySpread(verify, option, golfie);
+        zuuluu = entity.splice;
+        michal = 1;
+        michal = zuuluu.bind(entity)(oscard, michal);
+        zuuluu = entity.splice;
+        michal = argBaz;
+        michal = zuuluu.bind(entity)(michal, tangon, report);
         return entity;
     };
-    var _closure1_slot4 = tango;
-    mike = function(argFoo) { // Original name: getPositionUpdates
+    var _closure1_slot4 = tangon;
+    michal = function(argFoo) { // Original name: getPositionUpdates
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            golf = entity.objectArray;
+            golfie = entity.objectArray;
             offset = entity.fromPosition;
             verify = entity.toPosition;
-            oscar = entity.idGetter;
+            oscard = entity.idGetter;
             report = entity.existingPositionGetter;
-            tango = entity.ascending;
-            zulu = undefined;
-            if(!(tango === zulu)) { _fun00004_ip = 53; continue _fun00003 }
+            tangon = entity.ascending;
+            zuuluu = undefined;
+            if(!(tangon === zuuluu)) { _fun00004_ip = 53; continue _fun00003 }
  51:
-            tango = true;
+            tangon = true;
  53:
             entity = global;
-            mike = entity.Array;
-            entity = mike.isArray;
-            entity = entity.bind(mike)(golf);
-            options = golf;
+            michal = entity.Array;
+            entity = michal.isArray;
+            entity = entity.bind(michal)(golfie);
+            option = golfie;
             if(entity) { _fun00004_ip = 110; continue _fun00003 }
  77:
-            mike = _closure1_slot0;
+            michal = _closure1_slot0;
             yankee = _closure1_slot1;
             entity = 1;
             entity = yankee[entity];
-            mike = mike.bind(zulu)(entity);
-            entity = mike.values;
-            options = entity.bind(mike)(golf);
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.values;
+            option = entity.bind(michal)(golfie);
  110:
-            mike = _closure1_slot3;
+            michal = _closure1_slot3;
             entity = {};
-            entity['oldOrdering'] = options;
-            golf = _closure1_slot4;
-            golf = golf.bind(zulu)(options, offset, verify);
-            entity['newOrdering'] = golf;
-            entity['idGetter'] = oscar;
+            entity['oldOrdering'] = option;
+            golfie = _closure1_slot4;
+            golfie = golfie.bind(zuuluu)(option, offset, verify);
+            entity['newOrdering'] = golfie;
+            entity['idGetter'] = oscard;
             entity['existingPositionGetter'] = report;
-            entity['ascending'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['ascending'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zulu, entity, oscar);
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    offset = verify.bind(entity)(oscar);
-    oscar = offset.prototype;
-    verify = Object.create(oscar, {constructor: {value: offset}});
+    offset = verify.bind(entity)(oscard);
+    oscard = offset.prototype;
+    verify = Object.create(oscard, {constructor: {value: offset}});
     backup = 'DragAndDropUtils';
-    kilo = verify;
-    oscar = new kilo[offset](backup, foxtrot);
-    oscar = oscar instanceof Object ? oscar : verify;
-    var _closure1_slot2 = oscar;
-    oscar = {};
-    oscar['moveItemFromTo'] = tango;
-    oscar['calculatePositionDeltas'] = report;
-    oscar['getPositionUpdates'] = mike;
-    golf = 2;
-    options = options[golf];
-    golf = argBar;
-    verify = golf.bind(entity)(options);
-    options = verify.fileFinishedImporting;
-    golf = 'utils/DragAndDropUtils.tsx';
-    golf = options.bind(verify)(golf);
-    zulu['default'] = oscar;
-    zulu['calculatePositionDeltas'] = report;
-    zulu['moveItemFromTo'] = tango;
-    zulu['getPositionUpdates'] = mike;
+    kiloes = verify;
+    oscard = new kiloes[offset](backup, foxtra);
+    oscard = oscard instanceof Object ? oscard : verify;
+    var _closure1_slot2 = oscard;
+    oscard = {};
+    oscard['moveItemFromTo'] = tangon;
+    oscard['calculatePositionDeltas'] = report;
+    oscard['getPositionUpdates'] = michal;
+    golfie = 2;
+    option = option[golfie];
+    golfie = argBar;
+    verify = golfie.bind(entity)(option);
+    option = verify.fileFinishedImporting;
+    golfie = 'utils/DragAndDropUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['default'] = oscard;
+    zuuluu['calculatePositionDeltas'] = report;
+    zuuluu['moveItemFromTo'] = tangon;
+    zuuluu['getPositionUpdates'] = michal;
     return entity;
 })();

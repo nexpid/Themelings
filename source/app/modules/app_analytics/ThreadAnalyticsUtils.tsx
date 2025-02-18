@@ -1,153 +1,153 @@
 // app/modules/app_analytics/ThreadAnalyticsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.THREAD_CHANNEL_TYPES;
-    var _closure1_slot5 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot6 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.Permissions;
-    var _closure1_slot7 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/app_analytics/ThreadAnalyticsUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: collectThreadMetadata
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.THREAD_CHANNEL_TYPES;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Permissions;
+    var _closure1_slot7 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_analytics/ThreadAnalyticsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: collectThreadMetadata
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
-            options = arguments[1];
-            golf = undefined;
-            if(!(options === golf)) { _fun00002_ip = 14; continue _fun00001 }
+            zuuluu = argFoo;
+            option = arguments[1];
+            golfie = undefined;
+            if(!(option === golfie)) { _fun00002_ip = 14; continue _fun00001 }
  12:
-            options = false;
+            option = false;
  14:
             report = null;
-            mike = report != zulu;
+            michal = report != zuuluu;
             entity = null;
-            if(!mike) { _fun00002_ip = 353; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 353; continue _fun00001 }
  28:
             verify = _closure1_slot5;
-            oscar = verify.has;
-            mike = zulu.type;
-            mike = oscar.bind(verify)(mike);
+            oscard = verify.has;
+            michal = zuuluu.type;
+            michal = oscard.bind(verify)(michal);
             entity = null;
-            if(!mike) { _fun00002_ip = 353; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 353; continue _fun00001 }
  58:
-            mike = {};
-            oscar = undefined;
-            if(!options) { _fun00002_ip = 95; continue _fun00001 }
+            michal = {};
+            oscard = undefined;
+            if(!option) { _fun00002_ip = 95; continue _fun00001 }
  65:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            options = 5;
-            options = offset[options];
-            verify = verify.bind(golf)(options);
-            options = verify.getLastRouteChangeSource;
-            oscar = options.bind(verify)();
+            option = 5;
+            option = offset[option];
+            verify = verify.bind(golfie)(option);
+            option = verify.getLastRouteChangeSource;
+            oscard = option.bind(verify)();
  95:
-            mike['location'] = oscar;
+            michal['location'] = oscard;
             verify = _closure1_slot3;
-            options = verify.getMemberCount;
-            oscar = zulu.id;
-            oscar = options.bind(verify)(oscar);
-            mike['thread_approximate_member_count'] = oscar;
+            option = verify.getMemberCount;
+            oscard = zuuluu.id;
+            oscard = option.bind(verify)(oscard);
+            michal['thread_approximate_member_count'] = oscard;
             verify = _closure1_slot4;
-            options = verify.getCount;
-            oscar = zulu.id;
-            oscar = options.bind(verify)(oscar);
-            mike['thread_approximate_message_count'] = oscar;
-            oscar = zulu.threadMetadata;
-            verify = report == oscar;
-            options = undefined;
+            option = verify.getCount;
+            oscard = zuuluu.id;
+            oscard = option.bind(verify)(oscard);
+            michal['thread_approximate_message_count'] = oscard;
+            oscard = zuuluu.threadMetadata;
+            verify = report == oscard;
+            option = undefined;
             if(verify) { _fun00002_ip = 174; continue _fun00001 }
  168:
-            options = oscar.archived;
+            option = oscard.archived;
  174:
-            oscar = true;
-            oscar = oscar === options;
-            mike['thread_archived'] = oscar;
-            oscar = zulu.threadMetadata;
-            verify = report == oscar;
-            options = undefined;
+            oscard = true;
+            oscard = oscard === option;
+            michal['thread_archived'] = oscard;
+            oscard = zuuluu.threadMetadata;
+            verify = report == oscard;
+            option = undefined;
             if(verify) { _fun00002_ip = 208; continue _fun00001 }
  202:
-            options = oscar.locked;
+            option = oscard.locked;
  208:
-            oscar = report != options;
-            if(!oscar) { _fun00002_ip = 218; continue _fun00001 }
+            oscard = report != option;
+            if(!oscard) { _fun00002_ip = 218; continue _fun00001 }
  215:
-            oscar = options;
+            oscard = option;
  218:
-            mike['thread_locked'] = oscar;
-            options = zulu.threadMetadata;
-            verify = report == options;
-            oscar = undefined;
+            michal['thread_locked'] = oscard;
+            option = zuuluu.threadMetadata;
+            verify = report == option;
+            oscard = undefined;
             if(verify) { _fun00002_ip = 246; continue _fun00001 }
  240:
-            oscar = options.autoArchiveDuration;
+            oscard = option.autoArchiveDuration;
  246:
-            options = report != oscar;
+            option = report != oscard;
             report = 0;
-            if(!options) { _fun00002_ip = 258; continue _fun00001 }
+            if(!option) { _fun00002_ip = 258; continue _fun00001 }
  255:
-            report = oscar;
+            report = oscard;
  258:
-            mike['thread_auto_archive_duration_minutes'] = report;
-            oscar = _closure1_slot1;
-            options = _closure1_slot2;
+            michal['thread_auto_archive_duration_minutes'] = report;
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
             report = 6;
-            report = options[report];
-            golf = oscar.bind(golf)(report);
-            oscar = golf.extractTimestamp;
-            report = zulu.id;
-            report = oscar.bind(golf)(report);
-            mike['thread_approximate_creation_date'] = report;
-            oscar = _closure1_slot6;
-            report = oscar.can;
-            tango = _closure1_slot7;
-            tango = tango.SEND_MESSAGES;
-            tango = report.bind(oscar)(tango, zulu);
-            mike['can_send_message'] = tango;
-            zulu = zulu.parentChannelThreadType;
-            mike['parent_channel_type'] = zulu;
-            entity = mike;
+            report = option[report];
+            golfie = oscard.bind(golfie)(report);
+            oscard = golfie.extractTimestamp;
+            report = zuuluu.id;
+            report = oscard.bind(golfie)(report);
+            michal['thread_approximate_creation_date'] = report;
+            oscard = _closure1_slot6;
+            report = oscard.can;
+            tangon = _closure1_slot7;
+            tangon = tangon.SEND_MESSAGES;
+            tangon = report.bind(oscard)(tangon, zuuluu);
+            michal['can_send_message'] = tangon;
+            zuuluu = zuuluu.parentChannelThreadType;
+            michal['parent_channel_type'] = zuuluu;
+            entity = michal;
  353:
             return entity;
         }
     };
-    zulu['collectThreadMetadata'] = mike;
+    zuuluu['collectThreadMetadata'] = michal;
     return entity;
 })();

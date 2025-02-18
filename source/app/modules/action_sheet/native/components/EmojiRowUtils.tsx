@@ -1,83 +1,83 @@
 // app/modules/action_sheet/native/components/EmojiRowUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.MessageFlags;
-    var _closure1_slot2 = golf;
-    golf = tango.MessageStates;
-    var _closure1_slot3 = golf;
-    tango = tango.MessageTypes;
-    var _closure1_slot4 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/action_sheet/native/components/EmojiRowUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) {
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.MessageFlags;
+    var _closure1_slot2 = golfie;
+    golfie = tangon.MessageStates;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.MessageTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/action_sheet/native/components/EmojiRowUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = argBar;
-            mike = argBaz;
+            zuuluu = argBar;
+            michal = argBaz;
             if(!entity) { _fun00002_ip = 15; continue _fun00001 }
  12:
-            entity = mike;
+            entity = michal;
  15:
             if(!entity) { _fun00002_ip = 40; continue _fun00001 }
  18:
-            tango = zulu.state;
-            mike = _closure1_slot3;
-            mike = mike.SEND_FAILED;
-            entity = tango !== mike;
+            tangon = zuuluu.state;
+            michal = _closure1_slot3;
+            michal = michal.SEND_FAILED;
+            entity = tangon !== michal;
  40:
             if(!entity) { _fun00002_ip = 65; continue _fun00001 }
  43:
-            tango = zulu.type;
-            mike = _closure1_slot4;
-            mike = mike.THREAD_STARTER_MESSAGE;
-            entity = tango !== mike;
+            tangon = zuuluu.type;
+            michal = _closure1_slot4;
+            michal = michal.THREAD_STARTER_MESSAGE;
+            entity = tangon !== michal;
  65:
             if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  68:
-            tango = zulu.type;
-            mike = _closure1_slot4;
-            mike = mike.GUILD_INVITE_REMINDER;
-            entity = tango !== mike;
+            tangon = zuuluu.type;
+            michal = _closure1_slot4;
+            michal = michal.GUILD_INVITE_REMINDER;
+            entity = tangon !== michal;
  90:
             if(!entity) { _fun00002_ip = 148; continue _fun00001 }
  93:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 1;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.hasFlag;
-            zulu = zulu.flags;
-            mike = _closure1_slot2;
-            mike = mike.EPHEMERAL;
-            mike = tango.bind(report)(zulu, mike);
-            entity = !mike;
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.hasFlag;
+            zuuluu = zuuluu.flags;
+            michal = _closure1_slot2;
+            michal = michal.EPHEMERAL;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity = !michal;
  148:
             return entity;
         }
     };
-    zulu['shouldShowEmojiRow'] = mike;
+    zuuluu['shouldShowEmojiRow'] = michal;
     return entity;
 })();

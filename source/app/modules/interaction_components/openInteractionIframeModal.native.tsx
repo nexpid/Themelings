@@ -1,91 +1,91 @@
 // app/modules/interaction_components/openInteractionIframeModal.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _openInteractionIframeModal
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot3;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 103; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 103; continue _fun00001 }
  7:
                     report = _closure1_slot1;
-                    options = _closure1_slot2;
-                    mike = 1;
-                    tango = options[mike];
-                    mike = undefined;
-                    golf = report.bind(mike)(tango);
-                    oscar = golf.pushLazy;
-                    tango = _closure1_slot0;
-                    zulu = 3;
-                    zulu = options[zulu];
-                    verify = tango.bind(mike)(zulu);
-                    zulu = 2;
-                    report = options[zulu];
-                    zulu = options.paths;
-                    report = verify.bind(mike)(report, zulu);
-                    zulu = 4;
-                    zulu = options[zulu];
-                    zulu = tango.bind(mike)(zulu);
-                    tango = zulu.INTERACTION_IFRAME_MODAL_KEY;
-                    zulu = argFoo;
-                    zulu = oscar.bind(golf)(report, zulu, tango);
-                    return mike;
+                    option = _closure1_slot2;
+                    michal = 1;
+                    tangon = option[michal];
+                    michal = undefined;
+                    golfie = report.bind(michal)(tangon);
+                    oscard = golfie.pushLazy;
+                    tangon = _closure1_slot0;
+                    zuuluu = 3;
+                    zuuluu = option[zuuluu];
+                    verify = tangon.bind(michal)(zuuluu);
+                    zuuluu = 2;
+                    report = option[zuuluu];
+                    zuuluu = option.paths;
+                    report = verify.bind(michal)(report, zuuluu);
+                    zuuluu = 4;
+                    zuuluu = option[zuuluu];
+                    zuuluu = tangon.bind(michal)(zuuluu);
+                    tangon = zuuluu.INTERACTION_IFRAME_MODAL_KEY;
+                    zuuluu = argFoo;
+                    zuuluu = oscard.bind(golfie)(report, zuuluu, tangon);
+                    return michal;
  103:
                     return entity;
                 }
             };
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot4 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot4 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot4 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/interaction_components/openInteractionIframeModal.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: openInteractionIframeModal
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/interaction_components/openInteractionIframeModal.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: openInteractionIframeModal
         entity = undefined;
-        tango = _closure1_slot4;
-        zulu = tango.apply;
+        tangon = _closure1_slot4;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

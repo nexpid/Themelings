@@ -1,16 +1,16 @@
 // app/modules/app_launcher/native/AppLauncherContext.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     verify = argBar;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
-    tango = function(argFoo) { // Original name: useAppLauncherChatInputRefDummy
+    tangon = function(argFoo) { // Original name: useAppLauncherChatInputRefDummy
         entity = argFoo;
         entity = entity.noop;
         var _closure2_slot0 = entity;
-        zulu = _closure1_slot2;
-        mike = zulu.useRef;
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.useRef;
         entity = {};
         report = function() { // Original name: getApplicationCommandManager
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -19,13 +19,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 if(entity) { _fun00002_ip = 46; continue _fun00001 }
  10:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                tango = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = mike;
-                entity = new report[zulu](tango, zulu);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                report = michal;
+                entity = new report[zuuluu](tangon, zuuluu);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
  46:
                 entity = undefined;
@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 if(entity) { _fun00004_ip = 46; continue _fun00003 }
  10:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                tango = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = mike;
-                entity = new report[zulu](tango, zulu);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                report = michal;
+                entity = new report[zuuluu](tangon, zuuluu);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
  46:
                 entity = undefined;
@@ -54,187 +54,187 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             }
         };
         entity['openCustomKeyboard'] = report;
-        tango = function() { // Original name: closeCustomKeyboard
+        tangon = function() { // Original name: closeCustomKeyboard
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure2_slot0;
                 if(entity) { _fun00006_ip = 46; continue _fun00005 }
  10:
                 entity = global;
-                zulu = entity.Error;
-                entity = zulu.prototype;
-                mike = Object.create(entity, {constructor: {value: zulu}});
-                tango = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = mike;
-                entity = new report[zulu](tango, zulu);
-                entity = entity instanceof Object ? entity : mike;
+                zuuluu = entity.Error;
+                entity = zuuluu.prototype;
+                michal = Object.create(entity, {constructor: {value: zuuluu}});
+                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                report = michal;
+                entity = new report[zuuluu](tangon, zuuluu);
+                entity = entity instanceof Object ? entity : michal;
                 throw entity;
  46:
                 entity = undefined;
                 return entity;
             }
         };
-        entity['closeCustomKeyboard'] = tango;
-        entity = mike.bind(zulu)(entity);
+        entity['closeCustomKeyboard'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot5 = tango;
+    var _closure1_slot5 = tangon;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
-    kilo = 0;
-    oscar = offset[kilo];
-    report = argCorge;
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    kiloes = 0;
+    oscard = offset[kiloes];
+    report = argCor;
     entity = undefined;
-    yankee = report.bind(entity)(oscar);
+    yankee = report.bind(entity)(oscard);
     var _closure1_slot2 = yankee;
-    golf = {};
-    golf['DISMISSED'] = kilo;
+    golfie = {};
+    golfie['DISMISSED'] = kiloes;
     report = 'DISMISSED';
-    golf[kilo] = report;
+    golfie[kiloes] = report;
     backup = 1;
-    golf['COMMAND'] = backup;
+    golfie['COMMAND'] = backup;
     report = 'COMMAND';
-    golf[backup] = report;
-    foxtrot = 2;
-    golf['ACTIVITY'] = foxtrot;
+    golfie[backup] = report;
+    foxtra = 2;
+    golfie['ACTIVITY'] = foxtra;
     report = 'ACTIVITY';
-    golf[foxtrot] = report;
-    options = 3;
-    golf['BACK'] = options;
+    golfie[foxtra] = report;
+    option = 3;
+    golfie['BACK'] = option;
     report = 'BACK';
-    golf[options] = report;
-    romeo = 4;
-    golf['OAUTH_MODAL'] = romeo;
+    golfie[option] = report;
+    romeon = 4;
+    golfie['OAUTH_MODAL'] = romeon;
     report = 'OAUTH_MODAL';
-    golf[romeo] = report;
-    var _closure1_slot3 = golf;
-    oscar = {};
-    oscar['GESTURE'] = kilo;
+    golfie[romeon] = report;
+    var _closure1_slot3 = golfie;
+    oscard = {};
+    oscard['GESTURE'] = kiloes;
     report = 'GESTURE';
-    oscar[kilo] = report;
-    oscar['KEYBOARD'] = backup;
+    oscard[kiloes] = report;
+    oscard['KEYBOARD'] = backup;
     report = 'KEYBOARD';
-    oscar[backup] = report;
-    oscar['APP_VIEW'] = foxtrot;
+    oscard[backup] = report;
+    oscard['APP_VIEW'] = foxtra;
     report = 'APP_VIEW';
-    oscar[foxtrot] = report;
-    oscar['COMMAND_VIEW'] = options;
+    oscard[foxtra] = report;
+    oscard['COMMAND_VIEW'] = option;
     report = 'COMMAND_VIEW';
-    oscar[options] = report;
-    oscar['OTHER'] = romeo;
+    oscard[option] = report;
+    oscard['OTHER'] = romeon;
     report = 'OTHER';
-    oscar[romeo] = report;
+    oscard[romeon] = report;
     report = yankee.createContext;
     report = report.bind(yankee)(entity);
     var _closure1_slot4 = report;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/app_launcher/native/AppLauncherContext.tsx';
-    options = verify.bind(offset)(options);
-    zulu['AppLauncherKeyboardCloseReason'] = golf;
-    zulu['AppLauncherBottomSheetExpandReason'] = oscar;
-    zulu['AppLauncherContext'] = report;
-    zulu['useAppLauncherChatInputRefDummy'] = tango;
-    tango = function() { // Original name: useRequiredAppLauncherContext
+    option = 'modules/app_launcher/native/AppLauncherContext.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['AppLauncherKeyboardCloseReason'] = golfie;
+    zuuluu['AppLauncherBottomSheetExpandReason'] = oscard;
+    zuuluu['AppLauncherContext'] = report;
+    zuuluu['useAppLauncherChatInputRefDummy'] = tangon;
+    tangon = function() { // Original name: useRequiredAppLauncherContext
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = _closure1_slot2;
-            mike = zulu.useContext;
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.useContext;
             entity = _closure1_slot4;
-            entity = mike.bind(zulu)(entity);
-            mike = null;
-            if(!(mike != entity)) { _fun00008_ip = 30; continue _fun00007 }
+            entity = michal.bind(zuuluu)(entity);
+            michal = null;
+            if(!(michal != entity)) { _fun00008_ip = 30; continue _fun00007 }
  28:
             return entity;
  30:
             entity = global;
-            zulu = entity.Error;
-            entity = zulu.prototype;
-            mike = Object.create(entity, {constructor: {value: zulu}});
-            tango = 'AppLauncherContext not found, must be used within AppLauncherNavigator';
-            report = mike;
-            entity = new report[zulu](tango, zulu);
-            entity = entity instanceof Object ? entity : mike;
+            zuuluu = entity.Error;
+            entity = zuuluu.prototype;
+            michal = Object.create(entity, {constructor: {value: zuuluu}});
+            tangon = 'AppLauncherContext not found, must be used within AppLauncherNavigator';
+            report = michal;
+            entity = new report[zuuluu](tangon, zuuluu);
+            entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
     };
-    zulu['useRequiredAppLauncherContext'] = tango;
-    mike = function() { // Original name: useAppLauncherContext
+    zuuluu['useRequiredAppLauncherContext'] = tangon;
+    michal = function() { // Original name: useAppLauncherContext
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = _closure1_slot2;
-            tango = report.useRef;
-            zulu = _closure1_slot3;
-            zulu = zulu.DISMISSED;
-            zulu = tango.bind(report)(zulu);
-            var _closure2_slot0 = zulu;
-            tango = _closure1_slot2;
-            zulu = tango.useRef;
-            zulu = zulu.bind(tango)();
-            var _closure2_slot1 = zulu;
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 1;
-            zulu = oscar[zulu];
+            tangon = report.useRef;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.DISMISSED;
+            zuuluu = tangon.bind(report)(zuuluu);
+            var _closure2_slot0 = zuuluu;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useRef;
+            zuuluu = zuuluu.bind(tangon)();
+            var _closure2_slot1 = zuuluu;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 1;
+            zuuluu = oscard[zuuluu];
             report = undefined;
-            zulu = tango.bind(report)(zulu);
-            zulu = zulu.AppLauncherEntrypoint;
-            golf = zulu.TEXT;
-            var _closure2_slot2 = golf;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.useDefaultAppLauncherWidth;
-            options = zulu.bind(tango)(golf);
-            var _closure2_slot3 = options;
-            tango = _closure1_slot5;
-            zulu = {};
-            oscar = false;
-            zulu['noop'] = oscar;
-            oscar = tango.bind(report)(zulu);
-            var _closure2_slot4 = oscar;
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = zuuluu.AppLauncherEntrypoint;
+            golfie = zuuluu.TEXT;
+            var _closure2_slot2 = golfie;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.useDefaultAppLauncherWidth;
+            option = zuuluu.bind(tangon)(golfie);
+            var _closure2_slot3 = option;
+            tangon = _closure1_slot5;
+            zuuluu = {};
+            oscard = false;
+            zuuluu['noop'] = oscard;
+            oscard = tangon.bind(report)(zuuluu);
+            var _closure2_slot4 = oscard;
             report = _closure1_slot2;
-            tango = report.useMemo;
-            zulu = new Array(3);
-            zulu[0] = options;
-            zulu[1] = golf;
-            zulu[2] = oscar;
+            tangon = report.useMemo;
+            zuuluu = new Array(3);
+            zuuluu[0] = option;
+            zuuluu[1] = golfie;
+            zuuluu[2] = oscard;
             entity = function() {
                 entity = {};
-                zulu = _closure2_slot0;
-                entity['keyboardCloseReasonRef'] = zulu;
-                zulu = _closure2_slot1;
-                entity['bottomSheetExpandReasonRef'] = zulu;
-                zulu = _closure2_slot4;
-                entity['chatInputRef'] = zulu;
-                zulu = _closure2_slot3;
-                entity['width'] = zulu;
-                mike = _closure2_slot2;
-                entity['entrypoint'] = mike;
-                mike = undefined;
-                entity['onActivityItemSelected'] = mike;
+                zuuluu = _closure2_slot0;
+                entity['keyboardCloseReasonRef'] = zuuluu;
+                zuuluu = _closure2_slot1;
+                entity['bottomSheetExpandReasonRef'] = zuuluu;
+                zuuluu = _closure2_slot4;
+                entity['chatInputRef'] = zuuluu;
+                zuuluu = _closure2_slot3;
+                entity['width'] = zuuluu;
+                michal = _closure2_slot2;
+                entity['entrypoint'] = michal;
+                michal = undefined;
+                entity['onActivityItemSelected'] = michal;
                 return entity;
             };
-            entity = tango.bind(report)(entity, zulu);
-            tango = _closure1_slot2;
-            zulu = tango.useContext;
-            mike = _closure1_slot4;
-            mike = zulu.bind(tango)(mike);
-            zulu = null;
-            if(!(zulu != mike)) { _fun00010_ip = 203; continue _fun00009 }
+            entity = tangon.bind(report)(entity, zuuluu);
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useContext;
+            michal = _closure1_slot4;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = null;
+            if(!(zuuluu != michal)) { _fun00010_ip = 203; continue _fun00009 }
  200:
-            entity = mike;
+            entity = michal;
  203:
             return entity;
         }
     };
-    zulu['useAppLauncherContext'] = mike;
+    zuuluu['useAppLauncherContext'] = michal;
     return entity;
 })();

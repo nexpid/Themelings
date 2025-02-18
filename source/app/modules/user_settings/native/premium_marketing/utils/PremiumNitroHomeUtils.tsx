@@ -1,81 +1,81 @@
 // app/modules/user_settings/native/premium_marketing/utils/PremiumNitroHomeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.AnalyticEvents;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/user_settings/native/premium_marketing/utils/PremiumNitroHomeUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_settings/native/premium_marketing/utils/PremiumNitroHomeUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
-            entity = mike.nativeEvent;
-            oscar = mike.trackedType;
-            mike = mike.hasTrackedScrolledToBottom;
-            golf = entity.layoutMeasurement;
-            tango = entity.contentOffset;
-            zulu = entity.contentSize;
-            entity = mike.current;
+            michal = argFoo;
+            entity = michal.nativeEvent;
+            oscard = michal.trackedType;
+            michal = michal.hasTrackedScrolledToBottom;
+            golfie = entity.layoutMeasurement;
+            tangon = entity.contentOffset;
+            zuuluu = entity.contentSize;
+            entity = michal.current;
             if(entity) { _fun00002_ip = 122; continue _fun00001 }
  46:
             report = global;
             verify = report.Math;
-            options = verify.ceil;
-            golf = golf.height;
-            golf = options.bind(verify)(golf);
+            option = verify.ceil;
+            golfie = golfie.height;
+            golfie = option.bind(verify)(golfie);
             verify = report.Math;
-            options = verify.ceil;
-            tango = tango.y;
-            tango = options.bind(verify)(tango);
-            tango = golf + tango;
-            golf = report.Math;
-            report = golf.floor;
-            zulu = zulu.height;
-            zulu = report.bind(golf)(zulu);
-            entity = tango < zulu;
+            option = verify.ceil;
+            tangon = tangon.y;
+            tangon = option.bind(verify)(tangon);
+            tangon = golfie + tangon;
+            golfie = report.Math;
+            report = golfie.floor;
+            zuuluu = zuuluu.height;
+            zuuluu = report.bind(golfie)(zuuluu);
+            entity = tangon < zuuluu;
  122:
             if(entity) { _fun00002_ip = 185; continue _fun00001 }
  125:
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            zulu = 1;
-            tango = tango[zulu];
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
-            tango = report.track;
+            tangon = _closure1_slot1;
+            zuuluu = 1;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.track;
             entity = _closure1_slot2;
-            zulu = entity.PREMIUM_MARKETING_SURFACE_REACHED_BOTTOM;
+            zuuluu = entity.PREMIUM_MARKETING_SURFACE_REACHED_BOTTOM;
             entity = {};
-            entity['type'] = oscar;
-            entity = tango.bind(report)(zulu, entity);
+            entity['type'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
             entity = true;
-            mike['current'] = entity;
+            michal['current'] = entity;
  185:
             entity = undefined;
             return entity;
         }
     };
-    zulu['trackIfScrolledToBottom'] = mike;
+    zuuluu['trackIfScrolledToBottom'] = michal;
     return entity;
 })();

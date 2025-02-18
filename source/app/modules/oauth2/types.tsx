@@ -1,28 +1,28 @@
 // app/modules/oauth2/types.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
     entity = 'none';
-    mike['NONE'] = entity;
+    michal['NONE'] = entity;
     entity = 'consent';
-    mike['CONSENT'] = entity;
-    tango = argPlugh;
+    michal['CONSENT'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/oauth2/types.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['OAuth2Prompts'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/oauth2/types.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['OAuth2Prompts'] = michal;
     return entity;
 })();

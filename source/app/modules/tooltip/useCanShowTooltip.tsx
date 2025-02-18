@@ -1,70 +1,70 @@
 // app/modules/tooltip/useCanShowTooltip.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/tooltip/useCanShowTooltip.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/tooltip/useCanShowTooltip.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
-            golf = arguments[1];
-            options = arguments[2];
-            var _closure2_slot0 = oscar;
+            oscard = argFoo;
+            golfie = arguments[1];
+            option = arguments[2];
+            var _closure2_slot0 = oscard;
             report = undefined;
-            if(!(golf === report)) { _fun00002_ip = 23; continue _fun00001 }
+            if(!(golfie === report)) { _fun00002_ip = 23; continue _fun00001 }
  21:
-            golf = false;
+            golfie = false;
  23:
-            var _closure2_slot1 = golf;
-            if(!(options === report)) { _fun00002_ip = 33; continue _fun00001 }
+            var _closure2_slot1 = golfie;
+            if(!(option === report)) { _fun00002_ip = 33; continue _fun00001 }
  31:
-            options = true;
+            option = true;
  33:
-            var _closure2_slot2 = options;
-            tango = _closure1_slot0;
+            var _closure2_slot2 = option;
+            tangon = _closure1_slot0;
             verify = _closure1_slot2;
             entity = 2;
             entity = verify[entity];
-            verify = tango.bind(report)(entity);
+            verify = tangon.bind(report)(entity);
             report = verify.useStateFromStores;
             entity = _closure1_slot4;
-            tango = new Array(1);
-            tango[0] = entity;
+            tangon = new Array(1);
+            tangon[0] = entity;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot4;
-                    zulu = tango.canShowTooltip;
+                    tangon = _closure1_slot4;
+                    zuuluu = tangon.canShowTooltip;
                     entity = _closure2_slot0;
-                    entity = zulu.bind(tango)(entity);
+                    entity = zuuluu.bind(tangon)(entity);
                     if(!entity) { _fun00004_ip = 32; continue _fun00003 }
  28:
                     entity = _closure2_slot2;
@@ -72,38 +72,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 }
             };
-            entity = report.bind(verify)(tango, entity);
+            entity = report.bind(verify)(tangon, entity);
             report = _closure1_slot3;
-            tango = report.useEffect;
-            zulu = new Array(3);
-            zulu[0] = options;
-            zulu[1] = golf;
-            zulu[2] = oscar;
-            mike = function() {
+            tangon = report.useEffect;
+            zuuluu = new Array(3);
+            zuuluu[0] = option;
+            zuuluu[1] = golfie;
+            zuuluu[2] = oscard;
+            michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    mike = _closure2_slot2;
-                    if(!mike) { _fun00006_ip = 55; continue _fun00005 }
+                    michal = _closure2_slot2;
+                    if(!michal) { _fun00006_ip = 55; continue _fun00005 }
  10:
-                    tango = _closure1_slot1;
-                    zulu = _closure1_slot2;
-                    mike = 3;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    tango = tango.bind(mike)(zulu);
-                    zulu = tango.attemptToShowTooltip;
-                    mike = _closure2_slot0;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    michal = 3;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
+                    zuuluu = tangon.attemptToShowTooltip;
+                    michal = _closure2_slot0;
                     entity = _closure2_slot1;
-                    entity = zulu.bind(tango)(mike, entity);
+                    entity = zuuluu.bind(tangon)(michal, entity);
  55:
                     entity = undefined;
                     return entity;
                 }
             };
-            mike = tango.bind(report)(mike, zulu);
+            michal = tangon.bind(report)(michal, zuuluu);
             return entity;
         }
     };
-    zulu['useCanShowTooltip'] = mike;
+    zuuluu['useCanShowTooltip'] = michal;
     return entity;
 })();

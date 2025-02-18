@@ -1,103 +1,103 @@
 // app/modules/lobbies/LobbyUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = golf;
-    tango = function(argFoo) { // Original name: canUnlinkLobbyChannel
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    tangon = function(argFoo) { // Original name: canUnlinkLobbyChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             report = arguments[1];
             entity = undefined;
             if(!(report === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             report = _closure1_slot2;
  19:
-            zulu = null;
-            entity = zulu != oscar;
+            zuuluu = null;
+            entity = zuuluu != oscard;
             if(!entity) { _fun00002_ip = 125; continue _fun00001 }
  28:
-            mike = oscar.linkedLobby;
-            mike = zulu != mike;
-            if(!mike) { _fun00002_ip = 66; continue _fun00001 }
+            michal = oscard.linkedLobby;
+            michal = zuuluu != michal;
+            if(!michal) { _fun00002_ip = 66; continue _fun00001 }
  41:
-            tango = report.can;
-            zulu = _closure1_slot3;
-            zulu = zulu.MANAGE_CHANNELS;
-            mike = tango.bind(report)(zulu, oscar);
+            tangon = report.can;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.MANAGE_CHANNELS;
+            michal = tangon.bind(report)(zuuluu, oscard);
  66:
-            if(!mike) { _fun00002_ip = 94; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 94; continue _fun00001 }
  69:
-            tango = report.can;
-            zulu = _closure1_slot3;
-            zulu = zulu.VIEW_CHANNEL;
-            mike = tango.bind(report)(zulu, oscar);
+            tangon = report.can;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.VIEW_CHANNEL;
+            michal = tangon.bind(report)(zuuluu, oscard);
  94:
-            if(!mike) { _fun00002_ip = 122; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 122; continue _fun00001 }
  97:
-            tango = report.can;
-            zulu = _closure1_slot3;
-            zulu = zulu.SEND_MESSAGES;
-            mike = tango.bind(report)(zulu, oscar);
+            tangon = report.can;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu.SEND_MESSAGES;
+            michal = tangon.bind(report)(zuuluu, oscard);
  122:
-            entity = mike;
+            entity = michal;
  125:
             return entity;
         }
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
+    option = verify.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    options = golf[entity];
+    option = golfie[entity];
     report = argBaz;
     entity = undefined;
-    report = report.bind(entity)(options);
+    report = report.bind(entity)(option);
     var _closure1_slot2 = report;
     report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.Permissions;
     var _closure1_slot3 = report;
     report = 3;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/lobbies/LobbyUtils.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['canUnlinkLobbyChannel'] = tango;
-    mike = function(argFoo) { // Original name: useCanUnlinkLobbyChannel
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['canUnlinkLobbyChannel'] = tangon;
+    michal = function(argFoo) { // Original name: useCanUnlinkLobbyChannel
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 2;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            tango = _closure1_slot4;
-            zulu = _closure2_slot0;
-            mike = _closure1_slot2;
+            tangon = _closure1_slot4;
+            zuuluu = _closure2_slot0;
+            michal = _closure1_slot2;
             entity = undefined;
-            entity = tango.bind(entity)(zulu, mike);
+            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useCanUnlinkLobbyChannel'] = mike;
+    zuuluu['useCanUnlinkLobbyChannel'] = michal;
     return entity;
 })();

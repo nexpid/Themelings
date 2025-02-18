@@ -1,68 +1,68 @@
 // app/modules/guild_sidebar/BrowseChannelExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    romeo = true;
-    tango['value'] = romeo;
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
     entity = 0;
-    tango = options[entity];
+    tangon = option[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    offset = tango.CommonTriggerPoints;
-    tango = 1;
-    tango = options[tango];
-    verify = golf.bind(entity)(tango);
-    oscar = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2024-09_browsechannelbuttonoptin', 'label': "Don't show guild Browse Channels when all channels are already visible"};
+    tangon = golfie.bind(entity)(tangon);
+    offset = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = option[tangon];
+    verify = golfie.bind(entity)(tangon);
+    oscard = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2024-09_browsechannelbuttonoptin', 'label': "Don't show guild Browse Channels when all channels are already visible"};
     report = '2024-09_browsechannelbuttonoptin';
     yankee = {};
-    yankee['alwaysShowDirectory'] = romeo;
-    tango['defaultConfig'] = yankee;
+    yankee['alwaysShowDirectory'] = romeon;
+    tangon['defaultConfig'] = yankee;
     offset = offset.CONNECTION_OPEN;
-    tango['commonTriggerPoint'] = offset;
+    tangon['commonTriggerPoint'] = offset;
     yankee = {'id': 1, 'label': 'Hide Browse Channels when all channels are visible'};
     offset = {};
-    romeo = false;
-    offset['alwaysShowDirectory'] = romeo;
+    romeon = false;
+    offset['alwaysShowDirectory'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
-    tango['treatments'] = offset;
-    tango = oscar.bind(verify)(tango);
-    var _closure1_slot0 = tango;
-    oscar = 2;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/guild_sidebar/BrowseChannelExperiment.tsx';
-    oscar = golf.bind(options)(oscar);
-    zulu['BROWSE_CHANNEL_EXPERIMENT_ID'] = report;
-    zulu['BrowseChannelExperiment'] = tango;
-    mike = function(argFoo) { // Original name: useShowBrowseChannelsExperiment
+    tangon['treatments'] = offset;
+    tangon = oscard.bind(verify)(tangon);
+    var _closure1_slot0 = tangon;
+    oscard = 2;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/guild_sidebar/BrowseChannelExperiment.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['BROWSE_CHANNEL_EXPERIMENT_ID'] = report;
+    zuuluu['BrowseChannelExperiment'] = tangon;
+    michal = function(argFoo) { // Original name: useShowBrowseChannelsExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot0;
-            mike = zulu.useExperiment;
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.useExperiment;
             entity = {};
-            tango = 'useShowBrowseChannelsExperiment';
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            tangon = 'useShowBrowseChannelsExperiment';
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             entity = entity.alwaysShowDirectory;
             if(entity) { _fun00002_ip = 43; continue _fun00001 }
  37:
-            mike = argFoo;
-            entity = !mike;
+            michal = argFoo;
+            entity = !michal;
  43:
             return entity;
         }
     };
-    zulu['useShowBrowseChannelsExperiment'] = mike;
+    zuuluu['useShowBrowseChannelsExperiment'] = michal;
     return entity;
 })();

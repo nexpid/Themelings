@@ -1,76 +1,76 @@
 // app/design/components/Button/native/useToggleButtonProps.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Button/native/useToggleButtonProps.native.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: useToggleButtonProps
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Button/native/useToggleButtonProps.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: useToggleButtonProps
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = argBar;
+            tangon = argFoo;
+            michal = argBar;
             entity = {};
-            if(mike) { _fun00002_ip = 19; continue _fun00001 }
+            if(michal) { _fun00002_ip = 19; continue _fun00001 }
  11:
-            zulu = tango.off;
+            zuuluu = tangon.off;
             _fun00002_ip = 25; continue _fun00001;
  19:
-            zulu = tango.on;
+            zuuluu = tangon.on;
  25:
-            golf = entity;
-            oscar = zulu;
-            zulu = copyDataProperties(golf, oscar);
-            tango = 'togglebutton';
-            zulu = 'accessibilityRole';
-            entity[zulu] = tango;
-            zulu = {};
-            zulu['checked'] = mike;
-            mike = 'accessibilityState';
-            entity[mike] = zulu;
+            golfie = entity;
+            oscard = zuuluu;
+            zuuluu = copyDataProperties(golfie, oscard);
+            tangon = 'togglebutton';
+            zuuluu = 'accessibilityRole';
+            entity[zuuluu] = tangon;
+            zuuluu = {};
+            zuuluu['checked'] = michal;
+            michal = 'accessibilityState';
+            entity[michal] = zuuluu;
             return entity;
         }
     };
-    zulu['useToggleButtonProps'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useToggleIconButtonProps
+    zuuluu['useToggleButtonProps'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useToggleIconButtonProps
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            mike = argBar;
+            tangon = argFoo;
+            michal = argBar;
             entity = {};
-            if(mike) { _fun00004_ip = 19; continue _fun00003 }
+            if(michal) { _fun00004_ip = 19; continue _fun00003 }
  11:
-            zulu = tango.off;
+            zuuluu = tangon.off;
             _fun00004_ip = 25; continue _fun00003;
  19:
-            zulu = tango.on;
+            zuuluu = tangon.on;
  25:
-            golf = entity;
-            oscar = zulu;
-            zulu = copyDataProperties(golf, oscar);
-            tango = 'togglebutton';
-            zulu = 'accessibilityRole';
-            entity[zulu] = tango;
-            zulu = {};
-            zulu['checked'] = mike;
-            mike = 'accessibilityState';
-            entity[mike] = zulu;
+            golfie = entity;
+            oscard = zuuluu;
+            zuuluu = copyDataProperties(golfie, oscard);
+            tangon = 'togglebutton';
+            zuuluu = 'accessibilityRole';
+            entity[zuuluu] = tangon;
+            zuuluu = {};
+            zuuluu['checked'] = michal;
+            michal = 'accessibilityState';
+            entity[michal] = zuuluu;
             return entity;
         }
     };
-    zulu['useToggleIconButtonProps'] = mike;
+    zuuluu['useToggleIconButtonProps'] = michal;
     return entity;
 })();

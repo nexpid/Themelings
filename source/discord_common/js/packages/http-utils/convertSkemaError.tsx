@@ -1,68 +1,68 @@
 // discord_common/js/packages/http-utils/convertSkemaError.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_common/js/packages/http-utils/convertSkemaError.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo) { // Original name: convertSkemaError
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_common/js/packages/http-utils/convertSkemaError.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo) { // Original name: convertSkemaError
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            romeo = argFoo;
+            romeon = argFoo;
             entity = {};
-            offset = romeo;
+            offset = romeon;
             report = global;
-            tango = 0;
-            zulu = null;
-            mike = '_errors';
-            oscar = undefined;
-            for(golf in offset)
+            tangon = 0;
+            zuuluu = null;
+            michal = '_errors';
+            oscard = undefined;
+            for(golfie in offset)
  33:
             {
  45:
-                sizing = golf;
-                result = romeo[sizing];
-                if(zulu == result) { _fun00002_ip = 33; continue _fun00001 }
+                sizing = golfie;
+                result = romeon[sizing];
+                if(zuuluu == result) { _fun00002_ip = 33; continue _fun00001 }
  56:
-                if(!(sizing === mike)) { _fun00002_ip = 85; continue _fun00001 }
+                if(!(sizing === michal)) { _fun00002_ip = 85; continue _fun00001 }
  60:
-                output = romeo[sizing];
-                kilo = output.map;
+                output = romeon[sizing];
+                kiloes = output.map;
                 backup = function(argFoo) {
                     entity = argFoo;
                     entity = entity.message;
                     return entity;
                 };
-                backup = kilo.bind(output)(backup);
+                backup = kiloes.bind(output)(backup);
                 entity['_misc'] = backup;
  85:
-                kilo = report.Array;
-                backup = kilo.isArray;
-                backup = backup.bind(kilo)(result);
+                kiloes = report.Array;
+                backup = kiloes.isArray;
+                backup = backup.bind(kiloes)(result);
                 if(backup) { _fun00002_ip = 33; continue _fun00001 }
  104:
                 backup = result._errors;
-                if(!(zulu == backup)) { _fun00002_ip = 144; continue _fun00001 }
+                if(!(zuuluu == backup)) { _fun00002_ip = 144; continue _fun00001 }
  114:
                 output = report.Object;
-                kilo = output.keys;
-                kilo = kilo.bind(output)(result);
-                output = kilo[tango];
-                kilo = new Array(1);
-                kilo[0] = output;
+                kiloes = output.keys;
+                kiloes = kiloes.bind(output)(result);
+                output = kiloes[tangon];
+                kiloes = new Array(1);
+                kiloes[0] = output;
                 _fun00002_ip = 159; continue _fun00001;
  144:
                 result = backup.map;
@@ -71,16 +71,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = entity.message;
                     return entity;
                 };
-                kilo = result.bind(backup)(output);
+                kiloes = result.bind(backup)(output);
  159:
-                entity[sizing] = kilo;
-                oscar = backup;
+                entity[sizing] = kiloes;
+                oscard = backup;
                 _fun00002_ip = 33; continue _fun00001;
             }
  171:
             return entity;
         }
     };
-    zulu['convertSkemaError'] = mike;
+    zuuluu['convertSkemaError'] = michal;
     return entity;
 })();

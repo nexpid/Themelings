@@ -1,73 +1,73 @@
 // app/modules/stage_channels/useMyCurrentStageChannel.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/stage_channels/useMyCurrentStageChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useMyCurrentStageChannel
-        tango = _closure1_slot0;
-        zulu = _closure1_slot1;
-        mike = 2;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/stage_channels/useMyCurrentStageChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useMyCurrentStageChannel
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 2;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot3;
-        mike = new Array(2);
-        mike[0] = report;
+        michal = new Array(2);
+        michal[0] = report;
         entity = _closure1_slot2;
-        mike[1] = entity;
+        michal[1] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zulu = _closure1_slot3;
-                mike = zulu.getVoiceChannelId;
-                tango = mike.bind(zulu)();
-                mike = null;
-                if(!(mike != tango)) { _fun00002_ip = 54; continue _fun00001 }
+                zuuluu = _closure1_slot3;
+                michal = zuuluu.getVoiceChannelId;
+                tangon = michal.bind(zuuluu)();
+                michal = null;
+                if(!(michal != tangon)) { _fun00002_ip = 54; continue _fun00001 }
  23:
-                zulu = _closure1_slot2;
-                entity = zulu.getChannel;
-                entity = entity.bind(zulu)(tango);
-                if(!(mike != entity)) { _fun00002_ip = 54; continue _fun00001 }
+                zuuluu = _closure1_slot2;
+                entity = zuuluu.getChannel;
+                entity = entity.bind(zuuluu)(tangon);
+                if(!(michal != entity)) { _fun00002_ip = 54; continue _fun00001 }
  41:
-                zulu = entity.isGuildStageVoice;
-                zulu = zulu.bind(entity)();
-                if(zulu) { _fun00002_ip = 56; continue _fun00001 }
+                zuuluu = entity.isGuildStageVoice;
+                zuuluu = zuuluu.bind(entity)();
+                if(zuuluu) { _fun00002_ip = 56; continue _fun00001 }
  54:
-                return mike;
+                return michal;
  56:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,74 +1,74 @@
 // app/utils/native/openChannelCallModalForChannelId.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/native/openChannelCallModalForChannelId.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: openChannelCallModalForChannelId
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/native/openChannelCallModalForChannelId.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: openChannelCallModalForChannelId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
+            michal = argBar;
             report = _closure1_slot2;
-            tango = report.getChannel;
-            zulu = argFoo;
-            zulu = tango.bind(report)(zulu);
-            tango = null;
-            if(!(tango != zulu)) { _fun00002_ip = 120; continue _fun00001 }
+            tangon = report.getChannel;
+            zuuluu = argFoo;
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00002_ip = 120; continue _fun00001 }
  29:
-            if(!mike) { _fun00002_ip = 42; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 42; continue _fun00001 }
  32:
-            tango = zulu.isGuildStageVoice;
-            mike = tango.bind(zulu)();
+            tangon = zuuluu.isGuildStageVoice;
+            michal = tangon.bind(zuuluu)();
  42:
-            if(!mike) { _fun00002_ip = 84; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 84; continue _fun00001 }
  45:
-            oscar = _closure1_slot0;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 1;
-            report = report[tango];
-            tango = undefined;
-            report = oscar.bind(tango)(report);
-            tango = report.connectToStage;
-            report = tango.bind(report)(zulu);
-            tango = false;
-            mike = tango === report;
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.connectToStage;
+            report = tangon.bind(report)(zuuluu);
+            tangon = false;
+            michal = tangon === report;
  84:
-            if(mike) { _fun00002_ip = 120; continue _fun00001 }
+            if(michal) { _fun00002_ip = 120; continue _fun00001 }
  87:
-            tango = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 2;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            mike = tango.bind(entity)(mike);
-            entity = mike.openChannelCallModal;
-            entity = entity.bind(mike)(zulu);
+            michal = tangon.bind(entity)(michal);
+            entity = michal.openChannelCallModal;
+            entity = entity.bind(michal)(zuuluu);
  120:
             entity = undefined;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,29 +1,29 @@
 // app/modules/contact_sync/ContactSyncExperiments.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
-    options = entity.Object;
-    report = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(options)(zulu, entity, tango);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golf[entity];
-    tango = argCorge;
+    report = golfie[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(report);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = golf[tango];
-    verify = oscar.bind(entity)(tango);
-    options = verify.createExperiment;
-    tango = {'kind': 'user', 'id': '2021-03_contact_sync_main', 'label': 'Contact sync base population experiment with holdout'};
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2021-03_contact_sync_main', 'label': 'Contact sync base population experiment with holdout'};
     report = {'enableContactSync': false, 'mutualOnly': true};
-    tango['defaultConfig'] = report;
+    tangon['defaultConfig'] = report;
     report = {'id': 1, 'label': 'Enable core Contact Sync features (mutual only variant)'};
     offset = {'enableContactSync': true, 'mutualOnly': true};
     report['config'] = offset;
@@ -31,73 +31,73 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     offset[0] = report;
     yankee = {'id': 2, 'label': 'Enable core Contact Sync features (non mutuals variant)'};
     report = 2;
-    romeo = {'enableContactSync': true, 'mutualOnly': false};
-    yankee['config'] = romeo;
+    romeon = {'enableContactSync': true, 'mutualOnly': false};
+    yankee['config'] = romeon;
     offset[1] = yankee;
-    tango['treatments'] = offset;
-    tango = options.bind(verify)(tango);
-    var _closure1_slot1 = tango;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot1 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'modules/contact_sync/ContactSyncExperiments.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['ContactSyncBaseExperiment'] = tango;
-    tango = function() { // Original name: shouldOnlySyncMutuals
-        tango = _closure1_slot1;
-        zulu = tango.getCurrentConfig;
-        mike = {};
+    report = oscard.bind(golfie)(report);
+    zuuluu['ContactSyncBaseExperiment'] = tangon;
+    tangon = function() { // Original name: shouldOnlySyncMutuals
+        tangon = _closure1_slot1;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = 'f1c91e_1';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.mutualOnly;
         return entity;
     };
-    zulu['shouldOnlySyncMutuals'] = tango;
-    mike = function(argFoo, argBar) { // Original name: useEligibleForContactSync
-        golf = argFoo;
-        oscar = argBar;
-        var _closure2_slot0 = golf;
-        var _closure2_slot1 = oscar;
+    zuuluu['shouldOnlySyncMutuals'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useEligibleForContactSync
+        golfie = argFoo;
+        oscard = argBar;
+        var _closure2_slot0 = golfie;
+        var _closure2_slot1 = oscard;
         report = _closure1_slot0;
-        tango = report.useEffect;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        zulu[1] = oscar;
-        mike = function() {
+        tangon = report.useEffect;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
+        michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = _closure2_slot0;
-                if(!mike) { _fun00002_ip = 45; continue _fun00001 }
+                michal = _closure2_slot0;
+                if(!michal) { _fun00002_ip = 45; continue _fun00001 }
  10:
-                tango = _closure1_slot1;
-                zulu = tango.trackExposure;
-                mike = {};
+                tangon = _closure1_slot1;
+                zuuluu = tangon.trackExposure;
+                michal = {};
                 report = 'f1c91e_2';
-                mike['location'] = report;
+                michal['location'] = report;
                 entity = _closure2_slot1;
-                entity = zulu.bind(tango)(mike, entity);
+                entity = zuuluu.bind(tangon)(michal, entity);
  45:
                 entity = undefined;
                 return entity;
             }
         };
-        mike = tango.bind(report)(mike, zulu);
-        tango = _closure1_slot1;
-        zulu = tango.useExperiment;
-        mike = {};
+        michal = tangon.bind(report)(michal, zuuluu);
+        tangon = _closure1_slot1;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = 'f1c91e_3';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enableContactSync;
         return entity;
     };
-    zulu['useEligibleForContactSync'] = mike;
+    zuuluu['useEligibleForContactSync'] = michal;
     return entity;
 })();

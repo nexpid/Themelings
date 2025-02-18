@@ -1,98 +1,98 @@
 // app/modules/captcha/tooling/native/OpenCaptchaTestModal.tsx
-export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    golf = oscar[tango];
-    tango = argCorge;
-    tango = tango.bind(entity)(golf);
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot4 = tango;
-    tango = 6;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/captcha/tooling/native/OpenCaptchaTestModal.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() {
-        tango = _closure1_slot1;
-        zulu = _closure1_slot2;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/captcha/tooling/native/OpenCaptchaTestModal.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() {
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 3;
-        zulu = zulu[entity];
+        zuuluu = zuuluu[entity];
         entity = undefined;
-        tango = tango.bind(entity)(zulu);
-        zulu = tango.pushLazy;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.pushLazy;
         report = _closure1_slot3;
-        mike = function* () {
+        michal = function* () {
             entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun00002_ip = 88; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
  9:
-                    oscar = undefined;
-                    var _closure4_slot0 = oscar;
+                    oscard = undefined;
+                    var _closure4_slot0 = oscard;
                     report = _closure1_slot0;
-                    mike = _closure1_slot2;
-                    tango = 5;
-                    tango = mike[tango];
-                    report = report.bind(oscar)(tango);
-                    tango = 4;
-                    tango = mike[tango];
-                    mike = mike.paths;
-                    mike = report.bind(oscar)(tango, mike);
+                    michal = _closure1_slot2;
+                    tangon = 5;
+                    tangon = michal[tangon];
+                    report = report.bind(oscard)(tangon);
+                    tangon = 4;
+                    tangon = michal[tangon];
+                    michal = michal.paths;
+                    michal = report.bind(oscard)(tangon, michal);
                     SaveGenerator(address=60);
  58:
-                    return mike;
+                    return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00002_ip = 85; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
  66:
-                    tango = mike.default;
-                    _closure4_slot0 = tango;
-                    zulu = function() {
-                        tango = _closure1_slot4;
-                        zulu = _closure4_slot0;
-                        mike = undefined;
+                    tangon = michal.default;
+                    _closure4_slot0 = tangon;
+                    zuuluu = function() {
+                        tangon = _closure1_slot4;
+                        zuuluu = _closure4_slot0;
+                        michal = undefined;
                         entity = {};
-                        entity = tango.bind(mike)(zulu, entity);
+                        entity = tangon.bind(michal)(zuuluu, entity);
                         return entity;
                     };
-                    return zulu;
+                    return zuuluu;
  85:
-                    return mike;
+                    return michal;
  88:
                     return entity;
                 }
             };
             return entity;
         };
-        mike = report.bind(entity)(mike);
-        mike = zulu.bind(tango)(mike);
+        michal = report.bind(entity)(michal);
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zulu['showCaptchaTestModal'] = mike;
+    zuuluu['showCaptchaTestModal'] = michal;
     return entity;
 })();

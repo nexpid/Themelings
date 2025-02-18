@@ -1,64 +1,64 @@
 // app/modules/messages/createNonce.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     var _closure1_slot2 = entity;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.SnowflakeSequence;
-    golf = tango.prototype;
-    golf = Object.create(golf, {constructor: {value: tango}});
-    romeo = golf;
-    tango = new romeo[tango](yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/createNonce.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: createNonce
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SnowflakeSequence;
+    golfie = tangon.prototype;
+    golfie = Object.create(golfie, {constructor: {value: tangon}});
+    romeon = golfie;
+    tangon = new romeon[tangon](yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/createNonce.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: createNonce
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
-            mike = entity.Date;
-            entity = mike.now;
-            tango = entity.bind(mike)();
-            mike = _closure1_slot2;
-            if(!(mike !== tango)) { _fun00002_ip = 46; continue _fun00001 }
+            michal = entity.Date;
+            entity = michal.now;
+            tangon = entity.bind(michal)();
+            michal = _closure1_slot2;
+            if(!(michal !== tangon)) { _fun00002_ip = 46; continue _fun00001 }
  28:
-            zulu = _closure1_slot3;
-            mike = zulu.reset;
-            mike = mike.bind(zulu)();
-            _closure1_slot2 = tango;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.reset;
+            michal = michal.bind(zuuluu)();
+            _closure1_slot2 = tangon;
  46:
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 0;
-            zulu = zulu[mike];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            mike = zulu.fromTimestampWithSequence;
+            zuuluu = _closure1_slot1;
+            michal = 0;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            michal = zuuluu.fromTimestampWithSequence;
             entity = _closure1_slot3;
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
-    zulu['createNonce'] = mike;
+    zuuluu['createNonce'] = michal;
     return entity;
 })();

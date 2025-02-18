@@ -1,104 +1,104 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationBannerForChannel.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.SafetyWarningTypes;
-    var _closure1_slot2 = tango;
-    tango = 5;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationBannerForChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: useInappropriateConversationBannerForChannel
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SafetyWarningTypes;
+    var _closure1_slot2 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationBannerForChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: useInappropriateConversationBannerForChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
-            golf = _closure1_slot0;
+            option = argFoo;
+            golfie = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 1;
-            zulu = verify[entity];
+            zuuluu = verify[entity];
             entity = undefined;
-            report = golf.bind(entity)(zulu);
-            tango = report.useIsEligibleForInappropriateConversationWarning;
-            zulu = {};
-            oscar = argBar;
-            zulu['location'] = oscar;
-            tango = tango.bind(report)(zulu);
-            zulu = 2;
-            zulu = verify[zulu];
-            report = golf.bind(entity)(zulu);
-            zulu = report.useSafetyAlertsSettingOrDefault;
-            zulu = zulu.bind(report)();
+            report = golfie.bind(entity)(zuuluu);
+            tangon = report.useIsEligibleForInappropriateConversationWarning;
+            zuuluu = {};
+            oscard = argBar;
+            zuuluu['location'] = oscard;
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = 2;
+            zuuluu = verify[zuuluu];
+            report = golfie.bind(entity)(zuuluu);
+            zuuluu = report.useSafetyAlertsSettingOrDefault;
+            zuuluu = zuuluu.bind(report)();
             report = 3;
             report = verify[report];
-            oscar = golf.bind(entity)(report);
-            report = oscar.useInappropriateConversationWarningsForChannel;
-            report = report.bind(oscar)(options);
-            oscar = 4;
-            oscar = verify[oscar];
-            golf = golf.bind(entity)(oscar);
-            oscar = golf.useChannelSafetyWarning;
-            mike = _closure1_slot2;
-            mike = mike.INAPPROPRIATE_CONVERSATION_TIER_2;
-            mike = oscar.bind(golf)(options, mike);
-            if(!tango) { _fun00002_ip = 169; continue _fun00001 }
+            oscard = golfie.bind(entity)(report);
+            report = oscard.useInappropriateConversationWarningsForChannel;
+            report = report.bind(oscard)(option);
+            oscard = 4;
+            oscard = verify[oscard];
+            golfie = golfie.bind(entity)(oscard);
+            oscard = golfie.useChannelSafetyWarning;
+            michal = _closure1_slot2;
+            michal = michal.INAPPROPRIATE_CONVERSATION_TIER_2;
+            michal = oscard.bind(golfie)(option, michal);
+            if(!tangon) { _fun00002_ip = 169; continue _fun00001 }
  130:
-            if(!zulu) { _fun00002_ip = 169; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 169; continue _fun00001 }
  133:
-            tango = report.length;
-            zulu = 0;
-            if(!(zulu !== tango)) { _fun00002_ip = 169; continue _fun00001 }
+            tangon = report.length;
+            zuuluu = 0;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 169; continue _fun00001 }
  144:
-            tango = report.some;
-            zulu = function(argFoo) {
+            tangon = report.some;
+            zuuluu = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zulu = argFoo;
-                    tango = zulu.type;
+                    zuuluu = argFoo;
+                    tangon = zuuluu.type;
                     entity = _closure1_slot2;
                     entity = entity.INAPPROPRIATE_CONVERSATION_TIER_1;
-                    entity = tango === entity;
+                    entity = tangon === entity;
                     if(entity) { _fun00004_ip = 65; continue _fun00003 }
  28:
-                    tango = zulu.type;
-                    mike = _closure1_slot2;
-                    mike = mike.INAPPROPRIATE_CONVERSATION_TIER_2;
-                    mike = tango === mike;
-                    if(!mike) { _fun00004_ip = 62; continue _fun00003 }
+                    tangon = zuuluu.type;
+                    michal = _closure1_slot2;
+                    michal = michal.INAPPROPRIATE_CONVERSATION_TIER_2;
+                    michal = tangon === michal;
+                    if(!michal) { _fun00004_ip = 62; continue _fun00003 }
  50:
-                    tango = zulu.dismiss_timestamp;
-                    zulu = null;
-                    mike = zulu != tango;
+                    tangon = zuuluu.dismiss_timestamp;
+                    zuuluu = null;
+                    michal = zuuluu != tangon;
  62:
-                    entity = mike;
+                    entity = michal;
  65:
                     return entity;
                 }
             };
-            zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun00002_ip = 169; continue _fun00001 }
+            zuuluu = tangon.bind(report)(zuuluu);
+            if(zuuluu) { _fun00002_ip = 169; continue _fun00001 }
  167:
-            return mike;
+            return michal;
  169:
             return entity;
         }
     };
-    zulu['useInappropriateConversationBannerForChannel'] = mike;
+    zuuluu['useInappropriateConversationBannerForChannel'] = michal;
     return entity;
 })();

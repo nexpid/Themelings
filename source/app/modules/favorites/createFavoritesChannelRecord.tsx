@@ -1,61 +1,61 @@
 // app/modules/favorites/createFavoritesChannelRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = 'modules/favorites/createFavoritesChannelRecord.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function(argFoo, argBar, argBaz) { // Original name: createFavoritesChannelRecord
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = 'modules/favorites/createFavoritesChannelRecord.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function(argFoo, argBar, argBaz) { // Original name: createFavoritesChannelRecord
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argBar;
-            zulu = argBaz;
-            tango = zulu.constructor;
-            entity = zulu.toJS;
-            oscar = entity.bind(zulu)();
-            zulu = tango.prototype;
-            zulu = Object.create(zulu, {constructor: {value: tango}});
-            golf = zulu;
-            entity = new golf[tango](oscar, report);
-            entity = entity instanceof Object ? entity : zulu;
-            zulu = mike.order;
-            entity['position_'] = zulu;
-            zulu = mike.nickname;
-            tango = null;
-            if(!(tango != zulu)) { _fun00002_ip = 77; continue _fun00001 }
+            michal = argBar;
+            zuuluu = argBaz;
+            tangon = zuuluu.constructor;
+            entity = zuuluu.toJS;
+            oscard = entity.bind(zuuluu)();
+            zuuluu = tangon.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+            golfie = zuuluu;
+            entity = new golfie[tangon](oscard, report);
+            entity = entity instanceof Object ? entity : zuuluu;
+            zuuluu = michal.order;
+            entity['position_'] = zuuluu;
+            zuuluu = michal.nickname;
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00002_ip = 77; continue _fun00001 }
  65:
-            zulu = mike.nickname;
-            entity['name'] = zulu;
+            zuuluu = michal.nickname;
+            entity['name'] = zuuluu;
  77:
-            zulu = mike.parentId;
-            zulu = tango != zulu;
-            if(!zulu) { _fun00002_ip = 103; continue _fun00001 }
+            zuuluu = michal.parentId;
+            zuuluu = tangon != zuuluu;
+            if(!zuuluu) { _fun00002_ip = 103; continue _fun00001 }
  90:
-            report = mike.parentId;
-            tango = argFoo;
-            zulu = report in tango;
+            report = michal.parentId;
+            tangon = argFoo;
+            zuuluu = report in tangon;
  103:
-            if(!zulu) { _fun00002_ip = 118; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 118; continue _fun00001 }
  106:
-            mike = mike.parentId;
-            entity['parent_id'] = mike;
+            michal = michal.parentId;
+            entity['parent_id'] = michal;
  118:
             return entity;
         }
     };
-    zulu['createFavoritesChannelRecord'] = mike;
+    zuuluu['createFavoritesChannelRecord'] = michal;
     return entity;
 })();

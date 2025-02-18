@@ -1,52 +1,52 @@
 // app/modules/svg/native/getReactNativeSVGImageSource.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/svg/native/getReactNativeSVGImageSource.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getReactNativeSVGImageSource
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/svg/native/getReactNativeSVGImageSource.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getReactNativeSVGImageSource
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = _closure1_slot0;
             entity = _closure1_slot1;
-            mike = 0;
-            tango = entity[mike];
+            michal = 0;
+            tangon = entity[michal];
             entity = undefined;
-            tango = report.bind(entity)(tango);
-            entity = tango.isAndroid;
-            tango = entity.bind(tango)();
-            entity = zulu;
-            if(!tango) { _fun00002_ip = 70; continue _fun00001 }
+            tangon = report.bind(entity)(tangon);
+            entity = tangon.isAndroid;
+            tangon = entity.bind(tangon)();
+            entity = zuuluu;
+            if(!tangon) { _fun00002_ip = 70; continue _fun00001 }
  42:
-            tango = global;
-            report = tango.Array;
-            tango = report.isArray;
-            tango = tango.bind(report)(zulu);
-            entity = zulu;
-            if(!tango) { _fun00002_ip = 70; continue _fun00001 }
+            tangon = global;
+            report = tangon.Array;
+            tangon = report.isArray;
+            tangon = tangon.bind(report)(zuuluu);
+            entity = zuuluu;
+            if(!tangon) { _fun00002_ip = 70; continue _fun00001 }
  66:
-            entity = zulu[mike];
+            entity = zuuluu[michal];
  70:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

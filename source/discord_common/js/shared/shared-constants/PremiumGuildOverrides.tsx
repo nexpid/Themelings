@@ -1,28 +1,28 @@
 // discord_common/js/shared/shared-constants/PremiumGuildOverrides.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = {};
-    tango = 120;
-    mike['MAX_STICKER_SLOTS'] = tango;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 120;
+    michal['MAX_STICKER_SLOTS'] = tangon;
     entity = 'MAX_STICKER_SLOTS';
-    mike[tango] = entity;
-    tango = argPlugh;
+    michal[tangon] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = '../discord_common/js/shared/shared-constants/PremiumGuildOverrides.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['PremiumGuildOverrides'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = '../discord_common/js/shared/shared-constants/PremiumGuildOverrides.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['PremiumGuildOverrides'] = michal;
     return entity;
 })();

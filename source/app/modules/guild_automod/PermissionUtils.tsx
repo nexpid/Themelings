@@ -1,156 +1,156 @@
 // app/modules/guild_automod/PermissionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.GuildFeatures;
-    var _closure1_slot4 = golf;
-    tango = tango.Permissions;
-    var _closure1_slot5 = tango;
-    tango = function(argFoo) { // Original name: getHasAutomodAccess
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.GuildFeatures;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.Permissions;
+    var _closure1_slot5 = tangon;
+    tangon = function(argFoo) { // Original name: getHasAutomodAccess
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = arguments[1];
+            zuuluu = arguments[1];
             report = arguments[2];
             entity = undefined;
-            if(!(zulu === entity)) { _fun00002_ip = 19; continue _fun00001 }
+            if(!(zuuluu === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
-            zulu = _closure1_slot2;
+            zuuluu = _closure1_slot2;
  19:
             if(!(report === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
             report = _closure1_slot3;
  30:
-            mike = zulu.getGuild;
+            michal = zuuluu.getGuild;
             entity = argFoo;
-            tango = mike.bind(zulu)(entity);
+            tangon = michal.bind(zuuluu)(entity);
             entity = null;
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 77; continue _fun00001 }
  52:
-            zulu = report.can;
-            mike = _closure1_slot5;
-            mike = mike.MANAGE_GUILD;
-            entity = zulu.bind(report)(mike, tango);
+            zuuluu = report.can;
+            michal = _closure1_slot5;
+            michal = michal.MANAGE_GUILD;
+            entity = zuuluu.bind(report)(michal, tangon);
  77:
             return entity;
         }
     };
-    var _closure1_slot6 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_automod/PermissionUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: canCurrentUserManageMessageFilters
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_automod/PermissionUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: canCurrentUserManageMessageFilters
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
+            tangon = argFoo;
             entity = null;
-            entity = entity != tango;
+            entity = entity != tangon;
             if(!entity) { _fun00004_ip = 26; continue _fun00003 }
  12:
-            zulu = _closure1_slot6;
-            mike = undefined;
-            entity = zulu.bind(mike)(tango);
+            zuuluu = _closure1_slot6;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(tangon);
  26:
             return entity;
         }
     };
-    zulu['canCurrentUserManageMessageFilters'] = tango;
-    tango = function(argFoo) { // Original name: canCurrentUserManageAutomod
-        zulu = _closure1_slot6;
-        mike = undefined;
+    zuuluu['canCurrentUserManageMessageFilters'] = tangon;
+    tangon = function(argFoo) { // Original name: canCurrentUserManageAutomod
+        zuuluu = _closure1_slot6;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['canCurrentUserManageAutomod'] = tango;
-    tango = function(argFoo) { // Original name: useCanCurrentUserManageAutomod
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    zuuluu['canCurrentUserManageAutomod'] = tangon;
+    tangon = function(argFoo) { // Original name: useCanCurrentUserManageAutomod
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        golf = _closure1_slot2;
-        zulu = new Array(2);
-        zulu[0] = golf;
-        mike = _closure1_slot3;
-        zulu[1] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        golfie = _closure1_slot2;
+        zuuluu = new Array(2);
+        zuuluu[0] = golfie;
+        michal = _closure1_slot3;
+        zuuluu[1] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             report = _closure1_slot6;
-            tango = _closure2_slot0;
-            zulu = _closure1_slot2;
-            mike = _closure1_slot3;
+            tangon = _closure2_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot3;
             entity = undefined;
-            entity = report.bind(entity)(tango, zulu, mike);
+            entity = report.bind(entity)(tangon, zuuluu, michal);
             return entity;
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useCanCurrentUserManageAutomod'] = tango;
-    mike = function(argFoo) { // Original name: useIsUserProfileRuleEnabled
-        oscar = argFoo;
-        var _closure2_slot0 = oscar;
+    zuuluu['useCanCurrentUserManageAutomod'] = tangon;
+    michal = function(argFoo) { // Original name: useIsUserProfileRuleEnabled
+        oscard = argFoo;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 3;
-        tango = tango[zulu];
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
-        tango = report.useStateFromStores;
-        mike = _closure1_slot2;
-        zulu = new Array(1);
-        zulu[0] = mike;
-        mike = new Array(1);
-        mike[0] = oscar;
+        tangon = _closure1_slot1;
+        zuuluu = 3;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.useStateFromStores;
+        michal = _closure1_slot2;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = new Array(1);
+        michal[0] = oscard;
         entity = function() {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                tango = _closure1_slot2;
-                zulu = tango.getGuild;
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
-                tango = zulu.bind(tango)(entity);
+                tangon = zuuluu.bind(tangon)(entity);
                 entity = null;
-                zulu = entity == tango;
+                zuuluu = entity == tangon;
                 entity = undefined;
-                if(zulu) { _fun00006_ip = 56; continue _fun00005 }
+                if(zuuluu) { _fun00006_ip = 56; continue _fun00005 }
  35:
-                zulu = tango.hasFeature;
-                mike = _closure1_slot4;
-                mike = mike.COMMUNITY;
-                entity = zulu.bind(tango)(mike);
+                zuuluu = tangon.hasFeature;
+                michal = _closure1_slot4;
+                michal = michal.COMMUNITY;
+                entity = zuuluu.bind(tangon)(michal);
  56:
                 if(entity) { _fun00006_ip = 61; continue _fun00005 }
  59:
@@ -159,9 +159,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             }
         };
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         return entity;
     };
-    zulu['useIsUserProfileRuleEnabled'] = mike;
+    zuuluu['useIsUserProfileRuleEnabled'] = michal;
     return entity;
 })();

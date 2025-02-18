@@ -1,26 +1,26 @@
 // app/modules/messages/useMessageMaxLength.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: getMaxMessageLength_
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            tango = _closure1_slot1;
-            zulu = _closure1_slot2;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 2;
-            zulu = zulu[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.canUseIncreasedMessageLength;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.canUseIncreasedMessageLength;
             entity = report.getCurrentUser;
             entity = entity.bind(report)();
-            entity = zulu.bind(tango)(entity);
+            entity = zuuluu.bind(tangon)(entity);
             if(entity) { _fun00002_ip = 57; continue _fun00001 }
  51:
             entity = _closure1_slot5;
@@ -34,59 +34,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    golf = tango.MAX_MESSAGE_LENGTH_PREMIUM;
-    var _closure1_slot4 = golf;
-    tango = tango.MAX_MESSAGE_LENGTH;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/messages/useMessageMaxLength.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: useMessageMaxLength
-        tango = _closure1_slot0;
-        zulu = _closure1_slot2;
-        mike = 3;
-        zulu = zulu[mike];
-        mike = undefined;
-        tango = tango.bind(mike)(zulu);
-        zulu = tango.useStateFromStores;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.MAX_MESSAGE_LENGTH_PREMIUM;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.MAX_MESSAGE_LENGTH;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/messages/useMessageMaxLength.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: useMessageMaxLength
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
         entity = _closure1_slot3;
-        mike = new Array(1);
-        mike[0] = entity;
+        michal = new Array(1);
+        michal[0] = entity;
         entity = function() {
-            zulu = _closure1_slot6;
-            mike = _closure1_slot3;
+            zuuluu = _closure1_slot6;
+            michal = _closure1_slot3;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['default'] = tango;
-    mike = function() { // Original name: getMaxMessageLength
-        zulu = _closure1_slot6;
-        mike = _closure1_slot3;
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: getMaxMessageLength
+        zuuluu = _closure1_slot6;
+        michal = _closure1_slot3;
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['getMaxMessageLength'] = mike;
+    zuuluu['getMaxMessageLength'] = michal;
     return entity;
 })();

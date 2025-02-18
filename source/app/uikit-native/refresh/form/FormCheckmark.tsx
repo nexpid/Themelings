@@ -1,65 +1,65 @@
 // app/uikit-native/refresh/form/FormCheckmark.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/refresh/form/FormCheckmark.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: RowCheckmark
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/refresh/form/FormCheckmark.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: RowCheckmark
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.selected;
+            michal = entity.selected;
             entity = null;
-            if(!mike) { _fun00002_ip = 88; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 88; continue _fun00001 }
  14:
             report = _closure1_slot3;
-            zulu = _closure1_slot0;
-            options = _closure1_slot2;
-            mike = 2;
-            mike = options[mike];
-            tango = undefined;
-            mike = zulu.bind(tango)(mike);
-            zulu = mike.CheckmarkSmallIcon;
-            mike = {};
-            golf = _closure1_slot1;
-            oscar = 3;
-            oscar = options[oscar];
-            oscar = golf.bind(tango)(oscar);
-            oscar = oscar.unsafe_rawColors;
-            oscar = oscar.BRAND_500;
-            mike['color'] = oscar;
-            entity = report.bind(tango)(zulu, mike);
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 2;
+            michal = option[michal];
+            tangon = undefined;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.CheckmarkSmallIcon;
+            michal = {};
+            golfie = _closure1_slot1;
+            oscard = 3;
+            oscard = option[oscard];
+            oscard = golfie.bind(tangon)(oscard);
+            oscard = oscard.unsafe_rawColors;
+            oscard = oscard.BRAND_500;
+            michal['color'] = oscard;
+            entity = report.bind(tangon)(zuuluu, michal);
  88:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

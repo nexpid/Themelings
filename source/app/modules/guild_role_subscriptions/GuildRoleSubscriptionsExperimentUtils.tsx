@@ -1,370 +1,370 @@
 // app/modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    golf = tango.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot2 = golf;
-    golf = tango.GuildFeatures;
-    options = golf.ROLE_SUBSCRIPTIONS_ENABLED;
-    tango = new Array(3);
-    tango[0] = options;
-    options = golf.CREATOR_MONETIZABLE;
-    tango[1] = options;
-    golf = golf.CREATOR_MONETIZABLE_PROVISIONAL;
-    tango[2] = golf;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptions
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot2 = golfie;
+    golfie = tangon.GuildFeatures;
+    option = golfie.ROLE_SUBSCRIPTIONS_ENABLED;
+    tangon = new Array(3);
+    tangon[0] = option;
+    option = golfie.CREATOR_MONETIZABLE;
+    tangon[1] = option;
+    golfie = golfie.CREATOR_MONETIZABLE_PROVISIONAL;
+    tangon[2] = golfie;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot0;
+            tangon = argFoo;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            golf = 1;
-            entity = entity[golf];
-            oscar = undefined;
-            entity = mike.bind(oscar)(entity);
+            golfie = 1;
+            entity = entity[golfie];
+            oscard = undefined;
+            entity = michal.bind(oscard)(entity);
             verify = entity.GuildRoleSubscriptionsExperiment;
-            options = verify.useExperiment;
+            option = verify.useExperiment;
             report = {};
             entity = null;
-            mike = tango;
-            if(!(entity == mike)) { _fun00002_ip = 55; continue _fun00001 }
+            michal = tangon;
+            if(!(entity == michal)) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            mike = _closure1_slot2;
+            michal = _closure1_slot2;
  55:
-            report['guildId'] = mike;
-            mike = '504714_1';
-            report['location'] = mike;
-            mike = {};
+            report['guildId'] = michal;
+            michal = '504714_1';
+            report['location'] = michal;
+            michal = {};
             offset = true;
-            mike['autoTrackExposure'] = offset;
-            mike = options.bind(verify)(report, mike);
-            mike = mike.enableRoleSubscriptionsForGuild;
+            michal['autoTrackExposure'] = offset;
+            michal = option.bind(verify)(report, michal);
+            michal = michal.enableRoleSubscriptionsForGuild;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[golf];
-            zulu = report.bind(oscar)(zulu);
-            golf = zulu.GuildRoleSubscriptionUsersExperiment;
-            oscar = golf.useExperiment;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[golfie];
+            zuuluu = report.bind(oscard)(zuuluu);
+            golfie = zuuluu.GuildRoleSubscriptionUsersExperiment;
+            oscard = golfie.useExperiment;
             report = {};
-            zulu = '504714_2';
-            report['location'] = zulu;
-            zulu = {};
-            options = false;
-            zulu['autoTrackExposure'] = options;
-            zulu = oscar.bind(golf)(report, zulu);
-            zulu = zulu.enableRoleSubscriptionsForUser;
-            entity = entity != tango;
+            zuuluu = '504714_2';
+            report['location'] = zuuluu;
+            zuuluu = {};
+            option = false;
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            zuuluu = zuuluu.enableRoleSubscriptionsForUser;
+            entity = entity != tangon;
             if(!entity) { _fun00002_ip = 168; continue _fun00001 }
  159:
-            if(!mike) { _fun00002_ip = 165; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 165; continue _fun00001 }
  162:
-            mike = zulu;
+            michal = zuuluu;
  165:
-            entity = mike;
+            entity = michal;
  168:
             return entity;
         }
     };
-    zulu['useGuildEligibleForRoleSubscriptions'] = tango;
-    tango = function(argFoo) { // Original name: isGuildEligibleForRoleSubscriptions
+    zuuluu['useGuildEligibleForRoleSubscriptions'] = tangon;
+    tangon = function(argFoo) { // Original name: isGuildEligibleForRoleSubscriptions
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tango = argFoo;
-            mike = _closure1_slot0;
+            tangon = argFoo;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            golf = 1;
-            entity = entity[golf];
-            oscar = undefined;
-            entity = mike.bind(oscar)(entity);
-            options = entity.GuildRoleSubscriptionsExperiment;
-            report = options.getCurrentConfig;
-            mike = {};
+            golfie = 1;
+            entity = entity[golfie];
+            oscard = undefined;
+            entity = michal.bind(oscard)(entity);
+            option = entity.GuildRoleSubscriptionsExperiment;
+            report = option.getCurrentConfig;
+            michal = {};
             entity = null;
-            verify = tango;
+            verify = tangon;
             if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
  51:
             verify = _closure1_slot2;
  55:
-            mike['guildId'] = verify;
+            michal['guildId'] = verify;
             verify = '504714_3';
-            mike['location'] = verify;
-            mike = report.bind(options)(mike);
-            mike = mike.enableRoleSubscriptionsForGuild;
+            michal['location'] = verify;
+            michal = report.bind(option)(michal);
+            michal = michal.enableRoleSubscriptionsForGuild;
             report = _closure1_slot0;
-            zulu = _closure1_slot1;
-            zulu = zulu[golf];
-            zulu = report.bind(oscar)(zulu);
-            golf = zulu.GuildRoleSubscriptionUsersExperiment;
-            oscar = golf.getCurrentConfig;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[golfie];
+            zuuluu = report.bind(oscard)(zuuluu);
+            golfie = zuuluu.GuildRoleSubscriptionUsersExperiment;
+            oscard = golfie.getCurrentConfig;
             report = {};
-            zulu = '504714_4';
-            report['location'] = zulu;
-            zulu = {};
-            options = false;
-            zulu['autoTrackExposure'] = options;
-            zulu = oscar.bind(golf)(report, zulu);
-            zulu = zulu.enableRoleSubscriptionsForUser;
-            entity = entity != tango;
+            zuuluu = '504714_4';
+            report['location'] = zuuluu;
+            zuuluu = {};
+            option = false;
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            zuuluu = zuuluu.enableRoleSubscriptionsForUser;
+            entity = entity != tangon;
             if(!entity) { _fun00004_ip = 158; continue _fun00003 }
  149:
-            if(!mike) { _fun00004_ip = 155; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 155; continue _fun00003 }
  152:
-            mike = zulu;
+            michal = zuuluu;
  155:
-            entity = mike;
+            entity = michal;
  158:
             return entity;
         }
     };
-    zulu['isGuildEligibleForRoleSubscriptions'] = tango;
-    tango = function(argFoo) { // Original name: useRoleSubscriptionMaxTiersExperiment
+    zuuluu['isGuildEligibleForRoleSubscriptions'] = tangon;
+    tangon = function(argFoo) { // Original name: useRoleSubscriptionMaxTiersExperiment
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
-            mike = _closure1_slot1;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
             entity = 1;
-            mike = mike[entity];
+            michal = michal[entity];
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
-            zulu = entity.GuildRoleSubscriptionMaxTiersExperiment;
-            mike = zulu.useExperiment;
+            entity = zuuluu.bind(entity)(michal);
+            zuuluu = entity.GuildRoleSubscriptionMaxTiersExperiment;
+            michal = zuuluu.useExperiment;
             entity = {};
-            oscar = null;
-            if(!(oscar == tango)) { _fun00006_ip = 52; continue _fun00005 }
+            oscard = null;
+            if(!(oscard == tangon)) { _fun00006_ip = 52; continue _fun00005 }
  48:
-            tango = _closure1_slot2;
+            tangon = _closure1_slot2;
  52:
-            entity['guildId'] = tango;
-            tango = '504714_7';
-            entity['location'] = tango;
-            entity = mike.bind(zulu)(entity);
+            entity['guildId'] = tangon;
+            tangon = '504714_7';
+            entity['location'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
-    zulu['useRoleSubscriptionMaxTiersExperiment'] = tango;
-    tango = function(argFoo) {
+    zuuluu['useRoleSubscriptionMaxTiersExperiment'] = tangon;
+    tangon = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            zulu = argFoo;
-            var _closure2_slot0 = zulu;
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
             entity = null;
-            entity = entity != zulu;
+            entity = entity != zuuluu;
             if(!entity) { _fun00008_ip = 41; continue _fun00007 }
  18:
-            tango = _closure1_slot3;
-            zulu = tango.some;
-            mike = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.hasFeature;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.some;
+            michal = function(argFoo) {
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.hasFeature;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = zulu.bind(tango)(mike);
+            entity = zuuluu.bind(tangon)(michal);
  41:
             return entity;
         }
     };
-    zulu['hasEnabledMonetization'] = tango;
-    tango = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptionsMobileTeamSetup
+    zuuluu['hasEnabledMonetization'] = tangon;
+    tangon = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptionsMobileTeamSetup
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot1;
             entity = 1;
             entity = report[entity];
             report = undefined;
-            entity = zulu.bind(report)(entity);
-            golf = entity.GuildRoleSubscriptionsMobileTeamSetupExperiment;
-            oscar = golf.useExperiment;
-            zulu = {};
-            options = null;
-            verify = options == tango;
+            entity = zuuluu.bind(report)(entity);
+            golfie = entity.GuildRoleSubscriptionsMobileTeamSetupExperiment;
+            oscard = golfie.useExperiment;
+            zuuluu = {};
+            option = null;
+            verify = option == tangon;
             entity = undefined;
             if(verify) { _fun00010_ip = 58; continue _fun00009 }
  53:
-            entity = tango.id;
+            entity = tangon.id;
  58:
-            if(!(options == entity)) { _fun00010_ip = 66; continue _fun00009 }
+            if(!(option == entity)) { _fun00010_ip = 66; continue _fun00009 }
  62:
             entity = _closure1_slot2;
  66:
-            zulu['guildId'] = entity;
+            zuuluu['guildId'] = entity;
             entity = '504714_8';
-            zulu['location'] = entity;
+            zuuluu['location'] = entity;
             entity = {};
-            options = true;
-            entity['autoTrackExposure'] = options;
-            entity = oscar.bind(golf)(zulu, entity);
+            option = true;
+            entity['autoTrackExposure'] = option;
+            entity = oscard.bind(golfie)(zuuluu, entity);
             entity = entity.enabled;
-            zulu = _closure1_slot0;
-            oscar = _closure1_slot1;
-            mike = 2;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.useIsExpeditedOnboardingGuild;
-            mike = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 2;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.useIsExpeditedOnboardingGuild;
+            michal = michal.bind(zuuluu)(tangon);
             if(!entity) { _fun00010_ip = 137; continue _fun00009 }
  134:
-            entity = mike;
+            entity = michal;
  137:
             return entity;
         }
     };
-    zulu['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = tango;
-    tango = function(argFoo) { // Original name: isGuildEligibleForTierTemplates
+    zuuluu['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = tangon;
+    tangon = function(argFoo) { // Original name: isGuildEligibleForTierTemplates
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            tango = mike.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zulu = tango.getCurrentConfig;
-            mike = {};
-            oscar = null;
-            if(!(oscar == entity)) { _fun00012_ip = 52; continue _fun00011 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            oscard = null;
+            if(!(oscard == entity)) { _fun00012_ip = 52; continue _fun00011 }
  48:
             entity = _closure1_slot2;
  52:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = '504714_9';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['isGuildEligibleForTierTemplates'] = tango;
-    tango = function(argFoo) { // Original name: useGuildEligibleForTierTemplates
+    zuuluu['isGuildEligibleForTierTemplates'] = tangon;
+    tangon = function(argFoo) { // Original name: useGuildEligibleForTierTemplates
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            tango = mike.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zulu = tango.useExperiment;
-            mike = {};
-            oscar = null;
-            if(!(oscar == entity)) { _fun00014_ip = 52; continue _fun00013 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            oscard = null;
+            if(!(oscard == entity)) { _fun00014_ip = 52; continue _fun00013 }
  48:
             entity = _closure1_slot2;
  52:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = '504714_10';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.enabled;
             return entity;
         }
     };
-    zulu['useGuildEligibleForTierTemplates'] = tango;
-    tango = function(argFoo) { // Original name: useShowCreatorPortalLinkForTierTemplates
+    zuuluu['useGuildEligibleForTierTemplates'] = tangon;
+    tangon = function(argFoo) { // Original name: useShowCreatorPortalLinkForTierTemplates
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            tango = _closure1_slot0;
-            zulu = _closure1_slot1;
-            mike = 1;
-            zulu = zulu[mike];
-            mike = undefined;
-            mike = tango.bind(mike)(zulu);
-            tango = mike.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zulu = tango.useExperiment;
-            mike = {};
-            oscar = null;
-            if(!(oscar == entity)) { _fun00016_ip = 52; continue _fun00015 }
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            oscard = null;
+            if(!(oscard == entity)) { _fun00016_ip = 52; continue _fun00015 }
  48:
             entity = _closure1_slot2;
  52:
-            mike['guildId'] = entity;
+            michal['guildId'] = entity;
             entity = '504714_11';
-            mike['location'] = entity;
+            michal['location'] = entity;
             entity = {};
             report = false;
             entity['autoTrackExposure'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             entity = entity.showCreatorPortalLink;
             return entity;
         }
     };
-    zulu['useShowCreatorPortalLinkForTierTemplates'] = tango;
-    tango = function() { // Original name: isUserEligibleForTierTemplates
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['useShowCreatorPortalLinkForTierTemplates'] = tangon;
+    tangon = function() { // Original name: isUserEligibleForTierTemplates
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        tango = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
-        zulu = tango.getCurrentConfig;
-        mike = {};
+        entity = zuuluu.bind(entity)(michal);
+        tangon = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
         entity = '504714_12';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;
         return entity;
     };
-    zulu['isUserEligibleForTierTemplates'] = tango;
-    mike = function() { // Original name: useUserEligibleForTierTemplates
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['isUserEligibleForTierTemplates'] = tangon;
+    michal = function() { // Original name: useUserEligibleForTierTemplates
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 1;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        tango = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
-        zulu = tango.useExperiment;
-        mike = {};
+        entity = zuuluu.bind(entity)(michal);
+        tangon = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
+        zuuluu = tangon.useExperiment;
+        michal = {};
         entity = '504714_13';
-        mike['location'] = entity;
+        michal['location'] = entity;
         entity = {};
         report = false;
         entity['autoTrackExposure'] = report;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;
         return entity;
     };
-    zulu['useUserEligibleForTierTemplates'] = mike;
+    zuuluu['useUserEligibleForTierTemplates'] = michal;
     return entity;
 })();

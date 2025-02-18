@@ -1,656 +1,656 @@
 // app/modules/premium/PremiumSubscriptionInvoice.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = argBar;
     yankee = argBaz;
-    zulu = argFred;
-    offset = argPlugh;
+    zuuluu = argFre;
+    offset = argPlu;
     var _closure1_slot0 = verify;
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = offset;
-    golf = function() { // Original name: createSubscriptionInvoicePreview
+    golfie = function() { // Original name: createSubscriptionInvoicePreview
         entity = undefined;
-        tango = _closure1_slot14;
-        zulu = tango.apply;
+        tangon = _closure1_slot14;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = golf;
+    var _closure1_slot13 = golfie;
     entity = function() { // Original name: _createSubscriptionInvoicePreview
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot6;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 350; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 350; continue _fun00001 }
  13:
-                    backup = mike.items;
-                    foxtrot = mike.paymentSourceId;
-                    romeo = mike.trialId;
-                    yankee = mike.code;
-                    tango = mike.applyEntitlements;
-                    oscar = undefined;
-                    if(!(tango === oscar)) { _fun00002_ip = 50; continue _fun00001 }
+                    backup = michal.items;
+                    foxtra = michal.paymentSourceId;
+                    romeon = michal.trialId;
+                    yankee = michal.code;
+                    tangon = michal.applyEntitlements;
+                    oscard = undefined;
+                    if(!(tangon === oscard)) { _fun00002_ip = 50; continue _fun00001 }
  48:
-                    tango = false;
+                    tangon = false;
  50:
-                    offset = tango;
-                    verify = mike.currency;
-                    golf = mike.renewal;
-                    report = mike.metadata;
-                    options = undefined;
+                    offset = tangon;
+                    verify = michal.currency;
+                    golfie = michal.renewal;
+                    report = michal.metadata;
+                    option = undefined;
                     SaveGenerator(address=77);
  75:
-                    return oscar;
+                    return oscard;
  77:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00002_ip = 347; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 347; continue _fun00001 }
  86:
-                    tango = {};
+                    tangon = {};
                     sizing = _closure1_slot0;
                     output = _closure1_slot2;
-                    kilo = 6;
-                    kilo = output[kilo];
-                    output = sizing.bind(oscar)(kilo);
+                    kiloes = 6;
+                    kiloes = output[kiloes];
+                    output = sizing.bind(oscard)(kiloes);
                     sizing = output.coerceExistingItemsToNewItemInterval;
-                    kilo = backup;
-                    sizing = sizing.bind(output)(kilo);
+                    kiloes = backup;
+                    sizing = sizing.bind(output)(kiloes);
                     backup = sizing;
-                    kilo = sizing.map;
+                    kiloes = sizing.map;
                     backup = function(argFoo) {
-                        tango = argFoo;
-                        zulu = tango.planId;
+                        tangon = argFoo;
+                        zuuluu = tangon.planId;
                         entity = null;
-                        mike = Object.create(entity);
+                        michal = Object.create(entity);
                         entity = 0;
-                        mike['planId'] = entity;
-                        golf = {};
-                        oscar = tango;
-                        report = mike;
-                        oscar = copyDataProperties(golf, oscar, report);
+                        michal['planId'] = entity;
+                        golfie = {};
+                        oscard = tangon;
+                        report = michal;
+                        oscard = copyDataProperties(golfie, oscard, report);
                         entity = {};
-                        golf = entity;
-                        mike = copyDataProperties(golf, oscar);
-                        mike = 'plan_id';
-                        entity[mike] = zulu;
+                        golfie = entity;
+                        michal = copyDataProperties(golfie, oscard);
+                        michal = 'plan_id';
+                        entity[michal] = zuuluu;
                         return entity;
                     };
-                    backup = kilo.bind(sizing)(backup);
-                    tango['items'] = backup;
-                    tango['payment_source_id'] = foxtrot;
-                    tango['trial_id'] = romeo;
-                    tango['code'] = yankee;
-                    tango['apply_entitlements'] = offset;
-                    tango['currency'] = verify;
-                    tango['renewal'] = golf;
-                    tango['metadata'] = report;
-                    options = tango;
+                    backup = kiloes.bind(sizing)(backup);
+                    tangon['items'] = backup;
+                    tangon['payment_source_id'] = foxtra;
+                    tangon['trial_id'] = romeon;
+                    tangon['code'] = yankee;
+                    tangon['apply_entitlements'] = offset;
+                    tangon['currency'] = verify;
+                    tangon['renewal'] = golfie;
+                    tangon['metadata'] = report;
+                    option = tangon;
  189: // try_start_0
                     report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    tango = 7;
-                    tango = golf[tango];
-                    tango = report.bind(oscar)(tango);
-                    golf = tango.HTTP;
-                    report = golf.post;
-                    tango = {};
+                    golfie = _closure1_slot2;
+                    tangon = 7;
+                    tangon = golfie[tangon];
+                    tangon = report.bind(oscard)(tangon);
+                    golfie = tangon.HTTP;
+                    report = golfie.post;
+                    tangon = {};
                     verify = _closure1_slot12;
                     verify = verify.BILLING_SUBSCRIPTIONS_PREVIEW;
-                    tango['url'] = verify;
-                    tango['body'] = options;
-                    options = true;
-                    tango['oldFormErrors'] = options;
-                    options = false;
-                    tango['rejectWithError'] = options;
-                    tango = report.bind(golf)(tango);
+                    tangon['url'] = verify;
+                    tangon['body'] = option;
+                    option = true;
+                    tangon['oldFormErrors'] = option;
+                    option = false;
+                    tangon['rejectWithError'] = option;
+                    tangon = report.bind(golfie)(tangon);
                     SaveGenerator(address=262);
  260:
-                    return tango;
+                    return tangon;
  262:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 291; continue _fun00001 }
  268:
-                    options = _closure1_slot11;
-                    golf = options.createInvoiceFromServer;
-                    report = tango.body;
-                    report = golf.bind(options)(report);
+                    option = _closure1_slot11;
+                    golfie = option.createInvoiceFromServer;
+                    report = tangon.body;
+                    report = golfie.bind(option)(report);
  288: // try_end0
                     return report;
  291:
-                    return tango;
+                    return tangon;
  294: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 8;
-                    zulu = golf[zulu];
-                    zulu = tango.bind(oscar)(zulu);
-                    zulu = zulu.BillingError;
-                    tango = zulu.prototype;
-                    tango = Object.create(tango, {constructor: {value: zulu}});
-                    echo = tango;
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    zuuluu = zuuluu.BillingError;
+                    tangon = zuuluu.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                    echoed = tangon;
                     result = report;
-                    zulu = new echo[zulu](result, output);
-                    zulu = zulu instanceof Object ? zulu : tango;
-                    throw zulu;
+                    zuuluu = new echoed[zuuluu](result, output);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    throw zuuluu;
  347:
-                    return mike;
+                    return michal;
  350:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot14 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot14 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot14 = entity;
-    oscar = function() { // Original name: updateSubscriptionInvoicePreview
+    oscard = function() { // Original name: updateSubscriptionInvoicePreview
         entity = undefined;
-        tango = _closure1_slot16;
-        zulu = tango.apply;
+        tangon = _closure1_slot16;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot15 = oscar;
+    var _closure1_slot15 = oscard;
     entity = function() { // Original name: _updateSubscriptionInvoicePreview
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot6;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 388; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 388; continue _fun00003 }
  13:
-                    verify = mike.subscriptionId;
-                    sizing = mike.items;
-                    foxtrot = mike.paymentSourceId;
-                    romeo = mike.renewal;
-                    report = mike.currency;
-                    backup = mike.applyEntitlements;
-                    oscar = undefined;
-                    if(!(backup === oscar)) { _fun00004_ip = 57; continue _fun00003 }
+                    verify = michal.subscriptionId;
+                    sizing = michal.items;
+                    foxtra = michal.paymentSourceId;
+                    romeon = michal.renewal;
+                    report = michal.currency;
+                    backup = michal.applyEntitlements;
+                    oscard = undefined;
+                    if(!(backup === oscard)) { _fun00004_ip = 57; continue _fun00003 }
  55:
                     backup = false;
  57:
-                    golf = backup;
-                    offset = mike.analyticsLocations;
-                    yankee = mike.analyticsLocation;
-                    tango = mike.userDiscountOfferId;
-                    options = undefined;
+                    golfie = backup;
+                    offset = michal.analyticsLocations;
+                    yankee = michal.analyticsLocation;
+                    tangon = michal.userDiscountOfferId;
+                    option = undefined;
                     SaveGenerator(address=86);
  84:
-                    return oscar;
+                    return oscard;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00004_ip = 385; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 385; continue _fun00003 }
  95:
                     backup = null;
                     output = sizing;
                     if(!(backup != output)) { _fun00004_ip = 138; continue _fun00003 }
  104:
-                    kilo = _closure1_slot0;
+                    kiloes = _closure1_slot0;
                     result = _closure1_slot2;
-                    zulu = 6;
-                    zulu = result[zulu];
-                    kilo = kilo.bind(oscar)(zulu);
-                    zulu = kilo.coerceExistingItemsToNewItemInterval;
-                    output = zulu.bind(kilo)(sizing);
+                    zuuluu = 6;
+                    zuuluu = result[zuuluu];
+                    kiloes = kiloes.bind(oscard)(zuuluu);
+                    zuuluu = kiloes.coerceExistingItemsToNewItemInterval;
+                    output = zuuluu.bind(kiloes)(sizing);
  138:
-                    zulu = {};
-                    kilo = backup == output;
+                    zuuluu = {};
+                    kiloes = backup == output;
                     backup = undefined;
-                    if(kilo) { _fun00004_ip = 168; continue _fun00003 }
+                    if(kiloes) { _fun00004_ip = 168; continue _fun00003 }
  149:
                     sizing = output.map;
-                    kilo = function(argFoo) {
-                        tango = argFoo;
-                        zulu = tango.planId;
+                    kiloes = function(argFoo) {
+                        tangon = argFoo;
+                        zuuluu = tangon.planId;
                         entity = null;
-                        mike = Object.create(entity);
+                        michal = Object.create(entity);
                         entity = 0;
-                        mike['planId'] = entity;
-                        golf = {};
-                        oscar = tango;
-                        report = mike;
-                        oscar = copyDataProperties(golf, oscar, report);
+                        michal['planId'] = entity;
+                        golfie = {};
+                        oscard = tangon;
+                        report = michal;
+                        oscard = copyDataProperties(golfie, oscard, report);
                         entity = {};
-                        golf = entity;
-                        mike = copyDataProperties(golf, oscar);
-                        mike = 'plan_id';
-                        entity[mike] = zulu;
+                        golfie = entity;
+                        michal = copyDataProperties(golfie, oscard);
+                        michal = 'plan_id';
+                        entity[michal] = zuuluu;
                         return entity;
                     };
-                    backup = sizing.bind(output)(kilo);
+                    backup = sizing.bind(output)(kiloes);
  168:
-                    zulu['items'] = backup;
-                    zulu['payment_source_id'] = foxtrot;
-                    zulu['renewal'] = romeo;
-                    zulu['apply_entitlements'] = golf;
-                    zulu['currency'] = report;
-                    zulu['user_discount_offer_id'] = tango;
-                    options = zulu;
+                    zuuluu['items'] = backup;
+                    zuuluu['payment_source_id'] = foxtra;
+                    zuuluu['renewal'] = romeon;
+                    zuuluu['apply_entitlements'] = golfie;
+                    zuuluu['currency'] = report;
+                    zuuluu['user_discount_offer_id'] = tangon;
+                    option = zuuluu;
  201: // try_start_0
                     report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 7;
-                    zulu = golf[zulu];
-                    zulu = report.bind(oscar)(zulu);
-                    golf = zulu.HTTP;
-                    report = golf.patch;
-                    zulu = {};
-                    foxtrot = _closure1_slot12;
-                    romeo = foxtrot.BILLING_SUBSCRIPTION_PREVIEW;
-                    verify = romeo.bind(foxtrot)(verify);
-                    zulu['url'] = verify;
+                    golfie = _closure1_slot2;
+                    zuuluu = 7;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = report.bind(oscard)(zuuluu);
+                    golfie = zuuluu.HTTP;
+                    report = golfie.patch;
+                    zuuluu = {};
+                    foxtra = _closure1_slot12;
+                    romeon = foxtra.BILLING_SUBSCRIPTION_PREVIEW;
+                    verify = romeon.bind(foxtra)(verify);
+                    zuuluu['url'] = verify;
                     verify = {};
                     verify['location'] = yankee;
                     verify['location_stack'] = offset;
-                    zulu['query'] = verify;
-                    zulu['body'] = options;
-                    options = true;
-                    zulu['oldFormErrors'] = options;
-                    options = false;
-                    zulu['rejectWithError'] = options;
-                    zulu = report.bind(golf)(zulu);
+                    zuuluu['query'] = verify;
+                    zuuluu['body'] = option;
+                    option = true;
+                    zuuluu['oldFormErrors'] = option;
+                    option = false;
+                    zuuluu['rejectWithError'] = option;
+                    zuuluu = report.bind(golfie)(zuuluu);
                     SaveGenerator(address=297);
  295:
-                    return zulu;
+                    return zuuluu;
  297:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(report) { _fun00004_ip = 326; continue _fun00003 }
  303:
-                    golf = _closure1_slot11;
-                    report = golf.createInvoiceFromServer;
-                    tango = zulu.body;
-                    tango = report.bind(golf)(tango);
+                    golfie = _closure1_slot11;
+                    report = golfie.createInvoiceFromServer;
+                    tangon = zuuluu.body;
+                    tangon = report.bind(golfie)(tangon);
  323: // try_end0
-                    return tango;
+                    return tangon;
  326:
-                    return zulu;
+                    return zuuluu;
  329: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 8;
-                    zulu = golf[zulu];
-                    zulu = tango.bind(oscar)(zulu);
-                    zulu = zulu.BillingError;
-                    tango = zulu.prototype;
-                    tango = Object.create(tango, {constructor: {value: zulu}});
-                    update = tango;
-                    echo = report;
-                    zulu = new update[zulu](echo, result);
-                    zulu = zulu instanceof Object ? zulu : tango;
-                    throw zulu;
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    zuuluu = zuuluu.BillingError;
+                    tangon = zuuluu.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                    update = tangon;
+                    echoed = report;
+                    zuuluu = new update[zuuluu](echoed, result);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    throw zuuluu;
  385:
-                    return mike;
+                    return michal;
  388:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot16 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot16 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot16 = entity;
     report = function() { // Original name: createOneTimePurchaseInvoicePreview
         entity = undefined;
-        tango = _closure1_slot18;
-        zulu = tango.apply;
+        tangon = _closure1_slot18;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot17 = report;
     entity = function() { // Original name: _createOneTimePurchaseInvoicePreview
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot6;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 284; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 284; continue _fun00005 }
  13:
-                    foxtrot = mike.paymentSourceId;
-                    options = mike.skuId;
-                    romeo = mike.subscriptionPlanId;
-                    yankee = mike.currency;
-                    offset = mike.loadId;
-                    oscar = undefined;
+                    foxtra = michal.paymentSourceId;
+                    option = michal.skuId;
+                    romeon = michal.subscriptionPlanId;
+                    yankee = michal.currency;
+                    offset = michal.loadId;
+                    oscard = undefined;
                     SaveGenerator(address=49);
  47:
-                    return oscar;
+                    return oscard;
  49:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun00006_ip = 281; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 281; continue _fun00005 }
  58:
                     report = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    tango = 9;
-                    tango = golf[tango];
-                    golf = report.bind(oscar)(tango);
-                    report = options;
-                    tango = 'SKU ID is missing for one time purchase gift invoice preview';
-                    tango = golf.bind(oscar)(report, tango);
+                    golfie = _closure1_slot2;
+                    tangon = 9;
+                    tangon = golfie[tangon];
+                    golfie = report.bind(oscard)(tangon);
+                    report = option;
+                    tangon = 'SKU ID is missing for one time purchase gift invoice preview';
+                    tangon = golfie.bind(oscard)(report, tangon);
  96: // try_start_0
                     report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    tango = 10;
-                    tango = golf[tango];
-                    golf = report.bind(oscar)(tango);
-                    report = golf.httpGetWithCountryCodeQuery;
-                    tango = {};
+                    golfie = _closure1_slot2;
+                    tangon = 10;
+                    tangon = golfie[tangon];
+                    golfie = report.bind(oscard)(tangon);
+                    report = golfie.httpGetWithCountryCodeQuery;
+                    tangon = {};
                     backup = _closure1_slot12;
                     verify = backup.STORE_SKU_PURCHASE;
-                    options = verify.bind(backup)(options);
-                    tango['url'] = options;
+                    option = verify.bind(backup)(option);
+                    tangon['url'] = option;
                     verify = {};
-                    options = true;
-                    verify['gift'] = options;
-                    verify['payment_source_id'] = foxtrot;
-                    verify['sku_subscription_plan_id'] = romeo;
+                    option = true;
+                    verify['gift'] = option;
+                    verify['payment_source_id'] = foxtra;
+                    verify['sku_subscription_plan_id'] = romeon;
                     verify['currency'] = yankee;
                     verify['load_id'] = offset;
-                    tango['query'] = verify;
-                    tango['oldFormErrors'] = options;
-                    options = false;
-                    tango['rejectWithError'] = options;
-                    tango = report.bind(golf)(tango);
+                    tangon['query'] = verify;
+                    tangon['oldFormErrors'] = option;
+                    option = false;
+                    tangon['rejectWithError'] = option;
+                    tangon = report.bind(golfie)(tangon);
                     SaveGenerator(address=196);
  194:
-                    return tango;
+                    return tangon;
  196:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00006_ip = 225; continue _fun00005 }
  202:
-                    options = _closure1_slot11;
-                    golf = options.createInvoiceFromServer;
-                    report = tango.body;
-                    report = golf.bind(options)(report);
+                    option = _closure1_slot11;
+                    golfie = option.createInvoiceFromServer;
+                    report = tangon.body;
+                    report = golfie.bind(option)(report);
  222: // try_end0
                     return report;
  225:
-                    return tango;
+                    return tangon;
  228: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tango = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 8;
-                    zulu = golf[zulu];
-                    zulu = tango.bind(oscar)(zulu);
-                    zulu = zulu.BillingError;
-                    tango = zulu.prototype;
-                    tango = Object.create(tango, {constructor: {value: zulu}});
-                    output = tango;
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    zuuluu = zuuluu.BillingError;
+                    tangon = zuuluu.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                    output = tangon;
                     sizing = report;
-                    zulu = new output[zulu](sizing, kilo);
-                    zulu = zulu instanceof Object ? zulu : tango;
-                    throw zulu;
+                    zuuluu = new output[zuuluu](sizing, kiloes);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    throw zuuluu;
  281:
-                    return mike;
+                    return michal;
  284:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot18 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot18 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot18 = entity;
-    tango = function() { // Original name: getSubscriptionInvoice
+    tangon = function() { // Original name: getSubscriptionInvoice
         entity = undefined;
-        tango = _closure1_slot20;
-        zulu = tango.apply;
+        tangon = _closure1_slot20;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot19 = tango;
+    var _closure1_slot19 = tangon;
     entity = function() { // Original name: _getSubscriptionInvoice
         report = undefined;
         entity = undefined;
-        tango = _closure1_slot6;
-        zulu = function* (argFoo) {
+        tangon = _closure1_slot6;
+        zuuluu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
-                    mike = argFoo;
+                    michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun00008_ip = 153; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 153; continue _fun00007 }
  13:
-                    verify = mike.subscriptionId;
-                    zulu = mike.preventFetch;
-                    oscar = undefined;
+                    verify = michal.subscriptionId;
+                    zuuluu = michal.preventFetch;
+                    oscard = undefined;
                     SaveGenerator(address=31);
  29:
-                    return oscar;
+                    return oscard;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun00008_ip = 150; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 150; continue _fun00007 }
  37:
-                    if(zulu) { _fun00008_ip = 145; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 145; continue _fun00007 }
  40:
                     report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 7;
-                    zulu = golf[zulu];
-                    zulu = report.bind(oscar)(zulu);
-                    oscar = zulu.HTTP;
-                    report = oscar.get;
-                    zulu = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    options = _closure1_slot12;
-                    golf = options.BILLING_SUBSCRIPTION_INVOICE;
-                    golf = golf.bind(options)(verify);
-                    zulu['url'] = golf;
-                    zulu = report.bind(oscar)(zulu);
+                    golfie = _closure1_slot2;
+                    zuuluu = 7;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = report.bind(oscard)(zuuluu);
+                    oscard = zuuluu.HTTP;
+                    report = oscard.get;
+                    zuuluu = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+                    option = _closure1_slot12;
+                    golfie = option.BILLING_SUBSCRIPTION_INVOICE;
+                    golfie = golfie.bind(option)(verify);
+                    zuuluu['url'] = golfie;
+                    zuuluu = report.bind(oscard)(zuuluu);
                     SaveGenerator(address=113);
  111:
-                    return zulu;
+                    return zuuluu;
  113:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(report) { _fun00008_ip = 142; continue _fun00007 }
  119:
-                    oscar = _closure1_slot11;
-                    report = oscar.createInvoiceFromServer;
-                    tango = zulu.body;
-                    tango = report.bind(oscar)(tango);
-                    return tango;
+                    oscard = _closure1_slot11;
+                    report = oscard.createInvoiceFromServer;
+                    tangon = zuuluu.body;
+                    tangon = report.bind(oscard)(tangon);
+                    return tangon;
  142:
-                    return zulu;
+                    return zuuluu;
  145:
-                    zulu = null;
-                    return zulu;
+                    zuuluu = null;
+                    return zuuluu;
  150:
-                    return mike;
+                    return michal;
  153:
                     return entity;
                 }
             };
-            mike = entity.next;
-            mike = mike.bind(entity)();
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
-        tango = tango.bind(report)(zulu);
-        _closure1_slot20 = tango;
-        zulu = tango.apply;
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot20 = tangon;
+        zuuluu = tangon.apply;
         entity = arguments;
-        mike = entity;
+        michal = entity;
         entity = this;
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     var _closure1_slot20 = entity;
     entity = function(argFoo, argBar) { // Original name: useGenericSubscriptionInvoicePreview
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            golf = argBar;
-            mike = argFoo;
-            options = mike.preventFetch;
-            oscar = undefined;
-            if(!(options === oscar)) { _fun00010_ip = 22; continue _fun00009 }
+            golfie = argBar;
+            michal = argFoo;
+            option = michal.preventFetch;
+            oscard = undefined;
+            if(!(option === oscard)) { _fun00010_ip = 22; continue _fun00009 }
  20:
-            options = false;
+            option = false;
  22:
-            var _closure2_slot0 = options;
-            var _closure2_slot1 = golf;
-            var _closure2_slot2 = oscar;
-            var _closure2_slot3 = oscar;
-            mike = _closure1_slot9;
+            var _closure2_slot0 = option;
+            var _closure2_slot1 = golfie;
+            var _closure2_slot2 = oscard;
+            var _closure2_slot3 = oscard;
+            michal = _closure1_slot9;
             offset = null;
-            zulu = mike.bind(oscar)(offset);
-            mike = _closure1_slot5;
+            zuuluu = michal.bind(oscard)(offset);
+            michal = _closure1_slot5;
             yankee = 2;
-            report = mike.bind(oscar)(zulu, yankee);
-            mike = 0;
-            zulu = report[mike];
+            report = michal.bind(oscard)(zuuluu, yankee);
+            michal = 0;
+            zuuluu = report[michal];
             verify = 1;
             report = report[verify];
             _closure2_slot2 = report;
             report = _closure1_slot9;
-            offset = report.bind(oscar)(offset);
+            offset = report.bind(oscard)(offset);
             report = _closure1_slot5;
-            report = report.bind(oscar)(offset, yankee);
-            mike = report[mike];
+            report = report.bind(oscard)(offset, yankee);
+            michal = report[michal];
             report = report[verify];
             _closure2_slot3 = report;
             report = _closure1_slot8;
-            tango = new Array(2);
-            tango[0] = options;
-            tango[1] = golf;
+            tangon = new Array(2);
+            tangon[0] = option;
+            tangon[1] = golfie;
             entity = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    mike = function() { // Original name: _loadPreview
-                        tango = undefined;
+                    michal = function() { // Original name: _loadPreview
+                        tangon = undefined;
                         entity = undefined;
-                        zulu = _closure1_slot6;
-                        mike = function* () {
+                        zuuluu = _closure1_slot6;
+                        michal = function* () {
                             entity = function* () { // Original name: ?anon_0_
                                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(mike) { _fun00014_ip = 106; continue _fun00013 }
+                                    if(michal) { _fun00014_ip = 106; continue _fun00013 }
  7:
-                                    mike = undefined;
+                                    michal = undefined;
                                     report = undefined;
  11: // try_start_0
-                                    tango = _closure2_slot3;
-                                    golf = null;
-                                    tango = tango.bind(mike)(golf);
-                                    tango = _closure2_slot2;
-                                    tango = tango.bind(mike)(golf);
-                                    tango = _closure2_slot1;
-                                    tango = tango.bind(mike)();
+                                    tangon = _closure2_slot3;
+                                    golfie = null;
+                                    tangon = tangon.bind(michal)(golfie);
+                                    tangon = _closure2_slot2;
+                                    tangon = tangon.bind(michal)(golfie);
+                                    tangon = _closure2_slot1;
+                                    tangon = tangon.bind(michal)();
                                     SaveGenerator(address=46);
  44:
-                                    return tango;
+                                    return tangon;
  46:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                                    if(golf) { _fun00014_ip = 76; continue _fun00013 }
+                                    if(golfie) { _fun00014_ip = 76; continue _fun00013 }
  52:
-                                    report = tango;
-                                    golf = _closure3_slot0;
-                                    if(golf) { _fun00014_ip = 74; continue _fun00013 }
+                                    report = tangon;
+                                    golfie = _closure3_slot0;
+                                    if(golfie) { _fun00014_ip = 74; continue _fun00013 }
  65:
-                                    oscar = _closure2_slot2;
-                                    report = oscar.bind(mike)(report);
+                                    oscard = _closure2_slot2;
+                                    report = oscard.bind(michal)(report);
  74: // try_end0
                                     _fun00014_ip = 103; continue _fun00013;
  76:
-                                    return tango;
+                                    return tangon;
  79: // catch_target0
                                     CatchBlockStart(arg_register=2);
-                                    tango = _closure3_slot0;
-                                    if(tango) { _fun00014_ip = 103; continue _fun00013 }
+                                    tangon = _closure3_slot0;
+                                    if(tangon) { _fun00014_ip = 103; continue _fun00013 }
  91:
-                                    tango = _closure2_slot3;
-                                    zulu = tango.bind(mike)(zulu);
+                                    tangon = _closure2_slot3;
+                                    zuuluu = tangon.bind(michal)(zuuluu);
  103:
-                                    return mike;
+                                    return michal;
  106:
                                     return entity;
                                 }
                             };
                             return entity;
                         };
-                        tango = zulu.bind(tango)(mike);
-                        _closure3_slot1 = tango;
-                        zulu = tango.apply;
+                        tangon = zuuluu.bind(tangon)(michal);
+                        _closure3_slot1 = tangon;
+                        zuuluu = tangon.apply;
                         entity = arguments;
-                        mike = entity;
+                        michal = entity;
                         entity = this;
-                        entity = zulu.bind(tango)(entity, mike);
+                        entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
-                    var _closure3_slot1 = mike;
-                    mike = false;
-                    var _closure3_slot0 = mike;
-                    mike = _closure2_slot0;
-                    if(mike) { _fun00012_ip = 42; continue _fun00011 }
+                    var _closure3_slot1 = michal;
+                    michal = false;
+                    var _closure3_slot0 = michal;
+                    michal = _closure2_slot0;
+                    if(michal) { _fun00012_ip = 42; continue _fun00011 }
  29:
-                    zulu = function() { // Original name: loadPreview
+                    zuuluu = function() { // Original name: loadPreview
                         entity = undefined;
-                        tango = _closure3_slot1;
-                        zulu = tango.apply;
+                        tangon = _closure3_slot1;
+                        zuuluu = tangon.apply;
                         entity = arguments;
-                        mike = entity;
+                        michal = entity;
                         entity = this;
-                        entity = zulu.bind(tango)(entity, mike);
+                        entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
-                    mike = undefined;
-                    mike = zulu.bind(mike)();
+                    michal = undefined;
+                    michal = zuuluu.bind(michal)();
  42:
                     entity = function() {
                         entity = true;
@@ -661,10 +661,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 }
             };
-            entity = report.bind(oscar)(entity, tango);
+            entity = report.bind(oscard)(entity, tangon);
             entity = new Array(2);
-            entity[0] = zulu;
-            entity[1] = mike;
+            entity[0] = zuuluu;
+            entity[1] = michal;
             return entity;
         }
     };
@@ -672,230 +672,230 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = ['subscriptionId'];
     var _closure1_slot3 = entity;
     entity = global;
-    foxtrot = entity.Object;
-    romeo = foxtrot.defineProperty;
-    options = {};
+    foxtra = entity.Object;
+    romeon = foxtra.defineProperty;
+    option = {};
     entity = true;
-    options['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = romeo.bind(foxtrot)(zulu, entity, options);
+    entity = romeon.bind(foxtra)(zuuluu, entity, option);
     entity = 0;
-    options = offset[entity];
+    option = offset[entity];
     entity = undefined;
-    options = yankee.bind(entity)(options);
-    var _closure1_slot4 = options;
-    options = 1;
-    options = offset[options];
-    options = yankee.bind(entity)(options);
-    var _closure1_slot5 = options;
-    options = 2;
-    options = offset[options];
-    options = yankee.bind(entity)(options);
-    var _closure1_slot6 = options;
-    options = 3;
-    options = offset[options];
-    options = verify.bind(entity)(options);
-    romeo = options.useCallback;
-    var _closure1_slot7 = romeo;
-    romeo = options.useEffect;
-    var _closure1_slot8 = romeo;
-    romeo = options.useState;
-    var _closure1_slot9 = romeo;
-    options = options.useRef;
-    var _closure1_slot10 = options;
-    options = 4;
-    options = offset[options];
-    options = yankee.bind(entity)(options);
-    var _closure1_slot11 = options;
-    options = 5;
-    options = offset[options];
-    options = verify.bind(entity)(options);
-    options = options.Endpoints;
-    var _closure1_slot12 = options;
-    options = 11;
-    options = offset[options];
-    offset = verify.bind(entity)(options);
+    option = yankee.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 1;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot5 = option;
+    option = 2;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot6 = option;
+    option = 3;
+    option = offset[option];
+    option = verify.bind(entity)(option);
+    romeon = option.useCallback;
+    var _closure1_slot7 = romeon;
+    romeon = option.useEffect;
+    var _closure1_slot8 = romeon;
+    romeon = option.useState;
+    var _closure1_slot9 = romeon;
+    option = option.useRef;
+    var _closure1_slot10 = option;
+    option = 4;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot11 = option;
+    option = 5;
+    option = offset[option];
+    option = verify.bind(entity)(option);
+    option = option.Endpoints;
+    var _closure1_slot12 = option;
+    option = 11;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
-    options = 'modules/premium/PremiumSubscriptionInvoice.tsx';
-    options = verify.bind(offset)(options);
-    zulu['createSubscriptionInvoicePreview'] = golf;
-    zulu['updateSubscriptionInvoicePreview'] = oscar;
-    zulu['createOneTimePurchaseInvoicePreview'] = report;
-    zulu['getSubscriptionInvoice'] = tango;
-    tango = function(argFoo) { // Original name: useOneTimePurchaseInvoicePreview
-        tango = argFoo;
-        var _closure2_slot0 = tango;
+    option = 'modules/premium/PremiumSubscriptionInvoice.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['createSubscriptionInvoicePreview'] = golfie;
+    zuuluu['updateSubscriptionInvoicePreview'] = oscard;
+    zuuluu['createOneTimePurchaseInvoicePreview'] = report;
+    zuuluu['getSubscriptionInvoice'] = tangon;
+    tangon = function(argFoo) { // Original name: useOneTimePurchaseInvoicePreview
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot10;
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
         var _closure2_slot1 = report;
-        oscar = _closure1_slot8;
+        oscard = _closure1_slot8;
         report = function() {
-            mike = _closure2_slot1;
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        report = oscar.bind(zulu)(report);
+        report = oscard.bind(zuuluu)(report);
         report = global;
-        oscar = report.JSON;
-        report = oscar.stringify;
-        golf = report.bind(oscar)(tango);
-        oscar = _closure1_slot7;
+        oscard = report.JSON;
+        report = oscard.stringify;
+        golfie = report.bind(oscard)(tangon);
+        oscard = _closure1_slot7;
         report = new Array(1);
-        report[0] = golf;
-        mike = function() {
-            zulu = _closure1_slot17;
+        report[0] = golfie;
+        michal = function() {
+            zuuluu = _closure1_slot17;
             entity = _closure2_slot1;
-            mike = entity.current;
+            michal = entity.current;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        mike = oscar.bind(zulu)(mike, report);
+        michal = oscard.bind(zuuluu)(michal, report);
         entity = _closure1_slot21;
-        entity = entity.bind(zulu)(tango, mike);
+        entity = entity.bind(zuuluu)(tangon, michal);
         return entity;
     };
-    zulu['useOneTimePurchaseInvoicePreview'] = tango;
-    tango = function(argFoo) { // Original name: useSubscriptionInvoicePreview
+    zuuluu['useOneTimePurchaseInvoicePreview'] = tangon;
+    tangon = function(argFoo) { // Original name: useSubscriptionInvoicePreview
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            oscar = argFoo;
-            var _closure2_slot0 = oscar;
+            oscard = argFoo;
+            var _closure2_slot0 = oscard;
             entity = 'subscriptionId';
-            entity = entity in oscar;
-            tango = oscar;
+            entity = entity in oscard;
+            tangon = oscard;
             if(!entity) { _fun00016_ip = 70; continue _fun00015 }
  23:
-            zulu = oscar.subscriptionId;
+            zuuluu = oscard.subscriptionId;
             entity = null;
-            tango = oscar;
-            if(!(entity == zulu)) { _fun00016_ip = 70; continue _fun00015 }
+            tangon = oscard;
+            if(!(entity == zuuluu)) { _fun00016_ip = 70; continue _fun00015 }
  38:
-            entity = oscar.subscriptionId;
+            entity = oscard.subscriptionId;
             report = _closure1_slot4;
-            zulu = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             entity = undefined;
-            entity = report.bind(entity)(oscar, zulu);
+            entity = report.bind(entity)(oscard, zuuluu);
             _closure2_slot0 = entity;
-            tango = entity;
+            tangon = entity;
  70:
             report = _closure1_slot10;
-            zulu = undefined;
-            report = report.bind(zulu)(tango);
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
             var _closure2_slot1 = report;
-            oscar = _closure1_slot8;
+            oscard = _closure1_slot8;
             report = function() {
-                mike = _closure2_slot1;
+                michal = _closure2_slot1;
                 entity = _closure2_slot0;
-                mike['current'] = entity;
+                michal['current'] = entity;
                 entity = undefined;
                 return entity;
             };
-            report = oscar.bind(zulu)(report);
+            report = oscard.bind(zuuluu)(report);
             report = global;
-            oscar = report.JSON;
-            report = oscar.stringify;
-            golf = report.bind(oscar)(tango);
-            oscar = _closure1_slot7;
+            oscard = report.JSON;
+            report = oscard.stringify;
+            golfie = report.bind(oscard)(tangon);
+            oscard = _closure1_slot7;
             report = new Array(1);
-            report[0] = golf;
-            mike = function() {
+            report[0] = golfie;
+            michal = function() {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     entity = _closure2_slot1;
-                    tango = entity.current;
+                    tangon = entity.current;
                     entity = 'subscriptionId';
-                    entity = entity in tango;
+                    entity = entity in tangon;
                     if(entity) { _fun00018_ip = 52; continue _fun00017 }
  23:
                     entity = 'items';
-                    mike = entity in tango;
+                    michal = entity in tangon;
                     entity = null;
-                    if(!mike) { _fun00018_ip = 50; continue _fun00017 }
+                    if(!michal) { _fun00018_ip = 50; continue _fun00017 }
  36:
-                    zulu = _closure1_slot13;
-                    mike = undefined;
-                    entity = zulu.bind(mike)(tango);
+                    zuuluu = _closure1_slot13;
+                    michal = undefined;
+                    entity = zuuluu.bind(michal)(tangon);
  50:
                     _fun00018_ip = 66; continue _fun00017;
  52:
-                    zulu = _closure1_slot15;
-                    mike = undefined;
-                    entity = zulu.bind(mike)(tango);
+                    zuuluu = _closure1_slot15;
+                    michal = undefined;
+                    entity = zuuluu.bind(michal)(tangon);
  66:
                     return entity;
                 }
             };
-            mike = oscar.bind(zulu)(mike, report);
+            michal = oscard.bind(zuuluu)(michal, report);
             entity = _closure1_slot21;
-            entity = entity.bind(zulu)(tango, mike);
+            entity = entity.bind(zuuluu)(tangon, michal);
             return entity;
         }
     };
-    zulu['useSubscriptionInvoicePreview'] = tango;
-    tango = function(argFoo) { // Original name: useGetSubscriptionInvoice
-        tango = argFoo;
-        var _closure2_slot0 = tango;
+    zuuluu['useSubscriptionInvoicePreview'] = tangon;
+    tangon = function(argFoo) { // Original name: useGetSubscriptionInvoice
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot10;
-        zulu = undefined;
-        report = report.bind(zulu)(tango);
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
         var _closure2_slot1 = report;
-        oscar = _closure1_slot8;
+        oscard = _closure1_slot8;
         report = function() {
-            mike = _closure2_slot1;
+            michal = _closure2_slot1;
             entity = _closure2_slot0;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        report = oscar.bind(zulu)(report);
+        report = oscard.bind(zuuluu)(report);
         report = global;
-        oscar = report.JSON;
-        report = oscar.stringify;
-        golf = report.bind(oscar)(tango);
-        oscar = _closure1_slot7;
+        oscard = report.JSON;
+        report = oscard.stringify;
+        golfie = report.bind(oscard)(tangon);
+        oscard = _closure1_slot7;
         report = new Array(1);
-        report[0] = golf;
-        mike = function() {
-            zulu = _closure1_slot19;
+        report[0] = golfie;
+        michal = function() {
+            zuuluu = _closure1_slot19;
             entity = _closure2_slot1;
-            mike = entity.current;
+            michal = entity.current;
             entity = undefined;
-            entity = zulu.bind(entity)(mike);
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
-        mike = oscar.bind(zulu)(mike, report);
+        michal = oscard.bind(zuuluu)(michal, report);
         entity = _closure1_slot21;
-        entity = entity.bind(zulu)(tango, mike);
+        entity = entity.bind(zuuluu)(tangon, michal);
         return entity;
     };
-    zulu['useGetSubscriptionInvoice'] = tango;
-    mike = function(argFoo) { // Original name: getItemUnitPriceWithDiscount
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = mike.subscriptionPlanPrice;
-        var _closure2_slot1 = zulu;
-        tango = mike.discounts;
-        zulu = tango.forEach;
-        mike = function(argFoo) {
+    zuuluu['useGetSubscriptionInvoice'] = tangon;
+    michal = function(argFoo) { // Original name: getItemUnitPriceWithDiscount
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = michal.subscriptionPlanPrice;
+        var _closure2_slot1 = zuuluu;
+        tangon = michal.discounts;
+        zuuluu = tangon.forEach;
+        michal = function(argFoo) {
             entity = argFoo;
-            zulu = entity.amount;
+            zuuluu = entity.amount;
             entity = _closure2_slot0;
             entity = entity.quantity;
-            zulu = zulu / entity;
+            zuuluu = zuuluu / entity;
             entity = _closure2_slot1;
-            entity = entity - zulu;
+            entity = entity - zuuluu;
             _closure2_slot1 = entity;
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
+        michal = zuuluu.bind(tangon)(michal);
         entity = _closure2_slot1;
         return entity;
     };
-    zulu['getItemUnitPriceWithDiscount'] = mike;
+    zuuluu['getItemUnitPriceWithDiscount'] = michal;
     return entity;
 })();

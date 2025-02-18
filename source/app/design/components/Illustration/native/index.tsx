@@ -1,88 +1,88 @@
 // app/design/components/Illustration/native/index.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'design/components/Illustration/native/index.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo, argBar) { // Original name: getIllustrationSource
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Illustration/native/index.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: getIllustrationSource
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            mike = argBar;
+            tangon = argFoo;
+            michal = argBar;
             entity = 'light';
-            if(!(entity !== tango)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(entity !== tangon)) { _fun00002_ip = 78; continue _fun00001 }
  14:
             entity = 'darker';
-            if(!(entity !== tango)) { _fun00002_ip = 55; continue _fun00001 }
+            if(!(entity !== tangon)) { _fun00002_ip = 55; continue _fun00001 }
  22:
             entity = 'midnight';
-            zulu = undefined;
-            if(!(entity === tango)) { _fun00002_ip = 84; continue _fun00001 }
+            zuuluu = undefined;
+            if(!(entity === tangon)) { _fun00002_ip = 84; continue _fun00001 }
  32:
-            entity = mike.midnight;
-            tango = null;
-            if(!(tango == entity)) { _fun00002_ip = 50; continue _fun00001 }
+            entity = michal.midnight;
+            tangon = null;
+            if(!(tangon == entity)) { _fun00002_ip = 50; continue _fun00001 }
  44:
-            entity = mike.darker;
+            entity = michal.darker;
  50:
-            zulu = entity;
+            zuuluu = entity;
             _fun00002_ip = 84; continue _fun00001;
  55:
-            entity = mike.darker;
-            tango = null;
-            if(!(tango == entity)) { _fun00002_ip = 73; continue _fun00001 }
+            entity = michal.darker;
+            tangon = null;
+            if(!(tangon == entity)) { _fun00002_ip = 73; continue _fun00001 }
  67:
-            entity = mike.midnight;
+            entity = michal.midnight;
  73:
-            zulu = entity;
+            zuuluu = entity;
             _fun00002_ip = 84; continue _fun00001;
  78:
-            zulu = mike.light;
+            zuuluu = michal.light;
  84:
             entity = null;
-            if(!(entity == zulu)) { _fun00002_ip = 102; continue _fun00001 }
+            if(!(entity == zuuluu)) { _fun00002_ip = 102; continue _fun00001 }
  90:
-            entity = mike.dark;
-            entity = entity.bind(mike)();
+            entity = michal.dark;
+            entity = entity.bind(michal)();
             _fun00002_ip = 108; continue _fun00001;
  102:
-            mike = undefined;
-            entity = zulu.bind(mike)();
+            michal = undefined;
+            entity = zuuluu.bind(michal)();
  108:
             return entity;
         }
     };
-    zulu['getIllustrationSource'] = tango;
-    mike = function(argFoo) { // Original name: useIllustrationSource
-        mike = _closure1_slot0;
-        zulu = _closure1_slot1;
+    zuuluu['getIllustrationSource'] = tangon;
+    michal = function(argFoo) { // Original name: useIllustrationSource
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot1;
         entity = 0;
-        entity = zulu[entity];
-        zulu = undefined;
-        mike = mike.bind(zulu)(entity);
-        entity = mike.useThemeContext;
-        entity = entity.bind(mike)();
-        mike = entity.theme;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        michal = michal.bind(zuuluu)(entity);
+        entity = michal.useThemeContext;
+        entity = entity.bind(michal)();
+        michal = entity.theme;
         entity = argFoo;
-        entity = entity.bind(zulu)(mike);
+        entity = entity.bind(zuuluu)(michal);
         return entity;
     };
-    zulu['useIllustrationSource'] = mike;
+    zuuluu['useIllustrationSource'] = michal;
     return entity;
 })();

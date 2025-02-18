@@ -1,76 +1,76 @@
 // app/modules/main_tabs_v2/native/navigateToLastChannel.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = tango;
+    var _closure1_slot2 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/navigateToLastChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: navigateToLastChannel
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/navigateToLastChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: navigateToLastChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = _closure1_slot0;
-            golf = _closure1_slot2;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 0;
-            mike = golf[entity];
+            michal = golfie[entity];
             entity = undefined;
-            report = tango.bind(entity)(mike);
-            tango = report.coerceGuildsRoute;
-            oscar = _closure1_slot1;
-            mike = 1;
-            mike = golf[mike];
-            mike = oscar.bind(entity)(mike);
-            mike = mike.bind(entity)();
-            report = tango.bind(report)(mike);
-            mike = null;
-            tango = mike != report;
-            if(!tango) { _fun00002_ip = 88; continue _fun00001 }
+            report = tangon.bind(entity)(michal);
+            tangon = report.coerceGuildsRoute;
+            oscard = _closure1_slot1;
+            michal = 1;
+            michal = golfie[michal];
+            michal = oscard.bind(entity)(michal);
+            michal = michal.bind(entity)();
+            report = tangon.bind(report)(michal);
+            michal = null;
+            tangon = michal != report;
+            if(!tangon) { _fun00002_ip = 88; continue _fun00001 }
  64:
-            golf = report.params;
-            options = mike == golf;
-            oscar = undefined;
-            if(options) { _fun00002_ip = 84; continue _fun00001 }
+            golfie = report.params;
+            option = michal == golfie;
+            oscard = undefined;
+            if(option) { _fun00002_ip = 84; continue _fun00001 }
  79:
-            oscar = golf.channelId;
+            oscard = golfie.channelId;
  84:
-            tango = mike != oscar;
+            tangon = michal != oscard;
  88:
-            if(!tango) { _fun00002_ip = 142; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 142; continue _fun00001 }
  91:
-            tango = _closure1_slot0;
-            oscar = _closure1_slot2;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(entity)(zulu);
-            zulu = tango.transitionToChannel;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.transitionToChannel;
             report = report.params;
-            oscar = mike == report;
-            mike = undefined;
-            if(oscar) { _fun00002_ip = 137; continue _fun00001 }
+            oscard = michal == report;
+            michal = undefined;
+            if(oscard) { _fun00002_ip = 137; continue _fun00001 }
  132:
-            mike = report.channelId;
+            michal = report.channelId;
  137:
-            mike = zulu.bind(tango)(mike);
+            michal = zuuluu.bind(tangon)(michal);
  142:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

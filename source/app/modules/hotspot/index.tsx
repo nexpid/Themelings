@@ -1,59 +1,59 @@
 // app/modules/hotspot/index.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         yankee = argBar;
-        zulu = argFred;
-        offset = argPlugh;
+        zuuluu = argFre;
+        offset = argPlu;
         entity = global;
         report = entity.Object;
-        tango = report.defineProperty;
-        mike = {};
+        tangon = report.defineProperty;
+        michal = {};
         entity = true;
-        mike['value'] = entity;
+        michal['value'] = entity;
         entity = '__esModule';
-        entity = tango.bind(report)(zulu, entity, mike);
+        entity = tangon.bind(report)(zuuluu, entity, michal);
         entity = 0;
-        tango = offset[entity];
-        mike = argBaz;
+        tangon = offset[entity];
+        michal = argBaz;
         entity = undefined;
-        mike = mike.bind(entity)(tango);
-        tango = 1;
-        tango = offset[tango];
-        oscar = yankee.bind(entity)(tango);
-        report = oscar.fileFinishedImporting;
-        tango = 'modules/hotspot/index.tsx';
-        tango = report.bind(oscar)(tango);
-        tango = 2;
-        tango = offset[tango];
-        verify = yankee.bind(entity)(tango);
-        golf = verify;
-        for(tango in golf)
+        michal = michal.bind(entity)(tangon);
+        tangon = 1;
+        tangon = offset[tangon];
+        oscard = yankee.bind(entity)(tangon);
+        report = oscard.fileFinishedImporting;
+        tangon = 'modules/hotspot/index.tsx';
+        tangon = report.bind(oscard)(tangon);
+        tangon = 2;
+        tangon = offset[tangon];
+        verify = yankee.bind(entity)(tangon);
+        golfie = verify;
+        for(tangon in golfie)
  108:
         {
  117:
-            foxtrot = tango;
-            romeo = verify[foxtrot];
-            zulu[foxtrot] = romeo;
+            foxtra = tangon;
+            romeon = verify[foxtra];
+            zuuluu[foxtra] = romeon;
             _fun00002_ip = 108; continue _fun00001;
         }
  130:
         report = 3;
-        tango = offset[report];
-        options = yankee.bind(entity)(tango);
-        for(tango in options)
+        tangon = offset[report];
+        option = yankee.bind(entity)(tangon);
+        for(tangon in option)
  150:
         {
  159:
-            foxtrot = tango;
-            romeo = offset[report];
-            romeo = yankee.bind(entity)(romeo);
-            romeo = romeo[foxtrot];
-            zulu[foxtrot] = romeo;
+            foxtra = tangon;
+            romeon = offset[report];
+            romeon = yankee.bind(entity)(romeon);
+            romeon = romeon[foxtra];
+            zuuluu[foxtra] = romeon;
             _fun00002_ip = 150; continue _fun00001;
         }
  181:
-        zulu['HotspotStore'] = mike;
+        zuuluu['HotspotStore'] = michal;
         return entity;
     }
 })();

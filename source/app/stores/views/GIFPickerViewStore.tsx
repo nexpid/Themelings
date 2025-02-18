@@ -1,42 +1,42 @@
 // app/stores/views/GIFPickerViewStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBaz;
-            mike = _closure1_slot5;
-            zulu = undefined;
+            tangon = argFoo;
+            oscard = argBaz;
+            michal = _closure1_slot5;
+            zuuluu = undefined;
             entity = argBar;
-            verify = mike.bind(zulu)(entity);
-            mike = _closure1_slot4;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot4;
             entity = _closure1_slot19;
-            entity = entity.bind(zulu)();
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
-            entity = entity.bind(verify)(tango, oscar);
+            entity = entity.bind(verify)(tangon, oscard);
             _fun00002_ip = 92; continue _fun00001;
  51:
-            golf = global;
-            options = golf.Reflect;
-            golf = options.construct;
-            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
+            golfie = global;
+            option = golfie.Reflect;
+            golfie = option.construct;
+            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
  67:
-            oscar = new Array(0);
+            oscard = new Array(0);
  71:
             report = _closure1_slot5;
-            report = report.bind(zulu)(tango);
+            report = report.bind(zuuluu)(tangon);
             report = report.constructor;
-            entity = golf.bind(options)(verify, oscar, report);
+            entity = golfie.bind(option)(verify, oscard, report);
  92:
-            entity = mike.bind(zulu)(tango, entity);
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -45,37 +45,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
-            mike = global;
-            zulu = mike.Boolean;
-            zulu = zulu.prototype;
-            tango = zulu.valueOf;
-            zulu = tango.call;
-            options = mike.Reflect;
-            golf = options.construct;
-            oscar = mike.Boolean;
+            michal = global;
+            zuuluu = michal.Boolean;
+            zuuluu = zuuluu.prototype;
+            tangon = zuuluu.valueOf;
+            zuuluu = tangon.call;
+            option = michal.Reflect;
+            golfie = option.construct;
+            oscard = michal.Boolean;
             report = new Array(0);
-            mike = function() {
+            michal = function() {
                 entity = undefined;
                 return entity;
             };
-            mike = golf.bind(options)(oscar, report, mike);
-            mike = zulu.bind(tango)(mike);
-            mike = !mike;
-            var _closure2_slot0 = mike;
+            michal = golfie.bind(option)(oscard, report, michal);
+            michal = zuuluu.bind(tangon)(michal);
+            michal = !michal;
+            var _closure2_slot0 = michal;
  70: // try_end0
             _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            mike = function() { // Original name: _isNativeReflectConstruct
+            michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot19 = mike;
+            _closure1_slot19 = michal;
             entity = undefined;
-            entity = mike.bind(entity)();
+            entity = michal.bind(entity)();
             return entity;
         }
     };
@@ -83,54 +83,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = function(argFoo) { // Original name: isVideoFormat
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
-            zulu = _closure1_slot9;
-            zulu = zulu.FIXED_HEIGHT_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            michal = argFoo;
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.FIXED_HEIGHT_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  23:
-            zulu = _closure1_slot9;
-            zulu = zulu.FIXED_HEIGHT_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.FIXED_HEIGHT_SMALL_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  40:
-            zulu = _closure1_slot9;
-            zulu = zulu.FIXED_WIDTH_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.FIXED_WIDTH_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  57:
-            zulu = _closure1_slot9;
-            zulu = zulu.FIXED_WIDTH_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.FIXED_WIDTH_SMALL_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  71:
-            zulu = _closure1_slot9;
-            zulu = zulu.DOWNSIZED_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.DOWNSIZED_SMALL_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  85:
-            zulu = _closure1_slot9;
-            zulu = zulu.ORIGINAL_MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.ORIGINAL_MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  99:
-            zulu = _closure1_slot8;
-            zulu = zulu.MP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.MP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  113:
-            zulu = _closure1_slot8;
-            zulu = zulu.TINYMP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.TINYMP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  127:
-            zulu = _closure1_slot8;
-            zulu = zulu.NANOMP4;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.NANOMP4;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  141:
-            zulu = _closure1_slot8;
-            zulu = zulu.WEBM;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.WEBM;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  155:
-            zulu = _closure1_slot8;
-            zulu = zulu.TINYWEBM;
-            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.TINYWEBM;
+            if(!(zuuluu !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  169:
             entity = _closure1_slot8;
             entity = entity.NANOWEBM;
-            if(!(entity !== mike)) { _fun00006_ip = 187; continue _fun00005 }
+            if(!(entity !== michal)) { _fun00006_ip = 187; continue _fun00005 }
  183:
             entity = false;
             return entity;
@@ -142,80 +142,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot20 = entity;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot2 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot3 = mike;
-    mike = 2;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot4 = mike;
-    mike = 3;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot5 = mike;
-    mike = 4;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    var _closure1_slot6 = mike;
-    mike = 5;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.GIFPickerResultTypes;
-    var _closure1_slot7 = mike;
-    mike = {'GIF': 'gif', 'MP4': 'mp4', 'MEDIUMGIF': 'mediumgif', 'TINYGIF': 'tinygif', 'NANOGIF': 'nanogif', 'LOOPEDMP4': 'loopedmp4', 'TINYMP4': 'tinymp4', 'NANOMP4': 'nanomp4', 'WEBM': 'webm', 'TINYWEBM': 'tinywebm', 'NANOWEBM': 'nanowebm'};
-    var _closure1_slot8 = mike;
-    options = {'FIXED_HEIGHT_GIF': 'fixed_height.url', 'FIXED_HEIGHT_MP4': 'fixed_height.mp4', 'FIXED_HEIGHT_SMALL_GIF': 'fixed_height_small.url', 'FIXED_HEIGHT_SMALL_MP4': 'fixed_height_small.mp4', 'FIXED_WIDTH_GIF': 'fixed_width.url', 'FIXED_WIDTH_MP4': 'fixed_width.mp4', 'FIXED_WIDTH_SMALL_GIF': 'fixed_width_small.url', 'FIXED_WIDTH_SMALL_MP4': 'fixed_width_small.mp4', 'DOWNSIZED_GIF': 'downsized.url', 'DOWNSIZED_LARGE_GIF': 'downsized_large.url', 'DOWNSIZED_MEDIUM_GIF': 'downsized_medium.url', 'DOWNSIZED_SMALL_MP4': 'downsized_small.mp4', 'ORIGINAL_GIF': 'original.url', 'ORIGINAL_MP4': 'original.mp4'};
-    var _closure1_slot9 = options;
-    mike = mike.TINYGIF;
-    options = null;
-    var _closure1_slot10 = options;
-    options = '';
-    var _closure1_slot11 = options;
-    var _closure1_slot12 = options;
-    options = new Array(0);
-    var _closure1_slot13 = options;
-    options = new Array(0);
-    var _closure1_slot14 = options;
-    var _closure1_slot15 = mike;
-    mike = new Array(0);
-    var _closure1_slot16 = mike;
-    mike = new Array(0);
-    var _closure1_slot17 = mike;
-    mike = 8;
-    mike = oscar[mike];
-    mike = golf.bind(entity)(mike);
-    options = mike.Store;
-    mike = function(argFoo) {
-        tango = function() { // Original name: GIFPickerViewStore
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot3 = michal;
+    michal = 2;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot4 = michal;
+    michal = 3;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot5 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot6 = michal;
+    michal = 5;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.GIFPickerResultTypes;
+    var _closure1_slot7 = michal;
+    michal = {'GIF': 'gif', 'MP4': 'mp4', 'MEDIUMGIF': 'mediumgif', 'TINYGIF': 'tinygif', 'NANOGIF': 'nanogif', 'LOOPEDMP4': 'loopedmp4', 'TINYMP4': 'tinymp4', 'NANOMP4': 'nanomp4', 'WEBM': 'webm', 'TINYWEBM': 'tinywebm', 'NANOWEBM': 'nanowebm'};
+    var _closure1_slot8 = michal;
+    option = {'FIXED_HEIGHT_GIF': 'fixed_height.url', 'FIXED_HEIGHT_MP4': 'fixed_height.mp4', 'FIXED_HEIGHT_SMALL_GIF': 'fixed_height_small.url', 'FIXED_HEIGHT_SMALL_MP4': 'fixed_height_small.mp4', 'FIXED_WIDTH_GIF': 'fixed_width.url', 'FIXED_WIDTH_MP4': 'fixed_width.mp4', 'FIXED_WIDTH_SMALL_GIF': 'fixed_width_small.url', 'FIXED_WIDTH_SMALL_MP4': 'fixed_width_small.mp4', 'DOWNSIZED_GIF': 'downsized.url', 'DOWNSIZED_LARGE_GIF': 'downsized_large.url', 'DOWNSIZED_MEDIUM_GIF': 'downsized_medium.url', 'DOWNSIZED_SMALL_MP4': 'downsized_small.mp4', 'ORIGINAL_GIF': 'original.url', 'ORIGINAL_MP4': 'original.mp4'};
+    var _closure1_slot9 = option;
+    michal = michal.TINYGIF;
+    option = null;
+    var _closure1_slot10 = option;
+    option = '';
+    var _closure1_slot11 = option;
+    var _closure1_slot12 = option;
+    option = new Array(0);
+    var _closure1_slot13 = option;
+    option = new Array(0);
+    var _closure1_slot14 = option;
+    var _closure1_slot15 = michal;
+    michal = new Array(0);
+    var _closure1_slot16 = michal;
+    michal = new Array(0);
+    var _closure1_slot17 = michal;
+    michal = 8;
+    michal = oscard[michal];
+    michal = golfie.bind(entity)(michal);
+    option = michal.Store;
+    michal = function(argFoo) {
+        tangon = function() { // Original name: GIFPickerViewStore
             report = this;
-            tango = undefined;
+            tangon = undefined;
             entity = undefined;
-            oscar = _closure1_slot2;
-            zulu = _closure2_slot0;
-            oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot18;
+            oscard = _closure1_slot2;
+            zuuluu = _closure2_slot0;
+            oscard = oscard.bind(tangon)(report, zuuluu);
+            michal = _closure1_slot18;
             entity = arguments;
-            entity = mike.bind(tango)(report, zulu, entity);
+            entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
         };
-        var _closure2_slot0 = tango;
+        var _closure2_slot0 = tangon;
         report = _closure1_slot6;
-        zulu = undefined;
-        mike = argFoo;
-        mike = report.bind(zulu)(tango, mike);
-        mike = _closure1_slot3;
+        zuuluu = undefined;
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
+        michal = _closure1_slot3;
         report = {};
         entity = 'getAnalyticsID';
         report['key'] = entity;
@@ -227,94 +227,94 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(8);
         entity[0] = report;
         report = {};
-        golf = 'getQuery';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getQuery';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot11;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golf = 'getResultQuery';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getResultQuery';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot12;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golf = 'getResultItems';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getResultItems';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot13;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golf = 'getTrendingCategories';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getTrendingCategories';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot14;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golf = 'getSelectedFormat';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getSelectedFormat';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot15;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golf = 'getSuggestions';
-        report['key'] = golf;
-        golf = function() { // Original name: value
+        golfie = 'getSuggestions';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
             entity = _closure1_slot16;
             return entity;
         };
-        report['value'] = golf;
+        report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golf = 'getTrendingSearchTerms';
-        report['key'] = golf;
-        oscar = function() { // Original name: value
+        golfie = 'getTrendingSearchTerms';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             entity = _closure1_slot17;
             return entity;
         };
-        report['value'] = oscar;
+        report['value'] = oscard;
         entity[7] = report;
-        entity = mike.bind(zulu)(tango, entity);
+        entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    options = mike.bind(entity)(options);
-    mike = 'GIFPickerViewStore';
-    options['displayName'] = mike;
-    mike = 9;
-    mike = oscar[mike];
-    romeo = golf.bind(entity)(mike);
-    mike = {};
+    option = michal.bind(entity)(option);
+    michal = 'GIFPickerViewStore';
+    option['displayName'] = michal;
+    michal = 9;
+    michal = oscard[michal];
+    romeon = golfie.bind(entity)(michal);
+    michal = {};
     verify = function(argFoo) { // Original name: handleInitialize
         entity = argFoo;
-        mike = entity.analyticsID;
-        _closure1_slot10 = mike;
+        michal = entity.analyticsID;
+        _closure1_slot10 = michal;
         entity = undefined;
         return entity;
     };
-    mike['GIF_PICKER_INITIALIZE'] = verify;
+    michal['GIF_PICKER_INITIALIZE'] = verify;
     verify = function(argFoo) { // Original name: handleQuery
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
-            zulu = entity.query;
-            _closure1_slot11 = zulu;
+            zuuluu = entity.query;
+            _closure1_slot11 = zuuluu;
             entity = '';
-            if(!(entity === zulu)) { _fun00008_ip = 43; continue _fun00007 }
+            if(!(entity === zuuluu)) { _fun00008_ip = 43; continue _fun00007 }
  23:
             _closure1_slot12 = entity;
             entity = new Array(0);
@@ -326,67 +326,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    mike['GIF_PICKER_QUERY'] = verify;
+    michal['GIF_PICKER_QUERY'] = verify;
     verify = function(argFoo) { // Original name: handleQuerySuccess
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
-            mike = entity.query;
-            zulu = null;
-            if(!(zulu != mike)) { _fun00010_ip = 29; continue _fun00009 }
+            michal = entity.query;
+            zuuluu = null;
+            if(!(zuuluu != michal)) { _fun00010_ip = 29; continue _fun00009 }
  14:
-            tango = _closure1_slot11;
-            mike = _closure1_slot12;
-            if(!(tango !== mike)) { _fun00010_ip = 84; continue _fun00009 }
+            tangon = _closure1_slot11;
+            michal = _closure1_slot12;
+            if(!(tangon !== michal)) { _fun00010_ip = 84; continue _fun00009 }
  29:
-            mike = entity.query;
-            if(!(zulu != mike)) { _fun00010_ip = 50; continue _fun00009 }
+            michal = entity.query;
+            if(!(zuuluu != michal)) { _fun00010_ip = 50; continue _fun00009 }
  38:
-            zulu = entity.query;
-            _closure1_slot12 = zulu;
+            zuuluu = entity.query;
+            _closure1_slot12 = zuuluu;
  50:
-            zulu = entity.items;
-            mike = zulu.map;
+            zuuluu = entity.items;
+            michal = zuuluu.map;
             entity = function(argFoo) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    golf = entity.width;
-                    oscar = entity.height;
+                    golfie = entity.width;
+                    oscard = entity.height;
                     report = entity.src;
-                    tango = entity.gif_src;
-                    zulu = entity.url;
-                    mike = entity.id;
+                    tangon = entity.gif_src;
+                    zuuluu = entity.url;
+                    michal = entity.id;
                     entity = {};
-                    entity['width'] = golf;
-                    entity['height'] = oscar;
+                    entity['width'] = golfie;
+                    entity['height'] = oscard;
                     entity['src'] = report;
-                    entity['gifSrc'] = tango;
-                    entity['url'] = zulu;
-                    entity['id'] = mike;
-                    tango = _closure1_slot20;
-                    mike = _closure1_slot15;
+                    entity['gifSrc'] = tangon;
+                    entity['url'] = zuuluu;
+                    entity['id'] = michal;
+                    tangon = _closure1_slot20;
+                    michal = _closure1_slot15;
                     report = undefined;
-                    mike = tango.bind(report)(mike);
-                    tango = _closure1_slot0;
-                    oscar = _closure1_slot1;
-                    zulu = 6;
-                    zulu = oscar[zulu];
-                    zulu = tango.bind(report)(zulu);
-                    zulu = zulu.GIFType;
-                    if(mike) { _fun00012_ip = 122; continue _fun00011 }
+                    michal = tangon.bind(report)(michal);
+                    tangon = _closure1_slot0;
+                    oscard = _closure1_slot1;
+                    zuuluu = 6;
+                    zuuluu = oscard[zuuluu];
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    zuuluu = zuuluu.GIFType;
+                    if(michal) { _fun00012_ip = 122; continue _fun00011 }
  114:
-                    mike = zulu.IMAGE;
+                    michal = zuuluu.IMAGE;
                     _fun00012_ip = 128; continue _fun00011;
  122:
-                    mike = zulu.VIDEO;
+                    michal = zuuluu.VIDEO;
  128:
-                    entity['format'] = mike;
+                    entity['format'] = michal;
                     return entity;
                 }
             };
-            mike = mike.bind(zulu)(entity);
-            _closure1_slot13 = mike;
+            michal = michal.bind(zuuluu)(entity);
+            _closure1_slot13 = michal;
             entity = undefined;
             return entity;
  84:
@@ -394,14 +394,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    mike['GIF_PICKER_QUERY_SUCCESS'] = verify;
+    michal['GIF_PICKER_QUERY_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleQueryFailure
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             entity = entity.query;
-            mike = null;
-            if(!(mike != entity)) { _fun00014_ip = 33; continue _fun00013 }
+            michal = null;
+            if(!(michal != entity)) { _fun00014_ip = 33; continue _fun00013 }
  14:
             _closure1_slot12 = entity;
             entity = new Array(0);
@@ -413,118 +413,118 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    mike['GIF_PICKER_QUERY_FAILURE'] = verify;
+    michal['GIF_PICKER_QUERY_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleTrendingFetchSuccess
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             report = entity.trendingCategories;
-            zulu = entity.trendingGIFPreview;
-            mike = null;
-            if(!(mike == zulu)) { _fun00016_ip = 30; continue _fun00015 }
+            zuuluu = entity.trendingGIFPreview;
+            michal = null;
+            if(!(michal == zuuluu)) { _fun00016_ip = 30; continue _fun00015 }
  21:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
             _fun00016_ip = 168; continue _fun00015;
  30:
-            mike = {};
-            oscar = _closure1_slot7;
-            oscar = oscar.TRENDING_GIFS;
-            mike['type'] = oscar;
-            oscar = _closure1_slot0;
-            golf = _closure1_slot1;
-            options = 7;
-            verify = golf[options];
-            tango = undefined;
-            verify = oscar.bind(tango)(verify);
+            michal = {};
+            oscard = _closure1_slot7;
+            oscard = oscard.TRENDING_GIFS;
+            michal['type'] = oscard;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot1;
+            option = 7;
+            verify = golfie[option];
+            tangon = undefined;
+            verify = oscard.bind(tangon)(verify);
             offset = verify.intl;
             verify = offset.string;
-            options = golf[options];
-            options = oscar.bind(tango)(options);
-            options = options.t;
-            options = options.H6zNFx;
-            options = verify.bind(offset)(options);
-            mike['name'] = options;
+            option = golfie[option];
+            option = oscard.bind(tangon)(option);
+            option = option.t;
+            option = option.H6zNFx;
+            option = verify.bind(offset)(option);
+            michal['name'] = option;
             entity = entity.trendingGIFPreview;
             entity = entity.src;
-            mike['src'] = entity;
+            michal['src'] = entity;
             entity = 6;
-            entity = golf[entity];
-            entity = oscar.bind(tango)(entity);
+            entity = golfie[entity];
+            entity = oscard.bind(tangon)(entity);
             entity = entity.GIFType;
             entity = entity.IMAGE;
-            mike['format'] = entity;
+            michal['format'] = entity;
             entity = new Array(1);
-            entity[0] = mike;
-            zulu = entity;
+            entity[0] = michal;
+            zuuluu = entity;
  168:
-            mike = new Array(0);
+            michal = new Array(0);
             yankee = 0;
-            foxtrot = mike;
-            romeo = zulu;
-            yankee = arraySpread(foxtrot, romeo, yankee);
-            tango = report.map;
+            foxtra = michal;
+            romeon = zuuluu;
+            yankee = arraySpread(foxtra, romeon, yankee);
+            tangon = report.map;
             entity = function(argFoo) {
-                mike = argFoo;
+                michal = argFoo;
                 entity = {};
-                oscar = entity;
-                report = mike;
-                zulu = copyDataProperties(oscar, report);
-                zulu = mike.src;
-                mike = 'src';
-                entity[mike] = zulu;
-                zulu = _closure1_slot7;
-                tango = zulu.TRENDING_CATEGORY;
-                zulu = 'type';
-                entity[zulu] = tango;
-                tango = _closure1_slot0;
-                zulu = _closure1_slot1;
-                mike = 6;
-                zulu = zulu[mike];
-                mike = undefined;
-                mike = tango.bind(mike)(zulu);
-                mike = mike.GIFType;
-                zulu = mike.VIDEO;
-                mike = 'format';
-                entity[mike] = zulu;
+                oscard = entity;
+                report = michal;
+                zuuluu = copyDataProperties(oscard, report);
+                zuuluu = michal.src;
+                michal = 'src';
+                entity[michal] = zuuluu;
+                zuuluu = _closure1_slot7;
+                tangon = zuuluu.TRENDING_CATEGORY;
+                zuuluu = 'type';
+                entity[zuuluu] = tangon;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 6;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                michal = tangon.bind(michal)(zuuluu);
+                michal = michal.GIFType;
+                zuuluu = michal.VIDEO;
+                michal = 'format';
+                entity[michal] = zuuluu;
                 return entity;
             };
-            romeo = tango.bind(report)(entity);
-            foxtrot = mike;
-            entity = arraySpread(foxtrot, romeo, yankee);
-            _closure1_slot14 = mike;
+            romeon = tangon.bind(report)(entity);
+            foxtra = michal;
+            entity = arraySpread(foxtra, romeon, yankee);
+            _closure1_slot14 = michal;
             entity = undefined;
             return entity;
         }
     };
-    mike['GIF_PICKER_TRENDING_FETCH_SUCCESS'] = verify;
+    michal['GIF_PICKER_TRENDING_FETCH_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleSuggestionsSuccess
         entity = argFoo;
-        mike = entity.items;
-        _closure1_slot16 = mike;
+        michal = entity.items;
+        _closure1_slot16 = michal;
         entity = undefined;
         return entity;
     };
-    mike['GIF_PICKER_SUGGESTIONS_SUCCESS'] = verify;
-    tango = function(argFoo) { // Original name: handleTrendingSearchSuccess
+    michal['GIF_PICKER_SUGGESTIONS_SUCCESS'] = verify;
+    tangon = function(argFoo) { // Original name: handleTrendingSearchSuccess
         entity = argFoo;
-        mike = entity.items;
-        _closure1_slot17 = mike;
+        michal = entity.items;
+        _closure1_slot17 = michal;
         entity = undefined;
         return entity;
     };
-    mike['GIF_PICKER_TRENDING_SEARCH_TERMS_SUCCESS'] = tango;
-    tango = options.prototype;
-    tango = Object.create(tango, {constructor: {value: options}});
-    foxtrot = tango;
-    yankee = mike;
-    mike = new foxtrot[options](romeo, yankee, offset);
-    mike = mike instanceof Object ? mike : tango;
-    tango = 10;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'stores/views/GIFPickerViewStore.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['GIF_PICKER_TRENDING_SEARCH_TERMS_SUCCESS'] = tangon;
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
+    foxtra = tangon;
+    yankee = michal;
+    michal = new foxtra[option](romeon, yankee, offset);
+    michal = michal instanceof Object ? michal : tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'stores/views/GIFPickerViewStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

@@ -1,78 +1,78 @@
 // app/modules/pomelo/PomeloModalActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.POMELO_MODAL_KEY;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/pomelo/PomeloModalActionCreators.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: openPomeloModal
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.POMELO_MODAL_KEY;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/pomelo/PomeloModalActionCreators.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: openPomeloModal
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = arguments[1];
-            options = undefined;
-            if(!(oscar === options)) { _fun00002_ip = 11; continue _fun00001 }
+            oscard = arguments[1];
+            option = undefined;
+            if(!(oscard === option)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            oscar = false;
+            oscard = false;
  11:
-            tango = _closure1_slot1;
-            mike = _closure1_slot2;
-            zulu = 1;
-            zulu = mike[zulu];
-            report = tango.bind(options)(zulu);
-            tango = report.pushLazy;
-            golf = _closure1_slot0;
-            zulu = 3;
-            zulu = mike[zulu];
-            golf = golf.bind(options)(zulu);
-            zulu = 2;
-            zulu = mike[zulu];
-            mike = mike.paths;
-            zulu = golf.bind(options)(zulu, mike);
-            mike = {};
-            golf = function() { // Original name: onCloseModal
-                tango = _closure1_slot1;
-                zulu = _closure1_slot2;
-                mike = 1;
-                zulu = zulu[mike];
-                mike = undefined;
-                zulu = tango.bind(mike)(zulu);
-                mike = zulu.popWithKey;
+            tangon = _closure1_slot1;
+            michal = _closure1_slot2;
+            zuuluu = 1;
+            zuuluu = michal[zuuluu];
+            report = tangon.bind(option)(zuuluu);
+            tangon = report.pushLazy;
+            golfie = _closure1_slot0;
+            zuuluu = 3;
+            zuuluu = michal[zuuluu];
+            golfie = golfie.bind(option)(zuuluu);
+            zuuluu = 2;
+            zuuluu = michal[zuuluu];
+            michal = michal.paths;
+            zuuluu = golfie.bind(option)(zuuluu, michal);
+            michal = {};
+            golfie = function() { // Original name: onCloseModal
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 1;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                michal = zuuluu.popWithKey;
                 entity = _closure1_slot3;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            mike['onCloseModal'] = golf;
-            golf = argFoo;
-            mike['source'] = golf;
-            mike['oneClickFlow'] = oscar;
+            michal['onCloseModal'] = golfie;
+            golfie = argFoo;
+            michal['source'] = golfie;
+            michal['oneClickFlow'] = oscard;
             entity = _closure1_slot3;
-            entity = tango.bind(report)(zulu, mike, entity);
+            entity = tangon.bind(report)(zuuluu, michal, entity);
             entity = true;
             return entity;
         }
     };
-    zulu['openPomeloModal'] = mike;
+    zuuluu['openPomeloModal'] = michal;
     return entity;
 })();

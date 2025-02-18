@@ -1,123 +1,123 @@
 // app/modules/errors/CommonSentryInitUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    golf = entity.Object;
-    tango = golf.defineProperty;
-    mike = {};
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    tango = mike.AnalyticEvents;
-    golf = tango.START_SPEAKING;
-    mike = new Array(7);
-    mike[0] = golf;
-    golf = tango.START_LISTENING;
-    mike[1] = golf;
-    golf = tango.APP_OPENED;
-    mike[2] = golf;
-    golf = tango.NOTIFICATION_CLICKED;
-    mike[3] = golf;
-    golf = tango.EXPERIMENT_USER_TRIGGERED;
-    mike[4] = golf;
-    golf = tango.EXPERIMENT_DM_TRIGGERED;
-    mike[5] = golf;
-    tango = tango.EXPERIMENT_GUILD_TRIGGERED;
-    mike[6] = tango;
-    tango = 1;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/errors/CommonSentryInitUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['IGNORE_ANALYTICS_BREADCRUMB_EVENTS'] = mike;
-    mike = function(argFoo) { // Original name: filterThrottle
-        mike = argFoo;
-        zulu = mike.maxBudgetMinute;
-        var _closure2_slot0 = zulu;
-        mike = mike.maxBudgetHour;
-        var _closure2_slot1 = mike;
-        mike = {};
-        zulu = {'slot': 0, 'budgetUsed': 0};
-        mike['minute'] = zulu;
-        zulu = {'slot': 0, 'budgetUsed': 0};
-        mike['hour'] = zulu;
-        var _closure2_slot2 = mike;
+    michal = report.bind(entity)(michal);
+    tangon = michal.AnalyticEvents;
+    golfie = tangon.START_SPEAKING;
+    michal = new Array(7);
+    michal[0] = golfie;
+    golfie = tangon.START_LISTENING;
+    michal[1] = golfie;
+    golfie = tangon.APP_OPENED;
+    michal[2] = golfie;
+    golfie = tangon.NOTIFICATION_CLICKED;
+    michal[3] = golfie;
+    golfie = tangon.EXPERIMENT_USER_TRIGGERED;
+    michal[4] = golfie;
+    golfie = tangon.EXPERIMENT_DM_TRIGGERED;
+    michal[5] = golfie;
+    tangon = tangon.EXPERIMENT_GUILD_TRIGGERED;
+    michal[6] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/errors/CommonSentryInitUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['IGNORE_ANALYTICS_BREADCRUMB_EVENTS'] = michal;
+    michal = function(argFoo) { // Original name: filterThrottle
+        michal = argFoo;
+        zuuluu = michal.maxBudgetMinute;
+        var _closure2_slot0 = zuuluu;
+        michal = michal.maxBudgetHour;
+        var _closure2_slot1 = michal;
+        michal = {};
+        zuuluu = {'slot': 0, 'budgetUsed': 0};
+        michal['minute'] = zuuluu;
+        zuuluu = {'slot': 0, 'budgetUsed': 0};
+        michal['hour'] = zuuluu;
+        var _closure2_slot2 = michal;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = global;
-                zulu = mike.Date;
-                entity = zulu.now;
-                oscar = entity.bind(zulu)();
-                golf = mike.Math;
-                report = golf.round;
+                michal = global;
+                zuuluu = michal.Date;
+                entity = zuuluu.now;
+                oscard = entity.bind(zuuluu)();
+                golfie = michal.Math;
+                report = golfie.round;
                 entity = 1000;
-                zulu = oscar / entity;
-                tango = 60;
-                zulu = zulu / tango;
-                report = report.bind(golf)(zulu);
-                zulu = mike.Math;
-                mike = zulu.round;
-                entity = oscar / entity;
-                entity = entity / tango;
-                entity = entity / tango;
-                tango = mike.bind(zulu)(entity);
+                zuuluu = oscard / entity;
+                tangon = 60;
+                zuuluu = zuuluu / tangon;
+                report = report.bind(golfie)(zuuluu);
+                zuuluu = michal.Math;
+                michal = zuuluu.round;
+                entity = oscard / entity;
+                entity = entity / tangon;
+                entity = entity / tangon;
+                tangon = michal.bind(zuuluu)(entity);
                 entity = _closure2_slot2;
                 entity = entity.minute;
                 entity = entity.slot;
                 if(!(entity !== report)) { _fun00002_ip = 131; continue _fun00001 }
  101:
                 entity = _closure2_slot2;
-                zulu = entity.minute;
-                zulu['slot'] = report;
-                zulu = entity.minute;
+                zuuluu = entity.minute;
+                zuuluu['slot'] = report;
+                zuuluu = entity.minute;
                 entity = 0;
-                zulu['budgetUsed'] = entity;
+                zuuluu['budgetUsed'] = entity;
  131:
                 entity = _closure2_slot2;
                 entity = entity.hour;
                 entity = entity.slot;
-                if(!(entity !== tango)) { _fun00002_ip = 181; continue _fun00001 }
+                if(!(entity !== tangon)) { _fun00002_ip = 181; continue _fun00001 }
  151:
                 entity = _closure2_slot2;
-                zulu = entity.hour;
-                zulu['slot'] = tango;
-                zulu = entity.hour;
+                zuuluu = entity.hour;
+                zuuluu['slot'] = tangon;
+                zuuluu = entity.hour;
                 entity = 0;
-                zulu['budgetUsed'] = entity;
+                zuuluu['budgetUsed'] = entity;
  181:
                 entity = _closure2_slot2;
                 entity = entity.minute;
-                zulu = entity.budgetUsed;
+                zuuluu = entity.budgetUsed;
                 entity = _closure2_slot0;
-                entity = zulu < entity;
+                entity = zuuluu < entity;
                 if(!entity) { _fun00002_ip = 253; continue _fun00001 }
  208:
-                zulu = _closure2_slot2;
-                report = zulu.minute;
-                tango = report.budgetUsed;
-                tango = tango + 1;
-                report['budgetUsed'] = tango;
-                zulu = zulu.hour;
-                tango = zulu.budgetUsed;
-                zulu = _closure2_slot1;
-                entity = tango < zulu;
+                zuuluu = _closure2_slot2;
+                report = zuuluu.minute;
+                tangon = report.budgetUsed;
+                tangon = tangon + 1;
+                report['budgetUsed'] = tangon;
+                zuuluu = zuuluu.hour;
+                tangon = zuuluu.budgetUsed;
+                zuuluu = _closure2_slot1;
+                entity = tangon < zuuluu;
  253:
                 if(!entity) { _fun00002_ip = 283; continue _fun00001 }
  256:
-                mike = _closure2_slot2;
-                zulu = mike.hour;
-                mike = zulu.budgetUsed;
-                mike = mike + 1;
-                zulu['budgetUsed'] = mike;
+                michal = _closure2_slot2;
+                zuuluu = michal.hour;
+                michal = zuuluu.budgetUsed;
+                michal = michal + 1;
+                zuuluu['budgetUsed'] = michal;
                 entity = true;
  283:
                 return entity;
@@ -125,6 +125,6 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         };
         return entity;
     };
-    zulu['filterThrottle'] = mike;
+    zuuluu['filterThrottle'] = michal;
     return entity;
 })();

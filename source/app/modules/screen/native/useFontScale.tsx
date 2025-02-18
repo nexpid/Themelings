@@ -1,49 +1,49 @@
 // app/modules/screen/native/useFontScale.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = function(argFoo) { // Original name: FONT_SCALE_GETTER
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = function(argFoo) { // Original name: FONT_SCALE_GETTER
         entity = argFoo;
         entity = entity.fontScale;
         return entity;
     };
-    var _closure1_slot1 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/screen/native/useFontScale.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: getFontScale
-        mike = _closure1_slot0;
-        entity = mike.getState;
-        entity = entity.bind(mike)();
+    var _closure1_slot1 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/screen/native/useFontScale.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getFontScale
+        michal = _closure1_slot0;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
         entity = entity.fontScale;
         return entity;
     };
-    zulu['getFontScale'] = tango;
-    mike = function() { // Original name: useFontScale
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    zuuluu['getFontScale'] = tangon;
+    michal = function() { // Original name: useFontScale
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = undefined;
-        entity = zulu.bind(entity)(mike);
+        entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zulu['useFontScale'] = mike;
+    zuuluu['useFontScale'] = michal;
     return entity;
 })();

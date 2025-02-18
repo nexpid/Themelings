@@ -1,53 +1,53 @@
 // app/modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argBaz;
+    oscard = report[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: maybeDispatchDevOnlyDummyFriendSuggestions
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: maybeDispatchDevOnlyDummyFriendSuggestions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             entity = undefined;
             if(!(report === entity)) { _fun00002_ip = 23; continue _fun00001 }
  9:
-            mike = global;
-            mike = mike.Number;
-            report = mike.MAX_VALUE;
+            michal = global;
+            michal = michal.Number;
+            report = michal.MAX_VALUE;
  23:
-            zulu = global;
-            oscar = zulu.Object;
-            tango = oscar.values;
-            golf = _closure1_slot0;
-            mike = golf.getUsers;
-            mike = mike.bind(golf)();
-            mike = tango.bind(oscar)(mike);
-            tango = zulu.Math;
-            zulu = tango.min;
-            mike = mike.length;
-            mike = zulu.bind(tango)(mike, report);
+            zuuluu = global;
+            oscard = zuuluu.Object;
+            tangon = oscard.values;
+            golfie = _closure1_slot0;
+            michal = golfie.getUsers;
+            michal = michal.bind(golfie)();
+            michal = tangon.bind(oscard)(michal);
+            tangon = zuuluu.Math;
+            zuuluu = tangon.min;
+            michal = michal.length;
+            michal = zuuluu.bind(tangon)(michal, report);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

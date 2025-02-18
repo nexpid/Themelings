@@ -1,111 +1,111 @@
 // app/utils/ValidationUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
-    mike = global;
-    oscar = mike.Object;
-    report = oscar.defineProperty;
-    tango = {};
-    mike = true;
-    tango['value'] = mike;
-    mike = '__esModule';
-    mike = report.bind(oscar)(zulu, mike, tango);
-    mike = /^([\w-+]+(?:\.[\w-+]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,63}(?:\.[a-z]{2})?)$/i;
-    var _closure1_slot0 = mike;
-    mike = /^((https:\\/\\/)?(discord\.gg\\/)|(discord\.com\\/)(invite\\/)?)?[A-Za-z0-9]{8,8}$/;
-    var _closure1_slot1 = mike;
-    mike = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
-    var _closure1_slot2 = mike;
-    mike = /^(.*)#[0-9]{1,5}$/;
-    var _closure1_slot3 = mike;
-    mike = /^(https:\\/\\/)?(discord\.com\\/discovery\\/game\\/)([0-9-]+)\\/?/;
-    var _closure1_slot4 = mike;
-    mike = ['@', '#', ':', '```', 'discord', 'hypesquad', 'system message', 'system mesage', 'sustem message', 'sustem mesage'];
-    var _closure1_slot5 = mike;
-    mike = ['discordtag', 'everyone', 'here', 'discord nitro', 'discord'];
-    var _closure1_slot6 = mike;
-    mike = {};
-    tango = function(argFoo) { // Original name: isEmail
-        zulu = _closure1_slot0;
-        mike = zulu.test;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
+    michal = global;
+    oscard = michal.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
+    michal = /^([\w-+]+(?:\.[\w-+]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,63}(?:\.[a-z]{2})?)$/i;
+    var _closure1_slot0 = michal;
+    michal = /^((https:\\/\\/)?(discord\.gg\\/)|(discord\.com\\/)(invite\\/)?)?[A-Za-z0-9]{8,8}$/;
+    var _closure1_slot1 = michal;
+    michal = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
+    var _closure1_slot2 = michal;
+    michal = /^(.*)#[0-9]{1,5}$/;
+    var _closure1_slot3 = michal;
+    michal = /^(https:\\/\\/)?(discord\.com\\/discovery\\/game\\/)([0-9-]+)\\/?/;
+    var _closure1_slot4 = michal;
+    michal = ['@', '#', ':', '```', 'discord', 'hypesquad', 'system message', 'system mesage', 'sustem message', 'sustem mesage'];
+    var _closure1_slot5 = michal;
+    michal = ['discordtag', 'everyone', 'here', 'discord nitro', 'discord'];
+    var _closure1_slot6 = michal;
+    michal = {};
+    tangon = function(argFoo) { // Original name: isEmail
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.test;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isEmail'] = tango;
-    tango = function(argFoo) { // Original name: isInvite
-        zulu = _closure1_slot1;
-        mike = zulu.test;
+    michal['isEmail'] = tangon;
+    tangon = function(argFoo) { // Original name: isInvite
+        zuuluu = _closure1_slot1;
+        michal = zuuluu.test;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isInvite'] = tango;
-    tango = function(argFoo) { // Original name: isPhoneNumber
-        zulu = _closure1_slot2;
-        mike = zulu.test;
+    michal['isInvite'] = tangon;
+    tangon = function(argFoo) { // Original name: isPhoneNumber
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.test;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isPhoneNumber'] = tango;
-    tango = function(argFoo) { // Original name: isUserTagLike
+    michal['isPhoneNumber'] = tangon;
+    tangon = function(argFoo) { // Original name: isUserTagLike
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot3;
-            tango = report.exec;
-            zulu = argFoo;
-            tango = tango.bind(report)(zulu);
-            zulu = null;
-            if(!(zulu != tango)) { _fun00002_ip = 41; continue _fun00001 }
+            tangon = report.exec;
+            zuuluu = argFoo;
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00002_ip = 41; continue _fun00001 }
  29:
-            report = tango.length;
-            zulu = 1;
-            if(!(!(report > zulu))) { _fun00002_ip = 45; continue _fun00001 }
+            report = tangon.length;
+            zuuluu = 1;
+            if(!(!(report > zuuluu))) { _fun00002_ip = 45; continue _fun00001 }
  41:
             report = false;
             return report;
  45:
-            tango = tango[zulu];
-            var _closure2_slot0 = tango;
+            tangon = tangon[zuuluu];
+            var _closure2_slot0 = tangon;
             report = _closure1_slot5;
-            zulu = report.some;
+            zuuluu = report.some;
             entity = function(argFoo) {
-                zulu = _closure2_slot0;
-                mike = zulu.includes;
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.includes;
                 entity = argFoo;
-                entity = mike.bind(zulu)(entity);
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = zulu.bind(report)(entity);
-            zulu = _closure1_slot6;
-            mike = zulu.includes;
-            mike = mike.bind(zulu)(tango);
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.includes;
+            michal = michal.bind(zuuluu)(tangon);
             entity = !entity;
             if(!entity) { _fun00002_ip = 96; continue _fun00001 }
  93:
-            entity = !mike;
+            entity = !michal;
  96:
             return entity;
         }
     };
-    mike['isUserTagLike'] = tango;
+    michal['isUserTagLike'] = tangon;
     entity = function(argFoo) { // Original name: isDiscoveryLink
-        zulu = _closure1_slot4;
-        mike = zulu.test;
+        zuuluu = _closure1_slot4;
+        michal = zuuluu.test;
         entity = argFoo;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['isDiscoveryLink'] = entity;
-    tango = argPlugh;
+    michal['isDiscoveryLink'] = entity;
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'utils/ValidationUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'utils/ValidationUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

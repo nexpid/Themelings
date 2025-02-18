@@ -1,126 +1,126 @@
 // app/modules/forums/native/composer/hooks/useCurrentKeyboardInfo.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.KeyboardTypes;
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/forums/native/composer/hooks/useCurrentKeyboardInfo.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useCurrentKeyboardInfo
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.KeyboardTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/forums/native/composer/hooks/useCurrentKeyboardInfo.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useCurrentKeyboardInfo
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = _closure1_slot1;
-            tango = _closure1_slot2;
+            michal = _closure1_slot1;
+            tangon = _closure1_slot2;
             entity = 2;
-            entity = tango[entity];
-            zulu = undefined;
-            entity = mike.bind(zulu)(entity);
-            entity = entity.bind(zulu)();
-            oscar = entity.bottom;
-            mike = _closure1_slot0;
+            entity = tangon[entity];
+            zuuluu = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)();
+            oscard = entity.bottom;
+            michal = _closure1_slot0;
             entity = 3;
-            entity = tango[entity];
-            tango = mike.bind(zulu)(entity);
-            zulu = tango.useStateFromStoresObject;
+            entity = tangon[entity];
+            tangon = michal.bind(zuuluu)(entity);
+            zuuluu = tangon.useStateFromStoresObject;
             entity = _closure1_slot3;
-            mike = new Array(1);
-            mike[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = function() {
                 entity = {};
-                mike = _closure1_slot3;
-                zulu = mike.keyboardType;
-                entity['keyboardType'] = zulu;
-                zulu = mike.expressionType;
-                entity['expressionType'] = zulu;
-                zulu = mike.keyboardOpen;
-                entity['keyboardOpen'] = zulu;
-                zulu = mike.keyboardHeight;
-                entity['keyboardHeight'] = zulu;
-                mike = mike.customKeyboardHeight;
-                entity['customKeyboardHeight'] = mike;
+                michal = _closure1_slot3;
+                zuuluu = michal.keyboardType;
+                entity['keyboardType'] = zuuluu;
+                zuuluu = michal.expressionType;
+                entity['expressionType'] = zuuluu;
+                zuuluu = michal.keyboardOpen;
+                entity['keyboardOpen'] = zuuluu;
+                zuuluu = michal.keyboardHeight;
+                entity['keyboardHeight'] = zuuluu;
+                michal = michal.customKeyboardHeight;
+                entity['customKeyboardHeight'] = michal;
                 return entity;
             };
-            golf = zulu.bind(tango)(mike, entity);
-            tango = golf.keyboardType;
-            zulu = golf.expressionType;
-            mike = golf.keyboardOpen;
-            entity = golf.keyboardHeight;
-            options = golf.customKeyboardHeight;
-            golf = _closure1_slot4;
-            golf = golf.SYSTEM;
-            if(!(tango !== golf)) { _fun00002_ip = 182; continue _fun00001 }
+            golfie = zuuluu.bind(tangon)(michal, entity);
+            tangon = golfie.keyboardType;
+            zuuluu = golfie.expressionType;
+            michal = golfie.keyboardOpen;
+            entity = golfie.keyboardHeight;
+            option = golfie.customKeyboardHeight;
+            golfie = _closure1_slot4;
+            golfie = golfie.SYSTEM;
+            if(!(tangon !== golfie)) { _fun00002_ip = 182; continue _fun00001 }
  127:
-            golf = _closure1_slot4;
-            golf = golf.MEDIA;
-            verify = tango === golf;
+            golfie = _closure1_slot4;
+            golfie = golfie.MEDIA;
+            verify = tangon === golfie;
             if(verify) { _fun00002_ip = 158; continue _fun00001 }
  144:
             report = _closure1_slot4;
             report = report.EXPRESSION;
-            verify = tango === report;
+            verify = tangon === report;
  158:
             if(!verify) { _fun00002_ip = 167; continue _fun00001 }
  161:
             report = 0;
-            verify = options > report;
+            verify = option > report;
  167:
-            golf = null;
+            golfie = null;
             report = 0;
             if(!verify) { _fun00002_ip = 196; continue _fun00001 }
  174:
-            golf = tango;
-            report = options;
+            golfie = tangon;
+            report = option;
             _fun00002_ip = 196; continue _fun00001;
  182:
-            options = null;
-            if(!mike) { _fun00002_ip = 190; continue _fun00001 }
+            option = null;
+            if(!michal) { _fun00002_ip = 190; continue _fun00001 }
  187:
-            options = tango;
+            option = tangon;
  190:
-            golf = options;
+            golfie = option;
             report = entity;
  196:
             entity = {};
             entity['currentKeyboardHeight'] = report;
             report = null;
-            golf = report == golf;
+            golfie = report == golfie;
             report = 0;
-            if(!golf) { _fun00002_ip = 217; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 217; continue _fun00001 }
  214:
-            report = oscar;
+            report = oscard;
  217:
             entity['currentSafeAreaBottom'] = report;
-            entity['keyboardType'] = tango;
-            entity['expressionType'] = zulu;
-            entity['keyboardOpen'] = mike;
+            entity['keyboardType'] = tangon;
+            entity['expressionType'] = zuuluu;
+            entity['keyboardOpen'] = michal;
             return entity;
         }
     };
-    zulu['useCurrentKeyboardInfo'] = mike;
+    zuuluu['useCurrentKeyboardInfo'] = michal;
     return entity;
 })();

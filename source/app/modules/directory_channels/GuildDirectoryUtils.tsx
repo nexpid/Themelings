@@ -1,203 +1,203 @@
 // app/modules/directory_channels/GuildDirectoryUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    zulu = argFred;
-    options = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    golfie = argBar;
+    zuuluu = argFre;
+    option = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
-    var _closure1_slot1 = options;
+    var _closure1_slot1 = option;
     report = function(argFoo) { // Original name: orderByTotalMemberCount
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        report = zulu.bind(entity)(mike);
-        tango = report.orderBy;
-        zulu = new Array(1);
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.orderBy;
+        zuuluu = new Array(1);
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.approximateMemberCount;
             return entity;
         };
-        zulu[0] = entity;
-        mike = argFoo;
+        zuuluu[0] = entity;
+        michal = argFoo;
         entity = ['desc'];
-        entity = tango.bind(report)(mike, zulu, entity);
+        entity = tangon.bind(report)(michal, zuuluu, entity);
         return entity;
     };
     var _closure1_slot3 = report;
-    tango = function(argFoo) { // Original name: orderByDateAdded
-        zulu = _closure1_slot0;
-        mike = _closure1_slot1;
+    tangon = function(argFoo) { // Original name: orderByDateAdded
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
         entity = 2;
-        mike = mike[entity];
+        michal = michal[entity];
         entity = undefined;
-        report = zulu.bind(entity)(mike);
-        tango = report.orderBy;
-        zulu = new Array(1);
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.orderBy;
+        zuuluu = new Array(1);
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.createdAt;
             return entity;
         };
-        zulu[0] = entity;
-        mike = argFoo;
+        zuuluu[0] = entity;
+        michal = argFoo;
         entity = ['desc'];
-        entity = tango.bind(report)(mike, zulu, entity);
+        entity = tangon.bind(report)(michal, zuuluu, entity);
         return entity;
     };
-    var _closure1_slot4 = tango;
+    var _closure1_slot4 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
-    oscar = {};
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, oscar);
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    oscar = options[entity];
+    oscard = option[entity];
     entity = undefined;
-    oscar = golf.bind(entity)(oscar);
-    oscar = oscar.DirectoryEntryTypes;
-    var _closure1_slot2 = oscar;
-    oscar = 3;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/directory_channels/GuildDirectoryUtils.tsx';
-    oscar = golf.bind(options)(oscar);
-    oscar = function(argFoo) { // Original name: guildDirectoryEntryFromServer
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.DirectoryEntryTypes;
+    var _closure1_slot2 = oscard;
+    oscard = 3;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/directory_channels/GuildDirectoryUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo) { // Original name: guildDirectoryEntryFromServer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = argFoo;
+            zuuluu = argFoo;
             report = _closure1_slot0;
-            tango = _closure1_slot1;
-            mike = 1;
-            tango = tango[mike];
-            mike = undefined;
-            report = report.bind(mike)(tango);
-            tango = zulu.type;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = zuuluu.type;
             entity = _closure1_slot2;
             entity = entity.GUILD;
-            tango = tango === entity;
+            tangon = tangon === entity;
             entity = 'Directory entries must be connected to a guild!';
-            entity = report.bind(mike)(tango, entity);
+            entity = report.bind(michal)(tangon, entity);
             entity = {};
-            tango = zulu.directory_channel_id;
-            entity['channelId'] = tango;
-            tango = zulu.entity_id;
-            entity['guildId'] = tango;
-            tango = zulu.type;
-            entity['type'] = tango;
-            tango = zulu.author_id;
-            entity['authorId'] = tango;
-            tango = zulu.created_at;
-            entity['createdAt'] = tango;
-            tango = zulu.description;
-            entity['description'] = tango;
-            tango = zulu.primary_category_id;
-            entity['primaryCategoryId'] = tango;
-            oscar = zulu.guild;
-            tango = null;
-            golf = tango == oscar;
+            tangon = zuuluu.directory_channel_id;
+            entity['channelId'] = tangon;
+            tangon = zuuluu.entity_id;
+            entity['guildId'] = tangon;
+            tangon = zuuluu.type;
+            entity['type'] = tangon;
+            tangon = zuuluu.author_id;
+            entity['authorId'] = tangon;
+            tangon = zuuluu.created_at;
+            entity['createdAt'] = tangon;
+            tangon = zuuluu.description;
+            entity['description'] = tangon;
+            tangon = zuuluu.primary_category_id;
+            entity['primaryCategoryId'] = tangon;
+            oscard = zuuluu.guild;
+            tangon = null;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 153; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 153; continue _fun00001 }
  148:
-            report = oscar.name;
+            report = oscard.name;
  153:
             entity['name'] = report;
-            oscar = zulu.guild;
-            golf = tango == oscar;
+            oscard = zuuluu.guild;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 176; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 176; continue _fun00001 }
  171:
-            report = oscar.icon;
+            report = oscard.icon;
  176:
             entity['icon'] = report;
-            oscar = zulu.guild;
-            golf = tango == oscar;
+            oscard = zuuluu.guild;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 200; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 200; continue _fun00001 }
  194:
-            report = oscar.splash;
+            report = oscard.splash;
  200:
             entity['splash'] = report;
             report = global;
-            golf = report.Set;
-            oscar = zulu.guild;
-            options = tango == oscar;
+            golfie = report.Set;
+            oscard = zuuluu.guild;
+            option = tangon == oscard;
             report = undefined;
-            if(options) { _fun00002_ip = 233; continue _fun00001 }
+            if(option) { _fun00002_ip = 233; continue _fun00001 }
  227:
-            report = oscar.features;
+            report = oscard.features;
  233:
-            oscar = golf.prototype;
-            oscar = Object.create(oscar, {constructor: {value: golf}});
-            yankee = oscar;
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            yankee = oscard;
             offset = report;
-            report = new yankee[golf](offset, verify);
-            report = report instanceof Object ? report : oscar;
+            report = new yankee[golfie](offset, verify);
+            report = report instanceof Object ? report : oscard;
             entity['features'] = report;
-            oscar = zulu.guild;
-            golf = tango == oscar;
+            oscard = zuuluu.guild;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 281; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 281; continue _fun00001 }
  275:
-            report = oscar.approximate_member_count;
+            report = oscard.approximate_member_count;
  281:
             entity['approximateMemberCount'] = report;
-            oscar = zulu.guild;
-            golf = tango == oscar;
+            oscard = zuuluu.guild;
+            golfie = tangon == oscard;
             report = undefined;
-            if(golf) { _fun00002_ip = 306; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 306; continue _fun00001 }
  300:
-            report = oscar.approximate_presence_count;
+            report = oscard.approximate_presence_count;
  306:
             entity['approximatePresenceCount'] = report;
-            zulu = zulu.guild;
-            tango = tango == zulu;
-            mike = undefined;
-            if(tango) { _fun00002_ip = 333; continue _fun00001 }
+            zuuluu = zuuluu.guild;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 333; continue _fun00001 }
  325:
-            mike = zulu.featurable_in_directory;
+            michal = zuuluu.featurable_in_directory;
  333:
-            entity['featurableInDirectory'] = mike;
+            entity['featurableInDirectory'] = michal;
             return entity;
         }
     };
-    zulu['guildDirectoryEntryFromServer'] = oscar;
-    oscar = 5;
-    zulu['MAX_CATEGORY_SERVERS'] = oscar;
-    zulu['orderByTotalMemberCount'] = report;
-    zulu['orderByDateAdded'] = tango;
-    tango = function(argFoo) { // Original name: rankByDateAdded
-        tango = argFoo;
-        zulu = _closure1_slot4;
-        mike = tango.filter;
+    zuuluu['guildDirectoryEntryFromServer'] = oscard;
+    oscard = 5;
+    zuuluu['MAX_CATEGORY_SERVERS'] = oscard;
+    zuuluu['orderByTotalMemberCount'] = report;
+    zuuluu['orderByDateAdded'] = tangon;
+    tangon = function(argFoo) { // Original name: rankByDateAdded
+        tangon = argFoo;
+        zuuluu = _closure1_slot4;
+        michal = tangon.filter;
         entity = function(argFoo) {
             entity = argFoo;
             entity = entity.featurableInDirectory;
             return entity;
         };
-        mike = mike.bind(tango)(entity);
+        michal = michal.bind(tangon)(entity);
         entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.slice;
-        mike = 0;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.slice;
+        michal = 0;
         entity = 5;
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['rankByDateAdded'] = tango;
-    mike = function(argFoo) { // Original name: rankGuildEntries
-        zulu = _closure1_slot3;
-        mike = undefined;
+    zuuluu['rankByDateAdded'] = tangon;
+    michal = function(argFoo) { // Original name: rankGuildEntries
+        zuuluu = _closure1_slot3;
+        michal = undefined;
         entity = argFoo;
-        entity = zulu.bind(mike)(entity);
+        entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zulu['rankGuildEntries'] = mike;
+    zuuluu['rankGuildEntries'] = michal;
     return entity;
 })();

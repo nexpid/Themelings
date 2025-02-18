@@ -1,113 +1,113 @@
 // app/modules/a11y/native/setAccessibilityFocus.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    options = tango.AccessibilityInfo;
-    var _closure1_slot3 = options;
-    tango = tango.findNodeHandle;
-    var _closure1_slot4 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    options = golf.bind(entity)(tango);
-    tango = options.prototype;
-    golf = Object.create(tango, {constructor: {value: options}});
-    romeo = 'setAccessibilityFocus';
-    foxtrot = golf;
-    tango = new foxtrot[options](romeo, yankee);
-    tango = tango instanceof Object ? tango : golf;
-    var _closure1_slot5 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/a11y/native/setAccessibilityFocus.android.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: setAccessibilityFocus
+    tangon = report.bind(entity)(tangon);
+    option = tangon.AccessibilityInfo;
+    var _closure1_slot3 = option;
+    tangon = tangon.findNodeHandle;
+    var _closure1_slot4 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    golfie = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'setAccessibilityFocus';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = tangon instanceof Object ? tangon : golfie;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/a11y/native/setAccessibilityFocus.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: setAccessibilityFocus
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = entity.ref;
-            tango = entity.delay;
+            zuuluu = entity.ref;
+            tangon = entity.delay;
             entity = undefined;
-            if(!(tango === entity)) { _fun00002_ip = 24; continue _fun00001 }
+            if(!(tangon === entity)) { _fun00002_ip = 24; continue _fun00001 }
  22:
-            tango = 0;
+            tangon = 0;
  24:
             var _closure2_slot0 = entity;
             report = null;
-            if(!(report != zulu)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(report != zuuluu)) { _fun00002_ip = 78; continue _fun00001 }
  34:
-            oscar = _closure1_slot4;
-            zulu = zulu.current;
-            zulu = oscar.bind(entity)(zulu);
-            _closure2_slot0 = zulu;
-            if(!(report != zulu)) { _fun00002_ip = 78; continue _fun00001 }
+            oscard = _closure1_slot4;
+            zuuluu = zuuluu.current;
+            zuuluu = oscard.bind(entity)(zuuluu);
+            _closure2_slot0 = zuuluu;
+            if(!(report != zuuluu)) { _fun00002_ip = 78; continue _fun00001 }
  59:
-            zulu = global;
-            zulu = zulu.setTimeout;
-            mike = function() {
+            zuuluu = global;
+            zuuluu = zuuluu.setTimeout;
+            michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tango = _closure1_slot0;
-                    mike = _closure1_slot2;
+                    tangon = _closure1_slot0;
+                    michal = _closure1_slot2;
                     entity = 3;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    tango = tango.bind(entity)(mike);
-                    mike = tango.isFabric;
-                    tango = mike.bind(tango)();
-                    if(tango) { _fun00004_ip = 96; continue _fun00003 }
+                    tangon = tangon.bind(entity)(michal);
+                    michal = tangon.isFabric;
+                    tangon = michal.bind(tangon)();
+                    if(tangon) { _fun00004_ip = 96; continue _fun00003 }
  41:
-                    oscar = _closure2_slot0;
+                    oscard = _closure2_slot0;
                     report = _closure1_slot1;
-                    golf = _closure1_slot2;
-                    tango = 2;
-                    tango = golf[tango];
-                    report = report.bind(entity)(tango);
-                    tango = report.setAccessibilityFocus;
-                    oscar = tango.bind(report)(oscar);
-                    report = oscar.catch;
-                    tango = function(argFoo) {
-                        tango = _closure1_slot5;
-                        zulu = tango.warn;
-                        mike = 'Failed with reason:';
+                    golfie = _closure1_slot2;
+                    tangon = 2;
+                    tangon = golfie[tangon];
+                    report = report.bind(entity)(tangon);
+                    tangon = report.setAccessibilityFocus;
+                    oscard = tangon.bind(report)(oscard);
+                    report = oscard.catch;
+                    tangon = function(argFoo) {
+                        tangon = _closure1_slot5;
+                        zuuluu = tangon.warn;
+                        michal = 'Failed with reason:';
                         entity = argFoo;
-                        entity = zulu.bind(tango)(mike, entity);
+                        entity = zuuluu.bind(tangon)(michal, entity);
                         return entity;
                     };
-                    tango = report.bind(oscar)(tango);
+                    tangon = report.bind(oscard)(tangon);
                     _fun00004_ip = 115; continue _fun00003;
  96:
-                    tango = _closure1_slot3;
-                    zulu = tango.setAccessibilityFocus;
-                    mike = _closure2_slot0;
-                    mike = zulu.bind(tango)(mike);
+                    tangon = _closure1_slot3;
+                    zuuluu = tangon.setAccessibilityFocus;
+                    michal = _closure2_slot0;
+                    michal = zuuluu.bind(tangon)(michal);
  115:
                     return entity;
                 }
             };
-            mike = zulu.bind(entity)(mike, tango);
+            michal = zuuluu.bind(entity)(michal, tangon);
  78:
             return entity;
         }
     };
-    zulu['setAccessibilityFocus'] = mike;
+    zuuluu['setAccessibilityFocus'] = michal;
     return entity;
 })();

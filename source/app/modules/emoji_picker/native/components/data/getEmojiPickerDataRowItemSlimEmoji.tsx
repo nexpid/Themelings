@@ -1,127 +1,127 @@
 // app/modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemSlimEmoji.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 2;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemSlimEmoji.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: getEmojiPickerDataRowItemSlimEmoji
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemSlimEmoji.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getEmojiPickerDataRowItemSlimEmoji
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         entity = {};
-        oscar = _closure1_slot0;
+        oscard = _closure1_slot0;
         report = _closure1_slot1;
-        tango = 0;
-        report = report[tango];
-        tango = undefined;
-        tango = oscar.bind(tango)(report);
-        tango = tango.EmojiPickerFlashListItemType;
-        tango = tango.EMOJI_ROW_SLIM;
-        entity['type'] = tango;
-        report = mike.emojis;
-        tango = report.map;
-        zulu = function(argFoo) {
+        tangon = 0;
+        report = report[tangon];
+        tangon = undefined;
+        tangon = oscard.bind(tangon)(report);
+        tangon = tangon.EmojiPickerFlashListItemType;
+        tangon = tangon.EMOJI_ROW_SLIM;
+        entity['type'] = tangon;
+        report = michal.emojis;
+        tangon = report.map;
+        zuuluu = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                mike = argFoo;
-                zulu = mike.type;
+                michal = argFoo;
+                zuuluu = michal.type;
                 report = _closure1_slot0;
-                tango = _closure1_slot1;
+                tangon = _closure1_slot1;
                 entity = 1;
-                tango = tango[entity];
+                tangon = tangon[entity];
                 entity = undefined;
-                entity = report.bind(entity)(tango);
+                entity = report.bind(entity)(tangon);
                 entity = entity.EmojiTypes;
                 entity = entity.UNICODE;
-                if(!(zulu !== entity)) { _fun00002_ip = 225; continue _fun00001 }
+                if(!(zuuluu !== entity)) { _fun00002_ip = 225; continue _fun00001 }
  52:
                 entity = _closure2_slot0;
-                tango = entity.emojisDisabled;
-                zulu = tango.has;
-                entity = mike.id;
-                entity = zulu.bind(tango)(entity);
-                zulu = mike.animated;
-                if(!zulu) { _fun00002_ip = 92; continue _fun00001 }
+                tangon = entity.emojisDisabled;
+                zuuluu = tangon.has;
+                entity = michal.id;
+                entity = zuuluu.bind(tangon)(entity);
+                zuuluu = michal.animated;
+                if(!zuuluu) { _fun00002_ip = 92; continue _fun00001 }
  89:
                 if(entity) { _fun00002_ip = 189; continue _fun00001 }
  92:
-                zulu = mike.animated;
-                if(zulu) { _fun00002_ip = 157; continue _fun00001 }
+                zuuluu = michal.animated;
+                if(zuuluu) { _fun00002_ip = 157; continue _fun00001 }
  101:
                 if(entity) { _fun00002_ip = 126; continue _fun00001 }
  104:
                 entity = {};
-                zulu = mike.id;
-                entity['id'] = zulu;
-                zulu = mike.name;
-                entity['name'] = zulu;
+                zuuluu = michal.id;
+                entity['id'] = zuuluu;
+                zuuluu = michal.name;
+                entity['name'] = zuuluu;
                 _fun00002_ip = 155; continue _fun00001;
  126:
-                zulu = {};
-                tango = mike.id;
-                zulu['id'] = tango;
-                tango = mike.name;
-                zulu['name'] = tango;
-                tango = true;
-                zulu['disabled'] = tango;
-                entity = zulu;
+                zuuluu = {};
+                tangon = michal.id;
+                zuuluu['id'] = tangon;
+                tangon = michal.name;
+                zuuluu['name'] = tangon;
+                tangon = true;
+                zuuluu['disabled'] = tangon;
+                entity = zuuluu;
  155:
                 _fun00002_ip = 187; continue _fun00001;
  157:
-                zulu = {};
-                tango = mike.id;
-                zulu['id'] = tango;
-                tango = mike.name;
-                zulu['name'] = tango;
-                tango = true;
-                zulu['animated'] = tango;
-                entity = zulu;
+                zuuluu = {};
+                tangon = michal.id;
+                zuuluu['id'] = tangon;
+                tangon = michal.name;
+                zuuluu['name'] = tangon;
+                tangon = true;
+                zuuluu['animated'] = tangon;
+                entity = zuuluu;
  187:
                 _fun00002_ip = 223; continue _fun00001;
  189:
-                zulu = {};
-                tango = mike.id;
-                zulu['id'] = tango;
-                tango = mike.name;
-                zulu['name'] = tango;
-                tango = true;
-                zulu['animated'] = tango;
-                zulu['disabled'] = tango;
-                entity = zulu;
+                zuuluu = {};
+                tangon = michal.id;
+                zuuluu['id'] = tangon;
+                tangon = michal.name;
+                zuuluu['name'] = tangon;
+                tangon = true;
+                zuuluu['animated'] = tangon;
+                zuuluu['disabled'] = tangon;
+                entity = zuuluu;
  223:
                 return entity;
  225:
                 entity = {};
-                zulu = mike.name;
-                entity['name'] = zulu;
-                mike = mike.surrogates;
-                entity['surrogates'] = mike;
+                zuuluu = michal.name;
+                entity['name'] = zuuluu;
+                michal = michal.surrogates;
+                entity['surrogates'] = michal;
                 return entity;
             }
         };
-        zulu = tango.bind(report)(zulu);
-        entity['emojis'] = zulu;
-        zulu = mike.isSectionNitroLocked;
-        mike = true;
-        mike = mike === zulu;
-        entity['isSectionNitroLocked'] = mike;
+        zuuluu = tangon.bind(report)(zuuluu);
+        entity['emojis'] = zuuluu;
+        zuuluu = michal.isSectionNitroLocked;
+        michal = true;
+        michal = michal === zuuluu;
+        entity['isSectionNitroLocked'] = michal;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

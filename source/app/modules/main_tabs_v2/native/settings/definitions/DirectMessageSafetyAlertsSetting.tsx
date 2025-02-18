@@ -1,118 +1,118 @@
 // app/modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    mike = mike.MobileSetting;
-    var _closure1_slot3 = mike;
-    mike = {};
-    golf = 1;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.RendererType;
-    golf = golf.TOGGLE;
-    mike['type'] = golf;
-    golf = function() { // Original name: title
+    michal = report.bind(entity)(michal);
+    michal = michal.MobileSetting;
+    var _closure1_slot3 = michal;
+    michal = {};
+    golfie = 1;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.RendererType;
+    golfie = golfie.TOGGLE;
+    michal['type'] = golfie;
+    golfie = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
+        oscard = _closure1_slot2;
         entity = 5;
-        mike = oscar[entity];
-        tango = undefined;
-        mike = report.bind(tango)(mike);
-        zulu = mike.intl;
-        mike = zulu.string;
-        entity = oscar[entity];
-        entity = report.bind(tango)(entity);
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
         entity = entity.t;
         entity = entity.qFsx5u;
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    mike['title'] = golf;
-    golf = function() { // Original name: parent
+    michal['title'] = golfie;
+    golfie = function() { // Original name: parent
         entity = _closure1_slot3;
         entity = entity.CONTENT_AND_SOCIAL;
         return entity;
     };
-    mike['parent'] = golf;
-    golf = 6;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.useSafetyAlertsSettingOrDefault;
-    mike['useValue'] = golf;
-    golf = 7;
-    golf = oscar[golf];
-    golf = report.bind(entity)(golf);
-    golf = golf.updateDmSafetyAlertsSetting;
-    mike['onValueChange'] = golf;
-    tango = function() { // Original name: useHasDmSafetyAlertsSetting
+    michal['parent'] = golfie;
+    golfie = 6;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.useSafetyAlertsSettingOrDefault;
+    michal['useValue'] = golfie;
+    golfie = 7;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.updateDmSafetyAlertsSetting;
+    michal['onValueChange'] = golfie;
+    tangon = function() { // Original name: useHasDmSafetyAlertsSetting
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zulu = _closure1_slot1;
-            tango = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
             entity = 2;
-            entity = tango[entity];
+            entity = tangon[entity];
             report = undefined;
-            entity = zulu.bind(report)(entity);
-            zulu = entity.bind(report)();
+            entity = zuuluu.bind(report)(entity);
+            zuuluu = entity.bind(report)();
             entity = null;
-            entity = entity == zulu;
+            entity = entity == zuuluu;
             if(entity) { _fun00002_ip = 41; continue _fun00001 }
  38:
-            entity = zulu;
+            entity = zuuluu;
  41:
-            tango = _closure1_slot0;
-            golf = _closure1_slot2;
-            mike = 3;
-            mike = golf[mike];
-            options = tango.bind(report)(mike);
-            zulu = options.useIsEligibleForInappropriateConversationWarning;
-            mike = {};
-            oscar = 'user_settings_mobile_redesign';
-            mike['location'] = oscar;
-            zulu = zulu.bind(options)(mike);
-            mike = 4;
-            mike = golf[mike];
-            report = tango.bind(report)(mike);
-            tango = report.useIsEligibleForInappropriateConversationDefaultOn;
-            mike = {};
-            mike['location'] = oscar;
-            mike = tango.bind(report)(mike);
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 3;
+            michal = golfie[michal];
+            option = tangon.bind(report)(michal);
+            zuuluu = option.useIsEligibleForInappropriateConversationWarning;
+            michal = {};
+            oscard = 'user_settings_mobile_redesign';
+            michal['location'] = oscard;
+            zuuluu = zuuluu.bind(option)(michal);
+            michal = 4;
+            michal = golfie[michal];
+            report = tangon.bind(report)(michal);
+            tangon = report.useIsEligibleForInappropriateConversationDefaultOn;
+            michal = {};
+            michal['location'] = oscard;
+            michal = tangon.bind(report)(michal);
             entity = !entity;
             if(!entity) { _fun00002_ip = 122; continue _fun00001 }
  119:
-            entity = zulu;
+            entity = zuuluu;
  122:
             if(!entity) { _fun00002_ip = 128; continue _fun00001 }
  125:
-            entity = !mike;
+            entity = !michal;
  128:
             return entity;
         }
     };
-    mike['usePredicate'] = tango;
-    tango = 8;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx';
-    tango = report.bind(oscar)(tango);
-    zulu['default'] = mike;
+    michal['usePredicate'] = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

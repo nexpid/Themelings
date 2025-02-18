@@ -1,115 +1,115 @@
 // app/modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    zuuluu = argFre;
+    report = argPlu;
     entity = argBaz;
     var _closure1_slot0 = entity;
     var _closure1_slot1 = report;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    tango = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    oscar = report[entity];
-    tango = argCorge;
+    oscard = report[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(oscar);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: useExternalPipAspectRatioUpdater
+    tangon = tangon.bind(entity)(oscard);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: useExternalPipAspectRatioUpdater
         report = argBar;
-        zulu = argBaz;
+        zuuluu = argBaz;
         var _closure2_slot0 = report;
-        var _closure2_slot1 = zulu;
-        tango = _closure1_slot2;
-        mike = tango.useRef;
-        mike = mike.bind(tango)(zulu);
-        var _closure2_slot2 = mike;
-        zulu = tango.useInsertionEffect;
-        mike = function() {
-            mike = _closure2_slot2;
+        var _closure2_slot1 = zuuluu;
+        tangon = _closure1_slot2;
+        michal = tangon.useRef;
+        michal = michal.bind(tangon)(zuuluu);
+        var _closure2_slot2 = michal;
+        zuuluu = tangon.useInsertionEffect;
+        michal = function() {
+            michal = _closure2_slot2;
             entity = _closure2_slot1;
-            mike['current'] = entity;
+            michal['current'] = entity;
             entity = undefined;
             return entity;
         };
-        mike = zulu.bind(tango)(mike);
-        zulu = tango.useEffect;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.useEffect;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
-            zulu = _closure2_slot0;
-            tango = zulu.getTargetDimensions;
-            mike = _closure2_slot2;
-            mike = mike.current;
-            mike = tango.bind(zulu)(mike);
-            var _closure3_slot0 = mike;
-            oscar = _closure1_slot0;
+            zuuluu = _closure2_slot0;
+            tangon = zuuluu.getTargetDimensions;
+            michal = _closure2_slot2;
+            michal = michal.current;
+            michal = tangon.bind(zuuluu)(michal);
+            var _closure3_slot0 = michal;
+            oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tango = 1;
-            report = report[tango];
-            tango = undefined;
-            oscar = oscar.bind(tango)(report);
-            report = oscar.setPipAspectRatio;
-            tango = mike.width;
-            mike = mike.height;
-            mike = report.bind(oscar)(tango, mike);
-            mike = zulu.subscribeFromItem;
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.setPipAspectRatio;
+            tangon = michal.width;
+            michal = michal.height;
+            michal = report.bind(oscard)(tangon, michal);
+            michal = zuuluu.subscribeFromItem;
             entity = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                    zulu = _closure2_slot0;
-                    mike = zulu.getTargetDimensions;
+                    zuuluu = _closure2_slot0;
+                    michal = zuuluu.getTargetDimensions;
                     entity = _closure2_slot2;
                     entity = entity.current;
-                    entity = mike.bind(zulu)(entity);
-                    tango = entity.width;
-                    zulu = entity.height;
+                    entity = michal.bind(zuuluu)(entity);
+                    tangon = entity.width;
+                    zuuluu = entity.height;
                     entity = _closure3_slot0;
                     entity = entity.width;
-                    entity = tango === entity;
+                    entity = tangon === entity;
                     if(!entity) { _fun00002_ip = 69; continue _fun00001 }
  56:
                     report = _closure3_slot0;
                     report = report.height;
-                    entity = zulu === report;
+                    entity = zuuluu === report;
  69:
                     if(entity) { _fun00002_ip = 123; continue _fun00001 }
  72:
                     entity = {};
-                    entity['width'] = tango;
-                    entity['height'] = zulu;
+                    entity['width'] = tangon;
+                    entity['height'] = zuuluu;
                     _closure3_slot0 = entity;
                     report = _closure1_slot0;
-                    mike = _closure1_slot1;
+                    michal = _closure1_slot1;
                     entity = 1;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    mike = report.bind(entity)(mike);
-                    entity = mike.setPipAspectRatio;
-                    entity = entity.bind(mike)(tango, zulu);
+                    michal = report.bind(entity)(michal);
+                    entity = michal.setPipAspectRatio;
+                    entity = entity.bind(michal)(tangon, zuuluu);
  123:
                     entity = undefined;
                     return entity;
                 }
             };
-            entity = mike.bind(zulu)(entity);
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = zulu.bind(tango)(entity, mike);
+        entity = zuuluu.bind(tangon)(entity, michal);
         entity = undefined;
         return entity;
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

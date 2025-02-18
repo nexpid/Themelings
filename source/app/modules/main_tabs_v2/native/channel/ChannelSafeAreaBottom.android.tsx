@@ -1,85 +1,85 @@
 // app/modules/main_tabs_v2/native/channel/ChannelSafeAreaBottom.android.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golf;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    options = oscar[entity];
-    tango = argCorge;
+    option = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(options);
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.KeyboardTypes;
-    var _closure1_slot4 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot5 = tango;
-    tango = ['bottom'];
-    var _closure1_slot6 = tango;
-    tango = new Array(0);
-    var _closure1_slot7 = tango;
-    tango = 7;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/main_tabs_v2/native/channel/ChannelSafeAreaBottom.android.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: ChannelSafeAreaBottom
+    tangon = tangon.bind(entity)(option);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.KeyboardTypes;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
+    tangon = ['bottom'];
+    var _closure1_slot6 = tangon;
+    tangon = new Array(0);
+    var _closure1_slot7 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/channel/ChannelSafeAreaBottom.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: ChannelSafeAreaBottom
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            mike = entity.channelId;
-            zulu = _closure1_slot1;
-            options = _closure1_slot2;
+            michal = entity.channelId;
+            zuuluu = _closure1_slot1;
+            option = _closure1_slot2;
             entity = 4;
-            entity = options[entity];
-            tango = undefined;
-            entity = zulu.bind(tango)(entity);
-            report = entity.bind(tango)(mike);
-            mike = _closure1_slot0;
+            entity = option[entity];
+            tangon = undefined;
+            entity = zuuluu.bind(tangon)(entity);
+            report = entity.bind(tangon)(michal);
+            michal = _closure1_slot0;
             entity = 5;
-            entity = options[entity];
-            verify = mike.bind(tango)(entity);
-            golf = verify.useStateFromStores;
+            entity = option[entity];
+            verify = michal.bind(tangon)(entity);
+            golfie = verify.useStateFromStores;
             entity = _closure1_slot3;
-            zulu = new Array(1);
-            zulu[0] = entity;
+            zuuluu = new Array(1);
+            zuuluu[0] = entity;
             entity = function() {
                 entity = _closure1_slot3;
                 entity = entity.keyboardType;
                 return entity;
             };
-            golf = golf.bind(verify)(zulu, entity);
-            zulu = _closure1_slot5;
+            golfie = golfie.bind(verify)(zuuluu, entity);
+            zuuluu = _closure1_slot5;
             entity = 6;
-            entity = options[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.SafeAreaView;
+            entity = option[entity];
+            entity = michal.bind(tangon)(entity);
+            michal = entity.SafeAreaView;
             entity = {};
             entity['style'] = report;
             report = _closure1_slot4;
             report = report.SYSTEM;
-            if(!(golf !== report)) { _fun00002_ip = 134; continue _fun00001 }
+            if(!(golfie !== report)) { _fun00002_ip = 134; continue _fun00001 }
  128:
             report = _closure1_slot7;
             _fun00002_ip = 138; continue _fun00001;
@@ -87,10 +87,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot6;
  138:
             entity['edges'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

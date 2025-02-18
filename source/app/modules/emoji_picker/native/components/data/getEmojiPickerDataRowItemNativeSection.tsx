@@ -1,70 +1,70 @@
 // app/modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemNativeSection.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemNativeSection.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: getEmojiPickerDataRowItemNativeSection
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemNativeSection.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: getEmojiPickerDataRowItemNativeSection
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscar = entity.label;
+            oscard = entity.label;
             report = entity.guildId;
-            tango = entity.emojiCount;
-            golf = entity.emojisDisabled;
-            mike = entity.isSectionNitroLocked;
+            tangon = entity.emojiCount;
+            golfie = entity.emojisDisabled;
+            michal = entity.isSectionNitroLocked;
             verify = undefined;
-            if(!(mike === verify)) { _fun00002_ip = 39; continue _fun00001 }
+            if(!(michal === verify)) { _fun00002_ip = 39; continue _fun00001 }
  37:
-            mike = false;
+            michal = false;
  39:
-            if(mike) { _fun00002_ip = 62; continue _fun00001 }
+            if(michal) { _fun00002_ip = 62; continue _fun00001 }
  42:
             entity = global;
-            zulu = entity.Array;
-            entity = zulu.from;
-            zulu = entity.bind(zulu)(golf);
+            zuuluu = entity.Array;
+            entity = zuuluu.from;
+            zuuluu = entity.bind(zuuluu)(golfie);
             _fun00002_ip = 66; continue _fun00001;
  62:
-            zulu = new Array(0);
+            zuuluu = new Array(0);
  66:
             entity = {};
-            options = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot1;
-            golf = 0;
-            golf = offset[golf];
-            golf = options.bind(verify)(golf);
-            golf = golf.EmojiPickerFlashListItemType;
-            golf = golf.NATIVE_SECTION;
-            entity['type'] = golf;
-            entity['title'] = oscar;
+            golfie = 0;
+            golfie = offset[golfie];
+            golfie = option.bind(verify)(golfie);
+            golfie = golfie.EmojiPickerFlashListItemType;
+            golfie = golfie.NATIVE_SECTION;
+            entity['type'] = golfie;
+            entity['title'] = oscard;
             entity['guildId'] = report;
-            entity['emojiCount'] = tango;
-            entity['emojisDisabled'] = zulu;
-            entity['isSectionNitroLocked'] = mike;
-            mike = argBar;
-            entity['hasPremiumInlineRoadblockHeader'] = mike;
-            mike = argBaz;
-            entity['hasPremiumInlineRoadblockFooter'] = mike;
+            entity['emojiCount'] = tangon;
+            entity['emojisDisabled'] = zuuluu;
+            entity['isSectionNitroLocked'] = michal;
+            michal = argBar;
+            entity['hasPremiumInlineRoadblockHeader'] = michal;
+            michal = argBaz;
+            entity['hasPremiumInlineRoadblockFooter'] = michal;
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

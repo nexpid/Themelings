@@ -1,67 +1,67 @@
 // app/uikit-native/refresh/form/FormSubLabel.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/refresh/form/FormSubLabel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: FormSubLabel
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/refresh/form/FormSubLabel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: FormSubLabel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.text;
-            options = entity.numberOfLines;
-            golf = entity.style;
-            oscar = entity.accessible;
+            option = entity.numberOfLines;
+            golfie = entity.style;
+            oscard = entity.accessible;
             verify = entity.color;
-            tango = undefined;
-            if(!(verify === tango)) { _fun00002_ip = 42; continue _fun00001 }
+            tangon = undefined;
+            if(!(verify === tangon)) { _fun00002_ip = 42; continue _fun00001 }
  36:
             verify = 'text-secondary';
  42:
-            zulu = _closure1_slot2;
-            mike = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot0;
             offset = _closure1_slot1;
             entity = 2;
             entity = offset[entity];
-            entity = mike.bind(tango)(entity);
-            mike = entity.Text;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Text;
             entity = {};
             entity['color'] = verify;
             verify = 'text-xs/normal';
             entity['variant'] = verify;
-            entity['lineClamp'] = options;
-            entity['style'] = golf;
-            entity['accessible'] = oscar;
+            entity['lineClamp'] = option;
+            entity['style'] = golfie;
+            entity['accessible'] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

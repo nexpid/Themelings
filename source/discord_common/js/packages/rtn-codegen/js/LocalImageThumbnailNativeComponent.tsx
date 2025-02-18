@@ -1,40 +1,40 @@
 // discord_common/js/packages/rtn-codegen/js/LocalImageThumbnailNativeComponent.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    oscar = argBar;
-    zulu = argFred;
-    golf = argPlugh;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    mike = {};
+    option = verify.defineProperty;
+    michal = {};
     report = true;
-    mike['value'] = report;
+    michal['value'] = report;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, mike);
-    mike = {};
+    entity = option.bind(verify)(zuuluu, entity, michal);
+    michal = {};
     verify = 'DCDLocalImageThumbnail';
-    mike['uiViewClassName'] = verify;
+    michal['uiViewClassName'] = verify;
     entity = {};
     entity['localImageSource'] = report;
-    mike['validAttributes'] = entity;
-    var _closure1_slot0 = mike;
+    michal['validAttributes'] = entity;
+    var _closure1_slot0 = michal;
     entity = 0;
-    report = golf[entity];
+    report = golfie[entity];
     entity = undefined;
-    options = oscar.bind(entity)(report);
-    report = options.get;
-    tango = function() {
+    option = oscard.bind(entity)(report);
+    report = option.get;
+    tangon = function() {
         entity = _closure1_slot0;
         return entity;
     };
-    tango = report.bind(options)(verify, tango);
+    tangon = report.bind(option)(verify, tangon);
     report = 1;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = '../discord_common/js/packages/rtn-codegen/js/LocalImageThumbnailNativeComponent.tsx';
-    report = oscar.bind(golf)(report);
-    zulu['default'] = tango;
-    zulu['__INTERNAL_VIEW_CONFIG'] = mike;
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['__INTERNAL_VIEW_CONFIG'] = michal;
     return entity;
 })();

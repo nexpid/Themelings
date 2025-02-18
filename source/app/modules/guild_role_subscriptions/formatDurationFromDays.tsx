@@ -1,71 +1,71 @@
 // app/modules/guild_role_subscriptions/formatDurationFromDays.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 1;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_role_subscriptions/formatDurationFromDays.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: formatDurationFromDays
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_role_subscriptions/formatDurationFromDays.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: formatDurationFromDays
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
+            golfie = argFoo;
             verify = 0;
-            if(!(golf > verify)) { _fun00002_ip = 20; continue _fun00001 }
+            if(!(golfie > verify)) { _fun00002_ip = 20; continue _fun00001 }
  9:
-            oscar = 7;
-            entity = golf % oscar;
+            oscard = 7;
+            entity = golfie % oscard;
             if(!(entity !== verify)) { _fun00002_ip = 87; continue _fun00001 }
  20:
             report = _closure1_slot0;
             entity = _closure1_slot1;
-            zulu = entity[verify];
-            mike = undefined;
-            zulu = report.bind(mike)(zulu);
-            tango = zulu.intl;
-            zulu = tango.formatToPlainString;
+            zuuluu = entity[verify];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.formatToPlainString;
             entity = entity[verify];
-            entity = report.bind(mike)(entity);
+            entity = report.bind(michal)(entity);
             entity = entity.t;
-            mike = entity.k2UNz8;
+            michal = entity.k2UNz8;
             entity = {};
-            entity['days'] = golf;
-            entity = zulu.bind(tango)(mike, entity);
+            entity['days'] = golfie;
+            entity = zuuluu.bind(tangon)(michal, entity);
             _fun00002_ip = 156; continue _fun00001;
  87:
-            options = _closure1_slot0;
-            mike = _closure1_slot1;
-            tango = mike[verify];
-            zulu = undefined;
-            tango = options.bind(zulu)(tango);
-            report = tango.intl;
-            tango = report.formatToPlainString;
-            mike = mike[verify];
-            mike = options.bind(zulu)(mike);
-            mike = mike.t;
-            zulu = mike.EmoBDw;
-            mike = {};
-            oscar = golf / oscar;
-            mike['weeks'] = oscar;
-            entity = tango.bind(report)(zulu, mike);
+            option = _closure1_slot0;
+            michal = _closure1_slot1;
+            tangon = michal[verify];
+            zuuluu = undefined;
+            tangon = option.bind(zuuluu)(tangon);
+            report = tangon.intl;
+            tangon = report.formatToPlainString;
+            michal = michal[verify];
+            michal = option.bind(zuuluu)(michal);
+            michal = michal.t;
+            zuuluu = michal.EmoBDw;
+            michal = {};
+            oscard = golfie / oscard;
+            michal['weeks'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
  156:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

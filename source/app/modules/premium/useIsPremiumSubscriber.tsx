@@ -1,74 +1,74 @@
 // app/modules/premium/useIsPremiumSubscriber.tsx
-export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.PremiumTypes;
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/useIsPremiumSubscriber.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function() { // Original name: useIsPremiumSubscriber
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.PremiumTypes;
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/premium/useIsPremiumSubscriber.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: useIsPremiumSubscriber
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = arguments[0];
+            michal = arguments[0];
             report = undefined;
-            if(!(mike === report)) { _fun00002_ip = 24; continue _fun00001 }
+            if(!(michal === report)) { _fun00002_ip = 24; continue _fun00001 }
  11:
-            zulu = _closure1_slot3;
-            mike = zulu.TIER_2;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.TIER_2;
  24:
-            var _closure2_slot0 = mike;
-            tango = _closure1_slot0;
-            oscar = _closure1_slot1;
-            zulu = 2;
-            zulu = oscar[zulu];
-            tango = tango.bind(report)(zulu);
-            zulu = tango.useStateFromStores;
+            var _closure2_slot0 = michal;
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.useStateFromStores;
             report = _closure1_slot2;
-            mike = new Array(1);
-            mike[0] = report;
+            michal = new Array(1);
+            michal[0] = report;
             entity = function() {
-                zulu = _closure1_slot2;
-                mike = zulu.getCurrentUser;
-                tango = mike.bind(zulu)();
-                zulu = _closure1_slot0;
-                mike = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.getCurrentUser;
+                tangon = michal.bind(zuuluu)();
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
                 entity = 3;
-                mike = mike[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zulu = zulu.bind(entity)(mike);
-                mike = zulu.isPremiumExactly;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.isPremiumExactly;
                 entity = _closure2_slot0;
-                entity = mike.bind(zulu)(tango, entity);
+                entity = michal.bind(zuuluu)(tangon, entity);
                 return entity;
             };
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['useIsPremiumSubscriber'] = mike;
+    zuuluu['useIsPremiumSubscriber'] = michal;
     return entity;
 })();

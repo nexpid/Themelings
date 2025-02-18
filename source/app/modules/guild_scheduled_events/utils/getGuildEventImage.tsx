@@ -1,106 +1,106 @@
 // app/modules/guild_scheduled_events/utils/getGuildEventImage.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.Endpoints;
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/guild_scheduled_events/utils/getGuildEventImage.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar) { // Original name: getGuildEventImageURL
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_scheduled_events/utils/getGuildEventImage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getGuildEventImageURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            oscar = argBar;
-            mike = tango.image;
+            tangon = argFoo;
+            oscard = argBar;
+            michal = tangon.image;
             entity = null;
-            if(!(entity != mike)) { _fun00002_ip = 298; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 298; continue _fun00001 }
  21:
-            if(!(entity == oscar)) { _fun00002_ip = 83; continue _fun00001 }
+            if(!(entity == oscard)) { _fun00002_ip = 83; continue _fun00001 }
  25:
-            mike = global;
-            mike = mike.window;
-            mike = mike.screen;
-            zulu = mike.width;
-            golf = _closure1_slot0;
+            michal = global;
+            michal = michal.window;
+            michal = michal.screen;
+            zuuluu = michal.width;
+            golfie = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 1;
-            report = report[mike];
-            mike = undefined;
-            report = golf.bind(mike)(report);
-            mike = report.getDevicePixelRatio;
-            mike = mike.bind(report)();
-            oscar = zulu * mike;
+            michal = 1;
+            report = report[michal];
+            michal = undefined;
+            report = golfie.bind(michal)(report);
+            michal = report.getDevicePixelRatio;
+            michal = michal.bind(report)();
+            oscard = zuuluu * michal;
  83:
-            golf = _closure1_slot0;
+            golfie = _closure1_slot0;
             report = _closure1_slot1;
-            mike = 1;
-            report = report[mike];
-            mike = undefined;
-            report = golf.bind(mike)(report);
-            mike = report.getBestMediaProxySize;
-            report = mike.bind(report)(oscar);
-            mike = global;
-            oscar = mike.window;
-            oscar = oscar.GLOBAL_ENV;
-            foxtrot = oscar.CDN_HOST;
-            if(!(entity == foxtrot)) { _fun00002_ip = 217; continue _fun00001 }
+            michal = 1;
+            report = report[michal];
+            michal = undefined;
+            report = golfie.bind(michal)(report);
+            michal = report.getBestMediaProxySize;
+            report = michal.bind(report)(oscard);
+            michal = global;
+            oscard = michal.window;
+            oscard = oscard.GLOBAL_ENV;
+            foxtra = oscard.CDN_HOST;
+            if(!(entity == foxtra)) { _fun00002_ip = 217; continue _fun00001 }
  143:
-            oscar = mike.location;
-            golf = oscar.protocol;
-            oscar = mike.window;
-            oscar = oscar.GLOBAL_ENV;
-            oscar = oscar.API_ENDPOINT;
-            oscar = golf + oscar;
+            oscard = michal.location;
+            golfie = oscard.protocol;
+            oscard = michal.window;
+            oscard = oscard.GLOBAL_ENV;
+            oscard = oscard.API_ENDPOINT;
+            oscard = golfie + oscard;
             offset = _closure1_slot2;
             verify = offset.GUILD_EVENT_IMAGE;
-            options = tango.id;
-            golf = tango.image;
-            zulu = 'png';
-            zulu = verify.bind(offset)(options, golf, zulu);
-            zulu = oscar + zulu;
+            option = tangon.id;
+            golfie = tangon.image;
+            zuuluu = 'png';
+            zuuluu = verify.bind(offset)(option, golfie, zuuluu);
+            zuuluu = oscard + zuuluu;
             _fun00002_ip = 270; continue _fun00001;
  217:
-            sizing = tango.id;
-            backup = tango.image;
-            tango = mike.HermesInternal;
-            offset = tango.concat;
+            sizing = tangon.id;
+            backup = tangon.image;
+            tangon = michal.HermesInternal;
+            offset = tangon.concat;
             source = '';
             update = 'https:';
-            echo = '//';
+            echoed = '//';
             output = '/guild-events/';
-            kilo = '/';
-            result = foxtrot;
-            zulu = source[offset](update, echo, result, output, sizing, kilo, backup, foxtrot);
+            kiloes = '/';
+            result = foxtra;
+            zuuluu = source[offset](update, echoed, result, output, sizing, kiloes, backup, foxtra);
  270:
-            mike = mike.HermesInternal;
-            tango = mike.concat;
-            mike = '?size=';
-            mike = tango.bind(mike)(report);
-            mike = zulu + mike;
-            return mike;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            michal = '?size=';
+            michal = tangon.bind(michal)(report);
+            michal = zuuluu + michal;
+            return michal;
  298:
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

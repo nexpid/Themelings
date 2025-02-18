@@ -1,55 +1,55 @@
 // discord_common/js/packages/media-engine/utils/platformVersion.tsx
-export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
     report = entity.Object;
-    tango = report.defineProperty;
-    mike = {};
+    tangon = report.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = tango.bind(report)(zulu, entity, mike);
-    mike = argPlugh;
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = argPlu;
     entity = 0;
-    tango = mike[entity];
-    mike = argBar;
+    tangon = michal[entity];
+    michal = argBar;
     entity = undefined;
-    report = mike.bind(entity)(tango);
-    tango = report.fileFinishedImporting;
-    mike = '../discord_common/js/packages/media-engine/utils/platformVersion.tsx';
-    mike = tango.bind(report)(mike);
-    mike = function() { // Original name: platformVersion
+    report = michal.bind(entity)(tangon);
+    tangon = report.fileFinishedImporting;
+    michal = '../discord_common/js/packages/media-engine/utils/platformVersion.tsx';
+    michal = tangon.bind(report)(michal);
+    michal = function() { // Original name: platformVersion
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = global;
-            zulu = mike.platform;
-            tango = 'undefined';
-            zulu = typeof zulu;
+            michal = global;
+            zuuluu = michal.platform;
+            tangon = 'undefined';
+            zuuluu = typeof zuuluu;
             entity = 0;
-            if(!(tango !== zulu)) { _fun00002_ip = 77; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 77; continue _fun00001 }
  21:
-            report = mike.parseInt;
-            oscar = mike.platform;
-            zulu = null;
-            golf = zulu == oscar;
-            tango = undefined;
-            mike = undefined;
-            if(golf) { _fun00002_ip = 52; continue _fun00001 }
+            report = michal.parseInt;
+            oscard = michal.platform;
+            zuuluu = null;
+            golfie = zuuluu == oscard;
+            tangon = undefined;
+            michal = undefined;
+            if(golfie) { _fun00002_ip = 52; continue _fun00001 }
  46:
-            mike = oscar.version;
+            michal = oscard.version;
  52:
-            oscar = zulu != mike;
-            zulu = '0';
-            if(!oscar) { _fun00002_ip = 68; continue _fun00001 }
+            oscard = zuuluu != michal;
+            zuuluu = '0';
+            if(!oscard) { _fun00002_ip = 68; continue _fun00001 }
  65:
-            zulu = mike;
+            zuuluu = michal;
  68:
-            mike = 10;
-            entity = report.bind(tango)(zulu, mike);
+            michal = 10;
+            entity = report.bind(tangon)(zuuluu, michal);
  77:
             return entity;
         }
     };
-    zulu['platformVersion'] = mike;
+    zuuluu['platformVersion'] = michal;
     return entity;
 })();

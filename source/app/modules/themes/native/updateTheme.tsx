@@ -1,63 +1,63 @@
 // app/modules/themes/native/updateTheme.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot2 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = report.bind(entity)(tango);
-    tango = tango.NativeModules;
-    var _closure1_slot3 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/themes/native/updateTheme.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: updateTheme
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.NativeModules;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/themes/native/updateTheme.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: updateTheme
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tango = argFoo;
-            zulu = _closure1_slot0;
+            tangon = argFoo;
+            zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             entity = 1;
             entity = report[entity];
             report = undefined;
-            zulu = zulu.bind(report)(entity);
-            entity = zulu.isAndroid;
-            entity = entity.bind(zulu)();
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.isAndroid;
+            entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 63; continue _fun00001 }
  40:
             entity = _closure1_slot3;
-            zulu = entity.DCDTheme;
-            entity = zulu.updateTheme;
-            entity = entity.bind(zulu)(tango);
+            zuuluu = entity.DCDTheme;
+            entity = zuuluu.updateTheme;
+            entity = entity.bind(zuuluu)(tangon);
             _fun00002_ip = 94; continue _fun00001;
  63:
-            zulu = _closure1_slot1;
-            oscar = _closure1_slot2;
-            mike = 2;
-            mike = oscar[mike];
-            zulu = zulu.bind(report)(mike);
-            mike = zulu.updateTheme;
-            entity = mike.bind(zulu)(tango);
+            zuuluu = _closure1_slot1;
+            oscard = _closure1_slot2;
+            michal = 2;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.updateTheme;
+            entity = michal.bind(zuuluu)(tangon);
  94:
             return entity;
         }
     };
-    zulu['updateTheme'] = mike;
+    zuuluu['updateTheme'] = michal;
     return entity;
 })();

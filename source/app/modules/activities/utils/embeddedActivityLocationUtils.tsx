@@ -1,106 +1,106 @@
 // app/modules/activities/utils/embeddedActivityLocationUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    zulu = argFred;
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    zuuluu = argFre;
     entity = global;
-    oscar = entity.Object;
-    report = oscar.defineProperty;
-    tango = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(oscar)(zulu, entity, tango);
-    tango = argPlugh;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    report = tango[entity];
-    tango = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/embeddedActivityLocationUtils.tsx';
-    tango = report.bind(oscar)(tango);
-    tango = function(argFoo) { // Original name: getEmbeddedActivityLocationChannelId
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/embeddedActivityLocationUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationChannelId
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun00002_ip = 13; continue _fun00001 }
+            if(!(entity == michal)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             entity = undefined;
             return entity;
  13:
             entity = 'channel_id';
-            zulu = entity in mike;
+            zuuluu = entity in michal;
             entity = undefined;
-            if(!zulu) { _fun00002_ip = 31; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 31; continue _fun00001 }
  26:
-            entity = mike.channel_id;
+            entity = michal.channel_id;
  31:
             return entity;
         }
     };
-    zulu['getEmbeddedActivityLocationChannelId'] = tango;
-    tango = function(argFoo) { // Original name: getEmbeddedActivityLocationGuildId
+    zuuluu['getEmbeddedActivityLocationChannelId'] = tangon;
+    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationGuildId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun00004_ip = 13; continue _fun00003 }
+            if(!(entity == michal)) { _fun00004_ip = 13; continue _fun00003 }
  9:
             entity = undefined;
             return entity;
  13:
             entity = 'guild_id';
-            zulu = entity in mike;
+            zuuluu = entity in michal;
             entity = undefined;
-            if(!zulu) { _fun00004_ip = 31; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 31; continue _fun00003 }
  26:
-            entity = mike.guild_id;
+            entity = michal.guild_id;
  31:
             return entity;
         }
     };
-    zulu['getEmbeddedActivityLocationGuildId'] = tango;
-    tango = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingChannelId
+    zuuluu['getEmbeddedActivityLocationGuildId'] = tangon;
+    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingChannelId
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun00006_ip = 13; continue _fun00005 }
+            if(!(entity == michal)) { _fun00006_ip = 13; continue _fun00005 }
  9:
             entity = undefined;
             return entity;
  13:
             entity = 'starting_channel_id';
-            zulu = entity in mike;
+            zuuluu = entity in michal;
             entity = undefined;
-            if(!zulu) { _fun00006_ip = 36; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 36; continue _fun00005 }
  28:
-            entity = mike.starting_channel_id;
+            entity = michal.starting_channel_id;
  36:
             return entity;
         }
     };
-    zulu['getEmbeddedActivityLocationStartingChannelId'] = tango;
-    mike = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
+    zuuluu['getEmbeddedActivityLocationStartingChannelId'] = tangon;
+    michal = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            mike = argFoo;
+            michal = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun00008_ip = 13; continue _fun00007 }
+            if(!(entity == michal)) { _fun00008_ip = 13; continue _fun00007 }
  9:
             entity = undefined;
             return entity;
  13:
             entity = 'starting_guild_id';
-            zulu = entity in mike;
+            zuuluu = entity in michal;
             entity = undefined;
-            if(!zulu) { _fun00008_ip = 36; continue _fun00007 }
+            if(!zuuluu) { _fun00008_ip = 36; continue _fun00007 }
  28:
-            entity = mike.starting_guild_id;
+            entity = michal.starting_guild_id;
  36:
             return entity;
         }
     };
-    zulu['getEmbeddedActivityLocationStartingGuildId'] = mike;
+    zuuluu['getEmbeddedActivityLocationStartingGuildId'] = michal;
     return entity;
 })();

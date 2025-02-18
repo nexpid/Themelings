@@ -1,94 +1,94 @@
 // app/modules/activities/utils/isInviteActive.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
-    var _closure1_slot0 = oscar;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = report;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    tango = tango.Millis;
-    oscar = tango.HOUR;
-    tango = 2;
-    oscar = tango * oscar;
-    var _closure1_slot2 = oscar;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/activities/utils/isInviteActive.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo, argBar, argBaz) { // Original name: isInviteActive
+    tangon = oscard.bind(entity)(tangon);
+    tangon = tangon.Millis;
+    oscard = tangon.HOUR;
+    tangon = 2;
+    oscard = tangon * oscard;
+    var _closure1_slot2 = oscard;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/activities/utils/isInviteActive.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar, argBaz) { // Original name: isInviteActive
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            zulu = argBar;
+            zuuluu = argBar;
             report = null;
             if(!(report != entity)) { _fun00002_ip = 193; continue _fun00001 }
  15:
-            mike = zulu.activity;
-            mike = report != mike;
-            golf = null;
-            if(!mike) { _fun00002_ip = 42; continue _fun00001 }
+            michal = zuuluu.activity;
+            michal = report != michal;
+            golfie = null;
+            if(!michal) { _fun00002_ip = 42; continue _fun00001 }
  30:
-            mike = zulu.activity;
-            golf = mike.party_id;
+            michal = zuuluu.activity;
+            golfie = michal.party_id;
  42:
-            tango = report != golf;
-            if(!tango) { _fun00002_ip = 80; continue _fun00001 }
+            tangon = report != golfie;
+            if(!tangon) { _fun00002_ip = 80; continue _fun00001 }
  49:
-            mike = entity.party;
-            mike = report == mike;
-            if(mike) { _fun00002_ip = 77; continue _fun00001 }
+            michal = entity.party;
+            michal = report == michal;
+            if(michal) { _fun00002_ip = 77; continue _fun00001 }
  62:
-            oscar = entity.party;
-            oscar = oscar.id;
-            mike = oscar !== golf;
+            oscard = entity.party;
+            oscard = oscard.id;
+            michal = oscard !== golfie;
  77:
-            tango = mike;
+            tangon = michal;
  80:
-            options = _closure1_slot0;
-            golf = _closure1_slot1;
-            oscar = 1;
-            golf = golf[oscar];
-            oscar = undefined;
-            golf = options.bind(oscar)(golf);
-            oscar = golf.extractTimestamp;
-            zulu = zulu.id;
-            zulu = oscar.bind(golf)(zulu);
-            mike = _closure1_slot2;
-            zulu = zulu + mike;
-            mike = global;
-            oscar = mike.Date;
-            mike = oscar.now;
-            mike = mike.bind(oscar)();
-            zulu = zulu < mike;
-            mike = entity.application_id;
-            mike = report != mike;
-            if(!mike) { _fun00002_ip = 176; continue _fun00001 }
+            option = _closure1_slot0;
+            golfie = _closure1_slot1;
+            oscard = 1;
+            golfie = golfie[oscard];
+            oscard = undefined;
+            golfie = option.bind(oscard)(golfie);
+            oscard = golfie.extractTimestamp;
+            zuuluu = zuuluu.id;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            michal = _closure1_slot2;
+            zuuluu = zuuluu + michal;
+            michal = global;
+            oscard = michal.Date;
+            michal = oscard.now;
+            michal = michal.bind(oscard)();
+            zuuluu = zuuluu < michal;
+            michal = entity.application_id;
+            michal = report != michal;
+            if(!michal) { _fun00002_ip = 176; continue _fun00001 }
  163:
             report = entity.application_id;
             entity = argBaz;
-            mike = report !== entity;
+            michal = report !== entity;
  176:
-            entity = !tango;
-            if(tango) { _fun00002_ip = 185; continue _fun00001 }
+            entity = !tangon;
+            if(tangon) { _fun00002_ip = 185; continue _fun00001 }
  182:
-            entity = !zulu;
+            entity = !zuuluu;
  185:
             if(!entity) { _fun00002_ip = 191; continue _fun00001 }
  188:
-            entity = !mike;
+            entity = !michal;
  191:
             return entity;
  193:
@@ -96,6 +96,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

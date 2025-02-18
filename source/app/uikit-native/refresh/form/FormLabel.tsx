@@ -1,72 +1,72 @@
 // app/uikit-native/refresh/form/FormLabel.tsx
-export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argCorge;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    tango = 1;
-    tango = oscar[tango];
-    tango = report.bind(entity)(tango);
-    tango = tango.jsx;
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'uikit-native/refresh/form/FormLabel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: FormLabel
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'uikit-native/refresh/form/FormLabel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: FormLabel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.text;
             verify = entity.numberOfLines;
-            tango = undefined;
-            if(!(verify === tango)) { _fun00002_ip = 22; continue _fun00001 }
+            tangon = undefined;
+            if(!(verify === tangon)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             verify = 0;
  22:
-            options = entity.style;
-            oscar = entity.accessible;
+            option = entity.style;
+            oscard = entity.accessible;
             offset = entity.color;
-            if(!(offset === tango)) { _fun00002_ip = 48; continue _fun00001 }
+            if(!(offset === tangon)) { _fun00002_ip = 48; continue _fun00001 }
  42:
             offset = 'header-primary';
  48:
-            zulu = _closure1_slot2;
-            mike = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = _closure1_slot0;
             entity = _closure1_slot1;
-            golf = 2;
-            entity = entity[golf];
-            entity = mike.bind(tango)(entity);
-            mike = entity.Text;
+            golfie = 2;
+            entity = entity[golfie];
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Text;
             entity = {};
             yankee = 'heading-md/semibold';
             entity['variant'] = yankee;
             entity['color'] = offset;
             entity['lineClamp'] = verify;
-            entity['style'] = options;
-            entity['maxFontSizeMultiplier'] = golf;
-            entity['accessible'] = oscar;
+            entity['style'] = option;
+            entity['maxFontSizeMultiplier'] = golfie;
+            entity['accessible'] = oscard;
             entity['children'] = report;
-            entity = zulu.bind(tango)(mike, entity);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zulu['default'] = mike;
+    zuuluu['default'] = michal;
     return entity;
 })();

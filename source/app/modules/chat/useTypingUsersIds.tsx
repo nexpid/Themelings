@@ -1,123 +1,123 @@
 // app/modules/chat/useTypingUsersIds.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golf = argBaz;
-    zulu = argFred;
-    oscar = argPlugh;
+    golfie = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    options = verify.defineProperty;
-    tango = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, tango);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tango = oscar[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 1;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    tango = golf.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 4;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/chat/useTypingUsersIds.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useTypingUserIds
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/chat/useTypingUsersIds.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useTypingUserIds
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = argFoo;
-            oscar = arguments[1];
-            var _closure2_slot0 = golf;
+            golfie = argFoo;
+            oscard = arguments[1];
+            var _closure2_slot0 = golfie;
             report = undefined;
-            if(!(oscar === report)) { _fun00002_ip = 32; continue _fun00001 }
+            if(!(oscard === report)) { _fun00002_ip = 32; continue _fun00001 }
  18:
-            mike = global;
-            mike = mike.Number;
-            oscar = mike.MAX_SAFE_INTEGER;
+            michal = global;
+            michal = michal.Number;
+            oscard = michal.MAX_SAFE_INTEGER;
  32:
-            var _closure2_slot1 = oscar;
-            tango = _closure1_slot0;
-            options = _closure1_slot1;
-            zulu = 3;
-            zulu = options[zulu];
-            report = tango.bind(report)(zulu);
-            tango = report.useStateFromStoresArray;
-            options = _closure1_slot4;
-            zulu = new Array(3);
-            zulu[0] = options;
-            options = _closure1_slot3;
-            zulu[1] = options;
-            mike = _closure1_slot2;
-            zulu[2] = mike;
-            mike = new Array(2);
-            mike[0] = golf;
-            mike[1] = oscar;
+            var _closure2_slot1 = oscard;
+            tangon = _closure1_slot0;
+            option = _closure1_slot1;
+            zuuluu = 3;
+            zuuluu = option[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.useStateFromStoresArray;
+            option = _closure1_slot4;
+            zuuluu = new Array(3);
+            zuuluu[0] = option;
+            option = _closure1_slot3;
+            zuuluu[1] = option;
+            michal = _closure1_slot2;
+            zuuluu[2] = michal;
+            michal = new Array(2);
+            michal[0] = golfie;
+            michal[1] = oscard;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = _closure1_slot4;
-                    entity = mike.getCurrentUser;
-                    entity = entity.bind(mike)();
+                    michal = _closure1_slot4;
+                    entity = michal.getCurrentUser;
+                    entity = entity.bind(michal)();
                     verify = null;
-                    mike = verify == entity;
-                    options = undefined;
-                    if(mike) { _fun00004_ip = 32; continue _fun00003 }
+                    michal = verify == entity;
+                    option = undefined;
+                    if(michal) { _fun00004_ip = 32; continue _fun00003 }
  27:
-                    options = entity.id;
+                    option = entity.id;
  32:
-                    zulu = _closure1_slot3;
-                    mike = zulu.getTypingUsers;
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.getTypingUsers;
                     entity = _closure2_slot0;
-                    mike = mike.bind(zulu)(entity);
+                    michal = michal.bind(zuuluu)(entity);
                     entity = new Array(0);
-                    report = mike;
-                    for(mike in report)
+                    report = michal;
+                    for(michal in report)
  69:
                     {
  78:
-                        foxtrot = mike;
-                        romeo = entity.length;
+                        foxtra = michal;
+                        romeon = entity.length;
                         yankee = _closure2_slot1;
-                        if(!(!(romeo >= yankee))) { _fun00004_ip = 162; continue _fun00003 }
+                        if(!(!(romeon >= yankee))) { _fun00004_ip = 162; continue _fun00003 }
  94:
-                        romeo = _closure1_slot4;
-                        yankee = romeo.getUser;
-                        yankee = yankee.bind(romeo)(foxtrot);
+                        romeon = _closure1_slot4;
+                        yankee = romeon.getUser;
+                        yankee = yankee.bind(romeon)(foxtra);
                         if(verify == yankee) { _fun00004_ip = 69; continue _fun00003 }
  113:
-                        romeo = yankee.id;
-                        if(romeo === options) { _fun00004_ip = 69; continue _fun00003 }
+                        romeon = yankee.id;
+                        if(romeon === option) { _fun00004_ip = 69; continue _fun00003 }
  122:
                         backup = _closure1_slot2;
-                        foxtrot = backup.isBlockedOrIgnored;
-                        romeo = yankee.id;
-                        romeo = foxtrot.bind(backup)(romeo);
-                        if(romeo) { _fun00004_ip = 69; continue _fun00003 }
+                        foxtra = backup.isBlockedOrIgnored;
+                        romeon = yankee.id;
+                        romeon = foxtra.bind(backup)(romeon);
+                        if(romeon) { _fun00004_ip = 69; continue _fun00003 }
  145:
-                        romeo = entity.push;
+                        romeon = entity.push;
                         yankee = yankee.id;
-                        yankee = romeo.bind(entity)(yankee);
+                        yankee = romeon.bind(entity)(yankee);
                         _fun00004_ip = 69; continue _fun00003;
                     }
  162:
                     return entity;
                 }
             };
-            entity = tango.bind(report)(zulu, entity, mike);
+            entity = tangon.bind(report)(zuuluu, entity, michal);
             return entity;
         }
     };
-    zulu['useTypingUserIds'] = mike;
+    zuuluu['useTypingUserIds'] = michal;
     return entity;
 })();

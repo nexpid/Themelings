@@ -1,99 +1,99 @@
 // app/modules/autocompleter/findNextSelectedResult.tsx
-export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    mike = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    mike['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, mike);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    mike = oscar[entity];
+    michal = oscard[entity];
     entity = undefined;
-    mike = report.bind(entity)(mike);
-    golf = mike.FindResultDirections;
-    var _closure1_slot0 = golf;
-    mike = mike.AutocompleterResultTypes;
-    var _closure1_slot1 = mike;
-    mike = 1;
-    mike = oscar[mike];
-    oscar = report.bind(entity)(mike);
-    report = oscar.fileFinishedImporting;
-    mike = 'modules/autocompleter/findNextSelectedResult.tsx';
-    mike = report.bind(oscar)(mike);
-    mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: findNextSelectedResult
+    michal = report.bind(entity)(michal);
+    golfie = michal.FindResultDirections;
+    var _closure1_slot0 = golfie;
+    michal = michal.AutocompleterResultTypes;
+    var _closure1_slot1 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    oscard = report.bind(entity)(michal);
+    report = oscard.fileFinishedImporting;
+    michal = 'modules/autocompleter/findNextSelectedResult.tsx';
+    michal = report.bind(oscard)(michal);
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: findNextSelectedResult
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            options = argFoo;
+            option = argFoo;
             report = argBar;
-            golf = argBaz;
-            mike = argCorge;
-            zulu = golf.length;
+            golfie = argBaz;
+            michal = argCor;
+            zuuluu = golfie.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun00002_ip = 171; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 171; continue _fun00001 }
  26:
-            tango = null;
-            oscar = report;
-            if(!(tango != mike)) { _fun00002_ip = 44; continue _fun00001 }
+            tangon = null;
+            oscard = report;
+            if(!(tangon != michal)) { _fun00002_ip = 44; continue _fun00001 }
  35:
-            oscar = mike;
-            if(!(oscar === report)) { _fun00002_ip = 44; continue _fun00001 }
+            oscard = michal;
+            if(!(oscard === report)) { _fun00002_ip = 44; continue _fun00001 }
  42:
             return report;
  44:
-            mike = _closure1_slot0;
-            verify = mike.UP;
-            mike = 1;
-            if(!(options === verify)) { _fun00002_ip = 70; continue _fun00001 }
+            michal = _closure1_slot0;
+            verify = michal.UP;
+            michal = 1;
+            if(!(option === verify)) { _fun00002_ip = 70; continue _fun00001 }
  64:
-            mike = -1;
+            michal = -1;
  70:
-            yankee = report + mike;
+            yankee = report + michal;
             verify = yankee < entity;
             if(verify) { _fun00002_ip = 135; continue _fun00001 }
  81:
-            if(!(!(yankee >= zulu))) { _fun00002_ip = 135; continue _fun00001 }
+            if(!(!(yankee >= zuuluu))) { _fun00002_ip = 135; continue _fun00001 }
  85:
-            mike = golf[yankee];
-            offset = mike.type;
-            mike = _closure1_slot1;
-            report = mike.HEADER;
-            mike = yankee;
+            michal = golfie[yankee];
+            offset = michal.type;
+            michal = _closure1_slot1;
+            report = michal.HEADER;
+            michal = yankee;
             if(!(offset === report)) { _fun00002_ip = 133; continue _fun00001 }
  111:
             offset = _closure1_slot2;
             sizing = undefined;
-            kilo = options;
+            kiloes = option;
             backup = yankee;
-            foxtrot = golf;
-            romeo = oscar;
-            mike = sizing[offset](kilo, backup, foxtrot, romeo, yankee);
+            foxtra = golfie;
+            romeon = oscard;
+            michal = sizing[offset](kiloes, backup, foxtra, romeon, yankee);
  133:
             _fun00002_ip = 169; continue _fun00001;
  135:
             report = _closure1_slot2;
-            tango = -1;
+            tangon = -1;
             if(!verify) { _fun00002_ip = 151; continue _fun00001 }
  148:
-            tango = zulu;
+            tangon = zuuluu;
  151:
             sizing = undefined;
-            kilo = options;
-            backup = tango;
-            foxtrot = golf;
-            romeo = oscar;
-            mike = sizing[report](kilo, backup, foxtrot, romeo, yankee);
+            kiloes = option;
+            backup = tangon;
+            foxtra = golfie;
+            romeon = oscard;
+            michal = sizing[report](kiloes, backup, foxtra, romeon, yankee);
  169:
-            return mike;
+            return michal;
  171:
             return entity;
         }
     };
-    var _closure1_slot2 = mike;
-    zulu['default'] = mike;
+    var _closure1_slot2 = michal;
+    zuuluu['default'] = michal;
     return entity;
 })();

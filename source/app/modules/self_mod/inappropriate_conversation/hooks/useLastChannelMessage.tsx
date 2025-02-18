@@ -1,64 +1,64 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useLastChannelMessage.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/self_mod/inappropriate_conversation/hooks/useLastChannelMessage.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) {
-        mike = argFoo;
-        var _closure2_slot0 = mike;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useLastChannelMessage.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
         report = _closure1_slot0;
-        tango = _closure1_slot1;
-        zulu = 1;
-        tango = tango[zulu];
-        zulu = undefined;
-        tango = report.bind(zulu)(tango);
-        zulu = tango.useStateFromStores;
+        tangon = _closure1_slot1;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
         report = _closure1_slot2;
-        mike = new Array(1);
-        mike[0] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot2;
-                tango = report.getLastNonCurrentUserMessage;
+                tangon = report.getLastNonCurrentUserMessage;
                 entity = _closure2_slot0;
-                entity = tango.bind(report)(entity);
-                tango = null;
-                if(!(tango == entity)) { _fun00002_ip = 52; continue _fun00001 }
+                entity = tangon.bind(report)(entity);
+                tangon = null;
+                if(!(tangon == entity)) { _fun00002_ip = 52; continue _fun00001 }
  33:
-                tango = _closure1_slot2;
-                zulu = tango.getLastMessage;
-                mike = _closure2_slot0;
-                entity = zulu.bind(tango)(mike);
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getLastMessage;
+                michal = _closure2_slot0;
+                entity = zuuluu.bind(tangon)(michal);
  52:
                 return entity;
             }
         };
-        entity = zulu.bind(tango)(mike, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zulu['useLastChannelMessage'] = mike;
+    zuuluu['useLastChannelMessage'] = michal;
     return entity;
 })();

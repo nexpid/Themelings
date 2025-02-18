@@ -1,94 +1,94 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationSafetyToolsWarningForChannel.tsx
-export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    tango = argPlugh;
+    zuuluu = argFre;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = tangon;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    oscar = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
     entity = true;
-    oscar['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = 3;
-    tango = tango[entity];
+    tangon = tangon[entity];
     entity = undefined;
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationSafetyToolsWarningForChannel.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: useInappropriateConversationSafetyToolsWarningForChannel
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationSafetyToolsWarningForChannel.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useInappropriateConversationSafetyToolsWarningForChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golf = _closure1_slot0;
-            options = _closure1_slot1;
-            mike = 0;
-            tango = options[mike];
-            zulu = undefined;
-            oscar = golf.bind(zulu)(tango);
-            report = oscar.useIsEligibleForInappropriateConversationWarning;
-            tango = {};
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 0;
+            tangon = option[michal];
+            zuuluu = undefined;
+            oscard = golfie.bind(zuuluu)(tangon);
+            report = oscard.useIsEligibleForInappropriateConversationWarning;
+            tangon = {};
             verify = 'safety-tools-button';
-            tango['location'] = verify;
-            report = report.bind(oscar)(tango);
-            tango = 1;
-            tango = options[tango];
-            oscar = golf.bind(zulu)(tango);
-            tango = oscar.useSafetyAlertsSettingOrDefault;
-            tango = tango.bind(oscar)();
-            oscar = 2;
-            oscar = options[oscar];
-            options = golf.bind(zulu)(oscar);
-            golf = options.useInappropriateConversationWarningsForChannel;
-            oscar = argFoo;
-            oscar = golf.bind(options)(oscar);
+            tangon['location'] = verify;
+            report = report.bind(oscard)(tangon);
+            tangon = 1;
+            tangon = option[tangon];
+            oscard = golfie.bind(zuuluu)(tangon);
+            tangon = oscard.useSafetyAlertsSettingOrDefault;
+            tangon = tangon.bind(oscard)();
+            oscard = 2;
+            oscard = option[oscard];
+            option = golfie.bind(zuuluu)(oscard);
+            golfie = option.useInappropriateConversationWarningsForChannel;
+            oscard = argFoo;
+            oscard = golfie.bind(option)(oscard);
             if(!report) { _fun00002_ip = 127; continue _fun00001 }
  100:
-            if(!tango) { _fun00002_ip = 127; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 127; continue _fun00001 }
  103:
-            report = oscar.filter;
-            tango = function(argFoo) {
+            report = oscard.filter;
+            tangon = function(argFoo) {
                 entity = argFoo;
-                mike = entity.dismiss_timestamp;
+                michal = entity.dismiss_timestamp;
                 entity = null;
-                entity = entity != mike;
+                entity = entity != michal;
                 return entity;
             };
-            tango = report.bind(oscar)(tango);
-            report = tango.length;
-            if(!(mike === report)) { _fun00002_ip = 129; continue _fun00001 }
+            tangon = report.bind(oscard)(tangon);
+            report = tangon.length;
+            if(!(michal === report)) { _fun00002_ip = 129; continue _fun00001 }
  127:
-            return zulu;
+            return zuuluu;
  129:
-            zulu = tango.sort;
+            zuuluu = tangon.sort;
             entity = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    mike = argFoo;
+                    michal = argFoo;
                     entity = argBar;
-                    tango = mike.type;
-                    zulu = entity.type;
-                    if(!(!(tango > zulu))) { _fun00004_ip = 45; continue _fun00003 }
+                    tangon = michal.type;
+                    zuuluu = entity.type;
+                    if(!(!(tangon > zuuluu))) { _fun00004_ip = 45; continue _fun00003 }
  20:
-                    mike = mike.dismiss_timestamp;
+                    michal = michal.dismiss_timestamp;
                     entity = entity.dismiss_timestamp;
-                    mike = mike < entity;
+                    michal = michal < entity;
                     entity = -1;
-                    if(!mike) { _fun00004_ip = 48; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 48; continue _fun00003 }
  45:
                     entity = 1;
  48:
                     return entity;
                 }
             };
-            entity = zulu.bind(tango)(entity);
-            entity = entity[mike];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity[michal];
             return entity;
         }
     };
-    zulu['useInappropriateConversationSafetyToolsWarningForChannel'] = mike;
+    zuuluu['useInappropriateConversationSafetyToolsWarningForChannel'] = michal;
     return entity;
 })();

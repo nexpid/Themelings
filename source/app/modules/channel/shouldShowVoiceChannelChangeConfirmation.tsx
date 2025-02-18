@@ -1,97 +1,97 @@
 // app/modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    oscar = argBaz;
-    zulu = argFred;
-    report = argPlugh;
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    oscard = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tango = report[entity];
+    tangon = report[entity];
     entity = undefined;
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot0 = tango;
-    tango = 1;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot1 = tango;
-    tango = 2;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot2 = tango;
-    tango = 3;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot3 = tango;
-    tango = 4;
-    tango = report[tango];
-    tango = oscar.bind(entity)(tango);
-    var _closure1_slot4 = tango;
-    tango = 5;
-    report = report[tango];
-    tango = argBar;
-    oscar = tango.bind(entity)(report);
-    report = oscar.fileFinishedImporting;
-    tango = 'modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: shouldShowVoiceChannelChangeConfirmation
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    tangon = 2;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 4;
+    tangon = report[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: shouldShowVoiceChannelChangeConfirmation
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscar = argFoo;
+            oscard = argFoo;
             entity = _closure1_slot1;
             entity = entity.disableVoiceChannelChangeAlert;
             if(entity) { _fun00002_ip = 196; continue _fun00001 }
  22:
-            mike = _closure1_slot0;
-            entity = mike.getRemoteSessionId;
-            report = entity.bind(mike)();
-            tango = _closure1_slot4;
-            mike = tango.getVoiceStateForSession;
-            golf = _closure1_slot2;
-            entity = golf.getId;
-            entity = entity.bind(golf)();
-            entity = mike.bind(tango)(entity, report);
-            tango = null;
-            if(!(tango == entity)) { _fun00002_ip = 192; continue _fun00001 }
+            michal = _closure1_slot0;
+            entity = michal.getRemoteSessionId;
+            report = entity.bind(michal)();
+            tangon = _closure1_slot4;
+            michal = tangon.getVoiceStateForSession;
+            golfie = _closure1_slot2;
+            entity = golfie.getId;
+            entity = entity.bind(golfie)();
+            entity = michal.bind(tangon)(entity, report);
+            tangon = null;
+            if(!(tangon == entity)) { _fun00002_ip = 192; continue _fun00001 }
  72:
-            mike = _closure1_slot4;
-            entity = mike.isCurrentClientInVoiceChannel;
-            entity = entity.bind(mike)();
+            michal = _closure1_slot4;
+            entity = michal.isCurrentClientInVoiceChannel;
+            entity = entity.bind(michal)();
             if(entity) { _fun00002_ip = 93; continue _fun00001 }
  89:
             entity = false;
             return entity;
  93:
             report = _closure1_slot4;
-            mike = report.isInChannel;
-            entity = oscar.id;
-            entity = mike.bind(report)(entity);
+            michal = report.isInChannel;
+            entity = oscard.id;
+            entity = michal.bind(report)(entity);
             if(entity) { _fun00002_ip = 188; continue _fun00001 }
  116:
             report = _closure1_slot3;
-            mike = report.getGuild;
-            entity = oscar.getGuildId;
-            entity = entity.bind(oscar)();
-            mike = mike.bind(report)(entity);
-            report = tango == mike;
+            michal = report.getGuild;
+            entity = oscard.getGuildId;
+            entity = entity.bind(oscard)();
+            michal = michal.bind(report)(entity);
+            report = tangon == michal;
             entity = undefined;
             if(report) { _fun00002_ip = 155; continue _fun00001 }
  149:
-            entity = mike.afkChannelId;
+            entity = michal.afkChannelId;
  155:
-            entity = tango == entity;
+            entity = tangon == entity;
             if(entity) { _fun00002_ip = 186; continue _fun00001 }
  162:
-            tango = _closure1_slot4;
-            zulu = tango.isInChannel;
-            mike = mike.afkChannelId;
-            mike = zulu.bind(tango)(mike);
-            entity = !mike;
+            tangon = _closure1_slot4;
+            zuuluu = tangon.isInChannel;
+            michal = michal.afkChannelId;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = !michal;
  186:
             return entity;
  188:
@@ -105,6 +105,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
         }
     };
-    zulu['shouldShowVoiceChannelChangeConfirmation'] = mike;
+    zuuluu['shouldShowVoiceChannelChangeConfirmation'] = michal;
     return entity;
 })();

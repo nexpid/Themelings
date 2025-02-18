@@ -1,73 +1,73 @@
 // app/actions/native/CreateGuildActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    zulu = argFred;
-    oscar = argPlugh;
+    zuuluu = argFre;
+    oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscar;
+    var _closure1_slot1 = oscard;
     entity = global;
-    options = entity.Object;
-    golf = options.defineProperty;
-    tango = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    tango['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golf.bind(options)(zulu, entity, tango);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    golf = oscar[entity];
-    tango = argBaz;
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tango = tango.bind(entity)(golf);
-    var _closure1_slot2 = tango;
-    tango = 2;
-    tango = oscar[tango];
-    oscar = report.bind(entity)(tango);
-    report = oscar.fileFinishedImporting;
-    tango = 'actions/native/CreateGuildActionCreators.tsx';
-    tango = report.bind(oscar)(tango);
-    mike = function(argFoo) { // Original name: showInstantInviteModal
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot2;
-        mike = zulu.addConditionalChangeListener;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'actions/native/CreateGuildActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: showInstantInviteModal
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.addConditionalChangeListener;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tango = _closure1_slot2;
-                zulu = tango.getDefaultChannel;
+                tangon = _closure1_slot2;
+                zuuluu = tangon.getDefaultChannel;
                 entity = _closure2_slot0;
-                zulu = zulu.bind(tango)(entity);
-                var _closure3_slot0 = zulu;
+                zuuluu = zuuluu.bind(tangon)(entity);
+                var _closure3_slot0 = zuuluu;
                 entity = null;
-                entity = entity == zulu;
+                entity = entity == zuuluu;
                 if(entity) { _fun00002_ip = 64; continue _fun00001 }
  40:
-                zulu = global;
-                tango = zulu.setImmediate;
-                zulu = undefined;
-                mike = function() {
-                    zulu = _closure1_slot0;
-                    mike = _closure1_slot1;
+                zuuluu = global;
+                tangon = zuuluu.setImmediate;
+                zuuluu = undefined;
+                michal = function() {
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
                     entity = 1;
-                    mike = mike[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    report = zulu.bind(entity)(mike);
-                    tango = report.showInstantInviteActionSheet;
-                    zulu = _closure3_slot0;
-                    mike = 'Guild Create';
-                    mike = tango.bind(report)(zulu, mike);
+                    report = zuuluu.bind(entity)(michal);
+                    tangon = report.showInstantInviteActionSheet;
+                    zuuluu = _closure3_slot0;
+                    michal = 'Guild Create';
+                    michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
                 };
-                mike = tango.bind(zulu)(mike);
+                michal = tangon.bind(zuuluu)(michal);
                 entity = false;
  64:
                 return entity;
             }
         };
-        entity = mike.bind(zulu)(entity);
+        entity = michal.bind(zuuluu)(entity);
         entity = undefined;
         return entity;
     };
-    zulu['showInstantInviteModal'] = mike;
+    zuuluu['showInstantInviteModal'] = michal;
     return entity;
 })();
