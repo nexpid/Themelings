@@ -114,6 +114,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     offset = michal;
     tangon = copyDataProperties(offset, verify);
     tangon = 20;
+    tangon = report[tangon];
+    verify = oscard.bind(entity)(tangon);
+    offset = michal;
+    tangon = copyDataProperties(offset, verify);
+    tangon = 21;
     report = report[tangon];
     tangon = argBar;
     oscard = tangon.bind(entity)(report);

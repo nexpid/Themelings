@@ -79,13 +79,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = oscard[backup];
         backup = kiloes.bind(entity)(backup);
         backup = backup.unsafe_rawColors;
-        if(foxtra) { _fun00002_ip = 353; continue _fun00001 }
- 345:
+        if(foxtra) { _fun00002_ip = 354; continue _fun00001 }
+ 346:
         foxtra = backup.PRIMARY_600;
-        _fun00002_ip = 359; continue _fun00001;
- 353:
+        _fun00002_ip = 360; continue _fun00001;
+ 354:
         foxtra = backup.PRIMARY_800;
- 359:
+ 360:
         offset['backgroundColor'] = foxtra;
         offset['flexGrow'] = romeon;
         offset['justifyContent'] = yankee;

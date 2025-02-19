@@ -1234,10 +1234,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext['paddingTop'] = sierra;
             sierra = offset != status;
             target = 0;
-            if(!sierra) { _fun00010_ip = 1036; continue _fun00009 }
- 1033:
+            if(!sierra) { _fun00010_ip = 1038; continue _fun00009 }
+ 1035:
             target = status;
- 1036:
+ 1038:
             papara = papara + target;
             cntext['paddingBottom'] = papara;
             verify['contentContainerStyle'] = cntext;
@@ -1268,10 +1268,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['estimatedItemSize'] = echoed;
             verify['estimatedListSize'] = output;
             output = undefined;
-            if(result) { _fun00010_ip = 1150; continue _fun00009 }
- 1147:
+            if(result) { _fun00010_ip = 1152; continue _fun00009 }
+ 1149:
             output = yankee;
- 1150:
+ 1152:
             verify['stickyHeaderIndices'] = output;
             output = _closure1_slot13;
             verify['getItemType'] = output;
@@ -1282,10 +1282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = foxtra;
             offset = offset != romeon;
-            if(!offset) { _fun00010_ip = 1204; continue _fun00009 }
- 1199:
+            if(!offset) { _fun00010_ip = 1206; continue _fun00009 }
+ 1201:
             offset = romeon.bind(tangon)(yankee);
- 1204:
+ 1206:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

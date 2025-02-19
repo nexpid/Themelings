@@ -660,7 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1266:
             report[2] = option;
             option = _closure1_slot16;
-            if(oscard) { _fun00004_ip = 1416; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 1418; continue _fun00003 }
  1280:
             oscard = {};
             romeon = {};
@@ -673,8 +673,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.PX_16;
             romeon['paddingHorizontal'] = update;
             kiloes = 0;
-            if(echoed) { _fun00004_ip = 1359; continue _fun00003 }
- 1323:
+            if(echoed) { _fun00004_ip = 1361; continue _fun00003 }
+ 1324:
             echoed = result.bottom;
             update = _closure1_slot1;
             result = _closure1_slot3;
@@ -683,7 +683,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.spacing;
             result = result.PX_16;
             kiloes = echoed + result;
- 1359:
+ 1361:
             romeon['paddingBottom'] = kiloes;
             oscard['contentContainerStyle'] = romeon;
             romeon = function(argFoo) { // Original name: renderItem
@@ -954,8 +954,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'always';
             oscard['keyboardShouldPersistTaps'] = offset;
             oscard = option.bind(tangon)(golfie, oscard);
-            _fun00004_ip = 1559; continue _fun00003;
- 1416:
+            _fun00004_ip = 1561; continue _fun00003;
+ 1418:
             golfie = {};
             yankee = _closure1_slot1;
             romeon = _closure1_slot3;
@@ -988,7 +988,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = option.bind(tangon)(verify, golfie);
- 1559:
+ 1561:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

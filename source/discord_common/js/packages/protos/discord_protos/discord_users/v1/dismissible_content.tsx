@@ -1494,6 +1494,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER'] = michal;
     entity = 'Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER';
     tangon[michal] = entity;
+    michal = 508;
+    tangon['GUILD_POWERUPS_OVERVIEW_SIDEBAR_COACHMARK'] = michal;
+    entity = 'GUILD_POWERUPS_OVERVIEW_SIDEBAR_COACHMARK';
+    tangon[michal] = entity;
+    michal = 509;
+    tangon['CONNECTIONS_LINK_CONSOLE_COACHMARK'] = michal;
+    entity = 'CONNECTIONS_LINK_CONSOLE_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

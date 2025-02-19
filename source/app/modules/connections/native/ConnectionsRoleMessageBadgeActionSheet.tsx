@@ -436,20 +436,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = {'variant': 'text-sm/medium', 'color': 'interactive-active'};
                 update = output == echoed;
                 sizing = undefined;
-                if(update) { _fun00006_ip = 784; continue _fun00005 }
- 779:
+                if(update) { _fun00006_ip = 780; continue _fun00005 }
+ 775:
                 sizing = echoed.name;
+ 780:
+                if(!(output == sizing)) { _fun00006_ip = 801; continue _fun00005 }
  784:
-                if(!(output == sizing)) { _fun00006_ip = 805; continue _fun00005 }
- 788:
                 echoed = output == result;
                 output = undefined;
-                if(echoed) { _fun00006_ip = 802; continue _fun00005 }
- 797:
+                if(echoed) { _fun00006_ip = 798; continue _fun00005 }
+ 793:
                 output = result.name;
- 802:
+ 798:
                 sizing = output;
- 805:
+ 801:
                 foxtra['children'] = sizing;
                 foxtra = kiloes.bind(tangon)(backup, foxtra);
                 yankee[2] = foxtra;

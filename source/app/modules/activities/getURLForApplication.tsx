@@ -1,9 +1,9 @@
 // app/modules/activities/getURLForApplication.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBaz;
+    option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    michal = function(argFoo) { // Original name: getNonTestModeUrlForApplication
+    golfie = argPlu;
+    tangon = function(argFoo) { // Original name: getNonTestModeUrlForApplication
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = global;
@@ -24,70 +24,87 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot2 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = oscard[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    var _closure1_slot0 = report;
-    report = 1;
-    report = oscard[report];
-    report = golfie.bind(entity)(report);
-    var _closure1_slot1 = report;
-    report = 2;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/activities/getURLForApplication.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: getURLForApplication
+    var _closure1_slot2 = tangon;
+    michal = function() { // Original name: isUsingDevShelfActivityUrlOverride
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = argFoo;
             michal = _closure1_slot1;
             entity = michal.getState;
             michal = entity.bind(michal)();
             entity = michal.useActivityUrlOverride;
+            if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+ 26:
+            tangon = michal.activityUrlOverride;
+            zuuluu = null;
+            entity = zuuluu != tangon;
+ 38:
             if(!entity) { _fun00004_ip = 55; continue _fun00003 }
- 29:
-            tangon = michal.activityUrlOverride;
-            entity = null;
-            if(!(entity != tangon)) { _fun00004_ip = 55; continue _fun00003 }
  41:
-            tangon = michal.activityUrlOverride;
-            entity = '';
-            if(!(entity === tangon)) { _fun00004_ip = 102; continue _fun00003 }
+            zuuluu = michal.activityUrlOverride;
+            michal = '';
+            entity = michal !== zuuluu;
  55:
-            tangon = _closure1_slot0;
-            entity = tangon.inTestModeForEmbeddedApplication;
-            entity = entity.bind(tangon)(report);
-            if(entity) { _fun00004_ip = 88; continue _fun00003 }
- 75:
-            tangon = _closure1_slot2;
-            entity = undefined;
-            entity = tangon.bind(entity)(report);
-            _fun00004_ip = 100; continue _fun00003;
- 88:
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.testModeOriginURL;
- 100:
-            _fun00004_ip = 108; continue _fun00003;
- 102:
-            entity = michal.activityUrlOverride;
- 108:
             return entity;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getNonTestModeUrlForApplication'] = michal;
+    var _closure1_slot3 = michal;
+    entity = global;
+    offset = entity.Object;
+    verify = offset.defineProperty;
+    oscard = {};
+    entity = true;
+    oscard['value'] = entity;
+    entity = '__esModule';
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
+    entity = 0;
+    oscard = golfie[entity];
+    entity = undefined;
+    oscard = option.bind(entity)(oscard);
+    var _closure1_slot0 = oscard;
+    oscard = 1;
+    oscard = golfie[oscard];
+    oscard = option.bind(entity)(oscard);
+    var _closure1_slot1 = oscard;
+    oscard = 2;
+    golfie = golfie[oscard];
+    oscard = argBar;
+    option = oscard.bind(entity)(golfie);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/activities/getURLForApplication.tsx';
+    oscard = golfie.bind(option)(oscard);
+    report = function(argFoo) { // Original name: getURLForApplication
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            tangon = argFoo;
+            entity = _closure1_slot3;
+            zuuluu = undefined;
+            entity = entity.bind(zuuluu)();
+            if(entity) { _fun00006_ip = 64; continue _fun00005 }
+ 19:
+            report = _closure1_slot0;
+            entity = report.inTestModeForEmbeddedApplication;
+            entity = entity.bind(report)(tangon);
+            if(entity) { _fun00006_ip = 50; continue _fun00005 }
+ 39:
+            entity = _closure1_slot2;
+            entity = entity.bind(zuuluu)(tangon);
+            _fun00006_ip = 62; continue _fun00005;
+ 50:
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.testModeOriginURL;
+ 62:
+            _fun00006_ip = 84; continue _fun00005;
+ 64:
+            zuuluu = _closure1_slot1;
+            michal = zuuluu.getState;
+            michal = michal.bind(zuuluu)();
+            entity = michal.activityUrlOverride;
+ 84:
+            return entity;
+        }
+    };
+    zuuluu['default'] = report;
+    zuuluu['getNonTestModeUrlForApplication'] = tangon;
+    zuuluu['isUsingDevShelfActivityUrlOverride'] = michal;
     return entity;
 })();

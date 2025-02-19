@@ -81,10 +81,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(zuuluu) { _fun00002_ip = 48; continue _fun00001 }
  40:
             zuuluu = tangon.PX_24;
-            _fun00002_ip = 53; continue _fun00001;
+            _fun00002_ip = 54; continue _fun00001;
  48:
             zuuluu = tangon.PX_16;
- 53:
+ 54:
             michal['gap'] = zuuluu;
             zuuluu = 'center';
             michal['alignItems'] = zuuluu;

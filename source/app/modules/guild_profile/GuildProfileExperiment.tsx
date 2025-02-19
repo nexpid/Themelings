@@ -36,7 +36,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/guild_profile/GuildProfileExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useNewGuildProfileExperiment
+    tangon = function() { // Original name: useNewGuildProfileExperiment
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
         michal = {};
@@ -49,6 +49,20 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = entity.enabled;
         return entity;
     };
-    zuuluu['useNewGuildProfileExperiment'] = michal;
+    zuuluu['useNewGuildProfileExperiment'] = tangon;
+    michal = function() { // Original name: getNewProfileExperimentEnabled
+        tangon = _closure1_slot0;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
+        entity = 'GuildProfileExperiment';
+        michal['location'] = entity;
+        entity = {};
+        report = false;
+        entity['autoTrackExposure'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = entity.enabled;
+        return entity;
+    };
+    zuuluu['getNewProfileExperimentEnabled'] = michal;
     return entity;
 })();

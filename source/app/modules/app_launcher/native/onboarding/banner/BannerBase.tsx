@@ -296,10 +296,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = verify;
             verify = {};
             echoed = result > foxtra;
-            if(!echoed) { _fun00002_ip = 448; continue _fun00001 }
- 445:
+            if(!echoed) { _fun00002_ip = 449; continue _fun00001 }
+ 446:
             foxtra = sizing;
- 448:
+ 449:
             verify['opacity'] = foxtra;
             verify['width'] = backup;
             oscard[1] = verify;

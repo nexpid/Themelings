@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 4;
             kiloes = output[kiloes];
             kiloes = sizing.bind(tangon)(kiloes);
-            kiloes = kiloes.ScreenStreamIcon;
+            kiloes = kiloes.TvIcon;
             report['icon'] = kiloes;
             report['style'] = backup;
             option = foxtra.bind(tangon)(verify, report);

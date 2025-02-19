@@ -655,6 +655,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GUILD_SETTINGS_MEMBERS_PAGE'] = entity;
     entity = 'guild settings profile page';
     michal['GUILD_SETTINGS_PROFILE_PAGE'] = entity;
+    entity = 'guild settings engagement page';
+    michal['GUILD_SETTINGS_ENGAGEMENT_PAGE'] = entity;
     entity = 'guild member mod view';
     michal['GUILD_MEMBER_MOD_VIEW'] = entity;
     entity = 'guild member application review';

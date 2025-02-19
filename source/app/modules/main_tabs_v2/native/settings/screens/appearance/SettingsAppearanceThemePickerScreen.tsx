@@ -120,13 +120,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = report.bind(entity)(kiloes);
         kiloes = sizing.isIOS;
         kiloes = kiloes.bind(sizing)();
-        if(kiloes) { _fun00002_ip = 433; continue _fun00001 }
- 414:
+        if(kiloes) { _fun00002_ip = 435; continue _fun00001 }
+ 415:
         kiloes = oscard[offset];
         kiloes = yankee.bind(entity)(kiloes);
         kiloes = kiloes.spacing;
         backup = kiloes.PX_16;
- 433:
+ 435:
         romeon['marginBottom'] = backup;
         tangon['container'] = romeon;
         romeon = {'width': '100%', 'gap': null, 'alignItems': 'center'};

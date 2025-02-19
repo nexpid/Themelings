@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 86; continue _fun00001 }
  9:
                     oscard = undefined;
                     var _closure4_slot0 = oscard;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 83; continue _fun00001 }
  66:
                     tangon = michal.default;
                     _closure4_slot0 = tangon;
@@ -81,9 +81,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return zuuluu;
- 85:
+ 83:
                     return michal;
- 88:
+ 86:
                     return entity;
                 }
             };
@@ -94,12 +94,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['showAgeVerification'] = golfie;
-    tangon = function() { // Original name: showAgeVerificationModal
+    golfie = function() { // Original name: showAgeVerificationModal
         entity = undefined;
         return entity;
     };
-    michal['showAgeVerificationModal'] = tangon;
-    tangon = 6;
+    michal['showAgeVerificationModal'] = golfie;
+    golfie = function() { // Original name: shouldShowTiggerPawtect
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 6;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.isEligibleForTiggerPawtect;
+        entity = {};
+        tangon = 'age-verify-utils';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    michal['shouldShowTiggerPawtect'] = golfie;
+    tangon = function() { // Original name: useShouldShowTiggerPawtect
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 6;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.useIsTiggerPawtectEnabled;
+        entity = {};
+        tangon = 'age-verify-utils';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    michal['useShouldShowTiggerPawtect'] = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

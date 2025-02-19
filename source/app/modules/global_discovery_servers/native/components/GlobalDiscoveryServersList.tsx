@@ -311,13 +311,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['paddingBottom'] = michal;
                     tangon = _closure2_slot2;
                     michal = null;
-                    if(!(michal == tangon)) { _fun00010_ip = 59; continue _fun00009 }
- 55:
+                    if(!(michal == tangon)) { _fun00010_ip = 60; continue _fun00009 }
+ 56:
                     michal = {};
-                    _fun00010_ip = 63; continue _fun00009;
- 59:
+                    _fun00010_ip = 64; continue _fun00009;
+ 60:
                     michal = _closure2_slot2;
- 63:
+ 64:
                     oscard = entity;
                     report = michal;
                     michal = copyDataProperties(oscard, report);

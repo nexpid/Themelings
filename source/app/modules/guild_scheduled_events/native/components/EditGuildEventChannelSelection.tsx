@@ -273,10 +273,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             echoed = option != foxtra;
             result = undefined;
-            if(!echoed) { _fun00002_ip = 692; continue _fun00001 }
- 689:
+            if(!echoed) { _fun00002_ip = 696; continue _fun00001 }
+ 693:
             result = foxtra;
- 692:
+ 696:
             romeon['text'] = result;
             oscard['accessibilityValue'] = romeon;
             romeon = 'button';
@@ -470,8 +470,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             oscard['onPress'] = yankee;
-            if(!(option == backup)) { _fun00002_ip = 807; continue _fun00001 }
- 759:
+            if(!(option == backup)) { _fun00002_ip = 811; continue _fun00001 }
+ 763:
             romeon = _closure1_slot11;
             yankee = _closure1_slot1;
             output = _closure1_slot3;
@@ -483,14 +483,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = kiloes.channelIcon;
             option['style'] = sizing;
             yankee = romeon.bind(tangon)(yankee, option);
-            _fun00002_ip = 829; continue _fun00001;
- 807:
+            _fun00002_ip = 833; continue _fun00001;
+ 811:
             romeon = _closure1_slot11;
             option = {};
             sizing = kiloes.channelIcon;
             option['style'] = sizing;
             yankee = romeon.bind(tangon)(backup, option);
- 829:
+ 833:
             option = new Array(3);
             option[0] = yankee;
             yankee = _closure1_slot11;

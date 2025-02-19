@@ -671,11 +671,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
  249:
                     entity = golfie.embedURI;
-                    if(!(michal != entity)) { _fun00016_ip = 427; continue _fun00015 }
+                    if(!(michal != entity)) { _fun00016_ip = 426; continue _fun00015 }
  262:
                     zuuluu = golfie.embedProviderName;
                     entity = 'TikTok';
-                    if(!(entity !== zuuluu)) { _fun00016_ip = 414; continue _fun00015 }
+                    if(!(entity !== zuuluu)) { _fun00016_ip = 413; continue _fun00015 }
  281:
                     entity = 'YouTube';
                     if(!(entity !== zuuluu)) { _fun00016_ip = 293; continue _fun00015 }
@@ -711,31 +711,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity[verify] = romeon;
                     entity = report.bind(tangon)(zuuluu, entity);
                     return entity;
- 414:
+ 413:
                     entity = _closure2_slot12;
-                    if(entity) { _fun00016_ip = 973; continue _fun00015 }
- 427:
+                    if(entity) { _fun00016_ip = 968; continue _fun00015 }
+ 426:
                     entity = golfie.videoURI;
-                    if(!(michal == entity)) { _fun00016_ip = 698; continue _fun00015 }
- 440:
+                    if(!(michal == entity)) { _fun00016_ip = 694; continue _fun00015 }
+ 439:
                     zuuluu = golfie.uri;
                     michal = zuuluu.startsWith;
                     entity = 'assets-library://';
                     entity = michal.bind(zuuluu)(entity);
-                    if(entity) { _fun00016_ip = 610; continue _fun00015 }
- 469:
+                    if(entity) { _fun00016_ip = 606; continue _fun00015 }
+ 467:
                     tangon = golfie.uri;
                     zuuluu = tangon.startsWith;
                     michal = _closure1_slot10;
                     michal = zuuluu.bind(tangon)(michal);
-                    if(michal) { _fun00016_ip = 610; continue _fun00015 }
- 496:
+                    if(michal) { _fun00016_ip = 606; continue _fun00015 }
+ 493:
                     tangon = golfie.uri;
                     zuuluu = tangon.startsWith;
                     michal = _closure1_slot11;
                     michal = zuuluu.bind(tangon)(michal);
-                    if(michal) { _fun00016_ip = 610; continue _fun00015 }
- 520:
+                    if(michal) { _fun00016_ip = 606; continue _fun00015 }
+ 516:
                     tangon = _closure1_slot13;
                     romeon = _closure1_slot1;
                     kiloes = _closure1_slot3;
@@ -758,8 +758,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = 'pointerEvents';
                     entity[verify] = backup;
                     entity = tangon.bind(zuuluu)(michal, entity);
-                    _fun00016_ip = 693; continue _fun00015;
- 610:
+                    _fun00016_ip = 689; continue _fun00015;
+ 606:
                     verify = _closure1_slot13;
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot3;
@@ -780,9 +780,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = 'pointerEvents';
                     michal[romeon] = backup;
                     entity = verify.bind(tangon)(zuuluu, michal);
- 693:
-                    _fun00016_ip = 971; continue _fun00015;
- 698:
+ 689:
+                    _fun00016_ip = 966; continue _fun00015;
+ 694:
                     verify = _closure1_slot13;
                     zuuluu = _closure1_slot1;
                     sizing = _closure1_slot3;
@@ -809,12 +809,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = 'controls';
                     michal[foxtra] = backup;
                     foxtra = _closure2_slot18;
-                    if(foxtra) { _fun00016_ip = 825; continue _fun00015 }
- 813:
+                    if(foxtra) { _fun00016_ip = 821; continue _fun00015 }
+ 809:
                     backup = golfie.isGIFV;
                     romeon = true;
                     foxtra = romeon === backup;
- 825:
+ 821:
                     romeon = 'muted';
                     michal[romeon] = foxtra;
                     romeon = 'index';
@@ -845,9 +845,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = 'source';
                     michal[romeon] = foxtra;
                     entity = verify.bind(tangon)(zuuluu, michal);
- 971:
+ 966:
                     return entity;
- 973:
+ 968:
                     tangon = _closure1_slot14;
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot3;

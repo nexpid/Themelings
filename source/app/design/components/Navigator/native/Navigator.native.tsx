@@ -578,21 +578,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.NavigationContainer;
             entity = {};
             entity['ref'] = kiloes;
-            if(!(yankee != backup)) { _fun00010_ip = 228; continue _fun00009 }
- 225:
+            if(!(yankee != backup)) { _fun00010_ip = 224; continue _fun00009 }
+ 221:
             foxtra = backup;
- 228:
+ 224:
             entity['theme'] = foxtra;
-            if(!(yankee == offset)) { _fun00010_ip = 252; continue _fun00009 }
- 237:
+            if(!(yankee == offset)) { _fun00010_ip = 248; continue _fun00009 }
+ 233:
             foxtra = yankee != romeon;
             yankee = undefined;
-            if(!foxtra) { _fun00010_ip = 249; continue _fun00009 }
- 246:
+            if(!foxtra) { _fun00010_ip = 245; continue _fun00009 }
+ 242:
             yankee = romeon;
- 249:
+ 245:
             offset = yankee;
- 252:
+ 248:
             entity['initialState'] = offset;
             golfie = function() { // Original name: onReady
                 zuuluu = _closure1_slot0;

@@ -151,14 +151,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = tangon.bind(michal)(zuuluu);
                     michal = michal.spacing;
                     michal = michal.PX_16;
-                    if(entity) { _fun00004_ip = 61; continue _fun00003 }
- 48:
+                    if(entity) { _fun00004_ip = 62; continue _fun00003 }
+ 49:
                     entity = _closure2_slot4;
                     entity = michal + entity;
-                    _fun00004_ip = 64; continue _fun00003;
- 61:
+                    _fun00004_ip = 65; continue _fun00003;
+ 62:
                     entity = michal;
- 64:
+ 65:
                     return entity;
                 }
             };

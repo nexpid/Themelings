@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.StickerFormat;
             entity = entity.LOTTIE;
-            if(!(michal !== entity)) { _fun00004_ip = 494; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00004_ip = 493; continue _fun00003 }
  115:
             michal = offset.format_type;
             zuuluu = _closure1_slot0;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['source'] = option;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 494:
+ 493:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -260,10 +260,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             romeon = offset != yankee;
             offset = '';
-            if(!romeon) { _fun00004_ip = 545; continue _fun00003 }
- 542:
+            if(!romeon) { _fun00004_ip = 544; continue _fun00003 }
+ 541:
             offset = yankee;
- 545:
+ 544:
             entity['asset'] = offset;
             entity['width'] = verify;
             entity['height'] = verify;
@@ -273,13 +273,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard[option];
             oscard = golfie.bind(tangon)(oscard);
             oscard = oscard.NativeLottieRenderMode;
-            if(report) { _fun00004_ip = 596; continue _fun00003 }
- 588:
+            if(report) { _fun00004_ip = 595; continue _fun00003 }
+ 587:
             report = oscard.STILL;
-            _fun00004_ip = 602; continue _fun00003;
- 596:
+            _fun00004_ip = 601; continue _fun00003;
+ 595:
             report = oscard.LOOP;
- 602:
+ 601:
             entity['renderMode'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

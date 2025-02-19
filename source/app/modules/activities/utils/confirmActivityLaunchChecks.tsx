@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 195; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 199; continue _fun00001 }
  10:
                     option = argFoo;
                     verify = argBar;
@@ -66,10 +66,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = verify;
                     option = null;
                     offset = option != offset;
-                    if(!offset) { _fun00002_ip = 130; continue _fun00001 }
- 127:
+                    if(!offset) { _fun00002_ip = 134; continue _fun00001 }
+ 131:
                     option = verify;
- 130:
+ 134:
                     zuuluu['channelId'] = option;
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['error'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 195:
+ 199:
                     return entity;
                 }
             };

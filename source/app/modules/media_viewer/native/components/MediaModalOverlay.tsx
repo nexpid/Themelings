@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[2] = echoed;
             oscard['style'] = romeon;
             romeon = !option;
-            if(!romeon) { _fun00008_ip = 736; continue _fun00007 }
+            if(!romeon) { _fun00008_ip = 735; continue _fun00007 }
  704:
             source = _closure1_slot8;
             update = _closure1_slot13;
@@ -446,14 +446,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['description'] = option;
             option = sizing.uri;
             romeon = source.bind(tangon)(update, echoed, option);
- 736:
+ 735:
             option = new Array(3);
             option[0] = romeon;
-            if(!(vacuum == result)) { _fun00008_ip = 756; continue _fun00007 }
- 748:
+            if(!(vacuum == result)) { _fun00008_ip = 755; continue _fun00007 }
+ 747:
             romeon = null;
-            if(!sequen) { _fun00008_ip = 892; continue _fun00007 }
- 756:
+            if(!sequen) { _fun00008_ip = 891; continue _fun00007 }
+ 755:
             source = _closure1_slot9;
             update = _closure1_slot6;
             echoed = {};
@@ -461,8 +461,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.overlayIcons;
             echoed['style'] = ctrled;
             config = vacuum != result;
-            if(!config) { _fun00008_ip = 839; continue _fun00007 }
- 787:
+            if(!config) { _fun00008_ip = 838; continue _fun00007 }
+ 786:
             target = _closure1_slot8;
             record = _closure1_slot14;
             ctrled = {};
@@ -475,26 +475,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = status.toggleMuted;
             ctrled['onToggleMute'] = status;
             config = target.bind(tangon)(record, ctrled);
- 839:
+ 838:
             ctrled = new Array(2);
             ctrled[0] = config;
             vacuum = null;
-            if(!sequen) { _fun00008_ip = 878; continue _fun00007 }
- 852:
+            if(!sequen) { _fun00008_ip = 877; continue _fun00007 }
+ 851:
             record = _closure1_slot8;
             config = _closure1_slot15;
             sequen = {};
             sequen['spoilerActive'] = papara;
             sequen['onToggleObscure'] = cntext;
             vacuum = record.bind(tangon)(config, sequen);
- 878:
+ 877:
             ctrled[1] = vacuum;
             echoed['children'] = ctrled;
             romeon = source.bind(tangon)(update, echoed);
- 892:
+ 891:
             option[1] = romeon;
-            if(yankee) { _fun00008_ip = 983; continue _fun00007 }
- 899:
+            if(yankee) { _fun00008_ip = 982; continue _fun00007 }
+ 898:
             romeon = _closure1_slot8;
             yankee = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['onFullViewToggled'] = backup;
             offset['overlayEnabled'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 983:
+ 982:
             option[2] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);

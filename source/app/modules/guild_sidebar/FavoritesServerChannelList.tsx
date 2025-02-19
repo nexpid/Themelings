@@ -263,37 +263,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = oscard.getActiveJoinedUnreadThreadsForParent;
                         tangon = zuuluu.guild_id;
                         entity = zuuluu.id;
-                        sizing = report.bind(oscard)(tangon, entity);
+                        romeon = report.bind(oscard)(tangon, entity);
                         _fun00010_ip = 228; continue _fun00009;
  199:
                         oscard = _closure1_slot7;
                         report = oscard.getActiveJoinedRelevantThreadsForParent;
                         tangon = zuuluu.guild_id;
                         entity = zuuluu.id;
-                        sizing = report.bind(oscard)(tangon, entity);
+                        romeon = report.bind(oscard)(tangon, entity);
  228:
-                        if(!(michal == sizing)) { _fun00010_ip = 234; continue _fun00009 }
+                        if(!(michal == romeon)) { _fun00010_ip = 234; continue _fun00009 }
  232:
-                        sizing = {};
+                        romeon = {};
  234:
-                        foxtra = _closure1_slot0;
-                        kiloes = _closure1_slot2;
-                        romeon = 21;
-                        entity = kiloes[romeon];
+                        kiloes = _closure1_slot0;
+                        output = _closure1_slot2;
+                        backup = 21;
+                        entity = output[backup];
                         option = undefined;
-                        backup = foxtra.bind(option)(entity);
-                        golfie = backup.computeThreadIds;
-                        update = _closure2_slot2;
-                        echoed = _closure2_slot3;
-                        result = _closure2_slot1;
-                        vacuum = backup;
-                        ctrled = zuuluu;
-                        source = sizing;
-                        output = vacuum[golfie](ctrled, source, update, echoed, result, output);
+                        foxtra = kiloes.bind(option)(entity);
+                        golfie = foxtra.computeThreadIds;
+                        ctrled = _closure2_slot2;
+                        source = _closure2_slot3;
+                        update = _closure2_slot1;
+                        config = foxtra;
+                        sequen = zuuluu;
+                        vacuum = romeon;
+                        echoed = config[golfie](sequen, vacuum, ctrled, source, update, echoed);
                         oscard = _closure1_slot12;
                         tangon = oscard.isCollapsed;
                         entity = zuuluu.id;
-                        backup = tangon.bind(oscard)(entity);
+                        sizing = tangon.bind(oscard)(entity);
                         golfie = _closure1_slot16;
                         oscard = golfie.isChannelMuted;
                         tangon = zuuluu.guild_id;
@@ -305,76 +305,84 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity['record'] = zuuluu;
                         tangon = _closure3_slot0;
                         entity['category'] = tangon;
-                        sizing = _closure2_slot0;
+                        foxtra = _closure2_slot0;
                         tangon = zuuluu.id;
-                        tangon = sizing[tangon];
+                        tangon = foxtra[tangon];
                         tangon = tangon.order;
                         entity['position'] = tangon;
-                        entity['threadIds'] = output;
-                        sizing = _closure1_slot1;
-                        tangon = 19;
-                        tangon = kiloes[tangon];
-                        sizing = sizing.bind(option)(tangon);
-                        tangon = sizing.size;
-                        tangon = tangon.bind(sizing)(output);
+                        entity['threadIds'] = echoed;
+                        result = _closure1_slot1;
+                        foxtra = 19;
+                        tangon = output[foxtra];
+                        result = result.bind(option)(tangon);
+                        tangon = result.size;
+                        tangon = tangon.bind(result)(echoed);
                         entity['threadCount'] = tangon;
-                        entity['isCollapsed'] = backup;
+                        entity['isCollapsed'] = sizing;
                         entity['isMuted'] = golfie;
                         tangon = false;
                         entity['isFirstVoiceChannel'] = tangon;
-                        romeon = kiloes[romeon];
-                        foxtra = foxtra.bind(option)(romeon);
-                        romeon = foxtra.computeSubtitle;
-                        romeon = romeon.bind(foxtra)(zuuluu, backup, tangon);
-                        entity['subtitle'] = romeon;
-                        if(yankee) { _fun00010_ip = 596; continue _fun00009 }
+                        backup = output[backup];
+                        kiloes = kiloes.bind(option)(backup);
+                        backup = kiloes.computeSubtitle;
+                        backup = backup.bind(kiloes)(zuuluu, sizing, tangon);
+                        entity['subtitle'] = backup;
+                        if(yankee) { _fun00010_ip = 630; continue _fun00009 }
  474:
-                        if(offset) { _fun00010_ip = 596; continue _fun00009 }
- 477:
+                        if(offset) { _fun00010_ip = 630; continue _fun00009 }
+ 480:
+                        yankee = _closure1_slot1;
+                        offset = _closure1_slot2;
+                        offset = offset[foxtra];
+                        yankee = yankee.bind(option)(offset);
+                        offset = yankee.isEmpty;
+                        offset = offset.bind(yankee)(romeon);
+                        if(!offset) { _fun00010_ip = 630; continue _fun00009 }
+ 511:
                         romeon = _closure1_slot14;
                         yankee = romeon.getMentionCount;
                         offset = zuuluu.id;
                         yankee = yankee.bind(romeon)(offset);
                         offset = 0;
-                        if(!(!(yankee > offset))) { _fun00010_ip = 596; continue _fun00009 }
- 503:
+                        if(!(!(yankee > offset))) { _fun00010_ip = 630; continue _fun00009 }
+ 537:
                         verify = _closure2_slot1;
-                        if(!verify) { _fun00010_ip = 513; continue _fun00009 }
- 510:
-                        if(golfie) { _fun00010_ip = 594; continue _fun00009 }
- 513:
+                        if(!verify) { _fun00010_ip = 547; continue _fun00009 }
+ 544:
+                        if(golfie) { _fun00010_ip = 628; continue _fun00009 }
+ 547:
                         verify = _closure3_slot1;
-                        if(!verify) { _fun00010_ip = 588; continue _fun00009 }
- 520:
-                        if(golfie) { _fun00010_ip = 592; continue _fun00009 }
- 523:
+                        if(!verify) { _fun00010_ip = 622; continue _fun00009 }
+ 554:
+                        if(golfie) { _fun00010_ip = 626; continue _fun00009 }
+ 557:
                         oscard = _closure3_slot2;
-                        if(oscard) { _fun00010_ip = 592; continue _fun00009 }
- 530:
+                        if(oscard) { _fun00010_ip = 626; continue _fun00009 }
+ 564:
                         golfie = _closure1_slot9;
                         oscard = zuuluu.type;
                         oscard = golfie.bind(option)(oscard);
-                        if(oscard) { _fun00010_ip = 592; continue _fun00009 }
- 547:
+                        if(oscard) { _fun00010_ip = 626; continue _fun00009 }
+ 581:
                         golfie = _closure1_slot8;
                         oscard = zuuluu.type;
                         oscard = golfie.bind(option)(oscard);
-                        if(!oscard) { _fun00010_ip = 588; continue _fun00009 }
- 564:
+                        if(!oscard) { _fun00010_ip = 622; continue _fun00009 }
+ 598:
                         oscard = _closure1_slot14;
                         report = oscard.hasUnread;
                         zuuluu = zuuluu.id;
                         zuuluu = report.bind(oscard)(zuuluu);
-                        if(!(tangon !== zuuluu)) { _fun00010_ip = 590; continue _fun00009 }
- 588:
+                        if(!(tangon !== zuuluu)) { _fun00010_ip = 624; continue _fun00009 }
+ 622:
                         return entity;
- 590:
+ 624:
                         return michal;
- 592:
+ 626:
                         return michal;
- 594:
+ 628:
                         return michal;
- 596:
+ 630:
                         return entity;
                     }
                 };

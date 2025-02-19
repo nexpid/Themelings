@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.map;
             entity = function(argFoo) {
                 entity = argFoo;
-                entity = entity.user_id;
+                entity = entity.otherUserId;
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
@@ -256,13 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 option = tangon.bind(entity)(michal);
                 oscard = option.chain;
-                michal = global;
-                offset = michal.Array;
-                verify = offset.from;
-                yankee = _closure2_slot3;
-                tangon = yankee.values;
-                tangon = tangon.bind(yankee)();
-                tangon = verify.bind(offset)(tangon);
+                tangon = _closure2_slot3;
                 option = oscard.bind(option)(tangon);
                 oscard = option.filter;
                 tangon = function(argFoo) {
@@ -290,8 +284,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.value;
                 zuuluu = zuuluu.bind(tangon)();
                 tangon = zuuluu.length;
-                if(!(!(tangon >= offset))) { _fun00006_ip = 323; continue _fun00005 }
- 176:
+                if(!(!(tangon >= offset))) { _fun00006_ip = 296; continue _fun00005 }
+ 149:
                 oscard = _closure1_slot1;
                 tangon = _closure1_slot2;
                 report = tangon[report];
@@ -317,19 +311,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = tangon.bind(report)();
                 report = _closure2_slot2;
                 tangon = new Array(0);
-                romeon = 0;
-                backup = tangon;
-                foxtra = zuuluu;
-                romeon = arraySpread(backup, foxtra, romeon);
-                backup = tangon;
-                foxtra = golfie;
-                oscard = arraySpread(backup, foxtra, romeon);
+                yankee = 0;
+                foxtra = tangon;
+                romeon = zuuluu;
+                yankee = arraySpread(foxtra, romeon, yankee);
+                foxtra = tangon;
+                romeon = golfie;
+                oscard = arraySpread(foxtra, romeon, yankee);
                 tangon = report.bind(entity)(tangon);
-                _fun00006_ip = 332; continue _fun00005;
- 323:
+                _fun00006_ip = 305; continue _fun00005;
+ 296:
                 michal = _closure2_slot2;
                 michal = michal.bind(entity)(zuuluu);
- 332:
+ 305:
                 return entity;
             }
         };

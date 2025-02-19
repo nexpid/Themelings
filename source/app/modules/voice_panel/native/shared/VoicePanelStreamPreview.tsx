@@ -213,27 +213,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 9;
             kiloes = result[kiloes];
             kiloes = output.bind(tangon)(kiloes);
-            _fun00002_ip = 337; continue _fun00001;
+            _fun00002_ip = 336; continue _fun00001;
  327:
             output = {};
             output['uri'] = option;
             kiloes = output;
- 337:
+ 336:
             report['source'] = kiloes;
-            if(!(offset == option)) { _fun00002_ip = 353; continue _fun00001 }
- 345:
+            if(!(offset == option)) { _fun00002_ip = 352; continue _fun00001 }
+ 344:
             kiloes = sizing.streamPreviewImagePlaceholder;
-            _fun00002_ip = 359; continue _fun00001;
- 353:
+            _fun00002_ip = 358; continue _fun00001;
+ 352:
             kiloes = sizing.streamPreviewImage;
- 359:
+ 358:
             report['style'] = kiloes;
             offset = offset != option;
             option = 'contain';
-            if(!offset) { _fun00002_ip = 378; continue _fun00001 }
- 374:
+            if(!offset) { _fun00002_ip = 377; continue _fun00001 }
+ 373:
             option = 'cover';
- 378:
+ 377:
             report['resizeMode'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(2);

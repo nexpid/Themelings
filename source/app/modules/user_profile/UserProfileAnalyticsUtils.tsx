@@ -481,44 +481,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             oscard = entity.userId;
             tangon = null;
-            if(!(tangon != oscard)) { _fun00010_ip = 158; continue _fun00009 }
+            if(!(tangon != oscard)) { _fun00010_ip = 178; continue _fun00009 }
  17:
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getUserAffinity;
+            zuuluu = entity.bind(zuuluu)(oscard);
             entity = {};
             entity['related_user_id'] = oscard;
-            report = _closure1_slot7;
-            michal = report.getRelationshipType;
-            michal = michal.bind(report)(oscard);
-            entity['relationship_type'] = michal;
-            michal = report.getSince;
-            michal = michal.bind(report)(oscard);
-            entity['related_since'] = michal;
+            golfie = _closure1_slot7;
+            report = golfie.getRelationshipType;
+            report = report.bind(golfie)(oscard);
+            entity['relationship_type'] = report;
+            report = golfie.getSince;
+            report = report.bind(golfie)(oscard);
+            entity['related_since'] = report;
             report = _closure1_slot9;
             michal = report.getMutualFriendsCount;
             michal = michal.bind(report)(oscard);
             entity['num_mutual_friends'] = michal;
             michal = report.getMutualGuilds;
-            golfie = michal.bind(report)(oscard);
-            option = tangon == golfie;
+            oscard = michal.bind(report)(oscard);
+            golfie = tangon == oscard;
             report = undefined;
-            if(option) { _fun00010_ip = 114; continue _fun00009 }
- 109:
-            report = golfie.length;
- 114:
+            if(golfie) { _fun00010_ip = 129; continue _fun00009 }
+ 124:
+            report = oscard.length;
+ 129:
             entity['num_mutual_guilds'] = report;
-            report = _closure1_slot3;
-            zuuluu = report.getUserAffinity;
-            zuuluu = zuuluu.bind(report)(oscard);
+            oscard = tangon == zuuluu;
+            report = undefined;
+            if(oscard) { _fun00010_ip = 151; continue _fun00009 }
+ 145:
+            report = zuuluu.communicationProbability;
+ 151:
+            entity['communication_probability'] = report;
             tangon = tangon == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00010_ip = 151; continue _fun00009 }
- 145:
-            michal = zuuluu.affinity;
- 151:
-            entity['affinity'] = michal;
-            _fun00010_ip = 160; continue _fun00009;
- 158:
+            if(tangon) { _fun00010_ip = 171; continue _fun00009 }
+ 165:
+            michal = zuuluu.communicationRank;
+ 171:
+            entity['communication_rank'] = michal;
+            return entity;
+ 178:
             entity = {};
- 160:
             return entity;
         }
     };

@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     oscard = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 142; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 141; continue _fun00001 }
  13:
                     zuuluu = _closure1_slot7;
                     michal = zuuluu.getState;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 139; continue _fun00001 }
+                    if(option) { _fun00002_ip = 138; continue _fun00001 }
  75:
                     if(!(tangon == michal)) { _fun00002_ip = 84; continue _fun00001 }
  79:
@@ -53,22 +53,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['description'] = zuuluu;
                     zuuluu = argBaz;
                     zuuluu = zuuluu.bind(report)(oscard, tangon);
-                    SaveGenerator(address=114);
- 112:
+                    SaveGenerator(address=113);
+ 111:
                     return zuuluu;
- 114:
+ 113:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 136; continue _fun00001 }
- 120:
+                    if(tangon) { _fun00002_ip = 135; continue _fun00001 }
+ 119:
                     tangon = argCor;
                     tangon = tangon.bind(report)(michal);
                     tangon = michal.id;
                     return tangon;
- 136:
+ 135:
                     return zuuluu;
- 139:
+ 138:
                     return michal;
- 142:
+ 141:
                     return entity;
                 }
             };

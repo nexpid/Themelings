@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = null;
                 michal = backup == sequen;
                 entity = null;
-                if(michal) { _fun00004_ip = 622; continue _fun00003 }
+                if(michal) { _fun00004_ip = 621; continue _fun00003 }
  97:
                 tangon = _closure1_slot6;
                 zuuluu = _closure1_slot0;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = tangon.bind(report)(golfie, oscard);
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 622:
+ 621:
                 return entity;
             }
         };

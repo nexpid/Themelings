@@ -1134,16 +1134,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot9;
             romeon = _closure1_slot1;
             source = _closure1_slot2;
-            if(verify) { _fun00002_ip = 2699; continue _fun00001 }
- 2663:
+            if(verify) { _fun00002_ip = 2702; continue _fun00001 }
+ 2662:
             verify = 38;
             verify = source[verify];
             yankee = romeon.bind(report)(verify);
             verify = {'quest': null, 'height': 64, 'width': 64};
             verify['quest'] = entity;
             verify = sizing.bind(report)(yankee, verify);
-            _fun00002_ip = 2743; continue _fun00001;
- 2699:
+            _fun00002_ip = 2746; continue _fun00001;
+ 2702:
             yankee = 37;
             yankee = source[yankee];
             romeon = romeon.bind(report)(yankee);
@@ -1154,7 +1154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 'sm';
             yankee['size'] = update;
             verify = sizing.bind(report)(romeon, yankee);
- 2743:
+ 2746:
             option['children'] = verify;
             option = offset.bind(report)(result, option);
             update = new Array(2);

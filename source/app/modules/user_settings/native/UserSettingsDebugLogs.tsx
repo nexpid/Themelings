@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = yankee.category;
                 backup = backup.HermesInternal;
                 sizing = backup.concat;
-                kiloes = '[{';
+                kiloes = '[';
                 backup = ']: ';
                 backup = sizing.bind(kiloes)(output, backup);
                 offset['children'] = backup;

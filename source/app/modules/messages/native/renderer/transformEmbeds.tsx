@@ -79,8 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot10 = tangon;
         tangon = michal.authorIsBot;
         var _closure2_slot11 = tangon;
-        michal = michal.showContentInventoryEntryFallbackEmbed;
-        var _closure2_slot12 = michal;
+        tangon = michal.showContentInventoryEntryFallbackEmbed;
+        var _closure2_slot12 = tangon;
+        michal = michal.shouldAgeVerify;
+        var _closure2_slot13 = michal;
         michal = function(argFoo) { // Original name: renderEmbedMedia
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -137,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure2_slot13 = michal;
+        var _closure2_slot14 = michal;
         michal = zuuluu.flatMap;
         entity = function(argFoo) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -146,22 +148,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.POST_PREVIEW;
-                if(!(michal !== entity)) { _fun00006_ip = 2502; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
  28:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.GIFT;
-                if(!(michal !== entity)) { _fun00006_ip = 2502; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
  50:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.SAFETY_POLICY_NOTICE;
-                if(!(michal !== entity)) { _fun00006_ip = 2502; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
  72:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.SAFETY_SYSTEM_NOTIFICATION;
-                if(!(michal !== entity)) { _fun00006_ip = 2502; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
  94:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -171,12 +173,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(michal)(entity);
                 entity = zuuluu.isServerShopArticleEmbed;
                 entity = entity.bind(zuuluu)(tangon);
-                if(entity) { _fun00006_ip = 2496; continue _fun00005 }
+                if(entity) { _fun00006_ip = 2521; continue _fun00005 }
  133:
                 zuuluu = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.VOICE_CHANNEL;
-                if(!(zuuluu !== entity)) { _fun00006_ip = 2490; continue _fun00005 }
+                if(!(zuuluu !== entity)) { _fun00006_ip = 2515; continue _fun00005 }
  155:
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
@@ -263,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  436:
                 option = tangon.images;
                 oscard = option.map;
-                entity = _closure2_slot13;
+                entity = _closure2_slot14;
                 offset = oscard.bind(option)(entity);
  456:
                 entity = _closure2_slot5;
@@ -275,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = null;
                 if(!entity) { _fun00006_ip = 495; continue _fun00005 }
  480:
-                oscard = _closure2_slot13;
+                oscard = _closure2_slot14;
                 entity = tangon.image;
                 yankee = oscard.bind(michal)(entity);
  495:
@@ -611,10 +613,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1461:
                 entity = global;
                 entity = entity.HermesInternal;
-                output = entity.concat;
+                sizing = entity.concat;
                 option = '';
                 entity = ' | ';
-                kiloes = output.bind(option)(result, entity, echoed);
+                kiloes = sizing.bind(option)(result, entity, echoed);
  1491:
                 entity = {};
                 cntext = tangon.footer;
@@ -642,11 +644,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(!(report != echoed)) { _fun00006_ip = 1645; continue _fun00005 }
  1584:
                 kiloes = _closure1_slot1;
-                output = _closure1_slot2;
+                sizing = _closure1_slot2;
                 option = 2;
-                option = output[option];
+                option = sizing[option];
                 result = kiloes.bind(michal)(option);
-                output = result.getImageSrc;
+                sizing = result.getImageSrc;
                 option = _closure2_slot1;
                 config = !option;
                 option = 16;
@@ -654,7 +656,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 papara = echoed;
                 cntext = option;
                 record = option;
-                option = target[output](papara, cntext, record, config, sequen);
+                option = target[sizing](papara, cntext, record, config, sequen);
                 entity['iconURL'] = option;
                 golfie = entity;
  1645:
@@ -687,50 +689,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 kiloes = {};
                 cntext = tangon.author;
                 papara = kiloes;
-                output = copyDataProperties(papara, cntext);
+                sizing = copyDataProperties(papara, cntext);
                 result = _closure1_slot1;
                 echoed = _closure1_slot2;
-                output = 2;
-                output = echoed[output];
-                update = result.bind(michal)(output);
+                sizing = 2;
+                sizing = echoed[sizing];
+                update = result.bind(michal)(sizing);
                 echoed = update.getImageSrc;
-                output = _closure2_slot1;
-                config = !output;
-                output = 16;
+                sizing = _closure2_slot1;
+                config = !sizing;
+                sizing = 16;
                 target = update;
                 papara = source;
-                cntext = output;
-                record = output;
+                cntext = sizing;
+                record = sizing;
                 result = target[echoed](papara, cntext, record, config, sequen);
-                output = 'iconURL';
-                kiloes[output] = result;
+                sizing = 'iconURL';
+                kiloes[sizing] = result;
                 entity = kiloes;
  1816:
                 option = entity;
  1819:
-                output = _closure2_slot10;
-                if(!output) { _fun00006_ip = 1833; continue _fun00005 }
+                result = _closure2_slot10;
+                if(!result) { _fun00006_ip = 1833; continue _fun00005 }
  1826:
                 entity = _closure2_slot11;
-                output = !entity;
+                result = !entity;
  1833:
-                if(!output) { _fun00006_ip = 1873; continue _fun00005 }
+                if(!result) { _fun00006_ip = 1873; continue _fun00005 }
  1836:
                 kiloes = _closure1_slot0;
-                result = _closure1_slot2;
+                sizing = _closure1_slot2;
                 entity = 9;
-                entity = result[entity];
-                result = kiloes.bind(michal)(entity);
-                kiloes = result.isPendingScanVersion;
+                entity = sizing[entity];
+                sizing = kiloes.bind(michal)(entity);
+                kiloes = sizing.isPendingScanVersion;
                 entity = tangon.contentScanVersion;
-                output = kiloes.bind(result)(entity);
+                result = kiloes.bind(sizing)(entity);
  1873:
                 update = _closure1_slot0;
                 source = _closure1_slot2;
                 entity = 9;
                 kiloes = source[entity];
                 echoed = update.bind(michal)(kiloes);
-                result = echoed.isMediaObscured;
+                sizing = echoed.isMediaObscured;
                 kiloes = {};
                 entity = source[entity];
                 entity = update.bind(michal)(entity);
@@ -739,27 +741,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 kiloes['type'] = entity;
                 kiloes['media'] = tangon;
                 entity = _closure2_slot10;
-                echoed = result.bind(echoed)(kiloes, entity);
+                kiloes = sizing.bind(echoed)(kiloes, entity);
                 entity = {};
                 update = tangon.id;
                 source = report != update;
-                kiloes = '';
-                result = kiloes;
+                sizing = '';
+                echoed = sizing;
                 if(!source) { _fun00006_ip = 1965; continue _fun00005 }
  1962:
-                result = update;
+                echoed = update;
  1965:
-                entity['id'] = result;
+                entity['id'] = echoed;
                 update = tangon.type;
                 source = report != update;
-                result = undefined;
+                echoed = undefined;
                 if(!source) { _fun00006_ip = 1986; continue _fun00005 }
  1983:
-                result = update;
+                echoed = update;
  1986:
-                entity['type'] = result;
+                entity['type'] = echoed;
                 update = _closure2_slot2;
-                result = kiloes;
+                echoed = sizing;
                 if(!update) { _fun00006_ip = 2065; continue _fun00005 }
  2000:
                 vacuum = _closure1_slot0;
@@ -775,113 +777,124 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 update = update.F+x38P;
                 source = source.bind(ctrled)(update);
                 update = source.toUpperCase;
-                result = update.bind(source)();
+                echoed = update.bind(source)();
  2065:
-                entity['spoiler'] = result;
-                result = kiloes;
-                if(!echoed) { _fun00006_ip = 2131; continue _fun00005 }
+                entity['spoiler'] = echoed;
+                echoed = sizing;
+                if(!kiloes) { _fun00006_ip = 2131; continue _fun00005 }
  2076:
-                ctrled = _closure1_slot0;
-                vacuum = _closure1_slot2;
-                echoed = 10;
-                update = vacuum[echoed];
-                update = ctrled.bind(michal)(update);
-                source = update.intl;
-                update = source.string;
-                echoed = vacuum[echoed];
-                echoed = ctrled.bind(michal)(echoed);
-                echoed = echoed.t;
-                echoed = echoed.SpxcUV;
-                result = update.bind(source)(echoed);
+                vacuum = _closure1_slot0;
+                sequen = _closure1_slot2;
+                update = 10;
+                source = sequen[update];
+                source = vacuum.bind(michal)(source);
+                ctrled = source.intl;
+                source = ctrled.string;
+                update = sequen[update];
+                update = vacuum.bind(michal)(update);
+                update = update.t;
+                update = update.SpxcUV;
+                echoed = source.bind(ctrled)(update);
  2131:
-                entity['obscure'] = result;
-                if(!output) { _fun00006_ip = 2196; continue _fun00005 }
+                entity['obscure'] = echoed;
+                if(!result) { _fun00006_ip = 2196; continue _fun00005 }
  2139:
-                echoed = _closure1_slot0;
-                update = _closure1_slot2;
-                sizing = 10;
-                output = update[sizing];
-                output = echoed.bind(michal)(output);
-                result = output.intl;
-                output = result.string;
-                sizing = update[sizing];
-                sizing = echoed.bind(michal)(sizing);
-                sizing = sizing.t;
-                sizing = sizing.MRdR7+;
-                kiloes = output.bind(result)(sizing);
+                update = _closure1_slot0;
+                source = _closure1_slot2;
+                output = 10;
+                result = source[output];
+                result = update.bind(michal)(result);
+                echoed = result.intl;
+                result = echoed.string;
+                output = source[output];
+                output = update.bind(michal)(output);
+                output = output.t;
+                output = output.MRdR7+;
+                sizing = result.bind(echoed)(output);
  2196:
-                entity['obscureAwaitingScan'] = kiloes;
+                entity['obscureAwaitingScan'] = sizing;
+                sizing = kiloes;
+                if(!kiloes) { _fun00006_ip = 2211; continue _fun00005 }
+ 2207:
+                sizing = _closure2_slot13;
+ 2211:
+                entity['verifyAge'] = sizing;
+                if(!kiloes) { _fun00006_ip = 2221; continue _fun00005 }
+ 2219:
+                kiloes = false;
+ 2221:
+                entity['obscureHideControls'] = kiloes;
                 sizing = tangon.provider;
                 output = report != sizing;
                 kiloes = undefined;
-                if(!output) { _fun00006_ip = 2219; continue _fun00005 }
- 2216:
+                if(!output) { _fun00006_ip = 2244; continue _fun00005 }
+ 2241:
                 kiloes = sizing;
- 2219:
+ 2244:
                 entity['provider'] = kiloes;
                 entity['author'] = option;
                 option = tangon.rawTitle;
                 entity['rawTitle'] = option;
                 kiloes = report != backup;
                 option = undefined;
-                if(!kiloes) { _fun00006_ip = 2252; continue _fun00005 }
- 2249:
+                if(!kiloes) { _fun00006_ip = 2277; continue _fun00005 }
+ 2274:
                 option = backup;
- 2252:
+ 2277:
                 entity['title'] = option;
                 backup = tangon.url;
                 kiloes = report != backup;
                 option = undefined;
-                if(!kiloes) { _fun00006_ip = 2273; continue _fun00005 }
- 2270:
+                if(!kiloes) { _fun00006_ip = 2298; continue _fun00005 }
+ 2295:
                 option = backup;
- 2273:
+ 2298:
                 entity['url'] = option;
                 option = tangon.rawDescription;
                 entity['rawDescription'] = option;
                 backup = report != foxtra;
                 option = undefined;
-                if(!backup) { _fun00006_ip = 2300; continue _fun00005 }
- 2297:
+                if(!backup) { _fun00006_ip = 2325; continue _fun00005 }
+ 2322:
                 option = foxtra;
- 2300:
+ 2325:
                 entity['description'] = option;
                 foxtra = report != romeon;
                 option = undefined;
-                if(!foxtra) { _fun00006_ip = 2316; continue _fun00005 }
- 2313:
+                if(!foxtra) { _fun00006_ip = 2341; continue _fun00005 }
+ 2338:
                 option = romeon;
- 2316:
+ 2341:
                 entity['thumbnail'] = option;
                 romeon = report != yankee;
                 option = undefined;
-                if(!romeon) { _fun00006_ip = 2333; continue _fun00005 }
- 2330:
+                if(!romeon) { _fun00006_ip = 2358; continue _fun00005 }
+ 2355:
                 option = yankee;
- 2333:
+ 2358:
                 entity['image'] = option;
                 yankee = report != offset;
                 option = undefined;
-                if(!yankee) { _fun00006_ip = 2350; continue _fun00005 }
- 2347:
+                if(!yankee) { _fun00006_ip = 2375; continue _fun00005 }
+ 2372:
                 option = offset;
- 2350:
+ 2375:
                 entity['images'] = option;
                 offset = report != verify;
                 option = undefined;
-                if(!offset) { _fun00006_ip = 2367; continue _fun00005 }
- 2364:
+                if(!offset) { _fun00006_ip = 2392; continue _fun00005 }
+ 2389:
                 option = verify;
- 2367:
+ 2392:
                 entity['fields'] = option;
                 entity['footer'] = golfie;
                 option = tangon.video;
                 verify = report != option;
                 golfie = undefined;
-                if(!verify) { _fun00006_ip = 2395; continue _fun00005 }
- 2392:
+                if(!verify) { _fun00006_ip = 2420; continue _fun00005 }
+ 2417:
                 golfie = option;
- 2395:
+ 2420:
                 entity['video'] = golfie;
                 entity['borderLeftColor'] = oscard;
                 oscard = _closure2_slot6;
@@ -894,27 +907,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = tangon.referenceId;
                 golfie = report != oscard;
                 tangon = undefined;
-                if(!golfie) { _fun00006_ip = 2462; continue _fun00005 }
- 2459:
+                if(!golfie) { _fun00006_ip = 2487; continue _fun00005 }
+ 2484:
                 tangon = oscard;
- 2462:
+ 2487:
                 entity['referenceId'] = tangon;
                 tangon = _closure2_slot9;
                 tangon = report != tangon;
                 michal = undefined;
-                if(!tangon) { _fun00006_ip = 2484; continue _fun00005 }
- 2480:
+                if(!tangon) { _fun00006_ip = 2509; continue _fun00005 }
+ 2505:
                 michal = _closure2_slot9;
- 2484:
+ 2509:
                 entity['backgroundColor'] = michal;
                 return entity;
- 2490:
+ 2515:
                 entity = new Array(0);
                 return entity;
- 2496:
+ 2521:
                 entity = new Array(0);
                 return entity;
- 2502:
+ 2527:
                 entity = new Array(0);
                 return entity;
             }

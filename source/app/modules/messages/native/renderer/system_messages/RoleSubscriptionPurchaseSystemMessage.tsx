@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report.message;
             yankee = oscard.roleSubscriptionData;
             entity = null;
-            if(!(entity != yankee)) { _fun00006_ip = 735; continue _fun00005 }
+            if(!(entity != yankee)) { _fun00006_ip = 734; continue _fun00005 }
  23:
             michal = oscard.author;
             option = _closure1_slot4;
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = michal;
             zuuluu = copyDataProperties(vacuum, ctrled);
             return michal;
- 735:
+ 734:
             return entity;
         }
     };

@@ -649,7 +649,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 StartGenerator();
                                                 report = argFoo;
                                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                                if(michal) { _fun00016_ip = 102; continue _fun00015 }
+                                                if(michal) { _fun00016_ip = 101; continue _fun00015 }
  10:
                                                 tangon = _closure1_slot0;
                                                 zuuluu = _closure1_slot2;
@@ -662,21 +662,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 tangon = report.width;
                                                 michal = report.height;
                                                 michal = golfie.bind(option)(oscard, tangon, michal);
-                                                SaveGenerator(address=68);
- 66:
+                                                SaveGenerator(address=67);
+ 65:
                                                 return michal;
- 68:
+ 67:
                                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                                if(tangon) { _fun00016_ip = 99; continue _fun00015 }
- 74:
+                                                if(tangon) { _fun00016_ip = 98; continue _fun00015 }
+ 73:
                                                 oscard = michal.width;
                                                 tangon = michal.height;
                                                 report['width'] = oscard;
                                                 report['height'] = tangon;
                                                 return zuuluu;
- 99:
+ 98:
                                                 return michal;
- 102:
+ 101:
                                                 return entity;
                                             }
                                         };

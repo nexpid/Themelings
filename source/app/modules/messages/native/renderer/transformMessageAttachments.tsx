@@ -51,8 +51,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot6 = zuuluu;
         zuuluu = michal.shouldObscureExplicitMedia;
         var _closure2_slot7 = zuuluu;
+        zuuluu = michal.shouldAgeVerify;
+        var _closure2_slot8 = zuuluu;
         michal = michal.colors;
-        var _closure2_slot8 = michal;
+        var _closure2_slot9 = michal;
         zuuluu = tangon.filter;
         michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -85,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 golfie = argFoo;
-                report = argBar;
+                tangon = argBar;
                 target = golfie.proxy_url;
                 status = golfie.url;
                 yankee = golfie.filename;
@@ -99,22 +101,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = golfie.placeholder;
                 option = golfie.placeholder_version;
                 entity = golfie.flags;
-                zuuluu = _closure1_slot0;
+                oscard = _closure1_slot0;
                 romeon = _closure1_slot2;
                 michal = 3;
                 foxtra = romeon[michal];
-                oscard = undefined;
-                backup = zuuluu.bind(oscard)(foxtra);
+                report = undefined;
+                backup = oscard.bind(report)(foxtra);
                 foxtra = backup.isImageFile;
                 sizing = foxtra.bind(backup)(yankee);
                 foxtra = romeon[michal];
-                backup = zuuluu.bind(oscard)(foxtra);
+                backup = oscard.bind(report)(foxtra);
                 foxtra = backup.isAudioFile;
                 foxtra = foxtra.bind(backup)(yankee);
                 michal = romeon[michal];
-                zuuluu = zuuluu.bind(oscard)(michal);
-                michal = zuuluu.isVideoFile;
-                kiloes = michal.bind(zuuluu)(yankee);
+                oscard = oscard.bind(report)(michal);
+                michal = oscard.isVideoFile;
+                kiloes = michal.bind(oscard)(yankee);
                 vacuum = sizing;
                 if(vacuum) { _fun00004_ip = 162; continue _fun00003 }
  159:
@@ -127,30 +129,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  178:
                 romeon = _closure2_slot0;
                 romeon = romeon.length;
-                michal = report < romeon;
+                michal = tangon < romeon;
  191:
                 romeon = undefined;
                 if(!michal) { _fun00004_ip = 204; continue _fun00003 }
  196:
                 michal = _closure2_slot0;
-                romeon = michal[report];
+                romeon = michal[tangon];
  204:
-                report = _closure1_slot0;
+                tangon = _closure1_slot0;
                 michal = _closure1_slot2;
                 cntext = 2;
                 michal = michal[cntext];
-                source = report.bind(oscard)(michal);
+                source = tangon.bind(report)(michal);
                 backup = source.hasFlag;
                 michal = yankee != entity;
                 record = 0;
-                report = 0;
+                tangon = 0;
                 if(!michal) { _fun00004_ip = 244; continue _fun00003 }
  241:
-                report = entity;
+                tangon = entity;
  244:
                 michal = _closure1_slot4;
                 michal = michal.IS_ANIMATED;
-                report = backup.bind(source)(report, michal);
+                tangon = backup.bind(source)(tangon, michal);
                 if(!sizing) { _fun00004_ip = 271; continue _fun00003 }
  263:
                 if(!(yankee != output)) { _fun00004_ip = 271; continue _fun00003 }
@@ -194,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 papara = _closure1_slot2;
                 michal = 4;
                 michal = papara[michal];
-                papara = backup.bind(oscard)(michal);
+                papara = backup.bind(report)(michal);
                 backup = papara.getImageSrc;
                 michal = _closure2_slot2;
                 sierra = !michal;
@@ -252,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 ctrled = _closure1_slot0;
                 michal = _closure1_slot2;
                 michal = michal[cntext];
-                ctrled = ctrled.bind(oscard)(michal);
+                ctrled = ctrled.bind(report)(michal);
                 michal = ctrled.hasFlag;
                 cntext = yankee != entity;
                 record = 0;
@@ -271,18 +273,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 target = _closure1_slot2;
                 ctrled = 5;
                 record = target[ctrled];
-                record = papara.bind(oscard)(record);
+                record = papara.bind(report)(record);
                 cntext = record.intl;
                 record = cntext.string;
                 ctrled = target[ctrled];
-                ctrled = papara.bind(oscard)(ctrled);
+                ctrled = papara.bind(report)(ctrled);
                 ctrled = ctrled.t;
                 ctrled = ctrled.gESDiY;
                 ctrled = record.bind(cntext)(ctrled);
                 entity['attachmentTagText'] = ctrled;
                 ctrled = 'clip';
                 entity['attachmentTagIconType'] = ctrled;
-                ctrled = _closure2_slot8;
+                ctrled = _closure2_slot9;
                 record = ctrled.clipTagBackgroundColor;
                 entity['attachmentTagBackgroundColor'] = record;
                 ctrled = ctrled.clipTagTextColor;
@@ -312,12 +314,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 source = _closure1_slot2;
                 ctrled = 6;
                 ctrled = source[ctrled];
-                ctrled = vacuum.bind(oscard)(ctrled);
-                ctrled = ctrled.bind(oscard)(golfie);
+                ctrled = vacuum.bind(report)(ctrled);
+                ctrled = ctrled.bind(report)(golfie);
                 entity['filename'] = ctrled;
                 ctrled = 7;
                 ctrled = source[ctrled];
-                vacuum = vacuum.bind(oscard)(ctrled);
+                vacuum = vacuum.bind(report)(ctrled);
                 ctrled = vacuum.filesize;
                 ctrled = ctrled.bind(vacuum)(sequen);
                 entity['size'] = ctrled;
@@ -325,11 +327,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sequen = _closure1_slot0;
                 update = 5;
                 ctrled = source[update];
-                ctrled = sequen.bind(oscard)(ctrled);
+                ctrled = sequen.bind(report)(ctrled);
                 config = ctrled.intl;
                 vacuum = config.string;
                 ctrled = source[update];
-                ctrled = sequen.bind(oscard)(ctrled);
+                ctrled = sequen.bind(report)(ctrled);
                 ctrled = ctrled.t;
                 ctrled = ctrled.jCV1T0;
                 vacuum = vacuum.bind(config)(ctrled);
@@ -337,11 +339,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 ctrled = ctrled.bind(vacuum)();
                 entity['alt'] = ctrled;
                 ctrled = source[update];
-                ctrled = sequen.bind(oscard)(ctrled);
+                ctrled = sequen.bind(report)(ctrled);
                 vacuum = ctrled.intl;
                 ctrled = vacuum.string;
                 source = source[update];
-                source = sequen.bind(oscard)(source);
+                source = sequen.bind(report)(source);
                 source = source.t;
                 source = source.fSiQ3N;
                 source = ctrled.bind(vacuum)(source);
@@ -355,11 +357,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 output = _closure1_slot0;
                 backup = _closure1_slot2;
                 result = backup[update];
-                result = output.bind(oscard)(result);
+                result = output.bind(report)(result);
                 echoed = result.intl;
                 result = echoed.string;
                 backup = backup[update];
-                backup = output.bind(oscard)(backup);
+                backup = output.bind(report)(backup);
                 output = backup.t;
                 if(kiloes) { _fun00004_ip = 981; continue _fun00003 }
  968:
@@ -374,11 +376,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 output = _closure1_slot0;
                 backup = _closure1_slot2;
                 result = backup[update];
-                result = output.bind(oscard)(result);
+                result = output.bind(report)(result);
                 echoed = result.intl;
                 result = echoed.string;
                 backup = backup[update];
-                backup = output.bind(oscard)(backup);
+                backup = output.bind(report)(backup);
                 output = backup.t;
                 if(kiloes) { _fun00004_ip = 1054; continue _fun00003 }
  1041:
@@ -449,16 +451,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['mediaViewerEnableDecoderFallback'] = option;
                 option = true;
                 entity['mediaViewerEnableAsyncBufferQueueing'] = option;
-                entity['srcIsAnimated'] = report;
-                report = _closure1_slot0;
+                entity['srcIsAnimated'] = tangon;
+                tangon = _closure1_slot0;
                 option = _closure1_slot2;
-                tangon = 8;
-                tangon = option[tangon];
-                oscard = report.bind(oscard)(tangon);
-                report = oscard.getAttachmentObscurityProps;
-                tangon = _closure2_slot5;
-                zuuluu = _closure2_slot7;
-                whisks = report.bind(oscard)(golfie, tangon, zuuluu);
+                zuuluu = 8;
+                zuuluu = option[zuuluu];
+                report = tangon.bind(report)(zuuluu);
+                tangon = report.getAttachmentObscurityProps;
+                zuuluu = {};
+                zuuluu['attachment'] = golfie;
+                golfie = _closure2_slot5;
+                zuuluu['shouldObscureSpoiler'] = golfie;
+                golfie = _closure2_slot7;
+                zuuluu['shouldObscureExplicitMedia'] = golfie;
+                oscard = _closure2_slot8;
+                zuuluu['shouldAgeVerify'] = oscard;
+                whisks = tangon.bind(report)(zuuluu);
                 equals = entity;
                 zuuluu = copyDataProperties(equals, whisks);
                 equals = entity;

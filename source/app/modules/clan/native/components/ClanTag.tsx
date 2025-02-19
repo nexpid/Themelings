@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         if(!(oscard !== report)) { _fun00008_ip = 47; continue _fun00007 }
  41:
                         oscard = _closure2_slot1;
-                        _fun00008_ip = 88; continue _fun00007;
+                        _fun00008_ip = 87; continue _fun00007;
  47:
                         offset = _closure1_slot11;
                         option = _closure1_slot15;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie['size'] = report;
                         report = undefined;
                         oscard = offset.bind(report)(option, golfie);
- 88:
+ 87:
                         report = new Array(2);
                         report[0] = oscard;
                         option = _closure1_slot11;

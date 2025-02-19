@@ -15,31 +15,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.get;
             entity = entity.bind(zuuluu)(tangon);
             option = null;
-            if(!(option == entity)) { _fun00002_ip = 85; continue _fun00001 }
+            if(!(option == entity)) { _fun00002_ip = 84; continue _fun00001 }
  26:
             oscard = 'number';
             report = typeof tangon;
             zuuluu = tangon;
-            if(!(oscard !== report)) { _fun00002_ip = 82; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 81; continue _fun00001 }
  40:
             oscard = option == tangon;
             report = null;
-            if(oscard) { _fun00002_ip = 79; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 78; continue _fun00001 }
  49:
             oscard = tangon.trim;
             golfie = oscard.bind(tangon)();
             oscard = '';
             report = null;
-            if(!(oscard !== golfie)) { _fun00002_ip = 79; continue _fun00001 }
+            if(!(oscard !== golfie)) { _fun00002_ip = 78; continue _fun00001 }
  69:
             oscard = {};
             oscard['uri'] = tangon;
             report = oscard;
- 79:
+ 78:
             zuuluu = report;
- 82:
+ 81:
             entity = zuuluu;
- 85:
+ 84:
             zuuluu = _closure1_slot8;
             michal = zuuluu.set;
             michal = michal.bind(zuuluu)(tangon, entity);

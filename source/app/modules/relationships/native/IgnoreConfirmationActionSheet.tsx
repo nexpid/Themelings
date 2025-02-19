@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = null;
             zuuluu = ctrled == variable39;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 1866; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 1867; continue _fun00001 }
  330:
             tangon = _closure1_slot14;
             offset = _closure1_slot0;
@@ -549,10 +549,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             config = ctrled != variable37;
             ctrled = undefined;
-            if(!config) { _fun00002_ip = 595; continue _fun00001 }
- 592:
+            if(!config) { _fun00002_ip = 596; continue _fun00001 }
+ 593:
             ctrled = variable37;
- 595:
+ 596:
             kiloes['guildId'] = ctrled;
             kiloes['user'] = variable39;
             kiloes['animate'] = source;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1866:
+ 1867:
             return entity;
         }
     };

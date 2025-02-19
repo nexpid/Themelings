@@ -43,6 +43,30 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon['treatments'] = offset;
     tangon = option.bind(verify)(tangon);
     var _closure1_slot2 = tangon;
+    option = function() { // Original name: platformSupportsVoiceFilters
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            entity = _closure1_slot1;
+            report = 1;
+            entity = entity[report];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.isWindows;
+            entity = entity.bind(zuuluu)();
+            if(entity) { _fun00002_ip = 65; continue _fun00001 }
+ 38:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[report];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.isMac;
+            entity = michal.bind(zuuluu)();
+ 65:
+            return entity;
+        }
+    };
+    var _closure1_slot3 = option;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -50,7 +74,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['VoiceFilterExperiment'] = tangon;
     tangon = function(argFoo) { // Original name: isVoiceFiltersEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
             entity = michal.location;
@@ -63,23 +87,18 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['autoTrackExposure'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
             entity = entity.enabled;
-            if(!entity) { _fun00002_ip = 86; continue _fun00001 }
+            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  54:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
+            zuuluu = _closure1_slot3;
             michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.isDesktop;
-            entity = michal.bind(zuuluu)();
- 86:
+            entity = zuuluu.bind(michal)();
+ 64:
             return entity;
         }
     };
     zuuluu['isVoiceFiltersEnabled'] = tangon;
     michal = function(argFoo) { // Original name: useAreVoiceFiltersEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
             entity = michal.location;
@@ -92,17 +111,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['autoTrackExposure'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
             entity = entity.enabled;
-            if(!entity) { _fun00004_ip = 86; continue _fun00003 }
+            if(!entity) { _fun00006_ip = 64; continue _fun00005 }
  54:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
+            zuuluu = _closure1_slot3;
             michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.isDesktop;
-            entity = michal.bind(zuuluu)();
- 86:
+            entity = zuuluu.bind(michal)();
+ 64:
             return entity;
         }
     };

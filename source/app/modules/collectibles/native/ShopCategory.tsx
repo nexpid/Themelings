@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = output;
             yankee = yankee != record;
-            if(!yankee) { _fun00002_ip = 780; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 779; continue _fun00001 }
  743:
             sequen = _closure1_slot8;
             vacuum = _closure1_slot4;
@@ -391,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = sizing.imageBackground;
             output['style'] = config;
             yankee = sequen.bind(tangon)(vacuum, output);
- 780:
+ 779:
             vacuum = new Array(2);
             vacuum[0] = yankee;
             yankee = _closure1_slot8;
@@ -419,8 +419,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = output[offset];
             offset = sizing.bind(tangon)(offset);
             offset = offset.FlashList;
-            if(verify) { _fun00002_ip = 1082; continue _fun00001 }
- 917:
+            if(verify) { _fun00002_ip = 1081; continue _fun00001 }
+ 916:
             verify = {};
             sizing = true;
             verify['horizontal'] = sizing;
@@ -502,8 +502,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot12;
             verify['ItemSeparatorComponent'] = sizing;
             verify['initialScrollIndex'] = romeon;
-            _fun00002_ip = 1214; continue _fun00001;
- 1082:
+            _fun00002_ip = 1213; continue _fun00001;
+ 1081:
             romeon = {};
             sizing = true;
             romeon['horizontal'] = sizing;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['ListHeaderComponent'] = foxtra;
             romeon['ItemSeparatorComponent'] = foxtra;
             verify = romeon;
- 1214:
+ 1213:
             verify = yankee.bind(tangon)(offset, verify);
             option[1] = verify;
             report['children'] = option;

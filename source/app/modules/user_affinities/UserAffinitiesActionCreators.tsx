@@ -269,18 +269,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = zuuluu.communication_probability;
                         golfie = tangon != oscard;
                         report = 0;
-                        if(!golfie) { _fun00006_ip = 237; continue _fun00005 }
- 234:
+                        if(!golfie) { _fun00006_ip = 235; continue _fun00005 }
+ 232:
                         report = oscard;
- 237:
+ 235:
                         entity['communicationProbability'] = report;
                         zuuluu = zuuluu.communication_rank;
                         tangon = tangon != zuuluu;
                         michal = 0;
-                        if(!tangon) { _fun00006_ip = 262; continue _fun00005 }
- 259:
+                        if(!tangon) { _fun00006_ip = 258; continue _fun00005 }
+ 255:
                         michal = zuuluu;
- 262:
+ 258:
                         entity['communicationRank'] = michal;
                         return entity;
                     }

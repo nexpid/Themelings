@@ -68,23 +68,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             michal = entity.spacing;
-            verify = 8;
+            offset = 8;
             tangon = undefined;
             if(!(tangon !== michal)) { _fun00004_ip = 20; continue _fun00003 }
  17:
-            verify = michal;
+            offset = michal;
  20:
             michal = entity.direction;
-            option = 'vertical';
+            verify = 'vertical';
             if(!(tangon !== michal)) { _fun00004_ip = 37; continue _fun00003 }
  34:
-            option = michal;
+            verify = michal;
  37:
             michal = entity.align;
-            oscard = 'stretch';
+            golfie = 'stretch';
             if(!(tangon !== michal)) { _fun00004_ip = 54; continue _fun00003 }
  51:
-            oscard = michal;
+            golfie = michal;
  54:
             michal = entity.justify;
             zuuluu = 'flex-start';
@@ -93,22 +93,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal;
  73:
             report = entity.children;
-            golfie = entity.style;
+            option = entity.style;
+            oscard = entity.onLayout;
             michal = _closure1_slot2;
-            backup = undefined;
+            kiloes = undefined;
+            backup = offset;
             foxtra = verify;
-            romeon = option;
-            yankee = oscard;
-            offset = zuuluu;
-            oscard = backup[michal](foxtra, romeon, yankee, offset, verify);
+            romeon = golfie;
+            yankee = zuuluu;
+            golfie = kiloes[michal](backup, foxtra, romeon, yankee, offset);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot0;
             entity = {};
-            option = oscard.stack;
-            oscard = new Array(2);
-            oscard[0] = option;
-            oscard[1] = golfie;
-            entity['style'] = oscard;
+            verify = golfie.stack;
+            golfie = new Array(2);
+            golfie[0] = verify;
+            golfie[1] = option;
+            entity['style'] = golfie;
+            entity['onLayout'] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

@@ -31,331 +31,347 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            var _closure2_slot8 = option;
+            var _closure2_slot9 = option;
             report = entity.message;
             var _closure2_slot2 = report;
             tangon = entity.interaction;
             foxtra = entity.guildId;
             yankee = entity.shouldDisableInteractiveComponents;
-            update = entity.shouldShowMedia;
-            var _closure2_slot3 = update;
-            sizing = entity.shouldObscureSpoiler;
-            var _closure2_slot4 = sizing;
-            kiloes = entity.shouldObscureExplicitMedia;
-            var _closure2_slot5 = kiloes;
+            source = entity.shouldShowMedia;
+            var _closure2_slot3 = source;
+            output = entity.shouldObscureSpoiler;
+            var _closure2_slot4 = output;
+            sizing = entity.shouldObscureExplicitMedia;
+            var _closure2_slot5 = sizing;
             zuuluu = entity.shouldShowMosaicMediaDescriptions;
             var _closure2_slot6 = zuuluu;
-            echoed = entity.shouldAutoPlayGifs;
-            var _closure2_slot7 = echoed;
-            romeon = entity.colors;
+            romeon = entity.shouldAgeVerify;
+            var _closure2_slot7 = romeon;
+            update = entity.shouldAutoPlayGifs;
+            var _closure2_slot8 = update;
+            backup = entity.colors;
             verify = entity.markdownConfigs;
-            backup = oscard.type;
-            output = _closure1_slot0;
+            kiloes = oscard.type;
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             offset = 4;
             zuuluu = zuuluu[offset];
             golfie = undefined;
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.ACTION_ROW;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 2415; continue _fun00001 }
- 163:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2499; continue _fun00001 }
+ 173:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.BUTTON;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 2248; continue _fun00001 }
- 199:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2332; continue _fun00001 }
+ 209:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.STRING_SELECT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 2114; continue _fun00001 }
- 235:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2198; continue _fun00001 }
+ 245:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.USER_SELECT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
- 271:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2054; continue _fun00001 }
+ 281:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.ROLE_SELECT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
- 307:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2054; continue _fun00001 }
+ 317:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.MENTIONABLE_SELECT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
- 343:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2054; continue _fun00001 }
+ 353:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.CHANNEL_SELECT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1970; continue _fun00001 }
- 379:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 2054; continue _fun00001 }
+ 389:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.SECTION;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1821; continue _fun00001 }
- 415:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1905; continue _fun00001 }
+ 425:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.TEXT_DISPLAY;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1771; continue _fun00001 }
- 451:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1855; continue _fun00001 }
+ 461:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.THUMBNAIL;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1436; continue _fun00001 }
- 487:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1483; continue _fun00001 }
+ 497:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.MEDIA_GALLERY;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1340; continue _fun00001 }
- 523:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1387; continue _fun00001 }
+ 533:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.FILE;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1027; continue _fun00001 }
- 559:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1037; continue _fun00001 }
+ 569:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.SEPARATOR;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1025; continue _fun00001 }
- 595:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1035; continue _fun00001 }
+ 605:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.TEXT_INPUT;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 1021; continue _fun00001 }
- 631:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 1031; continue _fun00001 }
+ 641:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.CONTENT_INVENTORY_ENTRY;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 952; continue _fun00001 }
- 667:
-            output = _closure1_slot0;
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 962; continue _fun00001 }
+ 677:
+            result = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[offset];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ComponentType;
             zuuluu = zuuluu.CONTAINER;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 704; continue _fun00001 }
- 700:
+            if(!(zuuluu !== kiloes)) { _fun00002_ip = 714; continue _fun00001 }
+ 710:
             zuuluu = null;
             return zuuluu;
- 704:
+ 714:
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            backup = copyDataProperties(sierra, status);
-            result = oscard.components;
-            output = result.map;
-            backup = function(argFoo) {
-                zuuluu = _closure2_slot8;
+            limora = zuuluu;
+            sierra = oscard;
+            kiloes = copyDataProperties(limora, sierra);
+            echoed = oscard.components;
+            result = echoed.map;
+            kiloes = function(argFoo) {
+                zuuluu = _closure2_slot9;
                 michal = undefined;
                 entity = argFoo;
                 entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
-            result = output.bind(result)(backup);
-            output = result.filter;
-            source = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            backup = 3;
-            backup = ctrled[backup];
-            backup = source.bind(golfie)(backup);
-            backup = backup.isNotNullish;
-            output = output.bind(result)(backup);
-            backup = 'components';
-            zuuluu[backup] = output;
-            output = oscard.accentColor;
-            backup = null;
-            output = backup != output;
-            result = null;
-            if(!output) { _fun00002_ip = 814; continue _fun00001 }
- 799:
-            source = _closure1_slot3;
-            output = oscard.accentColor;
-            result = source.bind(golfie)(output);
- 814:
-            output = 'accentColor';
-            zuuluu[output] = result;
+            echoed = result.bind(echoed)(kiloes);
+            result = echoed.filter;
+            ctrled = _closure1_slot0;
+            vacuum = _closure1_slot2;
+            kiloes = 3;
+            kiloes = vacuum[kiloes];
+            kiloes = ctrled.bind(golfie)(kiloes);
+            kiloes = kiloes.isNotNullish;
+            result = result.bind(echoed)(kiloes);
+            kiloes = 'components';
+            zuuluu[kiloes] = result;
+            result = oscard.accentColor;
+            kiloes = null;
+            result = kiloes != result;
+            echoed = null;
+            if(!result) { _fun00002_ip = 824; continue _fun00001 }
+ 809:
+            ctrled = _closure1_slot3;
+            result = oscard.accentColor;
+            echoed = ctrled.bind(golfie)(result);
+ 824:
+            result = 'accentColor';
+            zuuluu[result] = echoed;
+            echoed = oscard.spoiler;
+            result = 'isSpoiler';
+            zuuluu[result] = echoed;
             result = oscard.spoiler;
-            output = 'isSpoiler';
-            zuuluu[output] = result;
-            output = oscard.spoiler;
-            result = null;
-            if(!output) { _fun00002_ip = 914; continue _fun00001 }
- 849:
-            vacuum = _closure1_slot0;
-            sequen = _closure1_slot2;
-            output = 6;
-            source = sequen[output];
-            source = vacuum.bind(golfie)(source);
-            ctrled = source.intl;
-            source = ctrled.string;
-            output = sequen[output];
-            output = vacuum.bind(golfie)(output);
-            output = output.t;
-            output = output.F+x38P;
-            source = source.bind(ctrled)(output);
-            output = source.toUpperCase;
-            result = output.bind(source)();
- 914:
-            output = 'spoilerDescription';
-            zuuluu[output] = result;
-            romeon = romeon.embedBackgroundColor;
-            output = backup != romeon;
-            backup = null;
-            if(!output) { _fun00002_ip = 941; continue _fun00001 }
- 938:
-            backup = romeon;
- 941:
-            romeon = 'themedBackgroundColor';
-            zuuluu[romeon] = backup;
+            echoed = null;
+            if(!result) { _fun00002_ip = 924; continue _fun00001 }
+ 859:
+            sequen = _closure1_slot0;
+            config = _closure1_slot2;
+            result = 6;
+            ctrled = config[result];
+            ctrled = sequen.bind(golfie)(ctrled);
+            vacuum = ctrled.intl;
+            ctrled = vacuum.string;
+            result = config[result];
+            result = sequen.bind(golfie)(result);
+            result = result.t;
+            result = result.F+x38P;
+            ctrled = ctrled.bind(vacuum)(result);
+            result = ctrled.toUpperCase;
+            echoed = result.bind(ctrled)();
+ 924:
+            result = 'spoilerDescription';
+            zuuluu[result] = echoed;
+            backup = backup.embedBackgroundColor;
+            result = kiloes != backup;
+            kiloes = null;
+            if(!result) { _fun00002_ip = 951; continue _fun00001 }
+ 948:
+            kiloes = backup;
+ 951:
+            backup = 'themedBackgroundColor';
+            zuuluu[backup] = kiloes;
             return zuuluu;
- 952:
+ 962:
             zuuluu = {};
-            romeon = oscard.type;
-            zuuluu['type'] = romeon;
-            romeon = oscard.id;
-            zuuluu['id'] = romeon;
-            backup = _closure1_slot0;
-            output = _closure1_slot2;
-            romeon = 14;
-            romeon = output[romeon];
-            output = backup.bind(golfie)(romeon);
-            backup = output.transformToRowGeneratedContentInventoryEntryComponent;
-            romeon = {};
-            romeon['component'] = oscard;
-            romeon['message'] = report;
-            romeon = backup.bind(output)(romeon);
-            zuuluu['contentInventoryEntry'] = romeon;
+            backup = oscard.type;
+            zuuluu['type'] = backup;
+            backup = oscard.id;
+            zuuluu['id'] = backup;
+            kiloes = _closure1_slot0;
+            result = _closure1_slot2;
+            backup = 14;
+            backup = result[backup];
+            result = kiloes.bind(golfie)(backup);
+            kiloes = result.transformToRowGeneratedContentInventoryEntryComponent;
+            backup = {};
+            backup['component'] = oscard;
+            backup['message'] = report;
+            backup = kiloes.bind(result)(backup);
+            zuuluu['contentInventoryEntry'] = backup;
             return zuuluu;
- 1021:
+ 1031:
             zuuluu = null;
             return zuuluu;
- 1025:
+ 1035:
             return oscard;
- 1027:
-            romeon = _closure1_slot0;
-            backup = _closure1_slot2;
+ 1037:
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
             zuuluu = 11;
-            zuuluu = backup[zuuluu];
-            output = romeon.bind(golfie)(zuuluu);
-            backup = output.getUnfurledMediaItemObscurityProps;
+            zuuluu = kiloes[zuuluu];
+            result = backup.bind(golfie)(zuuluu);
+            kiloes = result.getUnfurledMediaItemObscurityProps;
             zuuluu = {};
-            romeon = oscard.file;
-            zuuluu['mediaItem'] = romeon;
-            source = oscard.spoiler;
-            romeon = null;
-            result = romeon != source;
-            if(!result) { _fun00002_ip = 1084; continue _fun00001 }
- 1081:
-            result = source;
- 1084:
-            zuuluu['isSpoilered'] = result;
-            result = report.bot;
-            zuuluu['isAuthorBot'] = result;
-            zuuluu['shouldObscureSpoiler'] = sizing;
-            zuuluu['shouldObscureExplicitMedia'] = kiloes;
-            zuuluu = backup.bind(output)(zuuluu);
-            ctrled = zuuluu.isSpoiler;
-            source = zuuluu.spoilerDescription;
-            result = zuuluu.isObscured;
-            backup = zuuluu.obscureDescription;
-            output = zuuluu.obscureAwaitingScan;
+            backup = oscard.file;
+            zuuluu['mediaItem'] = backup;
+            ctrled = oscard.spoiler;
+            backup = null;
+            echoed = backup != ctrled;
+            if(!echoed) { _fun00002_ip = 1094; continue _fun00001 }
+ 1091:
+            echoed = ctrled;
+ 1094:
+            zuuluu['isSpoilered'] = echoed;
+            echoed = report.bot;
+            zuuluu['isAuthorBot'] = echoed;
+            zuuluu['shouldObscureSpoiler'] = output;
+            zuuluu['shouldObscureExplicitMedia'] = sizing;
+            zuuluu['shouldAgeVerify'] = romeon;
+            zuuluu = kiloes.bind(result)(zuuluu);
+            vacuum = zuuluu.isSpoiler;
+            ctrled = zuuluu.spoilerDescription;
+            kiloes = zuuluu.isObscured;
+            result = zuuluu.obscureDescription;
+            echoed = zuuluu.obscureAwaitingScan;
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            vacuum = copyDataProperties(sierra, status);
-            sequen = oscard.name;
-            if(!(romeon == sequen)) { _fun00002_ip = 1223; continue _fun00001 }
- 1166:
-            cntext = _closure1_slot0;
-            papara = _closure1_slot2;
-            vacuum = 6;
-            config = papara[vacuum];
-            config = cntext.bind(golfie)(config);
-            record = config.intl;
-            config = record.string;
-            vacuum = papara[vacuum];
-            vacuum = cntext.bind(golfie)(vacuum);
-            vacuum = vacuum.t;
-            vacuum = vacuum.GnuJ5u;
-            sequen = config.bind(record)(vacuum);
- 1223:
-            vacuum = 'name';
-            zuuluu[vacuum] = sequen;
-            sequen = _closure1_slot1;
-            config = _closure1_slot2;
-            vacuum = 13;
-            vacuum = config[vacuum];
-            sequen = sequen.bind(golfie)(vacuum);
-            vacuum = sequen.filesize;
-            config = oscard.size;
-            record = romeon != config;
-            romeon = 0;
-            if(!record) { _fun00002_ip = 1275; continue _fun00001 }
- 1272:
-            romeon = config;
- 1275:
-            vacuum = vacuum.bind(sequen)(romeon);
-            romeon = 'size';
-            zuuluu[romeon] = vacuum;
-            romeon = 'isSpoiler';
-            zuuluu[romeon] = ctrled;
-            romeon = 'spoilerDescription';
-            zuuluu[romeon] = source;
-            romeon = 'isObscure';
-            zuuluu[romeon] = result;
-            romeon = 'isObscureAwaitingScan';
-            zuuluu[romeon] = output;
-            romeon = 'obscureDescription';
-            zuuluu[romeon] = backup;
+            limora = zuuluu;
+            sierra = oscard;
+            sequen = copyDataProperties(limora, sierra);
+            config = oscard.name;
+            if(!(backup == config)) { _fun00002_ip = 1238; continue _fun00001 }
+ 1181:
+            papara = _closure1_slot0;
+            target = _closure1_slot2;
+            sequen = 6;
+            record = target[sequen];
+            record = papara.bind(golfie)(record);
+            cntext = record.intl;
+            record = cntext.string;
+            sequen = target[sequen];
+            sequen = papara.bind(golfie)(sequen);
+            sequen = sequen.t;
+            sequen = sequen.GnuJ5u;
+            config = record.bind(cntext)(sequen);
+ 1238:
+            sequen = 'name';
+            zuuluu[sequen] = config;
+            config = _closure1_slot1;
+            record = _closure1_slot2;
+            sequen = 13;
+            sequen = record[sequen];
+            config = config.bind(golfie)(sequen);
+            sequen = config.filesize;
+            record = oscard.size;
+            cntext = backup != record;
+            backup = 0;
+            if(!cntext) { _fun00002_ip = 1290; continue _fun00001 }
+ 1287:
+            backup = record;
+ 1290:
+            sequen = sequen.bind(config)(backup);
+            backup = 'size';
+            zuuluu[backup] = sequen;
+            backup = 'isSpoiler';
+            zuuluu[backup] = vacuum;
+            backup = 'spoilerDescription';
+            zuuluu[backup] = ctrled;
+            backup = 'isObscure';
+            zuuluu[backup] = kiloes;
+            backup = 'isObscureAwaitingScan';
+            zuuluu[backup] = echoed;
+            backup = 'obscureDescription';
+            zuuluu[backup] = result;
+            result = kiloes;
+            if(!kiloes) { _fun00002_ip = 1362; continue _fun00001 }
+ 1359:
+            result = romeon;
+ 1362:
+            backup = 'verifyAge';
+            zuuluu[backup] = result;
+            if(!kiloes) { _fun00002_ip = 1376; continue _fun00001 }
+ 1374:
+            kiloes = false;
+ 1376:
+            backup = 'obscureHideControls';
+            zuuluu[backup] = kiloes;
             return zuuluu;
- 1340:
-            backup = oscard.items;
-            romeon = backup.map;
+ 1387:
+            kiloes = oscard.items;
+            backup = kiloes.map;
             zuuluu = function(argFoo, argBar) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -388,12 +404,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['shouldObscureSpoiler'] = offset;
                     offset = _closure2_slot5;
                     entity['shouldObscureExplicitMedia'] = offset;
+                    offset = _closure2_slot7;
+                    entity['shouldAgeVerify'] = offset;
                     entity = option.bind(verify)(entity);
                     foxtra = entity.isSpoiler;
                     romeon = entity.spoilerDescription;
-                    yankee = entity.isObscured;
-                    verify = entity.obscureDescription;
-                    offset = entity.obscureAwaitingScan;
+                    verify = entity.isObscured;
+                    offset = entity.obscureDescription;
+                    yankee = entity.obscureAwaitingScan;
                     kiloes = oscard.media;
                     backup = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -402,8 +420,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = backup.bind(golfie)(entity);
                     entity = entity.MediaGalleryItemType;
                     entity = entity.IMAGE;
-                    if(!(report !== entity)) { _fun00006_ip = 342; continue _fun00005 }
- 201:
+                    if(!(report !== entity)) { _fun00006_ip = 351; continue _fun00005 }
+ 210:
                     backup = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
@@ -412,8 +430,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.VIDEO;
                     backup = undefined;
                     sizing = kiloes;
-                    if(!(report === entity)) { _fun00006_ip = 364; continue _fun00005 }
- 242:
+                    if(!(report === entity)) { _fun00006_ip = 373; continue _fun00005 }
+ 251:
                     entity = oscard.media;
                     result = entity.proxyUrl;
                     output = _closure1_slot1;
@@ -425,8 +443,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = entity.bind(output)(result);
                     output = zuuluu == result;
                     entity = null;
-                    if(output) { _fun00006_ip = 330; continue _fun00005 }
- 294:
+                    if(output) { _fun00006_ip = 339; continue _fun00005 }
+ 303:
                     source = result.searchParams;
                     update = source.set;
                     echoed = 'format';
@@ -434,19 +452,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = update.bind(source)(echoed, output);
                     output = result.toString;
                     entity = output.bind(result)();
- 330:
+ 339:
                     backup = entity;
                     sizing = kiloes;
-                    if(!(zuuluu == backup)) { _fun00006_ip = 364; continue _fun00005 }
- 340:
+                    if(!(zuuluu == backup)) { _fun00006_ip = 373; continue _fun00005 }
+ 349:
                     return zuuluu;
- 342:
+ 351:
                     output = _closure1_slot9;
                     kiloes = oscard.media;
-                    entity = _closure2_slot7;
+                    entity = _closure2_slot8;
                     sizing = output.bind(golfie)(kiloes, entity);
                     backup = undefined;
- 364:
+ 373:
                     entity = {};
                     record = entity;
                     config = oscard;
@@ -465,10 +483,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = 'spoilerDescription';
                     entity[oscard] = romeon;
                     oscard = 'isObscure';
-                    entity[oscard] = yankee;
+                    entity[oscard] = verify;
                     oscard = 'isObscureAwaitingScan';
-                    entity[oscard] = offset;
+                    entity[oscard] = yankee;
                     oscard = 'obscureDescription';
+                    entity[oscard] = offset;
+                    offset = verify;
+                    if(!verify) { _fun00006_ip = 487; continue _fun00005 }
+ 483:
+                    offset = _closure2_slot7;
+ 487:
+                    oscard = 'verifyAge';
+                    entity[oscard] = offset;
+                    if(!verify) { _fun00006_ip = 501; continue _fun00005 }
+ 499:
+                    verify = false;
+ 501:
+                    oscard = 'obscureHideControls';
                     entity[oscard] = verify;
                     verify = _closure2_slot6;
                     oscard = 'showDescription';
@@ -479,8 +510,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = verify.bind(golfie)(oscard);
                     oscard = oscard.MediaGalleryItemType;
                     oscard = oscard.VIDEO;
-                    if(!(report !== oscard)) { _fun00006_ip = 571; continue _fun00005 }
- 514:
+                    if(!(report !== oscard)) { _fun00006_ip = 613; continue _fun00005 }
+ 556:
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
                     oscard = 6;
@@ -493,8 +524,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.IPzNKC;
                     verify = verify.bind(offset)(oscard);
-                    _fun00006_ip = 626; continue _fun00005;
- 571:
+                    _fun00006_ip = 668; continue _fun00005;
+ 613:
                     romeon = _closure1_slot0;
                     foxtra = _closure1_slot2;
                     oscard = 6;
@@ -507,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.BEWw//;
                     verify = offset.bind(yankee)(oscard);
- 626:
+ 668:
                     oscard = 'descriptionHint';
                     entity[oscard] = verify;
                     verify = _closure1_slot0;
@@ -516,8 +547,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = verify.bind(golfie)(oscard);
                     oscard = oscard.MediaGalleryItemType;
                     oscard = oscard.VIDEO;
-                    if(!(report !== oscard)) { _fun00006_ip = 727; continue _fun00005 }
- 670:
+                    if(!(report !== oscard)) { _fun00006_ip = 769; continue _fun00005 }
+ 712:
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
                     oscard = 6;
@@ -530,8 +561,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.fKyfcX;
                     verify = verify.bind(offset)(oscard);
-                    _fun00006_ip = 782; continue _fun00005;
- 727:
+                    _fun00006_ip = 824; continue _fun00005;
+ 769:
                     romeon = _closure1_slot0;
                     foxtra = _closure1_slot2;
                     oscard = 6;
@@ -544,7 +575,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard./SCpvr;
                     verify = offset.bind(yankee)(oscard);
- 782:
+ 824:
                     oscard = 'accessibilityRole';
                     entity[oscard] = verify;
                     oscard = _closure1_slot0;
@@ -554,8 +585,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.MediaGalleryItemType;
                     tangon = tangon.VIDEO;
                     zuuluu = null;
-                    if(!(report === tangon)) { _fun00006_ip = 880; continue _fun00005 }
- 826:
+                    if(!(report === tangon)) { _fun00006_ip = 922; continue _fun00005 }
+ 868:
                     tangon = _closure2_slot2;
                     record = tangon.id;
                     michal = _closure2_slot1;
@@ -568,83 +599,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     vacuum = ')_';
                     ctrled = argBar;
                     zuuluu = cntext[golfie](record, config, sequen, vacuum, ctrled, source);
- 880:
+ 922:
                     michal = 'portalId';
                     entity[michal] = zuuluu;
                     return entity;
                 }
             };
-            backup = romeon.bind(backup)(zuuluu);
-            romeon = backup.filter;
-            output = _closure1_slot0;
-            result = _closure1_slot2;
+            kiloes = backup.bind(kiloes)(zuuluu);
+            backup = kiloes.filter;
+            result = _closure1_slot0;
+            echoed = _closure1_slot2;
             zuuluu = 3;
-            zuuluu = result[zuuluu];
-            zuuluu = output.bind(golfie)(zuuluu);
+            zuuluu = echoed[zuuluu];
+            zuuluu = result.bind(golfie)(zuuluu);
             zuuluu = zuuluu.isNotNullish;
-            output = romeon.bind(backup)(zuuluu);
-            backup = output.length;
-            romeon = 0;
+            result = backup.bind(kiloes)(zuuluu);
+            kiloes = result.length;
+            backup = 0;
             zuuluu = null;
-            if(!(romeon !== backup)) { _fun00002_ip = 1434; continue _fun00001 }
- 1410:
-            romeon = {};
-            sierra = romeon;
-            status = oscard;
-            backup = copyDataProperties(sierra, status);
-            backup = 'items';
-            romeon[backup] = output;
-            zuuluu = romeon;
- 1434:
+            if(!(backup !== kiloes)) { _fun00002_ip = 1481; continue _fun00001 }
+ 1457:
+            backup = {};
+            limora = backup;
+            sierra = oscard;
+            kiloes = copyDataProperties(limora, sierra);
+            kiloes = 'items';
+            backup[kiloes] = result;
+            zuuluu = backup;
+ 1481:
             return zuuluu;
- 1436:
-            romeon = _closure1_slot0;
-            backup = _closure1_slot2;
+ 1483:
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
             zuuluu = 11;
-            zuuluu = backup[zuuluu];
-            backup = romeon.bind(golfie)(zuuluu);
-            romeon = backup.getUnfurledMediaItemObscurityProps;
+            zuuluu = kiloes[zuuluu];
+            kiloes = backup.bind(golfie)(zuuluu);
+            backup = kiloes.getUnfurledMediaItemObscurityProps;
             zuuluu = {};
-            output = oscard.media;
-            zuuluu['mediaItem'] = output;
-            result = oscard.spoiler;
-            output = null;
-            output = output != result;
-            if(!output) { _fun00002_ip = 1493; continue _fun00001 }
- 1490:
-            output = result;
- 1493:
-            zuuluu['isSpoilered'] = output;
-            output = report.bot;
-            zuuluu['isAuthorBot'] = output;
-            zuuluu['shouldObscureSpoiler'] = sizing;
-            zuuluu['shouldObscureExplicitMedia'] = kiloes;
-            zuuluu = romeon.bind(backup)(zuuluu);
-            result = zuuluu.isSpoiler;
-            output = zuuluu.spoilerDescription;
-            sizing = zuuluu.isObscured;
-            backup = zuuluu.obscureDescription;
-            kiloes = zuuluu.obscureAwaitingScan;
-            romeon = _closure1_slot9;
+            result = oscard.media;
+            zuuluu['mediaItem'] = result;
+            echoed = oscard.spoiler;
+            result = null;
+            result = result != echoed;
+            if(!result) { _fun00002_ip = 1540; continue _fun00001 }
+ 1537:
+            result = echoed;
+ 1540:
+            zuuluu['isSpoilered'] = result;
+            result = report.bot;
+            zuuluu['isAuthorBot'] = result;
+            zuuluu['shouldObscureSpoiler'] = output;
+            zuuluu['shouldObscureExplicitMedia'] = sizing;
+            zuuluu['shouldAgeVerify'] = romeon;
+            zuuluu = backup.bind(kiloes)(zuuluu);
+            echoed = zuuluu.isSpoiler;
+            result = zuuluu.spoilerDescription;
+            backup = zuuluu.isObscured;
+            sizing = zuuluu.obscureDescription;
+            output = zuuluu.obscureAwaitingScan;
+            kiloes = _closure1_slot9;
             zuuluu = oscard.media;
-            echoed = romeon.bind(golfie)(zuuluu, echoed);
+            update = kiloes.bind(golfie)(zuuluu, update);
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            romeon = copyDataProperties(sierra, status);
-            romeon = _closure1_slot10;
-            echoed = romeon.bind(golfie)(echoed, update);
-            romeon = 'media';
-            zuuluu[romeon] = echoed;
-            romeon = 'isSpoiler';
-            zuuluu[romeon] = result;
-            romeon = 'spoilerDescription';
-            zuuluu[romeon] = output;
-            romeon = 'isObscure';
-            zuuluu[romeon] = sizing;
-            romeon = 'isObscureAwaitingScan';
+            limora = zuuluu;
+            sierra = oscard;
+            kiloes = copyDataProperties(limora, sierra);
+            kiloes = _closure1_slot10;
+            update = kiloes.bind(golfie)(update, source);
+            kiloes = 'media';
+            zuuluu[kiloes] = update;
+            kiloes = 'isSpoiler';
+            zuuluu[kiloes] = echoed;
+            kiloes = 'spoilerDescription';
+            zuuluu[kiloes] = result;
+            kiloes = 'isObscure';
+            zuuluu[kiloes] = backup;
+            kiloes = 'isObscureAwaitingScan';
+            zuuluu[kiloes] = output;
+            kiloes = 'obscureDescription';
+            zuuluu[kiloes] = sizing;
+            kiloes = backup;
+            if(!backup) { _fun00002_ip = 1711; continue _fun00001 }
+ 1708:
+            kiloes = romeon;
+ 1711:
+            romeon = 'verifyAge';
             zuuluu[romeon] = kiloes;
-            romeon = 'obscureDescription';
+            if(!backup) { _fun00002_ip = 1725; continue _fun00001 }
+ 1723:
+            backup = false;
+ 1725:
+            romeon = 'obscureHideControls';
             zuuluu[romeon] = backup;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -672,11 +717,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = 'accessibilityRole';
             zuuluu[romeon] = backup;
             return zuuluu;
- 1771:
+ 1855:
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            romeon = copyDataProperties(sierra, status);
+            limora = zuuluu;
+            sierra = oscard;
+            romeon = copyDataProperties(limora, sierra);
             kiloes = _closure1_slot11;
             backup = verify.textDisplayComponent;
             romeon = report.id;
@@ -685,21 +730,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 'content';
             zuuluu[verify] = romeon;
             return zuuluu;
- 1821:
+ 1905:
             zuuluu = oscard.accessory;
             kiloes = option.bind(golfie)(zuuluu);
             zuuluu = null;
             option = zuuluu == kiloes;
-            if(option) { _fun00002_ip = 1968; continue _fun00001 }
- 1844:
+            if(option) { _fun00002_ip = 2052; continue _fun00001 }
+ 1928:
             option = {};
-            sierra = option;
-            status = oscard;
-            verify = copyDataProperties(sierra, status);
+            limora = option;
+            sierra = oscard;
+            verify = copyDataProperties(limora, sierra);
             backup = oscard.components;
             romeon = backup.map;
             verify = function(argFoo) {
-                zuuluu = _closure2_slot8;
+                zuuluu = _closure2_slot9;
                 michal = undefined;
                 entity = argFoo;
                 entity = zuuluu.bind(michal)(entity);
@@ -726,9 +771,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 'errorText';
             option[verify] = romeon;
             zuuluu = option;
- 1968:
+ 2052:
             return zuuluu;
- 1970:
+ 2054:
             verify = _closure1_slot0;
             backup = _closure1_slot2;
             zuuluu = 9;
@@ -738,9 +783,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.id;
             romeon = option.bind(romeon)(oscard, zuuluu, foxtra);
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            option = copyDataProperties(sierra, status);
+            limora = zuuluu;
+            sierra = oscard;
+            option = copyDataProperties(limora, sierra);
             option = 7;
             option = backup[option];
             kiloes = verify.bind(golfie)(option);
@@ -765,7 +810,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'accessibilityLabel';
             zuuluu[option] = verify;
             return zuuluu;
- 2114:
+ 2198:
             verify = _closure1_slot0;
             foxtra = _closure1_slot2;
             zuuluu = 8;
@@ -793,9 +838,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             romeon = option.bind(romeon)(zuuluu);
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            option = copyDataProperties(sierra, status);
+            limora = zuuluu;
+            sierra = oscard;
+            option = copyDataProperties(limora, sierra);
             option = 7;
             option = foxtra[option];
             verify = verify.bind(golfie)(option);
@@ -818,7 +863,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'accessibilityLabel';
             zuuluu[option] = verify;
             return zuuluu;
- 2248:
+ 2332:
             option = oscard.style;
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -826,11 +871,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(golfie)(zuuluu);
             zuuluu = zuuluu.ButtonStyle;
             zuuluu = zuuluu.PREMIUM;
-            if(!(option !== zuuluu)) { _fun00002_ip = 2293; continue _fun00001 }
- 2286:
+            if(!(option !== zuuluu)) { _fun00002_ip = 2377; continue _fun00001 }
+ 2370:
             verify = oscard.label;
-            _fun00002_ip = 2350; continue _fun00001;
- 2293:
+            _fun00002_ip = 2434; continue _fun00001;
+ 2377:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             zuuluu = 6;
@@ -843,11 +888,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.CHa0vL;
             verify = option.bind(offset)(zuuluu);
- 2350:
+ 2434:
             zuuluu = {};
-            sierra = zuuluu;
-            status = oscard;
-            option = copyDataProperties(sierra, status);
+            limora = zuuluu;
+            sierra = oscard;
+            option = copyDataProperties(limora, sierra);
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
             option = 7;
@@ -860,11 +905,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'label';
             zuuluu[option] = verify;
             return zuuluu;
- 2415:
+ 2499:
             option = oscard.components;
             zuuluu = option.map;
             michal = function(argFoo) {
-                zuuluu = _closure2_slot8;
+                zuuluu = _closure2_slot9;
                 michal = undefined;
                 entity = argFoo;
                 entity = zuuluu.bind(michal)(entity);
@@ -880,9 +925,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.isNotNullish;
             verify = michal.bind(verify)(entity);
             entity = {};
-            sierra = entity;
-            status = oscard;
-            michal = copyDataProperties(sierra, status);
+            limora = entity;
+            sierra = oscard;
+            michal = copyDataProperties(limora, sierra);
             michal = 'components';
             entity[michal] = verify;
             michal = 5;

@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(tangon)(michal, verify);
             report[2] = verify;
             golfie = golfie.length;
-            if(!(!(golfie > option))) { _fun00004_ip = 1151; continue _fun00003 }
+            if(!(!(golfie > option))) { _fun00004_ip = 1152; continue _fun00003 }
  975:
             verify = _closure1_slot8;
             option = _closure1_slot10;
@@ -568,8 +568,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = backup.bind(tangon)(foxtra, offset);
             golfie['children'] = offset;
             golfie = verify.bind(tangon)(option, golfie);
-            _fun00004_ip = 1275; continue _fun00003;
- 1151:
+            _fun00004_ip = 1277; continue _fun00003;
+ 1152:
             offset = _closure1_slot8;
             foxtra = _closure1_slot1;
             backup = _closure1_slot2;
@@ -598,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = true;
             option['wrapChildren'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 1275:
+ 1277:
             report[3] = golfie;
             option = _closure1_slot8;
             golfie = _closure1_slot1;

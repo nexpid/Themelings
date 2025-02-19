@@ -898,27 +898,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = entity;
             backup = michal.reactorUserId;
             tangon = null;
-            if(!(tangon != offset)) { _fun00022_ip = 782; continue _fun00021 }
+            if(!(tangon != offset)) { _fun00022_ip = 818; continue _fun00021 }
  41:
             michal = offset.reactions;
-            if(!(tangon != michal)) { _fun00022_ip = 782; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00022_ip = 818; continue _fun00021 }
  54:
-            if(!(tangon != entity)) { _fun00022_ip = 782; continue _fun00021 }
+            if(!(tangon != entity)) { _fun00022_ip = 818; continue _fun00021 }
  61:
             zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 24;
-            michal = michal[entity];
+            entity = _closure1_slot2;
+            oscard = 24;
+            michal = entity[oscard];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.allowInAppNotifications;
             michal = michal.bind(zuuluu)();
-            if(!michal) { _fun00022_ip = 782; continue _fun00021 }
+            if(!michal) { _fun00022_ip = 818; continue _fun00021 }
  102:
             zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
+            option = _closure1_slot2;
             michal = 32;
-            michal = oscard[michal];
+            michal = option[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.tryParseChannelPath;
             michal = michal.bind(zuuluu)(report);
@@ -928,47 +928,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  147:
             yankee = michal.channelId;
             michal = michal.guildId;
-            if(!(tangon != yankee)) { _fun00022_ip = 778; continue _fun00021 }
+            if(!(tangon != yankee)) { _fun00022_ip = 814; continue _fun00021 }
  164:
             report = _closure1_slot17;
             zuuluu = report.getCurrentlySelectedChannelId;
             zuuluu = zuuluu.bind(report)();
-            if(!(zuuluu !== yankee)) { _fun00022_ip = 778; continue _fun00021 }
+            if(!(zuuluu !== yankee)) { _fun00022_ip = 814; continue _fun00021 }
  185:
-            if(!(tangon != michal)) { _fun00022_ip = 778; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00022_ip = 814; continue _fun00021 }
  192:
-            oscard = _closure1_slot0;
-            option = _closure1_slot2;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             zuuluu = 33;
-            zuuluu = option[zuuluu];
-            zuuluu = oscard.bind(entity)(zuuluu);
+            zuuluu = verify[zuuluu];
+            zuuluu = option.bind(entity)(zuuluu);
             report = zuuluu.ReactionNotifications;
             zuuluu = report.getSetting;
             report = zuuluu.bind(report)();
             zuuluu = 34;
-            zuuluu = option[zuuluu];
-            zuuluu = oscard.bind(entity)(zuuluu);
+            zuuluu = verify[zuuluu];
+            zuuluu = option.bind(entity)(zuuluu);
             zuuluu = zuuluu.ReactionNotificationType;
             zuuluu = zuuluu.NOTIFICATIONS_DISABLED;
-            if(!(report !== zuuluu)) { _fun00022_ip = 774; continue _fun00021 }
+            if(!(report !== zuuluu)) { _fun00022_ip = 810; continue _fun00021 }
  259:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            report = report.bind(entity)(zuuluu);
+            zuuluu = report.shouldNotify;
+            zuuluu = zuuluu.bind(report)(offset, yankee);
+            if(zuuluu) { _fun00022_ip = 295; continue _fun00021 }
+ 291:
+            zuuluu = false;
+            return zuuluu;
+ 295:
             report = _closure1_slot14;
             zuuluu = report.getChannel;
             oscard = zuuluu.bind(report)(yankee);
             report = tangon == oscard;
             zuuluu = undefined;
-            if(report) { _fun00022_ip = 287; continue _fun00021 }
- 282:
+            if(report) { _fun00022_ip = 323; continue _fun00021 }
+ 318:
             zuuluu = oscard.type;
- 287:
+ 323:
             foxtra = tangon != zuuluu;
-            if(!foxtra) { _fun00022_ip = 313; continue _fun00021 }
- 294:
+            if(!foxtra) { _fun00022_ip = 349; continue _fun00021 }
+ 330:
             report = oscard.type;
             zuuluu = _closure1_slot19;
             zuuluu = zuuluu.GUILD_ANNOUNCEMENT;
             foxtra = report === zuuluu;
- 313:
+ 349:
             report = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 35;
@@ -978,10 +989,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = offset.reactions;
             kiloes = tangon == oscard;
             zuuluu = undefined;
-            if(kiloes) { _fun00022_ip = 359; continue _fun00021 }
- 354:
+            if(kiloes) { _fun00022_ip = 395; continue _fun00021 }
+ 390:
             zuuluu = oscard.type;
- 359:
+ 395:
             zuuluu = option.bind(verify)(report, zuuluu);
             option = _closure1_slot15;
             report = option.getGuild;
@@ -989,12 +1000,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot18;
             report = option.getUser;
             option = report.bind(option)(backup);
-            if(!(tangon != oscard)) { _fun00022_ip = 770; continue _fun00021 }
- 401:
-            if(!(tangon == option)) { _fun00022_ip = 411; continue _fun00021 }
- 405:
-            if(!foxtra) { _fun00022_ip = 770; continue _fun00021 }
- 411:
+            if(!(tangon != oscard)) { _fun00022_ip = 806; continue _fun00021 }
+ 437:
+            if(!(tangon == option)) { _fun00022_ip = 447; continue _fun00021 }
+ 441:
+            if(!foxtra) { _fun00022_ip = 806; continue _fun00021 }
+ 447:
             kiloes = offset.reactions;
             backup = kiloes.find;
             report = function(argFoo) {
@@ -1027,19 +1038,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = backup.bind(kiloes)(report);
             kiloes = tangon != backup;
             report = undefined;
-            if(!kiloes) { _fun00022_ip = 446; continue _fun00021 }
- 443:
+            if(!kiloes) { _fun00022_ip = 482; continue _fun00021 }
+ 479:
             report = backup;
- 446:
-            if(!(tangon == report)) { _fun00022_ip = 460; continue _fun00021 }
- 450:
-            if(foxtra) { _fun00022_ip = 460; continue _fun00021 }
- 453:
-            if(zuuluu) { _fun00022_ip = 460; continue _fun00021 }
- 456:
+ 482:
+            if(!(tangon == report)) { _fun00022_ip = 496; continue _fun00021 }
+ 486:
+            if(foxtra) { _fun00022_ip = 496; continue _fun00021 }
+ 489:
+            if(zuuluu) { _fun00022_ip = 496; continue _fun00021 }
+ 492:
             zuuluu = false;
             return zuuluu;
- 460:
+ 496:
             backup = _closure1_slot0;
             zuuluu = _closure1_slot2;
             foxtra = 36;
@@ -1056,13 +1067,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['autoTrackExposure'] = backup;
             zuuluu = sizing.bind(output)(kiloes, zuuluu);
             zuuluu = zuuluu.enableInAppNotifications;
-            if(!(tangon != verify)) { _fun00022_ip = 540; continue _fun00021 }
- 533:
-            if(zuuluu) { _fun00022_ip = 540; continue _fun00021 }
- 536:
+            if(!(tangon != verify)) { _fun00022_ip = 576; continue _fun00021 }
+ 569:
+            if(zuuluu) { _fun00022_ip = 576; continue _fun00021 }
+ 572:
             zuuluu = false;
             return zuuluu;
- 540:
+ 576:
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
@@ -1075,13 +1086,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(foxtra)(zuuluu, michal);
             zuuluu = michal.enableInAppNotifications;
             michal = michal.enableNotificationsForAllReactions;
-            if(!zuuluu) { _fun00022_ip = 600; continue _fun00021 }
- 597:
-            if(michal) { _fun00022_ip = 604; continue _fun00021 }
- 600:
+            if(!zuuluu) { _fun00022_ip = 636; continue _fun00021 }
+ 633:
+            if(michal) { _fun00022_ip = 640; continue _fun00021 }
+ 636:
             michal = false;
             return michal;
- 604:
+ 640:
             zuuluu = _closure1_slot29;
             michal = {};
             tangon = {};
@@ -1130,16 +1141,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['notification'] = tangon;
             michal = zuuluu.bind(entity)(michal);
             return entity;
- 770:
+ 806:
             entity = false;
             return entity;
- 774:
+ 810:
             entity = false;
             return entity;
- 778:
+ 814:
             entity = false;
             return entity;
- 782:
+ 818:
             entity = false;
             return entity;
         }

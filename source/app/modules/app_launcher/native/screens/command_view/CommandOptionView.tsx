@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['collapsable'] = sequen;
             verify['style'] = kiloes;
             kiloes = romeon;
-            if(!kiloes) { _fun00002_ip = 719; continue _fun00001 }
+            if(!kiloes) { _fun00002_ip = 723; continue _fun00001 }
  653:
             result = _closure1_slot5;
             sizing = _closure1_slot0;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = source.displayName;
             romeon['children'] = vacuum;
             kiloes = result.bind(tangon)(sizing, romeon);
- 719:
+ 723:
             romeon = new Array(4);
             romeon[0] = kiloes;
             result = _closure1_slot5;
@@ -388,8 +388,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['children'] = config;
             kiloes = result.bind(tangon)(sizing, kiloes);
             romeon[2] = kiloes;
-            if(!foxtra) { _fun00002_ip = 1126; continue _fun00001 }
- 920:
+            if(!foxtra) { _fun00002_ip = 1130; continue _fun00001 }
+ 924:
             sizing = _closure1_slot6;
             cntext = _closure1_slot1;
             result = _closure1_slot2;
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output[1] = result;
             backup['children'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1126:
+ 1130:
             romeon[3] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);

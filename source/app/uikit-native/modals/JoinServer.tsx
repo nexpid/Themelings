@@ -251,13 +251,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = romeon.bind(tangon)(option);
             option = option.spacing;
             option = option.PX_16;
-            if(offset) { _fun00002_ip = 272; continue _fun00001 }
- 266:
+            if(offset) { _fun00002_ip = 273; continue _fun00001 }
+ 267:
             golfie = golfie + option;
-            _fun00002_ip = 275; continue _fun00001;
- 272:
+            _fun00002_ip = 276; continue _fun00001;
+ 273:
             golfie = option;
- 275:
+ 276:
             oscard['paddingBottom'] = golfie;
             report[1] = oscard;
             entity['contentContainerStyle'] = report;
@@ -267,8 +267,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot7;
             option = verify <= option;
             verify = null;
-            if(option) { _fun00002_ip = 557; continue _fun00001 }
- 315:
+            if(option) { _fun00002_ip = 558; continue _fun00001 }
+ 316:
             romeon = _closure1_slot10;
             offset = _closure1_slot11;
             option = {};
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = output;
             option['children'] = backup;
             verify = romeon.bind(tangon)(offset, option);
- 557:
+ 558:
             option = new Array(3);
             option[0] = verify;
             romeon = _closure1_slot9;

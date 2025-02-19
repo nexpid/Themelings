@@ -1966,7 +1966,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = romeon.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 660; continue _fun00023 }
+            if(!(michal !== zuuluu)) { _fun00024_ip = 664; continue _fun00023 }
  462:
             tangon = _closure1_slot20;
             option = _closure1_slot0;
@@ -2022,7 +2022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 660:
+ 664:
             return entity;
         }
     };

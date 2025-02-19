@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity['style'] = romeon;
             entity['pointerEvents'] = yankee;
             entity['nativeID'] = offset;
-            if(!golfie) { _fun00002_ip = 158; continue _fun00001 }
- 139:
+            if(!golfie) { _fun00002_ip = 154; continue _fun00001 }
+ 135:
             verify = verify.mode;
             option = _closure1_slot2;
             option = option.IN_APP;
             golfie = verify !== option;
- 158:
+ 154:
             entity['accessibilityViewIsModal'] = golfie;
             entity['onAccessibilityEscape'] = oscard;
             kiloes = entity;

@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 161; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 157; continue _fun00007 }
  10:
                     michal = _closure2_slot0;
                     zuuluu = undefined;
@@ -207,8 +207,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 158; continue _fun00007 }
- 36:
+                    if(tangon) { _fun00008_ip = 154; continue _fun00007 }
+ 33:
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
                     tangon = 11;
@@ -227,10 +227,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = null;
                     option = golfie == michal;
                     golfie = undefined;
-                    if(option) { _fun00008_ip = 131; continue _fun00007 }
- 125:
+                    if(option) { _fun00008_ip = 127; continue _fun00007 }
+ 122:
                     golfie = michal.uri;
- 131:
+ 127:
                     tangon['imageUri'] = golfie;
                     golfie = function() { // Original name: onDismiss
                         zuuluu = _closure1_slot1;
@@ -246,9 +246,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['onDismiss'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 158:
+ 154:
                     return michal;
- 161:
+ 157:
                     return entity;
                 }
             };

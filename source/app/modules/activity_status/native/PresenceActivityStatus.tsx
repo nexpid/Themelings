@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -150,11 +150,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 10;
+                entity = 9;
                 michal = michal[entity];
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
-                entity = entity.ScreenStreamIcon;
+                entity = entity.TvIcon;
                 return entity;
             };
             verify = verify.bind(foxtra)(option, zuuluu);
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot4;
             verify = _closure1_slot1;
             sizing = _closure1_slot2;
-            report = 11;
+            report = 10;
             report = sizing[report];
             verify = verify.bind(tangon)(report);
             report = {};
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot4;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
-            golfie = 12;
+            golfie = 11;
             golfie = foxtra[golfie];
             option = option.bind(tangon)(golfie);
             golfie = {};

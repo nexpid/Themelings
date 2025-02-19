@@ -1,26 +1,23 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = tangon;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
-    tangon = {};
+    oscard = {};
     entity = true;
-    tangon['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
+    entity = 3;
+    tangon = tangon[entity];
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx';
@@ -37,7 +34,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         golfie = zuuluu;
         tangon = copyDataProperties(verify, option, golfie);
         oscard = _closure1_slot0;
-        zuuluu = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         michal = 2;
         zuuluu = zuuluu[michal];
         michal = undefined;
@@ -48,38 +45,40 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     };
     zuuluu['default'] = tangon;
     michal = function(argFoo) { // Original name: useYouSettingsCoachmark
-        michal = argFoo;
-        oscard = michal.disabled;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useReferralProgramCoachmark;
-        zuuluu = {};
-        zuuluu['disabled'] = oscard;
-        report = tangon.bind(report)(zuuluu);
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = null;
-                zuuluu = entity != zuuluu;
-                if(!zuuluu) { _fun00002_ip = 20; continue _fun00001 }
- 16:
-                entity = _closure2_slot0;
- 20:
-                return entity;
-            }
-        };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+            entity = argFoo;
+            report = entity.disabled;
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot2;
+            michal = 0;
+            michal = oscard[michal];
+            tangon = undefined;
+            golfie = zuuluu.bind(tangon)(michal);
+            zuuluu = golfie.useReferralProgramCoachmark;
+            michal = {};
+            michal['disabled'] = report;
+            michal = zuuluu.bind(golfie)(michal);
+            zuuluu = _closure1_slot1;
+            entity = 1;
+            entity = oscard[entity];
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = {};
+            entity['disabled'] = report;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = null;
+            if(!(entity != zuuluu)) { _fun00002_ip = 85; continue _fun00001 }
+ 82:
+            michal = zuuluu;
+ 85:
+            zuuluu = entity != michal;
+            entity = null;
+            if(!zuuluu) { _fun00002_ip = 97; continue _fun00001 }
+ 94:
+            entity = michal;
+ 97:
+            return entity;
+        }
     };
     zuuluu['useYouSettingsCoachmark'] = michal;
     return entity;

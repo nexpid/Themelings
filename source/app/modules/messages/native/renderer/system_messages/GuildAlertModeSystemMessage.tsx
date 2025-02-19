@@ -418,10 +418,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00004_ip = 506; continue _fun00003 }
- 503:
+            if(!option) { _fun00004_ip = 505; continue _fun00003 }
+ 502:
             oscard = golfie;
- 506:
+ 505:
             entity['usernameColor'] = oscard;
             echoed = entity;
             result = report;
@@ -721,10 +721,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00010_ip = 442; continue _fun00009 }
- 439:
+            if(!option) { _fun00010_ip = 441; continue _fun00009 }
+ 438:
             oscard = golfie;
- 442:
+ 441:
             entity['usernameColor'] = oscard;
             result = entity;
             output = report;

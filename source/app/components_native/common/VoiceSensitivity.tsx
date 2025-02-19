@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = golfie.bind(option)(zuuluu, report);
-            if(entity) { _fun00002_ip = 835; continue _fun00001 }
+            if(entity) { _fun00002_ip = 839; continue _fun00001 }
  530:
             report = _closure1_slot14;
             zuuluu = _closure1_slot6;
@@ -509,15 +509,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = golfie;
             entity = report.bind(tangon)(zuuluu, entity);
             return entity;
- 835:
+ 839:
             entity = _closure1_slot15;
-            if(michal) { _fun00002_ip = 850; continue _fun00001 }
- 842:
+            if(michal) { _fun00002_ip = 854; continue _fun00001 }
+ 846:
             yankee = entity.sensitivityDefault;
-            _fun00002_ip = 856; continue _fun00001;
- 850:
+            _fun00002_ip = 860; continue _fun00001;
+ 854:
             yankee = entity.sensitivitySpeaking;
- 856:
+ 860:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot6;
             entity = {};

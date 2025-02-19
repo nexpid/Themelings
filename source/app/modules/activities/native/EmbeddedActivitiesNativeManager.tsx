@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = verify instanceof Object ? verify : offset;
  424:
         var _closure1_slot17 = report;
-        report = 29;
+        report = 31;
         report = golfie[report];
         report = option.bind(entity)(report);
         tangon = function(argFoo) {
@@ -697,7 +697,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = entity;
-            entity = new Array(11);
+            entity = new Array(12);
             entity[0] = report;
             report = {};
             golfie = '_terminate';
@@ -807,6 +807,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['value'] = golfie;
             entity[3] = report;
             report = {};
+            golfie = 'showDevShelfOverrideEnabled';
+            report['key'] = golfie;
+            golfie = function() { // Original name: value
+                oscard = _closure1_slot1;
+                golfie = _closure1_slot2;
+                entity = 26;
+                michal = golfie[entity];
+                entity = undefined;
+                tangon = oscard.bind(entity)(michal);
+                zuuluu = tangon.open;
+                michal = {};
+                option = 'EMBEDDED_ACTIVITIES_DEV_SHELF_URL_OVERRIDE_ENABLED';
+                michal['key'] = option;
+                offset = _closure1_slot0;
+                report = 20;
+                option = golfie[report];
+                option = offset.bind(entity)(option);
+                verify = option.intl;
+                option = verify.string;
+                report = golfie[report];
+                report = offset.bind(entity)(report);
+                report = report.t;
+                report = report.JfA7IC;
+                report = option.bind(verify)(report);
+                michal['content'] = report;
+                report = 27;
+                report = golfie[report];
+                report = oscard.bind(entity)(report);
+                michal['icon'] = report;
+                report = 'status-positive';
+                michal['iconColor'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
+            report['value'] = golfie;
+            entity[4] = report;
+            report = {};
             golfie = 'releaseWebView';
             report['key'] = golfie;
             golfie = function() { // Original name: value
@@ -820,7 +857,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  19:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 26;
+                    zuuluu = 28;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     zuuluu = report.bind(zuuluu)(tangon);
@@ -839,7 +876,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = golfie;
-            entity[4] = report;
+            entity[5] = report;
             report = {};
             golfie = 'leaveActivity';
             report['key'] = golfie;
@@ -859,7 +896,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  41:
                     offset = _closure1_slot0;
                     verify = _closure1_slot2;
-                    option = 27;
+                    option = 29;
                     verify = verify[option];
                     option = undefined;
                     verify = offset.bind(option)(verify);
@@ -881,7 +918,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = golfie;
-            entity[5] = report;
+            entity[6] = report;
             report = {};
             golfie = 'hidePIPEmbed';
             report['key'] = golfie;
@@ -903,7 +940,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = golfie;
-            entity[6] = report;
+            entity[7] = report;
             report = {};
             golfie = 'clearEmbeddedActivityState';
             report['key'] = golfie;
@@ -934,7 +971,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = golfie;
-            entity[7] = report;
+            entity[8] = report;
             report = {};
             golfie = 'releaseFrameId';
             report['key'] = golfie;
@@ -946,7 +983,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = golfie;
-            entity[8] = report;
+            entity[9] = report;
             report = {};
             golfie = 'hasFrameId';
             report['key'] = golfie;
@@ -958,7 +995,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = golfie;
-            entity[9] = report;
+            entity[10] = report;
             report = {};
             golfie = 'getOrCreateFrameId';
             report['key'] = golfie;
@@ -972,7 +1009,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  15:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    michal = 28;
+                    michal = 30;
                     tangon = tangon[michal];
                     michal = undefined;
                     tangon = report.bind(michal)(tangon);
@@ -985,7 +1022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = oscard;
-            entity[10] = report;
+            entity[11] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };
@@ -995,7 +1032,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = report;
         tangon = new kiloes[tangon](backup);
         tangon = tangon instanceof Object ? tangon : report;
-        report = 30;
+        report = 32;
         report = golfie[report];
         golfie = oscard.bind(entity)(report);
         oscard = golfie.fileFinishedImporting;

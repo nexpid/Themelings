@@ -2838,21 +2838,33 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     michal['getSendMessageOptions'] = option;
-    option = function(argFoo, argBar, argBaz, argCor) { // Original name: sendInvite
+    option = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: sendInvite
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             oscard = argCor;
-            report = _closure1_slot51;
-            tangon = report._sendMessage;
-            zuuluu = {};
-            golfie = _closure1_slot1;
+            offset = argGra;
+            tangon = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 56;
             michal = michal[entity];
             entity = undefined;
-            golfie = golfie.bind(entity)(michal);
+            tangon = tangon.bind(entity)(michal);
             michal = argBar;
-            michal = golfie.bind(entity)(michal);
+            verify = tangon.bind(entity)(michal);
+            golfie = null;
+            michal = verify;
+            if(!(golfie != offset)) { _fun00040_ip = 76; continue _fun00039 }
+ 48:
+            tangon = global;
+            tangon = tangon.HermesInternal;
+            option = tangon.concat;
+            report = '';
+            tangon = '\n';
+            michal = option.bind(report)(offset, tangon, verify);
+ 76:
+            report = _closure1_slot51;
+            tangon = report._sendMessage;
+            zuuluu = {};
             zuuluu['content'] = michal;
             michal = false;
             zuuluu['tts'] = michal;
@@ -2861,14 +2873,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = new Array(0);
             zuuluu['invalidEmojis'] = michal;
             michal = {};
-            golfie = argBaz;
-            michal['location'] = golfie;
-            golfie = null;
+            option = argBaz;
+            michal['location'] = option;
             golfie = golfie != oscard;
-            if(!golfie) { _fun00040_ip = 98; continue _fun00039 }
- 95:
+            entity = undefined;
+            if(!golfie) { _fun00040_ip = 138; continue _fun00039 }
+ 135:
             entity = oscard;
- 98:
+ 138:
             michal['suggestedInvite'] = entity;
             entity = argFoo;
             entity = tangon.bind(report)(entity, zuuluu, michal);

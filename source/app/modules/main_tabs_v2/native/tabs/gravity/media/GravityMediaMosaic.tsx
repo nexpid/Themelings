@@ -73,10 +73,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  130:
             foxtra = oscard.sourceURI;
  136:
-            if(!(backup == foxtra)) { _fun00004_ip = 146; continue _fun00003 }
+            if(!(backup == foxtra)) { _fun00004_ip = 145; continue _fun00003 }
  140:
             foxtra = oscard.uri;
- 146:
+ 145:
             romeon['videoURI'] = foxtra;
             entity['src'] = romeon;
             entity['height'] = yankee;
@@ -95,10 +95,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = option;
             golfie = golfie.video;
             entity['videoStyle'] = golfie;
-            if(report) { _fun00004_ip = 235; continue _fun00003 }
- 229:
+            if(report) { _fun00004_ip = 234; continue _fun00003 }
+ 228:
             report = oscard.isGIFV;
- 235:
+ 234:
             entity['disableFocus'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -490,13 +490,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = foxtra.uri;
             verify = verify.bind(sizing)(oscard);
             oscard = null;
-            if(!verify) { _fun00012_ip = 1026; continue _fun00011 }
- 725:
+            if(!verify) { _fun00012_ip = 1025; continue _fun00011 }
+ 724:
             verify = _closure1_slot19;
             verify = verify.bind(tangon)(foxtra);
             oscard = null;
-            if(verify) { _fun00012_ip = 1026; continue _fun00011 }
- 742:
+            if(verify) { _fun00012_ip = 1025; continue _fun00011 }
+ 741:
             output = _closure1_slot11;
             sizing = _closure1_slot6;
             verify = {};
@@ -513,13 +513,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.muteIcon;
             vacuum = new Array(2);
             vacuum[0] = sequen;
-            if(source) { _fun00012_ip = 819; continue _fun00011 }
- 811:
+            if(source) { _fun00012_ip = 818; continue _fun00011 }
+ 810:
             sequen = config.iconBgSelected;
-            _fun00012_ip = 825; continue _fun00011;
- 819:
+            _fun00012_ip = 824; continue _fun00011;
+ 818:
             sequen = config.iconBg;
- 825:
+ 824:
             vacuum[1] = sequen;
             result['style'] = vacuum;
             ctrled = function() { // Original name: onPress
@@ -541,8 +541,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = _closure1_slot11;
             vacuum = _closure1_slot0;
             cntext = _closure1_slot2;
-            if(source) { _fun00012_ip = 941; continue _fun00011 }
- 874:
+            if(source) { _fun00012_ip = 940; continue _fun00011 }
+ 873:
             source = 25;
             source = cntext[source];
             source = vacuum.bind(tangon)(source);
@@ -558,8 +558,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'sm';
             source['size'] = config;
             source = sequen.bind(tangon)(ctrled, source);
-            _fun00012_ip = 1006; continue _fun00011;
- 941:
+            _fun00012_ip = 1005; continue _fun00011;
+ 940:
             ctrled = 24;
             ctrled = cntext[ctrled];
             ctrled = vacuum.bind(tangon)(ctrled);
@@ -575,12 +575,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'sm';
             ctrled['size'] = config;
             source = sequen.bind(tangon)(vacuum, ctrled);
- 1006:
+ 1005:
             result['children'] = source;
             result = update.bind(tangon)(echoed, result);
             verify['children'] = result;
             oscard = output.bind(tangon)(sizing, verify);
- 1026:
+ 1025:
             report[2] = oscard;
             verify = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -589,15 +589,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = kiloes.isVideo;
             oscard = foxtra.uri;
             oscard = verify.bind(kiloes)(oscard);
-            if(oscard) { _fun00012_ip = 1079; continue _fun00011 }
- 1067:
+            if(oscard) { _fun00012_ip = 1077; continue _fun00011 }
+ 1065:
             oscard = _closure1_slot19;
             oscard = oscard.bind(tangon)(foxtra);
-            if(!oscard) { _fun00012_ip = 1089; continue _fun00011 }
- 1079:
+            if(!oscard) { _fun00012_ip = 1087; continue _fun00011 }
+ 1077:
             oscard = foxtra.videoURI;
-            if(!(option == oscard)) { _fun00012_ip = 1125; continue _fun00011 }
- 1089:
+            if(!(option == oscard)) { _fun00012_ip = 1123; continue _fun00011 }
+ 1087:
             verify = _closure1_slot11;
             option = _closure1_slot21;
             oscard = {};
@@ -606,8 +606,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['dimensions'] = romeon;
             oscard['isSpoiler'] = backup;
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00012_ip = 1178; continue _fun00011;
- 1125:
+            _fun00012_ip = 1176; continue _fun00011;
+ 1123:
             verify = _closure1_slot11;
             option = _closure1_slot20;
             golfie = {};
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = !offset;
             golfie['autoplay'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1178:
+ 1176:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -123,6 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = false;
                 entity['shouldObscureSpoiler'] = report;
                 entity['shouldObscureExplicitMedia'] = report;
+                entity['shouldAgeVerify'] = report;
                 entity['shouldShowMosaicMediaDescriptions'] = report;
                 tangon = _closure2_slot2;
                 entity['shouldAutoPlayGifs'] = tangon;

@@ -97,16 +97,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = verify.Text;
             verify = {};
             foxtra = 'text-md/medium';
-            if(!option) { _fun00002_ip = 207; continue _fun00001 }
- 203:
+            if(!option) { _fun00002_ip = 203; continue _fun00001 }
+ 199:
             foxtra = 'text-sm/medium';
- 207:
+ 203:
             verify['variant'] = foxtra;
             foxtra = 'text-normal';
-            if(!option) { _fun00002_ip = 226; continue _fun00001 }
- 220:
+            if(!option) { _fun00002_ip = 222; continue _fun00001 }
+ 216:
             foxtra = 'interactive-normal';
- 226:
+ 222:
             verify['color'] = foxtra;
             foxtra = 1;
             verify['lineClamp'] = foxtra;
@@ -115,8 +115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = zuuluu.bind(tangon)(yankee, verify);
             entity['label'] = verify;
             oscard = null;
-            if(!option) { _fun00002_ip = 269; continue _fun00001 }
- 262:
+            if(!option) { _fun00002_ip = 265; continue _fun00001 }
+ 258:
             oscard = function() {
                 tangon = _closure1_slot3;
                 michal = _closure1_slot0;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
- 269:
+ 265:
             entity['subLabel'] = oscard;
             option = _closure1_slot3;
             foxtra = _closure1_slot1;

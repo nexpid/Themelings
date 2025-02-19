@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
             entity = argFoo;
             michal = entity.message;
-            variable93 = entity.messageForward;
+            variable94 = entity.messageForward;
             kiloes = entity.roleStyle;
             backup = entity.isFirst;
             foxtra = entity.isEditing;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  58:
             option = entity.options;
             variable36 = entity.threadStarterMessageHeader;
-            variable71 = entity.pushFeedbackType;
+            variable72 = entity.pushFeedbackType;
             variable56 = entity.renderContentOnly;
             whisks = entity.showContentInventoryEntryFallbackEmbed;
             echoed = option.renderEmbeds;
@@ -323,9 +323,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = option.renderShortcuts;
             output = option.inlineEmbedMedia;
             sizing = option.inlineAttachmentMedia;
-            variable81 = option.constrainedWidth;
+            variable82 = option.constrainedWidth;
             sequen = option.ignoreMentioned;
-            variable77 = option.animateEmoji;
+            variable78 = option.animateEmoji;
             variable44 = option.animatingStickerMessageId;
             variable60 = option.gifAutoPlay;
             variable50 = option.renderCodedLinks;
@@ -344,8 +344,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             update = option.forcedTheme;
             variable37 = option.ignoreEmbedDescriptionCache;
             variable42 = option.forceHideSimpleEmbedContent;
-            variable63 = option.shouldObscureSpoiler;
-            variable65 = option.shouldDisableInteractiveComponents;
+            variable64 = option.shouldObscureSpoiler;
+            variable66 = option.shouldDisableInteractiveComponents;
             config = option.useAlternateEmbedColors;
             variable41 = option.shouldFilterKeywords;
             result = null;
@@ -373,9 +373,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = cntext.bind(papara)(ctrled, verify);
             limora = verify.enabled;
             verify = true;
-            variable64 = verify === romeon;
-            cntext = variable64;
-            if(!variable64) { _fun00006_ip = 380; continue _fun00005 }
+            variable65 = verify === romeon;
+            cntext = variable65;
+            if(!variable65) { _fun00006_ip = 380; continue _fun00005 }
  377:
             cntext = echoed;
  380:
@@ -386,12 +386,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             echoed = echoed.CUSTOM_GIFT;
             cntext = ctrled !== echoed;
  402:
-            quebec = variable64;
-            if(!variable64) { _fun00006_ip = 411; continue _fun00005 }
+            quebec = variable65;
+            if(!variable65) { _fun00006_ip = 411; continue _fun00005 }
  408:
             quebec = output;
  411:
-            variable43 = variable64;
+            variable43 = variable65;
             if(!variable43) { _fun00006_ip = 420; continue _fun00005 }
  417:
             variable43 = sizing;
@@ -413,13 +413,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = papara.bind(target)(sizing);
             output = output.bind(echoed)(sizing);
             sizing = result == ctrled;
-            variable67 = undefined;
+            variable68 = undefined;
             if(sizing) { _fun00006_ip = 513; continue _fun00005 }
  503:
             sizing = ctrled.getGuildId;
-            variable67 = sizing.bind(ctrled)();
+            variable68 = sizing.bind(ctrled)();
  513:
-            if(!(result == variable93)) { _fun00006_ip = 548; continue _fun00005 }
+            if(!(result == variable94)) { _fun00006_ip = 548; continue _fun00005 }
  517:
             echoed = _closure1_slot0;
             papara = _closure1_slot2;
@@ -427,12 +427,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = papara[sizing];
             echoed = echoed.bind(oscard)(sizing);
             sizing = echoed.maybeCreateSingleForwardForMessage;
-            variable93 = sizing.bind(echoed)(michal);
+            variable94 = sizing.bind(echoed)(michal);
  548:
             variable45 = michal;
-            if(!(result != variable93)) { _fun00006_ip = 566; continue _fun00005 }
+            if(!(result != variable94)) { _fun00006_ip = 566; continue _fun00005 }
  555:
-            sizing = variable93.messageSnapshot;
+            sizing = variable94.messageSnapshot;
             variable45 = sizing.message;
  566:
             echoed = new Array(0);
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = {};
             target = michal.reactions;
             sizing['reactions'] = target;
-            sizing['animateEmoji'] = variable77;
+            sizing['animateEmoji'] = variable78;
             echoed = papara.bind(oscard)(sizing);
  616:
             target = michal.type;
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  684:
             sizing = papara;
  687:
-            if(!(result == sizing)) { _fun00006_ip = 7304; continue _fun00005 }
+            if(!(result == sizing)) { _fun00006_ip = 7347; continue _fun00005 }
  694:
             target = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -477,14 +477,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             papara = sierra[papara];
             papara = target.bind(oscard)(papara);
             papara = papara.bind(oscard)(michal);
-            if(papara) { _fun00006_ip = 7111; continue _fun00005 }
+            if(papara) { _fun00006_ip = 7154; continue _fun00005 }
  725:
-            variable70 = !backup;
-            if(variable70) { _fun00006_ip = 734; continue _fun00005 }
+            variable71 = !backup;
+            if(variable71) { _fun00006_ip = 734; continue _fun00005 }
  731:
-            variable70 = variable56;
+            variable71 = variable56;
  734:
-            variable76 = michal.author;
+            variable77 = michal.author;
             target = _closure1_slot0;
             sierra = _closure1_slot2;
             papara = 37;
@@ -532,16 +532,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable46 = michal.isFirstMessageInForumPost;
             papara = variable46.bind(michal)(output);
  890:
-            r105 = variable40;
-            r104 = michal;
-            r103 = variable45;
-            r102 = variable42;
-            r101 = golfie;
-            r100 = papara;
+            r106 = variable40;
+            r105 = michal;
+            r104 = variable45;
+            r103 = variable42;
+            r102 = golfie;
+            r101 = papara;
+            r100 = equals;
             variable100 = equals;
-            variable99 = equals;
-            variable98 = variable41;
-            target = r105[sierra](r104, r103, r102, r101, r100, variable100, variable99, variable98, variable97);
+            variable99 = variable41;
+            target = r106[sierra](r105, r104, r103, r102, r101, r100, variable100, variable99, variable98);
  921:
             papara = target.content;
             variable41 = target.hasSpoilerEmbeds;
@@ -551,13 +551,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             target = variable40[target];
             sierra = sierra.bind(oscard)(target);
             target = sierra.shouldRedactExplicitContent;
-            variable62 = target.bind(sierra)(michal);
+            variable63 = target.bind(sierra)(michal);
+            sierra = _closure1_slot1;
+            target = 40;
+            target = variable40[target];
+            sierra = sierra.bind(oscard)(target);
+            target = sierra.shouldShowTiggerPawtect;
+            variable62 = target.bind(sierra)();
             sierra = undefined;
-            if(!cntext) { _fun00006_ip = 1144; continue _fun00005 }
- 971:
+            if(!cntext) { _fun00006_ip = 1175; continue _fun00005 }
+ 997:
             target = _closure1_slot1;
             variable42 = _closure1_slot2;
-            variable40 = 40;
+            variable40 = 41;
             variable40 = variable42[variable40];
             variable48 = target.bind(oscard)(variable40);
             variable46 = variable48.getCurrentConfig;
@@ -567,7 +573,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config['autoTrackExposure'] = offset;
             config = variable46.bind(variable48)(variable40, config);
             variable40 = config.enabled;
-            config = 41;
+            config = 42;
             config = variable42[config];
             target = target.bind(oscard)(config);
             config = {};
@@ -587,16 +593,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config['showMaskedLinks'] = equals;
             equals = record.embedBackgroundColor;
             config['themedBackgroundColor'] = equals;
-            config['shouldObscureExplicitMedia'] = variable62;
+            config['shouldObscureExplicitMedia'] = variable63;
+            config['shouldAgeVerify'] = variable62;
             equals = michal.author;
             equals = equals.bot;
             config['authorIsBot'] = equals;
             config['showContentInventoryEntryFallbackEmbed'] = whisks;
             sierra = target.bind(oscard)(config);
- 1144:
+ 1175:
             target = _closure1_slot1;
             whisks = _closure1_slot2;
-            config = 42;
+            config = 43;
             config = whisks[config];
             target = target.bind(oscard)(config);
             config = {};
@@ -605,15 +612,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config['channel'] = ctrled;
             config['colors'] = record;
             config = target.bind(oscard)(config);
-            variable90 = config.tagText;
-            variable89 = config.tagVerified;
-            variable88 = config.tagTextColor;
-            variable87 = config.tagBackgroundColor;
-            variable86 = config.tagType;
-            variable85 = config.tagIconUrl;
-            variable84 = config.opTagText;
-            variable83 = config.opTagTextColor;
-            variable82 = config.opTagBackgroundColor;
+            variable91 = config.tagText;
+            variable90 = config.tagVerified;
+            variable89 = config.tagTextColor;
+            variable88 = config.tagBackgroundColor;
+            variable87 = config.tagType;
+            variable86 = config.tagIconUrl;
+            variable85 = config.opTagText;
+            variable84 = config.opTagTextColor;
+            variable83 = config.opTagBackgroundColor;
             whisks = _closure1_slot21;
             target = whisks.getUploaderFileForMessageId;
             config = michal.id;
@@ -623,23 +630,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = _closure1_slot24;
             config = config.SEND_FAILED;
             config = whisks !== config;
-            if(config) { _fun00006_ip = 1298; continue _fun00005 }
- 1288:
+            if(config) { _fun00006_ip = 1329; continue _fun00005 }
+ 1319:
             whisks = michal.isCommandType;
             config = whisks.bind(michal)();
- 1298:
+ 1329:
             whisks = sierra;
-            if(config) { _fun00006_ip = 1369; continue _fun00005 }
- 1304:
+            if(config) { _fun00006_ip = 1400; continue _fun00005 }
+ 1335:
             config = sierra;
-            if(!(result == sierra)) { _fun00006_ip = 1315; continue _fun00005 }
- 1311:
+            if(!(result == sierra)) { _fun00006_ip = 1346; continue _fun00005 }
+ 1342:
             config = new Array(0);
- 1315:
+ 1346:
             equals = config.push;
             quebec = _closure1_slot1;
             variable37 = _closure1_slot2;
-            sierra = 43;
+            sierra = 44;
             sierra = variable37[sierra];
             quebec = quebec.bind(oscard)(sierra);
             sierra = {};
@@ -649,24 +656,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = quebec.bind(oscard)(sierra);
             sierra = equals.bind(config)(sierra);
             whisks = config;
- 1369:
+ 1400:
             equals = _closure1_slot8;
             sierra = equals.getMessage;
             config = michal.id;
             sierra = sierra.bind(equals)(config);
             variable55 = whisks;
-            if(!(result != sierra)) { _fun00006_ip = 1468; continue _fun00005 }
- 1396:
+            if(!(result != sierra)) { _fun00006_ip = 1499; continue _fun00005 }
+ 1427:
             config = whisks;
-            if(!(result == whisks)) { _fun00006_ip = 1407; continue _fun00005 }
- 1403:
+            if(!(result == whisks)) { _fun00006_ip = 1438; continue _fun00005 }
+ 1434:
             config = new Array(0);
- 1407:
+ 1438:
             variable37 = sierra.errorMessage;
             whisks = config.push;
             equals = _closure1_slot0;
             quebec = _closure1_slot2;
-            sierra = 43;
+            sierra = 44;
             sierra = quebec[sierra];
             quebec = equals.bind(oscard)(sierra);
             equals = quebec.createAutomodBlockedMessageEmbed;
@@ -676,10 +683,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = equals.bind(quebec)(sierra);
             sierra = whisks.bind(config)(sierra);
             variable55 = config;
- 1468:
+ 1499:
             sierra = _closure1_slot0;
             whisks = _closure1_slot2;
-            quebec = 44;
+            quebec = 45;
             config = whisks[quebec];
             variable37 = sierra.bind(oscard)(config);
             equals = variable37.getUserAuthor;
@@ -688,53 +695,53 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable48 = config.guildMemberAvatar;
             variable37 = config.guildMemberAvatarDecoration;
             equals = config.iconRoleId;
-            config = 45;
+            config = 46;
             config = whisks[config];
             whisks = sierra.bind(oscard)(config);
             sierra = whisks.ensureAvatarSource;
             config = michal.isInteractionPlaceholder;
             config = config.bind(michal)();
-            if(!config) { _fun00006_ip = 1596; continue _fun00005 }
- 1557:
+            if(!config) { _fun00006_ip = 1627; continue _fun00005 }
+ 1588:
             config = michal.author;
             config = config.avatar;
-            if(!(result == config)) { _fun00006_ip = 1596; continue _fun00005 }
- 1573:
+            if(!(result == config)) { _fun00006_ip = 1627; continue _fun00005 }
+ 1604:
             variable40 = michal.application;
             variable41 = result == variable40;
             config = undefined;
-            if(variable41) { _fun00006_ip = 1592; continue _fun00005 }
- 1587:
+            if(variable41) { _fun00006_ip = 1623; continue _fun00005 }
+ 1618:
             config = variable40.icon;
- 1592:
-            if(!(result == config)) { _fun00006_ip = 1671; continue _fun00005 }
- 1596:
-            if(!(result != variable48)) { _fun00006_ip = 1604; continue _fun00005 }
- 1600:
-            if(!(result == variable67)) { _fun00006_ip = 1617; continue _fun00005 }
- 1604:
-            config = variable76.getAvatarSource;
-            config = config.bind(variable76)(oscard);
-            _fun00006_ip = 1669; continue _fun00005;
- 1617:
+ 1623:
+            if(!(result == config)) { _fun00006_ip = 1702; continue _fun00005 }
+ 1627:
+            if(!(result != variable48)) { _fun00006_ip = 1635; continue _fun00005 }
+ 1631:
+            if(!(result == variable68)) { _fun00006_ip = 1648; continue _fun00005 }
+ 1635:
+            config = variable77.getAvatarSource;
+            config = config.bind(variable77)(oscard);
+            _fun00006_ip = 1700; continue _fun00005;
+ 1648:
             variable41 = _closure1_slot1;
             variable46 = _closure1_slot2;
-            variable40 = 46;
+            variable40 = 47;
             variable40 = variable46[variable40];
             variable46 = variable41.bind(oscard)(variable40);
             variable41 = variable46.getGuildMemberAvatarSource;
             variable40 = {};
-            variable49 = variable76.id;
+            variable49 = variable77.id;
             variable40['userId'] = variable49;
             variable40['guildMemberAvatar'] = variable48;
-            variable40['guildId'] = variable67;
-            config = variable41.bind(variable46)(variable40, variable76);
- 1669:
-            _fun00006_ip = 1748; continue _fun00005;
- 1671:
+            variable40['guildId'] = variable68;
+            config = variable41.bind(variable46)(variable40, variable77);
+ 1700:
+            _fun00006_ip = 1779; continue _fun00005;
+ 1702:
             variable41 = _closure1_slot1;
             variable46 = _closure1_slot2;
-            variable40 = 46;
+            variable40 = 47;
             variable40 = variable46[variable40];
             variable46 = variable41.bind(oscard)(variable40);
             variable41 = variable46.getApplicationIconSource;
@@ -749,61 +756,61 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable48 = variable48.bot;
             variable40['bot'] = variable48;
             config = variable41.bind(variable46)(variable40);
- 1748:
-            variable79 = sierra.bind(whisks)(config);
+ 1779:
+            variable80 = sierra.bind(whisks)(config);
             sierra = _closure1_slot0;
             whisks = _closure1_slot2;
-            config = 46;
+            config = 47;
             config = whisks[config];
             whisks = sierra.bind(oscard)(config);
             sierra = whisks.getAvatarDecorationURL;
             config = {};
-            if(!(result == variable37)) { _fun00006_ip = 1791; continue _fun00005 }
- 1785:
-            variable37 = variable76.avatarDecoration;
- 1791:
+            if(!(result == variable37)) { _fun00006_ip = 1822; continue _fun00005 }
+ 1816:
+            variable37 = variable77.avatarDecoration;
+ 1822:
             config['avatarDecoration'] = variable37;
             variable46 = _closure1_slot0;
             variable48 = _closure1_slot2;
-            variable37 = 47;
+            variable37 = 48;
             variable37 = variable48[variable37];
             variable41 = variable46.bind(oscard)(variable37);
             variable40 = variable41.getDecorationSizeForAvatarSize;
-            variable37 = 48;
+            variable37 = 49;
             variable37 = variable48[variable37];
             variable37 = variable46.bind(oscard)(variable37);
             variable37 = variable37.AvatarSizes;
             variable37 = variable37.NORMAL;
             variable37 = variable40.bind(variable41)(variable37);
             config['size'] = variable37;
-            variable78 = sierra.bind(whisks)(config);
+            variable79 = sierra.bind(whisks)(config);
             config = result != equals;
-            variable73 = undefined;
-            if(!config) { _fun00006_ip = 1927; continue _fun00005 }
- 1869:
-            config = result != variable67;
-            variable73 = undefined;
-            if(!config) { _fun00006_ip = 1927; continue _fun00005 }
- 1878:
+            variable74 = undefined;
+            if(!config) { _fun00006_ip = 1958; continue _fun00005 }
+ 1900:
+            config = result != variable68;
+            variable74 = undefined;
+            if(!config) { _fun00006_ip = 1958; continue _fun00005 }
+ 1909:
             sierra = _closure1_slot0;
             whisks = _closure1_slot2;
-            config = 49;
+            config = 50;
             config = whisks[config];
             whisks = sierra.bind(oscard)(config);
             sierra = whisks.getRoleIcon;
             config = {};
-            config['guildId'] = variable67;
+            config['guildId'] = variable68;
             config['roleId'] = equals;
             equals = 18;
             config['size'] = equals;
-            variable73 = sierra.bind(whisks)(config);
- 1927:
+            variable74 = sierra.bind(whisks)(config);
+ 1958:
             sierra = michal.hasFlag;
             config = _closure1_slot25;
             config = config.SOURCE_MESSAGE_DELETED;
             config = sierra.bind(michal)(config);
-            if(!config) { _fun00006_ip = 2006; continue _fun00005 }
- 1951:
+            if(!config) { _fun00006_ip = 2037; continue _fun00005 }
+ 1982:
             equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 24;
@@ -816,20 +823,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.t;
             config = config.JOtgS0;
             papara = sierra.bind(whisks)(config);
- 2006:
+ 2037:
             sierra = _closure1_slot0;
             config = _closure1_slot2;
             config = config[quebec];
             sierra = sierra.bind(oscard)(config);
             config = sierra.getMessageAuthor;
             config = config.bind(sierra)(michal);
-            variable80 = config.nick;
-            variable74 = config.colorString;
+            variable81 = config.nick;
+            variable75 = config.colorString;
             sierra = michal.type;
             config = _closure1_slot23;
             config = config.INTERACTION_PREMIUM_UPSELL;
-            if(!(sierra === config)) { _fun00006_ip = 2128; continue _fun00005 }
- 2065:
+            if(!(sierra === config)) { _fun00006_ip = 2159; continue _fun00005 }
+ 2096:
             sierra = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 24;
@@ -842,18 +849,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.t;
             sierra = config.u4A+xM;
             config = {};
-            config['appName'] = variable80;
+            config['appName'] = variable81;
             papara = whisks.bind(equals)(sierra, config);
- 2128:
+ 2159:
             sierra = michal.type;
             config = _closure1_slot23;
             config = config.REPLY;
-            variable94 = undefined;
-            if(!(sierra === config)) { _fun00006_ip = 3467; continue _fun00005 }
- 2152:
-            variable94 = undefined;
-            if(!vacuum) { _fun00006_ip = 3467; continue _fun00005 }
- 2160:
+            variable95 = undefined;
+            if(!(sierra === config)) { _fun00006_ip = 3498; continue _fun00005 }
+ 2183:
+            variable95 = undefined;
+            if(!vacuum) { _fun00006_ip = 3498; continue _fun00005 }
+ 2191:
             sierra = _closure1_slot12;
             config = sierra.getMessageByReference;
             vacuum = michal.messageReference;
@@ -861,26 +868,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = vacuum.state;
             config = _closure1_slot13;
             config = config.LOADED;
-            if(!(config !== sierra)) { _fun00006_ip = 2438; continue _fun00005 }
- 2203:
+            if(!(config !== sierra)) { _fun00006_ip = 2469; continue _fun00005 }
+ 2234:
             config = _closure1_slot13;
             config = config.NOT_LOADED;
-            if(!(config !== sierra)) { _fun00006_ip = 2355; continue _fun00005 }
- 2220:
+            if(!(config !== sierra)) { _fun00006_ip = 2386; continue _fun00005 }
+ 2251:
             config = _closure1_slot13;
             config = config.DELETED;
-            if(!(config !== sierra)) { _fun00006_ip = 2272; continue _fun00005 }
- 2234:
+            if(!(config !== sierra)) { _fun00006_ip = 2303; continue _fun00005 }
+ 2265:
             sierra = _closure1_slot0;
             whisks = _closure1_slot2;
-            config = 51;
+            config = 52;
             config = whisks[config];
             sierra = sierra.bind(oscard)(config);
             config = sierra.assertNever;
             config = config.bind(sierra)(vacuum);
-            variable94 = undefined;
-            _fun00006_ip = 3467; continue _fun00005;
- 2272:
+            variable95 = undefined;
+            _fun00006_ip = 3498; continue _fun00005;
+ 2303:
             config = {};
             sierra = _closure1_slot22;
             sierra = sierra.SYSTEM;
@@ -898,9 +905,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = sierra.mE3KJC;
             sierra = whisks.bind(equals)(sierra);
             config['content'] = sierra;
-            variable94 = config;
-            _fun00006_ip = 3467; continue _fun00005;
- 2355:
+            variable95 = config;
+            _fun00006_ip = 3498; continue _fun00005;
+ 2386:
             config = {};
             sierra = _closure1_slot22;
             sierra = sierra.SYSTEM;
@@ -918,9 +925,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = sierra.1i+hMj;
             sierra = whisks.bind(equals)(sierra);
             config['content'] = sierra;
-            variable94 = config;
-            _fun00006_ip = 3467; continue _fun00005;
- 2438:
+            variable95 = config;
+            _fun00006_ip = 3498; continue _fun00005;
+ 2469:
             vacuum = vacuum.message;
             sierra = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -932,32 +939,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sierra = _closure1_slot20;
             config = sierra.isBlockedForMessage;
             config = config.bind(sierra)(vacuum);
-            if(config) { _fun00006_ip = 3389; continue _fun00005 }
- 2495:
+            if(config) { _fun00006_ip = 3420; continue _fun00005 }
+ 2526:
             sierra = _closure1_slot20;
             config = sierra.isIgnoredForMessage;
             config = config.bind(sierra)(vacuum);
-            if(config) { _fun00006_ip = 3309; continue _fun00005 }
- 2516:
+            if(config) { _fun00006_ip = 3340; continue _fun00005 }
+ 2547:
             sierra = _closure1_slot33;
             config = {'message': null, 'messageForward': null, 'roleStyle': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
             config['message'] = vacuum;
             config['messageForward'] = whisks;
             config['roleStyle'] = kiloes;
             equals = {};
-            r104 = equals;
-            r103 = option;
-            variable37 = copyDataProperties(r104, r103);
+            r105 = equals;
+            r104 = option;
+            variable37 = copyDataProperties(r105, r104);
             variable37 = 'renderReplies';
             equals[variable37] = offset;
             config['options'] = equals;
             sierra = sierra.bind(oscard)(config);
-            if(!(result != sierra)) { _fun00006_ip = 3226; continue _fun00005 }
- 2585:
+            if(!(result != sierra)) { _fun00006_ip = 3257; continue _fun00005 }
+ 2616:
             config = 'username';
             config = config in sierra;
-            if(!config) { _fun00006_ip = 2756; continue _fun00005 }
- 2599:
+            if(!config) { _fun00006_ip = 2787; continue _fun00005 }
+ 2630:
             equals = _closure1_slot0;
             config = _closure1_slot2;
             config = config[quebec];
@@ -966,63 +973,63 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.bind(equals)(vacuum);
             quebec = config.nick;
             equals = config.colorString;
-            if(!(result == quebec)) { _fun00006_ip = 2654; continue _fun00005 }
- 2643:
+            if(!(result == quebec)) { _fun00006_ip = 2685; continue _fun00005 }
+ 2674:
             config = vacuum.author;
             quebec = config.username;
- 2654:
+ 2685:
             variable37 = result != quebec;
             config = undefined;
-            if(!variable37) { _fun00006_ip = 2666; continue _fun00005 }
- 2663:
+            if(!variable37) { _fun00006_ip = 2697; continue _fun00005 }
+ 2694:
             config = quebec;
- 2666:
+ 2697:
             sierra['username'] = config;
-            if(variable70) { _fun00006_ip = 2696; continue _fun00005 }
- 2675:
+            if(variable71) { _fun00006_ip = 2727; continue _fun00005 }
+ 2706:
             config = _closure1_slot3;
             config = config.bind(oscard)(equals);
-            if(!(result == config)) { _fun00006_ip = 2694; continue _fun00005 }
- 2688:
+            if(!(result == config)) { _fun00006_ip = 2725; continue _fun00005 }
+ 2719:
             config = sierra.colorString;
- 2694:
-            _fun00006_ip = 2702; continue _fun00005;
- 2696:
+ 2725:
+            _fun00006_ip = 2733; continue _fun00005;
+ 2727:
             config = sierra.colorString;
- 2702:
+ 2733:
             sierra['colorString'] = config;
             equals = _closure1_slot1;
             quebec = _closure1_slot2;
-            config = 50;
+            config = 51;
             config = quebec[config];
             config = equals.bind(oscard)(config);
             config = config.bind(oscard)(michal, vacuum);
-            if(!config) { _fun00006_ip = 2756; continue _fun00005 }
- 2737:
+            if(!config) { _fun00006_ip = 2787; continue _fun00005 }
+ 2768:
             equals = sierra.username;
             config = '@';
             config = config + equals;
             sierra['username'] = config;
- 2756:
+ 2787:
             equals = result == whisks;
             config = undefined;
-            if(equals) { _fun00006_ip = 2776; continue _fun00005 }
- 2765:
+            if(equals) { _fun00006_ip = 2807; continue _fun00005 }
+ 2796:
             whisks = whisks.messageSnapshot;
             config = whisks.message;
- 2776:
+ 2807:
             quebec = vacuum;
-            if(!(result != config)) { _fun00006_ip = 2786; continue _fun00005 }
- 2783:
+            if(!(result != config)) { _fun00006_ip = 2817; continue _fun00005 }
+ 2814:
             quebec = config;
- 2786:
+ 2817:
             config = 'stickers';
             config = config in quebec;
-            if(config) { _fun00006_ip = 2803; continue _fun00005 }
- 2797:
+            if(config) { _fun00006_ip = 2834; continue _fun00005 }
+ 2828:
             config = new Array(0);
-            _fun00006_ip = 2834; continue _fun00005;
- 2803:
+            _fun00006_ip = 2865; continue _fun00005;
+ 2834:
             equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             whisks = 28;
@@ -1030,11 +1037,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             equals = equals.bind(oscard)(whisks);
             whisks = equals.getMessageStickers;
             config = whisks.bind(equals)(quebec);
- 2834:
+ 2865:
             config = config.length;
             whisks = 0;
-            if(!(!(config > whisks))) { _fun00006_ip = 3102; continue _fun00005 }
- 2848:
+            if(!(!(config > whisks))) { _fun00006_ip = 3133; continue _fun00005 }
+ 2879:
             equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             config = 29;
@@ -1045,23 +1052,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = _closure1_slot25;
             config = config.IS_VOICE_MESSAGE;
             config = variable37.bind(variable40)(equals, config);
-            if(config) { _fun00006_ip = 3045; continue _fun00005 }
- 2901:
+            if(config) { _fun00006_ip = 3076; continue _fun00005 }
+ 2932:
             equals = quebec.type;
             config = _closure1_slot23;
             config = config.POLL_RESULT;
-            if(!(equals !== config)) { _fun00006_ip = 3012; continue _fun00005 }
- 2920:
+            if(!(equals !== config)) { _fun00006_ip = 3043; continue _fun00005 }
+ 2951:
             config = quebec.embeds;
             config = config.length;
-            if(!(!(config > whisks))) { _fun00006_ip = 2955; continue _fun00005 }
- 2935:
+            if(!(!(config > whisks))) { _fun00006_ip = 2986; continue _fun00005 }
+ 2966:
             config = quebec.attachments;
             config = config.length;
             whisks = config > whisks;
             config = null;
-            if(!whisks) { _fun00006_ip = 3010; continue _fun00005 }
- 2955:
+            if(!whisks) { _fun00006_ip = 3041; continue _fun00005 }
+ 2986:
             variable40 = _closure1_slot0;
             variable41 = _closure1_slot2;
             whisks = 24;
@@ -1074,9 +1081,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             whisks = whisks.t;
             whisks = whisks.JAKsMz;
             config = equals.bind(variable37)(whisks);
- 3010:
-            _fun00006_ip = 3043; continue _fun00005;
- 3012:
+ 3041:
+            _fun00006_ip = 3074; continue _fun00005;
+ 3043:
             equals = _closure1_slot0;
             variable37 = _closure1_slot2;
             whisks = 30;
@@ -1084,9 +1091,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             equals = equals.bind(oscard)(whisks);
             whisks = equals.getPollResultsReplyPreviewMobile;
             config = whisks.bind(equals)(quebec);
- 3043:
-            _fun00006_ip = 3100; continue _fun00005;
- 3045:
+ 3074:
+            _fun00006_ip = 3131; continue _fun00005;
+ 3076:
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
             whisks = 24;
@@ -1099,9 +1106,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             whisks = whisks.t;
             whisks = whisks.6bhHra;
             config = equals.bind(quebec)(whisks);
- 3100:
-            _fun00006_ip = 3157; continue _fun00005;
- 3102:
+ 3131:
+            _fun00006_ip = 3188; continue _fun00005;
+ 3133:
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
             whisks = 24;
@@ -1114,26 +1121,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             whisks = whisks.t;
             whisks = whisks.7K5LmZ;
             config = equals.bind(quebec)(whisks);
- 3157:
+ 3188:
             whisks = vacuum.type;
             vacuum = _closure1_slot23;
             vacuum = vacuum.POLL_RESULT;
-            if(!(whisks === vacuum)) { _fun00006_ip = 3182; continue _fun00005 }
- 3176:
+            if(!(whisks === vacuum)) { _fun00006_ip = 3213; continue _fun00005 }
+ 3207:
             sierra['content'] = config;
- 3182:
+ 3213:
             vacuum = {};
             whisks = _closure1_slot22;
             whisks = whisks.LOADED;
             vacuum['state'] = whisks;
             vacuum['message'] = sierra;
-            variable94 = vacuum;
-            if(!(result != config)) { _fun00006_ip = 3467; continue _fun00005 }
- 3212:
+            variable95 = vacuum;
+            if(!(result != config)) { _fun00006_ip = 3498; continue _fun00005 }
+ 3243:
             vacuum['systemContent'] = config;
-            variable94 = vacuum;
-            _fun00006_ip = 3467; continue _fun00005;
- 3226:
+            variable95 = vacuum;
+            _fun00006_ip = 3498; continue _fun00005;
+ 3257:
             vacuum = {};
             config = _closure1_slot22;
             config = config.SYSTEM;
@@ -1151,9 +1158,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.1i+hMj;
             config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
-            variable94 = vacuum;
-            _fun00006_ip = 3467; continue _fun00005;
- 3309:
+            variable95 = vacuum;
+            _fun00006_ip = 3498; continue _fun00005;
+ 3340:
             vacuum = {};
             config = _closure1_slot22;
             config = config.SYSTEM;
@@ -1171,9 +1178,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.G7p6v7;
             config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
-            variable94 = vacuum;
-            _fun00006_ip = 3467; continue _fun00005;
- 3389:
+            variable95 = vacuum;
+            _fun00006_ip = 3498; continue _fun00005;
+ 3420:
             vacuum = {};
             config = _closure1_slot22;
             config = config.SYSTEM;
@@ -1191,42 +1198,42 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.XAkOo6;
             config = sierra.bind(whisks)(config);
             vacuum['content'] = config;
-            variable94 = vacuum;
- 3467:
-            variable91 = undefined;
-            if(!source) { _fun00006_ip = 3497; continue _fun00005 }
- 3472:
+            variable95 = vacuum;
+ 3498:
+            variable92 = undefined;
+            if(!source) { _fun00006_ip = 3528; continue _fun00005 }
+ 3503:
             source = _closure1_slot31;
-            r105 = undefined;
-            r104 = michal;
-            r103 = kiloes;
-            r102 = golfie;
-            r101 = output;
-            r100 = option;
-            variable91 = r105[source](r104, r103, r102, r101, r100, variable100);
- 3497:
+            r106 = undefined;
+            r105 = michal;
+            r104 = kiloes;
+            r103 = golfie;
+            r102 = output;
+            r101 = option;
+            variable92 = r106[source](r105, r104, r103, r102, r101, r100);
+ 3528:
             vacuum = _closure1_slot9;
             source = vacuum.getInteraction;
-            variable66 = source.bind(vacuum)(michal);
+            variable67 = source.bind(vacuum)(michal);
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
-            source = 52;
+            source = 53;
             source = config[source];
             vacuum = vacuum.bind(oscard)(source);
             source = vacuum.createInteractionStatus;
-            variable57 = source.bind(vacuum)(michal, variable66);
-            vacuum = result != variable67;
+            variable57 = source.bind(vacuum)(michal, variable67);
+            vacuum = result != variable68;
             source = null;
-            if(!vacuum) { _fun00006_ip = 3574; continue _fun00005 }
- 3553:
+            if(!vacuum) { _fun00006_ip = 3605; continue _fun00005 }
+ 3584:
             sierra = _closure1_slot19;
             config = sierra.getMember;
-            vacuum = variable76.id;
-            source = config.bind(sierra)(variable67, vacuum);
- 3574:
+            vacuum = variable77.id;
+            source = config.bind(sierra)(variable68, vacuum);
+ 3605:
             config = _closure1_slot0;
             sierra = _closure1_slot2;
-            vacuum = 53;
+            vacuum = 54;
             vacuum = sierra[vacuum];
             config = config.bind(oscard)(vacuum);
             vacuum = config.isMemberCommunicationDisabled;
@@ -1234,33 +1241,33 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = _closure1_slot4;
             equals = vacuum.useReducedMotion;
             vacuum = _closure1_slot4;
-            variable69 = vacuum.alwaysShowLinkDecorations;
+            variable70 = vacuum.alwaysShowLinkDecorations;
             vacuum = result == ctrled;
             whisks = source;
             source = undefined;
-            if(vacuum) { _fun00006_ip = 3643; continue _fun00005 }
- 3637:
+            if(vacuum) { _fun00006_ip = 3674; continue _fun00005 }
+ 3668:
             source = ctrled.parent_id;
- 3643:
+ 3674:
             sierra = ctrled;
-            if(!(result != source)) { _fun00006_ip = 3693; continue _fun00005 }
- 3650:
+            if(!(result != source)) { _fun00006_ip = 3724; continue _fun00005 }
+ 3681:
             sierra = ctrled;
-            if(!(result != ctrled)) { _fun00006_ip = 3693; continue _fun00005 }
- 3657:
+            if(!(result != ctrled)) { _fun00006_ip = 3724; continue _fun00005 }
+ 3688:
             source = ctrled.isThread;
             source = source.bind(ctrled)();
             sierra = ctrled;
-            if(!source) { _fun00006_ip = 3693; continue _fun00005 }
- 3673:
+            if(!source) { _fun00006_ip = 3724; continue _fun00005 }
+ 3704:
             config = _closure1_slot18;
             vacuum = config.getChannel;
             source = ctrled.parent_id;
             sierra = vacuum.bind(config)(source);
- 3693:
+ 3724:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
-            source = 54;
+            source = 55;
             source = config[source];
             config = vacuum.bind(oscard)(source);
             vacuum = config.getVisibleConnectionsRole;
@@ -1268,7 +1275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source['guildMember'] = whisks;
             source['channel'] = sierra;
             source['onlyChannelConnectionRoles'] = verify;
-            variable75 = vacuum.bind(config)(source);
+            variable76 = vacuum.bind(config)(source);
             source = variable45.attachments;
             source = source.length;
             variable54 = 0;
@@ -1277,32 +1284,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = source.length;
             variable49 = variable54 !== source;
             source = variable42;
-            if(!variable42) { _fun00006_ip = 3793; continue _fun00005 }
- 3778:
+            if(!variable42) { _fun00006_ip = 3824; continue _fun00005 }
+ 3809:
             vacuum = michal.attachments;
             vacuum = vacuum.length;
             source = variable54 === vacuum;
- 3793:
-            if(!source) { _fun00006_ip = 3800; continue _fun00005 }
- 3796:
+ 3824:
+            if(!source) { _fun00006_ip = 3831; continue _fun00005 }
+ 3827:
             source = result != target;
- 3800:
+ 3831:
             config = _closure1_slot0;
             vacuum = _closure1_slot2;
-            variable46 = 55;
+            variable46 = 56;
             vacuum = vacuum[variable46];
             vacuum = config.bind(oscard)(vacuum);
             config = vacuum.ViewImageDescriptions;
             vacuum = config.getSetting;
             variable61 = vacuum.bind(config)();
             variable41 = new Array(0);
-            if(source) { _fun00006_ip = 3960; continue _fun00005 }
- 3843:
-            if(!variable47) { _fun00006_ip = 4021; continue _fun00005 }
- 3849:
+            if(source) { _fun00006_ip = 3999; continue _fun00005 }
+ 3877:
+            if(!variable47) { _fun00006_ip = 4060; continue _fun00005 }
+ 3883:
             config = _closure1_slot1;
             sierra = _closure1_slot2;
-            vacuum = 57;
+            vacuum = 58;
             vacuum = sierra[vacuum];
             config = config.bind(oscard)(vacuum);
             vacuum = {};
@@ -1317,17 +1324,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum['gifAutoPlay'] = variable60;
             vacuum['viewImageDescriptions'] = variable61;
             vacuum['useReducedMotion'] = equals;
-            vacuum['shouldObscureSpoiler'] = variable63;
+            vacuum['shouldObscureSpoiler'] = variable64;
             sierra = record.embedBackgroundColor;
             vacuum['themedBackgroundColor'] = sierra;
-            vacuum['shouldObscureExplicitMedia'] = variable62;
+            vacuum['shouldObscureExplicitMedia'] = variable63;
+            vacuum['shouldAgeVerify'] = variable62;
             vacuum['colors'] = record;
             variable41 = config.bind(oscard)(vacuum);
-            _fun00006_ip = 4021; continue _fun00005;
- 3960:
+            _fun00006_ip = 4060; continue _fun00005;
+ 3999:
             config = _closure1_slot1;
             sierra = _closure1_slot2;
-            vacuum = 56;
+            vacuum = 57;
             vacuum = sierra[vacuum];
             config = config.bind(oscard)(vacuum);
             vacuum = {};
@@ -1339,24 +1347,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum['isFailedMessage'] = target;
             vacuum['shouldInlineAttachmentMedia'] = variable43;
             variable41 = config.bind(oscard)(vacuum);
- 4021:
-            if(!source) { _fun00006_ip = 4043; continue _fun00005 }
- 4024:
+ 4060:
+            if(!source) { _fun00006_ip = 4082; continue _fun00005 }
+ 4063:
             vacuum = michal.state;
             source = _closure1_slot24;
             source = source.SEND_FAILED;
-            if(!(vacuum === source)) { _fun00006_ip = 4082; continue _fun00005 }
- 4043:
+            if(!(vacuum === source)) { _fun00006_ip = 4121; continue _fun00005 }
+ 4082:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
-            source = 58;
+            source = 59;
             source = config[source];
             config = vacuum.bind(oscard)(source);
             vacuum = config.calendarFormat;
             source = michal.timestamp;
-            variable72 = vacuum.bind(config)(source);
-            _fun00006_ip = 4137; continue _fun00005;
- 4082:
+            variable73 = vacuum.bind(config)(source);
+            _fun00006_ip = 4176; continue _fun00005;
+ 4121:
             target = _closure1_slot0;
             sierra = _closure1_slot2;
             source = 24;
@@ -1368,15 +1376,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = target.bind(oscard)(source);
             source = source.t;
             source = source.yXY+5O;
-            variable72 = vacuum.bind(config)(source);
- 4137:
+            variable73 = vacuum.bind(config)(source);
+ 4176:
             vacuum = _closure1_slot17;
             source = vacuum.getId;
             variable37 = source.bind(vacuum)();
             source = michal.isUnsupported;
-            variable68 = papara;
-            if(!source) { _fun00006_ip = 4220; continue _fun00005 }
- 4163:
+            variable69 = papara;
+            if(!source) { _fun00006_ip = 4259; continue _fun00005 }
+ 4202:
             target = _closure1_slot0;
             sierra = _closure1_slot2;
             source = 24;
@@ -1388,122 +1396,122 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = target.bind(oscard)(source);
             source = source.t;
             source = source.sWi5ER;
-            variable68 = vacuum.bind(config)(source);
- 4220:
+            variable69 = vacuum.bind(config)(source);
+ 4259:
             source = michal.isPoll;
             source = source.bind(michal)();
             source = !source;
-            if(source) { _fun00006_ip = 4248; continue _fun00005 }
- 4236:
+            if(source) { _fun00006_ip = 4287; continue _fun00005 }
+ 4275:
             vacuum = !golfie;
-            if(!vacuum) { _fun00006_ip = 4245; continue _fun00005 }
- 4242:
+            if(!vacuum) { _fun00006_ip = 4284; continue _fun00005 }
+ 4281:
             vacuum = entity;
- 4245:
+ 4284:
             source = vacuum;
- 4248:
-            if(source) { _fun00006_ip = 4269; continue _fun00005 }
- 4251:
+ 4287:
+            if(source) { _fun00006_ip = 4308; continue _fun00005 }
+ 4290:
             vacuum = result != papara;
-            if(!vacuum) { _fun00006_ip = 4266; continue _fun00005 }
- 4258:
+            if(!vacuum) { _fun00006_ip = 4305; continue _fun00005 }
+ 4297:
             config = '';
             vacuum = config !== papara;
- 4266:
+ 4305:
             source = vacuum;
- 4269:
-            if(source) { _fun00006_ip = 4303; continue _fun00005 }
- 4272:
+ 4308:
+            if(source) { _fun00006_ip = 4342; continue _fun00005 }
+ 4311:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
             source = 30;
             source = config[source];
             vacuum = vacuum.bind(oscard)(source);
             source = vacuum.getPollReplyPreview;
-            variable68 = source.bind(vacuum)(michal);
- 4303:
+            variable69 = source.bind(vacuum)(michal);
+ 4342:
             source = undefined;
-            if(!entity) { _fun00006_ip = 4347; continue _fun00005 }
- 4308:
-            vacuum = _closure1_slot1;
-            config = _closure1_slot2;
-            entity = 59;
-            entity = config[entity];
-            vacuum = vacuum.bind(oscard)(entity);
-            entity = {};
-            entity['theme'] = update;
-            entity['animateEmoji'] = variable77;
-            source = vacuum.bind(oscard)(michal, oscard, entity);
+            if(!entity) { _fun00006_ip = 4386; continue _fun00005 }
  4347:
-            if(!status) { _fun00006_ip = 4381; continue _fun00005 }
- 4350:
-            vacuum = _closure1_slot0;
+            vacuum = _closure1_slot1;
             config = _closure1_slot2;
             entity = 60;
             entity = config[entity];
             vacuum = vacuum.bind(oscard)(entity);
+            entity = {};
+            entity['theme'] = update;
+            entity['animateEmoji'] = variable78;
+            source = vacuum.bind(oscard)(michal, oscard, entity);
+ 4386:
+            if(!status) { _fun00006_ip = 4420; continue _fun00005 }
+ 4389:
+            vacuum = _closure1_slot0;
+            config = _closure1_slot2;
+            entity = 61;
+            entity = config[entity];
+            vacuum = vacuum.bind(oscard)(entity);
             entity = vacuum.canForwardMessage;
             status = entity.bind(vacuum)(michal);
- 4381:
+ 4420:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
-            variable95 = 61;
-            entity = entity[variable95];
+            variable96 = 62;
+            entity = entity[variable96];
             papara = vacuum.bind(oscard)(entity);
             config = papara.shouldDisplayClanTag;
-            vacuum = variable76.id;
-            target = result != variable67;
+            vacuum = variable77.id;
+            target = result != variable68;
             entity = undefined;
-            if(!target) { _fun00006_ip = 4424; continue _fun00005 }
- 4421:
-            entity = variable67;
- 4424:
+            if(!target) { _fun00006_ip = 4463; continue _fun00005 }
+ 4460:
+            entity = variable68;
+ 4463:
             entity = config.bind(papara)(vacuum, entity);
             target = undefined;
             papara = undefined;
             config = undefined;
-            if(!entity) { _fun00006_ip = 4557; continue _fun00005 }
- 4439:
+            if(!entity) { _fun00006_ip = 4596; continue _fun00005 }
+ 4478:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[variable95];
+            entity = entity[variable96];
             sierra = vacuum.bind(oscard)(entity);
             vacuum = sierra.getUserPrimaryGuild;
-            entity = variable76.primaryGuild;
+            entity = variable77.primaryGuild;
             whisks = vacuum.bind(sierra)(entity);
             sierra = whisks.guildId;
             vacuum = whisks.tag;
             entity = whisks.guildId;
             quebec = result != entity;
             entity = undefined;
-            if(!quebec) { _fun00006_ip = 4548; continue _fun00005 }
- 4497:
-            variable92 = _closure1_slot0;
+            if(!quebec) { _fun00006_ip = 4587; continue _fun00005 }
+ 4536:
+            variable93 = _closure1_slot0;
             quebec = _closure1_slot2;
-            quebec = quebec[variable95];
-            variable96 = variable92.bind(oscard)(quebec);
-            variable95 = variable96.getClanBadgeUrl;
-            variable92 = whisks.guildId;
+            quebec = quebec[variable96];
+            variable97 = variable93.bind(oscard)(quebec);
+            variable96 = variable97.getClanBadgeUrl;
+            variable93 = whisks.guildId;
             quebec = whisks.badge;
             whisks = _closure1_slot28;
             whisks = whisks.SIZE_12;
-            entity = variable95.bind(variable96)(variable92, quebec, whisks);
- 4548:
+            entity = variable96.bind(variable97)(variable93, quebec, whisks);
+ 4587:
             config = entity;
             target = sierra;
             papara = vacuum;
- 4557:
+ 4596:
             vacuum = _closure1_slot0;
             entity = _closure1_slot2;
-            variable96 = 29;
-            entity = entity[variable96];
+            variable97 = 29;
+            entity = entity[variable97];
             whisks = vacuum.bind(oscard)(entity);
             sierra = whisks.hasFlag;
             entity = michal;
-            if(!(result != variable45)) { _fun00006_ip = 4593; continue _fun00005 }
- 4590:
+            if(!(result != variable45)) { _fun00006_ip = 4632; continue _fun00005 }
+ 4629:
             entity = variable45;
- 4593:
+ 4632:
             vacuum = entity.flags;
             entity = _closure1_slot25;
             entity = entity.IS_VOICE_MESSAGE;
@@ -1517,434 +1525,435 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = vacuum.bind(oscard)(entity);
             limora = entity.referralTrialOfferDataUpdated;
             whisks = entity.referralTrialOfferData;
-            variable92 = _closure1_slot5;
-            vacuum = variable92.getApplication;
-            variable95 = michal.applicationId;
-            variable97 = result != variable95;
+            variable93 = _closure1_slot5;
+            vacuum = variable93.getApplication;
+            variable96 = michal.applicationId;
+            variable98 = result != variable96;
             quebec = '';
             entity = quebec;
-            if(!variable97) { _fun00006_ip = 4688; continue _fun00005 }
- 4685:
-            entity = variable95;
- 4688:
-            entity = vacuum.bind(variable92)(entity);
-            variable92 = result != entity;
-            if(!variable92) { _fun00006_ip = 4744; continue _fun00005 }
- 4700:
-            variable95 = _closure1_slot0;
+            if(!variable98) { _fun00006_ip = 4727; continue _fun00005 }
+ 4724:
+            entity = variable96;
+ 4727:
+            entity = vacuum.bind(variable93)(entity);
+            variable93 = result != entity;
+            if(!variable93) { _fun00006_ip = 4783; continue _fun00005 }
+ 4739:
+            variable96 = _closure1_slot0;
             vacuum = _closure1_slot2;
-            vacuum = vacuum[variable96];
-            variable97 = variable95.bind(oscard)(vacuum);
-            variable96 = variable97.hasFlag;
-            variable95 = entity.flags;
+            vacuum = vacuum[variable97];
+            variable98 = variable96.bind(oscard)(vacuum);
+            variable97 = variable98.hasFlag;
+            variable96 = entity.flags;
             vacuum = _closure1_slot26;
             vacuum = vacuum.SOCIAL_LAYER_INTEGRATION;
-            variable92 = variable96.bind(variable97)(variable95, vacuum);
- 4744:
-            vacuum = undefined;
-            if(!variable92) { _fun00006_ip = 4754; continue _fun00005 }
- 4749:
-            vacuum = entity.id;
- 4754:
-            entity = {};
-            variable92 = michal.id;
-            entity['id'] = variable92;
-            variable92 = michal.channel_id;
-            entity['channelId'] = variable92;
-            variable95 = result != variable67;
-            variable92 = undefined;
-            if(!variable95) { _fun00006_ip = 4786; continue _fun00005 }
+            variable93 = variable97.bind(variable98)(variable96, vacuum);
  4783:
-            variable92 = variable67;
- 4786:
-            entity['guildId'] = variable92;
-            variable92 = michal;
-            if(!(result != variable45)) { _fun00006_ip = 4800; continue _fun00005 }
- 4797:
-            variable92 = variable45;
- 4800:
-            variable92 = variable92.flags;
-            entity['flags'] = variable92;
-            variable92 = michal.type;
-            entity['type'] = variable92;
-            variable92 = michal.nonce;
-            if(!(result != variable92)) { _fun00006_ip = 4845; continue _fun00005 }
- 4828:
-            variable92 = michal.nonce;
-            variable95 = 'string';
-            variable92 = typeof variable92;
-            if(!(variable95 === variable92)) { _fun00006_ip = 4853; continue _fun00005 }
- 4845:
-            variable92 = michal.nonce;
-            _fun00006_ip = 4872; continue _fun00005;
- 4853:
-            variable95 = global;
-            variable96 = variable95.String;
-            variable95 = michal.nonce;
-            variable92 = variable96.bind(oscard)(variable95);
- 4872:
-            entity['nonce'] = variable92;
-            variable92 = michal.state;
-            entity['state'] = variable92;
+            vacuum = undefined;
+            if(!variable93) { _fun00006_ip = 4793; continue _fun00005 }
+ 4788:
+            vacuum = entity.id;
+ 4793:
+            entity = {};
+            variable93 = michal.id;
+            entity['id'] = variable93;
+            variable93 = michal.channel_id;
+            entity['channelId'] = variable93;
+            variable96 = result != variable68;
+            variable93 = undefined;
+            if(!variable96) { _fun00006_ip = 4825; continue _fun00005 }
+ 4822:
+            variable93 = variable68;
+ 4825:
+            entity['guildId'] = variable93;
+            variable93 = michal;
+            if(!(result != variable45)) { _fun00006_ip = 4839; continue _fun00005 }
+ 4836:
+            variable93 = variable45;
+ 4839:
+            variable93 = variable93.flags;
+            entity['flags'] = variable93;
+            variable93 = michal.type;
+            entity['type'] = variable93;
+            variable93 = michal.nonce;
+            if(!(result != variable93)) { _fun00006_ip = 4884; continue _fun00005 }
+ 4867:
+            variable93 = michal.nonce;
+            variable96 = 'string';
+            variable93 = typeof variable93;
+            if(!(variable96 === variable93)) { _fun00006_ip = 4892; continue _fun00005 }
+ 4884:
+            variable93 = michal.nonce;
+            _fun00006_ip = 4911; continue _fun00005;
+ 4892:
+            variable96 = global;
+            variable97 = variable96.String;
+            variable96 = michal.nonce;
+            variable93 = variable97.bind(oscard)(variable96);
+ 4911:
+            entity['nonce'] = variable93;
+            variable93 = michal.state;
+            entity['state'] = variable93;
             entity['reactions'] = echoed;
+            variable93 = undefined;
+            if(variable56) { _fun00006_ip = 4938; continue _fun00005 }
+ 4935:
+            variable93 = variable95;
+ 4938:
+            entity['referencedMessage'] = variable93;
+            entity['threadEmbed'] = variable92;
+            variable93 = result != variable94;
             variable92 = undefined;
-            if(variable56) { _fun00006_ip = 4899; continue _fun00005 }
- 4896:
-            variable92 = variable94;
- 4899:
-            entity['referencedMessage'] = variable92;
-            entity['threadEmbed'] = variable91;
-            variable92 = result != variable93;
-            variable91 = undefined;
-            if(!variable92) { _fun00006_ip = 4930; continue _fun00005 }
- 4918:
-            variable92 = variable93.getForwardInfo;
-            variable91 = variable92.bind(variable93)();
- 4930:
-            entity['forwardInfo'] = variable91;
-            variable91 = !sequen;
-            if(!variable91) { _fun00006_ip = 4949; continue _fun00005 }
- 4943:
-            variable91 = michal.mentioned;
- 4949:
-            entity['mentioned'] = variable91;
-            variable91 = michal.isEdited;
-            variable92 = variable91.bind(michal)();
-            variable91 = quebec;
-            if(!variable92) { _fun00006_ip = 5031; continue _fun00005 }
- 4970:
-            variable91 = quebec;
-            if(variable56) { _fun00006_ip = 5031; continue _fun00005 }
- 4976:
-            variable95 = _closure1_slot0;
-            variable96 = _closure1_slot2;
-            variable92 = 24;
-            variable93 = variable96[variable92];
-            variable93 = variable95.bind(oscard)(variable93);
-            variable94 = variable93.intl;
-            variable93 = variable94.string;
-            variable92 = variable96[variable92];
-            variable92 = variable95.bind(oscard)(variable92);
-            variable92 = variable92.t;
-            variable92 = variable92.C8sXIC;
-            variable91 = variable93.bind(variable94)(variable92);
- 5031:
-            entity['edited'] = variable91;
-            variable91 = record.editedColor;
-            entity['editedColor'] = variable91;
-            variable91 = michal.isUnsupported;
-            if(variable91) { _fun00006_ip = 5064; continue _fun00005 }
- 5056:
-            variable91 = record.textColor;
-            _fun00006_ip = 5070; continue _fun00005;
- 5064:
-            variable91 = record.unsupportedColor;
+            if(!variable93) { _fun00006_ip = 4969; continue _fun00005 }
+ 4957:
+            variable93 = variable94.getForwardInfo;
+            variable92 = variable93.bind(variable94)();
+ 4969:
+            entity['forwardInfo'] = variable92;
+            variable92 = !sequen;
+            if(!variable92) { _fun00006_ip = 4988; continue _fun00005 }
+ 4982:
+            variable92 = michal.mentioned;
+ 4988:
+            entity['mentioned'] = variable92;
+            variable92 = michal.isEdited;
+            variable93 = variable92.bind(michal)();
+            variable92 = quebec;
+            if(!variable93) { _fun00006_ip = 5070; continue _fun00005 }
+ 5009:
+            variable92 = quebec;
+            if(variable56) { _fun00006_ip = 5070; continue _fun00005 }
+ 5015:
+            variable96 = _closure1_slot0;
+            variable97 = _closure1_slot2;
+            variable93 = 24;
+            variable94 = variable97[variable93];
+            variable94 = variable96.bind(oscard)(variable94);
+            variable95 = variable94.intl;
+            variable94 = variable95.string;
+            variable93 = variable97[variable93];
+            variable93 = variable96.bind(oscard)(variable93);
+            variable93 = variable93.t;
+            variable93 = variable93.C8sXIC;
+            variable92 = variable94.bind(variable95)(variable93);
  5070:
-            entity['textColor'] = variable91;
-            variable91 = record.linkColor;
-            entity['linkColor'] = variable91;
-            entity['tagText'] = variable90;
-            entity['tagVerified'] = variable89;
-            entity['tagTextColor'] = variable88;
-            entity['tagBackgroundColor'] = variable87;
-            entity['tagType'] = variable86;
-            entity['tagIconUrl'] = variable85;
-            entity['opTagText'] = variable84;
-            entity['opTagTextColor'] = variable83;
-            entity['opTagBackgroundColor'] = variable82;
-            entity['constrainedWidth'] = variable81;
+            entity['edited'] = variable92;
+            variable92 = record.editedColor;
+            entity['editedColor'] = variable92;
+            variable92 = michal.isUnsupported;
+            if(variable92) { _fun00006_ip = 5103; continue _fun00005 }
+ 5095:
+            variable92 = record.textColor;
+            _fun00006_ip = 5109; continue _fun00005;
+ 5103:
+            variable92 = record.unsupportedColor;
+ 5109:
+            entity['textColor'] = variable92;
+            variable92 = record.linkColor;
+            entity['linkColor'] = variable92;
+            entity['tagText'] = variable91;
+            entity['tagVerified'] = variable90;
+            entity['tagTextColor'] = variable89;
+            entity['tagBackgroundColor'] = variable88;
+            entity['tagType'] = variable87;
+            entity['tagIconUrl'] = variable86;
+            entity['opTagText'] = variable85;
+            entity['opTagTextColor'] = variable84;
+            entity['opTagBackgroundColor'] = variable83;
+            entity['constrainedWidth'] = variable82;
             entity['gifAutoPlay'] = variable60;
-            entity['animateEmoji'] = variable77;
-            if(!variable70) { _fun00006_ip = 5154; continue _fun00005 }
- 5149:
-            variable80 = variable76.username;
- 5154:
-            variable81 = result != variable80;
-            variable77 = undefined;
-            if(!variable81) { _fun00006_ip = 5166; continue _fun00005 }
- 5163:
-            variable77 = variable80;
- 5166:
-            entity['username'] = variable77;
-            variable77 = undefined;
-            if(variable70) { _fun00006_ip = 5181; continue _fun00005 }
- 5175:
-            variable77 = variable79.uri;
- 5181:
-            entity['avatarURL'] = variable77;
-            variable77 = undefined;
-            if(variable70) { _fun00006_ip = 5194; continue _fun00005 }
- 5191:
-            variable77 = variable78;
- 5194:
-            entity['avatarDecorationURL'] = variable77;
-            variable76 = variable76.id;
-            entity['authorId'] = variable76;
-            if(variable70) { _fun00006_ip = 5241; continue _fun00005 }
- 5212:
-            variable76 = 'username';
-            if(!(variable76 === kiloes)) { _fun00006_ip = 5241; continue _fun00005 }
- 5220:
-            variable76 = _closure1_slot3;
-            variable76 = variable76.bind(oscard)(variable74);
-            if(!(result == variable76)) { _fun00006_ip = 5239; continue _fun00005 }
- 5233:
-            variable76 = record.defaultUsernameColor;
- 5239:
-            _fun00006_ip = 5247; continue _fun00005;
- 5241:
-            variable76 = record.defaultUsernameColor;
- 5247:
-            entity['usernameColor'] = variable76;
-            variable76 = null;
-            if(variable70) { _fun00006_ip = 5281; continue _fun00005 }
- 5257:
+            entity['animateEmoji'] = variable78;
+            if(!variable71) { _fun00006_ip = 5193; continue _fun00005 }
+ 5188:
+            variable81 = variable77.username;
+ 5193:
+            variable82 = result != variable81;
+            variable78 = undefined;
+            if(!variable82) { _fun00006_ip = 5205; continue _fun00005 }
+ 5202:
+            variable78 = variable81;
+ 5205:
+            entity['username'] = variable78;
+            variable78 = undefined;
+            if(variable71) { _fun00006_ip = 5219; continue _fun00005 }
+ 5214:
+            variable78 = variable80.uri;
+ 5219:
+            entity['avatarURL'] = variable78;
+            variable78 = undefined;
+            if(variable71) { _fun00006_ip = 5232; continue _fun00005 }
+ 5229:
+            variable78 = variable79;
+ 5232:
+            entity['avatarDecorationURL'] = variable78;
+            variable77 = variable77.id;
+            entity['authorId'] = variable77;
+            if(variable71) { _fun00006_ip = 5279; continue _fun00005 }
+ 5250:
+            variable77 = 'username';
+            if(!(variable77 === kiloes)) { _fun00006_ip = 5279; continue _fun00005 }
+ 5258:
             variable77 = _closure1_slot3;
-            variable78 = variable77.bind(oscard)(variable74);
-            variable79 = result != variable78;
+            variable77 = variable77.bind(oscard)(variable75);
+            if(!(result == variable77)) { _fun00006_ip = 5277; continue _fun00005 }
+ 5271:
+            variable77 = record.defaultUsernameColor;
+ 5277:
+            _fun00006_ip = 5285; continue _fun00005;
+ 5279:
+            variable77 = record.defaultUsernameColor;
+ 5285:
+            entity['usernameColor'] = variable77;
             variable77 = null;
-            if(!variable79) { _fun00006_ip = 5278; continue _fun00005 }
- 5275:
+            if(variable71) { _fun00006_ip = 5319; continue _fun00005 }
+ 5295:
+            variable78 = _closure1_slot3;
+            variable79 = variable78.bind(oscard)(variable75);
+            variable80 = result != variable79;
+            variable78 = null;
+            if(!variable80) { _fun00006_ip = 5316; continue _fun00005 }
+ 5313:
+            variable78 = variable79;
+ 5316:
             variable77 = variable78;
- 5278:
-            variable76 = variable77;
- 5281:
-            entity['roleColor'] = variable76;
-            variable76 = 'dot';
-            variable76 = variable76 === kiloes;
-            if(!variable76) { _fun00006_ip = 5301; continue _fun00005 }
- 5297:
-            variable76 = result != variable74;
- 5301:
-            entity['shouldShowRoleDot'] = variable76;
-            variable76 = 'username';
-            variable76 = variable76 === kiloes;
-            if(!variable76) { _fun00006_ip = 5321; continue _fun00005 }
- 5317:
-            variable76 = result != variable74;
- 5321:
-            entity['shouldShowRoleOnName'] = variable76;
-            entity['showLinkDecorations'] = variable69;
-            if(variable70) { _fun00006_ip = 5355; continue _fun00005 }
- 5334:
-            variable69 = _closure1_slot3;
-            variable69 = variable69.bind(oscard)(variable74);
-            if(!(result == variable69)) { _fun00006_ip = 5353; continue _fun00005 }
- 5347:
-            variable69 = record.defaultUsernameColor;
- 5353:
-            _fun00006_ip = 5361; continue _fun00005;
+ 5319:
+            entity['roleColor'] = variable77;
+            variable77 = 'dot';
+            variable77 = variable77 === kiloes;
+            if(!variable77) { _fun00006_ip = 5339; continue _fun00005 }
+ 5335:
+            variable77 = result != variable75;
+ 5339:
+            entity['shouldShowRoleDot'] = variable77;
+            variable77 = 'username';
+            variable77 = variable77 === kiloes;
+            if(!variable77) { _fun00006_ip = 5359; continue _fun00005 }
  5355:
-            variable69 = record.defaultUsernameColor;
- 5361:
-            entity['colorString'] = variable69;
-            variable69 = undefined;
-            if(variable70) { _fun00006_ip = 5374; continue _fun00005 }
- 5371:
-            variable69 = variable73;
- 5374:
-            entity['roleIcon'] = variable69;
-            variable73 = result != variable75;
-            variable69 = undefined;
-            if(!variable73) { _fun00006_ip = 5419; continue _fun00005 }
- 5388:
-            variable74 = _closure1_slot0;
-            variable76 = _closure1_slot2;
-            variable73 = 62;
-            variable73 = variable76[variable73];
-            variable74 = variable74.bind(oscard)(variable73);
-            variable73 = variable74.createConnectionsRoleTag;
-            variable69 = variable73.bind(variable74)(variable75);
- 5419:
-            entity['connectionsRoleTag'] = variable69;
-            variable69 = undefined;
-            if(variable70) { _fun00006_ip = 5434; continue _fun00005 }
- 5431:
-            variable69 = variable72;
- 5434:
-            entity['timestamp'] = variable69;
-            variable69 = undefined;
-            if(variable70) { _fun00006_ip = 5450; continue _fun00005 }
- 5444:
-            variable69 = record.timestampColor;
- 5450:
-            entity['timestampColor'] = variable69;
-            entity['content'] = variable68;
+            variable77 = result != variable75;
+ 5359:
+            entity['shouldShowRoleOnName'] = variable77;
+            entity['showLinkDecorations'] = variable70;
+            if(variable71) { _fun00006_ip = 5393; continue _fun00005 }
+ 5372:
+            variable70 = _closure1_slot3;
+            variable70 = variable70.bind(oscard)(variable75);
+            if(!(result == variable70)) { _fun00006_ip = 5391; continue _fun00005 }
+ 5385:
+            variable70 = record.defaultUsernameColor;
+ 5391:
+            _fun00006_ip = 5399; continue _fun00005;
+ 5393:
+            variable70 = record.defaultUsernameColor;
+ 5399:
+            entity['colorString'] = variable70;
+            variable70 = undefined;
+            if(variable71) { _fun00006_ip = 5412; continue _fun00005 }
+ 5409:
+            variable70 = variable74;
+ 5412:
+            entity['roleIcon'] = variable70;
+            variable74 = result != variable76;
+            variable70 = undefined;
+            if(!variable74) { _fun00006_ip = 5457; continue _fun00005 }
+ 5426:
+            variable75 = _closure1_slot0;
+            variable77 = _closure1_slot2;
+            variable74 = 63;
+            variable74 = variable77[variable74];
+            variable75 = variable75.bind(oscard)(variable74);
+            variable74 = variable75.createConnectionsRoleTag;
+            variable70 = variable74.bind(variable75)(variable76);
+ 5457:
+            entity['connectionsRoleTag'] = variable70;
+            variable70 = undefined;
+            if(variable71) { _fun00006_ip = 5472; continue _fun00005 }
+ 5469:
+            variable70 = variable73;
+ 5472:
+            entity['timestamp'] = variable70;
+            variable70 = undefined;
+            if(variable71) { _fun00006_ip = 5488; continue _fun00005 }
+ 5482:
+            variable70 = record.timestampColor;
+ 5488:
+            entity['timestampColor'] = variable70;
+            entity['content'] = variable69;
             entity['isEditing'] = foxtra;
             entity['renderContentOnly'] = variable56;
-            variable68 = undefined;
-            if(!(oscard !== variable71)) { _fun00006_ip = 5508; continue _fun00005 }
- 5475:
+            variable69 = undefined;
+            if(!(oscard !== variable72)) { _fun00006_ip = 5546; continue _fun00005 }
+ 5513:
+            variable71 = _closure1_slot0;
+            variable73 = _closure1_slot2;
+            variable70 = 64;
+            variable70 = variable73[variable70];
+            variable71 = variable71.bind(oscard)(variable70);
+            variable70 = variable71.createSurveyIndication;
+            variable69 = variable70.bind(variable71)(michal, update, variable72);
+ 5546:
+            entity['surveyIndication'] = variable69;
             variable70 = _closure1_slot0;
-            variable72 = _closure1_slot2;
-            variable69 = 63;
-            variable69 = variable72[variable69];
+            variable71 = _closure1_slot2;
+            variable69 = 65;
+            variable69 = variable71[variable69];
             variable70 = variable70.bind(oscard)(variable69);
-            variable69 = variable70.createSurveyIndication;
-            variable68 = variable69.bind(variable70)(michal, update, variable71);
- 5508:
-            entity['surveyIndication'] = variable68;
-            variable69 = _closure1_slot0;
-            variable70 = _closure1_slot2;
-            variable68 = 64;
-            variable68 = variable70[variable68];
-            variable69 = variable69.bind(oscard)(variable68);
-            variable68 = variable69.createEphemeralIndication;
-            variable68 = variable68.bind(variable69)(michal);
-            entity['ephemeralIndication'] = variable68;
+            variable69 = variable70.createEphemeralIndication;
+            variable69 = variable69.bind(variable70)(michal);
+            entity['ephemeralIndication'] = variable69;
             entity['interactionStatus'] = variable57;
             variable57 = undefined;
-            if(!variable59) { _fun00006_ip = 5614; continue _fun00005 }
- 5563:
-            variable68 = _closure1_slot0;
-            variable69 = _closure1_slot2;
-            variable59 = 65;
-            variable59 = variable69[variable59];
-            variable69 = variable68.bind(oscard)(variable59);
-            variable68 = variable69.createExecutedCommand;
-            r100 = record.defaultUsernameColor;
-            r105 = variable69;
-            r104 = michal;
-            r103 = ctrled;
-            r102 = kiloes;
-            r101 = update;
-            variable57 = r105[variable68](r104, r103, r102, r101, r100, variable100);
- 5614:
+            if(!variable59) { _fun00006_ip = 5652; continue _fun00005 }
+ 5601:
+            variable69 = _closure1_slot0;
+            variable70 = _closure1_slot2;
+            variable59 = 66;
+            variable59 = variable70[variable59];
+            variable70 = variable69.bind(oscard)(variable59);
+            variable69 = variable70.createExecutedCommand;
+            r101 = record.defaultUsernameColor;
+            r106 = variable70;
+            r105 = michal;
+            r104 = ctrled;
+            r103 = kiloes;
+            r102 = update;
+            variable57 = r106[variable69](r105, r104, r103, r102, r101, r100);
+ 5652:
             entity['executedCommand'] = variable57;
             variable57 = variable45.components;
             variable57 = variable57.length;
             variable59 = variable57 > variable54;
             variable57 = undefined;
-            if(!variable59) { _fun00006_ip = 5720; continue _fun00005 }
- 5641:
+            if(!variable59) { _fun00006_ip = 5763; continue _fun00005 }
+ 5679:
             variable57 = undefined;
-            if(!variable58) { _fun00006_ip = 5720; continue _fun00005 }
- 5646:
+            if(!variable58) { _fun00006_ip = 5763; continue _fun00005 }
+ 5684:
             variable59 = _closure1_slot1;
-            variable68 = _closure1_slot2;
-            variable58 = 66;
-            variable58 = variable68[variable58];
+            variable69 = _closure1_slot2;
+            variable58 = 67;
+            variable58 = variable69[variable58];
             variable59 = variable59.bind(oscard)(variable58);
             variable58 = {};
             variable58['message'] = michal;
-            variable58['guildId'] = variable67;
-            variable58['interaction'] = variable66;
-            variable58['shouldDisableInteractiveComponents'] = variable65;
-            variable58['shouldShowMedia'] = variable64;
-            variable58['shouldObscureSpoiler'] = variable63;
-            variable58['shouldObscureExplicitMedia'] = variable62;
+            variable58['guildId'] = variable68;
+            variable58['interaction'] = variable67;
+            variable58['shouldDisableInteractiveComponents'] = variable66;
+            variable58['shouldShowMedia'] = variable65;
+            variable58['shouldObscureSpoiler'] = variable64;
+            variable58['shouldObscureExplicitMedia'] = variable63;
+            variable58['shouldAgeVerify'] = variable62;
             variable58['shouldShowMosaicMediaDescriptions'] = variable61;
             variable58['shouldAutoPlayGifs'] = variable60;
             variable58['colors'] = record;
             variable57 = variable59.bind(oscard)(variable58);
- 5720:
+ 5763:
             entity['components'] = variable57;
             variable57 = 0;
-            if(variable56) { _fun00006_ip = 5736; continue _fun00005 }
- 5730:
+            if(variable56) { _fun00006_ip = 5779; continue _fun00005 }
+ 5773:
             variable57 = record.feedbackColor;
- 5736:
+ 5779:
             entity['feedbackColor'] = variable57;
             variable54 = 0;
-            if(variable56) { _fun00006_ip = 5752; continue _fun00005 }
- 5746:
+            if(variable56) { _fun00006_ip = 5795; continue _fun00005 }
+ 5789:
             variable54 = record.highlightColor;
- 5752:
+ 5795:
             entity['highlightColor'] = variable54;
             variable56 = result != variable55;
             variable54 = undefined;
-            if(!variable56) { _fun00006_ip = 5769; continue _fun00005 }
- 5766:
+            if(!variable56) { _fun00006_ip = 5812; continue _fun00005 }
+ 5809:
             variable54 = variable55;
- 5769:
+ 5812:
             entity['embeds'] = variable54;
-            if(variable53) { _fun00006_ip = 5783; continue _fun00005 }
- 5777:
+            if(variable53) { _fun00006_ip = 5826; continue _fun00005 }
+ 5820:
             variable53 = new Array(0);
-            _fun00006_ip = 5815; continue _fun00005;
- 5783:
+            _fun00006_ip = 5858; continue _fun00005;
+ 5826:
             variable55 = _closure1_slot0;
             variable56 = _closure1_slot2;
-            variable54 = 67;
+            variable54 = 68;
             variable54 = variable56[variable54];
             variable55 = variable55.bind(oscard)(variable54);
             variable54 = variable55.createGiftCodeEmbed;
             variable53 = variable54.bind(variable55)(michal, update);
- 5815:
+ 5858:
             entity['giftCodes'] = variable53;
-            if(variable50) { _fun00006_ip = 5829; continue _fun00005 }
- 5823:
+            if(variable50) { _fun00006_ip = 5872; continue _fun00005 }
+ 5866:
             variable50 = new Array(0);
-            _fun00006_ip = 5862; continue _fun00005;
- 5829:
+            _fun00006_ip = 5905; continue _fun00005;
+ 5872:
             variable54 = _closure1_slot0;
             variable55 = _closure1_slot2;
-            variable53 = 68;
+            variable53 = 69;
             variable53 = variable55[variable53];
             variable54 = variable54.bind(oscard)(variable53);
             variable53 = variable54.createCodedLinkEmbeds;
             variable50 = variable53.bind(variable54)(michal, variable45, update);
- 5862:
+ 5905:
             entity['codedLinks'] = variable50;
             variable50 = undefined;
-            if(!variable52) { _fun00006_ip = 5904; continue _fun00005 }
- 5872:
+            if(!variable52) { _fun00006_ip = 5947; continue _fun00005 }
+ 5915:
             variable53 = _closure1_slot0;
             variable54 = _closure1_slot2;
-            variable52 = 69;
+            variable52 = 70;
             variable52 = variable54[variable52];
             variable53 = variable53.bind(oscard)(variable52);
             variable52 = variable53.createActivityInstanceEmbed;
             variable50 = variable52.bind(variable53)(michal, update);
- 5904:
+ 5947:
             entity['activityInstanceEmbed'] = variable50;
             variable50 = undefined;
-            if(!variable51) { _fun00006_ip = 5948; continue _fun00005 }
- 5916:
+            if(!variable51) { _fun00006_ip = 5991; continue _fun00005 }
+ 5959:
             variable52 = _closure1_slot0;
             variable53 = _closure1_slot2;
-            variable51 = 70;
+            variable51 = 71;
             variable51 = variable53[variable51];
             variable52 = variable52.bind(oscard)(variable51);
             variable51 = variable52.createActivityInviteEmbed;
             variable50 = variable51.bind(variable52)(michal, update);
- 5948:
+ 5991:
             entity['activityInviteEmbed'] = variable50;
-            if(!variable43) { _fun00006_ip = 5979; continue _fun00005 }
- 5958:
-            if(!variable47) { _fun00006_ip = 5970; continue _fun00005 }
- 5961:
-            if(variable48) { _fun00006_ip = 5967; continue _fun00005 }
- 5964:
+            if(!variable43) { _fun00006_ip = 6022; continue _fun00005 }
+ 6001:
+            if(!variable47) { _fun00006_ip = 6013; continue _fun00005 }
+ 6004:
+            if(variable48) { _fun00006_ip = 6010; continue _fun00005 }
+ 6007:
             variable48 = variable49;
- 5967:
+ 6010:
             variable47 = variable48;
- 5970:
-            if(variable47) { _fun00006_ip = 5976; continue _fun00005 }
- 5973:
+ 6013:
+            if(variable47) { _fun00006_ip = 6019; continue _fun00005 }
+ 6016:
             variable47 = variable42;
- 5976:
+ 6019:
             variable43 = variable47;
- 5979:
+ 6022:
             entity['useAttachmentGridLayout'] = variable43;
             entity['useAttachmentUploadPreview'] = variable42;
             entity['attachments'] = variable41;
             variable47 = 1;
             variable41 = variable47;
-            if(!variable42) { _fun00006_ip = 6035; continue _fun00005 }
- 6003:
+            if(!variable42) { _fun00006_ip = 6078; continue _fun00005 }
+ 6046:
             variable43 = michal.state;
             variable42 = _closure1_slot24;
             variable42 = variable42.SEND_FAILED;
             variable41 = variable47;
-            if(!(variable43 === variable42)) { _fun00006_ip = 6035; continue _fun00005 }
- 6025:
+            if(!(variable43 === variable42)) { _fun00006_ip = 6078; continue _fun00005 }
+ 6068:
             variable41 = 0.2;
- 6035:
+ 6078:
             entity['attachmentsOpacity'] = variable41;
             variable42 = _closure1_slot1;
             variable43 = _closure1_slot2;
-            variable41 = 71;
+            variable41 = 72;
             variable41 = variable43[variable41];
             variable42 = variable42.bind(oscard)(variable41);
             variable41 = {};
@@ -1961,42 +1970,42 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable41['isUserInteracting'] = variable43;
             variable41 = variable42.bind(oscard)(variable41);
             entity['stickers'] = variable41;
-            if(!variable39) { _fun00006_ip = 6130; continue _fun00005 }
- 6127:
+            if(!variable39) { _fun00006_ip = 6173; continue _fun00005 }
+ 6170:
             variable39 = variable40;
- 6130:
+ 6173:
             entity['communicationDisabled'] = variable39;
             entity['threadStarterMessageHeader'] = variable36;
             variable39 = result == ctrled;
-            if(variable39) { _fun00006_ip = 6160; continue _fun00005 }
- 6147:
+            if(variable39) { _fun00006_ip = 6203; continue _fun00005 }
+ 6190:
             variable36 = ctrled.isForumPost;
             variable36 = variable36.bind(ctrled)();
             variable39 = !variable36;
- 6160:
+ 6203:
             variable36 = !variable39;
-            if(variable39) { _fun00006_ip = 6180; continue _fun00005 }
- 6166:
+            if(variable39) { _fun00006_ip = 6223; continue _fun00005 }
+ 6209:
             variable40 = michal.id;
             variable39 = michal.channel_id;
             variable36 = variable40 === variable39;
- 6180:
+ 6223:
             entity['isFirstForumPostMessage'] = variable36;
             variable39 = result != ctrled;
             variable36 = undefined;
-            if(!variable39) { _fun00006_ip = 6224; continue _fun00005 }
- 6194:
+            if(!variable39) { _fun00006_ip = 6267; continue _fun00005 }
+ 6237:
             variable39 = ctrled.isForumPost;
             variable39 = variable39.bind(ctrled)();
             variable36 = undefined;
-            if(!variable39) { _fun00006_ip = 6224; continue _fun00005 }
- 6209:
+            if(!variable39) { _fun00006_ip = 6267; continue _fun00005 }
+ 6252:
             variable36 = undefined;
-            if(!variable38) { _fun00006_ip = 6224; continue _fun00005 }
- 6214:
+            if(!variable38) { _fun00006_ip = 6267; continue _fun00005 }
+ 6257:
             variable38 = _closure1_slot32;
             variable36 = variable38.bind(oscard)(michal, ctrled);
- 6224:
+ 6267:
             entity['postActions'] = variable36;
             variable36 = michal.author;
             variable36 = variable36.id;
@@ -2013,7 +2022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable42 = variable37.bind(oscard)(variable38);
             variable41 = variable42.getAssetUriForEmbed;
             variable39 = _closure1_slot1;
-            variable38 = 72;
+            variable38 = 73;
             variable38 = variable40[variable38];
             variable38 = variable39.bind(oscard)(variable38);
             variable38 = variable41.bind(variable42)(variable38);
@@ -2021,7 +2030,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable36 = variable40[variable36];
             variable38 = variable37.bind(oscard)(variable36);
             variable37 = variable38.getAssetUriForEmbed;
-            variable36 = 73;
+            variable36 = 74;
             variable36 = variable40[variable36];
             variable36 = variable39.bind(oscard)(variable36);
             variable36 = variable37.bind(variable38)(variable36);
@@ -2034,19 +2043,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['remixButtonBackgroundColor'] = quebec;
             entity['referralTrialOffer'] = whisks;
             entity['referralTrialOfferInfo'] = limora;
-            if(cntext) { _fun00006_ip = 6418; continue _fun00005 }
- 6412:
+            if(cntext) { _fun00006_ip = 6461; continue _fun00005 }
+ 6455:
             cntext = new Array(0);
-            _fun00006_ip = 6450; continue _fun00005;
- 6418:
+            _fun00006_ip = 6493; continue _fun00005;
+ 6461:
             whisks = _closure1_slot0;
             quebec = _closure1_slot2;
-            limora = 74;
+            limora = 75;
             limora = quebec[limora];
             whisks = whisks.bind(oscard)(limora);
             limora = whisks.createPostPreviewEmbeds;
             cntext = limora.bind(whisks)(michal, equals);
- 6450:
+ 6493:
             entity['postPreviewEmbeds'] = cntext;
             limora = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -2061,20 +2070,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             equals = equals.2aXnfX;
             equals = quebec.bind(variable36)(equals);
             entity['obscureLearnMoreLabel'] = equals;
-            equals = 75;
+            equals = 76;
             equals = whisks[equals];
             quebec = limora.bind(oscard)(equals);
             equals = quebec.createSafetyPolicyNoticeEmbed;
             equals = equals.bind(quebec)(michal);
             entity['safetyPolicyNoticeEmbed'] = equals;
             entity['pollData'] = source;
-            source = 76;
+            source = 77;
             source = whisks[source];
             equals = limora.bind(oscard)(source);
             source = equals.createSafetySystemNotificationEmbed;
             source = source.bind(equals)(michal);
             entity['safetySystemNotificationEmbed'] = source;
-            source = 77;
+            source = 78;
             source = whisks[source];
             whisks = limora.bind(oscard)(source);
             limora = whisks.createCtaButton;
@@ -2082,14 +2091,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = limora.bind(whisks)(source, record);
             entity['ctaButton'] = source;
             source = undefined;
-            if(!sierra) { _fun00006_ip = 6629; continue _fun00005 }
- 6623:
+            if(!sierra) { _fun00006_ip = 6672; continue _fun00005 }
+ 6666:
             source = record.embedBackgroundColor;
- 6629:
+ 6672:
             entity['audioAttachmentBackgroundColor'] = source;
             record = _closure1_slot0;
             source = _closure1_slot2;
-            sierra = 78;
+            sierra = 79;
             sierra = source[sierra];
             limora = record.bind(oscard)(sierra);
             sierra = limora.createMessageAccessibilityActions;
@@ -2132,80 +2141,80 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = vacuum.bind(config)(source);
             entity['threadAccessibilityLabel'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6895; continue _fun00005 }
- 6862:
+            if(!tangon) { _fun00006_ip = 6938; continue _fun00005 }
+ 6905:
             config = _closure1_slot0;
             record = _closure1_slot2;
-            vacuum = 79;
+            vacuum = 80;
             vacuum = record[vacuum];
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowForwardShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6895:
+ 6938:
             entity['showForwardShortcut'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6941; continue _fun00005 }
- 6908:
+            if(!tangon) { _fun00006_ip = 6984; continue _fun00005 }
+ 6951:
             config = _closure1_slot0;
             record = _closure1_slot2;
-            vacuum = 79;
+            vacuum = 80;
             vacuum = record[vacuum];
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowReplyShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6941:
+ 6984:
             entity['showReplyShortcut'] = source;
-            if(report) { _fun00006_ip = 6954; continue _fun00005 }
- 6951:
+            if(report) { _fun00006_ip = 6997; continue _fun00005 }
+ 6994:
             report = tangon;
- 6954:
-            if(!report) { _fun00006_ip = 6990; continue _fun00005 }
- 6957:
+ 6997:
+            if(!report) { _fun00006_ip = 7033; continue _fun00005 }
+ 7000:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
-            source = 79;
+            source = 80;
             source = config[source];
             vacuum = vacuum.bind(oscard)(source);
             source = vacuum.canShowReactionShortcut;
             report = source.bind(vacuum)(michal, sequen, ctrled);
- 6990:
+ 7033:
             entity['showReactionShortcut'] = report;
-            if(!tangon) { _fun00006_ip = 7032; continue _fun00005 }
- 7000:
+            if(!tangon) { _fun00006_ip = 7075; continue _fun00005 }
+ 7043:
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
-            report = 79;
+            report = 80;
             report = vacuum[report];
             source = source.bind(oscard)(report);
             report = source.canShowThreadShortcut;
             tangon = report.bind(source)(michal, ctrled);
- 7032:
+ 7075:
             entity['showThreadShortcut'] = tangon;
             tangon = result == ctrled;
             report = undefined;
-            if(tangon) { _fun00006_ip = 7053; continue _fun00005 }
- 7048:
+            if(tangon) { _fun00006_ip = 7096; continue _fun00005 }
+ 7091:
             report = ctrled.type;
- 7053:
+ 7096:
             tangon = _closure1_slot27;
             tangon = tangon.GUILD_ANNOUNCEMENT;
             tangon = report === tangon;
             entity['isAnnouncementChannel'] = tangon;
             report = _closure1_slot0;
             source = _closure1_slot2;
-            tangon = 79;
+            tangon = 80;
             tangon = source[tangon];
             report = report.bind(oscard)(tangon);
             tangon = report.isInMessageShortcutsExperiment;
             tangon = tangon.bind(report)();
             entity['shortcutsEnabled'] = tangon;
             return entity;
- 7111:
+ 7154:
             tangon = michal.type;
             entity = _closure1_slot23;
             entity = entity.THREAD_CREATED;
-            if(!(tangon !== entity)) { _fun00006_ip = 7208; continue _fun00005 }
- 7130:
+            if(!(tangon !== entity)) { _fun00006_ip = 7251; continue _fun00005 }
+ 7173:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
             entity = 36;
@@ -2219,24 +2228,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['roleStyle'] = kiloes;
             source = result == ctrled;
             result = undefined;
-            if(source) { _fun00006_ip = 7196; continue _fun00005 }
- 7186:
+            if(source) { _fun00006_ip = 7239; continue _fun00005 }
+ 7229:
             source = ctrled.isForumPost;
             result = source.bind(ctrled)();
- 7196:
+ 7239:
             entity['isForumPost'] = result;
             entity = tangon.bind(report)(entity);
-            _fun00006_ip = 7302; continue _fun00005;
- 7208:
+            _fun00006_ip = 7345; continue _fun00005;
+ 7251:
             tangon = {};
             report = _closure1_slot31;
-            r105 = undefined;
-            r104 = michal;
-            r103 = kiloes;
-            r102 = golfie;
-            r101 = output;
-            r100 = option;
-            report = r105[report](r104, r103, r102, r101, r100, variable100);
+            r106 = undefined;
+            r105 = michal;
+            r104 = kiloes;
+            r103 = golfie;
+            r102 = output;
+            r101 = option;
+            report = r106[report](r105, r104, r103, r102, r101, r100);
             tangon['threadEmbed'] = report;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -2249,17 +2258,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['theme'] = update;
             report['reactions'] = echoed;
             report['roleStyle'] = kiloes;
-            r103 = output.bind(result)(report);
-            r104 = tangon;
-            report = copyDataProperties(r104, r103);
+            r104 = output.bind(result)(report);
+            r105 = tangon;
+            report = copyDataProperties(r105, r104);
             entity = tangon;
- 7302:
+ 7345:
             return entity;
- 7304:
+ 7347:
             entity = michal.activityInstance;
             tangon = undefined;
-            if(!(tangon === entity)) { _fun00006_ip = 7371; continue _fun00005 }
- 7316:
+            if(!(tangon === entity)) { _fun00006_ip = 7414; continue _fun00005 }
+ 7359:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
             entity = 24;
@@ -2272,7 +2281,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = entity.t;
             entity = entity.uBid4u;
             tangon = report.bind(output)(entity);
- 7371:
+ 7414:
             entity = {};
             report = _closure1_slot33;
             zuuluu = {};
@@ -2284,9 +2293,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu['isSystemDM'] = yankee;
             zuuluu['isInlineReplyPreview'] = golfie;
             golfie = {};
-            r104 = golfie;
-            r103 = option;
-            option = copyDataProperties(r104, r103);
+            r105 = golfie;
+            r104 = option;
+            option = copyDataProperties(r105, r104);
             option = 'renderThreadEmbeds';
             golfie[option] = offset;
             option = 'renderReactions';
@@ -2296,9 +2305,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = 'shouldDisableInteractiveComponents';
             golfie[option] = verify;
             zuuluu['options'] = golfie;
-            r103 = report.bind(oscard)(zuuluu);
-            r104 = entity;
-            zuuluu = copyDataProperties(r104, r103);
+            r104 = report.bind(oscard)(zuuluu);
+            r105 = entity;
+            zuuluu = copyDataProperties(r105, r104);
             zuuluu = 'threadStarterMessageHeader';
             entity[zuuluu] = tangon;
             zuuluu = michal.id;
@@ -2496,7 +2505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     var _closure1_slot30 = tangon;
-    tangon = 80;
+    tangon = 81;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

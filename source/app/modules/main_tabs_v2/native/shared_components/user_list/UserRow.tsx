@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['textStyle'] = verify;
             entity['animate'] = oscard;
             entity = report.bind(golfie)(zuuluu, entity);
-            _fun00008_ip = 552; continue _fun00007;
+            _fun00008_ip = 551; continue _fun00007;
  222:
             if(michal) { _fun00008_ip = 306; continue _fun00007 }
  225:
@@ -267,10 +267,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(verify)(offset);
             michal['children'] = oscard;
             michal = report.bind(golfie)(zuuluu, michal);
-            _fun00008_ip = 549; continue _fun00007;
+            _fun00008_ip = 548; continue _fun00007;
  306:
             backup = null;
-            if(!(backup != foxtra)) { _fun00008_ip = 520; continue _fun00007 }
+            if(!(backup != foxtra)) { _fun00008_ip = 519; continue _fun00007 }
  315:
             oscard = _closure1_slot15;
             report = _closure1_slot4;
@@ -320,19 +320,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             zuuluu['children'] = verify;
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            _fun00008_ip = 546; continue _fun00007;
- 520:
+            _fun00008_ip = 545; continue _fun00007;
+ 519:
             oscard = _closure1_slot14;
             report = _closure1_slot4;
             tangon = {};
             option = option.gameIcon;
             tangon['style'] = option;
             zuuluu = oscard.bind(golfie)(report, tangon);
- 546:
+ 545:
             michal = zuuluu;
- 549:
+ 548:
             entity = michal;
- 552:
+ 551:
             return entity;
         }
     };

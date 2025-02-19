@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(tangon)(verify, report);
             report = new Array(2);
             report[0] = verify;
-            if(!option) { _fun00002_ip = 1352; continue _fun00001 }
+            if(!option) { _fun00002_ip = 1356; continue _fun00001 }
  553:
             verify = _closure1_slot6;
             sequen = _closure1_slot0;
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[3] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1352:
+ 1356:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

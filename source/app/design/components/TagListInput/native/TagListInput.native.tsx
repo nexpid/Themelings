@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/shared_components/tag_list_input/TagListInput.tsx
+// app/design/components/TagListInput/native/TagListInput.native.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     romeon = argBaz;
@@ -967,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/tag_list_input/TagListInput.tsx';
+    tangon = 'design/components/TagListInput/native/TagListInput.native.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report['onLongPress'] = offset;
             offset = option != kiloes;
-            if(!offset) { _fun00004_ip = 711; continue _fun00003 }
+            if(!offset) { _fun00004_ip = 710; continue _fun00003 }
  649:
             romeon = _closure1_slot16;
             yankee = _closure1_slot1;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['uri'] = kiloes;
             option['source'] = foxtra;
             offset = romeon.bind(tangon)(yankee, option);
- 711:
+ 710:
             option = new Array(3);
             option[0] = offset;
             romeon = _closure1_slot17;
@@ -406,30 +406,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             result = vacuum.detailsRow;
             kiloes['style'] = result;
-            if(!source) { _fun00004_ip = 839; continue _fun00003 }
- 823:
+            if(!source) { _fun00004_ip = 838; continue _fun00003 }
+ 822:
             config = _closure1_slot16;
             sequen = _closure1_slot20;
             result = {};
             source = config.bind(tangon)(sequen, result);
- 839:
+ 838:
             result = new Array(4);
             result[0] = source;
-            if(!update) { _fun00004_ip = 866; continue _fun00003 }
- 850:
+            if(!update) { _fun00004_ip = 865; continue _fun00003 }
+ 849:
             config = _closure1_slot16;
             sequen = _closure1_slot21;
             source = {};
             update = config.bind(tangon)(sequen, source);
- 866:
+ 865:
             result[1] = update;
-            if(!backup) { _fun00004_ip = 889; continue _fun00003 }
- 873:
+            if(!backup) { _fun00004_ip = 888; continue _fun00003 }
+ 872:
             sequen = _closure1_slot16;
             source = _closure1_slot22;
             update = {};
             backup = sequen.bind(tangon)(source, update);
- 889:
+ 888:
             result[2] = backup;
             source = _closure1_slot16;
             update = _closure1_slot0;

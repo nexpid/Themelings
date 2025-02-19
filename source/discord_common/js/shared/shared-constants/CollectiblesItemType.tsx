@@ -34,6 +34,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VARIANTS_GROUP'] = report;
     entity = 'VARIANTS_GROUP';
     michal[report] = entity;
+    report = 3000;
+    michal['EXTERNAL_SKU'] = report;
+    entity = 'EXTERNAL_SKU';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

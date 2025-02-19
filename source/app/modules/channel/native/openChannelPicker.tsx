@@ -63,10 +63,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = offset.getChannels;
             report = report.bind(offset)(romeon);
             offset = report[oscard];
-            if(!(tangon == offset)) { _fun00002_ip = 128; continue _fun00001 }
- 124:
+            if(!(tangon == offset)) { _fun00002_ip = 124; continue _fun00001 }
+ 120:
             offset = new Array(0);
- 128:
+ 124:
             report = _closure1_slot1;
             result = _closure1_slot2;
             tangon = 2;
