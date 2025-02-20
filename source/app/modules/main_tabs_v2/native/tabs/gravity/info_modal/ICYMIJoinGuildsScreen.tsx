@@ -608,8 +608,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['accessibilityState'] = source;
             foxtra['disabled'] = sizing;
             source = undefined;
-            if(!output) { _fun00014_ip = 507; continue _fun00013 }
- 430:
+            if(!output) { _fun00014_ip = 511; continue _fun00013 }
+ 434:
             sequen = _closure1_slot12;
             vacuum = _closure1_slot0;
             cntext = _closure1_slot2;
@@ -628,12 +628,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = config.REDESIGN_BUTTON_ACTIVE_TEXT;
             ctrled['color'] = config;
             source = sequen.bind(tangon)(vacuum, ctrled);
- 507:
+ 511:
             foxtra['icon'] = source;
-            if(!sizing) { _fun00014_ip = 574; continue _fun00013 }
- 514:
-            if(echoed) { _fun00014_ip = 574; continue _fun00013 }
- 517:
+            if(!sizing) { _fun00014_ip = 578; continue _fun00013 }
+ 518:
+            if(echoed) { _fun00014_ip = 578; continue _fun00013 }
+ 521:
             vacuum = _closure1_slot0;
             sequen = _closure1_slot2;
             echoed = 25;
@@ -646,8 +646,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.t;
             echoed = echoed.cEnaW1;
             echoed = source.bind(ctrled)(echoed);
-            _fun00014_ip = 650; continue _fun00013;
- 574:
+            _fun00014_ip = 654; continue _fun00013;
+ 578:
             source = _closure1_slot0;
             sequen = _closure1_slot2;
             update = 25;
@@ -658,28 +658,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = sequen[update];
             update = source.bind(tangon)(update);
             source = update.t;
-            if(output) { _fun00014_ip = 634; continue _fun00013 }
- 621:
+            if(output) { _fun00014_ip = 638; continue _fun00013 }
+ 625:
             update = source.XqMe3N;
             update = ctrled.bind(vacuum)(update);
-            _fun00014_ip = 647; continue _fun00013;
- 634:
+            _fun00014_ip = 651; continue _fun00013;
+ 638:
             source = source.TwueCw;
             update = ctrled.bind(vacuum)(source);
- 647:
+ 651:
             echoed = update;
- 650:
+ 654:
             foxtra['text'] = echoed;
             echoed = 'sm';
             foxtra['size'] = echoed;
             foxtra['onPress'] = result;
-            if(sizing) { _fun00014_ip = 676; continue _fun00013 }
- 669:
+            if(sizing) { _fun00014_ip = 680; continue _fun00013 }
+ 673:
             sizing = 'active';
-            if(output) { _fun00014_ip = 680; continue _fun00013 }
- 676:
-            sizing = 'secondary';
+            if(output) { _fun00014_ip = 684; continue _fun00013 }
  680:
+            sizing = 'secondary';
+ 684:
             foxtra['variant'] = sizing;
             sizing = true;
             foxtra['grow'] = sizing;

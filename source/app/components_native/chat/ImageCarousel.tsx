@@ -1114,10 +1114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {'style': null, 'horizontal': true, 'keyboardShouldPersistTaps': 'always', 'showsHorizontalScrollIndicator': false, 'accessibilityRole': 'list'};
             foxtra = {};
             kiloes = 0;
-            if(!output) { _fun00016_ip = 428; continue _fun00015 }
- 425:
+            if(!output) { _fun00016_ip = 424; continue _fun00015 }
+ 421:
             kiloes = sizing;
- 428:
+ 424:
             foxtra['marginBottom'] = kiloes;
             oscard['style'] = foxtra;
             sizing = _closure1_slot0;
@@ -1137,8 +1137,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = romeon;
             romeon = offset != backup;
             offset = null;
-            if(!romeon) { _fun00016_ip = 549; continue _fun00015 }
- 514:
+            if(!romeon) { _fun00016_ip = 545; continue _fun00015 }
+ 510:
             romeon = global;
             foxtra = romeon.Object;
             romeon = foxtra.values;
@@ -1205,7 +1205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             offset = romeon.bind(foxtra)(yankee);
- 549:
+ 545:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

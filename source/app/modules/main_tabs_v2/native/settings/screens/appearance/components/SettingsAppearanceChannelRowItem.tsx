@@ -142,10 +142,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = romeon.bind(foxtra)(yankee);
         romeon = null;
         romeon = romeon != yankee;
-        if(!romeon) { _fun00002_ip = 677; continue _fun00001 }
- 674:
+        if(!romeon) { _fun00002_ip = 681; continue _fun00001 }
+ 678:
         offset = yankee;
- 677:
+ 681:
         option = offset / option;
         option = option + verify;
         tangon['radius'] = option;

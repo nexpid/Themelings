@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  59:
                     tangon = _closure3_slot1;
                     tangon = tangon.height;
-                    if(!(tangon !== zuuluu)) { _fun00004_ip = 177; continue _fun00003 }
+                    if(!(tangon !== zuuluu)) { _fun00004_ip = 175; continue _fun00003 }
  72:
                     tangon = global;
                     oscard = tangon.document;
@@ -241,12 +241,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = 'image/png';
                     zuuluu = report.bind(oscard)(zuuluu);
                     zuuluu = tangon.bind(entity)(zuuluu);
-                    _fun00004_ip = 193; continue _fun00003;
- 177:
+                    _fun00004_ip = 191; continue _fun00003;
+ 175:
                     zuuluu = _closure3_slot0;
                     michal = _closure2_slot0;
                     michal = zuuluu.bind(entity)(michal);
- 193:
+ 191:
                     return entity;
                 }
             };

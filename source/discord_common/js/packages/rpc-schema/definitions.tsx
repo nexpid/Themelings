@@ -435,12 +435,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     };
     option['response'] = offset;
     michal[verify] = option;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCommand;
-    option = tangon.INVITE_USER_EMBEDDED;
-    tangon = {};
-    verify = function(argFoo) { // Original name: request
+    option = oscard[tangon];
+    option = report.bind(entity)(option);
+    option = option.RPCCommand;
+    verify = option.INVITE_USER_EMBEDDED;
+    option = {};
+    offset = function(argFoo) { // Original name: request
         zuuluu = argFoo;
         michal = zuuluu.object;
         entity = {};
@@ -463,8 +463,49 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.bind(michal)();
         return entity;
     };
+    option['request'] = offset;
+    option['response'] = entity;
+    michal[verify] = option;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.RPCCommand;
+    option = tangon.GET_USER;
+    tangon = {};
+    verify = function(argFoo) { // Original name: request
+        report = argFoo;
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.joiReqObj;
+        tangon = report.object;
+        entity = {};
+        oscard = report.string;
+        option = oscard.bind(report)();
+        golfie = option.max;
+        oscard = 64;
+        golfie = golfie.bind(option)(oscard);
+        oscard = golfie.required;
+        oscard = oscard.bind(golfie)();
+        entity['id'] = oscard;
+        entity = tangon.bind(report)(entity);
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
     tangon['request'] = verify;
-    tangon['response'] = entity;
+    verify = function(argFoo) { // Original name: response
+        zuuluu = _closure1_slot3;
+        michal = undefined;
+        entity = argFoo;
+        zuuluu = zuuluu.bind(michal)(entity);
+        michal = zuuluu.allow;
+        entity = null;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    tangon['response'] = verify;
     michal[option] = tangon;
     tangon = function(argFoo) { // Original name: Activity
         zuuluu = argFoo;

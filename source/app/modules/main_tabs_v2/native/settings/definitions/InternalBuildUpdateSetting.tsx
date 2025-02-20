@@ -31,74 +31,11 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     michal = michal.jsx;
     var _closure1_slot5 = michal;
-    michal = {};
+    michal = {'type': null, 'title': 'Internal Build Update', 'parent': null};
     option = option.PRESSABLE;
     michal['type'] = option;
-    option = function() { // Original name: useInternalBuildUpdateTitle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            report = _closure1_slot0;
-            golfie = _closure1_slot3;
-            zuuluu = 4;
-            oscard = golfie[zuuluu];
-            tangon = undefined;
-            offset = report.bind(tangon)(oscard);
-            verify = offset.useStateFromStores;
-            oscard = _closure1_slot4;
-            option = new Array(1);
-            option[0] = oscard;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                    michal = _closure1_slot4;
-                    entity = michal.latestFetchedBuild;
-                    entity = entity.bind(michal)();
-                    michal = entity.newBuild;
-                    entity = null;
-                    zuuluu = entity == michal;
-                    entity = undefined;
-                    if(zuuluu) { _fun00004_ip = 40; continue _fun00003 }
- 34:
-                    entity = michal.build;
- 40:
-                    return entity;
-                }
-            };
-            entity = verify.bind(offset)(option, entity);
-            zuuluu = golfie[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            tangon = report.useStateFromStores;
-            zuuluu = new Array(1);
-            zuuluu[0] = oscard;
-            michal = function() {
-                michal = _closure1_slot4;
-                entity = michal.latestFetchedBuild;
-                entity = entity.bind(michal)();
-                entity = entity.lastCheck;
-                return entity;
-            };
-            zuuluu = tangon.bind(report)(zuuluu, michal);
-            michal = null;
-            tangon = michal != entity;
-            entity = 'Internal Build Update Ready';
-            if(tangon) { _fun00002_ip = 129; continue _fun00001 }
- 107:
-            zuuluu = michal != zuuluu;
-            michal = 'Internal Build Refresh Error';
-            if(!zuuluu) { _fun00002_ip = 126; continue _fun00001 }
- 120:
-            michal = 'Internal Build Up To Date';
- 126:
-            entity = michal;
- 129:
-            return entity;
-        }
-    };
-    michal['title'] = option;
-    option = null;
-    michal['parent'] = option;
     option = function() { // Original name: InstallNativeUpdateIcon
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot3;
@@ -123,13 +60,13 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             report = _closure1_slot0;
             oscard = _closure1_slot3;
-            if(entity) { _fun00006_ip = 92; continue _fun00005 }
+            if(entity) { _fun00002_ip = 92; continue _fun00001 }
  72:
             entity = 8;
             entity = oscard[entity];
             entity = report.bind(tangon)(entity);
             michal = entity.RefreshIcon;
-            _fun00006_ip = 110; continue _fun00005;
+            _fun00002_ip = 110; continue _fun00001;
  92:
             entity = 7;
             entity = oscard[entity];
@@ -143,7 +80,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     };
     michal['IconComponent'] = option;
     option = function() { // Original name: useInternalBuildUpdateDescription
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscard = _closure1_slot0;
             golfie = _closure1_slot3;
@@ -156,7 +93,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             verify = new Array(1);
             verify[0] = option;
             report = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure1_slot4;
                     entity = michal.latestFetchedBuild;
@@ -165,7 +102,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00010_ip = 40; continue _fun00009 }
+                    if(zuuluu) { _fun00006_ip = 40; continue _fun00005 }
  34:
                     entity = michal.build;
  40:
@@ -187,11 +124,11 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             };
             zuuluu = oscard.bind(golfie)(zuuluu, entity);
             entity = null;
-            if(!(entity == report)) { _fun00008_ip = 172; continue _fun00007 }
+            if(!(entity == report)) { _fun00004_ip = 172; continue _fun00003 }
  98:
             oscard = entity != zuuluu;
             entity = 'Never refreshed';
-            if(!oscard) { _fun00008_ip = 170; continue _fun00007 }
+            if(!oscard) { _fun00004_ip = 170; continue _fun00003 }
  111:
             oscard = _closure1_slot1;
             golfie = _closure1_slot3;
@@ -207,7 +144,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal = 'Last refreshed ';
             entity = zuuluu.bind(michal)(tangon);
  170:
-            _fun00008_ip = 203; continue _fun00007;
+            _fun00004_ip = 203; continue _fun00003;
  172:
             michal = global;
             michal = michal.HermesInternal;
@@ -221,7 +158,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     };
     michal['useDescription'] = option;
     option = function() { // Original name: useHasInternalBuildUpdateSetting
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -233,7 +170,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal = michal.bind(zuuluu)();
             entity = _closure1_slot4;
             entity = entity.hasUpdatesConfigured;
-            if(!entity) { _fun00012_ip = 51; continue _fun00011 }
+            if(!entity) { _fun00008_ip = 51; continue _fun00007 }
  48:
             entity = michal;
  51:
@@ -242,19 +179,19 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     };
     michal['usePredicate'] = option;
     golfie = function() { // Original name: handleInstallNativeUpdateSettingPress
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zuuluu = _closure1_slot4;
             michal = zuuluu.latestFetchedBuild;
             michal = michal.bind(zuuluu)();
             zuuluu = michal.newBuild;
             michal = null;
-            if(!(michal === zuuluu)) { _fun00014_ip = 45; continue _fun00013 }
+            if(!(michal === zuuluu)) { _fun00010_ip = 45; continue _fun00009 }
  29:
             tangon = _closure1_slot4;
             michal = tangon.checkForNewerBuild;
             michal = michal.bind(tangon)();
-            _fun00014_ip = 78; continue _fun00013;
+            _fun00010_ip = 78; continue _fun00009;
  45:
             tangon = _closure1_slot2;
             michal = _closure1_slot3;

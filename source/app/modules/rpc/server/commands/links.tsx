@@ -7,14 +7,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = tangon;
     var _closure1_slot2 = oscard;
-    golfie = global;
-    verify = golfie.Object;
-    option = verify.defineProperty;
+    offset = global;
+    option = offset.Object;
+    golfie = option.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
     michal = oscard[entity];
     entity = undefined;
@@ -38,58 +38,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = michal.PopoutWindowKeys;
     var _closure1_slot6 = tangon;
     tangon = michal.RPCCommands;
-    option = michal.RPCErrors;
-    var _closure1_slot7 = option;
+    golfie = michal.RPCErrors;
+    var _closure1_slot7 = golfie;
     michal = michal.UserSettingsSections;
     var _closure1_slot8 = michal;
     michal = 4;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    output = michal.AM_HARMONY_PRD_APPLICATION_ID;
-    verify = michal.AM_HARMONY_STG_APPLICATION_ID;
+    sizing = michal.AM_HARMONY_PRD_APPLICATION_ID;
+    option = michal.AM_HARMONY_STG_APPLICATION_ID;
     michal = 5;
     michal = oscard[michal];
-    option = report.bind(entity)(michal);
-    offset = option.DISCORD_WAGONS_APPLICATION_ID;
-    michal = option.DISCORD_WAGONS_DEV_APPLICATION_ID;
-    romeon = option.DISCORD_WAGONS_QA_APPLICATION_ID;
-    sizing = golfie.Set;
-    option = new Array(2);
-    option[0] = output;
-    option[1] = verify;
-    verify = sizing.prototype;
-    verify = Object.create(verify, {constructor: {value: sizing}});
-    source = verify;
-    update = option;
-    option = new source[sizing](update, echoed);
-    option = option instanceof Object ? option : verify;
-    var _closure1_slot9 = option;
-    sizing = golfie.Set;
-    option = sizing.prototype;
-    verify = Object.create(option, {constructor: {value: sizing}});
-    update = ['www.nytimes.com', 'apps.apple.com', 'play.google.com'];
-    source = verify;
-    option = new source[sizing](update, echoed);
-    verify = option instanceof Object ? option : verify;
-    option = golfie.Map;
+    golfie = report.bind(entity)(michal);
+    verify = golfie.DISCORD_WAGONS_APPLICATION_ID;
+    michal = golfie.DISCORD_WAGONS_DEV_APPLICATION_ID;
+    output = golfie.DISCORD_WAGONS_QA_APPLICATION_ID;
+    romeon = offset.Set;
+    golfie = new Array(2);
+    golfie[0] = sizing;
+    golfie[1] = option;
+    option = romeon.prototype;
+    option = Object.create(option, {constructor: {value: romeon}});
+    vacuum = option;
+    ctrled = golfie;
+    golfie = new vacuum[romeon](ctrled, source);
+    golfie = golfie instanceof Object ? golfie : option;
+    var _closure1_slot9 = golfie;
+    romeon = offset.Set;
+    golfie = romeon.prototype;
+    option = Object.create(golfie, {constructor: {value: romeon}});
+    ctrled = ['www.nytimes.com', 'apps.apple.com', 'play.google.com'];
+    vacuum = option;
+    golfie = new vacuum[romeon](ctrled, source);
+    romeon = golfie instanceof Object ? golfie : option;
+    option = offset.Map;
     golfie = new Array(2);
     golfie[0] = michal;
-    golfie[1] = verify;
+    michal = {};
+    michal['trustedHosts'] = romeon;
+    result = offset.Date;
+    sizing = result.prototype;
+    echoed = Object.create(sizing, {constructor: {value: result}});
+    sizing = '2027-01-15T00:00:00';
+    vacuum = echoed;
+    ctrled = sizing;
+    result = new vacuum[result](ctrled, source);
+    echoed = result instanceof Object ? result : echoed;
+    result = echoed.valueOf;
+    result = result.bind(echoed)();
+    michal['trustedUntilEpochMs'] = result;
+    golfie[1] = michal;
     michal = new Array(3);
     michal[0] = golfie;
     golfie = new Array(2);
-    golfie[0] = romeon;
-    golfie[1] = verify;
+    golfie[0] = output;
+    output = {};
+    output['trustedHosts'] = romeon;
+    result = offset.Date;
+    echoed = result.prototype;
+    echoed = Object.create(echoed, {constructor: {value: result}});
+    vacuum = echoed;
+    result = new vacuum[result](ctrled, source);
+    echoed = result instanceof Object ? result : echoed;
+    result = echoed.valueOf;
+    result = result.bind(echoed)();
+    output['trustedUntilEpochMs'] = result;
+    golfie[1] = output;
     michal[1] = golfie;
     golfie = new Array(2);
-    golfie[0] = offset;
+    golfie[0] = verify;
+    verify = {};
+    verify['trustedHosts'] = romeon;
+    offset = offset.Date;
+    romeon = offset.prototype;
+    romeon = Object.create(romeon, {constructor: {value: offset}});
+    vacuum = romeon;
+    offset = new vacuum[offset](ctrled, source);
+    romeon = offset instanceof Object ? offset : romeon;
+    offset = romeon.valueOf;
+    offset = offset.bind(romeon)();
+    verify['trustedUntilEpochMs'] = offset;
     golfie[1] = verify;
     michal[2] = golfie;
     golfie = option.prototype;
     golfie = Object.create(golfie, {constructor: {value: option}});
-    source = golfie;
-    update = michal;
-    michal = new source[option](update, echoed);
+    vacuum = golfie;
+    ctrled = michal;
+    michal = new vacuum[option](ctrled, source);
     michal = michal instanceof Object ? michal : golfie;
     var _closure1_slot10 = michal;
     michal = {};
@@ -136,70 +171,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = undefined;
             var _closure2_slot0 = report;
             backup = undefined;
-            yankee = undefined;
+            offset = undefined;
             var _closure2_slot1 = report;
             var _closure2_slot2 = report;
             option = undefined;
-            offset = _closure1_slot0;
+            yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             verify = 7;
             verify = romeon[verify];
-            offset = offset.bind(report)(verify);
-            verify = offset.validatePostMessageTransport;
+            yankee = yankee.bind(report)(verify);
+            verify = yankee.validatePostMessageTransport;
             tangon = tangon.transport;
-            tangon = verify.bind(offset)(tangon);
+            tangon = verify.bind(yankee)(tangon);
  86: // try_start_0
             tangon = global;
             romeon = tangon.URL;
             output = entity;
-            offset = romeon.prototype;
-            offset = Object.create(offset, {constructor: {value: romeon}});
-            result = offset;
+            yankee = romeon.prototype;
+            yankee = Object.create(yankee, {constructor: {value: romeon}});
+            result = yankee;
             verify = new result[romeon](output, sizing);
-            offset = verify instanceof Object ? verify : offset;
-            golfie = offset;
-            verify = offset.toString;
-            verify = verify.bind(offset)();
+            yankee = verify instanceof Object ? verify : yankee;
+            golfie = yankee;
+            verify = yankee.toString;
+            verify = verify.bind(yankee)();
             oscard = verify;
             _closure2_slot0 = verify;
-            offset = _closure1_slot0;
+            yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             verify = 8;
             verify = romeon[verify];
-            verify = offset.bind(report)(verify);
+            verify = yankee.bind(report)(verify);
             verify = verify.isPlatformEmbedded;
             if(!verify) { _fun00002_ip = 244; continue _fun00001 }
  165:
-            offset = _closure1_slot0;
+            yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             verify = 9;
             verify = romeon[verify];
-            offset = offset.bind(report)(verify);
-            verify = offset.shouldOpenActivityInPopoutWindow;
-            verify = verify.bind(offset)();
+            yankee = yankee.bind(report)(verify);
+            verify = yankee.shouldOpenActivityInPopoutWindow;
+            verify = verify.bind(yankee)();
             foxtra = null;
             if(!verify) { _fun00002_ip = 210; continue _fun00001 }
  200:
             verify = _closure1_slot6;
             foxtra = verify.ACTIVITY_POPOUT;
  210:
-            offset = _closure1_slot1;
+            yankee = _closure1_slot1;
             romeon = _closure1_slot2;
             verify = 10;
             verify = romeon[verify];
-            romeon = offset.bind(report)(verify);
-            offset = romeon.focus;
+            romeon = yankee.bind(report)(verify);
+            yankee = romeon.focus;
             verify = true;
-            verify = offset.bind(romeon)(foxtra, verify);
+            verify = yankee.bind(romeon)(foxtra, verify);
  244:
-            offset = _closure1_slot3;
-            verify = offset.getCurrentEmbeddedActivity;
-            verify = verify.bind(offset)();
+            yankee = _closure1_slot3;
+            verify = yankee.getCurrentEmbeddedActivity;
+            verify = verify.bind(yankee)();
             backup = verify;
             foxtra = _closure1_slot4;
             romeon = foxtra.getApplication;
-            offset = null;
-            kiloes = offset == verify;
+            yankee = null;
+            kiloes = yankee == verify;
             verify = undefined;
             if(kiloes) { _fun00002_ip = 290; continue _fun00001 }
  282:
@@ -207,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = kiloes.applicationId;
  290:
             verify = romeon.bind(foxtra)(verify);
-            yankee = verify;
+            offset = verify;
             _closure2_slot1 = verify;
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -216,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = romeon.bind(report)(verify);
             romeon = foxtra.getEmbeddedActivityLocationChannelId;
             verify = backup;
-            kiloes = offset == verify;
+            kiloes = yankee == verify;
             verify = undefined;
             if(kiloes) { _fun00002_ip = 345; continue _fun00001 }
  340:
@@ -224,31 +259,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  345:
             verify = romeon.bind(foxtra)(verify);
             _closure2_slot2 = verify;
-            verify = yankee;
-            verify = offset == verify;
-            romeon = undefined;
+            verify = offset;
+            verify = yankee == verify;
+            yankee = undefined;
             if(verify) { _fun00002_ip = 374; continue _fun00001 }
  366:
-            verify = yankee;
-            romeon = verify.id;
+            verify = offset;
+            yankee = verify.id;
  374:
             verify = undefined;
-            if(!(verify !== romeon)) { _fun00002_ip = 399; continue _fun00001 }
+            if(!(verify !== yankee)) { _fun00002_ip = 399; continue _fun00001 }
  380:
-            foxtra = _closure1_slot10;
-            romeon = foxtra.get;
-            yankee = yankee.id;
-            verify = romeon.bind(foxtra)(yankee);
+            romeon = _closure1_slot10;
+            yankee = romeon.get;
+            offset = offset.id;
+            verify = yankee.bind(romeon)(offset);
  399:
             option = verify;
-            if(!(offset != verify)) { _fun00002_ip = 428; continue _fun00001 }
+            if(!(report !== verify)) { _fun00002_ip = 459; continue _fun00001 }
  406:
             verify = option;
+            offset = verify.trustedUntilEpochMs;
+            yankee = tangon.Date;
+            verify = yankee.now;
+            verify = verify.bind(yankee)();
+            if(!(offset >= verify)) { _fun00002_ip = 459; continue _fun00001 }
+ 434:
+            verify = option.trustedHosts;
             option = verify.has;
             golfie = golfie.host;
             golfie = option.bind(verify)(golfie);
-            if(golfie) { _fun00002_ip = 463; continue _fun00001 }
- 428:
+            if(golfie) { _fun00002_ip = 494; continue _fun00001 }
+ 459:
             option = tangon.Promise;
             golfie = option.prototype;
             golfie = Object.create(golfie, {constructor: {value: option}});
@@ -314,8 +356,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = golfie;
             zuuluu = new result[option](output, sizing);
             zuuluu = zuuluu instanceof Object ? zuuluu : golfie;
-            _fun00002_ip = 514; continue _fun00001;
- 463:
+            _fun00002_ip = 545; continue _fun00001;
+ 494:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             golfie = 12;
@@ -328,9 +370,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = true;
             tangon['opened'] = option;
             zuuluu = oscard.bind(golfie)(tangon);
- 514: // try_end0
+ 545: // try_end0
             return zuuluu;
- 516: // catch_target0
+ 547: // catch_target0
             CatchBlockStart(arg_register=2);
             tangon = _closure1_slot1;
             oscard = _closure1_slot2;

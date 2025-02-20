@@ -715,14 +715,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00024_ip = 943; continue _fun00023 }
+                    if(zuuluu) { _fun00024_ip = 1116; continue _fun00023 }
  15:
                     verify = michal.channelId;
                     option = michal.messageId;
                     zuuluu = undefined;
                     tangon = undefined;
                     yankee = undefined;
-                    result = undefined;
+                    romeon = undefined;
                     backup = undefined;
                     sizing = undefined;
                     SaveGenerator(address=41);
@@ -730,33 +730,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00024_ip = 940; continue _fun00023 }
+                    if(oscard) { _fun00024_ip = 1113; continue _fun00023 }
  50:
-                    romeon = _closure1_slot8;
-                    offset = romeon.getChannel;
+                    kiloes = _closure1_slot8;
+                    offset = kiloes.getChannel;
                     golfie = verify;
-                    golfie = offset.bind(romeon)(golfie);
+                    golfie = offset.bind(kiloes)(golfie);
                     kiloes = null;
-                    if(!(kiloes != golfie)) { _fun00024_ip = 937; continue _fun00023 }
+                    if(!(kiloes != golfie)) { _fun00024_ip = 1110; continue _fun00023 }
  79:
-                    output = _closure1_slot5;
-                    romeon = output.isLurking;
+                    result = _closure1_slot5;
+                    output = result.isLurking;
                     offset = golfie.guild_id;
-                    offset = romeon.bind(output)(offset);
-                    if(offset) { _fun00024_ip = 808; continue _fun00023 }
+                    offset = output.bind(result)(offset);
+                    if(offset) { _fun00024_ip = 981; continue _fun00023 }
  105:
-                    output = _closure1_slot10;
-                    romeon = output.canChatInGuild;
+                    result = _closure1_slot10;
+                    output = result.canChatInGuild;
                     offset = golfie.guild_id;
-                    offset = romeon.bind(output)(offset);
+                    offset = output.bind(result)(offset);
                     if(offset) { _fun00024_ip = 276; continue _fun00023 }
  131:
-                    romeon = _closure1_slot1;
+                    output = _closure1_slot1;
                     vacuum = _closure1_slot3;
                     offset = 12;
                     offset = vacuum[offset];
-                    output = romeon.bind(zuuluu)(offset);
-                    romeon = output.show;
+                    result = output.bind(zuuluu)(offset);
+                    output = result.show;
                     offset = {};
                     ctrled = _closure1_slot0;
                     echoed = 13;
@@ -780,39 +780,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = echoed.U/uodn;
                     echoed = update.bind(source)(echoed);
                     offset['body'] = echoed;
-                    offset = romeon.bind(output)(offset);
-                    _fun00024_ip = 937; continue _fun00023;
+                    offset = output.bind(result)(offset);
+                    _fun00024_ip = 1110; continue _fun00023;
  276:
                     offset = _closure1_slot13;
                     echoed = verify;
-                    output = option;
-                    offset = offset.bind(zuuluu)(echoed, output);
+                    result = option;
+                    offset = offset.bind(zuuluu)(echoed, result);
                     tangon = offset;
                     update = _closure1_slot1;
                     source = _closure1_slot3;
-                    romeon = 11;
-                    romeon = source[romeon];
-                    update = update.bind(zuuluu)(romeon);
-                    romeon = kiloes != offset;
+                    output = 11;
+                    output = source[output];
+                    update = update.bind(zuuluu)(output);
+                    output = kiloes != offset;
                     offset = 'Must not be able to vote without existing state!';
-                    offset = update.bind(zuuluu)(romeon, offset);
-                    romeon = _closure1_slot23;
+                    offset = update.bind(zuuluu)(output, offset);
+                    output = _closure1_slot23;
                     offset = {};
                     offset['channelId'] = echoed;
-                    offset['messageId'] = output;
-                    yankee = romeon.bind(zuuluu)(offset);
+                    offset['messageId'] = result;
+                    yankee = output.bind(zuuluu)(offset);
  350: // try_start_0
                     offset = tangon.selectedAnswerIds;
                     tangon = offset.values;
                     record = tangon.bind(offset)();
-                    romeon = new Array(0);
+                    output = new Array(0);
+                    echoed = 0;
+                    cntext = output;
                     config = 0;
-                    cntext = romeon;
                     tangon = arraySpread(cntext, record, config);
-                    result = romeon;
+                    romeon = output;
                     offset = _closure1_slot14;
-                    echoed = verify;
-                    output = option;
+                    update = verify;
+                    result = option;
                     tangon = function(argFoo) {
                         michal = argFoo;
                         zuuluu = _closure1_slot1;
@@ -837,55 +838,94 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity[michal] = zuuluu;
                         return entity;
                     };
-                    tangon = offset.bind(zuuluu)(echoed, output, tangon);
+                    tangon = offset.bind(zuuluu)(update, result, tangon);
                     offset = _closure1_slot24;
                     tangon = {};
-                    tangon['channelId'] = echoed;
-                    tangon['messageId'] = output;
-                    tangon['answerIds'] = romeon;
+                    tangon['channelId'] = update;
+                    tangon['messageId'] = result;
+                    tangon['answerIds'] = output;
                     tangon = offset.bind(zuuluu)(tangon);
-                    SaveGenerator(address=433);
- 431:
-                    return tangon;
+                    SaveGenerator(address=435);
  433:
+                    return tangon;
+ 435:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(offset) { _fun00024_ip = 533; continue _fun00023 }
- 439:
-                    romeon = _closure1_slot2;
-                    output = _closure1_slot3;
+                    if(offset) { _fun00024_ip = 706; continue _fun00023 }
+ 444:
+                    output = _closure1_slot2;
+                    result = _closure1_slot3;
                     offset = 22;
-                    offset = output[offset];
-                    output = romeon.bind(zuuluu)(offset);
-                    romeon = output.submitPollVote;
+                    offset = result[offset];
+                    result = output.bind(zuuluu)(offset);
+                    output = result.submitPollVote;
                     offset = {};
-                    echoed = verify;
-                    offset['channelId'] = echoed;
-                    echoed = option;
-                    offset['messageId'] = echoed;
-                    offset['answerIds'] = result;
-                    offset = romeon.bind(output)(offset);
-                    SaveGenerator(address=495);
- 493:
-                    return offset;
- 495:
-                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(romeon) { _fun00024_ip = 530; continue _fun00023 }
+                    update = verify;
+                    offset['channelId'] = update;
+                    update = option;
+                    offset['messageId'] = update;
+                    update = romeon;
+                    offset['answerIds'] = update;
+                    offset = output.bind(result)(offset);
+                    SaveGenerator(address=503);
  501:
-                    echoed = _closure1_slot14;
-                    result = verify;
-                    output = option;
-                    romeon = function() {
+                    return offset;
+ 503:
+                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=16);
+                    if(output) { _fun00024_ip = 703; continue _fun00023 }
+ 512:
+                    source = _closure1_slot14;
+                    update = verify;
+                    result = option;
+                    output = function() {
                         entity = undefined;
                         return entity;
                     };
-                    romeon = echoed.bind(zuuluu)(result, output, romeon);
- 525: // try_end0
-                    _fun00024_ip = 937; continue _fun00023;
- 530:
+                    output = source.bind(zuuluu)(update, result, output);
+                    result = _closure1_slot0;
+                    update = _closure1_slot3;
+                    output = 23;
+                    output = update[output];
+                    output = result.bind(zuuluu)(output);
+                    result = output.AccessibilityAnnouncer;
+                    output = result.announce;
+                    romeon = romeon.length;
+                    if(!(echoed !== romeon)) { _fun00024_ip = 636; continue _fun00023 }
+ 577:
+                    source = _closure1_slot0;
+                    ctrled = _closure1_slot3;
+                    romeon = 13;
+                    echoed = ctrled[romeon];
+                    echoed = source.bind(zuuluu)(echoed);
+                    update = echoed.intl;
+                    echoed = update.string;
+                    romeon = ctrled[romeon];
+                    romeon = source.bind(zuuluu)(romeon);
+                    romeon = romeon.t;
+                    romeon = romeon.o20GSk;
+                    romeon = echoed.bind(update)(romeon);
+                    _fun00024_ip = 693; continue _fun00023;
+ 636:
+                    ctrled = _closure1_slot0;
+                    vacuum = _closure1_slot3;
+                    echoed = 13;
+                    update = vacuum[echoed];
+                    update = ctrled.bind(zuuluu)(update);
+                    source = update.intl;
+                    update = source.string;
+                    echoed = vacuum[echoed];
+                    echoed = ctrled.bind(zuuluu)(echoed);
+                    echoed = echoed.t;
+                    echoed = echoed.xcvy+/;
+                    romeon = update.bind(source)(echoed);
+ 693:
+                    romeon = output.bind(result)(romeon);
+ 698: // try_end0
+                    _fun00024_ip = 1110; continue _fun00023;
+ 703:
                     return offset;
- 533:
+ 706:
                     return tangon;
- 536: // catch_target0
+ 709: // catch_target0
                     CatchBlockStart(arg_register=16);
                     foxtra = output;
                     offset = _closure1_slot1;
@@ -910,23 +950,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = output.getAnyErrorMessage;
                     echoed = kiloes == output;
                     output = undefined;
-                    if(echoed) { _fun00024_ip = 652; continue _fun00023 }
- 639:
+                    if(echoed) { _fun00024_ip = 825; continue _fun00023 }
+ 812:
                     update = foxtra;
                     echoed = update.getAnyErrorMessage;
                     output = echoed.bind(update)();
- 652:
+ 825:
                     sizing = output;
-                    if(!(kiloes == output)) { _fun00024_ip = 666; continue _fun00023 }
- 659:
+                    if(!(kiloes == output)) { _fun00024_ip = 839; continue _fun00023 }
+ 832:
                     foxtra = foxtra.message;
-                    _fun00024_ip = 669; continue _fun00023;
- 666:
+                    _fun00024_ip = 842; continue _fun00023;
+ 839:
                     foxtra = sizing;
- 669:
+ 842:
                     backup = foxtra;
-                    if(!(kiloes == foxtra)) { _fun00024_ip = 730; continue _fun00023 }
- 676:
+                    if(!(kiloes == foxtra)) { _fun00024_ip = 903; continue _fun00023 }
+ 849:
                     output = _closure1_slot0;
                     foxtra = _closure1_slot3;
                     kiloes = foxtra[result];
@@ -938,10 +978,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = foxtra.t;
                     foxtra = foxtra.eAn6z8;
                     foxtra = kiloes.bind(sizing)(foxtra);
-                    _fun00024_ip = 733; continue _fun00023;
- 730:
+                    _fun00024_ip = 906; continue _fun00023;
+ 903:
                     foxtra = backup;
- 733:
+ 906:
                     tangon['body'] = foxtra;
                     tangon = offset.bind(romeon)(tangon);
                     offset = _closure1_slot24;
@@ -952,13 +992,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['messageId'] = romeon;
                     tangon['answerIds'] = yankee;
                     tangon = offset.bind(zuuluu)(tangon);
-                    SaveGenerator(address=776);
- 774:
+                    SaveGenerator(address=949);
+ 947:
                     return tangon;
- 776:
+ 949:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(offset) { _fun00024_ip = 805; continue _fun00023 }
- 782:
+                    if(offset) { _fun00024_ip = 978; continue _fun00023 }
+ 955:
                     offset = _closure1_slot14;
                     report = function(argFoo) {
                         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
@@ -983,10 +1023,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     report = offset.bind(zuuluu)(verify, option, report);
-                    _fun00024_ip = 937; continue _fun00023;
- 805:
+                    _fun00024_ip = 1110; continue _fun00023;
+ 978:
                     return tangon;
- 808:
+ 981:
                     report = _closure1_slot20;
                     tangon = {};
                     golfie = golfie.guild_id;
@@ -1015,11 +1055,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = golfie.bind(option)(oscard);
                     tangon['body'] = oscard;
                     tangon = report.bind(zuuluu)(tangon);
- 937:
+ 1110:
                     return zuuluu;
- 940:
+ 1113:
                     return michal;
- 943:
+ 1116:
                     return entity;
                 }
             };
@@ -1509,7 +1549,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = _closure4_slot0;
                             golfie = _closure1_slot0;
                             option = _closure1_slot3;
-                            report = 23;
+                            report = 24;
                             report = option[report];
                             report = golfie.bind(zuuluu)(report);
                             report = report.PollLayoutTypes;
@@ -1584,7 +1624,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  222:
                     offset = _closure1_slot1;
                     foxtra = _closure1_slot3;
-                    option = 26;
+                    option = 27;
                     option = foxtra[option];
                     backup = offset.bind(oscard)(option);
                     foxtra = backup.sendPollMessage;
@@ -1613,7 +1653,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  312:
                     option = _closure1_slot2;
                     backup = _closure1_slot3;
-                    tangon = 24;
+                    tangon = 25;
                     tangon = backup[tangon];
                     offset = option.bind(oscard)(tangon);
                     option = offset.sendPollMessageWithAttachments;
@@ -1623,7 +1663,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['token'] = foxtra;
                     tangon['poll'] = romeon;
                     foxtra = _closure1_slot0;
-                    romeon = 25;
+                    romeon = 26;
                     romeon = backup[romeon];
                     foxtra = foxtra.bind(oscard)(romeon);
                     romeon = foxtra.createNonce;
@@ -1655,7 +1695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = option;
                     verify = _closure1_slot0;
                     tangon = _closure1_slot3;
-                    golfie = 27;
+                    golfie = 28;
                     tangon = tangon[golfie];
                     tangon = verify.bind(oscard)(tangon);
                     tangon = tangon.APIError;
@@ -2160,7 +2200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon['endPollEarly'] = report;
-    report = 28;
+    report = 29;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

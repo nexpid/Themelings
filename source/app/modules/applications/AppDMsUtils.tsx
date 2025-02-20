@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = argFoo;
                     foxtra = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 679; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 753; continue _fun00001 }
  18:
                     yankee = report;
                     michal = foxtra;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  224:
                     golfie = michal;
                     golfie = golfie.bind(zuuluu)(zuuluu);
-                    _fun00002_ip = 635; continue _fun00001;
+                    _fun00002_ip = 709; continue _fun00001;
  237:
                     backup = _closure1_slot6;
                     foxtra = backup.getDMFromUserId;
@@ -103,44 +103,69 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = report == romeon;
                     offset = undefined;
  269: // try_start_2
-                    romeon = _closure1_slot1;
-                    sizing = _closure1_slot2;
-                    foxtra = 7;
-                    foxtra = sizing[foxtra];
-                    kiloes = romeon.bind(zuuluu)(foxtra);
-                    backup = kiloes.openPrivateChannel;
-                    verify = verify.id;
-                    foxtra = new Array(1);
-                    foxtra[0] = verify;
-                    verify = 8;
-                    verify = sizing[verify];
-                    verify = romeon.bind(zuuluu)(verify);
-                    result = verify.APP_DMS_QUICK_LAUNCHER;
-                    ctrled = kiloes;
-                    source = foxtra;
+                    foxtra = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    romeon = 7;
+                    romeon = backup[romeon];
+                    foxtra = foxtra.bind(zuuluu)(romeon);
+                    romeon = foxtra.shouldOpenActivityInPopoutWindow;
+                    romeon = romeon.bind(foxtra)();
+                    foxtra = _closure1_slot1;
+                    output = _closure1_slot2;
+                    backup = 8;
+                    backup = output[backup];
+                    backup = foxtra.bind(zuuluu)(backup);
+                    if(romeon) { _fun00002_ip = 395; continue _fun00001 }
+ 322:
+                    sizing = backup.openPrivateChannel;
+                    romeon = verify;
+                    romeon = romeon.id;
+                    kiloes = new Array(1);
+                    kiloes[0] = romeon;
+                    romeon = 9;
+                    romeon = output[romeon];
+                    romeon = foxtra.bind(zuuluu)(romeon);
+                    result = romeon.APP_DMS_QUICK_LAUNCHER;
+                    ctrled = backup;
+                    source = kiloes;
                     update = false;
                     echoed = false;
-                    verify = ctrled[backup](source, update, echoed, result, output);
-                    SaveGenerator(address=344);
- 342:
+                    foxtra = ctrled[sizing](source, update, echoed, result, output);
+                    SaveGenerator(address=380);
+ 378:
+                    return foxtra;
+ 380:
+                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=11);
+                    kiloes = romeon;
+                    romeon = foxtra;
+                    if(!kiloes) { _fun00002_ip = 424; continue _fun00001 }
+ 392: // try_end2
+                    return foxtra;
+ 395: // try_start_3
+                    foxtra = backup.getOrEnsurePrivateChannel;
+                    verify = verify.id;
+                    verify = foxtra.bind(backup)(verify);
+                    SaveGenerator(address=415);
+ 413:
                     return verify;
- 344:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 355; continue _fun00001 }
- 350:
-                    offset = verify;
- 353: // try_end2
-                    _fun00002_ip = 368; continue _fun00001;
- 355:
+ 415:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=12);
+                    romeon = verify;
+                    if(foxtra) { _fun00002_ip = 429; continue _fun00001 }
+ 424:
+                    offset = romeon;
+ 427: // try_end3
+                    _fun00002_ip = 442; continue _fun00001;
+ 429:
                     return verify;
- 358: // catch_target2
+ 432: // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=8);
                     verify = michal;
                     verify = verify.bind(zuuluu)(zuuluu);
- 368:
+ 442:
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot2;
-                    verify = 9;
+                    verify = 10;
                     verify = foxtra[verify];
                     backup = romeon.bind(zuuluu)(verify);
                     foxtra = backup.track;
@@ -154,41 +179,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = offset;
                     verify['channel_id'] = tangon;
                     verify = foxtra.bind(backup)(romeon, verify);
-                    if(!(report != tangon)) { _fun00002_ip = 654; continue _fun00001 }
- 445: // try_start_3
+                    if(!(report != tangon)) { _fun00002_ip = 728; continue _fun00001 }
+ 519: // try_start_4
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
-                    tangon = 10;
+                    tangon = 11;
                     tangon = verify[tangon];
                     verify = report.bind(zuuluu)(tangon);
                     report = offset;
                     tangon = yankee;
                     tangon = tangon.id;
                     tangon = verify.bind(zuuluu)(report, tangon);
-                    SaveGenerator(address=486);
- 484:
+                    SaveGenerator(address=560);
+ 558:
                     return tangon;
- 486:
+ 560:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 494; continue _fun00001 }
- 492: // try_end3
-                    _fun00002_ip = 534; continue _fun00001;
- 494:
+                    if(report) { _fun00002_ip = 568; continue _fun00001 }
+ 566: // try_end4
+                    _fun00002_ip = 608; continue _fun00001;
+ 568:
                     return tangon;
- 497: // catch_target3
+ 571: // catch_target4
                     CatchBlockStart(arg_register=3);
                     report = tangon.message;
                     verify = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    tangon = 10;
+                    tangon = 11;
                     tangon = romeon[tangon];
                     tangon = verify.bind(zuuluu)(tangon);
                     tangon = tangon.NO_PRIMARY_APP_COMMAND_ERROR;
-                    if(!(report !== tangon)) { _fun00002_ip = 641; continue _fun00001 }
- 534:
+                    if(!(report !== tangon)) { _fun00002_ip = 715; continue _fun00001 }
+ 608:
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
-                    tangon = 11;
+                    tangon = 12;
                     tangon = verify[tangon];
                     report = report.bind(zuuluu)(tangon);
                     tangon = {};
@@ -197,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['channelId'] = offset;
                     tangon['analyticsLocations'] = option;
                     option = _closure1_slot0;
-                    golfie = 12;
+                    golfie = 13;
                     golfie = verify[golfie];
                     golfie = option.bind(zuuluu)(golfie);
                     golfie = golfie.CommandOrigin;
@@ -211,32 +236,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon['onExecutedCallback'] = oscard;
                     tangon = report.bind(zuuluu)(tangon);
-                    SaveGenerator(address=629);
- 627:
+                    SaveGenerator(address=703);
+ 701:
                     return tangon;
- 629:
+ 703:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 638; continue _fun00001 }
- 635:
+                    if(report) { _fun00002_ip = 712; continue _fun00001 }
+ 709:
                     return zuuluu;
- 638:
+ 712:
                     return tangon;
- 641:
+ 715:
                     tangon = michal;
                     tangon = tangon.bind(zuuluu)(zuuluu);
                     tangon = undefined;
                     return tangon;
- 654:
+ 728:
                     tangon = michal;
                     tangon = tangon.bind(zuuluu)(zuuluu);
                     tangon = undefined;
                     return tangon;
- 667: // catch_target0 // catch_target1
+ 741: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     michal = michal.bind(zuuluu)(zuuluu);
                     michal = undefined;
                     return michal;
- 679:
+ 753:
                     return entity;
                 }
             };
@@ -255,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function() { // Original name: useAppDMFrecentApps
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        zuuluu = 14;
+        zuuluu = 15;
         zuuluu = option[zuuluu];
         oscard = undefined;
         report = golfie.bind(oscard)(zuuluu);
@@ -277,12 +302,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = report.sort;
         zuuluu = zuuluu.bind(report)();
         report = _closure1_slot1;
-        michal = 15;
+        michal = 16;
         michal = option[michal];
         michal = report.bind(oscard)(michal);
         report = michal.bind(oscard)(zuuluu);
         zuuluu = report.filter;
-        michal = 16;
+        michal = 17;
         michal = option[michal];
         michal = golfie.bind(oscard)(michal);
         michal = michal.isNotNullish;
@@ -322,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = argFoo;
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                entity = 17;
+                entity = 18;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 michal = michal.bind(zuuluu)(entity);
@@ -380,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.AnalyticEvents;
     var _closure1_slot8 = report;
-    report = 18;
+    report = 19;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -402,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 13;
+            entity = 14;
             entity = zuuluu[entity];
             zuuluu = undefined;
             oscard = tangon.bind(zuuluu)(entity);

@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             option = yankee.bind(romeon)(option, zuuluu);
-            if(entity) { _fun00002_ip = 304; continue _fun00001 }
+            if(entity) { _fun00002_ip = 308; continue _fun00001 }
  292:
             entity = {'guildPopulated': false, 'guildPersonalized': false, 'guildMessaged': false, 'guildChannelCreated': false, 'completed': true, 'dismissed': true, 'numFinished': 0, 'totalSteps': 0};
             return entity;
- 304:
+ 308:
             entity = new Array(3);
             entity[0] = offset;
             entity[1] = verify;
@@ -145,35 +145,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity.length;
             entity = report == option;
             tangon = undefined;
-            if(entity) { _fun00002_ip = 376; continue _fun00001 }
- 356:
+            if(entity) { _fun00002_ip = 380; continue _fun00001 }
+ 360:
             yankee = option.has;
             entity = _closure1_slot7;
             entity = entity.COMPLETED;
             tangon = yankee.bind(option)(entity);
- 376:
-            if(tangon) { _fun00002_ip = 383; continue _fun00001 }
- 379:
-            tangon = zuuluu === michal;
+ 380:
+            if(tangon) { _fun00002_ip = 387; continue _fun00001 }
  383:
+            tangon = zuuluu === michal;
+ 387:
             entity = {};
             entity['guildPopulated'] = offset;
             entity['guildPersonalized'] = verify;
             entity['guildMessaged'] = golfie;
             entity['completed'] = tangon;
             report = report == option;
-            if(report) { _fun00002_ip = 432; continue _fun00001 }
- 412:
+            if(report) { _fun00002_ip = 436; continue _fun00001 }
+ 416:
             golfie = option.has;
             oscard = _closure1_slot7;
             oscard = oscard.DISMISSED;
             report = golfie.bind(option)(oscard);
- 432:
+ 436:
             entity['dismissed'] = report;
-            if(!tangon) { _fun00002_ip = 443; continue _fun00001 }
- 440:
+            if(!tangon) { _fun00002_ip = 447; continue _fun00001 }
+ 444:
             zuuluu = michal;
- 443:
+ 447:
             entity['numFinished'] = zuuluu;
             entity['totalSteps'] = michal;
             return entity;

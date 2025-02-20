@@ -453,8 +453,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum['style'] = sequen;
             sequen = verify != variable36;
             config = null;
-            if(!sequen) { _fun00002_ip = 770; continue _fun00001 }
- 618:
+            if(!sequen) { _fun00002_ip = 774; continue _fun00001 }
+ 622:
             cntext = _closure1_slot13;
             record = _closure1_slot12;
             sequen = {};
@@ -488,13 +488,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara[1] = target;
             sequen['children'] = papara;
             config = cntext.bind(tangon)(record, sequen);
- 770:
+ 774:
             sequen = new Array(2);
             sequen[0] = config;
             record = verify != variable37;
             config = null;
-            if(!record) { _fun00002_ip = 941; continue _fun00001 }
- 790:
+            if(!record) { _fun00002_ip = 945; continue _fun00001 }
+ 794:
             papara = _closure1_slot13;
             cntext = _closure1_slot12;
             record = {};
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target[1] = status;
             record['children'] = target;
             config = papara.bind(tangon)(cntext, record);
- 941:
+ 945:
             sequen[1] = config;
             vacuum['children'] = sequen;
             vacuum = source.bind(tangon)(kiloes, vacuum);
@@ -541,13 +541,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(4);
             option[0] = offset;
             verify = verify != echoed;
-            if(!verify) { _fun00002_ip = 1006; continue _fun00001 }
- 998:
+            if(!verify) { _fun00002_ip = 1010; continue _fun00001 }
+ 1002:
             offset = '';
             verify = offset !== echoed;
- 1006:
-            if(!verify) { _fun00002_ip = 1071; continue _fun00001 }
- 1009:
+ 1010:
+            if(!verify) { _fun00002_ip = 1075; continue _fun00001 }
+ 1013:
             kiloes = _closure1_slot11;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -559,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = update;
             offset['children'] = echoed;
             verify = kiloes.bind(tangon)(yankee, offset);
- 1071:
+ 1075:
             option[1] = verify;
             yankee = _closure1_slot11;
             offset = _closure1_slot6;
@@ -580,10 +580,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = new Array(2);
             backup[0] = sizing;
             sizing = undefined;
-            if(!result) { _fun00002_ip = 1160; continue _fun00001 }
- 1154:
+            if(!result) { _fun00002_ip = 1164; continue _fun00001 }
+ 1158:
             sizing = output.grey;
- 1160:
+ 1164:
             backup[1] = sizing;
             verify['style'] = backup;
             backup = _closure1_slot1;

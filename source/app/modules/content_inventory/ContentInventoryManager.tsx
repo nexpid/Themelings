@@ -778,7 +778,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = 'ContentInventoryManager';
             zuuluu['location'] = michal;
             michal = {};
-            golfie = false;
+            golfie = true;
             michal['autoTrackExposure'] = golfie;
             michal = report.bind(oscard)(zuuluu, michal);
             michal = michal.enabled;

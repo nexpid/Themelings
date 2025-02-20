@@ -18,42 +18,86 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 92; continue _fun00001 }
- 7:
-                    report = _closure1_slot13;
-                    tangon = undefined;
-                    michal = argFoo;
-                    michal = report.bind(tangon)(michal);
-                    SaveGenerator(address=28);
- 26:
-                    return michal;
- 28:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 89; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
+                    if(report) { _fun00002_ip = 269; continue _fun00001 }
+ 10:
+                    zuuluu = argFoo;
+                    tangon = argBar;
+                    option = undefined;
+                    golfie = undefined;
+ 20: // try_start_0
+                    oscard = _closure1_slot13;
+                    zuuluu = oscard.bind(option)(zuuluu);
+                    SaveGenerator(address=36);
  34:
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot3;
-                    report = 5;
-                    report = golfie[report];
-                    golfie = oscard.bind(tangon)(report);
-                    oscard = golfie.uploadRtcLogFiles;
+                    return zuuluu;
+ 36:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(oscard) { _fun00002_ip = 94; continue _fun00001 }
+ 42:
+                    verify = _closure1_slot0;
+                    offset = _closure1_slot3;
+                    oscard = 5;
+                    oscard = offset[oscard];
+                    verify = verify.bind(option)(oscard);
+                    oscard = verify.uploadRtcLogFiles;
                     report = _closure1_slot8;
-                    zuuluu = argBar;
-                    zuuluu = oscard.bind(golfie)(report, zuuluu);
-                    SaveGenerator(address=77);
- 75:
-                    return zuuluu;
- 77:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 86; continue _fun00001 }
- 83:
+                    tangon = oscard.bind(verify)(report, tangon);
+                    SaveGenerator(address=82);
+ 80:
                     return tangon;
- 86:
+ 82:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(report) { _fun00002_ip = 91; continue _fun00001 }
+ 88: // try_end0
+                    return option;
+ 91:
+                    return tangon;
+ 94:
                     return zuuluu;
- 89:
-                    return michal;
- 92:
+ 97: // catch_target0
+                    CatchBlockStart(arg_register=4);
+                    michal = report;
+                    verify = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    oscard = 6;
+                    tangon = tangon[oscard];
+                    tangon = verify.bind(option)(tangon);
+                    tangon = tangon.UploadVoiceDebugLogsError;
+                    tangon = report instanceof tangon;
+                    if(!tangon) { _fun00002_ip = 197; continue _fun00001 }
+ 138:
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[oscard];
+                    tangon = report.bind(option)(tangon);
+                    report = tangon.UploadErrorCodes;
+                    tangon = michal;
+                    tangon = tangon.code;
+                    oscard = report[tangon];
+                    tangon = global;
+                    tangon = tangon.HermesInternal;
+                    report = tangon.concat;
+                    tangon = 'UploadErrorCodes.';
+                    golfie = report.bind(tangon)(oscard);
+ 197:
+                    tangon = _closure1_slot0;
+                    verify = _closure1_slot3;
+                    zuuluu = 7;
+                    report = verify[zuuluu];
+                    oscard = tangon.bind(option)(report);
+                    report = oscard.reportAVError;
+                    zuuluu = verify[zuuluu];
+                    zuuluu = tangon.bind(option)(zuuluu);
+                    zuuluu = zuuluu.AVError;
+                    tangon = zuuluu.DEBUG_LOG_UPLOAD_FAILED;
+                    zuuluu = {};
+                    zuuluu['underlyingError'] = golfie;
+                    golfie = michal.message;
+                    zuuluu['errorMessage'] = golfie;
+                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+                    throw michal;
+ 269:
                     return entity;
                 }
             };
@@ -101,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25: // try_start_0 // try_start_3
                     golfie = _closure1_slot2;
                     yankee = _closure1_slot3;
-                    oscard = 6;
+                    oscard = 8;
                     oscard = yankee[oscard];
                     golfie = golfie.bind(michal)(oscard);
                     oscard = golfie.stringify;
@@ -166,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  207: // try_start_2
                     golfie = _closure1_slot1;
                     yankee = _closure1_slot3;
-                    oscard = 7;
+                    oscard = 9;
                     oscard = yankee[oscard];
                     oscard = golfie.bind(michal)(oscard);
                     golfie = oscard.bind(michal)();
@@ -174,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = function(argFoo) {
                         michal = _closure1_slot1;
                         zuuluu = _closure1_slot3;
-                        entity = 8;
+                        entity = 10;
                         entity = zuuluu[entity];
                         tangon = undefined;
                         zuuluu = michal.bind(tangon)(entity);
@@ -270,12 +314,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  549:
                     backup = _closure1_slot1;
                     report = _closure1_slot3;
-                    tangon = 9;
+                    tangon = 11;
                     tangon = report[tangon];
                     tangon = backup.bind(michal)(tangon);
                     source = tangon.bind(michal)(oscard);
                     tangon = _closure1_slot0;
-                    oscard = 10;
+                    oscard = 12;
                     oscard = report[oscard];
                     yankee = tangon.bind(michal)(oscard);
                     oscard = yankee.serializeComponentRenderAverages;
@@ -283,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = global;
                     foxtra = oscard.JSON;
                     romeon = foxtra.stringify;
-                    yankee = 11;
+                    yankee = 13;
                     yankee = report[yankee];
                     yankee = backup.bind(michal)(yankee);
                     yankee = yankee.bind(michal)();
@@ -313,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = foxtra;
                     oscard = variable36[backup](quebec, equals, whisks, limora, sierra, status, target, papara, cntext, record, config, sequen, vacuum, ctrled, source);
                     verify = _closure1_slot2;
-                    option = 6;
+                    option = 8;
                     option = report[option];
                     verify = verify.bind(michal)(option);
                     option = verify.clear;
@@ -323,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = zuuluu;
                     zuuluu = 'discord_app_logs';
                     golfie = option.bind(verify)(golfie, zuuluu);
-                    zuuluu = 12;
+                    zuuluu = 14;
                     zuuluu = report[zuuluu];
                     zuuluu = tangon.bind(michal)(zuuluu);
                     report = zuuluu.HTTP;
@@ -422,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.NativeModules;
     report = report.TTIManager;
     var _closure1_slot11 = report;
-    report = 13;
+    report = 15;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

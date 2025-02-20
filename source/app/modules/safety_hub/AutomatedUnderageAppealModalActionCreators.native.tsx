@@ -19,10 +19,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = oscard[entity];
     entity = undefined;
     michal = report.bind(entity)(michal);
-    michal = michal.AGE_APPEAL_ACTION_SHEET_NAME;
-    var _closure1_slot3 = michal;
+    golfie = michal.AGE_APPEAL_ACTION_SHEET_NAME;
+    var _closure1_slot3 = golfie;
+    michal = michal.AGE_CHECK_POLL_DELAY_MS;
+    var _closure1_slot4 = michal;
     michal = {};
-    tangon = function(argFoo) { // Original name: open
+    golfie = function(argFoo) { // Original name: open
         report = _closure1_slot1;
         zuuluu = _closure1_slot2;
         entity = 1;
@@ -53,8 +55,68 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = report.bind(oscard)(tangon, zuuluu, michal);
         return entity;
     };
-    michal['open'] = tangon;
-    tangon = 5;
+    michal['open'] = golfie;
+    golfie = function() { // Original name: close
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_CLOSE';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    michal['close'] = golfie;
+    golfie = function() { // Original name: success
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_SUBMIT_SUCCESS';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    michal['success'] = golfie;
+    tangon = function() { // Original name: start_verification_check
+        tangon = _closure1_slot1;
+        zuuluu = _closure1_slot2;
+        entity = 1;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.dispatch;
+        zuuluu = {};
+        oscard = 'SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_START_POLL';
+        zuuluu['type'] = oscard;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = global;
+        tangon = zuuluu.setTimeout;
+        zuuluu = _closure1_slot4;
+        michal = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 5;
+            michal = michal[entity];
+            entity = undefined;
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.checkSuspendedUserAgeVerification;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        michal = tangon.bind(entity)(michal, zuuluu);
+        return entity;
+    };
+    michal['start_verification_check'] = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

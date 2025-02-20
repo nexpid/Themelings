@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot29;
             report = undefined;
             romeon = michal.bind(report)();
-            if(entity) { _fun00002_ip = 85; continue _fun00001 }
+            if(entity) { _fun00002_ip = 89; continue _fun00001 }
  31:
             zuuluu = _closure1_slot22;
             michal = _closure1_slot0;
@@ -30,8 +30,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
             entity['children'] = verify;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 307; continue _fun00001;
- 85:
+            _fun00002_ip = 315; continue _fun00001;
+ 89:
             tangon = _closure1_slot23;
             zuuluu = _closure1_slot7;
             michal = {};
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 307:
+ 315:
             return entity;
         }
     };

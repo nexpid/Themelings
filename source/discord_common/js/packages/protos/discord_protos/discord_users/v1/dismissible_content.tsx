@@ -1366,10 +1366,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GIFTING_INTENT_FRIENDS_TAB_BADGE'] = michal;
     entity = 'GIFTING_INTENT_FRIENDS_TAB_BADGE';
     tangon[michal] = entity;
-    michal = 475;
-    tangon['NITRO_BASIC_EMOJI_PICKER_UPSELL_COACHMARK'] = michal;
-    entity = 'NITRO_BASIC_EMOJI_PICKER_UPSELL_COACHMARK';
-    tangon[michal] = entity;
     michal = 476;
     tangon['FRACTIONAL_NITRO_DURATION_LEFT_PILL'] = michal;
     entity = 'FRACTIONAL_NITRO_DURATION_LEFT_PILL';

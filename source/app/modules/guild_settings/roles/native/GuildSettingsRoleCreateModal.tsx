@@ -686,10 +686,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = foxtra.nextButton;
             offset = new Array(2);
             offset[0] = kiloes;
-            if(!yankee) { _fun00006_ip = 1332; continue _fun00005 }
- 1326:
+            if(!yankee) { _fun00006_ip = 1328; continue _fun00005 }
+ 1322:
             yankee = foxtra.nextButtonFloating;
- 1332:
+ 1328:
             offset[1] = yankee;
             oscard['style'] = offset;
             yankee = _closure1_slot21;

@@ -3206,12 +3206,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 entity = this;
                 michal = entity.destroyed;
-                if(michal) { _fun00078_ip = 112; continue _fun00077 }
+                if(michal) { _fun00078_ip = 110; continue _fun00077 }
  12:
                 oscard = entity.conn;
                 report = oscard.setClipRecordUser;
                 michal = null;
-                if(!(michal != report)) { _fun00078_ip = 112; continue _fun00077 }
+                if(!(michal != report)) { _fun00078_ip = 110; continue _fun00077 }
  30:
                 tangon = report.call;
                 michal = entity.context;
@@ -3226,17 +3226,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = 'Video';
                 option = 'audio';
                 golfie = argBar;
-                if(!(option === golfie)) { _fun00078_ip = 91; continue _fun00077 }
+                if(!(option === golfie)) { _fun00078_ip = 89; continue _fun00077 }
  85:
                 entity = 'Audio';
- 91:
+ 89:
                 offset = michal.bind(zuuluu)(entity);
                 yankee = argFoo;
                 verify = argBaz;
                 foxtra = report;
                 romeon = oscard;
                 entity = foxtra[tangon](romeon, yankee, offset, verify, option);
- 112:
+ 110:
                 entity = undefined;
                 return entity;
             }

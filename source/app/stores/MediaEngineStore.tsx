@@ -9222,6 +9222,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     michal['VOICE_FILTER_APPLIED'] = golfie;
+    golfie = function() { // Original name: handleVoiceFilterDownloadFailed
+        zuuluu = _closure1_slot128;
+        michal = {};
+        entity = null;
+        michal['mostRecentlyRequestedVoiceFilter'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    michal['VOICE_FILTER_DOWNLOAD_FAILED'] = golfie;
     golfie = verify.prototype;
     golfie = Object.create(golfie, {constructor: {value: verify}});
     target = golfie;

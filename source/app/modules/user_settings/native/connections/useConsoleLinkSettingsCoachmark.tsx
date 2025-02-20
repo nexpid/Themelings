@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify[michal];
             michal = golfie.bind(option)(michal);
             michal = michal.DismissibleContent;
-            golfie = michal.CONNECTIONS_NEW_CONSOLE_COACHMARK;
+            golfie = michal.CONNECTIONS_LINK_CONSOLE_COACHMARK;
             michal = new Array(1);
             michal[0] = golfie;
             _fun00002_ip = 144; continue _fun00001;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify[michal];
             michal = oscard.bind(option)(michal);
             michal = michal.DismissibleContent;
-            michal = michal.CONNECTIONS_NEW_CONSOLE_COACHMARK;
+            michal = michal.CONNECTIONS_LINK_CONSOLE_COACHMARK;
             michal = tangon === michal;
             _closure2_slot1 = michal;
             oscard = _closure1_slot4;

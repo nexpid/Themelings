@@ -505,8 +505,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = _closure1_slot11;
                         option = option.QUEST_SHARE_LINK_DEEP_LINKED_INTO_MOBILE_CLIENT;
                         michal['event'] = option;
-                        option = true;
-                        michal['trackGuildAndChannelMetadata'] = option;
                         michal = oscard.bind(golfie)(michal);
                         michal = 70;
                         michal = tangon[michal];

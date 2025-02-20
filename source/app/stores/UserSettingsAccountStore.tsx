@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot4;
-            entity = _closure1_slot27;
+            entity = _closure1_slot28;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot26 = entity;
+    var _closure1_slot27 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -73,74 +73,75 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot27 = michal;
+            _closure1_slot28 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot27 = entity;
+    var _closure1_slot28 = entity;
     backup = function() { // Original name: handleInit
         entity = _closure1_slot8;
         entity = entity.OPEN;
-        _closure1_slot24 = entity;
-        entity = {};
         _closure1_slot25 = entity;
+        entity = {};
+        _closure1_slot26 = entity;
         entity = undefined;
         return entity;
     };
-    var _closure1_slot28 = backup;
+    var _closure1_slot29 = backup;
     foxtra = function() { // Original name: handleClose
         entity = _closure1_slot8;
         entity = entity.CLOSED;
-        _closure1_slot24 = entity;
-        entity = {};
         _closure1_slot25 = entity;
+        entity = {};
+        _closure1_slot26 = entity;
         entity = undefined;
         return entity;
     };
-    var _closure1_slot29 = foxtra;
+    var _closure1_slot30 = foxtra;
     offset = function() { // Original name: handleResetAllPending
-        michal = _closure1_slot31;
+        michal = _closure1_slot32;
         entity = undefined;
         michal = michal.bind(entity)();
-        michal = _closure1_slot32;
+        michal = _closure1_slot33;
         michal = michal.bind(entity)();
         michal = {};
-        _closure1_slot25 = michal;
+        _closure1_slot26 = michal;
         return entity;
     };
-    var _closure1_slot30 = offset;
+    var _closure1_slot31 = offset;
     romeon = function() { // Original name: handleResetPendingAccountChanges
         entity = undefined;
         var _closure1_slot10 = entity;
         var _closure1_slot11 = entity;
         var _closure1_slot12 = entity;
         var _closure1_slot13 = entity;
+        var _closure1_slot14 = entity;
         return entity;
     };
-    var _closure1_slot31 = romeon;
+    var _closure1_slot32 = romeon;
     yankee = function() { // Original name: handleResetPendingProfileChanges
         entity = undefined;
-        var _closure1_slot14 = entity;
         var _closure1_slot15 = entity;
         var _closure1_slot16 = entity;
         var _closure1_slot17 = entity;
         var _closure1_slot18 = entity;
-        _closure1_slot13 = entity;
+        var _closure1_slot19 = entity;
+        _closure1_slot14 = entity;
         return entity;
     };
-    var _closure1_slot32 = yankee;
+    var _closure1_slot33 = yankee;
     verify = function() { // Original name: handleResetTryItOut
         entity = undefined;
-        var _closure1_slot20 = entity;
         var _closure1_slot21 = entity;
         var _closure1_slot22 = entity;
         var _closure1_slot23 = entity;
-        var _closure1_slot19 = entity;
+        var _closure1_slot24 = entity;
+        var _closure1_slot20 = entity;
         return entity;
     };
-    var _closure1_slot33 = verify;
+    var _closure1_slot34 = verify;
     entity = global;
     kiloes = entity.Object;
     option = kiloes.defineProperty;
@@ -180,9 +181,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = option.UserSettingsSections;
     var _closure1_slot9 = option;
     michal = michal.CLOSED;
-    var _closure1_slot24 = michal;
-    michal = {};
     var _closure1_slot25 = michal;
+    michal = {};
+    var _closure1_slot26 = michal;
     michal = 7;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -195,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot2;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot26;
+            michal = _closure1_slot27;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -210,17 +211,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'getFormState';
         report['key'] = entity;
         entity = function() { // Original name: value
-            entity = _closure1_slot24;
+            entity = _closure1_slot25;
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(20);
+        entity = new Array(21);
         entity[0] = report;
         report = {};
         golfie = 'getErrors';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot25;
+            entity = _closure1_slot26;
             return entity;
         };
         report['value'] = golfie;
@@ -236,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu !== entity;
                 if(entity) { _fun00006_ip = 24; continue _fun00005 }
  16:
-                tangon = _closure1_slot14;
+                tangon = _closure1_slot11;
                 entity = zuuluu !== tangon;
  24:
                 if(entity) { _fun00006_ip = 35; continue _fun00005 }
@@ -261,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  68:
                 if(entity) { _fun00006_ip = 79; continue _fun00005 }
  71:
-                tangon = _closure1_slot12;
+                tangon = _closure1_slot19;
                 entity = zuuluu !== tangon;
  79:
                 if(entity) { _fun00006_ip = 90; continue _fun00005 }
@@ -271,9 +272,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  90:
                 if(entity) { _fun00006_ip = 101; continue _fun00005 }
  93:
-                michal = _closure1_slot11;
-                entity = zuuluu !== michal;
+                tangon = _closure1_slot14;
+                entity = zuuluu !== tangon;
  101:
+                if(entity) { _fun00006_ip = 112; continue _fun00005 }
+ 104:
+                michal = _closure1_slot12;
+                entity = zuuluu !== michal;
+ 112:
                 return entity;
             }
         };
@@ -285,12 +291,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zuuluu = _closure1_slot15;
+                zuuluu = _closure1_slot16;
                 entity = undefined;
                 entity = entity !== zuuluu;
                 if(!entity) { _fun00008_ip = 33; continue _fun00007 }
  16:
-                zuuluu = _closure1_slot15;
+                zuuluu = _closure1_slot16;
                 zuuluu = zuuluu.length;
                 michal = _closure1_slot7;
                 entity = zuuluu > michal;
@@ -310,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[4] = report;
         report = {};
-        golfie = 'getPendingGlobalName';
+        golfie = 'getPendingAvatarV2';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot11;
@@ -319,16 +325,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[5] = report;
         report = {};
-        golfie = 'getPendingBanner';
+        golfie = 'getPendingGlobalName';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot14;
+            entity = _closure1_slot12;
             return entity;
         };
         report['value'] = golfie;
         entity[6] = report;
         report = {};
-        golfie = 'getPendingBio';
+        golfie = 'getPendingBanner';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot15;
@@ -337,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[7] = report;
         report = {};
-        golfie = 'getPendingPronouns';
+        golfie = 'getPendingBio';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot16;
@@ -346,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[8] = report;
         report = {};
-        golfie = 'getPendingAccentColor';
+        golfie = 'getPendingPronouns';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot17;
@@ -355,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[9] = report;
         report = {};
-        golfie = 'getPendingThemeColors';
+        golfie = 'getPendingAccentColor';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot18;
@@ -364,16 +370,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[10] = report;
         report = {};
-        golfie = 'getPendingAvatarDecoration';
+        golfie = 'getPendingThemeColors';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot12;
+            entity = _closure1_slot19;
             return entity;
         };
         report['value'] = golfie;
         entity[11] = report;
         report = {};
-        golfie = 'getPendingProfileEffectId';
+        golfie = 'getPendingAvatarDecoration';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot13;
@@ -382,43 +388,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[12] = report;
         report = {};
+        golfie = 'getPendingProfileEffectId';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot14;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[13] = report;
+        report = {};
         golfie = 'getAllPending';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = {};
             zuuluu = _closure1_slot10;
             entity['pendingAvatar'] = zuuluu;
-            zuuluu = _closure1_slot14;
-            entity['pendingBanner'] = zuuluu;
+            zuuluu = _closure1_slot11;
+            entity['pendingAvatarV2'] = zuuluu;
             zuuluu = _closure1_slot15;
-            entity['pendingBio'] = zuuluu;
+            entity['pendingBanner'] = zuuluu;
             zuuluu = _closure1_slot16;
-            entity['pendingPronouns'] = zuuluu;
+            entity['pendingBio'] = zuuluu;
             zuuluu = _closure1_slot17;
-            entity['pendingAccentColor'] = zuuluu;
+            entity['pendingPronouns'] = zuuluu;
             zuuluu = _closure1_slot18;
+            entity['pendingAccentColor'] = zuuluu;
+            zuuluu = _closure1_slot19;
             entity['pendingThemeColors'] = zuuluu;
-            zuuluu = _closure1_slot12;
-            entity['pendingAvatarDecoration'] = zuuluu;
             zuuluu = _closure1_slot13;
+            entity['pendingAvatarDecoration'] = zuuluu;
+            zuuluu = _closure1_slot14;
             entity['pendingProfileEffectId'] = zuuluu;
-            michal = _closure1_slot11;
+            michal = _closure1_slot12;
             entity['pendingGlobalName'] = michal;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[13] = report;
-        report = {};
-        golfie = 'getTryItOutThemeColors';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot19;
             return entity;
         };
         report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golfie = 'getTryItOutAvatar';
+        golfie = 'getTryItOutThemeColors';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot20;
@@ -427,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[15] = report;
         report = {};
-        golfie = 'getTryItOutAvatarDecoration';
+        golfie = 'getTryItOutAvatar';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot21;
@@ -436,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[16] = report;
         report = {};
-        golfie = 'getTryItOutProfileEffectId';
+        golfie = 'getTryItOutAvatarDecoration';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot22;
@@ -445,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[17] = report;
         report = {};
-        golfie = 'getTryItOutBanner';
+        golfie = 'getTryItOutProfileEffectId';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = _closure1_slot23;
@@ -454,24 +462,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[18] = report;
         report = {};
+        golfie = 'getTryItOutBanner';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot24;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[19] = report;
+        report = {};
         golfie = 'getAllTryItOut';
         report['key'] = golfie;
         oscard = function() { // Original name: value
             entity = {};
-            zuuluu = _closure1_slot19;
-            entity['tryItOutThemeColors'] = zuuluu;
             zuuluu = _closure1_slot20;
-            entity['tryItOutAvatar'] = zuuluu;
+            entity['tryItOutThemeColors'] = zuuluu;
             zuuluu = _closure1_slot21;
-            entity['tryItOutAvatarDecoration'] = zuuluu;
+            entity['tryItOutAvatar'] = zuuluu;
             zuuluu = _closure1_slot22;
+            entity['tryItOutAvatarDecoration'] = zuuluu;
+            zuuluu = _closure1_slot23;
             entity['tryItOutProfileEffectId'] = zuuluu;
-            michal = _closure1_slot23;
+            michal = _closure1_slot24;
             entity['tryItOutBanner'] = michal;
             return entity;
         };
         report['value'] = oscard;
-        entity[19] = report;
+        entity[20] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -495,7 +512,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu === entity;
             if(!entity) { _fun00010_ip = 40; continue _fun00009 }
  28:
-            zuuluu = _closure1_slot28;
+            zuuluu = _closure1_slot29;
             michal = undefined;
             zuuluu = zuuluu.bind(michal)();
             entity = undefined;
@@ -506,12 +523,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['USER_SETTINGS_MODAL_SET_SECTION'] = backup;
     michal['USER_SETTINGS_ACCOUNT_CLOSE'] = foxtra;
     foxtra = function() { // Original name: handleResetFullForm
-        zuuluu = _closure1_slot30;
+        zuuluu = _closure1_slot31;
         entity = undefined;
         zuuluu = zuuluu.bind(entity)();
-        zuuluu = _closure1_slot33;
+        zuuluu = _closure1_slot34;
         zuuluu = zuuluu.bind(entity)();
-        michal = _closure1_slot29;
+        michal = _closure1_slot30;
         michal = michal.bind(entity)();
         return entity;
     };
@@ -519,9 +536,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function() { // Original name: handleFormSubmit
         entity = _closure1_slot8;
         entity = entity.SUBMITTING;
-        _closure1_slot24 = entity;
-        entity = {};
         _closure1_slot25 = entity;
+        entity = {};
+        _closure1_slot26 = entity;
         entity = undefined;
         return entity;
     };
@@ -529,14 +546,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleFormSubmitFailure
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = _closure1_slot24;
+            zuuluu = _closure1_slot25;
             entity = _closure1_slot8;
             entity = entity.SUBMITTING;
             if(!(zuuluu === entity)) { _fun00012_ip = 60; continue _fun00011 }
  21:
             entity = _closure1_slot8;
             entity = entity.OPEN;
-            _closure1_slot24 = entity;
+            _closure1_slot25 = entity;
             entity = argFoo;
             entity = entity.errors;
             zuuluu = null;
@@ -544,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  50:
             entity = {};
  52:
-            _closure1_slot25 = entity;
+            _closure1_slot26 = entity;
             entity = undefined;
             return entity;
  60:
@@ -558,14 +575,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = entity.avatar;
         _closure1_slot10 = entity;
         entity = undefined;
-        _closure1_slot20 = entity;
+        _closure1_slot21 = entity;
         return entity;
     };
     michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR'] = foxtra;
+    foxtra = function(argFoo) { // Original name: handleSetPendingAvatarV2
+        entity = argFoo;
+        entity = entity.avatar;
+        _closure1_slot11 = entity;
+        entity = undefined;
+        _closure1_slot21 = entity;
+        return entity;
+    };
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR_V2'] = foxtra;
     foxtra = function(argFoo) { // Original name: handleSetPendingGlobalName
         entity = argFoo;
         michal = entity.globalName;
-        _closure1_slot11 = michal;
+        _closure1_slot12 = michal;
         entity = undefined;
         return entity;
     };
@@ -573,7 +599,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingAvatarDecoration
         entity = argFoo;
         michal = entity.avatarDecoration;
-        _closure1_slot12 = michal;
+        _closure1_slot13 = michal;
         entity = undefined;
         return entity;
     };
@@ -600,18 +626,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.PROFILE_EFFECT;
             if(!(oscard !== report)) { _fun00014_ip = 75; continue _fun00013 }
  65:
-            _closure1_slot22 = michal;
-            _closure1_slot21 = tangon;
+            _closure1_slot23 = michal;
+            _closure1_slot22 = tangon;
             _fun00014_ip = 97; continue _fun00013;
  75:
-            _closure1_slot21 = michal;
+            _closure1_slot22 = michal;
             report = michal == tangon;
             michal = undefined;
             if(report) { _fun00014_ip = 93; continue _fun00013 }
  88:
             michal = tangon.id;
  93:
-            _closure1_slot22 = michal;
+            _closure1_slot23 = michal;
  97:
             return entity;
         }
@@ -620,7 +646,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingProfileEffectId
         entity = argFoo;
         michal = entity.profileEffectId;
-        _closure1_slot13 = michal;
+        _closure1_slot14 = michal;
         entity = undefined;
         return entity;
     };
@@ -628,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingBanner
         entity = argFoo;
         michal = entity.banner;
-        _closure1_slot14 = michal;
+        _closure1_slot15 = michal;
         entity = undefined;
         return entity;
     };
@@ -636,7 +662,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingBio
         entity = argFoo;
         michal = entity.bio;
-        _closure1_slot15 = michal;
+        _closure1_slot16 = michal;
         entity = undefined;
         return entity;
     };
@@ -644,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingPronouns
         entity = argFoo;
         michal = entity.pronouns;
-        _closure1_slot16 = michal;
+        _closure1_slot17 = michal;
         entity = undefined;
         return entity;
     };
@@ -652,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingAccentColor
         entity = argFoo;
         michal = entity.color;
-        _closure1_slot17 = michal;
+        _closure1_slot18 = michal;
         entity = undefined;
         return entity;
     };
@@ -660,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetPendingThemeColors
         entity = argFoo;
         michal = entity.themeColors;
-        _closure1_slot18 = michal;
+        _closure1_slot19 = michal;
         entity = undefined;
         return entity;
     };
@@ -668,7 +694,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetTryItOutAvatar
         entity = argFoo;
         michal = entity.avatar;
-        _closure1_slot20 = michal;
+        _closure1_slot21 = michal;
         entity = undefined;
         return entity;
     };
@@ -676,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetTryItOutAvatarDecoration
         entity = argFoo;
         michal = entity.avatarDecoration;
-        _closure1_slot21 = michal;
+        _closure1_slot22 = michal;
         entity = undefined;
         return entity;
     };
@@ -684,7 +710,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetTryItOutProfileEffectId
         entity = argFoo;
         michal = entity.profileEffectId;
-        _closure1_slot22 = michal;
+        _closure1_slot23 = michal;
         entity = undefined;
         return entity;
     };
@@ -692,7 +718,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetTryItOutBanner
         entity = argFoo;
         michal = entity.banner;
-        _closure1_slot23 = michal;
+        _closure1_slot24 = michal;
         entity = undefined;
         return entity;
     };
@@ -700,7 +726,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleSetTryItOutThemeColors
         entity = argFoo;
         michal = entity.themeColors;
-        _closure1_slot19 = michal;
+        _closure1_slot20 = michal;
         entity = undefined;
         return entity;
     };
@@ -711,16 +737,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = entity.themeColors;
         zuuluu = entity.bannerImage;
         michal = entity.avatarDecoration;
-        _closure1_slot19 = tangon;
-        _closure1_slot23 = zuuluu;
-        _closure1_slot21 = michal;
+        _closure1_slot20 = tangon;
+        _closure1_slot24 = zuuluu;
+        _closure1_slot22 = michal;
         entity = undefined;
         return entity;
     };
     michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET'] = foxtra;
     foxtra = function() { // Original name: handleClearErrors
         entity = {};
-        _closure1_slot25 = entity;
+        _closure1_slot26 = entity;
         entity = undefined;
         return entity;
     };
@@ -731,13 +757,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['USER_SETTINGS_RESET_ALL_TRY_IT_OUT'] = verify;
     verify = function() { // Original name: handleResetPendingAvatarDecoration
         entity = undefined;
-        _closure1_slot12 = entity;
+        _closure1_slot13 = entity;
         return entity;
     };
     michal['USER_SETTINGS_RESET_PENDING_AVATAR_DECORATION'] = verify;
     tangon = function() { // Original name: handleLogout
         entity = undefined;
         _closure1_slot10 = entity;
+        _closure1_slot11 = entity;
         return entity;
     };
     michal['LOGOUT'] = tangon;

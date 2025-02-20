@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['description'] = option;
     tangon[2] = golfie;
     var _closure1_slot11 = tangon;
-    tangon = 21;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = update[report];
         report = golfie.bind(tangon)(report);
         report = report.spacing;
-        report = report.PX_16;
+        report = report.PX_32;
         report = oscard + report;
         entity['startHeight'] = report;
         report = 14;
@@ -496,13 +496,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         vacuum = sequen.bind(config)(vacuum);
         result['subLabel'] = vacuum;
         ctrled = function() { // Original name: onPress
-            entity = global;
-            tangon = entity.window;
-            zuuluu = tangon.open;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = 18;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.openURL;
             entity = _closure1_slot7;
-            michal = entity.AGE_VERIFICATION_LINK;
-            entity = '_blank';
-            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.AGE_VERIFICATION_LINK;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
         result['onPress'] = ctrled;
@@ -515,12 +518,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = {};
         romeon = output.footer;
         yankee['style'] = romeon;
-        romeon = 18;
+        romeon = 19;
         romeon = update[romeon];
         romeon = sizing.bind(tangon)(romeon);
         foxtra = romeon.Button;
         romeon = {};
-        result = 19;
+        result = 20;
         result = update[result];
         result = sizing.bind(tangon)(result);
         result = result.requestSuspendedUserAgeVerification;
@@ -540,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = zuuluu.bind(tangon)(foxtra, romeon);
         romeon = new Array(2);
         romeon[0] = foxtra;
-        foxtra = 20;
+        foxtra = 21;
         foxtra = update[foxtra];
         foxtra = sizing.bind(tangon)(foxtra);
         backup = foxtra.TextWithIOSLinkWorkaround;

@@ -1005,7 +1005,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00022_ip = 223; continue _fun00021 }
+                    if(michal) { _fun00022_ip = 219; continue _fun00021 }
  10:
                     oscard = argFoo;
  13: // try_start_0
@@ -1065,7 +1065,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['guildId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 223:
+ 219:
                     return entity;
                 }
             };

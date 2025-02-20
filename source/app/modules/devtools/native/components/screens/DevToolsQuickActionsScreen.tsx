@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(golfie)(zuuluu, report);
-            if(michal) { _fun00008_ip = 2666; continue _fun00007 }
+            if(michal) { _fun00008_ip = 2784; continue _fun00007 }
  457:
             report = _closure1_slot21;
             zuuluu = _closure1_slot6;
@@ -832,7 +832,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = vacuum.bind(tangon)(cntext, record);
             romeon['trailing'] = record;
             romeon = ctrled.bind(tangon)(update, romeon);
-            update = new Array(10);
+            update = new Array(11);
             update[0] = romeon;
             romeon = sizing[yankee];
             romeon = kiloes.bind(tangon)(romeon);
@@ -932,7 +932,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.bind(tangon)(romeon);
             ctrled = romeon.TableRow;
             romeon = {};
-            cntext = 'Show age verification test modal';
+            cntext = 'Show age verification scan test modal';
             romeon['label'] = cntext;
             cntext = _closure1_slot25;
             romeon['onPress'] = cntext;
@@ -950,6 +950,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['trailing'] = cntext;
             romeon = vacuum.bind(tangon)(ctrled, romeon);
             update[5] = romeon;
+            romeon = sizing[yankee];
+            romeon = kiloes.bind(tangon)(romeon);
+            ctrled = romeon.TableRow;
+            romeon = {};
+            cntext = 'Show age verification get started modal';
+            romeon['label'] = cntext;
+            papara = _closure1_slot1;
+            cntext = 33;
+            cntext = sizing[cntext];
+            cntext = papara.bind(tangon)(cntext);
+            cntext = cntext.showAgeVerificationGetStartedModal;
+            romeon['onPress'] = cntext;
+            cntext = sizing[record];
+            cntext = kiloes.bind(tangon)(cntext);
+            papara = cntext.KeyIcon;
+            cntext = {};
+            cntext = vacuum.bind(tangon)(papara, cntext);
+            romeon['icon'] = cntext;
+            cntext = sizing[config];
+            cntext = kiloes.bind(tangon)(cntext);
+            papara = cntext.TableRowArrow;
+            cntext = {};
+            cntext = vacuum.bind(tangon)(papara, cntext);
+            romeon['trailing'] = cntext;
+            romeon = vacuum.bind(tangon)(ctrled, romeon);
+            update[6] = romeon;
             romeon = sizing[yankee];
             romeon = kiloes.bind(tangon)(romeon);
             ctrled = romeon.TableRow;
@@ -974,7 +1000,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = vacuum.bind(tangon)(record, config);
             romeon['trailing'] = config;
             romeon = vacuum.bind(tangon)(ctrled, romeon);
-            update[6] = romeon;
+            update[7] = romeon;
             romeon = sizing[foxtra];
             romeon = kiloes.bind(tangon)(romeon);
             ctrled = romeon.TableSwitchRow;
@@ -1003,15 +1029,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon['onValueChange'] = sequen;
             romeon = vacuum.bind(tangon)(ctrled, romeon);
-            update[7] = romeon;
+            update[8] = romeon;
             romeon = 56;
             romeon = sizing[romeon];
             kiloes = kiloes.bind(tangon)(romeon);
             romeon = kiloes.isAndroid;
             kiloes = romeon.bind(kiloes)();
             romeon = null;
-            if(!kiloes) { _fun00008_ip = 2219; continue _fun00007 }
- 2106:
+            if(!kiloes) { _fun00008_ip = 2337; continue _fun00007 }
+ 2224:
             sizing = _closure1_slot20;
             vacuum = _closure1_slot0;
             record = _closure1_slot2;
@@ -1042,8 +1068,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['onValueChange'] = source;
             romeon = sizing.bind(tangon)(kiloes, foxtra);
- 2219:
-            update[8] = romeon;
+ 2337:
+            update[9] = romeon;
             foxtra = _closure1_slot20;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -1063,7 +1089,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = foxtra.bind(tangon)(sequen, vacuum);
             source['icon'] = vacuum;
             source = foxtra.bind(tangon)(ctrled, source);
-            update[9] = source;
+            update[10] = source;
             verify['children'] = update;
             verify = echoed.bind(tangon)(result, verify);
             oscard[6] = verify;
@@ -1165,7 +1191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 2666:
+ 2784:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             michal = 38;

@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/guild_settings/GuildSettingsFetchActionCreators.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: fetchGuildIntegrationsApplications
+    tangon = function() { // Original name: fetchGuildIntegrationsApplications
         entity = undefined;
         tangon = _closure1_slot7;
         zuuluu = tangon.apply;
@@ -172,6 +172,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['fetchGuildIntegrationsApplications'] = michal;
+    zuuluu['fetchGuildIntegrationsApplications'] = tangon;
+    michal = function(argFoo) { // Original name: fetchGuildEmbed
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 4;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.get;
+        entity = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+        oscard = _closure1_slot6;
+        report = oscard.GUILD_WIDGET;
+        tangon = argFoo;
+        tangon = report.bind(oscard)(tangon);
+        entity['url'] = tangon;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            report = argFoo;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 5;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            oscard = 'GUILD_SETTINGS_SET_WIDGET';
+            michal['type'] = oscard;
+            oscard = report.body;
+            oscard = oscard.enabled;
+            michal['enabled'] = oscard;
+            report = report.body;
+            report = report.channel_id;
+            michal['channelId'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['fetchGuildEmbed'] = michal;
     return entity;
 })();

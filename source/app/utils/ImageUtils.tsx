@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 183; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 181; continue _fun00009 }
  13:
                     oscard = zuuluu.type;
                     michal = null;
@@ -365,24 +365,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report[michal];
  49:
                     michal = 'image/png';
-                    if(!(michal === tangon)) { _fun00010_ip = 147; continue _fun00009 }
- 59:
+                    if(!(michal === tangon)) { _fun00010_ip = 145; continue _fun00009 }
+ 57:
                     michal = zuuluu.text;
                     michal = michal.bind(zuuluu)();
-                    SaveGenerator(address=72);
- 70:
+                    SaveGenerator(address=70);
+ 68:
                     return michal;
- 72:
+ 70:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 144; continue _fun00009 }
- 78:
+                    if(zuuluu) { _fun00010_ip = 142; continue _fun00009 }
+ 76:
                     tangon = michal.indexOf;
                     zuuluu = 'IDAT';
                     oscard = tangon.bind(michal)(zuuluu);
                     report = 0;
                     zuuluu = oscard > report;
-                    if(!zuuluu) { _fun00010_ip = 141; continue _fun00009 }
- 103:
+                    if(!zuuluu) { _fun00010_ip = 139; continue _fun00009 }
+ 101:
                     tangon = michal.substring;
                     oscard = tangon.bind(michal)(report, oscard);
                     report = oscard.indexOf;
@@ -390,11 +390,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(oscard)(tangon);
                     tangon = -1;
                     zuuluu = tangon !== report;
- 141:
+ 139:
                     return zuuluu;
- 144:
+ 142:
                     return michal;
- 147:
+ 145:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new verify[tangon](option, golfie);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 183:
+ 181:
                     return entity;
                 }
             };
@@ -516,71 +516,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = 2000;
     zuuluu['IMAGE_MAX_ZOOM'] = oscard;
     oscard = function(argFoo, argBar) { // Original name: zoomFit
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-            entity = arguments[2];
-            zuuluu = undefined;
-            if(!(entity === zuuluu)) { _fun00012_ip = 19; continue _fun00011 }
- 9:
-            entity = {'vertical': 0, 'horizontal': 0};
- 19:
-            report = global;
-            golfie = report.Math;
-            oscard = golfie.min;
-            option = report.Math;
-            tangon = option.round;
-            michal = report.window;
-            verify = michal.innerHeight;
-            michal = 0.65;
-            michal = michal * verify;
-            tangon = tangon.bind(option)(michal);
-            verify = report.Math;
-            option = verify.round;
-            michal = report.window;
-            offset = michal.innerHeight;
-            michal = entity.vertical;
-            michal = offset - michal;
-            michal = option.bind(verify)(michal);
-            tangon = oscard.bind(golfie)(tangon, michal);
-            golfie = report.Math;
-            oscard = golfie.min;
-            verify = report.Math;
-            option = verify.round;
-            michal = report.window;
-            offset = michal.innerWidth;
-            michal = 0.75;
-            michal = michal * offset;
-            michal = option.bind(verify)(michal);
-            verify = report.Math;
-            option = verify.round;
-            offset = report.window;
-            offset = offset.innerWidth;
-            entity = entity.horizontal;
-            entity = offset - entity;
-            entity = option.bind(verify)(entity);
-            option = oscard.bind(golfie)(michal, entity);
-            michal = report.Math;
-            entity = michal.min;
-            golfie = 2000;
-            tangon = entity.bind(michal)(tangon, golfie);
-            michal = _closure1_slot5;
-            entity = {};
-            oscard = argFoo;
-            entity['width'] = oscard;
-            oscard = argBar;
-            entity['height'] = oscard;
-            oscard = report.Math;
-            report = oscard.min;
-            report = report.bind(oscard)(option, golfie);
-            entity['maxWidth'] = report;
-            entity['maxHeight'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        }
+        tangon = global;
+        report = tangon.Math;
+        zuuluu = report.min;
+        oscard = tangon.Math;
+        michal = oscard.round;
+        entity = tangon.window;
+        golfie = entity.innerHeight;
+        entity = 0.65;
+        entity = entity * golfie;
+        michal = michal.bind(oscard)(entity);
+        golfie = tangon.Math;
+        oscard = golfie.round;
+        entity = tangon.window;
+        entity = entity.innerHeight;
+        entity = oscard.bind(golfie)(entity);
+        zuuluu = zuuluu.bind(report)(michal, entity);
+        oscard = tangon.Math;
+        report = oscard.min;
+        golfie = tangon.Math;
+        michal = golfie.round;
+        entity = tangon.window;
+        option = entity.innerWidth;
+        entity = 0.75;
+        entity = entity * option;
+        michal = michal.bind(golfie)(entity);
+        option = tangon.Math;
+        golfie = option.round;
+        entity = tangon.window;
+        entity = entity.innerWidth;
+        entity = golfie.bind(option)(entity);
+        golfie = report.bind(oscard)(michal, entity);
+        michal = tangon.Math;
+        entity = michal.min;
+        oscard = 2000;
+        entity = entity.bind(michal)(zuuluu, oscard);
+        zuuluu = _closure1_slot5;
+        michal = {};
+        report = argFoo;
+        michal['width'] = report;
+        report = argBar;
+        michal['height'] = report;
+        report = tangon.Math;
+        tangon = report.min;
+        tangon = tangon.bind(report)(golfie, oscard);
+        michal['maxWidth'] = tangon;
+        michal['maxHeight'] = entity;
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
     };
     zuuluu['zoomFit'] = oscard;
     oscard = function(argFoo, argBar, argBaz, argCor) { // Original name: zoomScale
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zuuluu = argFoo;
             verify = argBar;
@@ -593,56 +581,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = michal != zuuluu;
             offset = 0;
             tangon = 0;
-            if(!yankee) { _fun00014_ip = 63; continue _fun00013 }
+            if(!yankee) { _fun00012_ip = 63; continue _fun00011 }
  38:
             tangon = 0;
-            if(!(offset !== zuuluu)) { _fun00014_ip = 63; continue _fun00013 }
+            if(!(offset !== zuuluu)) { _fun00012_ip = 63; continue _fun00011 }
  44:
             yankee = michal != verify;
             tangon = 0;
-            if(!yankee) { _fun00014_ip = 63; continue _fun00013 }
+            if(!yankee) { _fun00012_ip = 63; continue _fun00011 }
  53:
             tangon = 0;
-            if(!(tangon !== verify)) { _fun00014_ip = 63; continue _fun00013 }
+            if(!(tangon !== verify)) { _fun00012_ip = 63; continue _fun00011 }
  59:
             tangon = zuuluu / option;
  63:
             zuuluu = 2;
             report = report.bind(golfie)(zuuluu, tangon);
             golfie = michal != option;
-            if(!golfie) { _fun00014_ip = 113; continue _fun00013 }
+            if(!golfie) { _fun00012_ip = 113; continue _fun00011 }
  79:
             verify = option * report;
             tangon = entity.window;
             offset = tangon.innerWidth;
-            tangon = 1.3;
+            tangon = 1.6;
             tangon = offset * tangon;
             golfie = verify > tangon;
  113:
             tangon = zuuluu;
-            if(!golfie) { _fun00014_ip = 149; continue _fun00013 }
+            if(!golfie) { _fun00012_ip = 149; continue _fun00011 }
  119:
             golfie = entity.window;
             verify = golfie.innerWidth;
-            golfie = 1.3;
+            golfie = 1.6;
             golfie = verify * golfie;
             tangon = golfie / option;
  149:
             michal = michal != oscard;
-            if(!michal) { _fun00014_ip = 190; continue _fun00013 }
+            if(!michal) { _fun00012_ip = 190; continue _fun00011 }
  156:
             option = oscard * report;
             golfie = entity.window;
             verify = golfie.innerHeight;
-            golfie = 1.3;
+            golfie = 1.6;
             golfie = verify * golfie;
             michal = option > golfie;
  190:
-            if(!michal) { _fun00014_ip = 223; continue _fun00013 }
+            if(!michal) { _fun00012_ip = 223; continue _fun00011 }
  193:
             michal = entity.window;
             golfie = michal.innerHeight;
-            michal = 1.3;
+            michal = 1.6;
             michal = golfie * michal;
             zuuluu = michal / oscard;
  223:
@@ -654,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['zoomScale'] = oscard;
     oscard = function(argFoo) { // Original name: getRatio
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             tangon = argFoo;
             zuuluu = tangon.width;
@@ -664,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu > michal;
             tangon = 1;
             report = tangon;
-            if(!golfie) { _fun00016_ip = 42; continue _fun00015 }
+            if(!golfie) { _fun00014_ip = 42; continue _fun00013 }
  38:
             report = michal / zuuluu;
  42:
@@ -679,7 +667,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(golfie)(entity);
             golfie = zuuluu > oscard;
             entity = tangon;
-            if(!golfie) { _fun00016_ip = 98; continue _fun00015 }
+            if(!golfie) { _fun00014_ip = 98; continue _fun00013 }
  94:
             entity = oscard / zuuluu;
  98:
@@ -692,14 +680,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['getRatio'] = oscard;
     oscard = function(argFoo) { // Original name: getCoverRatio
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             golfie = entity.width;
             oscard = entity.height;
             zuuluu = entity.maxWidth;
             michal = entity.maxHeight;
-            if(!(golfie !== oscard)) { _fun00018_ip = 78; continue _fun00017 }
+            if(!(golfie !== oscard)) { _fun00016_ip = 78; continue _fun00015 }
  29:
             entity = global;
             report = entity.Math;
@@ -718,6 +706,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['getCoverRatio'] = oscard;
+    oscard = function(argFoo) { // Original name: hasDimensions
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.width;
+            zuuluu = entity.height;
+            michal = null;
+            entity = michal != report;
+            if(!entity) { _fun00018_ip = 28; continue _fun00017 }
+ 22:
+            tangon = 0;
+            entity = tangon !== report;
+ 28:
+            if(!entity) { _fun00018_ip = 35; continue _fun00017 }
+ 31:
+            entity = michal != zuuluu;
+ 35:
+            if(!entity) { _fun00018_ip = 44; continue _fun00017 }
+ 38:
+            michal = 0;
+            entity = michal !== zuuluu;
+ 44:
+            return entity;
+        }
+    };
+    zuuluu['hasDimensions'] = oscard;
     oscard = function(argFoo) { // Original name: makeCssUrlString
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:

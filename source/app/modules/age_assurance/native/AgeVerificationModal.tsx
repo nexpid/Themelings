@@ -33,9 +33,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: AgeVerifyScreen
         entity = argFoo;
         golfie = entity.webviewUrl;
+        oscard = entity.onComplete;
+        var _closure2_slot0 = oscard;
         report = _closure1_slot3;
         tangon = report.useCallback;
-        zuuluu = function(argFoo) {
+        zuuluu = new Array(1);
+        zuuluu[0] = oscard;
+        michal = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tangon = argFoo;
@@ -68,8 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = michal.status;
  82:
                 michal = 'AGE_CHECK_COMPLETE';
-                if(!(michal === zuuluu)) { _fun00002_ip = 125; continue _fun00001 }
+                if(!(michal === zuuluu)) { _fun00002_ip = 136; continue _fun00001 }
  92:
+                michal = _closure2_slot0;
+                michal = michal.bind(entity)();
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
                 michal = 2;
@@ -77,12 +83,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.pop;
                 michal = michal.bind(zuuluu)();
- 125:
+ 136:
                 return entity;
             }
         };
-        michal = new Array(0);
-        report = tangon.bind(report)(zuuluu, michal);
+        report = tangon.bind(report)(michal, zuuluu);
         tangon = _closure1_slot4;
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
@@ -122,23 +127,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: AgeVerificationModal
         michal = argFoo;
-        golfie = michal.webviewUrl;
-        var _closure2_slot0 = golfie;
+        option = michal.webviewUrl;
+        var _closure2_slot0 = option;
+        golfie = michal.onComplete;
+        var _closure2_slot1 = golfie;
         michal = _closure1_slot7;
         tangon = undefined;
-        option = michal.bind(tangon)();
-        var _closure2_slot1 = option;
+        verify = michal.bind(tangon)();
+        var _closure2_slot2 = verify;
         oscard = _closure1_slot3;
         zuuluu = oscard.useMemo;
-        michal = new Array(2);
-        michal[0] = option;
-        michal[1] = golfie;
+        michal = new Array(3);
+        michal[0] = verify;
+        michal[1] = option;
+        michal[2] = golfie;
         entity = function() {
-            tangon = _closure2_slot1;
-            zuuluu = _closure2_slot0;
-            michal = function(argFoo, argBar) { // Original name: getScreens
+            report = _closure2_slot2;
+            tangon = _closure2_slot0;
+            zuuluu = _closure2_slot1;
+            michal = function(argFoo, argBar, argBaz) { // Original name: getScreens
                 entity = argBar;
                 var _closure4_slot0 = entity;
+                entity = argBaz;
+                var _closure4_slot1 = entity;
                 entity = {};
                 michal = _closure1_slot5;
                 zuuluu = michal.VERIFY_AGE;
@@ -175,8 +186,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot4;
                     zuuluu = _closure1_slot6;
                     michal = {};
-                    entity = _closure4_slot0;
-                    michal['webviewUrl'] = entity;
+                    report = _closure4_slot0;
+                    michal['webviewUrl'] = report;
+                    entity = _closure4_slot1;
+                    michal['onComplete'] = entity;
                     entity = undefined;
                     entity = tangon.bind(entity)(zuuluu, michal);
                     return entity;
@@ -186,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = undefined;
-            entity = michal.bind(entity)(tangon, zuuluu);
+            entity = michal.bind(entity)(report, tangon, zuuluu);
             return entity;
         };
         oscard = zuuluu.bind(oscard)(entity, michal);

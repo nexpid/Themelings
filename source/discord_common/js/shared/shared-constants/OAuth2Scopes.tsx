@@ -99,7 +99,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = 'sdk.social_layer';
     tangon['SDK_SOCIAL_LAYER'] = michal;
     michal = 'lobbies.write';
-    tangon['LOBBIES'] = michal;
+    tangon['LOBBIES_WRITE'] = michal;
     michal = {};
     golfie = entity.Set;
     report = golfie.prototype;
@@ -212,11 +212,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     romeon = oscard;
     report = new romeon[golfie](yankee, offset);
     report = report instanceof Object ? report : oscard;
-    michal['SLAYER_INTEGRATION'] = report;
+    michal['DEFAULT_SLAYER_INTEGRATION'] = report;
     golfie = entity.Set;
     report = golfie.prototype;
     oscard = Object.create(report, {constructor: {value: golfie}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    yankee = ['account.global_name.update', 'openid', 'sdk.social_layer'];
     romeon = oscard;
     report = new romeon[golfie](yankee, offset);
     report = report instanceof Object ? report : oscard;
@@ -233,7 +233,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = entity.Set;
     oscard = option.prototype;
     golfie = Object.create(oscard, {constructor: {value: option}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeon = golfie;
     oscard = new romeon[option](yankee, offset);
     oscard = oscard instanceof Object ? oscard : golfie;

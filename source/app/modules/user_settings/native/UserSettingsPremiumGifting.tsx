@@ -645,7 +645,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['children'] = entity;
                     entity = undefined;
                     entity = tangon.bind(entity)(zuuluu, michal);
-                    _fun00004_ip = 952; continue _fun00003;
+                    _fun00004_ip = 956; continue _fun00003;
  596:
                     report = _closure1_slot15;
                     tangon = _closure1_slot7;
@@ -722,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard[1] = golfie;
                     zuuluu['children'] = oscard;
                     entity = report.bind(michal)(tangon, zuuluu);
- 952:
+ 956:
                     return entity;
                 }
             };

@@ -1500,12 +1500,27 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['inlineRequire'] = option;
     michal['NativeExperimentBridgeManager'] = entity;
     entity = {};
-    option = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH'];
+    option = ['POST_CONNECTION_OPEN', 'USER_SETTINGS_PROTO_UPDATE'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 97;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.default;
+        return entity;
+    };
+    entity['inlineRequire'] = option;
+    michal['UserSettingsNativeBridgeManager'] = entity;
+    entity = {};
+    option = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH'];
+    entity['actions'] = option;
+    option = function() { // Original name: inlineRequire
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 98;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1520,7 +1535,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 98;
+        entity = 99;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1537,7 +1552,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 99;
+        entity = 100;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1552,7 +1567,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 100;
+        entity = 101;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1562,13 +1577,13 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['inlineRequire'] = golfie;
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ReferralMessageManager'] = entity;
-    entity = 101;
+    entity = 102;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 102;
+    tangon = 103;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

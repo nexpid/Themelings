@@ -282,20 +282,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = argFoo;
             entity = 'application/json';
-            if(!(entity !== tangon)) { _fun00008_ip = 224; continue _fun00007 }
+            if(!(entity !== tangon)) { _fun00008_ip = 222; continue _fun00007 }
  14:
             entity = 'image/apng';
-            if(!(entity !== tangon)) { _fun00008_ip = 185; continue _fun00007 }
+            if(!(entity !== tangon)) { _fun00008_ip = 183; continue _fun00007 }
  27:
             entity = 'image/png';
-            if(!(entity !== tangon)) { _fun00008_ip = 146; continue _fun00007 }
- 37:
+            if(!(entity !== tangon)) { _fun00008_ip = 144; continue _fun00007 }
+ 35:
             entity = 'image/webp';
-            if(!(entity !== tangon)) { _fun00008_ip = 146; continue _fun00007 }
- 45:
+            if(!(entity !== tangon)) { _fun00008_ip = 144; continue _fun00007 }
+ 43:
             entity = 'image/gif';
-            if(!(entity !== tangon)) { _fun00008_ip = 107; continue _fun00007 }
- 55:
+            if(!(entity !== tangon)) { _fun00008_ip = 105; continue _fun00007 }
+ 53:
             entity = global;
             zuuluu = entity.Error;
             entity = entity.HermesInternal;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new oscard[zuuluu](report, tangon);
             entity = entity instanceof Object ? entity : michal;
             throw entity;
- 107:
+ 105:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             entity = 6;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.StickerFormat;
             entity = entity.GIF;
             return entity;
- 146:
+ 144:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             entity = 6;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.StickerFormat;
             entity = entity.PNG;
             return entity;
- 185:
+ 183:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             entity = 6;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.StickerFormat;
             entity = entity.APNG;
             return entity;
- 224:
+ 222:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             entity = 6;

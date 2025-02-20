@@ -339,15 +339,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = result[offset];
                 offset = yankee.bind(tangon)(offset);
                 yankee = offset.t;
-                if(option) { _fun00004_ip = 545; continue _fun00003 }
- 532:
+                if(option) { _fun00004_ip = 553; continue _fun00003 }
+ 540:
                 offset = yankee.ZcgDJS;
                 offset = kiloes.bind(output)(offset);
-                _fun00004_ip = 556; continue _fun00003;
- 545:
+                _fun00004_ip = 564; continue _fun00003;
+ 553:
                 yankee = yankee.RscU7O;
                 offset = kiloes.bind(output)(yankee);
- 556:
+ 564:
                 report['accessibilityLabel'] = offset;
                 offset = function() { // Original name: onPress
                     _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -374,19 +374,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = _closure1_slot6;
                 kiloes = _closure1_slot0;
                 output = _closure1_slot2;
-                if(option) { _fun00004_ip = 623; continue _fun00003 }
- 603:
+                if(option) { _fun00004_ip = 633; continue _fun00003 }
+ 613:
                 option = 12;
                 option = output[option];
                 option = kiloes.bind(tangon)(option);
                 offset = option.PauseIcon;
-                _fun00004_ip = 641; continue _fun00003;
- 623:
+                _fun00004_ip = 651; continue _fun00003;
+ 633:
                 option = 11;
                 option = output[option];
                 option = kiloes.bind(tangon)(option);
                 offset = option.PlayIcon;
- 641:
+ 651:
                 option = {'size': 'md', 'color': 'white'};
                 option = yankee.bind(tangon)(offset, option);
                 report['children'] = option;

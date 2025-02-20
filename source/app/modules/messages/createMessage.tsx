@@ -256,10 +256,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['author'] = oscard;
             oscard = new Array(0);
             entity['attachments'] = oscard;
-            if(!(report == zuuluu)) { _fun00004_ip = 168; continue _fun00003 }
- 164:
-            zuuluu = new Array(0);
+            if(!(report == zuuluu)) { _fun00004_ip = 172; continue _fun00003 }
  168:
+            zuuluu = new Array(0);
+ 172:
             entity['embeds'] = zuuluu;
             zuuluu = false;
             entity['pinned'] = zuuluu;

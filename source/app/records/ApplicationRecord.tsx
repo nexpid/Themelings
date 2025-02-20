@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = function(argFoo) { // Original name: ApplicationRecord
             _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-                zuuluu = argFoo;
+                michal = argFoo;
                 oscard = this;
                 entity = _closure1_slot3;
                 report = _closure2_slot0;
@@ -421,9 +421,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(option)(oscard, report);
                 tangon = _closure1_slot11;
                 entity = new Array(1);
-                entity[0] = zuuluu;
+                entity[0] = michal;
                 entity = tangon.bind(option)(oscard, report, entity);
-                oscard = zuuluu.overlay;
+                oscard = michal.overlay;
                 tangon = null;
                 report = tangon != oscard;
                 if(!report) { _fun00020_ip = 65; continue _fun00019 }
@@ -431,21 +431,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard;
  65:
                 entity['overlay'] = report;
-                oscard = zuuluu.overlayWarn;
+                oscard = michal.overlayWarn;
                 report = tangon != oscard;
                 if(!report) { _fun00020_ip = 87; continue _fun00019 }
  84:
                 report = oscard;
  87:
                 entity['overlayWarn'] = report;
-                oscard = zuuluu.overlayCompatibilityHook;
+                oscard = michal.overlayCompatibilityHook;
                 report = tangon != oscard;
                 if(!report) { _fun00020_ip = 109; continue _fun00019 }
  106:
                 report = oscard;
  109:
                 entity['overlayCompatibilityHook'] = report;
-                report = zuuluu.overlayMethods;
+                report = michal.overlayMethods;
                 if(!(tangon == report)) { _fun00020_ip = 157; continue _fun00019 }
  125:
                 golfie = _closure1_slot0;
@@ -457,112 +457,114 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.DEFAULT;
  157:
                 entity['overlayMethods'] = report;
-                oscard = zuuluu.hook;
+                oscard = michal.hook;
                 report = tangon == oscard;
                 if(report) { _fun00020_ip = 179; continue _fun00019 }
  176:
                 report = oscard;
  179:
                 entity['hook'] = report;
-                report = zuuluu.aliases;
+                report = michal.aliases;
                 if(!(tangon == report)) { _fun00020_ip = 199; continue _fun00019 }
  195:
                 report = new Array(0);
  199:
                 entity['aliases'] = report;
-                report = zuuluu.publishers;
+                report = michal.publishers;
                 if(!(tangon == report)) { _fun00020_ip = 219; continue _fun00019 }
  215:
                 report = new Array(0);
  219:
                 entity['publishers'] = report;
-                report = zuuluu.developers;
+                report = michal.developers;
                 if(!(tangon == report)) { _fun00020_ip = 239; continue _fun00019 }
  235:
                 report = new Array(0);
  239:
                 entity['developers'] = report;
-                report = zuuluu.storeListingSkuId;
+                report = michal.storeListingSkuId;
                 entity['storeListingSkuId'] = report;
-                report = zuuluu.guildId;
+                report = michal.guildId;
                 entity['guildId'] = report;
-                report = zuuluu.guild;
+                report = michal.guild;
                 entity['guild'] = report;
-                oscard = zuuluu.executables;
+                oscard = michal.executables;
                 if(!(tangon == oscard)) { _fun00020_ip = 293; continue _fun00019 }
  289:
                 oscard = new Array(0);
  293:
                 report = oscard.map;
-                michal = _closure1_slot13;
-                michal = report.bind(oscard)(michal);
-                entity['executables'] = michal;
-                michal = zuuluu.hashes;
-                if(!(tangon == michal)) { _fun00020_ip = 327; continue _fun00019 }
+                zuuluu = _closure1_slot13;
+                zuuluu = report.bind(oscard)(zuuluu);
+                entity['executables'] = zuuluu;
+                zuuluu = michal.hashes;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 327; continue _fun00019 }
  323:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  327:
-                entity['hashes'] = michal;
-                michal = zuuluu.eulaId;
-                entity['eulaId'] = michal;
-                michal = zuuluu.slug;
-                entity['slug'] = michal;
-                report = zuuluu.flags;
+                entity['hashes'] = zuuluu;
+                zuuluu = michal.eulaId;
+                entity['eulaId'] = zuuluu;
+                zuuluu = michal.slug;
+                entity['slug'] = zuuluu;
+                report = michal.flags;
                 oscard = tangon != report;
-                michal = 0;
+                zuuluu = 0;
                 if(!oscard) { _fun00020_ip = 374; continue _fun00019 }
  371:
-                michal = report;
+                zuuluu = report;
  374:
-                entity['flags'] = michal;
-                michal = zuuluu.tags;
-                if(!(tangon == michal)) { _fun00020_ip = 394; continue _fun00019 }
+                entity['flags'] = zuuluu;
+                zuuluu = michal.tags;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 394; continue _fun00019 }
  390:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  394:
-                entity['tags'] = michal;
-                michal = zuuluu.maxParticipants;
-                entity['maxParticipants'] = michal;
-                michal = zuuluu.embedded_activity_config;
-                if(!(tangon == michal)) { _fun00020_ip = 428; continue _fun00019 }
+                entity['tags'] = zuuluu;
+                zuuluu = michal.maxParticipants;
+                entity['maxParticipants'] = zuuluu;
+                zuuluu = michal.embedded_activity_config;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 428; continue _fun00019 }
  422:
-                michal = zuuluu.embeddedActivityConfig;
+                zuuluu = michal.embeddedActivityConfig;
  428:
-                entity['embeddedActivityConfig'] = michal;
-                michal = zuuluu.team;
-                entity['team'] = michal;
-                michal = zuuluu.integrationTypesConfig;
-                entity['integrationTypesConfig'] = michal;
-                michal = zuuluu.storefront_available;
-                entity['storefront_available'] = michal;
-                michal = zuuluu.termsOfServiceUrl;
-                entity['termsOfServiceUrl'] = michal;
-                michal = zuuluu.privacyPolicyUrl;
-                entity['privacyPolicyUrl'] = michal;
-                michal = zuuluu.is_discoverable;
-                if(!(tangon == michal)) { _fun00020_ip = 510; continue _fun00019 }
+                entity['embeddedActivityConfig'] = zuuluu;
+                zuuluu = michal.team;
+                entity['team'] = zuuluu;
+                zuuluu = michal.integrationTypesConfig;
+                entity['integrationTypesConfig'] = zuuluu;
+                zuuluu = michal.storefront_available;
+                entity['storefront_available'] = zuuluu;
+                zuuluu = michal.termsOfServiceUrl;
+                entity['termsOfServiceUrl'] = zuuluu;
+                zuuluu = michal.privacyPolicyUrl;
+                entity['privacyPolicyUrl'] = zuuluu;
+                zuuluu = michal.is_discoverable;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 510; continue _fun00019 }
  504:
-                michal = zuuluu.isDiscoverable;
+                zuuluu = michal.isDiscoverable;
  510:
-                entity['isDiscoverable'] = michal;
-                michal = zuuluu.custom_install_url;
-                if(!(tangon == michal)) { _fun00020_ip = 532; continue _fun00019 }
+                entity['isDiscoverable'] = zuuluu;
+                zuuluu = michal.custom_install_url;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 532; continue _fun00019 }
  526:
-                michal = zuuluu.customInstallUrl;
+                zuuluu = michal.customInstallUrl;
  532:
-                entity['customInstallUrl'] = michal;
-                michal = zuuluu.install_params;
-                if(!(tangon == michal)) { _fun00020_ip = 554; continue _fun00019 }
+                entity['customInstallUrl'] = zuuluu;
+                zuuluu = michal.install_params;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 554; continue _fun00019 }
  548:
-                michal = zuuluu.installParams;
+                zuuluu = michal.installParams;
  554:
-                entity['installParams'] = michal;
-                michal = zuuluu.directory_entry;
-                if(!(tangon == michal)) { _fun00020_ip = 576; continue _fun00019 }
+                entity['installParams'] = zuuluu;
+                zuuluu = michal.directory_entry;
+                if(!(tangon == zuuluu)) { _fun00020_ip = 576; continue _fun00019 }
  570:
-                michal = zuuluu.directoryEntry;
+                zuuluu = michal.directoryEntry;
  576:
-                entity['directoryEntry'] = michal;
+                entity['directoryEntry'] = zuuluu;
+                michal = michal.categories;
+                entity['categories'] = michal;
                 return entity;
             }
         };
@@ -834,12 +836,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = tangon.isDiscoverable;
  858:
                 entity['isDiscoverable'] = oscard;
-                michal = michal.directoryEntry;
-                if(!(report == michal)) { _fun00022_ip = 879; continue _fun00021 }
+                oscard = michal.directoryEntry;
+                if(!(report == oscard)) { _fun00022_ip = 879; continue _fun00021 }
  873:
-                michal = tangon.directoryEntry;
+                oscard = tangon.directoryEntry;
  879:
-                entity['directoryEntry'] = michal;
+                entity['directoryEntry'] = oscard;
+                michal = michal.categories;
+                if(!(report == michal)) { _fun00022_ip = 900; continue _fun00021 }
+ 894:
+                michal = tangon.categories;
+ 900:
+                entity['categories'] = michal;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});
                 romeon = michal;
@@ -1138,8 +1146,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.is_discoverable;
                 tangon = 'isDiscoverable';
                 entity[tangon] = report;
-                tangon = michal.directory_entry;
-                michal = 'directoryEntry';
+                report = michal.directory_entry;
+                tangon = 'directoryEntry';
+                entity[tangon] = report;
+                tangon = michal.categories;
+                michal = 'categories';
                 entity[michal] = tangon;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});

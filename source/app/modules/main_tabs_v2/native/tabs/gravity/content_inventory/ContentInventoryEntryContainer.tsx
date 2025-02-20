@@ -84,10 +84,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(report)(golfie);
             golfie = option.isAndroid;
             golfie = golfie.bind(option)();
-            if(!golfie) { _fun00002_ip = 149; continue _fun00001 }
- 143:
+            if(!golfie) { _fun00002_ip = 153; continue _fun00001 }
+ 147:
             tangon = -1;
- 149:
+ 153:
             michal['marginBottom'] = tangon;
             entity['title'] = michal;
             michal = {'flexDirection': 'row', 'alignItems': 'center'};

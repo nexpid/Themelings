@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(option)(zuuluu, tangon);
             michal = entity == michal;
             entity = null;
-            if(michal) { _fun00002_ip = 529; continue _fun00001 }
+            if(michal) { _fun00002_ip = 531; continue _fun00001 }
  289:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot1;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['icon'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 529:
+ 531:
             return entity;
         }
     };

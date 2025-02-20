@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = argBar;
                     golfie = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=9);
-                    if(offset) { _fun00004_ip = 791; continue _fun00003 }
+                    if(offset) { _fun00004_ip = 789; continue _fun00003 }
  16:
                     report = argFoo;
                     option = oscard;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = kiloes.bind(offset)(romeon);
                     romeon = romeon.DiscordCanvasExporterOutputFormats;
                     romeon = romeon.Base64;
-                    if(!(result !== romeon)) { _fun00004_ip = 763; continue _fun00003 }
+                    if(!(result !== romeon)) { _fun00004_ip = 761; continue _fun00003 }
  143:
                     kiloes = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = kiloes.bind(offset)(romeon);
                     romeon = romeon.DiscordCanvasExporterOutputFormats;
                     romeon = romeon.Blob;
-                    if(!(result !== romeon)) { _fun00004_ip = 704; continue _fun00003 }
+                    if(!(result !== romeon)) { _fun00004_ip = 702; continue _fun00003 }
  179:
                     kiloes = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = kiloes.bind(offset)(romeon);
                     romeon = romeon.DiscordCanvasExporterOutputFormats;
                     romeon = romeon.File;
-                    if(!(result !== romeon)) { _fun00004_ip = 668; continue _fun00003 }
+                    if(!(result !== romeon)) { _fun00004_ip = 666; continue _fun00003 }
  215:
                     kiloes = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  504:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=12);
                     romeon = option;
-                    if(foxtra) { _fun00004_ip = 661; continue _fun00003 }
+                    if(foxtra) { _fun00004_ip = 659; continue _fun00003 }
  516:
                     yankee = romeon;
  519: // try_end1
@@ -283,12 +283,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = new vacuum[foxtra](ctrled, source, update);
                     verify = verify instanceof Object ? verify : yankee;
                     return verify;
- 661:
+ 659:
                     return option;
- 664: // catch_target0 // catch_target1
+ 662: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=7);
                     throw option;
- 668:
+ 666:
                     option = global;
                     yankee = option.Error;
                     option = yankee.prototype;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = new vacuum[yankee](ctrled, source);
                     option = option instanceof Object ? option : verify;
                     throw option;
- 704:
+ 702:
                     foxtra = golfie.toDataUrl;
                     ctrled = report;
                     source = tangon;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = option.dataUrlToBlob;
                     oscard = oscard.bind(option)(verify);
                     return oscard;
- 763:
+ 761:
                     oscard = golfie.toDataUrl;
                     ctrled = report;
                     source = tangon;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     vacuum = golfie;
                     michal = vacuum[oscard](ctrled, source, update, echoed, result);
                     return michal;
- 791:
+ 789:
                     return entity;
                 }
             };
