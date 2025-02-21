@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = this;
                 michal = zuuluu.raw;
                 entity = null;
-                if(!(entity != michal)) { _fun00012_ip = 88; continue _fun00011 }
+                if(!(entity != michal)) { _fun00012_ip = 92; continue _fun00011 }
  14:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -317,13 +317,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = argFoo;
                 entity['reason'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00012_ip = 106; continue _fun00011;
- 88:
+                _fun00012_ip = 110; continue _fun00011;
+ 92:
                 michal = global;
                 zuuluu = michal.Promise;
                 michal = zuuluu.resolve;
                 entity = michal.bind(zuuluu)();
- 106:
+ 110:
                 return entity;
             }
         };

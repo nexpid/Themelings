@@ -248,8 +248,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.ButtonGroup;
             oscard = {};
             offset = null;
-            if(backup) { _fun00004_ip = 754; continue _fun00003 }
- 647:
+            if(backup) { _fun00004_ip = 750; continue _fun00003 }
+ 643:
             romeon = _closure1_slot6;
             update = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.bind(result)(sizing);
             verify['text'] = sizing;
             offset = romeon.bind(tangon)(yankee, verify);
- 754:
+ 750:
             verify = new Array(2);
             verify[0] = offset;
             romeon = _closure1_slot6;
@@ -297,10 +297,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.Button;
             offset = {};
             sizing = 'secondary';
-            if(!backup) { _fun00004_ip = 805; continue _fun00003 }
- 801:
+            if(!backup) { _fun00004_ip = 801; continue _fun00003 }
+ 797:
             sizing = 'primary';
- 805:
+ 801:
             offset['variant'] = sizing;
             result = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -311,15 +311,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[echoed];
             kiloes = result.bind(tangon)(kiloes);
             kiloes = kiloes.t;
-            if(backup) { _fun00004_ip = 866; continue _fun00003 }
- 853:
+            if(backup) { _fun00004_ip = 862; continue _fun00003 }
+ 849:
             backup = kiloes.hg1uxs;
             backup = sizing.bind(output)(backup);
-            _fun00004_ip = 877; continue _fun00003;
- 866:
+            _fun00004_ip = 873; continue _fun00003;
+ 862:
             kiloes = kiloes.13/7kZ;
             backup = sizing.bind(output)(kiloes);
- 877:
+ 873:
             offset['text'] = backup;
             foxtra = function() { // Original name: onPress
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

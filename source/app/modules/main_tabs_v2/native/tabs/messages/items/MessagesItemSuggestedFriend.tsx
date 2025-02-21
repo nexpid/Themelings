@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.bind(tangon)(sizing);
             output = sizing.Text;
             sizing = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(!verify) { _fun00002_ip = 566; continue _fun00001 }
- 511:
+            if(!verify) { _fun00002_ip = 570; continue _fun00001 }
+ 515:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot2;
             echoed = 12;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.t;
             echoed = echoed.Kzyxm5;
             result = update.bind(source)(echoed);
- 566:
+ 570:
             sizing['children'] = result;
             sizing = zuuluu.bind(tangon)(output, sizing);
             foxtra[1] = sizing;
@@ -473,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot9;
             yankee = _closure1_slot0;
             foxtra = _closure1_slot2;
-            if(verify) { _fun00002_ip = 700; continue _fun00001 }
- 609:
+            if(verify) { _fun00002_ip = 704; continue _fun00001 }
+ 613:
             verify = 19;
             verify = foxtra[verify];
             verify = yankee.bind(tangon)(verify);
@@ -493,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['text'] = sizing;
             verify['onPress'] = kiloes;
             verify = romeon.bind(tangon)(offset, verify);
-            _fun00002_ip = 737; continue _fun00001;
- 700:
+            _fun00002_ip = 741; continue _fun00001;
+ 704:
             offset = 20;
             offset = foxtra[offset];
             offset = yankee.bind(tangon)(offset);
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['marginHorizontal'] = backup;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 737:
+ 741:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

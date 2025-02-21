@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal[0] = entity;
         entity = function() {
             zuuluu = _closure1_slot4;
-            michal = zuuluu.getIsFetching;
+            michal = zuuluu.getFetchStatus;
             entity = _closure2_slot0;
             entity = michal.bind(zuuluu)(entity);
             return entity;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu[0] = golfie;
         zuuluu = report.bind(oscard)(tangon, zuuluu);
         entity['fetchGuildProfile'] = zuuluu;
-        entity['isFetching'] = michal;
+        entity['fetchStatus'] = michal;
         return entity;
     };
     zuuluu['useGuildProfile'] = michal;

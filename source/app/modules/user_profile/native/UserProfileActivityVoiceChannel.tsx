@@ -414,12 +414,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = sizing.length;
                 kiloes = 3;
                 foxtra = sizing;
-                if(!(!(romeon <= kiloes))) { _fun00004_ip = 1028; continue _fun00003 }
- 1015:
+                if(!(!(romeon <= kiloes))) { _fun00004_ip = 1032; continue _fun00003 }
+ 1019:
                 backup = sizing.slice;
                 romeon = 0;
                 foxtra = backup.bind(sizing)(romeon, kiloes);
- 1028:
+ 1032:
                 romeon = foxtra.map;
                 yankee = function(argFoo) {
                     entity = argFoo;

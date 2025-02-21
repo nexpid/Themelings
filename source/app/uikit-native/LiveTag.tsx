@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = report.bind(entity)(yankee);
         yankee = romeon.isAndroid;
         yankee = yankee.bind(romeon)();
-        if(!yankee) { _fun00002_ip = 259; continue _fun00001 }
- 253:
+        if(!yankee) { _fun00002_ip = 255; continue _fun00001 }
+ 249:
         offset = -2;
- 259:
+ 255:
         verify['marginTop'] = offset;
         tangon['tagText'] = verify;
         tangon = golfie.bind(option)(tangon);

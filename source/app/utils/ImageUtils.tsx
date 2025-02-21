@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 181; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 179; continue _fun00009 }
  13:
                     oscard = zuuluu.type;
                     michal = null;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report[michal];
  49:
                     michal = 'image/png';
-                    if(!(michal === tangon)) { _fun00010_ip = 145; continue _fun00009 }
+                    if(!(michal === tangon)) { _fun00010_ip = 143; continue _fun00009 }
  57:
                     michal = zuuluu.text;
                     michal = michal.bind(zuuluu)();
@@ -374,14 +374,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  70:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 142; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 140; continue _fun00009 }
  76:
                     tangon = michal.indexOf;
                     zuuluu = 'IDAT';
                     oscard = tangon.bind(michal)(zuuluu);
                     report = 0;
                     zuuluu = oscard > report;
-                    if(!zuuluu) { _fun00010_ip = 139; continue _fun00009 }
+                    if(!zuuluu) { _fun00010_ip = 137; continue _fun00009 }
  101:
                     tangon = michal.substring;
                     oscard = tangon.bind(michal)(report, oscard);
@@ -390,11 +390,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(oscard)(tangon);
                     tangon = -1;
                     zuuluu = tangon !== report;
- 139:
+ 137:
                     return zuuluu;
- 142:
+ 140:
                     return michal;
- 145:
+ 143:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new verify[tangon](option, golfie);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 181:
+ 179:
                     return entity;
                 }
             };

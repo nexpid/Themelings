@@ -6694,6 +6694,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 zuuluu = michal.messageId;
                 zuuluu = michal.channelId;
+                zuuluu = michal.isReveal;
                 zuuluu = michal.attachmentId;
                 michal = michal.embedId;
                 return entity;

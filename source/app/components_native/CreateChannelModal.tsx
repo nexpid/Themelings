@@ -369,8 +369,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = michal;
             update = entity.createMode;
             var _closure2_slot2 = update;
-            kiloes = entity.guildId;
-            var _closure2_slot3 = kiloes;
+            vacuum = entity.guildId;
+            var _closure2_slot3 = vacuum;
             entity = entity.onChannelCreated;
             var _closure2_slot4 = entity;
             tangon = undefined;
@@ -436,14 +436,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = report.bind(verify)(zuuluu, michal);
             var _closure2_slot5 = offset;
             verify = null;
-            target = verify != option;
-            if(!target) { _fun00006_ip = 271; continue _fun00005 }
+            status = verify != option;
+            if(!status) { _fun00006_ip = 271; continue _fun00005 }
  245:
             report = option.features;
             zuuluu = report.has;
             michal = _closure1_slot15;
             michal = michal.COMMUNITY;
-            target = zuuluu.bind(report)(michal);
+            status = zuuluu.bind(report)(michal);
  271:
             report = _closure1_slot11;
             zuuluu = report.can;
@@ -468,8 +468,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify != report;
             report = 'CreateChannel: user cannot be undefined';
             report = backup.bind(tangon)(romeon, report);
-            variable36 = 36;
-            michal = michal[variable36];
+            variable37 = 36;
+            michal = michal[variable37];
             michal = zuuluu.bind(tangon)(michal);
             romeon = michal.bind(tangon)(offset);
             report = _closure1_slot4;
@@ -510,23 +510,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = backup[michal];
             report = yankee.bind(tangon)(michal);
             michal = report.useCanCreateStageChannelByGuild;
-            papara = michal.bind(report)(kiloes);
+            target = michal.bind(report)(vacuum);
             michal = 38;
             michal = backup[michal];
             report = yankee.bind(tangon)(michal);
             michal = report.useCanCreateForumChannel;
-            equals = michal.bind(report)(kiloes);
+            quebec = michal.bind(report)(vacuum);
             michal = 39;
             michal = backup[michal];
             report = yankee.bind(tangon)(michal);
             michal = report.useGuildEligibleForMediaChannels;
-            status = michal.bind(report)(option);
+            whisks = michal.bind(report)(option);
             michal = 40;
             michal = backup[michal];
             report = yankee.bind(tangon)(michal);
             michal = report.useNavigation;
-            vacuum = michal.bind(report)();
-            _closure2_slot12 = vacuum;
+            source = michal.bind(report)();
+            _closure2_slot12 = source;
             romeon = _closure1_slot1;
             ctrled = 41;
             michal = backup[ctrled];
@@ -535,8 +535,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot3;
             michal = 3;
             michal = report.bind(tangon)(option, michal);
-            source = michal[output];
-            _closure2_slot13 = source;
+            kiloes = michal[output];
+            _closure2_slot13 = kiloes;
             sizing = michal[zuuluu];
             option = michal[sequen];
             _closure2_slot14 = option;
@@ -573,7 +573,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = _closure1_slot4;
             report = config.useEffect;
             zuuluu = new Array(1);
-            zuuluu[0] = kiloes;
+            zuuluu[0] = vacuum;
             michal = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -595,15 +595,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot4;
             zuuluu = report.useEffect;
             michal = new Array(13);
-            michal[0] = vacuum;
+            michal[0] = source;
             michal[1] = limora;
             michal[2] = offset;
             michal[3] = cntext;
             michal[4] = record;
             michal[5] = sequen;
             michal[6] = echoed;
-            michal[7] = source;
-            michal[8] = kiloes;
+            michal[7] = kiloes;
+            michal[8] = vacuum;
             michal[9] = option;
             michal[10] = golfie;
             michal[11] = update;
@@ -845,7 +845,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             _closure2_slot17 = entity;
-            whisks = function(argFoo) { // Original name: handleTypeChange
+            equals = function(argFoo) { // Original name: handleTypeChange
                 tangon = argFoo;
                 zuuluu = _closure2_slot11;
                 entity = undefined;
@@ -896,32 +896,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.GUILD_CATEGORY;
             if(!(limora !== backup)) { _fun00006_ip = 1086; continue _fun00005 }
  1029:
-            vacuum = _closure1_slot0;
-            config = _closure1_slot2;
+            config = _closure1_slot0;
+            papara = _closure1_slot2;
             backup = 25;
-            kiloes = config[backup];
-            kiloes = vacuum.bind(tangon)(kiloes);
+            kiloes = papara[backup];
+            kiloes = config.bind(tangon)(kiloes);
             source = kiloes.intl;
             kiloes = source.string;
-            backup = config[backup];
-            backup = vacuum.bind(tangon)(backup);
+            backup = papara[backup];
+            backup = config.bind(tangon)(backup);
             backup = backup.t;
             backup = backup.PVbHDg;
             backup = kiloes.bind(source)(backup);
             _fun00006_ip = 1141; continue _fun00005;
  1086:
-            config = _closure1_slot0;
-            quebec = _closure1_slot2;
+            papara = _closure1_slot0;
+            variable36 = _closure1_slot2;
             kiloes = 25;
-            source = quebec[kiloes];
-            source = config.bind(tangon)(source);
-            vacuum = source.intl;
-            source = vacuum.string;
-            kiloes = quebec[kiloes];
-            kiloes = config.bind(tangon)(kiloes);
+            source = variable36[kiloes];
+            source = papara.bind(tangon)(source);
+            config = source.intl;
+            source = config.string;
+            kiloes = variable36[kiloes];
+            kiloes = papara.bind(tangon)(kiloes);
             kiloes = kiloes.t;
             kiloes = kiloes.OCAkGB;
-            backup = source.bind(vacuum)(kiloes);
+            backup = source.bind(config)(kiloes);
  1141:
             option['label'] = backup;
             kiloes = sizing.name;
@@ -940,41 +940,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = undefined;
             if(!kiloes) { _fun00006_ip = 1290; continue _fun00005 }
  1191:
-            quebec = _closure1_slot0;
-            config = _closure1_slot2;
+            variable36 = _closure1_slot0;
+            papara = _closure1_slot2;
             kiloes = 25;
-            output = config[kiloes];
-            output = quebec.bind(tangon)(output);
-            vacuum = output.intl;
-            source = vacuum.format;
-            kiloes = config[kiloes];
-            kiloes = quebec.bind(tangon)(kiloes);
+            output = papara[kiloes];
+            output = variable36.bind(tangon)(output);
+            config = output.intl;
+            source = config.format;
+            kiloes = papara[kiloes];
+            kiloes = variable36.bind(tangon)(kiloes);
             kiloes = kiloes.t;
             output = kiloes.s2ZzZW;
             kiloes = {};
-            config = config[variable36];
-            variable38 = quebec.bind(tangon)(config);
-            variable37 = variable38.computeChannelName;
-            variable41 = _closure1_slot13;
-            variable40 = _closure1_slot12;
-            variable39 = true;
-            variable43 = variable38;
-            variable42 = offset;
-            config = variable43[variable37](variable42, variable41, variable40, variable39, variable38);
-            kiloes['name'] = config;
-            backup = source.bind(vacuum)(output, kiloes);
+            papara = papara[variable37];
+            variable39 = variable36.bind(tangon)(papara);
+            variable38 = variable39.computeChannelName;
+            variable42 = _closure1_slot13;
+            variable41 = _closure1_slot12;
+            variable40 = true;
+            variable44 = variable39;
+            variable43 = offset;
+            papara = variable44[variable38](variable43, variable42, variable41, variable40, variable39);
+            kiloes['name'] = papara;
+            backup = source.bind(config)(output, kiloes);
  1290:
             _fun00006_ip = 1349; continue _fun00005;
  1292:
-            vacuum = _closure1_slot0;
-            config = _closure1_slot2;
+            config = _closure1_slot0;
+            papara = _closure1_slot2;
             kiloes = 25;
-            output = config[kiloes];
-            output = vacuum.bind(tangon)(output);
+            output = papara[kiloes];
+            output = config.bind(tangon)(output);
             source = output.intl;
             output = source.string;
-            kiloes = config[kiloes];
-            kiloes = vacuum.bind(tangon)(kiloes);
+            kiloes = papara[kiloes];
+            kiloes = config.bind(tangon)(kiloes);
             kiloes = kiloes.t;
             kiloes = kiloes.qBvLY2;
             backup = output.bind(source)(kiloes);
@@ -988,7 +988,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(tangon)(backup);
             kiloes = backup.TextField;
             backup = {'autoFocus': true, 'enableAndroidSanitizedInputWorkaround': true};
-            variable36 = true;
+            variable37 = true;
             backup['value'] = echoed;
             echoed = function(argFoo) { // Original name: onChange
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -1015,47 +1015,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.GUILD_FORUM;
             if(!(limora !== echoed)) { _fun00006_ip = 1499; continue _fun00005 }
  1440:
-            config = _closure1_slot0;
-            quebec = _closure1_slot2;
+            papara = _closure1_slot0;
+            variable36 = _closure1_slot2;
             echoed = 25;
-            source = quebec[echoed];
-            source = config.bind(tangon)(source);
-            vacuum = source.intl;
-            source = vacuum.string;
-            echoed = quebec[echoed];
-            echoed = config.bind(tangon)(echoed);
+            source = variable36[echoed];
+            source = papara.bind(tangon)(source);
+            config = source.intl;
+            source = config.string;
+            echoed = variable36[echoed];
+            echoed = papara.bind(tangon)(echoed);
             echoed = echoed.t;
             echoed = echoed.bw/b8P;
-            echoed = source.bind(vacuum)(echoed);
+            echoed = source.bind(config)(echoed);
             _fun00006_ip = 1556; continue _fun00005;
  1499:
-            quebec = _closure1_slot0;
-            variable37 = _closure1_slot2;
+            variable36 = _closure1_slot0;
+            variable38 = _closure1_slot2;
             source = 25;
-            vacuum = variable37[source];
-            vacuum = quebec.bind(tangon)(vacuum);
-            config = vacuum.intl;
-            vacuum = config.string;
-            source = variable37[source];
-            source = quebec.bind(tangon)(source);
+            config = variable38[source];
+            config = variable36.bind(tangon)(config);
+            papara = config.intl;
+            config = papara.string;
+            source = variable38[source];
+            source = variable36.bind(tangon)(source);
             source = source.t;
             source = source.5z1Xam;
-            echoed = vacuum.bind(config)(source);
+            echoed = config.bind(papara)(source);
  1556:
             _fun00006_ip = 1615; continue _fun00005;
  1558:
-            quebec = _closure1_slot0;
-            variable37 = _closure1_slot2;
+            variable36 = _closure1_slot0;
+            variable38 = _closure1_slot2;
             source = 25;
-            vacuum = variable37[source];
-            vacuum = quebec.bind(tangon)(vacuum);
-            config = vacuum.intl;
-            vacuum = config.string;
-            source = variable37[source];
-            source = quebec.bind(tangon)(source);
+            config = variable38[source];
+            config = variable36.bind(tangon)(config);
+            papara = config.intl;
+            config = papara.string;
+            source = variable38[source];
+            source = variable36.bind(tangon)(source);
             source = source.t;
             source = source.eTVbt7;
-            echoed = vacuum.bind(config)(source);
+            echoed = config.bind(papara)(source);
  1615:
             backup['placeholder'] = echoed;
             backup = output.bind(tangon)(kiloes, backup);
@@ -1065,7 +1065,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = yankee;
             yankee = verify == offset;
             offset = null;
-            if(!yankee) { _fun00006_ip = 2917; continue _fun00005 }
+            if(!yankee) { _fun00006_ip = 2962; continue _fun00005 }
  1656:
             backup = _closure1_slot22;
             romeon = _closure1_slot21;
@@ -1076,147 +1076,158 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(limora !== kiloes)) { _fun00006_ip = 2223; continue _fun00005 }
  1685:
             source = _closure1_slot22;
-            variable37 = _closure1_slot0;
-            variable38 = _closure1_slot2;
+            variable38 = _closure1_slot0;
+            variable39 = _closure1_slot2;
             kiloes = 52;
-            kiloes = variable38[kiloes];
-            kiloes = variable37.bind(tangon)(kiloes);
+            kiloes = variable39[kiloes];
+            kiloes = variable38.bind(tangon)(kiloes);
             echoed = kiloes.TableRowGroup;
             kiloes = {};
-            vacuum = 25;
-            config = variable38[vacuum];
-            config = variable37.bind(tangon)(config);
-            quebec = config.intl;
-            config = quebec.string;
-            vacuum = variable38[vacuum];
-            vacuum = variable37.bind(tangon)(vacuum);
-            vacuum = vacuum.t;
-            vacuum = vacuum.7ZcXGx;
-            vacuum = config.bind(quebec)(vacuum);
-            kiloes['title'] = vacuum;
-            config = _closure1_slot20;
-            variable37 = _closure1_slot27;
-            vacuum = {};
-            quebec = _closure1_slot14;
-            quebec = quebec.GUILD_TEXT;
-            vacuum['channelType'] = quebec;
-            quebec = _closure1_slot14;
-            quebec = quebec.GUILD_TEXT;
-            quebec = limora === quebec;
-            vacuum['selected'] = quebec;
-            vacuum['isPrivate'] = sequen;
-            vacuum['onPress'] = whisks;
-            config = config.bind(tangon)(variable37, vacuum);
-            vacuum = new Array(6);
-            vacuum[0] = config;
-            quebec = _closure1_slot20;
+            config = 25;
+            papara = variable39[config];
+            papara = variable38.bind(tangon)(papara);
+            variable36 = papara.intl;
+            papara = variable36.string;
+            config = variable39[config];
+            config = variable38.bind(tangon)(config);
+            config = config.t;
+            config = config.7ZcXGx;
+            config = papara.bind(variable36)(config);
+            kiloes['title'] = config;
+            papara = _closure1_slot20;
+            variable38 = _closure1_slot27;
             config = {};
-            variable38 = _closure1_slot14;
-            variable38 = variable38.GUILD_VOICE;
-            config['channelType'] = variable38;
-            variable38 = _closure1_slot14;
-            variable38 = variable38.GUILD_VOICE;
-            variable38 = limora === variable38;
-            config['selected'] = variable38;
+            variable36 = _closure1_slot14;
+            variable36 = variable36.GUILD_TEXT;
+            config['channelType'] = variable36;
+            variable36 = _closure1_slot14;
+            variable36 = variable36.GUILD_TEXT;
+            variable36 = limora === variable36;
+            config['selected'] = variable36;
             config['isPrivate'] = sequen;
-            config['onPress'] = whisks;
-            config = quebec.bind(tangon)(variable37, config);
-            vacuum[1] = config;
-            config = null;
-            if(!equals) { _fun00006_ip = 1960; continue _fun00005 }
+            config['onPress'] = equals;
+            papara = papara.bind(tangon)(variable38, config);
+            config = new Array(6);
+            config[0] = papara;
+            variable36 = _closure1_slot20;
+            papara = {};
+            variable39 = _closure1_slot14;
+            variable39 = variable39.GUILD_VOICE;
+            papara['channelType'] = variable39;
+            variable39 = _closure1_slot14;
+            variable39 = variable39.GUILD_VOICE;
+            variable39 = limora === variable39;
+            papara['selected'] = variable39;
+            papara['isPrivate'] = sequen;
+            papara['onPress'] = equals;
+            papara = variable36.bind(tangon)(variable38, papara);
+            config[1] = papara;
+            papara = null;
+            if(!quebec) { _fun00006_ip = 1960; continue _fun00005 }
  1901:
-            variable37 = _closure1_slot20;
-            quebec = _closure1_slot27;
-            equals = {};
-            variable38 = _closure1_slot14;
-            variable38 = variable38.GUILD_FORUM;
-            equals['channelType'] = variable38;
-            variable38 = _closure1_slot14;
-            variable38 = variable38.GUILD_FORUM;
-            variable38 = limora === variable38;
-            equals['selected'] = variable38;
-            equals['isPrivate'] = sequen;
-            equals['onPress'] = whisks;
-            config = variable37.bind(tangon)(quebec, equals);
+            variable38 = _closure1_slot20;
+            variable36 = _closure1_slot27;
+            quebec = {};
+            variable39 = _closure1_slot14;
+            variable39 = variable39.GUILD_FORUM;
+            quebec['channelType'] = variable39;
+            variable39 = _closure1_slot14;
+            variable39 = variable39.GUILD_FORUM;
+            variable39 = limora === variable39;
+            quebec['selected'] = variable39;
+            quebec['isPrivate'] = sequen;
+            quebec['onPress'] = equals;
+            papara = variable38.bind(tangon)(variable36, quebec);
  1960:
-            vacuum[2] = config;
-            config = null;
-            if(!status) { _fun00006_ip = 2033; continue _fun00005 }
+            config[2] = papara;
+            papara = null;
+            if(!whisks) { _fun00006_ip = 2033; continue _fun00005 }
  1969:
-            quebec = _closure1_slot20;
-            equals = _closure1_slot27;
-            status = {};
-            variable37 = _closure1_slot14;
-            variable37 = variable37.GUILD_MEDIA;
-            status['channelType'] = variable37;
-            variable37 = _closure1_slot14;
-            variable37 = variable37.GUILD_MEDIA;
-            variable37 = limora === variable37;
-            status['selected'] = variable37;
-            status['isPrivate'] = sequen;
-            status['isBeta'] = variable36;
-            status['onPress'] = whisks;
-            config = quebec.bind(tangon)(equals, status);
+            variable36 = _closure1_slot20;
+            quebec = _closure1_slot27;
+            whisks = {};
+            variable38 = _closure1_slot14;
+            variable38 = variable38.GUILD_MEDIA;
+            whisks['channelType'] = variable38;
+            variable38 = _closure1_slot14;
+            variable38 = variable38.GUILD_MEDIA;
+            variable38 = limora === variable38;
+            whisks['selected'] = variable38;
+            whisks['isPrivate'] = sequen;
+            whisks['isBeta'] = variable37;
+            whisks['onPress'] = equals;
+            papara = variable36.bind(tangon)(quebec, whisks);
  2033:
-            vacuum[3] = config;
-            config = null;
-            if(!target) { _fun00006_ip = 2136; continue _fun00005 }
+            config[3] = papara;
+            papara = null;
+            if(!status) { _fun00006_ip = 2136; continue _fun00005 }
  2042:
-            status = _closure1_slot0;
-            target = _closure1_slot2;
-            target = target[ctrled];
-            target = status.bind(tangon)(target);
-            target = target.CreateChannelMode;
-            target = target.PREMIUM_CHANNEL;
-            config = null;
-            if(!(update !== target)) { _fun00006_ip = 2136; continue _fun00005 }
+            whisks = _closure1_slot0;
+            status = _closure1_slot2;
+            status = status[ctrled];
+            status = whisks.bind(tangon)(status);
+            status = status.CreateChannelMode;
+            status = status.PREMIUM_CHANNEL;
+            papara = null;
+            if(!(update !== status)) { _fun00006_ip = 2136; continue _fun00005 }
  2077:
-            equals = _closure1_slot20;
+            quebec = _closure1_slot20;
+            whisks = _closure1_slot27;
+            status = {};
+            variable36 = _closure1_slot14;
+            variable36 = variable36.GUILD_ANNOUNCEMENT;
+            status['channelType'] = variable36;
+            variable36 = _closure1_slot14;
+            variable36 = variable36.GUILD_ANNOUNCEMENT;
+            variable36 = limora === variable36;
+            status['selected'] = variable36;
+            status['isPrivate'] = sequen;
+            status['onPress'] = equals;
+            papara = quebec.bind(tangon)(whisks, status);
+ 2136:
+            config[4] = papara;
+            papara = null;
+            if(!target) { _fun00006_ip = 2209; continue _fun00005 }
+ 2145:
+            papara = null;
+            if(sequen) { _fun00006_ip = 2209; continue _fun00005 }
+ 2150:
+            whisks = _closure1_slot20;
             status = _closure1_slot27;
             target = {};
             quebec = _closure1_slot14;
-            quebec = quebec.GUILD_ANNOUNCEMENT;
+            quebec = quebec.GUILD_STAGE_VOICE;
             target['channelType'] = quebec;
             quebec = _closure1_slot14;
-            quebec = quebec.GUILD_ANNOUNCEMENT;
+            quebec = quebec.GUILD_STAGE_VOICE;
             quebec = limora === quebec;
             target['selected'] = quebec;
             target['isPrivate'] = sequen;
-            target['onPress'] = whisks;
-            config = equals.bind(tangon)(status, target);
- 2136:
-            vacuum[4] = config;
-            config = null;
-            if(!papara) { _fun00006_ip = 2209; continue _fun00005 }
- 2145:
-            config = null;
-            if(sequen) { _fun00006_ip = 2209; continue _fun00005 }
- 2150:
-            status = _closure1_slot20;
-            target = _closure1_slot27;
-            papara = {};
-            equals = _closure1_slot14;
-            equals = equals.GUILD_STAGE_VOICE;
-            papara['channelType'] = equals;
-            equals = _closure1_slot14;
-            equals = equals.GUILD_STAGE_VOICE;
-            equals = limora === equals;
-            papara['selected'] = equals;
-            papara['isPrivate'] = sequen;
-            papara['onPress'] = whisks;
-            config = status.bind(tangon)(target, papara);
+            target['onPress'] = equals;
+            papara = whisks.bind(tangon)(status, target);
  2209:
-            vacuum[5] = config;
-            kiloes['children'] = vacuum;
+            config[5] = papara;
+            kiloes['children'] = config;
             output = source.bind(tangon)(echoed, kiloes);
  2223:
-            kiloes = new Array(2);
+            kiloes = new Array(3);
             kiloes[0] = output;
+            source = _closure1_slot20;
+            echoed = _closure1_slot1;
+            config = _closure1_slot2;
+            output = 53;
+            output = config[output];
+            echoed = echoed.bind(tangon)(output);
+            output = {};
+            output['guildId'] = vacuum;
+            output['channelType'] = limora;
+            output = source.bind(tangon)(echoed, output);
+            kiloes[1] = output;
             output = _closure1_slot14;
             echoed = output.GUILD_STAGE_VOICE;
             output = null;
-            if(!(limora !== echoed)) { _fun00006_ip = 2903; continue _fun00005 }
- 2250:
+            if(!(limora !== echoed)) { _fun00006_ip = 2948; continue _fun00005 }
+ 2295:
             source = _closure1_slot0;
             echoed = _closure1_slot2;
             echoed = echoed[ctrled];
@@ -1224,8 +1235,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.CreateChannelMode;
             echoed = echoed.PREMIUM_CHANNEL;
             output = null;
-            if(!(update !== echoed)) { _fun00006_ip = 2903; continue _fun00005 }
- 2288:
+            if(!(update !== echoed)) { _fun00006_ip = 2948; continue _fun00005 }
+ 2333:
             source = _closure1_slot22;
             update = _closure1_slot21;
             echoed = {};
@@ -1239,8 +1250,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = {};
             papara = _closure1_slot14;
             papara = papara.GUILD_CATEGORY;
-            if(!(limora !== papara)) { _fun00006_ip = 2426; continue _fun00005 }
- 2344:
+            if(!(limora !== papara)) { _fun00006_ip = 2471; continue _fun00005 }
+ 2389:
             papara = _closure1_slot8;
             papara = papara.bind(tangon)(limora);
             equals = _closure1_slot0;
@@ -1253,17 +1264,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = quebec[target];
             target = equals.bind(tangon)(target);
             target = target.t;
-            if(papara) { _fun00006_ip = 2413; continue _fun00005 }
- 2400:
+            if(papara) { _fun00006_ip = 2458; continue _fun00005 }
+ 2445:
             papara = target.hfbjIC;
             papara = status.bind(whisks)(papara);
-            _fun00006_ip = 2424; continue _fun00005;
- 2413:
+            _fun00006_ip = 2469; continue _fun00005;
+ 2458:
             target = target.cLjvKi;
             papara = status.bind(whisks)(target);
- 2424:
-            _fun00006_ip = 2481; continue _fun00005;
- 2426:
+ 2469:
+            _fun00006_ip = 2526; continue _fun00005;
+ 2471:
             equals = _closure1_slot0;
             quebec = _closure1_slot2;
             target = 25;
@@ -1276,20 +1287,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = target.t;
             target = target.RQUk6+;
             papara = status.bind(whisks)(target);
- 2481:
+ 2526:
             ctrled['description'] = papara;
             status = _closure1_slot20;
             target = _closure1_slot0;
             whisks = _closure1_slot2;
-            papara = 53;
+            papara = 54;
             papara = whisks[papara];
             papara = target.bind(tangon)(papara);
             target = papara.TableSwitchRow;
             papara = {};
             whisks = _closure1_slot14;
             whisks = whisks.GUILD_CATEGORY;
-            if(!(limora !== whisks)) { _fun00006_ip = 2588; continue _fun00005 }
- 2531:
+            if(!(limora !== whisks)) { _fun00006_ip = 2633; continue _fun00005 }
+ 2576:
             variable36 = _closure1_slot0;
             variable37 = _closure1_slot2;
             whisks = 25;
@@ -1302,8 +1313,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = whisks.t;
             whisks = whisks.aUI70t;
             whisks = equals.bind(quebec)(whisks);
-            _fun00006_ip = 2643; continue _fun00005;
- 2588:
+            _fun00006_ip = 2688; continue _fun00005;
+ 2633:
             variable37 = _closure1_slot0;
             variable38 = _closure1_slot2;
             equals = 25;
@@ -1316,12 +1327,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = equals.t;
             equals = equals.lEPAZ2;
             whisks = quebec.bind(variable36)(equals);
- 2643:
+ 2688:
             papara['label'] = whisks;
             quebec = _closure1_slot20;
             equals = _closure1_slot0;
             variable36 = _closure1_slot2;
-            whisks = 54;
+            whisks = 55;
             whisks = variable36[whisks];
             whisks = equals.bind(tangon)(whisks);
             equals = whisks.LockIcon;
@@ -1343,8 +1354,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = new Array(2);
             ctrled[0] = vacuum;
             vacuum = null;
-            if(!sequen) { _fun00006_ip = 2889; continue _fun00005 }
- 2735:
+            if(!sequen) { _fun00006_ip = 2934; continue _fun00005 }
+ 2780:
             config = _closure1_slot0;
             sequen = _closure1_slot2;
             whisks = 46;
@@ -1353,8 +1364,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.canCreatePrivateChannel;
             sequen = sequen.bind(config)(limora, cntext, record);
             vacuum = null;
-            if(sequen) { _fun00006_ip = 2889; continue _fun00005 }
- 2773:
+            if(sequen) { _fun00006_ip = 2934; continue _fun00005 }
+ 2818:
             record = _closure1_slot20;
             config = _closure1_slot6;
             sequen = {};
@@ -1363,7 +1374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = _closure1_slot20;
             papara = _closure1_slot1;
             status = _closure1_slot2;
-            equals = 55;
+            equals = 56;
             cntext = status[equals];
             papara = papara.bind(tangon)(cntext);
             cntext = {};
@@ -1381,21 +1392,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = target.bind(tangon)(papara, cntext);
             sequen['children'] = cntext;
             vacuum = record.bind(tangon)(config, sequen);
- 2889:
+ 2934:
             ctrled[1] = vacuum;
             echoed['children'] = ctrled;
             output = source.bind(tangon)(update, echoed);
- 2903:
-            kiloes[1] = output;
+ 2948:
+            kiloes[2] = output;
             yankee['children'] = kiloes;
             offset = backup.bind(tangon)(romeon, yankee);
- 2917:
+ 2962:
             option[1] = offset;
             offset = sizing.message;
             offset = verify != offset;
             verify = null;
-            if(!offset) { _fun00006_ip = 3036; continue _fun00005 }
- 2935:
+            if(!offset) { _fun00006_ip = 3081; continue _fun00005 }
+ 2980:
             romeon = _closure1_slot20;
             yankee = _closure1_slot6;
             offset = {};
@@ -1404,7 +1415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot20;
             backup = _closure1_slot1;
             echoed = _closure1_slot2;
-            output = 55;
+            output = 56;
             foxtra = echoed[output];
             backup = backup.bind(tangon)(foxtra);
             foxtra = {};
@@ -1419,7 +1430,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 3036:
+ 3081:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
@@ -1803,7 +1814,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot20;
             kiloes = _closure1_slot1;
             update = _closure1_slot2;
-            result = 55;
+            result = 56;
             backup = update[result];
             kiloes = kiloes.bind(tangon)(backup);
             backup = {};
@@ -1824,7 +1835,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot20;
             golfie = _closure1_slot0;
             foxtra = _closure1_slot2;
-            oscard = 56;
+            oscard = 57;
             oscard = foxtra[oscard];
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.AddMembersBody;
@@ -2154,7 +2165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'ADD_MODERATORS';
     report['ADD_MODERATORS'] = option;
     var _closure1_slot26 = report;
-    report = 61;
+    report = 62;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -2165,7 +2176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = entity;
         report = _closure1_slot1;
         golfie = _closure1_slot2;
-        zuuluu = 59;
+        zuuluu = 60;
         zuuluu = golfie[zuuluu];
         tangon = undefined;
         zuuluu = report.bind(tangon)(zuuluu);
@@ -2188,7 +2199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
-            foxtra = 57;
+            foxtra = 58;
             option = romeon[foxtra];
             offset = undefined;
             option = yankee.bind(offset)(option);
@@ -2271,7 +2282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot20;
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                entity = 58;
+                entity = 59;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 michal = michal.bind(zuuluu)(entity);
@@ -2293,7 +2304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = michal.initialStack;
         zuuluu = _closure1_slot20;
         michal = _closure1_slot0;
-        entity = 60;
+        entity = 61;
         entity = golfie[entity];
         entity = michal.bind(tangon)(entity);
         michal = entity.Navigator;

@@ -148,22 +148,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.POST_PREVIEW;
-                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2541; continue _fun00005 }
  28:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.GIFT;
-                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2541; continue _fun00005 }
  50:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.SAFETY_POLICY_NOTICE;
-                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2541; continue _fun00005 }
  72:
                 michal = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.SAFETY_SYSTEM_NOTIFICATION;
-                if(!(michal !== entity)) { _fun00006_ip = 2527; continue _fun00005 }
+                if(!(michal !== entity)) { _fun00006_ip = 2541; continue _fun00005 }
  94:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -173,12 +173,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(michal)(entity);
                 entity = zuuluu.isServerShopArticleEmbed;
                 entity = entity.bind(zuuluu)(tangon);
-                if(entity) { _fun00006_ip = 2521; continue _fun00005 }
+                if(entity) { _fun00006_ip = 2535; continue _fun00005 }
  133:
                 zuuluu = tangon.type;
                 entity = _closure1_slot4;
                 entity = entity.VOICE_CHANNEL;
-                if(!(zuuluu !== entity)) { _fun00006_ip = 2515; continue _fun00005 }
+                if(!(zuuluu !== entity)) { _fun00006_ip = 2529; continue _fun00005 }
  155:
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
@@ -211,9 +211,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = option.width;
                 offset = option.height;
                 entity = {};
-                papara = entity;
-                cntext = option;
-                option = copyDataProperties(papara, cntext);
+                status = entity;
+                target = option;
+                option = copyDataProperties(status, target);
                 verify = oscard;
                 if(!(report != oscard)) { _fun00006_ip = 335; continue _fun00005 }
  286:
@@ -224,12 +224,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup = foxtra.bind(michal)(option);
                 foxtra = backup.getImageSrc;
                 option = _closure2_slot1;
-                config = !option;
-                target = backup;
-                papara = oscard;
-                cntext = yankee;
-                record = offset;
-                verify = target[foxtra](papara, cntext, record, config, sequen);
+                cntext = !option;
+                sierra = backup;
+                status = oscard;
+                target = yankee;
+                papara = offset;
+                verify = sierra[foxtra](status, target, papara, cntext, record);
  335:
                 option = 'proxyURL';
                 entity[option] = verify;
@@ -244,12 +244,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = oscard;
  377:
                 oscard = _closure2_slot1;
-                config = !oscard;
-                target = verify;
-                papara = romeon;
-                cntext = yankee;
-                record = offset;
-                option = target[option](papara, cntext, record, config, sequen);
+                cntext = !oscard;
+                sierra = verify;
+                status = romeon;
+                target = yankee;
+                papara = offset;
+                option = sierra[option](status, target, papara, cntext, record);
                 oscard = 'url';
                 entity[oscard] = option;
                 golfie = entity;
@@ -375,18 +375,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = entity.tiktok;
  831:
                 entity = {};
-                papara = entity;
-                cntext = golfie;
-                option = copyDataProperties(papara, cntext);
+                status = entity;
+                target = golfie;
+                option = copyDataProperties(status, target);
                 option = 'showPlayButton';
                 entity[option] = verify;
                 oscard = entity;
                 _fun00006_ip = 928; continue _fun00005;
  859:
                 entity = {};
-                papara = entity;
-                cntext = golfie;
-                golfie = copyDataProperties(papara, cntext);
+                status = entity;
+                target = golfie;
+                golfie = copyDataProperties(status, target);
                 option = tangon.type;
                 golfie = _closure1_slot4;
                 golfie = golfie.GIFV;
@@ -412,9 +412,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(entity) { _fun00006_ip = 1001; continue _fun00005 }
  960:
                 entity = {};
-                papara = entity;
-                cntext = oscard;
-                oscard = copyDataProperties(papara, cntext);
+                status = entity;
+                target = oscard;
+                oscard = copyDataProperties(status, target);
                 golfie = _closure1_slot5;
                 oscard = tangon.video;
                 golfie = golfie.bind(michal)(oscard);
@@ -607,8 +607,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00006_ip = 1645; continue _fun00005;
  1443:
                 entity = tangon.footer;
-                result = entity.text;
-                kiloes = result;
+                output = entity.text;
+                kiloes = output;
                 if(!(report != echoed)) { _fun00006_ip = 1491; continue _fun00005 }
  1461:
                 entity = global;
@@ -616,12 +616,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sizing = entity.concat;
                 option = '';
                 entity = ' | ';
-                kiloes = sizing.bind(option)(result, entity, echoed);
+                kiloes = sizing.bind(option)(output, entity, echoed);
  1491:
                 entity = {};
-                cntext = tangon.footer;
-                papara = entity;
-                option = copyDataProperties(papara, cntext);
+                target = tangon.footer;
+                status = entity;
+                option = copyDataProperties(status, target);
                 option = 'content';
                 entity[option] = kiloes;
                 option = tangon.footer;
@@ -647,16 +647,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sizing = _closure1_slot2;
                 option = 2;
                 option = sizing[option];
-                result = kiloes.bind(michal)(option);
-                sizing = result.getImageSrc;
+                output = kiloes.bind(michal)(option);
+                sizing = output.getImageSrc;
                 option = _closure2_slot1;
-                config = !option;
+                cntext = !option;
                 option = 16;
-                target = result;
-                papara = echoed;
-                cntext = option;
-                record = option;
-                option = target[sizing](papara, cntext, record, config, sequen);
+                sierra = output;
+                status = echoed;
+                target = option;
+                papara = option;
+                option = sierra[sizing](status, target, papara, cntext, record);
                 entity['iconURL'] = option;
                 golfie = entity;
  1645:
@@ -687,36 +687,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00006_ip = 1816; continue _fun00005;
  1737:
                 kiloes = {};
-                cntext = tangon.author;
-                papara = kiloes;
-                sizing = copyDataProperties(papara, cntext);
-                result = _closure1_slot1;
+                target = tangon.author;
+                status = kiloes;
+                sizing = copyDataProperties(status, target);
+                output = _closure1_slot1;
                 echoed = _closure1_slot2;
                 sizing = 2;
                 sizing = echoed[sizing];
-                update = result.bind(michal)(sizing);
+                update = output.bind(michal)(sizing);
                 echoed = update.getImageSrc;
                 sizing = _closure2_slot1;
-                config = !sizing;
+                cntext = !sizing;
                 sizing = 16;
-                target = update;
-                papara = source;
-                cntext = sizing;
-                record = sizing;
-                result = target[echoed](papara, cntext, record, config, sequen);
+                sierra = update;
+                status = source;
+                target = sizing;
+                papara = sizing;
+                output = sierra[echoed](status, target, papara, cntext, record);
                 sizing = 'iconURL';
-                kiloes[sizing] = result;
+                kiloes[sizing] = output;
                 entity = kiloes;
  1816:
                 option = entity;
  1819:
-                result = _closure2_slot10;
-                if(!result) { _fun00006_ip = 1833; continue _fun00005 }
+                echoed = _closure2_slot10;
+                if(!echoed) { _fun00006_ip = 1833; continue _fun00005 }
  1826:
                 entity = _closure2_slot11;
-                result = !entity;
+                echoed = !entity;
  1833:
-                if(!result) { _fun00006_ip = 1873; continue _fun00005 }
+                if(!echoed) { _fun00006_ip = 1873; continue _fun00005 }
  1836:
                 kiloes = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -725,14 +725,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sizing = kiloes.bind(michal)(entity);
                 kiloes = sizing.isPendingScanVersion;
                 entity = tangon.contentScanVersion;
-                result = kiloes.bind(sizing)(entity);
+                echoed = kiloes.bind(sizing)(entity);
  1873:
                 update = _closure1_slot0;
                 source = _closure1_slot2;
                 entity = 9;
                 kiloes = source[entity];
-                echoed = update.bind(michal)(kiloes);
-                sizing = echoed.isMediaObscured;
+                output = update.bind(michal)(kiloes);
+                sizing = output.isMediaObscured;
                 kiloes = {};
                 entity = source[entity];
                 entity = update.bind(michal)(entity);
@@ -741,160 +741,166 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 kiloes['type'] = entity;
                 kiloes['media'] = tangon;
                 entity = _closure2_slot10;
-                kiloes = sizing.bind(echoed)(kiloes, entity);
+                source = sizing.bind(output)(kiloes, entity);
+                kiloes = source;
+                if(!source) { _fun00006_ip = 1951; continue _fun00005 }
+ 1947:
+                kiloes = _closure2_slot13;
+ 1951:
+                sizing = source;
+                if(!sizing) { _fun00006_ip = 1959; continue _fun00005 }
+ 1957:
+                sizing = false;
+ 1959:
                 entity = {};
-                update = tangon.id;
-                source = report != update;
-                sizing = '';
-                echoed = sizing;
-                if(!source) { _fun00006_ip = 1965; continue _fun00005 }
- 1962:
-                echoed = update;
- 1965:
-                entity['id'] = echoed;
-                update = tangon.type;
-                source = report != update;
-                echoed = undefined;
-                if(!source) { _fun00006_ip = 1986; continue _fun00005 }
+                ctrled = tangon.id;
+                vacuum = report != ctrled;
+                output = '';
+                update = output;
+                if(!vacuum) { _fun00006_ip = 1983; continue _fun00005 }
+ 1980:
+                update = ctrled;
  1983:
-                echoed = update;
- 1986:
-                entity['type'] = echoed;
-                update = _closure2_slot2;
-                echoed = sizing;
-                if(!update) { _fun00006_ip = 2065; continue _fun00005 }
- 2000:
-                vacuum = _closure1_slot0;
-                sequen = _closure1_slot2;
-                update = 10;
-                source = sequen[update];
-                source = vacuum.bind(michal)(source);
-                ctrled = source.intl;
-                source = ctrled.string;
-                update = sequen[update];
-                update = vacuum.bind(michal)(update);
-                update = update.t;
-                update = update.F+x38P;
-                source = source.bind(ctrled)(update);
-                update = source.toUpperCase;
-                echoed = update.bind(source)();
- 2065:
-                entity['spoiler'] = echoed;
-                echoed = sizing;
-                if(!kiloes) { _fun00006_ip = 2131; continue _fun00005 }
- 2076:
-                vacuum = _closure1_slot0;
-                sequen = _closure1_slot2;
-                update = 10;
-                source = sequen[update];
-                source = vacuum.bind(michal)(source);
-                ctrled = source.intl;
-                source = ctrled.string;
-                update = sequen[update];
-                update = vacuum.bind(michal)(update);
-                update = update.t;
-                update = update.SpxcUV;
-                echoed = source.bind(ctrled)(update);
- 2131:
-                entity['obscure'] = echoed;
-                if(!result) { _fun00006_ip = 2196; continue _fun00005 }
- 2139:
-                update = _closure1_slot0;
-                source = _closure1_slot2;
-                output = 10;
-                result = source[output];
-                result = update.bind(michal)(result);
-                echoed = result.intl;
-                result = echoed.string;
-                output = source[output];
-                output = update.bind(michal)(output);
-                output = output.t;
-                output = output.MRdR7+;
-                sizing = result.bind(echoed)(output);
- 2196:
-                entity['obscureAwaitingScan'] = sizing;
-                sizing = kiloes;
-                if(!kiloes) { _fun00006_ip = 2211; continue _fun00005 }
- 2207:
-                sizing = _closure2_slot13;
- 2211:
-                entity['verifyAge'] = sizing;
-                if(!kiloes) { _fun00006_ip = 2221; continue _fun00005 }
- 2219:
-                kiloes = false;
- 2221:
-                entity['obscureHideControls'] = kiloes;
+                entity['id'] = update;
+                ctrled = tangon.type;
+                vacuum = report != ctrled;
+                update = undefined;
+                if(!vacuum) { _fun00006_ip = 2004; continue _fun00005 }
+ 2001:
+                update = ctrled;
+ 2004:
+                entity['type'] = update;
+                ctrled = _closure2_slot2;
+                update = output;
+                if(!ctrled) { _fun00006_ip = 2083; continue _fun00005 }
+ 2018:
+                config = _closure1_slot0;
+                record = _closure1_slot2;
+                ctrled = 10;
+                vacuum = record[ctrled];
+                vacuum = config.bind(michal)(vacuum);
+                sequen = vacuum.intl;
+                vacuum = sequen.string;
+                ctrled = record[ctrled];
+                ctrled = config.bind(michal)(ctrled);
+                ctrled = ctrled.t;
+                ctrled = ctrled.F+x38P;
+                vacuum = vacuum.bind(sequen)(ctrled);
+                ctrled = vacuum.toUpperCase;
+                update = ctrled.bind(vacuum)();
+ 2083:
+                entity['spoiler'] = update;
+                update = output;
+                if(!source) { _fun00006_ip = 2149; continue _fun00005 }
+ 2094:
+                sequen = _closure1_slot0;
+                config = _closure1_slot2;
+                source = 10;
+                ctrled = config[source];
+                ctrled = sequen.bind(michal)(ctrled);
+                vacuum = ctrled.intl;
+                ctrled = vacuum.string;
+                source = config[source];
+                source = sequen.bind(michal)(source);
+                source = source.t;
+                source = source.SpxcUV;
+                update = ctrled.bind(vacuum)(source);
+ 2149:
+                entity['obscure'] = update;
+                if(!echoed) { _fun00006_ip = 2214; continue _fun00005 }
+ 2157:
+                source = _closure1_slot0;
+                ctrled = _closure1_slot2;
+                result = 10;
+                echoed = ctrled[result];
+                echoed = source.bind(michal)(echoed);
+                update = echoed.intl;
+                echoed = update.string;
+                result = ctrled[result];
+                result = source.bind(michal)(result);
+                result = result.t;
+                result = result.MRdR7+;
+                output = echoed.bind(update)(result);
+ 2214:
+                entity['obscureAwaitingScan'] = output;
+                entity['verifyAge'] = kiloes;
+                entity['obscureHideControls'] = sizing;
+                if(kiloes) { _fun00006_ip = 2235; continue _fun00005 }
+ 2232:
+                kiloes = sizing;
+ 2235:
+                entity['obscureIsOpaque'] = kiloes;
                 sizing = tangon.provider;
                 output = report != sizing;
                 kiloes = undefined;
-                if(!output) { _fun00006_ip = 2244; continue _fun00005 }
- 2241:
+                if(!output) { _fun00006_ip = 2258; continue _fun00005 }
+ 2255:
                 kiloes = sizing;
- 2244:
+ 2258:
                 entity['provider'] = kiloes;
                 entity['author'] = option;
                 option = tangon.rawTitle;
                 entity['rawTitle'] = option;
                 kiloes = report != backup;
                 option = undefined;
-                if(!kiloes) { _fun00006_ip = 2277; continue _fun00005 }
- 2274:
+                if(!kiloes) { _fun00006_ip = 2291; continue _fun00005 }
+ 2288:
                 option = backup;
- 2277:
+ 2291:
                 entity['title'] = option;
                 backup = tangon.url;
                 kiloes = report != backup;
                 option = undefined;
-                if(!kiloes) { _fun00006_ip = 2298; continue _fun00005 }
- 2295:
+                if(!kiloes) { _fun00006_ip = 2312; continue _fun00005 }
+ 2309:
                 option = backup;
- 2298:
+ 2312:
                 entity['url'] = option;
                 option = tangon.rawDescription;
                 entity['rawDescription'] = option;
                 backup = report != foxtra;
                 option = undefined;
-                if(!backup) { _fun00006_ip = 2325; continue _fun00005 }
- 2322:
+                if(!backup) { _fun00006_ip = 2339; continue _fun00005 }
+ 2336:
                 option = foxtra;
- 2325:
+ 2339:
                 entity['description'] = option;
                 foxtra = report != romeon;
                 option = undefined;
-                if(!foxtra) { _fun00006_ip = 2341; continue _fun00005 }
- 2338:
+                if(!foxtra) { _fun00006_ip = 2355; continue _fun00005 }
+ 2352:
                 option = romeon;
- 2341:
+ 2355:
                 entity['thumbnail'] = option;
                 romeon = report != yankee;
                 option = undefined;
-                if(!romeon) { _fun00006_ip = 2358; continue _fun00005 }
- 2355:
+                if(!romeon) { _fun00006_ip = 2372; continue _fun00005 }
+ 2369:
                 option = yankee;
- 2358:
+ 2372:
                 entity['image'] = option;
                 yankee = report != offset;
                 option = undefined;
-                if(!yankee) { _fun00006_ip = 2375; continue _fun00005 }
- 2372:
+                if(!yankee) { _fun00006_ip = 2389; continue _fun00005 }
+ 2386:
                 option = offset;
- 2375:
+ 2389:
                 entity['images'] = option;
                 offset = report != verify;
                 option = undefined;
-                if(!offset) { _fun00006_ip = 2392; continue _fun00005 }
- 2389:
+                if(!offset) { _fun00006_ip = 2406; continue _fun00005 }
+ 2403:
                 option = verify;
- 2392:
+ 2406:
                 entity['fields'] = option;
                 entity['footer'] = golfie;
                 option = tangon.video;
                 verify = report != option;
                 golfie = undefined;
-                if(!verify) { _fun00006_ip = 2420; continue _fun00005 }
- 2417:
+                if(!verify) { _fun00006_ip = 2434; continue _fun00005 }
+ 2431:
                 golfie = option;
- 2420:
+ 2434:
                 entity['video'] = golfie;
                 entity['borderLeftColor'] = oscard;
                 oscard = _closure2_slot6;
@@ -907,27 +913,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = tangon.referenceId;
                 golfie = report != oscard;
                 tangon = undefined;
-                if(!golfie) { _fun00006_ip = 2487; continue _fun00005 }
- 2484:
+                if(!golfie) { _fun00006_ip = 2501; continue _fun00005 }
+ 2498:
                 tangon = oscard;
- 2487:
+ 2501:
                 entity['referenceId'] = tangon;
                 tangon = _closure2_slot9;
                 tangon = report != tangon;
                 michal = undefined;
-                if(!tangon) { _fun00006_ip = 2509; continue _fun00005 }
- 2505:
+                if(!tangon) { _fun00006_ip = 2523; continue _fun00005 }
+ 2519:
                 michal = _closure2_slot9;
- 2509:
+ 2523:
                 entity['backgroundColor'] = michal;
                 return entity;
- 2515:
+ 2529:
                 entity = new Array(0);
                 return entity;
- 2521:
+ 2535:
                 entity = new Array(0);
                 return entity;
- 2527:
+ 2541:
                 entity = new Array(0);
                 return entity;
             }

@@ -666,15 +666,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             foxtra = null;
                             backup = foxtra == verify;
                             verify = undefined;
-                            if(backup) { _fun00010_ip = 205; continue _fun00009 }
- 195:
+                            if(backup) { _fun00010_ip = 201; continue _fun00009 }
+ 191:
                             backup = _closure2_slot5;
                             verify = backup.animation;
+ 201:
+                            if(!(foxtra == verify)) { _fun00010_ip = 209; continue _fun00009 }
  205:
-                            if(!(foxtra == verify)) { _fun00010_ip = 213; continue _fun00009 }
- 209:
                             verify = _closure2_slot2;
- 213:
+ 209:
                             verify = offset.bind(entity)(verify);
                             option[2] = verify;
                             yankee = _closure1_slot12;

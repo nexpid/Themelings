@@ -953,10 +953,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = oscard.bind(report)(golfie, zuuluu);
                 golfie = report.logger;
                 oscard = golfie.info;
-                offset = michal.JSON;
-                verify = offset.stringify;
-                option = 4;
-                verify = verify.bind(offset)(zuuluu, entity, option);
+                verify = michal.JSON;
+                option = verify.stringify;
+                verify = option.bind(verify)(zuuluu);
                 michal = michal.HermesInternal;
                 option = michal.concat;
                 michal = 'updateVideoQuality: ';

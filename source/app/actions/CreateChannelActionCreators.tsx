@@ -64,6 +64,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             sizing = 'CREATE_CHANNEL_MODAL_SUBMIT';
             report['type'] = sizing;
+            report['guildId'] = yankee;
+            report['channelType'] = verify;
             report = backup.bind(kiloes)(report);
             report = {};
             report['type'] = verify;
@@ -71,38 +73,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['permission_overwrites'] = tangon;
             tangon = null;
             foxtra = tangon != romeon;
-            if(!foxtra) { _fun00002_ip = 151; continue _fun00001 }
- 143:
+            if(!foxtra) { _fun00002_ip = 160; continue _fun00001 }
+ 152:
             backup = _closure1_slot4;
             foxtra = romeon !== backup;
- 151:
-            if(!foxtra) { _fun00002_ip = 160; continue _fun00001 }
- 154:
-            report['bitrate'] = romeon;
  160:
+            if(!foxtra) { _fun00002_ip = 169; continue _fun00001 }
+ 163:
+            report['bitrate'] = romeon;
+ 169:
             romeon = tangon != offset;
-            if(!romeon) { _fun00002_ip = 173; continue _fun00001 }
- 167:
-            foxtra = 0;
-            romeon = offset > foxtra;
- 173:
             if(!romeon) { _fun00002_ip = 182; continue _fun00001 }
  176:
-            report['user_limit'] = offset;
+            foxtra = 0;
+            romeon = offset > foxtra;
  182:
-            if(!(tangon != golfie)) { _fun00002_ip = 192; continue _fun00001 }
- 186:
+            if(!romeon) { _fun00002_ip = 191; continue _fun00001 }
+ 185:
+            report['user_limit'] = offset;
+ 191:
+            if(!(tangon != golfie)) { _fun00002_ip = 201; continue _fun00001 }
+ 195:
             report['parent_id'] = golfie;
- 192:
+ 201:
             golfie = _closure1_slot5;
             golfie = golfie.GUILD_STORE;
-            if(!(verify === golfie)) { _fun00002_ip = 225; continue _fun00001 }
- 206:
-            if(!(tangon != zuuluu)) { _fun00002_ip = 367; continue _fun00001 }
- 213:
+            if(!(verify === golfie)) { _fun00002_ip = 234; continue _fun00001 }
+ 215:
+            if(!(tangon != zuuluu)) { _fun00002_ip = 376; continue _fun00001 }
+ 222:
             report['sku_id'] = zuuluu;
             report['branch_id'] = michal;
- 225:
+ 234:
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
             michal = 4;
@@ -243,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 367:
+ 376:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;

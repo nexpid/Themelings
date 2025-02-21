@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = oscard;
             oscard = report.theme;
             report = null;
-            if(!(golfie === oscard)) { _fun00006_ip = 402; continue _fun00005 }
+            if(!(golfie === oscard)) { _fun00006_ip = 398; continue _fun00005 }
  331:
             option = _closure1_slot6;
             golfie = _closure1_slot3;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 402:
+ 398:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

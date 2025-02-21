@@ -18,6 +18,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['RECENT_ACTIVITY'] = entity;
     entity = 'overlay_invites';
     michal['OVERLAY_INVITES'] = entity;
+    entity = 'admin';
+    michal['ADMIN'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

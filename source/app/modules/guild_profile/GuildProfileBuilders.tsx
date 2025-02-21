@@ -337,50 +337,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: buildGuildProfileFromServer
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = argFoo;
+            michal = argFoo;
             entity = {};
-            michal = zuuluu.id;
-            entity['id'] = michal;
-            michal = zuuluu.name;
-            entity['name'] = michal;
-            michal = zuuluu.description;
-            entity['description'] = michal;
-            michal = zuuluu.icon_hash;
-            entity['icon'] = michal;
-            michal = zuuluu.online_count;
-            entity['onlineCount'] = michal;
-            michal = zuuluu.member_count;
-            entity['memberCount'] = michal;
-            michal = zuuluu.brand_color_primary;
-            entity['brandColorPrimary'] = michal;
-            michal = zuuluu.visibility;
-            entity['visibility'] = michal;
+            zuuluu = michal.id;
+            entity['id'] = zuuluu;
+            zuuluu = michal.name;
+            entity['name'] = zuuluu;
+            zuuluu = michal.description;
+            entity['description'] = zuuluu;
+            zuuluu = michal.icon_hash;
+            entity['icon'] = zuuluu;
+            zuuluu = michal.online_count;
+            entity['onlineCount'] = zuuluu;
+            zuuluu = michal.member_count;
+            entity['memberCount'] = zuuluu;
+            zuuluu = michal.brand_color_primary;
+            entity['brandColorPrimary'] = zuuluu;
+            zuuluu = michal.visibility;
+            entity['visibility'] = zuuluu;
             golfie = _closure1_slot8;
-            oscard = zuuluu.id;
-            report = zuuluu.traits;
-            michal = null;
-            if(!(michal == report)) { _fun00012_ip = 114; continue _fun00011 }
+            oscard = michal.id;
+            report = michal.traits;
+            zuuluu = null;
+            if(!(zuuluu == report)) { _fun00012_ip = 114; continue _fun00011 }
  110:
             report = new Array(0);
  114:
             tangon = undefined;
             tangon = golfie.bind(tangon)(oscard, report);
             entity['traits'] = tangon;
-            tangon = zuuluu.game_application_ids;
-            if(!(michal == tangon)) { _fun00012_ip = 141; continue _fun00011 }
+            tangon = michal.game_application_ids;
+            if(!(zuuluu == tangon)) { _fun00012_ip = 141; continue _fun00011 }
  137:
             tangon = new Array(0);
  141:
             entity['gameApplicationIds'] = tangon;
-            tangon = zuuluu.game_activity;
-            if(!(michal != tangon)) { _fun00012_ip = 198; continue _fun00011 }
+            oscard = michal.game_activity;
+            if(!(zuuluu != oscard)) { _fun00012_ip = 198; continue _fun00011 }
  156:
-            michal = global;
-            zuuluu = michal.Object;
-            michal = zuuluu.entries;
-            report = michal.bind(zuuluu)(tangon);
-            tangon = report.reduce;
-            zuuluu = function(argFoo, argBar) {
+            tangon = global;
+            report = tangon.Object;
+            tangon = report.entries;
+            golfie = tangon.bind(report)(oscard);
+            oscard = golfie.reduce;
+            report = function(argFoo, argBar) {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = argFoo;
@@ -424,13 +424,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = {};
-            michal = tangon.bind(report)(zuuluu, michal);
+            tangon = {};
+            tangon = oscard.bind(golfie)(report, tangon);
             _fun00012_ip = 200; continue _fun00011;
  198:
-            michal = {};
+            tangon = {};
  200:
-            entity['gameActivity'] = michal;
+            entity['gameActivity'] = tangon;
+            michal = michal.features;
+            if(!(zuuluu == michal)) { _fun00012_ip = 219; continue _fun00011 }
+ 215:
+            michal = new Array(0);
+ 219:
+            entity['features'] = michal;
             return entity;
         }
     };

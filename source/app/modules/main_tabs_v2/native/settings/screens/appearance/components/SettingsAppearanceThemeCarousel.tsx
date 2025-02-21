@@ -684,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot11;
             michal = _closure1_slot10;
             report = {};
-            if(entity) { _fun00004_ip = 1245; continue _fun00003 }
+            if(entity) { _fun00004_ip = 1241; continue _fun00003 }
  613:
             golfie = _closure1_slot11;
             oscard = _closure1_slot4;
@@ -742,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[0] = oscard;
             golfie = _closure1_slot4;
             oscard = {};
-            if(output) { _fun00004_ip = 1068; continue _fun00003 }
+            if(output) { _fun00004_ip = 1064; continue _fun00003 }
  856:
             ctrled = _closure1_slot11;
             source = _closure1_slot10;
@@ -789,8 +789,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum[1] = quebec;
             update['children'] = vacuum;
             update = ctrled.bind(tangon)(source, update);
-            _fun00004_ip = 1131; continue _fun00003;
- 1068:
+            _fun00004_ip = 1127; continue _fun00003;
+ 1064:
             vacuum = _closure1_slot9;
             ctrled = _closure1_slot5;
             source = {};
@@ -824,7 +824,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = quebec.bind(papara)(config);
             source['children'] = config;
             update = vacuum.bind(tangon)(ctrled, source);
- 1131:
+ 1127:
             oscard['children'] = update;
             oscard = verify.bind(tangon)(golfie, oscard);
             entity[1] = oscard;
@@ -847,13 +847,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[2] = oscard;
             report['children'] = entity;
             entity = report;
-            _fun00004_ip = 2022; continue _fun00003;
- 1245:
+            _fun00004_ip = 2014; continue _fun00003;
+ 1241:
             verify = _closure1_slot9;
             golfie = _closure1_slot4;
             oscard = {};
-            if(output) { _fun00004_ip = 1473; continue _fun00003 }
- 1261:
+            if(output) { _fun00004_ip = 1465; continue _fun00003 }
+ 1257:
             update = _closure1_slot11;
             result = _closure1_slot10;
             output = {};
@@ -899,8 +899,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source[1] = ctrled;
             output['children'] = source;
             output = update.bind(tangon)(result, output);
-            _fun00004_ip = 1538; continue _fun00003;
- 1473:
+            _fun00004_ip = 1530; continue _fun00003;
+ 1465:
             source = _closure1_slot9;
             update = _closure1_slot5;
             result = {};
@@ -935,7 +935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = vacuum.bind(papara)(ctrled);
             result['children'] = ctrled;
             output = source.bind(tangon)(update, result);
- 1538:
+ 1530:
             oscard['children'] = output;
             golfie = verify.bind(tangon)(golfie, oscard);
             oscard = new Array(3);
@@ -950,8 +950,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.colors;
             output = offset != output;
             offset = null;
-            if(!output) { _fun00004_ip = 1678; continue _fun00003 }
- 1596:
+            if(!output) { _fun00004_ip = 1670; continue _fun00003 }
+ 1588:
             ctrled = _closure1_slot9;
             result = _closure1_slot12;
             output = {};
@@ -971,7 +971,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.SMALL_20;
             output['size'] = vacuum;
             offset = ctrled.bind(tangon)(result, output);
- 1678:
+ 1670:
             vacuum = new Array(2);
             vacuum[0] = offset;
             offset = _closure1_slot9;
@@ -1074,7 +1074,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[2] = golfie;
             report['children'] = oscard;
             entity = report;
- 2022:
+ 2014:
             oscard = zuuluu.bind(tangon)(michal, entity);
             zuuluu = _closure1_slot11;
             michal = _closure1_slot4;

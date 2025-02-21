@@ -2426,7 +2426,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = golfie;
  51:
                         zuuluu = tangon.bind(option)(michal, zuuluu);
-                        if(zuuluu) { _fun00034_ip = 897; continue _fun00033 }
+                        if(zuuluu) { _fun00034_ip = 901; continue _fun00033 }
  63:
                         zuuluu = michal.currentControlsMode;
                         tangon = michal.mode;
@@ -2436,21 +2436,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = michal.safeArea;
                         michal = _closure1_slot10;
                         michal = michal.DISMISSED;
-                        if(!(michal !== tangon)) { _fun00034_ip = 825; continue _fun00033 }
+                        if(!(michal !== tangon)) { _fun00034_ip = 829; continue _fun00033 }
  115:
                         michal = _closure1_slot10;
                         michal = michal.PIP;
-                        if(!(michal !== tangon)) { _fun00034_ip = 825; continue _fun00033 }
+                        if(!(michal !== tangon)) { _fun00034_ip = 829; continue _fun00033 }
  132:
                         michal = _closure1_slot10;
                         michal = michal.PANEL;
                         michal = _closure1_slot14;
                         michal = michal.RESET;
-                        if(!(michal !== zuuluu)) { _fun00034_ip = 744; continue _fun00033 }
+                        if(!(michal !== zuuluu)) { _fun00034_ip = 748; continue _fun00033 }
  159:
                         michal = _closure1_slot14;
                         michal = michal.HIDDEN;
-                        if(!(michal !== zuuluu)) { _fun00034_ip = 617; continue _fun00033 }
+                        if(!(michal !== zuuluu)) { _fun00034_ip = 621; continue _fun00033 }
  176:
                         michal = _closure1_slot14;
                         michal = michal.FLOATING_DEFAULT;
@@ -2458,7 +2458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  193:
                         michal = _closure1_slot14;
                         michal = michal.DRAWER;
-                        if(!(michal === zuuluu)) { _fun00034_ip = 897; continue _fun00033 }
+                        if(!(michal === zuuluu)) { _fun00034_ip = 901; continue _fun00033 }
  210:
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
@@ -2520,7 +2520,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['width'] = yankee;
                         michal['height'] = offset;
                         michal = zuuluu.bind(tangon)(michal);
-                        _fun00034_ip = 897; continue _fun00033;
+                        _fun00034_ip = 901; continue _fun00033;
  486:
                         tangon = _closure3_slot0;
                         zuuluu = tangon.set;
@@ -2546,17 +2546,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['width'] = verify;
                         michal['height'] = option;
                         michal = zuuluu.bind(tangon)(michal);
-                        _fun00034_ip = 897; continue _fun00033;
- 617:
+                        _fun00034_ip = 901; continue _fun00033;
+ 621:
                         zuuluu = _closure3_slot1;
                         tangon = _closure3_slot0;
-                        if(zuuluu) { _fun00034_ip = 700; continue _fun00033 }
- 631:
+                        if(zuuluu) { _fun00034_ip = 704; continue _fun00033 }
+ 635:
                         zuuluu = tangon.get;
                         zuuluu = zuuluu.bind(tangon)();
                         zuuluu = zuuluu.hidden;
-                        if(zuuluu) { _fun00034_ip = 897; continue _fun00033 }
- 652:
+                        if(zuuluu) { _fun00034_ip = 901; continue _fun00033 }
+ 656:
                         option = _closure3_slot0;
                         zuuluu = option.set;
                         michal = {};
@@ -2568,8 +2568,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = 'hidden';
                         michal[verify] = offset;
                         michal = zuuluu.bind(option)(michal);
-                        _fun00034_ip = 897; continue _fun00033;
- 700:
+                        _fun00034_ip = 901; continue _fun00033;
+ 704:
                         zuuluu = tangon.set;
                         michal = {};
                         option = tangon.get;
@@ -2580,8 +2580,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = 'hidden';
                         michal[option] = verify;
                         michal = zuuluu.bind(tangon)(michal);
-                        _fun00034_ip = 897; continue _fun00033;
- 744:
+                        _fun00034_ip = 901; continue _fun00033;
+ 748:
                         zuuluu = _closure1_slot0;
                         tangon = _closure1_slot2;
                         michal = 11;
@@ -2593,26 +2593,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = {};
                         option = oscard == golfie;
                         tangon = undefined;
-                        if(option) { _fun00034_ip = 798; continue _fun00033 }
- 792:
+                        if(option) { _fun00034_ip = 802; continue _fun00033 }
+ 796:
                         tangon = golfie.currentControlsMode;
- 798:
-                        if(!(oscard == tangon)) { _fun00034_ip = 812; continue _fun00033 }
  802:
+                        if(!(oscard == tangon)) { _fun00034_ip = 816; continue _fun00033 }
+ 806:
                         report = _closure1_slot14;
                         tangon = report.FLOATING_DEFAULT;
- 812:
+ 816:
                         michal['mode'] = tangon;
                         michal = zuuluu.bind(entity)(michal);
                         michal = undefined;
                         return michal;
- 825:
+ 829:
                         tangon = _closure3_slot0;
                         michal = tangon.get;
                         michal = michal.bind(tangon)();
                         michal = michal.hidden;
-                        if(michal) { _fun00034_ip = 893; continue _fun00033 }
- 850:
+                        if(michal) { _fun00034_ip = 897; continue _fun00033 }
+ 854:
                         report = _closure3_slot0;
                         tangon = report.set;
                         zuuluu = {};
@@ -2624,10 +2624,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = 'hidden';
                         zuuluu[oscard] = golfie;
                         michal = tangon.bind(report)(zuuluu);
- 893:
+ 897:
                         michal = undefined;
                         return michal;
- 897:
+ 901:
                         return entity;
                     }
                 };

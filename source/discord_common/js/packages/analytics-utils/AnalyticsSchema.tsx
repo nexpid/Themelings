@@ -193,6 +193,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GUILD_SETTINGS_AUDIT_LOG_V2'] = michal;
     michal = 'impression_guild_settings_bans';
     tangon['GUILD_SETTINGS_BANS'] = michal;
+    michal = 'impression_guild_settings_boost_perks';
+    tangon['GUILD_SETTINGS_BOOST_PERKS'] = michal;
     michal = 'impression_guild_settings_boost_status';
     tangon['GUILD_SETTINGS_BOOST_STATUS'] = michal;
     michal = 'impression_guild_settings_channels';

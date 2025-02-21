@@ -1,11 +1,11 @@
 // app/modules/guild_profile/GuildProfileActionCreators.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
     entity = function() { // Original name: _fetchGuildTopGames
         report = undefined;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = michal.HTTP;
                     tangon = oscard.get;
                     michal = {};
-                    verify = _closure1_slot5;
+                    verify = _closure1_slot6;
                     option = verify.GUILD_TOP_GAMES;
                     golfie = argFoo;
                     golfie = option.bind(verify)(golfie);
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
+        _closure1_slot7 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -70,29 +70,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     verify = entity.Object;
-    option = verify.defineProperty;
+    golfie = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
+    golfie = oscard[tangon];
+    golfie = option.bind(entity)(golfie);
+    var _closure1_slot4 = golfie;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildProfileFetchStatus;
+    var _closure1_slot5 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -106,47 +110,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = argBar;
             var _closure2_slot0 = offset;
             zuuluu = null;
-            if(!(zuuluu != offset)) { _fun00004_ip = 309; continue _fun00003 }
+            if(!(zuuluu != offset)) { _fun00004_ip = 316; continue _fun00003 }
  21:
             oscard = _closure1_slot4;
-            entity = oscard.getIsFetching;
-            entity = entity.bind(oscard)(offset);
+            entity = oscard.getFetchStatus;
+            golfie = entity.bind(oscard)(offset);
+            entity = _closure1_slot5;
+            entity = entity.FETCHING;
             michal = oscard.getLastSyncTimestamp;
-            yankee = michal.bind(oscard)(offset);
+            romeon = michal.bind(oscard)(offset);
             michal = oscard.getProfile;
             oscard = michal.bind(oscard)(offset);
             michal = global;
-            verify = michal.Date;
-            golfie = verify.now;
-            verify = golfie.bind(verify)();
-            romeon = zuuluu != yankee;
-            golfie = 0;
-            if(!romeon) { _fun00004_ip = 92; continue _fun00003 }
- 89:
-            golfie = yankee;
- 92:
-            verify = verify - golfie;
-            if(!entity) { _fun00004_ip = 124; continue _fun00003 }
+            yankee = michal.Date;
+            verify = yankee.now;
+            yankee = verify.bind(yankee)();
+            foxtra = zuuluu != romeon;
+            verify = 0;
+            if(!foxtra) { _fun00004_ip = 102; continue _fun00003 }
  99:
-            if(report) { _fun00004_ip = 124; continue _fun00003 }
+            verify = romeon;
  102:
+            verify = yankee - verify;
+            if(!(golfie === entity)) { _fun00004_ip = 135; continue _fun00003 }
+ 110:
+            if(report) { _fun00004_ip = 135; continue _fun00003 }
+ 113:
             golfie = michal.Promise;
             entity = golfie.resolve;
             entity = entity.bind(golfie)(zuuluu);
-            _fun00004_ip = 307; continue _fun00003;
- 124:
-            if(!(zuuluu != oscard)) { _fun00004_ip = 163; continue _fun00003 }
- 128:
+            _fun00004_ip = 314; continue _fun00003;
+ 135:
+            if(!(zuuluu != oscard)) { _fun00004_ip = 174; continue _fun00003 }
+ 139:
             golfie = 60000;
-            if(!(!(verify > golfie))) { _fun00004_ip = 163; continue _fun00003 }
- 138:
-            if(report) { _fun00004_ip = 163; continue _fun00003 }
- 141:
+            if(!(!(verify > golfie))) { _fun00004_ip = 174; continue _fun00003 }
+ 149:
+            if(report) { _fun00004_ip = 174; continue _fun00003 }
+ 152:
             report = michal.Promise;
             michal = report.resolve;
             michal = michal.bind(report)(oscard);
-            _fun00004_ip = 304; continue _fun00003;
- 163:
+            _fun00004_ip = 311; continue _fun00003;
+ 174:
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
             report = 3;
@@ -166,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = report.HTTP;
             oscard = golfie.get;
             report = {};
-            verify = _closure1_slot5;
+            verify = _closure1_slot6;
             option = verify.GUILD_PROFILE;
             option = option.bind(verify)(offset);
             report['url'] = option;
@@ -231,11 +237,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = report.bind(oscard)(tangon);
- 304:
+ 311:
             entity = michal;
- 307:
+ 314:
             return entity;
- 309:
+ 316:
             entity = global;
             michal = entity.Promise;
             entity = michal.resolve;
@@ -253,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot4;
             michal = zuuluu.getIsUpdating;
             michal = michal.bind(zuuluu)(yankee);
-            if(michal) { _fun00006_ip = 212; continue _fun00005 }
+            if(michal) { _fun00006_ip = 208; continue _fun00005 }
  38:
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -275,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.HTTP;
             zuuluu = tangon.patch;
             michal = {};
-            offset = _closure1_slot5;
+            offset = _closure1_slot6;
             report = offset.GUILD_PROFILE;
             report = report.bind(offset)(yankee);
             michal['url'] = report;
@@ -346,21 +352,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 233; continue _fun00005;
- 212:
+            _fun00006_ip = 229; continue _fun00005;
+ 208:
             michal = global;
             tangon = michal.Promise;
             zuuluu = tangon.resolve;
             michal = null;
             entity = zuuluu.bind(tangon)(michal);
- 233:
+ 229:
             return entity;
         }
     };
     zuuluu['saveGuildProfile'] = tangon;
     michal = function() { // Original name: fetchGuildTopGames
         entity = undefined;
-        tangon = _closure1_slot6;
+        tangon = _closure1_slot7;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

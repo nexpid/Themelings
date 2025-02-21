@@ -732,7 +732,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39 = zuuluu;
  391:
             sequen = null;
-            if(!entity) { _fun00010_ip = 777; continue _fun00009 }
+            if(!entity) { _fun00010_ip = 773; continue _fun00009 }
  399:
             verify = _closure1_slot12;
             option = _closure1_slot7;
@@ -786,7 +786,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = sizing.bind(tangon)(kiloes, yankee);
             offset[1] = yankee;
             yankee = null;
-            if(!romeon) { _fun00010_ip = 763; continue _fun00009 }
+            if(!romeon) { _fun00010_ip = 759; continue _fun00009 }
  609:
             sizing = _closure1_slot11;
             kiloes = _closure1_slot7;
@@ -802,10 +802,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = {'showTopContainer': false, 'placeholder': 'e.g. http://192.168.1.1:3000'};
             papara = sierra != record;
             config = undefined;
-            if(!papara) { _fun00010_ip = 682; continue _fun00009 }
- 679:
+            if(!papara) { _fun00010_ip = 678; continue _fun00009 }
+ 675:
             config = record;
- 682:
+ 678:
             update['value'] = config;
             config = _closure1_slot2;
             record = _closure1_slot3;
@@ -823,11 +823,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = ctrled.bind(tangon)(source, update);
             romeon['children'] = update;
             yankee = sizing.bind(tangon)(kiloes, romeon);
- 763:
+ 759:
             offset[2] = yankee;
             zuuluu['children'] = offset;
             sequen = verify.bind(tangon)(option, zuuluu);
- 777:
+ 773:
             option = _closure1_slot0;
             verify = _closure1_slot3;
             zuuluu = 32;
@@ -838,10 +838,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(verify)(zuuluu);
             option = sierra == zuuluu;
             sizing = undefined;
-            if(option) { _fun00010_ip = 828; continue _fun00009 }
- 822:
+            if(option) { _fun00010_ip = 824; continue _fun00009 }
+ 818:
             sizing = zuuluu.bot;
- 828:
+ 824:
             option = _closure1_slot0;
             verify = _closure1_slot3;
             zuuluu = 13;
@@ -878,31 +878,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['applicationId'] = verify;
             offset = sierra == sizing;
             verify = undefined;
-            if(offset) { _fun00010_ip = 985; continue _fun00009 }
- 980:
+            if(offset) { _fun00010_ip = 981; continue _fun00009 }
+ 976:
             verify = sizing.id;
- 985:
+ 981:
             zuuluu['botUserId'] = verify;
             verify = option.bind(tangon)(zuuluu);
-            if(!(sierra == output)) { _fun00010_ip = 1204; continue _fun00009 }
- 1002:
-            if(!entity) { _fun00010_ip = 1008; continue _fun00009 }
- 1005:
+            if(!(sierra == output)) { _fun00010_ip = 1200; continue _fun00009 }
+ 998:
+            if(!entity) { _fun00010_ip = 1004; continue _fun00009 }
+ 1001:
             entity = !michal;
- 1008:
-            if(!entity) { _fun00010_ip = 1039; continue _fun00009 }
- 1011:
+ 1004:
+            if(!entity) { _fun00010_ip = 1035; continue _fun00009 }
+ 1007:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
             michal = michal[oscard];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.isEmbeddedApp;
             entity = michal.bind(zuuluu)(whisks);
- 1039:
+ 1035:
             record = undefined;
             config = undefined;
-            if(!entity) { _fun00010_ip = 1504; continue _fun00009 }
- 1049:
+            if(!entity) { _fun00010_ip = 1500; continue _fun00009 }
+ 1045:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot7;
             entity = {};
@@ -937,8 +937,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             config = zuuluu.bind(tangon)(michal, entity);
             record = undefined;
-            _fun00010_ip = 1504; continue _fun00009;
- 1204:
+            _fun00010_ip = 1500; continue _fun00009;
+ 1200:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot13;
             entity = {};
@@ -958,18 +958,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = option;
             option = null;
-            if(!verify) { _fun00010_ip = 1378; continue _fun00009 }
- 1285:
+            if(!verify) { _fun00010_ip = 1374; continue _fun00009 }
+ 1281:
             offset = sierra == sizing;
             verify = undefined;
-            if(offset) { _fun00010_ip = 1299; continue _fun00009 }
- 1294:
+            if(offset) { _fun00010_ip = 1295; continue _fun00009 }
+ 1290:
             verify = sizing.id;
- 1299:
+ 1295:
             verify = sierra != verify;
             option = null;
-            if(!verify) { _fun00010_ip = 1378; continue _fun00009 }
- 1308:
+            if(!verify) { _fun00010_ip = 1374; continue _fun00009 }
+ 1304:
             yankee = _closure1_slot11;
             offset = _closure1_slot7;
             verify = {};
@@ -986,7 +986,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             verify['children'] = foxtra;
             option = yankee.bind(tangon)(offset, verify);
- 1378:
+ 1374:
             oscard[1] = option;
             entity['children'] = oscard;
             option = zuuluu.bind(tangon)(michal, entity);
@@ -998,8 +998,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = option;
             option = sierra != romeon;
-            if(!option) { _fun00010_ip = 1488; continue _fun00009 }
- 1427:
+            if(!option) { _fun00010_ip = 1484; continue _fun00009 }
+ 1423:
             yankee = _closure1_slot11;
             offset = _closure1_slot0;
             foxtra = _closure1_slot3;
@@ -1014,12 +1014,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['style'] = foxtra;
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 1488:
+ 1484:
             oscard[1] = option;
             entity['children'] = oscard;
             record = zuuluu.bind(tangon)(michal, entity);
             config = undefined;
- 1504:
+ 1500:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot13;
             entity = {};
@@ -1054,19 +1054,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot7;
             sizing = {};
             echoed = cntext;
-            if(!cntext) { _fun00010_ip = 1642; continue _fun00009 }
- 1636:
+            if(!cntext) { _fun00010_ip = 1638; continue _fun00009 }
+ 1632:
             echoed = variable42.activityHeroDetailsLandscape;
- 1642:
+ 1638:
             sizing['style'] = echoed;
             source = _closure1_slot11;
             update = _closure1_slot7;
             echoed = {};
             ctrled = cntext;
-            if(!cntext) { _fun00010_ip = 1668; continue _fun00009 }
- 1662:
+            if(!cntext) { _fun00010_ip = 1664; continue _fun00009 }
+ 1658:
             ctrled = variable42.heroMediaContainerLandscape;
- 1668:
+ 1664:
             echoed['style'] = ctrled;
             papara = _closure1_slot11;
             vacuum = _closure1_slot1;
@@ -1078,13 +1078,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = whisks.id;
             ctrled['applicationId'] = target;
             target = quebec;
-            if(!cntext) { _fun00010_ip = 1727; continue _fun00009 }
- 1713:
+            if(!cntext) { _fun00010_ip = 1723; continue _fun00009 }
+ 1709:
             equals = 65;
             quebec = equals * quebec;
             equals = 100;
             target = quebec / equals;
- 1727:
+ 1723:
             ctrled['width'] = target;
             ctrled = papara.bind(tangon)(vacuum, ctrled);
             echoed['children'] = ctrled;
@@ -1097,10 +1097,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = variable42.details;
             vacuum = new Array(2);
             vacuum[0] = papara;
-            if(!cntext) { _fun00010_ip = 1788; continue _fun00009 }
- 1782:
+            if(!cntext) { _fun00010_ip = 1784; continue _fun00009 }
+ 1778:
             cntext = variable42.detailsContainerLandscape;
- 1788:
+ 1784:
             vacuum[1] = cntext;
             update['style'] = vacuum;
             papara = _closure1_slot11;
@@ -1142,10 +1142,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = variable37.getItemSubtitleForMaxPlayersShort;
             variable40 = sierra != variable39;
             variable38 = 0;
-            if(!variable40) { _fun00010_ip = 1963; continue _fun00009 }
- 1960:
+            if(!variable40) { _fun00010_ip = 1959; continue _fun00009 }
+ 1956:
             variable38 = variable39;
- 1963:
+ 1959:
             status = status.bind(variable37)(variable38);
             equals['tagName'] = status;
             status = 'participants';
@@ -1155,8 +1155,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = whisks.tags;
             whisks = sierra == equals;
             sierra = undefined;
-            if(whisks) { _fun00010_ip = 2024; continue _fun00009 }
- 2007:
+            if(whisks) { _fun00010_ip = 2020; continue _fun00009 }
+ 2003:
             whisks = equals.map;
             limora = function(argFoo) {
                 report = argFoo;
@@ -1169,7 +1169,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             sierra = whisks.bind(equals)(limora);
- 2024:
+ 2020:
             status[1] = sierra;
             cntext['children'] = status;
             cntext = target.bind(tangon)(papara, cntext);

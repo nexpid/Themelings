@@ -1093,13 +1093,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['setSidechainCompressionStrength'] = golfie;
-    golfie = function(argFoo) { // Original name: setLoopback
+    golfie = function(argFoo, argBar) { // Original name: setLoopback
         _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             zuuluu = _closure1_slot11;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)();
-            if(zuuluu) { _fun00042_ip = 65; continue _fun00041 }
+            if(zuuluu) { _fun00042_ip = 73; continue _fun00041 }
  16:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -1111,9 +1111,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 'AUDIO_SET_LOOPBACK';
             michal['type'] = report;
             report = argFoo;
+            michal['loopbackReason'] = report;
+            report = argBar;
             michal['enabled'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 65:
+ 73:
             return entity;
         }
     };

@@ -1,4 +1,4 @@
-// app/modules/user_settings/shouldWarnSocialLayerApplication.tsx
+// app/modules/applications/isSocialLayerApplication.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -23,29 +23,42 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/shouldWarnSocialLayerApplication.tsx';
+    tangon = 'modules/applications/isSocialLayerApplication.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: isSocialLayerApplication
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = zuuluu.flags;
+            tangon = argFoo;
+            michal = tangon.flags;
             entity = null;
             entity = entity != michal;
-            if(!entity) { _fun00002_ip = 69; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 119; continue _fun00001 }
  17:
+            report = _closure1_slot0;
+            michal = _closure1_slot1;
+            option = 1;
+            michal = michal[option];
+            golfie = undefined;
+            verify = report.bind(golfie)(michal);
+            oscard = verify.hasFlag;
+            report = tangon.flags;
+            michal = _closure1_slot2;
+            michal = michal.SOCIAL_LAYER_INTEGRATION_LIMITED;
+            michal = oscard.bind(verify)(report, michal);
+            if(michal) { _fun00002_ip = 116; continue _fun00001 }
+ 72:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
-            tangon = 1;
-            report = report[tangon];
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
-            tangon = report.hasFlag;
-            zuuluu = zuuluu.flags;
-            michal = _closure1_slot2;
-            michal = michal.SOCIAL_LAYER_INTEGRATION;
-            entity = tangon.bind(report)(zuuluu, michal);
- 69:
+            report = report[option];
+            oscard = oscard.bind(golfie)(report);
+            report = oscard.hasFlag;
+            tangon = tangon.flags;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.SOCIAL_LAYER_INTEGRATION;
+            michal = report.bind(oscard)(tangon, zuuluu);
+ 116:
+            entity = michal;
+ 119:
             return entity;
         }
     };

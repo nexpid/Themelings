@@ -148,15 +148,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = report[golfie];
             report = report[oscard];
             var _closure2_slot3 = report;
-            backup = _closure1_slot0;
+            offset = _closure1_slot0;
             verify = _closure1_slot2;
             report = 9;
             oscard = verify[report];
-            romeon = backup.bind(tangon)(oscard);
-            yankee = romeon.useStateFromStores;
+            foxtra = offset.bind(tangon)(oscard);
+            romeon = foxtra.useStateFromStores;
             oscard = _closure1_slot7;
-            offset = new Array(1);
-            offset[0] = oscard;
+            yankee = new Array(1);
+            yankee[0] = oscard;
             golfie = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -173,10 +173,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             oscard = new Array(0);
-            sequen = yankee.bind(romeon)(offset, golfie, oscard);
+            sequen = romeon.bind(foxtra)(yankee, golfie, oscard);
             report = verify[report];
-            offset = backup.bind(tangon)(report);
-            golfie = offset.useStateFromStores;
+            yankee = offset.bind(tangon)(report);
+            golfie = yankee.useStateFromStores;
             report = _closure1_slot8;
             oscard = new Array(1);
             oscard[0] = report;
@@ -186,108 +186,118 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            report = golfie.bind(offset)(oscard, report);
+            report = golfie.bind(yankee)(oscard, report);
             var _closure2_slot4 = report;
             echoed = {};
             oscard = 10;
             report = verify[oscard];
-            report = backup.bind(tangon)(report);
-            golfie = report.Q1_2025_MARKETING_SKU_ID_BUNNY;
+            report = offset.bind(tangon)(report);
+            report = report.Q1_2025_MARKETING_BUNNY;
+            golfie = report.skuId;
             report = {};
-            romeon = 11;
-            offset = verify[romeon];
-            foxtra = backup.bind(tangon)(offset);
-            yankee = foxtra.useFetchCollectiblesProduct;
-            offset = verify[oscard];
-            offset = backup.bind(tangon)(offset);
-            offset = offset.Q1_2025_MARKETING_SKU_ID_BUNNY;
-            sierra = yankee.bind(foxtra)(offset);
+            yankee = 11;
+            romeon = verify[yankee];
+            backup = offset.bind(tangon)(romeon);
+            foxtra = backup.useFetchCollectiblesProduct;
+            romeon = verify[oscard];
+            romeon = offset.bind(tangon)(romeon);
+            romeon = romeon.Q1_2025_MARKETING_BUNNY;
+            romeon = romeon.skuId;
+            sierra = foxtra.bind(backup)(romeon);
             limora = report;
-            offset = copyDataProperties(limora, sierra);
-            offset = '0b76bdeec7f2dc447844a98d799c24c4106a3a2ccdcde01adc267cbf28e85e27';
-            yankee = 'assetId';
-            report[yankee] = offset;
-            foxtra = 'a_f8d05a51a9ca29f473dcd52e2ce5507a';
-            offset = 'assetHash';
-            report[offset] = foxtra;
+            romeon = copyDataProperties(limora, sierra);
+            romeon = verify[oscard];
+            romeon = offset.bind(tangon)(romeon);
+            sierra = romeon.Q1_2025_MARKETING_BUNNY;
+            limora = report;
+            romeon = copyDataProperties(limora, sierra);
             echoed[golfie] = report;
             report = verify[oscard];
-            report = backup.bind(tangon)(report);
-            golfie = report.Q1_2025_MARKETING_SKU_ID_PETALS;
+            report = offset.bind(tangon)(report);
+            report = report.Q1_2025_MARKETING_PETALS;
+            golfie = report.skuId;
             report = {};
-            foxtra = verify[romeon];
-            source = backup.bind(tangon)(foxtra);
-            sizing = source.useFetchCollectiblesProduct;
-            foxtra = verify[oscard];
-            foxtra = backup.bind(tangon)(foxtra);
-            foxtra = foxtra.Q1_2025_MARKETING_SKU_ID_PETALS;
-            sierra = sizing.bind(source)(foxtra);
+            romeon = verify[yankee];
+            backup = offset.bind(tangon)(romeon);
+            foxtra = backup.useFetchCollectiblesProduct;
+            romeon = verify[oscard];
+            romeon = offset.bind(tangon)(romeon);
+            romeon = romeon.Q1_2025_MARKETING_PETALS;
+            romeon = romeon.skuId;
+            sierra = foxtra.bind(backup)(romeon);
             limora = report;
-            foxtra = copyDataProperties(limora, sierra);
-            foxtra = 'c095cf3150941171b6e58c34401de39e1b237809d5ef5e979375a4a961d6ccbf';
-            report[yankee] = foxtra;
-            foxtra = 'a_9c79b63d5a5703645ae6136b8bf018bf';
-            report[offset] = foxtra;
+            romeon = copyDataProperties(limora, sierra);
+            romeon = verify[oscard];
+            romeon = offset.bind(tangon)(romeon);
+            sierra = romeon.Q1_2025_MARKETING_PETALS;
+            limora = report;
+            romeon = copyDataProperties(limora, sierra);
             echoed[golfie] = report;
             report = verify[oscard];
-            report = backup.bind(tangon)(report);
-            golfie = report.Q1_2025_MARKETING_SKU_ID_RAIN;
+            report = offset.bind(tangon)(report);
+            report = report.Q1_2025_MARKETING_RAIN;
+            golfie = report.skuId;
             report = {};
-            romeon = verify[romeon];
-            foxtra = backup.bind(tangon)(romeon);
+            yankee = verify[yankee];
+            foxtra = offset.bind(tangon)(yankee);
             romeon = foxtra.useFetchCollectiblesProduct;
+            yankee = verify[oscard];
+            yankee = offset.bind(tangon)(yankee);
+            yankee = yankee.Q1_2025_MARKETING_RAIN;
+            yankee = yankee.skuId;
+            sierra = romeon.bind(foxtra)(yankee);
+            limora = report;
+            yankee = copyDataProperties(limora, sierra);
             verify = verify[oscard];
-            verify = backup.bind(tangon)(verify);
-            verify = verify.Q1_2025_MARKETING_SKU_ID_RAIN;
-            sierra = romeon.bind(foxtra)(verify);
+            verify = offset.bind(tangon)(verify);
+            sierra = verify.Q1_2025_MARKETING_RAIN;
             limora = report;
             verify = copyDataProperties(limora, sierra);
-            verify = '2fc60e6acd7fc73c750b68e27fab7cf5a759fbaae6b799233a7f7242cbe503a7';
-            report[yankee] = verify;
-            verify = 'a_d65bc28befbf0923324d5e4b72339ea7';
-            report[offset] = verify;
             echoed[golfie] = report;
             var _closure2_slot5 = echoed;
             golfie = zuuluu === entity;
             entity = golfie;
-            if(!entity) { _fun00002_ip = 546; continue _fun00001 }
- 509:
+            if(!entity) { _fun00002_ip = 580; continue _fun00001 }
+ 537:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.Q1_2025_MARKETING_SKU_ID_BUNNY;
+            zuuluu = zuuluu.Q1_2025_MARKETING_BUNNY;
+            zuuluu = zuuluu.skuId;
             zuuluu = echoed[zuuluu];
             zuuluu = zuuluu.product;
             entity = tangon !== zuuluu;
- 546:
-            if(!entity) { _fun00002_ip = 586; continue _fun00001 }
- 549:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.Q1_2025_MARKETING_SKU_ID_PETALS;
-            zuuluu = echoed[zuuluu];
-            zuuluu = zuuluu.product;
-            entity = tangon !== zuuluu;
- 586:
+ 580:
             if(!entity) { _fun00002_ip = 626; continue _fun00001 }
- 589:
+ 583:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.Q1_2025_MARKETING_SKU_ID_RAIN;
+            zuuluu = zuuluu.Q1_2025_MARKETING_PETALS;
+            zuuluu = zuuluu.skuId;
             zuuluu = echoed[zuuluu];
             zuuluu = zuuluu.product;
             entity = tangon !== zuuluu;
  626:
-            if(!entity) { _fun00002_ip = 636; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 672; continue _fun00001 }
  629:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.Q1_2025_MARKETING_RAIN;
+            zuuluu = zuuluu.skuId;
+            zuuluu = echoed[zuuluu];
+            zuuluu = zuuluu.product;
+            entity = tangon !== zuuluu;
+ 672:
+            if(!entity) { _fun00002_ip = 682; continue _fun00001 }
+ 675:
             entity = true;
             entity = michal.bind(tangon)(entity);
- 636:
+ 682:
             vacuum = function(argFoo) { // Original name: extractAvatarDecorationParams
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -485,8 +495,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['spacing'] = record;
             verify = result.container;
             report['style'] = verify;
-            if(golfie) { _fun00002_ip = 1188; continue _fun00001 }
- 750:
+            if(golfie) { _fun00002_ip = 1234; continue _fun00001 }
+ 796:
             offset = _closure1_slot10;
             verify = _closure1_slot11;
             golfie = {};
@@ -521,11 +531,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['animate'] = config;
             romeon['user'] = sequen;
             output = null;
-            if(!(output !== ctrled)) { _fun00002_ip = 916; continue _fun00001 }
- 907:
+            if(!(output !== ctrled)) { _fun00002_ip = 962; continue _fun00001 }
+ 953:
             ctrled = echoed[ctrled];
             output = vacuum.bind(tangon)(ctrled);
- 916:
+ 962:
             romeon['avatarDecoration'] = output;
             romeon['guildId'] = tangon;
             output = result.image;
@@ -724,8 +734,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[2] = romeon;
             golfie['children'] = yankee;
             golfie = offset.bind(tangon)(verify, golfie);
-            _fun00002_ip = 1226; continue _fun00001;
- 1188:
+            _fun00002_ip = 1272; continue _fun00001;
+ 1234:
             offset = _closure1_slot9;
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -735,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.Loading;
             option = {};
             golfie = offset.bind(tangon)(verify, option);
- 1226:
+ 1272:
             report['children'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;

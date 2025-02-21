@@ -377,6 +377,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['PREMIUM_MARKETING_GIFT_SECTION'] = entity;
     entity = 'premium marketing reverse trial banner';
     michal['PREMIUM_MARKETING_REVERSE_TRIAL_BANNER'] = entity;
+    entity = 'premium marketing reward selection modal';
+    michal['PREMIUM_MARKETING_REWARD_SELECTION_MODAL'] = entity;
     entity = 'tiered tenure badges modal';
     michal['TIERED_TENURE_BADGES_MODAL'] = entity;
     entity = 'channel call action bar';
@@ -657,6 +659,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GUILD_SETTINGS_PROFILE_PAGE'] = entity;
     entity = 'guild settings engagement page';
     michal['GUILD_SETTINGS_ENGAGEMENT_PAGE'] = entity;
+    entity = 'guild settings boost perks page';
+    michal['GUILD_SETTINGS_BOOST_PERKS_PAGE'] = entity;
     entity = 'guild member mod view';
     michal['GUILD_MEMBER_MOD_VIEW'] = entity;
     entity = 'guild member application review';

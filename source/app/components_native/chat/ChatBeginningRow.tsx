@@ -1083,9 +1083,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot44;
             tangon = undefined;
             option = report.bind(tangon)();
-            if(zuuluu) { _fun00018_ip = 236; continue _fun00017 }
+            if(zuuluu) { _fun00018_ip = 228; continue _fun00017 }
  46:
-            if(michal) { _fun00018_ip = 154; continue _fun00017 }
+            if(michal) { _fun00018_ip = 150; continue _fun00017 }
  49:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1113,7 +1113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 154:
+ 150:
             zuuluu = _closure1_slot41;
             michal = _closure1_slot8;
             entity = {};
@@ -1131,7 +1131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 236:
+ 228:
             zuuluu = _closure1_slot41;
             michal = _closure1_slot8;
             entity = {};

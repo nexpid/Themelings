@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(10);
+        entity = new Array(11);
         entity[0] = report;
         report = {};
         golfie = 'getWindow';
@@ -224,6 +224,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[8] = report;
         report = {};
+        golfie = 'isWindowFullyInitialized';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = false;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[9] = report;
+        report = {};
         golfie = 'unmountWindow';
         report['key'] = golfie;
         oscard = function() { // Original name: value
@@ -231,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[9] = report;
+        entity[10] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

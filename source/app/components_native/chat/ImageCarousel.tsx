@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing[0] = output;
                     result = _closure2_slot1;
                     output = null;
-                    if(!result) { _fun00012_ip = 706; continue _fun00011 }
+                    if(!result) { _fun00012_ip = 702; continue _fun00011 }
  622:
                     update = _closure1_slot12;
                     echoed = _closure1_slot5;
@@ -507,15 +507,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = vacuum.bind(tangon)(ctrled, source);
                     result['children'] = source;
                     output = update.bind(tangon)(echoed, result);
- 706:
+ 702:
                     sizing[1] = output;
                     yankee['children'] = sizing;
                     yankee = foxtra.bind(tangon)(romeon, yankee);
                     verify[1] = yankee;
                     yankee = _closure2_slot11;
                     offset = null;
-                    if(!yankee) { _fun00012_ip = 817; continue _fun00011 }
- 733:
+                    if(!yankee) { _fun00012_ip = 809; continue _fun00011 }
+ 729:
                     foxtra = _closure1_slot12;
                     romeon = _closure1_slot5;
                     yankee = {};
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = sizing.bind(tangon)(kiloes, backup);
                     yankee['children'] = backup;
                     offset = foxtra.bind(tangon)(romeon, yankee);
- 817:
+ 809:
                     verify[2] = offset;
                     oscard['children'] = verify;
                     oscard = option.bind(tangon)(golfie, oscard);
@@ -1114,10 +1114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {'style': null, 'horizontal': true, 'keyboardShouldPersistTaps': 'always', 'showsHorizontalScrollIndicator': false, 'accessibilityRole': 'list'};
             foxtra = {};
             kiloes = 0;
-            if(!output) { _fun00016_ip = 424; continue _fun00015 }
- 421:
+            if(!output) { _fun00016_ip = 428; continue _fun00015 }
+ 425:
             kiloes = sizing;
- 424:
+ 428:
             foxtra['marginBottom'] = kiloes;
             oscard['style'] = foxtra;
             sizing = _closure1_slot0;
@@ -1137,8 +1137,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = romeon;
             romeon = offset != backup;
             offset = null;
-            if(!romeon) { _fun00016_ip = 545; continue _fun00015 }
- 510:
+            if(!romeon) { _fun00016_ip = 549; continue _fun00015 }
+ 514:
             romeon = global;
             foxtra = romeon.Object;
             romeon = foxtra.values;
@@ -1205,7 +1205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             offset = romeon.bind(foxtra)(yankee);
- 545:
+ 549:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
