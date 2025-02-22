@@ -2751,7 +2751,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot21;
                     entity = michal.get;
                     entity = entity.bind(michal)();
-                    if(entity) { _fun00060_ip = 209; continue _fun00059 }
+                    if(entity) { _fun00060_ip = 213; continue _fun00059 }
  22:
                     entity = {'position': 'absolute', 'top': 4294967295, 'left': 4294967295, 'bottom': 4294967295, 'right': 4294967295, 'borderWidth': 2, 'borderRadius': 26, 'overflow': 'hidden', 'borderColor': 'white'};
                     tangon = _closure1_slot0;
@@ -2767,16 +2767,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = null;
                     oscard = romeon == zuuluu;
                     verify = undefined;
-                    if(oscard) { _fun00060_ip = 92; continue _fun00059 }
- 87:
+                    if(oscard) { _fun00060_ip = 96; continue _fun00059 }
+ 91:
                     verify = zuuluu.id;
- 92:
+ 96:
                     option = _closure2_slot0;
                     zuuluu = 0;
-                    if(!(verify !== option)) { _fun00060_ip = 108; continue _fun00059 }
- 102:
+                    if(!(verify !== option)) { _fun00060_ip = 112; continue _fun00059 }
+ 106:
                     zuuluu = 300;
- 108:
+ 112:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
                     option = 19;
@@ -2788,25 +2788,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = offset.bind(foxtra)();
                     romeon = romeon == offset;
                     yankee = undefined;
-                    if(romeon) { _fun00060_ip = 160; continue _fun00059 }
- 155:
+                    if(romeon) { _fun00060_ip = 164; continue _fun00059 }
+ 159:
                     yankee = offset.id;
- 160:
+ 164:
                     offset = _closure2_slot0;
                     golfie = 0.3;
-                    if(!(yankee === offset)) { _fun00060_ip = 180; continue _fun00059 }
- 178:
+                    if(!(yankee === offset)) { _fun00060_ip = 184; continue _fun00059 }
+ 182:
                     golfie = 0;
- 180:
+ 184:
                     oscard = _closure1_slot12;
                     michal = 'animate-never';
                     michal = option.bind(verify)(golfie, oscard, michal);
                     michal = tangon.bind(report)(zuuluu, michal);
                     entity['opacity'] = michal;
-                    _fun00060_ip = 223; continue _fun00059;
- 209:
+                    _fun00060_ip = 227; continue _fun00059;
+ 213:
                     entity = {'position': 'absolute', 'top': 0, 'left': 0, 'bottom': 0, 'right': 0, 'borderWidth': 25, 'overflow': 'hidden', 'borderColor': 'white', 'opacity': 0.5};
- 223:
+ 227:
                     return entity;
                 }
             };

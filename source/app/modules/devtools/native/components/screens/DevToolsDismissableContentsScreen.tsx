@@ -43,14 +43,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = report.bind(entity)(golfie);
     golfie = golfie.jsx;
     var _closure1_slot8 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.Fragment;
-    var _closure1_slot10 = tangon;
+    tangon = tangon.jsxs;
+    var _closure1_slot9 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
@@ -112,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['marginVertical'] = yankee;
     tangon['emptyState'] = offset;
     tangon = golfie.bind(verify)(tangon);
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     golfie = option.memo;
     tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -166,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = 29;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -176,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function() { // Original name: DevToolsDismissableContentsScreen
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            entity = _closure1_slot11;
+            entity = _closure1_slot10;
             tangon = undefined;
             update = entity.bind(tangon)();
             var _closure2_slot0 = update;
@@ -340,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function(argFoo, argBar) {
                 report = argBar;
                 tangon = _closure1_slot8;
-                zuuluu = _closure1_slot12;
+                zuuluu = _closure1_slot11;
                 michal = {};
                 oscard = _closure2_slot4;
                 michal['contents'] = oscard;
@@ -528,48 +524,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(tangon)(michal, verify);
             report[2] = verify;
             golfie = golfie.length;
-            if(!(!(golfie > option))) { _fun00004_ip = 1152; continue _fun00003 }
+            if(!(!(golfie > option))) { _fun00004_ip = 1136; continue _fun00003 }
  975:
-            verify = _closure1_slot8;
-            option = _closure1_slot10;
+            verify = _closure1_slot9;
+            option = _closure1_slot5;
             golfie = {};
-            backup = _closure1_slot9;
-            foxtra = _closure1_slot5;
-            offset = {};
-            source = update.emptyState;
-            offset['style'] = source;
-            vacuum = _closure1_slot0;
-            sequen = _closure1_slot2;
-            source = 17;
-            source = sequen[source];
-            source = vacuum.bind(tangon)(source);
-            ctrled = source.Text;
-            source = {'style': null, 'variant': 'heading-lg/semibold', 'children': 'No results found'};
-            config = {};
-            cntext = _closure1_slot1;
-            record = 7;
-            record = sequen[record];
-            record = cntext.bind(tangon)(record);
-            record = record.spacing;
-            record = record.PX_16;
-            config['marginBottom'] = record;
-            source['style'] = config;
-            ctrled = verify.bind(tangon)(ctrled, source);
-            source = new Array(2);
-            source[0] = ctrled;
-            ctrled = 27;
-            ctrled = sequen[ctrled];
-            ctrled = vacuum.bind(tangon)(ctrled);
-            vacuum = ctrled.SearchEmpty;
-            ctrled = {};
-            ctrled = verify.bind(tangon)(vacuum, ctrled);
-            source[1] = ctrled;
-            offset['children'] = source;
-            offset = backup.bind(tangon)(foxtra, offset);
+            offset = update.emptyState;
+            golfie['style'] = offset;
+            source = _closure1_slot8;
+            backup = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            offset = 17;
+            offset = ctrled[offset];
+            offset = backup.bind(tangon)(offset);
+            foxtra = offset.Text;
+            offset = {'style': null, 'variant': 'heading-lg/semibold', 'children': 'No results found'};
+            vacuum = {};
+            config = _closure1_slot1;
+            sequen = 7;
+            sequen = ctrled[sequen];
+            sequen = config.bind(tangon)(sequen);
+            sequen = sequen.spacing;
+            sequen = sequen.PX_16;
+            vacuum['marginBottom'] = sequen;
+            offset['style'] = vacuum;
+            foxtra = source.bind(tangon)(foxtra, offset);
+            offset = new Array(2);
+            offset[0] = foxtra;
+            foxtra = 27;
+            foxtra = ctrled[foxtra];
+            foxtra = backup.bind(tangon)(foxtra);
+            backup = foxtra.SearchEmpty;
+            foxtra = {};
+            foxtra = source.bind(tangon)(backup, foxtra);
+            offset[1] = foxtra;
             golfie['children'] = offset;
             golfie = verify.bind(tangon)(option, golfie);
-            _fun00004_ip = 1277; continue _fun00003;
- 1152:
+            _fun00004_ip = 1261; continue _fun00003;
+ 1136:
             offset = _closure1_slot8;
             foxtra = _closure1_slot1;
             backup = _closure1_slot2;
@@ -598,7 +590,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = true;
             option['wrapChildren'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 1277:
+ 1261:
             report[3] = golfie;
             option = _closure1_slot8;
             golfie = _closure1_slot1;

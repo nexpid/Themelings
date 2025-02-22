@@ -78,12 +78,22 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         romeon = kiloes.bind(sizing)(romeon);
         report['label'] = romeon;
         romeon = function() { // Original name: onPress
-            zuuluu = _closure2_slot0;
-            entity = _closure1_slot2;
-            michal = entity.DESKTOP;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                zuuluu = _closure2_slot0;
+                entity = null;
+                zuuluu = entity == zuuluu;
+                tangon = undefined;
+                entity = undefined;
+                if(zuuluu) { _fun00002_ip = 42; continue _fun00001 }
+ 20:
+                zuuluu = _closure2_slot0;
+                michal = _closure1_slot2;
+                michal = michal.DESKTOP;
+                entity = zuuluu.bind(tangon)(michal);
+ 42:
+                return entity;
+            }
         };
         report['onPress'] = romeon;
         golfie = option.bind(zuuluu)(golfie, report);
@@ -112,12 +122,22 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         offset = yankee.bind(romeon)(offset);
         oscard['label'] = offset;
         verify = function() { // Original name: onPress
-            zuuluu = _closure2_slot0;
-            entity = _closure1_slot2;
-            michal = entity.CONSOLE;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                zuuluu = _closure2_slot0;
+                entity = null;
+                zuuluu = entity == zuuluu;
+                tangon = undefined;
+                entity = undefined;
+                if(zuuluu) { _fun00004_ip = 42; continue _fun00003 }
+ 20:
+                zuuluu = _closure2_slot0;
+                michal = _closure1_slot2;
+                michal = michal.CONSOLE;
+                entity = zuuluu.bind(tangon)(michal);
+ 42:
+                return entity;
+            }
         };
         oscard['onPress'] = verify;
         oscard = option.bind(zuuluu)(golfie, oscard);

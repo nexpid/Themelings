@@ -80,8 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = oscard.bind(entity)(michal);
     report = option.createStyles;
     michal = {};
-    yankee = 4;
-    verify = {'display': 'flex', 'flexDirection': 'row', 'gap': 4};
+    verify = {'display': 'flex', 'flexDirection': 'row', 'gap': 8};
     michal['container'] = verify;
     verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
     michal['favoriteGame'] = verify;
@@ -91,6 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['lastItem'] = verify;
     verify = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
     offset = 'absolute';
+    yankee = 4;
     foxtra = golfie[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.colors;

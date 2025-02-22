@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = entity.disabled;
             golfie = entity.showIndicator;
             entity = null;
-            if(!michal) { _fun00002_ip = 304; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 308; continue _fun00001 }
  100:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
@@ -96,8 +96,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.bind(report)(verify, oscard);
             oscard = new Array(2);
             oscard[0] = verify;
-            if(!golfie) { _fun00002_ip = 290; continue _fun00001 }
- 258:
+            if(!golfie) { _fun00002_ip = 294; continue _fun00001 }
+ 262:
             offset = _closure1_slot4;
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -106,11 +106,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(report)(option);
             option = {};
             golfie = offset.bind(report)(verify, option);
- 290:
+ 294:
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 304:
+ 308:
             return entity;
         }
     };

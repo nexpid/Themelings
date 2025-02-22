@@ -17,10 +17,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     offset = argFoo;
-                    update = argBar;
+                    source = argBar;
                     michal = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 768; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 777; continue _fun00001 }
  21:
                     var _closure4_slot0 = offset;
                     zuuluu = undefined;
@@ -28,158 +28,160 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  31:
                     michal = {};
  33:
+                    echoed = michal.type;
                     sizing = michal.withMutualGuilds;
-                    if(!(sizing === zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
- 43:
+                    if(!(sizing === zuuluu)) { _fun00002_ip = 50; continue _fun00001 }
+ 48:
                     sizing = false;
- 45:
+ 50:
                     backup = michal.withMutualFriendsCount;
-                    if(!(backup === zuuluu)) { _fun00002_ip = 57; continue _fun00001 }
- 55:
+                    if(!(backup === zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
+ 60:
                     backup = false;
- 57:
+ 62:
                     kiloes = michal.withMutualFriends;
-                    if(!(kiloes === zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
- 67:
+                    if(!(kiloes === zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
+ 72:
                     kiloes = false;
- 69:
+ 74:
                     foxtra = michal.friendToken;
                     golfie = michal.preloadUserBanner;
-                    if(!(golfie === zuuluu)) { _fun00002_ip = 89; continue _fun00001 }
- 87:
+                    if(!(golfie === zuuluu)) { _fun00002_ip = 94; continue _fun00001 }
+ 92:
                     golfie = true;
- 89:
+ 94:
                     oscard = michal.dispatchWait;
-                    if(!(oscard === zuuluu)) { _fun00002_ip = 101; continue _fun00001 }
- 99:
+                    if(!(oscard === zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
+ 104:
                     oscard = false;
- 101:
+ 106:
                     result = michal.guildId;
                     output = michal.channelId;
                     yankee = michal.joinRequestId;
                     option = michal.abortSignal;
                     var _closure4_slot1 = zuuluu;
                     var _closure4_slot2 = zuuluu;
-                    SaveGenerator(address=135);
- 133:
+                    SaveGenerator(address=140);
+ 138:
                     return zuuluu;
- 135:
+ 140:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 765; continue _fun00001 }
- 144:
+                    if(report) { _fun00002_ip = 774; continue _fun00001 }
+ 149:
                     report = '';
-                    if(!(report !== offset)) { _fun00002_ip = 762; continue _fun00001 }
- 155:
+                    if(!(report !== offset)) { _fun00002_ip = 771; continue _fun00001 }
+ 160:
                     romeon = _closure1_slot6;
                     verify = romeon.isFetchingProfile;
                     verify = verify.bind(romeon)(offset, result);
-                    if(verify) { _fun00002_ip = 762; continue _fun00001 }
- 180:
+                    if(verify) { _fun00002_ip = 771; continue _fun00001 }
+ 185:
                     romeon = _closure1_slot6;
                     verify = romeon.getUserProfile;
-                    echoed = verify.bind(romeon)(offset);
+                    update = verify.bind(romeon)(offset);
                     verify = global;
                     romeon = verify.Date;
                     verify = romeon.now;
-                    source = verify.bind(romeon)();
+                    ctrled = verify.bind(romeon)();
                     romeon = null;
-                    verify = romeon == echoed;
-                    ctrled = undefined;
-                    if(verify) { _fun00002_ip = 229; continue _fun00001 }
- 223:
-                    ctrled = echoed.lastFetched;
- 229:
-                    vacuum = romeon != ctrled;
+                    verify = romeon == update;
+                    vacuum = undefined;
+                    if(verify) { _fun00002_ip = 234; continue _fun00001 }
+ 228:
+                    vacuum = update.lastFetched;
+ 234:
+                    sequen = romeon != vacuum;
                     verify = 0;
-                    if(!vacuum) { _fun00002_ip = 241; continue _fun00001 }
- 238:
-                    verify = ctrled;
- 241:
-                    source = source - verify;
+                    if(!sequen) { _fun00002_ip = 246; continue _fun00001 }
+ 243:
+                    verify = vacuum;
+ 246:
+                    ctrled = ctrled - verify;
                     verify = _closure1_slot7;
-                    verify = source >= verify;
-                    source = romeon == echoed;
-                    ctrled = undefined;
-                    if(source) { _fun00002_ip = 282; continue _fun00001 }
- 262:
-                    source = echoed.fetchError;
-                    vacuum = romeon == source;
-                    ctrled = undefined;
-                    if(vacuum) { _fun00002_ip = 282; continue _fun00001 }
- 277:
-                    ctrled = source.status;
+                    verify = ctrled >= verify;
+                    ctrled = romeon == update;
+                    vacuum = undefined;
+                    if(ctrled) { _fun00002_ip = 287; continue _fun00001 }
+ 267:
+                    ctrled = update.fetchError;
+                    sequen = romeon == ctrled;
+                    vacuum = undefined;
+                    if(sequen) { _fun00002_ip = 287; continue _fun00001 }
  282:
-                    source = 404;
-                    if(!(source !== ctrled)) { _fun00002_ip = 331; continue _fun00001 }
- 292:
-                    ctrled = romeon == echoed;
-                    source = undefined;
-                    if(ctrled) { _fun00002_ip = 321; continue _fun00001 }
- 301:
-                    echoed = echoed.fetchError;
-                    ctrled = romeon == echoed;
-                    source = undefined;
-                    if(ctrled) { _fun00002_ip = 321; continue _fun00001 }
- 316:
-                    source = echoed.status;
+                    vacuum = ctrled.status;
+ 287:
+                    ctrled = 404;
+                    if(!(ctrled !== vacuum)) { _fun00002_ip = 336; continue _fun00001 }
+ 297:
+                    vacuum = romeon == update;
+                    ctrled = undefined;
+                    if(vacuum) { _fun00002_ip = 326; continue _fun00001 }
+ 306:
+                    update = update.fetchError;
+                    vacuum = romeon == update;
+                    ctrled = undefined;
+                    if(vacuum) { _fun00002_ip = 326; continue _fun00001 }
  321:
-                    echoed = 429;
-                    if(!(echoed === source)) { _fun00002_ip = 337; continue _fun00001 }
- 331:
-                    if(!verify) { _fun00002_ip = 762; continue _fun00001 }
- 337:
-                    source = _closure1_slot6;
-                    echoed = source.getGuildMemberProfile;
-                    echoed = echoed.bind(source)(offset, result);
+                    ctrled = update.status;
+ 326:
+                    update = 429;
+                    if(!(update === ctrled)) { _fun00002_ip = 342; continue _fun00001 }
+ 336:
+                    if(!verify) { _fun00002_ip = 771; continue _fun00001 }
+ 342:
                     ctrled = _closure1_slot6;
-                    source = ctrled.getMutualGuilds;
-                    vacuum = source.bind(ctrled)(offset);
-                    ctrled = _closure1_slot6;
-                    source = ctrled.getMutualFriends;
-                    ctrled = source.bind(ctrled)(offset);
-                    sequen = _closure1_slot6;
-                    source = sequen.getMutualFriendsCount;
-                    source = source.bind(sequen)(offset);
-                    if(sizing) { _fun00002_ip = 405; continue _fun00001 }
- 401:
+                    update = ctrled.getGuildMemberProfile;
+                    update = update.bind(ctrled)(offset, result);
+                    vacuum = _closure1_slot6;
+                    ctrled = vacuum.getMutualGuilds;
+                    sequen = ctrled.bind(vacuum)(offset);
+                    vacuum = _closure1_slot6;
+                    ctrled = vacuum.getMutualFriends;
+                    vacuum = ctrled.bind(vacuum)(offset);
+                    config = _closure1_slot6;
+                    ctrled = config.getMutualFriendsCount;
+                    ctrled = ctrled.bind(config)(offset);
+                    if(sizing) { _fun00002_ip = 410; continue _fun00001 }
+ 406:
                     sizing = romeon != result;
- 405:
-                    if(!(romeon == vacuum)) { _fun00002_ip = 412; continue _fun00001 }
- 409:
-                    if(sizing) { _fun00002_ip = 440; continue _fun00001 }
- 412:
-                    if(!(romeon == ctrled)) { _fun00002_ip = 419; continue _fun00001 }
- 416:
-                    if(kiloes) { _fun00002_ip = 440; continue _fun00001 }
- 419:
-                    if(!(romeon == source)) { _fun00002_ip = 426; continue _fun00001 }
- 423:
-                    if(backup) { _fun00002_ip = 440; continue _fun00001 }
- 426:
-                    if(!(romeon != result)) { _fun00002_ip = 434; continue _fun00001 }
- 430:
-                    if(!(romeon != echoed)) { _fun00002_ip = 440; continue _fun00001 }
- 434:
-                    if(!verify) { _fun00002_ip = 762; continue _fun00001 }
- 440:
-                    echoed = _closure1_slot0;
-                    source = _closure1_slot2;
+ 410:
+                    if(!(romeon == sequen)) { _fun00002_ip = 417; continue _fun00001 }
+ 414:
+                    if(sizing) { _fun00002_ip = 445; continue _fun00001 }
+ 417:
+                    if(!(romeon == vacuum)) { _fun00002_ip = 424; continue _fun00001 }
+ 421:
+                    if(kiloes) { _fun00002_ip = 445; continue _fun00001 }
+ 424:
+                    if(!(romeon == ctrled)) { _fun00002_ip = 431; continue _fun00001 }
+ 428:
+                    if(backup) { _fun00002_ip = 445; continue _fun00001 }
+ 431:
+                    if(!(romeon != result)) { _fun00002_ip = 439; continue _fun00001 }
+ 435:
+                    if(!(romeon != update)) { _fun00002_ip = 445; continue _fun00001 }
+ 439:
+                    if(!verify) { _fun00002_ip = 771; continue _fun00001 }
+ 445:
+                    update = _closure1_slot0;
+                    ctrled = _closure1_slot2;
                     verify = 4;
-                    verify = source[verify];
-                    echoed = echoed.bind(zuuluu)(verify);
-                    verify = echoed.fetchUserProfileEffects;
-                    verify = verify.bind(echoed)();
-                    if(!(romeon != update)) { _fun00002_ip = 505; continue _fun00001 }
- 474:
-                    echoed = _closure1_slot0;
-                    source = _closure1_slot2;
+                    verify = ctrled[verify];
+                    update = update.bind(zuuluu)(verify);
+                    verify = update.fetchUserProfileEffects;
+                    verify = verify.bind(update)();
+                    if(!(romeon != source)) { _fun00002_ip = 510; continue _fun00001 }
+ 479:
+                    update = _closure1_slot0;
+                    ctrled = _closure1_slot2;
                     verify = 5;
-                    verify = source[verify];
-                    echoed = echoed.bind(zuuluu)(verify);
-                    verify = echoed.maybeFetchColors;
-                    verify = verify.bind(echoed)(update);
- 505:
+                    verify = ctrled[verify];
+                    update = update.bind(zuuluu)(verify);
+                    verify = update.maybeFetchColors;
+                    verify = verify.bind(update)(source);
+ 510:
                     verify = {};
+                    verify['type'] = echoed;
                     verify['withMutualGuilds'] = sizing;
                     verify['withMutualFriends'] = kiloes;
                     verify['withMutualFriendsCount'] = backup;
@@ -189,8 +191,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify['abortSignal'] = option;
                     yankee = romeon == result;
                     option = undefined;
-                    if(yankee) { _fun00002_ip = 636; continue _fun00001 }
- 550:
+                    if(yankee) { _fun00002_ip = 645; continue _fun00001 }
+ 559:
                     foxtra = _closure1_slot0;
                     backup = _closure1_slot2;
                     yankee = 6;
@@ -209,24 +211,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = foxtra.bind(backup)(yankee);
                     romeon = romeon == yankee;
                     option = undefined;
-                    if(romeon) { _fun00002_ip = 636; continue _fun00001 }
- 631:
+                    if(romeon) { _fun00002_ip = 645; continue _fun00001 }
+ 640:
                     option = yankee.id;
- 636:
+ 645:
                     verify['connectionsRoleId'] = option;
                     _closure4_slot1 = verify;
                     option = undefined;
-                    if(!golfie) { _fun00002_ip = 670; continue _fun00001 }
- 650:
+                    if(!golfie) { _fun00002_ip = 679; continue _fun00001 }
+ 659:
                     yankee = _closure1_slot1;
                     romeon = _closure1_slot2;
                     golfie = 7;
                     golfie = romeon[golfie];
                     option = yankee.bind(zuuluu)(golfie);
- 670:
+ 679:
                     _closure4_slot2 = option;
-                    if(oscard) { _fun00002_ip = 723; continue _fun00001 }
- 677:
+                    if(oscard) { _fun00002_ip = 732; continue _fun00001 }
+ 686:
                     golfie = _closure1_slot0;
                     yankee = _closure1_slot2;
                     oscard = 9;
@@ -234,15 +236,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie.bind(zuuluu)(oscard);
                     oscard = golfie.fetchProfile;
                     oscard = oscard.bind(golfie)(offset, verify, option);
-                    SaveGenerator(address=714);
- 712:
-                    return oscard;
- 714:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(!golfie) { _fun00002_ip = 762; continue _fun00001 }
- 720:
+                    SaveGenerator(address=723);
+ 721:
                     return oscard;
  723:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
+                    if(!golfie) { _fun00002_ip = 771; continue _fun00001 }
+ 729:
+                    return oscard;
+ 732:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     report = 8;
@@ -265,11 +267,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon = report.bind(oscard)(tangon);
                     return tangon;
- 762:
+ 771:
                     return zuuluu;
- 765:
+ 774:
                     return michal;
- 768:
+ 777:
                     return entity;
                 }
             };

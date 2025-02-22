@@ -147,13 +147,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            sizing = entity.streamId;
+            backup = entity.streamId;
             romeon = entity.user;
-            output = entity.resizeMode;
+            kiloes = entity.resizeMode;
             tangon = entity.ringing;
             golfie = entity.avatarSize;
             option = entity.speaking;
-            kiloes = entity.gestureEnabled;
+            foxtra = entity.gestureEnabled;
             zuuluu = entity.hasVideo;
             var _closure2_slot0 = zuuluu;
             yankee = entity.guildId;
@@ -165,16 +165,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = entity;
             result = _closure1_slot0;
             echoed = _closure1_slot2;
-            foxtra = 14;
-            offset = echoed[foxtra];
+            output = 14;
+            offset = echoed[output];
             ctrled = result.bind(report)(offset);
             source = ctrled.useStateFromStores;
             offset = _closure1_slot8;
             update = new Array(1);
             update[0] = offset;
-            backup = new Array(2);
-            backup[0] = zuuluu;
-            backup[1] = entity;
+            sizing = new Array(2);
+            sizing[0] = zuuluu;
+            sizing[1] = entity;
             offset = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -190,13 +190,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            backup = source.bind(ctrled)(update, offset, backup);
-            offset = echoed[foxtra];
-            sequen = result.bind(report)(offset);
+            offset = source.bind(ctrled)(update, offset, sizing);
+            sizing = echoed[output];
+            sequen = result.bind(report)(sizing);
             vacuum = sequen.useStateFromStoresArray;
-            offset = _closure1_slot10;
+            sizing = _closure1_slot10;
             ctrled = new Array(1);
-            ctrled[0] = offset;
+            ctrled[0] = sizing;
             source = new Array(1);
             source[0] = entity;
             update = function() {
@@ -215,13 +215,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 0;
             update = source[update];
             var _closure2_slot3 = update;
-            foxtra = echoed[foxtra];
-            echoed = result.bind(report)(foxtra);
+            output = echoed[output];
+            echoed = result.bind(report)(output);
             result = echoed.useStateFromStores;
-            foxtra = new Array(1);
-            foxtra[0] = offset;
-            offset = new Array(1);
-            offset[0] = entity;
+            output = new Array(1);
+            output[0] = sizing;
+            sizing = new Array(1);
+            sizing[0] = entity;
             entity = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -243,50 +243,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = result.bind(echoed)(foxtra, entity, offset);
+            sizing = result.bind(echoed)(output, entity, sizing);
             entity = _closure1_slot11;
             entity = entity.AUTO_PROBING;
-            entity = offset === entity;
+            entity = sizing === entity;
             var _closure2_slot4 = entity;
-            if(tangon) { _fun00002_ip = 418; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 393; continue _fun00001 }
+ 281:
+            if(!zuuluu) { _fun00002_ip = 393; continue _fun00001 }
  284:
-            if(!zuuluu) { _fun00002_ip = 418; continue _fun00001 }
- 290:
-            if(entity) { _fun00002_ip = 418; continue _fun00001 }
- 296:
+            if(entity) { _fun00002_ip = 393; continue _fun00001 }
+ 287:
             tangon = _closure1_slot14;
-            zuuluu = _closure1_slot16;
+            zuuluu = _closure1_slot1;
+            sizing = _closure1_slot2;
+            entity = 20;
+            entity = sizing[entity];
+            zuuluu = zuuluu.bind(report)(entity);
             entity = {};
-            foxtra = _closure1_slot1;
-            result = _closure1_slot2;
-            offset = 20;
-            offset = result[offset];
-            foxtra = foxtra.bind(report)(offset);
-            offset = {};
-            offset['resizeMode'] = output;
-            offset['streamId'] = sizing;
-            offset['gestureEnabled'] = kiloes;
-            sizing = _closure1_slot0;
-            output = _closure1_slot2;
-            kiloes = 21;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(report)(kiloes);
-            kiloes = kiloes.VideoSpinnerContext;
-            if(backup) { _fun00002_ip = 380; continue _fun00001 }
- 372:
-            backup = kiloes.REMOTE_VIDEO;
-            _fun00002_ip = 386; continue _fun00001;
- 380:
-            backup = kiloes.SELF_VIDEO;
- 386:
-            offset['videoSpinnerContext'] = backup;
-            backup = romeon.id;
-            offset['userId'] = backup;
-            offset = tangon.bind(report)(foxtra, offset);
-            entity['children'] = offset;
+            entity['resizeMode'] = kiloes;
+            entity['streamId'] = backup;
+            entity['gestureEnabled'] = foxtra;
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            foxtra = 21;
+            foxtra = kiloes[foxtra];
+            foxtra = backup.bind(report)(foxtra);
+            foxtra = foxtra.VideoSpinnerContext;
+            if(offset) { _fun00002_ip = 365; continue _fun00001 }
+ 357:
+            offset = foxtra.REMOTE_VIDEO;
+            _fun00002_ip = 371; continue _fun00001;
+ 365:
+            offset = foxtra.SELF_VIDEO;
+ 371:
+            entity['videoSpinnerContext'] = offset;
+            offset = romeon.id;
+            entity['userId'] = offset;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 498; continue _fun00001;
- 418:
+            _fun00002_ip = 473; continue _fun00001;
+ 393:
             tangon = _closure1_slot14;
             zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -378,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['renderVideoDetails'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 498:
+ 473:
             return entity;
         }
     };

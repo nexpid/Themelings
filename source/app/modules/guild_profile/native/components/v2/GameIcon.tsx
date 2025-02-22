@@ -42,9 +42,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = oscard.bind(entity)(michal);
     report = option.createStyles;
     michal = {};
-    verify = {'width': 24, 'height': 24};
+    verify = {'width': 32, 'height': 32};
     michal['gameIcon'] = verify;
-    verify = {'width': 24, 'height': 24, 'borderRadius': null, 'borderWidth': 1, 'borderStyle': 'solid'};
+    verify = {'width': 32, 'height': 32, 'borderRadius': null, 'borderWidth': 1, 'borderStyle': 'solid'};
     offset = 4;
     romeon = golfie[offset];
     romeon = yankee.bind(entity)(romeon);
@@ -57,24 +57,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.BORDER_STRONG;
     verify['borderColor'] = romeon;
     michal['gameIconImage'] = verify;
-    verify = {'position': 'absolute', 'top': 4294967292, 'right': 4294967292, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'padding': 2, 'width': 14, 'height': 14};
+    verify = {'position': 'absolute', 'top': 4294967292, 'right': 4294967292, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'padding': 2, 'width': 18, 'height': 18};
     romeon = golfie[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.colors;
     romeon = romeon.BG_BASE_SECONDARY;
     verify['backgroundColor'] = romeon;
-    romeon = golfie[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.radii;
-    romeon = romeon.sm;
-    verify['borderRadius'] = romeon;
-    michal['gameIconMask'] = verify;
-    verify = {'width': 10, 'height': 10};
     offset = golfie[offset];
     offset = yankee.bind(entity)(offset);
-    offset = offset.unsafe_rawColors;
-    offset = offset.ORANGE_260;
-    verify['color'] = offset;
+    offset = offset.radii;
+    offset = offset.sm;
+    verify['borderRadius'] = offset;
+    michal['gameIconMask'] = verify;
+    verify = {'marginTop': 4294967295, 'width': 14, 'height': 14};
     michal['fireIcon'] = verify;
     michal = report.bind(option)(michal);
     var _closure1_slot8 = michal;
@@ -96,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = zuuluu;
             tangon = _closure1_slot8;
             oscard = undefined;
-            backup = tangon.bind(oscard)();
+            kiloes = tangon.bind(oscard)();
             report = option.getIconSource;
             tangon = 24;
             yankee = report.bind(option)(tangon);
@@ -139,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = tangon === entity;
             tangon = michal == yankee;
             entity = null;
-            if(tangon) { _fun00002_ip = 558; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 589; continue _fun00001 }
  161:
             if(!(michal == zuuluu)) { _fun00002_ip = 368; continue _fun00001 }
  168:
@@ -148,26 +143,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             report = new Array(2);
             report[0] = offset;
-            verify = backup.gameIcon;
+            verify = kiloes.gameIcon;
             report[1] = verify;
             michal['style'] = report;
-            foxtra = _closure1_slot6;
+            romeon = _closure1_slot6;
             verify = _closure1_slot5;
             report = {};
-            kiloes = backup.gameIconImage;
-            report['style'] = kiloes;
+            foxtra = kiloes.gameIconImage;
+            report['style'] = foxtra;
             report['source'] = yankee;
-            verify = foxtra.bind(oscard)(verify, report);
+            verify = romeon.bind(oscard)(verify, report);
             report = new Array(2);
             report[0] = verify;
             verify = option;
             if(!option) { _fun00002_ip = 349; continue _fun00001 }
  244:
             sizing = _closure1_slot6;
-            kiloes = _closure1_slot4;
-            foxtra = {};
-            output = backup.gameIconMask;
-            foxtra['style'] = output;
+            foxtra = _closure1_slot4;
+            romeon = {};
+            output = kiloes.gameIconMask;
+            romeon['style'] = output;
             result = _closure1_slot0;
             source = _closure1_slot2;
             output = 7;
@@ -175,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(oscard)(output);
             result = output.FireIcon;
             output = {};
-            echoed = backup.fireIcon;
+            echoed = kiloes.fireIcon;
             output['style'] = echoed;
             update = _closure1_slot1;
             echoed = 4;
@@ -185,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.ORANGE_330;
             output['color'] = echoed;
             output = sizing.bind(oscard)(result, output);
-            foxtra['children'] = output;
-            verify = sizing.bind(oscard)(kiloes, foxtra);
+            romeon['children'] = output;
+            verify = sizing.bind(oscard)(foxtra, romeon);
  349:
             report[1] = verify;
             michal['children'] = report;
             michal = tangon.bind(oscard)(zuuluu, michal);
-            _fun00002_ip = 555; continue _fun00001;
+            _fun00002_ip = 586; continue _fun00001;
  368:
             report = _closure1_slot7;
             tangon = _closure1_slot0;
@@ -203,45 +198,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             verify = new Array(2);
             verify[0] = offset;
-            offset = backup.gameIcon;
+            offset = kiloes.gameIcon;
             verify[1] = offset;
             zuuluu['style'] = verify;
             zuuluu['onPress'] = golfie;
             offset = _closure1_slot6;
             verify = _closure1_slot5;
             golfie = {};
-            foxtra = backup.gameIconImage;
-            golfie['style'] = foxtra;
+            romeon = kiloes.gameIconImage;
+            golfie['style'] = romeon;
             golfie['source'] = yankee;
             verify = offset.bind(oscard)(verify, golfie);
             golfie = new Array(2);
             golfie[0] = verify;
-            if(!option) { _fun00002_ip = 541; continue _fun00001 }
+            if(!option) { _fun00002_ip = 572; continue _fun00001 }
  467:
             yankee = _closure1_slot6;
             offset = _closure1_slot4;
             verify = {};
-            foxtra = backup.gameIconMask;
-            verify['style'] = foxtra;
+            romeon = kiloes.gameIconMask;
+            verify['style'] = romeon;
             foxtra = _closure1_slot0;
-            kiloes = _closure1_slot2;
+            sizing = _closure1_slot2;
             romeon = 7;
-            romeon = kiloes[romeon];
+            romeon = sizing[romeon];
             romeon = foxtra.bind(oscard)(romeon);
             foxtra = romeon.FireIcon;
             romeon = {};
-            backup = backup.fireIcon;
-            romeon['style'] = backup;
+            kiloes = kiloes.fireIcon;
+            romeon['style'] = kiloes;
+            kiloes = _closure1_slot1;
+            backup = 4;
+            backup = sizing[backup];
+            backup = kiloes.bind(oscard)(backup);
+            backup = backup.unsafe_rawColors;
+            backup = backup.ORANGE_260;
+            romeon['color'] = backup;
             romeon = yankee.bind(oscard)(foxtra, romeon);
             verify['children'] = romeon;
             option = yankee.bind(oscard)(offset, verify);
- 541:
+ 572:
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 555:
+ 586:
             entity = michal;
- 558:
+ 589:
             return entity;
         }
     };

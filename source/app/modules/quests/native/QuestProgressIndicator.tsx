@@ -150,13 +150,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = michal.progress;
             var _closure2_slot0 = result;
             output = michal.loading;
+            tangon = undefined;
+            if(!(output === tangon)) { _fun00002_ip = 40; continue _fun00001 }
+ 38:
+            output = false;
+ 40:
             var _closure2_slot1 = output;
             offset = michal.hasConfetti;
-            tangon = undefined;
-            if(!(offset === tangon)) { _fun00002_ip = 50; continue _fun00001 }
- 48:
+            if(!(offset === tangon)) { _fun00002_ip = 56; continue _fun00001 }
+ 54:
             offset = false;
- 50:
+ 56:
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
             var _closure2_slot4 = tangon;
@@ -216,20 +220,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = option.useSharedValue;
             whisks = 0;
             zuuluu = 0;
-            if(!output) { _fun00002_ip = 323; continue _fun00001 }
- 313:
+            if(!output) { _fun00002_ip = 329; continue _fun00001 }
+ 319:
             zuuluu = 0.7;
- 323:
+ 329:
             echoed = golfie.bind(option)(zuuluu);
             _closure2_slot8 = echoed;
             golfie = backup.userStatus;
             verify = null;
             option = verify == golfie;
             zuuluu = undefined;
-            if(option) { _fun00002_ip = 355; continue _fun00001 }
- 349:
-            zuuluu = golfie.completedAt;
+            if(option) { _fun00002_ip = 361; continue _fun00001 }
  355:
+            zuuluu = golfie.completedAt;
+ 361:
             sizing = verify != zuuluu;
             _closure2_slot9 = sizing;
             golfie = _closure1_slot0;
@@ -238,10 +242,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = golfie.bind(tangon)(zuuluu);
             golfie = option.useSharedValue;
             zuuluu = 0;
-            if(!sizing) { _fun00002_ip = 393; continue _fun00001 }
- 390:
+            if(!sizing) { _fun00002_ip = 399; continue _fun00001 }
+ 396:
             zuuluu = quebec;
- 393:
+ 399:
             option = golfie.bind(option)(zuuluu);
             _closure2_slot10 = option;
             update = _closure1_slot0;
@@ -600,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = new Array(3);
             option[0] = yankee;
             verify = null;
-            if(!offset) { _fun00002_ip = 1335; continue _fun00001 }
- 1263:
+            if(!offset) { _fun00002_ip = 1341; continue _fun00001 }
+ 1269:
             sizing = _closure1_slot8;
             yankee = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -620,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset['autoPlay'] = output;
             offset['loop'] = output;
             verify = sizing.bind(tangon)(yankee, offset);
- 1335:
+ 1341:
             option[1] = verify;
             yankee = _closure1_slot8;
             offset = _closure1_slot6;

@@ -45,6 +45,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = option[michal];
     michal = tangon.bind(entity)(michal);
     var _closure1_slot9 = michal;
+    michal = 7;
+    michal = option[michal];
+    michal = tangon.bind(entity)(michal);
+    var _closure1_slot10 = michal;
     tangon = {};
     tangon['IncomingRequests'] = yankee;
     michal = 'IncomingRequests';
@@ -74,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['QuickLauncher'] = verify;
     oscard = 'QuickLauncher';
     michal[verify] = oscard;
-    var _closure1_slot10 = michal;
+    var _closure1_slot11 = michal;
     oscard = 14;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -86,19 +90,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             tangon = offset[zuuluu];
             option = undefined;
             golfie = verify.bind(option)(tangon);
             oscard = golfie.useStateFromStoresObject;
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot8;
             report = new Array(2);
             report[0] = tangon;
             tangon = _closure1_slot5;
             report[1] = tangon;
             tangon = function() {
                 entity = {};
-                tangon = _closure1_slot7;
+                tangon = _closure1_slot8;
                 zuuluu = tangon.getSessionId;
                 tangon = zuuluu.bind(tangon)();
                 zuuluu = null;
@@ -118,11 +122,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = offset[zuuluu];
             golfie = verify.bind(option)(tangon);
             oscard = golfie.useStateFromStoresArray;
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot10;
             report = new Array(1);
             report[0] = tangon;
             tangon = function() {
-                michal = _closure1_slot9;
+                michal = _closure1_slot10;
                 entity = michal.getSortedChannels;
                 entity = entity.bind(michal)();
                 return entity;
@@ -138,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = report[tangon];
             var _closure2_slot3 = foxtra;
             golfie = _closure1_slot1;
-            report = 8;
+            report = 9;
             tangon = offset[report];
             yankee = golfie.bind(option)(tangon);
             golfie = yankee.useExperiment;
@@ -165,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = zuuluu.type;
                         golfie = _closure1_slot0;
                         entity = _closure1_slot2;
-                        oscard = 9;
+                        oscard = 10;
                         entity = entity[oscard];
                         report = undefined;
                         entity = golfie.bind(report)(entity);
@@ -212,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot4 = yankee;
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            tangon = 10;
+            tangon = 11;
             tangon = oscard[tangon];
             report = report.bind(option)(tangon);
             tangon = {};
@@ -233,32 +237,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot7 = romeon;
             tangon = _closure1_slot0;
             result = _closure1_slot2;
-            oscard = 11;
+            oscard = 12;
             oscard = result[oscard];
             oscard = tangon.bind(option)(oscard);
             golfie = oscard.HappeningNowCardsDisabled;
             oscard = golfie.useSetting;
             golfie = oscard.bind(golfie)();
             var _closure2_slot8 = golfie;
-            zuuluu = result[zuuluu];
-            echoed = tangon.bind(option)(zuuluu);
-            verify = echoed.useStateFromStores;
-            zuuluu = _closure1_slot8;
-            oscard = new Array(1);
-            oscard[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot8;
+            oscard = result[zuuluu];
+            update = tangon.bind(option)(oscard);
+            echoed = update.useStateFromStores;
+            oscard = _closure1_slot9;
+            verify = new Array(1);
+            verify[0] = oscard;
+            oscard = function() {
+                michal = _closure1_slot9;
                 entity = michal.getFriendCount;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            oscard = verify.bind(echoed)(oscard, zuuluu);
+            oscard = echoed.bind(update)(verify, oscard);
             var _closure2_slot9 = oscard;
-            zuuluu = 12;
             zuuluu = result[zuuluu];
-            verify = tangon.bind(option)(zuuluu);
-            zuuluu = verify.useShouldShowQuickLaunchRow;
-            verify = zuuluu.bind(verify)();
+            update = tangon.bind(option)(zuuluu);
+            echoed = update.useStateFromStores;
+            zuuluu = _closure1_slot7;
+            verify = new Array(1);
+            verify[0] = zuuluu;
+            zuuluu = function() {
+                entity = _closure1_slot7;
+                entity = entity.showPlayAgain;
+                return entity;
+            };
+            verify = echoed.bind(update)(verify, zuuluu);
             var _closure2_slot10 = verify;
             zuuluu = 13;
             zuuluu = result[zuuluu];
@@ -400,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     if(!tangon) { _fun00006_ip = 336; continue _fun00005 }
  323:
-                    golfie = _closure1_slot10;
+                    golfie = _closure1_slot11;
                     zuuluu = golfie.EmptyState;
  336:
                     _fun00006_ip = 363; continue _fun00005;
@@ -409,14 +420,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     if(golfie) { _fun00006_ip = 360; continue _fun00005 }
  347:
-                    golfie = _closure1_slot10;
+                    golfie = _closure1_slot11;
                     entity = golfie.HappeningNow;
  360:
                     zuuluu = entity;
  363:
                     _fun00006_ip = 378; continue _fun00005;
  365:
-                    entity = _closure1_slot10;
+                    entity = _closure1_slot11;
                     zuuluu = entity.QuickLauncher;
  378:
                     entity = {};

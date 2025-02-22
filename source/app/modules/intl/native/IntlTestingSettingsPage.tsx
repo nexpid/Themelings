@@ -8,25 +8,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscard;
     entity = function() { // Original name: TestLocaleSelector
-        tangon = _closure1_slot10;
-        zuuluu = _closure1_slot12;
-        michal = {};
-        golfie = _closure1_slot11;
-        offset = _closure1_slot0;
-        romeon = _closure1_slot2;
+        tangon = _closure1_slot11;
+        golfie = _closure1_slot0;
+        verify = _closure1_slot2;
         entity = 9;
-        report = romeon[entity];
-        entity = undefined;
-        report = offset.bind(entity)(report);
-        oscard = report.TableRadioGroup;
-        report = {'title': 'Locale', 'hasIcons': false};
-        option = 10;
-        option = romeon[option];
-        option = offset.bind(entity)(option);
-        option = option.intl;
-        option = option.currentLocale;
-        report['value'] = option;
-        option = function() {
+        entity = verify[entity];
+        zuuluu = undefined;
+        entity = golfie.bind(zuuluu)(entity);
+        michal = entity.TableRadioGroup;
+        entity = {'title': 'Locale', 'hasIcons': false};
+        report = 10;
+        report = verify[report];
+        report = golfie.bind(zuuluu)(report);
+        report = report.intl;
+        report = report.currentLocale;
+        entity['value'] = report;
+        report = function() {
             tangon = _closure1_slot4;
             zuuluu = undefined;
             michal = function* (argFoo) {
@@ -78,31 +75,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             return entity;
         };
-        option = option.bind(entity)();
-        report['onChange'] = option;
-        backup = _closure1_slot10;
-        verify = 12;
-        option = romeon[verify];
-        option = offset.bind(entity)(option);
-        foxtra = option.TableRadioRow;
-        option = {'label': 'English', 'value': 'en-US'};
-        foxtra = backup.bind(entity)(foxtra, option);
-        option = new Array(2);
-        option[0] = foxtra;
+        report = report.bind(zuuluu)();
+        entity['onChange'] = report;
         yankee = _closure1_slot10;
-        verify = romeon[verify];
-        verify = offset.bind(entity)(verify);
-        offset = verify.TableRadioRow;
-        verify = {'label': 'French', 'value': 'fr'};
-        verify = yankee.bind(entity)(offset, verify);
-        option[1] = verify;
-        report['children'] = option;
-        report = golfie.bind(entity)(oscard, report);
-        michal['children'] = report;
-        entity = tangon.bind(entity)(zuuluu, michal);
+        oscard = 12;
+        report = verify[oscard];
+        report = golfie.bind(zuuluu)(report);
+        offset = report.TableRadioRow;
+        report = {'label': 'English', 'value': 'en-US'};
+        offset = yankee.bind(zuuluu)(offset, report);
+        report = new Array(2);
+        report[0] = offset;
+        option = _closure1_slot10;
+        oscard = verify[oscard];
+        oscard = golfie.bind(zuuluu)(oscard);
+        golfie = oscard.TableRadioRow;
+        oscard = {'label': 'French', 'value': 'fr'};
+        oscard = option.bind(zuuluu)(golfie, oscard);
+        report[1] = oscard;
+        entity['children'] = report;
+        entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: LocaleInfo
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -266,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -310,14 +305,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = report.bind(entity)(golfie);
     golfie = golfie.jsx;
     var _closure1_slot10 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot11 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.Fragment;
-    var _closure1_slot12 = tangon;
+    tangon = tangon.jsxs;
+    var _closure1_slot11 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -336,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['padding'] = offset;
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot13 = tangon;
+    var _closure1_slot12 = tangon;
     tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -344,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'modules/intl/native/IntlTestingSettingsPage.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: IntlTestingSettingsPage
-        entity = _closure1_slot13;
+        entity = _closure1_slot12;
         tangon = undefined;
         option = entity.bind(tangon)();
         report = _closure1_slot5;
@@ -418,13 +409,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = option.container;
         report['style'] = option;
         yankee = _closure1_slot10;
-        verify = _closure1_slot15;
+        verify = _closure1_slot14;
         option = {};
         verify = yankee.bind(tangon)(verify, option);
         option = new Array(8);
         option[0] = verify;
         romeon = _closure1_slot10;
-        yankee = _closure1_slot14;
+        yankee = _closure1_slot13;
         verify = {};
         verify = romeon.bind(tangon)(yankee, verify);
         option[1] = verify;

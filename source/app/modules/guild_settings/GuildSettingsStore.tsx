@@ -943,32 +943,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     tangon = argFoo;
-                    entity = _closure1_slot29;
-                    oscard = null;
-                    if(!(oscard != entity)) { _fun00028_ip = 86; continue _fun00027 }
+                    zuuluu = _closure1_slot29;
+                    entity = null;
+                    if(!(entity != zuuluu)) { _fun00028_ip = 73; continue _fun00027 }
  16:
                     report = _closure2_slot0;
                     zuuluu = report.hasOwnProperty;
                     zuuluu = zuuluu.bind(report)(tangon);
-                    if(!zuuluu) { _fun00028_ip = 86; continue _fun00027 }
+                    if(!zuuluu) { _fun00028_ip = 73; continue _fun00027 }
  37:
-                    zuuluu = _closure1_slot29;
-                    zuuluu = zuuluu[tangon];
                     entity = _closure2_slot0;
-                    report = entity[tangon];
-                    if(!(oscard != report)) { _fun00028_ip = 86; continue _fun00027 }
- 57:
+                    zuuluu = entity[tangon];
+                    entity = undefined;
+                    if(!(entity !== zuuluu)) { _fun00028_ip = 73; continue _fun00027 }
+ 51:
                     entity = {};
-                    option = _closure1_slot29;
-                    verify = entity;
-                    golfie = copyDataProperties(verify, option);
-                    if(!(oscard != report)) { _fun00028_ip = 77; continue _fun00027 }
- 74:
-                    zuuluu = report;
- 77:
+                    oscard = _closure1_slot29;
+                    golfie = entity;
+                    report = copyDataProperties(golfie, oscard);
                     entity[tangon] = zuuluu;
                     _closure1_slot29 = entity;
- 86:
+ 73:
                     entity = undefined;
                     return entity;
                 }

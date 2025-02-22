@@ -291,70 +291,66 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
-                    backup = entity.item;
-                    var _closure3_slot0 = backup;
-                    sizing = entity.index;
+                    yankee = entity.item;
+                    var _closure3_slot0 = yankee;
+                    foxtra = entity.index;
                     michal = _closure2_slot3;
                     entity = null;
-                    verify = entity != michal;
-                    if(!verify) { _fun00010_ip = 55; continue _fun00009 }
+                    oscard = entity != michal;
+                    if(!oscard) { _fun00010_ip = 55; continue _fun00009 }
  35:
                     entity = _closure2_slot3;
                     michal = entity.length;
                     entity = 1;
                     entity = michal - entity;
-                    verify = sizing === entity;
+                    oscard = foxtra === entity;
  55:
-                    foxtra = _closure2_slot5;
-                    romeon = backup.originalIndex;
+                    offset = _closure2_slot5;
+                    verify = yankee.originalIndex;
                     tangon = _closure1_slot9;
-                    michal = _closure1_slot4;
-                    zuuluu = michal.Fragment;
+                    zuuluu = _closure1_slot5;
                     michal = {};
+                    report = _closure2_slot2;
+                    golfie = report.listItemContainer;
+                    report = new Array(3);
+                    report[0] = golfie;
+                    golfie = 0;
+                    golfie = golfie === foxtra;
+                    if(!golfie) { _fun00010_ip = 115; continue _fun00009 }
+ 105:
+                    foxtra = _closure2_slot2;
+                    golfie = foxtra.firstItem;
+ 115:
+                    report[1] = golfie;
+                    if(!oscard) { _fun00010_ip = 132; continue _fun00009 }
+ 122:
+                    golfie = _closure2_slot2;
+                    oscard = golfie.lastItem;
+ 132:
+                    report[2] = oscard;
+                    michal['style'] = report;
                     golfie = _closure1_slot9;
-                    oscard = _closure1_slot5;
-                    report = {};
-                    option = _closure2_slot2;
-                    offset = option.listItemContainer;
-                    option = new Array(3);
-                    option[0] = offset;
-                    offset = 0;
-                    offset = offset === sizing;
-                    if(!offset) { _fun00010_ip = 130; continue _fun00009 }
- 120:
-                    sizing = _closure2_slot2;
-                    offset = sizing.firstItem;
- 130:
-                    option[1] = offset;
-                    if(!verify) { _fun00010_ip = 147; continue _fun00009 }
- 137:
-                    offset = _closure2_slot2;
-                    verify = offset.lastItem;
- 147:
-                    option[2] = verify;
-                    report['style'] = option;
-                    offset = _closure1_slot9;
-                    verify = _closure1_slot0;
-                    option = _closure1_slot2;
+                    oscard = _closure1_slot0;
+                    report = _closure1_slot2;
                     entity = 14;
-                    option = option[entity];
+                    report = report[entity];
                     entity = undefined;
-                    option = verify.bind(entity)(option);
-                    verify = option.FormRadioRow;
-                    option = {};
-                    kiloes = _closure2_slot2;
-                    sizing = kiloes.listItem;
-                    kiloes = new Array(1);
-                    kiloes[0] = sizing;
-                    option['style'] = kiloes;
-                    backup = backup.choice;
-                    backup = backup.displayName;
-                    option['label'] = backup;
-                    backup = 'right';
-                    option['align'] = backup;
-                    romeon = foxtra === romeon;
-                    option['selected'] = romeon;
-                    yankee = function() { // Original name: onPress
+                    report = oscard.bind(entity)(report);
+                    oscard = report.FormRadioRow;
+                    report = {};
+                    romeon = _closure2_slot2;
+                    foxtra = romeon.listItem;
+                    romeon = new Array(1);
+                    romeon[0] = foxtra;
+                    report['style'] = romeon;
+                    yankee = yankee.choice;
+                    yankee = yankee.displayName;
+                    report['label'] = yankee;
+                    yankee = 'right';
+                    report['align'] = yankee;
+                    verify = offset === verify;
+                    report['selected'] = verify;
+                    option = function() { // Original name: onPress
                         report = _closure2_slot6;
                         michal = _closure3_slot0;
                         tangon = michal.originalIndex;
@@ -373,9 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = michal.bind(zuuluu)();
                         return entity;
                     };
-                    option['onPress'] = yankee;
-                    option = offset.bind(entity)(verify, option);
-                    report['children'] = option;
+                    report['onPress'] = option;
                     report = golfie.bind(entity)(oscard, report);
                     michal['children'] = report;
                     entity = tangon.bind(entity)(zuuluu, michal);

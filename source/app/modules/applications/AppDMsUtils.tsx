@@ -280,94 +280,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function() { // Original name: useAppDMFrecentApps
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        zuuluu = 15;
-        zuuluu = option[zuuluu];
+        entity = 15;
+        entity = option[entity];
         oscard = undefined;
-        report = golfie.bind(oscard)(zuuluu);
-        tangon = report.useAppLauncherFrecentApps;
-        zuuluu = {'context': null, 'onlyActivityApps': true, 'allowCommandFetch': true, 'includeAuthorizedAppsAndFetch': false};
-        verify = {};
-        offset = 'contextless';
-        verify['type'] = offset;
-        zuuluu['context'] = verify;
-        zuuluu = tangon.bind(report)(zuuluu);
-        tangon = zuuluu.frecentApps;
-        report = tangon.map;
+        zuuluu = golfie.bind(oscard)(entity);
+        michal = zuuluu.useAppLauncherFrecentApps;
+        entity = {'context': null, 'onlyActivityApps': true, 'allowCommandFetch': true, 'includeAuthorizedAppsAndFetch': false};
+        tangon = {};
+        report = 'contextless';
+        tangon['type'] = report;
+        entity['context'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        report = entity.frecentApps;
+        michal = entity.loading;
+        entity = {};
+        tangon = report.map;
         zuuluu = function(argFoo) {
             entity = argFoo;
-            entity = entity.id;
+            entity = entity.application;
             return entity;
         };
-        report = report.bind(tangon)(zuuluu);
-        zuuluu = report.sort;
-        zuuluu = zuuluu.bind(report)();
-        report = _closure1_slot1;
-        michal = 16;
-        michal = option[michal];
-        michal = report.bind(oscard)(michal);
-        report = michal.bind(oscard)(zuuluu);
-        zuuluu = report.filter;
-        michal = 17;
-        michal = option[michal];
-        michal = golfie.bind(oscard)(michal);
-        michal = michal.isNotNullish;
-        oscard = zuuluu.bind(report)(michal);
-        michal = global;
-        report = michal.Map;
-        zuuluu = oscard.map;
-        michal = function(argFoo) {
-            michal = argFoo;
-            zuuluu = michal.id;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
-        };
-        yankee = zuuluu.bind(oscard)(michal);
-        zuuluu = report.prototype;
-        zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-        romeon = zuuluu;
-        michal = new romeon[report](yankee, offset);
-        michal = michal instanceof Object ? michal : zuuluu;
-        var _closure2_slot0 = michal;
-        zuuluu = tangon.map;
-        michal = function(argFoo) {
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.get;
-            entity = argFoo;
-            entity = entity.id;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.filter;
-        entity = function(argFoo) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                tangon = argFoo;
-                michal = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 18;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                report = null;
-                oscard = report == tangon;
-                entity = undefined;
-                if(oscard) { _fun00004_ip = 60; continue _fun00003 }
- 39:
-                tangon = tangon.embeddedActivityConfig;
-                report = report == tangon;
-                entity = undefined;
-                if(report) { _fun00004_ip = 60; continue _fun00003 }
- 54:
-                entity = tangon.supported_platforms;
- 60:
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            }
-        };
-        entity = michal.bind(zuuluu)(entity);
+        report = tangon.bind(report)(zuuluu);
+        tangon = report.filter;
+        zuuluu = 16;
+        zuuluu = option[zuuluu];
+        zuuluu = golfie.bind(oscard)(zuuluu);
+        zuuluu = zuuluu.isNotNullish;
+        zuuluu = tangon.bind(report)(zuuluu);
+        entity['frecentApps'] = zuuluu;
+        entity['loading'] = michal;
         return entity;
     };
     var _closure1_slot10 = michal;
@@ -405,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.AnalyticEvents;
     var _closure1_slot8 = report;
-    report = 19;
+    report = 17;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -423,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['openAndLaunchAppDM'] = report;
     tangon = function() { // Original name: useShouldShowQuickLaunchRow
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -443,12 +384,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report.bind(oscard)(tangon, entity);
             michal = _closure1_slot10;
             michal = michal.bind(zuuluu)();
-            if(!entity) { _fun00006_ip = 79; continue _fun00005 }
- 68:
+            michal = michal.frecentApps;
+            if(!entity) { _fun00004_ip = 85; continue _fun00003 }
+ 74:
             zuuluu = michal.length;
             michal = 0;
             entity = zuuluu > michal;
- 79:
+ 85:
             return entity;
         }
     };

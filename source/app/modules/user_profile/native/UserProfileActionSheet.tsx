@@ -554,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  95:
                     entity = michal;
  98:
-                    if(entity) { _fun00010_ip = 214; continue _fun00009 }
+                    if(entity) { _fun00010_ip = 218; continue _fun00009 }
  101:
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot12;
                     entity = 80;
                     michal = oscard.bind(verify)(michal, entity);
-                    entity = {'friendToken': null, 'withMutualGuilds': true, 'withMutualFriends': true, 'dispatchWait': true};
+                    entity = {'type': 'action_sheet', 'friendToken': null, 'withMutualGuilds': true, 'withMutualFriends': true, 'dispatchWait': true};
                     oscard = _closure2_slot2;
                     entity['friendToken'] = oscard;
                     oscard = _closure2_slot12;
@@ -577,13 +577,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot1;
                     option = option != oscard;
                     oscard = undefined;
-                    if(!option) { _fun00010_ip = 203; continue _fun00009 }
- 199:
-                    oscard = _closure2_slot1;
+                    if(!option) { _fun00010_ip = 207; continue _fun00009 }
  203:
+                    oscard = _closure2_slot1;
+ 207:
                     entity['channelId'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 214:
+ 218:
                     entity = undefined;
                     return entity;
                 }

@@ -626,12 +626,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     tangon = _closure2_slot11;
                     zuuluu = tangon.getGroupedCustomEmoji;
-                    update = zuuluu.bind(tangon)();
+                    echoed = zuuluu.bind(tangon)();
                     report = _closure1_slot6;
                     tangon = report.getFlattenedGuildIds;
                     report = tangon.bind(report)();
-                    echoed = new Array(0);
-                    var _closure3_slot0 = echoed;
+                    result = new Array(0);
+                    var _closure3_slot0 = result;
                     oscard = {};
                     tangon = _closure1_slot9;
                     golfie = tangon.SOUNDMOJI;
@@ -640,12 +640,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = _closure1_slot2;
                     golfie = 18;
                     option = yankee[golfie];
-                    result = undefined;
-                    option = offset.bind(result)(option);
+                    output = undefined;
+                    option = offset.bind(output)(option);
                     verify = option.intl;
                     option = verify.string;
                     golfie = yankee[golfie];
-                    golfie = offset.bind(result)(golfie);
+                    golfie = offset.bind(output)(golfie);
                     golfie = golfie.t;
                     golfie = golfie.f0Ezmp;
                     golfie = option.bind(verify)(golfie);
@@ -655,7 +655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard['id'] = golfie;
                     golfie = false;
                     oscard['isNitroLocked'] = golfie;
-                    output = function(argFoo) { // Original name: getEmojiUnavailableReasons
+                    sizing = function(argFoo) { // Original name: getEmojiUnavailableReasons
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
                         entity = 19;
@@ -675,164 +675,152 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    var _closure3_slot1 = output;
-                    sizing = tangon.GUILD;
+                    var _closure3_slot1 = sizing;
+                    kiloes = tangon.GUILD;
                     tangon = _closure1_slot20;
-                    kiloes = tangon.bind(result)(report);
-                    report = kiloes.bind(result)();
+                    backup = tangon.bind(output)(report);
+                    report = backup.bind(output)();
                     tangon = report.done;
-                    backup = null;
-                    foxtra = 0;
-                    romeon = report;
-                    yankee = undefined;
+                    foxtra = null;
+                    romeon = 0;
+                    yankee = report;
                     offset = undefined;
                     verify = undefined;
                     option = undefined;
                     golfie = undefined;
                     report = undefined;
-                    if(tangon) { _fun00012_ip = 605; continue _fun00011 }
- 202:
-                    ctrled = romeon.value;
+                    if(tangon) { _fun00012_ip = 571; continue _fun00011 }
+ 200:
+                    source = yankee.value;
                     tangon = _closure1_slot9;
                     tangon = tangon.GUILD;
-                    sierra = undefined;
-                    if(!(sizing === tangon)) { _fun00012_ip = 237; continue _fun00011 }
- 223:
-                    source = _closure1_slot5;
-                    tangon = source.getGuild;
-                    sierra = tangon.bind(source)(ctrled);
- 237:
-                    config = offset;
-                    sequen = verify;
-                    vacuum = option;
-                    ctrled = golfie;
-                    source = report;
-                    if(!(backup != sierra)) { _fun00012_ip = 572; continue _fun00011 }
- 259:
-                    tangon = backup == update;
-                    status = undefined;
-                    if(tangon) { _fun00012_ip = 277; continue _fun00011 }
- 268:
-                    tangon = sierra.id;
-                    status = update[tangon];
- 277:
-                    yankee = status;
-                    config = offset;
-                    sequen = verify;
-                    vacuum = option;
-                    ctrled = golfie;
-                    source = report;
-                    if(!(backup != status)) { _fun00012_ip = 572; continue _fun00011 }
- 302:
-                    tangon = status.length;
-                    yankee = status;
-                    config = offset;
-                    sequen = verify;
-                    vacuum = option;
-                    ctrled = golfie;
-                    source = report;
-                    if(!(foxtra !== tangon)) { _fun00012_ip = 572; continue _fun00011 }
- 332:
-                    tangon = output.bind(result)(status);
-                    target = tangon.emojisDisabled;
-                    papara = tangon.emojisUnfiltered;
-                    cntext = tangon.emojisPremiumLockedCount;
-                    record = tangon.emojiNitroLocked;
-                    tangon = _closure2_slot1;
-                    if(!(backup != tangon)) { _fun00012_ip = 399; continue _fun00011 }
- 369:
-                    tangon = papara.length;
-                    yankee = status;
-                    config = target;
-                    sequen = papara;
-                    vacuum = cntext;
-                    ctrled = record;
-                    source = report;
-                    if(!(foxtra !== tangon)) { _fun00012_ip = 572; continue _fun00011 }
- 399:
+                    papara = undefined;
+                    if(!(kiloes === tangon)) { _fun00012_ip = 235; continue _fun00011 }
+ 221:
+                    update = _closure1_slot5;
+                    tangon = update.getGuild;
+                    papara = tangon.bind(update)(source);
+ 235:
+                    vacuum = verify;
+                    ctrled = option;
+                    source = golfie;
+                    update = report;
+                    if(!(foxtra != papara)) { _fun00012_ip = 541; continue _fun00011 }
+ 254:
+                    tangon = foxtra == echoed;
+                    cntext = undefined;
+                    if(tangon) { _fun00012_ip = 272; continue _fun00011 }
+ 263:
+                    tangon = papara.id;
+                    cntext = echoed[tangon];
+ 272:
+                    offset = cntext;
+                    vacuum = verify;
+                    ctrled = option;
+                    source = golfie;
+                    update = report;
+                    if(!(foxtra != cntext)) { _fun00012_ip = 541; continue _fun00011 }
+ 294:
+                    tangon = cntext.length;
+                    offset = cntext;
+                    vacuum = verify;
+                    ctrled = option;
+                    source = golfie;
+                    update = report;
+                    if(!(romeon !== tangon)) { _fun00012_ip = 541; continue _fun00011 }
+ 321:
+                    sequen = sizing.bind(output)(cntext);
+                    record = sequen.emojisDisabled;
+                    tangon = sequen.emojisUnfiltered;
+                    config = sequen.emojisPremiumLockedCount;
+                    sequen = sequen.emojiNitroLocked;
+                    tangon = tangon.length;
+                    offset = cntext;
+                    vacuum = record;
+                    ctrled = config;
+                    source = sequen;
+                    update = report;
+                    if(!(romeon !== tangon)) { _fun00012_ip = 541; continue _fun00011 }
+ 377:
                     tangon = _closure1_slot9;
-                    limora = tangon.GUILD;
+                    target = tangon.GUILD;
                     tangon = null;
-                    if(!(sizing === limora)) { _fun00012_ip = 478; continue _fun00011 }
- 415:
-                    limora = {};
-                    whisks = _closure1_slot9;
-                    whisks = whisks.GUILD;
-                    limora['type'] = whisks;
-                    limora['guild'] = sierra;
-                    whisks = _closure2_slot13;
-                    whisks = !whisks;
-                    if(!whisks) { _fun00012_ip = 448; continue _fun00011 }
- 445:
-                    whisks = record;
- 448:
-                    if(!whisks) { _fun00012_ip = 460; continue _fun00011 }
- 451:
-                    equals = status.length;
-                    whisks = cntext === equals;
- 460:
-                    limora['isNitroLocked'] = whisks;
-                    limora['emojis'] = status;
-                    limora['emojisDisabled'] = target;
-                    tangon = limora;
- 478:
-                    yankee = status;
-                    config = target;
-                    sequen = papara;
-                    vacuum = cntext;
-                    ctrled = record;
-                    source = tangon;
-                    if(!(backup != tangon)) { _fun00012_ip = 572; continue _fun00011 }
- 500:
-                    limora = sierra.id;
-                    sierra = _closure2_slot2;
-                    if(!(limora !== sierra)) { _fun00012_ip = 543; continue _fun00011 }
- 513:
-                    sierra = echoed.push;
-                    sierra = sierra.bind(echoed)(tangon);
-                    yankee = status;
-                    config = target;
-                    sequen = papara;
-                    vacuum = cntext;
-                    ctrled = record;
-                    source = tangon;
-                    _fun00012_ip = 572; continue _fun00011;
- 543:
-                    sierra = echoed.unshift;
-                    sierra = sierra.bind(echoed)(tangon);
-                    yankee = status;
-                    config = target;
-                    sequen = papara;
-                    vacuum = cntext;
-                    ctrled = record;
-                    source = tangon;
- 572:
-                    record = kiloes.bind(result)();
-                    tangon = record.done;
-                    offset = config;
-                    verify = sequen;
-                    option = vacuum;
-                    golfie = ctrled;
-                    report = source;
-                    romeon = record;
-                    if(!tangon) { _fun00012_ip = 202; continue _fun00011 }
- 605:
+                    if(!(kiloes === target)) { _fun00012_ip = 456; continue _fun00011 }
+ 393:
+                    target = {};
+                    status = _closure1_slot9;
+                    status = status.GUILD;
+                    target['type'] = status;
+                    target['guild'] = papara;
+                    status = _closure2_slot13;
+                    status = !status;
+                    if(!status) { _fun00012_ip = 426; continue _fun00011 }
+ 423:
+                    status = sequen;
+ 426:
+                    if(!status) { _fun00012_ip = 438; continue _fun00011 }
+ 429:
+                    sierra = cntext.length;
+                    status = config === sierra;
+ 438:
+                    target['isNitroLocked'] = status;
+                    target['emojis'] = cntext;
+                    target['emojisDisabled'] = record;
+                    tangon = target;
+ 456:
+                    offset = cntext;
+                    vacuum = record;
+                    ctrled = config;
+                    source = sequen;
+                    update = tangon;
+                    if(!(foxtra != tangon)) { _fun00012_ip = 541; continue _fun00011 }
+ 475:
+                    target = papara.id;
+                    papara = _closure2_slot2;
+                    if(!(target !== papara)) { _fun00012_ip = 515; continue _fun00011 }
+ 488:
+                    papara = result.push;
+                    papara = papara.bind(result)(tangon);
+                    offset = cntext;
+                    vacuum = record;
+                    ctrled = config;
+                    source = sequen;
+                    update = tangon;
+                    _fun00012_ip = 541; continue _fun00011;
+ 515:
+                    papara = result.unshift;
+                    papara = papara.bind(result)(tangon);
+                    offset = cntext;
+                    vacuum = record;
+                    ctrled = config;
+                    source = sequen;
+                    update = tangon;
+ 541:
+                    sequen = backup.bind(output)();
+                    tangon = sequen.done;
+                    verify = vacuum;
+                    option = ctrled;
+                    golfie = source;
+                    report = update;
+                    yankee = sequen;
+                    if(!tangon) { _fun00012_ip = 200; continue _fun00011 }
+ 571:
                     zuuluu = _closure1_slot4;
                     tangon = zuuluu.categories;
                     zuuluu = tangon.reduce;
                     report = _closure2_slot14;
-                    if(!report) { _fun00012_ip = 635; continue _fun00011 }
- 628:
+                    if(!report) { _fun00012_ip = 601; continue _fun00011 }
+ 594:
                     michal = _closure2_slot3;
-                    if(michal) { _fun00012_ip = 641; continue _fun00011 }
- 635:
+                    if(michal) { _fun00012_ip = 607; continue _fun00011 }
+ 601:
                     michal = new Array(0);
-                    _fun00012_ip = 652; continue _fun00011;
- 641:
+                    _fun00012_ip = 618; continue _fun00011;
+ 607:
                     report = new Array(1);
                     report[0] = oscard;
                     michal = report;
- 652:
+ 618:
                     entity = function(argFoo, argBar) {
                         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:

@@ -419,8 +419,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = output[offset];
             offset = sizing.bind(tangon)(offset);
             offset = offset.FlashList;
-            if(verify) { _fun00002_ip = 1077; continue _fun00001 }
- 912:
+            if(verify) { _fun00002_ip = 1081; continue _fun00001 }
+ 916:
             verify = {};
             sizing = true;
             verify['horizontal'] = sizing;
@@ -502,8 +502,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot12;
             verify['ItemSeparatorComponent'] = sizing;
             verify['initialScrollIndex'] = romeon;
-            _fun00002_ip = 1209; continue _fun00001;
- 1077:
+            _fun00002_ip = 1213; continue _fun00001;
+ 1081:
             romeon = {};
             sizing = true;
             romeon['horizontal'] = sizing;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['ListHeaderComponent'] = foxtra;
             romeon['ItemSeparatorComponent'] = foxtra;
             verify = romeon;
- 1209:
+ 1213:
             verify = yankee.bind(tangon)(offset, verify);
             option[1] = verify;
             report['children'] = option;

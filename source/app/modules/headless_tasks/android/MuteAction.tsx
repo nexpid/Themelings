@@ -30,48 +30,68 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.awaitStorage;
             michal = function() {
-                tangon = _closure1_slot1;
-                offset = _closure1_slot2;
-                entity = 2;
-                zuuluu = offset[entity];
-                entity = undefined;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                golfie = zuuluu.bind(entity)();
-                oscard = golfie.add;
-                romeon = _closure1_slot3;
-                report = romeon.HOURS_1;
-                zuuluu = 'second';
-                report = oscard.bind(golfie)(report, zuuluu);
-                zuuluu = report.toISOString;
-                yankee = zuuluu.bind(report)();
-                zuuluu = 3;
-                zuuluu = offset[zuuluu];
-                option = tangon.bind(entity)(zuuluu);
-                golfie = option.updateChannelOverrideSettings;
-                zuuluu = _closure2_slot0;
-                oscard = zuuluu.guildId;
-                kiloes = zuuluu.channelId;
-                tangon = {};
-                zuuluu = true;
-                tangon['muted'] = zuuluu;
-                verify = {};
-                romeon = romeon.HOURS_1;
-                verify['selected_time_window'] = romeon;
-                verify['end_time'] = yankee;
-                tangon['mute_config'] = verify;
-                verify = _closure1_slot0;
-                michal = 4;
-                michal = offset[michal];
-                michal = verify.bind(entity)(michal);
-                michal = michal.NotificationLabels;
-                foxtra = michal.Muted;
-                output = option;
-                sizing = oscard;
-                backup = tangon;
-                michal = output[golfie](sizing, kiloes, backup, foxtra, romeon);
-                michal = _closure3_slot0;
-                michal = michal.bind(entity)(zuuluu);
-                return entity;
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                    entity = _closure2_slot0;
+                    michal = entity.muteTime;
+                    oscard = null;
+                    entity = -1;
+                    yankee = null;
+                    if(!(entity !== michal)) { _fun00002_ip = 105; continue _fun00001 }
+ 27:
+                    report = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 2;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    michal = report.bind(tangon)(michal);
+                    report = michal.bind(tangon)();
+                    tangon = report.add;
+                    michal = _closure2_slot0;
+                    michal = michal.muteTime;
+                    if(!(oscard == michal)) { _fun00002_ip = 85; continue _fun00001 }
+ 75:
+                    entity = _closure1_slot3;
+                    michal = entity.HOURS_1;
+ 85:
+                    entity = 'second';
+                    michal = tangon.bind(report)(michal, entity);
+                    entity = michal.toISOString;
+                    yankee = entity.bind(michal)();
+ 105:
+                    report = _closure1_slot1;
+                    offset = _closure1_slot2;
+                    entity = 3;
+                    tangon = offset[entity];
+                    entity = undefined;
+                    option = report.bind(entity)(tangon);
+                    golfie = option.updateChannelOverrideSettings;
+                    zuuluu = _closure2_slot0;
+                    oscard = zuuluu.guildId;
+                    kiloes = zuuluu.channelId;
+                    tangon = {};
+                    zuuluu = true;
+                    tangon['muted'] = zuuluu;
+                    verify = {};
+                    romeon = _closure1_slot3;
+                    romeon = romeon.HOURS_1;
+                    verify['selected_time_window'] = romeon;
+                    verify['end_time'] = yankee;
+                    tangon['mute_config'] = verify;
+                    verify = _closure1_slot0;
+                    michal = 4;
+                    michal = offset[michal];
+                    michal = verify.bind(entity)(michal);
+                    michal = michal.NotificationLabels;
+                    foxtra = michal.Muted;
+                    output = option;
+                    sizing = oscard;
+                    backup = tangon;
+                    michal = output[golfie](sizing, kiloes, backup, foxtra, romeon);
+                    michal = _closure3_slot0;
+                    michal = michal.bind(entity)(zuuluu);
+                    return entity;
+                }
             };
             michal = zuuluu.bind(tangon)(michal);
             return entity;

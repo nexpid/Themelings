@@ -1720,18 +1720,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot2;
                     michal = tangon != zuuluu;
  24:
-                    if(!michal) { _fun00028_ip = 66; continue _fun00027 }
+                    if(!michal) { _fun00028_ip = 79; continue _fun00027 }
  27:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
                     michal = 53;
                     michal = tangon[michal];
-                    tangon = undefined;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot2;
-                    entity = zuuluu.bind(tangon)(michal, entity);
- 66:
+                    report = undefined;
+                    tangon = zuuluu.bind(report)(michal);
+                    zuuluu = _closure2_slot1;
+                    michal = _closure2_slot2;
+                    entity = {};
+                    oscard = 'you_screen';
+                    entity['type'] = oscard;
+                    entity = tangon.bind(report)(zuuluu, michal, entity);
+ 79:
                     entity = undefined;
                     return entity;
                 }

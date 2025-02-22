@@ -222,32 +222,63 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 293; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 423; continue _fun00005 }
  13:
                     yankee = michal.quest;
                     offset = michal.questContent;
                     verify = michal.questContentPosition;
                     option = michal.product;
-                    report = michal.hideActionSheet;
+                    oscard = michal.hideActionSheet;
+                    report = michal.currentUserHasVerifiedEmailOrPhone;
                     zuuluu = undefined;
-                    SaveGenerator(address=49);
- 47:
+                    SaveGenerator(address=55);
+ 53:
                     return zuuluu;
- 49:
+ 55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 290; continue _fun00005 }
- 58:
-                    tangon = true;
-                    if(!(tangon === report)) { _fun00006_ip = 97; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 420; continue _fun00005 }
  64:
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
+                    tangon = true;
+                    if(!(tangon === oscard)) { _fun00006_ip = 103; continue _fun00005 }
+ 70:
+                    oscard = _closure1_slot1;
+                    golfie = _closure1_slot2;
                     tangon = 5;
-                    tangon = oscard[tangon];
-                    report = report.bind(zuuluu)(tangon);
-                    tangon = report.hideActionSheet;
-                    tangon = tangon.bind(report)();
- 97:
+                    tangon = golfie[tangon];
+                    oscard = oscard.bind(zuuluu)(tangon);
+                    tangon = oscard.hideActionSheet;
+                    tangon = tangon.bind(oscard)();
+ 103:
+                    if(report) { _fun00006_ip = 230; continue _fun00005 }
+ 109:
+                    foxtra = _closure1_slot1;
+                    backup = _closure1_slot2;
+                    report = 13;
+                    report = backup[report];
+                    golfie = foxtra.bind(zuuluu)(report);
+                    oscard = golfie.open;
+                    report = {};
+                    romeon = 'CLAIM_QUEST_REWARD_ERROR';
+                    report['key'] = romeon;
+                    output = _closure1_slot0;
+                    romeon = 14;
+                    kiloes = backup[romeon];
+                    kiloes = output.bind(zuuluu)(kiloes);
+                    sizing = kiloes.intl;
+                    kiloes = sizing.string;
+                    romeon = backup[romeon];
+                    romeon = output.bind(zuuluu)(romeon);
+                    romeon = romeon.t;
+                    romeon = romeon.HZlu09;
+                    romeon = kiloes.bind(sizing)(romeon);
+                    report['content'] = romeon;
+                    romeon = 15;
+                    romeon = backup[romeon];
+                    romeon = foxtra.bind(zuuluu)(romeon);
+                    report['icon'] = romeon;
+                    report = oscard.bind(golfie)(report);
+                    _fun00006_ip = 417; continue _fun00005;
+ 230:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
                     report = 4;
@@ -256,17 +287,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie.hasQuestRewardCode;
                     report = yankee.config;
                     report = oscard.bind(golfie)(report);
-                    if(report) { _fun00006_ip = 194; continue _fun00005 }
- 139:
+                    if(report) { _fun00006_ip = 324; continue _fun00005 }
+ 269:
                     report = _closure1_slot9;
                     report = report.bind(zuuluu)(yankee);
-                    SaveGenerator(address=152);
- 150:
+                    SaveGenerator(address=282);
+ 280:
                     return report;
- 152:
+ 282:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00006_ip = 191; continue _fun00005 }
- 158:
+                    if(oscard) { _fun00006_ip = 321; continue _fun00005 }
+ 288:
                     golfie = _closure1_slot8;
                     oscard = {};
                     oscard['quest'] = yankee;
@@ -274,10 +305,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard['questContent'] = offset;
                     oscard['questContentPosition'] = verify;
                     oscard = golfie.bind(zuuluu)(oscard);
-                    _fun00006_ip = 287; continue _fun00005;
- 191:
+                    _fun00006_ip = 417; continue _fun00005;
+ 321:
                     return report;
- 194:
+ 324:
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
                     oscard = 5;
@@ -299,11 +330,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['questContent'] = offset;
                     tangon['questContentPosition'] = verify;
                     tangon = golfie.bind(option)(oscard, report, tangon);
- 287:
+ 417:
                     return zuuluu;
- 290:
+ 420:
                     return michal;
- 293:
+ 423:
                     return entity;
                 }
             };

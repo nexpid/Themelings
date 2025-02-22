@@ -902,7 +902,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = tangon[zuuluu];
             var _closure2_slot14 = zuuluu;
-            if(!(entity !== romeon)) { _fun00008_ip = 968; continue _fun00007 }
+            if(!(entity !== romeon)) { _fun00008_ip = 964; continue _fun00007 }
  784:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot6;
@@ -949,8 +949,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             zuuluu = null;
             entity = oscard;
-            if(!(zuuluu != golfie)) { _fun00008_ip = 966; continue _fun00007 }
- 919:
+            if(!(zuuluu != golfie)) { _fun00008_ip = 962; continue _fun00007 }
+ 915:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -962,9 +962,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 966:
+ 962:
             return entity;
- 968:
+ 964:
             entity = null;
             return entity;
         }

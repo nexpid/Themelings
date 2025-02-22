@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketing_moments/collectible_decos/utils/useCollectibleDecoReminderEligible.tsx
+// app/modules/premium/hooks/useCollectibleDecoReminderEligible.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     golfie = argBar;
     zuuluu = argFre;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
-    oscard = 'modules/premium/native/marketing_moments/collectible_decos/utils/useCollectibleDecoReminderEligible.tsx';
+    oscard = 'modules/premium/hooks/useCollectibleDecoReminderEligible.tsx';
     oscard = golfie.bind(option)(oscard);
     zuuluu['REMINDER_WINDOW_START_DATETIME_UTC'] = report;
     zuuluu['REMINDER_WINDOW_END_DATETIME_UTC'] = tangon;

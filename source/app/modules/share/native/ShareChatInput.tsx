@@ -113,10 +113,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
         offset = 0;
-        if(!romeon) { _fun00002_ip = 511; continue _fun00001 }
- 508:
+        if(!romeon) { _fun00002_ip = 515; continue _fun00001 }
+ 512:
         offset = yankee;
- 511:
+ 515:
         verify['paddingBottom'] = offset;
         tangon['emojiButton'] = verify;
         tangon = golfie.bind(option)(tangon);

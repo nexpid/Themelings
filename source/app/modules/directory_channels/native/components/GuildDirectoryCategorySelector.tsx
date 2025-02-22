@@ -43,14 +43,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     romeon = tangon.Fonts;
     tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.Fragment;
-    var _closure1_slot10 = tangon;
+    tangon = tangon.jsx;
+    var _closure1_slot9 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -99,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['backgroundColor'] = offset;
     tangon['categoryTabSelected'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -112,16 +108,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = michal;
         entity = entity.onCategorySelected;
         var _closure2_slot1 = entity;
-        entity = _closure1_slot11;
+        entity = _closure1_slot10;
         tangon = undefined;
-        yankee = entity.bind(tangon)();
-        var _closure2_slot2 = yankee;
+        verify = entity.bind(tangon)();
+        var _closure2_slot2 = verify;
         zuuluu = _closure1_slot0;
-        romeon = _closure1_slot3;
+        offset = _closure1_slot3;
         entity = 9;
-        entity = romeon[entity];
-        oscard = zuuluu.bind(tangon)(entity);
-        report = oscard.useStateFromStores;
+        entity = offset[entity];
+        option = zuuluu.bind(tangon)(entity);
+        oscard = option.useStateFromStores;
         entity = _closure1_slot6;
         zuuluu = new Array(1);
         zuuluu[0] = entity;
@@ -133,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        entity = report.bind(oscard)(zuuluu, entity);
+        entity = oscard.bind(option)(zuuluu, entity);
         var _closure2_slot3 = entity;
-        report = _closure1_slot4;
-        oscard = report.useMemo;
+        oscard = _closure1_slot4;
+        option = oscard.useMemo;
         michal = michal.id;
         zuuluu = new Array(1);
         zuuluu[0] = michal;
@@ -172,11 +168,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = arraySpread(romeon, yankee, offset);
             return entity;
         };
-        backup = oscard.bind(report)(michal, zuuluu);
-        var _closure2_slot4 = backup;
-        zuuluu = report.useMemo;
+        romeon = option.bind(oscard)(michal, zuuluu);
+        var _closure2_slot4 = romeon;
+        zuuluu = oscard.useMemo;
         michal = new Array(2);
-        michal[0] = backup;
+        michal[0] = romeon;
         michal[1] = entity;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -200,24 +196,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        offset = zuuluu.bind(report)(entity, michal);
-        var _closure2_slot5 = offset;
+        option = zuuluu.bind(oscard)(entity, michal);
+        var _closure2_slot5 = option;
         zuuluu = _closure1_slot9;
-        michal = _closure1_slot10;
+        michal = _closure1_slot5;
         entity = {};
-        oscard = _closure1_slot5;
+        oscard = verify.categoriesListWrapper;
+        entity['style'] = oscard;
+        oscard = _closure1_slot1;
+        report = 11;
+        report = offset[report];
+        oscard = oscard.bind(tangon)(report);
         report = {};
-        option = yankee.categoriesListWrapper;
-        report['style'] = option;
-        option = _closure1_slot1;
-        golfie = 11;
-        golfie = romeon[golfie];
-        option = option.bind(tangon)(golfie);
-        golfie = {};
-        romeon = yankee.categoriesList;
-        golfie['containerStyle'] = romeon;
-        foxtra = backup.map;
-        romeon = function(argFoo, argBar) {
+        offset = verify.categoriesList;
+        report['containerStyle'] = offset;
+        yankee = romeon.map;
+        offset = function(argFoo, argBar) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = argBar;
@@ -259,14 +253,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        romeon = foxtra.bind(backup)(romeon);
-        golfie['tabs'] = romeon;
-        romeon = yankee.categoryTab;
-        golfie['tabStyle'] = romeon;
-        yankee = yankee.categoryTabSelected;
-        golfie['tabStyleSelected'] = yankee;
-        golfie['tabIndexSelected'] = offset;
-        verify = function(argFoo) { // Original name: onSelect
+        offset = yankee.bind(romeon)(offset);
+        report['tabs'] = offset;
+        offset = verify.categoryTab;
+        report['tabStyle'] = offset;
+        verify = verify.categoryTabSelected;
+        report['tabStyleSelected'] = verify;
+        report['tabIndexSelected'] = option;
+        golfie = function(argFoo) { // Original name: onSelect
             zuuluu = _closure2_slot4;
             entity = argFoo;
             entity = zuuluu[entity];
@@ -285,11 +279,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(entity)();
             return entity;
         };
-        golfie['onSelect'] = verify;
-        verify = true;
-        golfie['hideHorizontalScrollbar'] = verify;
-        golfie = zuuluu.bind(tangon)(option, golfie);
-        report['children'] = golfie;
+        report['onSelect'] = golfie;
+        golfie = true;
+        report['hideHorizontalScrollbar'] = golfie;
         report = zuuluu.bind(tangon)(oscard, report);
         entity['children'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);

@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing[0] = output;
                     result = _closure2_slot1;
                     output = null;
-                    if(!result) { _fun00012_ip = 702; continue _fun00011 }
+                    if(!result) { _fun00012_ip = 706; continue _fun00011 }
  622:
                     update = _closure1_slot12;
                     echoed = _closure1_slot5;
@@ -507,15 +507,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = vacuum.bind(tangon)(ctrled, source);
                     result['children'] = source;
                     output = update.bind(tangon)(echoed, result);
- 702:
+ 706:
                     sizing[1] = output;
                     yankee['children'] = sizing;
                     yankee = foxtra.bind(tangon)(romeon, yankee);
                     verify[1] = yankee;
                     yankee = _closure2_slot11;
                     offset = null;
-                    if(!yankee) { _fun00012_ip = 809; continue _fun00011 }
- 729:
+                    if(!yankee) { _fun00012_ip = 817; continue _fun00011 }
+ 733:
                     foxtra = _closure1_slot12;
                     romeon = _closure1_slot5;
                     yankee = {};
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = sizing.bind(tangon)(kiloes, backup);
                     yankee['children'] = backup;
                     offset = foxtra.bind(tangon)(romeon, yankee);
- 809:
+ 817:
                     verify[2] = offset;
                     oscard['children'] = verify;
                     oscard = option.bind(tangon)(golfie, oscard);

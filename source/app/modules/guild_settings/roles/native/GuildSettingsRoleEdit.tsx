@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot9;
-            entity = _closure1_slot30;
+            entity = _closure1_slot29;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot29 = entity;
+    var _closure1_slot28 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot30 = michal;
+            _closure1_slot29 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot30 = entity;
+    var _closure1_slot29 = entity;
     entity = ['guild'];
     var _closure1_slot4 = entity;
     entity = global;
@@ -174,14 +174,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(option);
     option = option.jsx;
     var _closure1_slot24 = option;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot25 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot26 = golfie;
+    golfie = golfie.jsxs;
+    var _closure1_slot25 = golfie;
     golfie = 18;
     golfie = oscard[golfie];
     verify = report.bind(entity)(golfie);
@@ -207,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = {'marginVertical': 8, 'marginHorizontal': 16};
     golfie['managedRolesWarningContainer'] = offset;
     golfie = option.bind(verify)(golfie);
-    var _closure1_slot27 = golfie;
+    var _closure1_slot26 = golfie;
     golfie = tangon.PureComponent;
     tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: GuildSettingsRoleEdit
@@ -218,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure2_slot0;
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(oscard, report);
-            zuuluu = _closure1_slot29;
+            zuuluu = _closure1_slot28;
             entity = new Array(0);
             yankee = entity;
             offset = golfie;
@@ -1274,7 +1270,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = 'renderManagedRoleWarningText';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot27;
+            michal = _closure1_slot26;
             entity = this;
             entity = entity.context;
             tangon = undefined;
@@ -1320,24 +1316,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function() { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                kiloes = this;
-                michal = _closure1_slot27;
-                entity = kiloes.context;
+                romeon = this;
+                michal = _closure1_slot26;
+                entity = romeon.context;
                 tangon = undefined;
                 report = michal.bind(tangon)(entity);
-                entity = kiloes.props;
+                entity = romeon.props;
                 source = entity.guild;
                 update = entity.role;
                 option = entity.locked;
                 golfie = entity.newRole;
                 vacuum = entity.integrations;
-                result = entity.section;
-                entity = kiloes.state;
+                kiloes = entity.section;
+                entity = romeon.state;
                 echoed = entity.name;
                 ctrled = entity.permissions;
-                yankee = entity.mentionable;
-                offset = entity.hoist;
-                verify = entity.color;
+                result = entity.mentionable;
+                output = entity.hoist;
+                sizing = entity.color;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot3;
                 entity = 24;
@@ -1348,21 +1344,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = update.id;
                 oscard = zuuluu.bind(oscard)(michal, entity);
                 michal = update.tags;
-                sizing = null;
-                zuuluu = sizing == michal;
+                foxtra = null;
+                zuuluu = foxtra == michal;
                 entity = undefined;
                 if(zuuluu) { _fun00018_ip = 159; continue _fun00017 }
  153:
                 entity = michal.guild_connections;
  159:
-                sequen = sizing === entity;
+                sequen = foxtra === entity;
                 entity = oscard;
                 if(entity) { _fun00018_ip = 172; continue _fun00017 }
  169:
                 entity = option;
  172:
-                backup = !entity;
-                if(!backup) { _fun00018_ip = 196; continue _fun00017 }
+                yankee = !entity;
+                if(!yankee) { _fun00018_ip = 196; continue _fun00017 }
  178:
                 entity = update.managed;
                 entity = !entity;
@@ -1370,30 +1366,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  190:
                 entity = sequen;
  193:
-                backup = entity;
+                yankee = entity;
  196:
-                romeon = update.managed;
+                verify = update.managed;
                 if(!oscard) { _fun00018_ip = 215; continue _fun00017 }
  205:
                 entity = _closure1_slot20;
-                result = entity.PERMISSIONS;
+                kiloes = entity.PERMISSIONS;
  215:
                 entity = _closure1_slot20;
                 entity = entity.DISPLAY;
-                if(!(entity !== result)) { _fun00018_ip = 500; continue _fun00017 }
+                if(!(entity !== kiloes)) { _fun00018_ip = 500; continue _fun00017 }
  232:
                 entity = _closure1_slot20;
                 entity = entity.PERMISSIONS;
-                if(!(entity !== result)) { _fun00018_ip = 425; continue _fun00017 }
+                if(!(entity !== kiloes)) { _fun00018_ip = 425; continue _fun00017 }
  249:
                 entity = _closure1_slot20;
                 entity = entity.MEMBERS;
-                if(!(entity !== result)) { _fun00018_ip = 349; continue _fun00017 }
+                if(!(entity !== kiloes)) { _fun00018_ip = 349; continue _fun00017 }
  263:
                 entity = _closure1_slot20;
                 entity = entity.VERIFICATIONS;
-                output = undefined;
-                if(!(entity === result)) { _fun00018_ip = 613; continue _fun00017 }
+                backup = undefined;
+                if(!(entity === kiloes)) { _fun00018_ip = 613; continue _fun00017 }
  282:
                 zuuluu = _closure1_slot24;
                 michal = _closure1_slot1;
@@ -1405,10 +1401,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['guild'] = source;
                 entity['role'] = update;
                 entity['locked'] = option;
-                config = kiloes.handleConnectionsChanged;
+                config = romeon.handleConnectionsChanged;
                 entity['onConnectionsChanged'] = config;
                 entity['integrations'] = vacuum;
-                output = zuuluu.bind(tangon)(michal, entity);
+                backup = zuuluu.bind(tangon)(michal, entity);
                 _fun00018_ip = 613; continue _fun00017;
  349:
                 zuuluu = _closure1_slot24;
@@ -1426,10 +1422,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 vacuum = sequen;
  393:
                 entity['locked'] = vacuum;
-                vacuum = kiloes.props;
+                vacuum = romeon.props;
                 vacuum = vacuum.contentContainerStyle;
                 entity['contentContainerStyle'] = vacuum;
-                output = zuuluu.bind(tangon)(michal, entity);
+                backup = zuuluu.bind(tangon)(michal, entity);
                 _fun00018_ip = 613; continue _fun00017;
  425:
                 zuuluu = _closure1_slot24;
@@ -1442,12 +1438,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['guild'] = source;
                 entity['role'] = update;
                 entity['permissions'] = ctrled;
-                ctrled = kiloes.handlePermissionsChanged;
+                ctrled = romeon.handlePermissionsChanged;
                 entity['onPermissionsChanged'] = ctrled;
-                ctrled = kiloes.props;
+                ctrled = romeon.props;
                 ctrled = ctrled.contentContainerStyle;
                 entity['contentContainerStyle'] = ctrled;
-                output = zuuluu.bind(tangon)(michal, entity);
+                backup = zuuluu.bind(tangon)(michal, entity);
                 _fun00018_ip = 613; continue _fun00017;
  500:
                 zuuluu = _closure1_slot24;
@@ -1460,80 +1456,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['guild'] = source;
                 entity['role'] = update;
                 entity['name'] = echoed;
-                entity['mentionable'] = yankee;
-                entity['hoist'] = offset;
-                entity['color'] = verify;
-                verify = kiloes.handleNameChanged;
-                entity['onNameChanged'] = verify;
-                verify = kiloes.handleMentionableChanged;
-                entity['onMentionableChanged'] = verify;
-                verify = kiloes.handleHoistChanged;
-                entity['onHoistChanged'] = verify;
-                verify = kiloes.handleColorChanged;
-                entity['onColorChanged'] = verify;
+                entity['mentionable'] = result;
+                entity['hoist'] = output;
+                entity['color'] = sizing;
+                sizing = romeon.handleNameChanged;
+                entity['onNameChanged'] = sizing;
+                sizing = romeon.handleMentionableChanged;
+                entity['onMentionableChanged'] = sizing;
+                sizing = romeon.handleHoistChanged;
+                entity['onHoistChanged'] = sizing;
+                sizing = romeon.handleColorChanged;
+                entity['onColorChanged'] = sizing;
                 entity['locked'] = option;
                 entity['autoFocusInput'] = golfie;
-                output = zuuluu.bind(tangon)(michal, entity);
+                backup = zuuluu.bind(tangon)(michal, entity);
  613:
                 zuuluu = _closure1_slot24;
                 michal = _closure1_slot13;
                 entity = {};
                 report = report.container;
                 entity['style'] = report;
-                report = output;
-                if(oscard) { _fun00018_ip = 815; continue _fun00017 }
+                report = backup;
+                if(oscard) { _fun00018_ip = 795; continue _fun00017 }
  641:
-                option = _closure1_slot24;
-                golfie = _closure1_slot26;
+                option = _closure1_slot25;
+                golfie = _closure1_slot0;
+                sizing = _closure1_slot3;
+                oscard = 36;
+                oscard = sizing[oscard];
+                oscard = golfie.bind(tangon)(oscard);
+                golfie = oscard.Form;
                 oscard = {};
-                yankee = _closure1_slot25;
-                offset = _closure1_slot0;
-                echoed = _closure1_slot3;
-                verify = 36;
-                verify = echoed[verify];
-                verify = offset.bind(tangon)(verify);
-                offset = verify.Form;
-                verify = {};
-                echoed = _closure1_slot20;
-                update = echoed.DISPLAY;
-                echoed = null;
-                if(!(result === update)) { _fun00018_ip = 716; continue _fun00017 }
- 699:
-                echoed = null;
-                if(!romeon) { _fun00018_ip = 716; continue _fun00017 }
- 704:
-                romeon = kiloes.renderManagedRoleWarningText;
-                echoed = romeon.bind(kiloes)();
- 716:
-                romeon = new Array(4);
-                romeon[0] = echoed;
-                romeon[1] = output;
-                output = _closure1_slot20;
-                echoed = output.DISPLAY;
-                output = null;
-                if(!(result === echoed)) { _fun00018_ip = 756; continue _fun00017 }
- 744:
-                echoed = kiloes.renderSubScreenButtons;
-                output = echoed.bind(kiloes)();
- 756:
-                romeon[2] = output;
-                foxtra = _closure1_slot20;
-                output = foxtra.DISPLAY;
-                foxtra = null;
-                if(!(result === output)) { _fun00018_ip = 791; continue _fun00017 }
- 776:
-                foxtra = null;
-                if(!backup) { _fun00018_ip = 791; continue _fun00017 }
+                sizing = _closure1_slot20;
+                output = sizing.DISPLAY;
+                sizing = null;
+                if(!(kiloes === output)) { _fun00018_ip = 706; continue _fun00017 }
+ 689:
+                sizing = null;
+                if(!verify) { _fun00018_ip = 706; continue _fun00017 }
+ 694:
+                verify = romeon.renderManagedRoleWarningText;
+                sizing = verify.bind(romeon)();
+ 706:
+                verify = new Array(4);
+                verify[0] = sizing;
+                verify[1] = backup;
+                backup = _closure1_slot20;
+                sizing = backup.DISPLAY;
+                backup = null;
+                if(!(kiloes === sizing)) { _fun00018_ip = 746; continue _fun00017 }
+ 734:
+                sizing = romeon.renderSubScreenButtons;
+                backup = sizing.bind(romeon)();
+ 746:
+                verify[2] = backup;
+                offset = _closure1_slot20;
+                backup = offset.DISPLAY;
+                offset = null;
+                if(!(kiloes === backup)) { _fun00018_ip = 781; continue _fun00017 }
+ 766:
+                offset = null;
+                if(!yankee) { _fun00018_ip = 781; continue _fun00017 }
+ 771:
+                yankee = romeon.renderDeleteButton;
+                offset = yankee.bind(romeon)();
  781:
-                backup = kiloes.renderDeleteButton;
-                foxtra = backup.bind(kiloes)();
- 791:
-                romeon[3] = foxtra;
-                verify['children'] = romeon;
-                verify = yankee.bind(tangon)(offset, verify);
+                verify[3] = offset;
                 oscard['children'] = verify;
                 report = option.bind(tangon)(golfie, oscard);
- 815:
+ 795:
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
@@ -1545,7 +1536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot28 = golfie;
+    var _closure1_slot27 = golfie;
     tangon = 43;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -1752,7 +1743,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.RedesignCompat;
             michal = {};
             yankee = _closure1_slot24;
-            offset = _closure1_slot28;
+            offset = _closure1_slot27;
             oscard = {};
             result = oscard;
             output = romeon;

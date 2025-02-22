@@ -460,26 +460,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['description'] = zuuluu;
  47:
             zuuluu = michal.icon;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 67; continue _fun00015 }
- 56:
+            option = undefined;
+            if(!(option !== zuuluu)) { _fun00016_ip = 69; continue _fun00015 }
+ 58:
             zuuluu = michal.icon;
             entity['icon'] = zuuluu;
- 67:
+ 69:
             zuuluu = michal.visibility;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 89; continue _fun00015 }
- 77:
+            if(!(tangon != zuuluu)) { _fun00016_ip = 91; continue _fun00015 }
+ 79:
             zuuluu = michal.visibility;
             entity['visibility'] = zuuluu;
- 89:
+ 91:
             zuuluu = michal.brandColorPrimary;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 111; continue _fun00015 }
- 99:
+            if(!(tangon != zuuluu)) { _fun00016_ip = 113; continue _fun00015 }
+ 101:
             zuuluu = michal.brandColorPrimary;
             entity['brand_color_primary'] = zuuluu;
- 111:
+ 113:
             zuuluu = michal.traits;
             if(!(tangon != zuuluu)) { _fun00016_ip = 191; continue _fun00015 }
- 121:
+ 123:
             oscard = michal.traits;
             report = oscard.map;
             zuuluu = function(argFoo, argBar) {
@@ -540,12 +541,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             oscard = report.bind(oscard)(zuuluu);
             report = oscard.filter;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
+            golfie = _closure1_slot0;
+            verify = _closure1_slot2;
             zuuluu = 3;
-            golfie = golfie[zuuluu];
-            zuuluu = undefined;
-            zuuluu = option.bind(zuuluu)(golfie);
+            zuuluu = verify[zuuluu];
+            zuuluu = golfie.bind(option)(zuuluu);
             zuuluu = zuuluu.isNotNullish;
             zuuluu = report.bind(oscard)(zuuluu);
             entity['traits'] = zuuluu;
