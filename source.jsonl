@@ -5240,7 +5240,7 @@
 { "file": "app/modules/premium/tiered_tenure_badging/hooks/useMaybeFetchTieredTenureBadgeData.tsx", "size": 3860 }
 { "file": "app/modules/premium/fractional/native/LargeCountDownPill.tsx", "size": 6474 }
 { "file": "app/modules/user_settings/native/premium_marketing/PremiumMarketingPage.tsx", "size": 18430 }
-{ "file": "app/modules/premium/hooks/useCollectibleDecoEligible.tsx", "size": 11742 }
+{ "file": "app/modules/premium/hooks/useCollectibleDecoEligible.tsx", "size": 12894 }
 { "file": "app/modules/premium/experiments/CollectibleDecoMarketingMomentExperiment.tsx", "size": 1592 }
 { "file": "app/modules/user_settings/native/premium_marketing/Header.tsx", "size": 5146 }
 { "file": "app/modules/user_settings/native/premium_marketing/PremiumOfferCard.tsx", "size": 14114 }
