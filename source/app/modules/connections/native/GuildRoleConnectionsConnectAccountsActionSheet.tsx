@@ -1056,20 +1056,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = {'variant': 'text-md/medium', 'color': 'header-primary'};
                     cntext = output == config;
                     vacuum = undefined;
-                    if(cntext) { _fun00016_ip = 1495; continue _fun00015 }
- 1490:
+                    if(cntext) { _fun00016_ip = 1499; continue _fun00015 }
+ 1494:
                     vacuum = config.name;
- 1495:
-                    if(!(output == vacuum)) { _fun00016_ip = 1516; continue _fun00015 }
  1499:
+                    if(!(output == vacuum)) { _fun00016_ip = 1520; continue _fun00015 }
+ 1503:
                     cntext = output == record;
                     config = undefined;
-                    if(cntext) { _fun00016_ip = 1513; continue _fun00015 }
- 1508:
+                    if(cntext) { _fun00016_ip = 1517; continue _fun00015 }
+ 1512:
                     config = record.name;
- 1513:
+ 1517:
                     vacuum = config;
- 1516:
+ 1520:
                     sizing['children'] = vacuum;
                     update = ctrled.bind(tangon)(update, sizing);
                     sizing = new Array(3);
@@ -1077,8 +1077,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing[1] = echoed;
                     result = output != result;
                     output = null;
-                    if(!result) { _fun00016_ip = 1665; continue _fun00015 }
- 1547:
+                    if(!result) { _fun00016_ip = 1669; continue _fun00015 }
+ 1551:
                     update = _closure1_slot28;
                     echoed = _closure1_slot7;
                     result = {};
@@ -1133,7 +1133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = vacuum.bind(tangon)(ctrled, source);
                     result['children'] = source;
                     output = update.bind(tangon)(echoed, result);
- 1665:
+ 1669:
                     sizing[2] = output;
                     yankee['children'] = sizing;
                     foxtra = kiloes.bind(tangon)(foxtra, yankee);

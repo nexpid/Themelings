@@ -85,20 +85,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie[entity];
             tangon = tangon.bind(backup)(entity);
             entity = tangon.useIsContextlessActivitiesExperimentEnabled;
-            entity = entity.bind(tangon)();
+            entity = entity.bind(tangon)(output);
             golfie = _closure1_slot0;
             tangon = _closure1_slot2;
             kiloes = 6;
             tangon = tangon[kiloes];
             tangon = golfie.bind(backup)(tangon);
             tangon = tangon.t;
-            if(oscard) { _fun00002_ip = 194; continue _fun00001 }
- 186:
+            if(oscard) { _fun00002_ip = 195; continue _fun00001 }
+ 187:
             foxtra = tangon.0hKkS0;
-            _fun00002_ip = 200; continue _fun00001;
- 194:
+            _fun00002_ip = 201; continue _fun00001;
+ 195:
             foxtra = tangon.cpT0Cg;
- 200:
+ 201:
             golfie = _closure1_slot4;
             oscard = golfie.useMemo;
             tangon = new Array(1);
@@ -142,8 +142,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = oscard.bind(golfie)(michal, tangon);
             michal = output.flags;
             oscard = backup !== michal;
-            if(!oscard) { _fun00002_ip = 289; continue _fun00001 }
- 242:
+            if(!oscard) { _fun00002_ip = 290; continue _fun00001 }
+ 243:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 8;
@@ -154,19 +154,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot6;
             michal = michal.EMBEDDED;
             oscard = golfie.bind(yankee)(tangon, michal);
- 289:
+ 290:
             yankee = null;
             golfie = yankee != report;
-            if(!golfie) { _fun00002_ip = 312; continue _fun00001 }
- 298:
+            if(!golfie) { _fun00002_ip = 313; continue _fun00001 }
+ 299:
             tangon = report.applicationId;
             michal = output.id;
             golfie = tangon === michal;
- 312:
-            if(!golfie) { _fun00002_ip = 371; continue _fun00001 }
- 315:
-            if(entity) { _fun00002_ip = 368; continue _fun00001 }
- 318:
+ 313:
+            if(!golfie) { _fun00002_ip = 372; continue _fun00001 }
+ 316:
+            if(entity) { _fun00002_ip = 369; continue _fun00001 }
+ 319:
             tangon = _closure1_slot0;
             sizing = _closure1_slot2;
             michal = 9;
@@ -178,9 +178,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = result.channel;
             michal = michal.id;
             entity = tangon === michal;
- 368:
+ 369:
             golfie = entity;
- 371:
+ 372:
             tangon = _closure1_slot1;
             sizing = _closure1_slot2;
             entity = 10;
@@ -196,12 +196,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.recipients;
             entity = yankee != entity;
             tangon = undefined;
-            if(!entity) { _fun00002_ip = 455; continue _fun00001 }
- 440:
+            if(!entity) { _fun00002_ip = 456; continue _fun00001 }
+ 441:
             entity = result.channel;
             entity = entity.recipients;
             tangon = entity[romeon];
- 455:
+ 456:
             entity = {};
             entity['isExecutingLaunchInteraction'] = option;
             romeon = _closure1_slot0;
@@ -216,10 +216,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['applicationId'] = output;
             option['botUserId'] = tangon;
             option = romeon.bind(sizing)(option);
-            if(!option) { _fun00002_ip = 519; continue _fun00001 }
- 516:
-            if(oscard) { _fun00002_ip = 553; continue _fun00001 }
- 519:
+            if(!option) { _fun00002_ip = 520; continue _fun00001 }
+ 517:
+            if(oscard) { _fun00002_ip = 554; continue _fun00001 }
+ 520:
             romeon = _closure1_slot0;
             option = _closure1_slot2;
             option = option[kiloes];
@@ -227,12 +227,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = option.intl;
             option = romeon.string;
             option = option.bind(romeon)(foxtra);
-            _fun00002_ip = 669; continue _fun00001;
- 553:
-            if(golfie) { _fun00002_ip = 614; continue _fun00001 }
- 556:
-            if(!(yankee == verify)) { _fun00002_ip = 612; continue _fun00001 }
- 560:
+            _fun00002_ip = 670; continue _fun00001;
+ 554:
+            if(golfie) { _fun00002_ip = 615; continue _fun00001 }
+ 557:
+            if(!(yankee == verify)) { _fun00002_ip = 613; continue _fun00001 }
+ 561:
             sizing = _closure1_slot0;
             yankee = _closure1_slot2;
             romeon = yankee[kiloes];
@@ -244,9 +244,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.t;
             yankee = yankee.zKX8Nj;
             verify = romeon.bind(foxtra)(yankee);
- 612:
-            _fun00002_ip = 666; continue _fun00001;
- 614:
+ 613:
+            _fun00002_ip = 667; continue _fun00001;
+ 615:
             foxtra = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[kiloes];
@@ -258,9 +258,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.t;
             offset = offset.Hi1/aW;
             verify = yankee.bind(romeon)(offset);
- 666:
+ 667:
             option = verify;
- 669:
+ 670:
             entity['buttonText'] = option;
             entity['hasActiveMatchingEmbeddedActivity'] = golfie;
             entity['isEmbeddedApp'] = oscard;

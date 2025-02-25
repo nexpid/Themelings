@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     michal = 2;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    report = michal.QUICK_LAUNCHER_CARD_HEIGHT;
+    report = michal.QUICK_LAUNCHER_APP_ICON_SIZE;
     michal = michal.QUICK_LAUNCHER_HEADER_HEIGHT;
     yankee = 3;
     yankee = golfie[yankee];

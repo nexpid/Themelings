@@ -1,11 +1,11 @@
 // app/modules/chat/native/TypingIndicator.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    romeon = argBaz;
+    foxtra = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
+    var _closure1_slot1 = foxtra;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: TypingIndicatorInner
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -13,8 +13,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             sizing = entity.channel;
             golfie = entity.typingUserIds;
-            romeon = entity.transitionState;
-            var _closure2_slot0 = romeon;
+            yankee = entity.transitionState;
+            var _closure2_slot0 = yankee;
             offset = entity.cleanUp;
             var _closure2_slot1 = offset;
             michal = _closure1_slot1;
@@ -31,17 +31,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['guildId'] = option;
             entity['typingUserIds'] = golfie;
             kiloes = report.bind(tangon)(entity);
-            backup = _closure1_slot0;
+            romeon = _closure1_slot0;
             entity = 7;
             report = oscard[entity];
-            golfie = backup.bind(tangon)(report);
+            golfie = romeon.bind(tangon)(report);
             report = golfie.useSharedValue;
-            output = report.bind(golfie)(tangon);
-            var _closure2_slot2 = output;
+            backup = report.bind(golfie)(tangon);
+            var _closure2_slot2 = backup;
             verify = _closure1_slot3;
             option = verify.useCallback;
             golfie = new Array(1);
-            golfie[0] = output;
+            golfie[0] = backup;
             report = function(argFoo) {
                 entity = argFoo;
                 entity = entity.nativeEvent;
@@ -54,9 +54,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report = option.bind(verify)(report, golfie);
             golfie = _closure1_slot8;
-            yankee = golfie.bind(tangon)();
+            echoed = golfie.bind(tangon)();
             golfie = oscard[entity];
-            option = backup.bind(tangon)(golfie);
+            option = romeon.bind(tangon)(golfie);
             golfie = option.useAnimatedStyle;
             zuuluu = function() { // Original name: I
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -191,27 +191,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = {};
-            verify['typingIndicatorLayout'] = output;
-            verify['transitionState'] = romeon;
-            romeon = 8;
-            romeon = oscard[romeon];
-            romeon = backup.bind(tangon)(romeon);
-            romeon = romeon.TransitionStates;
-            verify['TransitionStates'] = romeon;
-            romeon = 9;
-            romeon = oscard[romeon];
-            romeon = backup.bind(tangon)(romeon);
-            romeon = romeon.withSpring;
-            verify['withSpring'] = romeon;
-            romeon = 10;
-            romeon = oscard[romeon];
-            romeon = backup.bind(tangon)(romeon);
-            romeon = romeon.springStandard;
-            verify['springStandard'] = romeon;
-            romeon = oscard[entity];
-            romeon = backup.bind(tangon)(romeon);
-            romeon = romeon.runOnJS;
-            verify['runOnJS'] = romeon;
+            verify['typingIndicatorLayout'] = backup;
+            verify['transitionState'] = yankee;
+            yankee = 8;
+            yankee = oscard[yankee];
+            yankee = romeon.bind(tangon)(yankee);
+            yankee = yankee.TransitionStates;
+            verify['TransitionStates'] = yankee;
+            yankee = 9;
+            yankee = oscard[yankee];
+            yankee = romeon.bind(tangon)(yankee);
+            yankee = yankee.withSpring;
+            verify['withSpring'] = yankee;
+            yankee = 10;
+            yankee = oscard[yankee];
+            yankee = romeon.bind(tangon)(yankee);
+            yankee = yankee.springStandard;
+            verify['springStandard'] = yankee;
+            yankee = oscard[entity];
+            yankee = romeon.bind(tangon)(yankee);
+            yankee = yankee.runOnJS;
+            verify['runOnJS'] = yankee;
             verify['cleanUp'] = offset;
             zuuluu['__closure'] = verify;
             verify = 8910299992702.0;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             michal = entity.View;
             entity = {};
-            option = yankee.typingWrapper;
+            option = echoed.typingWrapper;
             oscard = new Array(2);
             oscard[0] = option;
             oscard[1] = golfie;
@@ -233,12 +233,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot7;
             oscard = _closure1_slot4;
             report = {};
-            option = yankee.wrapperHoriz;
+            option = echoed.wrapperHoriz;
             report['style'] = option;
             offset = _closure1_slot7;
             verify = _closure1_slot4;
             option = {};
-            yankee = yankee.horiz;
+            yankee = echoed.horiz;
             option['style'] = yankee;
             backup = null;
             yankee = backup != kiloes;
@@ -247,9 +247,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  425:
             result = _closure1_slot6;
             output = _closure1_slot1;
-            echoed = _closure1_slot2;
+            update = _closure1_slot2;
             yankee = 11;
-            yankee = echoed[yankee];
+            yankee = update[yankee];
             output = output.bind(tangon)(yankee);
             yankee = {};
             romeon = result.bind(tangon)(output, yankee);
@@ -258,12 +258,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = romeon;
             result = _closure1_slot6;
             output = _closure1_slot0;
-            echoed = _closure1_slot2;
+            update = _closure1_slot2;
             romeon = 12;
-            romeon = echoed[romeon];
+            romeon = update[romeon];
             romeon = output.bind(tangon)(romeon);
             output = romeon.Text;
-            romeon = {'lineClamp': 1, 'maxFontSizeMultiplier': 2, 'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            romeon = {'style': null, 'lineClamp': 1, 'maxFontSizeMultiplier': 2, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'ellipsizeMode': 'tail'};
+            echoed = echoed.text;
+            romeon['style'] = echoed;
             romeon['children'] = kiloes;
             romeon = result.bind(tangon)(output, romeon);
             yankee[1] = romeon;
@@ -275,8 +277,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 0;
             offset = offset > verify;
             verify = null;
-            if(!offset) { _fun00002_ip = 622; continue _fun00001 }
- 557:
+            if(!offset) { _fun00002_ip = 633; continue _fun00001 }
+ 568:
             romeon = _closure1_slot6;
             yankee = _closure1_slot1;
             output = _closure1_slot2;
@@ -292,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.SendMessage;
             offset['slowmodeType'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 622:
+ 633:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
@@ -335,8 +337,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
+    yankee = 1;
+    tangon = oscard[yankee];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
@@ -361,17 +363,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = {};
     offset = {'paddingVertical': 4, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
     tangon = 16;
-    yankee = 5;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.TYPING_INDICATOR_BG;
-    offset['backgroundColor'] = yankee;
+    romeon = 5;
+    romeon = oscard[romeon];
+    romeon = foxtra.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.TYPING_INDICATOR_BG;
+    offset['backgroundColor'] = romeon;
     golfie['typingWrapper'] = offset;
     offset = {'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};
     golfie['wrapperHoriz'] = offset;
     offset = {'alignItems': 'center', 'flexDirection': 'row'};
     golfie['horiz'] = offset;
+    offset = {};
+    offset['flex'] = yankee;
+    golfie['text'] = offset;
     golfie = option.bind(verify)(golfie);
     var _closure1_slot8 = golfie;
     golfie = {};

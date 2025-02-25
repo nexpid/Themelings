@@ -86,11 +86,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = kiloes;
             entity = function() {
-                tangon = _closure1_slot4;
-                zuuluu = _closure2_slot0;
+                report = _closure1_slot4;
+                tangon = _closure2_slot0;
                 entity = undefined;
-                michal = false;
-                michal = tangon.bind(entity)(zuuluu, michal);
+                zuuluu = false;
+                michal = 'action';
+                michal = report.bind(entity)(tangon, zuuluu, michal);
                 return entity;
             };
             yankee = zuuluu.bind(yankee)(entity, michal);

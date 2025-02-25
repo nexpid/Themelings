@@ -248,10 +248,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = michal.name;
             zuuluu = michal.memo;
             michal = undefined;
-            if(!(zuuluu === michal)) { _fun00006_ip = 53; continue _fun00005 }
- 51:
-            zuuluu = false;
+            if(!(zuuluu === michal)) { _fun00006_ip = 55; continue _fun00005 }
  53:
+            zuuluu = false;
+ 55:
             var _closure2_slot3 = michal;
             golfie = _closure1_slot3;
             oscard = golfie.lazy;
@@ -304,16 +304,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             entity = tangon;
-            if(!zuuluu) { _fun00006_ip = 109; continue _fun00005 }
- 95:
+            if(!zuuluu) { _fun00006_ip = 111; continue _fun00005 }
+ 97:
             zuuluu = _closure1_slot3;
             michal = zuuluu.memo;
             entity = michal.bind(zuuluu)(tangon);
- 109:
-            if(report) { _fun00006_ip = 116; continue _fun00005 }
- 112:
+ 111:
+            if(report) { _fun00006_ip = 118; continue _fun00005 }
+ 114:
             report = 'Unknown';
- 116:
+ 118:
             michal = global;
             michal = michal.HermesInternal;
             tangon = michal.concat;

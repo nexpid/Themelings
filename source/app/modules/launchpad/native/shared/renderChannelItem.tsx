@@ -145,148 +145,150 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             oscard = entity.channel;
-            record = entity.subtitle;
+            ctrled = entity.channelCategoryName;
+            cntext = entity.subtitle;
             yankee = entity.unreadBadge;
             output = entity.mentionBadge;
             source = entity.locked;
             tangon = undefined;
-            if(!(source === tangon)) { _fun00002_ip = 40; continue _fun00001 }
- 38:
+            if(!(source === tangon)) { _fun00002_ip = 46; continue _fun00001 }
+ 44:
             source = false;
- 40:
-            config = entity.unread;
-            if(!(config === tangon)) { _fun00002_ip = 52; continue _fun00001 }
- 50:
-            config = false;
- 52:
-            sequen = entity.resolvedUnreadSetting;
-            if(!(sequen === tangon)) { _fun00002_ip = 75; continue _fun00001 }
- 62:
+ 46:
+            record = entity.unread;
+            if(!(record === tangon)) { _fun00002_ip = 58; continue _fun00001 }
+ 56:
+            record = false;
+ 58:
+            config = entity.resolvedUnreadSetting;
+            if(!(config === tangon)) { _fun00002_ip = 81; continue _fun00001 }
+ 68:
             michal = _closure1_slot5;
-            sequen = michal.ONLY_MENTIONS;
- 75:
+            config = michal.ONLY_MENTIONS;
+ 81:
             echoed = entity.live;
-            if(!(echoed === tangon)) { _fun00002_ip = 87; continue _fun00001 }
- 85:
+            if(!(echoed === tangon)) { _fun00002_ip = 93; continue _fun00001 }
+ 91:
             echoed = false;
- 87:
-            vacuum = entity.muted;
-            if(!(vacuum === tangon)) { _fun00002_ip = 99; continue _fun00001 }
- 97:
-            vacuum = false;
- 99:
+ 93:
+            sequen = entity.muted;
+            if(!(sequen === tangon)) { _fun00002_ip = 105; continue _fun00001 }
+ 103:
+            sequen = false;
+ 105:
             zuuluu = entity.latestMessageTimestamp;
             foxtra = entity.end;
             update = entity.connected;
             result = entity.mentionCount;
-            cntext = entity.channelName;
+            papara = entity.channelName;
             report = entity.fontScale;
             sizing = entity.isSubscriptionGated;
-            if(!(sizing === tangon)) { _fun00002_ip = 146; continue _fun00001 }
- 144:
+            if(!(sizing === tangon)) { _fun00002_ip = 152; continue _fun00001 }
+ 150:
             sizing = false;
- 146:
+ 152:
             backup = entity.needSubscriptionToAccess;
-            if(!(backup === tangon)) { _fun00002_ip = 158; continue _fun00001 }
- 156:
+            if(!(backup === tangon)) { _fun00002_ip = 164; continue _fun00001 }
+ 162:
             backup = false;
- 158:
+ 164:
             verify = null;
             entity = verify == zuuluu;
-            ctrled = null;
-            if(entity) { _fun00002_ip = 208; continue _fun00001 }
- 169:
-            ctrled = null;
-            if(vacuum) { _fun00002_ip = 208; continue _fun00001 }
- 174:
+            vacuum = null;
+            if(entity) { _fun00002_ip = 214; continue _fun00001 }
+ 175:
+            vacuum = null;
+            if(sequen) { _fun00002_ip = 214; continue _fun00001 }
+ 180:
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 12;
             entity = golfie[entity];
             michal = michal.bind(tangon)(entity);
             entity = michal.getRelativeTimestamp;
-            ctrled = entity.bind(michal)(zuuluu);
- 208:
-            sierra = _closure1_slot1;
-            limora = _closure1_slot2;
+            vacuum = entity.bind(michal)(zuuluu);
+ 214:
+            limora = _closure1_slot1;
+            whisks = _closure1_slot2;
             kiloes = 8;
-            entity = limora[kiloes];
-            entity = sierra.bind(tangon)(entity);
-            whisks = entity.bind(tangon)();
+            entity = whisks[kiloes];
+            entity = limora.bind(tangon)(entity);
+            equals = entity.bind(tangon)();
             entity = 13;
-            entity = limora[entity];
-            zuuluu = sierra.bind(tangon)(entity);
+            entity = whisks[entity];
+            zuuluu = limora.bind(tangon)(entity);
             golfie = _closure1_slot8;
             michal = _closure1_slot7;
             entity = {};
             option = new Array(4);
             option[0] = yankee;
-            papara = _closure1_slot6;
+            target = _closure1_slot6;
             romeon = _closure1_slot3;
             yankee = {};
-            target = {'position': 'relative', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0, 'flexGrow': 0};
-            status = 7;
-            status = limora[status];
-            status = sierra.bind(tangon)(status);
-            status = status.radii;
-            status = status.round;
-            target['borderRadius'] = status;
-            status = whisks.icon;
-            status = status.wrapper;
-            status = status.size;
-            target['width'] = status;
-            status = whisks.icon;
-            status = status.wrapper;
-            status = status.size;
-            target['height'] = status;
-            status = whisks.icon;
-            quebec = status.margin;
-            variable36 = target;
-            status = copyDataProperties(variable36, quebec);
-            yankee['style'] = target;
-            target = oscard.isGroupDM;
-            target = target.bind(oscard)();
-            limora = _closure1_slot6;
-            if(target) { _fun00002_ip = 414; continue _fun00001 }
- 396:
-            status = _closure1_slot10;
-            target = {};
-            target['channel'] = oscard;
-            target = limora.bind(tangon)(status, target);
-            _fun00002_ip = 461; continue _fun00001;
- 414:
-            sierra = _closure1_slot1;
-            equals = _closure1_slot2;
-            status = 14;
-            status = equals[status];
-            sierra = sierra.bind(tangon)(status);
+            status = {'position': 'relative', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0, 'flexGrow': 0};
+            sierra = 7;
+            sierra = whisks[sierra];
+            sierra = limora.bind(tangon)(sierra);
+            sierra = sierra.radii;
+            sierra = sierra.round;
+            status['borderRadius'] = sierra;
+            sierra = equals.icon;
+            sierra = sierra.wrapper;
+            sierra = sierra.size;
+            status['width'] = sierra;
+            sierra = equals.icon;
+            sierra = sierra.wrapper;
+            sierra = sierra.size;
+            status['height'] = sierra;
+            sierra = equals.icon;
+            variable36 = sierra.margin;
+            variable37 = status;
+            sierra = copyDataProperties(variable37, variable36);
+            yankee['style'] = status;
+            status = oscard.isGroupDM;
+            status = status.bind(oscard)();
+            whisks = _closure1_slot6;
+            if(status) { _fun00002_ip = 420; continue _fun00001 }
+ 402:
+            sierra = _closure1_slot10;
             status = {};
             status['channel'] = oscard;
-            whisks = whisks.icon;
-            whisks = whisks.avatarSize;
-            status['size'] = whisks;
-            target = limora.bind(tangon)(sierra, status);
- 461:
-            yankee['children'] = target;
-            yankee = papara.bind(tangon)(romeon, yankee);
+            status = whisks.bind(tangon)(sierra, status);
+            _fun00002_ip = 467; continue _fun00001;
+ 420:
+            limora = _closure1_slot1;
+            quebec = _closure1_slot2;
+            sierra = 14;
+            sierra = quebec[sierra];
+            limora = limora.bind(tangon)(sierra);
+            sierra = {};
+            sierra['channel'] = oscard;
+            equals = equals.icon;
+            equals = equals.avatarSize;
+            sierra['size'] = equals;
+            status = whisks.bind(tangon)(limora, sierra);
+ 467:
+            yankee['children'] = status;
+            yankee = target.bind(tangon)(romeon, yankee);
             option[1] = yankee;
             romeon = _closure1_slot1;
-            papara = _closure1_slot2;
+            target = _closure1_slot2;
             yankee = 15;
-            yankee = papara[yankee];
+            yankee = target[yankee];
             romeon = romeon.bind(tangon)(yankee);
             yankee = {};
-            if(!(verify == cntext)) { _fun00002_ip = 506; continue _fun00001 }
- 501:
-            cntext = oscard.name;
- 506:
-            yankee['name'] = cntext;
-            yankee['subtitle'] = record;
-            yankee['unread'] = config;
-            yankee['resolvedUnreadSetting'] = sequen;
-            yankee['muted'] = vacuum;
-            yankee['lastMessageTimestampString'] = ctrled;
+            if(!(verify == papara)) { _fun00002_ip = 512; continue _fun00001 }
+ 507:
+            papara = oscard.name;
+ 512:
+            yankee['name'] = papara;
+            yankee['subtitle'] = cntext;
+            yankee['unread'] = record;
+            yankee['resolvedUnreadSetting'] = config;
+            yankee['muted'] = sequen;
+            yankee['lastMessageTimestampString'] = vacuum;
             yankee['channel'] = oscard;
+            yankee['channelCategoryName'] = ctrled;
             yankee['locked'] = source;
             yankee['connected'] = update;
             yankee['live'] = echoed;
@@ -298,8 +300,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[2] = yankee;
             yankee = verify != foxtra;
             verify = null;
-            if(!yankee) { _fun00002_ip = 623; continue _fun00001 }
- 592:
+            if(!yankee) { _fun00002_ip = 634; continue _fun00001 }
+ 603:
             romeon = _closure1_slot6;
             yankee = _closure1_slot3;
             offset = {};
@@ -308,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = backup;
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 623:
+ 634:
             option[3] = verify;
             entity['children'] = option;
             michal = golfie.bind(tangon)(michal, entity);

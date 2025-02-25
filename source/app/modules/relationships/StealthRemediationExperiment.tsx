@@ -43,21 +43,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/relationships/StealthRemediationExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['StealthRemediationExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForStealthRemediation
-        entity = argFoo;
-        entity = entity.location;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
-    };
-    zuuluu['isEligibleForStealthRemediation'] = tangon;
     michal = function(argFoo) { // Original name: useIsStealthRemediationEnabled
         entity = argFoo;
         entity = entity.location;

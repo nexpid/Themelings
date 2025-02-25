@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 463; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 468; continue _fun00001 }
  13:
                     verify = michal.targetApplicationId;
                     result = michal.locationObject;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return option;
  89:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 460; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 465; continue _fun00001 }
  98:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot3;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.getCurrentUser;
                     golfie = zuuluu.bind(tangon)();
                     oscard = null;
-                    if(!(oscard != verify)) { _fun00002_ip = 455; continue _fun00001 }
+                    if(!(oscard != verify)) { _fun00002_ip = 460; continue _fun00001 }
  147:
                     tangon = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -65,22 +65,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  177:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 452; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 457; continue _fun00001 }
  186:
-                    if(!(oscard != vacuum)) { _fun00002_ip = 394; continue _fun00001 }
+                    if(!(oscard != vacuum)) { _fun00002_ip = 399; continue _fun00001 }
  193:
                     offset = _closure1_slot5;
                     tangon = offset.getChannel;
                     tangon = tangon.bind(offset)(vacuum);
                     tangon = oscard != tangon;
-                    if(!tangon) { _fun00002_ip = 389; continue _fun00001 }
+                    if(!tangon) { _fun00002_ip = 394; continue _fun00001 }
  217:
                     golfie = oscard != golfie;
                     if(!golfie) { _fun00002_ip = 228; continue _fun00001 }
  224:
                     golfie = oscard != zuuluu;
  228:
-                    if(!golfie) { _fun00002_ip = 386; continue _fun00001 }
+                    if(!golfie) { _fun00002_ip = 391; continue _fun00001 }
  234:
                     offset = _closure1_slot2;
                     yankee = _closure1_slot3;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = 9;
                     oscard = yankee[oscard];
                     yankee = offset.bind(option)(oscard);
-                    offset = yankee.runPrimaryAppCommandOrLaunchEmbeddedActivity;
+                    offset = yankee.runPrimaryAppCommandOrJoinEmbeddedActivity;
                     oscard = {};
                     oscard['channelId'] = vacuum;
                     vacuum = zuuluu.id;
@@ -111,22 +111,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['onExecutedCallback'] = kiloes;
                     oscard['referrerId'] = backup;
                     oscard['customId'] = foxtra;
+                    oscard['instanceId'] = option;
                     oscard['inviterUserId'] = romeon;
                     oscard = offset.bind(yankee)(oscard);
-                    SaveGenerator(address=377);
- 375:
+                    SaveGenerator(address=382);
+ 380:
                     return oscard;
- 377:
+ 382:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=9);
                     golfie = oscard;
-                    if(offset) { _fun00002_ip = 391; continue _fun00001 }
- 386:
-                    tangon = golfie;
- 389:
-                    _fun00002_ip = 449; continue _fun00001;
+                    if(offset) { _fun00002_ip = 396; continue _fun00001 }
  391:
-                    return oscard;
+                    tangon = golfie;
  394:
+                    _fun00002_ip = 454; continue _fun00001;
+ 396:
+                    return oscard;
+ 399:
                     golfie = _closure1_slot0;
                     offset = _closure1_slot3;
                     oscard = 7;
@@ -140,16 +141,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['applicationId'] = verify;
                     report = golfie.bind(option)(oscard, report);
                     tangon = false;
- 449:
+ 454:
                     return tangon;
- 452:
-                    return zuuluu;
- 455:
-                    zuuluu = false;
+ 457:
                     return zuuluu;
  460:
+                    zuuluu = false;
+                    return zuuluu;
+ 465:
                     return michal;
- 463:
+ 468:
                     return entity;
                 }
             };

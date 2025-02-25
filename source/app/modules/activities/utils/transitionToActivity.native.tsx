@@ -48,66 +48,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.getEmbeddedActivityLocationChannelId;
             tangon = zuuluu.bind(tangon)(golfie);
-            report = null;
-            if(!(report != tangon)) { _fun00002_ip = 310; continue _fun00001 }
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00002_ip = 330; continue _fun00001 }
  48:
             oscard = _closure1_slot0;
             offset = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = offset[zuuluu];
-            option = oscard.bind(entity)(zuuluu);
+            report = 4;
+            report = offset[report];
+            option = oscard.bind(entity)(report);
             oscard = option.isModalOpen;
             verify = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = offset[zuuluu];
-            zuuluu = verify.bind(entity)(zuuluu);
-            zuuluu = oscard.bind(option)(zuuluu);
-            zuuluu = !zuuluu;
-            if(!zuuluu) { _fun00002_ip = 126; continue _fun00001 }
+            report = 5;
+            report = offset[report];
+            report = verify.bind(entity)(report);
+            report = oscard.bind(option)(report);
+            report = !report;
+            if(!report) { _fun00002_ip = 126; continue _fun00001 }
  101:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             oscard = 6;
             oscard = verify[oscard];
             oscard = option.bind(entity)(oscard);
-            zuuluu = oscard.bind(entity)(tangon);
+            report = oscard.bind(entity)(tangon);
  126:
-            if(!zuuluu) { _fun00002_ip = 154; continue _fun00001 }
+            if(!report) { _fun00002_ip = 154; continue _fun00001 }
  129:
             oscard = _closure1_slot1;
             option = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = option[zuuluu];
-            zuuluu = oscard.bind(entity)(zuuluu);
-            zuuluu = zuuluu.bind(entity)(tangon);
+            report = 7;
+            report = option[report];
+            report = oscard.bind(entity)(report);
+            report = report.bind(entity)(tangon);
  154:
             oscard = _closure1_slot4;
-            zuuluu = oscard.getSelfEmbeddedActivityForLocation;
-            zuuluu = zuuluu.bind(oscard)(golfie);
-            report = report != zuuluu;
-            if(!report) { _fun00002_ip = 201; continue _fun00001 }
+            report = oscard.getSelfEmbeddedActivityForLocation;
+            yankee = report.bind(oscard)(golfie);
+            zuuluu = zuuluu != yankee;
+            if(!zuuluu) { _fun00002_ip = 201; continue _fun00001 }
  176:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            oscard = 6;
-            oscard = option[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            report = oscard.bind(entity)(tangon);
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
+            report = 6;
+            report = golfie[report];
+            report = oscard.bind(entity)(report);
+            zuuluu = report.bind(entity)(tangon);
  201:
-            if(!report) { _fun00002_ip = 310; continue _fun00001 }
- 204:
+            if(!zuuluu) { _fun00002_ip = 330; continue _fun00001 }
+ 207:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            golfie = 8;
-            golfie = oscard[golfie];
-            option = report.bind(entity)(golfie);
+            zuuluu = 8;
+            zuuluu = oscard[zuuluu];
+            option = report.bind(entity)(zuuluu);
             golfie = option.selectParticipant;
-            offset = _closure1_slot0;
-            verify = 9;
-            verify = oscard[verify];
-            offset = offset.bind(entity)(verify);
-            verify = offset.embeddedActivityParticipantId;
-            zuuluu = zuuluu.applicationId;
+            verify = _closure1_slot0;
+            zuuluu = 9;
+            zuuluu = oscard[zuuluu];
+            offset = verify.bind(entity)(zuuluu);
+            verify = offset.getEmbeddedActivityParticipantId;
+            zuuluu = {};
+            romeon = yankee.applicationId;
+            zuuluu['applicationId'] = romeon;
+            yankee = yankee.compositeInstanceId;
+            zuuluu['instanceId'] = yankee;
             zuuluu = verify.bind(offset)(zuuluu);
             zuuluu = golfie.bind(option)(tangon, zuuluu);
             zuuluu = 10;
@@ -119,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot5;
             michal = michal.CLOSED;
             michal = zuuluu.bind(entity)(tangon, michal);
- 310:
+ 330:
             return entity;
         }
     };

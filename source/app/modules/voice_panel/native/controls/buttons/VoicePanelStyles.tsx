@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon[golfie];
             tangon = report.bind(oscard)(tangon);
             tangon = tangon.colors;
-            if(zuuluu) { _fun00002_ip = 230; continue _fun00001 }
- 222:
+            if(zuuluu) { _fun00002_ip = 228; continue _fun00001 }
+ 220:
             zuuluu = tangon.WHITE;
-            _fun00002_ip = 236; continue _fun00001;
- 230:
+            _fun00002_ip = 234; continue _fun00001;
+ 228:
             zuuluu = tangon.CONTROL_BRAND_FOREGROUND;
- 236:
+ 234:
             michal['backgroundColor'] = zuuluu;
             entity['iconBadgeIndicator'] = michal;
             return entity;

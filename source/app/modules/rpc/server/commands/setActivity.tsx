@@ -79,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.keys;
         entity = {};
         tangon = verify.number;
-        oscard = tangon.bind(verify)();
-        report = oscard.min;
-        tangon = 0;
-        tangon = report.bind(oscard)(tangon);
+        report = tangon.bind(verify)();
+        tangon = report.min;
+        vacuum = 0;
+        tangon = tangon.bind(report)(vacuum);
         entity['pid'] = tangon;
         tangon = sizing[option];
         tangon = kiloes.bind(backup)(tangon);
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         result = verify.number;
         ctrled = result.bind(verify)();
         result = ctrled.min;
-        result = result.bind(ctrled)(yankee);
+        result = result.bind(ctrled)(vacuum);
         echoed = echoed.bind(source)(result);
         result = echoed.length;
         result = result.bind(echoed)(romeon);
@@ -363,239 +363,259 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             verify = zuuluu.IPC;
             zuuluu = option.transport;
-            if(!(verify !== zuuluu)) { _fun00002_ip = 1620; continue _fun00001 }
+            if(!(verify !== zuuluu)) { _fun00002_ip = 1694; continue _fun00001 }
  245:
-            if(!(oscard != report)) { _fun00002_ip = 1539; continue _fun00001 }
+            if(!(oscard != report)) { _fun00002_ip = 1613; continue _fun00001 }
  252:
-            zuuluu = option.application;
-            zuuluu = zuuluu.name;
-            report['name'] = zuuluu;
-            zuuluu = option.application;
-            romeon = zuuluu.id;
-            report['application_id'] = romeon;
-            verify = option.transport;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.POST_MESSAGE;
-            zuuluu = verify === zuuluu;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            verify = 8;
-            verify = yankee[verify];
-            offset = offset.bind(tangon)(verify);
-            verify = offset.computeActivityFlags;
-            verify = verify.bind(offset)(report, zuuluu);
-            kiloes = 0;
-            if(!(verify > kiloes)) { _fun00002_ip = 348; continue _fun00001 }
- 342:
-            report['flags'] = verify;
- 348:
+            zuuluu = {};
+            verify = option.application;
+            verify = verify.name;
+            report['name'] = verify;
+            verify = option.application;
+            foxtra = verify.id;
+            report['application_id'] = foxtra;
+            offset = option.transport;
+            verify = _closure1_slot5;
+            verify = verify.POST_MESSAGE;
+            romeon = offset === verify;
             yankee = _closure1_slot4;
             offset = yankee.getApplication;
-            foxtra = oscard != romeon;
+            backup = oscard != foxtra;
             verify = undefined;
-            if(!foxtra) { _fun00002_ip = 370; continue _fun00001 }
- 367:
-            verify = romeon;
- 370:
+            if(!backup) { _fun00002_ip = 328; continue _fun00001 }
+ 325:
+            verify = foxtra;
+ 328:
             verify = offset.bind(yankee)(verify);
-            if(!(oscard != verify)) { _fun00002_ip = 661; continue _fun00001 }
- 382:
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
-            offset = 9;
-            offset = romeon[offset];
-            yankee = yankee.bind(tangon)(offset);
-            offset = yankee.isContextlessActivitiesEnabledForApp;
-            offset = offset.bind(yankee)(verify);
-            if(!offset) { _fun00002_ip = 661; continue _fun00001 }
- 419:
-            if(!zuuluu) { _fun00002_ip = 661; continue _fun00001 }
- 425:
-            offset = _closure1_slot3;
-            zuuluu = offset.getCurrentEmbeddedActivity;
-            zuuluu = zuuluu.bind(offset)();
-            yankee = oscard == zuuluu;
-            offset = undefined;
-            if(yankee) { _fun00002_ip = 453; continue _fun00001 }
- 448:
-            offset = zuuluu.applicationId;
- 453:
+            yankee = oscard != verify;
+            kiloes = 0;
+            offset = 0;
+            if(!yankee) { _fun00002_ip = 690; continue _fun00001 }
+ 347:
+            foxtra = _closure1_slot0;
+            backup = _closure1_slot2;
+            yankee = 8;
+            yankee = backup[yankee];
+            foxtra = foxtra.bind(tangon)(yankee);
+            yankee = foxtra.isContextlessActivitiesEnabledForApp;
+            yankee = yankee.bind(foxtra)(verify);
+            offset = 0;
+            if(!yankee) { _fun00002_ip = 690; continue _fun00001 }
+ 386:
+            offset = 0;
+            if(!romeon) { _fun00002_ip = 690; continue _fun00001 }
+ 394:
+            foxtra = _closure1_slot3;
+            yankee = foxtra.getCurrentEmbeddedActivity;
+            sizing = yankee.bind(foxtra)();
+            foxtra = oscard == sizing;
+            yankee = undefined;
+            if(foxtra) { _fun00002_ip = 422; continue _fun00001 }
+ 417:
+            yankee = sizing.applicationId;
+ 422:
             verify = verify.id;
-            if(!(offset === verify)) { _fun00002_ip = 661; continue _fun00001 }
- 465:
-            verify = zuuluu.compositeInstanceId;
-            if(!(oscard != verify)) { _fun00002_ip = 536; continue _fun00001 }
- 475:
-            zuuluu = {};
-            yankee = report.secrets;
-            romeon = oscard == yankee;
-            offset = undefined;
-            if(romeon) { _fun00002_ip = 497; continue _fun00001 }
- 492:
-            offset = yankee.join;
- 497:
-            if(!(oscard != offset)) { _fun00002_ip = 504; continue _fun00001 }
- 501:
-            verify = offset;
- 504:
-            zuuluu['join'] = verify;
-            verify = report.secrets;
-            if(!(oscard == verify)) { _fun00002_ip = 520; continue _fun00001 }
- 518:
-            verify = {};
- 520:
-            ctrled = zuuluu;
-            source = verify;
-            verify = copyDataProperties(ctrled, source);
-            report['secrets'] = zuuluu;
- 536:
-            zuuluu = {};
-            offset = report.party;
-            yankee = oscard == offset;
-            verify = undefined;
-            if(yankee) { _fun00002_ip = 558; continue _fun00001 }
- 553:
-            verify = offset.size;
- 558:
-            if(!(oscard == verify)) { _fun00002_ip = 588; continue _fun00001 }
- 562:
+            offset = 0;
+            if(!(yankee === verify)) { _fun00002_ip = 690; continue _fun00001 }
+ 436:
+            yankee = sizing.compositeInstanceId;
+            foxtra = oscard != yankee;
+            verify = 0;
+            if(!foxtra) { _fun00002_ip = 581; continue _fun00001 }
+ 454:
+            foxtra = {};
+            output = report.secrets;
+            result = oscard == output;
+            backup = undefined;
+            if(result) { _fun00002_ip = 476; continue _fun00001 }
+ 471:
+            backup = output.join;
+ 476:
+            if(!(oscard == backup)) { _fun00002_ip = 498; continue _fun00001 }
+ 480:
+            output = global;
+            result = output.crypto;
+            output = result.randomUUID;
+            backup = output.bind(result)();
+ 498:
+            foxtra['join'] = backup;
+            backup = report.secrets;
+            if(!(oscard == backup)) { _fun00002_ip = 514; continue _fun00001 }
+ 512:
+            backup = {};
+ 514:
+            ctrled = foxtra;
+            source = backup;
+            backup = copyDataProperties(ctrled, source);
+            report['secrets'] = foxtra;
+            zuuluu['embedded_activity_instance_id'] = yankee;
+            foxtra = _closure1_slot0;
+            backup = _closure1_slot2;
+            yankee = 9;
+            yankee = backup[yankee];
+            backup = foxtra.bind(tangon)(yankee);
+            foxtra = backup.applyContextlessFlags;
+            yankee = {};
+            yankee['flags'] = kiloes;
+            yankee['embeddedActivity'] = sizing;
+            yankee = foxtra.bind(backup)(yankee);
+            verify = yankee | 0;
+ 581:
+            yankee = {};
+            foxtra = global;
+            backup = foxtra.crypto;
+            foxtra = backup.randomUUID;
+            foxtra = foxtra.bind(backup)();
+            yankee['id'] = foxtra;
+            backup = report.party;
+            sizing = oscard == backup;
+            foxtra = undefined;
+            if(sizing) { _fun00002_ip = 625; continue _fun00001 }
+ 620:
+            foxtra = backup.size;
+ 625:
+            if(!(oscard == foxtra)) { _fun00002_ip = 655; continue _fun00001 }
+ 629:
+            sizing = _closure1_slot0;
+            output = _closure1_slot2;
+            backup = 9;
+            backup = output[backup];
+            backup = sizing.bind(tangon)(backup);
+            foxtra = backup.DEFAULT_EMBEDDED_ACTIVITY_PARTY_SIZE;
+ 655:
+            yankee['size'] = foxtra;
+            foxtra = report.party;
+            if(!(oscard == foxtra)) { _fun00002_ip = 671; continue _fun00001 }
+ 669:
+            foxtra = {};
+ 671:
+            ctrled = yankee;
+            source = foxtra;
+            foxtra = copyDataProperties(ctrled, source);
+            report['party'] = yankee;
+            offset = verify;
+ 690:
             yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
-            offset = 10;
-            offset = romeon[offset];
-            offset = yankee.bind(tangon)(offset);
-            verify = offset.DEFAULT_EMBEDDED_ACTIVITY_PARTY_SIZE;
- 588:
-            zuuluu['size'] = verify;
+            foxtra = _closure1_slot2;
+            verify = 10;
+            verify = foxtra[verify];
+            yankee = yankee.bind(tangon)(verify);
+            verify = yankee.computeActivityFlags;
+            verify = verify.bind(yankee)(report, romeon);
+            if(!(verify > kiloes)) { _fun00002_ip = 736; continue _fun00001 }
+ 726:
+            verify = verify | offset;
+            report['flags'] = verify;
+ 736:
+            verify = delete report.instance;
             verify = report.party;
-            if(!(oscard == verify)) { _fun00002_ip = 604; continue _fun00001 }
- 602:
-            verify = {};
- 604:
-            ctrled = zuuluu;
-            source = verify;
-            verify = copyDataProperties(ctrled, source);
-            report['party'] = zuuluu;
-            verify = report.flags;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = yankee[zuuluu];
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.DEFAULT_CONTEXTLESS_EMBEDDED_ACTIVITY_FLAGS;
-            zuuluu = verify | zuuluu;
-            report['flags'] = zuuluu;
- 661:
-            zuuluu = delete report.instance;
-            zuuluu = report.party;
-            if(!(oscard != zuuluu)) { _fun00002_ip = 681; continue _fun00001 }
- 676:
-            zuuluu = delete zuuluu.privacy;
- 681:
+            if(!(oscard != verify)) { _fun00002_ip = 756; continue _fun00001 }
+ 751:
+            verify = delete verify.privacy;
+ 756:
             yankee = report.assets;
             _closure2_slot4 = yankee;
-            verify = report.party;
-            sizing = report.secrets;
+            offset = report.party;
+            output = report.secrets;
             backup = report.timestamps;
-            offset = report.buttons;
-            zuuluu = report.type;
-            if(!(oscard == zuuluu)) { _fun00002_ip = 740; continue _fun00001 }
- 724:
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.PLAYING;
-            report['type'] = zuuluu;
- 740:
-            if(!(oscard != sizing)) { _fun00002_ip = 999; continue _fun00001 }
- 747:
-            romeon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            foxtra = 11;
-            zuuluu = zuuluu[foxtra];
-            romeon = romeon.bind(tangon)(zuuluu);
-            zuuluu = romeon.values;
-            sizing = zuuluu.bind(romeon)(sizing);
-            romeon = sizing.filter;
-            zuuluu = function(argFoo) {
+            romeon = report.buttons;
+            verify = report.type;
+            if(!(oscard == verify)) { _fun00002_ip = 815; continue _fun00001 }
+ 799:
+            verify = _closure1_slot7;
+            verify = verify.PLAYING;
+            report['type'] = verify;
+ 815:
+            if(!(oscard != output)) { _fun00002_ip = 1074; continue _fun00001 }
+ 822:
+            foxtra = _closure1_slot1;
+            verify = _closure1_slot2;
+            sizing = 11;
+            verify = verify[sizing];
+            foxtra = foxtra.bind(tangon)(verify);
+            verify = foxtra.values;
+            output = verify.bind(foxtra)(output);
+            foxtra = output.filter;
+            verify = function(argFoo) {
                 entity = argFoo;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            zuuluu = romeon.bind(sizing)(zuuluu);
-            if(!(oscard != verify)) { _fun00002_ip = 947; continue _fun00001 }
- 801:
-            sizing = _closure1_slot1;
-            romeon = _closure1_slot2;
-            romeon = romeon[foxtra];
-            sizing = sizing.bind(tangon)(romeon);
-            romeon = sizing.intersection;
-            output = verify.id;
-            verify = new Array(1);
-            verify[0] = output;
-            verify = romeon.bind(sizing)(zuuluu, verify);
-            verify = verify.length;
-            if(!(verify > kiloes)) { _fun00002_ip = 947; continue _fun00001 }
- 852:
-            sizing = _closure1_slot10;
-            romeon = sizing.includes;
-            verify = option.application;
-            verify = verify.id;
-            verify = romeon.bind(sizing)(verify);
-            if(verify) { _fun00002_ip = 947; continue _fun00001 }
- 879:
-            romeon = _closure1_slot1;
-            sizing = _closure1_slot2;
-            verify = 6;
-            verify = sizing[verify];
-            output = romeon.bind(tangon)(verify);
-            sizing = {};
-            verify = _closure1_slot9;
-            verify = verify.INVALID_ACTIVITY_SECRET;
-            sizing['errorCode'] = verify;
-            verify = output.prototype;
-            romeon = Object.create(verify, {constructor: {value: output}});
+            verify = foxtra.bind(output)(verify);
+            if(!(oscard != offset)) { _fun00002_ip = 1022; continue _fun00001 }
+ 876:
+            output = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            foxtra = foxtra[sizing];
+            output = output.bind(tangon)(foxtra);
+            foxtra = output.intersection;
+            result = offset.id;
+            offset = new Array(1);
+            offset[0] = result;
+            offset = foxtra.bind(output)(verify, offset);
+            offset = offset.length;
+            if(!(offset > kiloes)) { _fun00002_ip = 1022; continue _fun00001 }
+ 927:
+            output = _closure1_slot10;
+            foxtra = output.includes;
+            offset = option.application;
+            offset = offset.id;
+            offset = foxtra.bind(output)(offset);
+            if(offset) { _fun00002_ip = 1022; continue _fun00001 }
+ 954:
+            foxtra = _closure1_slot1;
+            output = _closure1_slot2;
+            offset = 6;
+            offset = output[offset];
+            result = foxtra.bind(tangon)(offset);
+            output = {};
+            offset = _closure1_slot9;
+            offset = offset.INVALID_ACTIVITY_SECRET;
+            output['errorCode'] = offset;
+            offset = result.prototype;
+            foxtra = Object.create(offset, {constructor: {value: result}});
             source = 'secrets cannot match the party id';
-            vacuum = romeon;
-            ctrled = sizing;
-            verify = new vacuum[output](ctrled, source, update);
-            verify = verify instanceof Object ? verify : romeon;
-            throw verify;
- 947:
-            romeon = _closure1_slot1;
-            verify = _closure1_slot2;
-            verify = verify[foxtra];
-            romeon = romeon.bind(tangon)(verify);
-            verify = romeon.uniq;
-            verify = verify.bind(romeon)(zuuluu);
+            vacuum = foxtra;
+            ctrled = output;
+            offset = new vacuum[result](ctrled, source, update);
+            offset = offset instanceof Object ? offset : foxtra;
+            throw offset;
+ 1022:
+            foxtra = _closure1_slot1;
+            offset = _closure1_slot2;
+            offset = offset[sizing];
+            foxtra = foxtra.bind(tangon)(offset);
+            offset = foxtra.uniq;
+            offset = offset.bind(foxtra)(verify);
+            offset = offset.length;
             verify = verify.length;
-            zuuluu = zuuluu.length;
-            if(!(!(verify < zuuluu))) { _fun00002_ip = 1471; continue _fun00001 }
- 992:
-            if(!(oscard == offset)) { _fun00002_ip = 1403; continue _fun00001 }
- 999:
-            if(!(oscard != offset)) { _fun00002_ip = 1056; continue _fun00001 }
- 1003:
-            zuuluu = {};
-            romeon = offset.map;
+            if(!(!(offset < verify))) { _fun00002_ip = 1545; continue _fun00001 }
+ 1067:
+            if(!(oscard == romeon)) { _fun00002_ip = 1477; continue _fun00001 }
+ 1074:
+            if(!(oscard != romeon)) { _fun00002_ip = 1124; continue _fun00001 }
+ 1078:
+            offset = romeon.map;
             verify = function(argFoo) {
                 entity = argFoo;
                 entity = entity.url;
                 return entity;
             };
-            verify = romeon.bind(offset)(verify);
+            verify = offset.bind(romeon)(verify);
             zuuluu['button_urls'] = verify;
-            report['metadata'] = zuuluu;
-            verify = offset.map;
-            zuuluu = function(argFoo) {
+            offset = romeon.map;
+            verify = function(argFoo) {
                 entity = argFoo;
                 entity = entity.label;
                 return entity;
             };
-            zuuluu = verify.bind(offset)(zuuluu);
-            report['buttons'] = zuuluu;
- 1056:
-            if(!(oscard != backup)) { _fun00002_ip = 1233; continue _fun00001 }
- 1063:
+            verify = offset.bind(romeon)(verify);
+            report['buttons'] = verify;
+ 1124:
+            report['metadata'] = zuuluu;
+            if(!(oscard != backup)) { _fun00002_ip = 1307; continue _fun00001 }
+ 1137:
             foxtra = global;
             verify = foxtra.Object;
             zuuluu = verify.keys;
@@ -605,8 +625,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = 12;
             verify = 2;
             kiloes = 0;
-            if(!zuuluu) { _fun00002_ip = 1233; continue _fun00001 }
- 1104:
+            if(!zuuluu) { _fun00002_ip = 1307; continue _fun00001 }
+ 1178:
             sizing = romeon[kiloes];
             output = foxtra.Date;
             zuuluu = output.now;
@@ -619,8 +639,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(result)();
             zuuluu = zuuluu.length;
             zuuluu = output - zuuluu;
-            if(!(zuuluu > verify)) { _fun00002_ip = 1221; continue _fun00001 }
- 1163:
+            if(!(zuuluu > verify)) { _fun00002_ip = 1295; continue _fun00001 }
+ 1237:
             result = foxtra.Math;
             output = result.floor;
             echoed = backup[sizing];
@@ -633,20 +653,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = echoed * zuuluu;
             zuuluu = output.bind(result)(zuuluu);
             backup[sizing] = zuuluu;
- 1221:
+ 1295:
             kiloes = kiloes + 1;
             zuuluu = romeon.length;
-            if(kiloes < zuuluu) { _fun00002_ip = 1104; continue _fun00001 }
- 1233:
-            if(!(oscard != yankee)) { _fun00002_ip = 1361; continue _fun00001 }
- 1240:
+            if(kiloes < zuuluu) { _fun00002_ip = 1178; continue _fun00001 }
+ 1307:
+            if(!(oscard != yankee)) { _fun00002_ip = 1435; continue _fun00001 }
+ 1314:
             zuuluu = option.application;
-            if(!(oscard != zuuluu)) { _fun00002_ip = 1331; continue _fun00001 }
- 1249:
+            if(!(oscard != zuuluu)) { _fun00002_ip = 1405; continue _fun00001 }
+ 1323:
             zuuluu = option.application;
             zuuluu = zuuluu.id;
-            if(!(oscard != zuuluu)) { _fun00002_ip = 1331; continue _fun00001 }
- 1263:
+            if(!(oscard != zuuluu)) { _fun00002_ip = 1405; continue _fun00001 }
+ 1337:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 13;
@@ -661,8 +681,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = yankee.small_image;
             zuuluu[1] = yankee;
             oscard = verify.bind(offset)(oscard, zuuluu);
-            _fun00002_ip = 1384; continue _fun00001;
- 1331:
+            _fun00002_ip = 1458; continue _fun00001;
+ 1405:
             zuuluu = global;
             zuuluu = zuuluu.Error;
             verify = zuuluu.prototype;
@@ -671,13 +691,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new vacuum[zuuluu](ctrled);
             zuuluu = zuuluu instanceof Object ? zuuluu : verify;
             throw zuuluu;
- 1361:
+ 1435:
             zuuluu = global;
             offset = zuuluu.Promise;
             verify = offset.resolve;
             zuuluu = new Array(0);
             oscard = verify.bind(offset)(zuuluu);
- 1384:
+ 1458:
             zuuluu = oscard.then;
             michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -846,7 +866,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(oscard)(michal);
             return michal;
- 1403:
+ 1477:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 6;
@@ -864,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new vacuum[verify](ctrled, source, update);
             michal = michal instanceof Object ? michal : zuuluu;
             throw michal;
- 1471:
+ 1545:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 6;
@@ -882,7 +902,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new vacuum[verify](ctrled, source, update);
             michal = michal instanceof Object ? michal : zuuluu;
             throw michal;
- 1539:
+ 1613:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 7;
@@ -902,7 +922,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.resolve;
             michal = michal.bind(zuuluu)(report);
             return michal;
- 1620:
+ 1694:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
             michal = 6;

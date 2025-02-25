@@ -356,8 +356,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['children'] = backup;
             option = foxtra.bind(tangon)(verify, option);
             report[2] = option;
-            if(!oscard) { _fun00008_ip = 790; continue _fun00007 }
- 598:
+            if(!oscard) { _fun00008_ip = 794; continue _fun00007 }
+ 602:
             verify = _closure1_slot19;
             option = _closure1_slot1;
             result = _closure1_slot2;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 790:
+ 794:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

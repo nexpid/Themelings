@@ -1347,21 +1347,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golfie = 'getSelfEmbeddedActivitiesForStartingChannel';
+        golfie = 'getSelfEmbeddedActivityForStartingChannel';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
             _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-                michal = argFoo;
-                var _closure3_slot0 = michal;
+                zuuluu = argFoo;
+                var _closure3_slot0 = zuuluu;
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00028_ip = 19; continue _fun00027 }
+ 15:
+                michal = undefined;
+                return michal;
+ 19:
                 michal = global;
-                tangon = michal.location;
-                zuuluu = null;
-                if(!(zuuluu == tangon)) { _fun00028_ip = 27; continue _fun00027 }
- 23:
-                zuuluu = undefined;
-                return zuuluu;
- 27:
                 tangon = michal.Array;
                 zuuluu = tangon.from;
                 report = _closure1_slot21;

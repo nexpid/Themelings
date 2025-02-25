@@ -1,20 +1,22 @@
 // app/modules/user_profile/ProfileUpdateRequestUtils.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    report = argBar;
     zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
     tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tangon;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    oscard = {};
+    entity = true;
+    oscard['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
+    entity = 1;
+    tangon = tangon[entity];
     entity = undefined;
-    oscard = tangon.bind(entity)(report);
+    oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_profile/ProfileUpdateRequestUtils.tsx';
     tangon = report.bind(oscard)(tangon);
@@ -89,12 +91,42 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = michal.pendingAvatar;
             entity['avatar'] = zuuluu;
  51:
-            zuuluu = michal.pendingAvatarDecoration;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 73; continue _fun00003 }
+            zuuluu = michal.pendingAvatarV2;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 167; continue _fun00003 }
  61:
+            report = michal.pendingAvatarV2;
+            zuuluu = null;
+            if(!(zuuluu !== report)) { _fun00004_ip = 161; continue _fun00003 }
+ 73:
+            golfie = report.assetOrigin;
+            option = _closure1_slot0;
+            verify = _closure1_slot1;
+            oscard = 0;
+            oscard = verify[oscard];
+            oscard = option.bind(tangon)(oscard);
+            oscard = oscard.AssetOriginTypes;
+            oscard = oscard.ARCHIVED_ASSET;
+            if(!(golfie !== oscard)) { _fun00004_ip = 142; continue _fun00003 }
+ 117:
+            oscard = report.imageUri;
+            entity['avatar'] = oscard;
+            oscard = report.description;
+            entity['avatarDescription'] = oscard;
+            _fun00004_ip = 167; continue _fun00003;
+ 142:
+            report = report.originalAsset;
+            report = report.id;
+            entity['avatarId'] = report;
+            _fun00004_ip = 167; continue _fun00003;
+ 161:
+            entity['avatar'] = zuuluu;
+ 167:
+            zuuluu = michal.pendingAvatarDecoration;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 189; continue _fun00003 }
+ 177:
             michal = michal.pendingAvatarDecoration;
             entity['avatarDecoration'] = michal;
- 73:
+ 189:
             return entity;
         }
     };
@@ -111,25 +143,55 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = michal.pendingAvatar;
             entity['avatar'] = zuuluu;
  29:
-            zuuluu = michal.pendingNickname;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 67; continue _fun00005 }
+            zuuluu = michal.pendingAvatarV2;
+            if(!(tangon !== zuuluu)) { _fun00006_ip = 145; continue _fun00005 }
  39:
+            report = michal.pendingAvatarV2;
+            zuuluu = null;
+            if(!(zuuluu !== report)) { _fun00006_ip = 139; continue _fun00005 }
+ 51:
+            golfie = report.assetOrigin;
+            option = _closure1_slot0;
+            verify = _closure1_slot1;
+            oscard = 0;
+            oscard = verify[oscard];
+            oscard = option.bind(tangon)(oscard);
+            oscard = oscard.AssetOriginTypes;
+            oscard = oscard.ARCHIVED_ASSET;
+            if(!(golfie !== oscard)) { _fun00006_ip = 120; continue _fun00005 }
+ 95:
+            oscard = report.imageUri;
+            entity['avatar'] = oscard;
+            oscard = report.description;
+            entity['avatarDescription'] = oscard;
+            _fun00006_ip = 145; continue _fun00005;
+ 120:
+            report = report.originalAsset;
+            report = report.id;
+            entity['avatarId'] = report;
+            _fun00006_ip = 145; continue _fun00005;
+ 139:
+            entity['avatar'] = zuuluu;
+ 145:
+            zuuluu = michal.pendingNickname;
+            if(!(tangon !== zuuluu)) { _fun00006_ip = 183; continue _fun00005 }
+ 155:
             report = michal.pendingNickname;
             zuuluu = null;
             oscard = zuuluu != report;
             zuuluu = '';
-            if(!oscard) { _fun00006_ip = 61; continue _fun00005 }
- 58:
+            if(!oscard) { _fun00006_ip = 177; continue _fun00005 }
+ 174:
             zuuluu = report;
- 61:
+ 177:
             entity['nick'] = zuuluu;
- 67:
+ 183:
             zuuluu = michal.pendingAvatarDecoration;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 89; continue _fun00005 }
- 77:
+            if(!(tangon !== zuuluu)) { _fun00006_ip = 205; continue _fun00005 }
+ 193:
             michal = michal.pendingAvatarDecoration;
             entity['avatarDecoration'] = michal;
- 89:
+ 205:
             return entity;
         }
     };

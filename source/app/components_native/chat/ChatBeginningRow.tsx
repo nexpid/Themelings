@@ -2836,12 +2836,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure2_slot6;
                     entity = null;
-                    if(!(entity != michal)) { _fun00048_ip = 383; continue _fun00047 }
+                    if(!(entity != michal)) { _fun00048_ip = 379; continue _fun00047 }
  18:
                     entity = _closure2_slot6;
                     michal = entity.length;
                     entity = 1;
-                    if(!(!(michal < entity))) { _fun00048_ip = 383; continue _fun00047 }
+                    if(!(!(michal < entity))) { _fun00048_ip = 379; continue _fun00047 }
  37:
                     entity = _closure2_slot6;
                     foxtra = entity.length;
@@ -2947,7 +2947,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['children'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
- 383:
+ 379:
                     entity = undefined;
                     return entity;
                 }

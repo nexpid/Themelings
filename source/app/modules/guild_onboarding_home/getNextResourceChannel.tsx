@@ -98,10 +98,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = michal.bind(zuuluu)(entity);
             entity = 0;
-            if(!(!(michal < entity))) { _fun00004_ip = 191; continue _fun00003 }
+            if(!(!(michal < entity))) { _fun00004_ip = 189; continue _fun00003 }
  95:
             entity = zuuluu.length;
-            if(!(!(entity <= tangon))) { _fun00004_ip = 191; continue _fun00003 }
+            if(!(!(entity <= tangon))) { _fun00004_ip = 189; continue _fun00003 }
  104:
             report = zuuluu.length;
             entity = 2;
@@ -118,18 +118,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard % report;
             report = zuuluu[report];
             entity[1] = report;
-            _fun00004_ip = 189; continue _fun00003;
+            _fun00004_ip = 187; continue _fun00003;
  164:
             michal = tangon - michal;
             zuuluu = zuuluu[michal];
             michal = [null];
             michal[1] = zuuluu;
             entity = michal;
+ 187:
+            _fun00004_ip = 199; continue _fun00003;
  189:
-            _fun00004_ip = 201; continue _fun00003;
- 191:
             entity = [null, null];
- 201:
+ 199:
             return entity;
         }
     };

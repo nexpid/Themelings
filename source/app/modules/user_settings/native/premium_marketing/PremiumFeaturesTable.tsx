@@ -1019,8 +1019,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
             backup = offset.headerText;
             report['style'] = backup;
-            if(!(foxtra == romeon)) { _fun00010_ip = 1913; continue _fun00009 }
- 1861:
+            if(!(foxtra == romeon)) { _fun00010_ip = 1921; continue _fun00009 }
+ 1869:
             sizing = _closure1_slot0;
             foxtra = _closure1_slot2;
             backup = foxtra[output];
@@ -1032,7 +1032,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.vLz3Zm;
             romeon = backup.bind(kiloes)(foxtra);
- 1913:
+ 1921:
             report['children'] = romeon;
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);

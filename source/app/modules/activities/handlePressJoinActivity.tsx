@@ -281,47 +281,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00006_ip = 138; continue _fun00005 }
+                                    if(michal) { _fun00006_ip = 207; continue _fun00005 }
  10:
                                     zuuluu = _closure4_slot7;
                                     michal = null;
-                                    if(!(michal != zuuluu)) { _fun00006_ip = 130; continue _fun00005 }
- 23:
+                                    if(!(michal != zuuluu)) { _fun00006_ip = 199; continue _fun00005 }
+ 26:
                                     zuuluu = _closure1_slot1;
-                                    tangon = _closure1_slot2;
+                                    option = _closure1_slot2;
                                     michal = 14;
-                                    michal = tangon[michal];
+                                    michal = option[michal];
                                     tangon = undefined;
                                     zuuluu = zuuluu.bind(tangon)(michal);
                                     michal = {};
+                                    golfie = _closure4_slot7;
+                                    golfie = golfie.applicationId;
+                                    michal['applicationId'] = golfie;
+                                    golfie = _closure4_slot0;
+                                    michal['activityChannelId'] = golfie;
+                                    golfie = {};
+                                    michal['locationObject'] = golfie;
+                                    golfie = _closure4_slot3;
+                                    michal['analyticsLocations'] = golfie;
+                                    golfie = _closure4_slot4;
+                                    michal['componentId'] = golfie;
+                                    golfie = _closure4_slot5;
+                                    michal['sectionName'] = golfie;
+                                    golfie = _closure4_slot6;
+                                    michal['inviterUserId'] = golfie;
+                                    golfie = _closure4_slot7;
+                                    golfie = golfie.compositeInstanceId;
+                                    michal['instanceId'] = golfie;
                                     oscard = _closure4_slot7;
-                                    oscard = oscard.applicationId;
-                                    michal['applicationId'] = oscard;
-                                    oscard = _closure4_slot0;
-                                    michal['activityChannelId'] = oscard;
-                                    oscard = {};
-                                    michal['locationObject'] = oscard;
-                                    oscard = _closure4_slot3;
-                                    michal['analyticsLocations'] = oscard;
-                                    oscard = _closure4_slot4;
-                                    michal['componentId'] = oscard;
-                                    oscard = _closure4_slot5;
-                                    michal['sectionName'] = oscard;
-                                    report = _closure4_slot6;
-                                    michal['inviterUserId'] = report;
+                                    oscard = oscard.location;
+                                    oscard = oscard.kind;
+                                    golfie = _closure1_slot0;
+                                    report = 15;
+                                    report = option[report];
+                                    report = golfie.bind(tangon)(report);
+                                    report = report.ActivityLocationKinds;
+                                    report = report.CONTEXTLESS;
+                                    report = oscard === report;
+                                    michal['isContextlessActivity'] = report;
                                     michal = zuuluu.bind(tangon)(michal);
-                                    SaveGenerator(address=124);
- 122:
+                                    SaveGenerator(address=193);
+ 191:
                                     return michal;
- 124:
+ 193:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(zuuluu) { _fun00006_ip = 135; continue _fun00005 }
- 130:
+                                    if(zuuluu) { _fun00006_ip = 204; continue _fun00005 }
+ 199:
                                     zuuluu = undefined;
                                     return zuuluu;
- 135:
+ 204:
                                     return michal;
- 138:
+ 207:
                                     return entity;
                                 }
                             };
@@ -517,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     report = option.bind(entity)(report);
     var _closure1_slot10 = report;
-    report = 15;
+    report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

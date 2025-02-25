@@ -66,6 +66,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['PACING_CONTROLLER'] = tangon;
     entity = 'PACING_CONTROLLER';
     michal[tangon] = entity;
+    tangon = 17;
+    michal['QUEST_HOME_FORCE_STATIC_IMAGE'] = tangon;
+    entity = 'QUEST_HOME_FORCE_STATIC_IMAGE';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

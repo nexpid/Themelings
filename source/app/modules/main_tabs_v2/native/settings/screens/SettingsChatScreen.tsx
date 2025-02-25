@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             report = new Array(2);
             report[0] = golfie;
             oscard = !oscard;
-            if(!oscard) { _fun00002_ip = 563; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 567; continue _fun00001 }
  233:
             verify = _closure1_slot9;
             option = _closure1_slot4;
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             offset = romeon.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 563:
+ 567:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

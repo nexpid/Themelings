@@ -826,12 +826,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure2_slot3;
                 oscard = oscard.role;
                 zuuluu['style'] = oscard;
-                golfie = _closure1_slot1;
+                golfie = _closure1_slot0;
                 oscard = _closure1_slot2;
                 michal = 24;
                 oscard = oscard[michal];
                 michal = undefined;
-                golfie = golfie.bind(michal)(oscard);
+                oscard = golfie.bind(michal)(oscard);
+                golfie = oscard.RoleItem;
                 oscard = {};
                 oscard['role'] = entity;
                 option = _closure2_slot5;

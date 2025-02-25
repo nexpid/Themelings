@@ -11,32 +11,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             tangon = entity.channelId;
-            zuuluu = entity.ChannelRTCStore;
-            michal = entity.EmbeddedActivitiesStore;
-            entity = zuuluu.getSelectedParticipant;
-            zuuluu = entity.bind(zuuluu)(tangon);
-            entity = michal.getSelfEmbeddedActivityForChannel;
+            michal = entity.ChannelRTCStore;
+            zuuluu = entity.EmbeddedActivitiesStore;
+            entity = michal.getSelectedParticipant;
             michal = entity.bind(michal)(tangon);
-            tangon = null;
-            entity = tangon != zuuluu;
+            entity = zuuluu.getSelfEmbeddedActivityForChannel;
+            golfie = entity.bind(zuuluu)(tangon);
+            option = null;
+            entity = option != michal;
             if(!entity) { _fun00002_ip = 55; continue _fun00001 }
  51:
-            entity = tangon != michal;
+            entity = option != golfie;
  55:
-            if(!entity) { _fun00002_ip = 108; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 132; continue _fun00001 }
  58:
-            zuuluu = zuuluu.id;
-            oscard = _closure1_slot0;
+            zuuluu = michal.id;
+            tangon = _closure1_slot0;
             report = _closure1_slot1;
-            tangon = 2;
-            report = report[tangon];
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
-            tangon = report.embeddedActivityParticipantId;
-            michal = michal.applicationId;
+            michal = 2;
+            michal = report[michal];
+            oscard = undefined;
+            report = tangon.bind(oscard)(michal);
+            tangon = report.getEmbeddedActivityParticipantId;
+            michal = {};
+            verify = golfie.applicationId;
+            michal['applicationId'] = verify;
+            option = option == golfie;
+            if(option) { _fun00002_ip = 118; continue _fun00001 }
+ 112:
+            oscard = golfie.compositeInstanceId;
+ 118:
+            michal['instanceId'] = oscard;
             michal = tangon.bind(report)(michal);
             entity = zuuluu === michal;
- 108:
+ 132:
             return entity;
         }
     };

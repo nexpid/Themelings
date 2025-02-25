@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = tangon.bind(golfie)(zuuluu, entity);
             entity = null;
             michal = entity == michal;
-            if(michal) { _fun00002_ip = 938; continue _fun00001 }
+            if(michal) { _fun00002_ip = 934; continue _fun00001 }
  304:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot7;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 938:
+ 934:
             return entity;
         }
     };

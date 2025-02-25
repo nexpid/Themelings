@@ -51,18 +51,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu.START;
             zuuluu = undefined;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 46; continue _fun00001 }
- 43:
+            if(!(oscard === option)) { _fun00002_ip = 42; continue _fun00001 }
+ 39:
             golfie = 6;
- 46:
+ 42:
             michal['marginTop'] = golfie;
             golfie = _closure1_slot8;
             option = golfie.END;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 69; continue _fun00001 }
- 66:
+            if(!(oscard === option)) { _fun00002_ip = 65; continue _fun00001 }
+ 62:
             golfie = 6;
- 69:
+ 65:
             michal['marginBottom'] = golfie;
             entity['container'] = michal;
             michal = {'justifyContent': 'center', 'alignItems': 'center'};

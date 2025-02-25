@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.bind(zuuluu)(report);
             var _closure2_slot2 = michal;
             zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00004_ip = 201; continue _fun00003 }
+            if(!(zuuluu != michal)) { _fun00004_ip = 205; continue _fun00003 }
  69:
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             entity = tangon.bind(report)(michal, entity);
             return entity;
- 201:
+ 205:
             entity = global;
             michal = entity.Promise;
             entity = michal.resolve;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 137; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 139; continue _fun00009 }
  10:
                     tangon = _closure2_slot0;
                     zuuluu = tangon.map;
@@ -478,18 +478,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = false;
                     michal['rejectWithError'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=120);
- 118:
-                    return michal;
+                    SaveGenerator(address=122);
  120:
+                    return michal;
+ 122:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 134; continue _fun00009 }
- 126:
+                    if(zuuluu) { _fun00010_ip = 136; continue _fun00009 }
+ 128:
                     zuuluu = michal.body;
                     return zuuluu;
- 134:
+ 136:
                     return michal;
- 137:
+ 139:
                     return entity;
                 }
             };

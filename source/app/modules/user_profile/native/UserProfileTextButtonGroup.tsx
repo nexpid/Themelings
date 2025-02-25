@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.SIDE_PADDING;
+    tangon = tangon.PROFILE_SIDE_PADDING;
     var _closure1_slot3 = tangon;
     tangon = 3;
     golfie = oscard[tangon];

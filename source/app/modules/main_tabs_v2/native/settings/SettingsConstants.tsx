@@ -370,8 +370,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['REACT_COMPILER'] = entity;
     entity = 'ALLOW_GAME_FRIEND_DMS';
     michal['ALLOW_GAME_FRIEND_DMS'] = entity;
-    entity = 'PLAY_AGAIN_ROW';
-    michal['PLAY_AGAIN_ROW'] = entity;
+    entity = 'PLAY_SHORTCUT_ROW';
+    michal['PLAY_SHORTCUT_ROW'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

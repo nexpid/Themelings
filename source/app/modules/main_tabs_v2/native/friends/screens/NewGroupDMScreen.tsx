@@ -918,76 +918,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             michal = argFoo;
                             entity = null;
-                            if(!(michal != entity)) { _fun00018_ip = 262; continue _fun00017 }
+                            if(!(michal != entity)) { _fun00018_ip = 135; continue _fun00017 }
  12:
-                            echoed = {};
+                            yankee = {};
                             report = undefined;
-                            result = michal;
-                            output = undefined;
-                            backup = copyDataProperties(echoed, result, output);
-                            tangon = _closure1_slot18;
-                            zuuluu = _closure1_slot7;
-                            entity = {};
-                            verify = _closure1_slot17;
-                            option = _closure1_slot0;
-                            oscard = _closure1_slot2;
-                            kiloes = 23;
-                            oscard = oscard[kiloes];
-                            oscard = option.bind(report)(oscard);
-                            option = oscard.GenericHeaderTitle;
-                            oscard = {};
-                            offset = _closure2_slot3;
-                            offset = offset.title;
-                            oscard['style'] = offset;
-                            echoed = oscard;
-                            result = backup;
-                            offset = copyDataProperties(echoed, result);
-                            yankee = _closure3_slot0;
-                            offset = 'title';
-                            oscard[offset] = yankee;
-                            offset = _closure2_slot13;
-                            yankee = 'header-primary';
-                            sizing = yankee;
-                            if(!offset) { _fun00018_ip = 134; continue _fun00017 }
- 128:
-                            sizing = 'text-danger';
- 134:
-                            offset = 'color';
-                            oscard[offset] = sizing;
-                            option = verify.bind(report)(option, oscard);
-                            oscard = new Array(2);
-                            oscard[0] = option;
-                            verify = _closure1_slot17;
-                            option = _closure1_slot0;
+                            offset = michal;
+                            verify = undefined;
+                            offset = copyDataProperties(yankee, offset, verify);
+                            tangon = _closure1_slot17;
+                            zuuluu = _closure1_slot0;
                             golfie = _closure1_slot2;
-                            golfie = golfie[kiloes];
-                            golfie = option.bind(report)(golfie);
-                            option = golfie.GenericSubHeaderTitle;
-                            golfie = {};
-                            kiloes = _closure2_slot3;
-                            kiloes = kiloes.title;
-                            golfie['style'] = kiloes;
-                            echoed = golfie;
-                            result = backup;
-                            backup = copyDataProperties(echoed, result);
-                            backup = _closure3_slot1;
-                            foxtra = 'subtitle';
-                            golfie[foxtra] = backup;
-                            romeon = _closure2_slot13;
-                            if(!romeon) { _fun00018_ip = 235; continue _fun00017 }
- 229:
-                            yankee = 'text-danger';
- 235:
-                            golfie[offset] = yankee;
-                            golfie = verify.bind(report)(option, golfie);
-                            oscard[1] = golfie;
-                            entity['children'] = oscard;
+                            entity = 23;
+                            entity = golfie[entity];
+                            entity = zuuluu.bind(report)(entity);
+                            zuuluu = entity.GenericHeaderTitle;
+                            entity = {};
+                            yankee = entity;
+                            oscard = copyDataProperties(yankee, offset);
+                            option = _closure3_slot0;
+                            golfie = 'title';
+                            entity[golfie] = option;
+                            golfie = _closure3_slot1;
+                            oscard = 'subtitle';
+                            entity[oscard] = golfie;
+                            oscard = _closure2_slot13;
+                            golfie = 'header-primary';
+                            if(!oscard) { _fun00018_ip = 118; continue _fun00017 }
+ 112:
+                            golfie = 'text-danger';
+ 118:
+                            oscard = 'color';
+                            entity[oscard] = golfie;
                             entity = tangon.bind(report)(zuuluu, entity);
                             return entity;
- 262:
-                            result = "Cannot destructure 'undefined' or 'null'.";
-                            echoed = michal;
-                            entity = throwTypeError(echoed, result);
+ 135:
+                            offset = "Cannot destructure 'undefined' or 'null'.";
+                            yankee = michal;
+                            entity = throwTypeError(yankee, offset);
                             entity = undefined;
                             throw entity;
                         }

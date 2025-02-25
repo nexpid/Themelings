@@ -174,30 +174,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tangon = _closure1_slot8;
-                    michal = tangon.getSelfEmbeddedActivityForChannel;
+                    report = _closure1_slot8;
+                    tangon = report.getSelfEmbeddedActivityForChannel;
                     entity = _closure2_slot0;
                     entity = entity.id;
-                    michal = michal.bind(tangon)(entity);
+                    option = tangon.bind(report)(entity);
                     entity = null;
-                    tangon = entity != michal;
-                    if(!tangon) { _fun00004_ip = 102; continue _fun00003 }
+                    tangon = entity != option;
+                    if(!tangon) { _fun00004_ip = 119; continue _fun00003 }
  39:
                     report = _closure1_slot9;
                     tangon = report.getParticipant;
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.id;
-                    option = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    oscard = 15;
-                    golfie = golfie[oscard];
-                    oscard = undefined;
-                    golfie = option.bind(oscard)(golfie);
-                    oscard = golfie.embeddedActivityParticipantId;
-                    michal = michal.applicationId;
+                    golfie = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    michal = 15;
+                    oscard = oscard[michal];
+                    michal = undefined;
+                    golfie = golfie.bind(michal)(oscard);
+                    oscard = golfie.getEmbeddedActivityParticipantId;
+                    michal = {};
+                    verify = option.applicationId;
+                    michal['applicationId'] = verify;
+                    option = option.compositeInstanceId;
+                    michal['instanceId'] = option;
                     michal = oscard.bind(golfie)(michal);
                     entity = tangon.bind(report)(zuuluu, michal);
- 102:
+ 119:
                     return entity;
                 }
             };

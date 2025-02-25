@@ -69,6 +69,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['PUBLIC'] = oscard;
     oscard = 'INVITE_ONLY';
     report['INVITE_ONLY'] = oscard;
+    oscard = 'APPLY_TO_JOIN';
+    report['APPLY_TO_JOIN'] = oscard;
     var _closure1_slot3 = report;
     oscard = 2;
     oscard = option[oscard];
@@ -89,59 +91,74 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = zuuluu;
             michal = new yankee[tangon](offset, verify);
             option = michal instanceof Object ? michal : zuuluu;
+            michal = _closure1_slot3;
+            report = michal.INVITE_ONLY;
             zuuluu = option.has;
             michal = _closure1_slot1;
             michal = michal.COMMUNITY;
             michal = zuuluu.bind(option)(michal);
-            if(!michal) { _fun00004_ip = 86; continue _fun00003 }
- 63:
+            if(!michal) { _fun00004_ip = 96; continue _fun00003 }
+ 73:
             zuuluu = option.has;
             michal = _closure1_slot1;
             michal = michal.DISCOVERABLE;
             michal = zuuluu.bind(option)(michal);
-            if(michal) { _fun00004_ip = 98; continue _fun00003 }
- 86:
+            if(michal) { _fun00004_ip = 154; continue _fun00003 }
+ 96:
+            zuuluu = option.has;
+            michal = _closure1_slot1;
+            michal = michal.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            michal = zuuluu.bind(option)(michal);
+            if(!michal) { _fun00004_ip = 139; continue _fun00003 }
+ 119:
+            tangon = option.has;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu.MEMBER_VERIFICATION_GATE_ENABLED;
+            michal = tangon.bind(option)(zuuluu);
+ 139:
+            if(!michal) { _fun00004_ip = 164; continue _fun00003 }
+ 142:
             michal = _closure1_slot3;
-            report = michal.INVITE_ONLY;
-            _fun00004_ip = 108; continue _fun00003;
- 98:
+            report = michal.APPLY_TO_JOIN;
+            _fun00004_ip = 164; continue _fun00003;
+ 154:
             michal = _closure1_slot3;
             report = michal.PUBLIC;
- 108:
+ 164:
             zuuluu = _closure1_slot4;
             michal = undefined;
             tangon = zuuluu.bind(michal)(entity);
             zuuluu = 0;
-            if(!tangon) { _fun00004_ip = 166; continue _fun00003 }
- 124:
+            if(!tangon) { _fun00004_ip = 222; continue _fun00003 }
+ 180:
             golfie = _closure1_slot0;
             golfie = entity instanceof golfie;
-            if(golfie) { _fun00004_ip = 143; continue _fun00003 }
- 135:
+            if(golfie) { _fun00004_ip = 199; continue _fun00003 }
+ 191:
             golfie = entity.premiumSubscriptionCount;
-            _fun00004_ip = 149; continue _fun00003;
- 143:
+            _fun00004_ip = 205; continue _fun00003;
+ 199:
             golfie = entity.premiumSubscriberCount;
- 149:
+ 205:
             verify = null;
             verify = verify != golfie;
             michal = 0;
-            if(!verify) { _fun00004_ip = 163; continue _fun00003 }
- 160:
+            if(!verify) { _fun00004_ip = 219; continue _fun00003 }
+ 216:
             michal = golfie;
- 163:
+ 219:
             zuuluu = michal;
- 166:
+ 222:
             michal = _closure1_slot0;
             michal = entity instanceof michal;
-            if(michal) { _fun00004_ip = 189; continue _fun00003 }
- 177:
+            if(michal) { _fun00004_ip = 245; continue _fun00003 }
+ 233:
             michal = _closure1_slot2;
             michal = michal.NONE;
-            _fun00004_ip = 195; continue _fun00003;
- 189:
+            _fun00004_ip = 251; continue _fun00003;
+ 245:
             michal = entity.premiumTier;
- 195:
+ 251:
             entity = {};
             verify = option.has;
             oscard = _closure1_slot1;

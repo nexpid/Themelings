@@ -1,5 +1,5 @@
 // app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
@@ -13,6 +13,38 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot4 = entity;
+    entity = function(argFoo, argBar) { // Original name: useChannelState
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBar;
+        var _closure2_slot1 = michal;
+        zuuluu = _closure1_slot3;
+        michal = undefined;
+        entity = function(argFoo) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                entity = argFoo;
+                tangon = entity.states;
+                zuuluu = tangon.get;
+                michal = _closure2_slot0;
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
+ 32:
+                tangon = _closure1_slot4;
+                michal = undefined;
+                zuuluu = tangon.bind(michal)();
+ 45:
+                michal = _closure2_slot1;
+                entity = undefined;
+                entity = michal.bind(entity)(zuuluu);
+                return entity;
+            }
+        };
+        entity = zuuluu.bind(michal)(entity);
+        return entity;
+    };
+    var _closure1_slot5 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -21,9 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = {};
-    tangon = false;
-    entity['isSearchActive'] = tangon;
+    entity = {'isSearchActive': false, 'searchActiveSource': 'initial'};
     var _closure1_slot2 = entity;
     entity = 0;
     tangon = golfie[entity];
@@ -79,37 +109,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     };
     zuuluu['deleteChannelStates'] = tangon;
     tangon = function(argFoo) { // Original name: useIsChannelDetailsSearchActive
-        tangon = function(argFoo, argBar) { // Original name: useChannelState
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            michal = argBar;
-            var _closure3_slot1 = michal;
-            zuuluu = _closure1_slot3;
-            michal = undefined;
-            entity = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-                    entity = argFoo;
-                    tangon = entity.states;
-                    zuuluu = tangon.get;
-                    michal = _closure3_slot0;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = null;
-                    if(!(michal == zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
- 32:
-                    tangon = _closure1_slot4;
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)();
- 45:
-                    michal = _closure3_slot1;
-                    entity = undefined;
-                    entity = michal.bind(entity)(zuuluu);
-                    return entity;
-                }
-            };
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
-        };
+        tangon = _closure1_slot5;
         zuuluu = undefined;
         michal = argFoo;
         entity = function(argFoo) {
@@ -121,10 +121,25 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['useIsChannelDetailsSearchActive'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: setIsChannelDetailsSearchActive
+    tangon = function(argFoo) { // Original name: useChannelDetailsSearchActiveSource
+        tangon = _closure1_slot5;
+        zuuluu = undefined;
+        michal = argFoo;
+        entity = function(argFoo) {
+            entity = argFoo;
+            entity = entity.searchActiveSource;
+            return entity;
+        };
+        entity = tangon.bind(zuuluu)(michal, entity);
+        return entity;
+    };
+    zuuluu['useChannelDetailsSearchActiveSource'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: setIsChannelDetailsSearchActive
         tangon = {};
         entity = argBar;
         tangon['isSearchActive'] = entity;
+        entity = argBaz;
+        tangon['searchActiveSource'] = entity;
         zuuluu = function(argFoo, argBar) { // Original name: upsertChannelState
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:

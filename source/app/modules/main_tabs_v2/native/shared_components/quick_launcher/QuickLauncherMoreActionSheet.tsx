@@ -111,7 +111,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         romeon = backup[offset];
         romeon = yankee.bind(tangon)(romeon);
         romeon = romeon.t;
-        romeon = romeon.AHtm4O;
+        romeon = romeon.1dZsgo;
         romeon = foxtra.bind(kiloes)(romeon);
         golfie['label'] = romeon;
         romeon = backup[offset];
@@ -121,7 +121,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         offset = backup[offset];
         offset = yankee.bind(tangon)(offset);
         offset = offset.t;
-        yankee = offset.Wz/nKi;
+        yankee = offset.AAwS5u;
         offset = {};
         offset = romeon.bind(foxtra)(yankee, offset);
         golfie['subLabel'] = offset;

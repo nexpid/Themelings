@@ -919,7 +919,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     verify = oscard[verify];
     verify = offset.bind(entity)(verify);
     michal[yankee] = verify;
-    verify = option.PLAY_AGAIN_ROW;
+    verify = option.PLAY_SHORTCUT_ROW;
     option = 180;
     option = oscard[option];
     option = offset.bind(entity)(option);

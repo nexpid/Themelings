@@ -481,11 +481,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = new Array(1);
         zuuluu[0] = oscard;
         michal = function() {
-            tangon = _closure1_slot8;
-            zuuluu = _closure2_slot0;
+            report = _closure1_slot8;
+            tangon = _closure2_slot0;
             entity = undefined;
-            michal = true;
-            michal = tangon.bind(entity)(zuuluu, michal);
+            zuuluu = true;
+            michal = 'action';
+            michal = report.bind(entity)(tangon, zuuluu, michal);
             return entity;
         };
         oscard = tangon.bind(report)(michal, zuuluu);

@@ -102,12 +102,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = function() { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    report = _closure1_slot7;
+                    golfie = _closure1_slot7;
                     entity = _closure2_slot0;
-                    tangon = entity.id;
+                    report = entity.id;
                     entity = undefined;
-                    zuuluu = true;
-                    zuuluu = report.bind(entity)(tangon, zuuluu);
+                    tangon = true;
+                    zuuluu = 'initial';
+                    zuuluu = golfie.bind(entity)(report, tangon, zuuluu);
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 24;
@@ -115,8 +116,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = tangon.isIOS;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(!zuuluu) { _fun00004_ip = 123; continue _fun00003 }
- 62:
+                    if(!zuuluu) { _fun00004_ip = 128; continue _fun00003 }
+ 67:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 25;
@@ -128,11 +129,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot1;
                     tangon = report.bind(golfie)(tangon, zuuluu);
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 123; continue _fun00003 }
- 113:
+                    if(!(zuuluu != tangon)) { _fun00004_ip = 128; continue _fun00003 }
+ 118:
                     zuuluu = tangon.blur;
                     zuuluu = zuuluu.bind(tangon)();
- 123:
+ 128:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 26;
@@ -143,20 +144,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(golfie);
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    if(zuuluu) { _fun00004_ip = 263; continue _fun00003 }
- 171:
+                    if(zuuluu) { _fun00004_ip = 268; continue _fun00003 }
+ 176:
                     zuuluu = 28;
                     zuuluu = report[zuuluu];
                     option = tangon.bind(entity)(zuuluu);
                     zuuluu = option.getRootNavigationRef;
                     offset = zuuluu.bind(option)();
                     zuuluu = null;
-                    if(!(zuuluu != offset)) { _fun00004_ip = 261; continue _fun00003 }
- 199:
+                    if(!(zuuluu != offset)) { _fun00004_ip = 266; continue _fun00003 }
+ 204:
                     zuuluu = offset.isReady;
                     zuuluu = zuuluu.bind(offset)();
-                    if(!zuuluu) { _fun00004_ip = 261; continue _fun00003 }
- 212:
+                    if(!zuuluu) { _fun00004_ip = 266; continue _fun00003 }
+ 217:
                     verify = offset.navigate;
                     option = {'channelId': null, 'search': true, 'source': 'channel-header-search'};
                     zuuluu = _closure2_slot0;
@@ -164,10 +165,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['channelId'] = zuuluu;
                     zuuluu = 'sidebar';
                     zuuluu = verify.bind(offset)(zuuluu, option);
-                    _fun00004_ip = 330; continue _fun00003;
- 261:
+                    _fun00004_ip = 335; continue _fun00003;
+ 266:
                     return entity;
- 263:
+ 268:
                     zuuluu = 27;
                     zuuluu = report[zuuluu];
                     zuuluu = tangon.bind(entity)(zuuluu);
@@ -183,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot1;
                     michal['screenIndex'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 330:
+ 335:
                     return entity;
                 }
             };

@@ -67,11 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sizing = option.bind(verify)(golfie, zuuluu, report);
             var _closure2_slot5 = sizing;
-            report = _closure1_slot1;
             zuuluu = 9;
             zuuluu = result[zuuluu];
-            report = report.bind(output)(zuuluu);
-            zuuluu = report.useShouldShowTiggerPawtect;
+            report = kiloes.bind(output)(zuuluu);
+            zuuluu = report.shouldAgeVerifyForExplicitMedia;
             option = zuuluu.bind(report)();
             zuuluu = 10;
             zuuluu = result[zuuluu];
@@ -191,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot0;
                     tangon = zuuluu.sourceURI;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00008_ip = 116; continue _fun00007 }
+                    if(!(zuuluu != tangon)) { _fun00008_ip = 114; continue _fun00007 }
  54:
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -218,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal['onConfirm'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 116:
+ 114:
                     return entity;
                 }
             };
@@ -415,23 +414,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(output)(report);
             report = kiloes.useCanForwardMessage;
             report = report.bind(kiloes)(sizing);
-            if(!report) { _fun00002_ip = 512; continue _fun00001 }
- 509:
+            if(!report) { _fun00002_ip = 494; continue _fun00001 }
+ 491:
             report = zuuluu;
- 512:
-            if(!report) { _fun00002_ip = 547; continue _fun00001 }
- 515:
+ 494:
+            if(!report) { _fun00002_ip = 529; continue _fun00001 }
+ 497:
             kiloes = tangon.attachmentId;
             zuuluu = null;
             zuuluu = zuuluu != kiloes;
-            if(zuuluu) { _fun00002_ip = 544; continue _fun00001 }
- 530:
+            if(zuuluu) { _fun00002_ip = 526; continue _fun00001 }
+ 512:
             kiloes = tangon.accessoryType;
             tangon = 'embed';
             zuuluu = tangon === kiloes;
- 544:
+ 526:
             report = zuuluu;
- 547:
+ 529:
             _closure2_slot13 = report;
             tangon = _closure1_slot3;
             zuuluu = tangon.useMemo;

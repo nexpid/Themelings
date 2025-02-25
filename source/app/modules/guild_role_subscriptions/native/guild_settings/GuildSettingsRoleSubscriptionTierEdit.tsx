@@ -115,14 +115,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['renderIcon'] = backup;
             oscard['onPress'] = foxtra;
             offset = !offset;
-            if(offset) { _fun00002_ip = 367; continue _fun00001 }
- 364:
+            if(offset) { _fun00002_ip = 363; continue _fun00001 }
+ 360:
             offset = romeon;
- 367:
-            if(offset) { _fun00002_ip = 373; continue _fun00001 }
- 370:
+ 363:
+            if(offset) { _fun00002_ip = 369; continue _fun00001 }
+ 366:
             offset = yankee;
- 373:
+ 369:
             oscard['disabled'] = offset;
             oscard['text'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

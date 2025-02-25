@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot5;
                     entity = undefined;
                     entity = michal.bind(entity)(report);
-                    _fun00004_ip = 193; continue _fun00003;
+                    _fun00004_ip = 201; continue _fun00003;
  28:
                     oscard = _closure1_slot5;
                     zuuluu = oscard.getSelfEmbeddedActivityForChannel;
@@ -157,44 +157,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  64:
                     entity = verify.applicationId;
  69:
-                    if(!(report != entity)) { _fun00004_ip = 143; continue _fun00003 }
+                    if(!(report != entity)) { _fun00004_ip = 151; continue _fun00003 }
  73:
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
                     entity = 11;
                     entity = option[entity];
                     option = oscard.bind(zuuluu)(entity);
-                    oscard = option.embeddedActivityParticipantId;
-                    offset = report == verify;
-                    entity = undefined;
-                    if(offset) { _fun00004_ip = 113; continue _fun00003 }
- 108:
-                    entity = verify.applicationId;
- 113:
+                    oscard = option.getEmbeddedActivityParticipantId;
+                    entity = {};
+                    offset = verify.applicationId;
+                    entity['applicationId'] = offset;
+                    verify = verify.compositeInstanceId;
+                    entity['instanceId'] = verify;
                     entity = oscard.bind(option)(entity);
-                    if(!(golfie === entity)) { _fun00004_ip = 143; continue _fun00003 }
- 122:
+                    if(!(golfie === entity)) { _fun00004_ip = 151; continue _fun00003 }
+ 130:
                     oscard = _closure2_slot5;
                     entity = _closure1_slot10;
                     entity = entity.ACTIVITY;
                     entity = oscard.bind(zuuluu)(entity);
-                    _fun00004_ip = 193; continue _fun00003;
- 143:
+                    _fun00004_ip = 201; continue _fun00003;
+ 151:
                     oscard = _closure1_slot6;
                     entity = oscard.getActiveStreamForStreamKey;
                     entity = entity.bind(oscard)(golfie);
                     michal = _closure2_slot5;
-                    if(!(report != entity)) { _fun00004_ip = 178; continue _fun00003 }
- 166:
+                    if(!(report != entity)) { _fun00004_ip = 186; continue _fun00003 }
+ 174:
                     entity = _closure1_slot10;
                     entity = entity.STREAM;
-                    _fun00004_ip = 188; continue _fun00003;
- 178:
+                    _fun00004_ip = 196; continue _fun00003;
+ 186:
                     tangon = _closure1_slot10;
                     entity = tangon.USER;
- 188:
+ 196:
                     entity = michal.bind(zuuluu)(entity);
- 193:
+ 201:
                     entity = undefined;
                     return entity;
                 }
@@ -206,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = result[sizing];
             foxtra = output.bind(tangon)(michal);
             romeon = foxtra.useAnimatedReaction;
-            zuuluu = function() { // Original name: T
+            zuuluu = function() { // Original name: S
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure2_slot3;
@@ -248,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['__workletHash'] = michal;
             michal = _closure1_slot12;
             zuuluu['__initData'] = michal;
-            michal = function(argFoo, argBar) { // Original name: S
+            michal = function(argFoo, argBar) { // Original name: p
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zuuluu = argFoo;

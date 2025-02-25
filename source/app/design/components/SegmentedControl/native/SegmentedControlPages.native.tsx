@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot9 = tangon;
     tangon = {};
-    golfie = 'function SegmentedControlPagesNativeTsx4(event){const{onScrollWorklet,itemCount,pageWidth,activeIndex,runOnJS,refreshScrollOffset,scrollOverflow,scrollTarget,roundIfClose,pageIndex,reportedPageIndex,onPageChanged}=this.__closure;var _onScrollWorklet;const{contentOffset:contentOffset,contentSize:contentSize}=event;if(contentSize.width===0){return;}(_onScrollWorklet=onScrollWorklet)===null||_onScrollWorklet===void 0||_onScrollWorklet(event);const expectedContentSize=itemCount*pageWidth;if(Math.round(expectedContentSize)%Math.round(contentSize.width)!==0){const page=activeIndex.get()*pageWidth;runOnJS(refreshScrollOffset)(page);return;}if(contentOffset.x<0){scrollOverflow.set(contentOffset.x);}else if(contentOffset.x>contentSize.width-pageWidth){scrollOverflow.set(contentOffset.x-(contentSize.width-pageWidth));}else{scrollOverflow.set(0);}if(scrollTarget.get()!==-1){const hasReachedTarget=roundIfClose(contentOffset.x-scrollTarget.get(),1e-4)===0;if(hasReachedTarget){scrollTarget.set(-1);}else{return;}}pageIndex.set(Math.min(Math.max(roundIfClose(contentOffset.x/pageWidth,1e-4),0),roundIfClose(contentSize.width/pageWidth,1e-4)-1));const pageFullyVisible=pageIndex.get()%1===0;if(pageFullyVisible&&reportedPageIndex.get()!==pageIndex.get()){reportedPageIndex.set(pageIndex.get());runOnJS(onPageChanged)(pageIndex.get());}}';
+    golfie = 'function SegmentedControlPagesNativeTsx4(event){const{lastScrollOffsetX,onScrollWorklet,itemCount,pageWidth,activeIndex,runOnJS,refreshScrollOffset,scrollOverflow,scrollTarget,roundIfClose,pageIndex,reportedPageIndex,onPageChanged}=this.__closure;var _onScrollWorklet;const{contentOffset:contentOffset,contentSize:contentSize}=event;if(contentSize.width===0){return;}if(lastScrollOffsetX.get()===contentOffset.x){return;}lastScrollOffsetX.set(contentOffset.x);(_onScrollWorklet=onScrollWorklet)===null||_onScrollWorklet===void 0||_onScrollWorklet(event);const expectedContentSize=itemCount*pageWidth;if(Math.round(expectedContentSize)%Math.round(contentSize.width)!==0){const page=activeIndex.get()*pageWidth;runOnJS(refreshScrollOffset)(page);return;}if(contentOffset.x<0){scrollOverflow.set(contentOffset.x);}else if(contentOffset.x>contentSize.width-pageWidth){scrollOverflow.set(contentOffset.x-(contentSize.width-pageWidth));}else{scrollOverflow.set(0);}if(scrollTarget.get()!==-1){const hasReachedTarget=roundIfClose(contentOffset.x-scrollTarget.get(),1e-4)===0;if(hasReachedTarget){scrollTarget.set(-1);}else{return;}}pageIndex.set(Math.min(Math.max(roundIfClose(contentOffset.x/pageWidth,1e-4),0),roundIfClose(contentSize.width/pageWidth,1e-4)-1));const pageFullyVisible=pageIndex.get()%1===0;if(pageFullyVisible&&reportedPageIndex.get()!==pageIndex.get()){reportedPageIndex.set(pageIndex.get());runOnJS(onPageChanged)(pageIndex.get());}}';
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
@@ -339,9 +339,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = verify.length;
             var _closure2_slot9 = cntext;
             offset = ctrled[record];
+            kiloes = source.bind(report)(offset);
+            offset = kiloes.useSharedValue;
+            target = offset.bind(kiloes)(report);
+            var _closure2_slot10 = target;
+            offset = ctrled[record];
             update = source.bind(report)(offset);
             result = update.useAnimatedReaction;
-            kiloes = function() { // Original name: w
+            kiloes = function() { // Original name: T
                 michal = _closure2_slot7;
                 entity = michal.get;
                 entity = entity.bind(michal)();
@@ -398,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             result = kiloes.bind(result)(option, offset);
-            var _closure2_slot10 = result;
+            var _closure2_slot11 = result;
             update = _closure1_slot4;
             kiloes = update.useCallback;
             offset = new Array(2);
@@ -436,14 +441,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             config = kiloes.bind(update)(option, offset);
-            var _closure2_slot11 = config;
+            var _closure2_slot12 = config;
             option = ctrled[record];
             kiloes = source.bind(report)(option);
             offset = kiloes.useAnimatedScrollHandler;
             option = {};
             option['onBeginDrag'] = output;
             option['onEndDrag'] = sizing;
-            sizing = function(argFoo) { // Original name: F
+            sizing = function(argFoo) { // Original name: N
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = argFoo;
@@ -480,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie[michal];
                     golfie = oscard.bind(report)(michal);
                     oscard = golfie.runOnJS;
-                    michal = _closure2_slot11;
+                    michal = _closure2_slot12;
                     michal = oscard.bind(golfie)(michal);
                     michal = michal.bind(report)(tangon);
                     _fun00014_ip = 181; continue _fun00013;
@@ -496,14 +501,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             output['scrollTarget'] = vacuum;
             update = 5;
-            target = ctrled[update];
-            target = source.bind(report)(target);
-            target = target.roundIfClose;
-            output['roundIfClose'] = target;
-            target = ctrled[record];
-            target = source.bind(report)(target);
-            target = target.runOnJS;
-            output['runOnJS'] = target;
+            status = ctrled[update];
+            status = source.bind(report)(status);
+            status = status.roundIfClose;
+            output['roundIfClose'] = status;
+            status = ctrled[record];
+            status = source.bind(report)(status);
+            status = status.runOnJS;
+            output['runOnJS'] = status;
             output['refreshScrollOffset'] = config;
             sizing['__closure'] = output;
             output = 4811449150948.0;
@@ -511,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot9;
             sizing['__initData'] = output;
             option['onMomentumEnd'] = sizing;
-            sizing = function(argFoo) { // Original name: y
+            sizing = function(argFoo) { // Original name: F
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     tangon = argFoo;
@@ -519,16 +524,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = tangon.contentSize;
                     entity = report.width;
                     oscard = 0;
-                    if(!(oscard !== entity)) { _fun00016_ip = 672; continue _fun00015 }
+                    if(!(oscard !== entity)) { _fun00016_ip = 716; continue _fun00015 }
  29:
+                    zuuluu = _closure2_slot10;
+                    entity = zuuluu.get;
+                    zuuluu = entity.bind(zuuluu)();
+                    entity = offset.x;
+                    if(!(zuuluu !== entity)) { _fun00016_ip = 716; continue _fun00015 }
+ 57:
+                    golfie = _closure2_slot10;
+                    zuuluu = golfie.set;
+                    entity = offset.x;
+                    entity = zuuluu.bind(golfie)(entity);
                     zuuluu = _closure2_slot0;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00016_ip = 53; continue _fun00015 }
- 42:
+                    if(!(entity != zuuluu)) { _fun00016_ip = 97; continue _fun00015 }
+ 86:
                     zuuluu = _closure2_slot0;
                     entity = undefined;
                     entity = zuuluu.bind(entity)(tangon);
- 53:
+ 97:
                     zuuluu = global;
                     golfie = zuuluu.Math;
                     tangon = golfie.round;
@@ -541,8 +556,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = report.width;
                     entity = golfie.bind(option)(entity);
                     entity = tangon % entity;
-                    if(!(entity != oscard)) { _fun00016_ip = 182; continue _fun00015 }
- 112:
+                    if(!(entity != oscard)) { _fun00016_ip = 226; continue _fun00015 }
+ 156:
                     tangon = _closure2_slot1;
                     entity = tangon.get;
                     tangon = entity.bind(tangon)();
@@ -555,25 +570,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = undefined;
                     verify = option.bind(tangon)(entity);
                     option = verify.runOnJS;
-                    entity = _closure2_slot11;
+                    entity = _closure2_slot12;
                     entity = option.bind(verify)(entity);
                     entity = entity.bind(tangon)(golfie);
-                    _fun00016_ip = 672; continue _fun00015;
- 182:
+                    _fun00016_ip = 716; continue _fun00015;
+ 226:
                     entity = offset.x;
-                    if(!(!(entity < oscard))) { _fun00016_ip = 267; continue _fun00015 }
- 191:
+                    if(!(!(entity < oscard))) { _fun00016_ip = 311; continue _fun00015 }
+ 235:
                     tangon = offset.x;
                     golfie = report.width;
                     entity = _closure2_slot6;
                     entity = golfie - entity;
-                    if(!(!(tangon > entity))) { _fun00016_ip = 229; continue _fun00015 }
- 213:
+                    if(!(!(tangon > entity))) { _fun00016_ip = 273; continue _fun00015 }
+ 257:
                     tangon = _closure2_slot4;
                     entity = tangon.set;
                     entity = entity.bind(tangon)(oscard);
-                    _fun00016_ip = 286; continue _fun00015;
- 229:
+                    _fun00016_ip = 330; continue _fun00015;
+ 273:
                     golfie = _closure2_slot4;
                     tangon = golfie.set;
                     option = offset.x;
@@ -582,19 +597,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = verify - entity;
                     entity = option - entity;
                     entity = tangon.bind(golfie)(entity);
-                    _fun00016_ip = 286; continue _fun00015;
- 267:
+                    _fun00016_ip = 330; continue _fun00015;
+ 311:
                     golfie = _closure2_slot4;
                     tangon = golfie.set;
                     entity = offset.x;
                     entity = tangon.bind(golfie)(entity);
- 286:
+ 330:
                     tangon = _closure2_slot3;
                     entity = tangon.get;
                     entity = entity.bind(tangon)();
                     option = -1;
-                    if(!(option !== entity)) { _fun00016_ip = 399; continue _fun00015 }
- 309:
+                    if(!(option !== entity)) { _fun00016_ip = 443; continue _fun00015 }
+ 353:
                     golfie = _closure1_slot0;
                     tangon = _closure1_slot2;
                     entity = 5;
@@ -609,12 +624,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie - tangon;
                     tangon = 0.0001;
                     tangon = verify.bind(yankee)(golfie, tangon);
-                    if(!(oscard === tangon)) { _fun00016_ip = 676; continue _fun00015 }
- 385:
+                    if(!(oscard === tangon)) { _fun00016_ip = 720; continue _fun00015 }
+ 429:
                     golfie = _closure2_slot3;
                     tangon = golfie.set;
                     tangon = tangon.bind(golfie)(option);
- 399:
+ 443:
                     option = _closure2_slot7;
                     verify = option.set;
                     romeon = zuuluu.Math;
@@ -648,8 +663,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(option)();
                     report = report % golfie;
                     report = report === oscard;
-                    if(!report) { _fun00016_ip = 594; continue _fun00015 }
- 564:
+                    if(!report) { _fun00016_ip = 638; continue _fun00015 }
+ 608:
                     golfie = _closure2_slot8;
                     oscard = golfie.get;
                     golfie = oscard.bind(golfie)();
@@ -657,9 +672,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = option.get;
                     oscard = oscard.bind(option)();
                     report = golfie !== oscard;
- 594:
-                    if(!report) { _fun00016_ip = 672; continue _fun00015 }
- 597:
+ 638:
+                    if(!report) { _fun00016_ip = 716; continue _fun00015 }
+ 641:
                     option = _closure2_slot8;
                     golfie = option.set;
                     report = _closure2_slot7;
@@ -672,19 +687,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = golfie[zuuluu];
                     oscard = oscard.bind(tangon)(zuuluu);
                     zuuluu = oscard.runOnJS;
-                    michal = _closure2_slot10;
+                    michal = _closure2_slot11;
                     zuuluu = zuuluu.bind(oscard)(michal);
                     michal = report.get;
                     michal = michal.bind(report)();
                     michal = zuuluu.bind(tangon)(michal);
- 672:
+ 716:
                     michal = undefined;
                     return michal;
- 676:
+ 720:
                     return entity;
                 }
             };
             output = {};
+            output['lastScrollOffsetX'] = target;
             output['onScrollWorklet'] = papara;
             output['itemCount'] = cntext;
             output['pageWidth'] = romeon;
@@ -704,7 +720,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['reportedPageIndex'] = echoed;
             output['onPageChanged'] = result;
             sizing['__closure'] = output;
-            output = 7512547804455.0;
+            output = 915535156914.0;
             sizing['__workletHash'] = output;
             output = _closure1_slot10;
             sizing['__initData'] = output;
@@ -723,7 +739,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = sizing.bind(output)(offset, kiloes);
-            var _closure2_slot12 = kiloes;
+            var _closure2_slot13 = kiloes;
             output = _closure1_slot4;
             sizing = output.useMemo;
             offset = new Array(2);
@@ -898,12 +914,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(report)(tangon, entity);
             entity = 0;
             zuuluu = tangon[entity];
-            var _closure2_slot13 = zuuluu;
+            var _closure2_slot14 = zuuluu;
             zuuluu = 1;
             zuuluu = tangon[zuuluu];
-            var _closure2_slot14 = zuuluu;
-            if(!(entity !== romeon)) { _fun00008_ip = 964; continue _fun00007 }
- 784:
+            var _closure2_slot15 = zuuluu;
+            if(!(entity !== romeon)) { _fun00008_ip = 1002; continue _fun00007 }
+ 814:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot6;
             entity = {'ref': null, 'style': null, 'contentOffset': null, 'keyboardShouldPersistTaps': 'handled', 'showsHorizontalScrollIndicator': false, 'pagingEnabled': true};
@@ -923,6 +939,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['bounces'] = yankee;
             entity['horizontal'] = offset;
             entity['onScroll'] = option;
+            option = 32;
+            entity['scrollEventThrottle'] = option;
             option = verify.map;
             oscard = function(argFoo, argBar) {
                 report = argBar;
@@ -930,13 +948,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot17;
                 michal = {};
                 michal['index'] = report;
-                oscard = _closure2_slot13;
-                michal['activePageRangeStart'] = oscard;
                 oscard = _closure2_slot14;
+                michal['activePageRangeStart'] = oscard;
+                oscard = _closure2_slot15;
                 michal['activePageRangeEnd'] = oscard;
                 oscard = _closure2_slot8;
                 michal['pageIndex'] = oscard;
-                entity = _closure2_slot12;
+                entity = _closure2_slot13;
                 michal['style'] = entity;
                 entity = argFoo;
                 michal['item'] = entity;
@@ -949,8 +967,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             zuuluu = null;
             entity = oscard;
-            if(!(zuuluu != golfie)) { _fun00008_ip = 962; continue _fun00007 }
- 915:
+            if(!(zuuluu != golfie)) { _fun00008_ip = 1000; continue _fun00007 }
+ 953:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -962,9 +980,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 962:
+ 1000:
             return entity;
- 964:
+ 1002:
             entity = null;
             return entity;
         }

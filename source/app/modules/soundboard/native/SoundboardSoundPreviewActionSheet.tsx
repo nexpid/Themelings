@@ -77,10 +77,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isIOS;
         kiloes = backup.bind(kiloes)();
         backup = undefined;
-        if(!kiloes) { _fun00002_ip = 336; continue _fun00001 }
- 333:
+        if(!kiloes) { _fun00002_ip = 338; continue _fun00001 }
+ 335:
         backup = 60;
- 336:
+ 338:
         verify['fontSize'] = backup;
         backup = 74;
         verify['lineHeight'] = backup;

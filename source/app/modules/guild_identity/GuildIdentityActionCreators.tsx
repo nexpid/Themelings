@@ -18,66 +18,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 500; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 522; continue _fun00001 }
  13:
                     foxtra = argFoo;
-                    yankee = michal.nick;
-                    offset = michal.avatar;
+                    sizing = michal.nick;
+                    kiloes = michal.avatar;
+                    yankee = michal.avatarDescription;
+                    offset = michal.avatarId;
                     backup = michal.avatarDecoration;
                     oscard = undefined;
                     romeon = undefined;
                     report = undefined;
-                    SaveGenerator(address=44);
- 42:
+                    SaveGenerator(address=56);
+ 54:
                     return oscard;
- 44:
+ 56:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 497; continue _fun00001 }
- 53:
+                    if(tangon) { _fun00002_ip = 519; continue _fun00001 }
+ 65:
                     tangon = foxtra;
                     verify = null;
-                    if(!(verify != tangon)) { _fun00002_ip = 461; continue _fun00001 }
- 65:
-                    kiloes = _closure1_slot1;
+                    if(!(verify != tangon)) { _fun00002_ip = 483; continue _fun00001 }
+ 77:
+                    output = _closure1_slot1;
                     option = _closure1_slot2;
                     golfie = 2;
                     option = option[golfie];
-                    sizing = kiloes.bind(oscard)(option);
-                    kiloes = sizing.dispatch;
+                    result = output.bind(oscard)(option);
+                    output = result.dispatch;
                     option = {};
-                    output = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
-                    option['type'] = output;
-                    option = kiloes.bind(sizing)(option);
+                    echoed = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
+                    option['type'] = echoed;
+                    option = output.bind(result)(option);
                     option = {};
-                    option['nick'] = yankee;
-                    option['avatar'] = offset;
+                    option['nick'] = sizing;
+                    option['avatar'] = kiloes;
+                    option['avatar_description'] = yankee;
+                    option['avatar_id'] = offset;
                     yankee = verify === backup;
                     offset = null;
-                    if(yankee) { _fun00002_ip = 148; continue _fun00001 }
- 131:
+                    if(yankee) { _fun00002_ip = 170; continue _fun00001 }
+ 153:
                     sizing = verify == backup;
                     kiloes = undefined;
-                    if(sizing) { _fun00002_ip = 145; continue _fun00001 }
- 140:
+                    if(sizing) { _fun00002_ip = 167; continue _fun00001 }
+ 162:
                     kiloes = backup.id;
- 145:
+ 167:
                     offset = kiloes;
- 148:
+ 170:
                     option['avatar_decoration_id'] = offset;
                     offset = null;
-                    if(yankee) { _fun00002_ip = 176; continue _fun00001 }
- 158:
+                    if(yankee) { _fun00002_ip = 198; continue _fun00001 }
+ 180:
                     kiloes = verify == backup;
                     yankee = undefined;
-                    if(kiloes) { _fun00002_ip = 173; continue _fun00001 }
- 167:
+                    if(kiloes) { _fun00002_ip = 195; continue _fun00001 }
+ 189:
                     yankee = backup.skuId;
- 173:
+ 195:
                     offset = yankee;
- 176:
+ 198:
                     option['avatar_decoration_sku_id'] = offset;
                     romeon = option;
- 184: // try_start_0
+ 206: // try_start_0
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
                     option = 3;
@@ -97,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = false;
                     option['rejectWithError'] = romeon;
                     option = offset.bind(yankee)(option);
-                    SaveGenerator(address=265);
- 263:
+                    SaveGenerator(address=287);
+ 285:
                     return option;
- 265:
+ 287:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 356; continue _fun00001 }
- 271:
+                    if(offset) { _fun00002_ip = 378; continue _fun00001 }
+ 293:
                     yankee = _closure1_slot1;
                     offset = _closure1_slot2;
                     romeon = offset[golfie];
@@ -123,28 +127,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset['guildMember'] = backup;
                     offset['guildId'] = foxtra;
                     offset = yankee.bind(romeon)(offset);
- 353: // try_end0
+ 375: // try_end0
                     return option;
- 356:
+ 378:
                     return option;
- 359: // catch_target0
+ 381: // catch_target0
                     CatchBlockStart(arg_register=7);
                     zuuluu = option;
                     option = option.body;
                     report = option;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00002_ip = 389; continue _fun00001 }
- 381:
+                    if(offset) { _fun00002_ip = 411; continue _fun00001 }
+ 403:
                     offset = report;
                     option = offset.username;
- 389:
-                    if(!(verify != option)) { _fun00002_ip = 409; continue _fun00001 }
- 393:
+ 411:
+                    if(!(verify != option)) { _fun00002_ip = 431; continue _fun00001 }
+ 415:
                     option = report.username;
                     report['nick'] = option;
                     report = delete report.username;
- 409:
+ 431:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
                     tangon = tangon[golfie];
@@ -157,19 +161,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['errors'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 461:
+ 483:
                     zuuluu = global;
                     report = zuuluu.Error;
                     zuuluu = report.prototype;
                     tangon = Object.create(zuuluu, {constructor: {value: report}});
-                    result = 'Need guildId';
-                    echoed = tangon;
-                    zuuluu = new echoed[report](result, output);
+                    update = 'Need guildId';
+                    source = tangon;
+                    zuuluu = new source[report](update, echoed);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 497:
+ 519:
                     return michal;
- 500:
+ 522:
                     return entity;
                 }
             };

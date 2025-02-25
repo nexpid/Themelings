@@ -896,9 +896,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu[entity];
                         entity = undefined;
                         tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = tangon.embeddedActivityParticipantId;
-                        entity = _closure3_slot0;
-                        entity = entity.applicationId;
+                        zuuluu = tangon.getEmbeddedActivityParticipantId;
+                        entity = {};
+                        report = _closure3_slot0;
+                        oscard = report.applicationId;
+                        entity['applicationId'] = oscard;
+                        report = report.compositeInstanceId;
+                        entity['instanceId'] = report;
                         entity = zuuluu.bind(tangon)(entity);
                         entity = michal === entity;
                         return entity;

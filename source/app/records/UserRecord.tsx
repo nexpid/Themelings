@@ -367,20 +367,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['globalName'] = golfie;
                 golfie = report.banner;
                 entity['banner'] = golfie;
-                oscard = _closure1_slot13;
-                golfie = report.primary_guild;
-                if(!(michal == golfie)) { _fun00006_ip = 704; continue _fun00005 }
+                golfie = _closure1_slot13;
+                option = report.primary_guild;
+                if(!(michal == option)) { _fun00006_ip = 704; continue _fun00005 }
  698:
-                golfie = report.primaryGuild;
+                option = report.primaryGuild;
  704:
-                option = michal != golfie;
-                report = null;
-                if(!option) { _fun00006_ip = 716; continue _fun00005 }
+                offset = michal != option;
+                oscard = null;
+                if(!offset) { _fun00006_ip = 716; continue _fun00005 }
  713:
-                report = golfie;
+                oscard = option;
  716:
-                report = oscard.bind(zuuluu)(report);
-                entity['primaryGuild'] = report;
+                oscard = golfie.bind(zuuluu)(oscard);
+                entity['primaryGuild'] = oscard;
+                report = report.collectibles;
+                entity['collectibles'] = report;
                 report = global;
                 golfie = report.Object;
                 oscard = golfie.defineProperties;
@@ -500,14 +502,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.globalName;
                 oscard = michal == report;
                 zuuluu = undefined;
-                if(oscard) { _fun00006_ip = 865; continue _fun00005 }
- 860:
+                if(oscard) { _fun00006_ip = 877; continue _fun00005 }
+ 872:
                 zuuluu = report.length;
- 865:
-                if(!(tangon === zuuluu)) { _fun00006_ip = 875; continue _fun00005 }
- 869:
+ 877:
+                if(!(tangon === zuuluu)) { _fun00006_ip = 887; continue _fun00005 }
+ 881:
                 entity['globalName'] = michal;
- 875:
+ 887:
                 return entity;
             }
         };

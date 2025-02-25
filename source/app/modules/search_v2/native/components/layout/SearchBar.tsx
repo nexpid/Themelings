@@ -256,10 +256,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     yankee = {};
-    foxtra = 'column';
-    yankee['flexDirection'] = foxtra;
-    tangon['container'] = yankee;
-    yankee = {};
     foxtra = 12;
     backup = oscard[foxtra];
     backup = offset.bind(entity)(backup);

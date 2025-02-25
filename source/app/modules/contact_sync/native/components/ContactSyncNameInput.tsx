@@ -249,15 +249,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext[source];
             cntext = papara.bind(tangon)(cntext);
             papara = cntext.t;
-            if(backup) { _fun00002_ip = 612; continue _fun00001 }
- 597:
+            if(backup) { _fun00002_ip = 608; continue _fun00001 }
+ 593:
             cntext = papara.xI496O;
             cntext = target.bind(status)(cntext);
-            _fun00002_ip = 625; continue _fun00001;
- 612:
+            _fun00002_ip = 621; continue _fun00001;
+ 608:
             papara = papara.xCHh/v;
             cntext = target.bind(status)(papara);
- 625:
+ 621:
             output['children'] = cntext;
             output = ctrled.bind(tangon)(update, output);
             kiloes[1] = output;
@@ -302,8 +302,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = ctrled.bind(tangon)(update, output);
             kiloes[3] = output;
             output = null;
-            if(!echoed) { _fun00002_ip = 955; continue _fun00001 }
- 851:
+            if(!echoed) { _fun00002_ip = 951; continue _fun00001 }
+ 847:
             update = _closure1_slot7;
             papara = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = record.bind(cntext)(ctrled);
             result['children'] = ctrled;
             output = update.bind(tangon)(echoed, result);
- 955:
+ 951:
             kiloes[4] = output;
             option['children'] = kiloes;
             yankee = golfie.bind(tangon)(yankee, option);
@@ -334,10 +334,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot5;
             kiloes = {};
             yankee = backup;
-            if(!yankee) { _fun00002_ip = 999; continue _fun00001 }
- 993:
+            if(!yankee) { _fun00002_ip = 995; continue _fun00001 }
+ 989:
             yankee = foxtra.button;
- 999:
+ 995:
             kiloes['style'] = yankee;
             ctrled = _closure1_slot7;
             update = _closure1_slot0;
@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = 'primary';
             echoed['variant'] = record;
             record = 'lg';
-            if(!backup) { _fun00002_ip = 1054; continue _fun00001 }
- 1050:
+            if(!backup) { _fun00002_ip = 1050; continue _fun00001 }
+ 1046:
             record = 'md';
- 1054:
+ 1050:
             echoed['size'] = record;
             echoed['text'] = config;
             config = function() { // Original name: onPress
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = result.bind(tangon)(output, kiloes);
             option[1] = kiloes;
             offset = null;
-            if(!backup) { _fun00002_ip = 1219; continue _fun00001 }
- 1115:
+            if(!backup) { _fun00002_ip = 1215; continue _fun00001 }
+ 1111:
             kiloes = _closure1_slot7;
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee['onPress'] = sizing;
             offset = kiloes.bind(tangon)(backup, yankee);
- 1219:
+ 1215:
             option[2] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot1;

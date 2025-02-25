@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = option;
             option = golfie != foxtra;
             golfie = null;
-            if(!option) { _fun00002_ip = 313; continue _fun00001 }
+            if(!option) { _fun00002_ip = 309; continue _fun00001 }
  251:
             romeon = _closure1_slot4;
             yankee = _closure1_slot0;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = backup;
             option['children'] = foxtra;
             golfie = romeon.bind(tangon)(yankee, option);
- 313:
+ 309:
             oscard[2] = golfie;
             option = _closure1_slot4;
             golfie = _closure1_slot3;

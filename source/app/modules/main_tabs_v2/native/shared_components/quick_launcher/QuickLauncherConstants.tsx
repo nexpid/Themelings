@@ -20,7 +20,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = tangon.bind(report)(michal);
     michal = 24;
     zuuluu['QUICK_LAUNCHER_HEADER_HEIGHT'] = michal;
-    michal = 56;
-    zuuluu['QUICK_LAUNCHER_CARD_HEIGHT'] = michal;
+    michal = 48;
+    zuuluu['QUICK_LAUNCHER_APP_ICON_SIZE'] = michal;
     return entity;
 })();

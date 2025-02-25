@@ -1,12 +1,12 @@
 // app/modules/user_profile/native/UserProfileRolesCard.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
+    oscard = argBar;
+    romeon = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = romeon;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: RoleDot
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot14 = entity;
-    entity = function(argFoo) { // Original name: RoleItem
+    michal = function(argFoo) { // Original name: RoleItem
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot15 = michal;
     entity = function(argFoo) { // Original name: RolesList
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -361,90 +361,90 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot16 = entity;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
+    verify = entity.Object;
+    option = verify.defineProperty;
+    report = {};
     entity = true;
-    tangon['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.DEFAULT_ROLE_COLOR;
-    var _closure1_slot7 = golfie;
-    tangon = tangon.MAX_VISUAL_ROLE_LENGTH;
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot9 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot10 = golfie;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsxs;
-    var _closure1_slot11 = tangon;
-    tangon = 12;
-    var _closure1_slot12 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexDirection': 'row', 'gap': 8, 'flexWrap': 'wrap'};
-    tangon['roleContainer'] = verify;
-    verify = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': 4, 'padding': 6};
-    offset = 7;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_MOD_FAINT;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.radii;
-    romeon = romeon.sm;
-    verify['borderRadius'] = romeon;
-    tangon['role'] = verify;
-    verify = {'borderRadius': null, 'height': 12, 'width': 12};
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.radii;
-    offset = offset.round;
-    verify['borderRadius'] = offset;
-    tangon['roleDot'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot13 = tangon;
-    tangon = 20;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/native/UserProfileRolesCard.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: UserProfileRolesCard
+    report = report.bind(entity)(option);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.View;
+    var _closure1_slot4 = report;
+    report = 2;
+    report = golfie[report];
+    report = romeon.bind(entity)(report);
+    var _closure1_slot5 = report;
+    report = 3;
+    report = golfie[report];
+    report = romeon.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.DEFAULT_ROLE_COLOR;
+    var _closure1_slot7 = option;
+    report = report.MAX_VISUAL_ROLE_LENGTH;
+    var _closure1_slot8 = report;
+    report = 5;
+    option = golfie[report];
+    option = oscard.bind(entity)(option);
+    option = option.jsx;
+    var _closure1_slot9 = option;
+    option = golfie[report];
+    option = oscard.bind(entity)(option);
+    option = option.Fragment;
+    var _closure1_slot10 = option;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.jsxs;
+    var _closure1_slot11 = report;
+    report = 12;
+    var _closure1_slot12 = report;
+    report = 6;
+    report = golfie[report];
+    verify = oscard.bind(entity)(report);
+    option = verify.createStyles;
+    report = {};
+    offset = {'flexDirection': 'row', 'gap': 8, 'flexWrap': 'wrap'};
+    report['roleContainer'] = offset;
+    offset = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': 4, 'padding': 6};
+    yankee = 7;
+    foxtra = golfie[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.colors;
+    foxtra = foxtra.BG_MOD_FAINT;
+    offset['backgroundColor'] = foxtra;
+    foxtra = golfie[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.sm;
+    offset['borderRadius'] = foxtra;
+    report['role'] = offset;
+    offset = {'borderRadius': null, 'height': 12, 'width': 12};
+    yankee = golfie[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.radii;
+    yankee = yankee.round;
+    offset['borderRadius'] = yankee;
+    report['roleDot'] = offset;
+    report = option.bind(verify)(report);
+    var _closure1_slot13 = report;
+    report = 20;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/user_profile/native/UserProfileRolesCard.tsx';
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: UserProfileRolesCard
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             michal = argFoo;
@@ -523,6 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['default'] = michal;
+    zuuluu['default'] = tangon;
+    zuuluu['RoleItem'] = michal;
     return entity;
 })();

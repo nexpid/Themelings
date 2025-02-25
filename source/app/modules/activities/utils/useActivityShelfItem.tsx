@@ -309,12 +309,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00012_ip = 210; continue _fun00011 }
+                        if(michal) { _fun00012_ip = 222; continue _fun00011 }
  10:
                         tangon = _closure1_slot4;
                         zuuluu = tangon.isLaunchingActivity;
                         zuuluu = zuuluu.bind(tangon)();
-                        if(zuuluu) { _fun00012_ip = 205; continue _fun00011 }
+                        if(zuuluu) { _fun00012_ip = 217; continue _fun00011 }
  33:
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
@@ -350,6 +350,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['customId'] = oscard;
                         report = _closure2_slot11;
                         michal['referrerId'] = report;
+                        michal['instanceId'] = tangon;
+                        report = false;
+                        michal['isContextlessActivity'] = report;
                         tangon = zuuluu.bind(tangon)(michal);
                         zuuluu = tangon.then;
                         michal = function(argFoo) {
@@ -377,18 +380,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         michal = zuuluu.bind(tangon)(michal);
-                        SaveGenerator(address=196);
- 194:
+                        SaveGenerator(address=208);
+ 206:
                         return michal;
- 196:
+ 208:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(!zuuluu) { _fun00012_ip = 205; continue _fun00011 }
- 202:
+                        if(!zuuluu) { _fun00012_ip = 217; continue _fun00011 }
+ 214:
                         return michal;
- 205:
+ 217:
                         michal = undefined;
                         return michal;
- 210:
+ 222:
                         return entity;
                     }
                 };

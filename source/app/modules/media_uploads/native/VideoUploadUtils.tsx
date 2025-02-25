@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     oscard['fromCompressionQuality'] = report;
-    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false};
+    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false};
     golfie = oscard.MEDIUM;
     golfie = golfie.targetBitrate;
     report['targetBitrate'] = golfie;

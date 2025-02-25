@@ -347,6 +347,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['description'] = zuuluu;
             zuuluu = michal.icon_hash;
             entity['icon'] = zuuluu;
+            zuuluu = michal.custom_banner_hash;
+            entity['customBanner'] = zuuluu;
             zuuluu = michal.online_count;
             entity['onlineCount'] = zuuluu;
             zuuluu = michal.member_count;
@@ -359,22 +361,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.id;
             report = michal.traits;
             zuuluu = null;
-            if(!(zuuluu == report)) { _fun00012_ip = 114; continue _fun00011 }
- 110:
+            if(!(zuuluu == report)) { _fun00012_ip = 127; continue _fun00011 }
+ 123:
             report = new Array(0);
- 114:
+ 127:
             tangon = undefined;
             tangon = golfie.bind(tangon)(oscard, report);
             entity['traits'] = tangon;
             tangon = michal.game_application_ids;
-            if(!(zuuluu == tangon)) { _fun00012_ip = 141; continue _fun00011 }
- 137:
+            if(!(zuuluu == tangon)) { _fun00012_ip = 154; continue _fun00011 }
+ 150:
             tangon = new Array(0);
- 141:
+ 154:
             entity['gameApplicationIds'] = tangon;
             oscard = michal.game_activity;
-            if(!(zuuluu != oscard)) { _fun00012_ip = 198; continue _fun00011 }
- 156:
+            if(!(zuuluu != oscard)) { _fun00012_ip = 211; continue _fun00011 }
+ 169:
             tangon = global;
             report = tangon.Object;
             tangon = report.entries;
@@ -426,16 +428,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             tangon = {};
             tangon = oscard.bind(golfie)(report, tangon);
-            _fun00012_ip = 200; continue _fun00011;
- 198:
+            _fun00012_ip = 213; continue _fun00011;
+ 211:
             tangon = {};
- 200:
+ 213:
             entity['gameActivity'] = tangon;
             michal = michal.features;
-            if(!(zuuluu == michal)) { _fun00012_ip = 219; continue _fun00011 }
- 215:
+            if(!(zuuluu == michal)) { _fun00012_ip = 232; continue _fun00011 }
+ 228:
             michal = new Array(0);
- 219:
+ 232:
             entity['features'] = michal;
             return entity;
         }
@@ -466,21 +468,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.icon;
             entity['icon'] = zuuluu;
  69:
-            zuuluu = michal.visibility;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 91; continue _fun00015 }
+            zuuluu = michal.customBanner;
+            if(!(option !== zuuluu)) { _fun00016_ip = 93; continue _fun00015 }
  79:
+            zuuluu = michal.customBanner;
+            entity['custom_banner'] = zuuluu;
+ 93:
+            zuuluu = michal.visibility;
+            if(!(tangon != zuuluu)) { _fun00016_ip = 115; continue _fun00015 }
+ 103:
             zuuluu = michal.visibility;
             entity['visibility'] = zuuluu;
- 91:
+ 115:
             zuuluu = michal.brandColorPrimary;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 113; continue _fun00015 }
- 101:
+            if(!(tangon != zuuluu)) { _fun00016_ip = 137; continue _fun00015 }
+ 125:
             zuuluu = michal.brandColorPrimary;
             entity['brand_color_primary'] = zuuluu;
- 113:
+ 137:
             zuuluu = michal.traits;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 191; continue _fun00015 }
- 123:
+            if(!(tangon != zuuluu)) { _fun00016_ip = 215; continue _fun00015 }
+ 147:
             oscard = michal.traits;
             report = oscard.map;
             zuuluu = function(argFoo, argBar) {
@@ -549,13 +557,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.isNotNullish;
             zuuluu = report.bind(oscard)(zuuluu);
             entity['traits'] = zuuluu;
- 191:
+ 215:
             zuuluu = michal.gameApplicationIds;
-            if(!(tangon != zuuluu)) { _fun00016_ip = 213; continue _fun00015 }
- 201:
+            if(!(tangon != zuuluu)) { _fun00016_ip = 237; continue _fun00015 }
+ 225:
             michal = michal.gameApplicationIds;
             entity['game_application_ids'] = michal;
- 213:
+ 237:
             return entity;
         }
     };

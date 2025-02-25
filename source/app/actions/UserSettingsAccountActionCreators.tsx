@@ -319,12 +319,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot4 = zuuluu;
         zuuluu = michal.avatar;
         var _closure2_slot5 = zuuluu;
-        zuuluu = michal.avatarDecoration;
+        zuuluu = michal.avatarDescription;
         var _closure2_slot6 = zuuluu;
-        zuuluu = michal.newPassword;
+        zuuluu = michal.avatarId;
         var _closure2_slot7 = zuuluu;
+        zuuluu = michal.avatarDecoration;
+        var _closure2_slot8 = zuuluu;
+        zuuluu = michal.newPassword;
+        var _closure2_slot9 = zuuluu;
         michal = michal.globalName;
-        var _closure2_slot8 = michal;
+        var _closure2_slot10 = michal;
         zuuluu = _closure1_slot1;
         offset = _closure1_slot2;
         michal = 3;
@@ -389,30 +393,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['password'] = michal;
                 michal = _closure2_slot5;
                 zuuluu['avatar'] = michal;
+                michal = _closure2_slot6;
+                zuuluu['avatar_description'] = michal;
+                michal = _closure2_slot7;
+                zuuluu['avatar_id'] = michal;
                 michal = _closure2_slot1;
                 zuuluu['discriminator'] = michal;
-                michal = _closure2_slot8;
+                michal = _closure2_slot10;
                 zuuluu['global_name'] = michal;
-                michal = _closure2_slot7;
+                michal = _closure2_slot9;
                 zuuluu['new_password'] = michal;
                 offset = argFoo;
                 yankee = zuuluu;
                 michal = copyDataProperties(yankee, offset);
-                michal = _closure2_slot6;
+                michal = _closure2_slot8;
                 oscard = null;
-                if(!(oscard === michal)) { _fun00006_ip = 102; continue _fun00005 }
- 96:
+                if(!(oscard === michal)) { _fun00006_ip = 120; continue _fun00005 }
+ 114:
                 zuuluu['avatar_decoration_id'] = oscard;
- 102:
-                michal = _closure2_slot6;
-                if(!(oscard != michal)) { _fun00006_ip = 137; continue _fun00005 }
- 110:
-                entity = _closure2_slot6;
+ 120:
+                michal = _closure2_slot8;
+                if(!(oscard != michal)) { _fun00006_ip = 155; continue _fun00005 }
+ 128:
+                entity = _closure2_slot8;
                 michal = entity.id;
                 zuuluu['avatar_decoration_id'] = michal;
                 entity = entity.skuId;
                 zuuluu['avatar_decoration_sku_id'] = entity;
- 137:
+ 155:
                 report = _closure1_slot0;
                 michal = _closure1_slot2;
                 golfie = 9;
@@ -426,15 +434,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot10;
                 report = report.bind(michal)();
                 option = oscard != report;
-                if(!option) { _fun00006_ip = 201; continue _fun00005 }
- 197:
+                if(!option) { _fun00006_ip = 219; continue _fun00005 }
+ 215:
                 option = oscard != tangon;
- 201:
-                if(!option) { _fun00006_ip = 216; continue _fun00005 }
- 204:
+ 219:
+                if(!option) { _fun00006_ip = 234; continue _fun00005 }
+ 222:
                 zuuluu['push_provider'] = report;
                 zuuluu['push_token'] = tangon;
- 216:
+ 234:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
                 tangon = tangon[golfie];
@@ -445,16 +453,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.bind(golfie)(tangon);
                 report = _closure1_slot9;
                 report = oscard != report;
-                if(!report) { _fun00006_ip = 268; continue _fun00005 }
- 264:
+                if(!report) { _fun00006_ip = 286; continue _fun00005 }
+ 282:
                 report = oscard != tangon;
- 268:
-                if(!report) { _fun00006_ip = 287; continue _fun00005 }
- 271:
+ 286:
+                if(!report) { _fun00006_ip = 305; continue _fun00005 }
+ 289:
                 report = _closure1_slot9;
                 zuuluu['push_voip_provider'] = report;
                 zuuluu['push_voip_token'] = tangon;
- 287:
+ 305:
                 entity = _closure1_slot11;
                 entity = entity.bind(michal)(zuuluu);
                 return entity;

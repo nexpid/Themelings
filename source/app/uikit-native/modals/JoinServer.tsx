@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot7;
             option = verify <= option;
             verify = null;
-            if(option) { _fun00002_ip = 558; continue _fun00001 }
+            if(option) { _fun00002_ip = 554; continue _fun00001 }
  316:
             romeon = _closure1_slot10;
             offset = _closure1_slot11;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = output;
             option['children'] = backup;
             verify = romeon.bind(tangon)(offset, option);
- 558:
+ 554:
             option = new Array(3);
             option[0] = verify;
             romeon = _closure1_slot9;

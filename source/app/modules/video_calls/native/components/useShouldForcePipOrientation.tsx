@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  70:
                     golfie = michal != report;
                     report = null;
-                    if(!golfie) { _fun00006_ip = 138; continue _fun00005 }
+                    if(!golfie) { _fun00006_ip = 155; continue _fun00005 }
  79:
                     golfie = michal == oscard;
                     option = undefined;
@@ -146,24 +146,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 7;
                     golfie = yankee[golfie];
                     offset = verify.bind(offset)(golfie);
-                    verify = offset.embeddedActivityParticipantId;
-                    golfie = zuuluu.applicationId;
+                    verify = offset.getEmbeddedActivityParticipantId;
+                    golfie = {};
+                    yankee = zuuluu.applicationId;
+                    golfie['applicationId'] = yankee;
+                    yankee = zuuluu.compositeInstanceId;
+                    golfie['instanceId'] = yankee;
                     golfie = verify.bind(offset)(golfie);
                     report = null;
-                    if(!(option === golfie)) { _fun00006_ip = 138; continue _fun00005 }
- 135:
+                    if(!(option === golfie)) { _fun00006_ip = 155; continue _fun00005 }
+ 152:
                     report = oscard;
- 138:
+ 155:
                     entity['focusedEmbeddedActivityParticipant'] = report;
                     report = michal == zuuluu;
                     michal = null;
-                    if(report) { _fun00006_ip = 172; continue _fun00005 }
- 152:
+                    if(report) { _fun00006_ip = 189; continue _fun00005 }
+ 169:
                     report = _closure1_slot3;
                     tangon = report.getPipOrientationLockStateForApp;
                     zuuluu = zuuluu.applicationId;
                     michal = tangon.bind(report)(zuuluu);
- 172:
+ 189:
                     entity['activityLockOrientation'] = michal;
                     return entity;
                 }

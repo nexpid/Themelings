@@ -61,19 +61,42 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/activities/ContextlessActivitiesExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['getIsContextlessActivitiesExperimentEnabled'] = tangon;
-    tangon = function() { // Original name: useIsContextlessActivitiesExperimentEnabled
-        zuuluu = _closure1_slot3;
-        michal = zuuluu.useExperiment;
-        entity = {};
-        tangon = 'useIsContextlessActivitiesExperimentEnabled';
-        entity['location'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
-        return entity;
+    tangon = function(argFoo) { // Original name: useIsContextlessActivitiesExperimentEnabled
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            zuuluu = argFoo;
+            report = _closure1_slot3;
+            tangon = report.useExperiment;
+            entity = {};
+            oscard = 'useIsContextlessActivitiesExperimentEnabled';
+            entity['location'] = oscard;
+            entity = tangon.bind(report)(entity);
+            entity = entity.enabled;
+            if(!entity) { _fun00002_ip = 45; continue _fun00001 }
+ 39:
+            tangon = null;
+            entity = tangon != zuuluu;
+ 45:
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
+ 48:
+            oscard = _closure1_slot0;
+            report = _closure1_slot1;
+            tangon = 3;
+            report = report[tangon];
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            tangon = report.hasFlag;
+            zuuluu = zuuluu.flags;
+            michal = _closure1_slot2;
+            michal = michal.CONTEXTLESS_ACTIVITY;
+            entity = tangon.bind(report)(zuuluu, michal);
+ 97:
+            return entity;
+        }
     };
     zuuluu['useIsContextlessActivitiesExperimentEnabled'] = tangon;
     michal = function(argFoo) { // Original name: isContextlessActivitiesEnabledForApp
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -87,7 +110,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = _closure1_slot2;
             entity = entity.CONTEXTLESS_ACTIVITY;
             entity = report.bind(oscard)(tangon, entity);
-            if(!entity) { _fun00002_ip = 66; continue _fun00001 }
+            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  58:
             michal = _closure1_slot4;
             entity = michal.bind(zuuluu)();

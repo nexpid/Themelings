@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    romeon = tangon.SIDE_PADDING;
+    romeon = tangon.PROFILE_SIDE_PADDING;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'marginTop': 8, 'flexShrink': 0};
+    verify = {'marginTop': 8, 'flexShrink': 0, 'borderRadius': null, 'gap': 4};
     offset = 6;
     backup = oscard[offset];
     backup = yankee.bind(entity)(backup);
@@ -60,9 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup.round;
     verify['borderRadius'] = backup;
     tangon['upsellButton'] = verify;
-    verify = {'width': 20, 'height': 20};
-    tangon['premiumWheel'] = verify;
-    verify = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 4};
+    verify = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'marginBottom': 4};
     tangon['titleContainer'] = verify;
     verify = {'tintColor': null, 'width': 20, 'height': 20};
     backup = oscard[offset];
@@ -115,9 +113,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = result;
             zuuluu = _closure1_slot7;
             oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            report = 7;
-            entity = golfie[report];
+            report = _closure1_slot2;
+            golfie = 7;
+            entity = report[golfie];
             michal = oscard.bind(tangon)(entity);
             entity = {};
             option = 1;
@@ -127,16 +125,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = yankee;
             option[1] = offset;
             entity['style'] = option;
-            report = golfie[report];
-            report = oscard.bind(tangon)(report);
-            report = report.Direction;
-            report = report.HORIZONTAL;
-            entity['direction'] = report;
-            report = _closure1_slot5;
-            report = report.PREMIUM_TIER_2;
-            entity['colors'] = report;
-            report = 6;
-            report = golfie[report];
+            golfie = report[golfie];
+            golfie = oscard.bind(tangon)(golfie);
+            golfie = golfie.Direction;
+            golfie = golfie.HORIZONTAL;
+            entity['direction'] = golfie;
+            golfie = _closure1_slot5;
+            golfie = golfie.PREMIUM_TIER_2;
+            entity['colors'] = golfie;
+            config = 6;
+            report = report[config];
             report = oscard.bind(tangon)(report);
             report = report.radii;
             report = report.lg;
@@ -152,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['contentContainerStyle'] = option;
             offset = null;
             option = offset != vacuum;
-            if(!option) { _fun00002_ip = 355; continue _fun00001 }
+            if(!option) { _fun00002_ip = 383; continue _fun00001 }
  228:
             sizing = _closure1_slot8;
             yankee = _closure1_slot3;
@@ -160,18 +158,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = result.titleContainer;
             option['style'] = echoed;
             ctrled = _closure1_slot7;
-            update = _closure1_slot1;
+            source = _closure1_slot0;
             sequen = _closure1_slot2;
             echoed = 8;
             echoed = sequen[echoed];
-            update = update.bind(tangon)(echoed);
+            echoed = source.bind(tangon)(echoed);
+            update = echoed.NitroWheelIcon;
             echoed = {};
-            source = result.premiumWheelHeader;
-            echoed['style'] = source;
+            record = _closure1_slot1;
+            config = sequen[config];
+            config = record.bind(tangon)(config);
+            config = config.colors;
+            config = config.HEADER_PRIMARY;
+            echoed['color'] = config;
+            config = 'xs';
+            echoed['size'] = config;
             update = ctrled.bind(tangon)(update, echoed);
             echoed = new Array(2);
             echoed[0] = update;
-            source = _closure1_slot0;
             update = 9;
             update = sequen[update];
             update = source.bind(tangon)(update);
@@ -184,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[1] = update;
             option['children'] = echoed;
             offset = sizing.bind(tangon)(yankee, option);
- 355:
+ 383:
             option = new Array(3);
             option[0] = offset;
             option[1] = verify;
@@ -208,23 +212,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['color'] = romeon;
             romeon = function() { // Original name: renderIcon
                 tangon = _closure1_slot7;
-                michal = _closure1_slot1;
+                michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 entity = 8;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                entity = {};
-                report = _closure2_slot0;
-                report = report.premiumWheel;
-                entity['style'] = report;
+                entity = michal.bind(zuuluu)(entity);
+                michal = entity.NitroWheelIcon;
+                entity = {'color': 'white', 'size': 'xs'};
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
             verify['renderIcon'] = romeon;
             romeon = undefined;
-            if(!backup) { _fun00002_ip = 467; continue _fun00001 }
- 460:
+            if(!backup) { _fun00002_ip = 495; continue _fun00001 }
+ 488:
             romeon = function() {
                 tangon = _closure1_slot7;
                 michal = _closure1_slot1;
@@ -250,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
- 467:
+ 495:
             verify['renderLinearGradient'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             option[2] = verify;

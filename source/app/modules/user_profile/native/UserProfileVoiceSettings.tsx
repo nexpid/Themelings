@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             source = backup.id;
             michal['channelId'] = source;
-            source = 'SimpleUserProfileVoiceSettings';
+            source = 'UserProfileVoiceSettings';
             michal['location'] = source;
             michal = romeon.bind(echoed)(michal);
             echoed = _closure1_slot9;

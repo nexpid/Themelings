@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/settings/definitions/HidePlayAgain.tsx
+// app/modules/main_tabs_v2/native/settings/definitions/HidePlayShortcut.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.J/v4WV;
+        entity = entity.KpMDAA;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/HidePlayAgain.tsx';
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/HidePlayShortcut.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

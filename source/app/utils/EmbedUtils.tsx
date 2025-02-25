@@ -27,95 +27,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            yankee = entity.url;
-            offset = entity.proxy_url;
-            verify = entity.width;
-            option = entity.height;
-            golfie = entity.placeholder;
-            report = entity.placeholder_version;
-            tangon = entity.flags;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            entity = 3;
-            entity = oscard[entity];
-            oscard = undefined;
-            romeon = zuuluu.bind(oscard)(entity);
-            zuuluu = romeon.getCurrentConfig;
+            option = entity.url;
+            golfie = entity.proxy_url;
+            oscard = entity.width;
+            report = entity.height;
+            tangon = entity.placeholder;
+            michal = entity.placeholder_version;
+            zuuluu = entity.flags;
             entity = {};
-            backup = 'embed_utils_sanitize_media';
-            entity['location'] = backup;
-            entity = zuuluu.bind(romeon)(entity);
-            zuuluu = entity.enabled;
-            if(zuuluu) { _fun00004_ip = 139; continue _fun00003 }
- 97:
-            romeon = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            entity = 4;
-            entity = foxtra[entity];
-            foxtra = romeon.bind(oscard)(entity);
-            romeon = foxtra.getCurrentConfig;
-            entity = {};
-            entity['location'] = backup;
-            entity = romeon.bind(foxtra)(entity);
-            zuuluu = entity.enabled;
- 139:
-            entity = {};
-            entity['url'] = yankee;
-            entity['proxyURL'] = offset;
-            entity['width'] = verify;
-            entity['height'] = option;
-            entity['placeholder'] = golfie;
-            entity['placeholderVersion'] = report;
-            report = zuuluu;
-            if(!report) { _fun00004_ip = 230; continue _fun00003 }
- 174:
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            golfie = 5;
-            golfie = verify[golfie];
-            offset = option.bind(oscard)(golfie);
-            verify = offset.hasFlag;
-            golfie = null;
-            golfie = golfie != tangon;
-            option = 0;
-            if(!golfie) { _fun00004_ip = 214; continue _fun00003 }
- 211:
-            option = tangon;
- 214:
-            golfie = _closure1_slot3;
-            golfie = golfie.IS_ANIMATED;
-            report = verify.bind(offset)(option, golfie);
- 230:
+            entity['url'] = option;
+            entity['proxyURL'] = golfie;
+            entity['width'] = oscard;
+            entity['height'] = report;
+            entity['placeholder'] = tangon;
+            entity['placeholderVersion'] = michal;
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 3;
+            tangon = tangon[michal];
+            michal = undefined;
+            option = oscard.bind(michal)(tangon);
+            golfie = option.hasFlag;
+            tangon = null;
+            verify = tangon != zuuluu;
+            oscard = 0;
+            if(!verify) { _fun00004_ip = 115; continue _fun00003 }
+ 112:
+            oscard = zuuluu;
+ 115:
+            report = _closure1_slot3;
+            report = report.IS_ANIMATED;
+            report = golfie.bind(option)(oscard, report);
             entity['srcIsAnimated'] = report;
-            if(zuuluu) { _fun00004_ip = 296; continue _fun00003 }
- 238:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = golfie[zuuluu];
-            oscard = report.bind(oscard)(zuuluu);
-            report = oscard.removeFlag;
-            zuuluu = null;
-            golfie = zuuluu != tangon;
-            zuuluu = 0;
-            if(!golfie) { _fun00004_ip = 278; continue _fun00003 }
- 275:
-            zuuluu = tangon;
- 278:
-            michal = _closure1_slot3;
-            michal = michal.IS_ANIMATED;
-            michal = report.bind(oscard)(zuuluu, michal);
-            _fun00004_ip = 313; continue _fun00003;
- 296:
-            zuuluu = null;
-            report = zuuluu != tangon;
-            zuuluu = 0;
-            if(!report) { _fun00004_ip = 310; continue _fun00003 }
- 307:
-            zuuluu = tangon;
- 310:
+            tangon = tangon != zuuluu;
+            michal = 0;
+            if(!tangon) { _fun00004_ip = 148; continue _fun00003 }
+ 145:
             michal = zuuluu;
- 313:
+ 148:
             entity['flags'] = michal;
             return entity;
         }
@@ -195,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new foxtra[option](romeon, yankee);
     tangon = tangon instanceof Object ? tangon : golfie;
     var _closure1_slot12 = tangon;
-    tangon = 9;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -209,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = {};
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 6;
+            michal = 4;
             michal = oscard[michal];
             golfie = undefined;
             oscard = report.bind(golfie)(michal);
@@ -296,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  376:
             oscard = _closure1_slot1;
             option = _closure1_slot2;
-            report = 7;
+            report = 5;
             report = option[report];
             oscard = oscard.bind(golfie)(report);
             report = global;
@@ -315,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  450:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            report = 8;
+            report = 6;
             report = option[report];
             verify = oscard.bind(golfie)(report);
             option = verify.int2hsl;

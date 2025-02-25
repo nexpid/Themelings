@@ -121,10 +121,10 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
             tangon = verify[tangon];
             tangon = option.bind(golfie)(tangon);
             tangon = tangon.t;
-            tangon = tangon.vayAzs;
+            tangon = tangon.hisu0t;
             tangon = report.bind(oscard)(tangon);
             michal['label'] = tangon;
-            tangon = zuuluu.PLAY_AGAIN_ROW;
+            tangon = zuuluu.PLAY_SHORTCUT_ROW;
             zuuluu = new Array(1);
             zuuluu[0] = tangon;
             michal['settings'] = zuuluu;

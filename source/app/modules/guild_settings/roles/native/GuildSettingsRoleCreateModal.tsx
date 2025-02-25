@@ -1364,7 +1364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = global;
             zuuluu = entity.navigator;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00016_ip = 575; continue _fun00015 }
+            if(!(entity != zuuluu)) { _fun00016_ip = 571; continue _fun00015 }
  168:
             tangon = _closure1_slot22;
             zuuluu = _closure1_slot7;
@@ -1422,8 +1422,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['children'] = romeon;
             option = offset.bind(report)(verify, option);
             oscard[1] = option;
-            if(!golfie) { _fun00016_ip = 559; continue _fun00015 }
- 436:
+            if(!golfie) { _fun00016_ip = 555; continue _fun00015 }
+ 432:
             offset = _closure1_slot21;
             verify = _closure1_slot7;
             option = {};
@@ -1452,12 +1452,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.bind(report)(romeon, yankee);
             option['children'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 559:
+ 555:
             oscard[2] = golfie;
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00016_ip = 613; continue _fun00015;
- 575:
+            _fun00016_ip = 609; continue _fun00015;
+ 571:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot3;
@@ -1467,7 +1467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.SceneLoadingIndicator;
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 613:
+ 609:
             return entity;
         }
     };

@@ -58,7 +58,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = entity.user;
             echoed = entity.channel;
             source = entity.displayProfile;
-            verify = entity.showUserProfileActionSheet;
             report = undefined;
             var _closure2_slot1 = report;
             michal = _closure1_slot1;
@@ -82,16 +81,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             michal = entity == echoed;
             zuuluu = undefined;
-            if(michal) { _fun00002_ip = 130; continue _fun00001 }
- 125:
+            if(michal) { _fun00002_ip = 124; continue _fun00001 }
+ 119:
             zuuluu = echoed.guild_id;
- 130:
+ 124:
             golfie = entity == echoed;
             michal = undefined;
-            if(golfie) { _fun00002_ip = 144; continue _fun00001 }
- 139:
+            if(golfie) { _fun00002_ip = 138; continue _fun00001 }
+ 133:
             michal = echoed.id;
- 144:
+ 138:
             vacuum = tangon.bind(oscard)(zuuluu, michal, ctrled);
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -134,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.gradientFallbackBackground;
             romeon = michal.avatarBackground;
             update = michal.containerBackground;
-            if(!(entity != ctrled)) { _fun00002_ip = 908; continue _fun00001 }
- 343:
+            if(!(entity != ctrled)) { _fun00002_ip = 893; continue _fun00001 }
+ 337:
             cntext = function() { // Original name: handleCopyUsername
                 tangon = _closure2_slot0;
                 zuuluu = {};
@@ -169,9 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = offset.bind(report)(oscard);
             oscard = {};
             oscard['user'] = ctrled;
-            oscard['channel'] = echoed;
             oscard['displayProfile'] = source;
-            oscard['showUserProfile'] = verify;
             oscard['bannerHeight'] = option;
             golfie = yankee.bind(report)(golfie, oscard);
             oscard = new Array(2);
@@ -185,16 +182,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['user'] = ctrled;
             sequen = entity == source;
             config = undefined;
-            if(sequen) { _fun00002_ip = 459; continue _fun00001 }
- 454:
+            if(sequen) { _fun00002_ip = 444; continue _fun00001 }
+ 439:
             config = source.guildId;
- 459:
+ 444:
             papara = entity != config;
             sequen = undefined;
-            if(!papara) { _fun00002_ip = 471; continue _fun00001 }
- 468:
+            if(!papara) { _fun00002_ip = 456; continue _fun00001 }
+ 453:
             sequen = config;
- 471:
+ 456:
             verify['guildId'] = sequen;
             verify['backgroundColor'] = romeon;
             config = true;
@@ -235,18 +232,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['user'] = ctrled;
             target = entity == echoed;
             papara = undefined;
-            if(target) { _fun00002_ip = 640; continue _fun00001 }
- 635:
+            if(target) { _fun00002_ip = 625; continue _fun00001 }
+ 620:
             papara = echoed.guild_id;
- 640:
+ 625:
             sizing['guildId'] = papara;
             sizing['displayName'] = vacuum;
             papara = entity == source;
             vacuum = undefined;
-            if(papara) { _fun00002_ip = 663; continue _fun00001 }
- 657:
+            if(papara) { _fun00002_ip = 648; continue _fun00001 }
+ 642:
             vacuum = source.pronouns;
- 663:
+ 648:
             sizing['pronouns'] = vacuum;
             sizing['badgeContainerBackground'] = update;
             sierra = _closure1_slot0;
@@ -317,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 908:
+ 893:
             return entity;
         }
     };

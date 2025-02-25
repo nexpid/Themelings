@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['variant'] = option;
             entity['state'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 725; continue _fun00001;
+            _fun00002_ip = 729; continue _fun00001;
  358:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 725:
+ 729:
             return entity;
         }
     };

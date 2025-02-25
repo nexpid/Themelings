@@ -91,59 +91,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = golfie.fileFinishedImporting;
     report = 'modules/nameplates/utils.tsx';
     report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar, argBaz) { // Original name: getBorderHex
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 49; continue _fun00001 }
- 9:
-            zuuluu = michal.charAt;
-            entity = 0;
-            tangon = zuuluu.bind(michal)(entity);
-            entity = '#';
-            zuuluu = michal;
-            if(!(entity !== tangon)) { _fun00002_ip = 37; continue _fun00001 }
- 33:
-            zuuluu = entity + michal;
- 37:
-            michal = zuuluu.length;
-            entity = 7;
-            if(!(entity !== michal)) { _fun00002_ip = 53; continue _fun00001 }
- 49:
-            entity = undefined;
-            return entity;
- 53:
-            entity = argBaz;
-            if(entity) { _fun00002_ip = 89; continue _fun00001 }
- 59:
-            entity = argBar;
-            if(entity) { _fun00002_ip = 77; continue _fun00001 }
- 65:
-            entity = '4D';
-            entity = zuuluu + entity;
-            _fun00002_ip = 87; continue _fun00001;
- 77:
-            michal = '99';
-            entity = zuuluu + michal;
- 87:
-            _fun00002_ip = 99; continue _fun00001;
- 89:
-            michal = 'FF';
-            entity = zuuluu + michal;
- 99:
-            return entity;
-        }
-    };
-    zuuluu['getBorderHex'] = report;
     report = function(argFoo, argBar, argBaz, argCor) { // Original name: getBackgroundGradientColors
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
             oscard = argBaz;
             entity = argCor;
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00004_ip = 19; continue _fun00003 }
+            if(!(zuuluu == michal)) { _fun00002_ip = 19; continue _fun00001 }
  15:
             zuuluu = undefined;
             return zuuluu;
@@ -151,20 +106,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             tangon = zuuluu.LIGHT;
             zuuluu = argBar;
-            if(!(zuuluu !== tangon)) { _fun00004_ip = 49; continue _fun00003 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 49; continue _fun00001 }
  39:
             report = michal.darkBackground;
-            _fun00004_ip = 57; continue _fun00003;
+            _fun00002_ip = 57; continue _fun00001;
  49:
             report = michal.lightBackground;
  57:
-            if(oscard) { _fun00004_ip = 63; continue _fun00003 }
+            if(oscard) { _fun00002_ip = 63; continue _fun00001 }
  60:
             oscard = entity;
  63:
             entity = {};
             golfie = '00';
-            if(!oscard) { _fun00004_ip = 80; continue _fun00003 }
+            if(!oscard) { _fun00002_ip = 80; continue _fun00001 }
  74:
             golfie = '1A';
  80:
@@ -175,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(report, golfie);
             entity['left'] = zuuluu;
             zuuluu = '4D';
-            if(!oscard) { _fun00004_ip = 122; continue _fun00003 }
+            if(!oscard) { _fun00002_ip = 122; continue _fun00001 }
  116:
             zuuluu = '80';
  122:
@@ -188,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['getBackgroundGradientColors'] = report;
     tangon = function(argFoo, argBar) { // Original name: useNameplateSrc
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
             var _closure2_slot0 = zuuluu;
@@ -205,28 +160,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = entity;
             report[2] = golfie;
             tangon = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure2_slot0;
                     zuuluu = null;
-                    if(!(zuuluu != michal)) { _fun00008_ip = 49; continue _fun00007 }
+                    if(!(zuuluu != michal)) { _fun00006_ip = 49; continue _fun00005 }
  13:
                     tangon = _closure2_slot1;
                     entity = _closure2_slot0;
                     michal = undefined;
                     entity = tangon.bind(michal)(entity);
-                    if(!(zuuluu == entity)) { _fun00008_ip = 49; continue _fun00007 }
+                    if(!(zuuluu == entity)) { _fun00006_ip = 49; continue _fun00005 }
  32:
                     entity = function() {
                         tangon = _closure1_slot2;
                         zuuluu = undefined;
                         michal = function* () {
                             entity = function* () { // Original name: ?anon_0_
-                                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00010_ip = 108; continue _fun00009 }
+                                    if(michal) { _fun00008_ip = 108; continue _fun00007 }
  7:
                                     michal = global;
                                     zuuluu = michal.fetch;
@@ -238,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     return michal;
  33:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(zuuluu) { _fun00010_ip = 105; continue _fun00009 }
+                                    if(zuuluu) { _fun00008_ip = 105; continue _fun00007 }
  39:
                                     zuuluu = michal.arrayBuffer;
                                     zuuluu = zuuluu.bind(michal)();
@@ -247,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     return zuuluu;
  53:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                                    if(tangon) { _fun00010_ip = 102; continue _fun00009 }
+                                    if(tangon) { _fun00008_ip = 102; continue _fun00007 }
  59:
                                     tangon = _closure1_slot6;
                                     tangon = tangon.bind(report)(zuuluu);
@@ -256,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     return tangon;
  75:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                                    if(golfie) { _fun00010_ip = 99; continue _fun00009 }
+                                    if(golfie) { _fun00008_ip = 99; continue _fun00007 }
  81:
                                     golfie = _closure2_slot2;
                                     oscard = _closure2_slot0;
@@ -298,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(michal)(tangon, report);
             michal = entity.bind(michal)(zuuluu);
             entity = null;
-            if(!(entity != michal)) { _fun00006_ip = 109; continue _fun00005 }
+            if(!(entity != michal)) { _fun00004_ip = 109; continue _fun00003 }
  86:
             zuuluu = michal.animatedUrl;
             michal = michal.staticUrl;
             tangon = argBar;
-            if(!tangon) { _fun00006_ip = 107; continue _fun00005 }
+            if(!tangon) { _fun00004_ip = 107; continue _fun00003 }
  104:
             michal = zuuluu;
  107:
