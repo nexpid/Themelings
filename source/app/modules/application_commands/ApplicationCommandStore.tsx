@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot10;
             zuuluu = michal in zuuluu;
-            if(zuuluu) { _fun00006_ip = 51; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 55; continue _fun00005 }
  17:
             tangon = _closure1_slot10;
             zuuluu = {'activeCommand': null, 'activeCommandSection': null, 'activeOptionName': null, 'preferredCommandId': null, 'optionStates': null, 'initialValues': null, 'commandOrigin': null};
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             zuuluu['initialValues'] = report;
             tangon[michal] = zuuluu;
- 51:
+ 55:
             entity = _closure1_slot10;
             entity = entity[michal];
             return entity;

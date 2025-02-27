@@ -51,18 +51,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu.START;
             zuuluu = undefined;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 42; continue _fun00001 }
- 39:
+            if(!(oscard === option)) { _fun00002_ip = 46; continue _fun00001 }
+ 43:
             golfie = 6;
- 42:
+ 46:
             michal['marginTop'] = golfie;
             golfie = _closure1_slot8;
             option = golfie.END;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 65; continue _fun00001 }
- 62:
+            if(!(oscard === option)) { _fun00002_ip = 69; continue _fun00001 }
+ 66:
             golfie = 6;
- 65:
+ 69:
             michal['marginBottom'] = golfie;
             entity['container'] = michal;
             michal = {'justifyContent': 'center', 'alignItems': 'center'};
@@ -90,18 +90,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot8;
             option = golfie.START;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 216; continue _fun00001 }
- 214:
+            if(!(oscard === option)) { _fun00002_ip = 220; continue _fun00001 }
+ 218:
             golfie = 0;
- 216:
+ 220:
             michal['bottom'] = golfie;
             report = _closure1_slot8;
             report = report.END;
             zuuluu = undefined;
-            if(!(oscard === report)) { _fun00002_ip = 238; continue _fun00001 }
- 236:
+            if(!(oscard === report)) { _fun00002_ip = 242; continue _fun00001 }
+ 240:
             zuuluu = 0;
- 238:
+ 242:
             michal['top'] = zuuluu;
             entity['gradient'] = michal;
             return entity;

@@ -99,14 +99,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = _closure2_slot2;
                             zuuluu = entity.current;
                             entity = null;
-                            if(!(entity != zuuluu)) { _fun00006_ip = 53; continue _fun00005 }
+                            if(!(entity != zuuluu)) { _fun00006_ip = 49; continue _fun00005 }
  18:
                             michal = zuuluu.scrollToIndex;
                             entity = {'animated': false, 'index': null, 'viewPosition': 0.5};
                             tangon = _closure2_slot1;
                             entity['index'] = tangon;
                             entity = michal.bind(zuuluu)(entity);
- 53:
+ 49:
                             entity = undefined;
                             return entity;
                         }

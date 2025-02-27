@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'alignSelf': 'stretch', 'textAlignVertical': 'top', 'width': '100%', 'flexGrow': 1, 'paddingTop': 2};
+    verify = {'alignSelf': 'stretch', 'textAlignVertical': 'top', 'width': '100%', 'flexGrow': 1, 'paddingTop': 2, 'lineHeight': 24};
     tangon['text'] = verify;
     verify = {'alignSelf': 'stretch', 'textAlignVertical': 'bottom', 'width': '100%', 'flexGrow': 1, 'display': 'flex', 'paddingBottom': 2};
     tangon['span'] = verify;

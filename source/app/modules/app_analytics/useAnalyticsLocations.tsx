@@ -86,17 +86,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(report)(option, zuuluu);
             option = zuuluu[tangon];
             var _closure2_slot1 = option;
-            tangon = 1;
-            zuuluu = zuuluu[tangon];
+            report = 1;
+            zuuluu = zuuluu[report];
             var _closure2_slot2 = zuuluu;
             zuuluu = golfie.useContext;
             michal = _closure1_slot5;
             michal = zuuluu.bind(golfie)(michal);
             var _closure2_slot3 = michal;
             oscard = golfie.useMemo;
-            report = new Array(2);
-            report[0] = option;
-            report[1] = michal;
+            tangon = new Array(2);
+            tangon[0] = option;
+            tangon[1] = michal;
             zuuluu = function() {
                 tangon = _closure1_slot6;
                 zuuluu = _closure2_slot3;
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
-            zuuluu = oscard.bind(golfie)(zuuluu, report);
+            tangon = oscard.bind(golfie)(zuuluu, tangon);
             oscard = golfie.useMemo;
-            report = new Array(2);
-            report[0] = option;
-            report[1] = michal;
+            zuuluu = new Array(2);
+            zuuluu[0] = option;
+            zuuluu[1] = michal;
             michal = function() {
                 tangon = _closure1_slot6;
                 zuuluu = _closure2_slot3;
@@ -124,11 +124,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
-            michal = oscard.bind(golfie)(michal, report);
+            zuuluu = oscard.bind(golfie)(michal, zuuluu);
             oscard = golfie.useEffect;
-            report = new Array(2);
-            report[0] = verify;
-            report[1] = option;
+            michal = new Array(2);
+            michal[0] = verify;
+            michal[1] = option;
             entity = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -150,19 +150,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = oscard.bind(golfie)(entity, report);
+            entity = oscard.bind(golfie)(entity, michal);
             entity = {};
-            entity['analyticsLocations'] = zuuluu;
-            entity['sourceAnalyticsLocations'] = michal;
+            entity['analyticsLocations'] = tangon;
+            entity['sourceAnalyticsLocations'] = zuuluu;
             michal = zuuluu.length;
-            michal = michal - tangon;
-            zuuluu = zuuluu[michal];
+            michal = michal - report;
+            oscard = zuuluu[michal];
             michal = null;
+            golfie = michal != oscard;
+            zuuluu = null;
+            if(!golfie) { _fun00004_ip = 207; continue _fun00003 }
+ 204:
+            zuuluu = oscard;
+ 207:
+            entity['parentAnalyticsLocation'] = zuuluu;
+            zuuluu = tangon.length;
+            zuuluu = zuuluu - report;
+            zuuluu = tangon[zuuluu];
             tangon = michal != zuuluu;
-            if(!tangon) { _fun00004_ip = 205; continue _fun00003 }
- 202:
+            michal = null;
+            if(!tangon) { _fun00004_ip = 239; continue _fun00003 }
+ 236:
             michal = zuuluu;
- 205:
+ 239:
             entity['newestAnalyticsLocation'] = michal;
             return entity;
         }

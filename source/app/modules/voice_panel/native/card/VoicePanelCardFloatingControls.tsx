@@ -1631,8 +1631,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot14;
             kiloes = kiloes.USER;
             kiloes = sizing === kiloes;
-            if(!kiloes) { _fun00030_ip = 1023; continue _fun00029 }
- 972:
+            if(!kiloes) { _fun00030_ip = 1019; continue _fun00029 }
+ 968:
             echoed = _closure1_slot16;
             result = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -1645,10 +1645,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['userId'] = source;
             sizing['textColor'] = update;
             kiloes = echoed.bind(tangon)(result, sizing);
- 1023:
+ 1019:
             romeon[1] = kiloes;
-            if(!foxtra) { _fun00030_ip = 1137; continue _fun00029 }
- 1030:
+            if(!foxtra) { _fun00030_ip = 1133; continue _fun00029 }
+ 1026:
             sizing = _closure1_slot16;
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1673,7 +1673,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(echoed)(output);
             backup['accessibilityLabel'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1137:
+ 1133:
             romeon[2] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);

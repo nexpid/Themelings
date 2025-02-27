@@ -177,10 +177,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             oscard = argFoo;
             zuuluu = undefined;
-            if(!oscard) { _fun00002_ip = 114; continue _fun00001 }
- 111:
+            if(!oscard) { _fun00002_ip = 110; continue _fun00001 }
+ 107:
             zuuluu = tangon;
- 114:
+ 110:
             michal['paddingLeft'] = zuuluu;
             entity['cardContainer'] = michal;
             michal = {'width': null, 'height': null, 'justifyContent': 'center', 'alignItems': 'center', 'borderRadius': null, 'overflow': 'hidden'};

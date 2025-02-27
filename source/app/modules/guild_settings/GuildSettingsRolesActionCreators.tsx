@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 1215; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 1216; continue _fun00007 }
  15:
                     update = michal;
                     var _closure4_slot0 = michal;
@@ -322,13 +322,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return zuuluu;
  218:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=12);
-                    if(foxtra) { _fun00008_ip = 1094; continue _fun00007 }
+                    if(foxtra) { _fun00008_ip = 1095; continue _fun00007 }
  227:
                     foxtra = source;
-                    if(!(kiloes != foxtra)) { _fun00008_ip = 937; continue _fun00007 }
+                    if(!(kiloes != foxtra)) { _fun00008_ip = 938; continue _fun00007 }
  237:
                     foxtra = romeon;
-                    if(!(kiloes != foxtra)) { _fun00008_ip = 937; continue _fun00007 }
+                    if(!(kiloes != foxtra)) { _fun00008_ip = 938; continue _fun00007 }
  247:
                     backup = false;
                     yankee = false;
@@ -340,36 +340,36 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     foxtra = typeof foxtra;
                     target = undefined;
                     papara = undefined;
-                    if(!(sizing !== foxtra)) { _fun00008_ip = 299; continue _fun00007 }
+                    if(!(sizing !== foxtra)) { _fun00008_ip = 300; continue _fun00007 }
  276:
                     foxtra = romeon.Symbol;
                     target = foxtra.asyncIterator;
                     foxtra = romeon.Symbol;
                     papara = foxtra.iterator;
- 299:
+ 300:
                     cntext = '@@asyncIterator';
                     record = '@@iterator';
                     config = undefined;
                     sequen = tangon;
- 314:
-                    if(!target) { _fun00008_ip = 328; continue _fun00007 }
- 317:
+ 315:
+                    if(!target) { _fun00008_ip = 329; continue _fun00007 }
+ 318:
                     sizing = output[target];
                     config = sizing;
-                    if(!(kiloes == config)) { _fun00008_ip = 427; continue _fun00007 }
- 328:
-                    if(!papara) { _fun00008_ip = 342; continue _fun00007 }
- 331:
+                    if(!(kiloes == config)) { _fun00008_ip = 428; continue _fun00007 }
+ 329:
+                    if(!papara) { _fun00008_ip = 343; continue _fun00007 }
+ 332:
                     foxtra = output[papara];
                     config = foxtra;
-                    if(!(kiloes == config)) { _fun00008_ip = 391; continue _fun00007 }
- 342:
+                    if(!(kiloes == config)) { _fun00008_ip = 392; continue _fun00007 }
+ 343:
                     result = parseFloat(sequen);
                     sequen = result - 1;
                     target = cntext;
                     papara = record;
-                    if(result) { _fun00008_ip = 314; continue _fun00007 }
- 357:
+                    if(result) { _fun00008_ip = 315; continue _fun00007 }
+ 358:
                     sequen = romeon.TypeError;
                     romeon = sequen.prototype;
                     result = Object.create(romeon, {constructor: {value: sequen}});
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     romeon = new whisks[sequen](limora, sierra);
                     romeon = romeon instanceof Object ? romeon : result;
                     throw romeon;
- 391:
+ 392:
                     result = _closure1_slot4;
                     romeon = foxtra.call;
                     limora = romeon.bind(foxtra)(output);
@@ -387,28 +387,28 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     whisks = foxtra;
                     romeon = new whisks[result](limora, sierra);
                     foxtra = romeon instanceof Object ? romeon : foxtra;
-                    _fun00008_ip = 437; continue _fun00007;
- 427:
+                    _fun00008_ip = 438; continue _fun00007;
+ 428:
                     romeon = sizing.call;
                     foxtra = romeon.bind(sizing)(output);
- 437:
+ 438:
                     offset = foxtra;
                     romeon = foxtra.next;
                     foxtra = romeon.bind(foxtra)();
-                    SaveGenerator(address=453);
- 451:
+                    SaveGenerator(address=454);
+ 452:
                     return foxtra;
- 453:
+ 454:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=11);
-                    if(romeon) { _fun00008_ip = 792; continue _fun00007 }
- 462:
+                    if(romeon) { _fun00008_ip = 793; continue _fun00007 }
+ 463:
                     ctrled = foxtra;
                     romeon = foxtra.done;
                     romeon = !romeon;
                     backup = romeon;
                     result = 3;
-                    if(!romeon) { _fun00008_ip = 609; continue _fun00007 }
- 485:
+                    if(!romeon) { _fun00008_ip = 610; continue _fun00007 }
+ 486:
                     romeon = ctrled;
                     config = romeon.value;
                     sizing = source;
@@ -421,201 +421,201 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     sequen = output.bind(golfie)(sizing);
                     output = sequen.putRoleConnectionsConfigurations;
                     sizing = update;
-                    if(!(kiloes == romeon)) { _fun00008_ip = 545; continue _fun00007 }
- 539:
+                    if(!(kiloes == romeon)) { _fun00008_ip = 546; continue _fun00007 }
+ 540:
                     romeon = new Array(0);
-                    _fun00008_ip = 548; continue _fun00007;
- 545:
+                    _fun00008_ip = 549; continue _fun00007;
+ 546:
                     romeon = vacuum;
- 548:
+ 549:
                     sizing = output.bind(sequen)(sizing, config, romeon);
-                    SaveGenerator(address=559);
- 557:
+                    SaveGenerator(address=560);
+ 558:
                     return sizing;
- 559:
+ 560:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=11);
-                    if(romeon) { _fun00008_ip = 703; continue _fun00007 }
- 568:
+                    if(romeon) { _fun00008_ip = 704; continue _fun00007 }
+ 569:
                     backup = false;
                     output = offset;
                     romeon = output.next;
                     output = romeon.bind(output)();
-                    SaveGenerator(address=586);
- 584:
+                    SaveGenerator(address=587);
+ 585:
                     return output;
- 586:
+ 587:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=11);
-                    if(romeon) { _fun00008_ip = 614; continue _fun00007 }
- 592:
+                    if(romeon) { _fun00008_ip = 615; continue _fun00007 }
+ 593:
                     ctrled = output;
                     romeon = output.done;
                     romeon = !romeon;
                     backup = romeon;
-                    if(romeon) { _fun00008_ip = 485; continue _fun00007 }
- 609: // try_end0
-                    _fun00008_ip = 885; continue _fun00007;
- 614: // try_start_2 // try_end1
+                    if(romeon) { _fun00008_ip = 486; continue _fun00007 }
+ 610: // try_end0
+                    _fun00008_ip = 886; continue _fun00007;
+ 615: // try_start_2 // try_end1
                     result = backup;
                     romeon = result;
-                    if(!result) { _fun00008_ip = 635; continue _fun00007 }
- 623:
+                    if(!result) { _fun00008_ip = 636; continue _fun00007 }
+ 624:
                     result = offset;
                     result = result.return;
                     romeon = kiloes != result;
- 635:
-                    if(!romeon) { _fun00008_ip = 660; continue _fun00007 }
- 638:
+ 636:
+                    if(!romeon) { _fun00008_ip = 661; continue _fun00007 }
+ 639:
                     result = offset;
                     romeon = result.return;
                     romeon = romeon.bind(result)();
-                    SaveGenerator(address=654);
- 652:
+                    SaveGenerator(address=655);
+ 653:
                     return romeon;
- 654:
+ 655:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=17);
-                    if(result) { _fun00008_ip = 674; continue _fun00007 }
- 660: // try_end2
+                    if(result) { _fun00008_ip = 675; continue _fun00007 }
+ 661: // try_end2
                     result = yankee;
-                    if(result) { _fun00008_ip = 669; continue _fun00007 }
- 666: // try_end9
+                    if(result) { _fun00008_ip = 670; continue _fun00007 }
+ 667: // try_end9
                     return output;
- 669: // try_start_10
+ 670: // try_start_10
                     output = option;
                     throw output;
- 674:
+ 675:
                     output = yankee;
-                    if(output) { _fun00008_ip = 683; continue _fun00007 }
- 680: // try_end10
+                    if(output) { _fun00008_ip = 684; continue _fun00007 }
+ 681: // try_end10
                     return romeon;
- 683: // try_start_11
+ 684: // try_start_11
                     romeon = option;
                     throw romeon;
- 688: // catch_target2
+ 689: // catch_target2
                     CatchBlockStart(arg_register=11);
                     output = yankee;
-                    if(output) { _fun00008_ip = 698; continue _fun00007 }
- 696:
+                    if(output) { _fun00008_ip = 699; continue _fun00007 }
+ 697:
                     throw romeon;
- 698:
+ 699:
                     romeon = option;
                     throw romeon;
- 703: // try_start_3
+ 704: // try_start_3
                     output = backup;
                     romeon = output;
-                    if(!output) { _fun00008_ip = 724; continue _fun00007 }
- 712:
+                    if(!output) { _fun00008_ip = 725; continue _fun00007 }
+ 713:
                     output = offset;
                     output = output.return;
                     romeon = kiloes != output;
- 724:
-                    if(!romeon) { _fun00008_ip = 749; continue _fun00007 }
- 727:
+ 725:
+                    if(!romeon) { _fun00008_ip = 750; continue _fun00007 }
+ 728:
                     output = offset;
                     romeon = output.return;
                     romeon = romeon.bind(output)();
-                    SaveGenerator(address=743);
- 741:
+                    SaveGenerator(address=744);
+ 742:
                     return romeon;
- 743:
+ 744:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(output) { _fun00008_ip = 763; continue _fun00007 }
- 749: // try_end3
+                    if(output) { _fun00008_ip = 764; continue _fun00007 }
+ 750: // try_end3
                     output = yankee;
-                    if(output) { _fun00008_ip = 758; continue _fun00007 }
- 755: // try_end11
+                    if(output) { _fun00008_ip = 759; continue _fun00007 }
+ 756: // try_end11
                     return sizing;
- 758: // try_start_12
+ 759: // try_start_12
                     sizing = option;
                     throw sizing;
- 763:
+ 764:
                     sizing = yankee;
-                    if(sizing) { _fun00008_ip = 772; continue _fun00007 }
- 769: // try_end12
+                    if(sizing) { _fun00008_ip = 773; continue _fun00007 }
+ 770: // try_end12
                     return romeon;
- 772: // try_start_13
+ 773: // try_start_13
                     romeon = option;
                     throw romeon;
- 777: // catch_target3
+ 778: // catch_target3
                     CatchBlockStart(arg_register=11);
                     sizing = yankee;
-                    if(sizing) { _fun00008_ip = 787; continue _fun00007 }
- 785:
+                    if(sizing) { _fun00008_ip = 788; continue _fun00007 }
+ 786:
                     throw romeon;
- 787:
+ 788:
                     romeon = option;
                     throw romeon;
- 792: // try_start_4
+ 793: // try_start_4
                     sizing = backup;
                     romeon = sizing;
-                    if(!sizing) { _fun00008_ip = 813; continue _fun00007 }
- 801:
+                    if(!sizing) { _fun00008_ip = 814; continue _fun00007 }
+ 802:
                     sizing = offset;
                     sizing = sizing.return;
                     romeon = kiloes != sizing;
- 813:
-                    if(!romeon) { _fun00008_ip = 838; continue _fun00007 }
- 816:
+ 814:
+                    if(!romeon) { _fun00008_ip = 839; continue _fun00007 }
+ 817:
                     sizing = offset;
                     romeon = sizing.return;
                     romeon = romeon.bind(sizing)();
-                    SaveGenerator(address=832);
- 830:
+                    SaveGenerator(address=833);
+ 831:
                     return romeon;
- 832:
+ 833:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=15);
-                    if(sizing) { _fun00008_ip = 852; continue _fun00007 }
- 838: // try_end4
+                    if(sizing) { _fun00008_ip = 853; continue _fun00007 }
+ 839: // try_end4
                     sizing = yankee;
-                    if(sizing) { _fun00008_ip = 847; continue _fun00007 }
- 844: // try_end13
+                    if(sizing) { _fun00008_ip = 848; continue _fun00007 }
+ 845: // try_end13
                     return foxtra;
- 847: // try_start_14
+ 848: // try_start_14
                     foxtra = option;
                     throw foxtra;
- 852:
+ 853:
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 861; continue _fun00007 }
- 858: // try_end14
+                    if(foxtra) { _fun00008_ip = 862; continue _fun00007 }
+ 859: // try_end14
                     return romeon;
- 861: // try_start_15
+ 862: // try_start_15
                     romeon = option;
                     throw romeon;
- 866: // catch_target4
+ 867: // catch_target4
                     CatchBlockStart(arg_register=11);
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 876; continue _fun00007 }
- 874:
+                    if(foxtra) { _fun00008_ip = 877; continue _fun00007 }
+ 875:
                     throw romeon;
- 876:
+ 877:
                     romeon = option;
                     throw romeon;
- 881: // try_start_5 // catch_target0
+ 882: // try_start_5 // catch_target0
                     CatchBlockStart(arg_register=7);
                     yankee = true;
- 885: // try_start_6 // try_end5
+ 886: // try_start_6 // try_end5
                     foxtra = backup;
                     romeon = foxtra;
-                    if(!foxtra) { _fun00008_ip = 906; continue _fun00007 }
- 894:
+                    if(!foxtra) { _fun00008_ip = 907; continue _fun00007 }
+ 895:
                     foxtra = offset;
                     foxtra = foxtra.return;
                     romeon = kiloes != foxtra;
- 906:
-                    if(!romeon) { _fun00008_ip = 931; continue _fun00007 }
- 909:
+ 907:
+                    if(!romeon) { _fun00008_ip = 932; continue _fun00007 }
+ 910:
                     foxtra = offset;
                     romeon = foxtra.return;
                     romeon = romeon.bind(foxtra)();
-                    SaveGenerator(address=925);
- 923:
+                    SaveGenerator(address=926);
+ 924:
                     return romeon;
- 925:
+ 926:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=12);
-                    if(foxtra) { _fun00008_ip = 984; continue _fun00007 }
- 931: // try_end6
+                    if(foxtra) { _fun00008_ip = 985; continue _fun00007 }
+ 932: // try_end6
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 979; continue _fun00007 }
- 937: // try_end15
+                    if(foxtra) { _fun00008_ip = 980; continue _fun00007 }
+ 938: // try_end15
                     sizing = _closure1_slot1;
                     foxtra = _closure1_slot2;
                     foxtra = foxtra[tangon];
@@ -626,73 +626,73 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     foxtra['type'] = result;
                     foxtra = sizing.bind(output)(foxtra);
                     return golfie;
- 979: // try_start_16
+ 980: // try_start_16
                     foxtra = option;
                     throw foxtra;
- 984:
+ 985:
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 993; continue _fun00007 }
- 990: // try_end16
+                    if(foxtra) { _fun00008_ip = 994; continue _fun00007 }
+ 991: // try_end16
                     return romeon;
- 993: // try_start_17
+ 994: // try_start_17
                     romeon = option;
                     throw romeon;
- 998: // catch_target6
+ 999: // catch_target6
                     CatchBlockStart(arg_register=11);
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 1008; continue _fun00007 }
- 1006:
+                    if(foxtra) { _fun00008_ip = 1009; continue _fun00007 }
+ 1007:
                     throw romeon;
- 1008:
+ 1009:
                     romeon = option;
                     throw romeon;
- 1013: // catch_target1 // catch_target5
+ 1014: // catch_target1 // catch_target5
                     CatchBlockStart(arg_register=11);
- 1015: // try_start_7
+ 1016: // try_start_7
                     foxtra = backup;
-                    if(!backup) { _fun00008_ip = 1033; continue _fun00007 }
- 1021:
+                    if(!backup) { _fun00008_ip = 1034; continue _fun00007 }
+ 1022:
                     backup = offset;
                     backup = backup.return;
                     foxtra = kiloes != backup;
- 1033:
-                    if(!foxtra) { _fun00008_ip = 1058; continue _fun00007 }
- 1036:
+ 1034:
+                    if(!foxtra) { _fun00008_ip = 1059; continue _fun00007 }
+ 1037:
                     foxtra = offset;
                     offset = foxtra.return;
                     offset = offset.bind(foxtra)();
-                    SaveGenerator(address=1052);
- 1050:
+                    SaveGenerator(address=1053);
+ 1051:
                     return offset;
- 1052:
+ 1053:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=12);
-                    if(foxtra) { _fun00008_ip = 1071; continue _fun00007 }
- 1058: // try_end7
+                    if(foxtra) { _fun00008_ip = 1072; continue _fun00007 }
+ 1059: // try_end7
                     foxtra = yankee;
-                    if(foxtra) { _fun00008_ip = 1066; continue _fun00007 }
- 1064:
+                    if(foxtra) { _fun00008_ip = 1067; continue _fun00007 }
+ 1065:
                     throw romeon;
- 1066:
+ 1067:
                     romeon = option;
                     throw romeon;
- 1071:
+ 1072:
                     romeon = yankee;
-                    if(romeon) { _fun00008_ip = 1080; continue _fun00007 }
- 1077: // try_end17
+                    if(romeon) { _fun00008_ip = 1081; continue _fun00007 }
+ 1078: // try_end17
                     return offset;
- 1080: // try_start_18
+ 1081: // try_start_18
                     offset = option;
                     throw offset;
- 1085: // catch_target7
+ 1086: // catch_target7
                     CatchBlockStart(arg_register=9);
-                    if(yankee) { _fun00008_ip = 1092; continue _fun00007 }
- 1090:
+                    if(yankee) { _fun00008_ip = 1093; continue _fun00007 }
+ 1091:
                     throw offset;
- 1092:
+ 1093:
                     throw option;
- 1094: // try_end18
+ 1095: // try_end18
                     return zuuluu;
- 1097: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17 // catch_target18
+ 1098: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17 // catch_target18
                     CatchBlockStart(arg_register=7);
                     report = option;
                     zuuluu = _closure1_slot1;
@@ -708,13 +708,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     option = null;
                     offset = option == offset;
                     golfie = undefined;
-                    if(offset) { _fun00008_ip = 1160; continue _fun00007 }
- 1155:
+                    if(offset) { _fun00008_ip = 1161; continue _fun00007 }
+ 1156:
                     golfie = verify.message;
- 1160:
+ 1161:
                     oscard = golfie;
-                    if(!(option == golfie)) { _fun00008_ip = 1198; continue _fun00007 }
- 1167:
+                    if(!(option == golfie)) { _fun00008_ip = 1199; continue _fun00007 }
+ 1168:
                     golfie = global;
                     option = golfie.Object;
                     golfie = option.values;
@@ -722,15 +722,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = golfie.bind(option)(report);
                     report = 0;
                     report = golfie[report];
-                    _fun00008_ip = 1201; continue _fun00007;
- 1198:
+                    _fun00008_ip = 1202; continue _fun00007;
+ 1199:
                     report = oscard;
- 1201:
+ 1202:
                     michal['message'] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     michal = undefined;
                     return michal;
- 1215:
+ 1216:
                     return entity;
                 }
             };

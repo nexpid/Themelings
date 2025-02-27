@@ -209,79 +209,142 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: getIsSpeaking
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            entity = argFoo;
-            option = entity.userId;
-            michal = entity.checkSoundSharing;
+            tangon = argFoo;
+            zuuluu = arguments[1];
+            option = tangon.userId;
+            entity = tangon.checkSoundSharing;
             report = undefined;
-            if(!(michal === report)) { _fun00014_ip = 22; continue _fun00013 }
- 20:
-            michal = false;
- 22:
-            oscard = entity.checkSoundboardSounds;
-            if(!(oscard === report)) { _fun00014_ip = 34; continue _fun00013 }
- 32:
+            if(!(entity === report)) { _fun00014_ip = 25; continue _fun00013 }
+ 23:
+            entity = false;
+ 25:
+            oscard = tangon.checkSoundboardSounds;
+            if(!(oscard === report)) { _fun00014_ip = 37; continue _fun00013 }
+ 35:
             oscard = true;
- 34:
-            zuuluu = entity.checkIsMuted;
-            if(!(zuuluu === report)) { _fun00014_ip = 46; continue _fun00013 }
- 44:
-            zuuluu = false;
- 46:
-            verify = entity.context;
-            golfie = _closure1_slot3;
-            tangon = golfie.getVoiceChannelId;
-            romeon = tangon.bind(golfie)();
-            golfie = null;
-            tangon = golfie != romeon;
-            offset = null;
-            if(!tangon) { _fun00014_ip = 95; continue _fun00013 }
- 79:
-            yankee = _closure1_slot5;
-            tangon = yankee.getVoiceStateForChannel;
-            offset = tangon.bind(yankee)(romeon, option);
- 95:
-            if(!zuuluu) { _fun00014_ip = 137; continue _fun00013 }
- 98:
-            yankee = golfie == offset;
-            tangon = undefined;
-            if(yankee) { _fun00014_ip = 113; continue _fun00013 }
- 107:
-            tangon = offset.mute;
- 113:
-            if(tangon) { _fun00014_ip = 134; continue _fun00013 }
- 116:
-            yankee = golfie == offset;
-            golfie = undefined;
-            if(yankee) { _fun00014_ip = 131; continue _fun00013 }
- 125:
-            golfie = offset.selfMute;
- 131:
-            tangon = golfie;
- 134:
-            zuuluu = tangon;
- 137:
-            golfie = _closure1_slot4;
-            tangon = golfie.isSpeaking;
-            tangon = tangon.bind(golfie)(option, verify);
-            if(!tangon) { _fun00014_ip = 159; continue _fun00013 }
- 156:
-            tangon = !zuuluu;
- 159:
-            golfie = _closure1_slot4;
-            zuuluu = golfie.isSoundSharing;
-            zuuluu = zuuluu.bind(golfie)(option);
-            if(!zuuluu) { _fun00014_ip = 180; continue _fun00013 }
- 177:
-            zuuluu = michal;
- 180:
-            michal = _closure1_slot6;
+ 37:
+            michal = tangon.checkIsMuted;
+            if(!(michal === report)) { _fun00014_ip = 49; continue _fun00013 }
+ 47:
+            michal = false;
+ 49:
+            verify = tangon.context;
+            if(!(zuuluu === report)) { _fun00014_ip = 100; continue _fun00013 }
+ 58:
+            offset = _closure1_slot5;
+            tangon = new Array(4);
+            tangon[0] = offset;
+            offset = _closure1_slot3;
+            tangon[1] = offset;
+            offset = _closure1_slot4;
+            tangon[2] = offset;
             golfie = _closure1_slot2;
+            tangon[3] = golfie;
+            zuuluu = tangon;
+ 100:
+            romeon = zuuluu;
+            tangon = romeon[Symbol.iterator];
+            romeon = tangon().next;
+            zuuluu = romeon().value;
+            golfie = tangon;
+            yankee = golfie === report;
+            foxtra = undefined;
+            if(yankee) { _fun00014_ip = 125; continue _fun00013 }
+ 122:
+            foxtra = zuuluu;
+ 125:
+            offset = undefined;
+            if(yankee) { _fun00014_ip = 155; continue _fun00013 }
+ 130:
+            golfie = romeon().value;
+            zuuluu = tangon;
+            zuuluu = zuuluu === report;
+            offset = undefined;
+            yankee = zuuluu;
+            if(zuuluu) { _fun00014_ip = 155; continue _fun00013 }
+ 149:
+            offset = golfie;
+            yankee = zuuluu;
+ 155:
+            zuuluu = undefined;
+            if(yankee) { _fun00014_ip = 185; continue _fun00013 }
+ 160:
+            backup = romeon().value;
+            golfie = tangon;
+            golfie = golfie === report;
+            zuuluu = undefined;
+            yankee = golfie;
+            if(golfie) { _fun00014_ip = 185; continue _fun00013 }
+ 179:
+            zuuluu = backup;
+            yankee = golfie;
+ 185:
+            golfie = undefined;
+            if(yankee) { _fun00014_ip = 215; continue _fun00013 }
+ 190:
+            backup = romeon().value;
+            romeon = tangon;
+            romeon = romeon === report;
+            golfie = undefined;
+            yankee = romeon;
+            if(romeon) { _fun00014_ip = 215; continue _fun00013 }
+ 209:
+            golfie = backup;
+            yankee = romeon;
+ 215:
+            if(yankee) { _fun00014_ip = 221; continue _fun00013 }
+ 218:
+            tangon.return();
+ 221:
+            tangon = offset.getVoiceChannelId;
+            romeon = tangon.bind(offset)();
+            offset = null;
+            tangon = offset != romeon;
+            yankee = null;
+            if(!tangon) { _fun00014_ip = 254; continue _fun00013 }
+ 242:
+            tangon = foxtra.getVoiceStateForChannel;
+            yankee = tangon.bind(foxtra)(romeon, option);
+ 254:
+            if(!michal) { _fun00014_ip = 296; continue _fun00013 }
+ 257:
+            romeon = offset == yankee;
+            tangon = undefined;
+            if(romeon) { _fun00014_ip = 272; continue _fun00013 }
+ 266:
+            tangon = yankee.mute;
+ 272:
+            if(tangon) { _fun00014_ip = 293; continue _fun00013 }
+ 275:
+            romeon = offset == yankee;
+            offset = undefined;
+            if(romeon) { _fun00014_ip = 290; continue _fun00013 }
+ 284:
+            offset = yankee.selfMute;
+ 290:
+            tangon = offset;
+ 293:
+            michal = tangon;
+ 296:
+            tangon = zuuluu.isSpeaking;
+            tangon = tangon.bind(zuuluu)(option, verify);
+            if(!tangon) { _fun00014_ip = 314; continue _fun00013 }
+ 311:
+            tangon = !michal;
+ 314:
+            michal = zuuluu.isSoundSharing;
+            zuuluu = michal.bind(zuuluu)(option);
+            if(!zuuluu) { _fun00014_ip = 331; continue _fun00013 }
+ 328:
+            zuuluu = entity;
+ 331:
+            michal = _closure1_slot6;
             entity = golfie.isUserPlayingSounds;
             entity = entity.bind(golfie)(option);
-            if(!entity) { _fun00014_ip = 205; continue _fun00013 }
- 202:
+            if(!entity) { _fun00014_ip = 355; continue _fun00013 }
+ 352:
             entity = oscard;
- 205:
+ 355:
             entity = michal.bind(report)(tangon, entity, zuuluu);
             return entity;
         }

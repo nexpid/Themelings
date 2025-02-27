@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report = copyDataProperties(echoed, result);
             report = 'children';
             entity[report] = verify;
-            _fun00004_ip = 403; continue _fun00003;
+            _fun00004_ip = 407; continue _fun00003;
  255:
             report = {'shadow': 'none', 'border': 'none', 'start': true, 'end': true};
             report['onPress'] = foxtra;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = 'children';
             report[oscard] = golfie;
             entity = report;
- 403:
+ 407:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

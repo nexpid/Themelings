@@ -443,8 +443,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(tangon)(foxtra);
             backup = foxtra.Text;
             foxtra = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(!oscard) { _fun00002_ip = 564; continue _fun00001 }
- 509:
+            if(!oscard) { _fun00002_ip = 560; continue _fun00001 }
+ 505:
             update = _closure1_slot0;
             source = _closure1_slot2;
             output = 12;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.t;
             output = output.Kzyxm5;
             sizing = result.bind(echoed)(output);
- 564:
+ 560:
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             offset[1] = foxtra;
@@ -467,8 +467,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot9;
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 698; continue _fun00001 }
- 607:
+            if(oscard) { _fun00002_ip = 694; continue _fun00001 }
+ 603:
             oscard = 19;
             oscard = offset[oscard];
             oscard = option.bind(tangon)(oscard);
@@ -487,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['text'] = foxtra;
             oscard['onPress'] = romeon;
             oscard = verify.bind(tangon)(golfie, oscard);
-            _fun00002_ip = 735; continue _fun00001;
- 698:
+            _fun00002_ip = 731; continue _fun00001;
+ 694:
             golfie = 20;
             golfie = offset[golfie];
             golfie = option.bind(tangon)(golfie);
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['marginHorizontal'] = yankee;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 735:
+ 731:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

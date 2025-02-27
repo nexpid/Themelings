@@ -129,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = golfie.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 386; continue _fun00001 }
- 380:
+        if(!sizing) { _fun00002_ip = 390; continue _fun00001 }
+ 384:
         kiloes = -2;
- 386:
+ 390:
         romeon['marginTop'] = kiloes;
         oscard['actionText'] = romeon;
         romeon = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};

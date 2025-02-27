@@ -249,6 +249,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     oscard = oscard instanceof Object ? oscard : golfie;
     report['sdk.social_layer'] = oscard;
     michal['UMBRELLA_PERMISSIBLE_SCOPES'] = report;
+    golfie = entity.Set;
+    report = golfie.prototype;
+    oscard = Object.create(report, {constructor: {value: golfie}});
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    romeon = oscard;
+    report = new romeon[golfie](yankee, offset);
+    report = report instanceof Object ? report : oscard;
+    michal['SDK_SOCIAL_LAYER_UMBRELLA_PERMISSIBLE_SCOPES'] = report;
     oscard = entity.Set;
     entity = oscard.prototype;
     report = Object.create(entity, {constructor: {value: oscard}});

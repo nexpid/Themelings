@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = new Array(2);
             foxtra[0] = backup;
             backup = verify;
-            if(!backup) { _fun00002_ip = 260; continue _fun00001 }
- 254:
+            if(!backup) { _fun00002_ip = 256; continue _fun00001 }
+ 250:
             backup = offset.rowLabelSelected;
- 260:
+ 256:
             foxtra[1] = backup;
             golfie['style'] = foxtra;
             golfie['children'] = romeon;

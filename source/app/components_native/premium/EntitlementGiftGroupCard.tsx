@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['style'] = option;
                 option = verify != result;
                 verify = null;
-                if(!option) { _fun00008_ip = 210; continue _fun00007 }
+                if(!option) { _fun00008_ip = 214; continue _fun00007 }
  129:
                 yankee = _closure1_slot19;
                 sizing = _closure1_slot1;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = romeon.giftIcon;
                 option['style'] = backup;
                 verify = yankee.bind(tangon)(offset, option);
- 210:
+ 214:
                 option = new Array(3);
                 option[0] = verify;
                 backup = _closure1_slot20;
@@ -540,15 +540,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = sizing.LARGE;
                 verify['size'] = sizing;
                 sizing = _closure1_slot2;
-                if(foxtra) { _fun00008_ip = 501; continue _fun00007 }
- 492:
+                if(foxtra) { _fun00008_ip = 505; continue _fun00007 }
+ 496:
                 foxtra = 23;
                 foxtra = sizing[foxtra];
-                _fun00008_ip = 508; continue _fun00007;
- 501:
+                _fun00008_ip = 512; continue _fun00007;
+ 505:
                 kiloes = 22;
                 foxtra = sizing[kiloes];
- 508:
+ 512:
                 foxtra = backup.bind(tangon)(foxtra);
                 verify['source'] = foxtra;
                 romeon = romeon.arrow;

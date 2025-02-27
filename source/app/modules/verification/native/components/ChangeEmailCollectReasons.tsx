@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = null;
             michal = kiloes == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 804; continue _fun00001 }
+            if(michal) { _fun00002_ip = 808; continue _fun00001 }
  255:
             tangon = _closure1_slot12;
             backup = _closure1_slot0;
@@ -382,14 +382,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['style'] = output;
             output = new Array(2);
             output[0] = ctrled;
-            if(!echoed) { _fun00002_ip = 494; continue _fun00001 }
- 480:
+            if(!echoed) { _fun00002_ip = 498; continue _fun00001 }
+ 484:
             ctrled = _closure1_slot8;
             ctrled = ctrled.SOMETHING_ELSE;
             echoed = sizing === ctrled;
- 494:
-            if(!echoed) { _fun00002_ip = 642; continue _fun00001 }
- 500:
+ 498:
+            if(!echoed) { _fun00002_ip = 646; continue _fun00001 }
+ 504:
             vacuum = _closure1_slot12;
             sierra = _closure1_slot0;
             papara = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = vacuum.bind(report)(config, sequen);
             update['children'] = sequen;
             echoed = vacuum.bind(report)(ctrled, update);
- 642:
+ 646:
             output[1] = echoed;
             foxtra['children'] = output;
             foxtra = offset.bind(report)(backup, foxtra);
@@ -455,7 +455,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 804:
+ 808:
             return entity;
         }
     };

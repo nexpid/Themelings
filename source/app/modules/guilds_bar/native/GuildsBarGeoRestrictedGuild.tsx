@@ -215,8 +215,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['style'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);
             entity['externalChildren'] = oscard;
-            if(!(report == offset)) { _fun00002_ip = 350; continue _fun00001 }
- 268:
+            if(!(report == offset)) { _fun00002_ip = 346; continue _fun00001 }
+ 264:
             golfie = _closure1_slot4;
             oscard = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -233,8 +233,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.LARGE;
             report['size'] = option;
             report = golfie.bind(tangon)(oscard, report);
-            _fun00002_ip = 407; continue _fun00001;
- 350:
+            _fun00002_ip = 403; continue _fun00001;
+ 346:
             option = _closure1_slot4;
             golfie = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 0;
             oscard['fadeDuration'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 407:
+ 403:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

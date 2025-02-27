@@ -4,9 +4,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBaz;
     zuuluu = argFre;
     offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = offset;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = offset;
     entity = global;
     golfie = entity.Object;
     oscard = golfie.defineProperty;
@@ -19,25 +18,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = offset[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     tangon = 1;
-    tangon = offset[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = offset[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = offset[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
     tangon = offset[tangon];
     tangon = verify.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
     tangon = offset[tangon];
     oscard = report.bind(entity)(tangon);
     tangon = oscard.prototype;
@@ -46,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     sizing = report;
     tangon = new sizing[oscard](kiloes, backup);
     tangon = tangon instanceof Object ? tangon : report;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot4 = tangon;
     golfie = {};
     tangon = 'stream-failed-to-start';
     golfie['STREAM_FAILED_TO_START'] = tangon;
@@ -56,18 +43,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['NO_AUDIO_INPUT_DETECTED'] = tangon;
     tangon = 'debug-log-upload-failed';
     golfie['DEBUG_LOG_UPLOAD_FAILED'] = tangon;
-    tangon = 'stream-view-low-fps';
-    golfie['STREAM_VIEW_LOW_FPS'] = tangon;
-    tangon = 'stream-view-high-packet-loss';
-    golfie['STREAM_VIEW_HIGH_PACKET_LOSS'] = tangon;
-    tangon = 'stream-send-low-encode-fps';
-    golfie['STREAM_SEND_LOW_FPS'] = tangon;
-    tangon = 'stream-send-high-packet-loss';
-    golfie['STREAM_SEND_HIGH_PACKET_LOSS'] = tangon;
-    tangon = 'stream-send-network-quality';
-    golfie['STREAM_BAD_NETWORK_QUALITY'] = tangon;
-    tangon = 'stream-soundshare-failed';
-    golfie['STREAM_SOUNDSHARE_FAILED'] = tangon;
     oscard = {};
     tangon = 'audio';
     oscard['Audio'] = tangon;
@@ -85,65 +60,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 'info';
     report['Info'] = tangon;
     tangon = {};
-    yankee = golfie.STREAM_SOUNDSHARE_FAILED;
-    option = {};
-    romeon = 1001;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
-    option['severity'] = romeon;
-    romeon = oscard.Audio;
-    option['category'] = romeon;
-    tangon[yankee] = option;
     yankee = golfie.STREAM_FAILED_TO_START;
     option = {};
     romeon = 2001;
     option['errorCode'] = romeon;
     romeon = report.Critical;
-    option['severity'] = romeon;
-    romeon = oscard.Video;
-    option['category'] = romeon;
-    tangon[yankee] = option;
-    yankee = golfie.STREAM_VIEW_LOW_FPS;
-    option = {};
-    romeon = 2002;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
-    option['severity'] = romeon;
-    romeon = oscard.Video;
-    option['category'] = romeon;
-    tangon[yankee] = option;
-    yankee = golfie.STREAM_VIEW_HIGH_PACKET_LOSS;
-    option = {};
-    romeon = 2003;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
-    option['severity'] = romeon;
-    romeon = oscard.Video;
-    option['category'] = romeon;
-    tangon[yankee] = option;
-    yankee = golfie.STREAM_SEND_HIGH_PACKET_LOSS;
-    option = {};
-    romeon = 2004;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
-    option['severity'] = romeon;
-    romeon = oscard.Video;
-    option['category'] = romeon;
-    tangon[yankee] = option;
-    yankee = golfie.STREAM_SEND_LOW_FPS;
-    option = {};
-    romeon = 2005;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
-    option['severity'] = romeon;
-    romeon = oscard.Video;
-    option['category'] = romeon;
-    tangon[yankee] = option;
-    yankee = golfie.STREAM_BAD_NETWORK_QUALITY;
-    option = {};
-    romeon = 2006;
-    option['errorCode'] = romeon;
-    romeon = report.Warning;
     option['severity'] = romeon;
     romeon = oscard.Video;
     option['category'] = romeon;
@@ -175,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = oscard.Debug;
     option['category'] = romeon;
     tangon[yankee] = option;
-    var _closure1_slot9 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = {};
     option = 'Unknown';
     tangon['Unknown'] = option;
@@ -189,14 +110,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['UploadErrorUpload'] = option;
     option = 'UploadErrorCodes.READ';
     tangon['UploadErrorRead'] = option;
-    var _closure1_slot10 = tangon;
+    var _closure1_slot6 = tangon;
     option = function() { // Original name: validateUniqueErrorCodes
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             oscard = entity.Object;
             report = oscard.values;
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot5;
             oscard = report.bind(oscard)(tangon);
             report = oscard.map;
             tangon = function(argFoo) {
@@ -234,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             report = entity.Object;
             tangon = report.entries;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot5;
             report = tangon.bind(report)(zuuluu);
             tangon = report.filter;
             zuuluu = function(argFoo) {
@@ -333,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     option = option.bind(entity)();
-    option = 9;
+    option = 5;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -347,359 +268,163 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             offset = argFoo;
-            zuuluu = argBar;
-            entity = zuuluu.underlyingError;
+            golfie = argBar;
+            entity = golfie.underlyingError;
             michal = null;
             if(!(michal != entity)) { _fun00008_ip = 116; continue _fun00007 }
  18:
             entity = global;
-            golfie = entity.Object;
-            oscard = golfie.values;
-            report = _closure1_slot10;
-            golfie = oscard.bind(golfie)(report);
-            oscard = golfie.includes;
-            report = zuuluu.underlyingError;
-            report = oscard.bind(golfie)(report);
-            if(report) { _fun00008_ip = 116; continue _fun00007 }
- 62:
-            report = _closure1_slot8;
-            tangon = report.error;
-            option = zuuluu.underlyingError;
-            entity = entity.HermesInternal;
-            golfie = entity.concat;
-            oscard = "Invalid underlying error string '";
-            entity = "', must be member of AVUnderlyingError";
-            entity = golfie.bind(oscard)(option, entity);
-            entity = tangon.bind(report)(entity);
-            _fun00008_ip = 1290; continue _fun00007;
- 116:
-            oscard = _closure1_slot8;
-            report = oscard.error;
-            tangon = global;
-            option = tangon.JSON;
-            golfie = option.stringify;
-            verify = golfie.bind(option)(zuuluu);
-            tangon = tangon.HermesInternal;
-            option = tangon.concat;
-            golfie = 'AV error reported: ';
-            tangon = ' ';
-            tangon = option.bind(golfie)(offset, tangon, verify);
+            oscard = entity.Object;
+            report = oscard.values;
+            tangon = _closure1_slot6;
+            oscard = report.bind(oscard)(tangon);
+            report = oscard.includes;
+            tangon = golfie.underlyingError;
             tangon = report.bind(oscard)(tangon);
-            tangon = _closure1_slot9;
-            option = tangon[offset];
+            if(tangon) { _fun00008_ip = 116; continue _fun00007 }
+ 62:
+            tangon = _closure1_slot4;
+            zuuluu = tangon.error;
+            option = golfie.underlyingError;
+            entity = entity.HermesInternal;
+            oscard = entity.concat;
+            report = "Invalid underlying error string '";
+            entity = "', must be member of AVUnderlyingError";
+            entity = oscard.bind(report)(option, entity);
+            entity = zuuluu.bind(tangon)(entity);
+            _fun00008_ip = 748; continue _fun00007;
+ 116:
+            report = _closure1_slot4;
+            tangon = report.error;
+            zuuluu = global;
+            option = zuuluu.JSON;
+            oscard = option.stringify;
+            verify = oscard.bind(option)(golfie);
+            zuuluu = zuuluu.HermesInternal;
+            option = zuuluu.concat;
+            oscard = 'AV error reported: ';
+            zuuluu = ' ';
+            zuuluu = option.bind(oscard)(offset, zuuluu, verify);
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = _closure1_slot5;
+            romeon = tangon[offset];
+            report = _closure1_slot0;
             oscard = _closure1_slot1;
-            report = _closure1_slot2;
-            tangon = 8;
-            tangon = report[tangon];
-            report = undefined;
-            golfie = oscard.bind(report)(tangon);
-            oscard = golfie.dispatch;
+            zuuluu = 4;
+            option = oscard[zuuluu];
+            zuuluu = undefined;
+            yankee = report.bind(zuuluu)(option);
+            verify = yankee.dispatch;
+            option = {};
+            foxtra = 'REPORT_AV_ERROR';
+            option['type'] = foxtra;
+            option['error'] = offset;
+            foxtra = romeon.errorCode;
+            option['errorCode'] = foxtra;
+            foxtra = romeon.severity;
+            option['severity'] = foxtra;
+            romeon = romeon.category;
+            option['category'] = romeon;
+            option['context'] = golfie;
+            option = verify.bind(yankee)(option);
+            option = tangon[offset];
             tangon = {};
-            verify = 'REPORT_AV_ERROR';
-            tangon['type'] = verify;
-            tangon['error'] = offset;
+            verify = offset.valueOf;
+            verify = verify.bind(offset)();
+            tangon['error_name'] = verify;
             verify = option.errorCode;
-            tangon['errorCode'] = verify;
+            tangon['error_code'] = verify;
             verify = option.severity;
-            tangon['severity'] = verify;
-            option = option.category;
-            tangon['category'] = option;
-            tangon['context'] = zuuluu;
-            tangon = oscard.bind(golfie)(tangon);
-            oscard = zuuluu.channelId;
-            if(!(michal == oscard)) { _fun00008_ip = 294; continue _fun00007 }
- 280:
-            golfie = _closure1_slot6;
-            tangon = golfie.getVoiceChannelId;
-            oscard = tangon.bind(golfie)();
- 294:
-            golfie = _closure1_slot3;
-            tangon = golfie.getChannel;
-            golfie = tangon.bind(golfie)(oscard);
-            tangon = zuuluu.streamKey;
-            tangon = michal != tangon;
-            verify = oscard;
-            oscard = null;
-            if(!tangon) { _fun00008_ip = 363; continue _fun00007 }
- 326:
-            option = _closure1_slot0;
-            yankee = _closure1_slot2;
-            tangon = 6;
-            tangon = yankee[tangon];
-            yankee = option.bind(report)(tangon);
-            option = yankee.decodeStreamKey;
-            tangon = zuuluu.streamKey;
-            oscard = option.bind(yankee)(tangon);
- 363:
-            tangon = {};
-            option = offset.valueOf;
-            option = option.bind(offset)();
-            tangon['error_name'] = option;
-            option = _closure1_slot9;
-            yankee = option[offset];
-            yankee = yankee.errorCode;
-            tangon['error_code'] = yankee;
-            yankee = option[offset];
-            yankee = yankee.severity;
-            tangon['error_severity'] = yankee;
-            option = option[offset];
+            tangon['error_severity'] = verify;
             option = option.category;
             tangon['error_category'] = option;
-            offset = zuuluu.underlyingError;
-            yankee = michal != offset;
-            option = null;
-            if(!yankee) { _fun00008_ip = 451; continue _fun00007 }
- 448:
-            option = offset;
- 451:
+            option = golfie.underlyingError;
             tangon['underlying_error'] = option;
-            offset = zuuluu.errorMessage;
-            yankee = michal != offset;
-            option = null;
-            if(!yankee) { _fun00008_ip = 476; continue _fun00007 }
- 473:
-            option = offset;
- 476:
+            option = golfie.errorMessage;
             tangon['error_message'] = option;
-            option = michal == golfie;
-            offset = undefined;
-            if(option) { _fun00008_ip = 495; continue _fun00007 }
- 490:
-            offset = golfie.guild_id;
- 495:
-            yankee = michal != offset;
-            option = null;
-            if(!yankee) { _fun00008_ip = 507; continue _fun00007 }
- 504:
-            option = offset;
- 507:
+            option = golfie.guildId;
             tangon['guild_id'] = option;
-            offset = michal != verify;
-            option = null;
-            if(!offset) { _fun00008_ip = 523; continue _fun00007 }
- 520:
-            option = verify;
- 523:
+            option = golfie.channelId;
             tangon['channel_id'] = option;
-            verify = michal == golfie;
-            option = undefined;
-            if(verify) { _fun00008_ip = 541; continue _fun00007 }
- 536:
-            option = golfie.type;
- 541:
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 553; continue _fun00007 }
- 550:
-            golfie = option;
- 553:
-            tangon['channel_type'] = golfie;
-            option = zuuluu.rtcConnectionId;
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 576; continue _fun00007 }
- 573:
-            golfie = option;
- 576:
-            tangon['rtc_connection_id'] = golfie;
-            option = zuuluu.mediaSessionId;
-            if(!(michal == option)) { _fun00008_ip = 605; continue _fun00007 }
- 591:
-            verify = _closure1_slot5;
-            golfie = verify.getMediaSessionId;
-            option = golfie.bind(verify)();
- 605:
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 617; continue _fun00007 }
- 614:
-            golfie = option;
- 617:
-            tangon['media_session_id'] = golfie;
-            option = zuuluu.parentMediaSessionId;
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 640; continue _fun00007 }
- 637:
-            golfie = option;
- 640:
-            tangon['parent_media_session_id'] = golfie;
-            option = zuuluu.mediaContext;
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 663; continue _fun00007 }
- 660:
-            golfie = option;
- 663:
+            option = golfie.channelType;
+            tangon['channel_type'] = option;
+            option = golfie.rtcConnectionId;
+            tangon['rtc_connection_id'] = option;
+            option = golfie.mediaSessionId;
+            tangon['media_session_id'] = option;
+            tangon['parent_media_session_id'] = michal;
+            golfie = golfie.mediaContext;
             tangon['context'] = golfie;
-            option = _closure1_slot5;
-            golfie = option.getRTCConnection;
-            verify = golfie.bind(option)();
-            golfie = michal == verify;
-            option = undefined;
-            if(golfie) { _fun00008_ip = 702; continue _fun00007 }
- 690:
-            golfie = verify.getVoiceVersion;
-            option = golfie.bind(verify)();
- 702:
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 714; continue _fun00007 }
- 711:
-            golfie = option;
- 714:
-            tangon['voice_backend_version'] = golfie;
-            option = _closure1_slot5;
-            golfie = option.getRTCConnection;
-            verify = golfie.bind(option)();
-            golfie = michal == verify;
-            option = undefined;
-            if(golfie) { _fun00008_ip = 754; continue _fun00007 }
- 742:
-            golfie = verify.getRtcWorkerVersion;
-            option = golfie.bind(verify)();
- 754:
-            verify = michal != option;
-            golfie = null;
-            if(!verify) { _fun00008_ip = 766; continue _fun00007 }
- 763:
-            golfie = option;
- 766:
-            tangon['rtc_worker_backend_version'] = golfie;
-            option = _closure1_slot4;
+            option = _closure1_slot2;
             golfie = option.getHardwareEncoding;
             golfie = golfie.bind(option)();
             tangon['hardware_enabled'] = golfie;
-            golfie = zuuluu.audioInputDeviceName;
-            if(!(michal == golfie)) { _fun00008_ip = 847; continue _fun00007 }
- 802:
-            offset = _closure1_slot4;
-            option = offset.getInputDevices;
-            verify = option.bind(offset)();
-            option = offset.getInputDeviceId;
-            option = option.bind(offset)();
-            verify = verify[option];
-            offset = michal == verify;
-            option = undefined;
-            if(offset) { _fun00008_ip = 844; continue _fun00007 }
- 839:
-            option = verify.name;
- 844:
-            golfie = option;
- 847:
-            tangon['audio_input_device_name'] = golfie;
-            golfie = zuuluu.audioOutputDeviceName;
-            if(!(michal == golfie)) { _fun00008_ip = 909; continue _fun00007 }
- 864:
-            offset = _closure1_slot4;
-            option = offset.getOutputDevices;
-            verify = option.bind(offset)();
-            option = offset.getOutputDeviceId;
-            option = option.bind(offset)();
-            verify = verify[option];
-            offset = michal == verify;
-            option = undefined;
-            if(offset) { _fun00008_ip = 906; continue _fun00007 }
- 901:
-            option = verify.name;
- 906:
-            golfie = option;
- 909:
-            tangon['audio_output_device_name'] = golfie;
-            zuuluu = zuuluu.videoDeviceName;
-            if(!(michal == zuuluu)) { _fun00008_ip = 971; continue _fun00007 }
- 926:
-            verify = _closure1_slot4;
-            golfie = verify.getVideoDevices;
-            option = golfie.bind(verify)();
-            golfie = verify.getVideoDeviceId;
+            tangon['voice_backend_version'] = michal;
+            tangon['rtc_worker_backend_version'] = michal;
+            tangon['audio_input_device_name'] = michal;
+            tangon['audio_output_device_name'] = michal;
+            tangon['video_device_name'] = michal;
+            golfie = option.getMediaEngine;
+            verify = golfie.bind(option)();
+            golfie = verify.getAudioSubsystem;
             golfie = golfie.bind(verify)();
-            option = option[golfie];
-            verify = michal == option;
-            golfie = undefined;
-            if(verify) { _fun00008_ip = 968; continue _fun00007 }
- 963:
-            golfie = option.name;
- 968:
-            zuuluu = golfie;
- 971:
-            tangon['video_device_name'] = zuuluu;
-            golfie = _closure1_slot4;
-            zuuluu = golfie.getMediaEngine;
-            option = zuuluu.bind(golfie)();
-            zuuluu = option.getAudioSubsystem;
-            zuuluu = zuuluu.bind(option)();
-            tangon['audio_subsystem'] = zuuluu;
-            zuuluu = golfie.getMediaEngine;
-            option = zuuluu.bind(golfie)();
-            zuuluu = option.getAudioLayer;
-            zuuluu = zuuluu.bind(option)();
-            tangon['audio_layer'] = zuuluu;
-            zuuluu = golfie.getSettings;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = zuuluu.mode;
-            tangon['audio_input_mode'] = zuuluu;
-            zuuluu = golfie.getSettings;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = zuuluu.modeOptions;
-            zuuluu = zuuluu.autoThreshold;
-            tangon['automatic_audio_input_sensitivity_enabled'] = zuuluu;
-            zuuluu = golfie.getSettings;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = zuuluu.modeOptions;
-            zuuluu = zuuluu.threshold;
-            tangon['audio_input_sensitivity'] = zuuluu;
-            zuuluu = golfie.getEchoCancellation;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['echo_cancellation_enabled'] = zuuluu;
-            zuuluu = golfie.getNoiseSuppression;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['noise_suppression_enabled'] = zuuluu;
-            zuuluu = golfie.getNoiseCancellation;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['noise_cancellation_enabled'] = zuuluu;
-            zuuluu = golfie.getAutomaticGainControl;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['automatic_gain_control_enabled'] = zuuluu;
-            zuuluu = golfie.getSidechainCompression;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['sidechain_compression_enabled'] = zuuluu;
-            zuuluu = golfie.getInputVolume;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['input_volume'] = zuuluu;
-            zuuluu = golfie.getOutputVolume;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon['output_volume'] = zuuluu;
-            golfie = michal == oscard;
-            zuuluu = undefined;
-            if(golfie) { _fun00008_ip = 1232; continue _fun00007 }
- 1226:
-            zuuluu = oscard.ownerId;
- 1232:
-            oscard = michal != zuuluu;
-            michal = null;
-            if(!oscard) { _fun00008_ip = 1244; continue _fun00007 }
- 1241:
-            michal = zuuluu;
- 1244:
+            tangon['audio_subsystem'] = golfie;
+            golfie = option.getMediaEngine;
+            verify = golfie.bind(option)();
+            golfie = verify.getAudioLayer;
+            golfie = golfie.bind(verify)();
+            tangon['audio_layer'] = golfie;
+            golfie = option.getSettings;
+            golfie = golfie.bind(option)();
+            golfie = golfie.mode;
+            tangon['audio_input_mode'] = golfie;
+            golfie = option.getSettings;
+            golfie = golfie.bind(option)();
+            golfie = golfie.modeOptions;
+            golfie = golfie.autoThreshold;
+            tangon['automatic_audio_input_sensitivity_enabled'] = golfie;
+            golfie = option.getSettings;
+            golfie = golfie.bind(option)();
+            golfie = golfie.modeOptions;
+            golfie = golfie.threshold;
+            tangon['audio_input_sensitivity'] = golfie;
+            golfie = option.getEchoCancellation;
+            golfie = golfie.bind(option)();
+            tangon['echo_cancellation_enabled'] = golfie;
+            golfie = option.getNoiseSuppression;
+            golfie = golfie.bind(option)();
+            tangon['noise_suppression_enabled'] = golfie;
+            golfie = option.getNoiseCancellation;
+            golfie = golfie.bind(option)();
+            tangon['noise_cancellation_enabled'] = golfie;
+            golfie = option.getAutomaticGainControl;
+            golfie = golfie.bind(option)();
+            tangon['automatic_gain_control_enabled'] = golfie;
+            golfie = option.getSidechainCompression;
+            golfie = golfie.bind(option)();
+            tangon['sidechain_compression_enabled'] = golfie;
+            golfie = option.getInputVolume;
+            golfie = golfie.bind(option)();
+            tangon['input_volume'] = golfie;
+            golfie = option.getOutputVolume;
+            golfie = golfie.bind(option)();
+            tangon['output_volume'] = golfie;
             tangon['sender_user_id'] = michal;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 7;
+            michal = 3;
             michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
+            zuuluu = report.bind(zuuluu)(michal);
             michal = zuuluu.track;
-            entity = _closure1_slot7;
+            entity = _closure1_slot3;
             entity = entity.AV_ERROR_REPORTED;
             entity = michal.bind(zuuluu)(entity, tangon);
- 1290:
+ 748:
             entity = undefined;
             return entity;
         }
     };
     zuuluu['reportAVError'] = tangon;
     michal = function(argFoo) { // Original name: getErrorInfo
-        michal = _closure1_slot9;
+        michal = _closure1_slot5;
         entity = argFoo;
         entity = michal[entity];
         return entity;

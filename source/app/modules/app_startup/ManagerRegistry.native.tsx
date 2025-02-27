@@ -1564,7 +1564,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH'];
     entity['actions'] = option;
-    option = function() { // Original name: inlineRequire
+    golfie = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 101;
@@ -1574,32 +1574,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = entity.default;
         return entity;
     };
-    entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = tangon;
-    michal['ReferralMessageManager'] = entity;
-    entity = {};
-    option = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_USER_CREATE'];
-    entity['actions'] = option;
-    golfie = function() { // Original name: inlineRequire
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 102;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.default;
-        return entity;
-    };
     entity['inlineRequire'] = golfie;
     entity['neverLoadBeforeConnectionOpen'] = tangon;
-    michal['AVErrorManager'] = entity;
-    entity = 103;
+    michal['ReferralMessageManager'] = entity;
+    entity = 102;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 104;
+    tangon = 103;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

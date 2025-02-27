@@ -1016,7 +1016,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot16;
             foxtra = {};
             kiloes = null;
-            if(sizing) { _fun00010_ip = 1175; continue _fun00009 }
+            if(sizing) { _fun00010_ip = 1167; continue _fun00009 }
  621:
             result = _closure1_slot15;
             output = _closure1_slot5;
@@ -1154,7 +1154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[2] = update;
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 1175:
+ 1167:
             foxtra['children'] = kiloes;
             foxtra = option.bind(tangon)(backup, foxtra);
             oscard['ListHeaderComponent'] = foxtra;
