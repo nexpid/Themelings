@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = _closure2_slot2;
                     michal = tangon.bind(report)(zuuluu, michal);
                     entity[1] = michal;
-                    _fun00004_ip = 97; continue _fun00003;
+                    _fun00004_ip = 99; continue _fun00003;
  80:
                     michal = [null];
                     zuuluu = true;
                     michal[1] = zuuluu;
                     entity = michal;
- 97:
+ 99:
                     return entity;
                 }
             };

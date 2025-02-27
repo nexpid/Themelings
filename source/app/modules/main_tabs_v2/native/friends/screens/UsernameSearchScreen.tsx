@@ -231,13 +231,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = update.bind(tangon)(output);
             output = output.spacing;
             output = output.PX_16;
-            if(echoed) { _fun00002_ip = 352; continue _fun00001 }
- 346:
+            if(echoed) { _fun00002_ip = 347; continue _fun00001 }
+ 341:
             backup = backup + output;
-            _fun00002_ip = 355; continue _fun00001;
- 352:
+            _fun00002_ip = 350; continue _fun00001;
+ 347:
             backup = output;
- 355:
+ 350:
             foxtra['paddingBottom'] = backup;
             yankee[1] = foxtra;
             verify['contentContainerStyle'] = yankee;

@@ -244,28 +244,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = _closure2_slot2;
                     report = null;
-                    if(!(report == entity)) { _fun00012_ip = 73; continue _fun00011 }
+                    if(!(report == entity)) { _fun00012_ip = 84; continue _fun00011 }
  13:
-                    michal = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    entity = 10;
-                    entity = zuuluu[entity];
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = _closure2_slot1;
-                    golfie = report == entity;
-                    entity = undefined;
+                    zuuluu = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 10;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = _closure2_slot1;
+                    golfie = report == michal;
+                    michal = undefined;
                     if(golfie) { _fun00012_ip = 60; continue _fun00011 }
  51:
                     oscard = _closure2_slot1;
-                    entity = oscard.id;
+                    michal = oscard.id;
  60:
-                    if(!(report == entity)) { _fun00012_ip = 68; continue _fun00011 }
+                    if(!(report == michal)) { _fun00012_ip = 68; continue _fun00011 }
  64:
-                    entity = _closure1_slot9;
+                    michal = _closure1_slot9;
  68:
-                    entity = michal.bind(zuuluu)(entity);
- 73:
+                    entity = {};
+                    report = true;
+                    entity['withMutualGuilds'] = report;
+                    entity = zuuluu.bind(tangon)(michal, tangon, entity);
+ 84:
                     entity = undefined;
                     return entity;
                 }

@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(32);
+        entity = new Array(31);
         entity[0] = report;
         report = {};
         golfie = 'getUserAgnosticState';
@@ -782,16 +782,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[27] = report;
         report = {};
-        golfie = 'swipeToReply';
+        golfie = 'showPlayAgain';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
                 entity = _closure1_slot17;
-                michal = entity.swipeToReply;
+                michal = entity.showPlayAgain;
                 entity = null;
-                entity = entity != michal;
-                if(!entity) { _fun00056_ip = 25; continue _fun00055 }
+                entity = entity == michal;
+                if(entity) { _fun00056_ip = 25; continue _fun00055 }
  22:
                 entity = michal;
  25:
@@ -801,35 +801,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[28] = report;
         report = {};
-        golfie = 'showPlayAgain';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
- 0:
-                entity = _closure1_slot17;
-                michal = entity.showPlayAgain;
-                entity = null;
-                entity = entity == michal;
-                if(entity) { _fun00058_ip = 25; continue _fun00057 }
- 22:
-                entity = michal;
- 25:
-                return entity;
-            }
-        };
-        report['get'] = golfie;
-        entity[29] = report;
-        report = {};
         golfie = 'isVisualRefreshDisabled';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
+            _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                 entity = argFoo;
                 michal = _closure1_slot17;
                 michal = michal.disableVisualRefresh;
                 zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00060_ip = 25; continue _fun00059 }
+                if(!(zuuluu != michal)) { _fun00058_ip = 25; continue _fun00057 }
  22:
                 entity = michal;
  25:
@@ -837,17 +818,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[30] = report;
+        entity[29] = report;
         report = {};
         golfie = 'listDensity';
         report['key'] = golfie;
         oscard = function() { // Original name: get
-            _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
+            _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
                 entity = _closure1_slot17;
                 entity = entity.listDensity;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00062_ip = 29; continue _fun00061 }
+                if(!(zuuluu == entity)) { _fun00060_ip = 29; continue _fun00059 }
  19:
                 michal = _closure1_slot13;
                 entity = michal.COZY;
@@ -856,7 +837,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['get'] = oscard;
-        entity[31] = report;
+        entity[30] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -948,11 +929,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     report['LOGOUT'] = yankee;
     yankee = function() { // Original name: handleLogInSuccess
-        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
+        _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
             zuuluu = _closure1_slot17;
             entity = null;
-            if(!(entity == zuuluu)) { _fun00064_ip = 19; continue _fun00063 }
+            if(!(entity == zuuluu)) { _fun00062_ip = 19; continue _fun00061 }
  13:
             entity = {};
             _closure1_slot17 = entity;

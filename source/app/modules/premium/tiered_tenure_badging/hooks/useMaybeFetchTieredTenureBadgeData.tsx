@@ -91,18 +91,17 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
  43:
                 zuuluu = _closure2_slot2;
  47:
-                if(!zuuluu) { _fun00002_ip = 93; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 87; continue _fun00001 }
  50:
-                tangon = _closure1_slot0;
+                tangon = _closure1_slot1;
                 report = _closure1_slot2;
                 zuuluu = 6;
                 zuuluu = report[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.fetchProfile;
+                zuuluu = tangon.bind(entity)(zuuluu);
                 michal = _closure2_slot0;
                 michal = michal.id;
-                michal = zuuluu.bind(tangon)(michal);
- 93:
+                michal = zuuluu.bind(entity)(michal);
+ 87:
                 return entity;
             }
         };

@@ -1,4 +1,4 @@
-// app/modules/age_assurance/AgeVerificationUtils.native.tsx
+// app/modules/age_assurance/AgeVerificationActionCreators.native.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 86; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
  9:
                     oscard = undefined;
                     var _closure4_slot0 = oscard;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 83; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
  66:
                     tangon = michal.default;
                     _closure4_slot0 = tangon;
@@ -81,9 +81,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return zuuluu;
- 83:
+ 85:
                     return michal;
- 86:
+ 88:
                     return entity;
                 }
             };
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['showAgeVerification'] = golfie;
-    golfie = function() { // Original name: showAgeVerificationGetStartedModal
+    tangon = function() { // Original name: showAgeVerificationGetStartedModal
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
         entity = 3;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 86; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 88; continue _fun00003 }
  9:
                     oscard = undefined;
                     var _closure4_slot0 = oscard;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 83; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 85; continue _fun00003 }
  66:
                     tangon = michal.default;
                     _closure4_slot0 = tangon;
@@ -140,9 +140,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return zuuluu;
- 83:
+ 85:
                     return michal;
- 86:
+ 88:
                     return entity;
                 }
             };
@@ -152,22 +152,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    michal['showAgeVerificationGetStartedModal'] = golfie;
-    golfie = function() { // Original name: shouldShowTiggerPawtect
-        entity = false;
-        return entity;
-    };
-    michal['shouldShowTiggerPawtect'] = golfie;
-    tangon = function() { // Original name: useShouldShowTiggerPawtect
-        entity = false;
-        return entity;
-    };
-    michal['useShouldShowTiggerPawtect'] = tangon;
+    michal['showAgeVerificationGetStartedModal'] = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/age_assurance/AgeVerificationUtils.native.tsx';
+    tangon = 'modules/age_assurance/AgeVerificationActionCreators.native.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

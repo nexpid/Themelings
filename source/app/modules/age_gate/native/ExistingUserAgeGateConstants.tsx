@@ -20,6 +20,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['NSFWBlocked'] = entity;
     entity = 'NSFWGateGuild';
     michal['NSFWGateGuild'] = entity;
+    entity = 'Pawtect';
+    michal['Pawtect'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

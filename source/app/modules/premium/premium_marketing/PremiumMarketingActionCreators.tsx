@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 270; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 276; continue _fun00001 }
  10:
                     option = argFoo;
                     tangon = undefined;
@@ -43,11 +43,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 217; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 221; continue _fun00001 }
  95:
                     zuuluu = michal;
                     oscard = michal.ok;
-                    if(oscard) { _fun00002_ip = 152; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 154; continue _fun00001 }
  107:
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_FAILURE';
                     oscard['type'] = verify;
                     oscard = golfie.bind(option)(oscard);
- 147: // try_end0
+ 149: // try_end0
                     oscard = false;
                     return oscard;
- 152: // try_start_1
+ 154: // try_start_1
                     zuuluu = zuuluu.body;
                     zuuluu = zuuluu.eligible;
                     zuuluu = !zuuluu;
@@ -78,11 +78,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = option;
                     report['eligible'] = zuuluu;
                     report = oscard.bind(golfie)(report);
- 214: // try_end1
+ 218: // try_end1
                     return zuuluu;
- 217:
+ 221:
                     return michal;
- 220: // catch_target0 // catch_target1
+ 224: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     zuuluu = _closure1_slot1;
                     report = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     michal = false;
                     return michal;
- 270:
+ 276:
                     return entity;
                 }
             };
@@ -407,6 +407,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['getSubscriptionRewardEligibility'] = tangon;
+    tangon = function(argFoo) { // Original name: setSubscriptionRewardEligibilityLocally
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 3;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_SUCCESS';
+        michal['type'] = report;
+        report = argFoo;
+        michal['eligible'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setSubscriptionRewardEligibilityLocally'] = tangon;
     tangon = function() { // Original name: fetchPremiumMarketingContent
         entity = undefined;
         tangon = _closure1_slot6;

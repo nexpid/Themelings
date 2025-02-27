@@ -395,6 +395,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['USER_AGE_GATE'] = michal;
     michal = 'impression_user_age_gate_underage';
     tangon['USER_AGE_GATE_UNDERAGE'] = michal;
+    michal = 'impression_user_age_gate_verify';
+    tangon['USER_AGE_GATE_VERIFY'] = michal;
     michal = 'impression_user_agreements';
     tangon['USER_AGREEMENTS'] = michal;
     michal = 'impression_user_clyde_ai_consent_modal';

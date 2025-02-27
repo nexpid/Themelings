@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 179; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 181; continue _fun00009 }
  13:
                     oscard = zuuluu.type;
                     michal = null;
@@ -365,24 +365,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report[michal];
  49:
                     michal = 'image/png';
-                    if(!(michal === tangon)) { _fun00010_ip = 143; continue _fun00009 }
- 57:
+                    if(!(michal === tangon)) { _fun00010_ip = 145; continue _fun00009 }
+ 59:
                     michal = zuuluu.text;
                     michal = michal.bind(zuuluu)();
-                    SaveGenerator(address=70);
- 68:
-                    return michal;
+                    SaveGenerator(address=72);
  70:
+                    return michal;
+ 72:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 140; continue _fun00009 }
- 76:
+                    if(zuuluu) { _fun00010_ip = 142; continue _fun00009 }
+ 78:
                     tangon = michal.indexOf;
                     zuuluu = 'IDAT';
                     oscard = tangon.bind(michal)(zuuluu);
                     report = 0;
                     zuuluu = oscard > report;
-                    if(!zuuluu) { _fun00010_ip = 137; continue _fun00009 }
- 101:
+                    if(!zuuluu) { _fun00010_ip = 139; continue _fun00009 }
+ 103:
                     tangon = michal.substring;
                     oscard = tangon.bind(michal)(report, oscard);
                     report = oscard.indexOf;
@@ -390,11 +390,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(oscard)(tangon);
                     tangon = -1;
                     zuuluu = tangon !== report;
- 137:
+ 139:
                     return zuuluu;
- 140:
+ 142:
                     return michal;
- 143:
+ 145:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new verify[tangon](option, golfie);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 179:
+ 181:
                     return entity;
                 }
             };

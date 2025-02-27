@@ -238,25 +238,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             golfie = 1;
             verify = golfie;
-            if(!foxtra) { _fun00004_ip = 679; continue _fun00003 }
- 669:
+            if(!foxtra) { _fun00004_ip = 677; continue _fun00003 }
+ 667:
             verify = 0.5;
- 679:
+ 677:
             michal['opacity'] = verify;
             verify = 'auto';
-            if(!foxtra) { _fun00004_ip = 694; continue _fun00003 }
- 690:
+            if(!foxtra) { _fun00004_ip = 692; continue _fun00003 }
+ 688:
             verify = 'none';
- 694:
+ 692:
             michal['pointerEvents'] = verify;
             verify = 'row';
             michal['flexDirection'] = verify;
             romeon = 0;
             verify = 0;
-            if(!output) { _fun00004_ip = 717; continue _fun00003 }
- 714:
+            if(!output) { _fun00004_ip = 715; continue _fun00003 }
+ 712:
             verify = golfie;
- 717:
+ 715:
             michal['flexGrow'] = verify;
             verify = 'center';
             michal['alignItems'] = verify;
@@ -281,15 +281,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['minHeight'] = sizing;
             entity['minHeight'] = michal;
             michal = {};
-            if(!kiloes) { _fun00004_ip = 848; continue _fun00003 }
- 821:
+            if(!kiloes) { _fun00004_ip = 846; continue _fun00003 }
+ 819:
             sizing = _closure1_slot1;
             kiloes = _closure1_slot2;
             kiloes = kiloes[oscard];
             kiloes = sizing.bind(report)(kiloes);
             kiloes = kiloes.radii;
             backup = kiloes.round;
- 848:
+ 846:
             michal['borderRadius'] = backup;
             entity['radius'] = michal;
             entity['padding'] = tangon;
@@ -304,13 +304,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option[oscard];
             option = backup.bind(report)(option);
             option = option.colors;
-            if(foxtra) { _fun00004_ip = 915; continue _fun00003 }
- 907:
+            if(foxtra) { _fun00004_ip = 913; continue _fun00003 }
+ 905:
             foxtra = option.TEXT_NORMAL;
-            _fun00004_ip = 921; continue _fun00003;
- 915:
+            _fun00004_ip = 919; continue _fun00003;
+ 913:
             foxtra = option.TEXT_MUTED;
- 921:
+ 919:
             option = 'color';
             michal[option] = foxtra;
             option = 'flexGrow';

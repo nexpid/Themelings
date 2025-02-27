@@ -70,6 +70,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['QUEST_HOME_FORCE_STATIC_IMAGE'] = tangon;
     entity = 'QUEST_HOME_FORCE_STATIC_IMAGE';
     michal[tangon] = entity;
+    tangon = 18;
+    michal['VIDEO_QUEST_FORCE_HLS_VIDEO'] = tangon;
+    entity = 'VIDEO_QUEST_FORCE_HLS_VIDEO';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

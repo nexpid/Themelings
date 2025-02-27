@@ -18,18 +18,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 113; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 115; continue _fun00001 }
  10:
                     report = null;
                     tangon = report != michal;
                     zuuluu = null;
-                    if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
+                    if(!tangon) { _fun00002_ip = 109; continue _fun00001 }
  21:
                     oscard = michal.paymentGateway;
                     tangon = _closure1_slot4;
                     tangon = tangon.BRAINTREE;
                     zuuluu = null;
-                    if(!(oscard === tangon)) { _fun00002_ip = 107; continue _fun00001 }
+                    if(!(oscard === tangon)) { _fun00002_ip = 109; continue _fun00001 }
  46:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -44,20 +44,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 110; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 112; continue _fun00001 }
  88:
                     tangon = report != michal;
                     zuuluu = null;
-                    if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
+                    if(!tangon) { _fun00002_ip = 109; continue _fun00001 }
  97:
                     tangon = {};
                     tangon['braintree_device_data'] = michal;
                     zuuluu = tangon;
- 107:
+ 109:
                     return zuuluu;
- 110:
+ 112:
                     return michal;
- 113:
+ 115:
                     return entity;
                 }
             };

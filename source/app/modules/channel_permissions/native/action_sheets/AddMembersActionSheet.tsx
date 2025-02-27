@@ -580,7 +580,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(romeon === golfie)) { _fun00004_ip = 1513; continue _fun00003 }
  1501:
             oscard = oscard.length;
-            if(!(romeon !== oscard)) { _fun00004_ip = 1691; continue _fun00003 }
+            if(!(romeon !== oscard)) { _fun00004_ip = 1689; continue _fun00003 }
  1513:
             golfie = _closure1_slot16;
             oscard = {};
@@ -604,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.PX_16;
             foxtra['paddingHorizontal'] = update;
             romeon = 0;
-            if(echoed) { _fun00004_ip = 1639; continue _fun00003 }
- 1602:
+            if(echoed) { _fun00004_ip = 1637; continue _fun00003 }
+ 1601:
             update = _closure1_slot1;
             echoed = _closure1_slot3;
             echoed = echoed[source];
@@ -614,7 +614,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.PX_16;
             sizing = sizing.bottom;
             romeon = echoed + sizing;
- 1639:
+ 1637:
             foxtra['paddingBottom'] = romeon;
             romeon = 'contentContainerStyle';
             oscard[romeon] = foxtra;
@@ -834,8 +834,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'keyboardShouldPersistTaps';
             oscard[yankee] = romeon;
             oscard = golfie.bind(tangon)(option, oscard);
-            _fun00004_ip = 1857; continue _fun00003;
- 1691:
+            _fun00004_ip = 1855; continue _fun00003;
+ 1689:
             option = _closure1_slot16;
             golfie = {};
             variable37 = golfie;
@@ -874,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'children';
             golfie[offset] = yankee;
             oscard = option.bind(tangon)(verify, golfie);
- 1857:
+ 1855:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

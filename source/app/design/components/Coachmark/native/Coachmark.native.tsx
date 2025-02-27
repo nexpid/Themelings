@@ -666,7 +666,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot16 = report;
-    report = 18;
+    report = 19;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -678,9 +678,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             option = argFoo;
             michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            golfie = 17;
-            entity = entity[golfie];
+            zuuluu = _closure1_slot2;
+            entity = 17;
+            entity = zuuluu[entity];
             tangon = undefined;
             michal = michal.bind(tangon)(entity);
             entity = michal.useThemeContext;
@@ -694,8 +694,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  60:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[golfie];
+            golfie = _closure1_slot2;
+            entity = 18;
+            entity = golfie[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.ThemeContextProvider;
             entity = {};

@@ -628,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     option = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 414; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 418; continue _fun00013 }
  13:
                     verify = undefined;
                     report = undefined;
@@ -643,14 +643,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = offset.bind(verify)(zuuluu);
                     zuuluu = zuuluu.UploadPlatform;
                     zuuluu = zuuluu.REACT_NATIVE;
-                    if(!(oscard !== zuuluu)) { _fun00014_ip = 96; continue _fun00013 }
+                    if(!(oscard !== zuuluu)) { _fun00014_ip = 98; continue _fun00013 }
  71:
                     zuuluu = option.item;
                     zuuluu = zuuluu.file;
                     report = zuuluu.size;
                     oscard = 'application/octet-stream';
-                    _fun00014_ip = 391; continue _fun00013;
- 96:
+                    _fun00014_ip = 395; continue _fun00013;
+ 98:
                     zuuluu = option.item;
                     michal = zuuluu;
                     zuuluu = zuuluu.mimeType;
@@ -658,38 +658,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = yankee != zuuluu;
                     foxtra = 'application/octet-stream';
                     zuuluu = foxtra;
-                    if(!offset) { _fun00014_ip = 155; continue _fun00013 }
- 126:
+                    if(!offset) { _fun00014_ip = 159; continue _fun00013 }
+ 130:
                     offset = michal;
                     romeon = offset.mimeType;
                     offset = '';
                     zuuluu = foxtra;
-                    if(!(offset !== romeon)) { _fun00014_ip = 155; continue _fun00013 }
- 146:
+                    if(!(offset !== romeon)) { _fun00014_ip = 159; continue _fun00013 }
+ 150:
                     offset = michal;
                     zuuluu = offset.mimeType;
- 155:
+ 159:
                     offset = michal;
                     offset = offset.size;
-                    if(!(yankee != offset)) { _fun00014_ip = 221; continue _fun00013 }
- 167:
+                    if(!(yankee != offset)) { _fun00014_ip = 225; continue _fun00013 }
+ 171:
                     offset = michal;
                     yankee = offset.size;
                     offset = 0;
-                    if(!(offset !== yankee)) { _fun00014_ip = 221; continue _fun00013 }
- 181:
+                    if(!(offset !== yankee)) { _fun00014_ip = 225; continue _fun00013 }
+ 185:
                     offset = global;
                     yankee = offset.isNaN;
                     offset = michal;
                     offset = offset.size;
                     offset = yankee.bind(verify)(offset);
-                    if(offset) { _fun00014_ip = 221; continue _fun00013 }
- 205:
+                    if(offset) { _fun00014_ip = 225; continue _fun00013 }
+ 209:
                     offset = michal;
                     report = offset.size;
                     oscard = zuuluu;
-                    _fun00014_ip = 391; continue _fun00013;
- 221: // try_start_0
+                    _fun00014_ip = 395; continue _fun00013;
+ 225: // try_start_0
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
                     offset = 17;
@@ -699,20 +699,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = michal;
                     offset = offset.uri;
                     offset = yankee.bind(romeon)(offset);
-                    SaveGenerator(address=264);
- 262:
+                    SaveGenerator(address=268);
+ 266:
                     return offset;
- 264:
+ 268:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(yankee) { _fun00014_ip = 278; continue _fun00013 }
- 270:
+                    if(yankee) { _fun00014_ip = 282; continue _fun00013 }
+ 274:
                     report = offset;
- 273: // try_end0
+ 277: // try_end0
                     oscard = zuuluu;
-                    _fun00014_ip = 391; continue _fun00013;
- 278:
+                    _fun00014_ip = 395; continue _fun00013;
+ 282:
                     return offset;
- 281: // catch_target0
+ 285: // catch_target0
                     CatchBlockStart(arg_register=14);
                     yankee = _closure1_slot16;
                     offset = yankee.warn;
@@ -732,25 +732,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.getFileData;
                     michal = michal.uri;
                     michal = golfie.bind(option)(michal);
-                    SaveGenerator(address=374);
- 372:
+                    SaveGenerator(address=378);
+ 376:
                     return michal;
- 374:
+ 378:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00014_ip = 411; continue _fun00013 }
- 380:
+                    if(golfie) { _fun00014_ip = 415; continue _fun00013 }
+ 384:
                     tangon = michal;
                     report = michal.size;
                     oscard = zuuluu;
- 391:
+ 395:
                     zuuluu = {};
                     zuuluu['contentType'] = oscard;
                     zuuluu['fileSize'] = report;
                     zuuluu['bufferedFileData'] = tangon;
                     return zuuluu;
- 411:
+ 415:
                     return michal;
- 414:
+ 418:
                     return entity;
                 }
             };
@@ -1120,7 +1120,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot0 = report;
                 entity = report.responseUrl;
                 verify = null;
-                if(!(verify != entity)) { _fun00022_ip = 381; continue _fun00021 }
+                if(!(verify != entity)) { _fun00022_ip = 385; continue _fun00021 }
  24:
                 oscard = _closure1_slot16;
                 zuuluu = oscard.log;
@@ -1141,13 +1141,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = golfie.bind(zuuluu)(michal);
                 michal = michal.UploadPlatform;
                 michal = michal.REACT_NATIVE;
-                if(!(oscard !== michal)) { _fun00022_ip = 137; continue _fun00021 }
+                if(!(oscard !== michal)) { _fun00022_ip = 139; continue _fun00021 }
  120:
                 michal = report.item;
                 golfie = michal.file;
                 michal = 'application/octet-stream';
-                _fun00022_ip = 229; continue _fun00021;
- 137:
+                _fun00022_ip = 233; continue _fun00021;
+ 139:
                 option = {};
                 oscard = report.item;
                 oscard = oscard.mimeType;
@@ -1162,18 +1162,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = verify != oscard;
                 yankee = 'application/octet-stream';
                 oscard = yankee;
-                if(!verify) { _fun00022_ip = 223; continue _fun00021 }
- 202:
+                if(!verify) { _fun00022_ip = 227; continue _fun00021 }
+ 206:
                 offset = option.type;
                 verify = 'application/json';
                 oscard = yankee;
-                if(!(verify !== offset)) { _fun00022_ip = 223; continue _fun00021 }
- 218:
+                if(!(verify !== offset)) { _fun00022_ip = 227; continue _fun00021 }
+ 222:
                 oscard = option.type;
- 223:
+ 227:
                 michal = oscard;
                 golfie = option;
- 229:
+ 233:
                 verify = _closure1_slot1;
                 option = _closure1_slot2;
                 oscard = 18;
@@ -1225,7 +1225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[tangon] = report;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
- 381:
+ 385:
                 entity = global;
                 zuuluu = entity.Error;
                 entity = zuuluu.prototype;

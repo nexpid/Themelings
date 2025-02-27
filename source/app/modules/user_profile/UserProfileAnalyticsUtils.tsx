@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.getUser;
             michal = michal.bind(tangon)(report);
             tangon = null;
-            if(!(tangon != michal)) { _fun00008_ip = 494; continue _fun00007 }
+            if(!(tangon != michal)) { _fun00008_ip = 492; continue _fun00007 }
  74:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bot;
             entity['is_bot_profile'] = michal;
             return entity;
- 494:
+ 492:
             entity = {};
             return entity;
         }

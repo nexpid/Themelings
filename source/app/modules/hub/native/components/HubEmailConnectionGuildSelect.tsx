@@ -354,17 +354,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             tangon = function() { // Original name: headerRight
                 tangon = _closure1_slot10;
-                michal = _closure1_slot0;
-                golfie = _closure1_slot2;
+                option = _closure1_slot0;
+                verify = _closure1_slot2;
                 entity = 19;
-                entity = golfie[entity];
+                entity = verify[entity];
                 zuuluu = undefined;
-                entity = michal.bind(zuuluu)(entity);
+                entity = option.bind(zuuluu)(entity);
                 michal = entity.HeaderActionButton;
                 entity = {};
                 oscard = _closure1_slot1;
                 report = 20;
-                report = golfie[report];
+                report = verify[report];
                 report = oscard.bind(zuuluu)(report);
                 entity['source'] = report;
                 report = function() { // Original name: onPress
@@ -384,6 +384,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity['onPress'] = report;
+                report = 14;
+                oscard = verify[report];
+                oscard = option.bind(zuuluu)(oscard);
+                golfie = oscard.intl;
+                oscard = golfie.string;
+                report = verify[report];
+                report = option.bind(zuuluu)(report);
+                report = report.t;
+                report = report.5h0QOD;
+                report = oscard.bind(golfie)(report);
+                entity['accessibilityLabel'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };

@@ -71,10 +71,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = report.bind(entity)(kiloes);
         kiloes = sizing.isAndroid;
         kiloes = kiloes.bind(sizing)();
-        if(!kiloes) { _fun00002_ip = 292; continue _fun00001 }
- 289:
+        if(!kiloes) { _fun00002_ip = 291; continue _fun00001 }
+ 288:
         foxtra = backup;
- 292:
+ 291:
         offset['marginBottom'] = foxtra;
         tangon['header'] = offset;
         offset = {};

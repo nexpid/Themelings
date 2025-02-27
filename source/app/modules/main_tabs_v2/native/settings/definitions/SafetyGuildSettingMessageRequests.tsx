@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 12;
+            entity = 13;
             entity = golfie[entity];
             report = undefined;
             michal = oscard.bind(report)(entity);
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = entity.wkm9a2;
         entity = {};
         golfie = _closure1_slot1;
-        oscard = 13;
+        oscard = 14;
         oscard = verify[oscard];
         golfie = golfie.bind(option)(oscard);
         oscard = golfie.getArticleURL;
@@ -281,39 +281,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = function(argFoo) { // Original name: onAllowMessageRequestsFromServerMembersValueChange
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
+            zuuluu = argFoo;
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 10;
             tangon = tangon[entity];
             entity = undefined;
-            oscard = report.bind(entity)(tangon);
-            report = oscard.isEligibleForMessageRequestOnByDefault;
-            tangon = 'onAllowDirectMessagesFromServerMembersValueChange';
-            tangon = report.bind(oscard)(tangon);
-            if(tangon) { _fun00008_ip = 191; continue _fun00007 }
- 51:
+            report = report.bind(entity)(tangon);
+            tangon = report.shouldAgeVerifyForDMDefaultOff;
+            tangon = tangon.bind(report)();
+            if(tangon) { _fun00008_ip = 186; continue _fun00007 }
+ 44:
             tangon = _closure1_slot3;
             report = tangon.bind(entity)();
             tangon = _closure1_slot6;
-            if(!(report !== tangon)) { _fun00008_ip = 179; continue _fun00007 }
- 67:
+            if(!(report !== tangon)) { _fun00008_ip = 172; continue _fun00007 }
+ 60:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            tangon = 11;
+            tangon = 12;
             tangon = golfie[tangon];
             oscard = oscard.bind(entity)(tangon);
             tangon = oscard.getSanitizedMessageRequestRestrictedGuilds;
             option = tangon.bind(oscard)();
-            if(michal) { _fun00008_ip = 112; continue _fun00007 }
- 100:
+            if(zuuluu) { _fun00008_ip = 105; continue _fun00007 }
+ 93:
             tangon = option.add;
             tangon = tangon.bind(option)(report);
-            _fun00008_ip = 122; continue _fun00007;
- 112:
+            _fun00008_ip = 115; continue _fun00007;
+ 105:
             tangon = option.delete;
             tangon = tangon.bind(option)(report);
- 122:
+ 115:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
             tangon = 5;
@@ -326,17 +325,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = golfie.from;
             tangon = tangon.bind(golfie)(option);
             tangon = report.bind(oscard)(tangon);
-            _fun00008_ip = 191; continue _fun00007;
- 179:
-            zuuluu = _closure1_slot8;
-            michal = !michal;
-            michal = zuuluu.bind(entity)(michal);
- 191:
+            _fun00008_ip = 216; continue _fun00007;
+ 172:
+            tangon = _closure1_slot8;
+            zuuluu = !zuuluu;
+            zuuluu = tangon.bind(entity)(zuuluu);
+            _fun00008_ip = 216; continue _fun00007;
+ 186:
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 11;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.showAgeVerificationGetStartedModal;
+            michal = michal.bind(zuuluu)();
+ 216:
             return entity;
         }
     };
     tangon['onValueChange'] = report;
-    report = 14;
+    report = 15;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

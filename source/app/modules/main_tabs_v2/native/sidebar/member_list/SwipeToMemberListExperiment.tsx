@@ -1,5 +1,5 @@
 // app/modules/main_tabs_v2/native/sidebar/member_list/SwipeToMemberListExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
@@ -14,13 +14,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golfie[entity];
-    tangon = argBaz;
+    tangon = golfie[entity];
     entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
     option = oscard.bind(entity)(tangon);
     report = option.createExperiment;
     tangon = {'kind': 'user', 'id': '2024-12_swipe_to_view_memberlist', 'label': 'Swipe to view member list'};
@@ -36,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify[0] = offset;
     tangon['treatments'] = verify;
     tangon = report.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -45,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     tangon = function(argFoo) { // Original name: getIsSwipeToMemberListExperimentEnabled
-        tangon = _closure1_slot3;
+        tangon = _closure1_slot2;
         zuuluu = tangon.getCurrentConfig;
         michal = {};
         entity = argFoo;
@@ -53,8 +48,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = {};
         oscard = true;
         entity['autoTrackExposure'] = oscard;
-        report = _closure1_slot2;
-        report = report.swipeToReply;
+        option = _closure1_slot0;
+        verify = _closure1_slot1;
+        report = 1;
+        report = verify[report];
+        golfie = undefined;
+        oscard = option.bind(golfie)(report);
+        report = oscard.getSwipeToReplySettingValue;
+        oscard = report.bind(oscard)();
+        report = 2;
+        report = verify[report];
+        report = option.bind(golfie)(report);
+        report = report.SwipeRightToLeftMode;
+        report = report.SWIPE_RIGHT_TO_LEFT_REPLY;
+        report = oscard === report;
         entity['disable'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;
@@ -62,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['getIsSwipeToMemberListExperimentEnabled'] = tangon;
     tangon = function(argFoo) { // Original name: useIsSwipeToMemberListExperimentEnabled
-        tangon = _closure1_slot3;
+        tangon = _closure1_slot2;
         zuuluu = tangon.useExperiment;
         michal = {};
         entity = argFoo;
@@ -77,29 +84,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['useIsSwipeToMemberListExperimentEnabled'] = tangon;
     michal = function() { // Original name: useIsSwipeToMemberListAllowed
         tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
+        report = _closure1_slot1;
+        michal = 1;
+        michal = report[michal];
+        zuuluu = undefined;
+        oscard = tangon.bind(zuuluu)(michal);
+        michal = oscard.useSwipeToReplySettingValue;
+        oscard = michal.bind(oscard)();
         michal = 2;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        report = tangon.bind(michal)(zuuluu);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = function() {
-            entity = _closure1_slot2;
-            entity = entity.swipeToReply;
-            return entity;
-        };
-        report = tangon.bind(report)(zuuluu, michal);
-        tangon = _closure1_slot3;
+        michal = report[michal];
+        michal = tangon.bind(zuuluu)(michal);
+        michal = michal.SwipeRightToLeftMode;
+        report = michal.SWIPE_RIGHT_TO_LEFT_REPLY;
+        tangon = _closure1_slot2;
         zuuluu = tangon.useExperiment;
         michal = {};
         entity = 'useIsMessageSwipeActionsEnabled';
         michal['location'] = entity;
         entity = {};
-        oscard = true;
-        entity['autoTrackExposure'] = oscard;
+        golfie = true;
+        entity['autoTrackExposure'] = golfie;
+        report = oscard === report;
         entity['disable'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;

@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = argFoo;
             michal = argBaz;
             entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 121; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 128; continue _fun00001 }
  12:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -74,6 +74,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = {};
             yankee = argBar;
             tangon['default_avatar_selected'] = yankee;
+            yankee = false;
+            tangon['is_guild_profile'] = yankee;
             yankee = {};
             romeon = 'Onboarding';
             yankee['page'] = romeon;
@@ -87,18 +89,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             zuuluu['avatar'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
- 121:
-            if(!(entity == michal)) { _fun00002_ip = 143; continue _fun00001 }
- 125:
+ 128:
+            if(!(entity == michal)) { _fun00002_ip = 150; continue _fun00001 }
+ 132:
             tangon = _closure1_slot5;
             zuuluu = undefined;
             entity = false;
             entity = tangon.bind(zuuluu)(entity);
-            _fun00002_ip = 149; continue _fun00001;
- 143:
+            _fun00002_ip = 156; continue _fun00001;
+ 150:
             entity = undefined;
             entity = michal.bind(entity)();
- 149:
+ 156:
             entity = undefined;
             return entity;
         }

@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = option.bind(entity)(tangon);
     tangon = tangon.OAuth2Scopes;
     tangon = tangon.BOT;
-    report = new Array(42);
+    report = new Array(43);
     report[0] = tangon;
     tangon = verify[offset];
     tangon = option.bind(entity)(tangon);
@@ -361,8 +361,13 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = verify[offset];
     tangon = option.bind(entity)(tangon);
     tangon = tangon.OAuth2Scopes;
-    tangon = tangon.SDK_SOCIAL_LAYER;
+    tangon = tangon.SDK_SOCIAL_LAYER_PRESENCE;
     report[41] = tangon;
+    tangon = verify[offset];
+    tangon = option.bind(entity)(tangon);
+    tangon = tangon.OAuth2Scopes;
+    tangon = tangon.SDK_SOCIAL_LAYER;
+    report[42] = tangon;
     golfie = report.concat;
     tangon = verify[offset];
     tangon = option.bind(entity)(tangon);
@@ -400,7 +405,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.IDENTIFY;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4507; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4540; continue _fun00001 }
  50:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -408,7 +413,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.OPENID;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4441; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4474; continue _fun00001 }
  86:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -416,7 +421,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.EMAIL;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4375; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4408; continue _fun00001 }
  122:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -424,7 +429,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.BOT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4309; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4342; continue _fun00001 }
  158:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -432,7 +437,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.CONNECTIONS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4243; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4276; continue _fun00001 }
  194:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -440,7 +445,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.MESSAGES_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4177; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4210; continue _fun00001 }
  230:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -448,7 +453,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GUILDS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4111; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4144; continue _fun00001 }
  266:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -456,7 +461,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GUILDS_JOIN;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 4045; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 4078; continue _fun00001 }
  302:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -464,7 +469,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GUILDS_MEMBERS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3911; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3944; continue _fun00001 }
  338:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -472,7 +477,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GUILDS_CHANNELS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3845; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3878; continue _fun00001 }
  374:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -480,7 +485,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GDM_JOIN;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3779; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3812; continue _fun00001 }
  410:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -488,7 +493,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3713; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3746; continue _fun00001 }
  446:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -496,7 +501,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_NOTIFICATIONS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3647; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3680; continue _fun00001 }
  482:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -504,7 +509,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_VOICE_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3581; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3614; continue _fun00001 }
  518:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -512,7 +517,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_VIDEO_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3515; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3548; continue _fun00001 }
  554:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -520,7 +525,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_VIDEO_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3449; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3482; continue _fun00001 }
  590:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -528,7 +533,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_SCREENSHARE_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3383; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3416; continue _fun00001 }
  626:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -536,7 +541,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_SCREENSHARE_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3317; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3350; continue _fun00001 }
  662:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -544,7 +549,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_VOICE_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3251; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3284; continue _fun00001 }
  698:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -552,7 +557,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RPC_ACTIVITIES_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3185; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3218; continue _fun00001 }
  734:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -560,7 +565,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_BUILDS_UPLOAD;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3119; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3152; continue _fun00001 }
  770:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -568,7 +573,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_BUILDS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 3053; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3086; continue _fun00001 }
  806:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -576,7 +581,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_COMMANDS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2987; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 3020; continue _fun00001 }
  842:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -584,7 +589,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_COMMANDS_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2921; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2954; continue _fun00001 }
  878:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -592,7 +597,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2855; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2888; continue _fun00001 }
  914:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -600,7 +605,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_STORE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2789; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2822; continue _fun00001 }
  950:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -608,7 +613,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.APPLICATIONS_ENTITLEMENTS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2723; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2756; continue _fun00001 }
  986:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -616,7 +621,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.ACTIVITIES_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2657; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2690; continue _fun00001 }
  1022:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -624,7 +629,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.ACTIVITIES_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2591; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2624; continue _fun00001 }
  1058:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -632,7 +637,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RELATIONSHIPS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2525; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2558; continue _fun00001 }
  1094:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -640,7 +645,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.RELATIONSHIPS_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2459; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2492; continue _fun00001 }
  1130:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -648,7 +653,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.VOICE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2393; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2426; continue _fun00001 }
  1166:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -656,7 +661,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.DM_CHANNELS_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2327; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2360; continue _fun00001 }
  1202:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -664,7 +669,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.ROLE_CONNECTIONS_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2261; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2294; continue _fun00001 }
  1238:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -672,7 +677,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.PRESENCES_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2195; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2228; continue _fun00001 }
  1274:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -680,7 +685,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.PRESENCES_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2129; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2162; continue _fun00001 }
  1310:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -688,7 +693,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.DM_CHANNELS_MESSAGES_READ;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2063; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2096; continue _fun00001 }
  1346:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -696,7 +701,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.DM_CHANNELS_MESSAGES_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1997; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2030; continue _fun00001 }
  1382:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -704,7 +709,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.GATEWAY_CONNECT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1931; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1964; continue _fun00001 }
  1418:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -712,7 +717,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.PAYMENT_SOURCES_COUNTRY_CODE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1865; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1898; continue _fun00001 }
  1454:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -720,20 +725,28 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
             michal = michal.ACTIVITIES_INVITES_WRITE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1799; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1832; continue _fun00001 }
  1490:
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[golfie];
             michal = oscard.bind(report)(michal);
             michal = michal.OAuth2Scopes;
-            michal = michal.SDK_SOCIAL_LAYER;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1533; continue _fun00001 }
+            michal = michal.SDK_SOCIAL_LAYER_PRESENCE;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1566; continue _fun00001 }
  1523:
+            oscard = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[golfie];
+            michal = oscard.bind(report)(michal);
+            michal = michal.OAuth2Scopes;
+            michal = michal.SDK_SOCIAL_LAYER;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1566; continue _fun00001 }
+ 1556:
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 1533:
+ 1566:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
             zuuluu = 0;
@@ -789,7 +802,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = oscard.bind(option)(zuuluu);
             michal[4] = zuuluu;
             return michal;
- 1799:
+ 1832:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -805,7 +818,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 1865:
+ 1898:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -821,7 +834,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 1931:
+ 1964:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -837,7 +850,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 1997:
+ 2030:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -853,7 +866,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2063:
+ 2096:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -869,7 +882,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2129:
+ 2162:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -885,7 +898,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2195:
+ 2228:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -901,7 +914,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2261:
+ 2294:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -917,7 +930,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2327:
+ 2360:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -933,7 +946,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2393:
+ 2426:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -949,7 +962,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2459:
+ 2492:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -965,7 +978,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2525:
+ 2558:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -981,7 +994,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2591:
+ 2624:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -997,7 +1010,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2657:
+ 2690:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1013,7 +1026,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2723:
+ 2756:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1029,7 +1042,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2789:
+ 2822:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1045,7 +1058,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2855:
+ 2888:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1061,7 +1074,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2921:
+ 2954:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1077,7 +1090,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 2987:
+ 3020:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1093,7 +1106,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3053:
+ 3086:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1109,7 +1122,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3119:
+ 3152:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1125,7 +1138,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3185:
+ 3218:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1141,7 +1154,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3251:
+ 3284:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1157,7 +1170,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3317:
+ 3350:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1173,7 +1186,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3383:
+ 3416:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1189,7 +1202,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3449:
+ 3482:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1205,7 +1218,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3515:
+ 3548:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1221,7 +1234,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3581:
+ 3614:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1237,7 +1250,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3647:
+ 3680:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1253,7 +1266,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3713:
+ 3746:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1269,7 +1282,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3779:
+ 3812:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1285,7 +1298,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3845:
+ 3878:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             michal = 0;
@@ -1301,7 +1314,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 3911:
+ 3944:
             zuuluu = tangon.includes;
             oscard = _closure1_slot0;
             michal = _closure1_slot1;
@@ -1320,22 +1333,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(report)(zuuluu);
             zuuluu = zuuluu.t;
-            if(michal) { _fun00002_ip = 4019; continue _fun00001 }
- 3996:
+            if(michal) { _fun00002_ip = 4052; continue _fun00001 }
+ 4029:
             michal = zuuluu.o6M1aW;
             golfie = tangon.bind(oscard)(michal);
             michal = new Array(1);
             michal[0] = golfie;
-            _fun00002_ip = 4043; continue _fun00001;
- 4019:
+            _fun00002_ip = 4076; continue _fun00001;
+ 4052:
             zuuluu = zuuluu.OSvmfH;
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = new Array(1);
             zuuluu[0] = tangon;
             michal = zuuluu;
- 4043:
+ 4076:
             return michal;
- 4045:
+ 4078:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1351,7 +1364,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4111:
+ 4144:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1367,7 +1380,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4177:
+ 4210:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1383,7 +1396,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4243:
+ 4276:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1399,7 +1412,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4309:
+ 4342:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1415,7 +1428,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4375:
+ 4408:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1431,7 +1444,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4441:
+ 4474:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 0;
@@ -1447,7 +1460,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 4507:
+ 4540:
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -1466,8 +1479,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getScopeNames'] = tangon;
-    michal = function(argFoo) { // Original name: getSecurityMessage
+    tangon = function(argFoo) { // Original name: isSocialLayerUmbrellaScope
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            oscard = 1;
+            entity = entity[oscard];
+            report = undefined;
+            entity = tangon.bind(report)(entity);
+            entity = entity.OAuth2Scopes;
+            entity = entity.SDK_SOCIAL_LAYER_PRESENCE;
+            entity = zuuluu === entity;
+            if(entity) { _fun00004_ip = 80; continue _fun00003 }
+ 47:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.OAuth2Scopes;
+            michal = michal.SDK_SOCIAL_LAYER;
+            entity = zuuluu === michal;
+ 80:
+            return entity;
+        }
+    };
+    zuuluu['isSocialLayerUmbrellaScope'] = tangon;
+    michal = function(argFoo) { // Original name: getSecurityMessage
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = argFoo;
             zuuluu = tangon.includes;
@@ -1480,7 +1520,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.OAuth2Scopes;
             entity = entity.DM_CHANNELS_MESSAGES_WRITE;
             entity = zuuluu.bind(tangon)(entity);
-            if(entity) { _fun00004_ip = 307; continue _fun00003 }
+            if(entity) { _fun00006_ip = 307; continue _fun00005 }
  56:
             zuuluu = tangon.includes;
             report = _closure1_slot0;
@@ -1490,7 +1530,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.OAuth2Scopes;
             entity = entity.SDK_SOCIAL_LAYER;
             entity = zuuluu.bind(tangon)(entity);
-            if(entity) { _fun00004_ip = 307; continue _fun00003 }
+            if(entity) { _fun00006_ip = 307; continue _fun00005 }
  101:
             zuuluu = tangon.includes;
             report = _closure1_slot0;
@@ -1500,7 +1540,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.OAuth2Scopes;
             entity = entity.MESSAGES_READ;
             entity = zuuluu.bind(tangon)(entity);
-            if(entity) { _fun00004_ip = 246; continue _fun00003 }
+            if(entity) { _fun00006_ip = 246; continue _fun00005 }
  143:
             zuuluu = tangon.includes;
             report = _closure1_slot0;
@@ -1510,7 +1550,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.OAuth2Scopes;
             entity = entity.DM_CHANNELS_MESSAGES_READ;
             entity = zuuluu.bind(tangon)(entity);
-            if(entity) { _fun00004_ip = 246; continue _fun00003 }
+            if(entity) { _fun00006_ip = 246; continue _fun00005 }
  185:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot1;
@@ -1525,7 +1565,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = entity.TeL+Cg;
             entity = {};
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 305; continue _fun00003;
+            _fun00006_ip = 305; continue _fun00005;
  246:
             tangon = _closure1_slot0;
             option = _closure1_slot1;
@@ -1541,7 +1581,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = {};
             entity = report.bind(golfie)(tangon, zuuluu);
  305:
-            _fun00004_ip = 366; continue _fun00003;
+            _fun00006_ip = 366; continue _fun00005;
  307:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot1;

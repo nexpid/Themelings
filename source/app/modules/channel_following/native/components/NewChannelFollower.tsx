@@ -456,8 +456,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = target.bind(tangon)(papara);
             target = papara.TableRow;
             papara = {};
-            if(!(yankee == variable41)) { _fun00002_ip = 1263; continue _fun00001 }
- 1209:
+            if(!(yankee == variable41)) { _fun00002_ip = 1267; continue _fun00001 }
+ 1213:
             variable39 = _closure1_slot0;
             whisks = _closure1_slot2;
             variable36 = whisks[vacuum];
@@ -469,15 +469,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = whisks.t;
             whisks = whisks.XqMe3N;
             whisks = variable36.bind(variable38)(whisks);
-            _fun00002_ip = 1268; continue _fun00001;
- 1263:
+            _fun00002_ip = 1272; continue _fun00001;
+ 1267:
             whisks = variable41.name;
- 1268:
+ 1272:
             papara['label'] = whisks;
             variable36 = yankee != variable41;
             whisks = null;
-            if(!variable36) { _fun00002_ip = 1343; continue _fun00001 }
- 1281:
+            if(!variable36) { _fun00002_ip = 1347; continue _fun00001 }
+ 1285:
             variable39 = _closure1_slot16;
             variable38 = _closure1_slot1;
             variable40 = _closure1_slot2;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = variable40.XSMALL;
             variable36['size'] = variable40;
             whisks = variable39.bind(tangon)(variable38, variable36);
- 1343:
+ 1347:
             papara['icon'] = whisks;
             papara['arrow'] = echoed;
             whisks = function() { // Original name: onPress
@@ -640,8 +640,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = target.bind(tangon)(papara);
             target = papara.TableRow;
             papara = {};
-            if(!(yankee == sierra)) { _fun00002_ip = 1537; continue _fun00001 }
- 1485:
+            if(!(yankee == sierra)) { _fun00002_ip = 1541; continue _fun00001 }
+ 1489:
             variable38 = _closure1_slot0;
             limora = _closure1_slot2;
             whisks = limora[vacuum];
@@ -653,14 +653,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.t;
             limora = limora.XqMe3N;
             sierra = whisks.bind(variable36)(limora);
- 1537:
+ 1541:
             papara['label'] = sierra;
             status = yankee == status;
             papara['disabled'] = status;
             sierra = yankee != variable37;
             status = null;
-            if(!sierra) { _fun00002_ip = 1653; continue _fun00001 }
- 1558:
+            if(!sierra) { _fun00002_ip = 1657; continue _fun00001 }
+ 1562:
             whisks = _closure1_slot16;
             variable36 = _closure1_slot1;
             variable38 = _closure1_slot2;
@@ -682,7 +682,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = equals.channelIcon;
             sierra['style'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 1653:
+ 1657:
             papara['icon'] = status;
             papara['arrow'] = echoed;
             status = function() { // Original name: onPress
@@ -788,8 +788,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[3] = romeon;
             romeon = yankee != result;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 1857; continue _fun00001 }
- 1813:
+            if(!romeon) { _fun00002_ip = 1861; continue _fun00001 }
+ 1817:
             output = _closure1_slot16;
             sizing = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -800,7 +800,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['inset'] = echoed;
             romeon['children'] = result;
             yankee = output.bind(tangon)(sizing, romeon);
- 1857:
+ 1861:
             kiloes[4] = yankee;
             result = _closure1_slot17;
             yankee = _closure1_slot0;

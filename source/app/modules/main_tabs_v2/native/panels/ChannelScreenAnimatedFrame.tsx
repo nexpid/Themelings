@@ -64,8 +64,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.BORDER_STRONG;
     verify['borderLeftColor'] = romeon;
     verify['borderLeftWidth'] = yankee;
-    yankee = -yankee;
-    verify['marginLeft'] = yankee;
     tangon['midnightContainer'] = verify;
     verify = {};
     verify['height'] = offset;

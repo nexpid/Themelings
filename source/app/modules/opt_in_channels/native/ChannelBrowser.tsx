@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = argBar;
                         entity = yankee.rowCount;
                         verify = 0;
-                        if(!(entity > verify)) { _fun00012_ip = 213; continue _fun00011 }
+                        if(!(entity > verify)) { _fun00012_ip = 217; continue _fun00011 }
  21:
                         entity = _closure2_slot4;
                         entity = entity._categories;
@@ -858,8 +858,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = 1;
                         zuuluu = null;
                         verify = 0;
-                        if(!entity) { _fun00012_ip = 213; continue _fun00011 }
- 104:
+                        if(!entity) { _fun00012_ip = 217; continue _fun00011 }
+ 108:
                         foxtra = _closure3_slot0;
                         romeon = foxtra.push;
                         entity = {};
@@ -872,10 +872,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         kiloes = backup[verify];
                         sizing = zuuluu == kiloes;
                         backup = undefined;
-                        if(sizing) { _fun00012_ip = 160; continue _fun00011 }
- 155:
+                        if(sizing) { _fun00012_ip = 164; continue _fun00011 }
+ 159:
                         backup = kiloes.channel;
- 160:
+ 164:
                         entity['channel'] = backup;
                         kiloes = _closure2_slot4;
                         backup = golfie.id;
@@ -887,8 +887,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = romeon.bind(foxtra)(entity);
                         verify = verify + 1;
                         entity = yankee.rowCount;
-                        if(verify < entity) { _fun00012_ip = 104; continue _fun00011 }
- 213:
+                        if(verify < entity) { _fun00012_ip = 108; continue _fun00011 }
+ 217:
                         entity = undefined;
                         return entity;
                     }
@@ -1016,7 +1016,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot16;
             foxtra = {};
             kiloes = null;
-            if(sizing) { _fun00010_ip = 1167; continue _fun00009 }
+            if(sizing) { _fun00010_ip = 1175; continue _fun00009 }
  621:
             result = _closure1_slot15;
             output = _closure1_slot5;
@@ -1154,7 +1154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[2] = update;
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 1167:
+ 1175:
             foxtra['children'] = kiloes;
             foxtra = option.bind(tangon)(backup, foxtra);
             oscard['ListHeaderComponent'] = foxtra;

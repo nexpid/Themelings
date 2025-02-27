@@ -79,8 +79,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
-                romeon = entity.asset;
-                yankee = entity.url;
+                foxtra = entity.asset;
+                romeon = entity.url;
                 option = entity.width;
                 golfie = entity.height;
                 oscard = entity.opacity;
@@ -96,25 +96,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = zuuluu.LOOP;
  63:
                 var _closure2_slot0 = offset;
-                zuuluu = entity.animating;
-                if(!(zuuluu === tangon)) { _fun00004_ip = 79; continue _fun00003 }
+                yankee = entity.animating;
+                if(!(yankee === tangon)) { _fun00004_ip = 79; continue _fun00003 }
  77:
-                zuuluu = true;
+                yankee = true;
  79:
+                zuuluu = entity.accessibilityLabel;
                 var _closure2_slot1 = tangon;
                 var _closure2_slot2 = tangon;
                 var _closure2_slot3 = tangon;
-                foxtra = _closure1_slot2;
-                verify = foxtra.useRef;
+                backup = _closure1_slot2;
+                verify = backup.useRef;
                 report = null;
-                report = verify.bind(foxtra)(report);
+                report = verify.bind(backup)(report);
                 _closure2_slot1 = report;
                 verify = {};
-                verify['asset'] = romeon;
-                verify['url'] = yankee;
+                verify['asset'] = foxtra;
+                verify['url'] = romeon;
                 verify['width'] = option;
                 verify['height'] = golfie;
-                verify['animating'] = zuuluu;
+                verify['animating'] = yankee;
+                verify['accessibilityLabel'] = zuuluu;
                 _closure2_slot2 = verify;
                 zuuluu = _closure1_slot1;
                 zuuluu = zuuluu.bind(tangon)(verify);
@@ -135,52 +137,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         michal = _closure2_slot3;
                         michal = michal.current;
-                        golfie = michal.asset;
-                        oscard = michal.url;
-                        report = michal.width;
-                        tangon = michal.height;
-                        zuuluu = michal.animating;
-                        michal = {};
-                        michal['asset'] = golfie;
-                        michal['url'] = oscard;
-                        michal['width'] = report;
-                        michal['height'] = tangon;
-                        tangon = _closure2_slot0;
-                        michal['renderMode'] = tangon;
-                        michal['animating'] = zuuluu;
-                        verify = michal.asset;
-                        option = michal.url;
-                        golfie = michal.width;
-                        oscard = michal.height;
-                        report = michal.renderMode;
+                        option = michal.asset;
+                        golfie = michal.url;
+                        oscard = michal.width;
+                        report = michal.height;
                         tangon = michal.animating;
+                        zuuluu = michal.accessibilityLabel;
+                        michal = {};
+                        michal['asset'] = option;
+                        michal['url'] = golfie;
+                        michal['width'] = oscard;
+                        michal['height'] = report;
+                        report = _closure2_slot0;
+                        michal['renderMode'] = report;
+                        michal['animating'] = tangon;
+                        michal['accessibilityLabel'] = zuuluu;
+                        offset = michal.asset;
+                        verify = michal.url;
+                        option = michal.width;
+                        golfie = michal.height;
+                        oscard = michal.renderMode;
+                        report = michal.animating;
+                        tangon = michal.accessibilityLabel;
                         michal = '';
-                        michal = michal !== option;
-                        if(!michal) { _fun00006_ip = 122; continue _fun00005 }
- 116:
+                        michal = michal !== verify;
+                        if(!michal) { _fun00006_ip = 136; continue _fun00005 }
+ 130:
+                        zuuluu = 0;
+                        michal = zuuluu !== option;
+ 136:
+                        if(!michal) { _fun00006_ip = 145; continue _fun00005 }
+ 139:
                         zuuluu = 0;
                         michal = zuuluu !== golfie;
- 122:
-                        if(!michal) { _fun00006_ip = 131; continue _fun00005 }
- 125:
-                        zuuluu = 0;
-                        michal = zuuluu !== oscard;
- 131:
-                        if(!michal) { _fun00006_ip = 181; continue _fun00005 }
- 134:
+ 145:
+                        if(!michal) { _fun00006_ip = 198; continue _fun00005 }
+ 148:
                         zuuluu = _closure1_slot5;
                         michal = zuuluu.setup;
                         entity = _closure2_slot1;
-                        sizing = entity.current;
-                        output = zuuluu;
-                        kiloes = verify;
-                        backup = option;
-                        foxtra = golfie;
-                        romeon = oscard;
-                        yankee = report;
-                        offset = tangon;
-                        entity = output[michal](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
- 181:
+                        result = entity.current;
+                        echoed = zuuluu;
+                        output = offset;
+                        sizing = verify;
+                        kiloes = option;
+                        backup = golfie;
+                        foxtra = oscard;
+                        romeon = report;
+                        yankee = tangon;
+                        entity = echoed[michal](result, output, sizing, kiloes, backup, foxtra, romeon, yankee, offset);
+ 198:
                         entity = undefined;
                         return entity;
                     }

@@ -105,15 +105,15 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         source = golfie.bind(entity)(update);
         update = source.isAndroid;
         update = update.bind(source)();
-        if(!update) { _fun00002_ip = 475; continue _fun00001 }
- 447:
+        if(!update) { _fun00002_ip = 474; continue _fun00001 }
+ 446:
         update = option[romeon];
         update = foxtra.bind(entity)(update);
         update = update.spacing;
         update = update.PX_4;
         update = update / kiloes;
         result = update / kiloes;
- 475:
+ 474:
         output = output / kiloes;
         output = echoed - output;
         output = output - result;
@@ -145,10 +145,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         sizing = output.isIOS;
         output = sizing.bind(output)();
         sizing = undefined;
-        if(!output) { _fun00002_ip = 620; continue _fun00001 }
- 614:
+        if(!output) { _fun00002_ip = 619; continue _fun00001 }
+ 613:
         sizing = -1;
- 620:
+ 619:
         offset['marginLeft'] = sizing;
         tangon['tabBarIcon'] = offset;
         offset = {};

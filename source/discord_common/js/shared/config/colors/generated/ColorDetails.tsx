@@ -2732,6 +2732,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['TRANSPARENT'] = entity;
     entity = 'twitch';
     tangon['TWITCH'] = entity;
+    entity = 'twitch-secondary';
+    tangon['TWITCH_SECONDARY'] = entity;
     entity = 'twitter';
     tangon['TWITTER'] = entity;
     entity = 'white';
@@ -9806,7 +9808,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal[report] = entity;
     report = tangon.TWITCH;
     entity = {};
-    offset = '#593695';
+    offset = '#9147ff';
+    entity['hex'] = offset;
+    michal[report] = entity;
+    report = tangon.TWITCH_SECONDARY;
+    entity = {};
+    offset = '#772ce8';
     entity['hex'] = offset;
     michal[report] = entity;
     report = tangon.TWITTER;

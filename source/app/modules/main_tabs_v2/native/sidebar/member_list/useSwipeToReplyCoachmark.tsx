@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.DismissibleContent;
-    tangon = tangon.SWIPE_TO_REPLY_COACHMARK;
+    tangon = tangon.SWIPE_TO_MEMBER_LIST_COACHMARK;
     var _closure1_slot9 = tangon;
     tangon = 7;
     tangon = oscard[tangon];

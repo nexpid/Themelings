@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['writeFile'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: removeFile
+    tangon = function(argFoo, argBar, argBaz) { // Original name: moveFile
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = _closure1_slot0;
@@ -215,30 +215,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             tangon = michal == entity;
             entity = undefined;
-            if(tangon) { _fun00006_ip = 71; continue _fun00005 }
+            if(tangon) { _fun00006_ip = 75; continue _fun00005 }
  36:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
-            oscard = tangon.bind(report)(zuuluu);
-            report = oscard.removeFile;
-            tangon = argFoo;
-            zuuluu = argBar;
-            entity = report.bind(oscard)(tangon, zuuluu);
- 71:
-            if(!(michal == entity)) { _fun00006_ip = 96; continue _fun00005 }
+            golfie = tangon.bind(report)(zuuluu);
+            oscard = golfie.moveFile;
+            report = argFoo;
+            tangon = argBar;
+            zuuluu = argBaz;
+            entity = oscard.bind(golfie)(report, tangon, zuuluu);
  75:
+            if(!(michal == entity)) { _fun00006_ip = 100; continue _fun00005 }
+ 79:
             michal = global;
             tangon = michal.Promise;
             zuuluu = tangon.reject;
             michal = false;
             entity = zuuluu.bind(tangon)(michal);
- 96:
+ 100:
             return entity;
         }
     };
-    zuuluu['removeFile'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: clearFolder
+    zuuluu['moveFile'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: removeFile
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = _closure1_slot0;
@@ -256,12 +257,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             oscard = tangon.bind(report)(zuuluu);
-            report = oscard.clearFolder;
+            report = oscard.removeFile;
             tangon = argFoo;
             zuuluu = argBar;
             entity = report.bind(oscard)(tangon, zuuluu);
  71:
             if(!(michal == entity)) { _fun00008_ip = 96; continue _fun00007 }
+ 75:
+            michal = global;
+            tangon = michal.Promise;
+            zuuluu = tangon.reject;
+            michal = false;
+            entity = zuuluu.bind(tangon)(michal);
+ 96:
+            return entity;
+        }
+    };
+    zuuluu['removeFile'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: clearFolder
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            michal = _closure1_slot0;
+            entity = _closure1_slot1;
+            oscard = 2;
+            entity = entity[oscard];
+            report = undefined;
+            entity = michal.bind(report)(entity);
+            michal = null;
+            tangon = michal == entity;
+            entity = undefined;
+            if(tangon) { _fun00010_ip = 71; continue _fun00009 }
+ 36:
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            oscard = tangon.bind(report)(zuuluu);
+            report = oscard.clearFolder;
+            tangon = argFoo;
+            zuuluu = argBar;
+            entity = report.bind(oscard)(tangon, zuuluu);
+ 71:
+            if(!(michal == entity)) { _fun00010_ip = 96; continue _fun00009 }
  75:
             michal = global;
             tangon = michal.Promise;

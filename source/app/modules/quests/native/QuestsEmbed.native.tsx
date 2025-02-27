@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
-            oscard = michal.questId;
+            golfie = michal.questId;
             entity = michal.isEligibleForQuests;
             report = michal.calculateVisibilityPercentages;
             zuuluu = michal.themeColors;
             if(entity) { _fun00006_ip = 210; continue _fun00005 }
  36:
-            golfie = _closure1_slot10;
+            oscard = _closure1_slot10;
             michal = {};
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -217,32 +217,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(offset)(option);
             option = option.uri;
             michal['thumbnailUrl'] = option;
-            entity = golfie.bind(entity)(michal);
+            entity = oscard.bind(entity)(michal);
             return entity;
  210:
             entity = _closure1_slot5;
             michal = entity.quests;
             entity = michal.get;
-            oscard = entity.bind(michal)(oscard);
-            option = null;
-            michal = option == oscard;
-            if(!michal) { _fun00006_ip = 249; continue _fun00005 }
- 239:
+            oscard = entity.bind(michal)(golfie);
             entity = _closure1_slot5;
-            michal = entity.isFetchingCurrentQuests;
- 249:
-            if(!michal) { _fun00006_ip = 260; continue _fun00005 }
- 252:
+            michal = entity.excludedQuests;
+            entity = michal.get;
+            michal = entity.bind(michal)(golfie);
+            option = null;
+            golfie = option == oscard;
+            if(!golfie) { _fun00006_ip = 269; continue _fun00005 }
+ 259:
+            entity = _closure1_slot5;
+            golfie = entity.isFetchingCurrentQuests;
+ 269:
+            if(!golfie) { _fun00006_ip = 280; continue _fun00005 }
+ 272:
             entity = null;
-            if(!report) { _fun00006_ip = 1063; continue _fun00005 }
- 260:
-            if(michal) { _fun00006_ip = 1042; continue _fun00005 }
- 266:
-            if(!(option != oscard)) { _fun00006_ip = 868; continue _fun00005 }
- 273:
+            if(!report) { _fun00006_ip = 1267; continue _fun00005 }
+ 280:
+            if(golfie) { _fun00006_ip = 1246; continue _fun00005 }
+ 286:
+            if(!(option == michal)) { _fun00006_ip = 1072; continue _fun00005 }
+ 293:
+            if(!(option != oscard)) { _fun00006_ip = 895; continue _fun00005 }
+ 300:
             michal = null;
-            if(!report) { _fun00006_ip = 863; continue _fun00005 }
- 281:
+            if(!report) { _fun00006_ip = 890; continue _fun00005 }
+ 308:
             report = {};
             report['themeColors'] = zuuluu;
             report['quest'] = oscard;
@@ -253,10 +259,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option == verify;
             backup = undefined;
             report = undefined;
-            if(offset) { _fun00006_ip = 333; continue _fun00005 }
- 327:
+            if(offset) { _fun00006_ip = 360; continue _fun00005 }
+ 354:
             report = verify.enrolledAt;
- 333:
+ 360:
             verify = option != report;
             report = result.config;
             option = report.expiresAt;
@@ -282,13 +288,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = offset.isThemeDark;
             offset = report.bind(offset)(yankee);
             report = _closure1_slot7;
-            if(offset) { _fun00006_ip = 456; continue _fun00005 }
- 448:
+            if(offset) { _fun00006_ip = 483; continue _fun00005 }
+ 475:
             output = report.LIGHT;
-            _fun00006_ip = 462; continue _fun00005;
- 456:
+            _fun00006_ip = 489; continue _fun00005;
+ 483:
             output = report.DARK;
- 462:
+ 489:
             report = {};
             yankee = _closure1_slot10;
             offset = {};
@@ -334,10 +340,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = yankee.bind(backup)(offset);
             config = report;
             offset = copyDataProperties(config, sequen);
-            if(verify) { _fun00006_ip = 731; continue _fun00005 }
- 674:
-            if(option) { _fun00006_ip = 731; continue _fun00005 }
- 677:
+            if(verify) { _fun00006_ip = 758; continue _fun00005 }
+ 701:
+            if(option) { _fun00006_ip = 758; continue _fun00005 }
+ 704:
             romeon = _closure1_slot0;
             verify = _closure1_slot2;
             offset = verify[kiloes];
@@ -349,8 +355,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.t;
             verify = verify.kUQLMD;
             verify = offset.bind(yankee)(verify);
-            _fun00006_ip = 804; continue _fun00005;
- 731:
+            _fun00006_ip = 831; continue _fun00005;
+ 758:
             foxtra = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[kiloes];
@@ -360,17 +366,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset[kiloes];
             offset = foxtra.bind(backup)(offset);
             offset = offset.t;
-            if(option) { _fun00006_ip = 790; continue _fun00005 }
- 775:
+            if(option) { _fun00006_ip = 817; continue _fun00005 }
+ 802:
             option = offset.th2+0t;
             option = yankee.bind(romeon)(option);
-            _fun00006_ip = 801; continue _fun00005;
- 790:
+            _fun00006_ip = 828; continue _fun00005;
+ 817:
             offset = offset.hvVgAQ;
             option = yankee.bind(romeon)(offset);
- 801:
+ 828:
             verify = option;
- 804:
+ 831:
             option = 'acceptLabelText';
             report[option] = verify;
             option = golfie.acceptBlurpleLabelBackgroundColor;
@@ -384,9 +390,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'thumbnailCornerRadius';
             report[oscard] = golfie;
             michal = report;
- 863:
-            _fun00006_ip = 1040; continue _fun00005;
- 868:
+ 890:
+            _fun00006_ip = 1067; continue _fun00005;
+ 895:
             golfie = _closure1_slot10;
             oscard = {};
             yankee = _closure1_slot0;
@@ -424,17 +430,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.uri;
             oscard['thumbnailUrl'] = option;
             michal = golfie.bind(report)(oscard);
- 1040:
-            _fun00006_ip = 1060; continue _fun00005;
- 1042:
+ 1067:
+            _fun00006_ip = 1244; continue _fun00005;
+ 1072:
+            golfie = _closure1_slot10;
+            oscard = {};
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot2;
+            option = 9;
+            verify = romeon[option];
+            report = undefined;
+            verify = yankee.bind(report)(verify);
+            foxtra = verify.intl;
+            offset = foxtra.string;
+            verify = romeon[option];
+            verify = yankee.bind(report)(verify);
+            verify = verify.t;
+            verify = verify.Dd6Da2;
+            verify = offset.bind(foxtra)(verify);
+            oscard['titleText'] = verify;
+            verify = romeon[option];
+            verify = yankee.bind(report)(verify);
+            offset = verify.intl;
+            verify = offset.string;
+            option = romeon[option];
+            option = yankee.bind(report)(option);
+            option = option.t;
+            option = option.ii4mJi;
+            option = verify.bind(offset)(option);
+            oscard['bodyText'] = option;
+            oscard['themeColors'] = zuuluu;
+            offset = _closure1_slot3;
+            verify = offset.resolveAssetSource;
+            yankee = _closure1_slot1;
+            option = 16;
+            option = romeon[option];
+            option = yankee.bind(report)(option);
+            option = verify.bind(offset)(option);
+            option = option.uri;
+            oscard['thumbnailUrl'] = option;
+            michal = golfie.bind(report)(oscard);
+ 1244:
+            _fun00006_ip = 1264; continue _fun00005;
+ 1246:
             report = _closure1_slot10;
             tangon = {};
             tangon['themeColors'] = zuuluu;
             zuuluu = undefined;
             michal = report.bind(zuuluu)(tangon);
- 1060:
+ 1264:
             entity = michal;
- 1063:
+ 1267:
             return entity;
         }
     };

@@ -59,6 +59,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['MEMBER_LIST_HEADER'] = entity;
     entity = 'APP_LAUNCHER_ONBOARDING';
     michal['APP_LAUNCHER_ONBOARDING'] = entity;
+    entity = 'VIRTUAL_CURRENCY_ONBOARDING';
+    michal['VIRTUAL_CURRENCY_ONBOARDING'] = entity;
     report = argPlu;
     entity = 0;
     oscard = report[entity];

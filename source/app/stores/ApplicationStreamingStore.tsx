@@ -1406,38 +1406,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = entity.streamType;
             option = entity.guildId;
             golfie = entity.channelId;
-            yankee = entity.pid;
-            offset = entity.sourceName;
+            romeon = entity.pid;
+            yankee = entity.sourceName;
             michal = entity.sourceId;
             var _closure2_slot0 = michal;
-            tangon = entity.previewDisabled;
-            romeon = _closure1_slot0;
+            tangon = entity.sourceIcon;
+            offset = entity.previewDisabled;
+            foxtra = _closure1_slot0;
             report = _closure1_slot2;
             entity = 17;
             report = report[entity];
             entity = undefined;
-            foxtra = romeon.bind(entity)(report);
-            romeon = foxtra.encodeStreamKey;
+            backup = foxtra.bind(entity)(report);
+            foxtra = backup.encodeStreamKey;
             report = {};
             report['streamType'] = verify;
             report['guildId'] = option;
             report['channelId'] = golfie;
-            kiloes = _closure1_slot14;
-            backup = kiloes.getId;
-            backup = backup.bind(kiloes)();
-            report['ownerId'] = backup;
-            report = romeon.bind(foxtra)(report);
-            romeon = null;
-            if(!(romeon == yankee)) { _fun00064_ip = 167; continue _fun00063 }
- 125:
-            foxtra = romeon != michal;
+            sizing = _closure1_slot14;
+            kiloes = sizing.getId;
+            kiloes = kiloes.bind(sizing)();
+            report['ownerId'] = kiloes;
+            report = foxtra.bind(backup)(report);
+            foxtra = null;
+            if(!(foxtra == romeon)) { _fun00064_ip = 173; continue _fun00063 }
+ 131:
+            backup = foxtra != michal;
             michal = null;
-            if(!foxtra) { _fun00064_ip = 165; continue _fun00063 }
- 134:
-            backup = _closure1_slot13;
-            foxtra = backup.getRunningGames;
-            backup = foxtra.bind(backup)();
-            foxtra = backup.find;
+            if(!backup) { _fun00064_ip = 171; continue _fun00063 }
+ 140:
+            kiloes = _closure1_slot13;
+            backup = kiloes.getRunningGames;
+            kiloes = backup.bind(kiloes)();
+            backup = kiloes.find;
             zuuluu = function(argFoo) {
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -1451,32 +1452,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            michal = foxtra.bind(backup)(zuuluu);
- 165:
-            _fun00064_ip = 182; continue _fun00063;
- 167:
-            foxtra = _closure1_slot13;
-            zuuluu = foxtra.getGameForPID;
-            michal = zuuluu.bind(foxtra)(yankee);
- 182:
-            zuuluu = romeon != michal;
-            foxtra = null;
-            if(!zuuluu) { _fun00064_ip = 194; continue _fun00063 }
- 191:
-            foxtra = michal;
- 194:
+            michal = backup.bind(kiloes)(zuuluu);
+ 171:
+            _fun00064_ip = 188; continue _fun00063;
+ 173:
+            backup = _closure1_slot13;
+            zuuluu = backup.getGameForPID;
+            michal = zuuluu.bind(backup)(romeon);
+ 188:
+            zuuluu = foxtra != michal;
+            backup = null;
+            if(!zuuluu) { _fun00064_ip = 200; continue _fun00063 }
+ 197:
+            backup = michal;
+ 200:
             zuuluu = _closure1_slot6;
             michal = {};
-            backup = romeon == foxtra;
-            romeon = undefined;
-            if(backup) { _fun00064_ip = 214; continue _fun00063 }
- 209:
-            romeon = foxtra.id;
- 214:
-            michal['id'] = romeon;
-            michal['pid'] = yankee;
-            michal['sourceName'] = offset;
-            michal['previewDisabled'] = tangon;
+            kiloes = foxtra == backup;
+            foxtra = undefined;
+            if(kiloes) { _fun00064_ip = 220; continue _fun00063 }
+ 215:
+            foxtra = backup.id;
+ 220:
+            michal['id'] = foxtra;
+            michal['pid'] = romeon;
+            michal['sourceName'] = yankee;
+            michal['previewDisabled'] = offset;
+            michal['sourceIcon'] = tangon;
             zuuluu[report] = michal;
             zuuluu = _closure1_slot3;
             michal = zuuluu.delete;

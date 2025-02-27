@@ -1,0 +1,45 @@
+// app/modules/keyboard_shortcuts/web/bindGlobalHelper.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tangon;
+    entity = global;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    entity = 2;
+    report = tangon[entity];
+    tangon = argBar;
+    entity = undefined;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/keyboard_shortcuts/web/bindGlobalHelper.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: createGlobalBinder
+        tangon = _closure1_slot0;
+        report = _closure1_slot1;
+        entity = 0;
+        entity = report[entity];
+        zuuluu = undefined;
+        michal = tangon.bind(zuuluu)(entity);
+        entity = 1;
+        entity = report[entity];
+        report = tangon.bind(zuuluu)(entity);
+        entity = report.prototype;
+        tangon = Object.create(entity, {constructor: {value: report}});
+        oscard = argFoo;
+        golfie = tangon;
+        entity = new golfie[report](oscard, report);
+        entity = entity instanceof Object ? entity : tangon;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['createGlobalBinder'] = michal;
+    return entity;
+})();

@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = 'function createStylesTsx1(){const{resolved,withTiming,interpolateColor,themeIndex,timingStandard}=this.__closure;const styles={};for(const propertyName in resolved){const value=resolved[propertyName];if(Array.isArray(value)){styles[propertyName]=withTiming(interpolateColor(themeIndex.get(),[0,1,2],value),timingStandard);}else{styles[propertyName]=value;}}return styles;}';
     report['code'] = option;
     var _closure1_slot7 = report;
-    report = 10;
+    report = 11;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -625,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  58:
                 zuuluu = _closure1_slot0;
                 entity = _closure1_slot2;
-                kiloes = 3;
+                kiloes = 10;
                 entity = entity[kiloes];
                 backup = undefined;
                 option = zuuluu.bind(backup)(entity);

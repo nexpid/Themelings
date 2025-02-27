@@ -1510,10 +1510,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity['guild_region'] = option;
                 verify = michal.isOwner;
                 option = 'receiver';
-                if(!verify) { _fun00026_ip = 254; continue _fun00025 }
- 248:
+                if(!verify) { _fun00026_ip = 252; continue _fun00025 }
+ 246:
                 option = 'streamer';
- 254:
+ 252:
                 entity['participant_type'] = option;
                 entity['share_application_name'] = golfie;
                 entity['share_application_id'] = oscard;

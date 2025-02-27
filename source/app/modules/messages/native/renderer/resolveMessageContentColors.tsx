@@ -293,6 +293,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['reportFpBackgroundColor'] = offset;
     offset = oscard[option];
     offset = verify.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.WHITE;
+    golfie['retryTextColor'] = offset;
+    offset = oscard[option];
+    offset = verify.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.BG_BRAND;
+    golfie['retryBackgroundColor'] = offset;
+    offset = oscard[option];
+    offset = verify.bind(entity)(offset);
     offset = offset.unsafe_rawColors;
     offset = offset.BRAND_500;
     golfie['clipTagBackgroundColor'] = offset;

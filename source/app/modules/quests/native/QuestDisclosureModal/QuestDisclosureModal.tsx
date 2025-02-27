@@ -9,17 +9,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot2 = oscard;
     entity = function() { // Original name: CloseButton
         tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        golfie = _closure1_slot2;
+        option = _closure1_slot0;
+        verify = _closure1_slot2;
         entity = 1;
-        entity = golfie[entity];
+        entity = verify[entity];
         zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
+        entity = option.bind(zuuluu)(entity);
         michal = entity.HeaderActionButton;
         entity = {};
         oscard = _closure1_slot1;
         report = 2;
-        report = golfie[report];
+        report = verify[report];
         report = oscard.bind(zuuluu)(report);
         entity['source'] = report;
         report = function() { // Original name: onPress
@@ -34,6 +34,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['onPress'] = report;
+        report = 4;
+        oscard = verify[report];
+        oscard = option.bind(zuuluu)(oscard);
+        golfie = oscard.intl;
+        oscard = golfie.string;
+        report = verify[report];
+        report = option.bind(zuuluu)(report);
+        report = report.t;
+        report = report.cpT0Cg;
+        report = oscard.bind(golfie)(report);
+        entity['accessibilityLabel'] = report;
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
@@ -99,13 +110,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot3;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             entity = verify[entity];
             zuuluu = undefined;
             entity = option.bind(zuuluu)(entity);
             michal = entity.NavigatorHeader;
             entity = {};
-            report = 5;
+            report = 4;
             oscard = verify[report];
             oscard = option.bind(zuuluu)(oscard);
             golfie = oscard.intl;
@@ -156,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['screens'] = oscard;
         report = report.DISCLOSURE;
         entity['initialRouteName'] = report;
-        report = 5;
+        report = 4;
         oscard = verify[report];
         oscard = option.bind(zuuluu)(oscard);
         golfie = oscard.intl;

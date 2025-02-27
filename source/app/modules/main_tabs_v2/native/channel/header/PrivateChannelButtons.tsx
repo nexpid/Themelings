@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  269:
             zuuluu = michal.id;
  274:
-            papara = oscard.bind(verify)(zuuluu);
+            target = oscard.bind(verify)(zuuluu);
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = golfie.bind(verify)(oscard, zuuluu);
-            sequen = zuuluu.callParticipants;
+            config = zuuluu.callParticipants;
             zuuluu = yankee == michal;
             foxtra = undefined;
             if(zuuluu) { _fun00002_ip = 350; continue _fun00001 }
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = foxtra;
             if(!output) { _fun00002_ip = 367; continue _fun00001 }
  356:
-            oscard = sequen.length;
+            oscard = config.length;
             zuuluu = 0;
             output = oscard > zuuluu;
  367:
@@ -425,16 +425,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            update = verify.bind(offset)(michal, oscard);
+            source = verify.bind(offset)(michal, oscard);
             oscard = _closure1_slot1;
             michal = 19;
             michal = golfie[michal];
             michal = oscard.bind(tangon)(michal);
             michal = michal.bind(tangon)(sizing);
-            if(michal) { _fun00002_ip = 1368; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1372; continue _fun00001 }
  513:
             michal = null;
-            if(zuuluu) { _fun00002_ip = 1366; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 1370; continue _fun00001 }
  521:
             golfie = _closure1_slot16;
             oscard = _closure1_slot4;
@@ -443,78 +443,78 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['style'] = verify;
             offset = _closure1_slot0;
             verify = _closure1_slot2;
-            source = 22;
-            verify = verify[source];
+            ctrled = 22;
+            verify = verify[ctrled];
             verify = offset.bind(tangon)(verify);
             offset = verify.PressableOpacity;
             verify = {};
             vacuum = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            result = 23;
-            config = ctrled[result];
-            config = vacuum.bind(tangon)(config);
-            record = config.intl;
-            config = record.string;
-            ctrled = ctrled[result];
-            ctrled = vacuum.bind(tangon)(ctrled);
-            vacuum = ctrled.t;
+            result = _closure1_slot2;
+            update = 23;
+            sequen = result[update];
+            sequen = vacuum.bind(tangon)(sequen);
+            record = sequen.intl;
+            sequen = record.string;
+            result = result[update];
+            result = vacuum.bind(tangon)(result);
+            vacuum = result.t;
             if(output) { _fun00002_ip = 645; continue _fun00001 }
  616:
             if(romeon) { _fun00002_ip = 632; continue _fun00001 }
  619:
-            ctrled = vacuum.focH1t;
-            ctrled = config.bind(record)(ctrled);
+            result = vacuum.focH1t;
+            result = sequen.bind(record)(result);
             _fun00002_ip = 643; continue _fun00001;
  632:
             cntext = vacuum.4ry6ys;
-            ctrled = config.bind(record)(cntext);
+            result = sequen.bind(record)(cntext);
  643:
             _fun00002_ip = 656; continue _fun00001;
  645:
             vacuum = vacuum.0D/6R0;
-            ctrled = config.bind(record)(vacuum);
+            result = sequen.bind(record)(vacuum);
  656:
-            verify['accessibilityLabel'] = ctrled;
-            ctrled = 'button';
-            verify['accessibilityRole'] = ctrled;
-            vacuum = option.button;
-            ctrled = new Array(3);
-            ctrled[0] = vacuum;
-            vacuum = {};
-            config = undefined;
+            verify['accessibilityLabel'] = result;
+            result = 'button';
+            verify['accessibilityRole'] = result;
+            sequen = option.button;
+            vacuum = new Array(3);
+            vacuum[0] = sequen;
+            sequen = {};
+            record = undefined;
             if(!output) { _fun00002_ip = 692; continue _fun00001 }
  689:
-            config = 1;
+            record = 1;
  692:
-            vacuum['borderWidth'] = config;
-            config = undefined;
+            sequen['borderWidth'] = record;
+            record = undefined;
             if(!output) { _fun00002_ip = 747; continue _fun00001 }
  702:
-            cntext = _closure1_slot1;
-            target = _closure1_slot2;
-            record = 13;
-            record = target[record];
-            record = cntext.bind(tangon)(record);
-            cntext = record.unsafe_rawColors;
+            papara = _closure1_slot1;
+            status = _closure1_slot2;
+            cntext = 13;
+            cntext = status[cntext];
+            cntext = papara.bind(tangon)(cntext);
+            papara = cntext.unsafe_rawColors;
             if(romeon) { _fun00002_ip = 738; continue _fun00001 }
  730:
-            record = cntext.BRAND_400;
+            cntext = papara.BRAND_400;
             _fun00002_ip = 744; continue _fun00001;
  738:
-            record = cntext.GREEN_360;
+            cntext = papara.GREEN_360;
  744:
-            config = record;
+            record = cntext;
  747:
-            vacuum['borderColor'] = config;
-            ctrled[1] = vacuum;
-            vacuum = null;
+            sequen['borderColor'] = record;
+            vacuum[1] = sequen;
+            sequen = null;
             if(!echoed) { _fun00002_ip = 767; continue _fun00001 }
  761:
-            vacuum = option.disabledButton;
+            sequen = option.disabledButton;
  767:
-            ctrled[2] = vacuum;
-            verify['style'] = ctrled;
-            ctrled = function() { // Original name: onPress
+            vacuum[2] = sequen;
+            verify['style'] = vacuum;
+            vacuum = function() { // Original name: onPress
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     michal = _closure2_slot3;
@@ -543,82 +543,82 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            verify['onPress'] = ctrled;
+            verify['onPress'] = vacuum;
             verify['disabled'] = echoed;
-            config = _closure1_slot15;
-            vacuum = _closure1_slot0;
-            record = _closure1_slot2;
+            record = _closure1_slot15;
+            sequen = _closure1_slot0;
+            cntext = _closure1_slot2;
             if(output) { _fun00002_ip = 952; continue _fun00001 }
  806:
             if(romeon) { _fun00002_ip = 885; continue _fun00001 }
  809:
             output = 28;
-            output = record[output];
-            output = vacuum.bind(tangon)(output);
-            ctrled = output.PhoneCallIcon;
-            output = {};
-            cntext = 'sm';
-            output['size'] = cntext;
-            cntext = undefined;
-            if(!papara) { _fun00002_ip = 873; continue _fun00001 }
- 842:
-            target = _closure1_slot1;
-            status = _closure1_slot2;
-            papara = 13;
-            papara = status[papara];
-            papara = target.bind(tangon)(papara);
-            papara = papara.unsafe_rawColors;
-            cntext = papara.GREEN_360;
- 873:
-            output['color'] = cntext;
-            ctrled = config.bind(tangon)(ctrled, output);
-            _fun00002_ip = 950; continue _fun00001;
- 885:
-            output = 27;
-            output = record[output];
-            output = vacuum.bind(tangon)(output);
-            cntext = output.PhoneHangUpIcon;
+            output = cntext[output];
+            output = sequen.bind(tangon)(output);
+            vacuum = output.PhoneCallIcon;
             output = {};
             papara = 'sm';
             output['size'] = papara;
-            target = _closure1_slot1;
-            papara = 13;
-            papara = record[papara];
-            papara = target.bind(tangon)(papara);
-            papara = papara.unsafe_rawColors;
-            papara = papara.RED_400;
+            papara = undefined;
+            if(!target) { _fun00002_ip = 873; continue _fun00001 }
+ 842:
+            status = _closure1_slot1;
+            sierra = _closure1_slot2;
+            target = 13;
+            target = sierra[target];
+            target = status.bind(tangon)(target);
+            target = target.unsafe_rawColors;
+            papara = target.GREEN_360;
+ 873:
             output['color'] = papara;
-            ctrled = config.bind(tangon)(cntext, output);
+            vacuum = record.bind(tangon)(vacuum, output);
+            _fun00002_ip = 950; continue _fun00001;
+ 885:
+            output = 27;
+            output = cntext[output];
+            output = sequen.bind(tangon)(output);
+            papara = output.PhoneHangUpIcon;
+            output = {};
+            target = 'sm';
+            output['size'] = target;
+            status = _closure1_slot1;
+            target = 13;
+            target = cntext[target];
+            target = status.bind(tangon)(target);
+            target = target.unsafe_rawColors;
+            target = target.RED_400;
+            output['color'] = target;
+            vacuum = record.bind(tangon)(papara, output);
  950:
             _fun00002_ip = 1032; continue _fun00001;
  952:
             output = 26;
-            output = record[output];
-            output = vacuum.bind(tangon)(output);
-            vacuum = output.VoiceNormalIcon;
+            output = cntext[output];
+            output = sequen.bind(tangon)(output);
+            sequen = output.VoiceNormalIcon;
             output = {};
-            record = 'sm';
-            output['size'] = record;
-            cntext = _closure1_slot1;
-            papara = _closure1_slot2;
-            record = 13;
-            record = papara[record];
-            record = cntext.bind(tangon)(record);
-            cntext = record.unsafe_rawColors;
+            cntext = 'sm';
+            output['size'] = cntext;
+            papara = _closure1_slot1;
+            target = _closure1_slot2;
+            cntext = 13;
+            cntext = target[cntext];
+            cntext = papara.bind(tangon)(cntext);
+            papara = cntext.unsafe_rawColors;
             if(romeon) { _fun00002_ip = 1016; continue _fun00001 }
  1008:
-            record = cntext.BRAND_400;
+            cntext = papara.BRAND_400;
             _fun00002_ip = 1022; continue _fun00001;
  1016:
-            record = cntext.GREEN_360;
+            cntext = papara.GREEN_360;
  1022:
-            output['color'] = record;
-            ctrled = config.bind(tangon)(vacuum, output);
+            output['color'] = cntext;
+            vacuum = record.bind(tangon)(sequen, output);
  1032:
             output = new Array(2);
-            output[0] = ctrled;
-            vacuum = sequen.map;
-            ctrled = function(argFoo, argBar, argBaz) {
+            output[0] = vacuum;
+            sequen = config.map;
+            vacuum = function(argFoo, argBar, argBaz) {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = argFoo;
@@ -691,49 +691,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            ctrled = vacuum.bind(sequen)(ctrled);
-            output[1] = ctrled;
+            vacuum = sequen.bind(config)(vacuum);
+            output[1] = vacuum;
             verify['children'] = output;
             offset = golfie.bind(tangon)(offset, verify);
             verify = new Array(3);
             verify[0] = offset;
             offset = null;
-            if(foxtra) { _fun00002_ip = 1267; continue _fun00001 }
+            if(foxtra) { _fun00002_ip = 1271; continue _fun00001 }
  1085:
             offset = null;
-            if(romeon) { _fun00002_ip = 1267; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 1271; continue _fun00001 }
  1093:
             output = _closure1_slot15;
             foxtra = _closure1_slot0;
             romeon = _closure1_slot2;
-            romeon = romeon[source];
+            romeon = romeon[ctrled];
             romeon = foxtra.bind(tangon)(romeon);
             foxtra = romeon.PressableOpacity;
             romeon = {};
-            ctrled = option.button;
-            source = new Array(2);
-            source[0] = ctrled;
-            ctrled = null;
+            vacuum = option.button;
+            ctrled = new Array(2);
+            ctrled[0] = vacuum;
+            vacuum = null;
             if(!echoed) { _fun00002_ip = 1147; continue _fun00001 }
  1141:
-            ctrled = option.disabledButton;
+            vacuum = option.disabledButton;
  1147:
-            source[1] = ctrled;
-            romeon['style'] = source;
-            romeon['onPress'] = update;
+            ctrled[1] = vacuum;
+            romeon['style'] = ctrled;
+            romeon['onPress'] = source;
             romeon['disabled'] = echoed;
             echoed = _closure1_slot0;
             source = _closure1_slot2;
-            update = source[result];
+            ctrled = source[update];
+            ctrled = echoed.bind(tangon)(ctrled);
+            vacuum = ctrled.intl;
+            ctrled = vacuum.string;
+            update = source[update];
             update = echoed.bind(tangon)(update);
-            ctrled = update.intl;
-            update = ctrled.string;
-            result = source[result];
-            result = echoed.bind(tangon)(result);
-            result = result.t;
-            result = result.oCqlGB;
-            result = update.bind(ctrled)(result);
-            romeon['accessibilityLabel'] = result;
+            update = update.t;
+            update = update.oCqlGB;
+            update = ctrled.bind(vacuum)(update);
+            romeon['accessibilityLabel'] = update;
+            romeon['accessibilityRole'] = result;
             update = _closure1_slot15;
             result = 29;
             result = source[result];
@@ -745,15 +746,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = update.bind(tangon)(echoed, result);
             romeon['children'] = result;
             offset = output.bind(tangon)(foxtra, romeon);
- 1267:
+ 1271:
             verify[1] = offset;
             offset = yankee != backup;
-            if(!offset) { _fun00002_ip = 1282; continue _fun00001 }
- 1278:
-            offset = yankee != kiloes;
+            if(!offset) { _fun00002_ip = 1286; continue _fun00001 }
  1282:
-            if(!offset) { _fun00002_ip = 1352; continue _fun00001 }
- 1285:
+            offset = yankee != kiloes;
+ 1286:
+            if(!offset) { _fun00002_ip = 1356; continue _fun00001 }
+ 1289:
             foxtra = _closure1_slot15;
             romeon = _closure1_slot0;
             output = _closure1_slot2;
@@ -769,13 +770,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.type;
             yankee['warningType'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1352:
+ 1356:
             verify[2] = offset;
             zuuluu['children'] = verify;
             michal = golfie.bind(tangon)(oscard, zuuluu);
- 1366:
+ 1370:
             return michal;
- 1368:
+ 1372:
             zuuluu = _closure1_slot15;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;

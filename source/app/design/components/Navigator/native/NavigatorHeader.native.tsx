@@ -347,10 +347,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report['headerBackTitleStyle'] = offset;
     offset = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
     report['navigatorHeaderTitleContainer'] = offset;
-    offset = {'flexDirection': 'column', 'justifyContent': 'center'};
-    report['navigatorHeaderContainer'] = offset;
     offset = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
-    report['navigatorHeaderContainerCentered'] = offset;
+    report['navigatorHeaderContainer'] = offset;
     offset = {};
     foxtra = -2;
     offset['marginTop'] = foxtra;
@@ -391,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot7;
             michal = _closure1_slot4;
             entity = {};
-            report = yankee.navigatorHeaderContainerCentered;
+            report = yankee.navigatorHeaderContainer;
             entity['style'] = report;
             report = {};
             oscard = yankee.navigatorHeaderTitleContainer;

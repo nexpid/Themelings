@@ -91,40 +91,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = tangon.ExperimentFlags;
         golfie = {'name': 'H265', 'encode': null, 'decode': true};
         tangon = verify.window;
-        backup = null;
-        offset = backup == tangon;
-        option = undefined;
-        if(offset) { _fun00002_ip = 144; continue _fun00001 }
- 117:
-        tangon = tangon.DiscordNative;
-        offset = backup == tangon;
-        option = undefined;
-        if(offset) { _fun00002_ip = 144; continue _fun00001 }
- 132:
-        tangon = tangon.process;
-        option = tangon.platform;
- 144:
-        tangon = 'darwin';
-        tangon = tangon !== option;
-        if(tangon) { _fun00002_ip = 287; continue _fun00001 }
- 160:
+        option = 'undefined';
+        tangon = typeof tangon;
+        tangon = option === tangon;
+        if(tangon) { _fun00002_ip = 173; continue _fun00001 }
+ 119:
         option = verify.window;
+        yankee = null;
+        foxtra = yankee == option;
+        offset = undefined;
+        if(foxtra) { _fun00002_ip = 163; continue _fun00001 }
+ 136:
+        option = option.DiscordNative;
+        yankee = yankee == option;
+        offset = undefined;
+        if(yankee) { _fun00002_ip = 163; continue _fun00001 }
+ 151:
+        option = option.process;
+        offset = option.platform;
+ 163:
+        option = 'darwin';
+        tangon = option !== offset;
+ 173:
+        if(tangon) { _fun00002_ip = 308; continue _fun00001 }
+ 179:
+        option = verify.window;
+        backup = null;
         yankee = backup == option;
         offset = undefined;
-        if(yankee) { _fun00002_ip = 202; continue _fun00001 }
- 175:
+        if(yankee) { _fun00002_ip = 223; continue _fun00001 }
+ 196:
         option = option.DiscordNative;
         yankee = backup == option;
         offset = undefined;
-        if(yankee) { _fun00002_ip = 202; continue _fun00001 }
- 190:
+        if(yankee) { _fun00002_ip = 223; continue _fun00001 }
+ 211:
         option = option.os;
         offset = option.arch;
- 202:
+ 223:
         option = 'arm64';
         option = option === offset;
-        if(!option) { _fun00002_ip = 284; continue _fun00001 }
- 215:
+        if(!option) { _fun00002_ip = 305; continue _fun00001 }
+ 236:
         offset = 1;
         yankee = oscard[offset];
         offset = argBaz;
@@ -133,20 +141,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         foxtra = verify.window;
         kiloes = backup == foxtra;
         verify = undefined;
-        if(kiloes) { _fun00002_ip = 278; continue _fun00001 }
- 251:
+        if(kiloes) { _fun00002_ip = 299; continue _fun00001 }
+ 272:
         foxtra = foxtra.DiscordNative;
         backup = backup == foxtra;
         verify = undefined;
-        if(backup) { _fun00002_ip = 278; continue _fun00001 }
- 266:
+        if(backup) { _fun00002_ip = 299; continue _fun00001 }
+ 287:
         foxtra = foxtra.os;
         verify = foxtra.release;
- 278:
+ 299:
         option = offset.bind(yankee)(verify, romeon);
- 284:
+ 305:
         tangon = option;
- 287:
+ 308:
         golfie['encode'] = tangon;
         tangon = new Array(4);
         tangon[0] = golfie;

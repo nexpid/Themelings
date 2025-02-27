@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = backup[michal];
             michal = report.bind(tangon)(michal);
             michal = michal.InternalCard;
-            if(entity) { _fun00004_ip = 251; continue _fun00003 }
+            if(entity) { _fun00004_ip = 255; continue _fun00003 }
  199:
             entity = {'shadow': 'low', 'border': 'subtle', 'start': true, 'end': true};
             entity['onPress'] = foxtra;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report = 'children';
             entity[report] = verify;
             _fun00004_ip = 403; continue _fun00003;
- 251:
+ 255:
             report = {'shadow': 'none', 'border': 'none', 'start': true, 'end': true};
             report['onPress'] = foxtra;
             foxtra = function(argFoo) { // Original name: onPressIn

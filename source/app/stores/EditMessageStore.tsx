@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['MESSAGE_UPDATE_EDIT'] = verify;
-    tangon = function(argFoo) { // Original name: handleMessageEndEdit
+    verify = function(argFoo) { // Original name: handleMessageEndEdit
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
@@ -389,7 +389,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['MESSAGE_END_EDIT'] = tangon;
+    michal['MESSAGE_END_EDIT'] = verify;
+    tangon = function(argFoo) { // Original name: handleMessageDelete
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+            entity = argFoo;
+            zuuluu = entity.channelId;
+            report = entity.id;
+            entity = _closure1_slot9;
+            oscard = entity[zuuluu];
+            entity = null;
+            golfie = entity == oscard;
+            entity = undefined;
+            tangon = undefined;
+            if(golfie) { _fun00022_ip = 42; continue _fun00021 }
+ 37:
+            tangon = oscard.messageId;
+ 42:
+            if(!(tangon === report)) { _fun00022_ip = 62; continue _fun00021 }
+ 46:
+            tangon = _closure1_slot9;
+            tangon = delete tangon[zuuluu];
+            michal = _closure1_slot10;
+            michal = delete michal[zuuluu];
+ 62:
+            return entity;
+        }
+    };
+    michal['MESSAGE_DELETE'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     foxtra = tangon;

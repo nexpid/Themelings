@@ -532,8 +532,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = golfie.currentApp;
             golfie = golfie.focusedOrientationLockState;
             backup = null;
-            if(!(backup == golfie)) { _fun00008_ip = 377; continue _fun00007 }
- 346:
+            if(!(backup == golfie)) { _fun00008_ip = 373; continue _fun00007 }
+ 342:
             result = _closure1_slot0;
             source = _closure1_slot2;
             sizing = 22;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.bind(tangon)(sizing);
             sizing = result.getDefaultOrientationLockState;
             golfie = sizing.bind(result)(echoed);
- 377:
+ 373:
             _closure2_slot8 = golfie;
             sizing = _closure1_slot16;
             verify = verify.top;
@@ -774,12 +774,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = backup != kiloes;
             golfie['isActivityConnected'] = sizing;
             backup = backup != kiloes;
-            if(!backup) { _fun00008_ip = 682; continue _fun00007 }
- 668:
+            if(!backup) { _fun00008_ip = 678; continue _fun00007 }
+ 664:
             kiloes = _closure1_slot14;
             kiloes = kiloes.PANEL;
             backup = foxtra === kiloes;
- 682:
+ 678:
             golfie['isActivityFocused'] = backup;
             golfie['isVoicePanelFullscreen'] = oscard;
             oscard = function(argFoo) { // Original name: useSafeAreaLock

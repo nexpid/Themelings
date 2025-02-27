@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = romeon[golfie];
                     golfie = yankee.bind(zuuluu)(golfie);
                     golfie = golfie.t;
-                    golfie = golfie.bu2hl5;
+                    golfie = golfie.8T1rxM;
                     verify = verify.bind(offset)(golfie);
                     golfie = 'message';
                     oscard[golfie] = verify;
@@ -681,7 +681,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = yankee[golfie];
                     foxtra = offset.bind(zuuluu)(foxtra);
                     foxtra = foxtra.t;
-                    foxtra = foxtra.2bHM5e;
+                    foxtra = foxtra.MmIrpa;
                     foxtra = backup.bind(kiloes)(foxtra);
                     oscard['title'] = foxtra;
                     foxtra = yankee[golfie];
@@ -691,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = yankee[golfie];
                     foxtra = offset.bind(zuuluu)(foxtra);
                     foxtra = foxtra.t;
-                    foxtra = foxtra.D0lNBA;
+                    foxtra = foxtra.yjpDQ0;
                     foxtra = backup.bind(kiloes)(foxtra);
                     oscard['body'] = foxtra;
                     foxtra = yankee[golfie];
@@ -701,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = yankee[golfie];
                     foxtra = offset.bind(zuuluu)(foxtra);
                     foxtra = foxtra.t;
-                    foxtra = foxtra.qFctfH;
+                    foxtra = foxtra.XNGT1N;
                     foxtra = backup.bind(kiloes)(foxtra);
                     oscard['confirmText'] = foxtra;
                     oscard = verify.bind(romeon)(oscard);
@@ -716,7 +716,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = yankee[golfie];
                     golfie = offset.bind(zuuluu)(golfie);
                     golfie = golfie.t;
-                    golfie = golfie.D0lNBA;
+                    golfie = golfie.yjpDQ0;
                     option = option.bind(verify)(golfie);
                     golfie = 'message';
                     oscard[golfie] = option;

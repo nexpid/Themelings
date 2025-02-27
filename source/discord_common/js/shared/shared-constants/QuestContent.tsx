@@ -114,6 +114,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['REWARD_MODAL'] = oscard;
     michal = 'REWARD_MODAL';
     tangon[oscard] = michal;
+    oscard = 26;
+    tangon['EXCLUDED_QUEST_EMBED'] = oscard;
+    michal = 'EXCLUDED_QUEST_EMBED';
+    tangon[oscard] = michal;
+    oscard = 27;
+    tangon['VIDEO_MODAL_MOBILE'] = oscard;
+    michal = 'VIDEO_MODAL_MOBILE';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

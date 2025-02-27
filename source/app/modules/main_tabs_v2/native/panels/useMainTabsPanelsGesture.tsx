@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon['code'] = golfie;
         var _closure1_slot8 = tangon;
         tangon = {};
-        golfie = "function useMainTabsPanelsGestureTsx2(show,isFling,velocity,force){const{translateX,width,runOnJS,onVisibilityChange,panelsConfig,isTimingConfig,withTiming,withSpring}=this.__closure;if(!force&&translateX.get()!==0&&translateX.get()!==width){return false;}const targetTranslationX=show?0:width;if(translateX.get()===targetTranslationX){runOnJS(onVisibilityChange)(show);return false;}const animationConfig=show?isFling?panelsConfig.swipeSidePanelOpen:panelsConfig.nonSwipeSidePanelOpen:isFling?panelsConfig.swipeSidePanelClose:panelsConfig.nonSwipeSidePanelClose;function handleAnimationFinish(finished){'worklet';if(!finished)return;runOnJS(onVisibilityChange)(show);}translateX.set(isTimingConfig(animationConfig)?withTiming(targetTranslationX,animationConfig,'respect-motion-settings',handleAnimationFinish):withSpring(targetTranslationX,{...animationConfig,velocity:velocity},'respect-motion-settings',handleAnimationFinish));return true;}";
+        golfie = "function useMainTabsPanelsGestureTsx2(show,isFling,velocity,force){const{translateX,width,onVisibilityChange,runOnJS,panelsConfig,isTimingConfig,withTiming,withSpring}=this.__closure;if(!force&&translateX.get()!==0&&translateX.get()!==width){return false;}const targetTranslationX=show?0:width;if(translateX.get()===targetTranslationX){if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}return false;}const animationConfig=show?isFling?panelsConfig.swipeSidePanelOpen:panelsConfig.nonSwipeSidePanelOpen:isFling?panelsConfig.swipeSidePanelClose:panelsConfig.nonSwipeSidePanelClose;function handleAnimationFinish(finished){'worklet';if(!finished)return;if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}}translateX.set(isTimingConfig(animationConfig)?withTiming(targetTranslationX,animationConfig,'respect-motion-settings',handleAnimationFinish):withSpring(targetTranslationX,{...animationConfig,velocity:velocity},'respect-motion-settings',handleAnimationFinish));return true;}";
         tangon['code'] = golfie;
         var _closure1_slot9 = tangon;
         tangon = {};
-        golfie = 'function handleAnimationFinish_useMainTabsPanelsGestureTsx3(finished){const{runOnJS,onVisibilityChange,show}=this.__closure;if(!finished)return;runOnJS(onVisibilityChange)(show);}';
+        golfie = 'function handleAnimationFinish_useMainTabsPanelsGestureTsx3(finished){const{onVisibilityChange,runOnJS,show}=this.__closure;if(!finished)return;if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}}';
         tangon['code'] = golfie;
         var _closure1_slot10 = tangon;
         tangon = {};
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon['code'] = golfie;
         var _closure1_slot11 = tangon;
         tangon = {};
-        golfie = 'function useMainTabsPanelsGestureTsx5(event,manager){const{State,startPosition,GESTURE_MIN_DISTANCE,disallowGesture,translateX,cancelOnSwipeRightFromStart,launchPadType,LaunchPadTypes,windowWidth,LAUNCHPAD_GESTURE_INSET}=this.__closure;if(event.state!==State.BEGAN)return;const touch=event.allTouches[0];const xDiff=touch.x-startPosition.get().x;const xDiffAbs=Math.abs(xDiff);if(xDiffAbs<=GESTURE_MIN_DISTANCE)return;if(disallowGesture.get()){return;}const yDiffAbs=Math.abs(touch.y-startPosition.get().y);if(xDiffAbs<=yDiffAbs||xDiffAbs*xDiffAbs+yDiffAbs*yDiffAbs<GESTURE_MIN_DISTANCE*GESTURE_MIN_DISTANCE){return;}if(xDiff<=0){if(translateX.get()===0){manager.fail();return;}}else{if(cancelOnSwipeRightFromStart===true&&translateX.get()>0){manager.fail();return;}}const isGestureBasedLaunchPad=launchPadType===LaunchPadTypes.GESTURE_EDGE||launchPadType===LaunchPadTypes.GESTURE_FULL;if(isGestureBasedLaunchPad&&xDiff<0){const launchpadGestureEdge=windowWidth-LAUNCHPAD_GESTURE_INSET;if(launchPadType===LaunchPadTypes.GESTURE_FULL&&startPosition.get().x<launchpadGestureEdge||launchPadType===LaunchPadTypes.GESTURE_EDGE&&startPosition.get().x>=launchpadGestureEdge){manager.fail();return;}}manager.activate();}';
+        golfie = 'function useMainTabsPanelsGestureTsx5(event,manager){const{State,startPosition,GESTURE_MIN_DISTANCE,disallowGesture,translateX,cancelOnSwipeRightFromStart,width,launchPadType,LaunchPadTypes,windowWidth,LAUNCHPAD_GESTURE_INSET}=this.__closure;if(event.state!==State.BEGAN)return;const touch=event.allTouches[0];const xDiff=touch.x-startPosition.get().x;const xDiffAbs=Math.abs(xDiff);if(xDiffAbs<=GESTURE_MIN_DISTANCE)return;if(disallowGesture.get()){return;}const yDiffAbs=Math.abs(touch.y-startPosition.get().y);if(xDiffAbs<=yDiffAbs||xDiffAbs*xDiffAbs+yDiffAbs*yDiffAbs<GESTURE_MIN_DISTANCE*GESTURE_MIN_DISTANCE){return;}if(xDiff<=0){if(translateX.get()===0){manager.fail();return;}}else{if(cancelOnSwipeRightFromStart===true&&translateX.get()>=width){manager.fail();return;}}const isGestureBasedLaunchPad=launchPadType===LaunchPadTypes.GESTURE_EDGE||launchPadType===LaunchPadTypes.GESTURE_FULL;if(isGestureBasedLaunchPad&&xDiff<0){const launchpadGestureEdge=windowWidth-LAUNCHPAD_GESTURE_INSET;if(launchPadType===LaunchPadTypes.GESTURE_FULL&&startPosition.get().x<launchpadGestureEdge||launchPadType===LaunchPadTypes.GESTURE_EDGE&&startPosition.get().x>=launchpadGestureEdge){manager.fail();return;}}manager.activate();}';
         tangon['code'] = golfie;
         var _closure1_slot12 = tangon;
         tangon = {};
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon['code'] = golfie;
         var _closure1_slot13 = tangon;
         tangon = {};
-        golfie = 'function useMainTabsPanelsGestureTsx7(e){const{disallowGesture,translateX,width}=this.__closure;if(disallowGesture.get()){translateX.set(0);return;}translateX.set(Math.max(0,Math.min(width,translateX.get()+e.changeX)));}';
+        golfie = 'function useMainTabsPanelsGestureTsx7(e){const{disallowGesture,translateX,width}=this.__closure;if(disallowGesture.get()){const currentTranslateX=translateX.get();if(currentTranslateX===0||currentTranslateX===width){return;}translateX.set(0);return;}translateX.set(Math.max(0,Math.min(width,translateX.get()+e.changeX)));}';
         tangon['code'] = golfie;
         var _closure1_slot14 = tangon;
         tangon = {};
@@ -321,8 +321,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                                     entity = argFoo;
-                                    if(!entity) { _fun00010_ip = 60; continue _fun00009 }
+                                    if(!entity) { _fun00010_ip = 19; continue _fun00009 }
  6:
+                                    zuuluu = _closure2_slot1;
+                                    michal = null;
+                                    entity = michal != zuuluu;
+ 19:
+                                    if(!entity) { _fun00010_ip = 76; continue _fun00009 }
+ 22:
                                     michal = _closure1_slot0;
                                     zuuluu = _closure1_slot2;
                                     entity = 7;
@@ -334,12 +340,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     michal = michal.bind(tangon)(entity);
                                     entity = _closure3_slot0;
                                     entity = michal.bind(zuuluu)(entity);
- 60:
+ 76:
                                     entity = undefined;
                                     return entity;
                                 }
                             };
                             zuuluu = {};
+                            michal = _closure2_slot1;
+                            zuuluu['onVisibilityChange'] = michal;
                             oscard = _closure1_slot0;
                             report = _closure1_slot2;
                             tangon = 7;
@@ -348,12 +356,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = oscard.bind(tangon)(report);
                             tangon = tangon.runOnJS;
                             zuuluu['runOnJS'] = tangon;
-                            tangon = _closure2_slot1;
-                            zuuluu['onVisibilityChange'] = tangon;
                             tangon = _closure3_slot0;
                             zuuluu['show'] = tangon;
                             entity['__closure'] = zuuluu;
-                            zuuluu = 11840209559881.0;
+                            zuuluu = 1018878139815.0;
                             entity['__workletHash'] = zuuluu;
                             michal = _closure1_slot10;
                             entity['__initData'] = michal;
@@ -409,6 +415,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = true;
                         return michal;
  329:
+                        tangon = _closure2_slot1;
+                        michal = null;
+                        if(!(michal != tangon)) { _fun00008_ip = 383; continue _fun00007 }
+ 339:
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
                         michal = 7;
@@ -419,6 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = _closure2_slot1;
                         entity = tangon.bind(report)(entity);
                         entity = entity.bind(michal)(zuuluu);
+ 383:
                         entity = false;
                         return entity;
                     }
@@ -426,11 +437,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 tangon['translateX'] = report;
                 tangon['width'] = zuuluu;
+                tangon['onVisibilityChange'] = vacuum;
                 sequen = foxtra[option];
                 sequen = verify.bind(romeon)(sequen);
                 sequen = sequen.runOnJS;
                 tangon['runOnJS'] = sequen;
-                tangon['onVisibilityChange'] = vacuum;
                 sequen = _closure1_slot7;
                 tangon['panelsConfig'] = sequen;
                 sequen = 4;
@@ -449,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen = sequen.withSpring;
                 tangon['withSpring'] = sequen;
                 output['__closure'] = tangon;
-                tangon = 346656151811.0;
+                tangon = 8550775448739.0;
                 output['__workletHash'] = tangon;
                 tangon = _closure1_slot9;
                 output['__initData'] = tangon;
@@ -578,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = golfie.bind(entity)(tangon);
                             tangon = tangon.State;
                             tangon = tangon.BEGAN;
-                            if(!(oscard === tangon)) { _fun00012_ip = 451; continue _fun00011 }
+                            if(!(oscard === tangon)) { _fun00012_ip = 455; continue _fun00011 }
  55:
                             michal = michal.allTouches;
                             oscard = 0;
@@ -593,12 +604,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             yankee = verify.Math;
                             option = yankee.abs;
                             option = option.bind(yankee)(tangon);
-                            if(!(!(option <= offset))) { _fun00012_ip = 451; continue _fun00011 }
+                            if(!(!(option <= offset))) { _fun00012_ip = 455; continue _fun00011 }
  123:
                             yankee = _closure2_slot12;
                             offset = yankee.get;
                             offset = offset.bind(yankee)();
-                            if(offset) { _fun00012_ip = 451; continue _fun00011 }
+                            if(offset) { _fun00012_ip = 455; continue _fun00011 }
  142:
                             offset = verify.Math;
                             verify = offset.abs;
@@ -609,86 +620,87 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = golfie.y;
                             golfie = yankee - golfie;
                             golfie = verify.bind(offset)(golfie);
-                            if(!(!(option <= golfie))) { _fun00012_ip = 451; continue _fun00011 }
+                            if(!(!(option <= golfie))) { _fun00012_ip = 455; continue _fun00011 }
  193:
                             option = option * option;
                             golfie = golfie * golfie;
                             option = option + golfie;
                             golfie = 144;
-                            if(!(!(option < golfie))) { _fun00012_ip = 451; continue _fun00011 }
+                            if(!(!(option < golfie))) { _fun00012_ip = 455; continue _fun00011 }
  215:
-                            if(!(!(tangon <= oscard))) { _fun00012_ip = 260; continue _fun00011 }
+                            if(!(!(tangon <= oscard))) { _fun00012_ip = 264; continue _fun00011 }
  219:
                             option = _closure2_slot3;
                             golfie = true;
-                            if(!(golfie === option)) { _fun00012_ip = 280; continue _fun00011 }
+                            if(!(golfie === option)) { _fun00012_ip = 284; continue _fun00011 }
  229:
                             option = _closure2_slot8;
                             golfie = option.get;
-                            golfie = golfie.bind(option)();
-                            if(!(golfie > oscard)) { _fun00012_ip = 280; continue _fun00011 }
- 246:
+                            option = golfie.bind(option)();
+                            golfie = _closure2_slot7;
+                            if(!(option >= golfie)) { _fun00012_ip = 284; continue _fun00011 }
+ 250:
                             golfie = zuuluu.fail;
                             golfie = golfie.bind(zuuluu)();
                             golfie = undefined;
                             return golfie;
- 260:
+ 264:
                             option = _closure2_slot8;
                             golfie = option.get;
                             golfie = golfie.bind(option)();
-                            if(!(oscard !== golfie)) { _fun00012_ip = 437; continue _fun00011 }
- 280:
+                            if(!(oscard !== golfie)) { _fun00012_ip = 441; continue _fun00011 }
+ 284:
                             option = _closure2_slot4;
                             golfie = _closure1_slot5;
                             golfie = golfie.GESTURE_EDGE;
-                            if(!(option !== golfie)) { _fun00012_ip = 316; continue _fun00011 }
- 298:
+                            if(!(option !== golfie)) { _fun00012_ip = 320; continue _fun00011 }
+ 302:
                             option = _closure2_slot4;
                             golfie = _closure1_slot5;
                             golfie = golfie.GESTURE_FULL;
-                            if(!(option === golfie)) { _fun00012_ip = 411; continue _fun00011 }
- 316:
-                            if(!(tangon < oscard)) { _fun00012_ip = 411; continue _fun00011 }
+                            if(!(option === golfie)) { _fun00012_ip = 415; continue _fun00011 }
  320:
+                            if(!(tangon < oscard)) { _fun00012_ip = 415; continue _fun00011 }
+ 324:
                             oscard = _closure2_slot6;
                             tangon = 48;
                             tangon = oscard - tangon;
                             golfie = _closure2_slot4;
                             oscard = _closure1_slot5;
                             oscard = oscard.GESTURE_FULL;
-                            if(!(golfie === oscard)) { _fun00012_ip = 371; continue _fun00011 }
- 349:
+                            if(!(golfie === oscard)) { _fun00012_ip = 375; continue _fun00011 }
+ 353:
                             golfie = _closure2_slot14;
                             oscard = golfie.get;
                             oscard = oscard.bind(golfie)();
                             oscard = oscard.x;
-                            if(!(!(oscard < tangon))) { _fun00012_ip = 423; continue _fun00011 }
- 371:
+                            if(!(!(oscard < tangon))) { _fun00012_ip = 427; continue _fun00011 }
+ 375:
                             oscard = _closure2_slot4;
                             report = _closure1_slot5;
                             report = report.GESTURE_EDGE;
-                            if(!(oscard === report)) { _fun00012_ip = 411; continue _fun00011 }
- 389:
+                            if(!(oscard === report)) { _fun00012_ip = 415; continue _fun00011 }
+ 393:
                             report = _closure2_slot14;
                             michal = report.get;
                             michal = michal.bind(report)();
                             michal = michal.x;
-                            if(!(!(michal >= tangon))) { _fun00012_ip = 423; continue _fun00011 }
- 411:
+                            if(!(!(michal >= tangon))) { _fun00012_ip = 427; continue _fun00011 }
+ 415:
                             michal = zuuluu.activate;
                             michal = michal.bind(zuuluu)();
-                            _fun00012_ip = 451; continue _fun00011;
- 423:
+                            _fun00012_ip = 455; continue _fun00011;
+ 427:
                             michal = zuuluu.fail;
                             michal = michal.bind(zuuluu)();
                             michal = undefined;
                             return michal;
- 437:
+ 441:
                             michal = zuuluu.fail;
                             michal = michal.bind(zuuluu)();
                             michal = undefined;
                             return michal;
- 451:
+ 455:
                             return entity;
                         }
                     };
@@ -706,6 +718,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['translateX'] = yankee;
                     yankee = _closure2_slot3;
                     golfie['cancelOnSwipeRightFromStart'] = yankee;
+                    yankee = _closure2_slot7;
+                    golfie['width'] = yankee;
                     yankee = _closure2_slot4;
                     golfie['launchPadType'] = yankee;
                     yankee = _closure1_slot5;
@@ -715,7 +729,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = 48;
                     golfie['LAUNCHPAD_GESTURE_INSET'] = yankee;
                     michal['__closure'] = golfie;
-                    golfie = 8098474811926.0;
+                    golfie = 13298879871895.0;
                     michal['__workletHash'] = golfie;
                     golfie = _closure1_slot12;
                     michal['__initData'] = golfie;
@@ -778,32 +792,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             zuuluu = _closure2_slot12;
                             michal = zuuluu.get;
-                            tangon = michal.bind(zuuluu)();
+                            michal = michal.bind(zuuluu)();
                             zuuluu = _closure2_slot8;
-                            michal = zuuluu.set;
-                            if(tangon) { _fun00016_ip = 103; continue _fun00015 }
- 28:
-                            tangon = global;
-                            oscard = tangon.Math;
-                            report = oscard.max;
-                            option = tangon.Math;
-                            golfie = option.min;
-                            tangon = _closure2_slot7;
-                            verify = _closure2_slot8;
-                            entity = verify.get;
-                            verify = entity.bind(verify)();
-                            entity = argFoo;
-                            entity = entity.changeX;
-                            entity = verify + entity;
-                            tangon = golfie.bind(option)(tangon, entity);
-                            entity = 0;
-                            entity = report.bind(oscard)(entity, tangon);
-                            entity = michal.bind(zuuluu)(entity);
-                            _fun00016_ip = 110; continue _fun00015;
+                            if(michal) { _fun00016_ip = 103; continue _fun00015 }
+ 23:
+                            tangon = zuuluu.set;
+                            michal = global;
+                            golfie = michal.Math;
+                            oscard = golfie.max;
+                            verify = michal.Math;
+                            option = verify.min;
+                            report = _closure2_slot7;
+                            offset = _closure2_slot8;
+                            michal = offset.get;
+                            offset = michal.bind(offset)();
+                            michal = argFoo;
+                            michal = michal.changeX;
+                            michal = offset + michal;
+                            report = option.bind(verify)(report, michal);
+                            michal = 0;
+                            michal = oscard.bind(golfie)(michal, report);
+                            michal = tangon.bind(zuuluu)(michal);
+                            _fun00016_ip = 140; continue _fun00015;
  103:
-                            entity = 0;
-                            entity = michal.bind(zuuluu)(entity);
- 110:
+                            michal = zuuluu.get;
+                            tangon = michal.bind(zuuluu)();
+                            zuuluu = 0;
+                            if(!(zuuluu !== tangon)) { _fun00016_ip = 144; continue _fun00015 }
+ 118:
+                            michal = _closure2_slot7;
+                            if(!(tangon !== michal)) { _fun00016_ip = 144; continue _fun00015 }
+ 126:
+                            michal = _closure2_slot8;
+                            entity = michal.set;
+                            entity = entity.bind(michal)(zuuluu);
+ 140:
+                            entity = undefined;
+                            return entity;
+ 144:
                             entity = undefined;
                             return entity;
                         }
@@ -816,7 +842,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = _closure2_slot7;
                     yankee['width'] = romeon;
                     michal['__closure'] = yankee;
-                    yankee = 9855805030500.0;
+                    yankee = 7629437525528.0;
                     michal['__workletHash'] = yankee;
                     yankee = _closure1_slot14;
                     michal['__initData'] = yankee;
@@ -953,15 +979,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = foxtra.bind(offset)(option, verify);
                 entity['gesture'] = option;
                 verify = offset.useMemo;
-                option = new Array(2);
+                option = new Array(3);
                 option[0] = romeon;
                 option[1] = yankee;
+                option[2] = report;
                 golfie = function() {
                     entity = {};
                     zuuluu = _closure2_slot16;
                     entity['gestureRef'] = zuuluu;
-                    michal = _closure2_slot12;
-                    entity['disallowGesture'] = michal;
+                    zuuluu = _closure2_slot12;
+                    entity['disallowGesture'] = zuuluu;
+                    michal = _closure2_slot8;
+                    entity['translateX'] = michal;
                     return entity;
                 };
                 golfie = verify.bind(offset)(golfie, option);

@@ -491,6 +491,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.avatar;
             verify = offset.bind(yankee)(verify);
             michal['animated'] = verify;
+            verify = false;
+            michal['is_guild_profile'] = verify;
             michal = golfie.bind(option)(oscard, michal);
             michal = 3;
             michal = report[michal];

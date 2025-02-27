@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = _closure1_slot7;
                 option = _closure1_slot0;
                 foxtra = _closure1_slot2;
-                report = 17;
+                report = 16;
                 report = foxtra[report];
                 report = option.bind(tangon)(report);
                 option = report.LegacyText;
@@ -158,40 +158,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.surrogates;
                 report['children'] = offset;
                 option = verify.bind(tangon)(option, report);
-                _fun00006_ip = 418; continue _fun00005;
+                _fun00006_ip = 404; continue _fun00005;
  271:
                 offset = _closure1_slot7;
                 verify = _closure1_slot1;
-                backup = _closure1_slot2;
+                foxtra = _closure1_slot2;
                 report = 13;
-                report = backup[report];
+                report = foxtra[report];
                 verify = verify.bind(tangon)(report);
                 report = {};
                 foxtra = 'contain';
                 report['resizeMode'] = foxtra;
                 yankee = yankee.image;
                 report['style'] = yankee;
-                foxtra = _closure1_slot0;
-                yankee = 14;
-                yankee = backup[yankee];
-                backup = foxtra.bind(tangon)(yankee);
-                foxtra = backup.isThemeDark;
+                yankee = global;
+                foxtra = yankee.isThemeDark;
                 yankee = _closure1_slot4;
                 yankee = yankee.theme;
-                yankee = foxtra.bind(backup)(yankee);
+                yankee = foxtra.bind(tangon)(yankee);
                 backup = _closure1_slot1;
                 kiloes = _closure1_slot2;
-                if(yankee) { _fun00006_ip = 378; continue _fun00005 }
- 364:
-                yankee = 16;
+                if(yankee) { _fun00006_ip = 364; continue _fun00005 }
+ 350:
+                yankee = 15;
                 yankee = kiloes[yankee];
                 yankee = backup.bind(tangon)(yankee);
-                _fun00006_ip = 390; continue _fun00005;
- 378:
-                foxtra = 15;
+                _fun00006_ip = 376; continue _fun00005;
+ 364:
+                foxtra = 14;
                 foxtra = kiloes[foxtra];
                 yankee = backup.bind(tangon)(foxtra);
- 390:
+ 376:
                 report['placeholder'] = yankee;
                 yankee = {};
                 yankee['uri'] = romeon;
@@ -199,16 +196,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = true;
                 report['usesSmallCache'] = yankee;
                 option = offset.bind(tangon)(verify, report);
- 418:
+ 404:
                 report = new Array(2);
                 report[0] = option;
-                if(!oscard) { _fun00006_ip = 445; continue _fun00005 }
- 429:
+                if(!oscard) { _fun00006_ip = 431; continue _fun00005 }
+ 415:
                 verify = _closure1_slot7;
                 option = _closure1_slot13;
                 golfie = {};
                 oscard = verify.bind(tangon)(option, golfie);
- 445:
+ 431:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
@@ -412,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot7;
                 michal = _closure1_slot1;
                 yankee = _closure1_slot2;
-                entity = 18;
+                entity = 17;
                 entity = yankee[entity];
                 michal = michal.bind(tangon)(entity);
                 entity = {};
@@ -609,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         michal = tangon.bind(golfie)(michal);
-        tangon = 19;
+        tangon = 18;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

@@ -45,11 +45,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.getRootNavigationRef;
             backup = entity.bind(zuuluu)();
             oscard = null;
-            if(!(oscard != backup)) { _fun00002_ip = 1544; continue _fun00001 }
+            if(!(oscard != backup)) { _fun00002_ip = 1540; continue _fun00001 }
  53:
             entity = backup.isReady;
             entity = entity.bind(backup)();
-            if(!entity) { _fun00002_ip = 1544; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 1540; continue _fun00001 }
  69:
             tangon = golfie.navigationReplace;
             entity = _closure1_slot4;
@@ -419,15 +419,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['screen'] = report;
             entity['resetRoot'] = tangon;
             entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 1540; continue _fun00001;
+            _fun00002_ip = 1536; continue _fun00001;
  1516:
             entity = {'screen': 'icymi', 'icymiScreen': 'notifications-screen'};
             entity['resetRoot'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 1540:
+ 1536:
             entity = true;
             return entity;
- 1544:
+ 1540:
             entity = true;
             return entity;
         }

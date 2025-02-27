@@ -94,21 +94,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() { // Original name: getScreens
                 offset = function() { // Original name: headerRight
                     tangon = _closure1_slot4;
-                    michal = _closure1_slot0;
-                    option = _closure1_slot2;
+                    option = _closure1_slot0;
+                    verify = _closure1_slot2;
                     entity = 5;
-                    entity = option[entity];
+                    entity = verify[entity];
                     zuuluu = undefined;
-                    entity = michal.bind(zuuluu)(entity);
+                    entity = option.bind(zuuluu)(entity);
                     michal = entity.HeaderActionButton;
                     entity = {};
                     golfie = _closure1_slot1;
                     oscard = 6;
-                    oscard = option[oscard];
+                    oscard = verify[oscard];
                     oscard = golfie.bind(zuuluu)(oscard);
                     entity['source'] = oscard;
                     report = _closure1_slot7;
                     entity['onPress'] = report;
+                    report = 3;
+                    oscard = verify[report];
+                    oscard = option.bind(zuuluu)(oscard);
+                    golfie = oscard.intl;
+                    oscard = golfie.string;
+                    report = verify[report];
+                    report = option.bind(zuuluu)(report);
+                    report = report.t;
+                    report = report.cpT0Cg;
+                    report = oscard.bind(golfie)(report);
+                    entity['accessibilityLabel'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
                 };

@@ -1,0 +1,347 @@
+// app/modules/feedback/native/RatingSelector.tsx
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.View;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.Image;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.DEFAULT_RATINGS;
+    var _closure1_slot5 = golfie;
+    tangon = tangon.FeedbackRating;
+    var _closure1_slot6 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot7 = tangon;
+    tangon = 4;
+    golfie = oscard[tangon];
+    verify = report.bind(entity)(golfie);
+    option = verify.createStyles;
+    golfie = {};
+    offset = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};
+    golfie['ratings'] = offset;
+    offset = {};
+    golfie['rating'] = offset;
+    offset = {'width': 64, 'height': 64, 'marginVertical': 24, 'marginHorizontal': 12};
+    golfie['emoji'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot8 = golfie;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {'flexDirection': 'column', 'alignItems': 'flex-start', 'justifyContent': 'flex-start', 'gap': 16, 'marginBottom': 12};
+    tangon['ratings'] = verify;
+    verify = {};
+    offset = '100%';
+    verify['width'] = offset;
+    tangon['rating'] = verify;
+    verify = {'width': 32, 'height': 32};
+    tangon['emoji'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot9 = tangon;
+    tangon = 14;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/feedback/native/RatingSelector.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: RatingSelector
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            zuuluu = entity.ratingOptions;
+            tangon = undefined;
+            if(!(zuuluu === tangon)) { _fun00002_ip = 24; continue _fun00001 }
+ 17:
+            zuuluu = _closure1_slot5;
+ 24:
+            option = entity.textLabels;
+            var _closure2_slot0 = option;
+            michal = entity.selectedRating;
+            var _closure2_slot1 = michal;
+            entity = entity.onChangeRating;
+            var _closure2_slot2 = entity;
+            var _closure2_slot3 = tangon;
+            michal = _closure1_slot9;
+            michal = michal.bind(tangon)();
+            oscard = _closure1_slot8;
+            oscard = oscard.bind(tangon)();
+            golfie = null;
+            if(!(golfie != option)) { _fun00002_ip = 86; continue _fun00001 }
+ 83:
+            oscard = michal;
+ 86:
+            _closure2_slot3 = oscard;
+            michal = function(argFoo) { // Original name: useEmojiConfigs
+                zuuluu = argFoo;
+                michal = {};
+                oscard = _closure1_slot6;
+                report = oscard.BAD;
+                tangon = {};
+                golfie = {};
+                romeon = _closure1_slot1;
+                yankee = _closure1_slot2;
+                verify = 5;
+                verify = yankee[verify];
+                offset = undefined;
+                verify = romeon.bind(offset)(verify);
+                golfie['selected'] = verify;
+                verify = _closure1_slot0;
+                option = 6;
+                option = yankee[option];
+                foxtra = verify.bind(offset)(option);
+                option = foxtra.useFeedbackModalSadDesaturatedSource;
+                option = option.bind(foxtra)();
+                golfie['normal'] = option;
+                tangon['source'] = golfie;
+                golfie = function() { // Original name: getLabel
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    entity = 7;
+                    michal = oscard[entity];
+                    tangon = undefined;
+                    michal = report.bind(tangon)(michal);
+                    zuuluu = michal.intl;
+                    michal = zuuluu.string;
+                    entity = oscard[entity];
+                    entity = report.bind(tangon)(entity);
+                    entity = entity.t;
+                    entity = entity.C/12Tk;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                tangon['getLabel'] = golfie;
+                golfie = oscard.BAD;
+                tangon['rating'] = golfie;
+                michal[report] = tangon;
+                report = oscard.NEUTRAL;
+                tangon = {};
+                golfie = {};
+                option = 8;
+                option = yankee[option];
+                option = romeon.bind(offset)(option);
+                golfie['selected'] = option;
+                option = 9;
+                option = yankee[option];
+                foxtra = verify.bind(offset)(option);
+                option = foxtra.useFeedbackModalNeutralDesaturatedSource;
+                option = option.bind(foxtra)();
+                golfie['normal'] = option;
+                tangon['source'] = golfie;
+                golfie = function() { // Original name: getLabel
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    entity = 7;
+                    michal = oscard[entity];
+                    tangon = undefined;
+                    michal = report.bind(tangon)(michal);
+                    zuuluu = michal.intl;
+                    michal = zuuluu.string;
+                    entity = oscard[entity];
+                    entity = report.bind(tangon)(entity);
+                    entity = entity.t;
+                    entity = entity.Xcb4cH;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                tangon['getLabel'] = golfie;
+                golfie = oscard.NEUTRAL;
+                tangon['rating'] = golfie;
+                michal[report] = tangon;
+                report = oscard.GOOD;
+                tangon = {};
+                golfie = {};
+                option = 10;
+                option = yankee[option];
+                option = romeon.bind(offset)(option);
+                golfie['selected'] = option;
+                option = 11;
+                option = yankee[option];
+                verify = verify.bind(offset)(option);
+                option = verify.useFeedbackModalHappyDesaturatedSource;
+                option = option.bind(verify)();
+                golfie['normal'] = option;
+                tangon['source'] = golfie;
+                golfie = function() { // Original name: getLabel
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    entity = 7;
+                    michal = oscard[entity];
+                    tangon = undefined;
+                    michal = report.bind(tangon)(michal);
+                    zuuluu = michal.intl;
+                    michal = zuuluu.string;
+                    entity = oscard[entity];
+                    entity = report.bind(tangon)(entity);
+                    entity = entity.t;
+                    entity = entity.1Vyb5O;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                tangon['getLabel'] = golfie;
+                oscard = oscard.GOOD;
+                tangon['rating'] = oscard;
+                michal[report] = tangon;
+                var _closure3_slot0 = michal;
+                michal = zuuluu.map;
+                entity = function(argFoo) {
+                    michal = _closure3_slot0;
+                    entity = argFoo;
+                    entity = michal[entity];
+                    return entity;
+                };
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            golfie = michal.bind(tangon)(zuuluu);
+            zuuluu = _closure1_slot7;
+            michal = _closure1_slot3;
+            entity = {};
+            oscard = oscard.ratings;
+            entity['style'] = oscard;
+            oscard = golfie.map;
+            report = function(argFoo) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    entity = argFoo;
+                    option = entity.rating;
+                    var _closure3_slot0 = option;
+                    michal = entity.source;
+                    foxtra = michal.selected;
+                    romeon = michal.normal;
+                    backup = entity.getLabel;
+                    michal = _closure2_slot0;
+                    entity = null;
+                    if(!(entity == michal)) { _fun00004_ip = 193; continue _fun00003 }
+ 54:
+                    tangon = _closure1_slot7;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    entity = 13;
+                    entity = zuuluu[entity];
+                    zuuluu = undefined;
+                    entity = michal.bind(zuuluu)(entity);
+                    michal = entity.PressableOpacity;
+                    entity = {};
+                    oscard = 'button';
+                    entity['accessibilityRole'] = oscard;
+                    oscard = backup.bind(zuuluu)();
+                    entity['accessibilityLabel'] = oscard;
+                    oscard = {};
+                    golfie = _closure2_slot1;
+                    offset = golfie === option;
+                    oscard['selected'] = offset;
+                    entity['accessibilityState'] = oscard;
+                    oscard = function() { // Original name: onPress
+                        zuuluu = _closure2_slot2;
+                        michal = _closure3_slot0;
+                        entity = undefined;
+                        entity = zuuluu.bind(entity)(michal);
+                        return entity;
+                    };
+                    entity['onPress'] = oscard;
+                    oscard = _closure1_slot4;
+                    report = {};
+                    golfie = _closure2_slot3;
+                    golfie = golfie.emoji;
+                    report['style'] = golfie;
+                    golfie = romeon;
+                    if(!offset) { _fun00004_ip = 167; continue _fun00003 }
+ 164:
+                    golfie = foxtra;
+ 167:
+                    report['source'] = golfie;
+                    report = tangon.bind(zuuluu)(oscard, report);
+                    entity['children'] = report;
+                    entity = tangon.bind(zuuluu)(michal, entity, option);
+                    _fun00004_ip = 366; continue _fun00003;
+ 193:
+                    report = _closure1_slot7;
+                    tangon = _closure1_slot3;
+                    zuuluu = {};
+                    michal = _closure2_slot3;
+                    michal = michal.rating;
+                    zuuluu['style'] = michal;
+                    golfie = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    michal = 12;
+                    oscard = oscard[michal];
+                    michal = undefined;
+                    oscard = golfie.bind(michal)(oscard);
+                    golfie = oscard.RowButton;
+                    oscard = {};
+                    kiloes = 'button';
+                    oscard['accessibilityRole'] = kiloes;
+                    backup = backup.bind(michal)();
+                    oscard['accessibilityLabel'] = backup;
+                    kiloes = {};
+                    backup = _closure2_slot1;
+                    backup = backup === option;
+                    kiloes['selected'] = backup;
+                    oscard['accessibilityState'] = kiloes;
+                    yankee = function() { // Original name: onPress
+                        zuuluu = _closure2_slot2;
+                        michal = _closure3_slot0;
+                        entity = undefined;
+                        entity = zuuluu.bind(entity)(michal);
+                        return entity;
+                    };
+                    oscard['onPress'] = yankee;
+                    yankee = _closure1_slot4;
+                    offset = {};
+                    kiloes = _closure2_slot3;
+                    kiloes = kiloes.emoji;
+                    offset['style'] = kiloes;
+                    if(!backup) { _fun00004_ip = 323; continue _fun00003 }
+ 320:
+                    romeon = foxtra;
+ 323:
+                    offset['source'] = romeon;
+                    offset = report.bind(michal)(yankee, offset);
+                    oscard['icon'] = offset;
+                    verify = _closure2_slot0;
+                    verify = verify[option];
+                    oscard['label'] = verify;
+                    oscard = report.bind(michal)(golfie, oscard, option);
+                    zuuluu['children'] = oscard;
+                    entity = report.bind(michal)(tangon, zuuluu);
+ 366:
+                    return entity;
+                }
+            };
+            report = oscard.bind(golfie)(report);
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['default'] = michal;
+    return entity;
+})();

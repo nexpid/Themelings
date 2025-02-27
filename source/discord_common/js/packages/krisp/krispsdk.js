@@ -1640,7 +1640,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 StartGenerator();
                                 michal = this;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                if(zuuluu) { _fun00054_ip = 474; continue _fun00053 }
+                                if(zuuluu) { _fun00054_ip = 476; continue _fun00053 }
  13:
                                 report = undefined;
                                 tangon = undefined;
@@ -1759,14 +1759,14 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = new variable38[option](variable37, variable36, quebec);
                                 michal = michal instanceof Object ? michal : oscard;
                                 michal = tangon.bind(report)(zuuluu, michal);
- 462: // try_end1
+ 464: // try_end1
                                 michal = true;
                                 return michal;
- 467: // catch_target0 // catch_target1
+ 469: // catch_target0 // catch_target1
                                 CatchBlockStart(arg_register=1);
                                 michal = false;
                                 return michal;
- 474:
+ 476:
                                 return entity;
                             }
                         };

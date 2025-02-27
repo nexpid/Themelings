@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(golfie)(zuuluu, report);
-            if(michal) { _fun00008_ip = 2784; continue _fun00007 }
+            if(michal) { _fun00008_ip = 2780; continue _fun00007 }
  457:
             report = _closure1_slot21;
             zuuluu = _closure1_slot6;
@@ -650,10 +650,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.TableSwitchRow;
             output = {};
             sizing = 'Light Theme';
-            if(!romeon) { _fun00008_ip = 748; continue _fun00007 }
- 742:
+            if(!romeon) { _fun00008_ip = 747; continue _fun00007 }
+ 741:
             sizing = '(using system theme)';
- 748:
+ 747:
             output['label'] = sizing;
             output['disabled'] = romeon;
             ctrled = _closure1_slot20;
@@ -806,10 +806,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             sizing = 'Change to en-US';
             vacuum = 'en-US';
-            if(!(vacuum === config)) { _fun00008_ip = 1212; continue _fun00007 }
- 1206:
+            if(!(vacuum === config)) { _fun00008_ip = 1209; continue _fun00007 }
+ 1203:
             sizing = 'Change to pt-BR';
- 1212:
+ 1209:
             romeon['label'] = sizing;
             sizing = 'Toggle to a non-english locale for change log testing, etc.';
             romeon['subLabel'] = sizing;
@@ -1036,8 +1036,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.isAndroid;
             kiloes = romeon.bind(kiloes)();
             romeon = null;
-            if(!kiloes) { _fun00008_ip = 2337; continue _fun00007 }
- 2224:
+            if(!kiloes) { _fun00008_ip = 2334; continue _fun00007 }
+ 2221:
             sizing = _closure1_slot20;
             vacuum = _closure1_slot0;
             record = _closure1_slot2;
@@ -1068,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['onValueChange'] = source;
             romeon = sizing.bind(tangon)(kiloes, foxtra);
- 2337:
+ 2334:
             update[9] = romeon;
             foxtra = _closure1_slot20;
             sizing = _closure1_slot0;
@@ -1191,7 +1191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 2784:
+ 2780:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             michal = 38;

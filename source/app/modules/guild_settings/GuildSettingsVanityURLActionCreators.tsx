@@ -1,0 +1,187 @@
+// app/modules/guild_settings/GuildSettingsVanityURLActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = oscard[entity];
+    entity = undefined;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.Endpoints;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_settings/GuildSettingsVanityURLActionCreators.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: fetchVanityUrl
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        zuuluu = entity.HTTP;
+        michal = zuuluu.get;
+        entity = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+        oscard = _closure1_slot3;
+        report = oscard.GUILD_VANITY_URL;
+        tangon = argFoo;
+        tangon = report.bind(oscard)(tangon);
+        entity['url'] = tangon;
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = argFoo;
+            entity = entity.body;
+            golfie = entity.code;
+            oscard = entity.uses;
+            report = entity.error;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 2;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            option = 'GUILD_SETTINGS_SET_VANITY_URL';
+            michal['type'] = option;
+            michal['code'] = golfie;
+            michal['uses'] = oscard;
+            michal['error'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['fetchVanityUrl'] = tangon;
+    tangon = function() { // Original name: resetCode
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'GUILD_SETTINGS_VANITY_URL_RESET';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['resetCode'] = tangon;
+    tangon = function(argFoo) { // Original name: setCode
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'GUILD_SETTINGS_VANITY_URL_SET';
+        michal['type'] = report;
+        report = argFoo;
+        michal['code'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setCode'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: saveCode
+        michal = argBaz;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        michal = tangon.bind(michal)(zuuluu);
+        tangon = michal.HTTP;
+        zuuluu = tangon.patch;
+        michal = {};
+        golfie = _closure1_slot3;
+        oscard = golfie.GUILD_VANITY_URL;
+        report = argFoo;
+        report = oscard.bind(golfie)(report);
+        michal['url'] = report;
+        report = {};
+        oscard = argBar;
+        report['code'] = oscard;
+        michal['body'] = report;
+        report = true;
+        michal['oldFormErrors'] = report;
+        report = false;
+        michal['rejectWithError'] = report;
+        tangon = zuuluu.bind(tangon)(michal);
+        zuuluu = tangon.then;
+        michal = function(argFoo) {
+            entity = argFoo;
+            entity = entity.body;
+            oscard = entity.code;
+            report = entity.uses;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 2;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            golfie = 'GUILD_SETTINGS_SET_VANITY_URL';
+            michal['type'] = golfie;
+            michal['code'] = oscard;
+            michal['uses'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        entity = function(argFoo) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                entity = argFoo;
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 2;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                report = 'GUILD_SETTINGS_VANITY_URL_ERROR';
+                michal['type'] = report;
+                report = entity.body;
+                michal['error'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                tangon = _closure2_slot0;
+                zuuluu = null;
+                if(!(zuuluu != tangon)) { _fun00002_ip = 85; continue _fun00001 }
+ 72:
+                michal = _closure2_slot0;
+                michal = michal.throwErr;
+                if(michal) { _fun00002_ip = 87; continue _fun00001 }
+ 85:
+                return entity;
+ 87:
+                throw entity;
+            }
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['saveCode'] = michal;
+    return entity;
+})();

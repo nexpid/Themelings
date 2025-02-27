@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     report = report.bind(verify)(offset, michal);
     michal = {};
-    oscard = function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) { // Original name: setup
+    oscard = function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu, argument8) { // Original name: setup
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 1;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = undefined;
         oscard = zuuluu.bind(entity)(michal);
         report = oscard.dispatchCommand;
-        tangon = new Array(6);
+        tangon = new Array(7);
         michal = argBar;
         tangon[0] = michal;
         michal = argBaz;
@@ -51,6 +51,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         tangon[4] = michal;
         michal = argPlu;
         tangon[5] = michal;
+        michal = argument8;
+        tangon[6] = michal;
         zuuluu = argFoo;
         michal = 'setup';
         michal = report.bind(oscard)(zuuluu, michal, tangon);

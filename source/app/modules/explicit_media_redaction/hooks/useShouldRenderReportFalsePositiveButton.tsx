@@ -25,6 +25,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/explicit_media_redaction/hooks/useShouldRenderReportFalsePositiveButton.tsx';
     tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) {
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.getFpMessageInfo;
+        entity = argFoo;
+        michal = michal.bind(zuuluu)(entity);
+        entity = null;
+        entity = entity != michal;
+        return entity;
+    };
+    zuuluu['shouldRenderReportFalsePositiveButton'] = tangon;
     michal = function(argFoo) {
         michal = argFoo;
         var _closure2_slot0 = michal;

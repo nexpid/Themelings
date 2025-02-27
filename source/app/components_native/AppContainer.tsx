@@ -729,7 +729,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot15;
             option = 36;
             option = variable49[option];
-            verify = variable47.bind(tangon)(option);
+            option = variable41.bind(tangon)(option);
+            verify = option.RootThemeContextProvider;
             option = {};
             foxtra = _closure1_slot15;
             yankee = 37;

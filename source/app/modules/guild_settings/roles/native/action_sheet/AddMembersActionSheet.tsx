@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = oscard;
             oscard = foxtra.length;
-            if(!(result !== oscard)) { _fun00004_ip = 608; continue _fun00003 }
+            if(!(result !== oscard)) { _fun00004_ip = 607; continue _fun00003 }
  449:
             option = _closure1_slot10;
             golfie = _closure1_slot0;
@@ -295,10 +295,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.PX_12;
             output['paddingTop'] = source;
             result = 0;
-            if(!update) { _fun00004_ip = 547; continue _fun00003 }
- 544:
+            if(!update) { _fun00004_ip = 546; continue _fun00003 }
+ 543:
             result = echoed;
- 547:
+ 546:
             output['paddingBottom'] = result;
             oscard['contentContainerStyle'] = output;
             backup = function(argFoo) { // Original name: renderItem
@@ -468,8 +468,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'always';
             oscard['keyboardShouldPersistTaps'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
-            _fun00004_ip = 799; continue _fun00003;
- 608:
+            _fun00004_ip = 798; continue _fun00003;
+ 607:
             verify = _closure1_slot10;
             option = _closure1_slot1;
             output = _closure1_slot2;
@@ -485,8 +485,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['Illustration'] = foxtra;
             romeon = romeon.emptyStateText;
             golfie['bodyStyle'] = romeon;
-            if(!(offset === kiloes)) { _fun00004_ip = 730; continue _fun00003 }
- 676:
+            if(!(offset === kiloes)) { _fun00004_ip = 729; continue _fun00003 }
+ 675:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
             romeon = offset[sizing];
@@ -498,8 +498,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.t;
             offset = offset.oB9gra;
             offset = romeon.bind(foxtra)(offset);
-            _fun00004_ip = 789; continue _fun00003;
- 730:
+            _fun00004_ip = 788; continue _fun00003;
+ 729:
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
             foxtra = yankee[sizing];
@@ -513,10 +513,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = {};
             yankee['query'] = kiloes;
             offset = foxtra.bind(backup)(romeon, yankee);
- 789:
+ 788:
             golfie['body'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 799:
+ 798:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -713,30 +713,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
  413:
                     entity = _closure2_slot12;
-                    if(entity) { _fun00016_ip = 968; continue _fun00015 }
+                    if(entity) { _fun00016_ip = 998; continue _fun00015 }
  426:
                     entity = golfie.videoURI;
-                    if(!(michal == entity)) { _fun00016_ip = 694; continue _fun00015 }
+                    if(!(michal == entity)) { _fun00016_ip = 715; continue _fun00015 }
  439:
                     zuuluu = golfie.uri;
                     michal = zuuluu.startsWith;
                     entity = 'assets-library://';
                     entity = michal.bind(zuuluu)(entity);
-                    if(entity) { _fun00016_ip = 606; continue _fun00015 }
+                    if(entity) { _fun00016_ip = 618; continue _fun00015 }
  467:
                     tangon = golfie.uri;
                     zuuluu = tangon.startsWith;
                     michal = _closure1_slot10;
                     michal = zuuluu.bind(tangon)(michal);
-                    if(michal) { _fun00016_ip = 606; continue _fun00015 }
- 493:
+                    if(michal) { _fun00016_ip = 618; continue _fun00015 }
+ 496:
                     tangon = golfie.uri;
                     zuuluu = tangon.startsWith;
                     michal = _closure1_slot11;
                     michal = zuuluu.bind(tangon)(michal);
-                    if(michal) { _fun00016_ip = 606; continue _fun00015 }
- 516:
-                    tangon = _closure1_slot13;
+                    if(michal) { _fun00016_ip = 618; continue _fun00015 }
+ 519:
+                    tangon = _closure1_slot14;
                     romeon = _closure1_slot1;
                     kiloes = _closure1_slot3;
                     entity = 29;
@@ -751,6 +751,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = entity;
                     result = option;
                     verify = copyDataProperties(echoed, result);
+                    verify = 'key';
+                    entity[verify] = yankee;
                     verify = 'source';
                     entity[verify] = golfie;
                     verify = 'index';
@@ -758,9 +760,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = 'pointerEvents';
                     entity[verify] = backup;
                     entity = tangon.bind(zuuluu)(michal, entity);
-                    _fun00016_ip = 689; continue _fun00015;
- 606:
-                    verify = _closure1_slot13;
+                    _fun00016_ip = 710; continue _fun00015;
+ 618:
+                    verify = _closure1_slot14;
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot3;
                     michal = 29;
@@ -773,6 +775,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = michal;
                     result = option;
                     romeon = copyDataProperties(echoed, result);
+                    romeon = 'key';
+                    michal[romeon] = yankee;
                     romeon = 'source';
                     michal[romeon] = golfie;
                     romeon = 'index';
@@ -780,10 +784,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = 'pointerEvents';
                     michal[romeon] = backup;
                     entity = verify.bind(tangon)(zuuluu, michal);
- 689:
-                    _fun00016_ip = 966; continue _fun00015;
- 694:
-                    verify = _closure1_slot13;
+ 710:
+                    _fun00016_ip = 996; continue _fun00015;
+ 715:
+                    verify = _closure1_slot14;
                     zuuluu = _closure1_slot1;
                     sizing = _closure1_slot3;
                     michal = 29;
@@ -800,6 +804,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = michal;
                     result = option;
                     romeon = copyDataProperties(echoed, result);
+                    romeon = 'key';
+                    michal[romeon] = yankee;
                     romeon = 'pointerEvents';
                     michal[romeon] = backup;
                     romeon = 'paused';
@@ -809,12 +815,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = 'controls';
                     michal[foxtra] = backup;
                     foxtra = _closure2_slot18;
-                    if(foxtra) { _fun00016_ip = 821; continue _fun00015 }
- 809:
+                    if(foxtra) { _fun00016_ip = 851; continue _fun00015 }
+ 839:
                     backup = golfie.isGIFV;
                     romeon = true;
                     foxtra = romeon === backup;
- 821:
+ 851:
                     romeon = 'muted';
                     michal[romeon] = foxtra;
                     romeon = 'index';
@@ -845,9 +851,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = 'source';
                     michal[romeon] = foxtra;
                     entity = verify.bind(tangon)(zuuluu, michal);
- 966:
+ 996:
                     return entity;
- 968:
+ 998:
                     tangon = _closure1_slot14;
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot3;

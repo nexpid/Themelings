@@ -765,6 +765,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CONFETTI_POTION_MODAL'] = entity;
     entity = 'go live modal v2';
     michal['GO_LIVE_MODAL_V2'] = entity;
+    entity = 'go live modal settings selection';
+    michal['GO_LIVE_MODAL_SETTINGS_SELECTION'] = entity;
     entity = 'app_dms_quick_launcher';
     michal['APP_DMS_QUICK_LAUNCHER'] = entity;
     entity = 'user settings voice and video';

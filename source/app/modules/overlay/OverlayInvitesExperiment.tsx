@@ -1,5 +1,5 @@
 // app/modules/overlay/OverlayInvitesExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -7,8 +7,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Object;
     tangon = golfie.defineProperty;
     michal = {};
-    yankee = true;
-    michal['value'] = yankee;
+    foxtra = true;
+    michal['value'] = foxtra;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
@@ -16,18 +16,28 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-01_hotwheels_overlay_invites_v2', 'label': 'Overlay Invites Notification'};
-    tangon = {'enabled': false, 'affinityThreshold': 0};
+    michal = {'kind': 'user', 'id': '2025-02_hotwheels_overlay_invites_3', 'label': 'Overlay Invites Notification Pt3'};
+    tangon = {};
+    verify = false;
+    tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Enabled'};
-    tangon = 1;
+    tangon = {'id': 1, 'label': 'Enabled, no date cutoff'};
+    romeon = 1;
     verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
+    verify['enabled'] = foxtra;
+    tangon['config'] = verify;
     verify = new Array(2);
-    verify[0] = offset;
-    offset = {'id': 2, 'label': 'Enabled with threshold'};
-    yankee = {'enabled': true, 'affinityThreshold': 0.65};
+    verify[0] = tangon;
+    offset = {'id': 2, 'label': 'Enabled, within past week'};
+    tangon = 2;
+    yankee = {};
+    yankee['enabled'] = foxtra;
+    foxtra = oscard[romeon];
+    romeon = argBaz;
+    romeon = romeon.bind(entity)(foxtra);
+    romeon = romeon.Millis;
+    romeon = romeon.WEEK;
+    yankee['dateLookbackMs'] = romeon;
     offset['config'] = yankee;
     verify[1] = offset;
     michal['treatments'] = verify;

@@ -40,6 +40,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SAFETY_POLICY_NOTICE'] = entity;
     entity = 'safety_system_notification';
     michal['SAFETY_SYSTEM_NOTIFICATION'] = entity;
+    entity = 'age_verification_system_notification';
+    michal['AGE_VERIFICATION_SYSTEM_NOTIFICATION'] = entity;
     entity = 'voice_channel';
     michal['VOICE_CHANNEL'] = entity;
     entity = 'gaming_profile';

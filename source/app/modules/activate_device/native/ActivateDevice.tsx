@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot0;
                     entity = 'userCodeData';
                     entity = entity in zuuluu;
-                    if(!entity) { _fun00004_ip = 231; continue _fun00003 }
+                    if(!entity) { _fun00004_ip = 209; continue _fun00003 }
  21:
                     entity = _closure2_slot0;
                     tangon = entity.userCodeData;
@@ -247,20 +247,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = golfie.includes;
                     report = tangon.clientId;
                     report = oscard.bind(golfie)(report);
-                    if(report) { _fun00004_ip = 202; continue _fun00003 }
+                    if(report) { _fun00004_ip = 180; continue _fun00003 }
  120:
                     oscard = tangon.scopes;
-                    report = oscard.includes;
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    tangon = 11;
-                    tangon = option[tangon];
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    tangon = tangon.OAuth2Scopes;
-                    tangon = tangon.SDK_SOCIAL_LAYER;
+                    report = oscard.some;
+                    tangon = function(argFoo) {
+                        zuuluu = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        entity = 11;
+                        michal = michal[entity];
+                        entity = undefined;
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.isSocialLayerUmbrellaScope;
+                        entity = argFoo;
+                        entity = michal.bind(zuuluu)(entity);
+                        return entity;
+                    };
                     tangon = report.bind(oscard)(tangon);
-                    if(!tangon) { _fun00004_ip = 231; continue _fun00003 }
- 171:
+                    if(!tangon) { _fun00004_ip = 209; continue _fun00003 }
+ 149:
                     report = _closure2_slot3;
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -268,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = golfie[tangon];
                     tangon = oscard.bind(zuuluu)(tangon);
                     tangon = report.bind(zuuluu)(tangon);
-                    _fun00004_ip = 231; continue _fun00003;
- 202:
+                    _fun00004_ip = 209; continue _fun00003;
+ 180:
                     michal = _closure2_slot3;
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -277,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = report[entity];
                     entity = tangon.bind(zuuluu)(entity);
                     entity = michal.bind(zuuluu)(entity);
- 231:
+ 209:
                     entity = undefined;
                     return entity;
                 }

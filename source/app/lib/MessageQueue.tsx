@@ -135,10 +135,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot13 = oscard;
     oscard = tangon.Endpoints;
     var _closure1_slot14 = oscard;
-    oscard = tangon.OverlayWidgets;
-    oscard = tangon.AnalyticEvents;
-    var _closure1_slot15 = oscard;
-    tangon = tangon.AnalyticsOverlayLocations;
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot15 = tangon;
     tangon = 10;
     tangon = offset[tangon];
     tangon = verify.bind(entity)(tangon);
@@ -188,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     yankee = romeon * yankee;
     golfie[1] = yankee;
     var _closure1_slot20 = golfie;
-    golfie = 21;
+    golfie = 22;
     golfie = offset[golfie];
     option = option.bind(entity)(golfie);
     golfie = function(argFoo) {
@@ -577,11 +575,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = this;
                 var _closure3_slot0 = entity;
                 var _closure3_slot1 = report;
-                kiloes = report.channelId;
+                sizing = report.channelId;
                 oscard = _closure1_slot4;
                 michal = _closure1_slot3;
                 zuuluu = undefined;
-                sizing = oscard.bind(zuuluu)(report, michal);
+                output = oscard.bind(zuuluu)(report, michal);
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
                 oscard = 14;
@@ -589,13 +587,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(zuuluu)(oscard);
                 oscard = golfie.getSignalStrength;
                 option = oscard.bind(golfie)();
-                yankee = {};
+                foxtra = {};
                 golfie = _closure1_slot12;
                 oscard = golfie.getType;
                 oscard = oscard.bind(golfie)();
-                yankee['mobile_network_type'] = oscard;
-                output = yankee;
-                michal = copyDataProperties(output, sizing);
+                foxtra['mobile_network_type'] = oscard;
+                result = foxtra;
+                michal = copyDataProperties(result, output);
                 michal = null;
                 oscard = michal != option;
                 if(!oscard) { _fun00018_ip = 122; continue _fun00017 }
@@ -604,15 +602,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie['signal_strength'] = option;
                 oscard = golfie;
  122:
-                output = yankee;
-                sizing = oscard;
-                oscard = copyDataProperties(output, sizing);
+                result = foxtra;
+                output = oscard;
+                oscard = copyDataProperties(result, output);
                 option = _closure1_slot10;
                 golfie = option.get;
                 oscard = 'send_fail_100';
                 oscard = golfie.bind(option)(oscard);
-                if(oscard) { _fun00018_ip = 351; continue _fun00017 }
+                if(oscard) { _fun00018_ip = 416; continue _fun00017 }
  158:
+                golfie = _closure1_slot1;
+                option = _closure1_slot2;
+                oscard = 15;
+                oscard = option[oscard];
+                oscard = golfie.bind(zuuluu)(oscard);
+                golfie = oscard.bind(zuuluu)();
+                oscard = michal != golfie;
+                yankee = undefined;
+                if(!oscard) { _fun00018_ip = 223; continue _fun00017 }
+ 191:
+                oscard = {};
+                oscard['location'] = golfie;
+                offset = entity.logger;
+                option = offset.log;
+                golfie = 'Overlay location: ';
+                golfie = option.bind(offset)(golfie, oscard);
+                yankee = oscard;
+ 223:
                 golfie = entity.createResponseHandler;
                 oscard = report.nonce;
                 option = golfie.bind(entity)(oscard, tangon);
@@ -620,8 +636,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.AbortController;
                 golfie = oscard.prototype;
                 golfie = Object.create(golfie, {constructor: {value: oscard}});
-                result = golfie;
-                oscard = new result[oscard](output);
+                echoed = golfie;
+                oscard = new echoed[oscard](result);
                 offset = oscard instanceof Object ? oscard : golfie;
                 var _closure3_slot2 = offset;
                 oscard = entity.startQueueMetricTimers;
@@ -629,23 +645,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(entity)(report);
                 oscard = _closure1_slot0;
                 golfie = _closure1_slot2;
-                report = 15;
+                report = 16;
                 report = golfie[report];
                 report = oscard.bind(zuuluu)(report);
                 golfie = report.HTTP;
                 oscard = golfie.post;
                 report = {};
-                backup = _closure1_slot14;
-                foxtra = backup.MESSAGES;
-                foxtra = foxtra.bind(backup)(kiloes);
-                report['url'] = foxtra;
-                report['body'] = yankee;
-                report['context'] = zuuluu;
+                kiloes = _closure1_slot14;
+                backup = kiloes.MESSAGES;
+                backup = backup.bind(kiloes)(sizing);
+                report['url'] = backup;
+                report['body'] = foxtra;
+                report['context'] = yankee;
                 yankee = true;
                 report['oldFormErrors'] = yankee;
-                sizing = _closure1_slot16;
-                output = report;
-                romeon = copyDataProperties(output, sizing);
+                output = _closure1_slot16;
+                result = report;
+                romeon = copyDataProperties(result, output);
                 romeon = offset.signal;
                 offset = 'signal';
                 report[offset] = romeon;
@@ -675,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report[verify] = offset;
                 report = oscard.bind(golfie)(report, option);
                 return zuuluu;
- 351:
+ 416:
                 oscard = entity.logger;
                 report = oscard.log;
                 entity = 'Skipping message send because send_fail_100 is enabled';
@@ -719,7 +735,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure3_slot2 = oscard;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             zuuluu = zuuluu[entity];
             entity = undefined;
             zuuluu = tangon.bind(entity)(zuuluu);
@@ -779,7 +795,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = {};
                 sizing = _closure1_slot0;
                 output = _closure1_slot2;
-                kiloes = 16;
+                kiloes = 17;
                 kiloes = output[kiloes];
                 kiloes = sizing.bind(entity)(kiloes);
                 kiloes = kiloes.InteractionTypes;
@@ -812,13 +828,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argFoo;
                     oscard = _closure1_slot1;
                     report = _closure1_slot2;
-                    michal = 17;
+                    michal = 18;
                     michal = report[michal];
                     zuuluu = undefined;
                     golfie = oscard.bind(zuuluu)(michal);
                     oscard = tangon.status;
                     michal = _closure1_slot0;
-                    entity = 18;
+                    entity = 19;
                     entity = report[entity];
                     entity = michal.bind(zuuluu)(entity);
                     entity = entity.CloudUploadStatus;
@@ -826,7 +842,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard === entity;
                     entity = 'Uploads must be staged before trying to send a message';
                     entity = golfie.bind(zuuluu)(oscard, entity);
-                    entity = 19;
+                    entity = 20;
                     entity = report[entity];
                     zuuluu = michal.bind(zuuluu)(entity);
                     michal = zuuluu.getAttachmentPayload;
@@ -847,7 +863,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _closure3_slot4 = oscard;
                 tangon = _closure1_slot0;
                 report = _closure1_slot2;
-                zuuluu = 15;
+                zuuluu = 16;
                 zuuluu = report[zuuluu];
                 zuuluu = tangon.bind(entity)(zuuluu);
                 report = zuuluu.HTTP;
@@ -888,7 +904,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = entity.total;
                             zuuluu = _closure1_slot0;
                             michal = _closure1_slot2;
-                            entity = 20;
+                            entity = 21;
                             michal = michal[entity];
                             entity = undefined;
                             report = zuuluu.bind(entity)(michal);
@@ -939,7 +955,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     output = option;
     golfie = new output[golfie](sizing);
     golfie = golfie instanceof Object ? golfie : option;
-    option = 22;
+    option = 23;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;

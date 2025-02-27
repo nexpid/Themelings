@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(zuuluu) { _fun00010_ip = 344; continue _fun00009 }
  291:
                 zuuluu = _closure1_slot14;
-                if(!zuuluu) { _fun00010_ip = 395; continue _fun00009 }
+                if(!zuuluu) { _fun00010_ip = 391; continue _fun00009 }
  298:
                 tangon = _closure1_slot1;
                 report = _closure1_slot2;
@@ -198,10 +198,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.dispatch;
                 zuuluu = {'type': 'AFK', 'afk': false};
                 zuuluu = tangon.bind(report)(zuuluu);
-                _fun00010_ip = 395; continue _fun00009;
+                _fun00010_ip = 391; continue _fun00009;
  344:
                 zuuluu = _closure1_slot14;
-                if(zuuluu) { _fun00010_ip = 395; continue _fun00009 }
+                if(zuuluu) { _fun00010_ip = 391; continue _fun00009 }
  351:
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.dispatch;
                 michal = {'type': 'AFK', 'afk': true};
                 michal = zuuluu.bind(tangon)(michal);
- 395:
+ 391:
                 return entity;
             }
         };

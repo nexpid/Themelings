@@ -387,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure2_slot6;
                     entity = null;
-                    if(michal) { _fun00010_ip = 81; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 85; continue _fun00009 }
  12:
                     report = _closure1_slot6;
                     tangon = _closure1_slot5;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['style'] = michal;
                     michal = undefined;
                     entity = report.bind(michal)(tangon, zuuluu);
- 81:
+ 85:
                     return entity;
                 }
             };

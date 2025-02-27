@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 150; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 154; continue _fun00005 }
  10:
                     oscard = argFoo;
  13: // try_start_0
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  88:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 143; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 147; continue _fun00005 }
  94:
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -345,14 +345,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {'type': 'USER_GUILD_JOIN_REQUEST_UPDATE', 'guildId': null, 'request': null};
                     zuuluu['guildId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 140: // try_end0
+ 144: // try_end0
                     return michal;
- 143:
+ 147:
                     return michal;
- 146: // catch_target0
+ 150: // catch_target0
                     CatchBlockStart(arg_register=1);
                     throw michal;
- 150:
+ 154:
                     return entity;
                 }
             };
@@ -1005,7 +1005,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00022_ip = 223; continue _fun00021 }
+                    if(michal) { _fun00022_ip = 219; continue _fun00021 }
  10:
                     oscard = argFoo;
  13: // try_start_0
@@ -1065,7 +1065,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['guildId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 223:
+ 219:
                     return entity;
                 }
             };

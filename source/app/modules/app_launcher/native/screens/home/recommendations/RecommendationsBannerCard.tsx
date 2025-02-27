@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = true;
             zuuluu['botIconFirst'] = yankee;
             verify = tangon.bind(verify)(zuuluu);
-            if(entity) { _fun00002_ip = 903; continue _fun00001 }
+            if(entity) { _fun00002_ip = 907; continue _fun00001 }
  234:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot0;
@@ -378,8 +378,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             entity['children'] = yankee;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 964; continue _fun00001;
- 903:
+            _fun00002_ip = 968; continue _fun00001;
+ 907:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isFirstRow'] = golfie;
             michal['isLastRow'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 964:
+ 968:
             return entity;
         }
     };

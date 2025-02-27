@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 451; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 469; continue _fun00005 }
  12:
                     zuuluu = _closure1_slot4;
                     zuuluu = zuuluu.isFetchingCurrentQuests;
-                    if(zuuluu) { _fun00006_ip = 446; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 464; continue _fun00005 }
  31:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  169:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00006_ip = 323; continue _fun00005 }
+                    if(option) { _fun00006_ip = 341; continue _fun00005 }
  178:
                     option = zuuluu.body;
                     offset = option.quests;
@@ -398,16 +398,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    romeon = option.bind(verify)(tangon);
+                    foxtra = option.bind(verify)(tangon);
+                    tangon = zuuluu.body;
+                    romeon = tangon.excluded_quests;
                     option = _closure1_slot1;
                     tangon = _closure1_slot2;
                     verify = tangon[golfie];
                     yankee = option.bind(report)(verify);
                     offset = yankee.dispatch;
                     verify = {};
-                    foxtra = 'QUESTS_FETCH_CURRENT_QUESTS_SUCCESS';
-                    verify['type'] = foxtra;
-                    verify['quests'] = romeon;
+                    backup = 'QUESTS_FETCH_CURRENT_QUESTS_SUCCESS';
+                    verify['type'] = backup;
+                    verify['quests'] = foxtra;
+                    verify['excludedQuests'] = romeon;
                     verify = offset.bind(yankee)(verify);
                     tangon = tangon[oscard];
                     offset = option.bind(report)(tangon);
@@ -418,11 +421,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = true;
                     tangon['wasSuccessful'] = yankee;
                     tangon = verify.bind(offset)(option, tangon);
- 318: // try_end0
-                    _fun00006_ip = 446; continue _fun00005;
- 323:
+ 336: // try_end0
+                    _fun00006_ip = 464; continue _fun00005;
+ 341:
                     return zuuluu;
- 326: // catch_target0
+ 344: // catch_target0
                     CatchBlockStart(arg_register=11);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -437,9 +440,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = tangon.bind(report)(offset);
                     yankee = offset.prototype;
                     yankee = Object.create(yankee, {constructor: {value: offset}});
-                    sizing = yankee;
-                    kiloes = romeon;
-                    offset = new sizing[offset](kiloes, backup);
+                    output = yankee;
+                    sizing = romeon;
+                    offset = new output[offset](sizing, kiloes);
                     offset = offset instanceof Object ? offset : yankee;
                     golfie['error'] = offset;
                     golfie = option.bind(verify)(golfie);
@@ -452,10 +455,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = false;
                     michal['wasSuccessful'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 446:
+ 464:
                     michal = undefined;
                     return michal;
- 451:
+ 469:
                     return entity;
                 }
             };

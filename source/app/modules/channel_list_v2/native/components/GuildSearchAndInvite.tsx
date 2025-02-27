@@ -459,15 +459,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['flexDirection'] = tangon;
             tangon = 10;
             golfie = argFoo;
-            if(!golfie) { _fun00010_ip = 97; continue _fun00009 }
- 69:
+            if(!golfie) { _fun00010_ip = 96; continue _fun00009 }
+ 68:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
             golfie = golfie[oscard];
             golfie = option.bind(report)(golfie);
             golfie = golfie.spacing;
             tangon = golfie.PX_12;
- 97:
+ 96:
             michal['gap'] = tangon;
             entity['container'] = michal;
             michal = {};

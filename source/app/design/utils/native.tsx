@@ -41,5 +41,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = tangon.bind(entity)(michal);
     michal = michal.useFocus;
     zuuluu['useFocus'] = michal;
+    michal = 4;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.isThemeLight;
+    zuuluu['isThemeLight'] = oscard;
+    michal = report[michal];
+    michal = tangon.bind(entity)(michal);
+    michal = michal.isThemeDark;
+    zuuluu['isThemeDark'] = michal;
     return entity;
 })();

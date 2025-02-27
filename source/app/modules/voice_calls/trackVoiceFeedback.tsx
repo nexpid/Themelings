@@ -105,24 +105,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['noise_cancellation_enabled'] = yankee;
             backup = verify == foxtra;
             yankee = undefined;
-            if(backup) { _fun00002_ip = 353; continue _fun00001 }
- 348:
+            if(backup) { _fun00002_ip = 339; continue _fun00001 }
+ 334:
             yankee = foxtra.name;
- 353:
+ 339:
             michal['input_device_name'] = yankee;
             foxtra = verify == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 372; continue _fun00001 }
- 367:
+            if(foxtra) { _fun00002_ip = 358; continue _fun00001 }
+ 353:
             yankee = romeon.name;
- 372:
+ 358:
             michal['output_device_name'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun00002_ip = 393; continue _fun00001 }
- 388:
+            if(yankee) { _fun00002_ip = 379; continue _fun00001 }
+ 374:
             verify = offset.name;
- 393:
+ 379:
             michal['video_device_name'] = verify;
             michal['audio_subsystem'] = option;
             michal['audio_layer'] = golfie;
